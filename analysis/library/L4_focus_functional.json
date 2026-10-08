@@ -1,0 +1,5741 @@
+[
+ {
+  "record_type": "exercise",
+  "name_raw": "Goblet squats heels elevated",
+  "name_clean": "Goblet Squat (Heels Elevated)",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ9",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "QUADS 👇",
+  "group_header_cell": "AZ8",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > QUADS",
+  "sub_pattern": "BILATERAL KNEE DOMINANT",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "quadriceps"
+  ],
+  "secondary_muscles": [
+   "glutes",
+   "adductors",
+   "core (anterior load)"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "DB",
+   "KB",
+   "other"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-15 (or 15-20)",
+  "main_library_equivalent": [
+   "AI11 'Goblet KB/DB Squats' (BILATERAL KNEE DOMINANT, FOUNDATIONAL block)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Heels-elevated (wedge/plates = 'other' equipment) variant does not exist in the main library; closest is the FOUNDATIONAL goblet squat. Heel elevation biases knee travel/quads."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Leg press",
+  "name_clean": "Leg Press",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ10",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "QUADS 👇",
+  "group_header_cell": "AZ8",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > QUADS",
+  "sub_pattern": "BILATERAL KNEE DOMINANT",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "quadriceps"
+  ],
+  "secondary_muscles": [
+   "glutes",
+   "adductors"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "machine"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "high",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-20 or MYO SET",
+  "main_library_equivalent": [
+   "AI98 / AK16 'Leg press' (BILATERAL KNEE DOMINANT, ADVANCED block 'RP-BS-KNEE DOMINANT -ADVANCED')",
+   "AESTHETICS tab D4 uses it at 3 x '15 Reps'"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Coach elsewhere (MASTER_MODEL 'ALL ABOUT SQUATS' G35/H35/I35): leg press = 'LOVE IT' - local quad fatigue without much systemic fatigue; MASTER_MODEL '4 TRACKS' W61 prescribes '2 sets LEG PRESS MYO - 15-5-5-5-5-5'. Note the main library files Leg press under ADVANCED although skill demand is low (level there seems to mean training age/intensity tolerance, not technique)."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Zercher squats",
+  "name_clean": "Zercher Squat (Barbell)",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ11",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "QUADS 👇",
+  "group_header_cell": "AZ8",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > QUADS",
+  "sub_pattern": "BILATERAL KNEE DOMINANT",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "quadriceps"
+  ],
+  "secondary_muscles": [
+   "glutes",
+   "upper back",
+   "core",
+   "biceps (isometric hold)"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "barbell"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "high",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-12",
+  "main_library_equivalent": [
+   "AI48 / AJ11 'High Zercher Barbell Squats' (MODERATE / 'INTERMIDIATE')",
+   "MASTER_MODEL 'ALL ABOUT SQUATS' D11 'Zercher Squat' rated MODERATE on its EASIEST->HARDEST upright-posture scale"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Front-loaded squat; coach's loading principle orders squats from most front-loaded (easiest to stay upright) to most back-loaded."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Back squats",
+  "name_clean": "Barbell Back Squat",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ12",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "QUADS 👇",
+  "group_header_cell": "AZ8",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > QUADS",
+  "sub_pattern": "BILATERAL KNEE DOMINANT",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "quadriceps",
+   "glutes"
+  ],
+  "secondary_muscles": [
+   "adductors",
+   "hamstrings",
+   "erectors"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "barbell"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "high",
+  "skill_demand": "high",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "4-12 (strength 4-6 / hypertrophy 8-12)",
+  "main_library_equivalent": [
+   "AI49 'High Bar Back Squat', AI50 'Low Bar Back Squat' (MODERATE block)",
+   "MASTER_MODEL 'ALL ABOUT SQUATS': High Bar = HARDER, Low Bar = HARDEST"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Generic entry - the main library splits into high-bar/low-bar. Natural candidate for the coach's 'powerlifting style heavier/fewer reps' vs 'more sets lighter' preference switch."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Walking Lunges",
+  "name_clean": "Walking Lunge",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ13",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "QUADS 👇",
+  "group_header_cell": "AZ8",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > QUADS",
+  "sub_pattern": "UNILATERAL KNEE DOMINANT",
+  "laterality": "alternating",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "quadriceps",
+   "glutes"
+  ],
+  "secondary_muscles": [
+   "adductors",
+   "hamstrings",
+   "calves"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "bodyweight",
+   "DB",
+   "KB"
+  ],
+  "no_equipment_ok": true,
+  "load_ceiling": "moderate",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-12 per leg (or 20 total steps)",
+  "main_library_equivalent": [
+   "No exact match in AL ('UNILATERAL KNEE DOMINANT'); closest AL11 'Forward  Lunges'",
+   "MASTER_MODEL '05 EXAMPLE ATHLETIC FULL BODY' C35 'HEAVY: Heavy walking lunges'"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "MASTER_MODEL 'ALL ABOUT LUNGES' A8: 'Lunges are a propulsive strategy' - walking lunge is the travelling/propulsive version."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Stationary Lunges",
+  "name_clean": "Stationary Lunge (Split Squat)",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ14",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "QUADS 👇",
+  "group_header_cell": "AZ8",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > QUADS",
+  "sub_pattern": "UNILATERAL KNEE DOMINANT",
+  "laterality": "unilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "quadriceps",
+   "glutes"
+  ],
+  "secondary_muscles": [
+   "adductors"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "bodyweight",
+   "DB",
+   "KB"
+  ],
+  "no_equipment_ok": true,
+  "load_ceiling": "moderate",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-12 per leg",
+  "main_library_equivalent": [
+   "AL9 'Stationary Lunges' (UNILATERAL KNEE DOMINANT)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Bulgarian Split squats",
+  "name_clean": "Bulgarian Split Squat",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ15",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "QUADS 👇",
+  "group_header_cell": "AZ8",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > QUADS",
+  "sub_pattern": "UNILATERAL KNEE DOMINANT",
+  "laterality": "unilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "quadriceps",
+   "glutes"
+  ],
+  "secondary_muscles": [
+   "adductors",
+   "hip flexors (rear leg stretch)"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "bench",
+   "bodyweight",
+   "DB"
+  ],
+  "no_equipment_ok": true,
+  "load_ceiling": "moderate",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-12 per leg",
+  "main_library_equivalent": [
+   "AL16 'Rear Foot Elevated Lunges (RFE)' (same exercise, coach's library name)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "no_equipment_ok assumes a chair/couch can replace the bench."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Leg extensions",
+  "name_clean": "Leg Extension (Machine)",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ16",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "QUADS 👇",
+  "group_header_cell": "AZ8",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > QUADS",
+  "sub_pattern": "LEG EXTENSIONS (knee-extension isolation)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "quadriceps"
+  ],
+  "secondary_muscles": [],
+  "muscle_size_class": "big",
+  "equipment": [
+   "machine"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "15-20 or MYO SET",
+  "main_library_equivalent": [
+   "AM9 'Leg Extensions' (LEG EXTENSIONS)",
+   "also AI20/AI55/AI101 'Leg Extension Machine' inside BILATERAL KNEE DOMINANT"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Big muscle but isolation: the coach doses it like a small muscle - AESTHETICS tab D9 = 2 x '20 Reps'; ATHLETIC/JUSTICE LEAGUE G12 = 'MYO SET'. Program tabs mis-type it as 'Leg extensions' (case mismatch vs AM9)."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Bd overhead Press",
+  "name_clean": "DB Overhead Press",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ45",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "SHOULDERS/TRAPS 👇",
+  "group_header_cell": "AZ44",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > SHOULDERS/TRAPS",
+  "sub_pattern": "VERTICAL PUSH",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "anterior deltoids",
+   "lateral deltoids"
+  ],
+  "secondary_muscles": [
+   "triceps",
+   "upper traps",
+   "serratus anterior"
+  ],
+  "muscle_size_class": "mixed",
+  "equipment": [
+   "DB"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-12",
+  "main_library_equivalent": [
+   "AA50/AB13 'Standing DB Press' (VERTICAL PUSH ADVANCED)",
+   "AA9 'Incline Seated DB Press' (FOUNDATIONAL)",
+   "MASTER_MODEL 'RESISTANCE PATTERNS' E8 'Seated DB press'"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Raw text 'Bd overhead Press' - 'Bd' is a typo for 'DB'. Plane follows the coach's own convention (MASTER_MODEL 'RESISTANCE PATTERNS' heads VERTICAL PUSH as 'BILATERAL SAGITAL')."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "barbell overhead press",
+  "name_clean": "Barbell Overhead Press",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ46",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "SHOULDERS/TRAPS 👇",
+  "group_header_cell": "AZ44",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > SHOULDERS/TRAPS",
+  "sub_pattern": "VERTICAL PUSH",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "anterior deltoids",
+   "lateral deltoids"
+  ],
+  "secondary_muscles": [
+   "triceps",
+   "upper traps",
+   "core"
+  ],
+  "muscle_size_class": "mixed",
+  "equipment": [
+   "barbell"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "high",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "4-10",
+  "main_library_equivalent": [
+   "No standing barbell press in AA (AA50 and AA51 are BOTH 'Standing DB Press' - probably one was meant to be barbell)",
+   "MASTER_MODEL 'RESISTANCE PATTERNS' E15 'Standing Barbell press' (red = hardest)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "High incline db press",
+  "name_clean": "High-Incline DB Press",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ47",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "SHOULDERS/TRAPS 👇",
+  "group_header_cell": "AZ44",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > SHOULDERS/TRAPS",
+  "sub_pattern": "MID RANGE PUSH (incline; between vertical and horizontal push)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "anterior deltoids",
+   "upper (clavicular) pectorals"
+  ],
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "muscle_size_class": "mixed",
+  "equipment": [
+   "DB",
+   "bench"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-12",
+  "main_library_equivalent": [
+   "AA9 'Incline Seated DB Press' (VERTICAL PUSH FOUNDATIONAL)",
+   "MASTER_MODEL 'RESISTANCE PATTERNS' G6 'MID RANGE PUSH' column"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "BYOP has no MID RANGE PUSH category; MASTER_MODEL does. The focus list files incline presses under both SHOULDERS/TRAPS and CHEST."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Incline db press",
+  "name_clean": "Incline DB Press",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ48",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "SHOULDERS/TRAPS 👇",
+  "group_header_cell": "AZ44",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > SHOULDERS/TRAPS",
+  "sub_pattern": "MID RANGE PUSH (incline)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "upper (clavicular) pectorals",
+   "anterior deltoids"
+  ],
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "muscle_size_class": "mixed",
+  "equipment": [
+   "DB",
+   "bench"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-12",
+  "main_library_equivalent": [
+   "AD91/AF9 'Incline DB Bench Press' (HORIZONTAL PUSH ADVANCED)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Exact duplicate text of AZ245 (CHEST group). Same exercise counted toward shoulders here and chest there - a generator must decide which muscle's weekly set count it credits (inferred: both, as a shared/compound set)."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Incline barbell press",
+  "name_clean": "Incline Barbell Press",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ49",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "SHOULDERS/TRAPS 👇",
+  "group_header_cell": "AZ44",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > SHOULDERS/TRAPS",
+  "sub_pattern": "MID RANGE PUSH (incline)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "upper (clavicular) pectorals",
+   "anterior deltoids"
+  ],
+  "secondary_muscles": [
+   "triceps"
+  ],
+  "muscle_size_class": "mixed",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "high",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-10",
+  "main_library_equivalent": [
+   "Not in master AD; 'Copy of Copy of MASTER EXERCISE' added L35 'Barbell Incline Bench Press' to Horizontal Push",
+   "AA10 'Incline Seated Barbell Press' (VERTICAL PUSH FOUNDATIONAL)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Exact duplicate text of AZ250 (CHEST group)."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "DB side raises",
+  "name_clean": "DB Side (Lateral) Raise",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ50",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "SHOULDERS/TRAPS 👇",
+  "group_header_cell": "AZ44",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > SHOULDERS/TRAPS",
+  "sub_pattern": "SIDE RAISES (shoulder abduction)",
+  "laterality": "bilateral",
+  "plane": "frontal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "lateral deltoids"
+  ],
+  "secondary_muscles": [
+   "upper traps",
+   "supraspinatus"
+  ],
+  "muscle_size_class": "small",
+  "equipment": [
+   "DB"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "12-20",
+  "main_library_equivalent": [
+   "AH11 'Lateral Raises w/ DB ' / AH9 'Seated Lateral Raises w/ DB ' (SIDE RAISES)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Program tabs call this slot 'ABdution' (abduction) under purpose 'Shoulders/Traps'."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Cable side raises",
+  "name_clean": "Cable Side Raise",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ51",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "SHOULDERS/TRAPS 👇",
+  "group_header_cell": "AZ44",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > SHOULDERS/TRAPS",
+  "sub_pattern": "SIDE RAISES (shoulder abduction)",
+  "laterality": "unilateral",
+  "plane": "frontal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "lateral deltoids"
+  ],
+  "secondary_muscles": [
+   "upper traps",
+   "supraspinatus"
+  ],
+  "muscle_size_class": "small",
+  "equipment": [
+   "cable"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "12-20 per arm",
+  "main_library_equivalent": [
+   "AH14 'Inclined Cable Machine Side Raises', AH19 'Cable machine Leaning Side raises '"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Laterality inferred (cable side raises are normally one arm at a time)."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "DB upright rows",
+  "name_clean": "DB Upright Row",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ52",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "SHOULDERS/TRAPS 👇",
+  "group_header_cell": "AZ44",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > SHOULDERS/TRAPS",
+  "sub_pattern": "SIDE RAISES / shoulder abduction + shrug (no BYOP category)",
+  "laterality": "bilateral",
+  "plane": "frontal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "lateral deltoids",
+   "upper traps"
+  ],
+  "secondary_muscles": [
+   "biceps",
+   "brachialis"
+  ],
+  "muscle_size_class": "small",
+  "equipment": [
+   "DB"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-15",
+  "main_library_equivalent": [
+   "Not in the BYOP main library",
+   "MASTER_MODEL 'RESISTANCE PATTERNS' K13 'DB upright row' (SHOULDERS)",
+   "MASTER_MODEL example splits use 'DB upright rows'"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Only 'trap'-biased item in a group named SHOULDERS/TRAPS."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Barbell upright rows",
+  "name_clean": "Barbell Upright Row",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ53",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "SHOULDERS/TRAPS 👇",
+  "group_header_cell": "AZ44",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > SHOULDERS/TRAPS",
+  "sub_pattern": "SIDE RAISES / shoulder abduction + shrug (no BYOP category)",
+  "laterality": "bilateral",
+  "plane": "frontal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "lateral deltoids",
+   "upper traps"
+  ],
+  "secondary_muscles": [
+   "biceps",
+   "brachialis"
+  ],
+  "muscle_size_class": "small",
+  "equipment": [
+   "barbell"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-15",
+  "main_library_equivalent": [
+   "Not in the BYOP main library",
+   "MASTER_MODEL 'RESISTANCE PATTERNS' K15 'Barbell upright row'"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Pull ups",
+  "name_clean": "Pull-Up",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ90",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "BACK 👇",
+  "group_header_cell": "AZ89",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > BACK",
+  "sub_pattern": "VERTICAL PULL",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "latissimus dorsi"
+  ],
+  "secondary_muscles": [
+   "biceps",
+   "rhomboids",
+   "lower/mid traps",
+   "rear deltoids",
+   "forearms/grip"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "other"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "5-12",
+  "main_library_equivalent": [
+   "U46-U52 / V9-V15 strict / wide-grip / weighted pull-up variants (VERTICAL PULL ADVANCED)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Equipment 'other' = pull-up bar. Plane per the coach's convention (MASTER_MODEL heads VERTICAL PULL as 'BILATERAL SAGITAL'); anatomically a wide grip is frontal-plane."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "assisted pull ups",
+  "name_clean": "Assisted Pull-Up (band or machine)",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ91",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "BACK 👇",
+  "group_header_cell": "AZ89",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > BACK",
+  "sub_pattern": "VERTICAL PULL",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "latissimus dorsi"
+  ],
+  "secondary_muscles": [
+   "biceps",
+   "rhomboids",
+   "lower/mid traps"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "band",
+   "machine"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-12",
+  "main_library_equivalent": [
+   "U15 'Assisted  Pull-Up w bands', U16-U18 'Assisted ... Pull-Up Machine ...' (VERTICAL PULL FOUNDATIONAL)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "lat pull down",
+  "name_clean": "Lat Pulldown",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ92",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "BACK 👇",
+  "group_header_cell": "AZ89",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > BACK",
+  "sub_pattern": "VERTICAL PULL",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "latissimus dorsi"
+  ],
+  "secondary_muscles": [
+   "biceps",
+   "teres major",
+   "rhomboids",
+   "rear deltoids"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "cable",
+   "machine"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-15",
+  "main_library_equivalent": [
+   "U9-U14 'Lat Pulldown ...' grip variants (VERTICAL PULL FOUNDATIONAL)",
+   "AESTHETICS tab D7 'Lat Pulldown Pronated Grip' 3 x '15 Reps'"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Db rows",
+  "name_clean": "DB Row (single-arm)",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ93",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "BACK 👇",
+  "group_header_cell": "AZ89",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > BACK",
+  "sub_pattern": "HORIZONTAL PULL",
+  "laterality": "unilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "latissimus dorsi",
+   "rhomboids",
+   "mid traps"
+  ],
+  "secondary_muscles": [
+   "rear deltoids",
+   "biceps",
+   "grip"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "DB",
+   "bench"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-12 per arm",
+  "main_library_equivalent": [
+   "X91 / Z9 'DB/ Kb Rows' (HORIZONTAL PULL UNILATERAL)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Laterality inferred from the library match (UNILATERAL block)."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Cable rows",
+  "name_clean": "Seated Cable Row",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ94",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "BACK 👇",
+  "group_header_cell": "AZ89",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > BACK",
+  "sub_pattern": "HORIZONTAL PULL",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "latissimus dorsi",
+   "rhomboids",
+   "mid traps"
+  ],
+  "secondary_muscles": [
+   "rear deltoids",
+   "biceps"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "cable"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-15",
+  "main_library_equivalent": [
+   "Only unilateral X92 / Z10 'Cable Machine UL Rows' in BYOP; a bilateral seated cable row is missing from HORIZONTAL PULL",
+   "MASTER_MODEL 'RESISTANCE PATTERNS' G63 'Sealed cable Row'"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Laterality inferred (raw text 'Cable rows' does not say)."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "machine rows",
+  "name_clean": "Machine Row",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ95",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "BACK 👇",
+  "group_header_cell": "AZ89",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > BACK",
+  "sub_pattern": "HORIZONTAL PULL",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "latissimus dorsi",
+   "rhomboids",
+   "mid traps"
+  ],
+  "secondary_muscles": [
+   "rear deltoids",
+   "biceps"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "machine"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-15",
+  "main_library_equivalent": [
+   "X9-X11 'Machine Row Close/Supinated/Pronated Grip(s)' (HORIZONTAL PULL FOUNDATIONAL)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "DB overhead tricep ext",
+  "name_clean": "DB Overhead Triceps Extension",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ125",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "TRICEP 👇",
+  "group_header_cell": "AZ124",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > TRICEP",
+  "sub_pattern": "TRICEP (elbow extension, overhead / long-head bias)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "triceps (long head bias)"
+  ],
+  "secondary_muscles": [],
+  "muscle_size_class": "small",
+  "equipment": [
+   "DB"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-20",
+  "main_library_equivalent": [
+   "AT11 'Overhead DB Tricep Extension' (TRICEP)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "cable tricep extensions",
+  "name_clean": "Cable Triceps Extension (Pushdown)",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ126",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "TRICEP 👇",
+  "group_header_cell": "AZ124",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > TRICEP",
+  "sub_pattern": "TRICEP (elbow extension)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "triceps (lateral/medial heads)"
+  ],
+  "secondary_muscles": [],
+  "muscle_size_class": "small",
+  "equipment": [
+   "cable"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "12-20",
+  "main_library_equivalent": [
+   "AT17 'Cable tricep push downs', AT9 'Straight bar pronated tricep extensions ' (TRICEP)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Raw 'cable tricep extensions' - interpreted as pushdowns because the overhead cable version is listed separately (AZ127)."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "cable overhead tricep ext",
+  "name_clean": "Cable Overhead Triceps Extension",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ127",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "TRICEP 👇",
+  "group_header_cell": "AZ124",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > TRICEP",
+  "sub_pattern": "TRICEP (elbow extension, overhead / long-head bias)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "triceps (long head bias)"
+  ],
+  "secondary_muscles": [],
+  "muscle_size_class": "small",
+  "equipment": [
+   "cable"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-20",
+  "main_library_equivalent": [
+   "AT16 'Overhead cable tricep extension' (TRICEP)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "dips",
+  "name_clean": "Dips (parallel bars)",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ128",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "TRICEP 👇",
+  "group_header_cell": "AZ124",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > TRICEP",
+  "sub_pattern": "HORIZONTAL PUSH (vertical-ish press; triceps focus)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "triceps",
+   "lower pectorals"
+  ],
+  "secondary_muscles": [
+   "anterior deltoids"
+  ],
+  "muscle_size_class": "mixed",
+  "equipment": [
+   "other"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-15",
+  "main_library_equivalent": [
+   "AD96 / AF15 'Dips ', AD97 'Weighted Dips ' (HORIZONTAL PUSH ADVANCED)",
+   "PPL tab slot 'Chest' / 'Dips' wired to AD"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Cross-listed: chest pattern in the main library, triceps in the focus list. Equipment 'other' = dip bars."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "assisted dips",
+  "name_clean": "Assisted Dips (band or machine)",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ129",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "TRICEP 👇",
+  "group_header_cell": "AZ124",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > TRICEP",
+  "sub_pattern": "HORIZONTAL PUSH (triceps focus)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "triceps",
+   "lower pectorals"
+  ],
+  "secondary_muscles": [
+   "anterior deltoids"
+  ],
+  "muscle_size_class": "mixed",
+  "equipment": [
+   "band",
+   "machine"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-15",
+  "main_library_equivalent": [
+   "Not in the BYOP main library (regression of AD96 'Dips ')"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Single leg Glute bridge",
+  "name_clean": "Single-Leg Glute Bridge",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ165",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "GLUTES 👇",
+  "group_header_cell": "AZ164",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > GLUTES",
+  "sub_pattern": "UNILATERAL HIP DOMINANT",
+  "laterality": "unilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "glute max"
+  ],
+  "secondary_muscles": [
+   "hamstrings",
+   "glute med (pelvic stability)"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "bodyweight"
+  ],
+  "no_equipment_ok": true,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-20 per leg",
+  "main_library_equivalent": [
+   "AQ9 'SL Glute Bridges (foot on the ground)' (UNILATERAL HIP DOMINANT FOUNDATIONAL)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Barbell hip thrust",
+  "name_clean": "Barbell Hip Thrust",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ166",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "GLUTES 👇",
+  "group_header_cell": "AZ164",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > GLUTES",
+  "sub_pattern": "BILATERAL HIP DOMINANT",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "glute max"
+  ],
+  "secondary_muscles": [
+   "hamstrings",
+   "adductors"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "high",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-15",
+  "main_library_equivalent": [
+   "AN98 / AP16 'Barbell Hip Thrusts' (BILATERAL HIP DOMINANT ADVANCED)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "DB deadlifts",
+  "name_clean": "DB Deadlift",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ205",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "HAMSTRINGS 👇",
+  "group_header_cell": "AZ204",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > HAMSTRINGS",
+  "sub_pattern": "BILATERAL HIP DOMINANT",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "hamstrings",
+   "glute max"
+  ],
+  "secondary_muscles": [
+   "erectors",
+   "adductors",
+   "grip"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "DB"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-15",
+  "main_library_equivalent": [
+   "AN46 / AO9 'DB Deadlifts' (BILATERAL HIP DOMINANT MODERATE)",
+   "AESTHETICS tab D10 'DB Deadlifts' 3 x '15 Reps'"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Barbell deadlifts",
+  "name_clean": "Barbell Deadlift",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ206",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "HAMSTRINGS 👇",
+  "group_header_cell": "AZ204",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > HAMSTRINGS",
+  "sub_pattern": "BILATERAL HIP DOMINANT",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "hamstrings",
+   "glute max",
+   "erectors"
+  ],
+  "secondary_muscles": [
+   "adductors",
+   "quadriceps",
+   "traps",
+   "grip"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "barbell"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "high",
+  "skill_demand": "high",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "3-8",
+  "main_library_equivalent": [
+   "AN92 / AP10 'Barbell Deadlifts' (BILATERAL HIP DOMINANT ADVANCED)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Hyperextensions",
+  "name_clean": "Hyperextension (Back Extension)",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ207",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "HAMSTRINGS 👇",
+  "group_header_cell": "AZ204",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > HAMSTRINGS",
+  "sub_pattern": "BILATERAL HIP DOMINANT",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "glute max",
+   "hamstrings",
+   "erectors"
+  ],
+  "secondary_muscles": [],
+  "muscle_size_class": "big",
+  "equipment": [
+   "machine",
+   "bench"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-20",
+  "main_library_equivalent": [
+   "AN55 / AO18 'Hyper extensions ' (BILATERAL HIP DOMINANT MODERATE)",
+   "MASTER_MODEL '45 degree hip ext.'"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Equipment = 45-degree hyperextension bench/GHD."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Hip thrusts/ Glute bridges",
+  "name_clean": "Hip Thrust / Glute Bridge",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ208",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "HAMSTRINGS 👇",
+  "group_header_cell": "AZ204",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > HAMSTRINGS",
+  "sub_pattern": "BILATERAL HIP DOMINANT",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "glute max"
+  ],
+  "secondary_muscles": [
+   "hamstrings"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "bodyweight",
+   "barbell",
+   "DB",
+   "bench"
+  ],
+  "no_equipment_ok": true,
+  "load_ceiling": "moderate",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-20",
+  "main_library_equivalent": [
+   "AN9 'Glute Bridges', AN53 'DB Hip Thrusts', AN98 'Barbell Hip Thrusts', AN16 'Sandbag Hip Thrusts'"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Filed under HAMSTRINGS 👇 although glute-dominant; overlaps AZ166 in the GLUTES group."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Staggered stance DL",
+  "name_clean": "Staggered-Stance Deadlift (DB)",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ209",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "HAMSTRINGS 👇",
+  "group_header_cell": "AZ204",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > HAMSTRINGS",
+  "sub_pattern": "UNILATERAL HIP DOMINANT",
+  "laterality": "unilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "hamstrings",
+   "glute max"
+  ],
+  "secondary_muscles": [
+   "adductors",
+   "erectors"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "DB",
+   "barbell"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-12 per side",
+  "main_library_equivalent": [
+   "AQ12 'Staggered Stance DL w/ DB ', AQ14 'Staggered Stance DL w/ Barbell' (UNILATERAL HIP DOMINANT)",
+   "AESTHETICS tab D12 selected 'Staggered Stance DL w/ DB '"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Foot on wall db DL",
+  "name_clean": "Rear-Foot-on-Wall DB Deadlift (RDL)",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ210",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "HAMSTRINGS 👇",
+  "group_header_cell": "AZ204",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > HAMSTRINGS",
+  "sub_pattern": "UNILATERAL HIP DOMINANT",
+  "laterality": "unilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "hamstrings",
+   "glute max"
+  ],
+  "secondary_muscles": [
+   "adductors",
+   "erectors"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "DB",
+   "other"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-12 per side",
+  "main_library_equivalent": [
+   "Not in the BYOP main library",
+   "MASTER_MODEL BASEBALL D36 'Rear foot on wall DB RDL', DM37 'heavy rear foot on wall db deadlift'"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Raw 'Foot on wall db DL'; 'other' = wall (foot support)."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Leg curls",
+  "name_clean": "Leg Curl (Machine)",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ211",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "HAMSTRINGS 👇",
+  "group_header_cell": "AZ204",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > HAMSTRINGS",
+  "sub_pattern": "LEG CURLS (knee-flexion isolation)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "hamstrings"
+  ],
+  "secondary_muscles": [
+   "calves (gastrocnemius)"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "machine"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-20",
+  "main_library_equivalent": [
+   "AR9 'Seated leg curls', AR10 'Lying Leg Curls' (LEG CURLS)",
+   "AN15 'Leg Curl Machine', AN54 'Machine Leg Curls (Seated and Laying Down)'"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Big muscle, isolation exercise - like leg extensions, likely dosed with higher reps (inferred)."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Lying leg curls",
+  "name_clean": "Lying Leg Curl",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ212",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "HAMSTRINGS 👇",
+  "group_header_cell": "AZ204",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > HAMSTRINGS",
+  "sub_pattern": "LEG CURLS (knee-flexion isolation)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "hamstrings"
+  ],
+  "secondary_muscles": [
+   "calves (gastrocnemius)"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "machine"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-20",
+  "main_library_equivalent": [
+   "AR10 'Lying Leg Curls' (LEG CURLS)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Incline db press",
+  "name_clean": "Incline DB Press",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ245",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "CHEST 👇",
+  "group_header_cell": "AZ244",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > CHEST",
+  "sub_pattern": "HORIZONTAL PUSH / MID RANGE PUSH (incline)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "upper (clavicular) pectorals"
+  ],
+  "secondary_muscles": [
+   "anterior deltoids",
+   "triceps"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "DB",
+   "bench"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-12",
+  "main_library_equivalent": [
+   "AD91 / AF9 'Incline DB Bench Press' (HORIZONTAL PUSH ADVANCED)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Exact duplicate text of AZ48 (SHOULDERS/TRAPS group)."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "bench press",
+  "name_clean": "Barbell Bench Press",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ246",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "CHEST 👇",
+  "group_header_cell": "AZ244",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > CHEST",
+  "sub_pattern": "HORIZONTAL PUSH",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "pectorals"
+  ],
+  "secondary_muscles": [
+   "anterior deltoids",
+   "triceps"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "high",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "4-12",
+  "main_library_equivalent": [
+   "AD95 / AF14 'Barbell bench Press' (HORIZONTAL PUSH ADVANCED)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Raw 'bench press'."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "db bench press",
+  "name_clean": "DB Bench Press",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ247",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "CHEST 👇",
+  "group_header_cell": "AZ244",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > CHEST",
+  "sub_pattern": "HORIZONTAL PUSH",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "pectorals"
+  ],
+  "secondary_muscles": [
+   "anterior deltoids",
+   "triceps"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "DB",
+   "bench"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "moderate",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-12",
+  "main_library_equivalent": [
+   "AD94 / AF13 'DB Bench Press' (HORIZONTAL PUSH ADVANCED)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "DB flies",
+  "name_clean": "DB Fly",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ248",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "CHEST 👇",
+  "group_header_cell": "AZ244",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > CHEST",
+  "sub_pattern": "HORIZONTAL PUSH (fly / horizontal adduction)",
+  "laterality": "bilateral",
+  "plane": "transverse",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "pectorals"
+  ],
+  "secondary_muscles": [
+   "anterior deltoids"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "DB",
+   "bench"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-15",
+  "main_library_equivalent": [
+   "AD48 / AE11 'Bench DB Flies ' (HORIZONTAL PUSH MODERATE)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Plane = anatomical horizontal adduction (inferred); the coach groups flies with horizontal push."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Cable flies",
+  "name_clean": "Cable Fly",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ249",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "CHEST 👇",
+  "group_header_cell": "AZ244",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > CHEST",
+  "sub_pattern": "HORIZONTAL PUSH (fly / horizontal adduction)",
+  "laterality": "bilateral",
+  "plane": "transverse",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "pectorals"
+  ],
+  "secondary_muscles": [
+   "anterior deltoids"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "cable"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-20",
+  "main_library_equivalent": [
+   "AD49 'Cable flies' (HORIZONTAL PUSH MODERATE)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Incline barbell press",
+  "name_clean": "Incline Barbell Press",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ250",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "CHEST 👇",
+  "group_header_cell": "AZ244",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > CHEST",
+  "sub_pattern": "HORIZONTAL PUSH / MID RANGE PUSH (incline)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "upper (clavicular) pectorals"
+  ],
+  "secondary_muscles": [
+   "anterior deltoids",
+   "triceps"
+  ],
+  "muscle_size_class": "big",
+  "equipment": [
+   "barbell",
+   "bench"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "high",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-10",
+  "main_library_equivalent": [
+   "Missing from master AD; 'Copy of Copy of MASTER EXERCISE' L35 adds 'Barbell Incline Bench Press'",
+   "MASTER_MODEL 'RESISTANCE PATTERNS' G10 'Incline barbell bench' (MID RANGE PUSH)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Exact duplicate text of AZ49 (SHOULDERS/TRAPS group)."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Weighted situps",
+  "name_clean": "Weighted Sit-Up",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ285",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "CORE 👇",
+  "group_header_cell": "AZ284",
+  "family": "CONTROL",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > CORE",
+  "sub_pattern": "CORE THORAX SAGITTAL",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "rectus abdominis"
+  ],
+  "secondary_muscles": [
+   "hip flexors",
+   "obliques"
+  ],
+  "muscle_size_class": "small",
+  "equipment": [
+   "DB",
+   "medball",
+   "other"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-20",
+  "main_library_equivalent": [
+   "O13 'Weighted Situps' (CORE THORAX, 'CORE THORAX SAGITAL', FOUNDATIONAL)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Family set to CONTROL because the main library files trunk work under PATTERN 'CONTROL'; the focus list itself has no PATTERN label. 'other' = weight plate."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "weighted decline situps",
+  "name_clean": "Weighted Decline Sit-Up",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ286",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "CORE 👇",
+  "group_header_cell": "AZ284",
+  "family": "CONTROL",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > CORE",
+  "sub_pattern": "CORE THORAX SAGITTAL",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "rectus abdominis"
+  ],
+  "secondary_muscles": [
+   "hip flexors",
+   "obliques"
+  ],
+  "muscle_size_class": "small",
+  "equipment": [
+   "bench",
+   "DB",
+   "medball",
+   "other"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "8-15",
+  "main_library_equivalent": [
+   "Not in the BYOP main library (harder version of O13 'Weighted Situps')"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Weighted russian twists",
+  "name_clean": "Weighted Russian Twist",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ287",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "CORE 👇",
+  "group_header_cell": "AZ284",
+  "family": "CONTROL",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > CORE",
+  "sub_pattern": "CORE THORAX TRANSVERSE",
+  "laterality": "alternating",
+  "plane": "transverse",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "obliques"
+  ],
+  "secondary_muscles": [
+   "rectus abdominis",
+   "hip flexors (isometric)"
+  ],
+  "muscle_size_class": "small",
+  "equipment": [
+   "medball",
+   "DB",
+   "other"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-20 per side",
+  "main_library_equivalent": [
+   "Q11 / O94 'Russian Twists' (CORE THORAX TRANSVERSE - zone label 'HARD', block ADVANCED)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "In the main library the transverse thorax tier is the hardest core tier."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Incline bench bicep curls",
+  "name_clean": "Incline-Bench DB Curl",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ312",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "BICEP 👇",
+  "group_header_cell": "AZ311",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > BICEP",
+  "sub_pattern": "BICEP (elbow flexion, lengthened bias)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "biceps (long head bias)"
+  ],
+  "secondary_muscles": [
+   "brachialis",
+   "brachioradialis"
+  ],
+  "muscle_size_class": "small",
+  "equipment": [
+   "DB",
+   "bench"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-15",
+  "main_library_equivalent": [
+   "AS15 'Incline Seated Db Curls (Variation, Pinky Facing up)' (BICEP)"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "supine bicep curls",
+  "name_clean": "Supine (Lying) Biceps Curl",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ313",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "BICEP 👇",
+  "group_header_cell": "AZ311",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > BICEP",
+  "sub_pattern": "BICEP (elbow flexion, lengthened bias)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "biceps"
+  ],
+  "secondary_muscles": [
+   "brachialis"
+  ],
+  "muscle_size_class": "small",
+  "equipment": [
+   "DB",
+   "cable",
+   "bench"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "10-15",
+  "main_library_equivalent": [
+   "Not in the BYOP main library"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "Exact setup unknown - inferred as lying face-up on a flat bench with arms hanging (or supine cable curl). Ask coach."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "cable bicep curls",
+  "name_clean": "Cable Biceps Curl",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ314",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "BICEP 👇",
+  "group_header_cell": "AZ311",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > BICEP",
+  "sub_pattern": "BICEP (elbow flexion)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "biceps"
+  ],
+  "secondary_muscles": [
+   "brachialis",
+   "brachioradialis"
+  ],
+  "muscle_size_class": "small",
+  "equipment": [
+   "cable"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "12-20",
+  "main_library_equivalent": [
+   "AS12 'Cable Machine Curls (Zone1, Zone 2, Zone 3' (BICEP) - 'Zone 1/2/3' there likely = three cable heights/arm angles"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "DB Standing calf raises",
+  "name_clean": "DB Standing Calf Raise",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "AZ332",
+  "column_header_rows": {
+   "row1": "FULL FOCUS LIST",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "MUSCLE FOCUS OPTIONS",
+   "row7": "CHOOSE 👇"
+  },
+  "group_header_raw": "CALVES 👇",
+  "group_header_cell": "AZ331",
+  "family": "RESISTANCE",
+  "category": "FULL FOCUS LIST / MUSCLE FOCUS OPTIONS > CALVES",
+  "sub_pattern": "CALVES (ankle plantarflexion)",
+  "laterality": "bilateral",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any",
+   "note": "AZ has no level/zone labels - every focus item is offered to every client; see main_library_equivalent for the level the same exercise carries in the main library."
+  },
+  "level_block_colour": null,
+  "primary_muscles": [
+   "calves (gastrocnemius)",
+   "soleus"
+  ],
+  "secondary_muscles": [],
+  "muscle_size_class": "small",
+  "equipment": [
+   "DB",
+   "other"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "15-20",
+  "main_library_equivalent": [
+   "AU10 'Standing DB calf Raises (Use Deficit)' (CALVES)",
+   "AESTHETICS tab D3 'Machine Calf Raises' 3 x '15 Reps'"
+  ],
+  "program_wiring": "Selectable from every 'Focus 1' / 'Focus 2' slot (range 'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335) in AESTHETICS 4-day, 3 DAY BUILDER, PUSHPULLLEGS, ATHLETIC FB, JUSTICE LEAGUE, BOOTCAMP OPTION 1 and both NO ACCESS tabs.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null,
+   "note": "Column AZ was dropped from both copies."
+  },
+  "inferred_fields": [
+   "name_clean",
+   "family",
+   "sub_pattern",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "impact_or_plyo_intensity",
+   "typical_rep_range_guess",
+   "main_library_equivalent"
+  ],
+  "notes": "'other' = step/plate for the deficit the main library asks for."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Hold object Adducted between knees rotational crunch chop down",
+  "name_clean": "Rotational Crunch Chop Down (high-to-low) - Supine, Object Squeezed Between Knees",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC9",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > CHOPS",
+  "category_header_cell": "BC8",
+  "integration_label": null,
+  "sub_pattern": "CHOPS - direction 'down' - position 'supine floor (inferred)'",
+  "position": "supine floor (inferred)",
+  "chop_direction": "down",
+  "laterality": "unilateral",
+  "plane": "multi",
+  "level": {
+   "raw": null,
+   "normalized": "foundational",
+   "note": "No level text in BC; normalized from cell colour D9EAD3 (light green ~ ZONE 1). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "D9EAD3",
+  "position_progression_rank": 1,
+  "primary_muscles": [
+   "external obliques",
+   "internal obliques (contralateral)",
+   "rectus abdominis",
+   "adductors (contralateral sling partner)"
+  ],
+  "secondary_muscles": [
+   "hip flexors",
+   "serratus anterior",
+   "pectorals (arm path)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "other"
+  ],
+  "no_equipment_ok": true,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-10 per side, slow/controlled",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y9",
+   "Copy of Copy of MASTER EXERCISE": "Y8"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": "12 chops = 3 directions (down/midline/up, colour-coded green/yellow/red) x 4 positions (supine-or-unspecified -> tall kneeling -> half kneeling -> split standing). 'Adducted'/'knee banded for adduction' = the adductor end of the anterior oblique sling; 'into active knee' = drive the opposite knee up (hip flexion) into the crunch. Position not stated in the raw text; inferred supine because the matching ANTI ROTATIONS list starts with 'floor supine'."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Hold object Adducted between knees kneeling cable or banded crunch down",
+  "name_clean": "Tall-Kneeling Cable/Band Crunch Chop Down (high-to-low) - Object Squeezed Between Knees",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC10",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > CHOPS",
+  "category_header_cell": "BC8",
+  "integration_label": null,
+  "sub_pattern": "CHOPS - direction 'down' - position 'tall kneeling'",
+  "position": "tall kneeling",
+  "chop_direction": "down",
+  "laterality": "unilateral",
+  "plane": "multi",
+  "level": {
+   "raw": null,
+   "normalized": "foundational",
+   "note": "No level text in BC; normalized from cell colour D9EAD3 (light green ~ ZONE 1). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "D9EAD3",
+  "position_progression_rank": 2,
+  "primary_muscles": [
+   "external obliques",
+   "internal obliques (contralateral)",
+   "rectus abdominis",
+   "adductors (contralateral sling partner)"
+  ],
+  "secondary_muscles": [
+   "hip flexors",
+   "serratus anterior",
+   "pectorals (arm path)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "cable",
+   "band",
+   "other"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-10 per side, slow/controlled",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y10",
+   "Copy of Copy of MASTER EXERCISE": "Y9"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": "12 chops = 3 directions (down/midline/up, colour-coded green/yellow/red) x 4 positions (supine-or-unspecified -> tall kneeling -> half kneeling -> split standing). 'Adducted'/'knee banded for adduction' = the adductor end of the anterior oblique sling; 'into active knee' = drive the opposite knee up (hip flexion) into the crunch."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Knee banded for adduction, half kneeling crunch down into active knee",
+  "name_clean": "Half-Kneeling Crunch Chop Down (high-to-low) into Active Knee - Knee-Banded Adduction",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC11",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > CHOPS",
+  "category_header_cell": "BC8",
+  "integration_label": null,
+  "sub_pattern": "CHOPS - direction 'down' - position 'half kneeling'",
+  "position": "half kneeling",
+  "chop_direction": "down",
+  "laterality": "unilateral",
+  "plane": "multi",
+  "level": {
+   "raw": null,
+   "normalized": "foundational",
+   "note": "No level text in BC; normalized from cell colour D9EAD3 (light green ~ ZONE 1). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "D9EAD3",
+  "position_progression_rank": 3,
+  "primary_muscles": [
+   "external obliques",
+   "internal obliques (contralateral)",
+   "rectus abdominis",
+   "adductors (contralateral sling partner)"
+  ],
+  "secondary_muscles": [
+   "hip flexors (active knee)",
+   "serratus anterior",
+   "pectorals (arm path)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "band"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-10 per side, slow/controlled",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y11",
+   "Copy of Copy of MASTER EXERCISE": "Y10"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": "12 chops = 3 directions (down/midline/up, colour-coded green/yellow/red) x 4 positions (supine-or-unspecified -> tall kneeling -> half kneeling -> split standing). 'Adducted'/'knee banded for adduction' = the adductor end of the anterior oblique sling; 'into active knee' = drive the opposite knee up (hip flexion) into the crunch."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Knee banded for adduction, split standing down crunch into active knee ",
+  "name_clean": "Split-Stance Standing Crunch Chop Down (high-to-low) into Active Knee - Knee-Banded Adduction",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC12",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > CHOPS",
+  "category_header_cell": "BC8",
+  "integration_label": null,
+  "sub_pattern": "CHOPS - direction 'down' - position 'split stance standing'",
+  "position": "split stance standing",
+  "chop_direction": "down",
+  "laterality": "unilateral",
+  "plane": "multi",
+  "level": {
+   "raw": null,
+   "normalized": "foundational",
+   "note": "No level text in BC; normalized from cell colour D9EAD3 (light green ~ ZONE 1). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "D9EAD3",
+  "position_progression_rank": 4,
+  "primary_muscles": [
+   "external obliques",
+   "internal obliques (contralateral)",
+   "rectus abdominis",
+   "adductors (contralateral sling partner)"
+  ],
+  "secondary_muscles": [
+   "hip flexors (active knee)",
+   "serratus anterior",
+   "pectorals (arm path)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "band"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "high",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-10 per side, slow/controlled",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y12",
+   "Copy of Copy of MASTER EXERCISE": "Y11"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": "12 chops = 3 directions (down/midline/up, colour-coded green/yellow/red) x 4 positions (supine-or-unspecified -> tall kneeling -> half kneeling -> split standing). 'Adducted'/'knee banded for adduction' = the adductor end of the anterior oblique sling; 'into active knee' = drive the opposite knee up (hip flexion) into the crunch. Raw text has a trailing space."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Hold object Adducted between knees rotational crunch chop midline",
+  "name_clean": "Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC13",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > CHOPS",
+  "category_header_cell": "BC8",
+  "integration_label": null,
+  "sub_pattern": "CHOPS - direction 'midline' - position 'supine floor (inferred)'",
+  "position": "supine floor (inferred)",
+  "chop_direction": "midline",
+  "laterality": "unilateral",
+  "plane": "transverse",
+  "level": {
+   "raw": null,
+   "normalized": "intermediate",
+   "note": "No level text in BC; normalized from cell colour FFF2CC (light yellow = ZONE 2 colour). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "FFF2CC",
+  "position_progression_rank": 1,
+  "primary_muscles": [
+   "external obliques",
+   "internal obliques (contralateral)",
+   "rectus abdominis",
+   "adductors (contralateral sling partner)"
+  ],
+  "secondary_muscles": [
+   "hip flexors",
+   "serratus anterior",
+   "pectorals (arm path)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "other"
+  ],
+  "no_equipment_ok": true,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-10 per side, slow/controlled",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y13",
+   "Copy of Copy of MASTER EXERCISE": "Y12"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": "12 chops = 3 directions (down/midline/up, colour-coded green/yellow/red) x 4 positions (supine-or-unspecified -> tall kneeling -> half kneeling -> split standing). 'Adducted'/'knee banded for adduction' = the adductor end of the anterior oblique sling; 'into active knee' = drive the opposite knee up (hip flexion) into the crunch. Position not stated in the raw text; inferred supine because the matching ANTI ROTATIONS list starts with 'floor supine'."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Hold object Adducted between knees kneeling cable or banded crunch midline",
+  "name_clean": "Tall-Kneeling Cable/Band Crunch Chop Midline (horizontal) - Object Squeezed Between Knees",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC14",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > CHOPS",
+  "category_header_cell": "BC8",
+  "integration_label": null,
+  "sub_pattern": "CHOPS - direction 'midline' - position 'tall kneeling'",
+  "position": "tall kneeling",
+  "chop_direction": "midline",
+  "laterality": "unilateral",
+  "plane": "transverse",
+  "level": {
+   "raw": null,
+   "normalized": "intermediate",
+   "note": "No level text in BC; normalized from cell colour FFF2CC (light yellow = ZONE 2 colour). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "FFF2CC",
+  "position_progression_rank": 2,
+  "primary_muscles": [
+   "external obliques",
+   "internal obliques (contralateral)",
+   "rectus abdominis",
+   "adductors (contralateral sling partner)"
+  ],
+  "secondary_muscles": [
+   "hip flexors",
+   "serratus anterior",
+   "pectorals (arm path)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "cable",
+   "band",
+   "other"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-10 per side, slow/controlled",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y14",
+   "Copy of Copy of MASTER EXERCISE": "Y13"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": "12 chops = 3 directions (down/midline/up, colour-coded green/yellow/red) x 4 positions (supine-or-unspecified -> tall kneeling -> half kneeling -> split standing). 'Adducted'/'knee banded for adduction' = the adductor end of the anterior oblique sling; 'into active knee' = drive the opposite knee up (hip flexion) into the crunch."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Knee banded for adduction, half kneeling crunch midline into active knee",
+  "name_clean": "Half-Kneeling Crunch Chop Midline (horizontal) into Active Knee - Knee-Banded Adduction",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC15",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > CHOPS",
+  "category_header_cell": "BC8",
+  "integration_label": null,
+  "sub_pattern": "CHOPS - direction 'midline' - position 'half kneeling'",
+  "position": "half kneeling",
+  "chop_direction": "midline",
+  "laterality": "unilateral",
+  "plane": "transverse",
+  "level": {
+   "raw": null,
+   "normalized": "intermediate",
+   "note": "No level text in BC; normalized from cell colour FFF2CC (light yellow = ZONE 2 colour). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "FFF2CC",
+  "position_progression_rank": 3,
+  "primary_muscles": [
+   "external obliques",
+   "internal obliques (contralateral)",
+   "rectus abdominis",
+   "adductors (contralateral sling partner)"
+  ],
+  "secondary_muscles": [
+   "hip flexors (active knee)",
+   "serratus anterior",
+   "pectorals (arm path)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "band"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-10 per side, slow/controlled",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y15",
+   "Copy of Copy of MASTER EXERCISE": "Y14"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": "12 chops = 3 directions (down/midline/up, colour-coded green/yellow/red) x 4 positions (supine-or-unspecified -> tall kneeling -> half kneeling -> split standing). 'Adducted'/'knee banded for adduction' = the adductor end of the anterior oblique sling; 'into active knee' = drive the opposite knee up (hip flexion) into the crunch."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Knee banded for adduction, split standing midline crunch into active knee ",
+  "name_clean": "Split-Stance Standing Crunch Chop Midline (horizontal) into Active Knee - Knee-Banded Adduction",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC16",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > CHOPS",
+  "category_header_cell": "BC8",
+  "integration_label": null,
+  "sub_pattern": "CHOPS - direction 'midline' - position 'split stance standing'",
+  "position": "split stance standing",
+  "chop_direction": "midline",
+  "laterality": "unilateral",
+  "plane": "transverse",
+  "level": {
+   "raw": null,
+   "normalized": "intermediate",
+   "note": "No level text in BC; normalized from cell colour FFF2CC (light yellow = ZONE 2 colour). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "FFF2CC",
+  "position_progression_rank": 4,
+  "primary_muscles": [
+   "external obliques",
+   "internal obliques (contralateral)",
+   "rectus abdominis",
+   "adductors (contralateral sling partner)"
+  ],
+  "secondary_muscles": [
+   "hip flexors (active knee)",
+   "serratus anterior",
+   "pectorals (arm path)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "band"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "high",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-10 per side, slow/controlled",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y16",
+   "Copy of Copy of MASTER EXERCISE": "Y15"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": "12 chops = 3 directions (down/midline/up, colour-coded green/yellow/red) x 4 positions (supine-or-unspecified -> tall kneeling -> half kneeling -> split standing). 'Adducted'/'knee banded for adduction' = the adductor end of the anterior oblique sling; 'into active knee' = drive the opposite knee up (hip flexion) into the crunch. Raw text has a trailing space."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Hold object Adducted between knees rotational crunch chop up",
+  "name_clean": "Rotational Crunch Chop Up / Lift (low-to-high) - Supine, Object Squeezed Between Knees",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC17",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > CHOPS",
+  "category_header_cell": "BC8",
+  "integration_label": null,
+  "sub_pattern": "CHOPS - direction 'up' - position 'supine floor (inferred)'",
+  "position": "supine floor (inferred)",
+  "chop_direction": "up",
+  "laterality": "unilateral",
+  "plane": "multi",
+  "level": {
+   "raw": null,
+   "normalized": "advanced",
+   "note": "No level text in BC; normalized from cell colour F4CCCC (light red = ZONE 3 colour). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "F4CCCC",
+  "position_progression_rank": 1,
+  "primary_muscles": [
+   "external obliques",
+   "internal obliques (contralateral)",
+   "rectus abdominis",
+   "adductors (contralateral sling partner)"
+  ],
+  "secondary_muscles": [
+   "hip flexors",
+   "serratus anterior",
+   "pectorals (arm path)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "other"
+  ],
+  "no_equipment_ok": true,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-10 per side, slow/controlled",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y17",
+   "Copy of Copy of MASTER EXERCISE": "Y16"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": "12 chops = 3 directions (down/midline/up, colour-coded green/yellow/red) x 4 positions (supine-or-unspecified -> tall kneeling -> half kneeling -> split standing). 'Adducted'/'knee banded for adduction' = the adductor end of the anterior oblique sling; 'into active knee' = drive the opposite knee up (hip flexion) into the crunch. Position not stated in the raw text; inferred supine because the matching ANTI ROTATIONS list starts with 'floor supine'."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Hold object Adducted between knees kneeling cable or banded crunch up",
+  "name_clean": "Tall-Kneeling Cable/Band Crunch Chop Up / Lift (low-to-high) - Object Squeezed Between Knees",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC18",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > CHOPS",
+  "category_header_cell": "BC8",
+  "integration_label": null,
+  "sub_pattern": "CHOPS - direction 'up' - position 'tall kneeling'",
+  "position": "tall kneeling",
+  "chop_direction": "up",
+  "laterality": "unilateral",
+  "plane": "multi",
+  "level": {
+   "raw": null,
+   "normalized": "advanced",
+   "note": "No level text in BC; normalized from cell colour F4CCCC (light red = ZONE 3 colour). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "F4CCCC",
+  "position_progression_rank": 2,
+  "primary_muscles": [
+   "external obliques",
+   "internal obliques (contralateral)",
+   "rectus abdominis",
+   "adductors (contralateral sling partner)"
+  ],
+  "secondary_muscles": [
+   "hip flexors",
+   "serratus anterior",
+   "pectorals (arm path)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "cable",
+   "band",
+   "other"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-10 per side, slow/controlled",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y18",
+   "Copy of Copy of MASTER EXERCISE": "Y17"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": "12 chops = 3 directions (down/midline/up, colour-coded green/yellow/red) x 4 positions (supine-or-unspecified -> tall kneeling -> half kneeling -> split standing). 'Adducted'/'knee banded for adduction' = the adductor end of the anterior oblique sling; 'into active knee' = drive the opposite knee up (hip flexion) into the crunch."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Knee banded for adduction, half kneeling crunch up into active knee",
+  "name_clean": "Half-Kneeling Crunch Chop Up / Lift (low-to-high) into Active Knee - Knee-Banded Adduction",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC19",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > CHOPS",
+  "category_header_cell": "BC8",
+  "integration_label": null,
+  "sub_pattern": "CHOPS - direction 'up' - position 'half kneeling'",
+  "position": "half kneeling",
+  "chop_direction": "up",
+  "laterality": "unilateral",
+  "plane": "multi",
+  "level": {
+   "raw": null,
+   "normalized": "advanced",
+   "note": "No level text in BC; normalized from cell colour F4CCCC (light red = ZONE 3 colour). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "F4CCCC",
+  "position_progression_rank": 3,
+  "primary_muscles": [
+   "external obliques",
+   "internal obliques (contralateral)",
+   "rectus abdominis",
+   "adductors (contralateral sling partner)"
+  ],
+  "secondary_muscles": [
+   "hip flexors (active knee)",
+   "serratus anterior",
+   "pectorals (arm path)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "band"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-10 per side, slow/controlled",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y19",
+   "Copy of Copy of MASTER EXERCISE": "Y18"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": "12 chops = 3 directions (down/midline/up, colour-coded green/yellow/red) x 4 positions (supine-or-unspecified -> tall kneeling -> half kneeling -> split standing). 'Adducted'/'knee banded for adduction' = the adductor end of the anterior oblique sling; 'into active knee' = drive the opposite knee up (hip flexion) into the crunch."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Knee banded for adduction, split standing up crunch into active knee ",
+  "name_clean": "Split-Stance Standing Crunch Chop Up / Lift (low-to-high) into Active Knee - Knee-Banded Adduction",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC20",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > CHOPS",
+  "category_header_cell": "BC8",
+  "integration_label": null,
+  "sub_pattern": "CHOPS - direction 'up' - position 'split stance standing'",
+  "position": "split stance standing",
+  "chop_direction": "up",
+  "laterality": "unilateral",
+  "plane": "multi",
+  "level": {
+   "raw": null,
+   "normalized": "advanced",
+   "note": "No level text in BC; normalized from cell colour F4CCCC (light red = ZONE 3 colour). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "F4CCCC",
+  "position_progression_rank": 4,
+  "primary_muscles": [
+   "external obliques",
+   "internal obliques (contralateral)",
+   "rectus abdominis",
+   "adductors (contralateral sling partner)"
+  ],
+  "secondary_muscles": [
+   "hip flexors (active knee)",
+   "serratus anterior",
+   "pectorals (arm path)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "band"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "high",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "6-10 per side, slow/controlled",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y20",
+   "Copy of Copy of MASTER EXERCISE": "Y19"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": "12 chops = 3 directions (down/midline/up, colour-coded green/yellow/red) x 4 positions (supine-or-unspecified -> tall kneeling -> half kneeling -> split standing). 'Adducted'/'knee banded for adduction' = the adductor end of the anterior oblique sling; 'into active knee' = drive the opposite knee up (hip flexion) into the crunch. Raw text has a trailing space."
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Hold object Adducted between knees floor supine cable or band anti-rotational pallof hold",
+  "name_clean": "Supine Floor Pallof Hold (cable/band) - Object Squeezed Between Knees",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC46",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > ANTI ROTATIONS",
+  "category_header_cell": "BC45",
+  "integration_label": {
+   "raw": "INTEGRATED WITH PUSH & LEGS",
+   "cell": "BC44"
+  },
+  "sub_pattern": "ANTI ROTATIONS (Pallof hold) - position 'supine floor'",
+  "position": "supine floor",
+  "chop_direction": null,
+  "laterality": "unilateral",
+  "plane": "transverse",
+  "level": {
+   "raw": null,
+   "normalized": "foundational",
+   "note": "No level text in BC; normalized from cell colour D9EAD3 (light green ~ ZONE 1). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "D9EAD3",
+  "position_progression_rank": 1,
+  "primary_muscles": [
+   "obliques (anti-rotation)",
+   "rectus abdominis",
+   "adductors"
+  ],
+  "secondary_muscles": [
+   "glutes",
+   "serratus anterior",
+   "pectorals/lats (arm brace)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "cable",
+   "band",
+   "other"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "low",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "time-based 15-30 s holds per side (or 5-8 x 5 s)",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y46",
+   "Copy of Copy of MASTER EXERCISE": "Y22"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Hold object Adducted between knees, kneeling cable or band anti-rotational pallof hold",
+  "name_clean": "Tall-Kneeling Pallof Hold (cable/band) - Object Squeezed Between Knees",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC47",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > ANTI ROTATIONS",
+  "category_header_cell": "BC45",
+  "integration_label": {
+   "raw": "INTEGRATED WITH PUSH & LEGS",
+   "cell": "BC44"
+  },
+  "sub_pattern": "ANTI ROTATIONS (Pallof hold) - position 'tall kneeling'",
+  "position": "tall kneeling",
+  "chop_direction": null,
+  "laterality": "unilateral",
+  "plane": "transverse",
+  "level": {
+   "raw": null,
+   "normalized": "foundational",
+   "note": "No level text in BC; normalized from cell colour D9EAD3 (light green ~ ZONE 1). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "D9EAD3",
+  "position_progression_rank": 2,
+  "primary_muscles": [
+   "obliques (anti-rotation)",
+   "rectus abdominis",
+   "adductors"
+  ],
+  "secondary_muscles": [
+   "glutes",
+   "serratus anterior",
+   "pectorals/lats (arm brace)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "cable",
+   "band",
+   "other"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "time-based 15-30 s holds per side (or 5-8 x 5 s)",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y47",
+   "Copy of Copy of MASTER EXERCISE": "Y23"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Knee banded for adduction, half kneeling Pallof hold",
+  "name_clean": "Half-Kneeling Pallof Hold - Knee-Banded Adduction",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC48",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > ANTI ROTATIONS",
+  "category_header_cell": "BC45",
+  "integration_label": {
+   "raw": "INTEGRATED WITH PUSH & LEGS",
+   "cell": "BC44"
+  },
+  "sub_pattern": "ANTI ROTATIONS (Pallof hold) - position 'half kneeling'",
+  "position": "half kneeling",
+  "chop_direction": null,
+  "laterality": "unilateral",
+  "plane": "transverse",
+  "level": {
+   "raw": null,
+   "normalized": "foundational",
+   "note": "No level text in BC; normalized from cell colour D9EAD3 (light green ~ ZONE 1). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "D9EAD3",
+  "position_progression_rank": 3,
+  "primary_muscles": [
+   "obliques (anti-rotation)",
+   "rectus abdominis",
+   "adductors"
+  ],
+  "secondary_muscles": [
+   "glutes",
+   "serratus anterior",
+   "pectorals/lats (arm brace)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "cable",
+   "band"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "time-based 15-30 s holds per side (or 5-8 x 5 s)",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y48",
+   "Copy of Copy of MASTER EXERCISE": "Y24"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Knee banded for adduction, split standing pallof hold",
+  "name_clean": "Split-Stance Pallof Hold - Knee-Banded Adduction",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC49",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > ANTI ROTATIONS",
+  "category_header_cell": "BC45",
+  "integration_label": {
+   "raw": "INTEGRATED WITH PUSH & LEGS",
+   "cell": "BC44"
+  },
+  "sub_pattern": "ANTI ROTATIONS (Pallof hold) - position 'split stance standing'",
+  "position": "split stance standing",
+  "chop_direction": null,
+  "laterality": "unilateral",
+  "plane": "transverse",
+  "level": {
+   "raw": null,
+   "normalized": "foundational",
+   "note": "No level text in BC; normalized from cell colour D9EAD3 (light green ~ ZONE 1). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "D9EAD3",
+  "position_progression_rank": 4,
+  "primary_muscles": [
+   "obliques (anti-rotation)",
+   "rectus abdominis",
+   "adductors"
+  ],
+  "secondary_muscles": [
+   "glutes",
+   "serratus anterior",
+   "pectorals/lats (arm brace)"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "cable",
+   "band"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "high",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "time-based 15-30 s holds per side (or 5-8 x 5 s)",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y49",
+   "Copy of Copy of MASTER EXERCISE": "Y25"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": ""
+ },
+ {
+  "record_type": "exercise",
+  "name_raw": "Supine offset plank with contralateral banded or cable adduction",
+  "name_clean": "Supine Offset Plank with Contralateral Banded/Cable Adduction",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC91",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > PLANKS",
+  "category_header_cell": "BC90",
+  "integration_label": {
+   "raw": "INTEGRATED WITH PUSH & LEGS",
+   "cell": "BC89"
+  },
+  "sub_pattern": "PLANKS",
+  "position": "supine/offset plank",
+  "chop_direction": null,
+  "laterality": "unilateral",
+  "plane": "multi",
+  "level": {
+   "raw": null,
+   "normalized": "foundational",
+   "note": "No level text in BC; normalized from cell colour D9EAD3 (light green ~ ZONE 1). Same traffic-light family as MASTER_MODEL 'Sheet23' ZONE 1/2/3 (B6D7A8/FFF2CC/F4CCCC) and 'RESISTANCE PATTERNS' easy/moderate/hard (B6D7A8/FFE599/E06666)."
+  },
+  "level_block_colour": "D9EAD3",
+  "position_progression_rank": null,
+  "primary_muscles": [
+   "obliques",
+   "rectus abdominis",
+   "adductors (contralateral)"
+  ],
+  "secondary_muscles": [
+   "glutes",
+   "shoulder stabilisers"
+  ],
+  "muscle_size_class": "n/a",
+  "equipment": [
+   "cable",
+   "band"
+  ],
+  "no_equipment_ok": false,
+  "load_ceiling": "low",
+  "skill_demand": "moderate",
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": "time-based 15-30 s per side",
+  "program_wiring": "NOT wired: no program tab has a data-validation pointing at column BC (or BA/BB/BD/BE).",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y91",
+   "Copy of Copy of MASTER EXERCISE": "Y28"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "sub_pattern",
+   "position",
+   "laterality",
+   "plane",
+   "level",
+   "primary_muscles",
+   "secondary_muscles",
+   "muscle_size_class",
+   "equipment",
+   "no_equipment_ok",
+   "load_ceiling",
+   "skill_demand",
+   "typical_rep_range_guess",
+   "position_progression_rank"
+  ],
+  "notes": "Only exercise in the PLANKS sub-block. 'Supine offset plank' is ambiguous (reverse plank vs. side/offset plank) - ask coach."
+ },
+ {
+  "record_type": "taxonomy_placeholder",
+  "name_raw": "CRUNCHES",
+  "name_clean": "Crunches",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC125",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM > CRUNCHES",
+  "axis": null,
+  "sub_pattern": null,
+  "laterality": "n/a",
+  "plane": "n/a",
+  "level": {
+   "raw": null,
+   "normalized": "any"
+  },
+  "level_block_colour": "C9DAF8",
+  "primary_muscles": [],
+  "secondary_muscles": [],
+  "muscle_size_class": "n/a",
+  "equipment": [],
+  "no_equipment_ok": null,
+  "load_ceiling": null,
+  "skill_demand": null,
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": null,
+  "program_wiring": "NOT wired to any program tab.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y125",
+   "Copy of Copy of MASTER EXERCISE": "Y30"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "axis"
+  ],
+  "notes": "Sub-type header with NO exercises under it (rows BC126-BC335 empty). Planned 4th AOS drill family after CHOPS, ANTI ROTATIONS, PLANKS."
+ },
+ {
+  "record_type": "integration_label",
+  "name_raw": "INTEGRATED WITH PUSH & LEGS",
+  "name_clean": "Integrated With Push & Legs",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC44",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM",
+  "axis": null,
+  "sub_pattern": null,
+  "laterality": "n/a",
+  "plane": "n/a",
+  "level": {
+   "raw": null,
+   "normalized": "any"
+  },
+  "level_block_colour": "FFE599",
+  "primary_muscles": [],
+  "secondary_muscles": [],
+  "muscle_size_class": "n/a",
+  "equipment": [],
+  "no_equipment_ok": null,
+  "load_ceiling": null,
+  "skill_demand": null,
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": null,
+  "program_wiring": "NOT wired to any program tab.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y44",
+   "Copy of Copy of MASTER EXERCISE": "Y20"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "axis"
+  ],
+  "notes": "Yellow (FFE599) label sitting on the block-start rows (44/89/124) used by every other stacked library column, immediately above the next sub-type header (ANTI ROTATIONS / PLANKS / CRUNCHES). Reading (inferred): the AOS is the sling that links PUSH patterns (pec/serratus) with the LEGS (adductors) - i.e. these drills are meant to be paired with / integrated into push + leg work. Alternative reading: an empty 'integrated variations' sub-list to be filled later."
+ },
+ {
+  "record_type": "integration_label",
+  "name_raw": "INTEGRATED WITH PUSH & LEGS",
+  "name_clean": "Integrated With Push & Legs",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC89",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM",
+  "axis": null,
+  "sub_pattern": null,
+  "laterality": "n/a",
+  "plane": "n/a",
+  "level": {
+   "raw": null,
+   "normalized": "any"
+  },
+  "level_block_colour": "FFE599",
+  "primary_muscles": [],
+  "secondary_muscles": [],
+  "muscle_size_class": "n/a",
+  "equipment": [],
+  "no_equipment_ok": null,
+  "load_ceiling": null,
+  "skill_demand": null,
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": null,
+  "program_wiring": "NOT wired to any program tab.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y89",
+   "Copy of Copy of MASTER EXERCISE": "Y26"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "axis"
+  ],
+  "notes": "Yellow (FFE599) label sitting on the block-start rows (44/89/124) used by every other stacked library column, immediately above the next sub-type header (ANTI ROTATIONS / PLANKS / CRUNCHES). Reading (inferred): the AOS is the sling that links PUSH patterns (pec/serratus) with the LEGS (adductors) - i.e. these drills are meant to be paired with / integrated into push + leg work. Alternative reading: an empty 'integrated variations' sub-list to be filled later."
+ },
+ {
+  "record_type": "integration_label",
+  "name_raw": "INTEGRATED WITH PUSH & LEGS",
+  "name_clean": "Integrated With Push & Legs",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BC124",
+  "column_header_rows": {
+   "row1": "FUNCTIONAL BIOMECHANICS SYSTEM",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "ANTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM",
+  "axis": null,
+  "sub_pattern": null,
+  "laterality": "n/a",
+  "plane": "n/a",
+  "level": {
+   "raw": null,
+   "normalized": "any"
+  },
+  "level_block_colour": "FFE599",
+  "primary_muscles": [],
+  "secondary_muscles": [],
+  "muscle_size_class": "n/a",
+  "equipment": [],
+  "no_equipment_ok": null,
+  "load_ceiling": null,
+  "skill_demand": null,
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": null,
+  "program_wiring": "NOT wired to any program tab.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "Y124",
+   "Copy of Copy of MASTER EXERCISE": "Y29"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "axis"
+  ],
+  "notes": "Yellow (FFE599) label sitting on the block-start rows (44/89/124) used by every other stacked library column, immediately above the next sub-type header (ANTI ROTATIONS / PLANKS / CRUNCHES). Reading (inferred): the AOS is the sling that links PUSH patterns (pec/serratus) with the LEGS (adductors) - i.e. these drills are meant to be paired with / integrated into push + leg work. Alternative reading: an empty 'integrated variations' sub-list to be filled later."
+ },
+ {
+  "record_type": "taxonomy_placeholder",
+  "name_raw": "BRIDGES",
+  "name_clean": "Bridges",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BD8",
+  "column_header_rows": {
+   "row1": null,
+   "row2": null,
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "POSTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > POSTERIOR OBLIQUE SYSTEM > BRIDGES",
+  "axis": null,
+  "sub_pattern": null,
+  "laterality": "n/a",
+  "plane": "n/a",
+  "level": {
+   "raw": null,
+   "normalized": "any"
+  },
+  "level_block_colour": "C9DAF8",
+  "primary_muscles": [],
+  "secondary_muscles": [],
+  "muscle_size_class": "n/a",
+  "equipment": [],
+  "no_equipment_ok": null,
+  "load_ceiling": null,
+  "skill_demand": null,
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": null,
+  "program_wiring": "NOT wired to any program tab.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null
+  },
+  "inferred_fields": [
+   "name_clean",
+   "axis"
+  ],
+  "notes": "Only sub-type defined for the POSTERIOR OBLIQUE SYSTEM; no exercises yet. POS (lat + thoracolumbar fascia + contralateral glute max) - bridges are the glute end of that sling (inferred anatomy). Column BD was dropped from both library copies."
+ },
+ {
+  "record_type": "integration_label",
+  "name_raw": "INTEGRATIONS WITH PULL & LEGS",
+  "name_clean": "Integrations With Pull & Legs",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BD9",
+  "column_header_rows": {
+   "row1": null,
+   "row2": null,
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "POSTERIOR OBLIQUE SYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > POSTERIOR OBLIQUE SYSTEM",
+  "axis": null,
+  "sub_pattern": null,
+  "laterality": "n/a",
+  "plane": "n/a",
+  "level": {
+   "raw": null,
+   "normalized": "any"
+  },
+  "level_block_colour": "FFE599",
+  "primary_muscles": [],
+  "secondary_muscles": [],
+  "muscle_size_class": "n/a",
+  "equipment": [],
+  "no_equipment_ok": null,
+  "load_ceiling": null,
+  "skill_demand": null,
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": null,
+  "program_wiring": "NOT wired to any program tab.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null
+  },
+  "inferred_fields": [
+   "name_clean",
+   "axis"
+  ],
+  "notes": "'INTEGRATIONS WITH PULL & LEGS' - POS links PULL patterns (lats) with LEGS (glutes/hip extension). Mirror of the AOS 'PUSH & LEGS' label."
+ },
+ {
+  "record_type": "taxonomy_placeholder",
+  "name_raw": "SIDE LYING",
+  "name_clean": "Side Lying",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BE8",
+  "column_header_rows": {
+   "row1": null,
+   "row2": null,
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "LATERAL SUBSYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > LATERAL SUBSYSTEM > SIDE LYING",
+  "axis": null,
+  "sub_pattern": null,
+  "laterality": "n/a",
+  "plane": "n/a",
+  "level": {
+   "raw": null,
+   "normalized": "any"
+  },
+  "level_block_colour": "C9DAF8",
+  "primary_muscles": [],
+  "secondary_muscles": [],
+  "muscle_size_class": "n/a",
+  "equipment": [],
+  "no_equipment_ok": null,
+  "load_ceiling": null,
+  "skill_demand": null,
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": null,
+  "program_wiring": "NOT wired to any program tab.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null
+  },
+  "inferred_fields": [
+   "name_clean",
+   "axis"
+  ],
+  "notes": "Only sub-type defined for the LATERAL SUBSYSTEM (glute med/min, TFL, adductors, contralateral QL - inferred anatomy); no exercises yet (side-lying hip abduction / side planks would fit). Column BE was dropped from both copies."
+ },
+ {
+  "record_type": "integration_label",
+  "name_raw": "INTEGRATIONS LEGS & DELTS",
+  "name_clean": "Integrations Legs & Delts",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BE9",
+  "column_header_rows": {
+   "row1": null,
+   "row2": null,
+   "row3": null,
+   "row4": "FUNCTIONAL",
+   "row5": null,
+   "row6": "LATERAL SUBSYSTEM",
+   "row7": null
+  },
+  "family": "FUNCTIONAL",
+  "category": "FUNCTIONAL BIOMECHANICS SYSTEM > LATERAL SUBSYSTEM",
+  "axis": null,
+  "sub_pattern": null,
+  "laterality": "n/a",
+  "plane": "n/a",
+  "level": {
+   "raw": null,
+   "normalized": "any"
+  },
+  "level_block_colour": "FFE599",
+  "primary_muscles": [],
+  "secondary_muscles": [],
+  "muscle_size_class": "n/a",
+  "equipment": [],
+  "no_equipment_ok": null,
+  "load_ceiling": null,
+  "skill_demand": null,
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": null,
+  "program_wiring": "NOT wired to any program tab.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": null,
+   "Copy of Copy of MASTER EXERCISE": null
+  },
+  "inferred_fields": [
+   "name_clean",
+   "axis"
+  ],
+  "notes": "'INTEGRATIONS LEGS & DELTS' - frontal-plane abduction chain: hip abduction (legs) with shoulder abduction (delts, the programs' 'ABdution' / SIDE RAISES slot)."
+ },
+ {
+  "record_type": "taxonomy_placeholder",
+  "name_raw": "PROPULSIVE",
+  "name_clean": "Propulsive",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BA8",
+  "column_header_rows": {
+   "row1": "CARRY",
+   "row2": null,
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "CARRY",
+   "row7": "CHOOSE 👇"
+  },
+  "family": "FUNCTIONAL",
+  "category": "CARRY",
+  "axis": "mode (blue C9DAF8)",
+  "sub_pattern": null,
+  "laterality": "n/a",
+  "plane": "n/a",
+  "level": {
+   "raw": null,
+   "normalized": "any"
+  },
+  "level_block_colour": "C9DAF8",
+  "primary_muscles": [],
+  "secondary_muscles": [],
+  "muscle_size_class": "n/a",
+  "equipment": [],
+  "no_equipment_ok": null,
+  "load_ceiling": null,
+  "skill_demand": null,
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": null,
+  "program_wiring": "NOT wired to any program tab.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "W8",
+   "Copy of Copy of MASTER EXERCISE": "W7"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "axis"
+  ],
+  "notes": "Moving/walking carry (e.g. farmer walk). MASTER_MODEL BASEBALL uses 'KB Single arm farmer walk carry' and 'Single side KB carry'. 'Propulsive' is Pat-Davidson vocabulary (cf. MASTER_MODEL 'Lunges are a propulsive strategy'). CARRY column has no exercises: it defines a 2 x 2 grid {PROPULSIVE, STATIONARY} x {BILATERAL, UNILATERAL} (inferred from the two colour groups and the empty rows BA9, BA11-12 left for entries)."
+ },
+ {
+  "record_type": "taxonomy_placeholder",
+  "name_raw": "STATIONARY",
+  "name_clean": "Stationary",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BA10",
+  "column_header_rows": {
+   "row1": "CARRY",
+   "row2": null,
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "CARRY",
+   "row7": "CHOOSE 👇"
+  },
+  "family": "FUNCTIONAL",
+  "category": "CARRY",
+  "axis": "mode (blue C9DAF8)",
+  "sub_pattern": null,
+  "laterality": "n/a",
+  "plane": "n/a",
+  "level": {
+   "raw": null,
+   "normalized": "any"
+  },
+  "level_block_colour": "C9DAF8",
+  "primary_muscles": [],
+  "secondary_muscles": [],
+  "muscle_size_class": "n/a",
+  "equipment": [],
+  "no_equipment_ok": null,
+  "load_ceiling": null,
+  "skill_demand": null,
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": null,
+  "program_wiring": "NOT wired to any program tab.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "W10",
+   "Copy of Copy of MASTER EXERCISE": "W8"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "axis"
+  ],
+  "notes": "Carry/hold without travelling (static hold, march in place) - inferred. CARRY column has no exercises: it defines a 2 x 2 grid {PROPULSIVE, STATIONARY} x {BILATERAL, UNILATERAL} (inferred from the two colour groups and the empty rows BA9, BA11-12 left for entries)."
+ },
+ {
+  "record_type": "taxonomy_placeholder",
+  "name_raw": "BILATERAL",
+  "name_clean": "Bilateral",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BA13",
+  "column_header_rows": {
+   "row1": "CARRY",
+   "row2": null,
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "CARRY",
+   "row7": "CHOOSE 👇"
+  },
+  "family": "FUNCTIONAL",
+  "category": "CARRY",
+  "axis": "loading (yellow FFE599)",
+  "sub_pattern": null,
+  "laterality": "bilateral",
+  "plane": "n/a",
+  "level": {
+   "raw": null,
+   "normalized": "any"
+  },
+  "level_block_colour": "FFE599",
+  "primary_muscles": [],
+  "secondary_muscles": [],
+  "muscle_size_class": "n/a",
+  "equipment": [],
+  "no_equipment_ok": null,
+  "load_ceiling": null,
+  "skill_demand": null,
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": null,
+  "program_wiring": "NOT wired to any program tab.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "W13",
+   "Copy of Copy of MASTER EXERCISE": "W9"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "axis"
+  ],
+  "notes": "Both hands loaded (farmer style) - inferred. CARRY column has no exercises: it defines a 2 x 2 grid {PROPULSIVE, STATIONARY} x {BILATERAL, UNILATERAL} (inferred from the two colour groups and the empty rows BA9, BA11-12 left for entries)."
+ },
+ {
+  "record_type": "taxonomy_placeholder",
+  "name_raw": "UNILARTERAL",
+  "name_clean": "Unilateral",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BA14",
+  "column_header_rows": {
+   "row1": "CARRY",
+   "row2": null,
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "CARRY",
+   "row7": "CHOOSE 👇"
+  },
+  "family": "FUNCTIONAL",
+  "category": "CARRY",
+  "axis": "loading (yellow FFE599)",
+  "sub_pattern": null,
+  "laterality": "unilateral",
+  "plane": "n/a",
+  "level": {
+   "raw": null,
+   "normalized": "any"
+  },
+  "level_block_colour": "FFE599",
+  "primary_muscles": [],
+  "secondary_muscles": [],
+  "muscle_size_class": "n/a",
+  "equipment": [],
+  "no_equipment_ok": null,
+  "load_ceiling": null,
+  "skill_demand": null,
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": null,
+  "program_wiring": "NOT wired to any program tab.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "W14",
+   "Copy of Copy of MASTER EXERCISE": "W10"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "axis"
+  ],
+  "notes": "Raw label misspelled 'UNILARTERAL'. One hand loaded (suitcase/single-arm) - anti-lateral-flexion demand on the trunk (inferred). CARRY column has no exercises: it defines a 2 x 2 grid {PROPULSIVE, STATIONARY} x {BILATERAL, UNILATERAL} (inferred from the two colour groups and the empty rows BA9, BA11-12 left for entries)."
+ },
+ {
+  "record_type": "taxonomy_placeholder",
+  "name_raw": "SAGITAL",
+  "name_clean": "Sagittal",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BB8",
+  "column_header_rows": {
+   "row1": "DRAGS",
+   "row2": null,
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "DRAG",
+   "row7": "CHOOSE 👇"
+  },
+  "family": "FUNCTIONAL",
+  "category": "DRAGS",
+  "axis": "plane (blue C9DAF8)",
+  "sub_pattern": null,
+  "laterality": "n/a",
+  "plane": "sagittal",
+  "level": {
+   "raw": null,
+   "normalized": "any"
+  },
+  "level_block_colour": "C9DAF8",
+  "primary_muscles": [],
+  "secondary_muscles": [],
+  "muscle_size_class": "n/a",
+  "equipment": [],
+  "no_equipment_ok": null,
+  "load_ceiling": null,
+  "skill_demand": null,
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": null,
+  "program_wiring": "NOT wired to any program tab.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "X8",
+   "Copy of Copy of MASTER EXERCISE": "X7"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "axis"
+  ],
+  "notes": "Forward/backward sled or band drag (inferred). DRAGS column has no exercises; header row 6 says 'DRAG', row 1 'DRAGS'. Raw 'SAGITAL' kept verbatim."
+ },
+ {
+  "record_type": "taxonomy_placeholder",
+  "name_raw": "FRONTAL",
+  "name_clean": "Frontal",
+  "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY'",
+  "cell": "BB10",
+  "column_header_rows": {
+   "row1": "DRAGS",
+   "row2": null,
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "DRAG",
+   "row7": "CHOOSE 👇"
+  },
+  "family": "FUNCTIONAL",
+  "category": "DRAGS",
+  "axis": "plane (blue C9DAF8)",
+  "sub_pattern": null,
+  "laterality": "n/a",
+  "plane": "frontal",
+  "level": {
+   "raw": null,
+   "normalized": "any"
+  },
+  "level_block_colour": "C9DAF8",
+  "primary_muscles": [],
+  "secondary_muscles": [],
+  "muscle_size_class": "n/a",
+  "equipment": [],
+  "no_equipment_ok": null,
+  "load_ceiling": null,
+  "skill_demand": null,
+  "impact_or_plyo_intensity": "none",
+  "typical_rep_range_guess": null,
+  "program_wiring": "NOT wired to any program tab.",
+  "present_in_copies": {
+   "Copy of MASTER EXERCISE LIBRARY": "X10",
+   "Copy of Copy of MASTER EXERCISE": "X8"
+  },
+  "inferred_fields": [
+   "name_clean",
+   "axis"
+  ],
+  "notes": "Lateral sled/band drag (inferred). No TRANSVERSE drag listed. DRAGS column has no exercises; header row 6 says 'DRAG', row 1 'DRAGS'. Raw 'SAGITAL' kept verbatim."
+ }
+]

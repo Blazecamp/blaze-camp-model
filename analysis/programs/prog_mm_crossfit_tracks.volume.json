@@ -1,0 +1,5052 @@
+{
+ "meta": {
+  "source": "BLAZE CAMP MASTER MODEL (raw/MASTER_MODEL.xlsx) tabs 'EXAMPLE CROSSFIT SPLIT', '(NOT DONE) 4 TRACKS PROGRAMMING', '(NOT DONE) EXAMPLE CONJUGATE'",
+  "counting_convention": "1 working set = 1.0 to each prime mover, 0.5 to each clear synergist; prime movers = BYOP MASTER EXERCISE LIBRARY row-6 PURPOSE labels (OBSERVED), synergists INFERRED. Athletic (AP_*) sets are reported as athletic_exposure, never added to hypertrophy volume. Conditioning (aerobic, sprints, WODs) counted as sessions/bouts, not sets.",
+  "muscle_mapping": {
+   "BKD": {
+    "quads": 1,
+    "glutes": 0.5
+   },
+   "BHD": {
+    "hamstrings": 1,
+    "glutes": 1
+   },
+   "UKD": {
+    "quads": 1,
+    "glutes": 1
+   },
+   "UHD": {
+    "hamstrings": 1,
+    "glutes": 1
+   },
+   "GLUTE_BRIDGE": {
+    "glutes": 1,
+    "hamstrings": 0.5
+   },
+   "HPUSH": {
+    "chest": 1,
+    "front_delts": 1,
+    "triceps": 0.5
+   },
+   "DIPS": {
+    "chest": 1,
+    "triceps": 1,
+    "front_delts": 0.5
+   },
+   "BENCH_DIPS": {
+    "triceps": 1,
+    "chest": 0.5,
+    "front_delts": 0.5
+   },
+   "VPUSH": {
+    "front_delts": 1,
+    "side_delts": 0.5,
+    "triceps": 0.5
+   },
+   "HPULL": {
+    "lats_upper_back": 1,
+    "rear_delts": 0.5,
+    "biceps": 0.5
+   },
+   "VPULL": {
+    "lats_upper_back": 1,
+    "biceps": 0.5
+   },
+   "PULL_UNDER": {
+    "lats_upper_back": 1
+   },
+   "QUAD_ISO": {
+    "quads": 1
+   },
+   "HAM_ISO": {
+    "hamstrings": 1
+   },
+   "CHEST_ISO": {
+    "chest": 1
+   },
+   "SIDE": {
+    "side_delts": 1
+   },
+   "REAR": {
+    "rear_delts": 1,
+    "lats_upper_back": 0.5
+   },
+   "BI": {
+    "biceps": 1
+   },
+   "TRI": {
+    "triceps": 1
+   },
+   "CALF": {
+    "calves": 1
+   },
+   "CORE": {
+    "abs_obliques": 1
+   },
+   "PLYO": {
+    "quads": 1,
+    "glutes": 0.5,
+    "calves": 0.5
+   },
+   "OLY": {
+    "glutes": 1,
+    "quads": 0.5,
+    "hamstrings": 0.5,
+    "calves": 0.5,
+    "lats_upper_back": 0.5
+   },
+   "NONE": {}
+  },
+  "rep_notation": "date cells with number_format m/d are text the coach typed: '8/8' = 8 reps per side (C12/C16 in tab 04, C16/C20 in tab 12); '1/1'...'4/4' in CrossFit S4:S10 = strength level / power level codes",
+  "non_canonical_keys": {
+   "RES_LB_UNSPEC/RES_UB_UNSPEC": "CrossFit 'RESISTANCE' LB/UB slot with no exercise named (1 exercise assumed per slot as written)",
+   "WOD_sessions": "CrossFit WODs (box-prescribed)",
+   "SKILL_sessions": "'T2B/ DUBS', 'H.S./ DUBS', 'DUBS', 'GYMNASTICS' (T2B -> CP_CORE_PELVIS, DUBS -> AP_JUMP_LIMITED_KNEE, H.S. -> handstand skill, INFERRED)"
+  },
+  "open_questions": [
+   "FULL TIME vs HALF TIME (CROSSFIT A19 / Q19): is FULL TIME the full-time competitor's dosing and HALF TIME the class / part-time member's dosing? I read it that way because only HALF TIME has 'LVL 5 = Work up to 1RM' and the class cycle ends in '5'. Or does HALF TIME mean a quality trained alongside another one?",
+   "Class cycle S4:S11 shows '1/1','2/1','2/2','3/2','3/3','4/3','4/4','5' (Sheets stored them as dates). Is that 'strength level / power level' for weeks 1-8, with strength leading by one week?",
+   "'LVL 4 = wods a week' has no number. Is it 4? Also AUG is WODs level 3 ('3 wods a week') but the AUGUST grid has only TUESD/FRID marked. Which is right?",
+   "MARCH lists STRENGTH (KNEE DOM/PULL/HIP DOM/PUSH) and POWER (SNATCH/CLEAN) days, and APRIL lists RESISTANCE (LB/UB), but the macro gives them no level. Should they be trained, and at what level, or are they leftovers?",
+   "CrossFit RESISTANCE 'LB'/'UB': how many exercises per session, and which patterns (unilateral + isolation like 'the nuance'/'the survival')? The same question applies to 'ACCESSORIES' (AESTHETICS-8) and 'UPPER ACCESORY'/'LOWER ACCESORY' (HYBRID).",
+   "CrossFit strength 'PULL' and 'PUSH' days: vertical, horizontal, or alternating? The class split says 'PRESS'. Does that mean strict overhead press?",
+   "Load words in the conjugate cycle: is 'MAX' = the heaviest load for the prescribed reps at about 0-1 RIR, 'ALL' = all-out / to failure, and 'EASY' (plyos) = sub-maximal height and effort?",
+   "Green SETS ladder E4:L4 (5,5,4,4,3,3,2,1) in 4 TRACKS: does it apply only to the M.E. rows (B9/B13 = 5), or also to the plyo (B17 = 3) and D.E. bench (B21 = 3) rows that share the green fill?",
+   "STRENGTH-12 'the accessory' has no sets/reps. What dose (e.g. 3x6-8 @ 2RIR as in the 8-week version)? Do the Thursday/Saturday 'FAST RPE6 or about 60-70%' rows use the header SETS/REPS?",
+   "Unilateral pairing rule: STRENGTH-8 pairs lunges with squat weeks (same dominance), but STRENGTH-12 and HYBRID pair them with the opposite dominance (squat -> staggered DL / uni RDL). Which is your rule, or does it depend on the goal?",
+   "AESTHETICS-12 reps such as '12/10/8 -20' or '8/8/8-12': is the '-20' an extra burn-out/back-off set, or the rep target for isolation (small-muscle) exercises? Weeks 4-6 say SETS 4 but list only three numbers before the dash.",
+   "HYBRID: what does the 'AMRAP' row (12,15,16,...,20) apply to? I read it as minutes for the Saturday lunge/T2B/push-pull circuit. What are the unlabeled rows 78 (2,2,2,3,3,3,4,4) and 79 (2,2,3,2,2,3,2,2)?",
+   "HYBRID lists STRENGTH before OLY/POWER on Monday/Thursday. Is the heavy lift really done before the Olympic lift? And is C86 'KD' on the deadlift row a typo for HD?",
+   "The tab is named '4 TRACKS' but A1 says '8 WEEKS OF 3 TRACKS'. What is the 4th track (CrossFit / athletic)? Is the right-hand 12-week block the newer version of each track?",
+   "Definitions: is 'the nuance' = unilateral / variation / weak-point work and 'the survival' = isolation / joint-health / pump work that must be done no matter what?",
+   "None of these three tabs programs calves, and side/rear delts get under 5 sets/week outside AESTHETICS-12. Is that intentional (covered by FOCUS / accessories) or a gap the generator should fill?",
+   "Is the 12-week shape (6 loading weeks + week-7 deload + 5 weeks with a phase change) the template for every 12-week plan? Should a 6-week plan be the first 6 weeks, ending at the highlighted WK6 peak?",
+   "Fills: what do FCE5CD peach on weeks 1-5 of the STRENGTH 8-week block, FFF2CC on WK6 and 00FF00 on 'LOW BAR' in the 12-week block, and the cyan 'TEST' at J3 above WK6 in the conjugate tab mean? Are they progress markers or a planned week-6 test?",
+   "'30-40 mi slow/steady CARDIO': does 'mi' mean minutes? Is that the 'C' aerobic type from the cheat sheet?"
+  ]
+ },
+ "programs": [
+  {
+   "tab": "EXAMPLE CROSSFIT SPLIT",
+   "program_id": "MM_CF_COMPETE_FULLTIME",
+   "title": "'COMPETE CROSSFIT SPLIT' / 'EXAMPLE PLAN BUILDING FOR WODAPALOOZA' / 'EVENT DATE JAN 12-15th'",
+   "goal": "Competitive CrossFit athlete peaking for an event (Wodapalooza, JAN 12-15); every modality trained ('you MUST be able to be as good as possible in EACH modality')",
+   "level": "Quality levels 1-4 per month (macro grid); FULL TIME dosing table",
+   "days_per_week": "4 core days MON/TUE/THU/FRI (+SAT used for extra AEROBIC/WOD in level-3/4 months; WED and SUN = 'OFF' in every month)",
+   "days_per_week_by_month": {
+    "FEB": 4,
+    "MARCH": 4,
+    "APRIL": 4,
+    "MAY": 3,
+    "JUNE": 4,
+    "JULY": 4,
+    "AUG": 5,
+    "SEPT": 5,
+    "OCT": 4,
+    "NOV": 5,
+    "DEC": 5,
+    "JAN": 4
+   },
+   "exercises_per_session": {
+    "FEB": [
+     1,
+     1,
+     0,
+     1,
+     1,
+     0,
+     0
+    ],
+    "MARCH": [
+     2,
+     2,
+     0,
+     2,
+     2,
+     0,
+     0
+    ],
+    "APRIL": [
+     3,
+     4,
+     0,
+     3,
+     4,
+     0,
+     0
+    ],
+    "MAY": [
+     2,
+     0,
+     0,
+     2,
+     0,
+     2,
+     0
+    ],
+    "JUNE": [
+     3,
+     3,
+     0,
+     3,
+     3,
+     0,
+     0
+    ],
+    "JULY": [
+     3,
+     4,
+     0,
+     3,
+     4,
+     0,
+     0
+    ],
+    "AUG": [
+     2,
+     2,
+     0,
+     2,
+     2,
+     1,
+     0
+    ],
+    "SEPT": [
+     3,
+     3,
+     0,
+     3,
+     2,
+     1,
+     0
+    ],
+    "OCT": [
+     3,
+     3,
+     0,
+     3,
+     3,
+     0,
+     0
+    ],
+    "NOV": [
+     4,
+     4,
+     0,
+     3,
+     4,
+     1,
+     0
+    ],
+    "DEC": [
+     4,
+     4,
+     0,
+     4,
+     3,
+     1,
+     0
+    ],
+    "JAN": [
+     3,
+     2,
+     0,
+     3,
+     2,
+     0,
+     0
+    ]
+   },
+   "exercises_per_session_note": "count of programmed COMPONENTS per day (AEROBIC, SKILL, STRENGTH, POWER, RESISTANCE, WOD), order MON..SUN; RESISTANCE counted as 1 component",
+   "sets_per_session": {
+    "FEB": {
+     "as_written": [
+      2.0,
+      2.0,
+      0,
+      2.0,
+      2.0,
+      0,
+      0
+     ],
+     "assumed_3ex_resistance": [
+      6,
+      6,
+      0,
+      6,
+      6.0,
+      0,
+      0
+     ]
+    },
+    "MARCH": {
+     "as_written": [
+      3.0,
+      3.0,
+      0,
+      3.0,
+      3.0,
+      0,
+      0
+     ],
+     "assumed_3ex_resistance": [
+      9,
+      9,
+      0,
+      9,
+      9.0,
+      0,
+      0
+     ]
+    },
+    "APRIL": {
+     "as_written": [
+      7.0,
+      7.0,
+      0,
+      7.0,
+      7.0,
+      0,
+      0
+     ],
+     "assumed_3ex_resistance": [
+      7.0,
+      7.0,
+      0,
+      7.0,
+      7.0,
+      0,
+      0
+     ]
+    },
+    "MAY": {
+     "as_written": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "assumed_3ex_resistance": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "JUNE": {
+     "as_written": [
+      7.0,
+      7.0,
+      0,
+      7.0,
+      7.0,
+      0,
+      0
+     ],
+     "assumed_3ex_resistance": [
+      11.0,
+      11.0,
+      0,
+      11.0,
+      11.0,
+      0,
+      0
+     ]
+    },
+    "JULY": {
+     "as_written": [
+      9.0,
+      9.0,
+      0,
+      9.0,
+      9.0,
+      0,
+      0
+     ],
+     "assumed_3ex_resistance": [
+      15.0,
+      15.0,
+      0,
+      15.0,
+      15.0,
+      0,
+      0
+     ]
+    },
+    "AUG": {
+     "as_written": [
+      5.0,
+      5.0,
+      0,
+      5.0,
+      5.0,
+      0,
+      0
+     ],
+     "assumed_3ex_resistance": [
+      5.0,
+      5.0,
+      0,
+      5.0,
+      5.0,
+      0,
+      0
+     ]
+    },
+    "SEPT": {
+     "as_written": [
+      6.0,
+      6.0,
+      0,
+      6.0,
+      6.0,
+      0,
+      0
+     ],
+     "assumed_3ex_resistance": [
+      6.0,
+      6.0,
+      0,
+      6.0,
+      6.0,
+      0,
+      0
+     ]
+    },
+    "OCT": {
+     "as_written": [
+      6.0,
+      6.0,
+      0,
+      6.0,
+      6.0,
+      0,
+      0
+     ],
+     "assumed_3ex_resistance": [
+      10.0,
+      10.0,
+      0,
+      10.0,
+      10.0,
+      0,
+      0
+     ]
+    },
+    "NOV": {
+     "as_written": [
+      7.0,
+      7.0,
+      0,
+      7.0,
+      7.0,
+      0,
+      0
+     ],
+     "assumed_3ex_resistance": [
+      13.0,
+      13.0,
+      0,
+      13.0,
+      13.0,
+      0,
+      0
+     ]
+    },
+    "DEC": {
+     "as_written": [
+      5.0,
+      5.0,
+      0,
+      5.0,
+      5.0,
+      0,
+      0
+     ],
+     "assumed_3ex_resistance": [
+      5.0,
+      5.0,
+      0,
+      5.0,
+      5.0,
+      0,
+      0
+     ]
+    },
+    "JAN": {
+     "as_written": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "assumed_3ex_resistance": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   },
+   "weekly_sets_by_bucket": {
+    "FEB": {
+     "as_written": {
+      "RES_LB_UNSPEC": 4.0,
+      "RES_UB_UNSPEC": 4.0
+     },
+     "assumed_res3": {
+      "RP_UKD": 4.0,
+      "RP_UHD": 4.0,
+      "RP_HPUSH": 2.0,
+      "RP_VPUSH": 2.0,
+      "RP_HPULL": 2.0,
+      "RP_VPULL": 2.0,
+      "ISO_QUAD": 2.0,
+      "ISO_HAM": 2.0,
+      "ISO_SIDE_REAR_DELT": 2.0,
+      "ISO_BICEP": 1.0,
+      "ISO_TRICEP": 1.0
+     }
+    },
+    "MARCH": {
+     "as_written": {
+      "RES_LB_UNSPEC": 6.0,
+      "RES_UB_UNSPEC": 6.0
+     },
+     "assumed_res3": {
+      "RP_UKD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 3.0,
+      "RP_VPUSH": 3.0,
+      "RP_HPULL": 3.0,
+      "RP_VPULL": 3.0,
+      "ISO_QUAD": 3.0,
+      "ISO_HAM": 3.0,
+      "ISO_SIDE_REAR_DELT": 3.0,
+      "ISO_BICEP": 1.5,
+      "ISO_TRICEP": 1.5
+     }
+    },
+    "APRIL": {
+     "as_written": {
+      "AP_TRIPLE_EXT": 16.0,
+      "RP_BKD": 3.0,
+      "RP_BHD": 3.0,
+      "RP_HPUSH": 1.5,
+      "RP_VPUSH": 1.5,
+      "RP_HPULL": 1.5,
+      "RP_VPULL": 1.5
+     },
+     "assumed_res3": {
+      "AP_TRIPLE_EXT": 16.0,
+      "RP_BKD": 3.0,
+      "RP_BHD": 3.0,
+      "RP_HPUSH": 1.5,
+      "RP_VPUSH": 1.5,
+      "RP_HPULL": 1.5,
+      "RP_VPULL": 1.5
+     }
+    },
+    "MAY": {
+     "as_written": {},
+     "assumed_res3": {}
+    },
+    "JUNE": {
+     "as_written": {
+      "RP_BKD": 5.0,
+      "RP_BHD": 5.0,
+      "RP_HPUSH": 2.5,
+      "RP_VPUSH": 2.5,
+      "RP_HPULL": 2.5,
+      "RP_VPULL": 2.5,
+      "RES_LB_UNSPEC": 4.0,
+      "RES_UB_UNSPEC": 4.0
+     },
+     "assumed_res3": {
+      "RP_BKD": 5.0,
+      "RP_BHD": 5.0,
+      "RP_UKD": 4.0,
+      "RP_UHD": 4.0,
+      "RP_HPUSH": 4.5,
+      "RP_VPUSH": 4.5,
+      "RP_HPULL": 4.5,
+      "RP_VPULL": 4.5,
+      "ISO_QUAD": 2.0,
+      "ISO_HAM": 2.0,
+      "ISO_SIDE_REAR_DELT": 2.0,
+      "ISO_BICEP": 1.0,
+      "ISO_TRICEP": 1.0
+     }
+    },
+    "JULY": {
+     "as_written": {
+      "RP_BKD": 6.0,
+      "RP_BHD": 6.0,
+      "RP_HPUSH": 3.0,
+      "RP_VPUSH": 3.0,
+      "RP_HPULL": 3.0,
+      "RP_VPULL": 3.0,
+      "RES_LB_UNSPEC": 6.0,
+      "RES_UB_UNSPEC": 6.0
+     },
+     "assumed_res3": {
+      "RP_BKD": 6.0,
+      "RP_BHD": 6.0,
+      "RP_UKD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 6.0,
+      "RP_VPUSH": 6.0,
+      "RP_HPULL": 6.0,
+      "RP_VPULL": 6.0,
+      "ISO_QUAD": 3.0,
+      "ISO_HAM": 3.0,
+      "ISO_SIDE_REAR_DELT": 3.0,
+      "ISO_BICEP": 1.5,
+      "ISO_TRICEP": 1.5
+     }
+    },
+    "AUG": {
+     "as_written": {
+      "AP_TRIPLE_EXT": 20.0
+     },
+     "assumed_res3": {
+      "AP_TRIPLE_EXT": 20.0
+     }
+    },
+    "SEPT": {
+     "as_written": {
+      "AP_TRIPLE_EXT": 24.0
+     },
+     "assumed_res3": {
+      "AP_TRIPLE_EXT": 24.0
+     }
+    },
+    "OCT": {
+     "as_written": {
+      "RP_BKD": 4.0,
+      "RP_BHD": 4.0,
+      "RP_HPUSH": 2.0,
+      "RP_VPUSH": 2.0,
+      "RP_HPULL": 2.0,
+      "RP_VPULL": 2.0,
+      "RES_LB_UNSPEC": 4.0,
+      "RES_UB_UNSPEC": 4.0
+     },
+     "assumed_res3": {
+      "RP_BKD": 4.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 4.0,
+      "RP_UHD": 4.0,
+      "RP_HPUSH": 4.0,
+      "RP_VPUSH": 4.0,
+      "RP_HPULL": 4.0,
+      "RP_VPULL": 4.0,
+      "ISO_QUAD": 2.0,
+      "ISO_HAM": 2.0,
+      "ISO_SIDE_REAR_DELT": 2.0,
+      "ISO_BICEP": 1.0,
+      "ISO_TRICEP": 1.0
+     }
+    },
+    "NOV": {
+     "as_written": {
+      "RP_BKD": 4.0,
+      "RP_BHD": 4.0,
+      "RP_HPUSH": 2.0,
+      "RP_VPUSH": 2.0,
+      "RP_HPULL": 2.0,
+      "RP_VPULL": 2.0,
+      "RES_LB_UNSPEC": 6.0,
+      "RES_UB_UNSPEC": 6.0
+     },
+     "assumed_res3": {
+      "RP_BKD": 4.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 5.0,
+      "RP_VPUSH": 5.0,
+      "RP_HPULL": 5.0,
+      "RP_VPULL": 5.0,
+      "ISO_QUAD": 3.0,
+      "ISO_HAM": 3.0,
+      "ISO_SIDE_REAR_DELT": 3.0,
+      "ISO_BICEP": 1.5,
+      "ISO_TRICEP": 1.5
+     }
+    },
+    "DEC": {
+     "as_written": {
+      "AP_TRIPLE_EXT": 20.0
+     },
+     "assumed_res3": {
+      "AP_TRIPLE_EXT": 20.0
+     }
+    },
+    "JAN": {
+     "as_written": {},
+     "assumed_res3": {}
+    }
+   },
+   "weekly_sets_by_muscle": {
+    "FEB": {
+     "hypertrophy_strength_only": {},
+     "hypertrophy_with_assumed_res3": {
+      "quads": 6.0,
+      "glutes": 8.0,
+      "hamstrings": 6.0,
+      "chest": 2.0,
+      "lats_upper_back": 4.0,
+      "front_delts": 4.0,
+      "side_delts": 3.0,
+      "rear_delts": 1.0,
+      "biceps": 3.0,
+      "triceps": 3.0
+     },
+     "athletic_exposure": {}
+    },
+    "MARCH": {
+     "hypertrophy_strength_only": {},
+     "hypertrophy_with_assumed_res3": {
+      "quads": 9.0,
+      "glutes": 12.0,
+      "hamstrings": 9.0,
+      "chest": 3.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 6.0,
+      "side_delts": 4.5,
+      "rear_delts": 1.5,
+      "biceps": 4.5,
+      "triceps": 4.5
+     },
+     "athletic_exposure": {}
+    },
+    "APRIL": {
+     "hypertrophy_strength_only": {
+      "quads": 3.0,
+      "glutes": 4.5,
+      "hamstrings": 3.0,
+      "chest": 1.5,
+      "lats_upper_back": 3.0,
+      "front_delts": 3.0,
+      "side_delts": 0.75,
+      "rear_delts": 0.75,
+      "biceps": 1.5,
+      "triceps": 1.5
+     },
+     "hypertrophy_with_assumed_res3": {
+      "quads": 3.0,
+      "glutes": 4.5,
+      "hamstrings": 3.0,
+      "chest": 1.5,
+      "lats_upper_back": 3.0,
+      "front_delts": 3.0,
+      "side_delts": 0.75,
+      "rear_delts": 0.75,
+      "biceps": 1.5,
+      "triceps": 1.5
+     },
+     "athletic_exposure": {
+      "quads": 8.0,
+      "glutes": 16.0,
+      "hamstrings": 8.0,
+      "lats_upper_back": 8.0,
+      "calves": 8.0
+     }
+    },
+    "MAY": {
+     "hypertrophy_strength_only": {},
+     "hypertrophy_with_assumed_res3": {},
+     "athletic_exposure": {}
+    },
+    "JUNE": {
+     "hypertrophy_strength_only": {
+      "quads": 5.0,
+      "glutes": 7.5,
+      "hamstrings": 5.0,
+      "chest": 2.5,
+      "lats_upper_back": 5.0,
+      "front_delts": 5.0,
+      "side_delts": 1.25,
+      "rear_delts": 1.25,
+      "biceps": 2.5,
+      "triceps": 2.5
+     },
+     "hypertrophy_with_assumed_res3": {
+      "quads": 11.0,
+      "glutes": 15.5,
+      "hamstrings": 11.0,
+      "chest": 4.5,
+      "lats_upper_back": 9.0,
+      "front_delts": 9.0,
+      "side_delts": 4.25,
+      "rear_delts": 2.25,
+      "biceps": 5.5,
+      "triceps": 5.5
+     },
+     "athletic_exposure": {}
+    },
+    "JULY": {
+     "hypertrophy_strength_only": {
+      "quads": 6.0,
+      "glutes": 9.0,
+      "hamstrings": 6.0,
+      "chest": 3.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 6.0,
+      "side_delts": 1.5,
+      "rear_delts": 1.5,
+      "biceps": 3.0,
+      "triceps": 3.0
+     },
+     "hypertrophy_with_assumed_res3": {
+      "quads": 15.0,
+      "glutes": 21.0,
+      "hamstrings": 15.0,
+      "chest": 6.0,
+      "lats_upper_back": 12.0,
+      "front_delts": 12.0,
+      "side_delts": 6.0,
+      "rear_delts": 3.0,
+      "biceps": 7.5,
+      "triceps": 7.5
+     },
+     "athletic_exposure": {}
+    },
+    "AUG": {
+     "hypertrophy_strength_only": {},
+     "hypertrophy_with_assumed_res3": {},
+     "athletic_exposure": {
+      "quads": 10.0,
+      "glutes": 20.0,
+      "hamstrings": 10.0,
+      "lats_upper_back": 10.0,
+      "calves": 10.0
+     }
+    },
+    "SEPT": {
+     "hypertrophy_strength_only": {},
+     "hypertrophy_with_assumed_res3": {},
+     "athletic_exposure": {
+      "quads": 12.0,
+      "glutes": 24.0,
+      "hamstrings": 12.0,
+      "lats_upper_back": 12.0,
+      "calves": 12.0
+     }
+    },
+    "OCT": {
+     "hypertrophy_strength_only": {
+      "quads": 4.0,
+      "glutes": 6.0,
+      "hamstrings": 4.0,
+      "chest": 2.0,
+      "lats_upper_back": 4.0,
+      "front_delts": 4.0,
+      "side_delts": 1.0,
+      "rear_delts": 1.0,
+      "biceps": 2.0,
+      "triceps": 2.0
+     },
+     "hypertrophy_with_assumed_res3": {
+      "quads": 10.0,
+      "glutes": 14.0,
+      "hamstrings": 10.0,
+      "chest": 4.0,
+      "lats_upper_back": 8.0,
+      "front_delts": 8.0,
+      "side_delts": 4.0,
+      "rear_delts": 2.0,
+      "biceps": 5.0,
+      "triceps": 5.0
+     },
+     "athletic_exposure": {}
+    },
+    "NOV": {
+     "hypertrophy_strength_only": {
+      "quads": 4.0,
+      "glutes": 6.0,
+      "hamstrings": 4.0,
+      "chest": 2.0,
+      "lats_upper_back": 4.0,
+      "front_delts": 4.0,
+      "side_delts": 1.0,
+      "rear_delts": 1.0,
+      "biceps": 2.0,
+      "triceps": 2.0
+     },
+     "hypertrophy_with_assumed_res3": {
+      "quads": 13.0,
+      "glutes": 18.0,
+      "hamstrings": 13.0,
+      "chest": 5.0,
+      "lats_upper_back": 10.0,
+      "front_delts": 10.0,
+      "side_delts": 5.5,
+      "rear_delts": 2.5,
+      "biceps": 6.5,
+      "triceps": 6.5
+     },
+     "athletic_exposure": {}
+    },
+    "DEC": {
+     "hypertrophy_strength_only": {},
+     "hypertrophy_with_assumed_res3": {},
+     "athletic_exposure": {
+      "quads": 10.0,
+      "glutes": 20.0,
+      "hamstrings": 10.0,
+      "lats_upper_back": 10.0,
+      "calves": 10.0
+     }
+    },
+    "JAN": {
+     "hypertrophy_strength_only": {},
+     "hypertrophy_with_assumed_res3": {},
+     "athletic_exposure": {}
+    }
+   },
+   "sessions_by_month": {
+    "FEB": {
+     "COND_AEROBIC_sessions": 0,
+     "WOD_sessions": 0,
+     "WOD_sessions_per_level_table": 0,
+     "SKILL_sessions": 0,
+     "TEST_PEAK": null
+    },
+    "MARCH": {
+     "COND_AEROBIC_sessions": 2,
+     "WOD_sessions": 0,
+     "WOD_sessions_per_level_table": 0,
+     "SKILL_sessions": 2,
+     "TEST_PEAK": null
+    },
+    "APRIL": {
+     "COND_AEROBIC_sessions": 2,
+     "WOD_sessions": 2,
+     "WOD_sessions_per_level_table": 2,
+     "SKILL_sessions": 2,
+     "TEST_PEAK": null
+    },
+    "MAY": {
+     "COND_AEROBIC_sessions": 3,
+     "WOD_sessions": 3,
+     "WOD_sessions_per_level_table": 3,
+     "SKILL_sessions": 0,
+     "TEST_PEAK": 4
+    },
+    "JUNE": {
+     "COND_AEROBIC_sessions": 2,
+     "WOD_sessions": 0,
+     "WOD_sessions_per_level_table": 0,
+     "SKILL_sessions": 2,
+     "TEST_PEAK": null
+    },
+    "JULY": {
+     "COND_AEROBIC_sessions": 2,
+     "WOD_sessions": 2,
+     "WOD_sessions_per_level_table": 2,
+     "SKILL_sessions": 2,
+     "TEST_PEAK": null
+    },
+    "AUG": {
+     "COND_AEROBIC_sessions": 3,
+     "WOD_sessions": 2,
+     "WOD_sessions_per_level_table": 3,
+     "SKILL_sessions": 0,
+     "TEST_PEAK": null
+    },
+    "SEPT": {
+     "COND_AEROBIC_sessions": 4,
+     "WOD_sessions": 4,
+     "WOD_sessions_per_level_table": "4 (LVL 4 cell reads 'LVL 4 = wods a week', number missing; grid shows 4)",
+     "SKILL_sessions": 0,
+     "TEST_PEAK": 4
+    },
+    "OCT": {
+     "COND_AEROBIC_sessions": 2,
+     "WOD_sessions": 2,
+     "WOD_sessions_per_level_table": 2,
+     "SKILL_sessions": 0,
+     "TEST_PEAK": null
+    },
+    "NOV": {
+     "COND_AEROBIC_sessions": 3,
+     "WOD_sessions": 3,
+     "WOD_sessions_per_level_table": 3,
+     "SKILL_sessions": 2,
+     "TEST_PEAK": null
+    },
+    "DEC": {
+     "COND_AEROBIC_sessions": 4,
+     "WOD_sessions": 4,
+     "WOD_sessions_per_level_table": "4 (LVL 4 cell reads 'LVL 4 = wods a week', number missing; grid shows 4)",
+     "SKILL_sessions": 4,
+     "TEST_PEAK": null
+    },
+    "JAN": {
+     "COND_AEROBIC_sessions": 2,
+     "WOD_sessions": 4,
+     "WOD_sessions_per_level_table": 0,
+     "SKILL_sessions": 4,
+     "TEST_PEAK": 4
+    }
+   },
+   "level_tables": {
+    "FULL_TIME": {
+     "RESISTANCE": {
+      "1": "2 SETS x 10",
+      "2": "3 SETS x 10"
+     },
+     "STRENGTH": {
+      "1": "3 SETS x 7",
+      "2": "4 SETS x 6",
+      "3": "5 SETS x 5",
+      "4": "6 SETS x 4"
+     },
+     "POWER": {
+      "1": "3 SETS x 3",
+      "2": "4 SETS x 3",
+      "3": "5 SETS x 3",
+      "4": "6 SETS x 3"
+     },
+     "AEROBIC_CAP": {
+      "1": "C",
+      "2": "C, B",
+      "3": "C,B, A",
+      "4": "LACTATE CLERANCE"
+     },
+     "WODS": {
+      "1": "1 a week",
+      "2": "2 wods a week",
+      "3": "3 wods a week",
+      "4": "wods a week (number missing)"
+     }
+    },
+    "HALF_TIME": {
+     "RESISTANCE": {
+      "1": "2 SETS x 10",
+      "2": "3 SETS x 10"
+     },
+     "STRENGTH": {
+      "1": "3 SETS x 7",
+      "2": "3 SETS x 6",
+      "3": "3 SETS x 5",
+      "4": "3 SETS x 4",
+      "5": "Work up to 1RM"
+     },
+     "POWER": {
+      "1": "3 SETS x 4",
+      "2": "3 SETS x 3",
+      "3": "3 SETS x 2",
+      "4": "3 SETS x 1"
+     },
+     "AEROBIC_CAP": {
+      "1": "C",
+      "2": "C, B",
+      "3": "C,B, A",
+      "4": "LACTATE CLERANCE"
+     },
+     "WODS": {
+      "1": "1 a week",
+      "2": "2 wods a week",
+      "3": "3 wods a week",
+      "4": "wods a week"
+     }
+    },
+    "AEROBIC_letters": "from 'AEROBIC CAPACITY CHEAT SHEET': A = 'Short Duration'/'High Intensity' (blue A4C2F4), B = 'Moderate Duration'/'Moderate Intensity' (green B6D7A8), C = 'Long Duration'/'Low intensity' (orange F9CB9C); 'LACTATE CLEARANCE' = its own interval table"
+   },
+   "macro_grid": {
+    "FEB": {
+     "RES": 1
+    },
+    "MARCH": {
+     "AER": 1,
+     "RES": 2
+    },
+    "APRIL": {
+     "AER": 2,
+     "STR": 1,
+     "POW": 2,
+     "WOD": 2
+    },
+    "MAY": {
+     "AER": 3,
+     "WOD": 3,
+     "TEST": 4
+    },
+    "JUNE": {
+     "AER": 1,
+     "STR": 3,
+     "RES": 1
+    },
+    "JULY": {
+     "AER": 2,
+     "STR": 4,
+     "RES": 2,
+     "WOD": 2
+    },
+    "AUG": {
+     "AER": 3,
+     "POW": 3,
+     "WOD": 3
+    },
+    "SEPT": {
+     "AER": 4,
+     "POW": 4,
+     "WOD": 4,
+     "TEST": 4
+    },
+    "OCT": {
+     "AER": 2,
+     "STR": 2,
+     "RES": 1,
+     "WOD": 2
+    },
+    "NOV": {
+     "AER": 3,
+     "STR": 2,
+     "RES": 2,
+     "WOD": 3
+    },
+    "DEC": {
+     "AER": 4,
+     "POW": 3,
+     "WOD": 4
+    },
+    "JAN": {
+     "TEST": 4
+    }
+   },
+   "rep_ranges_by_bucket": {
+    "RP_strength_slots": "7 (L1) / 6 (L2) / 5 (L3) / 4 (L4) reps; HALF TIME adds L5 = 1RM",
+    "AP_TRIPLE_EXT": "3 reps at every FULL TIME level (HALF TIME 4/3/2/1)",
+    "RESISTANCE_LB_UB": "10 reps (2 or 3 sets)",
+    "COND_AEROBIC": "C/B/A/lactate-clearance session types, not reps",
+    "WODs": "box-prescribed"
+   },
+   "intensity": "No %/RPE in tab; A4 '*INSTEAD OF WORKING TO FAILURE, PUSH YOUR LIMITS OVER THE COURSE OF TIME'",
+   "progression_summary": "Month-to-month level steps. FULL TIME strength sets/slot 3->4->5->6 (+33%, +25%, +20%) while reps 7->6->5->4, so total reps/slot stay 21-25; power sets 3->4->5->6 at 3 reps (total reps 9->12->15->18, +33/+25/+20%); resistance 2x10 -> 3x10 (+50%); aerobic adds one intensity zone per level (C -> C,B -> C,B,A -> lactate clearance) and sessions 2->2->3->4; WODs 1->2->3->4 per week. Annual shape = three ~4-month blocks each ending in TEST/PEAK (MAY, SEPT, JAN event): hypertrophy (RESISTANCE) -> STRENGTH -> POWER -> peak, with conditioning (AEROBIC C., WODs) climbing level 1/2 -> 4 inside each block and resetting at the next block. Weekly lifting sets as written: FEB 8, MAR 12, APR 28, MAY 0, JUN 28, JUL 36, AUG 20, SEP 24, OCT 24, NOV 28, DEC 20, JAN 0."
+  },
+  {
+   "tab": "EXAMPLE CROSSFIT SPLIT",
+   "program_id": "MM_CF_CLASS_HALFTIME_8WK",
+   "title": "'CLASS PROGRAMMING SPLIT' / 'EXAMPLE CROSSFIT STYLE PROGRAMMING MODEL' (P1:V16, Q4:S11)",
+   "goal": "Group CrossFit class (box members): 'WARMUP/SKILL' -> 'STRENGTH/POWER' -> 'WOD' each class; 8-week strength/power cycle ending in a 1RM",
+   "level": "HALF TIME table (INFERRED: the table sits directly under the class split and is the only one with 'LVL 5 = Work up to 1RM', which WK 8 code '5' needs)",
+   "days_per_week": 6,
+   "days_note": "MON..SAT columns Q12:V12 (MON, TUES, WED, THURS, FRID, SAT); WED and SAT have no strength/power/skill/aerobic entry (INFERRED: WOD-only)",
+   "exercises_per_session": {
+    "week_1": [
+     4,
+     3,
+     1,
+     4,
+     2,
+     1
+    ],
+    "week_2": [
+     4,
+     3,
+     1,
+     4,
+     2,
+     1
+    ],
+    "week_3": [
+     4,
+     3,
+     1,
+     4,
+     2,
+     1
+    ],
+    "week_4": [
+     4,
+     3,
+     1,
+     4,
+     2,
+     1
+    ],
+    "week_5": [
+     4,
+     3,
+     1,
+     4,
+     2,
+     1
+    ],
+    "week_6": [
+     4,
+     3,
+     1,
+     4,
+     2,
+     1
+    ],
+    "week_7": [
+     4,
+     3,
+     1,
+     4,
+     2,
+     1
+    ],
+    "week_8": [
+     4,
+     2,
+     1,
+     4,
+     1,
+     1
+    ]
+   },
+   "sets_per_session": {
+    "week_1": [
+     3,
+     6,
+     0,
+     3,
+     3,
+     0
+    ],
+    "week_2": [
+     3,
+     6,
+     0,
+     3,
+     3,
+     0
+    ],
+    "week_3": [
+     3,
+     6,
+     0,
+     3,
+     3,
+     0
+    ],
+    "week_4": [
+     3,
+     6,
+     0,
+     3,
+     3,
+     0
+    ],
+    "week_5": [
+     3,
+     6,
+     0,
+     3,
+     3,
+     0
+    ],
+    "week_6": [
+     3,
+     6,
+     0,
+     3,
+     3,
+     0
+    ],
+    "week_7": [
+     3,
+     6,
+     0,
+     3,
+     3,
+     0
+    ],
+    "week_8": [
+     1,
+     1,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "weekly_sets_by_bucket": {
+    "week_1": {
+     "AP_TRIPLE_EXT": 6.0,
+     "RP_BKD": 3.0,
+     "RP_BHD": 3.0,
+     "RP_VPUSH": 3.0
+    },
+    "week_2": {
+     "AP_TRIPLE_EXT": 6.0,
+     "RP_BKD": 3.0,
+     "RP_BHD": 3.0,
+     "RP_VPUSH": 3.0
+    },
+    "week_3": {
+     "AP_TRIPLE_EXT": 6.0,
+     "RP_BKD": 3.0,
+     "RP_BHD": 3.0,
+     "RP_VPUSH": 3.0
+    },
+    "week_4": {
+     "AP_TRIPLE_EXT": 6.0,
+     "RP_BKD": 3.0,
+     "RP_BHD": 3.0,
+     "RP_VPUSH": 3.0
+    },
+    "week_5": {
+     "AP_TRIPLE_EXT": 6.0,
+     "RP_BKD": 3.0,
+     "RP_BHD": 3.0,
+     "RP_VPUSH": 3.0
+    },
+    "week_6": {
+     "AP_TRIPLE_EXT": 6.0,
+     "RP_BKD": 3.0,
+     "RP_BHD": 3.0,
+     "RP_VPUSH": 3.0
+    },
+    "week_7": {
+     "AP_TRIPLE_EXT": 6.0,
+     "RP_BKD": 3.0,
+     "RP_BHD": 3.0,
+     "RP_VPUSH": 3.0
+    },
+    "week_8": {
+     "RP_BKD": 1.0,
+     "RP_BHD": 1.0,
+     "RP_VPUSH": 1.0
+    }
+   },
+   "weekly_sets_by_muscle": {
+    "week_1": {
+     "hypertrophy": {
+      "quads": 3.0,
+      "glutes": 4.5,
+      "hamstrings": 3.0,
+      "front_delts": 3.0,
+      "side_delts": 1.5,
+      "triceps": 1.5
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 6.0,
+      "hamstrings": 3.0,
+      "lats_upper_back": 3.0,
+      "calves": 3.0
+     }
+    },
+    "week_2": {
+     "hypertrophy": {
+      "quads": 3.0,
+      "glutes": 4.5,
+      "hamstrings": 3.0,
+      "front_delts": 3.0,
+      "side_delts": 1.5,
+      "triceps": 1.5
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 6.0,
+      "hamstrings": 3.0,
+      "lats_upper_back": 3.0,
+      "calves": 3.0
+     }
+    },
+    "week_3": {
+     "hypertrophy": {
+      "quads": 3.0,
+      "glutes": 4.5,
+      "hamstrings": 3.0,
+      "front_delts": 3.0,
+      "side_delts": 1.5,
+      "triceps": 1.5
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 6.0,
+      "hamstrings": 3.0,
+      "lats_upper_back": 3.0,
+      "calves": 3.0
+     }
+    },
+    "week_4": {
+     "hypertrophy": {
+      "quads": 3.0,
+      "glutes": 4.5,
+      "hamstrings": 3.0,
+      "front_delts": 3.0,
+      "side_delts": 1.5,
+      "triceps": 1.5
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 6.0,
+      "hamstrings": 3.0,
+      "lats_upper_back": 3.0,
+      "calves": 3.0
+     }
+    },
+    "week_5": {
+     "hypertrophy": {
+      "quads": 3.0,
+      "glutes": 4.5,
+      "hamstrings": 3.0,
+      "front_delts": 3.0,
+      "side_delts": 1.5,
+      "triceps": 1.5
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 6.0,
+      "hamstrings": 3.0,
+      "lats_upper_back": 3.0,
+      "calves": 3.0
+     }
+    },
+    "week_6": {
+     "hypertrophy": {
+      "quads": 3.0,
+      "glutes": 4.5,
+      "hamstrings": 3.0,
+      "front_delts": 3.0,
+      "side_delts": 1.5,
+      "triceps": 1.5
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 6.0,
+      "hamstrings": 3.0,
+      "lats_upper_back": 3.0,
+      "calves": 3.0
+     }
+    },
+    "week_7": {
+     "hypertrophy": {
+      "quads": 3.0,
+      "glutes": 4.5,
+      "hamstrings": 3.0,
+      "front_delts": 3.0,
+      "side_delts": 1.5,
+      "triceps": 1.5
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 6.0,
+      "hamstrings": 3.0,
+      "lats_upper_back": 3.0,
+      "calves": 3.0
+     }
+    },
+    "week_8": {
+     "hypertrophy": {
+      "quads": 1.0,
+      "glutes": 1.5,
+      "hamstrings": 1.0,
+      "front_delts": 1.0,
+      "side_delts": 0.5,
+      "triceps": 0.5
+     },
+     "athletic_exposure": {}
+    }
+   },
+   "rep_ranges_by_bucket": {
+    "RP_BKD": "7->6->6->5->5->4->4 then 1RM",
+    "RP_VPUSH": "same",
+    "RP_BHD": "same",
+    "AP_TRIPLE_EXT": "4->4->3->3->2->2->1, none wk8"
+   },
+   "intensity": "none written; WK8 = 'LVL 5 = Work up to 1RM'",
+   "progression_summary": "Codes 1/1, 2/1, 2/2, 3/2, 3/3, 4/3, 4/4, 5 (strength level / power level, staggered by one week). Sets fixed at 3; strength reps 7->6->6->5->5->4->4 (weekly strength reps 63->54->54->45->45->36->36, -14%/-17%/-20% per level step), power reps 4->4->3->3->2->2->1 (24->24->18->18->12->12->6). Pure intensification at constant sets, test week 8."
+  },
+  {
+   "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
+   "program_id": "MM_STRENGTH_CONJUGATE_8WK_v04",
+   "title": "'STRENGTH' / 'conjugate style training' (A3:C3), left block B8:L24 'WK1'-'WK8'",
+   "goal": "Maximal strength (conjugate: max-effort + dynamic-effort days) with plyometrics and hypertrophy support",
+   "level": "intermediate-advanced (box squats, chains, bands, deficit/snatch-grip pulls) - INFERRED",
+   "days_per_week": 4,
+   "days": "MONDAY (lower M.E.), WEDNESDAY (upper M.E.), THURSDAY (plyo + lower D.E.), SATURDAY (upper D.E.)",
+   "exercises_per_session": {
+    "week_1": [
+     4,
+     4,
+     4,
+     3
+    ],
+    "week_2": [
+     4,
+     4,
+     4,
+     3
+    ],
+    "week_3": [
+     4,
+     4,
+     4,
+     3
+    ],
+    "week_4": [
+     4,
+     4,
+     4,
+     3
+    ],
+    "week_5": [
+     4,
+     4,
+     4,
+     3
+    ],
+    "week_6": [
+     4,
+     4,
+     4,
+     3
+    ],
+    "week_7": [
+     4,
+     4,
+     4,
+     3
+    ],
+    "week_8": [
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "sets_per_session": {
+    "week_1": [
+     14.0,
+     15.0,
+     16.0,
+     11.0
+    ],
+    "week_2": [
+     14.0,
+     15.0,
+     16.0,
+     11.0
+    ],
+    "week_3": [
+     14.0,
+     15.0,
+     16.0,
+     11.0
+    ],
+    "week_4": [
+     14.0,
+     15.0,
+     16.0,
+     11.0
+    ],
+    "week_5": [
+     14.0,
+     15.0,
+     16.0,
+     11.0
+    ],
+    "week_6": [
+     14.0,
+     15.0,
+     16.0,
+     11.0
+    ],
+    "week_7": [
+     14.0,
+     15.0,
+     16.0,
+     11.0
+    ],
+    "week_8": [
+     5.0,
+     5.0,
+     0.0,
+     0.0
+    ]
+   },
+   "weekly_sets_by_bucket": {
+    "week_1": {
+     "AP_PLYO": 3.0,
+     "RP_BKD": 10.0,
+     "RP_BHD": 3.0,
+     "RP_UKD": 6.0,
+     "RP_HPUSH": 16.0,
+     "RP_HPULL": 7.0,
+     "RP_VPULL": 8.0,
+     "ISO_BICEP": 3.0
+    },
+    "week_2": {
+     "AP_PLYO": 3.0,
+     "RP_BKD": 3.0,
+     "RP_BHD": 10.0,
+     "RP_UHD": 6.0,
+     "RP_HPUSH": 8.0,
+     "RP_VPUSH": 8.0,
+     "RP_HPULL": 8.0,
+     "RP_VPULL": 7.0,
+     "ISO_BICEP": 3.0
+    },
+    "week_3": {
+     "AP_PLYO": 3.0,
+     "RP_BKD": 10.0,
+     "RP_BHD": 3.0,
+     "RP_UKD": 6.0,
+     "RP_HPUSH": 16.0,
+     "RP_HPULL": 7.0,
+     "RP_VPULL": 8.0,
+     "ISO_BICEP": 3.0
+    },
+    "week_4": {
+     "AP_PLYO": 3.0,
+     "RP_BKD": 3.0,
+     "RP_BHD": 10.0,
+     "RP_UHD": 6.0,
+     "RP_HPUSH": 8.0,
+     "RP_VPUSH": 8.0,
+     "RP_HPULL": 15.0,
+     "ISO_BICEP": 3.0
+    },
+    "week_5": {
+     "AP_PLYO": 3.0,
+     "RP_BKD": 10.0,
+     "RP_BHD": 3.0,
+     "RP_UKD": 6.0,
+     "RP_HPUSH": 16.0,
+     "RP_VPULL": 15.0,
+     "ISO_BICEP": 3.0
+    },
+    "week_6": {
+     "AP_PLYO": 3.0,
+     "RP_BKD": 3.0,
+     "RP_BHD": 10.0,
+     "RP_UHD": 6.0,
+     "RP_HPUSH": 8.0,
+     "RP_VPUSH": 8.0,
+     "RP_HPULL": 15.0,
+     "ISO_BICEP": 3.0
+    },
+    "week_7": {
+     "AP_PLYO": 3.0,
+     "RP_BKD": 10.0,
+     "RP_BHD": 3.0,
+     "RP_UKD": 6.0,
+     "RP_HPUSH": 16.0,
+     "RP_VPULL": 15.0,
+     "ISO_BICEP": 3.0
+    },
+    "week_8": {
+     "RP_BKD": 5.0,
+     "RP_HPUSH": 5.0
+    }
+   },
+   "weekly_sets_by_muscle": {
+    "week_1": {
+     "hypertrophy": {
+      "quads": 16.0,
+      "glutes": 14.0,
+      "hamstrings": 3.0,
+      "chest": 16.0,
+      "lats_upper_back": 15.0,
+      "front_delts": 16.0,
+      "rear_delts": 3.5,
+      "biceps": 10.5,
+      "triceps": 8.0
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 1.5,
+      "calves": 1.5
+     }
+    },
+    "week_2": {
+     "hypertrophy": {
+      "quads": 3.0,
+      "glutes": 17.5,
+      "hamstrings": 16.0,
+      "chest": 8.0,
+      "lats_upper_back": 15.0,
+      "front_delts": 16.0,
+      "side_delts": 4.0,
+      "rear_delts": 4.0,
+      "biceps": 10.5,
+      "triceps": 8.0
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 1.5,
+      "calves": 1.5
+     }
+    },
+    "week_3": {
+     "hypertrophy": {
+      "quads": 16.0,
+      "glutes": 14.0,
+      "hamstrings": 3.0,
+      "chest": 16.0,
+      "lats_upper_back": 15.0,
+      "front_delts": 16.0,
+      "rear_delts": 3.5,
+      "biceps": 10.5,
+      "triceps": 8.0
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 1.5,
+      "calves": 1.5
+     }
+    },
+    "week_4": {
+     "hypertrophy": {
+      "quads": 3.0,
+      "glutes": 17.5,
+      "hamstrings": 16.0,
+      "chest": 8.0,
+      "lats_upper_back": 15.0,
+      "front_delts": 16.0,
+      "side_delts": 4.0,
+      "rear_delts": 7.5,
+      "biceps": 10.5,
+      "triceps": 8.0
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 1.5,
+      "calves": 1.5
+     }
+    },
+    "week_5": {
+     "hypertrophy": {
+      "quads": 16.0,
+      "glutes": 14.0,
+      "hamstrings": 3.0,
+      "chest": 16.0,
+      "lats_upper_back": 15.0,
+      "front_delts": 16.0,
+      "biceps": 10.5,
+      "triceps": 8.0
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 1.5,
+      "calves": 1.5
+     }
+    },
+    "week_6": {
+     "hypertrophy": {
+      "quads": 3.0,
+      "glutes": 17.5,
+      "hamstrings": 16.0,
+      "chest": 8.0,
+      "lats_upper_back": 15.0,
+      "front_delts": 16.0,
+      "side_delts": 4.0,
+      "rear_delts": 7.5,
+      "biceps": 10.5,
+      "triceps": 8.0
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 1.5,
+      "calves": 1.5
+     }
+    },
+    "week_7": {
+     "hypertrophy": {
+      "quads": 16.0,
+      "glutes": 14.0,
+      "hamstrings": 3.0,
+      "chest": 16.0,
+      "lats_upper_back": 15.0,
+      "front_delts": 16.0,
+      "biceps": 10.5,
+      "triceps": 8.0
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 1.5,
+      "calves": 1.5
+     }
+    },
+    "week_8": {
+     "hypertrophy": {
+      "quads": 5.0,
+      "glutes": 2.5,
+      "chest": 5.0,
+      "front_delts": 5.0,
+      "triceps": 2.5
+     },
+     "athletic_exposure": {}
+    }
+   },
+   "ladder_variants": {
+    "green_ME": {
+     "week_1": {
+      "total": 56.0,
+      "weekly_sets_by_bucket": {
+       "AP_PLYO": 3.0,
+       "RP_BKD": 10.0,
+       "RP_BHD": 3.0,
+       "RP_UKD": 6.0,
+       "RP_HPUSH": 16.0,
+       "RP_HPULL": 7.0,
+       "RP_VPULL": 8.0,
+       "ISO_BICEP": 3.0
+      }
+     },
+     "week_2": {
+      "total": 56.0,
+      "weekly_sets_by_bucket": {
+       "AP_PLYO": 3.0,
+       "RP_BKD": 3.0,
+       "RP_BHD": 10.0,
+       "RP_UHD": 6.0,
+       "RP_HPUSH": 8.0,
+       "RP_VPUSH": 8.0,
+       "RP_HPULL": 8.0,
+       "RP_VPULL": 7.0,
+       "ISO_BICEP": 3.0
+      }
+     },
+     "week_3": {
+      "total": 54.0,
+      "weekly_sets_by_bucket": {
+       "AP_PLYO": 3.0,
+       "RP_BKD": 9.0,
+       "RP_BHD": 3.0,
+       "RP_UKD": 6.0,
+       "RP_HPUSH": 15.0,
+       "RP_HPULL": 7.0,
+       "RP_VPULL": 8.0,
+       "ISO_BICEP": 3.0
+      }
+     },
+     "week_4": {
+      "total": 54.0,
+      "weekly_sets_by_bucket": {
+       "AP_PLYO": 3.0,
+       "RP_BKD": 3.0,
+       "RP_BHD": 9.0,
+       "RP_UHD": 6.0,
+       "RP_HPUSH": 8.0,
+       "RP_VPUSH": 7.0,
+       "RP_HPULL": 15.0,
+       "ISO_BICEP": 3.0
+      }
+     },
+     "week_5": {
+      "total": 52.0,
+      "weekly_sets_by_bucket": {
+       "AP_PLYO": 3.0,
+       "RP_BKD": 8.0,
+       "RP_BHD": 3.0,
+       "RP_UKD": 6.0,
+       "RP_HPUSH": 14.0,
+       "RP_VPULL": 15.0,
+       "ISO_BICEP": 3.0
+      }
+     },
+     "week_6": {
+      "total": 52.0,
+      "weekly_sets_by_bucket": {
+       "AP_PLYO": 3.0,
+       "RP_BKD": 3.0,
+       "RP_BHD": 8.0,
+       "RP_UHD": 6.0,
+       "RP_HPUSH": 8.0,
+       "RP_VPUSH": 6.0,
+       "RP_HPULL": 15.0,
+       "ISO_BICEP": 3.0
+      }
+     },
+     "week_7": {
+      "total": 50.0,
+      "weekly_sets_by_bucket": {
+       "AP_PLYO": 3.0,
+       "RP_BKD": 7.0,
+       "RP_BHD": 3.0,
+       "RP_UKD": 6.0,
+       "RP_HPUSH": 13.0,
+       "RP_VPULL": 15.0,
+       "ISO_BICEP": 3.0
+      }
+     },
+     "week_8": {
+      "total": 2.0,
+      "weekly_sets_by_bucket": {
+       "RP_BKD": 1.0,
+       "RP_HPUSH": 1.0
+      }
+     }
+    },
+    "green_all": {
+     "week_1": {
+      "total": 60.0,
+      "weekly_sets_by_bucket": {
+       "AP_PLYO": 5.0,
+       "RP_BKD": 10.0,
+       "RP_BHD": 3.0,
+       "RP_UKD": 6.0,
+       "RP_HPUSH": 18.0,
+       "RP_HPULL": 7.0,
+       "RP_VPULL": 8.0,
+       "ISO_BICEP": 3.0
+      }
+     },
+     "week_2": {
+      "total": 60.0,
+      "weekly_sets_by_bucket": {
+       "AP_PLYO": 5.0,
+       "RP_BKD": 3.0,
+       "RP_BHD": 10.0,
+       "RP_UHD": 6.0,
+       "RP_HPUSH": 8.0,
+       "RP_VPUSH": 10.0,
+       "RP_HPULL": 8.0,
+       "RP_VPULL": 7.0,
+       "ISO_BICEP": 3.0
+      }
+     },
+     "week_3": {
+      "total": 56.0,
+      "weekly_sets_by_bucket": {
+       "AP_PLYO": 4.0,
+       "RP_BKD": 9.0,
+       "RP_BHD": 3.0,
+       "RP_UKD": 6.0,
+       "RP_HPUSH": 16.0,
+       "RP_HPULL": 7.0,
+       "RP_VPULL": 8.0,
+       "ISO_BICEP": 3.0
+      }
+     },
+     "week_4": {
+      "total": 56.0,
+      "weekly_sets_by_bucket": {
+       "AP_PLYO": 4.0,
+       "RP_BKD": 3.0,
+       "RP_BHD": 9.0,
+       "RP_UHD": 6.0,
+       "RP_HPUSH": 8.0,
+       "RP_VPUSH": 8.0,
+       "RP_HPULL": 15.0,
+       "ISO_BICEP": 3.0
+      }
+     },
+     "week_5": {
+      "total": 52.0,
+      "weekly_sets_by_bucket": {
+       "AP_PLYO": 3.0,
+       "RP_BKD": 8.0,
+       "RP_BHD": 3.0,
+       "RP_UKD": 6.0,
+       "RP_HPUSH": 14.0,
+       "RP_VPULL": 15.0,
+       "ISO_BICEP": 3.0
+      }
+     },
+     "week_6": {
+      "total": 52.0,
+      "weekly_sets_by_bucket": {
+       "AP_PLYO": 3.0,
+       "RP_BKD": 3.0,
+       "RP_BHD": 8.0,
+       "RP_UHD": 6.0,
+       "RP_HPUSH": 8.0,
+       "RP_VPUSH": 6.0,
+       "RP_HPULL": 15.0,
+       "ISO_BICEP": 3.0
+      }
+     },
+     "week_7": {
+      "total": 48.0,
+      "weekly_sets_by_bucket": {
+       "AP_PLYO": 2.0,
+       "RP_BKD": 7.0,
+       "RP_BHD": 3.0,
+       "RP_UKD": 6.0,
+       "RP_HPUSH": 12.0,
+       "RP_VPULL": 15.0,
+       "ISO_BICEP": 3.0
+      }
+     },
+     "week_8": {
+      "total": 2.0,
+      "weekly_sets_by_bucket": {
+       "RP_BKD": 1.0,
+       "RP_HPUSH": 1.0
+      }
+     }
+    }
+   },
+   "rep_ranges_by_bucket": {
+    "ME_RP_BKD_BHD_HPUSH_VPUSH": "5,4,3,2,1,3,2,1 (pink) @ '1RIR'; WK8 TEST",
+    "DE": "3,3,2,1,3,2,1,1 (blue) @ '1RIR'",
+    "accessory_bilateral_or_pull": "6 @ '2RIR'",
+    "nuance_pull_or_incline": "8 or 10 @ 'MAX' (Thu pulls 6 @ '2RIR')",
+    "survival_unilateral_or_curl": "'8/8' (8 per side) @ 'ALL' or 10 @ 'MAX'",
+    "AP_PLYO": "6 @ 'EASY'"
+   },
+   "intensity": "1RIR (main), 2RIR (accessory), 'MAX', 'ALL', 'EASY'; tab 12 A5 '*Always leave 1 rep in the tank, never work up to failure but get as close as you can'",
+   "progression_summary": "Rep ladder 5-4-3-2-1 then 3-2-1 (two descending waves) on M.E., D.E. 3-3-2-1 / 3-2-1-1, exercise rotates weekly (squat-variant week <-> hinge-variant week), wk8 = 'TEST' (M.E. days) + 'DELOAD' (D.E. days). v04 adds a green SETS row 5,5,4,4,3,3,2,1 (E4:L4) so M.E. volume falls with reps: M.E. reps/session 25,20,12,8,3,9,4,1 vs v12 25,20,15,10,5,15,10,5. v04 trims 4 sets/week vs v12 (Mon/Wed accessory 4->3 sets, Sat D.E. 5->3 sets): 56 vs 60 weekly sets."
+  },
+  {
+   "tab": "(NOT DONE) EXAMPLE CONJUGATE",
+   "program_id": "MM_CONJUGATE_8WK_v12",
+   "title": "'CONJUGATE SPLIT' / '8 WEEK CYCLE' (A2, F2), 'UNDER CONSTRUCTION'",
+   "goal": "Maximal strength (conjugate: max-effort + dynamic-effort days) with plyometrics and hypertrophy support",
+   "level": "intermediate-advanced (box squats, chains, bands, deficit/snatch-grip pulls) - INFERRED",
+   "days_per_week": 4,
+   "days": "MONDAY (lower M.E.), WEDNESDAY (upper M.E.), THURSDAY (plyo + lower D.E.), SATURDAY (upper D.E.)",
+   "exercises_per_session": {
+    "week_1": [
+     4,
+     4,
+     4,
+     3
+    ],
+    "week_2": [
+     4,
+     4,
+     4,
+     3
+    ],
+    "week_3": [
+     4,
+     4,
+     4,
+     3
+    ],
+    "week_4": [
+     4,
+     4,
+     4,
+     3
+    ],
+    "week_5": [
+     4,
+     4,
+     4,
+     3
+    ],
+    "week_6": [
+     4,
+     4,
+     4,
+     3
+    ],
+    "week_7": [
+     4,
+     4,
+     4,
+     3
+    ],
+    "week_8": [
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "sets_per_session": {
+    "week_1": [
+     15.0,
+     16.0,
+     16.0,
+     13.0
+    ],
+    "week_2": [
+     15.0,
+     16.0,
+     16.0,
+     13.0
+    ],
+    "week_3": [
+     15.0,
+     16.0,
+     16.0,
+     13.0
+    ],
+    "week_4": [
+     15.0,
+     16.0,
+     16.0,
+     13.0
+    ],
+    "week_5": [
+     15.0,
+     16.0,
+     16.0,
+     13.0
+    ],
+    "week_6": [
+     15.0,
+     16.0,
+     16.0,
+     13.0
+    ],
+    "week_7": [
+     15.0,
+     16.0,
+     16.0,
+     13.0
+    ],
+    "week_8": [
+     5.0,
+     5.0,
+     0.0,
+     0.0
+    ]
+   },
+   "weekly_sets_by_bucket": {
+    "week_1": {
+     "AP_PLYO": 3.0,
+     "RP_BKD": 10.0,
+     "RP_BHD": 4.0,
+     "RP_UKD": 6.0,
+     "RP_HPUSH": 18.0,
+     "RP_HPULL": 8.0,
+     "RP_VPULL": 8.0,
+     "ISO_BICEP": 3.0
+    },
+    "week_2": {
+     "AP_PLYO": 3.0,
+     "RP_BKD": 4.0,
+     "RP_BHD": 10.0,
+     "RP_UHD": 6.0,
+     "RP_HPUSH": 8.0,
+     "RP_VPUSH": 10.0,
+     "RP_HPULL": 8.0,
+     "RP_VPULL": 8.0,
+     "ISO_BICEP": 3.0
+    },
+    "week_3": {
+     "AP_PLYO": 3.0,
+     "RP_BKD": 10.0,
+     "RP_BHD": 4.0,
+     "RP_UKD": 6.0,
+     "RP_HPUSH": 18.0,
+     "RP_HPULL": 8.0,
+     "RP_VPULL": 8.0,
+     "ISO_BICEP": 3.0
+    },
+    "week_4": {
+     "AP_PLYO": 3.0,
+     "RP_BKD": 4.0,
+     "RP_BHD": 10.0,
+     "RP_UHD": 6.0,
+     "RP_HPUSH": 8.0,
+     "RP_VPUSH": 10.0,
+     "RP_HPULL": 16.0,
+     "ISO_BICEP": 3.0
+    },
+    "week_5": {
+     "AP_PLYO": 3.0,
+     "RP_BKD": 10.0,
+     "RP_BHD": 4.0,
+     "RP_UKD": 6.0,
+     "RP_HPUSH": 18.0,
+     "RP_VPULL": 16.0,
+     "ISO_BICEP": 3.0
+    },
+    "week_6": {
+     "AP_PLYO": 3.0,
+     "RP_BKD": 4.0,
+     "RP_BHD": 10.0,
+     "RP_UHD": 6.0,
+     "RP_HPUSH": 8.0,
+     "RP_VPUSH": 10.0,
+     "RP_HPULL": 16.0,
+     "ISO_BICEP": 3.0
+    },
+    "week_7": {
+     "AP_PLYO": 3.0,
+     "RP_BKD": 10.0,
+     "RP_BHD": 4.0,
+     "RP_UKD": 6.0,
+     "RP_HPUSH": 18.0,
+     "RP_VPULL": 16.0,
+     "ISO_BICEP": 3.0
+    },
+    "week_8": {
+     "RP_BKD": 5.0,
+     "RP_HPUSH": 5.0
+    }
+   },
+   "weekly_sets_by_muscle": {
+    "week_1": {
+     "hypertrophy": {
+      "quads": 16.0,
+      "glutes": 15.0,
+      "hamstrings": 4.0,
+      "chest": 18.0,
+      "lats_upper_back": 16.0,
+      "front_delts": 18.0,
+      "rear_delts": 4.0,
+      "biceps": 11.0,
+      "triceps": 9.0
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 1.5,
+      "calves": 1.5
+     }
+    },
+    "week_2": {
+     "hypertrophy": {
+      "quads": 4.0,
+      "glutes": 18.0,
+      "hamstrings": 16.0,
+      "chest": 8.0,
+      "lats_upper_back": 16.0,
+      "front_delts": 18.0,
+      "side_delts": 5.0,
+      "rear_delts": 4.0,
+      "biceps": 11.0,
+      "triceps": 9.0
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 1.5,
+      "calves": 1.5
+     }
+    },
+    "week_3": {
+     "hypertrophy": {
+      "quads": 16.0,
+      "glutes": 15.0,
+      "hamstrings": 4.0,
+      "chest": 18.0,
+      "lats_upper_back": 16.0,
+      "front_delts": 18.0,
+      "rear_delts": 4.0,
+      "biceps": 11.0,
+      "triceps": 9.0
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 1.5,
+      "calves": 1.5
+     }
+    },
+    "week_4": {
+     "hypertrophy": {
+      "quads": 4.0,
+      "glutes": 18.0,
+      "hamstrings": 16.0,
+      "chest": 8.0,
+      "lats_upper_back": 16.0,
+      "front_delts": 18.0,
+      "side_delts": 5.0,
+      "rear_delts": 8.0,
+      "biceps": 11.0,
+      "triceps": 9.0
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 1.5,
+      "calves": 1.5
+     }
+    },
+    "week_5": {
+     "hypertrophy": {
+      "quads": 16.0,
+      "glutes": 15.0,
+      "hamstrings": 4.0,
+      "chest": 18.0,
+      "lats_upper_back": 16.0,
+      "front_delts": 18.0,
+      "biceps": 11.0,
+      "triceps": 9.0
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 1.5,
+      "calves": 1.5
+     }
+    },
+    "week_6": {
+     "hypertrophy": {
+      "quads": 4.0,
+      "glutes": 18.0,
+      "hamstrings": 16.0,
+      "chest": 8.0,
+      "lats_upper_back": 16.0,
+      "front_delts": 18.0,
+      "side_delts": 5.0,
+      "rear_delts": 8.0,
+      "biceps": 11.0,
+      "triceps": 9.0
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 1.5,
+      "calves": 1.5
+     }
+    },
+    "week_7": {
+     "hypertrophy": {
+      "quads": 16.0,
+      "glutes": 15.0,
+      "hamstrings": 4.0,
+      "chest": 18.0,
+      "lats_upper_back": 16.0,
+      "front_delts": 18.0,
+      "biceps": 11.0,
+      "triceps": 9.0
+     },
+     "athletic_exposure": {
+      "quads": 3.0,
+      "glutes": 1.5,
+      "calves": 1.5
+     }
+    },
+    "week_8": {
+     "hypertrophy": {
+      "quads": 5.0,
+      "glutes": 2.5,
+      "chest": 5.0,
+      "front_delts": 5.0,
+      "triceps": 2.5
+     },
+     "athletic_exposure": {}
+    }
+   },
+   "ladder_variants": null,
+   "rep_ranges_by_bucket": {
+    "ME_RP_BKD_BHD_HPUSH_VPUSH": "5,4,3,2,1,3,2,1 (pink) @ '1RIR'; WK8 TEST",
+    "DE": "3,3,2,1,3,2,1,1 (blue) @ '1RIR'",
+    "accessory_bilateral_or_pull": "6 @ '2RIR'",
+    "nuance_pull_or_incline": "8 or 10 @ 'MAX' (Thu pulls 6 @ '2RIR')",
+    "survival_unilateral_or_curl": "'8/8' (8 per side) @ 'ALL' or 10 @ 'MAX'",
+    "AP_PLYO": "6 @ 'EASY'"
+   },
+   "intensity": "1RIR (main), 2RIR (accessory), 'MAX', 'ALL', 'EASY'; tab 12 A5 '*Always leave 1 rep in the tank, never work up to failure but get as close as you can'",
+   "progression_summary": "Rep ladder 5-4-3-2-1 then 3-2-1 (two descending waves) on M.E., D.E. 3-3-2-1 / 3-2-1-1, exercise rotates weekly (squat-variant week <-> hinge-variant week), wk8 = 'TEST' (M.E. days) + 'DELOAD' (D.E. days). Sets fixed (no sets ladder): 60 working sets/week wks 1-7."
+  },
+  {
+   "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
+   "program_id": "MM_STRENGTH_CONJUGATE_12WK",
+   "title": "'STRENGTH' / 'conjugate style training' right block M3:Z24 (WK1-WK12)",
+   "goal": "Strength (squat/bench/deadlift emphasis) with hypertrophy support; 'ongoing training' product sold online",
+   "level": "intermediate (percent + RPE based) - INFERRED",
+   "days_per_week": 4,
+   "days": "MONDAY / WEDNESDAY / THURSDAY / SATURDAY",
+   "exercises_per_session": {
+    "week_1": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "week_2": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "week_3": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "week_4": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "week_5": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "week_6": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "week_7": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "week_8": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "week_9": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "week_10": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "week_11": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "week_12": [
+     4,
+     4,
+     4,
+     4
+    ]
+   },
+   "sets_per_session": {
+    "week_1": {
+     "as_written": [
+      10.0,
+      10.0,
+      10.0,
+      10.0
+     ],
+     "assumed": [
+      13.0,
+      13.0,
+      13.0,
+      13.0
+     ]
+    },
+    "week_2": {
+     "as_written": [
+      10.0,
+      10.0,
+      10.0,
+      10.0
+     ],
+     "assumed": [
+      13.0,
+      13.0,
+      13.0,
+      13.0
+     ]
+    },
+    "week_3": {
+     "as_written": [
+      11.0,
+      11.0,
+      11.0,
+      11.0
+     ],
+     "assumed": [
+      14.0,
+      14.0,
+      14.0,
+      14.0
+     ]
+    },
+    "week_4": {
+     "as_written": [
+      11.0,
+      11.0,
+      11.0,
+      11.0
+     ],
+     "assumed": [
+      14.0,
+      14.0,
+      14.0,
+      14.0
+     ]
+    },
+    "week_5": {
+     "as_written": [
+      12.0,
+      12.0,
+      12.0,
+      12.0
+     ],
+     "assumed": [
+      15.0,
+      15.0,
+      15.0,
+      15.0
+     ]
+    },
+    "week_6": {
+     "as_written": [
+      12.0,
+      12.0,
+      12.0,
+      12.0
+     ],
+     "assumed": [
+      15.0,
+      15.0,
+      15.0,
+      15.0
+     ]
+    },
+    "week_7": {
+     "as_written": [
+      9.0,
+      9.0,
+      9.0,
+      9.0
+     ],
+     "assumed": [
+      12.0,
+      12.0,
+      12.0,
+      12.0
+     ]
+    },
+    "week_8": {
+     "as_written": [
+      11.0,
+      11.0,
+      11.0,
+      11.0
+     ],
+     "assumed": [
+      14.0,
+      14.0,
+      14.0,
+      14.0
+     ]
+    },
+    "week_9": {
+     "as_written": [
+      12.0,
+      12.0,
+      12.0,
+      12.0
+     ],
+     "assumed": [
+      15.0,
+      15.0,
+      15.0,
+      15.0
+     ]
+    },
+    "week_10": {
+     "as_written": [
+      12.0,
+      12.0,
+      12.0,
+      12.0
+     ],
+     "assumed": [
+      15.0,
+      15.0,
+      15.0,
+      15.0
+     ]
+    },
+    "week_11": {
+     "as_written": [
+      13.0,
+      13.0,
+      13.0,
+      13.0
+     ],
+     "assumed": [
+      16.0,
+      16.0,
+      16.0,
+      16.0
+     ]
+    },
+    "week_12": {
+     "as_written": [
+      13.0,
+      13.0,
+      13.0,
+      13.0
+     ],
+     "assumed": [
+      16.0,
+      16.0,
+      16.0,
+      16.0
+     ]
+    }
+   },
+   "weekly_sets_by_bucket": {
+    "week_1": {
+     "as_written": {
+      "RP_BKD": 8.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 8.0,
+      "ISO_QUAD": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_SIDE_REAR_DELT": 3.0,
+      "ISO_TRICEP": 6.0
+     },
+     "assumed": {
+      "RP_BKD": 8.0,
+      "RP_BHD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 8.0,
+      "RP_VPULL": 6.0,
+      "ISO_QUAD": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_SIDE_REAR_DELT": 3.0,
+      "ISO_TRICEP": 6.0
+     }
+    },
+    "week_2": {
+     "as_written": {
+      "RP_BHD": 8.0,
+      "RP_UKD": 6.0,
+      "RP_HPUSH": 8.0,
+      "ISO_HAM": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_BICEP": 3.0,
+      "ISO_TRICEP": 6.0
+     },
+     "assumed": {
+      "RP_BKD": 6.0,
+      "RP_BHD": 8.0,
+      "RP_UKD": 6.0,
+      "RP_HPUSH": 8.0,
+      "RP_HPULL": 6.0,
+      "ISO_HAM": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_BICEP": 3.0,
+      "ISO_TRICEP": 6.0
+     }
+    },
+    "week_3": {
+     "as_written": {
+      "RP_BKD": 10.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 10.0,
+      "ISO_QUAD": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_SIDE_REAR_DELT": 3.0,
+      "ISO_TRICEP": 6.0
+     },
+     "assumed": {
+      "RP_BKD": 10.0,
+      "RP_BHD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 10.0,
+      "RP_VPULL": 6.0,
+      "ISO_QUAD": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_SIDE_REAR_DELT": 3.0,
+      "ISO_TRICEP": 6.0
+     }
+    },
+    "week_4": {
+     "as_written": {
+      "RP_BHD": 10.0,
+      "RP_UKD": 6.0,
+      "RP_HPUSH": 10.0,
+      "ISO_HAM": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_BICEP": 3.0,
+      "ISO_TRICEP": 6.0
+     },
+     "assumed": {
+      "RP_BKD": 6.0,
+      "RP_BHD": 10.0,
+      "RP_UKD": 6.0,
+      "RP_HPUSH": 10.0,
+      "RP_HPULL": 6.0,
+      "ISO_HAM": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_BICEP": 3.0,
+      "ISO_TRICEP": 6.0
+     }
+    },
+    "week_5": {
+     "as_written": {
+      "RP_BKD": 12.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 12.0,
+      "ISO_QUAD": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_SIDE_REAR_DELT": 3.0,
+      "ISO_TRICEP": 6.0
+     },
+     "assumed": {
+      "RP_BKD": 12.0,
+      "RP_BHD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 12.0,
+      "RP_VPULL": 6.0,
+      "ISO_QUAD": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_SIDE_REAR_DELT": 3.0,
+      "ISO_TRICEP": 6.0
+     }
+    },
+    "week_6": {
+     "as_written": {
+      "RP_BHD": 12.0,
+      "RP_UKD": 6.0,
+      "RP_HPUSH": 12.0,
+      "ISO_HAM": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_BICEP": 3.0,
+      "ISO_TRICEP": 6.0
+     },
+     "assumed": {
+      "RP_BKD": 6.0,
+      "RP_BHD": 12.0,
+      "RP_UKD": 6.0,
+      "RP_HPUSH": 12.0,
+      "RP_HPULL": 6.0,
+      "ISO_HAM": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_BICEP": 3.0,
+      "ISO_TRICEP": 6.0
+     }
+    },
+    "week_7": {
+     "as_written": {
+      "RP_BKD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 6.0,
+      "ISO_QUAD": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_SIDE_REAR_DELT": 3.0,
+      "ISO_TRICEP": 6.0
+     },
+     "assumed": {
+      "RP_BKD": 6.0,
+      "RP_BHD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 6.0,
+      "RP_VPULL": 6.0,
+      "ISO_QUAD": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_SIDE_REAR_DELT": 3.0,
+      "ISO_TRICEP": 6.0
+     }
+    },
+    "week_8": {
+     "as_written": {
+      "RP_BHD": 10.0,
+      "RP_UKD": 6.0,
+      "RP_HPUSH": 10.0,
+      "ISO_HAM": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_BICEP": 3.0,
+      "ISO_TRICEP": 6.0
+     },
+     "assumed": {
+      "RP_BKD": 6.0,
+      "RP_BHD": 10.0,
+      "RP_UKD": 6.0,
+      "RP_HPUSH": 10.0,
+      "RP_HPULL": 6.0,
+      "ISO_HAM": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_BICEP": 3.0,
+      "ISO_TRICEP": 6.0
+     }
+    },
+    "week_9": {
+     "as_written": {
+      "RP_BKD": 12.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 12.0,
+      "ISO_QUAD": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_SIDE_REAR_DELT": 3.0,
+      "ISO_TRICEP": 6.0
+     },
+     "assumed": {
+      "RP_BKD": 12.0,
+      "RP_BHD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 12.0,
+      "RP_VPULL": 6.0,
+      "ISO_QUAD": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_SIDE_REAR_DELT": 3.0,
+      "ISO_TRICEP": 6.0
+     }
+    },
+    "week_10": {
+     "as_written": {
+      "RP_BHD": 12.0,
+      "RP_UKD": 6.0,
+      "RP_HPUSH": 12.0,
+      "ISO_HAM": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_BICEP": 3.0,
+      "ISO_TRICEP": 6.0
+     },
+     "assumed": {
+      "RP_BKD": 6.0,
+      "RP_BHD": 12.0,
+      "RP_UKD": 6.0,
+      "RP_HPUSH": 12.0,
+      "RP_HPULL": 6.0,
+      "ISO_HAM": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_BICEP": 3.0,
+      "ISO_TRICEP": 6.0
+     }
+    },
+    "week_11": {
+     "as_written": {
+      "RP_BKD": 14.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 14.0,
+      "ISO_QUAD": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_SIDE_REAR_DELT": 3.0,
+      "ISO_TRICEP": 6.0
+     },
+     "assumed": {
+      "RP_BKD": 14.0,
+      "RP_BHD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 14.0,
+      "RP_VPULL": 6.0,
+      "ISO_QUAD": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_SIDE_REAR_DELT": 3.0,
+      "ISO_TRICEP": 6.0
+     }
+    },
+    "week_12": {
+     "as_written": {
+      "RP_BHD": 14.0,
+      "RP_UKD": 6.0,
+      "RP_HPUSH": 14.0,
+      "ISO_HAM": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_BICEP": 3.0,
+      "ISO_TRICEP": 6.0
+     },
+     "assumed": {
+      "RP_BKD": 6.0,
+      "RP_BHD": 14.0,
+      "RP_UKD": 6.0,
+      "RP_HPUSH": 14.0,
+      "RP_HPULL": 6.0,
+      "ISO_HAM": 6.0,
+      "ISO_CHEST": 3.0,
+      "ISO_BICEP": 3.0,
+      "ISO_TRICEP": 6.0
+     }
+    }
+   },
+   "weekly_sets_by_muscle": {
+    "week_1": {
+     "as_written": {
+      "quads": 14.0,
+      "glutes": 10.0,
+      "hamstrings": 6.0,
+      "chest": 11.0,
+      "front_delts": 8.0,
+      "side_delts": 3.0,
+      "triceps": 10.0
+     },
+     "assumed": {
+      "quads": 14.0,
+      "glutes": 16.0,
+      "hamstrings": 12.0,
+      "chest": 11.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 8.0,
+      "side_delts": 3.0,
+      "biceps": 3.0,
+      "triceps": 10.0
+     }
+    },
+    "week_2": {
+     "as_written": {
+      "quads": 6.0,
+      "glutes": 14.0,
+      "hamstrings": 14.0,
+      "chest": 11.0,
+      "front_delts": 8.0,
+      "biceps": 3.0,
+      "triceps": 10.0
+     },
+     "assumed": {
+      "quads": 12.0,
+      "glutes": 17.0,
+      "hamstrings": 14.0,
+      "chest": 11.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 8.0,
+      "rear_delts": 3.0,
+      "biceps": 6.0,
+      "triceps": 10.0
+     }
+    },
+    "week_3": {
+     "as_written": {
+      "quads": 16.0,
+      "glutes": 11.0,
+      "hamstrings": 6.0,
+      "chest": 13.0,
+      "front_delts": 10.0,
+      "side_delts": 3.0,
+      "triceps": 11.0
+     },
+     "assumed": {
+      "quads": 16.0,
+      "glutes": 17.0,
+      "hamstrings": 12.0,
+      "chest": 13.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 10.0,
+      "side_delts": 3.0,
+      "biceps": 3.0,
+      "triceps": 11.0
+     }
+    },
+    "week_4": {
+     "as_written": {
+      "quads": 6.0,
+      "glutes": 16.0,
+      "hamstrings": 16.0,
+      "chest": 13.0,
+      "front_delts": 10.0,
+      "biceps": 3.0,
+      "triceps": 11.0
+     },
+     "assumed": {
+      "quads": 12.0,
+      "glutes": 19.0,
+      "hamstrings": 16.0,
+      "chest": 13.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 10.0,
+      "rear_delts": 3.0,
+      "biceps": 6.0,
+      "triceps": 11.0
+     }
+    },
+    "week_5": {
+     "as_written": {
+      "quads": 18.0,
+      "glutes": 12.0,
+      "hamstrings": 6.0,
+      "chest": 15.0,
+      "front_delts": 12.0,
+      "side_delts": 3.0,
+      "triceps": 12.0
+     },
+     "assumed": {
+      "quads": 18.0,
+      "glutes": 18.0,
+      "hamstrings": 12.0,
+      "chest": 15.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 12.0,
+      "side_delts": 3.0,
+      "biceps": 3.0,
+      "triceps": 12.0
+     }
+    },
+    "week_6": {
+     "as_written": {
+      "quads": 6.0,
+      "glutes": 18.0,
+      "hamstrings": 18.0,
+      "chest": 15.0,
+      "front_delts": 12.0,
+      "biceps": 3.0,
+      "triceps": 12.0
+     },
+     "assumed": {
+      "quads": 12.0,
+      "glutes": 21.0,
+      "hamstrings": 18.0,
+      "chest": 15.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 12.0,
+      "rear_delts": 3.0,
+      "biceps": 6.0,
+      "triceps": 12.0
+     }
+    },
+    "week_7": {
+     "as_written": {
+      "quads": 12.0,
+      "glutes": 9.0,
+      "hamstrings": 6.0,
+      "chest": 9.0,
+      "front_delts": 6.0,
+      "side_delts": 3.0,
+      "triceps": 9.0
+     },
+     "assumed": {
+      "quads": 12.0,
+      "glutes": 15.0,
+      "hamstrings": 12.0,
+      "chest": 9.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 6.0,
+      "side_delts": 3.0,
+      "biceps": 3.0,
+      "triceps": 9.0
+     }
+    },
+    "week_8": {
+     "as_written": {
+      "quads": 6.0,
+      "glutes": 16.0,
+      "hamstrings": 16.0,
+      "chest": 13.0,
+      "front_delts": 10.0,
+      "biceps": 3.0,
+      "triceps": 11.0
+     },
+     "assumed": {
+      "quads": 12.0,
+      "glutes": 19.0,
+      "hamstrings": 16.0,
+      "chest": 13.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 10.0,
+      "rear_delts": 3.0,
+      "biceps": 6.0,
+      "triceps": 11.0
+     }
+    },
+    "week_9": {
+     "as_written": {
+      "quads": 18.0,
+      "glutes": 12.0,
+      "hamstrings": 6.0,
+      "chest": 15.0,
+      "front_delts": 12.0,
+      "side_delts": 3.0,
+      "triceps": 12.0
+     },
+     "assumed": {
+      "quads": 18.0,
+      "glutes": 18.0,
+      "hamstrings": 12.0,
+      "chest": 15.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 12.0,
+      "side_delts": 3.0,
+      "biceps": 3.0,
+      "triceps": 12.0
+     }
+    },
+    "week_10": {
+     "as_written": {
+      "quads": 6.0,
+      "glutes": 18.0,
+      "hamstrings": 18.0,
+      "chest": 15.0,
+      "front_delts": 12.0,
+      "biceps": 3.0,
+      "triceps": 12.0
+     },
+     "assumed": {
+      "quads": 12.0,
+      "glutes": 21.0,
+      "hamstrings": 18.0,
+      "chest": 15.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 12.0,
+      "rear_delts": 3.0,
+      "biceps": 6.0,
+      "triceps": 12.0
+     }
+    },
+    "week_11": {
+     "as_written": {
+      "quads": 20.0,
+      "glutes": 13.0,
+      "hamstrings": 6.0,
+      "chest": 17.0,
+      "front_delts": 14.0,
+      "side_delts": 3.0,
+      "triceps": 13.0
+     },
+     "assumed": {
+      "quads": 20.0,
+      "glutes": 19.0,
+      "hamstrings": 12.0,
+      "chest": 17.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 14.0,
+      "side_delts": 3.0,
+      "biceps": 3.0,
+      "triceps": 13.0
+     }
+    },
+    "week_12": {
+     "as_written": {
+      "quads": 6.0,
+      "glutes": 20.0,
+      "hamstrings": 20.0,
+      "chest": 17.0,
+      "front_delts": 14.0,
+      "biceps": 3.0,
+      "triceps": 13.0
+     },
+     "assumed": {
+      "quads": 12.0,
+      "glutes": 23.0,
+      "hamstrings": 20.0,
+      "chest": 17.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 14.0,
+      "rear_delts": 3.0,
+      "biceps": 6.0,
+      "triceps": 13.0
+     }
+    }
+   },
+   "assumptions": "'the work' rows (M.E. and FAST) take the header SETS/REPS rows N5:Z6; 'the accessory' has no prescription (as written 0; assumed 3 sets); nuance/survival use col N ('3x8', '3x20')",
+   "rep_ranges_by_bucket": {
+    "the_work_RP": "5,5,4,4,3,3 | deload 4 | 4,3,3,2,2 @ 80-90% / RPE 7-10",
+    "the_work_FAST": "same sets/reps at 'FAST RPE6 or about 60-70%'",
+    "nuance_RP_UKD_UHD": "3x8",
+    "nuance_ISO_TRICEP": "3x20 (TATE PRESS)",
+    "nuance_ISO_CHEST": "3x8 (CABLE FLIES)",
+    "survival_ISO": "3x8 (LEG EXT/LEG CURLS/SIDE RAISES/CURLS/JM PRESS)"
+   },
+   "intensity": "% row 80,80,85,85,90,90,'MID DELOAD'; RPE row 7,7,7,8,8,9,7,8,9,9,9,10; Thursday/Saturday work 'FAST RPE6 or about 60-70%'",
+   "progression_summary": "Wave 1 (wk1-6): sets 4,4,5,5,6,6 x reps 5,5,4,4,3,3 @ 80->90% / RPE 7->9 (work reps/session 20,20,20,20,18,18 = volume held, intensity +5% every 2 weeks); wk7 'MID DELOAD' 3x4 @ RPE 7 (-33% work reps); wave 2 (wk8-12): 5x4, 6x3, 6x3, 7x2, 7x2 @ RPE 8,9,9,9,10 (work reps 20,18,18,14,14). Work sets/week 16->24 then 12 then 20->28; compounding ~+5.2%/week wk1->wk12 (4->7 sets). Accessory/nuance/survival fixed. A/B weeks alternate squat-main vs hinge-main."
+  },
+  {
+   "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
+   "program_id": "MM_AESTHETICS_8WK",
+   "title": "'AESTHETICS' / 'bodybuilding style' left block B32:L60 (WK1-WK8)",
+   "goal": "Hypertrophy / physique ('bodybuilding style')",
+   "level": "general / intermediate - INFERRED",
+   "days_per_week": "4 lifting (MON lower, TUE upper, THU lower, FRI upper) + 2 cardio (WED, SAT '30-40 mi slow/steady CARDIO')",
+   "exercises_per_session": {
+    "week_1": [
+     5,
+     5,
+     5,
+     4
+    ],
+    "week_2": [
+     5,
+     5,
+     5,
+     4
+    ],
+    "week_3": [
+     5,
+     5,
+     5,
+     4
+    ],
+    "week_4": [
+     5,
+     5,
+     5,
+     4
+    ],
+    "week_5": [
+     5,
+     5,
+     5,
+     4
+    ],
+    "week_6": [
+     5,
+     5,
+     5,
+     4
+    ],
+    "week_7": [
+     5,
+     5,
+     5,
+     4
+    ]
+   },
+   "sets_per_session": {
+    "week_1": [
+     10.0,
+     10.0,
+     10.0,
+     8.0
+    ],
+    "week_2": [
+     15.0,
+     15.0,
+     15.0,
+     12.0
+    ],
+    "week_3": [
+     15.0,
+     15.0,
+     15.0,
+     12.0
+    ],
+    "week_4": [
+     15.0,
+     15.0,
+     15.0,
+     12.0
+    ],
+    "week_5": [
+     20.0,
+     20.0,
+     20.0,
+     16.0
+    ],
+    "week_6": [
+     20.0,
+     20.0,
+     20.0,
+     16.0
+    ],
+    "week_7": [
+     25.0,
+     25.0,
+     25.0,
+     20.0
+    ]
+   },
+   "weekly_sets_by_bucket": {
+    "week_1": {
+     "RP_BKD": 4.0,
+     "RP_BHD": 4.0,
+     "RP_UKD": 4.0,
+     "RP_UHD": 4.0,
+     "RP_HPUSH": 4.0,
+     "RP_VPUSH": 4.0,
+     "RP_HPULL": 4.0,
+     "RP_VPULL": 4.0,
+     "FOCUS": 6.0
+    },
+    "week_2": {
+     "RP_BKD": 6.0,
+     "RP_BHD": 6.0,
+     "RP_UKD": 6.0,
+     "RP_UHD": 6.0,
+     "RP_HPUSH": 6.0,
+     "RP_HPULL": 6.0,
+     "RP_VPULL": 6.0,
+     "ISO_SIDE_REAR_DELT": 6.0,
+     "FOCUS": 9.0
+    },
+    "week_3": {
+     "RP_BKD": 6.0,
+     "RP_BHD": 6.0,
+     "RP_UKD": 6.0,
+     "RP_UHD": 6.0,
+     "RP_HPUSH": 6.0,
+     "RP_HPULL": 6.0,
+     "RP_VPULL": 6.0,
+     "ISO_SIDE_REAR_DELT": 6.0,
+     "FOCUS": 9.0
+    },
+    "week_4": {
+     "RP_BKD": 6.0,
+     "RP_BHD": 6.0,
+     "RP_UKD": 6.0,
+     "RP_UHD": 6.0,
+     "RP_HPUSH": 6.0,
+     "RP_VPUSH": 6.0,
+     "RP_HPULL": 6.0,
+     "RP_VPULL": 6.0,
+     "FOCUS": 9.0
+    },
+    "week_5": {
+     "RP_BKD": 8.0,
+     "RP_BHD": 8.0,
+     "RP_UKD": 8.0,
+     "RP_UHD": 8.0,
+     "RP_HPUSH": 8.0,
+     "RP_VPUSH": 8.0,
+     "RP_HPULL": 8.0,
+     "RP_VPULL": 8.0,
+     "FOCUS": 12.0
+    },
+    "week_6": {
+     "RP_BKD": 8.0,
+     "RP_BHD": 8.0,
+     "RP_UKD": 8.0,
+     "RP_UHD": 8.0,
+     "RP_HPUSH": 8.0,
+     "RP_HPULL": 8.0,
+     "RP_VPULL": 8.0,
+     "ISO_SIDE_REAR_DELT": 8.0,
+     "FOCUS": 12.0
+    },
+    "week_7": {
+     "RP_BKD": 10.0,
+     "RP_BHD": 10.0,
+     "RP_UKD": 10.0,
+     "RP_UHD": 10.0,
+     "RP_HPUSH": 10.0,
+     "RP_HPULL": 10.0,
+     "RP_VPULL": 10.0,
+     "ISO_SIDE_REAR_DELT": 10.0,
+     "FOCUS": 15.0
+    }
+   },
+   "weekly_sets_by_muscle": {
+    "week_1": {
+     "quads": 8.0,
+     "glutes": 14.0,
+     "hamstrings": 8.0,
+     "chest": 4.0,
+     "lats_upper_back": 8.0,
+     "front_delts": 8.0,
+     "side_delts": 2.0,
+     "rear_delts": 2.0,
+     "biceps": 4.0,
+     "triceps": 4.0
+    },
+    "week_2": {
+     "quads": 12.0,
+     "glutes": 21.0,
+     "hamstrings": 12.0,
+     "chest": 6.0,
+     "lats_upper_back": 12.0,
+     "front_delts": 6.0,
+     "side_delts": 6.0,
+     "rear_delts": 3.0,
+     "biceps": 6.0,
+     "triceps": 3.0
+    },
+    "week_3": {
+     "quads": 12.0,
+     "glutes": 21.0,
+     "hamstrings": 12.0,
+     "chest": 6.0,
+     "lats_upper_back": 12.0,
+     "front_delts": 6.0,
+     "side_delts": 6.0,
+     "rear_delts": 3.0,
+     "biceps": 6.0,
+     "triceps": 3.0
+    },
+    "week_4": {
+     "quads": 12.0,
+     "glutes": 21.0,
+     "hamstrings": 12.0,
+     "chest": 6.0,
+     "lats_upper_back": 12.0,
+     "front_delts": 12.0,
+     "side_delts": 3.0,
+     "rear_delts": 3.0,
+     "biceps": 6.0,
+     "triceps": 6.0
+    },
+    "week_5": {
+     "quads": 16.0,
+     "glutes": 28.0,
+     "hamstrings": 16.0,
+     "chest": 8.0,
+     "lats_upper_back": 16.0,
+     "front_delts": 16.0,
+     "side_delts": 4.0,
+     "rear_delts": 4.0,
+     "biceps": 8.0,
+     "triceps": 8.0
+    },
+    "week_6": {
+     "quads": 16.0,
+     "glutes": 28.0,
+     "hamstrings": 16.0,
+     "chest": 8.0,
+     "lats_upper_back": 16.0,
+     "front_delts": 8.0,
+     "side_delts": 8.0,
+     "rear_delts": 4.0,
+     "biceps": 8.0,
+     "triceps": 4.0
+    },
+    "week_7": {
+     "quads": 20.0,
+     "glutes": 35.0,
+     "hamstrings": 20.0,
+     "chest": 10.0,
+     "lats_upper_back": 20.0,
+     "front_delts": 10.0,
+     "side_delts": 10.0,
+     "rear_delts": 5.0,
+     "biceps": 10.0,
+     "triceps": 5.0
+    }
+   },
+   "rep_ranges_by_bucket": {
+    "all_lifts": "12/10/8 wave (wk1-3), 12/10/8 (wk4-6), 8 (wk7) @ '1-2 RIR'",
+    "COND_AEROBIC": "30-40 min steady"
+   },
+   "intensity": "'1-2 RIR' on every lifting row (col D)",
+   "progression_summary": "Sets per exercise 2,3,3,3,4,4,5 then 'DELOAD WEEK'; reps wave 12-10-8 twice then 8. Weekly sets 38,57,57,57,76,76,95 (+50%, 0, 0, +33%, 0, +25%); weekly reps 456,570,456,684,760,608,760. Exercises rotate weekly (bilateral KD/HD order swap; lunge ladder FFE contra -> FFE ipsi -> RFE contra -> RFE ipsi -> RFE -> RFE & FFE)."
+  },
+  {
+   "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
+   "program_id": "MM_AESTHETICS_12WK_PPL",
+   "title": "'AESTHETICS' / 'bodybuilding style' right block M31:Z66 (WK1-WK12)",
+   "goal": "Hypertrophy / physique",
+   "level": "intermediate - INFERRED",
+   "days_per_week": "6 (PUSH/LEGS/PULL x2: MON PUSH, TUE LEGS, WED PULL, THU PUSH, FRI LEGS, SAT PULL)",
+   "exercises_per_session": {
+    "week_1": [
+     6,
+     5,
+     5,
+     6,
+     5,
+     5
+    ],
+    "week_2": [
+     6,
+     5,
+     5,
+     6,
+     5,
+     5
+    ],
+    "week_3": [
+     6,
+     5,
+     5,
+     6,
+     5,
+     5
+    ],
+    "week_4": [
+     6,
+     5,
+     5,
+     6,
+     5,
+     5
+    ],
+    "week_5": [
+     6,
+     5,
+     5,
+     6,
+     5,
+     5
+    ],
+    "week_6": [
+     6,
+     5,
+     5,
+     6,
+     5,
+     5
+    ],
+    "week_7": [
+     6,
+     5,
+     5,
+     6,
+     5,
+     5
+    ],
+    "week_8": [
+     5,
+     5,
+     5,
+     6,
+     5,
+     5
+    ],
+    "week_9": [
+     5,
+     5,
+     5,
+     5,
+     5,
+     5
+    ],
+    "week_10": [
+     5,
+     5,
+     5,
+     5,
+     5,
+     5
+    ],
+    "week_11": [
+     5,
+     5,
+     5,
+     5,
+     5,
+     5
+    ],
+    "week_12": [
+     5,
+     5,
+     5,
+     5,
+     5,
+     5
+    ]
+   },
+   "sets_per_session": {
+    "week_1": [
+     18.0,
+     15.0,
+     15.0,
+     18.0,
+     15.0,
+     15.0
+    ],
+    "week_2": [
+     18.0,
+     15.0,
+     15.0,
+     18.0,
+     15.0,
+     15.0
+    ],
+    "week_3": [
+     18.0,
+     15.0,
+     15.0,
+     18.0,
+     15.0,
+     15.0
+    ],
+    "week_4": [
+     24.0,
+     20.0,
+     20.0,
+     24.0,
+     20.0,
+     20.0
+    ],
+    "week_5": [
+     24.0,
+     20.0,
+     20.0,
+     24.0,
+     20.0,
+     20.0
+    ],
+    "week_6": [
+     24.0,
+     20.0,
+     20.0,
+     24.0,
+     20.0,
+     20.0
+    ],
+    "week_7": [
+     18.0,
+     15.0,
+     15.0,
+     18.0,
+     15.0,
+     15.0
+    ],
+    "week_8": [
+     20.0,
+     20.0,
+     20.0,
+     24.0,
+     20.0,
+     20.0
+    ],
+    "week_9": [
+     20.0,
+     20.0,
+     20.0,
+     20.0,
+     18.0,
+     21.0
+    ],
+    "week_10": [
+     20.0,
+     20.0,
+     20.0,
+     20.0,
+     18.0,
+     21.0
+    ],
+    "week_11": [
+     20.0,
+     20.0,
+     20.0,
+     20.0,
+     18.0,
+     21.0
+    ],
+    "week_12": [
+     25.0,
+     25.0,
+     25.0,
+     25.0,
+     23.0,
+     25.0
+    ]
+   },
+   "weekly_sets_by_bucket": {
+    "week_1": {
+     "no_superset_partners": {
+      "RP_BKD": 12.0,
+      "RP_BHD": 6.0,
+      "RP_UKD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 9.0,
+      "RP_HPULL": 6.0,
+      "RP_VPULL": 12.0,
+      "ISO_CHEST": 6.0,
+      "ISO_SIDE_REAR_DELT": 12.0,
+      "ISO_BICEP": 6.0,
+      "ISO_TRICEP": 15.0
+     },
+     "incl_superset_partners": {
+      "RP_BKD": 12.0,
+      "RP_BHD": 6.0,
+      "RP_UKD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 9.0,
+      "RP_HPULL": 6.0,
+      "RP_VPULL": 12.0,
+      "ISO_CHEST": 6.0,
+      "ISO_SIDE_REAR_DELT": 12.0,
+      "ISO_BICEP": 6.0,
+      "ISO_TRICEP": 15.0
+     }
+    },
+    "week_2": {
+     "no_superset_partners": {
+      "RP_BKD": 12.0,
+      "RP_BHD": 3.0,
+      "RP_UKD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 12.0,
+      "RP_HPULL": 6.0,
+      "RP_VPULL": 12.0,
+      "ISO_QUAD": 3.0,
+      "ISO_CHEST": 6.0,
+      "ISO_SIDE_REAR_DELT": 12.0,
+      "ISO_BICEP": 6.0,
+      "ISO_TRICEP": 12.0
+     },
+     "incl_superset_partners": {
+      "RP_BKD": 12.0,
+      "RP_BHD": 3.0,
+      "RP_UKD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 12.0,
+      "RP_HPULL": 6.0,
+      "RP_VPULL": 12.0,
+      "ISO_QUAD": 3.0,
+      "ISO_CHEST": 6.0,
+      "ISO_SIDE_REAR_DELT": 12.0,
+      "ISO_BICEP": 6.0,
+      "ISO_TRICEP": 12.0
+     }
+    },
+    "week_3": {
+     "no_superset_partners": {
+      "RP_BKD": 12.0,
+      "RP_BHD": 3.0,
+      "RP_UKD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 9.0,
+      "RP_HPULL": 6.0,
+      "RP_VPULL": 12.0,
+      "ISO_QUAD": 3.0,
+      "ISO_CHEST": 6.0,
+      "ISO_SIDE_REAR_DELT": 12.0,
+      "ISO_BICEP": 6.0,
+      "ISO_TRICEP": 15.0
+     },
+     "incl_superset_partners": {
+      "RP_BKD": 12.0,
+      "RP_BHD": 3.0,
+      "RP_UKD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 9.0,
+      "RP_HPULL": 6.0,
+      "RP_VPULL": 12.0,
+      "ISO_QUAD": 3.0,
+      "ISO_CHEST": 6.0,
+      "ISO_SIDE_REAR_DELT": 12.0,
+      "ISO_BICEP": 6.0,
+      "ISO_TRICEP": 15.0
+     }
+    },
+    "week_4": {
+     "no_superset_partners": {
+      "RP_BKD": 16.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 8.0,
+      "RP_HPUSH": 16.0,
+      "RP_HPULL": 8.0,
+      "RP_VPULL": 16.0,
+      "ISO_QUAD": 4.0,
+      "ISO_CHEST": 8.0,
+      "ISO_SIDE_REAR_DELT": 16.0,
+      "ISO_BICEP": 8.0,
+      "ISO_TRICEP": 16.0
+     },
+     "incl_superset_partners": {
+      "RP_BKD": 16.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 8.0,
+      "RP_HPUSH": 16.0,
+      "RP_HPULL": 8.0,
+      "RP_VPULL": 16.0,
+      "ISO_QUAD": 4.0,
+      "ISO_CHEST": 8.0,
+      "ISO_SIDE_REAR_DELT": 16.0,
+      "ISO_BICEP": 8.0,
+      "ISO_TRICEP": 16.0
+     }
+    },
+    "week_5": {
+     "no_superset_partners": {
+      "RP_BKD": 16.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 8.0,
+      "RP_HPUSH": 12.0,
+      "RP_HPULL": 8.0,
+      "RP_VPULL": 16.0,
+      "ISO_QUAD": 4.0,
+      "ISO_CHEST": 8.0,
+      "ISO_SIDE_REAR_DELT": 16.0,
+      "ISO_BICEP": 8.0,
+      "ISO_TRICEP": 20.0
+     },
+     "incl_superset_partners": {
+      "RP_BKD": 16.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 8.0,
+      "RP_HPUSH": 12.0,
+      "RP_HPULL": 8.0,
+      "RP_VPULL": 16.0,
+      "ISO_QUAD": 4.0,
+      "ISO_CHEST": 8.0,
+      "ISO_SIDE_REAR_DELT": 16.0,
+      "ISO_BICEP": 8.0,
+      "ISO_TRICEP": 20.0
+     }
+    },
+    "week_6": {
+     "no_superset_partners": {
+      "RP_BKD": 16.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 8.0,
+      "RP_HPUSH": 16.0,
+      "RP_HPULL": 8.0,
+      "RP_VPULL": 16.0,
+      "ISO_QUAD": 4.0,
+      "ISO_CHEST": 8.0,
+      "ISO_SIDE_REAR_DELT": 16.0,
+      "ISO_BICEP": 8.0,
+      "ISO_TRICEP": 16.0
+     },
+     "incl_superset_partners": {
+      "RP_BKD": 16.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 8.0,
+      "RP_HPUSH": 16.0,
+      "RP_HPULL": 8.0,
+      "RP_VPULL": 16.0,
+      "ISO_QUAD": 4.0,
+      "ISO_CHEST": 8.0,
+      "ISO_SIDE_REAR_DELT": 16.0,
+      "ISO_BICEP": 8.0,
+      "ISO_TRICEP": 16.0
+     }
+    },
+    "week_7": {
+     "no_superset_partners": {
+      "RP_BKD": 12.0,
+      "RP_BHD": 3.0,
+      "RP_UKD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 9.0,
+      "RP_HPULL": 6.0,
+      "RP_VPULL": 12.0,
+      "ISO_QUAD": 3.0,
+      "ISO_CHEST": 6.0,
+      "ISO_SIDE_REAR_DELT": 12.0,
+      "ISO_BICEP": 6.0,
+      "ISO_TRICEP": 15.0
+     },
+     "incl_superset_partners": {
+      "RP_BKD": 12.0,
+      "RP_BHD": 3.0,
+      "RP_UKD": 6.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 9.0,
+      "RP_HPULL": 6.0,
+      "RP_VPULL": 12.0,
+      "ISO_QUAD": 3.0,
+      "ISO_CHEST": 6.0,
+      "ISO_SIDE_REAR_DELT": 12.0,
+      "ISO_BICEP": 6.0,
+      "ISO_TRICEP": 15.0
+     }
+    },
+    "week_8": {
+     "no_superset_partners": {
+      "RP_BKD": 16.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 8.0,
+      "RP_HPUSH": 16.0,
+      "RP_VPUSH": 4.0,
+      "RP_HPULL": 8.0,
+      "RP_VPULL": 16.0,
+      "ISO_QUAD": 4.0,
+      "ISO_CHEST": 8.0,
+      "ISO_SIDE_REAR_DELT": 12.0,
+      "ISO_BICEP": 8.0,
+      "ISO_TRICEP": 12.0
+     },
+     "incl_superset_partners": {
+      "RP_BKD": 16.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 8.0,
+      "RP_HPUSH": 16.0,
+      "RP_VPUSH": 4.0,
+      "RP_HPULL": 8.0,
+      "RP_VPULL": 16.0,
+      "ISO_QUAD": 4.0,
+      "ISO_CHEST": 8.0,
+      "ISO_SIDE_REAR_DELT": 12.0,
+      "ISO_BICEP": 8.0,
+      "ISO_TRICEP": 12.0
+     }
+    },
+    "week_9": {
+     "no_superset_partners": {
+      "RP_BKD": 10.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 8.0,
+      "RP_HPUSH": 16.0,
+      "RP_HPULL": 17.0,
+      "RP_VPULL": 8.0,
+      "ISO_QUAD": 4.0,
+      "ISO_HAM": 4.0,
+      "ISO_CHEST": 8.0,
+      "ISO_SIDE_REAR_DELT": 16.0,
+      "ISO_BICEP": 8.0,
+      "ISO_TRICEP": 8.0
+     },
+     "incl_superset_partners": {
+      "RP_BKD": 14.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 8.0,
+      "RP_HPUSH": 20.0,
+      "RP_HPULL": 17.0,
+      "RP_VPULL": 8.0,
+      "ISO_QUAD": 4.0,
+      "ISO_HAM": 4.0,
+      "ISO_CHEST": 8.0,
+      "ISO_SIDE_REAR_DELT": 16.0,
+      "ISO_BICEP": 8.0,
+      "ISO_TRICEP": 8.0
+     }
+    },
+    "week_10": {
+     "no_superset_partners": {
+      "RP_BKD": 10.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 8.0,
+      "RP_HPUSH": 16.0,
+      "RP_VPUSH": 8.0,
+      "RP_HPULL": 17.0,
+      "RP_VPULL": 8.0,
+      "ISO_QUAD": 4.0,
+      "ISO_HAM": 4.0,
+      "ISO_CHEST": 8.0,
+      "ISO_SIDE_REAR_DELT": 8.0,
+      "ISO_BICEP": 8.0,
+      "ISO_TRICEP": 8.0
+     },
+     "incl_superset_partners": {
+      "RP_BKD": 14.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 8.0,
+      "RP_HPUSH": 16.0,
+      "RP_VPUSH": 8.0,
+      "RP_HPULL": 17.0,
+      "RP_VPULL": 8.0,
+      "ISO_QUAD": 4.0,
+      "ISO_HAM": 4.0,
+      "ISO_CHEST": 8.0,
+      "ISO_SIDE_REAR_DELT": 8.0,
+      "ISO_BICEP": 8.0,
+      "ISO_TRICEP": 12.0
+     }
+    },
+    "week_11": {
+     "no_superset_partners": {
+      "RP_BKD": 10.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 8.0,
+      "RP_HPUSH": 16.0,
+      "RP_HPULL": 17.0,
+      "RP_VPULL": 8.0,
+      "ISO_QUAD": 4.0,
+      "ISO_HAM": 4.0,
+      "ISO_CHEST": 8.0,
+      "ISO_SIDE_REAR_DELT": 16.0,
+      "ISO_BICEP": 8.0,
+      "ISO_TRICEP": 8.0
+     },
+     "incl_superset_partners": {
+      "RP_BKD": 14.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 8.0,
+      "RP_HPUSH": 20.0,
+      "RP_HPULL": 17.0,
+      "RP_VPULL": 8.0,
+      "ISO_QUAD": 4.0,
+      "ISO_HAM": 4.0,
+      "ISO_CHEST": 8.0,
+      "ISO_SIDE_REAR_DELT": 16.0,
+      "ISO_BICEP": 8.0,
+      "ISO_TRICEP": 8.0
+     }
+    },
+    "week_12": {
+     "no_superset_partners": {
+      "RP_BKD": 13.0,
+      "RP_BHD": 5.0,
+      "RP_UKD": 10.0,
+      "RP_UHD": 10.0,
+      "RP_HPUSH": 20.0,
+      "RP_VPUSH": 10.0,
+      "RP_HPULL": 20.0,
+      "RP_VPULL": 10.0,
+      "ISO_QUAD": 5.0,
+      "ISO_HAM": 5.0,
+      "ISO_CHEST": 10.0,
+      "ISO_SIDE_REAR_DELT": 10.0,
+      "ISO_BICEP": 10.0,
+      "ISO_TRICEP": 10.0
+     },
+     "incl_superset_partners": {
+      "RP_BKD": 18.0,
+      "RP_BHD": 5.0,
+      "RP_UKD": 10.0,
+      "RP_UHD": 10.0,
+      "RP_HPUSH": 20.0,
+      "RP_VPUSH": 10.0,
+      "RP_HPULL": 20.0,
+      "RP_VPULL": 10.0,
+      "ISO_QUAD": 5.0,
+      "ISO_HAM": 5.0,
+      "ISO_CHEST": 10.0,
+      "ISO_SIDE_REAR_DELT": 10.0,
+      "ISO_BICEP": 10.0,
+      "ISO_TRICEP": 15.0
+     }
+    }
+   },
+   "weekly_sets_by_muscle": {
+    "week_1": {
+     "no_superset_partners": {
+      "quads": 18.0,
+      "glutes": 24.0,
+      "hamstrings": 12.0,
+      "chest": 15.0,
+      "lats_upper_back": 21.0,
+      "front_delts": 7.5,
+      "side_delts": 6.0,
+      "rear_delts": 9.0,
+      "biceps": 12.0,
+      "triceps": 21.0
+     },
+     "incl_superset_partners": {
+      "quads": 18.0,
+      "glutes": 24.0,
+      "hamstrings": 12.0,
+      "chest": 15.0,
+      "lats_upper_back": 21.0,
+      "front_delts": 7.5,
+      "side_delts": 6.0,
+      "rear_delts": 9.0,
+      "biceps": 12.0,
+      "triceps": 21.0
+     }
+    },
+    "week_2": {
+     "no_superset_partners": {
+      "quads": 21.0,
+      "glutes": 21.0,
+      "hamstrings": 9.0,
+      "chest": 18.0,
+      "lats_upper_back": 18.0,
+      "front_delts": 9.0,
+      "side_delts": 12.0,
+      "rear_delts": 3.0,
+      "biceps": 12.0,
+      "triceps": 21.0
+     },
+     "incl_superset_partners": {
+      "quads": 21.0,
+      "glutes": 21.0,
+      "hamstrings": 9.0,
+      "chest": 18.0,
+      "lats_upper_back": 18.0,
+      "front_delts": 9.0,
+      "side_delts": 12.0,
+      "rear_delts": 3.0,
+      "biceps": 12.0,
+      "triceps": 21.0
+     }
+    },
+    "week_3": {
+     "no_superset_partners": {
+      "quads": 21.0,
+      "glutes": 21.0,
+      "hamstrings": 9.0,
+      "chest": 15.0,
+      "lats_upper_back": 21.0,
+      "front_delts": 7.5,
+      "side_delts": 6.0,
+      "rear_delts": 9.0,
+      "biceps": 12.0,
+      "triceps": 21.0
+     },
+     "incl_superset_partners": {
+      "quads": 21.0,
+      "glutes": 21.0,
+      "hamstrings": 9.0,
+      "chest": 15.0,
+      "lats_upper_back": 21.0,
+      "front_delts": 7.5,
+      "side_delts": 6.0,
+      "rear_delts": 9.0,
+      "biceps": 12.0,
+      "triceps": 21.0
+     }
+    },
+    "week_4": {
+     "no_superset_partners": {
+      "quads": 28.0,
+      "glutes": 28.0,
+      "hamstrings": 12.0,
+      "chest": 24.0,
+      "lats_upper_back": 24.0,
+      "front_delts": 12.0,
+      "side_delts": 16.0,
+      "rear_delts": 4.0,
+      "biceps": 16.0,
+      "triceps": 28.0
+     },
+     "incl_superset_partners": {
+      "quads": 28.0,
+      "glutes": 28.0,
+      "hamstrings": 12.0,
+      "chest": 24.0,
+      "lats_upper_back": 24.0,
+      "front_delts": 12.0,
+      "side_delts": 16.0,
+      "rear_delts": 4.0,
+      "biceps": 16.0,
+      "triceps": 28.0
+     }
+    },
+    "week_5": {
+     "no_superset_partners": {
+      "quads": 28.0,
+      "glutes": 28.0,
+      "hamstrings": 12.0,
+      "chest": 20.0,
+      "lats_upper_back": 28.0,
+      "front_delts": 10.0,
+      "side_delts": 8.0,
+      "rear_delts": 12.0,
+      "biceps": 16.0,
+      "triceps": 28.0
+     },
+     "incl_superset_partners": {
+      "quads": 28.0,
+      "glutes": 28.0,
+      "hamstrings": 12.0,
+      "chest": 20.0,
+      "lats_upper_back": 28.0,
+      "front_delts": 10.0,
+      "side_delts": 8.0,
+      "rear_delts": 12.0,
+      "biceps": 16.0,
+      "triceps": 28.0
+     }
+    },
+    "week_6": {
+     "no_superset_partners": {
+      "quads": 28.0,
+      "glutes": 28.0,
+      "hamstrings": 12.0,
+      "chest": 24.0,
+      "lats_upper_back": 24.0,
+      "front_delts": 12.0,
+      "side_delts": 16.0,
+      "rear_delts": 4.0,
+      "biceps": 16.0,
+      "triceps": 28.0
+     },
+     "incl_superset_partners": {
+      "quads": 28.0,
+      "glutes": 28.0,
+      "hamstrings": 12.0,
+      "chest": 24.0,
+      "lats_upper_back": 24.0,
+      "front_delts": 12.0,
+      "side_delts": 16.0,
+      "rear_delts": 4.0,
+      "biceps": 16.0,
+      "triceps": 28.0
+     }
+    },
+    "week_7": {
+     "no_superset_partners": {
+      "quads": 21.0,
+      "glutes": 21.0,
+      "hamstrings": 9.0,
+      "chest": 15.0,
+      "lats_upper_back": 21.0,
+      "front_delts": 7.5,
+      "side_delts": 6.0,
+      "rear_delts": 9.0,
+      "biceps": 12.0,
+      "triceps": 21.0
+     },
+     "incl_superset_partners": {
+      "quads": 21.0,
+      "glutes": 21.0,
+      "hamstrings": 9.0,
+      "chest": 15.0,
+      "lats_upper_back": 21.0,
+      "front_delts": 7.5,
+      "side_delts": 6.0,
+      "rear_delts": 9.0,
+      "biceps": 12.0,
+      "triceps": 21.0
+     }
+    },
+    "week_8": {
+     "no_superset_partners": {
+      "quads": 28.0,
+      "glutes": 28.0,
+      "hamstrings": 12.0,
+      "chest": 24.0,
+      "lats_upper_back": 24.0,
+      "front_delts": 16.0,
+      "side_delts": 14.0,
+      "rear_delts": 4.0,
+      "biceps": 16.0,
+      "triceps": 26.0
+     },
+     "incl_superset_partners": {
+      "quads": 28.0,
+      "glutes": 28.0,
+      "hamstrings": 12.0,
+      "chest": 24.0,
+      "lats_upper_back": 24.0,
+      "front_delts": 16.0,
+      "side_delts": 14.0,
+      "rear_delts": 4.0,
+      "biceps": 16.0,
+      "triceps": 26.0
+     }
+    },
+    "week_9": {
+     "no_superset_partners": {
+      "quads": 22.0,
+      "glutes": 25.0,
+      "hamstrings": 16.0,
+      "chest": 24.0,
+      "lats_upper_back": 29.0,
+      "front_delts": 12.0,
+      "side_delts": 8.0,
+      "rear_delts": 16.5,
+      "biceps": 20.5,
+      "triceps": 20.0
+     },
+     "incl_superset_partners": {
+      "quads": 26.0,
+      "glutes": 27.0,
+      "hamstrings": 16.0,
+      "chest": 28.0,
+      "lats_upper_back": 29.0,
+      "front_delts": 16.0,
+      "side_delts": 8.0,
+      "rear_delts": 16.5,
+      "biceps": 20.5,
+      "triceps": 22.0
+     }
+    },
+    "week_10": {
+     "no_superset_partners": {
+      "quads": 22.0,
+      "glutes": 25.0,
+      "hamstrings": 16.0,
+      "chest": 24.0,
+      "lats_upper_back": 29.0,
+      "front_delts": 20.0,
+      "side_delts": 4.0,
+      "rear_delts": 16.5,
+      "biceps": 20.5,
+      "triceps": 24.0
+     },
+     "incl_superset_partners": {
+      "quads": 26.0,
+      "glutes": 27.0,
+      "hamstrings": 16.0,
+      "chest": 26.0,
+      "lats_upper_back": 29.0,
+      "front_delts": 22.0,
+      "side_delts": 4.0,
+      "rear_delts": 16.5,
+      "biceps": 20.5,
+      "triceps": 28.0
+     }
+    },
+    "week_11": {
+     "no_superset_partners": {
+      "quads": 22.0,
+      "glutes": 25.0,
+      "hamstrings": 16.0,
+      "chest": 24.0,
+      "lats_upper_back": 29.0,
+      "front_delts": 12.0,
+      "side_delts": 8.0,
+      "rear_delts": 16.5,
+      "biceps": 20.5,
+      "triceps": 20.0
+     },
+     "incl_superset_partners": {
+      "quads": 26.0,
+      "glutes": 27.0,
+      "hamstrings": 16.0,
+      "chest": 28.0,
+      "lats_upper_back": 29.0,
+      "front_delts": 16.0,
+      "side_delts": 8.0,
+      "rear_delts": 16.5,
+      "biceps": 20.5,
+      "triceps": 22.0
+     }
+    },
+    "week_12": {
+     "no_superset_partners": {
+      "quads": 28.0,
+      "glutes": 31.5,
+      "hamstrings": 20.0,
+      "chest": 30.0,
+      "lats_upper_back": 35.0,
+      "front_delts": 25.0,
+      "side_delts": 5.0,
+      "rear_delts": 20.0,
+      "biceps": 25.0,
+      "triceps": 30.0
+     },
+     "incl_superset_partners": {
+      "quads": 33.0,
+      "glutes": 34.0,
+      "hamstrings": 20.0,
+      "chest": 32.5,
+      "lats_upper_back": 35.0,
+      "front_delts": 27.5,
+      "side_delts": 5.0,
+      "rear_delts": 20.0,
+      "biceps": 25.0,
+      "triceps": 35.0
+     }
+    }
+   },
+   "rep_ranges_by_bucket": {
+    "all": "header reps per set e.g. '12/10/8 -20' (descending pyramid 15->8, '-20' = INFERRED extra high-rep back-off set or 20-rep target for small-muscle isolation)",
+    "MYO": "'15-5-5-5-5-5'",
+    "supersets": "15 bodyweight squats / max pushups / max bench dips"
+   },
+   "intensity": "none written in the right block (left block is '1-2 RIR')",
+   "progression_summary": "Sets per exercise 3,3,3,4,4,4,3('A WEEK LOWER' = deload),4,4,4,4,5 = compounding +4.75%/week wk1->wk12 (3->5). Reps start as descending pyramid 12/10/8, flatten to 12/12/12 (wk6), then 15/12/10/8 and 12/12/12/12 and 15/15/12/12/12 (wk12). Phase 2 (wk9-12) swaps in unilateral/one-leg isolation, supersets, myo-reps and Arnold presses; tricep slot count drops 6->5 exercises on push days."
+  },
+  {
+   "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
+   "program_id": "MM_HYBRID_8WK",
+   "title": "'HYBRID' / 'strenght - athletic - crossfitish training' rows 69-101 (WK1-WK8)",
+   "goal": "Hybrid strength + athletic power + conditioning ('crossfitish')",
+   "level": "intermediate - INFERRED",
+   "days_per_week": "5 (MON, TUE, THU, FRI, SAT; WED/SUN off - INFERRED from absence)",
+   "exercises_per_session": {
+    "week_1": [
+     6,
+     5,
+     6,
+     6,
+     4
+    ],
+    "week_2": [
+     6,
+     5,
+     6,
+     6,
+     4
+    ],
+    "week_3": [
+     6,
+     5,
+     6,
+     6,
+     4
+    ],
+    "week_4": [
+     6,
+     5,
+     6,
+     6,
+     4
+    ],
+    "week_5": [
+     6,
+     5,
+     6,
+     6,
+     4
+    ],
+    "week_6": [
+     6,
+     5,
+     6,
+     6,
+     4
+    ],
+    "week_7": [
+     6,
+     5,
+     6,
+     6,
+     4
+    ],
+    "week_8": [
+     6,
+     5,
+     6,
+     6,
+     4
+    ]
+   },
+   "sets_per_session": {
+    "week_1": {
+     "as_written": [
+      6.0,
+      6.0,
+      4.0,
+      0.0,
+      2.0
+     ],
+     "assumed": [
+      12.0,
+      11.0,
+      12.0,
+      11.0,
+      8.0
+     ]
+    },
+    "week_2": {
+     "as_written": [
+      6.0,
+      6.0,
+      4.0,
+      0.0,
+      2.0
+     ],
+     "assumed": [
+      12.0,
+      11.0,
+      12.0,
+      11.0,
+      8.0
+     ]
+    },
+    "week_3": {
+     "as_written": [
+      6.0,
+      6.0,
+      4.0,
+      0.0,
+      2.0
+     ],
+     "assumed": [
+      12.0,
+      11.0,
+      12.0,
+      11.0,
+      8.0
+     ]
+    },
+    "week_4": {
+     "as_written": [
+      9.0,
+      6.0,
+      6.0,
+      0.0,
+      3.0
+     ],
+     "assumed": [
+      18.0,
+      12.0,
+      18.0,
+      15.0,
+      12.0
+     ]
+    },
+    "week_5": {
+     "as_written": [
+      10.0,
+      6.0,
+      7.0,
+      0.0,
+      3.0
+     ],
+     "assumed": [
+      19.0,
+      12.0,
+      19.0,
+      15.0,
+      12.0
+     ]
+    },
+    "week_6": {
+     "as_written": [
+      8.0,
+      6.0,
+      5.0,
+      0.0,
+      3.0
+     ],
+     "assumed": [
+      17.0,
+      12.0,
+      17.0,
+      15.0,
+      12.0
+     ]
+    },
+    "week_7": {
+     "as_written": [
+      10.0,
+      8.0,
+      6.0,
+      0.0,
+      4.0
+     ],
+     "assumed": [
+      22.0,
+      15.0,
+      22.0,
+      19.0,
+      16.0
+     ]
+    },
+    "week_8": {
+     "as_written": [
+      10.0,
+      8.0,
+      6.0,
+      0.0,
+      4.0
+     ],
+     "assumed": [
+      22.0,
+      15.0,
+      22.0,
+      19.0,
+      16.0
+     ]
+    }
+   },
+   "weekly_sets_by_bucket": {
+    "week_1": {
+     "as_written": {
+      "AP_TRIPLE_EXT": 4.0,
+      "RP_BKD": 4.0,
+      "RP_BHD": 2.0,
+      "RP_HPUSH": 3.0,
+      "RP_HPULL": 2.0,
+      "CORE_OTHER": 3.0
+     },
+     "assumed": {
+      "AP_PLYO": 6.0,
+      "AP_TRIPLE_EXT": 4.0,
+      "RP_BKD": 4.0,
+      "RP_BHD": 2.0,
+      "RP_UKD": 4.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 5.0,
+      "RP_VPUSH": 2.0,
+      "RP_HPULL": 4.0,
+      "CP_CORE_PELVIS": 2.0,
+      "CORE_OTHER": 9.0,
+      "FOCUS": 6.0
+     }
+    },
+    "week_2": {
+     "as_written": {
+      "AP_TRIPLE_EXT": 4.0,
+      "RP_BKD": 4.0,
+      "RP_BHD": 2.0,
+      "RP_HPUSH": 3.0,
+      "RP_HPULL": 2.0,
+      "CORE_OTHER": 3.0
+     },
+     "assumed": {
+      "AP_PLYO": 6.0,
+      "AP_TRIPLE_EXT": 4.0,
+      "RP_BKD": 4.0,
+      "RP_BHD": 2.0,
+      "RP_UKD": 4.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 3.0,
+      "RP_VPUSH": 4.0,
+      "RP_HPULL": 4.0,
+      "RP_VPULL": 2.0,
+      "CORE_OTHER": 9.0,
+      "FOCUS": 6.0
+     }
+    },
+    "week_3": {
+     "as_written": {
+      "AP_TRIPLE_EXT": 4.0,
+      "RP_BKD": 4.0,
+      "RP_BHD": 2.0,
+      "RP_HPUSH": 3.0,
+      "RP_HPULL": 2.0,
+      "CORE_OTHER": 3.0
+     },
+     "assumed": {
+      "AP_PLYO": 6.0,
+      "AP_TRIPLE_EXT": 4.0,
+      "RP_BKD": 4.0,
+      "RP_BHD": 2.0,
+      "RP_UKD": 4.0,
+      "RP_UHD": 6.0,
+      "RP_HPUSH": 5.0,
+      "RP_VPUSH": 2.0,
+      "RP_HPULL": 4.0,
+      "CP_CORE_PELVIS": 2.0,
+      "CORE_OTHER": 9.0,
+      "FOCUS": 6.0
+     }
+    },
+    "week_4": {
+     "as_written": {
+      "AP_TRIPLE_EXT": 6.0,
+      "RP_BKD": 6.0,
+      "RP_BHD": 3.0,
+      "RP_HPUSH": 3.0,
+      "RP_HPULL": 3.0,
+      "CORE_OTHER": 3.0
+     },
+     "assumed": {
+      "AP_PLYO": 6.0,
+      "AP_TRIPLE_EXT": 6.0,
+      "RP_BKD": 6.0,
+      "RP_BHD": 3.0,
+      "RP_UKD": 6.0,
+      "RP_UHD": 9.0,
+      "RP_HPUSH": 3.0,
+      "RP_VPUSH": 6.0,
+      "RP_HPULL": 6.0,
+      "RP_VPULL": 3.0,
+      "CORE_OTHER": 12.0,
+      "FOCUS": 9.0
+     }
+    },
+    "week_5": {
+     "as_written": {
+      "AP_TRIPLE_EXT": 8.0,
+      "RP_BKD": 6.0,
+      "RP_BHD": 3.0,
+      "RP_HPUSH": 3.0,
+      "RP_HPULL": 3.0,
+      "CORE_OTHER": 3.0
+     },
+     "assumed": {
+      "AP_PLYO": 6.0,
+      "AP_TRIPLE_EXT": 8.0,
+      "RP_BKD": 6.0,
+      "RP_BHD": 3.0,
+      "RP_UKD": 6.0,
+      "RP_UHD": 9.0,
+      "RP_HPUSH": 6.0,
+      "RP_VPUSH": 3.0,
+      "RP_HPULL": 6.0,
+      "CP_CORE_PELVIS": 3.0,
+      "CORE_OTHER": 12.0,
+      "FOCUS": 9.0
+     }
+    },
+    "week_6": {
+     "as_written": {
+      "AP_TRIPLE_EXT": 4.0,
+      "RP_BKD": 6.0,
+      "RP_BHD": 3.0,
+      "RP_HPUSH": 3.0,
+      "RP_HPULL": 3.0,
+      "CORE_OTHER": 3.0
+     },
+     "assumed": {
+      "AP_PLYO": 6.0,
+      "AP_TRIPLE_EXT": 4.0,
+      "RP_BKD": 6.0,
+      "RP_BHD": 3.0,
+      "RP_UKD": 6.0,
+      "RP_UHD": 9.0,
+      "RP_HPUSH": 3.0,
+      "RP_VPUSH": 6.0,
+      "RP_HPULL": 6.0,
+      "RP_VPULL": 3.0,
+      "CORE_OTHER": 12.0,
+      "FOCUS": 9.0
+     }
+    },
+    "week_7": {
+     "as_written": {
+      "AP_TRIPLE_EXT": 4.0,
+      "RP_BKD": 8.0,
+      "RP_BHD": 4.0,
+      "RP_HPUSH": 4.0,
+      "RP_HPULL": 4.0,
+      "CORE_OTHER": 4.0
+     },
+     "assumed": {
+      "AP_PLYO": 6.0,
+      "AP_TRIPLE_EXT": 4.0,
+      "RP_BKD": 8.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 12.0,
+      "RP_HPUSH": 8.0,
+      "RP_VPUSH": 4.0,
+      "RP_HPULL": 8.0,
+      "CP_CORE_PELVIS": 4.0,
+      "CORE_OTHER": 16.0,
+      "FOCUS": 12.0
+     }
+    },
+    "week_8": {
+     "as_written": {
+      "AP_TRIPLE_EXT": 4.0,
+      "RP_BKD": 8.0,
+      "RP_BHD": 4.0,
+      "RP_HPUSH": 4.0,
+      "RP_HPULL": 4.0,
+      "CORE_OTHER": 4.0
+     },
+     "assumed": {
+      "AP_PLYO": 6.0,
+      "AP_TRIPLE_EXT": 4.0,
+      "RP_BKD": 8.0,
+      "RP_BHD": 4.0,
+      "RP_UKD": 8.0,
+      "RP_UHD": 12.0,
+      "RP_HPUSH": 4.0,
+      "RP_VPUSH": 8.0,
+      "RP_HPULL": 8.0,
+      "RP_VPULL": 4.0,
+      "CORE_OTHER": 16.0,
+      "FOCUS": 12.0
+     }
+    }
+   },
+   "weekly_sets_by_muscle": {
+    "week_1": {
+     "as_written": {
+      "quads": 4.0,
+      "glutes": 4.0,
+      "hamstrings": 2.0,
+      "chest": 3.0,
+      "lats_upper_back": 2.0,
+      "front_delts": 3.0,
+      "rear_delts": 1.0,
+      "biceps": 1.0,
+      "triceps": 1.5,
+      "abs_obliques": 3.0
+     },
+     "assumed": {
+      "quads": 8.0,
+      "glutes": 14.0,
+      "hamstrings": 7.0,
+      "chest": 5.0,
+      "lats_upper_back": 4.0,
+      "front_delts": 7.0,
+      "side_delts": 1.0,
+      "rear_delts": 2.0,
+      "biceps": 2.0,
+      "triceps": 3.5,
+      "abs_obliques": 11.0
+     },
+     "athletic_exposure_assumed": {
+      "quads": 8.0,
+      "glutes": 7.0,
+      "hamstrings": 2.0,
+      "lats_upper_back": 2.0,
+      "calves": 5.0
+     }
+    },
+    "week_2": {
+     "as_written": {
+      "quads": 4.0,
+      "glutes": 4.0,
+      "hamstrings": 2.0,
+      "chest": 3.0,
+      "lats_upper_back": 2.0,
+      "front_delts": 3.0,
+      "rear_delts": 1.0,
+      "biceps": 1.0,
+      "triceps": 1.5,
+      "abs_obliques": 3.0
+     },
+     "assumed": {
+      "quads": 8.0,
+      "glutes": 14.0,
+      "hamstrings": 7.0,
+      "chest": 3.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 7.0,
+      "side_delts": 2.0,
+      "rear_delts": 2.0,
+      "biceps": 3.0,
+      "triceps": 3.5,
+      "abs_obliques": 9.0
+     },
+     "athletic_exposure_assumed": {
+      "quads": 8.0,
+      "glutes": 7.0,
+      "hamstrings": 2.0,
+      "lats_upper_back": 2.0,
+      "calves": 5.0
+     }
+    },
+    "week_3": {
+     "as_written": {
+      "quads": 4.0,
+      "glutes": 4.0,
+      "hamstrings": 2.0,
+      "chest": 3.0,
+      "lats_upper_back": 2.0,
+      "front_delts": 3.0,
+      "rear_delts": 1.0,
+      "biceps": 1.0,
+      "triceps": 1.5,
+      "abs_obliques": 3.0
+     },
+     "assumed": {
+      "quads": 8.0,
+      "glutes": 14.0,
+      "hamstrings": 7.0,
+      "chest": 5.0,
+      "lats_upper_back": 4.0,
+      "front_delts": 7.0,
+      "side_delts": 1.0,
+      "rear_delts": 2.0,
+      "biceps": 2.0,
+      "triceps": 3.5,
+      "abs_obliques": 11.0
+     },
+     "athletic_exposure_assumed": {
+      "quads": 8.0,
+      "glutes": 7.0,
+      "hamstrings": 2.0,
+      "lats_upper_back": 2.0,
+      "calves": 5.0
+     }
+    },
+    "week_4": {
+     "as_written": {
+      "quads": 6.0,
+      "glutes": 6.0,
+      "hamstrings": 3.0,
+      "chest": 3.0,
+      "lats_upper_back": 3.0,
+      "front_delts": 3.0,
+      "rear_delts": 1.5,
+      "biceps": 1.5,
+      "triceps": 1.5,
+      "abs_obliques": 3.0
+     },
+     "assumed": {
+      "quads": 12.0,
+      "glutes": 21.0,
+      "hamstrings": 10.5,
+      "chest": 3.0,
+      "lats_upper_back": 9.0,
+      "front_delts": 9.0,
+      "side_delts": 3.0,
+      "rear_delts": 3.0,
+      "biceps": 4.5,
+      "triceps": 4.5,
+      "abs_obliques": 12.0
+     },
+     "athletic_exposure_assumed": {
+      "quads": 9.0,
+      "glutes": 9.0,
+      "hamstrings": 3.0,
+      "lats_upper_back": 3.0,
+      "calves": 6.0
+     }
+    },
+    "week_5": {
+     "as_written": {
+      "quads": 6.0,
+      "glutes": 6.0,
+      "hamstrings": 3.0,
+      "chest": 3.0,
+      "lats_upper_back": 3.0,
+      "front_delts": 3.0,
+      "rear_delts": 1.5,
+      "biceps": 1.5,
+      "triceps": 1.5,
+      "abs_obliques": 3.0
+     },
+     "assumed": {
+      "quads": 12.0,
+      "glutes": 21.0,
+      "hamstrings": 10.5,
+      "chest": 6.0,
+      "lats_upper_back": 6.0,
+      "front_delts": 9.0,
+      "side_delts": 1.5,
+      "rear_delts": 3.0,
+      "biceps": 3.0,
+      "triceps": 4.5,
+      "abs_obliques": 15.0
+     },
+     "athletic_exposure_assumed": {
+      "quads": 10.0,
+      "glutes": 11.0,
+      "hamstrings": 4.0,
+      "lats_upper_back": 4.0,
+      "calves": 7.0
+     }
+    },
+    "week_6": {
+     "as_written": {
+      "quads": 6.0,
+      "glutes": 6.0,
+      "hamstrings": 3.0,
+      "chest": 3.0,
+      "lats_upper_back": 3.0,
+      "front_delts": 3.0,
+      "rear_delts": 1.5,
+      "biceps": 1.5,
+      "triceps": 1.5,
+      "abs_obliques": 3.0
+     },
+     "assumed": {
+      "quads": 12.0,
+      "glutes": 21.0,
+      "hamstrings": 10.5,
+      "chest": 3.0,
+      "lats_upper_back": 9.0,
+      "front_delts": 9.0,
+      "side_delts": 3.0,
+      "rear_delts": 3.0,
+      "biceps": 4.5,
+      "triceps": 4.5,
+      "abs_obliques": 12.0
+     },
+     "athletic_exposure_assumed": {
+      "quads": 8.0,
+      "glutes": 7.0,
+      "hamstrings": 2.0,
+      "lats_upper_back": 2.0,
+      "calves": 5.0
+     }
+    },
+    "week_7": {
+     "as_written": {
+      "quads": 8.0,
+      "glutes": 8.0,
+      "hamstrings": 4.0,
+      "chest": 4.0,
+      "lats_upper_back": 4.0,
+      "front_delts": 4.0,
+      "rear_delts": 2.0,
+      "biceps": 2.0,
+      "triceps": 2.0,
+      "abs_obliques": 4.0
+     },
+     "assumed": {
+      "quads": 16.0,
+      "glutes": 28.0,
+      "hamstrings": 14.0,
+      "chest": 8.0,
+      "lats_upper_back": 8.0,
+      "front_delts": 12.0,
+      "side_delts": 2.0,
+      "rear_delts": 4.0,
+      "biceps": 4.0,
+      "triceps": 6.0,
+      "abs_obliques": 20.0
+     },
+     "athletic_exposure_assumed": {
+      "quads": 8.0,
+      "glutes": 7.0,
+      "hamstrings": 2.0,
+      "lats_upper_back": 2.0,
+      "calves": 5.0
+     }
+    },
+    "week_8": {
+     "as_written": {
+      "quads": 8.0,
+      "glutes": 8.0,
+      "hamstrings": 4.0,
+      "chest": 4.0,
+      "lats_upper_back": 4.0,
+      "front_delts": 4.0,
+      "rear_delts": 2.0,
+      "biceps": 2.0,
+      "triceps": 2.0,
+      "abs_obliques": 4.0
+     },
+     "assumed": {
+      "quads": 16.0,
+      "glutes": 28.0,
+      "hamstrings": 14.0,
+      "chest": 4.0,
+      "lats_upper_back": 12.0,
+      "front_delts": 12.0,
+      "side_delts": 4.0,
+      "rear_delts": 4.0,
+      "biceps": 6.0,
+      "triceps": 6.0,
+      "abs_obliques": 16.0
+     },
+     "athletic_exposure_assumed": {
+      "quads": 8.0,
+      "glutes": 7.0,
+      "hamstrings": 2.0,
+      "lats_upper_back": 2.0,
+      "calves": 5.0
+     }
+    }
+   },
+   "conditioning": {
+    "week_1": {
+     "sprint": {
+      "bouts": 10,
+      "work_s": 15,
+      "rest_s": 30,
+      "total_work_s": 150
+     },
+     "aerobic_sessions": 1
+    },
+    "week_2": {
+     "sprint": {
+      "bouts": 12,
+      "work_s": 15,
+      "rest_s": 30,
+      "total_work_s": 180
+     },
+     "aerobic_sessions": 1
+    },
+    "week_3": {
+     "sprint": {
+      "bouts": 15,
+      "work_s": 15,
+      "rest_s": 30,
+      "total_work_s": 225
+     },
+     "aerobic_sessions": 1
+    },
+    "week_4": {
+     "sprint": {
+      "bouts": 10,
+      "work_s": 20,
+      "rest_s": 40,
+      "total_work_s": 200
+     },
+     "aerobic_sessions": 1
+    },
+    "week_5": {
+     "sprint": {
+      "bouts": 12,
+      "work_s": 20,
+      "rest_s": 40,
+      "total_work_s": 240
+     },
+     "aerobic_sessions": 1
+    },
+    "week_6": {
+     "sprint": {
+      "bouts": 15,
+      "work_s": 20,
+      "rest_s": 40,
+      "total_work_s": 300
+     },
+     "aerobic_sessions": 1
+    },
+    "week_7": {
+     "sprint": {
+      "bouts": 5,
+      "work_s": 30,
+      "rest_s": 120,
+      "total_work_s": 150
+     },
+     "aerobic_sessions": 1
+    },
+    "week_8": {
+     "sprint": {
+      "bouts": 10,
+      "work_s": 30,
+      "rest_s": 120,
+      "total_work_s": 300
+     },
+     "aerobic_sessions": 1
+    }
+   },
+   "assumptions": "header SETS/REPS (D71:L72) apply to the three STRENGTH rows; row-78 numbers 2,2,2,3,3,3,4,4 = sets for Monday 'UPPER ACCESORY'/'HOR PULL'; tri-set components unset (assumed = header sets); jumps unset (assumed 3 sets x 6 'EASY' borrowed from STRENGTH track plyo row); Tue/Thu/Fri accessory rows unset (assumed row-78 sets, counted as FOCUS); Saturday circuit = AMRAP (minutes, inferred) - assumed rounds = header sets",
+   "rep_ranges_by_bucket": {
+    "RP_BKD_RP_BHD": "6/8/10 wave x 2-4 sets",
+    "AP_TRIPLE_EXT": "1-5 (explicit, mostly 2-3; pulls + power/squat variants)",
+    "RP_HPUSH_bench": "6->6->8->8->10->10 (3 sets) then 4x6, 4x8",
+    "COND_SPRINT_BUYOUT": "15/20/30 s efforts, 1:2 then 1:4 work:rest",
+    "COND_AEROBIC": "15-40 min easy",
+    "AP_PLYO": "unset"
+   },
+   "intensity": "Oly 'heavy'; sprints 'fast'/'fastest' in wk7-8; Friday cardio 'easy'; no RIR written",
+   "progression_summary": "3-week micro-waves: reps 6->8->10 at constant sets, then +1 set and reset reps (sets 2,2,2,3,3,3,4,4): strength reps/exercise 12,16,20,18,24,30,24,32 (+15%/week compounding wk1->wk8). AMRAP 12,15,16,17,18,19,20,20 (min, +1/week after wk2). Sprints: bouts 10->12->15 per block, work 15s->20s->30s, rest 1:2 -> 1:4; total work 150,180,225,200,240,300,150,300 s. Bench: 3x6, 3x6, 3x8, 3x8, 3x10, 3x10, 4x6, 4x8 alternating flat/incline. Jumps: depth drops -> weighted depth drops -> depth drop to jump -> weighted depth drop to jump -> box jumps -> repeat hurdle hops (amplitude/complexity ladder)."
+  }
+ ]
+}

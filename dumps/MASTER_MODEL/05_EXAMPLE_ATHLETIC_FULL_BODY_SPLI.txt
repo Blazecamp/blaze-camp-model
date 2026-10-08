@@ -1,0 +1,378 @@
+SHEET: 'EXAMPLE ATHLETIC FULL BODY SPLI'
+DIMENSIONS: A1:M981  max_row=981 max_col=13
+NON-EMPTY CELLS: 361
+MERGED (5): A43:B43, A41:B41, A42:B42, A45:B45, A44:B44
+DATA VALIDATIONS (dropdown sources):
+HYPERLINKS:
+  K12 -> https://youtu.be/uoDrpDu4HVY
+  K13 -> https://youtu.be/648HpqRr4D8
+  K14 -> https://youtu.be/O8jpEmEQbm0
+  J20 -> '(NOT DONE) ALL ABOUT BALLISTICS'!A1
+  C24 -> '(NOT DONE) ALL ABOUT BALLISTICS'!A1
+  J38 -> '(NOT DONE) ALL ABOUT BALLISTICS'!A1
+  G41 -> https://youtu.be/uoDrpDu4HVY
+  G42 -> https://youtu.be/648HpqRr4D8
+  G43 -> https://youtu.be/O8jpEmEQbm0
+
+CELLS (row-major; coord | value | formatting):
+A1 | 'ATHLETIC FULL BODY SPLIT' | bg=00FFFF bold fg=theme1
+A2 | 'Basic Instruction:' | bg=00FFFF fg=theme1
+A3 | '*Always leave 1 rep in the tank, never work up to failure but get as close as you can ' | bg=00FFFF fg=theme1
+A4 | "**Do steady cardio whenever you want, just don't over do it... I reccomend doing it WEDNESDAYS & SATURDAYS max 40 min of steady" | bg=00FFFF fg=theme1
+A5 | '***The lower the reps, the higher the weight... Always go for 1-3 RIR (REPS IN RESERVE) aka RPE 7+' | bg=00FFFF fg=theme1
+A6 | '****When there are joint pains, usually going unilateral or/and also getting away from fixed grips (barbells, bars) and going split grips (dumbbells, kbs, indivitual grips) help take care of some stuff' | bg=00FFFF fg=theme1
+A7 | '*****If you have any questions just ask me - IG @BLAZECAMP or TWITTER @BLAZECAMP_' | bg=00FFFF fg=theme1
+A9 | 'STARTING OFF SEASON WORKOUTS' | bg=93C47D bold fg=theme1
+D9 | ' MID OFF SEASON WORKOUTS' | bg=FFD966 bold fg=theme1
+H9 | ' ADVANCED OFF SEASON WORKOUTS' | bg=E06666 bold fg=theme1
+A10 | 'WORKOUT' | bg=D5A6BD bold fg=theme1
+D10 | 'WORKOUT' | bg=D5A6BD bold fg=theme1
+H10 | 'WORKOUT' | bg=D5A6BD bold fg=theme1
+A11 | 'SETS' | bg=9FC5E8 fg=theme1
+B11 | 'REPS' | bg=9FC5E8 fg=theme1
+C11 | 'EXERCISE' | bg=9FC5E8 fg=theme1
+D11 | 'SETS' | bg=9FC5E8 fg=theme1
+E11 | 'REPS' | bg=9FC5E8 fg=theme1
+F11 | 'EXERCISE' | bg=9FC5E8 fg=theme1
+G11 | 'VIDEO EXAMPLE' | bg=9FC5E8 fg=theme1
+H11 | 'SETS' | bg=9FC5E8 fg=theme1
+I11 | 'REPS' | bg=9FC5E8 fg=theme1
+J11 | 'EXERCISE' | bg=9FC5E8 fg=theme1
+K11 | 'VIDEO EXAMPLE' | bg=9FC5E8 fg=theme1
+A12 | 2.0 | fg=theme1
+B12 | 8.0 | fg=theme1
+C12 | 'Depth Jump with weight' | fg=theme1
+D12 | 1.0 | bg=theme0 fg=theme1
+E12 | 8.0 | bg=theme0 fg=theme1
+F12 | 'weighted Depth Drops - Drop & Stick - Hold for 3 seconds on each one' | bg=theme0 fg=theme1
+H12 | 1.0 | fg=theme1
+I12 | 8.0 | fg=theme1
+J12 | 'Weighted Depth Drops - Drop & Stick - Hold for 3 seconds on each one' | fg=theme1
+K12 | 'https://youtu.be/uoDrpDu4HVY' | fg=1155CC
+A13 | 2.0 | fg=theme1
+B13 | 8.0 | fg=theme1
+C13 | 'Depth jump with weight into high box jump' | fg=theme1
+D13 | 1.0 | bg=theme0 fg=theme1
+E13 | 8.0 | bg=theme0 fg=theme1
+F13 | 'High Jumps' | bg=theme0 fg=theme1
+H13 | 1.0 | fg=theme1
+I13 | 12.0 | fg=theme1
+J13 | 'Med Ball Rockers' | fg=theme1
+K13 | 'this but hugging a light medball: https://youtu.be/648HpqRr4D8' | fg=0000FF
+A14 | 2.0 | fg=theme1
+B14 | 8.0 | fg=theme1
+C14 | 'Really high jump squats LOAD & jump hard' | fg=theme1
+D14 | 1.0 | bg=theme0 fg=theme1
+E14 | 40.0 | bg=theme0 fg=theme1
+F14 | 'Bilateral Symetrical Squirrel Jumps' | bg=theme0 fg=theme1
+H14 | 1.0 | fg=theme1
+I14 | '12 & 12' | fg=theme1
+J14 | 'Single Leg to march jumps' | fg=theme1
+K14 | 'https://youtu.be/O8jpEmEQbm0' | fg=1155CC
+A15 | 2.0 | fg=theme1
+B15 | ':30 sec.' | fg=theme1
+C15 | 'High Knee Runs FAST' | fg=theme1
+D15 | 1.0 | bg=theme0 fg=theme1
+E15 | '40 & 40' | bg=theme0 fg=theme1
+F15 | 'Single leg Squirrel Jumps' | bg=theme0 fg=theme1
+H15 | 3.0 | fg=theme1
+I15 | 1.0 | fg=theme1
+J15 | 'DEADLIFTS (1RIR)' | fg=theme1
+A16 | 3.0 | fg=theme1
+B16 | '12/ 12' | fg=theme1
+C16 | 'HEAVY Single arm rotational half kneeling cable row or band row or Bird Dog Row' | fg=theme1
+D16 | 1.0 | bg=theme0 fg=theme1
+E16 | '50 unbroken' | bg=theme0 fg=theme1
+F16 | 'Hollow rocks' | bg=theme0 fg=theme1
+H16 | 2.0 | fg=theme1
+I16 | '6 & 6' | fg=theme1
+J16 | 'Unilateral Deadlift DB loaded' | fg=theme1
+A17 | 3.0 | fg=theme1
+B17 | '3+10' | fg=theme1
+C17 | 'SUPERSET: HEAVY Hex bar Squats direclty into 10 Repeat Jump Squat HIGH JUMPs' | fg=theme1
+D17 | 2.0 | bg=theme0 fg=theme1
+E17 | '8 & 8 ' | bg=theme0 fg=theme1
+F17 | 'Heavy DB bench presses' | bg=theme0 fg=theme1
+H17 | 3.0 | fg=theme1
+I17 | '20 + 20 ' | fg=theme1
+J17 | 'SUPERSET: Star v-ups + side plank knee to elbow ' | fg=theme1
+A18 | 2.0 | fg=theme1
+B18 | '10/ 10 + 8/ 8' | fg=theme1
+C18 | 'SUPERSET: HEAVY Ipsilateral DB front foot elevated lunge directly into no weight lunge front foot jumps 8 reps each leg' | fg=theme1
+D18 | 2.0 | bg=theme0 fg=theme1
+E18 | datetime.datetime(2021, 6, 8, 0, 0) | bg=theme0 fg=theme1
+F18 | 'Heavy Deadlifts' | bg=theme0 fg=theme1
+H18 | 'WORKOUT' | bg=D5A6BD bold fg=theme1
+A19 | 3.0 | fg=theme1
+B19 | '12/ 12' | fg=theme1
+C19 | 'Standing Overhead DB sesaw push presses' | fg=theme1
+D19 | 2.0 | bg=theme0 fg=theme1
+E19 | datetime.datetime(2021, 8, 12, 0, 0) | bg=theme0 fg=theme1
+F19 | 'Pull ups or Lat pull downs' | bg=theme0 fg=theme1
+H19 | 'SETS' | bg=9FC5E8 fg=theme1
+I19 | 'REPS' | bg=9FC5E8 fg=theme1
+J19 | 'EXERCISE' | bg=9FC5E8 fg=theme1
+A20 | 3.0 | fg=theme1
+B20 | '12 + 8' | fg=theme1
+C20 | 'Lateral mid size box step up jumps directly into nordic curls' | fg=theme1
+D20 | 2.0 | bg=theme0 fg=theme1
+E20 | '12 & 12' | bg=theme0 fg=theme1
+F20 | 'Heavy curls & Heavy tricep kickbakcs 12 on each side' | bg=theme0 fg=theme1
+H20 | 1.0 | fg=theme1
+I20 | 'ALL LIST' | fg=theme1
+J20 | '*MEDBALLS' | fg=1155CC
+A21 | 5.0 | fg=theme1
+B21 | ':30 sec./ :30 sec.' | fg=theme1
+C21 | 'Side Plank presses (advanced does star side plank presses)' | fg=theme1
+D21 | 2.0 | bg=theme0 fg=theme1
+E21 | '15 & 8' | bg=theme0 fg=theme1
+F21 | 'Plate core & leg extensions / nordic curls' | bg=theme0 fg=theme1
+H21 | 2.0 | bg=theme0 fg=theme1
+I21 | '8 & 8' | bg=theme0 fg=theme1
+J21 | 'Heavy DB rows' | bg=theme0 fg=theme1
+A22 | 'WORKOUT' | bg=D5A6BD bold fg=theme1
+D22 | 'WORKOUT' | bg=D5A6BD bold fg=theme1
+H22 | 2.0 | bg=theme0 fg=theme1
+I22 | '8 & 8' | bg=theme0 fg=theme1
+J22 | 'RFE & FFE contralateral lunge double DB front rack loaded' | bg=theme0 fg=theme1
+A23 | 'SETS' | bg=9FC5E8 fg=theme1
+B23 | 'REPS' | bg=9FC5E8 fg=theme1
+C23 | 'EXERCISE' | bg=9FC5E8 fg=theme1
+D23 | 'SETS' | bg=9FC5E8 fg=theme1
+E23 | 'REPS' | bg=9FC5E8 fg=theme1
+F23 | 'EXERCISE' | bg=9FC5E8 fg=theme1
+H23 | 2.0 | bg=theme0 fg=theme1
+I23 | '8 & 8' | bg=theme0 fg=theme1
+J23 | 'DB overhead sesaw alternating press (no leg drive)' | bg=theme0 fg=theme1
+A24 | 1.0 | fg=theme1
+B24 | 'ALL LIST' | fg=theme1
+C24 | '*MEDBALLS ' | fg=1155CC
+D24 | '**MEDBALLS**' | bg=theme0 fg=theme1
+H24 | 2.0 | bg=theme0 fg=theme1
+I24 | 8.0 | bg=theme0 fg=theme1
+J24 | 'DB side raises + Copenhagen plank :50 sec each side' | bg=theme0 fg=theme1
+A25 | 1.0 | fg=theme1
+B25 | 20.0 | fg=theme1
+C25 | 'Star Supine Cross Connects' | fg=theme1
+D25 | 2.0 | bg=theme0 fg=theme1
+E25 | 10.0 | bg=theme0 fg=theme1
+F25 | 'Rotational Chest pass R' | bg=theme0 fg=theme1
+H25 | 3.0 | bg=theme0 fg=theme1
+J25 | '50 situps + 50 crunches + 50 reverse crunches' | bg=theme0 fg=theme1
+A26 | 3.0 | fg=theme1
+B26 | 12.0 | fg=theme1
+C26 | 'KB Swings + 12/12 Single leg Glute bridges' | fg=theme1
+D26 | 2.0 | bg=theme0 fg=theme1
+E26 | 10.0 | bg=theme0 fg=theme1
+F26 | 'Rotational Chest pass L' | bg=theme0 fg=theme1
+H26 | 'WORKOUT' | bg=D5A6BD bold fg=theme1
+A27 | 3.0 | fg=theme1
+B27 | '30---30' | fg=theme1
+C27 | 'Banded fast LAT PULL DOWNS Single Arm' | fg=theme1
+D27 | 2.0 | bg=theme0 fg=theme1
+E27 | 10.0 | bg=theme0 fg=theme1
+F27 | 'Rotational Scoop R' | bg=theme0 fg=theme1
+H27 | 'SETS' | bg=9FC5E8 fg=theme1
+I27 | 'REPS' | bg=9FC5E8 fg=theme1
+J27 | 'EXERCISE' | bg=9FC5E8 fg=theme1
+A28 | 3.0 | fg=theme1
+B28 | datetime.datetime(2021, 8, 8, 0, 0) | fg=theme1
+C28 | 'Staggered stance DB snatch' | fg=theme1
+D28 | 2.0 | bg=theme0 fg=theme1
+E28 | 10.0 | bg=theme0 fg=theme1
+F28 | 'Rotational Scoop L' | bg=theme0 fg=theme1
+H28 | 1.0 | fg=theme1
+I28 | 40.0 | fg=theme1
+J28 | 'Squirrel jumps both feet' | fg=theme1
+A29 | 3.0 | fg=theme1
+B29 | datetime.datetime(2021, 8, 8, 0, 0) | fg=theme1
+C29 | 'Plyo Push ups - one side raised' | fg=theme1
+D29 | 2.0 | bg=theme0 fg=theme1
+E29 | 10.0 | bg=theme0 fg=theme1
+F29 | 'Rotational Floor side to side slams' | bg=theme0 fg=theme1
+H29 | 1.0 | fg=theme1
+I29 | 20.0 | fg=theme1
+J29 | 'Bilateral Symetrical jump on to plate' | fg=theme1
+A30 | 'TABATA' | fg=theme1
+B30 | 'TIME BASED' | fg=theme1
+C30 | '20 on/ 10 off - TABATA TIMER - Flutter kicks & Hip Turns' | fg=theme1
+D30 | 2.0 | bg=theme0 fg=theme1
+E30 | 10.0 | bg=theme0 fg=theme1
+F30 | 'Half kneeling Right Facing LEFT LEG UP rotational scoop' | bg=theme0 fg=theme1
+H30 | 1.0 | fg=theme1
+I30 | '20/20' | fg=theme1
+J30 | 'SL Jump on to plate forward/back' | fg=theme1
+A31 | 'WORKOUT' | bg=D5A6BD bold fg=theme1
+D31 | 2.0 | bg=theme0 fg=theme1
+E31 | 10.0 | bg=theme0 fg=theme1
+F31 | 'Half kneeling Right Facing RIGHT LEG FORWARD rotational scoop' | bg=theme0 fg=theme1
+H31 | 1.0 | fg=theme1
+I31 | '50 unbroken' | fg=theme1
+J31 | 'Hollow rocks' | fg=theme1
+A32 | 'SETS' | bg=9FC5E8 fg=theme1
+B32 | 'REPS' | bg=9FC5E8 fg=theme1
+C32 | 'EXERCISE' | bg=9FC5E8 fg=theme1
+D32 | 2.0 | bg=theme0 fg=theme1
+E32 | 10.0 | bg=theme0 fg=theme1
+F32 | 'Half kneeling LEFT Facing LEFT LEG UP rotational scoop' | bg=theme0 fg=theme1
+H32 | 3.0 | fg=theme1
+I32 | 3.0 | fg=theme1
+J32 | 'Power Cleans' | fg=theme1
+A33 | 3.0 | fg=theme1
+B33 | 30.0 | fg=theme1
+C33 | 'Med ball rolls' | fg=theme1
+D33 | 2.0 | bg=theme0 fg=theme1
+E33 | 10.0 | bg=theme0 fg=theme1
+F33 | 'Half kneeling LEFT Facing RIGHT LEG FORWARD rotational scoop' | bg=theme0 fg=theme1
+H33 | 2.0 | fg=theme1
+I33 | 6.0 | fg=theme1
+J33 | 'HEAVY GLUTE BRIDGES' | fg=theme1
+A34 | 3.0 | fg=theme1
+B34 | '8*8' | fg=theme1
+C34 | 'HEAVY: Camporini DL' | fg=theme1
+D34 | 2.0 | bg=theme0 fg=theme1
+E34 | 10.0 | bg=theme0 fg=theme1
+F34 | 'Alternating Back to wall Rotational Scoops' | bg=theme0 fg=theme1
+H34 | 2.0 | fg=theme1
+I34 | '12 & 12' | fg=theme1
+J34 | 'Heavy curls & Heavy tricep kickbakcs 12 on each side' | fg=theme1
+A35 | 3.0 | fg=theme1
+B35 | '8*8' | fg=theme1
+C35 | 'HEAVY: Heavy walking lunges' | fg=theme1
+D35 | 2.0 | bg=theme0 fg=theme1
+E35 | '20/20' | bg=theme0 fg=theme1
+F35 | 'Star Supine Cross Connects UNBROKEN' | bg=theme0 fg=theme1
+H35 | 2.0 | fg=theme1
+I35 | 20.0 | fg=theme1
+J35 | 'Plate core & leg extensions' | fg=theme1
+A36 | 3.0 | fg=theme1
+B36 | 8.0 | fg=theme1
+C36 | 'SUPERSET: Low Hang Power Cleans (mid weight) ' | fg=theme1
+D36 | 2.0 | bg=theme0 fg=theme1
+E36 | 8.0 | bg=theme0 fg=theme1
+F36 | 'Heavy Power Cleans' | bg=theme0 fg=theme1
+H36 | 'WORKOUT' | bg=D5A6BD bold fg=theme1
+A37 | 3.0 | fg=theme1
+B37 | 6.0 | fg=theme1
+C37 | 'Heavy Snatch grip DL' | fg=theme1
+D37 | 4.0 | bg=theme0 fg=theme1
+E37 | '10 & 10' | bg=theme0 fg=theme1
+F37 | 'Lateral Step ups IPSILATERAL loading' | bg=theme0 fg=theme1
+H37 | 'SETS' | bg=9FC5E8 fg=theme1
+I37 | 'REPS' | bg=9FC5E8 fg=theme1
+J37 | 'EXERCISE' | bg=9FC5E8 fg=theme1
+A38 | 3.0 | fg=theme1
+B38 | '8/8 - 8 - 8' | fg=theme1
+C38 | 'SUPERSET: Dead bugs + Front Raises + Side Raises' | fg=theme1
+D38 | 2.0 | bg=theme0 fg=theme1
+E38 | '6 & 6' | bg=theme0 fg=theme1
+F38 | 'Db Staggered Hang Snatch ' | bg=theme0 fg=theme1
+H38 | 1.0 | fg=theme1
+I38 | 'ALL LIST' | fg=theme1
+J38 | '*MEDBALL' | fg=1155CC
+A39 | 3.0 | fg=theme1
+B39 | '16//16' | fg=theme1
+C39 | 'Superset: leg ext. leg curls (MID WEIGHT)' | fg=theme1
+D39 | 'WORKOUT' | bg=D5A6BD bold fg=theme1
+H39 | 2.0 | fg=theme1
+I39 | '20/20' | fg=theme1
+J39 | 'Star Supine Cross Connects UNBROKEN' | fg=theme1
+D40 | 'SETS' | bg=9FC5E8 fg=theme1
+E40 | 'REPS' | bg=9FC5E8 fg=theme1
+F40 | 'EXERCISE' | bg=9FC5E8 fg=theme1
+H40 | 2.0 | fg=theme1
+I40 | 8.0 | fg=theme1
+J40 | 'Heel raises & fast/rythmic/1/4 SQUATS' | fg=theme1
+A41 | 'First 8 weeks (8wk1) adaptation focus:' | bg=CCCCCC fg=theme1
+D41 | 1.0 | bg=theme0 fg=theme1
+E41 | 8.0 | bg=theme0 fg=theme1
+F41 | 'Weighted Depth Drops - Drop & Stick - Hold for 3 seconds on each one' | bg=theme0 fg=theme1
+G41 | 'https://youtu.be/uoDrpDu4HVY' | bg=theme0 fg=1155CC
+H41 | 1.0 | fg=theme1
+I41 | '6 & 6' | fg=theme1
+J41 | 'Lateral Step ups IPSILATERAL loading' | fg=theme1
+A42 | 'Bring athletes back to feeling/moving great' | bg=CCCCCC fg=theme1
+D42 | 2.0 | bg=theme0 fg=theme1
+E42 | 12.0 | bg=theme0 fg=theme1
+F42 | 'Med Ball Rockers' | bg=theme0 fg=theme1
+G42 | 'this but hugging a light medball: https://youtu.be/648HpqRr4D8' | bg=theme0 fg=0000FF
+H42 | 1.0 | fg=theme1
+I42 | '6 & 6' | fg=theme1
+J42 | 'Db Staggered Hang Snatch ' | fg=theme1
+A43 | 'Start ramping up volume of work at highest biomechanical demand' | bg=CCCCCC fg=theme1
+D43 | 2.0 | bg=theme0 fg=theme1
+E43 | '8 & 8' | bg=theme0 fg=theme1
+F43 | 'Single Leg to march jumps' | bg=theme0 fg=theme1
+G43 | 'https://youtu.be/O8jpEmEQbm0' | bg=theme0 fg=1155CC
+H43 | 3.0 | fg=theme1
+I43 | '1 minute' | fg=theme1
+J43 | 'Feet againts the wall weighted low plank ' | fg=theme1
+A44 | 'Introduce more specific unilateral demands' | bg=CCCCCC fg=theme1
+D44 | 3.0 | bg=theme0 fg=theme1
+E44 | datetime.datetime(2021, 4, 6, 0, 0) | bg=theme0 fg=theme1
+F44 | 'HEX bar loaded Jumps' | bg=theme0 fg=theme1
+A45 | 'Drive more strength/power/speed' | bg=CCCCCC fg=theme1
+D45 | 2.0 | bg=theme0 fg=theme1
+E45 | '6 & 6' | bg=theme0 fg=theme1
+F45 | 'Bench glute Bridge & fast alternating DB sesaw floor press' | bg=theme0 fg=theme1
+D46 | 2.0 | bg=theme0 fg=theme1
+E46 | '6 & 6' | bg=theme0 fg=theme1
+F46 | 'Unilateral Deadlift DB loaded' | bg=theme0 fg=theme1
+D47 | 2.0 | bg=theme0 fg=theme1
+E47 | '20 sec. ' | bg=theme0 fg=theme1
+F47 | 'Max speed banded lat pull downs half kneeling ipsilateral' | bg=theme0 fg=theme1
+D48 | 3.0 | bg=theme0 fg=theme1
+E48 | '12 on each leg & 12 & 12 ' | bg=theme0 fg=theme1
+F48 | 'SUPERSET: DB Single leg Glute bridges + alternating seated bicep curl runners + db floor skull crushers' | bg=theme0 fg=theme1
+D49 | 'WORKOUT' | bg=D5A6BD bold fg=theme1
+D50 | 'SETS' | bg=9FC5E8 fg=theme1
+E50 | 'REPS' | bg=9FC5E8 fg=theme1
+F50 | 'EXERCISE' | bg=9FC5E8 fg=theme1
+D51 | '**MEDBALLS**' | bg=theme0 fg=theme1
+D52 | 2.0 | bg=theme0 fg=theme1
+E52 | 10.0 | bg=theme0 fg=theme1
+F52 | 'Rotational Chest pass R' | bg=theme0 fg=theme1
+D53 | 2.0 | bg=theme0 fg=theme1
+E53 | 10.0 | bg=theme0 fg=theme1
+F53 | 'Rotational Chest pass L' | bg=theme0 fg=theme1
+D54 | 2.0 | bg=theme0 fg=theme1
+E54 | 10.0 | bg=theme0 fg=theme1
+F54 | 'Rotational Scoop R' | bg=theme0 fg=theme1
+D55 | 2.0 | bg=theme0 fg=theme1
+E55 | 10.0 | bg=theme0 fg=theme1
+F55 | 'Rotational Scoop L' | bg=theme0 fg=theme1
+D56 | 2.0 | bg=theme0 fg=theme1
+E56 | 10.0 | bg=theme0 fg=theme1
+F56 | 'Rotational Floor side to side slams' | bg=theme0 fg=theme1
+D57 | 2.0 | bg=theme0 fg=theme1
+E57 | 10.0 | bg=theme0 fg=theme1
+F57 | 'Half kneeling Right Facing LEFT LEG UP rotational scoop' | bg=theme0 fg=theme1
+D58 | 2.0 | bg=theme0 fg=theme1
+E58 | 10.0 | bg=theme0 fg=theme1
+F58 | 'Half kneeling Right Facing RIGHT LEG FORWARD rotational scoop' | bg=theme0 fg=theme1
+D59 | 2.0 | bg=theme0 fg=theme1
+E59 | 10.0 | bg=theme0 fg=theme1
+F59 | 'Half kneeling LEFT Facing LEFT LEG UP rotational scoop' | bg=theme0 fg=theme1
+D60 | 2.0 | bg=theme0 fg=theme1
+E60 | 10.0 | bg=theme0 fg=theme1
+F60 | 'Half kneeling LEFT Facing RIGHT LEG FORWARD rotational scoop' | bg=theme0 fg=theme1
+D61 | 2.0 | bg=theme0 fg=theme1
+E61 | 10.0 | bg=theme0 fg=theme1
+F61 | 'Alternating Back to wall Rotational Scoops' | bg=theme0 fg=theme1
+D62 | 2.0 | bg=theme0 fg=theme1
+E62 | '20/20' | bg=theme0 fg=theme1
+F62 | 'Med ball Star Supine Cross Connects UNBROKEN' | bg=theme0 fg=theme1
+D63 | 2.0 | bg=theme0 fg=theme1
+E63 | '8 & 8' | bg=theme0 fg=theme1
+F63 | 'Heavy DB rows' | bg=theme0 fg=theme1
+D64 | '2 to 4' | bg=theme0 fg=theme1
+E64 | '8 & 8' | bg=theme0 fg=theme1
+F64 | 'RFE & FFE contralateral lunge double DB front rack loaded' | bg=theme0 fg=theme1
+D65 | 2.0 | bg=theme0 fg=theme1
+E65 | '8 & 8' | bg=theme0 fg=theme1
+F65 | 'DB overhead sesaw alternating press (no leg drive)' | bg=theme0 fg=theme1
+D66 | 2.0 | bg=theme0 fg=theme1
+E66 | 8.0 | bg=theme0 fg=theme1
+F66 | 'DB side raises + Copenhagen plank :50 sec each side' | bg=theme0 fg=theme1
+D67 | 1.0 | bg=theme0 fg=theme1
+F67 | '50 situps + 50 crunches + 50 reverse crunches' | bg=theme0 fg=theme1

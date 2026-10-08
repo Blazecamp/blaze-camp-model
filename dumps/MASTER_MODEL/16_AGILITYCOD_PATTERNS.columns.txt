@@ -1,0 +1,21 @@
+SHEET: 'AGILITYCOD PATTERNS' - COLUMN-MAJOR VIEW (each column top to bottom)
+
+=== COLUMN A (5 cells) ===
+  r1: 'Change of Direction '  [fg=theme1]
+  r5: 'HOPS IN PLACE'  [fg=theme1]
+  r7: 'KRUMRIE FORMATION'  [fg=theme1]
+  r12: 'RUNNING ROUTES'  [fg=theme1]
+  r14: 'ROUTE TREE'  [fg=theme1]
+
+=== COLUMN C (1 cells) ===
+  r7: 'MUNOZ FORMATION'  [fg=theme1]
+
+=== COLUMN D (2 cells) ===
+  r1: 'Agility: Reactive in nature - Incognitive Competence'  [fg=theme1]
+  r2: 'COD: Proactive in nature - Cognitive Competence'  [fg=theme1]
+
+=== COLUMN E (1 cells) ===
+  r7: 'EIGHT SQUARE PLYOMETRIC FORMATION'  [fg=theme1]
+
+=== COLUMN H (1 cells) ===
+  r7: 'FOUR SQUARE FORMATION'  [fg=theme1]

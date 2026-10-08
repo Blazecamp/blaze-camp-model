@@ -1,0 +1,240 @@
+{
+ "_doc": "v1: re-read the coach's written athletic work and split it by GROUND-CONTACT class.\n\nCoach rule (COACH-ANSWER ATH-01 / CAT-10): 'The longer they're on the ground, the less it is going to be plyo,\nso it's more of a ballistic movement.'  Programs start more ballistic and become more plyometric.\nPlyo method stages (CAT-10/11, unnamed by the coach, NOT a plyo zone): receive & pause -> receive then create ->\nrepeated receive/create.\n\nClasses used here (the keyword rules are INFERRED; the sets/reps are OBSERVED from the decode JSONs):\n  RECEIVE   = landing / stick drills (plyo method stage 1, 'receive and pause')\n  PLYO      = short-contact reactive work (fast stretch-shortening: hops, pogos, squirrel jumps, bounds, hurdle hops,\n              depth/drop jumps, repeated jumps, rope) - stage 2-3\n  BALLISTIC = long-contact or single-effort power: medball throws/slams, loaded or concentric jumps (DB / hex-bar /\n              squat jumps, box jumps, broad jumps, march jumps, step-up jumps)\nSprint and Olympic/triple-extension work are tracked separately and are not in the plyo:ballistic ratio.\nUnit = working sets (the generator's unit); throws per set and contacts per set are reported too.",
+ "mm_ath_starting": {
+  "BALLISTIC": {
+   "sets": 24.0,
+   "reps": 262
+  },
+  "BALLISTIC_jump": {
+   "sets": 5.0,
+   "reps": 52
+  },
+  "BALLISTIC_throw": {
+   "sets": 19.0,
+   "reps": 210
+  },
+  "PLYO": {
+   "sets": 12.0,
+   "reps": 142
+  },
+  "PLYO_high": {
+   "sets": 9.0,
+   "reps": 94
+  },
+  "PLYO_upper": {
+   "sets": 3.0,
+   "reps": 48
+  },
+  "plyo_side_pct_of_power_sets": 33,
+  "plyo_pct_of_create_sets": 33,
+  "ballistic_pct_of_create_sets": 67,
+  "receive_pct_of_all_power_sets": 0
+ },
+ "mm_ath_mid": {
+  "BALLISTIC": {
+   "sets": 46.0,
+   "reps": 455
+  },
+  "BALLISTIC_jump": {
+   "sets": 6.0,
+   "reps": 55
+  },
+  "BALLISTIC_throw": {
+   "sets": 40.0,
+   "reps": 400
+  },
+  "PLYO": {
+   "sets": 2.0,
+   "reps": 120
+  },
+  "PLYO_low": {
+   "sets": 2.0,
+   "reps": 120
+  },
+  "RECEIVE": {
+   "sets": 2.0,
+   "reps": 16
+  },
+  "plyo_side_pct_of_power_sets": 8,
+  "plyo_pct_of_create_sets": 4,
+  "ballistic_pct_of_create_sets": 96,
+  "receive_pct_of_all_power_sets": 4
+ },
+ "mm_ath_advanced": {
+  "BALLISTIC": {
+   "sets": 39.0,
+   "reps": 444
+  },
+  "BALLISTIC_jump": {
+   "sets": 1.0,
+   "reps": 24
+  },
+  "BALLISTIC_throw": {
+   "sets": 38.0,
+   "reps": 420
+  },
+  "PLYO": {
+   "sets": 3.0,
+   "reps": 100
+  },
+  "PLYO_low": {
+   "sets": 3.0,
+   "reps": 100
+  },
+  "RECEIVE": {
+   "sets": 1.0,
+   "reps": 8
+  },
+  "plyo_side_pct_of_power_sets": 9,
+  "plyo_pct_of_create_sets": 7,
+  "ballistic_pct_of_create_sets": 93,
+  "receive_pct_of_all_power_sets": 2
+ },
+ "boxing_wk3_6_mean": {
+  "BALLISTIC": {
+   "sets": 47.0,
+   "reps": 446
+  },
+  "BALLISTIC_jump": {
+   "sets": 9.0,
+   "reps": 66
+  },
+  "BALLISTIC_throw": {
+   "sets": 38.0,
+   "reps": 380
+  },
+  "PLYO": {
+   "sets": 17.0,
+   "reps": 1258
+  },
+  "PLYO_high": {
+   "sets": 5.0,
+   "reps": 31
+  },
+  "PLYO_low": {
+   "sets": 12.0,
+   "reps": 1227
+  },
+  "RECEIVE": {
+   "sets": 3.0,
+   "reps": 24
+  },
+  "plyo_side_pct_of_power_sets": 30,
+  "plyo_pct_of_create_sets": 27,
+  "ballistic_pct_of_create_sets": 73,
+  "receive_pct_of_all_power_sets": 4
+ },
+ "baseball_B1": {
+  "BALLISTIC": {
+   "sets": 12.6,
+   "reps": 229
+  },
+  "BALLISTIC_jump": {
+   "sets": 3.9,
+   "reps": 51
+  },
+  "BALLISTIC_throw": {
+   "sets": 8.7,
+   "reps": 178
+  },
+  "PLYO": {
+   "sets": 8.6,
+   "reps": 142
+  },
+  "PLYO_high": {
+   "sets": 2.9,
+   "reps": 37
+  },
+  "PLYO_low": {
+   "sets": 4.9,
+   "reps": 97
+  },
+  "PLYO_upper": {
+   "sets": 0.9,
+   "reps": 9
+  },
+  "RECEIVE": {
+   "sets": 1.4,
+   "reps": 17
+  },
+  "plyo_side_pct_of_power_sets": 44,
+  "plyo_pct_of_create_sets": 41,
+  "ballistic_pct_of_create_sets": 59,
+  "receive_pct_of_all_power_sets": 6,
+  "weeks": 7
+ },
+ "baseball_B2": {
+  "BALLISTIC": {
+   "sets": 21.3,
+   "reps": 280
+  },
+  "BALLISTIC_jump": {
+   "sets": 10.0,
+   "reps": 87
+  },
+  "BALLISTIC_throw": {
+   "sets": 11.3,
+   "reps": 192
+  },
+  "PLYO": {
+   "sets": 11.0,
+   "reps": 140
+  },
+  "PLYO_high": {
+   "sets": 5.4,
+   "reps": 58
+  },
+  "PLYO_low": {
+   "sets": 5.6,
+   "reps": 82
+  },
+  "RECEIVE": {
+   "sets": 0.9,
+   "reps": 13
+  },
+  "plyo_side_pct_of_power_sets": 36,
+  "plyo_pct_of_create_sets": 34,
+  "ballistic_pct_of_create_sets": 66,
+  "receive_pct_of_all_power_sets": 3,
+  "weeks": 7
+ },
+ "baseball_B3": {
+  "BALLISTIC": {
+   "sets": 16.8,
+   "reps": 225
+  },
+  "BALLISTIC_jump": {
+   "sets": 5.1,
+   "reps": 49
+  },
+  "BALLISTIC_throw": {
+   "sets": 11.6,
+   "reps": 176
+  },
+  "PLYO": {
+   "sets": 11.2,
+   "reps": 151
+  },
+  "PLYO_high": {
+   "sets": 6.2,
+   "reps": 74
+  },
+  "PLYO_low": {
+   "sets": 3.9,
+   "reps": 66
+  },
+  "PLYO_upper": {
+   "sets": 1.1,
+   "reps": 11
+  },
+  "RECEIVE": {
+   "sets": 2.1,
+   "reps": 20
+  },
+  "plyo_side_pct_of_power_sets": 44,
+  "plyo_pct_of_create_sets": 40,
+  "ballistic_pct_of_create_sets": 60,
+  "receive_pct_of_all_power_sets": 7,
+  "weeks": 8
+ }
+}

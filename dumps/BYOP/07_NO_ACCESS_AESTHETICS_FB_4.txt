@@ -1,0 +1,317 @@
+SHEET: 'NO ACCESS - AESTHETICS - FB - 4'
+DIMENSIONS: A1:AA998  max_row=998 max_col=27
+NON-EMPTY CELLS: 289
+MERGED (32): F45:F51, B10:B16, K31:K37, A3:A9, A17:A23, B38:B44, H45:H51, K17:K23, J45:J51, A1:K1, E45:E51, G45:G51, K38:K44, B24:B30, A38:A44, K3:K9, A10:A16, A59:A65, K10:K16, B45:B51, K24:K30, A52:A58, A24:A30, A31:A37, B3:B9, B31:B37, A45:A51, C45:C51, I45:I51, K45:K51, B17:B23, D45:D51
+DATA VALIDATIONS (dropdown sources):
+  E12 E33 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AR$7:$AR$42"
+  G3:G16 G18 G20:G22 G24:G37 G39 G41:G43 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AW$7:$AW$42"
+  E5 E26 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$X$7:$X$162"
+  E7 E28 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$U$7:$U$122"
+  E19 E40 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$B$7:$B$122"
+  E13 E34 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AA$7:$AA$122"
+  E9 E30 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AM$7:$AM$9"
+  E16 E37 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AH$7:$AH$42"
+  E8 E29 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AS$7:$AS$42"
+  E3 E18 E24 E39 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AU$7:$AU$13"
+  J3:J16 J18 J20:J22 J24:J37 J39 J41:J43 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AY$7:$AY$42"
+  E14 E35 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AR$7:$AR$10"
+  I3:I16 I18:I22 I24:I37 I39:I43 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AX$7:$AX$42"
+  E6 E27 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AL$7:$AL$42"
+  E4 E25 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AI$7:$AI$122"
+  E21:E22 E42:E43 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335"
+  E11 E32 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AD$7:$AD$162"
+  E20 E41 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$O$7:$O$283"
+  E15 E36 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AT$7:$AT$42"
+  E10 E31 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AN$7:$AN$122"
+  F3:F16 F18:F22 F24:F37 F39:F43 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AV$7:$AV$42"
+
+CELLS (row-major; coord | value | formatting):
+A2 | 'WEEK' | bold fg=theme1
+B2 | 'DAY' | bold fg=theme1
+C2 | 'PURPOSE' | bold fg=theme1
+D2 | 'CATEGORY' | bold fg=theme1
+E2 | 'EXERCISE' | bold fg=theme1
+F2 | 'SETS' | bold fg=theme1
+G2 | 'REPS' | bold fg=theme1
+H2 | 'WEIGHT USED or SCORE' | bold fg=theme1
+I2 | 'EFFORT' | bold fg=theme1
+J2 | 'HOW IT FELT?' | bold fg=theme1
+K2 | 'DONE?' | bold fg=theme1
+A3 | 'WEEK 1' | bg=CFE2F3 bold fg=theme1
+B3 | 'MONDAY' | bg=EFEFEF bold fg=theme1
+C3 | 'Calves' | bg=EFEFEF fg=theme1
+D3 | 'Calves' | bg=EFEFEF fg=theme1
+E3 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+F3 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G3 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I3 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J3 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+K3 | False | bg=CFE2F3 bold fg=theme1
+C4 | 'Quads' | bg=EFEFEF fg=theme1
+D4 | 'Bilateral KD' | bg=EFEFEF fg=theme1
+E4 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+F4 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G4 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I4 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J4 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C5 | 'Back' | bg=EFEFEF fg=theme1
+D5 | 'Horizontal Pull' | bg=EFEFEF fg=theme1
+E5 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+F5 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G5 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I5 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J5 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C6 | 'Quads/Glutes' | bg=EFEFEF fg=theme1
+D6 | 'Unilateral KD' | bg=EFEFEF fg=theme1
+E6 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+F6 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G6 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I6 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J6 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C7 | 'Back ' | bg=EFEFEF fg=theme1
+D7 | 'Vertical Pull' | bg=EFEFEF fg=theme1
+E7 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+F7 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G7 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I7 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J7 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C8 | 'Bicep' | bg=EFEFEF fg=theme1
+D8 | 'Bicep' | bg=EFEFEF fg=theme1
+E8 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+F8 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G8 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I8 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J8 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C9 | 'Quads' | bg=EFEFEF fg=theme1
+D9 | 'Leg Extensions' | bg=EFEFEF fg=theme1
+E9 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+F9 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G9 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I9 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J9 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+A10 | 'WEEK 1' | bg=CFE2F3 bold fg=theme1
+B10 | 'TUESDAY' | bg=CCCCCC bold fg=theme1
+C10 | 'Hamstring' | bg=CCCCCC fg=theme1
+D10 | 'Bilateral HD' | bg=CCCCCC fg=theme1
+E10 | 'CHOOSE 👇' | bg=CCCCCC fg=theme1
+F10 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G10 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I10 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J10 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+K10 | False | bg=CFE2F3 bold fg=theme1
+C11 | 'Chest' | bg=CCCCCC fg=theme1
+D11 | 'Horizontal Push' | bg=CCCCCC fg=theme1
+E11 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F11 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G11 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I11 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J11 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C12 | 'Hamstring/Glutes' | bg=CCCCCC fg=theme1
+D12 | 'Unilateral HD' | bg=CCCCCC fg=theme1
+E12 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F12 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G12 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I12 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J12 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C13 | 'Chest/Shoulders' | bg=CCCCCC fg=theme1
+D13 | 'Vertical Push' | bg=CCCCCC fg=theme1
+E13 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F13 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G13 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I13 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J13 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C14 | 'Hamstrings' | bg=CCCCCC fg=theme1
+D14 | 'Leg Curls' | bg=CCCCCC fg=theme1
+E14 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F14 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G14 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I14 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J14 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C15 | 'Tricep' | bg=CCCCCC fg=theme1
+E15 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F15 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G15 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I15 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J15 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C16 | 'Shoulders/Traps' | bg=CCCCCC fg=theme1
+D16 | 'ABdution' | bg=CCCCCC fg=theme1
+E16 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F16 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G16 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I16 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J16 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+A17 | 'WEEK 1' | bg=CFE2F3 bold fg=theme1
+B17 | 'WEDNESDAY' | bg=FCE5CD bold fg=theme1
+K17 | False | bg=CFE2F3 bold fg=theme1
+C18 | 'Calves' | bg=FCE5CD fg=theme1
+E18 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F18 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G18 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I18 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J18 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C19 | 'Cardio' | bg=FCE5CD fg=theme1
+E19 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F19 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I19 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C20 | 'Core' | bg=FCE5CD fg=theme1
+E20 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F20 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G20 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I20 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J20 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C21 | 'Focus 1' | bg=FCE5CD fg=theme1
+E21 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F21 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G21 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I21 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J21 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C22 | 'Focus 2' | bg=FCE5CD fg=theme1
+E22 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F22 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G22 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I22 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J22 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+A24 | 'WEEK 1' | bg=CFE2F3 bold fg=theme1
+B24 | 'THURSDAY' | bg=EFEFEF bold fg=theme1
+C24 | 'Calves' | bg=EFEFEF fg=theme1
+D24 | 'Calves' | bg=EFEFEF fg=theme1
+E24 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+F24 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G24 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I24 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J24 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+K24 | False | bg=CFE2F3 bold fg=theme1
+C25 | 'Quads' | bg=EFEFEF fg=theme1
+D25 | 'Bilateral KD' | bg=EFEFEF fg=theme1
+E25 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F25 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G25 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I25 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J25 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C26 | 'Back' | bg=EFEFEF fg=theme1
+D26 | 'Horizontal Pull' | bg=EFEFEF fg=theme1
+E26 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F26 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G26 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I26 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J26 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C27 | 'Quads/Glutes' | bg=EFEFEF fg=theme1
+D27 | 'Unilateral KD' | bg=EFEFEF fg=theme1
+E27 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F27 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G27 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I27 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J27 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C28 | 'Back ' | bg=EFEFEF fg=theme1
+D28 | 'Vertical Pull' | bg=EFEFEF fg=theme1
+E28 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F28 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G28 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I28 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J28 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C29 | 'Bicep' | bg=EFEFEF fg=theme1
+D29 | 'Bicep' | bg=EFEFEF fg=theme1
+E29 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F29 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G29 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I29 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J29 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C30 | 'Quads' | bg=EFEFEF fg=theme1
+D30 | 'Leg Extensions' | bg=EFEFEF fg=theme1
+E30 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+F30 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G30 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I30 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J30 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+A31 | 'WEEK 1' | bg=CFE2F3 bold fg=theme1
+B31 | 'FRIDAY' | bg=CCCCCC bold fg=theme1
+C31 | 'Hamstring' | bg=CCCCCC fg=theme1
+D31 | 'Bilateral HD' | bg=CCCCCC fg=theme1
+E31 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F31 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G31 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I31 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J31 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+K31 | False | bg=CFE2F3 bold fg=theme1
+C32 | 'Chest' | bg=CCCCCC fg=theme1
+D32 | 'Horizontal Push' | bg=CCCCCC fg=theme1
+E32 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F32 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G32 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I32 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J32 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C33 | 'Hamstring/Glutes' | bg=CCCCCC fg=theme1
+D33 | 'Unilateral HD' | bg=CCCCCC fg=theme1
+E33 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F33 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G33 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I33 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J33 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C34 | 'Chest/Shoulders' | bg=CCCCCC fg=theme1
+D34 | 'Vertical Push' | bg=CCCCCC fg=theme1
+E34 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F34 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G34 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I34 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J34 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C35 | 'Hamstrings' | bg=CCCCCC fg=theme1
+D35 | 'Leg Curls' | bg=CCCCCC fg=theme1
+E35 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F35 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G35 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I35 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J35 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C36 | 'Tricep' | bg=CCCCCC fg=theme1
+E36 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F36 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G36 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I36 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J36 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C37 | 'Shoulders/Traps' | bg=CCCCCC fg=theme1
+D37 | 'ABdution' | bg=CCCCCC fg=theme1
+E37 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F37 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G37 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I37 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J37 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+A38 | 'WEEK 1' | bg=CFE2F3 bold fg=theme1
+B38 | 'SATURDAY' | bg=FCE5CD bold fg=theme1
+K38 | False | bg=CFE2F3 bold fg=theme1
+C39 | 'Calves' | bg=FCE5CD fg=theme1
+E39 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+F39 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G39 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I39 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J39 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C40 | 'Cardio' | bg=FCE5CD fg=theme1
+E40 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+F40 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I40 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C41 | 'Core' | bg=FCE5CD fg=theme1
+E41 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+F41 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G41 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I41 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J41 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C42 | 'Focus 1' | bg=FCE5CD fg=theme1
+E42 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+F42 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G42 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I42 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J42 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C43 | 'Focus 2' | bg=FCE5CD fg=theme1
+E43 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+F43 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G43 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I43 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J43 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+A45 | 'WEEK 1' | bg=CFE2F3 bold fg=theme1
+B45 | 'SUNDAY' | bg=F4CCCC bold fg=theme1
+C45 | 'OFF' | bg=F4CCCC fg=theme1
+E45 | 'OFF' | bg=F4CCCC fg=theme1
+F45 | 'OFF' | bg=F4CCCC fg=theme1
+G45 | 'OFF' | bg=F4CCCC fg=theme1
+H45 | 'OFF' | bg=F4CCCC fg=theme1
+I45 | 'OFF' | bg=F4CCCC fg=theme1
+J45 | 'OFF' | bg=F4CCCC fg=theme1
+K45 | 'OFF' | bg=F4CCCC fg=theme1

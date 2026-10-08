@@ -1,0 +1,3670 @@
+SHEET: 'Copy of BASEBALL'
+DIMENSIONS: A1:EL1016  max_row=1016 max_col=142
+NON-EMPTY CELLS: 3630
+MERGED (25): AQ62:AS62, AT60:BJ60, N60:N75, CV61:CY61, DD61:DG61, DU43:DV43, BX62:CA62, AN62:AP62, DL60:DL76, AF60:AF75, DH61:DK61, DU42:DV42, AG60:AS60, A60:M60, BK62:BO62, CZ61:DC61, BP62:BS62, AH62:AJ62, BT62:BW62, BK60:BL60, O60:AE60, AK62:AM62, CB60:CB76, CT60:CT75, AU61:AV61
+DATA VALIDATIONS (dropdown sources):
+HYPERLINKS:
+  BG28 -> https://youtu.be/L_2tMNItxmA
+  BU28 -> https://youtu.be/Wiai414wTrA
+  BY28 -> https://youtu.be/dmx8roGpwDI
+  AK29 -> https://youtu.be/af3Qy82vjRg
+  DW29 -> https://youtu.be/Z6tT500Jw7s
+  EA29 -> https://youtu.be/Z6tT500Jw7s
+  EE29 -> https://youtu.be/Z6tT500Jw7s
+  EI29 -> https://youtu.be/Z6tT500Jw7s
+  BC30 -> https://youtu.be/bC1zR8DVVAc
+  BG30 -> https://youtu.be/L1rt7qr5LCk
+  BK30 -> https://youtu.be/VpEcj96HO4k
+  CU31 -> https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share
+  DI31 -> https://youtu.be/rbemelnkHag
+  DW31 -> https://youtu.be/B4kRyoWzi7A
+  EE31 -> https://youtu.be/B4kRyoWzi7A
+  BO34 -> https://youtu.be/p7njQa7-WLI
+  BO38 -> https://youtu.be/hOlO2wO-6dk
+  AA46 -> https://youtu.be/L_2tMNItxmA
+  AS46 -> https://youtu.be/dmx8roGpwDI
+  W48 -> https://youtu.be/bC1zR8DVVAc
+  AA48 -> https://youtu.be/L1rt7qr5LCk
+  AE48 -> https://youtu.be/VpEcj96HO4k
+  BO49 -> https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share
+  CC49 -> https://youtu.be/rbemelnkHag
+  AI52 -> https://youtu.be/p7njQa7-WLI
+  DZ52 -> https://www.youtube.com/watch?v=cRU0RQ1KTfg
+  CQ55 -> https://www.youtube.com/watch?v=cRU0RQ1KTfg
+  AI56 -> https://youtu.be/hOlO2wO-6dk
+  DY65 -> https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share
+  CO66 -> https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share
+  BB67 -> https://www.youtube.com/watch?v=Zko5x2SoQmo
+  BB72 -> https://www.youtube.com/watch?v=pjIq2m9XsVE
+
+CELLS (row-major; coord | value | formatting):
+A4 | 'JANUARY ' | fg=theme1
+B4 | 'MARCH' | fg=theme1
+C4 | 'APRIL' | fg=theme1
+D4 | 'MAY' | fg=theme1
+E4 | 'JUNE' | fg=theme1
+F4 | 'JULY' | fg=theme1
+G4 | 'AUGUST' | fg=theme1
+H4 | 'SEPTEMBER' | fg=theme1
+I4 | 'OCTOBER' | fg=theme1
+J4 | 'NOVEMBER' | fg=theme1
+K4 | 'DECEMBER' | fg=theme1
+F5 | 'SOFT SEASON' | fg=theme1
+G5 | 'SOFT SEASON' | fg=theme1
+H5 | 'SOFT SEASON' | fg=theme1
+A6 | 'PRE SEASON' | fg=theme1
+B6 | 'IN SEASON' | fg=theme1
+C6 | 'IN SEASON' | fg=theme1
+D6 | 'PLAYOFFS' | fg=theme1
+E6 | 'POST SEASON' | fg=theme1
+F6 | 'OFF SEASON' | fg=theme1
+G6 | 'OFF SEASON' | fg=theme1
+H6 | 'OFF SEASON' | fg=theme1
+I6 | 'SOFT SEASON' | fg=theme1
+J6 | 'SOFT SEASON' | fg=theme1
+K6 | 'OFF SEASON' | fg=theme1
+A8 | 'WK 1' | fg=theme1
+B8 | 'WK 3' | fg=theme1
+C8 | 'WK 4' | fg=theme1
+D8 | 'WK 5' | fg=theme1
+E8 | 'WK 6' | fg=theme1
+F8 | 'WK 7' | fg=theme1
+G8 | 'WK 8' | fg=theme1
+H8 | 'WK 9' | fg=theme1
+I8 | 'WK 10' | fg=theme1
+J8 | 'WK 11' | fg=theme1
+K8 | 'WK 12' | fg=theme1
+L8 | 'WK 13' | fg=theme1
+M8 | 'WK 14' | fg=theme1
+N8 | 'WK 15' | fg=theme1
+O8 | 'WK 16' | fg=theme1
+Q8 | 'WK 17' | fg=theme1
+R8 | 'WK 18' | fg=theme1
+S8 | 'WK 19' | fg=theme1
+U8 | 'WK 20' | fg=theme1
+V8 | 'WK 21' | fg=theme1
+W8 | 'WK 22' | fg=theme1
+Y8 | 'WK 23' | fg=theme1
+Z8 | 'WK 24' | fg=theme1
+AA8 | 'WK 25' | fg=theme1
+AC8 | 'WK 26' | fg=theme1
+AD8 | 'WK 27' | fg=theme1
+AE8 | 'WK 28' | fg=theme1
+AF8 | 'WK 29' | fg=theme1
+AG8 | 'WK 30' | fg=theme1
+AH8 | 'WK 31' | fg=theme1
+AI8 | 'WK 32' | fg=theme1
+AJ8 | 'WK 33' | fg=theme1
+AK8 | 'WK 34' | fg=theme1
+AL8 | 'WK 35' | fg=theme1
+AM8 | 'WK 36' | fg=theme1
+AN8 | 'WK 37' | fg=theme1
+AO8 | 'WK 38' | fg=theme1
+AP8 | 'WK 39' | fg=theme1
+AQ8 | 'WK 40' | fg=theme1
+AR8 | 'WK 41' | fg=theme1
+AS8 | 'WK 42' | fg=theme1
+AT8 | 'WK 43' | fg=theme1
+AU8 | 'WK 44' | fg=theme1
+AV8 | 'WK 45' | fg=theme1
+AW8 | 'WK 46' | fg=theme1
+AX8 | 'WK 47' | fg=theme1
+AY8 | 'WK 48' | fg=theme1
+AZ8 | 'WK 49' | fg=theme1
+BA8 | 'WK 50' | fg=theme1
+BB8 | 'WK 51' | fg=theme1
+BC8 | 'WK 52' | fg=theme1
+A9 | 'PRE SEASON' | fg=theme1
+B9 | 'PRE SEASON' | fg=theme1
+C9 | 'PRE SEASON' | fg=theme1
+D9 | 'PRE SEASON' | fg=theme1
+E9 | 'PRE SEASON' | fg=theme1
+F9 | 'IN SEASON' | fg=theme1
+G9 | 'IN SEASON' | fg=theme1
+H9 | 'IN SEASON' | fg=theme1
+I9 | 'IN SEASON' | fg=theme1
+J9 | 'IN SEASON' | fg=theme1
+K9 | 'IN SEASON' | fg=theme1
+L9 | 'IN SEASON' | fg=theme1
+M9 | 'IN SEASON' | fg=theme1
+N9 | 'IN SEASON' | fg=theme1
+O9 | 'IN SEASON' | fg=theme1
+Q9 | 'IN SEASON' | fg=theme1
+R9 | 'IN SEASON' | fg=theme1
+S9 | 'OFF SEASON' | fg=theme1
+U9 | 'OFF SEASON' | fg=theme1
+V9 | 'OFF SEASON' | fg=theme1
+W9 | 'OFF SEASON' | fg=theme1
+Y9 | 'OFF SEASON' | fg=theme1
+Z9 | 'OFF SEASON' | fg=theme1
+AA9 | 'OFF SEASON' | fg=theme1
+AC9 | 'OFF SEASON' | fg=theme1
+AD9 | 'OFF SEASON' | fg=theme1
+AE9 | 'OFF SEASON' | fg=theme1
+AF9 | 'OFF SEASON' | fg=theme1
+AG9 | 'OFF SEASON' | fg=theme1
+AH9 | 'OFF SEASON' | fg=theme1
+AI9 | 'OFF SEASON' | fg=theme1
+AJ9 | 'OFF SEASON' | fg=theme1
+AK9 | 'OFF SEASON' | fg=theme1
+AL9 | 'OFF SEASON' | fg=theme1
+AM9 | 'OFF SEASON' | fg=theme1
+AN9 | 'FALL BALL' | fg=theme1
+AO9 | 'FALL BALL' | fg=theme1
+AP9 | 'FALL BALL' | fg=theme1
+AQ9 | 'FALL BALL' | fg=theme1
+AR9 | 'FALL BALL' | fg=theme1
+AS9 | 'FALL BALL' | fg=theme1
+AT9 | 'FALL BALL' | fg=theme1
+AU9 | 'FALL BALL' | fg=theme1
+AV9 | 'FALL BALL' | fg=theme1
+AW9 | 'FALL BALL' | fg=theme1
+AX9 | 'FALL BALL' | fg=theme1
+AY9 | 'FALL BALL' | fg=theme1
+AZ9 | 'FALL BALL' | fg=theme1
+BA9 | 'FALL BALL' | fg=theme1
+BB9 | 'FALL BALL' | fg=theme1
+BC9 | 'FALL BALL' | fg=theme1
+AN10 | 'SOFT SEASON' | fg=theme1
+AO10 | 'SOFT SEASON' | fg=theme1
+AP10 | 'SOFT SEASON' | fg=theme1
+AQ10 | 'SOFT SEASON' | fg=theme1
+AR10 | 'SOFT SEASON' | fg=theme1
+AS10 | 'SOFT SEASON' | fg=theme1
+AT10 | 'SOFT SEASON' | fg=theme1
+AU10 | 'SOFT SEASON' | fg=theme1
+AV10 | 'SOFT SEASON' | fg=theme1
+AW10 | 'SOFT SEASON' | fg=theme1
+AX10 | 'SOFT SEASON' | fg=theme1
+AY10 | 'SOFT SEASON' | fg=theme1
+AZ10 | 'SOFT SEASON' | fg=theme1
+BA10 | 'SOFT SEASON' | fg=theme1
+BB10 | 'SOFT SEASON' | fg=theme1
+BC10 | 'SOFT SEASON' | fg=theme1
+A13 | 'OFF SEASON' | fg=theme1
+B13 | 'SOFT SEASON' | fg=theme1
+C13 | 'IN SEASON' | fg=theme1
+D13 | 'IN SEASON' | fg=theme1
+E13 | 'IN SEASON' | fg=theme1
+F13 | 'IN SEASON' | fg=theme1
+G13 | 'IN SEASON' | fg=theme1
+H13 | 'IN SEASON' | fg=theme1
+I13 | 'POST SEASON' | fg=theme1
+J13 | 'OFF SEASON' | fg=theme1
+K13 | 'OFF SEASON' | fg=theme1
+A16 | 'SOFT OFF SEASON' | fg=theme1
+B16 | 'OFF SEASON' | fg=theme1
+C16 | 'OFF SEASON' | fg=theme1
+D16 | 'OFF SEASON' | fg=theme1
+E16 | 'PITCHERS/CATCHERS' | fg=theme1
+F16 | 'POSITIONS' | fg=theme1
+G16 | 'IN SEASON' | fg=theme1
+H16 | 'IN SEASON' | fg=theme1
+I16 | 'IN SEASON' | fg=theme1
+J16 | 'IN SEASON' | fg=theme1
+K16 | 'IN SEASON' | fg=theme1
+L16 | 'IN SEASON' | fg=theme1
+M16 | 'IN SEASON' | fg=theme1
+N16 | 'IN SEASON' | fg=theme1
+O16 | 'IN SEASON' | fg=theme1
+Q16 | 'IN SEASON' | fg=theme1
+R16 | 'IN SEASON' | fg=theme1
+S16 | 'IN SEASON' | fg=theme1
+U16 | 'IN SEASON' | fg=theme1
+V16 | 'IN SEASON' | fg=theme1
+W16 | 'IN SEASON' | fg=theme1
+Y16 | 'IN SEASON' | fg=theme1
+Z16 | 'IN SEASON' | fg=theme1
+AA16 | 'IN SEASON' | fg=theme1
+AC16 | 'IN SEASON' | fg=theme1
+AD16 | 'IN SEASON' | fg=theme1
+AE16 | 'IN SEASON' | fg=theme1
+AF16 | 'IN SEASON' | fg=theme1
+AG16 | 'IN SEASON' | fg=theme1
+AH16 | 'IN SEASON' | fg=theme1
+AI16 | 'IN SEASON' | fg=theme1
+AJ16 | 'IN SEASON' | fg=theme1
+AK16 | 'IN SEASON' | fg=theme1
+AL16 | 'IN SEASON' | fg=theme1
+AM16 | 'IN SEASON' | fg=theme1
+AN16 | 'IN SEASON' | fg=theme1
+AO16 | 'IN SEASON' | fg=theme1
+AP16 | 'IN SEASON' | fg=theme1
+AQ16 | 'IN SEASON' | fg=theme1
+AR16 | 'OFF' | fg=theme1
+AS16 | 'OFF' | fg=theme1
+AT16 | 'POST SEASON' | fg=theme1
+AU16 | 'POST SEASON' | fg=theme1
+AV16 | 'OFF SEASON' | fg=theme1
+AW16 | 'OFF SEASON' | fg=theme1
+AX16 | 'OFF SEASON' | fg=theme1
+AY16 | 'OFF SEASON' | fg=theme1
+AZ16 | 'OFF SEASON' | fg=theme1
+BA16 | 'PEAK' | fg=theme1
+BB16 | 'DELOAD' | fg=theme1
+BC16 | 'DELOAD' | fg=theme1
+A17 | 'WK 1' | fg=theme1
+B17 | 'WK 3' | fg=theme1
+C17 | 'WK 4' | fg=theme1
+D17 | 'WK 5' | fg=theme1
+E17 | 'WK 6' | fg=theme1
+F17 | 'WK 7' | fg=theme1
+G17 | 'WK 8' | fg=theme1
+H17 | 'WK 9' | fg=theme1
+I17 | 'WK 10' | fg=theme1
+J17 | 'WK 11' | fg=theme1
+K17 | 'WK 12' | fg=theme1
+L17 | 'WK 13' | fg=theme1
+M17 | 'WK 14' | fg=theme1
+N17 | 'WK 15' | fg=theme1
+O17 | 'WK 16' | fg=theme1
+Q17 | 'WK 17' | fg=theme1
+R17 | 'WK 18' | fg=theme1
+S17 | 'WK 19' | fg=theme1
+U17 | 'WK 20' | fg=theme1
+V17 | 'WK 21' | fg=theme1
+W17 | 'WK 22' | fg=theme1
+Y17 | 'WK 23' | fg=theme1
+Z17 | 'WK 24' | fg=theme1
+AA17 | 'WK 25' | fg=theme1
+AC17 | 'WK 26' | fg=theme1
+AD17 | 'WK 27' | fg=theme1
+AE17 | 'WK 28' | fg=theme1
+AF17 | 'WK 29' | fg=theme1
+AG17 | 'WK 30' | fg=theme1
+AH17 | 'WK 31' | fg=theme1
+AI17 | 'WK 32' | fg=theme1
+AJ17 | 'WK 33' | fg=theme1
+AK17 | 'WK 34' | fg=theme1
+AL17 | 'WK 35' | fg=theme1
+AM17 | 'WK 36' | fg=theme1
+AN17 | 'WK 37' | fg=theme1
+AO17 | 'WK 38' | fg=theme1
+AP17 | 'WK 39' | fg=theme1
+AQ17 | 'WK 40' | fg=theme1
+AR17 | 'WK 41' | fg=theme1
+AS17 | 'WK 42' | fg=theme1
+AT17 | 'WK 43' | fg=theme1
+AU17 | 'WK 44' | fg=theme1
+AV17 | 'WK 45' | fg=theme1
+AW17 | 'WK 46' | fg=theme1
+AX17 | 'WK 47' | fg=theme1
+AY17 | 'WK 48' | fg=theme1
+AZ17 | 'WK 49' | fg=theme1
+BA17 | 'WK 50' | fg=theme1
+BB17 | 'WK 51' | fg=theme1
+BC17 | 'WK 52' | fg=theme1
+A19 | 'RESISTANCE PATTERNS' | fg=theme1
+B19 | 'COMPOUND' | fg=theme1
+C19 | 'SMALLER ISOLATIONS' | fg=theme1
+E19 | 'ATHLETIC PATTERNS' | fg=theme1
+A20 | 'VOL 1' | fg=theme1
+B20 | '12-15 Reps' | fg=theme1
+C20 | '10-12 Reps' | fg=theme1
+E20 | 'SPEED ENDURANCE' | fg=theme1
+F20 | '>40 Secs' | fg=theme1
+A21 | 'VOL 2' | fg=theme1
+B21 | '8-12 Reps' | fg=theme1
+C21 | '15 REPS' | fg=theme1
+E21 | 'SPEED POWER' | fg=theme1
+F21 | '10-39 Secs' | fg=theme1
+A22 | 'VOL 3' | fg=theme1
+B22 | '6-8 Reps' | fg=theme1
+C22 | 'MAX REPS' | fg=theme1
+E22 | 'SPEED STRENGTH & POWER' | fg=theme1
+F22 | '0-12 Secs' | fg=theme1
+O22 | 'WK 2' | fg=theme1
+AG22 | 'wk 3' | fg=theme1
+AY22 | 'wk 4' | fg=theme1
+BQ22 | 'wk 5' | fg=theme1
+A24 | 'BLOCK 1' | bg=EA9999 fg=theme1
+A25 | 'Week 1' | fg=theme1
+CI25 | 'wk 6' | fg=theme1
+DA25 | 'wk 7' | fg=theme1
+DS25 | 'wk 8' | fg=theme1
+B26 | 'MONDAY' | bg=F3F3F3 fg=theme1
+E26 | 'TUESDAY' | fg=theme1
+H26 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+K26 | 'FRIDAY' | fg=theme1
+Q26 | 'MONDAY' | bg=F3F3F3 fg=theme1
+U26 | 'TUESDAY' | fg=theme1
+Y26 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+AC26 | 'FRIDAY' | fg=theme1
+AI26 | 'MONDAY' | bg=F3F3F3 fg=theme1
+AM26 | 'TUESDAY' | fg=theme1
+AQ26 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+AU26 | 'FRIDAY' | fg=theme1
+BA26 | 'MONDAY' | bg=F3F3F3 fg=theme1
+BE26 | 'TUESDAY' | fg=theme1
+BI26 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+BM26 | 'FRIDAY' | fg=theme1
+BS26 | 'MONDAY' | bg=F3F3F3 fg=theme1
+BW26 | 'TUESDAY' | fg=theme1
+CA26 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+CE26 | 'FRIDAY' | fg=theme1
+B27 | 'Sets' | bg=F3F3F3 fg=theme1
+C27 | 'Reps' | bg=F3F3F3 fg=theme1
+D27 | 'Exercise' | bg=F3F3F3 fg=theme1
+E27 | 'Sets' | fg=theme1
+F27 | 'Reps' | fg=theme1
+H27 | 'Sets' | bg=F3F3F3 fg=theme1
+I27 | 'Reps' | bg=F3F3F3 fg=theme1
+J27 | 'Exercise' | bg=F3F3F3 fg=theme1
+K27 | 'Sets' | fg=theme1
+L27 | 'Reps' | fg=theme1
+Q27 | 'Sets' | bg=F3F3F3 fg=theme1
+R27 | 'Reps' | bg=F3F3F3 fg=theme1
+S27 | 'Exercise' | bg=F3F3F3 fg=theme1
+U27 | 'Sets' | fg=theme1
+V27 | 'Reps' | fg=theme1
+Y27 | 'Sets' | bg=F3F3F3 fg=theme1
+Z27 | 'Reps' | bg=F3F3F3 fg=theme1
+AA27 | 'Exercise' | bg=F3F3F3 fg=theme1
+AC27 | 'Sets' | fg=theme1
+AD27 | 'Reps' | fg=theme1
+AI27 | 'Sets' | bg=F3F3F3 fg=theme1
+AJ27 | 'Reps' | bg=F3F3F3 fg=theme1
+AK27 | 'Exercise' | bg=F3F3F3 fg=theme1
+AM27 | 'Sets' | fg=theme1
+AN27 | 'Reps' | fg=theme1
+AQ27 | 'Sets' | bg=F3F3F3 fg=theme1
+AR27 | 'Reps' | bg=F3F3F3 fg=theme1
+AS27 | 'Exercise' | bg=F3F3F3 fg=theme1
+AU27 | 'Sets' | fg=theme1
+AV27 | 'Reps' | fg=theme1
+BA27 | 'Sets' | bg=F3F3F3 fg=theme1
+BB27 | 'Reps' | bg=F3F3F3 fg=theme1
+BC27 | 'Exercise' | bg=F3F3F3 fg=theme1
+BE27 | 'Sets' | fg=theme1
+BF27 | 'Reps' | fg=theme1
+BI27 | 'Sets' | bg=F3F3F3 fg=theme1
+BJ27 | 'Reps' | bg=F3F3F3 fg=theme1
+BK27 | 'Exercise' | bg=F3F3F3 fg=theme1
+BM27 | 'Sets' | fg=theme1
+BN27 | 'Reps' | fg=theme1
+BS27 | 'Sets' | bg=F3F3F3 fg=theme1
+BT27 | 'Reps' | bg=F3F3F3 fg=theme1
+BU27 | 'Exercise' | bg=F3F3F3 fg=theme1
+BW27 | 'Sets' | fg=theme1
+BX27 | 'Reps' | fg=theme1
+CA27 | 'Sets' | bg=F3F3F3 fg=theme1
+CB27 | 'Reps' | bg=F3F3F3 fg=theme1
+CC27 | 'Exercise' | bg=F3F3F3 fg=theme1
+CE27 | 'Sets' | fg=theme1
+CF27 | 'Reps' | fg=theme1
+CK27 | 'MONDAY' | bg=F3F3F3 fg=theme1
+CO27 | 'TUESDAY' | fg=theme1
+CS27 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+CW27 | 'FRIDAY' | fg=theme1
+DC27 | 'MONDAY' | bg=F3F3F3 fg=theme1
+DG27 | 'TUESDAY' | fg=theme1
+DK27 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+DO27 | 'FRIDAY' | fg=theme1
+DU27 | 'MONDAY' | bg=F3F3F3 fg=theme1
+DY27 | 'TUESDAY' | fg=theme1
+EC27 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+EG27 | 'FRIDAY' | fg=theme1
+A28 | 'Part A' | fg=theme1
+B28 | 2.0 | bg=F3F3F3 fg=theme1
+C28 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+D28 | 'Med ball half kneeling rotationss in & step out' | bg=F3F3F3 fg=theme1
+E28 | 2.0 | fg=theme1
+F28 | 10.0 | fg=theme1
+G28 | 'Depth drop' | fg=theme1
+H28 | 2.0 | bg=F3F3F3 fg=theme1
+I28 | '15/15' | bg=F3F3F3 fg=theme1
+J28 | 'med ball rotational chest pass' | bg=F3F3F3 fg=theme1
+K28 | 2.0 | fg=theme1
+L28 | 10.0 | fg=theme1
+M28 | 'Hurdle hops single leg' | fg=theme1
+O28 | 'Part A' | fg=theme1
+P28 | 'Upper Ballistics/plyo' | fg=theme1
+Q28 | 2.0 | bg=F3F3F3 fg=theme1
+R28 | 20.0 | bg=F3F3F3 fg=theme1
+S28 | 'sit up to chest pass' | bg=F3F3F3 fg=theme1
+T28 | 'LOWER ballistics/plyo' | fg=theme1
+U28 | 2.0 | fg=theme1
+V28 | 10.0 | fg=theme1
+W28 | 'Depth drop - single leg' | fg=theme1
+X28 | 'Upper Ballistics/plyo' | fg=theme1
+Y28 | 3.0 | bg=F3F3F3 fg=theme1
+Z28 | '15/15' | bg=F3F3F3 fg=theme1
+AA28 | 'step forward chest pass' | bg=F3F3F3 fg=theme1
+AB28 | 'LOWER ballistics/plyo' | fg=theme1
+AC28 | 3.0 | fg=theme1
+AD28 | 10.0 | fg=theme1
+AE28 | 'single leg hops forward & back' | fg=theme1
+AG28 | 'Part A' | fg=theme1
+AH28 | 'Upper Ballistics/plyo' | fg=theme1
+AI28 | 2.0 | bg=F3F3F3 fg=theme1
+AJ28 | 20.0 | bg=F3F3F3 fg=theme1
+AK28 | 'overhead toss' | bg=F3F3F3 fg=theme1
+AL28 | 'LOWER ballistics/plyo' | fg=theme1
+AM28 | 2.0 | fg=theme1
+AN28 | 10.0 | fg=theme1
+AO28 | 'Sit to jump on to box' | fg=theme1
+AP28 | 'Upper Ballistics/plyo' | fg=theme1
+AQ28 | 3.0 | bg=F3F3F3 fg=theme1
+AR28 | 15.0 | bg=F3F3F3 fg=theme1
+AS28 | 'situp to overhead toss' | bg=F3F3F3 fg=theme1
+AT28 | 'LOWER ballistics/plyo' | fg=theme1
+AV28 | 'accumulate 2 minutes on each leg' | fg=theme1
+AW28 | 'single leg lateral hops side to side' | fg=theme1
+AY28 | 'Part A' | fg=theme1
+AZ28 | 'Upper Ballistics/plyo' | fg=theme1
+BA28 | 3.0 | bg=F3F3F3 fg=theme1
+BB28 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BC28 | 'Rotational chest pass' | bg=F3F3F3 fg=theme1
+BD28 | 'LOWER ballistics/plyo' | fg=theme1
+BE28 | 2.0 | fg=theme1
+BF28 | 10.0 | fg=theme1
+BG28 | 'DB snap downs - https://youtu.be/L_2tMNItxmA' | fg=0000FF
+BH28 | 'Upper Ballistics/plyo' | fg=theme1
+BI28 | 2.0 | bg=F3F3F3 fg=theme1
+BJ28 | 20.0 | bg=F3F3F3 fg=theme1
+BK28 | 'situp to chest pass' | bg=F3F3F3 fg=theme1
+BL28 | 'LOWER ballistics/plyo' | fg=theme1
+BN28 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+BO28 | 'forward bounds' | fg=theme1
+BQ28 | 'Part A' | fg=theme1
+BR28 | 'Upper Ballistics/plyo' | fg=theme1
+BS28 | 3.0 | bg=F3F3F3 fg=theme1
+BT28 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BU28 | 'back against wall med ball rotational toss - https://youtu.be/Wiai414wTrA' | bg=F3F3F3 fg=0000FF
+BV28 | 'LOWER ballistics/plyo' | fg=theme1
+BW28 | 2.0 | fg=theme1
+BX28 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+BY28 | 'Single leg march jumps - https://youtu.be/dmx8roGpwDI' | fg=0000FF
+BZ28 | 'Upper Ballistics/plyo' | fg=theme1
+CA28 | 3.0 | bg=F3F3F3 fg=theme1
+CB28 | 20.0 | bg=F3F3F3 fg=theme1
+CC28 | 'medball floor catch & release push - https://youtu.be/bIQFwjLcbSw' | bg=F3F3F3 fg=theme1
+CD28 | 'LOWER ballistics/plyo' | fg=theme1
+CE28 | 1.0 | fg=theme1
+CF28 | 10.0 | fg=theme1
+CG28 | '10 meter acceleration from pushup position' | fg=theme1
+CK28 | 'Sets' | bg=F3F3F3 fg=theme1
+CL28 | 'Reps' | bg=F3F3F3 fg=theme1
+CM28 | 'Exercise' | bg=F3F3F3 fg=theme1
+CO28 | 'Sets' | fg=theme1
+CP28 | 'Reps' | fg=theme1
+CQ28 | 'Exercise' | bg=F3F3F3 fg=theme1
+CS28 | 'Sets' | bg=F3F3F3 fg=theme1
+CT28 | 'Reps' | bg=F3F3F3 fg=theme1
+CU28 | 'Exercise' | bg=F3F3F3 fg=theme1
+CW28 | 'Sets' | fg=theme1
+CX28 | 'Reps' | fg=theme1
+CY28 | 'Exercise' | bg=F3F3F3 fg=theme1
+DC28 | 'Sets' | bg=F3F3F3 fg=theme1
+DD28 | 'Reps' | bg=F3F3F3 fg=theme1
+DE28 | 'Exercise' | bg=F3F3F3 fg=theme1
+DG28 | 'Sets' | fg=theme1
+DH28 | 'Reps' | fg=theme1
+DI28 | 'Exercise' | bg=F3F3F3 fg=theme1
+DK28 | 'Sets' | bg=F3F3F3 fg=theme1
+DL28 | 'Reps' | bg=F3F3F3 fg=theme1
+DM28 | 'Exercise' | bg=F3F3F3 fg=theme1
+DO28 | 'Sets' | fg=theme1
+DP28 | 'Reps' | fg=theme1
+DQ28 | 'Exercise' | bg=F3F3F3 fg=theme1
+DU28 | 'Sets' | bg=F3F3F3 fg=theme1
+DV28 | 'Reps' | bg=F3F3F3 fg=theme1
+DW28 | 'Exercise' | bg=F3F3F3 fg=theme1
+DY28 | 'Sets' | fg=theme1
+DZ28 | 'Reps' | fg=theme1
+EA28 | 'Exercise' | bg=F3F3F3 fg=theme1
+EC28 | 'Sets' | bg=F3F3F3 fg=theme1
+ED28 | 'Reps' | bg=F3F3F3 fg=theme1
+EE28 | 'Exercise' | bg=F3F3F3 fg=theme1
+EG28 | 'Sets' | fg=theme1
+EH28 | 'Reps' | fg=theme1
+EI28 | 'Exercise' | bg=F3F3F3 fg=theme1
+C29 | 10.0 | bg=F3F3F3 fg=theme1
+D29 | 'Stick the landing pushups' | bg=F3F3F3 fg=theme1
+F29 | 10.0 | fg=theme1
+G29 | 'depth drop to jump' | fg=theme1
+I29 | 15.0 | bg=F3F3F3 fg=theme1
+J29 | 'med ball overhead toss' | bg=F3F3F3 fg=theme1
+L29 | 5.0 | fg=theme1
+M29 | '30m acceleration sprint' | fg=theme1
+R29 | 10.0 | bg=F3F3F3 fg=theme1
+S29 | 'jumping pushups' | bg=F3F3F3 fg=theme1
+V29 | 10.0 | fg=theme1
+W29 | 'lateral hop to plate single leg' | fg=theme1
+AJ29 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AK29 | 'side lying db drop & catch - like this but with a DB that drops and you catch it to bring it up - https://youtu.be/af3Qy82vjRg' | bg=F3F3F3 fg=0000FF
+AN29 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+AO29 | 'single leg hop on and off of plate' | fg=theme1
+BB29 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BC29 | 'rotational scoops' | bg=F3F3F3 fg=theme1
+BF29 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+BG29 | 'Single leg box jump' | fg=theme1
+BN29 | datetime.datetime(2022, 4, 4, 0, 0) | fg=theme1
+BO29 | 'High staggered stance box jump' | fg=theme1
+BT29 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BU29 | 'medball situp to overhead toss - https://youtu.be/gi8Qqb-ehNo' | bg=F3F3F3 fg=theme1
+BX29 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+BY29 | 'Single leg drop Stick the landing from low box ' | fg=theme1
+CI29 | 'Part A' | fg=theme1
+CJ29 | 'Upper Ballistics/plyo' | fg=theme1
+CK29 | 3.0 | bg=F3F3F3 fg=theme1
+CL29 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+CM29 | 'Rotational chest pass' | bg=F3F3F3 fg=theme1
+CN29 | 'LOWER ballistics/plyo' | fg=theme1
+CO29 | 2.0 | fg=theme1
+CP29 | 20.0 | fg=theme1
+CQ29 | 'Hurdle hops' | fg=theme1
+CR29 | 'Upper Ballistics/plyo' | fg=theme1
+CS29 | 3.0 | bg=F3F3F3 fg=theme1
+CT29 | 20.0 | bg=F3F3F3 fg=theme1
+CU29 | 'Medball Chest pass' | bg=F3F3F3 fg=theme1
+CV29 | 'LOWER ballistics/plyo' | fg=theme1
+CW29 | 1.0 | fg=theme1
+CX29 | 10.0 | fg=theme1
+CY29 | 'High knee tuck in jumps' | bg=F3F3F3 fg=theme1
+DA29 | 'Part A' | fg=theme1
+DB29 | 'Upper Ballistics/plyo' | fg=theme1
+DC29 | 3.0 | bg=F3F3F3 fg=theme1
+DD29 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+DE29 | 'step forward into Overhead toss' | bg=F3F3F3 fg=theme1
+DF29 | 'LOWER ballistics/plyo' | fg=theme1
+DG29 | 4.0 | fg=theme1
+DH29 | '30 sec. ' | fg=theme1
+DI29 | 'Fast run/ walk back or 3 min walk/rest - This is NOT a sprint, this is a fast run' | fg=theme1
+DJ29 | 'Upper Ballistics/plyo' | fg=theme1
+DK29 | 3.0 | bg=F3F3F3 fg=theme1
+DL29 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+DM29 | 'Rotational med ball slams - https://youtu.be/hVX13jShJXE' | bg=F3F3F3 fg=theme1
+DN29 | 'LOWER ballistics/plyo' | fg=theme1
+DO29 | 2.0 | fg=theme1
+DP29 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+DQ29 | 'Single leg seated jump on to box single leg' | bg=F3F3F3 fg=theme1
+DS29 | 'Part A' | fg=theme1
+DT29 | 'Upper Ballistics/plyo' | fg=theme1
+DU29 | 3.0 | bg=F3F3F3 fg=theme1
+DV29 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+DW29 | 'Kettlebell arm bars - https://youtu.be/Z6tT500Jw7s' | bg=F3F3F3 fg=0000FF
+DX29 | 'LOWER ballistics/plyo' | fg=theme1
+DY29 | 4.0 | fg=theme1
+EA29 | 'Kettlebell arm bars - https://youtu.be/Z6tT500Jw7s' | bg=F3F3F3 fg=0000FF
+EB29 | 'Upper Ballistics/plyo' | fg=theme1
+EC29 | 3.0 | bg=F3F3F3 fg=theme1
+ED29 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+EE29 | 'Kettlebell arm bars - https://youtu.be/Z6tT500Jw7s' | bg=F3F3F3 fg=0000FF
+EF29 | 'LOWER ballistics/plyo' | fg=theme1
+EG29 | 2.0 | fg=theme1
+EH29 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+EI29 | 'Kettlebell arm bars - https://youtu.be/Z6tT500Jw7s' | bg=F3F3F3 fg=0000FF
+A30 | 'Part B' | fg=theme1
+B30 | 2.0 | bg=F3F3F3 fg=theme1
+C30 | 'Accumulate 2 minutes on each side' | bg=F3F3F3 fg=theme1
+D30 | 'Side planks' | bg=F3F3F3 fg=theme1
+E30 | 2.0 | fg=theme1
+F30 | 'Accumulate 3 minutes' | fg=theme1
+G30 | 'Hip turns' | fg=theme1
+H30 | 2.0 | bg=F3F3F3 fg=theme1
+I30 | 20.0 | bg=F3F3F3 fg=theme1
+J30 | 'butterfly situps' | bg=F3F3F3 fg=theme1
+K30 | 2.0 | fg=theme1
+L30 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+M30 | 'Cable load rotation chop' | fg=theme1
+O30 | 'Part B' | fg=theme1
+P30 | 'LATERAL CORE' | fg=theme1
+Q30 | 2.0 | bg=F3F3F3 fg=theme1
+R30 | 'Accumulate 2 minutes on each side' | bg=F3F3F3 fg=theme1
+S30 | 'Obilque sit plank' | bg=F3F3F3 fg=theme1
+T30 | 'Transverse core' | fg=theme1
+U30 | 2.0 | fg=theme1
+V30 | '12/12 powerful turns' | fg=theme1
+W30 | 'Cable rotational oblique twist' | fg=theme1
+X30 | 'Sagital core' | fg=theme1
+Y30 | 1.0 | bg=F3F3F3 fg=theme1
+AA30 | '50 Toes to bar' | bg=F3F3F3 fg=theme1
+AB30 | 'Transverse core' | fg=theme1
+AC30 | 2.0 | fg=theme1
+AD30 | '12/12 powerful turns' | fg=theme1
+AE30 | 'Cable rotational oblique twist' | fg=theme1
+AG30 | 'Part B' | fg=theme1
+AH30 | 'LATERAL CORE' | fg=theme1
+AI30 | 2.0 | bg=F3F3F3 fg=theme1
+AJ30 | 'Accumulate 2 minutes on each side' | bg=F3F3F3 fg=theme1
+AK30 | 'COpenhagen plank' | bg=F3F3F3 fg=theme1
+AL30 | 'Transverse core' | fg=theme1
+AM30 | 2.0 | fg=theme1
+AN30 | '12/12 powerful turns' | fg=theme1
+AO30 | 'floor windshield whipers' | fg=theme1
+AP30 | 'Sagital core' | fg=theme1
+AQ30 | 1.0 | bg=F3F3F3 fg=theme1
+AS30 | '50 Toes to bar' | bg=F3F3F3 fg=theme1
+AT30 | 'Transverse core' | fg=theme1
+AU30 | 2.0 | fg=theme1
+AV30 | '12/12 powerful turns' | fg=theme1
+AW30 | 'Cable rotational oblique twist' | fg=theme1
+AY30 | 'Part B' | fg=theme1
+AZ30 | 'LATERAL CORE' | fg=theme1
+BA30 | 2.0 | bg=F3F3F3 fg=theme1
+BB30 | 'Accumulate 2 minutes on each side' | bg=F3F3F3 fg=theme1
+BC30 | 'Oblique sit plank -https://youtu.be/bC1zR8DVVAc' | bg=F3F3F3 fg=0000FF
+BD30 | 'Transverse core' | fg=theme1
+BE30 | 'Accumulate' | fg=theme1
+BF30 | '50 Total' | fg=theme1
+BG30 | 'Hanging lateral knees to chest - https://youtu.be/L1rt7qr5LCk' | fg=0000FF
+BH30 | 'Sagital core' | fg=theme1
+BI30 | 'Accumulate' | bg=F3F3F3 fg=theme1
+BJ30 | '50 Reps' | bg=F3F3F3 fg=theme1
+BK30 | 'Weighted leg raises medball - https://youtu.be/VpEcj96HO4k' | bg=F3F3F3 fg=0000FF
+BL30 | 'Transverse core' | fg=theme1
+BM30 | 2.0 | fg=theme1
+BN30 | '12/12 powerful turns' | fg=theme1
+BO30 | 'Cable rotational oblique twist' | fg=theme1
+BQ30 | 'Part B' | fg=theme1
+BR30 | 'LATERAL CORE' | fg=theme1
+BS30 | 2.0 | bg=F3F3F3 fg=theme1
+BT30 | 'Accumulate 2 minutes on each side' | bg=F3F3F3 fg=theme1
+BU30 | 'Side plank star ' | bg=F3F3F3 fg=theme1
+BV30 | 'Transverse core' | fg=theme1
+BW30 | 'Accumulate' | fg=theme1
+BX30 | 'Accumulate 4 minutes' | fg=theme1
+BY30 | 'Plate russian twists' | fg=theme1
+BZ30 | 'Sagital core' | fg=theme1
+CA30 | 'Accumulate' | bg=F3F3F3 fg=theme1
+CB30 | '4 minutes' | bg=F3F3F3 fg=theme1
+CC30 | 'low plank feet on wall ' | bg=F3F3F3 fg=theme1
+CD30 | 'Transverse core' | fg=theme1
+CE30 | 2.0 | fg=theme1
+CF30 | '20/20' | fg=theme1
+CG30 | 'floor windshield wipers' | fg=theme1
+CL30 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+CM30 | 'Overhead toss' | bg=F3F3F3 fg=theme1
+CP30 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+CQ30 | 'Single leg hop on/off plate forward and back' | fg=theme1
+CT30 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+CU30 | 'Rotational medball scoop' | bg=F3F3F3 fg=theme1
+CX30 | 20.0 | fg=theme1
+CY30 | 'ankle hops' | bg=F3F3F3 fg=theme1
+DD30 | 20.0 | bg=F3F3F3 fg=theme1
+DE30 | 'Situp to chest pass' | bg=F3F3F3 fg=theme1
+DL30 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+DM30 | 'Back against the wall seated rotational medball tosses - https://youtu.be/Wiai414wTrA' | bg=F3F3F3 fg=theme1
+DP30 | 20.0 | fg=theme1
+DQ30 | 'MEd ball hug ankle hops' | bg=F3F3F3 fg=theme1
+EH30 | 20.0 | fg=theme1
+I31 | 10.0 | bg=F3F3F3 fg=theme1
+J31 | 'toes to bar or knees to chest' | bg=F3F3F3 fg=theme1
+L31 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+M31 | 'MEd ball scoop' | fg=theme1
+AD31 | datetime.datetime(2022, 12, 12, 0, 0) | fg=theme1
+AE31 | 'plate russian twists ' | fg=theme1
+AV31 | datetime.datetime(2022, 12, 12, 0, 0) | fg=theme1
+AW31 | 'plate russian twists ' | fg=theme1
+BN31 | datetime.datetime(2022, 12, 12, 0, 0) | fg=theme1
+BO31 | 'plate russian twists ' | fg=theme1
+CI31 | 'Part B' | fg=theme1
+CJ31 | 'LATERAL CORE' | fg=theme1
+CK31 | 2.0 | bg=F3F3F3 fg=theme1
+CL31 | 'Accumulate 2 minutes on each side' | bg=F3F3F3 fg=theme1
+CM31 | 'Side plank' | bg=F3F3F3 fg=theme1
+CN31 | 'Transverse core' | fg=theme1
+CO31 | 'Accumulate' | fg=theme1
+CP31 | 'Accumulate 4 minutes' | fg=theme1
+CQ31 | 'plank Hip turns' | fg=theme1
+CR31 | 'Sagital core' | fg=theme1
+CS31 | 'Accumulate' | bg=F3F3F3 fg=theme1
+CT31 | '4 minutes' | bg=F3F3F3 fg=theme1
+CU31 | 'med ball rockers - https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share' | bg=F3F3F3 fg=0000FF
+CV31 | 'Transverse core' | fg=theme1
+CW31 | 2.0 | fg=theme1
+CX31 | '20/20' | fg=theme1
+CY31 | 'Swissball plate rotations' | fg=theme1
+DA31 | 'Part B' | fg=theme1
+DB31 | 'LATERAL CORE' | fg=theme1
+DC31 | 1.0 | bg=F3F3F3 fg=theme1
+DD31 | 'Accumulate 2 minutes on each side' | bg=F3F3F3 fg=theme1
+DE31 | 'Low oblique plank https://youtu.be/at9CMT91HrM' | bg=F3F3F3 fg=theme1
+DF31 | 'Transverse core' | fg=theme1
+DG31 | 'Accumulate' | fg=theme1
+DH31 | '4 min' | fg=theme1
+DI31 | 'DEad bugs - https://youtu.be/rbemelnkHag' | fg=0000FF
+DJ31 | 'Sagital core' | fg=theme1
+DK31 | 'Accumulate' | bg=F3F3F3 fg=theme1
+DL31 | '5 min' | bg=F3F3F3 fg=theme1
+DM31 | 'Loaded low plank - plate on hips' | bg=F3F3F3 fg=theme1
+DN31 | 'Transverse core' | fg=theme1
+DO31 | 'Accumulate' | fg=theme1
+DP31 | '4 min' | fg=theme1
+DQ31 | 'plate russian twists' | fg=theme1
+DS31 | 'Part B' | fg=theme1
+DT31 | 'LATERAL CORE' | fg=theme1
+DU31 | 3.0 | bg=F3F3F3 fg=theme1
+DV31 | datetime.datetime(2022, 8, 8, 0, 0) | bg=F3F3F3 fg=theme1
+DW31 | 'Half kneeling shoulder roll - https://youtu.be/B4kRyoWzi7A' | bg=F3F3F3 fg=0000FF
+DX31 | 'Transverse core' | fg=theme1
+DY31 | 'Accumulate' | fg=theme1
+DZ31 | '5 min' | fg=theme1
+EA31 | 'floor windchield wipers' | fg=theme1
+EB31 | 'Sagital core' | fg=theme1
+EC31 | 3.0 | bg=F3F3F3 fg=theme1
+ED31 | datetime.datetime(2022, 8, 8, 0, 0) | bg=F3F3F3 fg=theme1
+EE31 | 'Half kneeling shoulder roll - https://youtu.be/B4kRyoWzi7A' | bg=F3F3F3 fg=0000FF
+EF31 | 'Transverse core' | fg=theme1
+EG31 | 'Accumulate' | fg=theme1
+EH31 | '5 min' | fg=theme1
+EI31 | 'floor windchield wipers' | fg=theme1
+A33 | 'Part C' | fg=theme1
+B33 | 4.0 | bg=F3F3F3 fg=theme1
+C33 | '12/10/8/8' | bg=F3F3F3 fg=theme1
+D33 | 'DB Squat Jumps' | bg=F3F3F3 fg=theme1
+E33 | 4.0 | fg=theme1
+F33 | '12/10/8/8' | fg=theme1
+G33 | 'Hex bar deadlift' | fg=theme1
+H33 | 4.0 | bg=F3F3F3 fg=theme1
+I33 | '12/10/8/8' | bg=F3F3F3 fg=theme1
+J33 | 'Back sqaut' | bg=F3F3F3 fg=theme1
+K33 | 4.0 | fg=theme1
+L33 | '12/10/8/8' | fg=theme1
+M33 | 'DB deadlifts' | fg=theme1
+O33 | 'Part C' | fg=theme1
+P33 | 'bkd' | fg=theme1
+Q33 | 4.0 | bg=F3F3F3 fg=theme1
+R33 | '12/10/8/8' | bg=F3F3F3 fg=theme1
+S33 | 'Hex bar squat jumps ' | bg=F3F3F3 fg=theme1
+T33 | 'bhd' | fg=theme1
+U33 | 4.0 | fg=theme1
+V33 | '12/10/8/8' | fg=theme1
+W33 | 'Barbell deadlift' | fg=theme1
+X33 | 'bkd' | fg=theme1
+Y33 | 4.0 | bg=F3F3F3 fg=theme1
+Z33 | '12/10/8/8' | bg=F3F3F3 fg=theme1
+AA33 | 'Goblet squat slow' | bg=F3F3F3 fg=theme1
+AB33 | 'bhd' | fg=theme1
+AC33 | 4.0 | fg=theme1
+AD33 | '12/10/8/8' | fg=theme1
+AE33 | 'KB swings' | fg=theme1
+AG33 | 'Part C' | fg=theme1
+AH33 | 'bkd' | fg=theme1
+AI33 | 4.0 | bg=F3F3F3 fg=theme1
+AJ33 | '12/10/8/8' | bg=F3F3F3 fg=theme1
+AK33 | 'fast high zercher squats' | bg=F3F3F3 fg=theme1
+AL33 | 'bhd' | fg=theme1
+AM33 | 4.0 | fg=theme1
+AN33 | '12/10/8/8' | fg=theme1
+AO33 | 'Barbell deadlift' | fg=theme1
+AP33 | 'bkd' | fg=theme1
+AQ33 | 4.0 | bg=F3F3F3 fg=theme1
+AR33 | '12/10/8/8' | bg=F3F3F3 fg=theme1
+AS33 | 'front squat' | bg=F3F3F3 fg=theme1
+AT33 | 'bhd' | fg=theme1
+AU33 | 4.0 | fg=theme1
+AV33 | '12/10/8/8' | fg=theme1
+AW33 | 'broad jumps' | fg=theme1
+AY33 | 'Part C' | fg=theme1
+AZ33 | 'bkd' | fg=theme1
+BA33 | 4.0 | bg=F3F3F3 fg=theme1
+BB33 | '12/12/12/12' | bg=F3F3F3 fg=theme1
+BC33 | 'KB Squat cleans' | bg=F3F3F3 fg=theme1
+BD33 | 'bhd' | fg=theme1
+BE33 | 4.0 | fg=theme1
+BF33 | '12/10/8/8' | fg=theme1
+BG33 | 'Staggered Barbell deadlift' | fg=theme1
+BH33 | 'bkd' | fg=theme1
+BI33 | 4.0 | bg=F3F3F3 fg=theme1
+BJ33 | '12/10/8/8' | bg=F3F3F3 fg=theme1
+BK33 | 'front squat' | bg=F3F3F3 fg=theme1
+BL33 | 'bhd' | fg=theme1
+BM33 | 4.0 | fg=theme1
+BN33 | '12/10/8/8' | fg=theme1
+BO33 | 'Banded KB swings' | fg=theme1
+BQ33 | 'Part C' | fg=theme1
+BR33 | 'bkd' | fg=theme1
+BS33 | 4.0 | bg=F3F3F3 fg=theme1
+BT33 | '12/12/12/12' | bg=F3F3F3 fg=theme1
+BU33 | 'Front squats - light weights - same speed for all reps' | bg=F3F3F3 fg=theme1
+BV33 | 'bhd' | fg=theme1
+BW33 | 4.0 | fg=theme1
+BX33 | '12/10/8/8' | fg=theme1
+BY33 | 'barbell Deadlifts' | fg=theme1
+BZ33 | 'bkd' | fg=theme1
+CA33 | 4.0 | bg=F3F3F3 fg=theme1
+CB33 | '12/10/8/8' | bg=F3F3F3 fg=theme1
+CC33 | 'Back squats' | bg=F3F3F3 fg=theme1
+CD33 | 'bhd' | fg=theme1
+CE33 | 4.0 | fg=theme1
+CF33 | '12/12/12/12' | fg=theme1
+CG33 | 'KB swing' | fg=theme1
+CI33 | 'OPTIONAL PIECE' | bg=D5A6BD fg=theme1
+CJ33 | 'OLY' | bg=D5A6BD fg=theme1
+CK33 | 4.0 | bg=D5A6BD fg=theme1
+CL33 | 8.0 | bg=D5A6BD fg=theme1
+CM33 | 'Hang cleans @ 75%' | bg=D5A6BD fg=theme1
+CN33 | 'OLY' | bg=D5A6BD fg=theme1
+CO33 | 4.0 | bg=D5A6BD fg=theme1
+CP33 | 8.0 | bg=D5A6BD fg=theme1
+CQ33 | 'Hang snatch @ 75%' | bg=D5A6BD fg=theme1
+CR33 | 'OLY' | bg=D5A6BD fg=theme1
+CS33 | 4.0 | bg=D5A6BD fg=theme1
+CT33 | 8.0 | bg=D5A6BD fg=theme1
+CU33 | 'Hang cleans @ 75%' | bg=D5A6BD fg=theme1
+CV33 | 'OLY' | bg=D5A6BD fg=theme1
+CW33 | 4.0 | bg=D5A6BD fg=theme1
+CX33 | 8.0 | bg=D5A6BD fg=theme1
+CY33 | 'Hang Snatch @ 75%' | bg=D5A6BD fg=theme1
+DA33 | 'OPTIONAL PIECE' | bg=D5A6BD fg=theme1
+DB33 | 'OLY' | bg=D5A6BD fg=theme1
+DC33 | 4.0 | bg=D5A6BD fg=theme1
+DD33 | 6.0 | bg=D5A6BD fg=theme1
+DE33 | 'Hang cleans @ 80%' | bg=D5A6BD fg=theme1
+DF33 | 'OLY' | bg=D5A6BD fg=theme1
+DG33 | 4.0 | bg=D5A6BD fg=theme1
+DH33 | 6.0 | bg=D5A6BD fg=theme1
+DI33 | 'Hang snatch @ 80%' | bg=D5A6BD fg=theme1
+DJ33 | 'OLY' | bg=D5A6BD fg=theme1
+DK33 | 4.0 | bg=D5A6BD fg=theme1
+DL33 | 6.0 | bg=D5A6BD fg=theme1
+DM33 | 'Hang cleans @ 80%' | bg=D5A6BD fg=theme1
+DN33 | 'OLY' | bg=D5A6BD fg=theme1
+DO33 | 4.0 | bg=D5A6BD fg=theme1
+DP33 | 6.0 | bg=D5A6BD fg=theme1
+DQ33 | 'Hang Snatch @ 80%' | bg=D5A6BD fg=theme1
+DS33 | 'OPTIONAL PIECE' | bg=D5A6BD fg=theme1
+DT33 | 'OLY' | bg=D5A6BD fg=theme1
+DU33 | 4.0 | bg=D5A6BD fg=theme1
+DV33 | 6.0 | bg=D5A6BD fg=theme1
+DX33 | 'OLY' | bg=D5A6BD fg=theme1
+DY33 | 4.0 | bg=D5A6BD fg=theme1
+DZ33 | 6.0 | bg=D5A6BD fg=theme1
+EB33 | 'OLY' | bg=D5A6BD fg=theme1
+EC33 | 4.0 | bg=D5A6BD fg=theme1
+ED33 | 6.0 | bg=D5A6BD fg=theme1
+EF33 | 'OLY' | bg=D5A6BD fg=theme1
+EG33 | 4.0 | bg=D5A6BD fg=theme1
+EH33 | 6.0 | bg=D5A6BD fg=theme1
+C34 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+D34 | 'DB Rows' | bg=F3F3F3 fg=theme1
+F34 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+G34 | 'DB Bottoms up bench press' | fg=theme1
+I34 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+J34 | 'Pull Ups' | bg=F3F3F3 fg=theme1
+L34 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+M34 | 'LAndmine half kneeling press' | fg=theme1
+P34 | 'horiz pull' | fg=theme1
+R34 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+S34 | 'seal rows 10 reps all rounds' | bg=F3F3F3 fg=theme1
+T34 | 'horiz push' | fg=theme1
+V34 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+W34 | 'top down db bench press' | fg=theme1
+X34 | 'vert pull' | fg=theme1
+Z34 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+AA34 | 'Cable lat pull over' | bg=F3F3F3 fg=theme1
+AB34 | 'vert push' | fg=theme1
+AD34 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+AE34 | 'barbell press' | fg=theme1
+AH34 | 'horiz pull' | fg=theme1
+AJ34 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+AK34 | 'seal rows 10 reps all rounds' | bg=F3F3F3 fg=theme1
+AL34 | 'horiz push' | fg=theme1
+AN34 | 8.0 | fg=theme1
+AO34 | 'incline db bench press' | fg=theme1
+AP34 | 'vert pull' | fg=theme1
+AR34 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+AS34 | 'pull ups' | bg=F3F3F3 fg=theme1
+AT34 | 'vert push' | fg=theme1
+AV34 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+AW34 | 'barbell press' | fg=theme1
+AZ34 | 'horiz pull' | fg=theme1
+BB34 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+BC34 | 'Cable half kneeling rotational row' | bg=F3F3F3 fg=theme1
+BD34 | 'horiz push' | fg=theme1
+BF34 | 8.0 | fg=theme1
+BG34 | 'Top down incline db bench press' | fg=theme1
+BH34 | 'vert pull' | fg=theme1
+BJ34 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+BK34 | 'pull ups' | bg=F3F3F3 fg=theme1
+BL34 | 'vert push' | fg=theme1
+BN34 | 8.0 | fg=theme1
+BO34 | 'medball press - https://youtu.be/p7njQa7-WLI' | fg=0000FF
+BR34 | 'horiz pull' | fg=theme1
+BT34 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+BU34 | 'bent over barbell rows same weight of front squats' | bg=F3F3F3 fg=theme1
+BV34 | 'horiz push' | fg=theme1
+BX34 | 10.0 | fg=theme1
+BY34 | 'plyo pushups ' | fg=theme1
+BZ34 | 'vert pull' | fg=theme1
+CB34 | 'heavy Max reps' | bg=F3F3F3 fg=theme1
+CC34 | 'Cable lat pull over' | bg=F3F3F3 fg=theme1
+CD34 | 'vert push' | fg=theme1
+CF34 | datetime.datetime(2022, 12, 12, 0, 0) | fg=theme1
+CG34 | 'one dumbbell half kneeling single arm db press' | fg=theme1
+CI34 | 'Part C' | fg=theme1
+CJ34 | 'bkd' | fg=theme1
+CK34 | 4.0 | bg=F3F3F3 fg=theme1
+CL34 | '12/10/10/8' | bg=F3F3F3 fg=theme1
+CM34 | 'barbell High zercher squat' | bg=F3F3F3 fg=theme1
+CN34 | 'bhd' | fg=theme1
+CO34 | 4.0 | fg=theme1
+CP34 | '12/10/10/8' | fg=theme1
+CQ34 | 'Deadlifts' | fg=theme1
+CR34 | 'bkd' | fg=theme1
+CS34 | 4.0 | bg=F3F3F3 fg=theme1
+CT34 | '12/10/10/8' | bg=F3F3F3 fg=theme1
+CU34 | 'Zercher squats' | bg=F3F3F3 fg=theme1
+CV34 | 'bhd' | fg=theme1
+CW34 | 4.0 | fg=theme1
+CX34 | 20.0 | fg=theme1
+CY34 | '45 degree hyper-extension machine' | fg=theme1
+DA34 | 'Part C' | fg=theme1
+DB34 | 'bkd' | fg=theme1
+DC34 | 4.0 | bg=F3F3F3 fg=theme1
+DD34 | '12/10/10/10' | bg=F3F3F3 fg=theme1
+DE34 | 'Oscilating drop squats' | bg=F3F3F3 fg=theme1
+DF34 | 'bhd' | fg=theme1
+DG34 | 4.0 | fg=theme1
+DH34 | '12/10/10/10' | fg=theme1
+DI34 | 'deadlifts' | fg=theme1
+DJ34 | 'bkd' | fg=theme1
+DK34 | 4.0 | bg=F3F3F3 fg=theme1
+DL34 | '12/10/10/10' | bg=F3F3F3 fg=theme1
+DM34 | 'back squat' | bg=F3F3F3 fg=theme1
+DN34 | 'bhd' | fg=theme1
+DO34 | 4.0 | fg=theme1
+DP34 | '12/12/10/10' | fg=theme1
+DQ34 | 'kb swings heavy ' | fg=theme1
+DS34 | 'Part C' | fg=theme1
+DT34 | 'bkd' | fg=theme1
+DU34 | 4.0 | bg=F3F3F3 fg=theme1
+DV34 | '10 min' | bg=F3F3F3 fg=theme1
+DW34 | 'Paced Cardio - easy' | bg=F3F3F3 fg=theme1
+DX34 | 'bhd' | fg=theme1
+DY34 | 4.0 | fg=theme1
+DZ34 | '10 min' | bg=F3F3F3 fg=theme1
+EA34 | 'Paced Cardio - easy' | bg=F3F3F3 fg=theme1
+EB34 | 'bkd' | fg=theme1
+EC34 | 4.0 | bg=F3F3F3 fg=theme1
+ED34 | '10 min' | bg=F3F3F3 fg=theme1
+EE34 | 'Paced Cardio - easy' | bg=F3F3F3 fg=theme1
+EF34 | 'bhd' | fg=theme1
+EG34 | 4.0 | fg=theme1
+EH34 | '10 min' | bg=F3F3F3 fg=theme1
+EI34 | 'Paced Cardio - easy' | bg=F3F3F3 fg=theme1
+P35 | 'uhd' | fg=theme1
+CJ35 | 'horiz pull' | fg=theme1
+CL35 | 'Superset - max reps' | bg=F3F3F3 fg=theme1
+CM35 | 'Heavy DB row' | bg=F3F3F3 fg=theme1
+CN35 | 'horiz push' | fg=theme1
+CP35 | 10.0 | fg=theme1
+CQ35 | 'db Bench press (small incline)' | fg=theme1
+CR35 | 'vert pull' | fg=theme1
+CT35 | 'heavy Max reps' | bg=F3F3F3 fg=theme1
+CU35 | 'Close grip cable lat pull down' | bg=F3F3F3 fg=theme1
+CV35 | 'vert push' | fg=theme1
+CX35 | datetime.datetime(2022, 12, 12, 0, 0) | fg=theme1
+CY35 | 'Single arm DB push press' | fg=theme1
+DB35 | 'horiz pull' | fg=theme1
+DD35 | 10.0 | bg=F3F3F3 fg=theme1
+DE35 | 'Seal rows' | bg=F3F3F3 fg=theme1
+DF35 | 'horiz push' | fg=theme1
+DI35 | 'DB bench press' | fg=theme1
+DJ35 | 'vert pull' | fg=theme1
+DM35 | 'pull ups' | bg=F3F3F3 fg=theme1
+DN35 | 'vert push' | fg=theme1
+DP35 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+DQ35 | 'DB sesaw presses' | fg=theme1
+DT35 | 'horiz pull' | fg=theme1
+DX35 | 'horiz push' | fg=theme1
+EB35 | 'vert pull' | fg=theme1
+EF35 | 'vert push' | fg=theme1
+A36 | 'Part D' | fg=theme1
+B36 | 4.0 | bg=F3F3F3 fg=theme1
+C36 | datetime.datetime(2022, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+D36 | 'Rear foot on wall DB RDL' | bg=F3F3F3 fg=theme1
+E36 | 4.0 | fg=theme1
+F36 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+G36 | 'RFE Bulgarian lunge' | fg=theme1
+H36 | 4.0 | bg=F3F3F3 fg=theme1
+I36 | datetime.datetime(2022, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+J36 | 'camporini dl' | bg=F3F3F3 fg=theme1
+K36 | 4.0 | fg=theme1
+L36 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+M36 | 'Front foot elevated ipsilateral lunge' | fg=theme1
+O36 | 'Part D' | fg=theme1
+P36 | 'bicep' | fg=theme1
+Q36 | 4.0 | bg=F3F3F3 fg=theme1
+R36 | datetime.datetime(2022, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+S36 | 'highest ankle hops' | bg=F3F3F3 fg=theme1
+T36 | 'ukd' | fg=theme1
+U36 | 4.0 | fg=theme1
+V36 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+W36 | 'DB reverse lunges' | fg=theme1
+X36 | 'uhd' | fg=theme1
+Y36 | 4.0 | bg=F3F3F3 fg=theme1
+Z36 | datetime.datetime(2022, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+AA36 | 'camporini dl' | bg=F3F3F3 fg=theme1
+AB36 | 'ukd' | fg=theme1
+AC36 | 4.0 | fg=theme1
+AD36 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+AE36 | 'DB forward lunge' | fg=theme1
+AG36 | 'Part D' | fg=theme1
+AH36 | 'uhd' | fg=theme1
+AI36 | 4.0 | bg=F3F3F3 fg=theme1
+AJ36 | '20 on each side - FAST ' | bg=F3F3F3 fg=theme1
+AK36 | 'Glidder hamstring runners' | bg=F3F3F3 fg=theme1
+AL36 | 'ukd' | fg=theme1
+AM36 | 4.0 | fg=theme1
+AN36 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+AO36 | 'ffe lunges - contralateral loading' | fg=theme1
+AP36 | 'uhd' | fg=theme1
+AQ36 | 4.0 | bg=F3F3F3 fg=theme1
+AR36 | 20.0 | bg=F3F3F3 fg=theme1
+AS36 | 'Swiss ball leg curls' | bg=F3F3F3 fg=theme1
+AT36 | 'ukd' | fg=theme1
+AU36 | 4.0 | fg=theme1
+AV36 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+AW36 | 'db contralateral step up' | fg=theme1
+AY36 | 'Part D' | fg=theme1
+AZ36 | 'uhd' | fg=theme1
+BA36 | 4.0 | bg=F3F3F3 fg=theme1
+BB36 | '20 on each side - FAST ' | bg=F3F3F3 fg=theme1
+BC36 | 'Glidder hamstring runners' | bg=F3F3F3 fg=theme1
+BD36 | 'ukd' | fg=theme1
+BE36 | 4.0 | fg=theme1
+BF36 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+BG36 | 'RFE lunges - contralateral loading' | fg=theme1
+BH36 | 'uhd' | fg=theme1
+BI36 | 4.0 | bg=F3F3F3 fg=theme1
+BK36 | 'Swiss ball kicks (30 seconds)' | bg=F3F3F3 fg=theme1
+BL36 | 'ukd' | fg=theme1
+BM36 | 4.0 | fg=theme1
+BN36 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+BO36 | 'step ups - dbs on both hands' | fg=theme1
+BQ36 | 'Part D' | fg=theme1
+BR36 | 'uhd' | fg=theme1
+BS36 | 4.0 | bg=F3F3F3 fg=theme1
+BT36 | '12 on each side' | bg=F3F3F3 fg=theme1
+BU36 | 'suitcase double dumbell staggered db RDL' | bg=F3F3F3 fg=theme1
+BV36 | 'ukd' | fg=theme1
+BW36 | 4.0 | fg=theme1
+BX36 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+BY36 | 'doubdle db suitcase reverse lunges' | fg=theme1
+BZ36 | 'uhd' | fg=theme1
+CA36 | 4.0 | bg=F3F3F3 fg=theme1
+CD36 | 'ukd' | fg=theme1
+CE36 | 4.0 | fg=theme1
+CF36 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+CG36 | 'Front & Rear foot elevated lunges' | fg=theme1
+C37 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+D37 | 'Bicep Curls' | bg=F3F3F3 fg=theme1
+F37 | 'max' | fg=theme1
+G37 | 'Cable tricep ext' | fg=theme1
+I37 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+J37 | 'EZ bar Pronated curls' | bg=F3F3F3 fg=theme1
+L37 | 'max' | fg=theme1
+M37 | 'overhead db tricep ext' | fg=theme1
+P37 | 'calfs' | fg=theme1
+R37 | datetime.datetime(2022, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+S37 | 'Bicep hammer Curls' | bg=F3F3F3 fg=theme1
+T37 | 'tricep' | fg=theme1
+V37 | '15/15' | fg=theme1
+W37 | 'tricep kickbacks' | fg=theme1
+X37 | 'bicep' | fg=theme1
+Z37 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AA37 | 'EZ bar Pronated curls' | bg=F3F3F3 fg=theme1
+AB37 | 'tricep' | fg=theme1
+AD37 | 'max' | fg=theme1
+AE37 | 'tate press' | fg=theme1
+AH37 | 'bicep' | fg=theme1
+AJ37 | datetime.datetime(2022, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+AK37 | 'incline curls' | bg=F3F3F3 fg=theme1
+AL37 | 'tricep' | fg=theme1
+AN37 | '15/15' | fg=theme1
+AO37 | 'floor db skull crushers' | fg=theme1
+AP37 | 'bicep' | fg=theme1
+AR37 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AS37 | 'Alternating bicep curls' | bg=F3F3F3 fg=theme1
+AT37 | 'tricep' | fg=theme1
+AV37 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+AW37 | 'offset pushups' | fg=theme1
+AZ37 | 'bicep' | fg=theme1
+BB37 | datetime.datetime(2022, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+BC37 | 'DB "no money" curls' | bg=F3F3F3 fg=theme1
+BD37 | 'tricep' | fg=theme1
+BF37 | '15/15' | fg=theme1
+BG37 | 'Ropte Tricep Extensions' | fg=theme1
+BH37 | 'bicep' | fg=theme1
+BJ37 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BK37 | 'Alternating curl to press' | bg=F3F3F3 fg=theme1
+BL37 | 'tricep' | fg=theme1
+BN37 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+BO37 | 'offset pushups' | fg=theme1
+BR37 | 'bicep' | fg=theme1
+BT37 | 12.0 | bg=F3F3F3 fg=theme1
+BU37 | 'EZ bar curls' | bg=F3F3F3 fg=theme1
+BV37 | 'tricep' | fg=theme1
+BX37 | '15/15' | fg=theme1
+BY37 | '6/6 plank up downs' | fg=theme1
+BZ37 | 'bicep' | fg=theme1
+CB37 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+CC37 | 'Alternating curls' | bg=F3F3F3 fg=theme1
+CD37 | 'tricep' | fg=theme1
+CF37 | 10.0 | fg=theme1
+CG37 | 'cable overhead tricep ext' | fg=theme1
+CI37 | 'Part D' | fg=theme1
+CJ37 | 'uhd' | fg=theme1
+CK37 | 4.0 | bg=F3F3F3 fg=theme1
+CL37 | '12 on each side' | bg=F3F3F3 fg=theme1
+CM37 | 'Staggered stance DB dl' | bg=F3F3F3 fg=theme1
+CN37 | 'ukd' | fg=theme1
+CO37 | 4.0 | fg=theme1
+CP37 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+CQ37 | 'High zercher DB RFE Lunge front foot on ramp' | fg=theme1
+CR37 | 'uhd' | fg=theme1
+CS37 | 4.0 | bg=F3F3F3 fg=theme1
+CT37 | datetime.datetime(2022, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+CU37 | 'Staggered stance DB dl - Medial pressure - contralateral loading - https://youtube.com/shorts/avUPBq-FrDU?feature=share' | bg=F3F3F3 fg=theme1
+CV37 | 'ukd' | fg=theme1
+CW37 | 4.0 | fg=theme1
+CX37 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+CY37 | 'Suitcase DB RFE lunge jumps' | fg=theme1
+DA37 | 'Part D' | fg=theme1
+DB37 | 'uhd' | fg=theme1
+DC37 | 5.0 | bg=F3F3F3 fg=theme1
+DD37 | '20 sec. ' | bg=F3F3F3 fg=theme1
+DE37 | 'Banded tantrums (sprint)' | bg=F3F3F3 fg=theme1
+DF37 | 'ukd' | fg=theme1
+DG37 | 4.0 | fg=theme1
+DH37 | datetime.datetime(2022, 12, 12, 0, 0) | fg=theme1
+DI37 | 'DB alternating Deficit Reverse lunges from plate ' | fg=theme1
+DJ37 | 'uhd' | fg=theme1
+DK37 | 4.0 | bg=F3F3F3 fg=theme1
+DL37 | datetime.datetime(2022, 8, 8, 0, 0) | bg=F3F3F3 fg=theme1
+DM37 | 'heavy rear foot on wall db deadlift' | bg=F3F3F3 fg=theme1
+DN37 | 'ukd' | fg=theme1
+DO37 | 4.0 | fg=theme1
+DP37 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+DQ37 | 'kb front rack lateral lunge - https://youtube.com/shorts/WA7HfjppDkc?feature=sharelateral kb lunges' | fg=theme1
+DS37 | 'Part D' | fg=theme1
+DT37 | 'uhd' | fg=theme1
+DX37 | 'ukd' | fg=theme1
+EB37 | 'uhd' | fg=theme1
+EF37 | 'ukd' | fg=theme1
+C38 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+D38 | 'Side to side hurdle hops' | bg=F3F3F3 fg=theme1
+F38 | 'max' | fg=theme1
+G38 | 'side raises' | fg=theme1
+I38 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+J38 | 'weighted calf raises' | bg=F3F3F3 fg=theme1
+L38 | 'max' | fg=theme1
+M38 | 'sesaw push press' | fg=theme1
+R38 | 20.0 | bg=F3F3F3 fg=theme1
+S38 | 'highest ankle hops' | bg=F3F3F3 fg=theme1
+T38 | 'shoulders' | fg=theme1
+V38 | 'max' | fg=theme1
+W38 | 'side raises' | fg=theme1
+X38 | 'calfs' | fg=theme1
+Z38 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AA38 | 'weighted calf raises' | bg=F3F3F3 fg=theme1
+AB38 | 'shoulders' | fg=theme1
+AD38 | 'max' | fg=theme1
+AE38 | 'db push press' | fg=theme1
+AH38 | 'calfs' | fg=theme1
+AJ38 | 20.0 | bg=F3F3F3 fg=theme1
+AK38 | 'DB ankle hops' | bg=F3F3F3 fg=theme1
+AL38 | 'shoulders' | fg=theme1
+AN38 | 'max' | fg=theme1
+AO38 | 'unilateral curl to press (one at a time)' | fg=theme1
+AP38 | 'calfs' | fg=theme1
+AR38 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AS38 | 'weighted calf raises' | bg=F3F3F3 fg=theme1
+AT38 | 'shoulders' | fg=theme1
+AV38 | 'max' | fg=theme1
+AW38 | 'bent over rows' | fg=theme1
+AZ38 | 'calfs' | fg=theme1
+BB38 | 20.0 | bg=F3F3F3 fg=theme1
+BC38 | 'DB ankle hops' | bg=F3F3F3 fg=theme1
+BD38 | 'shoulders' | fg=theme1
+BF38 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+BG38 | 'Single Arm DB snatch from floor' | fg=theme1
+BH38 | 'calfs' | fg=theme1
+BJ38 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BK38 | 'weighted calf raises' | bg=F3F3F3 fg=theme1
+BL38 | 'shoulders' | fg=theme1
+BN38 | 'max' | fg=theme1
+BO38 | 'rear delt db row - https://youtu.be/hOlO2wO-6dk' | fg=0000FF
+BR38 | 'calfs' | fg=theme1
+BT38 | 20.0 | bg=F3F3F3 fg=theme1
+BU38 | 'High ankle hops' | bg=F3F3F3 fg=theme1
+BV38 | 'shoulders' | fg=theme1
+BX38 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+BY38 | 'Side raises' | fg=theme1
+BZ38 | 'calfs' | fg=theme1
+CB38 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+CC38 | 'Heavy calf raises double db' | bg=F3F3F3 fg=theme1
+CD38 | 'shoulders' | fg=theme1
+CF38 | 'max' | fg=theme1
+CG38 | 'db front raises' | fg=theme1
+CJ38 | 'bicep' | fg=theme1
+CL38 | 12.0 | bg=F3F3F3 fg=theme1
+CM38 | 'EZ bar curls' | bg=F3F3F3 fg=theme1
+CN38 | 'tricep' | fg=theme1
+CP38 | 15.0 | fg=theme1
+CQ38 | 'Floor tricep DB skull crushers' | fg=theme1
+CR38 | 'bicep' | fg=theme1
+CT38 | '15/15' | bg=F3F3F3 fg=theme1
+CU38 | 'Alternating bicep ahmmer curls' | bg=F3F3F3 fg=theme1
+CV38 | 'tricep' | fg=theme1
+CX38 | 'MAX' | fg=theme1
+CY38 | 'Cable tricep extensions' | fg=theme1
+DB38 | 'bicep' | fg=theme1
+DD38 | datetime.datetime(2022, 6, 6, 0, 0) | bg=F3F3F3 fg=theme1
+DE38 | 'heavy curls' | bg=F3F3F3 fg=theme1
+DF38 | 'tricep' | fg=theme1
+DH38 | 'MAX' | fg=theme1
+DI38 | 'tate press' | fg=theme1
+DJ38 | 'bicep' | fg=theme1
+DL38 | 'MAX' | bg=F3F3F3 fg=theme1
+DM38 | 'barbell wide grip curls' | bg=F3F3F3 fg=theme1
+DN38 | 'tricep' | fg=theme1
+DP38 | 20.0 | fg=theme1
+DQ38 | 'cable overhead tricep extensions' | fg=theme1
+DT38 | 'bicep' | fg=theme1
+DX38 | 'tricep' | fg=theme1
+EB38 | 'bicep' | fg=theme1
+EF38 | 'tricep' | fg=theme1
+O39 | 'Part E' | bg=FFF2CC fg=theme1
+P39 | 'Buy out' | bg=FFF2CC fg=theme1
+S39 | '2x 15 cal bike sprint' | bg=FFF2CC fg=theme1
+T39 | 'Buy out' | bg=FFF2CC fg=theme1
+X39 | 'Buy out' | bg=FFF2CC fg=theme1
+AA39 | '3x 10 cal row sprint or ski' | bg=FFF2CC fg=theme1
+AB39 | 'Buy out' | bg=FFF2CC fg=theme1
+AG39 | 'Part E' | bg=FFF2CC fg=theme1
+AH39 | 'Buy out' | bg=FFF2CC fg=theme1
+AK39 | '1x 20 cal bike sprint' | bg=FFF2CC fg=theme1
+AL39 | 'Buy out' | bg=FFF2CC fg=theme1
+AP39 | 'Buy out' | bg=FFF2CC fg=theme1
+AS39 | '1x 20 cal row sprint or ski' | bg=FFF2CC fg=theme1
+AT39 | 'Buy out' | bg=FFF2CC fg=theme1
+AY39 | 'Part E' | bg=FFF2CC fg=theme1
+AZ39 | 'Buy out' | bg=FFF2CC fg=theme1
+BC39 | '2x 15 cal bike sprint' | bg=FFF2CC fg=theme1
+BD39 | 'Buy out' | bg=FFF2CC fg=theme1
+BH39 | 'Buy out' | bg=FFF2CC fg=theme1
+BK39 | '3x10 cal bike sprint' | bg=FFF2CC fg=theme1
+BL39 | 'Buy out' | bg=FFF2CC fg=theme1
+BQ39 | 'Part E' | bg=FFF2CC fg=theme1
+BR39 | 'Buy out' | bg=FFF2CC fg=theme1
+BV39 | 'Buy out' | bg=FFF2CC fg=theme1
+BY39 | '3x 10 cal bike sprint (2 min rest)' | bg=FFF2CC fg=theme1
+BZ39 | 'Buy out' | bg=FFF2CC fg=theme1
+CD39 | 'Buy out' | bg=FFF2CC fg=theme1
+CG39 | '2x 15 sec run' | bg=FFF2CC fg=theme1
+CJ39 | 'calfs' | fg=theme1
+CL39 | 'MAX' | bg=F3F3F3 fg=theme1
+CM39 | 'DB calf raises' | bg=F3F3F3 fg=theme1
+CN39 | 'shoulders' | fg=theme1
+CP39 | 15.0 | fg=theme1
+CQ39 | 'Side raises' | fg=theme1
+CR39 | 'calfs' | fg=theme1
+CT39 | 'MAX' | bg=F3F3F3 fg=theme1
+CU39 | 'DB calf raises' | bg=F3F3F3 fg=theme1
+CV39 | 'shoulders' | fg=theme1
+CX39 | 'MAX' | fg=theme1
+CY39 | 'bent over db Reverse flies' | fg=theme1
+DB39 | 'calfs' | fg=theme1
+DD39 | 20.0 | bg=F3F3F3 fg=theme1
+DE39 | 'db weighted ankle hops' | bg=F3F3F3 fg=theme1
+DF39 | 'shoulders' | fg=theme1
+DH39 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+DI39 | 'Cable side raises' | fg=theme1
+DJ39 | 'calfs' | fg=theme1
+DL39 | 'MAX' | bg=F3F3F3 fg=theme1
+DM39 | 'DB calf raises' | bg=F3F3F3 fg=theme1
+DN39 | 'shoulders' | fg=theme1
+DP39 | 12.0 | fg=theme1
+DQ39 | 'Pushups' | fg=theme1
+DT39 | 'calfs' | fg=theme1
+DX39 | 'shoulders' | fg=theme1
+EB39 | 'calfs' | fg=theme1
+EF39 | 'shoulders' | fg=theme1
+P40 | 'Speed' | fg=theme1
+T40 | 'strength' | fg=theme1
+AB40 | 'speed' | fg=theme1
+AH40 | 'Speed' | fg=theme1
+AL40 | 'strength' | fg=theme1
+AT40 | 'speed' | fg=theme1
+AZ40 | 'Speed' | fg=theme1
+BD40 | 'strength' | fg=theme1
+BL40 | 'speed' | fg=theme1
+BR40 | 'Speed' | fg=theme1
+BV40 | 'strength' | fg=theme1
+CD40 | 'speed' | fg=theme1
+CI40 | 'Part E' | bg=FFF2CC fg=theme1
+CJ40 | 'Buy out' | bg=FFF2CC fg=theme1
+CM40 | '1 X 12 Cal bike sprint' | bg=FFF2CC fg=theme1
+CN40 | 'Buy out' | bg=FFF2CC fg=theme1
+CQ40 | '1 X 12 Cal skierg sprint' | bg=FFF2CC fg=theme1
+CR40 | 'Buy out' | bg=FFF2CC fg=theme1
+CU40 | '1 X 12 Cal row sprint' | bg=FFF2CC fg=theme1
+CV40 | 'Buy out' | bg=FFF2CC fg=theme1
+DA40 | 'Part E' | bg=FFF2CC fg=theme1
+DB40 | 'Buy out' | bg=FFF2CC fg=theme1
+DC40 | 1.0 | bg=FFF2CC fg=theme1
+DD40 | '15 calorie' | bg=FFF2CC fg=theme1
+DE40 | 'bike sprint' | bg=FFF2CC fg=theme1
+DF40 | 'Buy out' | bg=FFF2CC fg=theme1
+DG40 | 1.0 | bg=FFF2CC fg=theme1
+DH40 | '15 calorie' | bg=FFF2CC fg=theme1
+DI40 | 'ski sprints' | bg=FFF2CC fg=theme1
+DN40 | 'Buy out' | bg=FFF2CC fg=theme1
+DO40 | 1.0 | bg=FFF2CC fg=theme1
+DP40 | 15.0 | bg=FFF2CC fg=theme1
+DQ40 | 'row spring' | bg=FFF2CC fg=theme1
+DS40 | 'Part E' | bg=FFF2CC fg=theme1
+DT40 | 'Buy out' | bg=FFF2CC fg=theme1
+DX40 | 'Buy out' | bg=FFF2CC fg=theme1
+EF40 | 'Buy out' | bg=FFF2CC fg=theme1
+A41 | 'BLOCK 2' | bg=EA9999 fg=theme1
+A42 | 'WK 1' | bg=A4C2F4 fg=theme1
+B42 | 'DONE' | bg=A4C2F4 fg=theme1
+S42 | 'wk 2' | bg=A4C2F4 fg=theme1
+AK42 | 'wk 4' | bg=A4C2F4 fg=theme1
+AL42 | ' DONE' | bg=A4C2F4 fg=theme1
+DD42 | 'WEEK 8' | fg=theme1
+DE42 | 'DONE' | fg=theme1
+DU42 | 'DELOAD WEEK' | bg=theme4 bold fg=theme1
+DX42 | 'MONDAY' | bg=F3F3F3 fg=theme1
+EB42 | 'TUESDAY' | fg=theme1
+EF42 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+EJ42 | 'FRIDAY' | fg=theme1
+BC43 | 'wk 5' | fg=theme1
+BD43 | 'DONE' | bg=1155CC fg=theme1
+BU43 | 'wk 6' | bg=4A86E8 fg=theme1
+BV43 | 'DONE' | bg=4A86E8 fg=theme1
+CL43 | 'WEEK 7' | bg=theme4 fg=theme1
+CM43 | 'DONE' | bg=theme4 fg=theme1
+DU43 | 'DONE' | bg=theme4 fg=theme1
+DX43 | 'Sets' | bg=F3F3F3 fg=theme1
+DY43 | 'Reps' | bg=F3F3F3 fg=theme1
+DZ43 | 'Exercise' | bg=F3F3F3 fg=theme1
+EB43 | 'Sets' | fg=theme1
+EC43 | 'Reps' | fg=theme1
+ED43 | 'Exercise' | bg=F3F3F3 fg=theme1
+EF43 | 'Sets' | bg=F3F3F3 fg=theme1
+EG43 | 'Reps' | bg=F3F3F3 fg=theme1
+EH43 | 'Exercise' | bg=F3F3F3 fg=theme1
+EJ43 | 'Sets' | fg=theme1
+EK43 | 'Reps' | fg=theme1
+EL43 | 'Exercise' | bg=F3F3F3 fg=theme1
+C44 | 'MONDAY' | bg=F3F3F3 fg=theme1
+G44 | 'TUESDAY' | fg=theme1
+K44 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+O44 | 'FRIDAY' | fg=theme1
+U44 | 'MONDAY' | bg=F3F3F3 fg=theme1
+Y44 | 'TUESDAY' | fg=theme1
+AC44 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+AG44 | 'FRIDAY' | fg=theme1
+AM44 | 'MONDAY' | bg=F3F3F3 fg=theme1
+AQ44 | 'TUESDAY' | fg=theme1
+AU44 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+AY44 | 'FRIDAY' | fg=theme1
+DF44 | 'MONDAY' | bg=F3F3F3 fg=theme1
+DJ44 | 'TUESDAY' | fg=theme1
+DN44 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+DR44 | 'FRIDAY' | fg=theme1
+DV44 | 'Part A' | fg=theme1
+DW44 | 'Upper Ballistics/plyo' | fg=theme1
+DX44 | 1.0 | bg=F3F3F3 fg=theme1
+DY44 | 8.0 | bg=F3F3F3 fg=theme1
+DZ44 | 'step to chest pass - https://www.youtube.com/watch?v=sihui0sI2Hw' | bg=F3F3F3 fg=theme1
+EA44 | 'LOWER ballistics/plyo' | fg=theme1
+EB44 | 1.0 | fg=theme1
+EC44 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+ED44 | 'single leg hops' | fg=theme1
+EE44 | 'Upper Ballistics/plyo' | fg=theme1
+EF44 | 2.0 | bg=F3F3F3 fg=theme1
+EG44 | 10.0 | bg=F3F3F3 fg=theme1
+EH44 | 'lay down MB presses https://www.youtube.com/watch?v=E6eZBrF0Y2M' | bg=F3F3F3 fg=theme1
+EI44 | 'LOWER ballistics/plyo' | fg=theme1
+EJ44 | 2.0 | fg=theme1
+EK44 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+EL44 | 'SL hops to plate' | fg=0F0F0F
+C45 | 'Sets' | bg=F3F3F3 fg=theme1
+D45 | 'Reps' | bg=F3F3F3 fg=theme1
+E45 | 'Exercise' | bg=F3F3F3 fg=theme1
+G45 | 'Sets' | fg=theme1
+H45 | 'Reps' | fg=theme1
+K45 | 'Sets' | bg=F3F3F3 fg=theme1
+L45 | 'Reps' | bg=F3F3F3 fg=theme1
+M45 | 'Exercise' | bg=F3F3F3 fg=theme1
+O45 | 'Sets' | fg=theme1
+P45 | 'Reps' | fg=theme1
+U45 | 'Sets' | bg=F3F3F3 fg=theme1
+V45 | 'Reps' | bg=F3F3F3 fg=theme1
+W45 | 'Exercise' | bg=F3F3F3 fg=theme1
+Y45 | 'Sets' | fg=theme1
+Z45 | 'Reps' | fg=theme1
+AC45 | 'Sets' | bg=F3F3F3 fg=theme1
+AD45 | 'Reps' | bg=F3F3F3 fg=theme1
+AE45 | 'Exercise' | bg=F3F3F3 fg=theme1
+AG45 | 'Sets' | fg=theme1
+AH45 | 'Reps' | fg=theme1
+AM45 | 'Sets' | bg=F3F3F3 fg=theme1
+AN45 | 'Reps' | bg=F3F3F3 fg=theme1
+AO45 | 'Exercise' | bg=F3F3F3 fg=theme1
+AQ45 | 'Sets' | fg=theme1
+AR45 | 'Reps' | fg=theme1
+AU45 | 'Sets' | bg=F3F3F3 fg=theme1
+AV45 | 'Reps' | bg=F3F3F3 fg=theme1
+AW45 | 'Exercise' | bg=F3F3F3 fg=theme1
+AY45 | 'Sets' | fg=theme1
+AZ45 | 'Reps' | fg=theme1
+BE45 | 'MONDAY' | bg=F3F3F3 fg=theme1
+BI45 | 'TUESDAY' | fg=theme1
+BM45 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+BQ45 | 'FRIDAY' | fg=theme1
+BW45 | 'MONDAY' | bg=F3F3F3 fg=theme1
+CA45 | 'TUESDAY' | fg=theme1
+CE45 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+CI45 | 'FRIDAY' | fg=theme1
+CO45 | 'MONDAY' | bg=F3F3F3 fg=theme1
+CS45 | 'TUESDAY' | fg=theme1
+CW45 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+DA45 | 'FRIDAY' | fg=theme1
+DF45 | 'Sets' | bg=F3F3F3 fg=theme1
+DG45 | 'Reps' | bg=F3F3F3 fg=theme1
+DH45 | 'Exercise' | bg=F3F3F3 fg=theme1
+DJ45 | 'Sets' | fg=theme1
+DK45 | 'Reps' | fg=theme1
+DL45 | 'Exercise' | bg=F3F3F3 fg=theme1
+DN45 | 'Sets' | bg=F3F3F3 fg=theme1
+DO45 | 'Reps' | bg=F3F3F3 fg=theme1
+DP45 | 'Exercise' | bg=F3F3F3 fg=theme1
+DR45 | 'Sets' | fg=theme1
+DS45 | 'Reps' | fg=theme1
+DT45 | 'Exercise' | bg=F3F3F3 fg=theme1
+DY45 | datetime.datetime(2023, 6, 6, 0, 0) | bg=F3F3F3 fg=theme1
+DZ45 | 'MB OH toss to rotational scoop - https://www.youtube.com/watch?v=5jruVyTr5GA' | bg=F3F3F3 fg=theme1
+EC45 | datetime.datetime(2023, 3, 3, 0, 0) | fg=theme1
+ED45 | 'staggered stace Box jump ' | fg=theme1
+EG45 | '3/3-3/3' | bg=F3F3F3 fg=theme1
+EH45 | 'In-out of hip Rotational medball scoop' | bg=F3F3F3 fg=theme1
+EJ45 | 2.0 | fg=theme1
+EK45 | '2 to 1' | fg=theme1
+EL45 | 'hurdle hops to box jump - https://www.youtube.com/watch?v=pLyK-Q-G2LQ' | bg=F3F3F3 fg=theme1
+A46 | 'Part A' | fg=theme1
+B46 | 'Upper Ballistics/plyo' | fg=theme1
+C46 | 2.0 | bg=F3F3F3 fg=theme1
+D46 | 20.0 | bg=F3F3F3 fg=theme1
+E46 | 'overhead toss' | bg=F3F3F3 fg=theme1
+F46 | 'LOWER ballistics/plyo' | fg=theme1
+G46 | 2.0 | fg=theme1
+H46 | 10.0 | fg=theme1
+I46 | 'Sit to jump on to box with DBs' | fg=theme1
+J46 | 'Upper Ballistics/plyo' | fg=theme1
+K46 | 3.0 | bg=F3F3F3 fg=theme1
+L46 | 10.0 | bg=F3F3F3 fg=theme1
+M46 | 'situp to overhead toss' | bg=F3F3F3 fg=theme1
+N46 | 'LOWER ballistics/plyo' | fg=theme1
+P46 | 'accumulate 2 minutes on each leg' | fg=theme1
+Q46 | 'single leg lateral hops side to side' | fg=theme1
+S46 | 'Part A' | fg=theme1
+T46 | 'Upper Ballistics/plyo' | fg=theme1
+U46 | 3.0 | bg=F3F3F3 fg=theme1
+V46 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+W46 | 'Rotational chest pass' | bg=F3F3F3 fg=theme1
+X46 | 'LOWER ballistics/plyo' | fg=theme1
+Y46 | 3.0 | fg=theme1
+Z46 | 10.0 | fg=theme1
+AA46 | 'DB snap downs - https://youtu.be/L_2tMNItxmA' | fg=0000FF
+AB46 | 'Upper Ballistics/plyo' | fg=theme1
+AC46 | 2.0 | bg=F3F3F3 fg=theme1
+AD46 | 30.0 | bg=F3F3F3 fg=theme1
+AE46 | 'situp to chest pass' | bg=F3F3F3 fg=theme1
+AF46 | 'LOWER ballistics/plyo' | fg=theme1
+AG46 | 3.0 | fg=theme1
+AH46 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+AI46 | 'forward bounds' | fg=theme1
+AK46 | 'Part A' | fg=theme1
+AL46 | 'Upper Ballistics/plyo' | fg=theme1
+AM46 | 2.0 | bg=F3F3F3 fg=theme1
+AN46 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AO46 | 'lateral lunge to Medball scoop - https://www.youtube.com/watch?v=4jUxbJ10uKU' | bg=F3F3F3 fg=theme1
+AP46 | 'LOWER ballistics/plyo' | fg=theme1
+AQ46 | 3.0 | fg=theme1
+AR46 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+AS46 | 'Single leg march jumps - https://youtu.be/dmx8roGpwDI' | fg=0000FF
+AT46 | 'Upper Ballistics/plyo' | fg=theme1
+AU46 | 3.0 | bg=F3F3F3 fg=theme1
+AV46 | 10.0 | bg=F3F3F3 fg=theme1
+AW46 | 'push ups' | bg=F3F3F3 fg=theme1
+AX46 | 'LOWER ballistics/plyo' | fg=theme1
+AY46 | '2x' | fg=theme1
+AZ46 | '10 yrds each' | fg=theme1
+BA46 | 'A Marches / A skips / A runners' | fg=theme1
+BE46 | 'Sets' | bg=F3F3F3 fg=theme1
+BF46 | 'Reps' | bg=F3F3F3 fg=theme1
+BG46 | 'Exercise' | bg=F3F3F3 fg=theme1
+BI46 | 'Sets' | fg=theme1
+BJ46 | 'Reps' | fg=theme1
+BK46 | 'Exercise' | bg=F3F3F3 fg=theme1
+BM46 | 'Sets' | bg=F3F3F3 fg=theme1
+BN46 | 'Reps' | bg=F3F3F3 fg=theme1
+BO46 | 'Exercise' | bg=F3F3F3 fg=theme1
+BQ46 | 'Sets' | fg=theme1
+BR46 | 'Reps' | fg=theme1
+BS46 | 'Exercise' | bg=F3F3F3 fg=theme1
+BW46 | 'Sets' | bg=F3F3F3 fg=theme1
+BX46 | 'Reps' | bg=F3F3F3 fg=theme1
+BY46 | 'Exercise' | bg=F3F3F3 fg=theme1
+CA46 | 'Sets' | fg=theme1
+CB46 | 'Reps' | fg=theme1
+CC46 | 'Exercise' | bg=F3F3F3 fg=theme1
+CE46 | 'Sets' | bg=F3F3F3 fg=theme1
+CF46 | 'Reps' | bg=F3F3F3 fg=theme1
+CG46 | 'Exercise' | bg=F3F3F3 fg=theme1
+CI46 | 'Sets' | fg=theme1
+CJ46 | 'Reps' | fg=theme1
+CK46 | 'Exercise' | bg=F3F3F3 fg=theme1
+CO46 | 'Sets' | bg=F3F3F3 fg=theme1
+CP46 | 'Reps' | bg=F3F3F3 fg=theme1
+CQ46 | 'Exercise' | bg=F3F3F3 fg=theme1
+CS46 | 'Sets' | fg=theme1
+CT46 | 'Reps' | fg=theme1
+CU46 | 'Exercise' | bg=F3F3F3 fg=theme1
+CW46 | 'Sets' | bg=F3F3F3 fg=theme1
+CX46 | 'Reps' | bg=F3F3F3 fg=theme1
+CY46 | 'Exercise' | bg=F3F3F3 fg=theme1
+DA46 | 'Sets' | fg=theme1
+DB46 | 'Reps' | fg=theme1
+DC46 | 'Exercise' | bg=F3F3F3 fg=theme1
+DD46 | 'Part A' | fg=theme1
+DE46 | 'Upper Ballistics/plyo' | fg=theme1
+DF46 | 3.0 | bg=F3F3F3 fg=theme1
+DG46 | 12.0 | bg=F3F3F3 fg=theme1
+DH46 | 'Situp to chest pass' | bg=F3F3F3 fg=theme1
+DI46 | 'LOWER ballistics/plyo' | fg=theme1
+DJ46 | 3.0 | fg=theme1
+DK46 | '15 yrds' | fg=theme1
+DL46 | 'A March/ A skips/ A runners' | fg=theme1
+DM46 | 'Upper Ballistics/plyo' | fg=theme1
+DN46 | 3.0 | bg=F3F3F3 fg=theme1
+DO46 | datetime.datetime(2023, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+DP46 | 'half kneeling Rotational med ball slams https://www.youtube.com/watch?v=TJltOvjKOBU' | bg=F3F3F3 fg=theme1
+DQ46 | 'LOWER ballistics/plyo' | fg=theme1
+DR46 | 4.0 | fg=theme1
+DS46 | datetime.datetime(2023, 5, 5, 0, 0) | fg=theme1
+DT46 | '2 Single leg hops to 1 SL box jump - https://www.youtube.com/watch?v=CnWUbIjt57I' | bg=F3F3F3 fg=theme1
+DV46 | 'Part B' | fg=theme1
+DW46 | 'LATERAL CORE' | fg=theme1
+DX46 | 2.0 | bg=F3F3F3 fg=theme1
+DY46 | '30 secs each side' | bg=F3F3F3 fg=theme1
+DZ46 | 'OBLIQUE SIT' | bg=F3F3F3 fg=theme1
+EA46 | 'Transverse core' | fg=theme1
+EB46 | 2.0 | fg=theme1
+EC46 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+ED46 | 'Facing The Wall MB Rotational Scoop - https://www.youtube.com/watch?v=Qq83wji4t2I' | fg=theme1
+EE46 | 'Sagital core' | fg=theme1
+EF46 | 2.0 | bg=F3F3F3 fg=theme1
+EG46 | '40 secs' | bg=F3F3F3 fg=theme1
+EH46 | 'hallow rocks - https://www.youtube.com/watch?v=6Qdh8qzxFY8' | bg=F3F3F3 fg=theme1
+EI46 | 'Transverse core' | fg=theme1
+EJ46 | 3.0 | fg=theme1
+EK46 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+EL46 | 'windshield wipers - https://www.youtube.com/watch?v=3npJSSGOpXg' | fg=theme1
+D47 | 'Accumulate 2 minutes on each arm' | bg=F3F3F3 fg=theme1
+E47 | 'Single side KB carry' | bg=F3F3F3 fg=theme1
+H47 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+I47 | 'single leg hop on and off to box' | fg=theme1
+M47 | 'Sit up to chest pass' | bg=F3F3F3 fg=theme1
+V47 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+W47 | 'rotational scoops' | bg=F3F3F3 fg=theme1
+Z47 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+AA47 | 'Single leg box jump' | fg=theme1
+AH47 | datetime.datetime(2022, 4, 4, 0, 0) | fg=theme1
+AI47 | 'staggered stance box jump' | fg=theme1
+AM47 | 2.0 | bg=F3F3F3 fg=theme1
+AN47 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AO47 | 'step to overhead toss - https://www.youtube.com/watch?v=i9M9ZnSFEw4' | bg=F3F3F3 fg=theme1
+AR47 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+AS47 | 'DB Single leg drop Stick the landing from low box ' | fg=theme1
+AV47 | 10.0 | bg=F3F3F3 fg=theme1
+AW47 | 'MB fast chest pass ' | bg=F3F3F3 fg=theme1
+AY47 | '5x' | fg=theme1
+AZ47 | '10 mts ' | fg=theme1
+BA47 | 'accelerations baseball starts' | fg=theme1
+BC47 | 'Part A' | fg=theme1
+BD47 | 'Upper Ballistics/plyo' | fg=theme1
+BE47 | 3.0 | bg=F3F3F3 fg=theme1
+BF47 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BG47 | 'Push ups/chest pass' | bg=F3F3F3 fg=theme1
+BH47 | 'LOWER ballistics/plyo' | fg=theme1
+BI47 | 2.0 | fg=theme1
+BJ47 | 12.0 | fg=theme1
+BK47 | 'Hurdle hops' | fg=theme1
+BL47 | 'Upper Ballistics/plyo' | fg=theme1
+BM47 | 3.0 | bg=F3F3F3 fg=theme1
+BN47 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BO47 | 'Lateral hinge to MB Chest pass' | bg=F3F3F3 fg=theme1
+BP47 | 'LOWER ballistics/plyo' | fg=theme1
+BQ47 | 2.0 | fg=theme1
+BR47 | 20.0 | fg=theme1
+BS47 | 'Ankle hops' | bg=F3F3F3 fg=theme1
+BU47 | 'Part A' | fg=theme1
+BV47 | 'Upper Ballistics/plyo' | fg=theme1
+BW47 | 3.0 | bg=F3F3F3 fg=theme1
+BX47 | 10.0 | bg=F3F3F3 fg=theme1
+BY47 | 'Situp to chest pass' | bg=F3F3F3 fg=theme1
+BZ47 | 'LOWER ballistics/plyo' | fg=theme1
+CA47 | 3.0 | fg=theme1
+CB47 | '10 yrds' | fg=theme1
+CC47 | 'A March/ A skips/ A runners' | fg=theme1
+CD47 | 'Upper Ballistics/plyo' | fg=theme1
+CE47 | 3.0 | bg=F3F3F3 fg=theme1
+CF47 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+CG47 | 'half kneeling Rotational med ball slams https://www.youtube.com/watch?v=TJltOvjKOBU' | bg=F3F3F3 fg=theme1
+CH47 | 'LOWER ballistics/plyo' | fg=theme1
+CI47 | 3.0 | fg=theme1
+CJ47 | datetime.datetime(2023, 6, 6, 0, 0) | fg=theme1
+CK47 | 'Single leg hop to SL box jump - https://www.youtube.com/watch?v=CnWUbIjt57I' | bg=F3F3F3 fg=theme1
+CM47 | 'Part A' | fg=theme1
+CN47 | 'Upper Ballistics/plyo' | fg=theme1
+CO47 | 3.0 | bg=F3F3F3 fg=theme1
+CP47 | 10.0 | bg=F3F3F3 fg=theme1
+CQ47 | 'step to chest pass - https://www.youtube.com/watch?v=sihui0sI2Hw' | bg=F3F3F3 fg=theme1
+CR47 | 'LOWER ballistics/plyo' | fg=theme1
+CS47 | 2.0 | fg=theme1
+CT47 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+CU47 | 'single leg hops' | fg=theme1
+CV47 | 'Upper Ballistics/plyo' | fg=theme1
+CW47 | 3.0 | bg=F3F3F3 fg=theme1
+CX47 | 20.0 | bg=F3F3F3 fg=theme1
+CY47 | 'lay down MB presses https://www.youtube.com/watch?v=E6eZBrF0Y2M' | bg=F3F3F3 fg=theme1
+CZ47 | 'LOWER ballistics/plyo' | fg=theme1
+DA47 | 3.0 | fg=theme1
+DB47 | '15  secs' | fg=theme1
+DC47 | 'Quick feet toe tap on step - https://www.youtube.com/watch?v=DH9gWHjcDuY' | fg=0F0F0F
+DG47 | datetime.datetime(2023, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+DH47 | 'MB scoop toss to the wall https://www.youtube.com/watch?v=QnKHt-iBqO0' | bg=F3F3F3 fg=theme1
+DJ47 | 5.0 | fg=theme1
+DK47 | '30 secs ' | fg=theme1
+DL47 | 'Fast run/ walk back or 3 min walk/rest - This is NOT a sprint, this is a fast run' | fg=theme1
+DO47 | datetime.datetime(2023, 8, 8, 0, 0) | bg=F3F3F3 fg=theme1
+DP47 | 'step back  to MB roational chest pass https://www.youtube.com/watch?v=c6txBU8V-YI' | bg=F3F3F3 fg=theme1
+DS47 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+DT47 | 'skater jumps over hurdle - https://www.youtube.com/watch?v=CaN4zfIPyXU' | bg=F3F3F3 fg=theme1
+DV47 | 0.0 | fg=theme1
+A48 | 'Part B' | fg=theme1
+B48 | 'LATERAL CORE' | fg=theme1
+C48 | 2.0 | bg=F3F3F3 fg=theme1
+D48 | 'Accumulate 1 minutes on each side' | bg=F3F3F3 fg=theme1
+E48 | 'COpenhagen plank' | bg=F3F3F3 fg=theme1
+F48 | 'Transverse core' | fg=theme1
+H48 | 'Accumulate 3 minutes of' | fg=theme1
+I48 | 'heavy plate russian twists' | fg=theme1
+J48 | 'Sagital core' | fg=theme1
+K48 | 1.0 | bg=F3F3F3 fg=theme1
+M48 | '50 Toes to bar' | bg=F3F3F3 fg=theme1
+N48 | 'Transverse core' | fg=theme1
+O48 | 2.0 | fg=theme1
+P48 | '12/12 powerful turns' | fg=theme1
+Q48 | 'Cable rotational oblique twist' | fg=theme1
+S48 | 'Part B' | fg=theme1
+T48 | 'LATERAL CORE' | fg=theme1
+U48 | 1.0 | bg=F3F3F3 fg=theme1
+V48 | 'Accumulate 2 minutes on each side' | bg=F3F3F3 fg=theme1
+W48 | 'Oblique sit plank -https://youtu.be/bC1zR8DVVAc' | bg=F3F3F3 fg=0000FF
+X48 | 'Transverse core' | fg=theme1
+Y48 | 'Accumulate' | fg=theme1
+Z48 | '75 Total' | fg=theme1
+AA48 | 'Hanging lateral knees to chest - https://youtu.be/L1rt7qr5LCk' | fg=0000FF
+AB48 | 'Sagital core' | fg=theme1
+AC48 | 'Accumulate' | bg=F3F3F3 fg=theme1
+AD48 | '75 Reps' | bg=F3F3F3 fg=theme1
+AE48 | 'Weighted leg raises medball - https://youtu.be/VpEcj96HO4k' | bg=F3F3F3 fg=0000FF
+AF48 | 'Transverse core' | fg=theme1
+AG48 | 2.0 | fg=theme1
+AH48 | '12/12 slow turns' | fg=theme1
+AI48 | 'Cable rotational oblique twist' | fg=theme1
+AK48 | 'Part B' | fg=theme1
+AL48 | 'LATERAL CORE' | fg=theme1
+AM48 | 2.0 | bg=F3F3F3 fg=theme1
+AN48 | 'Accumulate 2 minutes on each side' | bg=F3F3F3 fg=theme1
+AO48 | 'Side plank star ' | bg=F3F3F3 fg=theme1
+AP48 | 'Transverse core' | fg=theme1
+AQ48 | 4.0 | fg=theme1
+AR48 | '15/15' | fg=theme1
+AS48 | 'cross body mountain climbers https://www.youtube.com/watch?v=luRruRjECm8' | fg=theme1
+AT48 | 'Sagital core' | fg=theme1
+AU48 | 3.0 | bg=F3F3F3 fg=theme1
+AV48 | '15/15' | bg=F3F3F3 fg=theme1
+AW48 | 'Single arm/leg turkish situps - https://www.youtube.com/watch?v=mVYAWimTXlk' | bg=F3F3F3 fg=theme1
+AX48 | 'Transverse core' | fg=theme1
+AY48 | '4x' | fg=theme1
+AZ48 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+BA48 | 'star supine cross connect https://www.youtube.com/watch?v=lb1bVUNx-OM' | fg=theme1
+BF48 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BG48 | 'Rotational OH toss' | bg=F3F3F3 fg=theme1
+BJ48 | 5.0 | fg=theme1
+BK48 | 'Box jump ' | fg=theme1
+BN48 | '5/5-5/5' | bg=F3F3F3 fg=theme1
+BO48 | 'In-out of hip Rotational medball scoop' | bg=F3F3F3 fg=theme1
+BR48 | 10.0 | fg=theme1
+BS48 | 'High tuck knees jumps' | bg=F3F3F3 fg=theme1
+BX48 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BY48 | 'MB scoop toss to the wall https://www.youtube.com/watch?v=QnKHt-iBqO0' | bg=F3F3F3 fg=theme1
+CA48 | 4.0 | fg=theme1
+CB48 | '30 secs ' | fg=theme1
+CC48 | 'Fast run/ walk back or 3 min walk/rest - This is NOT a sprint, this is a fast run' | fg=theme1
+CF48 | datetime.datetime(2023, 5, 5, 0, 0) | bg=F3F3F3 fg=theme1
+CG48 | 'step back  to MB roational chest pass https://www.youtube.com/watch?v=c6txBU8V-YI' | bg=F3F3F3 fg=theme1
+CJ48 | 20.0 | fg=theme1
+CK48 | 'MEd ball hug ankle hops' | bg=F3F3F3 fg=theme1
+CP48 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+CQ48 | 'MB OH toss to rotational scoop - https://www.youtube.com/watch?v=5jruVyTr5GA' | bg=F3F3F3 fg=theme1
+CT48 | datetime.datetime(2023, 4, 4, 0, 0) | fg=theme1
+CU48 | 'staggered stace Box jump ' | fg=theme1
+CX48 | '5/5-5/5' | bg=F3F3F3 fg=theme1
+CY48 | 'In-out of hip Rotational medball scoop' | bg=F3F3F3 fg=theme1
+DA48 | 3.0 | fg=theme1
+DB48 | '5 to 1' | fg=theme1
+DC48 | 'hurdle hops to box jump - https://www.youtube.com/watch?v=pLyK-Q-G2LQ' | bg=F3F3F3 fg=theme1
+DD48 | 'Part B' | fg=theme1
+DE48 | 'LATERAL CORE' | fg=theme1
+DF48 | 2.0 | bg=F3F3F3 fg=theme1
+DG48 | ' 1 minute straight on each side' | bg=F3F3F3 fg=theme1
+DH48 | 'copenhagen plank https://www.youtube.com/watch?v=aDsaGBnvDQo' | bg=F3F3F3 fg=theme1
+DI48 | 'Transverse core' | fg=theme1
+DJ48 | 5.0 | fg=theme1
+DK48 | '30 secs' | fg=theme1
+DL48 | 'fast mountain climbers cross connect https://www.youtube.com/watch?v=Ttq41I_raVU' | fg=theme1
+DM48 | 'Sagital core' | fg=theme1
+DN48 | 4.0 | bg=F3F3F3 fg=theme1
+DO48 | '10 yrds fwd/10 yrds back ' | bg=F3F3F3 fg=theme1
+DP48 | 'bear crawl - https://www.youtube.com/watch?v=Ee1BQNI6zN4' | bg=F3F3F3 fg=theme1
+DQ48 | 'Transverse core' | fg=theme1
+DR48 | 4.0 | fg=theme1
+DS48 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+DT48 | 'cable oblique twists - https://www.youtube.com/watch?v=Gq7ToKnOC1Q' | fg=theme1
+EE48 | 'OLY' | bg=D5A6BD fg=theme1
+EI48 | 'OLY' | bg=D5A6BD fg=theme1
+D49 | 'Accumulate 1 minutes on each side' | bg=F3F3F3 fg=theme1
+E49 | 'Star plank' | bg=F3F3F3 fg=theme1
+H49 | 'Accumulate 2 minutes of' | fg=theme1
+I49 | 'Bicycle crunches' | fg=theme1
+P49 | datetime.datetime(2022, 12, 12, 0, 0) | fg=theme1
+Q49 | 'plate russian twists ' | fg=theme1
+U49 | 1.0 | bg=F3F3F3 fg=theme1
+V49 | 'Accumulate 2 minutes on each side' | bg=F3F3F3 fg=theme1
+W49 | 'KB Single arm farmer walk carry' | bg=F3F3F3 fg=theme1
+AH49 | '20/20' | fg=theme1
+AI49 | 'plate russian twists ' | fg=theme1
+BC49 | 'Part B' | fg=theme1
+BD49 | 'LATERAL CORE' | fg=theme1
+BE49 | 4.0 | bg=F3F3F3 fg=theme1
+BF49 | '20/20' | bg=F3F3F3 fg=theme1
+BG49 | 'Lateral crunches' | bg=F3F3F3 fg=theme1
+BH49 | 'Transverse core' | fg=theme1
+BI49 | 1.0 | fg=theme1
+BJ49 | 'Accumulate 4 minutes' | fg=theme1
+BK49 | 'plank Hip turns' | fg=theme1
+BL49 | 'Sagital core' | fg=theme1
+BM49 | 'Accumulate' | bg=F3F3F3 fg=theme1
+BN49 | '4 minutes' | bg=F3F3F3 fg=theme1
+BO49 | 'med ball rockers - https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share' | bg=F3F3F3 fg=0000FF
+BP49 | 'Transverse core' | fg=theme1
+BQ49 | 2.0 | fg=theme1
+BR49 | '20/20' | fg=theme1
+BS49 | 'Swissball plate rotations' | fg=theme1
+BU49 | 'Part B' | fg=theme1
+BV49 | 'LATERAL CORE' | fg=theme1
+BW49 | 1.0 | bg=F3F3F3 fg=theme1
+BX49 | 'Accumulate 2 minutes on each side' | bg=F3F3F3 fg=theme1
+BY49 | 'Low oblique plank https://youtu.be/at9CMT91HrM' | bg=F3F3F3 fg=theme1
+BZ49 | 'Transverse core' | fg=theme1
+CA49 | 4.0 | fg=theme1
+CB49 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+CC49 | 'DEad bugs - https://youtu.be/rbemelnkHag' | fg=0000FF
+CD49 | 'Sagital core' | fg=theme1
+CE49 | 'Accumulate' | bg=F3F3F3 fg=theme1
+CF49 | '5 min' | bg=F3F3F3 fg=theme1
+CG49 | 'Loaded low plank - plate on hips' | bg=F3F3F3 fg=theme1
+CH49 | 'Transverse core' | fg=theme1
+CI49 | 4.0 | fg=theme1
+CJ49 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+CK49 | 'cable oblique twists - https://www.youtube.com/watch?v=Gq7ToKnOC1Q' | fg=theme1
+CM49 | 'Part B' | fg=theme1
+CN49 | 'LATERAL CORE' | fg=theme1
+CO49 | 5.0 | bg=F3F3F3 fg=theme1
+CP49 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+CQ49 | 'Hanging Oblique Knee Raise to chest - https://www.youtube.com/watch?v=L1rt7qr5LCk' | bg=F3F3F3 fg=theme1
+CR49 | 'Transverse core' | fg=theme1
+CS49 | 4.0 | fg=theme1
+CT49 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+CU49 | 'Facing The Wall MB Rotational Scoop - https://www.youtube.com/watch?v=Qq83wji4t2I' | fg=theme1
+CV49 | 'Sagital core' | fg=theme1
+CW49 | 'Accumulate' | bg=F3F3F3 fg=theme1
+CX49 | '3 min' | bg=F3F3F3 fg=theme1
+CY49 | 'hallow rocks - https://www.youtube.com/watch?v=6Qdh8qzxFY8' | bg=F3F3F3 fg=theme1
+CZ49 | 'Transverse core' | fg=theme1
+DA49 | 4.0 | fg=theme1
+DB49 | '20 secs' | fg=theme1
+DC49 | 'bycicle crunches - https://www.youtube.com/watch?v=_vWNnODwF5w' | fg=theme1
+DS49 | datetime.datetime(2023, 6, 6, 0, 0) | fg=theme1
+DT49 | 'Rotational Medicine Ball Scoop Toss - https://www.youtube.com/watch?v=LIQVEVwjAqU' | fg=0F0F0F
+DV49 | 'Part C' | fg=theme1
+DW49 | 'bkd' | fg=theme1
+DX49 | '3 or 4' | bg=F3F3F3 fg=theme1
+DY49 | 8.0 | bg=F3F3F3 fg=theme1
+DZ49 | 'front squats' | bg=F3F3F3 fg=theme1
+EA49 | 'bhd' | fg=theme1
+EB49 | 3.0 | fg=theme1
+EC49 | 8.0 | fg=theme1
+ED49 | 'Deadlifts' | fg=theme1
+EE49 | 'bkd' | fg=theme1
+EF49 | 3.0 | bg=F3F3F3 fg=theme1
+EG49 | 8.0 | bg=F3F3F3 fg=theme1
+EH49 | 'goblet squats - https://www.youtube.com/watch?v=a-dqF4NL2K4' | bg=F3F3F3 fg=theme1
+EI49 | 'bhd' | fg=theme1
+EJ49 | 3.0 | fg=theme1
+EK49 | 8.0 | fg=theme1
+EL49 | 'kb swings - https://www.youtube.com/watch?v=KkYOW3jDhoM' | fg=theme1
+CM50 | 0.0 | fg=theme1
+DD50 | 'OPTIONAL PIECE' | bg=D5A6BD fg=theme1
+DE50 | 'OLY' | bg=D5A6BD fg=theme1
+DF50 | 4.0 | bg=D5A6BD fg=theme1
+DG50 | 4.0 | bg=D5A6BD fg=theme1
+DH50 | 'Hang cleans @ 90%' | bg=D5A6BD fg=theme1
+DI50 | 'OLY' | bg=D5A6BD fg=theme1
+DJ50 | 4.0 | bg=D5A6BD fg=theme1
+DK50 | 4.0 | bg=D5A6BD fg=theme1
+DL50 | 'Hang snatch @ 90%' | bg=D5A6BD fg=theme1
+DM50 | 'OLY' | bg=D5A6BD fg=theme1
+DN50 | 4.0 | bg=D5A6BD fg=theme1
+DO50 | 4.0 | bg=D5A6BD fg=theme1
+DP50 | 'Hang cleans @ 90%' | bg=D5A6BD fg=theme1
+DQ50 | 'OLY' | bg=D5A6BD fg=theme1
+DR50 | 4.0 | bg=D5A6BD fg=theme1
+DS50 | 4.0 | bg=D5A6BD fg=theme1
+DT50 | 'Hang Snatch @ 90%' | bg=D5A6BD fg=theme1
+DW50 | 'horiz pull' | fg=theme1
+DY50 | 8.0 | bg=F3F3F3 fg=theme1
+DZ50 | 'seal DB row' | bg=F3F3F3 fg=theme1
+EA50 | 'horiz push' | fg=theme1
+EC50 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+ED50 | 'Alternating DB Bench press (botton up) - https://www.youtube.com/watch?v=YUhAJt8xsFY' | fg=theme1
+EE50 | 'vert pull' | fg=theme1
+EG50 | 8.0 | bg=F3F3F3 fg=theme1
+EH50 | 'Close grip cable lat pull down' | bg=F3F3F3 fg=theme1
+EI50 | 'vert push' | fg=theme1
+EK50 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+EL50 | 'Single arm DB press' | fg=theme1
+A51 | 'Part C' | fg=theme1
+B51 | 'bkd' | fg=theme1
+C51 | 4.0 | bg=F3F3F3 fg=theme1
+D51 | 8.0 | bg=F3F3F3 fg=theme1
+E51 | 'Heavy front squats' | bg=F3F3F3 fg=theme1
+F51 | 'bhd' | fg=theme1
+G51 | 4.0 | fg=theme1
+H51 | 8.0 | fg=theme1
+I51 | 'Barbell deadlift' | fg=theme1
+J51 | 'bkd' | fg=theme1
+K51 | 4.0 | bg=F3F3F3 fg=theme1
+L51 | 8.0 | bg=F3F3F3 fg=theme1
+M51 | 'front squat' | bg=F3F3F3 fg=theme1
+N51 | 'bhd' | fg=theme1
+O51 | 4.0 | fg=theme1
+P51 | 8.0 | fg=theme1
+Q51 | 'DB High jumps Staggered stance switch' | fg=theme1
+S51 | 'Part C' | fg=theme1
+T51 | 'bkd' | fg=theme1
+U51 | 5.0 | bg=F3F3F3 fg=theme1
+V51 | '12/12/12/12/12' | bg=F3F3F3 fg=theme1
+W51 | 'KB Squat cleans' | bg=F3F3F3 fg=theme1
+X51 | 'bhd' | fg=theme1
+Y51 | 4.0 | fg=theme1
+Z51 | '12/12/10/10' | fg=theme1
+AA51 | 'Staggered Barbell deadlift' | fg=theme1
+AB51 | 'bkd' | fg=theme1
+AC51 | 4.0 | bg=F3F3F3 fg=theme1
+AD51 | '12/12/10/10' | bg=F3F3F3 fg=theme1
+AE51 | 'front squat' | bg=F3F3F3 fg=theme1
+AF51 | 'bhd' | fg=theme1
+AG51 | 4.0 | fg=theme1
+AH51 | '12/12/12/12' | fg=theme1
+AI51 | 'Fast KB swings' | fg=theme1
+AK51 | 'Part C' | fg=theme1
+AL51 | 'bkd' | fg=theme1
+AM51 | 4.0 | bg=F3F3F3 fg=theme1
+AN51 | '4/4/4/4' | bg=F3F3F3 fg=theme1
+AO51 | 'Front squats - light weights - same speed for all reps' | bg=F3F3F3 fg=theme1
+AP51 | 'bhd' | fg=theme1
+AQ51 | 4.0 | fg=theme1
+AR51 | '12/12/12/12' | fg=theme1
+AS51 | 'barbell Deadlifts' | fg=theme1
+AT51 | 'bkd' | fg=theme1
+AU51 | 4.0 | bg=F3F3F3 fg=theme1
+AV51 | '8/6/4/4' | bg=F3F3F3 fg=theme1
+AW51 | 'heavy hex bar squats https://www.youtube.com/watch?v=M-3wmzwsUxc' | bg=F3F3F3 fg=theme1
+AX51 | 'bhd' | fg=theme1
+AY51 | 4.0 | fg=theme1
+AZ51 | '8/8/8/8' | fg=theme1
+BA51 | 'fast barbell deadlifts' | fg=theme1
+BC51 | 'OPTIONAL PIECE' | bg=D5A6BD fg=theme1
+BD51 | 'OLY' | bg=D5A6BD fg=theme1
+BE51 | 4.0 | bg=D5A6BD fg=theme1
+BF51 | 8.0 | bg=D5A6BD fg=theme1
+BG51 | 'Hang cleans @ 75%' | bg=D5A6BD fg=theme1
+BH51 | 'OLY' | bg=D5A6BD fg=theme1
+BI51 | 4.0 | bg=D5A6BD fg=theme1
+BJ51 | 8.0 | bg=D5A6BD fg=theme1
+BK51 | 'Hang snatch @ 75%' | bg=D5A6BD fg=theme1
+BL51 | 'OLY' | bg=D5A6BD fg=theme1
+BM51 | 4.0 | bg=D5A6BD fg=theme1
+BN51 | 8.0 | bg=D5A6BD fg=theme1
+BO51 | 'Hang cleans @ 75%' | bg=D5A6BD fg=theme1
+BP51 | 'OLY' | bg=D5A6BD fg=theme1
+BQ51 | 4.0 | bg=D5A6BD fg=theme1
+BR51 | 8.0 | bg=D5A6BD fg=theme1
+BS51 | 'Hang Snatch @ 75%' | bg=D5A6BD fg=theme1
+BU51 | 'OPTIONAL PIECE' | bg=D5A6BD fg=theme1
+BV51 | 'OLY' | bg=D5A6BD fg=theme1
+BW51 | 4.0 | bg=D5A6BD fg=theme1
+BX51 | 6.0 | bg=D5A6BD fg=theme1
+BY51 | 'Hang cleans @ 80%' | bg=D5A6BD fg=theme1
+BZ51 | 'OLY' | bg=D5A6BD fg=theme1
+CA51 | 4.0 | bg=D5A6BD fg=theme1
+CB51 | 6.0 | bg=D5A6BD fg=theme1
+CC51 | 'Hang snatch @ 80%' | bg=D5A6BD fg=theme1
+CD51 | 'OLY' | bg=D5A6BD fg=theme1
+CE51 | 4.0 | bg=D5A6BD fg=theme1
+CF51 | 6.0 | bg=D5A6BD fg=theme1
+CG51 | 'Hang cleans @ 80%' | bg=D5A6BD fg=theme1
+CH51 | 'OLY' | bg=D5A6BD fg=theme1
+CI51 | 4.0 | bg=D5A6BD fg=theme1
+CJ51 | 6.0 | bg=D5A6BD fg=theme1
+CK51 | 'Hang Snatch @ 80%' | bg=D5A6BD fg=theme1
+CM51 | 'OPTIONAL PIECE' | bg=D5A6BD fg=theme1
+CN51 | 'OLY' | bg=D5A6BD fg=theme1
+CO51 | 4.0 | bg=D5A6BD fg=theme1
+CP51 | 6.0 | bg=D5A6BD fg=theme1
+CQ51 | 'Hang cleans @ 85%' | bg=D5A6BD fg=theme1
+CR51 | 'OLY' | bg=D5A6BD fg=theme1
+CS51 | 4.0 | bg=D5A6BD fg=theme1
+CT51 | 6.0 | bg=D5A6BD fg=theme1
+CU51 | 'Hang snatch @ 85%' | bg=D5A6BD fg=theme1
+CV51 | 'OLY' | bg=D5A6BD fg=theme1
+CW51 | 4.0 | bg=D5A6BD fg=theme1
+CX51 | 6.0 | bg=D5A6BD fg=theme1
+CY51 | 'Hang cleans @ 85%' | bg=D5A6BD fg=theme1
+CZ51 | 'OLY' | bg=D5A6BD fg=theme1
+DA51 | 4.0 | bg=D5A6BD fg=theme1
+DB51 | 6.0 | bg=D5A6BD fg=theme1
+DC51 | 'Hang Snatch @ 85%' | bg=D5A6BD fg=theme1
+DD51 | 'Part C' | fg=theme1
+DE51 | 'bkd' | fg=theme1
+DF51 | 5.0 | bg=F3F3F3 fg=theme1
+DG51 | '5 of each' | bg=F3F3F3 fg=theme1
+DH51 | 'front squats/high jumps/hex bar squat jumps/ banded assisted hops' | bg=F3F3F3 fg=theme1
+DI51 | 'bhd' | fg=theme1
+DJ51 | 5.0 | fg=theme1
+DK51 | '6/6/6/6' | fg=theme1
+DL51 | 'heavy deadlifts' | fg=theme1
+DM51 | 'bkd' | fg=theme1
+DN51 | 5.0 | bg=F3F3F3 fg=theme1
+DO51 | 12.0 | bg=F3F3F3 fg=theme1
+DP51 | 'zercher squat https://www.youtube.com/watch?v=Oui8-eLXkqo' | bg=F3F3F3 fg=theme1
+DQ51 | 'bhd' | fg=theme1
+DR51 | 5.0 | fg=theme1
+DS51 | 12.0 | fg=theme1
+DT51 | 'kb swings heavy ' | fg=theme1
+B52 | 'horiz pull' | fg=theme1
+D52 | 10.0 | bg=F3F3F3 fg=theme1
+E52 | 'KB squat cleans' | bg=F3F3F3 fg=theme1
+F52 | 'horiz push' | fg=theme1
+H52 | 10.0 | fg=theme1
+I52 | 'Broad jumps' | fg=theme1
+J52 | 'vert pull' | fg=theme1
+L52 | 12.0 | bg=F3F3F3 fg=theme1
+M52 | 'pull ups' | bg=F3F3F3 fg=theme1
+N52 | 'vert push' | fg=theme1
+P52 | 8.0 | fg=theme1
+Q52 | 'barbell overhead strict press' | fg=theme1
+T52 | 'horiz pull' | fg=theme1
+V52 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+W52 | 'Cable half kneeling rotational row' | bg=F3F3F3 fg=theme1
+X52 | 'horiz push' | fg=theme1
+Z52 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+AA52 | 'Top down incline db bench press' | fg=theme1
+AB52 | 'vert pull' | fg=theme1
+AD52 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+AE52 | 'pull ups' | bg=F3F3F3 fg=theme1
+AF52 | 'vert push' | fg=theme1
+AH52 | 12.0 | fg=theme1
+AI52 | 'medball press - https://youtu.be/p7njQa7-WLI' | fg=0000FF
+AL52 | 'bkd' | fg=theme1
+AN52 | '8/8/8/8' | bg=F3F3F3 fg=theme1
+AO52 | 'Jump squats' | bg=F3F3F3 fg=theme1
+AP52 | 'horiz push' | fg=theme1
+AR52 | 10.0 | fg=theme1
+AS52 | 'DB flat bench press' | fg=theme1
+AT52 | 'vert pull' | fg=theme1
+AV52 | 'heavy Max reps' | bg=F3F3F3 fg=theme1
+AW52 | 'Cable lat pull over' | bg=F3F3F3 fg=theme1
+AX52 | 'vert push' | fg=theme1
+AZ52 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+BA52 | 'one dumbbell half kneeling single arm db press' | fg=theme1
+BC52 | 'Part C' | fg=theme1
+BD52 | 'bkd' | fg=theme1
+BE52 | 4.0 | bg=F3F3F3 fg=theme1
+BF52 | '12/12/12/12' | bg=F3F3F3 fg=theme1
+BG52 | 'barbell High zercher squat' | bg=F3F3F3 fg=theme1
+BH52 | 'bhd' | fg=theme1
+BI52 | 4.0 | fg=theme1
+BJ52 | '12/12/12/12' | fg=theme1
+BK52 | 'Deadlifts' | fg=theme1
+BL52 | 'bkd' | fg=theme1
+BM52 | 4.0 | bg=F3F3F3 fg=theme1
+BN52 | 8.0 | bg=F3F3F3 fg=theme1
+BO52 | 'Hex bar jump squats ' | bg=F3F3F3 fg=theme1
+BP52 | 'bhd' | fg=theme1
+BQ52 | 4.0 | fg=theme1
+BR52 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+BS52 | '45 degree hyper-extension machine - Kb swings ' | fg=theme1
+BU52 | 'Part C' | fg=theme1
+BV52 | 'bkd' | fg=theme1
+BW52 | 5.0 | bg=F3F3F3 fg=theme1
+BX52 | '5 of each' | bg=F3F3F3 fg=theme1
+BY52 | 'front squats/high jumps/hex bar squat jumps/ banded assisted hops' | bg=F3F3F3 fg=theme1
+BZ52 | 'bhd' | fg=theme1
+CA52 | 4.0 | fg=theme1
+CB52 | '6/6/5/4' | fg=theme1
+CC52 | 'heavy deadlifts' | fg=theme1
+CD52 | 'bkd' | fg=theme1
+CE52 | 4.0 | bg=F3F3F3 fg=theme1
+CF52 | 12.0 | bg=F3F3F3 fg=theme1
+CG52 | 'kb clean squat https://www.youtube.com/watch?v=Oui8-eLXkqo' | bg=F3F3F3 fg=theme1
+CH52 | 'bhd' | fg=theme1
+CI52 | 4.0 | fg=theme1
+CJ52 | 12.0 | fg=theme1
+CK52 | 'kb swings heavy ' | fg=theme1
+CM52 | 'Part C' | fg=theme1
+CN52 | 'bkd' | fg=theme1
+CO52 | 5.0 | bg=F3F3F3 fg=theme1
+CP52 | '5 each ' | bg=F3F3F3 fg=theme1
+CQ52 | 'back squats/banded  jumps/DB squat jumps/ high ankle hops' | bg=F3F3F3 fg=theme1
+CR52 | 'bhd' | fg=theme1
+CS52 | 5.0 | fg=theme1
+CT52 | 10.0 | fg=theme1
+CU52 | 'Deadlifts' | fg=theme1
+CV52 | 'bkd' | fg=theme1
+CW52 | 5.0 | bg=F3F3F3 fg=theme1
+CX52 | 10.0 | bg=F3F3F3 fg=theme1
+CY52 | 'banded front squats - https://www.youtube.com/watch?v=Oy6-7I1qhsk' | bg=F3F3F3 fg=theme1
+CZ52 | 'bhd' | fg=theme1
+DA52 | 5.0 | fg=theme1
+DB52 | 10.0 | fg=theme1
+DC52 | 'banded kb swings - https://www.youtube.com/watch?v=lL7TGSQzUx4' | fg=theme1
+DE52 | 'horiz pull' | fg=theme1
+DG52 | '15/15' | bg=F3F3F3 fg=theme1
+DH52 | 'half kneeling SA cable lats pull down https://www.youtube.com/watch?v=XbZgoSNJXm4' | bg=F3F3F3 fg=theme1
+DI52 | 'horiz push' | fg=theme1
+DK52 | 6.0 | fg=theme1
+DL52 | 'fast banded assisted bench press' | fg=theme1
+DM52 | 'vert pull' | fg=theme1
+DO52 | datetime.datetime(2023, 8, 12, 0, 0) | bg=F3F3F3 fg=theme1
+DP52 | 'pull ups or banded assisted pull ups' | bg=F3F3F3 fg=theme1
+DQ52 | 'vert push' | fg=theme1
+DS52 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+DT52 | 'sigle arm DB push split jerk - https://www.youtube.com/watch?v=nwVFp4Lk6X4' | fg=theme1
+DV52 | 'Part D' | fg=theme1
+DW52 | 'uhd' | fg=theme1
+DX52 | 3.0 | bg=F3F3F3 fg=theme1
+DY52 | '8 on each side' | bg=F3F3F3 fg=theme1
+DZ52 | 'camporini deadlift - https://www.youtube.com/watch?v=cRU0RQ1KTfg' | bg=F3F3F3 fg=0000FF
+EA52 | 'ukd' | fg=theme1
+EB52 | 3.0 | fg=theme1
+EC52 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+ED52 | ' DB step ups ' | fg=theme1
+EE52 | 'uhd' | fg=theme1
+EF52 | 3.0 | bg=F3F3F3 fg=theme1
+EG52 | datetime.datetime(2023, 8, 8, 0, 0) | bg=F3F3F3 fg=theme1
+EH52 | 'SL hip thurts march- https://www.youtube.com/watch?v=gyMNIOlVwYQ' | bg=F3F3F3 fg=theme1
+EI52 | 'ukd' | fg=theme1
+EJ52 | 3.0 | fg=theme1
+EK52 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+EL52 | 'slow eccentric deficit Lunges (no weigths) - https://www.youtube.com/watch?v=W0wZ-yk6WR4 ' | fg=theme1
+D53 | 12.0 | bg=F3F3F3 fg=theme1
+E53 | 'seal rows' | bg=F3F3F3 fg=theme1
+H53 | 12.0 | fg=theme1
+I53 | 'incline db bench press' | fg=theme1
+AL53 | 'horiz pull' | fg=theme1
+AN53 | 8.0 | bg=F3F3F3 fg=theme1
+AO53 | 'bend over barbell rows' | bg=F3F3F3 fg=theme1
+BD53 | 'horiz pull' | fg=theme1
+BF53 | 'Superset - max reps' | bg=F3F3F3 fg=theme1
+BG53 | 'Heavy DB row' | bg=F3F3F3 fg=theme1
+BH53 | 'horiz push' | fg=theme1
+BJ53 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+BK53 | 'Alternating DB Bench press (small incline)' | fg=theme1
+BL53 | 'vert pull' | fg=theme1
+BN53 | 'heavy Max reps' | bg=F3F3F3 fg=theme1
+BO53 | 'Pull ups or Close grip cable lat pull down' | bg=F3F3F3 fg=theme1
+BP53 | 'vert push' | fg=theme1
+BR53 | datetime.datetime(2022, 12, 12, 0, 0) | fg=theme1
+BS53 | 'Single arm DB push press' | fg=theme1
+BV53 | 'horiz pull' | fg=theme1
+BX53 | datetime.datetime(2023, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+BY53 | 'half kneeling SA cable lats pull down https://www.youtube.com/watch?v=XbZgoSNJXm4' | bg=F3F3F3 fg=theme1
+BZ53 | 'horiz push' | fg=theme1
+CB53 | 6.0 | fg=theme1
+CC53 | 'fast banded assisted bench press' | fg=theme1
+CD53 | 'vert pull' | fg=theme1
+CF53 | datetime.datetime(2023, 8, 12, 0, 0) | bg=F3F3F3 fg=theme1
+CG53 | 'pull ups or banded assisted pull ups' | bg=F3F3F3 fg=theme1
+CH53 | 'vert push' | fg=theme1
+CJ53 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+CK53 | 'half kneeling landmine press - https://www.youtube.com/watch?v=ORoOn93dnh4' | fg=theme1
+CN53 | 'horiz pull' | fg=theme1
+CP53 | 'Superset - max reps' | bg=F3F3F3 fg=theme1
+CQ53 | 'seal DB row' | bg=F3F3F3 fg=theme1
+CR53 | 'horiz push' | fg=theme1
+CT53 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+CU53 | 'Alternating DB Bench press (botton up) - https://www.youtube.com/watch?v=YUhAJt8xsFY' | fg=theme1
+CV53 | 'vert pull' | fg=theme1
+CX53 | '6 to 10' | bg=F3F3F3 fg=theme1
+CY53 | 'weighted Pull ups or max reps Close grip cable lat pull down' | bg=F3F3F3 fg=theme1
+CZ53 | 'vert push' | fg=theme1
+DB53 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+DC53 | 'Single arm DB push press' | fg=theme1
+DW53 | 'bicep' | fg=theme1
+DY53 | datetime.datetime(2023, 8, 8, 0, 0) | bg=F3F3F3 fg=theme1
+DZ53 | 'bicep curls' | bg=F3F3F3 fg=theme1
+EA53 | 'tricep' | fg=theme1
+EC53 | 8.0 | fg=theme1
+ED53 | 'OH rope tricep extension - https://www.youtube.com/watch?v=kqidUIf1eJE' | fg=theme1
+EE53 | 'bicep' | fg=theme1
+EG53 | datetime.datetime(2023, 8, 8, 0, 0) | bg=F3F3F3 fg=theme1
+EH53 | 'hammer curls' | bg=F3F3F3 fg=theme1
+EI53 | 'shoulders' | fg=theme1
+EK53 | 8.0 | fg=theme1
+EL53 | 'side raises' | fg=theme1
+A54 | 'Part D' | fg=theme1
+B54 | 'uhd' | fg=theme1
+C54 | 4.0 | bg=F3F3F3 fg=theme1
+D54 | '20 on each side - FAST ' | bg=F3F3F3 fg=theme1
+E54 | 'Glidder hamstring runners' | bg=F3F3F3 fg=theme1
+F54 | 'ukd' | fg=theme1
+G54 | 4.0 | fg=theme1
+H54 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+I54 | 'ffe lunges - contralateral loading' | fg=theme1
+J54 | 'uhd' | fg=theme1
+K54 | 4.0 | bg=F3F3F3 fg=theme1
+L54 | 20.0 | bg=F3F3F3 fg=theme1
+M54 | 'Banded rolling hamstring curls' | bg=F3F3F3 fg=theme1
+N54 | 'ukd' | fg=theme1
+O54 | 4.0 | fg=theme1
+P54 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+Q54 | 'db ipsilateral step up' | fg=theme1
+S54 | 'Part D' | fg=theme1
+T54 | 'uhd' | fg=theme1
+U54 | 4.0 | bg=F3F3F3 fg=theme1
+V54 | '20 on each side - FAST ' | bg=F3F3F3 fg=theme1
+W54 | 'Glidder hamstring runners' | bg=F3F3F3 fg=theme1
+X54 | 'ukd' | fg=theme1
+Y54 | 4.0 | fg=theme1
+Z54 | '15/15' | fg=theme1
+AA54 | 'RFE lunges - doubke db suitcase loading' | fg=theme1
+AB54 | 'uhd' | fg=theme1
+AC54 | 4.0 | bg=F3F3F3 fg=theme1
+AE54 | 'Swiss ball kicks (30 seconds)' | bg=F3F3F3 fg=theme1
+AF54 | 'ukd' | fg=theme1
+AG54 | 4.0 | fg=theme1
+AH54 | '10//10' | fg=theme1
+AI54 | 'step ups - dbs on both hands' | fg=theme1
+AK54 | 'Part D' | fg=theme1
+AL54 | 'uhd' | fg=theme1
+AM54 | 4.0 | bg=F3F3F3 fg=theme1
+AN54 | '12 on each side' | bg=F3F3F3 fg=theme1
+AO54 | 'suitcase double dumbell staggered db RDL' | bg=F3F3F3 fg=theme1
+AP54 | 'ukd' | fg=theme1
+AQ54 | 4.0 | fg=theme1
+AR54 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+AS54 | 'db high zercher step ups https://www.youtube.com/watch?v=1BaYS6fhR2U' | fg=theme1
+AT54 | 'uhd' | fg=theme1
+AU54 | 4.0 | bg=F3F3F3 fg=theme1
+AV54 | datetime.datetime(2023, 8, 8, 0, 0) | bg=F3F3F3 fg=theme1
+AW54 | 'SL glute bridges (heel on bench) https://www.youtube.com/watch?v=tiZWu8faIkM' | bg=F3F3F3 fg=theme1
+AX54 | 'ukd' | fg=theme1
+AY54 | 4.0 | fg=theme1
+AZ54 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+BA54 | ' side lunges (db contralateral load) - https://www.youtube.com/watch?v=HLDhxSqMQyE' | fg=theme1
+DD54 | 'Part D' | fg=theme1
+DE54 | 'uhd' | fg=theme1
+DF54 | 5.0 | bg=F3F3F3 fg=theme1
+DG54 | '15/15' | bg=F3F3F3 fg=theme1
+DH54 | 'SL glute bridge https://www.youtube.com/watch?v=tiZWu8faIkM' | bg=F3F3F3 fg=theme1
+DI54 | 'ukd' | fg=theme1
+DJ54 | 5.0 | fg=theme1
+DK54 | datetime.datetime(2022, 12, 12, 0, 0) | fg=theme1
+DL54 | 'DB alternating Deficit Reverse lunges from plate https://www.youtube.com/watch?v=EbBWFpUbrQ0' | fg=theme1
+DM54 | 'uhd' | fg=theme1
+DN54 | 5.0 | bg=F3F3F3 fg=theme1
+DO54 | datetime.datetime(2023, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+DP54 | 'staggered stance db deadlift' | bg=F3F3F3 fg=theme1
+DQ54 | 'ukd' | fg=theme1
+DR54 | 4.0 | fg=theme1
+DS54 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+DT54 | 'kb front rack lateral lunge - https://youtube.com/shorts/WA7HfjppDkc?feature=sharelateral kb lunges' | fg=theme1
+DW54 | 'calfs' | fg=theme1
+DY54 | 15.0 | bg=F3F3F3 fg=theme1
+DZ54 | 'DB calf raises' | bg=F3F3F3 fg=theme1
+EA54 | 'shoulders' | fg=theme1
+EC54 | 8.0 | fg=theme1
+ED54 | 'side raises' | fg=theme1
+EE54 | 'calf' | fg=theme1
+EG54 | 10.0 | bg=F3F3F3 fg=theme1
+EH54 | 'ankle hops ' | bg=F3F3F3 fg=theme1
+EI54 | 'triceps' | fg=theme1
+EK54 | 8.0 | fg=theme1
+EL54 | 'DB tricep extensions ' | fg=theme1
+B55 | 'bicep' | fg=theme1
+D55 | datetime.datetime(2022, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+E55 | 'incline curls' | bg=F3F3F3 fg=theme1
+F55 | 'tricep' | fg=theme1
+H55 | 'MAX' | fg=theme1
+I55 | 'floor db skull crushers' | fg=theme1
+J55 | 'bicep' | fg=theme1
+L55 | 'MAX' | bg=F3F3F3 fg=theme1
+M55 | 'Alternating bicep curls' | bg=F3F3F3 fg=theme1
+N55 | 'tricep' | fg=theme1
+P55 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+Q55 | 'offset pushups' | fg=theme1
+T55 | 'bicep' | fg=theme1
+V55 | 'MAX' | bg=F3F3F3 fg=theme1
+W55 | 'DB "no money" curls' | bg=F3F3F3 fg=theme1
+X55 | 'tricep' | fg=theme1
+Z55 | 'MAX' | fg=theme1
+AA55 | 'Ropte Tricep Extensions' | fg=theme1
+AB55 | 'bicep' | fg=theme1
+AD55 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AE55 | 'Alternating curl to press' | bg=F3F3F3 fg=theme1
+AF55 | 'tricep' | fg=theme1
+AH55 | '10//10' | fg=theme1
+AI55 | 'offset pushups' | fg=theme1
+AL55 | 'bicep' | fg=theme1
+AN55 | 12.0 | bg=F3F3F3 fg=theme1
+AO55 | 'EZ bar curls' | bg=F3F3F3 fg=theme1
+AP55 | 'tricep' | fg=theme1
+AR55 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+AS55 | 'plank up downs https://www.youtube.com/watch?v=UL0YQy4KYZg' | fg=theme1
+AT55 | 'bicep' | fg=theme1
+AV55 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AW55 | 'SA db preacher curls https://www.youtube.com/watch?v=JFXLD7NaDEI' | bg=F3F3F3 fg=theme1
+AX55 | 'tricep' | fg=theme1
+AZ55 | 'myo set' | fg=theme1
+BA55 | 'db overhead tricep ext' | fg=theme1
+BC55 | 'Part D' | fg=theme1
+BD55 | 'uhd' | fg=theme1
+BE55 | 4.0 | bg=F3F3F3 fg=theme1
+BF55 | '12 on each side' | bg=F3F3F3 fg=theme1
+BG55 | 'Staggered stance DB dl' | bg=F3F3F3 fg=theme1
+BH55 | 'ukd' | fg=theme1
+BI55 | 4.0 | fg=theme1
+BJ55 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+BK55 | 'High zercher DB RFE Lunge front foot on ramp' | fg=theme1
+BL55 | 'uhd' | fg=theme1
+BM55 | 4.0 | bg=F3F3F3 fg=theme1
+BN55 | datetime.datetime(2022, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+BO55 | 'Staggered stance DB dl - Medial pressure - contralateral loading - https://youtube.com/shorts/avUPBq-FrDU?feature=share' | bg=F3F3F3 fg=theme1
+BP55 | 'ukd' | fg=theme1
+BQ55 | 4.0 | fg=theme1
+BR55 | '8secs / 10 reps each ' | fg=theme1
+BS55 | 'Suitcase DB RFE iso holds / RFE lunge jumps' | fg=theme1
+BU55 | 'Part D' | fg=theme1
+BV55 | 'uhd' | fg=theme1
+BW55 | 4.0 | bg=F3F3F3 fg=theme1
+BX55 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BY55 | 'SL glute bridge https://www.youtube.com/watch?v=tiZWu8faIkM' | bg=F3F3F3 fg=theme1
+BZ55 | 'ukd' | fg=theme1
+CA55 | 4.0 | fg=theme1
+CB55 | datetime.datetime(2022, 12, 12, 0, 0) | fg=theme1
+CC55 | 'DB alternating Deficit Reverse lunges from plate https://www.youtube.com/watch?v=EbBWFpUbrQ0' | fg=theme1
+CD55 | 'uhd' | fg=theme1
+CE55 | 4.0 | bg=F3F3F3 fg=theme1
+CF55 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+CG55 | 'heavy rear foot on wall db deadlift' | bg=F3F3F3 fg=theme1
+CH55 | 'ukd' | fg=theme1
+CI55 | 4.0 | fg=theme1
+CJ55 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+CK55 | 'kb front rack lateral lunge - https://youtube.com/shorts/WA7HfjppDkc?feature=sharelateral kb lunges' | fg=theme1
+CM55 | 'Part D' | fg=theme1
+CN55 | 'uhd' | fg=theme1
+CO55 | 5.0 | bg=F3F3F3 fg=theme1
+CP55 | '10 on each side' | bg=F3F3F3 fg=theme1
+CQ55 | 'camporini deadlift - https://www.youtube.com/watch?v=cRU0RQ1KTfg' | bg=F3F3F3 fg=0000FF
+CR55 | 'ukd' | fg=theme1
+CS55 | 5.0 | fg=theme1
+CT55 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+CU55 | 'heavy DB step ups ' | fg=theme1
+CV55 | 'uhd' | fg=theme1
+CW55 | 5.0 | bg=F3F3F3 fg=theme1
+CX55 | '0:12 secs' | bg=F3F3F3 fg=theme1
+CY55 | 'hamstring runners - https://www.youtube.com/watch?v=9XG1s1dEl6A' | bg=F3F3F3 fg=theme1
+CZ55 | 'ukd' | fg=theme1
+DA55 | 5.0 | fg=theme1
+DB55 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+DC55 | 'split stance jump squats' | fg=theme1
+DE55 | 'bicep' | fg=theme1
+DG55 | datetime.datetime(2023, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+DH55 | 'heavy curls' | bg=F3F3F3 fg=theme1
+DI55 | 'shoulders' | fg=theme1
+DK55 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+DL55 | 'Cable side raises https://www.youtube.com/watch?v=lq7eLC30b9w' | fg=theme1
+DM55 | 'calfs' | fg=theme1
+DO55 | 15.0 | bg=F3F3F3 fg=theme1
+DP55 | 'DB ankle hops' | bg=F3F3F3 fg=theme1
+DQ55 | 'tricep' | fg=theme1
+DS55 | 20.0 | fg=theme1
+DT55 | 'cable overhead tricep extensions' | fg=theme1
+DV55 | 'Part E' | bg=FFF2CC fg=theme1
+DW55 | 'Buy out' | bg=FFF2CC fg=theme1
+DZ55 | 'none' | bg=FFF2CC fg=theme1
+EA55 | 'Buy out' | bg=FFF2CC fg=theme1
+ED55 | 'none' | bg=FFF2CC fg=theme1
+EE55 | 'Buy out' | bg=FFF2CC fg=theme1
+EH55 | 'none' | bg=FFF2CC fg=theme1
+EI55 | 'Buy out' | bg=FFF2CC fg=theme1
+B56 | 'calfs' | fg=theme1
+D56 | 20.0 | bg=F3F3F3 fg=theme1
+E56 | 'DB heavy ankle hops' | bg=F3F3F3 fg=theme1
+F56 | 'shoulders' | fg=theme1
+H56 | 'MAX' | fg=theme1
+I56 | 'Side Raises' | fg=theme1
+J56 | 'calfs' | fg=theme1
+L56 | 'MAX' | bg=F3F3F3 fg=theme1
+M56 | 'weighted calf raises' | bg=F3F3F3 fg=theme1
+N56 | 'shoulders' | fg=theme1
+P56 | 'max' | fg=theme1
+Q56 | 'bent over sesaw rows' | fg=theme1
+T56 | 'calfs' | fg=theme1
+V56 | 20.0 | bg=F3F3F3 fg=theme1
+W56 | 'DB ankle hops' | bg=F3F3F3 fg=theme1
+X56 | 'shoulders' | fg=theme1
+Z56 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+AA56 | 'Single Arm DB snatch from floor' | fg=theme1
+AB56 | 'calfs' | fg=theme1
+AD56 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AE56 | 'weighted calf raises' | bg=F3F3F3 fg=theme1
+AF56 | 'shoulders' | fg=theme1
+AH56 | 'max' | fg=theme1
+AI56 | 'rear delt db row - https://youtu.be/hOlO2wO-6dk' | fg=0000FF
+AL56 | 'calfs' | fg=theme1
+AN56 | 20.0 | bg=F3F3F3 fg=theme1
+AO56 | 'High ankle hops' | bg=F3F3F3 fg=theme1
+AP56 | 'shoulders' | fg=theme1
+AR56 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+AS56 | 'Side raises' | fg=theme1
+AT56 | 'calfs' | fg=theme1
+AV56 | 'MAX' | bg=F3F3F3 fg=theme1
+AW56 | 'Heavy calf raises double db' | bg=F3F3F3 fg=theme1
+AX56 | 'shoulders' | fg=theme1
+AZ56 | 12.0 | fg=theme1
+BA56 | 'db side raises' | fg=theme1
+BD56 | 'bicep' | fg=theme1
+BF56 | datetime.datetime(2023, 8, 8, 0, 0) | bg=F3F3F3 fg=theme1
+BG56 | 'Inclined bench curls' | bg=F3F3F3 fg=theme1
+BH56 | 'tricep' | fg=theme1
+BJ56 | 15.0 | fg=theme1
+BK56 | 'Floor tricep DB skull crushers' | fg=theme1
+BL56 | 'bicep' | fg=theme1
+BN56 | 15.0 | bg=F3F3F3 fg=theme1
+BO56 | 'Barbell wide bicep curls ' | bg=F3F3F3 fg=theme1
+BP56 | 'tricep' | fg=theme1
+BR56 | 'MAX' | fg=theme1
+BS56 | 'Cable tricep extensions' | fg=theme1
+BV56 | 'bicep' | fg=theme1
+BX56 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BY56 | 'heavy curls' | bg=F3F3F3 fg=theme1
+BZ56 | 'tricep' | fg=theme1
+CB56 | 15.0 | fg=theme1
+CC56 | 'diamond push ups https://www.youtube.com/watch?v=XtU2VQVuLYs' | fg=theme1
+CD56 | 'bicep' | fg=theme1
+CF56 | 15.0 | bg=F3F3F3 fg=theme1
+CG56 | 'barbell pronted grip bicep curls - https://www.youtube.com/watch?v=-aPmVcgoRiY' | bg=F3F3F3 fg=theme1
+CH56 | 'tricep' | fg=theme1
+CJ56 | 20.0 | fg=theme1
+CK56 | 'cable overhead tricep extensions' | fg=theme1
+CN56 | 'bicep' | fg=theme1
+CP56 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+CQ56 | 'Inclined bench curls' | bg=F3F3F3 fg=theme1
+CR56 | 'tricep' | fg=theme1
+CT56 | 15.0 | fg=theme1
+CU56 | 'OH rope tricep extension - https://www.youtube.com/watch?v=kqidUIf1eJE' | fg=theme1
+CV56 | 'calf' | fg=theme1
+CX56 | 15.0 | bg=F3F3F3 fg=theme1
+CY56 | 'weighted ankle hops' | bg=F3F3F3 fg=theme1
+CZ56 | 'shoulders' | fg=theme1
+DB56 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+DC56 | 'side raises' | fg=theme1
+DE56 | 'calfs' | fg=theme1
+DG56 | 20.0 | bg=F3F3F3 fg=theme1
+DH56 | 'db wighted calf raises' | bg=F3F3F3 fg=theme1
+DI56 | 'triceps' | fg=theme1
+DJ56 | 2.0 | fg=theme1
+DK56 | 'myo sets' | fg=theme1
+DL56 | 'rope tricep extension ' | fg=theme1
+DM56 | 'biceps' | fg=theme1
+DN56 | 2.0 | bg=F3F3F3 fg=theme1
+DO56 | 'myo set' | bg=F3F3F3 fg=theme1
+DP56 | 'db alternating hammer curls' | bg=F3F3F3 fg=theme1
+DQ56 | 'shoulders' | fg=theme1
+DR56 | 2.0 | fg=theme1
+DS56 | 'myo set' | fg=theme1
+DT56 | 'side raises' | fg=theme1
+A57 | 'Part E' | bg=FFF2CC fg=theme1
+B57 | 'Buy out' | bg=FFF2CC fg=theme1
+E57 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+F57 | 'Buy out' | bg=FFF2CC fg=theme1
+I57 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+J57 | 'Buy out' | bg=FFF2CC fg=theme1
+M57 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+N57 | 'Buy out' | bg=FFF2CC fg=theme1
+Q57 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+S57 | 'Part E' | bg=FFF2CC fg=theme1
+T57 | 'Buy out' | bg=FFF2CC fg=theme1
+U57 | 1.0 | bg=FFF2CC fg=theme1
+W57 | '15 cal bike sprint' | bg=FFF2CC fg=theme1
+X57 | 'Buy out' | bg=FFF2CC fg=theme1
+AB57 | 'Buy out' | bg=FFF2CC fg=theme1
+AC57 | 1.0 | bg=FFF2CC fg=theme1
+AE57 | '10 cal bike sprint' | bg=FFF2CC fg=theme1
+AF57 | 'Buy out' | bg=FFF2CC fg=theme1
+AK57 | 'Part E' | bg=FFF2CC fg=theme1
+AL57 | 'Buy out' | bg=FFF2CC fg=theme1
+AM57 | 1.0 | bg=FFF2CC fg=theme1
+AN57 | '15 cal' | bg=FFF2CC fg=theme1
+AO57 | 'bike sprint' | bg=FFF2CC fg=theme1
+AP57 | 'Buy out' | bg=FFF2CC fg=theme1
+AQ57 | 2.0 | bg=FFF2CC fg=theme1
+AR57 | '10 cal' | bg=FFF2CC fg=theme1
+AS57 | 'bike sprints' | bg=FFF2CC fg=theme1
+AT57 | 'Buy out' | bg=FFF2CC fg=theme1
+AU57 | 1.0 | bg=FFF2CC fg=theme1
+AV57 | '15 cal' | bg=FFF2CC fg=theme1
+AW57 | 'skierg sprint' | bg=FFF2CC fg=theme1
+AX57 | 'Buy out' | bg=FFF2CC fg=theme1
+BD57 | 'calfs' | fg=theme1
+BF57 | 'MAX' | bg=F3F3F3 fg=theme1
+BG57 | 'DB calf raises' | bg=F3F3F3 fg=theme1
+BH57 | 'shoulders' | fg=theme1
+BJ57 | '15/15' | fg=theme1
+BK57 | 'Shoulders taps' | fg=theme1
+BL57 | 'calfs' | fg=theme1
+BN57 | 'MAX' | bg=F3F3F3 fg=theme1
+BO57 | 'DB calf raises' | bg=F3F3F3 fg=theme1
+BP57 | 'shoulders' | fg=theme1
+BR57 | 'MAX' | fg=theme1
+BS57 | 'bent over db Reverse flies' | fg=theme1
+BV57 | 'calfs' | fg=theme1
+BX57 | 20.0 | bg=F3F3F3 fg=theme1
+BY57 | 'db wighted calf raises' | bg=F3F3F3 fg=theme1
+BZ57 | 'shoulders' | fg=theme1
+CB57 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+CC57 | 'Cable side raises https://www.youtube.com/watch?v=lq7eLC30b9w' | fg=theme1
+CD57 | 'calfs' | fg=theme1
+CF57 | 15.0 | bg=F3F3F3 fg=theme1
+CG57 | 'DB ankle hops' | bg=F3F3F3 fg=theme1
+CH57 | 'shoulders' | fg=theme1
+CJ57 | 12.0 | fg=theme1
+CK57 | 'side raises' | fg=theme1
+CN57 | 'calfs' | fg=theme1
+CP57 | 'MAX' | bg=F3F3F3 fg=theme1
+CQ57 | 'DB calf raises' | bg=F3F3F3 fg=theme1
+CR57 | 'shoulders' | fg=theme1
+CS57 | 2.0 | fg=theme1
+CT57 | 'myo set' | fg=theme1
+CU57 | 'side raises' | fg=theme1
+CV57 | 'bicep' | fg=theme1
+CW57 | 2.0 | bg=F3F3F3 fg=theme1
+CX57 | 'myo sets' | bg=F3F3F3 fg=theme1
+CY57 | 'alternating hammer curls ' | bg=F3F3F3 fg=theme1
+CZ57 | 'triceps' | fg=theme1
+DA57 | 2.0 | fg=theme1
+DB57 | 'myo sets' | fg=theme1
+DC57 | 'DB tricep extensions ' | fg=theme1
+DD57 | 'Part E' | bg=FFF2CC fg=theme1
+DE57 | 'Buy out' | bg=FFF2CC fg=theme1
+DF57 | 1.0 | bg=FFF2CC fg=theme1
+DG57 | '15 calorie' | bg=FFF2CC fg=theme1
+DH57 | 'bike sprint' | bg=FFF2CC fg=theme1
+DI57 | 'Buy out' | bg=FFF2CC fg=theme1
+DJ57 | 1.0 | bg=FFF2CC fg=theme1
+DK57 | '15 calorie' | bg=FFF2CC fg=theme1
+DL57 | 'ski sprints' | bg=FFF2CC fg=theme1
+DQ57 | 'Buy out' | bg=FFF2CC fg=theme1
+DR57 | 2.0 | bg=FFF2CC fg=theme1
+DS57 | 10.0 | bg=FFF2CC fg=theme1
+DT57 | 'runner sprint' | bg=FFF2CC fg=theme1
+B58 | 'Speed' | fg=theme1
+F58 | 'strength' | fg=theme1
+N58 | 'speed' | fg=theme1
+T58 | 'Speed' | fg=theme1
+X58 | 'strength' | fg=theme1
+AF58 | 'speed' | fg=theme1
+AL58 | 'Speed' | fg=theme1
+AP58 | 'strength' | fg=theme1
+AX58 | 'speed' | fg=theme1
+BC58 | 'Part E' | bg=FFF2CC fg=theme1
+BD58 | 'Buy out' | bg=FFF2CC fg=theme1
+BG58 | '1 X 12 Cal bike sprint' | bg=FFF2CC fg=theme1
+BH58 | 'Buy out' | bg=FFF2CC fg=theme1
+BK58 | '1 X 12 Cal skierg sprint' | bg=FFF2CC fg=theme1
+BL58 | 'Buy out' | bg=FFF2CC fg=theme1
+BO58 | '1 X 12 Cal row sprint' | bg=FFF2CC fg=theme1
+BP58 | 'Buy out' | bg=FFF2CC fg=theme1
+BU58 | 'Part E' | bg=FFF2CC fg=theme1
+BV58 | 'Buy out' | bg=FFF2CC fg=theme1
+BW58 | 1.0 | bg=FFF2CC fg=theme1
+BX58 | '15 calorie' | bg=FFF2CC fg=theme1
+BY58 | 'bike sprint' | bg=FFF2CC fg=theme1
+BZ58 | 'Buy out' | bg=FFF2CC fg=theme1
+CA58 | 1.0 | bg=FFF2CC fg=theme1
+CB58 | '15 calorie' | bg=FFF2CC fg=theme1
+CC58 | 'ski sprints' | bg=FFF2CC fg=theme1
+CH58 | 'Buy out' | bg=FFF2CC fg=theme1
+CI58 | 1.0 | bg=FFF2CC fg=theme1
+CJ58 | '15 secs' | bg=FFF2CC fg=theme1
+CK58 | 'runner sprint' | bg=FFF2CC fg=theme1
+CM58 | 'Part E' | bg=FFF2CC fg=theme1
+CN58 | 'Buy out' | bg=FFF2CC fg=theme1
+CQ58 | '1 X 12 Cal bike sprint' | bg=FFF2CC fg=theme1
+CR58 | 'Buy out' | bg=FFF2CC fg=theme1
+CU58 | '1 X 12 Cal skierg sprint' | bg=FFF2CC fg=theme1
+CV58 | 'Buy out' | bg=FFF2CC fg=theme1
+CY58 | '1 X 12 Cal row sprint' | bg=FFF2CC fg=theme1
+CZ58 | 'Buy out' | bg=FFF2CC fg=theme1
+A59 | 'BLOCK 3' | bg=EA9999 fg=theme1
+A60 | 'DONE' | bg=4A86E8 fg=theme1
+O60 | 'DONE' | bg=4A86E8 fg=theme1
+AG60 | 'done' | bg=4A86E8 fg=theme1
+AT60 | 'DONE' | bg=4A86E8 fg=theme1
+BK60 | 'DONE' | bg=4A86E8 fg=theme1
+CC60 | 'DONE' | bg=4A86E8 fg=theme1
+CU60 | 'DONE' | bg=4A86E8 fg=theme1
+DM60 | 'WEEK 8' | fg=theme1
+DN60 | '04/24 to 04/28' | fg=theme1
+A61 | 'Week 1' | fg=theme1
+O61 | 'week 2 ' | fg=theme1
+AG61 | 'Week 3' | fg=theme1
+AH61 | 'March 20 - 26' | fg=theme1
+AT61 | 'week 4 ' | fg=theme1
+AU61 | 'March 27th - 31st' | fg=theme1
+BK61 | 'WEEK 5' | fg=theme1
+BL61 | '04/03 TO 04/07' | fg=theme1
+CC61 | 'WEEK 6 ' | fg=theme1
+CD61 | '(04/10 TO 04/14/23)' | fg=theme1
+CU61 | 'WEEK 7 (04/17 TO 04/21)' | fg=1F1F1F
+CV61 | 'MONDAY' | bg=F3F3F3 fg=theme1
+CZ61 | 'TUESDAY' | fg=theme1
+DD61 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+DH61 | 'FRIDAY' | fg=theme1
+DO61 | 'MONDAY' | bg=F3F3F3 fg=theme1
+DS61 | 'TUESDAY' | fg=theme1
+DW61 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+EA61 | 'FRIDAY' | fg=theme1
+B62 | 'MONDAY' | bg=F3F3F3 fg=theme1
+E62 | 'TUESDAY' | fg=theme1
+H62 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+K62 | 'FRIDAY' | fg=theme1
+Q62 | 'MONDAY' | bg=F3F3F3 fg=theme1
+U62 | 'TUESDAY' | fg=theme1
+Y62 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+AC62 | 'FRIDAY' | fg=theme1
+AH62 | 'MONDAY' | bg=F3F3F3 fg=theme1
+AK62 | 'TUESDAY' | fg=theme1
+AN62 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+AQ62 | 'FRIDAY' | fg=theme1
+AV62 | 'MONDAY' | bg=F3F3F3 fg=theme1
+AZ62 | 'TUESDAY' | fg=theme1
+BD62 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+BH62 | 'FRIDAY' | fg=theme1
+BK62 | 'MONDAY' | fg=theme1
+BP62 | 'TUESDAY' | fg=theme1
+BT62 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+BX62 | 'FRIDAY' | fg=theme1
+CE62 | 'MONDAY' | bg=F3F3F3 fg=theme1
+CI62 | 'TUESDAY' | fg=theme1
+CM62 | 'THURSDAY' | bg=F3F3F3 fg=theme1
+CQ62 | 'FRIDAY' | fg=theme1
+CW62 | 'Sets' | bg=F3F3F3 fg=theme1
+CX62 | 'Reps' | bg=F3F3F3 fg=theme1
+CY62 | 'Exercise' | bg=F3F3F3 fg=theme1
+DA62 | 'Sets' | fg=theme1
+DB62 | 'Reps' | fg=theme1
+DE62 | 'Sets' | bg=F3F3F3 fg=theme1
+DF62 | 'Reps' | bg=F3F3F3 fg=theme1
+DG62 | 'Exercise' | bg=F3F3F3 fg=theme1
+DI62 | 'Sets' | fg=theme1
+DJ62 | 'Reps' | fg=theme1
+DO62 | 'Sets' | bg=F3F3F3 fg=theme1
+DP62 | 'Reps' | bg=F3F3F3 fg=theme1
+DQ62 | 'Exercise' | bg=F3F3F3 fg=theme1
+DS62 | 'Sets' | fg=theme1
+DT62 | 'Reps' | fg=theme1
+DU62 | 'Exercise' | bg=F3F3F3 fg=theme1
+DW62 | 'Sets' | bg=F3F3F3 fg=theme1
+DX62 | 'Reps' | bg=F3F3F3 fg=theme1
+DY62 | 'Exercise' | bg=F3F3F3 fg=theme1
+EA62 | 'Sets' | fg=theme1
+EB62 | 'Reps' | fg=theme1
+EC62 | 'Exercise' | bg=F3F3F3 fg=theme1
+B63 | 'Sets' | bg=F3F3F3 fg=theme1
+C63 | 'Reps' | bg=F3F3F3 fg=theme1
+D63 | 'Exercise' | bg=F3F3F3 fg=theme1
+E63 | 'Sets' | fg=theme1
+F63 | 'Reps' | fg=theme1
+H63 | 'Sets' | bg=F3F3F3 fg=theme1
+I63 | 'Reps' | bg=F3F3F3 fg=theme1
+J63 | 'Exercise' | bg=F3F3F3 fg=theme1
+K63 | 'Sets' | fg=theme1
+L63 | 'Reps' | fg=theme1
+Q63 | 'Sets' | bg=F3F3F3 fg=theme1
+R63 | 'Reps' | bg=F3F3F3 fg=theme1
+S63 | 'Exercise' | bg=F3F3F3 fg=theme1
+U63 | 'Sets' | fg=theme1
+V63 | 'Reps' | fg=theme1
+Y63 | 'Sets' | bg=F3F3F3 fg=theme1
+Z63 | 'Reps' | bg=F3F3F3 fg=theme1
+AA63 | 'Exercise' | bg=F3F3F3 fg=theme1
+AC63 | 'Sets' | fg=theme1
+AD63 | 'Reps' | fg=theme1
+AH63 | 'Sets' | bg=F3F3F3 fg=theme1
+AI63 | 'Reps' | bg=F3F3F3 fg=theme1
+AJ63 | 'Exercise' | bg=F3F3F3 fg=theme1
+AK63 | 'Sets' | fg=theme1
+AL63 | 'Reps' | fg=theme1
+AM63 | 'Exercise' | fg=theme1
+AN63 | 'Sets' | bg=F3F3F3 fg=theme1
+AO63 | 'Reps' | bg=F3F3F3 fg=theme1
+AP63 | 'Exercise' | bg=F3F3F3 fg=theme1
+AQ63 | 'Sets' | fg=theme1
+AR63 | 'Reps' | fg=theme1
+AV63 | 'Sets' | bg=F3F3F3 fg=theme1
+AW63 | 'Reps' | bg=F3F3F3 fg=theme1
+AX63 | 'Exercise' | bg=F3F3F3 fg=theme1
+AZ63 | 'Sets' | fg=theme1
+BA63 | 'Reps' | fg=theme1
+BD63 | 'Sets' | bg=F3F3F3 fg=theme1
+BE63 | 'Reps' | bg=F3F3F3 fg=theme1
+BF63 | 'Exercise' | bg=F3F3F3 fg=theme1
+BH63 | 'Sets' | fg=theme1
+BI63 | 'Reps' | fg=theme1
+BM63 | 'Sets' | bg=F3F3F3 fg=theme1
+BN63 | 'Reps' | bg=F3F3F3 fg=theme1
+BO63 | 'Exercise' | bg=F3F3F3 fg=theme1
+BQ63 | 'Sets' | fg=theme1
+BR63 | 'Reps' | fg=theme1
+BU63 | 'Sets' | bg=F3F3F3 fg=theme1
+BV63 | 'Reps' | bg=F3F3F3 fg=theme1
+BW63 | 'Exercise' | bg=F3F3F3 fg=theme1
+BY63 | 'Sets' | fg=theme1
+BZ63 | 'Reps' | fg=theme1
+CA63 | 'Exercise' | fg=theme1
+CE63 | 'Sets' | bg=F3F3F3 fg=theme1
+CF63 | 'Reps' | bg=F3F3F3 fg=theme1
+CG63 | 'Exercise' | bg=F3F3F3 fg=theme1
+CI63 | 'Sets' | fg=theme1
+CJ63 | 'Reps' | fg=theme1
+CK63 | 'Exercise' | bg=F3F3F3 fg=theme1
+CM63 | 'Sets' | bg=F3F3F3 fg=theme1
+CN63 | 'Reps' | bg=F3F3F3 fg=theme1
+CO63 | 'Exercise' | bg=F3F3F3 fg=theme1
+CQ63 | 'Sets' | fg=theme1
+CR63 | 'Reps' | fg=theme1
+CS63 | 'Exercise' | bg=F3F3F3 fg=theme1
+CU63 | 'Part A' | fg=theme1
+CV63 | 'Upper Ballistics/plyo' | fg=theme1
+CW63 | 3.0 | bg=F3F3F3 fg=theme1
+CX63 | 10.0 | bg=F3F3F3 fg=theme1
+CY63 | 'sit up to chest pass' | bg=F3F3F3 fg=theme1
+CZ63 | 'LOWER ballistics/plyo' | fg=theme1
+DA63 | 3.0 | fg=theme1
+DB63 | datetime.datetime(2023, 6, 6, 0, 0) | fg=theme1
+DC63 | 'Depth drop - single leg' | fg=theme1
+DD63 | 'Upper Ballistics/plyo' | fg=theme1
+DE63 | 3.0 | bg=F3F3F3 fg=theme1
+DF63 | '15/15' | bg=F3F3F3 fg=theme1
+DG63 | 'step forward chest pass' | bg=F3F3F3 fg=theme1
+DH63 | 'LOWER ballistics/plyo' | fg=theme1
+DI63 | 3.0 | fg=theme1
+DJ63 | 10.0 | fg=theme1
+DK63 | 'single leg hops forward & back' | fg=theme1
+DM63 | 'Part A' | fg=theme1
+DN63 | 'Upper Ballistics/plyo' | fg=theme1
+DO63 | 3.0 | bg=F3F3F3 fg=theme1
+DP63 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+DQ63 | 'Rotational chest pass' | bg=F3F3F3 fg=theme1
+DR63 | 'LOWER ballistics/plyo' | fg=theme1
+DS63 | 2.0 | fg=theme1
+DT63 | 12.0 | fg=theme1
+DU63 | 'Hurdle hops' | fg=theme1
+DV63 | 'Upper Ballistics/plyo' | fg=theme1
+DW63 | 3.0 | bg=F3F3F3 fg=theme1
+DX63 | 12.0 | bg=F3F3F3 fg=theme1
+DY63 | 'OH MB SLAMS' | bg=F3F3F3 fg=theme1
+DZ63 | 'LOWER ballistics/plyo' | fg=theme1
+EA63 | 3.0 | fg=theme1
+EB63 | 20.0 | fg=theme1
+EC63 | 'ankle hops' | bg=F3F3F3 fg=theme1
+A64 | 'Part A' | fg=theme1
+B64 | 3.0 | bg=F3F3F3 fg=theme1
+C64 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+D64 | 'Med ball half kneeling rotationss in & step out' | bg=F3F3F3 fg=theme1
+E64 | 3.0 | fg=theme1
+F64 | 10.0 | fg=theme1
+G64 | 'Depth drop - https://www.youtube.com/shorts/9kIt6mNzdYU' | fg=theme1
+H64 | 3.0 | bg=F3F3F3 fg=theme1
+I64 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+J64 | 'med ball rotational chest pass' | bg=F3F3F3 fg=theme1
+K64 | 3.0 | fg=theme1
+L64 | 10.0 | fg=theme1
+M64 | 'Hurdle hops single leg' | fg=theme1
+O64 | 'Part A' | fg=theme1
+P64 | 'Upper Ballistics/plyo' | fg=theme1
+Q64 | 3.0 | bg=F3F3F3 fg=theme1
+R64 | 10.0 | bg=F3F3F3 fg=theme1
+S64 | 'overhead toss' | bg=F3F3F3 fg=theme1
+T64 | 'LOWER ballistics/plyo' | fg=theme1
+U64 | 2.0 | fg=theme1
+V64 | 10.0 | fg=theme1
+W64 | 'Sit to jump on to box with DBs' | fg=theme1
+X64 | 'Upper Ballistics/plyo' | fg=theme1
+Y64 | 3.0 | bg=F3F3F3 fg=theme1
+Z64 | 10.0 | bg=F3F3F3 fg=theme1
+AA64 | 'situp to chest pass' | bg=F3F3F3 fg=theme1
+AB64 | 'LOWER ballistics/plyo' | fg=theme1
+AD64 | 'accumulate 2 minutes on each leg' | fg=theme1
+AE64 | 'single leg lateral hops side to side' | fg=theme1
+AG64 | 'Part A' | fg=theme1
+AH64 | 3.0 | bg=F3F3F3 fg=theme1
+AI64 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AJ64 | 'skater jumps with MB rotations' | bg=F3F3F3 fg=theme1
+AK64 | 3.0 | fg=theme1
+AL64 | 5.0 | fg=theme1
+AM64 | 'Depth drop - https://www.youtube.com/shorts/9kIt6mNzdYU' | fg=theme1
+AN64 | 3.0 | bg=F3F3F3 fg=theme1
+AO64 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AP64 | 'med ball rotational chest pass' | bg=F3F3F3 fg=theme1
+AQ64 | 3.0 | fg=theme1
+AR64 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+AS64 | 'side to side hops single leg' | fg=theme1
+AT64 | 'Part A' | fg=theme1
+AU64 | 'Upper Ballistics/plyo' | fg=theme1
+AV64 | 3.0 | bg=F3F3F3 fg=theme1
+AW64 | 10.0 | bg=F3F3F3 fg=theme1
+AX64 | 'MB scoops to the wall' | bg=F3F3F3 fg=theme1
+AY64 | 'LOWER ballistics/plyo' | fg=theme1
+AZ64 | 3.0 | fg=theme1
+BA64 | '5 to 1 each leg' | fg=theme1
+BB64 | 'SL hurdle hops' | fg=theme1
+BC64 | 'Upper Ballistics/plyo' | fg=theme1
+BD64 | 3.0 | bg=F3F3F3 fg=theme1
+BE64 | datetime.datetime(2023, 5, 5, 0, 0) | bg=F3F3F3 fg=theme1
+BF64 | 'step to chest pass' | bg=F3F3F3 fg=theme1
+BG64 | 'LOWER ballistics/plyo' | fg=theme1
+BH64 | 3.0 | fg=theme1
+BI64 | '15 yrds ' | fg=theme1
+BJ64 | 'A Marches, A skips, A runners' | fg=theme1
+BK64 | 'Part A' | fg=theme1
+BL64 | 'Upper Ballistics/plyo' | fg=theme1
+BM64 | 3.0 | bg=F3F3F3 fg=theme1
+BN64 | 20.0 | bg=F3F3F3 fg=theme1
+BO64 | 'sit up to chest pass' | bg=F3F3F3 fg=theme1
+BP64 | 'LOWER ballistics/plyo' | fg=theme1
+BQ64 | 2.0 | fg=theme1
+BR64 | 10.0 | fg=theme1
+BS64 | 'Depth drop - single leg' | fg=theme1
+BT64 | 'Upper Ballistics/plyo' | fg=theme1
+BU64 | 3.0 | bg=F3F3F3 fg=theme1
+BV64 | datetime.datetime(2023, 6, 6, 0, 0) | bg=F3F3F3 fg=theme1
+BW64 | 'step forward chest pass' | bg=F3F3F3 fg=theme1
+BX64 | 'LOWER ballistics/plyo' | fg=theme1
+BY64 | 3.0 | fg=theme1
+BZ64 | 10.0 | fg=theme1
+CA64 | 'single leg hops forward & back' | fg=theme1
+CC64 | 'Part A' | fg=theme1
+CD64 | 'Upper Ballistics/plyo' | fg=theme1
+CE64 | 3.0 | bg=F3F3F3 fg=theme1
+CF64 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+CG64 | 'Rotational chest pass' | bg=F3F3F3 fg=theme1
+CH64 | 'LOWER ballistics/plyo' | fg=theme1
+CI64 | 2.0 | fg=theme1
+CJ64 | 12.0 | fg=theme1
+CK64 | 'Hurdle hops' | fg=theme1
+CL64 | 'Upper Ballistics/plyo' | fg=theme1
+CM64 | 3.0 | bg=F3F3F3 fg=theme1
+CN64 | 12.0 | bg=F3F3F3 fg=theme1
+CO64 | 'Medball Chest pass' | bg=F3F3F3 fg=theme1
+CP64 | 'LOWER ballistics/plyo' | fg=theme1
+CQ64 | 1.0 | fg=theme1
+CR64 | 10.0 | fg=theme1
+CS64 | 'High knee tuck in jumps' | bg=F3F3F3 fg=theme1
+CX64 | 10.0 | bg=F3F3F3 fg=theme1
+CY64 | 'jumping pushups' | bg=F3F3F3 fg=theme1
+DB64 | 10.0 | fg=theme1
+DC64 | 'lateral hop to plate single leg' | fg=theme1
+DJ64 | 5.0 | fg=theme1
+DK64 | 'BOX JUMPS' | fg=theme1
+DP64 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+DQ64 | 'Overhead toss' | bg=F3F3F3 fg=theme1
+DT64 | 5.0 | fg=theme1
+DU64 | 'box jumps' | fg=theme1
+DX64 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+DY64 | 'Rotational medball scoop' | bg=F3F3F3 fg=theme1
+EB64 | 5.0 | fg=theme1
+EC64 | 'JUMPS OVER THE HURDLES' | bg=F3F3F3 fg=theme1
+C65 | 10.0 | bg=F3F3F3 fg=theme1
+D65 | 'Stick the landing pushups' | bg=F3F3F3 fg=theme1
+F65 | 10.0 | fg=theme1
+G65 | 'depth drop to jump' | fg=theme1
+I65 | 10.0 | bg=F3F3F3 fg=theme1
+J65 | 'med ball overhead toss' | bg=F3F3F3 fg=theme1
+L65 | 5.0 | fg=theme1
+M65 | '30m acceleration sprint' | fg=theme1
+R65 | 'Accumulate 2 minutes on each arm' | bg=F3F3F3 fg=theme1
+S65 | 'Single side KB carry' | bg=F3F3F3 fg=theme1
+V65 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+W65 | 'single leg hop on and off to box' | fg=theme1
+Z65 | datetime.datetime(2023, 5, 5, 0, 0) | bg=F3F3F3 fg=theme1
+AA65 | 'OH Rotational slams' | bg=F3F3F3 fg=theme1
+AI65 | 10.0 | bg=F3F3F3 fg=theme1
+AJ65 | 'Stick the landing pushups' | bg=F3F3F3 fg=theme1
+AL65 | 5.0 | fg=theme1
+AM65 | 'depth drop to jump' | fg=theme1
+AO65 | datetime.datetime(2023, 5, 5, 0, 0) | bg=F3F3F3 fg=theme1
+AP65 | 'half kneeling med ball side slam - https://www.youtube.com/watch?v=g988Ttq0FpA' | bg=F3F3F3 fg=theme1
+AR65 | 5.0 | fg=theme1
+AS65 | '30m acceleration sprint' | fg=theme1
+AW65 | 10.0 | bg=F3F3F3 fg=theme1
+AX65 | 'plyo push ups' | bg=F3F3F3 fg=theme1
+BA65 | 'inmediately after the hurdle hops' | fg=theme1
+BB65 | 'SL box jump' | fg=theme1
+BE65 | datetime.datetime(2023, 5, 5, 0, 0) | bg=F3F3F3 fg=theme1
+BF65 | 'OH Rotational slams' | bg=F3F3F3 fg=theme1
+BH65 | 5.0 | fg=theme1
+BI65 | '15 yrds ' | fg=theme1
+BJ65 | 'Acceleration sprints ' | fg=theme1
+BN65 | 10.0 | bg=F3F3F3 fg=theme1
+BO65 | 'band assisted jumping pushups' | bg=F3F3F3 fg=theme1
+BR65 | 10.0 | fg=theme1
+BS65 | 'lateral hop to plate single leg' | fg=theme1
+BV65 | 10.0 | bg=F3F3F3 fg=theme1
+BW65 | 'MB slams' | bg=F3F3F3 fg=theme1
+BZ65 | 5.0 | fg=theme1
+CA65 | 'SL broad jumps' | fg=theme1
+CF65 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+CG65 | 'Overhead toss' | bg=F3F3F3 fg=theme1
+CJ65 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+CK65 | 'Single leg hop on/off plate forward and back' | fg=theme1
+CN65 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+CO65 | 'Rotational medball scoop' | bg=F3F3F3 fg=theme1
+CR65 | 20.0 | fg=theme1
+CS65 | 'ankle hops' | bg=F3F3F3 fg=theme1
+CU65 | 'Part B' | fg=theme1
+CV65 | 'LATERAL CORE' | fg=theme1
+CW65 | 2.0 | bg=F3F3F3 fg=theme1
+CX65 | 'Accumulate 2 minutes on each side' | bg=F3F3F3 fg=theme1
+CY65 | 'Obilque sit plank' | bg=F3F3F3 fg=theme1
+CZ65 | 'Transverse core' | fg=theme1
+DA65 | 3.0 | fg=theme1
+DB65 | '12/12 powerful turns' | fg=theme1
+DC65 | 'Cable rotational oblique twist' | fg=theme1
+DD65 | 'Sagital core' | fg=theme1
+DE65 | 4.0 | bg=F3F3F3 fg=theme1
+DF65 | 15.0 | bg=F3F3F3 fg=theme1
+DG65 | 'TOES TO BAR ' | bg=F3F3F3 fg=theme1
+DH65 | 'Transverse core' | fg=theme1
+DI65 | 3.0 | fg=theme1
+DJ65 | '12/12 powerful turns' | fg=theme1
+DK65 | 'WINDSHIELD WIPERS' | fg=theme1
+DM65 | 'Part B' | fg=theme1
+DN65 | 'LATERAL CORE' | fg=theme1
+DO65 | '3 each side' | bg=F3F3F3 fg=theme1
+DP65 | '45 secs' | bg=F3F3F3 fg=theme1
+DQ65 | 'copenhagen plank https://www.youtube.com/watch?v=tKb76R21AfM' | bg=F3F3F3 fg=theme1
+DR65 | 'Transverse core' | fg=theme1
+DS65 | 3.0 | fg=theme1
+DT65 | '1min' | fg=theme1
+DU65 | 'plank Hip turns' | fg=theme1
+DV65 | 'Sagital core' | fg=theme1
+DW65 | 'Accumulate' | bg=F3F3F3 fg=theme1
+DX65 | '4 MINS' | bg=F3F3F3 fg=theme1
+DY65 | 'med ball rockers - https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share' | bg=F3F3F3 fg=0000FF
+DZ65 | 'Transverse core' | fg=theme1
+EA65 | 3.0 | fg=theme1
+EB65 | '15/15' | fg=theme1
+EC65 | 'WINDSHIELD WIPERS' | fg=theme1
+A66 | 'Part B' | fg=theme1
+B66 | 2.0 | bg=F3F3F3 fg=theme1
+C66 | 'Accumulate 2 minutes on each side' | bg=F3F3F3 fg=theme1
+D66 | 'Side planks' | bg=F3F3F3 fg=theme1
+E66 | 2.0 | fg=theme1
+F66 | 'Accumulate 3 minutes' | fg=theme1
+G66 | 'Hip turns - https://www.youtube.com/watch?v=edjXnw7Ca_g' | fg=theme1
+H66 | 3.0 | bg=F3F3F3 fg=theme1
+I66 | 20.0 | bg=F3F3F3 fg=theme1
+J66 | 'butterfly situps - https://www.youtube.com/watch?v=O4_u-dOYBA0' | bg=F3F3F3 fg=theme1
+K66 | 3.0 | fg=theme1
+L66 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+M66 | 'Cable load rotation chop' | fg=theme1
+O66 | 'Part B' | fg=theme1
+P66 | 'LATERAL CORE' | fg=theme1
+Q66 | 2.0 | bg=F3F3F3 fg=theme1
+R66 | 'Accumulate 1 minutes on each side' | bg=F3F3F3 fg=theme1
+S66 | 'Copenhagen raises https://www.youtube.com/watch?v=0Cwk_wwL6uM' | bg=F3F3F3 fg=theme1
+T66 | 'Transverse core' | fg=theme1
+U66 | '3x super set' | fg=theme1
+V66 | '20/20' | fg=theme1
+W66 | 'heavy plate russian twists https://www.youtube.com/watch?v=4p5jWyz-YRQ' | fg=theme1
+X66 | 'Sagital core' | fg=theme1
+Y66 | 3.0 | bg=F3F3F3 fg=theme1
+AA66 | '15 Toes to bar' | bg=F3F3F3 fg=theme1
+AB66 | 'Transverse core' | fg=theme1
+AC66 | 3.0 | fg=theme1
+AD66 | '5/5 powerful turns' | fg=theme1
+AE66 | 'Cable rotational oblique twist' | fg=theme1
+AG66 | 'Part B' | fg=theme1
+AH66 | 4.0 | bg=F3F3F3 fg=theme1
+AI66 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AJ66 | 'Side planks hips lifts (slow) https://www.youtube.com/watch?v=LgaYt4Hi6-g' | bg=F3F3F3 fg=theme1
+AL66 | 5.0 | fg=theme1
+AM66 | 'hurdles hops' | fg=theme1
+AN66 | 3.0 | bg=F3F3F3 fg=theme1
+AO66 | '40 secs' | bg=F3F3F3 fg=theme1
+AP66 | 'low plank feet against wall' | bg=F3F3F3 fg=theme1
+AQ66 | 3.0 | fg=theme1
+AR66 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+AS66 | 'Cable load rotation chop' | fg=theme1
+AT66 | 'Part B' | fg=theme1
+AU66 | 'LATERAL CORE' | fg=theme1
+AV66 | 3.0 | bg=F3F3F3 fg=theme1
+AW66 | '1 min each' | bg=F3F3F3 fg=theme1
+AX66 | 'oblique sit' | bg=F3F3F3 fg=theme1
+AY66 | 'Transverse core' | fg=theme1
+AZ66 | '4x' | fg=theme1
+BA66 | '20/20' | fg=theme1
+BB66 | 'winshield wiper https://www.youtube.com/watch?v=M8csHpQrq5o' | fg=theme1
+BC66 | 'Sagital core' | fg=theme1
+BD66 | '3x super set' | bg=F3F3F3 fg=theme1
+BE66 | '30 secs' | bg=F3F3F3 fg=theme1
+BF66 | 'feet against wall plank - https://www.youtube.com/watch?v=wq6N_PjU5fA' | bg=F3F3F3 fg=theme1
+BG66 | 'Transverse core' | fg=theme1
+BH66 | 3.0 | fg=theme1
+BI66 | '20/20' | fg=theme1
+BJ66 | 'Hanging knees side to side raises ' | fg=theme1
+BK66 | 'Part B' | fg=theme1
+BL66 | 'LATERAL CORE' | fg=theme1
+BM66 | 3.0 | bg=F3F3F3 fg=theme1
+BN66 | '1 min each side' | bg=F3F3F3 fg=theme1
+BO66 | 'copenhagen plank https://www.youtube.com/watch?v=tKb76R21AfM' | bg=F3F3F3 fg=theme1
+BP66 | 'Transverse core' | fg=theme1
+BQ66 | 3.0 | fg=theme1
+BR66 | '12/12 powerful turns' | fg=theme1
+BS66 | 'Cable rotational oblique twist' | fg=theme1
+BT66 | 'Sagital core' | fg=theme1
+BU66 | 3.0 | bg=F3F3F3 fg=theme1
+BW66 | '15 toes to bar' | bg=F3F3F3 fg=theme1
+BX66 | 'Transverse core' | fg=theme1
+BY66 | 3.0 | fg=theme1
+BZ66 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+CA66 | 'plate russian twists ' | fg=theme1
+CC66 | 'Part B' | fg=theme1
+CD66 | 'LATERAL CORE' | fg=theme1
+CE66 | 2.0 | bg=F3F3F3 fg=theme1
+CF66 | 'Accumulate 2 minutes on each side' | bg=F3F3F3 fg=theme1
+CG66 | 'Side plank' | bg=F3F3F3 fg=theme1
+CH66 | 'Transverse core' | fg=theme1
+CI66 | 'Accumulate' | fg=theme1
+CJ66 | 'Accumulate 3 minutes' | fg=theme1
+CK66 | 'plank Hip turns' | fg=theme1
+CL66 | 'Sagital core' | fg=theme1
+CM66 | 'Accumulate' | bg=F3F3F3 fg=theme1
+CN66 | '3 MINS' | bg=F3F3F3 fg=theme1
+CO66 | 'med ball rockers - https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share' | bg=F3F3F3 fg=0000FF
+CP66 | 'Transverse core' | fg=theme1
+CQ66 | 3.0 | fg=theme1
+CR66 | '20/20' | fg=theme1
+CS66 | 'Swissball plate rotations' | fg=theme1
+DB66 | datetime.datetime(2023, 6, 6, 0, 0) | fg=theme1
+DC66 | 'MB ROTATIONAL CHEST PASS' | fg=theme1
+DJ66 | datetime.datetime(2022, 12, 12, 0, 0) | fg=theme1
+DK66 | 'CROSSING MOUNTAIN CLIMBERS' | fg=theme1
+DP66 | 10.0 | bg=F3F3F3 fg=theme1
+DQ66 | 'hips raises' | bg=F3F3F3 fg=theme1
+DT66 | datetime.datetime(2023, 6, 6, 0, 0) | fg=theme1
+DU66 | 'half kneeling MB side slams' | fg=theme1
+EB66 | '10/1O' | fg=theme1
+EC66 | 'MOUNTAIN CLIMBERS CROSSING  https://www.youtube.com/watch?v=luRruRjECm8' | fg=theme1
+I67 | 10.0 | bg=F3F3F3 fg=theme1
+J67 | 'toes to bar or knees to chest - https://www.youtube.com/watch?v=xdcT0WRTPw8' | bg=F3F3F3 fg=theme1
+L67 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+M67 | 'MEd ball scoop' | fg=theme1
+R67 | '30 secs on each side' | bg=F3F3F3 fg=theme1
+S67 | 'Star plank https://www.youtube.com/watch?v=-9toG6869YY' | bg=F3F3F3 fg=theme1
+V67 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+W67 | 'Bicycle crunches https://www.youtube.com/watch?v=_vWNnODwF5w' | fg=theme1
+AD67 | '20/20' | fg=theme1
+AE67 | 'plate russian twists ' | fg=theme1
+AK67 | 'PART B 4X' | fg=theme1
+AL67 | '15/15' | fg=theme1
+AM67 | 'cross body mountain climbers https://www.youtube.com/watch?v=luRruRjECm8' | fg=theme1
+AO67 | 10.0 | bg=F3F3F3 fg=theme1
+AP67 | 'toes to bar or knees to chest - https://www.youtube.com/watch?v=xdcT0WRTPw8' | bg=F3F3F3 fg=theme1
+AR67 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+AS67 | 'MEd ball scoop' | fg=theme1
+AW67 | '30 secs on each side' | bg=F3F3F3 fg=theme1
+AX67 | 'Star plank https://www.youtube.com/watch?v=-9toG6869YY' | bg=F3F3F3 fg=theme1
+BA67 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+BB67 | 'PLANK DB PULL THROUGH - https://www.youtube.com/watch?v=Zko5x2SoQmo' | fg=0000FF
+BE67 | '10 reps ' | bg=F3F3F3 fg=theme1
+BF67 | 'weighted sit ups https://www.youtube.com/watch?v=4YOoMXPnOu4' | bg=F3F3F3 fg=theme1
+BR67 | datetime.datetime(2023, 6, 6, 0, 0) | fg=theme1
+BS67 | 'lateral hinge to MB scoop' | fg=theme1
+BZ67 | datetime.datetime(2023, 6, 6, 0, 0) | fg=theme1
+CA67 | 'kneeling rotational OH MB slam https://www.youtube.com/watch?v=g988Ttq0FpA' | fg=theme1
+CU67 | 'Part C' | fg=theme1
+CV67 | 'bkd' | fg=theme1
+CW67 | 4.0 | bg=F3F3F3 fg=theme1
+CX67 | 10.0 | bg=F3F3F3 fg=theme1
+CY67 | 'Hex bar squat jumps ' | bg=F3F3F3 fg=theme1
+AY68 | 'PART C' | fg=theme1
+CZ68 | 'bhd' | fg=theme1
+DA68 | 4.0 | fg=theme1
+DB68 | 10.0 | fg=theme1
+DC68 | 'Barbell deadlift' | fg=theme1
+DD68 | 'bkd' | fg=theme1
+DE68 | 4.0 | bg=F3F3F3 fg=theme1
+DF68 | 10.0 | bg=F3F3F3 fg=theme1
+DG68 | 'SLOW FRONT SQUATS' | bg=F3F3F3 fg=theme1
+DH68 | 'bhd' | fg=theme1
+DI68 | 4.0 | fg=theme1
+DJ68 | 10.0 | fg=theme1
+DK68 | 'FAST BANDED DEADLFTS' | fg=theme1
+DM68 | 'Part C' | fg=theme1
+DN68 | 'bkd' | fg=theme1
+DO68 | 4.0 | bg=F3F3F3 fg=theme1
+DP68 | 10.0 | bg=F3F3F3 fg=theme1
+DQ68 | 'back squats' | bg=F3F3F3 fg=theme1
+DR68 | 'bhd' | fg=theme1
+DS68 | 4.0 | fg=theme1
+DT68 | 10.0 | fg=theme1
+DU68 | 'Deadlifts' | fg=theme1
+DV68 | 'bkd' | fg=theme1
+DW68 | 4.0 | bg=F3F3F3 fg=theme1
+DX68 | 10.0 | bg=F3F3F3 fg=theme1
+DY68 | 'KB HANG SQUAT CLEANS' | bg=F3F3F3 fg=theme1
+DZ68 | 'bhd' | fg=theme1
+EA68 | 4.0 | fg=theme1
+EB68 | 10.0 | fg=theme1
+EC68 | 'BANDED KB SWINGS' | fg=theme1
+A69 | 'Part C' | fg=theme1
+B69 | 4.0 | bg=F3F3F3 fg=theme1
+C69 | 8.0 | bg=F3F3F3 fg=theme1
+D69 | 'DB Squat Jumps - https://www.youtube.com/watch?v=3kiH8WufBeg' | bg=F3F3F3 fg=theme1
+E69 | 4.0 | fg=theme1
+F69 | 8.0 | fg=theme1
+G69 | 'Hex bar deadlift' | fg=theme1
+H69 | 4.0 | bg=F3F3F3 fg=theme1
+I69 | 8.0 | bg=F3F3F3 fg=theme1
+J69 | 'Back sqaut' | bg=F3F3F3 fg=theme1
+K69 | 4.0 | fg=theme1
+L69 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+M69 | 'DB deadlifts' | fg=theme1
+O69 | 'Part C' | fg=theme1
+P69 | 'bkd' | fg=theme1
+Q69 | 4.0 | bg=F3F3F3 fg=theme1
+R69 | 8.0 | bg=F3F3F3 fg=theme1
+S69 | 'Heavy front squats' | bg=F3F3F3 fg=theme1
+T69 | 'bhd' | fg=theme1
+U69 | 4.0 | fg=theme1
+V69 | 8.0 | fg=theme1
+W69 | 'Barbell deadlift' | fg=theme1
+X69 | 'bkd' | fg=theme1
+Y69 | 4.0 | bg=F3F3F3 fg=theme1
+Z69 | 8.0 | bg=F3F3F3 fg=theme1
+AA69 | 'front squat' | bg=F3F3F3 fg=theme1
+AB69 | 'bhd' | fg=theme1
+AC69 | 4.0 | fg=theme1
+AD69 | 8.0 | fg=theme1
+AE69 | 'Band ressisted deadlifts' | fg=theme1
+AG69 | 'Part C' | fg=theme1
+AH69 | 4.0 | bg=F3F3F3 fg=theme1
+AI69 | '10/10/8/8' | bg=F3F3F3 fg=theme1
+AJ69 | 'fron squats' | bg=F3F3F3 fg=theme1
+AK69 | 'PART C 4x' | fg=theme1
+AL69 | '10/10/8/8' | fg=theme1
+AM69 | 'Hex bar deadlift' | fg=theme1
+AN69 | 4.0 | bg=F3F3F3 fg=theme1
+AO69 | '10/10/8/8' | bg=F3F3F3 fg=theme1
+AP69 | 'Back sqaut' | bg=F3F3F3 fg=theme1
+AQ69 | 'SUPER SET 4X' | fg=theme1
+AR69 | '10/10/8/8' | fg=theme1
+AS69 | 'KB swings' | fg=theme1
+AT69 | 'Part C' | fg=theme1
+AU69 | 'bkd' | fg=theme1
+AV69 | 4.0 | bg=F3F3F3 fg=theme1
+AW69 | 10.0 | bg=F3F3F3 fg=theme1
+AX69 | 'Heavy front squats' | bg=F3F3F3 fg=theme1
+AY69 | 'bhd' | fg=theme1
+AZ69 | 4.0 | fg=theme1
+BA69 | 10.0 | fg=theme1
+BB69 | 'banded Barbell deadlift' | fg=theme1
+BC69 | 'bkd' | fg=theme1
+BD69 | 4.0 | bg=F3F3F3 fg=theme1
+BE69 | 10.0 | bg=F3F3F3 fg=theme1
+BF69 | 'kb squat cleans https://www.youtube.com/watch?v=6wyxpVY8PQ0' | bg=F3F3F3 fg=theme1
+BG69 | 'bhd' | fg=theme1
+BH69 | 4.0 | fg=theme1
+BI69 | 10.0 | fg=theme1
+BJ69 | 'Banded deadlifts ' | fg=theme1
+BK69 | 'Part C' | fg=theme1
+BL69 | 'bkd' | fg=theme1
+BM69 | 4.0 | bg=F3F3F3 fg=theme1
+BN69 | 10.0 | bg=F3F3F3 fg=theme1
+BO69 | 'Hex bar squat jumps ' | bg=F3F3F3 fg=theme1
+BP69 | 'bhd' | fg=theme1
+BQ69 | 4.0 | fg=theme1
+BR69 | 10.0 | fg=theme1
+BS69 | 'Barbell deadlift' | fg=theme1
+BT69 | 'bkd' | fg=theme1
+BU69 | 4.0 | bg=F3F3F3 fg=theme1
+BV69 | 10.0 | bg=F3F3F3 fg=theme1
+BW69 | 'front squat slow' | bg=F3F3F3 fg=theme1
+BX69 | 'bhd' | fg=theme1
+BY69 | 4.0 | fg=theme1
+BZ69 | 10.0 | fg=theme1
+CA69 | 'KB swings' | fg=theme1
+CC69 | 'Part C' | fg=theme1
+CD69 | 'bkd' | fg=theme1
+CE69 | 4.0 | bg=F3F3F3 fg=theme1
+CF69 | 10.0 | bg=F3F3F3 fg=theme1
+CG69 | 'barbell High zercher squat' | bg=F3F3F3 fg=theme1
+CH69 | 'bhd' | fg=theme1
+CI69 | 4.0 | fg=theme1
+CJ69 | 10.0 | fg=theme1
+CK69 | 'Deadlifts' | fg=theme1
+CL69 | 'bkd' | fg=theme1
+CM69 | 4.0 | bg=F3F3F3 fg=theme1
+CN69 | 10.0 | bg=F3F3F3 fg=theme1
+CO69 | 'SQUAT JUMPS' | bg=F3F3F3 fg=theme1
+CP69 | 'bhd' | fg=theme1
+CQ69 | 4.0 | fg=theme1
+CR69 | 10.0 | fg=theme1
+CS69 | 'BANDED KB SWINGS' | fg=theme1
+CV69 | 'horiz pull' | fg=theme1
+CX69 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+CY69 | 'seal rows 10 reps all rounds' | bg=F3F3F3 fg=theme1
+CZ69 | 'horiz push' | fg=theme1
+DB69 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+DC69 | 'top down db bench press' | fg=theme1
+DD69 | 'vert pull' | fg=theme1
+DF69 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+DG69 | 'Cable lat pull over' | bg=F3F3F3 fg=theme1
+DH69 | 'vert push' | fg=theme1
+DJ69 | 10.0 | fg=theme1
+DK69 | 'DB HEAVY PUSH PRESS' | fg=theme1
+DN69 | 'horiz pull' | fg=theme1
+DP69 | 'Superset - max reps' | bg=F3F3F3 fg=theme1
+DQ69 | 'barbell row' | bg=F3F3F3 fg=theme1
+DR69 | 'horiz push' | fg=theme1
+DT69 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+DU69 | 'db Bench press (small incline)' | fg=theme1
+DV69 | 'vert pull' | fg=theme1
+DX69 | 'heavy Max reps' | bg=F3F3F3 fg=theme1
+DY69 | 'Close grip cable lat pull down' | bg=F3F3F3 fg=theme1
+DZ69 | 'vert push' | fg=theme1
+EB69 | 10.0 | fg=theme1
+EC69 | 'HEAVY DB PUSH PRESS' | fg=theme1
+C70 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+D70 | 'bent over Barbell Row - https://www.youtube.com/watch?v=9Gf-Ourup_k' | bg=F3F3F3 fg=theme1
+F70 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+G70 | 'DB Bottoms up bench press https://www.youtube.com/watch?v=ZdhsVPoO9sc' | fg=theme1
+I70 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+J70 | 'Pull Ups' | bg=F3F3F3 fg=theme1
+L70 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+M70 | 'LAndmine half kneeling press - https://www.youtube.com/watch?v=ORoOn93dnh4' | fg=theme1
+P70 | 'horiz pull' | fg=theme1
+R70 | 12.0 | bg=F3F3F3 fg=theme1
+S70 | 'seal rows https://www.youtube.com/watch?v=Sm8O4hjJr9M' | bg=F3F3F3 fg=theme1
+T70 | 'horiz push' | fg=theme1
+V70 | 5.0 | fg=theme1
+W70 | 'Broad jumps https://www.youtube.com/watch?v=VMF24tV5Rzw' | fg=theme1
+X70 | 'vert pull' | fg=theme1
+Z70 | 8.0 | bg=F3F3F3 fg=theme1
+AA70 | 'pull ups' | bg=F3F3F3 fg=theme1
+AB70 | 'vert push' | fg=theme1
+AD70 | 8.0 | fg=theme1
+AE70 | 'half kneeling landmine press https://www.youtube.com/watch?v=ORoOn93dnh4' | fg=theme1
+AI70 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+AJ70 | 'bent over Barbell Row - https://www.youtube.com/watch?v=9Gf-Ourup_k' | bg=F3F3F3 fg=theme1
+AL70 | '10/10/8/8' | fg=theme1
+AM70 | 'DB Bottoms up bench press https://www.youtube.com/watch?v=ZdhsVPoO9sc' | fg=theme1
+AO70 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+AP70 | 'LAT PULL OVERS' | bg=F3F3F3 fg=theme1
+AR70 | '10/10/8/8' | fg=theme1
+AS70 | 'arnold presses' | fg=theme1
+AU70 | 'horiz pull' | fg=theme1
+AW70 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AX70 | 'heavy DB rows https://www.youtube.com/watch?v=xl1YiqQY2vA' | bg=F3F3F3 fg=theme1
+AY70 | 'horiz push' | fg=theme1
+BA70 | 8.0 | fg=theme1
+BB70 | 'incline db bench press https://www.youtube.com/watch?v=Fv5EYoJfRt4' | fg=theme1
+BC70 | 'vert pull' | fg=theme1
+BE70 | 10.0 | bg=F3F3F3 fg=theme1
+BF70 | 'Chin-ups' | bg=F3F3F3 fg=theme1
+BG70 | 'vert push' | fg=theme1
+BI70 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+BJ70 | 'Seesaw shoulder presses ' | fg=theme1
+BL70 | 'horiz pull' | fg=theme1
+BN70 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+BO70 | 'seal rows 10 reps all rounds' | bg=F3F3F3 fg=theme1
+BP70 | 'horiz push' | fg=theme1
+BR70 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+BS70 | 'top down db bench press' | fg=theme1
+BT70 | 'vert pull' | fg=theme1
+BV70 | 'Superset - same reps' | bg=F3F3F3 fg=theme1
+BW70 | 'Cable lat pull over' | bg=F3F3F3 fg=theme1
+BX70 | 'vert push' | fg=theme1
+BZ70 | 10.0 | fg=theme1
+CA70 | 'inclined db  bench press' | fg=theme1
+CD70 | 'horiz pull' | fg=theme1
+CF70 | 'Superset - max reps' | bg=F3F3F3 fg=theme1
+CG70 | 'Heavy DB row' | bg=F3F3F3 fg=theme1
+CH70 | 'horiz push' | fg=theme1
+CJ70 | 10.0 | fg=theme1
+CK70 | 'db Bench press (small incline)' | fg=theme1
+CL70 | 'vert pull' | fg=theme1
+CN70 | 'heavy Max reps' | bg=F3F3F3 fg=theme1
+CO70 | 'Close grip cable lat pull down' | bg=F3F3F3 fg=theme1
+CP70 | 'vert push' | fg=theme1
+CR70 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+CS70 | 'Single arm DB push press' | fg=theme1
+CU70 | 'Part D' | fg=theme1
+CV70 | 'uhd' | fg=theme1
+CW70 | 4.0 | bg=F3F3F3 fg=theme1
+CX70 | '20 SECS' | bg=F3F3F3 fg=theme1
+CY70 | 'HAMSTRING SLIDERS RUNNERS' | bg=F3F3F3 fg=theme1
+V71 | 8.0 | fg=theme1
+W71 | 'incline db bench press https://www.youtube.com/watch?v=Fv5EYoJfRt4' | fg=theme1
+AY71 | 'PART D' | fg=theme1
+CV71 | 'CALF' | fg=theme1
+CX71 | 10.0 | bg=F3F3F3 fg=theme1
+CY71 | 'highest ankle hops' | bg=F3F3F3 fg=theme1
+CZ71 | 'ukd' | fg=theme1
+DA71 | 4.0 | fg=theme1
+DB71 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+DC71 | 'DB reverse lunges' | fg=theme1
+DD71 | 'uhd' | fg=theme1
+DE71 | 4.0 | bg=F3F3F3 fg=theme1
+DF71 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+DG71 | 'camporini dl' | bg=F3F3F3 fg=theme1
+DH71 | 'ukd' | fg=theme1
+DI71 | 4.0 | fg=theme1
+DJ71 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+DK71 | 'SPLIT STANCE SQUAT JUMPS' | fg=theme1
+DM71 | 'Part D' | fg=theme1
+DN71 | 'uhd' | fg=theme1
+DO71 | 4.0 | bg=F3F3F3 fg=theme1
+DP71 | '12 on each side' | bg=F3F3F3 fg=theme1
+DQ71 | 'Staggered stance DB dl' | bg=F3F3F3 fg=theme1
+DR71 | 'ukd' | fg=theme1
+DS71 | 4.0 | fg=theme1
+DT71 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+DU71 | 'High zercher DB RFE Lunge front foot on ramp' | fg=theme1
+DV71 | 'uhd' | fg=theme1
+DW71 | 4.0 | bg=F3F3F3 fg=theme1
+DX71 | datetime.datetime(2023, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+DY71 | 'Staggered stance DB dl - Medial pressure - contralateral loading - https://youtube.com/shorts/avUPBq-FrDU?feature=share' | bg=F3F3F3 fg=theme1
+DZ71 | 'ukd' | fg=theme1
+EA71 | 4.0 | fg=theme1
+EB71 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+EC71 | 'STEP UPS TO KNEE DRIVE https://www.youtube.com/watch?v=fe4JN3BrlsY' | fg=theme1
+A72 | 'Part D' | fg=theme1
+B72 | 4.0 | bg=F3F3F3 fg=theme1
+C72 | datetime.datetime(2023, 8, 8, 0, 0) | bg=F3F3F3 fg=theme1
+D72 | 'Rear foot on wall DB RDL' | bg=F3F3F3 fg=theme1
+E72 | 4.0 | fg=theme1
+F72 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+G72 | 'RFE Bulgarian lunge - https://www.youtube.com/watch?v=JhUjQo8fB8c' | fg=theme1
+H72 | 4.0 | bg=F3F3F3 fg=theme1
+I72 | datetime.datetime(2023, 8, 8, 0, 0) | bg=F3F3F3 fg=theme1
+J72 | 'camporini dl - https://www.youtube.com/watch?v=cRU0RQ1KTfg' | bg=F3F3F3 fg=theme1
+K72 | 4.0 | fg=theme1
+L72 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+M72 | 'FFE  ipsilateral lunge - https://www.youtube.com/watch?v=ezKp-MB51lA' | fg=theme1
+O72 | 'Part D' | fg=theme1
+P72 | 'uhd' | fg=theme1
+Q72 | 4.0 | bg=F3F3F3 fg=theme1
+R72 | '20 on each side - FAST ' | bg=F3F3F3 fg=theme1
+S72 | 'Glidder hamstring runners https://www.youtube.com/watch?v=mjUHc_6TbXU' | bg=F3F3F3 fg=theme1
+T72 | 'ukd' | fg=theme1
+U72 | 4.0 | fg=theme1
+V72 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+W72 | 'ffe lunges - contralateral loading https://www.youtube.com/watch?v=yKQIWcbccwI' | fg=theme1
+X72 | 'uhd' | fg=theme1
+Y72 | 4.0 | bg=F3F3F3 fg=theme1
+Z72 | 20.0 | bg=F3F3F3 fg=theme1
+AA72 | 'Banded rolling hamstring curls https://www.youtube.com/watch?v=wwVXsfCI8cY' | bg=F3F3F3 fg=theme1
+AB72 | 'ukd' | fg=theme1
+AC72 | 4.0 | fg=theme1
+AD72 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+AE72 | 'ipsilateral kb front rack step up https://www.youtube.com/watch?v=CMoO_jsKTVk' | fg=theme1
+AG72 | 'Part D' | fg=theme1
+AH72 | 4.0 | bg=F3F3F3 fg=theme1
+AI72 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AJ72 | 'Rear foot on wall DB RDL' | bg=F3F3F3 fg=theme1
+AK72 | 'PART D 4X' | fg=theme1
+AL72 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+AM72 | 'RFE Bulgarian lunge - https://www.youtube.com/watch?v=JhUjQo8fB8c' | fg=theme1
+AN72 | 4.0 | bg=F3F3F3 fg=theme1
+AO72 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AP72 | 'camporini dl - https://www.youtube.com/watch?v=cRU0RQ1KTfg' | bg=F3F3F3 fg=theme1
+AQ72 | 'SUPER SET 4X' | fg=theme1
+AR72 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+AS72 | 'FFE  ipsilateral reverse lunge - https://www.youtube.com/watch?v=ezKp-MB51lA' | fg=theme1
+AT72 | 'Part D' | fg=theme1
+AU72 | 'uhd' | fg=theme1
+AV72 | 4.0 | bg=F3F3F3 fg=theme1
+AW72 | '10 / 10' | bg=F3F3F3 fg=theme1
+AX72 | 'Staggered stance double rack deadlifts https://www.youtube.com/watch?v=prDdkGgNWLM' | bg=F3F3F3 fg=theme1
+AY72 | 'ukd' | fg=theme1
+AZ72 | 4.0 | fg=theme1
+BA72 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+BB72 | 'db lateral lunge https://www.youtube.com/watch?v=pjIq2m9XsVE' | fg=0000FF
+BC72 | 'uhd' | fg=theme1
+BD72 | 4.0 | bg=F3F3F3 fg=theme1
+BE72 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BF72 | 'SL Glute bridge Marchs https://www.youtube.com/watch?v=jxd0G4Ex1lQ' | bg=F3F3F3 fg=theme1
+BG72 | 'ukd' | fg=theme1
+BH72 | 4.0 | fg=theme1
+BI72 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+BJ72 | 'MB rotational Alternating FFE Reverse lunge ' | fg=theme1
+BK72 | 'Part D' | fg=theme1
+BL72 | 'uhd' | fg=theme1
+BM72 | 4.0 | bg=F3F3F3 fg=theme1
+BN72 | '20 secs' | bg=F3F3F3 fg=theme1
+BO72 | 'fast hamstring curls sliders' | bg=F3F3F3 fg=theme1
+BP72 | 'ukd' | fg=theme1
+BQ72 | 4.0 | fg=theme1
+BR72 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+BS72 | 'DB reverse lunges' | fg=theme1
+BT72 | 'uhd' | fg=theme1
+BU72 | 4.0 | bg=F3F3F3 fg=theme1
+BV72 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BW72 | 'camporini dl' | bg=F3F3F3 fg=theme1
+BX72 | 'ukd' | fg=theme1
+BY72 | 4.0 | fg=theme1
+BZ72 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+CA72 | 'alternating split stance jumps FFE (box) https://www.youtube.com/watch?v=RfQK-QENvyA' | fg=theme1
+CC72 | 'Part D' | fg=theme1
+CD72 | 'uhd' | fg=theme1
+CE72 | 4.0 | bg=F3F3F3 fg=theme1
+CF72 | '12 on each side' | bg=F3F3F3 fg=theme1
+CG72 | 'Staggered stance DB dl' | bg=F3F3F3 fg=theme1
+CH72 | 'ukd' | fg=theme1
+CI72 | 4.0 | fg=theme1
+CJ72 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+CK72 | 'High zercher DB RFE Lunge front foot on ramp' | fg=theme1
+CL72 | 'uhd' | fg=theme1
+CM72 | 4.0 | bg=F3F3F3 fg=theme1
+CN72 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+CO72 | 'Staggered stance DB dl - Medial pressure - contralateral loading - https://youtube.com/shorts/avUPBq-FrDU?feature=share' | bg=F3F3F3 fg=theme1
+CP72 | 'ukd' | fg=theme1
+CQ72 | 4.0 | fg=theme1
+CR72 | datetime.datetime(2022, 10, 10, 0, 0) | fg=theme1
+CS72 | 'Suitcase DB RFE lunge jumps' | fg=theme1
+CV72 | 'bicep' | fg=theme1
+CX72 | datetime.datetime(2022, 12, 12, 0, 0) | bg=F3F3F3 fg=theme1
+CY72 | 'Bicep hammer Curls' | bg=F3F3F3 fg=theme1
+CZ72 | 'tricep' | fg=theme1
+DB72 | '15/15' | fg=theme1
+DC72 | 'tricep kickbacks' | fg=theme1
+DD72 | 'bicep' | fg=theme1
+DF72 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+DG72 | 'EZ bar Pronated curls' | bg=F3F3F3 fg=theme1
+DH72 | 'tricep' | fg=theme1
+DJ72 | 'max' | fg=theme1
+DK72 | 'tate press' | fg=theme1
+DN72 | 'bicep' | fg=theme1
+DP72 | 12.0 | bg=F3F3F3 fg=theme1
+DQ72 | 'EZ bar curls' | bg=F3F3F3 fg=theme1
+DR72 | 'tricep' | fg=theme1
+DT72 | 'max' | fg=theme1
+DU72 | 'tricep dips' | fg=theme1
+DV72 | 'bicep' | fg=theme1
+DX72 | 'MAX REPS' | bg=F3F3F3 fg=theme1
+DY72 | 'DB BICEPS CURLS' | bg=F3F3F3 fg=theme1
+DZ72 | 'tricep' | fg=theme1
+EB72 | 'MAX' | fg=theme1
+EC72 | 'Cable tricep extensions' | fg=theme1
+C73 | datetime.datetime(2023, 8, 8, 0, 0) | bg=F3F3F3 fg=theme1
+D73 | 'Bicep Curls' | bg=F3F3F3 fg=theme1
+F73 | 'max' | fg=theme1
+G73 | 'Cable tricep ext' | fg=theme1
+I73 | 'MAX REPS' | bg=F3F3F3 fg=theme1
+J73 | 'EZ bar Pronated curls' | bg=F3F3F3 fg=theme1
+L73 | 'max' | fg=theme1
+M73 | 'overhead db tricep ext' | fg=theme1
+P73 | 'bicep' | fg=theme1
+R73 | datetime.datetime(2023, 8, 8, 0, 0) | bg=F3F3F3 fg=theme1
+S73 | 'incline bicep curls https://www.youtube.com/watch?v=aTYlqC_JacQ' | bg=F3F3F3 fg=theme1
+T73 | 'tricep' | fg=theme1
+V73 | 'MAX' | fg=theme1
+W73 | 'floor db skull crushers https://www.youtube.com/watch?v=IAHDkC6vJw4' | fg=theme1
+X73 | 'bicep' | fg=theme1
+Z73 | 'MAX' | bg=F3F3F3 fg=theme1
+AA73 | 'Alternating bicep curls' | bg=F3F3F3 fg=theme1
+AB73 | 'tricep' | fg=theme1
+AD73 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+AE73 | 'offset pushups https://www.youtube.com/watch?v=nxPEqBn6tFc' | fg=theme1
+AI73 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AJ73 | 'Bicep Curls' | bg=F3F3F3 fg=theme1
+AL73 | 15.0 | fg=theme1
+AM73 | 'Cable tricep ext' | fg=theme1
+AO73 | 15.0 | bg=F3F3F3 fg=theme1
+AP73 | 'cable bicep curls' | bg=F3F3F3 fg=theme1
+AR73 | 'max reps' | fg=theme1
+AS73 | 'overhead band tricep ext' | fg=theme1
+AU73 | 'bicep' | fg=theme1
+AW73 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AX73 | 'Z bar bicep  curls' | bg=F3F3F3 fg=theme1
+AY73 | 'tricep' | fg=theme1
+BA73 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+BB73 | 'db tricep kick backs https://www.youtube.com/watch?v=shoqcV-yVrg' | fg=theme1
+BC73 | 'bicep' | fg=theme1
+BE73 | 'MAX' | bg=F3F3F3 fg=theme1
+BF73 | 'Alternating bicep curls' | bg=F3F3F3 fg=theme1
+BG73 | 'tricep' | fg=theme1
+BI73 | 'Max' | fg=theme1
+BJ73 | 'Tríceps dips' | fg=theme1
+BL73 | 'bicep' | fg=theme1
+BN73 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BO73 | 'heavy Bicep hammer Curls' | bg=F3F3F3 fg=theme1
+BP73 | 'tricep' | fg=theme1
+BR73 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+BS73 | 'tricep kickbacks' | fg=theme1
+BT73 | 'bicep' | fg=theme1
+BV73 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BW73 | 'EZ bar Pronated curls' | bg=F3F3F3 fg=theme1
+BX73 | 'tricep' | fg=theme1
+BZ73 | 'max' | fg=theme1
+CA73 | 'tate press' | fg=theme1
+CD73 | 'bicep' | fg=theme1
+CF73 | 12.0 | bg=F3F3F3 fg=theme1
+CG73 | 'EZ bar curls' | bg=F3F3F3 fg=theme1
+CH73 | 'tricep' | fg=theme1
+CJ73 | 15.0 | fg=theme1
+CK73 | 'Floor tricep DB skull crushers' | fg=theme1
+CL73 | 'bicep' | fg=theme1
+CN73 | '15/15' | bg=F3F3F3 fg=theme1
+CO73 | 'Alternating bicep ahmmer curls' | bg=F3F3F3 fg=theme1
+CP73 | 'tricep' | fg=theme1
+CR73 | 'MAX' | fg=theme1
+CS73 | 'Cable tricep extensions' | fg=theme1
+CZ73 | 'shoulders' | fg=theme1
+DB73 | 'max' | fg=theme1
+DC73 | 'side raises' | fg=theme1
+DD73 | 'calfs' | fg=theme1
+DF73 | 20.0 | bg=F3F3F3 fg=theme1
+DG73 | 'weighted calf raises' | bg=F3F3F3 fg=theme1
+DH73 | 'shoulders' | fg=theme1
+DJ73 | 'max' | fg=theme1
+DK73 | 'DB HIGH PULL' | fg=theme1
+DN73 | 'calfs' | fg=theme1
+DP73 | 'MAX' | bg=F3F3F3 fg=theme1
+DQ73 | 'DB calf raises' | bg=F3F3F3 fg=theme1
+DR73 | 'shoulders' | fg=theme1
+DT73 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+DU73 | 'cable Side raises' | fg=theme1
+DV73 | 'calfs' | fg=theme1
+DX73 | 20.0 | bg=F3F3F3 fg=theme1
+DY73 | 'ANKLE HOPS' | bg=F3F3F3 fg=theme1
+DZ73 | 'shoulders' | fg=theme1
+EB73 | 'MAX' | fg=theme1
+EC73 | 'bent over db Reverse flies' | fg=theme1
+C74 | datetime.datetime(2023, 8, 8, 0, 0) | bg=F3F3F3 fg=theme1
+D74 | 'Side to side hurdle hops - https://www.youtube.com/watch?v=CSMzq7rAbKU' | bg=F3F3F3 fg=theme1
+F74 | 'max' | fg=theme1
+G74 | 'side raises' | fg=theme1
+I74 | 'MAX REPS' | bg=F3F3F3 fg=theme1
+J74 | 'weighted calf raises' | bg=F3F3F3 fg=theme1
+L74 | 'max' | fg=theme1
+M74 | 'sesaw push press - https://www.youtube.com/watch?v=N4Y5hWOwDBY' | fg=theme1
+P74 | 'calfs' | fg=theme1
+R74 | 20.0 | bg=F3F3F3 fg=theme1
+S74 | 'DB heavy ankle hops' | bg=F3F3F3 fg=theme1
+T74 | 'shoulders' | fg=theme1
+V74 | 'MAX' | fg=theme1
+W74 | 'Side Raises' | fg=theme1
+X74 | 'calfs' | fg=theme1
+Z74 | 'MAX' | bg=F3F3F3 fg=theme1
+AA74 | 'weighted calf raises' | bg=F3F3F3 fg=theme1
+AB74 | 'shoulders' | fg=theme1
+AD74 | 'max' | fg=theme1
+AE74 | 'bent over sesaw rows https://www.youtube.com/watch?v=_UUyU3FOhto' | fg=theme1
+AI74 | datetime.datetime(2023, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+AJ74 | 'Side to side hurdle hops - https://www.youtube.com/watch?v=CSMzq7rAbKU' | bg=F3F3F3 fg=theme1
+AL74 | 10.0 | fg=theme1
+AM74 | 'side raises' | fg=theme1
+AO74 | 'MAX REPS' | bg=F3F3F3 fg=theme1
+AP74 | 'weighted calf raises' | bg=F3F3F3 fg=theme1
+AR74 | 10.0 | fg=theme1
+AS74 | 'front/side db rises ' | fg=theme1
+AU74 | 'calfs' | fg=theme1
+AW74 | 20.0 | bg=F3F3F3 fg=theme1
+AX74 | 'DB heavy ankle hops' | bg=F3F3F3 fg=theme1
+AY74 | 'shoulders' | fg=theme1
+BA74 | 10.0 | fg=theme1
+BB74 | 'Side Raises FULL ROM https://www.youtube.com/watch?v=OuG1smZTsQQ' | fg=theme1
+BC74 | 'calfs' | fg=theme1
+BE74 | 'MAX' | bg=F3F3F3 fg=theme1
+BF74 | 'weighted calf raises' | bg=F3F3F3 fg=theme1
+BG74 | 'shoulders' | fg=theme1
+BI74 | 10.0 | fg=theme1
+BJ74 | 'KB high pull ' | fg=theme1
+BL74 | 'calfs' | fg=theme1
+BN74 | 20.0 | bg=F3F3F3 fg=theme1
+BO74 | 'highest ankle hops' | bg=F3F3F3 fg=theme1
+BP74 | 'shoulders' | fg=theme1
+BR74 | 'max' | fg=theme1
+BS74 | 'side raises' | fg=theme1
+BT74 | 'calfs' | fg=theme1
+BV74 | datetime.datetime(2022, 10, 10, 0, 0) | bg=F3F3F3 fg=theme1
+BW74 | 'weighted calf raises' | bg=F3F3F3 fg=theme1
+BX74 | 'shoulders' | fg=theme1
+BZ74 | 'max' | fg=theme1
+CA74 | 'sesaw shoulder presses' | fg=theme1
+CD74 | 'calfs' | fg=theme1
+CF74 | 'MAX' | bg=F3F3F3 fg=theme1
+CG74 | 'DB calf raises' | bg=F3F3F3 fg=theme1
+CH74 | 'shoulders' | fg=theme1
+CJ74 | 15.0 | fg=theme1
+CK74 | 'Side raises' | fg=theme1
+CL74 | 'calfs' | fg=theme1
+CN74 | 'MAX' | bg=F3F3F3 fg=theme1
+CO74 | 'DB calf raises' | bg=F3F3F3 fg=theme1
+CP74 | 'shoulders' | fg=theme1
+CR74 | 'MAX' | fg=theme1
+CS74 | 'bent over db Reverse flies' | fg=theme1
+CU74 | 'Part E' | bg=FFF2CC fg=theme1
+CV74 | 'Buy out' | bg=FFF2CC fg=theme1
+CY74 | '2x 15 cal bike sprint' | bg=FFF2CC fg=theme1
+CZ74 | 'Buy out' | bg=FFF2CC fg=theme1
+DD74 | 'Buy out' | bg=FFF2CC fg=theme1
+DG74 | '3x 10 cal row sprint or ski' | bg=FFF2CC fg=theme1
+DH74 | 'Buy out' | bg=FFF2CC fg=theme1
+DM74 | 'Part E' | bg=FFF2CC fg=theme1
+DN74 | 'Buy out' | bg=FFF2CC fg=theme1
+DQ74 | '1 X 12 Cal bike sprint' | bg=FFF2CC fg=theme1
+DR74 | 'Buy out' | bg=FFF2CC fg=theme1
+DU74 | '1 X 12 Cal skierg sprint' | bg=FFF2CC fg=theme1
+DV74 | 'Buy out' | bg=FFF2CC fg=theme1
+DY74 | '1 X 12 Cal row sprint' | bg=FFF2CC fg=theme1
+DZ74 | 'Buy out' | bg=FFF2CC fg=theme1
+A75 | 'Part E' | bg=FFF2CC fg=theme1
+B75 | 'Buy out' | bg=FFF2CC fg=theme1
+E75 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+F75 | 'Buy out' | bg=FFF2CC fg=theme1
+I75 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+J75 | 'Buy out' | bg=FFF2CC fg=theme1
+M75 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+O75 | 'Part E' | bg=FFF2CC fg=theme1
+P75 | 'Buy out' | bg=FFF2CC fg=theme1
+S75 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+T75 | 'Buy out' | bg=FFF2CC fg=theme1
+W75 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+X75 | 'Buy out' | bg=FFF2CC fg=theme1
+AA75 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+AB75 | 'Buy out' | bg=FFF2CC fg=theme1
+AE75 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+AG75 | 'Part E' | bg=FFF2CC fg=theme1
+AH75 | 'Buy out' | bg=FFF2CC fg=theme1
+AJ75 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+AK75 | 'Buy out' | bg=FFF2CC fg=theme1
+AM75 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+AN75 | 'Buy out' | bg=FFF2CC fg=theme1
+AP75 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+AT75 | 'Part E' | bg=FFF2CC fg=theme1
+AU75 | 'Buy out' | bg=FFF2CC fg=theme1
+AX75 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+AY75 | 'Buy out' | bg=FFF2CC fg=theme1
+BB75 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+BC75 | 'Buy out' | bg=FFF2CC fg=theme1
+BF75 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+BG75 | 'Buy out' | bg=FFF2CC fg=theme1
+BJ75 | '1x 30 Sec Fast Run' | bg=FFF2CC fg=theme1
+BK75 | 'Part E' | bg=FFF2CC fg=theme1
+BL75 | 'Buy out' | bg=FFF2CC fg=theme1
+BO75 | '2x 15 cal bike sprint' | bg=FFF2CC fg=theme1
+BP75 | 'Buy out' | bg=FFF2CC fg=theme1
+BT75 | 'Buy out' | bg=FFF2CC fg=theme1
+BW75 | '3x 10 cal row sprint or ski' | bg=FFF2CC fg=theme1
+BX75 | 'Buy out' | bg=FFF2CC fg=theme1
+CC75 | 'Part E' | bg=FFF2CC fg=theme1
+CD75 | 'Buy out' | bg=FFF2CC fg=theme1
+CG75 | '1 X 12 Cal bike sprint' | bg=FFF2CC fg=theme1
+CH75 | 'Buy out' | bg=FFF2CC fg=theme1
+CK75 | '1 X 12 Cal skierg sprint' | bg=FFF2CC fg=theme1
+CL75 | 'Buy out' | bg=FFF2CC fg=theme1
+CO75 | '1 X 12 Cal row sprint' | bg=FFF2CC fg=theme1
+CP75 | 'Buy out' | bg=FFF2CC fg=theme1
+CV75 | 'Speed' | fg=theme1
+CZ75 | 'strength' | fg=theme1
+DH75 | 'speed' | fg=theme1
+P76 | 'Speed' | fg=theme1
+T76 | 'strength' | fg=theme1
+AB76 | 'speed' | fg=theme1
+AU76 | 'Speed' | fg=theme1
+AY76 | 'strength' | fg=theme1
+BG76 | 'speed' | fg=theme1
+BL76 | 'Speed' | fg=theme1
+BP76 | 'strength' | fg=theme1
+BX76 | 'speed' | fg=theme1

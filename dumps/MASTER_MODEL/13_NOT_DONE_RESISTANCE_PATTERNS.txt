@@ -1,0 +1,396 @@
+SHEET: '(NOT DONE) RESISTANCE PATTERNS '
+DIMENSIONS: A1:AA126  max_row=126 max_col=27
+NON-EMPTY CELLS: 329
+MERGED (0): 
+DATA VALIDATIONS (dropdown sources):
+HYPERLINKS:
+  A7 -> 'ALL ABOUT SQUATS'!A1
+  B8 -> https://youtu.be/rMvwVtlqjTE
+  C8 -> '(NOT DONE) ALL ABOUT LUNGES'!A1
+  B9 -> https://youtu.be/VyarbKwmOeE
+  B10 -> https://youtube.com/shorts/Xb8IH4RpW_s?feature=share
+  D10 -> https://youtu.be/WxakFlx9zLk
+  B11 -> https://youtu.be/MeIiIdhvXT4
+  D11 -> https://youtu.be/cnwphCgR60A
+  B12 -> https://youtu.be/NcOoCrI-Vro
+  D12 -> https://youtu.be/7pwO2gemRyg
+  B13 -> https://youtu.be/M-3wmzwsUxc
+  D13 -> https://youtu.be/1ozWQ-B9zu4
+  B14 -> https://youtube.com/shorts/0BwOWfg_-Og?feature=share
+  D14 -> https://youtu.be/LFI6UUQgyMY
+  B15 -> https://youtu.be/v_c67Omje48
+  D15 -> https://youtu.be/n4PKawSrLt0
+  B16 -> https://youtu.be/_mfORB47xMs
+  D16 -> https://youtu.be/VG52O1zzDks
+  B17 -> https://youtu.be/f-Vf2yRRqOg
+  D17 -> https://youtu.be/9ZknEYboBOQ
+  B18 -> https://youtu.be/6XghYOzny8U
+  D18 -> https://youtu.be/Ha__mTXHk3c
+  B19 -> https://youtube.com/shorts/7nFjBP4K0t4?feature=share
+  B20 -> https://youtu.be/4yxT7QPowa0
+  B21 -> https://youtube.com/shorts/0aTzcRGDCQE?feature=share
+  B22 -> https://youtu.be/uYumuL_G_V0
+  B23 -> https://youtu.be/i7J5h7BJ07g
+  B24 -> https://youtu.be/Uy8lViLbwGQ
+  B25 -> https://youtu.be/EqpRWfab9eo
+  B29 -> https://youtu.be/zwa-VtaB4S0
+  B33 -> https://youtu.be/CqN02EAAtc8
+  B34 -> https://youtu.be/HW5yUsjKru4
+  B35 -> https://youtube.com/shorts/NB_DvZx-2vk?feature=share
+  B36 -> https://youtu.be/pn8mqlG0nkE
+  D38 -> https://youtu.be/ay02gvlU_Js
+  B39 -> https://youtu.be/m0FOpMEgero
+  D39 -> https://youtu.be/qDcniqddTeE
+  B40 -> https://youtu.be/MM_WD0gZres
+  B41 -> https://youtu.be/HpCE66lfEuk
+  D47 -> https://youtu.be/zKWe7UAWbIo
+  B61 -> https://youtu.be/wMEoGwkk650
+  B63 -> https://youtu.be/3vmbvoT2m-U
+  B64 -> https://youtu.be/pv8e6OSyETE
+  B66 -> https://youtu.be/aXwilZfmDyo
+  B67 -> https://youtu.be/z15C9UZUbss
+  B68 -> https://youtu.be/tsP0eYPsoiE
+  B69 -> https://youtu.be/1jC_nqcSCp8
+  B70 -> https://youtu.be/ev5Bx5a_mss
+  B71 -> https://youtu.be/op9kVnSso6Q
+  B72 -> https://youtu.be/SZEcHFpc6Gw
+  B73 -> https://youtu.be/ekNKtG0ZFTU
+  B74 -> https://youtu.be/YA-h3n9L4YU
+  B76 -> https://youtu.be/wQHSYDSgDn8
+  B78 -> https://youtu.be/KkYOW3jDhoM
+  B79 -> https://youtu.be/rGQA9QXTdbU
+  A80 -> '(NOT DONE) ALL ABOUT BALLISTICS'!A1
+  B83 -> https://youtu.be/rctF-33G7nw
+  B84 -> https://youtu.be/CpWsUsqBtN8
+  B88 -> https://youtu.be/rSh6zBVNYRU
+
+CELLS (row-major; coord | value | formatting):
+A1 | 'UNDER CONSTRUCTION' | bg=FFFF00 bold fg=theme1
+A5 | 'LOWER BODY MECHANICS' | bg=FF0000 bold fg=theme1
+E5 | 'UPPER BODY MECHANICS' | bg=EA9999 bold fg=theme1
+A6 | 'KNEE DOMINANT' | bg=D5A6BD fg=theme1
+B6 | 'VIDEO' | bg=D5A6BD fg=theme1
+D6 | 'VIDEO' | bg=D5A6BD fg=theme1
+E6 | 'VERTICAL PUSH' | bg=D5A6BD fg=theme1
+F6 | 'VIDEO' | bg=D5A6BD fg=theme1
+G6 | 'MID RANGE PUSH' | bg=D5A6BD fg=theme1
+H6 | 'VIDEO' | bg=D5A6BD fg=theme1
+I6 | 'HORIZONTAL PUSH' | bg=D5A6BD fg=theme1
+J6 | 'VIDEO' | bg=D5A6BD fg=theme1
+K6 | 'SHOULDERS/BICEP/TRICEP' | bg=D5A6BD fg=theme1
+L6 | 'VIDEO' | bg=D5A6BD fg=theme1
+A7 | 'BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS' | bg=A4C2F4 fg=0000FF
+C7 | 'UNILATERAL SAGITAL' | bg=A4C2F4 fg=theme1
+E7 | 'BILATERAL SAGITAL' | bg=A4C2F4 fg=theme1
+G7 | 'BILATERAL SAGITAL' | bg=A4C2F4 fg=theme1
+I7 | 'BILATERAL SAGITAL' | bg=A4C2F4 fg=theme1
+K7 | 'SHOULDERS' | bg=A4C2F4 fg=theme1
+A8 | 'Air squat' | bg=93C47D fg=theme1
+B8 | 'https://youtu.be/rMvwVtlqjTE' | fg=0000FF
+C8 | '*SEE ALL ABOUT LUNGES CHEAT SHEET FOR MORE UNDERSTNADING*' | bg=FFE599 fg=0000FF
+E8 | 'Seated DB press' | bg=B6D7A8 fg=theme1
+G8 | 'Incline DB bench press feet on wall' | fg=theme1
+I8 | 'DB floor press' | bg=B6D7A8 fg=theme1
+K8 | 'Side raises palms forward' | fg=theme1
+A9 | 'Air box squats' | bg=93C47D fg=theme1
+B9 | 'https://youtu.be/VyarbKwmOeE' | fg=0000FF
+C9 | 'FEET POSITIONING VARIATIONS' | bg=A4C2F4 fg=theme1
+E9 | 'Seated Barbell press' | bg=B6D7A8 fg=theme1
+G9 | 'Incline DB bench' | fg=theme1
+I9 | 'Cable standing chest press' | bg=B6D7A8 fg=theme1
+K9 | 'Side raises Palms down' | fg=theme1
+A10 | 'Plate reach forward squat' | bg=93C47D fg=theme1
+B10 | 'https://youtube.com/shorts/Xb8IH4RpW_s?feature=share' | fg=0000FF
+C10 | 'front foot elevated lunge (FFE)' | fg=theme1
+D10 | 'https://youtu.be/WxakFlx9zLk' | fg=0000FF
+E10 | 'DB Z press on floor ' | bg=FFE599 fg=theme1
+G10 | 'Incline barbell bench' | fg=theme1
+I10 | 'Kneeling pushups' | bg=B6D7A8 fg=theme1
+K10 | 'Side raises spill the can' | fg=theme1
+A11 | 'goblet squat' | bg=93C47D fg=theme1
+B11 | 'https://youtu.be/MeIiIdhvXT4' | fg=0000FF
+C11 | 'Stationary lunge' | fg=theme1
+D11 | 'https://youtu.be/cnwphCgR60A' | fg=0000FF
+E11 | 'Barbell Z press on floor' | bg=FFE599 fg=theme1
+G11 | 'Incline Cable Bench' | fg=theme1
+I11 | 'Bench pushups' | bg=FFE599 fg=theme1
+K11 | 'Front Raises hammer' | fg=theme1
+A12 | 'Foam roller or swiss ball wall assisted goblet' | bg=93C47D fg=theme1
+B12 | 'https://youtu.be/NcOoCrI-Vro' | fg=0000FF
+C12 | 'reverse lunge' | fg=theme1
+D12 | 'https://youtu.be/7pwO2gemRyg' | fg=0000FF
+E12 | 'Kneeling DB press' | bg=FFE599 fg=theme1
+G12 | 'Standing viking press' | fg=theme1
+I12 | 'Pushups' | bg=FFE599 fg=theme1
+K12 | 'Front raises palms down' | fg=theme1
+A13 | 'Hex bar squats' | bg=93C47D fg=theme1
+B13 | 'https://youtu.be/M-3wmzwsUxc' | fg=0000FF
+C13 | 'rear foot against wall lunge' | fg=theme1
+D13 | 'https://youtu.be/1ozWQ-B9zu4' | fg=0000FF
+E13 | 'Kneeling barbell press' | bg=E06666 fg=theme1
+G13 | 'Standing landmine press' | fg=theme1
+I13 | 'Diamond pushups' | bg=E06666 fg=theme1
+K13 | 'DB upright row' | fg=theme1
+A14 | 'Fliped hex bar squats' | bg=93C47D fg=theme1
+B14 | 'https://youtube.com/shorts/0BwOWfg_-Og?feature=share' | fg=0000FF
+C14 | 'Rear foot elevated lunge (RFE)' | fg=theme1
+D14 | 'https://youtu.be/LFI6UUQgyMY' | fg=0000FF
+E14 | 'Standing DB press' | bg=E06666 fg=theme1
+G14 | 'kneeling landmine press' | fg=theme1
+I14 | 'DB bench press' | bg=E06666 fg=theme1
+K14 | 'KB upright row' | fg=theme1
+A15 | 'Low DB squats' | bg=93C47D fg=theme1
+B15 | 'https://youtu.be/v_c67Omje48' | fg=0000FF
+C15 | 'Front and Rear foot elevated lunge' | fg=theme1
+D15 | 'https://youtu.be/n4PKawSrLt0' | fg=0000FF
+E15 | 'Standing Barbell press' | bg=E06666 fg=theme1
+I15 | 'Barbell bench press' | bg=E06666 fg=theme1
+K15 | 'Barbell upright row' | fg=theme1
+A16 | 'Landmine Squat' | bg=93C47D fg=theme1
+B16 | 'https://youtu.be/_mfORB47xMs' | fg=0000FF
+C16 | 'forward lunge' | fg=theme1
+D16 | 'https://youtu.be/VG52O1zzDks' | fg=0000FF
+E16 | 'HALF KNEELING VARIATIONS' | bg=9FC5E8 fg=theme1
+I16 | 'HAND PLACEMENT' | bg=A4C2F4 fg=theme1
+K16 | 'Bent over Reverse flies' | fg=theme1
+A17 | 'Goblet squat' | bg=93C47D fg=theme1
+B17 | 'https://youtu.be/f-Vf2yRRqOg' | fg=0000FF
+C17 | 'forward step up' | fg=theme1
+D17 | 'https://youtu.be/9ZknEYboBOQ' | fg=0000FF
+I17 | 'supinated' | fg=theme1
+K17 | 'Seated reverse flies' | fg=theme1
+A18 | 'Double front rack kb squat' | bg=FFE599 fg=theme1
+B18 | 'https://youtu.be/6XghYOzny8U' | fg=0000FF
+C18 | 'lateral step up' | fg=theme1
+D18 | 'https://youtu.be/Ha__mTXHk3c' | fg=0000FF
+I18 | 'neutral' | fg=theme1
+K18 | 'Machine reverse flies' | fg=theme1
+A19 | 'high zercher DB Squat' | bg=FFE599 fg=theme1
+B19 | 'https://youtube.com/shorts/7nFjBP4K0t4?feature=share' | fg=0000FF
+C19 | 'GET INTO THE HIP VARIATIONS - MODERATE' | bg=A4C2F4 fg=theme1
+I19 | 'pronated' | fg=theme1
+K19 | 'Face pulls' | fg=theme1
+A20 | 'high zercher barbell squat' | bg=FFE599 fg=theme1
+B20 | 'https://youtu.be/4yxT7QPowa0' | fg=0000FF
+C20 | 'Contralateral loading ' | fg=theme1
+I20 | 'wide grip' | fg=theme1
+K20 | 'Upwards face pull' | fg=theme1
+A21 | 'Barbell zercher squat' | bg=FFE599 fg=theme1
+B21 | 'https://youtube.com/shorts/0aTzcRGDCQE?feature=share' | fg=0000FF
+C21 | 'GET OUT OF THE HIP - MODERATE' | bg=A4C2F4 fg=theme1
+I21 | 'narrow grip' | fg=theme1
+K21 | 'Bench incline DB ys' | fg=theme1
+A22 | 'front squat' | bg=FFE599 fg=theme1
+B22 | 'https://youtu.be/uYumuL_G_V0' | fg=0000FF
+C22 | 'Ipsilateral loading ' | fg=theme1
+I22 | 'FEET POSITION' | bg=A4C2F4 fg=theme1
+K22 | 'Bench incline DB Ts' | fg=theme1
+A23 | 'high bar back squat' | bg=FFE599 fg=theme1
+B23 | 'https://youtu.be/i7J5h7BJ07g' | fg=0000FF
+C23 | 'GET INTO THE HIP VARIATIONS - HARDER' | bg=A4C2F4 fg=theme1
+I23 | 'feet on bench' | bg=B6D7A8 fg=theme1
+K23 | 'BICEPS' | bg=A4C2F4 fg=theme1
+A24 | 'low bar back squat' | bg=FFE599 fg=theme1
+B24 | 'https://youtu.be/Uy8lViLbwGQ' | fg=0000FF
+C24 | 'Front racked db or kb contralateral loading' | fg=theme1
+I24 | 'feet on wall' | bg=B6D7A8 fg=theme1
+K24 | 'DB Hammer curls' | fg=theme1
+A25 | 'Box *ANY Squat touch & go' | bg=E06666 fg=theme1
+B25 | 'https://youtu.be/EqpRWfab9eo' | fg=0000FF
+C25 | 'GET OUT OF THE HIP VARIATIONS - HARDER' | bg=A4C2F4 fg=theme1
+I25 | 'feet on raisers or plates' | bg=FFE599 fg=theme1
+K25 | 'DB Supinated curls' | fg=theme1
+A26 | 'Box *ANY Squat touch & go banded' | bg=E06666 fg=theme1
+C26 | 'Front racked db or kb Ipsilateral loading' | fg=theme1
+I26 | 'feet on floor' | bg=FFE599 fg=theme1
+K26 | 'DB pronated curls' | fg=theme1
+A27 | 'Box *ANY Squat touch & go reverse banded' | bg=E06666 fg=theme1
+C27 | 'LOW/MID LOADING VARIATION' | bg=A4C2F4 fg=theme1
+I27 | 'feet in air (hollow bent legs)' | bg=E06666 fg=theme1
+K27 | 'EZ Bar supinated curls' | fg=theme1
+A28 | 'Box *ANY Squat Deload' | bg=E06666 fg=theme1
+C28 | 'Plate reach ' | fg=theme1
+I28 | 'feet in air (hollow legs str8)' | bg=E06666 fg=theme1
+K28 | 'EZ bar pronated curls' | fg=theme1
+A29 | 'Box *ANY Squat Deload banded' | bg=E06666 fg=theme1
+B29 | 'https://youtu.be/zwa-VtaB4S0' | fg=0000FF
+C29 | 'Goblet loading' | fg=theme1
+I29 | 'UNILATERAL SAGITAL' | bg=A4C2F4 fg=theme1
+K29 | 'Barbell supinated curls' | fg=theme1
+A30 | 'Box *ANY Squat Deload reverse banded' | bg=E06666 fg=theme1
+C30 | 'Double kb or Db' | fg=theme1
+I30 | 'One up/one down Alternating DB floor press' | bg=B6D7A8 fg=theme1
+K30 | 'Barbell pronated curls' | fg=theme1
+C31 | 'HIGH LOADING VARIATION' | bg=A4C2F4 fg=theme1
+I31 | 'One forward/one back Alternating cable press' | bg=B6D7A8 fg=theme1
+K31 | 'TRICEPS' | bg=A4C2F4 fg=theme1
+A32 | 'SPECIALTY VARIATIONS' | bg=A4C2F4 fg=theme1
+C32 | 'Barbell high zercher racked' | fg=theme1
+I32 | 'kneeling pushups one hand higher' | bg=FFE599 fg=theme1
+K32 | 'bench tricep kickbacks (uni)' | fg=theme1
+A33 | 'SSB bar Squats' | bg=E06666 fg=theme1
+B33 | 'https://youtu.be/CqN02EAAtc8' | fg=0000FF
+C33 | 'Barbell zercher racked' | fg=theme1
+I33 | 'Pushups one hand higher' | bg=FFE599 fg=theme1
+K33 | 'bent over Tricep kickbacks (bi)' | fg=theme1
+A34 | 'SISSY SQUATS' | fg=theme1
+B34 | 'https://youtu.be/HW5yUsjKru4' | bg=theme0 fg=0000FF
+C34 | 'Barbell Front squat racked' | fg=theme1
+I34 | 'One up/one down Alternating DB bench press' | bg=E06666 fg=theme1
+K34 | 'Straight bar pronated tricep extensions ' | fg=theme1
+A35 | 'Pinned Squats ' | bg=E06666 fg=theme1
+B35 | 'https://youtube.com/shorts/NB_DvZx-2vk?feature=share' | bg=theme0 fg=0000FF
+C35 | 'Barbell back squat racked' | fg=theme1
+K35 | 'Straight bar Supinated tricep extensions ' | fg=theme1
+A36 | 'Overhead squats' | bg=E06666 fg=theme1
+B36 | 'https://youtu.be/pn8mqlG0nkE' | fg=0000FF
+C36 | 'Barbell overhead ' | fg=theme1
+K36 | 'Rope Neutral tricep extensions' | fg=theme1
+C37 | 'SINGLE LEG' | bg=A4C2F4 fg=theme1
+K37 | 'V grip tricep extentions' | fg=theme1
+A38 | 'Leg Extensiona' | bg=A4C2F4 fg=theme1
+C38 | 'Single leg get ups' | fg=theme1
+D38 | 'https://youtu.be/ay02gvlU_Js' | fg=0000FF
+K38 | 'Floor DB tricep extensions' | fg=theme1
+A39 | 'Leg extension machine' | fg=theme1
+B39 | 'https://youtu.be/m0FOpMEgero' | fg=0000FF
+C39 | 'Pistol Squats' | fg=theme1
+D39 | 'https://youtu.be/qDcniqddTeE' | fg=0000FF
+K39 | 'Face up tricep push away' | fg=theme1
+A40 | 'banded leg extensions on bench' | bg=theme0 fg=theme1
+B40 | 'https://youtu.be/MM_WD0gZres' | bg=theme0 fg=0000FF
+K40 | 'EZ bar Skull crusher' | fg=theme1
+A41 | 'DB leg extensions on box' | bg=theme0 fg=theme1
+B41 | 'https://youtu.be/HpCE66lfEuk' | bg=theme0 fg=0000FF
+K41 | 'Tate press' | bg=theme0 fg=theme1
+K42 | 'Db overhead tricep ext (bi or uni)' | bg=theme0 fg=theme1
+K43 | 'Cable overhead tricep ext' | bg=theme0 fg=theme1
+A46 | 'BILATERAL FRONTAL' | bg=A4C2F4 fg=theme1
+C46 | 'UNILATERAL FRONTAL' | bg=A4C2F4 fg=theme1
+E46 | 'BILATERAL FRONTAL' | bg=A4C2F4 fg=theme1
+G46 | 'BILATERAL FRONTAL' | bg=A4C2F4 fg=theme1
+I46 | 'BILATERAL FRONTAL' | bg=A4C2F4 fg=theme1
+A47 | 'Hip banded tube bands' | fg=theme1
+C47 | 'Cosak lateral lunges' | fg=theme1
+D47 | 'https://youtu.be/zKWe7UAWbIo' | fg=0000FF
+A48 | 'Left or Right hip banded out ' | fg=theme1
+A49 | 'Hold between knees Squats' | fg=theme1
+A53 | 'BILATERAL TRANSVERSE' | bg=A4C2F4 fg=theme1
+C53 | 'UNLATERAL TRANSVERSE' | bg=A4C2F4 fg=theme1
+E53 | 'BILATERAL TRANSVERSE' | bg=A4C2F4 fg=theme1
+G53 | 'BILATERAL TRANSVERSE' | bg=A4C2F4 fg=theme1
+I53 | 'BILATERAL TRANSVERSE' | bg=A4C2F4 fg=theme1
+A54 | 'Whats that strap rotating in' | fg=theme1
+A55 | 'Whats that strap rotating out' | fg=theme1
+A59 | 'HIP DOMINANT' | bg=C27BA0 fg=theme1
+E59 | 'VERTICAL PULL' | bg=D5A6BD fg=theme1
+G59 | 'HORIZONTAL PULL' | bg=D5A6BD fg=theme1
+A60 | 'BILATERAL SAGITAL' | bg=A4C2F4 fg=theme1
+B60 | 'VIDEO' | bg=A4C2F4 fg=theme1
+C60 | 'UNILATERAL SAGITAL' | bg=A4C2F4 fg=theme1
+D60 | 'VIDEO' | bg=A4C2F4 fg=theme1
+E60 | 'BILATERAL SAGITAL' | bg=A4C2F4 fg=theme1
+G60 | 'BILATERAL SAGITAL' | bg=A4C2F4 fg=theme1
+A61 | 'Glute bridge' | bg=B6D7A8 fg=theme1
+B61 | 'https://youtu.be/wMEoGwkk650' | fg=0000FF
+C61 | 'BILATERAL LOADING' | fg=theme1
+E61 | 'Lat pull downs wide grip' | fg=theme1
+G61 | 'Machine row' | fg=theme1
+A62 | 'Elevated feet on bench glute bridge' | bg=B6D7A8 fg=theme1
+C62 | 'Staggered stance hex bar dl' | fg=theme1
+E62 | 'Lat pull downs supinated grip' | fg=theme1
+G62 | 'Chest suported row' | fg=theme1
+A63 | 'Reverse hyper extensions' | bg=B6D7A8 fg=theme1
+B63 | 'https://youtu.be/3vmbvoT2m-U' | fg=0000FF
+C63 | 'Staggered stance double dumbbell deadlift' | fg=theme1
+E63 | 'Lat pull downs pronated grip' | fg=theme1
+G63 | 'Sealed cable Row' | fg=theme1
+A64 | 'Cable Pull through' | bg=B6D7A8 fg=theme1
+B64 | 'https://youtu.be/pv8e6OSyETE' | fg=0000FF
+C64 | 'Staggered stance barbell deadlift' | fg=theme1
+E64 | 'Lat pull downs wide mag grips' | fg=theme1
+G64 | 'Incline reverse pushup (rings/trx/barbell/smith machine)' | fg=theme1
+A65 | 'Single KB deadlift' | bg=B6D7A8 fg=theme1
+E65 | 'Lat pull downs with cable rope' | fg=theme1
+G65 | 'Paralell reverse pushup (rings/trx/barbell/smith machine)' | fg=theme1
+A66 | 'Double KB deadlift' | bg=B6D7A8 fg=theme1
+B66 | 'https://youtu.be/aXwilZfmDyo' | fg=0000FF
+E66 | 'Lat pull downs close grip' | fg=theme1
+G66 | 'Bent over db or kb row' | fg=theme1
+A67 | 'GHD' | bg=FFE599 fg=theme1
+B67 | 'https://youtu.be/z15C9UZUbss' | fg=0000FF
+E67 | 'Lat pull unders' | fg=theme1
+G67 | 'bent over hex bar row' | fg=theme1
+A68 | '45 degree hip ext. ' | bg=FFE599 fg=theme1
+B68 | 'https://youtu.be/tsP0eYPsoiE' | fg=0000FF
+E68 | 'Assisted pull up machine close grip' | fg=theme1
+G68 | 'bent over supinated barbell row' | fg=theme1
+A69 | 'HexBar Deadlift' | bg=FFE599 fg=theme1
+B69 | 'https://youtu.be/1jC_nqcSCp8' | fg=0000FF
+E69 | 'Assisted pull up machine pronated grip' | fg=theme1
+G69 | 'bent over pronated barbell row' | fg=theme1
+A70 | 'DB Deadlift' | bg=FFE599 fg=theme1
+B70 | 'https://youtu.be/ev5Bx5a_mss' | fg=0000FF
+C70 | 'UNILATERAL LOADING ' | bg=EAD1DC fg=theme1
+E70 | 'Assisted pull up machine supinated grip' | fg=theme1
+G70 | 'Pendulum row' | fg=theme1
+A71 | 'Shoulder width grip Barbell Deadlift' | bg=FFE599 fg=theme1
+B71 | 'https://youtu.be/op9kVnSso6Q' | fg=0000FF
+C71 | 'GET INTO THE HIP VARIATIONS' | bg=A4C2F4 fg=theme1
+E71 | 'Strict pull ups feet behind you' | fg=theme1
+A72 | 'Wide grip barbell deadlift' | bg=E06666 fg=theme1
+B72 | 'https://youtu.be/SZEcHFpc6Gw' | fg=0000FF
+C72 | 'Contralateral loading ' | fg=theme1
+E72 | 'Strict pull ups feet in front of you' | fg=theme1
+A73 | 'Snatch grip barbell deadlift' | bg=E06666 fg=theme1
+B73 | 'https://youtu.be/ekNKtG0ZFTU' | fg=0000FF
+C73 | 'GET OUT OF THE HIP' | bg=A4C2F4 fg=theme1
+E73 | 'Strict pull ups knees up' | fg=theme1
+G73 | 'UNILATERAL SAGITAL' | bg=A4C2F4 fg=theme1
+A74 | 'Barbell goodmornings' | bg=E06666 fg=theme1
+B74 | 'https://youtu.be/YA-h3n9L4YU' | fg=0000FF
+C74 | 'Ipsilateral loading ' | fg=theme1
+E74 | 'Strict pull ups L sit' | fg=theme1
+G74 | 'Machine single arm row' | fg=theme1
+A75 | 'POWERLIFTING Speacialty LIFT ' | bg=A4C2F4 fg=theme1
+E75 | 'Weighted Pull ups' | fg=theme1
+G75 | 'Cable single arm row' | fg=theme1
+A76 | 'Summo Deadlift' | bg=E06666 fg=theme1
+B76 | 'https://youtu.be/wQHSYDSgDn8' | fg=0000FF
+C76 | 'UNLATERAL TRANSVERSE' | bg=A4C2F4 fg=theme1
+G76 | 'Single arm Db Row' | fg=theme1
+A77 | 'SPEED SPECIALS' | bg=A4C2F4 fg=theme1
+C77 | 'Split stance contralateral KB swings' | fg=theme1
+G77 | 'Kong Rows' | fg=theme1
+A78 | 'Russian kb swing' | fg=theme1
+B78 | 'https://youtu.be/KkYOW3jDhoM' | fg=0000FF
+G78 | 'Bent over Single arm DB or KB row' | fg=theme1
+A79 | 'American kb swing' | fg=theme1
+B79 | 'https://youtu.be/rGQA9QXTdbU' | fg=0000FF
+G79 | 'Half kneeling cable row' | fg=theme1
+A80 | '**SEE MORE IN BALLISTICS&PLYOS or ALL ABOUT LUNGES' | fg=0000FF
+A81 | 'ROM VARIABLE' | bg=A4C2F4 fg=theme1
+A82 | 'Elevated' | bg=B6D7A8 fg=theme1
+G82 | 'STANCES' | bg=A4C2F4 fg=theme1
+A83 | 'Floor' | bg=FFE599 fg=theme1
+B83 | 'https://youtu.be/rctF-33G7nw' | fg=0000FF
+G83 | 'Split stance ALWAYS contralateral' | fg=theme1
+A84 | 'Deficit' | bg=E06666 fg=theme1
+B84 | 'https://youtu.be/CpWsUsqBtN8' | fg=0000FF
+G84 | 'Half kneeling same side leg up' | fg=theme1
+A85 | '*RDL' | bg=E06666 fg=theme1
+G85 | 'Half kneeling opposite side leg up' | fg=theme1
+A86 | 'END RANGE BEHAVIOR VARIABLE' | bg=A4C2F4 fg=theme1
+A87 | 'Dead stop' | bg=B6D7A8 fg=theme1
+A88 | 'Touch & go' | bg=FFE599 fg=theme1
+B88 | 'https://youtu.be/rSh6zBVNYRU' | fg=0000FF
+A89 | '*RDL' | bg=E06666 fg=theme1
+A90 | 'LOADING VARIABLES' | bg=A4C2F4 fg=theme1
+A91 | 'WEIGHT RELEASERS' | fg=theme1
+A92 | 'CHAINS' | fg=theme1
+A93 | 'BANDS' | bg=theme0 fg=theme1
+A94 | '*RDL' | bg=E06666 fg=theme1
+A110 | 'TEST FORMULA' | bg=6D9EEB fg=theme1
+A112 | <openpyxl.worksheet.formula.ArrayFormula object at 0x116c2c590> | bg=EA9999 fg=theme1
+A114 | <openpyxl.worksheet.formula.ArrayFormula object at 0x10a6c7b10> | bg=EA9999 fg=theme1
+A117 | <openpyxl.worksheet.formula.ArrayFormula object at 0x10a6c79d0> | bg=EA9999 fg=theme1

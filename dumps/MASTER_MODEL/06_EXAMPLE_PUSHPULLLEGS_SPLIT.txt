@@ -1,0 +1,294 @@
+SHEET: 'EXAMPLE PUSHPULLLEGS SPLIT'
+DIMENSIONS: A1:Z996  max_row=996 max_col=26
+NON-EMPTY CELLS: 283
+MERGED (0): 
+DATA VALIDATIONS (dropdown sources):
+HYPERLINKS:
+  D40 -> 'ALL ABOUT SQUATS'!A1
+  H40 -> 'ALL ABOUT SQUATS'!A1
+  L40 -> 'ALL ABOUT SQUATS'!A1
+
+CELLS (row-major; coord | value | formatting):
+A1 | 'PUSH / PULL / LEGS SPLIT' | bg=00FFFF bold fg=theme1
+A3 | 'Basic Instruction:' | bg=00FFFF fg=theme1
+A4 | '*Always leave 1 rep in the tank, never work up to failure but get as close as you can ' | bg=00FFFF fg=theme1
+A5 | "**Do steady cardio whenever you want, just don't over do it... I reccomend doing it WEDNESDAYS & SATURDAYS max 40 min of steady" | bg=00FFFF fg=theme1
+A6 | '***The lower the reps, the higher the weight... Always go for 1-3 RIR (REPS IN RESERVE) aka RPE 7+' | bg=00FFFF fg=theme1
+A7 | '****When there are joint pains, usually getting away from fixed grips (barbells, bars) and going split grips (dumbbells, kbs, indivitual grips) help take care of some stuff' | bg=00FFFF fg=theme1
+A8 | '*****If you have any questions just ask me - IG @BLAZECAMP or TWITTER @BLAZECAMP_' | bg=00FFFF fg=theme1
+A10 | 'NOVICE' | bg=93C47D bold fg=theme1
+E10 | 'NEWBY' | bg=FFD966 bold fg=theme1
+I10 | 'INTERMEDIATE' | bg=F6B26B bold fg=theme1
+A12 | 'PUSH DAY WORKOUT' | bg=B6D7A8 bold fg=theme1
+D12 | 'ADAY' | bg=D5A6BD fg=theme1
+E12 | 'PUSH DAY WORKOUT' | bg=FFE599 bold fg=theme1
+H12 | 'ADAY' | bg=D5A6BD fg=theme1
+I12 | 'PUSH DAY WORKOUT' | bg=F9CB9C bold fg=theme1
+L12 | 'ADAY' | bg=D5A6BD fg=theme1
+A13 | 'SETS' | bg=B6D7A8 fg=theme1
+B13 | 'REPS' | bg=B6D7A8 fg=theme1
+C13 | 'EXERCISE' | bg=B6D7A8 fg=theme1
+E13 | 'SETS' | bg=FFE599 fg=theme1
+F13 | 'REPS' | bg=FFE599 fg=theme1
+G13 | 'EXERCISE' | bg=FFE599 fg=theme1
+I13 | 'SETS' | bg=F9CB9C fg=theme1
+J13 | 'REPS' | bg=F9CB9C fg=theme1
+K13 | 'EXERCISE' | bg=F9CB9C fg=theme1
+A14 | 1.0 | bg=B6D7A8 fg=theme1
+B14 | '5 Minutes' | bg=B6D7A8 fg=theme1
+C14 | 'Any Cardio Equipment' | bg=B6D7A8 fg=theme1
+E14 | 1.0 | bg=FFE599 fg=theme1
+F14 | '5 Minutes' | bg=FFE599 fg=theme1
+G14 | 'Any Cardio Equipment' | bg=FFE599 fg=theme1
+I14 | 1.0 | bg=F9CB9C fg=theme1
+J14 | '5 Minutes' | bg=F9CB9C fg=theme1
+K14 | 'Any Cardio Equipment' | bg=F9CB9C fg=theme1
+A15 | 1.0 | bg=B6D7A8 fg=theme1
+B15 | datetime.datetime(2022, 8, 8, 0, 0) | bg=B6D7A8 fg=theme1
+C15 | 'KB Book openers ' | bg=B6D7A8 fg=theme1
+E15 | 1.0 | bg=FFE599 fg=theme1
+F15 | datetime.datetime(2022, 8, 8, 0, 0) | bg=FFE599 fg=theme1
+G15 | 'KB Book openers ' | bg=FFE599 fg=theme1
+I15 | 1.0 | bg=F9CB9C fg=theme1
+J15 | datetime.datetime(2022, 8, 8, 0, 0) | bg=F9CB9C fg=theme1
+K15 | 'KB Book openers ' | bg=F9CB9C fg=theme1
+A16 | 3.0 | bg=B6D7A8 fg=theme1
+B16 | 15.0 | bg=B6D7A8 fg=theme1
+C16 | 'Incline DB Bench press' | bg=B6D7A8 fg=theme1
+E16 | 4.0 | bg=FFE599 fg=theme1
+F16 | 10.0 | bg=FFE599 fg=theme1
+G16 | 'Incline DB Bench press' | bg=FFE599 fg=theme1
+I16 | 4.0 | bg=F9CB9C fg=theme1
+J16 | 8.0 | bg=F9CB9C fg=theme1
+K16 | 'Incline DB Bench press' | bg=F9CB9C fg=theme1
+A17 | 3.0 | bg=B6D7A8 fg=theme1
+B17 | 15.0 | bg=B6D7A8 fg=theme1
+C17 | 'Side raises' | bg=B6D7A8 fg=theme1
+E17 | 4.0 | bg=FFE599 fg=theme1
+F17 | 8.0 | bg=FFE599 fg=theme1
+G17 | 'Side raises' | bg=FFE599 fg=theme1
+I17 | 4.0 | bg=F9CB9C fg=theme1
+J17 | 8.0 | bg=F9CB9C fg=theme1
+K17 | 'Side raises' | bg=F9CB9C fg=theme1
+A18 | 3.0 | bg=B6D7A8 fg=theme1
+B18 | 15.0 | bg=B6D7A8 fg=theme1
+C18 | 'Barbell Bench press' | bg=B6D7A8 fg=theme1
+E18 | 3.0 | bg=FFE599 fg=theme1
+F18 | 10.0 | bg=FFE599 fg=theme1
+G18 | 'Barbell Bench press' | bg=FFE599 fg=theme1
+I18 | 4.0 | bg=F9CB9C fg=theme1
+J18 | 8.0 | bg=F9CB9C fg=theme1
+K18 | 'Barbell Bench press' | bg=F9CB9C fg=theme1
+A19 | 3.0 | bg=B6D7A8 fg=theme1
+B19 | 8.0 | bg=B6D7A8 fg=theme1
+C19 | 'Dips' | bg=B6D7A8 fg=theme1
+E19 | 3.0 | bg=FFE599 fg=theme1
+F19 | 10.0 | bg=FFE599 fg=theme1
+G19 | 'Dips' | bg=FFE599 fg=theme1
+I19 | 4.0 | bg=F9CB9C fg=theme1
+J19 | 'MAX' | bg=F9CB9C fg=theme1
+K19 | 'Dips' | bg=F9CB9C fg=theme1
+A20 | 3.0 | bg=B6D7A8 fg=theme1
+B20 | 20.0 | bg=B6D7A8 fg=theme1
+C20 | 'Overhead DB Tricep Ext.' | bg=B6D7A8 fg=theme1
+E20 | 3.0 | bg=FFE599 fg=theme1
+F20 | 20.0 | bg=FFE599 fg=theme1
+G20 | 'Overhead DB Tricep Ext.' | bg=FFE599 fg=theme1
+I20 | 3.0 | bg=F9CB9C fg=theme1
+J20 | 20.0 | bg=F9CB9C fg=theme1
+K20 | 'Overhead DB Tricep Ext.' | bg=F9CB9C fg=theme1
+A23 | 'PULL DAY WORKOUT' | bg=B6D7A8 bold fg=theme1
+D23 | 'BDAY' | bg=D5A6BD fg=theme1
+E23 | 'PULL DAY WORKOUT' | bg=FFE599 bold fg=theme1
+H23 | 'BDAY' | bg=D5A6BD fg=theme1
+I23 | 'PULL DAY WORKOUT' | bg=F9CB9C bold fg=theme1
+L23 | 'BDAY' | bg=D5A6BD fg=theme1
+A24 | 'SETS' | bg=B6D7A8 fg=theme1
+B24 | 'REPS' | bg=B6D7A8 fg=theme1
+C24 | 'EXERCISE' | bg=B6D7A8 fg=theme1
+E24 | 'SETS' | bg=FFE599 fg=theme1
+F24 | 'REPS' | bg=FFE599 fg=theme1
+G24 | 'EXERCISE' | bg=FFE599 fg=theme1
+I24 | 'SETS' | bg=F9CB9C fg=theme1
+J24 | 'REPS' | bg=F9CB9C fg=theme1
+K24 | 'EXERCISE' | bg=F9CB9C fg=theme1
+A25 | 1.0 | bg=B6D7A8 fg=theme1
+B25 | '5 Minutes' | bg=B6D7A8 fg=theme1
+C25 | 'Any Cardio Equipment' | bg=B6D7A8 fg=theme1
+E25 | 1.0 | bg=FFE599 fg=theme1
+F25 | '5 Minutes' | bg=FFE599 fg=theme1
+G25 | 'Any Cardio Equipment' | bg=FFE599 fg=theme1
+I25 | 1.0 | bg=F9CB9C fg=theme1
+J25 | '5 Minutes' | bg=F9CB9C fg=theme1
+K25 | 'Any Cardio Equipment' | bg=F9CB9C fg=theme1
+A26 | 3.0 | bg=B6D7A8 fg=theme1
+B26 | '15/15' | bg=B6D7A8 fg=theme1
+C26 | 'DB Rows or Row machine' | bg=B6D7A8 fg=theme1
+E26 | 4.0 | bg=FFE599 fg=theme1
+F26 | datetime.datetime(2022, 10, 10, 0, 0) | bg=FFE599 fg=theme1
+G26 | 'DB Rows or Row machine' | bg=FFE599 fg=theme1
+I26 | 4.0 | bg=F9CB9C fg=theme1
+J26 | datetime.datetime(2022, 8, 8, 0, 0) | bg=F9CB9C fg=theme1
+K26 | 'DB Rows or Row machine' | bg=F9CB9C fg=theme1
+A27 | 3.0 | bg=B6D7A8 fg=theme1
+B27 | 15.0 | bg=B6D7A8 fg=theme1
+C27 | 'DB Reverse Flies or Machine ' | bg=B6D7A8 fg=theme1
+E27 | 3.0 | bg=FFE599 fg=theme1
+F27 | 10.0 | bg=FFE599 fg=theme1
+G27 | 'DB Reverse Flies or Machine ' | bg=FFE599 fg=theme1
+I27 | 4.0 | bg=F9CB9C fg=theme1
+J27 | 8.0 | bg=F9CB9C fg=theme1
+K27 | 'DB Reverse Flies or Machine ' | bg=F9CB9C fg=theme1
+A28 | 3.0 | bg=B6D7A8 fg=theme1
+B28 | 15.0 | bg=B6D7A8 fg=theme1
+C28 | 'Cable Lat pulldown' | bg=B6D7A8 fg=theme1
+E28 | 4.0 | bg=FFE599 fg=theme1
+F28 | 10.0 | bg=FFE599 fg=theme1
+G28 | 'Pull ups or Cable Lat pull down' | bg=FFE599 fg=theme1
+I28 | 5.0 | bg=F9CB9C fg=theme1
+J28 | 12.0 | bg=F9CB9C fg=theme1
+K28 | 'Pull ups or Cable Lat pull down' | bg=F9CB9C fg=theme1
+A29 | 3.0 | bg=B6D7A8 fg=theme1
+B29 | 15.0 | bg=B6D7A8 fg=theme1
+C29 | 'DB upright rows' | bg=B6D7A8 fg=theme1
+E29 | 3.0 | bg=FFE599 fg=theme1
+F29 | 10.0 | bg=FFE599 fg=theme1
+G29 | 'DB upright rows' | bg=FFE599 fg=theme1
+I29 | 4.0 | bg=F9CB9C fg=theme1
+J29 | 8.0 | bg=F9CB9C fg=theme1
+K29 | 'DB upright rows' | bg=F9CB9C fg=theme1
+A30 | 3.0 | bg=B6D7A8 fg=theme1
+B30 | 20.0 | bg=B6D7A8 fg=theme1
+C30 | 'Barbell Curls' | bg=B6D7A8 fg=theme1
+E30 | 3.0 | bg=FFE599 fg=theme1
+F30 | 20.0 | bg=FFE599 fg=theme1
+G30 | 'Barbell Curls' | bg=FFE599 fg=theme1
+I30 | 3.0 | bg=F9CB9C fg=theme1
+J30 | 20.0 | bg=F9CB9C fg=theme1
+K30 | 'Barbell Curls' | bg=F9CB9C fg=theme1
+A31 | 3.0 | bg=B6D7A8 fg=theme1
+B31 | 20.0 | bg=B6D7A8 fg=theme1
+C31 | 'DB Hammer Curls' | bg=B6D7A8 fg=theme1
+E31 | 3.0 | bg=FFE599 fg=theme1
+F31 | 20.0 | bg=FFE599 fg=theme1
+G31 | 'DB Hammer Curls' | bg=FFE599 fg=theme1
+I31 | 3.0 | bg=F9CB9C fg=theme1
+J31 | 20.0 | bg=F9CB9C fg=theme1
+K31 | 'DB Hammer Curls' | bg=F9CB9C fg=theme1
+A34 | 'LEG DAY WORKOUT' | bg=B6D7A8 bold fg=theme1
+D34 | 'CDAY' | bg=D5A6BD fg=theme1
+E34 | 'LEG DAY WORKOUT' | bg=FFE599 bold fg=theme1
+H34 | 'CDAY' | bg=D5A6BD fg=theme1
+I34 | 'LEG DAY WORKOUT' | bg=F9CB9C bold fg=theme1
+L34 | 'CDAY' | bg=D5A6BD fg=theme1
+A35 | 'SETS' | bg=B6D7A8 fg=theme1
+B35 | 'REPS' | bg=B6D7A8 fg=theme1
+C35 | 'EXERCISE' | bg=B6D7A8 fg=theme1
+E35 | 'SETS' | bg=FFE599 fg=theme1
+F35 | 'REPS' | bg=FFE599 fg=theme1
+G35 | 'EXERCISE' | bg=FFE599 fg=theme1
+I35 | 'SETS' | bg=F9CB9C fg=theme1
+J35 | 'REPS' | bg=F9CB9C fg=theme1
+K35 | 'EXERCISE' | bg=F9CB9C fg=theme1
+A36 | 1.0 | bg=B6D7A8 fg=theme1
+B36 | '5 Minutes' | bg=B6D7A8 fg=theme1
+C36 | 'Any Cardio Equipment' | bg=B6D7A8 fg=theme1
+E36 | 1.0 | bg=FFE599 fg=theme1
+F36 | '5 Minutes' | bg=FFE599 fg=theme1
+G36 | 'Any Cardio Equipment' | bg=FFE599 fg=theme1
+I36 | 1.0 | bg=F9CB9C fg=theme1
+J36 | '5 Minutes' | bg=F9CB9C fg=theme1
+K36 | 'Any Cardio Equipment' | bg=F9CB9C fg=theme1
+A37 | 2.0 | bg=B6D7A8 fg=theme1
+B37 | datetime.datetime(2022, 8, 8, 0, 0) | bg=B6D7A8 fg=theme1
+C37 | 'A March' | bg=B6D7A8 fg=theme1
+E37 | 3.0 | bg=FFE599 fg=theme1
+F37 | datetime.datetime(2022, 10, 10, 0, 0) | bg=FFE599 fg=theme1
+G37 | 'A March' | bg=FFE599 fg=theme1
+I37 | 2.0 | bg=F9CB9C fg=theme1
+J37 | datetime.datetime(2022, 8, 8, 0, 0) | bg=F9CB9C fg=theme1
+K37 | 'A March' | bg=F9CB9C fg=theme1
+A38 | 2.0 | bg=B6D7A8 fg=theme1
+B38 | datetime.datetime(2022, 8, 8, 0, 0) | bg=B6D7A8 fg=theme1
+C38 | 'A Skip' | bg=B6D7A8 fg=theme1
+E38 | 3.0 | bg=FFE599 fg=theme1
+F38 | datetime.datetime(2022, 10, 10, 0, 0) | bg=FFE599 fg=theme1
+G38 | 'A Skip' | bg=FFE599 fg=theme1
+I38 | 2.0 | bg=F9CB9C fg=theme1
+J38 | datetime.datetime(2022, 8, 8, 0, 0) | bg=F9CB9C fg=theme1
+K38 | 'A Skip' | bg=F9CB9C fg=theme1
+A39 | 2.0 | bg=B6D7A8 fg=theme1
+B39 | datetime.datetime(2022, 8, 8, 0, 0) | bg=B6D7A8 fg=theme1
+C39 | 'A Run' | bg=B6D7A8 fg=theme1
+E39 | 3.0 | bg=FFE599 fg=theme1
+F39 | datetime.datetime(2022, 10, 10, 0, 0) | bg=FFE599 fg=theme1
+G39 | 'A Run' | bg=FFE599 fg=theme1
+I39 | 4.0 | bg=F9CB9C fg=theme1
+J39 | datetime.datetime(2022, 8, 8, 0, 0) | bg=F9CB9C fg=theme1
+K39 | 'A Run' | bg=F9CB9C fg=theme1
+A40 | 2.0 | bg=B6D7A8 fg=theme1
+B40 | 8.0 | bg=B6D7A8 fg=theme1
+C40 | 'Sqats or Leg Press' | bg=B6D7A8 fg=theme1
+D40 | 'HELP' | bg=B6D7A8 fg=1155CC
+E40 | 3.0 | bg=FFE599 fg=theme1
+F40 | 10.0 | bg=FFE599 fg=theme1
+G40 | 'Sqats or Leg Press' | bg=FFE599 fg=theme1
+H40 | 'HELP' | bg=FFE599 fg=1155CC
+I40 | 4.0 | bg=F9CB9C fg=theme1
+J40 | 8.0 | bg=F9CB9C fg=theme1
+K40 | 'Sqats or Leg Press' | bg=F9CB9C fg=theme1
+L40 | 'HELP' | bg=F9CB9C fg=1155CC
+A41 | 2.0 | bg=B6D7A8 fg=theme1
+B41 | 8.0 | bg=B6D7A8 fg=theme1
+C41 | 'Deadlifts (DB or Barbell)' | bg=B6D7A8 fg=theme1
+E41 | 3.0 | bg=FFE599 fg=theme1
+F41 | 10.0 | bg=FFE599 fg=theme1
+G41 | 'Deadlifts (DB or Barbell)' | bg=FFE599 fg=theme1
+I41 | 4.0 | bg=F9CB9C fg=theme1
+J41 | 8.0 | bg=F9CB9C fg=theme1
+K41 | 'Deadlifts (DB or Barbell)' | bg=F9CB9C fg=theme1
+A42 | 2.0 | bg=B6D7A8 fg=theme1
+B42 | datetime.datetime(2022, 8, 8, 0, 0) | bg=B6D7A8 fg=theme1
+C42 | 'Reverse Lunges (Bodyweight or DBs)' | bg=B6D7A8 fg=theme1
+E42 | 3.0 | bg=FFE599 fg=theme1
+F42 | datetime.datetime(2022, 10, 10, 0, 0) | bg=FFE599 fg=theme1
+G42 | 'Reverse Lunges (Bodyweight or DBs)' | bg=FFE599 fg=theme1
+I42 | 4.0 | bg=F9CB9C fg=theme1
+J42 | datetime.datetime(2022, 8, 8, 0, 0) | bg=F9CB9C fg=theme1
+K42 | 'Reverse Lunges (Bodyweight or DBs)' | bg=F9CB9C fg=theme1
+A43 | 2.0 | bg=B6D7A8 fg=theme1
+B43 | datetime.datetime(2022, 8, 8, 0, 0) | bg=B6D7A8 fg=theme1
+C43 | 'Single Leg Deadlift' | bg=B6D7A8 fg=theme1
+E43 | 3.0 | bg=FFE599 fg=theme1
+F43 | datetime.datetime(2022, 10, 10, 0, 0) | bg=FFE599 fg=theme1
+G43 | 'Single Leg Deadlift' | bg=FFE599 fg=theme1
+I43 | 3.0 | bg=F9CB9C fg=theme1
+J43 | datetime.datetime(2022, 8, 8, 0, 0) | bg=F9CB9C fg=theme1
+K43 | 'Single Leg Deadlift' | bg=F9CB9C fg=theme1
+A44 | 2.0 | bg=B6D7A8 fg=theme1
+B44 | 20.0 | bg=B6D7A8 fg=theme1
+C44 | 'Leg Extensions' | bg=B6D7A8 fg=theme1
+E44 | 3.0 | bg=FFE599 fg=theme1
+F44 | 20.0 | bg=FFE599 fg=theme1
+G44 | 'Leg Extensions' | bg=FFE599 fg=theme1
+I44 | 3.0 | bg=F9CB9C fg=theme1
+J44 | 20.0 | bg=F9CB9C fg=theme1
+K44 | 'Leg Extensions' | bg=F9CB9C fg=theme1
+A45 | 2.0 | bg=B6D7A8 fg=theme1
+B45 | 20.0 | bg=B6D7A8 fg=theme1
+C45 | 'Leg Curls' | bg=B6D7A8 fg=theme1
+E45 | 3.0 | bg=FFE599 fg=theme1
+F45 | 20.0 | bg=FFE599 fg=theme1
+G45 | 'Leg Curls' | bg=FFE599 fg=theme1
+I45 | 3.0 | bg=F9CB9C fg=theme1
+J45 | 20.0 | bg=F9CB9C fg=theme1
+K45 | 'Leg Curls' | bg=F9CB9C fg=theme1
+A46 | 2.0 | bg=B6D7A8 fg=theme1
+B46 | 'MAX REPS' | bg=B6D7A8 fg=theme1
+C46 | 'Calf Raises' | bg=B6D7A8 fg=theme1
+E46 | 3.0 | bg=FFE599 fg=theme1
+F46 | 'MAX REPS' | bg=FFE599 fg=theme1
+G46 | 'Calf Raises' | bg=FFE599 fg=theme1
+I46 | 3.0 | bg=F9CB9C fg=theme1
+J46 | 'MAX REPS' | bg=F9CB9C fg=theme1
+K46 | 'Calf Raises' | bg=F9CB9C fg=theme1

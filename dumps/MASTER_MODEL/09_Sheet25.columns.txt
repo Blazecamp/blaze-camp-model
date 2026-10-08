@@ -1,0 +1,21 @@
+SHEET: 'Sheet25' - COLUMN-MAJOR VIEW (each column top to bottom)
+
+=== COLUMN B (3 cells) ===
+  r11: 'BILATERAL HIP DOMINANT'  [fg=theme1]
+  r12: 'rdl'  [fg=theme1]
+  r13: 'hip thrust'  [fg=theme1]
+
+=== COLUMN E (3 cells) ===
+  r11: 'UNILATERAL KNE DOMINANT'  [fg=theme1]
+  r12: 'lunges'  [fg=theme1]
+  r13: 'bulgarians'  [fg=theme1]
+
+=== COLUMN H (2 cells) ===
+  r11: 'LEG FLEXION'  [fg=theme1]
+  r13: 'ham curls'  [fg=theme1]
+
+=== COLUMN J (4 cells) ===
+  r11: 'BILATERAL KNEE DOMINANT'  [fg=theme1]
+  r13: 'squats'  [fg=theme1]
+  r14: 'goblet squats'  [fg=theme1]
+  r15: 'leg press'  [fg=theme1]

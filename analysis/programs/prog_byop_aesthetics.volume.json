@@ -1,0 +1,3661 @@
+{
+ "_meta": {
+  "source": "BYOP workbook (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL); tabs 00, 01, 07; library = MASTER EXERCISE LIBRARY",
+  "read_only": true,
+  "counting_convention": "1 working set = 1.0 to each prime mover, 0.5 to each clear synergist; prime movers taken from the coach's PURPOSE labels (program + library row 6)",
+  "muscle_mapping": {
+   "RP_BKD": {
+    "quads": 1,
+    "glutes": 0.5
+   },
+   "RP_UKD": {
+    "quads": 1,
+    "glutes": 1
+   },
+   "RP_BHD": {
+    "hamstrings": 1,
+    "glutes": 1
+   },
+   "RP_UHD": {
+    "hamstrings": 1,
+    "glutes": 1
+   },
+   "ISO_QUAD": {
+    "quads": 1
+   },
+   "ISO_HAM": {
+    "hamstrings": 1
+   },
+   "RP_HPULL": {
+    "lats/upper back": 1,
+    "biceps": 0.5,
+    "rear delts": 0.5
+   },
+   "RP_VPULL": {
+    "lats/upper back": 1,
+    "biceps": 0.5
+   },
+   "RP_HPUSH": {
+    "chest": 1,
+    "front delts": 1,
+    "triceps": 0.5
+   },
+   "RP_VPUSH": {
+    "front delts": 1,
+    "chest": 0.5,
+    "side delts": 0.5,
+    "triceps": 0.5
+   },
+   "ISO_SIDE_REAR_DELT": {
+    "side delts": 1
+   },
+   "ISO_BICEP": {
+    "biceps": 1
+   },
+   "ISO_TRICEP": {
+    "triceps": 1
+   },
+   "ISO_CALF": {
+    "calves": 1
+   },
+   "CT_CORE_THORAX_or_CP_CORE_PELVIS": {
+    "abs/obliques": 1
+   },
+   "FOCUS": {
+    "FOCUS (client-picked muscle)": 1
+   },
+   "COND_AEROBIC": {}
+  },
+  "scenarios": {
+   "as_written": "only numeric SETS cells counted",
+   "assumed_convention": "filled values kept; unset compounds & calves = 3 sets, unset isolation = 2 sets; Day 3/4 mirror Day 1/2 (tab 00 only has filled values)",
+   "assumed_flat3": "every main slot = 3 sets",
+   "plus_optional": "adds optional-day slots at 3 sets each (cardio counted as bouts)",
+   "as_wired vs as_designed_AQ": "NO ACCESS tab only: Unilateral HD slot wired to LEG CURLS (as wired) vs restored to UNILATERAL HIP DOMINANT (as designed)"
+  },
+  "bucket_note": "'CT_CORE_THORAX_or_CP_CORE_PELVIS' = one Core dropdown spanning both blocks; actual bucket depends on pick. Several slots' menus contain exercises of other buckets (e.g. leg curls inside Bilateral HD, flies inside Horizontal Push, leg extension machine inside Bilateral KD) - classify by exercise.",
+  "cross_reference_progression": "MASTER_MODEL (NOT DONE) 4 TRACKS PROGRAMMING A30 AESTHETICS: (i) WK1-7 sets 2,3,3,3,4,4,5 reps 12,10,8,12,10,8,8, 1-2 RIR, WK8 deload; (ii) WK1-12 sets 3,3,3,4,4,4,3,4,4,4,4,5 reps 12/10/8-20 ... 15/15/12/12/12"
+ },
+ "programs": [
+  {
+   "tab": "AESTHETICS - FULL BODY - 4 DAYS",
+   "tab_visibility": "visible",
+   "title": "AESTHETICS - FULL BODY - 4 DAYS A WEEK",
+   "goal": "aesthetics / physique hypertrophy (general-population gym client; no athletic slots)",
+   "days_per_week": 4,
+   "days_per_week_detail": {
+    "main": 4,
+    "optional": 2,
+    "off": 1,
+    "weekly_layout_observed_in_NO_ACCESS_twin": [
+     "MON=A (Day 1)",
+     "TUE=B (Day 2)",
+     "WED=Optional",
+     "THU=A (Day 3)",
+     "FRI=B (Day 4)",
+     "SAT=Optional",
+     "SUN=OFF"
+    ]
+   },
+   "equipment": "commercial gym (Leg Extensions and Leg Curls slots are machine-only); many slots also offer bodyweight options",
+   "levels": "none at tab level; chosen per slot via FOUNDATIONAL/MODERATE/ADVANCED/UNILATERAL blocks inside each dropdown; demo fill mixes levels",
+   "fill_status": "Day 1 fully filled (7 exercises, sets, reps); Day 2 4/7 exercises, 3/7 dosed; Day 3, Day 4, optional blocks unfilled",
+   "slot_template": {
+    "A (Day 1 = Day 3, bg EFEFEF)": [
+     "ISO_CALF",
+     "RP_BKD",
+     "RP_HPULL",
+     "RP_UKD",
+     "RP_VPULL",
+     "ISO_BICEP",
+     "ISO_QUAD"
+    ],
+    "B (Day 2 = Day 4, bg CCCCCC)": [
+     "RP_BHD",
+     "RP_HPUSH",
+     "RP_UHD",
+     "RP_VPUSH",
+     "ISO_HAM",
+     "ISO_TRICEP",
+     "ISO_SIDE_REAR_DELT"
+    ],
+    "Optional (bg FCE5CD)": [
+     "ISO_CALF",
+     "COND_AEROBIC",
+     "CT_CORE_THORAX_or_CP_CORE_PELVIS",
+     "FOCUS",
+     "FOCUS"
+    ]
+   },
+   "exercises_per_session": [
+    {
+     "session": "Day 1",
+     "slots": 7,
+     "type": "main"
+    },
+    {
+     "session": "Day 2",
+     "slots": 7,
+     "type": "main"
+    },
+    {
+     "session": "Optional (after Day 2)",
+     "slots": 5,
+     "type": "optional"
+    },
+    {
+     "session": "Day 3",
+     "slots": 7,
+     "type": "main"
+    },
+    {
+     "session": "Day 4",
+     "slots": 7,
+     "type": "main"
+    },
+    {
+     "session": "Optional (after Day 4)",
+     "slots": 5,
+     "type": "optional"
+    }
+   ],
+   "sets_per_session": [
+    {
+     "session": "Day 1",
+     "as_written": 19,
+     "assumed_convention_main": 19,
+     "assumed_flat3_main": 21,
+     "assumed_convention_plus_optional": 19,
+     "assumed_flat3_plus_optional": 21
+    },
+    {
+     "session": "Day 2",
+     "as_written": 11,
+     "assumed_convention_main": 20,
+     "assumed_flat3_main": 21,
+     "assumed_convention_plus_optional": 20,
+     "assumed_flat3_plus_optional": 21
+    },
+    {
+     "session": "Optional (after Day 2)",
+     "as_written": null,
+     "assumed_convention_main": null,
+     "assumed_flat3_main": null,
+     "assumed_convention_plus_optional": 12,
+     "assumed_flat3_plus_optional": 12
+    },
+    {
+     "session": "Day 3",
+     "as_written": 0,
+     "assumed_convention_main": 19,
+     "assumed_flat3_main": 21,
+     "assumed_convention_plus_optional": 19,
+     "assumed_flat3_plus_optional": 21
+    },
+    {
+     "session": "Day 4",
+     "as_written": 0,
+     "assumed_convention_main": 20,
+     "assumed_flat3_main": 21,
+     "assumed_convention_plus_optional": 20,
+     "assumed_flat3_plus_optional": 21
+    },
+    {
+     "session": "Optional (after Day 4)",
+     "as_written": null,
+     "assumed_convention_main": null,
+     "assumed_flat3_main": null,
+     "assumed_convention_plus_optional": 12,
+     "assumed_flat3_plus_optional": 12
+    }
+   ],
+   "weekly_sets_by_bucket": {
+    "AP_PLYO": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "AP_JUMP_LIMITED_KNEE": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "AP_THROW": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "AP_COD": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "AP_SPRINT": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "AP_TRIPLE_EXT": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "RP_BKD": {
+     "as_written": 3,
+     "assumed_convention_main": 6,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 6,
+     "assumed_flat3_plus_optional": 6
+    },
+    "RP_BHD": {
+     "as_written": 3,
+     "assumed_convention_main": 6,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 6,
+     "assumed_flat3_plus_optional": 6
+    },
+    "RP_UKD": {
+     "as_written": 3,
+     "assumed_convention_main": 6,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 6,
+     "assumed_flat3_plus_optional": 6
+    },
+    "RP_UHD": {
+     "as_written": 0,
+     "assumed_convention_main": 6,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 6,
+     "assumed_flat3_plus_optional": 6
+    },
+    "RP_HPUSH": {
+     "as_written": 3,
+     "assumed_convention_main": 6,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 6,
+     "assumed_flat3_plus_optional": 6
+    },
+    "RP_VPUSH": {
+     "as_written": 5,
+     "assumed_convention_main": 10,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 10,
+     "assumed_flat3_plus_optional": 6
+    },
+    "RP_HPULL": {
+     "as_written": 3,
+     "assumed_convention_main": 6,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 6,
+     "assumed_flat3_plus_optional": 6
+    },
+    "RP_VPULL": {
+     "as_written": 3,
+     "assumed_convention_main": 6,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 6,
+     "assumed_flat3_plus_optional": 6
+    },
+    "ISO_QUAD": {
+     "as_written": 2,
+     "assumed_convention_main": 4,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 4,
+     "assumed_flat3_plus_optional": 6
+    },
+    "ISO_HAM": {
+     "as_written": 0,
+     "assumed_convention_main": 4,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 4,
+     "assumed_flat3_plus_optional": 6
+    },
+    "ISO_CHEST": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "ISO_SIDE_REAR_DELT": {
+     "as_written": 0,
+     "assumed_convention_main": 4,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 4,
+     "assumed_flat3_plus_optional": 6
+    },
+    "ISO_BICEP": {
+     "as_written": 2,
+     "assumed_convention_main": 4,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 4,
+     "assumed_flat3_plus_optional": 6
+    },
+    "ISO_TRICEP": {
+     "as_written": 0,
+     "assumed_convention_main": 4,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 4,
+     "assumed_flat3_plus_optional": 6
+    },
+    "ISO_CALF": {
+     "as_written": 3,
+     "assumed_convention_main": 6,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 12,
+     "assumed_flat3_plus_optional": 12
+    },
+    "CT_CORE_THORAX_or_CP_CORE_PELVIS": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 6,
+     "assumed_flat3_plus_optional": 6
+    },
+    "CORE_OTHER": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "COND_AEROBIC": {
+     "as_written": {
+      "bouts": 0
+     },
+     "assumed_convention_main": {
+      "bouts": 0
+     },
+     "assumed_flat3_main": {
+      "bouts": 0
+     },
+     "assumed_convention_plus_optional": {
+      "bouts": 2
+     },
+     "assumed_flat3_plus_optional": {
+      "bouts": 2
+     }
+    },
+    "COND_SPRINT_BUYOUT": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "FOCUS": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 12,
+     "assumed_flat3_plus_optional": 12
+    },
+    "FUNCTIONAL": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "TOTAL": {
+     "as_written": 30,
+     "assumed_convention_main": 78,
+     "assumed_flat3_main": 84,
+     "assumed_convention_plus_optional": 102,
+     "assumed_flat3_plus_optional": 108
+    }
+   },
+   "weekly_sets_by_muscle": {
+    "quads": {
+     "as_written": 8,
+     "assumed_convention_main": 16,
+     "assumed_flat3_main": 18,
+     "assumed_convention_plus_optional": 16,
+     "assumed_flat3_plus_optional": 18
+    },
+    "glutes": {
+     "as_written": 7.5,
+     "assumed_convention_main": 21,
+     "assumed_flat3_main": 21,
+     "assumed_convention_plus_optional": 21,
+     "assumed_flat3_plus_optional": 21
+    },
+    "hamstrings": {
+     "as_written": 3,
+     "assumed_convention_main": 16,
+     "assumed_flat3_main": 18,
+     "assumed_convention_plus_optional": 16,
+     "assumed_flat3_plus_optional": 18
+    },
+    "chest": {
+     "as_written": 5.5,
+     "assumed_convention_main": 11,
+     "assumed_flat3_main": 9,
+     "assumed_convention_plus_optional": 11,
+     "assumed_flat3_plus_optional": 9
+    },
+    "lats/upper back": {
+     "as_written": 6,
+     "assumed_convention_main": 12,
+     "assumed_flat3_main": 12,
+     "assumed_convention_plus_optional": 12,
+     "assumed_flat3_plus_optional": 12
+    },
+    "front delts": {
+     "as_written": 8,
+     "assumed_convention_main": 16,
+     "assumed_flat3_main": 12,
+     "assumed_convention_plus_optional": 16,
+     "assumed_flat3_plus_optional": 12
+    },
+    "side delts": {
+     "as_written": 2.5,
+     "assumed_convention_main": 9,
+     "assumed_flat3_main": 9,
+     "assumed_convention_plus_optional": 9,
+     "assumed_flat3_plus_optional": 9
+    },
+    "rear delts": {
+     "as_written": 1.5,
+     "assumed_convention_main": 3,
+     "assumed_flat3_main": 3,
+     "assumed_convention_plus_optional": 3,
+     "assumed_flat3_plus_optional": 3
+    },
+    "biceps": {
+     "as_written": 5,
+     "assumed_convention_main": 10,
+     "assumed_flat3_main": 12,
+     "assumed_convention_plus_optional": 10,
+     "assumed_flat3_plus_optional": 12
+    },
+    "triceps": {
+     "as_written": 4,
+     "assumed_convention_main": 12,
+     "assumed_flat3_main": 12,
+     "assumed_convention_plus_optional": 12,
+     "assumed_flat3_plus_optional": 12
+    },
+    "calves": {
+     "as_written": 3,
+     "assumed_convention_main": 6,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 12,
+     "assumed_flat3_plus_optional": 12
+    },
+    "abs/obliques": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 6,
+     "assumed_flat3_plus_optional": 6
+    },
+    "FOCUS (client-picked muscle)": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 12,
+     "assumed_flat3_plus_optional": 12
+    }
+   },
+   "rep_ranges_by_bucket": {
+    "ISO_CALF": {
+     "observed": [
+      "3 x '15 Reps' (Machine Calf Raises)"
+     ],
+     "midpoint": 15
+    },
+    "RP_BKD": {
+     "observed": [
+      "3 x '15 Reps' (Leg press)"
+     ],
+     "midpoint": 15
+    },
+    "RP_HPULL": {
+     "observed": [
+      "3 x '8 to 12 Reps' (Bent Over Barbell Rows)"
+     ],
+     "midpoint": 10
+    },
+    "RP_UKD": {
+     "observed": [
+      "3 x '8 to 12 Reps' (Reverse Lunges)"
+     ],
+     "midpoint": 10
+    },
+    "RP_VPULL": {
+     "observed": [
+      "3 x '15 Reps' (Lat Pulldown Pronated Grip)"
+     ],
+     "midpoint": 15
+    },
+    "ISO_BICEP": {
+     "observed": [
+      "2 x '20 Reps' (Ez Bar Curls)"
+     ],
+     "midpoint": 20
+    },
+    "ISO_QUAD": {
+     "observed": [
+      "2 x '20 Reps' (Leg Extensions)"
+     ],
+     "midpoint": 20
+    },
+    "RP_BHD": {
+     "observed": [
+      "3 x '15 Reps' (DB Deadlifts)"
+     ],
+     "midpoint": 15
+    },
+    "RP_HPUSH": {
+     "observed": [
+      "3 x '15 Reps' (Push Ups)"
+     ],
+     "midpoint": 15
+    },
+    "RP_VPUSH": {
+     "observed": [
+      "5 x '6 to 8 Reps' (DB Push press)"
+     ],
+     "midpoint": 7
+    },
+    "RP_UHD": {
+     "observed": [
+      "exercise chosen (Staggered Stance DL w/ DB) but sets/reps 'CHOOSE'"
+     ],
+     "midpoint": null
+    },
+    "ISO_HAM": {
+     "observed": [],
+     "midpoint": null
+    },
+    "ISO_TRICEP": {
+     "observed": [],
+     "midpoint": null
+    },
+    "ISO_SIDE_REAR_DELT": {
+     "observed": [],
+     "midpoint": null
+    },
+    "_summary": {
+     "compounds_RP_set_weighted_mean_reps": 11.96,
+     "compounds_range": "6-15",
+     "isolation_plus_calves_set_weighted_mean_reps": 17.86,
+     "isolation_range": "15-20",
+     "reps_menu_available": [
+      "4 to 6 Reps",
+      "6 to 8 Reps",
+      "8 to 12 Reps",
+      "10 to 15 Reps",
+      "15 Reps",
+      "20 Reps",
+      "MYO SET"
+     ]
+    }
+   },
+   "intensity": "none prescribed (no RIR/RPE/% column); rest and tempo absent",
+   "progression_summary": "No week-to-week progression in the tab (single-week template, no week column, no %, no deload). Levers available: per-slot level (FOUNDATIONAL->MODERATE->ADVANCED pick), sets 1-8, reps menu incl. 'MYO SET', 'SUPERSET W/', optional days + Focus slots. Versus 3 DAY BUILDER: +87% main slots/week (15->28), +87% main sets at flat 3 (45->84); the extra day mostly adds isolation (biceps/triceps +167%, side delts 1.5->9, calves +100%). Coach's aesthetics track in MASTER_MODEL '4 TRACKS' (not this tab) progresses by +1 set per exercise every 2-3 weeks (2->3->4->5 or 3->4->5, i.e. +25-50% steps), reps waved 12/10/8 or creeping +6-13% within a set-block, deload WK7/WK8, '1-2 RIR'.",
+   "flags": [
+    "vestigial conditional format (contains TRUE -> green) and empty merges A52:A58, A59:A65",
+    "Cardio range B7:B122 truncated (DISTANCE/CALORIES unreachable)",
+    "Tricep CATEGORY blank"
+   ],
+   "slots": [
+    {
+     "row": 3,
+     "day": "Day 1",
+     "day_bg": "EFEFEF",
+     "order": 1,
+     "purpose": "Calves",
+     "category": "Calves",
+     "exercise_cell": "D3",
+     "exercise_range": "AU7:AU13",
+     "lib_category": "CALVES",
+     "bucket": "ISO_CALF",
+     "exercise": "Machine Calf Raises",
+     "sets": 3.0,
+     "reps": "15 Reps",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 4,
+     "day": "Day 1",
+     "day_bg": "EFEFEF",
+     "order": 2,
+     "purpose": "Quads",
+     "category": "Bilateral KD",
+     "exercise_cell": "D4",
+     "exercise_range": "AI7:AI122",
+     "lib_category": "BILATERAL KNEE DOMINANT",
+     "bucket": "RP_BKD",
+     "exercise": "Leg press",
+     "sets": 3.0,
+     "reps": "15 Reps",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 5,
+     "day": "Day 1",
+     "day_bg": "EFEFEF",
+     "order": 3,
+     "purpose": "Back",
+     "category": "Horizontal Pull",
+     "exercise_cell": "D5",
+     "exercise_range": "X7:X162",
+     "lib_category": "HORIZONTAL PULL",
+     "bucket": "RP_HPULL",
+     "exercise": "Bent Over Barbell Rows",
+     "sets": 3.0,
+     "reps": "8 to 12 Reps",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 6,
+     "day": "Day 1",
+     "day_bg": "EFEFEF",
+     "order": 4,
+     "purpose": "Quads/Glutes",
+     "category": "Unilateral KD",
+     "exercise_cell": "D6",
+     "exercise_range": "AL7:AL42",
+     "lib_category": "UNILATERAL KNEE DOMINANT",
+     "bucket": "RP_UKD",
+     "exercise": "Reverse Lunges ",
+     "sets": 3.0,
+     "reps": "8 to 12 Reps",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 7,
+     "day": "Day 1",
+     "day_bg": "EFEFEF",
+     "order": 5,
+     "purpose": "Back ",
+     "category": "Vertical Pull",
+     "exercise_cell": "D7",
+     "exercise_range": "U7:U122",
+     "lib_category": "VERTICAL PULL",
+     "bucket": "RP_VPULL",
+     "exercise": "Lat Pulldown Pronated Grip",
+     "sets": 3.0,
+     "reps": "15 Reps",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 8,
+     "day": "Day 1",
+     "day_bg": "EFEFEF",
+     "order": 6,
+     "purpose": "Bicep",
+     "category": "Bicep",
+     "exercise_cell": "D8",
+     "exercise_range": "AS7:AS42",
+     "lib_category": "BICEP",
+     "bucket": "ISO_BICEP",
+     "exercise": "Ez Bar Curls",
+     "sets": 2.0,
+     "reps": "20 Reps",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 9,
+     "day": "Day 1",
+     "day_bg": "EFEFEF",
+     "order": 7,
+     "purpose": "Quads",
+     "category": "Leg Extensions",
+     "exercise_cell": "D9",
+     "exercise_range": "AM7:AM9",
+     "lib_category": "LEG EXTENSIONS",
+     "bucket": "ISO_QUAD",
+     "exercise": "Leg Extensions",
+     "sets": 2.0,
+     "reps": "20 Reps",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 10,
+     "day": "Day 2",
+     "day_bg": "CCCCCC",
+     "order": 1,
+     "purpose": "Hamstring",
+     "category": "Bilateral HD",
+     "exercise_cell": "D10",
+     "exercise_range": "AN7:AN122",
+     "lib_category": "BILATERAL HIP DOMNANT",
+     "bucket": "RP_BHD",
+     "exercise": "DB Deadlifts",
+     "sets": 3.0,
+     "reps": "15 Reps",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 11,
+     "day": "Day 2",
+     "day_bg": "CCCCCC",
+     "order": 2,
+     "purpose": "Chest",
+     "category": "Horizontal Push",
+     "exercise_cell": "D11",
+     "exercise_range": "AD7:AD162",
+     "lib_category": "HORIZONTAL PUSH",
+     "bucket": "RP_HPUSH",
+     "exercise": "Push Ups ",
+     "sets": 3.0,
+     "reps": "15 Reps",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 12,
+     "day": "Day 2",
+     "day_bg": "CCCCCC",
+     "order": 3,
+     "purpose": "Hamstring/Glutes",
+     "category": "Unilateral HD",
+     "exercise_cell": "D12",
+     "exercise_range": "AQ7:AQ42",
+     "lib_category": "UNILATERAL HIP DOMINANT",
+     "bucket": "RP_UHD",
+     "exercise": "Staggered Stance DL w/ DB ",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 13,
+     "day": "Day 2",
+     "day_bg": "CCCCCC",
+     "order": 4,
+     "purpose": "Chest/Shoulders",
+     "category": "Vertical Push",
+     "exercise_cell": "D13",
+     "exercise_range": "AA7:AA122",
+     "lib_category": "VERTICAL PUSH",
+     "bucket": "RP_VPUSH",
+     "exercise": "DB Push press",
+     "sets": 5.0,
+     "reps": "6 to 8 Reps",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 14,
+     "day": "Day 2",
+     "day_bg": "CCCCCC",
+     "order": 5,
+     "purpose": "Hamstrings",
+     "category": "Leg Curls",
+     "exercise_cell": "D14",
+     "exercise_range": "AR7:AR10",
+     "lib_category": "LEG CURLS",
+     "bucket": "ISO_HAM",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 15,
+     "day": "Day 2",
+     "day_bg": "CCCCCC",
+     "order": 6,
+     "purpose": "Tricep",
+     "category": null,
+     "exercise_cell": "D15",
+     "exercise_range": "AT7:AT42",
+     "lib_category": "TRICEP",
+     "bucket": "ISO_TRICEP",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 16,
+     "day": "Day 2",
+     "day_bg": "CCCCCC",
+     "order": 7,
+     "purpose": "Shoulders/Traps",
+     "category": "ABdution",
+     "exercise_cell": "D16",
+     "exercise_range": "AH7:AH42",
+     "lib_category": "SIDE RAISES",
+     "bucket": "ISO_SIDE_REAR_DELT",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 18,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 1,
+     "purpose": "Calves",
+     "category": null,
+     "exercise_cell": "D18",
+     "exercise_range": "AU7:AU13",
+     "lib_category": "CALVES",
+     "bucket": "ISO_CALF",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 19,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 2,
+     "purpose": "Cardio",
+     "category": null,
+     "exercise_cell": "D19",
+     "exercise_range": "B7:B122",
+     "lib_category": "CARDIO",
+     "bucket": "COND_AEROBIC",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": null,
+     "sets_range": "AV7:AV42",
+     "reps_range": null,
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 20,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 3,
+     "purpose": "Core",
+     "category": null,
+     "exercise_cell": "D20",
+     "exercise_range": "O7:O283",
+     "lib_category": "CORE THORAX (+ CORE PELVIS block)",
+     "bucket": "CT_CORE_THORAX_or_CP_CORE_PELVIS",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 21,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 4,
+     "purpose": "Focus 1",
+     "category": null,
+     "exercise_cell": "D21",
+     "exercise_range": "AZ7:AZ335",
+     "lib_category": "FULL FOCUS LIST",
+     "bucket": "FOCUS",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 22,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 5,
+     "purpose": "Focus 2",
+     "category": null,
+     "exercise_cell": "D22",
+     "exercise_range": "AZ7:AZ335",
+     "lib_category": "FULL FOCUS LIST",
+     "bucket": "FOCUS",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 24,
+     "day": "Day 3",
+     "day_bg": "EFEFEF",
+     "order": 1,
+     "purpose": "Calves",
+     "category": "Calves",
+     "exercise_cell": "D24",
+     "exercise_range": "AU7:AU13",
+     "lib_category": "CALVES",
+     "bucket": "ISO_CALF",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 25,
+     "day": "Day 3",
+     "day_bg": "EFEFEF",
+     "order": 2,
+     "purpose": "Quads",
+     "category": "Bilateral KD",
+     "exercise_cell": "D25",
+     "exercise_range": "AI7:AI122",
+     "lib_category": "BILATERAL KNEE DOMINANT",
+     "bucket": "RP_BKD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 26,
+     "day": "Day 3",
+     "day_bg": "EFEFEF",
+     "order": 3,
+     "purpose": "Back",
+     "category": "Horizontal Pull",
+     "exercise_cell": "D26",
+     "exercise_range": "X7:X162",
+     "lib_category": "HORIZONTAL PULL",
+     "bucket": "RP_HPULL",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 27,
+     "day": "Day 3",
+     "day_bg": "EFEFEF",
+     "order": 4,
+     "purpose": "Quads/Glutes",
+     "category": "Unilateral KD",
+     "exercise_cell": "D27",
+     "exercise_range": "AL7:AL42",
+     "lib_category": "UNILATERAL KNEE DOMINANT",
+     "bucket": "RP_UKD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 28,
+     "day": "Day 3",
+     "day_bg": "EFEFEF",
+     "order": 5,
+     "purpose": "Back ",
+     "category": "Vertical Pull",
+     "exercise_cell": "D28",
+     "exercise_range": "U7:U122",
+     "lib_category": "VERTICAL PULL",
+     "bucket": "RP_VPULL",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 29,
+     "day": "Day 3",
+     "day_bg": "EFEFEF",
+     "order": 6,
+     "purpose": "Bicep",
+     "category": "Bicep",
+     "exercise_cell": "D29",
+     "exercise_range": "AS7:AS42",
+     "lib_category": "BICEP",
+     "bucket": "ISO_BICEP",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 30,
+     "day": "Day 3",
+     "day_bg": "EFEFEF",
+     "order": 7,
+     "purpose": "Quads",
+     "category": "Leg Extensions",
+     "exercise_cell": "D30",
+     "exercise_range": "AM7:AM9",
+     "lib_category": "LEG EXTENSIONS",
+     "bucket": "ISO_QUAD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 31,
+     "day": "Day 4",
+     "day_bg": "CCCCCC",
+     "order": 1,
+     "purpose": "Hamstring",
+     "category": "Bilateral HD",
+     "exercise_cell": "D31",
+     "exercise_range": "AN7:AN122",
+     "lib_category": "BILATERAL HIP DOMNANT",
+     "bucket": "RP_BHD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 32,
+     "day": "Day 4",
+     "day_bg": "CCCCCC",
+     "order": 2,
+     "purpose": "Chest",
+     "category": "Horizontal Push",
+     "exercise_cell": "D32",
+     "exercise_range": "AD7:AD162",
+     "lib_category": "HORIZONTAL PUSH",
+     "bucket": "RP_HPUSH",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 33,
+     "day": "Day 4",
+     "day_bg": "CCCCCC",
+     "order": 3,
+     "purpose": "Hamstring/Glutes",
+     "category": "Unilateral HD",
+     "exercise_cell": "D33",
+     "exercise_range": "AQ7:AQ42",
+     "lib_category": "UNILATERAL HIP DOMINANT",
+     "bucket": "RP_UHD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 34,
+     "day": "Day 4",
+     "day_bg": "CCCCCC",
+     "order": 4,
+     "purpose": "Chest/Shoulders",
+     "category": "Vertical Push",
+     "exercise_cell": "D34",
+     "exercise_range": "AA7:AA122",
+     "lib_category": "VERTICAL PUSH",
+     "bucket": "RP_VPUSH",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 35,
+     "day": "Day 4",
+     "day_bg": "CCCCCC",
+     "order": 5,
+     "purpose": "Hamstrings",
+     "category": "Leg Curls",
+     "exercise_cell": "D35",
+     "exercise_range": "AR7:AR10",
+     "lib_category": "LEG CURLS",
+     "bucket": "ISO_HAM",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 36,
+     "day": "Day 4",
+     "day_bg": "CCCCCC",
+     "order": 6,
+     "purpose": "Tricep",
+     "category": null,
+     "exercise_cell": "D36",
+     "exercise_range": "AT7:AT42",
+     "lib_category": "TRICEP",
+     "bucket": "ISO_TRICEP",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 37,
+     "day": "Day 4",
+     "day_bg": "CCCCCC",
+     "order": 7,
+     "purpose": "Shoulders/Traps",
+     "category": "ABdution",
+     "exercise_cell": "D37",
+     "exercise_range": "AH7:AH42",
+     "lib_category": "SIDE RAISES",
+     "bucket": "ISO_SIDE_REAR_DELT",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 39,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 6,
+     "purpose": "Calves",
+     "category": null,
+     "exercise_cell": "D39",
+     "exercise_range": "AU7:AU13",
+     "lib_category": "CALVES",
+     "bucket": "ISO_CALF",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 40,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 7,
+     "purpose": "Cardio",
+     "category": null,
+     "exercise_cell": "D40",
+     "exercise_range": "B7:B122",
+     "lib_category": "CARDIO",
+     "bucket": "COND_AEROBIC",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": null,
+     "sets_range": "AV7:AV42",
+     "reps_range": null,
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 41,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 8,
+     "purpose": "Core",
+     "category": null,
+     "exercise_cell": "D41",
+     "exercise_range": "O7:O283",
+     "lib_category": "CORE THORAX (+ CORE PELVIS block)",
+     "bucket": "CT_CORE_THORAX_or_CP_CORE_PELVIS",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 42,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 9,
+     "purpose": "Focus 1",
+     "category": null,
+     "exercise_cell": "D42",
+     "exercise_range": "AZ7:AZ335",
+     "lib_category": "FULL FOCUS LIST",
+     "bucket": "FOCUS",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 43,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 10,
+     "purpose": "Focus 2",
+     "category": null,
+     "exercise_cell": "D43",
+     "exercise_range": "AZ7:AZ335",
+     "lib_category": "FULL FOCUS LIST",
+     "bucket": "FOCUS",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    }
+   ]
+  },
+  {
+   "tab": "3 DAY BUILDER",
+   "tab_visibility": "visible",
+   "title": "AESTHETICS - FULL BODY - 3 DAYS A WEEK",
+   "goal": "aesthetics / physique hypertrophy, 3 training days",
+   "days_per_week": 3,
+   "days_per_week_detail": {
+    "main": 3,
+    "optional": 3,
+    "off": "1 (implied)",
+    "weekly_layout_inferred": [
+     "DAY 1",
+     "Optional",
+     "DAY 2",
+     "Optional",
+     "DAY 3",
+     "Optional",
+     "OFF"
+    ]
+   },
+   "equipment": "commercial gym (Leg Curls slot machine-only)",
+   "levels": "per-slot dropdown levels; nothing filled",
+   "fill_status": "entirely unfilled",
+   "slot_template": {
+    "DAY 1 (bg EFEFEF)": [
+     "ISO_CALF",
+     "RP_BKD",
+     "RP_HPULL",
+     "RP_UKD",
+     "RP_VPULL"
+    ],
+    "DAY 2 (bg CCCCCC)": [
+     "RP_BHD",
+     "RP_HPUSH",
+     "RP_UHD",
+     "RP_VPUSH",
+     "ISO_HAM"
+    ],
+    "DAY 3 (bg FFF2CC)": [
+     "RP_BKD",
+     "RP_BHD",
+     "RP_HPULL",
+     "RP_HPUSH",
+     "RP_UKD"
+    ],
+    "Optional x3 (bg FCE5CD)": [
+     "ISO_CALF",
+     "COND_AEROBIC",
+     "CT_CORE_THORAX_or_CP_CORE_PELVIS",
+     "FOCUS",
+     "FOCUS"
+    ]
+   },
+   "exercises_per_session": [
+    {
+     "session": "DAY 1",
+     "slots": 5,
+     "type": "main"
+    },
+    {
+     "session": "Optional (after DAY 1)",
+     "slots": 5,
+     "type": "optional"
+    },
+    {
+     "session": "DAY 2",
+     "slots": 5,
+     "type": "main"
+    },
+    {
+     "session": "Optional (after DAY 2)",
+     "slots": 5,
+     "type": "optional"
+    },
+    {
+     "session": "DAY 3",
+     "slots": 5,
+     "type": "main"
+    },
+    {
+     "session": "Optional (after DAY 3)",
+     "slots": 5,
+     "type": "optional"
+    }
+   ],
+   "sets_per_session": [
+    {
+     "session": "DAY 1",
+     "as_written": 0,
+     "assumed_convention_main": 15,
+     "assumed_flat3_main": 15,
+     "assumed_convention_plus_optional": 15,
+     "assumed_flat3_plus_optional": 15
+    },
+    {
+     "session": "Optional (after DAY 1)",
+     "as_written": null,
+     "assumed_convention_main": null,
+     "assumed_flat3_main": null,
+     "assumed_convention_plus_optional": 12,
+     "assumed_flat3_plus_optional": 12
+    },
+    {
+     "session": "DAY 2",
+     "as_written": 0,
+     "assumed_convention_main": 14,
+     "assumed_flat3_main": 15,
+     "assumed_convention_plus_optional": 14,
+     "assumed_flat3_plus_optional": 15
+    },
+    {
+     "session": "Optional (after DAY 2)",
+     "as_written": null,
+     "assumed_convention_main": null,
+     "assumed_flat3_main": null,
+     "assumed_convention_plus_optional": 12,
+     "assumed_flat3_plus_optional": 12
+    },
+    {
+     "session": "DAY 3",
+     "as_written": 0,
+     "assumed_convention_main": 15,
+     "assumed_flat3_main": 15,
+     "assumed_convention_plus_optional": 15,
+     "assumed_flat3_plus_optional": 15
+    },
+    {
+     "session": "Optional (after DAY 3)",
+     "as_written": null,
+     "assumed_convention_main": null,
+     "assumed_flat3_main": null,
+     "assumed_convention_plus_optional": 12,
+     "assumed_flat3_plus_optional": 12
+    }
+   ],
+   "weekly_sets_by_bucket": {
+    "AP_PLYO": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "AP_JUMP_LIMITED_KNEE": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "AP_THROW": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "AP_COD": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "AP_SPRINT": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "AP_TRIPLE_EXT": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "RP_BKD": {
+     "as_written": 0,
+     "assumed_convention_main": 6,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 6,
+     "assumed_flat3_plus_optional": 6
+    },
+    "RP_BHD": {
+     "as_written": 0,
+     "assumed_convention_main": 6,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 6,
+     "assumed_flat3_plus_optional": 6
+    },
+    "RP_UKD": {
+     "as_written": 0,
+     "assumed_convention_main": 6,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 6,
+     "assumed_flat3_plus_optional": 6
+    },
+    "RP_UHD": {
+     "as_written": 0,
+     "assumed_convention_main": 3,
+     "assumed_flat3_main": 3,
+     "assumed_convention_plus_optional": 3,
+     "assumed_flat3_plus_optional": 3
+    },
+    "RP_HPUSH": {
+     "as_written": 0,
+     "assumed_convention_main": 6,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 6,
+     "assumed_flat3_plus_optional": 6
+    },
+    "RP_VPUSH": {
+     "as_written": 0,
+     "assumed_convention_main": 3,
+     "assumed_flat3_main": 3,
+     "assumed_convention_plus_optional": 3,
+     "assumed_flat3_plus_optional": 3
+    },
+    "RP_HPULL": {
+     "as_written": 0,
+     "assumed_convention_main": 6,
+     "assumed_flat3_main": 6,
+     "assumed_convention_plus_optional": 6,
+     "assumed_flat3_plus_optional": 6
+    },
+    "RP_VPULL": {
+     "as_written": 0,
+     "assumed_convention_main": 3,
+     "assumed_flat3_main": 3,
+     "assumed_convention_plus_optional": 3,
+     "assumed_flat3_plus_optional": 3
+    },
+    "ISO_QUAD": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "ISO_HAM": {
+     "as_written": 0,
+     "assumed_convention_main": 2,
+     "assumed_flat3_main": 3,
+     "assumed_convention_plus_optional": 2,
+     "assumed_flat3_plus_optional": 3
+    },
+    "ISO_CHEST": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "ISO_SIDE_REAR_DELT": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "ISO_BICEP": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "ISO_TRICEP": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "ISO_CALF": {
+     "as_written": 0,
+     "assumed_convention_main": 3,
+     "assumed_flat3_main": 3,
+     "assumed_convention_plus_optional": 12,
+     "assumed_flat3_plus_optional": 12
+    },
+    "CT_CORE_THORAX_or_CP_CORE_PELVIS": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 9,
+     "assumed_flat3_plus_optional": 9
+    },
+    "CORE_OTHER": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "COND_AEROBIC": {
+     "as_written": {
+      "bouts": 0
+     },
+     "assumed_convention_main": {
+      "bouts": 0
+     },
+     "assumed_flat3_main": {
+      "bouts": 0
+     },
+     "assumed_convention_plus_optional": {
+      "bouts": 3
+     },
+     "assumed_flat3_plus_optional": {
+      "bouts": 3
+     }
+    },
+    "COND_SPRINT_BUYOUT": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "FOCUS": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 18,
+     "assumed_flat3_plus_optional": 18
+    },
+    "FUNCTIONAL": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 0,
+     "assumed_flat3_plus_optional": 0
+    },
+    "TOTAL": {
+     "as_written": 0,
+     "assumed_convention_main": 44,
+     "assumed_flat3_main": 45,
+     "assumed_convention_plus_optional": 80,
+     "assumed_flat3_plus_optional": 81
+    }
+   },
+   "weekly_sets_by_muscle": {
+    "quads": {
+     "as_written": 0,
+     "assumed_convention_main": 12,
+     "assumed_flat3_main": 12,
+     "assumed_convention_plus_optional": 12,
+     "assumed_flat3_plus_optional": 12
+    },
+    "glutes": {
+     "as_written": 0,
+     "assumed_convention_main": 18,
+     "assumed_flat3_main": 18,
+     "assumed_convention_plus_optional": 18,
+     "assumed_flat3_plus_optional": 18
+    },
+    "hamstrings": {
+     "as_written": 0,
+     "assumed_convention_main": 11,
+     "assumed_flat3_main": 12,
+     "assumed_convention_plus_optional": 11,
+     "assumed_flat3_plus_optional": 12
+    },
+    "chest": {
+     "as_written": 0,
+     "assumed_convention_main": 7.5,
+     "assumed_flat3_main": 7.5,
+     "assumed_convention_plus_optional": 7.5,
+     "assumed_flat3_plus_optional": 7.5
+    },
+    "lats/upper back": {
+     "as_written": 0,
+     "assumed_convention_main": 9,
+     "assumed_flat3_main": 9,
+     "assumed_convention_plus_optional": 9,
+     "assumed_flat3_plus_optional": 9
+    },
+    "front delts": {
+     "as_written": 0,
+     "assumed_convention_main": 9,
+     "assumed_flat3_main": 9,
+     "assumed_convention_plus_optional": 9,
+     "assumed_flat3_plus_optional": 9
+    },
+    "side delts": {
+     "as_written": 0,
+     "assumed_convention_main": 1.5,
+     "assumed_flat3_main": 1.5,
+     "assumed_convention_plus_optional": 1.5,
+     "assumed_flat3_plus_optional": 1.5
+    },
+    "rear delts": {
+     "as_written": 0,
+     "assumed_convention_main": 3,
+     "assumed_flat3_main": 3,
+     "assumed_convention_plus_optional": 3,
+     "assumed_flat3_plus_optional": 3
+    },
+    "biceps": {
+     "as_written": 0,
+     "assumed_convention_main": 4.5,
+     "assumed_flat3_main": 4.5,
+     "assumed_convention_plus_optional": 4.5,
+     "assumed_flat3_plus_optional": 4.5
+    },
+    "triceps": {
+     "as_written": 0,
+     "assumed_convention_main": 4.5,
+     "assumed_flat3_main": 4.5,
+     "assumed_convention_plus_optional": 4.5,
+     "assumed_flat3_plus_optional": 4.5
+    },
+    "calves": {
+     "as_written": 0,
+     "assumed_convention_main": 3,
+     "assumed_flat3_main": 3,
+     "assumed_convention_plus_optional": 12,
+     "assumed_flat3_plus_optional": 12
+    },
+    "abs/obliques": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 9,
+     "assumed_flat3_plus_optional": 9
+    },
+    "FOCUS (client-picked muscle)": {
+     "as_written": 0,
+     "assumed_convention_main": 0,
+     "assumed_flat3_main": 0,
+     "assumed_convention_plus_optional": 18,
+     "assumed_flat3_plus_optional": 18
+    }
+   },
+   "rep_ranges_by_bucket": {
+    "_all": {
+     "observed": [],
+     "note": "no reps chosen; same REPS menu as 4-day"
+    }
+   },
+   "intensity": "none prescribed",
+   "progression_summary": "None in tab. Relative to the 4-day it drops Bicep, Leg Extensions, Tricep and ABdution, keeps Leg Curls and Calves, and adds a hybrid DAY 3 (Bilateral KD + Bilateral HD + Horizontal Pull + Horizontal Push + Unilateral KD); 2x/week for BKD, BHD, HPULL, HPUSH, UKD; 1x for VPULL, VPUSH, UHD, leg curls, calves. Upgrading to 4 days = +87% main slots/sets.",
+   "flags": [
+    "vestigial conditional format (contains TRUE -> green)",
+    "Cardio range truncated"
+   ],
+   "slots": [
+    {
+     "row": 3,
+     "day": "DAY 1",
+     "day_bg": "EFEFEF",
+     "order": 1,
+     "purpose": "Calves",
+     "category": "Calves",
+     "exercise_cell": "D3",
+     "exercise_range": "AU7:AU13",
+     "lib_category": "CALVES",
+     "bucket": "ISO_CALF",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 4,
+     "day": "DAY 1",
+     "day_bg": "EFEFEF",
+     "order": 2,
+     "purpose": "Quads",
+     "category": "Bilateral KD",
+     "exercise_cell": "D4",
+     "exercise_range": "AI7:AI122",
+     "lib_category": "BILATERAL KNEE DOMINANT",
+     "bucket": "RP_BKD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 5,
+     "day": "DAY 1",
+     "day_bg": "EFEFEF",
+     "order": 3,
+     "purpose": "Back",
+     "category": "Horizontal Pull",
+     "exercise_cell": "D5",
+     "exercise_range": "X7:X162",
+     "lib_category": "HORIZONTAL PULL",
+     "bucket": "RP_HPULL",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 6,
+     "day": "DAY 1",
+     "day_bg": "EFEFEF",
+     "order": 4,
+     "purpose": "Quads/Glutes",
+     "category": "Unilateral KD",
+     "exercise_cell": "D6",
+     "exercise_range": "AL7:AL42",
+     "lib_category": "UNILATERAL KNEE DOMINANT",
+     "bucket": "RP_UKD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 7,
+     "day": "DAY 1",
+     "day_bg": "EFEFEF",
+     "order": 5,
+     "purpose": "Back ",
+     "category": "Vertical Pull",
+     "exercise_cell": "D7",
+     "exercise_range": "U7:U122",
+     "lib_category": "VERTICAL PULL",
+     "bucket": "RP_VPULL",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 8,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 1,
+     "purpose": "Calves",
+     "category": null,
+     "exercise_cell": "D8",
+     "exercise_range": "AU7:AU13",
+     "lib_category": "CALVES",
+     "bucket": "ISO_CALF",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 9,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 2,
+     "purpose": "Cardio",
+     "category": null,
+     "exercise_cell": "D9",
+     "exercise_range": "B7:B122",
+     "lib_category": "CARDIO",
+     "bucket": "COND_AEROBIC",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": null,
+     "sets_range": "AV7:AV42",
+     "reps_range": null,
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 10,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 3,
+     "purpose": "Core",
+     "category": null,
+     "exercise_cell": "D10",
+     "exercise_range": "O7:O283",
+     "lib_category": "CORE THORAX (+ CORE PELVIS block)",
+     "bucket": "CT_CORE_THORAX_or_CP_CORE_PELVIS",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 11,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 4,
+     "purpose": "Focus 1",
+     "category": null,
+     "exercise_cell": "D11",
+     "exercise_range": "AZ7:AZ335",
+     "lib_category": "FULL FOCUS LIST",
+     "bucket": "FOCUS",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 12,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 5,
+     "purpose": "Focus 2",
+     "category": null,
+     "exercise_cell": "D12",
+     "exercise_range": "AZ7:AZ335",
+     "lib_category": "FULL FOCUS LIST",
+     "bucket": "FOCUS",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 13,
+     "day": "DAY 2",
+     "day_bg": "CCCCCC",
+     "order": 1,
+     "purpose": "Hamstring",
+     "category": "Bilateral HD",
+     "exercise_cell": "D13",
+     "exercise_range": "AN7:AN122",
+     "lib_category": "BILATERAL HIP DOMNANT",
+     "bucket": "RP_BHD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 14,
+     "day": "DAY 2",
+     "day_bg": "CCCCCC",
+     "order": 2,
+     "purpose": "Chest",
+     "category": "Horizontal Push",
+     "exercise_cell": "D14",
+     "exercise_range": "AD7:AD162",
+     "lib_category": "HORIZONTAL PUSH",
+     "bucket": "RP_HPUSH",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 15,
+     "day": "DAY 2",
+     "day_bg": "CCCCCC",
+     "order": 3,
+     "purpose": "Hamstring/Glutes",
+     "category": "Unilateral HD",
+     "exercise_cell": "D15",
+     "exercise_range": "AQ7:AQ42",
+     "lib_category": "UNILATERAL HIP DOMINANT",
+     "bucket": "RP_UHD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 16,
+     "day": "DAY 2",
+     "day_bg": "CCCCCC",
+     "order": 4,
+     "purpose": "Chest/Shoulders",
+     "category": "Vertical Push",
+     "exercise_cell": "D16",
+     "exercise_range": "AA7:AA122",
+     "lib_category": "VERTICAL PUSH",
+     "bucket": "RP_VPUSH",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 17,
+     "day": "DAY 2",
+     "day_bg": "CCCCCC",
+     "order": 5,
+     "purpose": "Hamstrings",
+     "category": "Leg Curls",
+     "exercise_cell": "D17",
+     "exercise_range": "AR7:AR10",
+     "lib_category": "LEG CURLS",
+     "bucket": "ISO_HAM",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 18,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 6,
+     "purpose": "Calves",
+     "category": null,
+     "exercise_cell": "D18",
+     "exercise_range": "AU7:AU13",
+     "lib_category": "CALVES",
+     "bucket": "ISO_CALF",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 19,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 7,
+     "purpose": "Cardio",
+     "category": null,
+     "exercise_cell": "D19",
+     "exercise_range": "B7:B122",
+     "lib_category": "CARDIO",
+     "bucket": "COND_AEROBIC",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": null,
+     "sets_range": "AV7:AV42",
+     "reps_range": null,
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 20,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 8,
+     "purpose": "Core",
+     "category": null,
+     "exercise_cell": "D20",
+     "exercise_range": "O7:O283",
+     "lib_category": "CORE THORAX (+ CORE PELVIS block)",
+     "bucket": "CT_CORE_THORAX_or_CP_CORE_PELVIS",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 21,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 9,
+     "purpose": "Focus 1",
+     "category": null,
+     "exercise_cell": "D21",
+     "exercise_range": "AZ7:AZ335",
+     "lib_category": "FULL FOCUS LIST",
+     "bucket": "FOCUS",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 22,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 10,
+     "purpose": "Focus 2",
+     "category": null,
+     "exercise_cell": "D22",
+     "exercise_range": "AZ7:AZ335",
+     "lib_category": "FULL FOCUS LIST",
+     "bucket": "FOCUS",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 23,
+     "day": "DAY 3",
+     "day_bg": "FFF2CC",
+     "order": 1,
+     "purpose": "Quads",
+     "category": "Bilateral KD",
+     "exercise_cell": "D23",
+     "exercise_range": "AI7:AI122",
+     "lib_category": "BILATERAL KNEE DOMINANT",
+     "bucket": "RP_BKD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 24,
+     "day": "DAY 3",
+     "day_bg": "FFF2CC",
+     "order": 2,
+     "purpose": "Hamstring",
+     "category": "Bilateral HD",
+     "exercise_cell": "D24",
+     "exercise_range": "AN7:AN122",
+     "lib_category": "BILATERAL HIP DOMNANT",
+     "bucket": "RP_BHD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 25,
+     "day": "DAY 3",
+     "day_bg": "FFF2CC",
+     "order": 3,
+     "purpose": "Back",
+     "category": "Horizontal Pull",
+     "exercise_cell": "D25",
+     "exercise_range": "X7:X162",
+     "lib_category": "HORIZONTAL PULL",
+     "bucket": "RP_HPULL",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 26,
+     "day": "DAY 3",
+     "day_bg": "FFF2CC",
+     "order": 4,
+     "purpose": "Chest",
+     "category": "Horizontal Push",
+     "exercise_cell": "D26",
+     "exercise_range": "AD7:AD162",
+     "lib_category": "HORIZONTAL PUSH",
+     "bucket": "RP_HPUSH",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 27,
+     "day": "DAY 3",
+     "day_bg": "FFF2CC",
+     "order": 5,
+     "purpose": "Quads/Glutes",
+     "category": "Unilateral KD",
+     "exercise_cell": "D27",
+     "exercise_range": "AL7:AL42",
+     "lib_category": "UNILATERAL KNEE DOMINANT",
+     "bucket": "RP_UKD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 28,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 11,
+     "purpose": "Calves",
+     "category": null,
+     "exercise_cell": "D28",
+     "exercise_range": "AU7:AU13",
+     "lib_category": "CALVES",
+     "bucket": "ISO_CALF",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 29,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 12,
+     "purpose": "Cardio",
+     "category": null,
+     "exercise_cell": "D29",
+     "exercise_range": "B7:B122",
+     "lib_category": "CARDIO",
+     "bucket": "COND_AEROBIC",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": null,
+     "sets_range": "AV7:AV42",
+     "reps_range": null,
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 30,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 13,
+     "purpose": "Core",
+     "category": null,
+     "exercise_cell": "D30",
+     "exercise_range": "O7:O283",
+     "lib_category": "CORE THORAX (+ CORE PELVIS block)",
+     "bucket": "CT_CORE_THORAX_or_CP_CORE_PELVIS",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 31,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 14,
+     "purpose": "Focus 1",
+     "category": null,
+     "exercise_cell": "D31",
+     "exercise_range": "AZ7:AZ335",
+     "lib_category": "FULL FOCUS LIST",
+     "bucket": "FOCUS",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    },
+    {
+     "row": 32,
+     "day": "Optional",
+     "day_bg": "FCE5CD",
+     "order": 15,
+     "purpose": "Focus 2",
+     "category": null,
+     "exercise_cell": "D32",
+     "exercise_range": "AZ7:AZ335",
+     "lib_category": "FULL FOCUS LIST",
+     "bucket": "FOCUS",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOOSE 👇",
+     "reps": "CHOOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": null,
+     "feel_range": null
+    }
+   ]
+  },
+  {
+   "tab": "NO ACCESS - AESTHETICS - FB - 4",
+   "tab_visibility": "hidden",
+   "title": null,
+   "goal": "aesthetics; client logbook version of AESTHETICS - FULL BODY - 4 DAYS (identical slot template on a weekday calendar with tracking columns)",
+   "days_per_week": 4,
+   "days_per_week_detail": {
+    "main": 4,
+    "optional": 2,
+    "off": 1,
+    "weekly_layout_observed": [
+     "MONDAY=A",
+     "TUESDAY=B",
+     "WEDNESDAY=Optional (FCE5CD)",
+     "THURSDAY=A",
+     "FRIDAY=B",
+     "SATURDAY=Optional (FCE5CD)",
+     "SUNDAY=OFF (F4CCCC)"
+    ],
+    "weeks_present": [
+     "WEEK 1"
+    ]
+   },
+   "tracking_columns": {
+    "H": "WEIGHT USED or SCORE (free text; CF red EA9999 if blank, green B6D7A8 if filled)",
+    "I": "EFFORT (AX 1-10 verbal scale)",
+    "J": "HOW IT FELT? (AY: RIGHT muscles / WRONG muscle / PAIN / Couldn't do it)",
+    "K": "DONE? (checkbox per day; CF FALSE=EA4335 red, TRUE=57BB8A green)"
+   },
+   "equipment": "same as 4-day",
+   "levels": "per-slot dropdown levels; nothing filled",
+   "fill_status": "entirely unfilled; placeholders mostly 'CHOSE 👇' (invalid)",
+   "slot_template": {
+    "A (MON/THU)": [
+     "ISO_CALF",
+     "RP_BKD",
+     "RP_HPULL",
+     "RP_UKD",
+     "RP_VPULL",
+     "ISO_BICEP",
+     "ISO_QUAD"
+    ],
+    "B (TUE/FRI) AS WIRED": [
+     "RP_BHD",
+     "RP_HPUSH",
+     "ISO_HAM (miswired Unilateral HD slot -> AR7:AR42)",
+     "RP_VPUSH",
+     "ISO_HAM",
+     "ISO_TRICEP",
+     "ISO_SIDE_REAR_DELT"
+    ],
+    "Optional (WED/SAT)": [
+     "ISO_CALF",
+     "COND_AEROBIC",
+     "CT_CORE_THORAX_or_CP_CORE_PELVIS",
+     "FOCUS",
+     "FOCUS"
+    ]
+   },
+   "exercises_per_session": [
+    {
+     "session": "MONDAY",
+     "slots": 7,
+     "type": "main"
+    },
+    {
+     "session": "TUESDAY",
+     "slots": 7,
+     "type": "main"
+    },
+    {
+     "session": "WEDNESDAY",
+     "slots": 5,
+     "type": "optional"
+    },
+    {
+     "session": "THURSDAY",
+     "slots": 7,
+     "type": "main"
+    },
+    {
+     "session": "FRIDAY",
+     "slots": 7,
+     "type": "main"
+    },
+    {
+     "session": "SATURDAY",
+     "slots": 5,
+     "type": "optional"
+    }
+   ],
+   "sets_per_session": [
+    {
+     "session": "MONDAY",
+     "as_written": 0,
+     "assumed_convention_as_wired": 19,
+     "assumed_convention_as_designed_AQ": 19,
+     "assumed_flat3_as_wired": 21,
+     "assumed_flat3_as_designed_AQ": 21,
+     "assumed_flat3_plus_optional_as_designed": 21,
+     "assumed_flat3_plus_optional_as_wired": 21
+    },
+    {
+     "session": "TUESDAY",
+     "as_written": 0,
+     "assumed_convention_as_wired": 17,
+     "assumed_convention_as_designed_AQ": 18,
+     "assumed_flat3_as_wired": 21,
+     "assumed_flat3_as_designed_AQ": 21,
+     "assumed_flat3_plus_optional_as_designed": 21,
+     "assumed_flat3_plus_optional_as_wired": 21
+    },
+    {
+     "session": "WEDNESDAY",
+     "as_written": null,
+     "assumed_convention_as_wired": null,
+     "assumed_convention_as_designed_AQ": null,
+     "assumed_flat3_as_wired": null,
+     "assumed_flat3_as_designed_AQ": null,
+     "assumed_flat3_plus_optional_as_designed": 12,
+     "assumed_flat3_plus_optional_as_wired": 12
+    },
+    {
+     "session": "THURSDAY",
+     "as_written": 0,
+     "assumed_convention_as_wired": 19,
+     "assumed_convention_as_designed_AQ": 19,
+     "assumed_flat3_as_wired": 21,
+     "assumed_flat3_as_designed_AQ": 21,
+     "assumed_flat3_plus_optional_as_designed": 21,
+     "assumed_flat3_plus_optional_as_wired": 21
+    },
+    {
+     "session": "FRIDAY",
+     "as_written": 0,
+     "assumed_convention_as_wired": 17,
+     "assumed_convention_as_designed_AQ": 18,
+     "assumed_flat3_as_wired": 21,
+     "assumed_flat3_as_designed_AQ": 21,
+     "assumed_flat3_plus_optional_as_designed": 21,
+     "assumed_flat3_plus_optional_as_wired": 21
+    },
+    {
+     "session": "SATURDAY",
+     "as_written": null,
+     "assumed_convention_as_wired": null,
+     "assumed_convention_as_designed_AQ": null,
+     "assumed_flat3_as_wired": null,
+     "assumed_flat3_as_designed_AQ": null,
+     "assumed_flat3_plus_optional_as_designed": 12,
+     "assumed_flat3_plus_optional_as_wired": 12
+    }
+   ],
+   "weekly_sets_by_bucket": {
+    "AP_PLYO": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 0,
+     "assumed_convention_as_designed_AQ": 0,
+     "assumed_flat3_as_wired": 0,
+     "assumed_flat3_as_designed_AQ": 0,
+     "assumed_flat3_plus_optional_as_designed": 0,
+     "assumed_flat3_plus_optional_as_wired": 0
+    },
+    "AP_JUMP_LIMITED_KNEE": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 0,
+     "assumed_convention_as_designed_AQ": 0,
+     "assumed_flat3_as_wired": 0,
+     "assumed_flat3_as_designed_AQ": 0,
+     "assumed_flat3_plus_optional_as_designed": 0,
+     "assumed_flat3_plus_optional_as_wired": 0
+    },
+    "AP_THROW": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 0,
+     "assumed_convention_as_designed_AQ": 0,
+     "assumed_flat3_as_wired": 0,
+     "assumed_flat3_as_designed_AQ": 0,
+     "assumed_flat3_plus_optional_as_designed": 0,
+     "assumed_flat3_plus_optional_as_wired": 0
+    },
+    "AP_COD": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 0,
+     "assumed_convention_as_designed_AQ": 0,
+     "assumed_flat3_as_wired": 0,
+     "assumed_flat3_as_designed_AQ": 0,
+     "assumed_flat3_plus_optional_as_designed": 0,
+     "assumed_flat3_plus_optional_as_wired": 0
+    },
+    "AP_SPRINT": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 0,
+     "assumed_convention_as_designed_AQ": 0,
+     "assumed_flat3_as_wired": 0,
+     "assumed_flat3_as_designed_AQ": 0,
+     "assumed_flat3_plus_optional_as_designed": 0,
+     "assumed_flat3_plus_optional_as_wired": 0
+    },
+    "AP_TRIPLE_EXT": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 0,
+     "assumed_convention_as_designed_AQ": 0,
+     "assumed_flat3_as_wired": 0,
+     "assumed_flat3_as_designed_AQ": 0,
+     "assumed_flat3_plus_optional_as_designed": 0,
+     "assumed_flat3_plus_optional_as_wired": 0
+    },
+    "RP_BKD": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 6,
+     "assumed_convention_as_designed_AQ": 6,
+     "assumed_flat3_as_wired": 6,
+     "assumed_flat3_as_designed_AQ": 6,
+     "assumed_flat3_plus_optional_as_designed": 6,
+     "assumed_flat3_plus_optional_as_wired": 6
+    },
+    "RP_BHD": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 6,
+     "assumed_convention_as_designed_AQ": 6,
+     "assumed_flat3_as_wired": 6,
+     "assumed_flat3_as_designed_AQ": 6,
+     "assumed_flat3_plus_optional_as_designed": 6,
+     "assumed_flat3_plus_optional_as_wired": 6
+    },
+    "RP_UKD": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 6,
+     "assumed_convention_as_designed_AQ": 6,
+     "assumed_flat3_as_wired": 6,
+     "assumed_flat3_as_designed_AQ": 6,
+     "assumed_flat3_plus_optional_as_designed": 6,
+     "assumed_flat3_plus_optional_as_wired": 6
+    },
+    "RP_UHD": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 0,
+     "assumed_convention_as_designed_AQ": 6,
+     "assumed_flat3_as_wired": 0,
+     "assumed_flat3_as_designed_AQ": 6,
+     "assumed_flat3_plus_optional_as_designed": 6,
+     "assumed_flat3_plus_optional_as_wired": 0
+    },
+    "RP_HPUSH": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 6,
+     "assumed_convention_as_designed_AQ": 6,
+     "assumed_flat3_as_wired": 6,
+     "assumed_flat3_as_designed_AQ": 6,
+     "assumed_flat3_plus_optional_as_designed": 6,
+     "assumed_flat3_plus_optional_as_wired": 6
+    },
+    "RP_VPUSH": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 6,
+     "assumed_convention_as_designed_AQ": 6,
+     "assumed_flat3_as_wired": 6,
+     "assumed_flat3_as_designed_AQ": 6,
+     "assumed_flat3_plus_optional_as_designed": 6,
+     "assumed_flat3_plus_optional_as_wired": 6
+    },
+    "RP_HPULL": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 6,
+     "assumed_convention_as_designed_AQ": 6,
+     "assumed_flat3_as_wired": 6,
+     "assumed_flat3_as_designed_AQ": 6,
+     "assumed_flat3_plus_optional_as_designed": 6,
+     "assumed_flat3_plus_optional_as_wired": 6
+    },
+    "RP_VPULL": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 6,
+     "assumed_convention_as_designed_AQ": 6,
+     "assumed_flat3_as_wired": 6,
+     "assumed_flat3_as_designed_AQ": 6,
+     "assumed_flat3_plus_optional_as_designed": 6,
+     "assumed_flat3_plus_optional_as_wired": 6
+    },
+    "ISO_QUAD": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 4,
+     "assumed_convention_as_designed_AQ": 4,
+     "assumed_flat3_as_wired": 6,
+     "assumed_flat3_as_designed_AQ": 6,
+     "assumed_flat3_plus_optional_as_designed": 6,
+     "assumed_flat3_plus_optional_as_wired": 6
+    },
+    "ISO_HAM": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 8,
+     "assumed_convention_as_designed_AQ": 4,
+     "assumed_flat3_as_wired": 12,
+     "assumed_flat3_as_designed_AQ": 6,
+     "assumed_flat3_plus_optional_as_designed": 6,
+     "assumed_flat3_plus_optional_as_wired": 12
+    },
+    "ISO_CHEST": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 0,
+     "assumed_convention_as_designed_AQ": 0,
+     "assumed_flat3_as_wired": 0,
+     "assumed_flat3_as_designed_AQ": 0,
+     "assumed_flat3_plus_optional_as_designed": 0,
+     "assumed_flat3_plus_optional_as_wired": 0
+    },
+    "ISO_SIDE_REAR_DELT": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 4,
+     "assumed_convention_as_designed_AQ": 4,
+     "assumed_flat3_as_wired": 6,
+     "assumed_flat3_as_designed_AQ": 6,
+     "assumed_flat3_plus_optional_as_designed": 6,
+     "assumed_flat3_plus_optional_as_wired": 6
+    },
+    "ISO_BICEP": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 4,
+     "assumed_convention_as_designed_AQ": 4,
+     "assumed_flat3_as_wired": 6,
+     "assumed_flat3_as_designed_AQ": 6,
+     "assumed_flat3_plus_optional_as_designed": 6,
+     "assumed_flat3_plus_optional_as_wired": 6
+    },
+    "ISO_TRICEP": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 4,
+     "assumed_convention_as_designed_AQ": 4,
+     "assumed_flat3_as_wired": 6,
+     "assumed_flat3_as_designed_AQ": 6,
+     "assumed_flat3_plus_optional_as_designed": 6,
+     "assumed_flat3_plus_optional_as_wired": 6
+    },
+    "ISO_CALF": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 6,
+     "assumed_convention_as_designed_AQ": 6,
+     "assumed_flat3_as_wired": 6,
+     "assumed_flat3_as_designed_AQ": 6,
+     "assumed_flat3_plus_optional_as_designed": 12,
+     "assumed_flat3_plus_optional_as_wired": 12
+    },
+    "CT_CORE_THORAX_or_CP_CORE_PELVIS": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 0,
+     "assumed_convention_as_designed_AQ": 0,
+     "assumed_flat3_as_wired": 0,
+     "assumed_flat3_as_designed_AQ": 0,
+     "assumed_flat3_plus_optional_as_designed": 6,
+     "assumed_flat3_plus_optional_as_wired": 6
+    },
+    "CORE_OTHER": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 0,
+     "assumed_convention_as_designed_AQ": 0,
+     "assumed_flat3_as_wired": 0,
+     "assumed_flat3_as_designed_AQ": 0,
+     "assumed_flat3_plus_optional_as_designed": 0,
+     "assumed_flat3_plus_optional_as_wired": 0
+    },
+    "COND_AEROBIC": {
+     "as_written": {
+      "bouts": 0
+     },
+     "assumed_convention_as_wired": {
+      "bouts": 0
+     },
+     "assumed_convention_as_designed_AQ": {
+      "bouts": 0
+     },
+     "assumed_flat3_as_wired": {
+      "bouts": 0
+     },
+     "assumed_flat3_as_designed_AQ": {
+      "bouts": 0
+     },
+     "assumed_flat3_plus_optional_as_designed": {
+      "bouts": 2
+     },
+     "assumed_flat3_plus_optional_as_wired": {
+      "bouts": 2
+     }
+    },
+    "COND_SPRINT_BUYOUT": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 0,
+     "assumed_convention_as_designed_AQ": 0,
+     "assumed_flat3_as_wired": 0,
+     "assumed_flat3_as_designed_AQ": 0,
+     "assumed_flat3_plus_optional_as_designed": 0,
+     "assumed_flat3_plus_optional_as_wired": 0
+    },
+    "FOCUS": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 0,
+     "assumed_convention_as_designed_AQ": 0,
+     "assumed_flat3_as_wired": 0,
+     "assumed_flat3_as_designed_AQ": 0,
+     "assumed_flat3_plus_optional_as_designed": 12,
+     "assumed_flat3_plus_optional_as_wired": 12
+    },
+    "FUNCTIONAL": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 0,
+     "assumed_convention_as_designed_AQ": 0,
+     "assumed_flat3_as_wired": 0,
+     "assumed_flat3_as_designed_AQ": 0,
+     "assumed_flat3_plus_optional_as_designed": 0,
+     "assumed_flat3_plus_optional_as_wired": 0
+    },
+    "TOTAL": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 72,
+     "assumed_convention_as_designed_AQ": 74,
+     "assumed_flat3_as_wired": 84,
+     "assumed_flat3_as_designed_AQ": 84,
+     "assumed_flat3_plus_optional_as_designed": 108,
+     "assumed_flat3_plus_optional_as_wired": 108
+    }
+   },
+   "weekly_sets_by_muscle": {
+    "quads": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 16,
+     "assumed_convention_as_designed_AQ": 16,
+     "assumed_flat3_as_wired": 18,
+     "assumed_flat3_as_designed_AQ": 18,
+     "assumed_flat3_plus_optional_as_designed": 18,
+     "assumed_flat3_plus_optional_as_wired": 18
+    },
+    "glutes": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 15,
+     "assumed_convention_as_designed_AQ": 21,
+     "assumed_flat3_as_wired": 15,
+     "assumed_flat3_as_designed_AQ": 21,
+     "assumed_flat3_plus_optional_as_designed": 21,
+     "assumed_flat3_plus_optional_as_wired": 15
+    },
+    "hamstrings": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 14,
+     "assumed_convention_as_designed_AQ": 16,
+     "assumed_flat3_as_wired": 18,
+     "assumed_flat3_as_designed_AQ": 18,
+     "assumed_flat3_plus_optional_as_designed": 18,
+     "assumed_flat3_plus_optional_as_wired": 18
+    },
+    "chest": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 9,
+     "assumed_convention_as_designed_AQ": 9,
+     "assumed_flat3_as_wired": 9,
+     "assumed_flat3_as_designed_AQ": 9,
+     "assumed_flat3_plus_optional_as_designed": 9,
+     "assumed_flat3_plus_optional_as_wired": 9
+    },
+    "lats/upper back": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 12,
+     "assumed_convention_as_designed_AQ": 12,
+     "assumed_flat3_as_wired": 12,
+     "assumed_flat3_as_designed_AQ": 12,
+     "assumed_flat3_plus_optional_as_designed": 12,
+     "assumed_flat3_plus_optional_as_wired": 12
+    },
+    "front delts": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 12,
+     "assumed_convention_as_designed_AQ": 12,
+     "assumed_flat3_as_wired": 12,
+     "assumed_flat3_as_designed_AQ": 12,
+     "assumed_flat3_plus_optional_as_designed": 12,
+     "assumed_flat3_plus_optional_as_wired": 12
+    },
+    "side delts": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 7,
+     "assumed_convention_as_designed_AQ": 7,
+     "assumed_flat3_as_wired": 9,
+     "assumed_flat3_as_designed_AQ": 9,
+     "assumed_flat3_plus_optional_as_designed": 9,
+     "assumed_flat3_plus_optional_as_wired": 9
+    },
+    "rear delts": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 3,
+     "assumed_convention_as_designed_AQ": 3,
+     "assumed_flat3_as_wired": 3,
+     "assumed_flat3_as_designed_AQ": 3,
+     "assumed_flat3_plus_optional_as_designed": 3,
+     "assumed_flat3_plus_optional_as_wired": 3
+    },
+    "biceps": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 10,
+     "assumed_convention_as_designed_AQ": 10,
+     "assumed_flat3_as_wired": 12,
+     "assumed_flat3_as_designed_AQ": 12,
+     "assumed_flat3_plus_optional_as_designed": 12,
+     "assumed_flat3_plus_optional_as_wired": 12
+    },
+    "triceps": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 10,
+     "assumed_convention_as_designed_AQ": 10,
+     "assumed_flat3_as_wired": 12,
+     "assumed_flat3_as_designed_AQ": 12,
+     "assumed_flat3_plus_optional_as_designed": 12,
+     "assumed_flat3_plus_optional_as_wired": 12
+    },
+    "calves": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 6,
+     "assumed_convention_as_designed_AQ": 6,
+     "assumed_flat3_as_wired": 6,
+     "assumed_flat3_as_designed_AQ": 6,
+     "assumed_flat3_plus_optional_as_designed": 12,
+     "assumed_flat3_plus_optional_as_wired": 12
+    },
+    "abs/obliques": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 0,
+     "assumed_convention_as_designed_AQ": 0,
+     "assumed_flat3_as_wired": 0,
+     "assumed_flat3_as_designed_AQ": 0,
+     "assumed_flat3_plus_optional_as_designed": 6,
+     "assumed_flat3_plus_optional_as_wired": 6
+    },
+    "FOCUS (client-picked muscle)": {
+     "as_written": 0,
+     "assumed_convention_as_wired": 0,
+     "assumed_convention_as_designed_AQ": 0,
+     "assumed_flat3_as_wired": 0,
+     "assumed_flat3_as_designed_AQ": 0,
+     "assumed_flat3_plus_optional_as_designed": 12,
+     "assumed_flat3_plus_optional_as_wired": 12
+    }
+   },
+   "rep_ranges_by_bucket": {
+    "_all": {
+     "observed": [],
+     "note": "nothing chosen; EFFORT/FEELING are client reports, not targets"
+    }
+   },
+   "intensity": "client-reported EFFORT 1-10 (target anchor inferred = '8 - That was perfect'); nothing prescribed",
+   "progression_summary": "Only WEEK 1 exists; no progression. Tracking columns (weight, effort, feel, done) are the inputs a week-over-week rule would consume. Miswire E12/E33 (Unilateral HD -> LEG CURLS list) shifts 6 sets/week from glutes to leg-curl volume (glutes 21->15 at flat 3).",
+   "flags": [
+    "MISWIRED E12/E33 -> AR7:AR42",
+    "placeholder typo CHOSE (invalid list value) in most cells",
+    "no title (A1:K1 empty)",
+    "Cardio range truncated",
+    "hidden tab"
+   ],
+   "slots": [
+    {
+     "row": 3,
+     "day": "MONDAY",
+     "day_bg": "EFEFEF",
+     "order": 1,
+     "purpose": "Calves",
+     "category": "Calves",
+     "exercise_cell": "E3",
+     "exercise_range": "AU7:AU13",
+     "lib_category": "CALVES",
+     "bucket": "ISO_CALF",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 4,
+     "day": "MONDAY",
+     "day_bg": "EFEFEF",
+     "order": 2,
+     "purpose": "Quads",
+     "category": "Bilateral KD",
+     "exercise_cell": "E4",
+     "exercise_range": "AI7:AI122",
+     "lib_category": "BILATERAL KNEE DOMINANT",
+     "bucket": "RP_BKD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 5,
+     "day": "MONDAY",
+     "day_bg": "EFEFEF",
+     "order": 3,
+     "purpose": "Back",
+     "category": "Horizontal Pull",
+     "exercise_cell": "E5",
+     "exercise_range": "X7:X162",
+     "lib_category": "HORIZONTAL PULL",
+     "bucket": "RP_HPULL",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 6,
+     "day": "MONDAY",
+     "day_bg": "EFEFEF",
+     "order": 4,
+     "purpose": "Quads/Glutes",
+     "category": "Unilateral KD",
+     "exercise_cell": "E6",
+     "exercise_range": "AL7:AL42",
+     "lib_category": "UNILATERAL KNEE DOMINANT",
+     "bucket": "RP_UKD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 7,
+     "day": "MONDAY",
+     "day_bg": "EFEFEF",
+     "order": 5,
+     "purpose": "Back ",
+     "category": "Vertical Pull",
+     "exercise_cell": "E7",
+     "exercise_range": "U7:U122",
+     "lib_category": "VERTICAL PULL",
+     "bucket": "RP_VPULL",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 8,
+     "day": "MONDAY",
+     "day_bg": "EFEFEF",
+     "order": 6,
+     "purpose": "Bicep",
+     "category": "Bicep",
+     "exercise_cell": "E8",
+     "exercise_range": "AS7:AS42",
+     "lib_category": "BICEP",
+     "bucket": "ISO_BICEP",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 9,
+     "day": "MONDAY",
+     "day_bg": "EFEFEF",
+     "order": 7,
+     "purpose": "Quads",
+     "category": "Leg Extensions",
+     "exercise_cell": "E9",
+     "exercise_range": "AM7:AM9",
+     "lib_category": "LEG EXTENSIONS",
+     "bucket": "ISO_QUAD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 10,
+     "day": "TUESDAY",
+     "day_bg": "CCCCCC",
+     "order": 1,
+     "purpose": "Hamstring",
+     "category": "Bilateral HD",
+     "exercise_cell": "E10",
+     "exercise_range": "AN7:AN122",
+     "lib_category": "BILATERAL HIP DOMNANT",
+     "bucket": "RP_BHD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 11,
+     "day": "TUESDAY",
+     "day_bg": "CCCCCC",
+     "order": 2,
+     "purpose": "Chest",
+     "category": "Horizontal Push",
+     "exercise_cell": "E11",
+     "exercise_range": "AD7:AD162",
+     "lib_category": "HORIZONTAL PUSH",
+     "bucket": "RP_HPUSH",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 12,
+     "day": "TUESDAY",
+     "day_bg": "CCCCCC",
+     "order": 3,
+     "purpose": "Hamstring/Glutes",
+     "category": "Unilateral HD",
+     "exercise_cell": "E12",
+     "exercise_range": "AR7:AR42",
+     "lib_category": "LEG CURLS",
+     "bucket": "ISO_HAM",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 13,
+     "day": "TUESDAY",
+     "day_bg": "CCCCCC",
+     "order": 4,
+     "purpose": "Chest/Shoulders",
+     "category": "Vertical Push",
+     "exercise_cell": "E13",
+     "exercise_range": "AA7:AA122",
+     "lib_category": "VERTICAL PUSH",
+     "bucket": "RP_VPUSH",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 14,
+     "day": "TUESDAY",
+     "day_bg": "CCCCCC",
+     "order": 5,
+     "purpose": "Hamstrings",
+     "category": "Leg Curls",
+     "exercise_cell": "E14",
+     "exercise_range": "AR7:AR10",
+     "lib_category": "LEG CURLS",
+     "bucket": "ISO_HAM",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 15,
+     "day": "TUESDAY",
+     "day_bg": "CCCCCC",
+     "order": 6,
+     "purpose": "Tricep",
+     "category": null,
+     "exercise_cell": "E15",
+     "exercise_range": "AT7:AT42",
+     "lib_category": "TRICEP",
+     "bucket": "ISO_TRICEP",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 16,
+     "day": "TUESDAY",
+     "day_bg": "CCCCCC",
+     "order": 7,
+     "purpose": "Shoulders/Traps",
+     "category": "ABdution",
+     "exercise_cell": "E16",
+     "exercise_range": "AH7:AH42",
+     "lib_category": "SIDE RAISES",
+     "bucket": "ISO_SIDE_REAR_DELT",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 18,
+     "day": "WEDNESDAY",
+     "day_bg": "FCE5CD",
+     "order": 1,
+     "purpose": "Calves",
+     "category": null,
+     "exercise_cell": "E18",
+     "exercise_range": "AU7:AU13",
+     "lib_category": "CALVES",
+     "bucket": "ISO_CALF",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 19,
+     "day": "WEDNESDAY",
+     "day_bg": "FCE5CD",
+     "order": 2,
+     "purpose": "Cardio",
+     "category": null,
+     "exercise_cell": "E19",
+     "exercise_range": "B7:B122",
+     "lib_category": "CARDIO",
+     "bucket": "COND_AEROBIC",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": null,
+     "sets_range": "AV7:AV42",
+     "reps_range": null,
+     "effort_range": "AX7:AX42",
+     "feel_range": null
+    },
+    {
+     "row": 20,
+     "day": "WEDNESDAY",
+     "day_bg": "FCE5CD",
+     "order": 3,
+     "purpose": "Core",
+     "category": null,
+     "exercise_cell": "E20",
+     "exercise_range": "O7:O283",
+     "lib_category": "CORE THORAX (+ CORE PELVIS block)",
+     "bucket": "CT_CORE_THORAX_or_CP_CORE_PELVIS",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 21,
+     "day": "WEDNESDAY",
+     "day_bg": "FCE5CD",
+     "order": 4,
+     "purpose": "Focus 1",
+     "category": null,
+     "exercise_cell": "E21",
+     "exercise_range": "AZ7:AZ335",
+     "lib_category": "FULL FOCUS LIST",
+     "bucket": "FOCUS",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 22,
+     "day": "WEDNESDAY",
+     "day_bg": "FCE5CD",
+     "order": 5,
+     "purpose": "Focus 2",
+     "category": null,
+     "exercise_cell": "E22",
+     "exercise_range": "AZ7:AZ335",
+     "lib_category": "FULL FOCUS LIST",
+     "bucket": "FOCUS",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 24,
+     "day": "THURSDAY",
+     "day_bg": "EFEFEF",
+     "order": 1,
+     "purpose": "Calves",
+     "category": "Calves",
+     "exercise_cell": "E24",
+     "exercise_range": "AU7:AU13",
+     "lib_category": "CALVES",
+     "bucket": "ISO_CALF",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 25,
+     "day": "THURSDAY",
+     "day_bg": "EFEFEF",
+     "order": 2,
+     "purpose": "Quads",
+     "category": "Bilateral KD",
+     "exercise_cell": "E25",
+     "exercise_range": "AI7:AI122",
+     "lib_category": "BILATERAL KNEE DOMINANT",
+     "bucket": "RP_BKD",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 26,
+     "day": "THURSDAY",
+     "day_bg": "EFEFEF",
+     "order": 3,
+     "purpose": "Back",
+     "category": "Horizontal Pull",
+     "exercise_cell": "E26",
+     "exercise_range": "X7:X162",
+     "lib_category": "HORIZONTAL PULL",
+     "bucket": "RP_HPULL",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 27,
+     "day": "THURSDAY",
+     "day_bg": "EFEFEF",
+     "order": 4,
+     "purpose": "Quads/Glutes",
+     "category": "Unilateral KD",
+     "exercise_cell": "E27",
+     "exercise_range": "AL7:AL42",
+     "lib_category": "UNILATERAL KNEE DOMINANT",
+     "bucket": "RP_UKD",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 28,
+     "day": "THURSDAY",
+     "day_bg": "EFEFEF",
+     "order": 5,
+     "purpose": "Back ",
+     "category": "Vertical Pull",
+     "exercise_cell": "E28",
+     "exercise_range": "U7:U122",
+     "lib_category": "VERTICAL PULL",
+     "bucket": "RP_VPULL",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 29,
+     "day": "THURSDAY",
+     "day_bg": "EFEFEF",
+     "order": 6,
+     "purpose": "Bicep",
+     "category": "Bicep",
+     "exercise_cell": "E29",
+     "exercise_range": "AS7:AS42",
+     "lib_category": "BICEP",
+     "bucket": "ISO_BICEP",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 30,
+     "day": "THURSDAY",
+     "day_bg": "EFEFEF",
+     "order": 7,
+     "purpose": "Quads",
+     "category": "Leg Extensions",
+     "exercise_cell": "E30",
+     "exercise_range": "AM7:AM9",
+     "lib_category": "LEG EXTENSIONS",
+     "bucket": "ISO_QUAD",
+     "exercise": "CHOOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 31,
+     "day": "FRIDAY",
+     "day_bg": "CCCCCC",
+     "order": 1,
+     "purpose": "Hamstring",
+     "category": "Bilateral HD",
+     "exercise_cell": "E31",
+     "exercise_range": "AN7:AN122",
+     "lib_category": "BILATERAL HIP DOMNANT",
+     "bucket": "RP_BHD",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 32,
+     "day": "FRIDAY",
+     "day_bg": "CCCCCC",
+     "order": 2,
+     "purpose": "Chest",
+     "category": "Horizontal Push",
+     "exercise_cell": "E32",
+     "exercise_range": "AD7:AD162",
+     "lib_category": "HORIZONTAL PUSH",
+     "bucket": "RP_HPUSH",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 33,
+     "day": "FRIDAY",
+     "day_bg": "CCCCCC",
+     "order": 3,
+     "purpose": "Hamstring/Glutes",
+     "category": "Unilateral HD",
+     "exercise_cell": "E33",
+     "exercise_range": "AR7:AR42",
+     "lib_category": "LEG CURLS",
+     "bucket": "ISO_HAM",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 34,
+     "day": "FRIDAY",
+     "day_bg": "CCCCCC",
+     "order": 4,
+     "purpose": "Chest/Shoulders",
+     "category": "Vertical Push",
+     "exercise_cell": "E34",
+     "exercise_range": "AA7:AA122",
+     "lib_category": "VERTICAL PUSH",
+     "bucket": "RP_VPUSH",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 35,
+     "day": "FRIDAY",
+     "day_bg": "CCCCCC",
+     "order": 5,
+     "purpose": "Hamstrings",
+     "category": "Leg Curls",
+     "exercise_cell": "E35",
+     "exercise_range": "AR7:AR10",
+     "lib_category": "LEG CURLS",
+     "bucket": "ISO_HAM",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 36,
+     "day": "FRIDAY",
+     "day_bg": "CCCCCC",
+     "order": 6,
+     "purpose": "Tricep",
+     "category": null,
+     "exercise_cell": "E36",
+     "exercise_range": "AT7:AT42",
+     "lib_category": "TRICEP",
+     "bucket": "ISO_TRICEP",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 37,
+     "day": "FRIDAY",
+     "day_bg": "CCCCCC",
+     "order": 7,
+     "purpose": "Shoulders/Traps",
+     "category": "ABdution",
+     "exercise_cell": "E37",
+     "exercise_range": "AH7:AH42",
+     "lib_category": "SIDE RAISES",
+     "bucket": "ISO_SIDE_REAR_DELT",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 39,
+     "day": "SATURDAY",
+     "day_bg": "FCE5CD",
+     "order": 1,
+     "purpose": "Calves",
+     "category": null,
+     "exercise_cell": "E39",
+     "exercise_range": "AU7:AU13",
+     "lib_category": "CALVES",
+     "bucket": "ISO_CALF",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 40,
+     "day": "SATURDAY",
+     "day_bg": "FCE5CD",
+     "order": 2,
+     "purpose": "Cardio",
+     "category": null,
+     "exercise_cell": "E40",
+     "exercise_range": "B7:B122",
+     "lib_category": "CARDIO",
+     "bucket": "COND_AEROBIC",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": null,
+     "sets_range": "AV7:AV42",
+     "reps_range": null,
+     "effort_range": "AX7:AX42",
+     "feel_range": null
+    },
+    {
+     "row": 41,
+     "day": "SATURDAY",
+     "day_bg": "FCE5CD",
+     "order": 3,
+     "purpose": "Core",
+     "category": null,
+     "exercise_cell": "E41",
+     "exercise_range": "O7:O283",
+     "lib_category": "CORE THORAX (+ CORE PELVIS block)",
+     "bucket": "CT_CORE_THORAX_or_CP_CORE_PELVIS",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 42,
+     "day": "SATURDAY",
+     "day_bg": "FCE5CD",
+     "order": 4,
+     "purpose": "Focus 1",
+     "category": null,
+     "exercise_cell": "E42",
+     "exercise_range": "AZ7:AZ335",
+     "lib_category": "FULL FOCUS LIST",
+     "bucket": "FOCUS",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 43,
+     "day": "SATURDAY",
+     "day_bg": "FCE5CD",
+     "order": 5,
+     "purpose": "Focus 2",
+     "category": null,
+     "exercise_cell": "E43",
+     "exercise_range": "AZ7:AZ335",
+     "lib_category": "FULL FOCUS LIST",
+     "bucket": "FOCUS",
+     "exercise": "CHOSE 👇",
+     "sets": "CHOSE 👇",
+     "reps": "CHOSE 👇",
+     "sets_range": "AV7:AV42",
+     "reps_range": "AW7:AW42",
+     "effort_range": "AX7:AX42",
+     "feel_range": "AY7:AY42"
+    },
+    {
+     "row": 45,
+     "day": "SUNDAY",
+     "day_bg": "F4CCCC",
+     "order": 1,
+     "purpose": "OFF",
+     "category": null,
+     "exercise_cell": "E45",
+     "exercise_range": null,
+     "lib_category": null,
+     "bucket": null,
+     "exercise": "OFF",
+     "sets": "OFF",
+     "reps": "OFF",
+     "sets_range": null,
+     "reps_range": null,
+     "effort_range": null,
+     "feel_range": null
+    }
+   ]
+  }
+ ]
+}

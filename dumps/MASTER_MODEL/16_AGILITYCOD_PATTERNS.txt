@@ -1,0 +1,17 @@
+SHEET: 'AGILITYCOD PATTERNS'
+DIMENSIONS: A1:H14  max_row=14 max_col=8
+NON-EMPTY CELLS: 10
+MERGED (0): 
+DATA VALIDATIONS (dropdown sources):
+
+CELLS (row-major; coord | value | formatting):
+A1 | 'Change of Direction ' | fg=theme1
+D1 | 'Agility: Reactive in nature - Incognitive Competence' | fg=theme1
+D2 | 'COD: Proactive in nature - Cognitive Competence' | fg=theme1
+A5 | 'HOPS IN PLACE' | fg=theme1
+A7 | 'KRUMRIE FORMATION' | fg=theme1
+C7 | 'MUNOZ FORMATION' | fg=theme1
+E7 | 'EIGHT SQUARE PLYOMETRIC FORMATION' | fg=theme1
+H7 | 'FOUR SQUARE FORMATION' | fg=theme1
+A12 | 'RUNNING ROUTES' | fg=theme1
+A14 | 'ROUTE TREE' | fg=theme1

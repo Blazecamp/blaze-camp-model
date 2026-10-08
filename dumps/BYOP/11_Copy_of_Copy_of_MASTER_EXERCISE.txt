@@ -1,0 +1,587 @@
+SHEET: 'Copy of Copy of MASTER EXERCISE'
+DIMENSIONS: A1:Y44  max_row=44 max_col=25
+NON-EMPTY CELLS: 580
+MERGED (0): 
+DATA VALIDATIONS (dropdown sources):
+
+CELLS (row-major; coord | value | formatting):
+A1 | 'Segment' | bold fg=theme1
+B1 | 'CARDIO' | bg=EFEFEF bold fg=theme1
+C1 | 'TRIPPLE EXTENSION' | bg=CCCCCC bold fg=FF0000
+D1 | 'PLYOS' | bg=B7B7B7 bold fg=FF0000
+E1 | 'THROWING' | bg=D9D9D9 bold fg=FF0000
+F1 | 'CHANGE OF DIRECTION' | bg=999999 bold fg=theme1
+G1 | 'CORE THORAX' | bg=D9D9D9 bold fg=FF0000
+H1 | 'CORE PELVIS' | bg=B7B7B7 bold fg=FF0000
+I1 | 'VERTICAL PULL' | bg=CCCCCC bold fg=theme1
+J1 | 'HORIZONTAL PULL' | bg=999999 bold fg=FF0000
+K1 | 'VERTICAL PUSH' | bg=EFEFEF bold fg=theme1
+L1 | 'Horizontal Push' | bg=D9D9D9 bold fg=theme1
+M1 | 'SIDE RAISES' | bg=B7B7B7 bold fg=theme1
+N1 | 'BILATERAL KNEE DOMINANT' | bg=CCCCCC bold fg=FF0000
+O1 | 'UNILATERAL KNEE DOMINANT' | bg=EFEFEF bold fg=FF0000
+P1 | 'LEG EXTENSIONS' | bg=999999 bold fg=FF0000
+Q1 | 'BILATERAL HIP DOMNANT' | bg=D9D9D9 bold fg=FF0000
+R1 | 'UNILATERAL HIP DOMINANT' | bg=EFEFEF bold fg=FF0000
+S1 | 'LEG CURLS' | bg=B7B7B7 bold fg=FF0000
+T1 | 'BICEP' | bg=EFEFEF bold fg=theme1
+U1 | 'TRICEP' | bg=CCCCCC bold fg=theme1
+V1 | 'CALVES' | bg=EFEFEF bold fg=theme1
+W1 | 'CARRY' | bg=EFEFEF bold fg=theme1
+X1 | 'DRAGS' | bg=EFEFEF bold fg=theme1
+Y1 | 'FUNCTIONAL BIOMECHANICS SYSTEM' | bg=EFEFEF bold fg=theme1
+A2 | 'ZONE' | bold fg=theme1
+B2 | 'Cardio' | bg=93C47D bold fg=theme1
+C2 | 'EASY' | bg=8E7CC3 bold fg=theme1
+D2 | 'EASY' | bg=CC0000 bold fg=theme1
+E2 | 'AP - THROWING' | bg=F6B26B bold fg=theme1
+F2 | 'EASY  ' | bg=FFD966 bold fg=theme1
+G2 | 'EASY' | bg=6FA8DC bold fg=theme1
+H2 | 'EASY' | bg=6FA8DC bold fg=theme1
+I2 | 'FOUNDATIONAL' | bg=93C47D bold fg=theme1
+J2 | 'EASY' | bg=93C47D bold fg=theme1
+K2 | 'FOUNDATIONAL - RP - BS - VERTICAL PUSH' | bg=6FA8DC bold fg=theme1
+L2 | 'RP - BS - FOUNDATIONAL- HORIZONTAL PUSH' | bg=6FA8DC bold fg=theme1
+M2 | 'RP -SHOULDERS' | bg=EAD1DC bold fg=theme1
+N2 | 'RP - BS - KNEE DOMINANT' | bg=FFD966 bold fg=theme1
+O2 | 'RP - UL - KNEE DOMINANT' | bg=FFE599 bold fg=theme1
+P2 | 'RP-BS-KNEE DOMINANT -ADVANCED' | bg=FFD966 bold fg=theme1
+Q2 | 'RP - BS - HIP DOMINANT' | bg=93C47D bold fg=theme1
+R2 | 'RP - UL - HIP DOMINANT' | bg=B6D7A8 bold fg=theme1
+T2 | 'RP - BICEP' | bg=E6B8AF bold fg=theme1
+U2 | 'RP - TRICEP' | bg=FCE5CD bold fg=theme1
+V2 | 'RP - CALVES' | bg=EAD1DC bold fg=theme1
+A3 | 'PATTERN' | bold fg=theme1
+B3 | 'CARDIO' | bg=93C47D bold fg=theme1
+C3 | 'ATHLETIC' | bg=8E7CC3 bold fg=theme1
+D3 | 'ATHLETIC' | bg=CC0000 bold fg=theme1
+E3 | 'ATHLETIC' | bg=F6B26B bold fg=theme1
+F3 | 'ATHLETIC' | bg=FFD966 bold fg=theme1
+G3 | 'CONTROL' | bg=6FA8DC bold fg=theme1
+H3 | 'CONTROL' | bg=6FA8DC bold fg=theme1
+I3 | 'RESISTANCE' | bg=93C47D bold fg=theme1
+J3 | 'RESISTANCE' | bg=93C47D bold fg=theme1
+K3 | 'RESISTANCE' | bg=6FA8DC bold fg=theme1
+L3 | 'RESISTANCE' | bg=6FA8DC bold fg=theme1
+M3 | 'RESISTANCE' | bg=EAD1DC bold fg=theme1
+N3 | 'RESISTANCE' | bg=FFD966 bold fg=theme1
+O3 | 'RESISTANCE' | bg=FFE599 bold fg=theme1
+P3 | 'RESISTANCE' | bg=FFD966 bold fg=theme1
+Q3 | 'RESISTANCE' | bg=93C47D bold fg=theme1
+R3 | 'RESISTANCE' | bg=B6D7A8 bold fg=theme1
+S3 | 'RESISTANCE' | bg=93C47D bold fg=theme1
+T3 | 'RESISTANCE' | bg=E6B8AF bold fg=theme1
+U3 | 'RESISTANCE' | bg=FCE5CD bold fg=theme1
+V3 | 'RESISTANCE' | bg=EAD1DC bold fg=theme1
+Y3 | 'FUNCTIONAL' | bg=EAD1DC bold fg=theme1
+B4 | 'Cardio' | bg=93C47D bold fg=theme1
+C4 | 'TRIPPLE EXTENSION' | bg=8E7CC3 bold fg=theme1
+D4 | 'PLYO' | bg=CC0000 bold fg=theme1
+E4 | 'THROWING' | bg=F6B26B bold fg=theme1
+F4 | 'EASY TURN' | bg=FFD966 bold fg=theme1
+G4 | 'CORE THORAX SAGITAL' | bg=6FA8DC bold fg=theme1
+H4 | 'CORE PELVIS SAGITAL' | bg=6FA8DC bold fg=theme1
+I4 | 'BILATERAL SYMMETRICAL' | bg=93C47D bold fg=theme1
+J4 | 'BILATERAL SYMMETRICAL' | bg=93C47D bold fg=theme1
+K4 | 'BILATERAL SYMMETRICAL' | bg=6FA8DC bold fg=theme1
+L4 | 'BILATERAL SYMMETRICAL' | bg=6FA8DC bold fg=theme1
+M4 | 'BILATERAL' | bg=EAD1DC bold fg=theme1
+N4 | 'BILATERAL' | bg=FFD966 bold fg=theme1
+O4 | 'UNILATERAL' | bg=FFE599 bold fg=theme1
+P4 | 'BILATERAL' | bg=FFD966 bold fg=theme1
+Q4 | 'BILATERAL' | bg=93C47D bold fg=theme1
+R4 | 'UNILATERAL' | bg=B6D7A8 bold fg=theme1
+S4 | 'UNILATERAL' | bg=93C47D bold fg=theme1
+T4 | 'RESISTANCE' | bg=E6B8AF bold fg=theme1
+U4 | 'RESISTANCE' | bg=FCE5CD bold fg=theme1
+A5 | 'PURPOSE' | bold fg=theme1
+B5 | 'CARDIO' | bg=93C47D bold fg=theme1
+C5 | 'SPEED/POWER' | bg=CC4125 bold fg=theme1
+D5 | 'SPEED/POWER' | bg=CC4125 bold fg=theme1
+E5 | 'SPEED/POWER' | bg=CC4125 bold fg=theme1
+F5 | 'CHANGE OF DIRECTION' | bg=8E7CC3 bold fg=theme1
+G5 | 'CORE' | bg=93C47D bold fg=theme1
+H5 | 'CORE' | bg=93C47D bold fg=theme1
+I5 | 'BACK' | bg=F9CB9C bold fg=theme1
+J5 | 'BACK' | bg=F9CB9C bold fg=theme1
+K5 | 'SHOULDERS/TRAPS' | bg=CC0000 bold fg=theme1
+L5 | 'CHEST/FRONT DELTS' | bg=93C47D bold fg=theme1
+M5 | 'SHOULDERS' | bg=EAD1DC bold fg=theme1
+N5 | 'QUADS' | bg=FFD966 bold fg=theme1
+O5 | 'QUADS/GLUTES' | bg=E06666 bold fg=theme1
+P5 | 'QUADS' | bg=E06666 bold fg=theme1
+Q5 | 'GLUTES/HAMSTRINGS' | bg=6D9EEB bold fg=theme1
+R5 | 'GLUTES/HAMSTRINGS' | bg=6D9EEB bold fg=theme1
+S5 | 'HAMSTRINGS' | bg=6D9EEB bold fg=theme1
+T5 | 'BICEP' | bg=E6B8AF bold fg=theme1
+U5 | 'TRICEP' | bg=FCE5CD bold fg=theme1
+V5 | 'CALVES' | bg=EAD1DC bold fg=theme1
+W5 | 'CARRY' | bg=EAD1DC bold fg=theme1
+X5 | 'DRAG' | bg=EAD1DC bold fg=theme1
+Y5 | 'ANTERIOR OBLIQUE SYSTEM' | bg=EAD1DC bold fg=theme1
+B6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+C6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+D6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+E6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+F6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+G6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+H6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+I6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+J6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+K6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+L6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+M6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+N6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+O6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+P6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+Q6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+R6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+S6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+T6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+U6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+V6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+W6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+X6 | 'CHOOSE 👇' | bg=93C47D bold fg=theme1
+B7 | 'SPEED INTERVALS' | bg=93C47D fg=theme1
+C7 | 'FOUNDATIONAL' | bg=8E7CC3 fg=theme1
+D7 | 'FOUNDATIONAL' | bg=CC0000 fg=theme1
+E7 | 'Chest pass' | bg=F6B26B fg=theme1
+F7 | 'FOUNDATIONAL' | bg=FFD966 fg=theme1
+G7 | 'CORE THORAX' | bg=6FA8DC fg=theme1
+H7 | 'FOUNDATIONAL' | bg=6FA8DC fg=theme1
+I7 | 'FOUNDATIONAL' | bg=93C47D fg=theme1
+J7 | 'FOUNDATIONAL' | bg=93C47D fg=theme1
+K7 | 'FOUNDATIONAL  ' | bg=6FA8DC fg=theme1
+L7 | 'FOUNDATIONAL' | bg=6FA8DC fg=theme1
+M7 | 'Seated Lateral Raises w/ DB ' | bg=EAD1DC fg=theme1
+N7 | 'FOUNDATIONAL' | bg=FFD966 fg=theme1
+O7 | 'Stationary Lunges' | bg=FFE599 fg=theme1
+P7 | 'Leg Extensions' | bg=FFD966 fg=theme1
+Q7 | 'FOUNDATIONAL' | bg=93C47D fg=theme1
+R7 | 'FOUNDATIONAL' | bg=B6D7A8 fg=theme1
+S7 | 'Seated leg curls' | bg=93C47D fg=theme1
+T7 | 'Ez Bar Curls' | bg=E6B8AF fg=theme1
+U7 | 'Straight bar pronated tricep extensions ' | bg=FCE5CD fg=theme1
+V7 | 'Standing Calf raises (use deficit)' | bg=EAD1DC fg=theme1
+W7 | 'PROPULSIVE' | bg=C9DAF8 fg=theme1
+X7 | 'SAGITAL' | bg=C9DAF8 fg=theme1
+Y7 | 'CHOPS' | bg=C9DAF8 fg=theme1
+B8 | '2 min Fast - 1 min walk' | bg=93C47D fg=theme1
+C8 | 'BodyWeight Squat to calf raise' | bg=8E7CC3 fg=theme1
+D8 | 'Low Depth Drop' | bg=CC0000 fg=theme1
+E8 | 'Overhead throw' | bg=F6B26B fg=theme1
+F8 | 'FADE' | bg=FFD966 fg=theme1
+G8 | 'FOUNDATIONAL' | bg=6FA8DC fg=theme1
+H8 | 'Leg Raises' | bg=6FA8DC fg=theme1
+I8 | 'Lat Pulldown Wide Grip' | bg=93C47D fg=theme1
+J8 | 'Machine Row Close Grip' | bg=93C47D fg=theme1
+K8 | 'Incline Seated DB Press' | bg=6FA8DC fg=theme1
+L8 | 'Cable Standing Chest Press' | bg=6FA8DC fg=theme1
+M8 | 'Bent over DB Reverse flies' | bg=EAD1DC fg=theme1
+N8 | 'Box. Zercher squat Touch and Go' | bg=FFD966 fg=theme1
+O8 | 'Reverse Lunges ' | bg=FFE599 fg=theme1
+Q8 | 'Glute Bridges' | bg=93C47D fg=theme1
+R8 | 'SL Glute Bridges (foot on the ground)' | bg=B6D7A8 fg=theme1
+S8 | 'Lying Leg Curls' | bg=93C47D fg=theme1
+T8 | 'Reverse Ez Bar Curls' | bg=E6B8AF fg=theme1
+U8 | 'DB Kickbacks (Uni/Bi)' | bg=FCE5CD fg=theme1
+V8 | 'Standing DB calf Raises (Use Deficit)' | bg=EAD1DC fg=theme1
+W8 | 'STATIONARY' | bg=C9DAF8 fg=theme1
+X8 | 'FRONTAL' | bg=C9DAF8 fg=theme1
+Y8 | 'Hold object Adducted between knees rotational crunch chop down' | bg=D9EAD3 fg=theme1
+B9 | '3 min Fast - 2 min walk' | bg=93C47D fg=theme1
+C9 | 'Lunge to high knee reach' | bg=8E7CC3 fg=theme1
+D9 | 'Low Depth Drop' | bg=CC0000 fg=theme1
+E9 | 'Rotational Chest pass R' | bg=F6B26B fg=theme1
+F9 | 'SLANT' | bg=FFD966 fg=theme1
+G9 | 'Plank' | bg=6FA8DC fg=theme1
+H9 | 'Reverse Crunches' | bg=6FA8DC fg=theme1
+I9 | 'Lat Pulldown Supinated Grip ' | bg=93C47D fg=theme1
+J9 | 'Machine Row Supinated Grip' | bg=93C47D fg=theme1
+K9 | 'Incline Seated Barbell Press' | bg=6FA8DC fg=theme1
+L9 | 'DB Press on floor' | bg=6FA8DC fg=theme1
+M9 | 'Lateral Raises w/ DB ' | bg=EAD1DC fg=theme1
+N9 | 'Box. Goblet squat Touch and Go' | bg=FFD966 fg=theme1
+O9 | 'Forward  Lunges' | bg=FFE599 fg=theme1
+Q9 | 'Elevated Feet on Bench Glute Bridges' | bg=93C47D fg=theme1
+R9 | 'SL Glute Bridges (foot on bench)' | bg=B6D7A8 fg=theme1
+T9 | 'DB Curls' | bg=E6B8AF fg=theme1
+U9 | 'Overhead DB Tricep Extension' | bg=FCE5CD fg=theme1
+V9 | 'Calf Raises w/ DB ' | bg=EAD1DC fg=theme1
+W9 | 'BILATERAL' | bg=FFE599 fg=theme1
+Y9 | 'Hold object Adducted between knees kneeling cable or banded crunch down' | bg=D9EAD3 fg=theme1
+B10 | '4 min Fast - 3 min walk' | bg=93C47D fg=theme1
+C10 | 'Hex bar squat to calf raise' | bg=8E7CC3 fg=theme1
+D10 | 'Medium Depth Drop' | bg=CC0000 fg=theme1
+E10 | 'Rotational Chest pass L' | bg=F6B26B fg=theme1
+F10 | 'POST/CORNER' | bg=FFD966 fg=theme1
+G10 | 'Crunches' | bg=6FA8DC fg=theme1
+H10 | 'V-ups' | bg=6FA8DC fg=theme1
+I10 | 'Lat Pulldown Pronated Grip' | bg=93C47D fg=theme1
+J10 | 'Machine Row Pronated Grips' | bg=93C47D fg=theme1
+K10 | 'DB Push press' | bg=6FA8DC fg=theme1
+L10 | 'Kneeling Push Ups' | bg=6FA8DC fg=theme1
+M10 | 'Front Raises w/ DB' | bg=EAD1DC fg=theme1
+N10 | 'Goblet KB/DB Squats' | bg=FFD966 fg=theme1
+O10 | 'Side Lunges' | bg=FFE599 fg=theme1
+Q10 | 'Reverse Hyper Extension' | bg=93C47D fg=theme1
+R10 | 'SL Hip thrusts' | bg=B6D7A8 fg=theme1
+T10 | 'Cable Machine Curls (Zone1, Zone 2, Zone 3' | bg=E6B8AF fg=theme1
+U10 | 'Floor DB Skullcrushers' | bg=FCE5CD fg=theme1
+V10 | 'Calf Raises w/ Barbell' | bg=EAD1DC fg=theme1
+W10 | 'UNILARTERAL' | bg=FFE599 fg=theme1
+Y10 | 'Knee banded for adduction, half kneeling crunch down into active knee' | bg=D9EAD3 fg=theme1
+B11 | '5 min fast - 2 min walk' | bg=93C47D fg=theme1
+C11 | 'High hang clean pull' | bg=8E7CC3 fg=theme1
+D11 | 'Push up Stick the Landing' | bg=CC0000 fg=theme1
+E11 | 'Rotational Scoop R' | bg=F6B26B fg=theme1
+F11 | 'FLAT' | bg=FFD966 fg=theme1
+G11 | 'Sit ups' | bg=6FA8DC fg=theme1
+H11 | 'Hanging Rotational Knee/Leg Raises' | bg=6FA8DC fg=theme1
+I11 | 'Lat Pulldown Wide Mag Grips' | bg=93C47D fg=theme1
+J11 | 'TRX Rows' | bg=93C47D fg=theme1
+K11 | 'Barbell push press' | bg=6FA8DC fg=theme1
+L11 | 'Incline Push-ups' | bg=6FA8DC fg=theme1
+M11 | 'Front Raises w/ Barbell' | bg=EAD1DC fg=theme1
+N11 | 'Bodyweight Squats' | bg=FFD966 fg=theme1
+O11 | 'Pistol Squats ' | bg=FFE599 fg=theme1
+Q11 | 'Cable Pull Through' | bg=93C47D fg=theme1
+R11 | 'Staggered Stance DL w/ DB ' | bg=B6D7A8 fg=theme1
+T11 | 'Hammer Db Curls' | bg=E6B8AF fg=theme1
+U11 | 'Ez Bar Skullcrushers' | bg=FCE5CD fg=theme1
+V11 | 'Machine Calf Raises' | bg=EAD1DC fg=theme1
+Y11 | 'Knee banded for adduction, split standing down crunch into active knee ' | bg=D9EAD3 fg=theme1
+B12 | '6 min fast - 1 min walk' | bg=93C47D fg=theme1
+C12 | 'Mid hang clean pull' | bg=8E7CC3 fg=theme1
+D12 | 'Low Box Jumps (half shin)' | bg=CC0000 fg=theme1
+E12 | 'Rotational Scoop L' | bg=F6B26B fg=theme1
+F12 | 'Shuffles' | bg=FFD966 fg=theme1
+G12 | 'Weighted Situps' | bg=6FA8DC fg=theme1
+H12 | 'MODERATE' | bg=6FA8DC fg=theme1
+I12 | 'Lat Pulldowns w/ Cable Rope' | bg=93C47D fg=theme1
+J12 | 'Inverted Rows' | bg=93C47D fg=theme1
+K12 | 'DB Push Jerk' | bg=6FA8DC fg=theme1
+L12 | 'Bench Push ups' | bg=6FA8DC fg=theme1
+M12 | 'Inclined Cable Machine Side Raises' | bg=EAD1DC fg=theme1
+N12 | 'Box Squats' | bg=FFD966 fg=theme1
+O12 | 'Single Leg Get Ups' | bg=FFE599 fg=theme1
+Q12 | 'Single KB Deadlift' | bg=93C47D fg=theme1
+R12 | 'Alternating DB Deadlifts' | bg=B6D7A8 fg=theme1
+T12 | 'Seated Db Bicep Curls' | bg=E6B8AF fg=theme1
+U12 | 'Straight Bar Supinated Tricep Extensions ' | bg=FCE5CD fg=theme1
+Y12 | 'Hold object Adducted between knees rotational crunch chop midline' | bg=FFF2CC fg=theme1
+B13 | 'DISTANCE INTERVALS' | bg=93C47D fg=theme1
+C13 | 'High hang snatch pull' | bg=8E7CC3 fg=theme1
+D13 | 'Mid Box Jump (up to knee)' | bg=CC0000 fg=theme1
+E13 | 'Squat to Chest Pass' | bg=F6B26B fg=theme1
+F13 | 'MODERATE' | bg=FFD966 fg=theme1
+G13 | 'Toes to bar' | bg=6FA8DC fg=theme1
+H13 | 'Side Planks ' | bg=6FA8DC fg=theme1
+I13 | 'Lat Pulldowns Close Grip' | bg=93C47D fg=theme1
+J13 | 'ADVANCED' | bg=93C47D fg=theme1
+K13 | 'Barbell Push Jerk' | bg=6FA8DC fg=theme1
+L13 | 'MODERATE' | bg=6FA8DC fg=theme1
+M13 | 'Seated DB Reverse Flies' | bg=EAD1DC fg=theme1
+N13 | 'Squats with Foam Roller or Yoga Ball on the wall' | bg=FFD966 fg=theme1
+O13 | 'Front Foot Elevated Lunges (FFE)' | bg=FFE599 fg=theme1
+Q13 | 'Double KB Deadlift' | bg=93C47D fg=theme1
+R13 | 'Staggered Stance DL w/ Barbell' | bg=B6D7A8 fg=theme1
+T13 | 'Incline Seated Db Curls (Variation, Pinky Facing up)' | bg=E6B8AF fg=theme1
+U13 | 'Tate Press' | bg=FCE5CD fg=theme1
+Y13 | 'Hold object Adducted between knees kneeling cable or banded crunch midline' | bg=FFF2CC fg=theme1
+B14 | '1 mile run - 1 min walk' | bg=93C47D fg=theme1
+C14 | 'Mid hang snatch pull' | bg=8E7CC3 fg=theme1
+D14 | 'Ankle Hops ' | bg=CC0000 fg=theme1
+E14 | 'Rotational Floor side to side slams' | bg=F6B26B fg=theme1
+F14 | 'DIG/OUT' | bg=FFD966 fg=theme1
+G14 | 'Knees to chest' | bg=6FA8DC fg=theme1
+H14 | 'Coppenhaggen Plank' | bg=6FA8DC fg=theme1
+I14 | 'Assisted  Pull-Up w bands' | bg=93C47D fg=theme1
+J14 | 'Bent Over Barbell Rows' | bg=93C47D fg=theme1
+K14 | 'ADVANCED' | bg=6FA8DC fg=theme1
+L14 | 'Incline Push-ups' | bg=6FA8DC fg=theme1
+M14 | 'DB Hammer Side/Front Raises' | bg=EAD1DC fg=theme1
+N14 | 'Low DB Squats' | bg=FFD966 fg=theme1
+O14 | 'Rear Foot Elevated Lunges (RFE)' | bg=FFE599 fg=theme1
+Q14 | 'Leg Curl Machine' | bg=93C47D fg=theme1
+R14 | 'Alternating  Barbell Deadlifts' | bg=B6D7A8 fg=theme1
+T14 | 'Seated DB Curls ' | bg=E6B8AF fg=theme1
+U14 | 'Overhead cable tricep extension' | bg=FCE5CD fg=theme1
+Y14 | 'Knee banded for adduction, half kneeling crunch midline into active knee' | bg=FFF2CC fg=theme1
+B15 | '2 mile run - 2 min walk' | bg=93C47D fg=theme1
+C15 | 'MODERATE' | bg=8E7CC3 bold fg=theme1
+D15 | 'MODERATE' | bg=CC0000 fg=theme1
+E15 | 'RIGHT LEG step forward Chest Pass' | bg=F6B26B fg=theme1
+F15 | 'LEFT TEST' | bg=FFD966 fg=theme1
+G15 | 'MODERATE' | bg=6FA8DC fg=theme1
+H15 | 'ADVANCED' | bg=6FA8DC fg=theme1
+I15 | 'Assisted  Pull-Up Machine Close Grip' | bg=93C47D fg=theme1
+J15 | 'Bent Over Barbell Rows Supinated Grip' | bg=93C47D fg=theme1
+K15 | 'DB Z Press on floor' | bg=6FA8DC fg=theme1
+L15 | 'Push Ups ' | bg=6FA8DC fg=theme1
+M15 | 'DB Side Raises Supinated Grip ' | bg=EAD1DC fg=theme1
+N15 | 'Landmine Squats' | bg=FFD966 fg=theme1
+O15 | 'Rear Foot Against Wall Lunges' | bg=FFE599 fg=theme1
+Q15 | 'Sandbag Hip Thrusts' | bg=93C47D fg=theme1
+R15 | 'Camporini Deadlifts' | bg=B6D7A8 fg=theme1
+T15 | 'Spider Curls' | bg=E6B8AF fg=theme1
+U15 | 'Cable tricep push downs' | bg=FCE5CD fg=theme1
+Y15 | 'Knee banded for adduction, split standing midline crunch into active knee ' | bg=FFF2CC fg=theme1
+B16 | '3 mile run - 3 min walk' | bg=93C47D fg=theme1
+C16 | 'Weighted squat to calf raise' | bg=8E7CC3 fg=theme1
+D16 | 'Forward bilateral plate hops' | bg=CC0000 fg=theme1
+E16 | 'LEFT LEG step forward Chest pass' | bg=F6B26B fg=theme1
+F16 | 'ADVANCED' | bg=FFD966 fg=theme1
+G16 | 'Side Plank ' | bg=6FA8DC fg=theme1
+H16 | 'Hanging rotational knees to chest' | bg=6FA8DC fg=theme1
+I16 | 'Assisted Pull-Up Machine Pronated Grip  ' | bg=93C47D fg=theme1
+J16 | 'Bent Over Rows Close Grip ' | bg=93C47D fg=theme1
+K16 | 'Barbell Z press on Floor ' | bg=6FA8DC fg=theme1
+L16 | 'Bench DB Flies ' | bg=6FA8DC fg=theme1
+M16 | 'DB Front Raises Supinated Grip' | bg=EAD1DC fg=theme1
+N16 | 'Hex Bar Squats' | bg=FFD966 fg=theme1
+O16 | 'Front Foot & Rear Foot Elevated Lunges (RFE & FFE)' | bg=FFE599 fg=theme1
+Q16 | 'Harmstring MedBall Curls' | bg=93C47D fg=theme1
+T16 | 'Zottman Curls' | bg=E6B8AF fg=theme1
+Y16 | 'Hold object Adducted between knees rotational crunch chop up' | bg=F4CCCC fg=theme1
+B17 | 'DISTANCE TEST' | bg=93C47D fg=theme1
+C17 | 'Lunge to high knee reach' | bg=8E7CC3 fg=theme1
+D17 | 'Lateral bilateral plate hops forward on /hop off and back on sideways/ forward down repeat' | bg=CC0000 fg=theme1
+E17 | 'RIGHT LEG step forward overhead throw' | bg=F6B26B fg=theme1
+F17 | 'COMEBACK/CURL' | bg=FFD966 fg=theme1
+G17 | 'ADVANCED' | bg=6FA8DC fg=theme1
+I17 | 'Assisted  Pull-Up Machine Supinated Grip' | bg=93C47D fg=theme1
+J17 | 'Bent Over Rows Pronated Grip' | bg=93C47D fg=theme1
+K17 | 'Kneeling DB Press' | bg=6FA8DC fg=theme1
+L17 | 'Cable flies' | bg=6FA8DC fg=theme1
+M17 | 'Cable machine Leaning Side raises ' | bg=EAD1DC fg=theme1
+N17 | 'Flipped Hex Bar Squats ' | bg=FFD966 fg=theme1
+O17 | 'Step ups (Forward & Side)' | bg=FFE599 fg=theme1
+Q17 | 'Supine Glidder hamstring curls' | bg=93C47D fg=theme1
+T17 | 'TRX Bicep Curls' | bg=E6B8AF fg=theme1
+Y17 | 'Hold object Adducted between knees kneeling cable or banded crunch up' | bg=F4CCCC fg=theme1
+B18 | '1 Mile run' | bg=93C47D fg=theme1
+C18 | 'Hex bar squat to calf raise' | bg=8E7CC3 fg=theme1
+D18 | 'Alternating sL plate hops (hop off bilateral)' | bg=CC0000 fg=theme1
+E18 | 'LEFT LEG step forward overhead throw' | bg=F6B26B fg=theme1
+F18 | datetime.datetime(2005, 5, 10, 0, 0) | bg=FFD966 fg=theme1
+G18 | 'Woodchoppers' | bg=6FA8DC fg=theme1
+I18 | 'Seated Pull ups with Rings or TRX' | bg=93C47D fg=theme1
+J18 | 'Seal Barbell Rows Supinated Grip' | bg=93C47D fg=theme1
+K18 | 'Kneeling Barbell Press' | bg=6FA8DC fg=theme1
+L18 | 'Machine flies' | bg=6FA8DC fg=theme1
+M18 | 'Machine reverse fliez' | bg=EAD1DC fg=theme1
+N18 | 'Sumo Squats w/ DB or KB ' | bg=FFD966 fg=theme1
+O18 | 'Elevated Reverse Lunge' | bg=FFE599 fg=theme1
+Q18 | 'swiss ball hamstring curls' | bg=93C47D fg=theme1
+T18 | 'Crossbody DB Hammer Curls' | bg=E6B8AF fg=theme1
+Y18 | 'Knee banded for adduction, half kneeling crunch up into active knee' | bg=F4CCCC fg=theme1
+B19 | '3 mile run' | bg=93C47D fg=theme1
+C19 | 'High hang clean pull' | bg=8E7CC3 fg=theme1
+D19 | ' Single leg plate hops' | bg=CC0000 fg=theme1
+E19 | 'Half kneeling Right Facing LEFT LEG UP rotational scoop' | bg=F6B26B fg=theme1
+G19 | 'Cable Machine Oblique Rotations' | bg=6FA8DC fg=theme1
+I19 | 'KB Face Pulls ' | bg=93C47D fg=theme1
+J19 | 'Seal Barbell Rows Pronated Grip ' | bg=93C47D fg=theme1
+K19 | 'Standing DB Press' | bg=6FA8DC fg=theme1
+L19 | 'ADVANCED' | bg=6FA8DC fg=theme1
+N19 | 'Leg Extension Machine' | bg=FFD966 fg=theme1
+O19 | 'Curtsy Lunges ' | bg=FFE599 fg=theme1
+Q19 | 'KB swing' | bg=93C47D fg=theme1
+T19 | 'Barbell Curls' | bg=E6B8AF fg=theme1
+Y19 | 'Knee banded for adduction, split standing up crunch into active knee ' | bg=F4CCCC fg=theme1
+B20 | '5 mile run' | bg=93C47D fg=theme1
+C20 | 'Mid hang clean pull' | bg=8E7CC3 fg=theme1
+D20 | ' Single outer leg lateral plate hops alternating' | bg=CC0000 fg=theme1
+E20 | 'Half kneeling Right Facing RIGHT LEG FORWARD rotational scoop' | bg=F6B26B fg=theme1
+G20 | 'Russian Twists' | bg=6FA8DC fg=theme1
+I20 | 'ADVANCED' | bg=93C47D fg=theme1
+J20 | 'Seal DB Rows Supinated Grip' | bg=93C47D fg=theme1
+K20 | 'Standing DB Press' | bg=6FA8DC fg=theme1
+L20 | 'Incline DB Bench Press' | bg=6FA8DC fg=theme1
+N20 | 'MODERATE' | bg=FFD966 fg=theme1
+Q20 | 'MODERATE' | bg=93C47D fg=theme1
+T20 | 'DB Concentration Curls' | bg=E6B8AF fg=theme1
+Y20 | 'INTEGRATED WITH PUSH & LEGS' | bg=FFE599 fg=theme1
+B21 | '8 mile run' | bg=93C47D fg=theme1
+C21 | 'High hang snatch pull' | bg=8E7CC3 fg=theme1
+D21 | 'Single inner leg lateral plate hops alt' | bg=CC0000 fg=theme1
+E21 | 'Half kneeling LEFT Facing LEFT LEG UP rotational scoop' | bg=F6B26B fg=theme1
+G21 | 'CORE PELVIS' | bg=6FA8DC fg=theme1
+I21 | 'Stricted Pull-Up feet behind you' | bg=93C47D fg=theme1
+J21 | 'Seal DB Rows Pronated Grip' | bg=93C47D fg=theme1
+K21 | 'Handstand Push ups' | bg=6FA8DC fg=theme1
+L21 | 'Push ups (Feet on Wall)' | bg=6FA8DC fg=theme1
+N21 | 'Front Squats' | bg=FFD966 fg=theme1
+Q21 | 'DB Deadlifts' | bg=93C47D fg=theme1
+Y21 | 'ANTI ROTATIONS' | bg=C9DAF8 fg=theme1
+B22 | '11 mile run' | bg=93C47D fg=theme1
+C22 | 'Mid hang snatch pull' | bg=8E7CC3 fg=theme1
+D22 | ' Single inner/outer leg lateral plate hops' | bg=CC0000 fg=theme1
+E22 | 'Half kneeling LEFT Facing RIGHT LEG FORWARD rotational scoop' | bg=F6B26B fg=theme1
+G22 | 'FOUNDATIONAL' | bg=6FA8DC fg=theme1
+I22 | 'Stricted Pull-ups feet in front ' | bg=93C47D fg=theme1
+J22 | 'Renegade Rows' | bg=93C47D fg=theme1
+K22 | 'Pike Push Ups' | bg=6FA8DC fg=theme1
+L22 | 'Diamond Push ups' | bg=6FA8DC fg=theme1
+N22 | 'High Zercher DB Squats ' | bg=FFD966 fg=theme1
+Q22 | 'Hex Bar Deadlifts' | bg=93C47D fg=theme1
+Y22 | 'Hold object Adducted between knees floor supine cable or band anti-rotational pallof hold' | bg=D9EAD3 fg=theme1
+B23 | '14 mile run' | bg=93C47D fg=theme1
+C23 | 'Low hang clean pull' | bg=8E7CC3 fg=theme1
+D23 | 'Bigger plates start at lateral bilateral plate hops' | bg=CC0000 fg=theme1
+E23 | 'Alternating Back to wall Rotational Scoops' | bg=F6B26B fg=theme1
+G23 | 'Leg Raises' | bg=6FA8DC fg=theme1
+I23 | 'Strict Pull ups Knees in chest' | bg=93C47D fg=theme1
+J23 | 'UNILATERAL' | bg=93C47D fg=theme1
+K23 | 'DB Thrusters' | bg=6FA8DC fg=theme1
+L23 | 'DB Bench Press' | bg=6FA8DC fg=theme1
+N23 | 'High Zercher Barbell Squats' | bg=FFD966 fg=theme1
+Q23 | 'GHD' | bg=93C47D fg=theme1
+Y23 | 'Hold object Adducted between knees, kneeling cable or band anti-rotational pallof hold' | bg=D9EAD3 fg=theme1
+B24 | '17 mile run' | bg=93C47D fg=theme1
+C24 | 'Low hang snatch pull' | bg=8E7CC3 fg=theme1
+D24 | 'SL forward zig-zag jumps ' | bg=CC0000 fg=theme1
+E24 | 'Situps to chest pass' | bg=F6B26B fg=theme1
+G24 | 'Reverse Crunches' | bg=6FA8DC fg=theme1
+I24 | 'Strict Pull ups L Sit' | bg=93C47D fg=theme1
+J24 | 'DB/ Kb Rows' | bg=76A5AF fg=theme1
+K24 | 'Barbell Thrusters' | bg=6FA8DC fg=theme1
+L24 | 'Barbell bench Press' | bg=6FA8DC fg=theme1
+N24 | 'High Bar Back Squat' | bg=FFD966 fg=theme1
+Q24 | 'Shoulder Wide Grip Deadlift' | bg=93C47D fg=theme1
+Y24 | 'Knee banded for adduction, half kneeling Pallof hold' | bg=D9EAD3 fg=theme1
+B25 | '20 mile run' | bg=93C47D fg=theme1
+C25 | 'ADVANCED' | bg=8E7CC3 fg=theme1
+D25 | 'Ankle Hops ' | bg=CC0000 fg=theme1
+E25 | 'Situps to overhead throw' | bg=F6B26B fg=theme1
+G25 | 'V-ups' | bg=6FA8DC fg=theme1
+I25 | 'Chin Ups' | bg=93C47D fg=theme1
+J25 | 'Cable Machine UL Rows' | bg=76A5AF fg=theme1
+K25 | 'UNILATERAL' | bg=6FA8DC fg=theme1
+L25 | 'Dips ' | bg=6FA8DC fg=theme1
+N25 | 'Low Bar Back Squat' | bg=FFD966 fg=theme1
+Q25 | 'Medicine or Stability Ball Harmstring Curls' | bg=93C47D fg=theme1
+Y25 | 'Knee banded for adduction, split standing pallof hold' | bg=D9EAD3 fg=theme1
+B26 | '21.6 mile run' | bg=93C47D fg=theme1
+C26 | 'Power Snatch' | bg=8E7CC3 fg=theme1
+D26 | 'SL Depth Drops' | bg=CC0000 fg=theme1
+E26 | 'Rotational Downward Slam Throw' | bg=F6B26B fg=theme1
+G26 | 'Hanging Rotational Knee/Leg Raises' | bg=6FA8DC fg=theme1
+I26 | 'Wide Grip Pull Ups' | bg=93C47D fg=theme1
+K26 | 'Sesaw Db Press' | bg=6FA8DC fg=theme1
+L26 | 'Weighted Dips ' | bg=6FA8DC fg=theme1
+N26 | 'Double front rack kb squat' | bg=FFD966 fg=theme1
+Q26 | 'Hip Thrust Machine' | bg=93C47D fg=theme1
+Y26 | 'INTEGRATED WITH PUSH & LEGS' | bg=FFE599 fg=theme1
+B27 | 'SPEED ENDURANCE TEST' | bg=93C47D fg=theme1
+C27 | 'Power Clean' | bg=8E7CC3 fg=theme1
+D27 | 'SL Reverse zig-zag jumps ' | bg=CC0000 fg=theme1
+G27 | 'MODERATE' | bg=6FA8DC fg=theme1
+I27 | 'Weighted Pull ups ' | bg=93C47D fg=theme1
+K27 | 'Alternating Db press' | bg=6FA8DC fg=theme1
+L27 | 'Declined Pushups' | bg=6FA8DC fg=theme1
+N27 | 'Hack Squat Machine ' | bg=FFD966 fg=theme1
+Q27 | 'Machine Good Mornings' | bg=93C47D fg=theme1
+Y27 | 'PLANKS' | bg=C9DAF8 fg=theme1
+B28 | 'Half a mile (800m)' | bg=93C47D fg=theme1
+C28 | 'Power Clean & Jerk' | bg=8E7CC3 fg=theme1
+D28 | 'MODERATE' | bg=CC0000 fg=theme1
+G28 | 'Side Planks ' | bg=6FA8DC fg=theme1
+I28 | 'UNILATERAL  ' | bg=93C47D fg=theme1
+K28 | 'Kneeling Landmine Press' | bg=6FA8DC fg=theme1
+L28 | 'Elevated Push ups (for full ROM)' | bg=6FA8DC fg=theme1
+N28 | 'Leg Extension Machine' | bg=FFD966 fg=theme1
+Q28 | 'DB Hip Thrusts' | bg=93C47D fg=theme1
+Y28 | 'Supine offset plank with contralateral banded or cable adduction' | bg=D9EAD3 fg=theme1
+B29 | '1 Mile Run for time' | bg=93C47D fg=theme1
+C29 | 'Snatch ' | bg=8E7CC3 fg=theme1
+D29 | 'Bilateral Forward Hurdle Hops ' | bg=CC0000 fg=theme1
+G29 | 'Coppenhaggen Plank' | bg=6FA8DC fg=theme1
+I29 | 'Unilateral Lat Pulldowns ' | bg=76A5AF fg=theme1
+K29 | 'Single arm DB thrusters' | bg=6FA8DC fg=theme1
+L29 | 'UNILATERAL' | bg=6FA8DC fg=theme1
+N29 | 'Landmine Hack Squat ' | bg=FFD966 fg=theme1
+Q29 | 'Machine Leg Curls (Seated and Laying Down)' | bg=93C47D fg=theme1
+Y29 | 'INTEGRATED WITH PUSH & LEGS' | bg=FFE599 fg=theme1
+B30 | '3 Miles run for time' | bg=93C47D fg=theme1
+C30 | 'Clean ' | bg=8E7CC3 fg=theme1
+D30 | 'SL Forward Hurdle Hops' | bg=CC0000 fg=theme1
+G30 | 'ADVANCED' | bg=6FA8DC fg=theme1
+L30 | 'Alternating Incline DB Bench Press' | bg=9FC5E8 fg=theme1
+N30 | 'ADVANCED' | bg=FFD966 fg=theme1
+Q30 | 'Hyper extensions ' | bg=93C47D fg=theme1
+Y30 | 'CRUNCHES' | bg=C9DAF8 fg=theme1
+B31 | 'DISTANCE' | bg=93C47D fg=theme1
+C31 | 'Clean & Jerk' | bg=8E7CC3 fg=theme1
+D31 | 'Bilateral Lateral Hurdle Hops' | bg=CC0000 fg=theme1
+G31 | 'Hanging rotational knees to chest' | bg=6FA8DC fg=theme1
+L31 | 'Alternating Flat Bench Press' | bg=9FC5E8 fg=theme1
+N31 | 'Box. Any Squat Touch and Go fast' | bg=FFD966 fg=theme1
+Q31 | 'ADVANCED' | bg=93C47D fg=theme1
+B32 | '200m' | bg=93C47D fg=theme1
+C32 | 'EASY' | bg=8E7CC3 fg=theme1
+D32 | 'SL Lateral Hurdle Hops' | bg=CC0000 fg=theme1
+L32 | 'Alternating Db Floor Press' | bg=9FC5E8 fg=theme1
+N32 | 'Box. Any Squat Touch and Go (Banded)' | bg=FFD966 fg=theme1
+Q32 | 'Nordic Curl' | bg=93C47D fg=theme1
+B33 | '400m' | bg=93C47D bold fg=theme1
+C33 | 'Bilateral symmetrical ankle hop' | bg=8E7CC3 fg=theme1
+D33 | ' Push up Box Jump ' | bg=CC0000 fg=theme1
+L33 | 'Alternating Cable Press' | bg=9FC5E8 fg=theme1
+N33 | 'Box. Any Squat Touch and Go (Reverse Banded)' | bg=FFD966 fg=theme1
+Q33 | 'Barbell Deadlifts' | bg=93C47D fg=theme1
+B34 | '600m' | bg=93C47D fg=theme1
+C34 | 'Lateral bilateral ankle hops' | bg=8E7CC3 fg=theme1
+D34 | 'Right Angle Bilateral Forward/ Lateral/forward/lateral hurdle hops' | bg=CC0000 fg=theme1
+L34 | 'Push ups (1 hand Higher)' | bg=9FC5E8 fg=theme1
+N34 | 'Box. Any Squat Deload' | bg=FFD966 fg=theme1
+Q34 | 'GHD' | bg=93C47D fg=theme1
+B35 | '800m' | bg=93C47D fg=theme1
+C35 | 'Forward/reverse bilateral hops' | bg=8E7CC3 fg=theme1
+D35 | 'ADVANCED' | bg=CC0000 fg=theme1
+L35 | 'Barbell Incline Bench Press' | bg=6FA8DC fg=theme1
+N35 | 'Box. Squat Deload (banded)' | bg=FFD966 fg=theme1
+Q35 | 'Sumo Deadlifts' | bg=93C47D fg=theme1
+B36 | '1000m' | bg=93C47D fg=theme1
+C36 | 'Reverse bilateral ankle hops' | bg=8E7CC3 fg=theme1
+D36 | ' Squirrel jumps' | bg=CC0000 fg=theme1
+N36 | 'Box. Any Squat Deload (reverse banded)' | bg=FFD966 fg=theme1
+Q36 | 'Wide Grip Barbell Deadlift' | bg=93C47D fg=theme1
+B37 | 'CALORIES' | bg=93C47D fg=theme1
+C37 | 'Bilateral Symmetrical  zig-zag jumps ' | bg=8E7CC3 fg=theme1
+D37 | 'Single leg squirrel jumps' | bg=CC0000 fg=theme1
+N37 | 'Hack Squats' | bg=FFD966 fg=theme1
+Q37 | 'Snatch Grip Barbell Deadlift' | bg=93C47D fg=theme1
+B38 | '10 cals' | bg=93C47D fg=theme1
+C38 | 'Single leg ankle hops' | bg=8E7CC3 fg=theme1
+D38 | ' Max velocity running (top speed)' | bg=CC0000 fg=theme1
+N38 | 'Leg press' | bg=FFD966 fg=theme1
+Q38 | 'Barbell Goodmornings' | bg=93C47D fg=theme1
+B39 | '15 cals' | bg=93C47D fg=theme1
+C39 | 'Single leg lateral ankle hops' | bg=8E7CC3 fg=theme1
+D39 | 'Tuck Jumps' | bg=CC0000 fg=theme1
+N39 | 'Pendulum Squat' | bg=FFD966 fg=theme1
+Q39 | 'Barbell Hip Thrusts' | bg=93C47D fg=theme1
+B40 | '20 cals' | bg=93C47D fg=theme1
+C40 | 'Reverse single leg ankle hops' | bg=8E7CC3 fg=theme1
+D40 | 'SL Depth Jumps' | bg=CC0000 fg=theme1
+N40 | 'Sissy Squats' | bg=FFD966 fg=theme1
+Q40 | 'Stiff Leg Deadlift' | bg=93C47D fg=theme1
+B41 | '25 cals' | bg=93C47D fg=theme1
+C41 | 'Right angle bilateral ankle hops - forward/right/forward/left/forward' | bg=8E7CC3 fg=theme1
+D41 | 'Depth Jumps' | bg=CC0000 fg=theme1
+N41 | 'Leg Extension Machine' | bg=FFD966 fg=theme1
+Q41 | 'Machine Leg Curls' | bg=93C47D fg=theme1
+B42 | '30 cals' | bg=93C47D fg=theme1
+C42 | 'Right angle single leg ankle Hops' | bg=8E7CC3 fg=theme1
+D42 | 'Depth Drop to Box Jump ' | bg=CC0000 fg=theme1
+N42 | 'DB thrusters' | bg=FFD966 fg=theme1
+Q42 | 'DB Harmstring Curls' | bg=93C47D fg=theme1
+B43 | '35 cals' | bg=93C47D fg=theme1
+C43 | 'Forward/reverse sl ankle hops' | bg=8E7CC3 fg=theme1
+D43 | 'High Depth Drop (above hip)' | bg=CC0000 fg=theme1
+N43 | 'Barbell Thrusters' | bg=FFD966 fg=theme1
+B44 | '40 cals' | bg=93C47D fg=theme1
+D44 | 'Hurdle Hops' | bg=CC0000 fg=theme1
+N44 | 'Single arm DB thruster' | bg=FFD966 fg=theme1

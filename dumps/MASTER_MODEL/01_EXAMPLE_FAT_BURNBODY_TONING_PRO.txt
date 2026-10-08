@@ -1,0 +1,373 @@
+SHEET: 'EXAMPLE FAT BURNBODY TONING PRO'
+DIMENSIONS: A1:AA1003  max_row=1003 max_col=27
+NON-EMPTY CELLS: 366
+MERGED (0): 
+DATA VALIDATIONS (dropdown sources):
+
+CELLS (row-major; coord | value | formatting):
+B4 | 'MUSCLE BUILDING' | bg=D9EAD3 bold fg=theme1
+B5 | 'WK 1' | bg=F4CCCC bold fg=theme1
+E5 | 'WK 2' | bg=F4CCCC bold fg=theme1
+H5 | 'WK 3' | bg=F4CCCC bold fg=theme1
+K5 | 'WK 4' | bg=F4CCCC bold fg=theme1
+B6 | 'SETS' | bg=C9DAF8 bold fg=theme1
+C6 | 'REPS' | bg=C9DAF8 bold fg=theme1
+D6 | 'EXERCISE' | bg=C9DAF8 bold fg=theme1
+E6 | 'SETS' | bg=C9DAF8 bold fg=theme1
+F6 | 'REPS' | bg=C9DAF8 bold fg=theme1
+G6 | 'WK2' | bg=C9DAF8 bold fg=theme1
+H6 | 'SETS' | bg=C9DAF8 bold fg=theme1
+I6 | 'REPS' | bg=C9DAF8 bold fg=theme1
+J6 | 'WK3' | bg=C9DAF8 bold fg=theme1
+K6 | 'SETS' | bg=C9DAF8 bold fg=theme1
+L6 | 'REPS' | bg=C9DAF8 bold fg=theme1
+M6 | 'WK4' | bg=C9DAF8 bold fg=theme1
+B7 | 3.0 | fg=theme1
+C7 | 15.0 | fg=theme1
+D7 | 'LEG PRESS' | fg=theme1
+E7 | 3.0 | fg=theme1
+F7 | 12.0 | fg=theme1
+G7 | 'DEAFLITS' | fg=theme1
+H7 | 4.0 | fg=theme1
+I7 | 12.0 | fg=theme1
+J7 | 'LEG PRESS' | fg=theme1
+K7 | 4.0 | fg=theme1
+L7 | 10.0 | fg=theme1
+M7 | 'DEADLIFTS' | fg=theme1
+A8 | 'MONDAY' | fg=theme1
+B8 | 3.0 | fg=theme1
+C8 | 12.0 | fg=theme1
+D8 | 'DEALIFTS' | fg=theme1
+E8 | 3.0 | fg=theme1
+F8 | 15.0 | fg=theme1
+G8 | 'SQUATS SMITH MACHINE' | fg=theme1
+H8 | 3.0 | fg=theme1
+I8 | 10.0 | fg=theme1
+J8 | 'DEADLIFTS' | fg=theme1
+K8 | 4.0 | fg=theme1
+L8 | 12.0 | fg=theme1
+M8 | 'SQUATS SMITH MACHINE' | fg=theme1
+B9 | 3.0 | fg=theme1
+C9 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+D9 | 'WALKING LUNGES' | fg=theme1
+E9 | 3.0 | fg=theme1
+F9 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+G9 | 'STATIONARY LUNGES' | fg=theme1
+H9 | 3.0 | fg=theme1
+I9 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+J9 | 'FRONT FOOT ELEVATED LUNGES' | fg=theme1
+K9 | 3.0 | fg=theme1
+L9 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+M9 | 'REAR FOOT ELEVATED LUNGES' | fg=theme1
+B10 | 2.0 | fg=theme1
+C10 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+D10 | 'SL RDL' | fg=theme1
+E10 | 2.0 | fg=theme1
+F10 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+G10 | 'SL RDL' | fg=theme1
+H10 | 3.0 | fg=theme1
+I10 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+J10 | 'SL RDL' | fg=theme1
+K10 | 3.0 | fg=theme1
+L10 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+M10 | 'SL RDL' | fg=theme1
+B11 | 4.0 | fg=theme1
+C11 | 15.0 | fg=theme1
+D11 | 'LEG EXTENSIONS' | fg=theme1
+E11 | 3.0 | fg=theme1
+F11 | 20.0 | fg=theme1
+G11 | 'LEG CURLS' | fg=theme1
+H11 | 2.0 | fg=theme1
+I11 | 40.0 | fg=theme1
+J11 | 'LEG EXTENSIONS' | fg=theme1
+K11 | 3.0 | fg=theme1
+L11 | 40.0 | fg=theme1
+M11 | 'LEG CURLS' | fg=theme1
+B12 | 4.0 | fg=theme1
+C12 | 10.0 | fg=theme1
+D12 | 'BARBELL BENCH PRESS' | fg=theme1
+E12 | 3.0 | fg=theme1
+F12 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+G12 | 'SINGLE ARM LAT PULL DOWN' | fg=theme1
+H12 | 4.0 | fg=theme1
+I12 | 8.0 | fg=theme1
+J12 | 'BARBELL BENCH PRESS' | fg=theme1
+K12 | 4.0 | fg=theme1
+L12 | 8.0 | fg=theme1
+M12 | 'LAT PULL DOWN/PULL UP' | fg=theme1
+B13 | 3.0 | fg=theme1
+C13 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+D13 | 'SINGLE ARM LAT PULL DOWN' | fg=theme1
+E13 | 4.0 | fg=theme1
+F13 | 10.0 | fg=theme1
+G13 | 'DB BENCH PRESS' | fg=theme1
+H13 | 4.0 | fg=theme1
+I13 | 10.0 | fg=theme1
+J13 | 'LAT PULL DOWN/PULL UP' | fg=theme1
+K13 | 4.0 | fg=theme1
+L13 | 8.0 | fg=theme1
+M13 | 'INCLINE DB BENCH PRESS' | fg=theme1
+A14 | 'TUESDAY' | fg=theme1
+B14 | 3.0 | fg=theme1
+C14 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+D14 | 'DB OVERHEAD PRESS' | fg=theme1
+E14 | 4.0 | fg=theme1
+F14 | 10.0 | fg=theme1
+G14 | 'MACHINE SUPPORTED ROW' | fg=theme1
+H14 | 3.0 | fg=theme1
+I14 | 12.0 | fg=theme1
+J14 | 'UPRIGHT ROWS' | fg=theme1
+K14 | 4.0 | fg=theme1
+L14 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+M14 | 'DB ROWS' | fg=theme1
+B15 | 3.0 | fg=theme1
+C15 | 10.0 | fg=theme1
+D15 | 'MACHINE SUPPORTED ROW' | fg=theme1
+E15 | 3.0 | fg=theme1
+F15 | 12.0 | fg=theme1
+G15 | 'UPRIGHT ROWS' | fg=theme1
+H15 | 3.0 | fg=theme1
+I15 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+J15 | 'DB ROWS' | fg=theme1
+K15 | 3.0 | fg=theme1
+L15 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+M15 | 'OVERHEAD PRESS' | fg=theme1
+B16 | 2.0 | fg=theme1
+C16 | 30.0 | fg=theme1
+D16 | 'DB CURLS' | fg=theme1
+E16 | 2.0 | fg=theme1
+F16 | 30.0 | fg=theme1
+G16 | 'ROPE TRICEP EXTENSIONS' | fg=theme1
+H16 | 3.0 | fg=theme1
+I16 | 30.0 | fg=theme1
+J16 | 'DB HAMMER CURLS' | fg=theme1
+K16 | 3.0 | fg=theme1
+L16 | 40.0 | fg=theme1
+M16 | 'TRICEP KICKBACKS' | fg=theme1
+D17 | '30-40 mi slow/steady CARDIO' | bg=D9D2E9 fg=theme1
+G17 | '30-40 mi slow/steady CARDIO' | bg=D9D2E9 fg=theme1
+J17 | '30-40 mi slow/steady CARDIO' | bg=D9D2E9 fg=theme1
+M17 | '30-40 mi slow/steady CARDIO' | bg=D9D2E9 fg=theme1
+A18 | 'WEDNESDAY' | bg=D9D2E9 fg=theme1
+B20 | 3.0 | fg=theme1
+C20 | 15.0 | fg=theme1
+D20 | 'DEAFLITS' | fg=theme1
+E20 | 3.0 | fg=theme1
+F20 | 12.0 | fg=theme1
+G20 | 'LEG PRESS' | fg=theme1
+H20 | 4.0 | fg=theme1
+I20 | 12.0 | fg=theme1
+J20 | 'DEADLIFTS' | fg=theme1
+K20 | 4.0 | fg=theme1
+L20 | 10.0 | fg=theme1
+M20 | 'LEG PRESS' | fg=theme1
+B21 | 3.0 | fg=theme1
+C21 | 12.0 | fg=theme1
+D21 | 'SQUATS SMITH MACHINE' | fg=theme1
+E21 | 3.0 | fg=theme1
+F21 | 15.0 | fg=theme1
+G21 | 'DEALIFTS' | fg=theme1
+H21 | 3.0 | fg=theme1
+I21 | 10.0 | fg=theme1
+J21 | 'SQUATS SMITH MACHINE' | fg=theme1
+K21 | 4.0 | fg=theme1
+L21 | 12.0 | fg=theme1
+M21 | 'DEADLIFTS' | fg=theme1
+A22 | 'THURSDAY' | fg=theme1
+B22 | 3.0 | fg=theme1
+C22 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+D22 | 'STATIONARY LUNGES' | fg=theme1
+E22 | 3.0 | fg=theme1
+F22 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+G22 | 'WALKING LUNGES' | fg=theme1
+H22 | 3.0 | fg=theme1
+I22 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+J22 | 'REAR FOOT ELEVATED LUNGES' | fg=theme1
+K22 | 3.0 | fg=theme1
+L22 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+M22 | 'FRONT FOOT ELEVATED LUNGES' | fg=theme1
+B23 | 2.0 | fg=theme1
+C23 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+D23 | 'SL RDL' | fg=theme1
+E23 | 2.0 | fg=theme1
+F23 | datetime.datetime(2023, 10, 10, 0, 0) | fg=theme1
+G23 | 'SL RDL' | fg=theme1
+H23 | 3.0 | fg=theme1
+I23 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+J23 | 'SL RDL' | fg=theme1
+K23 | 3.0 | fg=theme1
+L23 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+M23 | 'SL RDL' | fg=theme1
+B24 | 4.0 | fg=theme1
+C24 | 15.0 | fg=theme1
+D24 | 'LEG CURLS' | fg=theme1
+E24 | 3.0 | fg=theme1
+F24 | 20.0 | fg=theme1
+G24 | 'LEG EXTENSIONS' | fg=theme1
+H24 | 2.0 | fg=theme1
+I24 | 40.0 | fg=theme1
+J24 | 'LEG CURLS' | fg=theme1
+K24 | 3.0 | fg=theme1
+L24 | 40.0 | fg=theme1
+M24 | 'LEG EXTENSIONS' | fg=theme1
+B25 | 4.0 | fg=theme1
+C25 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+D25 | 'SINGLE ARM LAT PULL DOWN' | fg=theme1
+E25 | 3.0 | fg=theme1
+F25 | 12.0 | fg=theme1
+G25 | 'BARBELL BENCH PRESS' | fg=theme1
+H25 | 4.0 | fg=theme1
+I25 | 10.0 | fg=theme1
+J25 | 'LAT PULL DOWN/PULL UP' | fg=theme1
+K25 | 4.0 | fg=theme1
+L25 | 8.0 | fg=theme1
+M25 | 'INCLINE BARBELL BENCH PRESS' | fg=theme1
+B26 | 3.0 | fg=theme1
+C26 | 12.0 | fg=theme1
+D26 | 'DB BENCH PRESS' | fg=theme1
+E26 | 4.0 | fg=theme1
+F26 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+G26 | 'SINGLE ARM LAT PULL DOWN' | fg=theme1
+H26 | 4.0 | fg=theme1
+I26 | 10.0 | fg=theme1
+J26 | 'INCLINE DB BENCH PRESS' | fg=theme1
+K26 | 4.0 | fg=theme1
+L26 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+M26 | 'SINGLE ARM LAT PULL DOWN' | fg=theme1
+A27 | 'FRIDAY' | fg=theme1
+B27 | 3.0 | fg=theme1
+C27 | 12.0 | fg=theme1
+D27 | 'MACHINE SUPPORTED ROW' | fg=theme1
+E27 | 4.0 | fg=theme1
+F27 | 15.0 | fg=theme1
+G27 | 'SIDE RAISES' | fg=theme1
+H27 | 3.0 | fg=theme1
+I27 | datetime.datetime(2023, 12, 12, 0, 0) | fg=theme1
+J27 | 'DB ROWS' | fg=theme1
+K27 | 4.0 | fg=theme1
+L27 | 20.0 | fg=theme1
+M27 | 'SIDE RAISES' | fg=theme1
+B28 | 3.0 | fg=theme1
+C28 | 15.0 | fg=theme1
+D28 | 'SIDE RAISES' | fg=theme1
+E28 | 3.0 | fg=theme1
+F28 | 12.0 | fg=theme1
+G28 | 'MACHINE SUPPORTED ROW' | fg=theme1
+H28 | 3.0 | fg=theme1
+I28 | 20.0 | fg=theme1
+J28 | 'SIDE RAISES' | fg=theme1
+K28 | 3.0 | fg=theme1
+L28 | datetime.datetime(2023, 8, 8, 0, 0) | fg=theme1
+M28 | 'DB ROWS' | fg=theme1
+B29 | 2.0 | fg=theme1
+C29 | 30.0 | fg=theme1
+D29 | 'ROPE TRICEP EXTENSIONS' | fg=theme1
+E29 | 2.0 | fg=theme1
+F29 | 30.0 | fg=theme1
+G29 | 'DB CURLS' | fg=theme1
+H29 | 3.0 | fg=theme1
+I29 | 30.0 | fg=theme1
+J29 | 'TRICEP KICKBACKS' | fg=theme1
+K29 | 3.0 | fg=theme1
+L29 | 40.0 | fg=theme1
+M29 | 'DB HAMMER CURLS' | fg=theme1
+D30 | '30-40 mi slow/steady CARDIO' | bg=D9D2E9 fg=theme1
+G30 | '30-40 mi slow/steady CARDIO' | bg=D9D2E9 fg=theme1
+J30 | '30-40 mi slow/steady CARDIO' | bg=D9D2E9 fg=theme1
+M30 | '30-40 mi slow/steady CARDIO' | bg=D9D2E9 fg=theme1
+A31 | 'SATURDAY' | bg=D9D2E9 fg=theme1
+B36 | 'CIRCUITS RECCOMENDED' | bg=D9EAD3 bold fg=theme1
+B37 | 'WK 1' | bg=F4CCCC bold fg=theme1
+E37 | 'WK 2' | bg=F4CCCC bold fg=theme1
+H37 | 'WK 3' | bg=F4CCCC bold fg=theme1
+K37 | 'WK 4' | bg=F4CCCC bold fg=theme1
+B38 | 'SETS' | bg=C9DAF8 bold fg=theme1
+C38 | 'REPS' | bg=C9DAF8 bold fg=theme1
+D38 | 'EXERCISE' | bg=C9DAF8 bold fg=theme1
+E38 | 'SETS' | bg=C9DAF8 bold fg=theme1
+F38 | 'REPS' | bg=C9DAF8 bold fg=theme1
+G38 | 'WK2' | bg=C9DAF8 bold fg=theme1
+H38 | 'SETS' | bg=C9DAF8 bold fg=theme1
+I38 | 'REPS' | bg=C9DAF8 bold fg=theme1
+J38 | 'WK3' | bg=C9DAF8 bold fg=theme1
+K38 | 'SETS' | bg=C9DAF8 bold fg=theme1
+L38 | 'REPS' | bg=C9DAF8 bold fg=theme1
+M38 | 'WK4' | bg=C9DAF8 bold fg=theme1
+B39 | 3.0 | fg=theme1
+C39 | '30 secs' | fg=theme1
+D39 | 'Jumping Jacks' | fg=theme1
+H39 | 4.0 | fg=theme1
+I39 | '40 secs' | fg=theme1
+J39 | 'Jumping Jacks' | fg=theme1
+A40 | 'MONDAY' | fg=theme1
+C40 | '30 secs' | fg=theme1
+D40 | 'Bodyweight reverse lunges' | fg=theme1
+I40 | '40 secs' | fg=theme1
+J40 | 'Bodyweight reverse lunges' | fg=theme1
+C41 | '30 secs' | fg=theme1
+D41 | 'Situps' | fg=theme1
+I41 | '40 secs' | fg=theme1
+J41 | 'Situps' | fg=theme1
+C42 | '30 secs' | fg=theme1
+D42 | 'Dumbbell overhead press' | fg=theme1
+I42 | '40 secs' | fg=theme1
+J42 | 'Dumbbell overhead press' | fg=theme1
+E44 | 4.0 | fg=theme1
+F44 | '35 secs' | fg=theme1
+G44 | 'Pushups' | fg=theme1
+K44 | 5.0 | fg=theme1
+L44 | '50 secs' | fg=theme1
+M44 | 'Pushups' | fg=theme1
+F45 | '35 secs' | fg=theme1
+G45 | 'Dumbbell hammer curls' | fg=theme1
+L45 | '50 secs' | fg=theme1
+M45 | 'Dumbbell hammer curls' | fg=theme1
+A46 | 'TUESDAY' | fg=theme1
+F46 | '35 secs' | fg=theme1
+G46 | 'Side plank' | fg=theme1
+L46 | '50 secs' | fg=theme1
+M46 | 'Side plank' | fg=theme1
+F47 | '35 secs' | fg=theme1
+G47 | 'Other side plank' | fg=theme1
+L47 | '50 secs' | fg=theme1
+M47 | 'Other side plank' | fg=theme1
+A50 | 'WEDNESDAY' | bg=D9D2E9 fg=theme1
+E52 | 4.0 | fg=theme1
+F52 | '35 secs' | fg=theme1
+G52 | 'Mountain climbers' | fg=theme1
+K52 | 5.0 | fg=theme1
+L52 | '50 secs' | fg=theme1
+M52 | 'Mointain climbers' | fg=theme1
+F53 | '35 secs' | fg=theme1
+G53 | 'Bodyweight forward lunges' | fg=theme1
+L53 | '50 secs' | fg=theme1
+M53 | 'Bodyweight forward lunges' | fg=theme1
+A54 | 'THURSDAY' | fg=theme1
+F54 | '35 secs' | fg=theme1
+G54 | 'Plank Hip turns' | fg=theme1
+L54 | '50 secs' | fg=theme1
+M54 | 'Plank Hip turns' | fg=theme1
+F55 | '35 secs' | fg=theme1
+G55 | 'Bodyweight squats' | fg=theme1
+L55 | '50 secs' | fg=theme1
+M55 | 'Bodyweight squats' | fg=theme1
+B57 | 3.0 | fg=theme1
+C57 | '30 secs' | fg=theme1
+D57 | 'Plank shoulder taps' | fg=theme1
+H57 | 4.0 | fg=theme1
+I57 | '40 secs' | fg=theme1
+J57 | 'Plank shoulder taps' | fg=theme1
+C58 | '30 secs' | fg=theme1
+D58 | 'Dumbbell curl to press' | fg=theme1
+I58 | '40 secs' | fg=theme1
+J58 | 'Dumbbell curl to press' | fg=theme1
+A59 | 'FRIDAY' | fg=theme1
+C59 | '30 secs' | fg=theme1
+D59 | 'Bicycle crunches' | fg=theme1
+I59 | '40 secs' | fg=theme1
+J59 | 'Bicycle crunches' | fg=theme1
+C60 | '30 secs' | fg=theme1
+D60 | 'Burpees' | fg=theme1
+I60 | '40 secs' | fg=theme1
+J60 | 'Burpees' | fg=theme1
+A63 | 'SATURDAY' | bg=D9D2E9 fg=theme1

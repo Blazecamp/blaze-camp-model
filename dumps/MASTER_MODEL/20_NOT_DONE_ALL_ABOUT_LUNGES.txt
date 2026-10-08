@@ -1,0 +1,40 @@
+SHEET: '(NOT DONE) ALL ABOUT LUNGES'
+DIMENSIONS: A1:AA33  max_row=33 max_col=27
+NON-EMPTY CELLS: 33
+MERGED (0): 
+DATA VALIDATIONS (dropdown sources):
+
+CELLS (row-major; coord | value | formatting):
+A1 | 'UNDER CONSTRUCTION' | bg=FFFF00 bold fg=theme1
+A3 | '*LUNGES are a UNILATERAL KNEE DOMINANT MOVEMENT' | fg=theme1
+A4 | "**Just because they are knee dominant, it doesn't mean that they don't affect the hips... We can bias different foot placement for hip adaptations as much as foot adaptations" | fg=theme1
+A6 | 'BUILDING THOUGHTS....' | fg=theme1
+A8 | 'Lunges are a propulsive strategy ' | fg=theme1
+A9 | 'Lunges can be great for targetting prime movers along with frontal/transverse musculature' | fg=theme1
+A10 | 'Lunges are great for relative movement at the hips' | fg=theme1
+A11 | 'Lunges are great for strengthening athletic patterns ' | fg=theme1
+A12 | 'Lunges are great for finding/gaining/regaining ROM' | bg=theme0 fg=theme1
+A13 | 'Lunges are great potentiators of the squat patterns' | bg=theme0 fg=theme1
+A16 | 'THIS IS NOT PERFECT, BUT IT HELPS UNDERSTAND' | fg=theme1
+A17 | 'Stance loads the FRONT TO BACK' | fg=theme1
+A18 | 'Load position loads UP/DOWN & SIDE2SIDE' | fg=theme1
+A19 | 'Movement orientations/guidance loads AROUND' | fg=theme1
+C21 | 'LOADING' | fg=theme1
+E21 | 'PROPULSION' | fg=theme1
+A22 | 'Front/back' | fg=theme1
+C22 | 'Contralateral Suitcase' | fg=theme1
+E22 | 'FFE' | fg=theme1
+A23 | 'Lateral' | fg=theme1
+C23 | 'Ipsilateral Suitcase' | fg=theme1
+E23 | 'FLOOR' | fg=theme1
+C24 | 'Duble suitcase' | fg=theme1
+E24 | 'RFE' | fg=theme1
+C25 | 'Contralateral on shoulder' | fg=theme1
+C26 | 'Ipsilateral on shoulder' | fg=theme1
+C27 | 'Double handed on shoulders' | fg=theme1
+C28 | 'Contralateral High zercher' | fg=theme1
+C29 | 'Ipsilateral high zercher' | fg=theme1
+C30 | 'Double handed high zercher' | fg=theme1
+C31 | 'Zercher barbell' | fg=theme1
+C32 | 'Front racked barbell' | fg=theme1
+C33 | 'Back racked barbell' | fg=theme1

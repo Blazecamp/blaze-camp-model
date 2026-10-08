@@ -1,0 +1,208 @@
+SHEET: '(NOT DONE) ALL ABOUT BALLISTICS'
+DIMENSIONS: A1:Z89  max_row=89 max_col=26
+NON-EMPTY CELLS: 201
+MERGED (0): 
+DATA VALIDATIONS (dropdown sources):
+
+CELLS (row-major; coord | value | formatting):
+A1 | 'UNDER CONSTRUCTION' | bg=FFFF00 bold fg=theme1
+A2 | 'BALLISTICS & PLYOS' | bg=00FFFF bold fg=theme1
+A4 | 'DYNAMIC MEDBALL WARMUP DRILLS' | fg=theme1
+A5 | 'BILATERAL' | bg=D5A6BD fg=theme1
+B5 | 'KNEE DOMINANT BILATERAL' | bg=D5A6BD fg=theme1
+C5 | 'KNEE DOMINANT UNILATERAL' | bg=D5A6BD fg=theme1
+A6 | 'Medball Reach forward reverse lunge' | fg=theme1
+B6 | 'Medball front hold Squat' | fg=theme1
+C6 | 'Medball down over front leg FFE' | fg=theme1
+A7 | 'Medball Reach forward forward lunge' | fg=theme1
+B7 | 'Medball hug goblet squat' | fg=theme1
+C7 | 'Medball down over Front leg reverse lunge' | fg=theme1
+A8 | 'Medball Reach forward Lateral Cosak lunge' | fg=theme1
+C8 | 'Medball down over front leg forward lunge' | fg=theme1
+A9 | 'Medball Reach UP reverse lunge' | fg=theme1
+C9 | 'Medball down over front leg stationay lunge' | fg=theme1
+A10 | 'Medball Reach UP forward lunge' | fg=theme1
+C10 | 'Medball down over front leg RFE' | fg=theme1
+A11 | 'Medball Reach UP Lateral Cosak lunge' | fg=theme1
+C11 | '*Same lunge variations but medball hug' | fg=theme1
+A12 | 'Medball Toe Touches' | fg=theme1
+C12 | '*Same lunge variations but medball forward' | fg=theme1
+A13 | 'Medball Toe touch to overhead ' | fg=theme1
+C13 | '*Same lunge variation but medball up' | fg=theme1
+A14 | 'Medball ground to overhead' | fg=theme1
+A15 | 'Medball revere lunge down & back cross reach' | fg=theme1
+A16 | 'Medball forward lunge down and back cross reach' | fg=theme1
+A17 | 'Medball reverse lunge cross turn' | fg=theme1
+A18 | 'Medball forward lunge cross turn' | fg=theme1
+C21 | '**PULSING/REP BOUNCING IS FOR TRANSITIONAL OR AMMORTIZATION PHASE' | bg=93C47D bold fg=theme1
+A22 | 'BALLISTIC PURPOSE - BE EXPLOSIVELY & FAST' | bg=EA9999 bold fg=theme1
+D22 | 'PLYOMETRIC PURPOSE - BE REACTIVE & BOUNCY' | bg=D5A6BD bold fg=theme1
+A23 | '*I USE THESE FOR MUSCULAR FORCE PRODUCTION' | fg=theme1
+D23 | '*I USE THESE FOR REACTIVE CONNECTIVE TISSUE ADAPTATIONS' | fg=theme1
+A24 | 'TAKING IN FORCES' | bg=F9CB9C fg=theme1
+B24 | 'DELIVER FORCES FAST' | bg=F9CB9C fg=theme1
+C24 | 'AMORTIZATION OF FORCES' | bg=F9CB9C fg=theme1
+D24 | 'REBOUNDING ' | bg=F9CB9C fg=theme1
+A26 | 'STICK THE LANDING BILATERAL ' | fg=theme1
+B26 | 'BILATERAL HOP ON TO' | fg=theme1
+C26 | 'DOUBLE BOUNCE BILATERAL' | fg=theme1
+D26 | 'BILATERAL REPEAT HOPS' | fg=theme1
+A28 | 'STICK THE LANDING UNILATERAL' | fg=theme1
+B28 | 'BILATERAL JUMP ON TO' | fg=theme1
+C28 | 'DOUBLE BOUNCE UNILATERAL' | fg=theme1
+D28 | 'UNILATERAL REPEAT HOPS' | fg=theme1
+A30 | 'WEIGHTED STICK THE LANDING BILATERAL' | fg=theme1
+B30 | 'UNILATERAL HOP ON TO' | fg=theme1
+C30 | 'DROP & DOUBLE BOUNCE BILATERAL' | fg=theme1
+D30 | 'BILATERAL REPEAT JUMPS' | fg=theme1
+A32 | 'WEIGHTED STICK THE LANDING UNILATERAL' | fg=theme1
+B32 | 'BILATERAL HOP ON TO' | fg=theme1
+C32 | 'DROP & DOUBLE BOUNCE UNILATERAL' | fg=theme1
+D32 | 'UNILATERAL REPEAT JUMPS' | fg=theme1
+C34 | 'DROP BILATERAL & HOP' | fg=theme1
+D34 | 'BILATERAL REVERSE BANDED HOPS' | fg=theme1
+C36 | 'DROP BILATERAL AND JUMP' | fg=theme1
+D36 | 'UNILATERAL REVERSE BANDED HOPS' | fg=theme1
+C38 | 'BILATERAL DROP WEIGHTED, DELOAD WEIGHT & HOP' | fg=theme1
+D38 | 'BILATERAL REVERSE BANDED JUMPS' | fg=theme1
+C40 | 'BILATERAL DROP WEIGHTED, DELOAD WEIGHT & JUMP' | fg=theme1
+D40 | 'UNILATERAL REVERSE BANDED JUMPS' | fg=theme1
+C42 | 'UNILATERAL DROP WEIGHTED, DELOAD WEIGHT & HOP' | fg=theme1
+C44 | 'UNILATERAL DROP WEIGHTED, DELOAD WEIGHT & JUMP' | fg=theme1
+C46 | 'FAKE MEDBALL SLAM & RETURN ANY WAY POSSIBLE' | fg=theme1
+A51 | 'MEDBALL CHEAT SHEET' | bg=00FFFF bold fg=theme1
+D51 | 'DESCRIPTION' | bg=E6B8AF bold fg=theme1
+A52 | 'SETS' | bg=D5A6BD bold fg=theme1
+B52 | 'REPS' | bg=D5A6BD bold fg=theme1
+C52 | 'EXERCISE' | bg=D5A6BD bold fg=theme1
+A53 | 1.0 | fg=theme1
+B53 | 10.0 | fg=theme1
+C53 | 'Chest pass' | fg=theme1
+D53 | 'BILATERAL SYMETRICAL PUSH' | fg=theme1
+A54 | 1.0 | fg=theme1
+B54 | 10.0 | fg=theme1
+C54 | 'Overhead throw' | fg=theme1
+D54 | 'BILATERAL SYMETRICAL PULL DOWN' | fg=theme1
+A55 | 1.0 | fg=theme1
+B55 | 10.0 | fg=theme1
+C55 | 'Rotational Chest pass R' | fg=theme1
+D55 | 'CORE THORAX ' | fg=theme1
+A56 | 1.0 | fg=theme1
+B56 | 10.0 | fg=theme1
+C56 | 'Rotational Chest pass L' | fg=theme1
+D56 | 'CORE THORAX ' | fg=theme1
+A57 | 1.0 | fg=theme1
+B57 | 10.0 | fg=theme1
+C57 | 'Rotational Scoop R' | fg=theme1
+D57 | 'CORE THORAX ' | fg=theme1
+A58 | 1.0 | fg=theme1
+B58 | 10.0 | fg=theme1
+C58 | 'Rotational Scoop L' | fg=theme1
+D58 | 'CORE THORAX ' | fg=theme1
+A59 | 1.0 | fg=theme1
+B59 | 10.0 | fg=theme1
+C59 | 'Squat to Chest Pass' | fg=theme1
+D59 | 'BILATERAL SYMETRICAL KNEE DOMINANT & PUSH' | fg=theme1
+A60 | 1.0 | fg=theme1
+B60 | 10.0 | fg=theme1
+C60 | 'Rotational Floor side to side slams' | fg=theme1
+D60 | 'TRANSVERSE PULL DOWN' | fg=theme1
+A61 | 1.0 | fg=theme1
+B61 | 10.0 | fg=theme1
+C61 | 'RIGHT LEG step forward Chest Pass' | fg=theme1
+D61 | 'PROPULSIVE STEP WITH BILATERAL SYMETRICAL PUSH' | fg=theme1
+A62 | 1.0 | fg=theme1
+B62 | 10.0 | fg=theme1
+C62 | 'LEFT LEG step forward Chest pass' | fg=theme1
+D62 | 'PROPULSIVE STEP WITH BILATERAL SYMETRICAL PUSH' | fg=theme1
+A63 | 1.0 | fg=theme1
+B63 | 10.0 | fg=theme1
+C63 | 'RIGHT LEG step forward overhead throw' | fg=theme1
+D63 | 'PROPULSIVE STEP WITH BILATERAL SYMETRICAL PULL DOWN' | fg=theme1
+A64 | 1.0 | fg=theme1
+B64 | 10.0 | fg=theme1
+C64 | 'LEFT LEG step forward overhead throw' | fg=theme1
+D64 | 'PROPULSIVE STEP WITH BILATERAL SYMETRICAL PULL DOWN' | fg=theme1
+A65 | 1.0 | fg=theme1
+B65 | 10.0 | fg=theme1
+C65 | 'Half kneeling Right Facing LEFT LEG UP rotational scoop' | fg=theme1
+D65 | 'INTO THE LEFT LEG/HIP' | fg=theme1
+A66 | 1.0 | fg=theme1
+B66 | 10.0 | fg=theme1
+C66 | 'Half kneeling Right Facing RIGHT LEG FORWARD rotational scoop' | fg=theme1
+D66 | 'OUT OF THE RIGHT LEG/HIP' | fg=theme1
+A67 | 1.0 | fg=theme1
+B67 | 10.0 | fg=theme1
+C67 | 'Half kneeling LEFT Facing LEFT LEG UP rotational scoop' | fg=theme1
+D67 | 'OUT OF THE LEFT LEG/HIP' | fg=theme1
+A68 | 1.0 | fg=theme1
+B68 | 10.0 | fg=theme1
+C68 | 'Half kneeling LEFT Facing RIGHT LEG FORWARD rotational scoop' | fg=theme1
+D68 | 'INTO THE RIGHT LEG/HIP' | fg=theme1
+A69 | 1.0 | fg=theme1
+B69 | 10.0 | fg=theme1
+C69 | 'Alternating Back to wall Rotational Scoops' | fg=theme1
+D69 | 'TRANSVERSE CORE THORAX' | fg=theme1
+A70 | 1.0 | fg=theme1
+B70 | 20.0 | fg=theme1
+C70 | 'Situps to chest pass' | fg=theme1
+D70 | 'BILATERAL CORE THORAX' | fg=theme1
+A71 | 1.0 | fg=theme1
+B71 | 20.0 | fg=theme1
+C71 | 'Situps to overhead throw' | fg=theme1
+D71 | 'BILATERAL CORE THORAX' | fg=theme1
+C72 | 'SPECIALTIES' | bg=EA9999 fg=theme1
+A73 | 1.0 | fg=theme1
+B73 | 10.0 | fg=theme1
+C73 | 'Lateral V throw down' | fg=theme1
+D73 | 'FRONTAL PULL DOWN' | fg=theme1
+A74 | 1.0 | fg=theme1
+B74 | 10.0 | fg=theme1
+C74 | 'F/B Staggered stance medball cross throw down & back' | fg=theme1
+D74 | 'TRANSVERSE INTO THE HIP' | fg=theme1
+A75 | 1.0 | fg=theme1
+B75 | 10.0 | fg=theme1
+C75 | 'F/B Staggered stance medball cross throw down' | fg=theme1
+D75 | 'TRANSVERSE INTO THE HIP' | fg=theme1
+A76 | 1.0 | fg=theme1
+B76 | 10.0 | fg=theme1
+C76 | 'Reverse lunge inside floor slam' | fg=theme1
+D76 | 'UNILATERAL OUT OF HIP' | fg=theme1
+A77 | 1.0 | fg=theme1
+B77 | 10.0 | fg=theme1
+C77 | 'Bent over medball floor slam' | fg=theme1
+D77 | 'HIP DOMINANT PUSH' | fg=theme1
+A78 | 1.0 | fg=theme1
+B78 | 10.0 | fg=theme1
+C78 | 'Rotational split stance floor slam' | fg=theme1
+A79 | 1.0 | fg=theme1
+B79 | 10.0 | fg=theme1
+C79 | 'Back lunge contra load into march contra scoop' | fg=theme1
+A80 | 1.0 | fg=theme1
+B80 | 10.0 | fg=theme1
+C80 | 'Side to side shuffle floor slam (height matters)' | fg=theme1
+A81 | 1.0 | fg=theme1
+B81 | 10.0 | fg=theme1
+C81 | 'Lateral stance floor chop throw' | fg=theme1
+C82 | 'CORE EXTRAS' | bg=EA9999 fg=theme1
+A83 | 1.0 | fg=theme1
+B83 | 10.0 | fg=theme1
+C83 | 'Medball Ab rolls' | fg=theme1
+A84 | 1.0 | fg=theme1
+B84 | 10.0 | fg=theme1
+C84 | 'Medball v ups' | fg=theme1
+A85 | 1.0 | fg=theme1
+B85 | 10.0 | fg=theme1
+C85 | 'medball v up switches' | fg=theme1
+A86 | 1.0 | fg=theme1
+B86 | 10.0 | fg=theme1
+C86 | 'Medball plank rockers' | fg=theme1
+A87 | 1.0 | fg=theme1
+B87 | 10.0 | fg=theme1
+C87 | 'Medball hanging knees to chest' | fg=theme1
+A88 | 1.0 | fg=theme1
+B88 | 10.0 | fg=theme1
+C88 | 'Medball hanging toes to bar' | fg=theme1
+A89 | 1.0 | fg=theme1
+B89 | 10.0 | fg=theme1
+C89 | 'Medball hanging cross toes to bar' | fg=theme1

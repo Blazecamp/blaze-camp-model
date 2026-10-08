@@ -1,0 +1,1047 @@
+[
+ {
+  "program": "BYOP AESTHETICS - FULL BODY - 4 DAYS (assumed_convention_plus_optional)",
+  "tot": 102.0,
+  "ath_incl": 0.0,
+  "ath_excl": 0.0,
+  "rp": 51.0,
+  "iso": 31.4,
+  "core": 5.9,
+  "focus": 11.8,
+  "mix": {},
+  "bi": 12.0,
+  "uni": 12.0,
+  "unipct": 50.0,
+  "knee_hip": [
+   16.0,
+   16.0
+  ],
+  "push_pull": [
+   16.0,
+   12.0
+  ],
+  "rp_iso": 1.62,
+  "rp_sets": 52.0,
+  "iso_sets": 32.0,
+  "core_sets": 6.0,
+  "ath_sets": 0.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "BYOP 3 DAY BUILDER (assumed_convention_plus_optional)",
+  "tot": 80.0,
+  "ath_incl": 0.0,
+  "ath_excl": 0.0,
+  "rp": 48.8,
+  "iso": 17.5,
+  "core": 11.2,
+  "focus": 22.5,
+  "mix": {},
+  "bi": 12.0,
+  "uni": 9.0,
+  "unipct": 42.9,
+  "knee_hip": [
+   12.0,
+   11.0
+  ],
+  "push_pull": [
+   9.0,
+   9.0
+  ],
+  "rp_iso": 2.79,
+  "rp_sets": 39.0,
+  "iso_sets": 14.0,
+  "core_sets": 9.0,
+  "ath_sets": 0.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "BYOP PUSHPULLLEGS - 3 or 6 DAYS A WK @3 sets",
+  "tot": 126.0,
+  "ath_incl": 0.0,
+  "ath_excl": 0.0,
+  "rp": 52.4,
+  "iso": 42.9,
+  "core": 0.0,
+  "focus": 4.8,
+  "mix": {},
+  "bi": 12.0,
+  "uni": 12.0,
+  "unipct": 50.0,
+  "knee_hip": [
+   18.0,
+   18.0
+  ],
+  "push_pull": [
+   24.0,
+   18.0
+  ],
+  "rp_iso": 1.22,
+  "rp_sets": 66.0,
+  "iso_sets": 54.0,
+  "core_sets": 0.0,
+  "ath_sets": 0.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "BYOP BOOTCAMP - OPTION 1 @3 sets",
+  "tot": 108.0,
+  "ath_incl": 0.0,
+  "ath_excl": 0.0,
+  "rp": 44.4,
+  "iso": 38.9,
+  "core": 5.6,
+  "focus": 11.1,
+  "mix": {},
+  "bi": 12.0,
+  "uni": 12.0,
+  "unipct": 50.0,
+  "knee_hip": [
+   18.0,
+   18.0
+  ],
+  "push_pull": [
+   12.0,
+   12.0
+  ],
+  "rp_iso": 1.14,
+  "rp_sets": 48.0,
+  "iso_sets": 42.0,
+  "core_sets": 6.0,
+  "ath_sets": 0.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "BYOP BOOTCAMP - OPTION 2 @3 sets",
+  "tot": 72.0,
+  "ath_incl": 0.0,
+  "ath_excl": 0.0,
+  "rp": 66.7,
+  "iso": 25.0,
+  "core": 8.3,
+  "focus": 0.0,
+  "mix": {},
+  "bi": 12.0,
+  "uni": 12.0,
+  "unipct": 50.0,
+  "knee_hip": [
+   12.0,
+   12.0
+  ],
+  "push_pull": [
+   12.0,
+   12.0
+  ],
+  "rp_iso": 2.67,
+  "rp_sets": 48.0,
+  "iso_sets": 18.0,
+  "core_sets": 6.0,
+  "ath_sets": 0.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "BYOP ATHLETIC - FULL BODY - 4 DAYS A @2 sets all 6 days",
+  "tot": 96.0,
+  "ath_incl": 37.5,
+  "ath_excl": 31.8,
+  "rp": 33.3,
+  "iso": 16.7,
+  "core": 4.2,
+  "focus": 8.3,
+  "mix": {
+   "PLYO": 12.0,
+   "THROW": 8.0,
+   "COD": 8.0,
+   "TRIPLE_EXT": 8.0
+  },
+  "bi": 8.0,
+  "uni": 8.0,
+  "unipct": 50.0,
+  "knee_hip": [
+   12.0,
+   12.0
+  ],
+  "push_pull": [
+   8.0,
+   8.0
+  ],
+  "rp_iso": 2.0,
+  "rp_sets": 32.0,
+  "iso_sets": 16.0,
+  "core_sets": 4.0,
+  "ath_sets": 36.0,
+  "throw_sets": 8.0
+ },
+ {
+  "program": "BYOP JUSTICE LEAGUE @2 sets all 6 days",
+  "tot": 96.0,
+  "ath_incl": 37.5,
+  "ath_excl": 31.8,
+  "rp": 33.3,
+  "iso": 16.7,
+  "core": 4.2,
+  "focus": 8.3,
+  "mix": {
+   "PLYO": 10.0,
+   "JUMP_LIMITED_KNEE": 2.0,
+   "THROW": 8.0,
+   "COD": 8.0,
+   "TRIPLE_EXT": 8.0
+  },
+  "bi": 8.0,
+  "uni": 8.0,
+  "unipct": 50.0,
+  "knee_hip": [
+   12.0,
+   12.0
+  ],
+  "push_pull": [
+   8.0,
+   8.0
+  ],
+  "rp_iso": 2.0,
+  "rp_sets": 32.0,
+  "iso_sets": 16.0,
+  "core_sets": 4.0,
+  "ath_sets": 36.0,
+  "throw_sets": 8.0
+ },
+ {
+  "program": "BYOP NO ACCESS - ATHLETIC - FB - 4 t @2 sets all 6 days",
+  "tot": 96.0,
+  "ath_incl": 37.5,
+  "ath_excl": 31.8,
+  "rp": 29.2,
+  "iso": 20.8,
+  "core": 4.2,
+  "focus": 8.3,
+  "mix": {
+   "PLYO": 12.0,
+   "THROW": 8.0,
+   "COD": 8.0,
+   "TRIPLE_EXT": 8.0
+  },
+  "bi": 8.0,
+  "uni": 4.0,
+  "unipct": 33.3,
+  "knee_hip": [
+   12.0,
+   12.0
+  ],
+  "push_pull": [
+   8.0,
+   8.0
+  ],
+  "rp_iso": 1.4,
+  "rp_sets": 28.0,
+  "iso_sets": 20.0,
+  "core_sets": 4.0,
+  "ath_sets": 36.0,
+  "throw_sets": 8.0
+ },
+ {
+  "program": "MM EXAMPLE UPPERLOWER SPLIT NOVICE ",
+  "tot": 88.0,
+  "ath_incl": 13.6,
+  "ath_excl": 13.6,
+  "rp": 45.5,
+  "iso": 40.9,
+  "core": 0.0,
+  "focus": 0.0,
+  "mix": {
+   "SPRINT": 12.0
+  },
+  "bi": 8.0,
+  "uni": 8.0,
+  "unipct": 50.0,
+  "knee_hip": [
+   12.0,
+   12.0
+  ],
+  "push_pull": [
+   12.0,
+   12.0
+  ],
+  "rp_iso": 1.11,
+  "rp_sets": 40.0,
+  "iso_sets": 36.0,
+  "core_sets": 0.0,
+  "ath_sets": 12.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "MM EXAMPLE UPPERLOWER SPLIT NEWBY ",
+  "tot": 108.0,
+  "ath_incl": 16.7,
+  "ath_excl": 16.7,
+  "rp": 44.4,
+  "iso": 38.9,
+  "core": 0.0,
+  "focus": 0.0,
+  "mix": {
+   "SPRINT": 18.0
+  },
+  "bi": 12.0,
+  "uni": 12.0,
+  "unipct": 50.0,
+  "knee_hip": [
+   18.0,
+   18.0
+  ],
+  "push_pull": [
+   12.0,
+   12.0
+  ],
+  "rp_iso": 1.14,
+  "rp_sets": 48.0,
+  "iso_sets": 42.0,
+  "core_sets": 0.0,
+  "ath_sets": 18.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "MM EXAMPLE UPPERLOWER SPLIT INTERMEDIATE ",
+  "tot": 118.0,
+  "ath_incl": 13.6,
+  "ath_excl": 13.6,
+  "rp": 50.8,
+  "iso": 35.6,
+  "core": 0.0,
+  "focus": 0.0,
+  "mix": {
+   "SPRINT": 16.0
+  },
+  "bi": 16.0,
+  "uni": 14.0,
+  "unipct": 46.7,
+  "knee_hip": [
+   22.0,
+   20.0
+  ],
+  "push_pull": [
+   16.0,
+   14.0
+  ],
+  "rp_iso": 1.43,
+  "rp_sets": 60.0,
+  "iso_sets": 42.0,
+  "core_sets": 0.0,
+  "ath_sets": 16.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "MM EXAMPLE PUSHPULLLEGS SPLIT NOVICE ",
+  "tot": 108.0,
+  "ath_incl": 11.1,
+  "ath_excl": 11.1,
+  "rp": 42.6,
+  "iso": 44.4,
+  "core": 1.9,
+  "focus": 0.0,
+  "mix": {
+   "SPRINT": 12.0
+  },
+  "bi": 8.0,
+  "uni": 8.0,
+  "unipct": 50.0,
+  "knee_hip": [
+   12.0,
+   12.0
+  ],
+  "push_pull": [
+   18.0,
+   12.0
+  ],
+  "rp_iso": 0.96,
+  "rp_sets": 46.0,
+  "iso_sets": 48.0,
+  "core_sets": 2.0,
+  "ath_sets": 12.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "MM EXAMPLE PUSHPULLLEGS SPLIT NEWBY ",
+  "tot": 136.0,
+  "ath_incl": 13.2,
+  "ath_excl": 13.2,
+  "rp": 44.1,
+  "iso": 41.2,
+  "core": 1.5,
+  "focus": 0.0,
+  "mix": {
+   "SPRINT": 18.0
+  },
+  "bi": 12.0,
+  "uni": 12.0,
+  "unipct": 50.0,
+  "knee_hip": [
+   18.0,
+   18.0
+  ],
+  "push_pull": [
+   20.0,
+   16.0
+  ],
+  "rp_iso": 1.07,
+  "rp_sets": 60.0,
+  "iso_sets": 56.0,
+  "core_sets": 2.0,
+  "ath_sets": 18.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "MM EXAMPLE PUSHPULLLEGS SPLIT INTERMEDIATE ",
+  "tot": 150.0,
+  "ath_incl": 10.7,
+  "ath_excl": 10.7,
+  "rp": 48.0,
+  "iso": 40.0,
+  "core": 1.3,
+  "focus": 0.0,
+  "mix": {
+   "SPRINT": 16.0
+  },
+  "bi": 16.0,
+  "uni": 14.0,
+  "unipct": 46.7,
+  "knee_hip": [
+   22.0,
+   20.0
+  ],
+  "push_pull": [
+   24.0,
+   18.0
+  ],
+  "rp_iso": 1.2,
+  "rp_sets": 72.0,
+  "iso_sets": 60.0,
+  "core_sets": 2.0,
+  "ath_sets": 16.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "MM MM_ATH_STARTING",
+  "tot": 108.0,
+  "ath_incl": 40.7,
+  "ath_excl": 28.1,
+  "rp": 26.9,
+  "iso": 13.9,
+  "core": 18.5,
+  "focus": 0.0,
+  "mix": {
+   "PLYO": 17.0,
+   "THROW": 19.0,
+   "SPRINT": 2.0,
+   "TRIPLE_EXT": 6.0
+  },
+  "bi": 9.0,
+  "uni": 11.0,
+  "unipct": 55.0,
+  "knee_hip": [
+   11.0,
+   18.0
+  ],
+  "push_pull": [
+   3.0,
+   6.0
+  ],
+  "rp_iso": 1.93,
+  "rp_sets": 29.0,
+  "iso_sets": 15.0,
+  "core_sets": 20.0,
+  "ath_sets": 44.0,
+  "throw_sets": 19.0
+ },
+ {
+  "program": "MM MM_ATH_MID",
+  "tot": 112.0,
+  "ath_incl": 48.2,
+  "ath_excl": 19.4,
+  "rp": 25.0,
+  "iso": 14.3,
+  "core": 12.5,
+  "focus": 0.0,
+  "mix": {
+   "PLYO": 10.0,
+   "THROW": 40.0,
+   "TRIPLE_EXT": 4.0
+  },
+  "bi": 4.0,
+  "uni": 12.0,
+  "unipct": 75.0,
+  "knee_hip": [
+   9.0,
+   11.0
+  ],
+  "push_pull": [
+   6.0,
+   6.0
+  ],
+  "rp_iso": 1.75,
+  "rp_sets": 28.0,
+  "iso_sets": 16.0,
+  "core_sets": 14.0,
+  "ath_sets": 54.0,
+  "throw_sets": 40.0
+ },
+ {
+  "program": "MM MM_ATH_ADVANCED",
+  "tot": 97.0,
+  "ath_incl": 48.5,
+  "ath_excl": 15.3,
+  "rp": 14.4,
+  "iso": 10.3,
+  "core": 26.8,
+  "focus": 0.0,
+  "mix": {
+   "PLYO": 3.0,
+   "JUMP_LIMITED_KNEE": 2.0,
+   "THROW": 38.0,
+   "TRIPLE_EXT": 4.0
+  },
+  "bi": 5.0,
+  "uni": 5.0,
+  "unipct": 50.0,
+  "knee_hip": [
+   5.0,
+   7.0
+  ],
+  "push_pull": [
+   2.0,
+   2.0
+  ],
+  "rp_iso": 1.4,
+  "rp_sets": 14.0,
+  "iso_sets": 10.0,
+  "core_sets": 26.0,
+  "ath_sets": 47.0,
+  "throw_sets": 38.0
+ },
+ {
+  "program": "MM MM_BOX_W1_2 W1",
+  "tot": 99.0,
+  "ath_incl": 19.2,
+  "ath_excl": 0.0,
+  "rp": 48.5,
+  "iso": 18.2,
+  "core": 14.1,
+  "focus": 0.0,
+  "mix": {
+   "THROW": 19.0
+  },
+  "bi": 12.0,
+  "uni": 12.0,
+  "unipct": 50.0,
+  "knee_hip": [
+   18.0,
+   18.0
+  ],
+  "push_pull": [
+   12.0,
+   12.0
+  ],
+  "rp_iso": 2.67,
+  "rp_sets": 48.0,
+  "iso_sets": 18.0,
+  "core_sets": 14.0,
+  "ath_sets": 19.0,
+  "throw_sets": 19.0
+ },
+ {
+  "program": "MM MM_BOX_W3_8 W7",
+  "tot": 142.0,
+  "ath_incl": 53.5,
+  "ath_excl": 36.5,
+  "rp": 22.5,
+  "iso": 12.7,
+  "core": 11.3,
+  "focus": 0.0,
+  "mix": {
+   "PLYO": 23.0,
+   "JUMP_LIMITED_KNEE": 2.0,
+   "THROW": 38.0,
+   "SPRINT": 4.0,
+   "TRIPLE_EXT": 9.0
+  },
+  "bi": 12.0,
+  "uni": 12.0,
+  "unipct": 50.0,
+  "knee_hip": [
+   16.0,
+   18.0
+  ],
+  "push_pull": [
+   4.0,
+   4.0
+  ],
+  "rp_iso": 1.78,
+  "rp_sets": 32.0,
+  "iso_sets": 18.0,
+  "core_sets": 16.0,
+  "ath_sets": 76.0,
+  "throw_sets": 38.0
+ },
+ {
+  "program": "MM MM_BOX_W3_8 W8",
+  "tot": 174.0,
+  "ath_incl": 49.4,
+  "ath_excl": 35.3,
+  "rp": 26.4,
+  "iso": 12.6,
+  "core": 11.5,
+  "focus": 0.0,
+  "mix": {
+   "PLYO": 26.0,
+   "JUMP_LIMITED_KNEE": 4.0,
+   "THROW": 38.0,
+   "SPRINT": 6.0,
+   "TRIPLE_EXT": 12.0
+  },
+  "bi": 19.0,
+  "uni": 15.0,
+  "unipct": 44.1,
+  "knee_hip": [
+   21.0,
+   28.0
+  ],
+  "push_pull": [
+   6.0,
+   6.0
+  ],
+  "rp_iso": 2.09,
+  "rp_sets": 46.0,
+  "iso_sets": 22.0,
+  "core_sets": 20.0,
+  "ath_sets": 86.0,
+  "throw_sets": 38.0
+ },
+ {
+  "program": "MM BASEBALL B1 mean",
+  "tot": 107.3,
+  "ath_incl": 22.5,
+  "ath_excl": 15.6,
+  "rp": 41.6,
+  "iso": 25.3,
+  "core": 10.6,
+  "focus": 0.0,
+  "mix": {
+   "PLYO": 9.0,
+   "JUMP_LIMITED_KNEE": 4.9,
+   "THROW": 8.7,
+   "SPRINT": 1.0,
+   "TRIPLE_EXT": 0.6
+  },
+  "bi": 14.3,
+  "uni": 11.4,
+  "unipct": 44.4,
+  "knee_hip": [
+   14.3,
+   14.4
+  ],
+  "push_pull": [
+   10.3,
+   8.6
+  ],
+  "rp_iso": 1.65,
+  "rp_sets": 44.6,
+  "iso_sets": 27.1,
+  "core_sets": 11.4,
+  "ath_sets": 24.1,
+  "throw_sets": 8.7
+ },
+ {
+  "program": "MM BASEBALL B2 mean",
+  "tot": 130.1,
+  "ath_incl": 28.4,
+  "ath_excl": 21.5,
+  "rp": 39.1,
+  "iso": 20.7,
+  "core": 12.0,
+  "focus": 0.0,
+  "mix": {
+   "PLYO": 16.3,
+   "JUMP_LIMITED_KNEE": 5.6,
+   "THROW": 11.3,
+   "SPRINT": 3.1,
+   "TRIPLE_EXT": 0.6
+  },
+  "bi": 17.4,
+  "uni": 13.3,
+  "unipct": 43.3,
+  "knee_hip": [
+   16.6,
+   17.1
+  ],
+  "push_pull": [
+   10.7,
+   9.4
+  ],
+  "rp_iso": 1.89,
+  "rp_sets": 50.9,
+  "iso_sets": 26.9,
+  "core_sets": 15.6,
+  "ath_sets": 36.9,
+  "throw_sets": 11.3
+ },
+ {
+  "program": "MM BASEBALL B3 mean",
+  "tot": 121.2,
+  "ath_incl": 27.1,
+  "ath_excl": 19.4,
+  "rp": 37.5,
+  "iso": 21.9,
+  "core": 13.5,
+  "focus": 0.0,
+  "mix": {
+   "PLYO": 14.6,
+   "JUMP_LIMITED_KNEE": 3.9,
+   "THROW": 11.6,
+   "SPRINT": 1.8,
+   "TRIPLE_EXT": 1.0
+  },
+  "bi": 14.0,
+  "uni": 12.5,
+  "unipct": 47.2,
+  "knee_hip": [
+   12.5,
+   16.0
+  ],
+  "push_pull": [
+   10.5,
+   8.5
+  ],
+  "rp_iso": 1.72,
+  "rp_sets": 45.5,
+  "iso_sets": 26.5,
+  "core_sets": 16.4,
+  "ath_sets": 32.9,
+  "throw_sets": 11.6
+ },
+ {
+  "program": "MM BASEBALL deload/recovery B2W8 mean",
+  "tot": 82.0,
+  "ath_incl": 20.7,
+  "ath_excl": 12.2,
+  "rp": 45.1,
+  "iso": 25.6,
+  "core": 8.5,
+  "focus": 0.0,
+  "mix": {
+   "PLYO": 4.0,
+   "JUMP_LIMITED_KNEE": 5.0,
+   "THROW": 8.0
+  },
+  "bi": 12.5,
+  "uni": 12.0,
+  "unipct": 49.0,
+  "knee_hip": [
+   12.5,
+   12.0
+  ],
+  "push_pull": [
+   6.0,
+   6.5
+  ],
+  "rp_iso": 1.76,
+  "rp_sets": 37.0,
+  "iso_sets": 21.0,
+  "core_sets": 7.0,
+  "ath_sets": 17.0,
+  "throw_sets": 8.0
+ },
+ {
+  "program": "MM MM_CF_CLASS_HALFTIME_8WK mean loading weeks",
+  "tot": 15.0,
+  "ath_incl": 40.0,
+  "ath_excl": 40.0,
+  "rp": 60.0,
+  "iso": 0.0,
+  "core": 0.0,
+  "focus": 0.0,
+  "mix": {
+   "TRIPLE_EXT": 6.0
+  },
+  "bi": 6.0,
+  "uni": 0.0,
+  "unipct": 0.0,
+  "knee_hip": [
+   3.0,
+   3.0
+  ],
+  "push_pull": [
+   3.0,
+   0.0
+  ],
+  "rp_iso": null,
+  "rp_sets": 9.0,
+  "iso_sets": 0.0,
+  "core_sets": 0.0,
+  "ath_sets": 6.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "MM MM_STRENGTH_CONJUGATE_8WK_v04 mean loading weeks",
+  "tot": 56.0,
+  "ath_incl": 5.4,
+  "ath_excl": 5.4,
+  "rp": 89.3,
+  "iso": 5.4,
+  "core": 0.0,
+  "focus": 0.0,
+  "mix": {
+   "PLYO": 3.0
+  },
+  "bi": 13.0,
+  "uni": 6.0,
+  "unipct": 31.6,
+  "knee_hip": [
+   10.4,
+   8.6
+  ],
+  "push_pull": [
+   16.0,
+   15.0
+  ],
+  "rp_iso": 16.67,
+  "rp_sets": 50.0,
+  "iso_sets": 3.0,
+  "core_sets": 0.0,
+  "ath_sets": 3.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "MM MM_STRENGTH_CONJUGATE_12WK mean loading weeks",
+  "tot": 58.2,
+  "ath_incl": 0.0,
+  "ath_excl": 0.0,
+  "rp": 69.1,
+  "iso": 30.9,
+  "core": 0.0,
+  "focus": 0.0,
+  "mix": {},
+  "bi": 17.1,
+  "uni": 6.0,
+  "unipct": 26.0,
+  "knee_hip": [
+   14.4,
+   14.7
+  ],
+  "push_pull": [
+   11.1,
+   6.0
+  ],
+  "rp_iso": 2.23,
+  "rp_sets": 40.2,
+  "iso_sets": 18.0,
+  "core_sets": 0.0,
+  "ath_sets": 0.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "MM MM_AESTHETICS_8WK mean loading weeks",
+  "tot": 65.2,
+  "ath_incl": 0.0,
+  "ath_excl": 0.0,
+  "rp": 77.6,
+  "iso": 6.6,
+  "core": 0.0,
+  "focus": 15.8,
+  "mix": {},
+  "bi": 13.7,
+  "uni": 13.7,
+  "unipct": 50.0,
+  "knee_hip": [
+   13.7,
+   13.7
+  ],
+  "push_pull": [
+   9.4,
+   13.7
+  ],
+  "rp_iso": 11.77,
+  "rp_sets": 50.6,
+  "iso_sets": 4.3,
+  "core_sets": 0.0,
+  "ath_sets": 0.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "MM MM_AESTHETICS_12WK_PPL mean loading weeks",
+  "tot": 121.4,
+  "ath_incl": 0.0,
+  "ath_excl": 0.0,
+  "rp": 61.1,
+  "iso": 38.9,
+  "core": 0.0,
+  "focus": 0.0,
+  "mix": {},
+  "bi": 18.6,
+  "uni": 15.3,
+  "unipct": 45.1,
+  "knee_hip": [
+   25.7,
+   13.3
+  ],
+  "push_pull": [
+   17.1,
+   23.2
+  ],
+  "rp_iso": 1.57,
+  "rp_sets": 74.2,
+  "iso_sets": 47.2,
+  "core_sets": 0.0,
+  "ath_sets": 0.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "MM MM_HYBRID_8WK mean loading weeks",
+  "tot": 68.7,
+  "ath_incl": 15.9,
+  "ath_excl": 15.9,
+  "rp": 53.7,
+  "iso": 0.0,
+  "core": 18.8,
+  "focus": 11.8,
+  "mix": {
+   "PLYO": 6.0,
+   "TRIPLE_EXT": 4.9
+  },
+  "bi": 8.1,
+  "uni": 13.6,
+  "unipct": 62.7,
+  "knee_hip": [
+   10.9,
+   10.9
+  ],
+  "push_pull": [
+   8.6,
+   6.6
+  ],
+  "rp_iso": null,
+  "rp_sets": 36.9,
+  "iso_sets": 0.0,
+  "core_sets": 12.9,
+  "ath_sets": 10.9,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "BOX W3-6 mean",
+  "tot": 153.0,
+  "ath_incl": 51.6,
+  "ath_excl": 35.7,
+  "rp": 21.6,
+  "iso": 15.7,
+  "core": 11.1,
+  "focus": 0.0,
+  "mix": {
+   "PLYO": 26.0,
+   "JUMP_LIMITED_KNEE": 3.0,
+   "THROW": 38.0,
+   "SPRINT": 3.0,
+   "TRIPLE_EXT": 9.0
+  },
+  "bi": 12.0,
+  "uni": 15.0,
+  "unipct": 55.6,
+  "knee_hip": [
+   21.0,
+   21.0
+  ],
+  "push_pull": [
+   3.0,
+   3.0
+  ],
+  "rp_iso": 1.38,
+  "rp_sets": 33.0,
+  "iso_sets": 24.0,
+  "core_sets": 17.0,
+  "ath_sets": 79.0,
+  "throw_sets": 38.0
+ },
+ {
+  "program": "FAT BURN WK1-4 mean",
+  "tot": 92.0,
+  "ath_incl": 0.0,
+  "ath_excl": 0.0,
+  "rp": 62.8,
+  "iso": 21.7,
+  "core": 15.4,
+  "focus": 0.0,
+  "mix": {},
+  "bi": 15.8,
+  "uni": 15.0,
+  "unipct": 48.7,
+  "knee_hip": [
+   22.0,
+   14.8
+  ],
+  "push_pull": [
+   13.0,
+   14.0
+  ],
+  "rp_iso": 2.89,
+  "rp_sets": 57.8,
+  "iso_sets": 20.0,
+  "core_sets": 14.2,
+  "ath_sets": 0.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "CF COMPETE strength months JUN/JUL/NOV mean",
+  "tot": 52.0,
+  "ath_incl": 0.0,
+  "ath_excl": 0.0,
+  "rp": 79.4,
+  "iso": 20.6,
+  "core": 0.0,
+  "focus": 0.0,
+  "mix": {},
+  "bi": 10.0,
+  "uni": 10.7,
+  "unipct": 51.7,
+  "knee_hip": [
+   13.0,
+   13.0
+  ],
+  "push_pull": [
+   10.3,
+   10.3
+  ],
+  "rp_iso": 3.86,
+  "rp_sets": 41.3,
+  "iso_sets": 10.7,
+  "core_sets": 0.0,
+  "ath_sets": 0.0,
+  "throw_sets": 0.0
+ },
+ {
+  "program": "CF COMPETE power months AUG/SEPT/DEC mean",
+  "tot": 21.3,
+  "ath_incl": 100.0,
+  "ath_excl": 100.0,
+  "rp": 0.0,
+  "iso": 0.0,
+  "core": 0.0,
+  "focus": 0.0,
+  "mix": {
+   "TRIPLE_EXT": 21.3
+  },
+  "bi": 0.0,
+  "uni": 0.0,
+  "unipct": 0,
+  "knee_hip": [
+   0.0,
+   0.0
+  ],
+  "push_pull": [
+   0.0,
+   0.0
+  ],
+  "rp_iso": null,
+  "rp_sets": 0.0,
+  "iso_sets": 0.0,
+  "core_sets": 0.0,
+  "ath_sets": 21.3,
+  "throw_sets": 0.0
+ }
+]

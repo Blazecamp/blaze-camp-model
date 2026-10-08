@@ -1,0 +1,688 @@
+SHEET: 'EXAMPLE CROSSFIT SPLIT'
+DIMENSIONS: A1:W1014  max_row=1014 max_col=23
+NON-EMPTY CELLS: 681
+MERGED (0): 
+DATA VALIDATIONS (dropdown sources):
+
+CELLS (row-major; coord | value | formatting):
+A1 | 'COMPETE CROSSFIT SPLIT' | bg=00FFFF bold fg=theme1
+I1 | 'EVENT DATE JAN 12-15th' | bg=E06666 bold fg=theme1
+P1 | 'CLASS PROGRAMMING SPLIT' | bg=00FFFF bold fg=theme1
+A2 | 'EXAMPLE PLAN BUILDING FOR WODAPALOOZA' | bg=D5A6BD fg=theme1
+R2 | 'EXAMPLE CROSSFIT STYLE PROGRAMMING MODEL' | bg=00FFFF fg=theme1
+A3 | 'Basic Instruction:' | bg=00FFFF bold fg=theme1
+R3 | 'WARMUP/SKILL' | bg=D5A6BD fg=theme1
+S3 | 'STRENGTH/POWER' | bg=D5A6BD fg=theme1
+T3 | 'WOD' | bg=D5A6BD fg=theme1
+A4 | '*INSTEAD OF WORKING TO FAILURE, PUSH YOUR LIMITS OVER THE COURSE OF TIME' | bg=00FFFF fg=theme1
+Q4 | 'WK 1' | fg=theme1
+S4 | datetime.datetime(2022, 1, 1, 0, 0) | fg=theme1
+A5 | '**CROSFFIT has its hybrid style of performance, so to be competitive, you MUST be able to be as good as possible in EACH modality. Train accordingly' | bg=00FFFF fg=theme1
+Q5 | 'WK 2' | fg=theme1
+S5 | datetime.datetime(2022, 2, 1, 0, 0) | fg=theme1
+A6 | '***WODS will be prescribed by your box or program, yes they might interfere with recovery/performance, but thats part of CROSSFIT ' | bg=00FFFF fg=theme1
+Q6 | 'WK 3' | fg=theme1
+S6 | datetime.datetime(2022, 2, 2, 0, 0) | fg=theme1
+A7 | '*****If you have any questions just ask me - IG @BLAZECAMP or TWITTER @BLAZECAMP_' | bg=00FFFF fg=theme1
+Q7 | 'WK 4' | fg=theme1
+S7 | datetime.datetime(2022, 3, 2, 0, 0) | fg=theme1
+L8 | '*THIS MAY ALL CHANGE AT SOME POINT FOR DETAIL' | bg=00FFFF fg=theme1
+Q8 | 'WK 5' | fg=theme1
+S8 | datetime.datetime(2022, 3, 3, 0, 0) | fg=theme1
+Q9 | 'WK 6' | fg=theme1
+S9 | datetime.datetime(2022, 4, 3, 0, 0) | fg=theme1
+B10 | 'FEB' | fg=theme1
+C10 | 'MARCH' | fg=theme1
+D10 | 'APRIL' | fg=theme1
+E10 | 'MAY' | fg=theme1
+F10 | 'JUNE' | fg=theme1
+G10 | 'JULY' | fg=theme1
+H10 | 'AUG' | fg=theme1
+I10 | 'SEPT' | fg=theme1
+J10 | 'OCT' | fg=theme1
+K10 | 'NOV' | fg=theme1
+L10 | 'DEC' | fg=theme1
+M10 | 'JAN' | fg=theme1
+Q10 | 'WK 7' | fg=theme1
+S10 | datetime.datetime(2022, 4, 4, 0, 0) | fg=theme1
+A11 | 'AEROBIC C.' | fg=theme1
+C11 | 1.0 | bg=F6B26B fg=theme1
+D11 | 2.0 | bg=F6B26B fg=theme1
+E11 | 3.0 | bg=F6B26B fg=theme1
+F11 | 1.0 | bg=F6B26B fg=theme1
+G11 | 2.0 | bg=F6B26B fg=theme1
+H11 | 3.0 | bg=F6B26B fg=theme1
+I11 | 4.0 | bg=F6B26B fg=theme1
+J11 | 2.0 | bg=F6B26B fg=theme1
+K11 | 3.0 | bg=F6B26B fg=theme1
+L11 | 4.0 | bg=F6B26B fg=theme1
+Q11 | 'WK 8' | fg=theme1
+S11 | 5.0 | fg=theme1
+A12 | 'SKILL' | fg=theme1
+Q12 | 'MON' | bg=EA9999 fg=theme1
+R12 | 'TUES' | bg=EA9999 fg=theme1
+S12 | 'WED' | bg=EA9999 fg=theme1
+T12 | 'THURS' | bg=EA9999 fg=theme1
+U12 | 'FRID' | bg=EA9999 fg=theme1
+V12 | 'SAT' | bg=EA9999 fg=theme1
+A13 | 'STRENGTH' | fg=theme1
+D13 | 1.0 | bg=E06666 fg=theme1
+F13 | 3.0 | bg=E06666 fg=theme1
+G13 | 4.0 | bg=E06666 fg=theme1
+J13 | 2.0 | bg=E06666 fg=theme1
+K13 | 2.0 | bg=E06666 fg=theme1
+P13 | 'STRNGTH' | bg=EA9999 fg=theme1
+Q13 | 'SQUAT' | fg=theme1
+R13 | 'PRESS' | fg=theme1
+T13 | 'DEADLIFT' | fg=theme1
+A14 | 'POWER' | fg=theme1
+D14 | 2.0 | bg=E06666 fg=theme1
+H14 | 3.0 | bg=E06666 fg=theme1
+I14 | 4.0 | bg=E06666 fg=theme1
+L14 | 3.0 | bg=E06666 fg=theme1
+P14 | 'PWR' | bg=EA9999 fg=theme1
+R14 | 'SNATCH' | fg=theme1
+U14 | 'CLEAN' | fg=theme1
+A15 | 'RESISTANCE' | fg=theme1
+B15 | 1.0 | bg=93C47D fg=theme1
+C15 | 2.0 | bg=93C47D fg=theme1
+F15 | 1.0 | bg=93C47D fg=theme1
+G15 | 2.0 | bg=93C47D fg=theme1
+J15 | 1.0 | bg=93C47D fg=theme1
+K15 | 2.0 | bg=93C47D fg=theme1
+P15 | 'SKILLS' | bg=EA9999 fg=theme1
+Q15 | 'DUBS' | fg=theme1
+T15 | 'GYMNASTICS' | fg=theme1
+A16 | 'WODs' | fg=theme1
+D16 | 2.0 | bg=F6B26B fg=theme1
+E16 | 3.0 | bg=F6B26B fg=theme1
+G16 | 2.0 | bg=F6B26B fg=theme1
+H16 | 3.0 | bg=F6B26B fg=theme1
+I16 | 4.0 | bg=F6B26B fg=theme1
+J16 | 2.0 | bg=F6B26B fg=theme1
+K16 | 3.0 | bg=F6B26B fg=theme1
+L16 | 4.0 | bg=F6B26B fg=theme1
+P16 | 'AEROBIC CAPACITY' | bg=EA9999 fg=theme1
+Q16 | 'LVL 4' | fg=theme1
+T16 | 'LVL 3' | fg=theme1
+A17 | 'TEST/PEAK' | fg=theme1
+E17 | 4.0 | bg=E06666 fg=theme1
+I17 | 4.0 | bg=E06666 fg=theme1
+M17 | 4.0 | bg=E06666 fg=theme1
+A19 | 'FULL TIME' | fg=theme1
+Q19 | 'HALF TIME' | bg=00FFFF fg=theme1
+A20 | 'RESISTANCE' | fg=theme1
+B20 | 'STRENGTH' | fg=theme1
+C20 | 'POWER ' | fg=theme1
+D20 | 'AEROBIC CAP.' | fg=theme1
+E20 | 'WODS' | fg=theme1
+Q20 | 'RESISTANCE' | bg=D5A6BD fg=theme1
+R20 | 'STRENGTH' | bg=D5A6BD fg=theme1
+S20 | 'POWER ' | bg=D5A6BD fg=theme1
+T20 | 'AEROBIC CAP.' | bg=D5A6BD fg=theme1
+U20 | 'WODS' | bg=D5A6BD fg=theme1
+A21 | 'LVL 1 = 2 SETS x 10' | fg=theme1
+B21 | 'LVL 1 = 3 SETS x 7' | fg=theme1
+C21 | 'LVL 1 = 3 SETS x 3' | fg=theme1
+D21 | 'LVL 1 = C' | fg=theme1
+E21 | 'LVL 1 = 1 a week' | fg=theme1
+Q21 | 'LVL 1 = 2 SETS x 10' | fg=theme1
+R21 | 'LVL 1 = 3 SETS x 7' | fg=theme1
+S21 | 'LVL 1 = 3 SETS x 4' | fg=theme1
+T21 | 'LVL 1 = C' | fg=theme1
+U21 | 'LVL 1 = 1 a week' | fg=theme1
+A22 | 'LVL 2 = 3 SETS x 10 ' | fg=theme1
+B22 | 'LVL 2 = 4 SETS x 6' | fg=theme1
+C22 | 'LVL 2 = 4 SETS x 3' | fg=theme1
+D22 | 'LVL 2 = C, B' | fg=theme1
+E22 | 'LVL 2 = 2 wods a week' | fg=theme1
+Q22 | 'LVL 2 = 3 SETS x 10 ' | fg=theme1
+R22 | 'LVL 2 = 3 SETS x 6' | fg=theme1
+S22 | 'LVL 2 = 3 SETS x 3' | fg=theme1
+T22 | 'LVL 2 = C, B' | fg=theme1
+U22 | 'LVL 2 = 2 wods a week' | fg=theme1
+B23 | 'LVL 3 = 5 SETS x 5' | fg=theme1
+C23 | 'LVL 3 = 5 SETS x 3' | fg=theme1
+D23 | 'LVL 3 = C,B, A' | fg=theme1
+E23 | 'LVL 3 = 3 wods a week' | fg=theme1
+R23 | 'LVL 3 = 3 SETS x 5' | fg=theme1
+S23 | 'LVL 3 = 3 SETS x 2' | fg=theme1
+T23 | 'LVL 3 = C,B, A' | fg=theme1
+U23 | 'LVL 3 = 3 wods a week' | fg=theme1
+B24 | 'LVL 4 = 6 SETS x 4' | fg=theme1
+C24 | 'LVL 4 = 6 SETS x 3' | fg=theme1
+D24 | 'LVL 4 = LACTATE CLERANCE' | fg=theme1
+E24 | 'LVL 4 = wods a week' | fg=theme1
+R24 | 'LVL 4 = 3 SETS x 4' | fg=theme1
+S24 | 'LVL 4 = 3 SETS x 1' | fg=theme1
+T24 | 'LVL 4 = LACTATE CLERANCE' | fg=theme1
+U24 | 'LVL 4 = wods a week' | fg=theme1
+R25 | 'LVL 5 = Work up to 1RM' | fg=theme1
+A27 | 'JUNE' | fg=theme1
+B28 | 'MON' | bg=D5A6BD fg=theme1
+C28 | 'TUESD' | bg=D5A6BD fg=theme1
+D28 | 'WED' | bg=D5A6BD fg=theme1
+E28 | 'THURS' | bg=D5A6BD fg=theme1
+F28 | 'FRID' | bg=D5A6BD fg=theme1
+G28 | 'SAT' | bg=D5A6BD fg=theme1
+H28 | 'SUN' | bg=D5A6BD fg=theme1
+A29 | 'AEROBIC C.' | fg=theme1
+B29 | 'YES' | fg=theme1
+D29 | 'OFF' | fg=theme1
+E29 | 'YES' | fg=theme1
+H29 | 'OFF' | fg=theme1
+I29 | 1.0 | bg=F6B26B fg=theme1
+A30 | 'SKILL' | fg=theme1
+C30 | 'T2B/ DUBS' | fg=theme1
+D30 | 'OFF' | fg=theme1
+F30 | 'H.S./ DUBS' | fg=theme1
+H30 | 'OFF' | fg=theme1
+A31 | 'STRENGTH' | fg=theme1
+B31 | 'KNEE DOM' | fg=theme1
+C31 | 'PULL' | fg=theme1
+D31 | 'OFF' | fg=theme1
+E31 | 'HIP DOM' | fg=theme1
+F31 | 'PUSH' | fg=theme1
+H31 | 'OFF' | fg=theme1
+I31 | 3.0 | bg=E06666 fg=theme1
+A32 | 'POWER' | fg=theme1
+D32 | 'OFF' | fg=theme1
+H32 | 'OFF' | fg=theme1
+A33 | 'RESISTANCE' | fg=theme1
+B33 | 'LB' | fg=theme1
+C33 | 'UB' | fg=theme1
+D33 | 'OFF' | fg=theme1
+E33 | 'LB' | fg=theme1
+F33 | 'UB' | fg=theme1
+H33 | 'OFF' | fg=theme1
+I33 | 1.0 | bg=93C47D fg=theme1
+A34 | 'WODs' | fg=theme1
+D34 | 'OFF' | fg=theme1
+H34 | 'OFF' | fg=theme1
+A35 | 'TEST/PEAK' | fg=theme1
+D35 | 'OFF' | fg=theme1
+H35 | 'OFF' | fg=theme1
+A37 | 'JULY' | fg=theme1
+B38 | 'MON' | bg=D5A6BD fg=theme1
+C38 | 'TUESD' | bg=D5A6BD fg=theme1
+D38 | 'WED' | bg=D5A6BD fg=theme1
+E38 | 'THURS' | bg=D5A6BD fg=theme1
+F38 | 'FRID' | bg=D5A6BD fg=theme1
+G38 | 'SAT' | bg=D5A6BD fg=theme1
+H38 | 'SUN' | bg=D5A6BD fg=theme1
+A39 | 'AEROBIC C.' | fg=theme1
+B39 | 'YES' | fg=theme1
+D39 | 'OFF' | fg=theme1
+E39 | 'YES' | fg=theme1
+H39 | 'OFF' | fg=theme1
+I39 | 2.0 | bg=F6B26B fg=theme1
+A40 | 'SKILL' | fg=theme1
+C40 | 'T2B/ DUBS' | fg=theme1
+D40 | 'OFF' | fg=theme1
+F40 | 'H.S./ DUBS' | fg=theme1
+H40 | 'OFF' | fg=theme1
+A41 | 'STRENGTH' | fg=theme1
+B41 | 'KNEE DOM' | fg=theme1
+C41 | 'PULL' | fg=theme1
+D41 | 'OFF' | fg=theme1
+E41 | 'HIP DOM' | fg=theme1
+F41 | 'PUSH' | fg=theme1
+H41 | 'OFF' | fg=theme1
+I41 | 4.0 | bg=E06666 fg=theme1
+A42 | 'POWER' | fg=theme1
+D42 | 'OFF' | fg=theme1
+H42 | 'OFF' | fg=theme1
+A43 | 'RESISTANCE' | fg=theme1
+B43 | 'LB' | fg=theme1
+C43 | 'UB' | fg=theme1
+D43 | 'OFF' | fg=theme1
+E43 | 'LB' | fg=theme1
+F43 | 'UB' | fg=theme1
+H43 | 'OFF' | fg=theme1
+I43 | 2.0 | bg=93C47D fg=theme1
+A44 | 'WODs' | fg=theme1
+C44 | 'YES' | fg=theme1
+D44 | 'OFF' | fg=theme1
+F44 | 'YES' | fg=theme1
+H44 | 'OFF' | fg=theme1
+I44 | 2.0 | bg=F6B26B fg=theme1
+A45 | 'TEST/PEAK' | fg=theme1
+D45 | 'OFF' | fg=theme1
+H45 | 'OFF' | fg=theme1
+A47 | 'AUGUST' | fg=theme1
+B48 | 'MON' | bg=D5A6BD fg=theme1
+C48 | 'TUESD' | bg=D5A6BD fg=theme1
+D48 | 'WED' | bg=D5A6BD fg=theme1
+E48 | 'THURS' | bg=D5A6BD fg=theme1
+F48 | 'FRID' | bg=D5A6BD fg=theme1
+G48 | 'SAT' | bg=D5A6BD fg=theme1
+H48 | 'SUN' | bg=D5A6BD fg=theme1
+A49 | 'AEROBIC C.' | fg=theme1
+B49 | 'YES' | fg=theme1
+D49 | 'OFF' | fg=theme1
+E49 | 'YES' | fg=theme1
+G49 | 'YES' | fg=theme1
+H49 | 'OFF' | fg=theme1
+I49 | 3.0 | bg=F6B26B fg=theme1
+A50 | 'SKILL' | fg=theme1
+D50 | 'OFF' | fg=theme1
+H50 | 'OFF' | fg=theme1
+A51 | 'STRENGTH' | fg=theme1
+D51 | 'OFF' | fg=theme1
+H51 | 'OFF' | fg=theme1
+A52 | 'POWER' | fg=theme1
+B52 | 'SNATCH' | fg=theme1
+C52 | 'CLEAN' | fg=theme1
+D52 | 'OFF' | fg=theme1
+E52 | 'SNATCH' | fg=theme1
+F52 | 'CLEAN' | fg=theme1
+H52 | 'OFF' | fg=theme1
+I52 | 3.0 | bg=E06666 fg=theme1
+A53 | 'RESISTANCE' | fg=theme1
+D53 | 'OFF' | fg=theme1
+H53 | 'OFF' | fg=theme1
+A54 | 'WODs' | fg=theme1
+C54 | 'YES' | fg=theme1
+D54 | 'OFF' | fg=theme1
+F54 | 'YES' | fg=theme1
+H54 | 'OFF' | fg=theme1
+I54 | 3.0 | bg=F6B26B fg=theme1
+A55 | 'TEST/PEAK' | fg=theme1
+D55 | 'OFF' | fg=theme1
+H55 | 'OFF' | fg=theme1
+A57 | 'SEPTEMBER' | fg=theme1
+B58 | 'MON' | bg=D5A6BD fg=theme1
+C58 | 'TUESD' | bg=D5A6BD fg=theme1
+D58 | 'WED' | bg=D5A6BD fg=theme1
+E58 | 'THURS' | bg=D5A6BD fg=theme1
+F58 | 'FRID' | bg=D5A6BD fg=theme1
+G58 | 'SAT' | bg=D5A6BD fg=theme1
+H58 | 'SUN' | bg=D5A6BD fg=theme1
+A59 | 'AEROBIC C.' | fg=theme1
+B59 | 'YES' | fg=theme1
+C59 | 'YES' | fg=theme1
+D59 | 'OFF' | fg=theme1
+E59 | 'YES' | fg=theme1
+G59 | 'YES' | fg=theme1
+H59 | 'OFF' | fg=theme1
+I59 | 4.0 | bg=F6B26B fg=theme1
+A60 | 'SKILL' | fg=theme1
+D60 | 'OFF' | fg=theme1
+H60 | 'OFF' | fg=theme1
+A61 | 'STRENGTH' | fg=theme1
+D61 | 'OFF' | fg=theme1
+H61 | 'OFF' | fg=theme1
+A62 | 'POWER' | fg=theme1
+B62 | 'SNATCH' | fg=theme1
+C62 | 'CLEAN' | fg=theme1
+D62 | 'OFF' | fg=theme1
+E62 | 'SNATCH' | fg=theme1
+F62 | 'CLEAN' | fg=theme1
+H62 | 'OFF' | fg=theme1
+I62 | 4.0 | bg=E06666 fg=theme1
+A63 | 'RESISTANCE' | fg=theme1
+D63 | 'OFF' | fg=theme1
+H63 | 'OFF' | fg=theme1
+A64 | 'WODs' | fg=theme1
+B64 | 'YES' | fg=theme1
+C64 | 'YES' | fg=theme1
+D64 | 'OFF' | fg=theme1
+E64 | 'YES' | fg=theme1
+F64 | 'YES' | fg=theme1
+H64 | 'OFF' | fg=theme1
+I64 | 4.0 | bg=F6B26B fg=theme1
+A65 | 'TEST/PEAK' | fg=theme1
+D65 | 'OFF' | fg=theme1
+H65 | 'OFF' | fg=theme1
+I65 | 4.0 | bg=E06666 fg=theme1
+A67 | 'OCTOBER' | fg=theme1
+B68 | 'MON' | bg=D5A6BD fg=theme1
+C68 | 'TUESD' | bg=D5A6BD fg=theme1
+D68 | 'WED' | bg=D5A6BD fg=theme1
+E68 | 'THURS' | bg=D5A6BD fg=theme1
+F68 | 'FRID' | bg=D5A6BD fg=theme1
+G68 | 'SAT' | bg=D5A6BD fg=theme1
+H68 | 'SUN' | bg=D5A6BD fg=theme1
+A69 | 'AEROBIC C.' | fg=theme1
+B69 | 'YES' | fg=theme1
+D69 | 'OFF' | fg=theme1
+E69 | 'YES' | fg=theme1
+H69 | 'OFF' | fg=theme1
+I69 | 2.0 | bg=F6B26B fg=theme1
+A70 | 'SKILL' | fg=theme1
+D70 | 'OFF' | fg=theme1
+H70 | 'OFF' | fg=theme1
+A71 | 'STRENGTH' | fg=theme1
+B71 | 'KNEE DOM' | fg=theme1
+C71 | 'PULL' | fg=theme1
+D71 | 'OFF' | fg=theme1
+E71 | 'HIP DOM' | fg=theme1
+F71 | 'PUSH' | fg=theme1
+H71 | 'OFF' | fg=theme1
+I71 | 2.0 | bg=E06666 fg=theme1
+A72 | 'POWER' | fg=theme1
+D72 | 'OFF' | fg=theme1
+H72 | 'OFF' | fg=theme1
+A73 | 'RESISTANCE' | fg=theme1
+B73 | 'LB' | fg=theme1
+C73 | 'UB' | fg=theme1
+D73 | 'OFF' | fg=theme1
+E73 | 'LB' | fg=theme1
+F73 | 'UB' | fg=theme1
+H73 | 'OFF' | fg=theme1
+I73 | 1.0 | bg=93C47D fg=theme1
+A74 | 'WODs' | fg=theme1
+C74 | 'YES' | fg=theme1
+D74 | 'OFF' | fg=theme1
+F74 | 'YES' | fg=theme1
+H74 | 'OFF' | fg=theme1
+I74 | 2.0 | bg=F6B26B fg=theme1
+A75 | 'TEST/PEAK' | fg=theme1
+D75 | 'OFF' | fg=theme1
+H75 | 'OFF' | fg=theme1
+A77 | 'NOVEMBER' | fg=theme1
+B78 | 'MON' | bg=D5A6BD fg=theme1
+C78 | 'TUESD' | bg=D5A6BD fg=theme1
+D78 | 'WED' | bg=D5A6BD fg=theme1
+E78 | 'THURS' | bg=D5A6BD fg=theme1
+F78 | 'FRID' | bg=D5A6BD fg=theme1
+G78 | 'SAT' | bg=D5A6BD fg=theme1
+H78 | 'SUN' | bg=D5A6BD fg=theme1
+A79 | 'AEROBIC C.' | fg=theme1
+B79 | 'YES' | fg=theme1
+D79 | 'OFF' | fg=theme1
+E79 | 'YES' | fg=theme1
+G79 | 'YES' | fg=theme1
+H79 | 'OFF' | fg=theme1
+I79 | 3.0 | bg=F6B26B fg=theme1
+A80 | 'SKILL' | fg=theme1
+C80 | 'T2B/ DUBS' | fg=theme1
+D80 | 'OFF' | fg=theme1
+F80 | 'H.S./ DUBS' | fg=theme1
+H80 | 'OFF' | fg=theme1
+A81 | 'STRENGTH' | fg=theme1
+B81 | 'KNEE DOM' | fg=theme1
+C81 | 'PULL' | fg=theme1
+D81 | 'OFF' | fg=theme1
+E81 | 'HIP DOM' | fg=theme1
+F81 | 'PUSH' | fg=theme1
+H81 | 'OFF' | fg=theme1
+I81 | 2.0 | bg=E06666 fg=theme1
+A82 | 'POWER' | fg=theme1
+D82 | 'OFF' | fg=theme1
+H82 | 'OFF' | fg=theme1
+A83 | 'RESISTANCE' | fg=theme1
+B83 | 'LB' | fg=theme1
+C83 | 'UB' | fg=theme1
+D83 | 'OFF' | fg=theme1
+E83 | 'LB' | fg=theme1
+F83 | 'UB' | fg=theme1
+H83 | 'OFF' | fg=theme1
+I83 | 2.0 | bg=93C47D fg=theme1
+A84 | 'WODs' | fg=theme1
+B84 | 'YES' | fg=theme1
+C84 | 'YES' | fg=theme1
+D84 | 'OFF' | fg=theme1
+F84 | 'YES' | fg=theme1
+H84 | 'OFF' | fg=theme1
+I84 | 3.0 | bg=F6B26B fg=theme1
+A85 | 'TEST/PEAK' | fg=theme1
+D85 | 'OFF' | fg=theme1
+H85 | 'OFF' | fg=theme1
+A87 | 'DECEMBER' | fg=theme1
+B88 | 'MON' | bg=D5A6BD fg=theme1
+C88 | 'TUESD' | bg=D5A6BD fg=theme1
+D88 | 'WED' | bg=D5A6BD fg=theme1
+E88 | 'THURS' | bg=D5A6BD fg=theme1
+F88 | 'FRID' | bg=D5A6BD fg=theme1
+G88 | 'SAT' | bg=D5A6BD fg=theme1
+H88 | 'SUN' | bg=D5A6BD fg=theme1
+A89 | 'AEROBIC C.' | fg=theme1
+B89 | 'YES' | fg=theme1
+C89 | 'YES' | fg=theme1
+D89 | 'OFF' | fg=theme1
+E89 | 'YES' | fg=theme1
+G89 | 'YES' | fg=theme1
+H89 | 'OFF' | fg=theme1
+I89 | 4.0 | bg=F6B26B fg=theme1
+A90 | 'SKILL' | fg=theme1
+B90 | 'H.S./ DUBS' | fg=theme1
+C90 | 'T2B/ DUBS' | fg=theme1
+D90 | 'OFF' | fg=theme1
+E90 | 'T2B/ DUBS' | fg=theme1
+F90 | 'H.S./ DUBS' | fg=theme1
+H90 | 'OFF' | fg=theme1
+A91 | 'STRENGTH' | fg=theme1
+D91 | 'OFF' | fg=theme1
+H91 | 'OFF' | fg=theme1
+A92 | 'POWER' | fg=theme1
+B92 | 'SNATCH' | fg=theme1
+C92 | 'CLEAN' | fg=theme1
+D92 | 'OFF' | fg=theme1
+E92 | 'SNATCH' | fg=theme1
+F92 | 'CLEAN' | fg=theme1
+H92 | 'OFF' | fg=theme1
+I92 | 3.0 | bg=E06666 fg=theme1
+A93 | 'RESISTANCE' | fg=theme1
+D93 | 'OFF' | fg=theme1
+H93 | 'OFF' | fg=theme1
+A94 | 'WODs' | fg=theme1
+B94 | 'YES' | fg=theme1
+C94 | 'YES' | fg=theme1
+D94 | 'OFF' | fg=theme1
+E94 | 'YES' | fg=theme1
+F94 | 'YES' | fg=theme1
+H94 | 'OFF' | fg=theme1
+I94 | 4.0 | bg=F6B26B fg=theme1
+A95 | 'TEST/PEAK' | fg=theme1
+D95 | 'OFF' | fg=theme1
+H95 | 'OFF' | fg=theme1
+A97 | 'JANUARY' | fg=theme1
+B98 | 'MON' | bg=D5A6BD fg=theme1
+C98 | 'TUESD' | bg=D5A6BD fg=theme1
+D98 | 'WED' | bg=D5A6BD fg=theme1
+E98 | 'THURS' | bg=D5A6BD fg=theme1
+F98 | 'FRID' | bg=D5A6BD fg=theme1
+G98 | 'SAT' | bg=D5A6BD fg=theme1
+H98 | 'SUN' | bg=D5A6BD fg=theme1
+A99 | 'AEROBIC C.' | fg=theme1
+B99 | 'YES' | fg=theme1
+D99 | 'OFF' | fg=theme1
+E99 | 'TYES' | fg=theme1
+H99 | 'OFF' | fg=theme1
+A100 | 'SKILL' | fg=theme1
+B100 | 'H.S./ DUBS' | fg=theme1
+C100 | 'T2B/ DUBS' | fg=theme1
+D100 | 'OFF' | fg=theme1
+E100 | 'T2B/ DUBS' | fg=theme1
+F100 | 'H.S./ DUBS' | fg=theme1
+H100 | 'OFF' | fg=theme1
+A101 | 'STRENGTH' | fg=theme1
+D101 | 'OFF' | fg=theme1
+H101 | 'OFF' | fg=theme1
+J101 | 'EXAMPLE EVENT MONTH' | fg=theme1
+A102 | 'POWER' | fg=theme1
+D102 | 'OFF' | fg=theme1
+H102 | 'OFF' | fg=theme1
+A103 | 'RESISTANCE' | fg=theme1
+D103 | 'OFF' | fg=theme1
+H103 | 'OFF' | fg=theme1
+A104 | 'WODs' | fg=theme1
+B104 | 'YES' | fg=theme1
+C104 | 'YES' | fg=theme1
+D104 | 'OFF' | fg=theme1
+E104 | 'YES' | fg=theme1
+F104 | 'YES' | fg=theme1
+H104 | 'OFF' | fg=theme1
+A105 | 'TEST/PEAK' | fg=theme1
+H105 | 'OFF' | fg=theme1
+A107 | 'FEB' | fg=theme1
+B108 | 'MON' | bg=D5A6BD fg=theme1
+C108 | 'TUESD' | bg=D5A6BD fg=theme1
+D108 | 'WED' | bg=D5A6BD fg=theme1
+E108 | 'THURS' | bg=D5A6BD fg=theme1
+F108 | 'FRID' | bg=D5A6BD fg=theme1
+G108 | 'SAT' | bg=D5A6BD fg=theme1
+H108 | 'SUN' | bg=D5A6BD fg=theme1
+A109 | 'AEROBIC C.' | fg=theme1
+D109 | 'OFF' | fg=theme1
+H109 | 'OFF' | fg=theme1
+A110 | 'SKILL' | fg=theme1
+D110 | 'OFF' | fg=theme1
+H110 | 'OFF' | fg=theme1
+A111 | 'STRENGTH' | fg=theme1
+D111 | 'OFF' | fg=theme1
+H111 | 'OFF' | fg=theme1
+A112 | 'POWER' | fg=theme1
+D112 | 'OFF' | fg=theme1
+H112 | 'OFF' | fg=theme1
+A113 | 'RESISTANCE' | fg=theme1
+B113 | 'LB' | fg=theme1
+C113 | 'UB' | fg=theme1
+D113 | 'OFF' | fg=theme1
+E113 | 'LB' | fg=theme1
+F113 | 'UB' | fg=theme1
+H113 | 'OFF' | fg=theme1
+I113 | 1.0 | bg=93C47D fg=theme1
+A114 | 'WODs' | fg=theme1
+D114 | 'OFF' | fg=theme1
+H114 | 'OFF' | fg=theme1
+A115 | 'TEST/PEAK' | fg=theme1
+D115 | 'OFF' | fg=theme1
+H115 | 'OFF' | fg=theme1
+A117 | 'MARCH' | fg=theme1
+B118 | 'MON' | bg=D5A6BD fg=theme1
+C118 | 'TUESD' | bg=D5A6BD fg=theme1
+D118 | 'WED' | bg=D5A6BD fg=theme1
+E118 | 'THURS' | bg=D5A6BD fg=theme1
+F118 | 'FRID' | bg=D5A6BD fg=theme1
+G118 | 'SAT' | bg=D5A6BD fg=theme1
+H118 | 'SUN' | bg=D5A6BD fg=theme1
+A119 | 'AEROBIC C.' | fg=theme1
+B119 | 'YES' | fg=theme1
+D119 | 'OFF' | fg=theme1
+E119 | 'YES' | fg=theme1
+H119 | 'OFF' | fg=theme1
+I119 | 1.0 | bg=F6B26B fg=theme1
+A120 | 'SKILL' | fg=theme1
+C120 | 'T2B/ DUBS' | fg=theme1
+D120 | 'OFF' | fg=theme1
+F120 | 'H.S./ DUBS' | fg=theme1
+H120 | 'OFF' | fg=theme1
+A121 | 'STRENGTH' | fg=theme1
+B121 | 'KNEE DOM' | fg=theme1
+C121 | 'PULL' | fg=theme1
+D121 | 'OFF' | fg=theme1
+E121 | 'HIP DOM' | fg=theme1
+F121 | 'PUSH' | fg=theme1
+H121 | 'OFF' | fg=theme1
+A122 | 'POWER' | fg=theme1
+B122 | 'SNATCH' | fg=theme1
+C122 | 'CLEAN' | fg=theme1
+D122 | 'OFF' | fg=theme1
+E122 | 'SNATCH' | fg=theme1
+F122 | 'CLEAN' | fg=theme1
+H122 | 'OFF' | fg=theme1
+A123 | 'RESISTANCE' | fg=theme1
+B123 | 'LB' | fg=theme1
+C123 | 'UB' | fg=theme1
+D123 | 'OFF' | fg=theme1
+E123 | 'LB' | fg=theme1
+F123 | 'UB' | fg=theme1
+H123 | 'OFF' | fg=theme1
+I123 | 2.0 | bg=93C47D fg=theme1
+A124 | 'WODs' | fg=theme1
+D124 | 'OFF' | fg=theme1
+H124 | 'OFF' | fg=theme1
+A125 | 'TEST/PEAK' | fg=theme1
+D125 | 'OFF' | fg=theme1
+H125 | 'OFF' | fg=theme1
+A127 | 'APRIL' | fg=theme1
+B128 | 'MON' | bg=D5A6BD fg=theme1
+C128 | 'TUESD' | bg=D5A6BD fg=theme1
+D128 | 'WED' | bg=D5A6BD fg=theme1
+E128 | 'THURS' | bg=D5A6BD fg=theme1
+F128 | 'FRID' | bg=D5A6BD fg=theme1
+G128 | 'SAT' | bg=D5A6BD fg=theme1
+H128 | 'SUN' | bg=D5A6BD fg=theme1
+A129 | 'AEROBIC C.' | fg=theme1
+B129 | 'YES' | fg=theme1
+D129 | 'OFF' | fg=theme1
+E129 | 'YES' | fg=theme1
+H129 | 'OFF' | fg=theme1
+I129 | 2.0 | bg=F6B26B fg=theme1
+A130 | 'SKILL' | fg=theme1
+C130 | 'T2B/ DUBS' | fg=theme1
+D130 | 'OFF' | fg=theme1
+F130 | 'H.S./ DUBS' | fg=theme1
+H130 | 'OFF' | fg=theme1
+A131 | 'STRENGTH' | fg=theme1
+B131 | 'KNEE DOM' | fg=theme1
+C131 | 'PULL' | fg=theme1
+D131 | 'OFF' | fg=theme1
+E131 | 'HIP DOM' | fg=theme1
+F131 | 'PUSH' | fg=theme1
+H131 | 'OFF' | fg=theme1
+I131 | 1.0 | bg=E06666 fg=theme1
+A132 | 'POWER' | fg=theme1
+B132 | 'SNATCH' | fg=theme1
+C132 | 'CLEAN' | fg=theme1
+D132 | 'OFF' | fg=theme1
+E132 | 'SNATCH' | fg=theme1
+F132 | 'CLEAN' | fg=theme1
+H132 | 'OFF' | fg=theme1
+I132 | 2.0 | bg=E06666 fg=theme1
+A133 | 'RESISTANCE' | fg=theme1
+B133 | 'LB' | fg=theme1
+C133 | 'UB' | fg=theme1
+D133 | 'OFF' | fg=theme1
+E133 | 'LB' | fg=theme1
+F133 | 'UB' | fg=theme1
+H133 | 'OFF' | fg=theme1
+A134 | 'WODs' | fg=theme1
+C134 | 'YES' | fg=theme1
+D134 | 'OFF' | fg=theme1
+F134 | 'YES' | fg=theme1
+H134 | 'OFF' | fg=theme1
+I134 | 2.0 | bg=F6B26B fg=theme1
+A135 | 'TEST/PEAK' | fg=theme1
+D135 | 'OFF' | fg=theme1
+H135 | 'OFF' | fg=theme1
+A137 | 'MAY' | fg=theme1
+B138 | 'MON' | bg=D5A6BD fg=theme1
+C138 | 'TUESD' | bg=D5A6BD fg=theme1
+D138 | 'WED' | bg=D5A6BD fg=theme1
+E138 | 'THURS' | bg=D5A6BD fg=theme1
+F138 | 'FRID' | bg=D5A6BD fg=theme1
+G138 | 'SAT' | bg=D5A6BD fg=theme1
+H138 | 'SUN' | bg=D5A6BD fg=theme1
+A139 | 'AEROBIC C.' | fg=theme1
+B139 | 'YES' | fg=theme1
+D139 | 'OFF' | fg=theme1
+E139 | 'YES' | fg=theme1
+G139 | 'YES' | fg=theme1
+H139 | 'OFF' | fg=theme1
+I139 | 3.0 | bg=F6B26B fg=theme1
+A140 | 'SKILL' | fg=theme1
+D140 | 'OFF' | fg=theme1
+H140 | 'OFF' | fg=theme1
+A141 | 'STRENGTH' | fg=theme1
+D141 | 'OFF' | fg=theme1
+H141 | 'OFF' | fg=theme1
+A142 | 'POWER' | fg=theme1
+D142 | 'OFF' | fg=theme1
+H142 | 'OFF' | fg=theme1
+A143 | 'RESISTANCE' | fg=theme1
+D143 | 'OFF' | fg=theme1
+H143 | 'OFF' | fg=theme1
+A144 | 'WODs' | fg=theme1
+B144 | 'YES' | fg=theme1
+D144 | 'OFF' | fg=theme1
+E144 | 'YES' | fg=theme1
+G144 | 'YES' | fg=theme1
+H144 | 'OFF' | fg=theme1
+I144 | 3.0 | bg=F6B26B fg=theme1
+A145 | 'TEST/PEAK' | fg=theme1
+D145 | 'OFF' | fg=theme1
+H145 | 'OFF' | fg=theme1
+I145 | 4.0 | bg=E06666 fg=theme1

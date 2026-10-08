@@ -1,0 +1,119 @@
+SHEET: 'BOOTCAMP - OPTION 2'
+DIMENSIONS: A1:M998  max_row=998 max_col=13
+NON-EMPTY CELLS: 98
+MERGED (19): A18:A22, A8:A12, B28:B32, A1:E1, A33:A37, A23:A27, B33:B37, D33:D37, A28:A32, A13:A17, C33:C37, E33:E37, B3:B7, B18:B22, B8:B12, B13:B17, F33:F37, A3:A7, B23:B27
+DATA VALIDATIONS (dropdown sources):
+  E16 E31 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AT$7:$AT$42"
+  E17 E32 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AH$7:$AH$42"
+  E8 E23 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AN$7:$AN$122"
+  E11 E26 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AA$7:$AA$122"
+  E14 E29 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AL$7:$AL$42"
+  E10 E25 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AS$7:$AS$42"
+  E9 E24 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AD$7:$AD$162"
+  E5 E20 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AQ$7:$AQ$42"
+  E15 E30 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$B$7:$B$122"
+  E13 E28 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$U$7:$U$122"
+  E4 E19 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$X$7:$X$162"
+  E3 E18 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AI$7:$AI$122"
+  E6 E21 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$O$7:$O$283"
+  E7 E12 E22 E27 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$B$7:$B$335"
+
+CELLS (row-major; coord | value | formatting):
+A1 | 'BOOTCAMP OPTION 1' | bg=C9DAF8 bold fg=theme1
+A2 | 'WEEK' | bold fg=theme1
+B2 | 'DAY' | bold fg=theme1
+C2 | 'PURPOSE' | bold fg=theme1
+D2 | 'CATEGORY' | bold fg=theme1
+E2 | 'EXERCISE' | bold fg=theme1
+B3 | '1A' | bold fg=theme1
+C3 | 'Quads' | bg=EFEFEF fg=theme1
+D3 | 'Bilateral KD' | bg=EFEFEF fg=theme1
+E3 | 'CHOOSE 👇' | bg=EFEFEF fg=theme1
+C4 | 'Back' | bg=EFEFEF fg=theme1
+D4 | 'Horizontal Pull' | bg=EFEFEF fg=theme1
+E4 | 'CHOOSE 👇' | bg=EFEFEF fg=theme1
+C5 | 'Hamstring/Glutes' | bg=EFEFEF fg=theme1
+D5 | 'Unilateral HD' | bg=EFEFEF fg=theme1
+E5 | 'CHOOSE 👇' | bg=EFEFEF fg=theme1
+C6 | 'Core' | bg=EFEFEF fg=theme1
+E6 | 'CHOOSE 👇' | bg=EFEFEF fg=theme1
+C7 | 'Cardio' | bg=EFEFEF fg=theme1
+E7 | 'CHOOSE 👇' | bg=EFEFEF fg=theme1
+B8 | '2A' | bold fg=theme1
+C8 | 'Hamstring' | bg=F3F3F3 fg=theme1
+D8 | 'Bilateral HD' | bg=F3F3F3 fg=theme1
+E8 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+C9 | 'Chest' | bg=F3F3F3 fg=theme1
+D9 | 'Horizontal Push' | bg=F3F3F3 fg=theme1
+E9 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+C10 | 'Bicep' | bg=F3F3F3 fg=theme1
+D10 | 'Bicep' | bg=F3F3F3 fg=theme1
+E10 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+C11 | 'Chest/Shoulders' | bg=F3F3F3 fg=theme1
+D11 | 'Vertical Push' | bg=F3F3F3 fg=theme1
+E11 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+C12 | 'Cardio' | bg=F3F3F3 fg=theme1
+E12 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+B13 | '3A' | bold fg=theme1
+C13 | 'Back ' | bg=D9D9D9 fg=theme1
+D13 | 'Vertical Pull' | bg=D9D9D9 fg=theme1
+E13 | 'CHOOSE 👇' | bg=D9D9D9 fg=theme1
+C14 | 'Quads/Glutes' | bg=D9D9D9 fg=theme1
+D14 | 'Unilateral KD' | bg=D9D9D9 fg=theme1
+E14 | 'CHOOSE 👇' | bg=D9D9D9 fg=theme1
+C15 | 'Cardio' | bg=D9D9D9 fg=theme1
+E15 | 'CHOOSE 👇' | bg=D9D9D9 fg=theme1
+C16 | 'Tricep' | bg=D9D9D9 fg=theme1
+D16 | 'Tricep' | bg=D9D9D9 fg=theme1
+E16 | 'CHOOSE 👇' | bg=D9D9D9 fg=theme1
+C17 | 'Shoulders/Traps' | bg=D9D9D9 fg=theme1
+D17 | 'ABdution' | bg=D9D9D9 fg=theme1
+E17 | 'CHOOSE 👇' | bg=D9D9D9 fg=theme1
+B18 | '1B' | bold fg=theme1
+C18 | 'Quads' | bg=EFEFEF fg=theme1
+D18 | 'Bilateral KD' | bg=EFEFEF fg=theme1
+E18 | 'CHOOSE 👇' | bg=EFEFEF fg=theme1
+C19 | 'Back' | bg=EFEFEF fg=theme1
+D19 | 'Horizontal Pull' | bg=EFEFEF fg=theme1
+E19 | 'CHOOSE 👇' | bg=EFEFEF fg=theme1
+C20 | 'Hamstring/Glutes' | bg=EFEFEF fg=theme1
+D20 | 'Unilateral HD' | bg=EFEFEF fg=theme1
+E20 | 'CHOOSE 👇' | bg=EFEFEF fg=theme1
+C21 | 'Core' | bg=EFEFEF fg=theme1
+E21 | 'CHOOSE 👇' | bg=EFEFEF fg=theme1
+C22 | 'Cardio' | bg=EFEFEF fg=theme1
+E22 | 'CHOOSE 👇' | bg=EFEFEF fg=theme1
+B23 | '2B' | bold fg=theme1
+C23 | 'Hamstring' | bg=F3F3F3 fg=theme1
+D23 | 'Bilateral HD' | bg=F3F3F3 fg=theme1
+E23 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+C24 | 'Chest' | bg=F3F3F3 fg=theme1
+D24 | 'Horizontal Push' | bg=F3F3F3 fg=theme1
+E24 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+C25 | 'Bicep' | bg=F3F3F3 fg=theme1
+D25 | 'Bicep' | bg=F3F3F3 fg=theme1
+E25 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+C26 | 'Chest/Shoulders' | bg=F3F3F3 fg=theme1
+D26 | 'Vertical Push' | bg=F3F3F3 fg=theme1
+E26 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+C27 | 'Cardio' | bg=F3F3F3 fg=theme1
+E27 | 'CHOOSE 👇' | bg=F3F3F3 fg=theme1
+B28 | '3B' | bold fg=theme1
+C28 | 'Back ' | bg=D9D9D9 fg=theme1
+D28 | 'Vertical Pull' | bg=D9D9D9 fg=theme1
+E28 | 'CHOOSE 👇' | bg=D9D9D9 fg=theme1
+C29 | 'Quads/Glutes' | bg=D9D9D9 fg=theme1
+D29 | 'Unilateral KD' | bg=D9D9D9 fg=theme1
+E29 | 'CHOOSE 👇' | bg=D9D9D9 fg=theme1
+C30 | 'Cardio' | bg=D9D9D9 fg=theme1
+E30 | 'CHOOSE 👇' | bg=D9D9D9 fg=theme1
+C31 | 'Tricep' | bg=D9D9D9 fg=theme1
+D31 | 'Tricep' | bg=D9D9D9 fg=theme1
+E31 | 'CHOOSE 👇' | bg=D9D9D9 fg=theme1
+C32 | 'Shoulders/Traps' | bg=D9D9D9 fg=theme1
+D32 | 'ABdution' | bg=D9D9D9 fg=theme1
+E32 | 'CHOOSE 👇' | bg=D9D9D9 fg=theme1
+B33 | 'SUNDAY' | bg=F4CCCC bold fg=theme1
+C33 | 'OFF' | bg=F4CCCC bold fg=theme1
+D33 | 'OFF' | bg=F4CCCC bold fg=theme1
+E33 | 'OFF' | bg=F4CCCC bold fg=theme1

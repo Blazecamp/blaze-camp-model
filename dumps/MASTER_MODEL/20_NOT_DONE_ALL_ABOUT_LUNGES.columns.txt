@@ -1,0 +1,40 @@
+SHEET: '(NOT DONE) ALL ABOUT LUNGES' - COLUMN-MAJOR VIEW (each column top to bottom)
+
+=== COLUMN A (16 cells) ===
+  r1: 'UNDER CONSTRUCTION'  [bg=FFFF00 bold fg=theme1]
+  r3: '*LUNGES are a UNILATERAL KNEE DOMINANT MOVEMENT'  [fg=theme1]
+  r4: "**Just because they are knee dominant, it doesn't mean that they don't affect the hips... We can bias different foot placement for hip adaptations as much as foot adaptations"  [fg=theme1]
+  r6: 'BUILDING THOUGHTS....'  [fg=theme1]
+  r8: 'Lunges are a propulsive strategy '  [fg=theme1]
+  r9: 'Lunges can be great for targetting prime movers along with frontal/transverse musculature'  [fg=theme1]
+  r10: 'Lunges are great for relative movement at the hips'  [fg=theme1]
+  r11: 'Lunges are great for strengthening athletic patterns '  [fg=theme1]
+  r12: 'Lunges are great for finding/gaining/regaining ROM'  [bg=theme0 fg=theme1]
+  r13: 'Lunges are great potentiators of the squat patterns'  [bg=theme0 fg=theme1]
+  r16: 'THIS IS NOT PERFECT, BUT IT HELPS UNDERSTAND'  [fg=theme1]
+  r17: 'Stance loads the FRONT TO BACK'  [fg=theme1]
+  r18: 'Load position loads UP/DOWN & SIDE2SIDE'  [fg=theme1]
+  r19: 'Movement orientations/guidance loads AROUND'  [fg=theme1]
+  r22: 'Front/back'  [fg=theme1]
+  r23: 'Lateral'  [fg=theme1]
+
+=== COLUMN C (13 cells) ===
+  r21: 'LOADING'  [fg=theme1]
+  r22: 'Contralateral Suitcase'  [fg=theme1]
+  r23: 'Ipsilateral Suitcase'  [fg=theme1]
+  r24: 'Duble suitcase'  [fg=theme1]
+  r25: 'Contralateral on shoulder'  [fg=theme1]
+  r26: 'Ipsilateral on shoulder'  [fg=theme1]
+  r27: 'Double handed on shoulders'  [fg=theme1]
+  r28: 'Contralateral High zercher'  [fg=theme1]
+  r29: 'Ipsilateral high zercher'  [fg=theme1]
+  r30: 'Double handed high zercher'  [fg=theme1]
+  r31: 'Zercher barbell'  [fg=theme1]
+  r32: 'Front racked barbell'  [fg=theme1]
+  r33: 'Back racked barbell'  [fg=theme1]
+
+=== COLUMN E (4 cells) ===
+  r21: 'PROPULSION'  [fg=theme1]
+  r22: 'FFE'  [fg=theme1]
+  r23: 'FLOOR'  [fg=theme1]
+  r24: 'RFE'  [fg=theme1]

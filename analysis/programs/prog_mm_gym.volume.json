@@ -1,0 +1,3505 @@
+{
+ "meta": {
+  "source": "BLAZE CAMP MASTER MODEL (raw/MASTER_MODEL.xlsx) tabs 'EXAMPLE UPPERLOWER SPLIT', 'EXAMPLE PUSHPULLLEGS SPLIT', 'EXAMPLE FAT BURNBODY TONING PRO'",
+  "counting_convention": "working set = 1.0 to each prime mover, 0.5 to clear synergists; warm-up cardio and steady-cardio days excluded; A-drills counted as AP_SPRINT athletic sets; KB Book openers as CT_CORE_THORAX control set",
+  "muscle_mapping": {
+   "RP_BKD": {
+    "quads": 1.0,
+    "glutes": 0.5
+   },
+   "RP_BHD": {
+    "hamstrings": 1.0,
+    "glutes": 0.5
+   },
+   "RP_UKD": {
+    "quads": 1.0,
+    "glutes": 1.0
+   },
+   "RP_UHD": {
+    "hamstrings": 1.0,
+    "glutes": 1.0
+   },
+   "ISO_QUAD": {
+    "quads": 1.0
+   },
+   "ISO_HAM": {
+    "hamstrings": 1.0
+   },
+   "ISO_CALF": {
+    "calves": 1.0
+   },
+   "RP_HPUSH": {
+    "chest": 1.0,
+    "front_delts": 0.5,
+    "triceps": 0.5
+   },
+   "DIPS": {
+    "chest": 1.0,
+    "triceps": 1.0,
+    "front_delts": 0.5
+   },
+   "RP_VPUSH": {
+    "front_delts": 1.0,
+    "side_delts": 0.5,
+    "triceps": 0.5
+   },
+   "RP_HPULL": {
+    "lats_upper_back": 1.0,
+    "rear_delts": 0.5,
+    "biceps": 0.5
+   },
+   "RP_VPULL": {
+    "lats_upper_back": 1.0,
+    "biceps": 0.5
+   },
+   "SIDE_RAISES_UPRIGHT_ROWS": {
+    "side_delts": 1.0
+   },
+   "REVERSE_FLIES": {
+    "rear_delts": 1.0,
+    "lats_upper_back": 0.5
+   },
+   "ISO_BICEP": {
+    "biceps": 1.0
+   },
+   "ISO_TRICEP": {
+    "triceps": 1.0
+   },
+   "CORE_CIRCUIT_ITEMS": {
+    "abs_obliques": 1.0
+   },
+   "SIDE_PLANK_EACH_SIDE": {
+    "abs_obliques": 0.5
+   },
+   "DB_CURL_TO_PRESS": {
+    "biceps": 1.0,
+    "front_delts": 1.0,
+    "triceps": 0.5
+   },
+   "prime_mover_source": "coach PURPOSE labels in BYOP 'PUSHPULLLEGS - 3 or 6 DAYS A WK' ('Quads','Hamstring','Quads/Glutes','Hamstring/Glutes','Chest','Chest/Shoulders','Back','Shoulders/Traps','Bicep','Tricep'); synergists inferred"
+  },
+  "rep_notation": "date cells with number_format m/d are 'N/N' reps per side; 'MAX REPS'/'MAX' = AMRAP; 'NN secs' = timed circuit station"
+ },
+ "programs": [
+  {
+   "tab": "EXAMPLE UPPERLOWER SPLIT",
+   "title": "UPPER / LOWER SPLIT",
+   "level": "NOVICE",
+   "goal": "general hypertrophy / fitness (inferred); lower day carries A-drill sprint primer",
+   "days_per_week": 4,
+   "days_per_week_basis": "INFERRED: A/B/A/B Mon/Tue/Thu/Fri + steady cardio Wed & Sat (A5 note); alt scenarios in weekly_alt_scenarios",
+   "sessions": [
+    "A: LOWER BODY WORKOUT (ADAY)",
+    "B: UPPER BODY WORKOUT (BDAY)"
+   ],
+   "exercises_per_session": [
+    10,
+    8
+   ],
+   "sets_per_session": [
+    20,
+    24
+   ],
+   "resistance_sets_per_session": [
+    14,
+    24
+   ],
+   "athletic_sets_per_session": [
+    6,
+    0
+   ],
+   "per_session_sets_by_bucket": {
+    "A_LOWER": {
+     "AP_SPRINT": 6,
+     "RP_BKD": 2,
+     "RP_BHD": 2,
+     "RP_UKD": 2,
+     "RP_UHD": 2,
+     "ISO_QUAD": 2,
+     "ISO_HAM": 2,
+     "ISO_CALF": 2
+    },
+    "B_UPPER": {
+     "RP_HPUSH": 3,
+     "RP_VPUSH": 3,
+     "RP_HPULL": 3,
+     "RP_VPULL": 3,
+     "ISO_SIDE_REAR_DELT": 6,
+     "ISO_BICEP": 3,
+     "ISO_TRICEP": 3
+    }
+   },
+   "weekly_sets_by_bucket": {
+    "AP_SPRINT": 12,
+    "RP_BKD": 4,
+    "RP_BHD": 4,
+    "RP_UKD": 4,
+    "RP_UHD": 4,
+    "RP_HPUSH": 6,
+    "RP_VPUSH": 6,
+    "RP_HPULL": 6,
+    "RP_VPULL": 6,
+    "ISO_QUAD": 4,
+    "ISO_HAM": 4,
+    "ISO_SIDE_REAR_DELT": 12,
+    "ISO_BICEP": 6,
+    "ISO_TRICEP": 6,
+    "ISO_CALF": 4
+   },
+   "weekly_sets_by_muscle": {
+    "quads": 12,
+    "glutes": 12,
+    "hamstrings": 12,
+    "chest": 6,
+    "lats_upper_back": 12,
+    "front_delts": 9,
+    "side_delts": 15,
+    "rear_delts": 3,
+    "biceps": 12,
+    "triceps": 12,
+    "calves": 4,
+    "abs_obliques": 0
+   },
+   "weekly_total_working_sets": 88,
+   "weekly_total_resistance_sets": 76,
+   "weekly_alt_scenarios": {
+    "3_days_ABA_BAB_avg": {
+     "buckets": {
+      "AP_SPRINT": 9,
+      "RP_BKD": 3,
+      "RP_BHD": 3,
+      "RP_UKD": 3,
+      "RP_UHD": 3,
+      "RP_HPUSH": 4.5,
+      "RP_VPUSH": 4.5,
+      "RP_HPULL": 4.5,
+      "RP_VPULL": 4.5,
+      "ISO_QUAD": 3,
+      "ISO_HAM": 3,
+      "ISO_SIDE_REAR_DELT": 9,
+      "ISO_BICEP": 4.5,
+      "ISO_TRICEP": 4.5,
+      "ISO_CALF": 3
+     },
+     "muscles": {
+      "quads": 9,
+      "glutes": 9,
+      "hamstrings": 9,
+      "chest": 4.5,
+      "lats_upper_back": 9,
+      "front_delts": 6.75,
+      "side_delts": 11.25,
+      "rear_delts": 2.25,
+      "biceps": 9,
+      "triceps": 9,
+      "calves": 3,
+      "abs_obliques": 0
+     },
+     "total_working_sets": 66.0,
+     "total_resistance_sets": 57.0
+    },
+    "2_days_AB": {
+     "buckets": {
+      "AP_SPRINT": 6,
+      "RP_BKD": 2,
+      "RP_BHD": 2,
+      "RP_UKD": 2,
+      "RP_UHD": 2,
+      "RP_HPUSH": 3,
+      "RP_VPUSH": 3,
+      "RP_HPULL": 3,
+      "RP_VPULL": 3,
+      "ISO_QUAD": 2,
+      "ISO_HAM": 2,
+      "ISO_SIDE_REAR_DELT": 6,
+      "ISO_BICEP": 3,
+      "ISO_TRICEP": 3,
+      "ISO_CALF": 2
+     },
+     "muscles": {
+      "quads": 6,
+      "glutes": 6,
+      "hamstrings": 6,
+      "chest": 3,
+      "lats_upper_back": 6,
+      "front_delts": 4.5,
+      "side_delts": 7.5,
+      "rear_delts": 1.5,
+      "biceps": 6,
+      "triceps": 6,
+      "calves": 2,
+      "abs_obliques": 0
+     },
+     "total_working_sets": 44,
+     "total_resistance_sets": 38
+    }
+   },
+   "rep_ranges_by_bucket": {
+    "AP_SPRINT": {
+     "min": 12,
+     "max": 12,
+     "values": [
+      12
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_BKD": {
+     "min": 12,
+     "max": 12,
+     "values": [
+      12
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_BHD": {
+     "min": 12,
+     "max": 12,
+     "values": [
+      12
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_UKD": {
+     "min": 12,
+     "max": 12,
+     "values": [
+      12
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_UHD": {
+     "min": 12,
+     "max": 12,
+     "values": [
+      12
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_HPUSH": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_VPUSH": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_HPULL": {
+     "min": 12,
+     "max": 12,
+     "values": [
+      12
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_VPULL": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_QUAD": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_HAM": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_SIDE_REAR_DELT": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_BICEP": {
+     "min": null,
+     "max": null,
+     "values": [],
+     "non_numeric": [
+      "AMRAP"
+     ],
+     "per_side": false
+    },
+    "ISO_TRICEP": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_CALF": {
+     "min": null,
+     "max": null,
+     "values": [],
+     "non_numeric": [
+      "AMRAP"
+     ],
+     "per_side": false
+    },
+    "COND_AEROBIC": {
+     "min": null,
+     "max": null,
+     "values": [],
+     "non_numeric": [
+      "5min"
+     ],
+     "per_side": false
+    }
+   },
+   "rep_bins": {
+    "BIG_compound_RP": {
+     "sets": {
+      "6-8": 9.0,
+      "9-12": 11.0
+     },
+     "pct": {
+      "6-8": 45.0,
+      "9-12": 55.0
+     },
+     "total_sets": 20.0
+    },
+    "SMALL_isolation_ISO": {
+     "sets": {
+      "16-20": 13.0,
+      "AMRAP": 5.0
+     },
+     "pct": {
+      "16-20": 72.2,
+      "AMRAP": 27.8
+     },
+     "total_sets": 18.0
+    }
+   },
+   "mean_reps_big": 10.2,
+   "mean_reps_small": 20.0,
+   "intensity": "A4 'Always leave 1 rep in the tank, never work up to failure'; A6 '1-3 RIR (REPS IN RESERVE) aka RPE 7+'; MAX REPS on calves & curls",
+   "rest": "not stated (linked ALL ABOUT SQUATS: 1-2 min hypertrophy, 3-6 min strength)",
+   "tempo": "not stated",
+   "sets_assumption": "all set cells filled; as written == assumed",
+   "progression_summary": "Entry level: lower 2 sets/exercise (compounds 2x12, iso 2x20), upper 3x8 compounds, 3x20/MAX isolation."
+  },
+  {
+   "tab": "EXAMPLE UPPERLOWER SPLIT",
+   "title": "UPPER / LOWER SPLIT",
+   "level": "NEWBY",
+   "goal": "general hypertrophy / fitness (inferred); lower day carries A-drill sprint primer",
+   "days_per_week": 4,
+   "days_per_week_basis": "INFERRED: A/B/A/B Mon/Tue/Thu/Fri + steady cardio Wed & Sat (A5 note); alt scenarios in weekly_alt_scenarios",
+   "sessions": [
+    "A: LOWER BODY WORKOUT (ADAY)",
+    "B: UPPER BODY WORKOUT (BDAY)"
+   ],
+   "exercises_per_session": [
+    10,
+    8
+   ],
+   "sets_per_session": [
+    30,
+    24
+   ],
+   "resistance_sets_per_session": [
+    21,
+    24
+   ],
+   "athletic_sets_per_session": [
+    9,
+    0
+   ],
+   "per_session_sets_by_bucket": {
+    "A_LOWER": {
+     "AP_SPRINT": 9,
+     "RP_BKD": 3,
+     "RP_BHD": 3,
+     "RP_UKD": 3,
+     "RP_UHD": 3,
+     "ISO_QUAD": 3,
+     "ISO_HAM": 3,
+     "ISO_CALF": 3
+    },
+    "B_UPPER": {
+     "RP_HPUSH": 3,
+     "RP_VPUSH": 3,
+     "RP_HPULL": 3,
+     "RP_VPULL": 3,
+     "ISO_SIDE_REAR_DELT": 6,
+     "ISO_BICEP": 3,
+     "ISO_TRICEP": 3
+    }
+   },
+   "weekly_sets_by_bucket": {
+    "AP_SPRINT": 18,
+    "RP_BKD": 6,
+    "RP_BHD": 6,
+    "RP_UKD": 6,
+    "RP_UHD": 6,
+    "RP_HPUSH": 6,
+    "RP_VPUSH": 6,
+    "RP_HPULL": 6,
+    "RP_VPULL": 6,
+    "ISO_QUAD": 6,
+    "ISO_HAM": 6,
+    "ISO_SIDE_REAR_DELT": 12,
+    "ISO_BICEP": 6,
+    "ISO_TRICEP": 6,
+    "ISO_CALF": 6
+   },
+   "weekly_sets_by_muscle": {
+    "quads": 18,
+    "glutes": 18,
+    "hamstrings": 18,
+    "chest": 6,
+    "lats_upper_back": 12,
+    "front_delts": 9,
+    "side_delts": 15,
+    "rear_delts": 3,
+    "biceps": 12,
+    "triceps": 12,
+    "calves": 6,
+    "abs_obliques": 0
+   },
+   "weekly_total_working_sets": 108,
+   "weekly_total_resistance_sets": 90,
+   "weekly_alt_scenarios": {
+    "3_days_ABA_BAB_avg": {
+     "buckets": {
+      "AP_SPRINT": 13.5,
+      "RP_BKD": 4.5,
+      "RP_BHD": 4.5,
+      "RP_UKD": 4.5,
+      "RP_UHD": 4.5,
+      "RP_HPUSH": 4.5,
+      "RP_VPUSH": 4.5,
+      "RP_HPULL": 4.5,
+      "RP_VPULL": 4.5,
+      "ISO_QUAD": 4.5,
+      "ISO_HAM": 4.5,
+      "ISO_SIDE_REAR_DELT": 9,
+      "ISO_BICEP": 4.5,
+      "ISO_TRICEP": 4.5,
+      "ISO_CALF": 4.5
+     },
+     "muscles": {
+      "quads": 13.5,
+      "glutes": 13.5,
+      "hamstrings": 13.5,
+      "chest": 4.5,
+      "lats_upper_back": 9,
+      "front_delts": 6.75,
+      "side_delts": 11.25,
+      "rear_delts": 2.25,
+      "biceps": 9,
+      "triceps": 9,
+      "calves": 4.5,
+      "abs_obliques": 0
+     },
+     "total_working_sets": 81.0,
+     "total_resistance_sets": 67.5
+    },
+    "2_days_AB": {
+     "buckets": {
+      "AP_SPRINT": 9,
+      "RP_BKD": 3,
+      "RP_BHD": 3,
+      "RP_UKD": 3,
+      "RP_UHD": 3,
+      "RP_HPUSH": 3,
+      "RP_VPUSH": 3,
+      "RP_HPULL": 3,
+      "RP_VPULL": 3,
+      "ISO_QUAD": 3,
+      "ISO_HAM": 3,
+      "ISO_SIDE_REAR_DELT": 6,
+      "ISO_BICEP": 3,
+      "ISO_TRICEP": 3,
+      "ISO_CALF": 3
+     },
+     "muscles": {
+      "quads": 9,
+      "glutes": 9,
+      "hamstrings": 9,
+      "chest": 3,
+      "lats_upper_back": 6,
+      "front_delts": 4.5,
+      "side_delts": 7.5,
+      "rear_delts": 1.5,
+      "biceps": 6,
+      "triceps": 6,
+      "calves": 3,
+      "abs_obliques": 0
+     },
+     "total_working_sets": 54,
+     "total_resistance_sets": 45
+    }
+   },
+   "rep_ranges_by_bucket": {
+    "AP_SPRINT": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_BKD": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_BHD": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_UKD": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_UHD": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_HPUSH": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_VPUSH": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_HPULL": {
+     "min": 12,
+     "max": 12,
+     "values": [
+      12
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_VPULL": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_QUAD": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_HAM": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_SIDE_REAR_DELT": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_BICEP": {
+     "min": null,
+     "max": null,
+     "values": [],
+     "non_numeric": [
+      "AMRAP"
+     ],
+     "per_side": false
+    },
+    "ISO_TRICEP": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_CALF": {
+     "min": null,
+     "max": null,
+     "values": [],
+     "non_numeric": [
+      "AMRAP"
+     ],
+     "per_side": false
+    },
+    "COND_AEROBIC": {
+     "min": null,
+     "max": null,
+     "values": [],
+     "non_numeric": [
+      "5min"
+     ],
+     "per_side": false
+    }
+   },
+   "rep_bins": {
+    "BIG_compound_RP": {
+     "sets": {
+      "9-12": 24.0
+     },
+     "pct": {
+      "9-12": 100.0
+     },
+     "total_sets": 24.0
+    },
+    "SMALL_isolation_ISO": {
+     "sets": {
+      "16-20": 15.0,
+      "AMRAP": 6.0
+     },
+     "pct": {
+      "16-20": 71.4,
+      "AMRAP": 28.6
+     },
+     "total_sets": 21.0
+    }
+   },
+   "mean_reps_big": 10.25,
+   "mean_reps_small": 20.0,
+   "intensity": "A4 'Always leave 1 rep in the tank, never work up to failure'; A6 '1-3 RIR (REPS IN RESERVE) aka RPE 7+'; MAX REPS on calves & curls",
+   "rest": "not stated (linked ALL ABOUT SQUATS: 1-2 min hypertrophy, 3-6 min strength)",
+   "tempo": "not stated",
+   "sets_assumption": "all set cells filled; as written == assumed",
+   "progression_summary": "vs NOVICE: lower +1 set every row (3x10 compounds, 3x20 iso); upper compounds 3x10; weekly resistance sets 76->90 (+18.4%)."
+  },
+  {
+   "tab": "EXAMPLE UPPERLOWER SPLIT",
+   "title": "UPPER / LOWER SPLIT",
+   "level": "INTERMEDIATE",
+   "goal": "general hypertrophy / fitness (inferred); lower day carries A-drill sprint primer",
+   "days_per_week": 4,
+   "days_per_week_basis": "INFERRED: A/B/A/B Mon/Tue/Thu/Fri + steady cardio Wed & Sat (A5 note); alt scenarios in weekly_alt_scenarios",
+   "sessions": [
+    "A: LOWER BODY WORKOUT (ADAY)",
+    "B: UPPER BODY WORKOUT (BDAY)"
+   ],
+   "exercises_per_session": [
+    10,
+    8
+   ],
+   "sets_per_session": [
+    32,
+    27
+   ],
+   "resistance_sets_per_session": [
+    24,
+    27
+   ],
+   "athletic_sets_per_session": [
+    8,
+    0
+   ],
+   "per_session_sets_by_bucket": {
+    "A_LOWER": {
+     "AP_SPRINT": 8,
+     "RP_BKD": 4,
+     "RP_BHD": 4,
+     "RP_UKD": 4,
+     "RP_UHD": 3,
+     "ISO_QUAD": 3,
+     "ISO_HAM": 3,
+     "ISO_CALF": 3
+    },
+    "B_UPPER": {
+     "RP_HPUSH": 4,
+     "RP_VPUSH": 4,
+     "RP_HPULL": 3,
+     "RP_VPULL": 4,
+     "ISO_SIDE_REAR_DELT": 6,
+     "ISO_BICEP": 3,
+     "ISO_TRICEP": 3
+    }
+   },
+   "weekly_sets_by_bucket": {
+    "AP_SPRINT": 16,
+    "RP_BKD": 8,
+    "RP_BHD": 8,
+    "RP_UKD": 8,
+    "RP_UHD": 6,
+    "RP_HPUSH": 8,
+    "RP_VPUSH": 8,
+    "RP_HPULL": 6,
+    "RP_VPULL": 8,
+    "ISO_QUAD": 6,
+    "ISO_HAM": 6,
+    "ISO_SIDE_REAR_DELT": 12,
+    "ISO_BICEP": 6,
+    "ISO_TRICEP": 6,
+    "ISO_CALF": 6
+   },
+   "weekly_sets_by_muscle": {
+    "quads": 22,
+    "glutes": 22,
+    "hamstrings": 20,
+    "chest": 8,
+    "lats_upper_back": 14,
+    "front_delts": 12,
+    "side_delts": 16,
+    "rear_delts": 3,
+    "biceps": 13,
+    "triceps": 14,
+    "calves": 6,
+    "abs_obliques": 0
+   },
+   "weekly_total_working_sets": 118,
+   "weekly_total_resistance_sets": 102,
+   "weekly_alt_scenarios": {
+    "3_days_ABA_BAB_avg": {
+     "buckets": {
+      "AP_SPRINT": 12,
+      "RP_BKD": 6,
+      "RP_BHD": 6,
+      "RP_UKD": 6,
+      "RP_UHD": 4.5,
+      "RP_HPUSH": 6,
+      "RP_VPUSH": 6,
+      "RP_HPULL": 4.5,
+      "RP_VPULL": 6,
+      "ISO_QUAD": 4.5,
+      "ISO_HAM": 4.5,
+      "ISO_SIDE_REAR_DELT": 9,
+      "ISO_BICEP": 4.5,
+      "ISO_TRICEP": 4.5,
+      "ISO_CALF": 4.5
+     },
+     "muscles": {
+      "quads": 16.5,
+      "glutes": 16.5,
+      "hamstrings": 15,
+      "chest": 6,
+      "lats_upper_back": 10.5,
+      "front_delts": 9,
+      "side_delts": 12,
+      "rear_delts": 2.25,
+      "biceps": 9.75,
+      "triceps": 10.5,
+      "calves": 4.5,
+      "abs_obliques": 0
+     },
+     "total_working_sets": 88.5,
+     "total_resistance_sets": 76.5
+    },
+    "2_days_AB": {
+     "buckets": {
+      "AP_SPRINT": 8,
+      "RP_BKD": 4,
+      "RP_BHD": 4,
+      "RP_UKD": 4,
+      "RP_UHD": 3,
+      "RP_HPUSH": 4,
+      "RP_VPUSH": 4,
+      "RP_HPULL": 3,
+      "RP_VPULL": 4,
+      "ISO_QUAD": 3,
+      "ISO_HAM": 3,
+      "ISO_SIDE_REAR_DELT": 6,
+      "ISO_BICEP": 3,
+      "ISO_TRICEP": 3,
+      "ISO_CALF": 3
+     },
+     "muscles": {
+      "quads": 11,
+      "glutes": 11,
+      "hamstrings": 10,
+      "chest": 4,
+      "lats_upper_back": 7,
+      "front_delts": 6,
+      "side_delts": 8,
+      "rear_delts": 1.5,
+      "biceps": 6.5,
+      "triceps": 7,
+      "calves": 3,
+      "abs_obliques": 0
+     },
+     "total_working_sets": 59,
+     "total_resistance_sets": 51
+    }
+   },
+   "rep_ranges_by_bucket": {
+    "AP_SPRINT": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_BKD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_BHD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_UKD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_UHD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_HPUSH": {
+     "min": 12,
+     "max": 12,
+     "values": [
+      12
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_VPUSH": {
+     "min": 12,
+     "max": 12,
+     "values": [
+      12
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_HPULL": {
+     "min": 12,
+     "max": 12,
+     "values": [
+      12
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_VPULL": {
+     "min": 12,
+     "max": 12,
+     "values": [
+      12
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_QUAD": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_HAM": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_SIDE_REAR_DELT": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_BICEP": {
+     "min": null,
+     "max": null,
+     "values": [],
+     "non_numeric": [
+      "AMRAP"
+     ],
+     "per_side": false
+    },
+    "ISO_TRICEP": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_CALF": {
+     "min": null,
+     "max": null,
+     "values": [],
+     "non_numeric": [
+      "AMRAP"
+     ],
+     "per_side": false
+    },
+    "COND_AEROBIC": {
+     "min": null,
+     "max": null,
+     "values": [],
+     "non_numeric": [
+      "5min"
+     ],
+     "per_side": false
+    }
+   },
+   "rep_bins": {
+    "BIG_compound_RP": {
+     "sets": {
+      "6-8": 15.0,
+      "9-12": 15.0
+     },
+     "pct": {
+      "6-8": 50.0,
+      "9-12": 50.0
+     },
+     "total_sets": 30.0
+    },
+    "SMALL_isolation_ISO": {
+     "sets": {
+      "16-20": 15.0,
+      "AMRAP": 6.0
+     },
+     "pct": {
+      "16-20": 71.4,
+      "AMRAP": 28.6
+     },
+     "total_sets": 21.0
+    }
+   },
+   "mean_reps_big": 10.0,
+   "mean_reps_small": 20.0,
+   "intensity": "A4 'Always leave 1 rep in the tank, never work up to failure'; A6 '1-3 RIR (REPS IN RESERVE) aka RPE 7+'; MAX REPS on calves & curls",
+   "rest": "not stated (linked ALL ABOUT SQUATS: 1-2 min hypertrophy, 3-6 min strength)",
+   "tempo": "not stated",
+   "sets_assumption": "all set cells filled; as written == assumed",
+   "progression_summary": "vs NEWBY: lower compounds 4x8 (SL DL 3x8/8), A Run 4 sets; upper compounds 4x12; weekly resistance sets 90->102 (+13.3%). No week-to-week progression in tab."
+  },
+  {
+   "tab": "EXAMPLE PUSHPULLLEGS SPLIT",
+   "title": "PUSH / PULL / LEGS SPLIT",
+   "level": "NOVICE",
+   "goal": "general hypertrophy (inferred); legs day = UL lower day copy incl. A-drills",
+   "days_per_week": "3 or 6",
+   "days_per_week_basis": "INFERRED from BYOP sibling 'PUSHPULLLEGS - 3 or 6 DAYS A WK'; weekly_sets_by_bucket = 3-day (each once); 6-day doubles",
+   "sessions": [
+    "A: PUSH DAY WORKOUT (ADAY)",
+    "B: PULL DAY WORKOUT (BDAY)",
+    "C: LEG DAY WORKOUT (CDAY)"
+   ],
+   "exercises_per_session": [
+    6,
+    6,
+    10
+   ],
+   "sets_per_session": [
+    16,
+    18,
+    20
+   ],
+   "resistance_sets_per_session": [
+    15,
+    18,
+    14
+   ],
+   "per_session_sets_by_bucket": {
+    "A_PUSH": {
+     "RP_HPUSH": 9,
+     "ISO_SIDE_REAR_DELT": 3,
+     "ISO_TRICEP": 3,
+     "CT_CORE_THORAX": 1
+    },
+    "B_PULL": {
+     "RP_HPULL": 3,
+     "RP_VPULL": 3,
+     "ISO_SIDE_REAR_DELT": 6,
+     "ISO_BICEP": 6
+    },
+    "C_LEGS": {
+     "AP_SPRINT": 6,
+     "RP_BKD": 2,
+     "RP_BHD": 2,
+     "RP_UKD": 2,
+     "RP_UHD": 2,
+     "ISO_QUAD": 2,
+     "ISO_HAM": 2,
+     "ISO_CALF": 2
+    }
+   },
+   "weekly_sets_by_bucket": {
+    "AP_SPRINT": 6,
+    "RP_BKD": 2,
+    "RP_BHD": 2,
+    "RP_UKD": 2,
+    "RP_UHD": 2,
+    "RP_HPUSH": 9,
+    "RP_HPULL": 3,
+    "RP_VPULL": 3,
+    "ISO_QUAD": 2,
+    "ISO_HAM": 2,
+    "ISO_SIDE_REAR_DELT": 9,
+    "ISO_BICEP": 6,
+    "ISO_TRICEP": 3,
+    "ISO_CALF": 2,
+    "CT_CORE_THORAX": 1
+   },
+   "weekly_sets_by_muscle": {
+    "quads": 6,
+    "glutes": 6,
+    "hamstrings": 6,
+    "chest": 9,
+    "lats_upper_back": 7.5,
+    "front_delts": 4.5,
+    "side_delts": 6,
+    "rear_delts": 4.5,
+    "biceps": 9,
+    "triceps": 9,
+    "calves": 2,
+    "abs_obliques": 0
+   },
+   "weekly_sets_by_bucket_6day": {
+    "AP_SPRINT": 12,
+    "RP_BKD": 4,
+    "RP_BHD": 4,
+    "RP_UKD": 4,
+    "RP_UHD": 4,
+    "RP_HPUSH": 18,
+    "RP_HPULL": 6,
+    "RP_VPULL": 6,
+    "ISO_QUAD": 4,
+    "ISO_HAM": 4,
+    "ISO_SIDE_REAR_DELT": 18,
+    "ISO_BICEP": 12,
+    "ISO_TRICEP": 6,
+    "ISO_CALF": 4,
+    "CT_CORE_THORAX": 2
+   },
+   "weekly_sets_by_muscle_6day": {
+    "quads": 12,
+    "glutes": 12,
+    "hamstrings": 12,
+    "chest": 18,
+    "lats_upper_back": 15,
+    "front_delts": 9,
+    "side_delts": 12,
+    "rear_delts": 9,
+    "biceps": 18,
+    "triceps": 18,
+    "calves": 4,
+    "abs_obliques": 0
+   },
+   "weekly_total_working_sets": {
+    "3day": 54,
+    "6day": 108
+   },
+   "weekly_total_resistance_sets": {
+    "3day": 47,
+    "6day": 94
+   },
+   "weekly_alt_scenarios": {
+    "4_days_rotating_avg": {
+     "buckets": {
+      "AP_SPRINT": 8,
+      "RP_BKD": 2.67,
+      "RP_BHD": 2.67,
+      "RP_UKD": 2.67,
+      "RP_UHD": 2.67,
+      "RP_HPUSH": 12,
+      "RP_HPULL": 4,
+      "RP_VPULL": 4,
+      "ISO_QUAD": 2.67,
+      "ISO_HAM": 2.67,
+      "ISO_SIDE_REAR_DELT": 12,
+      "ISO_BICEP": 8,
+      "ISO_TRICEP": 4,
+      "ISO_CALF": 2.67,
+      "CT_CORE_THORAX": 1.33
+     },
+     "muscles": {
+      "quads": 8,
+      "glutes": 8,
+      "hamstrings": 8,
+      "chest": 12,
+      "lats_upper_back": 10,
+      "front_delts": 6,
+      "side_delts": 8,
+      "rear_delts": 6,
+      "biceps": 12,
+      "triceps": 12,
+      "calves": 2.67,
+      "abs_obliques": 0
+     },
+     "total_working_sets": 72.0,
+     "total_resistance_sets": 62.67
+    }
+   },
+   "rep_ranges_by_bucket": {
+    "AP_SPRINT": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_BKD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_BHD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_UKD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_UHD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_HPUSH": {
+     "min": 8,
+     "max": 15,
+     "values": [
+      8,
+      15
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_HPULL": {
+     "min": 15,
+     "max": 15,
+     "values": [
+      15
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_VPULL": {
+     "min": 15,
+     "max": 15,
+     "values": [
+      15
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_QUAD": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_HAM": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_SIDE_REAR_DELT": {
+     "min": 15,
+     "max": 15,
+     "values": [
+      15
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_BICEP": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_TRICEP": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_CALF": {
+     "min": null,
+     "max": null,
+     "values": [],
+     "non_numeric": [
+      "AMRAP"
+     ],
+     "per_side": false
+    },
+    "CT_CORE_THORAX": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "COND_AEROBIC": {
+     "min": null,
+     "max": null,
+     "values": [],
+     "non_numeric": [
+      "5min"
+     ],
+     "per_side": false
+    }
+   },
+   "rep_bins": {
+    "BIG_compound_RP": {
+     "sets": {
+      "6-8": 11.0,
+      "13-15": 12.0
+     },
+     "pct": {
+      "6-8": 47.8,
+      "13-15": 52.2
+     },
+     "total_sets": 23.0
+    },
+    "SMALL_isolation_ISO": {
+     "sets": {
+      "13-15": 9.0,
+      "16-20": 13.0,
+      "AMRAP": 2.0
+     },
+     "pct": {
+      "13-15": 37.5,
+      "16-20": 54.2,
+      "AMRAP": 8.3
+     },
+     "total_sets": 24.0
+    }
+   },
+   "mean_reps_big": 11.65,
+   "mean_reps_small": 17.95,
+   "intensity": "same Basic Instruction block as UL (1 RIR / 1-3 RIR RPE 7+); MAX on INT dips, MAX REPS calves",
+   "rest": "not stated",
+   "tempo": "not stated",
+   "sets_assumption": "all set cells filled; as written == assumed",
+   "progression_summary": "Entry: push/pull compounds 3x15, delt accessories 3x15, arms 3x20; legs 2x8 compounds, 2x20 iso; 47 resistance sets per rotation."
+  },
+  {
+   "tab": "EXAMPLE PUSHPULLLEGS SPLIT",
+   "title": "PUSH / PULL / LEGS SPLIT",
+   "level": "NEWBY",
+   "goal": "general hypertrophy (inferred); legs day = UL lower day copy incl. A-drills",
+   "days_per_week": "3 or 6",
+   "days_per_week_basis": "INFERRED from BYOP sibling 'PUSHPULLLEGS - 3 or 6 DAYS A WK'; weekly_sets_by_bucket = 3-day (each once); 6-day doubles",
+   "sessions": [
+    "A: PUSH DAY WORKOUT (ADAY)",
+    "B: PULL DAY WORKOUT (BDAY)",
+    "C: LEG DAY WORKOUT (CDAY)"
+   ],
+   "exercises_per_session": [
+    6,
+    6,
+    10
+   ],
+   "sets_per_session": [
+    18,
+    20,
+    30
+   ],
+   "resistance_sets_per_session": [
+    17,
+    20,
+    21
+   ],
+   "per_session_sets_by_bucket": {
+    "A_PUSH": {
+     "RP_HPUSH": 10,
+     "ISO_SIDE_REAR_DELT": 4,
+     "ISO_TRICEP": 3,
+     "CT_CORE_THORAX": 1
+    },
+    "B_PULL": {
+     "RP_HPULL": 4,
+     "RP_VPULL": 4,
+     "ISO_SIDE_REAR_DELT": 6,
+     "ISO_BICEP": 6
+    },
+    "C_LEGS": {
+     "AP_SPRINT": 9,
+     "RP_BKD": 3,
+     "RP_BHD": 3,
+     "RP_UKD": 3,
+     "RP_UHD": 3,
+     "ISO_QUAD": 3,
+     "ISO_HAM": 3,
+     "ISO_CALF": 3
+    }
+   },
+   "weekly_sets_by_bucket": {
+    "AP_SPRINT": 9,
+    "RP_BKD": 3,
+    "RP_BHD": 3,
+    "RP_UKD": 3,
+    "RP_UHD": 3,
+    "RP_HPUSH": 10,
+    "RP_HPULL": 4,
+    "RP_VPULL": 4,
+    "ISO_QUAD": 3,
+    "ISO_HAM": 3,
+    "ISO_SIDE_REAR_DELT": 10,
+    "ISO_BICEP": 6,
+    "ISO_TRICEP": 3,
+    "ISO_CALF": 3,
+    "CT_CORE_THORAX": 1
+   },
+   "weekly_sets_by_muscle": {
+    "quads": 9,
+    "glutes": 9,
+    "hamstrings": 9,
+    "chest": 10,
+    "lats_upper_back": 9.5,
+    "front_delts": 5,
+    "side_delts": 7,
+    "rear_delts": 5,
+    "biceps": 10,
+    "triceps": 9.5,
+    "calves": 3,
+    "abs_obliques": 0
+   },
+   "weekly_sets_by_bucket_6day": {
+    "AP_SPRINT": 18,
+    "RP_BKD": 6,
+    "RP_BHD": 6,
+    "RP_UKD": 6,
+    "RP_UHD": 6,
+    "RP_HPUSH": 20,
+    "RP_HPULL": 8,
+    "RP_VPULL": 8,
+    "ISO_QUAD": 6,
+    "ISO_HAM": 6,
+    "ISO_SIDE_REAR_DELT": 20,
+    "ISO_BICEP": 12,
+    "ISO_TRICEP": 6,
+    "ISO_CALF": 6,
+    "CT_CORE_THORAX": 2
+   },
+   "weekly_sets_by_muscle_6day": {
+    "quads": 18,
+    "glutes": 18,
+    "hamstrings": 18,
+    "chest": 20,
+    "lats_upper_back": 19,
+    "front_delts": 10,
+    "side_delts": 14,
+    "rear_delts": 10,
+    "biceps": 20,
+    "triceps": 19,
+    "calves": 6,
+    "abs_obliques": 0
+   },
+   "weekly_total_working_sets": {
+    "3day": 68,
+    "6day": 136
+   },
+   "weekly_total_resistance_sets": {
+    "3day": 58,
+    "6day": 116
+   },
+   "weekly_alt_scenarios": {
+    "4_days_rotating_avg": {
+     "buckets": {
+      "AP_SPRINT": 12,
+      "RP_BKD": 4,
+      "RP_BHD": 4,
+      "RP_UKD": 4,
+      "RP_UHD": 4,
+      "RP_HPUSH": 13.33,
+      "RP_HPULL": 5.33,
+      "RP_VPULL": 5.33,
+      "ISO_QUAD": 4,
+      "ISO_HAM": 4,
+      "ISO_SIDE_REAR_DELT": 13.33,
+      "ISO_BICEP": 8,
+      "ISO_TRICEP": 4,
+      "ISO_CALF": 4,
+      "CT_CORE_THORAX": 1.33
+     },
+     "muscles": {
+      "quads": 12,
+      "glutes": 12,
+      "hamstrings": 12,
+      "chest": 13.33,
+      "lats_upper_back": 12.67,
+      "front_delts": 6.67,
+      "side_delts": 9.33,
+      "rear_delts": 6.67,
+      "biceps": 13.33,
+      "triceps": 12.67,
+      "calves": 4,
+      "abs_obliques": 0
+     },
+     "total_working_sets": 90.67,
+     "total_resistance_sets": 77.33
+    }
+   },
+   "rep_ranges_by_bucket": {
+    "AP_SPRINT": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_BKD": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_BHD": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_UKD": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_UHD": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_HPUSH": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_HPULL": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_VPULL": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_QUAD": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_HAM": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_SIDE_REAR_DELT": {
+     "min": 8,
+     "max": 10,
+     "values": [
+      8,
+      10
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_BICEP": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_TRICEP": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_CALF": {
+     "min": null,
+     "max": null,
+     "values": [],
+     "non_numeric": [
+      "AMRAP"
+     ],
+     "per_side": false
+    },
+    "CT_CORE_THORAX": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "COND_AEROBIC": {
+     "min": null,
+     "max": null,
+     "values": [],
+     "non_numeric": [
+      "5min"
+     ],
+     "per_side": false
+    }
+   },
+   "rep_bins": {
+    "BIG_compound_RP": {
+     "sets": {
+      "9-12": 30.0
+     },
+     "pct": {
+      "9-12": 100.0
+     },
+     "total_sets": 30.0
+    },
+    "SMALL_isolation_ISO": {
+     "sets": {
+      "6-8": 4.0,
+      "9-12": 6.0,
+      "16-20": 15.0,
+      "AMRAP": 3.0
+     },
+     "pct": {
+      "6-8": 14.3,
+      "9-12": 21.4,
+      "16-20": 53.6,
+      "AMRAP": 10.7
+     },
+     "total_sets": 28.0
+    }
+   },
+   "mean_reps_big": 10.0,
+   "mean_reps_small": 15.68,
+   "intensity": "same Basic Instruction block as UL (1 RIR / 1-3 RIR RPE 7+); MAX on INT dips, MAX REPS calves",
+   "rest": "not stated",
+   "tempo": "not stated",
+   "sets_assumption": "all set cells filled; as written == assumed",
+   "progression_summary": "vs NOVICE: compounds 3-4x10, side raises 4x8, pulldown 4x10 with pull-up option; legs 3x10; resistance sets/rotation 47->58 (+23.4%)."
+  },
+  {
+   "tab": "EXAMPLE PUSHPULLLEGS SPLIT",
+   "title": "PUSH / PULL / LEGS SPLIT",
+   "level": "INTERMEDIATE",
+   "goal": "general hypertrophy (inferred); legs day = UL lower day copy incl. A-drills",
+   "days_per_week": "3 or 6",
+   "days_per_week_basis": "INFERRED from BYOP sibling 'PUSHPULLLEGS - 3 or 6 DAYS A WK'; weekly_sets_by_bucket = 3-day (each once); 6-day doubles",
+   "sessions": [
+    "A: PUSH DAY WORKOUT (ADAY)",
+    "B: PULL DAY WORKOUT (BDAY)",
+    "C: LEG DAY WORKOUT (CDAY)"
+   ],
+   "exercises_per_session": [
+    6,
+    6,
+    10
+   ],
+   "sets_per_session": [
+    20,
+    23,
+    32
+   ],
+   "resistance_sets_per_session": [
+    19,
+    23,
+    24
+   ],
+   "per_session_sets_by_bucket": {
+    "A_PUSH": {
+     "RP_HPUSH": 12,
+     "ISO_SIDE_REAR_DELT": 4,
+     "ISO_TRICEP": 3,
+     "CT_CORE_THORAX": 1
+    },
+    "B_PULL": {
+     "RP_HPULL": 4,
+     "RP_VPULL": 5,
+     "ISO_SIDE_REAR_DELT": 8,
+     "ISO_BICEP": 6
+    },
+    "C_LEGS": {
+     "AP_SPRINT": 8,
+     "RP_BKD": 4,
+     "RP_BHD": 4,
+     "RP_UKD": 4,
+     "RP_UHD": 3,
+     "ISO_QUAD": 3,
+     "ISO_HAM": 3,
+     "ISO_CALF": 3
+    }
+   },
+   "weekly_sets_by_bucket": {
+    "AP_SPRINT": 8,
+    "RP_BKD": 4,
+    "RP_BHD": 4,
+    "RP_UKD": 4,
+    "RP_UHD": 3,
+    "RP_HPUSH": 12,
+    "RP_HPULL": 4,
+    "RP_VPULL": 5,
+    "ISO_QUAD": 3,
+    "ISO_HAM": 3,
+    "ISO_SIDE_REAR_DELT": 12,
+    "ISO_BICEP": 6,
+    "ISO_TRICEP": 3,
+    "ISO_CALF": 3,
+    "CT_CORE_THORAX": 1
+   },
+   "weekly_sets_by_muscle": {
+    "quads": 11,
+    "glutes": 11,
+    "hamstrings": 10,
+    "chest": 12,
+    "lats_upper_back": 11,
+    "front_delts": 6,
+    "side_delts": 8,
+    "rear_delts": 6,
+    "biceps": 10.5,
+    "triceps": 11,
+    "calves": 3,
+    "abs_obliques": 0
+   },
+   "weekly_sets_by_bucket_6day": {
+    "AP_SPRINT": 16,
+    "RP_BKD": 8,
+    "RP_BHD": 8,
+    "RP_UKD": 8,
+    "RP_UHD": 6,
+    "RP_HPUSH": 24,
+    "RP_HPULL": 8,
+    "RP_VPULL": 10,
+    "ISO_QUAD": 6,
+    "ISO_HAM": 6,
+    "ISO_SIDE_REAR_DELT": 24,
+    "ISO_BICEP": 12,
+    "ISO_TRICEP": 6,
+    "ISO_CALF": 6,
+    "CT_CORE_THORAX": 2
+   },
+   "weekly_sets_by_muscle_6day": {
+    "quads": 22,
+    "glutes": 22,
+    "hamstrings": 20,
+    "chest": 24,
+    "lats_upper_back": 22,
+    "front_delts": 12,
+    "side_delts": 16,
+    "rear_delts": 12,
+    "biceps": 21,
+    "triceps": 22,
+    "calves": 6,
+    "abs_obliques": 0
+   },
+   "weekly_total_working_sets": {
+    "3day": 75,
+    "6day": 150
+   },
+   "weekly_total_resistance_sets": {
+    "3day": 66,
+    "6day": 132
+   },
+   "weekly_alt_scenarios": {
+    "4_days_rotating_avg": {
+     "buckets": {
+      "AP_SPRINT": 10.67,
+      "RP_BKD": 5.33,
+      "RP_BHD": 5.33,
+      "RP_UKD": 5.33,
+      "RP_UHD": 4,
+      "RP_HPUSH": 16,
+      "RP_HPULL": 5.33,
+      "RP_VPULL": 6.67,
+      "ISO_QUAD": 4,
+      "ISO_HAM": 4,
+      "ISO_SIDE_REAR_DELT": 16,
+      "ISO_BICEP": 8,
+      "ISO_TRICEP": 4,
+      "ISO_CALF": 4,
+      "CT_CORE_THORAX": 1.33
+     },
+     "muscles": {
+      "quads": 14.67,
+      "glutes": 14.67,
+      "hamstrings": 13.33,
+      "chest": 16,
+      "lats_upper_back": 14.67,
+      "front_delts": 8,
+      "side_delts": 10.67,
+      "rear_delts": 8,
+      "biceps": 14,
+      "triceps": 14.67,
+      "calves": 4,
+      "abs_obliques": 0
+     },
+     "total_working_sets": 100.0,
+     "total_resistance_sets": 88.0
+    }
+   },
+   "rep_ranges_by_bucket": {
+    "AP_SPRINT": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_BKD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_BHD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_UKD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_UHD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_HPUSH": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [
+      "AMRAP"
+     ],
+     "per_side": false
+    },
+    "RP_HPULL": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_VPULL": {
+     "min": 12,
+     "max": 12,
+     "values": [
+      12
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_QUAD": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_HAM": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_SIDE_REAR_DELT": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_BICEP": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_TRICEP": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_CALF": {
+     "min": null,
+     "max": null,
+     "values": [],
+     "non_numeric": [
+      "AMRAP"
+     ],
+     "per_side": false
+    },
+    "CT_CORE_THORAX": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "COND_AEROBIC": {
+     "min": null,
+     "max": null,
+     "values": [],
+     "non_numeric": [
+      "5min"
+     ],
+     "per_side": false
+    }
+   },
+   "rep_bins": {
+    "BIG_compound_RP": {
+     "sets": {
+      "6-8": 27.0,
+      "9-12": 5.0,
+      "AMRAP": 4.0
+     },
+     "pct": {
+      "6-8": 75.0,
+      "9-12": 13.9,
+      "AMRAP": 11.1
+     },
+     "total_sets": 36.0
+    },
+    "SMALL_isolation_ISO": {
+     "sets": {
+      "6-8": 12.0,
+      "16-20": 15.0,
+      "AMRAP": 3.0
+     },
+     "pct": {
+      "6-8": 40.0,
+      "16-20": 50.0,
+      "AMRAP": 10.0
+     },
+     "total_sets": 30.0
+    }
+   },
+   "mean_reps_big": 8.62,
+   "mean_reps_small": 14.67,
+   "intensity": "same Basic Instruction block as UL (1 RIR / 1-3 RIR RPE 7+); MAX on INT dips, MAX REPS calves",
+   "rest": "not stated",
+   "tempo": "not stated",
+   "sets_assumption": "all set cells filled; as written == assumed",
+   "progression_summary": "vs NEWBY: compounds 4x8, pulldown 5x12, dips 4xMAX, delt accessories 4x8; legs 4x8; resistance sets/rotation 58->66 (+13.8%). No week-to-week progression in tab."
+  },
+  {
+   "tab": "EXAMPLE FAT BURNBODY TONING PRO",
+   "title": "MUSCLE BUILDING + CIRCUITS RECCOMENDED",
+   "level": "single level",
+   "week": "WK1",
+   "goal": "fat loss / body toning via hypertrophy upper-lower + steady cardio + optional circuits",
+   "days_per_week": 6,
+   "days_per_week_basis": "OBSERVED: Mon LOWER, Tue UPPER, Wed cardio, Thu LOWER, Fri UPPER, Sat cardio (Sun not listed)",
+   "lifting_days_per_week": 4,
+   "cardio_days_per_week": 2,
+   "cardio": "'30-40 mi slow/steady CARDIO' Wed & Sat",
+   "sessions": [
+    "MONDAY LOWER",
+    "TUESDAY UPPER",
+    "THURSDAY LOWER",
+    "FRIDAY UPPER"
+   ],
+   "exercises_per_session": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "sets_per_session": [
+    15,
+    15,
+    15,
+    15
+   ],
+   "reps_per_session_per_side": [
+    189,
+    178,
+    189,
+    225
+   ],
+   "weekly_sets_by_bucket": {
+    "RP_BKD": 6,
+    "RP_BHD": 6,
+    "RP_UKD": 6,
+    "RP_UHD": 4,
+    "RP_HPUSH": 7,
+    "RP_VPUSH": 3,
+    "RP_HPULL": 6,
+    "RP_VPULL": 7,
+    "ISO_QUAD": 4,
+    "ISO_HAM": 4,
+    "ISO_SIDE_REAR_DELT": 3,
+    "ISO_BICEP": 2,
+    "ISO_TRICEP": 2
+   },
+   "weekly_sets_by_muscle": {
+    "quads": 16,
+    "glutes": 16,
+    "hamstrings": 14,
+    "chest": 7,
+    "lats_upper_back": 13,
+    "front_delts": 6.5,
+    "side_delts": 4.5,
+    "rear_delts": 3,
+    "biceps": 8.5,
+    "triceps": 7,
+    "calves": 0,
+    "abs_obliques": 0
+   },
+   "weekly_total_resistance_sets": 60,
+   "weekly_total_reps_per_side": 781,
+   "circuits": {
+    "days": {
+     "MONDAY": {
+      "rounds": 3,
+      "work": "30 secs",
+      "stations": [
+       "Jumping Jacks",
+       "Bodyweight reverse lunges",
+       "Situps",
+       "Dumbbell overhead press"
+      ],
+      "work_seconds_total": 360
+     },
+     "FRIDAY": {
+      "rounds": 3,
+      "work": "30 secs",
+      "stations": [
+       "Plank shoulder taps",
+       "Dumbbell curl to press",
+       "Bicycle crunches",
+       "Burpees"
+      ],
+      "work_seconds_total": 360
+     }
+    },
+    "station_sets_by_bucket": {
+     "RP_UKD": 3,
+     "RP_VPUSH": 3,
+     "ISO_BICEP": 3,
+     "CT_CORE_THORAX": 3,
+     "CORE_OTHER": 6,
+     "COND_AEROBIC": 6
+    },
+    "muscles": {
+     "quads": 3,
+     "glutes": 3,
+     "hamstrings": 0,
+     "chest": 0,
+     "lats_upper_back": 0,
+     "front_delts": 6,
+     "side_delts": 1.5,
+     "rear_delts": 0,
+     "biceps": 3,
+     "triceps": 3,
+     "calves": 0,
+     "abs_obliques": 9
+    },
+    "work_seconds_week": 720,
+    "assumption": "rounds number in first station row applies to all 4 stations (INFERRED); as written other stations have no set value"
+   },
+   "weekly_sets_by_bucket_incl_circuits": {
+    "RP_BKD": 6,
+    "RP_BHD": 6,
+    "RP_UKD": 9,
+    "RP_UHD": 4,
+    "RP_HPUSH": 7,
+    "RP_VPUSH": 6,
+    "RP_HPULL": 6,
+    "RP_VPULL": 7,
+    "ISO_QUAD": 4,
+    "ISO_HAM": 4,
+    "ISO_SIDE_REAR_DELT": 3,
+    "ISO_BICEP": 5,
+    "ISO_TRICEP": 2,
+    "CT_CORE_THORAX": 3,
+    "CORE_OTHER": 6,
+    "COND_AEROBIC": 6
+   },
+   "weekly_sets_by_muscle_incl_circuits": {
+    "quads": 19,
+    "glutes": 19,
+    "hamstrings": 14,
+    "chest": 7,
+    "lats_upper_back": 13,
+    "front_delts": 12.5,
+    "side_delts": 6,
+    "rear_delts": 3,
+    "biceps": 11.5,
+    "triceps": 10,
+    "calves": 0,
+    "abs_obliques": 9
+   },
+   "rep_ranges_by_bucket": {
+    "RP_BKD": {
+     "min": 12,
+     "max": 15,
+     "values": [
+      12,
+      15
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_BHD": {
+     "min": 12,
+     "max": 15,
+     "values": [
+      12,
+      15
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_UKD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_UHD": {
+     "min": 12,
+     "max": 12,
+     "values": [
+      12
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_HPUSH": {
+     "min": 10,
+     "max": 12,
+     "values": [
+      10,
+      12
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_VPUSH": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_HPULL": {
+     "min": 10,
+     "max": 12,
+     "values": [
+      10,
+      12
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_VPULL": {
+     "min": 8,
+     "max": 12,
+     "values": [
+      8,
+      12
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "ISO_QUAD": {
+     "min": 15,
+     "max": 15,
+     "values": [
+      15
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_HAM": {
+     "min": 15,
+     "max": 15,
+     "values": [
+      15
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_SIDE_REAR_DELT": {
+     "min": 15,
+     "max": 15,
+     "values": [
+      15
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_BICEP": {
+     "min": 30,
+     "max": 30,
+     "values": [
+      30
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_TRICEP": {
+     "min": 30,
+     "max": 30,
+     "values": [
+      30
+     ],
+     "non_numeric": [],
+     "per_side": false
+    }
+   },
+   "circuit_rep_ranges_by_bucket": {
+    "RP_UKD": {
+     "values": [],
+     "non_numeric": [
+      "30s"
+     ]
+    },
+    "RP_VPUSH": {
+     "values": [],
+     "non_numeric": [
+      "30s"
+     ]
+    },
+    "ISO_BICEP": {
+     "values": [],
+     "non_numeric": [
+      "30s"
+     ]
+    },
+    "CT_CORE_THORAX": {
+     "values": [],
+     "non_numeric": [
+      "30s"
+     ]
+    },
+    "CORE_OTHER": {
+     "values": [],
+     "non_numeric": [
+      "30s"
+     ]
+    },
+    "COND_AEROBIC": {
+     "values": [],
+     "non_numeric": [
+      "30s"
+     ]
+    }
+   },
+   "rep_bins": {
+    "BIG_compound_RP": {
+     "sets": {
+      "6-8": 12.0,
+      "9-12": 27.0,
+      "13-15": 6.0
+     },
+     "pct": {
+      "6-8": 26.7,
+      "9-12": 60.0,
+      "13-15": 13.3
+     },
+     "total_sets": 45.0
+    },
+    "SMALL_isolation_ISO": {
+     "sets": {
+      "13-15": 11.0,
+      "21-30": 4.0
+     },
+     "pct": {
+      "13-15": 73.3,
+      "21-30": 26.7
+     },
+     "total_sets": 15.0
+    }
+   },
+   "mean_reps_big": 11.02,
+   "mean_reps_small": 19.0,
+   "reps_by_bucket": {
+    "RP_BKD": 81,
+    "RP_BHD": 81,
+    "RP_UKD": 48,
+    "RP_UHD": 48,
+    "RP_HPUSH": 76,
+    "RP_VPUSH": 24,
+    "RP_HPULL": 66,
+    "RP_VPULL": 72,
+    "ISO_QUAD": 60,
+    "ISO_HAM": 60,
+    "ISO_SIDE_REAR_DELT": 45,
+    "ISO_BICEP": 60,
+    "ISO_TRICEP": 60
+   },
+   "intensity": "not stated",
+   "rest": "not stated",
+   "tempo": "not stated",
+   "progression_summary": "Baseline: 60 sets (15/session), compounds 3x15/3x12 lower, Tue 8-10 reps vs Fri 12-15 reps upper, iso 4x15 / arms 2x30; circuits Mon+Fri 3 rds x 30s."
+  },
+  {
+   "tab": "EXAMPLE FAT BURNBODY TONING PRO",
+   "title": "MUSCLE BUILDING + CIRCUITS RECCOMENDED",
+   "level": "single level",
+   "week": "WK2",
+   "goal": "fat loss / body toning via hypertrophy upper-lower + steady cardio + optional circuits",
+   "days_per_week": 6,
+   "days_per_week_basis": "OBSERVED: Mon LOWER, Tue UPPER, Wed cardio, Thu LOWER, Fri UPPER, Sat cardio (Sun not listed)",
+   "lifting_days_per_week": 4,
+   "cardio_days_per_week": 2,
+   "cardio": "'30-40 mi slow/steady CARDIO' Wed & Sat",
+   "sessions": [
+    "MONDAY LOWER",
+    "TUESDAY UPPER",
+    "THURSDAY LOWER",
+    "FRIDAY UPPER"
+   ],
+   "exercises_per_session": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "sets_per_session": [
+    14,
+    16,
+    14,
+    16
+   ],
+   "reps_per_session_per_side": [
+    191,
+    200,
+    191,
+    240
+   ],
+   "weekly_sets_by_bucket": {
+    "RP_BKD": 6,
+    "RP_BHD": 6,
+    "RP_UKD": 6,
+    "RP_UHD": 4,
+    "RP_HPUSH": 7,
+    "RP_HPULL": 7,
+    "RP_VPULL": 7,
+    "ISO_QUAD": 3,
+    "ISO_HAM": 3,
+    "ISO_SIDE_REAR_DELT": 7,
+    "ISO_BICEP": 2,
+    "ISO_TRICEP": 2
+   },
+   "weekly_sets_by_muscle": {
+    "quads": 15,
+    "glutes": 16,
+    "hamstrings": 13,
+    "chest": 7,
+    "lats_upper_back": 14,
+    "front_delts": 3.5,
+    "side_delts": 7,
+    "rear_delts": 3.5,
+    "biceps": 9,
+    "triceps": 5.5,
+    "calves": 0,
+    "abs_obliques": 0
+   },
+   "weekly_total_resistance_sets": 60,
+   "weekly_total_reps_per_side": 822,
+   "circuits": {
+    "days": {
+     "TUESDAY": {
+      "rounds": 4,
+      "work": "35 secs",
+      "stations": [
+       "Pushups",
+       "Dumbbell hammer curls",
+       "Side plank",
+       "Other side plank"
+      ],
+      "work_seconds_total": 560
+     },
+     "THURSDAY": {
+      "rounds": 4,
+      "work": "35 secs",
+      "stations": [
+       "Mountain climbers",
+       "Bodyweight forward lunges",
+       "Plank Hip turns",
+       "Bodyweight squats"
+      ],
+      "work_seconds_total": 560
+     }
+    },
+    "station_sets_by_bucket": {
+     "RP_BKD": 4,
+     "RP_UKD": 4,
+     "RP_HPUSH": 4,
+     "ISO_BICEP": 4,
+     "CP_CORE_PELVIS": 8,
+     "CORE_OTHER": 8
+    },
+    "muscles": {
+     "quads": 8,
+     "glutes": 6,
+     "hamstrings": 0,
+     "chest": 4,
+     "lats_upper_back": 0,
+     "front_delts": 2,
+     "side_delts": 0,
+     "rear_delts": 0,
+     "biceps": 4,
+     "triceps": 2,
+     "calves": 0,
+     "abs_obliques": 12
+    },
+    "work_seconds_week": 1120,
+    "assumption": "rounds number in first station row applies to all 4 stations (INFERRED); as written other stations have no set value"
+   },
+   "weekly_sets_by_bucket_incl_circuits": {
+    "RP_BKD": 10,
+    "RP_BHD": 6,
+    "RP_UKD": 10,
+    "RP_UHD": 4,
+    "RP_HPUSH": 11,
+    "RP_HPULL": 7,
+    "RP_VPULL": 7,
+    "ISO_QUAD": 3,
+    "ISO_HAM": 3,
+    "ISO_SIDE_REAR_DELT": 7,
+    "ISO_BICEP": 6,
+    "ISO_TRICEP": 2,
+    "CP_CORE_PELVIS": 8,
+    "CORE_OTHER": 8
+   },
+   "weekly_sets_by_muscle_incl_circuits": {
+    "quads": 23,
+    "glutes": 22,
+    "hamstrings": 13,
+    "chest": 11,
+    "lats_upper_back": 14,
+    "front_delts": 5.5,
+    "side_delts": 7,
+    "rear_delts": 3.5,
+    "biceps": 13,
+    "triceps": 7.5,
+    "calves": 0,
+    "abs_obliques": 12
+   },
+   "rep_ranges_by_bucket": {
+    "RP_BKD": {
+     "min": 12,
+     "max": 15,
+     "values": [
+      12,
+      15
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_BHD": {
+     "min": 12,
+     "max": 15,
+     "values": [
+      12,
+      15
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_UKD": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_UHD": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_HPUSH": {
+     "min": 10,
+     "max": 12,
+     "values": [
+      10,
+      12
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_HPULL": {
+     "min": 10,
+     "max": 12,
+     "values": [
+      10,
+      12
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_VPULL": {
+     "min": 8,
+     "max": 12,
+     "values": [
+      8,
+      12
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "ISO_QUAD": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_HAM": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_SIDE_REAR_DELT": {
+     "min": 12,
+     "max": 15,
+     "values": [
+      12,
+      15
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_BICEP": {
+     "min": 30,
+     "max": 30,
+     "values": [
+      30
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_TRICEP": {
+     "min": 30,
+     "max": 30,
+     "values": [
+      30
+     ],
+     "non_numeric": [],
+     "per_side": false
+    }
+   },
+   "circuit_rep_ranges_by_bucket": {
+    "RP_BKD": {
+     "values": [],
+     "non_numeric": [
+      "35s"
+     ]
+    },
+    "RP_UKD": {
+     "values": [],
+     "non_numeric": [
+      "35s"
+     ]
+    },
+    "RP_HPUSH": {
+     "values": [],
+     "non_numeric": [
+      "35s"
+     ]
+    },
+    "ISO_BICEP": {
+     "values": [],
+     "non_numeric": [
+      "35s"
+     ]
+    },
+    "CP_CORE_PELVIS": {
+     "values": [],
+     "non_numeric": [
+      "35s"
+     ]
+    },
+    "CORE_OTHER": {
+     "values": [],
+     "non_numeric": [
+      "35s"
+     ]
+    }
+   },
+   "rep_bins": {
+    "BIG_compound_RP": {
+     "sets": {
+      "6-8": 3.0,
+      "9-12": 34.0,
+      "13-15": 6.0
+     },
+     "pct": {
+      "6-8": 7.0,
+      "9-12": 79.1,
+      "13-15": 14.0
+     },
+     "total_sets": 43.0
+    },
+    "SMALL_isolation_ISO": {
+     "sets": {
+      "9-12": 3.0,
+      "13-15": 4.0,
+      "16-20": 6.0,
+      "21-30": 4.0
+     },
+     "pct": {
+      "9-12": 17.6,
+      "13-15": 23.5,
+      "16-20": 35.3,
+      "21-30": 23.5
+     },
+     "total_sets": 17.0
+    }
+   },
+   "mean_reps_big": 11.3,
+   "mean_reps_small": 19.76,
+   "reps_by_bucket": {
+    "RP_BKD": 81,
+    "RP_BHD": 81,
+    "RP_UKD": 60,
+    "RP_UHD": 40,
+    "RP_HPUSH": 76,
+    "RP_HPULL": 76,
+    "RP_VPULL": 72,
+    "ISO_QUAD": 60,
+    "ISO_HAM": 60,
+    "ISO_SIDE_REAR_DELT": 96,
+    "ISO_BICEP": 60,
+    "ISO_TRICEP": 60
+   },
+   "intensity": "not stated",
+   "rest": "not stated",
+   "tempo": "not stated",
+   "progression_summary": "Sets 60 (+0%), reps 781->822 (+5.2%); A/B day order flipped; slot doses re-waved (lead 3x12, second 3x15); iso 3x20; circuits Tue+Thu 4 x 35s (+55.6% work)."
+  },
+  {
+   "tab": "EXAMPLE FAT BURNBODY TONING PRO",
+   "title": "MUSCLE BUILDING + CIRCUITS RECCOMENDED",
+   "level": "single level",
+   "week": "WK3",
+   "goal": "fat loss / body toning via hypertrophy upper-lower + steady cardio + optional circuits",
+   "days_per_week": 6,
+   "days_per_week_basis": "OBSERVED: Mon LOWER, Tue UPPER, Wed cardio, Thu LOWER, Fri UPPER, Sat cardio (Sun not listed)",
+   "lifting_days_per_week": 4,
+   "cardio_days_per_week": 2,
+   "cardio": "'30-40 mi slow/steady CARDIO' Wed & Sat",
+   "sessions": [
+    "MONDAY LOWER",
+    "TUESDAY UPPER",
+    "THURSDAY LOWER",
+    "FRIDAY UPPER"
+   ],
+   "exercises_per_session": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "sets_per_session": [
+    15,
+    17,
+    15,
+    17
+   ],
+   "reps_per_session_per_side": [
+    218,
+    222,
+    218,
+    266
+   ],
+   "weekly_sets_by_bucket": {
+    "RP_BKD": 7,
+    "RP_BHD": 7,
+    "RP_UKD": 6,
+    "RP_UHD": 6,
+    "RP_HPUSH": 8,
+    "RP_HPULL": 6,
+    "RP_VPULL": 8,
+    "ISO_QUAD": 2,
+    "ISO_HAM": 2,
+    "ISO_SIDE_REAR_DELT": 6,
+    "ISO_BICEP": 3,
+    "ISO_TRICEP": 3
+   },
+   "weekly_sets_by_muscle": {
+    "quads": 15,
+    "glutes": 19,
+    "hamstrings": 15,
+    "chest": 8,
+    "lats_upper_back": 14,
+    "front_delts": 4,
+    "side_delts": 6,
+    "rear_delts": 3,
+    "biceps": 10,
+    "triceps": 7,
+    "calves": 0,
+    "abs_obliques": 0
+   },
+   "weekly_total_resistance_sets": 64,
+   "weekly_total_reps_per_side": 924,
+   "circuits": {
+    "days": {
+     "MONDAY": {
+      "rounds": 4,
+      "work": "40 secs",
+      "stations": [
+       "Jumping Jacks",
+       "Bodyweight reverse lunges",
+       "Situps",
+       "Dumbbell overhead press"
+      ],
+      "work_seconds_total": 640
+     },
+     "FRIDAY": {
+      "rounds": 4,
+      "work": "40 secs",
+      "stations": [
+       "Plank shoulder taps",
+       "Dumbbell curl to press",
+       "Bicycle crunches",
+       "Burpees"
+      ],
+      "work_seconds_total": 640
+     }
+    },
+    "station_sets_by_bucket": {
+     "RP_UKD": 4,
+     "RP_VPUSH": 4,
+     "ISO_BICEP": 4,
+     "CT_CORE_THORAX": 4,
+     "CORE_OTHER": 8,
+     "COND_AEROBIC": 8
+    },
+    "muscles": {
+     "quads": 4,
+     "glutes": 4,
+     "hamstrings": 0,
+     "chest": 0,
+     "lats_upper_back": 0,
+     "front_delts": 8,
+     "side_delts": 2,
+     "rear_delts": 0,
+     "biceps": 4,
+     "triceps": 4,
+     "calves": 0,
+     "abs_obliques": 12
+    },
+    "work_seconds_week": 1280,
+    "assumption": "rounds number in first station row applies to all 4 stations (INFERRED); as written other stations have no set value"
+   },
+   "weekly_sets_by_bucket_incl_circuits": {
+    "RP_BKD": 7,
+    "RP_BHD": 7,
+    "RP_UKD": 10,
+    "RP_UHD": 6,
+    "RP_HPUSH": 8,
+    "RP_VPUSH": 4,
+    "RP_HPULL": 6,
+    "RP_VPULL": 8,
+    "ISO_QUAD": 2,
+    "ISO_HAM": 2,
+    "ISO_SIDE_REAR_DELT": 6,
+    "ISO_BICEP": 7,
+    "ISO_TRICEP": 3,
+    "CT_CORE_THORAX": 4,
+    "CORE_OTHER": 8,
+    "COND_AEROBIC": 8
+   },
+   "weekly_sets_by_muscle_incl_circuits": {
+    "quads": 19,
+    "glutes": 23,
+    "hamstrings": 15,
+    "chest": 8,
+    "lats_upper_back": 14,
+    "front_delts": 12,
+    "side_delts": 8,
+    "rear_delts": 3,
+    "biceps": 14,
+    "triceps": 11,
+    "calves": 0,
+    "abs_obliques": 12
+   },
+   "rep_ranges_by_bucket": {
+    "RP_BKD": {
+     "min": 10,
+     "max": 12,
+     "values": [
+      10,
+      12
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_BHD": {
+     "min": 10,
+     "max": 12,
+     "values": [
+      10,
+      12
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_UKD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_UHD": {
+     "min": 12,
+     "max": 12,
+     "values": [
+      12
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_HPUSH": {
+     "min": 8,
+     "max": 10,
+     "values": [
+      8,
+      10
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_HPULL": {
+     "min": 8,
+     "max": 12,
+     "values": [
+      8,
+      12
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_VPULL": {
+     "min": 10,
+     "max": 10,
+     "values": [
+      10
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_QUAD": {
+     "min": 40,
+     "max": 40,
+     "values": [
+      40
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_HAM": {
+     "min": 40,
+     "max": 40,
+     "values": [
+      40
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_SIDE_REAR_DELT": {
+     "min": 12,
+     "max": 20,
+     "values": [
+      12,
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_BICEP": {
+     "min": 30,
+     "max": 30,
+     "values": [
+      30
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_TRICEP": {
+     "min": 30,
+     "max": 30,
+     "values": [
+      30
+     ],
+     "non_numeric": [],
+     "per_side": false
+    }
+   },
+   "circuit_rep_ranges_by_bucket": {
+    "RP_UKD": {
+     "values": [],
+     "non_numeric": [
+      "40s"
+     ]
+    },
+    "RP_VPUSH": {
+     "values": [],
+     "non_numeric": [
+      "40s"
+     ]
+    },
+    "ISO_BICEP": {
+     "values": [],
+     "non_numeric": [
+      "40s"
+     ]
+    },
+    "CT_CORE_THORAX": {
+     "values": [],
+     "non_numeric": [
+      "40s"
+     ]
+    },
+    "CORE_OTHER": {
+     "values": [],
+     "non_numeric": [
+      "40s"
+     ]
+    },
+    "COND_AEROBIC": {
+     "values": [],
+     "non_numeric": [
+      "40s"
+     ]
+    }
+   },
+   "rep_bins": {
+    "BIG_compound_RP": {
+     "sets": {
+      "6-8": 13.0,
+      "9-12": 35.0
+     },
+     "pct": {
+      "6-8": 27.1,
+      "9-12": 72.9
+     },
+     "total_sets": 48.0
+    },
+    "SMALL_isolation_ISO": {
+     "sets": {
+      "9-12": 3.0,
+      "16-20": 3.0,
+      "21-30": 6.0,
+      "31-40": 4.0
+     },
+     "pct": {
+      "9-12": 18.8,
+      "16-20": 18.8,
+      "21-30": 37.5,
+      "31-40": 25.0
+     },
+     "total_sets": 16.0
+    }
+   },
+   "mean_reps_big": 10.17,
+   "mean_reps_small": 27.25,
+   "reps_by_bucket": {
+    "RP_BKD": 78,
+    "RP_BHD": 78,
+    "RP_UKD": 48,
+    "RP_UHD": 72,
+    "RP_HPUSH": 72,
+    "RP_HPULL": 60,
+    "RP_VPULL": 80,
+    "ISO_QUAD": 80,
+    "ISO_HAM": 80,
+    "ISO_SIDE_REAR_DELT": 96,
+    "ISO_BICEP": 90,
+    "ISO_TRICEP": 90
+   },
+   "intensity": "not stated",
+   "rest": "not stated",
+   "tempo": "not stated",
+   "progression_summary": "Sets 64 (+6.7%), reps +12.4%; exercise upgrades (FFE/RFE lunges, DB rows, lat pulldown/pull-up, incline DB bench, hammer curls, kickbacks); iso 2x40, arms 3x30; circuits Mon+Fri 4 x 40s (+14.3%)."
+  },
+  {
+   "tab": "EXAMPLE FAT BURNBODY TONING PRO",
+   "title": "MUSCLE BUILDING + CIRCUITS RECCOMENDED",
+   "level": "single level",
+   "week": "WK4",
+   "goal": "fat loss / body toning via hypertrophy upper-lower + steady cardio + optional circuits",
+   "days_per_week": 6,
+   "days_per_week_basis": "OBSERVED: Mon LOWER, Tue UPPER, Wed cardio, Thu LOWER, Fri UPPER, Sat cardio (Sun not listed)",
+   "lifting_days_per_week": 4,
+   "cardio_days_per_week": 2,
+   "cardio": "'30-40 mi slow/steady CARDIO' Wed & Sat",
+   "sessions": [
+    "MONDAY LOWER",
+    "TUESDAY UPPER",
+    "THURSDAY LOWER",
+    "FRIDAY UPPER"
+   ],
+   "exercises_per_session": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "sets_per_session": [
+    17,
+    18,
+    17,
+    18
+   ],
+   "reps_per_session_per_side": [
+    256,
+    240,
+    256,
+    288
+   ],
+   "weekly_sets_by_bucket": {
+    "RP_BKD": 8,
+    "RP_BHD": 8,
+    "RP_UKD": 6,
+    "RP_UHD": 6,
+    "RP_HPUSH": 8,
+    "RP_VPUSH": 3,
+    "RP_HPULL": 7,
+    "RP_VPULL": 8,
+    "ISO_QUAD": 3,
+    "ISO_HAM": 3,
+    "ISO_SIDE_REAR_DELT": 4,
+    "ISO_BICEP": 3,
+    "ISO_TRICEP": 3
+   },
+   "weekly_sets_by_muscle": {
+    "quads": 17,
+    "glutes": 20,
+    "hamstrings": 17,
+    "chest": 8,
+    "lats_upper_back": 15,
+    "front_delts": 7,
+    "side_delts": 5.5,
+    "rear_delts": 3.5,
+    "biceps": 10.5,
+    "triceps": 8.5,
+    "calves": 0,
+    "abs_obliques": 0
+   },
+   "weekly_total_resistance_sets": 70,
+   "weekly_total_reps_per_side": 1040,
+   "circuits": {
+    "days": {
+     "TUESDAY": {
+      "rounds": 5,
+      "work": "50 secs",
+      "stations": [
+       "Pushups",
+       "Dumbbell hammer curls",
+       "Side plank",
+       "Other side plank"
+      ],
+      "work_seconds_total": 1000
+     },
+     "THURSDAY": {
+      "rounds": 5,
+      "work": "50 secs",
+      "stations": [
+       "Mointain climbers",
+       "Bodyweight forward lunges",
+       "Plank Hip turns",
+       "Bodyweight squats"
+      ],
+      "work_seconds_total": 1000
+     }
+    },
+    "station_sets_by_bucket": {
+     "RP_BKD": 5,
+     "RP_UKD": 5,
+     "RP_HPUSH": 5,
+     "ISO_BICEP": 5,
+     "CP_CORE_PELVIS": 10,
+     "CORE_OTHER": 10
+    },
+    "muscles": {
+     "quads": 10,
+     "glutes": 7.5,
+     "hamstrings": 0,
+     "chest": 5,
+     "lats_upper_back": 0,
+     "front_delts": 2.5,
+     "side_delts": 0,
+     "rear_delts": 0,
+     "biceps": 5,
+     "triceps": 2.5,
+     "calves": 0,
+     "abs_obliques": 15
+    },
+    "work_seconds_week": 2000,
+    "assumption": "rounds number in first station row applies to all 4 stations (INFERRED); as written other stations have no set value"
+   },
+   "weekly_sets_by_bucket_incl_circuits": {
+    "RP_BKD": 13,
+    "RP_BHD": 8,
+    "RP_UKD": 11,
+    "RP_UHD": 6,
+    "RP_HPUSH": 13,
+    "RP_VPUSH": 3,
+    "RP_HPULL": 7,
+    "RP_VPULL": 8,
+    "ISO_QUAD": 3,
+    "ISO_HAM": 3,
+    "ISO_SIDE_REAR_DELT": 4,
+    "ISO_BICEP": 8,
+    "ISO_TRICEP": 3,
+    "CP_CORE_PELVIS": 10,
+    "CORE_OTHER": 10
+   },
+   "weekly_sets_by_muscle_incl_circuits": {
+    "quads": 27,
+    "glutes": 27.5,
+    "hamstrings": 17,
+    "chest": 13,
+    "lats_upper_back": 15,
+    "front_delts": 9.5,
+    "side_delts": 5.5,
+    "rear_delts": 3.5,
+    "biceps": 15.5,
+    "triceps": 11,
+    "calves": 0,
+    "abs_obliques": 15
+   },
+   "rep_ranges_by_bucket": {
+    "RP_BKD": {
+     "min": 10,
+     "max": 12,
+     "values": [
+      10,
+      12
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_BHD": {
+     "min": 10,
+     "max": 12,
+     "values": [
+      10,
+      12
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_UKD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_UHD": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_HPUSH": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "RP_VPUSH": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_HPULL": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "RP_VPULL": {
+     "min": 8,
+     "max": 8,
+     "values": [
+      8
+     ],
+     "non_numeric": [],
+     "per_side": true
+    },
+    "ISO_QUAD": {
+     "min": 40,
+     "max": 40,
+     "values": [
+      40
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_HAM": {
+     "min": 40,
+     "max": 40,
+     "values": [
+      40
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_SIDE_REAR_DELT": {
+     "min": 20,
+     "max": 20,
+     "values": [
+      20
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_BICEP": {
+     "min": 40,
+     "max": 40,
+     "values": [
+      40
+     ],
+     "non_numeric": [],
+     "per_side": false
+    },
+    "ISO_TRICEP": {
+     "min": 40,
+     "max": 40,
+     "values": [
+      40
+     ],
+     "non_numeric": [],
+     "per_side": false
+    }
+   },
+   "circuit_rep_ranges_by_bucket": {
+    "RP_BKD": {
+     "values": [],
+     "non_numeric": [
+      "50s"
+     ]
+    },
+    "RP_UKD": {
+     "values": [],
+     "non_numeric": [
+      "50s"
+     ]
+    },
+    "RP_HPUSH": {
+     "values": [],
+     "non_numeric": [
+      "50s"
+     ]
+    },
+    "ISO_BICEP": {
+     "values": [],
+     "non_numeric": [
+      "50s"
+     ]
+    },
+    "CP_CORE_PELVIS": {
+     "values": [],
+     "non_numeric": [
+      "50s"
+     ]
+    },
+    "CORE_OTHER": {
+     "values": [],
+     "non_numeric": [
+      "50s"
+     ]
+    }
+   },
+   "rep_bins": {
+    "BIG_compound_RP": {
+     "sets": {
+      "6-8": 38.0,
+      "9-12": 16.0
+     },
+     "pct": {
+      "6-8": 70.4,
+      "9-12": 29.6
+     },
+     "total_sets": 54.0
+    },
+    "SMALL_isolation_ISO": {
+     "sets": {
+      "16-20": 4.0,
+      "31-40": 12.0
+     },
+     "pct": {
+      "16-20": 25.0,
+      "31-40": 75.0
+     },
+     "total_sets": 16.0
+    }
+   },
+   "mean_reps_big": 8.89,
+   "mean_reps_small": 35.0,
+   "reps_by_bucket": {
+    "RP_BKD": 88,
+    "RP_BHD": 88,
+    "RP_UKD": 48,
+    "RP_UHD": 48,
+    "RP_HPUSH": 64,
+    "RP_VPUSH": 24,
+    "RP_HPULL": 56,
+    "RP_VPULL": 64,
+    "ISO_QUAD": 120,
+    "ISO_HAM": 120,
+    "ISO_SIDE_REAR_DELT": 80,
+    "ISO_BICEP": 120,
+    "ISO_TRICEP": 120
+   },
+   "intensity": "not stated",
+   "rest": "not stated",
+   "tempo": "not stated",
+   "progression_summary": "Sets 70 (+9.4%; +16.7% vs WK1), reps +12.6%; compounds converge on 8-10 reps (mean 8.9), iso 3x40 (mean 35); circuits Tue+Thu 5 x 50s (+56.2%, 2.78x WK1). No deload."
+  }
+ ]
+}

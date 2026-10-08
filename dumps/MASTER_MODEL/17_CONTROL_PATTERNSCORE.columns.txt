@@ -1,0 +1,91 @@
+SHEET: 'CONTROL PATTERNSCORE' - COLUMN-MAJOR VIEW (each column top to bottom)
+
+=== COLUMN A (6 cells) ===
+  r1: 'CONTROL PATTERNS'  [bold fg=theme1]
+  r2: 'CORE'  [fg=theme1]
+  r4: 'TRANSVERSE'  [bg=D9D9D9 bold fg=theme1]
+  r7: 'CORE THORAX'  [fg=theme1]
+  r18: 'CORE PELVIS'  [fg=theme1]
+  r29: 'BOTH'  [fg=theme1]
+
+=== COLUMN B (28 cells) ===
+  r5: 'DYNAMIC'  [fg=theme1]
+  r7: 'Russian twists'  [fg=theme1]
+  r8: 'Med ball from hands'  [fg=theme1]
+  r9: 'cable oblique turns'  [fg=theme1]
+  r10: 'single side carry'  [fg=theme1]
+  r11: 'plank to side plank'  [fg=theme1]
+  r12: 'up/down planks'  [fg=theme1]
+  r13: 'Cable chops'  [fg=theme1]
+  r14: 'Swiss ball plate torso rotations'  [fg=theme1]
+  r15: 'Landline standing/kneeling rotations'  [fg=theme1]
+  r16: 'Kb rotation swings no hip thrust'  [fg=theme1]
+  r18: 'Hip turns'  [fg=theme1]
+  r19: 'med ball from feet'  [fg=theme1]
+  r20: 'windshield wipers'  [fg=theme1]
+  r21: 'SL toes to bar'  [fg=theme1]
+  r22: 'knees to chest'  [fg=theme1]
+  r23: 'flutter kicks'  [fg=theme1]
+  r24: 'leg raises'  [fg=theme1]
+  r25: 'glute bridge march'  [fg=theme1]
+  r29: 'dead bugs'  [fg=theme1]
+  r30: 'bird dogs'  [fg=theme1]
+  r31: 'plank supermans'  [fg=theme1]
+  r32: 'cross connect rolls/rocking'  [fg=theme1]
+  r33: 'break dancers'  [fg=theme1]
+  r34: 'turkish gettups'  [fg=theme1]
+  r35: 'bear crawl'  [fg=theme1]
+  r36: 'Kb windmills - kneeling or standing'  [fg=theme1]
+  r37: 'Star V-Ups'  [fg=theme1]
+
+=== COLUMN E (12 cells) ===
+  r5: 'STATIC'  [fg=theme1]
+  r7: 'bench pallof plank'  [fg=theme1]
+  r8: 'pallof press'  [fg=theme1]
+  r9: 'pallof hold'  [fg=theme1]
+  r10: 'shoulder taps'  [fg=theme1]
+  r11: 'offset planks'  [fg=theme1]
+  r18: 'plank alternating feet raises'  [fg=theme1]
+  r19: 'March'  [fg=theme1]
+  r29: 'plank supermans'  [fg=theme1]
+  r30: 'bird dogs'  [fg=theme1]
+  r31: 'dead bugs'  [fg=theme1]
+  r32: 'cross connect'  [fg=theme1]
+
+=== COLUMN H (4 cells) ===
+  r4: 'SAGITAL'  [bg=D9D9D9 bold fg=theme1]
+  r7: 'CORE THORAX'  [fg=theme1]
+  r18: 'CORE PELVIS'  [fg=theme1]
+  r28: 'BOTH'  [fg=theme1]
+
+=== COLUMN I (8 cells) ===
+  r5: 'DYNAMIC'  [fg=theme1]
+  r7: 'Crunches'  [fg=theme1]
+  r18: 'Toes to bar'  [fg=theme1]
+  r19: 'Knees to chest'  [fg=theme1]
+  r20: 'Supine Leg raises'  [fg=theme1]
+  r28: 'V-ups'  [fg=theme1]
+  r29: 'Supermans'  [fg=theme1]
+  r30: 'Situp'  [fg=theme1]
+
+=== COLUMN L (5 cells) ===
+  r5: 'STATIC'  [fg=theme1]
+  r7: 'Crunch hold'  [fg=theme1]
+  r28: 'L sit hold'  [fg=theme1]
+  r29: 'Low plank'  [fg=theme1]
+  r30: 'High Plank'  [fg=theme1]
+
+=== COLUMN O (4 cells) ===
+  r4: 'FRONTAL'  [bg=D9D9D9 bold fg=theme1]
+  r7: 'CORE THORAX'  [fg=theme1]
+  r18: 'CORE PELVIS'  [fg=theme1]
+  r28: 'BOTH'  [fg=theme1]
+
+=== COLUMN P (1 cells) ===
+  r5: 'DYNAMIC'  [fg=theme1]
+
+=== COLUMN S (4 cells) ===
+  r5: 'STATIC'  [fg=theme1]
+  r28: 'Elbow Side plank'  [fg=theme1]
+  r29: 'Elbow oblique sit'  [fg=theme1]
+  r30: 'High Side plank'  [fg=theme1]

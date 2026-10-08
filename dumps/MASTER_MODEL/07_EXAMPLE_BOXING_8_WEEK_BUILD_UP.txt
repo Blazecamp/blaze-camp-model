@@ -1,0 +1,443 @@
+SHEET: 'EXAMPLE BOXING 8 WEEK BUILD UP'
+DIMENSIONS: A1:L69  max_row=69 max_col=12
+NON-EMPTY CELLS: 432
+MERGED (0): 
+DATA VALIDATIONS (dropdown sources):
+HYPERLINKS:
+  L7 -> '(NOT DONE) ALL ABOUT BALLISTICS'!A1
+  D19 -> '(NOT DONE) ALL ABOUT BALLISTICS'!A1
+  L31 -> '(NOT DONE) ALL ABOUT BALLISTICS'!A1
+
+CELLS (row-major; coord | value | formatting):
+A1 | 'BLAZE CAMP FIGHTER -  8 WEEK BUILD UP ' | bg=00FF00 fg=theme1
+E4 | 'MONDAY OFF SEASON WORK' | bold fg=theme1
+A5 | 'Week 1' | bold fg=theme1
+B5 | 'Week 2' | bold fg=theme1
+E5 | 'Week 3' | bold fg=theme1
+F5 | 'Week 4' | bold fg=theme1
+G5 | 'Week 5' | bold fg=theme1
+H5 | 'Week 6' | bold fg=theme1
+I5 | 'Week 7' | bold fg=theme1
+J5 | 'Week 8' | bold fg=theme1
+A6 | 'SETS' | bg=FFFF00 fg=theme1
+B6 | 'SETS' | bg=FFFF00 fg=theme1
+C6 | 'REPS' | fg=theme1
+E6 | 'SETS' | bg=EA9999 fg=theme1
+F6 | 'SETS' | bg=EA9999 fg=theme1
+G6 | 'SETS' | bg=E06666 fg=theme1
+H6 | 'SETS' | bg=E06666 fg=theme1
+I6 | 'SETS' | bg=E06666 fg=theme1
+J6 | 'SETS' | bg=CC0000 fg=theme1
+K6 | 'REPS' | fg=theme1
+L6 | 'EXERCISE' | fg=theme1
+A7 | 1.0 | bg=FFFF00 fg=theme1
+B7 | 1.0 | bg=FFFF00 fg=theme1
+C7 | '20/40' | fg=theme1
+D7 | '20 sec fast/ 40 sec slow (cardio of choice)' | fg=theme1
+E7 | 1.0 | bg=EA9999 fg=theme1
+F7 | 1.0 | bg=EA9999 fg=theme1
+G7 | 1.0 | bg=E06666 fg=theme1
+H7 | 1.0 | bg=E06666 fg=theme1
+I7 | 1.0 | bg=E06666 fg=theme1
+J7 | 1.0 | bg=CC0000 fg=theme1
+K7 | 'SEE LIST' | fg=theme1
+L7 | '*MEDBALLS' | bg=FFFF00 fg=1155CC
+A8 | 3.0 | bg=FFFF00 fg=theme1
+B8 | 3.0 | bg=FFFF00 fg=theme1
+C8 | '15/10' | fg=theme1
+D8 | 'Situps / Toes to bar' | fg=theme1
+E8 | 3.0 | bg=EA9999 fg=theme1
+F8 | 3.0 | bg=EA9999 fg=theme1
+G8 | 3.0 | bg=E06666 fg=theme1
+H8 | 3.0 | bg=E06666 fg=theme1
+I8 | 3.0 | bg=E06666 fg=theme1
+J8 | 2.0 | bg=CC0000 fg=theme1
+K8 | 8.0 | fg=theme1
+L8 | 'Weighted Depth Drops' | fg=theme1
+A9 | 3.0 | bg=FFFF00 fg=theme1
+B9 | 3.0 | bg=FFFF00 fg=theme1
+C9 | 10.0 | fg=theme1
+D9 | 'Front Squats' | fg=theme1
+E9 | 3.0 | bg=EA9999 fg=theme1
+F9 | 3.0 | bg=EA9999 fg=theme1
+G9 | 3.0 | bg=E06666 fg=theme1
+H9 | 3.0 | bg=E06666 fg=theme1
+I9 | 3.0 | bg=E06666 fg=theme1
+J9 | 2.0 | bg=CC0000 fg=theme1
+K9 | datetime.datetime(2022, 6, 6, 0, 0) | fg=theme1
+L9 | 'Single Leg to high march jump' | fg=theme1
+A10 | 3.0 | bg=FFFF00 fg=theme1
+B10 | 3.0 | bg=FFFF00 fg=theme1
+C10 | 10.0 | fg=theme1
+D10 | 'Deadlifts' | fg=theme1
+E10 | 3.0 | bg=EA9999 fg=theme1
+F10 | 3.0 | bg=EA9999 fg=theme1
+G10 | 3.0 | bg=E06666 fg=theme1
+H10 | 3.0 | bg=E06666 fg=theme1
+I10 | 3.0 | bg=E06666 fg=theme1
+J10 | 3.0 | bg=CC0000 fg=theme1
+K10 | 8.0 | fg=theme1
+L10 | 'Clean Pull/ hang Power Clean' | fg=theme1
+A11 | 3.0 | bg=FFFF00 fg=theme1
+B11 | 3.0 | bg=FFFF00 fg=theme1
+C11 | 10.0 | fg=theme1
+D11 | 'Reverse Lunges' | fg=theme1
+E11 | 3.0 | bg=EA9999 fg=theme1
+F11 | 3.0 | bg=EA9999 fg=theme1
+G11 | 3.0 | bg=E06666 fg=theme1
+H11 | 3.0 | bg=E06666 fg=theme1
+I11 | 3.0 | bg=E06666 fg=theme1
+J11 | 3.0 | bg=CC0000 fg=theme1
+K11 | datetime.datetime(2022, 6, 6, 0, 0) | fg=theme1
+L11 | 'Lateral box step up IPSILATERAL LOAD' | fg=theme1
+A12 | 3.0 | bg=FFFF00 fg=theme1
+B12 | 3.0 | bg=FFFF00 fg=theme1
+C12 | 10.0 | fg=theme1
+D12 | 'Single LEG Rdl' | fg=theme1
+E12 | 3.0 | bg=EA9999 fg=theme1
+F12 | 3.0 | bg=EA9999 fg=theme1
+G12 | 3.0 | bg=E06666 fg=theme1
+H12 | 3.0 | bg=E06666 fg=theme1
+I12 | 2.0 | bg=E06666 fg=theme1
+J12 | 4.0 | bg=CC0000 fg=theme1
+K12 | 6.0 | fg=theme1
+L12 | 'DEADLIFTS (1-2RIR) + 3 min Jump Rope' | fg=theme1
+A13 | 3.0 | bg=FFFF00 fg=theme1
+B13 | 3.0 | bg=FFFF00 fg=theme1
+C13 | 10.0 | fg=theme1
+D13 | 'Leg curls' | fg=theme1
+E13 | 3.0 | bg=EA9999 fg=theme1
+F13 | 3.0 | bg=EA9999 fg=theme1
+G13 | 3.0 | bg=E06666 fg=theme1
+H13 | 3.0 | bg=E06666 fg=theme1
+I13 | 2.0 | bg=E06666 fg=theme1
+J13 | 3.0 | bg=CC0000 fg=theme1
+K13 | '50/50 ' | fg=theme1
+L13 | 'Copenhagen Plank & Unilateral DL' | fg=theme1
+A14 | 3.0 | bg=FFFF00 fg=theme1
+B14 | 3.0 | bg=FFFF00 fg=theme1
+C14 | 10.0 | fg=theme1
+D14 | 'Leg Extentions' | fg=theme1
+E14 | 3.0 | bg=EA9999 fg=theme1
+F14 | 3.0 | bg=EA9999 fg=theme1
+G14 | 3.0 | bg=E06666 fg=theme1
+H14 | 3.0 | bg=E06666 fg=theme1
+I14 | 2.0 | bg=E06666 fg=theme1
+J14 | 3.0 | bg=CC0000 fg=theme1
+K14 | '6 & 6' | fg=theme1
+L14 | 'Leg ext. Leg Curls (FULL RANGE OF MOTION)' | fg=theme1
+E16 | 'TUESDAY OFF SEASON WORK' | bold fg=theme1
+A17 | 'Week 1' | bold fg=theme1
+B17 | 'Week 2' | bold fg=theme1
+E17 | 'Week 3' | bold fg=theme1
+F17 | 'Week 4' | bold fg=theme1
+G17 | 'Week 5' | bold fg=theme1
+H17 | 'Week 6' | bold fg=theme1
+I17 | 'Week 7' | bold fg=theme1
+J17 | 'Week 8' | bold fg=theme1
+A18 | 'SETS' | bg=FFFF00 fg=theme1
+B18 | 'SETS' | bg=FFFF00 fg=theme1
+C18 | 'REPS' | fg=theme1
+E18 | 'SETS' | bg=EA9999 fg=theme1
+F18 | 'SETS' | bg=EA9999 fg=theme1
+G18 | 'SETS' | bg=E06666 fg=theme1
+H18 | 'SETS' | bg=E06666 fg=theme1
+I18 | 'SETS' | bg=E06666 fg=theme1
+J18 | 'SETS' | bg=CC0000 fg=theme1
+K18 | 'REPS' | fg=theme1
+L18 | 'EXERCISE' | fg=theme1
+A19 | 1.0 | bg=FFFF00 fg=theme1
+B19 | 1.0 | bg=FFFF00 fg=theme1
+C19 | 'SEE LIST' | fg=theme1
+D19 | '*MEDBALLS' | bg=FFFF00 fg=1155CC
+E19 | 1.0 | bg=EA9999 fg=theme1
+F19 | 1.0 | bg=EA9999 fg=theme1
+G19 | 1.0 | bg=E06666 fg=theme1
+H19 | 1.0 | bg=E06666 fg=theme1
+I19 | 1.0 | bg=E06666 fg=theme1
+J19 | 1.0 | bg=CC0000 fg=theme1
+K19 | '20-40 min' | fg=theme1
+L19 | 'Cardio of any choice' | fg=theme1
+A20 | 3.0 | bg=FFFF00 fg=theme1
+B20 | 3.0 | bg=FFFF00 fg=theme1
+C20 | 10.0 | fg=theme1
+D20 | 'Db Bench PRess' | fg=theme1
+E20 | 3.0 | bg=EA9999 fg=theme1
+F20 | 3.0 | bg=EA9999 fg=theme1
+G20 | 3.0 | bg=E06666 fg=theme1
+H20 | 3.0 | bg=E06666 fg=theme1
+I20 | 4.0 | bg=E06666 fg=theme1
+J20 | 6.0 | bg=CC0000 fg=theme1
+K20 | '10/10/ 20 rows' | fg=theme1
+L20 | 'Single Leg swiss ball knee tuck in + DB rows' | fg=theme1
+A21 | 3.0 | bg=FFFF00 fg=theme1
+B21 | 3.0 | bg=FFFF00 fg=theme1
+C21 | 10.0 | fg=theme1
+D21 | 'Lat pull downs/pullups' | fg=theme1
+E21 | 3.0 | bg=EA9999 fg=theme1
+F21 | 3.0 | bg=EA9999 fg=theme1
+G21 | 3.0 | bg=E06666 fg=theme1
+H21 | 3.0 | bg=E06666 fg=theme1
+I21 | 2.0 | bg=E06666 fg=theme1
+J21 | 3.0 | bg=CC0000 fg=theme1
+K21 | '10/ 10' | fg=theme1
+L21 | 'DB snatches ' | fg=theme1
+A22 | 3.0 | bg=FFFF00 fg=theme1
+B22 | 3.0 | bg=FFFF00 fg=theme1
+C22 | 10.0 | fg=theme1
+D22 | 'Db OVerhead press' | fg=theme1
+E22 | 3.0 | bg=EA9999 fg=theme1
+F22 | 3.0 | bg=EA9999 fg=theme1
+G22 | 3.0 | bg=E06666 fg=theme1
+H22 | 3.0 | bg=E06666 fg=theme1
+I22 | 2.0 | bg=E06666 fg=theme1
+J22 | 3.0 | bg=CC0000 fg=theme1
+K22 | '3-5-5-5' | fg=theme1
+L22 | '3 Heavy SQUATs + 5 Tuck jumps + 5 DB squat jumps + 5 Squirrel jumps' | fg=theme1
+A23 | 3.0 | bg=FFFF00 fg=theme1
+B23 | 3.0 | bg=FFFF00 fg=theme1
+C23 | 10.0 | fg=theme1
+D23 | 'DB seal rows' | fg=theme1
+E23 | 3.0 | bg=EA9999 fg=theme1
+F23 | 3.0 | bg=EA9999 fg=theme1
+G23 | 3.0 | bg=E06666 fg=theme1
+H23 | 3.0 | bg=E06666 fg=theme1
+I23 | 2.0 | bg=E06666 fg=theme1
+J23 | 3.0 | bg=CC0000 fg=theme1
+K23 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+L23 | 'Jefferson Lunge' | fg=theme1
+A24 | 3.0 | bg=FFFF00 fg=theme1
+B24 | 3.0 | bg=FFFF00 fg=theme1
+C24 | 10.0 | fg=theme1
+D24 | 'Db Curls' | fg=theme1
+A25 | 3.0 | bg=FFFF00 fg=theme1
+B25 | 3.0 | bg=FFFF00 fg=theme1
+C25 | 15.0 | fg=theme1
+D25 | 'Db floor skull crushers' | fg=theme1
+E28 | 'THURSDAY OFF SEASON WORK' | bold fg=theme1
+A29 | 'Week 1' | bold fg=theme1
+B29 | 'Week 2' | bold fg=theme1
+E29 | 'Week 3' | bold fg=theme1
+F29 | 'Week 4' | bold fg=theme1
+G29 | 'Week 5' | bold fg=theme1
+H29 | 'Week 6' | bold fg=theme1
+I29 | 'Week 7' | bold fg=theme1
+J29 | 'Week 8' | bold fg=theme1
+A30 | 'SETS' | bg=FFFF00 fg=theme1
+B30 | 'SETS' | bg=FFFF00 fg=theme1
+C30 | 'REPS' | fg=theme1
+E30 | 'SETS' | bg=EA9999 fg=theme1
+F30 | 'SETS' | bg=EA9999 fg=theme1
+G30 | 'SETS' | bg=E06666 fg=theme1
+H30 | 'SETS' | bg=E06666 fg=theme1
+I30 | 'SETS' | bg=E06666 fg=theme1
+J30 | 'SETS' | bg=CC0000 fg=theme1
+K30 | 'REPS' | fg=theme1
+L30 | 'EXERCISE' | fg=theme1
+A31 | 1.0 | bg=FFFF00 fg=theme1
+B31 | 1.0 | bg=FFFF00 fg=theme1
+C31 | '20/20' | fg=theme1
+D31 | 'Situps/crunches' | fg=theme1
+E31 | 1.0 | bg=EA9999 fg=theme1
+F31 | 1.0 | bg=EA9999 fg=theme1
+G31 | 1.0 | bg=E06666 fg=theme1
+H31 | 1.0 | bg=E06666 fg=theme1
+I31 | 1.0 | bg=E06666 fg=theme1
+J31 | 1.0 | bg=CC0000 fg=theme1
+K31 | 'SEE LIST' | fg=theme1
+L31 | '*MEDBALLS' | bg=FFFF00 fg=1155CC
+A32 | 3.0 | bg=FFFF00 fg=theme1
+B32 | 3.0 | bg=FFFF00 fg=theme1
+C32 | 10.0 | fg=theme1
+D32 | 'Front Squats' | fg=theme1
+E32 | 3.0 | bg=EA9999 fg=theme1
+F32 | 3.0 | bg=EA9999 fg=theme1
+G32 | 3.0 | bg=E06666 fg=theme1
+H32 | 3.0 | bg=E06666 fg=theme1
+I32 | 2.0 | bg=E06666 fg=theme1
+J32 | 2.0 | bg=CC0000 fg=theme1
+K32 | '20/20' | fg=theme1
+L32 | 'Squirrel jumps single leg (REVERSE BANDED)' | fg=theme1
+A33 | 3.0 | bg=FFFF00 fg=theme1
+B33 | 3.0 | bg=FFFF00 fg=theme1
+C33 | 10.0 | fg=theme1
+D33 | 'Deadlifts' | fg=theme1
+E33 | 3.0 | bg=EA9999 fg=theme1
+F33 | 3.0 | bg=EA9999 fg=theme1
+G33 | 3.0 | bg=E06666 fg=theme1
+H33 | 3.0 | bg=E06666 fg=theme1
+I33 | 3.0 | bg=E06666 fg=theme1
+J33 | 2.0 | bg=CC0000 fg=theme1
+K33 | '20/20' | fg=theme1
+L33 | 'Side Raises + Front Raises' | fg=theme1
+A34 | 3.0 | bg=FFFF00 fg=theme1
+B34 | 3.0 | bg=FFFF00 fg=theme1
+C34 | 10.0 | fg=theme1
+D34 | 'Reverse Lunges' | fg=theme1
+E34 | 3.0 | bg=EA9999 fg=theme1
+F34 | 3.0 | bg=EA9999 fg=theme1
+G34 | 3.0 | bg=E06666 fg=theme1
+H34 | 3.0 | bg=E06666 fg=theme1
+I34 | 3.0 | bg=E06666 fg=theme1
+J34 | 3.0 | bg=CC0000 fg=theme1
+K34 | '25 unbroken' | fg=theme1
+L34 | '8 Box Med Ball rocker into 4 hops + Swiss ball knee tuck ins' | fg=theme1
+A35 | 3.0 | bg=FFFF00 fg=theme1
+B35 | 3.0 | bg=FFFF00 fg=theme1
+C35 | 10.0 | fg=theme1
+D35 | 'Single LEG Rdl' | fg=theme1
+E35 | 3.0 | bg=EA9999 fg=theme1
+F35 | 3.0 | bg=EA9999 fg=theme1
+G35 | 3.0 | bg=E06666 fg=theme1
+H35 | 3.0 | bg=E06666 fg=theme1
+I35 | 4.0 | bg=E06666 fg=theme1
+J35 | 6.0 | bg=CC0000 fg=theme1
+K35 | 12.0 | fg=theme1
+L35 | 'Hang Power Clean & Press' | fg=theme1
+A36 | 3.0 | bg=FFFF00 fg=theme1
+B36 | 3.0 | bg=FFFF00 fg=theme1
+C36 | 10.0 | fg=theme1
+D36 | 'LEg curls' | fg=theme1
+E36 | 3.0 | bg=EA9999 fg=theme1
+F36 | 3.0 | bg=EA9999 fg=theme1
+G36 | 3.0 | bg=E06666 fg=theme1
+H36 | 3.0 | bg=E06666 fg=theme1
+I36 | 2.0 | bg=E06666 fg=theme1
+J36 | 3.0 | bg=CC0000 fg=theme1
+K36 | '6/6 - 3' | fg=theme1
+L36 | 'Weighted Bulgarian Lunge Heel held up + SL Def. Weighted Calf Raises' | fg=theme1
+A37 | 3.0 | bg=FFFF00 fg=theme1
+B37 | 3.0 | bg=FFFF00 fg=theme1
+C37 | 10.0 | fg=theme1
+D37 | 'Leg Extentions' | fg=theme1
+E37 | 3.0 | bg=EA9999 fg=theme1
+F37 | 3.0 | bg=EA9999 fg=theme1
+G37 | 3.0 | bg=E06666 fg=theme1
+H37 | 3.0 | bg=E06666 fg=theme1
+I37 | 2.0 | bg=E06666 fg=theme1
+J37 | 3.0 | bg=CC0000 fg=theme1
+K37 | '20/20' | fg=theme1
+L37 | 'Leg ext. Leg Curls (FULL RANGE OF MOTION)' | fg=theme1
+E41 | 'FRIDAY OFF SEASON WORK' | bold fg=theme1
+A42 | 'Week 1' | bold fg=theme1
+B42 | 'Week 2' | bold fg=theme1
+E42 | 'Week 3' | bold fg=theme1
+F42 | 'Week 4' | bold fg=theme1
+G42 | 'Week 5' | bold fg=theme1
+H42 | 'Week 6' | bold fg=theme1
+I42 | 'Week 7' | bold fg=theme1
+J42 | 'Week 8' | bold fg=theme1
+A43 | 'SETS' | bg=FFFF00 fg=theme1
+B43 | 'SETS' | bg=FFFF00 fg=theme1
+C43 | 'REPS' | fg=theme1
+E43 | 'SETS' | bg=EA9999 fg=theme1
+F43 | 'SETS' | bg=EA9999 fg=theme1
+G43 | 'SETS' | bg=E06666 fg=theme1
+H43 | 'SETS' | bg=E06666 fg=theme1
+I43 | 'SETS' | bg=E06666 fg=theme1
+J43 | 'SETS' | bg=CC0000 fg=theme1
+K43 | 'REPS' | fg=theme1
+L43 | 'EXERCISE' | fg=theme1
+A44 | 1.0 | bg=FFFF00 fg=theme1
+B44 | 1.0 | bg=FFFF00 fg=theme1
+C44 | '20 min' | fg=theme1
+D44 | 'Easy cardio of choice (steady pace)' | fg=theme1
+E44 | 5.0 | bg=EA9999 fg=theme1
+F44 | 5.0 | bg=EA9999 fg=theme1
+G44 | 6.0 | bg=E06666 fg=theme1
+H44 | 6.0 | bg=E06666 fg=theme1
+I44 | 7.0 | bg=E06666 fg=theme1
+J44 | 8.0 | bg=CC0000 fg=theme1
+K44 | '20/40' | fg=theme1
+L44 | 'Sprint 20/ Recover 40' | fg=theme1
+A45 | 3.0 | bg=FFFF00 fg=theme1
+B45 | 3.0 | bg=FFFF00 fg=theme1
+C45 | '15/30/30' | fg=theme1
+D45 | 'Russian twists/ 30/30 Side planks' | fg=theme1
+E45 | 1.0 | bg=EA9999 fg=theme1
+F45 | 1.0 | bg=EA9999 fg=theme1
+G45 | 3.0 | bg=E06666 fg=theme1
+H45 | 3.0 | bg=E06666 fg=theme1
+I45 | 2.0 | bg=E06666 fg=theme1
+J45 | 2.0 | bg=CC0000 fg=theme1
+K45 | '8 Reps- 20/20' | fg=theme1
+L45 | 'Drop into Box Jumps + 20/20 Star Toe touches' | fg=theme1
+A46 | 3.0 | bg=FFFF00 fg=theme1
+B46 | 3.0 | bg=FFFF00 fg=theme1
+C46 | 10.0 | fg=theme1
+D46 | 'Db Bench PRess' | fg=theme1
+E46 | 3.0 | bg=EA9999 fg=theme1
+F46 | 3.0 | bg=EA9999 fg=theme1
+G46 | 3.0 | bg=E06666 fg=theme1
+H46 | 3.0 | bg=E06666 fg=theme1
+I46 | 4.0 | bg=E06666 fg=theme1
+J46 | 6.0 | bg=CC0000 fg=theme1
+K46 | '4-5-5-5/5' | fg=theme1
+L46 | '4 Deadlifts - 5 broad jumps - 5 KB swings - 5/5 High Knee runs' | fg=theme1
+A47 | 3.0 | bg=FFFF00 fg=theme1
+B47 | 3.0 | bg=FFFF00 fg=theme1
+C47 | 10.0 | fg=theme1
+D47 | 'Lat pull downs/pullups' | fg=theme1
+E47 | 3.0 | bg=EA9999 fg=theme1
+F47 | 3.0 | bg=EA9999 fg=theme1
+G47 | 3.0 | bg=E06666 fg=theme1
+H47 | 3.0 | bg=E06666 fg=theme1
+I47 | 3.0 | bg=E06666 fg=theme1
+J47 | 3.0 | bg=CC0000 fg=theme1
+K47 | datetime.datetime(2022, 6, 6, 0, 0) | fg=theme1
+L47 | 'Db contralateral LOW step up' | fg=theme1
+A48 | 3.0 | bg=FFFF00 fg=theme1
+B48 | 3.0 | bg=FFFF00 fg=theme1
+C48 | 10.0 | fg=theme1
+D48 | 'Db OVerhead press' | fg=theme1
+E48 | 3.0 | bg=EA9999 fg=theme1
+F48 | 3.0 | bg=EA9999 fg=theme1
+G48 | 3.0 | bg=E06666 fg=theme1
+H48 | 3.0 | bg=E06666 fg=theme1
+I48 | 2.0 | bg=E06666 fg=theme1
+J48 | 3.0 | bg=CC0000 fg=theme1
+K48 | '30 sec. 30 sec.' | fg=theme1
+L48 | 'Slider Runners + Slider Hamstring Runners' | fg=theme1
+A49 | 3.0 | bg=FFFF00 fg=theme1
+B49 | 3.0 | bg=FFFF00 fg=theme1
+C49 | 10.0 | fg=theme1
+D49 | 'DB seal rows' | fg=theme1
+F50 | 'MED BALL VARIATIONS' | bg=6D9EEB bold fg=theme1
+F51 | 10.0 | fg=theme1
+G51 | 'Chest pass' | fg=theme1
+F52 | 10.0 | fg=theme1
+G52 | 'Overhead throw' | fg=theme1
+F53 | 10.0 | fg=theme1
+G53 | 'Rotational Chest pass R' | fg=theme1
+F54 | 10.0 | fg=theme1
+G54 | 'Rotational Chest pass L' | fg=theme1
+F55 | 10.0 | fg=theme1
+G55 | 'Rotational Scoop R' | fg=theme1
+F56 | 10.0 | fg=theme1
+G56 | 'Rotational Scoop L' | fg=theme1
+F57 | 10.0 | fg=theme1
+G57 | 'Squat to Chest Pass' | fg=theme1
+F58 | 10.0 | fg=theme1
+G58 | 'Rotational Floor side to side slams' | fg=theme1
+F59 | 10.0 | fg=theme1
+G59 | 'RIGHT LEG step forward Chest Pass' | fg=theme1
+F60 | 10.0 | fg=theme1
+G60 | 'LEFT LEG step forward Chest pass' | fg=theme1
+F61 | 10.0 | fg=theme1
+G61 | 'RIGHT LEG step forward overhead throw' | fg=theme1
+F62 | 10.0 | fg=theme1
+G62 | 'LEFT LEG step forward overhead throw' | fg=theme1
+F63 | 10.0 | fg=theme1
+G63 | 'Half kneeling Right Facing LEFT LEG UP rotational scoop' | fg=theme1
+F64 | 10.0 | fg=theme1
+G64 | 'Half kneeling Right Facing RIGHT LEG FORWARD rotational scoop' | fg=theme1
+F65 | 10.0 | fg=theme1
+G65 | 'Half kneeling LEFT Facing LEFT LEG UP rotational scoop' | fg=theme1
+F66 | 10.0 | fg=theme1
+G66 | 'Half kneeling LEFT Facing RIGHT LEG FORWARD rotational scoop' | fg=theme1
+F67 | 10.0 | fg=theme1
+G67 | 'Alternating Back to wall Rotational Scoops' | fg=theme1
+F68 | 10.0 | fg=theme1
+G68 | 'Situps to chest pass' | fg=theme1
+F69 | 10.0 | fg=theme1
+G69 | 'Situps to overhead throw' | fg=theme1

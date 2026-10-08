@@ -1,0 +1,477 @@
+<title>Blaze Camp Model Questions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a coach's working sheet. Sticky progress bar + section chips on top, one column of question cards below; traffic-light chips echo the sheet's FOUNDATIONAL / INTERMEDIATE / ADVANCED colours. */
+:root {
+  --bg: #f1f3f2;
+  --card: #ffffff;
+  --ink: #17212b;
+  --muted: #5d6873;
+  --line: #d8dddd;
+  --accent: #d9481b;
+  --accent-soft: #fbe7df;
+  --go: #2f8f4e;  --go-soft: #e2f3e7;
+  --mid: #b98a07; --mid-soft: #fbf1d2;
+  --stop: #c23a2b; --stop-soft: #f9e1de;
+  --assume: #eef1f4;
+  --f-display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --f-body: "Barlow", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11171c; --card: #19222a; --ink: #e7ecef; --muted: #9aa7b2; --line: #2c3842;
+    --accent: #ff7a4a; --accent-soft: #3a2118;
+    --go: #5cc27e; --go-soft: #193324; --mid: #e3b53c; --mid-soft: #3a3016; --stop: #f07264; --stop-soft: #3d1f1c;
+    --assume: #1f2a33; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11171c; --card: #19222a; --ink: #e7ecef; --muted: #9aa7b2; --line: #2c3842;
+  --accent: #ff7a4a; --accent-soft: #3a2118;
+  --go: #5cc27e; --go-soft: #193324; --mid: #e3b53c; --mid-soft: #3a3016; --stop: #f07264; --stop-soft: #3d1f1c;
+  --assume: #1f2a33; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.5; }
+.wrap { max-width: 860px; margin: 0 auto; padding-inline: 16px; padding-block: 0 64px; }
+header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+.top-inner { max-width: 860px; margin: 0 auto; padding-inline: 16px; padding-block: 12px 10px; display: grid; gap: 10px; }
+.brandrow { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+h1 { font-family: var(--f-display); font-weight: 800; font-size: 30px; line-height: 1; letter-spacing: .01em; text-transform: uppercase; margin: 0; text-wrap: balance; }
+h1 span { color: var(--accent); }
+.count { font-family: var(--f-mono); font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.bar { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.bar > i { display: block; height: 100%; width: 0; background: var(--accent); transition: width .3s ease; }
+.controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.nav { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: thin; min-width: 0; }
+.nav a { flex: none; font-family: var(--f-mono); font-size: 12px; text-decoration: none; color: var(--ink); border: 1px solid var(--line); background: var(--card); padding: 4px 8px; border-radius: 4px; white-space: nowrap; }
+.nav a b { color: var(--muted); font-weight: 400; }
+.nav a.done { border-color: var(--go); }
+.toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; color: var(--muted); cursor: pointer; user-select: none; }
+.toggle input { accent-color: var(--accent); width: 16px; height: 16px; }
+.btn { font: 500 14px var(--f-body); border: 1px solid var(--line); background: var(--card); color: var(--ink); padding: 5px 10px; border-radius: 4px; cursor: pointer; }
+.btn:hover { border-color: var(--ink); }
+.btn:focus-visible, .chip:focus-visible, textarea:focus-visible, .nav a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.status { font-size: 13px; color: var(--muted); margin-left: auto; }
+.status.warn { color: var(--stop); }
+
+.intro { padding-block: 24px 8px; display: grid; gap: 10px; max-width: 68ch; }
+.intro p { margin: 0; }
+.intro .legend { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 14px; color: var(--muted); }
+.tag { font-family: var(--f-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; padding: 2px 6px; border-radius: 3px; }
+.tag.core { background: var(--accent-soft); color: var(--accent); }
+.tag.detail { background: var(--assume); color: var(--muted); }
+
+section.sec { padding-top: 28px; scroll-margin-top: 150px; }
+.sec-head { display: grid; gap: 4px; margin-bottom: 12px; }
+.sec-head .code { font-family: var(--f-mono); font-size: 12px; color: var(--accent); letter-spacing: .08em; }
+.sec-head h2 { font-family: var(--f-display); font-weight: 700; font-size: 26px; text-transform: uppercase; letter-spacing: .01em; margin: 0; line-height: 1.05; text-wrap: balance; }
+.sec-head p { margin: 0; color: var(--muted); max-width: 68ch; }
+.qs { display: grid; gap: 12px; }
+.q { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; display: grid; gap: 10px; min-width: 0; }
+.q.answered { border-left: 4px solid var(--go); }
+.q-meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.q-id { font-family: var(--f-mono); font-size: 12px; color: var(--muted); }
+.q-saved { font-size: 12px; color: var(--go); margin-left: auto; }
+.q-text { font-weight: 600; font-size: 16px; margin: 0; }
+.assume { background: var(--assume); border-radius: 4px; padding: 8px 10px; font-size: 14px; color: var(--ink); }
+.assume b { font-family: var(--f-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 500; margin-right: 6px; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip { font: 500 13px var(--f-body); border: 1px solid var(--line); background: transparent; color: var(--ink); padding: 4px 10px; border-radius: 999px; cursor: pointer; }
+.chip[data-v="right"][aria-pressed="true"] { background: var(--go-soft); border-color: var(--go); color: var(--go); }
+.chip[data-v="partly"][aria-pressed="true"] { background: var(--mid-soft); border-color: var(--mid); color: var(--mid); }
+.chip[data-v="wrong"][aria-pressed="true"] { background: var(--stop-soft); border-color: var(--stop); color: var(--stop); }
+.chip[data-v="skip"][aria-pressed="true"] { background: var(--assume); border-color: var(--muted); color: var(--muted); }
+textarea { width: 100%; min-height: 64px; resize: vertical; font: 15px/1.45 var(--f-body); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: 8px 10px; }
+.empty-note { padding: 18px; color: var(--muted); border: 1px dashed var(--line); border-radius: 6px; }
+@media (max-width: 520px) { h1 { font-size: 24px; } .sec-head h2 { font-size: 22px; } }
+@media (prefers-reduced-motion: reduce) { .bar > i { transition: none; } }
+</style>
+
+<header class="top">
+  <div class="top-inner">
+    <div class="brandrow">
+      <h1>Blaze Camp <span>Model Questions</span></h1>
+      <span class="count" id="count">0 / 0 answered</span>
+    </div>
+    <div class="bar" aria-hidden="true"><i id="bar"></i></div>
+    <div class="controls">
+      <label class="toggle"><input type="checkbox" id="f-r2" checked> Round 2 only</label>
+      <label class="toggle"><input type="checkbox" id="f-core"> Core only</label>
+      <label class="toggle"><input type="checkbox" id="f-open"> Unanswered only</label>
+      <button class="btn" id="copy" type="button">Copy all answers</button>
+      <span class="status" id="status">Connecting…</span>
+    </div>
+    <nav class="nav" id="nav" aria-label="Sections"></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="intro">
+    <p>These are the questions Claude still has after reading every tab of <b>BUILD YOUR OWN PROGRAM</b> and <b>MASTER MODEL</b>. Each one shows what we currently assume, taken from your sheets where possible. Tap a chip if the assumption is right, partly right or wrong, and add a note in your own words. Short answers and voice dictation are fine.</p>
+    <p><b>Round 2 is open.</b> Your 138 round-1 answers are built into the model. These 45 follow-up questions are mostly the numbers and choices we proposed where you asked us to research or decide, so most can be answered with one tap. Untick "Round 2 only" to see or change your round-1 answers.</p>
+    <p>Answers save automatically and Claude reads them straight from this page. Start with the <span class="tag core">Core</span> questions, which shape how the generator thinks. The <span class="tag detail">Detail</span> ones are about specific exercises and sheet cleanup and can wait.</p>
+  </div>
+  <div id="sections"></div>
+</main>
+
+<script>
+const S1 = [
+ { id: "CAT", title: "How you categorize", blurb: "The buckets your brain sorts every exercise into.", qs: [
+  { id: "CAT-01", core: 1, q: "Is this the right way to tag every exercise: on all lenses at once?", a: "Every exercise gets a family (Athletic AP, Resistance RP, Control/core CT/CP, Cardio, Functional), a pattern (e.g. knee dominant), laterality (bilateral/unilateral), plane, muscle size (big/small), main muscles, equipment and level. Example: Goblet Squat = RP · bilateral · knee dominant · quads (big) · sagittal · foundational." },
+  { id: "CAT-02", core: 1, q: "Which muscles are 'bigger' and which are 'smaller' in your system?", a: "Big: quads, glutes, hamstrings, lats/upper back, chest. Small: biceps, triceps, side and rear delts, calves, forearms, abs. Unsure where traps, front delts, adductors and neck go." },
+  { id: "CAT-03", core: 1, q: "Is 'biomechanics' its own bucket of exercises, or a way of describing any exercise?", a: "Mostly a way of describing any exercise (plane, laterality, load position, stance, range of motion). The FUNCTIONAL columns (carry, drags, oblique slings) are the only place it's a bucket, and they're empty." },
+  { id: "CAT-04", core: 1, q: "What makes an exercise FOUNDATIONAL vs INTERMEDIATE vs ADVANCED?", a: "Mostly skill and stability demand. Puzzle: leg press, pendulum and hip thrust machine sit in ADVANCED even though they're safe and easy to learn." },
+  { id: "CAT-05", core: 1, q: "Can a client at a higher level still pick exercises from lower levels?", a: "Yes. Levels add options and don't take any away. The MODERATE lists repeat some FOUNDATIONAL items." },
+  { id: "CAT-06", core: 1, q: "Are the client's level (how much volume) and the exercise's level (how hard the movement is) separate things?", a: "Yes. In your Upper/Lower example a NOVICE does barbell deadlifts and leg press, which the library files as MODERATE/ADVANCED." },
+  { id: "CAT-07", core: 1, q: "Is the BYOP MASTER EXERCISE LIBRARY the single source of truth?", a: "Yes. Sheet23 and the RESISTANCE PATTERNS library are older drafts that still help with levels and with the exercise 'grammar'." },
+  { id: "CAT-08", core: 0, q: "Core thorax vs core pelvis: which rule decides?", a: "Thorax = the trunk moves on a still pelvis (crunch, Russian twist). Pelvis = the pelvis/legs move on a still trunk (leg raise, toes to bar). The library and the CONTROL PATTERNS tab disagree on toes to bar and the Copenhagen plank." },
+  { id: "CAT-09", core: 1, q: "Do leg curls, nordics and slider/swiss-ball curls count as HIP DOMINANT volume, or as their own 'LEG FLEXION' bucket?", a: "Their own bucket (LEG FLEXION, as written in Sheet25) that counts toward hamstrings but not toward the hinge pattern." },
+  { id: "CAT-10", core: 0, q: "'ZONE' means different things in different tabs. What does each mean?", a: "Plyo zones: Receive pause/create → Receive/create → Repeat receive create. Cable curl 'Zone 1/2/3': arm position or range of motion? Sheet23 green/yellow/red rows: unclear." },
+  { id: "CAT-11", core: 1, q: "Plyo zones: a property of the exercise, or a way to perform any jump? How long does an athlete stay in each?", a: "A way to perform a jump: the same hurdle hop can be done stick-and-pause, single rebound, or repeated. Athletes spend a few weeks in each zone." },
+  { id: "CAT-12", core: 1, q: "Should the generator build variations from your 'grammar', or only pick named exercises from the library?", a: "Exercise = base pattern + implement + load position + stance + range of motion + end-range behaviour (dead stop / touch & go) + bands/chains + contralateral/ipsilateral. Start by picking named exercises and use the grammar for small changes between blocks." },
+  { id: "CAT-13", core: 0, q: "Contralateral ('get into the hip') vs ipsilateral ('get out of the hip'): when do you choose each?", a: "Contralateral is the default, and ipsilateral is used for frontal-plane or hip-control goals. Not sure." }
+ ]},
+ { id: "UNI", title: "Bilateral vs unilateral volume", blurb: "You said this split is very important. Here's what we see and what we need to pin down.", qs: [
+  { id: "UNI-01", core: 1, q: "How do you count a unilateral set toward weekly volume?", a: "3 × 10/10 rear-foot-elevated lunges = 3 sets for quads/glutes, not 6 (one set covers both sides)." },
+  { id: "UNI-02", core: 1, q: "What share of weekly lower-body sets should be bilateral vs unilateral, by goal?", a: "Observed: aesthetics days run 1 bilateral + 1 unilateral lower lift (about 50/50); baseball runs bilateral 4 sets + unilateral 4 sets. Please give rough % for aesthetics, athletes off-season, athletes in-season, older/injured, beginners and strength/powerlifting." },
+  { id: "UNI-03", core: 1, q: "Same question for upper body: how much unilateral pressing and pulling?", a: "Your templates are mostly bilateral up top. Unilateral upper work (single-arm rows, alternating/seesaw press, landmine) shows up as variety or for joint pain." },
+  { id: "UNI-04", core: 1, q: "Do unilateral lifts always use moderate-to-high reps, never heavy low reps?", a: "Yes. Observed bilateral 4–15 reps (12/10/8/8); unilateral 8/8 to 12/12." },
+  { id: "UNI-05", core: 1, q: "Does unilateral volume progress differently from bilateral?", a: "Add reps per side first, then load, and add sets less often than on bilateral lifts. Not observed, so this is a guess." },
+  { id: "UNI-06", core: 1, q: "Same-pattern vs opposite-pattern pairing: is this a rule by goal?", a: "Aesthetics pairs squat + lunge (same pattern, more quad volume). Athletes and bootcamp pair squat + single-leg RDL (opposite pattern, both covered every day)." },
+  { id: "UNI-07", core: 0, q: "Does an alternating exercise (alternating DB press, alternating lunges) count like a unilateral one?", a: "Yes. Same counting and same rep logic." },
+  { id: "UNI-08", core: 1, q: "When pain makes you swap a bilateral lift for a unilateral one, do you keep the same sets or cut them?", a: "Keep the sets, and lower the load and the reps per side." },
+  { id: "UNI-09", core: 1, q: "Unilateral work takes about twice as long. Does that lower how many exercises fit in a session?", a: "Yes. A unilateral slot counts like 1.5 slots of session time." },
+  { id: "UNI-10", core: 1, q: "For athletes, does unilateral volume rise as the season gets closer?", a: "Yes. It shifts from bilateral strength off-season to more unilateral and multi-plane work pre-season and in-season." },
+  { id: "UNI-11", core: 1, q: "Heavy bilateral lower lift paired with the horizontal upper vector, unilateral with the vertical one: intentional?", a: "Yes. In BYOP this held 29 times vs 2 and 24 times vs 2." },
+  { id: "UNI-12", core: 1, q: "How much frontal/transverse unilateral work (lateral lunges, cossacks, lateral step-ups, rotational lunges) do court and combat athletes get?", a: "More for basketball, tennis, soccer and MMA; little for aesthetics clients. No numbers in the sheets." }
+ ]},
+ { id: "VOL", title: "Volume and dosing", blurb: "Exercises per day, sets per week, reps, effort.", qs: [
+  { id: "VOL-01", core: 1, q: "Starting weekly hard sets per muscle, by level?", a: "Beginner about 10–12, intermediate 15–20, advanced 20+ for priority muscles." },
+  { id: "VOL-02", core: 1, q: "Priority muscle: how many extra sets per week, and what's the cap?", a: "+4–6 sets/week, capped around 25–30, with 1–2 priority muscles at a time." },
+  { id: "VOL-03", core: 1, q: "Pain or injury: how much do you cut, and do you switch to machines?", a: "Cut that muscle or pattern 30–50%, move it to machines or split grips, and keep it moving." },
+  { id: "VOL-04", core: 1, q: "The 3% / 5% / 7% weekly increase: a percentage of what?", a: "Of weekly sets per muscle (your chest example: 20 → 22 sets at the same load). Load and volume load are tracked but not driven by percentages." },
+  { id: "VOL-05", core: 1, q: "Which muscles get 3% vs 5% vs 7%?", a: "Big muscles 3% (more fatigue per set), medium 5%, small muscles 7% (they recover fast and take high reps). Could be the other way round." },
+  { id: "VOL-06", core: 1, q: "How do you round small increases? 5% of 16 sets is 0.8 sets.", a: "Bank the fraction and add a whole set once it reaches 1." },
+  { id: "VOL-07", core: 1, q: "When sets go up, do they go to the same exercise or a new one?", a: "First +1 set on an existing exercise, then add a second exercise for that muscle from the same category (your 'different exercises, more variety'). At most 2 exercises per muscle per session." },
+  { id: "VOL-08", core: 1, q: "Maximum exercises and sets per session?", a: "Observed about 7 exercises × 2–3 sets (14–21 sets). By session length: 45 min ≈ 5, 60 min ≈ 6–7, 75–90 min ≈ 8–9 exercises." },
+  { id: "VOL-09", core: 1, q: "How do you count compound sets toward other muscles?", a: "1.0 set to the main mover, 0.5 to clear helpers (bench → chest 1.0, triceps 0.5, front delt 0.5). Leg extension and leg curl count fully toward quads and hamstrings." },
+  { id: "VOL-10", core: 1, q: "Do athletic sets (plyos, throws, Olympic lifts, sprints) count toward muscle weekly sets?", a: "No. They're tracked separately as contacts, throws, reps and meters." },
+  { id: "VOL-11", core: 1, q: "Rep ranges by muscle size: is this right?", a: "Small muscles 12–30 (20s, MAX, myo sets); big muscles 5–15 mixed. 40-rep sets (fat burn) only for fat-loss isolation work." },
+  { id: "VOL-12", core: 1, q: "How does a client's preference ('lighter, more sets' vs powerlifting 'heavier, fewer reps') change the plan?", a: "It moves the rep range on the big compound lifts only (e.g. squat 10–15 vs 3–6). Weekly sets stay similar and small muscles stay high-rep." },
+  { id: "VOL-13", core: 1, q: "Effort: does reps in reserve change through a block? And does 'MAX' mean true failure?", a: "1–3 RIR at all times ('leave 1 in the tank'). MAX / MAX REPS = technical failure, only on small-muscle or bodyweight work. No planned RIR ramp yet." },
+  { id: "VOL-14", core: 0, q: "Rest periods: one rule everywhere?", a: "Hypertrophy 1–2 min, strength 3–6 min, athletic 'as prescribed' (from ALL ABOUT SQUATS). Supersets rest after the pair." },
+  { id: "VOL-15", core: 0, q: "Myo sets: only on the last exercise, and only on machines or isolation?", a: "Yes. Observed only on leg extension, leg press and arm/shoulder accessories, always last." },
+  { id: "VOL-16", core: 0, q: "Default sets when a slot is left blank?", a: "3 on compounds, 2 on isolation (from the filled Aesthetics days). Athletic templates use 2 everywhere." },
+  { id: "VOL-17", core: 1, q: "Rear delts, calves and core get almost no direct sets on lifting days. Intentional?", a: "Partly. Calves come from jumps and ankle hops, core from Part B or optional days. Rear delts may be a gap: about 3 indirect sets a week in BYOP." },
+  { id: "VOL-18", core: 0, q: "Chest gets 6–8 sets/week in Upper/Lower and Fat Burn while side delts get 15–16. Intended V-taper bias?", a: "Not intended. The generator would balance it to your weekly targets." }
+ ]},
+ { id: "PER", title: "Progression and periodization", blurb: "How 6-, 8- and 12-week plans move.", qs: [
+  { id: "PER-01", core: 1, q: "How are 6-, 8- and 12-week plans shaped?", a: "8 weeks = 7 building + week 8 TEST/DELOAD (Conjugate, 4 Tracks). 12 weeks = 6 building + week 7 deload + 5 building with a small change. 6 weeks = 5 building + a deload or test week." },
+  { id: "PER-02", core: 1, q: "How long is a block, and which small variables change between blocks?", a: "Exercises stay fixed for the block (4–6 weeks). Next block: change one or two of grip, stance, implement, range of motion or rep range. Never all at once." },
+  { id: "PER-03", core: 1, q: "The weekly A/B swap of the lead lift (squat-led / hinge-led week; bench / overhead week): default for all programs?", a: "Seen in Fat Burn, Conjugate and 4 Tracks, but not in BYOP, where the days repeat exactly. Our guess: strength and fat-loss plans only." },
+  { id: "PER-04", core: 1, q: "Second time a slot comes up in the week (e.g. Monday and Thursday squat): same exercise or a different one from that category?", a: "A different exercise from the same category (Justice League: Front Squat Monday, Low Bar Back Squat Thursday)." },
+  { id: "PER-05", core: 1, q: "What does a deload week change?", a: "About half the sets, same exercises, lighter load or 3+ RIR, no buy-out or finisher (Baseball deload: 3 × 8, buy-out 'none')." },
+  { id: "PER-06", core: 1, q: "When does a client move up a level in a slot?", a: "At the end of a block, if the exercise felt like '8 – That was perfect' or easier with no pain." },
+  { id: "PER-07", core: 1, q: "What do you test, and when?", a: "Week 8 / end of block: rep max or 1RM on the main lifts, mile/speed tests from the CARDIO list, jumps and sprints for athletes. Tell us which." },
+  { id: "PER-08", core: 1, q: "Athletes through the season: what changes in off, pre, in and post season?", a: "Off-season: most volume, strength + plyos. Pre-season: more speed/power, less volume. In-season: 2 days/week, low volume, sprint buy-outs. Post-season: recovery and general work." },
+  { id: "PER-09", core: 0, q: "Strength progression template: is this the default for strength-focused plans?", a: "Olympic lifts 75 → 80 → 85 → 90% with 4×8 → 4×6 → 4×6 → 4×4. The 4 Tracks rows: %, RPE, sets and reps per week (80/80/85/85/90/90, RPE 7→10)." },
+  { id: "PER-10", core: 0, q: "When do you use smooth weekly increases vs 2-week steps and waves (like the Boxing build-up)?", a: "Smooth increases for hypertrophy and general clients, steps and waves for fight or competition prep." },
+  { id: "PER-11", core: 0, q: "Baseball VOL 1 / VOL 2 / VOL 3 (compound 12–15 / 8–12 / 6–8 reps): a phase per block for all athletes?", a: "Yes. VOL 1 early off-season, VOL 2 mid, VOL 3 late off-season / pre-season." }
+ ]},
+ { id: "ATH", title: "Athletes and sports", blurb: "Who needs more plyos, more strength, more power.", qs: [
+  { id: "ATH-01", core: 1, q: "What controls 'more plyos' for a sport?", a: "All three: more plyo slots per week, more foot contacts per session, and higher-intensity jumps. Please give rough weekly contacts for basketball, MMA and boxing/karate." },
+  { id: "ATH-02", core: 1, q: "Rank sports from most to least plyo volume. Is this close?", a: "Basketball ≈ volleyball > sprinters > football skill positions > soccer > MMA > tennis > baseball > hockey > wrestling/BJJ > boxing ≈ karate > golf." },
+  { id: "ATH-03", core: 1, q: "Which athletes need more resistance training (strength/size) vs more speed and power?", a: "More resistance: football linemen, wrestlers, rugby, heavyweight fighters, throwers. More speed/power: sprinters, basketball, skill positions, volleyball." },
+  { id: "ATH-04", core: 1, q: "Your boxing plan drops bench, pull-ups and arm isolation in weeks 3–8. A rule for striking sports?", a: "Yes. Cut pressing and arm volume when punching volume is high and keep the rows and rotational throws." },
+  { id: "ATH-05", core: 1, q: "Medball throwing volume by sport?", a: "High for baseball, boxing, MMA, tennis and golf (rotational); moderate for basketball and football; low for aesthetics." },
+  { id: "ATH-06", core: 0, q: "Change of direction: are the football route names (FADE, SLANT, POST…) for every athlete, or football only?", a: "Every athlete, tiered by turn angle (easy, moderate and hard turns)." },
+  { id: "ATH-07", core: 1, q: "Aerobic work: 3 sessions/week (one Blue, Green and Orange each, per the cheat sheet) or 2 (as the athletic templates have)?", a: "3 for general and fat-loss clients and 2 for athletes in season." },
+  { id: "ATH-08", core: 0, q: "Pitchers vs position players: different templates?", a: "Pitchers: less overhead pressing, more arm care, rotational throws kept light." },
+  { id: "ATH-09", core: 1, q: "Any different rules for youth athletes, female athletes or older adults?", a: "Youth: foundational lists only, no Olympic lifts from the floor. Older: more machines, low-impact plyos. Female: same logic." },
+  { id: "ATH-10", core: 1, q: "Who gets Olympic lifts, and what replaces them without bumper plates?", a: "Intermediate+ athletes off-season. Without bumpers: DB/KB snatches and cleans, hex-bar jumps, hang pulls." },
+  { id: "ATH-11", core: 0, q: "Core early for athletes (Part B, right after the power block) and separate or optional for aesthetics: confirm?", a: "Yes. 112 Baseball core items sit right after the power block." },
+  { id: "ATH-12", core: 0, q: "Contrast / French contrast and complexes: who, when, and what load?", a: "Intermediate+ athletes, off-season only, heavy lift at about 78–85%, no rest within the complex." },
+  { id: "ATH-13", core: 0, q: "Who is 'Justice League'?", a: "A real team or client group: athletic template, 2 sets per slot." }
+ ]},
+ { id: "ORD", title: "Session structure and order", blurb: "From the audit of 466 sessions across both workbooks.", qs: [
+  { id: "ORD-01", core: 1, q: "Row before pulldown: BYOP always does it, but Fat Burn, 4 Tracks Aesthetics and Boxing weeks 1–2 put the pulldown first. Which should the generator follow?", a: "BYOP: horizontal pull before vertical pull, always." },
+  { id: "ORD-02", core: 1, q: "On overhead-press weeks in Conjugate, the overhead press ('the work') comes before the incline bench. Rule: the main lift comes first regardless of direction?", a: "Yes. 'The work' always comes first." },
+  { id: "ORD-03", core: 1, q: "HYBRID lists STRENGTH above OLY/POWER. Should cleans and snatches always come before heavy strength?", a: "Yes. Power before strength, as in BYOP and Baseball." },
+  { id: "ORD-04", core: 1, q: "Calves first on aesthetics A-days and side raises first on 4 Tracks push days: warm-up, pre-fatigue, or priority?", a: "Priority/pre-fatigue for that muscle. The generator would only put them first when that muscle is a priority." },
+  { id: "ORD-05", core: 1, q: "BYOP's alternating lower/upper order: straight sets or supersets? When should the generator write 'SUPERSET W/ 👇'?", a: "Superset each lower + upper pair when session time is short; straight sets otherwise." },
+  { id: "ORD-06", core: 0, q: "Bootcamp Option 1 Tue/Fri pairs hinge + vertical pull and lunge + horizontal push, the reverse of your other templates. Intentional?", a: "Not intentional. Should read hinge + push." },
+  { id: "ORD-07", core: 1, q: "'The work / the accessory / the nuance / the survival': what does each mean, and should every program use it?", a: "Work = main lift at 1 RIR. Accessory = a supporting lift at 2 RIR. Nuance = weak-point, unilateral or variation work at MAX. Survival = isolation or joint-health work, done no matter what. A useful backbone for strength plans." },
+  { id: "ORD-08", core: 1, q: "Should the generator always write a warm-up? Do A-drills count as athletic volume or warm-up?", a: "Always: 5 min any cardio + A March/Skip/Run or mobility (KB book openers). A-drills don't count as volume." },
+  { id: "ORD-09", core: 0, q: "Boxing starts every day with cardio and Hybrid Friday starts with 15–40 min easy. Warm-up or real aerobic block?", a: "Real aerobic block (Orange/easy) for fighters." },
+  { id: "ORD-10", core: 1, q: "Optional days (Calves, Cardio, Core, Focus 1, Focus 2): separate days or add-ons? How many should a client do?", a: "Separate days (Wed/Sat), 0–2 per week depending on schedule." },
+  { id: "ORD-11", core: 0, q: "Focus slots: can both hit the same muscle? How many sets?", a: "Yes, 2–3 sets each, used to bring a priority muscle up to its weekly target." }
+ ]},
+ { id: "EQ", title: "Equipment", blurb: "Constraint, skill, load vs speed, and what to do when something isn't available.", qs: [
+  { id: "EQ-01", core: 1, q: "Are these the right equipment options for the intake form?", a: "Full commercial gym · basic gym (no specialty machines) · home gym (rack + barbell + DBs) · home DBs + bench + bands · kettlebells only · bands only · bodyweight only · hotel gym · field/track/outdoor kit (medballs, cones, hurdles, boxes)." },
+  { id: "EQ-02", core: 1, q: "What's the minimum home kit you design for?", a: "Adjustable DBs + bench + pull-up bar + bands + an 8–10 lb medball." },
+  { id: "EQ-03", core: 1, q: "Older / injured / high-volume clients go to machines: every resistance slot or just the compounds? Any lifts they never get?", a: "Compounds and isolation both lean machine/cable. They never get overhead squat, snatch, low-bar squat or depth jumps." },
+  { id: "EQ-04", core: 1, q: "Can a FOUNDATIONAL older or injured client get the machines you filed as MODERATE/ADVANCED (leg press, pendulum, hip thrust machine)?", a: "Yes. Safety beats the level label for them." },
+  { id: "EQ-05", core: 0, q: "VERTICAL PUSH has no machine or cable option. Add a seated machine shoulder press?", a: "Yes, for older and injured clients." },
+  { id: "EQ-06", core: 1, q: "Medball weights beyond the 8–10 lb passes and rotations?", a: "Slams 10–20 lb (slam ball), overhead throws 6–10 lb, sit-up throws 6–8 lb. Lighter for youth and older clients." },
+  { id: "EQ-07", core: 1, q: "No medball: skip the throwing slot or substitute?", a: "Substitute: plyo push-ups (pressing), band chops or fast cable rotations, or the 'fake medball slam' with no ball." },
+  { id: "EQ-08", core: 1, q: "No leg extension or leg curl machine: swap, or move those sets to another quad/hamstring slot?", a: "Swap: sissy squats or banded leg extensions for quads; nordics, slider or swiss-ball curls for hamstrings." },
+  { id: "EQ-09", core: 1, q: "When the exercise name has no implement (lunges, deadlifts, rows, calf raises), which do you default to?", a: "By client: bodyweight → DB → barbell as level rises, limited by what equipment they have." },
+  { id: "EQ-10", core: 1, q: "When you write alternatives ('Squats or Leg Press', 'DB or Barbell'), is the first one the default?", a: "No. Pick by client: older/injured → machine or DB, experienced → barbell." },
+  { id: "EQ-11", core: 0, q: "Your opinion on other machines: Smith machine, hip thrust machine, belt squat, GHD, reverse hyper? And hack squat: drop it or rank it last?", a: "Hack squat ranked last (you dislike it); the others are fine." },
+  { id: "EQ-12", core: 0, q: "Bands ~50% and chains ~70%: percent of what? Include weight releasers?", a: "Percent of 1RM as bar weight; leave weight releasers out." },
+  { id: "EQ-13", core: 1, q: "Our 1–5 constraint scale: do you agree?", a: "5 = seated machine with back pad, 4 = plate-loaded / Smith / chest-supported, 3 = cable or DB on a bench, 2 = standing free weights, 1 = bodyweight, ballistic, reactive." },
+  { id: "EQ-14", core: 1, q: "Can the Blue/Green/Orange aerobic work run on a bike, rower or ski erg for non-runners? Treadmill OK for tests?", a: "Yes, any erg. Use calories or time instead of distance." },
+  { id: "EQ-15", core: 0, q: "Loaded jumps (DB depth-drop jumps, DB squat jumps): fixed weight or % of bodyweight? When is it too heavy?", a: "10–20% of bodyweight. Too heavy when jump height or speed clearly drops." },
+  { id: "EQ-16", core: 0, q: "Box and hurdle heights for low/medium/high depth drops and for hurdle hops?", a: "Low ≈ 6–12 in, medium ≈ 12–18 in, high = above hip as written. Hurdles 6 in moderate, 12+ in advanced." }
+ ]},
+ { id: "GEN", title: "The generator", blurb: "What people type in and what comes out.", qs: [
+  { id: "GEN-01", core: 1, q: "Who will use it?", a: "Your clients and the public, self-serve, with an option for you to review before a plan goes out." },
+  { id: "GEN-02", core: 1, q: "Intake fields: what's missing or unnecessary?", a: "Goal · sport + position · season · training age · age · sex · days per week · session length · equipment · injuries/pain areas · priority muscles · rep-style preference · plan length (6/8/12)." },
+  { id: "GEN-03", core: 1, q: "Output format?", a: "A Google Sheet like BYOP (with dropdowns and WEIGHT / EFFORT / HOW IT FELT / DONE tracking columns), plus a phone-friendly view." },
+  { id: "GEN-04", core: 1, q: "Should the plan pick exact exercises, or leave dropdown choices in each slot like BYOP?", a: "Pick a default exercise in every slot and keep the dropdown so the client can swap within the same category." },
+  { id: "GEN-05", core: 1, q: "Fixed plan, or adjust week to week from the client's logged EFFORT and HOW IT FELT?", a: "Adjust: 'Felt a PAIN' → swap within the category or lower the level; EFFORT 9–10 → hold or cut sets next week; EFFORT ≤ 6 → add." },
+  { id: "GEN-06", core: 0, q: "Video for every exercise? Where are your videos?", a: "Yes. Your YouTube links where they exist (some are in the RESISTANCE PATTERNS tab)." },
+  { id: "GEN-07", core: 0, q: "Coaching cues and notes in your voice (the *, **, *** notes)?", a: "Yes. A short cue per exercise plus your instruction block at the top." },
+  { id: "GEN-08", core: 1, q: "Hard rules it must never break?", a: "Never to failure on heavy compounds; no V-squat; power before strength; horizontal before vertical; core is never skipped. Add yours." }
+ ]},
+ { id: "LIB", title: "Library details", blurb: "Specific exercises and labels. Quick answers are fine.", qs: [
+  { id: "LIB-01", core: 0, q: "'LEFT TEST' = the L-test (3-cone)? And '5/10/05' = the 5-10-5 pro agility drill? (Sheets turned it into a date.)", a: "Yes to both." },
+  { id: "LIB-02", core: 0, q: "'Push up Stick the Landing' and 'Push up Box Jump': do the hands land on a box?", a: "Upper-body plyo push-ups: stick the landing, then hands land on boxes." },
+  { id: "LIB-03", core: 0, q: "'Low Depth Drop' is listed twice. Was the second meant to be a different variant?", a: "The second was meant to be single-leg or weighted." },
+  { id: "LIB-04", core: 0, q: "What makes advanced 'Hurdle Hops' harder than moderate 'Bilateral Forward Hurdle Hops'?", a: "Taller hurdles and continuous, quick-contact reps." },
+  { id: "LIB-05", core: 0, q: "Two MODERATE plyo columns (plate hops, hurdles): one from each, or pick a track by sport?", a: "One from each." },
+  { id: "LIB-06", core: 0, q: "Throwing has no levels. Do throws progress by ball weight, stance (standing → split → half-kneeling), or not at all?", a: "By stance and intent, ball weight fixed light." },
+  { id: "LIB-07", core: 0, q: "'Snatch', 'Clean', 'Clean & Jerk' without 'Power': full squat versions? Which implement for 'Weighted squat to calf raise'?", a: "Full squat versions; DB for the calf-raise squat." },
+  { id: "LIB-08", core: 0, q: "'GHD' appears in both MODERATE and ADVANCED: back/hip extension vs glute-ham raise?", a: "Moderate = hip extension, advanced = glute-ham raise." },
+  { id: "LIB-09", core: 0, q: "Setup for these: 'Camporini Deadlift', 'Alternating DB/Barbell Deadlifts', 'Single Leg Get Ups', 'Low DB Squats', 'Kong Row', 'strap rotating in/out', 'Pull under'?", a: "Not known. Please describe briefly." },
+  { id: "LIB-10", core: 0, q: "'KB Face Pulls' under VERTICAL PULL: intended, or move to rear delts?", a: "Move to rear delts / side raises." },
+  { id: "LIB-11", core: 0, q: "'Standing DB Press' is listed twice in vertical push. Second one = barbell?", a: "Yes." },
+  { id: "LIB-12", core: 0, q: "'Bench Push ups': hands on the bench (easier) or feet on the bench (harder)?", a: "Hands on bench in FOUNDATIONAL, feet on bench in ADVANCED." },
+  { id: "LIB-13", core: 0, q: "Push press and push jerk sit in VERTICAL PUSH FOUNDATIONAL. Really foundational?", a: "They should move to ADVANCED or to triple extension." },
+  { id: "LIB-14", core: 0, q: "Thrusters (in Bilateral KD ADVANCED): strength or conditioning? Count as quads, shoulders, or both?", a: "Conditioning-leaning; count 1.0 quads and 0.5 shoulders." },
+  { id: "LIB-15", core: 0, q: "Leg extensions labelled '…KNEE DOMINANT -ADVANCED' and leg curls labelled 'UNILATERAL': typos?", a: "Typos. Both are available at every level." },
+  { id: "LIB-16", core: 0, q: "Upright rows in the 'ABdution' (side delt) slot: delt isolation or a pull? Dips: chest or triceps?", a: "Upright rows = side delt; dips = chest 1.0, triceps 0.5." },
+  { id: "LIB-17", core: 0, q: "Near-duplicates (several seated DB curl entries; 'Side Plank' in thorax and 'Side Planks' in pelvis): merge?", a: "Merge them." },
+  { id: "LIB-18", core: 0, q: "'21.6 mile run': what is it? The DISTANCE TEST block is listed twice.", a: "Not known." },
+  { id: "LIB-19", core: 1, q: "CARRY, DRAGS and the functional sling systems are empty. Build them out, and who are they for?", a: "Carries and drags for athletes and general fitness; sling systems for advanced athletes and rehab. Implements: farmer handles, trap bar, KB, sandbag, sled." },
+  { id: "LIB-20", core: 0, q: "Frontal/transverse lower-body moves from RESISTANCE PATTERNS ('Hold between knees Squats', cossacks, strap rotations): add to the main library?", a: "Yes, for court and combat athletes." },
+  { id: "LIB-21", core: 0, q: "Speed-session order from Sheet23 (squirrel jumps → MACH drills / acceleration starts → max velocity): fixed? Add MACH drills to the library?", a: "Fixed order; add them." },
+  { id: "LIB-22", core: 0, q: "Medball 'ALL LIST': one pass through all ~19 throws (about 200 throws)?", a: "Yes, 1 × 10 each." }
+ ]},
+ { id: "PRG", title: "Program tabs", blurb: "Specific templates and examples.", qs: [
+  { id: "PRG-01", core: 1, q: "What does 'NO ACCESS' mean on those two tabs?", a: "Not sure: no gym access, or a self-serve version with no coach access. They currently offer the full gym library." },
+  { id: "PRG-02", core: 0, q: "PPL 3-day: which days, and do sets per slot go up to make up for 1× per week?", a: "Mon/Wed/Fri, 3–4 sets per slot." },
+  { id: "PRG-03", core: 0, q: "Bootcamp Option 2: 6 sessions a week, or A/B weeks? Straight sets or timed circuits?", a: "A/B weeks, 3 days; timed circuits 3–5 rounds × 30–50 s." },
+  { id: "PRG-04", core: 1, q: "Athletic 'STARTING / MID / ADVANCED OFF SEASON': three back-to-back 8-week blocks, or three athlete levels?", a: "Back-to-back blocks of one off-season." },
+  { id: "PRG-05", core: 0, q: "NOVICE vs NEWBY: which is lower? Rename to Level 1/2/3?", a: "NOVICE is the lowest in your sheet. Rename to L1/L2/L3." },
+  { id: "PRG-06", core: 0, q: "Upper/Lower: upper-day reps rise with level (3×8 → 3×10 → 4×12), the opposite of the lower day. Intentional?", a: "Fill error." },
+  { id: "PRG-07", core: 0, q: "What do '12/10/8 -20' and '10/10' on bilateral curls mean?", a: "'-20' = a back-off set of 20; '10/10' = rest-pause 10 + 10." },
+  { id: "PRG-08", core: 0, q: "'WEIGHT USED or SCORE': what is SCORE for?", a: "Times, rounds or distances for conditioning." },
+  { id: "PRG-09", core: 0, q: "Baseball: which calendar is for whom (high school, college, pro)? What's Thursday's focus?", a: "Thursday = strength." },
+  { id: "PRG-10", core: 0, q: "CrossFit FULL TIME vs HALF TIME, and what's the missing 4th track?", a: "FULL TIME = competitor, HALF TIME = class member; 4th track unknown." },
+  { id: "PRG-11", core: 0, q: "Fat Burn circuits: finisher after lifting, or separate session?", a: "Finisher." },
+  { id: "PRG-12", core: 0, q: "Half marathon (Chris Hinshaw plan): used as-is? Any other endurance plans?", a: "Used as-is for half marathon only." }
+ ]},
+ { id: "FIX", title: "Sheet fixes", blurb: "Things we found broken. Say yes and Claude can fix them later. Nothing has been changed.", qs: [
+  { id: "FIX-01", core: 0, q: "NO ACCESS – AESTHETICS: Tuesday 'Unilateral HD' dropdown points to LEG CURLS. Fix to the Unilateral HD list?", a: "Yes." },
+  { id: "FIX-02", core: 0, q: "Cardio dropdowns stop at row 122 and miss DISTANCE (200–1000 m) and CALORIES. Extend them?", a: "Yes." },
+  { id: "FIX-03", core: 0, q: "Labels: Bootcamp Option 2 titled 'Option 1'; Justice League titled 'Athletic'; blank Thursday labels. Fix?", a: "Yes." },
+  { id: "FIX-04", core: 0, q: "Exercise name spelling (SAGITAL, TRIPPLE, INTERMIDIATE, Coppenhaggen…): correct them in the generator, or keep yours?", a: "Correct them in the generator and leave your sheets as they are." }
+ ]}
+];
+
+const R2 = [{"id": "R2-VOL", "title": "Your volume math: approve or fix", "blurb": "You asked us to build the volume algorithm and back it with research. These are the choices we made for you. Say yes, or give the number you want.", "qs": [{"id": "R2-VOL-01", "core": 1, "q": "Each week the plan grows by 3, 5 or 7 % depending on how the person's week went. Does this table match how you'd adjust a client?", "a": "Effort mostly 1-6 (too easy): +7 % (+5 % if life was harder). Effort 7-8 (tough / perfect): +5 % (+3 % if life was harder). Effort 9: hold (+3 % only if life was better than usual). Any '10 - I'm done': hold and remove 1 set from that day. Life 'much harder' (sick, travel, no sleep): hold. Never more than 7 % a week; repeat the week if they did under half the sessions."}, {"id": "R2-VOL-02", "core": 1, "q": "'Leave 1 in the tank' is very hard, but your effort menu calls 9 'That was terrible'. Should clients rate effort against what the set asked for?", "a": "Yes: '8 - That was perfect' means 'I hit the target the plan gave me'. 9 = harder than planned, 10 = failed or wrecked. Otherwise a client doing exactly the 1 rep in reserve you ask for logs 9 and the plan never grows."}, {"id": "R2-VOL-03", "core": 1, "q": "If someone never checks in, what weekly step should their plan use?", "a": "5 % for most people. 3 % for people who are stressed, sleep under 6 hours, have a hard physical job, are 60+, are coming back from 6+ months off, or have pain. 7 % only after check-ins show they handle it. Advanced lifters default to 3 % so the hardest weeks land at the end."}, {"id": "R2-VOL-04", "core": 1, "q": "Should small muscles (biceps, triceps, side delts) start the same as big muscles, or a bit lower?", "a": "A bit lower: beginner 8, intermediate 12, advanced 15 sets a week (big muscles 10 / 15 / 20). Rear delts 4 / 6 / 8 of their own sets. Reason: it fits 5-7 exercises a session, and arms also grow from presses and rows."}, {"id": "R2-VOL-05", "core": 1, "q": "How should glutes count on squats, lunges and deadlifts? And thrusters?", "a": "Squats, lunges, deadlifts and RDLs = a quarter set for glutes (your helper rule, and your 'mostly quads' on lunges). Hip thrusts, bridges and KB swings = 1 full set for glutes. Thrusters = 1 set quads + half a set shoulders (your thruster answer wins over the 0.25 rule, like dips). Say so if deadlifts and RDLs should count half a set for glutes instead."}, {"id": "R2-VOL-06", "core": 0, "q": "What's the most weekly sets a muscle should reach in one 12-week plan?", "a": "Non-priority: beginner 14, intermediate 22, advanced 25. Priority muscle: beginner 18, intermediate 26-28, advanced 30. While 1-2 priorities are pushed, the other muscles grow at most 3 % a week. The next 12-week cycle starts 5 % higher with the ceiling 1 set higher (never above 25, or 30 for a priority)."}, {"id": "R2-VOL-07", "core": 1, "q": "Deload is 'about half the sets'. Half of which week, and when does it happen?", "a": "Half of the current (hardest) week, same exercises, 3+ reps in reserve. No fixed deload week inside a 12-week plan: it comes when check-ins say so (two hold weeks in a row, effort 9-10 two weeks, or pain on 2+ exercises), and week 1 of the next cycle is a deload."}, {"id": "R2-VOL-08", "core": 0, "q": "When day A happens twice a week, where does a new set go? And where does a small-muscle bonus exercise go?", "a": "Alternate: Monday's first exercise, then Thursday's first exercise, so both days stay even. A bonus exercise (2 sets) goes on the optional day as a Focus slot; with no optional day, at the end of the shortest training day."}]}, {"id": "R2-SES", "title": "Sessions and weeks", "blurb": "How a day and a week are put together: the spine rule, core first, how many exercises, aerobic work.", "qs": [{"id": "R2-SES-01", "core": 1, "q": "'Load the spine once a week': one squat day and one deadlift day (two days), or squat and deadlift on the same day?", "a": "Two different days: heavy squat Monday, heavy deadlift Friday. Tuesday a non-spinal hinge (hip thrust, back extension, reverse hyper). Thursday leg press or belt squat."}, {"id": "R2-SES-02", "core": 1, "q": "Which lifts count as loading the spine?", "a": "Count: barbell back, front, zercher, overhead and Smith squats; barbell or trap-bar deadlifts and RDLs; good mornings. Don't count: leg press, belt squat, hip thrust, back extension, reverse hyper, single-leg DB work, Olympic lifts, loaded jumps. Goblet squat, hack squat and pendulum: fine on the second day if not sore. Powerlifters may add a light technique squat or deadlift."}, {"id": "R2-SES-03", "core": 1, "q": "When core opens the session before jumps and Olympic lifts, should it stay light?", "a": "Yes: 2 exercises x 2 sets, short of failure, as a warm-up. Hard core finishers only when the client moves core to the end."}, {"id": "R2-SES-04", "core": 0, "q": "Your cap for field athletes: 'max maybe 12' in one answer, '12 to 14' in another. Is it 12 plus the 2 core exercises?", "a": "Yes: up to 12 exercises plus the 2-exercise core block (14 total). Warm-up drills never count, and a superset of two small isolations counts as one."}, {"id": "R2-SES-05", "core": 0, "q": "You use 3-4 exercises per muscle a day, but full-body days only hold 5-7 exercises. On full-body days, OK to give each muscle 1-2 exercises?", "a": "Yes: 1-2 per muscle on full-body days (volume comes from training it 2-3 times a week, Focus slots and bonus exercises); 3-4 per muscle on split days (push/pull/legs, upper/lower)."}, {"id": "R2-SES-06", "core": 0, "q": "Aesthetics clients get 4 aerobic sessions, but your sheet says never the same colour twice. What is the 4th?", "a": "A second easy Orange (long, low). The long walks after workouts are extra, 20-30 minutes easy. All aesthetics / physique clients get the 4, not only competitive bodybuilders."}]}, {"id": "R2-ATH", "title": "Athletes", "blurb": "Your ground-contact rule, the plyo stages, Olympic lifts and the season.", "qs": [{"id": "R2-ATH-01", "core": 1, "q": "Do these plyo vs ballistic splits match your ground-contact rule (share of jump and throw work that is plyometric by the end of a block)?", "a": "Sprinters 75 %; volleyball, soccer, football skill 60 %; basketball, tennis, football big-skill, weekend warriors 50 %; baseball, softball, hockey, linemen, MMA 40 %; boxing, karate, kickboxing, wrestling, BJJ, golf 25 %. Each block starts 15 points more ballistic. Your sport ranking is read as fast, bouncy contacts, not total jumps."}, {"id": "R2-ATH-02", "core": 1, "q": "Which jumps count as ballistic and which as plyometric?", "a": "Ballistic (longer contact or one big effort): squat jumps, box jumps, broad jumps, loaded or hex-bar jumps, medball throws. Plyometric (short, bouncy contacts): pogo and ankle hops, hurdle hops, depth jumps, bounds, squirrel jumps, repeated jumps. Stick-the-landing drills are the 'receive' stage."}, {"id": "R2-ATH-03", "core": 1, "q": "Your plyo progression (receive and pause, then receive and create, then repeat): what do we call it, and how long in each stage?", "a": "Name: 'Receive-Create stages' (1 Land, 2 Land & Go, 3 Repeat). 12-week plan: weeks 1-3 / 4-7 / 8-12. 8-week plan: weeks 1-2 / 3-5 / 6-8. Restart at stage 1 each off-season; stay put in maintenance blocks; intermediate and advanced athletes may start at stage 2."}, {"id": "R2-ATH-04", "core": 1, "q": "Everyone in athletic training gets Olympic lifts. In season too?", "a": "Yes, a light piece: 2 sets of 3 (hang power clean or DB snatch) once a week, dropped in heavy game weeks."}, {"id": "R2-ATH-05", "core": 0, "q": "Your ramp is 4x8 at 75 % up to 4x4 at 90 %. Eight reps is a lot for a full squat clean or snatch. Keep 8s only for DB/KB and hang pulls?", "a": "Yes: keep your ramp for DB/KB and pull variants; full squat cleans and snatches use 3-5 reps per set with the same weekly reps (e.g. 6x5 at 75 %). The % comes from that lift's own 1-rep max."}, {"id": "R2-ATH-06", "core": 0, "q": "How many aerobic sessions for athletes off-season and pre-season, and for powerlifters?", "a": "Off-season 2-4 by sport: baseball, softball and sprinters 2; basketball, volleyball, football, tennis, golf, boxing and BJJ 3; soccer, hockey, kickboxing and karate 3-4; MMA and wrestling 4. Pre-season 2. Powerlifters 2 easy (Orange)."}, {"id": "R2-ATH-07", "core": 0, "q": "In season, games already give jumps and sprints. Should game-heavy sports get less of them in the gym?", "a": "Yes for basketball, volleyball, soccer, football and hockey: gym plyos at about half, no extra change-of-direction work, sprints only for speed athletes, and the one hard gym day at least 48 hours before a game."}, {"id": "R2-ATH-08", "core": 0, "q": "From what age do the older-client rules start, and from what age can youth do Olympic lifts from the floor?", "a": "Older rules from 60: never depth jumps (your rule); landing drills and low ankle hops still OK; no hurdle hops or bounding unless they ask. Youth from the floor from about 14, after one block of hang work."}]}, {"id": "R2-LIB", "title": "Library, levels and zones", "blurb": "Items you skipped or that we still read two ways, plus the Davidson zones.", "qs": [{"id": "R2-LIB-01", "core": 1, "q": "Can the tool make a small variation of one of your exercises, like 'Reverse lunge with the dumbbell in the opposite hand', or should it only use exercises written in your library?", "a": "Your library exercises are always the main pick. Between blocks the tool may change one detail (which hand holds the weight, grip, stance, implement, range) and show it as 'Reverse lunge - dumbbell in opposite hand'. It never invents a new exercise."}, {"id": "R2-LIB-02", "core": 1, "q": "Zones 1 and 3 are both 'vertical' external-rotation positions (arms low vs arms overhead or deep squat) and zone 2 is the horizontal, internal-rotation one. Right? And does the exercise level come from where the load sits, not from the zone?", "a": "Yes to both. The zone is a tag on the exercise; the level comes from load position, skill and stability, made easier by a seat, machine or cable. So a deep goblet squat stays foundational, and a seated DB shoulder press or a lat pulldown is foundational even though it's overhead."}, {"id": "R2-LIB-03", "core": 0, "q": "How should the plan use the rotation bias (external vs internal)?", "a": "Keep both in every week and use it to pick swaps when something hurts. Not by sport for now."}, {"id": "R2-LIB-04", "core": 1, "q": "'KB Face Pulls' sits under VERTICAL PULL. Move it to rear delts?", "a": "Yes: a rear-delt option and a swap only, never the main vertical pull."}, {"id": "R2-LIB-05", "core": 1, "q": "'Bench Push ups': hands on the bench or feet on the bench?", "a": "Both: hands on the bench = foundational (easier); feet on the bench = advanced (harder)."}, {"id": "R2-LIB-06", "core": 1, "q": "The '21.6 mile run' you called a marathon (a marathon is 26.2 miles): change it, keep it, or remove it?", "a": "Remove it from plans and tests. The longest run stays the half-marathon plan (Chris Hinshaw), which you use as-is."}, {"id": "R2-LIB-07", "core": 0, "q": "Add these to your master library at these levels?", "a": "Belt squat (foundational, knee dominant); seated machine shoulder press (foundational, vertical push); hang clean, single-arm DB snatch, KB squat clean and hex-bar jump (foundational, triple extension); for home clients a KB curl, a table row and floor Y/T raises. The ~120 exercises that live only in your programs (SL RDL, JM press, seal rows...) stay dropdown swaps until you add them."}, {"id": "R2-LIB-08", "core": 1, "q": "What did 'NO ACCESS' mean on your two hidden tabs? (You skipped this one.)", "a": "Our guess: a self-serve version without coach access, using the full gym library. If so, its Tuesday 'Unilateral HD' should point to the single-leg hinge list, not to leg curls."}]}, {"id": "R2-PER", "title": "Plans, the year and testing", "blurb": "How 8-week, 12-week and yearly plans run, and how testing works.", "qs": [{"id": "R2-PER-01", "core": 1, "q": "Your yearly plan, as we understood it. Right?", "a": "Jan-Mar: hard work + more cardio, start cutting (sets stay at the starting level). Apr-Jun: summer shape, keep losing fat while building a little muscle. Jul-Sep: maintain at about 70 % of the volume. Oct to mid-Dec: build muscle, less cardio. Last 2 weeks of December: automatic maintenance."}, {"id": "R2-PER-02", "core": 0, "q": "Should the year follow the user's own calendar?", "a": "Yes: use the user's hemisphere for summer and let them mark their own vacation and holiday weeks (Christmas, Semana Santa, Thanksgiving...), which switch to maintenance automatically. Athletes follow their season instead."}, {"id": "R2-PER-03", "core": 1, "q": "8-week plan: 4 weeks getting used to it + 4 driving hard, or 3 + 5? And does 'start hard' mean more sets?", "a": "4 + 4. 'Start hard' = about 10 % more sets than the normal start, with the weekly step capped at 5 % in weeks 1-4."}, {"id": "R2-PER-04", "core": 1, "q": "12-week plan: weeks 1-3 getting used to it (1-4 for beginners or people coming back, 1-2 for advanced), drive to week 9, hardest weeks 10-12. OK?", "a": "Yes, with a 3 % max weekly step during the getting-used-to-it weeks."}, {"id": "R2-PER-05", "core": 0, "q": "'Start at a 2 and end at an 11': advanced lifters are already at the 25-set ceiling. Where does 'one level higher' come from for them?", "a": "From heavier loads, intensifiers (myo sets, supersets) and a rotating priority muscle that can go up to 30 sets, not from more sets on everything."}, {"id": "R2-PER-06", "core": 0, "q": "Is pre-season the same as the 4-6-week 'season change' maintenance block?", "a": "Yes: 4-6 weeks at about 60 % of off-season sets with more speed and power, ending with a 1-2-week taper before the first game."}, {"id": "R2-PER-07", "core": 1, "q": "Testing: is this the menu and timing?", "a": "Ticked at block start: strength (beginners a 5-8 rep max; intermediate and up a 3-rep max or work up to a 1-rep max), cardio (1-mile run or an erg time trial), speed and agility (10-30 m sprint, 5-10-5, L-test), jumps, body weight. Tested in the last week instead of that week's top sets. Reminders at block start, 7 days before and the day before."}]}, {"id": "R2-GEN", "title": "The generator and the product", "blurb": "What people get, how it adapts, and what we need from you before launch.", "qs": [{"id": "R2-GEN-01", "core": 1, "q": "You said people should track on their own, but also that the plan should adjust from their effort. OK to offer both?", "a": "Yes: the plan works with no tracking at all. An optional 1-minute weekly check-in (effort, how it felt, anything hurting, how life was) decides next week's step. The week-by-week plan needs the check-in."}, {"id": "R2-GEN-02", "core": 1, "q": "Build a phone-friendly website (not an app) first, then add the check-in, then open-source it after you approve the model?", "a": "Yes: phase 1 website with the plan, save-day-as-image, PDF and a Google Sheet download (about 10-14 developer-weeks); phase 1.1 the check-in (+3.5-5 weeks); then open source with the code free to use (Apache), the model shared with credit to you (CC BY), and your videos, cues and the Blaze Camp name kept yours."}, {"id": "R2-GEN-03", "core": 1, "q": "Should the form start with a short health check that sends some people to a professional first?", "a": "Yes: chest pain or heart issues, surgery or a fracture in the last 6 months, pregnant or gave birth in the last 6 months, an injury under treatment, or a doctor said no: no automatic plan, refer them to a professional or to you."}, {"id": "R2-GEN-04", "core": 1, "q": "Add three quick taps to the form: usual sleep, stress, and a physical job or other sport?", "a": "Yes: it sets the starting weekly step (3 % instead of 5 % when sleep, stress or workload are bad)."}, {"id": "R2-GEN-05", "core": 0, "q": "For competitive athletes, ask the season dates or the season phase?", "a": "Ask the next season start date (or 'in season until'), plus practice and game days per week. The tool works out off-season, pre-season and in-season."}, {"id": "R2-GEN-06", "core": 1, "q": "How should the plan tell someone what weight to use?", "a": "Reps-in-reserve language ('leave 1-2 reps in the tank') with a week-1 tip ('pick a weight you could lift 2-3 more times'). Percentages only for barbell main lifts and Olympic lifts when they enter a recent best."}, {"id": "R2-GEN-07", "core": 1, "q": "Before launch, will you grade 5 sample plans and check our exercise tags?", "a": "Yes: beginner fat loss, intermediate aesthetics, off-season basketball, boxer, and a home dumbbell client (about 5 hours). Your grades become automatic tests. Tags reviewed in one sheet, most-used exercises first."}, {"id": "R2-GEN-08", "core": 0, "q": "Which Spanish, and who approves it?", "a": "Neutral Latin American Spanish, with the English gym word in brackets where gyms use it ('Empuje de cadera (Hip Thrust)'). You or a coach you trust approves every line; pounds in the US and kilograms elsewhere, switchable."}]}];
+const S = [...R2.map(x => ({...x, round: 2})), ...S1.map(x => ({...x, round: 1}))];
+
+const TOTAL = S.reduce((n, s) => n + s.qs.length, 0);
+const answers = {};          // qid -> {choice, text}
+const timers = {};
+let db = null, live = false;
+
+const $ = (sel, el = document) => el.querySelector(sel);
+const sectionsEl = $("#sections"), navEl = $("#nav"), statusEl = $("#status");
+const CHOICES = [["right", "That's right"], ["partly", "Partly"], ["wrong", "Not right"], ["skip", "Skip / not sure"]];
+
+function isAnswered(qid) {
+  const a = answers[qid];
+  return !!(a && ((a.text && a.text.trim()) || a.choice));
+}
+
+function render() {
+  sectionsEl.textContent = "";
+  navEl.textContent = "";
+  const coreOnly = $("#f-core").checked, openOnly = $("#f-open").checked;
+  let shown = 0;
+  const r2only = $("#f-r2").checked;
+  for (const s of S) {
+    if (r2only && s.round !== 2) continue;
+    const visible = s.qs.filter(q => (!coreOnly || q.core) && (!openOnly || !isAnswered(q.id)));
+    const done = s.qs.filter(q => isAnswered(q.id)).length;
+    const a = document.createElement("a");
+    a.href = "#" + s.id;
+    a.innerHTML = `${s.id} <b>${done}/${s.qs.length}</b>`;
+    if (done === s.qs.length) a.classList.add("done");
+    navEl.appendChild(a);
+    if (!visible.length) continue;
+    shown += visible.length;
+    const sec = document.createElement("section");
+    sec.className = "sec"; sec.id = s.id;
+    sec.innerHTML = `<div class="sec-head"><span class="code">${s.id}</span><h2></h2><p></p></div><div class="qs"></div>`;
+    $("h2", sec).textContent = s.title;
+    $("p", sec).textContent = s.blurb;
+    $(".code", sec).textContent = s.round === 2 ? s.id + " · ROUND 2" : s.id + " · ROUND 1";
+    const list = $(".qs", sec);
+    for (const q of visible) list.appendChild(card(q));
+    sectionsEl.appendChild(sec);
+  }
+  if (!shown) {
+    const d = document.createElement("div");
+    d.className = "empty-note";
+    d.textContent = "Nothing left under these filters. Turn a filter off to see answered questions.";
+    sectionsEl.appendChild(d);
+  }
+  updateCount();
+}
+
+function card(q) {
+  const a = answers[q.id] || {};
+  const el = document.createElement("article");
+  el.className = "q" + (isAnswered(q.id) ? " answered" : "");
+  el.dataset.qid = q.id;
+  el.innerHTML = `
+    <div class="q-meta"><span class="q-id">${q.id}</span><span class="tag ${q.core ? "core" : "detail"}">${q.core ? "Core" : "Detail"}</span><span class="q-saved" aria-live="polite"></span></div>
+    <p class="q-text"></p>
+    ${q.a ? `<div class="assume"><b>We assume</b><span></span></div>` : ""}
+    <div class="chips" role="group" aria-label="Is the assumption right?"></div>
+    <textarea id="t-${q.id}" aria-label="Your answer to ${q.id}" placeholder="Your answer, in your own words…"></textarea>`;
+  $(".q-text", el).textContent = q.q;
+  if (q.a) $(".assume span", el).textContent = q.a;
+  const chips = $(".chips", el);
+  for (const [v, label] of CHOICES) {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "chip"; b.dataset.v = v; b.textContent = label;
+    b.setAttribute("aria-pressed", String(a.choice === v));
+    b.addEventListener("click", () => {
+      const cur = answers[q.id] || {};
+      const next = cur.choice === v ? "" : v;
+      answers[q.id] = { ...cur, choice: next };
+      chips.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", String(c.dataset.v === next)));
+      el.classList.toggle("answered", isAnswered(q.id));
+      queueSave(q.id, el, 0);
+      updateCount();
+    });
+    chips.appendChild(b);
+  }
+  const ta = $("textarea", el);
+  ta.value = a.text || "";
+  ta.addEventListener("input", () => {
+    answers[q.id] = { ...(answers[q.id] || {}), text: ta.value };
+    el.classList.toggle("answered", isAnswered(q.id));
+    queueSave(q.id, el, 900);
+    updateCount();
+  });
+  return el;
+}
+
+function updateCount() {
+  const done = Object.keys(answers).filter(isAnswered).length;
+  const core = S.flatMap(s => s.qs).filter(q => q.core);
+  const coreDone = core.filter(q => isAnswered(q.id)).length;
+  const r2q = R2.flatMap(x => x.qs), r2Done = r2q.filter(q => isAnswered(q.id)).length;
+  $("#count").textContent = `Round 2: ${r2Done} / ${r2q.length} · all: ${done} / ${TOTAL} · core ${coreDone}/${core.length}`;
+  $("#bar").style.width = (100 * done / TOTAL).toFixed(1) + "%";
+  navEl.querySelectorAll("a").forEach(a => {
+    const s = S.find(x => x.id === a.getAttribute("href").slice(1));
+    if (!s) return;
+    const d = s.qs.filter(q => isAnswered(q.id)).length;
+    a.innerHTML = `${s.id} <b>${d}/${s.qs.length}</b>`;
+    a.classList.toggle("done", d === s.qs.length);
+  });
+}
+
+function saveLocal() {
+  try { localStorage.setItem("bc-answers", JSON.stringify(answers)); } catch (e) {}
+}
+
+const writing = {};
+function queueSave(qid, el, delay) {
+  saveLocal();
+  clearTimeout(timers[qid]);
+  timers[qid] = setTimeout(() => persist(qid, el), delay);
+}
+async function persist(qid, el) {
+  const badge = el && $(".q-saved", el);
+  if (!db) { if (badge) badge.textContent = "Saved on this device"; return; }
+  if (writing[qid]) { timers[qid] = setTimeout(() => persist(qid, el), 400); return; }
+  writing[qid] = true;
+  const a = answers[qid] || {};
+  try {
+    await db.doc("answers/" + qid).set({ choice: a.choice || "", text: a.text || "", updatedAt: new Date().toISOString() });
+    if (badge) badge.textContent = "Saved";
+  } catch (e) {
+    if (badge) badge.textContent = "Not saved";
+    statusEl.textContent = e && e.code === "invalid_argument" ? "You can read but not edit these answers." : "Couldn't save. Your text is kept on this device.";
+    statusEl.classList.add("warn");
+  } finally { writing[qid] = false; }
+}
+
+$("#f-core").addEventListener("change", render);
+$("#f-r2").addEventListener("change", render);
+$("#f-open").addEventListener("change", render);
+$("#copy").addEventListener("click", async () => {
+  const lines = [];
+  for (const s of S) for (const q of s.qs) {
+    const a = answers[q.id];
+    if (!isAnswered(q.id)) continue;
+    const label = (CHOICES.find(c => c[0] === a.choice) || [, ""])[1];
+    lines.push(`${q.id} ${q.q}\n  ${label}${label && a.text ? " — " : ""}${(a.text || "").trim()}`);
+  }
+  const txt = lines.join("\n\n") || "No answers yet.";
+  try { await navigator.clipboard.writeText(txt); statusEl.textContent = `Copied ${lines.length} answers`; }
+  catch (e) { statusEl.textContent = "Copy blocked here. Your answers are saved on the page."; }
+});
+
+try { Object.assign(answers, JSON.parse(localStorage.getItem("bc-answers") || "{}")); } catch (e) {}
+render();
+
+(async () => {
+  try { db = window.claude && window.claude.use ? await window.claude.use("db") : null; } catch (e) { db = null; }
+  if (!db) { statusEl.textContent = "Saving on this device only"; return; }
+  statusEl.textContent = "Answers sync to Claude";
+  let first = true;
+  db.collection("answers").onSnapshot(snap => {
+    if (first) {
+      first = false;
+      for (const d of snap.docs) {
+        const v = d.data() || {};
+        answers[d.id] = { choice: v.choice || "", text: v.text || "" };
+      }
+      // push any device-only drafts that never reached the store
+      for (const qid of Object.keys(answers)) {
+        if (isAnswered(qid) && !snap.docs.find(d => d.id === qid)) persist(qid, null);
+      }
+      const y = window.scrollY; render(); window.scrollTo(0, y);
+      return;
+    }
+    // later deliveries: patch only the cards that changed, never the one being typed in
+    for (const ch of snap.docChanges()) {
+      if (ch.type === "removed") continue;
+      const qid = ch.doc.id, v = ch.doc.data() || {};
+      if (ch.doc.metadata.hasPendingWrites) continue;
+      if (document.activeElement && document.activeElement.id === "t-" + qid) continue;
+      answers[qid] = { choice: v.choice || "", text: v.text || "" };
+      const el = sectionsEl.querySelector(`.q[data-qid="${qid}"]`);
+      if (!el) continue;
+      const ta = $("textarea", el);
+      if (ta.value !== answers[qid].text) ta.value = answers[qid].text;
+      el.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", String(c.dataset.v === answers[qid].choice)));
+      el.classList.toggle("answered", isAnswered(qid));
+    }
+    updateCount();
+  }, () => { statusEl.textContent = "Live sync stopped. Reload the page."; statusEl.classList.add("warn"); });
+})();
+</script>

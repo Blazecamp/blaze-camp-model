@@ -1,0 +1,406 @@
+SHEET: 'NO ACCESS - ATHLETIC - FB - 4 t'
+DIMENSIONS: A1:AA1003  max_row=1003 max_col=27
+NON-EMPTY CELLS: 376
+MERGED (31): B40:B49, B57:B63, D57:D63, B30:B39, K3:K12, B23:B29, A13:A22, A1:K1, H57:H63, A40:A49, A57:A63, A30:A39, C57:C63, K23:K29, E57:E63, K57:K63, K30:K39, A23:A29, B3:B12, F57:F63, J57:J63, A64:A70, B13:B22, A3:A12, B50:B56, K40:K49, G57:G63, I57:I63, A50:A56, K13:K22, K50:K56
+DATA VALIDATIONS (dropdown sources):
+  E19 E46 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AR$7:$AR$42"
+  G3:G22 G24 G26:G28 G30:G49 G51 G53:G55 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AW$7:$AW$42"
+  E7 E16 E34 E43 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$C$7:$C$242"
+  E9 E36 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$X$7:$X$162"
+  E11 E38 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$U$7:$U$122"
+  E25 E52 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$B$7:$B$122"
+  E20 E47 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AA$7:$AA$122"
+  E12 E39 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AM$7:$AM$9"
+  E22 E49 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AH$7:$AH$42"
+  E24 E51 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AU$7:$AU$13"
+  J3:J22 J24 J26:J28 J30:J49 J51 J53:J55 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AY$7:$AY$42"
+  F3:F22 F24:F28 F30:F49 F51:F55 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AV$7:$AV$42"
+  E5 E14 E32 E41 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$K$7:$K$87"
+  E21 E48 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AR$7:$AR$10"
+  I3:I22 I24:I28 I30:I49 I51:I55 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AX$7:$AX$42"
+  E10 E37 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AL$7:$AL$42"
+  E8 E35 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AI$7:$AI$122"
+  E27:E28 E54:E55 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AZ$7:$AZ$335"
+  E18 E45 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AD$7:$AD$162"
+  E26 E53 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$O$7:$O$283"
+  E17 E44 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$AN$7:$AN$122"
+  E3:E4 E13 E30:E31 E40 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$G$7:$G$162"
+  E6 E15 E33 E42 -> type=list formula1="'MASTER EXERCISE LIBRARY'!$L$7:$L$242"
+
+CELLS (row-major; coord | value | formatting):
+A1 | 'ATHLETIC - FULL BODY - 4 to 6 DAYS A WEEK' | bg=EA9999 bold fg=theme1
+A2 | 'WEEK' | bold fg=theme1
+B2 | 'DAY' | bold fg=theme1
+C2 | 'PURPOSE' | bold fg=theme1
+D2 | 'CATEGORY' | bold fg=theme1
+E2 | 'EXERCISE' | bold fg=theme1
+F2 | 'SETS' | bold fg=theme1
+G2 | 'REPS' | bold fg=theme1
+H2 | 'WEIGHT USED or SCORE' | bold fg=theme1
+I2 | 'EFFORT' | bold fg=theme1
+J2 | 'HOW IT FELT?' | bold fg=theme1
+K2 | 'DONE?' | bold fg=theme1
+A3 | 'WEEK 1' | bg=CFE2F3 bold fg=theme1
+B3 | 'MONDAY' | bg=EFEFEF bold fg=theme1
+C3 | 'Plyo' | bg=EFEFEF fg=theme1
+D3 | 'Plyo' | bg=EFEFEF fg=theme1
+E3 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+F3 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G3 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I3 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J3 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+K3 | False | bg=CFE2F3 bold fg=theme1
+C4 | 'Plyo' | bg=EFEFEF fg=theme1
+D4 | 'Plyo' | bg=EFEFEF fg=theme1
+E4 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+F4 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G4 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I4 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J4 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C5 | 'Throwing' | bg=EFEFEF fg=theme1
+D5 | 'Throwing' | bg=EFEFEF fg=theme1
+E5 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+F5 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G5 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I5 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J5 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C6 | 'COD' | bg=EFEFEF fg=theme1
+D6 | 'COD' | bg=EFEFEF fg=theme1
+E6 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+F6 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G6 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I6 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J6 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C7 | 'Tripple Extension' | bg=EFEFEF fg=theme1
+D7 | 'Tripple Extension' | bg=EFEFEF fg=theme1
+E7 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+F7 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G7 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I7 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J7 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C8 | 'Quads' | bg=EFEFEF fg=theme1
+D8 | 'Bilateral KD' | bg=EFEFEF fg=theme1
+E8 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F8 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G8 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I8 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J8 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C9 | 'Back' | bg=EFEFEF fg=theme1
+D9 | 'Horizontal Pull' | bg=EFEFEF fg=theme1
+E9 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F9 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G9 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I9 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J9 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C10 | 'Quads/Glutes' | bg=EFEFEF fg=theme1
+D10 | 'Unilateral KD' | bg=EFEFEF fg=theme1
+E10 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F10 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G10 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I10 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J10 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C11 | 'Back ' | bg=EFEFEF fg=theme1
+D11 | 'Vertical Pull' | bg=EFEFEF fg=theme1
+E11 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F11 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G11 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I11 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J11 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C12 | 'Quads' | bg=EFEFEF fg=theme1
+D12 | 'Leg Extensions' | bg=EFEFEF fg=theme1
+E12 | 'Leg extensions' | bg=F3F3F3 fg=theme1
+F12 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G12 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I12 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J12 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+A13 | 'WEEK 1' | bg=CFE2F3 bold fg=theme1
+B13 | 'TUESDAY' | bg=CCCCCC bold fg=theme1
+C13 | 'Plyo' | bg=CCCCCC fg=theme1
+D13 | 'PLYO' | bg=CCCCCC fg=theme1
+E13 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F13 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G13 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I13 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J13 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+K13 | False | bg=CFE2F3 bold fg=theme1
+C14 | 'Throwing' | bg=CCCCCC fg=theme1
+D14 | 'Throwing' | bg=CCCCCC fg=theme1
+E14 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F14 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G14 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I14 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J14 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C15 | 'COD' | bg=CCCCCC fg=theme1
+D15 | 'COD' | bg=CCCCCC fg=theme1
+E15 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F15 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G15 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I15 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J15 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C16 | 'Tripple Extension' | bg=CCCCCC fg=theme1
+D16 | 'Tripple Extension' | bg=CCCCCC fg=theme1
+E16 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F16 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G16 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I16 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J16 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C17 | 'Hamstring' | bg=CCCCCC fg=theme1
+D17 | 'Bilateral HD' | bg=CCCCCC fg=theme1
+E17 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F17 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G17 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I17 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J17 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C18 | 'Chest' | bg=CCCCCC fg=theme1
+D18 | 'Horizontal Push' | bg=CCCCCC fg=theme1
+E18 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F18 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G18 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I18 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J18 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C19 | 'Hamstring/Glutes' | bg=CCCCCC fg=theme1
+D19 | 'Unilateral HD' | bg=CCCCCC fg=theme1
+E19 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F19 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G19 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I19 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J19 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C20 | 'Chest/Shoulders' | bg=CCCCCC fg=theme1
+D20 | 'Vertical Push' | bg=CCCCCC fg=theme1
+E20 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F20 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G20 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I20 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J20 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C21 | 'Hamstrings' | bg=CCCCCC fg=theme1
+D21 | 'Leg Curls' | bg=CCCCCC fg=theme1
+E21 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F21 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G21 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I21 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J21 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C22 | 'Shoulders/Traps' | bg=CCCCCC fg=theme1
+D22 | 'ABdution' | bg=CCCCCC fg=theme1
+E22 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F22 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G22 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I22 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J22 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+A23 | 'WEEK 1' | bg=CFE2F3 bold fg=theme1
+B23 | 'WEDNESDAY' | bg=FCE5CD bold fg=theme1
+K23 | False | bg=CFE2F3 bold fg=theme1
+C24 | 'Calves' | bg=FCE5CD fg=theme1
+E24 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F24 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G24 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I24 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J24 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C25 | 'Aerobic Capacity' | bg=FCE5CD fg=theme1
+E25 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F25 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I25 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C26 | 'Core' | bg=FCE5CD fg=theme1
+E26 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F26 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G26 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I26 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J26 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C27 | 'Focus 1' | bg=FCE5CD fg=theme1
+E27 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F27 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G27 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I27 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J27 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C28 | 'Focus 2' | bg=FCE5CD fg=theme1
+E28 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F28 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G28 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I28 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J28 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+A30 | 'WEEK 1' | bg=CFE2F3 bold fg=theme1
+B30 | 'THURSDAY' | bg=EFEFEF bold fg=theme1
+C30 | 'Plyo' | bg=EFEFEF fg=theme1
+D30 | 'Plyo' | bg=EFEFEF fg=theme1
+E30 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+F30 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G30 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I30 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J30 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+K30 | False | bg=CFE2F3 bold fg=theme1
+C31 | 'Plyo' | bg=EFEFEF fg=theme1
+D31 | 'Plyo' | bg=EFEFEF fg=theme1
+E31 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+F31 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G31 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I31 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J31 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C32 | 'Throwing' | bg=EFEFEF fg=theme1
+D32 | 'Throwing' | bg=EFEFEF fg=theme1
+E32 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+F32 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G32 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I32 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J32 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C33 | 'COD' | bg=EFEFEF fg=theme1
+D33 | 'COD' | bg=EFEFEF fg=theme1
+E33 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+F33 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G33 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I33 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J33 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C34 | 'Tripple Extension' | bg=EFEFEF fg=theme1
+D34 | 'Tripple Extension' | bg=EFEFEF fg=theme1
+E34 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+F34 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G34 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I34 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J34 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C35 | 'Quads' | bg=EFEFEF fg=theme1
+D35 | 'Bilateral KD' | bg=EFEFEF fg=theme1
+E35 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F35 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G35 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I35 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J35 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C36 | 'Back' | bg=EFEFEF fg=theme1
+D36 | 'Horizontal Pull' | bg=EFEFEF fg=theme1
+E36 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F36 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G36 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I36 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J36 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C37 | 'Quads/Glutes' | bg=EFEFEF fg=theme1
+D37 | 'Unilateral KD' | bg=EFEFEF fg=theme1
+E37 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F37 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G37 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I37 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J37 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C38 | 'Back ' | bg=EFEFEF fg=theme1
+D38 | 'Vertical Pull' | bg=EFEFEF fg=theme1
+E38 | 'CHOSE 👇' | bg=F3F3F3 fg=theme1
+F38 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G38 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I38 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J38 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+C39 | 'Quads' | bg=EFEFEF fg=theme1
+D39 | 'Leg Extensions' | bg=EFEFEF fg=theme1
+E39 | 'Leg extensions' | bg=F3F3F3 fg=theme1
+F39 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+G39 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+I39 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+J39 | 'CHOSE 👇' | bg=EFEFEF fg=theme1
+A40 | 'WEEK 1' | bg=CFE2F3 bold fg=theme1
+B40 | 'FRIDAY' | bg=CCCCCC bold fg=theme1
+C40 | 'Plyo' | bg=CCCCCC fg=theme1
+D40 | 'PLYO' | bg=CCCCCC fg=theme1
+E40 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F40 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G40 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I40 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J40 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+K40 | False | bg=CFE2F3 bold fg=theme1
+C41 | 'Throwing' | bg=CCCCCC fg=theme1
+D41 | 'Throwing' | bg=CCCCCC fg=theme1
+E41 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F41 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G41 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I41 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J41 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C42 | 'COD' | bg=CCCCCC fg=theme1
+D42 | 'COD' | bg=CCCCCC fg=theme1
+E42 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F42 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G42 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I42 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J42 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C43 | 'Tripple Extension' | bg=CCCCCC fg=theme1
+D43 | 'Tripple Extension' | bg=CCCCCC fg=theme1
+E43 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F43 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G43 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I43 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J43 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C44 | 'Hamstring' | bg=CCCCCC fg=theme1
+D44 | 'Bilateral HD' | bg=CCCCCC fg=theme1
+E44 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F44 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G44 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I44 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J44 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C45 | 'Chest' | bg=CCCCCC fg=theme1
+D45 | 'Horizontal Push' | bg=CCCCCC fg=theme1
+E45 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F45 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G45 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I45 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J45 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C46 | 'Hamstring/Glutes' | bg=CCCCCC fg=theme1
+D46 | 'Unilateral HD' | bg=CCCCCC fg=theme1
+E46 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F46 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G46 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I46 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J46 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C47 | 'Chest/Shoulders' | bg=CCCCCC fg=theme1
+D47 | 'Vertical Push' | bg=CCCCCC fg=theme1
+E47 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F47 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G47 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I47 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J47 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C48 | 'Hamstrings' | bg=CCCCCC fg=theme1
+D48 | 'Leg Curls' | bg=CCCCCC fg=theme1
+E48 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F48 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G48 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I48 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J48 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+C49 | 'Shoulders/Traps' | bg=CCCCCC fg=theme1
+D49 | 'ABdution' | bg=CCCCCC fg=theme1
+E49 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+F49 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+G49 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+I49 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+J49 | 'CHOSE 👇' | bg=CCCCCC fg=theme1
+A50 | 'WEEK 1' | bg=CFE2F3 bold fg=theme1
+B50 | 'SATURDAY' | bg=FCE5CD bold fg=theme1
+K50 | False | bg=CFE2F3 bold fg=theme1
+C51 | 'Calves' | bg=FCE5CD fg=theme1
+E51 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+F51 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G51 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I51 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J51 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C52 | 'Aerobic Capacity' | bg=FCE5CD fg=theme1
+E52 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+F52 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I52 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C53 | 'Core' | bg=FCE5CD fg=theme1
+E53 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+F53 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G53 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I53 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J53 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C54 | 'Focus 1' | bg=FCE5CD fg=theme1
+E54 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+F54 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G54 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I54 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J54 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+C55 | 'Focus 2' | bg=FCE5CD fg=theme1
+E55 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+F55 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+G55 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+I55 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+J55 | 'CHOSE 👇' | bg=FCE5CD fg=theme1
+A57 | 'WEEK 1' | bg=CFE2F3 bold fg=theme1
+B57 | 'SUNDAY' | bg=F4CCCC bold fg=theme1
+C57 | 'OFF' | bg=F4CCCC fg=theme1
+E57 | 'OFF' | bg=F4CCCC fg=theme1
+F57 | 'OFF' | bg=F4CCCC fg=theme1
+G57 | 'OFF' | bg=F4CCCC fg=theme1
+H57 | 'OFF' | bg=F4CCCC fg=theme1
+I57 | 'OFF' | bg=F4CCCC fg=theme1
+J57 | 'OFF' | bg=F4CCCC fg=theme1
+K57 | 'OFF' | bg=F4CCCC fg=theme1

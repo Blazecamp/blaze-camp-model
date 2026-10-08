@@ -1,0 +1,2970 @@
+{
+ "rows": [
+  {
+   "program": "BYOP ATHLETIC - FULL BODY - 4 DAYS A @2 sets all 6 days",
+   "source": "BYOP ATHLETIC - FULL BODY - 4 DAYS A",
+   "basis": "coach 2 sets/slot (JUSTICE LEAGUE fills), 4 main + 2 optional days",
+   "population": "athlete (generic field/court)",
+   "evidence": "OBSERVED slots, ASSUMED sets",
+   "weekly_sets": 96.0,
+   "athletic_sets": 36.0,
+   "athletic_by_type": {
+    "AP_PLYO": 12.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 8.0,
+    "AP_COD": 8.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 8.0
+   },
+   "resistance_sets": 48.0,
+   "compound_RP_sets": 32.0,
+   "isolation_ISO_sets": 16.0,
+   "core_sets": 4.0,
+   "focus_sets": 8.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 37.5,
+    "resistance_compound": 33.3,
+    "resistance_isolation": 16.7,
+    "core": 4.2,
+    "focus": 8.3,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 33.3,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 22.2,
+    "AP_COD": 22.2,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 22.2
+   },
+   "lower_bilateral_vs_unilateral": [
+    8.0,
+    8.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    12.0,
+    12.0
+   ],
+   "upper_vs_lower_compound": [
+    16.0,
+    16.0
+   ],
+   "push_vs_pull": [
+    8.0,
+    8.0
+   ],
+   "compound_to_isolation_ratio": 2.0
+  },
+  {
+   "program": "BYOP ATHLETIC - FULL BODY - 4 DAYS A @3 sets all 6 days",
+   "source": "BYOP ATHLETIC - FULL BODY - 4 DAYS A",
+   "basis": "3 sets/slot",
+   "population": "athlete",
+   "evidence": "OBSERVED slots, ASSUMED sets",
+   "weekly_sets": 144.0,
+   "athletic_sets": 54.0,
+   "athletic_by_type": {
+    "AP_PLYO": 18.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 12.0,
+    "AP_COD": 12.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 12.0
+   },
+   "resistance_sets": 72.0,
+   "compound_RP_sets": 48.0,
+   "isolation_ISO_sets": 24.0,
+   "core_sets": 6.0,
+   "focus_sets": 12.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 37.5,
+    "resistance_compound": 33.3,
+    "resistance_isolation": 16.7,
+    "core": 4.2,
+    "focus": 8.3,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 33.3,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 22.2,
+    "AP_COD": 22.2,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 22.2
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    12.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    18.0,
+    18.0
+   ],
+   "upper_vs_lower_compound": [
+    24.0,
+    24.0
+   ],
+   "push_vs_pull": [
+    12.0,
+    12.0
+   ],
+   "compound_to_isolation_ratio": 2.0
+  },
+  {
+   "program": "BYOP JUSTICE LEAGUE @2 sets all 6 days",
+   "source": "BYOP JUSTICE LEAGUE",
+   "basis": "coach 2 sets/slot (JUSTICE LEAGUE fills), 4 main + 2 optional days",
+   "population": "athlete (generic field/court)",
+   "evidence": "OBSERVED slots, ASSUMED sets",
+   "weekly_sets": 96.0,
+   "athletic_sets": 36.0,
+   "athletic_by_type": {
+    "AP_PLYO": 10.0,
+    "AP_JUMP_LIMITED_KNEE": 2.0,
+    "AP_THROW": 8.0,
+    "AP_COD": 8.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 8.0
+   },
+   "resistance_sets": 48.0,
+   "compound_RP_sets": 32.0,
+   "isolation_ISO_sets": 16.0,
+   "core_sets": 4.0,
+   "focus_sets": 8.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 37.5,
+    "resistance_compound": 33.3,
+    "resistance_isolation": 16.7,
+    "core": 4.2,
+    "focus": 8.3,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 27.8,
+    "AP_JUMP_LIMITED_KNEE": 5.6,
+    "AP_THROW": 22.2,
+    "AP_COD": 22.2,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 22.2
+   },
+   "lower_bilateral_vs_unilateral": [
+    8.0,
+    8.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    12.0,
+    12.0
+   ],
+   "upper_vs_lower_compound": [
+    16.0,
+    16.0
+   ],
+   "push_vs_pull": [
+    8.0,
+    8.0
+   ],
+   "compound_to_isolation_ratio": 2.0
+  },
+  {
+   "program": "BYOP JUSTICE LEAGUE @3 sets all 6 days",
+   "source": "BYOP JUSTICE LEAGUE",
+   "basis": "3 sets/slot",
+   "population": "athlete",
+   "evidence": "OBSERVED slots, ASSUMED sets",
+   "weekly_sets": 133.0,
+   "athletic_sets": 48.0,
+   "athletic_by_type": {
+    "AP_PLYO": 13.0,
+    "AP_JUMP_LIMITED_KNEE": 2.0,
+    "AP_THROW": 11.0,
+    "AP_COD": 11.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 11.0
+   },
+   "resistance_sets": 67.0,
+   "compound_RP_sets": 44.0,
+   "isolation_ISO_sets": 23.0,
+   "core_sets": 6.0,
+   "focus_sets": 12.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 36.1,
+    "resistance_compound": 33.1,
+    "resistance_isolation": 17.3,
+    "core": 4.5,
+    "focus": 9.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 27.1,
+    "AP_JUMP_LIMITED_KNEE": 4.2,
+    "AP_THROW": 22.9,
+    "AP_COD": 22.9,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 22.9
+   },
+   "lower_bilateral_vs_unilateral": [
+    11.0,
+    11.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    15.0,
+    18.0
+   ],
+   "upper_vs_lower_compound": [
+    22.0,
+    22.0
+   ],
+   "push_vs_pull": [
+    12.0,
+    10.0
+   ],
+   "compound_to_isolation_ratio": 1.91
+  },
+  {
+   "program": "BYOP NO ACCESS - ATHLETIC - FB - 4 t @2 sets all 6 days",
+   "source": "BYOP NO ACCESS - ATHLETIC - FB - 4 t",
+   "basis": "coach 2 sets/slot (JUSTICE LEAGUE fills), 4 main + 2 optional days",
+   "population": "athlete (generic field/court)",
+   "evidence": "OBSERVED slots, ASSUMED sets",
+   "weekly_sets": 96.0,
+   "athletic_sets": 36.0,
+   "athletic_by_type": {
+    "AP_PLYO": 12.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 8.0,
+    "AP_COD": 8.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 8.0
+   },
+   "resistance_sets": 48.0,
+   "compound_RP_sets": 28.0,
+   "isolation_ISO_sets": 20.0,
+   "core_sets": 4.0,
+   "focus_sets": 8.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 37.5,
+    "resistance_compound": 29.2,
+    "resistance_isolation": 20.8,
+    "core": 4.2,
+    "focus": 8.3,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 33.3,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 22.2,
+    "AP_COD": 22.2,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 22.2
+   },
+   "lower_bilateral_vs_unilateral": [
+    8.0,
+    4.0,
+    33.3
+   ],
+   "knee_vs_hip_sets": [
+    12.0,
+    12.0
+   ],
+   "upper_vs_lower_compound": [
+    16.0,
+    12.0
+   ],
+   "push_vs_pull": [
+    8.0,
+    8.0
+   ],
+   "compound_to_isolation_ratio": 1.4
+  },
+  {
+   "program": "BYOP NO ACCESS - ATHLETIC - FB - 4 t @3 sets all 6 days",
+   "source": "BYOP NO ACCESS - ATHLETIC - FB - 4 t",
+   "basis": "3 sets/slot",
+   "population": "athlete",
+   "evidence": "OBSERVED slots, ASSUMED sets",
+   "weekly_sets": 144.0,
+   "athletic_sets": 54.0,
+   "athletic_by_type": {
+    "AP_PLYO": 18.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 12.0,
+    "AP_COD": 12.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 12.0
+   },
+   "resistance_sets": 72.0,
+   "compound_RP_sets": 42.0,
+   "isolation_ISO_sets": 30.0,
+   "core_sets": 6.0,
+   "focus_sets": 12.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 37.5,
+    "resistance_compound": 29.2,
+    "resistance_isolation": 20.8,
+    "core": 4.2,
+    "focus": 8.3,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 33.3,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 22.2,
+    "AP_COD": 22.2,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 22.2
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    6.0,
+    33.3
+   ],
+   "knee_vs_hip_sets": [
+    18.0,
+    18.0
+   ],
+   "upper_vs_lower_compound": [
+    24.0,
+    18.0
+   ],
+   "push_vs_pull": [
+    12.0,
+    12.0
+   ],
+   "compound_to_isolation_ratio": 1.4
+  },
+  {
+   "program": "BYOP AESTHETICS - FULL BODY - 4 DAYS (assumed_convention_plus_optional)",
+   "source": "BYOP AESTHETICS - FULL BODY - 4 DAYS",
+   "basis": "assumed_convention_plus_optional",
+   "population": "aesthetics / physique",
+   "evidence": "OBSERVED slots, ASSUMED sets",
+   "weekly_sets": 102.0,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 84.0,
+   "compound_RP_sets": 52.0,
+   "isolation_ISO_sets": 32.0,
+   "core_sets": 6.0,
+   "focus_sets": 12.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 51.0,
+    "resistance_isolation": 31.4,
+    "core": 5.9,
+    "focus": 11.8,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    12.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    16.0,
+    16.0
+   ],
+   "upper_vs_lower_compound": [
+    28.0,
+    24.0
+   ],
+   "push_vs_pull": [
+    16.0,
+    12.0
+   ],
+   "compound_to_isolation_ratio": 1.62
+  },
+  {
+   "program": "BYOP 3 DAY BUILDER (assumed_convention_plus_optional)",
+   "source": "BYOP 3 DAY BUILDER",
+   "basis": "assumed_convention_plus_optional",
+   "population": "aesthetics / physique",
+   "evidence": "OBSERVED slots, ASSUMED sets",
+   "weekly_sets": 80.0,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 53.0,
+   "compound_RP_sets": 39.0,
+   "isolation_ISO_sets": 14.0,
+   "core_sets": 9.0,
+   "focus_sets": 18.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 48.8,
+    "resistance_isolation": 17.5,
+    "core": 11.2,
+    "focus": 22.5,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    9.0,
+    42.9
+   ],
+   "knee_vs_hip_sets": [
+    12.0,
+    11.0
+   ],
+   "upper_vs_lower_compound": [
+    18.0,
+    21.0
+   ],
+   "push_vs_pull": [
+    9.0,
+    9.0
+   ],
+   "compound_to_isolation_ratio": 2.79
+  },
+  {
+   "program": "BYOP NO ACCESS - AESTHETICS - FB - 4 (assumed_flat3_plus_optional_as_designed)",
+   "source": "BYOP NO ACCESS - AESTHETICS - FB - 4",
+   "basis": "assumed_flat3_plus_optional_as_designed",
+   "population": "aesthetics / physique",
+   "evidence": "OBSERVED slots, ASSUMED sets",
+   "weekly_sets": 108.0,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 90.0,
+   "compound_RP_sets": 48.0,
+   "isolation_ISO_sets": 42.0,
+   "core_sets": 6.0,
+   "focus_sets": 12.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 44.4,
+    "resistance_isolation": 38.9,
+    "core": 5.6,
+    "focus": 11.1,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    12.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    18.0,
+    18.0
+   ],
+   "upper_vs_lower_compound": [
+    24.0,
+    24.0
+   ],
+   "push_vs_pull": [
+    12.0,
+    12.0
+   ],
+   "compound_to_isolation_ratio": 1.14
+  },
+  {
+   "program": "BYOP PUSHPULLLEGS - 3 or 6 DAYS A WK @3 sets",
+   "source": "BYOP PUSHPULLLEGS - 3 or 6 DAYS A WK",
+   "basis": "ASSUMED 3 working sets per resistance/core/focus slot (cardio slot = 1 bout, 0 sets). AS WRITTEN every SETS cell is 'CHOOSE \ud83d\udc47' (or there is no SETS column) -> 0 prescribed sets. See scenarios for as_written / coach_default and the alternate day-count variant.",
+   "population": "bodybuilding split",
+   "evidence": "OBSERVED slots, ASSUMED sets",
+   "weekly_sets": 126.0,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 120.0,
+   "compound_RP_sets": 66.0,
+   "isolation_ISO_sets": 54.0,
+   "core_sets": 0.0,
+   "focus_sets": 6.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 52.4,
+    "resistance_isolation": 42.9,
+    "core": 0.0,
+    "focus": 4.8,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    12.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    18.0,
+    18.0
+   ],
+   "upper_vs_lower_compound": [
+    42.0,
+    24.0
+   ],
+   "push_vs_pull": [
+    24.0,
+    18.0
+   ],
+   "compound_to_isolation_ratio": 1.22
+  },
+  {
+   "program": "BYOP BOOTCAMP - OPTION 1 @3 sets",
+   "source": "BYOP BOOTCAMP - OPTION 1",
+   "basis": "ASSUMED 3 working sets per resistance/core/focus slot (cardio slot = 1 bout, 0 sets). AS WRITTEN every SETS cell is 'CHOOSE \ud83d\udc47' (or there is no SETS column) -> 0 prescribed sets. See scenarios for as_written / coach_default and the alternate day-count variant.",
+   "population": "bootcamp / general fitness",
+   "evidence": "OBSERVED slots, ASSUMED sets",
+   "weekly_sets": 108.0,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 90.0,
+   "compound_RP_sets": 48.0,
+   "isolation_ISO_sets": 42.0,
+   "core_sets": 6.0,
+   "focus_sets": 12.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 44.4,
+    "resistance_isolation": 38.9,
+    "core": 5.6,
+    "focus": 11.1,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    12.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    18.0,
+    18.0
+   ],
+   "upper_vs_lower_compound": [
+    24.0,
+    24.0
+   ],
+   "push_vs_pull": [
+    12.0,
+    12.0
+   ],
+   "compound_to_isolation_ratio": 1.14
+  },
+  {
+   "program": "BYOP BOOTCAMP - OPTION 2 @3 sets",
+   "source": "BYOP BOOTCAMP - OPTION 2",
+   "basis": "ASSUMED 3 working sets per resistance/core/focus slot (cardio slot = 1 bout, 0 sets). AS WRITTEN every SETS cell is 'CHOOSE \ud83d\udc47' (or there is no SETS column) -> 0 prescribed sets. See scenarios for as_written / coach_default and the alternate day-count variant.",
+   "population": "bootcamp / fat-loss conditioning",
+   "evidence": "OBSERVED slots, ASSUMED sets",
+   "weekly_sets": 72.0,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 66.0,
+   "compound_RP_sets": 48.0,
+   "isolation_ISO_sets": 18.0,
+   "core_sets": 6.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 66.7,
+    "resistance_isolation": 25.0,
+    "core": 8.3,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    12.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    12.0,
+    12.0
+   ],
+   "upper_vs_lower_compound": [
+    24.0,
+    24.0
+   ],
+   "push_vs_pull": [
+    12.0,
+    12.0
+   ],
+   "compound_to_isolation_ratio": 2.67
+  },
+  {
+   "program": "MM EXAMPLE UPPERLOWER SPLIT NOVICE ",
+   "source": "MASTER_MODEL EXAMPLE UPPERLOWER SPLIT",
+   "basis": "4-day A/B/A/B",
+   "population": "general gym hypertrophy",
+   "evidence": "OBSERVED (sets written)",
+   "weekly_sets": 88.0,
+   "athletic_sets": 12.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 12.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 76.0,
+   "compound_RP_sets": 40.0,
+   "isolation_ISO_sets": 36.0,
+   "core_sets": 0.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 13.6,
+    "resistance_compound": 45.5,
+    "resistance_isolation": 40.9,
+    "core": 0.0,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 100.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    8.0,
+    8.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    12.0,
+    12.0
+   ],
+   "upper_vs_lower_compound": [
+    24.0,
+    16.0
+   ],
+   "push_vs_pull": [
+    12.0,
+    12.0
+   ],
+   "compound_to_isolation_ratio": 1.11
+  },
+  {
+   "program": "MM EXAMPLE UPPERLOWER SPLIT NEWBY ",
+   "source": "MASTER_MODEL EXAMPLE UPPERLOWER SPLIT",
+   "basis": "4-day A/B/A/B",
+   "population": "general gym hypertrophy",
+   "evidence": "OBSERVED (sets written)",
+   "weekly_sets": 108.0,
+   "athletic_sets": 18.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 18.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 90.0,
+   "compound_RP_sets": 48.0,
+   "isolation_ISO_sets": 42.0,
+   "core_sets": 0.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 16.7,
+    "resistance_compound": 44.4,
+    "resistance_isolation": 38.9,
+    "core": 0.0,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 100.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    12.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    18.0,
+    18.0
+   ],
+   "upper_vs_lower_compound": [
+    24.0,
+    24.0
+   ],
+   "push_vs_pull": [
+    12.0,
+    12.0
+   ],
+   "compound_to_isolation_ratio": 1.14
+  },
+  {
+   "program": "MM EXAMPLE UPPERLOWER SPLIT INTERMEDIATE ",
+   "source": "MASTER_MODEL EXAMPLE UPPERLOWER SPLIT",
+   "basis": "4-day A/B/A/B",
+   "population": "general gym hypertrophy",
+   "evidence": "OBSERVED (sets written)",
+   "weekly_sets": 118.0,
+   "athletic_sets": 16.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 16.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 102.0,
+   "compound_RP_sets": 60.0,
+   "isolation_ISO_sets": 42.0,
+   "core_sets": 0.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 13.6,
+    "resistance_compound": 50.8,
+    "resistance_isolation": 35.6,
+    "core": 0.0,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 100.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    16.0,
+    14.0,
+    46.7
+   ],
+   "knee_vs_hip_sets": [
+    22.0,
+    20.0
+   ],
+   "upper_vs_lower_compound": [
+    30.0,
+    30.0
+   ],
+   "push_vs_pull": [
+    16.0,
+    14.0
+   ],
+   "compound_to_isolation_ratio": 1.43
+  },
+  {
+   "program": "MM EXAMPLE PUSHPULLLEGS SPLIT NOVICE ",
+   "source": "MASTER_MODEL EXAMPLE PUSHPULLLEGS SPLIT",
+   "basis": "6-day (each session twice)",
+   "population": "general gym hypertrophy",
+   "evidence": "OBSERVED (sets written)",
+   "weekly_sets": 108.0,
+   "athletic_sets": 12.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 12.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 94.0,
+   "compound_RP_sets": 46.0,
+   "isolation_ISO_sets": 48.0,
+   "core_sets": 2.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 11.1,
+    "resistance_compound": 42.6,
+    "resistance_isolation": 44.4,
+    "core": 1.9,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 100.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    8.0,
+    8.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    12.0,
+    12.0
+   ],
+   "upper_vs_lower_compound": [
+    30.0,
+    16.0
+   ],
+   "push_vs_pull": [
+    18.0,
+    12.0
+   ],
+   "compound_to_isolation_ratio": 0.96
+  },
+  {
+   "program": "MM EXAMPLE PUSHPULLLEGS SPLIT NEWBY ",
+   "source": "MASTER_MODEL EXAMPLE PUSHPULLLEGS SPLIT",
+   "basis": "6-day (each session twice)",
+   "population": "general gym hypertrophy",
+   "evidence": "OBSERVED (sets written)",
+   "weekly_sets": 136.0,
+   "athletic_sets": 18.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 18.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 116.0,
+   "compound_RP_sets": 60.0,
+   "isolation_ISO_sets": 56.0,
+   "core_sets": 2.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 13.2,
+    "resistance_compound": 44.1,
+    "resistance_isolation": 41.2,
+    "core": 1.5,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 100.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    12.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    18.0,
+    18.0
+   ],
+   "upper_vs_lower_compound": [
+    36.0,
+    24.0
+   ],
+   "push_vs_pull": [
+    20.0,
+    16.0
+   ],
+   "compound_to_isolation_ratio": 1.07
+  },
+  {
+   "program": "MM EXAMPLE PUSHPULLLEGS SPLIT INTERMEDIATE ",
+   "source": "MASTER_MODEL EXAMPLE PUSHPULLLEGS SPLIT",
+   "basis": "6-day (each session twice)",
+   "population": "general gym hypertrophy",
+   "evidence": "OBSERVED (sets written)",
+   "weekly_sets": 150.0,
+   "athletic_sets": 16.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 16.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 132.0,
+   "compound_RP_sets": 72.0,
+   "isolation_ISO_sets": 60.0,
+   "core_sets": 2.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 10.7,
+    "resistance_compound": 48.0,
+    "resistance_isolation": 40.0,
+    "core": 1.3,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 100.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    16.0,
+    14.0,
+    46.7
+   ],
+   "knee_vs_hip_sets": [
+    22.0,
+    20.0
+   ],
+   "upper_vs_lower_compound": [
+    42.0,
+    30.0
+   ],
+   "push_vs_pull": [
+    24.0,
+    18.0
+   ],
+   "compound_to_isolation_ratio": 1.2
+  },
+  {
+   "program": "MM EXAMPLE FAT BURNBODY TONING PRO single level WK1",
+   "source": "MASTER_MODEL EXAMPLE FAT BURNBODY TONING PRO",
+   "basis": "lifting + circuits",
+   "population": "fat loss / toning",
+   "evidence": "OBSERVED (sets written)",
+   "weekly_sets": 78.0,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 69.0,
+   "compound_RP_sets": 51.0,
+   "isolation_ISO_sets": 18.0,
+   "core_sets": 9.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 65.4,
+    "resistance_isolation": 23.1,
+    "core": 11.5,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    13.0,
+    52.0
+   ],
+   "knee_vs_hip_sets": [
+    19.0,
+    14.0
+   ],
+   "upper_vs_lower_compound": [
+    26.0,
+    25.0
+   ],
+   "push_vs_pull": [
+    13.0,
+    13.0
+   ],
+   "compound_to_isolation_ratio": 2.83
+  },
+  {
+   "program": "MM EXAMPLE FAT BURNBODY TONING PRO single level WK2",
+   "source": "MASTER_MODEL EXAMPLE FAT BURNBODY TONING PRO",
+   "basis": "lifting + circuits",
+   "population": "fat loss / toning",
+   "evidence": "OBSERVED (sets written)",
+   "weekly_sets": 92.0,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 76.0,
+   "compound_RP_sets": 55.0,
+   "isolation_ISO_sets": 21.0,
+   "core_sets": 16.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 59.8,
+    "resistance_isolation": 22.8,
+    "core": 17.4,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    16.0,
+    14.0,
+    46.7
+   ],
+   "knee_vs_hip_sets": [
+    23.0,
+    13.0
+   ],
+   "upper_vs_lower_compound": [
+    25.0,
+    30.0
+   ],
+   "push_vs_pull": [
+    11.0,
+    14.0
+   ],
+   "compound_to_isolation_ratio": 2.62
+  },
+  {
+   "program": "MM EXAMPLE FAT BURNBODY TONING PRO single level WK3",
+   "source": "MASTER_MODEL EXAMPLE FAT BURNBODY TONING PRO",
+   "basis": "lifting + circuits",
+   "population": "fat loss / toning",
+   "evidence": "OBSERVED (sets written)",
+   "weekly_sets": 88.0,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 76.0,
+   "compound_RP_sets": 56.0,
+   "isolation_ISO_sets": 20.0,
+   "core_sets": 12.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 63.6,
+    "resistance_isolation": 22.7,
+    "core": 13.6,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    14.0,
+    16.0,
+    53.3
+   ],
+   "knee_vs_hip_sets": [
+    19.0,
+    15.0
+   ],
+   "upper_vs_lower_compound": [
+    26.0,
+    30.0
+   ],
+   "push_vs_pull": [
+    12.0,
+    14.0
+   ],
+   "compound_to_isolation_ratio": 2.8
+  },
+  {
+   "program": "MM EXAMPLE FAT BURNBODY TONING PRO single level WK4",
+   "source": "MASTER_MODEL EXAMPLE FAT BURNBODY TONING PRO",
+   "basis": "lifting + circuits",
+   "population": "fat loss / toning",
+   "evidence": "OBSERVED (sets written)",
+   "weekly_sets": 110.0,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 90.0,
+   "compound_RP_sets": 69.0,
+   "isolation_ISO_sets": 21.0,
+   "core_sets": 20.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 62.7,
+    "resistance_isolation": 19.1,
+    "core": 18.2,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    21.0,
+    17.0,
+    44.7
+   ],
+   "knee_vs_hip_sets": [
+    27.0,
+    17.0
+   ],
+   "upper_vs_lower_compound": [
+    31.0,
+    38.0
+   ],
+   "push_vs_pull": [
+    16.0,
+    15.0
+   ],
+   "compound_to_isolation_ratio": 3.29
+  },
+  {
+   "program": "MM MM_ATH_STARTING",
+   "source": "MASTER_MODEL EXAMPLE ATHLETIC FULL BODY SPLI",
+   "basis": "assumed where non-numeric",
+   "population": "athlete off-season (generic)",
+   "evidence": "OBSERVED",
+   "weekly_sets": 108.0,
+   "athletic_sets": 44.0,
+   "athletic_by_type": {
+    "AP_PLYO": 17.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 19.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 2.0,
+    "AP_TRIPLE_EXT": 6.0
+   },
+   "resistance_sets": 44.0,
+   "compound_RP_sets": 29.0,
+   "isolation_ISO_sets": 15.0,
+   "core_sets": 20.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 40.7,
+    "resistance_compound": 26.9,
+    "resistance_isolation": 13.9,
+    "core": 18.5,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 38.6,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 43.2,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 4.5,
+    "AP_TRIPLE_EXT": 13.6
+   },
+   "lower_bilateral_vs_unilateral": [
+    9.0,
+    11.0,
+    55.0
+   ],
+   "knee_vs_hip_sets": [
+    11.0,
+    18.0
+   ],
+   "upper_vs_lower_compound": [
+    9.0,
+    20.0
+   ],
+   "push_vs_pull": [
+    3.0,
+    6.0
+   ],
+   "compound_to_isolation_ratio": 1.93
+  },
+  {
+   "program": "MM MM_ATH_MID",
+   "source": "MASTER_MODEL EXAMPLE ATHLETIC FULL BODY SPLI",
+   "basis": "assumed where non-numeric",
+   "population": "athlete off-season (generic)",
+   "evidence": "OBSERVED",
+   "weekly_sets": 112.0,
+   "athletic_sets": 54.0,
+   "athletic_by_type": {
+    "AP_PLYO": 10.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 40.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 4.0
+   },
+   "resistance_sets": 44.0,
+   "compound_RP_sets": 28.0,
+   "isolation_ISO_sets": 16.0,
+   "core_sets": 14.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 48.2,
+    "resistance_compound": 25.0,
+    "resistance_isolation": 14.3,
+    "core": 12.5,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 18.5,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 74.1,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 7.4
+   },
+   "lower_bilateral_vs_unilateral": [
+    4.0,
+    12.0,
+    75.0
+   ],
+   "knee_vs_hip_sets": [
+    9.0,
+    11.0
+   ],
+   "upper_vs_lower_compound": [
+    12.0,
+    16.0
+   ],
+   "push_vs_pull": [
+    6.0,
+    6.0
+   ],
+   "compound_to_isolation_ratio": 1.75
+  },
+  {
+   "program": "MM MM_ATH_ADVANCED",
+   "source": "MASTER_MODEL EXAMPLE ATHLETIC FULL BODY SPLI",
+   "basis": "assumed where non-numeric",
+   "population": "athlete off-season (generic)",
+   "evidence": "OBSERVED",
+   "weekly_sets": 97.0,
+   "athletic_sets": 47.0,
+   "athletic_by_type": {
+    "AP_PLYO": 3.0,
+    "AP_JUMP_LIMITED_KNEE": 2.0,
+    "AP_THROW": 38.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 4.0
+   },
+   "resistance_sets": 24.0,
+   "compound_RP_sets": 14.0,
+   "isolation_ISO_sets": 10.0,
+   "core_sets": 26.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 48.5,
+    "resistance_compound": 14.4,
+    "resistance_isolation": 10.3,
+    "core": 26.8,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 6.4,
+    "AP_JUMP_LIMITED_KNEE": 4.3,
+    "AP_THROW": 80.9,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 8.5
+   },
+   "lower_bilateral_vs_unilateral": [
+    5.0,
+    5.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    5.0,
+    7.0
+   ],
+   "upper_vs_lower_compound": [
+    4.0,
+    10.0
+   ],
+   "push_vs_pull": [
+    2.0,
+    2.0
+   ],
+   "compound_to_isolation_ratio": 1.4
+  },
+  {
+   "program": "MM MM_BOX_W1_2 W1",
+   "source": "MASTER_MODEL EXAMPLE BOXING 8 WEEK BUILD UP",
+   "basis": "as written",
+   "population": "boxer / fighter",
+   "evidence": "OBSERVED",
+   "weekly_sets": 99.0,
+   "athletic_sets": 19.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 19.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 66.0,
+   "compound_RP_sets": 48.0,
+   "isolation_ISO_sets": 18.0,
+   "core_sets": 14.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 19.2,
+    "resistance_compound": 48.5,
+    "resistance_isolation": 18.2,
+    "core": 14.1,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 100.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    12.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    18.0,
+    18.0
+   ],
+   "upper_vs_lower_compound": [
+    24.0,
+    24.0
+   ],
+   "push_vs_pull": [
+    12.0,
+    12.0
+   ],
+   "compound_to_isolation_ratio": 2.67
+  },
+  {
+   "program": "MM MM_BOX_W1_2 W2",
+   "source": "MASTER_MODEL EXAMPLE BOXING 8 WEEK BUILD UP",
+   "basis": "as written",
+   "population": "boxer / fighter",
+   "evidence": "OBSERVED",
+   "weekly_sets": 99.0,
+   "athletic_sets": 19.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 19.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 66.0,
+   "compound_RP_sets": 48.0,
+   "isolation_ISO_sets": 18.0,
+   "core_sets": 14.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 19.2,
+    "resistance_compound": 48.5,
+    "resistance_isolation": 18.2,
+    "core": 14.1,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 100.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    12.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    18.0,
+    18.0
+   ],
+   "upper_vs_lower_compound": [
+    24.0,
+    24.0
+   ],
+   "push_vs_pull": [
+    12.0,
+    12.0
+   ],
+   "compound_to_isolation_ratio": 2.67
+  },
+  {
+   "program": "MM MM_BOX_W3_8 W3",
+   "source": "MASTER_MODEL EXAMPLE BOXING 8 WEEK BUILD UP",
+   "basis": "as written",
+   "population": "boxer / fighter",
+   "evidence": "OBSERVED",
+   "weekly_sets": 151.0,
+   "athletic_sets": 78.0,
+   "athletic_by_type": {
+    "AP_PLYO": 25.0,
+    "AP_JUMP_LIMITED_KNEE": 3.0,
+    "AP_THROW": 38.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 3.0,
+    "AP_TRIPLE_EXT": 9.0
+   },
+   "resistance_sets": 57.0,
+   "compound_RP_sets": 33.0,
+   "isolation_ISO_sets": 24.0,
+   "core_sets": 16.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 51.7,
+    "resistance_compound": 21.9,
+    "resistance_isolation": 15.9,
+    "core": 10.6,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 32.1,
+    "AP_JUMP_LIMITED_KNEE": 3.8,
+    "AP_THROW": 48.7,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 3.8,
+    "AP_TRIPLE_EXT": 11.5
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    15.0,
+    55.6
+   ],
+   "knee_vs_hip_sets": [
+    21.0,
+    21.0
+   ],
+   "upper_vs_lower_compound": [
+    6.0,
+    27.0
+   ],
+   "push_vs_pull": [
+    3.0,
+    3.0
+   ],
+   "compound_to_isolation_ratio": 1.38
+  },
+  {
+   "program": "MM MM_BOX_W3_8 W4",
+   "source": "MASTER_MODEL EXAMPLE BOXING 8 WEEK BUILD UP",
+   "basis": "as written",
+   "population": "boxer / fighter",
+   "evidence": "OBSERVED",
+   "weekly_sets": 151.0,
+   "athletic_sets": 78.0,
+   "athletic_by_type": {
+    "AP_PLYO": 25.0,
+    "AP_JUMP_LIMITED_KNEE": 3.0,
+    "AP_THROW": 38.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 3.0,
+    "AP_TRIPLE_EXT": 9.0
+   },
+   "resistance_sets": 57.0,
+   "compound_RP_sets": 33.0,
+   "isolation_ISO_sets": 24.0,
+   "core_sets": 16.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 51.7,
+    "resistance_compound": 21.9,
+    "resistance_isolation": 15.9,
+    "core": 10.6,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 32.1,
+    "AP_JUMP_LIMITED_KNEE": 3.8,
+    "AP_THROW": 48.7,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 3.8,
+    "AP_TRIPLE_EXT": 11.5
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    15.0,
+    55.6
+   ],
+   "knee_vs_hip_sets": [
+    21.0,
+    21.0
+   ],
+   "upper_vs_lower_compound": [
+    6.0,
+    27.0
+   ],
+   "push_vs_pull": [
+    3.0,
+    3.0
+   ],
+   "compound_to_isolation_ratio": 1.38
+  },
+  {
+   "program": "MM MM_BOX_W3_8 W5",
+   "source": "MASTER_MODEL EXAMPLE BOXING 8 WEEK BUILD UP",
+   "basis": "as written",
+   "population": "boxer / fighter",
+   "evidence": "OBSERVED",
+   "weekly_sets": 155.0,
+   "athletic_sets": 80.0,
+   "athletic_by_type": {
+    "AP_PLYO": 27.0,
+    "AP_JUMP_LIMITED_KNEE": 3.0,
+    "AP_THROW": 38.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 3.0,
+    "AP_TRIPLE_EXT": 9.0
+   },
+   "resistance_sets": 57.0,
+   "compound_RP_sets": 33.0,
+   "isolation_ISO_sets": 24.0,
+   "core_sets": 18.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 51.6,
+    "resistance_compound": 21.3,
+    "resistance_isolation": 15.5,
+    "core": 11.6,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 33.8,
+    "AP_JUMP_LIMITED_KNEE": 3.8,
+    "AP_THROW": 47.5,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 3.8,
+    "AP_TRIPLE_EXT": 11.2
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    15.0,
+    55.6
+   ],
+   "knee_vs_hip_sets": [
+    21.0,
+    21.0
+   ],
+   "upper_vs_lower_compound": [
+    6.0,
+    27.0
+   ],
+   "push_vs_pull": [
+    3.0,
+    3.0
+   ],
+   "compound_to_isolation_ratio": 1.38
+  },
+  {
+   "program": "MM MM_BOX_W3_8 W6",
+   "source": "MASTER_MODEL EXAMPLE BOXING 8 WEEK BUILD UP",
+   "basis": "as written",
+   "population": "boxer / fighter",
+   "evidence": "OBSERVED",
+   "weekly_sets": 155.0,
+   "athletic_sets": 80.0,
+   "athletic_by_type": {
+    "AP_PLYO": 27.0,
+    "AP_JUMP_LIMITED_KNEE": 3.0,
+    "AP_THROW": 38.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 3.0,
+    "AP_TRIPLE_EXT": 9.0
+   },
+   "resistance_sets": 57.0,
+   "compound_RP_sets": 33.0,
+   "isolation_ISO_sets": 24.0,
+   "core_sets": 18.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 51.6,
+    "resistance_compound": 21.3,
+    "resistance_isolation": 15.5,
+    "core": 11.6,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 33.8,
+    "AP_JUMP_LIMITED_KNEE": 3.8,
+    "AP_THROW": 47.5,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 3.8,
+    "AP_TRIPLE_EXT": 11.2
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    15.0,
+    55.6
+   ],
+   "knee_vs_hip_sets": [
+    21.0,
+    21.0
+   ],
+   "upper_vs_lower_compound": [
+    6.0,
+    27.0
+   ],
+   "push_vs_pull": [
+    3.0,
+    3.0
+   ],
+   "compound_to_isolation_ratio": 1.38
+  },
+  {
+   "program": "MM MM_BOX_W3_8 W7",
+   "source": "MASTER_MODEL EXAMPLE BOXING 8 WEEK BUILD UP",
+   "basis": "as written",
+   "population": "boxer / fighter",
+   "evidence": "OBSERVED",
+   "weekly_sets": 142.0,
+   "athletic_sets": 76.0,
+   "athletic_by_type": {
+    "AP_PLYO": 23.0,
+    "AP_JUMP_LIMITED_KNEE": 2.0,
+    "AP_THROW": 38.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 4.0,
+    "AP_TRIPLE_EXT": 9.0
+   },
+   "resistance_sets": 50.0,
+   "compound_RP_sets": 32.0,
+   "isolation_ISO_sets": 18.0,
+   "core_sets": 16.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 53.5,
+    "resistance_compound": 22.5,
+    "resistance_isolation": 12.7,
+    "core": 11.3,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 30.3,
+    "AP_JUMP_LIMITED_KNEE": 2.6,
+    "AP_THROW": 50.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 5.3,
+    "AP_TRIPLE_EXT": 11.8
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    12.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    16.0,
+    18.0
+   ],
+   "upper_vs_lower_compound": [
+    8.0,
+    24.0
+   ],
+   "push_vs_pull": [
+    4.0,
+    4.0
+   ],
+   "compound_to_isolation_ratio": 1.78
+  },
+  {
+   "program": "MM MM_BOX_W3_8 W8",
+   "source": "MASTER_MODEL EXAMPLE BOXING 8 WEEK BUILD UP",
+   "basis": "as written",
+   "population": "boxer / fighter",
+   "evidence": "OBSERVED",
+   "weekly_sets": 174.0,
+   "athletic_sets": 86.0,
+   "athletic_by_type": {
+    "AP_PLYO": 26.0,
+    "AP_JUMP_LIMITED_KNEE": 4.0,
+    "AP_THROW": 38.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 6.0,
+    "AP_TRIPLE_EXT": 12.0
+   },
+   "resistance_sets": 68.0,
+   "compound_RP_sets": 46.0,
+   "isolation_ISO_sets": 22.0,
+   "core_sets": 20.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 49.4,
+    "resistance_compound": 26.4,
+    "resistance_isolation": 12.6,
+    "core": 11.5,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 30.2,
+    "AP_JUMP_LIMITED_KNEE": 4.7,
+    "AP_THROW": 44.2,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 7.0,
+    "AP_TRIPLE_EXT": 14.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    19.0,
+    15.0,
+    44.1
+   ],
+   "knee_vs_hip_sets": [
+    21.0,
+    28.0
+   ],
+   "upper_vs_lower_compound": [
+    12.0,
+    34.0
+   ],
+   "push_vs_pull": [
+    6.0,
+    6.0
+   ],
+   "compound_to_isolation_ratio": 2.09
+  },
+  {
+   "program": "MM BASEBALL B1 mean",
+   "source": "MASTER_MODEL BASEBALL",
+   "basis": "assumed sets (blank = row-1 sets of the Part)",
+   "population": "baseball off-season (build)",
+   "evidence": "OBSERVED",
+   "weekly_sets": 107.3,
+   "athletic_sets": 24.1,
+   "athletic_by_type": {
+    "AP_PLYO": 9.0,
+    "AP_JUMP_LIMITED_KNEE": 4.9,
+    "AP_THROW": 8.7,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 1.0,
+    "AP_TRIPLE_EXT": 0.6
+   },
+   "resistance_sets": 71.7,
+   "compound_RP_sets": 44.6,
+   "isolation_ISO_sets": 27.1,
+   "core_sets": 11.4,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 22.5,
+    "resistance_compound": 41.5,
+    "resistance_isolation": 25.3,
+    "core": 10.7,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 37.3,
+    "AP_JUMP_LIMITED_KNEE": 20.1,
+    "AP_THROW": 36.1,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 4.1,
+    "AP_TRIPLE_EXT": 2.4
+   },
+   "lower_bilateral_vs_unilateral": [
+    14.3,
+    11.4,
+    44.4
+   ],
+   "knee_vs_hip_sets": [
+    14.3,
+    14.4
+   ],
+   "upper_vs_lower_compound": [
+    18.9,
+    25.7
+   ],
+   "push_vs_pull": [
+    10.3,
+    8.6
+   ],
+   "compound_to_isolation_ratio": 1.64
+  },
+  {
+   "program": "MM BASEBALL deload/recovery B1W8 mean",
+   "source": "MASTER_MODEL BASEBALL",
+   "basis": "assumed sets (blank = row-1 sets of the Part)",
+   "population": "baseball deload/recovery B1W8",
+   "evidence": "OBSERVED",
+   "weekly_sets": 24.0,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 0.0,
+   "compound_RP_sets": 0.0,
+   "isolation_ISO_sets": 0.0,
+   "core_sets": 6.0,
+   "focus_sets": 0.0,
+   "functional_sets": 18.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 0.0,
+    "resistance_isolation": 0.0,
+    "core": 25.0,
+    "focus": 0.0,
+    "functional": 75.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    0.0,
+    0.0,
+    null
+   ],
+   "knee_vs_hip_sets": [
+    0.0,
+    0.0
+   ],
+   "upper_vs_lower_compound": [
+    0.0,
+    0.0
+   ],
+   "push_vs_pull": [
+    0.0,
+    0.0
+   ],
+   "compound_to_isolation_ratio": null
+  },
+  {
+   "program": "MM BASEBALL B2 mean",
+   "source": "MASTER_MODEL BASEBALL",
+   "basis": "assumed sets (blank = row-1 sets of the Part)",
+   "population": "baseball pre-season (intensify)",
+   "evidence": "OBSERVED",
+   "weekly_sets": 130.1,
+   "athletic_sets": 36.9,
+   "athletic_by_type": {
+    "AP_PLYO": 16.3,
+    "AP_JUMP_LIMITED_KNEE": 5.6,
+    "AP_THROW": 11.3,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 3.1,
+    "AP_TRIPLE_EXT": 0.6
+   },
+   "resistance_sets": 77.7,
+   "compound_RP_sets": 50.9,
+   "isolation_ISO_sets": 26.9,
+   "core_sets": 15.6,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 28.3,
+    "resistance_compound": 39.1,
+    "resistance_isolation": 20.6,
+    "core": 12.0,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 44.2,
+    "AP_JUMP_LIMITED_KNEE": 15.1,
+    "AP_THROW": 30.6,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 8.5,
+    "AP_TRIPLE_EXT": 1.5
+   },
+   "lower_bilateral_vs_unilateral": [
+    17.4,
+    13.3,
+    43.2
+   ],
+   "knee_vs_hip_sets": [
+    16.6,
+    17.1
+   ],
+   "upper_vs_lower_compound": [
+    20.1,
+    30.7
+   ],
+   "push_vs_pull": [
+    10.7,
+    9.4
+   ],
+   "compound_to_isolation_ratio": 1.89
+  },
+  {
+   "program": "MM BASEBALL deload/recovery B2W8 mean",
+   "source": "MASTER_MODEL BASEBALL",
+   "basis": "assumed sets (blank = row-1 sets of the Part)",
+   "population": "baseball deload/recovery B2W8",
+   "evidence": "OBSERVED",
+   "weekly_sets": 82.0,
+   "athletic_sets": 17.0,
+   "athletic_by_type": {
+    "AP_PLYO": 4.0,
+    "AP_JUMP_LIMITED_KNEE": 5.0,
+    "AP_THROW": 8.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 58.0,
+   "compound_RP_sets": 37.0,
+   "isolation_ISO_sets": 21.0,
+   "core_sets": 7.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 20.7,
+    "resistance_compound": 45.1,
+    "resistance_isolation": 25.6,
+    "core": 8.5,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 23.5,
+    "AP_JUMP_LIMITED_KNEE": 29.4,
+    "AP_THROW": 47.1,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.5,
+    12.0,
+    49.0
+   ],
+   "knee_vs_hip_sets": [
+    12.5,
+    12.0
+   ],
+   "upper_vs_lower_compound": [
+    12.5,
+    24.5
+   ],
+   "push_vs_pull": [
+    6.0,
+    6.5
+   ],
+   "compound_to_isolation_ratio": 1.76
+  },
+  {
+   "program": "MM BASEBALL B3 mean",
+   "source": "MASTER_MODEL BASEBALL",
+   "basis": "assumed sets (blank = row-1 sets of the Part)",
+   "population": "baseball in-season (maintain)",
+   "evidence": "OBSERVED",
+   "weekly_sets": 121.2,
+   "athletic_sets": 32.9,
+   "athletic_by_type": {
+    "AP_PLYO": 14.6,
+    "AP_JUMP_LIMITED_KNEE": 3.9,
+    "AP_THROW": 11.6,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 1.8,
+    "AP_TRIPLE_EXT": 1.0
+   },
+   "resistance_sets": 72.0,
+   "compound_RP_sets": 45.5,
+   "isolation_ISO_sets": 26.5,
+   "core_sets": 16.4,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 27.1,
+    "resistance_compound": 37.5,
+    "resistance_isolation": 21.9,
+    "core": 13.5,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 44.5,
+    "AP_JUMP_LIMITED_KNEE": 11.8,
+    "AP_THROW": 35.4,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 5.3,
+    "AP_TRIPLE_EXT": 3.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    14.0,
+    12.5,
+    47.2
+   ],
+   "knee_vs_hip_sets": [
+    12.5,
+    16.0
+   ],
+   "upper_vs_lower_compound": [
+    19.0,
+    26.5
+   ],
+   "push_vs_pull": [
+    10.5,
+    8.5
+   ],
+   "compound_to_isolation_ratio": 1.72
+  },
+  {
+   "program": "MM CF COMPETE JUNE",
+   "source": "MASTER_MODEL EXAMPLE CROSSFIT SPLIT",
+   "basis": "FULL TIME table, 3-ex resistance illustrative",
+   "population": "CrossFit competitor",
+   "evidence": "OBSERVED levels, ASSUMED resistance exercises",
+   "weekly_sets": 44.0,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 44.0,
+   "compound_RP_sets": 36.0,
+   "isolation_ISO_sets": 8.0,
+   "core_sets": 0.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 81.8,
+    "resistance_isolation": 18.2,
+    "core": 0.0,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    10.0,
+    8.0,
+    44.4
+   ],
+   "knee_vs_hip_sets": [
+    11.0,
+    11.0
+   ],
+   "upper_vs_lower_compound": [
+    18.0,
+    18.0
+   ],
+   "push_vs_pull": [
+    9.0,
+    9.0
+   ],
+   "compound_to_isolation_ratio": 4.5
+  },
+  {
+   "program": "MM CF COMPETE JULY",
+   "source": "MASTER_MODEL EXAMPLE CROSSFIT SPLIT",
+   "basis": "FULL TIME table, 3-ex resistance illustrative",
+   "population": "CrossFit competitor",
+   "evidence": "OBSERVED levels, ASSUMED resistance exercises",
+   "weekly_sets": 60.0,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 60.0,
+   "compound_RP_sets": 48.0,
+   "isolation_ISO_sets": 12.0,
+   "core_sets": 0.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 80.0,
+    "resistance_isolation": 20.0,
+    "core": 0.0,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    12.0,
+    12.0,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    15.0,
+    15.0
+   ],
+   "upper_vs_lower_compound": [
+    24.0,
+    24.0
+   ],
+   "push_vs_pull": [
+    12.0,
+    12.0
+   ],
+   "compound_to_isolation_ratio": 4.0
+  },
+  {
+   "program": "MM CF COMPETE AUG",
+   "source": "MASTER_MODEL EXAMPLE CROSSFIT SPLIT",
+   "basis": "FULL TIME table, 3-ex resistance illustrative",
+   "population": "CrossFit competitor",
+   "evidence": "OBSERVED levels, ASSUMED resistance exercises",
+   "weekly_sets": 20.0,
+   "athletic_sets": 20.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 20.0
+   },
+   "resistance_sets": 0.0,
+   "compound_RP_sets": 0.0,
+   "isolation_ISO_sets": 0.0,
+   "core_sets": 0.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 100.0,
+    "resistance_compound": 0.0,
+    "resistance_isolation": 0.0,
+    "core": 0.0,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 100.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    0.0,
+    0.0,
+    null
+   ],
+   "knee_vs_hip_sets": [
+    0.0,
+    0.0
+   ],
+   "upper_vs_lower_compound": [
+    0.0,
+    0.0
+   ],
+   "push_vs_pull": [
+    0.0,
+    0.0
+   ],
+   "compound_to_isolation_ratio": null
+  },
+  {
+   "program": "MM CF COMPETE SEPT",
+   "source": "MASTER_MODEL EXAMPLE CROSSFIT SPLIT",
+   "basis": "FULL TIME table, 3-ex resistance illustrative",
+   "population": "CrossFit competitor",
+   "evidence": "OBSERVED levels, ASSUMED resistance exercises",
+   "weekly_sets": 24.0,
+   "athletic_sets": 24.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 24.0
+   },
+   "resistance_sets": 0.0,
+   "compound_RP_sets": 0.0,
+   "isolation_ISO_sets": 0.0,
+   "core_sets": 0.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 100.0,
+    "resistance_compound": 0.0,
+    "resistance_isolation": 0.0,
+    "core": 0.0,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 100.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    0.0,
+    0.0,
+    null
+   ],
+   "knee_vs_hip_sets": [
+    0.0,
+    0.0
+   ],
+   "upper_vs_lower_compound": [
+    0.0,
+    0.0
+   ],
+   "push_vs_pull": [
+    0.0,
+    0.0
+   ],
+   "compound_to_isolation_ratio": null
+  },
+  {
+   "program": "MM CF COMPETE NOV",
+   "source": "MASTER_MODEL EXAMPLE CROSSFIT SPLIT",
+   "basis": "FULL TIME table, 3-ex resistance illustrative",
+   "population": "CrossFit competitor",
+   "evidence": "OBSERVED levels, ASSUMED resistance exercises",
+   "weekly_sets": 52.0,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 52.0,
+   "compound_RP_sets": 40.0,
+   "isolation_ISO_sets": 12.0,
+   "core_sets": 0.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 76.9,
+    "resistance_isolation": 23.1,
+    "core": 0.0,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    8.0,
+    12.0,
+    60.0
+   ],
+   "knee_vs_hip_sets": [
+    13.0,
+    13.0
+   ],
+   "upper_vs_lower_compound": [
+    20.0,
+    20.0
+   ],
+   "push_vs_pull": [
+    10.0,
+    10.0
+   ],
+   "compound_to_isolation_ratio": 3.33
+  },
+  {
+   "program": "MM CF COMPETE DEC",
+   "source": "MASTER_MODEL EXAMPLE CROSSFIT SPLIT",
+   "basis": "FULL TIME table, 3-ex resistance illustrative",
+   "population": "CrossFit competitor",
+   "evidence": "OBSERVED levels, ASSUMED resistance exercises",
+   "weekly_sets": 20.0,
+   "athletic_sets": 20.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 20.0
+   },
+   "resistance_sets": 0.0,
+   "compound_RP_sets": 0.0,
+   "isolation_ISO_sets": 0.0,
+   "core_sets": 0.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 100.0,
+    "resistance_compound": 0.0,
+    "resistance_isolation": 0.0,
+    "core": 0.0,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 100.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    0.0,
+    0.0,
+    null
+   ],
+   "knee_vs_hip_sets": [
+    0.0,
+    0.0
+   ],
+   "upper_vs_lower_compound": [
+    0.0,
+    0.0
+   ],
+   "push_vs_pull": [
+    0.0,
+    0.0
+   ],
+   "compound_to_isolation_ratio": null
+  },
+  {
+   "program": "MM MM_CF_CLASS_HALFTIME_8WK mean loading weeks",
+   "source": "MASTER_MODEL EXAMPLE CROSSFIT SPLIT",
+   "basis": "mean of loading weeks (deload/test week excluded)",
+   "population": "CrossFit class member",
+   "evidence": "OBSERVED (assumed where blank)",
+   "weekly_sets": 15.0,
+   "athletic_sets": 6.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 6.0
+   },
+   "resistance_sets": 9.0,
+   "compound_RP_sets": 9.0,
+   "isolation_ISO_sets": 0.0,
+   "core_sets": 0.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 40.0,
+    "resistance_compound": 60.0,
+    "resistance_isolation": 0.0,
+    "core": 0.0,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 100.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    6.0,
+    0.0,
+    0.0
+   ],
+   "knee_vs_hip_sets": [
+    3.0,
+    3.0
+   ],
+   "upper_vs_lower_compound": [
+    3.0,
+    6.0
+   ],
+   "push_vs_pull": [
+    3.0,
+    0.0
+   ],
+   "compound_to_isolation_ratio": null
+  },
+  {
+   "program": "MM MM_STRENGTH_CONJUGATE_8WK_v04 mean loading weeks",
+   "source": "MASTER_MODEL (NOT DONE) 4 TRACKS PROGRAMMING",
+   "basis": "mean of loading weeks (deload/test week excluded)",
+   "population": "strength / powerlifting (conjugate)",
+   "evidence": "OBSERVED (assumed where blank)",
+   "weekly_sets": 56.0,
+   "athletic_sets": 3.0,
+   "athletic_by_type": {
+    "AP_PLYO": 3.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 53.0,
+   "compound_RP_sets": 50.0,
+   "isolation_ISO_sets": 3.0,
+   "core_sets": 0.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 5.4,
+    "resistance_compound": 89.3,
+    "resistance_isolation": 5.4,
+    "core": 0.0,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 100.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    13.0,
+    6.0,
+    31.6
+   ],
+   "knee_vs_hip_sets": [
+    10.4,
+    8.6
+   ],
+   "upper_vs_lower_compound": [
+    31.0,
+    19.0
+   ],
+   "push_vs_pull": [
+    16.0,
+    15.0
+   ],
+   "compound_to_isolation_ratio": 16.67
+  },
+  {
+   "program": "MM MM_CONJUGATE_8WK_v12 mean loading weeks",
+   "source": "MASTER_MODEL (NOT DONE) EXAMPLE CONJUGATE",
+   "basis": "mean of loading weeks (deload/test week excluded)",
+   "population": "strength / powerlifting (conjugate draft)",
+   "evidence": "OBSERVED (assumed where blank)",
+   "weekly_sets": 60.0,
+   "athletic_sets": 3.0,
+   "athletic_by_type": {
+    "AP_PLYO": 3.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 57.0,
+   "compound_RP_sets": 54.0,
+   "isolation_ISO_sets": 3.0,
+   "core_sets": 0.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 5.0,
+    "resistance_compound": 90.0,
+    "resistance_isolation": 5.0,
+    "core": 0.0,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 100.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "lower_bilateral_vs_unilateral": [
+    14.0,
+    6.0,
+    30.0
+   ],
+   "knee_vs_hip_sets": [
+    10.9,
+    9.1
+   ],
+   "upper_vs_lower_compound": [
+    34.0,
+    20.0
+   ],
+   "push_vs_pull": [
+    18.0,
+    16.0
+   ],
+   "compound_to_isolation_ratio": 18.0
+  },
+  {
+   "program": "MM MM_STRENGTH_CONJUGATE_12WK mean loading weeks",
+   "source": "MASTER_MODEL (NOT DONE) 4 TRACKS PROGRAMMING",
+   "basis": "mean of loading weeks (deload/test week excluded)",
+   "population": "strength (percent + RPE)",
+   "evidence": "OBSERVED (assumed where blank)",
+   "weekly_sets": 58.2,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 58.2,
+   "compound_RP_sets": 40.2,
+   "isolation_ISO_sets": 18.0,
+   "core_sets": 0.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 69.1,
+    "resistance_isolation": 30.9,
+    "core": 0.0,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    17.1,
+    6.0,
+    26.0
+   ],
+   "knee_vs_hip_sets": [
+    14.4,
+    14.7
+   ],
+   "upper_vs_lower_compound": [
+    17.1,
+    23.1
+   ],
+   "push_vs_pull": [
+    11.1,
+    6.0
+   ],
+   "compound_to_isolation_ratio": 2.23
+  },
+  {
+   "program": "MM MM_AESTHETICS_8WK mean loading weeks",
+   "source": "MASTER_MODEL (NOT DONE) 4 TRACKS PROGRAMMING",
+   "basis": "mean of loading weeks (deload/test week excluded)",
+   "population": "aesthetics (upper/lower)",
+   "evidence": "OBSERVED (assumed where blank)",
+   "weekly_sets": 65.2,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 54.9,
+   "compound_RP_sets": 50.6,
+   "isolation_ISO_sets": 4.3,
+   "core_sets": 0.0,
+   "focus_sets": 10.3,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 77.6,
+    "resistance_isolation": 6.6,
+    "core": 0.0,
+    "focus": 15.8,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    13.7,
+    13.7,
+    50.0
+   ],
+   "knee_vs_hip_sets": [
+    13.7,
+    13.7
+   ],
+   "upper_vs_lower_compound": [
+    23.1,
+    27.4
+   ],
+   "push_vs_pull": [
+    9.4,
+    13.7
+   ],
+   "compound_to_isolation_ratio": 11.79
+  },
+  {
+   "program": "MM MM_AESTHETICS_12WK_PPL mean loading weeks",
+   "source": "MASTER_MODEL (NOT DONE) 4 TRACKS PROGRAMMING",
+   "basis": "mean of loading weeks (deload/test week excluded)",
+   "population": "aesthetics (PPL 6-day)",
+   "evidence": "OBSERVED (assumed where blank)",
+   "weekly_sets": 121.4,
+   "athletic_sets": 0.0,
+   "athletic_by_type": {
+    "AP_PLYO": 0.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 0.0
+   },
+   "resistance_sets": 121.4,
+   "compound_RP_sets": 74.2,
+   "isolation_ISO_sets": 47.2,
+   "core_sets": 0.0,
+   "focus_sets": 0.0,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 0.0,
+    "resistance_compound": 61.1,
+    "resistance_isolation": 38.9,
+    "core": 0.0,
+    "focus": 0.0,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 0,
+    "AP_JUMP_LIMITED_KNEE": 0,
+    "AP_THROW": 0,
+    "AP_COD": 0,
+    "AP_SPRINT": 0,
+    "AP_TRIPLE_EXT": 0
+   },
+   "lower_bilateral_vs_unilateral": [
+    18.6,
+    15.3,
+    45.0
+   ],
+   "knee_vs_hip_sets": [
+    25.7,
+    13.3
+   ],
+   "upper_vs_lower_compound": [
+    40.3,
+    33.9
+   ],
+   "push_vs_pull": [
+    17.1,
+    23.2
+   ],
+   "compound_to_isolation_ratio": 1.57
+  },
+  {
+   "program": "MM MM_HYBRID_8WK mean loading weeks",
+   "source": "MASTER_MODEL (NOT DONE) 4 TRACKS PROGRAMMING",
+   "basis": "mean of loading weeks (deload/test week excluded)",
+   "population": "hybrid strength-athletic-crossfitish",
+   "evidence": "OBSERVED (assumed where blank)",
+   "weekly_sets": 68.7,
+   "athletic_sets": 10.9,
+   "athletic_by_type": {
+    "AP_PLYO": 6.0,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 4.9
+   },
+   "resistance_sets": 36.9,
+   "compound_RP_sets": 36.9,
+   "isolation_ISO_sets": 0.0,
+   "core_sets": 12.9,
+   "focus_sets": 8.1,
+   "functional_sets": 0.0,
+   "share_pct": {
+    "athletic": 15.8,
+    "resistance_compound": 53.6,
+    "resistance_isolation": 0.0,
+    "core": 18.7,
+    "focus": 11.8,
+    "functional": 0.0
+   },
+   "athletic_mix_pct_of_athletic": {
+    "AP_PLYO": 55.2,
+    "AP_JUMP_LIMITED_KNEE": 0.0,
+    "AP_THROW": 0.0,
+    "AP_COD": 0.0,
+    "AP_SPRINT": 0.0,
+    "AP_TRIPLE_EXT": 44.8
+   },
+   "lower_bilateral_vs_unilateral": [
+    8.1,
+    13.6,
+    62.5
+   ],
+   "knee_vs_hip_sets": [
+    10.9,
+    10.9
+   ],
+   "upper_vs_lower_compound": [
+    15.1,
+    21.7
+   ],
+   "push_vs_pull": [
+    8.6,
+    6.6
+   ],
+   "compound_to_isolation_ratio": null
+  }
+ ],
+ "baseball_plyo_mix_contacts": {
+  "upper": {
+   "contacts": 230.0
+  },
+  "B1": {
+   "dir_vertical": 1026.0,
+   "lat_bilateral": 900.0,
+   "type_jump/rebound": 1294.0,
+   "bucket_AP_PLYO": 718.0,
+   "dir_lateral": 100.0,
+   "type_landing": 100.0,
+   "dir_horizontal": 268.0,
+   "lat_unilateral": 494.0,
+   "bucket_AP_JUMP_LIMITED_KNEE": 676.0
+  },
+  "ALL": {
+   "dir_vertical": 3586.0,
+   "lat_bilateral": 2921.0,
+   "type_jump/rebound": 4489.0,
+   "bucket_AP_PLYO": 2937.0,
+   "dir_lateral": 434.0,
+   "type_landing": 291.0,
+   "dir_horizontal": 760.0,
+   "lat_unilateral": 1859.0,
+   "bucket_AP_JUMP_LIMITED_KNEE": 1843.0
+  },
+  "B2": {
+   "dir_vertical": 1487.0,
+   "lat_bilateral": 1037.0,
+   "type_jump/rebound": 1685.0,
+   "bucket_AP_JUMP_LIMITED_KNEE": 637.0,
+   "bucket_AP_PLYO": 1138.0,
+   "lat_unilateral": 738.0,
+   "dir_horizontal": 208.0,
+   "dir_lateral": 80.0,
+   "type_landing": 90.0
+  },
+  "B3": {
+   "dir_vertical": 1073.0,
+   "lat_bilateral": 984.0,
+   "type_jump/rebound": 1510.0,
+   "bucket_AP_PLYO": 1081.0,
+   "dir_lateral": 254.0,
+   "type_landing": 101.0,
+   "dir_horizontal": 284.0,
+   "lat_unilateral": 627.0,
+   "bucket_AP_JUMP_LIMITED_KNEE": 530.0
+  }
+ },
+ "baseball_throw_plane_reps": {
+  "transverse": 2340.0,
+  "sagittal": 1765.0
+ },
+ "baseball_core_plane_sets": {
+  "frontal": 72.0,
+  "transverse": 164.0,
+  "sagittal": 80.0,
+  "unspecified": 17.0
+ }
+}

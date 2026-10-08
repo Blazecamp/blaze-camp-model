@@ -1,0 +1,2931 @@
+{
+ "meta": {
+  "title": "Blaze Camp volume engine v1 (research + design)",
+  "version": "v1",
+  "date": "2026-10-08",
+  "companion_doc": "synthesis/12_volume_algorithm_v1.md",
+  "authority_order": [
+   "COACH-ANSWER (coach_answers_full.md, overrides everything)",
+   "OBSERVED (sheets)",
+   "SCIENCE",
+   "INFERRED",
+   "PROPOSED - PENDING COACH APPROVAL"
+  ],
+  "evidence_tags": {
+   "COACH-ANSWER <ID>": "coach's own answer; RIGHT with no text = assumption becomes his rule",
+   "OBSERVED": "read from his sheets",
+   "SCIENCE": "published research or coaching reference (see science[])",
+   "INFERRED": "team reasoning from observed data",
+   "PROPOSED": "PROPOSED - PENDING COACH APPROVAL"
+  },
+  "units": "weekly hard sets per muscle, coach count (main mover 1.0, helpers 0.25); Pelland count (indirect 0.5) stored alongside",
+  "reads_from": [
+   "coach_answers_full.md",
+   "coach_answers.md",
+   "synthesis/03_volume_dosing.md",
+   "synthesis/03_volume_rules.json",
+   "generator_spec_v0.json",
+   "synthesis/09_generator_inputs.md"
+  ],
+  "google_sheets_modified": false,
+  "prototype": {
+   "files": [
+    "vol_engine_v1.py",
+    "ex1.py",
+    "ex_all.py",
+    "build_json.py",
+    "ex_all_out.txt",
+    "examples_out.json"
+   ],
+   "location": "session scratchpad",
+   "python": ".venv/bin/python"
+  }
+ },
+ "supersedes": [
+  {
+   "where": [
+    "generator_spec_v0.json > rule_tables.muscles.list[*].rate",
+    "generator_spec_v0.json > rule_tables.muscles.focus_rule",
+    "generator_spec_v0.json > progression.engine.rates",
+    "03_volume_rules.json > generator_rules.progression",
+    "03_volume_dosing.md §9.6",
+    "BLAZE_CAMP_BRAIN.md §7.3"
+   ],
+   "old": "big lower 3 %, big upper 5 %, small 7 %; focus one class up",
+   "new": "person-based 3/5/7 % from readiness; priority = +4-6 sets on the start",
+   "tag": "COACH-ANSWER VOL-05, VOL-02"
+  },
+  {
+   "where": [
+    "generator_spec_v0.json > rule_tables.counting.credit",
+    "03_volume_rules.json > counting.fractional_credit_map"
+   ],
+   "old": "synergists 0.5",
+   "new": "helpers 0.25; dips 0.5/0.5; thruster 1.0/0.5",
+   "tag": "COACH-ANSWER VOL-09, LIB-16, LIB-14"
+  },
+  {
+   "where": [
+    "generator_spec_v0.json > rule_tables.counting.unilateral_set"
+   ],
+   "old": "10/10 = 1 set (pending)",
+   "new": "10/10 = 1 set (resolved)",
+   "tag": "COACH-ANSWER UNI-01"
+  },
+  {
+   "where": [
+    "generator_spec_v0.json > rule_tables.weekly_sets",
+    "03_volume_rules.json > generator_rules.weekly_sets_peak_targets"
+   ],
+   "old": "peak-week targets L1-L4, start back-solved",
+   "new": "starting table L1-L3 + level caps + priority caps",
+   "tag": "COACH-ANSWER VOL-01, UNI-01, VOL-02, PRG-05"
+  },
+  {
+   "where": [
+    "generator_spec_v0.json > progression.engine.release"
+   ],
+   "old": "chunk = clamp(round(0.10 x current), 1, 2)",
+   "new": "one whole set per bank unit; 10 %/week ceiling on total",
+   "tag": "COACH-ANSWER VOL-06, UNI-05"
+  },
+  {
+   "where": [
+    "generator_spec_v0.json > progression.engine.placement"
+   ],
+   "old": "round robin, never the same exercise twice in a row",
+   "new": "first exercise first (2/2/2 -> 3/2/2 -> 3/3/2 -> 3/3/3 -> 4/3/3), day rotation, bonus/Focus fallback",
+   "tag": "COACH-ANSWER VOL-07"
+  },
+  {
+   "where": [
+    "generator_spec_v0.json > progression.deload.dose",
+    "03_volume_rules.json > generator_rules.deload"
+   ],
+   "old": "round(min(0.85 x W1, 0.75 x peak))",
+   "new": "about 0.5 x current week's sets, lighter",
+   "tag": "COACH-ANSWER PER-05"
+  },
+  {
+   "where": [
+    "generator_spec_v0.json > progression.plan_shapes",
+    "03_volume_rules.json > generator_rules.plan_layouts"
+   ],
+   "old": "6 = 6 loading; 8 = 7 + deload; 12 = 6 + deload + 5",
+   "new": "4-6 maintenance 50-70 %; 8 start hard 4+4; 12 = 2-4 acclimation, 4-6 drive, last weeks hardest; week-by-week; yearly",
+   "tag": "COACH-ANSWER PER-01 (NOT RIGHT on v0)"
+  },
+  {
+   "where": [
+    "generator_spec_v0.json > rule_tables.bilateral_unilateral.target_bilateral_share_lower"
+   ],
+   "old": "0.35-0.70 by goal",
+   "new": "90/10 <-> 10/90 profile table",
+   "tag": "COACH-ANSWER UNI-02, UNI-03, UNI-10, CAT-13"
+  },
+  {
+   "where": [
+    "generator_spec_v0.json > rule_tables.session_budget"
+   ],
+   "old": "15-24 sets by level",
+   "new": "5-7 exercises; athletes 10-12; ~90 / 45-60 min; time model",
+   "tag": "COACH-ANSWER VOL-08, VOL-16, VOL-17, UNI-09"
+  },
+  {
+   "where": [
+    "generator_spec_v0.json > vocab.levels"
+   ],
+   "old": "L1-L4 (NOVICE below NEWBY)",
+   "new": "L1 (novice = newby), L2, L3",
+   "tag": "COACH-ANSWER PRG-05"
+  },
+  {
+   "where": [
+    "generator_spec_v0.json > progression.autoregulation"
+   ],
+   "old": "EFFORT bands per muscle",
+   "new": "person-level readiness score + gates",
+   "tag": "COACH-ANSWER VOL-05, GEN-05"
+  },
+  {
+   "where": [
+    "any volume swap list"
+   ],
+   "old": "band substitutes (banded leg extension, band chops)",
+   "new": "removed: no bands, no variable resistance",
+   "tag": "COACH-ANSWER EQ-01, EQ-07, EQ-08, EQ-12"
+  }
+ ],
+ "counting": {
+  "hard_set": {
+   "rule": "working set at 1-3 RIR, 5-30 reps; warm-up sets and A-drills never count",
+   "tag": "COACH-ANSWER VOL-13, ORD-08"
+  },
+  "credit_map": {
+   "BKD": {
+    "quads": 1.0,
+    "glutes": 0.25,
+    "adductors": 0.25,
+    "tag": "COACH-ANSWER VOL-09; glute value PROPOSED - PENDING COACH APPROVAL"
+   },
+   "UKD": {
+    "quads": 1.0,
+    "glutes": 0.25,
+    "adductors": 0.25,
+    "tag": "COACH-ANSWER UNI-01 (mostly quads), VOL-09; glute value PROPOSED - PENDING COACH APPROVAL"
+   },
+   "BHD": {
+    "hamstrings": 1.0,
+    "glutes": 0.5,
+    "tag": "glute 0.5 PROPOSED - PENDING COACH APPROVAL"
+   },
+   "UHD": {
+    "hamstrings": 1.0,
+    "glutes": 0.5,
+    "tag": "glute 0.5 PROPOSED - PENDING COACH APPROVAL"
+   },
+   "GLUTE_ISO": {
+    "glutes": 1.0,
+    "hamstrings": 0.25,
+    "tag": "PROPOSED - PENDING COACH APPROVAL"
+   },
+   "LEG_FLEXION": {
+    "hamstrings": 1.0,
+    "tag": "COACH-ANSWER CAT-09, VOL-09"
+   },
+   "LEG_EXTENSION": {
+    "quads": 1.0,
+    "tag": "COACH-ANSWER VOL-09"
+   },
+   "HPUSH": {
+    "chest": 1.0,
+    "triceps": 0.25,
+    "front_delts": 0.25,
+    "tag": "COACH-ANSWER VOL-09"
+   },
+   "VPUSH": {
+    "front_delts": 1.0,
+    "side_delts": 0.25,
+    "triceps": 0.25,
+    "tag": "COACH-ANSWER VOL-09"
+   },
+   "DIPS": {
+    "triceps": 0.5,
+    "chest": 0.5,
+    "placement_primary": "triceps",
+    "tag": "COACH-ANSWER LIB-16"
+   },
+   "THRUSTER": {
+    "quads": 1.0,
+    "front_delts": 0.5,
+    "tag": "COACH-ANSWER LIB-14"
+   },
+   "HPULL": {
+    "lats_upper_back": 1.0,
+    "biceps": 0.25,
+    "rear_delts": 0.25,
+    "tag": "COACH-ANSWER VOL-09"
+   },
+   "VPULL": {
+    "lats_upper_back": 1.0,
+    "biceps": 0.25,
+    "tag": "COACH-ANSWER VOL-09"
+   },
+   "PULLOVER": {
+    "lats_upper_back": 1.0,
+    "note": "'Pull under' = lat pull-over",
+    "tag": "COACH-ANSWER LIB-09"
+   },
+   "ISOLATION": {
+    "rule": "target muscle 1.0 (fly->chest, side raise/upright row->side delts, reverse fly/face pull->rear delts, curls->biceps (+forearms 0.25), triceps iso->triceps, calf raise->calves)",
+    "tag": "COACH-ANSWER VOL-09, LIB-16"
+   },
+   "CORE": {
+    "abs_obliques": 1.0,
+    "tag": "COACH-ANSWER CAT-08"
+   },
+   "ATHLETIC (plyo, ballistic, throw, Olympic, sprint, COD)": {
+    "credit": "none - own budget",
+    "tag": "COACH-ANSWER VOL-10"
+   }
+  },
+  "unilateral": {
+   "rule": "10/10 = 1 set; alternating = unilateral",
+   "tag": "COACH-ANSWER UNI-01, UNI-07"
+  },
+  "unilateral_time_cost": {
+   "factor": 1.5,
+   "tag": "COACH-ANSWER UNI-09 (must be accounted for); factor PROPOSED - PENDING COACH APPROVAL"
+  },
+  "myo_set": {
+   "value": 2,
+   "where": "last machine/isolation exercise only",
+   "tag": "INFERRED; COACH-ANSWER VOL-15"
+  },
+  "dual_count": {
+   "steer_on": "coach count (helpers 0.25)",
+   "store_also": "Pelland count (indirect 0.5)",
+   "tag": "PROPOSED - PENDING COACH APPROVAL"
+  }
+ },
+ "levels": {
+  "L1": {
+   "who": "novice = newby: under ~6-12 months consistent, or 6-12+ months off (body treated as beginner; exercise level may stay higher); ex-pros L1 for one short acclimation block",
+   "tag": "COACH-ANSWER PRG-05, CAT-06"
+  },
+  "L2": {
+   "who": "consistent training > 1 year",
+   "tag": "COACH-ANSWER PRG-05"
+  },
+  "L3": {
+   "who": "3+ years consistent AND training 4+ days/week now, or competitive physique/strength athlete",
+   "tag": "PROPOSED - PENDING COACH APPROVAL"
+  },
+  "level_up": {
+   "rule": "end of block, logs mostly '8 - That was perfect' or easier, no pain",
+   "tag": "COACH-ANSWER PER-06"
+  },
+  "L4": {
+   "status": "retired; competition level changes the athlete profile, not the volume level",
+   "tag": "COACH-ANSWER PRG-05; retirement PROPOSED - PENDING COACH APPROVAL"
+  }
+ },
+ "starting_table": {
+  "goal": "aesthetics / hypertrophy (other goals: goal_phase_modifiers)",
+  "fill_policies": {
+   "target": "engine adds direct sets to reach start",
+   "credit": "helper credit only; direct slot only if priority or sport needs it",
+   "floor": "indirect only; reported, never added",
+   "core_block": "set by session count"
+  },
+  "muscles": {
+   "quads": {
+    "class": "big",
+    "fill": "target",
+    "start": {
+     "L1": 10,
+     "L2": 15,
+     "L3": 20
+    },
+    "cap": {
+     "L1": 14,
+     "L2": 22,
+     "L3": 25
+    },
+    "priority": {
+     "add": "+4 (L1-L2) / +6 (L3)",
+     "cap": {
+      "L2": 26,
+      "L3": 30
+     }
+    },
+    "rp_intermediate_direct": {
+     "MV": "2-4",
+     "MEV": "4-6",
+     "MAV": "6-14",
+     "MRV": "14-18",
+     "MAV_P": "10-18",
+     "MRV_P": "18-24+",
+     "freq": "2-5x"
+    },
+    "pelland_tier_at_L2_start": "intermediate (11-18)"
+   },
+   "hamstrings": {
+    "class": "big",
+    "fill": "target",
+    "start": {
+     "L1": 10,
+     "L2": 15,
+     "L3": 20
+    },
+    "cap": {
+     "L1": 14,
+     "L2": 22,
+     "L3": 25
+    },
+    "priority": {
+     "add": "+4/+6",
+     "cap": {
+      "L2": 26,
+      "L3": 30
+     }
+    },
+    "rp_intermediate_direct": {
+     "MV": "0-2",
+     "MEV": "2-4",
+     "MAV": "2-8",
+     "MRV": "8-14",
+     "MAV_P": "8-14",
+     "MRV_P": "14-20",
+     "freq": "2-3x"
+    },
+    "pelland_tier_at_L2_start": "intermediate"
+   },
+   "glutes": {
+    "class": "big",
+    "fill": "target (athletes: credit)",
+    "start": {
+     "L1": 10,
+     "L2": 15,
+     "L3": 20
+    },
+    "cap": {
+     "L1": 14,
+     "L2": 22,
+     "L3": 25
+    },
+    "priority": {
+     "add": "+4/+6",
+     "cap": {
+      "L2": 26,
+      "L3": 30
+     }
+    },
+    "rp_intermediate_direct": {
+     "MV": "2-6",
+     "MEV": "6-8",
+     "MAV": "8-24",
+     "MRV": "24-30",
+     "MAV_P": "24-30",
+     "MRV_P": "30-40+",
+     "freq": "2-5x"
+    },
+    "pelland_tier_at_L2_start": "intermediate"
+   },
+   "chest": {
+    "class": "big",
+    "fill": "target",
+    "start": {
+     "L1": 10,
+     "L2": 15,
+     "L3": 20
+    },
+    "cap": {
+     "L1": 14,
+     "L2": 22,
+     "L3": 25
+    },
+    "priority": {
+     "add": "+4/+6",
+     "cap": {
+      "L2": "26-28",
+      "L3": 30
+     }
+    },
+    "rp_intermediate_direct": {
+     "MV": "2-4",
+     "MEV": "4-6",
+     "MAV": "6-16",
+     "MRV": "16-24",
+     "MAV_P": "16-24",
+     "MRV_P": "24-32+",
+     "freq": "2-4x"
+    },
+    "pelland_tier_at_L2_start": "intermediate"
+   },
+   "lats_upper_back": {
+    "class": "big",
+    "fill": "target",
+    "start": {
+     "L1": 10,
+     "L2": 15,
+     "L3": 20
+    },
+    "cap": {
+     "L1": 14,
+     "L2": 22,
+     "L3": 25
+    },
+    "priority": {
+     "add": "+4/+6",
+     "cap": {
+      "L2": 26,
+      "L3": 30
+     }
+    },
+    "rp_intermediate_direct": {
+     "MV": "~6",
+     "MEV": "~10",
+     "MAV": "4-12 per session",
+     "MRV": "~20-25"
+    },
+    "pelland_tier_at_L2_start": "intermediate"
+   },
+   "side_delts": {
+    "class": "small",
+    "fill": "target (athletes: credit)",
+    "start": {
+     "L1": 8,
+     "L2": 12,
+     "L3": 15
+    },
+    "cap": {
+     "L1": 12,
+     "L2": 18,
+     "L3": 22
+    },
+    "priority": {
+     "add": "+4",
+     "cap": {
+      "L2": 22,
+      "L3": 26
+     }
+    },
+    "rp_intermediate_direct": {
+     "MV": "0-6",
+     "MEV": "8",
+     "MAV": "16-22",
+     "MRV": "26+",
+     "source": "older RP figures via secondary summary"
+    }
+   },
+   "biceps": {
+    "class": "small",
+    "fill": "target (athletes: credit)",
+    "start": {
+     "L1": 8,
+     "L2": 12,
+     "L3": 15
+    },
+    "cap": {
+     "L1": 12,
+     "L2": 18,
+     "L3": 22
+    },
+    "priority": {
+     "add": "+4",
+     "cap": {
+      "L2": 22,
+      "L3": 26
+     }
+    },
+    "rp_intermediate_direct": {
+     "MV": "6-8",
+     "MEV": "8-10",
+     "MAV": "14-20",
+     "MRV": "20-26",
+     "MRV_P": "26-35"
+    }
+   },
+   "triceps": {
+    "class": "small",
+    "fill": "target (athletes: credit)",
+    "start": {
+     "L1": 8,
+     "L2": 12,
+     "L3": 15
+    },
+    "cap": {
+     "L1": 12,
+     "L2": 18,
+     "L3": 22
+    },
+    "priority": {
+     "add": "+4",
+     "cap": {
+      "L2": 22,
+      "L3": 26
+     }
+    },
+    "rp_intermediate_direct": {
+     "MV": "0-4",
+     "MEV": "4-6",
+     "MAV": "6-16",
+     "MRV": "16-20",
+     "MRV_P": "20-26+"
+    }
+   },
+   "calves": {
+    "class": "small",
+    "fill": "target",
+    "start": {
+     "rule": "3 sets every leg day (L3: 3-4)"
+    },
+    "cap": {
+     "L1": 16,
+     "L2": 18,
+     "L3": 24
+    },
+    "priority": {
+     "add": "+4",
+     "cap": {
+      "L2": 22,
+      "L3": 26
+     }
+    },
+    "rp_intermediate_direct": {
+     "MV": "2-4",
+     "MEV": "4-6",
+     "MAV": "6-16",
+     "MRV": "16-24"
+    },
+    "tag": "COACH-ANSWER VOL-17"
+   },
+   "rear_delts": {
+    "class": "small",
+    "fill": "target (own sets)",
+    "start": {
+     "L1": 4,
+     "L2": 6,
+     "L3": 8
+    },
+    "cap": {
+     "L1": 8,
+     "L2": 12,
+     "L3": 16
+    },
+    "priority": {
+     "add": "+4",
+     "cap": {
+      "L2": 16,
+      "L3": 20
+     }
+    },
+    "rp_intermediate_direct": {
+     "MV": "0-4",
+     "MEV": "0-4",
+     "MAV": "4-12",
+     "MRV": "12-20",
+     "MAV_P": "24-30",
+     "MRV_P": "30-40+"
+    },
+    "tag": "COACH-ANSWER VOL-17 (own sets); numbers PROPOSED - PENDING COACH APPROVAL"
+   },
+   "abs_obliques": {
+    "class": "small",
+    "fill": "core_block",
+    "start": {
+     "rule": "2 exercises x 2 sets every session, done first (L3: 2 x 2-3)"
+    },
+    "cap": {
+     "L1": 16,
+     "L2": 20,
+     "L3": 20
+    },
+    "progression": "by difficulty/time, not sets",
+    "tag": "COACH-ANSWER VOL-17, ATH-11; counting/progression PROPOSED - PENDING COACH APPROVAL"
+   },
+   "front_delts": {
+    "class": "unplaced",
+    "fill": "floor",
+    "note": "pressing covers it; direct slot only if chosen",
+    "rp_intermediate_direct": {
+     "MEV": "0-2",
+     "MAV": "4-8",
+     "MRV": "8-12"
+    }
+   },
+   "traps": {
+    "class": "unplaced",
+    "fill": "floor"
+   },
+   "forearms": {
+    "class": "small",
+    "fill": "floor"
+   },
+   "adductors": {
+    "class": "unplaced",
+    "fill": "floor"
+   },
+   "neck": {
+    "class": "unplaced",
+    "fill": "floor"
+   }
+  },
+  "tags": {
+   "big_starts": "COACH-ANSWER VOL-01, UNI-01",
+   "small_at_80pct": "PROPOSED - PENDING COACH APPROVAL",
+   "caps": "PROPOSED - PENDING COACH APPROVAL",
+   "L3_start_20": "PROPOSED - PENDING COACH APPROVAL",
+   "priority": "COACH-ANSWER VOL-02"
+  },
+  "floors": {
+   "big": 4,
+   "small": 2,
+   "exception": "sport profile may remove a muscle on purpose",
+   "tag": "PROPOSED - PENDING COACH APPROVAL"
+  }
+ },
+ "goal_phase_modifiers": [
+  {
+   "situation": "aesthetics / bodybuilding / hypertrophy",
+   "lower": 1.0,
+   "upper": 1.0,
+   "small": 1.0,
+   "tag": "COACH-ANSWER VOL-01, UNI-06"
+  },
+  {
+   "situation": "strength / powerlifting",
+   "lower": 1.0,
+   "upper": 1.0,
+   "small": 0.75,
+   "note": "preference moves reps on big lifts; weekly sets similar",
+   "tag": "COACH-ANSWER VOL-12; small factor PROPOSED - PENDING COACH APPROVAL"
+  },
+  {
+   "situation": "general fitness / weekend-warrior athletic (non-competitive adults and youth)",
+   "lower": 0.8,
+   "upper": 0.8,
+   "small": 0.8,
+   "session_min": "45-60",
+   "tag": "COACH-ANSWER UNI-09, UNI-06, ATH-13; factor PROPOSED - PENDING COACH APPROVAL"
+  },
+  {
+   "situation": "bootcamp",
+   "rule": "timed circuits 3-5 rounds x 30-50 s, 5-7 stations, 35-45 min",
+   "tag": "COACH-ANSWER PRG-03"
+  },
+  {
+   "situation": "fat loss",
+   "lower": 0.8,
+   "upper": 0.8,
+   "small": 0.8,
+   "aerobic_sessions": 3,
+   "tag": "COACH-ANSWER ATH-07; factor PROPOSED - PENDING COACH APPROVAL"
+  },
+  {
+   "situation": "field/court athlete off-season",
+   "lower": 0.7,
+   "upper": 0.5,
+   "small": "credit only",
+   "tag": "COACH-ANSWER VOL-08, VOL-17, UNI-02; factors PROPOSED - PENDING COACH APPROVAL"
+  },
+  {
+   "situation": "strength-type athlete off-season (linemen, wrestlers, rugby, throwers, heavyweight fighters)",
+   "lower": 0.9,
+   "upper": 0.8,
+   "small": 0.6,
+   "tag": "COACH-ANSWER ATH-03; factors PROPOSED - PENDING COACH APPROVAL"
+  },
+  {
+   "situation": "athlete pre-season",
+   "lower": 0.6,
+   "upper": 0.4,
+   "small": "credit",
+   "tag": "COACH-ANSWER PER-08; factors PROPOSED - PENDING COACH APPROVAL"
+  },
+  {
+   "situation": "athlete in-season",
+   "lower": "0.4-0.5",
+   "upper": "0.3-0.4",
+   "small": "credit",
+   "days": 2,
+   "rate": 0.0,
+   "tag": "COACH-ANSWER PER-08, UNI-10; SCIENCE Bickel 2011, Spiering 2021; factors PROPOSED - PENDING COACH APPROVAL"
+  },
+  {
+   "situation": "boxer/striker high-punching weeks",
+   "pressing_and_arms": "0.5-0.7",
+   "rule": "reduce, never cut to zero",
+   "tag": "COACH-ANSWER ATH-04; factor PROPOSED - PENDING COACH APPROVAL"
+  },
+  {
+   "situation": "older adult 60+",
+   "rate_default": 0.03,
+   "rules": [
+    "extra volume on constraint 4-5 machines",
+    "no overhead squat, snatch, low-bar squat, depth jumps",
+    "few plyos unless asked",
+    "maintenance floor 70 %"
+   ],
+   "tag": "COACH-ANSWER EQ-03, EQ-04, ATH-09; SCIENCE Borde 2015, Fragala 2019, Bickel 2011; rate/floor PROPOSED - PENDING COACH APPROVAL"
+  },
+  {
+   "situation": "sex",
+   "rule": "no sex-based rules",
+   "tag": "COACH-ANSWER ATH-09, GEN-02"
+  }
+ ],
+ "priority": {
+  "max_muscles": 2,
+  "start_add": {
+   "L1": 4,
+   "L2": 4,
+   "L3": 6
+  },
+  "cap": {
+   "L2": "26-28",
+   "L3": 30,
+   "coach_range": "25-30"
+  },
+  "order_in_session": "priority exercise first (small muscles too)",
+  "delivery": [
+   "own exercises in VOL-07 order",
+   "Focus 1 / Focus 2 on the optional day (both may hit the same muscle, 2-3 sets each)",
+   "bonus exercise"
+  ],
+  "nonpriority_rate_cap": 0.03,
+  "per_session_cap": 14,
+  "tags": {
+   "add_and_cap": "COACH-ANSWER VOL-02",
+   "first": "COACH-ANSWER ORD-04",
+   "focus": "COACH-ANSWER ORD-10, ORD-11",
+   "nonpriority_cap_and_session_cap": "PROPOSED - PENDING COACH APPROVAL"
+  }
+ },
+ "pain": [
+  {
+   "trigger": "intake pain area",
+   "action": "affected muscle/pattern start x 0.5-0.7; constraint 4-5 machines or split grips; exclude aggravating positions; rate 0 until 2 pain-free weeks",
+   "tag": "COACH-ANSWER VOL-03, EQ-03; 2-week rule PROPOSED - PENDING COACH APPROVAL"
+  },
+  {
+   "trigger": "'Felt a PAIN' once",
+   "action": "swap within category to a more constrained / split-grip / unilateral variant; keep sets if possible",
+   "tag": "COACH-ANSWER UNI-08, GEN-05"
+  },
+  {
+   "trigger": "'Felt a PAIN' again on same slot",
+   "action": "slot -30 to -50 %; muscle rate 0; may move removed sets to a pain-free exercise for the same muscle",
+   "tag": "COACH-ANSWER VOL-03; move PROPOSED - PENDING COACH APPROVAL"
+  },
+  {
+   "trigger": "third time",
+   "action": "drop the exercise for the block; flag coach",
+   "tag": "COACH-ANSWER VOL-03"
+  },
+  {
+   "trigger": "pain and laterality",
+   "action": "shift bilateral share 20 points toward the pain-free side (low back under axial load -> unilateral/belt squat/machines; knee/hip in single-leg -> bilateral machines)",
+   "tag": "COACH-ANSWER UNI-02, EQ-11; 20 points PROPOSED - PENDING COACH APPROVAL"
+  },
+  {
+   "trigger": "'Felt the WRONG muscle'",
+   "action": "change one variable in the same category; volume unchanged",
+   "tag": "COACH-ANSWER GEN-05, PER-02"
+  },
+  {
+   "trigger": "\"Couldn't do it\"",
+   "action": "regress one exercise level or assisted; volume unchanged",
+   "tag": "COACH-ANSWER GEN-05"
+  }
+ ],
+ "rate_engine": {
+  "principle": {
+   "rule": "one rate per person per week, % of each muscle's weekly sets; never by muscle size; coach can override 0-10 %",
+   "tag": "COACH-ANSWER VOL-04, VOL-05, GEN-08"
+  },
+  "bands": [
+   0.03,
+   0.05,
+   0.07
+  ],
+  "hard_ceiling": {
+   "value": 0.1,
+   "applies_to": "person's total weekly resistance sets, week over week",
+   "exempt": [
+    "return from deload to pre-deload volume",
+    "block-boundary swaps that add no sets"
+   ],
+   "tag": "COACH-ANSWER UNI-05; exemptions PROPOSED - PENDING COACH APPROVAL"
+  },
+  "gates": [
+   {
+    "if": "median weekly EFFORT >= 9 OR '10 - I'm done' on >= 2 exercises",
+    "then": "hold (0 %) for everyone",
+    "tag": "COACH-ANSWER GEN-05"
+   },
+   {
+    "if": "'10 - I'm done' on an exercise",
+    "then": "that exercise -1 set next week",
+    "tag": "COACH-ANSWER GEN-05"
+   },
+   {
+    "if": "'Felt a PAIN'",
+    "then": "pain protocol; that muscle 0 %",
+    "tag": "COACH-ANSWER VOL-03, GEN-05"
+   },
+   {
+    "if": "hold 2 weeks in a row",
+    "then": "deload next week",
+    "tag": "PROPOSED - PENDING COACH APPROVAL"
+   },
+   {
+    "if": "median weekly EFFORT <= 6",
+    "then": "rate >= 5 % and raise load/reps first",
+    "tag": "COACH-ANSWER GEN-05"
+   }
+  ],
+  "readiness_score": {
+   "formula": "R = 0.40*E + 0.20*C + 0.20*P + 0.20*L",
+   "E": {
+    "<=6": 100,
+    "7": 85,
+    "8": 70,
+    "note": "8 = 'That was perfect' (bullseye); 9-10 handled by gates"
+   },
+   "C": "% of planned sets DONE",
+   "P": "main lifts vs last exposure: up 100, flat 70, down 30 (average)",
+   "L": "weekly check-in sleep/stress/energy (1-5 each) scaled 0-100; else intake value",
+   "band_thresholds": [
+    {
+     "min_R": 85,
+     "rate": 0.07
+    },
+    {
+     "min_R": 70,
+     "rate": 0.05
+    },
+    {
+     "min_R": 55,
+     "rate": 0.03
+    },
+    {
+     "min_R": 0,
+     "rate": 0.0
+    }
+   ],
+   "checks": [
+    {
+     "case": "all EFFORT 8, all done, flat, normal life",
+     "R": 76,
+     "rate": 0.05
+    },
+    {
+     "case": "EFFORT 7, lifts up, good life",
+     "R": 94,
+     "rate": 0.07
+    },
+    {
+     "case": "EFFORT 8, 80 % done, flat, poor life",
+     "R": 66,
+     "rate": 0.03
+    },
+    {
+     "case": "EFFORT 8, 60 % done, lifts down, poor life",
+     "R": 54,
+     "rate": 0.0
+    }
+   ],
+   "tag": "PROPOSED - PENDING COACH APPROVAL; inputs supported by SCIENCE (Helms 2016, Halperin 2022, Hickmott 2022, Bartholomew 2008, Stults-Kolehmainen 2014, Knowles 2018)"
+  },
+  "planned_rate_before_logs": {
+   "intake_band": {
+    "default": 0.05,
+    "use_0.03_if_any": [
+     "high stress",
+     "under 6 h sleep",
+     "physically hard job or heavy sport practice load",
+     "age 60+",
+     "back from 6+ month layoff (first block)",
+     "pain declared"
+    ],
+    "0.07": "never before logs earn it"
+   },
+   "target_seeking": "plan rate = min(intake_band, smallest of {3,5,7} % that lands the peak in the final phase)",
+   "computed_defaults_big_muscles_12wk": {
+    "L1": {
+     "from": 10,
+     "to": 14,
+     "needed": 0.038,
+     "rate": 0.05
+    },
+    "L2": {
+     "from": 15,
+     "to": 22,
+     "needed": 0.043,
+     "rate": 0.05
+    },
+    "L3": {
+     "from": 20,
+     "to": 25,
+     "needed": 0.025,
+     "rate": 0.03
+    }
+   },
+   "new_intake_question": "usual sleep, stress, physical job / other sport load (3 taps)",
+   "tag": "PROPOSED - PENDING COACH APPROVAL"
+  },
+  "phase_limits": {
+   "12wk_acclimation": 0.03,
+   "8wk_weeks_1_4": 0.05,
+   "maintenance": 0.0,
+   "in_season": 0.0,
+   "fight_or_competition_prep": "2-week steps and waves, same average",
+   "tag": "COACH-ANSWER PER-01, PER-10, PER-08; caps PROPOSED - PENDING COACH APPROVAL"
+  },
+  "weeks_to_cap_table": {
+   "note": "computed with the bank rule (whole sets)",
+   "L1_big_10_to_14": {
+    "3%": 13,
+    "5%": 9,
+    "7%": 7,
+    "10%": 5
+   },
+   "L2_big_15_to_22": {
+    "3%": 15,
+    "5%": 9,
+    "7%": 7,
+    "10%": 6
+   },
+   "L3_big_20_to_25": {
+    "3%": 9,
+    "5%": 6,
+    "7%": 5,
+    "10%": 4
+   },
+   "L2_priority_20_to_26": {
+    "3%": 11,
+    "5%": 7,
+    "7%": 5,
+    "10%": 4
+   },
+   "L3_priority_25_to_30": {
+    "3%": 8,
+    "5%": 5,
+    "7%": 4,
+    "10%": 3
+   },
+   "L2_small_12_to_18": {
+    "3%": 16,
+    "5%": 10,
+    "7%": 8,
+    "10%": 6
+   }
+  }
+ },
+ "banking": {
+  "rule": "bank[m] += rate * current_sets[m]; while bank >= 1 and current+1 <= cap: place one set, bank -= 1; at cap: bank = 0 and progress load/reps/intensifiers",
+  "release_threshold": 1.0,
+  "bank_max_when_blocked": 1.99,
+  "helper_spill": "helper credit is counted but does not use the bank; may exceed cap by ~1 set (reported, no direct adds)",
+  "tag": "COACH-ANSWER VOL-06; spill handling PROPOSED - PENDING COACH APPROVAL"
+ },
+ "set_placement": {
+  "steps": [
+   {
+    "step": "day",
+    "rule": "rotate through days that train the muscle as main mover (A, then B, ...)",
+    "tag": "PROPOSED - PENDING COACH APPROVAL"
+   },
+   {
+    "step": "laterality group",
+    "rule": "if bilateral share < target - 3 points -> bilateral exercise; > target + 3 -> unilateral; else none",
+    "tag": "COACH-ANSWER UNI-02 + VOL-07; filter PROPOSED - PENDING COACH APPROVAL"
+   },
+   {
+    "step": "order in day",
+    "rule": "first exercise (session order) whose sets < first exercise's sets; if all equal, the first. 2/2/2 -> 3/2/2 -> 3/3/2 -> 3/3/3 -> 4/3/3",
+    "tag": "COACH-ANSWER VOL-07"
+   },
+   {
+    "step": "limits",
+    "rule": "sets/exercise <= 4 (L1) or 5 (L2-L3), isolation <= 4, min 2; muscle per session <= 11 fractional (priority 14); session minutes <= limit",
+    "tag": "COACH-ANSWER VOL-16 (defaults 3/2); limits PROPOSED - PENDING COACH APPROVAL; SCIENCE Remmert ~11"
+   },
+   {
+    "step": "no room: superset",
+    "rule": "superset the lower/upper pairs on that day if that frees the time",
+    "tag": "COACH-ANSWER ORD-05"
+   },
+   {
+    "step": "no room: small muscle",
+    "rule": "bonus exercise (2 sets, same category) on the optional day, else the training day with fewest exercises",
+    "tag": "COACH-ANSWER VOL-07, ORD-10"
+   },
+   {
+    "step": "no room: big muscle",
+    "rule": "Focus slot (2 sets) on the optional day, else a day that already trains the region",
+    "tag": "COACH-ANSWER ORD-11; big-muscle use PROPOSED - PENDING COACH APPROVAL"
+   },
+   {
+    "step": "still no room",
+    "rule": "bank waits (max 1.99); progress load, reps, MYO (last machine/isolation), supersets",
+    "tag": "COACH-ANSWER VOL-15, ORD-05"
+   }
+  ],
+  "hard_rules": [
+   "core first (movable by user)",
+   "hip dominant + push, knee dominant + pull",
+   "no second axial-loaded day (squat once; leg press/belt squat other day; deadlifts load the spine)",
+   "horizontal pull before vertical pull",
+   "power before strength",
+   "no bands / variable resistance"
+  ],
+  "hard_rules_tags": "COACH-ANSWER ATH-11, ORD-06, UNI-11, PER-04, EQ-11, ORD-01, ORD-03, EQ-01, EQ-12",
+  "block_rule": {
+   "rule": "exercises fixed for 4-6-week block; between blocks change 1-2 small variables (grip, stance, implement, ROM, rep range); a stance change may swap laterality; A/B lead-lift weeks only for variety seekers",
+   "tag": "COACH-ANSWER PER-02, PER-03; SCIENCE Kassiano 2022"
+  }
+ },
+ "session_limits": {
+  "resistance_exercises": {
+   "typical": "5-7",
+   "max_90min_or_fullbody_with_calves": 8,
+   "tag": "COACH-ANSWER VOL-08, VOL-16; 8 PROPOSED - PENDING COACH APPROVAL"
+  },
+  "field_athlete_off_season": {
+   "max_exercises": "10-12",
+   "layout": "2 core + 2-4 plyo/ballistic + 2-3 Olympic/power + 3-4 resistance",
+   "tag": "COACH-ANSWER VOL-08, VOL-17"
+  },
+  "exercises_per_muscle_on_its_day": "3-4 (COACH-ANSWER VOL-07)",
+  "default_sets": {
+   "compound": 3,
+   "isolation": 2,
+   "calves": 3,
+   "min": 2,
+   "tag": "COACH-ANSWER VOL-16, VOL-17; min PROPOSED - PENDING COACH APPROVAL"
+  },
+  "session_minutes": {
+   "athletes_bodybuilders_powerlifters": "~90 (max 120)",
+   "general_weight_loss": "45-60",
+   "bootcamp": "35-45",
+   "tag": "COACH-ANSWER UNI-09, PRG-03"
+  },
+  "per_muscle_per_session": {
+   "soft": 11,
+   "priority": 14,
+   "tag": "SCIENCE Remmert (~11), RP (8-12); values PROPOSED - PENDING COACH APPROVAL"
+  },
+  "rest": {
+   "hypertrophy_min": "1-2 (up to 3)",
+   "strength_min": "3-6",
+   "athletic": "as prescribed",
+   "tag": "COACH-ANSWER VOL-14"
+  },
+  "aerobic_sessions_per_week": {
+   "general_fat_loss": 3,
+   "athletes_in_season": 2,
+   "aesthetics_bodybuilders": 4,
+   "plus": "walks after workouts",
+   "tag": "COACH-ANSWER ATH-07"
+  }
+ },
+ "time_model": {
+  "minutes_per_working_set_incl_rest": {
+   "warmup_session": 8,
+   "core_set": 1.5,
+   "compound_bilateral": 2.5,
+   "compound_unilateral": 3.75,
+   "isolation": 1.75,
+   "isolation_unilateral": 2.5,
+   "plyo_or_ballistic": 1.5,
+   "olympic": 3.0,
+   "throw": 1.25
+  },
+  "superset_factor": 0.65,
+  "capacity_mixed_hypertrophy_sets": {
+   "45": "13-14",
+   "60": "19-20",
+   "75": "25-26",
+   "90": "31-32",
+   "supersets_add": "25-35 %"
+  },
+  "tag": "COACH-ANSWER ORD-08 (warm-up), VOL-14 (rest); model PROPOSED - PENDING COACH APPROVAL"
+ },
+ "bilateral_share": {
+  "definition": "bilateral sets / (bilateral + unilateral sets) in lower knee- and hip-dominant compound slots; leg flexion, leg extension and isolation excluded; same logic for upper push/pull (alternating = unilateral)",
+  "slider": "90/10 <-> 10/90, coach-adjustable",
+  "tag": "COACH-ANSWER UNI-02, UNI-03, UNI-07, CAT-09",
+  "profiles": [
+   {
+    "profile": "bodybuilder / powerlifter L2-L3",
+    "weeks_1_4": 0.5,
+    "later": "0.8 -> 0.9 by peak",
+    "upper": "0.8-0.9",
+    "tag": "COACH-ANSWER UNI-02, CAT-13"
+   },
+   {
+    "profile": "beginner aesthetics / general L1",
+    "weeks_1_4": 0.5,
+    "later": "0.5 -> 0.6 in later cycles",
+    "upper": 0.7,
+    "tag": "PROPOSED - PENDING COACH APPROVAL"
+   },
+   {
+    "profile": "weekend-warrior athletic, bootcamp",
+    "all": 0.5,
+    "pairing": "cross-pattern",
+    "upper": 0.6,
+    "tag": "COACH-ANSWER UNI-06; numbers PROPOSED - PENDING COACH APPROVAL"
+   },
+   {
+    "profile": "field/court COD athletes (tennis, soccer, basketball, football skill)",
+    "off_season_start": 0.2,
+    "off_season_later": 0.15,
+    "pre_season": 0.15,
+    "in_season": 0.1,
+    "upper": 0.2,
+    "tag": "COACH-ANSWER UNI-02, UNI-10"
+   },
+   {
+    "profile": "sprinters / acceleration",
+    "off_season": 0.4,
+    "pre_season": 0.3,
+    "in_season": 0.2,
+    "upper": 0.4,
+    "tag": "PROPOSED - PENDING COACH APPROVAL"
+   },
+   {
+    "profile": "strength-type athletes",
+    "off_season": 0.6,
+    "pre_season": 0.4,
+    "in_season": 0.25,
+    "upper": 0.6,
+    "tag": "PROPOSED - PENDING COACH APPROVAL"
+   },
+   {
+    "profile": "baseball / softball",
+    "off_season": 0.5,
+    "pre_season": 0.35,
+    "in_season": 0.2,
+    "upper": "0.3 (pitchers: less overhead)",
+    "tag": "OBSERVED 4+4 sets; COACH-ANSWER ATH-08; rest PROPOSED - PENDING COACH APPROVAL"
+   },
+   {
+    "profile": "combat (boxing, MMA, karate)",
+    "off_season": 0.4,
+    "pre_season": 0.3,
+    "in_season": 0.2,
+    "upper": "0.3 rotational",
+    "tag": "PROPOSED - PENDING COACH APPROVAL"
+   },
+   {
+    "profile": "older / injured",
+    "default": 0.6,
+    "note": "constrained machines; supported unilateral",
+    "upper": 0.7,
+    "tag": "COACH-ANSWER EQ-03; numbers PROPOSED - PENDING COACH APPROVAL"
+   },
+   {
+    "profile": "pain",
+    "rule": "shift 20 points toward the pain-free side",
+    "tag": "COACH-ANSWER UNI-02; 20 PROPOSED - PENDING COACH APPROVAL"
+   }
+  ],
+  "contra_ipsi": {
+   "cod_athletes": "~70 % of loaded unilateral sets contralateral (into the hip)",
+   "sprinters": "ipsilateral step-ups for acceleration (~60 %)",
+   "bodybuilders_powerlifters": "health accessories mostly weeks 1-4, keep one later only if something bugs them",
+   "court_combat": "more frontal/transverse unilateral work (lateral lunge, cossack, lateral step-up)",
+   "tag": "COACH-ANSWER CAT-13, UNI-12; percentages PROPOSED - PENDING COACH APPROVAL"
+  },
+  "pairing": {
+   "same_pattern": "high-level and aesthetics (squat + lunge) - drives one muscle harder",
+   "cross_pattern": "bootcamp/general - less soreness",
+   "tag": "COACH-ANSWER UNI-06"
+  }
+ },
+ "plan_shapes": {
+  "12wk": {
+   "acclimation_weeks": "1-3 (L3: 1-2; L1/returning: 1-4)",
+   "drive_weeks": "4-9",
+   "final_weeks": "10-12 (cap reached; intensifiers; RIR toward 1)",
+   "rate_limit_acclimation": 0.03,
+   "tag": "COACH-ANSWER PER-01; week split PROPOSED - PENDING COACH APPROVAL"
+  },
+  "8wk": {
+   "start_multiplier": 1.1,
+   "weeks_1_4": "adapting, rate <= 5 %",
+   "weeks_5_8": "driving hard, person's rate",
+   "tag": "COACH-ANSWER PER-01; +10 % and 5 % cap PROPOSED - PENDING COACH APPROVAL"
+  },
+  "maintenance_4_6wk": {
+   "factor": {
+    "vacation_limited_kit": 0.5,
+    "travel_moving_season_change": 0.6,
+    "planned_maintenance": 0.7
+   },
+   "older_floor": 0.7,
+   "base": "average of the last block's final 4 loading weeks (new clients: level start)",
+   "rate": 0.0,
+   "effort": "RIR 2-3, no intensifiers",
+   "time_check": "if the schedule cannot hold the factor, say so and offer an extra session, longer sessions or supersets",
+   "tag": "COACH-ANSWER PER-01; base/splits/floor PROPOSED - PENDING COACH APPROVAL; SCIENCE Bickel 2011, Spiering 2021"
+  },
+  "week_by_week": {
+   "rule": "no end date; acclimation then drive; block boundary every 4-6 weeks; deload on triggers or after 12 loading weeks max",
+   "tag": "COACH-ANSWER PER-01, PER-02; 12-week max PROPOSED - PENDING COACH APPROVAL"
+  },
+  "yearly": {
+   "Q1_jan_mar": "hard work, more cardio, cutting toward summer",
+   "Q2_apr_jun": "lose fat / get in shape, build some muscle, keep fat down",
+   "Q3_jul_sep": "maintain look and health (low end of 15-20 or 70 %)",
+   "Q4_oct_mid_dec": "build muscle (growth 20-25, priorities)",
+   "last_2_weeks_dec": "automatic maintenance 50-70 %",
+   "tag": "COACH-ANSWER PER-01 (Q2 text ambiguous; confirm)"
+  },
+  "fight_competition_prep": {
+   "rule": "2-week steps and waves",
+   "tag": "COACH-ANSWER PER-10"
+  },
+  "athlete_seasons": {
+   "off": "most volume",
+   "pre": "less volume, more speed/power",
+   "in": "2 days, low volume; sprints for speed athletes, strength maintenance or jumps for others; bilateral minimal",
+   "post": "recovery, general",
+   "tag": "COACH-ANSWER PER-08, UNI-10"
+  },
+  "tests": {
+   "rule": "chosen by checkbox at block start (strength, cardio, speed) or none",
+   "tag": "COACH-ANSWER PER-07"
+  }
+ },
+ "deload": {
+  "dose": {
+   "sets": "0.5 x current week (round up, min 1 per exercise)",
+   "load": "lighter or 3+ RIR",
+   "keep": "same exercises",
+   "remove": [
+    "buy-outs",
+    "finishers",
+    "MYO",
+    "supersets"
+   ],
+   "athletic": "landings/low amplitude, about half contacts and throws",
+   "conditioning": "easy (orange) only",
+   "tag": "COACH-ANSWER PER-05; athletic/conditioning PROPOSED - PENDING COACH APPROVAL"
+  },
+  "when": {
+   "fixed_inside_12_or_8wk": false,
+   "triggers": [
+    "2 weeks of hold",
+    "median EFFORT >= 9 two weeks in a row",
+    "'Felt a PAIN' on 2+ slots in one week",
+    "performance down on 3+ main lifts for 2 exposures"
+   ],
+   "after_triggered_deload": "resume at the volume of 2 weeks before",
+   "next_cycle_week_1": "deload (skip if a maintenance block came between)",
+   "tag": "PROPOSED - PENDING COACH APPROVAL; SCIENCE Bell 2023, Rogerson 2024, Coleman 2024"
+  }
+ },
+ "cycles": {
+  "rule": "next start = previous start x 1.05; next cap = previous cap + 1 (max 25 non-priority, 30 priority); same start after holds/pain or a maintenance block",
+  "example_L2_big": [
+   [
+    15,
+    22
+   ],
+   [
+    16,
+    23
+   ],
+   [
+    17,
+    24
+   ],
+   [
+    18,
+    25
+   ]
+  ],
+  "tag": "COACH-ANSWER PER-01 ('start at a 2 and end at an 11'); step size PROPOSED - PENDING COACH APPROVAL"
+ },
+ "athletic": {
+  "counting": {
+   "rule": "contacts, reps/sets, throws, meters/bouts, cuts; never muscle sets",
+   "tag": "COACH-ANSWER VOL-10"
+  },
+  "plyo_vs_ballistic": {
+   "rule": "short ground contact sports -> more fast-SSC plyos; long ground time -> more slow-SSC ballistics; start ballistic, end plyometric (~+25 points across a block)",
+   "tag": "COACH-ANSWER ATH-01, CAT-10; SCIENCE fast SSC < ~250 ms; shift PROPOSED - PENDING COACH APPROVAL"
+  },
+  "plyo_share_by_sport": {
+   "sprinters_jumpers": [
+    0.6,
+    0.75
+   ],
+   "basketball_volleyball": [
+    0.45,
+    0.6
+   ],
+   "football_skill_soccer": [
+    0.4,
+    0.55
+   ],
+   "tennis_racket": [
+    0.3,
+    0.55
+   ],
+   "mma": [
+    0.3,
+    0.45
+   ],
+   "hockey": [
+    0.3,
+    0.45
+   ],
+   "football_linemen": [
+    0.25,
+    0.35
+   ],
+   "wrestling_bjj": [
+    0.25,
+    0.35
+   ],
+   "boxing_karate_kickboxing": [
+    0.2,
+    0.35
+   ],
+   "baseball_softball": [
+    0.15,
+    0.3
+   ],
+   "golf": [
+    0.1,
+    0.2
+   ],
+   "weekend_warrior_athletic": [
+    0.3,
+    0.45
+   ],
+   "older_adults": [
+    0.0,
+    0.1
+   ],
+   "aesthetics_bodybuilding": "no plyo block",
+   "tag": "PROPOSED - PENDING COACH APPROVAL; ranking COACH-ANSWER ATH-02"
+  },
+  "method_stage": {
+   "weeks_1_2": "receive & pause (stick landings)",
+   "weeks_3_5": "receive then create",
+   "weeks_6_plus": "repeated receive/create (hops, rebounds)",
+   "within_stage": "bilateral before unilateral (unilateral is harder)",
+   "not": "zones",
+   "name": "pending - suggestion 'Receive-Create stages' (RC1/RC2/RC3)",
+   "tag": "COACH-ANSWER CAT-10, CAT-11; week split and name PROPOSED - PENDING COACH APPROVAL"
+  },
+  "contacts_per_session_max": {
+   "L1": 80,
+   "L2": 100,
+   "L3": 120,
+   "note": "NSCA lower ends; his sessions run lower (18-77 observed)",
+   "tag": "SCIENCE NSCA; OBSERVED"
+  },
+  "plyo_sessions": {
+   "per_week_off_season": "2-3",
+   "same_area_gap_h": "48-72",
+   "masters_gap_days": "3-4",
+   "tag": "SCIENCE NSCA"
+  },
+  "olympic": {
+   "rule": "everyone in athletic training: L1 DB/KB snatches, hex-bar jumps, hang pulls/cleans; L2 hang power; L3 full lifts (Snatch, Squat Clean, Squat Clean & Jerk); youth may lift from the floor",
+   "tag": "COACH-ANSWER ATH-10, ATH-09, LIB-07"
+  },
+  "medball": {
+   "rule": "rotational/athletic only; max 20 lb; 8-10 lb for speed; none for aesthetics/bodybuilders except warm-up",
+   "tag": "COACH-ANSWER ATH-05, EQ-06"
+  },
+  "older": {
+   "rule": "few plyos unless requested; low amplitude",
+   "tag": "COACH-ANSWER ATH-09"
+  }
+ },
+ "learning": {
+  "modes": {
+   "static": "plan computed up front with intake rate; no tracking needed (COACH-ANSWER GEN-03)",
+   "adaptive": "optional weekly check-in -> next week (COACH-ANSWER GEN-05); required for week-by-week mode",
+   "conflict": "GEN-03 (people track themselves) vs GEN-05 (adjust from logs) - two modes PROPOSED - PENDING COACH APPROVAL"
+  },
+  "log_schema": {
+   "per_exercise_session": [
+    "sets_done (DONE)",
+    "reps or hit_target",
+    "weight_used_or_score",
+    "effort_1_10 (BYOP menu)",
+    "how_it_felt (RIGHT muscles / WRONG muscle / PAIN / Couldn't do it)",
+    "pain_location"
+   ],
+   "per_week": [
+    "sleep_1_5",
+    "stress_1_5",
+    "energy_1_5",
+    "body_weight",
+    "missed_session_reason"
+   ],
+   "per_block": [
+    "tests_ticked",
+    "optional photos/girths"
+   ],
+   "computed": [
+    "weekly_sets_coach_count",
+    "weekly_sets_pelland_count",
+    "e1RM_epley_main_lifts",
+    "rep_PRs_fixed_load",
+    "readiness_R",
+    "rate_used",
+    "holds",
+    "deloads",
+    "pain_events",
+    "adherence"
+   ]
+  },
+  "effort_menu": [
+   "1 - Way Too Easy",
+   "2 - Way Too Easy",
+   "3 - Too Easy",
+   "4 - Easy",
+   "5 - Easyish",
+   "6 - Broke a Sweat",
+   "7 - That was tough",
+   "8 - That was perfect",
+   "9 - That was terrible",
+   "10 - I'm done"
+  ],
+  "how_it_felt_menu": [
+   "Felt the RIGHT muscles",
+   "Felt the WRONG muscle",
+   "Felt a PAIN",
+   "Couldn't do it"
+  ],
+  "tunables_in_order": [
+   {
+    "what": "personal rate band",
+    "how": "7 % weeks followed by green weeks and rising lifts -> allow 7 % earlier; 5 % followed by holds/pain -> default 3 %"
+   },
+   {
+    "what": "personal cap (MRV)",
+    "how": "weekly sets where lifts stall and EFFORT climbs 2+ weeks -> next cap = that - 1-2 sets"
+   },
+   {
+    "what": "personal next start",
+    "how": "one step up after a productive block; same after holds"
+   },
+   {
+    "what": "population tables",
+    "how": "hierarchical model by level x goal x age band x sport; change a cell only after ~200+ completed blocks and coach approval; no sex-based cells"
+   },
+   {
+    "what": "helper credit",
+    "how": "test 0.25 vs Pelland 0.5 against per-muscle progress; keep 0.25 unless data and coach agree"
+   },
+   {
+    "what": "readiness weights",
+    "how": "fit score to predict next week's hold / EFFORT 10 / pain"
+   }
+  ],
+  "guardrails_never_learned_away": [
+   "10 %/week ceiling",
+   "pain protocol",
+   "deload about half",
+   "no axial loading twice a week",
+   "core first default",
+   "older-adult exclusions",
+   "no bands / variable resistance",
+   "priority cap 30",
+   "coach-added rules (GEN-08)"
+  ],
+  "governance": "versioned parameter sets; consent for any experiment; learning only from opt-in adaptive users",
+  "tag": "COACH-ANSWER VOL-01, VOL-02, VOL-06, GEN-05, GEN-08; method PROPOSED - PENDING COACH APPROVAL"
+ },
+ "pseudo_code": "# ---------- 0. intake -> profile ----------\nlevel = level_from_experience(years_consistent, months_off, ex_pro)        # PRG-05 (L1/L2/L3)\ngoal, sport, position, season = intake.goal, intake.sport, ...            # GEN-02\nage, body_weight, pain_areas, recovery = intake.age, intake.weight, ...   # GEN-02 + PROPOSED recovery question\nmode = intake.plan_mode            # '12wk' | '8wk' | 'maint_4_6' | 'week_by_week' | 'yearly'\noutput = intake.output_mode        # 'static' | 'adaptive'                  # PROPOSED (GEN-03 vs GEN-05)\n\n# ---------- 1. weekly targets ----------\nfor m in MUSCLES:\n    start[m] = START_TABLE[m][level]                                      # 3.3 (VOL-01, VOL-17)\n    start[m] *= GOAL_PHASE_FACTOR[goal, season][region(m)]                # 3.4\n    if m in priorities: start[m] += 4 if level in ('L1','L2') else 6      # VOL-02\n    if m in pain_muscles: start[m] *= 0.5 to 0.7                          # VOL-03\n    cap[m] = CAP_TABLE[m][level] (+ priority cap, + cycle bonus)          # 3.3, 3.12\n    if mode == '8wk': start[m] *= 1.10                                    # PER-01 \"start hard\"\n    if mode == 'maint_4_6': start[m] = factor(context, age) * last_block_avg[m]   # PER-01 50-70 %\n    if previous_cycle_completed_green: start[m] *= 1.05; cap[m] += 1      # PER-01 \"start at 2, end at 11\"\nshare_target = SHARE_TABLE[profile][phase]; apply pain shift              # 3.11 (UNI-02/03/10)\n\n# ---------- 2. week-1 build ----------\nslots = template(goal, days, minutes)                     # pairing hip+push / knee+pull, core first, no 2nd axial day\nset defaults: compound 3, isolation 2, calves 3, core block 2x2           # VOL-16, VOL-17, ATH-11\nrepeat: trim muscles > start+1 (latest isolation first, min 2 sets);\n        add to muscles < start-1 (largest relative deficit first) with place_set()\nplan_rate = min(intake_band(recovery, age, layoff, pain), smallest of {3,5,7}% that lands the peak in the final phase)\n\n# ---------- 3. weekly loop ----------\nfor week in plan:\n    if deload_due(week): emit deload(current, factor=0.5); continue       # PER-05\n    rate = plan_rate if output == 'static' else readiness_rate(logs[week-1])   # 3.7\n    rate = min(rate, phase_cap(mode, week), 0.10)                          # acclimation 3 %, 8wk first 4 wks 5 %, ceiling 10 %\n    for m in sorted(MUSCLES, key=priority_first_then_big):\n        r = 0 if m in pain_frozen else (min(rate, 0.03) if priorities and m not in priorities else rate)\n        bank[m] += r * weekly_sets[m]\n        while bank[m] >= 1 and weekly_sets[m] + 1 <= cap[m]:\n            if total_sets_after_add > 1.10 * total_sets_last_week: break  # hard ceiling\n            if not place_set(m): bank[m] = min(bank[m], 1.99); break\n            bank[m] -= 1\n        if weekly_sets[m] >= cap[m]: bank[m] = 0; use_load_reps_intensifiers(m)\n    apply_effort10_cuts(logs); apply_pain_protocol(logs)                  # GEN-05, VOL-03\n    if week is block_boundary: change_one_small_variable(); rebalance_share(share_target)   # PER-02\n    emit(week)\n\ndef place_set(m):\n    for day in rotate(days_training(m)):                                   # day A, then B ...\n        group = laterality_group(m, share_target)                         # bilateral vs unilateral first\n        ex = first exercise in session order with sets < sets of the first, else the first (below max)   # VOL-07\n        if fits(ex, per_exercise_max, per_session_muscle_cap=11 (14 priority), session_minutes): ex.sets += 1; return True\n        if superset_frees_time(day): enable_superset(day); retry           # ORD-05\n    if m is small: return add_bonus_exercise(m, prefer=optional_day)       # VOL-07, ORD-10\n    if m is big:   return add_focus_slot(m, prefer=optional_day)           # ORD-11\n    return False\n\ndef readiness_rate(log):\n    if log.median_effort >= 9 or log.n_effort10 >= 2: return 0.0          # GEN-05 hold\n    E = {<=6: 100, 7: 85, 8: 70}[log.median_effort]\n    R = .4*E + .2*log.pct_done + .2*log.performance + .2*log.life\n    rate = .07 if R >= 85 else .05 if R >= 70 else .03 if R >= 55 else 0.0\n    if log.median_effort <= 6: rate = max(rate, .05)                      # GEN-05 add\n    return rate\n\n# athletic block (separate budget, VOL-10)\nplyo_share(week) = SPORT_PLYO_SHARE[sport].start + progress(week) * (end - start)   # ATH-01, CAT-10\nmethod_stage(week) = 'receive & pause' | 'receive then create' | 'repeated receive/create'  # CAT-10/11\ncontacts_per_session <= NSCA[level]\n",
+ "examples": {
+  "ex1_beginner_aesthetics_12wk": {
+   "inputs": {
+    "level": "L1",
+    "days": 4,
+    "minutes": 60,
+    "share_lower": 0.5,
+    "planned_rate": 0.05,
+    "priority": null
+   },
+   "rates_used": "w2-3 acclimation 3 %; w6 poor sleep/stress 3 %; w8 median EFFORT 9 hold; w10 EFFORT 7 + PRs 7 %",
+   "weeks": [
+    {
+     "week": 1,
+     "phase": "accl",
+     "rate": 0,
+     "sets": {
+      "quads": 11.0,
+      "hamstrings": 11.0,
+      "glutes": 9.25,
+      "chest": 9.0,
+      "lats_upper_back": 11.0,
+      "biceps": 7.75,
+      "triceps": 7.0,
+      "side_delts": 7.75,
+      "rear_delts": 3.5,
+      "calves": 12.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 78
+    },
+    {
+     "week": 2,
+     "phase": "accl",
+     "rate": 0.03,
+     "sets": {
+      "quads": 11.0,
+      "hamstrings": 11.0,
+      "glutes": 9.25,
+      "chest": 9.0,
+      "lats_upper_back": 11.0,
+      "biceps": 7.75,
+      "triceps": 7.0,
+      "side_delts": 7.75,
+      "rear_delts": 3.5,
+      "calves": 12.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 78
+    },
+    {
+     "week": 3,
+     "phase": "accl",
+     "rate": 0.03,
+     "sets": {
+      "quads": 11.0,
+      "hamstrings": 11.0,
+      "glutes": 9.25,
+      "chest": 9.0,
+      "lats_upper_back": 11.0,
+      "biceps": 7.75,
+      "triceps": 7.0,
+      "side_delts": 7.75,
+      "rear_delts": 3.5,
+      "calves": 12.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 78
+    },
+    {
+     "week": 4,
+     "phase": "drive",
+     "rate": 0.05,
+     "sets": {
+      "quads": 12.0,
+      "hamstrings": 12.0,
+      "glutes": 10.0,
+      "chest": 9.0,
+      "lats_upper_back": 12.0,
+      "biceps": 8.0,
+      "triceps": 7.0,
+      "side_delts": 7.75,
+      "rear_delts": 3.75,
+      "calves": 13.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 82
+    },
+    {
+     "week": 5,
+     "phase": "drive",
+     "rate": 0.05,
+     "sets": {
+      "quads": 12.0,
+      "hamstrings": 12.0,
+      "glutes": 10.0,
+      "chest": 10.0,
+      "lats_upper_back": 12.0,
+      "biceps": 9.0,
+      "triceps": 8.25,
+      "side_delts": 8.75,
+      "rear_delts": 3.75,
+      "calves": 13.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 86
+    },
+    {
+     "week": 6,
+     "phase": "drive",
+     "rate": 0.03,
+     "sets": {
+      "quads": 13.0,
+      "hamstrings": 13.0,
+      "glutes": 10.75,
+      "chest": 10.0,
+      "lats_upper_back": 13.0,
+      "biceps": 9.25,
+      "triceps": 8.25,
+      "side_delts": 8.75,
+      "rear_delts": 3.75,
+      "calves": 14.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 90
+    },
+    {
+     "week": 7,
+     "phase": "drive",
+     "rate": 0.05,
+     "sets": {
+      "quads": 13.0,
+      "hamstrings": 13.0,
+      "glutes": 10.75,
+      "chest": 11.0,
+      "lats_upper_back": 13.0,
+      "biceps": 9.25,
+      "triceps": 8.5,
+      "side_delts": 8.75,
+      "rear_delts": 3.75,
+      "calves": 15.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 92
+    },
+    {
+     "week": 8,
+     "phase": "drive",
+     "rate": 0.0,
+     "sets": {
+      "quads": 13.0,
+      "hamstrings": 13.0,
+      "glutes": 10.75,
+      "chest": 11.0,
+      "lats_upper_back": 13.0,
+      "biceps": 9.25,
+      "triceps": 8.5,
+      "side_delts": 8.75,
+      "rear_delts": 3.75,
+      "calves": 15.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 92
+    },
+    {
+     "week": 9,
+     "phase": "drive",
+     "rate": 0.05,
+     "sets": {
+      "quads": 14.0,
+      "hamstrings": 14.0,
+      "glutes": 11.5,
+      "chest": 11.0,
+      "lats_upper_back": 14.0,
+      "biceps": 10.5,
+      "triceps": 10.5,
+      "side_delts": 8.75,
+      "rear_delts": 4.75,
+      "calves": 15.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 99
+    },
+    {
+     "week": 10,
+     "phase": "final",
+     "rate": 0.07,
+     "sets": {
+      "quads": 14.0,
+      "hamstrings": 14.0,
+      "glutes": 11.5,
+      "chest": 11.0,
+      "lats_upper_back": 14.0,
+      "biceps": 10.5,
+      "triceps": 10.5,
+      "side_delts": 8.75,
+      "rear_delts": 4.75,
+      "calves": 15.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 99
+    },
+    {
+     "week": 11,
+     "phase": "final",
+     "rate": 0.05,
+     "sets": {
+      "quads": 14.0,
+      "hamstrings": 14.0,
+      "glutes": 11.5,
+      "chest": 11.0,
+      "lats_upper_back": 14.0,
+      "biceps": 10.5,
+      "triceps": 10.5,
+      "side_delts": 8.75,
+      "rear_delts": 4.75,
+      "calves": 15.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 99
+    },
+    {
+     "week": 12,
+     "phase": "final",
+     "rate": 0.05,
+     "sets": {
+      "quads": 14.0,
+      "hamstrings": 14.0,
+      "glutes": 11.5,
+      "chest": 11.0,
+      "lats_upper_back": 14.0,
+      "biceps": 10.5,
+      "triceps": 10.5,
+      "side_delts": 8.75,
+      "rear_delts": 4.75,
+      "calves": 15.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 99
+    }
+   ],
+   "week1_days": [
+    "**Mon**: Dead bug 2 · Side plank 2 · Goblet squat 3 · Chest-supported DB row 3 · DB split squat 10/10 2 · Lat pulldown 3 · Leg extension 2 · DB curl 3 · Calf raise 3",
+    "**Tue**: Bird dog 2 · Pallof hold 2 · DB Romanian deadlift 2 · DB bench press 3 · Alternating staggered-stance DB deadlift 10/10 2 · Seated DB shoulder press 3 · Leg curl 2 · Cable pushdown 2 · DB side raise 4 · Calf raise 3",
+    "**Thu**: Dead bug 2 · Side plank 2 · Leg press 2 · 1-arm DB row 10/10 3 · DB step-up 10/10 2 · Neutral-grip pulldown 2 · Hammer curl 2 · Reverse DB fly 2 · Single-leg calf raise 10/10 3",
+    "**Fri**: Bird dog 2 · Pallof hold 2 · Hip thrust 4 · Incline DB press 3 · DB single-leg RDL 10/10 2 · Machine chest press 3 · Leg curl 2 · Overhead DB triceps extension 2 · DB side raise 3 · Calf raise 3"
+   ],
+   "week12_days": [
+    "**Mon**: Dead bug 2 · Side plank 2 · Goblet squat 4 · Chest-supported DB row 4 · DB split squat 10/10 3 · Lat pulldown 4 · Leg extension 2 · DB curl 4 · Calf raise 4",
+    "**Tue**: Bird dog 2 · Pallof hold 2 · DB Romanian deadlift 4 · DB bench press 4 · Alternating staggered-stance DB deadlift 10/10 2 · Seated DB shoulder press 3 · Leg curl 2 · Cable pushdown 3 · DB side raise 4 · Calf raise 4",
+    "**Thu**: Dead bug 2 · Side plank 2 · Leg press 3 · 1-arm DB row 10/10 3 · DB step-up 10/10 2 · Neutral-grip pulldown 3 · Hammer curl 3 · Reverse DB fly 3 · Single-leg calf raise 10/10 4 · Rope pushdown (bonus) 2",
+    "**Fri**: Bird dog 2 · Pallof hold 2 · Hip thrust 4 · Incline DB press 4 · DB single-leg RDL 10/10 3 · Machine chest press 3 · Leg curl 2 · Overhead DB triceps extension 2 · DB side raise 4 · Calf raise 3"
+   ],
+   "supersets_enabled_days": [
+    "Fri",
+    "Tue",
+    "Mon",
+    "Thu"
+   ],
+   "quads_trace": {
+    "1": {
+     "Mon": "Goblet squat 3 / DB split squat 2 / Leg extension 2",
+     "Thu": "Leg press 2 / DB step-up 2"
+    },
+    "2": {
+     "Mon": "Goblet squat 3 / DB split squat 2 / Leg extension 2",
+     "Thu": "Leg press 2 / DB step-up 2"
+    },
+    "3": {
+     "Mon": "Goblet squat 3 / DB split squat 2 / Leg extension 2",
+     "Thu": "Leg press 2 / DB step-up 2"
+    },
+    "4": {
+     "Mon": "Goblet squat 4 / DB split squat 2 / Leg extension 2",
+     "Thu": "Leg press 2 / DB step-up 2"
+    },
+    "5": {
+     "Mon": "Goblet squat 4 / DB split squat 2 / Leg extension 2",
+     "Thu": "Leg press 2 / DB step-up 2"
+    },
+    "6": {
+     "Mon": "Goblet squat 4 / DB split squat 2 / Leg extension 2",
+     "Thu": "Leg press 3 / DB step-up 2"
+    },
+    "7": {
+     "Mon": "Goblet squat 4 / DB split squat 2 / Leg extension 2",
+     "Thu": "Leg press 3 / DB step-up 2"
+    },
+    "8": {
+     "Mon": "Goblet squat 4 / DB split squat 2 / Leg extension 2",
+     "Thu": "Leg press 3 / DB step-up 2"
+    },
+    "9": {
+     "Mon": "Goblet squat 4 / DB split squat 3 / Leg extension 2",
+     "Thu": "Leg press 3 / DB step-up 2"
+    },
+    "10": {
+     "Mon": "Goblet squat 4 / DB split squat 3 / Leg extension 2",
+     "Thu": "Leg press 3 / DB step-up 2"
+    },
+    "11": {
+     "Mon": "Goblet squat 4 / DB split squat 3 / Leg extension 2",
+     "Thu": "Leg press 3 / DB step-up 2"
+    },
+    "12": {
+     "Mon": "Goblet squat 4 / DB split squat 3 / Leg extension 2",
+     "Thu": "Leg press 3 / DB step-up 2"
+    }
+   },
+   "findings": [
+    "60-min limit binds from week 1; supersets on all 4 days by the end",
+    "big muscles reach the L1 cap (14) in week 9; weeks 10-12 progress by load/reps",
+    "triceps bonus exercise in week 9",
+    "78 -> 99 sets (+27 %, avg +2.2 %/wk, max +7.6 %)"
+   ]
+  },
+  "ex2_intermediate_bodybuilder_chest_priority_12wk": {
+   "inputs": {
+    "level": "L2",
+    "days": "5 x 90 min + optional Focus day 45 min",
+    "priority": "chest (start 20, cap 28)",
+    "share_lower": "0.5 weeks 1-4, 0.8 from week 5",
+    "share_upper": 0.8,
+    "nonpriority_rate_cap": 0.03
+   },
+   "weeks": [
+    {
+     "week": 1,
+     "phase": "accl",
+     "rate": 0,
+     "sets": {
+      "quads": 14.0,
+      "hamstrings": 14.25,
+      "glutes": 14.75,
+      "chest": 21.0,
+      "lats_upper_back": 16.0,
+      "biceps": 11.5,
+      "triceps": 11.75,
+      "side_delts": 12.75,
+      "rear_delts": 5.0,
+      "calves": 11.0,
+      "abs_obliques": 20.0
+     },
+     "resistance_sets": 116
+    },
+    {
+     "week": 2,
+     "phase": "accl",
+     "rate": 0.03,
+     "sets": {
+      "quads": 14.0,
+      "hamstrings": 14.25,
+      "glutes": 14.75,
+      "chest": 21.0,
+      "lats_upper_back": 16.0,
+      "biceps": 11.5,
+      "triceps": 11.75,
+      "side_delts": 12.75,
+      "rear_delts": 5.0,
+      "calves": 11.0,
+      "abs_obliques": 20.0
+     },
+     "resistance_sets": 116
+    },
+    {
+     "week": 3,
+     "phase": "accl",
+     "rate": 0.03,
+     "sets": {
+      "quads": 14.0,
+      "hamstrings": 14.25,
+      "glutes": 14.75,
+      "chest": 22.0,
+      "lats_upper_back": 16.0,
+      "biceps": 11.5,
+      "triceps": 12.0,
+      "side_delts": 12.75,
+      "rear_delts": 5.0,
+      "calves": 11.0,
+      "abs_obliques": 20.0
+     },
+     "resistance_sets": 117
+    },
+    {
+     "week": 4,
+     "phase": "drive",
+     "rate": 0.05,
+     "sets": {
+      "quads": 15.0,
+      "hamstrings": 15.5,
+      "glutes": 16.0,
+      "chest": 23.5,
+      "lats_upper_back": 17.0,
+      "biceps": 13.75,
+      "triceps": 12.75,
+      "side_delts": 13.75,
+      "rear_delts": 5.25,
+      "calves": 11.0,
+      "abs_obliques": 20.0
+     },
+     "resistance_sets": 126
+    },
+    {
+     "week": 5,
+     "phase": "drive",
+     "rate": 0.05,
+     "sets": {
+      "quads": 15.0,
+      "hamstrings": 15.5,
+      "glutes": 16.0,
+      "chest": 24.5,
+      "lats_upper_back": 17.0,
+      "biceps": 13.75,
+      "triceps": 12.75,
+      "side_delts": 13.75,
+      "rear_delts": 5.25,
+      "calves": 13.0,
+      "abs_obliques": 20.0
+     },
+     "resistance_sets": 129
+    },
+    {
+     "week": 6,
+     "phase": "drive",
+     "rate": 0.07,
+     "sets": {
+      "quads": 16.0,
+      "hamstrings": 17.75,
+      "glutes": 18.25,
+      "chest": 26.5,
+      "lats_upper_back": 18.0,
+      "biceps": 14.0,
+      "triceps": 13.25,
+      "side_delts": 13.75,
+      "rear_delts": 5.5,
+      "calves": 13.0,
+      "abs_obliques": 20.0
+     },
+     "resistance_sets": 136
+    },
+    {
+     "week": 7,
+     "phase": "drive",
+     "rate": 0.05,
+     "sets": {
+      "quads": 16.0,
+      "hamstrings": 17.75,
+      "glutes": 18.25,
+      "chest": 27.5,
+      "lats_upper_back": 19.0,
+      "biceps": 15.25,
+      "triceps": 14.5,
+      "side_delts": 14.75,
+      "rear_delts": 5.5,
+      "calves": 14.0,
+      "abs_obliques": 20.0
+     },
+     "resistance_sets": 142
+    },
+    {
+     "week": 8,
+     "phase": "drive",
+     "rate": 0.05,
+     "sets": {
+      "quads": 17.0,
+      "hamstrings": 19.25,
+      "glutes": 21.0,
+      "chest": 27.5,
+      "lats_upper_back": 19.0,
+      "biceps": 15.25,
+      "triceps": 14.5,
+      "side_delts": 14.75,
+      "rear_delts": 6.5,
+      "calves": 14.0,
+      "abs_obliques": 20.0
+     },
+     "resistance_sets": 147
+    },
+    {
+     "week": 9,
+     "phase": "drive",
+     "rate": 0.03,
+     "sets": {
+      "quads": 17.0,
+      "hamstrings": 19.5,
+      "glutes": 22.0,
+      "chest": 28.0,
+      "lats_upper_back": 20.0,
+      "biceps": 16.5,
+      "triceps": 15.0,
+      "side_delts": 16.75,
+      "rear_delts": 6.75,
+      "calves": 14.0,
+      "abs_obliques": 20.0
+     },
+     "resistance_sets": 153
+    },
+    {
+     "week": 10,
+     "phase": "final",
+     "rate": 0.05,
+     "sets": {
+      "quads": 18.0,
+      "hamstrings": 20.5,
+      "glutes": 22.75,
+      "chest": 28.0,
+      "lats_upper_back": 20.0,
+      "biceps": 16.5,
+      "triceps": 15.0,
+      "side_delts": 16.75,
+      "rear_delts": 6.75,
+      "calves": 15.0,
+      "abs_obliques": 20.0
+     },
+     "resistance_sets": 156
+    },
+    {
+     "week": 11,
+     "phase": "final",
+     "rate": 0.05,
+     "sets": {
+      "quads": 18.0,
+      "hamstrings": 20.5,
+      "glutes": 22.75,
+      "chest": 28.0,
+      "lats_upper_back": 20.0,
+      "biceps": 16.5,
+      "triceps": 15.0,
+      "side_delts": 17.75,
+      "rear_delts": 6.75,
+      "calves": 15.0,
+      "abs_obliques": 20.0
+     },
+     "resistance_sets": 157
+    },
+    {
+     "week": 12,
+     "phase": "final",
+     "rate": 0.05,
+     "sets": {
+      "quads": 19.0,
+      "hamstrings": 20.5,
+      "glutes": 23.0,
+      "chest": 28.0,
+      "lats_upper_back": 20.0,
+      "biceps": 16.5,
+      "triceps": 16.0,
+      "side_delts": 17.75,
+      "rear_delts": 6.75,
+      "calves": 15.0,
+      "abs_obliques": 20.0
+     },
+     "resistance_sets": 159
+    }
+   ],
+   "chest_trace_mon_fri_thu": {
+    "1": {
+     "Mon": "3/3/2/2",
+     "Fri": "3/3/2",
+     "Thu": "2/2"
+    },
+    "2": {
+     "Mon": "3/3/2/2",
+     "Fri": "3/3/2",
+     "Thu": "2/2"
+    },
+    "3": {
+     "Mon": "3/3/3/2",
+     "Fri": "3/3/2",
+     "Thu": "2/2"
+    },
+    "4": {
+     "Mon": "3/3/3/2",
+     "Fri": "4/3/3",
+     "Thu": "2/2"
+    },
+    "5": {
+     "Mon": "3/3/3/3",
+     "Fri": "4/3/3",
+     "Thu": "2/2"
+    },
+    "6": {
+     "Mon": "4/3/3/3",
+     "Fri": "4/4/3",
+     "Thu": "2/2"
+    },
+    "7": {
+     "Mon": "4/3/3/3",
+     "Fri": "5/4/3",
+     "Thu": "2/2"
+    },
+    "8": {
+     "Mon": "4/3/3/3",
+     "Fri": "5/4/3",
+     "Thu": "2/2"
+    },
+    "9": {
+     "Mon": "4/3/3/3",
+     "Fri": "5/4/4",
+     "Thu": "2/2"
+    },
+    "10": {
+     "Mon": "4/3/3/3",
+     "Fri": "5/4/4",
+     "Thu": "2/2"
+    },
+    "11": {
+     "Mon": "4/3/3/3",
+     "Fri": "5/4/4",
+     "Thu": "2/2"
+    },
+    "12": {
+     "Mon": "4/3/3/3",
+     "Fri": "5/4/4",
+     "Thu": "2/2"
+    }
+   },
+   "week1_days": [
+    "**Mon**: Dead bug 2 · Side plank 2 · Barbell bench press 3 · Incline DB press 3 · Machine chest press 2 · Cable fly 2 · Seated DB shoulder press 3 · DB side raise 4 · Cable pushdown 4 · Lean-away side raise (bonus) 2",
+    "**Tue**: Hanging knee raise 2 · Pallof press 2 · Back squat 3 · Walking DB lunge 10/10 (contralateral) 3 · Leg extension 3 · Seated leg curl 3 · Standing calf raise 4 · Focus: cable kickback 10/10 2",
+    "**Wed**: Dead bug 2 · Side plank 2 · Barbell row 3 · Lat pulldown 3 · Cable lat pull-over 2 · 1-arm DB row 10/10 2 · Reverse pec-deck 3 · EZ-bar curl 4 · Hammer curl 4",
+    "**Fri**: Hanging knee raise 2 · Pallof press 2 · Incline machine press 3 · Flat DB press 3 · Dips 2 · Chest-supported row 3 · Pull-up 3 · Cable side raise 4 · Overhead cable triceps extension 2",
+    "**Sat**: Dead bug 2 · Side plank 2 · Hip thrust 5 · DB Romanian deadlift 3 · Belt squat 3 · Alternating staggered-stance DB deadlift 10/10 3 · Bulgarian split squat 10/10 2 · Lying leg curl 3 · Standing calf raise 4",
+    "**Thu**: Focus 1: Low-to-high cable fly 2 · Focus 2: Push-up (deficit) 2 · Seated calf raise 3 · Focus: cable kickback 10/10 2 · Lean-away side raise (bonus) 2"
+   ],
+   "week12_days": [
+    "**Mon**: Dead bug 2 · Side plank 2 · Barbell bench press 4 · Incline DB press 3 · Machine chest press 3 · Cable fly 3 · Seated DB shoulder press 3 · DB side raise 4 · Cable pushdown 4 · Lean-away side raise (bonus) 4",
+    "**Tue**: Hanging knee raise 2 · Pallof press 2 · Back squat 5 · Walking DB lunge 10/10 (contralateral) 3 · Leg extension 3 · Seated leg curl 4 · Standing calf raise 4 · Focus: cable kickback 10/10 4 · Leg-press calf raise (bonus) 4 · Focus: 45-degree back extension 4",
+    "**Wed**: Dead bug 2 · Side plank 2 · Barbell row 3 · Lat pulldown 3 · Cable lat pull-over 2 · 1-arm DB row 10/10 3 · Reverse pec-deck 4 · EZ-bar curl 4 · Hammer curl 4 · Focus: cable kickback 10/10 3",
+    "**Fri**: Hanging knee raise 2 · Pallof press 2 · Incline machine press 5 · Flat DB press 4 · Dips 4 · Chest-supported row 5 · Pull-up 4 · Cable side raise 4 · Overhead cable triceps extension 4 · Cable curl (bonus) 4",
+    "**Sat**: Dead bug 2 · Side plank 2 · Hip thrust 5 · DB Romanian deadlift 4 · Belt squat 4 · Reverse hyper or 45-degree back extension (block-2 swap for Alternating staggered-stance DB deadlift 10/10) 2 · Hack squat (block-2 swap for Bulgarian split squat 10/10) 4 · Lying leg curl 3 · Standing calf raise 4 · Lean-away side raise (bonus) 3",
+    "**Thu**: Focus 1: Low-to-high cable fly 2 · Focus 2: Push-up (deficit) 2 · Seated calf raise 3 · Focus: cable kickback 10/10 2 · Lean-away side raise (bonus) 2"
+   ],
+   "findings": [
+    "chest 21 -> 28 by week 9, then intensifiers",
+    "block-2: 2 sets moved + 2 stance swaps (alternating staggered DL -> reverse hyper/45-degree back extension; Bulgarian split squat -> hack squat); share 0.89 -> 0.88",
+    "116 -> 159 sets (+37 %, max week +7.7 % in week 4)",
+    "Monday chest 13 fractional sets (priority cap 14, above the ~11 soft ceiling; flagged)",
+    "one glute Focus slot landed on the pull day (both leg days full, optional day at 5) - placement refinement flagged"
+   ]
+  },
+  "ex3_tennis_offseason_8wk": {
+   "inputs": {
+    "level": "L2",
+    "days": "4 x 90 min",
+    "base": "field athlete off-season (lower x0.7, upper x0.5)",
+    "start": {
+     "quads": 11,
+     "hamstrings": 11,
+     "glutes": 11,
+     "chest": 7,
+     "lats_upper_back": 9,
+     "biceps": 4,
+     "triceps": 4,
+     "side_delts": 3,
+     "rear_delts": 7,
+     "calves": 12,
+     "abs_obliques": 16
+    },
+    "caps": {
+     "quads": 13,
+     "hamstrings": 13,
+     "glutes": 13,
+     "chest": 8,
+     "lats_upper_back": 10,
+     "biceps": 5,
+     "triceps": 5,
+     "side_delts": 4,
+     "rear_delts": 8,
+     "calves": 14,
+     "abs_obliques": 18
+    },
+    "share_lower": 0.15,
+    "share_upper": 0.2,
+    "credit_only": [
+     "glutes",
+     "biceps",
+     "triceps",
+     "side_delts"
+    ]
+   },
+   "weeks": [
+    {
+     "week": 1,
+     "phase": "adapt",
+     "rate": 0,
+     "sets": {
+      "quads": 12.0,
+      "hamstrings": 10.75,
+      "glutes": 9.0,
+      "chest": 7.0,
+      "lats_upper_back": 10.0,
+      "biceps": 2.5,
+      "triceps": 2.25,
+      "side_delts": 0.5,
+      "rear_delts": 6.25,
+      "calves": 12.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 61
+    },
+    {
+     "week": 2,
+     "phase": "adapt",
+     "rate": 0.05,
+     "sets": {
+      "quads": 12.0,
+      "hamstrings": 10.75,
+      "glutes": 9.0,
+      "chest": 7.0,
+      "lats_upper_back": 10.0,
+      "biceps": 2.5,
+      "triceps": 2.25,
+      "side_delts": 0.5,
+      "rear_delts": 6.25,
+      "calves": 12.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 61
+    },
+    {
+     "week": 3,
+     "phase": "adapt",
+     "rate": 0.05,
+     "sets": {
+      "quads": 13.0,
+      "hamstrings": 11.75,
+      "glutes": 9.75,
+      "chest": 7.0,
+      "lats_upper_back": 10.0,
+      "biceps": 2.5,
+      "triceps": 2.25,
+      "side_delts": 0.5,
+      "rear_delts": 6.25,
+      "calves": 13.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 64
+    },
+    {
+     "week": 4,
+     "phase": "adapt",
+     "rate": 0.05,
+     "sets": {
+      "quads": 13.0,
+      "hamstrings": 11.75,
+      "glutes": 9.75,
+      "chest": 8.0,
+      "lats_upper_back": 10.0,
+      "biceps": 2.5,
+      "triceps": 2.5,
+      "side_delts": 0.5,
+      "rear_delts": 6.25,
+      "calves": 13.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 65
+    },
+    {
+     "week": 5,
+     "phase": "drive",
+     "rate": 0.05,
+     "sets": {
+      "quads": 13.0,
+      "hamstrings": 12.75,
+      "glutes": 9.75,
+      "chest": 8.0,
+      "lats_upper_back": 10.0,
+      "biceps": 2.5,
+      "triceps": 2.5,
+      "side_delts": 0.5,
+      "rear_delts": 7.25,
+      "calves": 14.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 68
+    },
+    {
+     "week": 6,
+     "phase": "drive",
+     "rate": 0.07,
+     "sets": {
+      "quads": 13.0,
+      "hamstrings": 12.75,
+      "glutes": 9.75,
+      "chest": 8.0,
+      "lats_upper_back": 10.0,
+      "biceps": 2.5,
+      "triceps": 2.5,
+      "side_delts": 0.5,
+      "rear_delts": 7.25,
+      "calves": 14.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 68
+    },
+    {
+     "week": 7,
+     "phase": "drive",
+     "rate": 0.03,
+     "sets": {
+      "quads": 13.0,
+      "hamstrings": 12.75,
+      "glutes": 9.75,
+      "chest": 8.0,
+      "lats_upper_back": 10.0,
+      "biceps": 2.5,
+      "triceps": 2.5,
+      "side_delts": 0.5,
+      "rear_delts": 7.25,
+      "calves": 14.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 68
+    },
+    {
+     "week": 8,
+     "phase": "drive",
+     "rate": 0.05,
+     "sets": {
+      "quads": 13.0,
+      "hamstrings": 12.75,
+      "glutes": 9.75,
+      "chest": 8.0,
+      "lats_upper_back": 10.0,
+      "biceps": 2.5,
+      "triceps": 2.5,
+      "side_delts": 0.5,
+      "rear_delts": 7.25,
+      "calves": 14.0,
+      "abs_obliques": 16.0
+     },
+     "resistance_sets": 68
+    }
+   ],
+   "week1_days": [
+    "**Mon**: Pallof press 10/10 2 · Copenhagen side plank 2 · Lateral bound (method stage per week) 3 · Medball rotational scoop toss 8 lb 3 · Hang power clean 3 · Hex-bar jump 2 · RFE split squat 8/8, contralateral DB 3 · 1-arm DB row 10/10 3 · Lateral lunge 8/8 2 · Half-kneeling 1-arm pulldown 10/10 2 · Single-leg calf raise 12/12 3",
+    "**Tue**: Dead bug 2 · Side plank 2 · Seated box jump 3 · Medball side toss 8 lb 3 · DB snatch 5/5 3 · Trap-bar RDL 2 · Alternating DB bench press 3 · Single-leg RDL 8/8, contralateral DB 4 · Half-kneeling landmine press 8/8 2 · Nordic curl (assisted) 2 · Reverse DB fly 3 · Single-leg calf raise 12/12 3",
+    "**Thu**: Pallof press 10/10 2 · Copenhagen side plank 2 · Skater hop (method stage per week) 3 · Medball shot-put throw 8 lb 3 · Hang clean pull 3 · Lateral step-up 8/8 3 · Pull-up 3 · Cossack squat 6/6 2 · 1-arm cable row 10/10 2 · Single-leg calf raise 12/12 3",
+    "**Fri**: Dead bug 2 · Side plank 2 · Broad jump (stick) 3 · Medball overhead slam 10 lb 3 · KB swing 2 · Goblet squat 2 · 1-arm DB bench 8/8 2 · Single-leg hip thrust 10/10 3 · Push-up 2 · Slider leg curl 2 · Face pull 2 · Single-leg calf raise 12/12 3"
+   ],
+   "week8_days": [
+    "**Mon**: Pallof press 10/10 2 · Copenhagen side plank 2 · Lateral bound (method stage per week) 3 · Medball rotational scoop toss 8 lb 3 · Hang power clean 3 · Hex-bar jump 2 · RFE split squat 8/8, contralateral DB 3 · 1-arm DB row 10/10 3 · Lateral lunge 8/8 3 · Half-kneeling 1-arm pulldown 10/10 2 · Single-leg calf raise 12/12 4",
+    "**Tue**: Dead bug 2 · Side plank 2 · Seated box jump 3 · Medball side toss 8 lb 3 · DB snatch 5/5 3 · Trap-bar RDL 2 · Alternating DB bench press 4 · Single-leg RDL 8/8, contralateral DB 5 · Half-kneeling landmine press 8/8 2 · Nordic curl (assisted) 2 · Reverse DB fly 4 · Single-leg calf raise 12/12 4",
+    "**Thu**: Pallof press 10/10 2 · Copenhagen side plank 2 · Skater hop (method stage per week) 3 · Medball shot-put throw 8 lb 3 · Hang clean pull 3 · Lateral step-up 8/8 3 · Pull-up 3 · Cossack squat 6/6 2 · 1-arm cable row 10/10 2 · Single-leg calf raise 12/12 3",
+    "**Fri**: Dead bug 2 · Side plank 2 · Broad jump (stick) 3 · Medball overhead slam 10 lb 3 · KB swing 2 · Goblet squat 2 · 1-arm DB bench 8/8 2 · Single-leg hip thrust 10/10 3 · Push-up 2 · Slider leg curl 3 · Face pull 2 · Single-leg calf raise 12/12 3"
+   ],
+   "athletic_budget": [
+    {
+     "week": 1,
+     "plyo_sets": 5,
+     "ballistic_sets": 11,
+     "plyo_share": 0.3,
+     "method": "receive & pause",
+     "plyo_contacts_week": 40,
+     "plyo_contacts_per_plyo_day": 20,
+     "throws_week": 168,
+     "oly_sets_week": 9
+    },
+    {
+     "week": 2,
+     "plyo_sets": 5,
+     "ballistic_sets": 11,
+     "plyo_share": 0.33,
+     "method": "receive & pause",
+     "plyo_contacts_week": 40,
+     "plyo_contacts_per_plyo_day": 20,
+     "throws_week": 168,
+     "oly_sets_week": 9
+    },
+    {
+     "week": 3,
+     "plyo_sets": 6,
+     "ballistic_sets": 11,
+     "plyo_share": 0.36,
+     "method": "receive then create",
+     "plyo_contacts_week": 60,
+     "plyo_contacts_per_plyo_day": 30,
+     "throws_week": 168,
+     "oly_sets_week": 9
+    },
+    {
+     "week": 4,
+     "plyo_sets": 7,
+     "ballistic_sets": 10,
+     "plyo_share": 0.4,
+     "method": "receive then create",
+     "plyo_contacts_week": 70,
+     "plyo_contacts_per_plyo_day": 35,
+     "throws_week": 168,
+     "oly_sets_week": 9
+    },
+    {
+     "week": 5,
+     "plyo_sets": 8,
+     "ballistic_sets": 10,
+     "plyo_share": 0.44,
+     "method": "receive then create",
+     "plyo_contacts_week": 80,
+     "plyo_contacts_per_plyo_day": 40,
+     "throws_week": 168,
+     "oly_sets_week": 9
+    },
+    {
+     "week": 6,
+     "plyo_sets": 9,
+     "ballistic_sets": 9,
+     "plyo_share": 0.48,
+     "method": "repeated receive/create",
+     "plyo_contacts_week": 126,
+     "plyo_contacts_per_plyo_day": 63,
+     "throws_week": 168,
+     "oly_sets_week": 9
+    },
+    {
+     "week": 7,
+     "plyo_sets": 10,
+     "ballistic_sets": 9,
+     "plyo_share": 0.52,
+     "method": "repeated receive/create",
+     "plyo_contacts_week": 140,
+     "plyo_contacts_per_plyo_day": 70,
+     "throws_week": 168,
+     "oly_sets_week": 9
+    },
+    {
+     "week": 8,
+     "plyo_sets": 10,
+     "ballistic_sets": 9,
+     "plyo_share": 0.55,
+     "method": "repeated receive/create",
+     "plyo_contacts_week": 140,
+     "plyo_contacts_per_plyo_day": 70,
+     "throws_week": 168,
+     "oly_sets_week": 9
+    }
+   ],
+   "findings": [
+    "lower bilateral share 0.24 -> 0.21 (about 80 % unilateral)",
+    "resistance caps reached weeks 5-6 (61 -> 68 sets); weeks 5-8 driven by athletic quality",
+    "plyo contacts 40 -> 140/week (20 -> 70 per plyo day), under NSCA L2 ceiling"
+   ]
+  },
+  "ex4_maintenance_4wk": {
+   "base_from": "ex2 average of weeks 9-12",
+   "base_sets_per_week": 156.2,
+   "base_per_muscle": {
+    "quads": 18.0,
+    "hamstrings": 20.25,
+    "glutes": 22.62,
+    "chest": 28.0,
+    "lats_upper_back": 20.0,
+    "biceps": 16.5,
+    "triceps": 15.25,
+    "side_delts": 17.25,
+    "rear_delts": 6.75,
+    "calves": 14.75,
+    "abs_obliques": 20.0
+   },
+   "factor_targets": {
+    "0.5": {
+     "quads": 9,
+     "hamstrings": 10,
+     "glutes": 11,
+     "chest": 14,
+     "lats_upper_back": 10,
+     "biceps": 8,
+     "triceps": 8,
+     "side_delts": 9,
+     "rear_delts": 3,
+     "calves": 7
+    },
+    "0.6": {
+     "quads": 11,
+     "hamstrings": 12,
+     "glutes": 14,
+     "chest": 17,
+     "lats_upper_back": 12,
+     "biceps": 10,
+     "triceps": 9,
+     "side_delts": 10,
+     "rear_delts": 4,
+     "calves": 9
+    },
+    "0.7": {
+     "quads": 13,
+     "hamstrings": 14,
+     "glutes": 16,
+     "chest": 20,
+     "lats_upper_back": 14,
+     "biceps": 12,
+     "triceps": 11,
+     "side_delts": 12,
+     "rear_delts": 5,
+     "calves": 10
+    }
+   },
+   "variants": {
+    "3 x 60 min": {
+     "targets": {
+      "quads": 11,
+      "hamstrings": 12,
+      "glutes": 14,
+      "chest": 17,
+      "lats_upper_back": 12,
+      "biceps": 10,
+      "triceps": 9,
+      "side_delts": 10,
+      "rear_delts": 4,
+      "calves": 9,
+      "abs_obliques": 9
+     },
+     "actual": {
+      "quads": 9.0,
+      "hamstrings": 8.25,
+      "glutes": 7.75,
+      "chest": 12.0,
+      "lats_upper_back": 9.0,
+      "biceps": 7.25,
+      "triceps": 6.25,
+      "side_delts": 6.0,
+      "rear_delts": 3.25,
+      "calves": 6.0,
+      "abs_obliques": 9.0
+     },
+     "sets": 65,
+     "days": [
+      "**Mon**: Dead bug 2 · Side plank 1 · Machine chest press 3 · Leg press 3 · Seated cable row 3 · DB Romanian deadlift 2 · DB side raise 3 · Cable pushdown 4 · Calf raise 4",
+      "**Wed**: Pallof press 2 · Bird dog 1 · Incline DB press 3 · DB split squat 10/10 2 · Lat pulldown 4 · Leg curl 3 · Cable fly 3 · DB curl 4 · Reverse DB fly 2",
+      "**Fri**: Dead bug 2 · Side plank 1 · Flat DB press 3 · Hip thrust 5 · Hack squat or Smith squat 2 · Chest-supported DB row 2 · Leg extension 2 · Leg curl 2 · Cable side raise 3 · Hammer curl 1 · Calf raise 2"
+     ],
+     "minutes": {
+      "Mon": 59.2,
+      "Wed": 58.5,
+      "Fri": 60.0
+     }
+    },
+    "4 x 60 min": {
+     "targets": {
+      "quads": 11,
+      "hamstrings": 12,
+      "glutes": 14,
+      "chest": 17,
+      "lats_upper_back": 12,
+      "biceps": 10,
+      "triceps": 9,
+      "side_delts": 10,
+      "rear_delts": 4,
+      "calves": 9,
+      "abs_obliques": 8
+     },
+     "actual": {
+      "quads": 12.0,
+      "hamstrings": 11.25,
+      "glutes": 10.5,
+      "chest": 16.0,
+      "lats_upper_back": 11.0,
+      "biceps": 9.75,
+      "triceps": 8.5,
+      "side_delts": 8.0,
+      "rear_delts": 3.5,
+      "calves": 8.0,
+      "abs_obliques": 8.0
+     },
+     "sets": 84,
+     "days": [
+      "**Mon**: Dead bug 2 · Leg press 3 · Machine chest press 4 · Seated cable row 3 · DB split squat 10/10 2 · Leg extension 2 · Cable pushdown 3 · Calf raise 4",
+      "**Tue**: Pallof press 2 · DB Romanian deadlift 3 · Incline DB press 4 · Lat pulldown 3 · Hip thrust 5 · Leg curl 2 · DB curl 4 · DB side raise 4",
+      "**Thu**: Dead bug 2 · Hack squat or Smith squat 3 · Flat DB press 3 · Chest-supported DB row 3 · Step-up 10/10 2 · Cable fly 2 · Reverse DB fly 2 · Calf raise 4",
+      "**Fri**: Pallof press 2 · 45-degree back extension 3 · Machine incline press 3 · Neutral-grip pulldown 2 · Leg curl 2 · Hammer curl 3 · Cable side raise 4 · Overhead triceps extension 2"
+     ],
+     "minutes": {
+      "Mon": 59.2,
+      "Tue": 52.9,
+      "Thu": 55.0,
+      "Fri": 50.2
+     }
+    }
+   },
+   "findings": [
+    "3 x 60 min holds 65 sets = 42 % of base (below the 50 % floor) -> engine must offer a 4th session / longer sessions / supersets",
+    "4 x 60 min holds 84 sets = 54 %"
+   ]
+  }
+ },
+ "research_vs_coach": [
+  {
+   "coach": "beginner 10-12 (VOL-01)",
+   "research": "top of Pelland high-efficiency tier; Schoenfeld 10+; floor of Baz-Valle 12-20",
+   "verdict": "matches"
+  },
+  {
+   "coach": "intermediate 15-20 = maintenance to some growth (VOL-01, UNI-01)",
+   "research": "Pelland intermediate tier; Baz-Valle standard; Aube best (18); true maintenance needs far less",
+   "verdict": "matches as productive baseline"
+  },
+  {
+   "coach": "growth 20-25, advanced 20+ (UNI-01, VOL-01)",
+   "research": "Pelland lower-efficiency tier (~11 more sets per detectable step); Baz-Valle >20 only triceps",
+   "verdict": "matches for trained people, time-limited"
+  },
+  {
+   "coach": "priority cap 25-30 (VOL-02)",
+   "research": "Pelland lower/lowest boundary; RP MRV*P chest 24-32+",
+   "verdict": "matches for 1-2 muscles"
+  },
+  {
+   "coach": "5 too little, 40 too much (UNI-01)",
+   "research": "5 = Pelland minimum dose; 40 = lowest efficiency / little data",
+   "verdict": "matches"
+  },
+  {
+   "coach": "10 %/week too much (UNI-05)",
+   "research": "no direct trial; Enes (+4-6 sets every 2 wk) more strain, no sure extra growth; Barsuhn +30/60 % no better; RP ~+1 set/wk; Gabbett >10-15 % spikes (contested)",
+   "verdict": "supported indirectly; 3-7 % conservative"
+  },
+  {
+   "coach": "maintenance 50-70 % (PER-01)",
+   "research": "Spiering 1 set/exercise/wk (young); Bickel 1/3-1/9 dose (young), more for older",
+   "verdict": "well above minimum; keep >= 70 % for older adults"
+  },
+  {
+   "coach": "deload about half (PER-05)",
+   "research": "Bell Delphi (cut sets and effort), survey every 5.6 wk for ~6 days",
+   "verdict": "matches"
+  },
+  {
+   "coach": "bilateral for force, unilateral for health/rotation (UNI-02)",
+   "research": "Liao 2022: unilateral -> single-leg jump (ES 0.89); bilateral -> bilateral strength (ES -0.43)",
+   "verdict": "matches"
+  },
+  {
+   "coach": "plyo vs ballistic by ground time (ATH-01)",
+   "research": "fast SSC < ~250 ms vs slow SSC > 250 ms",
+   "verdict": "matches"
+  }
+ ],
+ "pelland_efficiency_tiers_hypertrophy": [
+  {
+   "sets": "4",
+   "tier": "minimum effective dose"
+  },
+  {
+   "sets": "5-10",
+   "tier": "higher efficiency",
+   "extra_sets_per_detectable_gain": 6
+  },
+  {
+   "sets": "11-18",
+   "tier": "intermediate",
+   "extra_sets_per_detectable_gain": 8.5
+  },
+  {
+   "sets": "19-29",
+   "tier": "lower",
+   "extra_sets_per_detectable_gain": 10.75
+  },
+  {
+   "sets": "30-42",
+   "tier": "lowest",
+   "extra_sets_per_detectable_gain": 12.5
+  },
+  {
+   "sets": "43+",
+   "tier": "unclear"
+  }
+ ],
+ "science": [
+  {
+   "id": "schoenfeld2017",
+   "cite": "Schoenfeld, Ogborn, Krieger. J Sports Sci 2017 (online 2016)",
+   "url": "https://paulogentil.com/pdf/Dose-response%20relationship%20between%20weekly%20resistance%20training%20volume%20and%20increases%20in%20muscle%20mass%20-%20A%20systematic%20review%20and%20metaanalysis.pdf",
+   "key": "15 studies, 34 groups; +0.37 %/weekly set; 10+ > 5-9 > <5"
+  },
+  {
+   "id": "schoenfeld2019",
+   "cite": "Schoenfeld et al. MSSE 2019;51(1):94-103",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30153194/",
+   "key": "1/3/5 sets per exercise; growth highest at most volume; strength similar"
+  },
+  {
+   "id": "bazvalle2022",
+   "cite": "Baz-Valle et al. J Hum Kinet 2022;81:199-210",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8884877/",
+   "key": "12-20 weekly sets standard; >20 helped triceps only"
+  },
+  {
+   "id": "barbalho2020",
+   "cite": "Barbalho et al. IJSPP 2020",
+   "url": "https://pure.solent.ac.uk/en/publications/evidence-of-a-ceiling-effect-for-training-volume-in-muscle-hypert/",
+   "key": "5/10/15/20 sets, 24 wk; 5-10 >= 15-20"
+  },
+  {
+   "id": "aube2022",
+   "cite": "Aube et al. JSCR 2022",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32058362/",
+   "key": "12/18/24 lower-body sets, 8 wk; 18 best"
+  },
+  {
+   "id": "pelland2026",
+   "cite": "Pelland, Remmert, Robinson, Hinson, Zourdos. Sports Med 2026;56(2):481-505, doi 10.1007/s40279-025-02344-w",
+   "url": "https://sponet.de/sponet/Record/4097139?lng=en",
+   "preprint": "https://sportrxiv.org/index.php/server/preprint/view/460",
+   "key": "67 studies, 2,058 people; fractional 0.5 count best; +0.24 %/set at 12.25 sets; strength plateaus early; efficiency tiers"
+  },
+  {
+   "id": "remmert_preprint",
+   "cite": "Remmert, Pelland, Robinson et al. SportRxiv",
+   "url": "https://sportrxiv.org/index.php/server/preprint/view/537",
+   "key": "~11 fractional sets/muscle/session (growth), ~2 direct sets (strength)"
+  },
+  {
+   "id": "rp",
+   "cite": "Renaissance Periodization guides",
+   "urls": [
+    "https://rpstrength.com/training-volume-landmarks-muscle-growth/",
+    "https://rpstrength.com/chest-training-tips-hypertrophy/",
+    "https://rpstrength.com/quad-training-tips-hypertrophy/",
+    "https://rpstrength.com/expert-advice/rear-delt-size-training-tips",
+    "https://rpstrength.com/expert-advice/in-defense-of-set-increases-within-the-hypertrophy-mesocycle",
+    "https://arvo.guru/resources/methods/rp-training (secondary)",
+    "https://mrpotato.substack.com/p/build-big-shoulders (secondary, side delts)"
+   ],
+   "key": "MV/MEV/MAV/MRV per muscle; per-session 8-12; start at MEV, add sets by recovery; advanced 2-3 sets per muscle per session over a 4-wk block"
+  },
+  {
+   "id": "spiering2021",
+   "cite": "Spiering et al. JSCR 2021;35(5):1449-1458",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33629972/",
+   "key": "1 session/wk, 1 set/exercise maintains up to 32 wk (young); older ~2 sessions, 2-3 sets"
+  },
+  {
+   "id": "bickel2011",
+   "cite": "Bickel, Cross, Bamman. MSSE 2011",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21131862/",
+   "fulltext": "https://paulogentil.com/pdf/Exercise%20Dosing%20to%20Retain%20Resistance%20Training%20Adaptations%20in%20Young%20and%20Older%20Adults.pdf",
+   "key": "1/3 dose (1 d/wk x 3 sets) and 1/9 (1 d/wk x 1 set) for 32 wk; young kept/grew size; older did not keep myofiber size"
+  },
+  {
+   "id": "enes2023",
+   "cite": "Enes et al. MSSE 2023/2024 + J Hum Kinet companion",
+   "url": "https://www.fisiologiadelejercicio.com/efectos-de-diferentes-progresiones-en-el-aumento-de-series-semanales-en-entrenamiento-de-fuerza/",
+   "url2": "https://jhk.termedia.pl/Exploring-the-Dose-Response-Relationship-between-Resistance-Training-Volume-and-Psychophysiological,209051,0,2.html",
+   "key": "22 fixed vs +4 or +6 sets every 2 wk (to 42/52); strength 6S > 4S > fixed; growth n.s.; 6S least pleasant"
+  },
+  {
+   "id": "scarpelli2022",
+   "cite": "Scarpelli et al. JSCR 2022",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32108724/",
+   "key": "1.2 x previous volume > fixed 22 sets"
+  },
+  {
+   "id": "barsuhn2024",
+   "cite": "Barsuhn et al. J Appl Physiol 2024, doi 10.1152/japplphysiol.00476.2024",
+   "url": "https://openrepository.aut.ac.nz/items/87b4d27e-50d0-4dd4-b652-1cf456281ded/full",
+   "key": "+30 %/+60 % over previous volume not better than maintaining, 8 wk"
+  },
+  {
+   "id": "gabbett2016",
+   "cite": "Gabbett. BJSM 2016",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4789704",
+   "key": "weekly load spikes >10-15 % linked with injury (team sports)"
+  },
+  {
+   "id": "impellizzeri2021",
+   "cite": "Impellizzeri et al. Sports Med 2021",
+   "url": "https://iris.univr.it/retrieve/e34cfb98-e922-4c2f-aab5-18583ab7e31b/Impellizzeri_What%20Role%20Do%20Chronic%20Workloads%20Play_SportMed_2021.pdf",
+   "key": "ACWR criticised as statistical artefact"
+  },
+  {
+   "id": "nielsen2013",
+   "cite": "Nielsen et al. JSCR 2013",
+   "url": "https://research.rug.nl/en/publications/can-gps-be-used-to-detect-deleterious-progression-in-training-vol/",
+   "key": "injured runners ~32 % vs healthy ~22 % weekly increase (n.s.)"
+  },
+  {
+   "id": "helms2016",
+   "cite": "Helms et al. SCJ 2016",
+   "url": "https://openrepository.aut.ac.nz/items/92cefeac-7c32-44f1-bfbc-f48f4a5dd8cf/full",
+   "key": "RIR-based RPE"
+  },
+  {
+   "id": "zourdos2016",
+   "cite": "Zourdos et al. JSCR 2016",
+   "url": "https://openrepository.aut.ac.nz/items/efef3b25-6701-4fb5-bb82-55fcd2a26027/full",
+   "key": "RPE 8 = 2 RIR"
+  },
+  {
+   "id": "halperin2022",
+   "cite": "Halperin et al. 2022",
+   "url": "https://sportrxiv.org/index.php/server/preprint/view/67",
+   "key": "RIR underpredicted by ~0.95 reps; better near failure / <12 reps"
+  },
+  {
+   "id": "hickmott2022",
+   "cite": "Hickmott et al. Sports Med Open 2022",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8762534",
+   "key": "autoregulated load ~= percentage-based for 1RM"
+  },
+  {
+   "id": "bartholomew2008",
+   "cite": "Bartholomew et al. JSCR 2008",
+   "url": "https://pure.psu.edu/en/publications/strength-gains-after-resistance-training-the-effect-of-stressful-/",
+   "key": "high life stress -> smaller strength gains (n=135, 12 wk)"
+  },
+  {
+   "id": "stultskolehmainen2014",
+   "cite": "Stults-Kolehmainen et al. JSCR 2014",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24343323/",
+   "key": "chronic stress slows 96-h recovery"
+  },
+  {
+   "id": "knowles2018",
+   "cite": "Knowles et al. J Sci Med Sport 2018",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29422383/",
+   "key": "consecutive nights of sleep restriction reduce multi-joint force"
+  },
+  {
+   "id": "bell2023",
+   "cite": "Bell et al. Sports Med Open 2023 (Delphi)",
+   "url": "https://shura.shu.ac.uk/32417/",
+   "key": "cut sets (100 %) and proximity to failure (100 %); deload in last week (95 %) or first week of next block (75 %); planned or autoregulated"
+  },
+  {
+   "id": "rogerson2024",
+   "cite": "Rogerson, Bell et al. Sports Med Open 2024",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10948666/",
+   "key": "246 athletes; every 5.6 +/- 2.3 wk; 6.4 +/- 1.7 days; 79 % cut sets"
+  },
+  {
+   "id": "coleman2024",
+   "cite": "Coleman et al. PeerJ 2024",
+   "url": "https://peerj.com/articles/16777",
+   "key": "1 wk off mid-program: same growth, slightly less strength"
+  },
+  {
+   "id": "borde2015",
+   "cite": "Borde, Hortobagyi, Granacher. Sports Med 2015",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4656698/",
+   "key": "older adults: 2-3 sets, 7-9 reps, 70-79 % 1RM, 2x/wk; volume did not predict size change"
+  },
+  {
+   "id": "fragala2019",
+   "cite": "Fragala et al. NSCA position statement, JSCR 2019",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31343601/",
+   "summary": "https://www.unm.edu/~lkravitz/Article%20folder/NSCApositionstand.html",
+   "key": "2-3 sets per major muscle group, 2-3 d/wk, progress from single sets"
+  },
+  {
+   "id": "liao2022",
+   "cite": "Liao et al. Biol Sport 2022;39(3):485-497",
+   "url": "https://termedia.pl/Effects-of-unilateral-vs-bilateral-resistance-training-interventions-on-measures-of-strength-jump-linear-and-change-of-direction-speed-a-systematic-review-and-meta-analysis,78,44423,0,1.html",
+   "key": "unilateral -> unilateral jump ES 0.89; bilateral -> bilateral strength ES -0.43; sprint/COD n.s."
+  },
+  {
+   "id": "gentil2015",
+   "cite": "Gentil et al. Asian J Sports Med 2015",
+   "url": "https://brieflands.com/articles/asjsm-21609.html",
+   "key": "multi-joint vs single-joint equally effective for arm size in untrained"
+  },
+  {
+   "id": "kassiano2022",
+   "cite": "Kassiano et al. JSCR 2022",
+   "url": "https://lida.sport-iat.de/ta/Record/4077216?lng=en",
+   "key": "systematic variation helps; excessive random rotation may hurt"
+  },
+  {
+   "id": "nsca_plyo",
+   "cite": "NSCA CSCS ch. 18 summary",
+   "url": "https://www.ptpioneer.com/personal-training/certifications/nsca-cscs/cscs-chapter-18/",
+   "key": "80-100 / 100-120 / 120-140 contacts per session; 2-3 days between; masters 3-4"
+  },
+  {
+   "id": "ssc",
+   "cite": "Fast vs slow SSC classification",
+   "urls": [
+    "https://www.scienceforsport.com/stretch-shortening-cycle/",
+    "https://cdn.uksca.org.uk/assets/pdfs/UkscaIqPdfs/plyometric-technical-models-biomechanical-principles-636806567189424439.pdf",
+    "https://www.sponet.de/sponet/Record/4091532?lng=en"
+   ],
+   "key": "fast < ~250 ms, slow > 250 ms; continuum"
+  }
+ ],
+ "open_decisions": [
+  "small muscles at ~80 % of big-muscle starts (8/12/15) vs the same 10-12/15-20/20+",
+  "rear delts own sets 4/6/8",
+  "glute counting: hip thrust 1.0, hinges 0.5, squats/lunges 0.25",
+  "L3 = 3+ years and 4+ days/week now (or competitive physique/strength)",
+  "readiness score weights (40/20/20/20) and bands (85/70/55); 3-question weekly check-in",
+  "before logs: 5 % default, 3 % if stressed/older/returning/pain; 7 % only after logs; target-seeking (L3 -> 3 %)",
+  "12-wk acclimation <= 3 %; 8-wk first 4 weeks <= 5 %; 8-wk start +10 %",
+  "no fixed deload inside 12/8-wk plans; triggers + deload in week 1 of next cycle",
+  "next cycle start x 1.05, cap + 1 (max 25/30); same start after holds or maintenance",
+  "maintenance base = last 4 loading weeks; 0.5/0.6/0.7 by context; older >= 0.7",
+  "non-priority muscles <= 3 %/wk during a priority",
+  "share numbers for sprinters, strength-type athletes, baseball, combat, beginners, older; pain shift 20 points; contralateral ~70 % for COD athletes",
+  "plyo:ballistic share table and +25-point shift per block",
+  "per-session limits: 11 fractional (14 priority); 8 resistance exercises in 90-min/full-body days; min 2, max 4 (L1) / 5 sets per exercise",
+  "core block 2 x 2 every session counted to abs; progress by difficulty/time",
+  "two output modes (static vs adaptive) to settle GEN-03 vs GEN-05",
+  "yearly quarter themes (Q2 wording ambiguous)",
+  "name for the plyo method progression (suggest 'Receive-Create stages')",
+  "glutes for athletes = credit only unless priority/sport",
+  "time model numbers (2.5 min bilateral compound set, 1.5x unilateral, 0.65x supersets)",
+  "placement refinement: allow 6 slots on the optional day so Focus slots don't land on unrelated days"
+ ],
+ "verification": {
+  "coach_answers": "coach_answers_full.md read in full (140 questions; LIB-10, LIB-12 unanswered) + coach_answers.md",
+  "research": "fetched/searched 2026-10-08; Pelland preprint Table 2A/2B, Bickel full text and Bell Delphi full text extracted locally; secondary sources labelled",
+  "computation": "reference prototype run with .venv/bin/python; examples, traces, weeks-to-cap and cycle tables produced by the scripts",
+  "prototype_driven_rule_changes": [
+   "superset fallback (ORD-05) when 60-min beginner sessions are full",
+   "big-muscle Focus fallback (ORD-11)",
+   "exercise-count limit applies to bonus/Focus slots (VOL-08)",
+   "block-boundary stance swap to reach 80/20 (PER-02)",
+   "target-seeking planned rate (L3 -> 3 %)"
+  ]
+ }
+}

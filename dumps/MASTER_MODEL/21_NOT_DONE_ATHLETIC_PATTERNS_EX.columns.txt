@@ -1,0 +1,12 @@
+SHEET: '(NOT DONE) ATHLETIC PATTERNS EX' - COLUMN-MAJOR VIEW (each column top to bottom)
+
+=== COLUMN A (3 cells) ===
+  r1: 'UNDER CONSTRUCTION'  [bg=FFFF00 bold fg=theme1]
+  r8: 'THROWING'  [fg=theme1]
+  r10: 'Jumping'  [fg=theme1]
+
+=== COLUMN J (1 cells) ===
+  r5: 'TRIPPLE EXTENSIONS'  [fg=theme1]
+
+=== COLUMN N (1 cells) ===
+  r5: 'CHANGE OF DIRECTION'  [fg=theme1]

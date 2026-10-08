@@ -1,0 +1,246 @@
+SHEET: 'AEROBIC CAPACITY CHEAT SHEET'
+DIMENSIONS: A1:Z983  max_row=983 max_col=26
+NON-EMPTY CELLS: 239
+MERGED (0): 
+DATA VALIDATIONS (dropdown sources):
+
+CELLS (row-major; coord | value | formatting):
+A1 | 'AEROBIC CAPACITY WORK' | bg=00FFFF bold fg=theme1
+A3 | '*These are only recomendations & samples' | bg=00FFFF fg=theme1
+A4 | '**Follow Running Warmups' | bg=00FFFF fg=theme1
+A5 | '***Never do the same color workout in the same week. You should do one of each color (Blue, Green, Orange) every week with a total of 3 Aerobic capacity workouts per week' | bg=00FFFF fg=theme1
+A8 | 'BEGGINER WORKOUTS' | bg=93C47D bold fg=theme1
+D8 | ' INTERMEDIATE WORKOUTS' | bg=FFD966 bold fg=theme1
+G8 | ' ADVANCED WORKOUTS' | bg=E06666 bold fg=theme1
+A9 | 'Sets' | bg=F4CCCC bold fg=theme1
+B9 | 'Reps' | bg=F4CCCC bold fg=theme1
+C9 | 'INTENSITY/PACE' | bg=F4CCCC bold fg=theme1
+D9 | 'Sets' | bg=F4CCCC bold fg=theme1
+E9 | 'Reps' | bg=F4CCCC bold fg=theme1
+F9 | 'INTENSITY/PACE' | bg=F4CCCC bold fg=theme1
+G9 | 'Sets' | bg=F4CCCC bold fg=theme1
+H9 | 'Reps' | bg=F4CCCC bold fg=theme1
+I9 | 'INTENSITY/PACE' | bg=F4CCCC bold fg=theme1
+A10 | 10.0 | bg=A4C2F4 fg=theme1
+B10 | '10X10m Sprints' | bg=A4C2F4 fg=theme1
+C10 | 'MODERATE' | bg=A4C2F4 fg=theme1
+D10 | 10.0 | bg=A4C2F4 fg=theme1
+E10 | '10X10m Sprints' | bg=A4C2F4 fg=theme1
+F10 | 'MODERATE' | bg=A4C2F4 fg=theme1
+G10 | 10.0 | bg=A4C2F4 fg=theme1
+H10 | '10X10m Sprints' | bg=A4C2F4 fg=theme1
+I10 | 'SPRINT' | bg=A4C2F4 fg=theme1
+A11 | 10.0 | bg=A4C2F4 fg=theme1
+B11 | '15 Sec Run/ 45 Sec Walk' | bg=A4C2F4 fg=theme1
+C11 | 'EASY' | bg=A4C2F4 fg=theme1
+D11 | 10.0 | bg=A4C2F4 fg=theme1
+E11 | '30 Sec Run/ 30 Sec Walk' | bg=A4C2F4 fg=theme1
+F11 | 'MODERATE' | bg=A4C2F4 fg=theme1
+G11 | 10.0 | bg=A4C2F4 fg=theme1
+H11 | '15 Sec Run/ 45 Sec Walk' | bg=A4C2F4 fg=theme1
+I11 | 'FAST' | bg=A4C2F4 fg=theme1
+A12 | 10.0 | bg=A4C2F4 fg=theme1
+B12 | '20 Sec Run/ 40 Sec Walk' | bg=A4C2F4 fg=theme1
+C12 | 'EASY' | bg=A4C2F4 fg=theme1
+D12 | 10.0 | bg=A4C2F4 fg=theme1
+E12 | '40 Sec Run/ 20 Sec Walk' | bg=A4C2F4 fg=theme1
+F12 | 'MODERATE' | bg=A4C2F4 fg=theme1
+G12 | 10.0 | bg=A4C2F4 fg=theme1
+H12 | '20 Sec Run/ 40 Sec Walk' | bg=A4C2F4 fg=theme1
+I12 | 'FAST' | bg=A4C2F4 fg=theme1
+A13 | 5.0 | bg=B6D7A8 fg=theme1
+B13 | '1 Minute run/ 3 Min Walk' | bg=B6D7A8 fg=theme1
+C13 | 'FAST' | bg=B6D7A8 fg=theme1
+D13 | 7.0 | bg=B6D7A8 fg=theme1
+E13 | '1 Minute run/ 3 Min Walk' | bg=B6D7A8 fg=theme1
+F13 | 'MODERATE' | bg=B6D7A8 fg=theme1
+G13 | datetime.datetime(2022, 4, 6, 0, 0) | bg=B6D7A8 fg=theme1
+H13 | '1 Minute run/ 3 Min Walk' | bg=B6D7A8 fg=theme1
+I13 | 'FASTEST' | bg=B6D7A8 fg=theme1
+A14 | 5.0 | bg=B6D7A8 fg=theme1
+B14 | '2 Minute run/ 4 Min Walk' | bg=B6D7A8 fg=theme1
+C14 | 'FAST' | bg=B6D7A8 fg=theme1
+D14 | 7.0 | bg=B6D7A8 fg=theme1
+E14 | '2 Minute run/ 4 Min Walk' | bg=B6D7A8 fg=theme1
+F14 | 'FAST' | bg=B6D7A8 fg=theme1
+G14 | datetime.datetime(2022, 3, 5, 0, 0) | bg=B6D7A8 fg=theme1
+H14 | '2 Minute run/ 4 Min Walk' | bg=B6D7A8 fg=theme1
+I14 | 'FASTEST' | bg=B6D7A8 fg=theme1
+A15 | 5.0 | bg=B6D7A8 fg=theme1
+B15 | '3 Minute Run/ 3 Min Walk' | bg=B6D7A8 fg=theme1
+C15 | 'MODERATE' | bg=B6D7A8 fg=theme1
+D15 | 5.0 | bg=B6D7A8 fg=theme1
+E15 | '3 Minute Run/ 3 Min Walk' | bg=B6D7A8 fg=theme1
+F15 | 'FAST' | bg=B6D7A8 fg=theme1
+G15 | datetime.datetime(2022, 2, 4, 0, 0) | bg=B6D7A8 fg=theme1
+H15 | '3 Minute Run/ 3 Min Walk' | bg=B6D7A8 fg=theme1
+I15 | 'FASTEST' | bg=B6D7A8 fg=theme1
+A16 | 4.0 | bg=F9CB9C fg=theme1
+B16 | '5 Minute Run/ :30 Sec Walk' | bg=F9CB9C fg=theme1
+C16 | 'EASY' | bg=F9CB9C fg=theme1
+D16 | 6.0 | bg=F9CB9C fg=theme1
+E16 | '5 Minute Run/ :30 Sec Walk' | bg=F9CB9C fg=theme1
+F16 | 'MODERATE' | bg=F9CB9C fg=theme1
+G16 | 4.0 | bg=F9CB9C fg=theme1
+H16 | '5 Minute Run/ :30 Sec Walk' | bg=F9CB9C fg=theme1
+I16 | 'FASTEST' | bg=F9CB9C fg=theme1
+A17 | 3.0 | bg=F9CB9C fg=theme1
+B17 | '8 Minute Run/ 1 Minute Walk' | bg=F9CB9C fg=theme1
+C17 | 'EASY' | bg=F9CB9C fg=theme1
+D17 | 4.0 | bg=F9CB9C fg=theme1
+E17 | '8 Minute Run/ 1 Minute Walk' | bg=F9CB9C fg=theme1
+F17 | 'MODERATE' | bg=F9CB9C fg=theme1
+G17 | 3.0 | bg=F9CB9C fg=theme1
+H17 | '8 Minute Run/ 1 Minute Walk' | bg=F9CB9C fg=theme1
+I17 | 'FASTEST' | bg=F9CB9C fg=theme1
+A18 | 2.0 | bg=F9CB9C fg=theme1
+B18 | '11 Minute Run/ 2 Min Walk' | bg=F9CB9C fg=theme1
+C18 | 'EASY' | bg=F9CB9C fg=theme1
+D18 | 3.0 | bg=F9CB9C fg=theme1
+E18 | '11 Minute Run/ 2 Min Walk' | bg=F9CB9C fg=theme1
+F18 | 'MODERATE' | bg=F9CB9C fg=theme1
+G18 | 2.0 | bg=F9CB9C fg=theme1
+H18 | '11 Minute Run/ 2 Min Walk' | bg=F9CB9C fg=theme1
+I18 | 'FASTEST' | bg=F9CB9C fg=theme1
+A19 | 1.0 | bg=F9CB9C fg=theme1
+B19 | '1 Mile Run ' | bg=F9CB9C fg=theme1
+C19 | 'EASY' | bg=F9CB9C fg=theme1
+D19 | 1.0 | bg=F9CB9C fg=theme1
+E19 | '1 Mile Run' | bg=F9CB9C fg=theme1
+F19 | 'FAST' | bg=F9CB9C fg=theme1
+G19 | 1.0 | bg=F9CB9C fg=theme1
+H19 | '1 Mile Run' | bg=F9CB9C fg=theme1
+I19 | 'FASTEST' | bg=F9CB9C fg=theme1
+A20 | 1.0 | bg=F9CB9C fg=theme1
+B20 | '2 Mile Run' | bg=F9CB9C fg=theme1
+C20 | 'EASY' | bg=F9CB9C fg=theme1
+D20 | 1.0 | bg=F9CB9C fg=theme1
+E20 | '3 Mile Run' | bg=F9CB9C fg=theme1
+F20 | 'MODERATE' | bg=F9CB9C fg=theme1
+G20 | 1.0 | bg=F9CB9C fg=theme1
+H20 | '3 Mile Run' | bg=F9CB9C fg=theme1
+I20 | 'FASTEST' | bg=F9CB9C fg=theme1
+A21 | 1.0 | bg=F9CB9C fg=theme1
+B21 | '3 Mile Run' | bg=F9CB9C fg=theme1
+C21 | 'EASY' | bg=F9CB9C fg=theme1
+D21 | 1.0 | bg=F9CB9C fg=theme1
+E21 | '5 Mile Run' | bg=F9CB9C fg=theme1
+F21 | 'EASY' | bg=F9CB9C fg=theme1
+G21 | 1.0 | bg=F9CB9C fg=theme1
+H21 | '5+ Mile Run' | bg=F9CB9C fg=theme1
+I21 | 'FASTEST' | bg=F9CB9C fg=theme1
+B23 | 'CHEAT SHEET' | bg=D5A6BD bold fg=theme1
+E23 | 'RUNNING WARMUP' | bg=D5A6BD bold fg=theme1
+G23 | '  LACTATE CLEARANCE ' | bg=D5A6BD bold fg=theme1
+A24 | 'A' | bg=A4C2F4 bold fg=theme1
+B24 | 'B' | bg=B6D7A8 bold fg=theme1
+C24 | 'C' | bg=F9CB9C bold fg=theme1
+A25 | 'Short Duration ' | bg=A4C2F4 bold fg=theme1
+B25 | 'Moderate Duration' | bg=B6D7A8 bold fg=theme1
+C25 | 'Long Duration' | bg=F9CB9C bold fg=theme1
+D25 | 'SETS' | bg=B7B7B7 bold fg=theme1
+E25 | 'REPS' | bg=B7B7B7 bold fg=theme1
+F25 | 'EXERCISE' | bg=B7B7B7 bold fg=theme1
+G25 | 'SETS' | bg=B7B7B7 bold fg=theme1
+H25 | 'REPS' | bg=B7B7B7 bold fg=theme1
+I25 | 'EXERCISE' | bg=B7B7B7 bold fg=theme1
+A26 | 'High Intensity' | bg=A4C2F4 bold fg=theme1
+B26 | 'Moderate Intensity' | bg=B6D7A8 bold fg=theme1
+C26 | 'Low intensity' | bg=F9CB9C bold fg=theme1
+D26 | 2.0 | bg=EFEFEF fg=theme1
+E26 | '10 yards' | bg=EFEFEF fg=theme1
+F26 | 'A March' | bg=EFEFEF fg=theme1
+G26 | 1.0 | bg=EFEFEF fg=theme1
+H26 | '4 (NO REST)' | bg=EFEFEF fg=theme1
+I26 | '1 min MODERATE/20 Sec FASTEST/ 2 Min EASY' | bg=EFEFEF fg=theme1
+D27 | 2.0 | bg=EFEFEF fg=theme1
+E27 | '10 yards' | bg=EFEFEF fg=theme1
+F27 | 'A Skip' | bg=EFEFEF fg=theme1
+G27 | 1.0 | bg=EFEFEF fg=theme1
+H27 | '4 (NO REST)' | bg=EFEFEF fg=theme1
+I27 | '2 min MODERATE/ 30 Sec FASTEST/ 1 Min EASY' | bg=EFEFEF fg=theme1
+A28 | 'Seconds ' | bg=A4C2F4 fg=theme1
+B28 | '1 Minute' | bg=B6D7A8 fg=theme1
+C28 | '4+ Minutes' | bg=F9CB9C fg=theme1
+D28 | 2.0 | bg=EFEFEF fg=theme1
+E28 | '10 yards' | bg=EFEFEF fg=theme1
+F28 | 'A Runs' | bg=EFEFEF fg=theme1
+G28 | 1.0 | bg=EFEFEF fg=theme1
+H28 | '4 (NO REST)' | bg=EFEFEF fg=theme1
+I28 | '1 min FASTEST/ 20 Sec MODERATE/ 2 Min EASY' | bg=EFEFEF fg=theme1
+A29 | '15/45 Work:Rest' | bg=A4C2F4 fg=theme1
+B29 | '2 Minutes' | bg=B6D7A8 fg=theme1
+D29 | 2.0 | bg=EFEFEF fg=theme1
+E29 | '10 yards' | bg=EFEFEF fg=theme1
+F29 | 'Bilateral forward hops' | bg=EFEFEF fg=theme1
+G29 | 1.0 | bg=EFEFEF fg=theme1
+H29 | '4 (NO REST)' | bg=EFEFEF fg=theme1
+I29 | '2 min FASTEST/ 30 Sec MODERATE/ 1 Min EASY' | bg=EFEFEF fg=theme1
+A30 | '20/40 Work:Rest' | bg=A4C2F4 fg=theme1
+B30 | '3 Minutes' | bg=B6D7A8 fg=theme1
+D30 | 2.0 | bg=EFEFEF fg=theme1
+E30 | '10 yards' | bg=EFEFEF fg=theme1
+F30 | 'Bilateral backward hops' | bg=EFEFEF fg=theme1
+G30 | '2 - Rest 1 min btwn SETS' | bg=EFEFEF fg=theme1
+H30 | '2 (NO REST)' | bg=EFEFEF fg=theme1
+I30 | ':30 sec MODERATE/20 Sec FASTEST/ 1 Min EASY' | bg=EFEFEF fg=theme1
+A31 | '30/30 Work:Rest' | bg=A4C2F4 fg=theme1
+D31 | 2.0 | bg=EFEFEF fg=theme1
+E31 | datetime.datetime(2022, 10, 10, 0, 0) | bg=EFEFEF fg=theme1
+F31 | 'Single leg in place hops' | bg=EFEFEF fg=theme1
+G31 | '2 - Rest 1 min btwn SETS' | bg=EFEFEF fg=theme1
+H31 | '2 (NO REST)' | bg=EFEFEF fg=theme1
+I31 | ':30 sec MODERATE/ 1 Min FASTEST/ 1 Min EASY' | bg=EFEFEF fg=theme1
+A32 | '40/20 Work:Rest' | bg=A4C2F4 fg=theme1
+D32 | 5.0 | bg=EFEFEF fg=theme1
+E32 | '10 yards' | bg=EFEFEF fg=theme1
+F32 | 'Falling start accelerations' | bg=EFEFEF fg=theme1
+G32 | '2 - Rest 1 min btwn SETS' | bg=EFEFEF fg=theme1
+H32 | '2 (NO REST)' | bg=EFEFEF fg=theme1
+I32 | ':30 sec FASTEST/ 20 Sec MODERATE/ 1 Min EASY' | bg=EFEFEF fg=theme1
+A33 | '45/15 Work:Rest' | bg=A4C2F4 fg=theme1
+G33 | '2 - Rest 1 min btwn SETS' | bg=EFEFEF fg=theme1
+H33 | '2 (NO REST)' | bg=EFEFEF fg=theme1
+I33 | ':30 sec FASTEST/ 30 Sec MODERATE/ 1 Min EASY' | bg=EFEFEF fg=theme1
+G34 | '3 - Rest 2 min btwn SETS' | bg=EFEFEF fg=theme1
+H34 | '2 (NO REST)' | bg=EFEFEF fg=theme1
+I34 | '2 Min FAST/ 2 Min EASY' | bg=EFEFEF fg=theme1
+A35 | 'Rest periods' | bg=A4C2F4 fg=theme1
+B35 | 'Rest periods' | bg=B6D7A8 fg=theme1
+C35 | 'Rest Periods' | bg=F9CB9C fg=theme1
+G35 | '3 - Rest 2 min btwn SETS' | bg=EFEFEF fg=theme1
+H35 | '2 (NO REST)' | bg=EFEFEF fg=theme1
+I35 | '3 Min FAST/ 1 Min EASY' | bg=EFEFEF fg=theme1
+A36 | '3 Minutes' | bg=A4C2F4 fg=theme1
+B36 | '1:1 Work:Rest' | bg=B6D7A8 fg=theme1
+C36 | 'Active' | bg=F9CB9C fg=theme1
+E36 | 'Add your own as needed...' | bg=EFEFEF fg=theme1
+G36 | '3 - Rest 2 min btwn SETS' | bg=EFEFEF fg=theme1
+H36 | '2 (NO REST)' | bg=EFEFEF fg=theme1
+I36 | '4 Min FAST/ 2 Min EASY' | bg=EFEFEF fg=theme1
+A37 | '4 MInutes' | bg=A4C2F4 fg=theme1
+B37 | '1:2 Work:Rest' | bg=B6D7A8 fg=theme1
+C37 | ':30 sec' | bg=F9CB9C fg=theme1
+G37 | '3 - Rest 2 min btwn SETS' | bg=EFEFEF fg=theme1
+H37 | '2 (NO REST)' | bg=EFEFEF fg=theme1
+I37 | '5 Min FAST/ 1 Min EASY' | bg=EFEFEF fg=theme1
+A38 | '5 MInutes' | bg=A4C2F4 fg=theme1
+B38 | '1:3 Work:Rest' | bg=B6D7A8 fg=theme1
+C38 | '1 Minute' | bg=F9CB9C fg=theme1
+G38 | '4 - Rest 3 min btwn SETS' | bg=EFEFEF fg=theme1
+H38 | 1.0 | bg=EFEFEF fg=theme1
+I38 | '2 Min FASTEST/ 4 Min MODERATE' | bg=EFEFEF fg=theme1
+A39 | '6 Minutes' | bg=A4C2F4 fg=theme1
+C39 | '2 Minutes' | bg=F9CB9C fg=theme1
+G39 | '4 - Rest 3 min btwn SETS' | bg=EFEFEF fg=theme1
+H39 | 1.0 | bg=EFEFEF fg=theme1
+I39 | '3 Min FASTEST/ 3 Min MODERATE' | bg=EFEFEF fg=theme1
+A40 | '7 Minutes' | bg=A4C2F4 fg=theme1
+C40 | '3 Minutes' | bg=F9CB9C fg=theme1
+G40 | '4 - Rest 3 min btwn SETS' | bg=EFEFEF fg=theme1
+H40 | 1.0 | bg=EFEFEF fg=theme1
+I40 | '2 Min FASTEST/ 3 Min MODERATE' | bg=EFEFEF fg=theme1
+A41 | '8 Minutes' | bg=A4C2F4 fg=theme1
+G41 | '4 - Rest 3 min btwn SETS' | bg=EFEFEF fg=theme1
+H41 | 1.0 | bg=EFEFEF fg=theme1
+I41 | '5 Min FASTEST' | bg=EFEFEF fg=theme1

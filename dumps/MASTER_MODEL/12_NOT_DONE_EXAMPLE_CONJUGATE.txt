@@ -1,0 +1,215 @@
+SHEET: '(NOT DONE) EXAMPLE CONJUGATE'
+DIMENSIONS: A1:Z998  max_row=998 max_col=26
+NON-EMPTY CELLS: 208
+MERGED (0): 
+DATA VALIDATIONS (dropdown sources):
+
+CELLS (row-major; coord | value | formatting):
+A1 | 'UNDER CONSTRUCTION' | bg=FFFF00 bold fg=theme1
+A2 | 'CONJUGATE SPLIT' | bg=00FFFF bold fg=theme1
+F2 | '8 WEEK CYCLE' | bg=00FFFF bold fg=FF0000
+J3 | 'TEST' | bg=00FFFF fg=theme1
+A4 | 'Basic Instruction:' | bg=00FFFF bold fg=theme1
+A5 | '*Always leave 1 rep in the tank, never work up to failure but get as close as you can ' | bg=00FFFF fg=theme1
+A6 | '*****If you have any questions just ask me - IG @BLAZECAMP or TWITTER @BLAZECAMP_' | bg=00FFFF fg=theme1
+E9 | 5.0 | bg=EAD1DC fg=theme1
+F9 | 4.0 | bg=EAD1DC fg=theme1
+G9 | 3.0 | bg=EAD1DC fg=theme1
+H9 | 2.0 | bg=EAD1DC fg=theme1
+I9 | 1.0 | bg=EAD1DC fg=theme1
+J9 | 3.0 | bg=EAD1DC fg=theme1
+K9 | 2.0 | bg=EAD1DC fg=theme1
+L9 | 1.0 | bg=EAD1DC fg=theme1
+E10 | 3.0 | bg=CFE2F3 fg=theme1
+F10 | 3.0 | bg=CFE2F3 fg=theme1
+G10 | 2.0 | bg=CFE2F3 fg=theme1
+H10 | 1.0 | bg=CFE2F3 fg=theme1
+I10 | 3.0 | bg=CFE2F3 fg=theme1
+J10 | 2.0 | bg=CFE2F3 fg=theme1
+K10 | 1.0 | bg=CFE2F3 fg=theme1
+L10 | 1.0 | bg=CFE2F3 fg=theme1
+B12 | 'Sets' | fg=theme1
+C12 | 'Reps' | bg=EAD1DC fg=theme1
+D12 | 'LOAD' | fg=theme1
+E12 | 'WK1' | fg=theme1
+F12 | 'WK2' | fg=theme1
+G12 | 'WK3' | fg=theme1
+H12 | 'WK4' | fg=theme1
+I12 | 'WK5' | fg=theme1
+J12 | 'WK6' | fg=theme1
+K12 | 'WK7' | fg=theme1
+L12 | 'WK8' | fg=theme1
+A13 | 'MONDAY' | fg=theme1
+B13 | 5.0 | fg=theme1
+C13 | 'SEE' | bg=EAD1DC fg=theme1
+D13 | '1RIR' | fg=theme1
+E13 | 'HEAVY FRONT SQUAT (D)BOX SQUAT ' | bg=FCE5CD fg=theme1
+F13 | 'HEAVY DEFICIT DEADLIFT' | fg=theme1
+G13 | 'HEAVY (D)BOX HIGH BAR SQUAT' | fg=theme1
+H13 | 'HEAVY CHAINED DEADLIFT' | fg=theme1
+I13 | 'HEAVY FRONT SQUAT ' | fg=theme1
+J13 | 'HEAVY DEADLIFT' | fg=theme1
+K13 | 'HEAVY HIGH BAR SQUAT' | fg=theme1
+L13 | 'TEST' | fg=theme1
+M13 | 'the work' | bg=CC4125 fg=theme1
+B14 | 4.0 | fg=theme1
+C14 | 6.0 | fg=theme1
+D14 | '2RIR' | fg=theme1
+E14 | 'SNATCH GRIP DL' | bg=FCE5CD fg=theme1
+F14 | 'F. SQUAT (T&G)BOX' | fg=theme1
+G14 | 'SNATCH GRIP DL' | fg=theme1
+H14 | '(T&G)BOX HIGH BAR SQUAT' | fg=theme1
+I14 | 'SNATCH GRIP DL' | fg=theme1
+J14 | 'HIGH BAR SQUAT' | fg=theme1
+K14 | 'DEADLIFT' | fg=theme1
+M14 | 'the accessory' | bg=CC0000 fg=theme1
+B15 | 4.0 | fg=theme1
+C15 | 8.0 | fg=theme1
+D15 | 'MAX' | fg=theme1
+E15 | 'PULL UPS' | bg=FCE5CD fg=theme1
+F15 | 'DB ROWS 8/8' | fg=theme1
+G15 | 'PULL UPS' | fg=theme1
+H15 | 'DB ROWS 8/8' | fg=theme1
+I15 | 'PULL UPS' | fg=theme1
+J15 | 'DB ROWS 8/8' | fg=theme1
+K15 | 'PULL UPS' | fg=theme1
+M15 | 'the nuance' | bg=E69138 fg=theme1
+B16 | 2.0 | fg=theme1
+C16 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+D16 | 'ALL' | fg=theme1
+E16 | 'RFE LUNGES' | bg=FCE5CD fg=theme1
+F16 | 'STAGGERED STANCE DL' | fg=theme1
+G16 | 'FFE LUNGES' | fg=theme1
+H16 | 'STAGGERED STANCE DL' | fg=theme1
+I16 | 'REVERSE LUNGES' | fg=theme1
+J16 | 'STAGGERED STANCE DL' | fg=theme1
+K16 | 'FFE & RFE SPLIT SQTS.' | fg=theme1
+M16 | 'the survival' | bg=F1C232 fg=theme1
+A17 | 'WEDNESDAY' | fg=theme1
+B17 | 5.0 | fg=theme1
+C17 | 'SEE' | bg=EAD1DC fg=theme1
+D17 | '1RIR' | fg=theme1
+E17 | 'HEAVY BENCH PRESS' | bg=FCE5CD fg=theme1
+F17 | 'HEAVY OH PRESS' | fg=theme1
+G17 | 'HEAVY BENCH PRESS' | fg=theme1
+H17 | 'HEAVY OH PRESS' | fg=theme1
+I17 | 'HEAVY BENCH PRESS' | fg=theme1
+J17 | 'HEAVY OH PRESS' | fg=theme1
+K17 | 'HEAVY BENCH PRESS' | fg=theme1
+L17 | 'TEST' | fg=theme1
+M17 | 'the work' | bg=CC4125 fg=theme1
+B18 | 4.0 | fg=theme1
+C18 | 6.0 | fg=theme1
+D18 | '2RIR' | fg=theme1
+E18 | 'BENT OVER ROW' | bg=FCE5CD fg=theme1
+F18 | 'CLOSE GRIP PULL UPS' | fg=theme1
+G18 | 'SEAL ROWS' | fg=theme1
+H18 | 'BENT OVER ROWS' | fg=theme1
+I18 | 'PRONATED PULL UPS' | fg=theme1
+J18 | 'SEAL ROWS' | fg=theme1
+K18 | 'PRONATED PULL UPS' | fg=theme1
+M18 | 'the accessory' | bg=CC0000 fg=theme1
+B19 | 4.0 | fg=theme1
+C19 | 10.0 | fg=theme1
+D19 | 'MAX' | fg=theme1
+E19 | 'ALT INCLINE DB BENCH' | bg=FCE5CD fg=theme1
+F19 | 'ALT INCLINE DB BENCH' | fg=theme1
+G19 | 'ALT INCLINE DB BENCH' | fg=theme1
+H19 | 'ALT INCLINE DB BENCH' | fg=theme1
+I19 | 'ALT INCLINE DB BENCH' | fg=theme1
+J19 | 'ALT INCLINE DB BENCH' | fg=theme1
+K19 | 'ALT INCLINE DB BENCH' | fg=theme1
+M19 | 'the nuance' | bg=E69138 fg=theme1
+B20 | 3.0 | fg=theme1
+C20 | datetime.datetime(2022, 8, 8, 0, 0) | fg=theme1
+D20 | 'ALL' | fg=theme1
+E20 | 'BICEP CURLS' | bg=FCE5CD fg=theme1
+F20 | 'BICEP CURLS' | fg=theme1
+G20 | 'BICEP CURLS' | fg=theme1
+H20 | 'BICEP CURLS' | fg=theme1
+I20 | 'BICEP CURLS' | fg=theme1
+J20 | 'BICEP CURLS' | fg=theme1
+K20 | 'BICEP CURLS' | fg=theme1
+M20 | 'the survival' | bg=F1C232 fg=theme1
+A21 | 'THURSDAY' | fg=theme1
+B21 | 3.0 | fg=theme1
+C21 | 6.0 | fg=theme1
+D21 | 'EASY' | fg=theme1
+E21 | 'WEIGHTED DEPTH DROP' | bg=FCE5CD fg=theme1
+F21 | 'DEPTH DROP & JUMP' | fg=theme1
+G21 | 'HIGH SQUAT JUMPS' | fg=theme1
+H21 | 'REPEAT HIGH JUMPS' | fg=theme1
+I21 | 'WEIGHTED DEPTH DROP' | fg=theme1
+J21 | 'DEPTH DROP & JUMP' | fg=theme1
+K21 | 'REPEAT HIGH JUMPS' | fg=theme1
+L21 | 'DELOAD' | fg=theme1
+M21 | 'the work' | bg=CC4125 fg=theme1
+B22 | 5.0 | fg=theme1
+C22 | 'SEE' | bg=CFE2F3 fg=theme1
+D22 | '1RIR' | fg=theme1
+E22 | 'FAST FRONT SQUATS (D) BOX' | bg=FCE5CD fg=theme1
+F22 | 'FAST BANDED DL ' | fg=theme1
+G22 | 'FAST HIGH BAR (D)BOX' | fg=theme1
+H22 | 'FAST CHAINED DL' | fg=theme1
+I22 | 'FAST FRONT SQUAT' | fg=theme1
+J22 | 'FAST DEADLIFT' | fg=theme1
+K22 | 'FAST HIGH BAR SQUAT' | fg=theme1
+M22 | 'the accessory' | bg=CC0000 fg=theme1
+B23 | 4.0 | fg=theme1
+C23 | 6.0 | fg=theme1
+D23 | '2RIR' | fg=theme1
+E23 | 'PULL UPS' | bg=FCE5CD fg=theme1
+F23 | 'DB ROWS 8/8' | fg=theme1
+G23 | 'PULL UPS' | fg=theme1
+H23 | 'DB ROWS 8/8' | fg=theme1
+I23 | 'PULL UPS' | fg=theme1
+J23 | 'DB ROWS 8/8' | fg=theme1
+K23 | 'PULL UPS' | fg=theme1
+M23 | 'the nuance' | bg=E69138 fg=theme1
+B24 | 4.0 | fg=theme1
+C24 | 10.0 | fg=theme1
+D24 | 'MAX' | fg=theme1
+E24 | 'RFE LUNGES' | bg=FCE5CD fg=theme1
+F24 | 'STAGGERED STANCE DL' | fg=theme1
+G24 | 'FFE LUNGES' | fg=theme1
+H24 | 'STAGGERED STANCE DL' | fg=theme1
+I24 | 'REVERSE LUNGES' | fg=theme1
+J24 | 'STAGGERED STANCE DL' | fg=theme1
+K24 | 'FFE & RFE SPLIT SQTS.' | fg=theme1
+M24 | 'the survival' | bg=F1C232 fg=theme1
+A25 | 'SATURDAY' | fg=theme1
+B25 | 5.0 | fg=theme1
+C25 | 'SEE' | bg=CFE2F3 fg=theme1
+D25 | '1RIR' | fg=theme1
+E25 | 'FAST BANDED BENCH PRESS' | bg=FCE5CD fg=theme1
+F25 | 'FAST DB OH PRESS' | fg=theme1
+G25 | 'FAST BANDED BENCH PRESS' | fg=theme1
+H25 | 'FAST BB OH PRESS' | fg=theme1
+I25 | 'FAST BANDED BENCH PRESS' | fg=theme1
+J25 | 'FAST DB OH PRESS' | fg=theme1
+K25 | 'FAST BENCH PRESS' | fg=theme1
+L25 | 'DELOAD' | fg=theme1
+M25 | 'the work' | bg=CC4125 fg=theme1
+B26 | 4.0 | fg=theme1
+C26 | 6.0 | fg=theme1
+D26 | '2RIR' | fg=theme1
+E26 | 'BENT OVER ROW' | bg=FCE5CD fg=theme1
+F26 | 'CLOSE GRIP PULL UPS' | fg=theme1
+G26 | 'SEAL ROWS' | fg=theme1
+H26 | 'BENT OVER ROWS' | fg=theme1
+I26 | 'PRONATED PULL UPS' | fg=theme1
+J26 | 'SEAL ROWS' | fg=theme1
+K26 | 'PRONATED PULL UPS' | fg=theme1
+M26 | 'the accessory' | bg=CC0000 fg=theme1
+B27 | 4.0 | fg=theme1
+C27 | 10.0 | fg=theme1
+D27 | 'MAX' | fg=theme1
+E27 | 'ALT INCLINE DB BENCH' | bg=FCE5CD fg=theme1
+F27 | 'ALT INCLINE DB BENCH' | fg=theme1
+G27 | 'ALT INCLINE DB BENCH' | fg=theme1
+H27 | 'ALT INCLINE DB BENCH' | fg=theme1
+I27 | 'ALT INCLINE DB BENCH' | fg=theme1
+J27 | 'ALT INCLINE DB BENCH' | fg=theme1
+K27 | 'ALT INCLINE DB BENCH' | fg=theme1
+M27 | 'the nuance' | bg=E69138 fg=theme1
+M28 | 'the survival' | bg=F1C232 fg=theme1

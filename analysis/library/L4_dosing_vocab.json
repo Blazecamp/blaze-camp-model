@@ -1,0 +1,465 @@
+{
+ "source": "BYOP (BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL) / 'MASTER EXERCISE LIBRARY' columns AV-AY (rows 1-17)",
+ "how_it_is_used": "OBSERVED: every program tab's SETS / REPS (and, in the tracking tabs, EFFORT / 'HOW IT FELT?') column is a list data-validation pointing at these columns, always starting at row 7 so the green 'CHOOSE 👇' cell (row 7) is itself a legal value and serves as the unfilled placeholder. Ranges run to row 42, far past the last option (harmless: Google Sheets ignores blank cells in list ranges).",
+ "placeholder": {
+  "value": "CHOOSE 👇",
+  "cell_bg": "93C47D",
+  "rows": "AV7/AW7/AX7/AY7",
+  "note": "The two hidden 'NO ACCESS' tabs pre-fill cells with the typo 'CHOSE 👇', which is NOT in any list -> every one of those 422 cells shows Google Sheets' invalid-value warning."
+ },
+ "sets": {
+  "library_column": "AV",
+  "header_rows": {
+   "row1": "SETS",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "SETS",
+   "row7": "CHOOSE 👇"
+  },
+  "wired_range": "'MASTER EXERCISE LIBRARY'!$AV$7:$AV$42",
+  "options": [
+   {
+    "cell": "AV8",
+    "raw": 1.0,
+    "value": 1,
+    "kind": "set_count"
+   },
+   {
+    "cell": "AV9",
+    "raw": 2.0,
+    "value": 2,
+    "kind": "set_count"
+   },
+   {
+    "cell": "AV10",
+    "raw": 3.0,
+    "value": 3,
+    "kind": "set_count"
+   },
+   {
+    "cell": "AV11",
+    "raw": 4.0,
+    "value": 4,
+    "kind": "set_count"
+   },
+   {
+    "cell": "AV12",
+    "raw": 5.0,
+    "value": 5,
+    "kind": "set_count"
+   },
+   {
+    "cell": "AV13",
+    "raw": 6.0,
+    "value": 6,
+    "kind": "set_count"
+   },
+   {
+    "cell": "AV14",
+    "raw": 7.0,
+    "value": 7,
+    "kind": "set_count"
+   },
+   {
+    "cell": "AV15",
+    "raw": 8.0,
+    "value": 8,
+    "kind": "set_count"
+   },
+   {
+    "cell": "AV16",
+    "raw": "SUPERSET W/ 👇",
+    "value": "SUPERSET_WITH_NEXT",
+    "kind": "pairing_flag",
+    "meaning_inferred": "Entered in the SETS cell of an exercise row to say 'this exercise is supersetted with the exercise on the row below' (the 👇 points down). The set count then comes from the paired row. Same convention appears in MASTER_MODEL BASEBALL, where a row below a main lift carries 'Superset - same reps' or 'Superset - max reps' in the reps column with an empty sets cell, and in MASTER_MODEL '05 EXAMPLE ATHLETIC FULL BODY' ('SUPERSET: HEAVY Hex bar Squats directly into 10 Repeat Jump Squat HIGH JUMPs')."
+   }
+  ],
+  "numeric_min": 1,
+  "numeric_max": 8,
+  "observed_usage_in_program_tabs": {
+   "3.0": 7,
+   "2.0": 13,
+   "5.0": 1
+  },
+  "wired_in_tabs": {
+   "AESTHETICS - FULL BODY - 4 DAYS": {
+    "cells": 38,
+    "range": "AV7:AV42"
+   },
+   "3 DAY BUILDER": {
+    "cells": 30,
+    "range": "AV7:AV42"
+   },
+   "PUSHPULLLEGS - 3 or 6 DAYS A WK": {
+    "cells": 42,
+    "range": "AV7:AV42"
+   },
+   "ATHLETIC - FULL BODY - 4 DAYS A": {
+    "cells": 50,
+    "range": "AV7:AV42"
+   },
+   "JUSTICE LEAGUE": {
+    "cells": 50,
+    "range": "AV7:AV42"
+   },
+   "BOOTCAMP - OPTION 1": {
+    "cells": 38,
+    "range": "AV7:AV42"
+   },
+   "NO ACCESS - AESTHETICS - FB - 4": {
+    "cells": 38,
+    "range": "AV7:AV42"
+   },
+   "NO ACCESS - ATHLETIC - FB - 4 t": {
+    "cells": 50,
+    "range": "AV7:AV42"
+   }
+  },
+  "observed_prescriptions": [
+   "AESTHETICS - FULL BODY - 4 DAYS: 3 sets on compounds/calves (rows 3-7, 10-11), 2 sets on biceps and leg extensions (rows 8-9), 5 sets on 'DB Push press' (row 13).",
+   "JUSTICE LEAGUE (athletic, tracking tab): 2 sets on every filled slot (plyo, throw, COD, triple extension, squat, rows, lunges, pull-ups, leg extensions)."
+  ],
+  "notes": "Sets are per exercise per session, not per muscle per week - there is no weekly-volume column anywhere in BYOP. 1-8 is the full menu; 9+ sets in one exercise is not offered."
+ },
+ "reps": {
+  "library_column": "AW",
+  "header_rows": {
+   "row1": "REPS",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "REPS",
+   "row7": "CHOOSE 👇"
+  },
+  "wired_range": "'MASTER EXERCISE LIBRARY'!$AW$7:$AW$42",
+  "options": [
+   {
+    "cell": "AW8",
+    "raw": "4 to 6 Reps",
+    "min": 4,
+    "max": 6,
+    "kind": "rep_range"
+   },
+   {
+    "cell": "AW9",
+    "raw": "6 to 8 Reps",
+    "min": 6,
+    "max": 8,
+    "kind": "rep_range"
+   },
+   {
+    "cell": "AW10",
+    "raw": "8 to 12 Reps",
+    "min": 8,
+    "max": 12,
+    "kind": "rep_range"
+   },
+   {
+    "cell": "AW11",
+    "raw": "10 to 15 Reps",
+    "min": 10,
+    "max": 15,
+    "kind": "rep_range"
+   },
+   {
+    "cell": "AW12",
+    "raw": "15 Reps",
+    "min": 15,
+    "max": 15,
+    "kind": "fixed_reps"
+   },
+   {
+    "cell": "AW13",
+    "raw": "20 Reps",
+    "min": 20,
+    "max": 20,
+    "kind": "fixed_reps"
+   },
+   {
+    "cell": "AW14",
+    "raw": "MYO SET",
+    "min": 40,
+    "max": 40,
+    "kind": "special_method",
+    "definition_observed_elsewhere": "MASTER_MODEL 'ALL ABOUT SQUATS' A30 (verbatim-paraphrase): 15 reps, then without racking pause ~3 s, 5 reps, breathe ~3 s, repeat for 5 mini-sets of 5 = 40 total reps; B27 '15/5/5/5/5/5' labelled C27 '**MYO SET - ADVANCED'. MASTER_MODEL '4 TRACKS' W61: '2 sets LEG PRESS MYO - 15-5-5-5-5-5'.",
+    "notes": "Total reps per MYO SET = 40 (15 activation + 5x5). Coach uses it on machine/isolation quad work (leg extensions, leg press)."
+   }
+  ],
+  "bucket_inferred": {
+   "4 to 6 Reps": "heavy / strength-leaning",
+   "6 to 8 Reps": "strength-hypertrophy; also the coach's default for power/athletic drills (plyos, COD, cleans in JUSTICE LEAGUE)",
+   "8 to 12 Reps": "classic hypertrophy",
+   "10 to 15 Reps": "hypertrophy / higher-rep",
+   "15 Reps": "high-rep hypertrophy (calves, leg press, pulldowns, DB deadlifts, push-ups in AESTHETICS)",
+   "20 Reps": "small-muscle / isolation (EZ curls, leg extensions in AESTHETICS)",
+   "MYO SET": "intensity technique, ~40 reps"
+  },
+  "observed_usage_in_program_tabs": {
+   "15 Reps": 5,
+   "8 to 12 Reps": 6,
+   "20 Reps": 2,
+   "6 to 8 Reps": 7,
+   "MYO SET": 2
+  },
+  "wired_in_tabs": {
+   "AESTHETICS - FULL BODY - 4 DAYS": {
+    "cells": 36,
+    "range": "AW7:AW42"
+   },
+   "3 DAY BUILDER": {
+    "cells": 27,
+    "range": "AW7:AW42"
+   },
+   "PUSHPULLLEGS - 3 or 6 DAYS A WK": {
+    "cells": 42,
+    "range": "AW7:AW42"
+   },
+   "ATHLETIC - FULL BODY - 4 DAYS A": {
+    "cells": 48,
+    "range": "AW7:AW42"
+   },
+   "JUSTICE LEAGUE": {
+    "cells": 48,
+    "range": "AW7:AW42"
+   },
+   "BOOTCAMP - OPTION 1": {
+    "cells": 36,
+    "range": "AW7:AW42"
+   },
+   "NO ACCESS - AESTHETICS - FB - 4": {
+    "cells": 36,
+    "range": "AW7:AW42"
+   },
+   "NO ACCESS - ATHLETIC - FB - 4 t": {
+    "cells": 48,
+    "range": "AW7:AW42"
+   }
+  },
+  "observed_prescriptions": [
+   "AESTHETICS: calves 3x'15 Reps'; leg press 3x'15 Reps'; bent-over barbell rows 3x'8 to 12 Reps'; reverse lunges 3x'8 to 12 Reps'; lat pulldown 3x'15 Reps'; EZ-bar curls 2x'20 Reps'; leg extensions 2x'20 Reps'; DB deadlifts 3x'15 Reps'; push-ups 3x'15 Reps'; DB push press 5x'6 to 8 Reps'.",
+   "JUSTICE LEAGUE: plyos/COD/power clean/front squat 2x'6 to 8 Reps'; situps-to-overhead-throw, rows, FFE lunges, pull-ups 2x'8 to 12 Reps'; leg extensions 2x'MYO SET'.",
+   "ATHLETIC - FULL BODY - 4 DAYS A: G12 leg extensions = 'MYO SET'."
+  ],
+  "gaps_vs_coach_stated_model": [
+   "Coach says people pick between 5 and 30 reps: menu tops out at 20 (no 25 / 30) and starts at 4 (no 1-3 for max strength).",
+   "No per-side notation (e.g. '8/8' or '12/12') - in MASTER_MODEL those strings were auto-converted by Google Sheets into dates (e.g. BASEBALL F34 = 2022-08-08, C36 = 2022-12-12), so a generator must store reps as text, never as a date-parsable string.",
+   "No descending/pyramid schemes (MASTER_MODEL uses '12/10/8/8').",
+   "No time (seconds) or distance options, so core holds, carries, drags, cardio and functional (Pallof) holds have no rep vocabulary; the cardio rows in every tab simply have no REPS dropdown.",
+   "No RIR/RPE target, rest interval, tempo or load (%1RM) field - although MASTER_MODEL 'ALL ABOUT SQUATS' prescribes '(1 RIR) RPE 8+', rest '1-2 MIN' (hypertrophy) vs '3-6 MIN' (strength)."
+  ]
+ },
+ "effort": {
+  "library_column": "AX",
+  "header_rows": {
+   "row1": "EFFORT",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "EFFORT",
+   "row7": "CHOOSE 👇"
+  },
+  "wired_range": "'MASTER EXERCISE LIBRARY'!$AX$7:$AX$42",
+  "program_column_header": "EFFORT",
+  "scale": [
+   {
+    "cell": "AX8",
+    "raw": "1 - Way Too Easy",
+    "score": 1,
+    "label": "Way Too Easy",
+    "rpe_rir_equivalent_inferred": "far from failure",
+    "generator_action_inferred": "progress load/reps"
+   },
+   {
+    "cell": "AX9",
+    "raw": "2 - Way Too Easy",
+    "score": 2,
+    "label": "Way Too Easy",
+    "rpe_rir_equivalent_inferred": "far from failure",
+    "generator_action_inferred": "progress load/reps"
+   },
+   {
+    "cell": "AX10",
+    "raw": "3 - Too Easy",
+    "score": 3,
+    "label": "Too Easy",
+    "rpe_rir_equivalent_inferred": "6+ RIR",
+    "generator_action_inferred": "progress load/reps"
+   },
+   {
+    "cell": "AX11",
+    "raw": "4 - Easy",
+    "score": 4,
+    "label": "Easy",
+    "rpe_rir_equivalent_inferred": "~5-6 RIR",
+    "generator_action_inferred": "progress"
+   },
+   {
+    "cell": "AX12",
+    "raw": "5 - Easyish",
+    "score": 5,
+    "label": "Easyish",
+    "rpe_rir_equivalent_inferred": "~4-5 RIR",
+    "generator_action_inferred": "progress"
+   },
+   {
+    "cell": "AX13",
+    "raw": "6 - Broke a Sweat",
+    "score": 6,
+    "label": "Broke a Sweat",
+    "rpe_rir_equivalent_inferred": "~4 RIR",
+    "generator_action_inferred": "progress slightly"
+   },
+   {
+    "cell": "AX14",
+    "raw": "7 - That was tough",
+    "score": 7,
+    "label": "That was tough",
+    "rpe_rir_equivalent_inferred": "~2-3 RIR",
+    "generator_action_inferred": "hold or progress slowly"
+   },
+   {
+    "cell": "AX15",
+    "raw": "8 - That was perfect",
+    "score": 8,
+    "label": "That was perfect",
+    "rpe_rir_equivalent_inferred": "~1-2 RIR (target)",
+    "generator_action_inferred": "hold (bullseye)"
+   },
+   {
+    "cell": "AX16",
+    "raw": "9 - That was terrible",
+    "score": 9,
+    "label": "That was terrible",
+    "rpe_rir_equivalent_inferred": "0-1 RIR / overshoot",
+    "generator_action_inferred": "regress load / reduce volume next session"
+   },
+   {
+    "cell": "AX17",
+    "raw": "10 - I'm done",
+    "score": 10,
+    "label": "I'm done",
+    "rpe_rir_equivalent_inferred": "failure / could not continue",
+    "generator_action_inferred": "regress; check recovery"
+   }
+  ],
+  "wired_in_tabs": {
+   "JUSTICE LEAGUE": {
+    "cells": 50,
+    "range": "AX7:AX42"
+   },
+   "BOOTCAMP - OPTION 1": {
+    "cells": 38,
+    "range": "AX7:AX42"
+   },
+   "NO ACCESS - AESTHETICS - FB - 4": {
+    "cells": 38,
+    "range": "AX7:AX42"
+   },
+   "NO ACCESS - ATHLETIC - FB - 4 t": {
+    "cells": 50,
+    "range": "AX7:AX42"
+   }
+  },
+  "observed_usage_in_program_tabs": "none - every EFFORT cell is still a placeholder",
+  "interpretation": {
+   "observed": "10-point client self-report, one per exercise row, logged after the sets. 1 and 2 share the label 'Way Too Easy'. Score 8 is labelled 'That was perfect' while 9 is 'That was terrible' and 10 \"I'm done\".",
+   "inferred": "It is an RPE-style scale whose bullseye is 8 (= ~1-2 reps in reserve), matching MASTER_MODEL 'ALL ABOUT SQUATS' A13/D13 '(1 RIR) *RPE8+'. So it is NOT 'higher is better': 9-10 means the set overshot. A generator can use it as the autoregulation signal for the week-to-week 3/5/7 % volume or load increments the coach describes: <=6 -> push, 7-8 -> keep/progress slowly, 9-10 -> back off."
+  }
+ },
+ "feeling": {
+  "library_column": "AY",
+  "header_rows": {
+   "row1": "FEELING",
+   "row2": "FILL HERE",
+   "row3": null,
+   "row4": null,
+   "row5": null,
+   "row6": "FEELING",
+   "row7": "CHOOSE 👇"
+  },
+  "wired_range": "'MASTER EXERCISE LIBRARY'!$AY$7:$AY$42",
+  "program_column_header": "HOW IT FELT?",
+  "scale": [
+   {
+    "cell": "AY8",
+    "raw": "Felt the RIGHT muscles",
+    "code": "RIGHT_MUSCLE",
+    "generator_action_inferred": "keep exercise; eligible for progression"
+   },
+   {
+    "cell": "AY9",
+    "raw": "Felt the WRONG muscle",
+    "code": "WRONG_MUSCLE",
+    "generator_action_inferred": "keep the slot/category but swap variation (different loading position, grip, stance) - same library column"
+   },
+   {
+    "cell": "AY10",
+    "raw": "Felt a PAIN",
+    "code": "PAIN",
+    "generator_action_inferred": "remove or regress the exercise, reduce sets for that muscle (coach: fewer sets with injury/pain)"
+   },
+   {
+    "cell": "AY11",
+    "raw": "Couldn't do it",
+    "code": "COULD_NOT_DO",
+    "generator_action_inferred": "regress one level inside the same category (e.g. ADVANCED -> FOUNDATIONAL block, or assisted version)"
+   }
+  ],
+  "wired_in_tabs": {
+   "JUSTICE LEAGUE": {
+    "cells": 48,
+    "range": "AY7:AY42"
+   },
+   "BOOTCAMP - OPTION 1": {
+    "cells": 36,
+    "range": "AY7:AY42"
+   },
+   "NO ACCESS - AESTHETICS - FB - 4": {
+    "cells": 36,
+    "range": "AY7:AY42"
+   },
+   "NO ACCESS - ATHLETIC - FB - 4 t": {
+    "cells": 48,
+    "range": "AY7:AY42"
+   }
+  },
+  "observed_usage_in_program_tabs": "none - all placeholders",
+  "notes": "Library header is 'FEELING'; the program tabs label the same dropdown 'HOW IT FELT?'. It is a target-tissue + pain screen (mind-muscle connection), not a mood scale. Cardio/Aerobic Capacity rows have EFFORT but no HOW IT FELT? dropdown."
+ },
+ "other_logging_columns_in_program_tabs": [
+  {
+   "header": "WEIGHT USED or SCORE",
+   "column": "H",
+   "tabs": [
+    "JUSTICE LEAGUE",
+    "BOOTCAMP - OPTION 1",
+    "NO ACCESS - AESTHETICS - FB - 4",
+    "NO ACCESS - ATHLETIC - FB - 4 t"
+   ],
+   "type": "free text (no validation)",
+   "conditional_format": "blank -> EA9999 (red); filled -> B6D7A8 (green)",
+   "observed_values": {
+    "JUSTICE LEAGUE H6": "LATERAL",
+    "JUSTICE LEAGUE H9": "SINGLE ARM",
+    "JUSTICE LEAGUE H12": "OUCH"
+   },
+   "note": "Observed entries are notes/cues ('LATERAL', 'SINGLE ARM') and a pain flag ('OUCH'), not loads - clients/coach use it as a comment field."
+  },
+  {
+   "header": "DONE?",
+   "column": "K",
+   "type": "checkbox (TRUE/FALSE booleans, one per day block)",
+   "conditional_format": "TRUE -> 57BB8A green fill across the day's rows; FALSE -> theme accent 5 fill",
+   "note": "Session-completion tracker; merged per day in the NO ACCESS tabs."
+  }
+ ],
+ "related_dosing_elsewhere_observed": [
+  "MASTER_MODEL 'ALL ABOUT SQUATS' A13-F27: HYPERTROPHY FOCUSED (1 RIR, RPE8+) set x rep menu 3x15, 3x12, 3x10, 3x8, 4x15, 4x12, 4x10, 4x8, then 4x15, 4x12, 4x10, 5x8 each 'Whatever + Max air squats', and 3 x '15/5/5/5/5/5' (MYO SET - ADVANCED); STRENGTH FOCUSED (1 RIR, RPE 8+) 5x3, 6x3, 5x4, 6x4, 7x3, 6x4, 8x2, 7x2, 4x4, 4x5, 5x5, 6x4; rest 1-2 min (hypertrophy) vs 3-6 min (strength); ATHLETIC FOCUSED 'OFF SEASON', 'FRENCH CONTRAST' 3/3/3/3/3.",
+  "MASTER_MODEL 'ALL ABOUT SQUATS' A5: 'Modify sets/reps as you want, just don't go too far into changing it, you may ruin the stimulus'; A6: 'Follow the RIR prescription - REPS IN RESERVE - You will also see RPE'."
+ ],
+ "inferred_fields_note": "Everything under keys ending in '_inferred', 'bucket_inferred', 'interpretation.inferred' and 'meaning_inferred' is analyst inference; option text, cells, header rows, wiring and usage counts are observed."
+}

@@ -1,0 +1,314 @@
+[
+ {
+  "id": "R2-VOL",
+  "title": "Your volume math: approve or fix",
+  "blurb": "You asked us to build the volume algorithm and back it with research. These are the choices we made for you. Say yes, or give the number you want.",
+  "qs": [
+   {
+    "id": "R2-VOL-01",
+    "core": 1,
+    "q": "Each week the plan grows by 3, 5 or 7 % depending on how the person's week went. Does this table match how you'd adjust a client?",
+    "a": "Effort mostly 1-6 (too easy): +7 % (+5 % if life was harder). Effort 7-8 (tough / perfect): +5 % (+3 % if life was harder). Effort 9: hold (+3 % only if life was better than usual). Any '10 - I'm done': hold and remove 1 set from that day. Life 'much harder' (sick, travel, no sleep): hold. Never more than 7 % a week; repeat the week if they did under half the sessions."
+   },
+   {
+    "id": "R2-VOL-02",
+    "core": 1,
+    "q": "'Leave 1 in the tank' is very hard, but your effort menu calls 9 'That was terrible'. Should clients rate effort against what the set asked for?",
+    "a": "Yes: '8 - That was perfect' means 'I hit the target the plan gave me'. 9 = harder than planned, 10 = failed or wrecked. Otherwise a client doing exactly the 1 rep in reserve you ask for logs 9 and the plan never grows."
+   },
+   {
+    "id": "R2-VOL-03",
+    "core": 1,
+    "q": "If someone never checks in, what weekly step should their plan use?",
+    "a": "5 % for most people. 3 % for people who are stressed, sleep under 6 hours, have a hard physical job, are 60+, are coming back from 6+ months off, or have pain. 7 % only after check-ins show they handle it. Advanced lifters default to 3 % so the hardest weeks land at the end."
+   },
+   {
+    "id": "R2-VOL-04",
+    "core": 1,
+    "q": "Should small muscles (biceps, triceps, side delts) start the same as big muscles, or a bit lower?",
+    "a": "A bit lower: beginner 8, intermediate 12, advanced 15 sets a week (big muscles 10 / 15 / 20). Rear delts 4 / 6 / 8 of their own sets. Reason: it fits 5-7 exercises a session, and arms also grow from presses and rows."
+   },
+   {
+    "id": "R2-VOL-05",
+    "core": 1,
+    "q": "How should glutes count on squats, lunges and deadlifts? And thrusters?",
+    "a": "Squats, lunges, deadlifts and RDLs = a quarter set for glutes (your helper rule, and your 'mostly quads' on lunges). Hip thrusts, bridges and KB swings = 1 full set for glutes. Thrusters = 1 set quads + half a set shoulders (your thruster answer wins over the 0.25 rule, like dips). Say so if deadlifts and RDLs should count half a set for glutes instead."
+   },
+   {
+    "id": "R2-VOL-06",
+    "core": 0,
+    "q": "What's the most weekly sets a muscle should reach in one 12-week plan?",
+    "a": "Non-priority: beginner 14, intermediate 22, advanced 25. Priority muscle: beginner 18, intermediate 26-28, advanced 30. While 1-2 priorities are pushed, the other muscles grow at most 3 % a week. The next 12-week cycle starts 5 % higher with the ceiling 1 set higher (never above 25, or 30 for a priority)."
+   },
+   {
+    "id": "R2-VOL-07",
+    "core": 1,
+    "q": "Deload is 'about half the sets'. Half of which week, and when does it happen?",
+    "a": "Half of the current (hardest) week, same exercises, 3+ reps in reserve. No fixed deload week inside a 12-week plan: it comes when check-ins say so (two hold weeks in a row, effort 9-10 two weeks, or pain on 2+ exercises), and week 1 of the next cycle is a deload."
+   },
+   {
+    "id": "R2-VOL-08",
+    "core": 0,
+    "q": "When day A happens twice a week, where does a new set go? And where does a small-muscle bonus exercise go?",
+    "a": "Alternate: Monday's first exercise, then Thursday's first exercise, so both days stay even. A bonus exercise (2 sets) goes on the optional day as a Focus slot; with no optional day, at the end of the shortest training day."
+   }
+  ]
+ },
+ {
+  "id": "R2-SES",
+  "title": "Sessions and weeks",
+  "blurb": "How a day and a week are put together: the spine rule, core first, how many exercises, aerobic work.",
+  "qs": [
+   {
+    "id": "R2-SES-01",
+    "core": 1,
+    "q": "'Load the spine once a week': one squat day and one deadlift day (two days), or squat and deadlift on the same day?",
+    "a": "Two different days: heavy squat Monday, heavy deadlift Friday. Tuesday a non-spinal hinge (hip thrust, back extension, reverse hyper). Thursday leg press or belt squat."
+   },
+   {
+    "id": "R2-SES-02",
+    "core": 1,
+    "q": "Which lifts count as loading the spine?",
+    "a": "Count: barbell back, front, zercher, overhead and Smith squats; barbell or trap-bar deadlifts and RDLs; good mornings. Don't count: leg press, belt squat, hip thrust, back extension, reverse hyper, single-leg DB work, Olympic lifts, loaded jumps. Goblet squat, hack squat and pendulum: fine on the second day if not sore. Powerlifters may add a light technique squat or deadlift."
+   },
+   {
+    "id": "R2-SES-03",
+    "core": 1,
+    "q": "When core opens the session before jumps and Olympic lifts, should it stay light?",
+    "a": "Yes: 2 exercises x 2 sets, short of failure, as a warm-up. Hard core finishers only when the client moves core to the end."
+   },
+   {
+    "id": "R2-SES-04",
+    "core": 0,
+    "q": "Your cap for field athletes: 'max maybe 12' in one answer, '12 to 14' in another. Is it 12 plus the 2 core exercises?",
+    "a": "Yes: up to 12 exercises plus the 2-exercise core block (14 total). Warm-up drills never count, and a superset of two small isolations counts as one."
+   },
+   {
+    "id": "R2-SES-05",
+    "core": 0,
+    "q": "You use 3-4 exercises per muscle a day, but full-body days only hold 5-7 exercises. On full-body days, OK to give each muscle 1-2 exercises?",
+    "a": "Yes: 1-2 per muscle on full-body days (volume comes from training it 2-3 times a week, Focus slots and bonus exercises); 3-4 per muscle on split days (push/pull/legs, upper/lower)."
+   },
+   {
+    "id": "R2-SES-06",
+    "core": 0,
+    "q": "Aesthetics clients get 4 aerobic sessions, but your sheet says never the same colour twice. What is the 4th?",
+    "a": "A second easy Orange (long, low). The long walks after workouts are extra, 20-30 minutes easy. All aesthetics / physique clients get the 4, not only competitive bodybuilders."
+   }
+  ]
+ },
+ {
+  "id": "R2-ATH",
+  "title": "Athletes",
+  "blurb": "Your ground-contact rule, the plyo stages, Olympic lifts and the season.",
+  "qs": [
+   {
+    "id": "R2-ATH-01",
+    "core": 1,
+    "q": "Do these plyo vs ballistic splits match your ground-contact rule (share of jump and throw work that is plyometric by the end of a block)?",
+    "a": "Sprinters 75 %; volleyball, soccer, football skill 60 %; basketball, tennis, football big-skill, weekend warriors 50 %; baseball, softball, hockey, linemen, MMA 40 %; boxing, karate, kickboxing, wrestling, BJJ, golf 25 %. Each block starts 15 points more ballistic. Your sport ranking is read as fast, bouncy contacts, not total jumps."
+   },
+   {
+    "id": "R2-ATH-02",
+    "core": 1,
+    "q": "Which jumps count as ballistic and which as plyometric?",
+    "a": "Ballistic (longer contact or one big effort): squat jumps, box jumps, broad jumps, loaded or hex-bar jumps, medball throws. Plyometric (short, bouncy contacts): pogo and ankle hops, hurdle hops, depth jumps, bounds, squirrel jumps, repeated jumps. Stick-the-landing drills are the 'receive' stage."
+   },
+   {
+    "id": "R2-ATH-03",
+    "core": 1,
+    "q": "Your plyo progression (receive and pause, then receive and create, then repeat): what do we call it, and how long in each stage?",
+    "a": "Name: 'Receive-Create stages' (1 Land, 2 Land & Go, 3 Repeat). 12-week plan: weeks 1-3 / 4-7 / 8-12. 8-week plan: weeks 1-2 / 3-5 / 6-8. Restart at stage 1 each off-season; stay put in maintenance blocks; intermediate and advanced athletes may start at stage 2."
+   },
+   {
+    "id": "R2-ATH-04",
+    "core": 1,
+    "q": "Everyone in athletic training gets Olympic lifts. In season too?",
+    "a": "Yes, a light piece: 2 sets of 3 (hang power clean or DB snatch) once a week, dropped in heavy game weeks."
+   },
+   {
+    "id": "R2-ATH-05",
+    "core": 0,
+    "q": "Your ramp is 4x8 at 75 % up to 4x4 at 90 %. Eight reps is a lot for a full squat clean or snatch. Keep 8s only for DB/KB and hang pulls?",
+    "a": "Yes: keep your ramp for DB/KB and pull variants; full squat cleans and snatches use 3-5 reps per set with the same weekly reps (e.g. 6x5 at 75 %). The % comes from that lift's own 1-rep max."
+   },
+   {
+    "id": "R2-ATH-06",
+    "core": 0,
+    "q": "How many aerobic sessions for athletes off-season and pre-season, and for powerlifters?",
+    "a": "Off-season 2-4 by sport: baseball, softball and sprinters 2; basketball, volleyball, football, tennis, golf, boxing and BJJ 3; soccer, hockey, kickboxing and karate 3-4; MMA and wrestling 4. Pre-season 2. Powerlifters 2 easy (Orange)."
+   },
+   {
+    "id": "R2-ATH-07",
+    "core": 0,
+    "q": "In season, games already give jumps and sprints. Should game-heavy sports get less of them in the gym?",
+    "a": "Yes for basketball, volleyball, soccer, football and hockey: gym plyos at about half, no extra change-of-direction work, sprints only for speed athletes, and the one hard gym day at least 48 hours before a game."
+   },
+   {
+    "id": "R2-ATH-08",
+    "core": 0,
+    "q": "From what age do the older-client rules start, and from what age can youth do Olympic lifts from the floor?",
+    "a": "Older rules from 60: never depth jumps (your rule); landing drills and low ankle hops still OK; no hurdle hops or bounding unless they ask. Youth from the floor from about 14, after one block of hang work."
+   }
+  ]
+ },
+ {
+  "id": "R2-LIB",
+  "title": "Library, levels and zones",
+  "blurb": "Items you skipped or that we still read two ways, plus the Davidson zones.",
+  "qs": [
+   {
+    "id": "R2-LIB-01",
+    "core": 1,
+    "q": "Can the tool make a small variation of one of your exercises, like 'Reverse lunge with the dumbbell in the opposite hand', or should it only use exercises written in your library?",
+    "a": "Your library exercises are always the main pick. Between blocks the tool may change one detail (which hand holds the weight, grip, stance, implement, range) and show it as 'Reverse lunge - dumbbell in opposite hand'. It never invents a new exercise."
+   },
+   {
+    "id": "R2-LIB-02",
+    "core": 1,
+    "q": "Zones 1 and 3 are both 'vertical' external-rotation positions (arms low vs arms overhead or deep squat) and zone 2 is the horizontal, internal-rotation one. Right? And does the exercise level come from where the load sits, not from the zone?",
+    "a": "Yes to both. The zone is a tag on the exercise; the level comes from load position, skill and stability, made easier by a seat, machine or cable. So a deep goblet squat stays foundational, and a seated DB shoulder press or a lat pulldown is foundational even though it's overhead."
+   },
+   {
+    "id": "R2-LIB-03",
+    "core": 0,
+    "q": "How should the plan use the rotation bias (external vs internal)?",
+    "a": "Keep both in every week and use it to pick swaps when something hurts. Not by sport for now."
+   },
+   {
+    "id": "R2-LIB-04",
+    "core": 1,
+    "q": "'KB Face Pulls' sits under VERTICAL PULL. Move it to rear delts?",
+    "a": "Yes: a rear-delt option and a swap only, never the main vertical pull."
+   },
+   {
+    "id": "R2-LIB-05",
+    "core": 1,
+    "q": "'Bench Push ups': hands on the bench or feet on the bench?",
+    "a": "Both: hands on the bench = foundational (easier); feet on the bench = advanced (harder)."
+   },
+   {
+    "id": "R2-LIB-06",
+    "core": 1,
+    "q": "The '21.6 mile run' you called a marathon (a marathon is 26.2 miles): change it, keep it, or remove it?",
+    "a": "Remove it from plans and tests. The longest run stays the half-marathon plan (Chris Hinshaw), which you use as-is."
+   },
+   {
+    "id": "R2-LIB-07",
+    "core": 0,
+    "q": "Add these to your master library at these levels?",
+    "a": "Belt squat (foundational, knee dominant); seated machine shoulder press (foundational, vertical push); hang clean, single-arm DB snatch, KB squat clean and hex-bar jump (foundational, triple extension); for home clients a KB curl, a table row and floor Y/T raises. The ~120 exercises that live only in your programs (SL RDL, JM press, seal rows...) stay dropdown swaps until you add them."
+   },
+   {
+    "id": "R2-LIB-08",
+    "core": 1,
+    "q": "What did 'NO ACCESS' mean on your two hidden tabs? (You skipped this one.)",
+    "a": "Our guess: a self-serve version without coach access, using the full gym library. If so, its Tuesday 'Unilateral HD' should point to the single-leg hinge list, not to leg curls."
+   }
+  ]
+ },
+ {
+  "id": "R2-PER",
+  "title": "Plans, the year and testing",
+  "blurb": "How 8-week, 12-week and yearly plans run, and how testing works.",
+  "qs": [
+   {
+    "id": "R2-PER-01",
+    "core": 1,
+    "q": "Your yearly plan, as we understood it. Right?",
+    "a": "Jan-Mar: hard work + more cardio, start cutting (sets stay at the starting level). Apr-Jun: summer shape, keep losing fat while building a little muscle. Jul-Sep: maintain at about 70 % of the volume. Oct to mid-Dec: build muscle, less cardio. Last 2 weeks of December: automatic maintenance."
+   },
+   {
+    "id": "R2-PER-02",
+    "core": 0,
+    "q": "Should the year follow the user's own calendar?",
+    "a": "Yes: use the user's hemisphere for summer and let them mark their own vacation and holiday weeks (Christmas, Semana Santa, Thanksgiving...), which switch to maintenance automatically. Athletes follow their season instead."
+   },
+   {
+    "id": "R2-PER-03",
+    "core": 1,
+    "q": "8-week plan: 4 weeks getting used to it + 4 driving hard, or 3 + 5? And does 'start hard' mean more sets?",
+    "a": "4 + 4. 'Start hard' = about 10 % more sets than the normal start, with the weekly step capped at 5 % in weeks 1-4."
+   },
+   {
+    "id": "R2-PER-04",
+    "core": 1,
+    "q": "12-week plan: weeks 1-3 getting used to it (1-4 for beginners or people coming back, 1-2 for advanced), drive to week 9, hardest weeks 10-12. OK?",
+    "a": "Yes, with a 3 % max weekly step during the getting-used-to-it weeks."
+   },
+   {
+    "id": "R2-PER-05",
+    "core": 0,
+    "q": "'Start at a 2 and end at an 11': advanced lifters are already at the 25-set ceiling. Where does 'one level higher' come from for them?",
+    "a": "From heavier loads, intensifiers (myo sets, supersets) and a rotating priority muscle that can go up to 30 sets, not from more sets on everything."
+   },
+   {
+    "id": "R2-PER-06",
+    "core": 0,
+    "q": "Is pre-season the same as the 4-6-week 'season change' maintenance block?",
+    "a": "Yes: 4-6 weeks at about 60 % of off-season sets with more speed and power, ending with a 1-2-week taper before the first game."
+   },
+   {
+    "id": "R2-PER-07",
+    "core": 1,
+    "q": "Testing: is this the menu and timing?",
+    "a": "Ticked at block start: strength (beginners a 5-8 rep max; intermediate and up a 3-rep max or work up to a 1-rep max), cardio (1-mile run or an erg time trial), speed and agility (10-30 m sprint, 5-10-5, L-test), jumps, body weight. Tested in the last week instead of that week's top sets. Reminders at block start, 7 days before and the day before."
+   }
+  ]
+ },
+ {
+  "id": "R2-GEN",
+  "title": "The generator and the product",
+  "blurb": "What people get, how it adapts, and what we need from you before launch.",
+  "qs": [
+   {
+    "id": "R2-GEN-01",
+    "core": 1,
+    "q": "You said people should track on their own, but also that the plan should adjust from their effort. OK to offer both?",
+    "a": "Yes: the plan works with no tracking at all. An optional 1-minute weekly check-in (effort, how it felt, anything hurting, how life was) decides next week's step. The week-by-week plan needs the check-in."
+   },
+   {
+    "id": "R2-GEN-02",
+    "core": 1,
+    "q": "Build a phone-friendly website (not an app) first, then add the check-in, then open-source it after you approve the model?",
+    "a": "Yes: phase 1 website with the plan, save-day-as-image, PDF and a Google Sheet download (about 10-14 developer-weeks); phase 1.1 the check-in (+3.5-5 weeks); then open source with the code free to use (Apache), the model shared with credit to you (CC BY), and your videos, cues and the Blaze Camp name kept yours."
+   },
+   {
+    "id": "R2-GEN-03",
+    "core": 1,
+    "q": "Should the form start with a short health check that sends some people to a professional first?",
+    "a": "Yes: chest pain or heart issues, surgery or a fracture in the last 6 months, pregnant or gave birth in the last 6 months, an injury under treatment, or a doctor said no: no automatic plan, refer them to a professional or to you."
+   },
+   {
+    "id": "R2-GEN-04",
+    "core": 1,
+    "q": "Add three quick taps to the form: usual sleep, stress, and a physical job or other sport?",
+    "a": "Yes: it sets the starting weekly step (3 % instead of 5 % when sleep, stress or workload are bad)."
+   },
+   {
+    "id": "R2-GEN-05",
+    "core": 0,
+    "q": "For competitive athletes, ask the season dates or the season phase?",
+    "a": "Ask the next season start date (or 'in season until'), plus practice and game days per week. The tool works out off-season, pre-season and in-season."
+   },
+   {
+    "id": "R2-GEN-06",
+    "core": 1,
+    "q": "How should the plan tell someone what weight to use?",
+    "a": "Reps-in-reserve language ('leave 1-2 reps in the tank') with a week-1 tip ('pick a weight you could lift 2-3 more times'). Percentages only for barbell main lifts and Olympic lifts when they enter a recent best."
+   },
+   {
+    "id": "R2-GEN-07",
+    "core": 1,
+    "q": "Before launch, will you grade 5 sample plans and check our exercise tags?",
+    "a": "Yes: beginner fat loss, intermediate aesthetics, off-season basketball, boxer, and a home dumbbell client (about 5 hours). Your grades become automatic tests. Tags reviewed in one sheet, most-used exercises first."
+   },
+   {
+    "id": "R2-GEN-08",
+    "core": 0,
+    "q": "Which Spanish, and who approves it?",
+    "a": "Neutral Latin American Spanish, with the English gym word in brackets where gyms use it ('Empuje de cadera (Hip Thrust)'). You or a coach you trust approves every line; pounds in the US and kilograms elsewhere, switchable."
+   }
+  ]
+ }
+]

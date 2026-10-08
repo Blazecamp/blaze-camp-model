@@ -1,0 +1,169 @@
+SHEET: 'ALL ABOUT SQUATS'
+DIMENSIONS: A1:X48  max_row=48 max_col=24
+NON-EMPTY CELLS: 162
+MERGED (9): C35:C36, I39:I40, I41:I42, A30:I31, C37:C38, I37:I38, C39:C40, I18:I24, I35:I36
+DATA VALIDATIONS (dropdown sources):
+
+CELLS (row-major; coord | value | formatting):
+A1 | 'SQUATS & KNEE DOMINANT MOVEMENTS' | bg=00FFFF bold fg=theme1
+A2 | '*The squat is considered a KNEE DOMINANT movement, therefore how we load the weight of the squat can play a big role in how effective it may be' | bg=00FFFF fg=theme1
+A3 | '**The easiest way for me to define a loading principle is by going from most front loaded to most back loaded, so just try it and let me know' | bg=00FFFF fg=theme1
+A4 | '***This model is based on free weight squats, leg presses and machines will be covered at the end... Scroll bellow the squats' | bg=00FFFF fg=theme1
+A5 | "****Modify sets/reps as you want, just don't go too far into changing it, you may ruin the stimulus" | bg=00FFFF fg=theme1
+A6 | '*****Follow the RIR prescription - REPS IN RESERVE - You will also see RPE' | bg=00FFFF fg=theme1
+A8 | 'TYPES OF SQUATS / COMMON LOADING VARIATIONS' | bg=D5A6BD bold fg=theme1
+H8 | 'SPECIAL LOADING VARIATION' | bg=D5A6BD bold fg=theme1
+A9 | '**THIS EASY TO HARD MODEL IS TO DETERMINE HOW HARD OR EASY IS TO DO THE SQUAT WITH MAXIMAL UPRIGHT POSTURE & HIPS GOIN DOWN' | bg=CCCCCC bold fg=theme1
+A10 | 'EASIEST' | bg=CCCCCC bold fg=theme1
+B10 | 'EASIER' | bg=CCCCCC bold fg=theme1
+C10 | 'EASY' | bg=CCCCCC bold fg=theme1
+D10 | 'MODERATE' | bg=CCCCCC bold fg=theme1
+E10 | 'HARD' | bg=CCCCCC bold fg=theme1
+F10 | 'HARDER' | bg=CCCCCC bold fg=theme1
+G10 | 'HARDEST' | bg=CCCCCC bold fg=theme1
+H10 | 'VERY HARD ' | bg=CCCCCC bold fg=theme1
+A11 | 'Hex Bar Squat' | fg=theme1
+B11 | 'Goblet Squat' | fg=theme1
+C11 | 'High Zercher Squat' | fg=theme1
+D11 | 'Zercher Squat' | fg=theme1
+E11 | 'Front Squat/ SSB Bar' | fg=theme1
+F11 | 'High Bar Squat' | fg=theme1
+G11 | 'Low Bar Squat' | fg=theme1
+H11 | 'Overhead Squat' | fg=theme1
+A13 | 'HYPERTROPHY FOCUSED WORKOUTS (1 RIR) *RPE8+' | bg=D5A6BD bold fg=theme1
+D13 | 'STRENGTH FOCUSED WORKOUTS (1 RIR) RPE 8+' | bg=D5A6BD bold fg=theme1
+G13 | 'ATHLETIC FOCUSED WORKOUTS' | bg=D5A6BD bold fg=theme1
+A14 | 'Sets' | bg=CCCCCC bold fg=theme1
+B14 | 'Reps' | bg=CCCCCC bold fg=theme1
+D14 | 'Sets' | bg=CCCCCC bold fg=theme1
+E14 | 'Reps' | bg=CCCCCC bold fg=theme1
+G14 | 'Sets' | bg=CCCCCC bold fg=theme1
+H14 | 'Reps' | bg=CCCCCC bold fg=theme1
+A15 | 3.0 | bg=EFEFEF fg=theme1
+B15 | 15.0 | bg=EFEFEF fg=theme1
+C15 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+D15 | 5.0 | bg=EFEFEF fg=theme1
+E15 | 3.0 | bg=EFEFEF fg=theme1
+F15 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+G15 | 'OFF SEASON' | bg=FFE599 fg=theme1
+A16 | 3.0 | bg=EFEFEF fg=theme1
+B16 | 12.0 | bg=EFEFEF fg=theme1
+C16 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+D16 | 6.0 | bg=EFEFEF fg=theme1
+E16 | 3.0 | bg=EFEFEF fg=theme1
+F16 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+G16 | 'FRENCH CONTRAST' | bg=FFE599 fg=theme1
+A17 | 3.0 | bg=EFEFEF fg=theme1
+B17 | 10.0 | bg=EFEFEF fg=theme1
+C17 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+D17 | 5.0 | bg=EFEFEF fg=theme1
+E17 | 4.0 | bg=EFEFEF fg=theme1
+F17 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+A18 | 3.0 | bg=EFEFEF fg=theme1
+B18 | 8.0 | bg=EFEFEF fg=theme1
+C18 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+D18 | 6.0 | bg=EFEFEF fg=theme1
+E18 | 4.0 | bg=EFEFEF fg=theme1
+F18 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+G18 | datetime.datetime(2022, 3, 4, 0, 0) | bg=EFEFEF fg=theme1
+H18 | '3/3/3/3/3' | bg=EFEFEF fg=theme1
+I18 | '78% of 1RM whatever squat immediately into tuck jumps, immediately into Goblet squats, immediately into reverse banded squat jumps' | bg=EFEFEF fg=theme1
+A19 | 4.0 | bg=EFEFEF fg=theme1
+B19 | 15.0 | bg=EFEFEF fg=theme1
+C19 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+D19 | 7.0 | bg=EFEFEF fg=theme1
+E19 | 3.0 | bg=EFEFEF fg=theme1
+F19 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+A20 | 4.0 | bg=EFEFEF fg=theme1
+B20 | 12.0 | bg=EFEFEF fg=theme1
+C20 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+D20 | 6.0 | bg=EFEFEF fg=theme1
+E20 | 4.0 | bg=EFEFEF fg=theme1
+F20 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+A21 | 4.0 | bg=EFEFEF fg=theme1
+B21 | 10.0 | bg=EFEFEF fg=theme1
+C21 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+D21 | 8.0 | bg=EFEFEF fg=theme1
+E21 | 2.0 | bg=EFEFEF fg=theme1
+F21 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+A22 | 4.0 | bg=EFEFEF fg=theme1
+B22 | 8.0 | bg=EFEFEF fg=theme1
+C22 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+D22 | 7.0 | bg=EFEFEF fg=theme1
+E22 | 2.0 | bg=EFEFEF fg=theme1
+F22 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+A23 | 4.0 | bg=EFEFEF fg=theme1
+B23 | 15.0 | bg=EFEFEF fg=theme1
+C23 | 'Whatever + Max air squats' | bg=EFEFEF fg=theme1
+D23 | 4.0 | bg=EFEFEF fg=theme1
+E23 | 4.0 | bg=EFEFEF fg=theme1
+F23 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+A24 | 4.0 | bg=EFEFEF fg=theme1
+B24 | 12.0 | bg=EFEFEF fg=theme1
+C24 | 'Whatever + Max air squats' | bg=EFEFEF fg=theme1
+D24 | 4.0 | bg=EFEFEF fg=theme1
+E24 | 5.0 | bg=EFEFEF fg=theme1
+F24 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+A25 | 4.0 | bg=EFEFEF fg=theme1
+B25 | 10.0 | bg=EFEFEF fg=theme1
+C25 | 'Whatever + Max air squats' | bg=EFEFEF fg=theme1
+D25 | 5.0 | bg=EFEFEF fg=theme1
+E25 | 5.0 | bg=EFEFEF fg=theme1
+F25 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+A26 | 5.0 | bg=EFEFEF fg=theme1
+B26 | 8.0 | bg=EFEFEF fg=theme1
+C26 | 'Whatever + Max air squats' | bg=EFEFEF fg=theme1
+D26 | 6.0 | bg=EFEFEF fg=theme1
+E26 | 4.0 | bg=EFEFEF fg=theme1
+F26 | 'Whatever Squat' | bg=EFEFEF fg=theme1
+A27 | 3.0 | bg=EFEFEF fg=theme1
+B27 | '15/5/5/5/5/5' | bg=EFEFEF fg=theme1
+C27 | '**MYO SET - ADVANCED' | bg=EFEFEF fg=theme1
+B28 | '*REST 1-2 MIN BETWEEN SETS' | bg=EA9999 bold fg=theme1
+E28 | '*REST 3-6 MIN BETWEEN SETS' | bg=EA9999 bold fg=theme1
+H28 | '*REST AS PRESCRIBED' | bg=EA9999 bold fg=theme1
+A30 | '**MYO SET is where you do 15 reps, without stopping you just dont move for 3 seconds (resting) then do another 5 reps, breathe/rest 3 seconds, and repeat for 5 sets of those 5 reps... Totalis 40 reps without a stop. You can youtube myoreps and see more info about them.' | bg=FF0000 bold fg=theme1
+A33 | 'BANDED/CHAINED SQUAT VARIATIONS' | bg=00FFFF bold fg=theme1
+G33 | 'OTHER KNEE DOMINANT VARIATIONS' | bg=00FFFF bold fg=theme1
+A34 | 'TYPE' | bg=D5A6BD fg=theme1
+B34 | 'VOLUME' | bg=D5A6BD fg=theme1
+C34 | 'DETAIL' | bg=D5A6BD fg=theme1
+D34 | 'WHO NEEDS THIS?' | bg=D5A6BD fg=theme1
+G34 | 'TYPE' | bg=D5A6BD fg=theme1
+H34 | 'PERSONAL OPINION' | bg=D5A6BD fg=theme1
+I34 | 'DETAIL' | bg=D5A6BD fg=theme1
+A35 | 'BOTTOM BANDED' | bg=FFE599 fg=theme1
+C35 | 'Yields at bottcom of squat in order to create a faster impulse UPWARDS, tissues are stiffer at top of squat, tissues decrease stiffness on way down to yield. Bands are designed for speed/velocity' | bg=D9D9D9 fg=theme1
+G35 | 'LEG PRESS' | bg=D9D9D9 fg=theme1
+H35 | 'LOVE IT' | bg=D9D9D9 fg=theme1
+I35 | 'Pro: You can focus on mechanical fatigue, local fatigue of the quads/legs and not have so much systemic fatigue failure' | bg=D9D9D9 fg=theme1
+A36 | '*PROLONG THE DURATION OF MAX PROPULSION' | bg=D9D9D9 fg=theme1
+B36 | 'Weight should be lower ranges around 50% so you can move fast' | bg=D9D9D9 fg=theme1
+D36 | 'SOMEBODY THAT CAN\'T YIELD DOWN INTO A SQUAT CORRECTLY OR AT A "GOOD" SPEED' | fg=theme1
+A37 | 'REVERSE BANDED' | bg=FFE599 fg=theme1
+C37 | 'Helps you have a faster concentric reaction & increase velocity of your against gravity forces' | bg=D9D9D9 fg=theme1
+G37 | 'HACK SQUAT' | bg=D9D9D9 fg=theme1
+H37 | "I PERSONALLY DON'T LIKE IT" | bg=D9D9D9 fg=theme1
+I37 | "Most hack squat machines don't have the right strength profile for me so getting used to a good upright squat might be difficult, I haven't had much success with these myself or with clients, but I know there are amazing people out there having great results with them. " | bg=D9D9D9 fg=theme1
+A38 | '*ACCELERATES MAX PROPULSION' | bg=D9D9D9 fg=theme1
+B38 | 'Weight should be lower ranges and fast speed' | bg=D9D9D9 fg=theme1
+D38 | 'SOMEBODY THAT IS SLOW ON THE WAY UP' | fg=theme1
+A39 | 'BOTTOM CHAINS' | bg=FFE599 fg=theme1
+C39 | 'Teaching concentric and increase stiffness, less degree of yielding. Chains are designed for magnitude influence, loading.' | bg=D9D9D9 fg=theme1
+G39 | 'V-SQUAT' | bg=D9D9D9 fg=theme1
+H39 | "DON'T LIKE IT" | bg=D9D9D9 fg=theme1
+I39 | "Always tight on lower back & knees, so I don't presercibe the use of these, ever." | bg=D9D9D9 fg=theme1
+A40 | '*INTENSIONALLY SLOW YOU DOWN' | bg=D9D9D9 fg=theme1
+B40 | 'Weght can be moderate around 70%' | bg=D9D9D9 fg=theme1
+D40 | 'SOMEBODY NEEDING TO STAY STIFF DURING THE WHOLE MOVEMENT ECCENTRIC, AMORTIZATION, AND CONCENTRIC' | fg=theme1
+A41 | 'WEIGHT RELEASERS' | bg=FFE599 fg=theme1
+B41 | 'I HAVE NO IDEA' | bg=EA9999 fg=theme1
+C41 | 'I HAVE NO IDEA' | bg=EA9999 fg=theme1
+D41 | 'I HAVE NO IDEA' | bg=EA9999 fg=theme1
+G41 | 'PENDULUM' | bg=D9D9D9 fg=theme1
+H41 | 'LOVE IT' | bg=D9D9D9 fg=theme1
+I41 | 'This machines is my FAVORITE leg/squat/kne domminant machine I have ever tried. As of now, that is my opinion on these' | bg=D9D9D9 fg=theme1
+A44 | 'HEAVY BARBELL' | fg=theme1
+A45 | 'ECCENTRIC SLOW MORE MUSCLE RECRUITMENTS' | fg=theme1
+A47 | 'LIGHT BARBELL ' | fg=theme1
+A48 | 'ECCENTRICFAST LESS MUSCLE RECRUITMENT' | fg=theme1

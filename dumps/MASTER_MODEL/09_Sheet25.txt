@@ -1,0 +1,19 @@
+SHEET: 'Sheet25'
+DIMENSIONS: B11:J15  max_row=15 max_col=10
+NON-EMPTY CELLS: 12
+MERGED (0): 
+DATA VALIDATIONS (dropdown sources):
+
+CELLS (row-major; coord | value | formatting):
+B11 | 'BILATERAL HIP DOMINANT' | fg=theme1
+E11 | 'UNILATERAL KNE DOMINANT' | fg=theme1
+H11 | 'LEG FLEXION' | fg=theme1
+J11 | 'BILATERAL KNEE DOMINANT' | fg=theme1
+B12 | 'rdl' | fg=theme1
+E12 | 'lunges' | fg=theme1
+B13 | 'hip thrust' | fg=theme1
+E13 | 'bulgarians' | fg=theme1
+H13 | 'ham curls' | fg=theme1
+J13 | 'squats' | fg=theme1
+J14 | 'goblet squats' | fg=theme1
+J15 | 'leg press' | fg=theme1
