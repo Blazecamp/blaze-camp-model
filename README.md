@@ -4,6 +4,14 @@ A complete, machine-readable model of how the Blaze Camp coach designs training 
 
 > **Status: private work in progress.** The plan is to open-source this once the coach has graded the sample plans and approved the model. It will be a free, fully explained training model that anyone can use in their own app or training, and that AI agents can read and build on.
 
+## ⚠️ Use at your own risk / Uso bajo su propio riesgo
+
+**EN:** This is general fitness information, not medical advice. Downloading or using this repository, or any plan generated from it, is entirely at your own expense and risk. Lalo Vera, Blaze Camp and BFit Studios Corp. are released from all liability. If you use it to program for clients or anyone else, you must have your own health screening, liability release and insurance. Read [DISCLAIMER.md](DISCLAIMER.md) in full.
+
+**ES:** Esto es información general de acondicionamiento físico, no asesoría médica. Descargar o usar este repositorio, o cualquier plan generado con él, es por completo por su propia cuenta y riesgo. Lalo Vera, Blaze Camp y BFit Studios Corp. quedan liberados de toda responsabilidad. Si lo usa para programar a clientes u otras personas, debe tener su propia evaluación de salud, liberación de responsabilidad y seguro. Lea [DISCLAIMER.es.md](DISCLAIMER.es.md) completo.
+
+License: [MIT](LICENSE). © 2026 Lalo Vera, d/b/a Blaze Camp, and BFit Studios Corp.
+
 ## What's in here
 
 | Path | What it is |
@@ -55,4 +63,4 @@ Every rule in the docs is tagged with where it came from:
 
 - Exercise video links that appear in the original sheets are not owned by Blaze Camp.
 - "Blaze Camp" is the name and culture behind this work.
-- Licensing for the public release is still to be decided. The proposal is Apache-2.0 for code and CC BY 4.0 for the model; see `synthesis/13_product_options.md`.
+- License: MIT (see `LICENSE`), copyright Lalo Vera, d/b/a Blaze Camp, and BFit Studios Corp. (Florida). The disclaimer and liability release are in `DISCLAIMER.md` (EN) and `DISCLAIMER.es.md` (ES). Both are drafts pending review by a Florida attorney.
