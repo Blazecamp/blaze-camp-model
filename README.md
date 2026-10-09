@@ -17,7 +17,22 @@ A complete, machine-readable model of how the Blaze Camp coach designs training 
 | `analysis/` | The first-pass decode of the library, reference tabs and every program in the sheets. |
 | `workflows/` | The multi-agent workflow scripts used to build and verify the model. |
 | `coach-questions.html` | The questionnaire page used to collect the coach's answers. |
-| `engine/`, `samples/`, `model/` | *(coming next)* The plan engine (plain JavaScript, no dependencies), the compiled runtime model, and sample plans graded by the coach. |
+| `model/` | The compiled runtime model the engine reads: exercise catalog, rules, templates, sport and activity profiles, and English and Spanish text (2,121 strings each). Built from `synthesis/` by `tools/compile-model.mjs`. |
+| `engine/` | The plan engine: plain JavaScript (Node 22 and browsers), no dependencies, deterministic. Start with `engine/README.md`. Contracts are in `engine/CONTRACTS.md` and every judgement call is logged in `engine/DECISIONS.md`. |
+| `tests/` | `node --test tests/` runs 711 tests: 705 pass, 0 fail, 6 marked to-do. They cover the coach's hard rules, the round-2 rules, regressions from the review, and 1,578 generated intakes. |
+| `samples/` | 8 sample clients (`samples/intakes/`) and the plans the engine generated for them (`samples/plans/`, Markdown and JSON, two of them in Spanish): swimming, football, soccer, CrossFit-style bootcamp, bootcamp, full-body aesthetics, push/pull/legs, and a bonus 52-year-old pickleball player. `samples/REVIEW_LOG.md` lists every issue the coach-eye reviewers found and how each was handled. |
+| `round3_questions.json` | The next open questions for the coach (13). |
+
+## Status (2026-10-09)
+
+- **Model: v1.1.** All 185 coach answers are applied. Sport coverage is 52 sports with positions where they matter, plus 26 "stay athletic and active" activities including pickleball and HYROX. Coverage checks are in `coverage_matrix.md` and `coverage_matrix_round2.md`.
+- **Engine: v0.3, first working draft.** It produces complete, valid plans for any intake. Reviewers read the 8 sample plans the way the coach would and graded them **C to D**: the structure is right, but the dosing isn't there yet. The main open problems, with full detail in `samples/REVIEW_LOG.md` and the re-check notes:
+  - When the chosen session time is short, the coach's minimums can't all fit: 10 sets per muscle, 2–4 exercises per muscle, and a climbing stairway. Many muscles then sit below the floor and stay flat. This needs a coach decision (round-3 question R3-SES-02).
+  - Some days run over the chosen minutes, or exceed the 12 + 2 exercise cap for field athletes.
+  - Athletic work (jumps, throws, COD) doesn't always follow the sport budget or climb with the stairway. Jump exercises change mid-block where the Receive-Create stages and the exercise blocks don't line up.
+  - Some block-to-block changes print as placeholders ("– different implement") instead of a real variation.
+  - The Spanish needs the coach's review.
+- **Not built yet:** the website, the weekly check-in screens, and accounts. See `synthesis/13_product_options.md` for the proposed product.
 
 ## How the model was built
 

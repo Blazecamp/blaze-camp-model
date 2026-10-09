@@ -1,0 +1,92 @@
+{
+  "schema": "intake/1",
+  "_comment": "Sample 2: aesthetics, 3 years, 5 x 75 min, full gym, priority chest + side delts, lighter / more sets, 12 weeks. NOTE: the PROPOSED L3 rule (3+ years and 4+ days/week) places this client at L3; the plan states the reason.",
+  "id": "sample-02-intermediate-aesthetics",
+  "lang": "en",
+  "units": "lb",
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "age": 27,
+  "body_weight": {
+    "value": 175,
+    "unit": "lb"
+  },
+  "goal": "muscle",
+  "format": null,
+  "sport": null,
+  "experience": {
+    "years_consistent": 3,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "recovery": {
+    "sleep": "7_8",
+    "stress": "normal",
+    "hard_job_or_other_sport": false
+  },
+  "priority_muscles": [
+    "chest",
+    "side_delts"
+  ],
+  "lift_style": "volume_lighter",
+  "schedule": {
+    "days_per_week": 5,
+    "weekdays": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "session_minutes": 75,
+    "start_date": "2026-10-12"
+  },
+  "plan": {
+    "mode": "fixed_12",
+    "maint_reason": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "none"
+    ]
+  },
+  "equipment": {
+    "profile": "FULL_GYM",
+    "extras": [],
+    "machines": [],
+    "preference": "none",
+    "detail": {
+      "heaviest_db_pair": null,
+      "medball_lb_owned": [],
+      "box_height_in": null,
+      "running_space": "10_20m",
+      "cardio_options": [
+        "treadmill",
+        "bike",
+        "rower",
+        "ski_erg"
+      ]
+    }
+  },
+  "pain": [],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "start",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false
+  },
+  "growth_stage": null,
+  "role": "self",
+  "email": null,
+  "coach_rule_pack_ids": []
+}

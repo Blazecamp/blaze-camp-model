@@ -1,12 +1,88 @@
-# 02 - Canonical exercise catalog (Blaze Camp) - v1
+# 02 - Canonical exercise catalog (Blaze Camp) - v1.1
 
-**Version:** v1, 2026-10-08. The coach answered 138 of the 140 questionnaire items (`coach_answers_full.md`); his answers override every inference from the sheets and every v0 team decision. Everything below is the v1 state; whenever an answer replaced a v0 value, the v0 value stays in the record (`name_v0`, `level.primary_v0`, `taxonomy.pattern_code_v0`, `record_type_v0` ...), and the v0 verification log is kept at the end.
+**Version:** v1.1, 2026-10-08. v1.1 applies the coach's round-2 answers (`coach_answers_round2.md`) and his same-day request to cover every popular US sport, swimming, and the gen-pop 'stay athletic and active' options (pickleball, HYROX). Authority order: round-2 answers > round-1 answers (`coach_answers_full.md`, 138 of 140 answered) > everything else. Everything below is the v1.1 state; whenever a round-2 answer replaced a v1 value, the v1 value stays in the record as a `*_v1` field (`name_v1`, `level.primary_v1`, `volume_credit.per_set_v1`, `taxonomy.pattern_code_v1` ...), and every changed record lists its round-2 changes in `v1_1_changes`. The v1 changelog below is kept (annotated where round 2 changed it). In v1, whenever an answer replaced a v0 value, the v0 value stays in the record (`name_v0`, `level.primary_v0`, `taxonomy.pattern_code_v0`, `record_type_v0` ...), and the v0 verification log is kept at the end.
 
-**Files:** `synthesis/02_exercise_catalog.json` (array of 913 records; every record carries `v1_changes`, the list of coach answers applied to it), `synthesis/02_exercise_catalog_crosswalk.json` (every source cell -> catalog id; unchanged in v1, every id still resolves because renamed records keep their id and merged / retired records stay in the JSON as `record_type: retired`), `synthesis/02_no_equipment_subset.md` (home and no-equipment profiles, no bands).
+**Files:** `synthesis/02_exercise_catalog.json` (array of 939 records in v1.1: 913 from v1 + 26 new; records carry `v1_changes` (round 1) and `v1_1_changes` (round 2 and the sport expansion)), `synthesis/02_exercise_catalog_crosswalk.json` (every source cell -> catalog id; unchanged in v1, every id still resolves because renamed records keep their id and merged / retired records stay in the JSON as `record_type: retired`), `synthesis/02_no_equipment_subset.md` (home and no-equipment profiles, no bands; v1.1 adds the coach-approved home items and fixes the NO ACCESS wiring, R2-LIB-08).
 
-**Evidence legend.** OBSERVED = printed in a sheet cell, header, fill or dropdown (tab + cell given). COACH-ANSWER <ID> = the coach's questionnaire answer (e.g. COACH-ANSWER VOL-09). INFERRED = our reading (each record lists its inferred fields in `inferred_fields`). SCIENCE = general training science, not the coach's words. PROPOSED = our suggestion, PENDING COACH APPROVAL. Coach labels are quoted verbatim, typos included ('TRIPPLE', 'SAGITAL', 'DOMNANT', 'ABdution', 'Harmstring'...); our names use correct spelling (COACH-ANSWER FIX-04: correct them in the generator, leave the sheets as they are). Nothing in Google Sheets was modified.
+**Evidence legend.** OBSERVED = printed in a sheet cell, header, fill or dropdown (tab + cell given). COACH-ANSWER <ID> = the coach's round-1 questionnaire answer (e.g. COACH-ANSWER VOL-09). COACH-R2 <ID> = his round-2 answer (`coach_answers_round2.md`, e.g. COACH-R2 R2-VOL-05; the two round-1 leftovers he answered in round 2 are cited as COACH-R2 LIB-10 / LIB-12). INFERRED = our reading (each record lists its inferred fields in `inferred_fields`). SCIENCE = general training science, not the coach's words. PROPOSED = our suggestion, PENDING COACH APPROVAL; PROPOSED-ADDITION = a v1.1 exercise the expanded sport list needs and the library lacks (status `proposed_v1_1`, swap only until approved). Coach labels are quoted verbatim, typos included ('TRIPPLE', 'SAGITAL', 'DOMNANT', 'ABdution', 'Harmstring'...); our names use correct spelling (COACH-ANSWER FIX-04: correct them in the generator, leave the sheets as they are). Nothing in Google Sheets was modified.
 
-## v1 - coach answers applied
+## v1.1 - round-2 answers applied
+
+What changed, in short: the '21.6 mile run' is gone; the KB face pull is shoulder work; bench push-ups exist in both versions; six coach-approved library items and levels are in, plus three home exercises; KB swings are ballistic and never count as glute sets; thrusters count 1.0 quads / 0.5 shoulders / 0.25 glutes; every jump and throw says whether it is ballistic, plyometric or a landing ('receive') drill and every jump carries its Receive-Create stage; every Olympic lift says whether it belongs to a clean day (squat-leaning) or a snatch day (hinge-leaning), how many reps, and how to pick the weight; Olympic lifts, plyos and depth jumps are off by default for clients aged 60+ (opt-in with a warning); the coach's counted spine-loading lifts are tagged; zones are tags only; every eligible exercise lists the one detail that may change between blocks; 22 PROPOSED-ADDITION exercises cover swimming dryland, HYROX, pickleball and other court sports, neck and grip work, skiing, hiking and older adults. Nothing in Google Sheets was modified.
+
+### Changes by question ID (v1.1)
+
+| question | change applied in v1.1 | records |
+|---|---|---|
+| R2-LIB-01 | One-detail variation grammar approved: the library exercise is always the main pick; between blocks the tool may change ONE detail - which hand holds the weight, grip, stance, implement or range - and shows it as 'Reverse Lunge - dumbbell in the opposite hand'. It never invents an exercise. `variation_v1_1.axes` lists the details each eligible exercise allows (axes INFERRED from set-ups, pattern and laterality); the coach's modifiers (section 9) are the detail vocabulary; one detail per block change (also PER-02). | 553 |
+| R2-LIB-02 / R2-LIB-03 | Zones are tags only: zones 1 and 3 = vertical, external-rotation positions (arms low / arms overhead or deep squat), zone 2 = horizontal, internal-rotation; the level comes from load position, skill and stability, made easier by a seat, machine or cable (a deep goblet squat stays FOUNDATIONAL; a seated DB shoulder press or a lat pulldown is FOUNDATIONAL though overhead). Keep both rotation biases in every week and use the bias to pick swaps when something hurts; not by sport. `davidson_zone.basis` rewritten and `davidson_zone.use_v1_1` added; no level changed (the approved examples already hold). | 196 |
+| R2-LIB-04 / LIB-10 | KB Face Pull: shoulder work (side / rear delts / traps), a rear-delt option and a swap only - never the main vertical pull; programmed on pull or shoulder days, adjustable (`day_placement_v1_1`). Moved from VERTICAL PULL to the SIDE RAISES pool; credit SHOULDERS/TRAPS 1.0 (was + BACK 0.25 + BICEP 0.25). | 1 |
+| R2-LIB-05 / LIB-12 | Bench push-ups, both versions: 'Bench Push-Up - Hands on Bench (incline)' = FOUNDATIONAL (keeps the id, BYOP AD13) and the new 'Bench Push-Up - Feet on Bench (decline)' = ADVANCED (takes AF11 and Sheet23 Z4). | 2 |
+| R2-LIB-06 | The '21.6 mile run' is removed from plans and tests: record retired (`retired_v1_1`); the longest run stays the half-marathon plan, used as-is. | 1 |
+| R2-LIB-07 | Approved additions and levels: Belt Squat and Seated Machine Shoulder Press = FOUNDATIONAL; Hang Clean, Single-Arm DB Snatch, KB Squat Clean and Hex-Bar Jump Squat = FOUNDATIONAL triple-extension library items (now default candidates, `library_v1_1`); three new home records: Kettlebell Curl, Table Row (inverted row under a sturdy table), Floor Prone Y / T Raises (status `added_v1_1`). The ~120 program-only exercises stay dropdown swaps until the coach adds them (approved). | 9 |
+| R2-LIB-08 | 'NO ACCESS' = the self-serve version without coach access, using the full gym library; its 'Unilateral HD' slot reads the single-leg hinge list (AQ), not the leg curls (AR). Applied in `02_no_equipment_subset.md` section 6; the JSON keeps the OBSERVED wiring cells. | - |
+| R2-VOL-05 | KB swings (Russian, American, split-stance single-arm) are ballistic / athletic and never count as glute (or any muscle) sets: credit 0 (was GLUTES 1.0 + HAMSTRINGS 0.25), class athletic, power reps; pools TX (ballistic slot, INFERRED) + their hip-dominant pool as a swap that fills 0 sets (`generator.pool_roles_v1_1`, `volume_credit.by_pool`; `generator.default_candidate_by_pool` makes the Russian and split-stance swings default picks only in TX, never in the hip-dominant slot - adversarial check). The trunk-driven rotational swing stays a core drill, tagged ballistic. Thrusters = 1.0 quads + 0.5 shoulders + 0.25 glutes. Glutes 0.25 on squats, lunges, deadlifts and RDLs confirmed; 7 squats that gave no glute credit (heels-elevated goblet, hack, landmine hack, pendulum, object-between-the-knees, wall-assisted, barbell zercher) now give 0.25 (INFERRED application; the sissy squat has no hip extension). | 14 |
+| R2-ATH-02 | `contact_class_v1_1` on every jump and throw (plus the swings and the conditioning items that contain a jump): 68 ballistic, 70 plyometric, 12 receive (stick-the-landing / depth-drop landings). Named items follow the coach's list; the rest follow his rule (INFERRED). Four v1 qualities changed: DB Repeated Squat Jumps, DB Staggered-Stance Switch Jump and RFE Lunge Jumps (suitcase DB) are loaded jumps = ballistic; Plyometric Push-Ups = plyometric (repeated, INFERRED). Unloaded continuous split / lunge jumps stay plyometric (repeated jumps). | 140 |
+| R2-ATH-03 | Plyo progression named 'Receive-Create stages': 1 Land, 2 Land & Go, 3 Repeat. 12-week block weeks 1-3 / 4-7 / 8-12; 8-week 1-2 / 3-5 / 6-8; restart at stage 1 each off-season; stay put in maintenance blocks; intermediate and advanced athletes may start at stage 2. `athletic_quality.receive_create_stage` on every jump (the default stage is only what the name implies; the program picks the stage per block); the 'name PENDING' wording is gone. | 96 |
+| R2-ATH-04 / R2-ATH-05 / R2-GEN-06 | `olympic_v1_1` on every Olympic-type lift: clean family = squat-leaning clean days (16), snatch family = hinge-leaning snatch days (18), jerks = either day (4, INFERRED), hex-bar jump = loaded jump (1); up to 4 x per week. Reps: full squat cleans / snatches 3-5 per set (same weekly reps, e.g. 6 x 5 @ 75 %), DB / KB and pull variants keep the 4 x 8 @ 75 % -> 4 x 4 @ 90 % ramp, power / hang versions 3-5 (INFERRED); the coach's eye on speed. Weight by RPE / reps in reserve and bar speed (power output); % of 1RM only for competitive Olympic lifters (their own programming). 'Hang Clean (% of 1RM; catch not stated)' renamed 'Hang Clean (catch not stated)'. | 39 |
+| R2-ATH-08 | `older_default_excluded` on 141 records: every PLYO / ANKLE item, the three hop grids, every Olympic lift or derivative (incl. push jerks), the hex-bar jump, the jumping conditioning items (burpees, jumping jacks, burpee broad jump - with a no-jump swap) and, since the adversarial check, the PROPOSED split-step drill (classed plyometric; the no-hop split-step is its 60+ default). For 60+ they are off by default and available as an option, with warning key WARN_60PLUS_POWER_WORK: 'Make sure that you have a fitness professional to help you understand what this means.' (the coach's words; Spanish draft pending approval, R2-GEN-08). The ATH-09 'few plyos unless they ask' rules now read 'off by default, opt-in with the warning'; the EQ-03 'never' rules on snatches and depth jumps now name injured / high-volume clients, with older adults on the R2-ATH-08 opt-in (the barbell overhead squat and low-bar squat keep 'never' for all three groups). Youth: Olympic lifts from the floor from about 14, after one block of hang work (6 floor lifts). | 140 |
+| R2-SES-01 / R2-SES-02 | `axial_spinal_load.spine_day_v1_1` on 158 records: 25 counted heavy spine lifts (17 named by the coach: barbell back / front / zercher / overhead / Smith squats, barbell or trap-bar deadlifts and RDLs, good mornings; the rest barbell / trap-bar variants, INFERRED), 25 second-day options if not sore (goblet, hack, pendulum named; other front-loaded DB / KB / landmine / machine squats and hinges INFERRED), 40 Olympic / triple-extension lifts not counted, 68 other lifts not counted (leg press, belt squat, hip thrusts, back extensions, reverse hyper, single-leg work named; a few INFERRED; the adversarial check moved 4 calf raises here from the second-day list - calves run every leg day, VOL-17). The approved rule (heavy squat and heavy deadlift on two different days; non-axial hinge, leg press or belt squat on the other days) replaces the v1 'PENDING' encoding. | 156 |
+| R2-PER-07 | `test_rules_v1_1` on the 13 test records: test before the block (or in week 1) and at the end, never mid-block; untrained people never test all-out from zero (an 80-90 % effort instead of a max mile; 5RM / 3RM, never a 1RM). | 13 |
+| R2-GEN-02 | Videos are optional (people can look them up on YouTube; the coach's own videos come later): the v1 'video links still to do' item is closed as optional; `video_urls` keeps the OBSERVED links. | - |
+| R2-GEN-08 | Spanish names: neutral Latin American Spanish with the English gym term in brackets ('Empuje de cadera (Hip Thrust)'), every line approved by the coach or a coach he trusts. The format is recorded here; the names are not written yet (translation + approval pending). | - |
+| R2-ATH-01 | The plyo : ballistic shares by sport are approved; they live in `04_profiles.json` and use the `contact_class_v1_1` tag added here. | - |
+| Sport expansion (coach request 2026-10-08) | 22 PROPOSED-ADDITION records (section 2.8: swimming dryland, HYROX stations, pickleball / court sports, neck and grip work for collision and grappling sports, skiing, hiking and older-adult needs; never band-based) and `sport_use_v1_1` tags on 38 existing records that the new sports use (lateral shuffles, rotational and overhead medball throws, sled push, farmer carry, ergs, Y / T raises, face pulls ...). `profile_category_v1_1` maps each new record to the 04_profiles category vocabulary (ISO_NECK, ISO_GRIP, ISO_REAR ...). | 60 |
+
+### New fields (v1.1)
+
+| field | content | question IDs | records |
+|---|---|---|---|
+| contact_class_v1_1 | ballistic / plyometric / receive + basis | R2-ATH-02, R2-VOL-05 | 150 |
+| athletic_quality.receive_create_stage (+ plyo_method_rule_v1_1) | default stage 1-3 as named, stages available, evidence; the approved stage timing | R2-ATH-03 | 96 |
+| olympic_v1_1 | family (clean / snatch / jerk / loaded jump), day pattern, weekly frequency, reps, load guidance | R2-ATH-04, R2-ATH-05, R2-GEN-06 | 39 |
+| older_default_excluded | 60+ default exclusion, opt-in, warning key (+ default_swap for jumping conditioning items and the split-step) | R2-ATH-08 | 141 |
+| axial_spinal_load.spine_day_v1_1 | counted heavy spine lift / second-day option if not sore / not counted | R2-SES-01, R2-SES-02 | 158 |
+| davidson_zone.use_v1_1 | zone = tag; use the bias to pick swaps when something hurts | R2-LIB-02, R2-LIB-03 | 196 |
+| variation_v1_1 | the one-detail changes allowed between blocks (axes) | R2-LIB-01 | 553 |
+| test_rules_v1_1 | when to test and the untrained submax rule | R2-PER-07 | 13 |
+| day_placement_v1_1 | pull or shoulder day, adjustable (KB face pull) | LIB-10 | 1 |
+| library_v1_1 | added to the master library / level set by the coach | R2-LIB-07 | 6 |
+| retired_v1_1 | why a record left the active catalog in v1.1 | R2-LIB-06 | 1 |
+| new_in_v1_1 | coach-approved addition / split / PROPOSED-ADDITION, with why it is needed | R2-LIB-05, R2-LIB-07, sport expansion | 26 |
+| sport_use_v1_1 | sports that use the item (plain names; the profile merge maps them to 04_profiles ids) | sport expansion (INFERRED) | 64 |
+| profile_category_v1_1 | 04_profiles category of a new record (ISO_NECK, ISO_GRIP, ISO_REAR, CORE ...) | sport expansion | 20 |
+| generator.pool_roles_v1_1 / volume_credit.by_pool / generator.default_candidate_by_pool | swings: TX = ballistic slot; hip-dominant pool = swap that fills 0 sets; per-pool default flag (default only in TX; added by the adversarial check) | R2-VOL-05 | 3 |
+| v1_1_changes | per-record round-2 changelog (question ID, change, evidence; adversarial-check entries carry `pass`) | all | 733 records, 2182 entries (762 from the adversarial check: 29 targeted fixes + 733 `muscle_size_class_basis` rewrites) |
+| *_v1 fields (name_v1, level.primary_v1, per_set_v1, pattern_code_v1, record_type_v1 ...) | the v1 value a round-2 answer replaced | various | 230 |
+
+### Resolved by round 2 (pending in v1)
+
+- **LIB-14 vs VOL-09 (thrusters)**: R2-VOL-05 - 1.0 quads + 0.5 shoulders + 0.25 glutes.
+- **CAT-04 (back squats ADVANCED)**: R2-LIB-02 approved the principle (level from load position, skill and stability), which is the reading that moved them; no change.
+- **EQ-03 extension (High Depth Drop)**: for older adults R2-ATH-08 replaces 'never' with 'off by default, opt-in with a warning'; for injured / high-volume clients the INFERRED 'never' stays.
+- **PER-04 encoding (axial)**: R2-SES-01 / R2-SES-02 - two different heavy days; the counted list and the 'fine on the second day if not sore' list are approved.
+- **LIB-10, LIB-12**: R2-LIB-04 / LIB-10 and R2-LIB-05 / LIB-12.
+- **PRG-01 / FIX-01 (NO ACCESS)**: R2-LIB-08.
+- **LIB-18 (21.6 mi)**: R2-LIB-06 - removed.
+- **CAT-11 (name of the plyo progression)**: R2-ATH-03 - 'Receive-Create stages'.
+- **GEN-06 (videos)**: R2-GEN-02 - optional.
+- **Program-only exercises**: R2-LIB-07 - they stay dropdown swaps until the coach adds them.
+
+### Still pending (catalog-related, v1.1)
+
+- **PROPOSED-ADDITION (new)**: the 22 items in section 2.8 need the coach's approval (levels, doses and sport fit are INFERRED); until then they are swaps only, never default picks.
+- **LIB-19**: the 9 PROPOSED carries / drags (v1) still need approval; HYROX now uses the sled push and farmer carry, so they are flagged with `sport_use_v1_1`. POSTERIOR OBLIQUE and LATERAL SUBSYSTEM headings are still empty.
+- **R2-VOL-05 application**: the KB swing's TX (ballistic) pool and the glute 0.25 added to 7 squats are our reading of his rule (INFERRED).
+- **R2-ATH-02 edge cases**: loaded repeated jumps are read as ballistic (load) and unloaded continuous split / lunge jumps as plyometric (repeated) - INFERRED tie-breaks.
+- **CAT-02**: traps, front delts, adductors and neck still have no big / small class (neck now has two PROPOSED exercises that count no sets).
+- **SLOT FIT** (never asked): front raises sit in the 'ABdution' side-raise pool.
+- **LIB-02 follow-up**: the Push-Up Box Jump set-up.
+- **GEN-01 / R2-GEN-08**: Spanish names to write and have approved.
+- **v1 questions not asked in round 2** (10.2 #2, #4, #5, #6, #7, #8, #9): strap rotations, full lifts from INTERMEDIATE, constraint 4-5 machines for every FOUNDATIONAL client, biceps 0.25 on pulls, carries as core sets, toes-to-bar / knees-to-chest homes, push-up box jump.
+- **Adversarial check (v1.1)**: the 60+ no-hop split-step default (10.3 #3) and the 14 / 17 / 20-mile distance tests (10.3 #5).
+- New questions raised in v1.1 are in section 10.3.
+
+## v1 - coach answers applied (round 1; kept as history, annotated where round 2 changed it)
 
 What changed, in short: bands, chains and weight releasers are gone from every active record (36 band or variable-resistance items are now `out_of_scope`, 18 records lost a band set-up, and every band substitute now points to a non-band option); 10 records are retired (the Camporini deadlift and the two strap squats the coach removed, plus 7 near-duplicates merged into their twin); 12 records are new (2 machines the coach approved, 1 plyo variant he described, 9 PROPOSED carries and drags); knee-flexion work has its own LEG FLEXION pool; every active record now says how much one set counts toward each muscle (helpers 0.25, athletic work 0), how constrained it is (1-5), which generator pool it feeds and whether it can be the default pick.
 
@@ -14,7 +90,7 @@ What changed, in short: bands, chains and weight releasers are gone from every a
 
 | question | change applied in v1 | records |
 |---|---|---|
-| CAT-02 | Big / small muscle classes confirmed (big = quads, glutes, hamstrings, lats/upper back, chest; small = biceps, triceps, side and rear delts, calves, forearms, abs). Every record's `muscle_size_class_basis` cites it. Traps, front delts, adductors and neck are still unplaced. The size class is descriptive (rep ranges, VOL-11) and never sets the weekly 3 / 5 / 7% increase, which the person's state chooses (COACH-ANSWER VOL-05, UNI-05; stated in every `muscle_size_class_basis`). | 707 |
+| CAT-02 | Big / small muscle classes confirmed (big = quads, glutes, hamstrings, lats/upper back, chest; small = biceps, triceps, side and rear delts, calves, forearms, abs). Every record's `muscle_size_class_basis` cites it. Traps, front delts, adductors and neck are still unplaced. The size class is descriptive (rep ranges, VOL-11) and never sets the weekly 3 / 5 / 7% increase, which the person's state chooses (COACH-ANSWER VOL-05, UNI-05; stated in every `muscle_size_class_basis`). **[v1.1: 'the person's state' no longer includes life / sleep / stress (COACH-R2 R2-GEN-04): the plan follows its planned stairway (R2-PER-03 / R2-PER-04), does not change without a check-in (R2-VOL-03), and a check-in step comes from effort, completion and pain only (R2-VOL-01); all 733 `muscle_size_class_basis` texts rewritten by the adversarial check]** | 707 |
 | CAT-04 / CAT-10 | Pat Davidson zones are rotation biases: zone 1 = vertical, load low and close (external rotation), zone 2 = horizontal, hands in front / knee at hip height (internal rotation, compressive), zone 3 = vertical overhead or deep squat (external rotation). `davidson_zone` added where the 10_equipment_model tags a zone; zones do not apply to plyos. The cable-curl 'Zone 1/2/3' flag is closed (arm position). Front-loaded zercher stays FOUNDATIONAL (Box Zercher level conflict closed). Load behind the body / overhead = ADVANCED: High-Bar, Low-Bar and 'Back Squat (bar position not stated)' moved to ADVANCED ('A barbell back squat is more advanced'; BYOP filed them MODERATE / untiered, kept in `level.byop_placements`) and the Overhead Box Squat to ADVANCED (adversarial check). Machines and cables are easier, so constraint 4-5 machines may be offered from FOUNDATIONAL (`level.generator_min_level`, with EQ-04). | 185 zones; 15 machines; 4 levels |
 | CAT-05 / CAT-06 / PRG-05 | Levels add options and never remove them, and client level is separate from exercise level: `level.generator_min_level` = the lowest exercise-skill tier (movement competence, not the client's volume level L1-L3) the generator may offer it to; higher tiers can always pick it. Levels are still theoretical, so they are defaults, not rules. Client volume levels per PRG-05: L1 = novice / newby (the same thing: under about 6-12 months of training, or back after 6-12+ months off), L2 = intermediate (over a year of consistent training), L3 = advanced (second adversarial check: `generator_min_level_axis` had read 'L1-L3 = NOVICE / NEWBY / INTERMEDIATE', the retired v0 ladder). | 707 |
 | CAT-07 | BYOP MASTER EXERCISE LIBRARY = single source of truth: only BYOP-selectable items (plus items a coach answer added) can be the default pick in a slot; reference and program items are dropdown swaps (`generator.default_candidate`). | 360 defaults |
@@ -28,17 +104,17 @@ What changed, in short: bands, chains and weight releasers are gone from every a
 | VOL-10 | Athletic patterns (plyos, throws, Olympic lifts, sprints, change of direction) never count toward muscle volume: `volume_credit.counts_toward_muscle_volume = false`, tracked as contacts / throws / power reps / meters. The 4 push presses / push jerks sit in both the VERTICAL PUSH and TRIPLE EXTENSION pools; `volume_credit.by_pool` now says they count only in the VERTICAL PUSH slot and are power reps in the triple-extension slot (second adversarial check: the JSON had counted them everywhere). | 323 + 4 |
 | VOL-17 | Rear delts get their own sets: `delt_head` (side / rear / front) on every shoulder-isolation record so the generator can track rear-delt sets apart from side raises. | 22 |
 | PER-02 | Modifiers are only for the 1-2 small variable changes between 4-6 week blocks (grip, stance, implement, ROM, rep range), never all at once. CAT-12 ('I don't understand the question') needs no other answer. | 51 |
-| PER-04 / EQ-11 | `axial_spinal_load` on lower-body and triple-extension records: squat with the bar once a week (deadlifts load the spine too); the second knee-dominant day takes a no-axial option (leg press, new Belt Squat). The Smith machine squat is axial 'high' (bar on the back; was 'moderate', corrected by the adversarial check). Encoding added by the second check (INFERRED - PENDING COACH APPROVAL): 'high' = the week's one axial squat; the other knee-dominant day takes 'none' or 'low'; 'moderate' (goblet / DB / KB / hack / pendulum / landmine) only when the client is not sore and not already axially loaded that week. | 156 |
+| PER-04 / EQ-11 | `axial_spinal_load` on lower-body and triple-extension records: squat with the bar once a week (deadlifts load the spine too); the second knee-dominant day takes a no-axial option (leg press, new Belt Squat). The Smith machine squat is axial 'high' (bar on the back; was 'moderate', corrected by the adversarial check). Encoding added by the second check (INFERRED - PENDING COACH APPROVAL): 'high' = the week's one axial squat; the other knee-dominant day takes 'none' or 'low'; 'moderate' (goblet / DB / KB / hack / pendulum / landmine) only when the client is not sore and not already axially loaded that week. **v1.1: approved as R2-SES-01 / R2-SES-02 (counted list and second-day list tagged in `spine_day_v1_1`).** | 156 |
 | GEN-04 | Every record has a `generator` block: eligible, pool(s) for the default pick and the same-category dropdown swaps, default_candidate, and why. | 913 |
 | GEN-07 | Set-ups the coach described are stored as `coach_cues` (with their question ID). | 70 |
 | GEN-08 | No V-squat ever: V-Squat (machine) is `generator.eligible = false`. | 1 |
 | ATH-04 | Boxers / striking athletes in high punching-volume weeks: pressing and arm-isolation sets go down but are never cut out completely (`population_rules` on every horizontal / mid-range / vertical push, biceps and triceps record; added by the second adversarial check). | 96 |
 | ATH-05 | No medball throwing in the main workout for aesthetics / bodybuilding clients: warm-up only (`population_rules` on every throw). | 41 |
 | ATH-08 | Pitchers: less overhead pressing (every VERTICAL PUSH record), more arm care (ARMCARE), rotational throws kept light (25 rotational throws) (`population_rules`; added by the second adversarial check). | 55 |
-| ATH-09 | Older adults: few plyos unless they ask (tag on every plyo / ankle record); no sex-based rules; youth may do Olympic lifts from the floor when the program calls for them. | 101 |
+| ATH-09 | Older adults: few plyos unless they ask (tag on every plyo / ankle record); no sex-based rules; youth may do Olympic lifts from the floor when the program calls for them. **v1.1: COACH-R2 R2-ATH-08 - 60+ = no Olympic lifts, plyos or depth jumps by default, opt-in with a warning; youth from the floor from about 14 after a hang block.** | 101 |
 | ATH-10 | Everyone in athletic training gets Olympic lifts. Beginner options (DB/KB snatch, KB clean, DB/KB high pull, hex-bar jump squat, hang cleans, including the high-hang and mid-hang power clean, the easy end of the coach's EASY->HARD order) -> FOUNDATIONAL; power clean / power snatch / power clean & jerk -> INTERMEDIATE (BYOP files them ADVANCED); low-hang power clean stays INTERMEDIATE; squat versions stay ADVANCED. The Hex-Bar Jump Squat (one of the coach's named beginner options) was only in the PLYO pool, so a beginner's Olympic slot could not reach it: it is now in the TRIPLE EXTENSION pool too (second adversarial check). | 13 |
 | EQ-01 / EQ-02 / EQ-07 / EQ-08 | No bands anywhere. Band-dependent exercises are `out_of_scope` with a non-band replacement (band row -> DB/KB row or inverted row; band-assisted pull-up -> assisted machine, jumping pull-up or ring/TRX pull-up; banded leg extension -> DB leg extension or sissy squat; banded hamstring curl -> slider / ball curl or Nordic; knee-banded anti-rotation chops -> the coach's object-between-the-knees version). Band set-ups were removed from records that also have a cable / DB option, 'bands_only' substitutes were deleted, and band chops are gone from the no-medball substitutes (now plyo push-ups, fast cable rotations or the fake medball slam). T1 is redefined without bands (the `min_access_tier_label` of 38 active records still read 'T1 minimal kit (bands, ...)' and was fixed by the adversarial check, as were 8 `related` links to band / chain variants, now tagged `v1_status: out of scope`, the leg-extension video entry that embedded the banded-leg-extension video, the band cue on the plyo push-up alias and two drag headings that suggested band drags). The second adversarial check also marked the 'REVERSE BANDED' cue on the Single-Leg Squirrel Jumps alias / dose out of scope, flagged the v0 'band face pull?' reading on the KB Face Pull, and made the 7 rotational throws' no-ball substitute lead with the coach's own Fake Medball Slam & Return (EQ-07: substitute, don't skip). | 40 + 9 |
-| EQ-03 | Older / injured / high-volume clients: never overhead squat, snatch, low-bar squat or depth jumps (`population_rules: never`), and constrained machines are preferred (constraint 4-5). The second adversarial check added the High Depth Drop (above hip height) as an INFERRED extension - PENDING COACH APPROVAL (its landing is at least a depth jump's). | 30 never + 1 INFERRED |
+| EQ-03 | Older / injured / high-volume clients: never overhead squat, snatch, low-bar squat or depth jumps (`population_rules: never`), and constrained machines are preferred (constraint 4-5). The second adversarial check added the High Depth Drop (above hip height) as an INFERRED extension - PENDING COACH APPROVAL (its landing is at least a depth jump's). **v1.1: for older adults the snatches and depth jumps are now 'off by default, opt-in with a warning' (COACH-R2 R2-ATH-08); 'never' stays for injured / high-volume clients and for the overhead squat and low-bar squat.** | 30 never + 1 INFERRED |
 | EQ-04 | FOUNDATIONAL older or injured clients may use the machines filed MODERATE / ADVANCED (leg press, pendulum, hip thrust machine); applied to every constraint 4-5 resistance machine via `level.generator_min_level` (INFERRED extension, see open questions). | 15 |
 | EQ-05 | New record: Seated Machine Shoulder Press (VERTICAL PUSH had no machine option). | 1 |
 | EQ-06 | Medballs never over 20 lb; slams 10-20 lb, overhead throws 6-10 lb, sit-up throws 6-8 lb, passes and rotations 8-10 lb, lighter for youth and older clients (`implement_load` on every medball record). | 92 |
@@ -56,15 +132,15 @@ What changed, in short: bands, chains and weight releasers are gone from every a
 | LIB-07 | Full Snatch / Clean / Clean & Jerk renamed Squat Snatch / Squat Clean / Squat Clean & Jerk; Weighted Squat to Calf Raise takes any implement. | 4 |
 | LIB-08 | No levels on the GHD (level 'any'). | 1 |
 | LIB-09 | Camporini deadlift and strap rotating in / out retired; Pull under = Lat Pull-over (cable) (the pull-under record merged into it); set-ups stored for Kong Row (double-KB row from the floor, low stimulus, for shoulder/back pain, FOUNDATIONAL), Low DB Squat (DBs hanging at the sides), Single-Leg Get-Up (box pistol) and the alternating staggered-stance single-leg deadlifts (DB and barbell). Second adversarial check: the Kong Row still carried the v0 Kroc-row dose '10-20 each arm' (now 8-15 reps, both KBs together), and the v0 'meaning unknown / ask coach' notes on these records are now marked superseded. | 10 |
-| LIB-10 | KB Face Pulls: unanswered - stays PENDING (kept in VERTICAL PULL as a swap only, rear-delt credit INFERRED). | 1 |
+| LIB-10 | KB Face Pulls: unanswered - stays PENDING (kept in VERTICAL PULL as a swap only, rear-delt credit INFERRED). **v1.1: answered (COACH-R2 R2-LIB-04 / LIB-10) - shoulder work in the SIDE RAISES pool, swap only.** | 1 |
 | LIB-11 | The second 'Standing DB Press' (AA51 / AB14) is the standing barbell press: cells moved to Standing Barbell Overhead Press (now ADVANCED). | 2 |
-| LIB-12 | Bench Push-ups: unanswered - stays PENDING (v0 reading kept). | 1 |
+| LIB-12 | Bench Push-ups: unanswered - stays PENDING (v0 reading kept). **v1.1: answered (COACH-R2 R2-LIB-05 / LIB-12) - two records, hands on bench FOUNDATIONAL, feet on bench ADVANCED.** | 1 |
 | LIB-13 | Push press is the easier lift (FOUNDATIONAL, including the DB / single-arm / seesaw versions); push jerk is INTERMEDIATE to ADVANCED. | 7 |
-| LIB-14 | Thrusters are conditioning-leaning and count 1.0 quads + 0.5 shoulders wherever they are picked (LIB-14 RIGHT with no text = his rule; an exercise-specific answer kept over the VOL-09 helper default 0.25, the same way dips keep 0.5 / 0.5; matches `12_volume_algorithm_v1.md`). v1 had applied 0.25; corrected by the adversarial check; confirmation question 10.2 #10. | 3 |
+| LIB-14 | Thrusters are conditioning-leaning and count 1.0 quads + 0.5 shoulders (v1.1: + 0.25 glutes, R2-VOL-05) wherever they are picked (LIB-14 RIGHT with no text = his rule; an exercise-specific answer kept over the VOL-09 helper default 0.25, the same way dips keep 0.5 / 0.5; matches `12_volume_algorithm_v1.md`). v1 had applied 0.25; corrected by the adversarial check; confirmation question 10.2 #10. **v1.1: COACH-R2 R2-VOL-05 - 1.0 quads + 0.5 shoulders + 0.25 glutes.** | 3 |
 | LIB-15 | Leg extension and leg curls are available at every level (the 'ADVANCED' / 'UNILATERAL' labels were typos; lying / seated leg curls are bilateral). | 5 |
 | LIB-16 | Dips count 0.5 chest + 0.5 triceps and belong on push days; upright rows stay side-delt work. | 4 |
 | LIB-17 | Near-duplicates merged: v0 merges confirmed (seated DB curls, side planks, ball hamstring curls, DB calf raises) and 7 more merged (pull-under -> lat pull-over, the two conventional deadlifts, the two pronated barbell rows, the two deficit reverse lunges, BALLISTICS 'drop and jump' -> Depth Jump, and the two weighted drop-release-jump pairs). | 16 |
-| LIB-18 | '21.6 mile run' = 'a marathon' per the coach, but a marathon is 26.2 mi: flagged, not a default test. | 1 |
+| LIB-18 | '21.6 mile run' = 'a marathon' per the coach, but a marathon is 26.2 mi: flagged, not a default test. **v1.1: removed from plans and tests (COACH-R2 R2-LIB-06); record retired.** | 1 |
 | LIB-19 | Carries and drags are for athletes and general fitness, the sling systems for advanced athletes and rehab (`audience_v1`). 9 PROPOSED starter carries / drags fill the empty CARRY / DRAGS headings (farmer handles, trap bar, KB, sandbag, sled). | 31 |
 | LIB-21 | Speed-session order is fixed: squirrel jumps -> MACH drills / acceleration starts -> max-velocity sprint (`speed_session`). MACH drills, A-march / A-skip / A-runs, acceleration and falling starts join the library; the max-velocity sprint moves from PLYO to SPRINT. | 9 |
 | LIB-22 | Medball 'ALL LIST' = one pass, 1 x 10 each throw (~200 throws). | 1 |
@@ -99,28 +175,28 @@ What changed, in short: bands, chains and weight releasers are gone from every a
 | flags_resolved_v1 | v0 flags closed by an answer (flag, question ID, how) | various | 53 |
 | *_v0 fields (name_v0, level.primary_v0, pattern_code_v0, plane_v0 ...) | the v0 value an answer replaced | various | 134 |
 
-### Still pending (catalog-related)
+### Still pending in v1 (status after round 2 in brackets)
 
-- **LIB-14 vs VOL-09 (confirm)**: thrusters now count 0.5 shoulders as LIB-14 approved; confirm that over the 0.25 helper default.
-- **CAT-04 (confirm)**: high-bar / low-bar back squats moved from BYOP MODERATE to ADVANCED by your 'barbell back squat is more advanced'; confirm.
-- **EQ-03 extension (confirm)**: the High Depth Drop (above hip height) is now 'never' for older / injured / high-volume clients (INFERRED from 'never depth jumps').
-- **PER-04 encoding (confirm)**: 'moderate' axial squats (goblet, DB / KB, hack, pendulum, landmine) allowed on the second knee-dominant day only when the client is not sore or already axially loaded (INFERRED).
-- **LIB-10** KB Face Pulls under VERTICAL PULL - unanswered. Kept where the sheet files it, swap-only, rear-delt credit INFERRED.
-- **LIB-12** Bench Push-ups, hands or feet on the bench - unanswered. v0 reading kept (FOUNDATIONAL in AD13, ADVANCED in AF11).
-- **PRG-01 / FIX-01** (SKIP): what 'NO ACCESS' means, and whether its Unilateral HD slots should read AQ (single-leg hinge) instead of AR (leg curls). See `02_no_equipment_subset.md` section 6.
+- **LIB-14 vs VOL-09 (confirm)**: thrusters now count 0.5 shoulders as LIB-14 approved; confirm that over the 0.25 helper default. [answered: R2-VOL-05]
+- **CAT-04 (confirm)**: high-bar / low-bar back squats moved from BYOP MODERATE to ADVANCED by your 'barbell back squat is more advanced'; confirm. [principle approved: R2-LIB-02]
+- **EQ-03 extension (confirm)**: the High Depth Drop (above hip height) is now 'never' for older / injured / high-volume clients (INFERRED from 'never depth jumps'). [older: R2-ATH-08 opt-in; injured / high-volume: still INFERRED]
+- **PER-04 encoding (confirm)**: 'moderate' axial squats (goblet, DB / KB, hack, pendulum, landmine) allowed on the second knee-dominant day only when the client is not sore or already axially loaded (INFERRED). [answered: R2-SES-02]
+- **LIB-10** KB Face Pulls under VERTICAL PULL - unanswered. Kept where the sheet files it, swap-only, rear-delt credit INFERRED. [answered: R2-LIB-04 / LIB-10]
+- **LIB-12** Bench Push-ups, hands or feet on the bench - unanswered. v0 reading kept (FOUNDATIONAL in AD13, ADVANCED in AF11). [answered: R2-LIB-05 / LIB-12 - both]
+- **PRG-01 / FIX-01** (SKIP): what 'NO ACCESS' means, and whether its Unilateral HD slots should read AQ (single-leg hinge) instead of AR (leg curls). See `02_no_equipment_subset.md` section 6. [answered: R2-LIB-08 - self-serve version; AQ]
 - **LIB-02 follow-up**: the Push-Up Box Jump set-up (only the stick-the-landing drill was described).
-- **LIB-18 follow-up**: 21.6 mi vs a 26.2 mi marathon.
+- **LIB-18 follow-up**: 21.6 mi vs a 26.2 mi marathon. [answered: R2-LIB-06 - removed]
 - **LIB-19**: the 9 PROPOSED carries / drags need approval; the POSTERIOR OBLIQUE and LATERAL SUBSYSTEM headings are still empty; which slot carries, drags and slings feed (core block, warm-up or conditioning) is not stated.
-- **CAT-11**: the coach has not named the receive -> create progression; `plyo_method` labels are PROPOSED.
+- **CAT-11**: the coach has not named the receive -> create progression; `plyo_method` labels are PROPOSED. [answered: R2-ATH-03 - Receive-Create stages]
 - **CAT-02**: traps, front delts, adductors and neck have no big/small class yet.
 - **SLOT FIT** (never asked): front raises sit in the 'ABdution' side-raise slot pool.
-- **GEN-06**: video links - 136 of 707 active records have one; the rest need links ('thats a lot of work but needs to get done').
-- **GEN-01**: Spanish names (full Spanish toggle) are not in the catalog yet.
-- **Program-only exercises** (v0 question 5): only the items a coach answer named were added to the library; the rest stay swap-only until the coach adds them to BYOP (CAT-07).
+- **GEN-06**: video links - 136 of 707 active records have one; the rest need links ('thats a lot of work but needs to get done'). [R2-GEN-02: videos optional]
+- **GEN-01**: Spanish names (full Spanish toggle) are not in the catalog yet. [R2-GEN-08: format approved; names still to write]
+- **Program-only exercises** (v0 question 5): only the items a coach answer named were added to the library; the rest stay swap-only until the coach adds them to BYOP (CAT-07). [R2-LIB-07: approved as is]
 
 ## 1. What was merged
 
-Every exercise-like record from the decode outputs was loaded, normalised (case, spaces, plurals, the coach's typos, URL removal, dose prefixes such as `2x 3` and intensity cues such as `HEAVY`/`FAST`/`@ 75%` stripped into an alias `cues` field) and grouped. Near-duplicates were merged by hand (section 5; the coach confirmed the merge policy, COACH-ANSWER LIB-17). Program line items that matched no library name became **program-only** records, **complex** records (supersets, contrasts, circuits, sequences) or **generic choice** records (`X or Y`). v1 adds 7 more merges, splits one (LIB-03) and adds 12 new records (section 3).
+Every exercise-like record from the decode outputs was loaded, normalised (case, spaces, plurals, the coach's typos, URL removal, dose prefixes such as `2x 3` and intensity cues such as `HEAVY`/`FAST`/`@ 75%` stripped into an alias `cues` field) and grouped. Near-duplicates were merged by hand (section 5; the coach confirmed the merge policy, COACH-ANSWER LIB-17). Program line items that matched no library name became **program-only** records, **complex** records (supersets, contrasts, circuits, sequences) or **generic choice** records (`X or Y`). v1 adds 7 more merges, splits one (LIB-03) and adds 12 new records (section 3). v1.1 splits one more (bench push-ups, R2-LIB-05), retires one (21.6-mile run, R2-LIB-06) and adds 25 new records (3 coach-approved home items, R2-LIB-07; 22 PROPOSED-ADDITION sport items, section 2.8).
 
 | Source | Rows mapped (crosswalk, unchanged) |
 |---|---|
@@ -136,13 +212,13 @@ Every exercise-like record from the decode outputs was loaded, normalised (case,
 
 Equipment requirements for BYOP library cells come from the equipment decode (`analysis/equipment/lib_athletic_core.json`, `lib_resistance.json`); everything else is inferred from the decoder equipment lists and the exercise name. The BYOP dropdown wiring (which program slot can draw which item) comes from `analysis/library/L4_slot_wiring.md` section 6 (OBSERVED data validations). The v1 constraint levels and zones come from `synthesis/10_equipment_model.json` (`exercise_index`, INFERRED) where a BYOP cell is indexed, and from the EQ-13 scale rules otherwise.
 
-**Result: 913 records**, of which 707 are active exercise-like records (4009 source rows in, 185 program cells that are not exercises).
+**Result (v1.1): 939 records**, of which 732 are active exercise-like records (v1: 913 / 707; 4009 source rows in, 185 program cells that are not exercises).
 
 | record_type | count | meaning |
 |---|---|---|
-| exercise | 611 | a movement (or a generic one, `generic: true`, when the source does not name the implement/grip) |
-| conditioning_prescription | 68 | self-dosing cardio item (dose is in the name, e.g. '3 min Fast - 2 min walk', '15 cals') |
-| test | 14 | distance / speed / agility tests |
+| exercise | 633 | a movement (or a generic one, `generic: true`, when the source does not name the implement/grip) |
+| conditioning_prescription | 72 | self-dosing cardio item (dose is in the name, e.g. '3 min Fast - 2 min walk', '15 cals') |
+| test | 13 | distance / speed / agility tests |
 | drill | 14 | running and agility drills (A-drills, formations, route trees) |
 | complex | 63 | program cell that chains exercises (superset / contrast complex / circuit / sequence); `components` lists ids |
 | generic_choice | 30 | program cell offering alternatives ('Pull ups or Lat pull down') |
@@ -150,74 +226,78 @@ Equipment requirements for BYOP library cells come from the equipment decode (`a
 | taxonomy_placeholder | 12 | heading with no exercises of its own (CARRY, DRAGS, functional slings); CARRY / DRAGS now have PROPOSED children |
 | progression_note / variant_rule | 4 | a rule written inside an exercise list |
 | out_of_scope (v1) | 36 | band, chain or weight-releaser item (EQ-01/02/07/08/12); kept for traceability, never generated |
-| retired (v1) | 10 | removed by the coach (LIB-09) or merged into its twin (LIB-17, LIB-09); kept so crosswalk ids resolve |
+| retired (v1, v1.1) | 11 | removed by the coach (LIB-09; v1.1: the 21.6-mile run, R2-LIB-06) or merged into its twin (LIB-17, LIB-09); kept so crosswalk ids resolve |
 
 | status (active records) | count | meaning |
 |---|---|---|
-| live_library_selectable | 351 | BYOP library, selectable in a program dropdown |
+| live_library_selectable | 350 | BYOP library, selectable in a program dropdown |
 | live_library_not_selectable | 9 | BYOP library, no dropdown reads it |
 | reference_only | 215 | MASTER_MODEL reference tab only |
 | program_only | 121 | named only in program tabs |
 | added_v1 | 2 | NEW in v1: added by a coach answer (EQ-05, EQ-11) |
 | proposed_v1 | 9 | NEW in v1: PROPOSED starter item, pending coach approval (LIB-19) |
+| added_v1_1 | 4 | NEW in v1.1: added by a coach answer (R2-LIB-07 home items; R2-LIB-05 feet-on-bench push-up) |
+| proposed_v1_1 | 22 | NEW in v1.1: PROPOSED-ADDITION for the expanded sport list, pending coach approval (section 2.8) |
 
-Added to the generator library by a coach answer while keeping their source status (10): Max-Velocity Sprint (Top Speed) (LIB-21); A-March (running drill) (LIB-21); A-Runs (high-knee running drill) (LIB-21); A-Skip (running drill) (LIB-21); Acceleration Starts (LIB-21); Falling-Start Accelerations (LIB-21); Mach Sprint Drills (A-March / A-Skip / A-Run) (LIB-21); Squat Holding an Object Between the Knees (adduction squeeze) (LIB-20); Cossack Lateral Lunge (LIB-20); Split-Stance Contralateral Single-Arm KB Swing (LIB-20).
+Added to the generator library by a coach answer while keeping their source status (10): Max-Velocity Sprint (Top Speed) (LIB-21); A-March (running drill) (LIB-21); A-Runs (high-knee running drill) (LIB-21); A-Skip (running drill) (LIB-21); Acceleration Starts (LIB-21); Falling-Start Accelerations (LIB-21); Mach Sprint Drills (A-March / A-Skip / A-Run) (LIB-21); Squat Holding an Object Between the Knees (adduction squeeze) (LIB-20); Cossack Lateral Lunge (LIB-20); Split-Stance Contralateral Single-Arm KB Swing (LIB-20). v1.1 (COACH-R2 R2-LIB-07, FOUNDATIONAL triple extension, now default candidates): Hang Clean (catch not stated); Single-Arm DB Snatch; KB Squat Clean; Hex-Bar Jump Squat.
 
 ## 2. Taxonomy and the rules each record carries
 
 The coach's grammar (OBSERVED in BYOP rows 3-6 and Sheet23 headers): **LEVEL - FAMILY - SYMMETRY - PATTERN**, e.g. `FOUNDATIONAL - RP - BS - VERTICAL PUSH`. Families: ATHLETIC (AP), RESISTANCE (RP), CONTROL (CT/CP core), CARDIO, FUNCTIONAL. Row 6 'PURPOSE' is a *quality* for athletic work and a *muscle* for resistance work. Every exercise is tagged on all lenses at once - family, pattern, laterality, plane, muscle size, muscles, equipment, level (COACH-ANSWER CAT-01: 'this is the whole taxonomy of each exercise'). Biomechanics describes every exercise and is not a bucket of its own (COACH-ANSWER CAT-03).
 
-| pattern_code | family | canonical label (v1) | coach label VERBATIM (cell) | BYOP column | BYOP program slot | volume credit per set (v1) | active records | default candidates |
+| pattern_code | family | canonical label (v1.1) | coach label VERBATIM (cell) | BYOP column | BYOP program slot | volume credit per set (v1.1) | active records | default candidates |
 |---|---|---|---|---|---|---|---|---|
-| BKD | RESISTANCE | BILATERAL KNEE DOMINANT | 'BILATERAL KNEE DOMINANT' (BYOP AI1) | AI | Quads / Bilateral KD | QUADS 1.0 + helpers 0.25 | 40 | 32 |
-| UKD | RESISTANCE | UNILATERAL KNEE DOMINANT | 'UNILATERAL KNEE DOMINANT' (BYOP AL1) | AL | Quads/Glutes / Unilateral KD | QUADS 1.0 + GLUTES 0.25 (UNI-01); 10/10 = 1 set | 20 | 15 |
+| BKD | RESISTANCE | BILATERAL KNEE DOMINANT | 'BILATERAL KNEE DOMINANT' (BYOP AI1) | AI | Quads / Bilateral KD | QUADS 1.0 + GLUTES 0.25 on every squat with hip extension (R2-VOL-05) + other helpers 0.25; thrusters QUADS 1.0 + SHOULDERS 0.5 + GLUTES 0.25 (R2-VOL-05) | 41 | 32 |
+| UKD | RESISTANCE | UNILATERAL KNEE DOMINANT | 'UNILATERAL KNEE DOMINANT' (BYOP AL1) | AL | Quads/Glutes / Unilateral KD | QUADS 1.0 + GLUTES 0.25 (UNI-01; R2-VOL-05); 10/10 = 1 set | 21 | 15 |
 | KEXT | RESISTANCE | LEG EXTENSIONS | 'LEG EXTENSIONS' (BYOP AM1) | AM | Quads / Leg Extensions | QUADS 1.0 | 2 | 1 |
-| BHD | RESISTANCE | BILATERAL HIP DOMINANT | 'BILATERAL HIP DOMNANT' (BYOP AN1); 'BILATERAL HIP DOMINANT' (Sheet25 B11) | AN | Hamstring / Bilateral HD | HAMSTRINGS 1.0 (GLUTES 1.0 for thrusts/bridges/swings) + helpers 0.25 | 27 | 23 |
-| UHD | RESISTANCE | UNILATERAL HIP DOMINANT | 'UNILATERAL HIP DOMINANT' (BYOP AQ1) | AQ | Hamstring/Glutes / Unilateral HD | HAMSTRINGS 1.0 (GLUTES 1.0 for single-leg bridges/thrusts) + helpers 0.25 | 12 | 10 |
+| BHD | RESISTANCE | BILATERAL HIP DOMINANT | 'BILATERAL HIP DOMNANT' (BYOP AN1); 'BILATERAL HIP DOMINANT' (Sheet25 B11) | AN | Hamstring / Bilateral HD | HAMSTRINGS 1.0 + GLUTES 0.25 (R2-VOL-05) + helpers 0.25; GLUTES 1.0 for thrusts / bridges / pull-throughs; KB swings 0 (ballistic, R2-VOL-05) | 27 | 23 |
+| UHD | RESISTANCE | UNILATERAL HIP DOMINANT | 'UNILATERAL HIP DOMINANT' (BYOP AQ1) | AQ | Hamstring/Glutes / Unilateral HD | HAMSTRINGS 1.0 + GLUTES 0.25 (GLUTES 1.0 for single-leg bridges / thrusts) + helpers 0.25; the split-stance KB swing 0 (ballistic, R2-VOL-05) | 12 | 10 |
 | KFLEX | RESISTANCE | LEG FLEXION | 'LEG CURLS' (BYOP AR1); 'LEG FLEXION' (Sheet25 H11) | AR | Hamstrings / Leg Curls | HAMSTRINGS 1.0, not the hinge (CAT-09) | 9 | 7 |
-| HPULL | RESISTANCE | HORIZONTAL PULL | 'HORIZONTAL PULL' (BYOP X1) | X | Back / Horizontal Pull | BACK 1.0 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 30 | 17 |
-| VPULL | RESISTANCE | VERTICAL PULL | 'VERTICAL PULL' (BYOP U1) | U | Back / Vertical Pull | BACK 1.0 + BICEP 0.25 (straight-arm lat pull-over: BACK 1.0 only) | 26 | 21 |
-| HPUSH | RESISTANCE | HORIZONTAL PUSH | 'HORIZONTAL PUSH' (BYOP AD1) | AD | Chest / Horizontal Push | CHEST 1.0 + SHOULDERS 0.25 + TRICEP 0.25; dips 0.5/0.5 (LIB-16) | 29 | 26 |
+| HPULL | RESISTANCE | HORIZONTAL PULL | 'HORIZONTAL PULL' (BYOP X1) | X | Back / Horizontal Pull | BACK 1.0 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 31 | 18 |
+| VPULL | RESISTANCE | VERTICAL PULL | 'VERTICAL PULL' (BYOP U1) | U | Back / Vertical Pull | BACK 1.0 + BICEP 0.25 (straight-arm lat pull-over: BACK 1.0 only) | 25 | 21 |
+| HPUSH | RESISTANCE | HORIZONTAL PUSH | 'HORIZONTAL PUSH' (BYOP AD1) | AD | Chest / Horizontal Push | CHEST 1.0 + SHOULDERS 0.25 + TRICEP 0.25; dips 0.5/0.5 (LIB-16) | 30 | 27 |
 | MRPUSH | RESISTANCE | MID RANGE PUSH | 'MID RANGE PUSH' (RESISTANCE PATTERNS G6; no BYOP column) | AD | Chest / Incline | first coach group 1.0 + helpers 0.25 | 5 | 1 |
 | VPUSH | RESISTANCE | VERTICAL PUSH | 'VERTICAL PUSH' (BYOP AA1) | AA | Chest/Shoulders / Vertical Push | SHOULDERS/TRAPS 1.0 + TRICEP 0.25 (push press / push jerk: only in this slot; power reps in the triple-extension slot, VOL-10) | 27 | 19 |
-| SHLD | RESISTANCE | SIDE RAISES | 'SIDE RAISES' (BYOP AH1); slot 'ABdution' | AH | Shoulders/Traps / ABdution | SHOULDERS/TRAPS 1.0 (delt_head side / rear / front; rear delts tracked separately, VOL-17) | 21 | 14 |
-| BIC | RESISTANCE | BICEP | 'BICEP' (BYOP AS1) | AS | Bicep / Bicep | BICEP 1.0 | 20 | 14 |
+| SHLD | RESISTANCE | SIDE RAISES | 'SIDE RAISES' (BYOP AH1); slot 'ABdution' | AH | Shoulders/Traps / ABdution | SHOULDERS/TRAPS 1.0 (delt_head side / rear / front; rear delts tracked separately, VOL-17); the KB face pull is shoulder work here (R2-LIB-04 / LIB-10) | 23 | 15 |
+| BIC | RESISTANCE | BICEP | 'BICEP' (BYOP AS1) | AS | Bicep / Bicep | BICEP 1.0 | 21 | 15 |
 | TRI | RESISTANCE | TRICEP | 'TRICEP' (BYOP AT1) | AT | Tricep | TRICEP 1.0 | 15 | 9 |
-| CALF | RESISTANCE | CALVES | 'CALVES' (BYOP AU1) | AU | Calves | CALVES 1.0 (3 sets every leg day, VOL-17) | 6 | 4 |
+| CALF | RESISTANCE | CALVES | 'CALVES' (BYOP AU1) | AU | Calves | CALVES 1.0 (3 sets every leg day, VOL-17) | 8 | 4 |
+| NECK | RESISTANCE | NECK (PROPOSED v1.1) | none - INFERRED bucket (04_profiles category ISO_NECK; 'No neck exercises' library gap) | - | (no BYOP slot) | not counted (the neck is not one of the 10 FOCUS LIST groups; CAT-02 leaves it unplaced) | 2 | 0 |
 | CT | CONTROL | CORE THORAX | 'CORE THORAX' (BYOP O1) | O | Core | CORE 1.0 (control sets) | 30 | 10 |
-| CP | CONTROL | CORE PELVIS | 'CORE PELVIS' (BYOP R1) | O | Core | CORE 1.0 (control sets) | 25 | 7 |
-| CB | CONTROL | CORE (THORAX + PELVIS 'BOTH') | 'BOTH' (CONTROL PATTERNSCORE A29/H28/O28) | O | Core | CORE 1.0 (control sets) | 24 | 1 |
+| CP | CONTROL | CORE PELVIS | 'CORE PELVIS' (BYOP R1) | O | Core | CORE 1.0 (control sets) | 26 | 7 |
+| CB | CONTROL | CORE (THORAX + PELVIS 'BOTH') | 'BOTH' (CONTROL PATTERNSCORE A29/H28/O28) | O | Core | CORE 1.0 (control sets) | 25 | 1 |
 | CORE | CONTROL | CORE | 'CORE' (BYOP row 6 PURPOSE) | O | Core | CORE 1.0 (control sets) | 2 | 0 |
-| PLYO | ATHLETIC | PLYOS | 'PLYOS' (BYOP G1) | G | Plyo | not counted (VOL-10): contacts | 82 | 38 |
+| PLYO | ATHLETIC | PLYOS | 'PLYOS' (BYOP G1) | G | Plyo | not counted (VOL-10): contacts | 83 | 39 |
 | ANKLE | ATHLETIC | JUMPING ANKLE / LIMITED KNEE | 'JUMPING ANKLE' (BYOP F5); 'JUMPING LIMITED KNEE' (Sheet23 E1/G1) | C | Tripple Extension | not counted (VOL-10): contacts | 13 | 10 |
-| TX | ATHLETIC | TRIPLE EXTENSION | 'TRIPPLE EXTENSION' (BYOP C1/C5) | C | Tripple Extension | not counted (VOL-10): power reps | 40 | 16 |
-| THROW | ATHLETIC | THROWING | 'THROWING' (BYOP K1) | K | Throwing | not counted (VOL-10): throws | 40 | 16 |
-| COD | ATHLETIC | CHANGE OF DIRECTION | 'CHANGE OF DIRECTION' (BYOP L1) | L | COD | not counted (VOL-10): reps / distance | 16 | 9 |
+| TX | ATHLETIC | TRIPLE EXTENSION | 'TRIPPLE EXTENSION' (BYOP C1/C5) | C | Tripple Extension | not counted (VOL-10): power reps; KB swings join as ballistic power reps (R2-VOL-05) | 40 | 19 |
+| THROW | ATHLETIC | THROWING | 'THROWING' (BYOP K1) | K | Throwing | not counted (VOL-10): throws | 41 | 16 |
+| COD | ATHLETIC | CHANGE OF DIRECTION | 'CHANGE OF DIRECTION' (BYOP L1) | L | COD | not counted (VOL-10): reps / distance | 17 | 9 |
 | SPRINT | ATHLETIC | SPEED / SPRINT (speed session) | Sheet23 footers '*FASTEST SSC*' B43, '*FAST BALLISTIC/WARMUP/SSC* (prior to sprint)' B47, '*SPRINT*' B51; speed-session order confirmed (LIB-21) | - | (no BYOP slot; speed session) | not counted (VOL-10): reps / meters; the 4 A-drill / MACH records are warm-up drills and are not counted at all (ORD-08) | 10 | 7 |
 | WARMUP | ATHLETIC | DYNAMIC MEDBALL WARM-UP | 'DYNAMIC MEDBALL WARMUP DRILLS' ((NOT DONE) ALL ABOUT BALLISTICS A4) | - | (warm-up) | not counted (warm-up) | 35 | 0 |
-| CARDIO | CARDIO | CARDIO | 'CARDIO' (BYOP B1) | B | Cardio / Aerobic Capacity | not counted: conditioning bouts | 80 | 33 |
+| CARDIO | CARDIO | CARDIO | 'CARDIO' (BYOP B1) | B | Cardio / Aerobic Capacity | not counted: conditioning bouts | 84 | 33 |
 | AOS | FUNCTIONAL | FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM | 'ANTERIOR OBLIQUE SYSTEM' (BYOP BC6) | BC | (no BYOP slot) | CORE 1.0 (control sets) | 9 | 0 |
 | POS | FUNCTIONAL | FUNCTIONAL BIOMECHANICS SYSTEM > POSTERIOR OBLIQUE SYSTEM | 'POSTERIOR OBLIQUE SYSTEM' (BYOP BD6) | BD | (no BYOP slot) | CORE 1.0 (control sets) | 0 | 0 |
 | LSS | FUNCTIONAL | FUNCTIONAL BIOMECHANICS SYSTEM > LATERAL SUBSYSTEM | 'LATERAL SUBSYSTEM' (BYOP BE6) | BE | (no BYOP slot) | CORE 1.0 (control sets) | 0 | 0 |
-| DRAG | FUNCTIONAL | DRAGS | 'DRAGS' (BYOP BB1) / 'DRAG' (BB6) | BB | (no BYOP slot) | not counted: distance (PROPOSED) | 4 | 0 |
+| DRAG | FUNCTIONAL | DRAGS | 'DRAGS' (BYOP BB1) / 'DRAG' (BB6) | BB | (no BYOP slot) | not counted: distance (PROPOSED) | 5 | 0 |
 | CARRY | FUNCTIONAL | CARRY | 'CARRY' (BYOP BA1) | BA | (no BYOP slot) | CORE 1.0 (control sets, PROPOSED) | 5 | 0 |
-| ARMCARE | FUNCTIONAL | ARM CARE / MOBILITY | none - INFERRED bucket (program-only arm-care drills) | - | (no BYOP slot) | not counted | 3 | 0 |
+| ARMCARE | FUNCTIONAL | ARM CARE / MOBILITY | none - INFERRED bucket (program-only arm-care drills; v1.1 PROPOSED shoulder external rotation, scapular push-up, dead hang and wrist extension, 04_profiles ISO_REAR / ISO_GRIP) | - | (no BYOP slot) | not counted | 8 | 0 |
 
-v1 pattern changes: KFLEX is now **LEG FLEXION** and holds every knee-flexion exercise (COACH-ANSWER CAT-09); SPRINT is the coach-approved **speed session** bucket (COACH-ANSWER LIB-21; it was an INFERRED bucket in v0); CARRY and DRAG hold PROPOSED starter items (LIB-19); ARMCARE is still an INFERRED bucket. POS and LSS headings are still empty. BYOP filings are kept as OBSERVED `placements`; `taxonomy.pattern_code_v0` keeps the v0 code when an answer moved a record.
+v1 pattern changes: KFLEX is now **LEG FLEXION** and holds every knee-flexion exercise (COACH-ANSWER CAT-09); SPRINT is the coach-approved **speed session** bucket (COACH-ANSWER LIB-21; it was an INFERRED bucket in v0); CARRY and DRAG hold PROPOSED starter items (LIB-19); ARMCARE is still an INFERRED bucket. POS and LSS headings are still empty. BYOP filings are kept as OBSERVED `placements`; `taxonomy.pattern_code_v0` keeps the v0 code when an answer moved a record. v1.1: the KB face pull moves from VPULL to SHLD (R2-LIB-04, `taxonomy.pattern_code_v1` keeps VPULL); a PROPOSED NECK bucket holds the two neck exercises (taxonomy node RP.SM.NECK, PROPOSED); the new records join their patterns (section 2.8).
 
 ### 2.1 Volume credit (how one set counts toward weekly sets per muscle)
 
 - **Main mover 1.0, each helper 0.25** (COACH-ANSWER VOL-09: 'I would suggest a 0.25 to the helpers, not a 0.5'). Groups are the coach's 10 FULL FOCUS LIST groups (QUADS, GLUTES, HAMSTRINGS, BACK, CHEST, SHOULDERS/TRAPS, BICEP, TRICEP, CALVES, CORE; OBSERVED AZ8..AZ331).
-- **Exceptions from the coach:** dips 0.5 chest + 0.5 triceps (LIB-16); thrusters 1.0 quads + 0.5 shoulders (LIB-14, approved as written; exercise-specific answers beat the 0.25 helper default, as with dips); leg extension and leg curl count fully toward quads and hamstrings (VOL-09); leg flexion never counts toward the hinge pattern (CAT-09); unilateral knee-dominant work counts for quads, glutes only as a helper (UNI-01).
+- **Exceptions from the coach:** dips 0.5 chest + 0.5 triceps (LIB-16); thrusters 1.0 quads + 0.5 shoulders + 0.25 glutes (COACH-R2 R2-VOL-05: 'A thruster should be 1 set for squats. Half a set for shoulders. A quarter set for glutes.'); KB swings count 0 sets - they are ballistic, never glute work (COACH-R2 R2-VOL-05: 'kettlebell swings are not glutes'); squats, lunges, deadlifts and RDLs give glutes a quarter set (R2-VOL-05, 'that's good math'); leg extension and leg curl count fully toward quads and hamstrings (VOL-09); leg flexion never counts toward the hinge pattern (CAT-09); unilateral knee-dominant work counts for quads, glutes only as a helper (UNI-01).
 - **Unilateral and alternating sets count once**: 10/10 = 10 reps per side = 1 set (UNI-01, UNI-07, PRG-07).
 - **Athletic patterns never count** toward muscle volume (VOL-10): plyos, throws, Olympic lifts, sprints and COD are tracked as contacts, throws, power reps and meters. Warm-up drills and conditioning do not count either; A-drills / MACH drills are warm-up drills and are not counted even inside the speed session (ORD-08). Push presses and push jerks count toward shoulders only when they fill the VERTICAL PUSH slot; in the triple-extension slot they are power reps (`volume_credit.by_pool`).
-- **Core** work counts as CORE control sets (VOL-17: about 2 core exercises a session; core goes first by default, ATH-11).
-- INFERRED applications (flagged so the coach can check): biceps 0.25 on rows and pulldowns (the helper rule applied to pulls, SCIENCE), but not on the straight-arm lat pull-over (no elbow flexion: BACK 1.0 only); diamond push-ups split 0.5 / 0.5 like dips; the glute-vs-hamstring main mover on hinges is read from the name (thrusts, bridges, pull-throughs, swings = glutes; deadlifts, RDLs, good mornings, hyperextensions = hamstrings, the BYOP slot purpose 'Hamstring').
+- **Core** work counts as CORE control sets (VOL-17: about 2 core exercises a session; core goes first by default, ATH-11). v1.1 (COACH-R2 R2-SES-03): the core opener stays light - 2 exercises x 2 sets short of failure, as a warm-up - and coaches or users may add core supersets or monster sets anywhere in the session.
+- INFERRED applications (flagged so the coach can check): biceps 0.25 on rows and pulldowns (the helper rule applied to pulls, SCIENCE), but not on the straight-arm lat pull-over (no elbow flexion: BACK 1.0 only); diamond push-ups split 0.5 / 0.5 like dips; the glute-vs-hamstring main mover on hinges is read from the name (thrusts, bridges, pull-throughs = glutes; swings count nothing since R2-VOL-05; deadlifts, RDLs, good mornings, hyperextensions = hamstrings, the BYOP slot purpose 'Hamstring').
 
 ### 2.2 Levels
 
 - **What sets a level** (COACH-ANSWER CAT-04): mostly skill and stability demand, plus load position - front-loaded / low = foundational (goblet, front-loaded zercher), on the body / horizontal = intermediate (front squat), behind the body / overhead = advanced (back squat). Machines and cables are easier because they do the stabilising. Levels are 'still very theoretical' (CAT-05), so they are defaults.
 - **Levels add options** (CAT-05) and the client's volume level is a separate axis (CAT-06): `level.generator_min_level` is the lowest exercise-skill tier (FOUNDATIONAL / INTERMEDIATE / ADVANCED movement competence) that may get a record; higher tiers can always pick it. It is NOT the client's volume level (COACH-ANSWER PRG-05: L1 = novice / newby - he uses both words for the same thing - under about 6-12 months of consistent training or back after 6-12+ months off; L2 = intermediate, more than a year of consistent training; L3 = advanced; the sheet's 'NOVICE below NEWBY' ladder is retired): a L1-volume client who moves well can still get a MODERATE or ADVANCED lift (skills come back fast after a layoff, PRG-05) (CAT-06: in Upper/Lower a NOVICE does barbell deadlifts and leg press). Each record states this in `level.generator_min_level_axis`.
+- **v1.1 (COACH-R2 R2-LIB-02):** the zone is a tag on the exercise; the level comes from load position, skill and stability, made easier by a seat, machine or cable - a deep goblet squat stays FOUNDATIONAL and a seated DB shoulder press or a lat pulldown is FOUNDATIONAL even though overhead. No zone sets a level. **R2-LIB-07** set the belt squat, seated machine shoulder press and the four triple-extension additions to FOUNDATIONAL; **R2-LIB-05 / LIB-12** split the bench push-up (hands on bench FOUNDATIONAL, feet on bench ADVANCED).
 - **Load position applied** (CAT-04): barbell back squats (high-bar, low-bar, bar not stated) and the overhead box squat are ADVANCED; the front squat is INTERMEDIATE; goblet and front-loaded zercher are FOUNDATIONAL.
 - **Changed by answers:** throws and GHD have no levels (LIB-06, LIB-08); leg extension and leg curls at every level (LIB-15); push press foundational, push jerk intermediate-advanced (LIB-13); Kong row foundational (LIB-09); beginner Olympic options (incl. high- / mid-hang power clean) foundational and power clean / snatch / clean & jerk intermediate (ATH-10); barbell back squats and the overhead box squat advanced (CAT-04); constraint 4-5 machines offered from foundational (CAT-04 + EQ-04, INFERRED extension). OBSERVED BYOP levels stay in `level.byop_placements`, and every replaced value is kept as `level.primary_v0`.
 
@@ -226,72 +306,116 @@ v1 pattern changes: KFLEX is now **LEG FLEXION** and holds every knee-flexion ex
 - **No bands, no variable resistance** (EQ-01, EQ-02, EQ-07, EQ-08, EQ-12): see section 7. Access tiers: **T0** bodyweight + household; **T1** minimal kit without bands (doorway pull-up bar, jump rope, suspension trainer, low hurdles, foam roller); **T2** home weights (DB, KB, medball up to 20 lb, stability ball, sandbag, plate, adjustable bench, dip station, high plyo box); **T3** gym (barbell + rack, EZ / hex bar, landmine, cables, machines, Smith, GHD / hyper / reverse hyper, seal bench, sled, farmer handles, cardio machines). INFERRED definitions.
 - **Constraint 1-5** (EQ-13 approved): 5 seated machine with back pad, 4 plate-loaded / Smith / chest-supported, 3 cable or DB on a bench, 2 standing free weights, 1 bodyweight / ballistic / reactive. Older, injured and high-volume clients collect volume in constrained positions (EQ-03).
 - **Machines are not ranked** (EQ-11): brands, angles and feel differ. Hack squat and leg press are more constrained than the Smith machine; the belt squat removes axial load; GHD and reverse hyper are used if available and the client feels the right muscles. The client's preference can choose between alternatives (EQ-10); with no implement named, the default goes bodyweight -> DB -> barbell as the level rises, limited by the client's kit (EQ-09).
-- **Medballs** never over 20 lb (EQ-06); `implement_load` gives the typical load by throw type.
+- **Medballs** never over 20 lb (EQ-06); `implement_load` gives the typical load by throw type. The coach names wall balls as one of the few uses of a heavier ball ('Are they doing CrossFit, or are they doing high rows?', EQ-06): the PROPOSED Wall Ball record keeps the 20 lb ceiling (HYROX race balls are 4 / 6 / 9 kg).
+- **v1.1 equipment**: the new home items need only a kettlebell (KB curl), a sturdy table (table row) or the floor (Y / T raises); every PROPOSED-ADDITION uses cables, DBs, a sled, a medball, a pull-up bar, a wall or nothing - no bands anywhere (EQ-01).
 - **Aerobic work on any tool** (EQ-14): the Blue / Green / Orange aerobic intervals and the lactate-clearance work run on a bike, rower, ski erg or treadmill for non-runners (`modality_v1`; the 12 aerobic records now list treadmill / erg set-ups beside open space). Timed work / rest carries over directly; distance is kept and tracked (erg meters or a time-matched effort for the distance items).
 
 ### 2.4 Athletic work
 
-- **Plyo method** (CAT-10, CAT-11): learn to receive force before creating it - receive and pause (stick the landing) -> receive then create (stick, then jump or hop) -> repeated receive / create (hops, bounds). Unilateral is harder than bilateral. The longer the ground contact the more ballistic, the shorter the more plyometric; programs start ballistic and become plyometric. The `plyo_method` names are PROPOSED (the coach has not named it; it is not a 'plyo zone'). The method is how a jump is done, not a property of the exercise: `plyo_method` only records the method the name implies (`plyo_method_role: default_as_named`), and the program chooses the method per phase for any jump that allows it (`plyo_methods_available`: receive & pause, receive then create, repeated receive / create).
-- **Plyo vs ballistic ratio** comes from the sport's ground-contact time (ATH-01): more time on the ground (karate, fighters) -> more ballistics; less (sprinters) -> more plyos; basketball a mix; baseball ballistics + rotation + sprinting with few plyos.
+- **Receive-Create stages** (CAT-10, CAT-11; named and timed by COACH-R2 R2-ATH-03): learn to receive force before creating it - stage 1 **Land** (receive and pause, stick the landing) -> stage 2 **Land & Go** (receive then create once) -> stage 3 **Repeat** (repeated receive / create: hops, bounds). 12-week block: weeks 1-3 / 4-7 / 8-12; 8-week block: 1-2 / 3-5 / 6-8; restart at stage 1 each off-season; stay put in maintenance blocks; intermediate and advanced athletes may start at stage 2. Unilateral is harder than bilateral. It is not a 'plyo zone'. `athletic_quality.receive_create_stage` gives the stage the name implies (`plyo_method` keeps the v1 code). **v1.1: named 'Receive-Create stages' (COACH-R2 R2-ATH-03).** The stage is how a jump is done, not a property of the exercise: `plyo_method` / `receive_create_stage.default_stage` only record what the name implies (`role: default_as_named`), and the program chooses the stage per block for any jump that allows it (`stages_available`).
+- **Ballistic vs plyometric, per item** (COACH-R2 R2-ATH-02): ballistic = longer contact or one big effort (squat, box, broad, loaded or hex-bar jumps, medball throws); plyometric = short, bouncy contacts (pogo / ankle hops, hurdle hops, depth jumps, bounds, squirrel jumps, repeated jumps); stick-the-landing drills = the receive stage. Every jump and throw carries `contact_class_v1_1`. Tie-breaks (INFERRED): loaded repeated jumps = ballistic (load lengthens the contact); unloaded continuous split / lunge jumps = plyometric (repeated).
+- **Plyo vs ballistic ratio** comes from the sport's ground-contact time (ATH-01; the shares by sport approved in R2-ATH-01, in `04_profiles.json`): more time on the ground (karate, fighters) -> more ballistics; less (sprinters) -> more plyos; basketball a mix; baseball ballistics + rotation + sprinting with few plyos.
 - **Intermediate plyos**: one exercise from each MODERATE track (plate hops, hurdles) (LIB-05). **Speed session**: squirrel jumps -> MACH drills / acceleration starts -> max-velocity sprint, fixed order (LIB-21).
-- **Olympic lifts for everyone in athletic training** (ATH-10; the Hex-Bar Jump Squat is in the triple-extension pool as well as PLYO so a beginner's Olympic slot can reach it); youth may lift from the floor (ATH-09); older adults get few plyos unless they ask (ATH-09); aesthetics / bodybuilding clients throw medballs only in the warm-up (ATH-05).
+- **Olympic lifts, v1.1** (COACH-R2 R2-ATH-04 / R2-ATH-05 / R2-GEN-06): up to 4 x per week - clean days (cleans = more squat-pattern) and snatch days (snatches = more hinge-pattern); `olympic_v1_1.family` / `day_pattern` on every Olympic-type lift (jerks 'either day', INFERRED). Full squat cleans and snatches 3-5 reps per set (same weekly reps, e.g. 6 x 5 @ 75 %), DB / KB and pull variants keep the 4 x 8 @ 75 % -> 4 x 4 @ 90 % ramp, power / hang versions 3-5 (INFERRED); the coach's eye on speed. The weight is picked by RPE / reps in reserve and bar speed (power output); % of a tested 1RM only for competitive Olympic lifters, whose programming is its own track.
+- **Older adults (60+), v1.1** (COACH-R2 R2-ATH-08): no Olympic lifts, plyos or depth jumps by default; they are an extra option with the warning 'Make sure that you have a fitness professional to help you understand what this means.' (`older_default_excluded`, warning key WARN_60PLUS_POWER_WORK). Jumping conditioning items (burpees, jumping jacks, burpee broad jump) get a no-jump swap, and the PROPOSED split-step drill defaults to its no-hop version (adversarial check; 10.3 #3). Youth: Olympic lifts from the floor from about 14, after one block of hang work.
+- **Olympic lifts for everyone in athletic training** (ATH-10; the Hex-Bar Jump Squat is in the triple-extension pool as well as PLYO so a beginner's Olympic slot can reach it); youth may lift from the floor (ATH-09; from about 14 after a hang block, R2-ATH-08); older adults: see the R2-ATH-08 bullet above (ATH-09 'few plyos unless they ask' is superseded); aesthetics / bodybuilding clients throw medballs only in the warm-up (ATH-05).
 - **Sport rules on exercises**: pitchers get less overhead pressing, more arm care and light rotational throws (ATH-08); boxers / strikers in high punching-volume weeks reduce, but never cut, pressing and arm-isolation sets (ATH-04). Both are `population_rules`.
 - **A-drills** (A-march / A-skip / A-run, MACH drills) are the warm-up drills of ORD-08 and step 2 of the speed session (LIB-21); they never count as volume.
 
 ### 2.5 Load position and spinal load
 
-- `davidson_zone` (CAT-04, CAT-10; Pat Davidson, *A Coach's Guide to Optimizing Movement*): zone 1 = vertical, load low and close, external-rotation bias; zone 2 = horizontal (hands in front, knee at hip height), internal-rotation bias, compressive; zone 3 = vertical overhead or deep squat, external-rotation bias. Zones do not apply to plyos.
-- `axial_spinal_load` (PER-04, EQ-11): squat with axial load once a week; the other knee-dominant day uses leg press or belt squat; deadlifts also load the spine. Values are INFERRED from implement and load position. Encoding (INFERRED - PENDING COACH APPROVAL, stated in every record's `rule`): 'high' = the week's one axial squat; the other knee-dominant day takes 'none' or 'low'; 'moderate' only when the client is not sore and not already axially loaded that week.
+- `davidson_zone` (CAT-04, CAT-10; approved as written by COACH-R2 R2-LIB-02; Pat Davidson, *A Coach's Guide to Optimizing Movement*): zone 1 = vertical, load low and close, external-rotation bias; zone 2 = horizontal (hands in front, knee at hip height), internal-rotation bias, compressive; zone 3 = vertical overhead or deep squat, external-rotation bias. Zones do not apply to plyos. The zone is a tag, never the level (R2-LIB-02). Use (R2-LIB-03): keep both rotation biases in every week, and when something hurts pick a swap with the other bias (`davidson_zone.use_v1_1`); not set by sport.
+- `axial_spinal_load` (PER-04, EQ-11; rule approved in COACH-R2 R2-SES-01 / R2-SES-02): heavy squat and heavy deadlift on **two different days** (e.g. squat Monday, deadlift Friday); the other days use a non-axial hinge (hip thrust, back extension, reverse hyper) and leg press or belt squat. Counted lifts: barbell back, front, zercher, overhead and Smith squats; barbell or trap-bar deadlifts and RDLs; good mornings. Not counted: leg press, belt squat, hip thrust, back extension, reverse hyper, single-leg DB work, Olympic lifts, loaded jumps. Goblet squat, hack squat and pendulum are fine on the second day if not sore. Powerlifters may add a light technique squat or deadlift. `spine_day_v1_1.class` says which group each lift is in (barbell / trap-bar variants and other front-loaded squats INFERRED); the high / moderate / low / none value is kept (INFERRED from implement and load position).
+
+### 2.6 One-detail variations between blocks (COACH-R2 R2-LIB-01)
+
+The library exercise is always the main pick. Between blocks (4-6 weeks, PER-02) the tool may change **one** detail and show it after the library name: `<library name> - <detail>`, e.g. 'Reverse Lunge - dumbbell in the opposite hand', 'Lat Pulldown - neutral grip', 'Step-Up - lower box'. Allowed details (the coach's list): which hand holds the weight, grip, stance, implement, range. It never invents a new exercise, never changes two details at once, and never adds a band, chain or weight releaser (EQ-01, EQ-12). `variation_v1_1.axes` lists which of the five details apply to each eligible exercise (553 records; INFERRED from its set-ups, pattern and laterality: 'implement' when it has two or more set-ups, 'grip' on pulls / presses / curls / barbell hinges, 'stance' on lower-body, standing and athletic items, 'which hand holds the weight' on single-leg / single-arm DB-KB work, 'range' on resistance and core items and box / hurdle / drop height on jumps). The coach's modifiers (section 9: grip, feet, stance, ROM, end range, load position, contra / ipsilateral) are the vocabulary for the detail.
+
+### 2.7 Testing (COACH-R2 R2-PER-07)
+
+The 13 test records carry `test_rules_v1_1`: test before the block (or in week 1) and in its last week - never in the middle. Nobody goes from no training to an all-out test: an untrained person does the mile (or any timed test) at an 80-90 % effort, and strength tests use a 5RM or 3RM, never a 1RM, until a block has been completed. The 21.6-mile run is no longer a test (R2-LIB-06). The 14-, 17- and 20-mile distance tests are longer than the half-marathon plan the coach kept as the longest run (R2-LIB-06): flagged, question 10.3 #5 (adversarial check).
+
+### 2.8 Sport coverage: PROPOSED-ADDITION exercises (v1.1)
+
+The coach asked (2026-10-08) that every popular US sport be covered for athletes, swimming included, and that general-population clients see the 'stay athletic and active' options - pickleball and HYROX by name. The sport profiles live in `04_profiles.json`; this section adds the exercises those sports clearly need and the library lacked. Each is status `proposed_v1_1` (swap only, never a default pick until approved), level and dose INFERRED, never band-based, with `sport_use_v1_1` (plain sport names; the profile merge maps them to profile ids), `profile_category_v1_1` (04_profiles category) and `new_in_v1_1.why_needed`. The three coach-approved home items (R2-LIB-07) and the feet-on-bench push-up (R2-LIB-05) are in the same tables below as N2.
+
+| record | pattern | level | T | credit per set | sports (sport_use_v1_1) | why it is needed |
+|---|---|---|---|---|---|---|
+| Cable External Rotation (elbow at the side or 90/90) | ARMCARE | foundational | T3 | - | baseball, softball, volleyball, tennis, pickleball, padel, football (QB), water polo, swimming | the gym version of shoulder external-rotation work (the 90/90 arm position is the one-detail progression, R2-LIB-01); cable, never a band (EQ-01) |
+| DB Wrist Extension (slow lowering, forearm on the knee or a bench) | ARMCARE | foundational | T2 | - | pickleball, tennis, padel, golf, climbing, baseball | racquet-elbow care (04_profiles injury_library ELBOW_LATERAL_RACKET: 'wrist-extensor isometric/eccentric 2-3x/week', SCIENCE); no band version (EQ-01) |
+| Dead Hang (pull-up bar) | ARMCARE | foundational | T1 | - | climbing, swimming, BJJ / judo, wrestling, obstacle course racing, gymnastics, CrossFit | grip and overhead shoulder tolerance; 04_profiles lists grip (ISO_GRIP) with no library column |
+| Scapular Push-Up (push-up plus) | ARMCARE | foundational | T0 | - | swimming, water polo, triathlon, diving, volleyball, baseball, climbing, gymnastics, CrossFit, boxing | shoulder-blade control for swimmers, overhead and pressing athletes (SCIENCE) |
+| Side-Lying DB External Rotation | ARMCARE | foundational | T2 | - | baseball, softball, volleyball, tennis, pickleball, padel, football (QB), water polo, swimming | shoulder external-rotation work for swimmers and overhead athletes (SCIENCE: posterior-cuff weakness is a shoulder-injury risk factor in throwers; 04_profiles injury_library SHOULDER_THROWER); no band version (EQ-01) |
+| Wall Sit (isometric squat hold) | BKD | foundational | T0 | QUADS 1 + GLUTES 0.25 | skiing / snowboarding, ice hockey, cycling, active aging, general population | ski-season preparation and a joint-friendly quad option for older adults |
+| Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) | CALF | any | T2 | CALVES 1 | pickleball, tennis, padel, running, basketball, soccer, triathlon, active aging | bent-knee soleus work (04_profiles injury_library ACHILLES_CALF names 'bent-knee soleus 2-3x/week'); the library had straight-knee calf raises only |
+| Tibialis Raise (back against a wall) | CALF | any | T0 | - | pickleball, tennis, padel, basketball, soccer, running, hiking / rucking, skiing, active aging | shin / lower-leg resilience for court and running sports (SCIENCE) |
+| Burpee Broad Jump | CARDIO | intermediate | T0 | - | HYROX, CrossFit, bootcamp, obstacle course racing, football | HYROX station (burpee broad jumps); the library had burpees and broad jumps but not the combined station |
+| Compromised Run (1 km run straight after a station) | CARDIO | intermediate | T0 | - | HYROX, obstacle course racing, triathlon (brick) | HYROX is 8 x 1 km runs, each after a station (SCIENCE / event format); the library had runs but no run-after-a-station format |
+| Rower Distance Piece (500-2,000 m) | CARDIO | any | T3 | - | HYROX, CrossFit, bootcamp, obstacle course racing, rowing, triathlon | HYROX station (row 1,000 m) and rowing; the library only had rower calorie sprints |
+| Ruck Walk (weighted backpack walk) | CARDIO | any | T0 | - | hiking / rucking, obstacle course racing, general population, active aging | hiking / rucking preparation for gen pop ("stay athletic and active"); an easy Orange-colour session option |
+| SkiErg Distance Piece (500-1,000 m) | CARDIO | any | T3 | - | HYROX, CrossFit, bootcamp, obstacle course racing, swimming, rowing, skiing | HYROX station (SkiErg 1,000 m); the library only had SkiErg calorie sprints |
+| Streamline Hold (hollow body, arms locked overhead) | CB | intermediate | T0 | CORE 1 | swimming, water polo, triathlon, diving, gymnastics | the swimmer's streamline position as a core hold (SCIENCE: body position / streamline is a core demand of swimming) |
+| Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) | COD | foundational | T0 | - | pickleball, tennis, padel, volleyball, basketball, soccer (goalkeeper), baseball / softball (infield) | the court athlete's ready position and first step; also fills the empty reactive-agility heading (AP.AGI: 'Agility: Reactive in nature', AGILITYCOD D1); 60+: the hop is off by default and the no-hop split-step is the default (R2-ATH-08; INFERRED swap, 10.3 #3) |
+| Single-Leg Balance Reach (front / side / back) | CP | foundational | T0 | CORE 1 | pickleball, tennis, padel, golf, skiing, soccer, basketball, running, active aging | single-leg balance for court sports and older adults (04_profiles injury_library FALLS_BONE_DENSITY: balance every session, SCIENCE) |
+| Sled Rope Pull (hand-over-hand, HYROX-style) | DRAG | foundational | T3 | - | HYROX, CrossFit, football (linemen), strongman, wrestling, obstacle course racing | HYROX station 'sled pull' (SCIENCE / event standard); the library had sled push and drags but no rope pull |
+| Neck Isometric Holds (4-way: front, back, both sides; hand or partner resistance) | NECK | foundational | T0 | - | football, wrestling, rugby, ice hockey, lacrosse, BJJ / judo, MMA, kickboxing / Muay Thai, boxing | 04_profiles library_gaps 'No neck exercises' and injury_library NECK ('isometric 4-way, then plate or manual eccentric; no bands') |
+| Plate Neck Flexion / Extension (lying on a bench, plate on a towel) | NECK | intermediate | T2 | - | football, wrestling, rugby, ice hockey, lacrosse, BJJ / judo, MMA, kickboxing / Muay Thai, boxing | the loaded step after isometrics (04_profiles injury_library NECK); no bands (EQ-01) |
+| Streamline Squat Jump (arms locked overhead) | PLYO | intermediate | T0 | - | swimming, diving, water polo | start and wall push-off power in the streamline position (squat jump without the arm swing) |
+| Wall Ball (medball squat-to-target throw) | THROW | any | T2 | - | HYROX, CrossFit, bootcamp, obstacle course racing | HYROX / CrossFit station; COACH-ANSWER EQ-06 names wall balls ('Are they doing CrossFit, or are they doing high rows?') as one of the few uses of a heavier medball, never over 20 lb |
+| Sandbag Walking Lunge (bag on the shoulders) | UKD | intermediate | T2 | QUADS 1 + GLUTES 0.25 | HYROX, CrossFit, bootcamp, obstacle course racing, football, strongman | HYROX station (sandbag lunges); the library had sandbag carries and thrusts but no loaded walking lunge |
+
+Existing records the new sports use got `sport_use_v1_1` tags instead of duplicates (38 records), e.g. Lateral Shuffles (pickleball, tennis, padel, court sports), the rotational medball throws (pickleball, tennis, golf, baseball), Medball Overhead Throw (swimming, water polo, volleyball), Sled Push and Farmer Carry (HYROX), SkiErg / Rower Calorie Sprints (HYROX, CrossFit), Flutter Kicks and Lat Pull-over (swimming), incline Y / T raises and face pulls (swimming, throwers, racquet sports).
 
 ## 3. Counts (active records)
 
-### 3.1 By family and source status (707 active exercise-like records)
+### 3.1 By family and source status (732 active exercise-like records)
 
-| family | total | selectable in BYOP | BYOP not selectable | reference only | program only | new (coach) | new (PROPOSED) | default candidates |
+| family | total | selectable in BYOP | BYOP not selectable | reference only | program only | new (coach: v1 + v1.1) | new (PROPOSED: v1 + v1.1) | default candidates |
 |---|---|---|---|---|---|---|---|---|
-| ATHLETIC | 236 | 90 | 0 | 97 | 49 | 0 | 0 | 96 |
-| RESISTANCE | 289 | 209 | 0 | 39 | 39 | 2 | 0 | 213 |
-| CONTROL | 81 | 18 | 0 | 42 | 21 | 0 | 0 | 18 |
-| FUNCTIONAL | 21 | 0 | 9 | 0 | 3 | 0 | 9 | 0 |
-| CARDIO | 80 | 34 | 0 | 37 | 9 | 0 | 0 | 33 |
+| ATHLETIC | 239 | 90 | 0 | 97 | 49 | 0 | 3 | 100 |
+| RESISTANCE | 299 | 209 | 0 | 39 | 39 | 6 | 6 | 217 |
+| CONTROL | 83 | 18 | 0 | 42 | 21 | 0 | 2 | 18 |
+| FUNCTIONAL | 27 | 0 | 9 | 0 | 3 | 0 | 15 | 0 |
+| CARDIO | 84 | 33 | 0 | 37 | 9 | 0 | 5 | 33 |
 
 ### 3.2 By pattern and level (primary level; `any` = no tiers; `unrated` = no level anywhere; last column = lowest exercise-skill tier the generator may offer, not the client's volume level, CAT-06)
 
 | pattern | label | records | foundational | intermediate | advanced | any | unrated | generator min level |
 |---|---|---|---|---|---|---|---|---|
-| BKD | BILATERAL KNEE DOMINANT | 40 | 13 | 6 | 15 | 3 | 3 | F 22 / I 5 / A 13 |
-| UKD | UNILATERAL KNEE DOMINANT | 20 | 0 | 1 | 0 | 15 | 4 | F 19 / I 1 / A 0 |
+| BKD | BILATERAL KNEE DOMINANT | 41 | 15 | 6 | 15 | 2 | 3 | F 23 / I 5 / A 13 |
+| UKD | UNILATERAL KNEE DOMINANT | 21 | 0 | 2 | 0 | 15 | 4 | F 19 / I 2 / A 0 |
 | KEXT | LEG EXTENSIONS | 2 | 0 | 0 | 0 | 2 | 0 | F 2 / I 0 / A 0 |
 | BHD | BILATERAL HIP DOMINANT | 27 | 8 | 8 | 6 | 3 | 2 | F 16 / I 5 / A 6 |
 | UHD | UNILATERAL HIP DOMINANT | 12 | 8 | 1 | 0 | 2 | 1 | F 11 / I 1 / A 0 |
 | KFLEX | LEG FLEXION | 9 | 2 | 0 | 2 | 3 | 2 | F 7 / I 0 / A 2 |
-| HPULL | HORIZONTAL PULL | 30 | 7 | 5 | 8 | 5 | 5 | F 24 / I 2 / A 4 |
-| VPULL | VERTICAL PULL | 26 | 12 | 0 | 7 | 4 | 3 | F 19 / I 0 / A 7 |
-| HPUSH | HORIZONTAL PUSH | 29 | 6 | 5 | 9 | 7 | 2 | F 16 / I 4 / A 9 |
+| HPULL | HORIZONTAL PULL | 31 | 8 | 5 | 8 | 5 | 5 | F 25 / I 2 / A 4 |
+| VPULL | VERTICAL PULL | 25 | 11 | 0 | 7 | 4 | 3 | F 18 / I 0 / A 7 |
+| HPUSH | HORIZONTAL PUSH | 30 | 6 | 5 | 10 | 7 | 2 | F 16 / I 4 / A 10 |
 | MRPUSH | MID RANGE PUSH | 5 | 0 | 4 | 0 | 1 | 0 | F 2 / I 3 / A 0 |
-| VPUSH | VERTICAL PUSH | 27 | 6 | 2 | 8 | 5 | 6 | F 17 / I 2 / A 8 |
-| SHLD | SIDE RAISES | 21 | 0 | 1 | 0 | 19 | 1 | F 20 / I 1 / A 0 |
-| BIC | BICEP | 20 | 0 | 0 | 0 | 16 | 4 | F 20 / I 0 / A 0 |
+| VPUSH | VERTICAL PUSH | 27 | 7 | 2 | 8 | 4 | 6 | F 17 / I 2 / A 8 |
+| SHLD | SIDE RAISES | 23 | 1 | 1 | 0 | 20 | 1 | F 22 / I 1 / A 0 |
+| BIC | BICEP | 21 | 0 | 0 | 0 | 17 | 4 | F 21 / I 0 / A 0 |
 | TRI | TRICEP | 15 | 0 | 0 | 0 | 12 | 3 | F 15 / I 0 / A 0 |
-| CALF | CALVES | 6 | 0 | 0 | 0 | 4 | 2 | F 6 / I 0 / A 0 |
+| CALF | CALVES | 8 | 0 | 0 | 0 | 6 | 2 | F 8 / I 0 / A 0 |
+| NECK | NECK (PROPOSED v1.1) | 2 | 1 | 1 | 0 | 0 | 0 | F 1 / I 1 / A 0 |
 | CT | CORE THORAX | 30 | 10 | 10 | 3 | 2 | 5 | F 17 / I 10 / A 3 |
-| CP | CORE PELVIS | 25 | 10 | 6 | 4 | 0 | 5 | F 15 / I 6 / A 4 |
-| CB | CORE (THORAX + PELVIS 'BOTH') | 24 | 7 | 4 | 4 | 0 | 9 | F 16 / I 4 / A 4 |
+| CP | CORE PELVIS | 26 | 11 | 6 | 4 | 0 | 5 | F 16 / I 6 / A 4 |
+| CB | CORE (THORAX + PELVIS 'BOTH') | 25 | 7 | 5 | 4 | 0 | 9 | F 16 / I 5 / A 4 |
 | CORE | CORE | 2 | 0 | 0 | 0 | 0 | 2 | F 2 / I 0 / A 0 |
-| PLYO | PLYOS | 82 | 12 | 27 | 23 | 3 | 17 | F 32 / I 27 / A 23 |
+| PLYO | PLYOS | 83 | 12 | 28 | 23 | 3 | 17 | F 32 / I 28 / A 23 |
 | ANKLE | JUMPING ANKLE / LIMITED KNEE | 13 | 10 | 0 | 0 | 0 | 3 | F 13 / I 0 / A 0 |
 | TX | TRIPLE EXTENSION | 40 | 15 | 12 | 10 | 0 | 3 | F 18 / I 12 / A 10 |
-| THROW | THROWING | 40 | 0 | 0 | 0 | 40 | 0 | F 40 / I 0 / A 0 |
-| COD | CHANGE OF DIRECTION | 16 | 7 | 3 | 2 | 4 | 0 | F 11 / I 3 / A 2 |
+| THROW | THROWING | 41 | 0 | 0 | 0 | 41 | 0 | F 41 / I 0 / A 0 |
+| COD | CHANGE OF DIRECTION | 17 | 8 | 3 | 2 | 4 | 0 | F 12 / I 3 / A 2 |
 | SPRINT | SPEED / SPRINT (speed session) | 10 | 0 | 0 | 1 | 6 | 3 | F 9 / I 0 / A 1 |
 | WARMUP | DYNAMIC MEDBALL WARM-UP | 35 | 0 | 0 | 0 | 35 | 0 | F 35 / I 0 / A 0 |
-| CARDIO | CARDIO | 80 | 10 | 2 | 16 | 34 | 18 | F 62 / I 2 / A 16 |
+| CARDIO | CARDIO | 84 | 10 | 4 | 16 | 36 | 18 | F 64 / I 4 / A 16 |
 | AOS | FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM | 9 | 5 | 2 | 2 | 0 | 0 | F 5 / I 2 / A 2 |
-| DRAG | DRAGS | 4 | 3 | 1 | 0 | 0 | 0 | F 3 / I 1 / A 0 |
+| DRAG | DRAGS | 5 | 4 | 1 | 0 | 0 | 0 | F 4 / I 1 / A 0 |
 | CARRY | CARRY | 5 | 3 | 1 | 1 | 0 | 0 | F 3 / I 1 / A 1 |
-| ARMCARE | ARM CARE / MOBILITY | 3 | 0 | 0 | 0 | 0 | 3 | F 3 / I 0 / A 0 |
+| ARMCARE | ARM CARE / MOBILITY | 8 | 5 | 0 | 0 | 0 | 3 | F 8 / I 0 / A 0 |
 
-Level evidence for the tiered records: 34 set or confirmed by a coach answer, 236 OBSERVED (BYOP block word, Sheet23/aerobic header word, RESISTANCE PATTERNS cell colour), 106 INFERRED (decoder guesses or PROPOSED items); 331 records are 'any' or unrated (after the adversarial check: CAT-04 moved 3 back squats and the overhead box squat, ATH-10 the high- / mid-hang power clean). `level.basis` says which for every record.
+Level evidence for the tiered records: 34 set or confirmed by a coach answer, 236 OBSERVED (BYOP block word, Sheet23/aerobic header word, RESISTANCE PATTERNS cell colour), 106 INFERRED (decoder guesses or PROPOSED items); 331 records are 'any' or unrated (after the adversarial check: CAT-04 moved 3 back squats and the overhead box squat, ATH-10 the high- / mid-hang power clean). `level.basis` says which for every record. v1.1: 8 levels are now set by a round-2 answer (bench push-ups x2, R2-LIB-05; belt squat, seated machine shoulder press and the four triple-extension additions, R2-LIB-07) - the table row's FOUNDATIONAL is INFERRED (R2-LIB-07 named no level for the three home items; corrected by the adversarial check), the 21.6-mile run left the active set, and the 22 PROPOSED-ADDITION records carry INFERRED levels (16 tiered, 6 'any'); 'any' or unrated records now number 336.
 
 Records listed at more than one BYOP level block (OBSERVED): 14 - Ankle Hops (bilateral, in place) (foundational/intermediate); Hex Bar Squat to Calf Raise (foundational/intermediate); High-Hang Clean Pull (foundational/intermediate); High-Hang Snatch Pull (foundational/intermediate); Lunge to High-Knee Reach (foundational/intermediate); Mid-Hang Clean Pull (foundational/intermediate); Mid-Hang Snatch Pull (foundational/intermediate); Hack Squat (machine) (intermediate/advanced); Leg Extension (machine) (foundational/intermediate/advanced); Ball Hamstring Curl (medball or stability ball) (foundational/intermediate); Barbell Deadlift (conventional) (intermediate/advanced); GHD - Glute-Ham Developer (hip extension / glute-ham raise) (intermediate/advanced); Machine Leg Curl (seated or lying) (foundational/intermediate/advanced); Incline Push-Up (hands elevated) (foundational/intermediate).
 
@@ -299,900 +423,933 @@ Records listed at more than one BYOP level block (OBSERVED): 14 - Ankle Hops (bi
 
 | family | records | T0 | T1 | T2 | T3 | constraint 1 / 2 / 3 / 4 / 5 |
 |---|---|---|---|---|---|---|
-| ATHLETIC | 236 | 99 | 9 | 95 | 33 | 191 / 43 / 2 / 0 / 0 |
-| RESISTANCE | 289 | 49 | 14 | 105 | 121 | 22 / 142 / 69 / 40 / 16 |
-| CONTROL | 81 | 48 | 5 | 23 | 5 | 0 / 18 / 61 / 2 / 0 |
-| FUNCTIONAL | 21 | 1 | 0 | 7 | 13 | 0 / 9 / 12 / 0 / 0 |
-| CARDIO | 80 | 68 | 0 | 0 | 12 | 68 / 0 / 0 / 0 / 12 |
-| ALL | 707 | 265 | 28 | 230 | 184 | 281 / 212 / 144 / 42 / 28 |
+| ATHLETIC | 239 | 101 | 9 | 96 | 33 | 194 / 43 / 2 / 0 / 0 |
+| RESISTANCE | 299 | 55 | 14 | 109 | 121 | 22 / 147 / 74 / 40 / 16 |
+| CONTROL | 83 | 50 | 5 | 23 | 5 | 0 / 19 / 62 / 2 / 0 |
+| FUNCTIONAL | 27 | 2 | 1 | 9 | 15 | 0 / 12 / 15 / 0 / 0 |
+| CARDIO | 84 | 70 | 0 | 0 | 14 | 70 / 0 / 0 / 0 / 14 |
+| ALL | 732 | 278 | 29 | 237 | 188 | 286 / 221 / 153 / 42 / 30 |
 
-Implements named in at least one set-up (count of active records; recomputed after the second adversarial check added treadmill / erg set-ups to the 12 aerobic records, EQ-14): dumbbell 125, none 124, medball 93, barbell 90, open_space_long 58, cable 47, box 39, machine 38, cardio_treadmill 37, kettlebell 36, cardio_machine 34, step 32, bench 30, weight_bench 23, wall 22, pullup_bar 20, plate 13, plate_low_target 12, open_space_short 12, hex_bar 11, squat_rack 9, household_object 8, hurdles 7, landmine 6, seal_bench 6, stability_ball 5, ez_bar 5, suspension_trainer 4, sled 4, sandbag 3, slider 3, dip_station 3, any_cardio_mode 3, jump_rope 2, cones 2, smith 2, dip_belt 2, farmer_handles 2, box_high 1, ssb 1, foam_roller 1, hyper_bench 1, ghd 1, anchor 1, reverse_hyper 1. No active record uses a band or chains.
+Implements named in at least one set-up (count of active records; recomputed for v1.1 - the new records add a rope (sled rope pull) and use household objects, walls and cables; no band or chain anywhere): none 130, dumbbell 129, medball 94, barbell 90, open_space_long 59, cable 48, box 39, machine 39, kettlebell 37, cardio_treadmill 37, cardio_machine 36, bench 33, step 32, wall 25, weight_bench 23, pullup_bar 21, open_space_short 14, plate 14, plate_low_target 12, hex_bar 11, household_object 10, squat_rack 9, hurdles 7, landmine 6, seal_bench 6, stability_ball 5, ez_bar 5, sled 5, sandbag 4, suspension_trainer 4, cones 3, slider 3, dip_station 3, any_cardio_mode 3, jump_rope 2, smith 2, dip_belt 2, farmer_handles 2, box_high 1, ssb 1, foam_roller 1, hyper_bench 1, ghd 1, anchor 1, reverse_hyper 1, rope 1. No active record uses a band or chains.
 
 ### 3.4 Laterality and plane
 
 | laterality | records |
 |---|---|
-| bilateral | 401 |
-| unilateral | 139 |
-| n/a | 95 |
-| alternating | 71 |
+| bilateral | 414 |
+| unilateral | 143 |
+| n/a | 101 |
+| alternating | 73 |
 | either (single-leg, or bilateral holding DBs) | 1 |
 
 | plane | records |
 |---|---|
-| sagittal | 524 |
-| transverse | 80 |
+| sagittal | 543 |
+| transverse | 82 |
 | frontal | 45 |
-| multi | 37 |
+| multi | 41 |
 | n/a | 21 |
 
 ## 4. Full exercise list by pattern (active records)
 
-Status: **S** = selectable in a BYOP dropdown, **L** = BYOP library but no dropdown reads it, **R** = MASTER_MODEL reference tab only, **P** = named only in program tabs, **N** = new, added by a coach answer, **X** = new, PROPOSED. Level = primary level; 'from' = lowest exercise-skill tier the generator may offer it to (F / I / A; not the client's volume level L1-L3, CAT-06). T = access tier, C = constraint 1-5. Credit = how much one set counts per muscle group ('-' = not counted, VOL-10). Uses = program cells naming it (direct + inside complexes). Notes: ADDED / NEW / PENDING / renamed / coach preference / speed step / delt head.
 
-### BKD - BILATERAL KNEE DOMINANT (40)
+Status: **S** = selectable in a BYOP dropdown, **L** = BYOP library but no dropdown reads it, **R** = MASTER_MODEL reference tab only, **P** = named only in program tabs, **N** = new in v1, added by a coach answer, **X** = new in v1, PROPOSED, **N2** = new in v1.1, added by a round-2 answer, **X2** = new in v1.1, PROPOSED-ADDITION (section 2.8). Level = primary level; 'from' = lowest exercise-skill tier the generator may offer it to (F / I / A; not the client's volume level L1-L3, CAT-06). T = access tier, C = constraint 1-5. Credit = how much one set counts per muscle group ('-' = not counted, VOL-10). Uses = program cells naming it (direct + inside complexes). Notes: ADDED / NEW / PENDING / renamed / coach preference / speed step / delt head.
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Back Squat (bar position not stated) | back-squat-bar-position-not-stated | S | advanced | A | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 23 | CAT-04: back squat = advanced |
-| Barbell Thruster | barbell-thruster | S | advanced | A | T3 | 1 | bilateral | QUADS 1 + SHOULDERS/TRAPS 0.5 | 0 | conditioning-leaning; LIB-14 0.5 |
-| Belt Squat (machine) | belt-squat-machine | N | any | F | T3 | 4 | bilateral | QUADS 1 + GLUTES 0.25 | 0 | NEW EQ-11 |
-| Bodyweight Squat (air squat) | bodyweight-squat-air-squat | S | foundational | F | T0 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 6 |  |
-| Box Goblet Squat (touch-and-go) | box-goblet-squat-touch-and-go | S | foundational | F | T2 | 3 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  |
-| Box Squat (bodyweight) | box-squat-bodyweight | S | foundational | F | T0 | 3 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  |
-| Box Squat - any variation, dead-stop ('Deload' = sit and unload on the box) | box-squat-any-variation-dead-stop-deload-sit-and-unload-on-the-box | S | advanced | A | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 8 |  |
-| Box Squat, any loading - touch-and-go (fast) | box-squat-any-loading-touch-and-go-fast | S | advanced | A | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 4 |  |
-| Box Zercher Squat (touch-and-go) | box-zercher-squat-touch-and-go | S | foundational | F | T2 | 3 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  |
-| DB Thruster (front squat into overhead press) | db-thruster-front-squat-into-overhead-press | S | advanced | A | T2 | 1 | bilateral | QUADS 1 + SHOULDERS/TRAPS 0.5 | 0 | conditioning-leaning; LIB-14 0.5 |
-| Double-KB Front-Rack Squat | double-kb-front-rack-squat | S | intermediate | I | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  |
-| Flipped Hex Bar Squat (low handles, longer range) | flipped-hex-bar-squat-low-handles-longer-range | S | foundational | F | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  |
-| Front Squat (barbell) | front-squat-barbell | S | intermediate | I | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 66 |  |
-| Goblet Squat (Heels Elevated) | goblet-squat-heels-elevated | S | any | F | T2 | 2 | bilateral | QUADS 1 | 0 |  |
-| Goblet Squat (KB/DB) | goblet-squat-kb-db | S | foundational | F | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 2 |  |
-| Hack Squat (machine) | hack-squat-machine | S | intermediate | F | T3 | 4 | bilateral | QUADS 1 | 0 | pref 'I PERSONALLY DON'T LIKE IT' |
-| Hex (Trap) Bar Squat | hex-trap-bar-squat | S | foundational | F | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 2 |  |
-| High Zercher Barbell Squat | high-zercher-barbell-squat | S | intermediate | I | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 4 |  |
-| High-Bar Back Squat | high-bar-back-squat | S | advanced | A | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 13 | CAT-04: back squat = advanced (BYOP MODERATE) |
-| High-Zercher DB Squat (DB hugged high at chest) | high-zercher-db-squat-db-hugged-high-at-chest | S | intermediate | I | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  |
-| Landmine Hack Squat | landmine-hack-squat | S | intermediate | I | T3 | 3 | bilateral | QUADS 1 | 0 |  |
-| Landmine Squat | landmine-squat | S | foundational | F | T3 | 3 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  |
-| Leg Press (machine) | leg-press-machine | S | advanced | F | T3 | 5 | bilateral | QUADS 1 + GLUTES 0.25 | 45 | pref 'LOVE IT' |
-| Low DB Squat (two DBs hanging at the sides) | low-hold-db-squat-single-db-hanging-between-the-legs | S | foundational | F | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 | renamed |
-| Low-Bar Back Squat | low-bar-back-squat | S | advanced | A | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 3 | CAT-04: back squat = advanced (BYOP MODERATE); never for older / injured (EQ-03) |
-| Pendulum Squat (machine) | pendulum-squat-machine | S | advanced | F | T3 | 4 | bilateral | QUADS 1 | 0 | pref 'LOVE IT' |
-| Single-Arm DB Thruster | single-arm-db-thruster | S | advanced | A | T2 | 1 | bilateral | QUADS 1 + SHOULDERS/TRAPS 0.5 | 0 | conditioning-leaning; LIB-14 0.5 |
-| Sissy Squat | sissy-squat | S | advanced | A | T0 | 1 | bilateral | QUADS 1 | 0 |  |
-| Squat Holding an Object Between the Knees (adduction squeeze) | squat-holding-an-object-between-the-knees-adduction-squeeze | R | foundational | F | T0 | 2 | bilateral | QUADS 1 | 0 | ADDED LIB-20 |
-| Sumo Squat (DB or KB) | sumo-squat-db-or-kb | S | foundational | F | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  |
-| Wall-Assisted Squat (foam roller or stability ball behind the back) | wall-assisted-squat-foam-roller-or-stability-ball-behind-the-back | S | foundational | F | T1 | 4 | bilateral | QUADS 1 | 0 |  |
-| Zercher Squat (barbell) | zercher-squat-barbell | S | any | F | T3 | 2 | bilateral | QUADS 1 | 2 |  |
-| Barbell Overhead Squat | barbell-overhead-squat | R | advanced | A | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 | never for older / injured (EQ-03) |
-| Oscillating Drop Squat | oscillating-drop-squat | P | unrated | F | T0 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 1 |  |
-| Pin Squat (squat from / to safety pins) | pin-squat-squat-from-to-safety-pins | R | advanced | A | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  |
-| Plate-Reach Forward Squat (counterbalance squat) | plate-reach-forward-squat-counterbalance-squat | R | foundational | F | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  |
-| Safety Squat Bar (SSB) Squat | safety-squat-bar-ssb-squat | R | advanced | A | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  |
-| Smith Machine Squat | smith-machine-squat | P | unrated | F | T3 | 4 | bilateral | QUADS 1 + GLUTES 0.25 | 4 | axial high (bar on the back, PER-04) |
-| Squat - any loading ('Whatever Squat') | squat-any-loading-whatever-squat | R | advanced | A | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 8 |  |
-| V-Squat (machine) | v-squat-machine | R | unrated | F | T3 | 4 | bilateral | QUADS 1 + GLUTES 0.25 | 0 | never; pref 'DON'T LIKE IT' |
+Column **v1.1** (round-2 tags): the R2 change on that record; for jumps and throws the R2-ATH-02 class (ballistic / plyometric / receive) and the Receive-Create stage the name implies (R2-ATH-03); for Olympic lifts the day they belong to (clean day = squat-leaning, snatch day = hinge-leaning, R2-ATH-04); 'heavy spine day' / '2nd day if not sore' (R2-SES-02); '60+ off by default' (R2-ATH-08, opt-in with a warning). The 21.6-mile run is retired (R2-LIB-06) and no longer listed.
 
-### UKD - UNILATERAL KNEE DOMINANT (20)
+### BKD - BILATERAL KNEE DOMINANT (41)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Cossack Lateral Lunge | cossack-lateral-lunge | R | intermediate | I | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 0 | ADDED LIB-20 |
-| Curtsy Lunge | curtsy-lunge | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 0 |  |
-| Deficit Reverse Lunge (standing on plate/step) | deficit-reverse-lunge-standing-on-plate-step | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 4 |  |
-| Forward Lunge | forward-lunge | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 3 |  |
-| Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) | front-and-rear-foot-elevated-split-squat-ffe-and-rfe | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 25 |  |
-| Front-Foot-Elevated Split Squat / Lunge (FFE) | front-foot-elevated-split-squat-lunge-ffe | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 24 |  |
-| Pistol Squat (single-leg squat to floor) | pistol-squat-single-leg-squat-to-floor | S | any | F | T0 | 1 | unilateral | QUADS 1 + GLUTES 0.25 | 0 |  |
-| Rear-Foot-Against-Wall Split Squat | rear-foot-against-wall-split-squat | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 0 |  |
-| Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) | rear-foot-elevated-lunge-rfe-bulgarian-split-squat | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 34 |  |
-| Reverse Lunge | reverse-lunge | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 23 |  |
-| Side (Lateral) Lunge | side-lateral-lunge | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 5 |  |
-| Single-Leg Get-Up (box pistol) | single-leg-get-up-single-leg-sit-to-stand-from-bench-box | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 0 | renamed |
-| Stationary Lunge (Split Squat) | stationary-lunge-split-squat | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 2 |  |
-| Step-Up (forward and lateral) | step-up-forward-and-lateral | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 12 |  |
-| Walking Lunge | walking-lunge | S | any | F | T0 | 2 | alternating | QUADS 1 + GLUTES 0.25 | 3 |  |
-| Jefferson Lunge | jefferson-lunge | P | unrated | F | T3 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 1 |  |
-| Lunge (variation not stated) | lunge-variation-not-stated | R | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 16 |  |
-| Medball Rotational Alternating FFE Reverse Lunge | medball-rotational-alternating-ffe-reverse-lunge | P | unrated | F | T2 | 2 | alternating | QUADS 1 + GLUTES 0.25 | 1 |  |
-| RFE Split-Squat Isometric Hold (suitcase DB) | rfe-split-squat-isometric-hold-suitcase-db | P | unrated | F | T2 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 1 |  |
-| Step-up to Knee Drive | step-up-to-knee-drive | P | unrated | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 1 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Back Squat (bar position not stated) | back-squat-bar-position-not-stated | S | advanced | A | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 23 | CAT-04: back squat = advanced | heavy spine day |
+| Barbell Thruster | barbell-thruster | S | advanced | A | T3 | 1 | bilateral | QUADS 1 + SHOULDERS/TRAPS 0.5 + GLUTES 0.25 | 0 | conditioning-leaning; LIB-14 0.5 | R2-VOL-05: 1.0 / 0.5 / 0.25 |
+| Belt Squat (machine) | belt-squat-machine | N | foundational | F | T3 | 4 | bilateral | QUADS 1 + GLUTES 0.25 | 0 | NEW EQ-11 | R2-LIB-07: FOUNDATIONAL |
+| Bodyweight Squat (air squat) | bodyweight-squat-air-squat | S | foundational | F | T0 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 6 |  |  |
+| Box Goblet Squat (touch-and-go) | box-goblet-squat-touch-and-go | S | foundational | F | T2 | 3 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  | 2nd day if not sore |
+| Box Squat (bodyweight) | box-squat-bodyweight | S | foundational | F | T0 | 3 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  |  |
+| Box Squat - any variation, dead-stop ('Deload' = sit and unload on the box) | box-squat-any-variation-dead-stop-deload-sit-and-unload-on-the-box | S | advanced | A | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 8 |  | heavy spine day |
+| Box Squat, any loading - touch-and-go (fast) | box-squat-any-loading-touch-and-go-fast | S | advanced | A | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 4 |  | heavy spine day |
+| Box Zercher Squat (touch-and-go) | box-zercher-squat-touch-and-go | S | foundational | F | T2 | 3 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  | heavy spine day |
+| DB Thruster (front squat into overhead press) | db-thruster-front-squat-into-overhead-press | S | advanced | A | T2 | 1 | bilateral | QUADS 1 + SHOULDERS/TRAPS 0.5 + GLUTES 0.25 | 0 | conditioning-leaning; LIB-14 0.5 | R2-VOL-05: 1.0 / 0.5 / 0.25; 2nd day if not sore |
+| Double-KB Front-Rack Squat | double-kb-front-rack-squat | S | intermediate | I | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  | 2nd day if not sore |
+| Flipped Hex Bar Squat (low handles, longer range) | flipped-hex-bar-squat-low-handles-longer-range | S | foundational | F | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  | heavy spine day |
+| Front Squat (barbell) | front-squat-barbell | S | intermediate | I | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 66 |  | heavy spine day |
+| Goblet Squat (Heels Elevated) | goblet-squat-heels-elevated | S | any | F | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  | R2-VOL-05: glutes 0.25 added; 2nd day if not sore |
+| Goblet Squat (KB/DB) | goblet-squat-kb-db | S | foundational | F | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 2 |  | 2nd day if not sore |
+| Hack Squat (machine) | hack-squat-machine | S | intermediate | F | T3 | 4 | bilateral | QUADS 1 + GLUTES 0.25 | 0 | pref 'I PERSONALLY DON'T LIKE IT' | R2-VOL-05: glutes 0.25 added; 2nd day if not sore |
+| Hex (Trap) Bar Squat | hex-trap-bar-squat | S | foundational | F | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 2 |  | heavy spine day |
+| High Zercher Barbell Squat | high-zercher-barbell-squat | S | intermediate | I | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 4 |  | heavy spine day |
+| High-Bar Back Squat | high-bar-back-squat | S | advanced | A | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 13 | CAT-04: back squat = advanced (BYOP MODERATE) | heavy spine day |
+| High-Zercher DB Squat (DB hugged high at chest) | high-zercher-db-squat-db-hugged-high-at-chest | S | intermediate | I | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  | 2nd day if not sore |
+| Landmine Hack Squat | landmine-hack-squat | S | intermediate | I | T3 | 3 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  | R2-VOL-05: glutes 0.25 added; 2nd day if not sore |
+| Landmine Squat | landmine-squat | S | foundational | F | T3 | 3 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  | 2nd day if not sore |
+| Leg Press (machine) | leg-press-machine | S | advanced | F | T3 | 5 | bilateral | QUADS 1 + GLUTES 0.25 | 45 | pref 'LOVE IT' |  |
+| Low DB Squat (two DBs hanging at the sides) | low-hold-db-squat-single-db-hanging-between-the-legs | S | foundational | F | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 | renamed | 2nd day if not sore |
+| Low-Bar Back Squat | low-bar-back-squat | S | advanced | A | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 3 | CAT-04: back squat = advanced (BYOP MODERATE); never for older / injured (EQ-03) | heavy spine day |
+| Pendulum Squat (machine) | pendulum-squat-machine | S | advanced | F | T3 | 4 | bilateral | QUADS 1 + GLUTES 0.25 | 0 | pref 'LOVE IT' | R2-VOL-05: glutes 0.25 added; 2nd day if not sore |
+| Single-Arm DB Thruster | single-arm-db-thruster | S | advanced | A | T2 | 1 | bilateral | QUADS 1 + SHOULDERS/TRAPS 0.5 + GLUTES 0.25 | 0 | conditioning-leaning; LIB-14 0.5 | R2-VOL-05: 1.0 / 0.5 / 0.25; 2nd day if not sore |
+| Sissy Squat | sissy-squat | S | advanced | A | T0 | 1 | bilateral | QUADS 1 | 0 |  |  |
+| Squat Holding an Object Between the Knees (adduction squeeze) | squat-holding-an-object-between-the-knees-adduction-squeeze | R | foundational | F | T0 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 | ADDED LIB-20 | R2-VOL-05: glutes 0.25 added |
+| Sumo Squat (DB or KB) | sumo-squat-db-or-kb | S | foundational | F | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  | 2nd day if not sore |
+| Wall-Assisted Squat (foam roller or stability ball behind the back) | wall-assisted-squat-foam-roller-or-stability-ball-behind-the-back | S | foundational | F | T1 | 4 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  | R2-VOL-05: glutes 0.25 added |
+| Zercher Squat (barbell) | zercher-squat-barbell | S | any | F | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 2 |  | R2-VOL-05: glutes 0.25 added; heavy spine day |
+| Barbell Overhead Squat | barbell-overhead-squat | R | advanced | A | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 | never for older / injured (EQ-03) | heavy spine day |
+| Oscillating Drop Squat | oscillating-drop-squat | P | unrated | F | T0 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 1 |  |  |
+| Pin Squat (squat from / to safety pins) | pin-squat-squat-from-to-safety-pins | R | advanced | A | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  | heavy spine day |
+| Plate-Reach Forward Squat (counterbalance squat) | plate-reach-forward-squat-counterbalance-squat | R | foundational | F | T2 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  | 2nd day if not sore |
+| Safety Squat Bar (SSB) Squat | safety-squat-bar-ssb-squat | R | advanced | A | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  | heavy spine day |
+| Smith Machine Squat | smith-machine-squat | P | unrated | F | T3 | 4 | bilateral | QUADS 1 + GLUTES 0.25 | 4 | axial high (bar on the back, PER-04) | heavy spine day |
+| Squat - any loading ('Whatever Squat') | squat-any-loading-whatever-squat | R | advanced | A | T3 | 2 | bilateral | QUADS 1 + GLUTES 0.25 | 8 |  | heavy spine day |
+| V-Squat (machine) | v-squat-machine | R | unrated | F | T3 | 4 | bilateral | QUADS 1 + GLUTES 0.25 | 0 | never; pref 'DON'T LIKE IT' |  |
+| Wall Sit (isometric squat hold) | wall-sit-isometric-squat-hold | X2 | foundational | F | T0 | 3 | bilateral | QUADS 1 + GLUTES 0.25 | 0 |  | PROPOSED-ADDITION |
+
+### UKD - UNILATERAL KNEE DOMINANT (21)
+
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Cossack Lateral Lunge | cossack-lateral-lunge | R | intermediate | I | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 0 | ADDED LIB-20 |  |
+| Curtsy Lunge | curtsy-lunge | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 0 |  |  |
+| Deficit Reverse Lunge (standing on plate/step) | deficit-reverse-lunge-standing-on-plate-step | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 4 |  |  |
+| Forward Lunge | forward-lunge | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 3 |  |  |
+| Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) | front-and-rear-foot-elevated-split-squat-ffe-and-rfe | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 25 |  |  |
+| Front-Foot-Elevated Split Squat / Lunge (FFE) | front-foot-elevated-split-squat-lunge-ffe | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 24 |  |  |
+| Pistol Squat (single-leg squat to floor) | pistol-squat-single-leg-squat-to-floor | S | any | F | T0 | 1 | unilateral | QUADS 1 + GLUTES 0.25 | 0 |  |  |
+| Rear-Foot-Against-Wall Split Squat | rear-foot-against-wall-split-squat | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 0 |  |  |
+| Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) | rear-foot-elevated-lunge-rfe-bulgarian-split-squat | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 34 |  |  |
+| Reverse Lunge | reverse-lunge | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 23 |  |  |
+| Side (Lateral) Lunge | side-lateral-lunge | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 5 |  |  |
+| Single-Leg Get-Up (box pistol) | single-leg-get-up-single-leg-sit-to-stand-from-bench-box | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 0 | renamed |  |
+| Stationary Lunge (Split Squat) | stationary-lunge-split-squat | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 2 |  |  |
+| Step-Up (forward and lateral) | step-up-forward-and-lateral | S | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 12 |  |  |
+| Walking Lunge | walking-lunge | S | any | F | T0 | 2 | alternating | QUADS 1 + GLUTES 0.25 | 3 |  |  |
+| Jefferson Lunge | jefferson-lunge | P | unrated | F | T3 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 1 |  |  |
+| Lunge (variation not stated) | lunge-variation-not-stated | R | any | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 16 |  | 2nd day if not sore |
+| Medball Rotational Alternating FFE Reverse Lunge | medball-rotational-alternating-ffe-reverse-lunge | P | unrated | F | T2 | 2 | alternating | QUADS 1 + GLUTES 0.25 | 1 |  |  |
+| RFE Split-Squat Isometric Hold (suitcase DB) | rfe-split-squat-isometric-hold-suitcase-db | P | unrated | F | T2 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 1 |  |  |
+| Sandbag Walking Lunge (bag on the shoulders) | sandbag-walking-lunge-bag-on-shoulders | X2 | intermediate | I | T2 | 2 | alternating | QUADS 1 + GLUTES 0.25 | 0 |  | PROPOSED-ADDITION |
+| Step-up to Knee Drive | step-up-to-knee-drive | P | unrated | F | T0 | 2 | unilateral | QUADS 1 + GLUTES 0.25 | 1 |  |  |
 
 ### KEXT - LEG EXTENSIONS (2)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Leg Extension (machine) | leg-extension-machine | S | any | F | T3 | 5 | bilateral | QUADS 1 | 45 |  |
-| DB Leg Extension (seated on box) | db-leg-extension-seated-on-box | R | any | F | T2 | 3 | bilateral | QUADS 1 | 0 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Leg Extension (machine) | leg-extension-machine | S | any | F | T3 | 5 | bilateral | QUADS 1 | 45 |  |  |
+| DB Leg Extension (seated on box) | db-leg-extension-seated-on-box | R | any | F | T2 | 3 | bilateral | QUADS 1 | 0 |  |  |
 
 ### BHD - BILATERAL HIP DOMINANT (27)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 45-Degree Hyperextension (back/hip extension) | 45-degree-hyperextension-back-hip-extension | S | intermediate | F | T3 | 4 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 + BACK 0.25 | 2 |  |
-| Barbell Deadlift (conventional) | barbell-deadlift-conventional | S | intermediate | I | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 17 |  |
-| Barbell Good Morning | barbell-good-morning | S | advanced | A | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 + BACK 0.25 | 4 |  |
-| Barbell Hip Thrust | barbell-hip-thrust | S | advanced | A | T3 | 3 | bilateral | GLUTES 1 | 0 |  |
-| Cable Pull-Through | cable-pull-through | S | foundational | F | T3 | 3 | bilateral | GLUTES 1 + HAMSTRINGS 0.25 | 0 |  |
-| Double-Kettlebell Deadlift | double-kettlebell-deadlift | S | foundational | F | T2 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 0 |  |
-| Dumbbell Deadlift | dumbbell-deadlift | S | intermediate | I | T2 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 12 |  |
-| Dumbbell Hip Thrust | dumbbell-hip-thrust | S | intermediate | I | T2 | 3 | bilateral | GLUTES 1 | 0 |  |
-| Feet-Elevated Glute Bridge (feet on bench) | feet-elevated-glute-bridge-feet-on-bench | S | foundational | F | T0 | 3 | bilateral | GLUTES 1 + HAMSTRINGS 0.25 | 1 |  |
-| GHD - Glute-Ham Developer (hip extension / glute-ham raise) | ghd-glute-ham-developer-hip-extension-glute-ham-raise | S | any | F | T3 | 4 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 0 |  |
-| Glute Bridge | glute-bridge | S | foundational | F | T0 | 3 | bilateral | GLUTES 1 | 1 |  |
-| Good Morning (machine) | good-morning-machine | S | intermediate | F | T3 | 4 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 0 |  |
-| Hex (Trap) Bar Deadlift | hex-trap-bar-deadlift | S | intermediate | I | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 + QUADS 0.25 | 6 |  |
-| Hip Thrust (machine) | hip-thrust-machine | S | intermediate | F | T3 | 4 | bilateral | GLUTES 1 | 0 |  |
-| Hip Thrust or Glute Bridge (either) | hip-thrust-or-glute-bridge-either | S | any | F | T0 | 3 | bilateral | GLUTES 1 | 0 |  |
-| Kettlebell Swing (Russian) | kettlebell-swing-russian | S | foundational | F | T2 | 1 | bilateral | GLUTES 1 + HAMSTRINGS 0.25 | 12 |  |
-| Reverse Hyperextension | reverse-hyperextension | S | foundational | F | T3 | 4 | bilateral | GLUTES 1 + HAMSTRINGS 0.25 | 0 |  |
-| Sandbag Hip Thrust | sandbag-hip-thrust | S | foundational | F | T2 | 3 | bilateral | GLUTES 1 | 0 |  |
-| Single-Kettlebell Deadlift | single-kettlebell-deadlift | S | foundational | F | T2 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 3 |  |
-| Snatch-Grip Barbell Deadlift | snatch-grip-barbell-deadlift | S | advanced | A | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 7 |  |
-| Stiff-Leg Deadlift / RDL | stiff-leg-deadlift-rdl | S | advanced | A | T2 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 13 |  |
-| Sumo Deadlift | sumo-deadlift | S | advanced | A | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 + QUADS 0.25 | 0 |  |
-| Wide-Grip Barbell Deadlift | wide-grip-barbell-deadlift | S | advanced | A | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 0 |  |
-| American KB Swing (overhead) | american-kb-swing-overhead | R | intermediate | I | T2 | 2 | bilateral | GLUTES 1 + HAMSTRINGS 0.25 | 0 |  |
-| Deadlift (implement not stated) | deadlift-implement-not-stated | P | unrated | F | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 65 |  |
-| Deficit Barbell Deadlift | deficit-barbell-deadlift | P | unrated | F | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 6 |  |
-| Hip Thrust (implement not stated) | hip-thrust-implement-not-stated | R | any | F | T0 | 4 | bilateral | GLUTES 1 | 0 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 45-Degree Hyperextension (back/hip extension) | 45-degree-hyperextension-back-hip-extension | S | intermediate | F | T3 | 4 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 + BACK 0.25 | 2 |  |  |
+| Barbell Deadlift (conventional) | barbell-deadlift-conventional | S | intermediate | I | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 17 |  | heavy spine day |
+| Barbell Good Morning | barbell-good-morning | S | advanced | A | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 + BACK 0.25 | 4 |  | heavy spine day |
+| Barbell Hip Thrust | barbell-hip-thrust | S | advanced | A | T3 | 3 | bilateral | GLUTES 1 | 0 |  |  |
+| Cable Pull-Through | cable-pull-through | S | foundational | F | T3 | 3 | bilateral | GLUTES 1 + HAMSTRINGS 0.25 | 0 |  |  |
+| Double-Kettlebell Deadlift | double-kettlebell-deadlift | S | foundational | F | T2 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 0 |  | 2nd day if not sore |
+| Dumbbell Deadlift | dumbbell-deadlift | S | intermediate | I | T2 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 12 |  | 2nd day if not sore |
+| Dumbbell Hip Thrust | dumbbell-hip-thrust | S | intermediate | I | T2 | 3 | bilateral | GLUTES 1 | 0 |  |  |
+| Feet-Elevated Glute Bridge (feet on bench) | feet-elevated-glute-bridge-feet-on-bench | S | foundational | F | T0 | 3 | bilateral | GLUTES 1 + HAMSTRINGS 0.25 | 1 |  |  |
+| GHD - Glute-Ham Developer (hip extension / glute-ham raise) | ghd-glute-ham-developer-hip-extension-glute-ham-raise | S | any | F | T3 | 4 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 0 |  |  |
+| Glute Bridge | glute-bridge | S | foundational | F | T0 | 3 | bilateral | GLUTES 1 | 1 |  |  |
+| Good Morning (machine) | good-morning-machine | S | intermediate | F | T3 | 4 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 0 |  | 2nd day if not sore |
+| Hex (Trap) Bar Deadlift | hex-trap-bar-deadlift | S | intermediate | I | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 + QUADS 0.25 | 6 |  | heavy spine day |
+| Hip Thrust (machine) | hip-thrust-machine | S | intermediate | F | T3 | 4 | bilateral | GLUTES 1 | 0 |  |  |
+| Hip Thrust or Glute Bridge (either) | hip-thrust-or-glute-bridge-either | S | any | F | T0 | 3 | bilateral | GLUTES 1 | 0 |  |  |
+| Kettlebell Swing (Russian) | kettlebell-swing-russian | S | foundational | F | T2 | 1 | bilateral | - | 12 |  | R2-VOL-05: ballistic, 0 sets; ballistic; 2nd day if not sore |
+| Reverse Hyperextension | reverse-hyperextension | S | foundational | F | T3 | 4 | bilateral | GLUTES 1 + HAMSTRINGS 0.25 | 0 |  |  |
+| Sandbag Hip Thrust | sandbag-hip-thrust | S | foundational | F | T2 | 3 | bilateral | GLUTES 1 | 0 |  |  |
+| Single-Kettlebell Deadlift | single-kettlebell-deadlift | S | foundational | F | T2 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 3 |  | 2nd day if not sore |
+| Snatch-Grip Barbell Deadlift | snatch-grip-barbell-deadlift | S | advanced | A | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 7 |  | heavy spine day |
+| Stiff-Leg Deadlift / RDL | stiff-leg-deadlift-rdl | S | advanced | A | T2 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 13 |  | heavy spine day |
+| Sumo Deadlift | sumo-deadlift | S | advanced | A | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 + QUADS 0.25 | 0 |  | heavy spine day |
+| Wide-Grip Barbell Deadlift | wide-grip-barbell-deadlift | S | advanced | A | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 0 |  | heavy spine day |
+| American KB Swing (overhead) | american-kb-swing-overhead | R | intermediate | I | T2 | 2 | bilateral | - | 0 |  | R2-VOL-05: ballistic, 0 sets; ballistic; 2nd day if not sore |
+| Deadlift (implement not stated) | deadlift-implement-not-stated | P | unrated | F | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 65 |  | heavy spine day |
+| Deficit Barbell Deadlift | deficit-barbell-deadlift | P | unrated | F | T3 | 2 | bilateral | HAMSTRINGS 1 + GLUTES 0.25 | 6 |  | heavy spine day |
+| Hip Thrust (implement not stated) | hip-thrust-implement-not-stated | R | any | F | T0 | 4 | bilateral | GLUTES 1 | 0 |  |  |
 
 ### UHD - UNILATERAL HIP DOMINANT (12)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Alternating Staggered-Stance Single-Leg Deadlift (barbell) | alternating-barbell-deadlift-alternate-lead-leg-meaning-inferred | S | foundational | F | T3 | 2 | alternating | HAMSTRINGS 1 + GLUTES 0.25 | 0 | renamed |
-| Alternating Staggered-Stance Single-Leg Deadlift (DB) | alternating-db-deadlift-alternate-lead-leg-staggered-side-each-rep-meaning-infer | S | foundational | F | T2 | 2 | alternating | HAMSTRINGS 1 + GLUTES 0.25 | 0 | renamed |
-| Rear-Foot-on-Wall DB Deadlift (RDL) | rear-foot-on-wall-db-deadlift-rdl | S | any | F | T2 | 2 | unilateral | HAMSTRINGS 1 + GLUTES 0.25 | 5 |  |
-| Single-Leg Glute Bridge (foot elevated on bench) | single-leg-glute-bridge-foot-elevated-on-bench | S | foundational | F | T0 | 3 | unilateral | GLUTES 1 + HAMSTRINGS 0.25 | 1 |  |
-| Single-Leg Glute Bridge (foot on floor) | single-leg-glute-bridge-foot-on-floor | S | foundational | F | T0 | 3 | unilateral | GLUTES 1 | 12 |  |
-| Single-Leg Hip Thrust (shoulders on bench) | single-leg-hip-thrust-shoulders-on-bench | S | foundational | F | T0 | 3 | unilateral | GLUTES 1 | 0 |  |
-| Split-Stance Contralateral Single-Arm KB Swing | split-stance-contralateral-single-arm-kb-swing | R | intermediate | I | T2 | 2 | unilateral | GLUTES 1 + HAMSTRINGS 0.25 | 0 | ADDED LIB-20 |
-| Staggered-Stance (Kickstand) Barbell Deadlift | staggered-stance-kickstand-barbell-deadlift | S | foundational | F | T3 | 2 | unilateral | HAMSTRINGS 1 + GLUTES 0.25 | 2 |  |
-| Staggered-Stance (Kickstand) DB Deadlift | staggered-stance-kickstand-db-deadlift | S | foundational | F | T2 | 2 | unilateral | HAMSTRINGS 1 + GLUTES 0.25 | 13 |  |
-| Staggered-Stance Deadlift (implement not stated) | staggered-stance-deadlift-implement-not-stated | S | any | F | T2 | 2 | unilateral | HAMSTRINGS 1 + GLUTES 0.25 | 48 |  |
-| Single-Leg RDL / Single-Leg Deadlift | single-leg-rdl-single-leg-deadlift | P | unrated | F | T2 | 2 | unilateral | HAMSTRINGS 1 + GLUTES 0.25 | 49 |  |
-| Staggered-Stance Hex Bar Deadlift | staggered-stance-hex-bar-deadlift | R | foundational | F | T3 | 2 | unilateral | HAMSTRINGS 1 + GLUTES 0.25 | 0 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Alternating Staggered-Stance Single-Leg Deadlift (barbell) | alternating-barbell-deadlift-alternate-lead-leg-meaning-inferred | S | foundational | F | T3 | 2 | alternating | HAMSTRINGS 1 + GLUTES 0.25 | 0 | renamed | 2nd day if not sore |
+| Alternating Staggered-Stance Single-Leg Deadlift (DB) | alternating-db-deadlift-alternate-lead-leg-staggered-side-each-rep-meaning-infer | S | foundational | F | T2 | 2 | alternating | HAMSTRINGS 1 + GLUTES 0.25 | 0 | renamed |  |
+| Rear-Foot-on-Wall DB Deadlift (RDL) | rear-foot-on-wall-db-deadlift-rdl | S | any | F | T2 | 2 | unilateral | HAMSTRINGS 1 + GLUTES 0.25 | 5 |  |  |
+| Single-Leg Glute Bridge (foot elevated on bench) | single-leg-glute-bridge-foot-elevated-on-bench | S | foundational | F | T0 | 3 | unilateral | GLUTES 1 + HAMSTRINGS 0.25 | 1 |  |  |
+| Single-Leg Glute Bridge (foot on floor) | single-leg-glute-bridge-foot-on-floor | S | foundational | F | T0 | 3 | unilateral | GLUTES 1 | 12 |  |  |
+| Single-Leg Hip Thrust (shoulders on bench) | single-leg-hip-thrust-shoulders-on-bench | S | foundational | F | T0 | 3 | unilateral | GLUTES 1 | 0 |  |  |
+| Split-Stance Contralateral Single-Arm KB Swing | split-stance-contralateral-single-arm-kb-swing | R | intermediate | I | T2 | 2 | unilateral | - | 0 | ADDED LIB-20 | R2-VOL-05: ballistic, 0 sets; ballistic |
+| Staggered-Stance (Kickstand) Barbell Deadlift | staggered-stance-kickstand-barbell-deadlift | S | foundational | F | T3 | 2 | unilateral | HAMSTRINGS 1 + GLUTES 0.25 | 2 |  | 2nd day if not sore |
+| Staggered-Stance (Kickstand) DB Deadlift | staggered-stance-kickstand-db-deadlift | S | foundational | F | T2 | 2 | unilateral | HAMSTRINGS 1 + GLUTES 0.25 | 13 |  |  |
+| Staggered-Stance Deadlift (implement not stated) | staggered-stance-deadlift-implement-not-stated | S | any | F | T2 | 2 | unilateral | HAMSTRINGS 1 + GLUTES 0.25 | 48 |  | 2nd day if not sore |
+| Single-Leg RDL / Single-Leg Deadlift | single-leg-rdl-single-leg-deadlift | P | unrated | F | T2 | 2 | unilateral | HAMSTRINGS 1 + GLUTES 0.25 | 49 |  |  |
+| Staggered-Stance Hex Bar Deadlift | staggered-stance-hex-bar-deadlift | R | foundational | F | T3 | 2 | unilateral | HAMSTRINGS 1 + GLUTES 0.25 | 0 |  | 2nd day if not sore |
 
 ### KFLEX - LEG FLEXION (9)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Ball Hamstring Curl (medball or stability ball) | ball-hamstring-curl-medball-or-stability-ball | S | foundational | F | T2 | 2 | bilateral | HAMSTRINGS 1 | 1 |  |
-| Lying Leg Curl (machine) | lying-leg-curl-machine | S | any | F | T3 | 5 | bilateral | HAMSTRINGS 1 | 0 |  |
-| Machine Leg Curl (seated or lying) | machine-leg-curl-seated-or-lying | S | any | F | T3 | 5 | bilateral | HAMSTRINGS 1 | 31 |  |
-| Nordic Hamstring Curl | nordic-hamstring-curl | S | advanced | A | T0 | 3 | bilateral | HAMSTRINGS 1 | 2 |  |
-| Prone Dumbbell Hamstring Curl (DB between feet) | prone-dumbbell-hamstring-curl-db-between-feet | S | advanced | A | T2 | 3 | bilateral | HAMSTRINGS 1 | 0 |  |
-| Seated Leg Curl (machine) | seated-leg-curl-machine | S | any | F | T3 | 5 | bilateral | HAMSTRINGS 1 | 0 |  |
-| Supine Slider Hamstring Curl | supine-slider-hamstring-curl | S | foundational | F | T0 | 3 | bilateral | HAMSTRINGS 1 | 1 |  |
-| Slider Hamstring Runners (alternating) | slider-hamstring-runners-alternating | P | unrated | F | T0 | 2 | alternating | HAMSTRINGS 1 | 8 |  |
-| Swiss Ball Kicks (30 s) | swiss-ball-kicks-30-s | P | unrated | F | T2 | 2 | bilateral | HAMSTRINGS 1 | 2 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Ball Hamstring Curl (medball or stability ball) | ball-hamstring-curl-medball-or-stability-ball | S | foundational | F | T2 | 2 | bilateral | HAMSTRINGS 1 | 1 |  |  |
+| Lying Leg Curl (machine) | lying-leg-curl-machine | S | any | F | T3 | 5 | bilateral | HAMSTRINGS 1 | 0 |  |  |
+| Machine Leg Curl (seated or lying) | machine-leg-curl-seated-or-lying | S | any | F | T3 | 5 | bilateral | HAMSTRINGS 1 | 31 |  |  |
+| Nordic Hamstring Curl | nordic-hamstring-curl | S | advanced | A | T0 | 3 | bilateral | HAMSTRINGS 1 | 2 |  |  |
+| Prone Dumbbell Hamstring Curl (DB between feet) | prone-dumbbell-hamstring-curl-db-between-feet | S | advanced | A | T2 | 3 | bilateral | HAMSTRINGS 1 | 0 |  |  |
+| Seated Leg Curl (machine) | seated-leg-curl-machine | S | any | F | T3 | 5 | bilateral | HAMSTRINGS 1 | 0 |  |  |
+| Supine Slider Hamstring Curl | supine-slider-hamstring-curl | S | foundational | F | T0 | 3 | bilateral | HAMSTRINGS 1 | 1 |  |  |
+| Slider Hamstring Runners (alternating) | slider-hamstring-runners-alternating | P | unrated | F | T0 | 2 | alternating | HAMSTRINGS 1 | 8 |  |  |
+| Swiss Ball Kicks (30 s) | swiss-ball-kicks-30-s | P | unrated | F | T2 | 2 | bilateral | HAMSTRINGS 1 | 2 |  |  |
 
-### HPULL - HORIZONTAL PULL (30)
+### HPULL - HORIZONTAL PULL (31)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Bent-Over Barbell Row | bent-over-barbell-row | S | advanced | A | T2 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 15 |  |
-| Bent-Over Barbell Row (Supinated / Yates grip) | bent-over-barbell-row-supinated-yates-grip | S | advanced | A | T3 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Bent-Over Row (Close Grip; implement not stated) | bent-over-row-close-grip-implement-not-stated | S | advanced | A | T2 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Inverted Row | inverted-row | S | foundational | F | T1 | 3 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Machine Row (Close / Neutral Grip) | machine-row-close-neutral-grip | S | foundational | F | T3 | 5 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Machine Row (grip not stated) | machine-row-grip-not-stated | S | any | F | T3 | 5 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 31 |  |
-| Machine Row (Pronated Grip) | machine-row-pronated-grip | S | foundational | F | T3 | 5 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Machine Row (Supinated Grip) | machine-row-supinated-grip | S | foundational | F | T3 | 5 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Renegade Row | renegade-row | S | advanced | A | T2 | 1 | alternating | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Seal Row - Barbell (Pronated Grip) | seal-row-barbell-pronated-grip | S | advanced | F | T3 | 4 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Seal Row - Barbell (Supinated Grip) | seal-row-barbell-supinated-grip | S | advanced | F | T3 | 4 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Seal Row - DB (Pronated Grip) | seal-row-db-pronated-grip | S | advanced | F | T3 | 4 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Seal Row - DB (Supinated Grip) | seal-row-db-supinated-grip | S | advanced | F | T3 | 4 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Seated Cable Row (bilateral) | seated-cable-row-bilateral | S | any | F | T3 | 4 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Single-Arm Cable Row | single-arm-cable-row | S | any | F | T3 | 3 | unilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 1 |  |
-| Single-Arm DB/KB Row | single-arm-db-kb-row | S | any | F | T2 | 3 | unilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 60 |  |
-| TRX Row (suspension row) | trx-row-suspension-row | S | foundational | F | T1 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Bent-Over DB or KB Row (two-arm) | bent-over-db-or-kb-row-two-arm | R | intermediate | I | T2 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 8 |  |
-| Bent-Over Hex Bar Row | bent-over-hex-bar-row | R | intermediate | I | T3 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Bent-Over Seesaw DB Row (alternating) | bent-over-seesaw-db-row-alternating | P | unrated | F | T2 | 2 | alternating | BACK 1 + BICEP 0.25 | 2 |  |
-| Bird Dog Row (DB) | bird-dog-row-db | P | unrated | F | T2 | 2 | unilateral | BACK 1 + BICEP 0.25 | 1 |  |
-| Chest-Supported Row | chest-supported-row | R | foundational | F | T2 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 12 |  |
-| Half-Kneeling Single-Arm Cable Row | half-kneeling-single-arm-cable-row | R | intermediate | F | T3 | 4 | unilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 3 |  |
-| Kong Row (double-KB row from the floor) | kong-row-unclear-possibly-kroc-row | R | foundational | F | T2 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 | renamed; low stimulus |
-| Pendulum Row (machine) - or Pendlay Row (verify) | pendulum-row-machine-or-pendlay-row-verify | R | intermediate | F | T3 | 4 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Row - any horizontal pull | row-any-horizontal-pull | P | unrated | F | T3 | 3 | bilateral | BACK 1 + BICEP 0.25 | 8 |  |
-| Seal Cable Row (prone, chest-supported) - or Seated Cable Row (typo ambiguous) | seal-cable-row-prone-chest-supported-or-seated-cable-row-typo-ambiguous | R | intermediate | F | T3 | 4 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
-| Seal DB Row (grip not stated) | seal-db-row-grip-not-stated | P | unrated | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 4 |  |
-| Seal Row (implement/grip not stated) | seal-row-implement-grip-not-stated | P | unrated | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 15 |  |
-| Single-Arm Machine Row | single-arm-machine-row | R | any | F | T3 | 5 | unilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Bent-Over Barbell Row | bent-over-barbell-row | S | advanced | A | T2 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 15 |  |  |
+| Bent-Over Barbell Row (Supinated / Yates grip) | bent-over-barbell-row-supinated-yates-grip | S | advanced | A | T3 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Bent-Over Row (Close Grip; implement not stated) | bent-over-row-close-grip-implement-not-stated | S | advanced | A | T2 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Inverted Row | inverted-row | S | foundational | F | T1 | 3 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Machine Row (Close / Neutral Grip) | machine-row-close-neutral-grip | S | foundational | F | T3 | 5 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Machine Row (grip not stated) | machine-row-grip-not-stated | S | any | F | T3 | 5 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 31 |  |  |
+| Machine Row (Pronated Grip) | machine-row-pronated-grip | S | foundational | F | T3 | 5 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Machine Row (Supinated Grip) | machine-row-supinated-grip | S | foundational | F | T3 | 5 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Renegade Row | renegade-row | S | advanced | A | T2 | 1 | alternating | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Seal Row - Barbell (Pronated Grip) | seal-row-barbell-pronated-grip | S | advanced | F | T3 | 4 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Seal Row - Barbell (Supinated Grip) | seal-row-barbell-supinated-grip | S | advanced | F | T3 | 4 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Seal Row - DB (Pronated Grip) | seal-row-db-pronated-grip | S | advanced | F | T3 | 4 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Seal Row - DB (Supinated Grip) | seal-row-db-supinated-grip | S | advanced | F | T3 | 4 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Seated Cable Row (bilateral) | seated-cable-row-bilateral | S | any | F | T3 | 4 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Single-Arm Cable Row | single-arm-cable-row | S | any | F | T3 | 3 | unilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 1 |  |  |
+| Single-Arm DB/KB Row | single-arm-db-kb-row | S | any | F | T2 | 3 | unilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 60 |  |  |
+| Table Row (inverted row under a sturdy table) | table-row-inverted-row-under-a-sturdy-table | N2 | foundational | F | T0 | 3 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  | NEW R2-LIB-07 |
+| TRX Row (suspension row) | trx-row-suspension-row | S | foundational | F | T1 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Bent-Over DB or KB Row (two-arm) | bent-over-db-or-kb-row-two-arm | R | intermediate | I | T2 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 8 |  |  |
+| Bent-Over Hex Bar Row | bent-over-hex-bar-row | R | intermediate | I | T3 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Bent-Over Seesaw DB Row (alternating) | bent-over-seesaw-db-row-alternating | P | unrated | F | T2 | 2 | alternating | BACK 1 + BICEP 0.25 | 2 |  |  |
+| Bird Dog Row (DB) | bird-dog-row-db | P | unrated | F | T2 | 2 | unilateral | BACK 1 + BICEP 0.25 | 1 |  |  |
+| Chest-Supported Row | chest-supported-row | R | foundational | F | T2 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 12 |  |  |
+| Half-Kneeling Single-Arm Cable Row | half-kneeling-single-arm-cable-row | R | intermediate | F | T3 | 4 | unilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 3 |  |  |
+| Kong Row (double-KB row from the floor) | kong-row-unclear-possibly-kroc-row | R | foundational | F | T2 | 2 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 | renamed; low stimulus |  |
+| Pendulum Row (machine) - or Pendlay Row (verify) | pendulum-row-machine-or-pendlay-row-verify | R | intermediate | F | T3 | 4 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Row - any horizontal pull | row-any-horizontal-pull | P | unrated | F | T3 | 3 | bilateral | BACK 1 + BICEP 0.25 | 8 |  |  |
+| Seal Cable Row (prone, chest-supported) - or Seated Cable Row (typo ambiguous) | seal-cable-row-prone-chest-supported-or-seated-cable-row-typo-ambiguous | R | intermediate | F | T3 | 4 | bilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
+| Seal DB Row (grip not stated) | seal-db-row-grip-not-stated | P | unrated | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 4 |  |  |
+| Seal Row (implement/grip not stated) | seal-row-implement-grip-not-stated | P | unrated | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 15 |  |  |
+| Single-Arm Machine Row | single-arm-machine-row | R | any | F | T3 | 5 | unilateral | BACK 1 + SHOULDERS/TRAPS 0.25 + BICEP 0.25 | 0 |  |  |
 
-### VPULL - VERTICAL PULL (26)
+### VPULL - VERTICAL PULL (25)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Assisted Pull-up (machine) | assisted-pull-up-band-or-machine | S | any | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 | renamed |
-| Assisted Pull-Up Machine (Close Grip) | assisted-pull-up-machine-close-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |
-| Assisted Pull-Up Machine (Pronated Grip) | assisted-pull-up-machine-pronated-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |
-| Assisted Pull-Up Machine (Supinated / Chin-Up Grip) | assisted-pull-up-machine-supinated-chin-up-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |
-| Chin-Up (supinated) | chin-up-supinated | S | advanced | A | T1 | 1 | bilateral | BACK 1 + BICEP 0.25 | 1 |  |
-| L-Sit Pull-Up | l-sit-pull-up | S | advanced | A | T1 | 1 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |
-| Lat Pulldown (Close Grip) | lat-pulldown-close-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 6 |  |
-| Lat Pulldown (grip not stated) | lat-pulldown-grip-not-stated | S | any | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 38 |  |
-| Lat Pulldown (Pronated / Overhand Grip) | lat-pulldown-pronated-overhand-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 1 |  |
-| Lat Pulldown (Rope Attachment) | lat-pulldown-rope-attachment | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |
-| Lat Pulldown (Supinated / Underhand Grip) | lat-pulldown-supinated-underhand-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |
-| Lat Pulldown (Wide Grip) | lat-pulldown-wide-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |
-| Lat Pulldown (Wide MAG Grip) | lat-pulldown-wide-mag-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |
-| Pull-up (grip not stated) | pull-up-grip-not-stated | S | any | F | T1 | 1 | bilateral | BACK 1 + BICEP 0.25 | 54 |  |
-| Seated Ring/TRX Pull-Up (feet-supported) | seated-ring-trx-pull-up-feet-supported | S | foundational | F | T1 | 2 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |
-| Single-Arm Lat Pulldown | single-arm-lat-pulldown | S | any | F | T3 | 4 | unilateral | BACK 1 + BICEP 0.25 | 14 |  |
-| Strict Pull-Up (Feet Behind) | strict-pull-up-feet-behind | S | advanced | A | T1 | 1 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |
-| Strict Pull-Up (Feet in Front / hollow) | strict-pull-up-feet-in-front-hollow | S | advanced | A | T1 | 1 | bilateral | BACK 1 + BICEP 0.25 | 1 |  |
-| Strict Pull-Up (Knees to Chest / tuck) | strict-pull-up-knees-to-chest-tuck | S | advanced | A | T1 | 1 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |
-| Weighted Pull-Up | weighted-pull-up | S | advanced | A | T2 | 1 | bilateral | BACK 1 + BICEP 0.25 | 1 |  |
-| Wide-Grip Pull-Up | wide-grip-pull-up | S | advanced | A | T1 | 1 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |
-| Close-Grip Pull-up | close-grip-pull-up | P | unrated | F | T1 | 2 | bilateral | BACK 1 + BICEP 0.25 | 4 |  |
-| Jumping Pull-up | jumping-pull-up | P | unrated | F | T1 | 2 | bilateral | BACK 1 + BICEP 0.25 | 2 |  |
-| KB Face Pull (as written; face pulls are normally done on a cable) | kb-face-pull-as-written-face-pulls-are-normally-cable-band | S | foundational | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 + BACK 0.25 + BICEP 0.25 | 0 | PENDING LIB-10; renamed; rear delt |
-| Lat Pull-over (cable) | cable-lat-pullover | R | foundational | F | T3 | 3 | bilateral | BACK 1 | 22 | renamed; no biceps credit (straight arm) |
-| Neutral-Grip Lat Pulldown | neutral-grip-lat-pulldown | P | unrated | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 16 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Assisted Pull-up (machine) | assisted-pull-up-band-or-machine | S | any | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 | renamed |  |
+| Assisted Pull-Up Machine (Close Grip) | assisted-pull-up-machine-close-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |  |
+| Assisted Pull-Up Machine (Pronated Grip) | assisted-pull-up-machine-pronated-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |  |
+| Assisted Pull-Up Machine (Supinated / Chin-Up Grip) | assisted-pull-up-machine-supinated-chin-up-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |  |
+| Chin-Up (supinated) | chin-up-supinated | S | advanced | A | T1 | 1 | bilateral | BACK 1 + BICEP 0.25 | 1 |  |  |
+| L-Sit Pull-Up | l-sit-pull-up | S | advanced | A | T1 | 1 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |  |
+| Lat Pulldown (Close Grip) | lat-pulldown-close-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 6 |  |  |
+| Lat Pulldown (grip not stated) | lat-pulldown-grip-not-stated | S | any | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 38 |  |  |
+| Lat Pulldown (Pronated / Overhand Grip) | lat-pulldown-pronated-overhand-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 1 |  |  |
+| Lat Pulldown (Rope Attachment) | lat-pulldown-rope-attachment | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |  |
+| Lat Pulldown (Supinated / Underhand Grip) | lat-pulldown-supinated-underhand-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |  |
+| Lat Pulldown (Wide Grip) | lat-pulldown-wide-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |  |
+| Lat Pulldown (Wide MAG Grip) | lat-pulldown-wide-mag-grip | S | foundational | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |  |
+| Pull-up (grip not stated) | pull-up-grip-not-stated | S | any | F | T1 | 1 | bilateral | BACK 1 + BICEP 0.25 | 54 |  |  |
+| Seated Ring/TRX Pull-Up (feet-supported) | seated-ring-trx-pull-up-feet-supported | S | foundational | F | T1 | 2 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |  |
+| Single-Arm Lat Pulldown | single-arm-lat-pulldown | S | any | F | T3 | 4 | unilateral | BACK 1 + BICEP 0.25 | 14 |  |  |
+| Strict Pull-Up (Feet Behind) | strict-pull-up-feet-behind | S | advanced | A | T1 | 1 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |  |
+| Strict Pull-Up (Feet in Front / hollow) | strict-pull-up-feet-in-front-hollow | S | advanced | A | T1 | 1 | bilateral | BACK 1 + BICEP 0.25 | 1 |  |  |
+| Strict Pull-Up (Knees to Chest / tuck) | strict-pull-up-knees-to-chest-tuck | S | advanced | A | T1 | 1 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |  |
+| Weighted Pull-Up | weighted-pull-up | S | advanced | A | T2 | 1 | bilateral | BACK 1 + BICEP 0.25 | 1 |  |  |
+| Wide-Grip Pull-Up | wide-grip-pull-up | S | advanced | A | T1 | 1 | bilateral | BACK 1 + BICEP 0.25 | 0 |  |  |
+| Close-Grip Pull-up | close-grip-pull-up | P | unrated | F | T1 | 2 | bilateral | BACK 1 + BICEP 0.25 | 4 |  |  |
+| Jumping Pull-up | jumping-pull-up | P | unrated | F | T1 | 2 | bilateral | BACK 1 + BICEP 0.25 | 2 |  |  |
+| Lat Pull-over (cable) | cable-lat-pullover | R | foundational | F | T3 | 3 | bilateral | BACK 1 | 22 | renamed; no biceps credit (straight arm) |  |
+| Neutral-Grip Lat Pulldown | neutral-grip-lat-pulldown | P | unrated | F | T3 | 4 | bilateral | BACK 1 + BICEP 0.25 | 16 |  |  |
 
-### HPUSH - HORIZONTAL PUSH (29)
+### HPUSH - HORIZONTAL PUSH (30)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Alternating DB Floor Press | alternating-db-floor-press | S | any | F | T2 | 3 | alternating | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 1 |  |
-| Alternating Flat DB Bench Press | alternating-flat-db-bench-press | S | any | F | T2 | 3 | alternating | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 2 |  |
-| Alternating Incline DB Bench Press (one up / one down) | alternating-incline-db-bench-press-one-up-one-down | S | any | F | T2 | 3 | alternating | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 29 |  |
-| Alternating Standing Cable Press (one forward / one back) | alternating-standing-cable-press-one-forward-one-back | S | any | F | T3 | 3 | alternating | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |
-| Assisted Dips (machine) | assisted-dips-band-or-machine | S | any | F | T3 | 4 | bilateral | CHEST 0.5 + TRICEP 0.5 + SHOULDERS/TRAPS 0.25 | 0 | renamed |
-| Barbell Bench Press | barbell-bench-press | S | advanced | A | T3 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 48 |  |
-| Bench Push-Up (hands or feet on bench - not stated) | bench-push-up-hands-or-feet-on-bench-not-stated | S | foundational | F | T0 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 | PENDING LIB-12 |
-| Cable Fly | cable-fly | S | intermediate | I | T3 | 3 | bilateral | CHEST 1 | 24 |  |
-| DB Floor Press | db-floor-press | S | foundational | F | T2 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |
-| Decline Push-Up (feet elevated) | decline-push-up-feet-elevated | S | advanced | A | T0 | 2 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |
-| Deficit Push-up (hands elevated for full ROM) | deficit-push-up-hands-elevated-for-full-rom | S | advanced | A | T0 | 2 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |
-| Diamond (Close-Hand) Push-Up | diamond-close-hand-push-up | S | advanced | A | T0 | 2 | bilateral | TRICEP 0.5 + CHEST 0.5 + SHOULDERS/TRAPS 0.25 | 1 |  |
-| Flat DB Bench Press | flat-db-bench-press | S | advanced | A | T2 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 26 |  |
-| Flat DB Fly | flat-db-fly | S | intermediate | I | T2 | 3 | bilateral | CHEST 1 | 12 |  |
-| Incline Barbell Bench Press | incline-barbell-bench-press | S | any | F | T3 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 28 |  |
-| Incline DB Bench Press | incline-db-bench-press | S | advanced | A | T2 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 21 |  |
-| Incline Push-Up (hands elevated) | incline-push-up-hands-elevated | S | foundational | F | T0 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |
-| Kneeling Push-Up | kneeling-push-up | S | foundational | F | T0 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |
-| Machine Bench Press | machine-bench-press | S | foundational | F | T3 | 5 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |
-| Machine Fly (Pec Deck) | machine-fly-pec-deck | S | intermediate | F | T3 | 5 | bilateral | CHEST 1 | 12 |  |
-| Offset Push-Up (one hand elevated) | offset-push-up-one-hand-elevated | S | any | F | T0 | 2 | unilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 5 |  |
-| Parallel-Bar Dip | parallel-bar-dip | S | advanced | A | T2 | 1 | bilateral | CHEST 0.5 + TRICEP 0.5 + SHOULDERS/TRAPS 0.25 | 25 |  |
-| Push-Up | push-up | S | intermediate | I | T0 | 2 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 9 |  |
-| Push-Up (Feet on Wall / feet elevated) | push-up-feet-on-wall-feet-elevated | S | advanced | A | T0 | 2 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |
-| Standing Cable Chest Press | standing-cable-chest-press | S | foundational | F | T3 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |
-| Weighted Dip | weighted-dip | S | advanced | A | T2 | 1 | bilateral | CHEST 0.5 + TRICEP 0.5 + SHOULDERS/TRAPS 0.25 | 0 |  |
-| Hand-Switch Push-up | hand-switch-push-up | P | unrated | F | T0 | 2 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 1 |  |
-| Kneeling Push-Up - One Hand Higher (offset) | kneeling-push-up-one-hand-higher-offset | R | intermediate | I | T0 | 2 | unilateral | CHEST 1 + TRICEP 0.25 | 0 |  |
-| Machine Dip | machine-dip | P | unrated | F | T3 | 5 | bilateral | CHEST 0.5 + TRICEP 0.5 + SHOULDERS/TRAPS 0.25 | 20 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Alternating DB Floor Press | alternating-db-floor-press | S | any | F | T2 | 3 | alternating | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 1 |  |  |
+| Alternating Flat DB Bench Press | alternating-flat-db-bench-press | S | any | F | T2 | 3 | alternating | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 2 |  |  |
+| Alternating Incline DB Bench Press (one up / one down) | alternating-incline-db-bench-press-one-up-one-down | S | any | F | T2 | 3 | alternating | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 29 |  |  |
+| Alternating Standing Cable Press (one forward / one back) | alternating-standing-cable-press-one-forward-one-back | S | any | F | T3 | 3 | alternating | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |  |
+| Assisted Dips (machine) | assisted-dips-band-or-machine | S | any | F | T3 | 4 | bilateral | CHEST 0.5 + TRICEP 0.5 + SHOULDERS/TRAPS 0.25 | 0 | renamed |  |
+| Barbell Bench Press | barbell-bench-press | S | advanced | A | T3 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 48 |  |  |
+| Bench Push-Up - Feet on Bench (decline) | bench-push-up-feet-on-bench | N2 | advanced | A | T0 | 2 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 | split from the bench push-up | R2-LIB-05: advanced; NEW R2-LIB-05 |
+| Bench Push-Up - Hands on Bench (incline) | bench-push-up-hands-or-feet-on-bench-not-stated | S | foundational | F | T0 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 | renamed (v1: PENDING LIB-12) | R2-LIB-05: foundational |
+| Cable Fly | cable-fly | S | intermediate | I | T3 | 3 | bilateral | CHEST 1 | 24 |  |  |
+| DB Floor Press | db-floor-press | S | foundational | F | T2 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |  |
+| Decline Push-Up (feet elevated) | decline-push-up-feet-elevated | S | advanced | A | T0 | 2 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |  |
+| Deficit Push-up (hands elevated for full ROM) | deficit-push-up-hands-elevated-for-full-rom | S | advanced | A | T0 | 2 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |  |
+| Diamond (Close-Hand) Push-Up | diamond-close-hand-push-up | S | advanced | A | T0 | 2 | bilateral | TRICEP 0.5 + CHEST 0.5 + SHOULDERS/TRAPS 0.25 | 1 |  |  |
+| Flat DB Bench Press | flat-db-bench-press | S | advanced | A | T2 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 26 |  |  |
+| Flat DB Fly | flat-db-fly | S | intermediate | I | T2 | 3 | bilateral | CHEST 1 | 12 |  |  |
+| Incline Barbell Bench Press | incline-barbell-bench-press | S | any | F | T3 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 28 |  |  |
+| Incline DB Bench Press | incline-db-bench-press | S | advanced | A | T2 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 21 |  |  |
+| Incline Push-Up (hands elevated) | incline-push-up-hands-elevated | S | foundational | F | T0 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |  |
+| Kneeling Push-Up | kneeling-push-up | S | foundational | F | T0 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |  |
+| Machine Bench Press | machine-bench-press | S | foundational | F | T3 | 5 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |  |
+| Machine Fly (Pec Deck) | machine-fly-pec-deck | S | intermediate | F | T3 | 5 | bilateral | CHEST 1 | 12 |  |  |
+| Offset Push-Up (one hand elevated) | offset-push-up-one-hand-elevated | S | any | F | T0 | 2 | unilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 5 |  |  |
+| Parallel-Bar Dip | parallel-bar-dip | S | advanced | A | T2 | 1 | bilateral | CHEST 0.5 + TRICEP 0.5 + SHOULDERS/TRAPS 0.25 | 25 |  |  |
+| Push-Up | push-up | S | intermediate | I | T0 | 2 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 9 |  |  |
+| Push-Up (Feet on Wall / feet elevated) | push-up-feet-on-wall-feet-elevated | S | advanced | A | T0 | 2 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |  |
+| Standing Cable Chest Press | standing-cable-chest-press | S | foundational | F | T3 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |  |
+| Weighted Dip | weighted-dip | S | advanced | A | T2 | 1 | bilateral | CHEST 0.5 + TRICEP 0.5 + SHOULDERS/TRAPS 0.25 | 0 |  |  |
+| Hand-Switch Push-up | hand-switch-push-up | P | unrated | F | T0 | 2 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 1 |  |  |
+| Kneeling Push-Up - One Hand Higher (offset) | kneeling-push-up-one-hand-higher-offset | R | intermediate | I | T0 | 2 | unilateral | CHEST 1 + TRICEP 0.25 | 0 |  |  |
+| Machine Dip | machine-dip | P | unrated | F | T3 | 5 | bilateral | CHEST 0.5 + TRICEP 0.5 + SHOULDERS/TRAPS 0.25 | 20 |  |  |
 
 ### MRPUSH - MID RANGE PUSH (5)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| High-Incline DB Press | high-incline-db-press | S | any | F | T2 | 3 | bilateral | SHOULDERS/TRAPS 1 + CHEST 0.25 + TRICEP 0.25 | 2 |  |
-| Incline Cable Press (on bench) | incline-cable-press-on-bench | R | intermediate | F | T3 | 4 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |
-| Incline DB Bench Press - Feet on Wall | incline-db-bench-press-feet-on-wall | R | intermediate | I | T2 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |
-| Standing Landmine Press | standing-landmine-press | R | intermediate | I | T3 | 2 | bilateral | SHOULDERS/TRAPS 1 + CHEST 0.25 + TRICEP 0.25 | 0 |  |
-| Standing Viking Press | standing-viking-press | R | intermediate | I | T3 | 2 | bilateral | SHOULDERS/TRAPS 1 + CHEST 0.25 + TRICEP 0.25 | 0 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| High-Incline DB Press | high-incline-db-press | S | any | F | T2 | 3 | bilateral | SHOULDERS/TRAPS 1 + CHEST 0.25 + TRICEP 0.25 | 2 |  |  |
+| Incline Cable Press (on bench) | incline-cable-press-on-bench | R | intermediate | F | T3 | 4 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |  |
+| Incline DB Bench Press - Feet on Wall | incline-db-bench-press-feet-on-wall | R | intermediate | I | T2 | 3 | bilateral | CHEST 1 + SHOULDERS/TRAPS 0.25 + TRICEP 0.25 | 0 |  |  |
+| Standing Landmine Press | standing-landmine-press | R | intermediate | I | T3 | 2 | bilateral | SHOULDERS/TRAPS 1 + CHEST 0.25 + TRICEP 0.25 | 0 |  |  |
+| Standing Viking Press | standing-viking-press | R | intermediate | I | T3 | 2 | bilateral | SHOULDERS/TRAPS 1 + CHEST 0.25 + TRICEP 0.25 | 0 |  |  |
 
 ### VPUSH - VERTICAL PUSH (27)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Alternating DB Overhead Press | alternating-db-overhead-press | S | any | F | T2 | 2 | alternating | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |
-| Barbell Push Jerk | barbell-push-jerk | S | intermediate | I | T3 | 1 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 + GLUTES 0.25 (this slot only; '-' in the TX slot) | 0 | counted by slot (VOL-10) |
-| Barbell Push Press | barbell-push-press | S | foundational | F | T3 | 1 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 + GLUTES 0.25 (this slot only; '-' in the TX slot) | 1 | counted by slot (VOL-10) |
-| Barbell Z-Press (seated on floor) | barbell-z-press-seated-on-floor | S | advanced | A | T3 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |
-| DB Overhead Press (seated/standing not stated) | db-overhead-press-seated-standing-not-stated | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 9 |  |
-| DB Push Jerk | db-push-jerk | S | intermediate | I | T2 | 1 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 + GLUTES 0.25 (this slot only; '-' in the TX slot) | 0 | counted by slot (VOL-10) |
-| DB Push Press | db-push-press | S | foundational | F | T2 | 1 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 + GLUTES 0.25 (this slot only; '-' in the TX slot) | 6 | counted by slot (VOL-10) |
-| DB Z-Press (seated on floor) | db-z-press-seated-on-floor | S | advanced | A | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |
-| Half-Kneeling Single-Arm Landmine Press | half-kneeling-single-arm-landmine-press | S | any | F | T3 | 3 | unilateral | SHOULDERS/TRAPS 1 + CHEST 0.25 + TRICEP 0.25 | 4 |  |
-| Handstand Push-Up (wall-supported) | handstand-push-up-wall-supported | S | advanced | A | T0 | 1 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |
-| High-Incline Seated Barbell Press | high-incline-seated-barbell-press | S | foundational | F | T3 | 3 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |
-| High-Incline Seated DB Press | high-incline-seated-db-press | S | foundational | F | T2 | 3 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |
-| Pike Push-Up | pike-push-up | S | advanced | A | T0 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |
-| Seated Machine Shoulder Press | seated-machine-shoulder-press | N | any | F | T3 | 5 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 | NEW EQ-05 |
-| Seesaw DB Press (alternating, one up / one down) | seesaw-db-press-alternating-one-up-one-down | S | any | F | T2 | 2 | alternating | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 5 |  |
-| Standing Barbell Overhead Press (strict) | standing-barbell-overhead-press-strict | S | advanced | A | T3 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 21 |  |
-| Standing DB Overhead Press | standing-db-overhead-press | S | advanced | A | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 9 |  |
-| Tall-Kneeling Barbell Overhead Press | tall-kneeling-barbell-overhead-press | S | advanced | A | T3 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |
-| Tall-Kneeling DB Overhead Press | tall-kneeling-db-overhead-press | S | advanced | A | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |
-| Arnold Press (DB) | arnold-press-db | P | unrated | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 6 |  |
-| Half-Kneeling Single-Arm DB Press | half-kneeling-single-arm-db-press | P | unrated | F | T2 | 2 | unilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 2 |  |
-| Handstand Skill Work (H.S.) | handstand-skill-work-h-s | P | unrated | F | T0 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 9 |  |
-| Medball Press (vertical push slot) | medball-press-vertical-push-slot | P | unrated | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 2 |  |
-| Overhead Press (implement not stated) | overhead-press-implement-not-stated | P | unrated | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 11 |  |
-| Seesaw DB Push Press | seesaw-db-push-press | P | foundational | F | T2 | 2 | alternating | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 3 |  |
-| Single-Arm DB Overhead Press | single-arm-db-overhead-press | P | unrated | F | T2 | 2 | unilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 1 |  |
-| Single-Arm DB Push Press | single-arm-db-push-press | P | foundational | F | T2 | 2 | unilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 4 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Alternating DB Overhead Press | alternating-db-overhead-press | S | any | F | T2 | 2 | alternating | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |  |
+| Barbell Push Jerk | barbell-push-jerk | S | intermediate | I | T3 | 1 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 + GLUTES 0.25 (this slot only; '-' in the TX slot) | 0 | counted by slot (VOL-10) | jerk (either day); 60+ off by default |
+| Barbell Push Press | barbell-push-press | S | foundational | F | T3 | 1 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 + GLUTES 0.25 (this slot only; '-' in the TX slot) | 1 | counted by slot (VOL-10) |  |
+| Barbell Z-Press (seated on floor) | barbell-z-press-seated-on-floor | S | advanced | A | T3 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |  |
+| DB Overhead Press (seated/standing not stated) | db-overhead-press-seated-standing-not-stated | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 9 |  |  |
+| DB Push Jerk | db-push-jerk | S | intermediate | I | T2 | 1 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 + GLUTES 0.25 (this slot only; '-' in the TX slot) | 0 | counted by slot (VOL-10) | jerk (either day); 60+ off by default |
+| DB Push Press | db-push-press | S | foundational | F | T2 | 1 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 + GLUTES 0.25 (this slot only; '-' in the TX slot) | 6 | counted by slot (VOL-10) |  |
+| DB Z-Press (seated on floor) | db-z-press-seated-on-floor | S | advanced | A | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |  |
+| Half-Kneeling Single-Arm Landmine Press | half-kneeling-single-arm-landmine-press | S | any | F | T3 | 3 | unilateral | SHOULDERS/TRAPS 1 + CHEST 0.25 + TRICEP 0.25 | 4 |  |  |
+| Handstand Push-Up (wall-supported) | handstand-push-up-wall-supported | S | advanced | A | T0 | 1 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |  |
+| High-Incline Seated Barbell Press | high-incline-seated-barbell-press | S | foundational | F | T3 | 3 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |  |
+| High-Incline Seated DB Press | high-incline-seated-db-press | S | foundational | F | T2 | 3 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |  |
+| Pike Push-Up | pike-push-up | S | advanced | A | T0 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |  |
+| Seated Machine Shoulder Press | seated-machine-shoulder-press | N | foundational | F | T3 | 5 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 | NEW EQ-05 | R2-LIB-07: FOUNDATIONAL |
+| Seesaw DB Press (alternating, one up / one down) | seesaw-db-press-alternating-one-up-one-down | S | any | F | T2 | 2 | alternating | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 5 |  |  |
+| Standing Barbell Overhead Press (strict) | standing-barbell-overhead-press-strict | S | advanced | A | T3 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 21 |  |  |
+| Standing DB Overhead Press | standing-db-overhead-press | S | advanced | A | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 9 |  |  |
+| Tall-Kneeling Barbell Overhead Press | tall-kneeling-barbell-overhead-press | S | advanced | A | T3 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |  |
+| Tall-Kneeling DB Overhead Press | tall-kneeling-db-overhead-press | S | advanced | A | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 0 |  |  |
+| Arnold Press (DB) | arnold-press-db | P | unrated | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 6 |  |  |
+| Half-Kneeling Single-Arm DB Press | half-kneeling-single-arm-db-press | P | unrated | F | T2 | 2 | unilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 2 |  |  |
+| Handstand Skill Work (H.S.) | handstand-skill-work-h-s | P | unrated | F | T0 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 9 |  |  |
+| Medball Press (vertical push slot) | medball-press-vertical-push-slot | P | unrated | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 2 |  |  |
+| Overhead Press (implement not stated) | overhead-press-implement-not-stated | P | unrated | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 11 |  |  |
+| Seesaw DB Push Press | seesaw-db-push-press | P | foundational | F | T2 | 2 | alternating | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 3 |  |  |
+| Single-Arm DB Overhead Press | single-arm-db-overhead-press | P | unrated | F | T2 | 2 | unilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 1 |  |  |
+| Single-Arm DB Push Press | single-arm-db-push-press | P | foundational | F | T2 | 2 | unilateral | SHOULDERS/TRAPS 1 + TRICEP 0.25 | 4 |  |  |
 
-### SHLD - SIDE RAISES (21)
+### SHLD - SIDE RAISES (23)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Barbell Front Raise | barbell-front-raise | S | any | F | T3 | 2 | bilateral | SHOULDERS/TRAPS 1 | 0 | front delt |
-| Barbell Upright Row | barbell-upright-row | S | any | F | T3 | 2 | bilateral | SHOULDERS/TRAPS 1 | 0 | side delt |
-| Bent-Over DB Reverse Fly | bent-over-db-reverse-fly | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 15 | rear delt |
-| Cable Side Raise (leaning) | cable-side-raise-leaning | S | any | F | T3 | 4 | unilateral | SHOULDERS/TRAPS 1 | 16 | side delt |
-| DB Front Raise | db-front-raise | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 4 | front delt |
-| DB Front Raise (Supinated grip) | db-front-raise-supinated-grip | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 0 | front delt |
-| DB Hammer-Grip Side/Front Raise (neutral grip) | db-hammer-grip-side-front-raise-neutral-grip | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 0 | front delt |
-| DB Lateral (Side) Raise | db-lateral-side-raise | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 52 | side delt |
-| DB Lateral Raise (Supinated / palms-up grip) | db-lateral-raise-supinated-palms-up-grip | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 0 | side delt |
-| DB Upright Row | db-upright-row | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 24 | side delt |
-| Incline / Side-Lying Cable Lateral Raise | incline-side-lying-cable-lateral-raise | S | any | F | T3 | 4 | unilateral | SHOULDERS/TRAPS 1 | 0 | side delt |
-| Machine Reverse Fly (rear-delt pec deck) | machine-reverse-fly-rear-delt-pec-deck | S | any | F | T3 | 5 | bilateral | SHOULDERS/TRAPS 1 | 11 | rear delt |
-| Seated (Chest-to-Thighs) DB Reverse Fly | seated-chest-to-thighs-db-reverse-fly | S | any | F | T2 | 3 | bilateral | SHOULDERS/TRAPS 1 | 0 | rear delt |
-| Seated DB Lateral Raise | seated-db-lateral-raise | S | any | F | T2 | 3 | bilateral | SHOULDERS/TRAPS 1 | 0 | side delt |
-| Face Pull | face-pull | R | any | F | T3 | 3 | bilateral | SHOULDERS/TRAPS 1 | 8 | rear delt |
-| Incline-Bench Prone DB T-Raise | incline-bench-prone-db-t-raise | R | any | F | T2 | 3 | bilateral | SHOULDERS/TRAPS 1 | 0 | rear delt |
-| Incline-Bench Prone DB Y-Raise | incline-bench-prone-db-y-raise | R | any | F | T2 | 3 | bilateral | SHOULDERS/TRAPS 1 | 0 | rear delt |
-| KB Upright Row | kb-upright-row | R | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 0 | side delt |
-| Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) | lateral-raise-spill-the-can-thumbs-down-internally-rotated | R | intermediate | I | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 0 | side delt |
-| Rear-Delt DB Row | rear-delt-db-row | P | unrated | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 2 | rear delt |
-| Upward Face Pull (low-to-high / overhead finish) | upward-face-pull-low-to-high-overhead-finish | R | any | F | T3 | 3 | bilateral | SHOULDERS/TRAPS 1 | 0 | rear delt |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Barbell Front Raise | barbell-front-raise | S | any | F | T3 | 2 | bilateral | SHOULDERS/TRAPS 1 | 0 | front delt |  |
+| Barbell Upright Row | barbell-upright-row | S | any | F | T3 | 2 | bilateral | SHOULDERS/TRAPS 1 | 0 | side delt |  |
+| Bent-Over DB Reverse Fly | bent-over-db-reverse-fly | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 15 | rear delt |  |
+| Cable Side Raise (leaning) | cable-side-raise-leaning | S | any | F | T3 | 4 | unilateral | SHOULDERS/TRAPS 1 | 16 | side delt |  |
+| DB Front Raise | db-front-raise | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 4 | front delt |  |
+| DB Front Raise (Supinated grip) | db-front-raise-supinated-grip | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 0 | front delt |  |
+| DB Hammer-Grip Side/Front Raise (neutral grip) | db-hammer-grip-side-front-raise-neutral-grip | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 0 | front delt |  |
+| DB Lateral (Side) Raise | db-lateral-side-raise | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 52 | side delt |  |
+| DB Lateral Raise (Supinated / palms-up grip) | db-lateral-raise-supinated-palms-up-grip | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 0 | side delt |  |
+| DB Upright Row | db-upright-row | S | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 24 | side delt |  |
+| Floor Prone Y / T Raises (bodyweight or light DBs) | floor-prone-y-t-raises | N2 | any | F | T0 | 3 | bilateral | SHOULDERS/TRAPS 1 | 0 | rear delt | NEW R2-LIB-07 |
+| Incline / Side-Lying Cable Lateral Raise | incline-side-lying-cable-lateral-raise | S | any | F | T3 | 4 | unilateral | SHOULDERS/TRAPS 1 | 0 | side delt |  |
+| Machine Reverse Fly (rear-delt pec deck) | machine-reverse-fly-rear-delt-pec-deck | S | any | F | T3 | 5 | bilateral | SHOULDERS/TRAPS 1 | 11 | rear delt |  |
+| Seated (Chest-to-Thighs) DB Reverse Fly | seated-chest-to-thighs-db-reverse-fly | S | any | F | T2 | 3 | bilateral | SHOULDERS/TRAPS 1 | 0 | rear delt |  |
+| Seated DB Lateral Raise | seated-db-lateral-raise | S | any | F | T2 | 3 | bilateral | SHOULDERS/TRAPS 1 | 0 | side delt |  |
+| Face Pull | face-pull | R | any | F | T3 | 3 | bilateral | SHOULDERS/TRAPS 1 | 8 | rear delt |  |
+| Incline-Bench Prone DB T-Raise | incline-bench-prone-db-t-raise | R | any | F | T2 | 3 | bilateral | SHOULDERS/TRAPS 1 | 0 | rear delt |  |
+| Incline-Bench Prone DB Y-Raise | incline-bench-prone-db-y-raise | R | any | F | T2 | 3 | bilateral | SHOULDERS/TRAPS 1 | 0 | rear delt |  |
+| KB Face Pull (as written; face pulls are normally done on a cable) | kb-face-pull-as-written-face-pulls-are-normally-cable-band | S | foundational | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 0 | renamed; rear delt (v1: PENDING LIB-10, filed VPULL) | R2-LIB-04: shoulder work, swap only |
+| KB Upright Row | kb-upright-row | R | any | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 0 | side delt |  |
+| Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) | lateral-raise-spill-the-can-thumbs-down-internally-rotated | R | intermediate | I | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 0 | side delt |  |
+| Rear-Delt DB Row | rear-delt-db-row | P | unrated | F | T2 | 2 | bilateral | SHOULDERS/TRAPS 1 | 2 | rear delt |  |
+| Upward Face Pull (low-to-high / overhead finish) | upward-face-pull-low-to-high-overhead-finish | R | any | F | T3 | 3 | bilateral | SHOULDERS/TRAPS 1 | 0 | rear delt |  |
 
-### BIC - BICEP (20)
+### BIC - BICEP (21)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Barbell Curl | barbell-curl | S | any | F | T3 | 2 | bilateral | BICEP 1 | 21 |  |
-| Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) | cable-curl-zone-1-zone-2-zone-3-set-ups | S | any | F | T3 | 3 | bilateral | BICEP 1 | 1 |  |
-| Cross-Body Dumbbell Hammer Curl | cross-body-dumbbell-hammer-curl | S | any | F | T2 | 2 | alternating | BICEP 1 | 0 |  |
-| Dumbbell Concentration Curl | dumbbell-concentration-curl | S | any | F | T2 | 3 | unilateral | BICEP 1 | 0 |  |
-| Dumbbell Curl | dumbbell-curl | S | any | F | T2 | 2 | bilateral | BICEP 1 | 9 |  |
-| Dumbbell Hammer Curl | dumbbell-hammer-curl | S | any | F | T2 | 2 | bilateral | BICEP 1 | 23 |  |
-| EZ-Bar Curl | ez-bar-curl | S | any | F | T3 | 2 | bilateral | BICEP 1 | 15 |  |
-| Incline Dumbbell Curl ('pinky facing up' supinated variation) | incline-dumbbell-curl-pinky-facing-up-supinated-variation | S | any | F | T2 | 3 | bilateral | BICEP 1 | 5 |  |
-| Reverse-Grip (Pronated) EZ-Bar Curl | reverse-grip-pronated-ez-bar-curl | S | any | F | T3 | 2 | bilateral | BICEP 1 | 5 |  |
-| Seated Dumbbell Curl | seated-dumbbell-curl | S | any | F | T2 | 3 | bilateral | BICEP 1 | 1 |  |
-| Spider Curl (chest on incline bench) | spider-curl-chest-on-incline-bench | S | any | F | T2 | 4 | bilateral | BICEP 1 | 0 |  |
-| Supine (Lying) Biceps Curl | supine-lying-biceps-curl | S | any | F | T2 | 3 | bilateral | BICEP 1 | 0 |  |
-| Suspension-Trainer (TRX) Biceps Curl | suspension-trainer-trx-biceps-curl | S | any | F | T1 | 2 | bilateral | BICEP 1 | 0 |  |
-| Zottman Curl (supinated up, pronated down) | zottman-curl-supinated-up-pronated-down | S | any | F | T2 | 2 | bilateral | BICEP 1 | 0 |  |
-| Barbell Reverse Curl (pronated) | barbell-reverse-curl-pronated | R | any | F | T3 | 2 | bilateral | BICEP 1 | 1 |  |
-| Biceps Curl - any kind | biceps-curl-any-kind | P | unrated | F | T2 | 2 | bilateral | BICEP 1 | 32 |  |
-| DB 'No Money' Curl | db-no-money-curl | P | unrated | F | T2 | 2 | bilateral | BICEP 1 | 2 |  |
-| DB Curl to Press | db-curl-to-press | P | unrated | F | T2 | 2 | bilateral | BICEP 1 | 5 |  |
-| DB Pronated (Reverse) Curl | db-pronated-reverse-curl | R | any | F | T2 | 2 | bilateral | BICEP 1 | 0 |  |
-| Single-Arm DB Preacher Curl | single-arm-db-preacher-curl | P | unrated | F | T2 | 3 | unilateral | BICEP 1 | 1 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Barbell Curl | barbell-curl | S | any | F | T3 | 2 | bilateral | BICEP 1 | 21 |  |  |
+| Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) | cable-curl-zone-1-zone-2-zone-3-set-ups | S | any | F | T3 | 3 | bilateral | BICEP 1 | 1 |  |  |
+| Cross-Body Dumbbell Hammer Curl | cross-body-dumbbell-hammer-curl | S | any | F | T2 | 2 | alternating | BICEP 1 | 0 |  |  |
+| Dumbbell Concentration Curl | dumbbell-concentration-curl | S | any | F | T2 | 3 | unilateral | BICEP 1 | 0 |  |  |
+| Dumbbell Curl | dumbbell-curl | S | any | F | T2 | 2 | bilateral | BICEP 1 | 9 |  |  |
+| Dumbbell Hammer Curl | dumbbell-hammer-curl | S | any | F | T2 | 2 | bilateral | BICEP 1 | 23 |  |  |
+| EZ-Bar Curl | ez-bar-curl | S | any | F | T3 | 2 | bilateral | BICEP 1 | 15 |  |  |
+| Incline Dumbbell Curl ('pinky facing up' supinated variation) | incline-dumbbell-curl-pinky-facing-up-supinated-variation | S | any | F | T2 | 3 | bilateral | BICEP 1 | 5 |  |  |
+| Kettlebell Curl (one or two KBs) | kb-curl | N2 | any | F | T2 | 2 | bilateral | BICEP 1 | 0 |  | NEW R2-LIB-07 |
+| Reverse-Grip (Pronated) EZ-Bar Curl | reverse-grip-pronated-ez-bar-curl | S | any | F | T3 | 2 | bilateral | BICEP 1 | 5 |  |  |
+| Seated Dumbbell Curl | seated-dumbbell-curl | S | any | F | T2 | 3 | bilateral | BICEP 1 | 1 |  |  |
+| Spider Curl (chest on incline bench) | spider-curl-chest-on-incline-bench | S | any | F | T2 | 4 | bilateral | BICEP 1 | 0 |  |  |
+| Supine (Lying) Biceps Curl | supine-lying-biceps-curl | S | any | F | T2 | 3 | bilateral | BICEP 1 | 0 |  |  |
+| Suspension-Trainer (TRX) Biceps Curl | suspension-trainer-trx-biceps-curl | S | any | F | T1 | 2 | bilateral | BICEP 1 | 0 |  |  |
+| Zottman Curl (supinated up, pronated down) | zottman-curl-supinated-up-pronated-down | S | any | F | T2 | 2 | bilateral | BICEP 1 | 0 |  |  |
+| Barbell Reverse Curl (pronated) | barbell-reverse-curl-pronated | R | any | F | T3 | 2 | bilateral | BICEP 1 | 1 |  |  |
+| Biceps Curl - any kind | biceps-curl-any-kind | P | unrated | F | T2 | 2 | bilateral | BICEP 1 | 32 |  |  |
+| DB 'No Money' Curl | db-no-money-curl | P | unrated | F | T2 | 2 | bilateral | BICEP 1 | 2 |  |  |
+| DB Curl to Press | db-curl-to-press | P | unrated | F | T2 | 2 | bilateral | BICEP 1 | 5 |  |  |
+| DB Pronated (Reverse) Curl | db-pronated-reverse-curl | R | any | F | T2 | 2 | bilateral | BICEP 1 | 0 |  |  |
+| Single-Arm DB Preacher Curl | single-arm-db-preacher-curl | P | unrated | F | T2 | 3 | unilateral | BICEP 1 | 1 |  |  |
 
 ### TRI - TRICEP (15)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Cable Triceps Push-down | cable-triceps-push-down | S | any | F | T3 | 3 | bilateral | TRICEP 1 | 21 |  |
-| Cable Triceps Pushdown - straight bar, pronated grip | cable-triceps-pushdown-straight-bar-pronated-grip | S | any | F | T3 | 3 | bilateral | TRICEP 1 | 0 |  |
-| Cable Triceps Pushdown - straight bar, supinated (reverse) grip | cable-triceps-pushdown-straight-bar-supinated-reverse-grip | S | any | F | T3 | 3 | bilateral | TRICEP 1 | 0 |  |
-| Dumbbell Triceps Kickback (one or both arms) | dumbbell-triceps-kickback-one-or-both-arms | S | any | F | T2 | 2 | unilateral | TRICEP 1 | 8 |  |
-| EZ-Bar Skullcrusher | ez-bar-skullcrusher | S | any | F | T3 | 3 | bilateral | TRICEP 1 | 0 |  |
-| Floor Dumbbell Skullcrusher | floor-dumbbell-skullcrusher | S | any | F | T2 | 3 | bilateral | TRICEP 1 | 8 |  |
-| Overhead Cable Triceps Extension | overhead-cable-triceps-extension | S | any | F | T3 | 3 | bilateral | TRICEP 1 | 15 |  |
-| Overhead Dumbbell Triceps Extension | overhead-dumbbell-triceps-extension | S | any | F | T2 | 2 | bilateral | TRICEP 1 | 8 |  |
-| Tate Press | tate-press | S | any | F | T2 | 3 | bilateral | TRICEP 1 | 24 |  |
-| Bench Dip | bench-dip | P | unrated | F | T0 | 3 | bilateral | TRICEP 1 | 2 |  |
-| Cable Triceps Pushdown - V-Grip | cable-triceps-pushdown-v-grip | R | any | F | T3 | 3 | bilateral | TRICEP 1 | 0 |  |
-| Face-Up Triceps Push-Away (supine; technique unconfirmed) | face-up-triceps-push-away-supine-technique-unconfirmed | R | any | F | T3 | 3 | bilateral | TRICEP 1 | 0 |  |
-| JM Press | jm-press | P | unrated | F | T3 | 3 | bilateral | TRICEP 1 | 16 |  |
-| Rope Triceps Push-down (neutral grip) | rope-triceps-push-down-neutral-grip | R | any | F | T3 | 3 | bilateral | TRICEP 1 | 5 |  |
-| Triceps - any kind | triceps-any-kind | P | unrated | F | T3 | 3 | bilateral | TRICEP 1 | 11 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Cable Triceps Push-down | cable-triceps-push-down | S | any | F | T3 | 3 | bilateral | TRICEP 1 | 21 |  |  |
+| Cable Triceps Pushdown - straight bar, pronated grip | cable-triceps-pushdown-straight-bar-pronated-grip | S | any | F | T3 | 3 | bilateral | TRICEP 1 | 0 |  |  |
+| Cable Triceps Pushdown - straight bar, supinated (reverse) grip | cable-triceps-pushdown-straight-bar-supinated-reverse-grip | S | any | F | T3 | 3 | bilateral | TRICEP 1 | 0 |  |  |
+| Dumbbell Triceps Kickback (one or both arms) | dumbbell-triceps-kickback-one-or-both-arms | S | any | F | T2 | 2 | unilateral | TRICEP 1 | 8 |  |  |
+| EZ-Bar Skullcrusher | ez-bar-skullcrusher | S | any | F | T3 | 3 | bilateral | TRICEP 1 | 0 |  |  |
+| Floor Dumbbell Skullcrusher | floor-dumbbell-skullcrusher | S | any | F | T2 | 3 | bilateral | TRICEP 1 | 8 |  |  |
+| Overhead Cable Triceps Extension | overhead-cable-triceps-extension | S | any | F | T3 | 3 | bilateral | TRICEP 1 | 15 |  |  |
+| Overhead Dumbbell Triceps Extension | overhead-dumbbell-triceps-extension | S | any | F | T2 | 2 | bilateral | TRICEP 1 | 8 |  |  |
+| Tate Press | tate-press | S | any | F | T2 | 3 | bilateral | TRICEP 1 | 24 |  |  |
+| Bench Dip | bench-dip | P | unrated | F | T0 | 3 | bilateral | TRICEP 1 | 2 |  |  |
+| Cable Triceps Pushdown - V-Grip | cable-triceps-pushdown-v-grip | R | any | F | T3 | 3 | bilateral | TRICEP 1 | 0 |  |  |
+| Face-Up Triceps Push-Away (supine; technique unconfirmed) | face-up-triceps-push-away-supine-technique-unconfirmed | R | any | F | T3 | 3 | bilateral | TRICEP 1 | 0 |  |  |
+| JM Press | jm-press | P | unrated | F | T3 | 3 | bilateral | TRICEP 1 | 16 |  |  |
+| Rope Triceps Push-down (neutral grip) | rope-triceps-push-down-neutral-grip | R | any | F | T3 | 3 | bilateral | TRICEP 1 | 5 |  |  |
+| Triceps - any kind | triceps-any-kind | P | unrated | F | T3 | 3 | bilateral | TRICEP 1 | 11 |  |  |
 
-### CALF - CALVES (6)
+### CALF - CALVES (8)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Barbell Calf Raise | barbell-calf-raise | S | any | F | T3 | 2 | bilateral | CALVES 1 | 0 |  |
-| Machine Calf Raise | machine-calf-raise | S | any | F | T3 | 5 | bilateral | CALVES 1 | 1 |  |
-| Standing Calf Raise (bodyweight, from a deficit/step) | standing-calf-raise-bodyweight-from-a-deficit-step | S | any | F | T0 | 2 | bilateral | CALVES 1 | 1 |  |
-| Standing DB Calf Raise (deficit optional) | standing-db-calf-raise-deficit-optional | S | any | F | T2 | 2 | bilateral | CALVES 1 | 26 |  |
-| Calf Raise - any | calf-raise-any | P | unrated | F | T0 | 2 | bilateral | CALVES 1 | 6 |  |
-| Single-Leg Deficit Calf Raise (weighted) | single-leg-deficit-calf-raise-weighted | P | unrated | F | T2 | 2 | unilateral | CALVES 1 | 1 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Barbell Calf Raise | barbell-calf-raise | S | any | F | T3 | 2 | bilateral | CALVES 1 | 0 |  |  |
+| Machine Calf Raise | machine-calf-raise | S | any | F | T3 | 5 | bilateral | CALVES 1 | 1 |  | spine: not counted (calf work, adversarial check) |
+| Standing Calf Raise (bodyweight, from a deficit/step) | standing-calf-raise-bodyweight-from-a-deficit-step | S | any | F | T0 | 2 | bilateral | CALVES 1 | 1 |  | spine: not counted (calf work, adversarial check) |
+| Standing DB Calf Raise (deficit optional) | standing-db-calf-raise-deficit-optional | S | any | F | T2 | 2 | bilateral | CALVES 1 | 26 |  | spine: not counted (calf work, adversarial check) |
+| Calf Raise - any | calf-raise-any | P | unrated | F | T0 | 2 | bilateral | CALVES 1 | 6 |  |  |
+| Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) | seated-bent-knee-calf-raise-soleus | X2 | any | F | T2 | 3 | bilateral | CALVES 1 | 0 |  | PROPOSED-ADDITION |
+| Single-Leg Deficit Calf Raise (weighted) | single-leg-deficit-calf-raise-weighted | P | unrated | F | T2 | 2 | unilateral | CALVES 1 | 1 |  | spine: not counted (calf work, adversarial check) |
+| Tibialis Raise (back against a wall) | tibialis-raise-back-against-a-wall | X2 | any | F | T0 | 2 | bilateral | - | 0 |  | PROPOSED-ADDITION |
+
+### NECK - NECK (PROPOSED v1.1) (2)
+
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Neck Isometric Holds (4-way: front, back, both sides; hand or partner resistance) | neck-isometric-holds-4-way | X2 | foundational | F | T0 | 2 | n/a | - | 0 |  | PROPOSED-ADDITION |
+| Plate Neck Flexion / Extension (lying on a bench, plate on a towel) | plate-neck-flexion-extension-lying-on-a-bench | X2 | intermediate | I | T2 | 3 | bilateral | - | 0 |  | PROPOSED-ADDITION |
 
 ### CT - CORE THORAX (30)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Cable Oblique Rotation (cable rotational twist) | cable-oblique-rotation-cable-rotational-twist | S | advanced | A | T3 | 3 | unilateral | CORE 1 | 11 |  |
-| Cable Woodchopper (cable chop) | cable-woodchopper-cable-chop | S | advanced | A | T2 | 3 | unilateral | CORE 1 | 3 |  |
-| Crunch | crunch | S | foundational | F | T0 | 3 | bilateral | CORE 1 | 3 |  |
-| Plank (forearm / low plank) | plank-forearm-low-plank | S | foundational | F | T0 | 3 | bilateral | CORE 1 | 6 |  |
-| Russian Twist | russian-twist | S | advanced | A | T0 | 2 | alternating | CORE 1 | 1 |  |
-| Side Plank (elbow) | side-plank-elbow | S | intermediate | I | T0 | 2 | unilateral | CORE 1 | 11 |  |
-| Sit-Up | sit-up | S | foundational | F | T0 | 3 | bilateral | CORE 1 | 6 |  |
-| Weighted Decline Sit-Up | weighted-decline-sit-up | S | any | F | T2 | 4 | bilateral | CORE 1 | 0 |  |
-| Weighted Russian Twist | weighted-russian-twist | S | any | F | T2 | 2 | alternating | CORE 1 | 11 |  |
-| Weighted Sit-Up | weighted-sit-up | S | foundational | F | T2 | 3 | bilateral | CORE 1 | 1 |  |
-| Bench Pallof Plank (plank on a bench with cable anti-rotation) | bench-pallof-plank-plank-on-a-bench-with-cable-band-anti-rotation | R | intermediate | I | T3 | 4 | unilateral | CORE 1 | 0 | renamed |
-| Bicycle Crunch | bicycle-crunch | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 5 |  |
-| Butterfly Sit-up | butterfly-sit-up | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 2 |  |
-| Crunch Hold (isometric) | crunch-hold-isometric | R | foundational | F | T0 | 3 | bilateral | CORE 1 | 0 |  |
-| KB Book Opener | kb-book-opener | P | unrated | F | T2 | 3 | bilateral | CORE 1 | 3 |  |
-| Kettlebell Rotational Swings (no hip thrust - trunk-driven) | kettlebell-rotational-swings-no-hip-thrust-trunk-driven | R | intermediate | I | T2 | 2 | bilateral | CORE 1 | 0 |  |
-| Landmine Rotations - standing or kneeling | landmine-rotations-standing-or-kneeling | R | intermediate | I | T3 | 2 | bilateral | CORE 1 | 0 |  |
-| Lateral Crunch | lateral-crunch | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 1 |  |
-| Medball Ab Rollouts (hands on medball) | medball-ab-rollouts-hands-on-medball | R | intermediate | I | T2 | 3 | bilateral | CORE 1 | 1 |  |
-| Medball Plank Rockers | medball-plank-rockers | R | intermediate | I | T2 | 3 | bilateral | CORE 1 | 7 |  |
-| Medball Rotational Throw - initiated from the hands (thorax-led) | medball-rotational-throw-initiated-from-the-hands-thorax-led | R | intermediate | I | T2 | 3 | unilateral | CORE 1 | 0 |  |
-| Offset Planks (asymmetric support or load) | offset-planks-asymmetric-support-or-load | R | intermediate | I | T0 | 3 | unilateral | CORE 1 | 0 |  |
-| Pallof Hold (isometric) | pallof-hold-isometric | R | foundational | F | T3 | 3 | unilateral | CORE 1 | 0 |  |
-| Pallof Press | pallof-press | R | foundational | F | T3 | 3 | unilateral | CORE 1 | 0 |  |
-| Plank DB Pull-Through | plank-db-pull-through | P | unrated | F | T2 | 3 | bilateral | CORE 1 | 1 |  |
-| Plank Shoulder Taps | plank-shoulder-taps | R | foundational | F | T0 | 3 | alternating | CORE 1 | 3 |  |
-| Plank to Side Plank (rotating) | plank-to-side-plank-rotating | R | intermediate | I | T0 | 3 | alternating | CORE 1 | 0 |  |
-| Single-Side (Suitcase) Carry | single-side-suitcase-carry | R | foundational | F | T2 | 2 | unilateral | CORE 1 | 3 |  |
-| Swiss Ball Plate Torso Rotations | swiss-ball-plate-torso-rotations | R | intermediate | I | T2 | 3 | bilateral | CORE 1 | 3 |  |
-| Up-Down Planks (forearm <-> hand plank) | up-down-planks-forearm-hand-plank | R | foundational | F | T0 | 3 | alternating | CORE 1 | 2 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Cable Oblique Rotation (cable rotational twist) | cable-oblique-rotation-cable-rotational-twist | S | advanced | A | T3 | 3 | unilateral | CORE 1 | 11 |  |  |
+| Cable Woodchopper (cable chop) | cable-woodchopper-cable-chop | S | advanced | A | T2 | 3 | unilateral | CORE 1 | 3 |  |  |
+| Crunch | crunch | S | foundational | F | T0 | 3 | bilateral | CORE 1 | 3 |  |  |
+| Plank (forearm / low plank) | plank-forearm-low-plank | S | foundational | F | T0 | 3 | bilateral | CORE 1 | 6 |  |  |
+| Russian Twist | russian-twist | S | advanced | A | T0 | 2 | alternating | CORE 1 | 1 |  |  |
+| Side Plank (elbow) | side-plank-elbow | S | intermediate | I | T0 | 2 | unilateral | CORE 1 | 11 |  |  |
+| Sit-Up | sit-up | S | foundational | F | T0 | 3 | bilateral | CORE 1 | 6 |  |  |
+| Weighted Decline Sit-Up | weighted-decline-sit-up | S | any | F | T2 | 4 | bilateral | CORE 1 | 0 |  |  |
+| Weighted Russian Twist | weighted-russian-twist | S | any | F | T2 | 2 | alternating | CORE 1 | 11 |  |  |
+| Weighted Sit-Up | weighted-sit-up | S | foundational | F | T2 | 3 | bilateral | CORE 1 | 1 |  |  |
+| Bench Pallof Plank (plank on a bench with cable anti-rotation) | bench-pallof-plank-plank-on-a-bench-with-cable-band-anti-rotation | R | intermediate | I | T3 | 4 | unilateral | CORE 1 | 0 | renamed |  |
+| Bicycle Crunch | bicycle-crunch | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 5 |  |  |
+| Butterfly Sit-up | butterfly-sit-up | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 2 |  |  |
+| Crunch Hold (isometric) | crunch-hold-isometric | R | foundational | F | T0 | 3 | bilateral | CORE 1 | 0 |  |  |
+| KB Book Opener | kb-book-opener | P | unrated | F | T2 | 3 | bilateral | CORE 1 | 3 |  |  |
+| Kettlebell Rotational Swings (no hip thrust - trunk-driven) | kettlebell-rotational-swings-no-hip-thrust-trunk-driven | R | intermediate | I | T2 | 2 | bilateral | CORE 1 | 0 |  | R2-VOL-05: ballistic, 0 sets; ballistic |
+| Landmine Rotations - standing or kneeling | landmine-rotations-standing-or-kneeling | R | intermediate | I | T3 | 2 | bilateral | CORE 1 | 0 |  |  |
+| Lateral Crunch | lateral-crunch | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 1 |  |  |
+| Medball Ab Rollouts (hands on medball) | medball-ab-rollouts-hands-on-medball | R | intermediate | I | T2 | 3 | bilateral | CORE 1 | 1 |  |  |
+| Medball Plank Rockers | medball-plank-rockers | R | intermediate | I | T2 | 3 | bilateral | CORE 1 | 7 |  |  |
+| Medball Rotational Throw - initiated from the hands (thorax-led) | medball-rotational-throw-initiated-from-the-hands-thorax-led | R | intermediate | I | T2 | 3 | unilateral | CORE 1 | 0 |  | ballistic |
+| Offset Planks (asymmetric support or load) | offset-planks-asymmetric-support-or-load | R | intermediate | I | T0 | 3 | unilateral | CORE 1 | 0 |  |  |
+| Pallof Hold (isometric) | pallof-hold-isometric | R | foundational | F | T3 | 3 | unilateral | CORE 1 | 0 |  |  |
+| Pallof Press | pallof-press | R | foundational | F | T3 | 3 | unilateral | CORE 1 | 0 |  |  |
+| Plank DB Pull-Through | plank-db-pull-through | P | unrated | F | T2 | 3 | bilateral | CORE 1 | 1 |  |  |
+| Plank Shoulder Taps | plank-shoulder-taps | R | foundational | F | T0 | 3 | alternating | CORE 1 | 3 |  |  |
+| Plank to Side Plank (rotating) | plank-to-side-plank-rotating | R | intermediate | I | T0 | 3 | alternating | CORE 1 | 0 |  |  |
+| Single-Side (Suitcase) Carry | single-side-suitcase-carry | R | foundational | F | T2 | 2 | unilateral | CORE 1 | 3 |  |  |
+| Swiss Ball Plate Torso Rotations | swiss-ball-plate-torso-rotations | R | intermediate | I | T2 | 3 | bilateral | CORE 1 | 3 |  |  |
+| Up-Down Planks (forearm <-> hand plank) | up-down-planks-forearm-hand-plank | R | foundational | F | T0 | 3 | alternating | CORE 1 | 2 |  |  |
 
-### CP - CORE PELVIS (25)
+### CP - CORE PELVIS (26)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Copenhagen Plank | copenhagen-plank | S | intermediate | I | T0 | 2 | unilateral | CORE 1 | 8 |  |
-| Hanging Rotational Knee/Leg Raise | hanging-rotational-knee-leg-raise | S | foundational | F | T1 | 2 | alternating | CORE 1 | 0 |  |
-| Hanging Rotational Knees-to-Chest (hanging oblique knee raise) | hanging-rotational-knees-to-chest-hanging-oblique-knee-raise | S | advanced | A | T1 | 2 | alternating | CORE 1 | 4 |  |
-| Knees to Chest (hanging) | knees-to-chest-hanging | S | foundational | F | T1 | 2 | bilateral | CORE 1 | 3 |  |
-| Leg Raise (lying / supine) | leg-raise-lying-supine | S | foundational | F | T0 | 3 | bilateral | CORE 1 | 2 |  |
-| Reverse Crunch | reverse-crunch | S | foundational | F | T0 | 3 | bilateral | CORE 1 | 2 |  |
-| Toes to Bar (hanging) | toes-to-bar-hanging | S | foundational | F | T1 | 2 | bilateral | CORE 1 | 23 |  |
-| Copenhagen Raise (dynamic) | copenhagen-raise-dynamic | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 1 |  |
-| Flutter Kicks | flutter-kicks | R | foundational | F | T0 | 3 | alternating | CORE 1 | 1 |  |
-| Glute Bridge March | glute-bridge-march | R | foundational | F | T0 | 3 | alternating | CORE 1 | 2 |  |
-| Hip Raises ('hips raises') | hip-raises-hips-raises | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 1 |  |
-| Hip Turns (pelvis rotations) | hip-turns-pelvis-rotations | R | foundational | F | T0 | 3 | alternating | CORE 1 | 9 |  |
-| March (anti-rotation marching) | march-anti-rotation-marching | R | foundational | F | T0 | 3 | alternating | CORE 1 | 0 |  |
-| Medball Hanging Cross Toes to Bar (diagonal, ball between feet) | medball-hanging-cross-toes-to-bar-diagonal-ball-between-feet | R | advanced | A | T2 | 2 | bilateral | CORE 1 | 0 |  |
-| Medball Hanging Knees to Chest (ball between knees/feet) | medball-hanging-knees-to-chest-ball-between-knees-feet | R | intermediate | I | T2 | 2 | bilateral | CORE 1 | 0 |  |
-| Medball Hanging Toes to Bar (ball between feet) | medball-hanging-toes-to-bar-ball-between-feet | R | advanced | A | T2 | 2 | bilateral | CORE 1 | 0 |  |
-| Medball Rotational Throw - initiated from the feet (pelvis-led) | medball-rotational-throw-initiated-from-the-feet-pelvis-led | R | intermediate | I | T2 | 3 | unilateral | CORE 1 | 0 |  |
-| Medball V-Up Switches (pass the ball hands <-> feet) | medball-v-up-switches-pass-the-ball-hands-feet | R | intermediate | I | T2 | 3 | bilateral | CORE 1 | 0 |  |
-| Medball V-Ups | medball-v-ups | R | intermediate | I | T2 | 3 | bilateral | CORE 1 | 0 |  |
-| Mountain Climber | mountain-climber | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 2 |  |
-| Plank with Alternating Feet Raises | plank-with-alternating-feet-raises | R | foundational | F | T0 | 3 | alternating | CORE 1 | 0 |  |
-| Single-Leg Toes to Bar | single-leg-toes-to-bar | R | advanced | A | T1 | 3 | alternating | CORE 1 | 0 |  |
-| Slider Runners (mountain-climber style) | slider-runners-mountain-climber-style | P | unrated | F | T0 | 3 | alternating | CORE 1 | 1 |  |
-| Swiss Ball Knee Tuck | swiss-ball-knee-tuck | P | unrated | F | T2 | 3 | bilateral | CORE 1 | 2 |  |
-| Windshield Wipers | windshield-wipers | R | intermediate | I | T0 | 3 | alternating | CORE 1 | 8 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Copenhagen Plank | copenhagen-plank | S | intermediate | I | T0 | 2 | unilateral | CORE 1 | 8 |  |  |
+| Hanging Rotational Knee/Leg Raise | hanging-rotational-knee-leg-raise | S | foundational | F | T1 | 2 | alternating | CORE 1 | 0 |  |  |
+| Hanging Rotational Knees-to-Chest (hanging oblique knee raise) | hanging-rotational-knees-to-chest-hanging-oblique-knee-raise | S | advanced | A | T1 | 2 | alternating | CORE 1 | 4 |  |  |
+| Knees to Chest (hanging) | knees-to-chest-hanging | S | foundational | F | T1 | 2 | bilateral | CORE 1 | 3 |  |  |
+| Leg Raise (lying / supine) | leg-raise-lying-supine | S | foundational | F | T0 | 3 | bilateral | CORE 1 | 2 |  |  |
+| Reverse Crunch | reverse-crunch | S | foundational | F | T0 | 3 | bilateral | CORE 1 | 2 |  |  |
+| Toes to Bar (hanging) | toes-to-bar-hanging | S | foundational | F | T1 | 2 | bilateral | CORE 1 | 23 |  |  |
+| Copenhagen Raise (dynamic) | copenhagen-raise-dynamic | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 1 |  |  |
+| Flutter Kicks | flutter-kicks | R | foundational | F | T0 | 3 | alternating | CORE 1 | 1 |  |  |
+| Glute Bridge March | glute-bridge-march | R | foundational | F | T0 | 3 | alternating | CORE 1 | 2 |  |  |
+| Hip Raises ('hips raises') | hip-raises-hips-raises | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 1 |  |  |
+| Hip Turns (pelvis rotations) | hip-turns-pelvis-rotations | R | foundational | F | T0 | 3 | alternating | CORE 1 | 9 |  |  |
+| March (anti-rotation marching) | march-anti-rotation-marching | R | foundational | F | T0 | 3 | alternating | CORE 1 | 0 |  |  |
+| Medball Hanging Cross Toes to Bar (diagonal, ball between feet) | medball-hanging-cross-toes-to-bar-diagonal-ball-between-feet | R | advanced | A | T2 | 2 | bilateral | CORE 1 | 0 |  |  |
+| Medball Hanging Knees to Chest (ball between knees/feet) | medball-hanging-knees-to-chest-ball-between-knees-feet | R | intermediate | I | T2 | 2 | bilateral | CORE 1 | 0 |  |  |
+| Medball Hanging Toes to Bar (ball between feet) | medball-hanging-toes-to-bar-ball-between-feet | R | advanced | A | T2 | 2 | bilateral | CORE 1 | 0 |  |  |
+| Medball Rotational Throw - initiated from the feet (pelvis-led) | medball-rotational-throw-initiated-from-the-feet-pelvis-led | R | intermediate | I | T2 | 3 | unilateral | CORE 1 | 0 |  | ballistic |
+| Medball V-Up Switches (pass the ball hands <-> feet) | medball-v-up-switches-pass-the-ball-hands-feet | R | intermediate | I | T2 | 3 | bilateral | CORE 1 | 0 |  |  |
+| Medball V-Ups | medball-v-ups | R | intermediate | I | T2 | 3 | bilateral | CORE 1 | 0 |  |  |
+| Mountain Climber | mountain-climber | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 2 |  |  |
+| Plank with Alternating Feet Raises | plank-with-alternating-feet-raises | R | foundational | F | T0 | 3 | alternating | CORE 1 | 0 |  |  |
+| Single-Leg Balance Reach (front / side / back) | single-leg-balance-reach-front-side-back | X2 | foundational | F | T0 | 2 | unilateral | CORE 1 | 0 |  | PROPOSED-ADDITION |
+| Single-Leg Toes to Bar | single-leg-toes-to-bar | R | advanced | A | T1 | 3 | alternating | CORE 1 | 0 |  |  |
+| Slider Runners (mountain-climber style) | slider-runners-mountain-climber-style | P | unrated | F | T0 | 3 | alternating | CORE 1 | 1 |  |  |
+| Swiss Ball Knee Tuck | swiss-ball-knee-tuck | P | unrated | F | T2 | 3 | bilateral | CORE 1 | 2 |  |  |
+| Windshield Wipers | windshield-wipers | R | intermediate | I | T0 | 3 | alternating | CORE 1 | 8 |  |  |
 
-### CB - CORE (THORAX + PELVIS 'BOTH') (24)
+### CB - CORE (THORAX + PELVIS 'BOTH') (25)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| V-Up | v-up | S | foundational | F | T0 | 2 | bilateral | CORE 1 | 0 |  |
-| Bear Crawl | bear-crawl | R | foundational | F | T0 | 3 | alternating | CORE 1 | 1 |  |
-| Bird Dogs | bird-dogs | R | foundational | F | T0 | 3 | alternating | CORE 1 | 0 |  |
-| Break Dancers (bear/crab-position thread-through rotations) | break-dancers-bear-crab-position-thread-through-rotations | R | intermediate | I | T0 | 3 | alternating | CORE 1 | 0 |  |
-| Cross Connect (rolls / rocking / hold) | cross-connect-rolls-rocking-hold | R | foundational | F | T0 | 3 | alternating | CORE 1 | 0 |  |
-| Cross-Body Mountain Climber | cross-body-mountain-climber | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 5 |  |
-| Dead Bugs | dead-bugs | R | foundational | F | T0 | 3 | alternating | CORE 1 | 3 |  |
-| Elbow Oblique Sit (side-lying oblique hold on the elbow) | elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow | R | intermediate | I | T0 | 3 | unilateral | CORE 1 | 6 |  |
-| High (Straight-Arm) Side Plank | high-straight-arm-side-plank | R | intermediate | I | T0 | 3 | unilateral | CORE 1 | 0 |  |
-| High Plank (straight-arm plank) | high-plank-straight-arm-plank | R | foundational | F | T0 | 3 | bilateral | CORE 1 | 0 |  |
-| Hollow Rocks | hollow-rocks | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 4 |  |
-| Kettlebell Windmills - kneeling or standing | kettlebell-windmills-kneeling-or-standing | R | advanced | A | T2 | 2 | unilateral | CORE 1 | 0 |  |
-| L-Sit Hold | l-sit-hold | R | advanced | A | T0 | 3 | bilateral | CORE 1 | 0 |  |
-| Plank Supermans (held) | plank-supermans-held | R | intermediate | I | T0 | 3 | alternating | CORE 1 | 0 |  |
-| Side Plank Hip Lifts (slow) | side-plank-hip-lifts-slow | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 1 |  |
-| Side Plank Knee-to-Elbow | side-plank-knee-to-elbow | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 1 |  |
-| Side Plank Press (advanced: star side plank press) | side-plank-press-advanced-star-side-plank-press | P | unrated | F | T2 | 3 | bilateral | CORE 1 | 1 |  |
-| Single-Arm / Single-Leg Turkish Sit-up | single-arm-single-leg-turkish-sit-up | P | unrated | F | T0 | 2 | unilateral | CORE 1 | 1 |  |
-| Star Side Plank | star-side-plank | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 5 |  |
-| Star Supine Cross Connect | star-supine-cross-connect | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 5 |  |
-| Star Toe Touches | star-toe-touches | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 1 |  |
-| Star V-Ups (cross-body / diagonal V-ups) | star-v-ups-cross-body-diagonal-v-ups | R | advanced | A | T0 | 3 | alternating | CORE 1 | 1 |  |
-| Supermans | supermans | R | foundational | F | T0 | 3 | bilateral | CORE 1 | 0 |  |
-| Turkish Get-Ups | turkish-get-ups | R | advanced | A | T2 | 2 | unilateral | CORE 1 | 0 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| V-Up | v-up | S | foundational | F | T0 | 2 | bilateral | CORE 1 | 0 |  |  |
+| Bear Crawl | bear-crawl | R | foundational | F | T0 | 3 | alternating | CORE 1 | 1 |  |  |
+| Bird Dogs | bird-dogs | R | foundational | F | T0 | 3 | alternating | CORE 1 | 0 |  |  |
+| Break Dancers (bear/crab-position thread-through rotations) | break-dancers-bear-crab-position-thread-through-rotations | R | intermediate | I | T0 | 3 | alternating | CORE 1 | 0 |  |  |
+| Cross Connect (rolls / rocking / hold) | cross-connect-rolls-rocking-hold | R | foundational | F | T0 | 3 | alternating | CORE 1 | 0 |  |  |
+| Cross-Body Mountain Climber | cross-body-mountain-climber | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 5 |  |  |
+| Dead Bugs | dead-bugs | R | foundational | F | T0 | 3 | alternating | CORE 1 | 3 |  |  |
+| Elbow Oblique Sit (side-lying oblique hold on the elbow) | elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow | R | intermediate | I | T0 | 3 | unilateral | CORE 1 | 6 |  |  |
+| High (Straight-Arm) Side Plank | high-straight-arm-side-plank | R | intermediate | I | T0 | 3 | unilateral | CORE 1 | 0 |  |  |
+| High Plank (straight-arm plank) | high-plank-straight-arm-plank | R | foundational | F | T0 | 3 | bilateral | CORE 1 | 0 |  |  |
+| Hollow Rocks | hollow-rocks | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 4 |  |  |
+| Kettlebell Windmills - kneeling or standing | kettlebell-windmills-kneeling-or-standing | R | advanced | A | T2 | 2 | unilateral | CORE 1 | 0 |  |  |
+| L-Sit Hold | l-sit-hold | R | advanced | A | T0 | 3 | bilateral | CORE 1 | 0 |  |  |
+| Plank Supermans (held) | plank-supermans-held | R | intermediate | I | T0 | 3 | alternating | CORE 1 | 0 |  |  |
+| Side Plank Hip Lifts (slow) | side-plank-hip-lifts-slow | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 1 |  |  |
+| Side Plank Knee-to-Elbow | side-plank-knee-to-elbow | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 1 |  |  |
+| Side Plank Press (advanced: star side plank press) | side-plank-press-advanced-star-side-plank-press | P | unrated | F | T2 | 3 | bilateral | CORE 1 | 1 |  |  |
+| Single-Arm / Single-Leg Turkish Sit-up | single-arm-single-leg-turkish-sit-up | P | unrated | F | T0 | 2 | unilateral | CORE 1 | 1 |  |  |
+| Star Side Plank | star-side-plank | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 5 |  |  |
+| Star Supine Cross Connect | star-supine-cross-connect | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 5 |  |  |
+| Star Toe Touches | star-toe-touches | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 1 |  |  |
+| Star V-Ups (cross-body / diagonal V-ups) | star-v-ups-cross-body-diagonal-v-ups | R | advanced | A | T0 | 3 | alternating | CORE 1 | 1 |  |  |
+| Streamline Hold (hollow body, arms locked overhead) | streamline-hold-hollow-body-arms-overhead | X2 | intermediate | I | T0 | 3 | bilateral | CORE 1 | 0 |  | PROPOSED-ADDITION |
+| Supermans | supermans | R | foundational | F | T0 | 3 | bilateral | CORE 1 | 0 |  |  |
+| Turkish Get-Ups | turkish-get-ups | R | advanced | A | T2 | 2 | unilateral | CORE 1 | 0 |  |  |
 
 ### CORE - CORE (2)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 'Plate core' (plate-loaded core drill, not specified) | plate-core-plate-loaded-core-drill-not-specified | P | unrated | F | T2 | 3 | bilateral | CORE 1 | 2 |  |
-| Core - coach's choice (unspecified) | core-coach-s-choice-unspecified | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 32 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 'Plate core' (plate-loaded core drill, not specified) | plate-core-plate-loaded-core-drill-not-specified | P | unrated | F | T2 | 3 | bilateral | CORE 1 | 2 |  |  |
+| Core - coach's choice (unspecified) | core-coach-s-choice-unspecified | P | unrated | F | T0 | 3 | bilateral | CORE 1 | 32 |  |  |
 
-### PLYO - PLYOS (82)
+### PLYO - PLYOS (83)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Alternating Single-Leg Plate Hops (Hop Off Bilateral) | alternating-single-leg-plate-hops-hop-off-bilateral | S | intermediate | I | T0 | 1 | alternating | - | 0 |  |
-| Ankle Hops (bilateral, in place) | ankle-hops-bilateral-in-place | S | foundational | F | T0 | 1 | bilateral | - | 17 |  |
-| Bilateral Forward Hurdle Hops | bilateral-forward-hurdle-hops | S | intermediate | I | T1 | 1 | bilateral | - | 0 |  |
-| Bilateral Forward Plate Hops | bilateral-forward-plate-hops | S | intermediate | I | T0 | 1 | bilateral | - | 1 |  |
-| Bilateral Lateral Hurdle Hops | bilateral-lateral-hurdle-hops | S | intermediate | I | T1 | 1 | bilateral | - | 3 |  |
-| Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) | bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat | S | intermediate | I | T0 | 1 | bilateral | - | 0 |  |
-| Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) | bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral | S | intermediate | I | T1 | 1 | bilateral | - | 0 |  |
-| Bounding | bounding | S | advanced | A | T0 | 1 | alternating | - | 2 |  |
-| Bulgarian (Rear-Foot-Elevated) Split Jumps | bulgarian-rear-foot-elevated-split-jumps | S | advanced | A | T0 | 1 | unilateral | - | 0 |  |
-| DB Ankle Hops | db-ankle-hops | S | advanced | A | T2 | 1 | bilateral | - | 10 |  |
-| DB Depth Drop, Release DBs, Jump | db-depth-drop-release-dbs-jump | S | advanced | A | T2 | 1 | bilateral | - | 3 |  |
-| DB Repeated Squat Jumps | db-repeated-squat-jumps | S | advanced | A | T2 | 1 | bilateral | - | 4 |  |
-| Depth Drop to Box Jump | depth-drop-to-box-jump | S | advanced | A | T0 | 1 | bilateral | - | 1 |  |
-| Depth Jump | depth-jump | S | advanced | A | T0 | 1 | bilateral | - | 9 |  |
-| High Depth Drop (Above-Hip Height) | high-depth-drop-above-hip-height | S | advanced | A | T2 | 1 | bilateral | - | 0 | never for older / injured (INFERRED from EQ-03, pending) |
-| Hurdle Hops (tall hurdles, continuous quick-contact reps) | hurdle-hops | S | advanced | A | T1 | 1 | bilateral | - | 10 | renamed |
-| Low Box Jump (Half-Shin Height) | low-box-jump-half-shin-height | S | foundational | F | T0 | 1 | bilateral | - | 0 |  |
-| Low Depth Drop | low-depth-drop | S | foundational | F | T0 | 1 | bilateral | - | 0 |  |
-| Low Depth Drop - Single-Leg or Weighted (second FOUNDATIONAL listing) | low-depth-drop-single-leg-or-weighted | S | foundational | F | T0 | 1 | either (single-leg, or bilateral holding DBs) | - | 0 |  |
-| Medium Depth Drop | medium-depth-drop | S | foundational | F | T0 | 1 | bilateral | - | 1 |  |
-| Mid Box Jump (Knee Height) | mid-box-jump-knee-height | S | foundational | F | T0 | 1 | bilateral | - | 0 |  |
-| Plyometric Push-Ups | plyometric-push-ups | S | advanced | A | T0 | 1 | bilateral | - | 6 |  |
-| Push-Up Box Jump | push-up-box-jump | S | intermediate | I | T0 | 1 | bilateral | - | 0 |  |
-| Push-Up Stick the Landing (hands start on a box, land on the floor) | push-up-stick-the-landing | S | foundational | F | T0 | 1 | bilateral | - | 3 | renamed |
-| Single-Leg Backward Zig-Zag Jumps | single-leg-backward-zig-zag-jumps | S | intermediate | I | T0 | 1 | unilateral | - | 0 |  |
-| Single-Leg DB Depth Drop, Release DBs, Jump | single-leg-db-depth-drop-release-dbs-jump | S | advanced | A | T2 | 1 | unilateral | - | 0 |  |
-| Single-Leg Depth Drop | single-leg-depth-drop | S | intermediate | I | T0 | 1 | unilateral | - | 4 |  |
-| Single-Leg Depth Jump | single-leg-depth-jump | S | advanced | A | T0 | 1 | unilateral | - | 0 |  |
-| Single-Leg Forward Hurdle Hops | single-leg-forward-hurdle-hops | S | intermediate | I | T1 | 1 | unilateral | - | 3 |  |
-| Single-Leg Forward Zig-Zag Jumps | single-leg-forward-zig-zag-jumps | S | intermediate | I | T0 | 1 | unilateral | - | 0 |  |
-| Single-Leg Lateral Hurdle Hops | single-leg-lateral-hurdle-hops | S | intermediate | I | T1 | 1 | unilateral | - | 0 |  |
-| Single-Leg Lateral Plate Hops - Inner Leg (Alternating) | single-leg-lateral-plate-hops-inner-leg-alternating | S | intermediate | I | T0 | 1 | unilateral | - | 0 |  |
-| Single-Leg Lateral Plate Hops - Inner/Outer Leg | single-leg-lateral-plate-hops-inner-outer-leg | S | intermediate | I | T0 | 1 | unilateral | - | 3 |  |
-| Single-Leg Lateral Plate Hops - Outer Leg (Alternating) | single-leg-lateral-plate-hops-outer-leg-alternating | S | intermediate | I | T0 | 1 | unilateral | - | 0 |  |
-| Single-Leg Plate Hops | single-leg-plate-hops | S | intermediate | I | T0 | 1 | unilateral | - | 5 |  |
-| Single-Leg Squirrel Jumps | single-leg-squirrel-jumps | S | advanced | A | T0 | 1 | unilateral | - | 2 | speed step 1 |
-| Squirrel Jumps | squirrel-jumps | S | advanced | A | T0 | 1 | bilateral | - | 3 | speed step 1 |
-| Tuck Jumps | tuck-jumps | S | advanced | A | T0 | 1 | bilateral | - | 4 |  |
-| Alternating Split-Stance Jumps (front foot on box) | alternating-split-stance-jumps-front-foot-on-box | P | unrated | F | T0 | 1 | alternating | - | 1 |  |
-| Bilateral Backward Hops | bilateral-backward-hops | R | any | F | T0 | 1 | bilateral | - | 0 |  |
-| Bilateral Forward Hops | bilateral-forward-hops | R | any | F | T0 | 1 | bilateral | - | 0 |  |
-| Bilateral Hop On To (small-amplitude hop onto a plate/low box) | bilateral-hop-on-to-small-amplitude-hop-onto-a-plate-low-box | R | foundational | F | T0 | 1 | bilateral | - | 0 |  |
-| Bilateral Jump On To (box jump, land softly on top) | bilateral-jump-on-to-box-jump-land-softly-on-top | R | foundational | F | T0 | 1 | bilateral | - | 7 |  |
-| Bilateral Repeat Hops (continuous pogo hops) | bilateral-repeat-hops-continuous-pogo-hops | R | foundational | F | T0 | 1 | bilateral | - | 0 |  |
-| Bilateral Repeat Jumps (continuous full-amplitude jumps) | bilateral-repeat-jumps-continuous-full-amplitude-jumps | R | intermediate | I | T0 | 1 | bilateral | - | 5 |  |
-| Bilateral Weighted Drop, Release the Weight & Hop | bilateral-weighted-drop-release-the-weight-and-hop | R | advanced | A | T2 | 1 | bilateral | - | 0 |  |
-| Broad Jump | broad-jump | R | intermediate | I | T0 | 1 | bilateral | - | 4 |  |
-| DB Snap Down | db-snap-down | P | unrated | F | T2 | 1 | bilateral | - | 2 |  |
-| DB Staggered-Stance Switch Jump | db-staggered-stance-switch-jump | P | unrated | F | T2 | 1 | alternating | - | 1 |  |
-| Depth Drop (height not stated) | depth-drop-height-not-stated | R | intermediate | I | T0 | 1 | bilateral | - | 5 |  |
-| Double Bounce - Bilateral (two quick pulses on landing, then go) | double-bounce-bilateral-two-quick-pulses-on-landing-then-go | R | intermediate | I | T0 | 1 | bilateral | - | 0 |  |
-| Double Bounce - Unilateral | double-bounce-unilateral | R | advanced | A | T0 | 1 | unilateral | - | 0 |  |
-| Drop & Double Bounce - Bilateral (step off box, land, two pulses) | drop-and-double-bounce-bilateral-step-off-box-land-two-pulses | R | advanced | A | T0 | 1 | bilateral | - | 0 |  |
-| Drop & Double Bounce - Unilateral | drop-and-double-bounce-unilateral | R | advanced | A | T0 | 1 | unilateral | - | 0 |  |
-| Drop (Bilateral) & Hop - depth drop into a quick small hop | drop-bilateral-and-hop-depth-drop-into-a-quick-small-hop | R | advanced | A | T0 | 1 | bilateral | - | 0 |  |
-| Fake Medball Slam & Return (any way possible) - upper-body/trunk amortization drill | fake-medball-slam-and-return-any-way-possible-upper-body-trunk-amortization-dril | R | intermediate | I | T0 | 1 | bilateral | - | 0 |  |
-| Fast Rhythmic Quarter Squats | fast-rhythmic-quarter-squats | P | unrated | F | T0 | 1 | bilateral | - | 1 |  |
-| Front-Foot-Elevated Lunge Jumps (bodyweight) | front-foot-elevated-lunge-jumps-bodyweight | P | unrated | F | T0 | 1 | unilateral | - | 1 |  |
-| Hex-Bar Jump Squat | hex-bar-jump-squat | P | foundational | F | T3 | 1 | bilateral | - | 7 | also TX pool: beginner Olympic option (ATH-10) |
-| Hurdle Hops into Box Jump | hurdle-hops-into-box-jump | P | unrated | F | T1 | 1 | bilateral | - | 2 |  |
-| Lateral Box Step-up Jump | lateral-box-step-up-jump | P | unrated | F | T0 | 1 | unilateral | - | 1 |  |
-| Medball Squat Jumps | medball-squat-jumps | R | intermediate | I | T2 | 1 | bilateral | - | 0 |  |
-| RFE Lunge Jumps (suitcase DB) | rfe-lunge-jumps-suitcase-db | P | unrated | F | T2 | 1 | unilateral | - | 3 |  |
-| Seated Box Jump (sit-to-jump onto box) | seated-box-jump-sit-to-jump-onto-box | P | unrated | F | T0 | 1 | bilateral | - | 4 |  |
-| Single-Leg Box Jump | single-leg-box-jump | R | intermediate | I | T0 | 1 | unilateral | - | 3 |  |
-| Single-Leg Broad Jump | single-leg-broad-jump | P | unrated | F | T0 | 1 | unilateral | - | 1 |  |
-| Single-Leg Hops into Single-Leg Box Jump | single-leg-hops-into-single-leg-box-jump | P | unrated | F | T0 | 1 | unilateral | - | 2 |  |
-| Single-Leg In-Place Hops | single-leg-in-place-hops | R | any | F | T0 | 1 | unilateral | - | 0 |  |
-| Single-Leg to March Jumps | single-leg-to-march-jumps | P | unrated | F | T0 | 1 | unilateral | - | 5 |  |
-| Skater Jumps (lateral bounds) | skater-jumps-lateral-bounds | P | unrated | F | T0 | 1 | alternating | - | 2 |  |
-| Split-Stance Squat Jumps (lunge jumps) | split-stance-squat-jumps-lunge-jumps | P | unrated | F | T0 | 1 | alternating | - | 2 |  |
-| Squat Jump (high, bodyweight or lightly loaded) | squat-jump-high-bodyweight-or-lightly-loaded | P | unrated | F | T0 | 1 | bilateral | - | 8 |  |
-| Staggered-Stance Box Jump | staggered-stance-box-jump | P | unrated | F | T0 | 1 | bilateral | - | 4 |  |
-| Stick the Landing - Bilateral (jump/drop and freeze the landing) | stick-the-landing-bilateral-jump-drop-and-freeze-the-landing | R | foundational | F | T0 | 1 | bilateral | - | 0 |  |
-| Stick the Landing - Unilateral (single-leg landing, freeze) | stick-the-landing-unilateral-single-leg-landing-freeze | R | intermediate | I | T0 | 1 | unilateral | - | 1 |  |
-| Unilateral Hop On To (single-leg hop onto a plate/low box) | unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box | R | intermediate | I | T0 | 1 | unilateral | - | 2 |  |
-| Unilateral Repeat Hops (single-leg continuous pogo hops) | unilateral-repeat-hops-single-leg-continuous-pogo-hops | R | intermediate | I | T0 | 1 | unilateral | - | 0 |  |
-| Unilateral Repeat Jumps (continuous single-leg jumps / bounds) | unilateral-repeat-jumps-continuous-single-leg-jumps-bounds | R | advanced | A | T0 | 1 | unilateral | - | 0 |  |
-| Unilateral Weighted Drop, Release the Weight & Hop | unilateral-weighted-drop-release-the-weight-and-hop | R | advanced | A | T2 | 1 | unilateral | - | 0 |  |
-| Weighted Depth Jump into High Box Jump | weighted-depth-jump-into-high-box-jump | P | unrated | F | T2 | 1 | bilateral | - | 1 |  |
-| Weighted Stick the Landing - Bilateral (DBs/vest, freeze the landing) | weighted-stick-the-landing-bilateral-dbs-vest-freeze-the-landing | R | intermediate | I | T2 | 1 | bilateral | - | 10 |  |
-| Weighted Stick the Landing - Unilateral | weighted-stick-the-landing-unilateral | R | advanced | A | T2 | 1 | unilateral | - | 1 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Alternating Single-Leg Plate Hops (Hop Off Bilateral) | alternating-single-leg-plate-hops-hop-off-bilateral | S | intermediate | I | T0 | 1 | alternating | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Ankle Hops (bilateral, in place) | ankle-hops-bilateral-in-place | S | foundational | F | T0 | 1 | bilateral | - | 17 |  | plyometric; stage 3; 60+ off by default |
+| Bilateral Forward Hurdle Hops | bilateral-forward-hurdle-hops | S | intermediate | I | T1 | 1 | bilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Bilateral Forward Plate Hops | bilateral-forward-plate-hops | S | intermediate | I | T0 | 1 | bilateral | - | 1 |  | plyometric; stage 3; 60+ off by default |
+| Bilateral Lateral Hurdle Hops | bilateral-lateral-hurdle-hops | S | intermediate | I | T1 | 1 | bilateral | - | 3 |  | plyometric; stage 3; 60+ off by default |
+| Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) | bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat | S | intermediate | I | T0 | 1 | bilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) | bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral | S | intermediate | I | T1 | 1 | bilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Bounding | bounding | S | advanced | A | T0 | 1 | alternating | - | 2 |  | plyometric; stage 3; 60+ off by default |
+| Bulgarian (Rear-Foot-Elevated) Split Jumps | bulgarian-rear-foot-elevated-split-jumps | S | advanced | A | T0 | 1 | unilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| DB Ankle Hops | db-ankle-hops | S | advanced | A | T2 | 1 | bilateral | - | 10 |  | plyometric; stage 3; 60+ off by default |
+| DB Depth Drop, Release DBs, Jump | db-depth-drop-release-dbs-jump | S | advanced | A | T2 | 1 | bilateral | - | 3 |  | plyometric; stage 2; 60+ off by default |
+| DB Repeated Squat Jumps | db-repeated-squat-jumps | S | advanced | A | T2 | 1 | bilateral | - | 4 |  | ballistic; stage 3; 60+ off by default |
+| Depth Drop to Box Jump | depth-drop-to-box-jump | S | advanced | A | T0 | 1 | bilateral | - | 1 |  | plyometric; stage 2; 60+ off by default |
+| Depth Jump | depth-jump | S | advanced | A | T0 | 1 | bilateral | - | 9 |  | plyometric; stage 2; 60+ off by default |
+| Hex-Bar Jump Squat | hex-bar-jump-squat | P | foundational | F | T3 | 1 | bilateral | - | 7 | also TX pool: beginner Olympic option (ATH-10) | R2-LIB-07: library item; ballistic; stage 1; loaded jump; 60+ off by default |
+| High Depth Drop (Above-Hip Height) | high-depth-drop-above-hip-height | S | advanced | A | T2 | 1 | bilateral | - | 0 | never for injured / high-volume (INFERRED from EQ-03, pending) | receive; stage 1; 60+ off by default |
+| Hurdle Hops (tall hurdles, continuous quick-contact reps) | hurdle-hops | S | advanced | A | T1 | 1 | bilateral | - | 10 | renamed | plyometric; stage 3; 60+ off by default |
+| Low Box Jump (Half-Shin Height) | low-box-jump-half-shin-height | S | foundational | F | T0 | 1 | bilateral | - | 0 |  | ballistic; stage 1; 60+ off by default |
+| Low Depth Drop | low-depth-drop | S | foundational | F | T0 | 1 | bilateral | - | 0 |  | receive; stage 1; 60+ off by default |
+| Low Depth Drop - Single-Leg or Weighted (second FOUNDATIONAL listing) | low-depth-drop-single-leg-or-weighted | S | foundational | F | T0 | 1 | either (single-leg, or bilateral holding DBs) | - | 0 |  | receive; stage 1; 60+ off by default |
+| Medium Depth Drop | medium-depth-drop | S | foundational | F | T0 | 1 | bilateral | - | 1 |  | receive; stage 1; 60+ off by default |
+| Mid Box Jump (Knee Height) | mid-box-jump-knee-height | S | foundational | F | T0 | 1 | bilateral | - | 0 |  | ballistic; stage 1; 60+ off by default |
+| Plyometric Push-Ups | plyometric-push-ups | S | advanced | A | T0 | 1 | bilateral | - | 6 |  | plyometric; stage 3; 60+ off by default |
+| Push-Up Box Jump | push-up-box-jump | S | intermediate | I | T0 | 1 | bilateral | - | 0 |  | ballistic; stage 1; 60+ off by default |
+| Push-Up Stick the Landing (hands start on a box, land on the floor) | push-up-stick-the-landing | S | foundational | F | T0 | 1 | bilateral | - | 3 | renamed | receive; stage 1; 60+ off by default |
+| Single-Leg Backward Zig-Zag Jumps | single-leg-backward-zig-zag-jumps | S | intermediate | I | T0 | 1 | unilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Single-Leg DB Depth Drop, Release DBs, Jump | single-leg-db-depth-drop-release-dbs-jump | S | advanced | A | T2 | 1 | unilateral | - | 0 |  | plyometric; stage 2; 60+ off by default |
+| Single-Leg Depth Drop | single-leg-depth-drop | S | intermediate | I | T0 | 1 | unilateral | - | 4 |  | receive; stage 1; 60+ off by default |
+| Single-Leg Depth Jump | single-leg-depth-jump | S | advanced | A | T0 | 1 | unilateral | - | 0 |  | plyometric; stage 2; 60+ off by default |
+| Single-Leg Forward Hurdle Hops | single-leg-forward-hurdle-hops | S | intermediate | I | T1 | 1 | unilateral | - | 3 |  | plyometric; stage 3; 60+ off by default |
+| Single-Leg Forward Zig-Zag Jumps | single-leg-forward-zig-zag-jumps | S | intermediate | I | T0 | 1 | unilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Single-Leg Lateral Hurdle Hops | single-leg-lateral-hurdle-hops | S | intermediate | I | T1 | 1 | unilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Single-Leg Lateral Plate Hops - Inner Leg (Alternating) | single-leg-lateral-plate-hops-inner-leg-alternating | S | intermediate | I | T0 | 1 | unilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Single-Leg Lateral Plate Hops - Inner/Outer Leg | single-leg-lateral-plate-hops-inner-outer-leg | S | intermediate | I | T0 | 1 | unilateral | - | 3 |  | plyometric; stage 3; 60+ off by default |
+| Single-Leg Lateral Plate Hops - Outer Leg (Alternating) | single-leg-lateral-plate-hops-outer-leg-alternating | S | intermediate | I | T0 | 1 | unilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Single-Leg Plate Hops | single-leg-plate-hops | S | intermediate | I | T0 | 1 | unilateral | - | 5 |  | plyometric; stage 3; 60+ off by default |
+| Single-Leg Squirrel Jumps | single-leg-squirrel-jumps | S | advanced | A | T0 | 1 | unilateral | - | 2 | speed step 1 | plyometric; stage 3; 60+ off by default |
+| Squirrel Jumps | squirrel-jumps | S | advanced | A | T0 | 1 | bilateral | - | 3 | speed step 1 | plyometric; stage 3; 60+ off by default |
+| Tuck Jumps | tuck-jumps | S | advanced | A | T0 | 1 | bilateral | - | 4 |  | plyometric; stage 3; 60+ off by default |
+| Alternating Split-Stance Jumps (front foot on box) | alternating-split-stance-jumps-front-foot-on-box | P | unrated | F | T0 | 1 | alternating | - | 1 |  | plyometric; stage 3; 60+ off by default |
+| Bilateral Backward Hops | bilateral-backward-hops | R | any | F | T0 | 1 | bilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Bilateral Forward Hops | bilateral-forward-hops | R | any | F | T0 | 1 | bilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Bilateral Hop On To (small-amplitude hop onto a plate/low box) | bilateral-hop-on-to-small-amplitude-hop-onto-a-plate-low-box | R | foundational | F | T0 | 1 | bilateral | - | 0 |  | ballistic; stage 1; 60+ off by default |
+| Bilateral Jump On To (box jump, land softly on top) | bilateral-jump-on-to-box-jump-land-softly-on-top | R | foundational | F | T0 | 1 | bilateral | - | 7 |  | ballistic; stage 1; 60+ off by default |
+| Bilateral Repeat Hops (continuous pogo hops) | bilateral-repeat-hops-continuous-pogo-hops | R | foundational | F | T0 | 1 | bilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Bilateral Repeat Jumps (continuous full-amplitude jumps) | bilateral-repeat-jumps-continuous-full-amplitude-jumps | R | intermediate | I | T0 | 1 | bilateral | - | 5 |  | plyometric; stage 3; 60+ off by default |
+| Bilateral Weighted Drop, Release the Weight & Hop | bilateral-weighted-drop-release-the-weight-and-hop | R | advanced | A | T2 | 1 | bilateral | - | 0 |  | plyometric; stage 2; 60+ off by default |
+| Broad Jump | broad-jump | R | intermediate | I | T0 | 1 | bilateral | - | 4 |  | ballistic; stage 1; 60+ off by default |
+| DB Snap Down | db-snap-down | P | unrated | F | T2 | 1 | bilateral | - | 2 |  | receive; stage 1; 60+ off by default |
+| DB Staggered-Stance Switch Jump | db-staggered-stance-switch-jump | P | unrated | F | T2 | 1 | alternating | - | 1 |  | ballistic; stage 3; 60+ off by default |
+| Depth Drop (height not stated) | depth-drop-height-not-stated | R | intermediate | I | T0 | 1 | bilateral | - | 5 |  | receive; stage 1; 60+ off by default |
+| Double Bounce - Bilateral (two quick pulses on landing, then go) | double-bounce-bilateral-two-quick-pulses-on-landing-then-go | R | intermediate | I | T0 | 1 | bilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Double Bounce - Unilateral | double-bounce-unilateral | R | advanced | A | T0 | 1 | unilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Drop & Double Bounce - Bilateral (step off box, land, two pulses) | drop-and-double-bounce-bilateral-step-off-box-land-two-pulses | R | advanced | A | T0 | 1 | bilateral | - | 0 |  | plyometric; stage 2; 60+ off by default |
+| Drop & Double Bounce - Unilateral | drop-and-double-bounce-unilateral | R | advanced | A | T0 | 1 | unilateral | - | 0 |  | plyometric; stage 2; 60+ off by default |
+| Drop (Bilateral) & Hop - depth drop into a quick small hop | drop-bilateral-and-hop-depth-drop-into-a-quick-small-hop | R | advanced | A | T0 | 1 | bilateral | - | 0 |  | plyometric; stage 2; 60+ off by default |
+| Fake Medball Slam & Return (any way possible) - upper-body/trunk amortization drill | fake-medball-slam-and-return-any-way-possible-upper-body-trunk-amortization-dril | R | intermediate | I | T0 | 1 | bilateral | - | 0 |  | plyometric; stage 2; 60+ off by default |
+| Fast Rhythmic Quarter Squats | fast-rhythmic-quarter-squats | P | unrated | F | T0 | 1 | bilateral | - | 1 |  | plyometric; stage 3; 60+ off by default |
+| Front-Foot-Elevated Lunge Jumps (bodyweight) | front-foot-elevated-lunge-jumps-bodyweight | P | unrated | F | T0 | 1 | unilateral | - | 1 |  | plyometric; stage 3; 60+ off by default |
+| Hurdle Hops into Box Jump | hurdle-hops-into-box-jump | P | unrated | F | T1 | 1 | bilateral | - | 2 |  | plyometric; stage 2; 60+ off by default |
+| Lateral Box Step-up Jump | lateral-box-step-up-jump | P | unrated | F | T0 | 1 | unilateral | - | 1 |  | ballistic; stage 1; 60+ off by default |
+| Medball Squat Jumps | medball-squat-jumps | R | intermediate | I | T2 | 1 | bilateral | - | 0 |  | ballistic; stage 1; 60+ off by default |
+| RFE Lunge Jumps (suitcase DB) | rfe-lunge-jumps-suitcase-db | P | unrated | F | T2 | 1 | unilateral | - | 3 |  | ballistic; stage 3; 60+ off by default |
+| Seated Box Jump (sit-to-jump onto box) | seated-box-jump-sit-to-jump-onto-box | P | unrated | F | T0 | 1 | bilateral | - | 4 |  | ballistic; stage 1; 60+ off by default |
+| Single-Leg Box Jump | single-leg-box-jump | R | intermediate | I | T0 | 1 | unilateral | - | 3 |  | ballistic; stage 1; 60+ off by default |
+| Single-Leg Broad Jump | single-leg-broad-jump | P | unrated | F | T0 | 1 | unilateral | - | 1 |  | ballistic; stage 1; 60+ off by default |
+| Single-Leg Hops into Single-Leg Box Jump | single-leg-hops-into-single-leg-box-jump | P | unrated | F | T0 | 1 | unilateral | - | 2 |  | plyometric; stage 2; 60+ off by default |
+| Single-Leg In-Place Hops | single-leg-in-place-hops | R | any | F | T0 | 1 | unilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Single-Leg to March Jumps | single-leg-to-march-jumps | P | unrated | F | T0 | 1 | unilateral | - | 5 |  | plyometric; stage 3; 60+ off by default |
+| Skater Jumps (lateral bounds) | skater-jumps-lateral-bounds | P | unrated | F | T0 | 1 | alternating | - | 2 |  | plyometric; stage 3; 60+ off by default |
+| Split-Stance Squat Jumps (lunge jumps) | split-stance-squat-jumps-lunge-jumps | P | unrated | F | T0 | 1 | alternating | - | 2 |  | plyometric; stage 3; 60+ off by default |
+| Squat Jump (high, bodyweight or lightly loaded) | squat-jump-high-bodyweight-or-lightly-loaded | P | unrated | F | T0 | 1 | bilateral | - | 8 |  | ballistic; stage 1; 60+ off by default |
+| Staggered-Stance Box Jump | staggered-stance-box-jump | P | unrated | F | T0 | 1 | bilateral | - | 4 |  | ballistic; stage 1; 60+ off by default |
+| Stick the Landing - Bilateral (jump/drop and freeze the landing) | stick-the-landing-bilateral-jump-drop-and-freeze-the-landing | R | foundational | F | T0 | 1 | bilateral | - | 0 |  | receive; stage 1; 60+ off by default |
+| Stick the Landing - Unilateral (single-leg landing, freeze) | stick-the-landing-unilateral-single-leg-landing-freeze | R | intermediate | I | T0 | 1 | unilateral | - | 1 |  | receive; stage 1; 60+ off by default |
+| Streamline Squat Jump (arms locked overhead) | streamline-squat-jump-arms-overhead | X2 | intermediate | I | T0 | 1 | bilateral | - | 0 |  | PROPOSED-ADDITION; ballistic; stage 1; 60+ off by default |
+| Unilateral Hop On To (single-leg hop onto a plate/low box) | unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box | R | intermediate | I | T0 | 1 | unilateral | - | 2 |  | ballistic; stage 1; 60+ off by default |
+| Unilateral Repeat Hops (single-leg continuous pogo hops) | unilateral-repeat-hops-single-leg-continuous-pogo-hops | R | intermediate | I | T0 | 1 | unilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Unilateral Repeat Jumps (continuous single-leg jumps / bounds) | unilateral-repeat-jumps-continuous-single-leg-jumps-bounds | R | advanced | A | T0 | 1 | unilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Unilateral Weighted Drop, Release the Weight & Hop | unilateral-weighted-drop-release-the-weight-and-hop | R | advanced | A | T2 | 1 | unilateral | - | 0 |  | plyometric; stage 2; 60+ off by default |
+| Weighted Depth Jump into High Box Jump | weighted-depth-jump-into-high-box-jump | P | unrated | F | T2 | 1 | bilateral | - | 1 |  | plyometric; stage 2; 60+ off by default |
+| Weighted Stick the Landing - Bilateral (DBs/vest, freeze the landing) | weighted-stick-the-landing-bilateral-dbs-vest-freeze-the-landing | R | intermediate | I | T2 | 1 | bilateral | - | 10 |  | receive; stage 1; 60+ off by default |
+| Weighted Stick the Landing - Unilateral | weighted-stick-the-landing-unilateral | R | advanced | A | T2 | 1 | unilateral | - | 1 |  | receive; stage 1; 60+ off by default |
 
 ### ANKLE - JUMPING ANKLE / LIMITED KNEE (13)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Bilateral Backward Ankle Hops | bilateral-backward-ankle-hops | S | foundational | F | T0 | 1 | bilateral | - | 0 |  |
-| Bilateral Forward/Backward Ankle Hops | bilateral-forward-backward-ankle-hops | S | foundational | F | T0 | 1 | bilateral | - | 0 |  |
-| Bilateral Lateral Ankle Hops | bilateral-lateral-ankle-hops | S | foundational | F | T0 | 1 | bilateral | - | 0 |  |
-| Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) | bilateral-right-angle-ankle-hops-forward-right-forward-left-forward | S | foundational | F | T0 | 1 | bilateral | - | 0 |  |
-| Bilateral Zig-Zag Ankle Hops | bilateral-zig-zag-ankle-hops | S | foundational | F | T0 | 1 | bilateral | - | 0 |  |
-| Single-Leg Ankle Hops | single-leg-ankle-hops | S | foundational | F | T0 | 1 | unilateral | - | 2 |  |
-| Single-Leg Backward Ankle Hops | single-leg-backward-ankle-hops | S | foundational | F | T0 | 1 | unilateral | - | 0 |  |
-| Single-Leg Forward/Backward Ankle Hops | single-leg-forward-backward-ankle-hops | S | foundational | F | T0 | 1 | unilateral | - | 3 |  |
-| Single-Leg Lateral Ankle Hops | single-leg-lateral-ankle-hops | S | foundational | F | T0 | 1 | unilateral | - | 4 |  |
-| Single-Leg Right-Angle Ankle Hops | single-leg-right-angle-ankle-hops | S | foundational | F | T0 | 1 | unilateral | - | 0 |  |
-| Double-Unders (jump rope) | double-unders-jump-rope | P | unrated | F | T1 | 1 | bilateral | - | 19 |  |
-| Jump Rope | jump-rope | P | unrated | F | T1 | 1 | bilateral | - | 1 |  |
-| Quick-Feet Toe Taps on Step | quick-feet-toe-taps-on-step | P | unrated | F | T0 | 1 | bilateral | - | 1 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Bilateral Backward Ankle Hops | bilateral-backward-ankle-hops | S | foundational | F | T0 | 1 | bilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Bilateral Forward/Backward Ankle Hops | bilateral-forward-backward-ankle-hops | S | foundational | F | T0 | 1 | bilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Bilateral Lateral Ankle Hops | bilateral-lateral-ankle-hops | S | foundational | F | T0 | 1 | bilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) | bilateral-right-angle-ankle-hops-forward-right-forward-left-forward | S | foundational | F | T0 | 1 | bilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Bilateral Zig-Zag Ankle Hops | bilateral-zig-zag-ankle-hops | S | foundational | F | T0 | 1 | bilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Single-Leg Ankle Hops | single-leg-ankle-hops | S | foundational | F | T0 | 1 | unilateral | - | 2 |  | plyometric; stage 3; 60+ off by default |
+| Single-Leg Backward Ankle Hops | single-leg-backward-ankle-hops | S | foundational | F | T0 | 1 | unilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Single-Leg Forward/Backward Ankle Hops | single-leg-forward-backward-ankle-hops | S | foundational | F | T0 | 1 | unilateral | - | 3 |  | plyometric; stage 3; 60+ off by default |
+| Single-Leg Lateral Ankle Hops | single-leg-lateral-ankle-hops | S | foundational | F | T0 | 1 | unilateral | - | 4 |  | plyometric; stage 3; 60+ off by default |
+| Single-Leg Right-Angle Ankle Hops | single-leg-right-angle-ankle-hops | S | foundational | F | T0 | 1 | unilateral | - | 0 |  | plyometric; stage 3; 60+ off by default |
+| Double-Unders (jump rope) | double-unders-jump-rope | P | unrated | F | T1 | 1 | bilateral | - | 19 |  | plyometric; stage 3; 60+ off by default |
+| Jump Rope | jump-rope | P | unrated | F | T1 | 1 | bilateral | - | 1 |  | plyometric; stage 3; 60+ off by default |
+| Quick-Feet Toe Taps on Step | quick-feet-toe-taps-on-step | P | unrated | F | T0 | 1 | bilateral | - | 1 |  | plyometric; stage 3; 60+ off by default |
 
 ### TX - TRIPLE EXTENSION (40)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Bodyweight Squat to Calf Raise | bodyweight-squat-to-calf-raise | S | foundational | F | T0 | 1 | bilateral | - | 0 |  |
-| Hex Bar Squat to Calf Raise | hex-bar-squat-to-calf-raise | S | foundational | F | T3 | 2 | bilateral | - | 0 |  |
-| High-Hang Clean Pull | high-hang-clean-pull | S | foundational | F | T3 | 2 | bilateral | - | 0 |  |
-| High-Hang Snatch Pull | high-hang-snatch-pull | S | foundational | F | T3 | 2 | bilateral | - | 0 |  |
-| Low-Hang Clean Pull | low-hang-clean-pull | S | intermediate | I | T3 | 2 | bilateral | - | 0 |  |
-| Low-Hang Snatch Pull | low-hang-snatch-pull | S | intermediate | I | T3 | 2 | bilateral | - | 0 |  |
-| Lunge to High-Knee Reach | lunge-to-high-knee-reach | S | foundational | F | T0 | 1 | unilateral | - | 0 |  |
-| Mid-Hang Clean Pull | mid-hang-clean-pull | S | foundational | F | T3 | 2 | bilateral | - | 0 |  |
-| Mid-Hang Snatch Pull | mid-hang-snatch-pull | S | foundational | F | T3 | 2 | bilateral | - | 0 |  |
-| Power Clean | power-clean | S | intermediate | I | T3 | 2 | bilateral | - | 16 |  |
-| Power Clean & Jerk | power-clean-and-jerk | S | intermediate | I | T3 | 2 | bilateral | - | 0 |  |
-| Power Snatch | power-snatch | S | intermediate | I | T3 | 2 | bilateral | - | 16 |  |
-| Squat Clean | clean-squat-clean | S | advanced | A | T3 | 2 | bilateral | - | 4 | renamed |
-| Squat Clean & Jerk | clean-and-jerk-full | S | advanced | A | T3 | 2 | bilateral | - | 0 | renamed |
-| Squat Snatch | snatch-squat-snatch | S | advanced | A | T3 | 2 | bilateral | - | 1 | renamed |
-| Weighted Squat to Calf Raise (any implement) | weighted-squat-to-calf-raise | S | intermediate | I | T2 | 2 | bilateral | - | 0 | renamed |
-| Clean Pull (start position not stated) | clean-pull-start-position-not-stated | P | unrated | F | T3 | 2 | bilateral | - | 4 |  |
-| DB/KB High Pull | db-kb-high-pull | P | foundational | F | T2 | 2 | bilateral | - | 2 |  |
-| Hang Clean (% of 1RM; catch not stated) | hang-clean-of-1rm-catch-not-stated | P | foundational | F | T3 | 2 | bilateral | - | 12 |  |
-| Hang Power Clean (hang height not stated) | hang-power-clean-hang-height-not-stated | P | foundational | F | T3 | 2 | bilateral | - | 2 |  |
-| Hang Power Clean - from the High Hang (hip crease) | hang-power-clean-from-the-high-hang-hip-crease | R | foundational | F | T3 | 2 | bilateral | - | 0 | ATH-10 beginner option |
-| Hang Power Clean - from the Low Hang (below the knee) | hang-power-clean-from-the-low-hang-below-the-knee | R | intermediate | I | T3 | 2 | bilateral | - | 1 |  |
-| Hang Power Clean - from the Mid Hang (knee) | hang-power-clean-from-the-mid-hang-knee | R | foundational | F | T3 | 2 | bilateral | - | 0 | ATH-10 beginner option |
-| Hang Power Snatch - from the High Hang | hang-power-snatch-from-the-high-hang | R | intermediate | I | T3 | 2 | bilateral | - | 0 |  |
-| Hang Power Snatch - from the Low Hang (below the knee) | hang-power-snatch-from-the-low-hang-below-the-knee | R | intermediate | I | T3 | 2 | bilateral | - | 0 |  |
-| Hang Power Snatch - from the Mid Hang (knee) | hang-power-snatch-from-the-mid-hang-knee | R | intermediate | I | T3 | 2 | bilateral | - | 0 |  |
-| Hang Snatch (% of 1RM; catch not stated) | hang-snatch-of-1rm-catch-not-stated | P | unrated | F | T3 | 2 | bilateral | - | 12 |  |
-| Hang Squat Clean (full-depth catch from the hang) | hang-squat-clean-full-depth-catch-from-the-hang | R | advanced | A | T3 | 2 | bilateral | - | 0 |  |
-| High-Hang Squat Snatch | high-hang-squat-snatch | R | advanced | A | T3 | 2 | bilateral | - | 0 |  |
-| KB Squat Clean | kb-squat-clean | P | foundational | F | T2 | 2 | bilateral | - | 6 |  |
-| Low-Hang Squat Clean (below the knee, full-depth catch) | low-hang-squat-clean-below-the-knee-full-depth-catch | R | advanced | A | T3 | 2 | bilateral | - | 0 |  |
-| Low-Hang Squat Snatch | low-hang-squat-snatch | R | advanced | A | T3 | 2 | bilateral | - | 0 |  |
-| Overhead Box Squat (snatch-grip overhead squat to a box) | overhead-box-squat-snatch-grip-overhead-squat-to-a-box | R | advanced | A | T3 | 2 | bilateral | - | 0 | CAT-04: overhead = advanced |
-| Single-Arm DB Push / Split Jerk | single-arm-db-push-split-jerk | P | intermediate | I | T2 | 2 | unilateral | - | 1 |  |
-| Single-Arm DB Snatch | single-arm-db-snatch | P | foundational | F | T2 | 2 | unilateral | - | 3 |  |
-| Snatch Pull (start position not stated) | snatch-pull-start-position-not-stated | P | unrated | F | T3 | 2 | bilateral | - | 3 |  |
-| Split Jerk | split-jerk | R | advanced | A | T3 | 2 | bilateral | - | 0 |  |
-| Staggered-Stance DB Hang Snatch | staggered-stance-db-hang-snatch | P | foundational | F | T2 | 2 | unilateral | - | 3 |  |
-| Standing Drop Overhead Squat (drop snatch / snatch-balance type: drop from standing into an overhead squat) | standing-drop-overhead-squat-drop-snatch-snatch-balance-type-drop-from-standing- | R | advanced | A | T3 | 2 | bilateral | - | 0 |  |
-| Standing Drop Power Snatch (tall / no-dip power snatch - pull under from standing) | standing-drop-power-snatch-tall-no-dip-power-snatch-pull-under-from-standing | R | intermediate | I | T3 | 2 | bilateral | - | 0 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Bodyweight Squat to Calf Raise | bodyweight-squat-to-calf-raise | S | foundational | F | T0 | 1 | bilateral | - | 0 |  |  |
+| Hang Clean (catch not stated) | hang-clean-of-1rm-catch-not-stated | P | foundational | F | T3 | 2 | bilateral | - | 12 | renamed | R2-LIB-07: library item; clean day; 60+ off by default; renamed (R2-GEN-06) |
+| Hex Bar Squat to Calf Raise | hex-bar-squat-to-calf-raise | S | foundational | F | T3 | 2 | bilateral | - | 0 |  |  |
+| High-Hang Clean Pull | high-hang-clean-pull | S | foundational | F | T3 | 2 | bilateral | - | 0 |  | clean day; 60+ off by default |
+| High-Hang Snatch Pull | high-hang-snatch-pull | S | foundational | F | T3 | 2 | bilateral | - | 0 |  | snatch day; 60+ off by default |
+| KB Squat Clean | kb-squat-clean | P | foundational | F | T2 | 2 | bilateral | - | 6 |  | R2-LIB-07: library item; clean day; 60+ off by default |
+| Low-Hang Clean Pull | low-hang-clean-pull | S | intermediate | I | T3 | 2 | bilateral | - | 0 |  | clean day; 60+ off by default |
+| Low-Hang Snatch Pull | low-hang-snatch-pull | S | intermediate | I | T3 | 2 | bilateral | - | 0 |  | snatch day; 60+ off by default |
+| Lunge to High-Knee Reach | lunge-to-high-knee-reach | S | foundational | F | T0 | 1 | unilateral | - | 0 |  |  |
+| Mid-Hang Clean Pull | mid-hang-clean-pull | S | foundational | F | T3 | 2 | bilateral | - | 0 |  | clean day; 60+ off by default |
+| Mid-Hang Snatch Pull | mid-hang-snatch-pull | S | foundational | F | T3 | 2 | bilateral | - | 0 |  | snatch day; 60+ off by default |
+| Power Clean | power-clean | S | intermediate | I | T3 | 2 | bilateral | - | 16 |  | clean day; 60+ off by default |
+| Power Clean & Jerk | power-clean-and-jerk | S | intermediate | I | T3 | 2 | bilateral | - | 0 |  | clean day; 60+ off by default |
+| Power Snatch | power-snatch | S | intermediate | I | T3 | 2 | bilateral | - | 16 |  | snatch day; 60+ off by default |
+| Single-Arm DB Snatch | single-arm-db-snatch | P | foundational | F | T2 | 2 | unilateral | - | 3 |  | R2-LIB-07: library item; snatch day; 60+ off by default |
+| Squat Clean | clean-squat-clean | S | advanced | A | T3 | 2 | bilateral | - | 4 | renamed | clean day; 60+ off by default |
+| Squat Clean & Jerk | clean-and-jerk-full | S | advanced | A | T3 | 2 | bilateral | - | 0 | renamed | clean day; 60+ off by default |
+| Squat Snatch | snatch-squat-snatch | S | advanced | A | T3 | 2 | bilateral | - | 1 | renamed | snatch day; 60+ off by default |
+| Weighted Squat to Calf Raise (any implement) | weighted-squat-to-calf-raise | S | intermediate | I | T2 | 2 | bilateral | - | 0 | renamed |  |
+| Clean Pull (start position not stated) | clean-pull-start-position-not-stated | P | unrated | F | T3 | 2 | bilateral | - | 4 |  | clean day; 60+ off by default |
+| DB/KB High Pull | db-kb-high-pull | P | foundational | F | T2 | 2 | bilateral | - | 2 |  | snatch day; 60+ off by default |
+| Hang Power Clean (hang height not stated) | hang-power-clean-hang-height-not-stated | P | foundational | F | T3 | 2 | bilateral | - | 2 |  | clean day; 60+ off by default |
+| Hang Power Clean - from the High Hang (hip crease) | hang-power-clean-from-the-high-hang-hip-crease | R | foundational | F | T3 | 2 | bilateral | - | 0 | ATH-10 beginner option | clean day; 60+ off by default |
+| Hang Power Clean - from the Low Hang (below the knee) | hang-power-clean-from-the-low-hang-below-the-knee | R | intermediate | I | T3 | 2 | bilateral | - | 1 |  | clean day; 60+ off by default |
+| Hang Power Clean - from the Mid Hang (knee) | hang-power-clean-from-the-mid-hang-knee | R | foundational | F | T3 | 2 | bilateral | - | 0 | ATH-10 beginner option | clean day; 60+ off by default |
+| Hang Power Snatch - from the High Hang | hang-power-snatch-from-the-high-hang | R | intermediate | I | T3 | 2 | bilateral | - | 0 |  | snatch day; 60+ off by default |
+| Hang Power Snatch - from the Low Hang (below the knee) | hang-power-snatch-from-the-low-hang-below-the-knee | R | intermediate | I | T3 | 2 | bilateral | - | 0 |  | snatch day; 60+ off by default |
+| Hang Power Snatch - from the Mid Hang (knee) | hang-power-snatch-from-the-mid-hang-knee | R | intermediate | I | T3 | 2 | bilateral | - | 0 |  | snatch day; 60+ off by default |
+| Hang Snatch (catch not stated) | hang-snatch-of-1rm-catch-not-stated | P | unrated | F | T3 | 2 | bilateral | - | 12 | renamed | snatch day; 60+ off by default; renamed (R2-GEN-06, adversarial check) |
+| Hang Squat Clean (full-depth catch from the hang) | hang-squat-clean-full-depth-catch-from-the-hang | R | advanced | A | T3 | 2 | bilateral | - | 0 |  | clean day; 60+ off by default |
+| High-Hang Squat Snatch | high-hang-squat-snatch | R | advanced | A | T3 | 2 | bilateral | - | 0 |  | snatch day; 60+ off by default |
+| Low-Hang Squat Clean (below the knee, full-depth catch) | low-hang-squat-clean-below-the-knee-full-depth-catch | R | advanced | A | T3 | 2 | bilateral | - | 0 |  | clean day; 60+ off by default |
+| Low-Hang Squat Snatch | low-hang-squat-snatch | R | advanced | A | T3 | 2 | bilateral | - | 0 |  | snatch day; 60+ off by default |
+| Overhead Box Squat (snatch-grip overhead squat to a box) | overhead-box-squat-snatch-grip-overhead-squat-to-a-box | R | advanced | A | T3 | 2 | bilateral | - | 0 | CAT-04: overhead = advanced | snatch day; 60+ off by default |
+| Single-Arm DB Push / Split Jerk | single-arm-db-push-split-jerk | P | intermediate | I | T2 | 2 | unilateral | - | 1 |  | jerk (either day); 60+ off by default |
+| Snatch Pull (start position not stated) | snatch-pull-start-position-not-stated | P | unrated | F | T3 | 2 | bilateral | - | 3 |  | snatch day; 60+ off by default |
+| Split Jerk | split-jerk | R | advanced | A | T3 | 2 | bilateral | - | 0 |  | jerk (either day); 60+ off by default |
+| Staggered-Stance DB Hang Snatch | staggered-stance-db-hang-snatch | P | foundational | F | T2 | 2 | unilateral | - | 3 |  | snatch day; 60+ off by default |
+| Standing Drop Overhead Squat (drop snatch / snatch-balance type: drop from standing into an overhead squat) | standing-drop-overhead-squat-drop-snatch-snatch-balance-type-drop-from-standing- | R | advanced | A | T3 | 2 | bilateral | - | 0 |  | snatch day; 60+ off by default |
+| Standing Drop Power Snatch (tall / no-dip power snatch - pull under from standing) | standing-drop-power-snatch-tall-no-dip-power-snatch-pull-under-from-standing | R | intermediate | I | T3 | 2 | bilateral | - | 0 |  | snatch day; 60+ off by default |
 
-### THROW - THROWING (40)
+### THROW - THROWING (41)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Medball Alternating Back-to-Wall Rotational Scoops | medball-alternating-back-to-wall-rotational-scoops | S | any | F | T2 | 2 | alternating | - | 2 |  |
-| Medball Chest Pass | medball-chest-pass | S | any | F | T2 | 1 | bilateral | - | 4 |  |
-| Medball Half-Kneeling Rotational Scoop - Left-Facing, Left Leg Up | medball-half-kneeling-rotational-scoop-left-facing-left-leg-up | S | any | F | T2 | 2 | bilateral | - | 2 |  |
-| Medball Half-Kneeling Rotational Scoop - Left-Facing, Right Leg Forward | medball-half-kneeling-rotational-scoop-left-facing-right-leg-forward | S | any | F | T2 | 2 | bilateral | - | 2 |  |
-| Medball Half-Kneeling Rotational Scoop - Right-Facing, Left Leg Up | medball-half-kneeling-rotational-scoop-right-facing-left-leg-up | S | any | F | T2 | 2 | bilateral | - | 2 |  |
-| Medball Half-Kneeling Rotational Scoop - Right-Facing, Right Leg Forward | medball-half-kneeling-rotational-scoop-right-facing-right-leg-forward | S | any | F | T2 | 2 | bilateral | - | 2 |  |
-| Medball Overhead Throw | medball-overhead-throw | S | any | F | T2 | 1 | bilateral | - | 8 |  |
-| Medball Rotational Downward Slam | medball-rotational-downward-slam | S | any | F | T2 | 1 | bilateral | - | 3 |  |
-| Medball Rotational Side-to-Side Floor Slams | medball-rotational-side-to-side-floor-slams | S | any | F | T2 | 1 | alternating | - | 2 |  |
-| Medball Sit-Up to Chest Pass | medball-sit-up-to-chest-pass | S | any | F | T2 | 3 | bilateral | - | 10 |  |
-| Medball Sit-Up to Overhead Throw | medball-sit-up-to-overhead-throw | S | any | F | T2 | 3 | bilateral | - | 4 |  |
-| Medball Squat to Chest Pass | medball-squat-to-chest-pass | S | any | F | T2 | 1 | bilateral | - | 0 |  |
-| Rotational Medball Chest Pass (R & L) | rotational-medball-chest-pass-r-and-l | S | any | F | T2 | 1 | bilateral | - | 13 |  |
-| Rotational Medball Scoop Toss (R & L) | rotational-medball-scoop-toss-r-and-l | S | any | F | T2 | 1 | bilateral | - | 18 |  |
-| Step-Forward Medball Chest Pass (R & L leg) | step-forward-medball-chest-pass-r-and-l-leg | S | any | F | T2 | 1 | bilateral | - | 6 |  |
-| Step-Forward Medball Overhead Throw (R & L leg) | step-forward-medball-overhead-throw-r-and-l-leg | S | any | F | T2 | 1 | bilateral | - | 2 |  |
-| Back Lunge with Contralateral Load into March, Contralateral Scoop | back-lunge-with-contralateral-load-into-march-contralateral-scoop | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Bent-Over Medball Floor Slam | bent-over-medball-floor-slam | R | any | F | T2 | 1 | bilateral | - | 0 |  |
-| Front/Back Staggered-Stance Medball Cross Throw Down | front-back-staggered-stance-medball-cross-throw-down | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Front/Back Staggered-Stance Medball Cross Throw Down & Back | front-back-staggered-stance-medball-cross-throw-down-and-back | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Half-Kneeling Medball Rotation In & Step Out | half-kneeling-medball-rotation-in-and-step-out | P | any | F | T2 | 1 | bilateral | - | 2 |  |
-| Half-Kneeling Rotational Medball Slam | half-kneeling-rotational-medball-slam | P | any | F | T2 | 1 | bilateral | - | 2 |  |
-| Half-Kneeling Rotational Overhead Medball Side Slam | half-kneeling-rotational-overhead-medball-side-slam | P | any | F | T2 | 1 | bilateral | - | 3 |  |
-| In/Out-of-Hip Rotational Medball Scoop | in-out-of-hip-rotational-medball-scoop | P | any | F | T2 | 1 | bilateral | - | 3 |  |
-| Lateral Hinge to Medball Chest Pass | lateral-hinge-to-medball-chest-pass | P | any | F | T2 | 1 | bilateral | - | 1 |  |
-| Lateral Hinge to Medball Scoop | lateral-hinge-to-medball-scoop | P | any | F | T2 | 1 | bilateral | - | 1 |  |
-| Lateral Lunge to Medball Scoop | lateral-lunge-to-medball-scoop | P | any | F | T2 | 1 | bilateral | - | 1 |  |
-| Lateral V Throw Down | lateral-v-throw-down | R | any | F | T2 | 1 | alternating | - | 0 |  |
-| Lateral-Stance Floor Chop Throw | lateral-stance-floor-chop-throw | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball Cheat-Sheet Throw List (*MEDBALLS) | medball-cheat-sheet-throw-list-medballs | P | any | F | T2 | 1 | bilateral | - | 6 |  |
-| Medball Floor Catch & Release Push | medball-floor-catch-and-release-push | P | any | F | T2 | 1 | bilateral | - | 1 |  |
-| Medball Overhead Toss to Rotational Scoop | medball-overhead-toss-to-rotational-scoop | P | any | F | T2 | 1 | bilateral | - | 2 |  |
-| Overhead Medball Slam | overhead-medball-slam | P | any | F | T2 | 1 | bilateral | - | 2 |  |
-| Reverse Lunge with Inside Floor Slam | reverse-lunge-with-inside-floor-slam | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Rotational Overhead Medball Toss | rotational-overhead-medball-toss | P | any | F | T2 | 1 | bilateral | - | 1 |  |
-| Rotational Split-Stance Floor Slam | rotational-split-stance-floor-slam | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Seated Back-to-Wall Rotational Medball Toss | seated-back-to-wall-rotational-medball-toss | P | any | F | T2 | 1 | bilateral | - | 2 |  |
-| Side-to-Side Shuffle Floor Slam (height matters) | side-to-side-shuffle-floor-slam-height-matters | R | any | F | T2 | 1 | alternating | - | 0 |  |
-| Step-Back to Rotational Medball Chest Pass | step-back-to-rotational-medball-chest-pass | P | any | F | T2 | 1 | bilateral | - | 2 |  |
-| Supine (Lay-Down) Medball Press Throw | supine-lay-down-medball-press-throw | P | any | F | T2 | 1 | bilateral | - | 2 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Medball Alternating Back-to-Wall Rotational Scoops | medball-alternating-back-to-wall-rotational-scoops | S | any | F | T2 | 2 | alternating | - | 2 |  | ballistic |
+| Medball Chest Pass | medball-chest-pass | S | any | F | T2 | 1 | bilateral | - | 4 |  | ballistic |
+| Medball Half-Kneeling Rotational Scoop - Left-Facing, Left Leg Up | medball-half-kneeling-rotational-scoop-left-facing-left-leg-up | S | any | F | T2 | 2 | bilateral | - | 2 |  | ballistic |
+| Medball Half-Kneeling Rotational Scoop - Left-Facing, Right Leg Forward | medball-half-kneeling-rotational-scoop-left-facing-right-leg-forward | S | any | F | T2 | 2 | bilateral | - | 2 |  | ballistic |
+| Medball Half-Kneeling Rotational Scoop - Right-Facing, Left Leg Up | medball-half-kneeling-rotational-scoop-right-facing-left-leg-up | S | any | F | T2 | 2 | bilateral | - | 2 |  | ballistic |
+| Medball Half-Kneeling Rotational Scoop - Right-Facing, Right Leg Forward | medball-half-kneeling-rotational-scoop-right-facing-right-leg-forward | S | any | F | T2 | 2 | bilateral | - | 2 |  | ballistic |
+| Medball Overhead Throw | medball-overhead-throw | S | any | F | T2 | 1 | bilateral | - | 8 |  | ballistic |
+| Medball Rotational Downward Slam | medball-rotational-downward-slam | S | any | F | T2 | 1 | bilateral | - | 3 |  | ballistic |
+| Medball Rotational Side-to-Side Floor Slams | medball-rotational-side-to-side-floor-slams | S | any | F | T2 | 1 | alternating | - | 2 |  | ballistic |
+| Medball Sit-Up to Chest Pass | medball-sit-up-to-chest-pass | S | any | F | T2 | 3 | bilateral | - | 10 |  | ballistic |
+| Medball Sit-Up to Overhead Throw | medball-sit-up-to-overhead-throw | S | any | F | T2 | 3 | bilateral | - | 4 |  | ballistic |
+| Medball Squat to Chest Pass | medball-squat-to-chest-pass | S | any | F | T2 | 1 | bilateral | - | 0 |  | ballistic |
+| Rotational Medball Chest Pass (R & L) | rotational-medball-chest-pass-r-and-l | S | any | F | T2 | 1 | bilateral | - | 13 |  | ballistic |
+| Rotational Medball Scoop Toss (R & L) | rotational-medball-scoop-toss-r-and-l | S | any | F | T2 | 1 | bilateral | - | 18 |  | ballistic |
+| Step-Forward Medball Chest Pass (R & L leg) | step-forward-medball-chest-pass-r-and-l-leg | S | any | F | T2 | 1 | bilateral | - | 6 |  | ballistic |
+| Step-Forward Medball Overhead Throw (R & L leg) | step-forward-medball-overhead-throw-r-and-l-leg | S | any | F | T2 | 1 | bilateral | - | 2 |  | ballistic |
+| Back Lunge with Contralateral Load into March, Contralateral Scoop | back-lunge-with-contralateral-load-into-march-contralateral-scoop | R | any | F | T2 | 1 | unilateral | - | 0 |  | ballistic |
+| Bent-Over Medball Floor Slam | bent-over-medball-floor-slam | R | any | F | T2 | 1 | bilateral | - | 0 |  | ballistic |
+| Front/Back Staggered-Stance Medball Cross Throw Down | front-back-staggered-stance-medball-cross-throw-down | R | any | F | T2 | 1 | unilateral | - | 0 |  | ballistic |
+| Front/Back Staggered-Stance Medball Cross Throw Down & Back | front-back-staggered-stance-medball-cross-throw-down-and-back | R | any | F | T2 | 1 | unilateral | - | 0 |  | ballistic |
+| Half-Kneeling Medball Rotation In & Step Out | half-kneeling-medball-rotation-in-and-step-out | P | any | F | T2 | 1 | bilateral | - | 2 |  | ballistic |
+| Half-Kneeling Rotational Medball Slam | half-kneeling-rotational-medball-slam | P | any | F | T2 | 1 | bilateral | - | 2 |  | ballistic |
+| Half-Kneeling Rotational Overhead Medball Side Slam | half-kneeling-rotational-overhead-medball-side-slam | P | any | F | T2 | 1 | bilateral | - | 3 |  | ballistic |
+| In/Out-of-Hip Rotational Medball Scoop | in-out-of-hip-rotational-medball-scoop | P | any | F | T2 | 1 | bilateral | - | 3 |  | ballistic |
+| Lateral Hinge to Medball Chest Pass | lateral-hinge-to-medball-chest-pass | P | any | F | T2 | 1 | bilateral | - | 1 |  | ballistic |
+| Lateral Hinge to Medball Scoop | lateral-hinge-to-medball-scoop | P | any | F | T2 | 1 | bilateral | - | 1 |  | ballistic |
+| Lateral Lunge to Medball Scoop | lateral-lunge-to-medball-scoop | P | any | F | T2 | 1 | bilateral | - | 1 |  | ballistic |
+| Lateral V Throw Down | lateral-v-throw-down | R | any | F | T2 | 1 | alternating | - | 0 |  | ballistic |
+| Lateral-Stance Floor Chop Throw | lateral-stance-floor-chop-throw | R | any | F | T2 | 1 | unilateral | - | 0 |  | ballistic |
+| Medball Cheat-Sheet Throw List (*MEDBALLS) | medball-cheat-sheet-throw-list-medballs | P | any | F | T2 | 1 | bilateral | - | 6 |  | ballistic |
+| Medball Floor Catch & Release Push | medball-floor-catch-and-release-push | P | any | F | T2 | 1 | bilateral | - | 1 |  | ballistic |
+| Medball Overhead Toss to Rotational Scoop | medball-overhead-toss-to-rotational-scoop | P | any | F | T2 | 1 | bilateral | - | 2 |  | ballistic |
+| Overhead Medball Slam | overhead-medball-slam | P | any | F | T2 | 1 | bilateral | - | 2 |  | ballistic |
+| Reverse Lunge with Inside Floor Slam | reverse-lunge-with-inside-floor-slam | R | any | F | T2 | 1 | unilateral | - | 0 |  | ballistic |
+| Rotational Overhead Medball Toss | rotational-overhead-medball-toss | P | any | F | T2 | 1 | bilateral | - | 1 |  | ballistic |
+| Rotational Split-Stance Floor Slam | rotational-split-stance-floor-slam | R | any | F | T2 | 1 | unilateral | - | 0 |  | ballistic |
+| Seated Back-to-Wall Rotational Medball Toss | seated-back-to-wall-rotational-medball-toss | P | any | F | T2 | 1 | bilateral | - | 2 |  | ballistic |
+| Side-to-Side Shuffle Floor Slam (height matters) | side-to-side-shuffle-floor-slam-height-matters | R | any | F | T2 | 1 | alternating | - | 0 |  | ballistic |
+| Step-Back to Rotational Medball Chest Pass | step-back-to-rotational-medball-chest-pass | P | any | F | T2 | 1 | bilateral | - | 2 |  | ballistic |
+| Supine (Lay-Down) Medball Press Throw | supine-lay-down-medball-press-throw | P | any | F | T2 | 1 | bilateral | - | 2 |  | ballistic |
+| Wall Ball (medball squat-to-target throw) | wall-ball-medball-squat-to-target | X2 | any | F | T2 | 1 | bilateral | - | 0 |  | PROPOSED-ADDITION; ballistic |
 
-### COD - CHANGE OF DIRECTION (16)
+### COD - CHANGE OF DIRECTION (17)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 5-10-5 Pro-Agility Shuttle | 5-10-5-pro-agility-shuttle | S | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Comeback / Curl Route | comeback-curl-route | S | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Dig / Out Route | dig-out-route | S | intermediate | I | T0 | 1 | n/a | - | 1 |  |
-| Fade Route | fade-route | S | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| Flat Route | flat-route | S | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| L-Test / L-Drill (3-Cone) | l-test-l-drill-3-cone-inferred-from-left-test | S | intermediate | I | T0 | 1 | n/a | - | 0 | renamed |
-| Lateral Shuffles | lateral-shuffles | S | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| Post / Corner Route | post-corner-route | S | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| Slant Route | slant-route | S | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| Eight-Square Plyometric Formation (8-box hop grid) | eight-square-plyometric-formation-8-box-hop-grid | R | intermediate | I | T0 | 1 | n/a | - | 0 |  |
-| Four-Square Formation (4-box hop grid) | four-square-formation-4-box-hop-grid | R | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| Hops in Place (foot-speed / reactive hops) | hops-in-place-foot-speed-reactive-hops | R | foundational | F | T0 | 1 | bilateral | - | 0 |  |
-| Krumrie Formation (agility drill pattern) | krumrie-formation-agility-drill-pattern | R | any | F | T0 | 1 | n/a | - | 0 |  |
-| Munoz Formation (agility drill pattern) | munoz-formation-agility-drill-pattern | R | any | F | T0 | 1 | n/a | - | 0 |  |
-| Route Tree (receiver route tree) | route-tree-receiver-route-tree | R | any | F | T0 | 1 | n/a | - | 0 |  |
-| Running Routes (pre-planned route running) | running-routes-pre-planned-route-running | R | any | F | T0 | 1 | n/a | - | 0 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 5-10-5 Pro-Agility Shuttle | 5-10-5-pro-agility-shuttle | S | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Comeback / Curl Route | comeback-curl-route | S | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Dig / Out Route | dig-out-route | S | intermediate | I | T0 | 1 | n/a | - | 1 |  |  |
+| Fade Route | fade-route | S | foundational | F | T0 | 1 | n/a | - | 0 |  |  |
+| Flat Route | flat-route | S | foundational | F | T0 | 1 | n/a | - | 0 |  |  |
+| L-Test / L-Drill (3-Cone) | l-test-l-drill-3-cone-inferred-from-left-test | S | intermediate | I | T0 | 1 | n/a | - | 0 | renamed |  |
+| Lateral Shuffles | lateral-shuffles | S | foundational | F | T0 | 1 | n/a | - | 0 |  |  |
+| Post / Corner Route | post-corner-route | S | foundational | F | T0 | 1 | n/a | - | 0 |  |  |
+| Slant Route | slant-route | S | foundational | F | T0 | 1 | n/a | - | 0 |  |  |
+| Eight-Square Plyometric Formation (8-box hop grid) | eight-square-plyometric-formation-8-box-hop-grid | R | intermediate | I | T0 | 1 | n/a | - | 0 |  | plyometric; 60+ off by default |
+| Four-Square Formation (4-box hop grid) | four-square-formation-4-box-hop-grid | R | foundational | F | T0 | 1 | n/a | - | 0 |  | plyometric; 60+ off by default |
+| Hops in Place (foot-speed / reactive hops) | hops-in-place-foot-speed-reactive-hops | R | foundational | F | T0 | 1 | bilateral | - | 0 |  | plyometric; 60+ off by default |
+| Krumrie Formation (agility drill pattern) | krumrie-formation-agility-drill-pattern | R | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Munoz Formation (agility drill pattern) | munoz-formation-agility-drill-pattern | R | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Route Tree (receiver route tree) | route-tree-receiver-route-tree | R | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Running Routes (pre-planned route running) | running-routes-pre-planned-route-running | R | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) | split-step-reaction-drill | X2 | foundational | F | T0 | 1 | n/a | - | 0 |  | PROPOSED-ADDITION; plyometric; 60+ off by default (no-hop split-step is the 60+ default) |
 
 ### SPRINT - SPEED / SPRINT (speed session) (10)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| A-March (running drill) | a-march-running-drill | R | any | F | T0 | 1 | alternating | - | 10 | ADDED LIB-21; speed step 2; warm-up drill, never counted (ORD-08) |
-| A-Runs (high-knee running drill) | a-runs-high-knee-running-drill | R | any | F | T0 | 1 | alternating | - | 10 | ADDED LIB-21; speed step 2; warm-up drill, never counted (ORD-08) |
-| A-Skip (running drill) | a-skip-running-drill | R | any | F | T0 | 1 | alternating | - | 10 | ADDED LIB-21; speed step 2; warm-up drill, never counted (ORD-08) |
-| Acceleration Starts | acceleration-starts | R | any | F | T0 | 1 | alternating | - | 6 | ADDED LIB-21; speed step 2 |
-| Falling-Start Accelerations | falling-start-accelerations | R | any | F | T0 | 1 | alternating | - | 0 | ADDED LIB-21; speed step 2 |
-| Mach Sprint Drills (A-March / A-Skip / A-Run) | mach-sprint-drills-a-march-a-skip-a-run | R | any | F | T0 | 1 | alternating | - | 0 | ADDED LIB-21; speed step 2; warm-up drill, never counted (ORD-08) |
-| Max-Velocity Sprint (Top Speed) | max-velocity-sprint-top-speed | S | advanced | A | T0 | 1 | alternating | - | 0 | ADDED LIB-21; speed step 3 |
-| Fast Run / Walk Back ('NOT a sprint') | fast-run-walk-back-not-a-sprint | P | unrated | F | T0 | 1 | alternating | - | 3 |  |
-| High-Knee Runs | high-knee-runs | P | unrated | F | T0 | 1 | alternating | - | 2 |  |
-| Short Fast Run / Sprint Buy-out (10-30 s) | short-fast-run-sprint-buy-out-10-30-s | P | unrated | F | T0 | 1 | alternating | - | 21 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| A-March (running drill) | a-march-running-drill | R | any | F | T0 | 1 | alternating | - | 10 | ADDED LIB-21; speed step 2; warm-up drill, never counted (ORD-08) |  |
+| A-Runs (high-knee running drill) | a-runs-high-knee-running-drill | R | any | F | T0 | 1 | alternating | - | 10 | ADDED LIB-21; speed step 2; warm-up drill, never counted (ORD-08) |  |
+| A-Skip (running drill) | a-skip-running-drill | R | any | F | T0 | 1 | alternating | - | 10 | ADDED LIB-21; speed step 2; warm-up drill, never counted (ORD-08) |  |
+| Acceleration Starts | acceleration-starts | R | any | F | T0 | 1 | alternating | - | 6 | ADDED LIB-21; speed step 2 |  |
+| Falling-Start Accelerations | falling-start-accelerations | R | any | F | T0 | 1 | alternating | - | 0 | ADDED LIB-21; speed step 2 |  |
+| Mach Sprint Drills (A-March / A-Skip / A-Run) | mach-sprint-drills-a-march-a-skip-a-run | R | any | F | T0 | 1 | alternating | - | 0 | ADDED LIB-21; speed step 2; warm-up drill, never counted (ORD-08) |  |
+| Max-Velocity Sprint (Top Speed) | max-velocity-sprint-top-speed | S | advanced | A | T0 | 1 | alternating | - | 0 | ADDED LIB-21; speed step 3 |  |
+| Fast Run / Walk Back ('NOT a sprint') | fast-run-walk-back-not-a-sprint | P | unrated | F | T0 | 1 | alternating | - | 3 |  |  |
+| High-Knee Runs | high-knee-runs | P | unrated | F | T0 | 1 | alternating | - | 2 |  |  |
+| Short Fast Run / Sprint Buy-out (10-30 s) | short-fast-run-sprint-buy-out-10-30-s | P | unrated | F | T0 | 1 | alternating | - | 21 |  |  |
 
 ### WARMUP - DYNAMIC MEDBALL WARM-UP (35)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Medball FFE Split Squat/Lunge with Medball Held Forward | medball-ffe-split-squat-lunge-with-medball-held-forward | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball FFE Split Squat/Lunge with Medball Hug | medball-ffe-split-squat-lunge-with-medball-hug | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball FFE Split Squat/Lunge with Medball Up | medball-ffe-split-squat-lunge-with-medball-up | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball FFE Split Squat/Lunge with Reach Down Over the Front Leg | medball-ffe-split-squat-lunge-with-reach-down-over-the-front-leg | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball Forward Lunge with Cross-Body Turn | medball-forward-lunge-with-cross-body-turn | R | any | F | T2 | 1 | alternating | - | 0 |  |
-| Medball Forward Lunge with Down-and-Back Cross-Body Reach | medball-forward-lunge-with-down-and-back-cross-body-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |
-| Medball Forward Lunge with Forward Reach | medball-forward-lunge-with-forward-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |
-| Medball Forward Lunge with Medball Held Forward | medball-forward-lunge-with-medball-held-forward | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball Forward Lunge with Medball Hug | medball-forward-lunge-with-medball-hug | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball Forward Lunge with Medball Up | medball-forward-lunge-with-medball-up | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball Forward Lunge with Overhead Reach | medball-forward-lunge-with-overhead-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |
-| Medball Forward Lunge with Reach Down Over the Front Leg | medball-forward-lunge-with-reach-down-over-the-front-leg | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball Front-Hold Squat (ball held out in front) | medball-front-hold-squat-ball-held-out-in-front | R | any | F | T2 | 1 | bilateral | - | 0 |  |
-| Medball Ground-to-Overhead | medball-ground-to-overhead | R | any | F | T2 | 1 | bilateral | - | 0 |  |
-| Medball Hug Goblet Squat | medball-hug-goblet-squat | R | any | F | T2 | 1 | bilateral | - | 0 |  |
-| Medball Lateral Cossack Lunge with Forward Reach | medball-lateral-cossack-lunge-with-forward-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |
-| Medball Lateral Cossack Lunge with Overhead Reach | medball-lateral-cossack-lunge-with-overhead-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |
-| Medball Reverse Lunge with Cross-Body Turn | medball-reverse-lunge-with-cross-body-turn | R | any | F | T2 | 1 | alternating | - | 0 |  |
-| Medball Reverse Lunge with Down-and-Back Cross-Body Reach | medball-reverse-lunge-with-down-and-back-cross-body-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |
-| Medball Reverse Lunge with Forward Reach | medball-reverse-lunge-with-forward-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |
-| Medball Reverse Lunge with Medball Held Forward | medball-reverse-lunge-with-medball-held-forward | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball Reverse Lunge with Medball Hug | medball-reverse-lunge-with-medball-hug | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball Reverse Lunge with Medball Up | medball-reverse-lunge-with-medball-up | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball Reverse Lunge with Overhead Reach | medball-reverse-lunge-with-overhead-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |
-| Medball Reverse Lunge with Reach Down Over the Front Leg | medball-reverse-lunge-with-reach-down-over-the-front-leg | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball RFE Split Squat (Bulgarian) with Medball Held Forward | medball-rfe-split-squat-bulgarian-with-medball-held-forward | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball RFE Split Squat (Bulgarian) with Medball Hug | medball-rfe-split-squat-bulgarian-with-medball-hug | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball RFE Split Squat (Bulgarian) with Medball Up | medball-rfe-split-squat-bulgarian-with-medball-up | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball RFE Split Squat (Bulgarian) with Reach Down Over the Front Leg | medball-rfe-split-squat-bulgarian-with-reach-down-over-the-front-leg | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball Stationary Lunge (Split Squat) with Medball Held Forward | medball-stationary-lunge-split-squat-with-medball-held-forward | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball Stationary Lunge (Split Squat) with Medball Hug | medball-stationary-lunge-split-squat-with-medball-hug | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball Stationary Lunge (Split Squat) with Medball Up | medball-stationary-lunge-split-squat-with-medball-up | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball Stationary Lunge (Split Squat) with Reach Down Over the Front Leg | medball-stationary-lunge-split-squat-with-reach-down-over-the-front-leg | R | any | F | T2 | 1 | unilateral | - | 0 |  |
-| Medball Toe Touch to Overhead Reach | medball-toe-touch-to-overhead-reach | R | any | F | T2 | 1 | bilateral | - | 0 |  |
-| Medball Toe Touches | medball-toe-touches | R | any | F | T2 | 1 | bilateral | - | 0 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Medball FFE Split Squat/Lunge with Medball Held Forward | medball-ffe-split-squat-lunge-with-medball-held-forward | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball FFE Split Squat/Lunge with Medball Hug | medball-ffe-split-squat-lunge-with-medball-hug | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball FFE Split Squat/Lunge with Medball Up | medball-ffe-split-squat-lunge-with-medball-up | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball FFE Split Squat/Lunge with Reach Down Over the Front Leg | medball-ffe-split-squat-lunge-with-reach-down-over-the-front-leg | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball Forward Lunge with Cross-Body Turn | medball-forward-lunge-with-cross-body-turn | R | any | F | T2 | 1 | alternating | - | 0 |  |  |
+| Medball Forward Lunge with Down-and-Back Cross-Body Reach | medball-forward-lunge-with-down-and-back-cross-body-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |  |
+| Medball Forward Lunge with Forward Reach | medball-forward-lunge-with-forward-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |  |
+| Medball Forward Lunge with Medball Held Forward | medball-forward-lunge-with-medball-held-forward | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball Forward Lunge with Medball Hug | medball-forward-lunge-with-medball-hug | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball Forward Lunge with Medball Up | medball-forward-lunge-with-medball-up | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball Forward Lunge with Overhead Reach | medball-forward-lunge-with-overhead-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |  |
+| Medball Forward Lunge with Reach Down Over the Front Leg | medball-forward-lunge-with-reach-down-over-the-front-leg | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball Front-Hold Squat (ball held out in front) | medball-front-hold-squat-ball-held-out-in-front | R | any | F | T2 | 1 | bilateral | - | 0 |  |  |
+| Medball Ground-to-Overhead | medball-ground-to-overhead | R | any | F | T2 | 1 | bilateral | - | 0 |  |  |
+| Medball Hug Goblet Squat | medball-hug-goblet-squat | R | any | F | T2 | 1 | bilateral | - | 0 |  |  |
+| Medball Lateral Cossack Lunge with Forward Reach | medball-lateral-cossack-lunge-with-forward-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |  |
+| Medball Lateral Cossack Lunge with Overhead Reach | medball-lateral-cossack-lunge-with-overhead-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |  |
+| Medball Reverse Lunge with Cross-Body Turn | medball-reverse-lunge-with-cross-body-turn | R | any | F | T2 | 1 | alternating | - | 0 |  |  |
+| Medball Reverse Lunge with Down-and-Back Cross-Body Reach | medball-reverse-lunge-with-down-and-back-cross-body-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |  |
+| Medball Reverse Lunge with Forward Reach | medball-reverse-lunge-with-forward-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |  |
+| Medball Reverse Lunge with Medball Held Forward | medball-reverse-lunge-with-medball-held-forward | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball Reverse Lunge with Medball Hug | medball-reverse-lunge-with-medball-hug | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball Reverse Lunge with Medball Up | medball-reverse-lunge-with-medball-up | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball Reverse Lunge with Overhead Reach | medball-reverse-lunge-with-overhead-reach | R | any | F | T2 | 1 | alternating | - | 0 |  |  |
+| Medball Reverse Lunge with Reach Down Over the Front Leg | medball-reverse-lunge-with-reach-down-over-the-front-leg | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball RFE Split Squat (Bulgarian) with Medball Held Forward | medball-rfe-split-squat-bulgarian-with-medball-held-forward | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball RFE Split Squat (Bulgarian) with Medball Hug | medball-rfe-split-squat-bulgarian-with-medball-hug | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball RFE Split Squat (Bulgarian) with Medball Up | medball-rfe-split-squat-bulgarian-with-medball-up | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball RFE Split Squat (Bulgarian) with Reach Down Over the Front Leg | medball-rfe-split-squat-bulgarian-with-reach-down-over-the-front-leg | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball Stationary Lunge (Split Squat) with Medball Held Forward | medball-stationary-lunge-split-squat-with-medball-held-forward | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball Stationary Lunge (Split Squat) with Medball Hug | medball-stationary-lunge-split-squat-with-medball-hug | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball Stationary Lunge (Split Squat) with Medball Up | medball-stationary-lunge-split-squat-with-medball-up | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball Stationary Lunge (Split Squat) with Reach Down Over the Front Leg | medball-stationary-lunge-split-squat-with-reach-down-over-the-front-leg | R | any | F | T2 | 1 | unilateral | - | 0 |  |  |
+| Medball Toe Touch to Overhead Reach | medball-toe-touch-to-overhead-reach | R | any | F | T2 | 1 | bilateral | - | 0 |  |  |
+| Medball Toe Touches | medball-toe-touches | R | any | F | T2 | 1 | bilateral | - | 0 |  |  |
 
-### CARDIO - CARDIO (80)
+### CARDIO - CARDIO (84)
 
 Any tool (COACH-ANSWER EQ-14, applied by the second adversarial check): the 12 'Aerobic A (blue) / B (green) / C (orange)' records and the 16 'Lactate Clearance' records carry `modality_v1` (run, bike, rower, ski erg or any available tool; timed work / rest carries over directly; distance is kept and tracked), and the 12 aerobic records now list treadmill and erg set-ups beside open space (tier T0 unchanged).
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Calorie Effort: 10 cal (bike / rower / ski) | calorie-effort-10-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |
-| Calorie Effort: 15 cal (bike / rower / ski) | calorie-effort-15-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |
-| Calorie Effort: 20 cal (bike / rower / ski) | calorie-effort-20-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |
-| Calorie Effort: 25 cal (bike / rower / ski) | calorie-effort-25-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |
-| Calorie Effort: 30 cal (bike / rower / ski) | calorie-effort-30-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |
-| Calorie Effort: 35 cal (bike / rower / ski) | calorie-effort-35-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |
-| Calorie Effort: 40 cal (bike / rower / ski) | calorie-effort-40-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |
-| Calorie Effort: 45 cal (bike / rower / ski) | calorie-effort-45-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |
-| Calorie Effort: 50 cal (bike / rower / ski) | calorie-effort-50-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |
-| Distance Intervals: 1 mile Run / 1 min Walk | distance-intervals-1-mile-run-1-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Intervals: 2 mile Run / 2 min Walk | distance-intervals-2-mile-run-2-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Intervals: 3 mile Run / 3 min Walk | distance-intervals-3-mile-run-3-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Repeat: 1000 m | distance-repeat-1000-m | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Repeat: 200 m | distance-repeat-200-m | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Repeat: 400 m | distance-repeat-400-m | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Repeat: 600 m | distance-repeat-600-m | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Repeat: 800 m | distance-repeat-800-m | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Test: 1 mile Run | distance-test-1-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Test: 11 mile Run | distance-test-11-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Test: 14 mile Run | distance-test-14-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Test: 17 mile Run | distance-test-17-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Test: 20 mile Run | distance-test-20-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Test: 3 mile Run | distance-test-3-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Test: 5 mile Run | distance-test-5-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Test: 8 mile Run | distance-test-8-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Run Intervals: 2 min Fast / 1 min Walk | run-intervals-2-min-fast-1-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Run Intervals: 3 min Fast / 2 min Walk | run-intervals-3-min-fast-2-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Run Intervals: 4 min Fast / 3 min Walk | run-intervals-4-min-fast-3-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Run Intervals: 5 min Fast / 2 min Walk | run-intervals-5-min-fast-2-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Run Intervals: 6 min Fast / 1 min Walk | run-intervals-6-min-fast-1-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Speed-Endurance Test: 1 Mile for Time | speed-endurance-test-1-mile-for-time | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Speed-Endurance Test: 3 Miles for Time | speed-endurance-test-3-miles-for-time | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Speed-Endurance Test: 800 m (Half Mile) for Time | speed-endurance-test-800-m-half-mile-for-time | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| 20 s Fast / 40 s Slow Intervals (any cardio) | 20-s-fast-40-s-slow-intervals-any-cardio | P | unrated | F | T0 | 1 | n/a | - | 2 |  |
-| Aerobic A (blue): 10X10m Sprints | aerobic-a-blue-10x10m-sprints | R | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| Aerobic A (blue): 15 Sec Run/ 45 Sec Walk | aerobic-a-blue-15-sec-run-45-sec-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| Aerobic A (blue): 20 Sec Run/ 40 Sec Walk | aerobic-a-blue-20-sec-run-40-sec-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| Aerobic A (blue): 30 Sec Run/ 30 Sec Walk | aerobic-a-blue-30-sec-run-30-sec-walk | R | intermediate | I | T0 | 1 | n/a | - | 0 |  |
-| Aerobic A (blue): 40 Sec Run/ 20 Sec Walk | aerobic-a-blue-40-sec-run-20-sec-walk | R | intermediate | I | T0 | 1 | n/a | - | 0 |  |
-| Aerobic B (green): 1 Minute run/ 3 Min Walk | aerobic-b-green-1-minute-run-3-min-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| Aerobic B (green): 2 Minute run/ 4 Min Walk | aerobic-b-green-2-minute-run-4-min-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| Aerobic B (green): 3 Minute Run/ 3 Min Walk | aerobic-b-green-3-minute-run-3-min-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| Aerobic C (orange): 11 Minute Run/ 2 Min Walk | aerobic-c-orange-11-minute-run-2-min-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| Aerobic C (orange): 2 Mile Run | aerobic-c-orange-2-mile-run | R | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| Aerobic C (orange): 5 Minute Run/ :30 Sec Walk | aerobic-c-orange-5-minute-run-30-sec-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| Aerobic C (orange): 8 Minute Run/ 1 Minute Walk | aerobic-c-orange-8-minute-run-1-minute-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |
-| Any Cardio Equipment - 5 min warm-up | any-cardio-equipment-5-min-warm-up | P | unrated | F | T0 | 1 | n/a | - | 15 |  |
-| Bike Calorie Sprint (assault/air bike) | bike-calorie-sprint-assault-air-bike | P | unrated | F | T3 | 5 | n/a | - | 19 |  |
-| Burpees | burpees | P | unrated | F | T0 | 1 | n/a | - | 2 |  |
-| Continuous Distance Run (half-marathon plan) | continuous-distance-run-half-marathon-plan | R | unrated | F | T0 | 1 | n/a | - | 0 |  |
-| Distance Test: 21.6 mile Run | distance-test-21-6-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |
-| Distance/Pace Workout - not specified ('Workouts involving distances and paces') | distance-pace-workout-not-specified-workouts-involving-distances-and-paces | R | unrated | F | T0 | 1 | n/a | - | 0 |  |
-| Fast Run Repeats (200 m fast; 150 m fast / 250 m walk) | fast-run-repeats-200-m-fast-150-m-fast-250-m-walk | R | unrated | F | T0 | 1 | n/a | - | 0 |  |
-| Flat Sprints (40-80 m, full recovery) | flat-sprints-40-80-m-full-recovery | R | unrated | F | T0 | 1 | n/a | - | 0 |  |
-| Hill Sprints (8-20 s, full recovery) | hill-sprints-8-20-s-full-recovery | R | unrated | F | T0 | 1 | n/a | - | 0 |  |
-| Jumping Jacks | jumping-jacks | P | unrated | F | T0 | 1 | n/a | - | 2 |  |
-| Lactate Clearance: 1 min FASTEST/ 20 Sec MODERATE/ 2 Min EASY | lactate-clearance-1-min-fastest-20-sec-moderate-2-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Lactate Clearance: 1 min MODERATE/20 Sec FASTEST/ 2 Min EASY | lactate-clearance-1-min-moderate-20-sec-fastest-2-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Lactate Clearance: 2 Min FAST/ 2 Min EASY | lactate-clearance-2-min-fast-2-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Lactate Clearance: 2 Min FASTEST/ 3 Min MODERATE | lactate-clearance-2-min-fastest-3-min-moderate | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Lactate Clearance: 2 min FASTEST/ 30 Sec MODERATE/ 1 Min EASY | lactate-clearance-2-min-fastest-30-sec-moderate-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Lactate Clearance: 2 Min FASTEST/ 4 Min MODERATE | lactate-clearance-2-min-fastest-4-min-moderate | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Lactate Clearance: 2 min MODERATE/ 30 Sec FASTEST/ 1 Min EASY | lactate-clearance-2-min-moderate-30-sec-fastest-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Lactate Clearance: 3 Min FAST/ 1 Min EASY | lactate-clearance-3-min-fast-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Lactate Clearance: 3 Min FASTEST/ 3 Min MODERATE | lactate-clearance-3-min-fastest-3-min-moderate | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Lactate Clearance: 4 Min FAST/ 2 Min EASY | lactate-clearance-4-min-fast-2-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Lactate Clearance: 5 Min FAST/ 1 Min EASY | lactate-clearance-5-min-fast-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Lactate Clearance: 5 Min FASTEST | lactate-clearance-5-min-fastest | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Lactate Clearance: :30 sec FASTEST/ 20 Sec MODERATE/ 1 Min EASY | lactate-clearance-30-sec-fastest-20-sec-moderate-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Lactate Clearance: :30 sec FASTEST/ 30 Sec MODERATE/ 1 Min EASY | lactate-clearance-30-sec-fastest-30-sec-moderate-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Lactate Clearance: :30 sec MODERATE/ 1 Min FASTEST/ 1 Min EASY | lactate-clearance-30-sec-moderate-1-min-fastest-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Lactate Clearance: :30 sec MODERATE/20 Sec FASTEST/ 1 Min EASY | lactate-clearance-30-sec-moderate-20-sec-fastest-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |
-| Progression Run (easy -> moderate -> hard) | progression-run-easy-moderate-hard | R | unrated | F | T0 | 1 | n/a | - | 0 |  |
-| Race Day: Half Marathon (13.1 mi) | race-day-half-marathon-13-1-mi | R | unrated | F | T0 | 1 | n/a | - | 0 |  |
-| Rower Calorie Sprint | rower-calorie-sprint | P | unrated | F | T3 | 5 | n/a | - | 10 |  |
-| Short Sprint Intervals (15-30 s work : 30 s-2 min walk) | short-sprint-intervals-15-30-s-work-30-s-2-min-walk | P | unrated | F | T0 | 1 | n/a | - | 8 |  |
-| SkiErg Calorie Sprint | skierg-calorie-sprint | P | unrated | F | T3 | 5 | n/a | - | 13 |  |
-| Split-Day Run (a.m. + p.m.) | split-day-run-a-m-p-m | R | unrated | F | T0 | 1 | n/a | - | 0 |  |
-| Steady-State Easy Cardio (15-40 min, any modality) | steady-state-easy-cardio-15-40-min-any-modality | P | unrated | F | T0 | 1 | n/a | - | 38 |  |
-| Taper Run (comfortable pace) | taper-run-comfortable-pace | R | unrated | F | T0 | 1 | n/a | - | 0 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Calorie Effort: 10 cal (bike / rower / ski) | calorie-effort-10-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |  |
+| Calorie Effort: 15 cal (bike / rower / ski) | calorie-effort-15-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |  |
+| Calorie Effort: 20 cal (bike / rower / ski) | calorie-effort-20-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |  |
+| Calorie Effort: 25 cal (bike / rower / ski) | calorie-effort-25-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |  |
+| Calorie Effort: 30 cal (bike / rower / ski) | calorie-effort-30-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |  |
+| Calorie Effort: 35 cal (bike / rower / ski) | calorie-effort-35-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |  |
+| Calorie Effort: 40 cal (bike / rower / ski) | calorie-effort-40-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |  |
+| Calorie Effort: 45 cal (bike / rower / ski) | calorie-effort-45-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |  |
+| Calorie Effort: 50 cal (bike / rower / ski) | calorie-effort-50-cal-bike-rower-ski | S | any | F | T3 | 5 | n/a | - | 0 |  |  |
+| Distance Intervals: 1 mile Run / 1 min Walk | distance-intervals-1-mile-run-1-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance Intervals: 2 mile Run / 2 min Walk | distance-intervals-2-mile-run-2-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance Intervals: 3 mile Run / 3 min Walk | distance-intervals-3-mile-run-3-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance Repeat: 1000 m | distance-repeat-1000-m | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance Repeat: 200 m | distance-repeat-200-m | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance Repeat: 400 m | distance-repeat-400-m | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance Repeat: 600 m | distance-repeat-600-m | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance Repeat: 800 m | distance-repeat-800-m | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance Test: 1 mile Run | distance-test-1-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance Test: 11 mile Run | distance-test-11-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance Test: 14 mile Run | distance-test-14-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance Test: 17 mile Run | distance-test-17-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance Test: 20 mile Run | distance-test-20-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance Test: 3 mile Run | distance-test-3-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance Test: 5 mile Run | distance-test-5-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance Test: 8 mile Run | distance-test-8-mile-run | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Run Intervals: 2 min Fast / 1 min Walk | run-intervals-2-min-fast-1-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Run Intervals: 3 min Fast / 2 min Walk | run-intervals-3-min-fast-2-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Run Intervals: 4 min Fast / 3 min Walk | run-intervals-4-min-fast-3-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Run Intervals: 5 min Fast / 2 min Walk | run-intervals-5-min-fast-2-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Run Intervals: 6 min Fast / 1 min Walk | run-intervals-6-min-fast-1-min-walk | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Speed-Endurance Test: 1 Mile for Time | speed-endurance-test-1-mile-for-time | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Speed-Endurance Test: 3 Miles for Time | speed-endurance-test-3-miles-for-time | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| Speed-Endurance Test: 800 m (Half Mile) for Time | speed-endurance-test-800-m-half-mile-for-time | S | any | F | T0 | 1 | n/a | - | 0 |  |  |
+| 20 s Fast / 40 s Slow Intervals (any cardio) | 20-s-fast-40-s-slow-intervals-any-cardio | P | unrated | F | T0 | 1 | n/a | - | 2 |  |  |
+| Aerobic A (blue): 10X10m Sprints | aerobic-a-blue-10x10m-sprints | R | foundational | F | T0 | 1 | n/a | - | 0 |  |  |
+| Aerobic A (blue): 15 Sec Run/ 45 Sec Walk | aerobic-a-blue-15-sec-run-45-sec-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |  |
+| Aerobic A (blue): 20 Sec Run/ 40 Sec Walk | aerobic-a-blue-20-sec-run-40-sec-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |  |
+| Aerobic A (blue): 30 Sec Run/ 30 Sec Walk | aerobic-a-blue-30-sec-run-30-sec-walk | R | intermediate | I | T0 | 1 | n/a | - | 0 |  |  |
+| Aerobic A (blue): 40 Sec Run/ 20 Sec Walk | aerobic-a-blue-40-sec-run-20-sec-walk | R | intermediate | I | T0 | 1 | n/a | - | 0 |  |  |
+| Aerobic B (green): 1 Minute run/ 3 Min Walk | aerobic-b-green-1-minute-run-3-min-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |  |
+| Aerobic B (green): 2 Minute run/ 4 Min Walk | aerobic-b-green-2-minute-run-4-min-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |  |
+| Aerobic B (green): 3 Minute Run/ 3 Min Walk | aerobic-b-green-3-minute-run-3-min-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |  |
+| Aerobic C (orange): 11 Minute Run/ 2 Min Walk | aerobic-c-orange-11-minute-run-2-min-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |  |
+| Aerobic C (orange): 2 Mile Run | aerobic-c-orange-2-mile-run | R | foundational | F | T0 | 1 | n/a | - | 0 |  |  |
+| Aerobic C (orange): 5 Minute Run/ :30 Sec Walk | aerobic-c-orange-5-minute-run-30-sec-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |  |
+| Aerobic C (orange): 8 Minute Run/ 1 Minute Walk | aerobic-c-orange-8-minute-run-1-minute-walk | R | foundational | F | T0 | 1 | n/a | - | 0 |  |  |
+| Any Cardio Equipment - 5 min warm-up | any-cardio-equipment-5-min-warm-up | P | unrated | F | T0 | 1 | n/a | - | 15 |  |  |
+| Bike Calorie Sprint (assault/air bike) | bike-calorie-sprint-assault-air-bike | P | unrated | F | T3 | 5 | n/a | - | 19 |  |  |
+| Burpee Broad Jump | burpee-broad-jump | X2 | intermediate | I | T0 | 1 | n/a | - | 0 |  | PROPOSED-ADDITION; ballistic; 60+ off by default |
+| Burpees | burpees | P | unrated | F | T0 | 1 | n/a | - | 2 |  | ballistic; 60+ off by default |
+| Compromised Run (1 km run straight after a station) | compromised-run-run-after-a-station | X2 | intermediate | I | T0 | 1 | n/a | - | 0 |  | PROPOSED-ADDITION |
+| Continuous Distance Run (half-marathon plan) | continuous-distance-run-half-marathon-plan | R | unrated | F | T0 | 1 | n/a | - | 0 |  |  |
+| Distance/Pace Workout - not specified ('Workouts involving distances and paces') | distance-pace-workout-not-specified-workouts-involving-distances-and-paces | R | unrated | F | T0 | 1 | n/a | - | 0 |  |  |
+| Fast Run Repeats (200 m fast; 150 m fast / 250 m walk) | fast-run-repeats-200-m-fast-150-m-fast-250-m-walk | R | unrated | F | T0 | 1 | n/a | - | 0 |  |  |
+| Flat Sprints (40-80 m, full recovery) | flat-sprints-40-80-m-full-recovery | R | unrated | F | T0 | 1 | n/a | - | 0 |  |  |
+| Hill Sprints (8-20 s, full recovery) | hill-sprints-8-20-s-full-recovery | R | unrated | F | T0 | 1 | n/a | - | 0 |  |  |
+| Jumping Jacks | jumping-jacks | P | unrated | F | T0 | 1 | n/a | - | 2 |  | plyometric; 60+ off by default |
+| Lactate Clearance: 1 min FASTEST/ 20 Sec MODERATE/ 2 Min EASY | lactate-clearance-1-min-fastest-20-sec-moderate-2-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Lactate Clearance: 1 min MODERATE/20 Sec FASTEST/ 2 Min EASY | lactate-clearance-1-min-moderate-20-sec-fastest-2-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Lactate Clearance: 2 Min FAST/ 2 Min EASY | lactate-clearance-2-min-fast-2-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Lactate Clearance: 2 Min FASTEST/ 3 Min MODERATE | lactate-clearance-2-min-fastest-3-min-moderate | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Lactate Clearance: 2 min FASTEST/ 30 Sec MODERATE/ 1 Min EASY | lactate-clearance-2-min-fastest-30-sec-moderate-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Lactate Clearance: 2 Min FASTEST/ 4 Min MODERATE | lactate-clearance-2-min-fastest-4-min-moderate | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Lactate Clearance: 2 min MODERATE/ 30 Sec FASTEST/ 1 Min EASY | lactate-clearance-2-min-moderate-30-sec-fastest-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Lactate Clearance: 3 Min FAST/ 1 Min EASY | lactate-clearance-3-min-fast-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Lactate Clearance: 3 Min FASTEST/ 3 Min MODERATE | lactate-clearance-3-min-fastest-3-min-moderate | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Lactate Clearance: 4 Min FAST/ 2 Min EASY | lactate-clearance-4-min-fast-2-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Lactate Clearance: 5 Min FAST/ 1 Min EASY | lactate-clearance-5-min-fast-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Lactate Clearance: 5 Min FASTEST | lactate-clearance-5-min-fastest | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Lactate Clearance: :30 sec FASTEST/ 20 Sec MODERATE/ 1 Min EASY | lactate-clearance-30-sec-fastest-20-sec-moderate-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Lactate Clearance: :30 sec FASTEST/ 30 Sec MODERATE/ 1 Min EASY | lactate-clearance-30-sec-fastest-30-sec-moderate-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Lactate Clearance: :30 sec MODERATE/ 1 Min FASTEST/ 1 Min EASY | lactate-clearance-30-sec-moderate-1-min-fastest-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Lactate Clearance: :30 sec MODERATE/20 Sec FASTEST/ 1 Min EASY | lactate-clearance-30-sec-moderate-20-sec-fastest-1-min-easy | R | advanced | A | T0 | 1 | n/a | - | 0 |  |  |
+| Progression Run (easy -> moderate -> hard) | progression-run-easy-moderate-hard | R | unrated | F | T0 | 1 | n/a | - | 0 |  |  |
+| Race Day: Half Marathon (13.1 mi) | race-day-half-marathon-13-1-mi | R | unrated | F | T0 | 1 | n/a | - | 0 |  |  |
+| Rower Calorie Sprint | rower-calorie-sprint | P | unrated | F | T3 | 5 | n/a | - | 10 |  |  |
+| Rower Distance Piece (500-2,000 m) | rower-distance-piece-500-2000-m | X2 | any | F | T3 | 5 | n/a | - | 0 |  | PROPOSED-ADDITION |
+| Ruck Walk (weighted backpack walk) | ruck-walk-weighted-backpack | X2 | any | F | T0 | 1 | n/a | - | 0 |  | PROPOSED-ADDITION |
+| Short Sprint Intervals (15-30 s work : 30 s-2 min walk) | short-sprint-intervals-15-30-s-work-30-s-2-min-walk | P | unrated | F | T0 | 1 | n/a | - | 8 |  |  |
+| SkiErg Calorie Sprint | skierg-calorie-sprint | P | unrated | F | T3 | 5 | n/a | - | 13 |  |  |
+| SkiErg Distance Piece (500-1,000 m) | skierg-distance-piece-500-1000-m | X2 | any | F | T3 | 5 | n/a | - | 0 |  | PROPOSED-ADDITION |
+| Split-Day Run (a.m. + p.m.) | split-day-run-a-m-p-m | R | unrated | F | T0 | 1 | n/a | - | 0 |  |  |
+| Steady-State Easy Cardio (15-40 min, any modality) | steady-state-easy-cardio-15-40-min-any-modality | P | unrated | F | T0 | 1 | n/a | - | 38 |  |  |
+| Taper Run (comfortable pace) | taper-run-comfortable-pace | R | unrated | F | T0 | 1 | n/a | - | 0 |  |  |
 
 ### AOS - FUNCTIONAL BIOMECHANICS SYSTEM > ANTERIOR OBLIQUE SYSTEM (9)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Rotational Crunch Chop Down (high-to-low) - Supine, Object Squeezed Between Knees | rotational-crunch-chop-down-high-to-low-supine-object-squeezed-between-knees | L | foundational | F | T3 | 3 | unilateral | CORE 1 | 0 |  |
-| Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees | rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees | L | intermediate | I | T3 | 3 | unilateral | CORE 1 | 0 |  |
-| Rotational Crunch Chop Up / Lift (low-to-high) - Supine, Object Squeezed Between Knees | rotational-crunch-chop-up-lift-low-to-high-supine-object-squeezed-between-knees | L | advanced | A | T3 | 3 | unilateral | CORE 1 | 0 |  |
-| Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees | supine-floor-pallof-hold-cable-band-object-squeezed-between-knees | L | foundational | F | T3 | 3 | unilateral | CORE 1 | 0 | renamed |
-| Supine Offset Plank with Contralateral Cable Adduction | supine-offset-plank-with-contralateral-banded-cable-adduction | L | foundational | F | T3 | 3 | unilateral | CORE 1 | 0 | renamed |
-| Tall-Kneeling Cable Crunch Chop Down (high-to-low) - Object Squeezed Between Knees | tall-kneeling-cable-band-crunch-chop-down-high-to-low-object-squeezed-between-kn | L | foundational | F | T3 | 3 | unilateral | CORE 1 | 0 | renamed |
-| Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees | tall-kneeling-cable-band-crunch-chop-midline-horizontal-object-squeezed-between- | L | intermediate | I | T3 | 3 | unilateral | CORE 1 | 0 | renamed |
-| Tall-Kneeling Cable Crunch Chop Up / Lift (low-to-high) - Object Squeezed Between Knees | tall-kneeling-cable-band-crunch-chop-up-lift-low-to-high-object-squeezed-between | L | advanced | A | T3 | 3 | unilateral | CORE 1 | 0 | renamed |
-| Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees | tall-kneeling-pallof-hold-cable-band-object-squeezed-between-knees | L | foundational | F | T3 | 3 | unilateral | CORE 1 | 0 | renamed |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Rotational Crunch Chop Down (high-to-low) - Supine, Object Squeezed Between Knees | rotational-crunch-chop-down-high-to-low-supine-object-squeezed-between-knees | L | foundational | F | T3 | 3 | unilateral | CORE 1 | 0 |  |  |
+| Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees | rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees | L | intermediate | I | T3 | 3 | unilateral | CORE 1 | 0 |  |  |
+| Rotational Crunch Chop Up / Lift (low-to-high) - Supine, Object Squeezed Between Knees | rotational-crunch-chop-up-lift-low-to-high-supine-object-squeezed-between-knees | L | advanced | A | T3 | 3 | unilateral | CORE 1 | 0 |  |  |
+| Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees | supine-floor-pallof-hold-cable-band-object-squeezed-between-knees | L | foundational | F | T3 | 3 | unilateral | CORE 1 | 0 | renamed |  |
+| Supine Offset Plank with Contralateral Cable Adduction | supine-offset-plank-with-contralateral-banded-cable-adduction | L | foundational | F | T3 | 3 | unilateral | CORE 1 | 0 | renamed |  |
+| Tall-Kneeling Cable Crunch Chop Down (high-to-low) - Object Squeezed Between Knees | tall-kneeling-cable-band-crunch-chop-down-high-to-low-object-squeezed-between-kn | L | foundational | F | T3 | 3 | unilateral | CORE 1 | 0 | renamed |  |
+| Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees | tall-kneeling-cable-band-crunch-chop-midline-horizontal-object-squeezed-between- | L | intermediate | I | T3 | 3 | unilateral | CORE 1 | 0 | renamed |  |
+| Tall-Kneeling Cable Crunch Chop Up / Lift (low-to-high) - Object Squeezed Between Knees | tall-kneeling-cable-band-crunch-chop-up-lift-low-to-high-object-squeezed-between | L | advanced | A | T3 | 3 | unilateral | CORE 1 | 0 | renamed |  |
+| Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees | tall-kneeling-pallof-hold-cable-band-object-squeezed-between-knees | L | foundational | F | T3 | 3 | unilateral | CORE 1 | 0 | renamed |  |
 
-### DRAG - DRAGS (4)
+### DRAG - DRAGS (5)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Sled Drag - Backward | sled-drag-backward | X | foundational | F | T3 | 2 | alternating | - | 0 | NEW LIB-19 |
-| Sled Drag - Forward (harness or straps) | sled-drag-forward | X | foundational | F | T3 | 2 | alternating | - | 0 | NEW LIB-19 |
-| Sled Drag - Lateral | sled-drag-lateral | X | intermediate | I | T3 | 2 | alternating | - | 0 | NEW LIB-19 |
-| Sled Push | sled-push | X | foundational | F | T3 | 2 | alternating | - | 0 | NEW LIB-19 |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Sled Drag - Backward | sled-drag-backward | X | foundational | F | T3 | 2 | alternating | - | 0 | NEW LIB-19 |  |
+| Sled Drag - Forward (harness or straps) | sled-drag-forward | X | foundational | F | T3 | 2 | alternating | - | 0 | NEW LIB-19 |  |
+| Sled Drag - Lateral | sled-drag-lateral | X | intermediate | I | T3 | 2 | alternating | - | 0 | NEW LIB-19 |  |
+| Sled Push | sled-push | X | foundational | F | T3 | 2 | alternating | - | 0 | NEW LIB-19 |  |
+| Sled Rope Pull (hand-over-hand, HYROX-style) | sled-rope-pull-hand-over-hand | X2 | foundational | F | T3 | 2 | alternating | - | 0 |  | PROPOSED-ADDITION |
 
 ### CARRY - CARRY (5)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Farmer Carry (bilateral) | farmer-carry | X | foundational | F | T2 | 2 | bilateral | CORE 1 | 0 | NEW LIB-19 |
-| Farmer Hold (stationary carry) | farmer-hold-stationary | X | foundational | F | T2 | 2 | bilateral | CORE 1 | 0 | NEW LIB-19 |
-| Front-Rack KB Carry (one or two KBs) | front-rack-kb-carry | X | intermediate | I | T2 | 2 | bilateral | CORE 1 | 0 | NEW LIB-19 |
-| Overhead KB Carry (single arm) | overhead-kb-carry | X | advanced | A | T2 | 2 | unilateral | CORE 1 | 0 | NEW LIB-19 |
-| Sandbag Bear-Hug Carry | sandbag-bear-hug-carry | X | foundational | F | T2 | 2 | bilateral | CORE 1 | 0 | NEW LIB-19 |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Farmer Carry (bilateral) | farmer-carry | X | foundational | F | T2 | 2 | bilateral | CORE 1 | 0 | NEW LIB-19 |  |
+| Farmer Hold (stationary carry) | farmer-hold-stationary | X | foundational | F | T2 | 2 | bilateral | CORE 1 | 0 | NEW LIB-19 |  |
+| Front-Rack KB Carry (one or two KBs) | front-rack-kb-carry | X | intermediate | I | T2 | 2 | bilateral | CORE 1 | 0 | NEW LIB-19 |  |
+| Overhead KB Carry (single arm) | overhead-kb-carry | X | advanced | A | T2 | 2 | unilateral | CORE 1 | 0 | NEW LIB-19 |  |
+| Sandbag Bear-Hug Carry | sandbag-bear-hug-carry | X | foundational | F | T2 | 2 | bilateral | CORE 1 | 0 | NEW LIB-19 |  |
 
-### ARMCARE - ARM CARE / MOBILITY (3)
+### ARMCARE - ARM CARE / MOBILITY (8)
 
-| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Half-Kneeling Shoulder Roll (arm care) | half-kneeling-shoulder-roll-arm-care | P | unrated | F | T0 | 3 | unilateral | - | 2 |  |
-| Kettlebell Arm Bar (arm care) | kettlebell-arm-bar-arm-care | P | unrated | F | T2 | 3 | unilateral | - | 4 |  |
-| Side-Lying DB Drop & Catch (reactive shoulder) | side-lying-db-drop-and-catch-reactive-shoulder | P | unrated | F | T2 | 3 | unilateral | - | 1 |  |
+| name | id | st | level | from | T | C | laterality | credit per set | uses | v1 notes | v1.1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Cable External Rotation (elbow at the side or 90/90) | cable-external-rotation-elbow-at-side-or-90-90 | X2 | foundational | F | T3 | 3 | unilateral | - | 0 |  | PROPOSED-ADDITION |
+| DB Wrist Extension (slow lowering, forearm on the knee or a bench) | db-wrist-extension-slow-lowering | X2 | foundational | F | T2 | 3 | unilateral | - | 0 |  | PROPOSED-ADDITION |
+| Dead Hang (pull-up bar) | dead-hang-pull-up-bar | X2 | foundational | F | T1 | 2 | bilateral | - | 0 |  | PROPOSED-ADDITION |
+| Half-Kneeling Shoulder Roll (arm care) | half-kneeling-shoulder-roll-arm-care | P | unrated | F | T0 | 3 | unilateral | - | 2 |  |  |
+| Kettlebell Arm Bar (arm care) | kettlebell-arm-bar-arm-care | P | unrated | F | T2 | 3 | unilateral | - | 4 |  |  |
+| Scapular Push-Up (push-up plus) | scapular-push-up-push-up-plus | X2 | foundational | F | T0 | 2 | bilateral | - | 0 |  | PROPOSED-ADDITION |
+| Side-Lying DB Drop & Catch (reactive shoulder) | side-lying-db-drop-and-catch-reactive-shoulder | P | unrated | F | T2 | 3 | unilateral | - | 1 |  |  |
+| Side-Lying DB External Rotation | side-lying-db-external-rotation | X2 | foundational | F | T2 | 3 | unilateral | - | 0 |  | PROPOSED-ADDITION |
 
 ## 5. Duplicates merged
 
@@ -1340,12 +1497,18 @@ Also merged in v0 (INFERRED): Sheet24 '1-mile at max effort' with BYOP SPEED TES
 | Distance Test: 14 mile Run | B30 (-), B95 (-) |
 | Distance Test: 17 mile Run | B31 (-), B96 (-) |
 | Distance Test: 20 mile Run | B32 (-), B97 (-) |
-| Distance Test: 21.6 mile Run | B33 (-), B98 (-) |
+| Distance Test: 21.6 mile Run (retired in v1.1, R2-LIB-06) | B33 (-), B98 (-) |
 | Distance Test: 3 mile Run | B26 (-), B91 (-) |
 | Distance Test: 5 mile Run | B27 (-), B92 (-) |
 | Distance Test: 8 mile Run | B28 (-), B93 (-) |
 
 v1: the second 'Low Depth Drop' (G10) is now its own single-leg / weighted record (LIB-03) and the second 'Standing DB Press' (AA51) belongs to the standing barbell press (LIB-11), so neither appears here any more.
+
+### 5.3b v1.1 split (one record -> two)
+
+| v1 record | v1.1 records | question | why |
+|---|---|---|---|
+| Bench Push-Up (hands or feet on bench - not stated) | Bench Push-Up - Hands on Bench (incline) (same id, FOUNDATIONAL, AD13 + RESISTANCE PATTERNS I11) and Bench Push-Up - Feet on Bench (decline) (`bench-push-up-feet-on-bench`, ADVANCED, AF11 + Sheet23 Z4) | R2-LIB-05 / LIB-12 | 'Both: hands on the bench = foundational (easier); feet on the bench = advanced (harder)' - approved. The crosswalk file was not rewritten: AF11 / Z4 still point to the old id; read the split here. |
 
 ### 5.4 Automatic merges by normalised name
 
@@ -1414,12 +1577,12 @@ v1 reading: the sheet opinions stay as OBSERVED quotes, but the generator does n
 | Barbell Push Press | LIB-13 | FILED UNDER SEVERAL PATTERNS: TX, VPUSH | resistance pool VERTICAL PUSH; also allowed in the power (triple extension) slot, where it counts as power reps (VOL-10) |
 | DB Push Jerk | LIB-13 | LEVEL QUESTION: listed FOUNDATIONAL (AA13). | push jerk = intermediate/advanced |
 | DB Push Press | LIB-13 | LEVEL QUESTION: power/skill lift listed FOUNDATIONAL (AA11). | push press confirmed as the easier, foundational option |
-| Barbell Thruster | LIB-14 | CROSS-LISTING: in VERTICAL PUSH ADVANCED (AA55) and BILATERAL KNEE DOMINANT ADVANCED (AI103). | conditioning-leaning; counts 1.0 quads + 0.5 shoulders wherever it is picked (LIB-14; v1 had 0.25, corrected) |
-| Barbell Thruster | LIB-14 | FILED UNDER SEVERAL PATTERNS: BKD, VPUSH | conditioning-leaning; counts 1.0 quads + 0.5 shoulders wherever it is picked (LIB-14; v1 had 0.25, corrected) |
-| DB Thruster (front squat into overhead press) | LIB-14 | CROSS-LISTING: in VERTICAL PUSH ADVANCED (AA54) and BILATERAL KNEE DOMINANT ADVANCED (AI102). | conditioning-leaning; counts 1.0 quads + 0.5 shoulders wherever it is picked (LIB-14; v1 had 0.25, corrected) |
-| DB Thruster (front squat into overhead press) | LIB-14 | FILED UNDER SEVERAL PATTERNS: BKD, VPUSH | conditioning-leaning; counts 1.0 quads + 0.5 shoulders wherever it is picked (LIB-14; v1 had 0.25, corrected) |
-| Single-Arm DB Thruster | LIB-14 | CROSS-LISTING: VERTICAL PUSH UNILATERAL (AA94) and BILATERAL KNEE DOMINANT ADVANCED (AI104 'Single arm DB thruster'). | conditioning-leaning; counts 1.0 quads + 0.5 shoulders wherever it is picked (LIB-14; v1 had 0.25, corrected) |
-| Single-Arm DB Thruster | LIB-14 | FILED UNDER SEVERAL PATTERNS: BKD, VPUSH | conditioning-leaning; counts 1.0 quads + 0.5 shoulders wherever it is picked (LIB-14; v1 had 0.25, corrected) |
+| Barbell Thruster | LIB-14 | CROSS-LISTING: in VERTICAL PUSH ADVANCED (AA55) and BILATERAL KNEE DOMINANT ADVANCED (AI103). | conditioning-leaning; counts 1.0 quads + 0.5 shoulders wherever it is picked (LIB-14; v1 had 0.25, corrected); v1.1: + 0.25 glutes (COACH-R2 R2-VOL-05) |
+| Barbell Thruster | LIB-14 | FILED UNDER SEVERAL PATTERNS: BKD, VPUSH | conditioning-leaning; counts 1.0 quads + 0.5 shoulders wherever it is picked (LIB-14; v1 had 0.25, corrected); v1.1: + 0.25 glutes (COACH-R2 R2-VOL-05) |
+| DB Thruster (front squat into overhead press) | LIB-14 | CROSS-LISTING: in VERTICAL PUSH ADVANCED (AA54) and BILATERAL KNEE DOMINANT ADVANCED (AI102). | conditioning-leaning; counts 1.0 quads + 0.5 shoulders wherever it is picked (LIB-14; v1 had 0.25, corrected); v1.1: + 0.25 glutes (COACH-R2 R2-VOL-05) |
+| DB Thruster (front squat into overhead press) | LIB-14 | FILED UNDER SEVERAL PATTERNS: BKD, VPUSH | conditioning-leaning; counts 1.0 quads + 0.5 shoulders wherever it is picked (LIB-14; v1 had 0.25, corrected); v1.1: + 0.25 glutes (COACH-R2 R2-VOL-05) |
+| Single-Arm DB Thruster | LIB-14 | CROSS-LISTING: VERTICAL PUSH UNILATERAL (AA94) and BILATERAL KNEE DOMINANT ADVANCED (AI104 'Single arm DB thruster'). | conditioning-leaning; counts 1.0 quads + 0.5 shoulders wherever it is picked (LIB-14; v1 had 0.25, corrected); v1.1: + 0.25 glutes (COACH-R2 R2-VOL-05) |
+| Single-Arm DB Thruster | LIB-14 | FILED UNDER SEVERAL PATTERNS: BKD, VPUSH | conditioning-leaning; counts 1.0 quads + 0.5 shoulders wherever it is picked (LIB-14; v1 had 0.25, corrected); v1.1: + 0.25 glutes (COACH-R2 R2-VOL-05) |
 | Leg Extension (machine) | LIB-15 | LABEL CONFLICT: AM3 zone reads 'RP-BS-KNEE DOMINANT -ADVANCED' but the machine appears in all three AI blocks (AI20/AI55 | label was a typo; available at every level |
 | Leg Extension (machine) | LIB-15 | FILED UNDER SEVERAL PATTERNS: BKD, KEXT | pool LEG EXTENSIONS only; counts 1.0 quads (VOL-09) |
 | Lying Leg Curl (machine) | LIB-15 | LABEL QUESTION: AR5 says 'UNILATERAL' and AR3 has no zone code. | label was a typo; available at every level |
@@ -1436,6 +1599,15 @@ v1 reading: the sheet opinions stay as OBSERVED quotes, but the generator does n
 | Mach Sprint Drills (A-March / A-Skip / A-Run) | LIB-21 | FILED UNDER SEVERAL PATTERNS: PLYO, SPRINT | speed-session step 2 - MACH drills / acceleration starts |
 | Max-Velocity Sprint (Top Speed) | LIB-21 | SSC TIER: Sheet23 '*SPRINT*' (B51/B52); filed in ADVANCED JUMPING (Sheet23 I4 'ADVANCED - AP -JUMPING'; BYOP G128 ADVANC | speed-session step 3 - max-velocity sprint |
 | Squirrel Jumps | LIB-21 | SSC TIER: Sheet23 footer '*FASTEST SSC*' (B43/B44). | speed-session step 1 - fastest SSC (squirrel jumps) |
+
+### 6.2b Flags closed by round-2 answers (v1.1)
+
+| record | answer | v1 flag (abridged) | how it was resolved |
+|---|---|---|---|
+| KB Face Pull (as written; face pulls are normally done on a cable) | R2-LIB-04 / LIB-10 | PENDING LIB-10 - PLACEMENT CONFLICT: rear-delt / horizontal pattern filed under VERTICAL PULL (U20); RP files 'Face pull | moved to shoulder work (SIDE RAISES pool, rear delt); swap only |
+| Bench Push-Up - Hands on Bench (incline) | R2-LIB-05 / LIB-12 | PENDING LIB-12 - LEVEL CONFLICT: FOUNDATIONAL in AD13 but ADVANCED in AF11 and Sheet23 Z4; RP I11 yellow (intermediate). | split into two records: hands on bench (FOUNDATIONAL, AD13) and feet on bench (ADVANCED, AF11 / Sheet23 Z4) |
+| Bench Push-Up - Hands on Bench (incline) | R2-LIB-05 / LIB-12 | PENDING LIB-12 - LEVEL DIFFERS BY SOURCE: BYOP ['foundational', 'advanced'] vs OBSERVED reference levels ['intermediate' | split into two records: hands on bench (FOUNDATIONAL, AD13) and feet on bench (ADVANCED, AF11 / Sheet23 Z4) |
+| Distance Test: 21.6 mile Run | R2-LIB-06 | DISTANCE MISMATCH: the coach says the '21.6 mile run' is a marathon ('thats a marathon, dont know when/where we need tha | record retired: the 21.6 mi run is removed from plans and tests |
 
 ### 6.3 Flags still open (active records)
 
@@ -1537,18 +1709,6 @@ v1 reading: the sheet opinions stay as OBSERVED quotes, but the generator does n
 
 - 45-Degree Hyperextension (back/hip extension) - MERGED: AN55 'Hyper extensions ' + AZ207 'Hyperextensions' + RP A68 '45 degree hip ext. '; distinct from GHD (AN48/AN93).
 
-**PENDING LIB-10 - PLACEMENT CONFLICT** (1)
-
-- KB Face Pull (as written; face pulls are normally done on a cable) - PENDING LIB-10 - PLACEMENT CONFLICT: rear-delt / horizontal pattern filed under VERTICAL PULL (U20); RP files 'Face pulls' under SHOULDERS (K19).
-
-**PENDING LIB-12 - LEVEL CONFLICT** (1)
-
-- Bench Push-Up (hands or feet on bench - not stated) - PENDING LIB-12 - LEVEL CONFLICT: FOUNDATIONAL in AD13 but ADVANCED in AF11 and Sheet23 Z4; RP I11 yellow (intermediate). Hands-on-bench vs feet-on-bench not stated.
-
-**PENDING LIB-12 - LEVEL DIFFERS BY SOURCE** (1)
-
-- Bench Push-Up (hands or feet on bench - not stated) - PENDING LIB-12 - LEVEL DIFFERS BY SOURCE: BYOP ['foundational', 'advanced'] vs OBSERVED reference levels ['intermediate', 'advanced'] ((NOT DONE) RESISTANCE PATTERNS I11 intermediate)
-
 **WIRING** (1)
 
 - Deficit Push-up (hands elevated for full ROM) - WIRING: renamed 'Deficit Push-ups' only in the flat level view AF18, which no dropdown reads; the selectable name is AD99.
@@ -1569,13 +1729,15 @@ v1 reading: the sheet opinions stay as OBSERVED quotes, but the generator does n
 
 - Distance Repeat: 400 m - FORMAT: the only bold item in the CARDIO column (B125); meaning unknown.
 
-**DISTANCE MISMATCH** (1)
+**LONGER THAN THE HALF MARATHON (v1.1 adversarial check)** (3)
 
-- Distance Test: 21.6 mile Run - DISTANCE MISMATCH: the coach says the '21.6 mile run' is a marathon ('thats a marathon, dont know when/where we need that'), but a marathon is 26.2 mi (42.2 km). Not offered by default; confirm 21.6 vs 26.2 before any marathon plan uses it.
+- Distance Test: 14 mile Run - COACH-R2 R2-LIB-06 approved 'the longest run stays the half-marathon plan'; keep or remove? (10.3 #5)
+- Distance Test: 17 mile Run - same flag (10.3 #5)
+- Distance Test: 20 mile Run - same flag (10.3 #5)
 
 The VERBATIM TYPOS flags are informational: the sheets keep the coach's spelling, the generator uses the corrected names (COACH-ANSWER FIX-04).
 
-## 7. Out of scope and retired (v1)
+## 7. Out of scope and retired (v1, v1.1)
 
 ### 7.1 Bands, chains, weight releasers (out of scope; never generated)
 
@@ -1629,6 +1791,7 @@ Band set-up removed, record kept (18): Assisted Pull-up (machine) (now T3); Assi
 | Squat with Rotational Strap - Rotating In (internal-rotation bias) | squat-with-rotational-strap-rotating-in-internal-rotation-bias | LIB-09 | coach: 'The strap rotating in and out, you can take that one away, doesn't matter.' (overrides the strap rotations named in the LIB-20 assumption) | Squat Holding an Object Between the Knees (adduction squeeze); Cossack Lateral Lunge |
 | Squat with Rotational Strap - Rotating Out (external-rotation bias) | squat-with-rotational-strap-rotating-out-external-rotation-bias | LIB-09 | coach: 'The strap rotating in and out, you can take that one away, doesn't matter.' (overrides the strap rotations named in the LIB-20 assumption) | Squat Holding an Object Between the Knees (adduction squeeze); Cossack Lateral Lunge |
 | Camporini Deadlift (unilateral-bias deadlift variant; exact set-up not defined in the sheets) | camporini-deadlift-unilateral-bias-deadlift-variant-exact-set-up-not-defined-in- | LIB-09 | coach: 'For the Camporini deadlift, you can ignore that one.' Program cells that named it (ATHLETIC 'HEAVY: Camporini DL', BASEBALL 'camporini dl') translate to another Unilateral HD exercise | Staggered-Stance (Kickstand) DB Deadlift; Single-Leg RDL / Single-Leg Deadlift; Alternating Staggered-Stance Single-Leg Deadlift (DB) |
+| Distance Test: 21.6 mile Run | distance-test-21-6-mile-run | R2-LIB-06 (v1.1) | the coach approved removing it from plans and tests (it was flagged in v1: he called it a marathon, which is 26.2 mi) | Race Day: Half Marathon (13.1 mi); Continuous Distance Run (half-marathon plan) - the half-marathon plan is the longest run, used as-is |
 
 ### 7.3 Program cells whose components are out of scope or retired
 
@@ -1641,7 +1804,7 @@ Band set-up removed, record kept (18): Assisted Pull-up (machine) (now T3); Assi
 
 ## 8. Exercises the BYOP library does not have
 
-These are dropdown swaps, not default picks, unless a coach answer added them (COACH-ANSWER CAT-07: the BYOP MASTER EXERCISE LIBRARY is the single source of truth).
+These are dropdown swaps, not default picks, unless a coach answer added them (COACH-ANSWER CAT-07: the BYOP MASTER EXERCISE LIBRARY is the single source of truth; COACH-R2 R2-LIB-07 confirms that the ~120 program-only exercises stay swaps until he adds them, and added four of them). The v1.1 PROPOSED-ADDITION records are listed in section 2.8.
 
 ### 8.1 Named only in MASTER_MODEL program tabs (program_only, 121 active records)
 
@@ -1707,7 +1870,7 @@ These are dropdown swaps, not default picks, unless a coach answer added them (C
 | PLYO | DB Staggered-Stance Switch Jump | T2 | 1 | BASEBALL |  |
 | PLYO | Fast Rhythmic Quarter Squats | T0 | 1 |  |  |
 | PLYO | Front-Foot-Elevated Lunge Jumps (bodyweight) | T0 | 1 |  |  |
-| PLYO | Hex-Bar Jump Squat | T3 | 7 | ATHLETIC FULL BODY; BASEBALL |  |
+| PLYO | Hex-Bar Jump Squat | T3 | 7 | ATHLETIC FULL BODY; BASEBALL | ADDED R2-LIB-07 (FOUNDATIONAL triple extension, default candidate) |
 | PLYO | Hurdle Hops into Box Jump | T1 | 2 | BASEBALL |  |
 | PLYO | Lateral Box Step-up Jump | T0 | 1 |  |  |
 | PLYO | RFE Lunge Jumps (suitcase DB) | T2 | 3 | BASEBALL |  |
@@ -1744,12 +1907,12 @@ These are dropdown swaps, not default picks, unless a coach answer added them (C
 | TRI | Triceps - any kind | T3 | 11 | 4 TRACKS - AESTHETICS (bodybuilding style); UPPER/LOWER |  |
 | TX | Clean Pull (start position not stated) | T3 | 4 | 4 TRACKS - HYBRID (strength-athletic-crossfitish) |  |
 | TX | DB/KB High Pull | T2 | 2 | BASEBALL |  |
-| TX | Hang Clean (% of 1RM; catch not stated) | T3 | 12 | BASEBALL |  |
+| TX | Hang Clean (catch not stated) | T3 | 12 | BASEBALL | renamed (R2-GEN-06); ADDED to the library R2-LIB-07 (FOUNDATIONAL, default candidate) |
 | TX | Hang Power Clean (hang height not stated) | T3 | 2 |  |  |
-| TX | Hang Snatch (% of 1RM; catch not stated) | T3 | 12 | BASEBALL |  |
-| TX | KB Squat Clean | T2 | 6 | BASEBALL |  |
+| TX | Hang Snatch (catch not stated) | T3 | 12 | BASEBALL | renamed (R2-GEN-06: no '% of 1RM' in the name; adversarial check) |
+| TX | KB Squat Clean | T2 | 6 | BASEBALL | ADDED R2-LIB-07 (FOUNDATIONAL, default candidate) |
 | TX | Single-Arm DB Push / Split Jerk | T2 | 1 | BASEBALL |  |
-| TX | Single-Arm DB Snatch | T2 | 3 | BASEBALL; BOXING 8 WEEK BUILD UP |  |
+| TX | Single-Arm DB Snatch | T2 | 3 | BASEBALL; BOXING 8 WEEK BUILD UP | ADDED R2-LIB-07 (FOUNDATIONAL, default candidate) |
 | TX | Snatch Pull (start position not stated) | T3 | 3 | 4 TRACKS - HYBRID (strength-athletic-crossfitish) |  |
 | TX | Staggered-Stance DB Hang Snatch | T2 | 3 | ATHLETIC FULL BODY |  |
 | UHD | Single-Leg RDL / Single-Leg Deadlift | T2 | 49 | 4 TRACKS - AESTHETICS (bodybuilding style); ATHLETIC FULL BODY; BOXING 8 WEEK BUILD UP; FAT BURN / BODY TONING; PUSH/PUL |  |
@@ -1773,7 +1936,7 @@ These are dropdown swaps, not default picks, unless a coach answer added them (C
 
 | pattern | record | level | tier | reference tab(s) | program uses | v1 notes |
 |---|---|---|---|---|---|---|
-| BHD | American KB Swing (overhead) | intermediate | T2 | (NOT DONE) RESISTANCE PATTERNS | 0 |  |
+| BHD | American KB Swing (overhead) | intermediate | T2 | (NOT DONE) RESISTANCE PATTERNS | 0 | R2-VOL-05: ballistic, 0 sets; TX pool |
 | BHD | Hip Thrust (implement not stated) | any | T0 | Sheet25 | 0 |  |
 | BIC | Barbell Reverse Curl (pronated) | any | T3 | (NOT DONE) RESISTANCE PATTERNS | 1 |  |
 | BIC | DB Pronated (Reverse) Curl | any | T2 | (NOT DONE) RESISTANCE PATTERNS | 0 |  |
@@ -1857,7 +2020,7 @@ These are dropdown swaps, not default picks, unless a coach answer added them (C
 | CP | Windshield Wipers | intermediate | T0 | CONTROL PATTERNSCORE | 8 |  |
 | CT | Bench Pallof Plank (plank on a bench with cable anti-rotation) | intermediate | T3 | CONTROL PATTERNSCORE | 0 | renamed |
 | CT | Crunch Hold (isometric) | foundational | T0 | CONTROL PATTERNSCORE | 0 |  |
-| CT | Kettlebell Rotational Swings (no hip thrust - trunk-driven) | intermediate | T2 | CONTROL PATTERNSCORE | 0 |  |
+| CT | Kettlebell Rotational Swings (no hip thrust - trunk-driven) | intermediate | T2 | CONTROL PATTERNSCORE | 0 | R2-VOL-05: tagged ballistic, stays a core drill |
 | CT | Landmine Rotations - standing or kneeling | intermediate | T3 | CONTROL PATTERNSCORE | 0 |  |
 | CT | Medball Ab Rollouts (hands on medball) | intermediate | T2 | (NOT DONE) ALL ABOUT BALLISTICS | 1 |  |
 | CT | Medball Plank Rockers | intermediate | T2 | (NOT DONE) ALL ABOUT BALLISTICS | 6 |  |
@@ -1948,7 +2111,7 @@ These are dropdown swaps, not default picks, unless a coach answer added them (C
 | TX | Split Jerk | advanced | T3 | (NOT DONE) ALL ABOUT OLYMPIC LI | 0 |  |
 | TX | Standing Drop Overhead Squat (drop snatch / snatch-balance type: drop from standing into an overhead squat) | advanced | T3 | (NOT DONE) ALL ABOUT OLYMPIC LI | 0 |  |
 | TX | Standing Drop Power Snatch (tall / no-dip power snatch - pull under from standing) | intermediate | T3 | (NOT DONE) ALL ABOUT OLYMPIC LI | 0 |  |
-| UHD | Split-Stance Contralateral Single-Arm KB Swing | intermediate | T2 | (NOT DONE) RESISTANCE PATTERNS | 0 | ADDED LIB-20 |
+| UHD | Split-Stance Contralateral Single-Arm KB Swing | intermediate | T2 | (NOT DONE) RESISTANCE PATTERNS | 0 | ADDED LIB-20; R2-VOL-05: ballistic, 0 sets; TX pool |
 | UHD | Staggered-Stance Hex Bar Deadlift | foundational | T3 | (NOT DONE) RESISTANCE PATTERNS | 0 |  |
 | UKD | Cossack Lateral Lunge | intermediate | T0 | (NOT DONE) RESISTANCE PATTERNS | 0 | ADDED LIB-20 |
 | UKD | Lunge (variation not stated) | any | T0 | Sheet25 | 16 |  |
@@ -2103,9 +2266,9 @@ These are dropdown swaps, not default picks, unless a coach answer added them (C
 | CrossFit slot label 'STRENGTH: HIP DOM' (pattern placeholder) | 6 |
 | CrossFit slot label 'STRENGTH: PUSH' (pattern placeholder) | 6 |
 | week label 'TEST' (4 TRACKS / CONJUGATE) | 4 |
-| week label 'DELOAD' (4 TRACKS / CONJUGATE) | 4 |
+| week label 'DELOAD' (4 TRACKS / CONJUGATE; OBSERVED label only - the generator never puts a deload inside a block, COACH-R2 R2-VOL-07) | 4 |
 | 'none' = no buy-out that week (BASEBALL Part E) | 3 |
-| week label 'DELOAD WEEK' | 2 |
+| week label 'DELOAD WEEK' (OBSERVED label only; R2-VOL-07) | 2 |
 | CrossFit class-split quality level label | 2 |
 | block label 'UNILATERAL' (4 TRACKS AESTHETICS G56) | 1 |
 | CrossFit monthly-grid quality flag ('AEROBIC C.: TYES' typo of YES) | 1 |
@@ -2114,6 +2277,8 @@ These are dropdown swaps, not default picks, unless a coach answer added them (C
 ## 9. Modifiers, notes and headings
 
 The coach's RESISTANCE PATTERNS tab builds exercises as base pattern + stacked variables (feet, hand placement, stance, ROM, end range, load position, contra/ipsilateral load). The generator picks **named exercises**; grip, stance, ROM, end-range and load-position modifiers are for the 1-2 small changes between 4-6 week blocks, never all at once (COACH-ANSWER PER-02). Variable-resistance modifiers are out of scope (EQ-12). Contralateral / ipsilateral load is different: it is chosen by the athlete and the phase (CAT-13: contralateral for change-of-direction athletes, ipsilateral for sprint acceleration, both as health accessories for bodybuilders / powerlifters mostly in weeks 1-4), and their `modifier_role_v1` says so; 'Split stance ALWAYS contralateral' is a fixed rule.
+
+**v1.1 (COACH-R2 R2-LIB-01, approved):** these modifiers are the vocabulary of the one-detail change allowed between blocks - which hand holds the weight (contra / ipsilateral load), grip (hand placement), stance, implement (load position) and range (ROM, end range) - shown as '<library name> - <detail>' and never more than one at a time (section 2.6, `variation_v1_1`).
 
 | modifier (active) | difficulty (OBSERVED colour/header where given) | effect / rule (COACH-ANSWER where quoted, else INFERRED biomechanics) |
 |---|---|---|
@@ -2202,6 +2367,8 @@ PROPOSED starter items for the empty CARRY / DRAGS headings (PENDING COACH APPRO
 | Sled Drag - Backward | Drags > Sagittal | foundational | sled | 4-8 x 10-30 m | - |
 | Sled Drag - Lateral | Drags > Frontal (BYOP BB10) | intermediate | sled | 4-8 x 10-30 m | - |
 
+v1.1: HYROX uses the sled push, a hand-over-hand sled rope pull (new PROPOSED-ADDITION record, DRAG pool), a 200 m farmer carry and sandbag lunges, so the LIB-19 starters now carry `sport_use_v1_1` and the drag list gains the sled rope pull (section 2.8). Still PROPOSED.
+
 ## 10. Open questions (catalog-specific)
 
 ### 10.1 v0 questions and how the coach answered them
@@ -2212,38 +2379,46 @@ PROPOSED starter items for the empty CARRY / DRAGS headings (PENDING COACH APPRO
 | 2. Keep the near-duplicate merges? | Yes, merge them (LIB-17); 7 more merged in v1. |
 | 3. Which name wins for 'Shoulder Wide Grip Deadlift' vs 'Barbell Deadlifts', the two bent-over rows, 'Hurdle Hops' vs 'Bilateral Forward Hurdle Hops'? | Deadlifts and rows merged (LIB-17); the hurdle hops are two levels of one drill - taller hurdles and continuous contacts at ADVANCED (LIB-04). |
 | 4. Leg press / pendulum only ADVANCED, hack squat disliked but offered? | No machine ranking (EQ-11); older/injured FOUNDATIONAL clients may use leg press, pendulum and hip thrust machine (EQ-04); machines are easier (CAT-04). |
-| 5. Which program-only exercises join the BYOP library? | Partly: the items named in LIB-20 / LIB-21 / EQ-05 / EQ-11 were added; the rest stay swap-only (CAT-07). Still open for the others. |
+| 5. Which program-only exercises join the BYOP library? | Partly: the items named in LIB-20 / LIB-21 / EQ-05 / EQ-11 were added; the rest stay swap-only (CAT-07). v1.1: R2-LIB-07 added hang clean, single-arm DB snatch, KB squat clean, hex-bar jump and three home items, and approved that the rest stay swaps until he adds them. |
 | 6. Generic program names ('DEADLIFTS', 'Rows'...): which implement by default? | By client: bodyweight -> DB -> barbell as level rises, limited by the kit (EQ-09), and the client may prefer an alternative (EQ-10). |
 | 7. 'Base exercise + stacked variables' as the variety engine? | Named exercises are picked; 1-2 small variables change between blocks (PER-02). The coach did not understand CAT-12, so nothing more is needed. |
-| 8. Equipment of ambiguous items ('Weighted squat to calf raise', 'Bench Push ups', 'KB Face Pulls', 'Low DB Squats', 'Camporini')? | Any tool (LIB-07); Low DB squats = DBs at the sides; Camporini removed (LIB-09). Bench push-ups (LIB-12) and KB face pulls (LIB-10) are still unanswered. |
-| 9. Count filed-elsewhere items toward the slot or the muscle trained? | Toward the muscle trained: leg flexion -> hamstrings, not the hinge (CAT-09); leg extension and curl fully to quads / hamstrings (VOL-09); thrusters 1.0 quads + 0.5 shoulders (LIB-14 as approved; v1 had 0.25 - corrected). Front raises in the 'ABdution' pool were not asked. |
+| 8. Equipment of ambiguous items ('Weighted squat to calf raise', 'Bench Push ups', 'KB Face Pulls', 'Low DB Squats', 'Camporini')? | Any tool (LIB-07); Low DB squats = DBs at the sides; Camporini removed (LIB-09). Bench push-ups (LIB-12) and KB face pulls (LIB-10) were answered in round 2: both bench push-up versions (R2-LIB-05) and KB face pulls = shoulder work (R2-LIB-04, LIB-10). |
+| 9. Count filed-elsewhere items toward the slot or the muscle trained? | Toward the muscle trained: leg flexion -> hamstrings, not the hinge (CAT-09); leg extension and curl fully to quads / hamstrings (VOL-09); thrusters 1.0 quads + 0.5 shoulders (LIB-14 as approved; v1 had 0.25 - corrected; v1.1: + 0.25 glutes, R2-VOL-05). Front raises in the 'ABdution' pool were not asked. |
 | 10. Unclear names (Camporini, Pull under, Kong rows, strap rotating, ...)? | Camporini and strap rotations removed; pull under = cable lat pull-over; Kong row = double-KB row from the floor (LIB-09). 'Sealed cable row', 'Pendulum row', 'Face up tricep push away', 'Plate core', 'Med ball rockers', 'Swiss ball kicks', 'hips raises', 'no money curls', 'Oscilating drop squats', 'Banded tantrums' (now out of scope) were not asked. |
 | 11. Calorie items: machine-specific? every cardio slot? | Any erg, tracked by calories, time or distance (EQ-14); extend the dropdowns logically (FIX-02). |
 | 12. Half-marathon plan: keep separate? | Used as-is for half-marathon goals only (PRG-12). |
 | 13. Where do slings, carries and drags go? | Carries and drags for athletes and general fitness, slings for advanced athletes and rehab (LIB-19); the slot they feed is still open. |
 
-### 10.2 New questions the answers raise
+### 10.2 v1 questions (status after round 2 in brackets)
 
-1. LIB-18: you call the '21.6 mile run' a marathon, but a marathon is 26.2 mi. Should the test be 26.2 mi, stay 21.6 mi, or be dropped?
-2. LIB-20 vs LIB-09: the LIB-20 list ('Hold between knees squats', cossacks, strap rotations) was marked RIGHT, but LIB-09 says to take the strap rotating in / out away. We removed the strap rotations - correct?
-3. CAT-11: you have not named the plyo progression yet. Do 'Land (receive and pause) -> Land and go (receive then create) -> Repeat (repeated receive / create)' work as names?
-4. ATH-10: the full power clean / power snatch / power clean & jerk sit in the BYOP ADVANCED block, but you said intermediate+ athletes do the full lifts. We now offer them from INTERMEDIATE (squat versions stay ADVANCED) - correct?
-5. CAT-04 + EQ-04: machines are easier, and older / injured beginners may use the leg press, pendulum and hip thrust machine. Should every client (not only older / injured) be able to get constraint 4-5 machines at FOUNDATIONAL?
-6. VOL-09 on pulls: rows and pulldowns now give biceps 0.25 per set, like presses give triceps 0.25. Do you count biceps on pulls?
-7. LIB-19: are the 9 proposed carries and drags (farmer carry, front-rack KB carry, overhead KB carry, sandbag bear-hug carry, farmer hold, sled push, forward / backward / lateral sled drag) the right starters, and should carries count as core sets?
-8. CAT-08: by your thorax / pelvis rule, toes to bar and hanging knees to chest move to CORE PELVIS and V-ups to BOTH (BYOP files toes to bar and knees to chest under CORE THORAX). Keep that?
-9. LIB-02 follow-up: on 'Push up Box Jump', do the hands jump from the floor up onto the box?
-10. LIB-14 vs VOL-09: you approved thrusters as 1.0 quads + 0.5 shoulders, and later said helpers get 0.25. We kept 0.5 for thrusters (like dips 0.5 / 0.5, the shoulders do a full press). Correct?
-11. CAT-04: you said a barbell back squat is more advanced, but BYOP files the high-bar and low-bar back squat under MODERATE. We now file them ADVANCED (front squat stays INTERMEDIATE). Correct?
-12. EQ-03: you said older / injured / high-volume clients never get depth jumps. We also keep them off the High Depth Drop (above hip height), whose landing is at least as hard. Correct?
-13. PER-04: you squat with the bar on the back once a week and leg press or belt squat the other day. On that second day, are goblet / DB / KB squats, the hack squat and the pendulum fine, or should it be only no-spine-load options (leg press, belt squat, split squats)?
+1. LIB-18: you call the '21.6 mile run' a marathon, but a marathon is 26.2 mi. Should the test be 26.2 mi, stay 21.6 mi, or be dropped? [R2-LIB-06: dropped]
+2. LIB-20 vs LIB-09: the LIB-20 list ('Hold between knees squats', cossacks, strap rotations) was marked RIGHT, but LIB-09 says to take the strap rotating in / out away. We removed the strap rotations - correct? [not asked in round 2; still open]
+3. CAT-11: you have not named the plyo progression yet. Do 'Land (receive and pause) -> Land and go (receive then create) -> Repeat (repeated receive / create)' work as names? [R2-ATH-03: yes - 'Receive-Create stages']
+4. ATH-10: the full power clean / power snatch / power clean & jerk sit in the BYOP ADVANCED block, but you said intermediate+ athletes do the full lifts. We now offer them from INTERMEDIATE (squat versions stay ADVANCED) - correct? [not asked; still open]
+5. CAT-04 + EQ-04: machines are easier, and older / injured beginners may use the leg press, pendulum and hip thrust machine. Should every client (not only older / injured) be able to get constraint 4-5 machines at FOUNDATIONAL? [not asked; R2-LIB-02 'made easier by a seat, machine or cable' supports it]
+6. VOL-09 on pulls: rows and pulldowns now give biceps 0.25 per set, like presses give triceps 0.25. Do you count biceps on pulls? [not asked; still open]
+7. LIB-19: are the 9 proposed carries and drags (farmer carry, front-rack KB carry, overhead KB carry, sandbag bear-hug carry, farmer hold, sled push, forward / backward / lateral sled drag) the right starters, and should carries count as core sets? [not asked; still open]
+8. CAT-08: by your thorax / pelvis rule, toes to bar and hanging knees to chest move to CORE PELVIS and V-ups to BOTH (BYOP files toes to bar and knees to chest under CORE THORAX). Keep that? [not asked; still open]
+9. LIB-02 follow-up: on 'Push up Box Jump', do the hands jump from the floor up onto the box? [not asked; still open]
+10. LIB-14 vs VOL-09: you approved thrusters as 1.0 quads + 0.5 shoulders, and later said helpers get 0.25. We kept 0.5 for thrusters (like dips 0.5 / 0.5, the shoulders do a full press). Correct? [R2-VOL-05: yes, plus 0.25 glutes]
+11. CAT-04: you said a barbell back squat is more advanced, but BYOP files the high-bar and low-bar back squat under MODERATE. We now file them ADVANCED (front squat stays INTERMEDIATE). Correct? [R2-LIB-02 approved the load-position principle behind it]
+12. EQ-03: you said older / injured / high-volume clients never get depth jumps. We also keep them off the High Depth Drop (above hip height), whose landing is at least as hard. Correct? [R2-ATH-08: for older adults depth work is an opt-in with a warning; injured / high-volume still INFERRED 'never']
+13. PER-04: you squat with the bar on the back once a week and leg press or belt squat the other day. On that second day, are goblet / DB / KB squats, the hack squat and the pendulum fine, or should it be only no-spine-load options (leg press, belt squat, split squats)? [R2-SES-02: goblet, hack and pendulum are fine on the second day if not sore]
+
+### 10.3 New questions raised in v1.1
+
+1. **Wall balls (HYROX / CrossFit)**: you named wall balls as a use for a heavier medball (EQ-06). Should a wall ball count like a thruster (1.0 quads + 0.5 shoulders + 0.25 glutes) or, as a throw, count no sets (VOL-10)? We count no sets and treat it as conditioning.
+2. **KB swing slot**: swings are ballistic, not glute work (R2-VOL-05). We put them in the triple-extension / power slot and keep them as a swap (0 sets) in the hip-dominant slot. Is the power slot the right home, or do they belong in conditioning / warm-up?
+3. **Pickleball / court sports for 50+ and 60+**: the split-step is a small hop and a core sport skill. Because you said no plyos by default for 60+ (R2-ATH-08), a 60+ player gets the no-hop split-step by default (step into the ready position on the cue without leaving the ground); the small hop is the opt-in with your warning. Right, or should 60+ pickleball players get the small hop by default?
+4. **Neck and grip work**: collision and grappling sports (football, wrestling, rugby, hockey, BJJ, MMA) usually train the neck, and climbers / grapplers train grip. We added two neck exercises and grip / arm-care items as PROPOSED, counting no sets. Do you want neck work in your programs, and should it count toward a muscle group?
+5. **Distance tests longer than a half marathon** (adversarial check): when you removed the 21.6-mile run you approved 'the longest run stays the half-marathon plan' (R2-LIB-06). Your library still has 14-, 17- and 20-mile distance tests. Keep them for runners who ask, or remove them like the 21.6? They are flagged and never offered to an untrained client (R2-PER-07).
 
 ## 11. Record fields (JSON)
 
 | field | meaning | evidence |
 |---|---|---|
-| id | stable slug of the v0 canonical name (prefix `mod-` modifier, `ph-` heading/rule, `cx-` complex). Renamed records keep their id so the crosswalk and other docs still resolve | ours |
-| name / record_type / generic / status | canonical name (typos fixed), type, whether the source names no implement/grip, where it lives. v1 adds record types `out_of_scope` and `retired` (with `record_type_v0`) and statuses `added_v1` / `proposed_v1` | INFERRED from sources; v1 values from coach answers |
+| id | stable slug of the v0 canonical name (prefix `mod-` modifier, `ph-` heading/rule, `cx-` complex). Renamed records keep their id so the crosswalk and other docs still resolve; v1.1 new records get a slug of their v1.1 name | ours |
+| name / record_type / generic / status | canonical name (typos fixed), type, whether the source names no implement/grip, where it lives. v1 adds record types `out_of_scope` and `retired` (with `record_type_v0`) and statuses `added_v1` / `proposed_v1`; v1.1 adds statuses `added_v1_1` / `proposed_v1_1` and `record_type_v1` on the record it retired | INFERRED from sources; v1 values from coach answers |
 | aliases[] | every raw spelling (the cell text) with workbook, tab, cell, role, level label, category, merge reason (v1 merges cite the question ID), program dose and cues, video links; `program` is our program name ('JUSTICE LEAGUE' -> 'ATHLETIC - GENERAL (non-competitive adults and youth)', old value in `program_v0`, ATH-13) while `tab` stays verbatim | OBSERVED |
 | taxonomy | family, region, pattern_code (v1; `pattern_code_v0` when an answer moved it), category, coach label (verbatim), sub-pattern, ZONE codes (verbatim), row-6 PURPOSE, path, 01 taxonomy node | labels OBSERVED; codes ours |
 | placements[] | each library/reference cell with its own pattern, category and level (the BYOP filing, even when v1 moved the record) | OBSERVED |
@@ -2268,6 +2443,17 @@ PROPOSED starter items for the empty CARRY / DRAGS headings (PENDING COACH APPRO
 | related[] | variant_of / has_variant / generic_of / progression / regression / related (merged ids repointed in v1) | INFERRED |
 | flags / flags_resolved_v1 | open conflicts; v0 flags closed by an answer (with question ID and how) | cells OBSERVED; readings INFERRED; resolutions COACH-ANSWER |
 | v1_changes | per-record changelog: question ID, change, evidence | COACH-ANSWER / INFERRED / PROPOSED |
+| v1_1_changes | per-record round-2 changelog (R2 question ID, LIB-10 / LIB-12, PROPOSED-ADDITION, sport expansion) | COACH-R2 / INFERRED / PROPOSED |
+| contact_class_v1_1 | ballistic / plyometric / receive (+ basis) on every jump and throw | COACH-R2 R2-ATH-02 (named) / INFERRED (rule) |
+| athletic_quality.receive_create_stage / plyo_method_rule_v1_1 | default stage 1 Land / 2 Land & Go / 3 Repeat (as named), stages available; the approved stage timing | COACH-R2 R2-ATH-03 |
+| olympic_v1_1 | family (clean / snatch / jerk / loaded jump), day pattern, frequency, reps, load guidance | COACH-R2 R2-ATH-04 / R2-ATH-05 / R2-GEN-06 (jerk family INFERRED) |
+| older_default_excluded | 60+ default exclusion, opt-in, warning key, default_swap | COACH-R2 R2-ATH-08 |
+| axial_spinal_load.spine_day_v1_1 | counted heavy spine lift / second-day option if not sore / not counted | COACH-R2 R2-SES-01 / R2-SES-02 (variants INFERRED) |
+| davidson_zone.use_v1_1 | zone = tag; swap selector when something hurts | COACH-R2 R2-LIB-02 / R2-LIB-03 |
+| variation_v1_1 | the one-detail changes allowed between blocks | COACH-R2 R2-LIB-01 (axes INFERRED) |
+| test_rules_v1_1 / day_placement_v1_1 / library_v1_1 / retired_v1_1 / new_in_v1_1 | testing rule; KB face-pull day; library addition; v1.1 retirement; v1.1 new record | COACH-R2 R2-PER-07 / LIB-10 / R2-LIB-07 / R2-LIB-06 / R2-LIB-05, R2-LIB-07, PROPOSED |
+| sport_use_v1_1 / profile_category_v1_1 | sports that use the item; 04_profiles category of a new record | INFERRED (sport needs analysis) |
+| *_v1 fields | the v1 value a round-2 answer replaced (name_v1, level.primary_v1, per_set_v1, pattern_code_v1, record_type_v1, generator_v1, value_v1 ...) | - |
 | sources / observed_fields / inferred_fields / notes | provenance | - |
 
 ## Verification log (v1)
@@ -2470,3 +2656,96 @@ Section 3.3 implement counts (cardio_treadmill 25 -> 37, cardio_machine 22 -> 34
 - `01_taxonomy.md` still credits thrusters 0.25 and keeps its own level codes (from the first pass); it may also still describe A-drills as speed work only.
 - `10_equipment_model.json` zone tags mix the CAT-04 load-position reading with the CAT-10 joint-angle reading (e.g. a goblet squat is zone 1 by its load, but any deep squat reaches the zone-3 position); not re-derived, and the coach says not to rely on zones yet.
 - Minor naming, left as is: 'Cable Woodchopper (cable chop)' also has DB / KB / medball set-ups, so it appears in home profiles under a cable name.
+
+## v1.1 verification log (2026-10-08)
+
+Built by re-runnable python scripts that always start from the untouched v1 JSON (`apply_v1_1.py` + `apply_v1_1_b.py`, kept in the builder's scratchpad) and log every change per record (`v1_1_changes`). The markdown tables of sections 3, 4 and 6.3 and the subset tables were regenerated with a renderer that was first run on the v1 JSON and reproduced the v1 tables byte for byte (sections 3, 4, 6.3 and the subset sections 2 and 4); the only v1 difference it found is a stale count in the subset (section 6 of `02_no_equipment_subset.md`: the Plyo dropdown counted the Max-Velocity Sprint, which LIB-21 had moved to the SPRINT pool - 39 -> 38). Nothing in Google Sheets was touched; the crosswalk file was not changed.
+
+| check | result |
+|---|---|
+| records / active exercise-like records | 939 / 732 (v1: 913 / 707) |
+| crosswalk references that no longer resolve | 0 of 3824 |
+| related links pointing to a missing id | 0 |
+| duplicate names among active records | 0 |
+| active records with a band or chains set-up / in the name | 0 / 0 |
+| athletic records that count toward muscle volume (VOL-10) | 0 |
+| KB swings that still credit glutes (R2-VOL-05) | 0 of 4 swing records |
+| thrusters = QUADS 1.0 + SHOULDERS/TRAPS 0.5 + GLUTES 0.25 (R2-VOL-05) | OK |
+| counted BKD records without a glute credit (only the sissy squat may have none) | Sissy Squat |
+| records with a 0.5 credit (expected: dips, diamond push-up, thrusters) | Assisted Dips (machine); Barbell Thruster; DB Thruster (front squat into overhead press); Diamond (Close-Hand) Push-Up; Machine Dip; Parallel-Bar Dip; Single-Arm DB Thruster; Weighted Dip |
+| medball records with a max load over 20 lb (EQ-06) | 0 |
+| PLYO / ANKLE / THROW records with an R2-ATH-02 contact class | 137 of 137 |
+| PLYO / ANKLE records with a Receive-Create stage (R2-ATH-03) | 96 of 96 |
+| TX records without an Olympic family (expected: the extension drills) | Bodyweight Squat to Calf Raise; Hex Bar Squat to Calf Raise; Lunge to High-Knee Reach; Weighted Squat to Calf Raise (any implement) |
+| PLYO / ANKLE / Olympic records not off-by-default for 60+ (R2-ATH-08) | 0 |
+| older adults still 'never' on Olympic / plyo items (should be opt-in, R2-ATH-08) | 0 |
+| ATH-09 'few plyos unless they ask' rules left in live fields | 0 |
+| PROPOSED-ADDITION records / of them default candidates | 22 / 0 |
+| 21.6-mile run: record type / generator eligible | retired / False |
+| KB face pull: pools / default candidate / credit | ['SHLD'] / False / {'SHOULDERS/TRAPS': 1.0} |
+| flags still saying PENDING LIB-10 / LIB-12; pending_coach still PENDING | 0; 0 |
+| plyo method 'not named / PENDING' wording left in athletic_quality | 0 |
+| axial rules still saying PENDING COACH APPROVAL | 0 |
+| zone bases still reading levels from zones | 0 |
+
+Spot checks: Bench Push-Up - Feet on Bench = ADVANCED, AF11 + Sheet23 Z4 (R2-LIB-05); Belt Squat = FOUNDATIONAL (R2-LIB-07); Kettlebell Swing (Russian) pools TX + BHD, 0 sets (R2-VOL-05); Power Snatch = snatch day, 60+ off by default, injured / high-volume 'never' (R2-ATH-04, R2-ATH-08, EQ-03); Squat Clean reps '3-5 per set' (R2-ATH-05); Barbell Good Morning = counted heavy spine lift, Goblet Squat = second-day option if not sore (R2-SES-02); Depth Jump = plyometric, stage 2 Land & Go (R2-ATH-02 / R2-ATH-03); Wall Ball medball max 20 lb (EQ-06).
+
+Not changed here (other files): `04_profiles.json` sport ids (`sport_use_v1_1` uses plain names), `05_templates.json` (NO ACCESS wiring, R2-LIB-08), `12_volume_algorithm_v1` / `03_volume_rules.json` (their credit map should drop the KB swing glute credit and use thrusters 1.0 / 0.5 / 0.25 and hinge glutes 0.25, R2-VOL-05), `10_equipment_model.json` (zones and constraint levels of the new records are INFERRED here), `generator_spec_v1.json` (left to the master / spec step).
+
+## v1.1 verification log - adversarial check (2026-10-08)
+
+Adversarial check of the v1.1 round-2 update. `coach_answers_round2.md` was re-read in full first (authority: round 2 > round 1 > everything else). Every check ran with python on `02_exercise_catalog.json` and on this file; fixes were made in place (JSON + tables + examples), each JSON fix logged in the record's `v1_1_changes` with `pass: 'v1.1 adversarial check (2026-10-08)'` (762 entries on 733 records: 29 targeted fixes + 733 `muscle_size_class_basis` rewrites). Nothing in Google Sheets was touched; the crosswalk file was not changed (3824 references, 0 unresolved; related links 0 unresolved; duplicate active names 0).
+
+**Verdict: the round-2 library answers (R2-LIB-01 to R2-LIB-08, LIB-10, LIB-12), R2-VOL-05, R2-SES-01 / R2-SES-02, R2-ATH-02 to R2-ATH-05, R2-ATH-08, R2-PER-07 and R2-GEN-02 / R2-GEN-06 / R2-GEN-08 were applied - but not everywhere.** The first pass had left one live lifestyle input on 733 records, a swing that could still be the default hip-dominant pick, a '% of 1RM' name, a plyometric drill that was on by default for 60+, and several stale answer states. All fixed below.
+
+### Round-2 answers that bear on the catalog, and what this check found
+
+| answer | where it lives | finding | fix |
+|---|---|---|---|
+| R2-VOL-01, R2-VOL-03, R2-GEN-04, R2-PER-03 / R2-PER-04 (stairway, no check-in = no change, no lifestyle inputs) | `muscle_size_class_basis` (733 records), v1 changelog CAT-02 | every record still said the weekly step 'is chosen by the person's state (fatigue, life, response)' - a lifestyle input the coach rejected | FIXED: rewritten on 733 records (planned stairway; no check-in = no change; a check-in step from effort, completion and pain only). **Resolution flagged:** the R2-VOL-01 table is approved but used without its 'life' columns, because R2-GEN-04 rejects sleep / stress / life questions. CAT-02 row annotated |
+| R2-VOL-02 (effort 10 = max but successful) | not a catalog field | no effort wording in records | OK (taxonomy F.DOSE fixed) |
+| R2-VOL-04 / R2-VOL-06 (floor 10, most 20-30, caps customizable, 'pro' level) | not a catalog field | no weekly-set targets in records | OK; rear-delt 4 / 6 / 8 vs floor 10 flagged in `01_taxonomy.md` pending |
+| R2-VOL-05 (glutes 0.25 on squats / lunges / deadlifts / RDLs; thrusters 1.0 / 0.5 / 0.25; KB swings never glutes) | `volume_credit`, `generator`, 6.2, 10.1 | credits right (BKD 40 x 0.25 + sissy squat none; UKD 21 x 0.25; BHD 15 hinges 0.25 + 10 thrust / bridge / pull-through / reverse-hyper 1.0; UHD 8 + 3; 3 thrusters 1.0 / 0.5 / 0.25; 3 swings 0). But the 3 thrusters' `pending_coach` still read 'CONFIRM'; the 6 thruster rows in 6.2 and 10.1 #9 lacked the glute share; and the Russian and split-stance swings were record-level default candidates, so the hip-dominant slot could default to a swing that fills 0 sets (the subset showed them with `*`) | FIXED: `pending_coach` RESOLVED by R2-VOL-05; `flags_resolved_v1.how_v1_1`; 6.2 and 10.1 annotated; new `generator.default_candidate_by_pool` (default only in TX); subset stars and KB counts fixed |
+| R2-VOL-07 (no deload inside a block) | 8.4, notes | only OBSERVED week labels ('DELOAD', 'DELOAD WEEK') and the box-squat 'deload' (= dead stop) | 8.4 rows annotated 'OBSERVED label only' |
+| R2-VOL-08 (not understood) | - | not a catalog item | default kept elsewhere |
+| R2-SES-01 / R2-SES-02 (two heavy spine days; counted list) | `spine_day_v1_1` (158) | 4 calf raises (machine, bodyweight deficit, DB, weighted single-leg) were tagged 'second-day option if not sore' - the second-day list is for front-loaded squats, and calves run every leg day (VOL-17); the Belt Squat note still said 'squat once a week' | FIXED: calf raises -> 'not counted (INFERRED)' (now 25 counted / 25 second-day / 40 Olympic / 68 other); belt-squat note annotated; R2-SES row counts updated |
+| R2-SES-03 (light core opener; supersets anywhere) | 2.1 | not stated | added to 2.1 |
+| R2-SES-04 / R2-SES-05 (12 + 2 core; full-body 2-4 exercises per muscle) | session files; subset section 6 | the subset's NO ACCESS tables could read as the v1.1 session shape (single slots for biceps, calves ...) | subset section 6 now says it is OBSERVED wiring and that full-body days get 2-4 exercises per muscle |
+| R2-ATH-02 (ballistic / plyometric / receive) | `contact_class_v1_1` (150) | named lists verified by name pattern: depth jumps, pogo / ankle hops, hurdle hops, bounds, squirrel jumps, repeated jumps = plyometric; box / broad / squat jumps = ballistic except the documented tie-breaks (depth-drop-to-box-jump and hurdle-hops-into-box-jump = plyometric, unloaded split squat jumps = plyometric, DB repeated squat jumps = ballistic); 41 throws ballistic; 12 landings receive | OK |
+| R2-ATH-03 (Receive-Create stages) | `receive_create_stage` (96) | Plyometric Push-Ups: class plyometric (repeated) but default stage 1 with the v1 'one big effort, stuck landing' note | FIXED: default stage 3 Repeat, stages 1-3 (section 4 row too) |
+| R2-ATH-04 / R2-ATH-05 / R2-GEN-06 (up to 4 x a week; clean / snatch days; reps; RPE not %) | `olympic_v1_1` (39) | no once-a-week cap anywhere (the in-season light piece has no weekly cap); but 'Hang Snatch (% of 1RM; catch not stated)' kept the % in its name (its Hang Clean twin was renamed), and the DB Push Jerk carried the 'barbell catch 3-5 reps' text although R2-ATH-05 keeps the ramp for DB / KB | FIXED: renamed 'Hang Snatch (catch not stated)' (`name_v1` kept; sections 4 and 8.1); DB Push Jerk reps = the DB / KB ramp |
+| R2-ATH-08 (60+ no Olympic lifts / plyos / depth jumps by default; youth floor ~14) | `older_default_excluded` | every PLYO / ANKLE / Olympic record was off by default, but the PROPOSED Split-Step Reaction Drill (classed plyometric) was not | FIXED: off by default for 60+, no-hop split-step as the default swap (INFERRED), opt-in with the warning; 141 records; question 10.3 #3 reworded. Youth floor rule on the 6 floor lifts: OK |
+| R2-LIB-01 / R2-LIB-02 / R2-LIB-03 | `variation_v1_1` (553), `davidson_zone` | OK (0 levels read from zones) | - |
+| R2-LIB-04 / LIB-10, R2-LIB-05 / LIB-12 | KB face pull, bench push-ups | records right; notes still said 'LIB-10 still PENDING', 'verify with coach' and 'Ask coach' | FIXED: notes annotated with the answers |
+| R2-LIB-06 (21.6-mile run removed; 'the longest run stays the half-marathon plan') | retired record, tests | retired correctly; its note still said 'the mismatch stays open'; the 14-, 17- and 20-mile distance tests are longer than the half marathon the coach kept as the longest run | FIXED: note closed. FLAGGED: 3 distance tests (6.3 group, question 10.3 #5) - kept as OBSERVED until the coach decides |
+| R2-LIB-07 (library additions and levels) | 9 records | the Table Row's FOUNDATIONAL was cited as set by R2-LIB-07, but the coach named no level for the three home items; section 3.2 said '10 levels set by a round-2 answer'; 6 R2-LIB-07 records kept the stale "'any'/unrated" `generator_min_level_basis` | FIXED: Table Row level basis INFERRED; 3.2 now says 8; basis aligned on 6 records |
+| R2-LIB-08 (NO ACCESS) | subset section 6 | 4 of 4 'Unilateral HD' rows on AQ | OK |
+| R2-PER-07 (test before / at the end; no 1RM or max mile from zero) | `test_rules_v1_1` (13) | OK; no record name or live field offers a 1RM to the untrained | - |
+| R2-GEN-02 (videos optional) | 2.x, notes | 0 live 'needs a video' text | OK |
+| R2-GEN-08 (Spanish format) | changelog | format recorded, names pending | OK |
+| R2-ATH-01, R2-ATH-06, R2-ATH-07, R2-PER-01 / R2-PER-02 / R2-PER-05 / R2-PER-06, R2-GEN-01 / R2-GEN-03 / R2-GEN-05 / R2-GEN-07, R2-SES-06 | profiles, periodization, session, product files | no catalog field | - |
+| Coach request 2026-10-08 (every popular US sport, swimming; pickleball and HYROX for gen pop) | 2.8, `sport_use_v1_1` | 22 PROPOSED-ADDITION records + tags on 38 existing records; tags name 46 sports incl. swimming (18 records), pickleball (19), HYROX (16), CrossFit, bootcamp, football, basketball, baseball, softball, soccer, ice hockey, volleyball, tennis, golf, lacrosse, rugby, wrestling, boxing, MMA, rowing, cycling, skiing, triathlon, active aging. Sports in `synthesis/sports/*.json` with no tag (field hockey, ultimate, cheer, track event groups, cross country, judo, karate, taekwondo) use existing library items (INFERRED: no new exercise needed); `sport_use_v1_1` uses plain names and the profile merge maps them to profile ids | OK (no change) |
+
+### Retired ideas - grep after the fixes (live text; history = v0 / v1 changelogs and logs, `*_v0` / `*_v1` / `*_before_check` fields, OBSERVED aliases and cells)
+
+| retired idea | JSON live | this file live | subset live |
+|---|---|---|---|
+| acclimation step caps / start-hard 8-week / target-seeking | 0 | 0 | 0 |
+| deload or maintenance week inside a block | 0 (only OBSERVED labels and the box-squat 'deload' = dead stop) | 0 (8.4 labels annotated) | 0 |
+| life / sleep / stress inputs | 0 (was 733; the new text says 'no sleep / stress / life inputs') | 0 | 0 |
+| effort 10 = fail | 0 | 0 | 0 |
+| KB swing glute credit | 0 | 0 | 0 |
+| 1 exercise per muscle on full-body days | 0 | 0 | 0 (section 6 note) |
+| Olympic once-a-week cap | 0 (only the PER-04 `rule_v1` axial history, and the belt-squat note now annotated) | 0 | 0 |
+| mid-block tests | 0 (only 'never mid-block') | 0 | 0 |
+| 1RM test for the untrained | 0 ('% of 1RM' left the last name; `load_guidance` and `test_rules` say RPE / 5RM / 3RM) | 0 | 0 |
+| mandatory videos | 0 | 0 | 0 |
+
+### Recounted after the fixes
+
+`older_default_excluded` 140 -> 141; spine-day classes 25 counted / 29 -> 25 second-day / 40 Olympic / 64 -> 68 not counted; `v1_1_changes` 615 records / 1420 entries -> 733 / 2182; section 2 table of the subset: Bilateral HD KB 8 [6] -> 8 [5], Unilateral HD KB 5 [5] -> 5 [4]. Pattern, level, tier and constraint tables (3.1 - 3.4) are unchanged: no record changed pattern, primary level, tier, constraint or record-level default flag (the swings keep `default_candidate: true` for the TX slot; the per-pool flag is new).
+
+### Not changed here (other files to sync)
+
+- `03_volume_rules.json` / `12_volume_algorithm_v1` / `05_templates.json` / `generator_spec_v1.json`: read `generator.default_candidate_by_pool` before `default_candidate`; drop any lifestyle input from the step rule (R2-GEN-04); the rear-delt 4 / 6 / 8 vs floor-10 reconciliation (R2-VOL-04 / R2-VOL-06).
+- `04_profiles.json` / `synthesis/sports/*.json`: the 60+ no-hop split-step default for pickleball / tennis / padel profiles; the 14 / 17 / 20-mile tests (10.3 #5) for running profiles.

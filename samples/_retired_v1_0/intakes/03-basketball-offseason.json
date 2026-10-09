@@ -1,0 +1,109 @@
+{
+  "schema": "intake/1",
+  "_comment": "Sample 3: competitive college guard, off-season, next season starts in 14 weeks (2027-01-18), 8-week plan, 4 x 90 min, full gym + field kit (medballs, boxes, hurdles, cones). Spanish output.",
+  "id": "sample-03-basketball-offseason",
+  "lang": "es",
+  "units": "lb",
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "age": 19,
+  "body_weight": {
+    "value": 185,
+    "unit": "lb"
+  },
+  "goal": "athletic",
+  "format": null,
+  "sport": {
+    "competitive": "competitive",
+    "sport": "basketball",
+    "position": "basketball_guard",
+    "level_of_play": "college",
+    "season": {
+      "type": "next_season_start",
+      "date": "2027-01-18"
+    },
+    "practice": null
+  },
+  "experience": {
+    "years_consistent": 2,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "recovery": {
+    "sleep": "7_8",
+    "stress": "normal",
+    "hard_job_or_other_sport": false
+  },
+  "priority_muscles": [],
+  "lift_style": "balanced",
+  "schedule": {
+    "days_per_week": 4,
+    "weekdays": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri"
+    ],
+    "session_minutes": 90,
+    "start_date": "2026-10-12"
+  },
+  "plan": {
+    "mode": "fixed_8",
+    "maint_reason": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "speed_agility",
+      "jumps"
+    ]
+  },
+  "equipment": {
+    "profile": "FULL_GYM",
+    "extras": [
+      "medball",
+      "slam_ball",
+      "plyo_box_high",
+      "two_boxes",
+      "hurdles",
+      "cones",
+      "open_space_long"
+    ],
+    "machines": [],
+    "preference": "none",
+    "detail": {
+      "heaviest_db_pair": null,
+      "medball_lb_owned": [
+        8,
+        10,
+        14
+      ],
+      "box_height_in": 24,
+      "running_space": "40_60m_or_track",
+      "cardio_options": [
+        "run",
+        "bike"
+      ]
+    }
+  },
+  "pain": [],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "start",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false
+  },
+  "growth_stage": null,
+  "role": "self",
+  "email": null,
+  "coach_rule_pack_ids": []
+}

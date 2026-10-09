@@ -1,0 +1,6 @@
+{
+  "name": "blaze-camp-tests",
+  "private": true,
+  "description": "Lets `node --test tests/` work on Node 22: a directory argument is loaded as a module, so it resolves to run-all.mjs, which imports every tests/**/*.test.mjs. `node --test` (no argument) discovers the same files directly.",
+  "main": "run-all.mjs"
+}

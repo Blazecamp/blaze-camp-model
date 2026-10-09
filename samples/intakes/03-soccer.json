@@ -1,0 +1,115 @@
+{
+  "schema": "intake/2",
+  "_comment": "Coach sample 3 (R2-GEN-07): semi-pro midfielder (level of play 'amateur' - the picker has no semi-pro option), season starts in 10 weeks (2026-12-21), 8-week plan, 3 days x 75 min, full gym + field kit, 2 years lifting, 165 lb, Spanish output. With 10 weeks to the season the plan is a 6-week off-season stairway + the first 2 weeks of a 4-week pre-season (D-10).",
+  "id": "sample-03-soccer",
+  "lang": "es",
+  "units": "lb",
+  "role": "self",
+  "health_route": null,
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "release": {
+    "accepted": true,
+    "version": "release.client",
+    "lang": "es",
+    "guardian": null
+  },
+  "age": 22,
+  "body_weight": {
+    "value": 165,
+    "unit": "lb"
+  },
+  "experience": {
+    "years_consistent": 2,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "goal": "athletic",
+  "format": null,
+  "sport": {
+    "competitive": "competitive",
+    "sport": "soccer",
+    "position": "midfielder",
+    "position_detail": null,
+    "level_of_play": "amateur",
+    "season": {
+      "type": "next_season_start",
+      "date": "2026-12-21"
+    },
+    "practice": {
+      "practice_days_per_week": 2,
+      "game_days": []
+    }
+  },
+  "activity": null,
+  "priority_muscles": [],
+  "lift_style": "balanced",
+  "schedule": {
+    "days_per_week": 3,
+    "weekdays": [
+      "Mon",
+      "Wed",
+      "Fri"
+    ],
+    "session_minutes": 75,
+    "start_date": "2026-10-12"
+  },
+  "plan": {
+    "mode": "fixed_8",
+    "maint_reason": null,
+    "maint_weeks": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "speed_agility",
+      "jumps"
+    ],
+    "just_finished_block": false
+  },
+  "equipment": {
+    "profile": "FULL_GYM",
+    "extras": [
+      "hurdles",
+      "open_space_long"
+    ],
+    "machines": [],
+    "preference": "none",
+    "detail": {
+      "heaviest_db_pair": null,
+      "medball_lb_owned": [
+        6,
+        8,
+        10
+      ],
+      "box_height_in": 24,
+      "running_space": "40_60m_or_track",
+      "cardio_options": [
+        "run",
+        "bike"
+      ]
+    }
+  },
+  "pain": [],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "start",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false,
+    "cardio_adjust": 0,
+    "older_athletic_opt_in": false,
+    "split_style": "default"
+  },
+  "growth_stage": null,
+  "email": null,
+  "coach_rule_pack_ids": []
+}

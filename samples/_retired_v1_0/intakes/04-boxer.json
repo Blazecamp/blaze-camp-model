@@ -1,0 +1,109 @@
+{
+  "schema": "intake/1",
+  "_comment": "Sample 4: competitive amateur boxer, off-season build (no fight date), 4 years, 4 x 75 min, full gym, mild right-shoulder pain, 8 weeks.",
+  "id": "sample-04-boxer",
+  "lang": "en",
+  "units": "lb",
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "age": 25,
+  "body_weight": {
+    "value": 155,
+    "unit": "lb"
+  },
+  "goal": "athletic",
+  "format": null,
+  "sport": {
+    "competitive": "competitive",
+    "sport": "boxing",
+    "position": null,
+    "level_of_play": "amateur",
+    "season": {
+      "type": "no_season",
+      "date": null
+    },
+    "practice": {
+      "practice_days_per_week": 3,
+      "game_days": 0
+    }
+  },
+  "experience": {
+    "years_consistent": 4,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "recovery": {
+    "sleep": "7_8",
+    "stress": "normal",
+    "hard_job_or_other_sport": false
+  },
+  "priority_muscles": [],
+  "lift_style": "balanced",
+  "schedule": {
+    "days_per_week": 4,
+    "weekdays": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri"
+    ],
+    "session_minutes": 75,
+    "start_date": "2026-10-12"
+  },
+  "plan": {
+    "mode": "fixed_8",
+    "maint_reason": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "none"
+    ]
+  },
+  "equipment": {
+    "profile": "FULL_GYM",
+    "extras": [],
+    "machines": [],
+    "preference": "none",
+    "detail": {
+      "heaviest_db_pair": null,
+      "medball_lb_owned": [],
+      "box_height_in": null,
+      "running_space": "40_60m_or_track",
+      "cardio_options": [
+        "run",
+        "bike",
+        "rower"
+      ]
+    }
+  },
+  "pain": [
+    {
+      "area": "shoulder",
+      "side": "right",
+      "severity": "mild",
+      "worse_with": [
+        "overhead"
+      ]
+    }
+  ],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "start",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false
+  },
+  "growth_stage": null,
+  "role": "self",
+  "email": null,
+  "coach_rule_pack_ids": []
+}

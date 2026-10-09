@@ -1,0 +1,41 @@
+{
+ "schema": "manifest/2",
+ "model_version": "1.2.0",
+ "spec_version": "1.1.0",
+ "contracts_version": "1.1.0",
+ "files": {
+  "catalog": "catalog.json",
+  "rules": "rules.json",
+  "templates": "templates.json",
+  "profiles": "profiles.json",
+  "i18n": {
+   "en": "i18n/en.json",
+   "es": "i18n/es.json",
+   "es_review": "i18n/es_review.json"
+  }
+ },
+ "languages": [
+  "en",
+  "es"
+ ],
+ "default_lang": "en",
+ "counts": {
+  "exercises": 731,
+  "templates": 30,
+  "profiles": 127,
+  "sports_in_picker": 52,
+  "activities": 26
+ },
+ "sources_sha256": {
+  "generator_spec_v1.json": "6a7e118f4c3114cd133640be16e59f476d1fef3fe90d28a020bb8e9f9ceca8f7",
+  "coach_answers_round2.md": "dcd8a6c5bec9a6e2be424869708521116f7fe77680f799338b71ed3fe9c6b10d",
+  "synthesis/02_exercise_catalog.json": "8e96a2769c0d6f9a1abc5849ad84d09013fb99f09cb1960b57c5a969b3f4a912",
+  "synthesis/03_volume_rules.json": "596e1ec26cef1b7e0c488a5cdcf4d2197c4cf9c89f4bd7a025308f2cd57a9e95",
+  "synthesis/04_profiles.json": "e06a1c5e47d52adab1e145d16438c3c8910fb01f0a17576c78b0ea71169cb9c2",
+  "synthesis/05_templates.json": "3436ed743f828d3710683dd62bf902f0f19494b5b53cf45c3d58a8fb7a3dc3a6",
+  "synthesis/06_periodization.json": "166a2da8eeed5ac4e0f3571935ca413a8b0451add016b77df266e163907d0074",
+  "synthesis/10_equipment_model.json": "08479e86618235e0b946f2f8f06dcbbd2218fcfa392d1ec06d89e9a03be0ad6a",
+  "synthesis/11_training_variables.json": "d97f04cb3875102646591480fd322e3c237c572008c409845b857769f644487e",
+  "synthesis/12_volume_algorithm_v1.json": "dd12e9a088c7838f9416e2b7aee7fe88559093139b369014f261dee78c6c1ab9"
+ }
+}

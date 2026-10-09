@@ -1,0 +1,87 @@
+{
+  "schema": "intake/1",
+  "_comment": "Sample 1 (coach grading, R2-GEN-07): beginner fat loss, 3 x 60 min, basic commercial gym, 12 weeks.",
+  "id": "sample-01-beginner-fat-loss",
+  "lang": "en",
+  "units": "lb",
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "age": 34,
+  "body_weight": {
+    "value": 210,
+    "unit": "lb"
+  },
+  "goal": "fat_loss",
+  "format": "gym",
+  "sport": null,
+  "experience": {
+    "years_consistent": 0.5,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "recovery": {
+    "sleep": "6_7",
+    "stress": "normal",
+    "hard_job_or_other_sport": false
+  },
+  "priority_muscles": [],
+  "lift_style": "balanced",
+  "schedule": {
+    "days_per_week": 3,
+    "weekdays": [
+      "Mon",
+      "Wed",
+      "Fri"
+    ],
+    "session_minutes": 60,
+    "start_date": "2026-10-12"
+  },
+  "plan": {
+    "mode": "fixed_12",
+    "maint_reason": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "body",
+      "cardio"
+    ]
+  },
+  "equipment": {
+    "profile": "BASIC_GYM",
+    "extras": [],
+    "machines": [],
+    "preference": "none",
+    "detail": {
+      "heaviest_db_pair": null,
+      "medball_lb_owned": [],
+      "box_height_in": null,
+      "running_space": "none",
+      "cardio_options": [
+        "treadmill",
+        "bike",
+        "rower"
+      ]
+    }
+  },
+  "pain": [],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "start",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false
+  },
+  "growth_stage": null,
+  "role": "self",
+  "email": null,
+  "coach_rule_pack_ids": []
+}

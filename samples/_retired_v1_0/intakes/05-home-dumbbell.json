@@ -1,0 +1,96 @@
+{
+  "schema": "intake/1",
+  "_comment": "Sample 5: 45 y, 1.5 years, home adjustable DBs + bench + pull-up bar (no bands), 4 x 45 min, general fitness / aesthetics, history of low-back pain (entered as mild lower-back pain so the plan programs around it), 12 weeks. Spanish output.",
+  "id": "sample-05-home-dumbbell",
+  "lang": "es",
+  "units": "lb",
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "age": 45,
+  "body_weight": {
+    "value": 190,
+    "unit": "lb"
+  },
+  "goal": "general",
+  "format": "gym",
+  "sport": null,
+  "experience": {
+    "years_consistent": 1.5,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "recovery": {
+    "sleep": "6_7",
+    "stress": "normal",
+    "hard_job_or_other_sport": false
+  },
+  "priority_muscles": [],
+  "lift_style": "balanced",
+  "schedule": {
+    "days_per_week": 4,
+    "weekdays": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri"
+    ],
+    "session_minutes": 45,
+    "start_date": "2026-10-12"
+  },
+  "plan": {
+    "mode": "fixed_12",
+    "maint_reason": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "none"
+    ]
+  },
+  "equipment": {
+    "profile": "HOME_DB_BENCH",
+    "extras": [
+      "pullup_bar"
+    ],
+    "machines": [],
+    "preference": "dumbbells",
+    "detail": {
+      "heaviest_db_pair": 52.5,
+      "medball_lb_owned": [],
+      "box_height_in": null,
+      "running_space": "10_20m",
+      "cardio_options": [
+        "run"
+      ]
+    }
+  },
+  "pain": [
+    {
+      "area": "lower_back",
+      "side": "both",
+      "severity": "mild",
+      "worse_with": [
+        "bending_forward"
+      ]
+    }
+  ],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "start",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false
+  },
+  "growth_stage": null,
+  "role": "self",
+  "email": null,
+  "coach_rule_pack_ids": []
+}
