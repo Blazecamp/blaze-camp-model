@@ -12,6 +12,19 @@ A complete, machine-readable model of how the Blaze Camp coach designs training 
 
 License: [MIT](LICENSE). © 2026 Lalo Vera, d/b/a Blaze Camp, and BFit Studios Corp.
 
+## Documentation
+
+Start with these files.
+
+| File | For whom | What it is |
+|---|---|---|
+| [docs/README.md](docs/README.md) | Everyone | The map of the documentation: reading paths for coaches, developers, AI agents and reviewers, the model on one screen, and a table that takes you from a question to the page that answers it. |
+| [docs/CONTEXT_FOR_AI.md](docs/CONTEXT_FOR_AI.md) | AI agents | One self-contained briefing of the whole model. |
+| [AGENTS.md](AGENTS.md) | AI agents and developers | The working guide: which source wins, where each rule lives, how to generate a plan, the hard rules, how to change things safely. |
+| [CODEX_BRIEF.md](CODEX_BRIEF.md) | Outside reviewers | The research brief: back up the science, and find what the model is missing. |
+
+The `docs/` folder was written after the coach's round-3 answers (`coach_answers_round3.md`), which are the newest authority. Where an older line in this file differs from them, such as a mention of check-ins or a week-by-week plan, the round-3 answers and `docs/` win.
+
 ## What's in here
 
 | Path | What it is |
