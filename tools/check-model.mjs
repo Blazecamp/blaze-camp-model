@@ -16,7 +16,8 @@ export const FIXTURE_PATH = path.join(BASE, 'engine', 'fixtures', 'mini-model.js
 export const BAND_RE = /\b(band|bands|banded|chain|chains|weight[- _]?releasers?)\b/i;
 
 const EX_KEYS = ['id', 'source_id', 'name_key', 'cue_key', 'kind', 'family', 'pattern', 'node', 'slots', 'default_in_slots', 'laterality', 'plane', 'level', 'zone', 'rotation_bias', 'size_class', 'exercise_class', 'counting', 'credit_class', 'credits', 'primary_muscle', 'equipment', 'constraint', 'axial_class', 'axial', 'spine_class', 'axial_pattern', 'skill', 'impact', 'load_ceiling', 'is_athletic', 'athletic', 'conditioning', 'medball', 'older_ok', 'older_opt_in_ok', 'youth_ok', 'tags', 'variation_axes', 'rep_hint', 'video', 'status', 'sport_use', 'rule_refs'];
-const ATH_KEYS = ['quality', 'contact_class', 'olympic_family', 'day_pattern', 'olympic_tier', 'full_catch', 'from_floor', 'plyo_method_default', 'rc_stage_default', 'unilateral_harder', 'loaded_jump', 'count_unit'];
+const ATH_KEYS = ['quality', 'contact_class', 'olympic_family', 'day_pattern', 'olympic_tier', 'full_catch', 'from_floor', 'plyo_method_default', 'rc_stage_default', 'unilateral_harder', 'loaded_jump', 'count_unit',
+  'response', 'upper', 'low_amplitude', 'sport_only', 'no_cuts', 'sprint_kind']; // + the six stage-B2 fields (tools/fixture/athletic-b2.mjs)
 const STATION_KEYS = ['id', 'bucket', 'role', 'block', 'group', 'sets_hint', 'sets_text', 'dose_text', 'pair', 'superset', 'superset_below_minutes', 'circuit', 'include_from_minutes', 'axial', 'variant', 'variant_text', 'laterality_dial', 'loading', 'movable', 'counts_as_volume', 'condition', 'condition_text', 'older_default_excluded', 'older_default_text', 'group_label', 'pool_filter', 'rir', 'note'];
 const TEMPLATE_KEYS = ['id', 'family', 'days', 'status', 'format_note', 'week_layout', 'day_types', 'variants', 'aerobic', 'evidence'];
 const DAYTYPE_KEYS = ['label', 'label_key', 'kind', 'format', 'dose_text', 'lower_focus', 'full_body', 'groups', 'axial', 'stations'];
@@ -213,6 +214,9 @@ export function checkModel(raw, opts = {}) {
     if (e.athletic) {
       if (!keysEq(e.athletic, ATH_KEYS)) err(`${where}: athletic keys`);
       for (const f of ['quality', 'contact_class', 'olympic_family', 'day_pattern', 'olympic_tier', 'rc_stage_default', 'count_unit']) if (!ENUM[f].includes(e.athletic[f])) err(`${where}: athletic.${f} '${e.athletic[f]}'`);
+      if (![null, 'landing', 'single', 'repeat'].includes(e.athletic.response)) err(`${where}: athletic.response '${e.athletic.response}'`);
+      if (![null, 'acceleration', 'max_velocity', 'drill', 'run'].includes(e.athletic.sprint_kind)) err(`${where}: athletic.sprint_kind '${e.athletic.sprint_kind}'`);
+      if (e.athletic.response === 'single' && e.athletic.quality === 'plyometric' && e.tags.includes('plyo_repeated')) err(`${where}: a single-response plyometric is never tagged plyo_repeated (R2-ATH-03)`);
     }
     if (e.conditioning && (!keysEq(e.conditioning, ['colour']) || !ENUM.colour.includes(e.conditioning.colour))) err(`${where}: conditioning`);
     if (e.medball && (!keysEq(e.medball, ['min_lb', 'max_lb', 'kind']) || !ENUM.medball_kind.includes(e.medball.kind) || e.medball.max_lb > m.rules.medball.max_lb || e.medball.min_lb > e.medball.max_lb)) err(`${where}: medball ${JSON.stringify(e.medball)}`);
@@ -290,8 +294,10 @@ export function checkModel(raw, opts = {}) {
     if (!isSortedStrings(ks.slice(1))) err(`${lang}.json: keys not sorted`);
     for (const k of ks.slice(1)) if (typeof tbl[k] !== 'string' || !tbl[k].length) err(`${lang}.json: ${k} not a non-empty string`);
   }
-  if (!keysEq(es_review, ['missing_keys', 'machine_translated'])) err('es_review keys != {missing_keys, machine_translated}');
-  for (const f of ['missing_keys', 'machine_translated']) if (!isSortedStrings(es_review[f])) err(`es_review.${f} not sorted unique`);
+  // v0.4 fix round 1 / F3: es_review may also hold priority_review (the ES lines the coach should review first; every one translated)
+  if (!keysEq(es_review, ['missing_keys', 'machine_translated']) && !keysEq(es_review, ['missing_keys', 'machine_translated', 'priority_review'])) err('es_review keys != {missing_keys, machine_translated[, priority_review]}');
+  for (const f of ['missing_keys', 'machine_translated', ...('priority_review' in es_review ? ['priority_review'] : [])]) if (!isSortedStrings(es_review[f])) err(`es_review.${f} not sorted unique`);
+  for (const k of es_review.priority_review || []) if (!(k in es)) err(`es_review.priority_review lists untranslated ${k}`);
   for (const k of es_review.missing_keys) { if (k in es) err(`es_review.missing_keys lists translated ${k}`); if (!(k in en)) err(`es_review.missing_keys lists unknown ${k}`); }
   for (const k of es_review.machine_translated) if (!(k in es)) err(`es_review.machine_translated lists untranslated ${k}`);
   for (const k of Object.keys(es)) if (k !== '_meta' && !(k in en)) warn(`ES key without EN: ${k}`);

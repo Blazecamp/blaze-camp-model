@@ -1,25 +1,40 @@
-# Atlético fuera de temporada
+# Plan atlético de fuera de temporada
 _Tu plan Blaze Camp_
 
+> **Uso bajo tu propio riesgo.** Este plan es información general de acondicionamiento físico, no un consejo médico. Lo sigues por completo por tu propia cuenta y riesgo, y liberas a Lalo Vera, Blaze Camp y BFit Studios Corp. de toda responsabilidad. Detente y consulta a un profesional si algo te duele. [Lee el aviso legal y la liberación de responsabilidad completos](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.es.md)
+
 - **Objetivo principal:** Rendimiento atlético
-- **Deporte:** Fútbol - mediocampistas · Final de fuera de temporada
+- **Deporte:** Fútbol - mediocampistas · Fase final fuera de temporada
 - **Nivel:** Intermedio (L2): 2 años de entrenamiento constante
 - **Tipo de plan:** 8 semanas · Semana 1-8
-- **Fecha de inicio:** 2026-10-12
-- **Días de entrenamiento por semana:** 3 · Lunes, Miércoles, Viernes · Duración de la sesión (minutos): 75
-- Descargo aceptado (Descargo de responsabilidad (cliente), Español)
+- **Fecha de inicio:** 12 oct 2026
+- **Días de entrenamiento por semana:** 3 · lunes, miércoles, viernes · Duración de la sesión (minutos): 75
+- Uso bajo tu propio riesgo, términos y liberación de responsabilidad aceptados: cliente, en español
+- Cuestionario de salud: respondido; nada indicó consultar primero a un médico. [PAR-Q+ oficial (en inglés)](https://eparmedx.com/)
 
 ## Antes de empezar
 
-- Tu temporada empieza pronto: el plan pasa a pretemporada 2 semanas antes del primer partido
-- Tu horario no alcanza 10 series semanales para Glúteos, Deltoides laterales: agrega un día de entrenamiento
-- Las series iniciales de Cuádriceps, Glúteos, Espalda (dorsales / espalda alta), Deltoides laterales, Pantorrillas se bajaron para que la escalera quepa en tus sesiones de 75 minutos.
-- Lunes dura aprox. 89 min (elegiste 75): el trabajo mínimo de ese día (2-4 ejercicios por grupo muscular, core, el trabajo atlético) no cabe; mira tus opciones de horario
+- Tu temporada está cerca: las últimas 2 semanas de este plan son de pretemporada (más velocidad y potencia, menos series).
+- Haz las superseries marcadas el lunes, miércoles y viernes para ahorrar tiempo.
+- Estos días pasan de tus 75 min incluso con las superseries marcadas: lunes en la semana 6 (unos 79 min); miércoles en las semanas 3-6 (unos 77-80 min); viernes todas las semanas (unos 77-82 min). Cada uno muestra qué más ahorra tiempo; o planea los minutos extra.
+- Tus sesiones permiten cerca del 35% del volumen semanal de tu deporte en contactos de salto (cajón, sentadilla, salto largo y reactivos): igual sube cada semana. Agrega un día o sesiones más largas para la dosis completa.
+- Tus sesiones permiten cerca del 85% del volumen semanal de tu deporte en contactos de saltos de tobillo: igual sube cada semana. Agrega un día o sesiones más largas para la dosis completa.
+- Tus sesiones permiten cerca del 45% del volumen semanal de tu deporte en cambios de dirección: igual sube cada semana. Agrega un día o sesiones más largas para la dosis completa.
+
+## Tu horario
+
+- Tu horario de 3 x 75 minutos no alcanza para el plan completo (10+ series por semana para cada grupo muscular, 2-4 ejercicios por grupo, una escalera que sube). Mira tus opciones de horario abajo.
+- Se entrenan directamente (10+ series por semana, subiendo a lo largo del bloque): Cuádriceps, Cadera (glúteos + isquiotibiales), Espalda, Pecho, Pantorrillas
+- Sin ejercicio directo en este plan - trabajan dentro de tus otros ejercicios: Hombros, Bíceps, Tríceps
+- Tus sesiones de 75 minutos permiten un pico más bajo para Cuádriceps, Cadera (glúteos + isquiotibiales), Pecho, Espalda: igual suben a lo largo del bloque, hasta menos series que el plan completo.
 
 **Tus opciones de horario**
-- Mantener 75 minutos: series iniciales más bajas, la misma escalera (este plan)
-- Sesiones más largas (90 min) con las series iniciales completas
+- Convierte el sábado (tu día opcional) en un día completo de entrenamiento: ahí se entrenan los grupos que tus días principales no alcanzan
 - Un día más de entrenamiento (4 días)
+- Con unos 90 min por sesión también entrenas Hombros directamente (10+ series, subiendo)
+- Sesiones más largas: unos 95 min entrenan todos los grupos por completo
+- Desactiva el bloque de core (abdomen): unos 6 minutos libres para tus ejercicios en cada sesión
+- Mantener 3 x 75 min: menos grupos musculares entrenados directamente, cada grupo entrenado igual sube (este plan)
 
 ## Instrucciones básicas
 > \*Siempre deja 1 repetición en reserva: nunca llegues al fallo, pero acércate lo más que puedas.
@@ -32,2367 +47,2231 @@ _Tu plan Blaze Camp_
 >
 > \*\*\*\*\*Si tienes alguna pregunta, solo pregúntame - IG @BLAZECAMP o TWITTER @BLAZECAMP\_
 
-Esfuerzo planeado en la escalera: semanas 1-3: deja 3 en reserva; semana 4: deja 2 en reserva; semana 5: deja 1-2 en reserva; semana 6: deja 1 en reserva. La última semana puede añadir un intensificador en un ejercicio de músculo pequeño.
+_Este plan empieza con 3 en reserva y termina con 1 en la última semana: el "1 en reserva" del coach es donde terminas, así que sigue el número de cada semana._
 
-¿Cuánto peso? Cada ejercicio te dice cuántas repeticiones dejar en reserva: "deja 2 en reserva" significa que podrías hacer 2 repeticiones más al final de la serie (aproximadamente RPE 8; 3 en reserva = RPE 7, 1 en reserva = RPE 9). Las primeras semanas dejas más en reserva y las últimas, menos. Semana 1: empieza un poco más ligero, con un peso que podrías levantar 2-3 veces más.
+Esfuerzo planeado en la escalera: semanas 1-3: deja 3 en reserva; semana 4: deja 2 en reserva; semana 5: deja 1-2 en reserva; semana 6: deja 1 en reserva. Semana 6: un intensificador en cada uno de estos días (lunes, miércoles, viernes y sábado): una serie MYO en el último ejercicio de músculo pequeño o de máquina del día.
+
+¿Cuánto peso? Cada ejercicio te dice cuántas repeticiones dejar en reserva: "deja 2 en reserva" significa que podrías hacer 2 repeticiones más al final de la serie (aproximadamente RPE 8; 3 en reserva = RPE 7, 1 en reserva = RPE 9). Tu plan empieza con 3 en reserva, luego 2, luego 1-2, y en la última semana 1 con algunas series extra duras. Semana 1: empieza un poco más ligero, con un peso que podrías levantar unas 3 veces más.
 
 Los levantamientos olímpicos son para la potencia. Las cargadas (cleans), las arrancadas (snatches) y sus versiones con mancuernas y kettlebells entrenan potencia: mueve el peso lo más rápido que puedas con buena técnica. Elige un peso que puedas mover de forma explosiva en cada repetición; si se frena o se rompe la técnica, es demasiado pesado. No necesitas porcentajes para estos levantamientos, a menos que compitas en halterofilia (Olympic weightlifting).
 
-Tu plan sube como una escalera: pasos pequeños al inicio, un poco más grandes después de la mitad, y las semanas más duras al final.
+Las superseries de core son opcionales en cualquier parte: puedes juntar un ejercicio de core con cualquier ejercicio para ahorrar tiempo.
+
+## Cómo ajustar este plan
+
+- ¿Faltaste a la mayor parte de una semana? Repite esa semana antes de seguir. ¿Faltaste a una sesión? Hazla el siguiente día libre o déjala pasar: nunca juntes dos sesiones en una.
+- ¿Una serie se sintió como un máximo real (sin ninguna repetición de sobra)? La próxima vez quita una serie de ese ejercicio o un poco de peso.
+- ¿Todo se siente fácil? Primero agrega un poco de peso o una repetición; nunca te adelantes más de una semana.
+- ¿Algo te duele? Primero usa uno de los cambios de la lista, luego quita entre un tercio y la mitad de las series de ese ejercicio y, si sigue, quítalo por el resto del bloque. Consulta a un profesional si el dolor sigue.
+- ¿La vida se interpuso por varias semanas (enfermedad, viajes, trabajo)? Detén el bloque, toma la semana suave recomendada si quieres y luego crea un bloque nuevo.
+- Tú (o tu entrenador) puedes desactivar estos bloques cualquier día: saltos, lanzamientos y velocidad; potencia / olímpicos; core (abdomen); cardio; accesorios. También puedes agregar o quitar ejercicios (por ejemplo, más trabajo de deltoides posterior). Usa las superseries sugeridas para ahorrar tiempo.
+- Desactivar el bloque de accesorios quita todas las series directas de Pantorrillas.
+
+Tu plan sube como una escalera: pasos pequeños hasta la semana 3, un poco más grandes desde la semana 4, y las semanas más duras al final.
 
 ## Bloque de entrenamiento · Semana 1-6
 
-| Semana | Nivel | Fase | Pruebas |
+| Semana | Nivel | Esfuerzo | Series |
 |---|---|---|---|
-| 1 | 2.0 ▮▮ | Adaptación (pasos pequeños) | Velocidad / agilidad, Saltos |
-| 2 | 3.3 ▮▮▮ | Adaptación (pasos pequeños) |  |
-| 3 | 4.6 ▮▮▮▮▮ | Empujando (los pasos crecen un poco) |  |
-| 4 | 6.7 ▮▮▮▮▮▮▮ | Empujando (los pasos crecen un poco) |  |
-| 5 | 8.9 ▮▮▮▮▮▮▮▮▮ | Semanas más duras |  |
-| 6 | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | Semanas más duras | Velocidad / agilidad, Saltos |
+| 1 · prueba | 2.0 ▮▮ | 3 en reserva | 52 |
+| 2 | 3.3 ▮▮▮ | 3 en reserva | 53 |
+| 3 | 4.6 ▮▮▮▮▮ | 3 en reserva | 55 |
+| 4 | 6.7 ▮▮▮▮▮▮▮ | 2 en reserva | 56 |
+| 5 | 8.9 ▮▮▮▮▮▮▮▮▮ | 1-2 en reserva | 58 |
+| 6 · prueba | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 en reserva + intensificador | 61 |
+
+semanas 1-2: Adaptación (pasos pequeños) · semanas 3-4: Subiendo el ritmo · semanas 5-6: Semanas más duras
 
 - Bloque de ejercicios 1 (semanas 1-6)
 
 ## Bloque de pretemporada · Semana 7-8
 
-| Semana | Nivel | Fase | Pruebas |
+| Semana | Nivel | Esfuerzo | Series |
 |---|---|---|---|
-| 7 | – | Pretemporada: más velocidad y potencia |  |
-| 8 | – | Pretemporada: más velocidad y potencia |  |
+| 7 | – | 2 en reserva | 37 |
+| 8 | – | 2 en reserva | 37 |
+
+semanas 7-8: Pretemporada: más velocidad y potencia
 
 - Bloque de ejercicios 2 (semanas 7-8)
 
-Después de este plan: 2 semanas más de pretemporada (con la puesta a punto) antes de que empiece tu temporada el 2026-12-21
+Después de este plan: 2 semanas más de pretemporada (con la puesta a punto) antes de que empiece tu temporada el 21 dic 2026
 
 **Pruebas:** Velocidad / agilidad, Saltos
-Recordatorios: 2026-10-12, 2026-11-09, 2026-11-15
+Días de prueba (anótalos en tu calendario; el plan no envía recordatorios): semana 1: lunes 12 oct 2026, miércoles 14 oct 2026; semana 6: lunes 16 nov 2026, miércoles 18 nov 2026
 
-## Series semanales por músculo
+## Series semanales por grupo muscular
 
-_Contado a la manera del coach: músculo principal 1 serie, ayudantes 1/4 de serie; saltos, lanzamientos, sprints, swings y olímpicos nunca cuentan_
+_Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); ayudantes 1/4 de serie; saltos, lanzamientos, sprints, swings y olímpicos nunca cuentan. "-" = no se entrena directamente (entre paréntesis: las series que igual recibe de otros ejercicios o de un movimiento que se mantiene, sin subir)._
 
 |  | Semana 1 | Semana 3 | Semana 6 |
 |---|---|---|---|
-| Cuádriceps | 10 | 10 | 12 |
-| Isquiotibiales | 10 | 11.25 | 13.25 |
-| Glúteos | 4 | 5.25 | 6 |
-| Pecho | 10 | 10 | 12 |
-| Espalda (dorsales / espalda alta) | 10 | 10 | 11 |
-| Deltoides laterales | 4.5 | 4.5 | 4.5 |
-| Deltoides posteriores | 8.5 | 8.5 | 8.5 |
-| Bíceps | 2.5 | 2.5 | 2.75 |
-| Tríceps | 2 | 2 | 2.25 |
-| Pantorrillas | 10 | 10 | 11 |
-| Abdomen / oblicuos | 14 | 14 | 14 |
-| Deltoides frontales | 3.5 | 3.5 | 3.75 |
-| Aductores | 2 | 2 | 2.5 |
-| **Total** | **63** | **65** | **73** |
+| Cuádriceps | 11 | 12 | 14 |
+| Cadera (glúteos + isquiotibiales) | 11.5 | 12.75 | 14 |
+| Espalda | 10 | 11 | 12 |
+| Pecho | 10 | 10 | 11 |
+| Hombros | - (3) | - (3.25) | - (3.5) |
+| Bíceps | - (2.5) | - (2.75) | - (3) |
+| Tríceps | - (1.5) | - (1.5) | - (1.5) |
+| Pantorrillas | 11 | 11 | 12 |
+| **Total** | **52** | **55** | **61** |
+
+### Semana 1 de un vistazo
+
+| Día | Sesión | Tiempo | Grupos musculares (ejercicios) |
+|---|---|---|---|
+| Lunes | S1 - salto + rodilla + tirón | aprox. 69 min | Cuádriceps 2, Espalda 2, Pantorrillas 1 |
+| Martes | Día aeróbico | aprox. 20 min | – |
+| Miércoles | S2 - balón medicinal + bisagra a una pierna + empuje | aprox. 72 min | Cuádriceps 2, Cadera (glúteos + isquiotibiales) 2, Pecho 2, Pantorrillas 1 |
+| Jueves | Día aeróbico | aprox. 15 min | – |
+| Viernes | S3 - olímpicos + fuerza | aprox. 79 min | Cadera (glúteos + isquiotibiales) 2, Espalda 2, Pecho 2, Pantorrillas 1 |
+| Sábado | Día opcional | aprox. 47 min | Pantorrillas 1 |
 
 ## Bloque · Bloque de entrenamiento · Semana 1-6
 
 **Nivel:** 2.0 · 3.3 · 4.6 · 6.7 · 8.9 · 11.0
 
-### Lunes · S1 - salto + rodilla + jalón
+### Lunes · S1 - salto + rodilla + tirón
 
 | Ejercicio | Series | Reps |
 |---|---|---|
 | Plancha en antebrazos (Plank) | 2 2 2 2 2 2 | 20-40 s |
 | Plancha Copenhague (Copenhagen Plank) | 2 2 2 2 2 2 | 10-30 s |
-| Agilidad 5-10-5 (Pro Agility) | – – – – – – | Agilidad 5-10-5 (Pro Agility) |
-| Sprint a velocidad máxima (Max-Velocity Sprint) | 2 2 2 2 2 2 | 6 x 20 m → 5 x 40 m |
-| Caída desde cajón bajo (Low Depth Drop) → Caída desde cajón a salto al cajón (Depth Drop to Box Jump) → Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) | 2 2 2 2 2 2 | 8 contactos → 10 contactos |
-| Salto con barra hexagonal (Hex-Bar Jump) → Caída desde cajón con mancuernas, soltarlas y saltar (DB Depth Drop & Jump) → Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) - postura diferente | 2 2 2 2 2 2 | 8 contactos → 10 contactos |
-| Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) → Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) | 2 2 2 2 2 2 | 16 contactos |
-| Desplazamientos laterales (Lateral Shuffles) | 2 2 2 2 2 2 | 12 cortes |
-| Ruta dig / out (Dig Route) | 2 2 2 2 2 2 | 12 cortes |
-| Jalón de cargada desde colgado medio (Mid-Hang Clean Pull) | 2 2 2 2 2 3 | 8 reps → 4 reps |
-| Sentadilla frontal con barra (Front Squat) | 3 3 3 3 3 3 | 7-10 reps |
-| Remo a un brazo con mancuerna (1-Arm DB Row) | 3 3 3 3 3 3 | 12 a 15 por lado |
-| Zancada lateral (Lateral Lunge) | 3 3 3 3 3 3 | 12 a 15 por lado |
-| Dominada con peso (Weighted Pull-Up) | 2 2 2 2 2 2 | 5-8 reps |
-| Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) | 3 3 3 3 3 3 | 15 a 20 reps |
-| Pájaros con mancuernas (Reverse Fly) | 2 2 2 2 2 2 | 15 a 20 reps |
-| Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) | 4 4 4 4 4 4 | 8 a 12 reps |
+| Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) | 2 2 2 2 2 2 | 6 contactos |
+| Saltos de tobillo en el lugar (Ankle Hops) | 2 2 2 2 2 2 | 9 contactos |
+| Tirón de cargada desde colgado alto (High-Hang Clean Pull) | 2 2 2 3 3 2 | 8 reps |
+| Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) | 3 3 4 4 4 5 | 8 a 12 reps |
+| Remo a un brazo con mancuerna (1-Arm DB Row) | 3 4 4 4 4 5 | 8 a 12 por lado |
+| Dominada con peso (Weighted Pull-Up) | 2 2 2 2 2 2 | 6 a 8 reps |
+| Extensión de piernas en máquina (Leg Extension) | 3 3 3 4 4 4 | 10 a 12 reps |
+| Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) | 3 3 3 3 3 3 | 8 a 12 reps |
+| Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) | – 2 2 2 2 – | 7 contactos |
+| Prueba L de tres conos (L-Drill) | – 2 2 2 2 – | 3 reps |
 
-### Miércoles · S2 - balón medicinal + cadera + empuje
+### Miércoles · S2 - balón medicinal + bisagra a una pierna + empuje
 
 | Ejercicio | Series | Reps |
 |---|---|---|
-| Plancha lateral (Side Plank) | 2 2 2 2 2 2 | 20-40 s |
-| Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise) | 2 2 2 2 2 2 | 10 a 15 por lado |
-| Lagartija con salto de manos al cajón (Push-Up Box Jump) → Lagartijas pliométricas (Plyo Push-Ups) | 2 2 2 2 2 2 | 8 contactos → 10 contactos |
-| Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass) | 1 1 1 1 1 1 | 10 por lado |
-| Prueba L de tres conos (L-Drill) | 2 2 2 2 2 2 | 12 cortes |
-| Jalón de arranque desde colgado medio (Mid-Hang Snatch Pull) | 2 2 2 2 2 3 | 8 reps → 4 reps |
-| Peso muerto con dos kettlebells (Double-KB Deadlift) | 3 3 3 3 3 3 | 12 a 15 reps |
-| Press de banca plano alterno con mancuernas (Alternating DB Bench Press) | 3 3 3 3 3 3 | 12 a 15 por lado |
-| Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) | 2 3 3 3 3 3 | 12 a 15 por lado |
-| Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press) | 2 2 2 2 2 2 | 12 a 15 por lado |
-| Aperturas con mancuernas (DB Fly) | 2 2 2 3 3 3 | 12 a 15 reps |
-| Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) | 2 2 2 2 2 2 | 12 a 15 reps |
-| Elevación de pantorrillas con barra (Barbell Calf Raise) | 2 2 2 2 2 2 | 8 a 12 reps |
-| Elevación de pantorrillas en máquina (Calf Raise) | 1 1 1 1 1 2 | 8 a 12 reps |
+| Giro ruso con peso (Weighted Russian Twist) | 2 2 2 2 2 2 | 10 a 15 por lado |
+| Pies a la barra (Toes-to-Bar) | 2 2 2 2 2 2 | 10 a 15 reps |
+| Salto largo a una pierna (Single-Leg Broad Jump) | 2 2 2 2 2 2 | 4 contactos |
+| Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) | 2 2 2 2 2 2 | 5 por lado |
+| Desplazamientos laterales (Lateral Shuffles) | 2 2 2 2 2 2 | 9 cortes |
+| Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) | 3 3 4 4 4 5 | 8 a 12 por lado |
+| Press inclinado con barra (Incline Bench Press) | 3 3 3 3 3 3 | 7-9 reps |
+| Zancada lateral (Lateral Lunge) | 3 3 3 3 3 3 | 8 a 12 por lado |
+| Curl femoral sentado (Seated Leg Curl) | 2 2 2 2 2 2 | 10 a 12 reps |
+| Aperturas con mancuernas (DB Fly) | 2 2 2 2 3 3 | 10 a 12 reps |
+| Extensión de piernas en máquina (Leg Extension) - una pierna a la vez | 2 2 2 2 2 2 | 10 a 12 reps |
+| Elevación de pantorrillas en máquina (Calf Raise) | 3 3 3 3 3 3 | 8 a 12 reps |
+| Salidas de aceleración (Acceleration Starts) | – 2 2 2 2 – | 5 x 15 m |
 
 ### Viernes · S3 - olímpicos + fuerza
 
 | Ejercicio | Series | Reps |
 |---|---|---|
-| Giro ruso con peso (Weighted Russian Twist) | 2 2 2 2 2 2 | 10 a 15 por lado |
-| Rodillas al pecho colgado (Hanging Knees to Chest) | 2 2 2 2 2 2 | 10 a 15 reps |
-| Ruta fade (Fade Route) | 2 2 2 2 2 2 | 12 cortes |
-| Peso muerto con barra hexagonal (Trap Bar Deadlift) | 3 3 3 3 3 4 | 7-10 reps |
-| Press en el piso alterno con mancuernas (Alternating DB Floor Press) | 3 3 3 3 3 4 | 12 a 15 por lado |
-| Zancadas caminando (Walking Lunge) | 2 2 2 3 3 4 | 12 a 15 por lado |
-| Remo a un brazo en polea (Single-Arm Cable Row) | 3 3 3 3 3 3 | 12 a 15 por lado |
-| Dominada en L (L-Sit Pull-Up) | 2 2 2 2 3 3 | 7-10 reps |
-| Curl nórdico (Nordic Curl) | 2 2 2 3 3 3 | 5-8 reps |
-| Aperturas en polea (Cable Fly) | 2 2 2 2 2 2 | 12 a 15 reps |
-| Extensión de piernas en máquina (Leg Extension) | 2 2 2 2 2 2 | 12 a 15 reps |
-| Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise) | 2 2 2 2 2 2 | 8 a 12 reps |
-| Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) | 1 1 1 1 1 1 | 8 a 12 por lado |
-| Hiperextensión inversa (Reverse Hyper) | – – 1 1 1 1 | 12 a 15 reps |
+| Giro ruso (Russian Twist) | 2 2 2 2 2 2 | 10 a 15 por lado |
+| Abdominal en V (V-Up) | 2 2 2 2 2 2 | 10 a 15 reps |
+| Sprint a velocidad máxima (Max-Velocity Sprint) | 2 2 2 2 2 2 | 5 x 30 m |
+| Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) | 2 2 2 2 2 2 | 10 contactos |
+| Split step con reacción (Split-Step Reaction Drill) | 2 2 2 2 2 2 | 9 cortes |
+| Tirón de arranque desde colgado medio (Mid-Hang Snatch Pull) | 2 2 2 2 3 3 | 8 reps |
+| Peso muerto convencional (Deadlift) | 3 3 3 3 3 3 | 6 a 8 reps |
+| Press de pecho de pie en polea (Standing Cable Press) | 3 3 3 3 3 3 | 8 a 12 reps |
+| Remo a un brazo en polea (Single-Arm Cable Row) | 3 3 3 3 3 3 | 8 a 12 por lado |
+| Jalón al pecho a un brazo (Single-Arm Pulldown) | 2 2 2 2 2 2 | 8 a 12 por lado |
+| Curl nórdico (Nordic Curl) | 2 2 2 2 2 2 | 6 a 8 reps |
+| Aperturas en polea (Cable Fly) | 2 2 2 2 2 2 | 10 a 12 reps |
+| Elevación de pantorrillas con barra (Barbell Calf Raise) | 3 3 3 3 3 3 | 8 a 12 reps |
 
 ### Sábado · Día opcional
 
 | Ejercicio | Series | Reps |
 |---|---|---|
-| Plancha Copenhague (Copenhagen Plank) | 2 2 2 2 2 2 | 10-30 s |
-| Remo al mentón con barra (Upright Row) | 2 2 2 2 2 2 | 12 a 15 reps |
-| Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) | 2 2 2 2 2 2 | 15 a 20 reps |
+| Plancha lateral (Side Plank) | 2 2 2 2 2 2 | 20-40 s |
+| Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba | 2 2 2 2 3 3 | 8 a 12 reps |
 
 ## Bloque · Bloque de pretemporada · Semana 7-8
 
-### Lunes · S1 - salto + rodilla + jalón
+### Lunes · S1 - salto + rodilla + tirón
 
 | Ejercicio | Series | Reps |
 |---|---|---|
 | Plancha en antebrazos (Plank) | 2 2 | 20-40 s |
 | Plancha Copenhague (Copenhagen Plank) | 2 2 | 10-30 s |
-| Sprint a velocidad máxima (Max-Velocity Sprint) | 2 2 | 5 x 40 m |
-| Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) | 2 2 | 10 contactos |
-| Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) | 2 2 | 10 contactos |
-| Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) | 2 2 | 16 contactos |
-| Desplazamientos laterales (Lateral Shuffles) | 2 2 | 12 cortes |
-| Ruta dig / out (Dig Route) | 2 2 | 12 cortes |
-| Jalón de cargada desde colgado bajo (Low-Hang Clean Pull) | 2 2 | 4 reps |
-| Sentadilla frontal con barra (Front Squat) | 2 2 | 6 a 8 reps |
-| Remo a un brazo con mancuerna (1-Arm DB Row) | 2 2 | 6 a 8 por lado |
-| Zancada lateral (Lateral Lunge) | 2 2 | 6 a 8 por lado |
-| Jalón al pecho agarre abierto (Lat Pulldown) | 2 2 | 6 a 8 reps |
-| Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) | 2 2 | 15 a 20 reps |
-| Pájaros con mancuernas (Reverse Fly) | 1 1 | 15 a 20 reps |
-| Elevación de pantorrillas con barra (Barbell Calf Raise) | 2 2 | 8 a 12 reps |
+| Saltos de vallas hacia adelante (Hurdle Hops) | 2 2 | 9 contactos |
+| Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) | 2 2 | 10 contactos |
+| Saltos de tobillo en el lugar (Ankle Hops) | 2 2 | 14 contactos |
+| Prueba L de tres conos (L-Drill) | 2 2 | 4 reps |
+| Tirón de cargada desde colgado bajo (Low-Hang Clean Pull) | 3 3 | 4 reps |
+| Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) | 3 3 | 6 a 8 reps |
+| Remo a un brazo con mancuerna (1-Arm DB Row) | 3 3 | 8 a 10 por lado |
+| Dominada con peso (Weighted Pull-Up) | 2 2 | 6 a 8 reps |
+| Extensión de piernas en máquina (Leg Extension) - aprieta 1 segundo arriba | 1 1 | 8 a 12 reps |
+| Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) | 2 2 | 8 a 12 reps |
 
-### Miércoles · S2 - balón medicinal + cadera + empuje
+### Miércoles · S2 - balón medicinal + bisagra a una pierna + empuje
 
 | Ejercicio | Series | Reps |
 |---|---|---|
-| Plancha lateral (Side Plank) | 2 2 | 20-40 s |
-| Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise) | 2 2 | 10 a 15 por lado |
-| Lagartija con salto de manos al cajón (Push-Up Box Jump) | 2 2 | 8 contactos |
-| Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass) | 1 1 | 10 por lado |
-| Prueba L de tres conos (L-Drill) | 2 2 | 12 cortes |
-| Jalón de arranque desde colgado bajo (Low-Hang Snatch Pull) | 2 2 | 4 reps |
-| Peso muerto con dos kettlebells (Double-KB Deadlift) | 2 2 | 6 a 8 reps |
-| Press de banca plano alterno con mancuernas (Alternating DB Bench Press) | 2 2 | 6 a 8 por lado |
-| Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) | 2 2 | 6 a 8 por lado |
-| Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press) | 2 2 | 6 a 8 por lado |
-| Aperturas en polea (Cable Fly) | 2 2 | 8 a 12 reps |
-| Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) | 1 1 | 10 a 15 reps |
-| Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) | 1 1 | 8 a 12 reps |
+| Giro ruso con peso (Weighted Russian Twist) | 2 2 | 10 a 15 por lado |
+| Pies a la barra (Toes-to-Bar) | 2 2 | 10 a 15 reps |
+| Salidas de aceleración (Acceleration Starts) | 2 2 | 5 x 20 m |
+| Salto largo a una pierna (Single-Leg Broad Jump) | 2 2 | 5 contactos |
+| Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) | 2 2 | 8 por lado |
+| Desplazamientos laterales (Lateral Shuffles) | 2 2 | 12 cortes |
+| Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) | 3 3 | 8 a 10 por lado |
+| Press inclinado con barra (Incline Bench Press) - agarre cerrado (manos al ancho de los hombros) | 2 2 | 6 a 8 reps |
+| Zancada lateral (Lateral Lunge) | 2 2 | 8 a 10 por lado |
+| Curl femoral sentado (Seated Leg Curl) | 1 1 | 8 a 12 reps |
+| Aperturas con mancuernas (DB Fly) - aprieta 1 segundo arriba | 1 1 | 8 a 12 reps |
+| Extensión de piernas en máquina (Leg Extension) - una pierna a la vez | 1 1 | 8 a 12 reps |
+| Elevación de pantorrillas en máquina (Calf Raise) | 2 2 | 8 a 12 reps |
 
 ### Viernes · S3 - olímpicos + fuerza
 
 | Ejercicio | Series | Reps |
 |---|---|---|
-| Giro ruso con peso (Weighted Russian Twist) | 2 2 | 10 a 15 por lado |
-| Rodillas al pecho colgado (Hanging Knees to Chest) | 2 2 | 10 a 15 reps |
-| Ruta fade (Fade Route) | 2 2 | 12 cortes |
-| Peso muerto con barra hexagonal (Trap Bar Deadlift) | 2 2 | 6 a 8 reps |
-| Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) | 2 2 | 6 a 8 por lado |
-| Zancadas caminando (Walking Lunge) | 2 2 | 6 a 8 por lado |
-| Remo a un brazo con mancuerna (1-Arm DB Row) | 2 2 | 6 a 8 por lado |
-| Dominada con peso (Weighted Pull-Up) | 2 2 | 6 a 8 reps |
-| Curl nórdico (Nordic Curl) | 2 2 | 5-8 reps |
-| Aperturas con mancuernas (DB Fly) | 1 1 | 8 a 12 reps |
-| Extensión de piernas en máquina (Leg Extension) | 1 1 | 8 a 12 reps |
-| Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise) | 1 1 | 8 a 12 reps |
+| Giro ruso (Russian Twist) | 2 2 | 10 a 15 por lado |
+| Abdominal en V (V-Up) | 2 2 | 10 a 15 reps |
+| Sprint a velocidad máxima (Max-Velocity Sprint) | 2 2 | 5 x 40 m |
+| Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) | 2 2 | 15 contactos |
+| Split step con reacción (Split-Step Reaction Drill) | 2 2 | 12 cortes |
+| Tirón de arranque desde colgado bajo (Low-Hang Snatch Pull) | 3 3 | 4 reps |
+| Peso muerto convencional (Deadlift) | 2 2 | 6 a 8 reps |
+| Press de pecho de pie en polea (Standing Cable Press) | 2 2 | 6 a 8 reps |
+| Remo a un brazo en polea (Single-Arm Cable Row) - aprieta 1 segundo arriba | 2 2 | 8 a 10 por lado |
+| Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba | 2 2 | 8 a 10 por lado |
+| Curl nórdico (Nordic Curl) | 1 1 | 5-8 reps |
+| Aperturas en polea (Cable Fly) | 1 1 | 8 a 12 reps |
+| Elevación de pantorrillas con barra (Barbell Calf Raise) | 2 2 | 8 a 12 reps |
 
 ### Sábado · Día opcional
 
 | Ejercicio | Series | Reps |
 |---|---|---|
-| Plancha Copenhague (Copenhagen Plank) | 2 2 | 10-30 s |
+| Plancha lateral (Side Plank) | 2 2 | 20-40 s |
+| Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba | 2 2 | 8 a 12 reps |
 
 ## Semana 1 — Adaptación (pasos pequeños)
 
-_Nivel de esfuerzo esta semana: 2 (2 = inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 2 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
 
 **Prueba inicial esta semana (antes de cargar)** (Velocidad / agilidad, Saltos)
 
-**Trabajo atlético esta semana:** 80 contactos de salto · 20 lanzamientos · 96 cambios de dirección · 240 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 0% · Recibir-Crear 1: Aterrizar
+**Trabajo atlético esta semana:** 28 contactos de salto · 38 contactos de saltos de tobillo · 20 lanzamientos · 36 cambios de dirección · 300 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 58% · Recibir-Crear 2: Aterrizar y salir
 
-### Lunes · S1 - salto + rodilla + jalón
-_aprox. 81 min_
+### Lunes · S1 - salto + rodilla + tirón
+_aprox. 69 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cardio. También puedes agregar o quitar ejercicios._
+_Las superseries marcadas hoy te mantienen dentro de 75 min._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
 2. **Marcha A (A March)**
    - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
-   - Opcional: agrega una superserie de core a cualquier ejercicio
-   - Cambiar por: Plancha lateral (Side Plank) / Abdominal completo con peso (Weighted Sit-Up) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
+1. **Plancha en antebrazos (Plank)** [A1] — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
+   - Cambiar por: Posición de flecha en hollow (Streamline Hold) / Balanceo en posición hueca (Hollow Rocks) / Plancha alta con brazos extendidos (High Plank) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers)
    - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
+2. **Plancha Copenhague (Copenhagen Plank)** [A2] — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
    - por lado = 1 serie
-   - Cambiar por: Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar) / Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise) / Rodillas al pecho rotacional colgado (Hanging Oblique Knee Raise)
+   - Cambiar por: Elevación Copenhague dinámica (Copenhagen Raise) / Plancha lateral con press; avanzado: en estrella (Side Plank Press) / Plancha lateral alta con brazo extendido (High Side Plank) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit)
    - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
 
 **Prueba**
-1. sprint de 10-30 m — sprint de 10-30 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - **Semana de pruebas:** sprint de 10-30 m
+1. **Prueba: Agilidad 5-10-5 (Pro Agility)** — máxima intención; para cuando baje la calidad · recuperación completa entre series
    - Prueba: 2-3 carreras cronometradas con descanso completo, anota la mejor.
    - Prueba inicial esta semana: marca tus números de partida.
-2. **Agilidad 5-10-5 (Pro Agility)** — Agilidad 5-10-5 (Pro Agility) · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - **Semana de pruebas:** Agilidad 5-10-5 (Pro Agility)
-   - Prueba: 2-3 carreras cronometradas con descanso completo, anota la mejor.
-   - Prueba inicial esta semana: marca tus números de partida.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Agilidad%205-10-5%20(Pro%20Agility))
-3. salto con contramovimiento — salto con contramovimiento · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - **Semana de pruebas:** salto con contramovimiento
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle)
+2. **Prueba: salto con contramovimiento** — máxima intención; para cuando baje la calidad · recuperación completa entre series
    - Prueba: 3 intentos, anota el mejor.
    - Prueba inicial esta semana: marca tus números de partida.
 
 **Saltos, lanzamientos y velocidad**
-1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 6 x 20 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Skip A (A Skip) / Marcha A (A March)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sprint%20a%20velocidad%20m%C3%A1xima%20(Max-Velocity%20Sprint))
-2. **Caída desde cajón bajo (Low Depth Drop)** — 2 × 8 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - cajón bajo (15-30 cm)
-   - Aterriza y congela: sostén 3 s
-   > Altura del cajón de unas 6-12 in (15-30 cm).
-   - Cambiar por: Caída desde cajón medio (Medium Depth Drop) / Salto a cajón bajo (Low Box Jump) / Salto al cajón medio, a la altura de la rodilla (Box Jump) / Salto con barra hexagonal (Hex-Bar Jump)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ca%C3%ADda%20desde%20caj%C3%B3n%20bajo%20(Low%20Depth%20Drop))
-3. **Salto con barra hexagonal (Hex-Bar Jump)** — 2 × 8 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - 10-20% del peso corporal
-   - Aterriza y congela: sostén 3 s
-   - Cambiar por: Caída desde cajón bajo (Low Depth Drop) / Salto a cajón bajo (Low Box Jump) / Salto al cajón medio, a la altura de la rodilla (Box Jump) / Caída desde cajón medio (Medium Depth Drop)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Salto%20con%20barra%20hexagonal%20(Hex-Bar%20Jump))
-4. **Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops)** — 2 × 16 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Aterriza y congela: sostén 3 s
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) / Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20de%20tobillo%20en%20zigzag%20con%20dos%20pies%20(Zig-Zag%20Ankle%20Hops))
-5. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Ruta slant (Slant Route) / Prueba L de tres conos (L-Drill) / Ruta fade (Fade Route) / Ruta post / esquina (Post Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Desplazamientos%20laterales%20(Lateral%20Shuffles))
-6. **Ruta dig / out (Dig Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Prueba L de tres conos (L-Drill) / Ruta slant (Slant Route) / Ruta fade (Fade Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20dig%20%2F%20out%20(Dig%20Route))
+1. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 2 × 6 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de vallas hacia adelante (Hurdle Hops) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral))
+2. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 9 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place))
 
 **Potencia / levantamientos olímpicos**
-1. **Jalón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 8 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Tirón de cargada desde colgado alto (High-Hang Clean Pull)** — 2 × 8 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
    - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
    - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Jalón de cargada desde colgado alto (High-Hang Clean Pull) / Salto con barra hexagonal (Hex-Bar Jump) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Cargada desde colgado (Hang Clean)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20cargada%20desde%20colgado%20medio%20(Mid-Hang%20Clean%20Pull))
+   - Cambiar por: Tirón de cargada desde colgado medio (Mid-Hang Clean Pull) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Salto con barra hexagonal (Hex-Bar Jump) / Cargada desde colgado (Hang Clean)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=High-Hang%20Clean%20Pull)
 
 **Fuerza**
-1. **Sentadilla frontal con barra (Front Squat)** — 3 × 7-10 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
-   - Semana 1: elige un peso que podrías levantar 2-3 veces más
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
-   - [Video](https://youtu.be/uYumuL_G_V0)
-2. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Sentadilla frontal con barra (Front Squat)
-   - Semana 1: elige un peso que podrías levantar 2-3 veces más
+1. **Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)** [B1] — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
+   - Semana 1: elige un peso que podrías levantar unas 3 veces más
+   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla frontal con barra (Front Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
+   - [Video](https://youtube.com/shorts/0BwOWfg_-Og?feature=share)
+2. **Remo a un brazo con mancuerna (1-Arm DB Row)** [B2] — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)
+   - Semana 1: elige un peso que podrías levantar unas 3 veces más
    - por lado = 1 serie
-   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con barra, agarre prono (Seal Row)
+   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
    - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Zancada lateral (Lateral Lunge)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
-   - por lado = 1 serie
-   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Zancada hacia atrás (Reverse Lunge) / Zancada atrás en déficit, de pie sobre disco o escalón (Deficit Reverse Lunge) / Sentadilla dividida estática (Split Squat)
-   - [Video](https://youtu.be/zKWe7UAWbIo)
-4. **Dominada con peso (Weighted Pull-Up)** — 2 × 5-8 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Zancada lateral (Lateral Lunge)
-   - Semana 1: elige un peso que podrías levantar 2-3 veces más
-   - Repeticiones limitadas para este ejercicio (5-8): es más difícil que su grupo.
-   - Cambiar por: Dominada en L (L-Sit Pull-Up) / Dominada estricta con rodillas al pecho (Tuck Pull-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up) / Dominada estricta con pies atrás (Strict Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dominada%20con%20peso%20(Weighted%20Pull-Up))
+3. **Dominada con peso (Weighted Pull-Up)** [C1] — 2 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension)
+   - Semana 1: elige un peso que podrías levantar unas 3 veces más
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Dominadas (Pull-Up) / Jalón al pecho, agarre prono (Lat Pulldown) / Jalón al pecho, agarre supino (Underhand Pulldown) / Dominada sentado en anillas / TRX con pies apoyados (Seated Ring Pull-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Pull-Up)
+4. **Extensión de piernas en máquina (Leg Extension)** [C2] — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
+   - Luego haz su última serie sola
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
+   - [Video](https://youtu.be/m0FOpMEgero)
 
 **Accesorios**
-1. **Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)** — 3 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Pájaros con mancuernas (Reverse Fly) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)
-   - Cambiar por: Pájaros con mancuernas (Reverse Fly) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) / Face pull con kettlebell (KB Face Pull) / Remo para deltoide posterior con mancuerna (Rear-Delt Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20sentado%20con%20el%20pecho%20en%20los%20muslos%20(Seated%20Reverse%20Fly))
-2. **Pájaros con mancuernas (Reverse Fly)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)
-   - Cambiar por: Face pull con kettlebell (KB Face Pull) / Face pull en polea (Face Pull) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) / Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20con%20mancuernas%20(Reverse%20Fly))
-3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 4 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Pájaros con mancuernas (Reverse Fly)
-   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20mancuernas%20(DB%20Calf%20Raise))
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
+
+**Aeróbico**
+1. **Naranja (C): largo / suave · carrera** — 30 min · 11 min corriendo / 2 min caminando, repite
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
+   - Sesión aparte: a cualquier hora del día (no se suma a tu tiempo de pesas).
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aerobic%20C%20(orange)%3A%2011%20Minute%20Run%2F%202%20Min%20Walk)
 
 ### Martes · Día aeróbico
-- **Aeróbico B (verde): 3 min trote / 3 min caminata** · Verde (B): moderado · 20-30 min
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 20 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
-### Miércoles · S2 - balón medicinal + cadera + empuje
-_aprox. 70 min_
+### Miércoles · S2 - balón medicinal + bisagra a una pierna + empuje
+_aprox. 72 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios. También puedes agregar o quitar ejercicios._
+_Las superseries marcadas hoy te mantienen dentro de 75 min._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
 2. **Marcha A (A March)**
    - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+
+**Core / abdomen**
+1. **Giro ruso con peso (Weighted Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa 30-60 s después del par · SUPERSERIE CON Pies a la barra (Toes-to-Bar)
+   - por lado = 1 serie
+   - Cambiar por: Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Conexión cruzada en estrella boca arriba (Star Cross Connect) / Escalador cruzado (Cross-Body Mountain Climber)
+   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
+2. **Pies a la barra (Toes-to-Bar)** [A2] — 2 × 10 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso con peso (Weighted Russian Twist)
+   - Cambiar por: Abdominal en V (V-Up) / Rodillas al pecho colgado (Hanging Knees to Chest) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Toes%20to%20Bar%20(hanging))
+
+**Prueba**
+1. **Prueba: sprint de 10-30 m** — máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Prueba: 2-3 carreras cronometradas con descanso completo, anota la mejor.
+   - Prueba inicial esta semana: marca tus números de partida.
+
+**Saltos, lanzamientos y velocidad**
+1. **Salto largo a una pierna (Single-Leg Broad Jump)** [B1] — 2 × 4 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10 · SUPERSERIE CON Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)
+   - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
+   - por lado = 1 serie
+   - Cambiar por: Salto largo (Broad Jump) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) / Salto con barra hexagonal (Hex-Bar Jump) / Salto a cajón bajo (Low Box Jump)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump)
+2. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** [B2] — 2 × 5 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso · SUPERSERIE CON Salto largo a una pierna (Single-Leg Broad Jump)
+   - balón de 8-10 lb
+   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
+   - Cambiar por: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) / Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L))
+3. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 9 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) / Split step con reacción (Split-Step Reaction Drill) / Formación Krumrie, patrón de agilidad (Krumrie Drill) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles)
+
+**Fuerza**
+1. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** [C1] — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Press inclinado con barra (Incline Bench Press)
+   - Semana 1: elige un peso que podrías levantar unas 3 veces más
+   - por lado = 1 serie
+   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Peso muerto rumano a una pierna (Single-Leg RDL)
+   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
+2. **Press inclinado con barra (Incline Bench Press)** [C2] — 3 × 7-9 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
+   - Semana 1: elige un peso que podrías levantar unas 3 veces más
+   - Mantén este ejercicio en 7-9 repeticiones.
+   - Cambiar por: Press de pecho de pie en polea (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press)
+3. **Zancada lateral (Lateral Lunge)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Semana 1: elige un peso que podrías levantar unas 3 veces más
+   - por lado = 1 serie
+   - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
+   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Sentadilla búlgara (Bulgarian Split Squat) / Sentadilla dividida estática (Split Squat) / Zancadas caminando (Walking Lunge)
+   - [Video](https://youtu.be/zKWe7UAWbIo)
+4. **Curl femoral sentado (Seated Leg Curl)** [D1] — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly)
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Patadas con balón suizo de 30 s (Swiss Ball Kicks)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
+5. **Aperturas con mancuernas (DB Fly)** [D2] — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 60-90 s después del par · SUPERSERIE CON Curl femoral sentado (Seated Leg Curl)
+   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
+
+**Accesorios**
+1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
+   - [Video](https://youtu.be/m0FOpMEgero)
+2. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
+
+### Jueves · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Azul (A): corto / alta intensidad · carrera** · 15 min · 20 s corriendo / 40 s caminando, repite
+  - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
+
+### Viernes · S3 - olímpicos + fuerza
+_aprox. 79 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Incluso con las superseries marcadas hoy este día pasa de tus 75 min: desactiva un bloque o planea los minutos extra._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
+2. **Marcha A (A March)**
+   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+
+**Core / abdomen**
+1. **Giro ruso (Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa 30-60 s después del par · SUPERSERIE CON Abdominal en V (V-Up)
+   - por lado = 1 serie
+   - Cambiar por: Giro ruso con peso (Weighted Russian Twist) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Escalador cruzado (Cross-Body Mountain Climber)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Russian%20Twist)
+2. **Abdominal en V (V-Up)** [A2] — 2 × 10 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso (Russian Twist)
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch) / Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up)
+
+**Saltos, lanzamientos y velocidad**
+1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 5 x 30 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) / Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed))
+2. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops)
+3. **Split step con reacción (Split-Step Reaction Drill)** — 2 × 9 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) / Desplazamientos laterales (Lateral Shuffles) / Formación de cuatro cuadros (4-Square Hop Grid) / Formación Muñoz, patrón de agilidad (Munoz Drill)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Step%20Reaction%20Drill%20(split-step%2C%20then%20shuffle%20%2F%20crossover%20%2F%20drop-step%20on%20a%20cue))
+
+**Potencia / levantamientos olímpicos**
+1. **Tirón de arranque desde colgado medio (Mid-Hang Snatch Pull)** — 2 × 8 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+   - peso según la velocidad: rápido y potente
+   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
+   - No necesitas discos de goma: baja la barra con control
+   - Cambiar por: Tirón de arranque desde colgado alto (High-Hang Snatch Pull) / Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) / Tirón alto con mancuerna o kettlebell (High Pull)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Snatch%20Pull)
+
+**Fuerza**
+1. **Peso muerto convencional (Deadlift)** [B1] — 3 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 3-6 min después del par · SUPERSERIE CON Press de pecho de pie en polea (Standing Cable Press)
+   - Semana 1: elige un peso que podrías levantar unas 3 veces más
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift) / Peso muerto con barra hexagonal (Trap Bar Deadlift)
+   - [Video](https://youtu.be/op9kVnSso6Q)
+2. **Press de pecho de pie en polea (Standing Cable Press)** [B2] — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 3-6 min después del par · SUPERSERIE CON Peso muerto convencional (Deadlift)
+   - Semana 1: elige un peso que podrías levantar unas 3 veces más
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Press de pecho en máquina (Chest Press)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20Cable%20Chest%20Press)
+3. **Remo a un brazo en polea (Single-Arm Cable Row)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Semana 1: elige un peso que podrías levantar unas 3 veces más
+   - por lado = 1 serie
+   - Cambiar por: Remo a un brazo con mancuerna (1-Arm DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Cable%20Row)
+4. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Semana 1: elige un peso que podrías levantar unas 3 veces más
+   - por lado = 1 serie
+   - [Video](https://www.youtube.com/watch?v=XbZgoSNJXm4)
+
+**Accesorios**
+1. **Curl nórdico (Nordic Curl)** [C1] — 2 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Curl femoral sentado (Seated Leg Curl)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl)
+2. **Aperturas en polea (Cable Fly)** [C2] — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 60-90 s después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
+   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Fly)
+3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise)
+
+### Sábado · Día opcional
+_aprox. 47 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
 
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) / Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold)
+   - Cambiar por: Plancha lateral en estrella (Star Side Plank) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) / Abdominal lateral (Lateral Crunch)
    - [Video](https://youtu.be/at9CMT91HrM)
-2. **Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise)** — 2 × 10 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Abdominal en V (V-Up) / Elevación de piernas acostado boca arriba (Lying Leg Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20rotacional%20de%20rodillas%20%2F%20piernas%20colgado%20(Hanging%20Oblique%20Raise))
-
-**Saltos, lanzamientos y velocidad**
-1. **Lagartija con salto de manos al cajón (Push-Up Box Jump)** — 2 × 8 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - cajón bajo (15-30 cm)
-   - Aterriza y congela: sostén 3 s
-   > Las manos empiezan en el piso y saltan para aterrizar sobre un cajón - la dirección contraria al aterrizaje controlado.
-   - Cambiar por: Lagartija con aterrizaje controlado: manos desde el cajón al piso (Push-Up Stick the Landing) / Lagartijas pliométricas (Plyo Push-Ups) / Azote simulado con balón medicinal y regreso - ejercicio de amortiguación de tronco y brazos (Fake Medball Slam)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lagartija%20con%20salto%20de%20manos%20al%20caj%C3%B3n%20(Push-Up%20Box%20Jump))
-2. **Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass)** — 1 × 10 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso
-   - balón de 8-10 lb
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la derecha, pierna derecha al frente (Rotational Scoop) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la izquierda, pierna derecha al frente (Rotational Scoop) / Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sentadilla%20a%20pase%20de%20pecho%20con%20bal%C3%B3n%20medicinal%20(Squat%20to%20Chest%20Pass))
-3. **Prueba L de tres conos (L-Drill)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta flat (Flat Route) / Ruta slant (Slant Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Prueba%20L%20de%20tres%20conos%20(L-Drill))
-
-**Potencia / levantamientos olímpicos**
-1. **Jalón de arranque desde colgado medio (Mid-Hang Snatch Pull)** — 2 × 8 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
-   - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Jalón de arranque desde colgado alto (High-Hang Snatch Pull) / Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) / Jalón alto con mancuerna o kettlebell (High Pull)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20arranque%20desde%20colgado%20medio%20(Mid-Hang%20Snatch%20Pull))
-
-**Fuerza**
-1. **Peso muerto con dos kettlebells (Double-KB Deadlift)** — 3 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Press de banca plano alterno con mancuernas (Alternating DB Bench Press)
-   - Semana 1: elige un peso que podrías levantar 2-3 veces más
-   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Hiperextensión a 45° (Back Extension) / Empuje de cadera o puente de glúteo (Hip Thrust / Glute Bridge)
-   - [Video](https://youtu.be/aXwilZfmDyo)
-2. **Press de banca plano alterno con mancuernas (Alternating DB Bench Press)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Peso muerto con dos kettlebells (Double-KB Deadlift)
-   - Semana 1: elige un peso que podrías levantar 2-3 veces más
-   - por lado = 1 serie
-   - Cambiar por: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Video](https://www.youtube.com/watch?v=YUhAJt8xsFY)
-3. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 2 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)
-   - Semana 1: elige un peso que podrías levantar 2-3 veces más
-   - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Kickstand RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Puente de glúteo a una pierna con pie elevado en el banco (Single-Leg Glute Bridge)
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-4. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 2 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
-   - Semana 1: elige un peso que podrías levantar 2-3 veces más
-   - por lado = 1 serie
-   - Cambiar por: Press de hombro alterno con mancuernas (Alternating DB Overhead Press) / Push press con mancuernas (DB Push Press) / Envión de empuje con mancuernas (DB Push Jerk) / Envión de empuje con barra (Push Jerk)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20alterno%20tipo%20balanc%C3%ADn%20con%20mancuernas%2C%20una%20arriba%20%2F%20una%20abajo%20(Seesaw%20Press))
 
 **Accesorios**
-1. **Aperturas con mancuernas (DB Fly)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)
-   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20con%20mancuernas%20(DB%20Fly))
-2. **Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly)
-   - Cambiar por: Elevación lateral sentado con mancuernas (Seated Lateral Raise) / Remo al mentón con mancuernas (DB Upright Row) / Elevaciones laterales con mancuernas (Lateral Raise) / Remo al mentón con barra (Upright Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20lateral%20con%20mancuernas%2C%20palmas%20arriba%20(Supinated%20Lateral%20Raise))
-3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 2 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20con%20barra%20(Barbell%20Calf%20Raise))
-4. **Elevación de pantorrillas en máquina (Calf Raise)** — 1 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Segundo ejercicio de pantorrilla: 1 serie(s) (3 series de pantorrilla hoy en total)
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20en%20m%C3%A1quina%20(Calf%20Raise))
-
-### Jueves · Día aeróbico
-- **Aeróbico A (azul): 20 s carrera / 40 s caminata** · Azul (A): corto / alta intensidad · 15-20 min
-
-### Viernes · S3 - olímpicos + fuerza
-_aprox. 66 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-2. **Marcha A (A March)**
-   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
-
-**Core / abdomen**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Plancha lateral (Side Plank) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
-   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Rodillas al pecho colgado (Hanging Knees to Chest)** — 2 × 10 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 30-60 s de descanso
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal en V (V-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rodillas%20al%20pecho%20colgado%20(Hanging%20Knees%20to%20Chest))
-
-**Saltos, lanzamientos y velocidad**
-1. **Ruta fade (Fade Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta slant (Slant Route) / Ruta post / esquina (Post Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20fade%20(Fade%20Route))
-
-**Fuerza**
-1. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 3 × 7-10 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Press en el piso alterno con mancuernas (Alternating DB Floor Press)
-   - Semana 1: elige un peso que podrías levantar 2-3 veces más
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Cambiar por: Peso muerto rumano (RDL) / Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift)
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-2. **Press en el piso alterno con mancuernas (Alternating DB Floor Press)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Peso muerto con barra hexagonal (Trap Bar Deadlift)
-   - Semana 1: elige un peso que podrías levantar 2-3 veces más
-   - por lado = 1 serie
-   - Cambiar por: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) / Press de banca plano alterno con mancuernas (Alternating DB Bench Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20en%20el%20piso%20alterno%20con%20mancuernas%20(Alternating%20DB%20Floor%20Press))
-3. **Zancadas caminando (Walking Lunge)** — 2 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Remo a un brazo en polea (Single-Arm Cable Row)
-   - por lado = 1 serie
-   - Cambiar por: Zancada hacia atrás (Reverse Lunge) / Sentadilla dividida estática (Split Squat) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) / Sentadilla búlgara (Bulgarian Split Squat)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Zancadas%20caminando%20(Walking%20Lunge))
-4. **Remo a un brazo en polea (Single-Arm Cable Row)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Zancadas caminando (Walking Lunge)
-   - Semana 1: elige un peso que podrías levantar 2-3 veces más
-   - por lado = 1 serie
-   - Cambiar por: Remo a un brazo con mancuerna (1-Arm DB Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Remo%20a%20un%20brazo%20en%20polea%20(Single-Arm%20Cable%20Row))
-5. **Dominada en L (L-Sit Pull-Up)** — 2 × 7-10 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Ejercicio con peso corporal: si no llegas a las repeticiones, usa la máquina asistida o una regresión sin ligas (pies en el piso, anillas o TRX).
-   - Cambiar por: Dominada con peso (Weighted Pull-Up) / Dominada estricta con pies atrás (Strict Pull-Up) / Dominadas supinas (Chin-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dominada%20en%20L%20(L-Sit%20Pull-Up))
-
-**Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 2 × 5-8 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
-   - Repeticiones limitadas para este ejercicio (5-8): es más difícil que su grupo.
-   - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral con deslizadores (Slider Curl) / Curl femoral boca abajo con mancuerna entre los pies (Prone DB Leg Curl) / Curl femoral sentado (Seated Leg Curl)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Curl%20n%C3%B3rdico%20(Nordic%20Curl))
-2. **Aperturas en polea (Cable Fly)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
-   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20en%20polea%20(Cable%20Fly))
-3. **Extensión de piernas en máquina (Leg Extension)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Dominada en L (L-Sit Pull-Up)
-   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) / Sentadilla sissy (Sissy Squat)
-   - [Video](https://youtu.be/m0FOpMEgero)
-4. **Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)** — 2 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20peso%20corporal%20desde%20un%20escal%C3%B3n%20(Standing%20Calf%20Raise))
-5. **Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise)** — 1 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - por lado = 1 serie
-   - Segundo ejercicio de pantorrilla: 1 serie(s) (3 series de pantorrilla hoy en total)
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrilla%20a%20una%20pierna%20en%20d%C3%A9ficit%20(Single-Leg%20Calf%20Raise))
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 2 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Cambiar por: Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
 
 **Aeróbico**
-1. **Aeróbico C (naranja): 8 min trote / 1 min caminata** — Naranja (C): largo / suave · 30-40 min
-   - Sirve cualquier equipo de cardio: correr, bici, remo o ski erg. Registra tiempo, calorías o distancia.
-   - Sesión aparte: a cualquier hora del día (no se suma a tu tiempo de pesas).
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aer%C3%B3bico%20C%20(naranja)%3A%208%20min%20trote%20%2F%201%20min%20caminata)
-
-### Sábado · Día opcional (opcional)
-_aprox. 51 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-
-**Core / abdomen**
-1. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha lateral (Side Plank) / Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Abdominal inverso (Reverse Crunch)
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
-
-**Accesorios**
-1. **Remo al mentón con barra (Upright Row) (Enfoque)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   - Cambiar por: Elevación lateral en polea (Cable Lateral Raise) / Elevación lateral en polea inclinado / acostado de lado (Cable Lateral Raise) / Remo al mentón con mancuernas (DB Upright Row) / Elevaciones laterales con mancuernas (Lateral Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Remo%20al%20ment%C3%B3n%20con%20barra%20(Upright%20Row))
-2. **Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (Enfoque)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   - Cambiar por: Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) / Pájaros con mancuernas (Reverse Fly) / Face pull con kettlebell (KB Face Pull) / Aperturas posteriores en máquina (Reverse Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaciones%20Y%20%2F%20T%20boca%20abajo%20en%20el%20piso%20(Prone%20Y-T%20Raises))
-
-**Aeróbico**
-1. **Aeróbico C (naranja): carrera de 2 millas** — Naranja (C): largo / suave · 30-40 min
-   - Sirve cualquier equipo de cardio: correr, bici, remo o ski erg. Registra tiempo, calorías o distancia.
+1. **Naranja (C): largo / suave · carrera** — 30 min · 11 min corriendo / 2 min caminando, repite
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aer%C3%B3bico%20C%20(naranja)%3A%20carrera%20de%202%20millas)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aerobic%20C%20(orange)%3A%2011%20Minute%20Run%2F%202%20Min%20Walk)
 
 ## Semana 2 — Adaptación (pasos pequeños)
 
-_Nivel de esfuerzo esta semana: 3.3 (2 = inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 3.3 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
 
 **Qué cambia esta semana**
-- +1 serie en Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (Miércoles)
-- Deltoides laterales llegó a su tope semanal: sube peso o reps, no series
-- Mismas series: agrega un poco de peso o reps esta semana
+- +1 serie en Remo a un brazo con mancuerna (1-Arm DB Row) (lunes)
 
-**Trabajo atlético esta semana:** 80 contactos de salto · 20 lanzamientos · 96 cambios de dirección · 276 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 0% · Recibir-Crear 1: Aterrizar
+**Trabajo atlético esta semana:** 46 contactos de salto · 46 contactos de saltos de tobillo · 24 lanzamientos · 58 cambios de dirección · 430 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 53% · Recibir-Crear 2: Aterrizar y salir
 
-### Lunes · S1 - salto + rodilla + jalón
-_aprox. 81 min_
+### Lunes · S1 - salto + rodilla + tirón
+_aprox. 68 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cardio. También puedes agregar o quitar ejercicios._
+_Las superseries marcadas hoy te mantienen dentro de 75 min._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
 2. **Marcha A (A March)**
    - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
-   - Cambiar por: Plancha lateral (Side Plank) / Abdominal completo con peso (Weighted Sit-Up) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
+1. **Plancha en antebrazos (Plank)** [A1] — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
+   - Cambiar por: Posición de flecha en hollow (Streamline Hold) / Balanceo en posición hueca (Hollow Rocks) / Plancha alta con brazos extendidos (High Plank) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers)
    - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
+2. **Plancha Copenhague (Copenhagen Plank)** [A2] — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
    - por lado = 1 serie
-   - Cambiar por: Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar) / Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise) / Rodillas al pecho rotacional colgado (Hanging Oblique Knee Raise)
+   - Cambiar por: Elevación Copenhague dinámica (Copenhagen Raise) / Plancha lateral con press; avanzado: en estrella (Side Plank Press) / Plancha lateral alta con brazo extendido (High Side Plank) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit)
    - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
 
 **Saltos, lanzamientos y velocidad**
-1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 6 x 23 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Skip A (A Skip) / Marcha A (A March)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sprint%20a%20velocidad%20m%C3%A1xima%20(Max-Velocity%20Sprint))
-2. **Caída desde cajón bajo (Low Depth Drop)** — 2 × 8 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - cajón bajo (15-30 cm)
-   - Aterriza y congela: sostén 3 s
-   > Altura del cajón de unas 6-12 in (15-30 cm).
-   - Cambiar por: Caída desde cajón medio (Medium Depth Drop) / Salto a cajón bajo (Low Box Jump) / Salto al cajón medio, a la altura de la rodilla (Box Jump) / Salto con barra hexagonal (Hex-Bar Jump)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ca%C3%ADda%20desde%20caj%C3%B3n%20bajo%20(Low%20Depth%20Drop))
-3. **Salto con barra hexagonal (Hex-Bar Jump)** — 2 × 8 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - 10-20% del peso corporal
-   - Aterriza y congela: sostén 3 s
-   - Cambiar por: Caída desde cajón bajo (Low Depth Drop) / Salto a cajón bajo (Low Box Jump) / Salto al cajón medio, a la altura de la rodilla (Box Jump) / Caída desde cajón medio (Medium Depth Drop)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Salto%20con%20barra%20hexagonal%20(Hex-Bar%20Jump))
-4. **Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops)** — 2 × 16 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Aterriza y congela: sostén 3 s
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) / Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20de%20tobillo%20en%20zigzag%20con%20dos%20pies%20(Zig-Zag%20Ankle%20Hops))
-5. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Ruta slant (Slant Route) / Prueba L de tres conos (L-Drill) / Ruta fade (Fade Route) / Ruta post / esquina (Post Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Desplazamientos%20laterales%20(Lateral%20Shuffles))
-6. **Ruta dig / out (Dig Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Prueba L de tres conos (L-Drill) / Ruta slant (Slant Route) / Ruta fade (Fade Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20dig%20%2F%20out%20(Dig%20Route))
+1. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 2 × 8 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de vallas hacia adelante (Hurdle Hops) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral))
+2. **Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump)** — 2 × 7 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
+   - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) / Salto con barra hexagonal (Hex-Bar Jump) / Salto largo (Broad Jump) / Salto al cajón medio, a la altura de la rodilla (Box Jump)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Squat%20Jump%20(high%2C%20bodyweight%20or%20lightly%20loaded))
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 11 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place))
+4. **Prueba L de tres conos (L-Drill)** — 2 × 3 reps · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - 3 cambios de dirección por repetición
+   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Split step con reacción (Split-Step Reaction Drill) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) / Formación Krumrie, patrón de agilidad (Krumrie Drill)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone))
 
 **Potencia / levantamientos olímpicos**
-1. **Jalón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 8 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Tirón de cargada desde colgado alto (High-Hang Clean Pull)** — 2 × 8 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
    - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
    - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Jalón de cargada desde colgado alto (High-Hang Clean Pull) / Salto con barra hexagonal (Hex-Bar Jump) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Cargada desde colgado (Hang Clean)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20cargada%20desde%20colgado%20medio%20(Mid-Hang%20Clean%20Pull))
+   - Cambiar por: Tirón de cargada desde colgado medio (Mid-Hang Clean Pull) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Salto con barra hexagonal (Hex-Bar Jump) / Cargada desde colgado (Hang Clean)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=High-Hang%20Clean%20Pull)
 
 **Fuerza**
-1. **Sentadilla frontal con barra (Front Squat)** — 3 × 7-10 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
-   - [Video](https://youtu.be/uYumuL_G_V0)
-2. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Sentadilla frontal con barra (Front Squat)
+1. **Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)** [B1] — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
+   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla frontal con barra (Front Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
+   - [Video](https://youtube.com/shorts/0BwOWfg_-Og?feature=share)
+2. **Remo a un brazo con mancuerna (1-Arm DB Row)** [B2] — 4 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)
    - por lado = 1 serie
-   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con barra, agarre prono (Seal Row)
+   - Luego haz su última serie sola
+   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
    - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Zancada lateral (Lateral Lunge)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
-   - por lado = 1 serie
-   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Zancada hacia atrás (Reverse Lunge) / Zancada atrás en déficit, de pie sobre disco o escalón (Deficit Reverse Lunge) / Sentadilla dividida estática (Split Squat)
-   - [Video](https://youtu.be/zKWe7UAWbIo)
-4. **Dominada con peso (Weighted Pull-Up)** — 2 × 5-8 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Zancada lateral (Lateral Lunge)
-   - Repeticiones limitadas para este ejercicio (5-8): es más difícil que su grupo.
-   - Cambiar por: Dominada en L (L-Sit Pull-Up) / Dominada estricta con rodillas al pecho (Tuck Pull-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up) / Dominada estricta con pies atrás (Strict Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dominada%20con%20peso%20(Weighted%20Pull-Up))
-
-**Accesorios**
-1. **Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)** — 3 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Pájaros con mancuernas (Reverse Fly) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)
-   - Cambiar por: Pájaros con mancuernas (Reverse Fly) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) / Face pull con kettlebell (KB Face Pull) / Remo para deltoide posterior con mancuerna (Rear-Delt Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20sentado%20con%20el%20pecho%20en%20los%20muslos%20(Seated%20Reverse%20Fly))
-2. **Pájaros con mancuernas (Reverse Fly)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)
-   - Cambiar por: Face pull con kettlebell (KB Face Pull) / Face pull en polea (Face Pull) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) / Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20con%20mancuernas%20(Reverse%20Fly))
-3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 4 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Pájaros con mancuernas (Reverse Fly)
-   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20mancuernas%20(DB%20Calf%20Raise))
-
-### Martes · Día aeróbico
-- **Aeróbico B (verde): 3 min trote / 3 min caminata** · Verde (B): moderado · 20-30 min
-
-### Miércoles · S2 - balón medicinal + cadera + empuje
-_aprox. 72 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-2. **Marcha A (A March)**
-   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
-
-**Core / abdomen**
-1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) / Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold)
-   - [Video](https://youtu.be/at9CMT91HrM)
-2. **Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise)** — 2 × 10 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Abdominal en V (V-Up) / Elevación de piernas acostado boca arriba (Lying Leg Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20rotacional%20de%20rodillas%20%2F%20piernas%20colgado%20(Hanging%20Oblique%20Raise))
-
-**Saltos, lanzamientos y velocidad**
-1. **Lagartija con salto de manos al cajón (Push-Up Box Jump)** — 2 × 8 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - cajón bajo (15-30 cm)
-   - Aterriza y congela: sostén 3 s
-   > Las manos empiezan en el piso y saltan para aterrizar sobre un cajón - la dirección contraria al aterrizaje controlado.
-   - Cambiar por: Lagartija con aterrizaje controlado: manos desde el cajón al piso (Push-Up Stick the Landing) / Lagartijas pliométricas (Plyo Push-Ups) / Azote simulado con balón medicinal y regreso - ejercicio de amortiguación de tronco y brazos (Fake Medball Slam)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lagartija%20con%20salto%20de%20manos%20al%20caj%C3%B3n%20(Push-Up%20Box%20Jump))
-2. **Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass)** — 1 × 10 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso
-   - balón de 8-10 lb
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la derecha, pierna derecha al frente (Rotational Scoop) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la izquierda, pierna derecha al frente (Rotational Scoop) / Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sentadilla%20a%20pase%20de%20pecho%20con%20bal%C3%B3n%20medicinal%20(Squat%20to%20Chest%20Pass))
-3. **Prueba L de tres conos (L-Drill)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta flat (Flat Route) / Ruta slant (Slant Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Prueba%20L%20de%20tres%20conos%20(L-Drill))
-
-**Potencia / levantamientos olímpicos**
-1. **Jalón de arranque desde colgado medio (Mid-Hang Snatch Pull)** — 2 × 8 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
-   - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Jalón de arranque desde colgado alto (High-Hang Snatch Pull) / Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) / Jalón alto con mancuerna o kettlebell (High Pull)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20arranque%20desde%20colgado%20medio%20(Mid-Hang%20Snatch%20Pull))
-
-**Fuerza**
-1. **Peso muerto con dos kettlebells (Double-KB Deadlift)** — 3 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Press de banca plano alterno con mancuernas (Alternating DB Bench Press)
-   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Hiperextensión a 45° (Back Extension) / Empuje de cadera o puente de glúteo (Hip Thrust / Glute Bridge)
-   - [Video](https://youtu.be/aXwilZfmDyo)
-2. **Press de banca plano alterno con mancuernas (Alternating DB Bench Press)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Peso muerto con dos kettlebells (Double-KB Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Video](https://www.youtube.com/watch?v=YUhAJt8xsFY)
-3. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)
-   - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Kickstand RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Puente de glúteo a una pierna con pie elevado en el banco (Single-Leg Glute Bridge)
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-4. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 2 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press de hombro alterno con mancuernas (Alternating DB Overhead Press) / Push press con mancuernas (DB Push Press) / Envión de empuje con mancuernas (DB Push Jerk) / Envión de empuje con barra (Push Jerk)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20alterno%20tipo%20balanc%C3%ADn%20con%20mancuernas%2C%20una%20arriba%20%2F%20una%20abajo%20(Seesaw%20Press))
-
-**Accesorios**
-1. **Aperturas con mancuernas (DB Fly)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)
-   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20con%20mancuernas%20(DB%20Fly))
-2. **Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly)
-   - Cambiar por: Elevación lateral sentado con mancuernas (Seated Lateral Raise) / Remo al mentón con mancuernas (DB Upright Row) / Elevaciones laterales con mancuernas (Lateral Raise) / Remo al mentón con barra (Upright Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20lateral%20con%20mancuernas%2C%20palmas%20arriba%20(Supinated%20Lateral%20Raise))
-3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 2 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20con%20barra%20(Barbell%20Calf%20Raise))
-4. **Elevación de pantorrillas en máquina (Calf Raise)** — 1 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Segundo ejercicio de pantorrilla: 1 serie(s) (3 series de pantorrilla hoy en total)
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20en%20m%C3%A1quina%20(Calf%20Raise))
-
-### Jueves · Día aeróbico
-- **Aeróbico A (azul): 20 s carrera / 40 s caminata** · Azul (A): corto / alta intensidad · 15-20 min
-
-### Viernes · S3 - olímpicos + fuerza
-_aprox. 66 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-2. **Marcha A (A March)**
-   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
-
-**Core / abdomen**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Plancha lateral (Side Plank) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
-   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Rodillas al pecho colgado (Hanging Knees to Chest)** — 2 × 10 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 30-60 s de descanso
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal en V (V-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rodillas%20al%20pecho%20colgado%20(Hanging%20Knees%20to%20Chest))
-
-**Saltos, lanzamientos y velocidad**
-1. **Ruta fade (Fade Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta slant (Slant Route) / Ruta post / esquina (Post Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20fade%20(Fade%20Route))
-
-**Fuerza**
-1. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 3 × 7-10 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Press en el piso alterno con mancuernas (Alternating DB Floor Press)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Cambiar por: Peso muerto rumano (RDL) / Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift)
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-2. **Press en el piso alterno con mancuernas (Alternating DB Floor Press)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Peso muerto con barra hexagonal (Trap Bar Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) / Press de banca plano alterno con mancuernas (Alternating DB Bench Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20en%20el%20piso%20alterno%20con%20mancuernas%20(Alternating%20DB%20Floor%20Press))
-3. **Zancadas caminando (Walking Lunge)** — 2 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Remo a un brazo en polea (Single-Arm Cable Row)
-   - por lado = 1 serie
-   - Cambiar por: Zancada hacia atrás (Reverse Lunge) / Sentadilla dividida estática (Split Squat) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) / Sentadilla búlgara (Bulgarian Split Squat)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Zancadas%20caminando%20(Walking%20Lunge))
-4. **Remo a un brazo en polea (Single-Arm Cable Row)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Zancadas caminando (Walking Lunge)
-   - por lado = 1 serie
-   - Cambiar por: Remo a un brazo con mancuerna (1-Arm DB Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Remo%20a%20un%20brazo%20en%20polea%20(Single-Arm%20Cable%20Row))
-5. **Dominada en L (L-Sit Pull-Up)** — 2 × 7-10 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Ejercicio con peso corporal: si no llegas a las repeticiones, usa la máquina asistida o una regresión sin ligas (pies en el piso, anillas o TRX).
-   - Cambiar por: Dominada con peso (Weighted Pull-Up) / Dominada estricta con pies atrás (Strict Pull-Up) / Dominadas supinas (Chin-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dominada%20en%20L%20(L-Sit%20Pull-Up))
-
-**Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 2 × 5-8 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
-   - Repeticiones limitadas para este ejercicio (5-8): es más difícil que su grupo.
-   - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral con deslizadores (Slider Curl) / Curl femoral boca abajo con mancuerna entre los pies (Prone DB Leg Curl) / Curl femoral sentado (Seated Leg Curl)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Curl%20n%C3%B3rdico%20(Nordic%20Curl))
-2. **Aperturas en polea (Cable Fly)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
-   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20en%20polea%20(Cable%20Fly))
-3. **Extensión de piernas en máquina (Leg Extension)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Dominada en L (L-Sit Pull-Up)
-   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) / Sentadilla sissy (Sissy Squat)
+3. **Dominada con peso (Weighted Pull-Up)** [C1] — 2 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Dominadas (Pull-Up) / Jalón al pecho, agarre prono (Lat Pulldown) / Jalón al pecho, agarre supino (Underhand Pulldown) / Dominada sentado en anillas / TRX con pies apoyados (Seated Ring Pull-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Pull-Up)
+4. **Extensión de piernas en máquina (Leg Extension)** [C2] — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
+   - Luego haz su última serie sola
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
    - [Video](https://youtu.be/m0FOpMEgero)
-4. **Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)** — 2 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20peso%20corporal%20desde%20un%20escal%C3%B3n%20(Standing%20Calf%20Raise))
-5. **Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise)** — 1 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - por lado = 1 serie
-   - Segundo ejercicio de pantorrilla: 1 serie(s) (3 series de pantorrilla hoy en total)
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrilla%20a%20una%20pierna%20en%20d%C3%A9ficit%20(Single-Leg%20Calf%20Raise))
+
+**Accesorios**
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
 
 **Aeróbico**
-1. **Aeróbico C (naranja): 8 min trote / 1 min caminata** — Naranja (C): largo / suave · 30-40 min
-   - Sirve cualquier equipo de cardio: correr, bici, remo o ski erg. Registra tiempo, calorías o distancia.
+1. **Naranja (C): largo / suave · carrera** — 32 min · 11 min corriendo / 2 min caminando, repite
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Sesión aparte: a cualquier hora del día (no se suma a tu tiempo de pesas).
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aer%C3%B3bico%20C%20(naranja)%3A%208%20min%20trote%20%2F%201%20min%20caminata)
-
-### Sábado · Día opcional (opcional)
-_aprox. 51 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-
-**Core / abdomen**
-1. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha lateral (Side Plank) / Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Abdominal inverso (Reverse Crunch)
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
-
-**Accesorios**
-1. **Remo al mentón con barra (Upright Row) (Enfoque)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   - Cambiar por: Elevación lateral en polea (Cable Lateral Raise) / Elevación lateral en polea inclinado / acostado de lado (Cable Lateral Raise) / Remo al mentón con mancuernas (DB Upright Row) / Elevaciones laterales con mancuernas (Lateral Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Remo%20al%20ment%C3%B3n%20con%20barra%20(Upright%20Row))
-2. **Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (Enfoque)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   - Cambiar por: Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) / Pájaros con mancuernas (Reverse Fly) / Face pull con kettlebell (KB Face Pull) / Aperturas posteriores en máquina (Reverse Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaciones%20Y%20%2F%20T%20boca%20abajo%20en%20el%20piso%20(Prone%20Y-T%20Raises))
-
-**Aeróbico**
-1. **Aeróbico C (naranja): carrera de 2 millas** — Naranja (C): largo / suave · 30-40 min
-   - Sirve cualquier equipo de cardio: correr, bici, remo o ski erg. Registra tiempo, calorías o distancia.
-   - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aer%C3%B3bico%20C%20(naranja)%3A%20carrera%20de%202%20millas)
-
-## Semana 3 — Empujando (los pasos crecen un poco)
-
-_Nivel de esfuerzo esta semana: 4.6 (2 = inicio, 11 = un poco más allá de tus límites)_
-
-**Qué cambia esta semana**
-- Los saltos pasan a Recibir-Crear 2: Aterrizar y salir
-- Nuevo ejercicio extra: Hiperextensión inversa (Reverse Hyper) (Viernes)
-- Mismas series: agrega un poco de peso o reps esta semana
-
-**Trabajo atlético esta semana:** 76 contactos de salto · 20 lanzamientos · 96 cambios de dirección · 312 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 46% · Recibir-Crear 2: Aterrizar y salir
-
-### Lunes · S1 - salto + rodilla + jalón
-_aprox. 81 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-2. **Marcha A (A March)**
-   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
-
-**Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
-   - Cambiar por: Plancha lateral (Side Plank) / Abdominal completo con peso (Weighted Sit-Up) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
-   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
-   - por lado = 1 serie
-   - Cambiar por: Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar) / Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise) / Rodillas al pecho rotacional colgado (Hanging Oblique Knee Raise)
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
-
-**Saltos, lanzamientos y velocidad**
-1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 6 x 26 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Skip A (A Skip) / Marcha A (A March)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sprint%20a%20velocidad%20m%C3%A1xima%20(Max-Velocity%20Sprint))
-2. **Caída desde cajón a salto al cajón (Depth Drop to Box Jump)** — 2 × 6 contactos · máxima intención; para cuando baje la calidad · 2-3 min de descanso
-   - cajón medio (30-45 cm)
-   - Aterriza y sal: un salto justo después del aterrizaje
-   - Cambiar por: Caída desde cajón a una pierna con mancuernas, soltarlas y saltar (Single-Leg Drop & Jump) / Salto de profundidad a una pierna (Single-Leg Depth Jump) / Caída desde cajón con mancuernas, soltarlas y saltar (DB Depth Drop & Jump) / Salto de profundidad (Depth Jump)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ca%C3%ADda%20desde%20caj%C3%B3n%20a%20salto%20al%20caj%C3%B3n%20(Depth%20Drop%20to%20Box%20Jump))
-3. **Caída desde cajón con mancuernas, soltarlas y saltar (DB Depth Drop & Jump)** — 2 × 6 contactos · máxima intención; para cuando baje la calidad · 2-3 min de descanso
-   - cajón bajo (15-30 cm)
-   - Aterriza y sal: un salto justo después del aterrizaje
-   - Cambiar por: Salto con barra hexagonal (Hex-Bar Jump) / Salto de profundidad (Depth Jump) / Salto de profundidad a una pierna (Single-Leg Depth Jump) / Caída desde cajón a una pierna con mancuernas, soltarlas y saltar (Single-Leg Drop & Jump)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ca%C3%ADda%20desde%20caj%C3%B3n%20con%20mancuernas%2C%20soltarlas%20y%20saltar%20(DB%20Depth%20Drop%20%26%20Jump))
-4. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 2 × 16 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Aterriza y sal: un salto justo después del aterrizaje
-   - Cambiar por: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20de%20tobillo%20laterales%20con%20dos%20pies%20(Lateral%20Ankle%20Hops))
-5. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Ruta slant (Slant Route) / Prueba L de tres conos (L-Drill) / Ruta fade (Fade Route) / Ruta post / esquina (Post Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Desplazamientos%20laterales%20(Lateral%20Shuffles))
-6. **Ruta dig / out (Dig Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Prueba L de tres conos (L-Drill) / Ruta slant (Slant Route) / Ruta fade (Fade Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20dig%20%2F%20out%20(Dig%20Route))
-
-**Potencia / levantamientos olímpicos**
-1. **Jalón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 6 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
-   - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Jalón de cargada desde colgado alto (High-Hang Clean Pull) / Salto con barra hexagonal (Hex-Bar Jump) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Cargada desde colgado (Hang Clean)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20cargada%20desde%20colgado%20medio%20(Mid-Hang%20Clean%20Pull))
-
-**Fuerza**
-1. **Sentadilla frontal con barra (Front Squat)** — 3 × 7-10 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
-   - [Video](https://youtu.be/uYumuL_G_V0)
-2. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Sentadilla frontal con barra (Front Squat)
-   - por lado = 1 serie
-   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con barra, agarre prono (Seal Row)
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Zancada lateral (Lateral Lunge)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
-   - por lado = 1 serie
-   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Zancada hacia atrás (Reverse Lunge) / Zancada atrás en déficit, de pie sobre disco o escalón (Deficit Reverse Lunge) / Sentadilla dividida estática (Split Squat)
-   - [Video](https://youtu.be/zKWe7UAWbIo)
-4. **Dominada con peso (Weighted Pull-Up)** — 2 × 5-8 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Zancada lateral (Lateral Lunge)
-   - Repeticiones limitadas para este ejercicio (5-8): es más difícil que su grupo.
-   - Cambiar por: Dominada en L (L-Sit Pull-Up) / Dominada estricta con rodillas al pecho (Tuck Pull-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up) / Dominada estricta con pies atrás (Strict Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dominada%20con%20peso%20(Weighted%20Pull-Up))
-
-**Accesorios**
-1. **Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)** — 3 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Pájaros con mancuernas (Reverse Fly) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)
-   - Cambiar por: Pájaros con mancuernas (Reverse Fly) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) / Face pull con kettlebell (KB Face Pull) / Remo para deltoide posterior con mancuerna (Rear-Delt Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20sentado%20con%20el%20pecho%20en%20los%20muslos%20(Seated%20Reverse%20Fly))
-2. **Pájaros con mancuernas (Reverse Fly)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)
-   - Cambiar por: Face pull con kettlebell (KB Face Pull) / Face pull en polea (Face Pull) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) / Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20con%20mancuernas%20(Reverse%20Fly))
-3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 4 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Pájaros con mancuernas (Reverse Fly)
-   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20mancuernas%20(DB%20Calf%20Raise))
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aerobic%20C%20(orange)%3A%2011%20Minute%20Run%2F%202%20Min%20Walk)
 
 ### Martes · Día aeróbico
-- **Aeróbico B (verde): 3 min trote / 3 min caminata** · Verde (B): moderado · 20-30 min
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 22 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
-### Miércoles · S2 - balón medicinal + cadera + empuje
-_aprox. 72 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-2. **Marcha A (A March)**
-   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
-
-**Core / abdomen**
-1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) / Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold)
-   - [Video](https://youtu.be/at9CMT91HrM)
-2. **Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise)** — 2 × 10 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Abdominal en V (V-Up) / Elevación de piernas acostado boca arriba (Lying Leg Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20rotacional%20de%20rodillas%20%2F%20piernas%20colgado%20(Hanging%20Oblique%20Raise))
-
-**Saltos, lanzamientos y velocidad**
-1. **Lagartijas pliométricas (Plyo Push-Ups)** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Aterriza y sal: un salto justo después del aterrizaje
-   - Cambiar por: Lagartija con salto de manos al cajón (Push-Up Box Jump) / Azote simulado con balón medicinal y regreso - ejercicio de amortiguación de tronco y brazos (Fake Medball Slam)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lagartijas%20pliom%C3%A9tricas%20(Plyo%20Push-Ups))
-2. **Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass)** — 1 × 10 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso
-   - balón de 8-10 lb
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la derecha, pierna derecha al frente (Rotational Scoop) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la izquierda, pierna derecha al frente (Rotational Scoop) / Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sentadilla%20a%20pase%20de%20pecho%20con%20bal%C3%B3n%20medicinal%20(Squat%20to%20Chest%20Pass))
-3. **Prueba L de tres conos (L-Drill)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta flat (Flat Route) / Ruta slant (Slant Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Prueba%20L%20de%20tres%20conos%20(L-Drill))
-
-**Potencia / levantamientos olímpicos**
-1. **Jalón de arranque desde colgado medio (Mid-Hang Snatch Pull)** — 2 × 6 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
-   - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Jalón de arranque desde colgado alto (High-Hang Snatch Pull) / Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) / Jalón alto con mancuerna o kettlebell (High Pull)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20arranque%20desde%20colgado%20medio%20(Mid-Hang%20Snatch%20Pull))
-
-**Fuerza**
-1. **Peso muerto con dos kettlebells (Double-KB Deadlift)** — 3 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Press de banca plano alterno con mancuernas (Alternating DB Bench Press)
-   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Hiperextensión a 45° (Back Extension) / Empuje de cadera o puente de glúteo (Hip Thrust / Glute Bridge)
-   - [Video](https://youtu.be/aXwilZfmDyo)
-2. **Press de banca plano alterno con mancuernas (Alternating DB Bench Press)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Peso muerto con dos kettlebells (Double-KB Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Video](https://www.youtube.com/watch?v=YUhAJt8xsFY)
-3. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)
-   - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Kickstand RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Puente de glúteo a una pierna con pie elevado en el banco (Single-Leg Glute Bridge)
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-4. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 2 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press de hombro alterno con mancuernas (Alternating DB Overhead Press) / Push press con mancuernas (DB Push Press) / Envión de empuje con mancuernas (DB Push Jerk) / Envión de empuje con barra (Push Jerk)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20alterno%20tipo%20balanc%C3%ADn%20con%20mancuernas%2C%20una%20arriba%20%2F%20una%20abajo%20(Seesaw%20Press))
-
-**Accesorios**
-1. **Aperturas con mancuernas (DB Fly)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)
-   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20con%20mancuernas%20(DB%20Fly))
-2. **Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly)
-   - Cambiar por: Elevación lateral sentado con mancuernas (Seated Lateral Raise) / Remo al mentón con mancuernas (DB Upright Row) / Elevaciones laterales con mancuernas (Lateral Raise) / Remo al mentón con barra (Upright Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20lateral%20con%20mancuernas%2C%20palmas%20arriba%20(Supinated%20Lateral%20Raise))
-3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 2 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20con%20barra%20(Barbell%20Calf%20Raise))
-4. **Elevación de pantorrillas en máquina (Calf Raise)** — 1 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Segundo ejercicio de pantorrilla: 1 serie(s) (3 series de pantorrilla hoy en total)
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20en%20m%C3%A1quina%20(Calf%20Raise))
-
-### Jueves · Día aeróbico
-- **Aeróbico A (azul): 20 s carrera / 40 s caminata** · Azul (A): corto / alta intensidad · 15-20 min
-
-### Viernes · S3 - olímpicos + fuerza
-_aprox. 69 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-2. **Marcha A (A March)**
-   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
-
-**Core / abdomen**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Plancha lateral (Side Plank) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
-   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Rodillas al pecho colgado (Hanging Knees to Chest)** — 2 × 10 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 30-60 s de descanso
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal en V (V-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rodillas%20al%20pecho%20colgado%20(Hanging%20Knees%20to%20Chest))
-
-**Saltos, lanzamientos y velocidad**
-1. **Ruta fade (Fade Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta slant (Slant Route) / Ruta post / esquina (Post Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20fade%20(Fade%20Route))
-
-**Fuerza**
-1. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 3 × 7-10 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Press en el piso alterno con mancuernas (Alternating DB Floor Press)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Cambiar por: Peso muerto rumano (RDL) / Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift)
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-2. **Press en el piso alterno con mancuernas (Alternating DB Floor Press)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Peso muerto con barra hexagonal (Trap Bar Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) / Press de banca plano alterno con mancuernas (Alternating DB Bench Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20en%20el%20piso%20alterno%20con%20mancuernas%20(Alternating%20DB%20Floor%20Press))
-3. **Zancadas caminando (Walking Lunge)** — 2 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Remo a un brazo en polea (Single-Arm Cable Row)
-   - por lado = 1 serie
-   - Cambiar por: Zancada hacia atrás (Reverse Lunge) / Sentadilla dividida estática (Split Squat) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) / Sentadilla búlgara (Bulgarian Split Squat)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Zancadas%20caminando%20(Walking%20Lunge))
-4. **Remo a un brazo en polea (Single-Arm Cable Row)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Zancadas caminando (Walking Lunge)
-   - por lado = 1 serie
-   - Cambiar por: Remo a un brazo con mancuerna (1-Arm DB Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Remo%20a%20un%20brazo%20en%20polea%20(Single-Arm%20Cable%20Row))
-5. **Dominada en L (L-Sit Pull-Up)** — 2 × 7-10 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Ejercicio con peso corporal: si no llegas a las repeticiones, usa la máquina asistida o una regresión sin ligas (pies en el piso, anillas o TRX).
-   - Cambiar por: Dominada con peso (Weighted Pull-Up) / Dominada estricta con pies atrás (Strict Pull-Up) / Dominadas supinas (Chin-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dominada%20en%20L%20(L-Sit%20Pull-Up))
-
-**Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 2 × 5-8 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
-   - Repeticiones limitadas para este ejercicio (5-8): es más difícil que su grupo.
-   - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral con deslizadores (Slider Curl) / Curl femoral boca abajo con mancuerna entre los pies (Prone DB Leg Curl) / Curl femoral sentado (Seated Leg Curl)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Curl%20n%C3%B3rdico%20(Nordic%20Curl))
-2. **Aperturas en polea (Cable Fly)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
-   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20en%20polea%20(Cable%20Fly))
-3. **Extensión de piernas en máquina (Leg Extension)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa después del par · SUPERSERIE CON Dominada en L (L-Sit Pull-Up)
-   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) / Sentadilla sissy (Sissy Squat)
-   - [Video](https://youtu.be/m0FOpMEgero)
-4. **Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)** — 2 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20peso%20corporal%20desde%20un%20escal%C3%B3n%20(Standing%20Calf%20Raise))
-5. **Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise)** — 1 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - por lado = 1 serie
-   - Segundo ejercicio de pantorrilla: 1 serie(s) (3 series de pantorrilla hoy en total)
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrilla%20a%20una%20pierna%20en%20d%C3%A9ficit%20(Single-Leg%20Calf%20Raise))
-6. **Hiperextensión inversa (Reverse Hyper) (Enfoque)** — 1 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   > Úsalo si está disponible y el cliente siente los músculos correctos.
-   - Cambiar por: Empuje de cadera con saco de arena (Sandbag Hip Thrust) / Puente de glúteo con pies elevados en el banco (Feet-Elevated Glute Bridge) / Jalón entre piernas en polea (Cable Pull-Through) / Puente de glúteo a una pierna con pie en el piso (Single-Leg Glute Bridge)
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-
-**Aeróbico**
-1. **Aeróbico C (naranja): 8 min trote / 1 min caminata** — Naranja (C): largo / suave · 30-40 min
-   - Sirve cualquier equipo de cardio: correr, bici, remo o ski erg. Registra tiempo, calorías o distancia.
-   - Sesión aparte: a cualquier hora del día (no se suma a tu tiempo de pesas).
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aer%C3%B3bico%20C%20(naranja)%3A%208%20min%20trote%20%2F%201%20min%20caminata)
-
-### Sábado · Día opcional (opcional)
-_aprox. 51 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-
-**Core / abdomen**
-1. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha lateral (Side Plank) / Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Abdominal inverso (Reverse Crunch)
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
-
-**Accesorios**
-1. **Remo al mentón con barra (Upright Row) (Enfoque)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   - Cambiar por: Elevación lateral en polea (Cable Lateral Raise) / Elevación lateral en polea inclinado / acostado de lado (Cable Lateral Raise) / Remo al mentón con mancuernas (DB Upright Row) / Elevaciones laterales con mancuernas (Lateral Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Remo%20al%20ment%C3%B3n%20con%20barra%20(Upright%20Row))
-2. **Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (Enfoque)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   - Cambiar por: Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) / Pájaros con mancuernas (Reverse Fly) / Face pull con kettlebell (KB Face Pull) / Aperturas posteriores en máquina (Reverse Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaciones%20Y%20%2F%20T%20boca%20abajo%20en%20el%20piso%20(Prone%20Y-T%20Raises))
-
-**Aeróbico**
-1. **Aeróbico C (naranja): carrera de 2 millas** — Naranja (C): largo / suave · 30-40 min
-   - Sirve cualquier equipo de cardio: correr, bici, remo o ski erg. Registra tiempo, calorías o distancia.
-   - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aer%C3%B3bico%20C%20(naranja)%3A%20carrera%20de%202%20millas)
-
-## Semana 4 — Empujando (los pasos crecen un poco)
-
-_Nivel de esfuerzo esta semana: 6.7 (2 = inicio, 11 = un poco más allá de tus límites)_
-
-**Qué cambia esta semana**
-- +1 serie en Aperturas con mancuernas (DB Fly) (Miércoles)
-- +1 serie en Zancadas caminando (Walking Lunge) (Viernes)
-- +1 serie en Curl nórdico (Nordic Curl) (Viernes)
-- Mismas series: agrega un poco de peso o reps esta semana
-
-**Trabajo atlético esta semana:** 76 contactos de salto · 20 lanzamientos · 96 cambios de dirección · 360 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 46% · Recibir-Crear 2: Aterrizar y salir
-
-### Lunes · S1 - salto + rodilla + jalón
-_aprox. 81 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-2. **Marcha A (A March)**
-   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
-
-**Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
-   - Cambiar por: Plancha lateral (Side Plank) / Abdominal completo con peso (Weighted Sit-Up) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
-   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
-   - por lado = 1 serie
-   - Cambiar por: Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar) / Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise) / Rodillas al pecho rotacional colgado (Hanging Oblique Knee Raise)
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
-
-**Saltos, lanzamientos y velocidad**
-1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 6 x 30 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Skip A (A Skip) / Marcha A (A March)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sprint%20a%20velocidad%20m%C3%A1xima%20(Max-Velocity%20Sprint))
-2. **Caída desde cajón a salto al cajón (Depth Drop to Box Jump)** — 2 × 6 contactos · máxima intención; para cuando baje la calidad · 2-3 min de descanso
-   - cajón medio (30-45 cm)
-   - Aterriza y sal: un salto justo después del aterrizaje
-   - Cambiar por: Caída desde cajón a una pierna con mancuernas, soltarlas y saltar (Single-Leg Drop & Jump) / Salto de profundidad a una pierna (Single-Leg Depth Jump) / Caída desde cajón con mancuernas, soltarlas y saltar (DB Depth Drop & Jump) / Salto de profundidad (Depth Jump)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ca%C3%ADda%20desde%20caj%C3%B3n%20a%20salto%20al%20caj%C3%B3n%20(Depth%20Drop%20to%20Box%20Jump))
-3. **Caída desde cajón con mancuernas, soltarlas y saltar (DB Depth Drop & Jump)** — 2 × 6 contactos · máxima intención; para cuando baje la calidad · 2-3 min de descanso
-   - cajón bajo (15-30 cm)
-   - Aterriza y sal: un salto justo después del aterrizaje
-   - Cambiar por: Salto con barra hexagonal (Hex-Bar Jump) / Salto de profundidad (Depth Jump) / Salto de profundidad a una pierna (Single-Leg Depth Jump) / Caída desde cajón a una pierna con mancuernas, soltarlas y saltar (Single-Leg Drop & Jump)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ca%C3%ADda%20desde%20caj%C3%B3n%20con%20mancuernas%2C%20soltarlas%20y%20saltar%20(DB%20Depth%20Drop%20%26%20Jump))
-4. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 2 × 16 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Aterriza y sal: un salto justo después del aterrizaje
-   - Cambiar por: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20de%20tobillo%20laterales%20con%20dos%20pies%20(Lateral%20Ankle%20Hops))
-5. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Ruta slant (Slant Route) / Prueba L de tres conos (L-Drill) / Ruta fade (Fade Route) / Ruta post / esquina (Post Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Desplazamientos%20laterales%20(Lateral%20Shuffles))
-6. **Ruta dig / out (Dig Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Prueba L de tres conos (L-Drill) / Ruta slant (Slant Route) / Ruta fade (Fade Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20dig%20%2F%20out%20(Dig%20Route))
-
-**Potencia / levantamientos olímpicos**
-1. **Jalón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 6 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
-   - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Jalón de cargada desde colgado alto (High-Hang Clean Pull) / Salto con barra hexagonal (Hex-Bar Jump) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Cargada desde colgado (Hang Clean)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20cargada%20desde%20colgado%20medio%20(Mid-Hang%20Clean%20Pull))
-
-**Fuerza**
-1. **Sentadilla frontal con barra (Front Squat)** — 3 × 7-10 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
-   - [Video](https://youtu.be/uYumuL_G_V0)
-2. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 3 × 12 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Sentadilla frontal con barra (Front Squat)
-   - por lado = 1 serie
-   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con barra, agarre prono (Seal Row)
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Zancada lateral (Lateral Lunge)** — 3 × 12 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
-   - por lado = 1 serie
-   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Zancada hacia atrás (Reverse Lunge) / Zancada atrás en déficit, de pie sobre disco o escalón (Deficit Reverse Lunge) / Sentadilla dividida estática (Split Squat)
-   - [Video](https://youtu.be/zKWe7UAWbIo)
-4. **Dominada con peso (Weighted Pull-Up)** — 2 × 5-8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Zancada lateral (Lateral Lunge)
-   - Repeticiones limitadas para este ejercicio (5-8): es más difícil que su grupo.
-   - Cambiar por: Dominada en L (L-Sit Pull-Up) / Dominada estricta con rodillas al pecho (Tuck Pull-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up) / Dominada estricta con pies atrás (Strict Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dominada%20con%20peso%20(Weighted%20Pull-Up))
-
-**Accesorios**
-1. **Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)** — 3 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Pájaros con mancuernas (Reverse Fly) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)
-   - Cambiar por: Pájaros con mancuernas (Reverse Fly) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) / Face pull con kettlebell (KB Face Pull) / Remo para deltoide posterior con mancuerna (Rear-Delt Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20sentado%20con%20el%20pecho%20en%20los%20muslos%20(Seated%20Reverse%20Fly))
-2. **Pájaros con mancuernas (Reverse Fly)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)
-   - Cambiar por: Face pull con kettlebell (KB Face Pull) / Face pull en polea (Face Pull) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) / Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20con%20mancuernas%20(Reverse%20Fly))
-3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 4 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Pájaros con mancuernas (Reverse Fly)
-   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20mancuernas%20(DB%20Calf%20Raise))
-
-### Martes · Día aeróbico
-- **Aeróbico B (verde): 3 min trote / 3 min caminata** · Verde (B): moderado · 20-30 min
-
-### Miércoles · S2 - balón medicinal + cadera + empuje
+### Miércoles · S2 - balón medicinal + bisagra a una pierna + empuje
 _aprox. 74 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios. También puedes agregar o quitar ejercicios._
+_Las superseries marcadas hoy te mantienen dentro de 75 min._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
 2. **Marcha A (A March)**
    - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+
+**Core / abdomen**
+1. **Giro ruso con peso (Weighted Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa 30-60 s después del par · SUPERSERIE CON Pies a la barra (Toes-to-Bar)
+   - por lado = 1 serie
+   - Cambiar por: Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Conexión cruzada en estrella boca arriba (Star Cross Connect) / Escalador cruzado (Cross-Body Mountain Climber)
+   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
+2. **Pies a la barra (Toes-to-Bar)** [A2] — 2 × 10 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso con peso (Weighted Russian Twist)
+   - Cambiar por: Abdominal en V (V-Up) / Rodillas al pecho colgado (Hanging Knees to Chest) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Toes%20to%20Bar%20(hanging))
+
+**Saltos, lanzamientos y velocidad**
+1. **Salidas de aceleración (Acceleration Starts)** — 2 × 5 x 15 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Acceleration%20Starts)
+2. **Salto largo a una pierna (Single-Leg Broad Jump)** [B1] — 2 × 4 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10 · SUPERSERIE CON Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)
+   - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
+   - por lado = 1 serie
+   - Cambiar por: Salto largo (Broad Jump) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) / Salto con barra hexagonal (Hex-Bar Jump) / Salto a cajón bajo (Low Box Jump)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump)
+3. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** [B2] — 2 × 6 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso · SUPERSERIE CON Salto largo a una pierna (Single-Leg Broad Jump)
+   - balón de 8-10 lb
+   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
+   - Cambiar por: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) / Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L))
+4. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 10 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) / Split step con reacción (Split-Step Reaction Drill) / Formación Krumrie, patrón de agilidad (Krumrie Drill) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles)
+
+**Fuerza**
+1. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** [C1] — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Press inclinado con barra (Incline Bench Press)
+   - por lado = 1 serie
+   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Peso muerto rumano a una pierna (Single-Leg RDL)
+   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
+2. **Press inclinado con barra (Incline Bench Press)** [C2] — 3 × 7-9 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
+   - Mantén este ejercicio en 7-9 repeticiones.
+   - Cambiar por: Press de pecho de pie en polea (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press)
+3. **Zancada lateral (Lateral Lunge)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - por lado = 1 serie
+   - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
+   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Sentadilla búlgara (Bulgarian Split Squat) / Sentadilla dividida estática (Split Squat) / Zancadas caminando (Walking Lunge)
+   - [Video](https://youtu.be/zKWe7UAWbIo)
+4. **Curl femoral sentado (Seated Leg Curl)** [D1] — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly)
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Patadas con balón suizo de 30 s (Swiss Ball Kicks)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
+5. **Aperturas con mancuernas (DB Fly)** [D2] — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 60-90 s después del par · SUPERSERIE CON Curl femoral sentado (Seated Leg Curl)
+   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
+
+**Accesorios**
+1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
+   - [Video](https://youtu.be/m0FOpMEgero)
+2. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
+
+### Jueves · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Azul (A): corto / alta intensidad · carrera** · 16 min · 20 s corriendo / 40 s caminando, repite
+  - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
+
+### Viernes · S3 - olímpicos + fuerza
+_aprox. 79 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Incluso con las superseries marcadas hoy este día pasa de tus 75 min: desactiva un bloque o planea los minutos extra._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
+2. **Marcha A (A March)**
+   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+
+**Core / abdomen**
+1. **Giro ruso (Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa 30-60 s después del par · SUPERSERIE CON Abdominal en V (V-Up)
+   - por lado = 1 serie
+   - Cambiar por: Giro ruso con peso (Weighted Russian Twist) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Escalador cruzado (Cross-Body Mountain Climber)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Russian%20Twist)
+2. **Abdominal en V (V-Up)** [A2] — 2 × 10 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso (Russian Twist)
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch) / Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up)
+
+**Saltos, lanzamientos y velocidad**
+1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 4 x 35 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) / Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed))
+2. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 12 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops)
+3. **Split step con reacción (Split-Step Reaction Drill)** — 2 × 10 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) / Desplazamientos laterales (Lateral Shuffles) / Formación de cuatro cuadros (4-Square Hop Grid) / Formación Muñoz, patrón de agilidad (Munoz Drill)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Step%20Reaction%20Drill%20(split-step%2C%20then%20shuffle%20%2F%20crossover%20%2F%20drop-step%20on%20a%20cue))
+
+**Potencia / levantamientos olímpicos**
+1. **Tirón de arranque desde colgado medio (Mid-Hang Snatch Pull)** — 2 × 8 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+   - peso según la velocidad: rápido y potente
+   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
+   - No necesitas discos de goma: baja la barra con control
+   - Cambiar por: Tirón de arranque desde colgado alto (High-Hang Snatch Pull) / Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) / Tirón alto con mancuerna o kettlebell (High Pull)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Snatch%20Pull)
+
+**Fuerza**
+1. **Peso muerto convencional (Deadlift)** [B1] — 3 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 3-6 min después del par · SUPERSERIE CON Press de pecho de pie en polea (Standing Cable Press)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift) / Peso muerto con barra hexagonal (Trap Bar Deadlift)
+   - [Video](https://youtu.be/op9kVnSso6Q)
+2. **Press de pecho de pie en polea (Standing Cable Press)** [B2] — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 3-6 min después del par · SUPERSERIE CON Peso muerto convencional (Deadlift)
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Press de pecho en máquina (Chest Press)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20Cable%20Chest%20Press)
+3. **Remo a un brazo en polea (Single-Arm Cable Row)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Remo a un brazo con mancuerna (1-Arm DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Cable%20Row)
+4. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - por lado = 1 serie
+   - [Video](https://www.youtube.com/watch?v=XbZgoSNJXm4)
+
+**Accesorios**
+1. **Curl nórdico (Nordic Curl)** [C1] — 2 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Curl femoral sentado (Seated Leg Curl)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl)
+2. **Aperturas en polea (Cable Fly)** [C2] — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 60-90 s después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
+   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Fly)
+3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise)
+
+### Sábado · Día opcional
+_aprox. 47 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
 
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) / Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold)
+   - Cambiar por: Plancha lateral en estrella (Star Side Plank) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) / Abdominal lateral (Lateral Crunch)
    - [Video](https://youtu.be/at9CMT91HrM)
-2. **Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise)** — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · 30-60 s de descanso
+
+**Accesorios**
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 2 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Cambiar por: Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
+
+**Aeróbico**
+1. **Naranja (C): largo / suave · carrera** — 32 min · 11 min corriendo / 2 min caminando, repite
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
+   - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aerobic%20C%20(orange)%3A%2011%20Minute%20Run%2F%202%20Min%20Walk)
+
+## Semana 3 — Subiendo el ritmo
+
+_Nivel de la semana: 4.6 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+
+**Qué cambia esta semana**
+- +1 serie en Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) (lunes)
+- +1 serie en Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (miércoles)
+
+**Trabajo atlético esta semana:** 50 contactos de salto · 68 contactos de saltos de tobillo · 32 lanzamientos · 64 cambios de dirección · 500 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 57% · Recibir-Crear 2: Aterrizar y salir
+
+### Lunes · S1 - salto + rodilla + tirón
+_aprox. 69 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cardio. También puedes agregar o quitar ejercicios._
+_Las superseries marcadas hoy te mantienen dentro de 75 min._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
+2. **Marcha A (A March)**
+   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+
+**Core / abdomen**
+1. **Plancha en antebrazos (Plank)** [A1] — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
+   - Cambiar por: Posición de flecha en hollow (Streamline Hold) / Balanceo en posición hueca (Hollow Rocks) / Plancha alta con brazos extendidos (High Plank) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers)
+   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
+2. **Plancha Copenhague (Copenhagen Plank)** [A2] — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
    - por lado = 1 serie
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Abdominal en V (V-Up) / Elevación de piernas acostado boca arriba (Lying Leg Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20rotacional%20de%20rodillas%20%2F%20piernas%20colgado%20(Hanging%20Oblique%20Raise))
+   - Cambiar por: Elevación Copenhague dinámica (Copenhagen Raise) / Plancha lateral con press; avanzado: en estrella (Side Plank Press) / Plancha lateral alta con brazo extendido (High Side Plank) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit)
+   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
 
 **Saltos, lanzamientos y velocidad**
-1. **Lagartijas pliométricas (Plyo Push-Ups)** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Aterriza y sal: un salto justo después del aterrizaje
-   - Cambiar por: Lagartija con salto de manos al cajón (Push-Up Box Jump) / Azote simulado con balón medicinal y regreso - ejercicio de amortiguación de tronco y brazos (Fake Medball Slam)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lagartijas%20pliom%C3%A9tricas%20(Plyo%20Push-Ups))
-2. **Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass)** — 1 × 10 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso
-   - balón de 8-10 lb
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la derecha, pierna derecha al frente (Rotational Scoop) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la izquierda, pierna derecha al frente (Rotational Scoop) / Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sentadilla%20a%20pase%20de%20pecho%20con%20bal%C3%B3n%20medicinal%20(Squat%20to%20Chest%20Pass))
-3. **Prueba L de tres conos (L-Drill)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta flat (Flat Route) / Ruta slant (Slant Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Prueba%20L%20de%20tres%20conos%20(L-Drill))
+1. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 2 × 9 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de vallas hacia adelante (Hurdle Hops) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral))
+2. **Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump)** — 2 × 8 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
+   - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) / Salto con barra hexagonal (Hex-Bar Jump) / Salto largo (Broad Jump) / Salto al cajón medio, a la altura de la rodilla (Box Jump)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Squat%20Jump%20(high%2C%20bodyweight%20or%20lightly%20loaded))
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 17 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place))
+4. **Prueba L de tres conos (L-Drill)** — 2 × 4 reps · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - 3 cambios de dirección por repetición
+   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Split step con reacción (Split-Step Reaction Drill) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) / Formación Krumrie, patrón de agilidad (Krumrie Drill)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone))
 
 **Potencia / levantamientos olímpicos**
-1. **Jalón de arranque desde colgado medio (Mid-Hang Snatch Pull)** — 2 × 6 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Tirón de cargada desde colgado alto (High-Hang Clean Pull)** — 2 × 6 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
    - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
    - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Jalón de arranque desde colgado alto (High-Hang Snatch Pull) / Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) / Jalón alto con mancuerna o kettlebell (High Pull)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20arranque%20desde%20colgado%20medio%20(Mid-Hang%20Snatch%20Pull))
+   - Cambiar por: Tirón de cargada desde colgado medio (Mid-Hang Clean Pull) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Salto con barra hexagonal (Hex-Bar Jump) / Cargada desde colgado (Hang Clean)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=High-Hang%20Clean%20Pull)
 
 **Fuerza**
-1. **Peso muerto con dos kettlebells (Double-KB Deadlift)** — 3 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Press de banca plano alterno con mancuernas (Alternating DB Bench Press)
-   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Hiperextensión a 45° (Back Extension) / Empuje de cadera o puente de glúteo (Hip Thrust / Glute Bridge)
-   - [Video](https://youtu.be/aXwilZfmDyo)
-2. **Press de banca plano alterno con mancuernas (Alternating DB Bench Press)** — 3 × 12 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Peso muerto con dos kettlebells (Double-KB Deadlift)
+1. **Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)** [B1] — 4 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
+   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla frontal con barra (Front Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
+   - [Video](https://youtube.com/shorts/0BwOWfg_-Og?feature=share)
+2. **Remo a un brazo con mancuerna (1-Arm DB Row)** [B2] — 4 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)
    - por lado = 1 serie
-   - Cambiar por: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Video](https://www.youtube.com/watch?v=YUhAJt8xsFY)
-3. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 3 × 12 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)
-   - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Kickstand RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Puente de glúteo a una pierna con pie elevado en el banco (Single-Leg Glute Bridge)
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-4. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 2 × 12 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press de hombro alterno con mancuernas (Alternating DB Overhead Press) / Push press con mancuernas (DB Push Press) / Envión de empuje con mancuernas (DB Push Jerk) / Envión de empuje con barra (Push Jerk)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20alterno%20tipo%20balanc%C3%ADn%20con%20mancuernas%2C%20una%20arriba%20%2F%20una%20abajo%20(Seesaw%20Press))
+   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
+   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
+3. **Dominada con peso (Weighted Pull-Up)** [C1] — 2 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Dominadas (Pull-Up) / Jalón al pecho, agarre prono (Lat Pulldown) / Jalón al pecho, agarre supino (Underhand Pulldown) / Dominada sentado en anillas / TRX con pies apoyados (Seated Ring Pull-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Pull-Up)
+4. **Extensión de piernas en máquina (Leg Extension)** [C2] — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
+   - Luego haz su última serie sola
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
+   - [Video](https://youtu.be/m0FOpMEgero)
 
 **Accesorios**
-1. **Aperturas con mancuernas (DB Fly)** — 3 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)
-   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20con%20mancuernas%20(DB%20Fly))
-2. **Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)** — 2 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly)
-   - Cambiar por: Elevación lateral sentado con mancuernas (Seated Lateral Raise) / Remo al mentón con mancuernas (DB Upright Row) / Elevaciones laterales con mancuernas (Lateral Raise) / Remo al mentón con barra (Upright Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20lateral%20con%20mancuernas%2C%20palmas%20arriba%20(Supinated%20Lateral%20Raise))
-3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20con%20barra%20(Barbell%20Calf%20Raise))
-4. **Elevación de pantorrillas en máquina (Calf Raise)** — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
-   - Segundo ejercicio de pantorrilla: 1 serie(s) (3 series de pantorrilla hoy en total)
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20en%20m%C3%A1quina%20(Calf%20Raise))
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
 
-### Jueves · Día aeróbico
-- **Aeróbico A (azul): 20 s carrera / 40 s caminata** · Azul (A): corto / alta intensidad · 15-20 min
+**Aeróbico**
+1. **Naranja (C): largo / suave · carrera** — 34 min · 11 min corriendo / 2 min caminando, repite
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
+   - Sesión aparte: a cualquier hora del día (no se suma a tu tiempo de pesas).
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aerobic%20C%20(orange)%3A%2011%20Minute%20Run%2F%202%20Min%20Walk)
 
-### Viernes · S3 - olímpicos + fuerza
-_aprox. 73 min_
+### Martes · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 24 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
+
+### Miércoles · S2 - balón medicinal + bisagra a una pierna + empuje
+_aprox. 77 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios. También puedes agregar o quitar ejercicios._
+_Incluso con las superseries marcadas hoy este día pasa de tus 75 min: desactiva un bloque o planea los minutos extra._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
 2. **Marcha A (A March)**
    - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
 
 **Core / abdomen**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · 30-60 s de descanso
+1. **Giro ruso con peso (Weighted Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa 30-60 s después del par · SUPERSERIE CON Pies a la barra (Toes-to-Bar)
    - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Plancha lateral (Side Plank) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
+   - Cambiar por: Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Conexión cruzada en estrella boca arriba (Star Cross Connect) / Escalador cruzado (Cross-Body Mountain Climber)
    - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Rodillas al pecho colgado (Hanging Knees to Chest)** — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 30-60 s de descanso
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal en V (V-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rodillas%20al%20pecho%20colgado%20(Hanging%20Knees%20to%20Chest))
+2. **Pies a la barra (Toes-to-Bar)** [A2] — 2 × 10 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso con peso (Weighted Russian Twist)
+   - Cambiar por: Abdominal en V (V-Up) / Rodillas al pecho colgado (Hanging Knees to Chest) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Toes%20to%20Bar%20(hanging))
 
 **Saltos, lanzamientos y velocidad**
-1. **Ruta fade (Fade Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta slant (Slant Route) / Ruta post / esquina (Post Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20fade%20(Fade%20Route))
+1. **Salidas de aceleración (Acceleration Starts)** — 2 × 5 x 15 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Acceleration%20Starts)
+2. **Salto largo a una pierna (Single-Leg Broad Jump)** [B1] — 2 × 4 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10 · SUPERSERIE CON Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)
+   - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
+   - por lado = 1 serie
+   - Cambiar por: Salto largo (Broad Jump) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) / Salto con barra hexagonal (Hex-Bar Jump) / Salto a cajón bajo (Low Box Jump)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump)
+3. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** [B2] — 2 × 8 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso · SUPERSERIE CON Salto largo a una pierna (Single-Leg Broad Jump)
+   - balón de 8-10 lb
+   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
+   - Cambiar por: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) / Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L))
+4. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 11 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) / Split step con reacción (Split-Step Reaction Drill) / Formación Krumrie, patrón de agilidad (Krumrie Drill) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles)
 
 **Fuerza**
-1. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 3 × 7-10 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Press en el piso alterno con mancuernas (Alternating DB Floor Press)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Cambiar por: Peso muerto rumano (RDL) / Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift)
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-2. **Press en el piso alterno con mancuernas (Alternating DB Floor Press)** — 3 × 12 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Peso muerto con barra hexagonal (Trap Bar Deadlift)
+1. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** [C1] — 4 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Press inclinado con barra (Incline Bench Press)
    - por lado = 1 serie
-   - Cambiar por: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) / Press de banca plano alterno con mancuernas (Alternating DB Bench Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20en%20el%20piso%20alterno%20con%20mancuernas%20(Alternating%20DB%20Floor%20Press))
-3. **Zancadas caminando (Walking Lunge)** — 3 × 12 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Remo a un brazo en polea (Single-Arm Cable Row)
+   - Luego haz su última serie sola
+   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Peso muerto rumano a una pierna (Single-Leg RDL)
+   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
+2. **Press inclinado con barra (Incline Bench Press)** [C2] — 3 × 7-9 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 1-2 min después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
+   - Mantén este ejercicio en 7-9 repeticiones.
+   - Cambiar por: Press de pecho de pie en polea (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press)
+3. **Zancada lateral (Lateral Lunge)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Zancada hacia atrás (Reverse Lunge) / Sentadilla dividida estática (Split Squat) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) / Sentadilla búlgara (Bulgarian Split Squat)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Zancadas%20caminando%20(Walking%20Lunge))
-4. **Remo a un brazo en polea (Single-Arm Cable Row)** — 3 × 12 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Zancadas caminando (Walking Lunge)
-   - por lado = 1 serie
-   - Cambiar por: Remo a un brazo con mancuerna (1-Arm DB Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Remo%20a%20un%20brazo%20en%20polea%20(Single-Arm%20Cable%20Row))
-5. **Dominada en L (L-Sit Pull-Up)** — 2 × 7-10 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Ejercicio con peso corporal: si no llegas a las repeticiones, usa la máquina asistida o una regresión sin ligas (pies en el piso, anillas o TRX).
-   - Cambiar por: Dominada con peso (Weighted Pull-Up) / Dominada estricta con pies atrás (Strict Pull-Up) / Dominadas supinas (Chin-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dominada%20en%20L%20(L-Sit%20Pull-Up))
+   - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
+   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Sentadilla búlgara (Bulgarian Split Squat) / Sentadilla dividida estática (Split Squat) / Zancadas caminando (Walking Lunge)
+   - [Video](https://youtu.be/zKWe7UAWbIo)
+4. **Curl femoral sentado (Seated Leg Curl)** [D1] — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly)
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Patadas con balón suizo de 30 s (Swiss Ball Kicks)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
+5. **Aperturas con mancuernas (DB Fly)** [D2] — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 60-90 s después del par · SUPERSERIE CON Curl femoral sentado (Seated Leg Curl)
+   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
 
 **Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 3 × 5-8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
-   - Repeticiones limitadas para este ejercicio (5-8): es más difícil que su grupo.
-   - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral con deslizadores (Slider Curl) / Curl femoral boca abajo con mancuerna entre los pies (Prone DB Leg Curl) / Curl femoral sentado (Seated Leg Curl)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Curl%20n%C3%B3rdico%20(Nordic%20Curl))
-2. **Aperturas en polea (Cable Fly)** — 2 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
-   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20en%20polea%20(Cable%20Fly))
-3. **Extensión de piernas en máquina (Leg Extension)** — 2 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Dominada en L (L-Sit Pull-Up)
-   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) / Sentadilla sissy (Sissy Squat)
+1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
    - [Video](https://youtu.be/m0FOpMEgero)
-4. **Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20peso%20corporal%20desde%20un%20escal%C3%B3n%20(Standing%20Calf%20Raise))
-5. **Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise)** — 1 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
-   - por lado = 1 serie
-   - Segundo ejercicio de pantorrilla: 1 serie(s) (3 series de pantorrilla hoy en total)
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrilla%20a%20una%20pierna%20en%20d%C3%A9ficit%20(Single-Leg%20Calf%20Raise))
-6. **Hiperextensión inversa (Reverse Hyper) (Enfoque)** — 1 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   > Úsalo si está disponible y el cliente siente los músculos correctos.
-   - Cambiar por: Empuje de cadera con saco de arena (Sandbag Hip Thrust) / Puente de glúteo con pies elevados en el banco (Feet-Elevated Glute Bridge) / Jalón entre piernas en polea (Cable Pull-Through) / Puente de glúteo a una pierna con pie en el piso (Single-Leg Glute Bridge)
-   - [Video](https://youtu.be/3vmbvoT2m-U)
+2. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
 
-**Aeróbico**
-1. **Aeróbico C (naranja): 8 min trote / 1 min caminata** — Naranja (C): largo / suave · 30-40 min
-   - Sirve cualquier equipo de cardio: correr, bici, remo o ski erg. Registra tiempo, calorías o distancia.
-   - Sesión aparte: a cualquier hora del día (no se suma a tu tiempo de pesas).
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aer%C3%B3bico%20C%20(naranja)%3A%208%20min%20trote%20%2F%201%20min%20caminata)
+### Jueves · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Azul (A): corto / alta intensidad · carrera** · 17 min · 20 s corriendo / 40 s caminando, repite
+  - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
-### Sábado · Día opcional (opcional)
-_aprox. 51 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-
-**Core / abdomen**
-1. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha lateral (Side Plank) / Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Abdominal inverso (Reverse Crunch)
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
-
-**Accesorios**
-1. **Remo al mentón con barra (Upright Row) (Enfoque)** — 2 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   - Cambiar por: Elevación lateral en polea (Cable Lateral Raise) / Elevación lateral en polea inclinado / acostado de lado (Cable Lateral Raise) / Remo al mentón con mancuernas (DB Upright Row) / Elevaciones laterales con mancuernas (Lateral Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Remo%20al%20ment%C3%B3n%20con%20barra%20(Upright%20Row))
-2. **Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (Enfoque)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   - Cambiar por: Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) / Pájaros con mancuernas (Reverse Fly) / Face pull con kettlebell (KB Face Pull) / Aperturas posteriores en máquina (Reverse Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaciones%20Y%20%2F%20T%20boca%20abajo%20en%20el%20piso%20(Prone%20Y-T%20Raises))
-
-**Aeróbico**
-1. **Aeróbico C (naranja): carrera de 2 millas** — Naranja (C): largo / suave · 30-40 min
-   - Sirve cualquier equipo de cardio: correr, bici, remo o ski erg. Registra tiempo, calorías o distancia.
-   - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aer%C3%B3bico%20C%20(naranja)%3A%20carrera%20de%202%20millas)
-
-## Semana 5 — Semanas más duras
-
-_Nivel de esfuerzo esta semana: 8.9 (2 = inicio, 11 = un poco más allá de tus límites)_
-
-**Qué cambia esta semana**
-- Los saltos pasan a Recibir-Crear 3: Repetir
-- +1 serie en Dominada en L (L-Sit Pull-Up) (Viernes)
-- Espalda (dorsales / espalda alta) llegó a su tope semanal: sube peso o reps, no series
-- Mismas series: agrega un poco de peso o reps esta semana
-
-**Trabajo atlético esta semana:** 92 contactos de salto · 20 lanzamientos · 96 cambios de dirección · 350 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 54% · Recibir-Crear 3: Repetir
-
-### Lunes · S1 - salto + rodilla + jalón
-_aprox. 81 min_
+### Viernes · S3 - olímpicos + fuerza
+_aprox. 79 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Incluso con las superseries marcadas hoy este día pasa de tus 75 min: desactiva un bloque o planea los minutos extra._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
 2. **Marcha A (A March)**
    - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
-   - Cambiar por: Plancha lateral (Side Plank) / Abdominal completo con peso (Weighted Sit-Up) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
-   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
+1. **Giro ruso (Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · descansa 30-60 s después del par · SUPERSERIE CON Abdominal en V (V-Up)
    - por lado = 1 serie
-   - Cambiar por: Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar) / Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise) / Rodillas al pecho rotacional colgado (Hanging Oblique Knee Raise)
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Cambiar por: Giro ruso con peso (Weighted Russian Twist) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Escalador cruzado (Cross-Body Mountain Climber)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Russian%20Twist)
+2. **Abdominal en V (V-Up)** [A2] — 2 × 10 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso (Russian Twist)
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch) / Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up)
 
 **Saltos, lanzamientos y velocidad**
 1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 5 x 35 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Skip A (A Skip) / Marcha A (A March)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sprint%20a%20velocidad%20m%C3%A1xima%20(Max-Velocity%20Sprint))
-2. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Repite: contactos rápidos y continuos
-   - por lado = 1 serie
-   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos de vallas hacia adelante (Hurdle Hops) / Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20de%20vallas%20hacia%20adelante%20a%20una%20pierna%20(Single-Leg%20Hurdle%20Hops))
-3. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) - postura diferente** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Repite: contactos rápidos y continuos
-   - por lado = 1 serie
-   - Cambiar por: Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) / Saltos de vallas hacia adelante (Hurdle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20de%20vallas%20hacia%20adelante%20a%20una%20pierna%20(Single-Leg%20Hurdle%20Hops)%20-%20postura%20diferente)
-4. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 2 × 16 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Repite: contactos rápidos y continuos
-   - Cambiar por: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20de%20tobillo%20laterales%20con%20dos%20pies%20(Lateral%20Ankle%20Hops))
-5. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Ruta slant (Slant Route) / Prueba L de tres conos (L-Drill) / Ruta fade (Fade Route) / Ruta post / esquina (Post Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Desplazamientos%20laterales%20(Lateral%20Shuffles))
-6. **Ruta dig / out (Dig Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Prueba L de tres conos (L-Drill) / Ruta slant (Slant Route) / Ruta fade (Fade Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20dig%20%2F%20out%20(Dig%20Route))
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) / Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed))
+2. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 17 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops)
+3. **Split step con reacción (Split-Step Reaction Drill)** — 2 × 9 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) / Desplazamientos laterales (Lateral Shuffles) / Formación de cuatro cuadros (4-Square Hop Grid) / Formación Muñoz, patrón de agilidad (Munoz Drill)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Step%20Reaction%20Drill%20(split-step%2C%20then%20shuffle%20%2F%20crossover%20%2F%20drop-step%20on%20a%20cue))
 
 **Potencia / levantamientos olímpicos**
-1. **Jalón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Tirón de arranque desde colgado medio (Mid-Hang Snatch Pull)** — 2 × 6 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
    - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
    - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Jalón de cargada desde colgado alto (High-Hang Clean Pull) / Salto con barra hexagonal (Hex-Bar Jump) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Cargada desde colgado (Hang Clean)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20cargada%20desde%20colgado%20medio%20(Mid-Hang%20Clean%20Pull))
+   - Cambiar por: Tirón de arranque desde colgado alto (High-Hang Snatch Pull) / Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) / Tirón alto con mancuerna o kettlebell (High Pull)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Snatch%20Pull)
 
 **Fuerza**
-1. **Sentadilla frontal con barra (Front Squat)** — 3 × 7-10 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
-   - [Video](https://youtu.be/uYumuL_G_V0)
-2. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 3 × 12 a 15 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Sentadilla frontal con barra (Front Squat)
+1. **Peso muerto convencional (Deadlift)** [B1] — 3 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 3-6 min después del par · SUPERSERIE CON Press de pecho de pie en polea (Standing Cable Press)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift) / Peso muerto con barra hexagonal (Trap Bar Deadlift)
+   - [Video](https://youtu.be/op9kVnSso6Q)
+2. **Press de pecho de pie en polea (Standing Cable Press)** [B2] — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 3-6 min después del par · SUPERSERIE CON Peso muerto convencional (Deadlift)
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Press de pecho en máquina (Chest Press)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20Cable%20Chest%20Press)
+3. **Remo a un brazo en polea (Single-Arm Cable Row)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con barra, agarre prono (Seal Row)
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Zancada lateral (Lateral Lunge)** — 3 × 12 a 15 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
+   - Cambiar por: Remo a un brazo con mancuerna (1-Arm DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Cable%20Row)
+4. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Zancada hacia atrás (Reverse Lunge) / Zancada atrás en déficit, de pie sobre disco o escalón (Deficit Reverse Lunge) / Sentadilla dividida estática (Split Squat)
-   - [Video](https://youtu.be/zKWe7UAWbIo)
-4. **Dominada con peso (Weighted Pull-Up)** — 2 × 5-8 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Zancada lateral (Lateral Lunge)
-   - Repeticiones limitadas para este ejercicio (5-8): es más difícil que su grupo.
-   - Cambiar por: Dominada en L (L-Sit Pull-Up) / Dominada estricta con rodillas al pecho (Tuck Pull-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up) / Dominada estricta con pies atrás (Strict Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dominada%20con%20peso%20(Weighted%20Pull-Up))
+   - [Video](https://www.youtube.com/watch?v=XbZgoSNJXm4)
 
 **Accesorios**
-1. **Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)** — 3 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Pájaros con mancuernas (Reverse Fly) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)
-   - Cambiar por: Pájaros con mancuernas (Reverse Fly) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) / Face pull con kettlebell (KB Face Pull) / Remo para deltoide posterior con mancuerna (Rear-Delt Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20sentado%20con%20el%20pecho%20en%20los%20muslos%20(Seated%20Reverse%20Fly))
-2. **Pájaros con mancuernas (Reverse Fly)** — 2 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)
-   - Cambiar por: Face pull con kettlebell (KB Face Pull) / Face pull en polea (Face Pull) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) / Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20con%20mancuernas%20(Reverse%20Fly))
-3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 4 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Pájaros con mancuernas (Reverse Fly)
-   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20mancuernas%20(DB%20Calf%20Raise))
+1. **Curl nórdico (Nordic Curl)** [C1] — 2 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Curl femoral sentado (Seated Leg Curl)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl)
+2. **Aperturas en polea (Cable Fly)** [C2] — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · descansa 60-90 s después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
+   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Fly)
+3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise)
 
-### Martes · Día aeróbico
-- **Aeróbico B (verde): 3 min trote / 3 min caminata** · Verde (B): moderado · 20-30 min
-
-### Miércoles · S2 - balón medicinal + cadera + empuje
-_aprox. 74 min_
+### Sábado · Día opcional
+_aprox. 47 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
-2. **Marcha A (A March)**
-   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
 
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) / Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold)
+   - Cambiar por: Plancha lateral en estrella (Star Side Plank) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) / Abdominal lateral (Lateral Crunch)
    - [Video](https://youtu.be/at9CMT91HrM)
-2. **Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise)** — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Abdominal en V (V-Up) / Elevación de piernas acostado boca arriba (Lying Leg Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20rotacional%20de%20rodillas%20%2F%20piernas%20colgado%20(Hanging%20Oblique%20Raise))
-
-**Saltos, lanzamientos y velocidad**
-1. **Lagartijas pliométricas (Plyo Push-Ups)** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Repite: contactos rápidos y continuos
-   - Cambiar por: Lagartija con salto de manos al cajón (Push-Up Box Jump) / Azote simulado con balón medicinal y regreso - ejercicio de amortiguación de tronco y brazos (Fake Medball Slam)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lagartijas%20pliom%C3%A9tricas%20(Plyo%20Push-Ups))
-2. **Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass)** — 1 × 10 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso
-   - balón de 8-10 lb
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la derecha, pierna derecha al frente (Rotational Scoop) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la izquierda, pierna derecha al frente (Rotational Scoop) / Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sentadilla%20a%20pase%20de%20pecho%20con%20bal%C3%B3n%20medicinal%20(Squat%20to%20Chest%20Pass))
-3. **Prueba L de tres conos (L-Drill)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta flat (Flat Route) / Ruta slant (Slant Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Prueba%20L%20de%20tres%20conos%20(L-Drill))
-
-**Potencia / levantamientos olímpicos**
-1. **Jalón de arranque desde colgado medio (Mid-Hang Snatch Pull)** — 2 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
-   - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Jalón de arranque desde colgado alto (High-Hang Snatch Pull) / Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) / Jalón alto con mancuerna o kettlebell (High Pull)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20arranque%20desde%20colgado%20medio%20(Mid-Hang%20Snatch%20Pull))
-
-**Fuerza**
-1. **Peso muerto con dos kettlebells (Double-KB Deadlift)** — 3 × 12 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Press de banca plano alterno con mancuernas (Alternating DB Bench Press)
-   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Hiperextensión a 45° (Back Extension) / Empuje de cadera o puente de glúteo (Hip Thrust / Glute Bridge)
-   - [Video](https://youtu.be/aXwilZfmDyo)
-2. **Press de banca plano alterno con mancuernas (Alternating DB Bench Press)** — 3 × 12 a 15 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Peso muerto con dos kettlebells (Double-KB Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Video](https://www.youtube.com/watch?v=YUhAJt8xsFY)
-3. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 3 × 12 a 15 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)
-   - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Kickstand RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Puente de glúteo a una pierna con pie elevado en el banco (Single-Leg Glute Bridge)
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-4. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 2 × 12 a 15 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press de hombro alterno con mancuernas (Alternating DB Overhead Press) / Push press con mancuernas (DB Push Press) / Envión de empuje con mancuernas (DB Push Jerk) / Envión de empuje con barra (Push Jerk)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20alterno%20tipo%20balanc%C3%ADn%20con%20mancuernas%2C%20una%20arriba%20%2F%20una%20abajo%20(Seesaw%20Press))
 
 **Accesorios**
-1. **Aperturas con mancuernas (DB Fly)** — 3 × 12 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)
-   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20con%20mancuernas%20(DB%20Fly))
-2. **Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)** — 2 × 12 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly)
-   - Cambiar por: Elevación lateral sentado con mancuernas (Seated Lateral Raise) / Remo al mentón con mancuernas (DB Upright Row) / Elevaciones laterales con mancuernas (Lateral Raise) / Remo al mentón con barra (Upright Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20lateral%20con%20mancuernas%2C%20palmas%20arriba%20(Supinated%20Lateral%20Raise))
-3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 2 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20con%20barra%20(Barbell%20Calf%20Raise))
-4. **Elevación de pantorrillas en máquina (Calf Raise)** — 1 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
-   - Segundo ejercicio de pantorrilla: 1 serie(s) (3 series de pantorrilla hoy en total)
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20en%20m%C3%A1quina%20(Calf%20Raise))
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 2 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Cambiar por: Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
 
-### Jueves · Día aeróbico
-- **Aeróbico A (azul): 20 s carrera / 40 s caminata** · Azul (A): corto / alta intensidad · 15-20 min
+**Aeróbico**
+1. **Naranja (C): largo / suave · carrera** — 34 min · 11 min corriendo / 2 min caminando, repite
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
+   - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aerobic%20C%20(orange)%3A%2011%20Minute%20Run%2F%202%20Min%20Walk)
 
-### Viernes · S3 - olímpicos + fuerza
+## Semana 4 — Subiendo el ritmo
+
+_Nivel de la semana: 6.7 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+
+**Qué cambia esta semana**
+- +1 serie en Extensión de piernas en máquina (Leg Extension) (lunes)
+
+**Trabajo atlético esta semana:** 54 contactos de salto · 84 contactos de saltos de tobillo · 36 lanzamientos · 68 cambios de dirección · 560 m de sprints · 5 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 2: Aterrizar y salir
+
+### Lunes · S1 - salto + rodilla + tirón
 _aprox. 74 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cardio. También puedes agregar o quitar ejercicios._
+_Las superseries marcadas hoy te mantienen dentro de 75 min._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
 2. **Marcha A (A March)**
    - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
 
 **Core / abdomen**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · 30-60 s de descanso
+1. **Plancha en antebrazos (Plank)** [A1] — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
+   - Cambiar por: Posición de flecha en hollow (Streamline Hold) / Balanceo en posición hueca (Hollow Rocks) / Plancha alta con brazos extendidos (High Plank) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers)
+   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
+2. **Plancha Copenhague (Copenhagen Plank)** [A2] — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
    - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Plancha lateral (Side Plank) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
-   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Rodillas al pecho colgado (Hanging Knees to Chest)** — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 30-60 s de descanso
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal en V (V-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rodillas%20al%20pecho%20colgado%20(Hanging%20Knees%20to%20Chest))
+   - Cambiar por: Elevación Copenhague dinámica (Copenhagen Raise) / Plancha lateral con press; avanzado: en estrella (Side Plank Press) / Plancha lateral alta con brazo extendido (High Side Plank) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit)
+   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
 
 **Saltos, lanzamientos y velocidad**
-1. **Ruta fade (Fade Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta slant (Slant Route) / Ruta post / esquina (Post Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20fade%20(Fade%20Route))
+1. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de vallas hacia adelante (Hurdle Hops) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral))
+2. **Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump)** — 2 × 7 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
+   - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) / Salto con barra hexagonal (Hex-Bar Jump) / Salto largo (Broad Jump) / Salto al cajón medio, a la altura de la rodilla (Box Jump)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Squat%20Jump%20(high%2C%20bodyweight%20or%20lightly%20loaded))
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 21 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place))
+4. **Prueba L de tres conos (L-Drill)** — 2 × 4 reps · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - 3 cambios de dirección por repetición
+   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Split step con reacción (Split-Step Reaction Drill) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) / Formación Krumrie, patrón de agilidad (Krumrie Drill)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone))
+
+**Potencia / levantamientos olímpicos**
+1. **Tirón de cargada desde colgado alto (High-Hang Clean Pull)** — 3 × 6 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+   - peso según la velocidad: rápido y potente
+   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
+   - No necesitas discos de goma: baja la barra con control
+   - Cambiar por: Tirón de cargada desde colgado medio (Mid-Hang Clean Pull) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Salto con barra hexagonal (Hex-Bar Jump) / Cargada desde colgado (Hang Clean)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=High-Hang%20Clean%20Pull)
 
 **Fuerza**
-1. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 3 × 7-10 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Press en el piso alterno con mancuernas (Alternating DB Floor Press)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Cambiar por: Peso muerto rumano (RDL) / Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift)
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-2. **Press en el piso alterno con mancuernas (Alternating DB Floor Press)** — 3 × 12 a 15 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Peso muerto con barra hexagonal (Trap Bar Deadlift)
+1. **Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)** [B1] — 4 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 1-2 min después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
+   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla frontal con barra (Front Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
+   - [Video](https://youtube.com/shorts/0BwOWfg_-Og?feature=share)
+2. **Remo a un brazo con mancuerna (1-Arm DB Row)** [B2] — 4 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 1-2 min después del par · SUPERSERIE CON Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)
    - por lado = 1 serie
-   - Cambiar por: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) / Press de banca plano alterno con mancuernas (Alternating DB Bench Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20en%20el%20piso%20alterno%20con%20mancuernas%20(Alternating%20DB%20Floor%20Press))
-3. **Zancadas caminando (Walking Lunge)** — 3 × 12 a 15 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Remo a un brazo en polea (Single-Arm Cable Row)
-   - por lado = 1 serie
-   - Cambiar por: Zancada hacia atrás (Reverse Lunge) / Sentadilla dividida estática (Split Squat) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) / Sentadilla búlgara (Bulgarian Split Squat)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Zancadas%20caminando%20(Walking%20Lunge))
-4. **Remo a un brazo en polea (Single-Arm Cable Row)** — 3 × 12 a 15 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Zancadas caminando (Walking Lunge)
-   - por lado = 1 serie
-   - Cambiar por: Remo a un brazo con mancuerna (1-Arm DB Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Remo%20a%20un%20brazo%20en%20polea%20(Single-Arm%20Cable%20Row))
-5. **Dominada en L (L-Sit Pull-Up)** — 3 × 7-10 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Ejercicio con peso corporal: si no llegas a las repeticiones, usa la máquina asistida o una regresión sin ligas (pies en el piso, anillas o TRX).
-   - Cambiar por: Dominada con peso (Weighted Pull-Up) / Dominada estricta con pies atrás (Strict Pull-Up) / Dominadas supinas (Chin-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dominada%20en%20L%20(L-Sit%20Pull-Up))
+   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
+   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
+3. **Dominada con peso (Weighted Pull-Up)** [C1] — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 2-3 min después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Dominadas (Pull-Up) / Jalón al pecho, agarre prono (Lat Pulldown) / Jalón al pecho, agarre supino (Underhand Pulldown) / Dominada sentado en anillas / TRX con pies apoyados (Seated Ring Pull-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Pull-Up)
+4. **Extensión de piernas en máquina (Leg Extension)** [C2] — 4 × 10 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 2-3 min después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
+   - Luego haz sus últimas 2 series solas
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
+   - [Video](https://youtu.be/m0FOpMEgero)
 
 **Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 3 × 5-8 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
-   - Repeticiones limitadas para este ejercicio (5-8): es más difícil que su grupo.
-   - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral con deslizadores (Slider Curl) / Curl femoral boca abajo con mancuerna entre los pies (Prone DB Leg Curl) / Curl femoral sentado (Seated Leg Curl)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Curl%20n%C3%B3rdico%20(Nordic%20Curl))
-2. **Aperturas en polea (Cable Fly)** — 2 × 12 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
-   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20en%20polea%20(Cable%20Fly))
-3. **Extensión de piernas en máquina (Leg Extension)** — 2 × 12 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa después del par · SUPERSERIE CON Dominada en L (L-Sit Pull-Up)
-   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) / Sentadilla sissy (Sissy Squat)
-   - [Video](https://youtu.be/m0FOpMEgero)
-4. **Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)** — 2 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20peso%20corporal%20desde%20un%20escal%C3%B3n%20(Standing%20Calf%20Raise))
-5. **Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise)** — 1 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
-   - por lado = 1 serie
-   - Segundo ejercicio de pantorrilla: 1 serie(s) (3 series de pantorrilla hoy en total)
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrilla%20a%20una%20pierna%20en%20d%C3%A9ficit%20(Single-Leg%20Calf%20Raise))
-6. **Hiperextensión inversa (Reverse Hyper) (Enfoque)** — 1 × 12 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   > Úsalo si está disponible y el cliente siente los músculos correctos.
-   - Cambiar por: Empuje de cadera con saco de arena (Sandbag Hip Thrust) / Puente de glúteo con pies elevados en el banco (Feet-Elevated Glute Bridge) / Jalón entre piernas en polea (Cable Pull-Through) / Puente de glúteo a una pierna con pie en el piso (Single-Leg Glute Bridge)
-   - [Video](https://youtu.be/3vmbvoT2m-U)
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
 
 **Aeróbico**
-1. **Aeróbico C (naranja): 8 min trote / 1 min caminata** — Naranja (C): largo / suave · 30-40 min
-   - Sirve cualquier equipo de cardio: correr, bici, remo o ski erg. Registra tiempo, calorías o distancia.
+1. **Naranja (C): largo / suave · carrera** — 36 min · ritmo constante: todavía puedes hablar
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Sesión aparte: a cualquier hora del día (no se suma a tu tiempo de pesas).
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aer%C3%B3bico%20C%20(naranja)%3A%208%20min%20trote%20%2F%201%20min%20caminata)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aerobic%20C%20(orange)%3A%2011%20Minute%20Run%2F%202%20Min%20Walk)
 
-### Sábado · Día opcional (opcional)
-_aprox. 51 min_
+### Martes · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 26 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
+
+### Miércoles · S2 - balón medicinal + bisagra a una pierna + empuje
+_aprox. 77 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios. También puedes agregar o quitar ejercicios._
+_Incluso con las superseries marcadas hoy este día pasa de tus 75 min: desactiva un bloque o planea los minutos extra._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
+2. **Marcha A (A March)**
+   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+
+**Core / abdomen**
+1. **Giro ruso con peso (Weighted Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Pies a la barra (Toes-to-Bar)
+   - por lado = 1 serie
+   - Cambiar por: Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Conexión cruzada en estrella boca arriba (Star Cross Connect) / Escalador cruzado (Cross-Body Mountain Climber)
+   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
+2. **Pies a la barra (Toes-to-Bar)** [A2] — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso con peso (Weighted Russian Twist)
+   - Cambiar por: Abdominal en V (V-Up) / Rodillas al pecho colgado (Hanging Knees to Chest) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Toes%20to%20Bar%20(hanging))
+
+**Saltos, lanzamientos y velocidad**
+1. **Salidas de aceleración (Acceleration Starts)** — 2 × 6 x 20 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Acceleration%20Starts)
+2. **Salto largo a una pierna (Single-Leg Broad Jump)** [B1] — 2 × 5 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10 · SUPERSERIE CON Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)
+   - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
+   - por lado = 1 serie
+   - Cambiar por: Salto largo (Broad Jump) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) / Salto con barra hexagonal (Hex-Bar Jump) / Salto a cajón bajo (Low Box Jump)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump)
+3. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** [B2] — 2 × 9 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso · SUPERSERIE CON Salto largo a una pierna (Single-Leg Broad Jump)
+   - balón de 8-10 lb
+   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
+   - Cambiar por: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) / Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L))
+4. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 11 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) / Split step con reacción (Split-Step Reaction Drill) / Formación Krumrie, patrón de agilidad (Krumrie Drill) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles)
+
+**Fuerza**
+1. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** [C1] — 4 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 1-2 min después del par · SUPERSERIE CON Press inclinado con barra (Incline Bench Press)
+   - por lado = 1 serie
+   - Luego haz su última serie sola
+   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Peso muerto rumano a una pierna (Single-Leg RDL)
+   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
+2. **Press inclinado con barra (Incline Bench Press)** [C2] — 3 × 7-9 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 1-2 min después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
+   - Mantén este ejercicio en 7-9 repeticiones.
+   - Cambiar por: Press de pecho de pie en polea (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press)
+3. **Zancada lateral (Lateral Lunge)** — 3 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+   - por lado = 1 serie
+   - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
+   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Sentadilla búlgara (Bulgarian Split Squat) / Sentadilla dividida estática (Split Squat) / Zancadas caminando (Walking Lunge)
+   - [Video](https://youtu.be/zKWe7UAWbIo)
+4. **Curl femoral sentado (Seated Leg Curl)** [D1] — 2 × 10 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly)
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Patadas con balón suizo de 30 s (Swiss Ball Kicks)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
+5. **Aperturas con mancuernas (DB Fly)** [D2] — 2 × 10 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 60-90 s después del par · SUPERSERIE CON Curl femoral sentado (Seated Leg Curl)
+   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
+
+**Accesorios**
+1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 10 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
+   - [Video](https://youtu.be/m0FOpMEgero)
+2. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
+
+### Jueves · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Azul (A): corto / alta intensidad · carrera** · 18 min · 30 s corriendo / 30 s caminando, repite
+  - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
+
+### Viernes · S3 - olímpicos + fuerza
+_aprox. 79 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Incluso con las superseries marcadas hoy este día pasa de tus 75 min: desactiva un bloque o planea los minutos extra._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
+2. **Marcha A (A March)**
+   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+
+**Core / abdomen**
+1. **Giro ruso (Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Abdominal en V (V-Up)
+   - por lado = 1 serie
+   - Cambiar por: Giro ruso con peso (Weighted Russian Twist) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Escalador cruzado (Cross-Body Mountain Climber)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Russian%20Twist)
+2. **Abdominal en V (V-Up)** [A2] — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso (Russian Twist)
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch) / Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up)
+
+**Saltos, lanzamientos y velocidad**
+1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 4 x 40 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) / Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed))
+2. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 21 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops)
+3. **Split step con reacción (Split-Step Reaction Drill)** — 2 × 11 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) / Desplazamientos laterales (Lateral Shuffles) / Formación de cuatro cuadros (4-Square Hop Grid) / Formación Muñoz, patrón de agilidad (Munoz Drill)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Step%20Reaction%20Drill%20(split-step%2C%20then%20shuffle%20%2F%20crossover%20%2F%20drop-step%20on%20a%20cue))
+
+**Potencia / levantamientos olímpicos**
+1. **Tirón de arranque desde colgado medio (Mid-Hang Snatch Pull)** — 2 × 6 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+   - peso según la velocidad: rápido y potente
+   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
+   - No necesitas discos de goma: baja la barra con control
+   - Cambiar por: Tirón de arranque desde colgado alto (High-Hang Snatch Pull) / Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) / Tirón alto con mancuerna o kettlebell (High Pull)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Snatch%20Pull)
+
+**Fuerza**
+1. **Peso muerto convencional (Deadlift)** [B1] — 3 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 3-6 min después del par · SUPERSERIE CON Press de pecho de pie en polea (Standing Cable Press)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift) / Peso muerto con barra hexagonal (Trap Bar Deadlift)
+   - [Video](https://youtu.be/op9kVnSso6Q)
+2. **Press de pecho de pie en polea (Standing Cable Press)** [B2] — 3 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 3-6 min después del par · SUPERSERIE CON Peso muerto convencional (Deadlift)
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Press de pecho en máquina (Chest Press)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20Cable%20Chest%20Press)
+3. **Remo a un brazo en polea (Single-Arm Cable Row)** — 3 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Remo a un brazo con mancuerna (1-Arm DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Cable%20Row)
+4. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+   - por lado = 1 serie
+   - [Video](https://www.youtube.com/watch?v=XbZgoSNJXm4)
+
+**Accesorios**
+1. **Curl nórdico (Nordic Curl)** [C1] — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Curl femoral sentado (Seated Leg Curl)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl)
+2. **Aperturas en polea (Cable Fly)** [C2] — 2 × 10 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 60-90 s después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
+   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Fly)
+3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 3 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise)
+
+### Sábado · Día opcional
+_aprox. 47 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
 
 **Core / abdomen**
-1. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral (Side Plank) / Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Abdominal inverso (Reverse Crunch)
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Cambiar por: Plancha lateral en estrella (Star Side Plank) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) / Abdominal lateral (Lateral Crunch)
+   - [Video](https://youtu.be/at9CMT91HrM)
 
 **Accesorios**
-1. **Remo al mentón con barra (Upright Row) (Enfoque)** — 2 × 12 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   - Cambiar por: Elevación lateral en polea (Cable Lateral Raise) / Elevación lateral en polea inclinado / acostado de lado (Cable Lateral Raise) / Remo al mentón con mancuernas (DB Upright Row) / Elevaciones laterales con mancuernas (Lateral Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Remo%20al%20ment%C3%B3n%20con%20barra%20(Upright%20Row))
-2. **Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (Enfoque)** — 2 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   - Cambiar por: Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) / Pájaros con mancuernas (Reverse Fly) / Face pull con kettlebell (KB Face Pull) / Aperturas posteriores en máquina (Reverse Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaciones%20Y%20%2F%20T%20boca%20abajo%20en%20el%20piso%20(Prone%20Y-T%20Raises))
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Cambiar por: Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
 
 **Aeróbico**
-1. **Aeróbico C (naranja): carrera de 2 millas** — Naranja (C): largo / suave · 30-40 min
-   - Sirve cualquier equipo de cardio: correr, bici, remo o ski erg. Registra tiempo, calorías o distancia.
+1. **Naranja (C): largo / suave · carrera** — 36 min · ritmo constante: todavía puedes hablar
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aer%C3%B3bico%20C%20(naranja)%3A%20carrera%20de%202%20millas)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aerobic%20C%20(orange)%3A%2011%20Minute%20Run%2F%202%20Min%20Walk)
+
+## Semana 5 — Semanas más duras
+
+_Nivel de la semana: 8.9 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+
+**Qué cambia esta semana**
+- +1 serie en Aperturas con mancuernas (DB Fly) (miércoles)
+- +1 serie en Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (sábado)
+
+**Trabajo atlético esta semana:** 56 contactos de salto · 94 contactos de saltos de tobillo · 40 lanzamientos · 72 cambios de dirección · 600 m de sprints · 6 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 2: Aterrizar y salir
+
+### Lunes · S1 - salto + rodilla + tirón
+_aprox. 74 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cardio. También puedes agregar o quitar ejercicios._
+_Las superseries marcadas hoy te mantienen dentro de 75 min._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
+2. **Marcha A (A March)**
+   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+
+**Core / abdomen**
+1. **Plancha en antebrazos (Plank)** [A1] — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
+   - Cambiar por: Posición de flecha en hollow (Streamline Hold) / Balanceo en posición hueca (Hollow Rocks) / Plancha alta con brazos extendidos (High Plank) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers)
+   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
+2. **Plancha Copenhague (Copenhagen Plank)** [A2] — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
+   - por lado = 1 serie
+   - Cambiar por: Elevación Copenhague dinámica (Copenhagen Raise) / Plancha lateral con press; avanzado: en estrella (Side Plank Press) / Plancha lateral alta con brazo extendido (High Side Plank) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit)
+   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+
+**Saltos, lanzamientos y velocidad**
+1. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de vallas hacia adelante (Hurdle Hops) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral))
+2. **Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump)** — 2 × 8 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
+   - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) / Salto con barra hexagonal (Hex-Bar Jump) / Salto largo (Broad Jump) / Salto al cajón medio, a la altura de la rodilla (Box Jump)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Squat%20Jump%20(high%2C%20bodyweight%20or%20lightly%20loaded))
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 23 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place))
+4. **Prueba L de tres conos (L-Drill)** — 2 × 4 reps · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - 3 cambios de dirección por repetición
+   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Split step con reacción (Split-Step Reaction Drill) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) / Formación Krumrie, patrón de agilidad (Krumrie Drill)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone))
+
+**Potencia / levantamientos olímpicos**
+1. **Tirón de cargada desde colgado alto (High-Hang Clean Pull)** — 3 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+   - peso según la velocidad: rápido y potente
+   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
+   - No necesitas discos de goma: baja la barra con control
+   - Cambiar por: Tirón de cargada desde colgado medio (Mid-Hang Clean Pull) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Salto con barra hexagonal (Hex-Bar Jump) / Cargada desde colgado (Hang Clean)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=High-Hang%20Clean%20Pull)
+
+**Fuerza**
+1. **Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)** [B1] — 4 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa 1-2 min después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
+   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla frontal con barra (Front Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
+   - [Video](https://youtube.com/shorts/0BwOWfg_-Og?feature=share)
+2. **Remo a un brazo con mancuerna (1-Arm DB Row)** [B2] — 4 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa 1-2 min después del par · SUPERSERIE CON Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)
+   - por lado = 1 serie
+   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
+   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
+3. **Dominada con peso (Weighted Pull-Up)** [C1] — 2 × 6 a 8 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa 2-3 min después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Dominadas (Pull-Up) / Jalón al pecho, agarre prono (Lat Pulldown) / Jalón al pecho, agarre supino (Underhand Pulldown) / Dominada sentado en anillas / TRX con pies apoyados (Seated Ring Pull-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Pull-Up)
+4. **Extensión de piernas en máquina (Leg Extension)** [C2] — 4 × 10 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa 2-3 min después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
+   - Luego haz sus últimas 2 series solas
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
+   - [Video](https://youtu.be/m0FOpMEgero)
+
+**Accesorios**
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
+
+**Aeróbico**
+1. **Naranja (C): largo / suave · carrera** — 38 min · ritmo constante: todavía puedes hablar
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
+   - Sesión aparte: a cualquier hora del día (no se suma a tu tiempo de pesas).
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aerobic%20C%20(orange)%3A%2011%20Minute%20Run%2F%202%20Min%20Walk)
+
+### Martes · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 28 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
+
+### Miércoles · S2 - balón medicinal + bisagra a una pierna + empuje
+_aprox. 79 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios. También puedes agregar o quitar ejercicios._
+_Incluso con las superseries marcadas hoy este día pasa de tus 75 min: desactiva un bloque o planea los minutos extra._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
+2. **Marcha A (A March)**
+   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+
+**Core / abdomen**
+1. **Giro ruso con peso (Weighted Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Pies a la barra (Toes-to-Bar)
+   - por lado = 1 serie
+   - Cambiar por: Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Conexión cruzada en estrella boca arriba (Star Cross Connect) / Escalador cruzado (Cross-Body Mountain Climber)
+   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
+2. **Pies a la barra (Toes-to-Bar)** [A2] — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso con peso (Weighted Russian Twist)
+   - Cambiar por: Abdominal en V (V-Up) / Rodillas al pecho colgado (Hanging Knees to Chest) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Toes%20to%20Bar%20(hanging))
+
+**Saltos, lanzamientos y velocidad**
+1. **Salidas de aceleración (Acceleration Starts)** — 2 × 5 x 20 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Acceleration%20Starts)
+2. **Salto largo a una pierna (Single-Leg Broad Jump)** [B1] — 2 × 5 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10 · SUPERSERIE CON Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)
+   - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
+   - por lado = 1 serie
+   - Cambiar por: Salto largo (Broad Jump) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) / Salto con barra hexagonal (Hex-Bar Jump) / Salto a cajón bajo (Low Box Jump)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump)
+3. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** [B2] — 2 × 10 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso · SUPERSERIE CON Salto largo a una pierna (Single-Leg Broad Jump)
+   - balón de 8-10 lb
+   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
+   - Cambiar por: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) / Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L))
+4. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) / Split step con reacción (Split-Step Reaction Drill) / Formación Krumrie, patrón de agilidad (Krumrie Drill) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles)
+
+**Fuerza**
+1. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** [C1] — 4 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa 1-2 min después del par · SUPERSERIE CON Press inclinado con barra (Incline Bench Press)
+   - por lado = 1 serie
+   - Luego haz su última serie sola
+   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Peso muerto rumano a una pierna (Single-Leg RDL)
+   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
+2. **Press inclinado con barra (Incline Bench Press)** [C2] — 3 × 7-9 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa 1-2 min después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
+   - Mantén este ejercicio en 7-9 repeticiones.
+   - Cambiar por: Press de pecho de pie en polea (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press)
+3. **Zancada lateral (Lateral Lunge)** — 3 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+   - por lado = 1 serie
+   - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
+   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Sentadilla búlgara (Bulgarian Split Squat) / Sentadilla dividida estática (Split Squat) / Zancadas caminando (Walking Lunge)
+   - [Video](https://youtu.be/zKWe7UAWbIo)
+4. **Curl femoral sentado (Seated Leg Curl)** [D1] — 2 × 10 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly)
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Patadas con balón suizo de 30 s (Swiss Ball Kicks)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
+5. **Aperturas con mancuernas (DB Fly)** [D2] — 3 × 10 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa 60-90 s después del par · SUPERSERIE CON Curl femoral sentado (Seated Leg Curl)
+   - Luego haz su última serie sola
+   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
+
+**Accesorios**
+1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 10 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
+   - [Video](https://youtu.be/m0FOpMEgero)
+2. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
+
+### Jueves · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Azul (A): corto / alta intensidad · carrera** · 19 min · 30 s corriendo / 30 s caminando, repite
+  - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
+
+### Viernes · S3 - olímpicos + fuerza
+_aprox. 82 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Incluso con las superseries marcadas hoy este día pasa de tus 75 min: desactiva un bloque o planea los minutos extra._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
+2. **Marcha A (A March)**
+   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+
+**Core / abdomen**
+1. **Giro ruso (Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Abdominal en V (V-Up)
+   - por lado = 1 serie
+   - Cambiar por: Giro ruso con peso (Weighted Russian Twist) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Escalador cruzado (Cross-Body Mountain Climber)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Russian%20Twist)
+2. **Abdominal en V (V-Up)** [A2] — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso (Russian Twist)
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch) / Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up)
+
+**Saltos, lanzamientos y velocidad**
+1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 5 x 40 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) / Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed))
+2. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 24 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops)
+3. **Split step con reacción (Split-Step Reaction Drill)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) / Desplazamientos laterales (Lateral Shuffles) / Formación de cuatro cuadros (4-Square Hop Grid) / Formación Muñoz, patrón de agilidad (Munoz Drill)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Step%20Reaction%20Drill%20(split-step%2C%20then%20shuffle%20%2F%20crossover%20%2F%20drop-step%20on%20a%20cue))
+
+**Potencia / levantamientos olímpicos**
+1. **Tirón de arranque desde colgado medio (Mid-Hang Snatch Pull)** — 3 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+   - peso según la velocidad: rápido y potente
+   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
+   - No necesitas discos de goma: baja la barra con control
+   - Cambiar por: Tirón de arranque desde colgado alto (High-Hang Snatch Pull) / Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) / Tirón alto con mancuerna o kettlebell (High Pull)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Snatch%20Pull)
+
+**Fuerza**
+1. **Peso muerto convencional (Deadlift)** [B1] — 3 × 6 a 8 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa 3-6 min después del par · SUPERSERIE CON Press de pecho de pie en polea (Standing Cable Press)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift) / Peso muerto con barra hexagonal (Trap Bar Deadlift)
+   - [Video](https://youtu.be/op9kVnSso6Q)
+2. **Press de pecho de pie en polea (Standing Cable Press)** [B2] — 3 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa 3-6 min después del par · SUPERSERIE CON Peso muerto convencional (Deadlift)
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Press de pecho en máquina (Chest Press)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20Cable%20Chest%20Press)
+3. **Remo a un brazo en polea (Single-Arm Cable Row)** — 3 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Remo a un brazo con mancuerna (1-Arm DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Cable%20Row)
+4. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 2 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+   - por lado = 1 serie
+   - [Video](https://www.youtube.com/watch?v=XbZgoSNJXm4)
+
+**Accesorios**
+1. **Curl nórdico (Nordic Curl)** [C1] — 2 × 6 a 8 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Curl femoral sentado (Seated Leg Curl)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl)
+2. **Aperturas en polea (Cable Fly)** [C2] — 2 × 10 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · descansa 60-90 s después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
+   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Fly)
+3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 3 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise)
+
+### Sábado · Día opcional
+_aprox. 49 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
+
+**Core / abdomen**
+1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Plancha lateral en estrella (Star Side Plank) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) / Abdominal lateral (Lateral Crunch)
+   - [Video](https://youtu.be/at9CMT91HrM)
+
+**Accesorios**
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 3 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+   - Cambiar por: Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
+
+**Aeróbico**
+1. **Naranja (C): largo / suave · carrera** — 38 min · ritmo constante: todavía puedes hablar
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
+   - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aerobic%20C%20(orange)%3A%2011%20Minute%20Run%2F%202%20Min%20Walk)
 
 ## Semana 6 — Semanas más duras
 
-_Nivel de esfuerzo esta semana: 11 (2 = inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 11 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
 
-**Prueba final esta semana: reemplaza las series principales** (Velocidad / agilidad, Saltos)
+**Prueba final esta semana: cada prueba toma el lugar de la estación de sprint, cambio de dirección o salto de ese día** (Velocidad / agilidad, Saltos)
 
-_última semana: se permiten intensificadores (serie MYO en el último ejercicio de máquina / aislamiento)_
+_Última semana: un intensificador en cada uno de estos días (lunes, miércoles, viernes y sábado): una serie MYO en el último ejercicio de músculo pequeño o de máquina del día_
 
 **Qué cambia esta semana**
-- +1 serie en Press en el piso alterno con mancuernas (Alternating DB Floor Press) (Viernes)
-- +1 serie en Peso muerto con barra hexagonal (Trap Bar Deadlift) (Viernes)
-- +1 serie en Zancadas caminando (Walking Lunge) (Viernes)
-- +1 serie en Elevación de pantorrillas en máquina (Calf Raise) (Miércoles)
-- Cuádriceps llegó a su tope semanal: sube peso o reps, no series
-- Pantorrillas llegó a su tope semanal: sube peso o reps, no series
-- Mismas series: agrega un poco de peso o reps esta semana
+- +1 serie en Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) (lunes)
+- +1 serie en Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (miércoles)
+- +1 serie en Remo a un brazo con mancuerna (1-Arm DB Row) (lunes)
 
-**Trabajo atlético esta semana:** 92 contactos de salto · 20 lanzamientos · 96 cambios de dirección · 400 m de sprints · 6 series de levantamiento olímpico · Proporción pliométrica 54% · Recibir-Crear 3: Repetir
+**Trabajo atlético esta semana:** 28 contactos de salto · 66 contactos de saltos de tobillo · 20 lanzamientos · 42 cambios de dirección · 400 m de sprints · 5 series de levantamiento olímpico · Proporción pliométrica 68% · Recibir-Crear 2: Aterrizar y salir
 
-### Lunes · S1 - salto + rodilla + jalón
-_aprox. 84 min_
+### Lunes · S1 - salto + rodilla + tirón
+_aprox. 79 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cardio. También puedes agregar o quitar ejercicios._
+_Incluso con las superseries marcadas hoy este día pasa de tus 75 min: desactiva un bloque o planea los minutos extra._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
 2. **Marcha A (A March)**
    - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
-   - Cambiar por: Plancha lateral (Side Plank) / Abdominal completo con peso (Weighted Sit-Up) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
+1. **Plancha en antebrazos (Plank)** [A1] — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
+   - Cambiar por: Posición de flecha en hollow (Streamline Hold) / Balanceo en posición hueca (Hollow Rocks) / Plancha alta con brazos extendidos (High Plank) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers)
    - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
+2. **Plancha Copenhague (Copenhagen Plank)** [A2] — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
    - por lado = 1 serie
-   - Cambiar por: Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar) / Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise) / Rodillas al pecho rotacional colgado (Hanging Oblique Knee Raise)
+   - Cambiar por: Elevación Copenhague dinámica (Copenhagen Raise) / Plancha lateral con press; avanzado: en estrella (Side Plank Press) / Plancha lateral alta con brazo extendido (High Side Plank) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit)
    - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
 
 **Prueba**
-1. sprint de 10-30 m — sprint de 10-30 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - **Semana de pruebas:** sprint de 10-30 m
+1. **Prueba: Agilidad 5-10-5 (Pro Agility)** — máxima intención; para cuando baje la calidad · recuperación completa entre series
    - Prueba: 2-3 carreras cronometradas con descanso completo, anota la mejor.
-2. **Agilidad 5-10-5 (Pro Agility)** — Agilidad 5-10-5 (Pro Agility) · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - **Semana de pruebas:** Agilidad 5-10-5 (Pro Agility)
-   - Prueba: 2-3 carreras cronometradas con descanso completo, anota la mejor.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Agilidad%205-10-5%20(Pro%20Agility))
-3. salto con contramovimiento — salto con contramovimiento · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - **Semana de pruebas:** salto con contramovimiento
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle)
+2. **Prueba: salto con contramovimiento** — máxima intención; para cuando baje la calidad · recuperación completa entre series
    - Prueba: 3 intentos, anota el mejor.
 
 **Saltos, lanzamientos y velocidad**
-1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 5 x 40 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Skip A (A Skip) / Marcha A (A March)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sprint%20a%20velocidad%20m%C3%A1xima%20(Max-Velocity%20Sprint))
-2. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Repite: contactos rápidos y continuos
-   - por lado = 1 serie
-   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos de vallas hacia adelante (Hurdle Hops) / Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20de%20vallas%20hacia%20adelante%20a%20una%20pierna%20(Single-Leg%20Hurdle%20Hops))
-3. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) - postura diferente** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Repite: contactos rápidos y continuos
-   - por lado = 1 serie
-   - Cambiar por: Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) / Saltos de vallas hacia adelante (Hurdle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20de%20vallas%20hacia%20adelante%20a%20una%20pierna%20(Single-Leg%20Hurdle%20Hops)%20-%20postura%20diferente)
-4. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 2 × 16 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Repite: contactos rápidos y continuos
-   - Cambiar por: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20de%20tobillo%20laterales%20con%20dos%20pies%20(Lateral%20Ankle%20Hops))
-5. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Ruta slant (Slant Route) / Prueba L de tres conos (L-Drill) / Ruta fade (Fade Route) / Ruta post / esquina (Post Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Desplazamientos%20laterales%20(Lateral%20Shuffles))
-6. **Ruta dig / out (Dig Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Prueba L de tres conos (L-Drill) / Ruta slant (Slant Route) / Ruta fade (Fade Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20dig%20%2F%20out%20(Dig%20Route))
+1. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 2 × 6 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de vallas hacia adelante (Hurdle Hops) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral))
+2. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 9 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place))
 
 **Potencia / levantamientos olímpicos**
-1. **Jalón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 3 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Tirón de cargada desde colgado alto (High-Hang Clean Pull)** — 2 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
    - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
    - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Jalón de cargada desde colgado alto (High-Hang Clean Pull) / Salto con barra hexagonal (Hex-Bar Jump) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Cargada desde colgado (Hang Clean)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20cargada%20desde%20colgado%20medio%20(Mid-Hang%20Clean%20Pull))
+   - Cambiar por: Tirón de cargada desde colgado medio (Mid-Hang Clean Pull) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Salto con barra hexagonal (Hex-Bar Jump) / Cargada desde colgado (Hang Clean)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=High-Hang%20Clean%20Pull)
 
 **Fuerza**
-1. **Sentadilla frontal con barra (Front Squat)** — 3 × 7-10 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
-   - [Video](https://youtu.be/uYumuL_G_V0)
-2. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 3 × 12 a 15 por lado · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Sentadilla frontal con barra (Front Squat)
+1. **Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)** [B1] — 5 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa 1-2 min después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
+   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla frontal con barra (Front Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
+   - [Video](https://youtube.com/shorts/0BwOWfg_-Og?feature=share)
+2. **Remo a un brazo con mancuerna (1-Arm DB Row)** [B2] — 5 × 8 a 12 por lado · deja 1 en reserva (1 RIR, RPE 9) · descansa 1-2 min después del par · SUPERSERIE CON Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)
    - por lado = 1 serie
-   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con barra, agarre prono (Seal Row)
+   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
    - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Zancada lateral (Lateral Lunge)** — 3 × 12 a 15 por lado · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
-   - por lado = 1 serie
-   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Zancada hacia atrás (Reverse Lunge) / Zancada atrás en déficit, de pie sobre disco o escalón (Deficit Reverse Lunge) / Sentadilla dividida estática (Split Squat)
-   - [Video](https://youtu.be/zKWe7UAWbIo)
-4. **Dominada con peso (Weighted Pull-Up)** — 2 × 5-8 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Zancada lateral (Lateral Lunge)
-   - Repeticiones limitadas para este ejercicio (5-8): es más difícil que su grupo.
-   - Cambiar por: Dominada en L (L-Sit Pull-Up) / Dominada estricta con rodillas al pecho (Tuck Pull-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up) / Dominada estricta con pies atrás (Strict Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dominada%20con%20peso%20(Weighted%20Pull-Up))
+3. **Dominada con peso (Weighted Pull-Up)** [C1] — 2 × 6 a 8 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa 2-3 min después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Dominadas (Pull-Up) / Jalón al pecho, agarre prono (Lat Pulldown) / Jalón al pecho, agarre supino (Underhand Pulldown) / Dominada sentado en anillas / TRX con pies apoyados (Seated Ring Pull-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Pull-Up)
+4. **Extensión de piernas en máquina (Leg Extension)** [C2] — 4 × 10 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa 2-3 min después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
+   - Luego haz sus últimas 2 series solas
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
+   - [Video](https://youtu.be/m0FOpMEgero)
 
 **Accesorios**
-1. **Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)** — 3 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Pájaros con mancuernas (Reverse Fly) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)
-   - Cambiar por: Pájaros con mancuernas (Reverse Fly) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) / Face pull con kettlebell (KB Face Pull) / Remo para deltoide posterior con mancuerna (Rear-Delt Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20sentado%20con%20el%20pecho%20en%20los%20muslos%20(Seated%20Reverse%20Fly))
-2. **Pájaros con mancuernas (Reverse Fly)** — 2 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)
-   - Cambiar por: Face pull con kettlebell (KB Face Pull) / Face pull en polea (Face Pull) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) / Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20con%20mancuernas%20(Reverse%20Fly))
-3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 4 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · serie MYO en la última serie · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Pájaros con mancuernas (Reverse Fly)
-   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20mancuernas%20(DB%20Calf%20Raise))
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · serie MYO en la última serie · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
+
+**Aeróbico**
+1. **Naranja (C): largo / suave · carrera** — 40 min · ritmo constante: todavía puedes hablar
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
+   - Sesión aparte: a cualquier hora del día (no se suma a tu tiempo de pesas).
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aerobic%20C%20(orange)%3A%2011%20Minute%20Run%2F%202%20Min%20Walk)
 
 ### Martes · Día aeróbico
-- **Aeróbico B (verde): 3 min trote / 3 min caminata** · Verde (B): moderado · 20-30 min
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 30 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
-### Miércoles · S2 - balón medicinal + cadera + empuje
-_aprox. 78 min_
+### Miércoles · S2 - balón medicinal + bisagra a una pierna + empuje
+_aprox. 80 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios. También puedes agregar o quitar ejercicios._
+_Incluso con las superseries marcadas hoy este día pasa de tus 75 min: desactiva un bloque o planea los minutos extra._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
 2. **Marcha A (A March)**
    - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+
+**Core / abdomen**
+1. **Giro ruso con peso (Weighted Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Pies a la barra (Toes-to-Bar)
+   - por lado = 1 serie
+   - Cambiar por: Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Conexión cruzada en estrella boca arriba (Star Cross Connect) / Escalador cruzado (Cross-Body Mountain Climber)
+   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
+2. **Pies a la barra (Toes-to-Bar)** [A2] — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso con peso (Weighted Russian Twist)
+   - Cambiar por: Abdominal en V (V-Up) / Rodillas al pecho colgado (Hanging Knees to Chest) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Toes%20to%20Bar%20(hanging))
+
+**Prueba**
+1. **Prueba: sprint de 10-30 m** — máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Prueba: 2-3 carreras cronometradas con descanso completo, anota la mejor.
+
+**Saltos, lanzamientos y velocidad**
+1. **Salto largo a una pierna (Single-Leg Broad Jump)** [B1] — 2 × 4 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10 · SUPERSERIE CON Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)
+   - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
+   - por lado = 1 serie
+   - Cambiar por: Salto largo (Broad Jump) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) / Salto con barra hexagonal (Hex-Bar Jump) / Salto a cajón bajo (Low Box Jump)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump)
+2. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** [B2] — 2 × 5 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso · SUPERSERIE CON Salto largo a una pierna (Single-Leg Broad Jump)
+   - balón de 8-10 lb
+   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
+   - Cambiar por: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) / Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L))
+3. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 9 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) / Split step con reacción (Split-Step Reaction Drill) / Formación Krumrie, patrón de agilidad (Krumrie Drill) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles)
+
+**Fuerza**
+1. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** [C1] — 5 × 8 a 12 por lado · deja 1 en reserva (1 RIR, RPE 9) · descansa 1-2 min después del par · SUPERSERIE CON Press inclinado con barra (Incline Bench Press)
+   - por lado = 1 serie
+   - Luego haz sus últimas 2 series solas
+   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Peso muerto rumano a una pierna (Single-Leg RDL)
+   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
+2. **Press inclinado con barra (Incline Bench Press)** [C2] — 3 × 7-9 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa 1-2 min después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
+   - Mantén este ejercicio en 7-9 repeticiones.
+   - Cambiar por: Press de pecho de pie en polea (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press)
+3. **Zancada lateral (Lateral Lunge)** — 3 × 8 a 12 por lado · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
+   - por lado = 1 serie
+   - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
+   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Sentadilla búlgara (Bulgarian Split Squat) / Sentadilla dividida estática (Split Squat) / Zancadas caminando (Walking Lunge)
+   - [Video](https://youtu.be/zKWe7UAWbIo)
+4. **Curl femoral sentado (Seated Leg Curl)** [D1] — 2 × 10 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly)
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Patadas con balón suizo de 30 s (Swiss Ball Kicks)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
+5. **Aperturas con mancuernas (DB Fly)** [D2] — 3 × 10 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa 60-90 s después del par · SUPERSERIE CON Curl femoral sentado (Seated Leg Curl)
+   - Luego haz su última serie sola
+   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
+
+**Accesorios**
+1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 10 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
+   - [Video](https://youtu.be/m0FOpMEgero)
+2. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · serie MYO en la última serie · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
+
+### Jueves · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Azul (A): corto / alta intensidad · carrera** · 20 min · 30 s corriendo / 30 s caminando, repite
+  - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
+
+### Viernes · S3 - olímpicos + fuerza
+_aprox. 82 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Incluso con las superseries marcadas hoy este día pasa de tus 75 min: desactiva un bloque o planea los minutos extra._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
+2. **Marcha A (A March)**
+   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+
+**Core / abdomen**
+1. **Giro ruso (Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Abdominal en V (V-Up)
+   - por lado = 1 serie
+   - Cambiar por: Giro ruso con peso (Weighted Russian Twist) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Escalador cruzado (Cross-Body Mountain Climber)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Russian%20Twist)
+2. **Abdominal en V (V-Up)** [A2] — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso (Russian Twist)
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch) / Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up)
+
+**Saltos, lanzamientos y velocidad**
+1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 5 x 40 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) / Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed))
+2. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 24 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops)
+3. **Split step con reacción (Split-Step Reaction Drill)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) / Desplazamientos laterales (Lateral Shuffles) / Formación de cuatro cuadros (4-Square Hop Grid) / Formación Muñoz, patrón de agilidad (Munoz Drill)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Step%20Reaction%20Drill%20(split-step%2C%20then%20shuffle%20%2F%20crossover%20%2F%20drop-step%20on%20a%20cue))
+
+**Potencia / levantamientos olímpicos**
+1. **Tirón de arranque desde colgado medio (Mid-Hang Snatch Pull)** — 3 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+   - peso según la velocidad: rápido y potente
+   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
+   - No necesitas discos de goma: baja la barra con control
+   - Cambiar por: Tirón de arranque desde colgado alto (High-Hang Snatch Pull) / Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) / Tirón alto con mancuerna o kettlebell (High Pull)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Snatch%20Pull)
+
+**Fuerza**
+1. **Peso muerto convencional (Deadlift)** [B1] — 3 × 6 a 8 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa 3-6 min después del par · SUPERSERIE CON Press de pecho de pie en polea (Standing Cable Press)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift) / Peso muerto con barra hexagonal (Trap Bar Deadlift)
+   - [Video](https://youtu.be/op9kVnSso6Q)
+2. **Press de pecho de pie en polea (Standing Cable Press)** [B2] — 3 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa 3-6 min después del par · SUPERSERIE CON Peso muerto convencional (Deadlift)
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Press de pecho en máquina (Chest Press)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20Cable%20Chest%20Press)
+3. **Remo a un brazo en polea (Single-Arm Cable Row)** — 3 × 8 a 12 por lado · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Remo a un brazo con mancuerna (1-Arm DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Cable%20Row)
+4. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 2 × 8 a 12 por lado · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
+   - por lado = 1 serie
+   - [Video](https://www.youtube.com/watch?v=XbZgoSNJXm4)
+
+**Accesorios**
+1. **Curl nórdico (Nordic Curl)** [C1] — 2 × 6 a 8 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
+   - Mantén este ejercicio en 6-8 repeticiones.
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Curl femoral sentado (Seated Leg Curl)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl)
+2. **Aperturas en polea (Cable Fly)** [C2] — 2 × 10 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · serie MYO en la última serie · descansa 60-90 s después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
+   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Fly)
+3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 3 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise)
+
+### Sábado · Día opcional
+_aprox. 49 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
 
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) / Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold)
+   - Cambiar por: Plancha lateral en estrella (Star Side Plank) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) / Abdominal lateral (Lateral Crunch)
    - [Video](https://youtu.be/at9CMT91HrM)
-2. **Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise)** — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Abdominal en V (V-Up) / Elevación de piernas acostado boca arriba (Lying Leg Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20rotacional%20de%20rodillas%20%2F%20piernas%20colgado%20(Hanging%20Oblique%20Raise))
-
-**Saltos, lanzamientos y velocidad**
-1. **Lagartijas pliométricas (Plyo Push-Ups)** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Repite: contactos rápidos y continuos
-   - Cambiar por: Lagartija con salto de manos al cajón (Push-Up Box Jump) / Azote simulado con balón medicinal y regreso - ejercicio de amortiguación de tronco y brazos (Fake Medball Slam)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lagartijas%20pliom%C3%A9tricas%20(Plyo%20Push-Ups))
-2. **Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass)** — 1 × 10 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso
-   - balón de 8-10 lb
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la derecha, pierna derecha al frente (Rotational Scoop) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la izquierda, pierna derecha al frente (Rotational Scoop) / Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sentadilla%20a%20pase%20de%20pecho%20con%20bal%C3%B3n%20medicinal%20(Squat%20to%20Chest%20Pass))
-3. **Prueba L de tres conos (L-Drill)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta flat (Flat Route) / Ruta slant (Slant Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Prueba%20L%20de%20tres%20conos%20(L-Drill))
-
-**Potencia / levantamientos olímpicos**
-1. **Jalón de arranque desde colgado medio (Mid-Hang Snatch Pull)** — 3 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
-   - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Jalón de arranque desde colgado alto (High-Hang Snatch Pull) / Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) / Jalón alto con mancuerna o kettlebell (High Pull)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20arranque%20desde%20colgado%20medio%20(Mid-Hang%20Snatch%20Pull))
-
-**Fuerza**
-1. **Peso muerto con dos kettlebells (Double-KB Deadlift)** — 3 × 12 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Press de banca plano alterno con mancuernas (Alternating DB Bench Press)
-   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Hiperextensión a 45° (Back Extension) / Empuje de cadera o puente de glúteo (Hip Thrust / Glute Bridge)
-   - [Video](https://youtu.be/aXwilZfmDyo)
-2. **Press de banca plano alterno con mancuernas (Alternating DB Bench Press)** — 3 × 12 a 15 por lado · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Peso muerto con dos kettlebells (Double-KB Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Video](https://www.youtube.com/watch?v=YUhAJt8xsFY)
-3. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 3 × 12 a 15 por lado · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)
-   - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Kickstand RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Puente de glúteo a una pierna con pie elevado en el banco (Single-Leg Glute Bridge)
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-4. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 2 × 12 a 15 por lado · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press de hombro alterno con mancuernas (Alternating DB Overhead Press) / Push press con mancuernas (DB Push Press) / Envión de empuje con mancuernas (DB Push Jerk) / Envión de empuje con barra (Push Jerk)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20alterno%20tipo%20balanc%C3%ADn%20con%20mancuernas%2C%20una%20arriba%20%2F%20una%20abajo%20(Seesaw%20Press))
 
 **Accesorios**
-1. **Aperturas con mancuernas (DB Fly)** — 3 × 12 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)
-   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20con%20mancuernas%20(DB%20Fly))
-2. **Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)** — 2 × 12 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly)
-   - Cambiar por: Elevación lateral sentado con mancuernas (Seated Lateral Raise) / Remo al mentón con mancuernas (DB Upright Row) / Elevaciones laterales con mancuernas (Lateral Raise) / Remo al mentón con barra (Upright Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20lateral%20con%20mancuernas%2C%20palmas%20arriba%20(Supinated%20Lateral%20Raise))
-3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 2 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20con%20barra%20(Barbell%20Calf%20Raise))
-4. **Elevación de pantorrillas en máquina (Calf Raise)** — 2 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · serie MYO en la última serie · 60-90 s de descanso
-   - Segundo ejercicio de pantorrilla: 2 serie(s) (4 series de pantorrilla hoy en total)
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20en%20m%C3%A1quina%20(Calf%20Raise))
-
-### Jueves · Día aeróbico
-- **Aeróbico A (azul): 20 s carrera / 40 s caminata** · Azul (A): corto / alta intensidad · 15-20 min
-
-### Viernes · S3 - olímpicos + fuerza
-_aprox. 81 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-2. **Marcha A (A March)**
-   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
-
-**Core / abdomen**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Plancha lateral (Side Plank) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
-   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Rodillas al pecho colgado (Hanging Knees to Chest)** — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 30-60 s de descanso
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal en V (V-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rodillas%20al%20pecho%20colgado%20(Hanging%20Knees%20to%20Chest))
-
-**Saltos, lanzamientos y velocidad**
-1. **Ruta fade (Fade Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta slant (Slant Route) / Ruta post / esquina (Post Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20fade%20(Fade%20Route))
-
-**Fuerza**
-1. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 4 × 7-10 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Press en el piso alterno con mancuernas (Alternating DB Floor Press)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Cambiar por: Peso muerto rumano (RDL) / Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift)
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-2. **Press en el piso alterno con mancuernas (Alternating DB Floor Press)** — 4 × 12 a 15 por lado · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Peso muerto con barra hexagonal (Trap Bar Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) / Press de banca plano alterno con mancuernas (Alternating DB Bench Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20en%20el%20piso%20alterno%20con%20mancuernas%20(Alternating%20DB%20Floor%20Press))
-3. **Zancadas caminando (Walking Lunge)** — 4 × 12 a 15 por lado · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Remo a un brazo en polea (Single-Arm Cable Row)
-   - por lado = 1 serie
-   - Cambiar por: Zancada hacia atrás (Reverse Lunge) / Sentadilla dividida estática (Split Squat) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) / Sentadilla búlgara (Bulgarian Split Squat)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Zancadas%20caminando%20(Walking%20Lunge))
-4. **Remo a un brazo en polea (Single-Arm Cable Row)** — 3 × 12 a 15 por lado · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Zancadas caminando (Walking Lunge)
-   - por lado = 1 serie
-   - Cambiar por: Remo a un brazo con mancuerna (1-Arm DB Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Remo%20a%20un%20brazo%20en%20polea%20(Single-Arm%20Cable%20Row))
-5. **Dominada en L (L-Sit Pull-Up)** — 3 × 7-10 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension)
-   - Repeticiones limitadas para este ejercicio (7-10): es más difícil que su grupo.
-   - Ejercicio con peso corporal: si no llegas a las repeticiones, usa la máquina asistida o una regresión sin ligas (pies en el piso, anillas o TRX).
-   - Cambiar por: Dominada con peso (Weighted Pull-Up) / Dominada estricta con pies atrás (Strict Pull-Up) / Dominadas supinas (Chin-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dominada%20en%20L%20(L-Sit%20Pull-Up))
-
-**Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 3 × 5-8 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
-   - Repeticiones limitadas para este ejercicio (5-8): es más difícil que su grupo.
-   - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral con deslizadores (Slider Curl) / Curl femoral boca abajo con mancuerna entre los pies (Prone DB Leg Curl) / Curl femoral sentado (Seated Leg Curl)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Curl%20n%C3%B3rdico%20(Nordic%20Curl))
-2. **Aperturas en polea (Cable Fly)** — 2 × 12 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
-   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20en%20polea%20(Cable%20Fly))
-3. **Extensión de piernas en máquina (Leg Extension)** — 2 × 12 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · descansa después del par · SUPERSERIE CON Dominada en L (L-Sit Pull-Up)
-   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) / Sentadilla sissy (Sissy Squat)
-   - [Video](https://youtu.be/m0FOpMEgero)
-4. **Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)** — 2 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20peso%20corporal%20desde%20un%20escal%C3%B3n%20(Standing%20Calf%20Raise))
-5. **Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise)** — 1 × 8 a 12 por lado · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
-   - por lado = 1 serie
-   - Segundo ejercicio de pantorrilla: 1 serie(s) (3 series de pantorrilla hoy en total)
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrilla%20a%20una%20pierna%20en%20d%C3%A9ficit%20(Single-Leg%20Calf%20Raise))
-6. **Hiperextensión inversa (Reverse Hyper) (Enfoque)** — 1 × 12 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · serie MYO en la última serie · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   > Úsalo si está disponible y el cliente siente los músculos correctos.
-   - Cambiar por: Empuje de cadera con saco de arena (Sandbag Hip Thrust) / Puente de glúteo con pies elevados en el banco (Feet-Elevated Glute Bridge) / Jalón entre piernas en polea (Cable Pull-Through) / Puente de glúteo a una pierna con pie en el piso (Single-Leg Glute Bridge)
-   - [Video](https://youtu.be/3vmbvoT2m-U)
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 3 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · serie MYO en la última serie · 60-90 s de descanso
+   - Cambiar por: Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
 
 **Aeróbico**
-1. **Aeróbico C (naranja): 8 min trote / 1 min caminata** — Naranja (C): largo / suave · 30-40 min
-   - Sirve cualquier equipo de cardio: correr, bici, remo o ski erg. Registra tiempo, calorías o distancia.
-   - Sesión aparte: a cualquier hora del día (no se suma a tu tiempo de pesas).
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aer%C3%B3bico%20C%20(naranja)%3A%208%20min%20trote%20%2F%201%20min%20caminata)
-
-### Sábado · Día opcional (opcional)
-_aprox. 51 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-
-**Core / abdomen**
-1. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha lateral (Side Plank) / Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Abdominal inverso (Reverse Crunch)
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
-
-**Accesorios**
-1. **Remo al mentón con barra (Upright Row) (Enfoque)** — 2 × 12 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   - Cambiar por: Elevación lateral en polea (Cable Lateral Raise) / Elevación lateral en polea inclinado / acostado de lado (Cable Lateral Raise) / Remo al mentón con mancuernas (DB Upright Row) / Elevaciones laterales con mancuernas (Lateral Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Remo%20al%20ment%C3%B3n%20con%20barra%20(Upright%20Row))
-2. **Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (Enfoque)** — 2 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · serie MYO en la última serie · 60-90 s de descanso
-   - Ejercicio extra para alcanzar tus series semanales
-   - Cambiar por: Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) / Pájaros con mancuernas (Reverse Fly) / Face pull con kettlebell (KB Face Pull) / Aperturas posteriores en máquina (Reverse Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaciones%20Y%20%2F%20T%20boca%20abajo%20en%20el%20piso%20(Prone%20Y-T%20Raises))
-
-**Aeróbico**
-1. **Aeróbico C (naranja): carrera de 2 millas** — Naranja (C): largo / suave · 30-40 min
-   - Sirve cualquier equipo de cardio: correr, bici, remo o ski erg. Registra tiempo, calorías o distancia.
+1. **Naranja (C): largo / suave · carrera** — 40 min · ritmo constante: todavía puedes hablar
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aer%C3%B3bico%20C%20(naranja)%3A%20carrera%20de%202%20millas)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aerobic%20C%20(orange)%3A%2011%20Minute%20Run%2F%202%20Min%20Walk)
 
 ## Semana 7 — Pretemporada: más velocidad y potencia
 
-**Trabajo atlético esta semana:** 88 contactos de salto · 20 lanzamientos · 96 cambios de dirección · 400 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 37% · Recibir-Crear 3: Repetir
+**Trabajo atlético esta semana:** 58 contactos de salto · 58 contactos de saltos de tobillo · 32 lanzamientos · 72 cambios de dirección · 600 m de sprints · 6 series de levantamiento olímpico · Proporción pliométrica 65% · Recibir-Crear 3: Repetir
 
-### Lunes · S1 - salto + rodilla + jalón
-_aprox. 70 min_
+### Lunes · S1 - salto + rodilla + tirón
+_aprox. 73 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
-2. **Marcha A (A March)**
-   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
+2. **Skip A (A Skip)**
+   - Cambiar por: Marcha A (A March) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
-   - Cambiar por: Plancha lateral (Side Plank) / Abdominal completo con peso (Weighted Sit-Up) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
+1. **Plancha en antebrazos (Plank)** [A1] — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
+   - Cambiar por: Posición de flecha en hollow (Streamline Hold) / Balanceo en posición hueca (Hollow Rocks) / Plancha alta con brazos extendidos (High Plank) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers)
    - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
+2. **Plancha Copenhague (Copenhagen Plank)** [A2] — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
    - por lado = 1 serie
-   - Cambiar por: Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar) / Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise) / Rodillas al pecho rotacional colgado (Hanging Oblique Knee Raise)
+   - Cambiar por: Elevación Copenhague dinámica (Copenhagen Raise) / Plancha lateral con press; avanzado: en estrella (Side Plank Press) / Plancha lateral alta con brazo extendido (High Side Plank) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit)
    - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
 
 **Saltos, lanzamientos y velocidad**
-1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 5 x 40 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Skip A (A Skip) / Marcha A (A March)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sprint%20a%20velocidad%20m%C3%A1xima%20(Max-Velocity%20Sprint))
-2. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos de vallas hacia adelante (Hurdle Hops)** — 2 × 9 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: contactos rápidos y continuos
-   - por lado = 1 serie
-   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos de vallas hacia adelante (Hurdle Hops) / Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20de%20vallas%20hacia%20adelante%20a%20una%20pierna%20(Single-Leg%20Hurdle%20Hops))
-3. **Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops)** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   > MODERADO: vallas de unas 6 in (15 cm); se puede pausar entre saltos.
+   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%20Hurdle%20Hops)
+2. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: contactos rápidos y continuos
-   - por lado = 1 serie
-   - Cambiar por: Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) / Saltos de vallas hacia adelante (Hurdle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20laterales%20de%20vallas%20a%20una%20pierna%20(Single-Leg%20Lateral%20Hurdle%20Hops))
-4. **Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops)** — 2 × 16 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Repite: contactos rápidos y continuos
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) / Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20de%20tobillo%20en%20zigzag%20con%20dos%20pies%20(Zig-Zag%20Ankle%20Hops))
-5. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Ruta slant (Slant Route) / Prueba L de tres conos (L-Drill) / Ruta fade (Fade Route) / Ruta post / esquina (Post Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Desplazamientos%20laterales%20(Lateral%20Shuffles))
-6. **Ruta dig / out (Dig Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Prueba L de tres conos (L-Drill) / Ruta slant (Slant Route) / Ruta fade (Fade Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20dig%20%2F%20out%20(Dig%20Route))
+   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral))
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 14 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place))
+4. **Prueba L de tres conos (L-Drill)** — 2 × 4 reps · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - 3 cambios de dirección por repetición
+   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Split step con reacción (Split-Step Reaction Drill) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) / Formación Krumrie, patrón de agilidad (Krumrie Drill)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone))
 
 **Potencia / levantamientos olímpicos**
-1. **Jalón de cargada desde colgado bajo (Low-Hang Clean Pull)** — 2 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Tirón de cargada desde colgado bajo (Low-Hang Clean Pull)** — 3 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
    - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
    - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Jalón de cargada desde colgado medio (Mid-Hang Clean Pull) / Salto con barra hexagonal (Hex-Bar Jump) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Cargada de potencia desde colgado bajo, debajo de la rodilla (Low-Hang Power Clean)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20cargada%20desde%20colgado%20bajo%20(Low-Hang%20Clean%20Pull))
+   - Cambiar por: Tirón de cargada desde colgado alto (High-Hang Clean Pull) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Salto con barra hexagonal (Hex-Bar Jump) / Tirón de cargada desde colgado medio (Mid-Hang Clean Pull)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Low-Hang%20Clean%20Pull)
 
 **Fuerza**
-1. **Sentadilla frontal con barra (Front Squat)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
+1. **Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)** [B1] — 3 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 3-6 min después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
    - Pretemporada: menos series, más rápido y más potente
-   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
-   - [Video](https://youtu.be/uYumuL_G_V0)
-2. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Sentadilla frontal con barra (Front Squat)
+   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla frontal con barra (Front Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
+   - [Video](https://youtube.com/shorts/0BwOWfg_-Og?feature=share)
+2. **Remo a un brazo con mancuerna (1-Arm DB Row)** [B2] — 3 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 3-6 min después del par · SUPERSERIE CON Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)
    - por lado = 1 serie
-   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con barra, agarre prono (Seal Row)
+   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
    - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Zancada lateral (Lateral Lunge)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Jalón al pecho agarre abierto (Lat Pulldown)
-   - por lado = 1 serie
-   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Zancada hacia atrás (Reverse Lunge) / Zancada atrás en déficit, de pie sobre disco o escalón (Deficit Reverse Lunge) / Sentadilla dividida estática (Split Squat)
-   - [Video](https://youtu.be/zKWe7UAWbIo)
-4. **Jalón al pecho agarre abierto (Lat Pulldown)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Zancada lateral (Lateral Lunge)
-   - Cambiar por: Dominada con peso (Weighted Pull-Up) / Dominada en L (L-Sit Pull-Up) / Dominada estricta con rodillas al pecho (Tuck Pull-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20al%20pecho%20agarre%20abierto%20(Lat%20Pulldown))
+3. **Dominada con peso (Weighted Pull-Up)** [C1] — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 2-3 min después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension) - aprieta 1 segundo arriba
+   - Luego haz su última serie sola
+   - Cambiar por: Dominadas (Pull-Up) / Jalón al pecho, agarre prono (Lat Pulldown) / Jalón al pecho, agarre supino (Underhand Pulldown) / Dominada sentado en anillas / TRX con pies apoyados (Seated Ring Pull-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Pull-Up)
+4. **Extensión de piernas en máquina (Leg Extension) - aprieta 1 segundo arriba** [C2] — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 2-3 min después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
+   - [Video](https://youtu.be/m0FOpMEgero)
 
 **Accesorios**
-1. **Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Pájaros con mancuernas (Reverse Fly) + Elevación de pantorrillas con barra (Barbell Calf Raise)
-   - Cambiar por: Pájaros con mancuernas (Reverse Fly) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) / Face pull con kettlebell (KB Face Pull) / Remo para deltoide posterior con mancuerna (Rear-Delt Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20sentado%20con%20el%20pecho%20en%20los%20muslos%20(Seated%20Reverse%20Fly))
-2. **Pájaros con mancuernas (Reverse Fly)** — 1 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Elevación de pantorrillas con barra (Barbell Calf Raise)
-   - Cambiar por: Face pull con kettlebell (KB Face Pull) / Face pull en polea (Face Pull) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) / Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20con%20mancuernas%20(Reverse%20Fly))
-3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Pájaros con mancuernas (Reverse Fly)
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20con%20barra%20(Barbell%20Calf%20Raise))
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
 
 ### Martes · Día aeróbico
-- **Aeróbico B (verde): 3 min trote / 3 min caminata** · Verde (B): moderado · 20-30 min
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 20-30 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
-### Miércoles · S2 - balón medicinal + cadera + empuje
-_aprox. 60 min_
+### Miércoles · S2 - balón medicinal + bisagra a una pierna + empuje
+_aprox. 64 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
-2. **Marcha A (A March)**
-   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
+2. **Skip A (A Skip)**
+   - Cambiar por: Marcha A (A March) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+
+**Core / abdomen**
+1. **Giro ruso con peso (Weighted Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Pies a la barra (Toes-to-Bar)
+   - por lado = 1 serie
+   - Cambiar por: Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Conexión cruzada en estrella boca arriba (Star Cross Connect) / Escalador cruzado (Cross-Body Mountain Climber)
+   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
+2. **Pies a la barra (Toes-to-Bar)** [A2] — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso con peso (Weighted Russian Twist)
+   - Cambiar por: Abdominal en V (V-Up) / Rodillas al pecho colgado (Hanging Knees to Chest) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Toes%20to%20Bar%20(hanging))
+
+**Saltos, lanzamientos y velocidad**
+1. **Salidas de aceleración (Acceleration Starts)** — 2 × 5 x 20 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Marcha A (A March) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Acceleration%20Starts)
+2. **Salto largo a una pierna (Single-Leg Broad Jump)** [B1] — 2 × 5 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10 · SUPERSERIE CON Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam)
+   - Repite: haz la serie en tandas de 2-3 saltos grandes seguidos (para 7 saltos: 3 + 2 + 2), reiniciando los brazos entre tandas; esfuerzo total en cada salto
+   - por lado = 1 serie
+   - Cambiar por: Salto largo (Broad Jump) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) / Salto con barra hexagonal (Hex-Bar Jump) / Salto a cajón bajo (Low Box Jump)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump)
+3. **Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam)** [B2] — 2 × 8 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso · SUPERSERIE CON Salto largo a una pierna (Single-Leg Broad Jump)
+   - balón de 10 lb
+   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
+   - Cambiar por: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) / Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass)
+   - [Video](https://youtu.be/hVX13jShJXE)
+4. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) / Split step con reacción (Split-Step Reaction Drill) / Formación Krumrie, patrón de agilidad (Krumrie Drill) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles)
+
+**Fuerza**
+1. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** [C1] — 3 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 2-3 min después del par · SUPERSERIE CON Press inclinado con barra (Incline Bench Press) - agarre cerrado (manos al ancho de los hombros)
+   - por lado = 1 serie
+   - Pretemporada: menos series, más rápido y más potente
+   - Luego haz su última serie sola
+   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Peso muerto rumano a una pierna (Single-Leg RDL)
+   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
+2. **Press inclinado con barra (Incline Bench Press) - agarre cerrado (manos al ancho de los hombros)** [C2] — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 2-3 min después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
+   - Cambiar por: Press de pecho de pie en polea (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press)
+3. **Zancada lateral (Lateral Lunge)** — 2 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+   - por lado = 1 serie
+   - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
+   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Sentadilla búlgara (Bulgarian Split Squat) / Sentadilla dividida estática (Split Squat) / Zancadas caminando (Walking Lunge)
+   - [Video](https://youtu.be/zKWe7UAWbIo)
+4. **Curl femoral sentado (Seated Leg Curl)** [D1] — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly) - aprieta 1 segundo arriba
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Patadas con balón suizo de 30 s (Swiss Ball Kicks)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
+5. **Aperturas con mancuernas (DB Fly) - aprieta 1 segundo arriba** [D2] — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 60-90 s después del par · SUPERSERIE CON Curl femoral sentado (Seated Leg Curl)
+   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
+
+**Accesorios**
+1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
+   - [Video](https://youtu.be/m0FOpMEgero)
+2. **Elevación de pantorrillas en máquina (Calf Raise)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
+
+### Viernes · S3 - olímpicos + fuerza
+_aprox. 77 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Incluso con las superseries marcadas hoy este día pasa de tus 75 min: desactiva un bloque o planea los minutos extra._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
+2. **Skip A (A Skip)**
+   - Cambiar por: Marcha A (A March) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+
+**Core / abdomen**
+1. **Giro ruso (Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Abdominal en V (V-Up)
+   - por lado = 1 serie
+   - Cambiar por: Giro ruso con peso (Weighted Russian Twist) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Escalador cruzado (Cross-Body Mountain Climber)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Russian%20Twist)
+2. **Abdominal en V (V-Up)** [A2] — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso (Russian Twist)
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch) / Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up)
+
+**Saltos, lanzamientos y velocidad**
+1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 5 x 40 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) / Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Marcha A (A March)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed))
+2. **Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops)** — 2 × 15 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Ankle%20Hops%20(Forward-Right-Forward-Left-Forward))
+3. **Split step con reacción (Split-Step Reaction Drill)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Prueba L de tres conos (L-Drill) / Formación de cuatro cuadros (4-Square Hop Grid) / Formación Muñoz, patrón de agilidad (Munoz Drill)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Step%20Reaction%20Drill%20(split-step%2C%20then%20shuffle%20%2F%20crossover%20%2F%20drop-step%20on%20a%20cue))
+
+**Potencia / levantamientos olímpicos**
+1. **Tirón de arranque desde colgado bajo (Low-Hang Snatch Pull)** — 3 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+   - peso según la velocidad: rápido y potente
+   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
+   - No necesitas discos de goma: baja la barra con control
+   - Cambiar por: Tirón de arranque desde colgado medio (Mid-Hang Snatch Pull) / Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Tirón de arranque desde colgado alto (High-Hang Snatch Pull) / Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Low-Hang%20Snatch%20Pull)
+
+**Fuerza**
+1. **Peso muerto convencional (Deadlift)** [B1] — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 3-6 min después del par · SUPERSERIE CON Press de pecho de pie en polea (Standing Cable Press)
+   - Pretemporada: menos series, más rápido y más potente
+   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift) / Peso muerto con barra hexagonal (Trap Bar Deadlift)
+   - [Video](https://youtu.be/op9kVnSso6Q)
+2. **Press de pecho de pie en polea (Standing Cable Press)** [B2] — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 3-6 min después del par · SUPERSERIE CON Peso muerto convencional (Deadlift)
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Press de pecho en máquina (Chest Press)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20Cable%20Chest%20Press)
+3. **Remo a un brazo en polea (Single-Arm Cable Row) - aprieta 1 segundo arriba** — 2 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Remo a un brazo con mancuerna (1-Arm DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Cable%20Row)
+4. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 2 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+   - por lado = 1 serie
+   - [Video](https://www.youtube.com/watch?v=XbZgoSNJXm4)
+
+**Accesorios**
+1. **Curl nórdico (Nordic Curl)** [C1] — 1 × 5-8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
+   - Mantén este ejercicio en 5-8 repeticiones.
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Curl femoral sentado (Seated Leg Curl)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl)
+2. **Aperturas en polea (Cable Fly)** [C2] — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 60-90 s después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
+   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Fly)
+3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise)
+
+### Sábado · Día opcional
+_aprox. 47 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
 
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) / Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold)
+   - Cambiar por: Plancha lateral en estrella (Star Side Plank) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) / Abdominal lateral (Lateral Crunch)
    - [Video](https://youtu.be/at9CMT91HrM)
-2. **Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise)** — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Abdominal en V (V-Up) / Elevación de piernas acostado boca arriba (Lying Leg Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20rotacional%20de%20rodillas%20%2F%20piernas%20colgado%20(Hanging%20Oblique%20Raise))
-
-**Saltos, lanzamientos y velocidad**
-1. **Lagartija con salto de manos al cajón (Push-Up Box Jump)** — 2 × 8 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - cajón bajo (15-30 cm)
-   - Aterriza y congela: sostén 3 s
-   > Las manos empiezan en el piso y saltan para aterrizar sobre un cajón - la dirección contraria al aterrizaje controlado.
-   - Cambiar por: Lagartijas pliométricas (Plyo Push-Ups) / Azote simulado con balón medicinal y regreso - ejercicio de amortiguación de tronco y brazos (Fake Medball Slam)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lagartija%20con%20salto%20de%20manos%20al%20caj%C3%B3n%20(Push-Up%20Box%20Jump))
-2. **Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass)** — 1 × 10 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso
-   - balón de 8-10 lb
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la derecha, pierna derecha al frente (Rotational Scoop) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la izquierda, pierna derecha al frente (Rotational Scoop) / Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sentadilla%20a%20pase%20de%20pecho%20con%20bal%C3%B3n%20medicinal%20(Squat%20to%20Chest%20Pass))
-3. **Prueba L de tres conos (L-Drill)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta flat (Flat Route) / Ruta slant (Slant Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Prueba%20L%20de%20tres%20conos%20(L-Drill))
-
-**Potencia / levantamientos olímpicos**
-1. **Jalón de arranque desde colgado bajo (Low-Hang Snatch Pull)** — 2 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
-   - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Jalón de arranque desde colgado medio (Mid-Hang Snatch Pull) / Arranque de potencia desde colgado bajo, debajo de la rodilla (Low-Hang Power Snatch) / Arranque de potencia desde colgado alto (High-Hang Power Snatch)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20arranque%20desde%20colgado%20bajo%20(Low-Hang%20Snatch%20Pull))
-
-**Fuerza**
-1. **Peso muerto con dos kettlebells (Double-KB Deadlift)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Press de banca plano alterno con mancuernas (Alternating DB Bench Press)
-   - Pretemporada: menos series, más rápido y más potente
-   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Hiperextensión a 45° (Back Extension) / Empuje de cadera o puente de glúteo (Hip Thrust / Glute Bridge)
-   - [Video](https://youtu.be/aXwilZfmDyo)
-2. **Press de banca plano alterno con mancuernas (Alternating DB Bench Press)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Peso muerto con dos kettlebells (Double-KB Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Video](https://www.youtube.com/watch?v=YUhAJt8xsFY)
-3. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)
-   - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Kickstand RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Puente de glúteo a una pierna con pie elevado en el banco (Single-Leg Glute Bridge)
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-4. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press de hombro alterno con mancuernas (Alternating DB Overhead Press) / Push press con mancuernas (DB Push Press) / Envión de empuje con mancuernas (DB Push Jerk) / Envión de empuje con barra (Push Jerk)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20alterno%20tipo%20balanc%C3%ADn%20con%20mancuernas%2C%20una%20arriba%20%2F%20una%20abajo%20(Seesaw%20Press))
 
 **Accesorios**
-1. **Aperturas en polea (Cable Fly)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)
-   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20en%20polea%20(Cable%20Fly))
-2. **Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)** — 1 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
-   - Cambiar por: Elevación lateral sentado con mancuernas (Seated Lateral Raise) / Remo al mentón con mancuernas (DB Upright Row) / Elevaciones laterales con mancuernas (Lateral Raise) / Remo al mentón con barra (Upright Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20lateral%20con%20mancuernas%2C%20palmas%20arriba%20(Supinated%20Lateral%20Raise))
-3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20mancuernas%20(DB%20Calf%20Raise))
-
-### Viernes · S3 - olímpicos + fuerza
-_aprox. 52 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-2. **Marcha A (A March)**
-   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
-
-**Core / abdomen**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Plancha lateral (Side Plank) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
-   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Rodillas al pecho colgado (Hanging Knees to Chest)** — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 30-60 s de descanso
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal en V (V-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rodillas%20al%20pecho%20colgado%20(Hanging%20Knees%20to%20Chest))
-
-**Saltos, lanzamientos y velocidad**
-1. **Ruta fade (Fade Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta slant (Slant Route) / Ruta post / esquina (Post Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20fade%20(Fade%20Route))
-
-**Fuerza**
-1. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press)
-   - Pretemporada: menos series, más rápido y más potente
-   - Cambiar por: Peso muerto rumano (RDL) / Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift)
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-2. **Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Peso muerto con barra hexagonal (Trap Bar Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press en el piso alterno con mancuernas (Alternating DB Floor Press) / Press de banca plano alterno con mancuernas (Alternating DB Bench Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20inclinado%20alterno%20con%20mancuernas%2C%20una%20arriba%20%2F%20una%20abajo%20(Alternating%20Incline%20DB%20Press))
-3. **Zancadas caminando (Walking Lunge)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
-   - por lado = 1 serie
-   - Cambiar por: Zancada hacia atrás (Reverse Lunge) / Sentadilla dividida estática (Split Squat) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) / Sentadilla búlgara (Bulgarian Split Squat)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Zancadas%20caminando%20(Walking%20Lunge))
-4. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Zancadas caminando (Walking Lunge)
-   - por lado = 1 serie
-   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row)
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-5. **Dominada con peso (Weighted Pull-Up)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension)
-   - Cambiar por: Dominada en L (L-Sit Pull-Up) / Dominada estricta con pies atrás (Strict Pull-Up) / Dominadas supinas (Chin-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dominada%20con%20peso%20(Weighted%20Pull-Up))
-
-**Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 2 × 5-8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly)
-   - Repeticiones limitadas para este ejercicio (5-8): es más difícil que su grupo.
-   - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral con deslizadores (Slider Curl) / Curl femoral boca abajo con mancuerna entre los pies (Prone DB Leg Curl) / Curl femoral sentado (Seated Leg Curl)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Curl%20n%C3%B3rdico%20(Nordic%20Curl))
-2. **Aperturas con mancuernas (DB Fly)** — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
-   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20con%20mancuernas%20(DB%20Fly))
-3. **Extensión de piernas en máquina (Leg Extension)** — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
-   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) / Sentadilla sissy (Sissy Squat)
-   - [Video](https://youtu.be/m0FOpMEgero)
-4. **Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)** — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20peso%20corporal%20desde%20un%20escal%C3%B3n%20(Standing%20Calf%20Raise))
-
-### Sábado · Día opcional (opcional)
-_aprox. 42 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-
-**Core / abdomen**
-1. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha lateral (Side Plank) / Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Abdominal inverso (Reverse Crunch)
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Cambiar por: Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
 
 **Aeróbico**
-1. **Aeróbico C (naranja): carrera de 2 millas** — Naranja (C): largo / suave · 30-40 min
-   - Sirve cualquier equipo de cardio: correr, bici, remo o ski erg. Registra tiempo, calorías o distancia.
+1. **Naranja (C): largo / suave · carrera** — 30-40 min · ritmo constante: todavía puedes hablar
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aer%C3%B3bico%20C%20(naranja)%3A%20carrera%20de%202%20millas)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aerobic%20C%20(orange)%3A%202%20Mile%20Run)
 
 ## Semana 8 — Pretemporada: más velocidad y potencia
 
-**Trabajo atlético esta semana:** 88 contactos de salto · 20 lanzamientos · 96 cambios de dirección · 400 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 37% · Recibir-Crear 3: Repetir
+**Trabajo atlético esta semana:** 58 contactos de salto · 58 contactos de saltos de tobillo · 32 lanzamientos · 72 cambios de dirección · 600 m de sprints · 6 series de levantamiento olímpico · Proporción pliométrica 65% · Recibir-Crear 3: Repetir
 
-### Lunes · S1 - salto + rodilla + jalón
-_aprox. 70 min_
+### Lunes · S1 - salto + rodilla + tirón
+_aprox. 73 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
-2. **Marcha A (A March)**
-   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
+2. **Skip A (A Skip)**
+   - Cambiar por: Marcha A (A March) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
-   - Cambiar por: Plancha lateral (Side Plank) / Abdominal completo con peso (Weighted Sit-Up) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
+1. **Plancha en antebrazos (Plank)** [A1] — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha Copenhague (Copenhagen Plank)
+   - Cambiar por: Posición de flecha en hollow (Streamline Hold) / Balanceo en posición hueca (Hollow Rocks) / Plancha alta con brazos extendidos (High Plank) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers)
    - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
+2. **Plancha Copenhague (Copenhagen Plank)** [A2] — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · descansa 30-60 s después del par · SUPERSERIE CON Plancha en antebrazos (Plank)
    - por lado = 1 serie
-   - Cambiar por: Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar) / Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise) / Rodillas al pecho rotacional colgado (Hanging Oblique Knee Raise)
+   - Cambiar por: Elevación Copenhague dinámica (Copenhagen Raise) / Plancha lateral con press; avanzado: en estrella (Side Plank Press) / Plancha lateral alta con brazo extendido (High Side Plank) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit)
    - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
 
 **Saltos, lanzamientos y velocidad**
-1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 5 x 40 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Skip A (A Skip) / Marcha A (A March)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sprint%20a%20velocidad%20m%C3%A1xima%20(Max-Velocity%20Sprint))
-2. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos de vallas hacia adelante (Hurdle Hops)** — 2 × 9 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: contactos rápidos y continuos
-   - por lado = 1 serie
-   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos de vallas hacia adelante (Hurdle Hops) / Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20de%20vallas%20hacia%20adelante%20a%20una%20pierna%20(Single-Leg%20Hurdle%20Hops))
-3. **Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops)** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   > MODERADO: vallas de unas 6 in (15 cm); se puede pausar entre saltos.
+   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%20Hurdle%20Hops)
+2. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 2 × 10 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: contactos rápidos y continuos
-   - por lado = 1 serie
-   - Cambiar por: Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) / Saltos de vallas hacia adelante (Hurdle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20laterales%20de%20vallas%20a%20una%20pierna%20(Single-Leg%20Lateral%20Hurdle%20Hops))
-4. **Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops)** — 2 × 16 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Repite: contactos rápidos y continuos
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) / Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Saltos%20de%20tobillo%20en%20zigzag%20con%20dos%20pies%20(Zig-Zag%20Ankle%20Hops))
-5. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Ruta slant (Slant Route) / Prueba L de tres conos (L-Drill) / Ruta fade (Fade Route) / Ruta post / esquina (Post Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Desplazamientos%20laterales%20(Lateral%20Shuffles))
-6. **Ruta dig / out (Dig Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Prueba L de tres conos (L-Drill) / Ruta slant (Slant Route) / Ruta fade (Fade Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20dig%20%2F%20out%20(Dig%20Route))
+   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral))
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 14 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place))
+4. **Prueba L de tres conos (L-Drill)** — 2 × 4 reps · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - 3 cambios de dirección por repetición
+   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Split step con reacción (Split-Step Reaction Drill) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) / Formación Krumrie, patrón de agilidad (Krumrie Drill)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone))
 
 **Potencia / levantamientos olímpicos**
-1. **Jalón de cargada desde colgado bajo (Low-Hang Clean Pull)** — 2 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Tirón de cargada desde colgado bajo (Low-Hang Clean Pull)** — 3 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
    - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
    - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Jalón de cargada desde colgado medio (Mid-Hang Clean Pull) / Salto con barra hexagonal (Hex-Bar Jump) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Cargada de potencia desde colgado bajo, debajo de la rodilla (Low-Hang Power Clean)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20cargada%20desde%20colgado%20bajo%20(Low-Hang%20Clean%20Pull))
+   - Cambiar por: Tirón de cargada desde colgado alto (High-Hang Clean Pull) / Cargada con kettlebell en sentadilla (KB Squat Clean) / Salto con barra hexagonal (Hex-Bar Jump) / Tirón de cargada desde colgado medio (Mid-Hang Clean Pull)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Low-Hang%20Clean%20Pull)
 
 **Fuerza**
-1. **Sentadilla frontal con barra (Front Squat)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
+1. **Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)** [B1] — 3 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 3-6 min después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
    - Pretemporada: menos series, más rápido y más potente
-   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
-   - [Video](https://youtu.be/uYumuL_G_V0)
-2. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Sentadilla frontal con barra (Front Squat)
+   - Cambiar por: Sentadilla Zercher con barra (Zercher Squat) / Sentadilla con barra hexagonal (Trap Bar Squat) / Sentadilla frontal con barra (Front Squat) / Sentadilla Zercher alta con barra (High Zercher Squat)
+   - [Video](https://youtube.com/shorts/0BwOWfg_-Og?feature=share)
+2. **Remo a un brazo con mancuerna (1-Arm DB Row)** [B2] — 3 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 3-6 min después del par · SUPERSERIE CON Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat)
    - por lado = 1 serie
-   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con barra, agarre prono (Seal Row)
+   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
    - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Zancada lateral (Lateral Lunge)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Jalón al pecho agarre abierto (Lat Pulldown)
-   - por lado = 1 serie
-   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Zancada hacia atrás (Reverse Lunge) / Zancada atrás en déficit, de pie sobre disco o escalón (Deficit Reverse Lunge) / Sentadilla dividida estática (Split Squat)
-   - [Video](https://youtu.be/zKWe7UAWbIo)
-4. **Jalón al pecho agarre abierto (Lat Pulldown)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Zancada lateral (Lateral Lunge)
-   - Cambiar por: Dominada con peso (Weighted Pull-Up) / Dominada en L (L-Sit Pull-Up) / Dominada estricta con rodillas al pecho (Tuck Pull-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20al%20pecho%20agarre%20abierto%20(Lat%20Pulldown))
+3. **Dominada con peso (Weighted Pull-Up)** [C1] — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 2-3 min después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension) - aprieta 1 segundo arriba
+   - Luego haz su última serie sola
+   - Cambiar por: Dominadas (Pull-Up) / Jalón al pecho, agarre prono (Lat Pulldown) / Jalón al pecho, agarre supino (Underhand Pulldown) / Dominada sentado en anillas / TRX con pies apoyados (Seated Ring Pull-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Pull-Up)
+4. **Extensión de piernas en máquina (Leg Extension) - aprieta 1 segundo arriba** [C2] — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 2-3 min después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
+   - [Video](https://youtu.be/m0FOpMEgero)
 
 **Accesorios**
-1. **Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Pájaros con mancuernas (Reverse Fly) + Elevación de pantorrillas con barra (Barbell Calf Raise)
-   - Cambiar por: Pájaros con mancuernas (Reverse Fly) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) / Face pull con kettlebell (KB Face Pull) / Remo para deltoide posterior con mancuerna (Rear-Delt Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20sentado%20con%20el%20pecho%20en%20los%20muslos%20(Seated%20Reverse%20Fly))
-2. **Pájaros con mancuernas (Reverse Fly)** — 1 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Elevación de pantorrillas con barra (Barbell Calf Raise)
-   - Cambiar por: Face pull con kettlebell (KB Face Pull) / Face pull en polea (Face Pull) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) / Pájaros sentado con el pecho en los muslos (Seated Reverse Fly)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=P%C3%A1jaros%20con%20mancuernas%20(Reverse%20Fly))
-3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Pájaros sentado con el pecho en los muslos (Seated Reverse Fly) + Pájaros con mancuernas (Reverse Fly)
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20con%20barra%20(Barbell%20Calf%20Raise))
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
 
 ### Martes · Día aeróbico
-- **Aeróbico B (verde): 3 min trote / 3 min caminata** · Verde (B): moderado · 20-30 min
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 20-30 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
-### Miércoles · S2 - balón medicinal + cadera + empuje
-_aprox. 60 min_
+### Miércoles · S2 - balón medicinal + bisagra a una pierna + empuje
+_aprox. 64 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
-2. **Marcha A (A March)**
-   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
+2. **Skip A (A Skip)**
+   - Cambiar por: Marcha A (A March) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+
+**Core / abdomen**
+1. **Giro ruso con peso (Weighted Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Pies a la barra (Toes-to-Bar)
+   - por lado = 1 serie
+   - Cambiar por: Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Conexión cruzada en estrella boca arriba (Star Cross Connect) / Escalador cruzado (Cross-Body Mountain Climber)
+   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
+2. **Pies a la barra (Toes-to-Bar)** [A2] — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso con peso (Weighted Russian Twist)
+   - Cambiar por: Abdominal en V (V-Up) / Rodillas al pecho colgado (Hanging Knees to Chest) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Toes%20to%20Bar%20(hanging))
+
+**Saltos, lanzamientos y velocidad**
+1. **Salidas de aceleración (Acceleration Starts)** — 2 × 5 x 20 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Marcha A (A March) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Acceleration%20Starts)
+2. **Salto largo a una pierna (Single-Leg Broad Jump)** [B1] — 2 × 5 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10 · SUPERSERIE CON Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam)
+   - Repite: haz la serie en tandas de 2-3 saltos grandes seguidos (para 7 saltos: 3 + 2 + 2), reiniciando los brazos entre tandas; esfuerzo total en cada salto
+   - por lado = 1 serie
+   - Cambiar por: Salto largo (Broad Jump) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) / Salto con barra hexagonal (Hex-Bar Jump) / Salto a cajón bajo (Low Box Jump)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump)
+3. **Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam)** [B2] — 2 × 8 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso · SUPERSERIE CON Salto largo a una pierna (Single-Leg Broad Jump)
+   - balón de 10 lb
+   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
+   - Cambiar por: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) / Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass)
+   - [Video](https://youtu.be/hVX13jShJXE)
+4. **Desplazamientos laterales (Lateral Shuffles)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) / Split step con reacción (Split-Step Reaction Drill) / Formación Krumrie, patrón de agilidad (Krumrie Drill) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles)
+
+**Fuerza**
+1. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** [C1] — 3 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 2-3 min después del par · SUPERSERIE CON Press inclinado con barra (Incline Bench Press) - agarre cerrado (manos al ancho de los hombros)
+   - por lado = 1 serie
+   - Pretemporada: menos series, más rápido y más potente
+   - Luego haz su última serie sola
+   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Peso muerto rumano a una pierna (Single-Leg RDL)
+   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
+2. **Press inclinado con barra (Incline Bench Press) - agarre cerrado (manos al ancho de los hombros)** [C2] — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 2-3 min después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
+   - Cambiar por: Press de pecho de pie en polea (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press)
+3. **Zancada lateral (Lateral Lunge)** — 2 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+   - por lado = 1 serie
+   - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
+   - Cambiar por: Subida al cajón frontal y lateral (Step-Up) / Sentadilla búlgara (Bulgarian Split Squat) / Sentadilla dividida estática (Split Squat) / Zancadas caminando (Walking Lunge)
+   - [Video](https://youtu.be/zKWe7UAWbIo)
+4. **Curl femoral sentado (Seated Leg Curl)** [D1] — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly) - aprieta 1 segundo arriba
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Patadas con balón suizo de 30 s (Swiss Ball Kicks)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
+5. **Aperturas con mancuernas (DB Fly) - aprieta 1 segundo arriba** [D2] — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 60-90 s después del par · SUPERSERIE CON Curl femoral sentado (Seated Leg Curl)
+   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
+
+**Accesorios**
+1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension)
+   - [Video](https://youtu.be/m0FOpMEgero)
+2. **Elevación de pantorrillas en máquina (Calf Raise)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
+
+### Viernes · S3 - olímpicos + fuerza
+_aprox. 77 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Incluso con las superseries marcadas hoy este día pasa de tus 75 min: desactiva un bloque o planea los minutos extra._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
+2. **Skip A (A Skip)**
+   - Cambiar por: Marcha A (A March) / Carrera A con rodillas altas (A-Runs)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+
+**Core / abdomen**
+1. **Giro ruso (Russian Twist)** [A1] — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Abdominal en V (V-Up)
+   - por lado = 1 serie
+   - Cambiar por: Giro ruso con peso (Weighted Russian Twist) / Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) / Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) / Escalador cruzado (Cross-Body Mountain Climber)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Russian%20Twist)
+2. **Abdominal en V (V-Up)** [A2] — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 30-60 s después del par · SUPERSERIE CON Giro ruso (Russian Twist)
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal inverso (Reverse Crunch) / Rodillas al pecho colgado (Hanging Knees to Chest) / Pies a la barra (Toes-to-Bar)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up)
+
+**Saltos, lanzamientos y velocidad**
+1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 5 x 40 m · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) / Salidas de aceleración (Acceleration Starts) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) / Marcha A (A March)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed))
+2. **Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops)** — 2 × 15 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Ankle%20Hops%20(Forward-Right-Forward-Left-Forward))
+3. **Split step con reacción (Split-Step Reaction Drill)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Prueba L de tres conos (L-Drill) / Formación de cuatro cuadros (4-Square Hop Grid) / Formación Muñoz, patrón de agilidad (Munoz Drill)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Step%20Reaction%20Drill%20(split-step%2C%20then%20shuffle%20%2F%20crossover%20%2F%20drop-step%20on%20a%20cue))
+
+**Potencia / levantamientos olímpicos**
+1. **Tirón de arranque desde colgado bajo (Low-Hang Snatch Pull)** — 3 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+   - peso según la velocidad: rápido y potente
+   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
+   - No necesitas discos de goma: baja la barra con control
+   - Cambiar por: Tirón de arranque desde colgado medio (Mid-Hang Snatch Pull) / Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Tirón de arranque desde colgado alto (High-Hang Snatch Pull) / Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Low-Hang%20Snatch%20Pull)
+
+**Fuerza**
+1. **Peso muerto convencional (Deadlift)** [B1] — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 3-6 min después del par · SUPERSERIE CON Press de pecho de pie en polea (Standing Cable Press)
+   - Pretemporada: menos series, más rápido y más potente
+   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift) / Peso muerto con barra hexagonal (Trap Bar Deadlift)
+   - [Video](https://youtu.be/op9kVnSso6Q)
+2. **Press de pecho de pie en polea (Standing Cable Press)** [B2] — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 3-6 min después del par · SUPERSERIE CON Peso muerto convencional (Deadlift)
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) / Press en el piso con mancuernas (DB Floor Press) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) / Press de pecho en máquina (Chest Press)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20Cable%20Chest%20Press)
+3. **Remo a un brazo en polea (Single-Arm Cable Row) - aprieta 1 segundo arriba** — 2 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Remo a un brazo con mancuerna (1-Arm DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) / Remo perro de caza con mancuerna (Bird Dog Row) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Cable%20Row)
+4. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 2 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+   - por lado = 1 serie
+   - [Video](https://www.youtube.com/watch?v=XbZgoSNJXm4)
+
+**Accesorios**
+1. **Curl nórdico (Nordic Curl)** [C1] — 1 × 5-8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 60-90 s después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
+   - Mantén este ejercicio en 5-8 repeticiones.
+   - Cambiar por: Curl femoral con deslizadores (Slider Curl) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral acostado (Lying Leg Curl) / Curl femoral sentado (Seated Leg Curl)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl)
+2. **Aperturas en polea (Cable Fly)** [C2] — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa 60-90 s después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
+   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Fly)
+3. **Elevación de pantorrillas con barra (Barbell Calf Raise)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de talones sentado (Seated Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise)
+
+### Sábado · Día opcional
+_aprox. 47 min_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
+
+**Calentamiento**
+1. 5 min de cualquier cardio
 
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) / Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold)
+   - Cambiar por: Plancha lateral en estrella (Star Side Plank) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) / Abdominal lateral (Lateral Crunch)
    - [Video](https://youtu.be/at9CMT91HrM)
-2. **Elevación rotacional de rodillas / piernas colgado (Hanging Oblique Raise)** — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Abdominal en V (V-Up) / Elevación de piernas acostado boca arriba (Lying Leg Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20rotacional%20de%20rodillas%20%2F%20piernas%20colgado%20(Hanging%20Oblique%20Raise))
-
-**Saltos, lanzamientos y velocidad**
-1. **Lagartija con salto de manos al cajón (Push-Up Box Jump)** — 2 × 8 contactos · máxima intención; para cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - cajón bajo (15-30 cm)
-   - Aterriza y congela: sostén 3 s
-   > Las manos empiezan en el piso y saltan para aterrizar sobre un cajón - la dirección contraria al aterrizaje controlado.
-   - Cambiar por: Lagartijas pliométricas (Plyo Push-Ups) / Azote simulado con balón medicinal y regreso - ejercicio de amortiguación de tronco y brazos (Fake Medball Slam)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lagartija%20con%20salto%20de%20manos%20al%20caj%C3%B3n%20(Push-Up%20Box%20Jump))
-2. **Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass)** — 1 × 10 por lado · máxima intención; para cuando baje la calidad · 45-90 s de descanso
-   - balón de 8-10 lb
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la derecha, pierna derecha al frente (Rotational Scoop) / Lanzamiento rotacional por debajo medio arrodillado, mirando a la izquierda, pierna derecha al frente (Rotational Scoop) / Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sentadilla%20a%20pase%20de%20pecho%20con%20bal%C3%B3n%20medicinal%20(Squat%20to%20Chest%20Pass))
-3. **Prueba L de tres conos (L-Drill)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta flat (Flat Route) / Ruta slant (Slant Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Prueba%20L%20de%20tres%20conos%20(L-Drill))
-
-**Potencia / levantamientos olímpicos**
-1. **Jalón de arranque desde colgado bajo (Low-Hang Snatch Pull)** — 2 × 4 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
-   - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Arranque con mancuerna a una mano (Single-Arm DB Snatch) / Jalón de arranque desde colgado medio (Mid-Hang Snatch Pull) / Arranque de potencia desde colgado bajo, debajo de la rodilla (Low-Hang Power Snatch) / Arranque de potencia desde colgado alto (High-Hang Power Snatch)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jal%C3%B3n%20de%20arranque%20desde%20colgado%20bajo%20(Low-Hang%20Snatch%20Pull))
-
-**Fuerza**
-1. **Peso muerto con dos kettlebells (Double-KB Deadlift)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Press de banca plano alterno con mancuernas (Alternating DB Bench Press)
-   - Pretemporada: menos series, más rápido y más potente
-   - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Hiperextensión a 45° (Back Extension) / Empuje de cadera o puente de glúteo (Hip Thrust / Glute Bridge)
-   - [Video](https://youtu.be/aXwilZfmDyo)
-2. **Press de banca plano alterno con mancuernas (Alternating DB Bench Press)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Peso muerto con dos kettlebells (Double-KB Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Video](https://www.youtube.com/watch?v=YUhAJt8xsFY)
-3. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)
-   - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Kickstand RDL) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) / Peso muerto en postura escalonada (Staggered-Stance Deadlift) / Puente de glúteo a una pierna con pie elevado en el banco (Single-Leg Glute Bridge)
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-4. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press de hombro alterno con mancuernas (Alternating DB Overhead Press) / Push press con mancuernas (DB Push Press) / Envión de empuje con mancuernas (DB Push Jerk) / Envión de empuje con barra (Push Jerk)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20alterno%20tipo%20balanc%C3%ADn%20con%20mancuernas%2C%20una%20arriba%20%2F%20una%20abajo%20(Seesaw%20Press))
 
 **Accesorios**
-1. **Aperturas en polea (Cable Fly)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)
-   - Cambiar por: Aperturas con mancuernas (DB Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20en%20polea%20(Cable%20Fly))
-2. **Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise)** — 1 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Aperturas en polea (Cable Fly)
-   - Cambiar por: Elevación lateral sentado con mancuernas (Seated Lateral Raise) / Remo al mentón con mancuernas (DB Upright Row) / Elevaciones laterales con mancuernas (Lateral Raise) / Remo al mentón con barra (Upright Row)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20lateral%20con%20mancuernas%2C%20palmas%20arriba%20(Supinated%20Lateral%20Raise))
-3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise) / Elevación de pantorrillas en máquina (Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20mancuernas%20(DB%20Calf%20Raise))
-
-### Viernes · S3 - olímpicos + fuerza
-_aprox. 52 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-2. **Marcha A (A March)**
-   - Cambiar por: Skip A (A Skip) / Carrera A con rodillas altas (A-Runs)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Marcha%20A%20(A%20March))
-
-**Core / abdomen**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · deja 2 en reserva (2 RIR, RPE 8) · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha en antebrazos (Plank) / Plancha lateral (Side Plank) / Abdominal corto (Crunch) / Abdominal completo (Sit-Up)
-   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Rodillas al pecho colgado (Hanging Knees to Chest)** — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 30-60 s de descanso
-   - Cambiar por: Plancha Copenhague (Copenhagen Plank) / Abdominal inverso (Reverse Crunch) / Elevación de piernas acostado boca arriba (Lying Leg Raise) / Abdominal en V (V-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rodillas%20al%20pecho%20colgado%20(Hanging%20Knees%20to%20Chest))
-
-**Saltos, lanzamientos y velocidad**
-1. **Ruta fade (Fade Route)** — 2 × 12 cortes · máxima intención; para cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Desplazamientos laterales (Lateral Shuffles) / Ruta slant (Slant Route) / Ruta post / esquina (Post Route) / Ruta dig / out (Dig Route)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ruta%20fade%20(Fade%20Route))
-
-**Fuerza**
-1. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press)
-   - Pretemporada: menos series, más rápido y más potente
-   - Cambiar por: Peso muerto rumano (RDL) / Peso muerto con una kettlebell (KB Deadlift) / Peso muerto con mancuernas (DB Deadlift) / Peso muerto con dos kettlebells (Double-KB Deadlift)
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-2. **Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Peso muerto con barra hexagonal (Trap Bar Deadlift)
-   - por lado = 1 serie
-   - Cambiar por: Press en el piso alterno con mancuernas (Alternating DB Floor Press) / Press de banca plano alterno con mancuernas (Alternating DB Bench Press) / Press de pie alterno en polea, uno adelante / uno atrás (Standing Cable Press) / Press en el piso con mancuernas (DB Floor Press)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Press%20inclinado%20alterno%20con%20mancuernas%2C%20una%20arriba%20%2F%20una%20abajo%20(Alternating%20Incline%20DB%20Press))
-3. **Zancadas caminando (Walking Lunge)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Remo a un brazo con mancuerna (1-Arm DB Row)
-   - por lado = 1 serie
-   - Cambiar por: Zancada hacia atrás (Reverse Lunge) / Sentadilla dividida estática (Split Squat) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) / Sentadilla búlgara (Bulgarian Split Squat)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Zancadas%20caminando%20(Walking%20Lunge))
-4. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 2 × 6 a 8 por lado · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Zancadas caminando (Walking Lunge)
-   - por lado = 1 serie
-   - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) / Remo foca con mancuernas, agarre supino (Seal DB Row) / Remo foca con mancuernas, agarre prono (Seal DB Row) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row)
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-5. **Dominada con peso (Weighted Pull-Up)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Extensión de piernas en máquina (Leg Extension)
-   - Cambiar por: Dominada en L (L-Sit Pull-Up) / Dominada estricta con pies atrás (Strict Pull-Up) / Dominadas supinas (Chin-Up) / Dominada con agarre abierto (Wide-Grip Pull-Up)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dominada%20con%20peso%20(Weighted%20Pull-Up))
-
-**Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 2 × 5-8 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Aperturas con mancuernas (DB Fly)
-   - Repeticiones limitadas para este ejercicio (5-8): es más difícil que su grupo.
-   - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) / Curl femoral con deslizadores (Slider Curl) / Curl femoral boca abajo con mancuerna entre los pies (Prone DB Leg Curl) / Curl femoral sentado (Seated Leg Curl)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Curl%20n%C3%B3rdico%20(Nordic%20Curl))
-2. **Aperturas con mancuernas (DB Fly)** — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Curl nórdico (Nordic Curl)
-   - Cambiar por: Aperturas en polea (Cable Fly) / Aperturas en máquina (Pec Deck)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aperturas%20con%20mancuernas%20(DB%20Fly))
-3. **Extensión de piernas en máquina (Leg Extension)** — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · descansa después del par · SUPERSERIE CON Dominada con peso (Weighted Pull-Up)
-   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) / Sentadilla sissy (Sissy Squat)
-   - [Video](https://youtu.be/m0FOpMEgero)
-4. **Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)** — 1 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
-   - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) / Elevación de pantorrillas con barra (Barbell Calf Raise) / Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrilla a una pierna en déficit (Single-Leg Calf Raise)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Elevaci%C3%B3n%20de%20pantorrillas%20de%20pie%20con%20peso%20corporal%20desde%20un%20escal%C3%B3n%20(Standing%20Calf%20Raise))
-
-### Sábado · Día opcional (opcional)
-_aprox. 42 min_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-
-**Core / abdomen**
-1. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha lateral (Side Plank) / Plancha en antebrazos (Plank) / Giro ruso con peso (Weighted Russian Twist) / Abdominal inverso (Reverse Crunch)
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Cambiar por: Elevación de talones sentado (Seated Calf Raise) / Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
 
 **Aeróbico**
-1. **Aeróbico C (naranja): carrera de 2 millas** — Naranja (C): largo / suave · 30-40 min
-   - Sirve cualquier equipo de cardio: correr, bici, remo o ski erg. Registra tiempo, calorías o distancia.
+1. **Naranja (C): largo / suave · carrera** — 30-40 min · ritmo constante: todavía puedes hablar
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aer%C3%B3bico%20C%20(naranja)%3A%20carrera%20de%202%20millas)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Aerobic%20C%20(orange)%3A%202%20Mile%20Run)
 
 ## Notas
 
-- ⚠ La proporción de trabajo a dos piernas / a una pierna sigue el plan (V28, 1)
+- ⚠ Tu mezcla de ejercicios a dos piernas / una pierna es 50% a dos piernas, frente a cerca de 20% para tu objetivo: cambia un ejercicio a dos piernas por uno a una pierna del mismo patrón si quieres igualarlo.
 
 ---
 
-_Modelo 1.2.0 · Motor 0.3.0_
+_Modelo 1.3.0 · Motor 0.4.0_
 
-No es consejo médico. Entrena dentro de tus límites.
+No es consejo médico. Úsalo bajo tu propio riesgo. Entrena dentro de tus límites. Términos completos: Aviso legal y liberación de responsabilidad. [Lee el aviso legal y la liberación de responsabilidad completos](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.es.md)
 
 Los videos se abren en YouTube y no son de Blaze Camp. Estamos creando nuestra propia biblioteca. ¿Tienes un buen video de este ejercicio? Envíalo a @BLAZECAMP en Instagram.

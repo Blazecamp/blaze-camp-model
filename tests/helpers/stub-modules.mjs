@@ -243,8 +243,9 @@ export function stairwayPlan(targets, tb, d, model) {
   for (const m of Object.keys(targets.start)) {
     if (typeof targets.start[m] !== 'number' || typeof targets.cap[m] !== 'number') continue;
     const caps = [L.planned_step_max];
-    if (targets.priority.length && !targets.priority.includes(m)) caps.push(L.nonpriority_while_priority);
-    if (d.age >= R.population.older.from_age) caps.push(L.older_60plus);
+    // v0.4 (R3-VOL-03): Focus muscles never slow the others; the 60+ planned-step cap is retired (stage A, R3)
+    if (targets.priority.length && !targets.priority.includes(m) && !(R.volume.focus && R.volume.focus.slow_others === false)) caps.push(L.nonpriority_while_priority);
+    if (d.age >= R.population.older.from_age && !L.older_cap_retired) caps.push(L.older_60plus);
     const pain = targets.pain_muscles.includes(m);
     const p = plannedStairway({ start: targets.start[m], cap: targets.cap[m] }, tb.stair_N, { early_late: stair.standard_steps, caps, freeze: pain ? R.volume.pain.freeze_weeks : 0, after_freeze: pain ? L.pain_after_freeze : null, iterations: R.stairway.lambda.iterations });
     out.lambda[m] = p.lambda; out.steps[m] = p.steps; out.T[m] = p.T;

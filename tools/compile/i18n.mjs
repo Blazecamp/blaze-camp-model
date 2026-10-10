@@ -10,6 +10,16 @@
 import { UI, SLOT_NAMES, ES_EXERCISES } from '../fixture/i18n.mjs';
 import { UI_V11, REMOVED_KEYS } from '../fixture/i18n-v11.mjs';
 import { UI_V12, V12_FINAL, plainDayLabel } from '../fixture/review-v12.mjs';
+import { UI_R3, R3_FINAL } from '../fixture/round3.mjs';
+import { UI_B2, B2_FINAL } from '../fixture/athletic-b2.mjs';
+import { UI_B3, B3_FINAL, REMOVED_B3, EXERCISE_TEXT_B3, esDayLabelB3 } from '../fixture/render-b3.mjs';
+import { UI_B4, B4_FINAL } from '../fixture/integrate-b4.mjs';
+import { UI_F1, F1_FINAL } from '../fixture/fix-r1-f1.mjs';
+import { UI_F2, F2_FINAL } from '../fixture/fix-r1-f2.mjs';
+import { UI_F3, F3_FINAL, TEXT_F3, ES_PRIORITY_F3 } from '../fixture/fix-r1-f3.mjs';
+import { UI_R2F1, R2F1_FINAL } from '../fixture/fix-r2-f1.mjs';
+import { UI_R2F2, R2F2_FINAL } from '../fixture/fix-r2-f2.mjs';
+import { UI_R2F3, R2F3_FINAL, TEXT_R2F3, ES_PRIORITY_R2F3 } from '../fixture/fix-r2-f3.mjs';
 import { PROGRAM_NAME_STRINGS } from './templates-profiles.mjs';
 import { ES_EXERCISE_NAMES } from './es/exercises.mjs';
 import { ES_CUES, ES_DAY_LABELS, ES_PROFILE_NAMES, ES_MISC } from './es/labels.mjs';
@@ -75,6 +85,16 @@ export function buildI18n({ spec, prof, families, exercises, enNames, enCues }) 
   for (const [k, [e, s]] of Object.entries(UI)) put(k, e, s, ES_SOURCE.wordlist);
   for (const [k, [e, s]] of Object.entries(UI_V11)) put(k, e, s, ES_SOURCE.wordlist);
   for (const [k, [e, s]] of Object.entries(UI_V12)) put(k, e, s, ES_SOURCE.wordlist);
+  for (const [k, [e, s]] of Object.entries(UI_R3)) put(k, e, s, ES_SOURCE.wordlist); // round-3 words (tools/fixture/round3.mjs)
+  for (const [k, [e, s]] of Object.entries(UI_B2)) put(k, e, s, ES_SOURCE.wordlist); // stage-B2 athletic words (tools/fixture/athletic-b2.mjs)
+  for (const [k, [e, s]] of Object.entries(UI_B3)) put(k, e, s, ES_SOURCE.wordlist); // stage-B3 selection / render words (tools/fixture/render-b3.mjs)
+  for (const [k, [e, s]] of Object.entries(UI_B4)) put(k, e, s, ES_SOURCE.wordlist); // stage-B4 integration words (tools/fixture/integrate-b4.mjs)
+  for (const [k, [e, s]] of Object.entries(UI_F1)) put(k, e, s, ES_SOURCE.wordlist); // fix round 1 / F1 words (tools/fixture/fix-r1-f1.mjs)
+  for (const [k, [e, s]] of Object.entries(UI_F2)) put(k, e, s, ES_SOURCE.wordlist); // fix round 1 / F2 words (tools/fixture/fix-r1-f2.mjs)
+  for (const [k, [e, s]] of Object.entries(UI_F3)) put(k, e, s, ES_SOURCE.wordlist); // fix round 1 / F3 words (tools/fixture/fix-r1-f3.mjs)
+  for (const [k, [e, s]] of Object.entries(UI_R2F1)) put(k, e, s, ES_SOURCE.wordlist); // fix round 2 / F1 words (tools/fixture/fix-r2-f1.mjs)
+  for (const [k, [e, s]] of Object.entries(UI_R2F2)) put(k, e, s, ES_SOURCE.wordlist); // fix round 2 / F2 words (tools/fixture/fix-r2-f2.mjs)
+  for (const [k, [e, s]] of Object.entries(UI_R2F3)) put(k, e, s, ES_SOURCE.wordlist); // fix round 2 / F3 words (tools/fixture/fix-r2-f3.mjs)
   for (const k of REMOVED_KEYS) { if (!(k in UI_V11)) { delete en[k]; delete es[k]; delete prov[k]; } }
   for (const [b, [e, s]] of Object.entries({ ...SLOT_NAMES, ...SLOT_NAMES_V11 })) put(`slot.${b}`, e, s, ES_SOURCE.wordlist);
   for (const [id, [e, s]] of Object.entries(PROGRAM_NAME_STRINGS)) put(`program.${id}.name`, e, s, ES_SOURCE.wordlist);
@@ -92,6 +112,17 @@ export function buildI18n({ spec, prof, families, exercises, enNames, enCues }) 
   for (const block of [spec.inputs_schema.copy_placeholders.strings, spec.output.copy.strings, spec.adaptation.copy.strings]) for (const [k, v] of Object.entries(block || {})) if (v && v.en) put(k, v.en, v.es, ES_SOURCE.spec);
   // v1.2 review strings are the newest authority: they win over the v1 spec copy too (e.g. video.note without [VIDEO_CONTACT])
   for (const k of V12_FINAL) put(k, UI_V12[k][0], UI_V12[k][1], ES_SOURCE.wordlist);
+  for (const k of R3_FINAL) put(k, UI_R3[k][0], UI_R3[k][1], ES_SOURCE.wordlist); // round-3 strings win over the v1 spec copy
+  for (const k of B2_FINAL) put(k, UI_B2[k][0], UI_B2[k][1], ES_SOURCE.wordlist); // stage-B2 strings win too
+  for (const k of B3_FINAL) put(k, UI_B3[k][0], UI_B3[k][1], ES_SOURCE.wordlist); // stage-B3 strings win too
+  for (const k of B4_FINAL) put(k, UI_B4[k][0], UI_B4[k][1], ES_SOURCE.wordlist); // stage-B4 strings win too
+  for (const k of F1_FINAL) put(k, UI_F1[k][0], UI_F1[k][1], ES_SOURCE.wordlist); // fix round 1 / F1 strings win too
+  for (const k of F2_FINAL) put(k, UI_F2[k][0], UI_F2[k][1], ES_SOURCE.wordlist); // fix round 1 / F2 strings win too
+  for (const k of F3_FINAL) put(k, UI_F3[k][0], UI_F3[k][1], ES_SOURCE.wordlist); // fix round 1 / F3 strings win too
+  for (const k of R2F1_FINAL) put(k, UI_R2F1[k][0], UI_R2F1[k][1], ES_SOURCE.wordlist); // fix round 2 / F1 strings win too
+  for (const k of R2F2_FINAL) put(k, UI_R2F2[k][0], UI_R2F2[k][1], ES_SOURCE.wordlist); // fix round 2 / F2 strings win too
+  for (const k of R2F3_FINAL) put(k, UI_R2F3[k][0], UI_R2F3[k][1], ES_SOURCE.wordlist); // fix round 2 / F3 strings win too
+  for (const k of REMOVED_B3) { delete en[k]; delete es[k]; delete prov[k]; } // check-in words retired (R3-VOL-02)
   for (const [q, k] of Object.entries(spec.adaptation.checkin_schema.i18n_keys)) put(k, spec.adaptation.checkin_schema.labels[q].en, spec.adaptation.checkin_schema.labels[q].es, ES_SOURCE.spec);
   // profiles, sports, positions, activities (EN + ES from 04 v1.1)
   for (const p of prof.profiles) { put(`profile.${p.id}.name`, clean(`profile.${p.id}.name`, p.name), p.name_es || undefined, ES_SOURCE.profiles04); for (const v of (p.variants || [])) put(`profile.${v.id}.name`, clean(`profile.${v.id}.name`, v.name || v.id), v.name_es || undefined, ES_SOURCE.profiles04); }
@@ -107,6 +138,8 @@ export function buildI18n({ spec, prof, families, exercises, enNames, enCues }) 
   for (const [k, v] of Object.entries(enCues)) en[k] = clean(k, v);
   const esEx = { ...ES_EXERCISES, ...ES_EXERCISES_V11 };
   for (const ex of exercises) if (esEx[ex.id]) { es[ex.name_key] = esEx[ex.id]; prov[ex.name_key] = ES_SOURCE.wordlist; }
+  // stage-B3 names / cues (render-b3.mjs): coach-to-coach notes out of cues, 'tirón' for Olympic pulls, no 'pájaros'
+  for (const [k, [e, s]] of Object.entries(EXERCISE_TEXT_B3)) if (k in en) { if (e) en[k] = e; if (s) { es[k] = s; prov[k] = ES_SOURCE.wordlist; } }
 
   // ---- B1 machine translation of every EN line still without ES (R2-GEN-08, D-45)
   const machine = [];
@@ -124,7 +157,11 @@ export function buildI18n({ spec, prof, families, exercises, enNames, enCues }) 
     es[k] = s; prov[k] = ES_SOURCE.b1; machine.push(k);
   }
   // v1.2: plain client-facing day titles (jargon stays in why[])
-  for (const k of Object.keys(en)) if (/^day\./.test(k)) { en[k] = plainDayLabel(en[k], 'en'); if (k in es) es[k] = plainDayLabel(es[k], 'es'); }
+  for (const k of Object.keys(en)) if (/^day\./.test(k)) { en[k] = plainDayLabel(en[k], 'en'); if (k in es) es[k] = esDayLabelB3(plainDayLabel(es[k], 'es')); }
+  // fix round 1 / F3 names (fix-r1-f3.mjs): the same rewrite as the reference build, after the day labels
+  for (const [k, [e, s]] of Object.entries(TEXT_F3)) if (k in en) { if (e) en[k] = e; if (s) { es[k] = s; prov[k] = ES_SOURCE.wordlist; } }
+  // fix round 2 / F3 names / cues (fix-r2-f3.mjs): coach-only notes out of the client text, neutral Spanish (R2-GEN-08)
+  for (const [k, [e, s]] of Object.entries(TEXT_R2F3)) if (k in en) { if (e) en[k] = e; if (s) { es[k] = s; prov[k] = ES_SOURCE.wordlist; } }
   const missing = Object.keys(en).filter(k => k !== '_meta' && !(k in es)).sort();
   // stale table rows (translations whose EN text no longer exists) - reported so the tables stay tidy
   const enValues = new Set(Object.values(en).filter(v => typeof v === 'string'));
@@ -141,7 +178,8 @@ export function buildI18n({ spec, prof, families, exercises, enNames, enCues }) 
   return {
     en: sortKeys(en),
     es: sortKeys(es),
-    es_review: { missing_keys: missing, machine_translated: machine.sort() },
+    // F3: the ES lines the coach should review first (RECHECK 03 / 05 minors; additive field, CONTRACTS §3.6)
+    es_review: { missing_keys: missing, machine_translated: machine.sort(), priority_review: [...new Set([...ES_PRIORITY_F3, ...ES_PRIORITY_R2F3])].filter(k => k in es).sort() },
     provenance: prov,
     cleaned_en: cleaned.sort((a, b) => (a.key < b.key ? -1 : 1)),
     stats: { en_keys: Object.keys(en).length - 1, es_keys: Object.keys(es).length - 1, es_missing: missing.length, es_machine_translated: machine.length, es_by_source: sortKeys(bySource), machine_translated_by_namespace: sortKeys(byNamespace), unused_translation_rows: unused },

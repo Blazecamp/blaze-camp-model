@@ -25,7 +25,8 @@ test('resolveArgs turns ids into words (weekday, muscle, exercise, area, key-val
   assert.equal(a.version, 'release.client');
   assert.equal(a.n, 3);
   assert.equal(resolveArgs({ muscles: ['quads', 'chest'] }, model, 'en').muscles, 'Quads, Chest');
-  assert.equal(resolveArgs({ day: 'Thu' }, model, 'es').day, model.t('es', 'weekday.Thu'));
+  // v0.4 B3 (R2-GEN-08): a weekday inside a Spanish sentence is lower case ('el jueves'); headings keep 'Jueves'
+  assert.equal(resolveArgs({ day: 'Thu' }, model, 'es').day, model.t('es', 'weekday.Thu').toLowerCase());
 });
 
 test('levelText: "Intermediate (L2): 2 years of consistent training" (PRG-05)', () => {
@@ -45,10 +46,10 @@ test('changesText: words, never percentages (VOL-06)', () => {
   assert.equal(changesText(plan, 99, model, 'en').length, 0);
 });
 
-test('stairText: the week as an effort level, whole numbers without a decimal (v1.2, review 08 minor 16: never "a 8.0")', () => {
-  assert.equal(stairText(plan, 1, model, 'en'), 'Effort level this week: 2 (2 = start, 11 = a little past your limits)');
+test('stairText: the week as a stairway level, whole numbers without a decimal (v1.2, review 08 minor 16: never "a 8.0"; B3 RECHECK 02 minor: "Week level", never "Effort level" next to an RIR)', () => {
+  assert.equal(stairText(plan, 1, model, 'en'), 'Week level: 2 of 11 (2 = the start, 11 = a little past your limits)');
   assert.match(stairText(plan, 2, model, 'en'), /5\.4/);
-  assert.match(stairText(plan, 3, model, 'es'), /: 11 \(/);
+  assert.match(stairText(plan, 3, model, 'es'), /: 11 de 11 \(/);
   assert.ok(!/ a (8|11)/.test(stairText(plan, 3, model, 'en')));
   assert.equal(stairText(plan, 42, model, 'en'), '');
 });

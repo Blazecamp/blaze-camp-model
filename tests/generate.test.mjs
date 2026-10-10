@@ -1,8 +1,9 @@
-// tests/generate.test.mjs - engine/generate.mjs (CONTRACTS §4.12, §5): pipeline, plan/2 assembly, refer / invalid plans,
-// adapt. Runs against the contract-shaped stubs always and against the real B2 / B3 modules when they exist. Owner: B4.
+// tests/generate.test.mjs - engine/generate.mjs (CONTRACTS §4.12, §5): pipeline, plan/2 assembly, refer / invalid plans.
+// v0.4 (R3-VOL-02 / R3-VOL-04): check-ins and adapt() are retired - the plan is the planned stairway only. Runs against the contract-shaped stubs always and against the real B2 / B3 modules when they exist. Owner: B4.
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
-import { generateWith, generate, adapt, adaptWith, checkinRow, realModulesStatus, REQUIRED_DEPS, ENGINE_VERSION } from '../engine/generate.mjs';
+import * as GEN from '../engine/generate.mjs';
+import { generateWith, generate, realModulesStatus, REQUIRED_DEPS, ENGINE_VERSION } from '../engine/generate.mjs';
 import { STUB_DEPS } from './helpers/stub-modules.mjs';
 import { loadFixtureModel, allSamples, loadSample } from './helpers/models.mjs';
 
@@ -10,14 +11,14 @@ const model = loadFixtureModel();
 const REAL = realModulesStatus().ready;
 
 const KEYS = {
-  top: ['schema', 'status', 'model_version', 'engine_version', 'contracts_version', 'seed', 'intake_hash', 'lang', 'units', 'release_stamp', 'refer', 'errors', 'offers', 'meta', 'shape', 'weeks', 'summary', 'validation'],
+  top: ['schema', 'status', 'model_version', 'engine_version', 'contracts_version', 'seed', 'intake_hash', 'lang', 'units', 'release_stamp', 'refer', 'errors', 'offers', 'time_check', 'meta', 'shape', 'weeks', 'summary', 'validation'],
   meta: ['program_id', 'program_name_key', 'goal', 'family', 'format', 'profile', 'level', 'season', 'plan_mode', 'skeleton', 'weeks', 'start_date', 'days_per_week', 'session_minutes', 'weekdays', 'play_days', 'template', 'kit', 'constraint_band', 'targets', 'stairway', 'share_targets', 'athletic', 'aerobic', 'tests', 'health', 'older_opt_in', 'after_plan', 'instruction_keys', 'locked_rule_keys', 'input_audit', 'warnings', 'r3_pending', 'derived', 'why'],
   shape: ['mode', 'skeleton', 'weeks_total', 'open_ended', 'training_blocks', 'exercise_blocks', 'level_by_week'],
-  week: ['n', 'training_block', 'block_type', 'exercise_block', 'stair_week', 'stair_level', 'phase', 'phase_key', 'planned_rir', 'season_phase', 'rep_phase', 'plyo_stage', 'test', 'circuit', 'step_by_muscle', 'target_by_muscle', 'weekly_sets_by_muscle', 'direct_sets_by_muscle', 'main_sets_by_muscle', 'total_main_sets', 'group_counts_by_day', 'total_resistance_sets', 'rise_vs_prev', 'athletic_budget', 'aerobic_sessions', 'changes', 'why', 'days'],
-  day: ['weekday', 'day_type', 'kind', 'optional', 'label_key', 'full_body', 'format', 'est_minutes', 'aerobic_minutes', 'minutes_limit', 'supersets_on', 'groups', 'why', 'blocks'],
-  block: ['kind', 'position', 'movable', 'circuit', 'items'],
-  item: ['slot_id', 'station_id', 'bucket', 'role', 'origin', 'group', 'exercise_id', 'name_key', 'detail', 'text_key', 'cue_key', 'video', 'sets', 'reps', 'set_reps', 'effort', 'rest', 'load', 'tempo_key', 'superset', 'laterality', 'loading', 'credits', 'athletic', 'aerobic', 'circuit', 'wod', 'test', 'notes', 'swaps', 'flags', 'why'],
-  summary: ['total_resistance_sets_by_week', 'max_weekly_rise', 'planned_steps_max', 'stair_levels', 'sets_by_muscle_by_week', 'target_by_muscle_by_week', 'myo_equivalent_sets_by_week', 'shortfalls']
+  week: ['n', 'training_block', 'block_type', 'exercise_block', 'stair_week', 'stair_level', 'phase', 'phase_key', 'planned_rir', 'season_phase', 'rep_phase', 'plyo_stage', 'test', 'circuit', 'step_by_muscle', 'target_by_muscle', 'weekly_sets_by_muscle', 'direct_sets_by_muscle', 'main_sets_by_muscle', 'weekly_sets_by_line', 'weekly_sets_by_group', 'main_sets_by_group', 'not_trained_directly', 'total_main_sets', 'group_counts_by_day', 'total_resistance_sets', 'rise_vs_prev', 'athletic_budget', 'aerobic_sessions', 'changes', 'why', 'days'],
+  day: ['weekday', 'day_type', 'kind', 'optional', 'label_key', 'full_body', 'format', 'est_minutes', 'aerobic_minutes', 'minutes_limit', 'supersets_on', 'supersets_needed', 'superset_recommendations', 'toggle_blocks', 'toggle_items', 'groups', 'why', 'blocks'],
+  block: ['kind', 'position', 'movable', 'circuit', 'items', 'id', 'toggle', 'removable'],
+  item: ['slot_id', 'station_id', 'bucket', 'role', 'origin', 'group', 'exercise_id', 'name_key', 'detail', 'text_key', 'cue_key', 'video', 'sets', 'reps', 'set_reps', 'effort', 'rest', 'load', 'tempo_key', 'superset', 'laterality', 'loading', 'credits', 'athletic', 'aerobic', 'circuit', 'wod', 'test', 'notes', 'swaps', 'flags', 'why', 'superset_suggested'],
+  summary: ['total_resistance_sets_by_week', 'max_weekly_rise', 'planned_steps_max', 'stair_levels', 'sets_by_muscle_by_week', 'sets_by_line_by_week', 'sets_by_group_by_week', 'target_by_muscle_by_week', 'myo_equivalent_sets_by_week', 'shortfalls']
 };
 
 function assertPlanShape(p) {
@@ -68,8 +69,13 @@ describe('generateWith (stub modules)', () => {
       // so v1.2's H21 'stairway_flat' / 'total_flat' rules and V27 fire on it by design; every other error check must pass
       // (the real modules are held to H21 and V27 below)
       const failing = p.validation.checks.filter(c => !c.pass && c.severity === 'error');
-      assert.deepEqual(failing.filter(c => !['H21', 'V27'].includes(c.id)).map(c => c.id), []);
-      for (const c of failing.filter(c => c.id === 'H21')) assert.ok(c.violations.every(v => ['stairway_flat', 'total_flat', 'circuit_flat'].includes(v.args && v.args.rule)), JSON.stringify(c.violations[0]));
+      // v0.4: the stub places every template station with no time fit, athlete cap or circuit rebalance (engine/volume.mjs,
+      // week.mjs), so V13 'athlete_cap' and V18 'rear_delt_weekly' may fire on it too; the real modules are held to all of them
+      assert.deepEqual(failing.filter(c => !['H21', 'V27', 'V13', 'V18'].includes(c.id)).map(c => c.id), []);
+      for (const c of failing.filter(c => c.id === 'V13')) assert.ok(c.violations.every(v => v.args && v.args.rule === 'athlete_cap'), JSON.stringify(c.violations[0]));
+      for (const c of failing.filter(c => c.id === 'V18')) assert.ok(c.violations.every(v => v.args && v.args.rule === 'rear_delt_weekly'), JSON.stringify(c.violations[0]));
+      // (fix round 2 / F1, E-136: the flat stub also trips the main-day readings of H21)
+      for (const c of failing.filter(c => c.id === 'H21')) assert.ok(c.violations.every(v => ['stairway_flat', 'total_flat', 'circuit_flat', 'main_days_flat', 'total_hold', 'flat_second_half_main_days', 'group_hold_main_days'].includes(v.args && v.args.rule)), JSON.stringify(c.violations[0]));
       assert.equal(deepFind(p, v => v === undefined), null);
       assert.deepEqual(p.meta.instruction_keys, ['instruction.title', 'instruction.1', 'instruction.2', 'instruction.3', 'instruction.4', 'instruction.5']);
       assert.equal(p.meta.locked_rule_keys.length, model.rules.locked.length);
@@ -142,54 +148,13 @@ describe('generateWith (stub modules)', () => {
     assert.deepEqual(Object.keys(p.meta), ['health', 'instruction_keys']);
   });
 
-  test('adapt(plan, []) is byte-identical to generate (H22)', () => {
+  test('check-ins are retired (R3-VOL-02 / R3-VOL-04): no adapt export, a check-in output mode plans the same weeks and says so', () => {
+    for (const k of ['adapt', 'adaptWith', 'checkinRow']) assert.equal(GEN[k], undefined, k + ' is retired');
     const intake = loadSample('08');
     const a = generateWith(STUB_DEPS, intake, model);
-    assert.equal(JSON.stringify(adaptWith(STUB_DEPS, a, [], intake, model)), JSON.stringify(a));
-  });
-});
-
-describe('adapt with check-ins (Phase 0, R2-VOL-01 / R2-VOL-03)', () => {
-  const ci = (week, efforts, done = efforts.map(() => true), extra = {}) => ({ schema: 'checkin/2', week, sessions: efforts.map((e, i) => ({ weekday: ['Mon', 'Wed', 'Fri'][i], done: done[i], effort: done[i] ? e : null })), felt: [], pain_now: [], results: [], block_action: null, ...extra });
-
-  test('checkinRow follows rules.stairway.checkin.order (repeat, ten, pain, hard, easy, on target)', () => {
-    assert.equal(checkinRow(ci(2, [8, 8, 8], [true, false, false]), model), 'repeat');
-    assert.equal(checkinRow(ci(2, [7, 10, 8]), model), 'ten');
-    assert.equal(checkinRow(ci(2, [8, 8, 8], undefined, { felt: [{ slot_id: 'Mon.S1.s09', value: 'pain' }] }), model), 'pain');
-    assert.equal(checkinRow(ci(2, [9, 9, 8]), model), 'hard');
-    assert.equal(checkinRow(ci(2, [5, 6, 6]), model), 'easy');
-    assert.equal(checkinRow(ci(2, [7, 8, 8]), model), 'on_target');
-  });
-
-  test('plan-only intakes ignore check-ins (no check-in = no change, H22)', () => {
-    const intake = loadSample('01');
-    const base = generateWith(STUB_DEPS, intake, model);
-    assert.equal(JSON.stringify(adaptWith(STUB_DEPS, base, [ci(3, [9, 9, 9])], intake, model)), JSON.stringify(base));
-  });
-
-  test('a hard week holds the stairway one week; two holds in a row offer to stop the block (never an automatic deload)', () => {
-    const intake = { ...loadSample('01'), output_mode: 'checkin' };
-    const base = generateWith(STUB_DEPS, intake, model);
-    const one = adaptWith(STUB_DEPS, base, [ci(3, [9, 9, 9])], intake, model);
-    assert.equal(one.status, 'ok');
-    assert.deepEqual(one.weeks[3].target_by_muscle, base.weeks[2].target_by_muscle, 'week 4 repeats week 3');
-    assert.ok(Object.values(one.weeks[3].step_by_muscle).every(s => s === 0));
-    assert.deepEqual(one.weeks[3].changes, [{ key: 'changes.hold' }]);
-    assert.deepEqual(one.weeks[4].target_by_muscle, base.weeks[3].target_by_muscle, 'the stairway continues one week later');
-    assert.deepEqual(one.offers, []);
-    assert.equal(one.weeks.length, base.weeks.length);
-    assert.equal(one.validation.checks.find(c => c.id === 'H22').pass, true);
-    assert.equal(one.validation.checks.find(c => c.id === 'H15').pass, true);
-    const two = adaptWith(STUB_DEPS, base, [ci(3, [9, 9, 9]), ci(4, [10, 9, 9])], intake, model);
-    assert.deepEqual(two.offers, [{ key: 'block.cannot_finish', week: 4 }]);
-    assert.ok(!two.weeks.some(w => w.block_type !== 'stairway'), 'no deload inserted');
-  });
-
-  test('easy and on-target weeks keep the planned stairway', () => {
-    const intake = { ...loadSample('01'), output_mode: 'checkin' };
-    const base = generateWith(STUB_DEPS, intake, model);
-    const p = adaptWith(STUB_DEPS, base, [ci(2, [7, 8, 7])], intake, model);
-    assert.deepEqual(p.weeks.map(w => w.target_by_muscle), base.weeks.map(w => w.target_by_muscle));
+    const b = generateWith(STUB_DEPS, { ...intake, output_mode: 'checkin' }, model);
+    assert.equal(JSON.stringify(b.weeks), JSON.stringify(a.weeks), 'the planned stairway is the same');
+    assert.ok(!(b.offers || []).some(o => o.key === 'block.cannot_finish'));
   });
 });
 
@@ -233,23 +198,30 @@ describe('generate (real B2 / B3 modules)', { skip: REAL ? false : 'B2 / B3 modu
     assert.deepEqual(p.weeks[0].days.filter(d => d.kind === 'play').map(d => d.weekday), ['Wed', 'Sat', 'Sun']);
   });
 
-  test('adapt(plan, []) is byte-identical to generate (H22)', () => {
+  test('check-ins are retired: a check-in output mode is planned as plan-only and the client is told (R3-VOL-02)', () => {
     const intake = loadSample('02');
-    const p = generate(intake, model);
-    assert.equal(JSON.stringify(adapt(p, [], intake, model)), JSON.stringify(p));
+    const a = generate(intake, model);
+    const b = generate({ ...intake, output_mode: 'checkin' }, model);
+    assert.equal(JSON.stringify(b.weeks), JSON.stringify(a.weeks));
+    assert.ok(b.meta.warnings.some(w => w.key === 'warning.checkin_retired'));
+    assert.ok(!a.meta.warnings.some(w => w.key === 'warning.checkin_retired'));
+    assert.equal(b.validation.checks.find(c => c.id === 'H22').pass, true);
   });
 
-  // integration step (contracts/1.1.1)
-  test('07 PPL: the chest priority cannot reach 26-30 in 6 x 75 min -> its start is sized to the minutes and the client is told (D-67, v1.2)', () => {
+  // v0.4 (R3-SES-02): the time check replaces D-67's lowered starts - when 6 x 75 min cannot hold the full stairway the client is
+  // warned up front, offered more time, and the kept-time plan still trains every group and climbs (never a flat stairway)
+  test('07 PPL: the time check warns up front, keeps the 75 min with a lower peak, every group trained and climbing (R3-SES-02)', () => {
     const p = generate(loadSample('07'), model);
-    // v1.2 (review 07 blocker): the stairway is sized to the minutes first, so the plan climbs; a muscle whose peak does not
-    // fit starts lower and is named (warning.start_lowered + offer.lower_start), never a silent flat stairway
-    const w = p.meta.warnings.find(x => x.key === 'warning.start_lowered') || p.meta.warnings.find(x => x.key === 'warning.stairway_time');
-    assert.ok(w, JSON.stringify(p.meta.warnings));
-    assert.ok(w.args.muscles.includes('chest'));
-    assert.ok(p.offers.some(o => o.key === 'offer.lower_start' && o.chosen));
-    const chest = p.weeks.map(x => x.main_sets_by_muscle.chest);
-    assert.ok(chest[chest.length - 1] > chest[0], 'the chest priority climbs');
+    assert.ok(p.meta.warnings.some(w => w.key === 'warning.time_check'), JSON.stringify(p.meta.warnings));
+    assert.ok(p.offers.some(o => o.key.startsWith('offer.keep_time') && o.chosen));
+    assert.equal(p.time_check.fits, false);
+    assert.equal(p.time_check.kept_time, true);
+    assert.deepEqual(p.time_check.not_trained_directly, []);
+    assert.ok(p.time_check.lowered_peak.includes('chest'));
+    for (const l of ['chest', 'lats_upper_back']) {
+      const s = p.summary.sets_by_line_by_week[l];
+      assert.ok(s[s.length - 1] > s[0], l + ' (Focus) climbs');
+    }
   });
 
   test('volume and week share one time model: est_minutes per day == week.estimateMinutes of the planned sets', () => {
@@ -261,9 +233,9 @@ describe('generate (real B2 / B3 modules)', { skip: REAL ? false : 'B2 / B3 modu
     const swim = generate(loadSample('01'), model);   // no priorities: every Focus slot is engine-placed volume
     const notes = swim.weeks.flatMap(w => w.days.flatMap(d => d.blocks.flatMap(b => b.items.filter(it => it.bucket === 'FOCUS').flatMap(it => it.notes.map(n => n.key)))));
     assert.ok(notes.length && !notes.includes('note.focus') && notes.includes('note.focus_added'));
-    const aes = generate(loadSample('06'), model);    // priorities glutes + side delts
+    const aes = generate(loadSample('06'), model);    // Focus glutes + side delts (shoulders line, R3-VOL-01; side delts steer the pick)
     const prio = aes.weeks[0].days.flatMap(d => d.blocks.flatMap(b => b.items.filter(it => it.bucket === 'FOCUS' && it.notes.some(n => n.key === 'note.focus'))));
-    assert.ok(prio.length && prio.every(it => ['glutes', 'side_delts'].includes(model.ex(it.exercise_id).primary_muscle)));
+    assert.ok(prio.length && prio.every(it => ['glutes', 'side_delts', 'rear_delts'].includes(model.ex(it.exercise_id).primary_muscle)));
   });
 
   test('an under-60 older opt-in gets its own warning, never the 60+ rule text', () => {

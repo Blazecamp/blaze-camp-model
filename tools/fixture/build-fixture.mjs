@@ -11,7 +11,17 @@ import { buildRules } from './rules.mjs';
 import { BUCKETS, normTemplate, normSport, normPicker, GOALS, PROGRAM_NAMES, PROGRAM_NAME_STRINGS } from './templates-profiles.mjs';
 import { UI, SLOT_NAMES, ES_EXERCISES } from './i18n.mjs';
 import { UI_V11, REMOVED_KEYS } from './i18n-v11.mjs';
-import { amendExercise, amendRules, amendTemplates, amendSport, UI_V12, V12_FINAL, REVIEW_VERSION, plainDayLabel } from './review-v12.mjs';
+import { amendExercise, amendRules, amendTemplates, amendSport, UI_V12, V12_FINAL, plainDayLabel } from './review-v12.mjs';
+import { amendRulesR3, UI_R3, R3_FINAL, R3_VERSION } from './round3.mjs';
+import { amendExerciseB2, amendSportB2, amendRulesB2, amendTemplatesB2, amendProgramNamesB2, UI_B2, B2_FINAL } from './athletic-b2.mjs';
+import { amendExerciseB3, amendRulesB3, UI_B3, B3_FINAL, REMOVED_B3, EXERCISE_TEXT_B3, esDayLabelB3 } from './render-b3.mjs';
+import { amendRulesB4, UI_B4, B4_FINAL } from './integrate-b4.mjs';
+import { amendRulesF1, UI_F1, F1_FINAL } from './fix-r1-f1.mjs';
+import { amendRulesF2, amendSportF2, UI_F2, F2_FINAL } from './fix-r1-f2.mjs';
+import { amendRulesF3, amendExerciseF3, UI_F3, F3_FINAL, TEXT_F3 } from './fix-r1-f3.mjs';
+import { amendRulesR2F1, amendTemplatesR2F1, UI_R2F1, R2F1_FINAL } from './fix-r2-f1.mjs';
+import { amendRulesR2F2, amendSportR2F2, amendExerciseR2F2, UI_R2F2, R2F2_FINAL } from './fix-r2-f2.mjs';
+import { amendRulesR2F3, amendExerciseR2F3, UI_R2F3, R2F3_FINAL, TEXT_R2F3 } from './fix-r2-f3.mjs';
 
 const spec = readJSON(path.join(BASE, 'generator_spec_v1.json'));
 const cat = readJSON(path.join(SYN, '02_exercise_catalog.json'));
@@ -41,7 +51,7 @@ for (const r of cat) {
   if (!isActive(r)) { dropped.push({ source_id: r.id, reason: r.record_type === 'exercise' || r.record_type === 'drill' ? 'not_eligible' : r.record_type }); continue; }
   const ex0 = normalizeExercise(r);
   if (!ex0) { dropped.push({ source_id: r.id, reason: 'band_only', rule: 'EQ-01' }); continue; }
-  const ex = amendExercise(ex0); // v1.2 review amendments (review-v12.mjs)
+  const ex = amendExerciseR2F3(amendExerciseR2F2(amendExerciseF3(amendExerciseB3(amendExerciseB2(amendExercise(ex0)))))); // (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ F3, fix-r1-f3.mjs) // v1.2 review amendments (review-v12.mjs), the B2 athletic amendments (athletic-b2.mjs), then B3 (render-b3.mjs)
   exercises.push(ex);
   if (ex.id !== ex.source_id) aliases[ex.source_id] = ex.id;
   enNames[ex.name_key] = cleanName(r);
@@ -56,19 +66,21 @@ for (const [fam, src] of Object.entries(tpl.generator_split_templates)) {
   for (const d of ['2', '3', '4', '5', '6']) if (src[d]) families[fam].days[d] = normTemplate(fam, d, src[d]);
 }
 { const amended = amendTemplates(families); for (const k of Object.keys(families)) families[k] = amended[k]; }
+{ const b2 = amendTemplatesB2(families); for (const k of Object.keys(families)) families[k] = b2[k]; } // R3-ATH-03 HYROX variant (athletic-b2.mjs)
+{ const r2 = amendTemplatesR2F1(families); for (const k of Object.keys(families)) families[k] = r2[k]; } // fix round 2 / F1: athletic.3 cross pattern (fix-r2-f1.mjs)
 const templates = {
   schema: 'templates/2',
   buckets: BUCKETS,
   goal_to_family: { muscle: 'aesthetics', strength: 'strength', athletic: 'athletic', active: 'athletic', fat_loss: 'fat_loss_bootcamp', general: 'fat_loss_bootcamp', hybrid: 'hybrid_crossfit' },
   kit_family_override: { profiles: ['BODYWEIGHT', 'FIELD_TRACK_NO_KIT'], family: 'no_equipment', except_goals: ['athletic', 'active'] },
   families,
-  program_names: PROGRAM_NAMES
+  program_names: amendProgramNamesB2(PROGRAM_NAMES)
 };
 
 // ---------------------------------------------------------------- profiles (all 127 + picker + activities)
 const classEnd = { 1: 0.75, 2: 0.6, 3: 0.5, 4: 0.4, 5: 0.25 };
 const sports = {};
-for (const p of prof.profiles.slice().sort((a, b) => (a.id < b.id ? -1 : 1))) sports[p.id] = amendSport(normSport(p, classEnd), p);
+for (const p of prof.profiles.slice().sort((a, b) => (a.id < b.id ? -1 : 1))) sports[p.id] = amendSportR2F2(amendSportF2(amendSportB2(amendSport(normSport(p, classEnd), p), p), p)); // (+ fix round 2 / F2: pre-season speed and power) // (+ F2: Olympic ceiling, reactive COD)
 const picker = normPicker(prof);
 const profiles = {
   schema: 'profiles/2',
@@ -88,6 +100,16 @@ const put = (k, e, s) => { en[k] = e; if (s !== undefined && s !== null) es[k] =
 for (const [k, [e, s]] of Object.entries(UI)) put(k, e, s);
 for (const [k, [e, s]] of Object.entries(UI_V11)) put(k, e, s);
 for (const [k, [e, s]] of Object.entries(UI_V12)) put(k, e, s);
+for (const [k, [e, s]] of Object.entries(UI_R3)) put(k, e, s); // round-3 words (tools/fixture/round3.mjs)
+for (const [k, [e, s]] of Object.entries(UI_B2)) put(k, e, s); // stage-B2 athletic words (tools/fixture/athletic-b2.mjs)
+for (const [k, [e, s]] of Object.entries(UI_B3)) put(k, e, s); // stage-B3 selection / render words (tools/fixture/render-b3.mjs)
+for (const [k, [e, s]] of Object.entries(UI_B4)) put(k, e, s); // stage-B4 integration words (tools/fixture/integrate-b4.mjs)
+for (const [k, [e, s]] of Object.entries(UI_F1)) put(k, e, s); // fix round 1 / F1 words (tools/fixture/fix-r1-f1.mjs)
+for (const [k, [e, s]] of Object.entries(UI_F2)) put(k, e, s); // fix round 1 / F2 words (tools/fixture/fix-r1-f2.mjs)
+for (const [k, [e, s]] of Object.entries(UI_F3)) put(k, e, s); // fix round 1 / F3 words (tools/fixture/fix-r1-f3.mjs)
+for (const [k, [e, s]] of Object.entries(UI_R2F1)) put(k, e, s); // fix round 2 / F1 words (tools/fixture/fix-r2-f1.mjs)
+for (const [k, [e, s]] of Object.entries(UI_R2F2)) put(k, e, s); // fix round 2 / F2 words (tools/fixture/fix-r2-f2.mjs)
+for (const [k, [e, s]] of Object.entries(UI_R2F3)) put(k, e, s); // fix round 2 / F3 words (tools/fixture/fix-r2-f3.mjs)
 for (const k of REMOVED_KEYS) { if (!(k in UI_V11)) { delete en[k]; delete es[k]; } }
 for (const [b, [e, s]] of Object.entries({ ...SLOT_NAMES, ...SLOT_NAMES_V11 })) put(`slot.${b}`, e, s);
 for (const [id, [e, s]] of Object.entries(PROGRAM_NAME_STRINGS)) put(`program.${id}.name`, e, s);
@@ -104,6 +126,17 @@ for (const f of Object.values(spec.inputs_schema.fields)) {
 // copy placeholders (health, release, warnings, video, effort, block prompts) - LEGAL REVIEW where marked
 for (const block of [spec.inputs_schema.copy_placeholders.strings, spec.output.copy.strings, spec.adaptation.copy.strings]) for (const [k, v] of Object.entries(block || {})) if (v && v.en) put(k, v.en, v.es);
 for (const k of V12_FINAL) put(k, UI_V12[k][0], UI_V12[k][1]); // v1.2 review strings win over the v1 spec copy
+for (const k of R3_FINAL) put(k, UI_R3[k][0], UI_R3[k][1]); // round-3 strings win over the v1 spec copy
+for (const k of B2_FINAL) put(k, UI_B2[k][0], UI_B2[k][1]); // stage-B2 strings win too
+for (const k of B3_FINAL) put(k, UI_B3[k][0], UI_B3[k][1]); // stage-B3 strings win too
+for (const k of B4_FINAL) put(k, UI_B4[k][0], UI_B4[k][1]); // stage-B4 strings win too
+for (const k of F1_FINAL) put(k, UI_F1[k][0], UI_F1[k][1]); // fix round 1 / F1 strings win too
+for (const k of F2_FINAL) put(k, UI_F2[k][0], UI_F2[k][1]); // fix round 1 / F2 strings win too
+for (const k of F3_FINAL) put(k, UI_F3[k][0], UI_F3[k][1]); // fix round 1 / F3 strings win too
+for (const k of R2F1_FINAL) put(k, UI_R2F1[k][0], UI_R2F1[k][1]); // fix round 2 / F1 strings win too
+for (const k of R2F2_FINAL) put(k, UI_R2F2[k][0], UI_R2F2[k][1]); // fix round 2 / F2 strings win too
+for (const k of R2F3_FINAL) put(k, UI_R2F3[k][0], UI_R2F3[k][1]); // fix round 2 / F3 strings win too
+for (const k of REMOVED_B3) { delete en[k]; delete es[k]; } // check-in words retired (R3-VOL-02)
 for (const [q, k] of Object.entries(spec.adaptation.checkin_schema.i18n_keys)) put(k, spec.adaptation.checkin_schema.labels[q].en, spec.adaptation.checkin_schema.labels[q].es);
 // profiles, sports, positions, activities (EN + ES from 04 v1.1)
 for (const p of prof.profiles) { put(`profile.${p.id}.name`, p.name, p.name_es || undefined); for (const v of (p.variants || [])) put(`profile.${v.id}.name`, v.name || v.id, v.name_es || undefined); }
@@ -118,10 +151,14 @@ for (const a of prof.activities.list) put(`activity.${a.id}.name`, a.en, a.es);
 Object.assign(en, enNames, enCues);
 const esEx = { ...ES_EXERCISES, ...ES_EXERCISES_V11 };
 for (const ex of exercises) if (esEx[ex.id]) es[ex.name_key] = esEx[ex.id];
+for (const [k, [e, s]] of Object.entries(EXERCISE_TEXT_B3)) if (k in en) { if (e) en[k] = e; if (s) es[k] = s; } // stage-B3 names / cues (render-b3.mjs)
+for (const k of Object.keys(es)) if (/^day\./.test(k)) es[k] = esDayLabelB3(es[k]); // a generic 'pull' is a 'tirón' (B3)
+for (const [k, [e, s]] of Object.entries(TEXT_F3)) if (k in en) { if (e) en[k] = e; if (s) es[k] = s; } // fix round 1 / F3 names (fix-r1-f3.mjs)
+for (const [k, [e, s]] of Object.entries(TEXT_R2F3)) if (k in en) { if (e) en[k] = e; if (s) es[k] = s; } // fix round 2 / F3 names / cues (fix-r2-f3.mjs)
 const sortObj = (o) => Object.fromEntries(Object.entries(o).sort(([a], [b]) => (a === '_meta' ? -1 : b === '_meta' ? 1 : a < b ? -1 : a > b ? 1 : 0)));
 const esMissing = Object.keys(en).filter(k => k !== '_meta' && !(k in es)).sort();
 
-const rules = amendRules(buildRules(eqm));
+const rules = amendRulesR2F3(amendRulesR2F2(amendRulesR2F1(amendRulesF3(amendRulesF2(amendRulesF1(amendRulesB4(amendRulesB3(amendRulesB2(amendRulesR3(amendRules(buildRules(eqm)))))))))))); // (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ fix round 2 / F1, fix-r2-f1.mjs) // (+ fix round 1 / F1, F2, F3) v1.2 review amendments, the round-3 answers, stage B2 (athletic), stage B3 (selection / render), then stage B4 (integration)
 const templateCount = Object.values(families).reduce((n, f) => n + Object.keys(f.days).length, 0);
 const model = {
   _fixture: {
@@ -133,14 +170,14 @@ const model = {
   },
   manifest: {
     schema: 'manifest/2',
-    model_version: REVIEW_VERSION + '-fixture',
+    model_version: R3_VERSION + '-fixture',
     spec_version: spec._meta.version,
     contracts_version: '1.1.0',
     files: { catalog: 'catalog.json', rules: 'rules.json', templates: 'templates.json', profiles: 'profiles.json', i18n: { en: 'i18n/en.json', es: 'i18n/es.json', es_review: 'i18n/es_review.json' } },
     languages: ['en', 'es'], default_lang: 'en',
     counts: { exercises: exercises.length, templates: templateCount, profiles: Object.keys(sports).length, sports_in_picker: picker.sports.length, activities: picker.activities.length }
   },
-  catalog: { schema: 'catalog/2', model_version: REVIEW_VERSION + '-fixture', id_aliases: Object.fromEntries(Object.entries(aliases).sort()), exercises },
+  catalog: { schema: 'catalog/2', model_version: R3_VERSION + '-fixture', id_aliases: Object.fromEntries(Object.entries(aliases).sort()), exercises },
   rules,
   templates,
   profiles,

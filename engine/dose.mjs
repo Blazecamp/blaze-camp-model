@@ -6,7 +6,8 @@
 // test items, WOD / skill / circuit / aerobic doses and notes. Pure: no I/O, no clock, no randomness.
 import { why, EPS, clamp, roundHalfUp } from './util.mjs';
 import { daySlots } from './week.mjs';
-import { blockProgress, stayActiveOlympic, perSetFor, budgetKeyOf } from './budget.mjs';
+import { blockProgress, stayActiveOlympic } from './budget.mjs';
+import { athleticKeyOf, perSetBounds, cueKeyFor, responseOf, sprintMetres, rampProgress, throwSided } from './athletic.mjs';
 
 const COMPOUND_RC = ['main_bilateral_compound', 'machine_stable_compound', 'unilateral_compound'];
 const ISOLATION_RC = ['big_muscle_isolation', 'small_muscle_isolation', 'rear_delts', 'calves'];
@@ -28,7 +29,10 @@ export function repClassFor(slot, exercise, model) {
   const b = model.bucket(slot.bucket);
   if (b.kind === 'prehab') return 'prehab';
   let rc = b.rep_class;
-  if (b.rep_class_by_variant && slot.variant && b.rep_class_by_variant[slot.variant]) rc = b.rep_class_by_variant[slot.variant];
+  // F3: a delt station's reps follow the exercise it holds (a side raise in a rear-delt station, select's delt variants, R3-VOL-01)
+  let variant = slot.variant;
+  if (exercise && b.muscle_by_variant) { const cv = { ISO_SIDE: 'side', ISO_REAR: 'rear', FACEPULL: 'rear', ISO_FRONT: 'front' }[exercise.credit_class]; if (cv) variant = cv; }
+  if (b.rep_class_by_variant && variant && b.rep_class_by_variant[variant]) rc = b.rep_class_by_variant[variant];
   if (!exercise) return rc === 'by_exercise' ? 'small_muscle_isolation' : rc;
   if (rc === 'by_exercise' || rc == null) rc = classFromExercise(exercise, model);
   if (['ISO_REAR', 'FACEPULL'].includes(exercise.credit_class) && b.kind !== 'resistance') rc = 'rear_delts';
@@ -89,6 +93,19 @@ function shiftBracket(R, id, shift) {
 
 function isUni(ex) { return !!ex && (ex.laterality === 'unilateral' || ex.laterality === 'alternating'); }
 
+// B3: a record with no load in any of its set-ups (push-ups, table rows, sissy squats, body-weight calf raises)
+const LOAD_TOKENS = ['barbell', 'dumbbell', 'kettlebell', 'cable', 'machine_selectorized', 'machine_plate_loaded', 'hex_bar', 'ez_bar', 'medball', 'weight_plate', 'sandbag', 'landmine', 'smith', 'slam_ball', 'sled'];
+function isBodyweightRecord(ex) {
+  return !!ex && !ex.equipment.machine && !ex.equipment.any_of.some((su) => su.some((t) => LOAD_TOKENS.includes(t)));
+}
+/** v0.4 fix round 2 / F3 (EQ-09; RECHECK v0.4 04 / 05 minors: 'Week 1: pick a weight' on an inverted row, an offset push-up and a ball
+ *  hamstring curl): a lift whose load is the body - a bar, a plate or a ball in its set-up is a prop, not the load
+ *  (rules.effort.bodyweight_moved_re) */
+function isBodyweightMoved(ex, R) {
+  const re = R.effort && R.effort.bodyweight_moved_re;
+  return !!ex && !!re && new RegExp(re).test(ex.id) && !/weighted|loaded/.test(ex.id);
+}
+
 function stairProgress(week) {
   if (week && week.stair_level != null) return clamp((week.stair_level - 2) / 9, 0, 1);
   return 1; // flat blocks hold the top of the range
@@ -119,6 +136,14 @@ function exerciseBlockWeek(input) {
   return w.is_exercise_block_start === false ? 2 : 1; // flat blocks: INFERRED (no week index in WeekShape)
 }
 
+/** the length in weeks of a stairway week's exercise block (rules.stairway.exercise_blocks_by_N), or null */
+function exerciseBlockLength(week, model) {
+  const N = week && (week.stair_N || inferN(week, model));
+  const ranges = N && model.rules.stairway.exercise_blocks_by_N && model.rules.stairway.exercise_blocks_by_N[String(N)];
+  const r = ranges && week.stair_week != null ? ranges.find((x) => week.stair_week >= x[0] && week.stair_week <= x[1]) : null;
+  return r ? r[1] - r[0] + 1 : null;
+}
+
 function exerciseBlockIndex(input) {
   if (input.exercise_block_index != null) return input.exercise_block_index;
   const w = input.week || {};
@@ -131,6 +156,7 @@ function stairN(input) {
 }
 
 function rirArg(min, max) { return min === max ? String(min) : `${min}-${max}`; }
+
 
 /** the exercise's own rep range from its catalog rep hint ('3-8', '4-6 each leg', '5-10 contacts'), or null */
 export function repHintRange(ex) {
@@ -147,7 +173,7 @@ export function repHintRange(ex) {
  * loaded and 'weighted' body-weight lifts (Nordic curls, weighted pull-ups / dips, L-sit pull-ups) never get 12-15 or 15-20:
  * the range moves to the nearest end of the hint (rules.reps.rep_hint). Returns {min, max, capped} or null (no change).
  */
-function capToHint(range, ex, R) {
+function capToHint(range, ex, R, opts = {}) {
   const H = R.reps.rep_hint;
   if (!H || !H.honour || !range || range.min == null) return null;
   let hint = (H.ids_low_cap && H.ids_low_cap[ex.id]) || null;
@@ -156,17 +182,30 @@ function capToHint(range, ex, R) {
   if (!hint && (bwPull || /l-sit/.test(ex.id))) hint = H.bodyweight_vertical_pull;
   if (!hint) {
     const h = repHintRange(ex);
-    // only a hint clearly below the bracket caps it (eccentric / skill-limited work); a wide hint leaves the bracket alone
-    if (h && h[1] < range.min) hint = h;
+    // only a hint clearly below the bracket caps it (eccentric / skill-limited work); a wide hint leaves the bracket alone.
+    // v0.4 fix round 1 / F3 (RECHECK 02 minor: front squat 7-10 in block 1, then 8-12 in block 2 under 'Reps capped (7-10)'): a heavy
+    // two-legged compound whose own range tops out low (rules.reps.rep_hint.cap_max_compound_lte, e.g. 5-10) keeps its top in every block
+    const CM = H.cap_max_compound_lte;
+    if (h && (h[1] < range.min || (typeof CM === 'number' && opts && opts.compound && h[1] <= CM && h[1] < range.max))) hint = h;
   }
   if (!hint) return null;
   if (range.min >= hint[0] && range.max <= hint[1]) return null;
   const width = Math.max(2, range.max - range.min);
-  if (range.min > hint[1]) return { min: Math.max(hint[0], hint[1] - width), max: hint[1], capped: true };
+  // v0.4 fix round 2 / F3 (E-191; COACH-ANSWER PER-11 'VOL 1 -> 2 -> 3 gets heavier by block'; RECHECK v0.4 01 minor: a hex-bar deadlift at
+  // 7-10, then 8-10, then 6-8 - the second block no heavier than the first): a capped lift takes the top three reps of its own range
+  // in the first phase and one step down in the second when that still sits above the third phase's range
+  // (rules.reps.rep_hint.monotone_cap), so the low end never rises from one exercise block to the next
+  const MC = H.monotone_cap ? H.monotone_cap : null;
+  if (range.min > hint[1]) return { min: Math.max(hint[0], hint[1] - (MC ? MC.span : width)), max: hint[1], capped: true };
   if (range.max < hint[0]) return { min: hint[0], max: Math.min(hint[1], hint[0] + width), capped: true };
   let lo = Math.min(Math.max(range.min, hint[0]), hint[1]);
-  const hi = Math.max(Math.min(range.max, hint[1]), lo);
+  let hi = Math.max(Math.min(range.max, hint[1]), lo);
   if (hi - lo < 2) lo = Math.max(hint[0], hi - 3); // never a degenerate '8-8' range (review 01 minor 20)
+  if (MC && opts.phase_index === 1 && hi === hint[1] && range.max > hint[1]) {
+    const top = Math.max(hint[0], hint[1] - MC.span);
+    if (top - MC.step >= (MC.floor_min || 0) && top - MC.step >= hint[0]) { lo = top - MC.step; hi = hint[1] - MC.step; }
+    else { lo = top; hi = hint[1]; }
+  }
   return { min: lo, max: hi, capped: true };
 }
 
@@ -327,7 +366,13 @@ export function doseItem(input) {
     d.notes.push({ key: 'note.pain_swap', args: { area: (w && w.args && w.args.area) || 'other' } });
   }
   if (fill && fill.flags && fill.flags.includes('older_opt_in')) d.notes.push({ key: 'note.older_opt_in' });
+  // COACH-R3 R3-ATH-02 (approved, stage B2): from 60, fast machine work - move the weight up fast, lower it with control
+  const OLD = R.population.older;
+  if (OLD && OLD.default_on && OLD.default_on.fast_machine_intent && (derived.age || 0) >= OLD.from_age && ['resistance', 'isolation', 'focus'].includes(b.kind) &&
+      (exercise.equipment.machine || exercise.tags.includes('machine') || exercise.tags.includes('cable')) && !slot.test) d.notes.push({ key: OLD.fast_intent_note || 'note.fast_machine_intent' });
   if (slot.origin === 'bonus') d.notes.push({ key: 'note.bonus' });
+  // v0.4 fix round 1 / F3 (RECHECK 01 / 08: a kept pattern station read 'Extra exercise to reach your weekly sets' or nothing): what it is
+  else if (slot.origin === 'pattern_kept' && model.has('en', 'note.pattern_kept')) d.notes.push({ key: 'note.pattern_kept' });
   else if (b.kind === 'focus' || slot.origin === 'focus_added') {
     // "Focus slot for your priority muscle" only when the slot's muscle is one of the person's priorities (ORD-11);
     // otherwise the Focus slot carries sets the stairway needs (VOL-07 placement): note.focus_added (integration fix)
@@ -364,9 +409,12 @@ function resistanceDose(input, rc, eb) {
   // class model (CrossFit-style class, HALF TIME table OT17 / OT18): the work lift climbs 3x7 -> 3x6 -> 3x5 -> 3x4 by the stair
   // level, resistance 2x10 -> 3x10 (review 04 major 2)
   const CL = R.reps.class_levels;
+  // v0.4 fix round 1 / F3 (OBSERVED class split: STRENGTH = squat / press / deadlift, Friday = clean; RECHECK 04 minor: a Yates row run
+  // on the class strength table, 3 x 7 -> 4 x 4 at 1 RIR, the day after the deadlift): the strength table is the class lifts' only
+  const classLift = slot.role === 'work' && (!CL || !Array.isArray(CL.strength_buckets) || CL.strength_buckets.includes((input.fill && input.fill.bucket) || slot.bucket));
   if (CL && derived.D1_family === 'hybrid_crossfit' && COMPOUND_RC.includes(rc)) {
     const p = blockProgress(week);
-    if (slot.role === 'work') {
+    if (classLift) {
       const step = CL.strength[clamp(Math.floor(p * CL.strength.length - EPS), 0, CL.strength.length - 1)];
       fixedReps = step.reps;
       whys.push(why('why.class_level', 'OT18'));
@@ -412,8 +460,11 @@ function resistanceDose(input, rc, eb) {
   const pref = R.reps.preference[derived.lift_style] || {};
   const firstLift = isFirstMainCompound(day, slot, model);
   const pyr = R.reps.pyramid;
+  // B3 (RECHECK 07 major: the bench flipped to the 12/10/8 -20 pyramid the week it got its 4th set): the pyramid is decided for the
+  // whole exercise block (the slot's sets in the block's first week, `input.block_first_sets`) and never for powerlifting-style clients
+  const pyrSets = pyr.decide && typeof input.block_first_sets === 'number' ? input.block_first_sets : sets;
   const pyramidOk = column === 'hypertrophy' && rc === 'main_bilateral_compound' && firstLift && (LEVEL_RANK[lvl] || 1) >= (LEVEL_RANK[pyr.min_level] || 2) &&
-    sets >= pyr.when_sets_gte && week.block_type === 'stairway';
+    pyrSets >= pyr.when_sets_gte && week.block_type === 'stairway' && !(pyr.never_lift_styles || []).includes(derived.lift_style);
   if (pref.big_compound_shift && ['main_bilateral_compound', 'machine_stable_compound'].includes(rc)) {
     bracket = shiftBracket(R, bracket, pref.big_compound_shift); whys.push(why('why.reps_preference', 'VOL-12'));
   }
@@ -423,18 +474,48 @@ function resistanceDose(input, rc, eb) {
     bracket = shiftBracket(R, bracket, pref.first_lift_of_day_shift); shifted = true; whys.push(why('why.reps_preference', 'VOL-12'));
   }
   let reps = fixedReps !== null ? { type: perSide ? 'per_side' : 'fixed', ...(perSide ? { min: fixedReps, max: fixedReps } : { value: fixedReps }) } : bracketSpec(R, bracket, perSide);
-  // the exercise's own rep ceiling (rep hint): Nordics 3-8, weighted pull-ups / dips 4-8, body-weight pull-ups 5-10 (review 02 / 06 / 07)
-  if (reps && reps.min != null) {
-    const cap = capToHint(reps, ex, R);
+  // the exercise's own rep ceiling (rep hint): Nordics 3-8, weighted pull-ups / dips 4-8, body-weight pull-ups 5-10 (review 02 / 06 / 07);
+  // B3 (RECHECK 04 major: a weighted pull-up at the class model's fixed 10 reps): fixed reps meet the ceiling too
+  const repsForCap = reps && reps.type === 'fixed' ? { min: reps.value, max: reps.value } : reps;
+  if (repsForCap && repsForCap.min != null) {
+    // (F3: the athletes' VOL phases move the bracket block by block, so their heavy compounds keep the hint's top in every block)
+    const phaseIdx = vp && week.rep_phase ? ['VOL1', 'VOL2', 'VOL3'].indexOf(week.rep_phase) : -1;
+    const cap = capToHint(repsForCap, ex, R, { compound: !!vp && rc === 'main_bilateral_compound' && ex.laterality === 'bilateral' && ex.exercise_class === 'compound', phase_index: phaseIdx });
     if (cap) {
       reps = perSide ? { type: 'per_side', min: cap.min, max: cap.max } : { type: 'range', min: cap.min, max: cap.max };
       notes.push({ key: 'note.rep_cap', args: { min: cap.min, max: cap.max } });
       whys.push(why('why.rep_cap', 'VOL-11'));
     }
   }
+  // v0.4 fix round 2 / F3 (E-190; COACH-ANSWER UNI-04 'unilateral: moderate-to-high reps by default, heavy low reps optional'; BRAIN B10 / T6;
+  // RECHECK v0.4 02 minor: single-leg and single-arm lifts at 6-8 per side at 1 RIR in the hardest block with prefs.heavy_unilateral
+  // off): a one-side or alternating compound never runs under rules.reps.unilateral_floor.min reps per side unless the client switched
+  // heavy single-leg work on
+  const UF = R.reps.unilateral_floor || null;
+  if (UF && perSide && COMPOUND_RC.includes(rc) && fixedReps === null && reps && reps.type === 'per_side' && reps.min < UF.min && !(derived.prefs && derived.prefs[UF.unless_pref])) {
+    reps = { type: 'per_side', min: UF.min, max: Math.max(reps.max, UF.top_at_least) };
+    for (let i = notes.length - 1; i >= 0; i--) if (notes[i].key === 'note.rep_cap') notes.splice(i, 1);
+    whys.push(why('why.unilateral_floor', 'UNI-04', { min: UF.min }));
+  }
+  // E-191 (BRAIN 7.3 'athletic accessory hinge 8-12'; RECHECK v0.4 01 minor: a loaded 45-degree back extension - picked as the low-back-
+  // friendly hinge - driven to a 6-8RM at 1 RIR): a back extension / reverse hyper never runs under its rep floor
+  for (const rf of R.reps.rep_floor_ids || []) {
+    if (!new RegExp(rf.re).test(ex.id) || fixedReps !== null || !reps || reps.min == null || reps.min >= rf.min) continue;
+    reps = { ...reps, min: rf.min, max: Math.max(reps.max, rf.top_at_least) };
+    delete reps.bracket;
+    for (let i = notes.length - 1; i >= 0; i--) if (notes[i].key === 'note.rep_cap') notes.splice(i, 1);
+    whys.push(why('why.rep_floor', 'VOL-11', { min: rf.min }));
+  }
   if (perSide) { notes.push({ key: 'note.per_side' }); if (!whys.some((w) => w.key === 'why.unilateral_reps')) whys.push(why('why.unilateral_reps', 'UNI-01')); }
-  // body-weight pulls: regress (assisted machine, ring / TRX row) when the reps are out of reach (GEN-04, EQ-09; review 01 minor)
-  if (ex.credit_class === 'VPULL' && /pull-up|chin-up/.test(ex.id) && !/assisted|weighted/.test(ex.id)) notes.push({ key: 'note.bodyweight_regress' });
+  // body-weight pulls: regress (assisted machine, ring / TRX row) when the reps are out of reach (GEN-04, EQ-09; review 01 minor);
+  // B3: never on a record that is already the regression (feet-supported, RECHECK 01 minor), and only the kit's own regression
+  // (no assisted machine without machines, RECHECK 04 minor)
+  const assistedRe = R.selection.assisted_id_re ? new RegExp(R.selection.assisted_id_re) : /assisted/;
+  if (ex.credit_class === 'VPULL' && /pull-up|chin-up/.test(ex.id) && !/weighted/.test(ex.id) && !assistedRe.test(ex.id)) {
+    const kitD = derived.D8_kit || { tokens: [], machines: [] };
+    const machine = (kitD.machines || []).includes('assisted_pullup') || (kitD.tokens || []).includes('machine_selectorized');
+    notes.push({ key: machine || !model.has('en', 'note.bodyweight_regress_no_machine') ? 'note.bodyweight_regress' : 'note.bodyweight_regress_no_machine' });
+  }
   let setReps = null;
   if (pyramidOk) { // 12/10/8 then a light 20 (PRG-07)
     const heavy = pyr.sets.slice(0, -1);
@@ -458,41 +539,115 @@ function resistanceDose(input, rc, eb) {
     const rirOk = !week.planned_rir || (week.planned_rir.min <= 2 && week.planned_rir.max <= 2);
     const phaseOk = (!M.phases || M.phases.includes(week.phase) || rirOk) && rirOk;
     const lastOk = !M.only_last_small_item || position.is_last_small;
-    if ((maxLast || (slot.role === 'nuance' && derived.D1_family === 'strength')) && stair && !never && M.allowed_rep_classes.includes(rc) && phaseOk && lastOk) {
-      effort.last_set = 'max'; whys.push(why('why.max_last', 'VOL-13'));
-    }
-    // MYO: the day's last machine or isolation exercise (H02, VOL-15); a machine compound qualifies (matrix myo_if_last),
-    // free-weight compounds never
+    // B3 (COACH-R3 R3-VOL-04 'to 1 + intensifiers in the last week, always inside your 1-3'; RECHECK 01 / 02 / 04 / 06 / 07 / 08):
+    // the intensifiers live in the last stairway week only - one per training day, a MYO set on the day's last small-muscle or
+    // machine isolation exercise; never a MAX set before it, never a glute bridge / thrust or a free-weight compound, never calves
+    // for an Achilles hot spot
+    const IN = R.effort.intensifiers || null;
     const machineOk = rc === 'machine_stable_compound' && !!cell.myo_if_last;
-    const myoOk = stair && (!never || machineOk) && position.is_last_resistance && (ISOLATION_RC.includes(rc) || ex.constraint >= 4) &&
-      !R.effort.myo.never_in_block_types.includes(week.block_type) && (week.is_last_stair_week || (at_cap && week.phase === 'HARDEST'));
-    if (myoOk) { effort.last_set = 'myo'; whys.push(why('why.myo_last', 'VOL-15')); }
+    if (IN) {
+      effort.intensifier = false;
+      const lastWeek = stair && !!(week.planned_rir && week.planned_rir.intensifiers) && !R.effort.myo.never_in_block_types.includes(week.block_type);
+      // v0.4 fix round 1 / F3 (COACH-R3 R3-VOL-04 '1 + intensifiers in the last week'; VOL-15 'MYO on the last machine / isolation
+      // exercise'; RECHECK 06 / 08 minors: Tue / Thu and both pickleball days had none because their last item was a glute bridge or
+      // an Achilles-protected calf raise): the day's last ELIGIBLE item carries it (generate passes position.is_last_intensifier)
+      const lastOk = typeof position.is_last_intensifier === 'boolean' ? position.is_last_intensifier : position.is_last_resistance;
+      const eligible = lastWeek && lastOk && intensifierEligibleRc(rc, ex, cell, derived, model);
+      if (eligible) { effort.last_set = IN.kind || 'myo'; effort.intensifier = true; whys.push(why('why.myo_last', 'VOL-15'), why('why.intensifier_last_week', 'R3-VOL-04')); }
+    } else {
+      if ((maxLast || (slot.role === 'nuance' && derived.D1_family === 'strength')) && stair && !never && M.allowed_rep_classes.includes(rc) && phaseOk && lastOk) {
+        effort.last_set = 'max'; whys.push(why('why.max_last', 'VOL-13'));
+      }
+      // MYO: the day's last machine or isolation exercise (H02, VOL-15); a machine compound qualifies (matrix myo_if_last),
+      // free-weight compounds never
+      const myoOk = stair && (!never || machineOk) && position.is_last_resistance && (ISOLATION_RC.includes(rc) || ex.constraint >= 4) &&
+        !R.effort.myo.never_in_block_types.includes(week.block_type) && (week.is_last_stair_week || (at_cap && week.phase === 'HARDEST'));
+      if (myoOk) { effort.last_set = 'myo'; whys.push(why('why.myo_last', 'VOL-15')); }
+    }
     whys.push(why('why.planned_rir', 'R2-PER-05', { rir: rirArg(effort.min, effort.max) }));
-    if (effort.intensifier) whys.push(why('why.intensifier_last_week', 'R2-PER-05'));
+    if (effort.intensifier && !IN) whys.push(why('why.intensifier_last_week', 'R2-PER-05'));
   }
   // rest (VOL-14): strength rest for the work lift on a main bilateral compound, any heavy (<= 8) shifted bracket and tests
   let rest;
   const strengthRest = (R.rest.strength_for || []);
   const heavyWork = (strengthRest.includes('work_main_bilateral') && slot.role === 'work' && rc === 'main_bilateral_compound' && reps && reps.max != null && reps.max <= 8) ||
     (strengthRest.includes('reps_max_lte_8_shifted') && shifted && reps && reps.max != null && reps.max <= 8) ||
-    (derived.D1_family === 'hybrid_crossfit' && slot.role === 'work');
-  if (position.superset_active) rest = { type: 'after_pair' };
+    (derived.D1_family === 'hybrid_crossfit' && slot.role === 'work' && classLift);
+  // B3 (RECHECK 02 / 04 minors: a supersetted work lift lost its 3-6 min rest): a pair that holds the work lift rests the strength
+  // minutes after the pair
+  if (position.superset_active && R.rest.pair_with_work_lift === 'strength' && (heavyWork || (reps && reps.max != null && reps.max <= 6))) rest = { type: 'after_pair', min: R.rest.strength_s[0], max: R.rest.strength_s[1] };
+  // v0.4 fix round 1 / F3 (VOL-14 'rest stated for every set'; RECHECK 02 / 06 minors: 'rest after the pair' with no time): a pair rests
+  // in numbers - the item's own class rest (the render prints the longest of the pair)
+  else if (position.superset_active && R.rest.after_pair_numbers) rest = ISOLATION_RC.includes(rc) ? { type: 'after_pair', min: R.rest.isolation_s[0], max: R.rest.isolation_s[1] } : { type: 'after_pair', min: R.rest.hypertrophy_s[0], max: R.rest.hypertrophy_s[1] };
+  else if (position.superset_active) rest = { type: 'after_pair' };
   else if (ISOLATION_RC.includes(rc)) rest = { type: 'seconds', min: R.rest.isolation_s[0], max: R.rest.isolation_s[1] };
   else if ((reps && reps.max != null && reps.max <= 6) || heavyWork) rest = { type: 'seconds', min: R.rest.strength_s[0], max: R.rest.strength_s[1] };
   else rest = { type: 'seconds', min: R.rest.hypertrophy_s[0], max: R.rest.hypertrophy_s[1] };
+  // v0.4 fix round 2 / F3 (E-192; COACH-ANSWER VOL-14 'hypertrophy 1-2 (to 3) min, strength 3-6 min'; RECHECK v0.4 02 minor: a 6-8-rep bench at
+  // 1-2 RIR rested 60-120 s next to a front squat at 3-6 min): a two-arm / two-leg compound at 8 reps or fewer and 2 in the tank or
+  // fewer that does not already take the strength rest takes the top of the hypertrophy band, 2-3 min (rules.rest.heavy_compound)
+  const HC = R.rest.heavy_compound || null;
+  if (HC && !perSide && HC.rep_classes.includes(rc) && reps && reps.max != null && reps.max <= HC.max_reps && effort && effort.type === 'rir' && effort.max <= HC.max_rir &&
+      rest && typeof rest.max === 'number' && rest.max < HC.s[1]) rest = { ...rest, min: HC.s[0], max: HC.s[1], heavy: true };
   whys.push(why('why.rest', 'VOL-14'));
   // load: week-1 tip on main compounds of a stairway's first week (R2-GEN-06); never on body-weight lifts (review 04 minor)
   let load = null;
   const bodyweightLift = ex.equipment.any_of.some((su) => su.every((t) => ['pullup_bar', 'dip_bars', 'rings', 'trx', 'floor', 'bench', 'box', 'step_low', 'wall'].includes(t))) && !ex.equipment.any_of.some((su) => su.some((t) => ['barbell', 'dumbbell', 'kettlebell', 'cable', 'machine_selectorized', 'machine_plate_loaded', 'hex_bar'].includes(t)));
-  if (COMPOUND_RC.includes(rc) && week.block_type === 'stairway' && week.stair_week === 1 && model.bucket(eb).kind === 'resistance' && !bodyweightLift && !slot.test) {
-    load = { type: 'week1_tip' };
+  const bwMoved = isBodyweightMoved(ex, R);
+  // v0.4 fix round 2 / F3 (E-187; COACH-R2 R2-GEN-06 'RIR plus a week-1 weight tip'; RECHECK v0.4 02 minor: 'Stationary Lunge (Split Squat)'
+  // and 'Step-Up' as a 230-lb L3's lifts with no implement and no loading word): a trained lifter's lower-body lift whose record
+  // names no implement says what to hold, and takes the week-1 tip like any loaded lift
+  const IMPN = R.effort.implement_note || null;
+  const lvlI = (derived.D3_client_level && derived.D3_client_level.level) || 'L1';
+  const holdNote = !!IMPN && COMPOUND_RC.includes(rc) && model.bucket(eb).kind === 'resistance' && !slot.test && !bwMoved && IMPN.levels.includes(lvlI) && IMPN.classes.includes(ex.credit_class) &&
+    isBodyweightRecord(ex) && ex.load_ceiling !== 'low' && ex.equipment.any_of.every((su) => su.every((t) => IMPN.prop_tokens.includes(t))) && model.has('en', IMPN.key);
+  if (COMPOUND_RC.includes(rc) && week.block_type === 'stairway' && week.stair_week === 1 && model.bucket(eb).kind === 'resistance' && (!bodyweightLift || holdNote) && !bwMoved && !slot.test) {
+    // (RECHECK v0.4 05 / 08 minors: 'a weight you could lift 2-3 more times' next to '3 in the tank') the tip names the week's own effort
+    const pr = week.planned_rir || null;
+    load = pr ? { type: 'week1_tip', rir: pr.max } : { type: 'week1_tip' };
     notes.push({ key: R.effort.week1_tip_key });
   }
+  if (holdNote) notes.push({ key: IMPN.key });
   if (ex.medball) load = medballLoad(ex, derived, R);
   if (ex.tags.includes('fixed_grip') && (derived.pain || []).some((p) => ['shoulder', 'elbow', 'wrist_hand'].includes(p.area))) notes.push({ key: 'note.split_grip' });
   if (slot.bucket === 'ISO_CALF' && slot.calf_index === 1) notes.push({ key: 'note.second_calf_sets', args: { n: sets, total: (position.calf_sets_today || sets) } });
   notes.push(...blockNotes(week, slot));
   return mk({ reps, set_reps: setReps, effort, rest, load, notes, why: whys });
+}
+
+/** can this item carry the last week's intensifier (a MYO set): an isolation / machine exercise, not a free-weight compound, not a
+ *  glute bridge / thrust, not calves for an Achilles hot spot (E-53; F3 export for generate's 'last eligible item of the day') */
+function intensifierEligibleRc(rc, ex, cell, derived, model) {
+  const R = model.rules;
+  const IN = R.effort.intensifiers || null;
+  if (!IN || !ex) return false;
+  const never = R.effort.never_failure_rep_classes.includes(rc);
+  const machineOk = rc === 'machine_stable_compound' && !!(cell && cell.myo_if_last);
+  const hot = new Set(((derived.D2_profile && derived.D2_profile.id && model.hasSport && model.hasSport(derived.D2_profile.id)) ? model.sport(derived.D2_profile.id).injuries || [] : []));
+  const calvesHot = ex.credit_class === 'ISO_CALF' && (IN.never_calves_hotspots || []).some((c) => hot.has(c));
+  // v0.4 fix round 2 / F3 (E-193; COACH-ANSWER VOL-15 'myo only last, on machines / isolation'; OBSERVED BYOP 'MYO SET' on the leg extension;
+  // RECHECK v0.4 02 minor: a MYO set on a barbell calf raise with the bar on the back, right after heavy RDLs): never on a barbell or
+  // axial-high lift, a Nordic curl or a sissy squat (rules.effort.intensifiers.never_tags / never_id_re; validate reads the same lists)
+  const tagNo = (IN.never_tags || []).some((t) => (ex.tags || []).includes(t));
+  const idNo = !!IN.never_id_re && new RegExp(IN.never_id_re).test(ex.id);
+  return (ISOLATION_RC.includes(rc) || ex.constraint >= 4) && (!never || machineOk) && !(IN.never_credit_classes || []).includes(ex.credit_class) && !calvesHot && !tagNo && !idNo;
+}
+
+/**
+ * Whether a resistance item could carry the last week's intensifier (generate marks the day's last such item; v0.4 fix round 1 / F3).
+ * @param {object} slot @param {object|null} fill @param {object|null} exercise @param {object} derived @param {object} model @returns {boolean}
+ */
+export function intensifierEligible(slot, fill, exercise, derived, model) {
+  if (!exercise || slot.test || slot.role === 'prehab') return false;
+  let b;
+  try { b = model.bucket((fill && fill.bucket) || slot.bucket); } catch { return false; }
+  if (!['resistance', 'isolation', 'focus'].includes(b.kind) && slot.origin !== 'bonus') return false;
+  const rc = repClassFor({ ...slot, bucket: (fill && fill.bucket) || slot.bucket }, exercise, model);
+  if (!COMPOUND_RC.includes(rc) && !ISOLATION_RC.includes(rc)) return false;
+  const R = model.rules;
+  const column = R.reps.goal_column[derived.goal] || 'general';
+  const cell = (R.reps.matrix[rc] && R.reps.matrix[rc][column]) || (R.reps.matrix[rc] && R.reps.matrix[rc].general) || {};
+  return intensifierEligibleRc(rc, exercise, cell, derived, model);
 }
 
 /** implement class of an Olympic / power record for its rep scheme and its words (bar / dumbbell / kettlebell) */
@@ -568,6 +723,13 @@ function olympicDose(input) {
   const kitTokens = new Set((derived.D8_kit && derived.D8_kit.tokens) || []);
   if (ex.tags.includes('barbell') && !kitTokens.has('barbell_bumpers_platform')) notes.push({ key: 'note.olympic_no_bumpers' });
   if (fill && fill.flags && fill.flags.includes('older_opt_in')) notes.push({ key: 'note.older_opt_in' });
+  // v0.4 fix round 1 / F3 (UNI-01 '10/10 = 1 set'; RECHECK 01 minor: 'Single-Arm DB Snatch - 2 x 8 Reps' with no 'per side'): a one-arm
+  // Olympic lift is written per side
+  if (isUni(ex) && reps && (reps.type === 'fixed' || reps.type === 'range')) {
+    const lo = reps.type === 'fixed' ? reps.value : reps.min, hi = reps.type === 'fixed' ? reps.value : reps.max;
+    reps = { type: 'per_side', min: lo, max: hi };
+    notes.push({ key: 'note.per_side' });
+  }
   const per = reps.type === 'fixed' ? reps.value : reps.min;
   whys.push(why('why.olympic_level', 'ATH-10'));
   // power language (R2-GEN-06): no percentages in Phase 0 (D-29)
@@ -577,15 +739,6 @@ function olympicDose(input) {
     athletic: { unit: 'reps', per_set: per, total: (sets || 0) * per, stage: null, quality: ath.quality || 'olympic' },
     notes: [...notes, ...blockNotes(week, slot)], why: whys
   });
-}
-
-/** the week's athletic target and the sets of the stations that feed it (generate passes athletic.stations_sets) */
-function reconcileTarget(input, key) {
-  const a = input.athletic;
-  if (!a || !a.targets || !key) return { target: null, sets: 0 };
-  const t = a.targets[key];
-  const n = a.stations_sets ? a.stations_sets[key] : 0;
-  return { target: typeof t === 'number' ? t : null, sets: n || 0 };
 }
 
 /** box height from the record itself (EQ-16: 'half-shin' / 'low' = low, 'medium' / 'knee' = medium, 'high' = high); null when
@@ -599,70 +752,80 @@ function boxHeightOf(ex) {
   return ex.equipment.any_of.some((su) => su.includes('step_low')) ? 'low' : 'medium';
 }
 
+/** the athletic stairway's dose for this slot (generate passes athletic.slot_plan from athletic.planAthletic; stage B2) */
+function planFor(input) {
+  const a = input.athletic;
+  const p = a && a.slot_plan ? a.slot_plan[input.slot.slot_id] : null;
+  return p && typeof p.per_set === 'number' ? p : null;
+}
+
 function plyoDose(input, eb) {
-  const { slot, exercise: ex, sets, week, day, derived, athletic, model } = input;
+  const { slot, exercise: ex, sets, week, day, derived, athletic, model, fill } = input;
   const R = model.rules;
   const ath = ex.athletic || {};
   const stage = week.plyo_stage || R.athletic.stages.start_stage;
-  // a drill below the week's stage (e.g. a stick-the-landing drill in RC3) keeps its own stage's contacts
-  const drillStage = ath.rc_stage_default && RC_RANK[ath.rc_stage_default] < RC_RANK[stage] ? ath.rc_stage_default : stage;
-  const ankle = eb === 'AP_JUMP_LIMITED_KNEE' || ex.tags.includes('ankle_hop');
-  const range = ankle ? R.reps.matrix.plyo.ankle.contacts_per_set : (R.reps.matrix.plyo[drillStage] || R.reps.matrix.plyo.RC1).contacts_per_set;
-  // lower bound in the stage's first week rising to the upper bound in its last week
-  let frac = 1;
-  const N = stairN(input);
-  if (week.stair_week != null && N && drillStage === stage) {
-    let rcw = null;
-    try { rcw = model.stair(N).rc_weeks[stage]; } catch (e) { rcw = null; }
-    if (rcw) frac = rcw[1] > rcw[0] ? clamp((week.stair_week - rcw[0]) / (rcw[1] - rcw[0]), 0, 1) : 1;
-  }
-  let per = roundHalfUp(range[0] + (range[1] - range[0]) * frac);
-  if (isUni(ex)) per *= 2;
-  const whys = [why('why.plyo_stage', 'R2-ATH-03', { stage })];
-  // v1.2 (D-63 resolved): the dose lands on the sport's weekly target (contacts per set = target / the key's sets this week)
   const quality = ath.quality || 'plyometric';
-  const key = budgetKeyOf(eb, quality, 'contacts');
-  const rt = reconcileTarget(input, key);
-  if (rt.target !== null && rt.sets > 0) { per = perSetFor(model, key, rt.target, rt.sets, per); whys.push(why('why.athletic_reconcile', 'D-63')); }
-  const D11 = derived.D11_athletic_budget || {};
-  let factor = athletic && athletic.factor != null ? athletic.factor : 1;
-  if (!athletic && D11.heavy_play_week) factor = R.athletic.heavy_play_weeks.plyo_factor;
-  if (factor !== 1 && rt.target === null) per = Math.max(1, roundHalfUp(per * factor));
-  // single-leg and loaded depth work: a few contacts per leg (catalog rep hint; CAT-10 'unilateral is harder'; review 02 major 2)
-  const RC = R.athletic.reconcile;
-  if (isUni(ex)) {
-    const hint = repHintRange(ex);
-    const legMax = Math.min(RC && RC.unilateral_contacts_per_leg_max ? RC.unilateral_contacts_per_leg_max : Infinity, hint ? hint[1] : Infinity);
-    if (Number.isFinite(legMax) && per > legMax * 2) per = legMax * 2;
-  } else if (ex.tags.includes('depth_jump') || ex.tags.includes('loaded_jump')) {
-    const hint = repHintRange(ex);
-    if (hint && per > hint[1]) per = hint[1];
+  const key = athleticKeyOf(eb, ex) || 'jump_contacts';
+  const RCr = R.athletic.reconcile || {};
+  // a single-leg drill counts both legs: per_set = 2 x the per-leg contacts written (RECHECK 01 major; stage B2)
+  const uni = isUni(ex) && !!RCr.unilateral_counts_both_legs;
+  const whys = [why('why.plyo_stage', 'R2-ATH-03', { stage })];
+  const plan = planFor(input);
+  let per;
+  if (plan) {
+    // stage B2: the athletic stairway's dose (sport target, capacity-scaled, climbing; athletic.planAthletic)
+    per = plan.per_set;
+    whys.push(why('why.athletic_reconcile', 'D-63'));
+  } else {
+    // no sport target: the stage's contacts per set, lower bound in the stage's first week rising to the upper bound
+    const drillStage = ath.rc_stage_default && RC_RANK[ath.rc_stage_default] < RC_RANK[stage] ? ath.rc_stage_default : stage;
+    const ankle = eb === 'AP_JUMP_LIMITED_KNEE' || ex.tags.includes('ankle_hop');
+    const range = ankle ? R.reps.matrix.plyo.ankle.contacts_per_set : (R.reps.matrix.plyo[drillStage] || R.reps.matrix.plyo.RC1).contacts_per_set;
+    let frac = 1;
+    const N = stairN(input);
+    if (week.stair_week != null && N && drillStage === stage) {
+      let rcw = null;
+      try { rcw = model.stair(N).rc_weeks[stage]; } catch (e) { rcw = null; }
+      if (rcw) frac = rcw[1] > rcw[0] ? clamp((week.stair_week - rcw[0]) / (rcw[1] - rcw[0]), 0, 1) : 1;
+    }
+    let v = roundHalfUp(range[0] + (range[1] - range[0]) * frac);
+    const D11 = derived.D11_athletic_budget || {};
+    let factor = athletic && athletic.factor != null ? athletic.factor : 1;
+    if (!athletic && D11.heavy_play_week) factor = R.athletic.heavy_play_weeks.plyo_factor;
+    if (factor !== 1) v = Math.max(1, roundHalfUp(v * factor));
+    per = uni ? 2 * v : (isUni(ex) ? 2 * v : v);
+    const b = perSetBounds(model, key, ex, 1);
+    per = clamp(per, b.lo, b.hi);
+    if (b.step > 1) per = Math.max(b.lo, Math.floor(per / b.step + EPS) * b.step);
+    // session contact cap (ATH-01): share the cap across the day's contact slots
+    const cap = (athletic && athletic.contacts_session_max) || D11.contacts_session_max || null;
+    if (cap && sets > 0) {
+      const n = day ? daySlots(day).filter((s) => ['AP_PLYO', 'AP_JUMP_LIMITED_KNEE'].includes(s.bucket)).length || 1 : 1;
+      const perSlotMax = Math.floor(cap / n);
+      if (per * sets > perSlotMax) { per = Math.max(b.step, Math.floor(perSlotMax / sets / b.step + EPS) * b.step); whys.push(why('why.plyo_stage', 'ATH-01', { stage })); }
+    }
   }
-  // session contact cap (ATH-01): share the cap across the day's contact slots
-  const cap = (athletic && athletic.contacts_session_max) || D11.contacts_session_max || null;
-  if (cap && sets > 0) {
-    const n = day ? daySlots(day).filter((s) => ['AP_PLYO', 'AP_JUMP_LIMITED_KNEE'].includes(s.bucket)).length || 1 : 1;
-    const perSlotMax = Math.floor(cap / n);
-    if (per * sets > perSlotMax) { per = Math.max(1, Math.floor(perSlotMax / sets)); whys.push(why('why.plyo_stage', 'ATH-01', { stage })); }
-  }
-  if (input.contact_scale && input.contact_scale < 1) per = Math.max(1, Math.floor(per * input.contact_scale + EPS)); // week-to-week rise cap (generate)
-  // the cue follows how the drill is done: a ballistic jump is landed and reset (it cannot be repeated continuously), a
-  // repeated-contact drill takes the stage's cue (R2-ATH-02 / R2-ATH-03; review 01 / 02 / 03)
-  const cueStage = quality === 'ballistic' || quality === 'landing' ? 'RC1' : (ex.tags.includes('plyo_repeated') ? stage : (stage === 'RC3' ? 'RC2' : stage));
-  const notes = [{ key: 'note.' + cueStage.toLowerCase() }];
-  if (D11.heavy_play_week) notes.push({ key: 'note.heavy_play_week' });
+  // the cue follows how the drill is done (stage B2, athletic.cueKeyFor): stick a landing, reset a single ballistic jump, land &
+  // go off a depth jump, quick continuous contacts on ankle / pogo work, 'repeat' on stage-3 repeated drills (R2-ATH-02 / 03)
+  const notes = [{ key: cueKeyFor(ex, stage, model) }];
+  const D11b = derived.D11_athletic_budget || {};
+  if (D11b.heavy_play_week) notes.push({ key: 'note.heavy_play_week' });
   if (isUni(ex)) notes.push({ key: 'note.per_side' });
+  const first = !!(fill && fill.flags && fill.flags.includes('first_reactive'));
+  if (first) { notes.push({ key: 'note.first_reactive' }); whys.push(why('why.first_reactive', 'CAT-10')); }
   let load = null;
   if (ath.loaded_jump || ex.tags.includes('loaded_jump')) { load = { type: 'bw_pct', min: R.athletic.loaded_jump_bw_pct[0], max: R.athletic.loaded_jump_bw_pct[1] }; whys.push(why('why.loaded_jump', 'EQ-15')); }
   else {
     const h = boxHeightOf(ex);
-    if (h) load = { type: 'height', value: h === 'high' ? 'medium' : h }; // EQ-16 (a 'high' record is never prescribed above medium here)
+    // EQ-16 (a 'high' record is never prescribed above medium here); the first reactive block drops from a low box (B2)
+    if (h) load = { type: 'height', value: first && ex.tags.includes('depth_jump') ? 'low' : (h === 'high' ? 'medium' : h) };
   }
   const rest = ex.tags.includes('depth_jump') ? { type: 'seconds', min: R.rest.depth_jump_s[0], max: R.rest.depth_jump_s[1] }
     : { type: 'work_rest', min: R.rest.plyo_work_rest[0], max: R.rest.plyo_work_rest[1] };
+  const written = isUni(ex) ? Math.max(1, roundHalfUp(per / 2)) : per;
   return mk({
-    reps: { type: 'contacts', value: per }, effort: { type: 'intent', key: R.effort.athletic.key }, rest, load,
-    athletic: { unit: 'contacts', per_set: per, total: (sets || 0) * per, stage, quality },
+    reps: { type: 'contacts', value: written }, effort: { type: 'intent', key: R.effort.athletic.key }, rest, load,
+    athletic: { unit: 'contacts', per_set: per, total: (sets || 0) * per, stage, quality, key, response: responseOf(ex) },
     notes, why: whys
   });
 }
@@ -674,13 +837,16 @@ function throwDose(input) {
   let reps, per;
   const whys = [];
   // per side only for rotational / single-side throws; an overhead or chest pass is counted as written (review 02 minor)
-  const sided = ex.plane === 'transverse' || ex.laterality === 'unilateral' || ex.laterality === 'alternating' || kind === 'pass_rotation';
-  if (kind === 'situp') { reps = { type: 'fixed', value: R.reps.matrix.throw.situp_reps }; per = reps.value; }
+  const sided = throwSided(ex);
+  const plan = planFor(input);
+  // v0.4 fix round 1 / F2 (LIB-22; RECHECK 02 minor '3 x 20 every Monday'): the sit-up pass is dosed like the other throws (6-10 a
+  // set, climbing with the athletic stairway) when the rules give its range
+  const FT = R.athletic.f2 && R.athletic.f2.throws;
+  if (kind === 'situp' && !(FT && FT.situp_range)) { reps = { type: 'fixed', value: R.reps.matrix.throw.situp_reps }; per = reps.value; }
   else if (kind === 'wall_ball') { const w = R.reps.matrix.throw.wall_ball_reps; reps = { type: 'range', min: w[0], max: w[1] }; per = w[0]; }
   else {
-    per = sided ? R.reps.matrix.throw.reps_per_side * 2 : R.reps.matrix.throw.reps_per_side;
-    const rt = reconcileTarget(input, 'throws');
-    if (rt.target !== null && rt.sets > 0) { per = perSetFor(model, 'throws', rt.target, rt.sets, per); whys.push(why('why.athletic_reconcile', 'D-63')); }
+    per = sided ? R.reps.matrix.throw.reps_per_side * 2 : (kind === 'situp' ? FT.situp_range[1] : R.reps.matrix.throw.reps_per_side);
+    if (plan) { per = plan.per_set; whys.push(why('why.athletic_reconcile', 'D-63')); }
     if (sided) { const side = Math.max(1, Math.ceil(per / 2 - EPS)); per = side * 2; reps = { type: 'throws_per_side', value: side }; }
     else reps = { type: 'fixed', value: per };
   }
@@ -688,39 +854,52 @@ function throwDose(input) {
   if (ex.medball) { load = medballLoad(ex, derived, R); whys.push(why('why.medball_load', 'EQ-06')); }
   return mk({
     reps, effort: { type: 'intent', key: R.effort.athletic.key }, rest: { type: 'seconds', min: R.rest.throw_s[0], max: R.rest.throw_s[1] }, load,
-    athletic: { unit: 'throws', per_set: per, total: (sets || 0) * per, stage: null, quality: 'throw' },
+    athletic: { unit: 'throws', per_set: per, total: (sets || 0) * per, stage: null, quality: 'throw', key: 'throws', response: null },
     notes: [], why: whys
   });
 }
 
 function codSprintDose(input, rc) {
-  const { exercise: ex, sets, week, model } = input;
+  const { exercise: ex, sets, week, model, derived } = input;
   const R = model.rules;
   const p = stairProgress(week);
   let reps, unit, per;
+  let codNote = null;
   const whys = [];
+  const plan = planFor(input);
   if (rc === 'cod') {
     const r = R.reps.matrix.cod.reps;
     per = roundHalfUp(r[0] + (r[1] - r[0]) * p);
-    const rt = reconcileTarget(input, 'cod_cuts');
-    if (rt.target !== null && rt.sets > 0) { per = perSetFor(model, 'cod_cuts', rt.target, rt.sets, per); whys.push(why('why.athletic_reconcile', 'D-63')); }
+    if (plan) { per = plan.per_set; whys.push(why('why.athletic_reconcile', 'D-63')); }
     reps = { type: 'cuts', value: per }; unit = 'cuts';
+    if (ex && ex.athletic && ex.athletic.no_cuts) { per = 0; } // a straight release (fade) has no cut to count (B2)
+    // v0.4 fix round 1 / F2 (RECHECK 03 minor: '5-10-5 2 x 9 cuts' = 4.5 reps): a drill with several cuts a rep is written in whole
+    // reps of the drill (the athletic stairway doses it in steps of its cuts per rep)
+    const CF = R.athletic.f2 && R.athletic.f2.cod;
+    const cpr = CF && CF.reps_from_cuts_per_rep && ex && CF.cuts_per_rep ? CF.cuts_per_rep[ex.id] : null;
+    if (typeof cpr === 'number' && cpr > 1 && per > 0) {
+      const nReps = Math.max(1, roundHalfUp(per / cpr));
+      per = nReps * cpr;
+      reps = { type: 'fixed', value: nReps };
+      codNote = { key: 'note.cod_reps', args: { cuts: cpr } };
+    }
   } else {
-    // a sprint set is reps x metres; the metres follow the drill (max velocity 20-40 m, accelerations 10-20 m; catalog hint)
-    const SP = R.athletic.sprint || { reps: R.reps.matrix.sprint.reps, metres_by_drill: { default: R.reps.matrix.sprint.metres } };
-    const drill = ex && /max-velocity|top-speed/.test(ex.id) ? 'max_velocity' : ex && /accel|start/.test(ex.id) ? 'acceleration' : 'default';
-    const mr = SP.metres_by_drill[drill] || SP.metres_by_drill.default;
-    const m = roundHalfUp(mr[0] + (mr[1] - mr[0]) * p);
+    // a sprint set is reps x metres; the metres follow the drill (accelerations 10-20 m, max velocity 30-40 m after a build-up,
+    // in 5-m steps; LIB-21, stage B2) and climb with the ramp the athletic stairway uses
+    const SP = R.athletic.sprint || { reps: R.reps.matrix.sprint.reps };
+    const prog = rampProgress(derived, model, week);
+    const m = sprintMetres(model, ex, prog === null ? 1 : prog);
     let nReps = roundHalfUp(SP.reps[0] + (SP.reps[1] - SP.reps[0]) * p);
-    const rt = reconcileTarget(input, 'sprint_m');
-    if (rt.target !== null && rt.sets > 0) { const perSet = perSetFor(model, 'sprint_m', rt.target, rt.sets, nReps * m); nReps = clamp(roundHalfUp(perSet / m), SP.reps[0], SP.reps[1]); whys.push(why('why.athletic_reconcile', 'D-63')); }
+    if (plan) { nReps = clamp(roundHalfUp(plan.per_set / m), SP.reps[0], SP.reps[1]); whys.push(why('why.athletic_reconcile', 'D-63')); }
     per = nReps * m;
     reps = { type: 'sprint_reps', reps: nReps, metres: m }; unit = 'metres';
+    const kind = ex && ex.athletic && ex.athletic.sprint_kind;
+    if (kind === 'acceleration' || kind === 'max_velocity') whys.push(why('why.sprint_focus', 'LIB-21', { kind: 'sprint.kind.' + kind }));
   }
   return mk({
     reps, effort: { type: 'intent', key: R.effort.athletic.key }, rest: { type: 'as_prescribed' }, // R.rest.athletic
-    athletic: { unit, per_set: per, total: (sets || 0) * per, stage: null, quality: (ex && ex.athletic && ex.athletic.quality) || rc },
-    notes: [], why: whys
+    athletic: { unit, per_set: per, total: (sets || 0) * per, stage: null, quality: (ex && ex.athletic && ex.athletic.quality) || rc, key: unit === 'cuts' ? (per > 0 ? 'cod_cuts' : null) : 'sprint_m', response: null },
+    notes: codNote ? [codNote] : [], why: whys
   });
 }
 
@@ -728,7 +907,10 @@ function prehabDose(input) {
   const { slot, exercise: ex, model } = input;
   const R = model.rules;
   const code = prehabCode(slot) || slot.prehab_code || null;
-  const notes = code ? [{ key: model.has('en', 'prehab.label.' + code) ? 'prehab.label.' + code : 'note.prehab', args: { code } }] : [];
+  // v0.4 fix round 2 / F3 (RECHECK v0.4 08 minor: a tibialis raise labelled 'Joint care for the Achilles and calves'): the label follows the
+  // exercise when the rules name one for it (rules.prehab.label_by_exercise), else the slot's joint-care code
+  const LBE = (R.prehab.label_by_exercise || []).find((x) => new RegExp(x.re).test(ex.id) && model.has('en', x.key));
+  const notes = LBE ? [{ key: LBE.key }] : code ? [{ key: model.has('en', 'prehab.label.' + code) ? 'prehab.label.' + code : 'note.prehab', args: { code } }] : [];
   // the catalog's own unit: a hold in seconds (Copenhagen plank 20-60 s, a balance reach), else reps (review 08 major 5)
   let reps;
   const hold = ex.rep_hint && ex.rep_hint.unit === 'seconds' || ISOMETRIC_RE.test(ex.id);
@@ -740,8 +922,11 @@ function prehabDose(input) {
     reps = bracketSpec(R, R.reps.matrix.prehab.bracket, isUni(ex));
     if (reps && reps.type === 'per_side') notes.push({ key: 'note.per_side' });
   }
+  // v0.4 fix round 2 / F2 (E-175, R3-ATH-01): every-session shoulder care done inside the rests of the day's pulls says so
+  const inRest = slot.time_class === 'prehab_in_rest' && model.has('en', 'note.prehab_in_rest');
+  if (inRest) notes.push({ key: 'note.prehab_in_rest' });
   return mk({
-    reps, effort: { type: 'intent', key: 'effort.prehab' }, rest: { type: 'seconds', min: R.rest.prehab_s[0], max: R.rest.prehab_s[1] },
+    reps, effort: { type: 'intent', key: 'effort.prehab' }, rest: inRest ? { type: 'as_prescribed' } : { type: 'seconds', min: R.rest.prehab_s[0], max: R.rest.prehab_s[1] },
     notes, why: code ? [why('why.prehab', 'D-23', { code })] : []
   });
 }
@@ -758,7 +943,14 @@ function coreDose(input) {
   const lvl = (derived.D3_client_level && derived.D3_client_level.level) || 'L1';
   if (iso) {
     let sec = cell.or_seconds || cell.seconds || (R.reps.core_hold_seconds && R.reps.core_hold_seconds.default) || [20, 40];
-    if (/copenhagen/.test(ex.id) && R.reps.core_hold_seconds && R.reps.core_hold_seconds.copenhagen_L1_L2 && lvl !== 'L3') sec = R.reps.core_hold_seconds.copenhagen_L1_L2;
+    const CH = R.reps.core_hold_seconds || null;
+    if (/copenhagen/.test(ex.id) && CH && CH.copenhagen_L1_L2 && lvl !== 'L3') sec = CH.copenhagen_L1_L2;
+    // v0.4 fix round 2 / F3 (E-195; PER-02 'one small change at the exercise-block start'; RECHECK v0.4 01 minor: the same holds at 2 x 20-40 s
+    // through three exercise blocks): a hold gets a little longer with each exercise block (rules.reps.core_hold_seconds.block_step)
+    else if (CH && CH.block_step && week.block_type === 'stairway') {
+      const k = Math.min(CH.block_step.max_steps, exerciseBlockIndex(input));
+      if (k > 0) sec = [sec[0] + k * CH.block_step.s, Math.min(CH.block_step.cap_s, sec[1] + k * CH.block_step.s)];
+    }
     reps = { type: 'seconds', min: sec[0], max: sec[1] };
   } else if (cell.bracket) reps = bracketSpec(R, cell.bracket, isUni(ex));
   else reps = bracketSpec(R, 'b10_15', isUni(ex));
@@ -783,7 +975,7 @@ function coreDose(input) {
     if (firstCore && firstCore.slot_id === slot.slot_id) notes.push({ key: 'note.core_supersets_optional' });
   }
   return mk({
-    reps, effort, rest: input.position && input.position.superset_active ? { type: 'after_pair' } : { type: 'seconds', min: R.rest.core_s[0], max: R.rest.core_s[1] },
+    reps, effort, rest: input.position && input.position.superset_active ? (R.rest.after_pair_numbers ? { type: 'after_pair', min: R.rest.core_s[0], max: R.rest.core_s[1] } : { type: 'after_pair' }) : { type: 'seconds', min: R.rest.core_s[0], max: R.rest.core_s[1] },
     notes, why: [why(first ? 'why.core_first' : 'why.core_moved', first ? 'ATH-11' : 'R2-SES-03')]
   });
 }
@@ -803,8 +995,9 @@ function applyTest(d, input, rc) {
   d.set_reps = null;
   if (rc !== 'olympic') d.effort = { type: 'intent', key: R.effort.athletic.key };
   // v1.2 (review 01 / 02 / 04): a test item is written as a test - work up to one top set, warm-up sets first, no week-1 tip,
-  // no superset partner (generate drops the pair), the same lift in the baseline and the end week
-  d.notes = d.notes.filter((n) => n.key !== R.effort.week1_tip_key && n.key !== 'note.per_side');
+  // no superset partner (generate drops the pair), the same lift in the baseline and the end week; B3: no training rep cap on a
+  // rep-max test (RECHECK 01 / 02 minors)
+  d.notes = d.notes.filter((n) => n.key !== R.effort.week1_tip_key && n.key !== 'note.per_side' && n.key !== 'note.rep_cap' && n.key !== 'note.bodyweight_regress' && n.key !== 'note.bodyweight_regress_no_machine');
   if (d.load && d.load.type === 'week1_tip') d.load = null;
   const strengthIds = new Set([...Object.values(R.tests.catalogue.strength.from_zero), ...Object.values(R.tests.catalogue.strength.after_completed_block), R.tests.catalogue.strength.older]);
   if (strengthIds.has(test) && R.tests.test_item && R.tests.test_item.strength_wording) d.notes.push({ key: 'note.test_rep_max_work_up', args: { test: 'tests.' + test } });
@@ -847,25 +1040,92 @@ function isSafeFromZeroTest(test, R) {
  * @param {object} slot SlotDef with `aerobic` @param {object} weekShape @param {object} derived @param {object} model
  * @returns {object} Dose
  */
-export function doseAerobic(slot, weekShape, derived, model) {
+export function doseAerobic(slot, weekShape, derived, model, fill) {
   const R = model.rules;
   const colour = weekShape && weekShape.block_type === 'recovery' ? 'C' : ((slot.aerobic && slot.aerobic.colour) || R.conditioning.extra_colour);
   let [min, max] = R.conditioning.minutes[colour];
   if (colour === 'C') max = Math.min(max, R.conditioning.steady_max_min);
-  const notes = [{ key: 'note.any_erg' }];
+  // v0.4 stage B3 (EQ-14 'any erg'; RECHECK 03 / 07 / 08: '2 Mile Run' / run-walks for a client with a bike, no running space or
+  // knee pain): the session is done on the client's own cardio tool, its pattern (work / easy times, steady, short sprints) read
+  // from the coach's record; the other tools are listed as options
+  const AB = R.conditioning.aerobic_b3;
+  const mod = AB ? aerobicModality(slot, derived, AB) : null;
+  const notes = [];
+  if (AB) {
+    const others = mod.options.filter((m) => m !== mod.modality);
+    notes.push(others.length ? { key: 'note.cardio_options', args: { list: others.map((m) => 'cardio.modality.' + m) } } : { key: 'note.cardio_any' });
+  } else notes.push({ key: 'note.any_erg' });
+  let exId = fill && fill.exercise_id;
+  // v0.4 fix round 2 / F3 (E-194; COACH-ANSWER ATH-07 colours by level; RECHECK v0.4 03 major / 04 minor: the same run-walk and the same
+  // 30-40 min for six and eight weeks): inside a stairway's exercise block the minutes climb from the low end of the colour's range to
+  // its top, and an exercise block of rules.conditioning.aerobic_b3.r2.long_block_weeks or more climbs one rung of the colour's ladder
+  // at its halfway week (effort.rung names the record whose pattern the week runs)
+  const A2 = AB && AB.r2 ? AB.r2 : null;
+  let rung = null;
+  const ebw = weekShape && weekShape.block_type === 'stairway' && typeof weekShape.exercise_block_week === 'number' ? weekShape.exercise_block_week : null;
+  const ebLen = ebw !== null ? exerciseBlockLength(weekShape, model) : null;
+  if (A2 && ebw !== null && ebLen && !slot.test) {
+    if (A2.minutes_climb && ebLen > 1 && colour !== 'LC') {
+      const m = Math.round(min + (max - min) * clamp((ebw - 1) / (ebLen - 1), 0, 1));
+      min = m; max = m;
+    }
+    const ladder = (AB.ladder && AB.ladder[colour]) || [];
+    const at = ladder.indexOf(exId);
+    if (A2.long_block_weeks && ebLen >= A2.long_block_weeks && ebw > Math.ceil(ebLen / 2) && at >= 0 && at + 1 < ladder.length && model.hasEx(ladder[at + 1])) { exId = ladder[at + 1]; rung = exId; }
+  }
+  const pattern = AB && exId && AB.patterns && AB.patterns[exId] ? { ...AB.patterns[exId] } : null;
   if (slot.aerobic && slot.aerobic.position === 'open_day') notes.push({ key: 'note.fighter_aerobic_open' });
   if (slot.aerobic && slot.aerobic.position === 'separate_session') notes.push({ key: 'note.aerobic_separate' });
   if (slot.aerobic && slot.aerobic.required && R.conditioning.required_on_optional_note) notes.push({ key: R.conditioning.required_on_optional_note });
   const D14 = derived.D14_aerobic_sessions || {};
   if (D14.replaced_by_activity > 0) notes.push({ key: 'note.play_counts_aerobic', args: { activity: ((derived.D2_profile && derived.D2_profile.activity_ids) || [])[0] || (derived.D2_profile && derived.D2_profile.id) || '' } });
   const whys = [why('why.aerobic_colour', 'R2-SES-06')];
+  const effort = AB ? { type: 'aerobic', colour, modality: mod.modality, pattern, ...(rung ? { rung } : {}) } : { type: 'aerobic', colour };
+  if (rung) whys.push(why('why.aerobic_rung', 'ATH-07'));
+  if (mod && mod.pain) whys.push(why('why.aerobic_low_impact', 'EQ-14'));
   if (slot.test) {
     const tn = [...notes, { key: 'note.test_day_session' }];   // an aerobic test replaces the session, not "top sets"
     const tw = [...whys, why('why.test_timing', 'R2-PER-07')];
     if (weekShape && weekShape.test && weekShape.test.from_zero && isSafeFromZeroTest(slot.test, R)) { tn.push({ key: 'note.test_from_zero', args: { test: 'tests.' + slot.test } }); tw.push(why('why.test_from_zero', 'R2-PER-07')); }
-    return mk({ reps: { type: 'test', test: slot.test }, effort: { type: 'aerobic', colour }, notes: tn, why: tw });
+    return mk({ reps: { type: 'test', test: slot.test }, effort, notes: tn, why: tw });
   }
-  return mk({ reps: { type: 'minutes', min, max }, effort: { type: 'aerobic', colour }, notes, why: whys });
+  return mk({ reps: { type: 'minutes', min, max }, effort, notes, why: whys });
+}
+
+/**
+ * The cardio tool of an aerobic session (stage B3): the client's own options (intake equipment.detail.cardio_options, in the
+ * order given; 'run' only with running space or when the client chose it), low-impact tools first and running dropped for lower-
+ * limb pain when another tool exists; the colour takes its own tool from the list so the week mixes them (A the first, B the
+ * second, C the third ...). No options -> 'any'.
+ * @returns {{modality:string, options:string[], pain:boolean}}
+ */
+function aerobicModality(slot, derived, AB) {
+  const kit = derived.D8_kit || {};
+  let opts = (kit.cardio_options || []).filter((m) => AB.modalities.includes(m));
+  const painAreas = (derived.pain || []).map((p) => p.area);
+  const pain = painAreas.some((a) => (AB.impact_free_first_for_pain || []).includes(a));
+  if (pain && opts.some((m) => AB.impact_free.includes(m))) opts = opts.filter((m) => !AB.running.includes(m));
+  if (!opts.length) return { modality: 'any', options: [], pain };
+  const colours = ['A', 'B', 'C', 'LC'];
+  const i = Math.max(0, colours.indexOf((slot.aerobic && slot.aerobic.colour) || 'C'));
+  return { modality: opts[i % opts.length], options: opts, pain };
+}
+
+/** the day's first isolation station in a circuit block, calves last (the last week's circuit intensifier, F3; never a compound,
+ *  H02 'never to failure on heavy compounds') */
+function circuitIntensifierSlot(day, model) {
+  let calf = null;
+  for (const b of day.blocks || []) {
+    if (b.kind !== 'circuit') continue;
+    for (const s of b.slots || []) {
+      let k = null;
+      try { k = model.bucket(s.bucket).kind; } catch { k = null; }
+      if (k !== 'isolation') continue;
+      if (s.bucket === 'ISO_CALF') { if (!calf) calf = s.slot_id; continue; }
+      return s.slot_id;
+    }
+  }
+  return calf;
 }
 
 /**
@@ -882,12 +1142,35 @@ export function doseConditioning(slot, fill, weekShape, derived, model, input) {
   if (slot.bucket === 'COND_WOD') {
     const W = R.conditioning.wod;
     const wodOnly = /^WOD\./.test(slot.station_id || ''); // the WOD-only class day (OT18)
-    const range = wodOnly ? W.wod_only_day_minutes : (slot.wod_short && W.short_minutes ? W.short_minutes : W.minutes);
-    const m = roundHalfUp(range[0] + (range[1] - range[0]) * p);
+    // v0.4 (stage B1, R3-SES-02 time check): a WOD held at its short end when the class day needs the minutes for its lifts
+    const range0 = wodOnly ? W.wod_only_day_minutes : (slot.wod_short && W.short_minutes ? W.short_minutes : W.minutes);
+    const range = slot.wod_hold ? [range0[0], range0[0]] : range0;
+    let m = roundHalfUp(range[0] + (range[1] - range[0]) * p);
     const format = W.formats[(slot.day_index || 0) % W.formats.length];
     const all = ((fill && fill.stations) || [fill && fill.exercise_id]).filter(Boolean);
     const n = m < 15 ? W.stations[0] : W.stations[1];
     const stations = all.slice(0, n);
+    // v0.4 fix round 2 / F2 (E-173; COACH-R3 R3-VOL-04 / R3-SES-02 step 4 'the stairway climbs'; OBSERVED CrossFit tab: WOD levels ramp
+    // inside every block; RECHECK v0.4 04 major: the four main-day WODs ran the same 10 minutes, stations and reps for 8 weeks, and the
+    // EMOM lengths 21 / 22 / 23 / 25 / 27 did not divide by its 4 stations): a WOD climbs by its work - an EMOM runs whole rounds of
+    // its stations (minutes = rounds x stations) and what the minutes cannot show goes into the reps a station does (`density`); a WOD
+    // the time check holds at its short end climbs by density alone (rules.conditioning.wod.density)
+    const DN = W.density || null;
+    let density = 1;
+    if (DN && DN.enabled && week.block_type === 'stairway') {
+      const want = range[0] + (range[1] - range[0]) * p;
+      if (format === 'emom' && stations.length > 0 && DN.emom_whole_rounds) {
+        // (whole rounds inside the WOD's own range: the largest multiple of the stations at or under the week's minutes, else the
+        // smallest one inside the range; a WOD pinned to minutes that hold no whole round keeps them)
+        const k = stations.length;
+        let mm = Math.floor(want / k + EPS) * k;
+        if (mm < range[0] - EPS) mm = Math.ceil(range[0] / k - EPS) * k;
+        if (mm >= range[0] - EPS && mm <= range[1] + EPS) m = mm;
+      }
+      density = m > 0 ? Math.max(1, want / m) : 1;
+      if (slot.wod_hold || range[1] - range[0] < EPS) density = Math.max(density, 1 + (DN.hold_total || 0) * p);
+      if (format === 'amrap') density = 1; // (an AMRAP round keeps its reps: its density is the rounds done in the time, told by the note)
+    }
     const notes = [{ key: 'note.wod' }];
     let load = null;
     const ball = stations.map((id) => (model.hasEx(id) ? model.ex(id) : null)).find((e) => e && e.medball);
@@ -901,12 +1184,23 @@ export function doseConditioning(slot, fill, weekShape, derived, model, input) {
       const e = model.hasEx(id) ? model.ex(id) : null;
       const g = e ? wodGroupOf(e) : 'default';
       const row = RB[g] || RB.default || { emom: 10, amrap: 12, for_time: 15 };
-      const v = Math.max(3, roundHalfUp((row[format] || row.amrap || 10) * scaleL));
+      const v = Math.max(3, roundHalfUp((row[format] || row.amrap || 10) * scaleL * density));
       return g === 'erg' ? { type: 'calories', n: v } : g === 'carry' ? { type: 'metres', value: v } : { type: 'fixed', value: v };
     });
+    if (DN && DN.enabled && week.block_type === 'stairway' && format === 'amrap' && (slot.wod_hold || range[1] - range[0] < EPS) && model.has('en', 'note.wod_amrap_density')) notes.push({ key: 'note.wod_amrap_density' });
     const rounds = format === 'for_time' && W.for_time_rounds ? W.for_time_rounds[lvl === 'L1' ? 0 : 1] : null;
+    // B3 (RECHECK 04 major: 'no station has a load', 'EMOMs never say how to rotate'): a load per loaded station by level
+    // (dumbbells per hand, the kettlebell) and the format's rotation words
+    const SL = W.station_loads_lb || null;
+    const station_loads = SL ? stations.map((id) => {
+      const e = model.hasEx(id) ? model.ex(id) : null;
+      const row = e ? SL[wodGroupOf(e)] : null;
+      return row && row[lvl] ? { type: 'lb_range', unit: row.unit, min: row[lvl][0], max: row[lvl][1] } : null;
+    }) : null;
+    if (model.has('en', 'wod.rotation.' + format)) notes.push({ key: 'wod.rotation.' + format });
     return mk({ reps: { type: 'minutes', min: m, max: m }, effort: { type: 'intent', key: 'effort.wod' }, load,
-      wod: { format, minutes: [m, m], stations, station_reps, rounds }, notes, why: [why('why.wod', 'D-20')] });
+      wod: { format, minutes: [m, m], stations, station_reps, rounds, ...(station_loads ? { station_loads } : {}), ...(density > 1 + EPS ? { density: Math.round(density * 100) / 100 } : {}) }, notes,
+      why: [why('why.wod', 'D-20'), ...(density > 1 + EPS ? [why('why.wod_density', 'R3-VOL-04')] : [])] });
   }
   if (slot.bucket === 'SKILL') {
     const s = R.reps.matrix.skill.minutes;
@@ -924,20 +1218,91 @@ export function doseConditioning(slot, fill, weekShape, derived, model, input) {
     const metabolic = slot.bucket === 'COND_CIRCUIT' || (ex && (ex.is_athletic || ex.conditioning));
     const EK = R.effort.circuit_keys || {};
     const ekey = metabolic ? (EK.metabolic || 'effort.circuit') : (EK.resistance || 'effort.circuit');
-    if (!metabolic && week.stair_week === 1 && week.block_type === 'stairway') notes.push({ key: R.effort.week1_tip_key });
+    // B3 (RECHECK 05 major: the circuit cue never changed, 'about 2 reps left' for 8 weeks): a resistance station follows the planned
+    // effort of the stairway week ('about {rir} reps left at the bell'); a body-weight station picks a version or tempo, never 'a
+    // weight' (RECHECK 05 minor); a single-side station switches sides at half time (RECHECK 05 minor)
+    const CR = R.effort.circuit_rir;
+    const bw = !!ex && (isBodyweightRecord(ex) || isBodyweightMoved(ex, R));
+    let effort = { type: 'intent', key: ekey };
+    if (CR && !metabolic && ex) {
+      const rr = rirEffort(week, classFromExercise(ex, model), R);
+      effort = { ...rr, intensifier: false, circuit: true, key: bw ? CR.bodyweight_key : CR.key };
+      // v0.4 fix round 1 / F3 (COACH-R3 R3-VOL-04 '1 + intensifiers in the last week'; RECHECK 05 major: promised, carried by no station):
+      // in the last stairway week the day's first isolation station ends its last round with a 10-s hold at the hardest point
+      // (rules.effort.circuit_intensifier; inside 1-3 RIR, never to failure, never on a compound - H02)
+      const CI = R.effort.circuit_intensifier;
+      const lastWeek = week.block_type === 'stairway' && !!(week.planned_rir && week.planned_rir.intensifiers);
+      const pos = input && input.position;
+      const mark = pos && typeof pos.is_last_intensifier === 'boolean' ? pos.is_last_intensifier : !!(input && input.day && circuitIntensifierSlot(input.day, model) === slot.slot_id);
+      if (CI && CI.enabled && lastWeek && mark) {
+        effort.last_set = CI.kind || 'hold'; effort.intensifier = true;
+      }
+    }
+    if (!metabolic && week.stair_week === 1 && week.block_type === 'stairway' && !bw) notes.push({ key: CR && model.has('en', 'load.week1_tip_circuit') ? 'load.week1_tip_circuit' : R.effort.week1_tip_key });
+    // (fix round 2 / F3, UNI-09; RECHECK v0.4 05 minor: 'switch sides at half time' next to a cue that says 'keep alternating every rep')
+    const altNote = !!(R.effort.circuit_alternating_note) && model.has('en', R.effort.circuit_alternating_note);
+    if (ex && !metabolic && ex.laterality === 'unilateral' && model.has('en', 'note.circuit_unilateral')) notes.push({ key: 'note.circuit_unilateral' });
+    else if (ex && !metabolic && ex.laterality === 'alternating' && !altNote && model.has('en', 'note.circuit_unilateral')) notes.push({ key: 'note.circuit_unilateral' });
+    else if (ex && !metabolic && ex.laterality === 'alternating' && altNote) notes.push({ key: R.effort.circuit_alternating_note });
+    // B2 (RECHECK 05 major): a ballistic circuit station counts its throws (one per rules.athletic.circuit_ballistic.throw_seconds
+    // of work) toward the weekly medball budget; a KB swing is power work that counts nowhere (R2-VOL-05)
+    const CB = R.athletic.circuit_ballistic;
+    let athletic = null;
+    if (ex && ex.medball && CB && metabolic) {
+      // about one throw per throw_seconds of work, never more a week than the profile's weekly throws (one ball station a week)
+      // v0.4 B4 (integration, random sweep: 99 / 80 / 66 throws against a week-1 target of 20): only a metabolic (ballistic)
+      // station counts throws - a medball held as the load of a press or a squat is a resistance station; the station's throws
+      // share the WEEK's throw target (it ramps low -> high across the stairway, athletic.athleticBudget) with the week's other
+      // ball rounds (generate passes week.athletic_week = {targets, circuit_ball_sets}), never the range's high end per station
+      const wk = derived.D11_athletic_budget && derived.D11_athletic_budget.weekly && derived.D11_athletic_budget.weekly.throws;
+      const aw = week.athletic_week || null;
+      const wkT = aw && aw.targets && typeof aw.targets.throws === 'number' && aw.targets.throws > 0 ? aw.targets.throws : (Array.isArray(wk) && wk[1] > 0 ? wk[1] : null);
+      const ballSets = aw && aw.circuit_ball_sets > 0 ? aw.circuit_ball_sets : rounds;
+      const cap = wkT !== null ? Math.max(1, Math.floor(wkT / Math.max(1, ballSets) + EPS)) : Infinity;
+      let per = Math.max(1, Math.min(cap, Math.floor(circ.work_s / (CB.throw_seconds || 3) + EPS)));
+      // v0.4 fix round 2 / F2 (E-174; COACH-ANSWER ORD-03 / LIB-06 'no levels, just do them right'; RECHECK v0.4 05 major: 13 'max-intent'
+      // overhead throws in a 50-s station is conditioning, not power): the ball station is dosed in throws a round - a few full-intent
+      // throws climbing with the stairway (rules.athletic.circuit_ballistic.per_round), then rest out the station
+      const PR = Array.isArray(CB.per_round) && week.block_type === 'stairway' ? CB.per_round : null;
+      // (sweep random-677 / 817: the week that holds for a physical end test throws what the week before threw - V27 hold_over)
+      const pHold = aw && aw.hold && typeof aw.prev_stair_level === 'number' ? stairProgress({ stair_level: aw.prev_stair_level }) : p;
+      if (PR) per = Math.max(1, Math.min(per, roundHalfUp(PR[0] + (PR[1] - PR[0]) * pHold)));
+      athletic = { unit: 'throws', per_set: per, total: rounds * per, stage: null, quality: 'throw', key: 'throws', response: null };
+      notes.push({ key: PR && model.has('en', 'note.circuit_ballistic_ball_rest') ? 'note.circuit_ballistic_ball_rest' : 'note.circuit_ballistic_ball', args: { n: per } });
+    } else if (ex && ex.tags.includes('kb_swing')) {
+      athletic = { unit: 'reps', per_set: null, total: null, stage: null, quality: 'ballistic', key: null, response: null };
+      notes.push({ key: 'note.kb_swing_power' });
+    }
+    // v0.4 fix round 1 / F2 (R2-ATH-02: medball throws and KB swings are ballistic; RECHECK 05 major 'conditioning, not quality
+    // power'): a ballistic circuit station is done with full intent, not at a steady pace (it opens its circuit, generate.mjs)
+    if (athletic && R.athletic.f2 && R.effort.athletic && R.effort.athletic.key) effort = { type: 'intent', key: R.effort.athletic.key };
     return mk({
-      reps: { type: 'rounds_work', rounds, work_s: circ.work_s }, effort: { type: 'intent', key: ekey },
-      rest: { type: 'circuit', transition_s: bc.transition_s, between_rounds_s: bc.between_rounds_s }, load,
+      reps: { type: 'rounds_work', rounds, work_s: circ.work_s }, effort,
+      rest: { type: 'circuit', transition_s: bc.transition_s, between_rounds_s: bc.between_rounds_s }, load, athletic,
       circuit: { rounds, work_s: circ.work_s, transition_s: bc.transition_s }, notes,
-      why: [why('why.circuit_stairway', 'D-19', { from: bc.stairway.work_s_start, to: bc.stairway.work_s_max })]
+      why: [why('why.circuit_stairway', 'D-19', { from: circ.from_s || bc.stairway.work_s_start, to: circ.to_s || bc.stairway.work_s_max }), ...(effort.type === 'rir' ? [why('why.planned_rir', 'R2-PER-05', { rir: rirArg(effort.min, effort.max) })] : []),
+        ...(effort.intensifier ? [why('why.intensifier_last_week', 'R3-VOL-04')] : [])]
     });
   }
   if (slot.bucket === 'COND_CIRCUIT') { // finisher outside the bootcamp format (PRG-11)
-    const cf = R.conditioning.circuit_finisher;
+    const Hx = R.athletic.hyrox;
+    const cf = Hx && Hx.finisher && (Hx.station_variants || []).includes(slot.variant) ? Hx.finisher : R.conditioning.circuit_finisher;
     const rounds = roundHalfUp(cf.rounds[0] + (cf.rounds[1] - cf.rounds[0]) * p);
     const work = Math.round((cf.work_s[0] + (cf.work_s[1] - cf.work_s[0]) * p) / 5) * 5;
+    // COACH-R3 R3-ATH-03 (B2): a HYROX station circuit (finisher, never a muscle set; 40-rep / AMRAP efforts live here only)
+    const H = R.athletic.hyrox;
+    const notes = [], whys = [];
+    if (H && (H.station_variants || []).includes(slot.variant)) {
+      notes.push({ key: 'note.hyrox_station' });
+      if (slot.variant === 'hyrox_run_station') notes.push({ key: H.run_station_note || 'note.hyrox_run_station' });
+      whys.push(why('why.hyrox_station', 'R3-ATH-03'));
+      let load = null;
+      if (ex && ex.medball) load = medballLoad(ex, derived, R); // the race wall ball, never over 20 lb
+      return mk({ reps: { type: 'rounds_work', rounds, work_s: work }, effort: { type: 'intent', key: 'effort.circuit_metabolic' }, load,
+        rest: { type: 'as_prescribed' }, circuit: { rounds, work_s: work, transition_s: R.supersets.bootcamp.transition_s }, notes, why: whys });
+    }
     return mk({ reps: { type: 'rounds_work', rounds, work_s: work }, effort: { type: 'intent', key: 'effort.circuit' },
-      rest: { type: 'as_prescribed' }, circuit: { rounds, work_s: work, transition_s: R.supersets.bootcamp.transition_s }, notes: [], why: [] });
+      rest: { type: 'as_prescribed' }, circuit: { rounds, work_s: work, transition_s: R.supersets.bootcamp.transition_s }, notes, why: whys });
   }
   if (slot.bucket === 'COND_SPRINT_BUYOUT') {
     // the coach's buy-out (BASEBALL Part E): 1-3 all-out bouts of 10-20 calories or 15-30 s runs (review 02 major 1)
@@ -947,6 +1312,6 @@ export function doseConditioning(slot, fill, weekShape, derived, model, input) {
     const reps = cal ? { type: 'bout' } : { type: 'seconds', min: sec[0], max: sec[1] };
     return mk({ reps, effort: { type: 'intent', key: 'effort.circuit_metabolic' }, rest: { type: 'as_prescribed' }, notes: [{ key: 'note.buyout' }], why: [why('why.buyout', 'OBSERVED BASEBALL Part E')] });
   }
-  if (input) return doseItem({ ...input, slot: { ...slot, block: slot.block === 'circuit' ? 'strength' : slot.block } });
+  if (input && input.week) return doseItem({ ...input, slot: { ...slot, block: slot.block === 'circuit' ? 'strength' : slot.block } });
   return mk({});
 }

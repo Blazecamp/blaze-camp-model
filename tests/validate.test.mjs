@@ -88,7 +88,9 @@ const CASES = [
   ['V17 / H02 effort that ignores the planned RIR', ['V17', 'H02'], (p) => { Object.assign(item(p, 3, 'Mon', 'A.s12').effort, { min: 3, max: 3 }); }],
   ['V18 no calves on a leg day', ['V18'], (p) => { removeItem(p, 1, 'Mon', 'A.s16'); removeItem(p, 1, 'Mon', 'A.s17'); }],
   ['V18 / H05 no core block on a main day', ['V18', 'H05'], (p) => { day(p, 1, 'Thu').blocks = day(p, 1, 'Thu').blocks.filter(b => b.kind !== 'core'); }],
-  ['V18 no rear-delt work in the week', ['V18'], (p) => { removeItem(p, 2, 'Mon', 'A.s15'); }],
+  // (v0.4 fix round 1: the week's rows count toward the rear delts too - rules.volume.rear_from_rows_min - so the mutation also
+  // removes the rows' rear-delt credit)
+  ['V18 no rear-delt work in the week', ['V18'], (p) => { removeItem(p, 2, 'Mon', 'A.s15'); for (const d of p.weeks[1].days) for (const b of d.blocks) for (const it of b.items) if (it.credits && it.credits.rear_delts) delete it.credits.rear_delts; }],
   ['V19 athletic week without Olympic work', ['V19'], (p) => { for (const d of p.weeks[0].days) d.blocks = d.blocks.filter(b => b.kind !== 'power'); }],
   ['V19 L2_plus Olympic lift in exercise block 1 at L2', ['V19'], (p) => { setExercise(item(p, 1, 'Mon', 'A.s07'), 'power-clean'); }],
   ['V19 snatch family on the clean station', ['V19'], (p) => { setExercise(item(p, 1, 'Mon', 'A.s07'), 'high-hang-snatch-pull'); }],
@@ -96,7 +98,11 @@ const CASES = [
   ['V20 V-squat swap', ['V20'], (p) => { item(p, 1, 'Mon', 'A.s08').swaps.push('v-squat-machine'); }],
   ['V21 / H20 wrong release version', ['V21', 'H20'], (p) => { p.release_stamp.version = 'release.coach'; }],
   ['V21 / H20 no release stamp', ['V21', 'H20'], (p) => { p.release_stamp = null; }],
-  ['V22 / H17 below the floor of 10', ['V22', 'H17'], (p) => { p.weeks[1].weekly_sets_by_muscle.quads = 9; }],
+  // v0.4 (R3-SES-01 / R3-SES-02): the floor is read from the items on the main days with group credit
+  ['V22 / H17 a trained group below the floor of 10', ['V22', 'H17'], (p) => { item(p, 2, 'Mon', 'A.s08').sets = 1; }],
+  ['V22 / H17 a group listed as not trained directly that keeps its exercises', ['V22', 'H17'], (p) => {
+    p.time_check.not_trained_directly.push({ group: 'back', reason: 'time' }); p.time_check.by_block[0].not_trained_directly.push({ group: 'back', reason: 'time' });
+  }],
   ['V23 / H18 one exercise for a group on a full-body day', ['V23', 'H18'], (p) => everyWeek(p, n => removeItem(p, n, 'Mon', 'A.s12'))],
   ['V24 / H15 an easy week inside the stairway', ['V24', 'H15'], (p) => { p.weeks[1].block_type = 'recovery'; }],
   ['V25 / H19 a test in the middle of the block', ['V25', 'H19'], (p) => { p.weeks[1].test = { type: 'baseline', items: ['strength'], from_zero: true }; }],
@@ -106,7 +112,7 @@ const CASES = [
   ['H13 a sex field', ['H13'], (p) => { p.meta.derived.sex = 'f'; }],
   ['H14 a key with no EN string', ['H14'], (p) => { item(p, 1, 'Mon', 'A.s08').notes.push({ key: 'note.does_not_exist' }); }],
   ['H21 targets that drop', ['H21'], (p) => { p.weeks[2].target_by_muscle.quads = 10.1; }],
-  ['H21 direct sets that drop', ['H21'], (p) => { p.weeks[2].direct_sets_by_muscle.chest = 4; }],
+  ['H21 group sets that drop week over week', ['H21'], (p) => { p.weeks[2].weekly_sets_by_group.back = 10; }],
   ['H21 stair level that does not rise', ['H21'], (p) => { p.weeks[1].stair_level = 2; }],
   ['H21 planned RIR that rises', ['H21'], (p) => { p.weeks[2].planned_rir = { min: 3, max: 3, intensifiers: false }; }],
   ['H21 last week not the hardest', ['H21'], (p) => { p.weeks[2].total_resistance_sets = 45; }],
@@ -114,7 +120,8 @@ const CASES = [
   ['H22 a step that is not the planned stairway step', ['H22'], (p) => { p.weeks[1].step_by_muscle.quads = 0.02; }],
   ['H22 an offer without check-ins', ['H22'], (p) => { p.offers = [{ key: 'block.cannot_finish', week: 2 }]; }],
   // v1.2 review round (samples/REVIEW_LOG.md)
-  ['H21 a flat stairway the client was not told about (review 04 / 06 / 08 blockers)', ['H21'], (p) => { p.offers = []; p.meta.warnings = []; }],
+  // v0.4 (R3-SES-02 'never flat'): a trained group that does not climb fails even when the client was told (no warning exempts)
+  ['H21 a flat trained group even with the time-check warning (review 04 / 06 / 08 blockers, RECHECK 01 / 06 / 08)', ['H21'], (p) => { p.weeks[2].weekly_sets_by_group.quads = 10; }],
   ['V27 athletic work far above the profile budget (review 03 / 08 majors)', ['V27'], (p) => { p.weeks[0].athletic_budget.planned.plyo_contacts = 200; }],
   ['V27 Olympic sets above 1.5 x the weekly target (review 04 major)', ['V27'], (p) => { p.weeks[0].athletic_budget.planned.olympic_sets = 20; }],
   ['V28 bilateral share far from D10 (warn, review 06 major 6)', ['V28'], (p) => { p.meta.share_targets.lower.by_exercise_block = [1]; }],
@@ -144,11 +151,28 @@ describe('one failing mutation per check', () => {
 });
 
 describe('exemptions written into the contract', () => {
-  test('warning.floor_schedule naming the muscle exempts it from V22 (D-33)', () => {
+  test('v0.4: no warning exempts a trained group from the floor (D-33 retired; RECHECK 01 / 04 validators exempt on warnings)', () => {
     const p = clone();
-    p.weeks[1].weekly_sets_by_muscle.quads = 9;
+    item(p, 2, 'Mon', 'A.s08').sets = 1;
     p.meta.warnings.push({ code: 'floor', key: 'warning.floor_schedule', args: { muscles: 'quads', advice: 'ui.plan.schedule_advice.more_days' } });
+    p.meta.warnings.push({ code: 'start_lowered', key: 'warning.start_lowered', args: { muscles: 'quads', minutes: 60 } });
+    assert.equal(check(validatePlan(p, model), 'V22').pass, false);
+  });
+
+  test('a big mover kept below the floor for its work lift and listed by the time check is the one floor exemption (E-11)', () => {
+    const p = clone();
+    item(p, 2, 'Mon', 'A.s08').sets = 1;
+    for (const tc of [p.time_check, p.time_check.by_block[0]]) tc.trained_below_floor.push({ group: 'quads', reason: 'work_lift_time' });
     assert.equal(check(validatePlan(p, model), 'V22').pass, true);
+  });
+
+  test('a group listed as not trained directly (time) is exempt from the floor and the climb when it has no exercise', () => {
+    const p = clone();
+    for (const w of p.weeks) for (const d of w.days) for (const b of d.blocks) b.items = b.items.filter(i => i.group !== 'back');
+    for (const tc of [p.time_check, p.time_check.by_block[0]]) tc.not_trained_directly.push({ group: 'back', reason: 'time' });
+    const res = validatePlan(p, model);
+    assert.equal(check(res, 'V22').violations.filter(v => v.args && (v.args.muscle === 'back' || v.args.group === 'back')).length, 0);
+    assert.equal(check(res, 'H21').violations.filter(v => v.args && v.args.muscle === 'back').length, 0);
   });
 
   test('warning.long_day for the weekday makes a long day legal (D-34)', () => {
@@ -191,13 +215,10 @@ describe('exemptions written into the contract', () => {
     assert.equal(check(res, 'H12').pass, true);
   });
 
-  test('adapted weeks (check-ins applied, output_mode checkin) are not held to the planned step (H22)', () => {
+  test('check-ins are retired: an old check-in plan is held to the planned stairway like any other (H22, R3-VOL-02)', () => {
     const p = clone();
     p.meta.derived.output_mode = 'checkin';
     p.weeks[1].step_by_muscle.quads = 0;
-    p.weeks[1].why.push({ key: 'why.r3_pending', ref: 'R3-VOL-02', args: { id: 'R3-VOL-02' } });
-    assert.equal(check(validatePlan(p, model), 'H22').pass, true);
-    p.meta.derived.output_mode = 'plan_only';
     assert.equal(check(validatePlan(p, model), 'H22').pass, false);
   });
 });

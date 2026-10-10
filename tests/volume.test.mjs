@@ -1,4 +1,6 @@
-// tests/volume.test.mjs - engine/volume.mjs (CONTRACTS §4.5, §8, §9; 12_volume_algorithm_v1 v1.1). Owner: B2.
+// tests/volume.test.mjs - engine/volume.mjs (CONTRACTS §4.5, §8, §9; 12_volume_algorithm_v1 v1.1). Owner: B2; v0.4 (stage B1):
+// the stairway runs on lines (R3-VOL-01: one shoulders line), the floor and the time check on the FOCUS groups (R3-SES-01,
+// R3-SES-02), Focus muscles get +2 and never slow the others (R3-VOL-03), no check-ins (R3-VOL-02 / R3-VOL-04).
 // Runs on the fixture and on model/ when present. planWeeklySets is exercised with tests/helpers/simple-layout.mjs and with
 // hand-built layouts (VOL-07 order, day alternation, the strict 10 % total ceiling with staggering).
 import { describe, it } from 'node:test';
@@ -7,7 +9,8 @@ import { loadFixtureModel, loadCompiledModel, loadSample } from './helpers/model
 import { simpleLayout, simpleFill, simpleSelection } from './helpers/simple-layout.mjs';
 import { deriveValues } from '../engine/intake.mjs';
 import { buildShape } from '../engine/shape.mjs';
-import { computeTargets, stairwayPlan, stairwayFrom, planWeeklySets, athleticBudget, weeklyCredits } from '../engine/volume.mjs';
+import { computeTargets, stairwayPlan, stairwayFrom, planWeeklySets, athleticBudget, weeklyCredits, calvesFloor } from '../engine/volume.mjs';
+import { linesOf } from '../engine/timefit.mjs';
 import { roundHalfUp } from '../engine/util.mjs';
 
 const MODELS = [['fixture', loadFixtureModel()]];
@@ -53,18 +56,20 @@ function craft(model, spec) {
     selection: { exercise_block: 1, fills, buy_list: [], why: [] } };
 }
 
-/** derived whose D9 is replaced by crafted targets (muscle -> [start, cap]) */
+/** derived whose D9 is replaced by crafted line targets (line -> [start, cap]; v0.4 lines, R3-VOL-01) */
 function craftedDerived(model, level, targets, extra = {}) {
   const base = deriveValues(sample('06', i => { i.priority_muscles = []; }), model);
+  const X = linesOf(model);
   const start = {}, cap = {}, fill = {};
-  for (const m of model.rules.muscles.order) {
-    const def = model.rules.muscles.defs[m];
-    if (!def.target) { fill[m] = def.fill; continue; }
-    if (targets[m]) { start[m] = targets[m][0]; cap[m] = targets[m][1]; fill[m] = 'target'; } else { start[m] = null; cap[m] = null; fill[m] = 'credit'; }
+  for (const l of X.order) {
+    if (targets[l]) { start[l] = targets[l][0]; cap[l] = targets[l][1]; fill[l] = 'target'; } else { start[l] = null; cap[l] = null; fill[l] = 'credit'; }
   }
-  const D9 = { modifier_id: 'aesthetics', start, cap, fill, priority: extra.priority || [], pain_muscles: [], floored: extra.floored || [],
-    credit_only: Object.keys(start).filter(m => start[m] === null), calves_per_leg_day: 3, core_block: { exercises: 2, sets: 2 }, why: {} };
-  return { ...base, D3_client_level: { ...base.D3_client_level, level }, D9_start_sets: D9, priority_muscles: extra.priority || [], session_minutes: 120 };
+  for (const m of model.rules.muscles.order) if (!(m in fill)) fill[m] = X.lineOf[m] ? fill[X.lineOf[m]] : model.rules.muscles.defs[m].fill;
+  const floored = extra.floored || [];
+  const D9 = { modifier_id: 'aesthetics', start, cap, fill, lines: X.order.slice(), priority: extra.priority || [], focus_add: 0, pain_muscles: [], floored,
+    floor_groups: [...new Set(floored.map(l => X.groupOfLine[l]))], credit_only: X.order.filter(l => start[l] === null), calves_per_leg_day: 3,
+    calves_floor: 10, leg_days: 3, core_block: { exercises: 2, sets: 2 }, why: {} };
+  return { ...base, D3_client_level: { ...base.D3_client_level, level }, D9_start_sets: D9, priority_muscles: extra.priority || [], focus_lines: extra.priority || [], session_minutes: 120 };
 }
 const firstEx = (model, pred) => model.exercises().find(pred).id;
 // the crafted placement tests check the VOL-07 order and the weekly ceiling, not the v1.2 capacity sizing (D-67, tested on the
@@ -124,11 +129,13 @@ for (const [mname, model] of MODELS) {
       assert.ok(20 * (1 + model.rules.stairway.limits.planned_step_max) < 22, 'the 7 % ceiling cannot plan 20 -> 22 in one week');
     });
 
-    it('non-priority muscles step <= 3 % while a priority runs; 60+ <= 3 %; pain: frozen 2 weeks then <= 3 % (D-11)', () => {
+    it('v0.4: a Focus muscle never slows the other lines (R3-VOL-03) and the 60+ 3 % cap is retired; pain: frozen 2 weeks then <= 3 % (D-11)', () => {
+      const plain = one(15, 22, 12);
       const pri = one(15, 22, 12, { priority: ['quads'] });
-      assert.ok(pri.steps.chest.every(s => s <= 0.03 + EPS));
+      assert.deepEqual(pri.steps.chest, plain.steps.chest, 'the other lines keep their own steps');
+      assert.ok(Math.max(...pri.steps.chest) > 0.03 + EPS);
       const old = one(15, 22, 12, { age: 64 });
-      assert.ok(old.steps.chest.every(s => s <= 0.03 + EPS));
+      assert.deepEqual(old.steps.chest, plain.steps.chest, '60+: no extra cap (round 3)');
       const pain = one(6, 11, 12, { pain: ['chest'] });
       assert.deepEqual(pain.steps.chest.slice(0, 3), [0, 0, 0]);
       assert.ok(pain.steps.chest.slice(3).every(s => s > 0 && s <= 0.03 + EPS));
@@ -149,90 +156,105 @@ for (const [mname, model] of MODELS) {
     const sc = (n, m) => [D[n].D9_start_sets.start[m], D[n].D9_start_sets.cap[m]];
     const stair = (n, tbN = 1) => { const sh = buildShape(D[n], model); return stairwayPlan(D[n].D9_start_sets, sh.training_blocks[tbN - 1], D[n], model); };
 
-    it('start -> cap per muscle for the 8 samples (CONTRACTS §9)', () => {
+    it('start -> cap per line for the 8 samples (R3-VOL-01 lines, R3-VOL-03 Focus +2, R2-VOL-06 floor 10)', () => {
       const exp = {
-        // v1.2 (review 01 / 04 / 08 blockers, R2-VOL-06 'nobody needs less than 10 sets'): credit-only is now the swimmer's and
-        // the field athletes' arms only; glutes / side delts get targets everywhere, and stay-active / class plans target every muscle
-        '01': { quads: [11, 16], hamstrings: [11, 16], glutes: [11, 16], chest: [10, 14], lats_upper_back: [10, 14], side_delts: [10, 16], rear_delts: [6, 12], calves: [10, 22], biceps: [null, null], triceps: [null, null] },
-        '02': { quads: [14, 18], hamstrings: [14, 18], glutes: [14, 18], chest: [10, 13], lats_upper_back: [10, 13], side_delts: [10, 16], rear_delts: [8, 16], calves: [12, 25], biceps: [null, null] },
-        '03': { quads: [11, 16], hamstrings: [11, 16], glutes: [11, 16], chest: [10, 14], lats_upper_back: [10, 14], rear_delts: [6, 12], calves: [10, 22] },
-        '04': { quads: [12, 18], hamstrings: [12, 18], chest: [12, 18], lats_upper_back: [12, 18], rear_delts: [6, 12], calves: [10, 22], glutes: [12, 18], biceps: [10, 18] },
-        '05': { quads: [12, 18], chest: [12, 18], side_delts: [10, 18], biceps: [10, 18], triceps: [10, 18] },
-        '06': { quads: [20, 25], hamstrings: [20, 25], chest: [20, 25], lats_upper_back: [20, 25], glutes: [26, 30], side_delts: [21, 30], biceps: [15, 25], triceps: [15, 25], rear_delts: [8, 16], calves: [12, 25] },
-        '07': { quads: [20, 25], glutes: [20, 25], chest: [26, 30], lats_upper_back: [26, 30], side_delts: [15, 25], biceps: [15, 25], triceps: [15, 25], rear_delts: [8, 16], calves: [10, 25] },
-        '08': { quads: [6, 11], hamstrings: [10, 13], chest: [10, 13], lats_upper_back: [10, 13], rear_delts: [4, 8], calves: [10, 14], glutes: [10, 13], side_delts: [10, 13], biceps: [10, 13], triceps: [10, 13] }
+        // field athletes: arms stay helper work (credit only); the shoulders line (side + rear + front delts) is floored at 10
+        // v0.4 fix round 1: outside physique / strength plans the hips group carries ONE target - its hamstrings line - and glutes
+        // follow as credit (E-84, COACH-R3 R3-SES-01); athletes' calves climb 2 sets over 3 a leg day (E-88)
+        '01': { quads: [11, 16], hamstrings: [11, 16], glutes: [null, null], chest: [10, 14], lats_upper_back: [15, 21], shoulders: [10, 16], calves: [10, 12], biceps: [null, null], triceps: [null, null] },
+        '02': { quads: [14, 18], hamstrings: [14, 18], glutes: [null, null], chest: [10, 13], lats_upper_back: [10, 13], shoulders: [10, 16], calves: [12, 14], biceps: [null, null] },
+        '03': { quads: [11, 16], hamstrings: [11, 16], glutes: [null, null], chest: [10, 14], lats_upper_back: [10, 14], shoulders: [10, 16], calves: [10, 12] },
+        // calves: one calf exercise a leg day reaches max(3 x leg days, min(10, 4 x leg days - 1)) (R3-SES-01 calves rule)
+        '04': { quads: [12, 18], hamstrings: [12, 18], chest: [12, 18], lats_upper_back: [12, 18], shoulders: [10, 18], calves: [7, 9], glutes: [null, null], biceps: [10, 18] },
+        '05': { quads: [12, 18], chest: [12, 18], shoulders: [10, 18], biceps: [10, 18], triceps: [10, 18], calves: [10, 22] },
+        // Focus glutes + side delts (shoulders line): +2 on start and cap (R3-VOL-03, PROPOSED 2); physique plans keep two hips lines
+        '06': { quads: [20, 25], hamstrings: [20, 25], chest: [20, 25], lats_upper_back: [20, 25], glutes: [22, 27], shoulders: [17, 27], biceps: [15, 25], triceps: [15, 25], calves: [12, 25] },
+        '07': { quads: [20, 25], glutes: [20, 25], chest: [22, 27], lats_upper_back: [22, 27], shoulders: [15, 25], biceps: [15, 25], triceps: [15, 25], calves: [7, 25] },
+        '08': { quads: [6, 11], hamstrings: [10, 13], chest: [10, 13], lats_upper_back: [10, 13], shoulders: [10, 13], calves: [7, 9], glutes: [null, null], biceps: [10, 13], triceps: [10, 13] }
       };
       for (const [n, ms] of Object.entries(exp)) for (const [m, v] of Object.entries(ms)) assert.deepEqual(sc(n, m), v, `${n} ${m}`);
       assert.equal(D['01'].D9_start_sets.modifier_id, 'field_off'); assert.equal(D['04'].D9_start_sets.modifier_id, 'stay_active');
       assert.equal(D['05'].D9_start_sets.modifier_id, 'general'); assert.equal(D['06'].D9_start_sets.modifier_id, 'aesthetics');
       assert.equal(D['08'].D9_start_sets.modifier_id, 'stay_active');
-      // v1.2 (review 01 blocker, R2-VOL-06): glutes and side delts are targets for a swimmer; arms stay credit-only (D-07 revised)
-      assert.deepEqual(D['01'].D9_start_sets.credit_only, ['biceps', 'triceps']);
-      assert.equal(D['01'].D9_start_sets.fill.rear_delts, 'own_sets'); assert.equal(D['01'].D9_start_sets.fill.abs_obliques, 'core_block');
-      assert.deepEqual(D['06'].D9_start_sets.priority, ['glutes', 'side_delts']); assert.deepEqual(D['07'].D9_start_sets.priority, ['chest', 'lats_upper_back']);
+      const X = linesOf(model);
+      for (const n of Object.keys(D)) { const t = D[n].D9_start_sets; assert.deepEqual(t.lines, X.order.filter(l => typeof t.start[l] === 'number'), n); }
+      assert.deepEqual(D['01'].D9_start_sets.credit_only, ['biceps', 'triceps', 'glutes']); // v0.4 fix round 1: glutes follow the hips group (E-84)
+      assert.equal(D['01'].D9_start_sets.fill.shoulders, 'target'); assert.equal(D['01'].D9_start_sets.fill.rear_delts, 'target', 'members follow their line');
+      assert.equal(D['01'].D9_start_sets.fill.abs_obliques, 'core_block');
+      assert.deepEqual(D['06'].D9_start_sets.priority, ['glutes', 'shoulders']); assert.deepEqual(D['07'].D9_start_sets.priority, ['chest', 'lats_upper_back']);
+      assert.equal(D['06'].D9_start_sets.focus_add, model.rules.volume.focus.add_default);
       assert.deepEqual(D['08'].D9_start_sets.pain_muscles, ['quads']);
-      // v1.2 (review 05 blocker 2): a bootcamp is not floor exempt; what 3 x 45 min cannot hold is named (warning.floor_schedule)
-      assert.deepEqual(D['05'].D9_start_sets.floored, ['quads', 'hamstrings', 'glutes', 'chest', 'lats_upper_back', 'side_delts', 'biceps', 'triceps', 'calves']);
+      // the floor is read on the FOCUS groups (hips = glutes + hamstrings: the carrier is hamstrings, or glutes as a Focus line)
+      assert.deepEqual(D['05'].D9_start_sets.floor_groups, ['quads', 'hips', 'chest', 'back', 'shoulders', 'biceps', 'triceps', 'calves']);
+      assert.ok(D['06'].D9_start_sets.floored.includes('glutes') && !D['06'].D9_start_sets.floored.includes('hamstrings'));
+      assert.ok(!D['08'].D9_start_sets.floor_groups.includes('quads'), 'pain wins over the floor');
     });
 
-    it('lambda and whole-set curves for the 8 samples (CONTRACTS §9)', () => {
-      const p01 = stair('01'); close(p01.lambda.quads, 0.848, 0.001); close(p01.lambda.chest, 0.760, 0.001); assert.equal(p01.lambda.rear_delts, 1);
+    it('calves floor: one calf exercise a leg day holds max(3 x leg days, min(10, 4 x leg days - 1)) (R3-SES-01)', () => {
+      assert.deepEqual([1, 2, 3, 4, 5].map(n => calvesFloor(model, n)), [3, 7, 10, 12, 15]);
+      assert.equal(D['04'].D9_start_sets.calves_floor, 7); assert.equal(D['04'].D9_start_sets.leg_days, 2);
+      assert.equal(D['02'].D9_start_sets.calves_floor, 12);
+    });
+
+    it('lambda and whole-set curves for the 8 samples (lines; no 3 % cap on the non-Focus lines)', () => {
+      const p01 = stair('01'); close(p01.lambda.quads, 0.848, 0.001); close(p01.lambda.chest, 0.760, 0.001); assert.equal(p01.lambda.shoulders, 1);
       assert.deepEqual(whole(p01.T.quads), [11, 11, 11, 11, 12, 12, 13, 13, 14, 14, 15, 16]);
       const p02 = stair('02'); close(p02.lambda.quads, 0.565, 0.001); close(p02.lambda.chest, 0.591, 0.001);
       assert.deepEqual(whole(p02.T.quads), [14, 14, 14, 14, 14, 15, 15, 16, 16, 17, 17, 18]);
       const p03 = stair('03'); assert.equal(p03.lambda.quads, 1); assert.deepEqual(whole(p03.T.quads), [11, 11, 11, 12, 12, 13]);
       const p04 = stair('04'); assert.equal(p04.lambda.quads, 1); assert.deepEqual(whole(p04.T.quads), [12, 12, 12, 13, 13, 14, 15, 15]);
-      const p06 = stair('06'); close(p06.lambda.quads, 0.683, 0.001); close(p06.lambda.glutes, 0.320, 0.001); close(p06.lambda.side_delts, 0.806, 0.001);
-      assert.deepEqual(whole(p06.T.glutes), [26, 26, 26, 26, 27, 27, 27, 28, 28, 29, 29, 30]);
-      assert.deepEqual(whole(p06.T.quads), [20, 20, 20, 21, 21, 22, 22, 23, 23, 24, 24, 25]);
-      const p07 = stair('07'); close(p07.lambda.chest, 0.320, 0.001); close(p07.lambda.quads, 0.683, 0.001);
-      assert.deepEqual(whole(p07.T.chest), [26, 26, 26, 26, 27, 27, 27, 28, 28, 29, 29, 30]);
-      const p08 = stair('08'); close(p08.lambda.hamstrings, 0.591, 0.001);
+      const p06 = stair('06'); close(p06.lambda.quads, 0.501, 0.001); close(p06.lambda.glutes, 0.460, 0.001); assert.equal(p06.lambda.shoulders, 1);
+      assert.deepEqual(whole(p06.T.quads), [20, 20, 20, 20, 21, 21, 22, 22, 23, 23, 24, 25]);
+      assert.equal(p06.T.glutes[0], 22); assert.equal(p06.T.glutes[11], 27);
+      const p07 = stair('07'); close(p07.lambda.chest, 0.460, 0.001); close(p07.lambda.quads, 0.501, 0.001);
+      assert.equal(p07.T.chest[11], 27); assert.equal(p07.T.lats_upper_back[11], 27);
+      const p08 = stair('08'); close(p08.lambda.hamstrings, 0.590, 0.001);
       assert.deepEqual(whole(p08.T.hamstrings), [10, 10, 10, 10, 10, 10, 11, 11, 11, 12, 12, 13]);
       assert.deepEqual(p08.steps.quads.slice(1, 3), [0, 0], 'pain: frozen weeks');
     });
 
-    it('L3 priority 26 -> 30 lands exactly on 30 in week 12; non-priority steps <= 3 % while a priority runs', () => {
+    it('a Focus line lands exactly on its ceiling in week 12; the other lines keep their own steps (R3-VOL-03)', () => {
       const p06 = stair('06');
-      assert.equal(p06.T.glutes[11], 30); assert.ok(p06.lambda.glutes < 1);
-      for (const m of Object.keys(p06.steps)) if (!['glutes', 'side_delts'].includes(m)) assert.ok(p06.steps[m].every(s => s <= 0.03 + EPS), m);
-      assert.ok(Math.max(...p06.steps.side_delts) > 0.03, 'the priority muscle keeps the bigger late steps');
-      const p07 = stair('07'); assert.equal(p07.T.chest[11], 30); assert.equal(p07.T.lats_upper_back[11], 30);
+      assert.equal(p06.T.glutes[11], 27); assert.ok(p06.lambda.glutes < 1);
+      const d0 = deriveValues(sample('06', i => { i.priority_muscles = []; }), model);
+      const p0 = stairwayPlan(d0.D9_start_sets, buildShape(d0, model).training_blocks[0], d0, model);
+      for (const l of ['quads', 'hamstrings', 'chest', 'lats_upper_back']) assert.deepEqual(p06.steps[l], p0.steps[l], `${l}: the same steps with or without a Focus muscle`);
+      const p07 = stair('07'); assert.equal(p07.T.chest[11], 27); assert.equal(p07.T.lats_upper_back[11], 27);
     });
 
-    it('floor of 10 lifts field-athlete chest and back from 7.5 to 10 (R2-VOL-06); pain wins over the floor', () => {
+    it('floor of 10 lifts field-athlete chest from 7.5 to 10 (R2-VOL-06); swim pull >= 1.5 x push on the back line (D-09); pain wins over the floor', () => {
       const t = D['01'].D9_start_sets;
       assert.equal(model.rules.volume.start.chest.L2 * model.rules.volume.modifiers.field_off.upper, 7.5);
-      assert.equal(t.start.chest, 10); assert.equal(t.start.lats_upper_back, 10);
+      assert.equal(t.start.chest, 10); assert.equal(t.start.lats_upper_back, 15, 'back 1.5 x chest (rear delts joined the shoulders line)');
       assert.ok(t.floored.includes('chest') && t.floored.includes('lats_upper_back'));
       assert.ok(t.why.chest.some(w => w.key === 'why.floor_10' && w.ref === 'R2-VOL-06'));
+      assert.ok(t.why.lats_upper_back.some(w => w.key === 'why.volume_ratio'));
       const p = D['08'].D9_start_sets;
       assert.equal(p.start.quads, 6, 'L1 8 -> floor 10 -> knee pain x 0.6 = 6');
       assert.ok(!p.floored.includes('quads')); assert.ok(p.why.quads.some(w => w.key === 'why.pain_cut'));
     });
 
-    it('cap rule D-02 (scaled caps keep the growth room), strength small factor, cycles, swim pull ratio', () => {
+    it('cap rule D-02 (scaled caps keep the growth room), strength small factor, cycles (same start when the last block was not finished, R3-PER-02)', () => {
       const str = deriveValues(sample('07', i => { i.goal = 'strength'; i.priority_muscles = []; i.experience.years_consistent = 2; i.prefs.split_style = 'default'; }), model).D9_start_sets;
       assert.equal(str.modifier_id, 'strength');
       assert.deepEqual([str.start.biceps, str.cap.biceps], [10, 18], 'L2 12 x 0.75 = 9 -> floor 10; cap max(17, 10 + 8)');
-      const cyc = deriveValues(sample('06', i => { i.priority_muscles = []; i.experience.years_consistent = 2; i.plan.previous_cycles = { count: 2, last_had_holds_or_pain: false }; }), model).D9_start_sets;
+      const cyc = deriveValues(sample('06', i => { i.priority_muscles = []; i.experience.years_consistent = 2; i.plan.previous_cycles = { count: 2, last_block_finished: true }; }), model).D9_start_sets;
       assert.deepEqual([cyc.start.quads, cyc.cap.quads], [17, 24], '15 -> 16 -> 17, cap 22 + 2');
-      const same = deriveValues(sample('06', i => { i.priority_muscles = []; i.experience.years_consistent = 2; i.plan.previous_cycles = { count: 2, last_had_holds_or_pain: true }; }), model).D9_start_sets;
-      assert.deepEqual([same.start.quads, same.cap.quads], [15, 22], 'same start after holds or pain');
-      const swimL1 = deriveValues(sample('01', i => { i.experience.years_consistent = 0.5; }), model).D9_start_sets;
-      assert.equal(swimL1.start.lats_upper_back, 11, 'lats + rear delts >= 1.5 x chest (10 + 4 < 15 -> 11)');
-      assert.ok(swimL1.why.lats_upper_back.some(w => w.key === 'why.volume_ratio'));
+      const same = deriveValues(sample('06', i => { i.priority_muscles = []; i.experience.years_consistent = 2; i.plan.previous_cycles = { count: 2, last_block_finished: false }; }), model).D9_start_sets;
+      assert.deepEqual([same.start.quads, same.cap.quads], [15, 22], 'same start when the last block was not finished');
+      const old = deriveValues(sample('06', i => { i.priority_muscles = []; i.experience.years_consistent = 2; i.plan.previous_cycles = { count: 2, last_had_holds_or_pain: true }; }), model).D9_start_sets;
+      assert.deepEqual([old.start.quads, old.cap.quads], [15, 22], 'the old field name still reads (alias)');
     });
 
-    it('v_taper priority: side delts + lats get the priority, chest is held at its start (VOL-18)', () => {
+    it('v_taper Focus: back + shoulders get +2 (both Focus slots), chest keeps its own stairway (VOL-18, R3-VOL-03)', () => {
       const d = deriveValues(sample('06', i => { i.priority_muscles = ['v_taper']; }), model);
       assert.deepEqual(d.priority_choices, ['v_taper']);
       const t = d.D9_start_sets;
-      assert.deepEqual(t.priority, ['lats_upper_back', 'side_delts']);
-      assert.deepEqual([t.start.chest, t.cap.chest], [20, 20]);
+      assert.deepEqual(t.priority, ['lats_upper_back', 'shoulders']);
+      assert.deepEqual([t.start.lats_upper_back, t.cap.lats_upper_back], [22, 27]);
       const p = stairwayPlan(t, buildShape(d, model).training_blocks[0], d, model);
-      assert.ok(p.T.chest.every(x => x === 20), 'chest held flat');
-      assert.equal(p.T.lats_upper_back[11], 30);
+      assert.equal(p.T.lats_upper_back[11], 27);
+      assert.ok(p.T.chest[11] > p.T.chest[0], 'chest is not slowed or held (R3-VOL-03: no slowing of the other lines)');
     });
 
     it('maintenance factors 0.5 / 0.6 / 0.7 of the level start, not floored; older floor 0.7', () => {
@@ -242,7 +264,7 @@ for (const [mname, model] of MODELS) {
       assert.equal(m('planned_maintenance').start.quads, 14);
       assert.equal(m('vacation_limited_kit', 66).start.quads, 14, '60+: at least 0.7');
       assert.deepEqual(m('vacation_limited_kit').floored, []);
-      assert.equal(m('vacation_limited_kit').start.rear_delts, 4, 'own sets 8 x 0.5');
+      assert.equal(m('vacation_limited_kit').start.shoulders, roundHalfUp(0.5 * model.rules.volume.start.shoulders.L3), 'the shoulders line x 0.5');
     });
   });
 
@@ -286,69 +308,63 @@ for (const [mname, model] of MODELS) {
       bench: 'barbell-bench-press', db: 'flat-db-bench-press', fly: 'cable-fly'
     };
 
-    it('VOL-07 placement on one day: 2/2/2 -> 3/2/2 -> 3/3/2 -> 3/3/3 -> 4/3/3', () => {
+    // v0.4: crafted layouts run through the time check like any plan (R3-SES-02); their ceilings are ones the stations can hold
+    // (one day holds at most rules.volume.per_session.soft = 11 sets of a line; 3 stations x 4-5 sets)
+    it('VOL-07 placement on one day: 2/2/2 -> 3/2/2 -> 3/3/2 -> 3/3/3 (week 1 sits on the start)', () => {
       const { layout, selection } = craft(model, [{ weekday: 'Mon', slots: [
         { bucket: 'RP_HPUSH', ex: chest.bench, sets: 2 }, { bucket: 'RP_HPUSH', ex: chest.db, sets: 2 }, { bucket: 'ISO_CHEST', ex: chest.fly, sets: 2 }] }]);
       const ids = layout.days[0].blocks[0].slots.map(s => s.slot_id);
       const seq = [];
-      for (const S of [7, 8, 9, 10, 11]) {
-        const d = craftedDerived(model, 'L2', { chest: [S, 30] });
+      for (const S of [6, 7, 8, 9]) {
+        const d = craftedDerived(model, 'L2', { chest: [S, 11] });
         const sh = buildShape(d, model);
-        const vp = planWeeklySets({ derived: d, shape: sh, layouts: [layout], selections: [1, 2, 3].map(e => ({ ...selection, exercise_block: e })), model: noCap(model), fillSlot: () => null });
+        const vp = planWeeklySets({ derived: d, shape: sh, layouts: [layout], selections: [1, 2, 3].map(e => ({ ...selection, exercise_block: e })), model, fillSlot: () => null });
         seq.push(ids.map(id => vp.weeks[0].sets_by_slot[id]).join('/'));
+        assert.equal(vp.time_check[0].fits, true, `S=${S}`);
       }
-      assert.deepEqual(seq, ['2/2/2', '3/2/2', '3/3/2', '3/3/3', '4/3/3']);
+      assert.deepEqual(seq, ['2/2/2', '3/2/2', '3/3/2', '3/3/3']);
     });
 
-    it('a new set alternates the days that train the muscle (day A, then day B; R3-VOL-03 default)', () => {
+    it('a new set alternates the days that train the line (day A, then day B; R3-VOL-03)', () => {
       const { layout, selection } = craft(model, [
         { weekday: 'Mon', slots: [{ bucket: 'RP_HPUSH', ex: chest.bench, sets: 2 }] },
         { weekday: 'Wed', slots: [{ bucket: 'RP_HPUSH', ex: chest.db, sets: 2 }] },
         { weekday: 'Fri', slots: [{ bucket: 'ISO_CHEST', ex: chest.fly, sets: 2 }] }]);
       const get = (S) => {
-        const d = craftedDerived(model, 'L2', { chest: [S, 30] });
-        const vp = planWeeklySets({ derived: d, shape: buildShape(d, model), layouts: [layout], selections: [1, 2, 3].map(e => ({ ...selection, exercise_block: e })), model: noCap(model), fillSlot: () => null });
+        const d = craftedDerived(model, 'L2', { chest: [S, 14] });
+        const vp = planWeeklySets({ derived: d, shape: buildShape(d, model), layouts: [layout], selections: [1, 2, 3].map(e => ({ ...selection, exercise_block: e })), model, fillSlot: () => null });
         return ['Mon', 'Wed', 'Fri'].map(wd => vp.weeks[0].sets_by_slot[`${wd}.X.s01`]).join('/');
       };
-      assert.equal(get(8), '3/2/2'); assert.equal(get(9), '3/3/2'); assert.equal(get(10), '3/3/3'); assert.equal(get(11), '4/3/3');
+      assert.equal(get(7), '3/2/2'); assert.equal(get(8), '3/3/2'); assert.equal(get(9), '3/3/3'); assert.equal(get(10), '4/3/3'); assert.equal(get(11), '4/4/3');
     });
 
-    it('total weekly sets rise at most 7 % (never 10 %): nine muscles releasing in the same week are staggered (UNI-05, v1.2)', () => {
+    it('total weekly sets never rise 10 % (at most 7 % or one set) and every line lands on its ceiling in the last week (UNI-05, R3-VOL-04)', () => {
       const pick = (cls, bucket, re) => firstEx(model, e => e.credit_class === cls && e.slots.includes(bucket) && (!re || re.test(e.id)));
       const rows = [
         ['quads', 'ISO_QUAD', pick('LEG_EXTENSION', 'ISO_QUAD')], ['hamstrings', 'ISO_LEG_FLEXION', pick('LEG_FLEXION', 'ISO_LEG_FLEXION')],
         ['chest', 'ISO_CHEST', pick('ISO_CHEST', 'ISO_CHEST')], ['lats_upper_back', 'RP_VPULL', pick('PULLOVER', 'RP_VPULL')],
-        ['side_delts', 'ISO_SIDE_REAR_DELT', pick('ISO_SIDE', 'ISO_SIDE_REAR_DELT')], ['rear_delts', 'ISO_SIDE_REAR_DELT', pick('ISO_REAR', 'ISO_SIDE_REAR_DELT', /reverse-fly/)],
-        ['biceps', 'ISO_BICEP', pick('ISO_BICEPS', 'ISO_BICEP')], ['triceps', 'ISO_TRICEP', pick('ISO_TRICEPS', 'ISO_TRICEP')], ['calves', 'ISO_CALF', pick('ISO_CALF', 'ISO_CALF')]];
+        ['shoulders', 'ISO_SIDE_REAR_DELT', pick('ISO_SIDE', 'ISO_SIDE_REAR_DELT')],
+        ['biceps', 'ISO_BICEP', pick('ISO_BICEPS', 'ISO_BICEP')], ['triceps', 'ISO_TRICEP', pick('ISO_TRICEPS', 'ISO_TRICEP')], ['calves', 'ISO_CALF', pick('ISO_CALF', 'ISO_CALF')],
+        ['glutes', 'RP_BHD', firstEx(model, e => e.credit_class === 'HIP_THRUST' || /hip-thrust/.test(e.id))]];
       const spec = [['Mon', 4], ['Wed', 3], ['Fri', 3]].map(([wd, n]) => ({ weekday: wd, slots: rows.map(([, bucket, ex]) => ({ bucket, ex, sets: n })) }));
       const { layout, selection } = craft(model, spec);
-      const targets = {}; for (const [m] of rows) targets[m] = [10, 14];
+      const targets = {}; for (const [m] of rows) targets[m] = [10, 12];
       const d = craftedDerived(model, 'L1', targets);
       const sh = buildShape(d, model);
-      const vp = planWeeklySets({ derived: d, shape: sh, layouts: [layout], selections: [1, 2, 3].map(e => ({ ...selection, exercise_block: e })), model: noCap(model), fillSlot: () => null });
+      const vp = planWeeklySets({ derived: d, shape: sh, layouts: [layout], selections: [1, 2, 3].map(e => ({ ...selection, exercise_block: e })), model, fillSlot: () => null });
       const tot = vp.weeks.map(w => w.total_resistance_sets);
-      assert.equal(tot[0], 90);
       for (let k = 1; k < tot.length; k++) {
         assert.ok(tot[k] < 1.1 * tot[k - 1] - EPS, `week ${k + 1}: ${tot[k - 1]} -> ${tot[k]}`);
+        assert.ok(tot[k] <= Math.max(tot[k - 1] + 1, 1.07 * tot[k - 1]) + EPS, `week ${k + 1}: ${tot[k - 1]} -> ${tot[k]} (> 7 %)`);
         assert.ok(tot[k] >= tot[k - 1]);
       }
-      // v1.2 (R2-VOL-01 / UNI-05, review 01-08: 'never more than 7 %'): the placed week total rises at most 7 % (10 % is never
-      // reached); nine muscles releasing together are staggered over the following weeks (why.total_ceiling)
-      for (let k = 1; k < tot.length; k++) assert.ok(tot[k] <= 1.07 * tot[k - 1] + EPS, `week ${k + 1}: ${tot[k - 1]} -> ${tot[k]} (> 7 %)`);
-      assert.ok(vp.weeks.some(w => w.why.some(x => x.key === 'why.total_ceiling')), 'the ceiling staggered a release');
-      const w6 = vp.weeks[5];
-      assert.ok(w6.changes.filter(c => c.key === 'changes.set_added').length >= 5, 'most of the nine releases land in week 6');
-      for (const [m] of rows) assert.ok(vp.weeks[11].weekly_sets_by_muscle[m] >= 11, `${m} released by week 12`);
-      // chest follows the whole-set stairway until its three slots reach the L1 maximum of 4 sets each (12) with no room for a Focus slot
-      // (v1.2: the placed curve trails the whole-set target by the weekly ceiling, never more than one set ahead of it)
-      const T = whole(stairwayPlan(d.D9_start_sets, sh.training_blocks[0], d, model).T.chest);
-      const placed = vp.weeks.map(w => w.weekly_sets_by_muscle.chest);
-      for (let k = 0; k < placed.length; k++) { assert.ok(placed[k] <= T[k] + 1 + EPS, `chest wk ${k + 1}`); if (k) assert.ok(placed[k] >= placed[k - 1]); }
-      assert.deepEqual(placed.slice(10), [12, 12]);
-      assert.ok(vp.weeks.slice(9).some(w => w.shortfalls.some(s => s.field === 'chest')), 'no room: reported as a shortfall');
+      for (const [m] of rows) {
+        assert.ok(vp.weeks[0].weekly_sets_by_line[m] >= 10 - 1 - EPS, `${m} week 1 at its start`);
+        assert.equal(vp.weeks[11].weekly_sets_by_line[m], 12, `${m} on its ceiling in week 12`);
+      }
     });
 
-    it('an exercise-block change that moves a slot to another main muscle never lowers the direct sets (H21)', () => {
+    it('an exercise-block change that moves a slot to another main muscle puts the lost sets back on the line (H21: the group never drops)', () => {
       const curl = firstEx(model, e => e.credit_class === 'LEG_FLEXION');
       const filler = [1, 2, 3].map(() => ({ bucket: 'ISO_CHEST', ex: chest.fly, sets: 4 })); // untargeted volume so +3 sets stay under +10 %
       const { layout, selection } = craft(model, [
@@ -362,11 +378,14 @@ for (const [mname, model] of MODELS) {
       const sels = [{ ...selection, exercise_block: 1 }, { ...selection, exercise_block: 2, fills: swapped }, { ...selection, exercise_block: 3, fills: swapped }];
       const vp = planWeeklySets({ derived: d, shape: sh, layouts: [layout], selections: sels, model, fillSlot: () => null });
       for (let k = 1; k < vp.weeks.length; k++) {
-        assert.ok(vp.weeks[k].direct_sets_by_muscle.hamstrings >= vp.weeks[k - 1].direct_sets_by_muscle.hamstrings, `hamstrings week ${k + 1}`);
+        assert.ok(vp.weeks[k].weekly_sets_by_group.hips >= vp.weeks[k - 1].weekly_sets_by_group.hips - EPS, `hips week ${k + 1}`);
+        assert.ok(vp.weeks[k].weekly_sets_by_line.hamstrings >= vp.weeks[k - 1].weekly_sets_by_line.hamstrings - 0.5 - EPS, `hamstrings week ${k + 1}`);
         assert.ok(vp.weeks[k].total_resistance_sets < 1.1 * vp.weeks[k - 1].total_resistance_sets - EPS);
       }
       assert.ok(vp.weeks[4].changes.some(c => c.key === 'changes.new_exercise_block'));
       assert.ok(vp.weeks[4].changes.some(c => c.key === 'changes.set_added' && c.args.slot_id.endsWith('.X.s02')), 'the lost hamstring sets go back on a hamstring exercise');
+      const h = vp.weeks.map(w => w.weekly_sets_by_line.hamstrings);
+      assert.ok(h[11] - h[0] >= 2 - 0.5, 'the line still climbs');
     });
 
     it('bonus slots take the next free engine-added id of the day (no clash with week.mjs prehab xNN slots)', () => {
@@ -378,51 +397,61 @@ for (const [mname, model] of MODELS) {
       const pre = slots[2];
       const oldId = pre.slot_id; pre.slot_id = 'Mon.X.x01'; pre.origin = 'prehab_added';
       selection.fills['Mon.X.x01'] = { ...selection.fills[oldId], slot_id: 'Mon.X.x01' }; delete selection.fills[oldId];
-      const d = craftedDerived(model, 'L2', { side_delts: [8, 22] });
+      const d = craftedDerived(model, 'L2', { shoulders: [8, 14] });
       const vp = planWeeklySets({ derived: d, shape: buildShape(d, model), layouts: [layout], selections: [1, 2, 3].map(e => ({ ...selection, exercise_block: e })), model, fillSlot: (slot) => simpleFill(slot, model) });
-      const added = vp.weeks[0].added_slots;
+      const added = vp.weeks[vp.weeks.length - 1].added_slots;
       assert.equal(added.length, 1);
       assert.equal(added[0].slot_id, 'Mon.X.x02');
       assert.deepEqual([added[0].origin, added[0].bucket, added[0].variant, added[0].focus_muscle, added[0].group], ['bonus', 'ISO_SIDE_REAR_DELT', 'side', 'side_delts', 'shoulders']);
       assert.equal(vp.weeks[0].sets_by_slot['Mon.X.x01'], 2);
     });
 
-    it('the 8 samples: steps = planned stairway, total < +10 %, sets never drop, last week hardest, floor 10 or floor_schedule', () => {
+    it('the 8 samples: steps = planned stairway, total < +10 %, last week hardest, every trained group holds its floor and climbs (R3-SES-02)', () => {
+      const X = linesOf(model);
+      const MC = model.rules.stairway.min_climb;
       for (const n of ['01', '02', '03', '04', '05', '06', '07', '08']) {
         const { d, sh, vp } = planFor(model, sample(n));
         assert.equal(vp.weeks.length, sh.weeks.length, n);
         assert.equal(vp.athletic.length, sh.weeks.length);
         assert.ok(!/NaN|Infinity|undefined/.test(JSON.stringify(vp)), n);
-        const floorWarn = vp.warnings.find(w => w.key === 'warning.floor_schedule');
-        const exempt = floorWarn ? floorWarn.args.muscles.split(', ') : [];
+        assert.ok(!vp.warnings.some(w => ['warning.floor_schedule', 'warning.start_lowered', 'warning.stairway_time'].includes(w.key)), `${n}: retired warnings`);
         for (const tb of sh.training_blocks.filter(b => b.type === 'stairway')) {
-          // v1.2 (D-67): the planned stairway is the block's own, sized to the minutes (vp.block_targets)
           const bt = (vp.block_targets || []).find(b => b.training_block === tb.n);
-          const p = bt ? stairwayFrom({ ...d.D9_start_sets, start: bt.start, cap: bt.cap }, tb, d, model) : stairwayPlan(d.D9_start_sets, tb, d, model);
+          const tc = (vp.time_check || []).find(b => b.training_block === tb.n);
+          assert.ok(bt && tc, `${n} block ${tb.n}: targets and time check`);
+          const p = stairwayFrom({ ...d.D9_start_sets, start: bt.start, cap: bt.cap }, tb, d, model);
           const ws = vp.weeks.filter(w => sh.weeks[w.n - 1].training_block === tb.n);
+          const circuit = !!sh.weeks[ws[0].n - 1].circuit;
+          const below = (tc.trained_below_floor || []).map(x => x.group);
+          const trained = tc.trained_groups.filter(g => (d.D9_start_sets.floor_groups || []).includes(g));
           ws.forEach((w, k) => {
-            for (const m of Object.keys(p.steps)) assert.equal(w.step_by_muscle[m], p.steps[m][k], `${n} H22 step ${m} wk ${w.n}`);
-            for (const m of d.D9_start_sets.floored) if (!exempt.includes(m) && !sh.weeks[w.n - 1].circuit) assert.ok(w.weekly_sets_by_muscle[m] >= 10 - EPS, `${n} floor ${m} wk ${w.n}`);
+            for (const l of Object.keys(p.steps)) if (!bt.dropped_groups.includes(X.groupOfLine[l])) assert.equal(w.step_by_muscle[l], p.steps[l][k], `${n} H22 step ${l} wk ${w.n}`);
+            if (!circuit) for (const g of trained) if (!below.includes(g) && g !== 'calves') assert.ok(w.main_sets_by_group[g] >= 10 - EPS, `${n} floor ${g} wk ${w.n}: ${w.main_sets_by_group[g]}`);
             if (k === 0) return;
             const prev = ws[k - 1];
-            assert.ok(w.total_resistance_sets < 1.1 * prev.total_resistance_sets - EPS, `${n} V15 wk ${w.n}`);
+            assert.ok(w.total_resistance_sets < 1.1 * prev.total_resistance_sets - EPS || w.total_resistance_sets <= prev.total_resistance_sets + 1, `${n} V15 wk ${w.n}`);
             assert.ok(w.total_resistance_sets >= prev.total_resistance_sets, `${n} total drops wk ${w.n}`);
-            for (const m of Object.keys(p.steps)) assert.ok(w.direct_sets_by_muscle[m] >= prev.direct_sets_by_muscle[m], `${n} H21 direct ${m} wk ${w.n}`);
+            if (!circuit) for (const g of trained) assert.ok(w.weekly_sets_by_group[g] >= prev.weekly_sets_by_group[g] - 0.5 - EPS, `${n} H21 ${g} wk ${w.n}`);
           });
+          if (!circuit) for (const g of trained) {
+            const first = ws[0].weekly_sets_by_group[g], last = ws[ws.length - 1].weekly_sets_by_group[g];
+            // (a big mover held below its floor climbs one set, E-11 / E-81 - as H21 reads it)
+            const need = g === 'calves' || below.includes(g) ? MC.calves : (MC.short_block && ws.length <= MC.short_block.max_N ? MC.short_block.group : MC.group);
+            assert.ok(last - first >= need - 0.5 - EPS, `${n} ${g} climbs ${first} -> ${last}`);
+          }
           const last = ws[ws.length - 1].total_resistance_sets;
           assert.ok(ws.every(w => w.total_resistance_sets <= last), `${n} last week hardest`);
         }
       }
     });
 
-    it('weekly sets = credited coach count of the set map (weeklyCredits agrees); week 1 sits at the start (+-1)', () => {
-      const { d, layouts, selections, vp } = planFor(model, sample('02'));
+    it('weekly sets = credited coach count of the set map (weeklyCredits agrees); week 1 sits at the block start (+-1)', () => {
+      const { layouts, selections, vp } = planFor(model, sample('02'));
       const w1 = vp.weeks[0];
       assert.equal(w1.added_slots.length, 0);
       assert.deepEqual(weeklyCredits(layouts[0], w1.sets_by_slot, selections[0].fills, model), w1.weekly_sets_by_muscle);
-      for (const m of ['quads', 'chest', 'lats_upper_back', 'rear_delts', 'calves']) {
-        assert.ok(w1.weekly_sets_by_muscle[m] >= d.D9_start_sets.start[m] - 1 - EPS, m);
-      }
+      const bt = vp.block_targets[0];
+      for (const l of ['quads', 'chest', 'lats_upper_back', 'shoulders', 'calves']) assert.ok(w1.weekly_sets_by_line[l] >= bt.start[l] - 1 - EPS, `${l} ${w1.weekly_sets_by_line[l]} vs ${bt.start[l]}`);
       for (const [id, v] of Object.entries(w1.sets_by_slot)) if (/\.s0[12]$/.test(id) && layouts[0].days.some(x => x.blocks.some(b => b.slots.some(s => s.slot_id === id && s.bucket.startsWith('WARMUP'))))) assert.equal(v, null);
     });
 
@@ -444,17 +473,25 @@ for (const [mname, model] of MODELS) {
       assert.ok(sh.weeks[6].block_type === 'pre_season' && w7.step_by_muscle.quads === 0);
     });
 
-    it('bootcamp circuits: every station = the week\'s rounds, the stairway climbs by work seconds, totals flat, floor misses named (D-19 v1.2)', () => {
+    it('bootcamp circuits: every kept station = the week\'s rounds, the stairway climbs by work seconds, totals flat; what the minutes cannot hold is named (R3-SES-02)', () => {
       const { sh, layouts, vp } = planFor(model, sample('05'));
+      const tc = vp.time_check[0];
+      const dropped = tc.not_trained_directly.filter(x => x.reason === 'time').map(x => x.group);
       const circ = [];
-      for (const d of layouts[0].days) for (const b of d.blocks) for (const s of b.slots) if (s.circuit) circ.push(s.slot_id);
+      for (const d of layouts[0].days) for (const b of d.blocks) for (const s of b.slots) if (s.circuit) circ.push(s);
       assert.ok(circ.length >= 20);
-      for (const w of vp.weeks) for (const id of circ) assert.equal(w.sets_by_slot[id], sh.weeks[w.n - 1].circuit.rounds);
+      for (const w of vp.weeks) for (const s of circ) {
+        const v = w.sets_by_slot[s.slot_id];
+        assert.ok(v === sh.weeks[w.n - 1].circuit.rounds || v === 0, `${s.slot_id} ${v}`);
+        if (v === 0 && s.group) assert.ok(dropped.includes(s.group) || (w.added_slots || []).some(a => a.replaces === s.slot_id), `${s.slot_id}: a station leaves only with its group or for a swap`);
+      }
       assert.ok(vp.weeks.every(w => w.total_resistance_sets === vp.weeks[0].total_resistance_sets));
       assert.ok(vp.weeks.some(w => w.changes.some(c => c.key === 'changes.circuit_longer')));
-      // v1.2 (review 05 blocker 2): circuits are no longer floor exempt - the muscles a 3 x 45 bootcamp cannot hold at 10 are named
-      const fw = vp.warnings.find(w => w.key === 'warning.floor_schedule');
-      assert.ok(fw && fw.args.muscles.length > 0, 'the floor misses are named');
+      if (!tc.fits) {
+        assert.ok(vp.warnings.some(w => w.key === 'warning.time_check'));
+        assert.ok(vp.offers.some(o => o.chosen && o.key.startsWith('offer.keep_time')));
+      }
+      if (dropped.length) assert.ok(vp.warnings.some(w => w.key === 'warning.not_trained_directly'));
     });
 
     it('year plan: Q1 sets stay at week 1, recovery = ceil(half the hardest week) per slot, the first week after recovery is exempt', () => {
@@ -478,11 +515,17 @@ for (const [mname, model] of MODELS) {
       assert.equal(mt.vp.weeks[0].target_by_muscle.quads, mt.d.D9_start_sets.start.quads);
     });
 
-    it('a schedule too short for the floor names the muscles in warning.floor_schedule (D-33, pickleball 2 x 45 min)', () => {
+    it('a schedule too short for the full plan: told up front, offered more time with computed numbers, fewer groups kept (R3-SES-02, pickleball 2 x 45 min)', () => {
       const { vp } = planFor(model, sample('08'));
-      const w = vp.warnings.find(x => x.key === 'warning.floor_schedule');
-      assert.ok(w, 'warning present'); assert.equal(w.code, 'floor_schedule');
-      assert.ok(w.args.muscles.length > 0 && typeof w.args.advice === 'string' && w.args.advice.startsWith('ui.plan.schedule_advice.'));
+      const tc = vp.time_check[0];
+      assert.equal(tc.fits, false);
+      assert.ok(vp.warnings.some(x => x.key === 'warning.time_check'));
+      assert.ok(tc.needed_minutes > 45);
+      const more = vp.offers.find(o => o.key === 'offer.more_days' || o.key === 'offer.more_days_min');
+      assert.ok(more && more.args.days === 3, JSON.stringify(vp.offers));
+      assert.ok(vp.offers.some(o => o.chosen && o.key.startsWith('offer.keep_time')));
+      assert.ok(tc.trained_groups.length > 0 && tc.not_trained_directly.some(x => x.reason === 'time'));
+      assert.ok(!vp.warnings.some(x => x.key === 'warning.floor_schedule'), 'D-33 retired');
     });
 
     it('bonus / Focus work goes to the main days first (v1.2) and never makes a muscle group\'s only exercise on a main day', () => {
@@ -514,8 +557,16 @@ for (const [mname, model] of MODELS) {
     it('swimmer: linear week 1 -> week 12 budget, plyo share 0.10 -> 0.25, RC stages, 100 contacts per session (CONTRACTS §9)', () => {
       const d = deriveValues(sample('01'), model); const sh = buildShape(d, model);
       const ab = athleticBudget(d, sh, model);
-      assert.deepEqual(ab[0].targets, { plyo_contacts: 6, jump_contacts: 37, low_contacts: 51, throws: 35, cod_cuts: 0, sprint_m: 0, olympic_sets: 5 });
-      assert.deepEqual(ab[11].targets, { plyo_contacts: 8, jump_contacts: 49, low_contacts: 69, throws: 45, cod_cuts: 0, sprint_m: 0, olympic_sets: 8 });
+      // v0.4 stage B2 (E-28): the 04 volume (high contacts 37 -> 49, ankle 51 -> 69, throws 35 -> 45) split by the coach's plyo
+      // share (R2-ATH-01: reactive jumps + ankle work over all jump and throw work; R3-ATH-01 swimmers 'mostly ballistic, 25 %'):
+      // week 1 is stage 1 (no reactive jumps): ankle = 0.10 x (37 + 35) / 0.90 = 8; the end-test week 12 holds week 11, the top:
+      // X = 0.25 x (49 + 45) / (1 - 0.25 x 69/77) = 30.3, ankle 69/77 of it = 27, reactive 3, ballistic 49 - 3 = 46
+      assert.deepEqual(ab[0].targets, { plyo_contacts: 0, jump_contacts: 37, low_contacts: 8, throws: 35, cod_cuts: 0, sprint_m: 0, olympic_sets: 5 });
+      assert.deepEqual(ab[11].targets, { plyo_contacts: 3, jump_contacts: 46, low_contacts: 27, throws: 45, cod_cuts: 0, sprint_m: 0, olympic_sets: 8 });
+      assert.deepEqual(ab[10].targets, ab[11].targets, 'the end-test week holds the week before');
+      assert.ok(ab[11].hold && !ab[10].hold);
+      const t = ab[11].targets, share = (t.plyo_contacts + t.low_contacts) / (t.plyo_contacts + t.jump_contacts + t.low_contacts + t.throws);
+      assert.ok(Math.abs(share - 0.25) < 0.01, `planned share ${share}`);
       assert.equal(ab[0].plyo_share, 0.1); assert.equal(ab[11].plyo_share, 0.25);
       assert.deepEqual(ab.map(a => a.stage), sh.weeks.map(w => w.plyo_stage));
       assert.ok(ab.every(a => a.contacts_session_max === 100 && a.enabled && a.factor === 1));
@@ -525,16 +576,23 @@ for (const [mname, model] of MODELS) {
     it('soccer pre-season factors, pickleball heavy play weeks, aesthetics off, 60+ landings only', () => {
       const so = deriveValues(sample('03'), model); const ab = athleticBudget(so, buildShape(so, model), model);
       const pre = model.sport('soccer').pre_season;
-      assert.equal(ab[6].targets.plyo_contacts, roundHalfUp(95 * pre.PLYO)); assert.equal(ab[6].targets.cod_cuts, 160);
+      // B2: the pre-season split of the end-of-block volume (share 0.60, stage 2 held): X = 0.6 x (160 + 40) / (1 - 0.6 x 140/235),
+      // reactive 95/235 of it = 75.5, then x the profile's pre-season PLYO factor
+      const X = (0.6 * 200) / (1 - 0.6 * (140 / 235));
+      assert.equal(ab[6].targets.plyo_contacts, roundHalfUp((X - Math.min(140, (140 / 235) * X)) * pre.PLYO)); assert.equal(ab[6].targets.cod_cuts, 160);
       assert.equal(ab[6].plyo_share, 0.6); assert.equal(ab[6].factor, pre.PLYO);
       const pb = deriveValues(sample('08'), model); const pab = athleticBudget(pb, buildShape(pb, model), model);
-      assert.equal(pab[0].targets.plyo_contacts, roundHalfUp(7 * 0.5)); assert.equal(pab[0].targets.cod_cuts, 0, 'heavy play week: no extra COD');
+      // B2: stage 1 has no reactive jumps; heavy play weeks halve the jumps (14 -> 7) and drop the extra COD (R3-ATH-05)
+      assert.equal(pab[0].targets.plyo_contacts, 0); assert.equal(pab[0].targets.jump_contacts, roundHalfUp(14 * 0.5)); assert.equal(pab[0].targets.cod_cuts, 0, 'heavy play week: no extra COD');
       assert.equal(pab[0].factor, 0.5); assert.equal(pab[0].contacts_session_max, 80);
       const ae = deriveValues(sample('06'), model); const aab = athleticBudget(ae, buildShape(ae, model), model);
       assert.ok(aab.every(a => !a.enabled && a.plyo_share === null && a.targets.plyo_contacts === null && a.targets.olympic_sets === null));
       const old = deriveValues(sample('08', i => { i.age = 66; i.activity.play_days = []; }), model);
       const oab = athleticBudget(old, buildShape(old, model), model);
-      assert.ok(oab.every(a => !a.enabled && a.targets.plyo_contacts === null && a.targets.olympic_sets === null && typeof a.targets.low_contacts === 'number'), '60+ default: landings only');
+      // COACH-R3 R3-ATH-02 (approved; B2): the 60+ default doses landings, light throws and quick stepping toward the profile;
+      // reactive jumps, ankle hops, sprints and Olympic lifts are off unless switched on
+      assert.ok(oab.every(a => !a.enabled && a.targets.plyo_contacts === null && a.targets.olympic_sets === null && a.targets.low_contacts === null && a.targets.sprint_m === null &&
+        typeof a.targets.jump_contacts === 'number' && typeof a.targets.throws === 'number' && typeof a.targets.cod_cuts === 'number'), '60+ default: landings, light throws, quick stepping');
       const opt = deriveValues(sample('08', i => { i.age = 66; i.prefs.older_athletic_opt_in = true; }), model);
       assert.ok(athleticBudget(opt, buildShape(opt, model), model)[0].enabled, 'opt-in unlocks the budget');
     });

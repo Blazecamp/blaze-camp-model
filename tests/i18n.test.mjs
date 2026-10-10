@@ -70,12 +70,14 @@ if (compiled) {
   });
 } else test('compiled model/ suite', { skip: 'model/ not compiled yet' }, () => {});
 
-test('the coach copy carries the round-2 meanings (effort 10 = successful max; no lifestyle question)', () => {
+test('the coach copy carries the round-2 meanings (effort 10 = successful max; no lifestyle question); check-ins retired (R3-VOL-02)', () => {
   const model = loadFixtureModel();
   assert.match(model.t('en', 'effort.ten'), /made it/);
   assert.ok(model.has('es', 'effort.ten') || model.i18n.es_review.missing_keys.includes('effort.ten'));
-  assert.match(model.rules.stairway.checkin.effort_10_meaning, /successful/);
-  assert.equal(model.rules.stairway.checkin.no_life_question, true);
+  // v0.4: no check-ins, no tracking, no adaptive inputs - the check-in rules are gone and the plan is the planned stairway only
+  assert.equal(model.rules.stairway.checkin, undefined);
+  assert.equal(model.rules.stairway.no_checkin, 'planned_only');
+  assert.ok(model.has('en', 'warning.checkin_retired') && model.has('es', 'warning.checkin_retired'));
   for (const k of ['instruction.title', 'instruction.1', 'instruction.2', 'instruction.3', 'instruction.4', 'instruction.5', ...model.rules.locked.map(l => l.key), ...model.rules.validation.checks.map(c => c.key)]) {
     assert.ok(model.has('en', k), k);
     assert.ok(model.has('es', k) || model.i18n.es_review.missing_keys.includes(k), k);

@@ -2,11 +2,12 @@
 // blocks, stairway fields per week, tests and circuits (engine/CONTRACTS.md §4.4; D-10, D-19, D-25, D-26, D-40). Owner: B2.
 // Pure: no I/O, no clock, no randomness. H15: nothing is ever inserted inside a stairway block.
 import { EngineError, WEEKDAYS, why, round2, roundHalfUp, weeksBetween } from './util.mjs';
+import { stagesForStairway } from './athletic.mjs';
 
 /** @typedef {import('./util.mjs').Why} Why */
 
 const FLAT_PHASE = { pre_season: 'PRE_SEASON', taper: 'TAPER', in_season: 'IN_SEASON', maintenance: 'MAINTENANCE', recovery: 'RECOVERY' };
-const STAGES = ['RC1', 'RC2', 'RC3'];
+const STAGE_NEXT = { RC1: 'RC2', RC2: 'RC3' }; // Receive-Create one stage up (R2-ATH-03; F2 pre-season advance)
 
 function phaseForWeeks(W, model) {
   const th = Object.entries(model.rules.plan_types.season.weeks_to_season).sort((a, b) => b[1] - a[1]);
@@ -107,7 +108,10 @@ export function planTrainingBlocks(derived, model) {
     const W = date ? weeksBetween(derived.start_date, date) : -1;
     const E = W + 1;
     const competitive = !!D4.competition_date;
-    const t = competitive ? PT.prep.taper_weeks[0] : PT.prep.gen_pop_event.taper_weeks;
+    // COACH-R3 R3-ATH-01 (stage B2): a 2-week dryland taper lines up with the swim taper before the main championship meet
+    const prof = derived.D2_profile && model.hasSport(derived.D2_profile.id) ? model.sport(derived.D2_profile.id) : null;
+    const bySport = (PT.prep.taper_weeks_by_sport || {})[prof && prof.sport];
+    const t = competitive ? (typeof bySport === 'number' ? bySport : PT.prep.taper_weeks[0]) : PT.prep.gen_pop_event.taper_weeks;
     const f = competitive ? taperF : { of: 'last_stairway_week_sets', factor: PT.prep.gen_pop_event.taper_factor };
     if (W >= 0 && E <= N && E - t >= minOff) {
       push('stairway', 1, E - t);
@@ -142,22 +146,48 @@ function plannedRir(effortKey, model) {
 }
 
 /**
- * v1.2 circuit stairway (D-19 revised): work seconds per stairway week. The planned steps (rules.stairway standard steps)
- * grow the start; when the product overshoots work_s_max the steps are scaled by one lambda (bisection) so week N lands on
- * the top; values are rounded to the fine step and forced to rise by at least one step a week while below the top.
+ * v1.2 circuit stairway (D-19 revised): work seconds per stairway week.
+ * v0.4 fix round 2 / F1 (E-153; RECHECK v0.4 05 minor 'work-time steps': the lambda-scaled early steps did not match the approved
+ * 3 % / 5 % steps, and forcing week N onto the top made 47-min days in a 45-min session): with `maxStep` the seconds are the
+ * approved planned steps applied to the start - 3 % a week to halfway, 5 % after (COACH-R3 R3-VOL-04) - and the start is the
+ * configured `work_s_start`, lowered (in fine steps) only when the product would end above `work_s_max`; week N is the
+ * highest week and ends at or under the top (05, 8 weeks: 35 36 37 38 40 42 44 46 s). Rounded to the fine step, every week
+ * rises by at least one step, no step passes the planned-step maximum.
+ * Without `maxStep` (legacy callers) the steps are scaled by one lambda (bisection) so week N lands on the top when the product
+ * overshoots.
  * @param {number} N stairway length @param {Object<string,number>} steps standard steps by week ('2'..'N') @param {object} CS
- *        rules.supersets.bootcamp.stairway @returns {number[]} work seconds for weeks 1..N
+ *        rules.supersets.bootcamp.stairway @param {number} [maxStep] rules.stairway.limits.planned_step_max
+ * @returns {number[]} work seconds for weeks 1..N
  */
-export function circuitWorkSeconds(N, steps, CS) {
+export function circuitWorkSeconds(N, steps, CS, maxStep) {
   const fine = CS.work_s_fine_step || 1;
-  const grow = (lam) => { const out = [CS.work_s_start]; for (let k = 2; k <= N; k++) out.push(out[k - 2] * (1 + lam * (steps[String(k)] || 0))); return out; };
+  const grow = (s0, lam) => { const out = [s0]; for (let k = 2; k <= N; k++) out.push(out[k - 2] * (1 + lam * (steps[String(k)] || 0))); return out; };
+  if (typeof maxStep === 'number') {
+    const series = (s0) => {
+      const raw = grow(s0, 1);
+      const out = [];
+      for (let i = 0; i < N; i++) {
+        let v = Math.round(raw[i] / fine) * fine;
+        if (i > 0) {
+          v = Math.max(v, out[i - 1] + fine);
+          v = Math.min(v, Math.max(out[i - 1] + fine, Math.floor(out[i - 1] * (1 + maxStep) / fine + 1e-9) * fine));
+        }
+        out.push(v);
+      }
+      return out;
+    };
+    let s0 = CS.work_s_start;
+    let out = series(s0);
+    while (out[N - 1] > CS.work_s_max + 1e-9 && s0 - fine >= fine) { s0 -= fine; out = series(s0); }
+    return out;
+  }
   let lam = 1;
-  if (grow(1)[N - 1] > CS.work_s_max) {
+  if (grow(CS.work_s_start, 1)[N - 1] > CS.work_s_max) {
     let lo = 0, hi = 1;
-    for (let i = 0; i < 40; i++) { const mid = (lo + hi) / 2; if (grow(mid)[N - 1] > CS.work_s_max) hi = mid; else lo = mid; }
+    for (let i = 0; i < 40; i++) { const mid = (lo + hi) / 2; if (grow(CS.work_s_start, mid)[N - 1] > CS.work_s_max) hi = mid; else lo = mid; }
     lam = lo;
   }
-  const raw = grow(lam);
+  const raw = grow(CS.work_s_start, lam);
   const out = [];
   for (let i = 0; i < N; i++) {
     let v = Math.min(CS.work_s_max, Math.round(raw[i] / fine) * fine);
@@ -208,7 +238,10 @@ export function buildShape(derived, model) {
   const roundTo5 = (x) => CS.work_s_step * roundHalfUp(x / CS.work_s_step);
 
   const training_blocks = [], exercise_blocks = [], weeks = [];
-  let ebN = 0, firstStair = true, lastStage = null, lastRep = null;
+  let ebN = 0, firstStair = true, lastStage = null, lastRep = null, lastStairEbs = null;
+  // the season phase of each exercise block's first week (stage B3: the athletes' rep phase follows it)
+  const ebSeason = new Map();
+  const ebSeasonPhase = (eb, sp) => { if (!ebSeason.has(eb.n)) ebSeason.set(eb.n, sp); return ebSeason.get(eb.n); };
   plan.training_blocks.forEach((b, idx) => {
     const n = idx + 1;
     const stair_N = b.type === 'stairway' ? b.weeks[1] - b.weeks[0] + 1 : null;
@@ -262,17 +295,33 @@ export function buildShape(derived, model) {
       // athlete rep phase (PER-11) and Receive-Create stage (R2-ATH-03)
       let rep_phase = null;
       if (athleteReps) {
-        if (st) rep_phase = AV.by_exercise_block[Math.min(ebIndex, AV.by_exercise_block.length - 1)];
+        // v0.4 stage B3 (minimal): the rep phase follows the season phase of the exercise block's first week when the rules give
+        // the table (athlete_vol_phases.by_season_phase: OFF_LATE starts at VOL2; PER-11; RECHECK 03 major 'VOL1 for 6 weeks in
+        // the late off-season')
+        const bySeason = AV.by_season_phase && season_phase && AV.by_season_phase[ebSeasonPhase(eb, season_phase)];
+        if (st && Array.isArray(bySeason) && bySeason.length) rep_phase = bySeason[Math.min(ebIndex, bySeason.length - 1)];
+        else if (st) rep_phase = AV.by_exercise_block[Math.min(ebIndex, AV.by_exercise_block.length - 1)];
         else if (b.type === 'pre_season' || b.type === 'taper') rep_phase = AV.pre_season;
         else if (b.type === 'in_season') rep_phase = AV.in_season;
         else rep_phase = lastRep || AV.by_exercise_block[0];
+        // v0.4 fix round 1 / F3 (minimal; E-125, COACH-ANSWER PER-11 'VOL 3 late off-season'; RECHECK 03 major: a six-week late off-season
+        // stairway - one exercise block - held 8-12 for all six weeks): a single-block late off-season stairway steps to VOL3 after its
+        // halfway week (rules.reps.athlete_vol_phases.off_late_single_block_step; the exercises stay, only the reps move)
+        const OLS = AV.off_late_single_block_step;
+        if (OLS && OLS.enabled && st && rep_phase === OLS.from && season_phase && ebSeasonPhase(eb, season_phase) === 'OFF_LATE' && (st.exercise_blocks || []).length === 1 && typeof st.halfway === 'number' && w > st.halfway) rep_phase = OLS.to;
         lastRep = rep_phase;
       }
       let plyo_stage = null;
       if (plyoOn) {
-        if (st) {
-          plyo_stage = STAGES.find(s => st.rc_weeks[s] && w >= st.rc_weeks[s][0] && w <= st.rc_weeks[s][1]) || lastStage || R.athletic.stages.start_stage;
-        } else plyo_stage = lastStage || R.athletic.stages.start_stage;
+        // v0.4 stage B2 (athletic.stagesForStairway, E-26): the stage changes only where an exercise block starts (PER-02), so no
+        // jump exercise changes mid-block; flat blocks hold the stage reached (R2-ATH-03 'stay put in maintenance')
+        if (st) plyo_stage = stagesForStairway(model, st, L)[w - 1] || lastStage || R.athletic.stages.start_stage;
+        else plyo_stage = lastStage || R.athletic.stages.start_stage;
+        // v0.4 fix round 1 / F2 (RECHECK 03 major: a single-block soccer stairway held 'Land & Go' for 6 weeks and the pre-season
+        // after it never reached 'Repeat'): the pre-season block after a single-exercise-block stairway moves one stage up
+        if (!st && w === 1 && b.type === 'pre_season' && R.athletic.stages.pre_season_after_single_block === 'advance_one' && lastStairEbs === 1 &&
+            lastStage && STAGE_NEXT[lastStage]) { plyo_stage = STAGE_NEXT[lastStage]; whys.push(why('why.plyo_stage', 'R2-ATH-03', { stage: plyo_stage })); }
+        if (st) lastStairEbs = st.exercise_blocks ? st.exercise_blocks.length : 1;
         if (plyo_stage !== lastStage && lastStage !== null && st && w > 1) whys.push(why('why.plyo_stage', 'R2-ATH-03', { stage: plyo_stage }));
         lastStage = plyo_stage;
       }
@@ -297,8 +346,11 @@ export function buildShape(derived, model) {
             // v1.2 (review 05 blocker 1): the circuit climbs by the D12 planned steps (3 % early, 5 % after halfway) applied to
             // the work seconds, lambda-scaled so the last week reaches the top, in 1-s steps: every week rises and no week rises
             // more than the 7 % step (R2-PER-03, UNI-05)
-            circ = { rounds, work_s: circuitWorkSeconds(stair_N, st.standard_steps, CS)[w - 1] };
-            if (w === 1) whys.push(why('why.circuit_stairway', 'D-19', { from: CS.work_s_start, to: CS.work_s_max }));
+            // (fix round 2 / F1, E-153: the approved steps from the configured start, ending at or under the top; the week carries
+            // the stairway's first and last seconds so the 'work time grows' line shows the real range)
+            const cws = circuitWorkSeconds(stair_N, st.standard_steps, CS, R.stairway.limits.planned_step_max);
+            circ = { rounds, work_s: cws[w - 1], from_s: cws[0], to_s: cws[stair_N - 1] };
+            if (w === 1) whys.push(why('why.circuit_stairway', 'D-19', { from: cws[0], to: cws[stair_N - 1] }));
           } else {
             const lv1 = st.display_level['1'], lvN = st.display_level[String(stair_N)];
             const frac = lvN > lv1 ? (stair_level - lv1) / (lvN - lv1) : 1;

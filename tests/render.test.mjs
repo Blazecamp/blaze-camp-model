@@ -18,36 +18,60 @@ describe('full view (markdown)', () => {
     assert.equal(lines[0], '# ' + model.t('en', 'program.OT04b.name'));
     const iTitle = en.indexOf('## ' + model.t('en', 'instruction.title'));
     assert.ok(iTitle > 0);
-    assert.ok(iTitle < en.indexOf(model.t('en', 'plan.stairway_intro')));
+    // F3 (E-121): the stairway intro names the halfway week when the plan has one ('small steps up to week N ...')
+    const iIntro = en.indexOf(model.t('en', 'plan.stairway_intro')) >= 0 ? en.indexOf(model.t('en', 'plan.stairway_intro')) : en.indexOf('Your plan climbs like a stairway');
+    assert.ok(iIntro > 0 && iTitle < iIntro);
     assert.ok(iTitle < en.indexOf('## ' + model.t('en', 'ui.plan.week', { n: 1 })));
-    for (const k of ['instruction.1', 'instruction.2', 'instruction.3', 'instruction.4', 'instruction.5']) assert.ok(unesc(en).includes(model.t('en', k)), k);
-    assert.ok(en.includes('> \\*Always leave 1 rep'), 'asterisk ladder kept literally (escaped for markdown)');
+    // B3 (RECHECK 01 minor): a plan with no aerobic session reads the coach's cardio line for sport-led cardio
+    // (fix round 2 / F3, E-200: a family with its own Basic Instruction - the CrossFit sheet's A4:A7 lines for the class model - prints
+    // those; every other plan the BYOP lines)
+    const IKF = model.rules.render && model.rules.render.instruction_keys_by_family;
+    const fam = IKF && IKF[plan.meta.family];
+    if (fam) for (const k of fam) assert.ok(unesc(en).includes(model.t('en', k)), k);
+    else {
+      for (const k of ['instruction.1', 'instruction.3', 'instruction.4', 'instruction.5']) assert.ok(unesc(en).includes(model.t('en', k)), k);
+      assert.ok(unesc(en).includes(model.t('en', 'instruction.2')) || unesc(en).includes(model.t('en', 'instruction.2_sport_cardio')));
+    }
+    // B3 (COACH-R3 R3-GEN-01): the use-at-your-own-risk line with the link to the release sits on top, before the instructions
+    const iRisk = en.indexOf(model.t('en', 'ui.plan.own_risk_label'));
+    assert.ok(iRisk > 0 && iRisk < iTitle);
+    assert.ok(en.includes('](' + model.rules.legal.disclaimer_url.en + ')'));
+    assert.ok(es.includes('](' + model.rules.legal.disclaimer_url.es + ')'));
+    assert.ok(en.includes(fam ? '> \\*Instead of working to failure' : '> \\*Always leave 1 rep'), 'asterisk ladder kept literally (escaped for markdown)');
     assert.ok(en.includes('> \\*\\*\\*\\*\\*If you have any questions'));
-    assert.ok(unesc(en).includes(model.t('en', 'effort.how_hard')));
+    // F3 (E-119): a plan whose last week carries no intensifier reads the 'ends at 1 in the last week' line instead
+    // (fix round 2 / F3: the week-1 tip inside the line names the plan's own first effort, {rir})
+    const rir0 = (plan.weeks.find(w => w.block_type === 'stairway' && w.planned_rir) || { planned_rir: { min: 3, max: 3 } }).planned_rir;
+    const rirArg = { rir: rir0.min === rir0.max ? String(rir0.min) : rir0.min + '-' + rir0.max };
+    assert.ok(unesc(en).includes(model.t('en', 'effort.how_hard', rirArg)) || unesc(en).includes(model.t('en', 'effort.how_hard_no_int', rirArg)));
     assert.ok(unesc(en).includes(model.t('en', 'effort.olympic')), 'Olympic note when the plan has Olympic lifts');
   });
 
   test('header lines: level, plan type, start date, release stamp', () => {
     assert.ok(en.includes('**' + model.t('en', 'ui.plan.level') + ':** Intermediate (L2): 2 years of consistent training'));
-    assert.ok(en.includes('2026-10-12'));
-    const shortKey = 'release.short.' + String(plan.release_stamp.version).replace(/^release\./, '');
-    assert.ok(en.includes(model.t('en', 'ui.plan.release_stamp', { version: model.t('en', shortKey), lang: model.t('en', 'intake.lang.opt.en') })));
+    // (fix round 2 / F3: client copy prints dates in words - '12 Oct 2026' - never the machine format)
+    assert.ok(en.includes('12 Oct 2026') && !/Start date:\*\* 2026-10-12/.test(en));
+    // F3 (E-115, COACH-R3 R3-GEN-01: one tick for own risk + terms + release): one flat stamp line, no nested brackets
+    const who = 'release.who.' + String(plan.release_stamp.version).replace(/^release\./, '');
+    assert.ok(en.includes(model.t('en', 'ui.plan.release_stamp_flat', { who: model.t('en', who), lang: model.t('en', 'intake.lang.opt.en') })));
     assert.ok(!en.includes('release.client'));
   });
 
-  test('stairway table, exercise blocks, tests with reminder dates', () => {
-    assert.ok(en.includes('| ' + ['Week', 'Level', 'Phase', 'Tests'].join(' | ') + ' |'));
-    assert.match(en, /\| 1 \| 2\.0 ▮▮ \|/);
-    assert.match(en, /\| 3 \| 11\.0 ▮{11} \|/);
+  test('stairway table (B3 macro view: week, level, effort, sets), phases, exercise blocks, tests with reminder dates', () => {
+    assert.ok(en.includes('| ' + ['Week', 'Level', 'Effort', 'Sets'].join(' | ') + ' |'));
+    assert.match(en, /\| 1 · test \| 2\.0 ▮▮ \| 3 in the tank \| \d+ \|/);
+    assert.match(en, /\| 3 · test \| 11\.0 ▮{11} \| 1 in the tank/);
+    assert.ok(en.includes(model.t('en', 'ui.plan.phase_span_one', { from: 1, phase: model.t('en', 'plan.phase.ACCLIMATION') })) || en.includes('weeks 1-'));
     assert.ok(en.includes(model.t('en', 'plan.exercise_block', { n: 1, from: 1, to: 3 })));
     assert.ok(en.includes(model.t('en', 'ui.plan.reminder', { dates: '2026-10-12, 2026-10-19, 2026-10-25' })));
   });
 
-  test('weekly sets per muscle table (first / middle / last stairway week) with the coach counting note', () => {
-    assert.ok(en.includes('## ' + model.t('en', 'ui.plan.weekly_sets')));
-    assert.ok(en.includes(model.t('en', 'ui.plan.weekly_sets_note').replace(/'/g, "'")));
-    assert.match(en, /\| Quads \| 10 \| 10 \| 11 \|/);
-    assert.match(en, /\| \*\*Total\*\* \| \*\*46\*\* \| \*\*46\*\* \| \*\*48\*\* \|/);
+  test('weekly sets per muscle group table (first / middle / last stairway week) with the coach counting note (B3: FOCUS groups, R3-SES-01)', () => {
+    assert.ok(en.includes('## ' + model.t('en', 'ui.plan.weekly_sets_groups')));
+    assert.ok(unesc(en).includes(model.t('en', 'ui.plan.weekly_sets_groups_note')));
+    // v0.4 fixture: every trained group climbs (quads 10 -> 12, back 10 -> 12; R3-SES-02)
+    assert.match(en, /\| Quads \| 10 \| 10 \| 12 \|/);
+    assert.match(en, /\| \*\*Total\*\* \| \*\*46\*\* \| \*\*47\*\* \| \*\*51\*\* \|/);
   });
 
   test('phone-friendly day cards: sets x reps, "leave N in the tank (N RIR)", rest, cue, swaps, video link', () => {

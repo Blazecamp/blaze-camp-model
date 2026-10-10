@@ -1,5 +1,8 @@
 // engine/intake.mjs - intake/2 validation + normalization, health screen, release check and the derived values D1-D14
-// (engine/CONTRACTS.md §2.1, §4.3; generator_spec_v1.json > derived_values). Owner: B2.
+// (engine/CONTRACTS.md §2.1, §4.3; generator_spec_v1.json > derived_values). Owner: B2 (v0.4 round-3 changes: stage B1).
+// v0.4 (coach_answers_round3.md): no check-ins, no tracking, no adaptive inputs (R3-VOL-02, R3-VOL-04) - output_mode and the
+// week-by-week check-in mode are retired (accepted for old intakes, never read); Focus muscle 1 / 2 (R3-SES-01, focus_muscles,
+// priority_muscles is its alias); play minutes for the activity cardio credit (R3-ATH-05).
 // Pure: no I/O, no clock, no randomness. Every number / list comes from the model (rules, templates, profiles).
 import { EngineError, WEEKDAYS, why, forbiddenKeys, round2, clamp, weeksBetween } from './util.mjs';
 import { computeTargets } from './volume.mjs';
@@ -26,7 +29,9 @@ const PREFERENCES = ['machines', 'free_weights', 'dumbbells', 'none'];
 const SIDES = ['left', 'right', 'both'];
 const SEVERITIES = ['mild', 'moderate', 'severe'];
 const EXCLUSIONS = ['running', 'jumping', 'barbell', 'lunges', 'overhead_pressing', 'floor_work', 'machines', 'other'];
-const OUTPUT_MODES = ['plan_only', 'checkin', 'logbook'];
+const OUTPUT_MODES = ['plan_only', 'checkin', 'logbook']; // RETIRED (R3-VOL-02): accepted for old intakes, never read
+const PLAY_MINUTES = ['under_45', '45_60', '60_plus']; // F11r play_minutes (R3-ATH-05)
+const SUPERSET_RECS = ['show', 'hide']; // F44 superset_recommendations (R3-SES-02)
 const CORE_POSITIONS = ['start', 'after_plyos', 'after_strength', 'end'];
 const OPTIONAL_DAYS = ['separate', 'add_on'];
 const SPLIT_STYLES = ['default', 'upper_lower', 'ppl'];
@@ -50,16 +55,16 @@ const SHAPE = {
   goal: 1, format: 1,
   sport: { competitive: 1, sport: 1, position: 1, position_detail: 1, level_of_play: 1, season: { type: 1, date: 1 },
     practice: { practice_days_per_week: 1, game_days: 1 } },
-  activity: { ids: 1, play_days: 1, event_date: 1, league_sport: 1, style: 1 },
-  priority_muscles: 1, lift_style: 1,
+  activity: { ids: 1, play_days: 1, event_date: 1, league_sport: 1, style: 1, play_minutes: 1 },
+  focus_muscles: 1, priority_muscles: 1, lift_style: 1,
   schedule: { days_per_week: 1, weekdays: 1, session_minutes: 1, start_date: 1 },
-  plan: { mode: 1, maint_reason: 1, maint_weeks: 1, previous_cycles: { count: 1, last_had_holds_or_pain: 1 }, tests: 1, just_finished_block: 1 },
+  plan: { mode: 1, maint_reason: 1, maint_weeks: 1, previous_cycles: { count: 1, last_block_finished: 1, last_had_holds_or_pain: 1 }, tests: 1, just_finished_block: 1, view: 1 },
   equipment: { profile: 1, extras: 1, machines: 1, preference: 1,
     detail: { heaviest_db_pair: 1, medball_lb_owned: 1, box_height_in: 1, running_space: 1, cardio_options: 1 } },
   pain: [{ area: 1, side: 1, severity: 1, worse_with: 1 }],
   exclusions: 1, output_mode: 1,
   prefs: { core_position: 1, optional_days: 1, variety_ab: 1, heavy_unilateral: 1, supersets_for_fatigue: 1, cardio_adjust: 1,
-    older_athletic_opt_in: 1, split_style: 1 },
+    older_athletic_opt_in: 1, split_style: 1, superset_recommendations: 1, racket_50_impact_opt_in: 1 },
   growth_stage: 1, email: 1, coach_rule_pack_ids: 1
 };
 
@@ -71,7 +76,7 @@ const LABEL = {
   'sport.competitive': 'intake.competitive.label', 'sport.sport': 'intake.sport.label', 'sport.position': 'intake.position.label',
   'sport.position_detail': 'intake.position.label', 'sport.level_of_play': 'intake.level_of_play.label',
   'sport.season': 'intake.season.label', 'sport.practice': 'intake.practice.label', sport: 'intake.sport.label',
-  activity: 'intake.activity.label', priority_muscles: 'intake.priority.label', lift_style: 'intake.lift_style.label',
+  activity: 'intake.activity.label', priority_muscles: 'intake.priority.label', focus_muscles: 'intake.focus.label', lift_style: 'intake.lift_style.label',
   'schedule.days_per_week': 'intake.days.label', 'schedule.weekdays': 'intake.weekdays.label',
   'schedule.session_minutes': 'intake.minutes.label', 'schedule.start_date': 'intake.start.label', schedule: 'intake.days.label',
   'plan.mode': 'intake.plan_mode.label', 'plan.maint_reason': 'intake.maint_reason.label', 'plan.maint_weeks': 'intake.maint_weeks.label',
@@ -122,6 +127,21 @@ function unknownKeys(obj, shape, prefix, out) {
     if (!Object.prototype.hasOwnProperty.call(shape, k)) { out.push(p); continue; }
     if (shape[k] !== 1) unknownKeys(obj[k], shape[k], p, out);
   }
+}
+
+/**
+ * Focus slots (R3-SES-01): at most `max` slots; a choice in `uses_both_slots` (v_taper) takes two. Keeps the first that fit.
+ * @param {string[]} choices @param {{max:number, uses_both_slots?:string[]}} FO @returns {string[]}
+ */
+function trimFocus(choices, FO) {
+  const out = [];
+  let used = 0;
+  for (const c of choices) {
+    const n = (FO.uses_both_slots || []).includes(c) ? 2 : 1;
+    if (used + n > FO.max) continue;
+    out.push(c); used += n;
+  }
+  return out;
 }
 
 /** first rule whose `when` matches (shared table format of modifier_select / family_select / bilateral_share.select) */
@@ -329,20 +349,29 @@ export function validateIntake(intake, model) {
         if (!first || !first.style.some(x => x.value === a.style)) err('enum', 'activity.style', { value: String(a.style) }, 'intake.activity.label');
         else style = a.style;
       }
-      activity = { ids, play_days, event_date, league_sport, style };
+      // R3-ATH-05: a 45-60+ minute session of the activity counts as one cardio session (up to 2); under 45 min it does not
+      const play_minutes = enumOf('activity.play_minutes', a.play_minutes, PLAY_MINUTES, '45_60');
+      activity = { ids, play_days, event_date, league_sport, style, play_minutes };
     }
   } else if (needActivity) err('required', 'activity');
 
-  // F09 priorities (more than 2: kept in the normalized intake, trimmed in deriveValues + V8 warning)
-  const priority_muscles = listOf('priority_muscles', intake.priority_muscles, Object.keys(R.volume.priority.intake_map));
-  if (priority_muscles.length > R.volume.priority.max_muscles) warn('v8_priorities', 'warning.v8_priorities',
-    { kept: priority_muscles.slice(0, R.volume.priority.max_muscles).join(', ') }, 'priority_muscles');
+  // F09 Focus muscle 1 / 2 (R3-SES-01; focus_muscles, priority_muscles = its intake/2 alias). More than 2 slots (v_taper uses
+  // both): kept in the normalized intake, trimmed in deriveValues + V8 warning. Retired values side_delts / rear_delts -> shoulders.
+  const FO = R.volume.focus || { intake_map: R.volume.priority.intake_map, max: R.volume.priority.max_muscles, uses_both_slots: [] };
+  const focusField = intake.focus_muscles !== undefined && intake.focus_muscles !== null ? 'focus_muscles' : 'priority_muscles';
+  const priority_muscles = listOf(focusField, intake[focusField], Object.keys(FO.intake_map));
+  const kept = trimFocus(priority_muscles, FO);
+  if (kept.length < priority_muscles.length) warn('v8_priorities', 'warning.v8_priorities', { kept: kept.join(', ') }, focusField);
   const lift_style = enumOf('lift_style', intake.lift_style, LIFT_STYLES, 'balanced');
 
   // F25 plan
   const pl = isObj(intake.plan) ? intake.plan : {};
   if (intake.plan !== undefined && intake.plan !== null && !isObj(intake.plan)) err('type', 'plan');
-  const mode = enumOf('plan.mode', pl.mode, PLAN_MODES, 'fixed_12');
+  const modeIn = enumOf('plan.mode', pl.mode, PLAN_MODES, 'fixed_12');
+  // week_by_week retired as a check-in mode (R3-VOL-02): an alias of the 12-week plan that opens on the Week view
+  const WBW = R.plan_types.week_by_week || {};
+  const mode = modeIn === 'week_by_week' && WBW.alias_of ? WBW.alias_of : modeIn;
+  const view = modeIn === 'week_by_week' ? (WBW.view || 'week') : null;
   const maintCfg = R.plan_types.maintenance_4_6;
   let maint_reason = null, maint_weeks = null;
   if (mode === 'maintenance_4_6') {
@@ -350,20 +379,22 @@ export function validateIntake(intake, model) {
     maint_weeks = intIn('plan.maint_weeks', pl.maint_weeks, maintCfg.weeks_range, { required: false, def: maintCfg.weeks_default });
   }
   const pc = isObj(pl.previous_cycles) ? pl.previous_cycles : {};
+  // F25c: last_block_finished (the person says it); last_had_holds_or_pain came from check-ins (retired) and is read as its alias
+  const holds = boolOf('plan.previous_cycles.last_had_holds_or_pain', pc.last_had_holds_or_pain, false);
   const previous_cycles = {
     count: intIn('plan.previous_cycles.count', pc.count, CYCLES_RANGE, { required: false, def: 0 }),
-    last_had_holds_or_pain: boolOf('plan.previous_cycles.last_had_holds_or_pain', pc.last_had_holds_or_pain, false)
+    last_block_finished: boolOf('plan.previous_cycles.last_block_finished', pc.last_block_finished, !holds)
   };
   let tests = listOf('plan.tests', pl.tests, [...Object.keys(R.tests.catalogue), 'none']);
   tests = tests.filter(t => t !== 'none');
   tests = tests.length ? Object.keys(R.tests.catalogue).filter(t => tests.includes(t)) : ['none'];
   const just_finished_block = boolOf('plan.just_finished_block', pl.just_finished_block, false);
 
-  // F43 output mode
-  const output_mode = enumOf('output_mode', intake.output_mode, OUTPUT_MODES, 'plan_only');
-  if (mode === 'week_by_week' && !R.plan_types.week_by_week.requires_output_mode.includes(output_mode)) {
-    errors.push(issue('week_by_week_needs_checkin', 'plan.mode', 'intake.output_mode.label'));
-  }
+  // F43 output mode: RETIRED (R3-VOL-02 'I want to take away all check-in info. We're only doing outputs'). An old intake may
+  // still carry it; the plan is always the whole plan, built once (plan_only)
+  const outputIn = enumOf('output_mode', intake.output_mode, OUTPUT_MODES, 'plan_only');
+  if (outputIn !== 'plan_only') warn('checkin_retired', 'warning.checkin_retired', undefined, 'output_mode');
+  const output_mode = 'plan_only';
   if (mode === 'year' && sport && sport.competitive === 'competitive' && R.plan_types.year.non_competitive_only) {
     errors.push(issue('year_not_for_competitive', 'plan.mode', 'intake.plan_mode.label'));
   }
@@ -432,7 +463,9 @@ export function validateIntake(intake, model) {
     supersets_for_fatigue: boolOf('prefs.supersets_for_fatigue', pr.supersets_for_fatigue, false),
     cardio_adjust: intIn('prefs.cardio_adjust', pr.cardio_adjust, [ca.min, ca.max], { required: false, def: 0 }),
     older_athletic_opt_in: boolOf('prefs.older_athletic_opt_in', pr.older_athletic_opt_in, false),
-    split_style: enumOf('prefs.split_style', pr.split_style, SPLIT_STYLES, 'default')
+    split_style: enumOf('prefs.split_style', pr.split_style, SPLIT_STYLES, 'default'),
+    superset_recommendations: enumOf('prefs.superset_recommendations', pr.superset_recommendations, SUPERSET_RECS, 'show'), // R3-SES-02
+    racket_50_impact_opt_in: boolOf('prefs.racket_50_impact_opt_in', pr.racket_50_impact_opt_in, false) // R3-ATH-02 (50-59 racket players)
   };
   if (prefs.older_athletic_opt_in && isInt(age) && age < R.population.older.from_age) {
     // ignored below 60 (CONTRACTS §2.1); dedicated key added in the integration step (contracts/1.1.1)
@@ -482,7 +515,7 @@ export function validateIntake(intake, model) {
   const normalized = {
     schema: 'intake/2', id: intake.id === undefined ? null : intake.id, lang, units, role, health_route, safety, release, age, body_weight,
     experience, goal, format, sport, activity, priority_muscles, lift_style, schedule,
-    plan: { mode, maint_reason, maint_weeks, previous_cycles, tests, just_finished_block },
+    plan: { mode, maint_reason, maint_weeks, previous_cycles, tests, just_finished_block, view },
     equipment, pain, exclusions, output_mode, prefs, growth_stage, email, coach_rule_pack_ids
   };
 
@@ -769,10 +802,16 @@ export function deriveValues(intake, model) {
   const ca = R.conditioning.cardio_adjust;
   const prefs = { ...i.prefs, cardio_adjust: clamp(i.prefs.cardio_adjust, ca.min, ca.max), older_athletic_opt_in: older && i.prefs.older_athletic_opt_in };
 
-  // priorities: canonical muscle ids (first max_muscles intake choices)
-  const PR = R.volume.priority;
-  const choices = i.priority_muscles.slice(0, PR.max_muscles);
-  const priority_muscles = R.muscles.order.filter(m => choices.some(c => PR.intake_map[c].includes(m)));
+  // Focus muscle 1 / 2 (R3-SES-01): the volume engine reads lines (focus_lines: shoulders = one line, R3-VOL-01); exercise
+  // selection and ordering read muscle ids (priority_muscles: the muscles a Focus line steers, e.g. shoulders -> side + rear delts)
+  const FO = R.volume.focus || { intake_map: R.volume.priority.intake_map, max: R.volume.priority.max_muscles, steer_muscles: {} };
+  const choices = trimFocus(i.priority_muscles, FO);
+  const lineOrder = (R.muscles.lines && R.muscles.lines.order) || R.muscles.order;
+  const focus_lines = lineOrder.filter(l => choices.some(c => (FO.intake_map[c] || []).includes(l)));
+  const steer = new Set();
+  for (const c of choices) for (const l of FO.intake_map[c] || []) for (const m of ((FO.steer_muscles || {})[l] || (R.muscles.defs[l] ? [l] : []))) steer.add(m);
+  if (choices.includes('core')) steer.add('abs_obliques');
+  const priority_muscles = R.muscles.order.filter(m => steer.has(m));
 
   // D4 season
   const D4 = seasonPhase(i, D2, model);
@@ -821,11 +860,13 @@ export function deriveValues(intake, model) {
     r3.push(R.population.active_aging_50.r3);
   }
 
-  // D12 planned step (no intake input decides it)
+  // D12 planned step (no intake input decides it; R3-VOL-04 approved). Focus muscles never slow the other groups (R3-SES-01);
+  // the older-adult 3 % cap is retired (R3-VOL-04: every trained group on its ceiling in the last week)
   const lim = R.stairway.limits;
+  const slowOthers = !(R.volume.focus && R.volume.focus.slow_others === false);
   const D12 = {
     early: R.stairway.standard_steps.early, late: R.stairway.standard_steps.late,
-    caps: { nonpriority_while_priority: priority_muscles.length ? lim.nonpriority_while_priority : null, older: older ? lim.older_60plus : null },
+    caps: { nonpriority_while_priority: focus_lines.length && slowOthers ? lim.nonpriority_while_priority : null, older: older && !lim.older_cap_retired ? lim.older_60plus : null },
     source: 'planned_stairway'
   };
 
@@ -839,8 +880,8 @@ export function deriveValues(intake, model) {
     D12_planned_step: D12, D13_tests: null, D14_aerobic_sessions: D14,
     goal: i.goal, format: i.format || 'gym', lang: i.lang, units: i.units, age, age_group, body_weight_lb,
     days_per_week, weekdays, session_minutes, start_date: i.schedule.start_date, play_days, event_date,
-    priority_muscles, priority_choices: choices.slice(), pain, exclusions: i.exclusions.slice(), lift_style: i.lift_style, output_mode: i.output_mode, prefs,
-    previous_cycles: { ...i.plan.previous_cycles }, just_finished_block: i.plan.just_finished_block,
+    priority_muscles, priority_choices: choices.slice(), focus_lines, pain, exclusions: i.exclusions.slice(), lift_style: i.lift_style, output_mode: 'plan_only', prefs,
+    previous_cycles: { ...i.plan.previous_cycles }, just_finished_block: i.plan.just_finished_block, view: i.plan.view || null,
     maint_reason: i.plan.maint_reason, maint_weeks: i.plan.maint_weeks,
     health: null, release: { accepted: i.release.accepted, version: i.release.version, lang: i.release.lang, guardian: i.release.guardian },
     equipment_preference: i.equipment.preference, modifier_id: null, r3_pending: [], warnings: [], why: []
@@ -883,12 +924,13 @@ export function deriveValues(intake, model) {
   derived.D9_start_sets = D9;
   derived.modifier_id = D9.modifier_id;
 
-  // round-3 defaults that shape these derived values (D-43)
-  r3.push('R3-SES-01');
-  if (D9.floored.length || D9.credit_only.length || Object.values(D9.fill).includes('own_sets')) r3.push(R.volume.floor.r3);
-  if (stairs.length) { r3.push(R.stairway.r3); r3.push(R.placement.day_rotation_r3); }
-  if (D11.heavy_play_week) r3.push(R.athletic.heavy_play_weeks.r3);
-  derived.r3_pending = uniqSorted(r3.flatMap(x => String(x).split(',').map(s => s.trim())).filter(x => /^R3-[A-Z]+-\d+$/.test(x)));
+  // round-3 questions are answered (coach_answers_round3.md): only values still tagged `r3` in rules (other owners' tables)
+  // are listed; the volume, time and placement rules of stage B1 carry their COACH-R3 refs instead (D-43 closed for them)
+  if (D11.heavy_play_week && R.athletic.heavy_play_weeks.r3) r3.push(R.athletic.heavy_play_weeks.r3);
+  // (fix round 2 / F1, E-157; RECHECK v0.4 08 minor: derived.r3_pending still listed R3-ATH-02 / R3-ATH-05 after meta.r3_pending was
+  // cleared): the answers the coach approved (rules.r3_approved) are not pending - the same list generate.mjs reads for meta
+  const r3Approved = Array.isArray(R.r3_approved) ? R.r3_approved : [];
+  derived.r3_pending = uniqSorted(r3.filter(Boolean).flatMap(x => String(x).split(',').map(s => s.trim())).filter(x => /^R3-[A-Z]+-\d+$/.test(x) && !r3Approved.includes(x)));
   derived.warnings = warnings;
   derived.why = whys;
   return derived;
@@ -947,7 +989,10 @@ function kitOf(i, model) {
   return {
     profile: e.profile, tokens: kit, machines,
     medball_max_lb: owned.length ? Math.min(model.rules.medball.max_lb, Math.max(...owned)) : null,
-    heaviest_db_pair: e.detail.heaviest_db_pair, box_height_in: e.detail.box_height_in, buy_list: []
+    heaviest_db_pair: e.detail.heaviest_db_pair, box_height_in: e.detail.box_height_in, buy_list: [],
+    // v0.4 stage B3 (minimal, additive): the client's own cardio tools and running space name the aerobic sessions (EQ-14;
+    // RECHECK 03 / 07 / 08: 'run' sessions for a client with a bike and no running space)
+    cardio_options: cardio.slice(), running_space: e.detail.running_space || null
   };
 }
 
@@ -1025,7 +1070,8 @@ function aerobicOf(i, D1, D2, D3, sp, prefs, play_days, model, whys, r3) {
   const actSp = D2.activity_ids.length ? model.sport(activityProfile(model, D2.activity_ids[0], i.activity).pid) : null;
   const counts = !!(aer.activity_counts || (actSp && actSp.aerobic && actSp.aerobic.activity_counts));
   const ACA = C.activity_counts_as_aerobic;
-  if (ACA.enabled && counts && play_days.length && base >= 1) {
+  const longEnough = !(i.activity && i.activity.play_minutes === 'under_45'); // R3-ATH-05: a 45-60+ minute session counts
+  if (ACA.enabled && counts && longEnough && play_days.length && base >= 1) {
     replaced = Math.max(0, Math.min(play_days.length, ACA.max_replaced, base - ACA.keep_gym_led_min));
     if (replaced) { whys.push(why('why.activity_counts', 'R3-ATH-05', { activity: D2.activity_ids[0] || D2.id, n: replaced })); r3.push(ACA.r3); }
   }

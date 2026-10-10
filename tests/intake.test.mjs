@@ -39,9 +39,10 @@ for (const [mname, model] of MODELS) {
       assert.equal(r.ok, true, JSON.stringify(r.errors));
       assert.equal(r.intake.lang, 'en'); assert.equal(r.intake.units, 'lb'); assert.equal(r.intake.lift_style, 'balanced');
       assert.equal(r.intake.output_mode, 'plan_only'); assert.equal(r.intake.plan.mode, 'fixed_12'); assert.deepEqual(r.intake.plan.tests, ['none']);
-      assert.deepEqual(r.intake.plan.previous_cycles, { count: 0, last_had_holds_or_pain: false });
+      // v0.4 (R3-PER-02): 'did you finish your last block?' replaces the check-in history question
+      assert.deepEqual(r.intake.plan.previous_cycles, { count: 0, last_block_finished: true });
       assert.deepEqual(r.intake.prefs, { core_position: 'start', optional_days: 'separate', variety_ab: false, heavy_unilateral: false,
-        supersets_for_fatigue: false, cardio_adjust: 0, older_athletic_opt_in: false, split_style: 'default' });
+        supersets_for_fatigue: false, cardio_adjust: 0, older_athletic_opt_in: false, split_style: 'default', superset_recommendations: 'show', racket_50_impact_opt_in: false });
       assert.deepEqual(r.intake.schedule.weekdays, ['Mon', 'Tue', 'Thu', 'Fri'], 'aesthetics.4 planned days');
       assert.equal(r.intake.schedule.session_minutes, model.goal('muscle').default_minutes_L3, 'L3 bodybuilder default');
       const m = sample('08', x => { x.plan = { mode: 'maintenance_4_6', maint_reason: 'planned_maintenance' }; });
@@ -96,9 +97,15 @@ for (const [mname, model] of MODELS) {
       assert.ok(r.warnings.some(w => w.key === 'warning.coach_bypass'));
     });
 
-    it('week_by_week needs check-ins; year is not for competitive athletes; banned kit tokens are errors', () => {
-      assert.ok(codes(validateIntake(sample('06', i => { i.plan.mode = 'week_by_week'; }), model)).includes('week_by_week_needs_checkin'));
-      assert.equal(validateIntake(sample('06', i => { i.plan.mode = 'week_by_week'; i.output_mode = 'checkin'; }), model).ok, true);
+    it('week_by_week is a week view of the 12-week plan (no check-ins); year is not for competitive athletes; banned kit tokens are errors', () => {
+      // v0.4 (R3-VOL-02 / R3-VOL-04): no check-ins - week by week is the fixed 12-week plan shown a week at a time
+      const wb = validateIntake(sample('06', i => { i.plan.mode = 'week_by_week'; }), model);
+      assert.equal(wb.ok, true, JSON.stringify(wb.errors));
+      assert.deepEqual([wb.intake.plan.mode, wb.intake.plan.view], ['fixed_12', 'week']);
+      const ck = validateIntake(sample('06', i => { i.plan.mode = 'week_by_week'; i.output_mode = 'checkin'; }), model);
+      assert.equal(ck.ok, true);
+      assert.equal(ck.intake.output_mode, 'plan_only');
+      assert.ok(ck.warnings.some(w => w.key === 'warning.checkin_retired'));
       assert.ok(codes(validateIntake(sample('02', i => { i.plan.mode = 'year'; }), model)).includes('year_not_for_competitive'));
       for (const t of ['band', 'bands', 'chains', 'weight_releaser']) {
         const r = validateIntake(sample('06', i => { i.equipment.extras = ['dumbbell', t]; }), model);
@@ -118,7 +125,9 @@ for (const [mname, model] of MODELS) {
       assert.equal(d2.session_minutes, 105, 'competitive athletes may train 105 min');
       r = validateIntake(sample('06', i => { i.priority_muscles = ['glutes', 'side_delts', 'chest']; }), model);
       assert.equal(r.ok, true); assert.ok(r.warnings.some(w => w.key === 'warning.v8_priorities'));
-      assert.deepEqual(deriveValues(sample('06', i => { i.priority_muscles = ['glutes', 'side_delts', 'chest']; }), model).priority_muscles, ['glutes', 'side_delts']);
+      // v0.4 (R3-VOL-01 / R3-VOL-03): two Focus slots; side delts map to the shoulders line and steer the pick to side and rear delts
+      const fd = deriveValues(sample('06', i => { i.priority_muscles = ['glutes', 'side_delts', 'chest']; }), model);
+      assert.deepEqual([fd.priority_choices, fd.focus_lines, fd.priority_muscles], [['glutes', 'side_delts'], ['glutes', 'shoulders'], ['glutes', 'side_delts', 'rear_delts']]);
       r = validateIntake(sample('08', i => { i.prefs.split_style = 'ppl'; }), model);
       assert.equal(r.ok, true); assert.ok(r.warnings.some(w => w.key === 'warning.split_style_unavailable'));
       r = validateIntake(sample('06', i => { i.schedule.weekdays = ['Mon', 'Tue']; }), model);
@@ -243,7 +252,8 @@ for (const [mname, model] of MODELS) {
       assert.equal(a('04').plyo_share, null, 'class model: no plyo share');
       assert.equal(a('05').enabled, false); assert.equal(a('06').enabled, false); assert.equal(a('06').medball_main, false);
       assert.deepEqual(a('08').plyo_share, { start: 0.35, end: 0.5 }); assert.equal(a('08').contacts_session_max, 80); assert.equal(a('08').heavy_play_week, true);
-      assert.deepEqual(D['06'].D12_planned_step, { early: 0.03, late: 0.05, caps: { nonpriority_while_priority: 0.03, older: null }, source: 'planned_stairway' });
+      // v0.4 (R3-VOL-03): a Focus muscle never slows the other lines (no 3 % cap on them); the 60+ planned-step cap is retired
+      assert.deepEqual(D['06'].D12_planned_step, { early: 0.03, late: 0.05, caps: { nonpriority_while_priority: null, older: null }, source: 'planned_stairway' });
       assert.deepEqual(D['01'].D12_planned_step.caps, { nonpriority_while_priority: null, older: null });
     });
 
@@ -269,13 +279,16 @@ for (const [mname, model] of MODELS) {
 
     it('warnings, r3 ids and the derived object carry no sex / lifestyle keys', () => {
       assert.ok(D['03'].warnings.some(w => w.key === 'warning.v6_season'));
-      assert.deepEqual(D['01'].r3_pending, ['R3-ATH-01', 'R3-SES-01', 'R3-VOL-01', 'R3-VOL-03', 'R3-VOL-04']);
-      assert.ok(D['08'].r3_pending.includes('R3-ATH-05') && D['08'].r3_pending.includes('R3-ATH-02'));
+      // v0.4: round 3 answered SES-01 / VOL-01 / VOL-03 / VOL-04 (applied); only rule tags still pending stay listed
+      // fix round 2 / F1 (E-157; RECHECK v0.4 08 minor R08-r3-pending-derived): the answers the coach approved (rules.r3_approved) are
+      // not pending in the derived block either - it listed R3-ATH-02 / R3-ATH-05 after meta.r3_pending was cleared
+      for (const n of ['01', '08']) for (const id of D[n].r3_pending) assert.ok(!(model.rules.r3_approved || []).includes(id), `${n} ${id}`);
+      if ((model.rules.r3_approved || []).includes('R3-ATH-05')) assert.deepEqual(D['08'].r3_pending, []);
       for (const d of Object.values(D)) assert.deepEqual(forbiddenKeys(d), []);
       const old = deriveValues(sample('08', i => { i.age = 64; i.release.version = 'release.client'; }), model);
       assert.ok(old.warnings.some(w => w.key === 'warning.older_athletic'));
       assert.equal(old.D11_athletic_budget.older_mode, 'default'); assert.equal(old.age_group, 'older');
-      assert.deepEqual(old.D12_planned_step.caps.older, 0.03);
+      assert.equal(old.D12_planned_step.caps.older, null, 'v0.4: the 60+ planned-step cap is retired (round 3)');
       assert.ok(old.D2_profile.overlays.includes('active_aging_60plus'));
       const short = deriveValues(sample('01', i => { i.schedule.session_minutes = 30; }), model);
       assert.ok(short.warnings.some(w => w.key === 'warning.v3_short_athletes'));

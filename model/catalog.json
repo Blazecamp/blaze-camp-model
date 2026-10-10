@@ -1,6 +1,6 @@
 {
  "schema": "catalog/2",
- "model_version": "1.2.0",
+ "model_version": "1.3.0",
  "id_aliases": {
   "assisted-dips-band-or-machine": "assisted-dips-machine",
   "assisted-pull-up-band-or-machine": "assisted-pull-up-machine",
@@ -199,7 +199,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -280,7 +286,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "metres"
+    "count_unit": "metres",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": "drill"
    },
    "conditioning": null,
    "medball": null,
@@ -357,7 +369,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "metres"
+    "count_unit": "metres",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": "drill"
    },
    "conditioning": null,
    "medball": null,
@@ -434,7 +452,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "metres"
+    "count_unit": "metres",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": "drill"
    },
    "conditioning": null,
    "medball": null,
@@ -509,7 +533,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "metres"
+    "count_unit": "metres",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": "acceleration"
    },
    "conditioning": null,
    "medball": null,
@@ -1846,7 +1876,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -1926,7 +1962,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -1934,6 +1976,7 @@
    "older_opt_in_ok": true,
    "youth_ok": true,
    "tags": [
+    "deep_knee_flexion",
     "plyo_repeated",
     "split_grip"
    ],
@@ -2082,7 +2125,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -2169,7 +2218,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -2747,7 +2802,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -3592,7 +3653,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -3687,7 +3754,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -4865,7 +4938,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -5292,7 +5371,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -5368,7 +5453,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -5446,7 +5537,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -5522,7 +5619,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -5602,7 +5705,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -5689,7 +5798,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -5769,7 +5884,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -5846,7 +5967,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -5923,7 +6050,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -6003,7 +6136,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -6093,7 +6232,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -6170,7 +6315,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -6248,7 +6399,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -6328,7 +6485,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -6408,7 +6571,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -6489,7 +6658,13 @@
     "rc_stage_default": "RC2",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -6499,7 +6674,6 @@
    "tags": [
     "depth_jump",
     "high_impact",
-    "plyo_repeated",
     "split_grip"
    ],
    "variation_axes": [
@@ -6571,7 +6745,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -6850,7 +7030,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -6923,7 +7109,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -7485,7 +7677,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -7571,7 +7769,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -7579,6 +7783,7 @@
    "older_opt_in_ok": true,
    "youth_ok": true,
    "tags": [
+    "deep_knee_flexion",
     "plyo_repeated"
    ],
    "variation_axes": [
@@ -9513,7 +9718,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -9523,6 +9734,7 @@
    "tags": [
     "axial_high",
     "barbell",
+    "deep_knee_flexion",
     "fixed_grip",
     "front_rack",
     "olympic",
@@ -9595,7 +9807,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -9677,7 +9895,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -9687,6 +9911,7 @@
    "tags": [
     "axial_high",
     "barbell",
+    "deep_knee_flexion",
     "fixed_grip",
     "front_rack",
     "olympic",
@@ -9826,7 +10051,16 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": [
+     "american_football",
+     "flag_football"
+    ],
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -10705,7 +10939,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -10860,7 +11100,13 @@
     "rc_stage_default": "RC2",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -10870,7 +11116,6 @@
    "tags": [
     "depth_jump",
     "high_impact",
-    "plyo_repeated",
     "split_grip"
    ],
    "variation_axes": [
@@ -11219,7 +11464,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -11729,7 +11980,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -11822,7 +12079,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -11908,7 +12171,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": true,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -11991,7 +12260,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "landing",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -12073,7 +12348,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": true,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -12081,6 +12362,7 @@
    "older_opt_in_ok": true,
    "youth_ok": true,
    "tags": [
+    "deep_knee_flexion",
     "loaded_jump",
     "split_grip"
    ],
@@ -12963,7 +13245,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "landing",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -13048,7 +13336,13 @@
     "rc_stage_default": "RC2",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -13057,8 +13351,7 @@
    "youth_ok": true,
    "tags": [
     "depth_jump",
-    "high_impact",
-    "plyo_repeated"
+    "high_impact"
    ],
    "variation_axes": [
     "stance",
@@ -13133,7 +13426,13 @@
     "rc_stage_default": "RC2",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -13142,8 +13441,7 @@
    "youth_ok": true,
    "tags": [
     "depth_jump",
-    "high_impact",
-    "plyo_repeated"
+    "high_impact"
    ],
    "variation_axes": [
     "stance",
@@ -13289,7 +13587,16 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": [
+     "american_football",
+     "flag_football"
+    ],
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -14446,19 +14753,23 @@
     "full_catch": false,
     "from_floor": false,
     "plyo_method_default": "repeated_receive_create",
-    "rc_stage_default": "RC3",
+    "rc_stage_default": "RC2",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
    "older_ok": false,
    "older_opt_in_ok": true,
    "youth_ok": true,
-   "tags": [
-    "plyo_repeated"
-   ],
+   "tags": [],
    "variation_axes": [
     "implement",
     "stance",
@@ -14523,10 +14834,16 @@
     "full_catch": false,
     "from_floor": false,
     "plyo_method_default": "repeated_receive_create",
-    "rc_stage_default": "RC3",
+    "rc_stage_default": "RC2",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -14534,8 +14851,7 @@
    "older_opt_in_ok": true,
    "youth_ok": true,
    "tags": [
-    "high_impact",
-    "plyo_repeated"
+    "high_impact"
    ],
    "variation_axes": [
     "implement",
@@ -14755,7 +15071,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -14835,7 +15157,13 @@
     "rc_stage_default": "RC2",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -14844,8 +15172,7 @@
    "youth_ok": true,
    "tags": [
     "depth_jump",
-    "high_impact",
-    "plyo_repeated"
+    "high_impact"
    ],
    "variation_axes": [
     "implement",
@@ -14916,7 +15243,13 @@
     "rc_stage_default": "RC2",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -14925,8 +15258,7 @@
    "youth_ok": true,
    "tags": [
     "depth_jump",
-    "high_impact",
-    "plyo_repeated"
+    "high_impact"
    ],
    "variation_axes": [
     "implement",
@@ -14997,7 +15329,13 @@
     "rc_stage_default": "RC2",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -15006,8 +15344,7 @@
    "youth_ok": true,
    "tags": [
     "depth_jump",
-    "high_impact",
-    "plyo_repeated"
+    "high_impact"
    ],
    "variation_axes": [
     "implement",
@@ -15513,7 +15850,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -15945,7 +16288,16 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": [
+     "american_football",
+     "flag_football"
+    ],
+    "no_cuts": true,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -16014,7 +16366,13 @@
     "rc_stage_default": "RC2",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": true,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -16098,7 +16456,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "metres"
+    "count_unit": "metres",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": "acceleration"
    },
    "conditioning": null,
    "medball": null,
@@ -16320,7 +16684,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -16458,7 +16828,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "metres"
+    "count_unit": "metres",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": "run"
    },
    "conditioning": null,
    "medball": null,
@@ -16751,7 +17127,16 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": [
+     "american_football",
+     "flag_football"
+    ],
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -17183,7 +17568,9 @@
    "older_ok": true,
    "older_opt_in_ok": true,
    "youth_ok": true,
-   "tags": [],
+   "tags": [
+    "deep_knee_flexion"
+   ],
    "variation_axes": [
     "stance",
     "hand",
@@ -17254,7 +17641,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -17407,7 +17800,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -17487,7 +17886,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -17567,7 +17972,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -17575,6 +17986,7 @@
    "older_opt_in_ok": true,
    "youth_ok": true,
    "tags": [
+    "deep_knee_flexion",
     "plyo_repeated"
    ],
    "variation_axes": [
@@ -18382,7 +18794,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -18462,7 +18880,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -18545,7 +18969,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -19129,7 +19559,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -19140,6 +19576,7 @@
     "axial_high",
     "barbell",
     "beginner_olympic",
+    "deep_knee_flexion",
     "fixed_grip",
     "front_rack",
     "olympic"
@@ -19211,7 +19648,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -19291,7 +19734,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -19370,7 +19819,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -19450,7 +19905,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -19530,7 +19991,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -19609,7 +20076,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -19688,7 +20161,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -19767,7 +20246,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -19777,6 +20262,7 @@
    "tags": [
     "axial_high",
     "barbell",
+    "deep_knee_flexion",
     "fixed_grip",
     "olympic",
     "snatch"
@@ -19846,7 +20332,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -19856,6 +20348,7 @@
    "tags": [
     "axial_high",
     "barbell",
+    "deep_knee_flexion",
     "fixed_grip",
     "front_rack",
     "olympic"
@@ -20064,7 +20557,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": true,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -20148,7 +20647,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -20460,7 +20965,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "landing",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -20543,7 +21054,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -20625,7 +21142,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -20705,7 +21228,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -20715,6 +21244,7 @@
    "tags": [
     "axial_high",
     "barbell",
+    "deep_knee_flexion",
     "fixed_grip",
     "olympic",
     "snatch"
@@ -21007,7 +21537,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "metres"
+    "count_unit": "metres",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": "drill"
    },
    "conditioning": null,
    "medball": null,
@@ -21845,7 +22381,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -21920,7 +22462,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -22001,7 +22549,13 @@
     "rc_stage_default": "RC2",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -22010,8 +22564,7 @@
    "youth_ok": true,
    "tags": [
     "high_impact",
-    "hurdle_hop",
-    "plyo_repeated"
+    "hurdle_hop"
    ],
    "variation_axes": [
     "stance",
@@ -22084,7 +22637,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -23041,7 +23600,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -23471,7 +24036,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -23480,6 +24051,7 @@
    "youth_ok": true,
    "tags": [
     "beginner_olympic",
+    "deep_knee_flexion",
     "front_rack",
     "olympic",
     "split_grip"
@@ -23757,7 +24329,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -24187,7 +24765,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -24390,7 +24974,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -26106,7 +26696,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -26243,7 +26839,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -26323,7 +26925,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -26403,7 +27011,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -26554,7 +27168,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -26634,7 +27254,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -26714,7 +27340,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -27092,7 +27724,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -27170,7 +27808,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "landing",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -27255,7 +27899,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "landing",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -27338,7 +27988,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -27419,7 +28075,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -27498,7 +28160,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -27508,6 +28176,7 @@
    "tags": [
     "axial_high",
     "barbell",
+    "deep_knee_flexion",
     "fixed_grip",
     "front_rack",
     "olympic"
@@ -27577,7 +28246,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -27587,6 +28262,7 @@
    "tags": [
     "axial_high",
     "barbell",
+    "deep_knee_flexion",
     "fixed_grip",
     "olympic",
     "snatch"
@@ -27732,7 +28408,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -27960,7 +28642,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "metres"
+    "count_unit": "metres",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": "drill"
    },
    "conditioning": null,
    "medball": null,
@@ -28814,7 +29502,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "metres"
+    "count_unit": "metres",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": "max_velocity"
    },
    "conditioning": null,
    "medball": null,
@@ -28959,7 +29653,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -29046,7 +29746,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -29130,7 +29836,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -29470,7 +30182,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -30198,7 +30916,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -30281,7 +31005,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -30364,7 +31094,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -30447,7 +31183,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -30940,7 +31682,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -31026,7 +31774,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -32106,7 +32860,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -32191,7 +32951,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -32412,7 +33178,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -32495,7 +33267,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -32580,7 +33358,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": true,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -32666,7 +33450,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -33271,7 +34061,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "landing",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -33353,7 +34149,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -33431,7 +34233,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -33513,7 +34321,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -33652,7 +34466,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -34136,7 +34956,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -34146,6 +34972,7 @@
    "tags": [
     "axial_high",
     "barbell",
+    "deep_knee_flexion",
     "olympic",
     "overhead",
     "overhead_squat",
@@ -34430,7 +35257,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -35742,7 +36575,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": true,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -35823,7 +36662,16 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": [
+     "american_football",
+     "flag_football"
+    ],
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -35896,7 +36744,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -35979,7 +36833,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -36062,7 +36922,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -36424,7 +37290,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": true,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -36579,7 +37451,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "landing",
+    "upper": true,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -36658,7 +37536,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -36867,7 +37751,9 @@
    "older_ok": true,
    "older_opt_in_ok": true,
    "youth_ok": true,
-   "tags": [],
+   "tags": [
+    "deep_knee_flexion"
+   ],
    "variation_axes": [
     "stance",
     "hand",
@@ -37368,7 +38254,9 @@
    "older_ok": true,
    "older_opt_in_ok": true,
    "youth_ok": true,
-   "tags": [],
+   "tags": [
+    "deep_knee_flexion"
+   ],
    "variation_axes": [
     "stance",
     "hand",
@@ -37439,7 +38327,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -37520,7 +38414,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": true,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -37528,6 +38428,7 @@
    "older_opt_in_ok": true,
    "youth_ok": true,
    "tags": [
+    "deep_knee_flexion",
     "loaded_jump",
     "split_grip"
    ],
@@ -37938,7 +38839,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -38030,7 +38937,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -38122,7 +39035,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -38203,7 +39122,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -38283,7 +39208,16 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": [
+     "american_football",
+     "flag_football"
+    ],
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -38966,7 +39900,16 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": [
+     "american_football",
+     "flag_football"
+    ],
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -39984,7 +40927,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -40151,7 +41100,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -40879,7 +41834,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "metres"
+    "count_unit": "metres",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": "run"
    },
    "conditioning": null,
    "medball": null,
@@ -41489,7 +42450,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -41938,7 +42905,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -42026,7 +42999,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -42466,7 +43445,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -42544,7 +43529,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -42624,7 +43615,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -42777,7 +43774,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -42853,7 +43856,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -42938,7 +43947,13 @@
     "rc_stage_default": "RC2",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -42948,7 +43963,6 @@
    "tags": [
     "depth_jump",
     "high_impact",
-    "plyo_repeated",
     "split_grip"
    ],
    "variation_axes": [
@@ -43092,7 +44106,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "landing",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -43175,7 +44195,13 @@
     "rc_stage_default": "RC2",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -43184,8 +44210,7 @@
    "youth_ok": true,
    "tags": [
     "depth_jump",
-    "high_impact",
-    "plyo_repeated"
+    "high_impact"
    ],
    "variation_axes": [
     "stance",
@@ -43255,7 +44280,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -43335,7 +44366,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -43417,7 +44454,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -43799,7 +44842,13 @@
     "rc_stage_default": "RC2",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -43807,8 +44856,7 @@
    "older_opt_in_ok": true,
    "youth_ok": true,
    "tags": [
-    "high_impact",
-    "plyo_repeated"
+    "high_impact"
    ],
    "variation_axes": [
     "stance",
@@ -43879,7 +44927,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -43957,7 +45011,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -44037,7 +45097,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -44124,7 +45190,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -44211,7 +45283,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -44297,7 +45375,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -44384,7 +45468,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -44531,7 +45621,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -44609,7 +45705,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -44685,7 +45787,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -45035,7 +46143,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -45262,7 +46376,16 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": [
+     "american_football",
+     "flag_football"
+    ],
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -45948,7 +47071,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -46030,7 +47159,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -46040,6 +47175,7 @@
    "tags": [
     "axial_high",
     "barbell",
+    "deep_knee_flexion",
     "fixed_grip",
     "olympic",
     "olympic_from_floor",
@@ -46437,7 +47573,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -46520,7 +47662,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -46598,7 +47746,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -46606,6 +47760,7 @@
    "older_opt_in_ok": true,
    "youth_ok": true,
    "tags": [
+    "deep_knee_flexion",
     "plyo_repeated"
    ],
    "variation_axes": [
@@ -46679,7 +47834,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "cuts"
+    "count_unit": "cuts",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -46902,7 +48063,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -46978,7 +48145,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -47056,7 +48229,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -47132,7 +48311,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -47880,7 +49065,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -47963,7 +49154,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "reps"
+    "count_unit": "reps",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -48442,7 +49639,9 @@
    "older_ok": true,
    "older_opt_in_ok": true,
    "youth_ok": true,
-   "tags": [],
+   "tags": [
+    "deep_knee_flexion"
+   ],
    "variation_axes": [
     "stance",
     "hand",
@@ -48574,7 +49773,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -48660,7 +49865,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -48746,7 +49957,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -48981,7 +50198,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "landing",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -49060,7 +50283,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "landing",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -49288,7 +50517,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -49857,7 +51092,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -51326,7 +52567,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -51473,7 +52720,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -51548,7 +52801,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -51626,7 +52885,13 @@
     "rc_stage_default": "RC3",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -51708,7 +52973,13 @@
     "rc_stage_default": "RC2",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -51718,7 +52989,6 @@
    "tags": [
     "depth_jump",
     "high_impact",
-    "plyo_repeated",
     "split_grip"
    ],
    "variation_axes": [
@@ -51993,7 +53263,9 @@
    "older_ok": true,
    "older_opt_in_ok": true,
    "youth_ok": true,
-   "tags": [],
+   "tags": [
+    "deep_knee_flexion"
+   ],
    "variation_axes": [
     "stance",
     "hand",
@@ -52145,7 +53417,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "throws"
+    "count_unit": "throws",
+    "response": null,
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -52391,7 +53669,13 @@
     "rc_stage_default": "RC2",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -52401,7 +53685,6 @@
    "tags": [
     "depth_jump",
     "high_impact",
-    "plyo_repeated",
     "split_grip"
    ],
    "variation_axes": [
@@ -52813,7 +54096,13 @@
     "rc_stage_default": null,
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": {
@@ -52896,7 +54185,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": false,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "landing",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,
@@ -52978,7 +54273,13 @@
     "rc_stage_default": "RC1",
     "unilateral_harder": true,
     "loaded_jump": false,
-    "count_unit": "contacts"
+    "count_unit": "contacts",
+    "response": "landing",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
    },
    "conditioning": null,
    "medball": null,

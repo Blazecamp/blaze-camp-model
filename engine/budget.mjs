@@ -36,7 +36,60 @@ export function olympicSetsPerExposure(derived, model, exposures, week) {
   return clamp(Math.floor(weekly / exposures + EPS), O.min_per_exposure, O.max_per_exposure);
 }
 
-/** the athletic budget key a dosed item feeds (planned counts, reconcile) */
+/**
+ * B2 (RECHECK 02 major 'Olympic work is 8 sets for 11 weeks, then +50 % in the test week'): the week's Olympic sets climb with
+ * the stairway - the profile's weekly range low -> high across the block (rules.olympic.sets.climb), the end-test week holding
+ * the week before - and are handed out one set at a time to the earliest exposures in day order (VOL-07 'the first exercises
+ * first'): 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12 over 4 exposures. Each exposure keeps 2-4 sets. Stay-active and class-model
+ * plans keep their fixed sets (olympicSetsPerExposure). Returns null when the rules do not size Olympic sets from a budget.
+ * @param {object} derived @param {object} model @param {number} exposures Olympic stations on the main days @param {object|null} week
+ * @param {number} index 0-based position of the exposure in day order
+ * @returns {number|null}
+ */
+export function olympicSetsForIndex(derived, model, exposures, week, index) {
+  const O = model.rules.olympic.sets;
+  const fixed = olympicSetsPerExposure(derived, model, exposures, week);
+  // v0.4 B4 (integration, random sweep: 8 Olympic sets against an in-season target of 2): in a game-heavy in-season block the
+  // Olympic work is the light piece of R2-ATH-04 (rules.olympic.in_season: 2 sets of 3, once a week) - the same number the
+  // athletic budget targets (athletic.athleticBudget caps olympic_sets at it); the other exposures of the week rest (0 sets)
+  const IS = model.rules.olympic.in_season;
+  const D11g = derived.D11_athletic_budget || {};
+  if (fixed !== null && week && week.block_type === 'in_season' && D11g.game_heavy && IS && typeof IS.sets === 'number' &&
+      model.rules.athletic && model.rules.athletic.in_season_game_heavy) return index < (IS.per_week || 1) ? IS.sets : 0;
+  if (!O || !O.climb || fixed === null) return fixed;
+  if (derived.D1_family === 'hybrid_crossfit' && model.rules.reps.class_levels) return fixed;
+  if (stayActiveOlympic(derived)) return fixed;
+  const D11 = derived.D11_athletic_budget || {};
+  const r = D11.weekly && Array.isArray(D11.weekly.olympic_sets) ? D11.weekly.olympic_sets : null;
+  if (!r || !exposures) return fixed;
+  let frac;
+  if (!week) frac = 0;
+  else if (week.block_type === 'maintenance') frac = 0;
+  else if (week.stair_week != null && week.stair_N) {
+    const hold = O.hold_end_test_week && endTestHoldOf(derived, week, model);
+    const span = hold ? week.stair_N - 2 : week.stair_N - 1;
+    frac = span > 0 ? clamp((week.stair_week - 1) / span, 0, 1) : 1;
+  } else frac = blockProgress(week);
+  const lo = exposures * O.min_per_exposure, hi = exposures * O.max_per_exposure;
+  const total = clamp(roundHalfUp(r[0] + (r[1] - r[0]) * frac), lo, hi);
+  const base = Math.floor(total / exposures + EPS);
+  const extra = total - base * exposures;
+  return clamp(base + (index < extra ? 1 : 0), O.min_per_exposure, O.max_per_exposure);
+}
+
+/** the block that holds this week ends with an end-test week (D13 end weeks) - mirrors athletic.endTestHold */
+function endTestHoldOf(derived, week, model) {
+  if (!week || week.stair_week == null || !week.stair_N || week.stair_N < 3) return false;
+  const end = week.n + (week.stair_N - week.stair_week);
+  const D13 = derived.D13_tests || {};
+  // (fix round 2 / F2, E-174: only a physical test holds the last week - mirrors athletic.endTestHold)
+  const A = model && model.rules.athletic;
+  const TH = A && A.r2 && A.r2.tests && A.r2.tests.hold_for;
+  const items = (D13.items || []).filter((x) => !Array.isArray(TH) || TH.includes(x));
+  return items.length > 0 && (D13.end_weeks || []).includes(end);
+}
+
+/** the athletic budget key a dosed item feeds (planned counts, reconcile); B2 callers use athletic.athleticKeyOf (the record) */
 export function budgetKeyOf(bucket, quality, unit) {
   if (bucket === 'AP_TRIPLE_EXT') return 'olympic_sets';
   if (unit === 'contacts' || ['AP_PLYO', 'AP_JUMP_LIMITED_KNEE'].includes(bucket)) {
@@ -80,6 +133,9 @@ export function warmupMode(derived, model, profile) {
   const noRun = !tokens.has('open_space_short') && !tokens.has('open_space_long');
   const running = !!(profile && profile.running_sport);
   if (inj.has('FALLS_COURT')) return 'balance';
+  // COACH-R3 R3-ATH-02 (approved, stage B2): from 60 the default includes balance work - the warm-up takes the balance prep
+  const OL = model.rules.population.older;
+  if (OL && OL.default_on && OL.default_on.balance_warmup && (derived.age || 0) >= OL.from_age) return 'balance';
   if (lowerPain || noRun) return 'mobility';
   if (inj.has('SHOULDER_SWIMMER') || (inj.has('SHOULDER_THROWER') && !running)) return 'mobility';
   if (profile && profile.sprint_tier === 'T0' && !running) return 'mobility';

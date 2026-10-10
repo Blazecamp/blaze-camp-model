@@ -73,7 +73,8 @@ export function crossCheckRules(rules, S) {
     const L = rules.stairway.limits, d = [];
     if (L.planned_step_max !== lim.planned_step_max) d.push(`planned_step_max ${L.planned_step_max} vs ${lim.planned_step_max}`);
     if (L.nonpriority_while_priority !== lim.nonpriority_while_priority) d.push(`nonpriority ${L.nonpriority_while_priority} vs ${lim.nonpriority_while_priority}`);
-    if (L.older_60plus !== lim.older_adults_60plus) d.push(`older ${L.older_60plus} vs ${lim.older_adults_60plus}`);
+    // v1.2 sources (round 3): the older-adult 3 % cap is retired (R3-VOL-04; 12 v1.2 §3.7.4) - the rules carry older_cap_retired
+    if (lim.older_adults_60plus === undefined ? !L.older_cap_retired : L.older_60plus !== lim.older_adults_60plus) d.push(`older ${L.older_60plus} vs ${lim.older_adults_60plus}`);
     if (!(L.total_weekly_ceiling === 0.10 && L.total_ceiling_strict === true && /strictly below \+10/.test(String(lim.total_weekly_resistance_sets)))) d.push('total weekly ceiling not "strictly below 10 %"');
     add('X05', '12_volume_algorithm_v1.json', 'stairway.limits (step <= 7 %, non-priority 3 %, 60+ 3 %, total strictly < 10 %)', d.length ? 'mismatch' : 'ok', d.join('; ') || undefined);
   }
@@ -146,7 +147,7 @@ export function crossCheckRules(rules, S) {
   const cyc = dig(S.alg12, 'cycles.rule');
   if (!cyc) add('X11', '12_volume_algorithm_v1.json', 'cycles', 'source_missing');
   else {
-    const c = rules.cycles, ok = /1\.05/.test(cyc) && /\+ 1/.test(cyc) && /max 25/.test(cyc) && /30 priority/.test(cyc) && c.start_multiplier === 1.05 && c.cap_add === 1 && c.cap_max_nonpriority === 25 && c.cap_max_priority === 30;
+    const c = rules.cycles, ok = /1\.05/.test(cyc) && /\+ 1/.test(cyc) && /max 25/.test(cyc) && /30 (Focus \/ )?priority/.test(cyc) && c.start_multiplier === 1.05 && c.cap_add === 1 && c.cap_max_nonpriority === 25 && c.cap_max_priority === 30;
     add('X11', '12_volume_algorithm_v1.json', 'cycles (start x 1.05, cap + 1, max 25 / 30)', ok ? 'ok' : 'mismatch', ok ? undefined : cyc);
   }
 

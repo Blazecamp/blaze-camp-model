@@ -44,31 +44,40 @@ function placedRiseCapped(p) {
   const ws = stairWeeks(p);
   for (let i = 1; i < ws.length; i++) {
     const a = ws[i - 1], b = ws[i];
-    if (a.training_block !== b.training_block || b.is_exercise_block_start === true) continue;
+    // (an exercise-block start may open a 2-set exercise - v0.4 fix round 1, E-86)
+    const ebStart = (p.shape.exercise_blocks || []).some(e => e.weeks[0] === b.n);
+    if (a.training_block !== b.training_block || b.is_exercise_block_start === true || ebStart) continue;
     for (const [m, v] of Object.entries(b.main_sets_by_muscle)) {
       const prev = a.main_sets_by_muscle[m] || 0;
-      const cap = Math.max(P.per_muscle_whole_sets, prev * P.per_muscle_pct) + P.helper_slack;
+      // the volume engine allows max(1, 7 % rounded to whole sets) a week (volume.allowRise, B1); helpers add their slack
+      const cap = Math.max(P.per_muscle_whole_sets, Math.round(prev * P.per_muscle_pct)) + P.helper_slack;
       assert.ok(v - prev <= cap + EPS, `${m} week ${b.n}: ${prev} -> ${v}`);
     }
     if (a.total_main_sets > 0) assert.ok(b.total_main_sets <= a.total_main_sets * (1 + P.total_pct) + 1 + EPS, `total week ${b.n}: ${a.total_main_sets} -> ${b.total_main_sets}`);
   }
 }
-/** every main day within minutes x 1.10, or warned and offered (UNI-09, D-34, D-67) */
+/** every main day within minutes x 1.10, or warned (UNI-09, D-34); v0.4: a test week's day may run longer by its work-ups and
+ *  timed tests and says so (warning.test_day_long for that day and week, R2-PER-07) */
 function daysFitOrWarned(p, factor = R.session.long_day.warn_above_factor) {
   for (const w of p.weeks) for (const d of mains(w)) {
     if (d.est_minutes <= p.meta.session_minutes * factor + EPS) continue;
-    assert.ok(p.meta.warnings.some(x => ['warning.long_day'].includes(x.key) && x.args.day === d.weekday), `${d.weekday} w${w.n} ${d.est_minutes} min without warning.long_day`);
+    const warned = p.meta.warnings.some(x => (x.key === 'warning.long_day' && x.args.day === d.weekday) || (x.key === 'warning.test_day_long' && x.args.day === d.weekday && x.args.week === w.n));
+    assert.ok(warned, `${d.weekday} w${w.n} ${d.est_minutes} min without warning.long_day / warning.test_day_long`);
   }
 }
 
 describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model && 'model/ not compiled' }, () => {
   // ------------------------------------------------------------------------------------------------------ 01 swimming
-  test('R01-1 swimming: the stairway climbs on the three main days, the optional Saturday never carries it (R2-PER-03, ORD-10)', () => {
+  test('R01-1 swimming: the stairway climbs on the three main days; the optional Saturday keeps its template sets and only takes a small line\'s bonus exercise (R2-PER-03, ORD-10, R3-VOL-03)', () => {
     const { p } = plan('01');
     climbsOnMainDays(p);
     const sat = (w) => w.days.find(d => d.kind === 'optional');
-    const setsOf = (d) => d ? d.blocks.flatMap(b => b.items).reduce((a, it) => a + (it.sets || 0), 0) : 0;
-    assert.equal(setsOf(sat(p.weeks[11])), setsOf(sat(p.weeks[0])), 'optional day flat');
+    const setsOf = (d, pred) => d ? d.blocks.flatMap(b => b.items).filter(pred).reduce((a, it) => a + (it.sets || 0), 0) : 0;
+    // v0.4 fix round 1 (E-86 / E-94): the optional day also carries a trained big line's climb (an added exercise, 2+ sets, opened
+    // where an exercise block starts) and the pattern station of a big mover the main days cannot hold - never a 1-set station
+    const tpl = (it) => !['bonus', 'focus_added', 'pattern_kept'].includes(it.origin);
+    assert.equal(setsOf(sat(p.weeks[11]), tpl), setsOf(sat(p.weeks[0]), tpl), 'the optional day\'s template slots stay flat');
+    for (const w of p.weeks) for (const it of sat(w).blocks.flatMap(b => b.items).filter(x => !tpl(x) && x.exercise_id)) assert.ok(it.sets >= 2, `${it.slot_id} opens at 2+ sets`);
   });
   test('R01-2 swimming: placed weekly rises capped at max(1 set, 7 %) per muscle and 7 % in total (R2-VOL-01, UNI-05)', () => placedRiseCapped(plan('01').p));
   test('R01-3 swimming: no depth jumps / bounds / hurdle hops; plyo contacts near the 6-8 budget (04 swimming plyo rules, V27)', () => {
@@ -88,8 +97,10 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
   });
   test('R01-7 swimming: glutes and side delts are targets for an athlete, not credit-only (R2-VOL-06)', () => {
     const { p } = plan('01');
-    assert.equal(p.meta.targets.fill.glutes, 'target'); assert.equal(p.meta.targets.fill.side_delts, 'target');
-    assert.ok(stairWeeks(p).every(w => w.weekly_sets_by_muscle.glutes >= 4));
+    // v0.4 fix round 1 (E-84, COACH-R3 R3-SES-01): glutes + hamstrings are ONE hips group with one target (the hamstrings line);
+    // glutes follow as credit; side delts stay targets inside the shoulders line
+    assert.equal(p.meta.targets.fill.glutes, 'credit'); assert.equal(p.meta.targets.fill.hamstrings, 'target'); assert.equal(p.meta.targets.fill.side_delts, 'target');
+    assert.ok(stairWeeks(p).every(w => w.main_sets_by_group.hips >= 10 - EPS));
   });
   test('R01-8 swimming: joint-care rear-delt work is credited (R2-LIB-04) and pulling outweighs pushing (SHOULDER_SWIMMER)', () => {
     const { p } = plan('01');
@@ -98,7 +109,9 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
     const pull = its.filter(x => ['HPULL', 'VPULL'].includes(x.ex.credit_class)).reduce((a, x) => a + x.it.sets, 0);
     const push = its.filter(x => ['HPUSH', 'VPUSH', 'DIPS'].includes(x.ex.credit_class)).reduce((a, x) => a + x.it.sets, 0);
     assert.ok(pull >= push, `pull ${pull} push ${push}`);
-    assert.ok(its.some(x => x.it.bucket === 'RECOVERY_ARM_CARE' && Object.keys(x.it.credits || {}).length));
+    // v0.4 fix round 1 (E-89): the shoulder care stays every session but credits no muscle (survival work, not working sets)
+    assert.ok(its.some(x => x.it.bucket === 'RECOVERY_ARM_CARE'));
+    for (const x of its.filter(r => r.it.role === 'prehab')) assert.deepEqual(x.it.credits, {}, x.it.slot_id);
   });
   test('R01-9 swimming: shoulder hotspots avoided without reported pain - no upright row, no standing overhead press (SHOULDER_SWIMMER)', () => {
     const { p } = plan('01');
@@ -188,8 +201,16 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
   test('R02-5 football: the athletic budget is dosed toward its targets (COD, low contacts, sprint metres, throws) - V27', () => {
     const { p } = plan('02');
     assert.ok(p.validation.checks.find(c => c.id === 'V27').pass);
-    const w = p.weeks[0].athletic_budget;
-    assert.ok(w.planned.cod_cuts >= 0.75 * w.targets.cod_cuts && w.planned.low_contacts > 0 && w.planned.sprint_m >= 0.75 * w.targets.sprint_m);
+    // (fix round 2 / F2: week 2 - week 1 is the baseline test week, where the sprint test replaces a sprint station, E-165; one scale
+    // down the block, E-160: the early weeks plan the share of the target the peak week's stations hold, so the work climbs to the
+    // peak instead of sitting on it - COD is read against its stairway goal and, at the peak, against 70 % of the sport target)
+    const w = p.weeks[1].athletic_budget;
+    // v0.4 stage B2: every key lands on the athletic stairway's goal (the sport target, scaled to what the block's stations hold,
+    // E-29) and climbs to the block's peak (the football sprint is acceleration work, 10-20 m, LIB-21)
+    assert.ok(w.planned.cod_cuts >= 0.75 * w.goals.cod_cuts && w.planned.low_contacts > 0 && w.planned.sprint_m >= 0.75 * w.goals.sprint_m);
+    const last = p.weeks[10].athletic_budget;
+    assert.ok(last.planned.cod_cuts > w.planned.cod_cuts && last.planned.cod_cuts >= 0.7 * last.targets.cod_cuts, `COD ${w.planned.cod_cuts} -> ${last.planned.cod_cuts}`);
+    assert.ok(last.planned.sprint_m > w.planned.sprint_m && last.planned.sprint_m >= 0.6 * last.targets.sprint_m, `${w.planned.sprint_m} -> ${last.planned.sprint_m}`);
   });
   test('R02-6 football: baseline and end tests are the same drills / lifts (R2-PER-07); a trained athlete is not tested "from zero"', () => {
     const { p } = plan('02');
@@ -199,14 +220,15 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
   });
   test('R02-7 football: no muscle is credit-only for a competitive field athlete except the arms; glutes / side delts targeted', () => {
     const { p } = plan('02');
-    assert.equal(p.meta.targets.fill.glutes, 'target'); assert.equal(p.meta.targets.fill.side_delts, 'target');
+    // (v0.4 fix round 1, E-84: glutes follow the hips group's hamstrings line as credit)
+    assert.equal(p.meta.targets.fill.glutes, 'credit'); assert.equal(p.meta.targets.fill.hamstrings, 'target'); assert.equal(p.meta.targets.fill.side_delts, 'target');
   });
   test('R02-9 football: the work lift gets at least the sets of any other station in its group, and 3 sets at 90 min (VOL-07, VOL-16)', () => {
     const { p } = plan('02');
     for (const w of p.weeks) for (const d of mains(w)) {
       const its = d.blocks.flatMap(b => b.items);
       const work = its.find(it => it.role === 'work');
-      if (!work || work.test) continue;
+      if (!work || work.test || (work.flags || []).includes('back_off')) continue; // a tested lift's back-off sets (E-91)
       assert.ok(work.sets >= 3, `${d.weekday} w${w.n} work ${work.sets}`);
       for (const it of its.filter(x => x.group === work.group && x !== work && x.sets)) assert.ok(work.sets >= it.sets, `${d.weekday} w${w.n} ${it.exercise_id}`);
     }
@@ -215,10 +237,15 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
     const { p } = plan('02');
     for (const x of items(p, x => x.it.bucket === 'AP_PLYO' && x.ex && x.ex.athletic)) if (x.ex.athletic.quality === 'landing') assert.equal(x.w.plyo_stage, 'RC1', `w${x.w.n} ${x.it.exercise_id}`);
   });
-  test('R02-11 football: the time model counts the add-on aerobic work and WOD minutes (UNI-09)', () => {
+  test('R02-11 football: the time model counts the add-on aerobic work and WOD minutes (UNI-09); an add-on the session cannot hold is its own session that day (v0.4)', () => {
     const { p } = plan('02');
-    const tue = p.weeks[0].days.find(d => d.weekday === 'Tue');
-    assert.ok(typeof tue.aerobic_minutes === 'number' && tue.aerobic_minutes > 0);
+    // (v0.4 fix round 1 / F2: the add-on goes to the main day with the most room - Friday once Tuesday holds the ankle block)
+    const tue = p.weeks[0].days.find(d => d.kind === 'main' && d.blocks.some(b => b.items.some(it => it.aerobic)));
+    const aer = tue.blocks.flatMap(b => b.items).filter(it => it.aerobic);
+    assert.ok(aer.length > 0);
+    assert.ok(typeof tue.aerobic_minutes === 'number');
+    if (tue.aerobic_minutes === 0) assert.ok(aer.every(it => it.notes.some(n => n.key === 'note.aerobic_separate')), 'a separate session says so');
+    else assert.ok(tue.aerobic_minutes > 0);
   });
   test('R02-12 football / R08-16: client-facing day titles carry no coach jargon (axial, clean day, snatch day)', () => {
     // (a CrossFit class names its lifts - 'Squat + clean day' is the class's own vocabulary, kept)
@@ -236,8 +263,10 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
     }
   });
   test('R02-17 football / R08-6: the printed plyo share is the planned one, not the budget target', () => {
-    const { md } = plan('08');
-    assert.ok(/Plyo share 0%/.test(md), 'weeks of landing drills print 0 %');
+    const { p, md } = plan('08');
+    // (v0.4 fix round 1 / F2: the racket player's Receive weeks now hold the ankle track, so the share is not 0 % - the printed share is
+    // still the planned one, week by week)
+    for (const w of p.weeks.filter(x => x.athletic_budget && typeof x.athletic_budget.planned_share === 'number')) assert.ok(md.includes('Plyo share ' + Math.round(100 * w.athletic_budget.planned_share) + '%'), `w${w.n}`);
   });
   test('R02-19 football: Olympic lifts follow one ramp or the class / budget table and keep 2-4 sets (PER-09, R2-ATH-04)', () => {
     for (const x of items(plan('02').p, x => x.it.bucket === 'AP_TRIPLE_EXT')) assert.ok(x.it.sets >= 2 && x.it.sets <= 4, `${x.it.exercise_id} ${x.it.sets}`);
@@ -248,9 +277,17 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
     const { p } = plan('03');
     for (const w of stairWeeks(p)) {
       const a = w.athletic_budget;
-      assert.ok(a.planned.cod_cuts >= 0.6 * a.targets.cod_cuts, `w${w.n} cod ${a.planned.cod_cuts}/${a.targets.cod_cuts}`);
+      // v0.4: the field-athlete cap of 12 + 2 core is hard (R3-SES-01), so the cross-pattern day keeps fewer COD stations. Stage B2
+      // (E-29): COD is dosed every week on the athletic stairway's goal (the target scaled to what the stations hold) and climbs;
+      // the client is told the stations hold under 60 % of the soccer COD dose (warning.athletic_capacity)
+      assert.ok(a.planned.cod_cuts > 0 && a.planned.cod_cuts >= 0.75 * a.goals.cod_cuts - 12, `w${w.n} cod ${a.planned.cod_cuts}/${a.goals.cod_cuts}`);
       assert.ok(a.planned.sprint_m > 0, `w${w.n} sprint`);
     }
+    // (fix round 2 / F2, E-165: a station the 5-10-5 test replaced counts as done; the end-test week's tested days run the baseline dose)
+    const sw = stairWeeks(p).filter(w => !w.athletic_budget.hold);
+    const cod = (w) => w.athletic_budget.planned.cod_cuts + ((w.athletic_budget.test_replaced || {}).cod_cuts || 0);
+    for (let k = 1; k < sw.length; k++) assert.ok(cod(sw[k]) >= cod(sw[k - 1]), `COD climbs w${sw[k].n}`);
+    assert.ok(p.meta.warnings.some(x => x.key === 'warning.athletic_capacity' && x.args.key === 'athletic.key.cod_cuts'));
   });
   test('R03-2 soccer: jump work progresses from landings (RC1) to repeated / reactive contacts; no repeat cue on a box drop', () => {
     const { p } = plan('03');
@@ -265,7 +302,9 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
   });
   test('R03-6 soccer: aerobic add-ons count as session time; a full main day takes them as a separate session (UNI-09)', () => {
     const { p } = plan('03');
-    for (const d of mains(p.weeks[0])) assert.ok(d.est_minutes + (d.aerobic_minutes || 0) <= p.meta.session_minutes * 1.25 + EPS || d.blocks.some(b => b.items.some(it => it.aerobic && it.aerobic.position === 'separate_session')) || hasWarning(p, 'warning.long_day'), d.weekday);
+    // v0.4: week 1 is a test week; a day its work-ups make longer says so (warning.test_day_long, R2-PER-07)
+    const testLong = (d) => p.meta.warnings.some(x => x.key === 'warning.test_day_long' && x.args.day === d.weekday && x.args.week === 1);
+    for (const d of mains(p.weeks[0])) assert.ok(d.est_minutes + (d.aerobic_minutes || 0) <= p.meta.session_minutes * 1.25 + EPS || d.blocks.some(b => b.items.some(it => it.aerobic && it.aerobic.position === 'separate_session')) || hasWarning(p, 'warning.long_day') || testLong(d), d.weekday);
   });
   test('R03-10 soccer: pre-season keeps 2 sets on the work and paired lifts and drops Focus (R2-PER-06, D-37)', () => {
     const { p } = plan('03');
@@ -283,20 +322,29 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
   test('R04-3 crossfit: the week pulls at least 0.8 x what it pushes and the deadlift day has its push partner (ORD-06, V29)', () => {
     const { p } = plan('04');
     assert.ok(p.validation.checks.find(c => c.id === 'V29').pass);
+    // (v0.4 fix round 1, E-81: the deadlift day keeps its push partner while chest is trained directly)
     const thu = p.weeks[0].days.find(d => d.weekday === 'Thu');
-    assert.ok(thu.blocks.flatMap(b => b.items).some(it => it.bucket === 'RP_HPUSH'));
+    if (p.time_check.trained_groups.includes('chest')) assert.ok(thu.blocks.flatMap(b => b.items).some(it => it.bucket === 'RP_HPUSH'));
+    assert.ok(thu.blocks.flatMap(b => b.items).some(it => it.bucket === 'RP_BHD' && it.role === 'work'));
   });
   test('R04-4 crossfit: the class model\'s work lifts follow the HALF TIME levels with strength rest (OT18, VOL-14)', () => {
     const { p } = plan('04');
-    const work = items(p, x => x.it.role === 'work' && !x.it.test && x.w.n === 2);
+    // F3 (E-126, OBSERVED class split: STRENGTH = squat / press / deadlift): the class lifts are the squat / press / deadlift work slots;
+    // the pull day's row is not a class lift (RECHECK 04 minor: a Yates row on the class table the day after the deadlift)
+    const SB = R.reps.class_levels.strength_buckets || ['RP_BKD', 'RP_BHD', 'RP_VPUSH', 'RP_HPUSH'];
+    const work = items(p, x => x.it.role === 'work' && !x.it.test && x.w.n === 2 && SB.includes(x.it.bucket));
     // a heavy work lift rests 3-6 min, or (when the short session pairs it) rests after the pair - never hypertrophy rest
     assert.ok(work.length && work.every(x => x.it.rest && (x.it.rest.type === 'after_pair' || x.it.rest.min >= 180)), JSON.stringify(work.map(x => x.it.rest)));
   });
-  test('R04-6 crossfit: Olympic sets within the class / budget table, clean on the squat day (R2-ATH-04)', () => {
+  // (fix round 2 / F1, E-141: the class split puts the snatch on the press day and the clean on Friday - OBSERVED MASTER_MODEL 'CLASS
+  // PROGRAMMING SPLIT', 04_profiles crossfit_class triple_ext; R2-ATH-04 classifies the lifts, it does not fix their day)
+  test('R04-6 crossfit: Olympic sets within the class / budget table, the snatch on the press day and the clean on Friday (OBSERVED class split; R2-ATH-04)', () => {
     const { p } = plan('04');
     for (const w of p.weeks) assert.ok(w.athletic_budget.planned.olympic_sets <= Math.max(1.5 * w.athletic_budget.targets.olympic_sets, 6) + EPS, `w${w.n}`);
-    const mon = p.weeks[0].days.find(d => d.weekday === 'Mon');
-    assert.ok(mon.blocks.flatMap(b => b.items).some(it => it.bucket === 'AP_TRIPLE_EXT' && /clean/.test(it.exercise_id || '')));
+    const oly = (wd) => p.weeks[0].days.find(d => d.weekday === wd).blocks.flatMap(b => b.items).filter(it => it.bucket === 'AP_TRIPLE_EXT');
+    assert.ok(oly('Tue').some(it => /snatch/.test(it.exercise_id || '')), 'snatch on the press day');
+    assert.ok(oly('Fri').some(it => /clean/.test(it.exercise_id || '')), 'clean on Friday');
+    assert.equal(oly('Mon').length + oly('Thu').length, 0, 'the squat and deadlift days hold their lift');
   });
   test('R04-9 crossfit: the cardio test sits on the aerobic day, never after a strength test or a WOD (R2-PER-07)', () => {
     const { p } = plan('04');
@@ -324,9 +372,13 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
     const ws = stairWeeks(p);
     for (let i = 1; i < ws.length; i++) { const a = ws[i - 1].circuit.work_s, b = ws[i].circuit.work_s; assert.ok(b > a && (b - a) / a <= 0.07 + EPS, `w${ws[i].n} ${a} -> ${b}`); }
   });
-  test('R05-2 bootcamp: circuits are not floor exempt - what 3 x 45 min cannot hold is named (R2-VOL-06, D-33)', () => {
+  test('R05-2 bootcamp: circuits are not floor exempt - what 3 x 45 min cannot hold is named up front (R2-VOL-06, R3-SES-02)', () => {
     const { p } = plan('05');
-    assert.ok(p.meta.targets.floored.length > 0 && hasWarning(p, 'warning.floor_schedule'));
+    assert.ok(p.meta.targets.floored.length > 0);
+    assert.ok(hasWarning(p, 'warning.time_check'));
+    const ntd = p.time_check.not_trained_directly.filter(x => x.reason === 'time').map(x => x.group);
+    assert.ok(ntd.length > 0 && hasWarning(p, 'warning.not_trained_directly'));
+    assert.ok(p.offers.some(o => ['offer.longer_sessions', 'offer.more_days', 'offer.more_days_min'].includes(o.key)));
   });
   test('R05-3 bootcamp: circuit time counts each week\'s work seconds and the rest between circuits (UNI-09)', () => {
     const { p } = plan('05');
@@ -363,13 +415,19 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
   test('R06-1 aesthetics: the stairway is sized to the minutes and climbs; the client\'s priorities climb (D-67)', () => {
     const { p } = plan('06');
     climbsOnMainDays(p); placedRiseCapped(p);
-    const sd = stairWeeks(p).map(w => w.main_sets_by_muscle.side_delts);
-    assert.ok(sd[sd.length - 1] > sd[0], 'side delts (priority) climb');
-    assert.ok(hasWarning(p, 'warning.start_lowered') && p.offers.some(o => o.key === 'offer.lower_start' && o.chosen));
+    // v0.4: side delts are the shoulders line's Focus muscle (R3-VOL-01); the time check replaces D-67's lowered start
+    const sd = stairWeeks(p).map(w => w.main_sets_by_muscle.shoulders);
+    assert.ok(sd[sd.length - 1] > sd[0], 'shoulders (Focus) climb');
+    assert.ok(hasWarning(p, 'warning.time_check') && p.offers.some(o => o.key.startsWith('offer.keep_time') && o.chosen));
   });
   test('R06-3 aesthetics: optional days hold their template Focus slots only (ORD-10)', () => {
     const { p } = plan('06');
-    for (const w of p.weeks) for (const d of w.days.filter(d => d.kind === 'optional')) assert.ok(d.blocks.flatMap(b => b.items).filter(it => it.bucket === 'FOCUS').length <= 2, `${d.weekday} w${w.n}`);
+    // (v0.4 fix round 1, E-86: added exercises of a big line's climb may join at 2+ sets; the template Focus slots stay 2)
+    for (const w of p.weeks) for (const d of w.days.filter(d => d.kind === 'optional')) {
+      const its = d.blocks.flatMap(b => b.items);
+      assert.ok(its.filter(it => it.bucket === 'FOCUS' && it.origin === 'template').length <= 2, `${d.weekday} w${w.n}`);
+      for (const it of its.filter(x => ['bonus', 'focus_added'].includes(x.origin))) assert.ok(it.sets >= 2, `${it.slot_id} w${w.n} ${it.sets}`);
+    }
   });
   test('R06-5 aesthetics: a Nordic curl is never a Focus or high-rep filler (VOL-11)', () => {
     for (const n of Object.keys(NAMES)) for (const x of items(plan(n).p, x => /nordic/.test(x.it.exercise_id || ''))) assert.ok(x.it.bucket !== 'FOCUS' && x.it.reps.max <= 8, `${n} ${x.it.slot_id}`);
@@ -438,13 +496,16 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
   test('R08-1 pickleball: 2 x 45 min days stay near 45 (cut chain, core pair, prehab / groups to the optional day); never over 1.25 x', () => {
     const { p } = plan('08');
     for (const w of p.weeks) for (const d of mains(w)) assert.ok(d.est_minutes <= 45 * 1.25 + EPS, `${d.weekday} w${w.n} ${d.est_minutes}`);
-    assert.ok(p.offers.some(o => o.key === 'offer.more_days'));
+    assert.ok(p.offers.some(o => ['offer.more_days', 'offer.more_days_min'].includes(o.key)));
   });
   test('R08-2 pickleball: main-day sets climb (isolations enter at 1 set when the minutes are short, VOL-07)', () => climbsOnMainDays(plan('08').p));
   test('R08-3 pickleball: a stay-active client\'s glutes / side delts / arms are targets with the floor of 10 named when the schedule cannot hold it', () => {
     const { p } = plan('08');
-    for (const m of ['glutes', 'side_delts', 'biceps', 'triceps']) assert.equal(p.meta.targets.fill[m], 'target', m);
-    assert.ok(hasWarning(p, 'warning.floor_schedule'));
+    // (v0.4 fix round 1, E-84: glutes follow the hips group's hamstrings line as credit)
+    assert.equal(p.meta.targets.fill.glutes, 'credit');
+    for (const m of ['hamstrings', 'shoulders', 'side_delts', 'biceps', 'triceps']) assert.equal(p.meta.targets.fill[m], 'target', m);
+    // v0.4 (R3-SES-02): the groups the schedule cannot hold at 10 are named up front as not trained directly, with the offers
+    assert.ok(hasWarning(p, 'warning.time_check') && p.time_check.not_trained_directly.length > 0);
   });
   test('R08-4 pickleball: knee pain - no deep knee flexion, no Zercher / deep squat; the knee days use step-ups / machines', () => {
     const { p } = plan('08');
@@ -496,6 +557,7 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
   });
   test('R08-16 pickleball: the effort level prints "2" / "8" - never "a 8.0" or "a 11.0"', () => {
     const { md } = plan('08');
-    assert.ok(!/like a (8|11)\.0/.test(md) && /Effort level this week: 8 /.test(md));
+    // B3 (RECHECK 02 minor): the stairway level reads 'Week level', never 'Effort level' next to an RIR prescription
+    assert.ok(!/like a (8|11)\.0/.test(md) && /Week level: 8 of 11/.test(md) && !/Effort level this week/.test(md));
   });
 });

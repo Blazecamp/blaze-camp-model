@@ -17,9 +17,22 @@ import { applyCoachPatches } from './compile/patches.mjs';
 import { crossCheckRules } from './compile/crosscheck.mjs';
 import { buildI18n } from './compile/i18n.mjs';
 import { checkModel, readFixture } from './check-model.mjs';
-import { amendExercise, amendRules, amendTemplates, amendSport, REVIEW_VERSION } from './fixture/review-v12.mjs';
+import { amendExercise, amendRules, amendTemplates, amendSport } from './fixture/review-v12.mjs';
+import { amendRulesR3, R3_VERSION } from './fixture/round3.mjs';
+import { amendExerciseB2, amendSportB2, amendRulesB2, amendTemplatesB2, amendProgramNamesB2 } from './fixture/athletic-b2.mjs';
+import { amendExerciseB3, amendRulesB3 } from './fixture/render-b3.mjs';
+import { amendRulesB4 } from './fixture/integrate-b4.mjs';
+import { amendRulesF1 } from './fixture/fix-r1-f1.mjs';
+import { amendRulesF2, amendSportF2 } from './fixture/fix-r1-f2.mjs';
+import { amendRulesF3, amendExerciseF3 } from './fixture/fix-r1-f3.mjs';
+import { amendRulesR2F1, amendTemplatesR2F1 } from './fixture/fix-r2-f1.mjs';
+import { amendRulesR2F2, amendSportR2F2, amendExerciseR2F2 } from './fixture/fix-r2-f2.mjs';
+import { amendRulesR2F3, amendExerciseR2F3 } from './fixture/fix-r2-f3.mjs';
 
-export const MODEL_VERSION = REVIEW_VERSION; // 1.2.0: v1.1 + the coach-eye review amendments (tools/fixture/review-v12.mjs)
+// 1.3.0: the v1.2 sources (round-3 docs) + the coach-eye review amendments (tools/fixture/review-v12.mjs) + the round-3 engine
+// amendments (tools/fixture/round3.mjs: lines / groups, time check, Focus muscles, check-ins retired) + the stage-B2 athletic
+// amendments (tools/fixture/athletic-b2.mjs: contact responses, sport-only drills, the athletic stairway, R3-ATH-01 / 02 defaults)
+export const MODEL_VERSION = R3_VERSION;
 export const CONTRACTS_VERSION = '1.1.0';
 
 const DROP_RULES = {
@@ -71,7 +84,7 @@ export function compileModel(S = loadSources()) {
   const exMap = new Map(exercises.map(e => [e.id, e]));
   const patched = applyCoachPatches({ src, ex: exMap, en: enNames, dropped, aliases, activeSourceIds, nameCleanups });
   for (const e of patched.errors) errors.push(`coach patch: ${e}`);
-  for (let i = 0; i < exercises.length; i++) exercises[i] = amendExercise(exercises[i]); // v1.2 review amendments
+  for (let i = 0; i < exercises.length; i++) exercises[i] = amendExerciseR2F3(amendExerciseR2F2(amendExerciseF3(amendExerciseB3(amendExerciseB2(amendExercise(exercises[i])))))); // (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ F3, fix-r1-f3.mjs) // v1.2 review amendments, stage B2 (athletic-b2.mjs), then stage B3 (render-b3.mjs)
 
   // ---------------------------------------------------------------- templates (all 30 + variants)
   const families = {};
@@ -80,13 +93,15 @@ export function compileModel(S = loadSources()) {
     for (const d of ['2', '3', '4', '5', '6']) if (s[d]) families[fam].days[d] = normTemplate(fam, d, s[d]);
   }
   { const amended = amendTemplates(families); for (const k of Object.keys(families)) families[k] = amended[k]; }
+  { const b2 = amendTemplatesB2(families); for (const k of Object.keys(families)) families[k] = b2[k]; } // R3-ATH-03 HYROX variant (athletic-b2.mjs)
+  { const r2 = amendTemplatesR2F1(families); for (const k of Object.keys(families)) families[k] = r2[k]; } // fix round 2 / F1: athletic.3 cross pattern (fix-r2-f1.mjs)
   const templates = {
     schema: 'templates/2',
     buckets: BUCKETS,
     goal_to_family: { muscle: 'aesthetics', strength: 'strength', athletic: 'athletic', active: 'athletic', fat_loss: 'fat_loss_bootcamp', general: 'fat_loss_bootcamp', hybrid: 'hybrid_crossfit' },
     kit_family_override: { profiles: ['BODYWEIGHT', 'FIELD_TRACK_NO_KIT'], family: 'no_equipment', except_goals: ['athletic', 'active'] },
     families,
-    program_names: PROGRAM_NAMES
+    program_names: amendProgramNamesB2(PROGRAM_NAMES)
   };
   const allTemplates = Object.values(families).flatMap(f => Object.values(f.days));
   const stationCount = allTemplates.reduce((n, t) => n + [t.day_types, ...Object.values(t.variants).map(v => v.day_types)].reduce((m, d) => m + Object.values(d).reduce((k, dt) => k + dt.stations.length, 0), 0), 0);
@@ -94,7 +109,7 @@ export function compileModel(S = loadSources()) {
   // ---------------------------------------------------------------- profiles (all 127 + picker + activities)
   const classEnd = { 1: 0.75, 2: 0.6, 3: 0.5, 4: 0.4, 5: 0.25 };
   const sports = {};
-  for (const p of S.prof.profiles.slice().sort((a, b) => (a.id < b.id ? -1 : 1))) sports[p.id] = amendSport(normSport(p, classEnd), p);
+  for (const p of S.prof.profiles.slice().sort((a, b) => (a.id < b.id ? -1 : 1))) sports[p.id] = amendSportR2F2(amendSportF2(amendSportB2(amendSport(normSport(p, classEnd), p), p), p)); // (+ fix round 2 / F2) // (+ F2)
   const picker = normPicker(S.prof);
   const profiles = {
     schema: 'profiles/2',
@@ -108,7 +123,7 @@ export function compileModel(S = loadSources()) {
   };
 
   // ---------------------------------------------------------------- rules + cross-checks against the sources
-  const rules = amendRules(buildRules(S.eqm));
+  const rules = amendRulesR2F3(amendRulesR2F2(amendRulesR2F1(amendRulesF3(amendRulesF2(amendRulesF1(amendRulesB4(amendRulesB3(amendRulesB2(amendRulesR3(amendRules(buildRules(S.eqm)))))))))))); // (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ fix round 2 / F1, fix-r2-f1.mjs) // (+ fix round 1 / F1, F2, F3) v1.2 review amendments, the round-3 answers, stage B2 (athletic), stage B3 (selection / render), then stage B4 (integration)
   // a mismatch is a warning, not an error: rules.json must deep-equal the fixture's normative rules (BUILD_PLAN B1.2);
   // a value we believe is wrong goes to engine/CONTRACT_REQUESTS.md for the integrator
   const crosschecks = crossCheckRules(rules, S);

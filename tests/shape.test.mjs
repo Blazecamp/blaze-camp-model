@@ -41,8 +41,14 @@ for (const [mname, model] of MODELS) {
       const w = sh.weeks;
       assert.deepEqual(w.map(x => x.block_type), ['stairway', 'stairway', 'stairway', 'stairway', 'stairway', 'stairway', 'pre_season', 'pre_season']);
       assert.deepEqual(w.map(x => x.stair_week), [1, 2, 3, 4, 5, 6, null, null]);
-      assert.deepEqual(w.map(x => x.plyo_stage), ['RC1', 'RC1', 'RC2', 'RC2', 'RC3', 'RC3', 'RC3', 'RC3']);
-      assert.deepEqual(w.map(x => x.rep_phase), ['VOL1', 'VOL1', 'VOL1', 'VOL1', 'VOL1', 'VOL1', 'VOL3', 'VOL3']);
+      // v0.4 stage B2 (E-26): a 6-week stairway is one exercise block, so its stage holds the block - an L2 athlete starts at stage
+      // 2 (R2-ATH-03 'intermediate and advanced athletes may start at stage 2'); the pre-season holds the stage reached
+      // (v0.4 fix round 1 / F2: the pre-season after a single-exercise-block stairway moves one stage up, R2-ATH-03)
+      const pre = model.rules.athletic.stages.pre_season_after_single_block === 'advance_one' ? 'RC3' : 'RC2';
+      assert.deepEqual(w.map(x => x.plyo_stage), ['RC2', 'RC2', 'RC2', 'RC2', 'RC2', 'RC2', pre, pre]);
+      // v0.4 B3 (PER-11 athlete_vol_phases.by_season_phase; RECHECK 03 major 'VOL1 for 6 weeks in the late off-season'): the rep
+      // phase follows the season phase - OFF_LATE starts at VOL2
+      assert.deepEqual(w.map(x => x.rep_phase), ['VOL2', 'VOL2', 'VOL2', 'VOL2', 'VOL2', 'VOL2', 'VOL3', 'VOL3']);
       assert.deepEqual(w.slice(6).map(x => x.season_phase), ['PRE', 'PRE']);
       assert.ok(w.slice(0, 6).every(x => x.season_phase.startsWith('OFF_')));
       assert.deepEqual(w.map(x => (x.test ? x.test.type : null)), ['baseline', null, null, null, null, 'end', null, null]);
@@ -62,7 +68,9 @@ for (const [mname, model] of MODELS) {
       assert.deepEqual(w.map(x => x.phase), ['ACCLIMATION', 'ACCLIMATION', 'ACCLIMATION', 'DRIVE', 'DRIVE', 'DRIVE', 'DRIVE', 'DRIVE', 'HARDEST', 'HARDEST', 'HARDEST', 'HARDEST']);
       assert.equal(w[0].standard_step, null);
       assert.deepEqual(w.slice(1).map(x => x.standard_step.this_week), [0.03, 0.03, 0.03, 0.03, 0.03, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05]);
-      assert.deepEqual(w.map(x => x.plyo_stage), ['RC1', 'RC1', 'RC1', 'RC2', 'RC2', 'RC2', 'RC2', 'RC3', 'RC3', 'RC3', 'RC3', 'RC3']);
+      // v0.4 stage B2 (E-26): the approved stage weeks 1-3 / 4-7 / 8-12 snap to the exercise blocks 1-4 / 5-8 / 9-12, so no jump
+      // exercise changes mid-block (RECHECK 01 / 02 / 03 / 08)
+      assert.deepEqual(w.map(x => x.plyo_stage), ['RC1', 'RC1', 'RC1', 'RC1', 'RC2', 'RC2', 'RC2', 'RC2', 'RC3', 'RC3', 'RC3', 'RC3']);
       assert.deepEqual(w.map(x => x.rep_phase), ['VOL1', 'VOL1', 'VOL1', 'VOL1', 'VOL2', 'VOL2', 'VOL2', 'VOL2', 'VOL3', 'VOL3', 'VOL3', 'VOL3']);
       for (let k = 1; k < w.length; k++) {
         assert.ok(w[k].stair_level > w[k - 1].stair_level, 'H21: stair level strictly rises');
@@ -90,7 +98,9 @@ for (const [mname, model] of MODELS) {
 
     it('bootcamp circuit (D-19 v1.2, review 05 blocker 1): 3 rounds at 45 min, work seconds climb every week by the planned steps', () => {
       const [sh] = shapeOf('05');
-      // 3 % steps early, 5 % after halfway, 1-s granularity: never a flat week, never more than the 7 % step
+      // 3 % steps early, 5 % after halfway, 1-s granularity: never a flat week, never more than the 7 % step; v0.4 fix round 1
+      // (RECHECK 05 major 'stopped at 46 s of its 50-s top') scaled the steps up to the top; fix round 2 / F1 (E-153, the coach's
+      // 05 'work-time steps'): the approved 3 % / 5 % steps from the configured start, ending at or under the top
       assert.deepEqual(sh.weeks.map(x => x.circuit.work_s), [35, 36, 37, 38, 40, 42, 44, 46]);
       for (let i = 1; i < sh.weeks.length; i++) { const a = sh.weeks[i - 1].circuit.work_s, z = sh.weeks[i].circuit.work_s; assert.ok(z > a && (z - a) / a <= 0.07 + 1e-9); }
       assert.ok(sh.weeks.every(x => x.circuit.rounds === 3), 'rounds never rise inside a 45-min block');
@@ -150,9 +160,11 @@ for (const [mname, model] of MODELS) {
       assert.equal(blocks(far), 'stairway[1-12]');
     });
 
-    it('week by week: one open-ended 12-week stairway (D-27)', () => {
+    it('week by week (v0.4, R3-VOL-02 / R3-VOL-04): the 12-week plan shown a week at a time - no check-ins, not open-ended', () => {
       const [sh] = shapeOf('06', i => { i.plan.mode = 'week_by_week'; i.output_mode = 'checkin'; });
-      assert.equal(blocks(sh), 'stairway[1-12]'); assert.equal(sh.open_ended, true); assert.equal(sh.mode, 'week_by_week');
+      const [fx] = shapeOf('06', i => { i.plan.mode = 'fixed_12'; });
+      assert.equal(blocks(sh), 'stairway[1-12]'); assert.equal(sh.open_ended, false); assert.equal(sh.mode, 'fixed_12');
+      assert.deepEqual(sh.weeks, fx.weeks);
     });
 
     it('no deload or maintenance week inside any stairway; stair weeks run 1..N (H15, V24) across modes and seasons', () => {

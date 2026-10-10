@@ -2,8 +2,10 @@
 // randomIntake(i, model) is a pure function of (i, model): the same index always gives the same intake. The main axes are
 // cycled (not drawn) so that any 300 consecutive indexes cover every goal (incl. `active`) x days 2-6 x minutes 30-90 x
 // all 8 equipment profiles x the listed ages x pain areas x every picker sport (incl. swimming) x every activity (incl.
-// pickleball and HYROX) x plan modes fixed_12 / fixed_8 / maintenance / week_by_week (with check-in) / year (non-competitive)
-// x older opt-in on / off. No safety flag is ever set and pain is never severe (the invariants want status ok).
+// pickleball and HYROX) x plan modes fixed_12 / fixed_8 / maintenance / week_by_week / year (non-competitive) x older opt-in
+// on / off. v0.4: check-ins are retired (R3-VOL-02); old intakes still carry output_mode 'checkin' / 'logbook', so the corpus
+// keeps sending them to prove they are planned exactly like plan_only (warning.checkin_retired). No safety flag is ever set
+// and pain is never severe (the invariants want status ok).
 import { hash53, addDays, WEEKDAYS } from '../../engine/util.mjs';
 
 const GOALS = ['muscle', 'strength', 'athletic', 'active', 'fat_loss', 'general', 'hybrid'];

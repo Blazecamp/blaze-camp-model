@@ -47,7 +47,7 @@ test('the architect check-fixture checks pass on the compiled model', () => {
 
 test('loadModel works on the compiled model', () => {
   const m = loadModel(structuredClone(raw));
-  assert.equal(m.version, '1.2.0'); // v1.2 review amendments (tools/fixture/review-v12.mjs)
+  assert.equal(m.version, '1.3.0'); // v1.2 review amendments + round-3 answers (tools/fixture/review-v12.mjs, round3.mjs)
   assert.equal(m.ex('kb-face-pull-as-written-face-pulls-are-normally-cable-band').id, 'kb-face-pull');
   assert.ok(m.bySlot('ISO_HAM').length > 0, 'retired ISO_HAM alias resolves to leg flexion');
   assert.equal(m.t('es', 'weekday.Mon'), 'Lunes');
@@ -66,7 +66,11 @@ test('templates and profiles equal the reference build (same output as the fixtu
 test('counts: 731 kept / 208 dropped, 30 templates, 127 profiles, 52 picker sports, 26 activities', () => {
   const c = first.report.counts;
   assert.equal(c.kept, 731); assert.equal(c.dropped, 208); assert.equal(c.kept + c.dropped, c.source_records);
-  assert.equal(c.templates_total, 30); assert.equal(c.stations, 1823); // v1.2: chest stations on bootcamp Mon / Fri, review 05
+  // v1.2 sources: one calf exercise per leg day (R3-SES-01), rebuilt 05 templates; + 55 stations of the stage-B2 HYROX variant
+  // athletic.4/hyrox (COACH-R3 R3-ATH-03, tools/fixture/athletic-b2.mjs); fix round 2 / F1 (tools/fixture/fix-r2-f1.mjs): + 32 stations of
+  // the athletic.3 same_pattern variant (the v1.1 S1 / S2, E-137), + 2 on the cross-pattern S2, - 1 on the class (snatch to the press
+  // day, no Olympic piece on the squat and deadlift days, E-141)
+  assert.equal(c.templates_total, 30); assert.equal(c.stations, 1710 + 55 + 32 + 2 - 1);
   assert.equal(c.profiles, 127); assert.equal(c.sports_in_picker, 52); assert.equal(c.activities, 26);
   assert.deepEqual(raw.manifest.counts, { exercises: 731, templates: 30, profiles: 127, sports_in_picker: 52, activities: 26 });
   for (const d of first.report.dropped) assert.ok(d.reason && d.rule, `drop ${d.source_id} has a reason and a rule`);
@@ -180,7 +184,7 @@ test('i18n: every key used has EN and ES; nothing missing; ES placeholders match
   for (const k of used) { assert.ok(k in en, `EN ${k}`); assert.ok(k in es || es_review.missing_keys.includes(k), `ES ${k}`); }
   for (const k of Object.keys(en)) if (k !== '_meta') assert.ok(k in es, `ES ${k}`);
   for (const k of es_review.machine_translated) { assert.ok(k in es, k); assert.equal(PH(es[k]), PH(en[k]), `placeholders ${k}`); }
-  assert.equal(es_review.machine_translated.length, 861); // v1.2: review-v12 UI strings carry coach-reviewed ES (5 fewer machine-translated)
+  assert.equal(es_review.machine_translated.length, 843); // v1.2: review-v12 UI strings carry coach-reviewed ES; v0.4 B3: Spanish fixes of names / cues / labels (render-b3.mjs)
   if (fixture) for (const k of Object.keys(fixture.i18n.en)) assert.ok(k in en, `fixture EN key ${k} kept`);
 });
 

@@ -287,7 +287,8 @@
      "PLYOS (landing first)",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -313,7 +314,8 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null
   },
   "active_aging_60plus": {
    "id": "active_aging_60plus",
@@ -462,7 +464,8 @@
     "tracks": [
      "landing drills (step-down and stick)"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -488,7 +491,8 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null
   },
   "baseball_catcher": {
    "id": "baseball_catcher",
@@ -592,7 +596,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -607,7 +612,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.47,
@@ -654,7 +659,8 @@
      "JUMPING LIMITED KNEE (ankle hops: 43% of 'calfs' slots)",
      "FULL JUMPING (pre-season)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 57,
@@ -679,7 +685,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "acceleration",
+   "cod_reactive": false
   },
   "baseball_infield": {
    "id": "baseball_infield",
@@ -783,7 +791,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -798,7 +807,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.44,
@@ -846,7 +855,8 @@
      "JUMPING LIMITED KNEE (ankle hops: 43% of 'calfs' slots)",
      "FULL JUMPING (pre-season)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 57,
@@ -871,7 +881,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "baseball_outfield": {
    "id": "baseball_outfield",
@@ -975,7 +987,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -990,7 +1003,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.45,
@@ -1038,7 +1051,8 @@
      "JUMPING LIMITED KNEE (ankle hops: 43% of 'calfs' slots)",
      "FULL JUMPING (pre-season)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 57,
@@ -1063,7 +1077,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "both",
+   "cod_reactive": false
   },
   "baseball_pitcher": {
    "id": "baseball_pitcher",
@@ -1166,7 +1182,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -1181,7 +1198,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.49,
@@ -1229,7 +1246,8 @@
      "JUMPING LIMITED KNEE (ankle hops: 43% of 'calfs' slots)",
      "FULL JUMPING (pre-season)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 57,
@@ -1254,7 +1272,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": "acceleration",
+   "cod_reactive": false
   },
   "baseball_position": {
    "id": "baseball_position",
@@ -1358,7 +1378,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -1373,7 +1394,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.44,
@@ -1421,7 +1442,8 @@
      "JUMPING LIMITED KNEE (ankle hops: 43% of 'calfs' slots)",
      "FULL JUMPING (pre-season)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 57,
@@ -1446,7 +1468,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "acceleration",
+   "cod_reactive": false
   },
   "basketball": {
    "id": "basketball",
@@ -1550,7 +1574,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -1565,7 +1590,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -1609,7 +1634,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE (ankle stiffness)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 60,
@@ -1636,7 +1662,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T4"
+   "cod_tier": "T4",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "basketball_big": {
    "id": "basketball_big",
@@ -1740,7 +1768,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -1755,7 +1784,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -1799,7 +1828,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE (ankle stiffness)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 60,
@@ -1826,7 +1856,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T3"
+   "cod_tier": "T3",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "basketball_guard": {
    "id": "basketball_guard",
@@ -1930,7 +1962,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -1945,7 +1978,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -1989,7 +2022,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE (ankle stiffness)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 60,
@@ -2016,7 +2050,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T4"
+   "cod_tier": "T4",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "bjj_grappling": {
    "id": "bjj_grappling",
@@ -2118,7 +2154,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "pull"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -2133,7 +2170,7 @@
     "JLK": 0.75,
     "BALL": 0.75,
     "THROW": 0.8,
-    "TE": 0.75,
+    "TE": 1,
     "resistance": 0.44,
     "core": 0.75,
     "calves": 0.75,
@@ -2185,7 +2222,8 @@
     "tracks": [
      "PLYOS FOUNDATIONAL"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 50,
@@ -2209,7 +2247,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "bodybuilding_aesthetics": {
    "id": "bodybuilding_aesthetics",
@@ -2418,7 +2458,8 @@
     "direction_pct": {},
     "unilateral_pct": 0,
     "tracks": [],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {},
    "core_rules": {
@@ -2441,7 +2482,9 @@
    "sprint_tier": "T0-T1",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "boxing": {
    "id": "boxing",
@@ -2544,7 +2587,8 @@
     "weekly_sets": 9,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -2559,8 +2603,8 @@
     "JLK": 0.75,
     "BALL": 0.75,
     "THROW": 0.8,
-    "SPRINT": 0.8,
-    "TE": 0.75,
+    "SPRINT": 1,
+    "TE": 1,
     "resistance": 0.33,
     "core": 0.75,
     "calves": 0.75,
@@ -2617,7 +2661,8 @@
      "FULL JUMPING (squirrel jumps = 'FASTEST SSC')",
      "jump rope"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 53,
@@ -2641,7 +2686,9 @@
    "sprint_tier": "T1",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0-T1"
+   "cod_tier": "T0-T1",
+   "sprint_focus": null,
+   "cod_reactive": true
   },
   "cheer_base_spot": {
    "id": "cheer_base_spot",
@@ -2744,7 +2791,8 @@
     "weekly_sets": 12,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -2759,7 +2807,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.46,
@@ -2803,7 +2851,8 @@
      "PLYOS (FOUNDATIONAL / MODERATE)",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 70,
@@ -2827,7 +2876,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "cheer_flyer_tumbler": {
    "id": "cheer_flyer_tumbler",
@@ -2931,7 +2982,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -2946,7 +2998,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.39,
@@ -2991,7 +3043,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 60,
@@ -3017,7 +3070,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "acceleration",
+   "cod_reactive": false
   },
   "climbing": {
    "id": "climbing",
@@ -3132,7 +3187,7 @@
     "PLYO": 0.75,
     "BALL": 0.6,
     "THROW": 0.7,
-    "TE": 0.7,
+    "TE": 1,
     "resistance": 0.56,
     "core": 0.75,
     "calves": 0.75,
@@ -3192,7 +3247,8 @@
     "tracks": [
      "PLYOS (landings)"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 70,
@@ -3218,7 +3274,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "cross_country": {
    "id": "cross_country",
@@ -3337,7 +3395,7 @@
     "THROW": 0.75,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.75,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -3376,7 +3434,8 @@
     "tracks": [
      "JUMPING LIMITED KNEE / JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {},
    "core_rules": {
@@ -3400,7 +3459,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "crossfit_class": {
    "id": "crossfit_class",
@@ -3543,7 +3604,8 @@
      "double-unders (skill)",
      "box jumps in WODs"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 90,
@@ -3567,7 +3629,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "crossfit_competitor": {
    "id": "crossfit_competitor",
@@ -3702,7 +3766,8 @@
      "double-unders (low amplitude)",
      "box jumps inside WODs"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 90,
@@ -3726,7 +3791,9 @@
    "sprint_tier": "T1-T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "cycling_endurance": {
    "id": "cycling_endurance",
@@ -3828,7 +3895,8 @@
     "weekly_sets": 3,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -3845,7 +3913,7 @@
     "THROW": 0.75,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.75,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -3900,7 +3968,8 @@
      "BALLISTIC jumps",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 60,
@@ -3928,7 +3997,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "cycling_fitness": {
    "id": "cycling_fitness",
@@ -4030,7 +4101,8 @@
     "weekly_sets": 2,
     "none_by_default": false,
     "max_exposures_wk": 4,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -4060,7 +4132,10 @@
    "template_hint": null,
    "lead_for_goals": [],
    "volume_ratios": [],
-   "play": null,
+   "play": {
+    "activity_counts_as_aerobic": true,
+    "heavy_play_weeks": true
+   },
    "stay_athletic_dial": {
     "power": 1,
     "agility": 0,
@@ -4084,7 +4159,8 @@
      "BALLISTIC jumps",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -4112,7 +4188,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "cycling_sprint": {
    "id": "cycling_sprint",
@@ -4231,7 +4309,7 @@
     "THROW": 0.7,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.7,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -4280,7 +4358,8 @@
      "BALLISTIC (loaded / hex-bar jumps)",
      "PLYOS (low)"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 80,
@@ -4307,7 +4386,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "dance_fitness": {
    "id": "dance_fitness",
@@ -4464,7 +4545,8 @@
      "PLYOS (landing quality)",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -4490,7 +4572,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "distance_runner": {
    "id": "distance_runner",
@@ -4609,7 +4693,7 @@
     "THROW": 0.75,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.75,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -4647,7 +4731,8 @@
     "tracks": [
      "JUMPING LIMITED KNEE / JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {},
    "core_rules": {
@@ -4671,7 +4756,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "diving": {
    "id": "diving",
@@ -4773,7 +4860,8 @@
     "weekly_sets": 5,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -4790,7 +4878,7 @@
     "THROW": 0.7,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.7,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -4840,7 +4928,8 @@
      "BALLISTIC (CMJ, box, hurdle-step jumps, hex-bar jumps)",
      "PLYOS (low hurdle hops, ankle hops)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 60,
@@ -4868,7 +4957,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "fat_loss": {
    "id": "fat_loss",
@@ -5002,7 +5093,8 @@
     "direction_pct": {},
     "unilateral_pct": 0,
     "tracks": [],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {},
    "core_rules": {
@@ -5023,7 +5115,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "field_hockey_field": {
    "id": "field_hockey_field",
@@ -5127,7 +5221,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -5142,7 +5237,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -5211,7 +5306,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 75,
@@ -5237,7 +5333,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T3"
+   "cod_tier": "T3",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "field_hockey_gk": {
    "id": "field_hockey_gk",
@@ -5341,7 +5439,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -5356,7 +5455,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.38,
@@ -5400,7 +5499,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -5424,7 +5524,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "flag_football": {
    "id": "flag_football",
@@ -5528,7 +5630,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -5543,7 +5646,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -5600,7 +5703,8 @@
      "FULL JUMPING ('Bounding')",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -5626,7 +5730,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T4"
+   "cod_tier": "T4",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "football_big_skill": {
    "id": "football_big_skill",
@@ -5730,7 +5836,8 @@
     "weekly_sets": 10,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -5745,7 +5852,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -5789,7 +5896,8 @@
      "PLYOS",
      "FULL JUMPING"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 60,
@@ -5813,7 +5921,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T3"
+   "cod_tier": "T3",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "football_dl": {
    "id": "football_dl",
@@ -5917,7 +6027,8 @@
     "weekly_sets": 10,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -5932,7 +6043,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.46,
@@ -5984,7 +6095,8 @@
     "tracks": [
      "PLYOS (FOUNDATIONAL / MODERATE)"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 70,
@@ -6008,7 +6120,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "football_k_p": {
    "id": "football_k_p",
@@ -6112,7 +6226,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -6127,7 +6242,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.43,
@@ -6170,7 +6285,8 @@
      "FULL JUMPING ('Bounding')",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -6194,7 +6310,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "acceleration",
+   "cod_reactive": false
   },
   "football_lineman": {
    "id": "football_lineman",
@@ -6297,7 +6415,8 @@
     "weekly_sets": 10,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -6312,7 +6431,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.49,
@@ -6354,7 +6473,8 @@
     "tracks": [
      "PLYOS (FOUNDATIONAL / MODERATE)"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 70,
@@ -6378,7 +6498,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "football_ol": {
    "id": "football_ol",
@@ -6481,7 +6603,8 @@
     "weekly_sets": 10,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -6496,7 +6619,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.49,
@@ -6538,7 +6661,8 @@
     "tracks": [
      "PLYOS (FOUNDATIONAL / MODERATE)"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 70,
@@ -6562,7 +6686,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "football_qb": {
    "id": "football_qb",
@@ -6666,7 +6792,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": false,
@@ -6681,7 +6808,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -6726,7 +6853,8 @@
      "FULL JUMPING ('Bounding')",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 70,
@@ -6752,7 +6880,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T3"
+   "cod_tier": "T3",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "football_rb": {
    "id": "football_rb",
@@ -6856,7 +6986,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -6871,7 +7002,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -6916,7 +7047,8 @@
      "FULL JUMPING ('Bounding')",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -6942,7 +7074,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T3"
+   "cod_tier": "T3",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "football_skill": {
    "id": "football_skill",
@@ -7046,7 +7180,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -7061,7 +7196,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -7106,7 +7241,8 @@
      "FULL JUMPING ('Bounding')",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -7132,7 +7268,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T4"
+   "cod_tier": "T4",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "general_population": {
    "id": "general_population",
@@ -7274,7 +7412,8 @@
     "tracks": [
      "JUMPING ANKLE (bilateral)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -7298,7 +7437,9 @@
    "sprint_tier": "T1",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0-T1"
+   "cod_tier": "T0-T1",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "golf": {
    "id": "golf",
@@ -7399,7 +7540,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "pull"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -7413,7 +7555,7 @@
     "PLYO": 0.75,
     "JLK": 0.75,
     "THROW": 0.7,
-    "TE": 0.7,
+    "TE": 1,
     "resistance": 0.44,
     "core": 0.75,
     "calves": 0.75,
@@ -7452,7 +7594,8 @@
     "tracks": [
      "PLYOS FOUNDATIONAL"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 80,
@@ -7476,7 +7619,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "gymnastics_artistic": {
    "id": "gymnastics_artistic",
@@ -7579,7 +7724,8 @@
     "weekly_sets": 3,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -7594,8 +7740,8 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.7,
-    "SPRINT": 0.9,
-    "TE": 0.7,
+    "SPRINT": 1,
+    "TE": 1,
     "resistance": 0.51,
     "core": 0.75,
     "calves": 0.75,
@@ -7648,7 +7794,8 @@
      "PLYOS (landings)",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 80,
@@ -7674,7 +7821,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": "acceleration",
+   "cod_reactive": false
   },
   "hike_ruck": {
    "id": "hike_ruck",
@@ -7802,7 +7951,10 @@
    "template_hint": null,
    "lead_for_goals": [],
    "volume_ratios": [],
-   "play": null,
+   "play": {
+    "activity_counts_as_aerobic": true,
+    "heavy_play_weeks": true
+   },
    "stay_athletic_dial": {
     "power": 1,
     "agility": 1,
@@ -7826,7 +7978,8 @@
      "BALLISTIC jumps",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 60,
@@ -7852,7 +8005,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "hockey": {
    "id": "hockey",
@@ -7956,7 +8111,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -7971,7 +8127,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.41,
@@ -8013,7 +8169,8 @@
      "PLYOS (lateral hurdle hops G93/G94)",
      "JUMPING LIMITED KNEE (lateral plate hops G50-G52)"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 70,
@@ -8037,7 +8194,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "hockey_defense": {
    "id": "hockey_defense",
@@ -8141,7 +8300,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -8156,7 +8316,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.44,
@@ -8198,7 +8358,8 @@
      "PLYOS (lateral hurdle hops G93/G94)",
      "JUMPING LIMITED KNEE (lateral plate hops G50-G52)"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 70,
@@ -8222,7 +8383,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "hockey_goalie": {
    "id": "hockey_goalie",
@@ -8325,7 +8488,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -8340,7 +8504,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.45,
@@ -8382,7 +8546,8 @@
      "PLYOS (lateral hurdle hops G93/G94)",
      "JUMPING LIMITED KNEE (lateral plate hops G50-G52)"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 70,
@@ -8406,7 +8571,9 @@
    "sprint_tier": "T0",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "hybrid": {
    "id": "hybrid",
@@ -8486,7 +8653,8 @@
     "weekly_sets": 4.9,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -8530,7 +8698,8 @@
      "PLYOS",
      "FULL JUMPING"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {},
    "core_rules": {
@@ -8551,7 +8720,9 @@
    "sprint_tier": "conditioning A",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "hyrox_competitive": {
    "id": "hyrox_competitive",
@@ -8654,7 +8825,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -8670,7 +8842,7 @@
     "BALL": 0.75,
     "THROW": 0.75,
     "SPRINT": 1,
-    "TE": 0.6,
+    "TE": 1,
     "resistance": 0.49,
     "core": 0.75,
     "calves": 0.75,
@@ -8709,7 +8881,10 @@
     "age_50_plus": false,
     "older_60_plus": false
    },
-   "template_hint": null,
+   "template_hint": {
+    "family": "athletic",
+    "variant": "hyrox"
+   },
    "lead_for_goals": [],
    "volume_ratios": [],
    "play": null,
@@ -8729,7 +8904,8 @@
      "JUMPING LIMITED KNEE (ankle hops)",
      "PLYOS FOUNDATIONAL / MODERATE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 80,
@@ -8757,7 +8933,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "hyrox_fitness": {
    "id": "hyrox_fitness",
@@ -8884,13 +9062,19 @@
     "age_50_plus": false,
     "older_60_plus": true
    },
-   "template_hint": null,
+   "template_hint": {
+    "family": "athletic",
+    "variant": "hyrox"
+   },
    "lead_for_goals": [
     "active",
     "hybrid"
    ],
    "volume_ratios": [],
-   "play": null,
+   "play": {
+    "activity_counts_as_aerobic": true,
+    "heavy_play_weeks": true
+   },
    "stay_athletic_dial": {
     "power": 1,
     "agility": 1,
@@ -8915,7 +9099,8 @@
      "BALLISTIC broad jumps",
      "PLYOS horizontal"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 80,
@@ -8945,7 +9130,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "judo": {
    "id": "judo",
@@ -9049,7 +9236,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -9064,9 +9252,9 @@
     "JLK": 0.75,
     "BALL": 0.75,
     "THROW": 0.8,
-    "COD": 0.6,
-    "SPRINT": 0.8,
-    "TE": 0.75,
+    "COD": 1,
+    "SPRINT": 1,
+    "TE": 1,
     "resistance": 0.43,
     "core": 0.75,
     "calves": 0.75,
@@ -9119,7 +9307,8 @@
     "tracks": [
      "PLYOS FOUNDATIONAL / MODERATE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -9143,7 +9332,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null,
+   "cod_reactive": true
   },
   "karate_taekwondo": {
    "id": "karate_taekwondo",
@@ -9247,7 +9438,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "pull"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -9262,9 +9454,9 @@
     "JLK": 0.75,
     "BALL": 0.75,
     "THROW": 0.8,
-    "COD": 0.6,
-    "SPRINT": 0.8,
-    "TE": 0.75,
+    "COD": 1,
+    "SPRINT": 1,
+    "TE": 1,
     "resistance": 0.4,
     "core": 0.75,
     "calves": 0.75,
@@ -9318,7 +9510,8 @@
      "JUMPING LIMITED KNEE",
      "PLYOS FOUNDATIONAL/MODERATE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -9344,7 +9537,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": null,
+   "cod_reactive": true
   },
   "kickboxing_muay_thai": {
    "id": "kickboxing_muay_thai",
@@ -9448,7 +9643,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -9463,9 +9659,9 @@
     "JLK": 0.75,
     "BALL": 0.75,
     "THROW": 0.8,
-    "COD": 0.6,
-    "SPRINT": 0.8,
-    "TE": 0.75,
+    "COD": 1,
+    "SPRINT": 1,
+    "TE": 1,
     "resistance": 0.35,
     "core": 0.75,
     "calves": 0.75,
@@ -9519,7 +9715,8 @@
      "PLYOS",
      "jump rope"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -9543,7 +9740,9 @@
    "sprint_tier": "T1",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": null,
+   "cod_reactive": true
   },
   "lacrosse_m_attack": {
    "id": "lacrosse_m_attack",
@@ -9647,7 +9846,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -9662,7 +9862,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -9707,7 +9907,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 70,
@@ -9733,7 +9934,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T4"
+   "cod_tier": "T4",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "lacrosse_m_defense": {
    "id": "lacrosse_m_defense",
@@ -9744,10 +9947,10 @@
    "group": "field - COD/contact",
    "ath03_group": "speed_power",
    "season_type": "A",
-   "ground_contact_class": 3,
+   "ground_contact_class": 2,
    "plyo_share": {
-    "start": 0.35,
-    "end": 0.5
+    "start": 0.45,
+    "end": 0.6
    },
    "share": {
     "lower": {
@@ -9778,30 +9981,30 @@
     "activity_counts": false
    },
    "athletic_sets_wk": {
-    "PLYO": 12,
-    "JLK": 6,
-    "BALL": 9,
-    "THROW": 9,
+    "PLYO": 14,
+    "JLK": 8,
+    "BALL": 7,
+    "THROW": 7,
     "COD": 16,
     "SPRINT": 6,
     "TE": 10
    },
    "athletic_weekly": {
     "plyo_contacts": [
-     65,
-     90
-    ],
-    "jump_contacts": [
-     120,
-     160
-    ],
-    "low_contacts": [
-     100,
-     140
-    ],
-    "throws": [
      75,
      105
+    ],
+    "jump_contacts": [
+     125,
+     170
+    ],
+    "low_contacts": [
+     135,
+     185
+    ],
+    "throws": [
+     60,
+     80
     ],
     "cod_cuts": [
      95,
@@ -9837,7 +10040,8 @@
     "weekly_sets": 10,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -9852,7 +10056,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -9906,7 +10110,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 65,
@@ -9930,7 +10135,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T3"
+   "cod_tier": "T3",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "lacrosse_m_goalie": {
    "id": "lacrosse_m_goalie",
@@ -10034,7 +10241,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -10049,7 +10257,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.37,
@@ -10092,7 +10300,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -10116,7 +10325,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "lacrosse_m_midfield": {
    "id": "lacrosse_m_midfield",
@@ -10220,7 +10431,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -10235,7 +10447,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -10294,7 +10506,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 70,
@@ -10320,7 +10533,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T4"
+   "cod_tier": "T4",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "lacrosse_w_attack": {
    "id": "lacrosse_w_attack",
@@ -10424,7 +10639,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -10439,7 +10655,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -10483,7 +10699,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 70,
@@ -10509,7 +10726,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T4"
+   "cod_tier": "T4",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "lacrosse_w_defense": {
    "id": "lacrosse_w_defense",
@@ -10613,7 +10832,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -10628,7 +10848,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -10672,7 +10892,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 65,
@@ -10698,7 +10919,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T4"
+   "cod_tier": "T4",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "lacrosse_w_goalie": {
    "id": "lacrosse_w_goalie",
@@ -10802,7 +11025,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -10817,7 +11041,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.37,
@@ -10860,7 +11084,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -10884,7 +11109,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "lacrosse_w_midfield": {
    "id": "lacrosse_w_midfield",
@@ -10988,7 +11215,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -11003,7 +11231,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -11058,7 +11286,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 70,
@@ -11084,7 +11313,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T4"
+   "cod_tier": "T4",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "lap_swim": {
    "id": "lap_swim",
@@ -11186,7 +11417,8 @@
     "weekly_sets": 2,
     "none_by_default": false,
     "max_exposures_wk": 4,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -11229,7 +11461,10 @@
      ]
     }
    ],
-   "play": null,
+   "play": {
+    "activity_counts_as_aerobic": true,
+    "heavy_play_weeks": true
+   },
    "stay_athletic_dial": {
     "power": 1,
     "agility": 0,
@@ -11258,7 +11493,8 @@
      "BALLISTIC jumps",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -11285,7 +11521,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "mma": {
    "id": "mma",
@@ -11389,7 +11627,8 @@
     "weekly_sets": 9,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -11404,9 +11643,9 @@
     "JLK": 0.75,
     "BALL": 0.75,
     "THROW": 0.8,
-    "COD": 0.6,
-    "SPRINT": 0.8,
-    "TE": 0.75,
+    "COD": 1,
+    "SPRINT": 1,
+    "TE": 1,
     "resistance": 0.37,
     "core": 0.75,
     "calves": 0.75,
@@ -11464,7 +11703,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 55,
@@ -11488,7 +11728,9 @@
    "sprint_tier": "T1-T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": null,
+   "cod_reactive": true
   },
   "ocr_spartan": {
    "id": "ocr_spartan",
@@ -11592,7 +11834,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -11607,9 +11850,9 @@
     "JLK": 0.8,
     "BALL": 0.75,
     "THROW": 0.75,
-    "COD": 0.75,
+    "COD": 1,
     "SPRINT": 1,
-    "TE": 0.6,
+    "TE": 1,
     "resistance": 0.49,
     "core": 0.75,
     "calves": 0.75,
@@ -11660,7 +11903,8 @@
      "PLYOS (landings first)",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 60,
@@ -11684,7 +11928,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null,
+   "cod_reactive": true
   },
   "pickleball_competitive": {
    "id": "pickleball_competitive",
@@ -11787,7 +12033,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "pull"
    },
    "cod_sport": true,
    "speed_athlete": false,
@@ -11801,9 +12048,9 @@
     "PLYO": 0.75,
     "JLK": 0.75,
     "THROW": 0.7,
-    "COD": 0.85,
-    "SPRINT": 0.9,
-    "TE": 0.7,
+    "COD": 1,
+    "SPRINT": 1,
+    "TE": 1,
     "resistance": 0.39,
     "core": 0.75,
     "calves": 0.75,
@@ -11851,12 +12098,7 @@
    "rules": [],
    "evidence": "synthesis/04_profiles.json v1.1",
    "plyo_rules": {
-    "exclude_tags": [
-     "bound",
-     "depth_jump",
-     "high_depth_drop",
-     "hurdle_hop"
-    ],
+    "exclude_tags": [],
     "direction_pct": {
      "vertical": 30,
      "horizontal": 25,
@@ -11867,7 +12109,13 @@
      "JUMPING LIMITED KNEE",
      "PLYOS lateral"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": [
+     "bound",
+     "depth_jump",
+     "high_depth_drop",
+     "hurdle_hop"
+    ]
    },
    "throw_plane_pct": {
     "transverse": 70,
@@ -11895,7 +12143,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": "low-impact only: RC1 landings (stick the split step / lateral stick), low-amplitude split-step pogos and lateral line hops on a forgiving surface, bilateral before single-leg; no depth jumps, hurdle hops or bounds by default at 50-59; progress only when landings are quiet and pain-free (FALLS_COURT, ACL_LANDING_CUTTING stage-1 logic); at 60+ all of it except the landing drills is opt-in with the warning (COACH-R2 ATH-08)",
-   "cod_tier": "T3"
+   "cod_tier": "T3",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "powerlifting_strength": {
    "id": "powerlifting_strength",
@@ -12041,7 +12291,8 @@
     "tracks": [
      "PLYOS"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {},
    "core_rules": {
@@ -12062,7 +12313,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "rec_basketball": {
    "id": "rec_basketball",
@@ -12104,7 +12357,7 @@
     "in": null,
     "walks": false,
     "sport_is_aerobic": false,
-    "activity_counts": false
+    "activity_counts": true
    },
    "athletic_sets_wk": {
     "PLYO": 11,
@@ -12165,7 +12418,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -12191,7 +12445,10 @@
    "template_hint": null,
    "lead_for_goals": [],
    "volume_ratios": [],
-   "play": null,
+   "play": {
+    "activity_counts_as_aerobic": true,
+    "heavy_play_weeks": true
+   },
    "stay_athletic_dial": null,
    "resistance_goal": "strength",
    "rules": [],
@@ -12208,7 +12465,8 @@
      "PLYOS",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -12232,7 +12490,9 @@
    "sprint_tier": "T0",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "max_velocity",
+   "cod_reactive": false
   },
   "rec_climbing": {
    "id": "rec_climbing",
@@ -12335,7 +12595,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": 4,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -12389,7 +12650,8 @@
      "BALLISTIC jumps",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 70,
@@ -12415,7 +12677,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "rec_combat_fitness": {
    "id": "rec_combat_fitness",
@@ -12518,7 +12782,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": 4,
-    "stay_active_two_sets": true
+    "stay_active_two_sets": true,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -12593,7 +12858,8 @@
      "BALLISTIC jumps",
      "JUMPING ANKLE (footwork bounce)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -12620,7 +12886,8 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null
   },
   "rec_flag_football": {
    "id": "rec_flag_football",
@@ -12662,7 +12929,7 @@
     "in": null,
     "walks": false,
     "sport_is_aerobic": false,
-    "activity_counts": false
+    "activity_counts": true
    },
    "athletic_sets_wk": {
     "PLYO": 12,
@@ -12724,7 +12991,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -12749,7 +13017,10 @@
    "template_hint": null,
    "lead_for_goals": [],
    "volume_ratios": [],
-   "play": null,
+   "play": {
+    "activity_counts_as_aerobic": true,
+    "heavy_play_weeks": true
+   },
    "stay_athletic_dial": null,
    "resistance_goal": "strength",
    "rules": [],
@@ -12766,7 +13037,8 @@
      "PLYOS",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -12790,7 +13062,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "both",
+   "cod_reactive": false
   },
   "rec_golf": {
    "id": "rec_golf",
@@ -12893,7 +13167,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": 4,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "pull"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -12946,7 +13221,8 @@
      "BALLISTIC jumps",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 75,
@@ -12970,7 +13246,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "rec_hockey": {
    "id": "rec_hockey",
@@ -13012,7 +13290,7 @@
     "in": null,
     "walks": false,
     "sport_is_aerobic": false,
-    "activity_counts": false
+    "activity_counts": true
    },
    "athletic_sets_wk": {
     "PLYO": 8,
@@ -13073,7 +13351,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -13099,7 +13378,10 @@
    "template_hint": null,
    "lead_for_goals": [],
    "volume_ratios": [],
-   "play": null,
+   "play": {
+    "activity_counts_as_aerobic": true,
+    "heavy_play_weeks": true
+   },
    "stay_athletic_dial": null,
    "resistance_goal": "strength",
    "rules": [],
@@ -13116,7 +13398,8 @@
      "PLYOS",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -13140,7 +13423,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "max_velocity",
+   "cod_reactive": false
   },
   "rec_kickball": {
    "id": "rec_kickball",
@@ -13298,7 +13583,8 @@
      "PLYOS horizontal",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -13326,7 +13612,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "acceleration",
+   "cod_reactive": false
   },
   "rec_league": {
    "id": "rec_league",
@@ -13429,7 +13717,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": 4,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -13482,7 +13771,8 @@
      "PLYOS",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -13508,7 +13798,8 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null
   },
   "rec_ocr": {
    "id": "rec_ocr",
@@ -13640,7 +13931,10 @@
    "template_hint": null,
    "lead_for_goals": [],
    "volume_ratios": [],
-   "play": null,
+   "play": {
+    "activity_counts_as_aerobic": true,
+    "heavy_play_weeks": true
+   },
    "stay_athletic_dial": {
     "power": 1,
     "agility": 2,
@@ -13666,7 +13960,8 @@
      "BALLISTIC broad / box jumps",
      "PLYOS single-leg (trail)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 60,
@@ -13690,7 +13985,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "rec_padel": {
    "id": "rec_padel",
@@ -13838,12 +14135,7 @@
    "rules": [],
    "evidence": "synthesis/04_profiles.json v1.1",
    "plyo_rules": {
-    "exclude_tags": [
-     "bound",
-     "depth_jump",
-     "high_depth_drop",
-     "hurdle_hop"
-    ],
+    "exclude_tags": [],
     "direction_pct": {
      "vertical": 30,
      "horizontal": 20,
@@ -13854,7 +14146,13 @@
      "JUMPING ANKLE (split-step pogo)",
      "PLYOS lateral + vertical"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": [
+     "bound",
+     "depth_jump",
+     "high_depth_drop",
+     "hurdle_hop"
+    ]
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -13882,7 +14180,8 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": "low-impact only: RC1 landings (stick the split step / lateral stick), low-amplitude split-step pogos and lateral line hops on a forgiving surface, bilateral before single-leg; no depth jumps, hurdle hops or bounds by default at 50-59; progress only when landings are quiet and pain-free (FALLS_COURT, ACL_LANDING_CUTTING stage-1 logic); at 60+ all of it except the landing drills is opt-in with the warning (COACH-R2 ATH-08)",
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "acceleration"
   },
   "rec_pickleball": {
    "id": "rec_pickleball",
@@ -14030,12 +14329,7 @@
    "rules": [],
    "evidence": "synthesis/04_profiles.json v1.1",
    "plyo_rules": {
-    "exclude_tags": [
-     "bound",
-     "depth_jump",
-     "high_depth_drop",
-     "hurdle_hop"
-    ],
+    "exclude_tags": [],
     "direction_pct": {
      "vertical": 20,
      "horizontal": 20,
@@ -14046,7 +14340,13 @@
      "JUMPING ANKLE (split-step pogo, ankle hops)",
      "PLYOS lateral (stick -> repeat)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": [
+     "bound",
+     "depth_jump",
+     "high_depth_drop",
+     "hurdle_hop"
+    ]
    },
    "throw_plane_pct": {
     "transverse": 70,
@@ -14074,7 +14374,8 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": "low-impact only: RC1 landings (stick the split step / lateral stick), low-amplitude split-step pogos and lateral line hops on a forgiving surface, bilateral before single-leg; no depth jumps, hurdle hops or bounds by default at 50-59; progress only when landings are quiet and pain-free (FALLS_COURT, ACL_LANDING_CUTTING stage-1 logic); at 60+ all of it except the landing drills is opt-in with the warning (COACH-R2 ATH-08)",
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "acceleration"
   },
   "rec_rowing": {
    "id": "rec_rowing",
@@ -14116,7 +14417,7 @@
     "in": null,
     "walks": false,
     "sport_is_aerobic": false,
-    "activity_counts": false
+    "activity_counts": true
    },
    "athletic_sets_wk": {
     "PLYO": 2.5,
@@ -14176,7 +14477,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -14200,7 +14502,10 @@
    "template_hint": null,
    "lead_for_goals": [],
    "volume_ratios": [],
-   "play": null,
+   "play": {
+    "activity_counts_as_aerobic": true,
+    "heavy_play_weeks": true
+   },
    "stay_athletic_dial": null,
    "resistance_goal": "hypertrophy",
    "rules": [],
@@ -14217,7 +14522,8 @@
      "PLYOS",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -14244,7 +14550,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "rec_soccer": {
    "id": "rec_soccer",
@@ -14286,7 +14594,7 @@
     "in": null,
     "walks": false,
     "sport_is_aerobic": false,
-    "activity_counts": false
+    "activity_counts": true
    },
    "athletic_sets_wk": {
     "PLYO": 12,
@@ -14348,7 +14656,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -14375,7 +14684,10 @@
    "template_hint": null,
    "lead_for_goals": [],
    "volume_ratios": [],
-   "play": null,
+   "play": {
+    "activity_counts_as_aerobic": true,
+    "heavy_play_weeks": true
+   },
    "stay_athletic_dial": null,
    "resistance_goal": "strength",
    "rules": [],
@@ -14392,7 +14704,8 @@
      "PLYOS",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -14416,7 +14729,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "both",
+   "cod_reactive": false
   },
   "rec_softball": {
    "id": "rec_softball",
@@ -14458,7 +14773,7 @@
     "in": null,
     "walks": false,
     "sport_is_aerobic": false,
-    "activity_counts": false
+    "activity_counts": true
    },
    "athletic_sets_wk": {
     "PLYO": 8,
@@ -14520,7 +14835,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -14546,7 +14862,10 @@
    "template_hint": null,
    "lead_for_goals": [],
    "volume_ratios": [],
-   "play": null,
+   "play": {
+    "activity_counts_as_aerobic": true,
+    "heavy_play_weeks": true
+   },
    "stay_athletic_dial": null,
    "resistance_goal": "strength",
    "rules": [],
@@ -14563,7 +14882,8 @@
      "PLYOS",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -14587,7 +14907,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "acceleration",
+   "cod_reactive": false
   },
   "rec_tennis": {
    "id": "rec_tennis",
@@ -14735,12 +15057,7 @@
    "rules": [],
    "evidence": "synthesis/04_profiles.json v1.1",
    "plyo_rules": {
-    "exclude_tags": [
-     "bound",
-     "depth_jump",
-     "high_depth_drop",
-     "hurdle_hop"
-    ],
+    "exclude_tags": [],
     "direction_pct": {
      "vertical": 30,
      "horizontal": 25,
@@ -14751,7 +15068,13 @@
      "JUMPING LIMITED KNEE / JUMPING ANKLE",
      "PLYOS lateral"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": [
+     "bound",
+     "depth_jump",
+     "high_depth_drop",
+     "hurdle_hop"
+    ]
    },
    "throw_plane_pct": {
     "transverse": 70,
@@ -14778,7 +15101,8 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": "low-impact only: RC1 landings (stick the split step / lateral stick), low-amplitude split-step pogos and lateral line hops on a forgiving surface, bilateral before single-leg; no depth jumps, hurdle hops or bounds by default at 50-59; progress only when landings are quiet and pain-free (FALLS_COURT, ACL_LANDING_CUTTING stage-1 logic); at 60+ all of it except the landing drills is opt-in with the warning (COACH-R2 ATH-08)",
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "acceleration"
   },
   "rec_triathlon": {
    "id": "rec_triathlon",
@@ -14820,7 +15144,7 @@
     "in": null,
     "walks": false,
     "sport_is_aerobic": false,
-    "activity_counts": false
+    "activity_counts": true
    },
    "athletic_sets_wk": {
     "PLYO": 6,
@@ -14880,7 +15204,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -14906,7 +15231,10 @@
    "template_hint": null,
    "lead_for_goals": [],
    "volume_ratios": [],
-   "play": null,
+   "play": {
+    "activity_counts_as_aerobic": true,
+    "heavy_play_weeks": true
+   },
    "stay_athletic_dial": null,
    "resistance_goal": "hypertrophy",
    "rules": [],
@@ -14923,7 +15251,8 @@
      "PLYOS",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -14951,7 +15280,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "rec_ultimate": {
    "id": "rec_ultimate",
@@ -14993,7 +15324,7 @@
     "in": null,
     "walks": false,
     "sport_is_aerobic": false,
-    "activity_counts": false
+    "activity_counts": true
    },
    "athletic_sets_wk": {
     "PLYO": 12,
@@ -15055,7 +15386,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -15080,7 +15412,10 @@
    "template_hint": null,
    "lead_for_goals": [],
    "volume_ratios": [],
-   "play": null,
+   "play": {
+    "activity_counts_as_aerobic": true,
+    "heavy_play_weeks": true
+   },
    "stay_athletic_dial": null,
    "resistance_goal": "strength",
    "rules": [],
@@ -15097,7 +15432,8 @@
      "PLYOS",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -15121,7 +15457,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "acceleration",
+   "cod_reactive": false
   },
   "rec_volleyball": {
    "id": "rec_volleyball",
@@ -15163,7 +15501,7 @@
     "in": null,
     "walks": false,
     "sport_is_aerobic": false,
-    "activity_counts": false
+    "activity_counts": true
    },
    "athletic_sets_wk": {
     "PLYO": 12,
@@ -15224,7 +15562,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -15249,7 +15588,10 @@
    "template_hint": null,
    "lead_for_goals": [],
    "volume_ratios": [],
-   "play": null,
+   "play": {
+    "activity_counts_as_aerobic": true,
+    "heavy_play_weeks": true
+   },
    "stay_athletic_dial": null,
    "resistance_goal": "strength",
    "rules": [],
@@ -15266,7 +15608,8 @@
      "PLYOS",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -15290,7 +15633,9 @@
    "sprint_tier": "T0",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "max_velocity",
+   "cod_reactive": false
   },
   "rowing": {
    "id": "rowing",
@@ -15392,7 +15737,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -15409,7 +15755,7 @@
     "THROW": 0.75,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.75,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -15465,7 +15811,8 @@
      "BALLISTIC (box / broad / hex-bar jumps)",
      "JUMPING ANKLE (low)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 70,
@@ -15492,7 +15839,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "rugby_backs": {
    "id": "rugby_backs",
@@ -15596,7 +15945,8 @@
     "weekly_sets": 10,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": false,
@@ -15611,7 +15961,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -15681,7 +16031,8 @@
      "PLYOS",
      "FULL JUMPING"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -15705,7 +16056,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T3"
+   "cod_tier": "T3",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "rugby_forwards": {
    "id": "rugby_forwards",
@@ -15809,7 +16162,8 @@
     "weekly_sets": 10,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -15824,7 +16178,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.45,
@@ -15893,7 +16247,8 @@
     "tracks": [
      "PLYOS (FOUNDATIONAL / MODERATE)"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 60,
@@ -15917,7 +16272,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "rugby_sevens": {
    "id": "rugby_sevens",
@@ -16021,7 +16378,8 @@
     "weekly_sets": 10,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": false,
@@ -16036,7 +16394,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -16080,7 +16438,8 @@
      "PLYOS",
      "FULL JUMPING"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 60,
@@ -16104,7 +16463,9 @@
    "sprint_tier": "T5",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T3"
+   "cod_tier": "T3",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "run_fitness": {
    "id": "run_fitness",
@@ -16205,7 +16566,8 @@
     "weekly_sets": 2,
     "none_by_default": false,
     "max_exposures_wk": 4,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -16232,7 +16594,10 @@
    "template_hint": null,
    "lead_for_goals": [],
    "volume_ratios": [],
-   "play": null,
+   "play": {
+    "activity_counts_as_aerobic": true,
+    "heavy_play_weeks": true
+   },
    "stay_athletic_dial": {
     "power": 1,
     "agility": 0,
@@ -16256,7 +16621,8 @@
      "JUMPING ANKLE",
      "PLYOS horizontal"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {},
    "core_rules": {
@@ -16280,7 +16646,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "ski_alpine": {
    "id": "ski_alpine",
@@ -16383,7 +16751,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -16400,7 +16769,7 @@
     "THROW": 0.75,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.75,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -16464,7 +16833,8 @@
      "BALLISTIC",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 40,
@@ -16491,7 +16861,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "ski_freestyle": {
    "id": "ski_freestyle",
@@ -16594,7 +16966,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -16611,7 +16984,7 @@
     "THROW": 0.75,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.75,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -16655,7 +17028,8 @@
      "BALLISTIC",
      "JUMPING ANKLE (moguls)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 30,
@@ -16682,7 +17056,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "ski_snow_prep": {
    "id": "ski_snow_prep",
@@ -16840,7 +17216,8 @@
      "BALLISTIC box jumps",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -16867,7 +17244,8 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": null
   },
   "soccer": {
    "id": "soccer",
@@ -16971,7 +17349,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "pull"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -16986,7 +17365,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -17039,7 +17418,8 @@
      "FULL JUMPING ('Bounding')",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -17063,7 +17443,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T4"
+   "cod_tier": "T4",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "soccer_defender": {
    "id": "soccer_defender",
@@ -17167,7 +17549,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "pull"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -17182,7 +17565,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -17236,7 +17619,8 @@
      "FULL JUMPING ('Bounding')",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -17260,7 +17644,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T3"
+   "cod_tier": "T3",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "soccer_forward": {
    "id": "soccer_forward",
@@ -17364,7 +17750,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "pull"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -17379,7 +17766,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -17423,7 +17810,8 @@
      "FULL JUMPING ('Bounding')",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -17447,7 +17835,9 @@
    "sprint_tier": "T5",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T4"
+   "cod_tier": "T4",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "soccer_gk": {
    "id": "soccer_gk",
@@ -17551,7 +17941,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "pull"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -17566,7 +17957,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -17610,7 +18001,8 @@
      "FULL JUMPING ('Bounding')",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -17634,7 +18026,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T3"
+   "cod_tier": "T3",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "softball": {
    "id": "softball",
@@ -17737,7 +18131,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "pull"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -17752,7 +18147,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.43,
@@ -17808,7 +18203,8 @@
      "PLYOS",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -17835,7 +18231,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "acceleration",
+   "cod_reactive": false
   },
   "softball_pitcher": {
    "id": "softball_pitcher",
@@ -17938,7 +18336,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "pull"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -17953,7 +18352,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.46,
@@ -17999,7 +18398,8 @@
      "PLYOS",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -18026,7 +18426,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "acceleration",
+   "cod_reactive": false
   },
   "strongman": {
    "id": "strongman",
@@ -18127,7 +18529,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -18141,7 +18544,7 @@
     "PLYO": 0.6,
     "BALL": 0.6,
     "THROW": 0.6,
-    "TE": 0.8,
+    "TE": 1,
     "resistance": 0.7,
     "core": 0.75,
     "calves": 0.6,
@@ -18180,7 +18583,8 @@
     "tracks": [
      "PLYOS FOUNDATIONAL"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 100
@@ -18206,7 +18610,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "surf_paddle": {
    "id": "surf_paddle",
@@ -18307,7 +18713,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": 4,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -18360,7 +18767,8 @@
      "BALLISTIC jumps",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -18387,7 +18795,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "swimming_distance": {
    "id": "swimming_distance",
@@ -18510,7 +18920,7 @@
     "THROW": 0.8,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.8,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.75,
@@ -18619,7 +19029,8 @@
      "BALLISTIC jumps",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -18646,7 +19057,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "swimming_middle": {
    "id": "swimming_middle",
@@ -18751,7 +19164,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -18768,7 +19182,7 @@
     "THROW": 0.8,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.8,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.75,
@@ -18877,7 +19291,8 @@
      "BALLISTIC jumps",
      "JUMPING ANKLE (bone loading)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 65,
@@ -18906,7 +19321,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "swimming_sprint": {
    "id": "swimming_sprint",
@@ -19011,7 +19428,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -19028,7 +19446,7 @@
     "THROW": 0.8,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.8,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.75,
@@ -19137,7 +19555,8 @@
      "BALLISTIC jumps (box / squat / broad / hex-bar)",
      "JUMPING ANKLE (pogo / ankle hops) for bone loading"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 70,
@@ -19167,7 +19586,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "taekwondo": {
    "id": "taekwondo",
@@ -19271,7 +19692,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "pull"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -19286,9 +19708,9 @@
     "JLK": 0.75,
     "BALL": 0.75,
     "THROW": 0.8,
-    "COD": 0.6,
-    "SPRINT": 0.8,
-    "TE": 0.75,
+    "COD": 1,
+    "SPRINT": 1,
+    "TE": 1,
     "resistance": 0.4,
     "core": 0.75,
     "calves": 0.75,
@@ -19343,7 +19765,8 @@
      "JUMPING LIMITED KNEE",
      "PLYOS FOUNDATIONAL/MODERATE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 60,
@@ -19369,7 +19792,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": null,
+   "cod_reactive": true
   },
   "tennis": {
    "id": "tennis",
@@ -19472,7 +19897,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "pull"
    },
    "cod_sport": true,
    "speed_athlete": false,
@@ -19486,9 +19912,9 @@
     "PLYO": 0.75,
     "JLK": 0.75,
     "THROW": 0.7,
-    "COD": 0.85,
-    "SPRINT": 0.9,
-    "TE": 0.7,
+    "COD": 1,
+    "SPRINT": 1,
+    "TE": 1,
     "resistance": 0.35,
     "core": 0.75,
     "calves": 0.75,
@@ -19515,7 +19941,7 @@
     }
    },
    "age_rules": {
-    "age_50_plus": false,
+    "age_50_plus": true,
     "older_60_plus": false
    },
    "template_hint": null,
@@ -19538,7 +19964,8 @@
      "JUMPING LIMITED KNEE",
      "PLYOS lateral"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 70,
@@ -19563,8 +19990,10 @@
    },
    "sprint_tier": "T2",
    "running_sport": true,
-   "age_50_plus_plyo": null,
-   "cod_tier": "T3"
+   "age_50_plus_plyo": "50+: low-impact jumps only - landings, split-step pogos and low lateral line hops; depth jumps, hurdle hops and bounds stay off by default and can be switched on (COACH-R3 ATH-02)",
+   "cod_tier": "T3",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "track_400": {
    "id": "track_400",
@@ -19667,7 +20096,8 @@
     "weekly_sets": 10,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -19684,7 +20114,7 @@
     "THROW": 0.7,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.7,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -19723,7 +20153,8 @@
      "FULL JUMPING ('Bounding', 'Hurdle Hops', 'Depth Jumps')",
      "JUMPING LIMITED KNEE (ankle stiffness)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 85,
@@ -19750,7 +20181,9 @@
    "sprint_tier": "T5",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": "both",
+   "cod_reactive": false
   },
   "track_high_jump": {
    "id": "track_high_jump",
@@ -19853,7 +20286,8 @@
     "weekly_sets": 10,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -19870,7 +20304,7 @@
     "THROW": 0.7,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.7,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -19910,7 +20344,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE (ankle stiffness)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 80,
@@ -19937,7 +20372,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": "acceleration",
+   "cod_reactive": false
   },
   "track_hurdles": {
    "id": "track_hurdles",
@@ -20040,7 +20477,8 @@
     "weekly_sets": 10,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -20057,7 +20495,7 @@
     "THROW": 0.7,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.7,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -20105,7 +20543,8 @@
      "FULL JUMPING ('Bounding', 'Hurdle Hops', 'Depth Jumps')",
      "JUMPING LIMITED KNEE (ankle stiffness)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 85,
@@ -20132,7 +20571,9 @@
    "sprint_tier": "T5",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": "both",
+   "cod_reactive": false
   },
   "track_javelin": {
    "id": "track_javelin",
@@ -20235,7 +20676,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -20252,7 +20694,7 @@
     "THROW": 0.7,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.7,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -20293,7 +20735,8 @@
      "PLYOS",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 40,
@@ -20321,7 +20764,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": "acceleration",
+   "cod_reactive": false
   },
   "track_jumper": {
    "id": "track_jumper",
@@ -20424,7 +20869,8 @@
     "weekly_sets": 10,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -20441,7 +20887,7 @@
     "THROW": 0.7,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.7,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -20490,7 +20936,8 @@
      "FULL JUMPING ('Bounding', 'Hurdle Hops', 'Depth Jumps')",
      "JUMPING LIMITED KNEE (ankle stiffness)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 85,
@@ -20517,7 +20964,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": "both",
+   "cod_reactive": false
   },
   "track_middle": {
    "id": "track_middle",
@@ -20619,7 +21068,8 @@
     "weekly_sets": 3,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -20636,7 +21086,7 @@
     "THROW": 0.75,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.75,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -20684,7 +21134,8 @@
      "JUMPING LIMITED KNEE / JUMPING ANKLE",
      "PLYOS (bounds)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {},
    "core_rules": {
@@ -20708,7 +21159,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": "both",
+   "cod_reactive": false
   },
   "track_pole_vault": {
    "id": "track_pole_vault",
@@ -20811,7 +21264,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -20828,7 +21282,7 @@
     "THROW": 0.7,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.7,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -20869,7 +21323,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 85,
@@ -20895,7 +21350,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": "both",
+   "cod_reactive": false
   },
   "track_sprinter": {
    "id": "track_sprinter",
@@ -20998,7 +21455,8 @@
     "weekly_sets": 10,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -21015,7 +21473,7 @@
     "THROW": 0.7,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.7,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -21054,7 +21512,8 @@
      "FULL JUMPING ('Bounding', 'Hurdle Hops', 'Depth Jumps')",
      "JUMPING LIMITED KNEE (ankle stiffness)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 85,
@@ -21081,7 +21540,9 @@
    "sprint_tier": "T5",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": "both",
+   "cod_reactive": false
   },
   "track_thrower": {
    "id": "track_thrower",
@@ -21201,7 +21662,7 @@
     "THROW": 0.7,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.7,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -21250,7 +21711,8 @@
      "BALLISTIC",
      "PLYOS (hurdle hops, low)"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 40,
@@ -21274,7 +21736,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": "acceleration",
+   "cod_reactive": false
   },
   "triathlon": {
    "id": "triathlon",
@@ -21392,7 +21856,7 @@
     "THROW": 0.75,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.75,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.5,
@@ -21431,7 +21895,8 @@
     "tracks": [
      "JUMPING LIMITED KNEE / JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {},
    "core_rules": {
@@ -21457,7 +21922,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "ultimate_cutter": {
    "id": "ultimate_cutter",
@@ -21561,7 +22028,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -21576,7 +22044,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -21620,7 +22088,8 @@
      "FULL JUMPING ('Bounding')",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 75,
@@ -21646,7 +22115,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T4"
+   "cod_tier": "T4",
+   "sprint_focus": "both",
+   "cod_reactive": true
   },
   "ultimate_handler": {
    "id": "ultimate_handler",
@@ -21750,7 +22221,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -21765,7 +22237,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -21809,7 +22281,8 @@
      "FULL JUMPING ('Bounding')",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 80,
@@ -21835,7 +22308,9 @@
    "sprint_tier": "T4",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T4"
+   "cod_tier": "T4",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "volleyball": {
    "id": "volleyball",
@@ -21939,7 +22414,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -21954,7 +22430,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.37,
@@ -21998,7 +22474,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -22025,7 +22502,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "volleyball_beach": {
    "id": "volleyball_beach",
@@ -22129,7 +22608,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -22144,7 +22624,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.35,
@@ -22206,7 +22686,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -22233,7 +22714,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T3"
+   "cod_tier": "T3",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "volleyball_libero": {
    "id": "volleyball_libero",
@@ -22337,7 +22820,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": true,
    "speed_athlete": true,
@@ -22352,7 +22836,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.36,
@@ -22396,7 +22880,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -22423,7 +22908,9 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T3"
+   "cod_tier": "T3",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "volleyball_middle": {
    "id": "volleyball_middle",
@@ -22527,7 +23014,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -22542,7 +23030,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.38,
@@ -22586,7 +23074,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -22613,7 +23102,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "volleyball_setter": {
    "id": "volleyball_setter",
@@ -22717,7 +23208,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -22732,7 +23224,7 @@
     "JLK": 0.75,
     "BALL": 0.6,
     "THROW": 0.75,
-    "TE": 0.75,
+    "TE": 1,
     "COD": 1,
     "SPRINT": 1,
     "resistance": 0.37,
@@ -22776,7 +23268,8 @@
      "FULL JUMPING",
      "JUMPING LIMITED KNEE"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -22803,7 +23296,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "acceleration",
+   "cod_reactive": true
   },
   "water_polo_center": {
    "id": "water_polo_center",
@@ -22905,7 +23400,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -22922,7 +23418,7 @@
     "THROW": 0.8,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.8,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.75,
@@ -22979,7 +23475,8 @@
      "BALLISTIC jumps",
      "JUMPING ANKLE (bone loading)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 40,
@@ -23005,7 +23502,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "water_polo_field": {
    "id": "water_polo_field",
@@ -23107,7 +23606,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -23124,7 +23624,7 @@
     "THROW": 0.8,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.8,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.75,
@@ -23181,7 +23681,8 @@
      "BALLISTIC jumps",
      "JUMPING ANKLE (bone loading)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 40,
@@ -23208,7 +23709,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "water_polo_goalkeeper": {
    "id": "water_polo_goalkeeper",
@@ -23310,7 +23813,8 @@
     "weekly_sets": 6,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": true,
@@ -23327,7 +23831,7 @@
     "THROW": 0.8,
     "COD": 1,
     "SPRINT": 1,
-    "TE": 0.8,
+    "TE": 1,
     "core": 0.75,
     "calves": 0.75,
     "focus": 0.75,
@@ -23384,7 +23888,8 @@
      "BALLISTIC jumps",
      "JUMPING ANKLE (bone loading)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 40,
@@ -23410,7 +23915,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "weekend_warrior": {
    "id": "weekend_warrior",
@@ -23513,7 +24020,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": 4,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -23582,7 +24090,8 @@
      "PLYOS",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -23606,7 +24115,8 @@
    "sprint_tier": "T0",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": "max_velocity"
   },
   "weightlifting": {
    "id": "weightlifting",
@@ -23719,7 +24229,7 @@
    "pre_season": {
     "PLYO": 0.6,
     "BALL": 0.6,
-    "TE": 0.8,
+    "TE": 1,
     "resistance": 0.64,
     "core": 0.75,
     "calves": 0.6,
@@ -23769,7 +24279,8 @@
     "tracks": [
      "PLYOS FOUNDATIONAL"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {},
    "core_rules": {
@@ -23792,7 +24303,9 @@
    "sprint_tier": "T0",
    "running_sport": false,
    "age_50_plus_plyo": null,
-   "cod_tier": "T0"
+   "cod_tier": "T0",
+   "sprint_focus": null,
+   "cod_reactive": false
   },
   "wrestling": {
    "id": "wrestling",
@@ -23896,7 +24409,8 @@
     "weekly_sets": 8,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "power"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -23911,9 +24425,9 @@
     "JLK": 0.75,
     "BALL": 0.75,
     "THROW": 0.8,
-    "COD": 0.6,
-    "SPRINT": 0.8,
-    "TE": 0.75,
+    "COD": 1,
+    "SPRINT": 1,
+    "TE": 1,
     "resistance": 0.42,
     "core": 0.75,
     "calves": 0.75,
@@ -23977,7 +24491,8 @@
     "tracks": [
      "PLYOS"
     ],
-    "ankle_track": false
+    "ankle_track": false,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "transverse": 55,
@@ -24001,7 +24516,9 @@
    "sprint_tier": "T1",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": null,
+   "cod_reactive": true
   },
   "youth_athlete": {
    "id": "youth_athlete",
@@ -24105,7 +24622,8 @@
     "weekly_sets": 4,
     "none_by_default": false,
     "max_exposures_wk": null,
-    "stay_active_two_sets": false
+    "stay_active_two_sets": false,
+    "ceiling": "pull"
    },
    "cod_sport": false,
    "speed_athlete": false,
@@ -24147,7 +24665,8 @@
      "PLYOS FOUNDATIONAL",
      "JUMPING ANKLE"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -24171,7 +24690,9 @@
    "sprint_tier": "T2",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T2"
+   "cod_tier": "T2",
+   "sprint_focus": null,
+   "cod_reactive": true
   },
   "youth_general_athletic": {
    "id": "youth_general_athletic",
@@ -24328,7 +24849,8 @@
      "PLYOS (landing first)",
      "JUMPING ANKLE (skips, rope)"
     ],
-    "ankle_track": true
+    "ankle_track": true,
+    "exclude_tags_age_50": []
    },
    "throw_plane_pct": {
     "sagittal": 50,
@@ -24352,7 +24874,8 @@
    "sprint_tier": "T3",
    "running_sport": true,
    "age_50_plus_plyo": null,
-   "cod_tier": "T1"
+   "cod_tier": "T1",
+   "sprint_focus": "both"
   }
  },
  "picker": {

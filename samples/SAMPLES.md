@@ -1,120 +1,238 @@
-# The 8 sample plans (Phase 0, v1.2 review round) - what the engine decided and why
+# The 8 sample plans (engine 0.4.0, model 1.3.0, round 3) - what the engine decided and why
 
 The coach's seven sample clients (R2-GEN-07) plus the pickleball "stay athletic and active" bonus, generated from the compiled model
-(`model/` 1.2.0) by engine 0.3.0 / contracts 1.1.1 with `node tools/generate-samples.mjs`, after the fixes for the coach-eye reviews
-(all eight were graded D; every issue and what happened to it is in `REVIEW_LOG.md`). Every plan has status `ok` and **zero failing
-error checks** (V1-V29, H01-H22); V28 (bilateral share, a warning) still flags 03, 06 and 07. Files: `plans/<name>.json` (the full
-plan with every `why`), `plans/<name>.en.md`, and for the two Spanish clients also `plans/<name>.es.md`. Intakes: `intakes/<name>.json`.
+(`model/` 1.3.0) by engine 0.4.0 with `node tools/generate-samples.mjs` after stage B4 (integration). Every plan has status `ok` and
+**zero failing error checks** (V1-V29, H01-H22); V28 (bilateral share, a warning) still flags 01, 02, 03, 04, 06 and 07. Files:
+`plans/<name>.json` (the full plan with every `why`), `plans/<name>.en.md`, and for the two Spanish clients also `plans/<name>.es.md`.
+Intakes: `intakes/<name>.json`. Every issue found and fixed is in `REVIEW_LOG.md` (v0.4 stages B1 ... B4).
 
-How to read the numbers: weekly sets are counted the coach's way (main muscle 1 set, helpers 1/4, dips 1/2 + 1/2, thruster
-1 / 0.5 / 0.25; jumps, throws, sprints, swings and Olympic lifts never count). "Main sets" are the sets on the main days - the days the
-stairway climbs on; the optional day holds its template Focus slots and never carries the stairway (ORD-10). "wk1 -> wkN" is the first
-and the last week of the first stairway. Effort is planned reps in reserve: 3 in the first weeks -> 2 -> 1-2 -> 1 in the last week,
-never below 1 on compounds; every plan now states that drift under the Basic Instruction.
+**What every plan is now (round 3).** The plan is built once, with the whole stairway visible ahead of time - no check-ins, no tracking,
+nothing kept (R3-VOL-02, R3-VOL-04, R3-GEN-01). It opens with the use-at-your-own-risk line and the release link (EN / ES), then
+"Before you start" and **"Your schedule"**: when the chosen days x minutes cannot hold the full plan (every group at 10+ sets, 2-4
+exercises a group a day, a climbing stairway), the plan says so up front, offers one more day or longer sessions in numbers, keeps the
+time by training fewer groups directly (big movers first; the sport's or the client's priority groups first) and every trained group
+still climbs (R3-SES-02). Each day says which blocks can be switched off (athletic, core, joint care, cardio ...) and which supersets
+save time; blocks carry stable ids. Effort drifts 3 in the tank -> 2 -> 1-2 -> 1 + one intensifier a day in the last week, always inside
+1-3 RIR (R3-VOL-04). Tests are their own items (a work-up to one top set, then the planned sets) in the first and last week only.
 
-**What is new in every plan (v1.2):** the stairway is sized to the chosen minutes first (D-67) - when the full starts do not fit, the
-starts are lowered so that every week can still climb, and the plan says so before week 1 ("Before you start": the warnings, then the
-schedule options - keep the minutes with lower starts (chosen), longer sessions, one more day). Sets are added to the main days in the
-VOL-07 order (the work lift first), the placed weekly rise is at most max(1 set, 7 %) per muscle and 7 % in total, and no week is a
-"hold" without a check-in. Glutes and side delts are targets for every client (R2-VOL-06; only the arms of competitive field athletes
-stay credit-only, D-03 revised). The sport profile's weekly athletic budget is dosed, not just reported (D-73).
-
----
-
-**01 - Swimming (EN).** A 16-year-old high-school swimmer (middle distance, freestyle), 2 years of training, 3 gym days x 60 min (Mon /
-Wed / Fri), full gym without bumper plates, 16 weeks to the season. `swimming_middle` profile + youth overlay, level L2, `athletic.3`
-(OT11 "Athletic Off-Season"). The 60-minute days cannot hold the field-athlete starts, so the starts were sized to the minutes
-(quads 10 -> 11, hamstrings 9, chest 6 -> 7, back 10, glutes 4 -> 7, rear delts 6 -> 12 own sets, calves 9). Main sets wk1 -> wk12:
-quads 10 -> 11, hamstrings 9 -> 9.25, glutes 4.25 -> 5.5, chest 6 -> 7, back 10, rear delts 5 -> 8; total 50 -> 56 (largest weekly rise
-2 %). Days run 61-66 min (limit 66). Shoulder care: no upright rows or standing overhead presses (swimmer's-shoulder hotspots), arm
-care twice a week, prehab credits rear delts, pulls outnumber presses. Olympic one light station a day at 2 sets inside the 4.5-7.5
-budget (hang power clean Mon, single-arm DB snatch Wed, mid-hang clean pull Fri). Athletic week 1: 32 jump contacts, 50 low-amplitude
-ankle contacts, 36 throws against 37 / 51 / 35; no depth jumps, bounds or hurdle hops; plyo stage RC1 -> RC3 with landings only in
-RC1. Mobility warm-up (not sprint drills). Tests are their own items: week 1 3-or-5-rep max (hex-bar squat, deadlift, DB floor press) +
-a countermovement jump (a minor's baseline is never a 1RM); week 12 the same lifts (3RM or work up to 1RM) and jump. Named up front:
-floor misses (hamstrings, glutes, chest, side delts, calves), lowered starts, offers of 80-min sessions or a 4th day.
-
-**02 - Football (EN).** A 20-year-old college linebacker (`football_big_skill`), 3 years of lifting, 4 days x 90 min + optional Wed /
-Sat, full gym with platforms, bumpers, hurdles and turf. Level L3, `athletic.4` (OT11). Main sets wk1 -> wk12: quads 14 -> 18,
-hamstrings 14.5 -> 17.5, glutes 6.5 -> 8, chest 10 -> 12, back 10 -> 13, rear delts 7 -> 11, calves 12 -> 16; total 75 -> 95 (largest
-weekly rise 4.9 %) - the stairway climbs from week 1 (it was flat to week 9). Loaded presses (barbell bench, incline bench, strict
-press); a bench test instead of a dip test; work lifts at 3 sets. Speed work sits before lifting (max-velocity sprints and COD
-first), the buy-out is a conditioning finisher only. Athletic week 1: COD 80 / 80 cuts, 50 low contacts, 240 / 300 m of sprints,
-72 / 70 throws, 8 Olympic sets (clean & jerk, power snatch, squat clean, squat snatch at 2 sets, 3-5 reps). Exercise rep ceilings:
-Nordics 5-8, weighted pull-ups 5-8. Tests: the same lifts and drills in weeks 1 and 12 (front squat, bench, RDL; 10-30 m sprint,
-5-10-5, CMJ) - a 3-year athlete tests for real. Days run 87-102 min (Tue +15 min Blue aerobic) for 90; Monday / Tuesday carry
-`warning.long_day`, offers 100-min sessions or a 5th day.
-
-**03 - Soccer (ES).** A 22-year-old semi-pro midfielder, 2 years of lifting, 3 days x 75 min, full gym + field kit, season in 10 weeks:
-a 6-week off-season stairway + the first 2 pre-season weeks (`warning.v6_season`), `athletic.3`, level L2. Main sets wk1 -> wk6:
-quads 10 -> 12, hamstrings 10 -> 13.25, glutes 4 -> 6, chest 10 -> 12, back 10 -> 11, calves 10 -> 11; total 59 -> 69 (largest rise
-6.2 %); pre-season about 60 % with the work and paired lifts kept at 2 sets. Soccer speed work is in the plan now: 96 / 120 cuts and
-240 -> 400 m of sprints a week with max-velocity work weekly; jumps progress from landings (RC1) to reactive work. Olympic on the
-profile's 2 exposures (mid-hang clean pull Mon, mid-hang snatch pull Wed, 2 sets). The non-axial hinge day uses a double-KB
-deadlift. Monday runs 81-84 min for 75 (`warning.long_day`); the Orange session moves to a separate session on a full day. Tests:
-speed / agility and jumps in weeks 1 and 6, same drills. Still open (REVIEW_LOG): the bilateral share stays near 50 % against the
-20 % target (V28 warns), the rep phase does not yet follow the season phase.
-
-**04 - CrossFit-style bootcamp (EN).** A 35-year-old CrossFit-class member who wants to stay athletic and active, 2 years, 4 days x 60
-min + a WOD-only Saturday, box kit. Class-model template `hybrid_crossfit.4` / `crossfit_style_bootcamp` (OTCFB): Squat + clean
-(Mon), Press (Tue), Deadlift + push + snatch (Thu), Pull + push press (Fri). On over-time days skill practice folds into the warm-up
-and the WOD holds 10 -> 15 min before any group leaves a day (D-78); the work lifts follow the HALF TIME class levels (3 x 7 -> 3 x 4)
-with strength rest. Main sets wk1 -> wk8: back 9 -> 10, rear delts 6 -> 7, biceps 4.25 -> 4.5, the legs and chest hold at 5-6; total
-44 -> 46. The 60-minute class cannot hold 10 sets a muscle, and the plan says so up front (floor misses named, offer of a 5th day).
-Pull >= 0.8 x push (V29), Olympic 6 sets a week (clean pull Mon, snatch pull Thu, class power table), every WOD station has reps or
-calories for its format. The cardio test is on the aerobic day (same protocol at both ends). Days run 47-68 min (Mon warned).
-
-**05 - Bootcamp (ES).** A 42-year-old general-population client, 1 year of training, 3 circuit days x 45 min, outdoor kit + DBs + KBs
-(no barbell, no machines). `fat_loss_bootcamp.3` (OT06): two circuits a day, 3 rounds, 15 s transitions, 90 s between rounds. The
-circuit now climbs every week by the planned steps: work 35 36 37 38 40 42 44 46 s (D-72; it used to jump in 5-s lumps). Each day
-keeps a metabolic station; the second calf station and duplicate isolations are cut first. Circuits are no longer floor exempt: what
-3 x 45 min cannot hold (glutes, side delts, biceps, triceps, calves) is named with the offer of a 4th day. Reported sets (a round =
-1 set): 75 a week. No barbell-named records in a DB-only kit; equipment gaps shown by name (pull-up bar, TRX). Days run 42-50 min
-(Wednesday reaches 50 and carries `warning.long_day`). Tests: body weight / measurements in weeks 1 and 8.
-
-**06 - Full-body aesthetics (EN).** A 29-year-old, 3 years of training, 4 full-body days x 75 min + optional Wed / Sat, full gym,
-priorities glutes and side delts. Level L3 (PROPOSED). `aesthetics.4` (OT01). The L3 starts (20-26 sets) cannot fit 75 minutes, so
-the stairway was sized to the minutes: non-priority duplicate isolation groups (a second curl / pushdown day) left the week so the
-priorities have room. Main sets wk1 -> wk12: side delts (priority) 11 -> 18, glutes (priority) 10.75, quads 14, hamstrings 12.5,
-chest 8 -> 9, back 8, rear delts 8 -> 10, calves 12; total 89 -> 99. Days run 70-82 min (limit 82.5); the optional days hold their 2
-Focus slots (hip thrust machine, reverse hyper / side raises). MAX only on the last small exercise once the plan is at 2 in the tank;
-no Nordic as a filler; the non-axial hinge day uses a DB hinge. Header: "Muscle & physique" (not competitive NPC). Named up front:
-floor misses (chest, back, biceps, triceps), lowered starts, offer of a 5th day. No tests (not ticked). Still open: the stance swap
-toward bilateral lifts by block (V28 warns 0.58 vs 0.9).
-
-**07 - Push / pull / legs (EN).** A 24-year-old, 4 years of training, 6 days x 75 min, priorities chest and back, heavier-compound
-preference. `aesthetics.6` / `ppl_x2` (OT03). Main sets wk1 -> wk12: chest (priority) 16.5 -> 21.5, back (priority) 18 -> 21, quads
-13 -> 14, hamstrings 12.75 -> 14, glutes 11.5 -> 13, biceps 12.5 -> 14.25, triceps 10 -> 11, side delts 5 -> 6, rear delts 8 -> 11,
-calves 6; total 102 -> 118 (largest rise 4.4 %). Every day opens with a bilateral barbell work lift (incline bench, row, high-bar
-squat, bench, row, RDL); tests and heavy work get 3-6 min rest; block changes never move to assisted dips or a machine. Days run
-63-75 min. Tests: 3RM or work up to 1RM on the same three lifts in weeks 1 and 12 (4 years of training: not "from zero"). Named up front: side delts and calves under
-10, lowered starts.
-
-**08 - Pickleball, stay athletic and active (EN, bonus).** A 52-year-old recreational player (plays Wed / Sat / Sun), half a year of
-lifting, mild right-knee pain worse with deep knee bends, 2 gym days x 45 min (Mon / Thu) + optional Friday, basic gym. Profile
-`rec_pickleball` + 50+ overlay, level L1, `athletic.2` (OTACT "Stay Athletic & Active"). The sessions now fit: Monday 50 and
-Thursday 43-49 min for the 45 picked (they ran ~80) - one athletic piece a day (rotational medball scoops Monday, low box jumps
-Thursday), one light Olympic piece (mid-hang clean pull 2 x 3), the two core exercises alternate (one rotational / anti-rotation),
-knee and Achilles care on both leg days (bent-knee soleus raise, tibialis raise), shoulder care on the optional day. Knee pain: step-ups
-and machines, no deep squats or depth drops, the share shifted toward single-leg work. Main sets wk1 -> wk12: hamstrings 3 -> 4,
-calves (profile priority) 9 -> 11, the leg extension / leg curl enter at 1 set and climb; total 20 -> 23; compounds 12-15 reps in
-block 1, 8-12 after. The optional Friday (before two play days) holds upper-body / core work and the Orange session only. Named up
-front, honestly: two 45-min days cannot hold 10 sets for glutes, chest, back, arms or side delts, rear delts climb by load, Monday
-runs 50 min; the offer is a 3rd training day. No tests (not ticked).
+How to read the numbers: weekly sets are counted the coach's way on the **FOCUS groups** (hips = glutes + hamstrings; shoulders = front +
+side + rear delts; a set counts once for its group; helpers 1/4; dips 1/2 + 1/2; jumps, throws, sprints, swings and Olympic lifts never
+count). "wk1 -> wkN" is the first and the last week of the first stairway, all days (main days carry the floor and the stairway; the
+optional days hold their own Focus / bonus slots). Minutes are the engine's estimate (work + rest by rest class, supersets sharing the
+rest); a day may run to minutes x 1.1 (`time_fit.fit_factor`), a test day longer (it says so).
 
 ---
 
-## Questions for the coach (round 3), from reading these plans
+### 01 - Swimming (EN)
 
-1. **Minutes vs. volume.** The engine now keeps the client's minutes, lowers the starts so the stairway still climbs, names the muscles
-   under 10 sets and offers longer sessions or one more day (01, 04, 05, 06, 08). Is that the right default, or should a stay-active
-   client (08) get a 3rd day by default when 2 x 45 cannot hold the floor?
-2. **Opposite-pattern pairing for athletes (UNI-06) vs. knee + pull / hip + push (ORD-06).** `athletic.3` pairs the squat day's
-   single-leg slot with a pull; switching it to a single-leg hinge breaks the pairing. Which wins? (REVIEW_LOG R01-5.)
-3. **Bilateral share by block.** Field athletes at 20 % bilateral and physique clients moving to 80-90 % bilateral need a stance swap
-   at block boundaries; today the counted squat / deadlift keep the field plans near 50 %. Swap the counted lifts to split stance, or
-   accept ~50 %?
-4. **Athletic budgets** are now doses (D-73). Confirm the 04 weekly numbers are targets for the gym plan (e.g. soccer 120-160 cuts).
-5. **Credit-only arms for competitive field athletes** (D-03 revised): keep, or target arms for athletes too (R3-VOL-01)?
-6. **Spanish:** 861 machine-translated lines are listed in `model/i18n/es_review.json` for approval (plus the review's wording notes:
-   "tirón" for Olympic pulls, "flexión de brazos" for push-ups).
+**Who:** 16-year-old high-school swimmer (200 free / 100 fly, middle distance), 2 years of training, 145 lb, off-season dryland,
+3 gym days x 60 min (Mon / Wed / Fri) + optional Saturday, full gym, 12 weeks to the season (2027-02-01), tests strength + jumps,
+guardian release.
+
+**Key decisions:** profile `swimming_middle` + youth overlay, level L2, `athletic.3` (OT11 "Athletic Off-Season"). R3-ATH-01 dryland
+defaults: 0 extra cardio (the pool is the cardio), shoulder care every session at 1 set without bands (side-lying external rotation,
+floor Y / T, KB face pull), Olympic work 3 days (hang power clean, single-arm DB snatch, mid-hang clean pull) climbing 6 -> 8 sets a
+week, jumps mostly ballistic, Receive-Create stage 1 -> 2 -> 3 by exercise block. Work lifts: DB deadlift (Wed), hex-bar deadlift (Fri;
+the strength test lift: a 3-or-5-rep max for a minor, never a 1RM from zero). Pulls outnumber presses (swimmer pull ratio).
+
+**Weekly sets by group (wk1 -> wk12):** hips 12 -> 15 · back 12 -> 14 · shoulders 12 -> 16.25 · biceps 3 -> 3.5 · triceps 0.5 · quads,
+chest, calves 0. Main-day total 28 -> 35 (largest weekly rise 3.1 %).
+
+**Athletic budget (planned vs the profile's target):** week 1 - 14 jump contacts (+ 20 ankle contacts, 12 push-up contacts) vs 37,
+36 throws vs 35, 6 Olympic sets vs 5; peak (week 11) - 16 jumps + 28 ankle vs 46 + 27, 40 throws vs 45, 8 Olympic sets vs 8; plyo share
+33 % (target 25 %, the ankle work carries it). The plan says the sessions hold about 58 % of the sport's weekly jump contacts.
+
+**Time fit:** 3 x 60 cannot hold the full plan (needs ~115 min). Main days 51-66 min (limit 66), supersets marked Mon / Wed / Fri; test
+days in week 12 run 72 (Mon) and 78 min (Fri, deadlift work-up) and say so; the optional Saturday holds 21-26 min (seal row, hip
+thrust, a side raise added late). Offers: a 4th day of about 80 min, or 115-min sessions.
+
+**Not trained directly and why:** quads, chest, calves - time (no squat, no chest press is left: the plan says "not trained in this plan
+because of time ... add a day or longer sessions to train them"); biceps, triceps - credit only (field athlete, R3-VOL-01).
+
+### 02 - Football (EN)
+
+**Who:** 20-year-old college linebacker (230 lb), 3 years of lifting, off-season after the bowl season, 4 days x 90 min (Mon / Tue /
+Thu / Fri) + optional Wed / Sat, full gym + platform, bumpers, hurdles and field space, 12 weeks, tests strength + speed / agility +
+jumps.
+
+**Key decisions:** `football_big_skill`, level L3, `athletic.4` (OT11), cross pattern, field-athlete cap 12 + 2 core (hard). Work lifts:
+front squat (Mon), rear-foot-on-wall RDL (Tue), split squat (Thu), stiff-leg deadlift (Fri); loaded presses (incline bench, bench,
+strict press); Olympic every main day (power clean, squat snatch, power clean & jerk, power snatch) climbing 8 -> 12 sets. Speed and
+change of direction before lifting, receiver-route drills only because this is football. Tests in weeks 1 and 12: front squat, bench,
+RDL (a 3-year athlete tests for real), 10-30 m sprint and 5-10-5 on Monday, the jump test on Thursday (B4: no longer stacked on Monday).
+
+**Weekly sets by group (wk1 -> wk12):** quads 18 -> 20 · hips 23.5 -> 28 · back 16 -> 18 · chest 10 -> 13 · shoulders 11.5 -> 16.25 ·
+calves 18 -> 21 · biceps 4 -> 4.5 · triceps 8.5 -> 9.5. Main-day total 78 -> 96 (largest weekly rise 4.6 %).
+
+**Athletic budget:** week 1 - 66 jump + 42 ankle contacts vs 105 + 60, 84 throws vs 70, 80 cuts vs 80, 120 m of sprints vs 300, 8 Olympic
+sets vs 8; peak (week 11) - 90 jump (66 reactive) + 50 ankle vs 145 + 91, 108 throws vs 110, 96 cuts vs 100, 240 m vs 400, 12 Olympic sets
+vs 12; plyo share 47 %. The plan says the sessions hold about 59 % of the sport's jump contacts.
+
+**Time fit:** 4 x 90 cannot hold the full plan's peak (needs ~100 min): every group stays trained, hips and calves at a lower peak.
+Main days 73-99 min (limit 99), optional days 52-62 min; test days: Monday 107 (week 1) and 125 min (week 12), Tuesday 102 (week 12), told.
+Offers: a 5th day, or 100-min sessions.
+
+**Not trained directly and why:** biceps, triceps - credit only (field athlete; the optional days still hold a Tate press and a
+pushdown).
+
+### 03 - Soccer (ES)
+
+**Who:** 22-year-old semi-pro midfielder (165 lb), 2 years of lifting, 3 days x 75 min (Mon / Wed / Fri) + optional Saturday, full gym
++ field kit, season in 10 weeks (2026-12-21), 8-week plan, tests speed / agility + jumps, Spanish output.
+
+**Key decisions:** `soccer`, level L2, `athletic.3`; the season shape is a 6-week off-season stairway + the first 2 pre-season weeks
+(about 60 % of the sets, more speed and power; `warning.v6_season`); rep phase VOL2 (late off-season). Work lifts: flipped hex-bar
+squat (Mon), single-KB deadlift (Wed), conventional deadlift (Fri); Olympic pulls (high-hang clean pull Mon, high-hang snatch pull Wed).
+Two aerobic sessions (Tue / Thu, the client's own tools). Tests in weeks 1 and 6: 10-30 m sprint + 5-10-5 on Monday, the jump test on
+Wednesday (B4).
+
+**Weekly sets by group (wk1 -> wk6):** quads 11 -> 13 · hips 17.25 -> 19.75 · back 10 -> 11 · chest 10 -> 12 · shoulders 11 -> 12.25 ·
+biceps 2.5 -> 2.75 · triceps 2 -> 2.25 · calves 0. Main-day total 50 -> 58 (largest weekly rise 5.5 %); pre-season weeks 7-8: 36 sets.
+
+**Athletic budget:** week 1 - 10 reactive jumps + 46 ankle contacts vs 120 + 50, 10 throws vs 20, 54 cuts vs 120, 120 m vs 400, 4 Olympic
+sets vs 2 (the profile's minimum dose on 2 exposures); peak (week 5) - 12 + 100 vs 160 + 111, 20 throws vs 40, 72 cuts vs 160, 200 m vs
+600, 6 Olympic sets vs 6; plyo share 85 % (the ankle work carries it). The plan tells the client the sessions hold 41 % of the jump
+contacts, 50 % of the throws, 45 % of the cuts and 33 % of the sprint metres.
+
+**Time fit:** 3 x 75 cannot hold the full plan (needs ~100 min): quads, hips and back at a lower peak. Main days 57-81 min (limit 82.5),
+optional Saturday 42-51 min; test Mondays 94 / 97 min, told. Offers: a 4th day, or 100-min sessions.
+
+**Not trained directly and why:** calves - time (they still get compound credit); biceps, triceps - credit only (field athlete).
+
+### 04 - CrossFit-style class (EN)
+
+**Who:** 35-year-old CrossFit-style class member (170 lb) who wants to stay athletic and active, 2 years, 4 days x 60 min (Mon / Tue /
+Thu / Fri) + a WOD-only Saturday, box kit (barbell + bumpers, KB, medball, slam ball, boxes, rings, rope, cardio machines), 8 weeks,
+tests strength + cardio.
+
+**Key decisions:** class model `hybrid_crossfit.4` / `crossfit_style_bootcamp` (OTCFB): each day is warm-up + skill, core, the class's
+power piece, the strength lift, accessories, the WOD (held at 10 min on the lift days to make room; the WOD-only Saturday climbs
+20 -> 30 min). **B4 (E-64, PROPOSED):** the
+class's work lifts are never removed by the time check - Monday front squat + mid-hang clean pull, Tuesday high-incline strict press,
+Thursday conventional deadlift + mid-hang snatch pull, Friday Yates row (titled "Pull day": the class's Olympic budget, 5-7 sets at 3 a
+piece, keeps 2 of the 3 pieces). A group the time check does not train directly keeps its class lift at 3 sets, 7 -> 4 reps with more
+weight (HALF TIME table). Tests in weeks 1 and 8: front squat, incline bench, deadlift (3RM or work up to 1RM) and the 1-mile run on the
+aerobic Wednesday.
+
+**Weekly sets by group (wk1 -> wk8):** back 12 -> 16 · chest 10 -> 13 · shoulders 6.5 -> 7.25 · hips 3.75 · quads 3 · biceps 3 -> 4 ·
+triceps 2.25 -> 2.5 · calves 0. Main-day total 31 -> 38 (largest weekly rise 5.6 %).
+
+**Athletic budget:** Olympic only - 6 sets a week (target 5 -> 7); no plyo budget (the WOD's jumps and ball work are not muscle sets).
+
+**Time fit:** 4 x 60 cannot hold the full plan (needs ~115 min). Main days 49-66 min (limit 66), WOD-only Saturday 54-64 min; test days
+67-76 min, told. Offer: a 5th day of about 75 min (longer sessions above 90 min are for competitive athletes).
+
+**Not trained directly and why:** quads, hips, shoulders - their class lift stays (front squat, deadlift, strict press: 3 sets, heavier
+by the week, no extra sets); biceps, calves - time (compound credit from rows / pull-ups and the WOD); triceps - no station on the main
+days.
+
+### 05 - Bootcamp (ES)
+
+**Who:** 42-year-old general-population client (160 lb), 1 year of training, 3 circuit days x 45 min (Mon / Wed / Fri), outdoor kit +
+dumbbells + kettlebells (no barbell, no machines), 8 weeks, test: body weight / measurements, Spanish output.
+
+**Key decisions:** `fat_loss_bootcamp.3` (OT06): two circuits a day, 3 rounds, 15 s transitions, 90 s between rounds; the circuit climbs
+by work seconds every week (35 -> 46 s) at the same stations; resistance stations follow the planned 3 -> 1 reps left at the bell. One
+medball station a week (overhead throw) and a KB swing are the ballistic stations (never muscle sets); **B4:** the ball's throws share the
+week's target (18 -> 39 a week; they used to start at 33). Three aerobic days (Tue / Thu / Sat) with the client's own tool.
+
+**Weekly sets by group (wk1 -> wk8; a round = 1 set):** quads 12 · hips 12 · back 12 · chest 12 · shoulders 15 · calves 9 · biceps 3 ·
+triceps 3.75 (sets stay, the work per station climbs 35 -> 46 s). Total 63 a week.
+
+**Athletic budget:** throws 18 vs 20 (week 1) -> 39 vs 40 (week 7).
+
+**Time fit:** 3 x 45 cannot hold every group (needs ~50 min). Circuit days 38-47 min (limit 49.5). Offers: a 4th day, or 50-min
+sessions.
+
+**Not trained directly and why:** biceps, triceps - time (they still get compound credit from rows and presses). Optional upgrade named
+up front: a pull-up bar or a suspension trainer.
+
+### 06 - Full-body aesthetics (EN)
+
+**Who:** 29-year-old (150 lb), 3 years of training, 4 full-body days x 75 min (Mon / Tue / Thu / Fri) + optional Wed / Sat, full gym,
+Focus muscles glutes and side delts (the shoulders line), 12 weeks, no tests.
+
+**Key decisions:** `aesthetics.4` (OT01) A1 / B1 / A2 / B2, same pattern, level L3 (PROPOSED rule: 3+ years and 4+ days). Focus +2 on
+glutes and shoulders; the first shoulder isolation opens the day (priority small muscle first). Work lifts: high-bar back squat, barbell
+hip thrust (12 / 10 / 8 / 8 / 20 pyramid decided per block), leg press, hex-bar deadlift. MAX / MYO only in the last week (one MYO a day
+on the last small-muscle or machine exercise). The optional days hold the Focus / bonus slots (reverse hyper, hip thrust machine,
+pushdown and curl added late).
+
+**Weekly sets by group (wk1 -> wk12):** quads 14 -> 18 · hips 26 -> 31.75 · back 11 -> 17 · chest 12 -> 18 · shoulders 23.25 -> 30.5 ·
+biceps 12.75 -> 20.25 · triceps 11.75 -> 18.25 · calves 18 -> 20. Main-day total 103 -> 137 (largest weekly rise 5.3 %).
+
+**Athletic budget:** none (aesthetics; medball only in the warm-up).
+
+**Time fit:** every group trained directly; 4 x 75 holds a lower peak for every group but shoulders (needs ~100 min at the full plan's
+peak). Main days 62-82 min (limit 82.5), optional days 49-67 min, supersets marked on the four main days. Offer: a 5th day of about
+80 min.
+
+**Not trained directly:** none.
+
+### 07 - Push / pull / legs (EN)
+
+**Who:** 24-year-old (195 lb), 4 years of training, 6 days x 75 min push / pull / legs twice, Focus chest and back, prefers heavier
+powerlifting-style compounds, full gym, 12 weeks, tests strength.
+
+**Key decisions:** `aesthetics.6` / `ppl_x2` (OT03), level L3. Every day opens with a bilateral barbell lift (incline bench, bent-over
+row, front squat, bench, Yates row, hex-bar deadlift); two-arm presses all plan; tests (3RM or work up to 1RM) on the incline bench,
+front squat and hex-bar deadlift in weeks 1 and 12. **B4 (E-77):** the time check's cuts now come off the most loaded day, so both Pull
+days keep rows + pulldowns (Pull 1 takes the biceps pair, Pull 2 the rear delts) and both Push days hold 7 exercises (the second pull
+day had lost its pulldowns, rear delts and biceps and ran 40 of 75 min).
+
+**Weekly sets by group (wk1 -> wk12):** quads 13 -> 15 · hips 15.75 -> 18 · back 18 -> 21 · chest 16.5 -> 21 · shoulders 17 -> 23 ·
+biceps 10.5 -> 13.25 · triceps 10 -> 12.25 · calves 7 -> 8. Main-day total 92 -> 113 (largest weekly rise 6.6 %).
+
+**Athletic budget:** none.
+
+**Time fit:** every group trained directly at a lower peak (6 x 75 needs ~110 min a day at the full plan's peak; no 7th day, and
+sessions over 90 min are for competitive athletes). Days 62-75 min; test days in week 12 run 84-85 min, told. The only offer: keep
+6 x 75 with a lower peak.
+
+**Not trained directly:** none.
+
+### 08 - Pickleball, stay athletic and active (EN, bonus)
+
+**Who:** 52-year-old recreational pickleball player (180 lb), plays Wed / Sat / Sun, half a year of lifting, mild right-knee pain
+worse with deep knee bends, 2 gym days x 45 min (Mon / Thu) + optional Friday, basic gym, 12 weeks, no tests.
+
+**Key decisions:** profile `rec_pickleball` + 50+ racket rules (R3-ATH-02: knee-friendly strength, calf / Achilles care every leg day,
+rotator-cuff work, low-impact jumps only), level L1, `athletic.2` (OTACT "Stay Athletic & Active"). Knee pain: no deep knee bends, hinge
+work instead (rear-foot-on-wall RDL, alternating staggered DB deadlift, leg curls). One light Olympic piece (high-hang clean pull 2 x 3),
+rotational medball scoops, low box jumps (stage 1) -> ankle hops, two core exercises a day. Joint care: soleus
+raise (Mon), tibialis raise (Thu); **B4 (E-75):** the optional Friday now holds the rotator-cuff work (side-lying external rotation)
+next to the racket-elbow wrist extension - before, the elbow care took every arm-care slot. Compounds 12-15 reps in block 1, 8-12 after.
+
+**Weekly sets by group (wk1 -> wk12):** hips 10 -> 12 · calves 8 -> 9 · biceps 2 · triceps 2 (optional day) · quads, back, chest,
+shoulders 0. Main-day total 16 -> 19.
+
+**Athletic budget:** week 1 - 8 jump contacts vs 7 (+ 35 ankle contacts the stations cannot hold), 36 throws vs 51, 2 Olympic sets vs 4;
+week 12 - 10 contacts vs 9, 40 throws vs 69, 2 Olympic sets vs 8 (the stay-active light piece). The plan says the sessions hold about
+12 % of the sport's contacts (with ankle work) and 58 % of its throws.
+
+**Time fit:** 2 x 45 cannot hold the full plan (needs ~105 min a session); main days 43-49 min (limit 49.5), supersets marked Mon / Thu;
+the optional Friday runs about 60 min with its aerobic session (told: do the aerobic part at another time). Offer: a 3rd day of about
+65 min.
+
+**Not trained directly and why:** quads, back, chest, shoulders - time: the plan says "not trained in this plan because of time ... add a
+day or longer sessions to train them" (B4: it used to claim they still get compound work, but no row or press is left); biceps, triceps -
+no station on the main days (the optional day holds a curl and a kickback).
+
+---
+
+## Questions for the coach (from reading these plans, v0.4)
+
+1. **Class lifts (04, E-64, PROPOSED).** A CrossFit-class group the time check does not train directly keeps the day's class lift (3 sets,
+   heavier by the week, no extra sets) instead of losing the lift. Right, or should the class's squat / deadlift / press be fully trained
+   groups below the floor?
+2. **Short schedules lose whole groups (01, 08).** The swimmer at 3 x 60 trains hips, back and shoulders (no squat, no chest press); the
+   pickleball player at 2 x 45 trains hips and calves (no row, no press). This follows your approved order (fewer groups, big movers first,
+   sport priorities first). Should a stay-active or field plan always keep one squat, one push and one pull (below the floor), or push the
+   extra day harder?
+3. **30-minute sessions.** In the random sweep, 30-minute plans often hold no group at 10 sets (warm-up, core and the athletic / Olympic /
+   WOD blocks fill the session). Offer 30 minutes only for circuits and aerobic plans?
+4. **Test days run long** (02 Monday 107 / 125 min for 90 with the squat test, the sprint and the 5-10-5). Put the speed / agility tests on
+   the optional day?
+5. **Athletic budgets** stay below the sport's weekly numbers on short schedules (01, 03, 08: told as a %); confirm the 04 numbers are
+   full-time targets.
+6. **Spanish:** 843 machine-translated lines are listed in `model/i18n/es_review.json` for approval (all new B4 lines are PROPOSED too).

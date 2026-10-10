@@ -1,8 +1,8 @@
 {
  "schema": "compile_report/1",
- "model_version": "1.2.0",
+ "model_version": "1.3.0",
  "contracts_version": "1.1.0",
- "spec_version": "1.1.0",
+ "spec_version": "1.2.0",
  "counts": {
   "source_records": 939,
   "kept": 731,
@@ -23,15 +23,15 @@
   "templates_total": 30,
   "templates_built": 29,
   "templates_unbuilt": 1,
-  "template_variants": 7,
-  "stations": 1823,
+  "template_variants": 9,
+  "stations": 1798,
   "profiles": 127,
   "sports_in_picker": 52,
   "activities": 26,
-  "en_keys": 2260,
-  "es_keys": 2260,
+  "en_keys": 2595,
+  "es_keys": 2595,
   "es_missing": 0,
-  "es_machine_translated": 861,
+  "es_machine_translated": 843,
   "coach_patches": 16,
   "coach_patch_record_changes": 35
  },
@@ -404,19 +404,30 @@
  ],
  "i18n": {
   "es_by_source": {
-   "architect_wordlist": 856,
-   "b1_machine_translation": 861,
-   "profiles_04": 384,
-   "spec": 159
+   "architect_wordlist": 1250,
+   "b1_machine_translation": 806,
+   "profiles_04": 383,
+   "spec": 156
   },
   "machine_translated_by_namespace": {
    "day": 140,
-   "exercise.cue": 70,
-   "exercise.name": 599,
+   "exercise.cue": 63,
+   "exercise.name": 588,
    "profile.name": 52
   },
   "missing_keys": [],
   "unused_translation_rows": [
+   "exercise name: Box Squat - any variation, dead-stop ('Deload' = sit and unload on the box)",
+   "cue: Hold the DBs (or a barbell), take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.",
+   "cue: Counts 0.5 chest + 0.5 triceps ('more tricep than chest but still .5 and .5'); program it on a push day as a push exercise.",
+   "cue: No axial (spinal) load: swap in when the athlete already loaded the back that week or is sore.",
+   "cue: Lat pull-over on a cable machine (the coach's 'pull under').",
+   "cue: No ball needed: mimic the slam and the catch / return 'any way possible' - the coach's no-medball substitute for slams.",
+   "cue: Use if the gym has one and the client feels the right muscles (hamstrings / glutes).",
+   "cue: No ranking: 'if the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.",
+   "cue: Constrained, no axial (spinal) load: the default second squat-pattern lift of the week (PER-04).",
+   "cue: Use if available and the client feels the right muscles.",
+   "cue: Less constrained than a hack squat or leg press (EQ-11).",
    "day label: A - squat + pull (axial squat)",
    "day label: B - deadlift + push (axial hinge)",
    "day label: A1 - squat + pull (axial squat)",
@@ -603,7 +614,7 @@
   ],
   "en_keys_added": [],
   "es_fixture_values_changed": [],
-  "es_keys_added": 861
+  "es_keys_added": 806
  },
  "dropped": [
   {
@@ -1650,10 +1661,7 @@
  "validation": {
   "errors": [],
   "warnings": [
-   "cross-check X04 mismatch (12_volume_algorithm_v1.json: stairway.by_N for N = 4, 6, 8, 10, 12, 16 (halfway, 3 % / 5 % steps, growth, 2 -> 11 display level, planned RIR)): N=16 planned_effort w12 2 vs 1-2 RIR",
-   "check-fixture: fat_loss_bootcamp.3/main/BC1: group chest has 1 always-on station (R2-SES-05 needs 2-4; check include_from_minutes)",
-   "check-fixture: fat_loss_bootcamp.3/main/BC3: group shoulders has 1 always-on station (R2-SES-05 needs 2-4; check include_from_minutes)",
-   "check-fixture: fat_loss_bootcamp.3/main/BC3: group chest has 1 always-on station (R2-SES-05 needs 2-4; check include_from_minutes)"
+   "cross-check X04 mismatch (12_volume_algorithm_v1.json: stairway.by_N for N = 4, 6, 8, 10, 12, 16 (halfway, 3 % / 5 % steps, growth, 2 -> 11 display level, planned RIR)): N=16 planned_effort w12 2 vs 1-2 RIR"
   ]
  }
 }

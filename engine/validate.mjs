@@ -1,7 +1,13 @@
-// engine/validate.mjs - plan validation (engine/CONTRACTS.md §4.9, §6). Owner: B4.
+// engine/validate.mjs - plan validation (engine/CONTRACTS.md §4.9, §6). Owner: B4; v0.4 stage B1 (round 3).
 // Pure: reads only the plan and the model; recomputes credits, weekly sets, stairway steps and group counts on its own
 // (an independent cross-check of B2 / B3, never a call into their modules). Every number / list comes from model.rules.
+// v0.4: the floor (V22 / H17) and the climb (H21) are read on the coach's FOCUS groups with group credit (R3-VOL-01, R3-SES-01);
+// a warning never exempts a trained group - a group the time check leaves to compound credit must be listed in
+// plan.time_check.not_trained_directly and must not be trained directly (R3-SES-02); H22 = planned stairway only (no check-ins,
+// R3-VOL-02 / R3-VOL-04); a rep-max test is a top-set item that counts no muscle sets (R2-PER-07).
 import { EPS, forbiddenKeys, canonicalJSON, clamp } from './util.mjs';
+import { linesOf, groupCredits } from './timefit.mjs';
+import { olympicAboveCeiling, perSetBounds, olympicVariantByDay } from './athletic.mjs';
 
 /** check ids in run order */
 export const CHECK_IDS = Object.freeze([
@@ -133,8 +139,21 @@ function context(plan, model) {
     circuitPlan: weeks.some(w => !!w.circuit),
     hasWarning: (key, pred) => warnings.some(x => x && x.key === key && (!pred || pred(x.args || {}))),
     dayRows: (w, d) => byDay.get(w.n + '|' + d.weekday) || [],
-    stairN: (w) => { const tb = tbs.find(t => t.n === w.training_block); return tb && tb.stair_N ? tb.stair_N : null; }
+    stairN: (w) => { const tb = tbs.find(t => t.n === w.training_block); return tb && tb.stair_N ? tb.stair_N : null; },
+    X: linesOf(model),
+    // groups the time check left to compound credit (reason time) and the sport's credit-only groups; per training block when
+    // the plan has several (plan.time_check.by_block), else the first block's
+    notTrained: (reason, tbN) => tcList('not_trained_directly', tbN).filter(x => !reason || x.reason === reason).map(x => x.group),
+    belowFloor: (tbN) => tcList('trained_below_floor', tbN).filter(x => x.reason === 'work_lift_time' || x.reason === 'circuit_time').map(x => x.group),
+    // v0.4 fix round 2 / F1 (E-143): blocks the time check switched off for the minutes (a stay-active plan's power block; switchable)
+    blockOff: (kind, tbN) => tcList('blocks_off', tbN).some(x => x && x.block === kind)
   };
+  function tcList(key, tbN) {
+    const tc = plan && plan.time_check;
+    if (!tc) return [];
+    const src = (tbN !== undefined && tbN !== null && Array.isArray(tc.by_block) && tc.by_block.find(b => b.training_block === tbN)) || tc;
+    return Array.isArray(src[key]) ? src[key] : [];
+  }
   return c;
 }
 
@@ -145,7 +164,11 @@ function dedupe(vs) {
   const seen = new Set();
   return vs.filter(v => { const k = canonicalJSON(v); if (seen.has(k)) return false; seen.add(k); return true; });
 }
-const isRes = (r) => !!r.ex && ((r.bd && RESISTANCE_KINDS.includes(r.bd.kind)) || r.it.origin === 'bonus');
+const isTestTop = (r) => r.it.role === 'test' && !!r.it.test && r.it.bucket !== 'TEST';
+/** v0.4 fix round 1 (E-91): a rep-max test that replaces the lift's top set carries the lift's credits (its back-off item follows) */
+const testReplaces = (c, r) => !!(c.R.tests && c.R.tests.replaces_top_set) && isTestTop(r) && Object.keys(r.it.credits || {}).length > 0 &&
+  c.dayRows(r.w, r.d).some(x => x !== r && x.it.slot_id + '.test' === r.it.slot_id && (x.it.flags || []).includes('back_off'));
+const isRes = (r) => !!r.ex && !isTestTop(r) && ((r.bd && RESISTANCE_KINDS.includes(r.bd.kind)) || r.it.origin === 'bonus');
 function regionOf(r, R) {
   if (r.bd && r.bd.region) return r.bd.region;
   const m = r.ex && r.ex.primary_muscle;
@@ -155,6 +178,41 @@ function groupOf(r, model) {
   if (r.it.group) return r.it.group;
   return r.ex && r.ex.primary_muscle ? model.groupOf(r.ex.primary_muscle) : null;
 }
+/**
+ * v0.4 fix round 1 / F3 (minimal; E-119, VOL-15 'MYO on the last machine / isolation exercise'): a MYO set may sit on the day's last
+ * item that can carry one - every resistance item after it never takes a MYO (a free-weight compound, a glute bridge / thrust in
+ * rules.effort.intensifiers.never_credit_classes, calves for an Achilles hot spot) - so a day ending on a hip thrust or a protected
+ * calf raise keeps its intensifier on the exercise before
+ */
+function myoLastEligible(r, res, c) {
+  const IN = c.R.effort.intensifiers;
+  if (!IN) return false;
+  const i = res.indexOf(r);
+  if (i < 0) return false;
+  const sport = (() => { try { return c.meta.profile && c.model.hasSport(c.meta.profile.id) ? c.model.sport(c.meta.profile.id) : null; } catch { return null; } })();
+  const hot = new Set((sport && sport.injuries) || []);
+  const could = (x) => {
+    if (!x.ex || x.it.role === 'test' || !x.it.sets) return false;
+    if (x.it.superset) return false; // (fix round 2 / F1, E-158: an item running inside a superset pair never takes the MYO)
+    const rc = repClassOf(x);
+    const never = c.R.effort.never_failure_rep_classes.includes(rc);
+    const isoOrMachine = (x.bd && ['isolation', 'focus'].includes(x.bd.kind)) || x.ex.constraint >= 4;
+    if (!isoOrMachine || (never && rc !== 'machine_stable_compound')) return false;
+    if (never && rc === 'machine_stable_compound') { // the dose's rule: a machine compound takes a MYO only where its matrix cell says so
+      const M = c.R.reps.matrix.machine_stable_compound || {};
+      const cell = M[c.R.reps.goal_column[c.derived.goal] || 'general'] || M.general || {};
+      if (!cell.myo_if_last) return false;
+    }
+    if ((IN.never_credit_classes || []).includes(x.ex.credit_class)) return false;
+    if (x.ex.credit_class === 'ISO_CALF' && (IN.never_calves_hotspots || []).some(h => hot.has(h))) return false;
+    // (fix round 2 / F3 minimal seam, E-193: dose never puts a MYO set on a barbell / axial-high lift, a Nordic curl or a sissy squat)
+    if ((IN.never_tags || []).some(t => (x.ex.tags || []).includes(t))) return false;
+    if (IN.never_id_re && new RegExp(IN.never_id_re).test(x.ex.id)) return false;
+    return true;
+  };
+  return res.slice(i + 1).every(x => !could(x));
+}
+
 function repClassOf(r) {
   const bd = r.bd, ex = r.ex;
   if (!bd) return null;
@@ -267,7 +325,7 @@ function v5Older(c) {
   }
   if (older) {
     if (!c.hasWarning(P.warning_key)) out.push(viol({}, k, { rule: 'older_warning_missing' }));
-    for (const w of c.weeks) for (const [m, s] of Object.entries(w.step_by_muscle || {})) if (typeof s === 'number' && s > P.step_cap + EPS) out.push(viol({ week: w.n }, k, { rule: 'older_step_cap', muscle: m, step: s }));
+    if (!c.R.stairway.limits.older_cap_retired) for (const w of c.weeks) for (const [m, s] of Object.entries(w.step_by_muscle || {})) if (typeof s === 'number' && s > P.step_cap + EPS) out.push(viol({ week: w.n }, k, { rule: 'older_step_cap', muscle: m, step: s }));
     for (const tb of c.tbs) {
       if (tb.type !== 'maintenance' || !tb.factor) continue;
       const f = typeof tb.factor === 'number' ? tb.factor : (typeof tb.factor.factor === 'number' ? tb.factor.factor : tb.factor.value);
@@ -290,13 +348,12 @@ function v7NoEquipment(c) {
 }
 
 function v8Priorities(c) {
+  // Focus muscle 1 / 2 (R3-SES-01): at most 2 slots; v_taper takes both
+  const FO = c.R.volume.focus || { max: c.R.volume.priority.max_muscles, uses_both_slots: [] };
   const pr = c.targets.priority || [];
-  const max = c.R.volume.priority.max_muscles;
-  const vt = c.R.volume.priority.intake_map.v_taper || [];
-  // the intake choices when the plan carries them (Derived.priority_choices: v_taper = 1 choice); else infer from the muscles
-  const choices = Array.isArray(c.derived.priority_choices) ? c.derived.priority_choices.length
-    : (vt.length && vt.every(m => pr.includes(m)) ? pr.length - vt.length + 1 : pr.length);
-  return choices > max ? [viol({}, 'check.v8_priorities', { count: choices, max })] : [];
+  const choices = Array.isArray(c.derived.priority_choices) ? c.derived.priority_choices : pr;
+  const slots = choices.reduce((a, x) => a + ((FO.uses_both_slots || []).includes(x) ? 2 : 1), 0);
+  return slots > FO.max ? [viol({}, 'check.v8_priorities', { count: slots, max: FO.max })] : [];
 }
 
 function v9Bands(c) {
@@ -315,7 +372,7 @@ function v10Spine(c) {
   const out = [], k = 'check.v10_spine', A = c.R.axial;
   for (const w of c.weeks) {
     const counted = { squat: [], hinge: [] };
-    for (const r of c.rows.filter(x => x.w === w && x.ex && x.ex.axial)) {
+    for (const r of c.rows.filter(x => x.w === w && x.ex && x.ex.axial && !isTestTop(x))) {
       if (r.ex.tags.some(t => A.not_counted_tags.includes(t))) out.push(viol(where(r), k, { rule: 'never_counted_tag', exercise: r.ex.id }));
       else if (counted[r.ex.axial_pattern]) counted[r.ex.axial_pattern].push(r);
     }
@@ -352,7 +409,7 @@ function v12Order(c) {
   const out = [], O = c.R.ordering, order = O.block_order;
   const corePos = c.prefs.core_position || c.R.core_block.position_default;
   const priority = c.targets.priority || [];
-  const isPriorityIso = (r) => !!r.ex && r.bd && ['isolation', 'focus'].includes(r.bd.kind) && priority.includes(r.ex.primary_muscle);
+  const isPriorityIso = (r) => !!r.ex && r.bd && ['isolation', 'focus'].includes(r.bd.kind) && (priority.includes(r.ex.primary_muscle) || priority.includes(c.X.lineOf[r.ex.primary_muscle]));
   for (const w of c.weeks) for (const d of w.days || []) {
     const rows = c.dayRows(w, d);
     if (!rows.length) continue;
@@ -381,13 +438,20 @@ function v12Order(c) {
     if (firstStrength) for (const r of rows) if (['athletic', 'power'].includes(r.b.kind) && r.idx > firstStrength.idx) out.push(viol(where(r), K.h03, { rule: 'power_after_strength' }));
     const firstPower = rows.find(r => r.b.kind === 'power');
     if (firstPower) for (const r of rows) if (r.b.kind === 'athletic' && r.idx > firstPower.idx) out.push(viol(where(r), K.h03, { rule: 'athletic_after_olympic' }));
+    // v0.4 fix round 2 / F1 (E-151; RECHECK v0.4 05 major: 'max-intent' throws after a full strength circuit passed H03): a ballistic or
+    // throw station of a circuit day comes before the day's circuit strength stations - it opens the first circuit
+    const circRows = rows.filter(r => r.b.kind === 'circuit');
+    const firstCircStrength = circRows.find(r => r.bd && RESISTANCE_KINDS.includes(r.bd.kind));
+    if (firstCircStrength) for (const r of circRows) if (r.it.athletic && ['ballistic', 'throw'].includes(r.it.athletic.quality) && r.idx > firstCircStrength.idx) out.push(viol(where(r), K.h03, { rule: 'circuit_power_after_strength' }));
     // horizontal before vertical (D-30: exempt when the vertical item is the work)
     for (const [hb, vb] of HV_PAIRS) {
       const h = rows.find(r => r.it.bucket === hb), v = rows.find(r => r.it.bucket === vb);
-      if (h && v && v.idx < h.idx && v.it.role !== 'work') out.push(viol(where(v), K.h04, { horizontal: hb, vertical: vb }));
+      // (a strength test is its lift's top set: it takes the lift's role - v0.4 fix round 1, E-91: the class model tests its press)
+      const roleOf = (r) => (isTestTop(r) ? ((rows.find(x => x.it.slot_id === String(r.it.slot_id).replace(/\.test$/, '')) || r).it.role) : r.it.role);
+      if (h && v && v.idx < h.idx && roleOf(v) !== 'work') out.push(viol(where(v), K.h04, { horizontal: hb, vertical: vb }));
     }
     // the work first (or the moved priority isolation)
-    const strength = rows.filter(r => r.b.kind === 'strength');
+    const strength = rows.filter(r => r.b.kind === 'strength' && !isTestTop(r)); // a test top set sits right before its lift
     const conjugate = c.R.session.exercises_per_group.exempt_families.includes(c.family); // conjugate days stay as written
     if (!conjugate && strength.some(r => r.it.role === 'work') && strength[0].it.role !== 'work' && !isPriorityIso(strength[0])) out.push(viol(where(strength[0]), 'check.v12_order', { rule: 'work_first', role: strength[0].it.role || 'none' }));
     // bilateral before unilateral (lower region) unless the unilateral lift is the work; days without a work lift are
@@ -397,7 +461,7 @@ function v12Order(c) {
     // MYO only on the day's last resistance item
     const res = rows.filter(isRes);
     const lastRes = res.length ? res[res.length - 1] : null;
-    for (const r of rows) if (r.it.effort && r.it.effort.last_set === 'myo' && r !== lastRes) out.push(viol(where(r), 'check.v12_order', { rule: 'myo_not_last' }));
+    for (const r of rows) if (r.it.effort && r.it.effort.last_set === 'myo' && r !== lastRes && !myoLastEligible(r, res, c)) out.push(viol(where(r), 'check.v12_order', { rule: 'myo_not_last' }));
     // core first after the warm-up (and an opening aerobic block)
     const coreIdx = blocks.findIndex(b => b.kind === 'core');
     if (corePos === 'start' && coreIdx > 0 && blocks.slice(0, coreIdx).some(b => !['warmup', 'aerobic'].includes(b.kind))) out.push(viol(whereDay(w, d), K.h05, { rule: 'core_not_first' }));
@@ -414,8 +478,11 @@ function v13Caps(c) {
     return S.exercise_cap_by_minutes[String(key)];
   };
   for (const w of c.weeks) for (const d of w.days || []) {
-    const rows = c.dayRows(w, d).filter(r => !S.outside_cap_blocks.includes(r.b.kind));
+    const rows = c.dayRows(w, d).filter(r => !S.outside_cap_blocks.includes(r.b.kind) && !isTestTop(r));
     let count = rows.length;
+    // v0.4 fix round 1 / F2: the low-amplitude ankle block (low contacts in the ankle bucket) is prep work outside the 12 + 2 count
+    const ABk = c.R.athletic.f2 && c.R.athletic.f2.ankle_block;
+    const ankleRows = ABk && ABk.outside_athlete_cap ? rows.filter(r => r.it.bucket === 'AP_JUMP_LIMITED_KNEE' && r.it.athletic && r.it.athletic.key === 'low_contacts').length : 0;
     if (S.small_iso_superset_counts_as_one) {
       const groups = new Map();
       for (const r of rows) if (r.it.superset && r.bd && r.bd.kind === 'isolation' && r.ex && r.ex.primary_muscle && c.R.muscles.defs[r.ex.primary_muscle] && c.R.muscles.defs[r.ex.primary_muscle].class === 'small') groups.set(r.it.superset, (groups.get(r.it.superset) || 0) + 1);
@@ -424,10 +491,24 @@ function v13Caps(c) {
     const minutes = typeof d.minutes_limit === 'number' ? d.minutes_limit : c.meta.session_minutes;
     // D-34: when the cut order cannot go further (never below 2 per group, never-cut roles) the day is kept and carries
     // warning.long_day - an over-cap day with that warning is the contract's answer, not an error.
-    const warned = ['warning.long_day', 'warning.long_day_optional'].some(key => c.hasWarning(key, a => a.day === d.weekday || a.day === 'weekday.' + d.weekday));
+    const warned = ['warning.long_day', 'warning.long_day_optional', 'warning.test_day_long'].some(key => c.hasWarning(key, a => a.day === d.weekday || a.day === 'weekday.' + d.weekday));
     if (d.full_body === false && ['main', 'optional'].includes(d.kind) && count > capFor(minutes) && !warned) out.push(viol(whereDay(w, d), k, { rule: 'split_day_cap', count, cap: capFor(minutes) }));
-    if (c.family === 'athletic' && count > S.athlete_cap && !warned) out.push(viol(whereDay(w, d), k, { rule: 'athlete_cap', count, cap: S.athlete_cap }));
+    // R2-SES-04 / R3-SES-01: 12 + the 2-exercise core block for field athletes - never excused by a long-day warning (v0.4)
+    if (c.family === 'athletic' && ['main', 'optional'].includes(d.kind) && count - ankleRows > S.athlete_cap && (S.athlete_cap_hard || !warned)) out.push(viol(whereDay(w, d), k, { rule: 'athlete_cap', count: count - ankleRows, cap: S.athlete_cap }));
     if (typeof d.est_minutes === 'number' && typeof minutes === 'number' && d.est_minutes > minutes * S.long_day.warn_above_factor + EPS && !warned) out.push(viol(whereDay(w, d), k, { rule: 'long_day_without_warning', min: d.est_minutes, limit: minutes }));
+  }
+  // v0.4 fix round 1 (E-95; RECHECK 06 major: shoulders 30.5 sets with helper credit, 'validation still passes'): no line's weekly
+  // sets (every day, helper credit included) climb past the Focus / priority absolute ceiling (BRAIN §5.9 guardrails,
+  // rules.volume.priority.absolute_cap 30); a week 1 whose structure already sits above it is not a climb
+  const ABS = c.R.volume.priority && c.R.volume.priority.absolute_cap;
+  if (typeof ABS === 'number') for (const tb of c.tbs) {
+    if (tb.type !== 'stairway') continue;
+    const ws = stairwayWeeks(c, tb).slice().sort((a, b) => a.n - b.n);
+    if (!ws.length) continue;
+    const w1 = ws[0].weekly_sets_by_line || {};
+    for (const w of ws) for (const [l, v] of Object.entries(w.weekly_sets_by_line || {})) {
+      if (typeof v === 'number' && v > ABS + EPS && v > (typeof w1[l] === 'number' ? w1[l] : 0) + EPS) out.push(viol({ week: w.n }, k, { rule: 'line_absolute_cap', muscle: l, sets: v, cap: ABS }));
+    }
   }
   return out;
 }
@@ -440,7 +521,10 @@ function v14Counting(c) {
       continue;
     }
     let expected = c.model.credits(r.ex, r.it.bucket);
-    if (r.ex.tags.some(t => C.never_credit_tags.includes(t))) expected = {};
+    // a test top set is not a stairway set - unless the test replaces the lift's top set (v0.4 fix round 1, E-91: it is one of the
+    // lift's planned sets, the back-off sets follow)
+    if (r.ex.tags.some(t => C.never_credit_tags.includes(t)) || (isTestTop(r) && !testReplaces(c, r))) expected = {};
+    if (r.it.role === 'prehab' && c.R.prehab && c.R.prehab.credits === 'none') expected = {}; // joint care credits nothing (E-89)
     const got = r.it.credits || {};
     if (canonicalJSON(got) !== canonicalJSON(expected)) out.push(viol(where(r), Object.keys(expected).length ? K.h08 : K.h09, { rule: 'credits_mismatch', exercise: r.ex.id, bucket: r.it.bucket }));
     for (const [m, v] of Object.entries(got)) {
@@ -468,7 +552,8 @@ function v15Step(c) {
     const a = c.weeks[i - 1], b = c.weeks[i];
     if (a.block_type !== 'stairway' || b.block_type !== 'stairway' || a.training_block !== b.training_block) continue;
     if (typeof a.total_resistance_sets !== 'number' || typeof b.total_resistance_sets !== 'number') continue;
-    if (!(b.total_resistance_sets < (1 + L.total_weekly_ceiling) * a.total_resistance_sets - EPS)) out.push(viol({ week: b.n }, k, { rule: 'total_rise', from: a.total_resistance_sets, to: b.total_resistance_sets }));
+    // one whole set may always be added in a week (12 v1.2 §3.7.4: a 10-set week could otherwise never climb, PROPOSED)
+    if (!(b.total_resistance_sets < (1 + L.total_weekly_ceiling) * a.total_resistance_sets - EPS) && b.total_resistance_sets > a.total_resistance_sets + 1 + EPS) out.push(viol({ week: b.n }, k, { rule: 'total_rise', from: a.total_resistance_sets, to: b.total_resistance_sets }));
   }
   return out;
 }
@@ -515,7 +600,8 @@ function v17Effort(c) {
         const capOf = (blk && blk.cap) || c.targets.cap || {};
         const atCap = !!m && typeof (w.target_by_muscle || {})[m] === 'number' && typeof capOf[m] === 'number' && w.target_by_muscle[m] >= capOf[m] - EPS;
         const when = w.block_type === 'stairway' && ((N && w.stair_week === N) || (w.phase === 'HARDEST' && atCap));
-        if (r !== lastRes || !isoOrMachine || !when || E.myo.never_in_block_types.includes(w.block_type)) out.push(viol(where(r), k, { rule: 'myo_rule', last: r === lastRes ? 1 : 0, iso_or_machine: isoOrMachine ? 1 : 0, when: when ? 1 : 0 }));
+        const lastOk = r === lastRes || myoLastEligible(r, res, c);
+        if (!lastOk || !isoOrMachine || !when || E.myo.never_in_block_types.includes(w.block_type)) out.push(viol(where(r), k, { rule: 'myo_rule', last: lastOk ? 1 : 0, iso_or_machine: isoOrMachine ? 1 : 0, when: when ? 1 : 0 }));
       }
       if (w.block_type === 'recovery') {
         if (!(e.min >= recoveryMin)) out.push(viol(where(r), k, { rule: 'recovery_rir', min: e.min }));
@@ -524,7 +610,10 @@ function v17Effort(c) {
       if (e.min < band[0] - EPS || e.max > band[1] + EPS) out.push(viol(where(r), k, { rule: 'rir_band', min: e.min, max: e.max }));
       if (!strengthFamily && isRes(r) && w.planned_rir) {
         const lo = Math.max(clamp(w.planned_rir.min, band[0], band[1]), neverFail ? E.compound_floor_rir : band[0]);
-        const hi = Math.max(clamp(w.planned_rir.max, band[0], band[1]), lo);
+        // v0.4 fix round 1 (E-91): the back-off sets after a rep-max test run a step easier (rules.tests.replaces_top_set)
+        const RT = c.R.tests && c.R.tests.replaces_top_set;
+        const add = (r.it.flags || []).includes('back_off') && RT ? Math.max(RT.back_off_rir_add || 1, (RT.back_off_rir_min || 2) - w.planned_rir.min) : 0;
+        const hi = Math.min(band[1], Math.max(clamp(w.planned_rir.max, band[0], band[1]), lo) + add);
         if (e.min < lo - EPS || e.min > hi + EPS || e.max > hi + EPS) out.push(viol(where(r), k, { rule: 'planned_rir', min: e.min, max: e.max, planned_min: w.planned_rir.min, planned_max: w.planned_rir.max }));
       }
     }
@@ -535,18 +624,25 @@ function v17Effort(c) {
 function v18Minimums(c) {
   const out = [], k = 'check.v18_minimums';
   const pain = c.targets.pain_muscles || [];
-  const calvesExempt = pain.includes('calves') || (c.targets.fill || {}).calves === 'credit';
+  const calvesExempt0 = pain.includes('calves') || (c.targets.fill || {}).calves === 'credit';
   const perLegDay = typeof c.targets.calves_per_leg_day === 'number' ? c.targets.calves_per_leg_day : c.R.volume.calves.per_leg_day.L1;
   for (const w of c.weeks) {
     if (w.block_type !== 'stairway') continue;
-    let rear = 0, upper = 0;
+    const ntd = c.notTrained(null, w.training_block);
+    const calvesExempt = calvesExempt0 || ntd.includes('calves');
+    let rear = 0, upper = 0, rearRows = 0;
     for (const d of w.days || []) {
       const rows = c.dayRows(w, d);
       const isCalf = (r) => r.it.bucket === 'ISO_CALF' || (r.ex && r.ex.credit_class === 'ISO_CALF');
       rear += rows.filter(r => r.ex && REAR_CLASSES.includes(r.ex.credit_class)).length;
+      // v0.4 fix round 1 (COACH-R3 R3-VOL-01 'rear delts ... get worked when you do back'; RECHECK 05 major: a forced rear-delt swap
+      // took the coach's side-raise slot): the week's rows count toward the rear delts too
+      rearRows += rows.filter(r => r.ex && ['HPULL', 'VPULL'].includes(r.ex.credit_class)).reduce((a, r) => a + (r.it.sets || 0) * ((r.it.credits || {}).rear_delts || 0), 0);
       upper += rows.filter(r => isRes(r) && regionOf(r, c.R) === 'upper').length;
       if (d.kind !== 'main') continue;
-      const lowerDay = rows.some(r => isRes(r) && regionOf(r, c.R) === 'lower' && !isCalf(r));
+      // v0.4 B4 (E-64): a class lift kept for a lower group not trained directly does not make a leg day (calves per leg day)
+      const keptCL = c.notTrained('class_lift', w.training_block);
+      const lowerDay = rows.some(r => isRes(r) && regionOf(r, c.R) === 'lower' && !isCalf(r) && !(classLiftRow(c, r) && keptCL.includes(groupOf(r, c.model))));
       if (lowerDay && !calvesExempt) {
         if (d.format === 'circuit') {
           // a calf station runs every round: one station x 3 rounds = the 3 calf sets of a leg day (VOL-17; v1.2)
@@ -562,7 +658,9 @@ function v18Minimums(c) {
       const need = minutes >= 45 ? c.R.core_block.exercises : 1;
       if (rows.length && coreItems < need) out.push(viol(whereDay(w, d), K.h05, { rule: 'core_block_minimum', items: coreItems, need }));
     }
-    if (upper > 0 && rear === 0 && !pain.includes('rear_delts')) out.push(viol({ week: w.n }, k, { rule: 'rear_delt_weekly' }));
+    // (v0.4 fix round 1, E-93: the rear delts are worked with the back - R3-VOL-01 -, so a week whose back the time check leaves
+    // untrained directly, with no row left, is told so in time_check and not judged here; V29 warns on the push : pull balance)
+    if (upper > 0 && rear === 0 && rearRows < (c.R.volume.rear_from_rows_min || 2) - EPS && !pain.includes('rear_delts') && !pain.includes('shoulders') && !ntd.includes('shoulders') && !ntd.includes('back')) out.push(viol({ week: w.n }, k, { rule: 'rear_delt_weekly' }));
   }
   return out;
 }
@@ -576,9 +674,12 @@ function v19Olympic(c) {
   const L = c.R.levels, youth = c.age !== null && c.age < L.youth_age;
   const count = (c.derived.previous_cycles && c.derived.previous_cycles.count) || 0;
   const avoid = painAvoid(c);
+  const sportOf = (() => { try { return c.meta.profile && c.model.hasSport(c.meta.profile.id) ? c.model.sport(c.meta.profile.id) : null; } catch { return null; } })();
   const famOk = (e, v) => {
-    if (!v || v === 'jerk') return true;
     const fam = e.athletic && e.athletic.olympic_family;
+    // v0.4 B4 (integration, random sweep): a jerk / unnamed station takes any Olympic-family lift (select.variantPool), never a
+    // triple-extension record with no Olympic family (a body-weight squat to calf raise is not an Olympic lift)
+    if (!v || v === 'jerk') return !!fam;
     return !!fam && (O.day_pattern[fam] === 'either' || O.day_pattern[fam] === O.day_pattern[v]);
   };
   // The week must hold Olympic / triple-extension work only where the template asks for it (an AP_TRIPLE_EXT station kept
@@ -590,27 +691,46 @@ function v19Olympic(c) {
     && (!e.athletic || e.athletic.olympic_tier !== 'L2_plus' || level === 'L3' || (level === 'L2' && w.exercise_block >= 2))
     && !/proposed/.test(e.status) && !avoid.tags.some(t => e.tags.includes(t))
     && (avoid.maxAxial === null || AXIAL_ORDER.indexOf(e.axial_class) <= AXIAL_ORDER.indexOf(avoid.maxAxial))
+    && !olympicAboveCeiling(e, sportOf, c.R, c.derived) // F2: the sport's Olympic ceiling (select's filter)
     && famOk(e, v);
   const pool = c.model.bySlot('AP_TRIPLE_EXT');
   const ath = c.meta.athletic || {};
+  // (a day whose lift asks for a family no record can fill for this client keeps the other family - select's relaxed step)
+  const possibleFor = (r, v) => pool.some(e => possible(e, v, r.w));
   for (const w of c.weeks) {
     const rows = c.rows.filter(r => r.w === w && r.it.bucket === 'AP_TRIPLE_EXT' && r.ex);
     const heavyGameWeek = w.block_type === 'in_season' && ath.game_heavy && ath.heavy_play_week;
     const asked = (w.days || []).filter(d => d.kind === 'main').flatMap(d => templateStations(c, d))
       .filter(st => st.bucket === 'AP_TRIPLE_EXT' && (st.include_from_minutes === null || st.include_from_minutes === undefined || st.include_from_minutes <= (c.meta.session_minutes || 0)));
     const needed = asked.some(st => pool.some(e => possible(e, st.variant, w)));
-    if (needed && !heavyGameWeek && !rows.length) out.push(viol({ week: w.n }, k, { rule: 'olympic_every_week' }));
+    // (fix round 2 / F2, E-172: the class model's end-test week of a strength test runs no Olympic work - OBSERVED class cycle WK 8)
+    const classEndTest = !!(c.R.athletic.r2 && c.R.athletic.r2.tests && c.R.athletic.r2.tests.class_end_week_olympic === 'off') && c.family === 'hybrid_crossfit' &&
+      !!(w.test && w.test.type === 'end' && (w.test.items || []).includes('strength')) && !!(w.athletic_budget && w.athletic_budget.test_dose === 'class_no_power');
+    if (needed && !heavyGameWeek && !rows.length && !c.blockOff('power', w.training_block) && !classEndTest) out.push(viol({ week: w.n }, k, { rule: 'olympic_every_week' }));
     const days = new Set(rows.map(r => r.d.weekday));
     if (days.size > O.per_week_max) out.push(viol({ week: w.n }, k, { rule: 'per_week_max', exposures: days.size, max: O.per_week_max }));
     for (const r of rows) {
       const tier = r.ex.athletic && r.ex.athletic.olympic_tier;
       const l2plusOk = level === 'L3' || (level === 'L2' && w.exercise_block >= 2);
       if (tier === 'L2_plus' && !l2plusOk) out.push(viol(where(r), k, { rule: 'tier', tier, level: level || 'none', exercise_block: w.exercise_block }));
-      const variant = stationVariant(c, r);
+      const variant0 = stationVariant(c, r);
+      // v0.4 fix round 2 / F2 (R2-ATH-04 'cleans squatty, snatches hingy'; athletic.olympicVariantByDay): a clean / snatch station
+      // takes the family of the day's lower-body work lift - the item says which (`clean_day` / `snatch_day`), and where the day
+      // holds a lower-body work lift the family must be that lift's (`day_lift`)
+      const flags = r.it.flags || [];
+      const said = flags.includes('snatch_day') ? 'snatch' : flags.includes('clean_day') ? 'clean' : null;
+      const byDay = !!(c.R.athletic.r2 && c.R.athletic.r2.selection && c.R.athletic.r2.selection.olympic_by_day_lift) && ['clean', 'snatch'].includes(variant0);
+      const variant = byDay && said ? said : variant0;
       const fam = r.ex.athletic && r.ex.athletic.olympic_family;
       if (variant && fam && variant !== 'jerk') {
         const pv = O.day_pattern[variant], pf = O.day_pattern[fam];
         if (pv && pf && pf !== 'either' && pf !== pv) out.push(viol(where(r), k, { rule: 'day_pattern', station: variant, family: fam }));
+      }
+      if (byDay && said) {
+        const wl = c.rows.find(x => x.w === r.w && x.d === r.d && x.it.role === 'work' && ['RP_BKD', 'RP_UKD', 'RP_BHD', 'RP_UHD'].includes(x.it.bucket));
+        const want = wl ? olympicVariantByDay(variant0, wl.it.bucket, c.R) : null;
+        const pf = fam ? O.day_pattern[fam] : null;
+        if (want && pf && pf !== 'either' && pf !== O.day_pattern[want] && possibleFor(r, want)) out.push(viol(where(r), k, { rule: 'day_lift', lift: wl.it.bucket, family: fam }));
       }
     }
   }
@@ -689,21 +809,73 @@ function v21Release(c) {
   return out;
 }
 
+/**
+ * V22 / H17 (v0.4, R2-VOL-06 + R3-VOL-01 / R3-SES-01 / R3-SES-02): every directly trained FOCUS group holds the floor of 10 sets a
+ * week on the main days of a stairway week, counted with group credit (a set counts at most 1.0 to a group); calves hold the
+ * weekly floor one calf exercise a leg day can carry (10 from 3 leg days) and 3 sets a leg day (V18). No warning exempts a
+ * trained group. A group the time check leaves to compound credit is listed in plan.time_check.not_trained_directly (reason
+ * 'time') and has no direct exercise in the week; a listed group that is still trained, or an unlisted group under its floor,
+ * is a violation. Exempt: pain-reduced lines, credit-only lines, maintenance / pre-season / in-season / taper / recovery weeks.
+ */
 function v22Floor(c) {
   const out = [], k = 'check.v22_floor', floor = c.R.volume.floor.value;
-  const exempt = new Set();
-  for (const w of c.warnings) if (w && w.key === 'warning.floor_schedule') for (const m of muscleList((w.args || {}).muscles)) exempt.add(m);
-  const pain = c.targets.pain_muscles || [], credit = c.targets.credit_only || [], fill = c.targets.fill || {};
-  const muscles = (c.targets.floored || []).filter(m => !pain.includes(m) && !credit.includes(m) && fill[m] !== 'own_sets' && fill[m] !== 'credit' && !exempt.has(m));
+  const X = c.X;
+  const T = c.targets;
+  const pain = T.pain_muscles || [], credit = T.credit_only || [];
+  const fg = T.floor_groups || [];
+  // a big mover that holds the day's work lift and cannot hold 10 sets in the chosen minutes is listed as trained below the floor
+  // (plan.time_check.trained_below_floor, reason work_lift_time; it still climbs, H21) - the only floor exemption (E-11)
+  const groupsWithLines = (g) => (X.linesOfGroup[g] || []).filter(l => (T.lines || Object.keys(T.start || {})).includes(l));
+  const floored = fg.filter(g => groupsWithLines(g).length && !groupsWithLines(g).some(l => pain.includes(l)) && !groupsWithLines(g).every(l => credit.includes(l)));
+  const maxIso = c.R.placement.max_sets_isolation, climbC = (c.R.stairway.min_climb && c.R.stairway.min_climb.calves) || 1;
   for (const w of c.weeks) {
-    if (w.block_type !== 'stairway' || w.circuit) continue;
-    if ((w.days || []).some(d => d.kind === 'main' && d.format === 'circuit')) continue;
-    for (const m of muscles) {
-      const v = (w.weekly_sets_by_muscle || {})[m];
-      if (!(typeof v === 'number' && v >= floor - EPS)) out.push(viol({ week: w.n }, k, { muscle: m, sets: typeof v === 'number' ? v : 0, floor }));
+    if (w.block_type !== 'stairway') continue;
+    const ntd = c.notTrained(null, w.training_block), below = c.belowFloor(w.training_block);
+    const kept = c.notTrained('class_lift', w.training_block); // v0.4 B4 (E-64): the class lift a group not trained directly keeps
+    const gc = {}, direct = {};
+    let legDays = 0;
+    for (const d of w.days || []) {
+      const rows = c.dayRows(w, d);
+      if (d.kind === 'main' && rows.some(r => isRes(r) && r.ex && r.ex.credit_class === 'ISO_CALF')) legDays++;
+      if (d.kind !== 'main') continue;
+      for (const r of rows) {
+        // every credited set of a main day counts (joint care such as KB face pulls included, R2-LIB-04); a test top set credits nothing
+        const gcr = groupCredits(c.model, r.it.credits || {});
+        for (const [gg, v] of Object.entries(gcr)) gc[gg] = (gc[gg] || 0) + (typeof r.it.sets === 'number' ? r.it.sets : 0) * v;
+        if (!isRes(r)) continue;
+        // an exercise trains a group directly when the group is its main mover (a full set of group credit); a station that
+        // credits nothing (a medball press, a skill) or only helper credit does not
+        const g = groupOf(r, c.model);
+        if (g && kept.includes(g) && classLiftRow(c, r)) continue;
+        // (fix round 2 / F1, E-145: a pattern station of a group not trained directly - one exercise, fixed sets - is not direct training)
+        if (r.it.origin === 'pattern_kept') continue;
+        if (g && (gcr[g] || 0) >= 1 - EPS) direct[g] = (direct[g] || 0) + 1;
+      }
+    }
+    for (const g of ntd) if (direct[g]) out.push(viol({ week: w.n }, k, { rule: 'listed_but_trained', group: g, exercises: direct[g] }));
+    // v0.4 fix round 2 / F1 (E-139; BRAIN V5b): with fewer than rules.volume.calves.optional_slot_below_leg_days main leg days the
+    // optional day's Calves slot counts toward the calves' floor (one calf exercise x 3 sets per leg day stays on the main days)
+    const OSB = c.R.volume.calves.optional_slot_below_leg_days;
+    if (typeof OSB === 'number' && legDays < OSB) for (const d of w.days || []) {
+      if (d.kind === 'main') continue;
+      for (const r of c.dayRows(w, d)) if (isRes(r) && r.ex && r.ex.credit_class === 'ISO_CALF' && r.it.origin !== 'pattern_kept') gc.calves = (gc.calves || 0) + (typeof r.it.sets === 'number' ? r.it.sets : 0) * Math.min(1, groupCredits(c.model, r.it.credits || {}).calves || 0);
+    }
+    for (const g of floored) {
+      if (ntd.includes(g) || below.includes(g)) continue;
+      // calves: 3 sets a leg day; one calf exercise a leg day reaches the weekly 10 from 3 leg days (R3-SES-01); a timed circuit's
+      // calf station runs its rounds (3 a leg day)
+      const need = g === 'calves' ? (w.circuit ? c.R.volume.calves.per_leg_day.L1 * legDays : Math.max(c.R.volume.calves.per_leg_day.L1 * legDays, Math.min(c.R.volume.calves.weekly_floor, maxIso * legDays - climbC))) : floor;
+      const v = Math.round((gc[g] || 0) * 100) / 100;
+      if (v < need - EPS) out.push(viol({ week: w.n }, k, { muscle: g, sets: v, floor: need }));
     }
   }
   return out;
+}
+
+/** v0.4 B4 (E-64): an item that is the class model's kept work lift (rules.session.time_fit.keep_work_lift) */
+function classLiftRow(c, r) {
+  const KWL = c.R.session.time_fit && c.R.session.time_fit.keep_work_lift;
+  return !!(KWL && (KWL.families || []).includes(c.family) && (KWL.roles || []).includes(r.it.role) && r.it.origin !== 'bonus' && r.it.origin !== 'focus_added');
 }
 
 function v23Groups(c) {
@@ -712,14 +884,21 @@ function v23Groups(c) {
   const [lo, hi] = G.full_body_day;
   for (const w of c.weeks) for (const d of w.days || []) {
     if (d.kind !== 'main') continue;
-    // a circuit station is one exercise of a whole-body round: bootcamp circuits spread a group over the week (D-71, review 05)
-    if (d.format === 'circuit') continue;
-    const counts = {};
-    for (const r of c.dayRows(w, d)) if (isRes(r)) { const g = groupOf(r, c.model); if (g) counts[g] = (counts[g] || 0) + 1; }
+    // v0.4 fix round 2 / F1 (E-150; RECHECK v0.4 05 major: Friday trained chest and shoulders with one station each while V23 skipped
+    // circuit days): a circuit day trains a group with 0 or 2+ stations (COACH-R3 R3-SES-01 'never 1'); D-71's relief stays on the
+    // maximum only (a whole-body round may hold more stations of a group)
+    const circuitDay = d.format === 'circuit';
+    const counts = {}, lone = {};
+    for (const r of c.dayRows(w, d)) if (isRes(r)) { const g = groupOf(r, c.model); if (g) { counts[g] = (counts[g] || 0) + 1; lone[g] = r; } }
     for (const g of c.R.muscles.groups.order) {
       if (G.exempt_groups.includes(g) || !counts[g]) continue;
       const n = counts[g];
-      if (n < lo || (d.full_body !== false && n > hi)) out.push(viol(whereDay(w, d), k, { group: g, count: n, min: lo, max: d.full_body !== false ? hi : 'none' }));
+      // v0.4 B4 (E-64): in the class model the day's work lift may stand alone for its group - it is the day's named class lift
+      // (a group the time check does not train directly keeps it; the class's strength piece, OT18)
+      if (n === 1 && classLiftRow(c, lone[g])) continue;
+      // (fix round 2 / F1, E-145: a group not trained directly keeps one pattern station, paired with the day's work lift)
+      if (n === 1 && lone[g].it.origin === 'pattern_kept') continue;
+      if (n < lo || (!circuitDay && d.full_body !== false && n > hi)) out.push(viol(whereDay(w, d), k, { group: g, count: n, min: lo, max: !circuitDay && d.full_body !== false ? hi : 'none' }));
     }
   }
   return out;
@@ -783,6 +962,14 @@ function v27AthleticBudget(c) {
   const O = c.R.olympic.sets || {};
   const D11 = c.derived.D11_athletic_budget || {};
   const exposures = Math.max(1, Math.min(D11.olympic_exposures_wk || 1, ...(Array.isArray(D11.weekly && D11.weekly.olympic_sets) ? [Math.floor(D11.weekly.olympic_sets[1] / (O.min_per_exposure || 2) + EPS) || 1] : [])));
+  const tol = RC.tolerance || 0.25;
+  const pmax = RC.per_set_max || {};
+  // v0.4 stage B2: the reactive and ballistic jumps are one family (the athletic stairway moves their goals to the jump stations a
+  // week holds); the families of the climb (contacts, throws, cuts, sprint metres)
+  const B2 = !!c.R.athletic.split;
+  const FAM = RC.climb_families || { contacts: ['plyo_contacts', 'jump_contacts', 'low_contacts'], throws: ['throws'], cod_cuts: ['cod_cuts'], sprint_m: ['sprint_m'] };
+  const sum = (o, keys) => keys.reduce((a, k) => a + (typeof (o || {})[k] === 'number' ? o[k] : 0), 0);
+  const has = (o, keys) => keys.some(k => typeof (o || {})[k] === 'number');
   for (const w of c.weeks) {
     const ab = w.athletic_budget;
     if (!ab || !ab.targets || !ab.planned) continue;
@@ -792,11 +979,130 @@ function v27AthleticBudget(c) {
       const limit = Math.max((RC.olympic_max_factor || 1.5) * t.olympic_sets, per * exposures);
       if (p.olympic_sets > limit + EPS) out.push(viol({ week: w.n }, 'check.v27_athletic_budget', { key: 'olympic_sets', planned: p.olympic_sets, target: t.olympic_sets }));
     }
-    for (const k of ['plyo_contacts', 'jump_contacts', 'throws', 'cod_cuts', 'sprint_m']) {
-      if (typeof t[k] !== 'number' || typeof p[k] !== 'number') continue;
-      const limit = t[k] * (1 + (RC.tolerance || 0.25)) + ((RC.per_set_max || {})[k] || 0);
-      if (p[k] > limit + EPS) out.push(viol({ week: w.n }, 'check.v27_athletic_budget', { key: k, planned: p[k], target: t[k] }));
+    // over the budget (per key; B2: reactive + ballistic jumps together)
+    const overKeys = B2 ? [['jumps', ['plyo_contacts', 'jump_contacts']], ['throws', ['throws']], ['cod_cuts', ['cod_cuts']], ['sprint_m', ['sprint_m']]]
+      : ['plyo_contacts', 'jump_contacts', 'throws', 'cod_cuts', 'sprint_m'].map(k => [k, [k]]);
+    for (const [name, keys] of overKeys) {
+      if (!keys.every(k => typeof t[k] === 'number') || !has(p, keys)) continue;
+      const tt = sum(t, keys), pp = sum(p, keys);
+      const limit = tt * (1 + tol) + Math.max(...keys.map(k => pmax[k] || 0));
+      if (pp > limit + EPS) out.push(viol({ week: w.n }, 'check.v27_athletic_budget', { key: name, planned: pp, target: tt }));
     }
+    if (!B2) continue;
+    // v0.4 fix round 1 / F2 (R2-ATH-01; RECHECK 03 blocker: 85 % plyometric against 45 %): the planned plyo share stays within the
+    // tolerance of the week's target - a week over it while a planned plyometric item (ankle work, a reactive jump) still sits above
+    // its minimum dose, or the ankle block runs more than one set, is a planning error (the stairway lowers those first)
+    const SHR = c.R.athletic.f2 && c.R.athletic.f2.share;
+    // (fix round 2 / F2, E-165: a week whose timed tests replaced stations, or whose tested days run the baseline dose, is read by its tests)
+    if (SHR && SHR.enforce && !ab.test_replaced && !ab.test_dose && typeof ab.plyo_share === 'number' && typeof ab.planned_share === 'number' && ab.planned_share > ab.plyo_share + SHR.tolerance + EPS) {
+      const roomy = c.rows.filter(r => r.w === w && r.ex && r.it.athletic && ['plyo_contacts', 'low_contacts'].includes(r.it.athletic.key) && typeof t[r.it.athletic.key] === 'number')
+        .some(r => r.it.athletic.per_set > perSetBounds(c.model, r.it.athletic.key, r.ex, 1).lo + EPS || (r.it.athletic.key === 'low_contacts' && r.it.sets > 1));
+      if (roomy) out.push(viol({ week: w.n }, 'check.v27_athletic_budget', { key: 'share', code: 'share_over', planned: ab.planned_share, target: ab.plyo_share }));
+    }
+    // B2 under the goal the athletic stairway set (the sport target, scaled to what the block's stations hold; E-29)
+    const g = ab.goals || {};
+    for (const [name, keys] of Object.entries(FAM)) {
+      if (!has(g, keys)) continue;
+      const gg = sum(g, keys), pp = sum(p, keys);
+      if (gg > 0 && pp > 0 && pp < (1 - tol) * gg - Math.max(...keys.map(k => pmax[k] || 0)) - EPS) out.push(viol({ week: w.n }, 'check.v27_athletic_budget', { key: name, code: 'under', planned: pp, goal: gg }));
+      // a goal is never above the sport target (the stairway scales down, never up)
+      const tt = sum(t, keys);
+      // (fix round 2 / F2, E-164: a pre-season block plans its sprint metres and cuts at or above the last off-season week, R2-PER-06)
+      const PHk = c.R.athletic.r2 && c.R.athletic.r2.pre_season_hold && w.block_type === 'pre_season' ? (c.R.athletic.r2.pre_season_hold.keys || []) : [];
+      if (has(t, keys) && gg > tt * (1 + EPS) + 1 && !keys.some(k => PHk.includes(k))) out.push(viol({ week: w.n }, 'check.v27_athletic_budget', { key: name, code: 'goal_over_target', goal: gg, target: tt }));
+    }
+  }
+  if (!B2) return out;
+  // B2: inside a stairway block the athletic work never drops (contacts, throws, cuts, sprint metres, Olympic sets); the block's
+  // peak below 60 % of the sport target is told to the client (warning.athletic_capacity); stage-3 plyometric stations hold a
+  // repeated-contact drill only; the Receive-Create stage and the jump exercises hold for the whole exercise block; sport-only
+  // COD drills stay with their sport
+  // v0.4 fix round 1 / F2: the jumps and the ankle work are told apart ('jumps' / 'ankle' cover the contacts family), and a family
+  // that climbs across the block but not every week is told with warning.athletic_capacity_block
+  const warnedFam = new Set(c.warnings.filter(x => ['warning.athletic_capacity', 'warning.athletic_capacity_block'].includes(x.key) && x.args)
+    .flatMap(x => { const f = String(x.args.key).replace('athletic.key.', ''); return [f, ...(['jumps', 'ankle'].includes(f) ? ['contacts'] : []), ...(f === 'contacts' ? ['jumps', 'ankle'] : [])].map(k => k + '|' + x.args.training_block); }));
+  for (const tb of c.tbs.filter(x => x.type === 'stairway')) {
+    const ws = c.weeks.filter(w => w.training_block === tb.n && w.athletic_budget && w.athletic_budget.planned);
+    for (let i = 1; i < ws.length; i++) {
+      const a = ws[i - 1].athletic_budget, b = ws[i].athletic_budget;
+      for (const [name, keys] of [...Object.entries(FAM), ['olympic_sets', ['olympic_sets']]]) {
+        const pa = sum(a.planned, keys), pb = sum(b.planned, keys);
+        const ta = sum(a.targets, keys), tb2 = sum(b.targets, keys);
+        // v0.4 fix round 2 / F2 (E-165, R2-PER-07): the end-test week's tests replace stations and its tested days run the baseline
+        // week's dose, so it may plan less than the week before - never more (`hold_over`)
+        const R2t = c.R.athletic.r2 && c.R.athletic.r2.tests;
+        if (R2t && b.hold) { if (pa > 0 && pb > pa + EPS && has(b.targets, keys) && tb2 > 0) out.push(viol({ week: ws[i].n }, 'check.v27_athletic_budget', { key: name, code: 'hold_over', planned: pb, prev: pa })); continue; }
+        // (a week whose timed test replaced a station of the family is compared with that station counted)
+        const rep = (x) => keys.reduce((acc, k) => acc + (x.test_replaced && typeof x.test_replaced[k] === 'number' ? x.test_replaced[k] : 0), 0);
+        // (the plyo share is the coach's rule over the per-key doses, R2-ATH-01: a key the share moved this week - `share_moved` - in a
+        // week still at or over its share target came down for the share: a new exercise block's drill with a smaller minimum dose)
+        const forShare = (b.share_moved || []).some(k => keys.includes(k)) && typeof b.planned_share === 'number' && typeof b.plyo_share === 'number' && b.planned_share >= b.plyo_share - EPS;
+        if (pa > 0 && pb > 0 && pb + rep(b) < pa - EPS && tb2 >= ta - EPS && !forShare) out.push(viol({ week: ws[i].n }, 'check.v27_athletic_budget', { key: name, code: 'athletic_drop', planned: pb, prev: pa }));
+      }
+    }
+    // v0.4 fix round 2 / F2 (E-166; COACH-R3 R3-VOL-04 'natural growth throughout', R3-SES-02 step 4 'never flat'; RECHECK v0.4 01 / 02
+    // majors: jumps held at 36 for six weeks, cuts at 72 for nine): a family whose stations are full at the block's peak (every dose
+    // at its top) does not sit on that peak for most of the block while it is well under the sport target - the climb is spread over
+    // the block (`early_peak`: the top total holds for more than half the block's weeks, plus the slack). A station a timed test
+    // replaced counts as done.
+    const FL = c.R.athletic.r2 && c.R.athletic.r2.flat;
+    if (FL) {
+      const seq = ws.filter(w => !w.athletic_budget.hold);
+      for (const [name, keys] of Object.entries(FAM)) {
+        const P = (w) => sum(w.athletic_budget.planned, keys) + keys.reduce((acc, k) => acc + (w.athletic_budget.test_replaced && typeof w.athletic_budget.test_replaced[k] === 'number' ? w.athletic_budget.test_replaced[k] : 0), 0);
+        const Tg = (w) => sum(w.athletic_budget.targets, keys);
+        const withP = seq.filter(w => P(w) > 0 && has(w.athletic_budget.targets, keys));
+        if (withP.length < 4) continue;
+        const last = withP[withP.length - 1];
+        if (!(P(last) < Tg(last) * FL.under_target - EPS) || !(Tg(last) >= Tg(withP[0]) * (1 + FL.target_rise_min) - EPS)) continue;
+        const items = c.rows.filter(r => r.w === last && r.ex && r.it.athletic && keys.includes(r.it.athletic.key) && typeof r.it.athletic.per_set === 'number');
+        if (!items.length || !items.every(r => r.it.athletic.per_set >= perSetBounds(c.model, r.it.athletic.key, r.ex, 1).hi - EPS)) continue;
+        const allowed = Math.ceil(withP.length / 2) + (FL.run_slack || 0);
+        let run = 1;
+        for (let i = withP.length - 2; i >= 0 && Math.abs(P(withP[i]) - P(last)) < EPS; i--) run++;
+        // (the plyo share is the coach's rule over the per-key doses, R2-ATH-01: a peak the share moved a key of the family onto -
+        // `share_moved` in any week of the run - is the share's doing, not the stairway's)
+        const shareMoved = withP.slice(withP.length - run).some(w => (w.athletic_budget.share_moved || []).some(k => keys.includes(k)));
+        // (a run that starts on the family's minimum doses could not have started lower: an earlier exercise block's drill whose
+        // smallest set is the later drills' largest)
+        const start = withP[withP.length - run];
+        const startItems = c.rows.filter(r => r.w === start && r.ex && r.it.athletic && keys.includes(r.it.athletic.key) && typeof r.it.athletic.per_set === 'number');
+        const atFloor = startItems.length > 0 && startItems.every(r => r.it.athletic.per_set <= perSetBounds(c.model, r.it.athletic.key, r.ex, 0).lo + EPS);
+        if (run > allowed && !shareMoved && !atFloor) out.push(viol({ week: last.n }, 'check.v27_athletic_budget', { key: name, code: 'early_peak', planned: P(last), weeks: run, allowed, target: Tg(last) }));
+      }
+    }
+    const peak = ws.filter(w => !w.athletic_budget.hold).slice(-1)[0];
+    if (peak) {
+      for (const [name, keys0] of Object.entries(FAM)) {
+        const keys = keys0.filter(k => typeof (peak.athletic_budget.targets || {})[k] === 'number'); // keys with a sport target only
+        const tt = sum(peak.athletic_budget.targets, keys), pp = sum(peak.athletic_budget.planned, keys);
+        // (fix round 2 / F2, E-174: a timed circuit doses its ball station in a few full-intent throws a round - its weekly throws
+        // are the rounds' doing, not a station the client could size up)
+        const circuitOnly = c.rows.filter(r => r.w === peak && r.it.athletic && keys.includes(r.it.athletic.key)).every(r => r.b && r.b.kind === 'circuit');
+        if (tt > 0 && pp > 0 && pp < tt * (RC.warn_below_share ?? 0.6) - EPS && !warnedFam.has(name + '|' + tb.n) && !circuitOnly) out.push(viol({ week: peak.n }, 'check.v27_athletic_budget', { key: name, code: 'capacity_not_told', planned: pp, target: tt }));
+      }
+    }
+    // the stage and the jump exercises hold for the exercise block (PER-02, R2-ATH-03; RECHECK 01 / 02 / 08)
+    const byEb = new Map();
+    for (const w of c.weeks.filter(x => x.training_block === tb.n)) {
+      const e = byEb.get(w.exercise_block) || { stage: w.plyo_stage, picks: new Map() };
+      if (w.plyo_stage !== e.stage) out.push(viol({ week: w.n }, 'check.v27_athletic_budget', { code: 'stage_mid_block', stage: w.plyo_stage, block_stage: e.stage }));
+      for (const r of c.rows.filter(x => x.w === w && ['AP_PLYO', 'AP_JUMP_LIMITED_KNEE'].includes(x.it.bucket) && x.it.exercise_id && x.it.slot_id)) {
+        const prev = e.picks.get(r.it.slot_id);
+        if (prev && prev !== r.it.exercise_id) out.push(viol({ week: w.n, day: r.d.weekday, item: r.it.slot_id }, 'check.v27_athletic_budget', { code: 'jump_exercise_mid_block', from: prev, to: r.it.exercise_id }));
+        e.picks.set(r.it.slot_id, r.it.exercise_id);
+      }
+      byEb.set(w.exercise_block, e);
+    }
+  }
+  const sportId = (() => { try { return c.model.sport(c.meta.profile.id).sport; } catch { return null; } })();
+  for (const r of c.rows) {
+    const a = r.ex && r.ex.athletic;
+    if (!a) continue;
+    if (['AP_PLYO', 'AP_JUMP_LIMITED_KNEE'].includes(r.it.bucket) && r.w.plyo_stage === 'RC3' && c.R.athletic.rc3_plyometric_response && a.quality === 'plyometric' && !a.upper && a.response && a.response !== c.R.athletic.rc3_plyometric_response) {
+      out.push(viol({ week: r.w.n, day: r.d.weekday, item: r.it.slot_id }, 'check.v27_athletic_budget', { code: 'rc3_single_response', exercise: r.it.exercise_id }));
+    }
+    if (r.it.bucket === 'AP_COD' && Array.isArray(a.sport_only) && !a.sport_only.includes(sportId)) out.push(viol({ week: r.w.n, day: r.d.weekday, item: r.it.slot_id }, 'check.v27_athletic_budget', { code: 'sport_only_drill', exercise: r.it.exercise_id }));
   }
   return out;
 }
@@ -908,56 +1214,118 @@ function h14I18n(c) {
   return out;
 }
 
-function isAdapted(w) { return (w.why || []).some(x => x && x.key === 'why.r3_pending' && x.ref === 'R3-VOL-02'); }
-
+/**
+ * H21 (v0.4): the stairway climbs on every trained group (R2-PER-03 / R2-PER-04, R3-VOL-04, R3-SES-02 'never flat'). Per trained
+ * floored group: the last week's group sets (all days, group credit) are at least the minimum climb (rules.stairway.min_climb:
+ * 2 sets, 1 set in a block of 7 weeks or less, calves 1; half a set of rounding for quarter-set helper credit) above week 1,
+ * and never drop week over week by a set
+ * or more; per line the planned target never drops and the early steps are never larger than the late ones; the main-day total
+ * rises; the last week is the hardest; the stair level rises and the planned RIR never rises. No warning exempts a group.
+ */
 function h21Stairway(c) {
   const out = [];
+  const T = c.targets, X = c.X;
+  const MC = c.R.stairway.min_climb || { group: 2, calves: 1 };
+  const pain = T.pain_muscles || [];
+  const fixedTemplate = (c.R.session.exercises_per_group.exempt_families || []).includes(c.family);
   for (const tb of c.tbs) {
     if (tb.type !== 'stairway') continue;
     const ws = stairwayWeeks(c, tb).slice().sort((a, b) => a.n - b.n);
     if (ws.length < 2) continue;
     const N = ws.length, stair = c.model.stair(N);
-    const adapted = ws.some(isAdapted);
-    const fill = c.targets.fill || {};
-    const muscles = Object.keys(fill).filter(m => fill[m] === 'target');
-    for (const m of muscles) {
+    const ntd = c.notTrained(null, tb.n);
+    // a year plan's flat-sets quarter (Q1 'sets stay at the starting level', COACH-R2 R2-PER-01) holds its starts: no climb rule
+    const flatSets = !!(tb.factor && tb.factor.flat_sets === true);
+    const lines = (T.lines || []).filter(l => T.fill && T.fill[l] === 'target');
+    for (const l of lines) {
       for (let i = 1; i < ws.length; i++) {
-        const t0 = (ws[i - 1].target_by_muscle || {})[m], t1 = (ws[i].target_by_muscle || {})[m];
-        if (typeof t0 === 'number' && typeof t1 === 'number' && t1 < t0 - EPS) out.push(viol({ week: ws[i].n }, K.h21, { rule: 'target_drops', muscle: m, from: t0, to: t1 }));
-        const d0 = (ws[i - 1].direct_sets_by_muscle || {})[m], d1 = (ws[i].direct_sets_by_muscle || {})[m];
-        if (typeof d0 === 'number' && typeof d1 === 'number' && d1 < d0 - EPS) out.push(viol({ week: ws[i].n }, K.h21, { rule: 'sets_drop', muscle: m, from: d0, to: d1 }));
+        const t0 = (ws[i - 1].target_by_muscle || {})[l], t1 = (ws[i].target_by_muscle || {})[l];
+        if (typeof t0 === 'number' && typeof t1 === 'number' && t1 < t0 - EPS) out.push(viol({ week: ws[i].n }, K.h21, { rule: 'target_drops', muscle: l, from: t0, to: t1 }));
       }
-      if (adapted) continue;
-      const step = (w) => { const s = (ws[w - 1].step_by_muscle || {})[m]; return typeof s === 'number' ? s : null; };
+      const step = (w) => { const s = (ws[w - 1].step_by_muscle || {})[l]; return typeof s === 'number' ? s : null; };
       const early = [], late = [];
       for (let w = 2; w <= N; w++) { const s = step(w); if (s === null) continue; (w <= stair.halfway ? early : late).push(s); }
-      if (early.length && late.length && Math.max(...early) > Math.min(...late) + EPS) out.push(viol({}, K.h21, { rule: 'early_step_larger', muscle: m, early: Math.max(...early), late: Math.min(...late) }));
+      if (early.length && late.length && Math.max(...early) > Math.min(...late) + EPS) out.push(viol({}, K.h21, { rule: 'early_step_larger', muscle: l, early: Math.max(...early), late: Math.min(...late) }));
     }
-    // v1.2 (review 04 / 06 / 08 blockers): a stairway that never climbs fails. Each target muscle must end within 1 set of its
-    // week-N target or rise by >= 1 set in the second half; the main-day total must rise; a circuit plan's total work
-    // (sets x work seconds) must rise every week by no more than the 10 % ceiling
-    // a muscle the minutes cannot grow is exempt once the client was told and offered the fix (start sized to the minutes +
-    // offer of longer sessions / one more day, D-67) - the same contract as the floor's D-33 exemption
-    const offered = (c.plan.offers || []).some(o => o && ['offer.longer_sessions', 'offer.more_days'].includes(o.key));
-    const toldMuscles = new Set(c.warnings.filter(x => x && ['warning.start_lowered', 'warning.stairway_time', 'warning.floor_schedule'].includes(x.key))
-      .flatMap(x => String((x.args && x.args.muscles) || '').split(',').map(t => t.trim()).filter(Boolean)));
-    // the conjugate strength templates keep their written four-role days (R.session exempt_families; master 10.3) and climb by load
-    const fixedTemplate = (c.R.session.exercises_per_group.exempt_families || []).includes(c.family);
-    if (!adapted && !c.circuitPlan && !fixedTemplate) {
-      const half = Math.max(1, Math.floor(N / 2));
-      for (const m of muscles) {
-        if (offered && toldMuscles.has(m)) continue;
-        const p = (w) => { const v = (w.main_sets_by_muscle || w.weekly_sets_by_muscle || {})[m]; return typeof v === 'number' ? v : null; };
-        const tN = (ws[N - 1].target_by_muscle || {})[m], pN = p(ws[N - 1]), pH = p(ws[half - 1]);
-        if (typeof tN !== 'number' || pN === null || pH === null) continue;
-        if (pN >= tN - 1 - EPS || pN - pH >= 1 - EPS) continue; // at (or above) its week-N target, or rose in the second half
-        out.push(viol({ week: ws[N - 1].n }, K.h21, { rule: 'stairway_flat', muscle: m, half: pH, last: pN, target: tN }));
+    if (!c.circuitPlan && !fixedTemplate) {
+      const groups = (T.floor_groups || []).filter(g => !ntd.includes(g) && (X.linesOfGroup[g] || []).some(l => lines.includes(l)) && !(X.linesOfGroup[g] || []).some(l => pain.includes(l)));
+      for (const g of groups) {
+        const v = ws.map(w => { const x = (w.weekly_sets_by_group || {})[g]; return typeof x === 'number' ? x : null; });
+        if (v.some(x => x === null)) continue;
+        // a big mover kept below its floor (E-11; its work lift heavier by the week) climbs at least one set (v0.4 fix round 1, E-81)
+        const need = g === 'calves' || c.belowFloor(tb.n).includes(g) ? MC.calves : (MC.short_block && N <= MC.short_block.max_N ? MC.short_block.group : MC.group);
+        if (!flatSets && v[N - 1] - v[0] < need - 0.5 - EPS) out.push(viol({ week: ws[N - 1].n }, K.h21, { rule: 'stairway_flat', muscle: g, first: v[0], last: v[N - 1], need }));
+        for (let i = 1; i < N; i++) if (v[i] < v[i - 1] - 0.5 - EPS) out.push(viol({ week: ws[i].n }, K.h21, { rule: 'sets_drop', muscle: g, from: v[i - 1], to: v[i] }));
+        // v0.4 fix round 1 (E-92; RECHECK 01 / 02 / 07 majors: groups flat for the last 6 weeks or 9 weeks in a row while the plan
+        // printed 'climbing'): in a block of 8+ weeks a trained big group gains a set in the second half (COACH-R3 R3-VOL-04 'about
+        // 5 % after the halfway week ... reaches its ceiling in the last week') and never holds its sets more than half the block
+        // (R3-SES-02 step 4 'never flat'); the big movers only (small groups climb in 2-set bonus steps, E-86), never a group held
+        // below the floor
+        const HF = c.R.stairway.hold_rules || null;
+        // (only for a group whose planned climb - its lines' ceiling minus start in meta.stairway - spans enough whole sets to spread)
+        const blkS = Array.isArray(c.meta.stairway) ? c.meta.stairway.find(x => x.training_block === tb.n) : null;
+        const w1L = ws[0].weekly_sets_by_line || {};
+        const plannedClimb = blkS && blkS.start && blkS.cap ? Math.max(0, ...(X.linesOfGroup[g] || []).filter(l => typeof blkS.start[l] === 'number' && typeof blkS.cap[l] === 'number').map(l => blkS.cap[l] - Math.max(blkS.start[l], typeof w1L[l] === 'number' ? w1L[l] : 0))) : 0;
+        const bigG = (X.linesOfGroup[g] || []).some(l => X.defs[l] && X.defs[l].class === 'big');
+        // (a line that reaches the Focus / priority absolute ceiling holds there - BRAIN §5.9, V13 line_absolute_cap; E-95)
+        const ABSC = c.R.volume.priority && c.R.volume.priority.absolute_cap;
+        const atAbs = typeof ABSC === 'number' && (X.linesOfGroup[g] || []).some(l => ws.some(w => ((w.weekly_sets_by_line || {})[l] || 0) >= ABSC - 0.5 - EPS));
+        // v0.4 fix round 2 / F1 (E-136; RECHECK v0.4 01 / 03 blockers: the main days held flat for 10 weeks while the climb sat on the
+        // optional Saturday, and H21 passed on the all-days sets): a big group that is not a Focus muscle climbs on its MAIN days - its
+        // minimum climb and the hold rules are read on main_sets_by_group too (the optional day carries a Focus muscle's slots and small
+        // groups' bonuses only, COACH-ANSWER ORD-10 / ORD-11, COACH-R3 R3-VOL-03)
+        const focusG = (T.priority || []).some(l => (X.linesOfGroup[g] || []).includes(l));
+        const mainSeries = HF && HF.main_days && bigG && !focusG ? ws.map(w => { const x = (w.main_sets_by_group || {})[g]; return typeof x === 'number' ? x : null; }) : null;
+        if (mainSeries && mainSeries.every(x => x !== null) && !flatSets && mainSeries[N - 1] - mainSeries[0] < need - 0.5 - EPS) out.push(viol({ week: ws[N - 1].n }, K.h21, { rule: 'main_days_flat', muscle: g, first: mainSeries[0], last: mainSeries[N - 1], need }));
+        if (HF && !flatSets && N >= (HF.min_N || 8) && bigG && !atAbs && !c.belowFloor(tb.n).includes(g) && plannedClimb >= (HF.min_climb || 3) - EPS) {
+          const half = Math.ceil(N / 2);
+          const holdRules = (vs, tag) => {
+            if (vs[N - 1] - vs[half - 1] < 0.5 - EPS) out.push(viol({ week: ws[N - 1].n }, K.h21, { rule: 'flat_second_half' + tag, muscle: g, from: vs[half - 1], to: vs[N - 1] }));
+            // a hold = weeks whose sets stay within half a set of the run's first week (quarter-set helper drift is not a step)
+            let run = 1, longest = 1, base = vs[0];
+            for (let i = 1; i < N; i++) { if (Math.abs(vs[i] - base) < 0.5 - EPS) run++; else { run = 1; base = vs[i]; } longest = Math.max(longest, run); }
+            const maxHold = half + (HF.hold_extra_weeks || 0);
+            if (longest > maxHold) out.push(viol({ week: ws[N - 1].n }, K.h21, { rule: 'group_hold' + tag, muscle: g, weeks: longest, max: maxHold }));
+          };
+          holdRules(v, '');
+          if (mainSeries && mainSeries.every(x => x !== null)) holdRules(mainSeries, '_main_days');
+        }
       }
       const tm = ws.map(w => (typeof w.total_main_sets === 'number' ? w.total_main_sets : null));
-      if (tm.every(t => t !== null) && tm[N - 1] <= tm[0] + EPS && !(offered && toldMuscles.size)) out.push(viol({ week: ws[N - 1].n }, K.h21, { rule: 'total_flat', first: tm[0], last: tm[N - 1] }));
+      // a block that trains no group directly (every group listed in plan.time_check; the day's fixed work fills the minutes) has
+      // no stairway on sets - its warning and offers say so (R3-SES-02)
+      // v0.4 B4 (E-64): a class-model block whose groups are all left to their kept class lifts (3 sets, heavier by the week) trains
+      // no group directly either - its main-day total is the class lifts' and holds
+      const trainedAny = !c.plan.time_check || (() => { const tc = c.plan.time_check, b = (tc.by_block || []).find(x => x.training_block === tb.n) || tc; return !Array.isArray(b.trained_groups) || b.trained_groups.length > 0; })();
+      if (!flatSets && trainedAny && tm.every(t => t !== null) && tm[N - 1] > EPS && tm[N - 1] <= tm[0] + EPS) out.push(viol({ week: ws[N - 1].n }, K.h21, { rule: 'total_flat', first: tm[0], last: tm[N - 1] }));
+      // v0.4 fix round 2 / F1 (E-136): the main-day total holds (no rise over the week before) for at most half the block - or, when the
+      // chosen minutes cannot hold the full plan (time_check.fits false), for the weeks its whole-set climb cannot fill (a climb of k sets
+      // rises in k weeks at most); never 10 flat weeks after an early step
+      const HF2 = c.R.stairway.hold_rules || null;
+      if (HF2 && typeof HF2.total_hold_max_frac === 'number' && !flatSets && trainedAny && tm.every(t => t !== null) && tm[N - 1] > EPS && N >= 4) {
+        let holds = 0;
+        for (let i = 1; i < N; i++) if (tm[i] <= tm[i - 1] + EPS) holds++;
+        const steps = Math.max(0, Math.round(tm[N - 1] - tm[0]));
+        const tcB = c.plan.time_check ? ((c.plan.time_check.by_block || []).find(x => x.training_block === tb.n) || c.plan.time_check) : null;
+        const limited = !!(tcB && tcB.fits === false);
+        // (every trained group reaches its ceiling in the last week, R3-VOL-04: the groups' final steps share that week, so a climb of
+        // k sets rises in k - (last-week groups - 1) weeks at most; random 286, three one- or two-set climbs ending together)
+        const groupsUp = Object.keys(ws[N - 1].main_sets_by_group || {}).filter(g => ((ws[N - 1].main_sets_by_group || {})[g] || 0) - ((ws[N - 2].main_sets_by_group || {})[g] || 0) >= 0.5 - EPS).length;
+        const together = Math.max(0, Math.min(Math.round(tm[N - 1] - tm[N - 2]), groupsUp) - 1);
+        // (an added exercise opens at 2 sets in the first week of an exercise block, E-86: two of the climb's sets share that week;
+        // sweep sport-rugby)
+        let entries = 0;
+        for (let i = 1; i < N - 1; i++) if (ws[i].exercise_block !== ws[i - 1].exercise_block) entries += Math.max(0, Math.min(2, Math.round(tm[i] - tm[i - 1])) - 1);
+        const maxHolds = Math.max(Math.floor(N * HF2.total_hold_max_frac), limited ? (N - 1) - Math.max(0, steps - together - entries) : 0);
+        if (holds > maxHolds) out.push(viol({ week: ws[N - 1].n }, K.h21, { rule: 'total_hold', holds, max: maxHolds }));
+      }
     }
-    if (!adapted && c.circuitPlan) {
+    if (c.circuitPlan) {
       const work = ws.map(w => (w.circuit && typeof w.total_resistance_sets === 'number' ? w.total_resistance_sets * w.circuit.work_s : null));
+      // v0.4 B4 (integration, random sweep): a circuit block whose minutes hold no resistance station (every group listed in
+      // plan.time_check, e.g. 3 x 30 min) has no stairway on sets, like the straight-set block above (total_flat) - its warning and
+      // offers say so (R3-SES-02)
+      if (work.every(x => x === null || x <= EPS)) work.fill(null);
       for (let i = 1; i < N; i++) {
         if (work[i] === null || work[i - 1] === null) continue;
         if (work[i] <= work[i - 1] + EPS) out.push(viol({ week: ws[i].n }, K.h21, { rule: 'circuit_flat', from: work[i - 1], to: work[i] }));
@@ -979,46 +1347,50 @@ function h21Stairway(c) {
   return out;
 }
 
+/**
+ * H22 (v0.4: planned stairway only - R2-VOL-03 'no check-in, no change', R3-VOL-02 / R3-VOL-04 'no check-ins ... kick out a
+ * program, and that's it'): no step in a flat block or in week 1; every planned step of every stairway block equals the step
+ * recomputed independently from that block's start and ceiling (meta.stairway); no check-in offer exists.
+ */
 function h22NoCheckin(c) {
   const out = [], S = c.R.stairway, L = S.limits, V = c.R.volume;
-  const adapted = c.weeks.some(isAdapted);
-  if (adapted && c.derived.output_mode !== 'plan_only') return out; // check-ins applied: the stairway may wait (adapt, R2-VOL-01)
-  if (adapted) out.push(viol({}, K.h22, { rule: 'adapted_plan_only' }));
-  // a check-in offer ('the block cannot be finished') needs a check-in; schedule offers made at build time (v1.2: longer
-  // sessions / one more day when the stairway had to start lower, D-67) are not adaptations
-  if ((c.plan.offers || []).some(o => o && o.key === 'block.cannot_finish')) out.push(viol({}, K.h22, { rule: 'offers_without_checkin' }));
-  const t = c.targets, start = t.start || {}, cap = t.cap || {}, fill = t.fill || {};
+  if ((c.plan.offers || []).some(o => o && o.key === 'block.cannot_finish')) out.push(viol({}, K.h22, { rule: 'checkin_offer' }));
+  const t = c.targets, fill = t.fill || {};
   const priority = t.priority || [], pain = t.pain_muscles || [];
-  const older = c.age !== null && c.age >= c.R.population.older.from_age;
+  const slowOthers = !(V.focus && V.focus.slow_others === false);
+  const older = c.age !== null && c.age >= c.R.population.older.from_age && !L.older_cap_retired;
   const isYear = c.meta.plan_mode === 'year';
   const yearLayout = (c.R.plan_types.year && c.R.plan_types.year.layout) || [];
   for (const w of c.weeks) if (w.block_type !== 'stairway' || w.stair_week === 1) {
     for (const [m, s] of Object.entries(w.step_by_muscle || {})) if (typeof s === 'number' && Math.abs(s) > EPS) out.push(viol({ week: w.n }, K.h22, { rule: 'step_in_flat_or_first_week', muscle: m, step: s }));
   }
   const stairMeta = Array.isArray(c.meta.stairway) ? c.meta.stairway : [];
-  c.tbs.filter(tb => tb.type === 'stairway').forEach((tb, bi) => {
+  c.tbs.filter(tb => tb.type === 'stairway').forEach((tb) => {
     const ws = stairwayWeeks(c, tb).slice().sort((a, b) => a.n - b.n);
     const N = ws.length;
     if (N < 2) return;
     const stair = c.model.stair(N);
     const flat = isYear && yearLayout.some(l => l.type === 'stairway' && l.flat_sets && l.weeks[0] === tb.weeks[0]);
-    const lamMeta = (stairMeta.find(s => s.training_block === tb.n) || {}).lambda || {};
+    const bm = stairMeta.find(x => x.training_block === tb.n) || {};
+    const start = bm.start || t.start || {}, cap = bm.cap || t.cap || {};
+    const lamMeta = bm.lambda || {};
+    const dropped = new Set(bm.dropped_groups || []);
     for (const m of Object.keys(start)) {
       if (typeof start[m] !== 'number' || typeof cap[m] !== 'number' || ['credit', 'core_block'].includes(fill[m])) continue;
+      if (dropped.has(c.X.groupOfLine[m])) continue;
       const caps = [L.planned_step_max];
-      if (priority.length && !priority.includes(m)) caps.push(L.nonpriority_while_priority);
+      if (slowOthers && priority.length && !priority.includes(m)) caps.push(L.nonpriority_while_priority);
       if (older) caps.push(L.older_60plus);
       const painM = pain.includes(m);
       const plan = plannedStairway({ start: start[m], cap: cap[m] }, N, {
         early_late: stair.standard_steps, caps, freeze: painM ? V.pain.freeze_weeks : 0,
         after_freeze: painM ? L.pain_after_freeze : null, iterations: S.lambda.iterations
       });
-      const lam = bi === 0 ? plan.lambda : (typeof lamMeta[m] === 'number' ? lamMeta[m] : plan.lambda);
-      if (bi === 0 && typeof lamMeta[m] === 'number' && Math.abs(lamMeta[m] - plan.lambda) > 1e-3) out.push(viol({}, K.h22, { rule: 'lambda_mismatch', muscle: m, claimed: lamMeta[m], recomputed: Math.round(plan.lambda * 1e4) / 1e4 }));
+      if (typeof lamMeta[m] === 'number' && Math.abs(lamMeta[m] - plan.lambda) > 1e-3) out.push(viol({}, K.h22, { rule: 'lambda_mismatch', muscle: m, claimed: lamMeta[m], recomputed: Math.round(plan.lambda * 1e4) / 1e4 }));
       for (let i = 1; i < N; i++) {
         const w = ws[i], s = (w.step_by_muscle || {})[m];
         if (typeof s !== 'number') { out.push(viol({ week: w.n }, K.h22, { rule: 'step_missing', muscle: m })); continue; }
-        const expected = lam * plan.capped[i + 1];
+        const expected = plan.lambda * plan.capped[i + 1];
         const okFlat = flat && Math.abs(s) <= EPS;
         if (!okFlat && Math.abs(s - expected) > 5.1e-4) out.push(viol({ week: w.n }, K.h22, { rule: 'step_not_planned', muscle: m, step: s, planned: Math.round(expected * 1e4) / 1e4 }));
       }

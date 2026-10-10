@@ -7,12 +7,428 @@ Supersedes `contracts/1.0.0` (written before round 2 was answered). Every builde
 exactly the shapes, names and signatures below. If something here is wrong or missing, **do not silently diverge**: implement
 the closest compliant thing, write the issue to `engine/CONTRACT_REQUESTS.md` and in your final report under `problems`.
 
-**Authority for numbers and coaching rules** (highest first): `coach_answers_round2.md` (COACH-R2, newest) >
-`coach_answers_full.md` (COACH-ANSWER) > `generator_spec_v1.json` 1.1.0 (+ `_meta.integration_decisions`) >
-`synthesis/12_volume_algorithm_v1.json` (content v1.1) > other synthesis files. Round-3 questions (`round3_questions.json`) are
-**open**: where a rule depends on one, the engine uses that question's proposal (`"a"` text), the value carries
-`"r3": "R3-…"` in `model/rules.json`, code that applies it has the comment `// R3-pending: R3-…`, and the plan lists the ids
-in `meta.r3_pending`. **Authority for shapes, names, file layout and APIs**: this file. **Every decision taken where the
+> **Engine 0.4.0 amendments (stage B1, round 3; model 1.3.0; 2026-10-09) - binding, they supersede the text below where it
+> conflicts.** Authority now starts with `coach_answers_round3.md` (COACH-R3). Decisions: `engine/DECISIONS.md` section E.
+> * **Lines and groups** (R3-VOL-01, R3-SES-01): `rules.muscles.lines` (quads, hamstrings, glutes, chest, lats_upper_back,
+>   **shoulders** = side + rear + front delts, biceps, triceps, calves) carry the stairway; `meta.targets.start / cap /
+>   step_by_muscle / target_by_muscle / main_sets_by_muscle` are keyed by line. The floor of 10, the 2-4 rule and the time check
+>   read `rules.muscles.groups` (hips = glutes + hamstrings). A set counts at most 1.0 to a line / group (`engine/timefit.mjs`).
+> * **No check-ins** (R3-VOL-02 / R3-VOL-04): `adapt`, `adaptWith`, `checkinRow` and `checkin/2` are retired; `output_mode` is read
+>   and normalized to `plan_only` (`warning.checkin_retired` otherwise); `plan.mode: week_by_week` = `fixed_12` with
+>   `plan.view: 'week'`; `rules.stairway.checkin` is gone (`stairway.no_checkin: 'planned_only'`).
+> * **Intake additions** (§2.1): `focus_muscles` (<= 2; `priority_muscles` is its alias; `v_taper` takes both slots),
+>   `plan.previous_cycles.last_block_finished` (alias `last_had_holds_or_pain`), `activity.play_minutes` (`under_45|45_60|60_plus`), `plan.view`,
+>   `prefs.superset_recommendations` (`show|hide`), `prefs.racket_50_impact_opt_in`. Derived adds `focus_lines`,
+>   `priority_choices`; `D9_start_sets` adds `lines`, `floor_groups`, `focus_add`, `calves_floor`, `leg_days`.
+> * **The time check** (R3-SES-02): `plan.time_check` = `{training_block, fits, kept_time, needed_minutes, offered: {extra_day:
+>   {days, minutes} | null, session_minutes | null} | null, trained_groups[], not_trained_directly[{group, reason: time |
+>   no_station | credit_only | class_lift (B4)}], lowered_peak[], trained_below_floor[{group, reason: work_lift_time}], supersets_recommended,
+>   supersets_needed[], by_block[{training_block, fits, trained_groups, not_trained_directly, trained_below_floor}]}` (between
+>   `offers` and `meta`; null when the plan has no stairway block). Offers are the time check's only: `offer.more_days {days}`,
+>   `offer.more_days_min {days, min}`, `offer.longer_sessions {min}`, `offer.keep_time` / `offer.keep_time_lower_peak {days,
+>   minutes}` (chosen). Warnings: `warning.time_check`, `warning.not_trained_directly`, `warning.time_lower_peak`,
+>   `warning.below_floor_work_lift`, `warning.credit_only_groups`, `warning.supersets_needed`, `warning.test_day_long`;
+>   `warning.floor_schedule`, `warning.start_lowered`, `warning.stairway_time` and `offer.lower_start` are retired.
+> * **Plan additions** (§5, additive; `plan/2` and `contracts_version 1.1.0` kept): week `weekly_sets_by_line`,
+>   `weekly_sets_by_group`, `main_sets_by_group`, `not_trained_directly[]` (after `main_sets_by_muscle`); day `supersets_needed`,
+>   `superset_recommendations[{pair_id, items[], minutes_saved, on, needed}]`, `toggle_blocks[]` (after `supersets_on`); block
+>   `id` (`blk.<day_type>.<kind>.<n>`; fix round 1: `blk.<weekday>-<day_type slug>.<kind>.<n>`), `toggle`, `removable` (after `items`); item `superset_suggested` (last); summary
+>   `sets_by_line_by_week`, `sets_by_group_by_week`. A rep-max test is its own item (`slot_id` + `.test`, role / origin `test`,
+>   1 set, `credits {}`, `note.test_top_set`) before the lift's planned sets.
+> * **Time model v1.3** (`rules.time_model.work_minutes`, `rest_class_minutes`, `rest_class_by_time_class`,
+>   `test_workup_minutes`, `test_item_minutes`, `superset_rule: pair_shares_rest`); `week.estimateMinutes(day, sets, fills,
+>   model, {week, derived, lifting_only, supersets: false | true | 'eligible'})`; `week.testPlan(base, weekShape, derived, model)`.
+> * **Validators** (§6): V22 / H17, H21 and H22 as rewritten in §6; no warning exempts a trained group.
+>
+> **Engine 0.4.0 amendments, stage B2 (athletic work; model 1.3.0; 2026-10-09) - binding.** Decisions: `engine/DECISIONS.md`
+> E-26 ... E-45; model data: `tools/fixture/athletic-b2.mjs` (applied by both builds after `round3.mjs`).
+> * **New module `engine/athletic.mjs`** (owner B2): `stagesForStairway(model, st, level)` (Receive-Create stage per week, changing
+>   only at an exercise-block boundary; shape.mjs calls it), `responseOf`, `isUpperPlyo`, `athleticKeyOf(bucket, ex)` (adds the key
+>   `upper_contacts`), `cueKeyFor(ex, stage, model)`, `perSetBounds(model, key, ex, progress)`, `sprintMetres`, `throwSided`,
+>   `endTestHold`, `rampProgress`, `splitContacts(H, Ppro, Lo, T, share, stage)`, **`athleticBudget(derived, shape, model)`** (moved
+>   here; `volume.mjs` re-exports it, the pipeline dependency is unchanged), `circuitBallistic(derived, model)`,
+>   **`planAthletic(model, derived, shape, budget, weeksItems)`** -> `{weeks: [{slot_plan: {slot_id: {per_set, per_leg, key}}, goals,
+>   scale, hold}], warnings}`, `plannedAthletic(items)`, `plannedShare(planned)`. `budget.olympicSetsForIndex(derived, model,
+>   exposures, week, index)` (the per-exposure Olympic sets; volume.mjs reads it).
+> * **Pipeline** (§4.12): `generate` collects every week's items first, then `planAthletic` doses the athletic stations of the whole
+>   block, then each week is dosed (`doseItem` input `athletic` carries `slot_plan`; plyo / throw / COD / sprint doses use it).
+> * **Catalog** (§3.2): `athletic` gains six fields, in this order after `count_unit`: `response` (`landing|single|repeat|null`),
+>   `upper` (bool), `low_amplitude` (bool), `sport_only` (sport ids or null), `no_cuts` (bool), `sprint_kind`
+>   (`acceleration|max_velocity|drill|run|null`). A single-response plyometric is never tagged `plyo_repeated`.
+> * **Rules** (§3.3): `athletic.stages.align_to_exercise_blocks`, `athletic.response_cues`, `athletic.rc3_plyometric_response`,
+>   `athletic.split`, `athletic.reconcile` (+ `scale_to_capacity`, `climb`, `hold_end_test_week`, `unilateral_counts_both_legs`,
+>   `unilateral_contacts_per_leg_max_low`, `climb_families`; `per_set_max.sprint_m` 240), `athletic.first_reactive`,
+>   `athletic.cod`, `athletic.sprint` (metres by drill, `round_m`), `athletic.circuit_ballistic`, `athletic.hyrox`,
+>   `olympic.sets` (+ `climb`, `distribute`, `hold_end_test_week`), `selection.olympic_never_in_resistance`,
+>   `medball.no_ball_only_ids`, `prehab.by_injury_code.SHOULDER_SWIMMER` (+ `each_session`, `each_session_sets`,
+>   `each_session_sports`), `plan_types.prep.taper_weeks_by_sport`, `population.older.default_on` / `quick_stepping_*` /
+>   `fast_intent_note`, `population.active_aging_50.opt_in_field`. Profiles: `sprint_focus`, `plyo_rules.exclude_tags_age_50`,
+>   HYROX `template_hint`. Templates: `athletic.4` variant `hyrox` (S1 / H1 / S2 / H2; program `OTHYX`); a `COND_AEROBIC` station
+>   whose `variant` names a colour takes that colour.
+> * **Targets** (§4.5 athleticBudget): `jump_contacts` = ballistic / landing jumps, `plyo_contacts` = reactive jumps,
+>   `low_contacts` = ankle work - the 04 volume split by the plyo share (reactive jumps + ankle work over all jump and throw work);
+>   stage 1 has no reactive jumps; the end-test week holds the week before (`hold`); 60+ default keeps landings, light throws and
+>   quick stepping; a general-population circuit keeps its throws.
+> * **Plan additions** (§5, additive): `week.athletic_budget` adds `planned.upper_contacts`, `planned_share`, `goals`, `scale`,
+>   `hold`; `item.athletic` adds `key`, `response` (a single-leg drill's `per_set` counts both legs; `reps.value` is per leg).
+>   New warning `warning.athletic_capacity {key, pct, training_block}`.
+> * **V27** (§6) checks over, under the goal, drops inside a stairway block, an untold peak under 60 %, stage / jump exercise
+>   changes inside an exercise block, stage-3 single-response drills and sport-only COD drills.
+
+> **Engine 0.4.0 amendments, stage B3 (exercise selection, variation and rendering; model 1.3.0; 2026-10-09) - binding.** Decisions:
+> `engine/DECISIONS.md` E-46 ... E-63; model data: `tools/fixture/render-b3.mjs` (applied by both builds after `athletic-b2.mjs`).
+> * **select.mjs** (owner B3) exports `variationValues(model, ex, kitTokens, painAreas)` (the concrete one-detail variations of a record,
+>   `[{axis, key: 'detail.v.<id>', value}]`), `isNearDuplicate(model, a, b)`, `detailDistance(a, b)`; `aerobicPick(colour, derived, model,
+>   seed, slotId, ebIdx)` (6th parameter: the exercise block inside the training block). `SlotFill.detail` = `{axis, key, value}` (the
+>   axis-only `detail.<axis>` keys are no longer emitted). `Selection.history` (`{<slot_id>: [ids of earlier blocks], details: {...}}`) is
+>   internal to the pipeline (not in `plan/2`). Block changes (§4.7): a real one-detail alternative first (any kit, at least one slot a
+>   day), else a concrete detail, else no change; near-duplicates never share a session; the lead chest press, the canonical axial work
+>   lift, two-arm presses for heavy-powerlifting clients, home substitutes only when needed, core once a week with same-plane swaps.
+> * **dose.mjs** (owner B3): `doseAerobic(slot, weekShape, derived, model, fill)` (5th parameter: the fill names the session's pattern);
+>   `doseItem` input `block_first_sets` (the slot's sets in the exercise block's first week: the pyramid is decided per block). Effort:
+>   intensifiers only in the last stairway week, one a day (`last_set: 'myo'` on the last small-muscle / machine isolation item;
+>   `intensifier: true` on that item only; no `'max'` while `rules.effort.intensifiers` exists); a resistance circuit station
+>   `{type:'rir', min, max, rpe_min, rpe_max, last_set, intensifier:false, circuit:true, key}`; an aerobic session
+>   `{type:'aerobic', colour, modality, pattern}`. Rest `{type:'after_pair', min?, max?}` (a pair with the work lift keeps the strength
+>   rest). Load `{type:'lb_range', unit:'dumbbells'|'kettlebell', min, max}` (WOD stations; `wod.station_loads[]`).
+> * **render.mjs** (owner B4, stage B3): `view: 'overview'` (macro tables for screenshots); every plan opens with the use-at-your-own-risk
+>   line and the link of `rules.legal.disclaimer_url[lang]` (R3-GEN-01; a short line on block / week / day views and fragments, refer and
+>   invalid plans too); 'Your schedule' from `plan.time_check`; per day: the switch-off line (`toggle_blocks`), superset suggestions
+>   (`superset_recommendations` not on; hidden by `prefs.superset_recommendations: 'hide'`), pair tags `[A1]`; the stairway table week ·
+>   level · effort · sets (circuits: work seconds); weekly sets per FOCUS group; the week at a glance; failed checks via
+>   `check.failed.<id>`; day titles rebuilt from the day's lifts; a Christmas / New Year notice. Tables stay at most 4 columns.
+> * **explain.mjs**: a weekday inside a Spanish sentence is lower case; a reason with a count of 1 takes `<key>_one` when it exists.
+> * **Derived** (intake.mjs, additive): `D8_kit.cardio_options`, `D8_kit.running_space`. **shape.mjs**: the athlete rep phase follows
+>   `reps.athlete_vol_phases.by_season_phase` of the exercise block's first week.
+> * **Rules** (§3.3, additive): `selection.variations`, `selection.near_duplicate`, `selection.lead_press`, `selection.powerlifting_presses`,
+>   `selection.barbell_l1_50_pain`, `selection.home_substitute_only_when_needed`, `selection.assisted_id_re`, `selection.core_week_unique`,
+>   `selection.core_swaps_same_plane`, `selection.hotspots.LOW_BACK_ROTATIONAL`, `selection.pain_avoid_id_patterns`,
+>   `selection.class_work_prefer_id_patterns`, `selection.skill_rotate`, `selection.block_change` + `one_detail`, `max_distance`,
+>   `no_return_to_earlier_pick`, `never_olympic_tag`, `constraint_up_max_l2_l3`, `week_unique`, `concrete_detail_only`;
+>   `selection.generic_id_patterns` + 6 patterns; `effort.intensifiers`, `effort.circuit_rir`; `reps.pyramid.never_lift_styles` /
+>   `decide`; `rest.pair_with_work_lift`; `conditioning.aerobic_b3` (ladder, level start, climb, patterns, modalities);
+>   `conditioning.wod.station_loads_lb` / `calorie_station_generic`; `legal` (`disclaimer_url`, owner, nothing stored);
+>   `prehab.preferred_by_code.ELBOW_LATERAL_RACKET` starts with the catalog's wrist extension. Catalog (no shape change): the lunge /
+>   split-squat family and full-catch Olympic records carry `deep_knee_flexion`.
+> * **i18n**: `detail.v.<id>`, `ui.plan.own_risk*`, the schedule / switch / superset / macro-table / test / aerobic / WOD words,
+>   `check.failed.V28` / `V29`, `cardio.modality.*`, `block.short.*`; retired: `felt.*`, `intake.error.week_by_week_needs_checkin`.
+
+> **Engine 0.4.0 amendments, stage B4 (integration; model 1.3.0; 2026-10-09) - binding.** Decisions: `engine/DECISIONS.md`
+> E-64 ... E-80; model data: `tools/fixture/integrate-b4.mjs` (applied by both builds after `render-b3.mjs`); tests
+> `tests/review-b4.test.mjs`; sweep `tools/sweep.mjs`.
+> * **Rules** (§3.3, additive): `session.time_fit.keep_work_lift = {families: ['hybrid_crossfit'], roles: ['work'], sets: 3, reason:
+>   'class_lift', refs, status}` - the class model's day work lift is never removed by the time check (E-64).
+> * **plan.time_check** (§5): `not_trained_directly[].reason` adds `class_lift` (a group not trained directly that keeps its class
+>   lift on a main day, at `keep_work_lift.sets`, no set stairway); `lowered_peak` lists trained groups only.
+> * **volume.mjs**: `WeekVolume.added_fills` (`{slot_id: SlotFill}`, after `added_slots`) - the fill each added slot was counted with;
+>   generate prints that pick (E-70). A template station whose same-day partners of its FOCUS group all came back empty from select
+>   leaves that day (E-69). Room cuts of a group's exercises come off the most loaded day first (E-77). A class lift leaves a day whose
+>   fixed class work cannot hold it (E-64).
+> * **budget.mjs**: `olympicSetsForIndex` returns `rules.olympic.in_season.sets` for the first `per_week` exposures of a game-heavy
+>   in-season week and 0 for the others (E-66).
+> * **dose.mjs**: `doseConditioning(slot, fill, weekShape, derived, model, input)` - generate passes the week's athletic object as
+>   `weekShape.athletic_week` (`{...AthleticBudget, stations_sets, circuit_ball_sets, slot_plan}`); a timed-circuit ball station counts
+>   throws only when it is metabolic and shares `athletic_week.targets.throws` with the week's other ball rounds (E-65).
+> * **athletic.mjs**: `planAthletic`'s never-drop raise stops at the V27 over-budget limit of the key (E-71).
+> * **week.mjs**: the Olympic exposure trim removes unfillable stations first (E-68); joint care: every weekly code takes one session
+>   before any code takes a second (E-75); the jump test goes to a jump day without a strength test or the speed / agility test (E-79).
+> * **render.mjs**: 'Your schedule' prints `ui.plan.not_trained_class_lift` (reason `class_lift`) and `ui.plan.not_trained_time_none`
+>   for a 'time' group the block gives no credited set (E-76); a class-model day title with no day code is rebuilt from its lifts
+>   when it names a piece the day no longer holds (`ui.plan.day_title_plain`, E-78).
+> * **generate.mjs**: a test week's long day with a work-up is `warning.test_day_long` (E-73).
+> * **Validators** (§6): see the B4 readings under §6.
+>
+> **Engine 0.4.0 amendments, fix round 2 / F1 (time, volume and structure; model 1.3.0; 2026-10-09) - binding.** Decisions:
+> `engine/DECISIONS.md` E-135 ... E-159; model data: `tools/fixture/fix-r2-f1.mjs` (applied by both builds after `fix-r1-f3.mjs`);
+> tests `tests/review-r2f1.test.mjs`. One field retired (`meta.tests.reminders`), everything else additive.
+> * **Rules** (§3.3, additive): `placement.added_slots.big_lines_on_optional_day = 'focus_only'` + `optional_focus {slots, sets_max}`;
+>   `stairway.hold_rules.{main_days, total_hold_max_frac}`; `stairway.release_rounding.mode = 'scheduled'` (was `half_up`);
+>   `session.time_fit.{keep_order_r2 {pin_first_50_racket, athletic}, stay_active_room_cuts, keep_day_patterns, offer_lengths[],
+>   offer_block_off_min, circuit_credit_donors[]}`; `volume.pattern_keep.main_day_pairs`.
+> * **Templates** (§3.4): `athletic.3` S1 / S2 are cross pattern; the v1.1 days are the variant `same_pattern` (label keys
+>   `day.athletic.3.same_pattern.S1 / S2`); `hybrid_crossfit.4` `crossfit_style_bootcamp` day labels and Olympic placement follow the
+>   class split; `fat_loss_bootcamp.3` BC3.s09 is a chest press; `aesthetics.6` `ppl_x2` Pull.s10 has variant `side`.
+> * **meta.tests** (§5): `test_days: [{week, weekday, date, tests[]}]` - the calendar days that hold a test item - and `test_dates:
+>   string[]` (their ISO dates, in order). **`reminders` is retired** (E-147); render prints `test_dates`.
+> * **plan.time_check** (§5): `blocks_off: [{block, minutes}]` (blocks the time check switched off for a stay-active plan, also per
+>   `by_block[]`); `offered.session_minutes_some: {min, groups[], peak?}` (the smallest longer session that trains one more group
+>   directly, or - `peak: true` - lifts those groups' peak); `offered.block_off: [{block, minutes}]`. Offer keys added:
+>   `offer.optional_day {day}`, `offer.longer_sessions_some {min, group}`, `offer.longer_sessions_peak {min, group}`, `offer.block_off
+>   {block, min}`, `offer.block_on {block, min}`; why key `why.pattern_kept_main`.
+> * **Days** (§5): `days[].toggle_items: [{slot_id, block_id, kind: 'athletic' | 'accessory', toggle, removable}]` - a circuit's
+>   stations a person may switch off (athletic / cardio stations, `toggle: true`) or remove (accessory stations). `toggle_blocks`
+>   is unchanged.
+> * **Origins**: `pattern_kept` may sit on a MAIN day (E-145): the slot carries `pattern_partner` (the work lift's slot id), the pair
+>   / superset id of that lift, fixed sets, `why.pattern_kept_main`; generate places it right after its partner.
+> * **Weeks**: `weeks[].circuit` adds `from_s` / `to_s` (the stairway's first and last work seconds); `shape.circuitWorkSeconds(N,
+>   steps, CS, maxStep)` with `maxStep` = the approved steps from `work_s_start`, the start lowered only when the product would end
+>   above `work_s_max`; week N ends at or under the top (E-153; supersedes the E-93 line above). Volume weeks add
+>   `stair_sets_by_group` (the sets on the days the stairway is placed on).
+> * **timefit.mjs**: `supersetMinutes` counts round by round - a partner's extra sets rest like its own straight sets (E-142).
+> * **volume.mjs**: the optional-day policy (E-135), the relaxed footprint (E-138), the optional Calves slot (E-139), the keep order
+>   (E-140, E-156), stay-active room cuts (E-143), day patterns (E-144), main-day pattern stations (E-145), the whole-set schedule
+>   (`buildSchedule`, E-146), the schedule offers (E-148; the time check is re-run with `minutesOverride`), circuit donors (E-149),
+>   a Focus line's laterality fallback and the Focus cap clamp (E-154); a circuit day never keeps a group on one lone station, and
+>   a recovery / taper week holds only the circuit stations of the stairway before it (E-150).
+> * **generate.mjs**: `fillFor` passes the day's layout for an engine-added slot; `testDaysOf`; `sequenceCircuits` (E-151);
+>   `toggle_items`; the MYO item outside a superset pair (E-158). **intake.mjs**: `derived.r3_pending` without the approved ids (E-157).
+> * **Validators** (§6): H21 adds the rules `main_days_flat`, `flat_second_half_main_days`, `group_hold_main_days` (on
+>   `main_sets_by_group`) and `total_hold {holds, max}`; H03 adds `circuit_power_after_strength`; V19 skips `olympic_every_week`
+>   when the power block is in `time_check.blocks_off`; V22 / H17 count the optional Calves slot below 4 main leg days and read a
+>   `pattern_kept` station as not direct; V23 / H18 check circuit days (the minimum only) and exempt a `pattern_kept` station; V12 /
+>   V17 never count an exercise running inside a superset pair as 'the last eligible' for the MYO.
+> * **Minimal seams outside the area**: `render.mjs` (test dates from `meta.tests.test_dates`; a circuit's switchable station by
+>   name in the day's switch line), `dose.mjs` (`why.circuit_stairway` prints `from_s` / `to_s`).
+
+> **Engine 0.4.0 amendments, fix round 2 / F2 (athletic work; model 1.3.0; 2026-10-10) - binding.** Decisions: `engine/DECISIONS.md`
+> E-160 ... E-177; model data: `tools/fixture/fix-r2-f2.mjs` (`amendRulesR2F2`, `amendSportR2F2`, `amendExerciseR2F2`, `UI_R2F2`,
+> `R2F2_FINAL`; applied by both builds after `fix-r2-f1.mjs`); tests `tests/review-r2f2.test.mjs`. Additive: no field removed or
+> renamed.
+> * **Rules** (§3.3, additive): `athletic.reconcile.climb_families` = `{jumps: [plyo_contacts, jump_contacts], ankle: [low_contacts],
+>   throws, cod_cuts, sprint_m}` (the old `contacts` family is split) and `reconcile.warn_below_share` 0.85 (the engine default was
+>   0.6); `athletic.r2` = `{scale {monotone_across_exercise_blocks, family_spill}, set_climb {enabled, max_extra_per_station,
+>   sets_max{}, room_factor}, ankle_second_day {opens_when_target_holds_min, in_warmup_window}, share_end_clamp {enabled,
+>   balance_parts}, even_steps {enabled}, flat {run_slack, target_rise_min, under_target}, pre_season_hold {keys[]}, tests
+>   {replace_station {sprint[], cod[], jumps[]}, end_week_test_days, class_end_week_olympic, hold_for[]}, selection {other_sport
+>   {buckets[], penalty, generic_ids[]}, first_block_single_leg {levels[], min_unilateral_pct, qualities[]}, lateral_quota {min_pct,
+>   bonus}, low_impact {floor_jump, box_jump}, backward_hops_avoid {id_re, codes[]}, single_leg_reactive_heavy {max_wk, penalty},
+>   throw_change_per_block {same_as_previous, earlier_block}, cod_tiers {by_id{}, match, above, below, reactive_before_rc2,
+>   reactive_from_rc2}, circuit_throw_plane_rotate {min_pct, other_plane, same_plane}, upper_plyo_to_jump_when_short,
+>   olympic_by_day_lift}}`; `athletic.f2.ankle_block.bone_loading_min_peak` 20 (was 40); `athletic.f2.pick_ok_ids` + 3 ids;
+>   `athletic.circuit_ballistic.per_round` [6, 10]; `conditioning.wod.density {enabled, emom_whole_rounds, hold_total}` and
+>   `conditioning.wod.rotate_r2 {previous_block_group, same_exercise_week}`; `prehab.by_injury_code.SHOULDER_SWIMMER` adds
+>   `each_session_sets` 2, `each_session_time_class: 'prehab_in_rest'`, `each_session_keep`; `time_model` adds the class
+>   `prehab_in_rest` (the prehab work, no rest of its own); `medball.loads_lb.situp` [8, 10].
+> * **Profiles** (§3.5): a sport's `pre_season.TE` / `.SPRINT` / `.COD` factors are never under 1 (R2-PER-06). **Catalog** (§3.2):
+>   8 records gain the tag `deep_knee_flexion` (the split / lunge jump family, hang clean / snatch with no stated catch).
+> * **athletic.mjs**: **`planAthletic(model, derived, shape, budget, weeksItems, opts = {})`** - `opts.rooms`: per week `{weekday:
+>   minutes left on the day}` (the set climb reads it; without it no set is added). An item may carry `time_class`, `order` (its
+>   track index), `main`, `free` (a warm-up ankle day: no minutes), `replaced` (a timed test takes its place: it is dosed with its
+>   week and left out of the day) and `test_day` (the day holds a test). Result per week: `slot_plan[slot_id] = {per_set, per_leg,
+>   key, sets?}` - `sets` is set whenever the stairway changes a station's sets (one more set, the share's ankle set, the baseline
+>   dose; **0 = the station waits this week**, e.g. the second ankle day before its exercise block; `{key: 'olympic_sets', sets}`
+>   for an Olympic station in the end-test week), `goals`, `scale`, `share {target, planned, moved?[]}`, `replaced {key: amount}`,
+>   `test_dose` ('baseline' | 'class_no_power'), `minutes_delta {weekday: minutes}` (what the set changes add to or take off the
+>   day), `hold`. New export **`olympicVariantByDay(variant, lowerBucket, rules)`** ('clean' on a knee-dominant work-lift day,
+>   'snatch' on a hip-dominant one; shared by select and V19). `ensureAthleticStations` marks an ankle station's `track_index`, a
+>   bone-loading sport's extra ankle day `prep_in_warmup`, and an upper-body plyo station it turned into a jump station `from_upper`.
+>   `endTestHold` reads `r2.tests.hold_for` (`budget.endTestHoldOf` mirrors it).
+> * **select.mjs**: the round-2 athletic scores of `athletic.r2.selection` (E-167 ... E-171); the Olympic variant by the day's lift
+>   (the slot is passed on with `variant_by_day`); WOD rotation (`wod.rotate_r2`); the circuit ball station's plane rotation.
+> * **dose.mjs**: a WOD item's `wod.density` (the factor its reps climbed by; 1 on an AMRAP, which carries
+>   `note.wod_amrap_density`) and `why.wod_density`; an EMOM's minutes are whole rounds of its stations inside its range; a circuit
+>   ball station's `athletic.per_set` = throws a round (`circuit_ballistic.per_round`, held in a hold week) with
+>   `note.circuit_ballistic_ball_rest`; a swimmer's each-session shoulder care carries `note.prehab_in_rest`.
+> * **Plan additions** (§5, additive): `weeks[].athletic_budget.test_replaced {key: amount}` (what the week's timed tests took the
+>   place of; V27 counts it as planned), `.test_dose`, `.share_moved[]` (the keys the plyo share moved this week);
+>   `meta.athletic.mode` ('sport' | 'circuit_ballistic' | 'off'; `meta.athletic.enabled` is true for both of the first two); a
+>   prehab block whose rule says `each_session_keep` has `toggle: false` and is not in `days[].toggle_blocks`.
+> * **Minimal seams outside the area**: `generate.mjs` (`collectWeek` keeps the stations a timed test replaces out of the day;
+>   `athleticItemsOf` / `athleticRoomsOf`; `finishWeek` applies `slot_plan[].sets` in either direction, drops 0-set items and adds
+>   `minutes_delta` to the day estimate; `weekShape.athletic_week.prev_stair_level`); `week.mjs` (`estimateMinutes` skips a
+>   `prep_in_warmup` or `test_replaced` slot; `testPlan` returns `replaced[]` and nets those stations' minutes out of the day;
+>   `markTests` puts the jump test on a day with a lower-body jump station and the sprint / COD tests on days that hold their
+>   station, then marks that station `test_replaced`; `addPrehab` passes the rule's time class).
+> * **Validators** (§6, `CHECK_IDS` unchanged at 51): **V27** adds `early_peak` (E-166) and `hold_over` (a hold / end-test week
+>   never plans more than the week before, where the week has targets); `share_over` skips the test weeks and reads the block-end
+>   clamp; `athletic_drop` counts `test_replaced` and exempts a key the share moved; the pre-season hold keys are exempt from
+>   `goal_over_target`; `capacity_not_told` reads the jumps and the ankle work as two families against `warn_below_share` and skips
+>   circuit-only plans. **V19** adds `day_lift` (an item flagged `clean_day` / `snatch_day` matches `olympicVariantByDay`) and
+>   exempts the class model's end-test week from `olympic_every_week`.
+> * **i18n**: `note.wod_amrap_density`, `note.circuit_ballistic_ball_rest`, `note.prehab_in_rest`, `why.wod_density` (EN + ES, ES
+>   PROPOSED); `note.ballistic_repeat` reworded (runs of 2-3 jumps).
+
+> **Engine 0.4.0 amendments, fix round 2 / F3 (exercise selection, dosing and the printed plan; model 1.3.0; 2026-10-10) - binding.**
+> Decisions: `engine/DECISIONS.md` E-178 ... E-205; model data: `tools/fixture/fix-r2-f3.mjs` (`amendRulesR2F3`,
+> `amendExerciseR2F3`, `UI_R2F3`, `R2F3_FINAL`, `TEXT_R2F3`, `ES_PRIORITY_R2F3`; applied by both builds after `fix-r2-f2.mjs`); tests
+> `tests/review-r2f3.test.mjs`. Additive: no field removed or renamed.
+> * **Rules** (§3.3, additive): `selection.r2` = `{second_pass {enabled}, base_pick_bonus, repeat_in_week, upper_dial {enabled,
+>   weight, min_stations, bucket_priority[], floor_press_when_bench, keep_lead_press}, lower_dial
+>   {no_same_pattern_single_leg_pair}, no_step_down {level, levels[], flip_load_high, flip_machine, hand_held_re, hand_held,
+>   flip_hinge_prefer_re, flip_hinge_prefer, added_keep_across_blocks, focus_bodyweight_big, odd_implement_re,
+>   focus_odd_implement_full_gym}, families [{id, re, week_max?, day_max?, min_day_gap?}], family_over_week, family_over_day,
+>   family_day_gap, family_day_counts_pending_one_arm, glute_second_hip {enabled, weight, only_when_glutes_target},
+>   second_hip_knee_flexion {enabled, family}, core {plane_under, plane_over, pair_same_plane, flexion_second,
+>   flexion_on_hinge_day, heavy_avoid_re, heavy_avoid}, swaps {same_category, client_filter, max_per_stem, stem_re[],
+>   skill_families[][]}, block_change {keep_detail_when_stuck, week_distinct_details, core_backup, flip_is_the_change},
+>   push_up_band {ladder[], default_rank, max_gap, penalty}, implement_note, class_press {bucket, id, weight, families[]}}`;
+>   `selection.f3.core_low_back.hotspots` + `LOW_BACK_ROTATIONAL`; `reps.unilateral_floor {min, top_at_least, unless_pref}`,
+>   `reps.rep_floor_ids [{re, min, top_at_least}]`, `reps.rep_hint.monotone_cap {span, step, floor_min}`,
+>   `reps.core_hold_seconds.block_step {s, max_steps, cap_s}`; `rest.heavy_compound {max_reps, max_rir, s[2], rep_classes[]}`;
+>   `effort.intensifiers.never_tags[]` / `never_id_re`, `effort.bodyweight_moved_re`, `effort.circuit_alternating_note`,
+>   `effort.implement_note {key, levels[], classes[], prop_tokens[]}`; `conditioning.aerobic_b3.r2 {plan_wide_block_index,
+>   competitive_bump {levels[], by, families[]}, long_block_weeks, minutes_climb}`; `warmup.progress_by_exercise_block {levels[],
+>   max_age, not_pain[]}`; `prehab.label_by_exercise [{re, key}]`; new top-level **`render`** = `{instruction_keys_by_family
+>   {family: [keys]}, day_title_from_lead_lift, video_search_english}`.
+> * **select.mjs**: `selectBlock(ctx)` accepts **`ctx.live`** (Set | string[] of the slot ids that hold sets in some week of the
+>   exercise block; null = the first pass), **`ctx.base`** (the first pass's Selection of the same exercise block) and
+>   **`ctx.frozen`** (no dial flips, no knee-flexion conversion). Without `ctx.live` the round's rules are off and the result is the
+>   first pass. With it: live resistance / isolation / Focus / core stations are picked again under `selection.r2`, each inside the
+>   profile of its first-pass pick (two-arm / one-arm class + credit class; a circuit's upper station: credit class only); every
+>   other station and every fallback pick copies the first pass's fill. `fillSlot(slot, ctx)` accepts `ctx.prev_added` (the added
+>   slot's exercise in the previous exercise block), `ctx.base_added` (its first-pass fill), `ctx.prev_week_added[]` and
+>   `ctx.week_used` as a list (repeats count). New exports **`SECOND_PASS`** (true; the orchestrator runs the second pass only when
+>   `deps.SECOND_PASS === true`), `aerobicPick(colour, derived, model, seed, slotId, ebIdx)` reads `aerobic_b3.r2` (the index is the
+>   plan-wide exercise block index when `plan_wide_block_index`). New SlotFill flag **`second_hip_knee_flexion`** (the fill's bucket
+>   is `ISO_LEG_FLEXION` on a single-leg hinge slot; the item's group stays hips); `laterality_flip` also marks an upper station the
+>   dial turned. New why-codes: `why.laterality_share_upper`, `why.second_hip_knee_flexion`, `why.glute_second_hip`.
+> * **dose.mjs**: `Load` adds `{type: 'week1_tip', rir}` (the week's planned effort; render prints `load.week1_tip_rir`); a rest may
+>   carry `heavy: true` (`rest.heavy_compound`); an aerobic `effort` may carry **`rung`** (the ladder record whose pattern the week
+>   runs when a long exercise block climbed mid-block - the item's `exercise_id` stays the block's record) and its `reps` are one
+>   value a week inside a stairway's exercise block (`{type: 'minutes', min: m, max: m}`); new notes `note.hold_weights`,
+>   `note.circuit_alternating`, `prehab.label_ex.shins_ankles`; new why-codes `why.unilateral_floor`, `why.rep_floor`,
+>   `why.aerobic_rung`. `intensifierEligible` reads `never_tags` / `never_id_re`.
+> * **explain.mjs**: new export **`listAnd(model, lang, items)`** ('a, b and c' / 'a, b y c'); `resolveArgs` joins an array given as
+>   `day` / `days` / `weekday` with it; `changesText` prints `changes.new_exercise_block_n` / `_one` / `_same` from the week's own
+>   items and `changes.load_up_circuit` / `_same` in a circuit week.
+> * **render.mjs** (words only, no new plan field): the header's dates in words (`date.dmy`, `date.month_short.1-12`), the client's
+>   own Focus picks (`meta.derived.priority_choices`) and their rows in the weekly table; 'Before you start': `ui.plan.days_over`
+>   (+ `_mixed`, `_item`, `_item_one`, `_item_all`), `warning.supersets_needed_save`, `warning.athletic_capacity*_activity`,
+>   `ui.plan.holiday_weeks_no_test`; 'Your schedule': `ui.plan.kept_exercise` (+ `_item`), `not_trained_credit_all`,
+>   `below_floor_circuit` / `_class` / `_hold`; instructions by family (`rules.render`), `instruction.2_bridge`; 'How to adjust':
+>   `guide.adjust.edit_blocks` / `edit_none` / `edit_supersets` / `accessories` / `edit_stations` / `swim`; the stairway intro
+>   `plan.stairway_intro_plain`; `ui.plan.test_days` (+ `_week`); the weekly athletic line `ui.plan.ankle_contacts`;
+>   `ui.plan.test_end_stations`; the block table prints each exercise block's name and reps; `ui.plan.day_title_cardio` and a
+>   `<label_key>.with_cardio` label; `ui.plan.day_over_circuit`; `reps.fixed_one`; the video search of a non-English plan uses the
+>   English exercise name.
+> * **Minimal seams outside the area**: `generate.mjs` - `run(deps, intake, model, ropts = {})`; the layouts are rebuilt for each
+>   selection / volume pass; after the first volume pass, when `rules.selection.r2.second_pass.enabled` and `deps.SECOND_PASS ===
+>   true`, the selections are made again with `live` / `base` and the volume engine runs again; the pass is redone frozen when a
+>   trained group is lost or a below-floor group appears, and the whole run is repeated frozen when the finished plan fails an error
+>   check (the plan with fewer failing error checks is returned). `validate.mjs`: `myoLastEligible` reads `never_tags` /
+>   `never_id_re`. `build-fixture.mjs`, `compile-model.mjs`, `tools/compile/i18n.mjs`: one import + calls each (`TEXT_R2F3` after
+>   `TEXT_F3`; `ES_PRIORITY_R2F3` joins `es_review.priority_review`).
+> * **Validators** (§6): unchanged (`CHECK_IDS` 51).
+
+> **Engine 0.4.0 amendments, fix round 1 / F1 (time, volume and structure; model 1.3.0; 2026-10-09) - binding.** Decisions:
+> `engine/DECISIONS.md` E-81 ... E-96; model data: `tools/fixture/fix-r1-f1.mjs` (applied by both builds after `integrate-b4.mjs`);
+> tests `tests/review-f1.test.mjs`. Additive: no field removed or renamed.
+> * **Rules** (§3.3, additive): `volume.one_target_groups {groups, modifiers, unless_focus}`, `volume.calves.{athlete_cap_modifiers,
+>   athlete_climb, optional_slot_below_leg_days}`, `volume.rear_from_rows_min` (1.5), `volume.pattern_keep {buckets, order, sets,
+>   max_per_week}`, `stairway.release_rounding {mode: 'half_up'}`, `stairway.hold_rules {min_N, min_climb, hold_extra_weeks}`,
+>   `placement.added_slots {entry_sets, only_at_exercise_block_start, big_lines_on_optional_day}`, `prehab.credits: 'none'` (was
+>   by catalog), `time_model.skill_in_warmup_min` (6) + `skill_in_warmup_short {at_or_below_minutes, min}`, `tests.replaces_top_set
+>   {back_off_rir_add, back_off_rir_min}`, `r3_approved[]` (the 13 round-3 ids), `ordering.block_editing.id_format` =
+>   `blk.<weekday>-<day_type slug>.<kind>.<n>`.
+> * **Block ids** (§5): `blk.<weekday lower-case>-<day type slug>.<kind>.<n>` (slug: a-z, 0-9, '-'), e.g. `blk.mon-a1.strength.1` -
+>   unique within a week, the same id every week of the block (E-90).
+> * **Test items** (§5): when `rules.tests.replaces_top_set` is set and the lift has 2+ planned sets, the `.test` item IS the week's top
+>   set - 1 set, the lift's `credits`, `note.test_top_set_replaces {test}` (else `note.test_top_set`, `credits {}`); the lift's own
+>   item carries the other `sets - 1` as back-off sets: item flag `back_off`, effort RIR = planned + `back_off_rir_add` (at least
+>   `back_off_rir_min`, at most 3), `note.test_back_off {n, rir}` first. V14 counts the top set; V17 accepts the back-off effort; V12 /
+>   H04 read a test of a work lift as the work lift (E-91). `SlotFill` / item `flags` add `back_off`.
+> * **Origins** (§3.4 SlotDef / item `origin`): add `circuit_swap` (a circuit station that took a donor station's place; was
+>   `bonus`) and `pattern_kept` (a big mover's pattern station on the optional day, fixed sets, no stairway; slot suffix `.yNN`).
+> * **plan.time_check** (§5): `trained_below_floor[].reason` adds `circuit_time` (a big group a timed circuit holds below its floor,
+>   no donor station; E-93); `lowered_peak` may list groups of a plan that `fits` when the peak allocation holds less than the
+>   level ceiling (E-92).
+> * **Superset recommendations**: `days[].superset_recommendations` also lists the pairs `generate` forms from exercises whose layout
+>   partner was cut (an isolation and the joint care at the head of the next block may pair; ids `X<n>`, E-90).
+> * **volume.mjs**: keep order, peak guard, structure cut, one hips target, half-up release, 2-set added exercises, compound-first
+>   steps, calves, pattern stations, the absolute ceiling (`volume.priority.absolute_cap` on every line's all-days total), the main-day
+>   total in the block verification; the week's 7 % ceiling counts the main days, the all-days total stays under
+>   `stairway.limits.total_weekly_ceiling` (E-81 ... E-95).
+> * **shape.mjs**: `circuitWorkSeconds(N, steps, CS, maxStep)` - with `maxStep` the steps scale up so the last week reaches
+>   `work_s_max` (E-93).
+> * **week.mjs**: `estimateMinutes` costs a skill folded into the warm-up (E-96); `pairRemaining` (E-90); racket 50+ arm care
+>   `keep_main_day` (E-89); the class model tests its work lifts (E-91).
+> * **Validators** (§6, `CHECK_IDS` unchanged at 51): V13 adds `line_absolute_cap`; V18 counts the rows' rear-delt credit
+>   (`rear_delt_weekly` needs a rear-delt station or `rear_from_rows_min` row credit; not judged when back is not trained directly) and
+>   reads `circuit_time`; H21 adds `flat_second_half` and `group_hold` (`stairway.hold_rules`; big groups, planned climb 3+, not held
+>   below the floor, below the absolute ceiling) and needs the calves' climb from a group held below its floor.
+>
+> **Engine 0.4.0 amendments, fix round 1 / F2 (athletic work; model 1.3.0; 2026-10-09) - binding.** Decisions: `engine/DECISIONS.md`
+> E-97 ... E-109; model data: `tools/fixture/fix-r1-f2.mjs` (applied by both builds after `fix-r1-f1.mjs`); tests
+> `tests/review-f2.test.mjs`. Additive: no field removed or renamed.
+> * **Rules** (§3.3, additive): `athletic.f2 = {share {tolerance, enforce}, ankle_block {outside_day_split, outside_athlete_cap,
+>   time_class, bone_loading_days, bone_loading_min_peak, bone_loading_codes, keep_for_ankle_track, keep_from_minutes}, tracks
+>   {from_budget, per_station {jumps, throws, low_contacts, cod_cuts}, max_stations {jumps, throws, low_contacts, cod_cuts, sprint_m},
+>   sprint_second_station, add_from_minutes}, ballistic_stage_cues {RC1, RC2, RC3}, stage_drill_change {enabled,
+>   ankle_first_block_in_place}, throws {per_set, per_side, situp_range, one_side_id_re, majority_plane_first}, cod {reps_from_cuts_per_rep,
+>   reactive_drill_ids, cuts_per_rep{}}, contacts_per_cycle{}, sprint {max_velocity_station}, olympic_ceiling {enabled,
+>   hang_before_floor}, pre_season_after_single_block, pick_ok_ids[]}`; `athletic.stages.pre_season_after_single_block`
+>   ('advance_one'); `athletic.reconcile.per_set_min.throws` 6 (was 8), `.low_contacts` 6 (was 10); `time_model.work_minutes.ankle`,
+>   `rest_class_minutes.ankle`, `rest_class_by_time_class.ankle`, `minutes_per_set.ankle`.
+> * **Profiles** (§3.5, additive): `sports[].olympic.ceiling` ('power' | 'pull', from 04 `triple_ext.ceiling`), `sports[].cod_reactive`
+>   (04 `cod.reactive`).
+> * **athletic.mjs** (new exports): `ensureAthleticStations(mains, ctx, kit, olderDefault, helpers)` (the tracks' stations from the
+>   block's peak targets; called by `week.ensureAthleticTracks` when `rules.athletic.f2.tracks.from_budget`; marks slots `track`,
+>   `track_added`, `ankle_block`, `ankle_keep`, `time_class: 'ankle'`, `counts_in_cap: false` for the ankle block), `pairAthleticBlock(day)`
+>   (the jump + throw contrast pair `AJ1`, superset_eligible), `isFloorJump(ex)`, `olympicAboveCeiling(ex, sport, rules, derived)`.
+>   `planAthletic` result: `weeks[].slot_plan[slot_id].sets` (only when the stairway runs the ankle block at fewer sets than the
+>   volume engine gave it; `generate` applies it) and `weeks[].share {target, planned}`; warnings `athletic_capacity` may carry
+>   `args.key` `athletic.key.jumps` / `athletic.key.ankle` (or `contacts`) and the key `warning.athletic_capacity_block` (the family
+>   climbs across the block, not every week). `cueKeyFor` returns the stage cue of a single ballistic jump (`note.ballistic_stick` /
+>   `note.ballistic_land_go` / `note.ballistic_repeat`). `perSetBounds`: throws 6-10 (5-10 a side), the sit-up pass not fixed, COD and
+>   patterned hops in whole reps / patterns. `athleticBudget`: no throws in the kit -> the share split counts the jumps only.
+> * **select.mjs**: the Olympic ceiling filter (step 'profile'); pick-ok athletic records; stage / direction / single-leg / ladder /
+>   one-side / main-plane scoring (E-99, E-101); the reactive : ballistic station count from the exercise block's targets.
+> * **dose.mjs**: a COD drill with several cuts a rep -> `reps {type: 'fixed', value: reps}` + `note.cod_reps {cuts}` (athletic per_set stays
+>   in cuts); a ballistic circuit station's effort is `effort.max_intent`.
+> * **week.mjs**: the Olympic budget trim runs before the athletic tracks; the ankle block is outside the jump / throw split, the
+>   athlete-cap count and the stay-active 'one athletic station a day' cut; the athlete-cap trim removes priority groups last; the
+>   jump test may join the speed-test day before it joins a rep-max day.
+> * **shape.mjs**: a pre-season after a single-exercise-block stairway takes the next Receive-Create stage.
+> * **generate.mjs**: applies `slot_plan[].sets`; a ballistic circuit station opens its circuit.
+> * **Validators** (§6, `CHECK_IDS` unchanged at 51): V27 adds `share_over` (E-97) and reads the split capacity warnings; V13 leaves
+>   the ankle block out of the athlete cap; V19 reads the Olympic ceiling.
+> * **i18n**: `note.ballistic_stick`, `note.ballistic_land_go`, `note.ballistic_repeat`, `athletic.key.jumps`, `athletic.key.ankle`,
+>   `warning.athletic_capacity_block`, `note.cod_reps`, `why.olympic_ceiling`, `olympic.ceiling.power` / `.pull` (EN + ES, ES
+>   PROPOSED).
+>
+> **Engine 0.4.0 amendments, fix round 1 / F3 (selection, dosing and the printed plan; model 1.3.0; 2026-10-09) - binding.** Decisions:
+> `engine/DECISIONS.md` E-110 ... E-134; model data: `tools/fixture/fix-r1-f3.mjs` (`amendRulesF3`, `amendExerciseF3`, `UI_F3`,
+> `F3_FINAL`, `TEXT_F3`, `ES_PRIORITY_F3`; applied by both builds after `fix-r1-f2.mjs`); tests `tests/review-f3.test.mjs`. Additive:
+> no field removed or renamed.
+> * **Rules** (§3.3, additive): `selection.f3 = {dial {all_lower, keep_axial, skip_roles, flipped_bilateral_counted}, non_spinal_hinge
+>   {prefer_re, avoid_re, deadlift_re, weight, hotspot_extra, hotspot_avoid, second_bilateral_deadlift, hotspots}, core_low_back
+>   {hotspots, anti_bonus, avoid_re, avoid}, hanging_core {re, penalty}, core_swaps_by_category, swaps_not_on_day,
+>   axial_high_non_axial_day, families[] {id, re, lying?}, family_penalty, lying_week_max, powerlifting_canonical {lift_style, prefer{},
+>   weight}, glute_with_leg_curl {enabled: false, ...}, level_hard {skills, max_ladder, circuit_any_above}, delt_variants
+>   {side_focus_choices, side_focus_keep_rear, second_rear_to_side}}`; `selection.hotspots.ACL_LANDING_CUTTING` / `.LOW_BACK_LOADING`;
+>   `selection.variations.values` (`incline_bench` / `kettlebell` / `plate_at_chest` never contradict the record name, new `db_at_chest`);
+>   `rest.after_pair_numbers` (true); `reps.rep_hint.cap_max_compound_lte` (10); `reps.preference.heavy_powerlifting.first_lift_of_day_shift`
+>   -2 (was -1); `reps.athlete_vol_phases.off_late_single_block_step {enabled: false, from, to, at}`; `reps.class_levels.strength_buckets`;
+>   `effort.circuit_intensifier {enabled, kind: 'hold', per_day, hold_s}`; `legal.parq_url`.
+> * **i18n** (§1.6): `es_review.json` may hold `priority_review[]` (translated ES lines the coach should review first; sorted, unique).
+> * **select.mjs**: the laterality dial takes every lower station but the tested lifts and the counted axial squat / hinge, one way only
+>   (toward the plan's end share); FOCUS slots of a lower muscle steer the share; delt stations take side / rear picks by the client's
+>   Focus (`why.delt_variant`); above-ladder high-skill picks (any above-ladder pick in a timed circuit) are fallbacks; a hot spot's
+>   avoided pick, or an above-level one, is `weak` (the real exercise comes back with a detail); swaps never name another exercise of the
+>   day; the F3 weights (`f3Score`).
+> * **dose.mjs**: new export `intensifierEligible(slot, fill, exercise, derived, model)`; `doseItem` reads `position.is_last_intensifier`
+>   when given (else `is_last_resistance`); a superset partner's rest is `{type: 'after_pair', min, max}` (its class rest); a pair core
+>   item too; `repClassFor` reads a delt station's variant from the exercise it holds; a heavy two-legged compound of an athlete keeps its
+>   rep-hint top in every block (`note.rep_cap`); the class strength table only on `class_levels.strength_buckets` work slots; a one-arm
+>   Olympic lift is `reps {type: 'per_side'}` + `note.per_side`; `doseConditioning(slot, fill, week, derived, model, {day, position})` for
+>   a circuit station: the last stairway week's day's last eligible station carries `effort.last_set: 'hold'`, `intensifier: true`; a
+>   `pattern_kept` slot gets `note.pattern_kept`.
+> * **generate.mjs** (minimal seams): `position.is_last_intensifier` (the day's last item `deps.intensifierEligible` accepts); a circuit
+>   station is dosed with `{day, position}`.
+> * **shape.mjs** (minimal): the late off-season VOL2 -> VOL3 step after the halfway week of a single-block stairway when
+>   `off_late_single_block_step.enabled` (off by default).
+> * **Validators** (§6, `CHECK_IDS` unchanged at 51): V12 `myo_not_last` / V17 `myo_rule` accept a MYO on the day's last ELIGIBLE item
+>   (every resistance item after it never takes one: a free-weight compound, a `never_credit_classes` lift, calves for an Achilles hot
+>   spot, a machine compound whose matrix cell has no `myo_if_last`).
+> * **render.mjs / explain.mjs**: the minutes promise only when true (`ui.plan.supersets_today_over[_none]`, `ui.plan.day_over[_none]`,
+>   `warning.supersets_needed_over`, `warning.test_day_long_tests`); every switchable block (`accessories`, `cooldown` too;
+>   `ui.plan.edit_aerobic_day`); `check.failed.V28_more_single` / `_more_two`; '(Focus)' only for a Focus muscle, else '(bonus)';
+>   the Focus muscles header line (`ui.plan.focus_add`), `ui.plan.profile_label`; one optional tag; the flat release stamp
+>   (`ui.plan.release_stamp_flat`, `release.who.*`), the health-check line (`ui.plan.health_check_ok` + `ui.plan.parq_link`), the footer
+>   link; 'climbing every week' only when true (`ui.plan.trained_directly_block`, `_circuit`, `ui.plan.schedule_fits_block`,
+>   `warning.time_lower_peak_block`), below-floor groups out of the 10+ list, `ui.plan.calves_line[_flat]`; the weekly sets table with
+>   every FOCUS group (`ui.plan.sets_not_direct`, `ui.plan.sets_class_lift`); `rest.after_pair_seconds`, `ui.plan.superset_leftover[_one]`;
+>   superset partners printed next to each other (a later block's partner after its mate); intensifier lines by day
+>   (`effort.drift_intensifier_days[_circuit]`, `effort.intensifier_days[_circuit]`, `effort.last_set.hold`, `effort.how_hard_no_int`);
+>   `instruction.1_bridge`; `ui.plan.core_supersets_line`; 'How to adjust this plan' (`guide.adjust.*`); `plan.stairway_intro_half`;
+>   change lines per FOCUS group (`changes.held_group`, `changes.at_target_group`); every test item 'Test: ...'; `ui.plan.heavy_play_plan`.
+
+**Authority for numbers and coaching rules** (highest first): `coach_answers_round3.md` (COACH-R3, newest; answered 2026-10-09) >
+`coach_answers_round2.md` (COACH-R2) > `coach_answers_full.md` (COACH-ANSWER) > `coach_answers.md` > OBSERVED sheet facts >
+`generator_spec_v1.json` 1.1.0 (+ `_meta.integration_decisions`) > `synthesis/12_volume_algorithm_v1.json` (content v1.1) > other
+synthesis files (INFERRED / SCIENCE / PROPOSED). (Before round 3 was answered the round-3 questions were **open**: the engine used each
+question's proposal, the value carried `"r3": "R3-…"` in `model/rules.json`, code had the comment `// R3-pending: R3-…`, and the plan
+lists the ids in `meta.r3_pending`; the approved answers are applied by the 0.4.0 stages above.) **Authority for shapes, names, file layout and APIs**: this file. **Every decision taken where the
 sources are silent or conflict is in `engine/DECISIONS.md` (D-01 … D-45)**; they are referenced here as `D-nn`.
 
 The canonical, machine-checked example of every runtime file is **`engine/fixtures/mini-model.json`**, built by
@@ -64,14 +480,17 @@ blaze-camp-model/                       (code root; becomes a git repo)
     fixtures/mini-model.json                           architect (generated by tools/fixture; never hand-edited)
     version.mjs  util.mjs  model.mjs                   B4 (first versions by the architect, so B2 / B3 start at once)
     intake.mjs  shape.mjs  volume.mjs                  B2
+    athletic.mjs  budget.mjs  timefit.mjs              B2 (v0.4: athletic.mjs stage B2, timefit.mjs stage B1)
     week.mjs  select.mjs  dose.mjs                     B3
     validate.mjs  explain.mjs  render.mjs  generate.mjs   B4
   tools/                                CLIs (may use node:fs, node:path, node:crypto, node:url)
-    fixture/build-fixture.mjs  fixture/*.mjs  fixture/check-fixture.mjs   architect (B1 may copy code from it)
+    fixture/build-fixture.mjs  fixture/*.mjs  fixture/check-fixture.mjs   architect (B1 may copy code from it); v0.4 amendment
+                                                       layers fixture/round3.mjs (stage B1), fixture/athletic-b2.mjs (stage B2),
+                                                       fixture/render-b3.mjs (stage B3), fixture/integrate-b4.mjs (stage B4)
     compile-model.mjs  check-model.mjs                 B1
     compile/*.mjs  compile/es/*.mjs                    B1 [1.1.1] compiler modules + Spanish tables (sources, catalog, rules,
                                                        templates-profiles, patches, crosscheck, i18n)
-    generate-samples.mjs                               B4
+    generate-samples.mjs  sweep.mjs                    B4 (sweep.mjs: the random-intake sweep, v0.4 stage B4)
   tests/                                node:test, **/*.test.mjs  (scaffold + helpers B4; module tests by module owner)
     run-all.mjs  package.json                          [1.1.1] lets `node --test tests/` run on Node 22 (a directory argument is
                                                        loaded as a module: package.json main -> run-all.mjs imports every test)
@@ -177,7 +596,8 @@ Every non-trivial decision carries one or more **why** objects (exactly these ke
   `maint.*`, `unit.*`, `felt.*`.
 * Placeholders `{name}` filled from `args`; unknown placeholders stay verbatim (never `undefined`).
 * Fallback: missing ES key → EN string; missing EN key → the key itself (and H14 fails). `model/i18n/es_review.json` =
-  `{"missing_keys": [...], "machine_translated": [...]}`.
+  `{"missing_keys": [...], "machine_translated": [...], "priority_review": [...]}` (v0.4 fix round 1 / F3: `priority_review`, optional,
+  lists translated ES lines the coach should review first; sorted, unique, every key in `es.json`).
 * The coach's instruction block (GEN-07) = `instruction.title` + `instruction.1..5`, rendered at the top of every plan.
 * Copy marked `[LEGAL REVIEW]` (health check, release, coach bypass warning) comes verbatim from the spec's
   `inputs_schema.copy_placeholders`, `output.copy` and `adaptation.copy` (EN + ES) and is never edited by the engine.
@@ -202,12 +622,12 @@ Every non-trivial decision carries one or more **why** objects (exactly these ke
 | H14 | English default with full Spanish: every user-facing string through i18n; every key used has EN and ES (or is in `es_review.missing_keys`) | GEN-01, R2-GEN-08 | H14 |
 | H15 | **No deload or maintenance week inside a training block**; recovery weeks only between two stairway blocks; maintenance only as its own block | R2-VOL-07 | V24 |
 | H16 | **No sleep, stress, job or life input** anywhere (intake, derived, check-in, plan) | R2-GEN-04 | V26 |
-| H17 | **Floor of 10** weekly sets for every target muscle in a stairway block (exemptions: pain-reduced, credit-only, rear-delt own sets, circuit format, a schedule shortfall shown as `warning.floor_schedule`; not applied to pre-season / in-season / taper / maintenance / recovery) | R2-VOL-06, R2-VOL-04 | V22 |
-| H18 | **2-4 exercises per muscle group trained on a day, never 1** (full-body days included; calves and the core opener excepted; strength-family conjugate days flagged) | R2-SES-05 | V23 |
+| H17 | **Floor of 10** weekly sets (main days, group credit) for every trained FOCUS group in a stairway block (v0.4: circuits included; exemptions: pain-reduced, credit-only, a group the time check lists as not trained directly - then it has no direct exercise -, a work-lift big mover listed as trained below the floor; no warning exempts; not applied to pre-season / in-season / taper / maintenance / recovery) | R2-VOL-06, R3-SES-01, R3-SES-02 | V22 |
+| H18 | **2-4 exercises per FOCUS group trained on a day, never 1** (full-body days included; calves and the core opener excepted; strength-family conjugate days flagged; a day that cannot hold 2 drops the group from that day, R3-SES-02) | R2-SES-05, R3-SES-01 | V23 |
 | H19 | **Tests only before the block (week 1) and in its last week, never mid-block; never a 1RM or max-effort mile without a completed block** (5RM / 3RM, 80-90 %) | R2-PER-07 | V25 |
 | H20 | **Release accepted for this build** (client, coach or guardian version); the health check runs unless a coach chose `coach_own_sop` | R2-GEN-03 | V21, V1 |
-| H21 | **Stairway shape**: inside every stairway block the planned step is never larger in the first half than in the second, weekly sets never drop, the last week is the hardest (highest total), and on 12 weeks the last 4 weeks are the 4 hardest; planned RIR never rises | R2-PER-03, R2-PER-04, R2-PER-05 | H21 |
-| H22 | **No check-in = no change**: with `output_mode: plan_only` (or no check-ins) every week is exactly the planned stairway week; `adapt(plan, [])` returns a byte-identical plan | R2-VOL-03 | H22 |
+| H21 | **Stairway shape**: inside every stairway block the planned step is never larger in the first half than in the second, every trained group climbs by the minimum climb (2 sets, 1 in blocks <= 7 weeks, calves 1) and never drops a set, the main-day total rises, the last week is the hardest (highest total), and on 12 weeks the last 4 weeks are the 4 hardest; planned RIR never rises (never flat, no warning exempts) | R2-PER-03, R2-PER-04, R2-PER-05, R3-SES-02 | H21 |
+| H22 | **No check-ins, the planned stairway only** (v0.4): every week is exactly the planned stairway week of its block; no check-in offer exists | R2-VOL-03, R3-VOL-02, R3-VOL-04 | H22 |
 
 ### 1.8 Round-3 tagging
 
@@ -257,12 +677,13 @@ starting with `_` (comments) and `id`. **Any key named (case-insensitive, any de
                                                  //        "league_sport": null|value, "style": null|value}
                                                  // required when goal == active or sport.competitive == recreational; optional
                                                  // for fat_loss|general ("I also play something"); null otherwise
-  "priority_muscles": [],                        // F09 <= 2 of quads glutes hamstrings back chest side_delts rear_delts biceps triceps calves core v_taper
+  "priority_muscles": [],                        // F09 Focus muscle 1 / 2 (v0.4: alias of focus_muscles): <= 2 of quads glutes hamstrings back chest
+                                                 // shoulders biceps triceps calves core v_taper (side_delts / rear_delts read as shoulders; v_taper = 2 slots)
   "lift_style": "balanced",                      // F10 volume_lighter|balanced|heavy_powerlifting
   "schedule": {"days_per_week": 3, "weekdays": ["Mon", "Wed", "Fri"], "session_minutes": 60, "start_date": "2026-10-12"},
                                                  // F22 2-6, F23, F24 30|45|60|75|90|105|120 (105/120 competitive only), F26
   "plan": {"mode": "fixed_12", "maint_reason": null, "maint_weeks": null,
-           "previous_cycles": {"count": 0, "last_had_holds_or_pain": false},
+           "previous_cycles": {"count": 0, "last_block_finished": true},   // v0.4 (R3-PER-02); last_had_holds_or_pain = alias (true -> not finished)
            "tests": ["strength", "jumps"], "just_finished_block": false},
                                                  // F25, F25b, F25d (1-8, default 4), F25c, F26b (["none"] = no testing), one_rm_gate tap
   "equipment": {"profile": "FULL_GYM", "extras": [], "machines": [], "preference": "none",
@@ -271,7 +692,7 @@ starting with `_` (comments) and `id`. **Any key named (case-insensitive, any de
                                                  // F27, F28 kit tokens, F29 machine ids, F29b machines|free_weights|dumbbells|none, F30-F34
   "pain": [],                                    // F35+F36: [] = "Nothing"; else [{area, side left|right|both, severity mild|moderate|severe, worse_with[]}]
   "exclusions": [],                              // F38 running|jumping|barbell|lunges|overhead_pressing|floor_work|machines|other
-  "output_mode": "plan_only",                    // F43 plan_only|checkin|logbook
+  "output_mode": "plan_only",                    // F43 RETIRED in v0.4 (R3-VOL-02): read for old intakes, always normalized to plan_only
   "prefs": {"core_position": "start", "optional_days": "separate", "variety_ab": false, "heavy_unilateral": false,
             "supersets_for_fatigue": false, "cardio_adjust": 0, "older_athletic_opt_in": false, "split_style": "default"},
                                                  // F44 (+ cardio_adjust -3..3, older_athletic_opt_in (age >= 60 only),
@@ -284,11 +705,11 @@ starting with `_` (comments) and `id`. **Any key named (case-insensitive, any de
 
 **Normalization** (`validateIntake`): fill defaults (`lang en`, `units lb`, `format gym` when shown, `lift_style balanced`,
 `schedule.weekdays` = the template's default weekdays when missing, `session_minutes` = `rules.session.minutes_default` by
-population, `plan.mode fixed_12`, `plan.tests ["none"]`, `maint_weeks 4` for maintenance, `output_mode plan_only`, all `prefs`
-defaults, `previous_cycles {0, false}`), convert `body_weight` to `body_weight_lb` in Derived (1 kg = 2.20462 lb, round2).
+population, `plan.mode fixed_12`, `plan.tests ["none"]`, `maint_weeks 4` for maintenance, `output_mode plan_only` (always, v0.4), all `prefs`
+defaults, `previous_cycles {0, last_block_finished: true}`; `week_by_week` becomes `fixed_12` with `plan.view: 'week'`), convert `body_weight` to `body_weight_lb` in Derived (1 kg = 2.20462 lb, round2).
 
 **Errors** (`ok: false`, plan `status: 'invalid'`): missing required field; enum out of range; > 2 priority muscles (from the
-form; when the engine is called directly it keeps the first 2 and warns V8); `week_by_week` without `checkin|logbook`;
+form; when the engine is called directly it keeps the first 2 and warns V8);
 `year` for a competitive athlete; any forbidden key (sex / gender / lifestyle, H13, H16); banned kit token in `extras`;
 `release.accepted !== true` or a release version that does not match role / age (`release_missing`, V21, H20);
 `role == client` without `health_route`; `older_athletic_opt_in: true` under 60 (ignored + warning, not an error).
@@ -297,7 +718,7 @@ not available for the days (`warning.split_style_unavailable`).
 **Refer** (plan `status: 'refer'`, no weeks): any `safety.*` true when `role == self` or `health_route == coach_screen`; any pain
 `severity == "severe"` (always, also with the coach bypass) (V1).
 
-### 2.2 Check-in (`checkin/2`, used by `adapt`)
+### 2.2 Check-in (`checkin/2`) - RETIRED in engine 0.4.0 (R3-VOL-02 'we're only doing outputs'); kept for reference only
 
 ```jsonc
 {"schema": "checkin/2", "week": 3,
@@ -308,7 +729,7 @@ not available for the days (`warning.split_style_unavailable`).
  "results": [], "block_action": null}          // null | stop_block_start_maintenance | maintenance_extend:<n> | maintenance_end:keep|change_plan|new_block
 ```
 
-No life / sleep / stress question (R2-GEN-04, H16). `adapt()` reads it against the planned stairway (§4.12).
+No life / sleep / stress question (R2-GEN-04, H16). v0.4: nothing reads a check-in; `adapt()` is gone (§4.12).
 
 ---
 
@@ -372,7 +793,7 @@ re-compile of the same sources is byte-identical).
 | `axial_pattern` | `squat hinge null` | BKD/UKD → squat, BHD/UHD → hinge |
 | `skill` / `impact` / `load_ceiling` | string | `r.skill_demand`, `r.impact_level`, `r.load_ceiling` |
 | `is_athletic` | bool | `credit_class == "ATHLETIC"` |
-| `athletic` | object\|null | `{quality, contact_class, olympic_family, day_pattern, olympic_tier: L1\|L2_plus\|null, full_catch, from_floor, plyo_method_default, rc_stage_default: RC1\|RC2\|RC3\|null, unilateral_harder, loaded_jump, count_unit: contacts\|throws\|cuts\|metres\|reps}` from `athletic_quality`, `contact_class_v1_1` (R2-ATH-02), `olympic_v1_1` (R2-ATH-04: clean = knee day, snatch = hip day) |
+| `athletic` | object\|null | `{quality, contact_class, olympic_family, day_pattern, olympic_tier: L1\|L2_plus\|null, full_catch, from_floor, plyo_method_default, rc_stage_default: RC1\|RC2\|RC3\|null, unilateral_harder, loaded_jump, count_unit: contacts\|throws\|cuts\|metres\|reps, response: landing\|single\|repeat\|null, upper, low_amplitude, sport_only: string[]\|null, no_cuts, sprint_kind: acceleration\|max_velocity\|drill\|run\|null}` from `athletic_quality`, `contact_class_v1_1` (R2-ATH-02), `olympic_v1_1` (R2-ATH-04: clean = knee day, snatch = hip day); the last six fields by `tools/fixture/athletic-b2.mjs` (engine 0.4.0 stage B2, E-27 / E-33 / E-34) |
 | `conditioning` | `{colour: A\|B\|C\|LC}`\|null | parsed from "Aerobic A (blue) …" names and lactate-clearance ids |
 | `medball` | `{min_lb, max_lb, kind}`\|null | from `implement_load`; `max_lb` clamped to 20 (EQ-06); kind `pass_rotation overhead situp slam warmup wall_ball` |
 | `older_ok` | bool | allowed for 60+ **by default**: false when `r.older_default_excluded.value` (R2-ATH-08: Olympic, plyos, depth jumps), quality plyometric / olympic, or any never tag |
@@ -633,7 +1054,7 @@ Put these `@typedef` blocks in `engine/util.mjs` (B4) and reference them as `imp
  * @property {{mode:string, overlay:'season'|'prep'|null, skeleton:string, weeks:number}} D5_plan_shape
  * @property {{template_id:string, family:string, days:number, variant:string|null, pairing:'same_pattern'|'cross_pattern', format:'gym'|'bootcamp'}} D6_week_layout
  * @property {{client_family:string, main:[number,number], iso:[number,number], machine_pen:number, skill_pen:number}} D7_constraint_band
- * @property {{profile:string, tokens:string[], machines:string[], medball_max_lb:number|null, heaviest_db_pair:number|null, box_height_in:number|null, buy_list:string[]}} D8_kit
+ * @property {{profile:string, tokens:string[], machines:string[], medball_max_lb:number|null, heaviest_db_pair:number|null, box_height_in:number|null, buy_list:string[], cardio_options?:string[], running_space?:string|null}} D8_kit   // v0.4 B3: cardio_options / running_space (aerobic tools)
  * @property {Targets} D9_start_sets
  * @property {{profile_id:string, lower:{by_exercise_block:number[], PRE:number|null, IN:number|null}, upper:{by_exercise_block:number[]}, pain_shift:number}} D10_bilateral_share
  * @property {{enabled:boolean, older_mode:'default'|'opt_in'|null, plyo_share:{start:number,end:number}|null, ground_contact_class:number|null,
@@ -726,17 +1147,18 @@ Put these `@typedef` blocks in `engine/util.mjs` (B4) and reference them as `imp
  *             days:DayLayout[], off_days:string[], play_days:string[], why:Why[], warnings?:Issue[]}} WeekLayout   // [1.1.1] warnings:
  *             warning.long_day (a cap that cannot be met without a group of 1), warning.play_48h */
 
-/** @typedef {{slot_id:string, bucket:string, exercise_id:string|null, detail:{axis:string, key:string}|null, swaps:string[],
+/** @typedef {{slot_id:string, bucket:string, exercise_id:string|null, detail:{axis:string, key:string, value?:string}|null, swaps:string[],
  *             laterality:string|null, loading:'contralateral'|'ipsilateral'|null, why:Why[], flags:string[],
  *             stations?:string[]}} SlotFill     // [1.1.1] COND_WOD: 3-4 distinct movements, [0] = exercise_id; a WOD has no swaps
  *   flags ⊆ pain_swap level_shift pattern_gap no_candidate axial_counted second_day block_change detail_variation laterality_flip
  *           machine_iso_swap no_medball_sub older_default older_opt_in age_50_racket clean_day snatch_day kb_swing_power */
-/** @typedef {{exercise_block:number, fills:Object<string,SlotFill>, buy_list:string[], why:Why[]}} Selection */
+/** @typedef {{exercise_block:number, fills:Object<string,SlotFill>, buy_list:string[], why:Why[], history?:Object}} Selection   // v0.4 B3: history internal (no A-B-A) */
 
 /** @typedef {Object} WeekVolume
  * @property {number} n  @property {Object<string,number|null>} sets_by_slot   // slot_id -> whole sets (0 = dropped slot; [1.1.1] null =
  *                                                                           // a slot that carries no sets: warm-up, aerobic, WOD, skill, text)
  * @property {SlotDef[]} added_slots                                         // bonus / focus slots created up to this week (persist in the block)
+ * @property {Object<string,SlotFill>} added_fills                           // v0.4 B4: the fill each added slot was counted with (generate prints it)
  * @property {Object<string,boolean>} supersets_on                          // weekday -> bool
  * @property {Object<string,number>} target_by_muscle                        // T(w) of the stairway (round2), null for credit-only
  * @property {Object<string,number>} weekly_sets_by_muscle                   // credited (coach count), round2, all muscles in order
@@ -759,10 +1181,11 @@ Put these `@typedef` blocks in `engine/util.mjs` (B4) and reference them as `imp
 /** RepSpec  = {type:'range', min, max, bracket?} | {type:'fixed', value} | {type:'per_side', min, max} | {type:'max'} | {type:'myo'}
  *            | {type:'seconds', min, max} | {type:'contacts', value} | {type:'throws_per_side', value} | {type:'metres', value}
  *            | {type:'minutes', min, max} | {type:'rounds_work', rounds, work_s} | {type:'cuts', value} | {type:'test', test}
- *  Effort   = {type:'rir', min, max, rpe_min, rpe_max, last_set:'max'|'myo'|null, intensifier:boolean}
- *            | {type:'intent', key} | {type:'role', role:'survival'} | {type:'aerobic', colour} | {type:'power', key}
- *  Rest     = {type:'seconds', min, max} | {type:'after_pair'} | {type:'work_rest', min, max} | {type:'as_prescribed'} | {type:'circuit', transition_s, between_rounds_s}
- *  Load     = {type:'week1_tip'} | {type:'power'} | {type:'bw_pct', min, max} | {type:'medball_lb', min, max} | {type:'height', value:'low'|'medium'} | {type:'pct_hint', pct}   // pct_hint never emitted in Phase 0 (D-29) */
+ *  Effort   = {type:'rir', min, max, rpe_min, rpe_max, last_set:'max'|'myo'|null, intensifier:boolean, circuit?:true, key?:string}   // v0.4 B3: circuit stations
+ *            | {type:'intent', key} | {type:'role', role:'survival'} | {type:'aerobic', colour, modality?, pattern?} | {type:'power', key}
+ *  Rest     = {type:'seconds', min, max} | {type:'after_pair', min?, max?} | {type:'work_rest', min, max} | {type:'as_prescribed'} | {type:'circuit', transition_s, between_rounds_s}
+ *  Load     = {type:'week1_tip', rir?} | {type:'power'} | {type:'bw_pct', min, max} | {type:'medball_lb', min, max} | {type:'height', value:'low'|'medium'} | {type:'pct_hint', pct}
+ *            | {type:'lb_range', unit:'dumbbells'|'kettlebell', min, max}   // pct_hint never emitted in Phase 0 (D-29); lb_range = WOD station loads (B3) */
 ```
 
 ### 4.1 `engine/util.mjs` — owner B4 (first version shipped by the architect; everyone imports it)
@@ -1025,6 +1448,10 @@ late ones). Acceptance (12 weeks, single muscle, no priority, no staggering): L1
 `end`); `stage` from the shape; `targets` linearly from `weekly[x][0]` (stair week 1) to `weekly[x][1]` (last stair week), rounded;
 factor: pre-season SportDef factors, taper 0.5, recovery 0.5, game-heavy in-season 0.5, heavy play week (D11) plyo 0.5 + no extra
 COD; disabled (non-athletic families; 60+ default → landings only, contacts from `low_contacts`) → targets null except landings.
+**v0.4 stage B2** (now in `engine/athletic.mjs`, re-exported here): the contact targets are the 04 volume split by the plyo share
+(`jump_contacts` = ballistic / landing jumps, `plyo_contacts` = reactive jumps, none in stage 1, `low_contacts` = ankle work,
+E-28); the ramp tops out the week before an end-test week, which holds it (`hold: true`); the 60+ default keeps landings
+(`jump_contacts`), light throws and quick stepping (`cod_cuts`); a general-population circuit keeps its `throws` (E-38).
 
 ### 4.6 `engine/week.mjs` — owner B3
 
@@ -1078,12 +1505,18 @@ export function estimateMinutes(day, setsBySlot, fillsBySlot, model) → number
 
 ```js
 /** @param {{derived, shape, layout:WeekLayout, targets:Targets, exerciseBlock:number, prev:Selection|null, model, seed:string}} ctx
+ *  [0.4.0 fix round 2 / F3] optional ctx.live (Set|string[]: slot ids with sets in some week of the block), ctx.base (the first
+ *  pass's Selection of the block), ctx.frozen (no dial flips, no knee-flexion conversion): the second selection pass (E-178)
  *  @returns {Selection} fills for every exercise slot of the layout for that exercise block */
 export function selectBlock(ctx)
 /** single slot (bonus / focus / substitutes) @returns {SlotFill}
  *  [1.1.1] ctx.selection (the exercise block's Selection: template picks feed second-exposure and spine state) and ctx.day_used
- *  (exercise ids already on the slot's weekday from other added slots): an added slot never repeats an exercise of its day */
+ *  (exercise ids already on the slot's weekday from other added slots): an added slot never repeats an exercise of its day
+ *  [0.4.0 fix round 2 / F3] optional ctx.prev_added (the slot's exercise in the previous exercise block), ctx.base_added (its
+ *  first-pass fill), ctx.prev_week_added[], ctx.week_used (a list: repeats count), ctx.live / ctx.frozen as selectBlock */
 export function fillSlot(slot, ctx)
+/** [0.4.0 fix round 2 / F3] true: the orchestrator runs the second selection pass only when deps.SECOND_PASS === true */
+export const SECOND_PASS
 /** scored candidate list (tests, explain) @returns {Array<{exercise_id, score, reasons:Why[]}>} */
 export function candidates(slot, ctx)
 ```
@@ -1136,10 +1569,14 @@ Other rules:
 * **Swaps**: 2-4 alternatives from the same filtered pool (same effective bucket), best score first, never the pick, never excluded
   (H01, H12 apply to swaps).
 * **Exercise-block boundaries** (PER-02, R2-LIB-01): keep `work` and core picks; change at most `block_change.max_share_of_slots` of
-  the other resistance slots per day to an alternative with the same pattern and laterality, or keep the exercise and set
-  `detail = {axis, key}` from its `variation_axes` when no alternative exists (`detail.<axis>` i18n; rendered "<name> - <detail>";
-  never an invented exercise); flip laterality where the new share target requires it; flags `block_change`, `detail_variation`,
-  `laterality_flip`.
+  the other resistance slots per day (v0.4 B3: at least one, any kit) to a library alternative with the same pattern and laterality
+  that differs in one detail (`detailDistance` <= `block_change.max_distance`; never Olympic-tagged, never back to an earlier block's
+  pick, never another day's previous pick, never a home substitute from the real thing, never more than 3 score points below the
+  current pick), or keep the exercise and set `detail = {axis, key: 'detail.v.<value>', value}` from `rules.selection.variations`
+  (`variationValues`; rendered "<name> - <detail>"; never an invented exercise, never an axis-only placeholder); no concrete value ->
+  no change (the day's next slot takes it); a kept exercise keeps its block's detail; flip laterality where the new share target
+  requires it; flags `block_change`, `detail_variation`, `laterality_flip`. v0.4 B3: a session never holds two near-duplicates
+  (`isNearDuplicate`); a second weekly exposure the kit cannot vary comes back with a concrete detail.
 * `prefs.variety_ab` (PER-03): odd / even weeks alternate the `work` pick with the second-best default (supported; off in samples).
 
 ### 4.8 `engine/dose.mjs` — owner B3
@@ -1152,8 +1589,9 @@ Other rules:
 export function doseItem(input)
 /** aerobic slot dose (colour, minutes, any erg) @returns {Dose} */
 export function doseAerobic(slot, weekShape, derived, model)
-/** WOD / skill / circuit-station doses (class model, bootcamp) @returns {Dose} */
-export function doseConditioning(slot, fill, weekShape, derived, model)
+/** WOD / skill / circuit-station doses (class model, bootcamp). v0.4 B4: weekShape.athletic_week = the week's athletic object
+ *  (targets, circuit_ball_sets) when generate calls it; input = doseItem's input when doseItem delegates @returns {Dose} */
+export function doseConditioning(slot, fill, weekShape, derived, model, input)
 /** rep class resolution, exported for tests @returns {string} */
 export function repClassFor(slot, exercise, model)
 ```
@@ -1167,7 +1605,9 @@ export function repClassFor(slot, exercise, model)
   day one bracket down; weekly sets never change.
 * **Pyramid** `12/10/8 -20` (PRG-07): L2+, hypertrophy column, first main bilateral compound of the day, sets ≥ 4.
 * **Unilateral**: `per_side` (10/10 = 1 set, UNI-01); `prefs.heavy_unilateral` → first unilateral lower lift `b4_6` (UNI-04).
-* **Effort (H02, R2-PER-05)**: `{type:'rir'}` from `week.planned_rir` ∩ `rir_band`, **min ≥ 1 for `never_failure_rep_classes`**
+* **Effort (H02, R2-PER-05; v0.4 B3 R3-VOL-04: intensifiers only in the last stairway week, one a day - a MYO set on the day's last
+  small-muscle or machine isolation item, no MAX sets, never `effort.intensifiers.never_credit_classes`, never calves for an Achilles hot
+  spot; circuits `{type:'rir', circuit:true, key}` from the planned RIR)**: `{type:'rir'}` from `week.planned_rir` ∩ `rir_band`, **min ≥ 1 for `never_failure_rep_classes`**
   (`compound_floor_rir`); RPE from `rpe_for_rir`; `intensifier: true` only in the last stairway week; `last_set:'max'` only for
   `effort.max.allowed_rep_classes` (small iso, rear delts, calves) and bodyweight work; `last_set:'myo'` only when
   `position.is_last_resistance` **and** (isolation or constraint ≥ 4) **and** (last stairway week, or `at_cap` in HARDEST); never in
@@ -1220,8 +1660,8 @@ export function stairText(plan, weekN, model, lang) → string // "Week feels li
 ### 4.11 `engine/render.mjs` — owner B4
 
 ```js
-/** @param {{lang?:'en'|'es', format?:'markdown'|'text', view?:'full'|'block'|'week'|'day', weeks?:'all'|number[],
- *           show_why?:boolean, show_swaps?:boolean, units?:'lb'|'kg'}} opts  @returns {string} */
+/** @param {{lang?:'en'|'es', format?:'markdown'|'text', view?:'full'|'overview'|'block'|'week'|'day', weeks?:'all'|number[],
+ *           show_why?:boolean, show_swaps?:boolean, units?:'lb'|'kg'}} opts  @returns {string}   // v0.4 B3: 'overview' (screenshots) */
 export function renderPlan(plan, model, opts)
 export function renderBlockView(plan, trainingBlock, model, opts) → string   // one compact table per training day: exercises × weeks (sets×reps), stairway bar
 export function renderWeek(plan, weekN, model, opts) → string
@@ -1232,7 +1672,12 @@ export function formatRest(rest, model, lang) → string
 export function formatLoad(load, model, lang, units) → string
 ```
 
-Markdown `view: 'full'` (phone-friendly; no table wider than 4 columns except the block view, which may be split per day):
+Markdown `view: 'full'` (phone-friendly; no table wider than 4 columns except the block view, which may be split per day). v0.4 stage
+B3: the use-at-your-own-risk line with the release link comes right after the title (R3-GEN-01); 'Before you start' then 'Your
+schedule' (`plan.time_check`, offers) come before the instruction block; the stairway table is week · level · effort · sets; the weekly
+sets table is per FOCUS group; the week at a glance (day · session · time · groups) follows; each day card adds the switch-off line, the
+superset suggestions and pair tags; `view: 'overview'` = header, notices, schedule, stairway table, group table, the first week at a
+glance and one exercise table per day.
 1. `# {program name}` · profile line · level line (`levelText`) · plan type / weeks · start date · release stamp
    (`ui.plan.release_stamp`) · coach bypass stamp when used.
 2. **The coach's instruction block** (`instruction.title`, `instruction.1..5`) — always first after the title — then
@@ -1255,9 +1700,8 @@ template `note` / `dose_text` / `condition_text` (EN-only internal hints).
 ```js
 /** @param {object} intake  @param {Model} model  @param {{checkins?:object[]}} [opts]  @returns {Plan} */
 export function generate(intake, model, opts = {})
-/** Phase 0 adaptation per spec `adaptation` (checkin/2): re-run generate with check-ins applied in order @returns {Plan} */
-export function adapt(plan, checkins, intake, model)
-export { ENGINE_VERSION } from './version.mjs'   // '0.2.0'
+// v0.4: adapt() / adaptWith() / checkinRow() are RETIRED (R3-VOL-02 / R3-VOL-04: no check-ins, the planned stairway only)
+export { ENGINE_VERSION } from './version.mjs'   // '0.4.0'
 ```
 
 Pipeline (fixed order; each step's output is stored for the plan):
@@ -1271,17 +1715,20 @@ layouts = shape.training_blocks.map(tb => buildWeekLayout(derived, shape, tb, mo
 selections = per exercise block e: selectBlock({derived, shape, layout: layouts[tb(e)], targets: derived.D9_start_sets, exerciseBlock: e, prev: selections[e-1]||null, model, seed})
 volume  = planWeeklySets({derived, shape, layouts, selections, model, estimateMinutes,              // [1.1.1] one time model
                            fillSlot: (slot, n) => fillSlot(slot, {...ctxFor(n), selection, day_used})})   // [1.1.1] no same-day repeat
-athletic = athleticBudget(derived, shape, model)
-for week n: L = layoutForWeek(layouts[tb(n)] + volume.weeks[n].added_slots, shape.weeks[n], derived, model)
+athletic = athleticBudget(derived, shape, model)                                   // v0.4 B2: engine/athletic.mjs (re-exported by volume)
+for week n: L = layoutForWeek(layouts[tb(n)] + volume.weeks[n].added_slots, shape.weeks[n], derived, model)   // v0.4 B2: collectWeek
             relocateStrengthTests(L, selection)                                   // [1.1.1] D-46: rep-max tests on bilateral compounds
-            for each slot: dose = aerobic ? doseAerobic(...) : conditioning ? doseConditioning(...) : doseItem({... sets: volume.weeks[n].sets_by_slot[id] ...})
+            items = slots with an exercise and sets; athletic stations trimmed to a small / 0 target (each station's own minimum dose)
+athleticPlan = planAthletic(model, derived, shape, athletic, athletic items of every week)   // v0.4 B2 (E-29): the athletic stairway
+for week n: for each slot: dose = aerobic ? doseAerobic(...) : conditioning ? doseConditioning(...) : doseItem({... sets: volume.weeks[n].sets_by_slot[id], athletic: {...athletic[n], slot_plan: athleticPlan.weeks[n].slot_plan} ...})
             assemble Week (§5); omit slots with 0 sets; distinctDetails(day)             // [1.1.1] D-48: a repeat takes the next detail axis
-meta.warnings += warning.long_day (est > minutes x 1.10, D-34) + warning.stairway_time (D-47)   // [1.1.1]
+meta.warnings += warning.long_day (est > minutes x 1.10, D-34) + warning.test_day_long (a test week's work-ups, v0.4) + athleticPlan.warnings (warning.athletic_capacity, v0.4 B2)
+plan.time_check = volume.time_check (first stairway block + by_block, v0.4)
 plan.summary = …; plan.validation = validatePlan(plan, model)
 ```
 The B2 / B3 modules are imported statically (**[1.1.1]**; the build-time tolerant dynamic import is gone). `realModulesStatus()`
 stays exported for the tests and always reports `ready: true`.
-**adapt(plan, checkins, intake, model)** (Phase 0, mechanism APPROVED R2-GEN-01 / R2-VOL-01, rows read against the stairway,
+**adapt(plan, checkins, intake, model)** - RETIRED in engine 0.4.0 (kept below for the record): (Phase 0, mechanism APPROVED R2-GEN-01 / R2-VOL-01, rows read against the stairway,
 PROPOSED R3-VOL-02 / R3-VOL-04): `checkins = []` → returns `generate(intake, model)` byte-identical (H22). For each check-in of week
 k apply `rules.stairway.checkin.rows` in `order` to the step INTO week k+1: repeat (sessions done < half → the stairway waits one
 week; the block becomes one week longer), ten (hold + −1 set on that day's most recently added set; that muscle's T − 1), pain
@@ -1302,6 +1749,10 @@ invariant.
 * `node tools/generate-samples.mjs [--model model|--fixture] [--only 01]` (B4): for every `samples/intakes/*.json` →
   `samples/plans/<name>.json`, `samples/plans/<name>.<lang>.md` and `<name>.en.md` when the intake is Spanish; prints a one-line
   validation summary per sample; exits 1 if any `error` check fails.
+* `node tools/sweep.mjs [N] [--render] [--model-only|--fixture-only]` (B4, v0.4): N seeded random intakes (default 1,500) + one
+  competitive athlete per picker sport + one stay-active client per activity, on the fixture and on `model/`; prints plans ok, throws,
+  failing error / warn checks (plans per check id + examples), non-test main days over 125 % of the minutes, plans training no group
+  directly and (with `--render`) EN / ES render problems; exits 1 on a not-ok plan, a throw, a failing error check or a render problem.
 
 ---
 
@@ -1322,7 +1773,10 @@ load_hint and video {kind}". Completed here and named `plan/2` (D-36). Key order
   "release_stamp": {"version": "release.minor", "lang": "en", "role": "self", "guardian": true},   // V21; null when status != ok
   "refer": null,                                    // {"reasons": ["refer.reason.heart", …]} when status == refer (no weeks)
   "errors": [],                                     // Issue[] when status == invalid (no weeks)
-  "offers": [],                                     // adapt(): [{key: "block.cannot_finish", week}] - never automatic
+  "offers": [],                                     // v0.4: the time check's offers only (more_days / more_days_min / longer_sessions / keep_time*, one chosen)
+  "time_check": {"training_block": 1, "fits": false, "kept_time": true, "needed_minutes": 115, "offered": {"extra_day": {"days": 4, "minutes": 85}, "session_minutes": 115},
+                 "trained_groups": ["hips", "back", "shoulders"], "not_trained_directly": [{"group": "quads", "reason": "time"}, {"group": "biceps", "reason": "credit_only"}],
+                 "lowered_peak": [], "trained_below_floor": [], "supersets_recommended": true, "supersets_needed": ["Mon"], "by_block": ["…"]},   // v0.4 (R3-SES-02)
   "meta": {
     "program_id": "OT11", "program_name_key": "program.OT11.name",
     "goal": "athletic", "family": "athletic", "format": "gym",
@@ -1346,7 +1800,8 @@ load_hint and video {kind}". Completed here and named `plan/2` (D-36). Key order
                  "contacts_session_max": 100, "olympic_exposures_wk": 3, "game_heavy": false, "heavy_play_week": false},
     "aerobic": {"per_week": 0, "base": 0, "adjust": 0, "replaced_by_activity": 0, "walks": false, "sport_is_aerobic": true},
     "tests": {"items": ["strength", "jumps"], "baseline_week": 1, "end_weeks": [12], "from_zero": true,
-              "reminders": ["2026-10-12", "2026-12-21", "2026-12-27"]},   // block start, 7 days and 1 day before the end-test week
+              "test_days": [{"week": 1, "weekday": "Mon", "date": "2026-10-12", "tests": ["rm_3_or_work_up_to_1"]}],   // fix round 2 / F1 (E-147): the days that hold a test item
+              "test_dates": ["2026-10-12"]},   // their dates in order ("reminders" - block start, 7 days and 1 day before - is retired)
     "health": {"role": "self", "health_route": null, "refer": false, "reasons": [], "bypass": false},
     "older_opt_in": false,
     "after_plan": {"next": "pre_season", "weeks": 4, "date": "2027-02-01"},
@@ -1377,8 +1832,9 @@ load_hint and video {kind}". Completed here and named `plan/2` (D-36). Key order
     "total_resistance_sets": 58, "rise_vs_prev": null,
     "athletic_budget": {"plyo_share": 0.1, "stage": "RC1", "factor": 1,
                         "targets": {"plyo_contacts": 6, "jump_contacts": 37, "low_contacts": 51, "throws": 35, "cod_cuts": 0, "sprint_m": 0, "olympic_sets": 5},
-                        "planned": {"plyo_contacts": 6, "jump_contacts": 36, "low_contacts": 0, "throws": 40, "cod_cuts": 0, "sprint_m": 0, "olympic_sets": 6},
-                        "contacts_session_max": 100},
+                        "planned": {"plyo_contacts": 6, "jump_contacts": 36, "low_contacts": 0, "throws": 40, "cod_cuts": 0, "sprint_m": 0, "olympic_sets": 6, "upper_contacts": 0},
+                        "planned_share": 0.0732, "goals": {"jump_contacts": 37, "throws": 35}, "scale": {"jump_contacts": 1, "throws": 1}, "hold": false,
+                        "contacts_session_max": 100},   // v0.4 B2: planned.upper_contacts, planned_share, goals, scale, hold (E-28, E-29)
     "aerobic_sessions": 0,
     "changes": [],
     "why": [{"key": "why.no_checkin_planned", "ref": "R2-VOL-03"}, {"key": "why.test_timing", "ref": "R2-PER-07"}],
@@ -1462,20 +1918,21 @@ bucket kind resistance | isolation | focus or origin bonus.
 | V16 aesthetics medball (H11) | error | goal `muscle`: no item tagged `medball` outside the `warmup` block; any goal: no `load.medball_lb.max > 20`, no catalog medball `max_lb > 20` |
 | V17 effort (H02) | error | items with rep class in `effort.never_failure_rep_classes` have `effort.type` rir / intent / role / power and, when rir, `min ≥ 1` and `last_set` not `max` / `myo`; `last_set: 'max'` only for `effort.max.allowed_rep_classes` or bodyweight; `last_set: 'myo'` only on the last resistance item, isolation or constraint ≥ 4, in the last stairway week or at cap in HARDEST; recovery items `min ≥ 3`; no RIR outside `rir_band` except recovery; planned RIR follows `week.planned_rir` |
 | V18 minimums | error | stairway weeks: every main day with a lower resistance item has `ISO_CALF` sets ≥ `calves_per_leg_day` (circuit days: 2 calf stations); ≥ 1 rear-delt item (`ISO_REAR` or `FACEPULL`) per week; core block ≥ 2 items on main days ≥ 45 min (≥ 1 at 30) |
-| V19 Olympic | error | family athletic (and hybrid class model) training weeks, unless age ≥ 60 without opt-in: ≥ 1 `AP_TRIPLE_EXT` item; ≤ `olympic.per_week_max` (4) exposures; tier `L1` for L1 and L2 in exercise block 1, `L2_plus` allowed for L2 block ≥ 2 and L3; the item's olympic family matches its station `variant` (clean station → clean / loaded_jump; snatch station → snatch / swing; jerk → any) — the templates encode the clean-day / snatch-day pattern (R2-ATH-04, a default per the master §7.7, so no check against `lower_focus`); no `pct_hint` load |
+| V19 Olympic | error | family athletic (and hybrid class model) training weeks, unless age ≥ 60 without opt-in: ≥ 1 `AP_TRIPLE_EXT` item; ≤ `olympic.per_week_max` (4) exposures; tier `L1` for L1 and L2 in exercise block 1, `L2_plus` allowed for L2 block ≥ 2 and L3; the item's olympic family matches its station `variant` (clean station → clean / loaded_jump; snatch station → snatch / swing; jerk → any) — the templates encode the clean-day / snatch-day pattern (R2-ATH-04, a default per the master §7.7, so no check against `lower_focus`); no `pct_hint` load. **v0.4 fix round 2 / F2** (E-176, E-172): where the day holds a lower-body work lift, a clean / snatch station's family is that lift's (`day_lift`: knee-dominant -> clean, hip-dominant -> snatch; `athletic.olympicVariantByDay`; the item flags `clean_day` / `snatch_day` say which); the class model's end-test week needs no Olympic item |
 | V20 V-squat | error | no item or swap tagged `v_squat` or matching `/\bv[- ]?squat\b/i` |
 | V21 release (H20) | error | `status == 'ok'` ⇒ `release_stamp` present with the version required by role / age (§4.3 checkRelease) |
-| V22 floor (H17) | error | every stairway week: each muscle in `targets.floored` (fill target, not credit, not pain, not own-sets) has `weekly_sets_by_muscle ≥ 10 − EPS`, unless `meta.warnings` has `warning.floor_schedule` naming it; circuit-format plans exempt |
+| V22 floor (H17) | error | v0.4: every stairway week: each group in `targets.floor_groups` (not pain-reduced, not all credit-only) holds ≥ 10 sets on the main days counted from the items with group credit (calves: max(3 × leg days, min(10, 4 × leg days − 1)); circuits 3 × leg days), unless the time check of its block lists it as not trained directly or as trained below the floor (`work_lift_time`); a listed group with an exercise that trains it as main mover is a violation (`listed_but_trained`); no warning exempts |
 | V23 exercises per group (H18) | error | every main day, every group in `rules.muscles.groups.order` except `exempt_groups` that has ≥ 1 resistance item: item count in that group ∈ [2, 4] on full-body days, ≥ 2 on split days (3-4 is a warn); strength family exempt (flagged) |
 | V24 block structure (H15) | error | no week of type `recovery` or `maintenance` lies inside the span of a `stairway` block; a `recovery` week is always preceded and followed by a stairway block; stairway `stair_week` runs 1..N without gaps |
 | V25 tests (H19) | error | `week.test` only on `stair_week == 1` (baseline) or `stair_week == N` (end) of a stairway; never in other block types; when `test.from_zero`, no test item is a 1RM (`rm_3_or_work_up_to_1`) or a max-effort mile / time trial |
 | V26 inputs (H16) | error | `meta.input_audit.forbidden_found == []` and the plan has no key matching the forbidden lifestyle / sex list at any depth |
+| V27 athletic budget | error | v1.2: planned <= target x (1 + tolerance) + one set (reactive + ballistic jumps as one budget, v0.4 B2); Olympic <= 1.5 x target or the exposures' minimum. **v0.4 stage B2** (E-44): per family (contacts, throws, cuts, sprint metres) planned >= (1 - tolerance) x `athletic_budget.goals` - one set (`under`); a goal never above the target; inside a stairway block no family and no Olympic total drops week over week (`athletic_drop`); a stairway peak under `reconcile.warn_below_share` (0.6) of the target carries `warning.athletic_capacity` for that family and block (`capacity_not_told`); `plyo_stage` and every AP_PLYO / AP_JUMP_LIMITED_KNEE pick hold for the exercise block (`stage_mid_block`, `jump_exercise_mid_block`); no stage-3 plyometric item with `response != repeat` (`rc3_single_response`); no AP_COD item whose `sport_only` excludes the profile's sport (`sport_only_drill`). **v0.4 fix round 2 / F2** (E-160 ... E-166): the families are jumps (reactive + ballistic), ankle, throws, cuts, sprint metres; `warn_below_share` is 0.85; a family whose stations are full, under `r2.flat.under_target` of a target that rises by `target_rise_min`, never holds its top for more than half the block's weeks + `run_slack` (`early_peak`; not where the plyo share moved the key or the run sits on minimum doses); a hold / end-test week never plans more than the week before (`hold_over`) and may plan less (`test_dose`); `athletic_budget.test_replaced` counts as planned; `share_over` skips the test weeks; the pre-season hold keys may sit above their target; circuit-only plans are outside `capacity_not_told` |
 | H01-H12 | error | the §1.7 rules implemented by V-checks (H01 = V9, H02 = V17, H03/H04/H05 = V12 + V18, H06 = V11, H07 = V10, H08/H09 = V14, H10 = V15, H11 = V16, H12 = V5) |
 | H13 no sex | error | no key named `sex` or `gender` (case-insensitive) at any depth of the plan |
 | H14 i18n | error | every key referenced in the plan (`name_key`, `cue_key`, `text_key`, `label_key`, `phase_key`, notes, why, changes, warnings, program / profile / sport / activity keys, instruction / locked / check keys) exists in `i18n.en` and in `i18n.es` or `es_review.missing_keys` |
 | H15-H20 | error | = V24, V26, V22, V23, V25, V21 |
-| H21 stairway | error | per stairway block, per muscle with `fill: target`: `target_by_muscle` and `weekly_sets_by_muscle` (direct) never decrease week to week; every step into week w ≤ h (`halfway`) is ≤ every step into weeks > h (same muscle); the block's last week has the highest `total_resistance_sets` of the block (ties allowed); when N = 12 the last 4 weeks hold the 4 highest totals; `stair_level` strictly rises 2 → 11; planned RIR never rises |
-| H22 no check-in | error | `output_mode == plan_only` or no check-ins ⇒ every week's `step_by_muscle` equals stairwayPlan's planned step (validate recomputes `stairwayPlan` from `meta.targets`) and `offers == []` |
+| H21 stairway | error | v0.4: per stairway block, per line with `fill: target`: `target_by_muscle` never decreases; every step into week w ≤ h (`halfway`) is ≤ every step into weeks > h; per trained floored group (not listed by the time check, not pain): `weekly_sets_by_group` of the last week ≥ week 1 + the minimum climb − 0.5 (`stairway.min_climb`: 2, 1 in blocks ≤ 7 weeks, calves 1) and never drops by more than 0.5 week over week; the main-day total rises (unless the block trains no group directly; not for the year plan's flat Q1); circuits: work seconds x sets rise within 10 %; the block's last week has the highest `total_resistance_sets` (ties allowed); when N = 12 the last 4 weeks hold the 4 highest totals; `stair_level` strictly rises 2 → 11; planned RIR never rises; no warning exempts |
+| H22 no check-in | error | v0.4: every week's `step_by_muscle` equals the planned step recomputed from its block's start / ceiling (`meta.stairway[].start / cap`; groups the time check dropped are skipped); no step in week 1 or a flat block; no `block.cannot_finish` offer |
 
 **[1.1.1] Readings adopted in the integration step** (validate.mjs implements exactly these; DECISIONS D-52 … D-56):
 * **V5 / H12** — the "AP_PLYO items only quality `landing`" default for 60+ is checked by quality; landing-quality drills are exempt from
@@ -1492,6 +1949,16 @@ bucket kind resistance | isolation | focus or origin bonus.
   some record passes kit / youth ladder / floor-lift / tier / pain / exclusions / day pattern; a `jerk`-family lift fits any station.
 * **V23 / H18** — strict: a rear-delt own-sets station never stands alone in the shoulders group (week.mjs adds a second shoulders
   station when it re-adds the weekly rear-delt minimum).
+
+**[0.4.0 B4] Readings adopted in the integration stage** (validate.mjs and the invariants implement exactly these; DECISIONS E-64 ...):
+* **V18** — a lower-body class lift kept for a group listed `class_lift` does not make that day a leg day (calves per leg day).
+* **V19** — a `jerk` or unnamed Olympic station needs a record with an Olympic family (select's pool); a triple-extension record
+  without a family never makes Olympic work 'possible'.
+* **V22 / H17** — a class-model work lift of a group listed `class_lift` is not 'listed but trained'.
+* **V23 / H18** — in the class model (`session.time_fit.keep_work_lift.families`) a group whose only exercise on a day is the day's
+  work lift passes (the class lift); every other lone exercise still fails.
+* **H21** — a circuit block with no resistance work (every group listed by the time check) has no work-seconds stairway to check; a
+  block that trains no group directly (`time_check.trained_groups` empty, e.g. all class lifts) has no main-day-total rule.
 
 ---
 
@@ -1580,6 +2047,10 @@ UI / why strings into `model/i18n/*.json`).
   maintenance week inside a block; no check-in = no change (`adapt(plan, [])` byte-identical); no sleep / stress / lifestyle input
   accepted (intake with `sleep` is invalid); effort 10 meaning in the check-in copy; floor 10; 2-4 exercises per group on full-body
   days; tests only week 1 / last week, never a 1RM or max mile from zero.
+* **Review regression suites** (v0.4): `review-v12.test.mjs` (v1.2 review), `review-r3.test.mjs` (B1), `review-b2.test.mjs` (B2),
+  `review-b3.test.mjs` (B3), `review-b4.test.mjs` (B4 integration: `R<sample>-<slug>` and `B4-sweep-random-<n>-<slug>`). The full
+  random sweep (`node tools/sweep.mjs [N] [--render]`: N random + every sport + every activity, fixture and `model/`) is a tool, not a
+  test (about 4 min for N = 1,500); the invariants suite keeps its 300 random intakes.
 * **Determinism** (B4): generate each sample twice → identical `JSON.stringify`; intake with shuffled key order → identical plan;
   no `Date` without argument / `Math.random` / `Intl` / `localeCompare` in `engine/*.mjs` (a test greps the sources).
 * **i18n** (B4): `renderPlan` in EN and ES (all views) for every sample contains no `undefined`, no `{placeholder}` left, no raw
@@ -1589,6 +2060,11 @@ UI / why strings into `model/i18n/*.json`).
 ---
 
 ## 9. Acceptance targets for the 8 sample clients (computed from the fixture rules; B2 / B3 must reproduce)
+
+> **v0.4 (engine 0.4.0):** starts / caps are now per line (side + rear delts = the shoulders line; Focus +2) and the time check
+> decides which groups each sample trains directly; the binding per-line numbers are pinned in `tests/volume.test.mjs`
+> ('start -> cap per line', 'lambda and whole-set curves') and the time-check outcomes in `samples/REVIEW_LOG.md` v0.4 and
+> `tests/review-r3.test.mjs`. The per-muscle tables below are the v1.1 record.
 
 Intakes: `samples/intakes/01-swimming.json` … `08-pickleball-genpop.json` (intake/2; no sex, no lifestyle fields; release
 accepted). Start 2026-10-12 (football 2027-01-11). "T" = planned whole weekly sets per stairway week (no check-in), before the
@@ -1649,8 +2125,9 @@ These are round-3 questions for the coach (session length vs. volume), not contr
 
 ## 10. Decisions
 
-All gap decisions and every resolution of a conflict between round 2 and the docs are in **`engine/DECISIONS.md`** (D-01 … D-45),
-each with the default used, the source tags and the round-3 question that would close it.
+All gap decisions and every resolution of a conflict between round 2 and the docs are in **`engine/DECISIONS.md`** (D-01 … D-45; the
+integration step D-46 … D-66; the v1.2 review round D-67 … D-81; round 3 / engine 0.4.0 E-01 … E-80 - stage B1 E-01 … E-25, B2 E-26 …
+E-45, B3 E-46 … E-63, B4 E-64 … E-80), each with the default used, the source tags and the round-3 question that would close it.
 
 ---
 
@@ -1661,3 +2138,12 @@ each with the default used, the source tags and the round-3 question that would 
 | contracts/1.0.0 | 2026-10-08 | First binding version (before round 2 was answered). Fixture model_version 1.0.0-fixture. 5 v1.0 sample intakes. |
 | contracts/1.1.1 | 2026-10-09 | Integration step (CONTRACT_REQUESTS resolved): static imports in generate; `estimateMinutes` passed to `planWeeklySets`; `fillSlot` ctx `selection` + `day_used` (no same-day repeats); slot-id suffix per origin; accepted extra keys (`WeekLayout.warnings`, `SlotDef.day_index` / `test`, `DayLayout.circuit_dose`, `SlotFill.stations`, `WeekShape.stair_N` / `exercise_block_week`, `Derived.priority_choices`, `D4.in_season_until`, `sets_by_slot` null); catalogue fixes (front raises `ISO_FRONT`, first video URL) and station `axial` enum mapping in both builders; D-46 rep-max tests on bilateral compounds; D-47 `warning.stairway_time`; D-48 distinct detail for a same-day repeat; V5 / V8 / V12 / V13 / V17 / V19 / V23 readings (§6); new i18n keys (§7); `node --test tests/` runner (§8); `tools/compile/**` owned by B1 (§1.1). |
 | contracts/1.1.0 | 2026-10-08 | Round 2 applied in full (stairway, no deload inside a block, no check-in = no change, no lifestyle inputs, floor 10, small 10/12/15, KB swing 0, thruster 1/0.5/0.25, face pull FACEPULL, 2-4 per group, two spine days, tests start / end only and never from zero, 60+ opt-in, release + coach bypass, pre-season 60 % + taper, cardio adjustable, Olympic day pattern); intake/2, checkin/2, catalog/2, rules/2, templates/2, profiles/2 (127 profiles, 52-sport picker, 26 activities incl. pickleball, HYROX, CrossFit-style classes), plan/2; V21-V26 and H15-H22; fixture rebuilt from v1.1 sources as a full reference compile (`tools/fixture/`); the coach's 7 sample plans + pickleball bonus replace the 5 v1.0 samples; decisions moved to `engine/DECISIONS.md`. |
+| engine 0.4.0 (R2-F3) | 2026-10-10 | Fix round 2 / F3 (selection, dosing and the printed plan): a second selection pass on the stations the time check kept (`ctx.live` / `ctx.base` / `ctx.frozen`, `select.SECOND_PASS`, generate's frozen fallback), the upper laterality dial, movement families, the second hip as a leg curl, core planes, swaps by category, block changes on live stations, no step down; dose: unilateral rep floor, monotone rep caps, heavy-compound rest, MYO never on a bar, the implement note, the aerobic ladder (`effort.rung`), core hold steps; render / explain: kept exercises named, days over listed, test days in words, Focus picks and rows, the adjust line from the plan's toggles, class instructions (`rules.render`), neutral Spanish, `listAnd`. Decisions E-178 ... E-205 |
+| engine 0.4.0 (R2-F2) | 2026-10-10 | Fix round 2 / F2 (athletic work): jumps and ankle work as two never-drop families, one scale down the training block, even steps and V27 `early_peak` / `hold_over`; one more set where the day has the minutes (`planAthletic` `opts.rooms`); a bone-loading sport's second ankle day in the warm-up window; the share's block-end clamp; pre-season speed and power held (R2-PER-06); a timed test takes its station's place and the end-test week's tested days run the baseline dose (R2-PER-07; `athletic_budget.test_replaced` / `test_dose`); athletic picks by sport, stage and client (`athletic.r2.selection`); the Olympic lift by the day's lift (`olympicVariantByDay`, V19 `day_lift`); WOD density and rotation; circuit throws by the round, `meta.athletic.mode`; a swimmer's shoulder care 2 sets inside the rests, not switchable. Decisions E-160 ... E-177. |
+| engine 0.4.0 (R2-F1) | 2026-10-09 | Fix round 2 / F1 (time, volume and structure): the climb on the main days (optional days: Focus slots only), H21 on the main days + `total_hold`, `athletic.3` cross pattern (same-pattern variant), the class split, day patterns and main-day pattern stations, the whole-set stairway schedule (ceiling in the last week), real test days (`meta.tests.test_days` / `test_dates`; `reminders` retired), schedule offers (`session_minutes_some`, `block_off`, `blocks_off`), circuit sequencing + `toggle_items`, circuit seconds by the approved steps, Focus lines under a time cut, MYO outside a superset pair (E-135 ... E-159) |
+| engine 0.4.0 (F3) | 2026-10-09 | Fix round 1 / F3 (selection, dosing and the printed plan): the laterality dial on every lower station (one way), non-spinal second hinge and low-back core for low-back hot spots, side / rear delt stations by the Focus, above-level picks as fallbacks, week-wide movement families, heavy-powerlifting canonical lifts; MYO on the day's last eligible item (V12 / V17 readings), the circuit hold intensifier, pair rest in numbers, per-side one-arm Olympic lifts, rep-hint tops in every block; the printed plan says only what is true (minutes, climbing, Focus, intensifier days, change lines per group, the two-leg / single-leg direction), every switchable block, the flat release stamp + health-check / PAR-Q+ line, 'How to adjust this plan', the effort bridge, the weekly sets table with every group; `es_review.priority_review`. See the F3 amendments box and DECISIONS E-110 ... E-134. |
+| engine 0.4.0 (F2) | 2026-10-09 | Fix round 1 / F2 (athletic work): the plyo share held per week (V27 `share_over`), the athletic tracks' stations sized from the block's peak targets (`athletic.ensureAthleticStations`: ballistic jump track, second sprint / max velocity, second throw, ankle block outside the jump / throw split and the 12 + 2 count), Receive-Create stage cues and drills, throws 6-10 a set, COD in whole reps, the sport's Olympic ceiling, the pre-season's next stage, split capacity warnings, a ballistic circuit station first. See the F2 amendments box and DECISIONS E-97 ... E-109. |
+| engine 0.4.0 (B4) | 2026-10-09 | Stage B4 (integration): pipeline from clean + a 1,578-intake sweep on both models (15 failing intakes -> 0); class lifts kept by the time check (`session.time_fit.keep_work_lift`, reason `class_lift`); circuit throws share the week's target; in-season game-heavy Olympic 2 x 3 once a week; Olympic trim keeps fillable stations; lone stations leave the day; `WeekVolume.added_fills`; the athletic raise stops at the V27 limit; joint care round robin; day-aware room cuts; test spread; honest schedule copy and class titles; V18 / V19 / V22 / V23 / H21 readings (§6). Additive shapes only (`plan/2`, `contracts_version 1.1.0` unchanged). See the B4 amendments box and DECISIONS E-64 ... E-80. |
+| engine 0.4.0 (B3) | 2026-10-09 | Stage B3 (exercise selection, variation and rendering; R3-VOL-02 / 04, R3-SES-01 / 02, R3-GEN-01): concrete one-detail block changes (`selection.variations`, `variationValues`, `detail.v.*`), near-duplicates, lead / canonical lifts, home substitutes only when needed, core once a week, skill rotation; intensifiers in the last week only (one a day), circuit RIR effort, pyramid per block, pair strength rest, aerobic sessions by the client's tools and level (`D8_kit.cardio_options`), WOD loads and rotation; the printed plan (use-at-your-own-risk line + release link, 'Your schedule', block switches, superset suggestions, macro tables, `view: 'overview'`, test items, failed checks in words, day titles from picks, holiday notice); check-in words retired; Spanish fixes. Additive shapes only (`plan/2`, `contracts_version 1.1.0` unchanged). See the B3 amendments box and DECISIONS E-46 ... E-63. |
+| engine 0.4.0 (B2) | 2026-10-09 | Stage B2 (athletic work, R3-ATH-01 .. 05): `engine/athletic.mjs` (stages per exercise block, drill responses and cues, share-split targets, the athletic stairway `planAthletic`), Olympic climb (`budget.olympicSetsForIndex`), catalog `athletic` + 6 fields, sport-only COD drills, sprint kinds, first reactive exposures, circuit ballistic stations, WOD rotation, HYROX template variant (`athletic.4/hyrox`, OTHYX), swimmer every-session shoulder care and championship taper, 60+ defaults, racket 50+ opt-in; V27 under / drop / stage / sport checks; additive plan fields (`athletic_budget.planned.upper_contacts / planned_share / goals / scale / hold`, item `athletic.key / response`). See the B2 amendments box and DECISIONS E-26 ... E-45. |
+| engine 0.4.0 | 2026-10-09 | Stage B1 (round 3: time, volume and structure): lines + FOCUS groups, Focus muscle 1 / 2 (+2), the time check (`plan.time_check`, offers in numbers), time model v1.3, test top-set items, superset recommendations, block toggles, check-ins retired (`adapt` removed, `output_mode` normalized, `week_by_week` = 12-week view), validators V22 / H17 / H21 / H22 rewritten (no warning exemptions); additive plan fields; `plan/2` and `contracts_version 1.1.0` unchanged. See the amendments box at the top and DECISIONS section E. |

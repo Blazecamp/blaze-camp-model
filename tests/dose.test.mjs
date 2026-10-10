@@ -56,26 +56,28 @@ test('H02: heavy compounds never to failure - RIR >= 1 (or intent / role / power
   assert.ok(n > 500);
 });
 
-test('MAX only on small-muscle / rear-delt / calf work; MYO only on the last resistance item, isolation or constraint >= 4, last stair week (or at cap in HARDEST)', () => {
+test('B3 intensifiers (COACH-R3 R3-VOL-04 "1 + intensifiers in the last week, always inside 1-3"): no MAX set; MYO only on the last resistance item, isolation or constraint >= 4, never a glute bridge / thrust or a free-weight compound, last stair week only', () => {
   let max = 0, myo = 0;
   for (const it of everything) {
     const e = it.dose.effort;
     if (!e || e.type !== 'rir') continue;
-    if (e.last_set === 'max') { max++; assert.ok(R.effort.max.allowed_rep_classes.includes(it.rc), `${it.slot.slot_id} ${it.rc}`); }
+    if (e.last_set === 'max') max++;
     if (e.last_set === 'myo') {
       myo++;
       assert.ok(it.position.is_last_resistance, it.slot.slot_id);
       assert.ok(['big_muscle_isolation', 'small_muscle_isolation', 'rear_delts', 'calves'].includes(it.rc) || it.ex.constraint >= 4, it.slot.slot_id);
+      assert.ok(!R.effort.intensifiers.never_credit_classes.includes(it.ex.credit_class), it.ex.id);
       assert.equal(it.ws.block_type, 'stairway');
       assert.ok(it.ws.is_last_stair_week, `w${it.ws.n}`);
+      assert.equal(e.intensifier, true);
     }
   }
-  assert.ok(max > 0 && myo > 0);
-  // at cap in the HARDEST phase also unlocks MYO (never outside a stairway)
+  assert.equal(max, 0, 'no MAX set before or in the last week (R3-VOL-04: always inside 1-3 RIR)');
+  assert.ok(myo > 0);
+  // being at the ceiling in the HARDEST phase no longer unlocks a MYO set (the intensifiers live in the last week only)
   const b = stub('06-full-body-aesthetics');
   const capped = allItems(b, { atCap: true }).filter((it) => it.dose.effort && it.dose.effort.last_set === 'myo');
-  assert.ok(capped.some((it) => it.ws.phase === 'HARDEST' && !it.ws.is_last_stair_week));
-  assert.ok(capped.every((it) => it.ws.phase === 'HARDEST' || it.ws.is_last_stair_week));
+  assert.ok(capped.every((it) => it.ws.is_last_stair_week));
 });
 
 test('planned RIR follows the stairway week (R2-PER-05, R3-VOL-04): 3 RIR early, 1+ with intensifiers only in the last week', () => {
@@ -86,8 +88,10 @@ test('planned RIR follows the stairway week (R2-PER-05, R3-VOL-04): 3 RIR early,
     assert.equal(e.min, Math.max(p.min, NEVER.includes(it.rc) ? R.effort.compound_floor_rir : 0), `${it.b.c.name} w${it.ws.n} ${it.slot.slot_id}`);
     assert.equal(e.max, Math.max(p.max, e.min));
     assert.equal(e.rpe_max, R.effort.rpe_for_rir[String(e.min)]);
-    // v1.2 (review 06 / 07): intensifiers never land on a never-to-failure compound (H02)
-    assert.equal(e.intensifier, !!(it.ws.is_last_stair_week && p.intensifiers && !NEVER.includes(it.rc)));
+    // v1.2 (review 06 / 07): intensifiers never land on a never-to-failure compound (H02); B3: the flag sits only on the item that
+    // carries the intensifier (one a day, RECHECK 01 'week 12 flags 10 items as intensifiers instead of one')
+    assert.equal(e.intensifier, !!e.last_set);
+    if (e.intensifier) assert.ok(it.ws.is_last_stair_week && p.intensifiers && (!NEVER.includes(it.rc) || it.rc === 'machine_stable_compound'));
   }
   // core opener stays light (2 x 2 short of failure, R2-SES-03)
   for (const it of everything) if (it.rc === 'core' && it.dose.effort && it.dose.effort.type === 'rir') assert.ok(it.dose.effort.min >= 2);
@@ -185,7 +189,8 @@ test('Olympic lifts: power language, no percentages (D-29); one 8 / 6 / 6 / 4 ra
   const keys = [R.effort.olympic.key, 'effort.olympic_power_db', 'effort.olympic_power_kb'];
   const noteKeys = ['note.olympic_power', 'note.olympic_power_db', 'note.olympic_power_kb', 'note.kb_swing_power'];
   for (const it of everything) {
-    if (it.rc !== 'olympic') continue;
+    // v0.4 B2: a KB swing in a general-population circuit station is a timed conditioning dose (rules.athletic.circuit_ballistic)
+    if (it.rc !== 'olympic' || it.slot.block === 'circuit' || ['COND_CIRCUIT', 'COND_WOD'].includes(it.slot.bucket)) continue;
     assert.equal(it.dose.effort.type, 'power');
     assert.ok(keys.includes(it.dose.effort.key), it.dose.effort.key); // implement-aware wording (review 01 minor)
     assert.ok(!it.dose.load || it.dose.load.type !== 'pct_hint');
@@ -195,7 +200,8 @@ test('Olympic lifts: power language, no percentages (D-29); one 8 / 6 / 6 / 4 ra
       const N = it.ws.stair_N || it.b.c.shape.weeks.filter((w) => w.training_block === it.ws.training_block).length;
       const p = N > 1 ? (it.ws.stair_week - 1) / (N - 1) : 1;
       const k = Math.min(R.olympic.ramp.length - 1, Math.max(0, Math.floor(p * R.olympic.ramp.length - 1e-9)));
-      assert.equal(it.dose.reps.value, R.olympic.ramp[k].reps, `${it.b.c.name} w${it.ws.n}`);
+      // (F3, E-123: a one-arm lift is written per side - 8/8)
+      assert.equal(it.dose.reps.type === 'per_side' ? it.dose.reps.min : it.dose.reps.value, R.olympic.ramp[k].reps, `${it.b.c.name} w${it.ws.n}`);
       ramp++;
     }
     if (it.ex.athletic.full_catch && !it.slot.test && it.dose.why.some((w) => w.key === 'why.olympic_level') && !it.dose.why.some((w) => ['why.olympic_ramp', 'why.olympic_stay_active', 'why.class_level'].includes(w.key)) && it.ws.block_type !== 'in_season') { assert.deepEqual([it.dose.reps.min, it.dose.reps.max], R.olympic.full_catch_reps); catches++; }
@@ -209,7 +215,8 @@ test('real WeekShape: the Olympic ramp follows the training block, never restart
   if (!real) return;
   let prev = null;
   for (const it of allItems(real).filter((x) => x.rc === 'olympic' && x.dose.why.some((w) => w.key === 'why.olympic_ramp') && x.ws.block_type === 'stairway').sort((a, b) => a.ws.n - b.ws.n)) {
-    if (prev && it.ws.n > prev.ws.n) assert.ok(it.dose.reps.value <= prev.dose.reps.value, `w${it.ws.n}`); // reps never go back up
+    const rv = (x) => (x.dose.reps.type === 'per_side' ? x.dose.reps.min : x.dose.reps.value);
+    if (prev && it.ws.n > prev.ws.n) assert.ok(rv(it) <= rv(prev), `w${it.ws.n}`); // reps never go back up
     prev = it;
   }
 });
@@ -240,7 +247,13 @@ test('plyo contacts: stage range rising through the stage, x 0.5 in a heavy play
     const cap = it.b.c.derived.D11_athletic_budget.contacts_session_max;
     const n = daySlots(it.day).filter((s) => ['AP_PLYO', 'AP_JUMP_LIMITED_KNEE'].includes(s.bucket)).length;
     assert.ok(a.total <= Math.floor(cap / n) || a.per_set === 1, `${it.b.c.name} ${it.slot.slot_id} ${a.total} > ${cap}/${n}`);
-    assert.ok(it.dose.notes.some((x) => /^note\.rc[123]$/.test(x.key)));
+    // v0.4 stage B2: the cue follows how the drill is done (rules.athletic.response_cues: stick / ballistic reset / land & go /
+    // quick continuous ankle contacts / stage-3 repeat)
+    const cues = R.athletic.response_cues ? Object.values(R.athletic.response_cues).filter((v) => typeof v === 'string' && v.startsWith('note.')) : ['note.rc1', 'note.rc2', 'note.rc3'];
+    // (v0.4 fix round 1 / F2: a single ballistic jump takes its stage's cue - stick / land & go / repeat, R2-ATH-03)
+    const SC = R.athletic.f2 && R.athletic.f2.ballistic_stage_cues;
+    if (SC) for (const k of ['RC1', 'RC2', 'RC3']) if (SC[k]) cues.push(SC[k]);
+    assert.ok(it.dose.notes.some((x) => cues.includes(x.key)), `${it.ex.id} ${JSON.stringify(it.dose.notes)}`);
   }
   const pb = everything.filter((it) => it.b.c.name === '08-pickleball-genpop' && it.slot.bucket === 'AP_PLYO' && it.ws.n === 1 && !it.slot.test);
   assert.ok(pb.length);
@@ -289,8 +302,11 @@ test('bootcamp circuits: a round = 1 set, work seconds climb 35 s by the planned
     assert.equal(d.reps.type, 'rounds_work');
     assert.equal(d.reps.work_s, it.ws.circuit.work_s);
     assert.deepEqual(d.rest, { type: 'circuit', transition_s: 15, between_rounds_s: 90 });
-    // v1.2 (review 05 minor): the cue follows the station kind (resistance / metabolic)
-    assert.ok(['effort.circuit', 'effort.circuit_resistance', 'effort.circuit_metabolic'].includes(d.effort.key), d.effort.key);
+    // v1.2 (review 05 minor): the cue follows the station kind (resistance / metabolic); B3 (RECHECK 05 major): a resistance
+    // station follows the planned effort of the stairway week ('about {rir} reps left at the bell')
+    // (v0.4 fix round 1 / F2: a ballistic station - medball throw, KB swing - is done with full intent, R2-ATH-02)
+    assert.ok(['effort.circuit', 'effort.circuit_rir', 'effort.circuit_rir_bw', 'effort.circuit_metabolic', ...(R.athletic.f2 ? [R.effort.athletic.key] : [])].includes(d.effort.key), d.effort.key);
+    if (d.effort.type === 'rir') { assert.ok(d.effort.circuit); assert.equal(d.effort.min, Math.max(it.ws.planned_rir.min, d.effort.min)); assert.ok(d.effort.min >= it.ws.planned_rir.min && d.effort.max >= d.effort.min); }
   }
   // v1.2 (review 05 blocker 1, D-19 revised): work seconds climb every week by the planned steps, in 1-s steps, never > 7 %
   const byWeek = [...new Set(items.map((it) => it.ws.n))].sort((a, b) => a - b).map((n) => items.find((it) => it.ws.n === n));
@@ -327,7 +343,7 @@ test('WOD (class model, D-20): 10 -> 20 min by stair level (10 -> 15 on an over-
   assert.equal(short.wod.minutes[0], R.conditioning.wod.short_minutes[1]);
 });
 
-test('aerobic: minutes by colour (C steady <= 40), recovery weeks Orange, any erg', () => {
+test('aerobic: minutes by colour (C steady <= 40), recovery weeks Orange, the client\'s own cardio tools (B3: EQ-14 any erg)', () => {
   const b = stub('06-full-body-aesthetics');
   for (const colour of ['A', 'B', 'C']) {
     const slot = { slot_id: 'Mon.x', bucket: 'COND_AEROBIC', aerobic: { colour, minutes: R.conditioning.minutes[colour], position: 'separate' }, why: [] };
@@ -336,7 +352,13 @@ test('aerobic: minutes by colour (C steady <= 40), recovery weeks Orange, any er
     assert.equal(d.reps.min, R.conditioning.minutes[colour][0]);
     assert.ok(d.reps.max <= (colour === 'C' ? R.conditioning.steady_max_min : 99));
     assert.equal(d.effort.colour, colour);
-    assert.ok(d.notes.some((n) => n.key === 'note.any_erg'));
+    // B3: the session names the client's own tool (the intake's cardio options) and lists the others; no options -> any tool
+    const opts = b.c.derived.D8_kit.cardio_options || [];
+    assert.ok(opts.length ? opts.includes(d.effort.modality) : d.effort.modality === 'any', d.effort.modality);
+    assert.ok(d.notes.some((n) => n.key === (opts.length > 1 ? 'note.cardio_options' : 'note.cardio_any')));
+    const real = doseAerobic(slot, b.c.shape.weeks[0], { ...b.c.derived, D8_kit: { ...b.c.derived.D8_kit, cardio_options: ['treadmill', 'bike', 'rower'] } }, model);
+    assert.ok(['treadmill', 'bike', 'rower'].includes(real.effort.modality));
+    assert.ok(real.notes.some((n) => n.key === 'note.cardio_options'));
     const rec = doseAerobic(slot, { ...b.c.shape.weeks[0], block_type: 'recovery' }, b.c.derived, model);
     assert.equal(rec.effort.colour, 'C');
   }

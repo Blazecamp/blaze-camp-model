@@ -5,7 +5,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { fixtureModel, stubDerived, stubShape, stubSeed, loadIntake, sampleContexts, buildSelections } from './helpers/stub-derived.mjs';
 import { buildWeekLayout, daySlots } from '../engine/week.mjs';
-import { selectBlock, fillSlot, candidates, passesHardFilters, aerobicPick } from '../engine/select.mjs';
+import { selectBlock, fillSlot, candidates, passesHardFilters, aerobicPick, variationValues } from '../engine/select.mjs';
+import { olympicVariantByDay } from '../engine/athletic.mjs';
 
 const model = fixtureModel();
 const R = model.rules;
@@ -88,7 +89,13 @@ test('Olympic lifts by level and day pattern: L1 tier for L1 and L2 block 1; cle
       if (f.bucket !== 'AP_TRIPLE_EXT' || !f.exercise_id) continue;
       const a = ex(f.exercise_id).athletic;
       if (lvl === 'L1' || (lvl === 'L2' && sel.exercise_block === 1)) assert.notEqual(a.olympic_tier, 'L2_plus', `${b.c.name} ${f.slot_id} ${f.exercise_id}`);
-      const v = idx.get(f.slot_id).s.variant;
+      // v0.4 fix round 2 / F2 (R2-ATH-04; same test name): a clean / snatch station takes the family of the day's lower-body work lift
+      // (clean on a knee-dominant day, snatch on a hip-dominant day - athletic.olympicVariantByDay); the item says which
+      const { s: st0, d: day0 } = idx.get(f.slot_id);
+      const wl = daySlots(day0).find((x) => x.role === 'work' && ['RP_BKD', 'RP_UKD', 'RP_BHD', 'RP_UHD'].includes(x.bucket));
+      const v = olympicVariantByDay(st0.variant, wl ? wl.bucket : null, R);
+      if (v === 'clean') assert.ok(f.flags.includes('clean_day') && !f.flags.includes('snatch_day'), `${f.slot_id} flags ${f.flags}`);
+      if (v === 'snatch') assert.ok(f.flags.includes('snatch_day') && !f.flags.includes('clean_day'), `${f.slot_id} flags ${f.flags}`);
       if (v === 'clean') assert.ok(['clean', 'loaded_jump'].includes(a.olympic_family), `${f.slot_id} ${f.exercise_id}`);
       if (v === 'snatch') assert.ok(['snatch', 'swing'].includes(a.olympic_family), `${f.slot_id} ${f.exercise_id}`);
       if (v === 'swing') assert.equal(a.olympic_family, 'swing');
@@ -179,7 +186,10 @@ test('swaps: 2-4 alternatives from the same filtered pool, never the pick', () =
     assert.equal(new Set(f.swaps).size, f.swaps.length);
     const s = idx.get(f.slot_id).s;
     for (const id of f.swaps) {
-      assert.ok(ex(id).slots.includes(f.bucket === 'CORE_OTHER' ? 'CORE_ANY' : f.bucket) || f.flags.includes('pattern_gap'), `${f.slot_id} swap ${id} not in ${f.bucket}`);
+      // v0.4 B2: a general-population circuit's metabolic station also draws ballistic medball / KB-swing records
+      // (rules.athletic.circuit_ballistic, RECHECK 05 major)
+      const b2Ballistic = f.bucket === 'COND_CIRCUIT' && R.athletic.circuit_ballistic && (ex(id).medball || ex(id).tags.includes('kb_swing'));
+      assert.ok(ex(id).slots.includes(f.bucket === 'CORE_OTHER' ? 'CORE_ANY' : f.bucket) || f.flags.includes('pattern_gap') || b2Ballistic, `${f.slot_id} swap ${id} not in ${f.bucket}`);
       if (!s.axial_req || s.axial_req !== 'axial') assert.ok(!ex(id).axial || !['RP_BKD', 'RP_BHD', 'RP_UKD', 'RP_UHD'].includes(f.bucket) || s.axial_req === 'axial', `${f.slot_id} swap ${id} is a counted lift`);
     }
     if (model.bySlot(f.bucket).length >= 8 && ['resistance', 'isolation'].includes(model.bucket(f.bucket).kind)) { assert.ok(f.swaps.length >= R.selection.swaps.min, f.slot_id); checked++; }
@@ -241,7 +251,7 @@ test('contra / ipsi (CAT-13): COD profiles load DB / KB single-leg work mostly c
   for (const f of fillsOf(stub('01-swimming').selections[0])) if (f.loading) assert.equal(f.loading, 'contralateral');
 });
 
-test('exercise-block changes (PER-02, R2-LIB-01): work and core kept, <= 34 % of the other resistance slots per day change, details are real axes', () => {
+test('exercise-block changes (PER-02, R2-LIB-01): work and core kept, <= 34 % of the other resistance slots per day change (at least one), details are concrete values (B3)', () => {
   for (const b of built) {
     for (let i = 1; i < b.selections.length; i++) {
       const prev = b.selections[i - 1], cur = b.selections[i];
@@ -263,12 +273,19 @@ test('exercise-block changes (PER-02, R2-LIB-01): work and core kept, <= 34 % of
             if (f.flags.includes('block_change')) changed++;
           }
           if (f.detail) {
-            assert.ok(ex(f.exercise_id).variation_axes.includes(f.detail.axis), `${s.slot_id} ${f.detail.axis}`);
-            assert.equal(f.detail.key, 'detail.' + f.detail.axis);
+            // v0.4 stage B3 (R2-LIB-01 'show it as "Reverse lunge - dumbbell in opposite hand"'; RECHECK 05 / 06 / 07 majors): the detail
+            // is a concrete value of the record's variation vocabulary, never the axis alone ('different grip')
+            const vals = variationValues(model, ex(f.exercise_id), b.c.derived.D8_kit.tokens, (b.c.derived.pain || []).map((x) => x.area));
+            assert.ok(vals.some((v) => v.value === f.detail.value && v.axis === f.detail.axis), `${s.slot_id} ${f.detail.value}`);
+            assert.equal(f.detail.key, 'detail.v.' + f.detail.value);
             assert.equal(f.exercise_id, p.exercise_id, 'a detail variation keeps the exercise');
           }
         }
-        if (others) assert.ok(changed <= Math.floor(R.selection.block_change.max_share_of_slots * others + 1e-9), `${b.c.name} ${d.weekday}: ${changed}/${others}`);
+        // a day with too few slots for a one-third share takes its single small change: a real alternative on a full kit (v1.2,
+        // review 01 'a full kit takes a real alternative'), else a one-detail variation (R2-LIB-01, not flagged block_change)
+        const BC = R.selection.block_change, n = Math.floor(BC.max_share_of_slots * others + 1e-9);
+        // B3: every kit looks for a real one-detail alternative (BC.one_detail), at least one slot a day
+        if (others) assert.ok(changed <= Math.max(1, n), `${b.c.name} ${d.weekday}: ${changed}/${others}`);
       }
     }
   }
@@ -293,7 +310,10 @@ test('WOD stations: 3-4 distinct movements from the COND_WOD pool, never credite
   for (const f of fillsOf(b.selections[0]).filter((x) => x.bucket === 'COND_WOD')) {
     assert.ok(f.stations.length >= R.conditioning.wod.stations[0] && f.stations.length <= R.conditioning.wod.stations[1], f.slot_id);
     assert.equal(f.stations[0], f.exercise_id);
-    for (const id of f.stations) { assert.ok(ex(id).slots.includes('COND_WOD'), id); assert.deepEqual(model.credits(ex(id), 'COND_WOD'), {}); }
+    // v0.4 B2 (RECHECK 04 major): the WOD pool also holds ballistic box / squat jumps and medball slams / wall balls, so the week's
+    // WODs rotate their movements; nothing in a WOD is ever credited
+    const b2 = (e) => R.conditioning.wod.rotate_stations_week && e.athletic && ((e.slots.includes('AP_PLYO') && e.athletic.quality === 'ballistic') || (e.slots.includes('AP_THROW') && e.medball));
+    for (const id of f.stations) { assert.ok(ex(id).slots.includes('COND_WOD') || b2(ex(id)), id); assert.deepEqual(model.credits(ex(id), 'COND_WOD'), {}); }
   }
 });
 

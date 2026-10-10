@@ -4,6 +4,8 @@
 // Pure: no I/O, no clock, no randomness. Every number / list comes from model.rules or the templates.
 import { EngineError, why, WEEKDAYS, EPS } from './util.mjs';
 import { olympicSetsPerExposure, warmupMode } from './budget.mjs';
+import { setCost, supersetMinutes, testMinutes } from './timefit.mjs';
+import { ensureAthleticStations, pairAthleticBlock, olympicAboveCeiling } from './athletic.mjs';
 
 /** @typedef {import('./util.mjs').Why} Why */
 
@@ -47,10 +49,14 @@ export function baseSets(slot, minutes) {
 
 /**
  * Estimated minutes of a day (time_model; supersets; changeovers; circuits).
+ * v0.4 (review 07 major 'a flat 2.5 min a set'; R3-SES-02): a set costs its work time plus the rest it is dosed with (strength
+ * rest 3-6 min for heavy work lifts, timefit.setCost); a superset rests once after the pair; a rep-max test is a full work-up
+ * and a jump / sprint / agility test its protocol's minutes (testMinutes).
  * @param {object} day DayLayout
  * @param {Object<string,number>} [setsBySlot] slot_id -> sets (missing = base sets of the slot)
  * @param {Object<string,object>} [fillsBySlot] slot_id -> SlotFill (laterality of the pick)
  * @param {object} model Model
+ * @param {{week?:object, derived?:object, lifting_only?:boolean, supersets?:boolean}} [opts]
  * @returns {number} whole minutes
  */
 export function estimateMinutes(day, setsBySlot, fillsBySlot, model, opts = {}) {
@@ -58,6 +64,7 @@ export function estimateMinutes(day, setsBySlot, fillsBySlot, model, opts = {}) 
   const mps = T.minutes_per_set;
   const minutes = day.minutes_limit || 60;
   const week = opts.week || null;
+  const derived = opts.derived || null;
   const setsOf = (s) => {
     if (setsBySlot && Object.prototype.hasOwnProperty.call(setsBySlot, s.slot_id)) return setsBySlot[s.slot_id] || 0;
     return s._base_sets != null ? s._base_sets : baseSets(s, minutes);
@@ -66,8 +73,15 @@ export function estimateMinutes(day, setsBySlot, fillsBySlot, model, opts = {}) 
   let total = 0;
   if (slots.some((s) => s.bucket === 'WARMUP_GENERAL' && s.role === 'warmup')) total += mps.warmup_session;
   const supersetGroups = new Map();
+  // stage B2 (R3-ATH-03): a HYROX station circuit costs rounds x stations x (work + transition), as dosed (circuit_finisher)
+  const HY = model.rules.athletic.hyrox;
+  const hyroxStations = [];
   for (const s of slots) {
     if (s.role === 'warmup' || s.role === 'cooldown') continue;
+    // v0.4 fix round 2 / F2 (minimal seam, E-162 / E-165): a second ankle day done in the warm-up window costs no session minutes of
+    // its own; a station this week's timed test replaces is not done
+    if (s.prep_in_warmup || s.test_replaced) continue;
+    if (HY && s.bucket === 'COND_CIRCUIT' && (HY.station_variants || []).includes(s.variant)) { hyroxStations.push(s); continue; }
     if (s.aerobic) {
       // aerobic sessions carry their own minutes: an aerobic day, a fighter's opening block and (v1.2, review 02 / 03 / 06 / 07)
       // an add-on after lifting all count; a 'separate_session' is done at another time of day and is not session time
@@ -75,29 +89,44 @@ export function estimateMinutes(day, setsBySlot, fillsBySlot, model, opts = {}) 
       if (counts && !opts.lifting_only) total += T.aerobic_addon_minutes[s.aerobic.colour] || 0;
       continue;
     }
+    if (s.bucket === 'TEST') { total += testMinutes(s, model); continue; }
     if (s.block === 'circuit') continue; // circuits below
-    if (s.bucket === 'SKILL') { if (!s.in_warmup) total += isNumber(T.skill_extra_min) ? T.skill_extra_min : mps.skill_block; continue; }
+    // v0.4 fix round 1 (RECHECK 04 major: '6-10 min of quality practice' folded into the warm-up was costed at 0): a folded skill costs
+    // its minimum practice time beyond the warm-up (rules.time_model.skill_in_warmup_min)
+    if (s.bucket === 'SKILL') {
+      const short = T.skill_in_warmup_short && minutes <= T.skill_in_warmup_short.at_or_below_minutes ? T.skill_in_warmup_short.min : null;
+      total += s.in_warmup ? (isNumber(short) ? short : isNumber(T.skill_in_warmup_min) ? T.skill_in_warmup_min : 0) : (isNumber(T.skill_extra_min) ? T.skill_extra_min : mps.skill_block);
+      continue;
+    }
     if (s.bucket === 'COND_WOD') {
       const W = model.rules.conditioning.wod;
-      const r = day.kind === 'optional' ? W.wod_only_day_minutes : (s.wod_short && W.short_minutes ? W.short_minutes : (W.minutes || T.wod_minutes));
+      const r0 = day.kind === 'optional' ? W.wod_only_day_minutes : (s.wod_short && W.short_minutes ? W.short_minutes : (W.minutes || T.wod_minutes));
+      const r = s.wod_hold ? [r0[0], r0[0]] : r0; // held at the short end (v0.4 time check)
       // v1.2 (review 04): the WOD's dosed minutes of this week (10 -> 20 by the stair level), not a fixed midpoint
       if (T.wod_minutes_from_dose && week) total += Math.round(r[0] + (r[1] - r[0]) * stairFrac(week));
       else total += T.wod_minutes_from_dose ? r[1] : (r[0] + r[1]) / 2;
       continue;
     }
     const n = setsOf(s);
+    if (s.test && n > 0) total += testMinutes(s, model); // the work-up to the test top set comes before the planned sets
     if (!n) continue;
-    const m = n * setMinutes(s, fillsBySlot && fillsBySlot[s.slot_id], model);
-    if (s.superset) {
-      if (!supersetGroups.has(s.superset)) supersetGroups.set(s.superset, []);
-      supersetGroups.get(s.superset).push(m);
+    const cost = setCost(s, fillsBySlot && fillsBySlot[s.slot_id], model, derived, week);
+    // supersets: the day's active pairs (default), every eligible template pair ('eligible', R3-SES-02 step 3) or none (false)
+    const ssId = opts.supersets === false ? null : (opts.supersets === 'eligible' ? (s.superset || s.superset_eligible || null) : s.superset);
+    if (ssId) {
+      if (!supersetGroups.has(ssId)) supersetGroups.set(ssId, []);
+      supersetGroups.get(ssId).push({ sets: n, cost });
     } else {
-      total += m + T.changeover_min_per_exercise;
+      total += n * cost.minutes + T.changeover_min_per_exercise;
     }
   }
-  for (const ms of supersetGroups.values()) {
-    if (ms.length < 2) { total += ms[0] + T.changeover_min_per_exercise; continue; }
-    total += ms.reduce((a, b) => a + b, 0) * T.superset_factor + T.changeover_in_superset_pair * ms.length;
+  for (const ms of supersetGroups.values()) total += supersetMinutes(ms, model);
+  if (hyroxStations.length) {
+    const cf = HY.finisher || model.rules.conditioning.circuit_finisher;
+    const p = stairFrac(week);
+    const rounds = Math.round(cf.rounds[0] + (cf.rounds[1] - cf.rounds[0]) * p + EPS);
+    const work = Math.round((cf.work_s[0] + (cf.work_s[1] - cf.work_s[0]) * p) / 5) * 5;
+    total += (rounds * hyroxStations.length * (work + T.circuit.transition_s)) / 60 + T.changeover_min_per_exercise;
   }
   // circuits: rounds x stations x (work + transition) + rests between rounds (+ 1 min between circuits, 05 v1.1 5.3; v1.2 the
   // week's own work seconds, review 05)
@@ -135,19 +164,6 @@ export function aerobicMinutes(day, model) {
   return n;
 }
 
-function setMinutes(slot, fill, model) {
-  const mps = model.rules.time_model.minutes_per_set;
-  let tc = slot.time_class || model.bucket(slot.bucket).time_class;
-  const lat = fill && fill.laterality;
-  if (lat === 'unilateral' || lat === 'alternating') {
-    if (tc === 'compound_bilateral') tc = 'compound_unilateral';
-    else if (tc === 'isolation') tc = 'isolation_unilateral';
-  } else if (fill && fill.bucket && fill.bucket !== slot.bucket) {
-    tc = model.bucket(fill.bucket).time_class || tc; // laterality dial flipped to the sibling bucket
-  }
-  if (!tc || mps[tc] === undefined) return mps.isolation;
-  return mps[tc];
-}
 
 // ------------------------------------------------------------------------------------------------------------------
 // buildWeekLayout
@@ -248,10 +264,14 @@ export function buildWeekLayout(derived, shape, trainingBlock, model) {
   ensureCoreBlock(days, ctx);
   ensureRearDelt(days, ctx);
   ensureThrowStation(days, ctx);
+  // fix round 1 / F2: the Olympic budget trim runs on the template's own stations, before the athletic tracks size their stations
+  // against the days' room (the 12 + 2 count)
+  const f2Tracks = !!(R.athletic.f2 && R.athletic.f2.tracks && R.athletic.f2.tracks.from_budget);
+  if (f2Tracks) trimOlympicExposures(days, ctx);
   ensureAthleticTracks(days, ctx);
   ensureWarmupPrep(days, ctx);
   addPrehab(days, ctx);
-  trimOlympicExposures(days, ctx);
+  if (!f2Tracks) trimOlympicExposures(days, ctx);
   ctx.olyExposures = days.filter((d) => d.kind === 'main').reduce((a, d) => a + d._slots.filter((s) => s.bucket === 'AP_TRIPLE_EXT').length, 0);
   for (const d of days) for (const s of d._slots) s._base_sets = templateSetsOf(s, ctx);
 
@@ -259,7 +279,11 @@ export function buildWeekLayout(derived, shape, trainingBlock, model) {
   const aer = aerobicPlan(derived, tb, profile, model);
   let colourIdx = 0;
   let remaining = aer.n;
-  const nextColour = () => aer.colours[colourIdx++] || R.conditioning.extra_colour;
+  // stage B2 (R3-ATH-03 HYROX hybrid days): a template COND_AEROBIC station whose variant names a colour takes that colour from
+  // the week's queue (run intervals = Blue, 1 km run + station = Green); the other sessions keep the D14 order
+  const colourQueue = aer.colours.slice();
+  const nextColour = () => (colourIdx++, colourQueue.length ? colourQueue.shift() : R.conditioning.extra_colour);
+  const takeColour = (v) => { const i = v ? colourQueue.indexOf(v) : -1; if (i < 0) return nextColour(); colourIdx++; return colourQueue.splice(i, 1)[0]; };
   // 1) template aerobic days and optional / main days holding a COND_AEROBIC station, in template weekday order
   const capacity = [];
   for (const e of aerobicEntries) capacity.push({ type: 'aerobic_day', entry: e, order: WDI[e.tplWd] });
@@ -276,7 +300,7 @@ export function buildWeekLayout(derived, shape, trainingBlock, model) {
       days.push(day);
       remaining--;
     } else {
-      const colour = nextColour();
+      const colour = takeColour(c.station.variant);
       const a = aerobicSlotFromStation(c.day, c.station, colour, ctx);
       if (c.day.kind === 'optional') a.aerobic.required = true; // the cardio counts even when the optional lifting is skipped (review 02)
       c.day._aerobic_used.push(a);
@@ -329,6 +353,8 @@ export function buildWeekLayout(derived, shape, trainingBlock, model) {
   days.sort((a, b) => WDI[a.weekday] - WDI[b.weekday]);
   const rearCount = { n: countRearStations(days, model) };
   const finals = [];
+  ctx.allDays = finals;
+  ctx.pendingDays = days;
   for (const d of days) {
     const f = finalizeDay(d, ctx, false);
     if (f.kind === 'main' || f.kind === 'optional') applyCuts(f, ctx, rearCount, warnings);
@@ -336,13 +362,16 @@ export function buildWeekLayout(derived, shape, trainingBlock, model) {
   }
   moveGroupsToOptional(finals, ctx, warnings);
   movePrehabToOptional(finals, ctx);
+  for (const f of finals) if (f.kind === 'main' || f.kind === 'optional') pairRemaining(f, ctx);
+  // fix round 1 / F2: a day's jump and medball throw are a recommended contrast pair (R3-SES-02 supersets)
+  if (R.athletic.f2 && R.athletic.f2.tracks) for (const f of finals) if (f.kind === 'main') pairAthleticBlock(f);
   // 4) the remaining sessions: an add-on after the main day with the most room when it fits the session, else a separate
   // session that day (any time; not added to the lifting time) - review 02 / 03 / 04 / 06 / 07 (v1.2)
   const mainsF = finals.filter((d) => d.kind === 'main');
   if (remaining > 0 && mainsF.length) {
     let k = 0;
     while (remaining > 0) {
-      const ranked = mainsF.map((d) => ({ d, slack: limitOfDay(d, ctx) - estimateMinutes(d, null, null, model, { week: ctx.peakWeek }), n: daySlots(d).filter((s) => s.aerobic).length }))
+      const ranked = mainsF.map((d) => ({ d, slack: limitOfDay(d, ctx) - estimateMinutes(d, null, null, model, { week: ctx.peakWeek, derived: ctx.derived }), n: daySlots(d).filter((s) => s.aerobic).length }))
         .sort((a, b) => a.n - b.n || b.slack - a.slack || WDI[a.d.weekday] - WDI[b.d.weekday]);
       const pick = ranked[0];
       const colour = nextColour();
@@ -361,7 +390,7 @@ export function buildWeekLayout(derived, shape, trainingBlock, model) {
     }
   }
   for (const f of finals) {
-    f.est_minutes = estimateMinutes(f, null, null, model);
+    f.est_minutes = estimateMinutes(f, null, null, model, { derived: ctx.derived, week: ctx.firstWeek });
     f.aerobic_minutes = aerobicMinutes(f, model);
     f.groups = dayGroups(f, model);
   }
@@ -440,9 +469,39 @@ export function layoutForWeek(base, weekShape, derived, model) {
   }
   // test week: mark the first item of each tested pattern (H19, D-17)
   if (weekShape.test && weekShape.test.items && weekShape.test.items.length) markTests(L, weekShape, derived, model);
-  for (const day of L.days) day.est_minutes = estimateMinutes(day, null, null, model);
+  for (const day of L.days) day.est_minutes = estimateMinutes(day, null, null, model, { derived, week: weekShape });
   L.week = weekShape.n;
   return L;
+}
+
+/**
+ * v0.4: the minutes a test week's tests add per weekday (the same marks layoutForWeek makes), so the volume engine sizes a test
+ * week with its work-ups (R2-PER-07 'test as a full work-up'; review 07 major). @returns {{byDay:Object<string,number>, tested:string[]}}
+ */
+export function testPlan(base, weekShape, derived, model) {
+  const out = { byDay: {}, bySlot: {}, tested: [] };
+  if (!weekShape || !weekShape.test || !weekShape.test.items || !weekShape.test.items.length) return out;
+  const L = clone(base);
+  for (const day of L.days || []) for (const blk of day.blocks || []) for (const s of blk.slots || []) s.test = null;
+  markTests(L, weekShape, derived, model);
+  for (const day of L.days || []) for (const s of daySlots(day)) {
+    if (!s.test) continue;
+    const m = testMinutes(s, model);
+    // a timed test item counts on its day; a rep-max work-up counts only while its lift is in the week (bySlot)
+    if (s.bucket === 'TEST') { if (m) out.byDay[day.weekday] = (out.byDay[day.weekday] || 0) + m; }
+    else { out.tested.push(s.slot_id); if (m) out.bySlot[s.slot_id] = m; }
+  }
+  // v0.4 fix round 2 / F2 (minimal seam, E-165; R2-PER-07 'tested ... instead of'): a timed test replaces its station on its day, so
+  // the day's test minutes are net of that station's own minutes (the volume engine's estimate still counts the station)
+  out.replaced = [];
+  const T = model.rules.time_model;
+  for (const day of L.days || []) for (const s of daySlots(day)) {
+    if (!s.test_replaced) continue;
+    const n = baseSets(s, day.minutes_limit || (derived && derived.session_minutes) || 60);
+    out.replaced.push(s.slot_id);
+    if (n > 0) out.byDay[day.weekday] = (out.byDay[day.weekday] || 0) - (n * setCost(s, null, model, derived, weekShape).minutes + T.changeover_min_per_exercise);
+  }
+  return out;
 }
 
 function markTests(L, weekShape, derived, model) {
@@ -481,21 +540,41 @@ function markTests(L, weekShape, derived, model) {
     }
     blk.slots.push(slot);
   };
+  // v0.4 fix round 1 (RECHECK 04 major: the class's Tuesday test landed on a 3 x 10 incline-bench accessory after the strict press):
+  // in the class model (rules.session.time_fit.keep_work_lift) the strength test is the class lifts - squat, press, deadlift: each
+  // day's work lift of a tested pattern
+  const KWL = R.session.time_fit && R.session.time_fit.keep_work_lift;
+  const classModel = !!(KWL && (KWL.families || []).includes(derived.D1_family));
   for (const item of weekShape.test.items) {
     if (item === 'strength') {
       const c = cat.strength;
       const test = older ? 'submax' : (fromZero ? c.from_zero[lvl] : c.after_completed_block[lvl]);
-      for (const b of ['RP_BKD', 'RP_BHD', 'RP_HPUSH']) {
-        const hit = firstOf((s) => s.bucket === b && s.block !== 'circuit');
+      const buckets = classModel ? [['RP_BKD'], ['RP_BHD'], ['RP_VPUSH', 'RP_HPUSH']] : [['RP_BKD'], ['RP_BHD'], ['RP_HPUSH']];
+      for (const bs of buckets) {
+        const hit = classModel
+          ? (allSlots.find(({ s }) => bs.includes(s.bucket) && s.role === 'work' && s.block !== 'circuit') || firstOf((s) => bs.includes(s.bucket) && s.block !== 'circuit'))
+          : firstOf((s) => bs.includes(s.bucket) && s.block !== 'circuit');
         mark(hit, test);
         if (hit) strengthDays.add(hit.day.weekday);
       }
     }
   }
-  for (const item of weekShape.test.items) {
+  // v0.4 B4 (sample 02: the end-test Monday ran 131 min for 90 - the squat test, the sprint, the 5-10-5 and the jump test on one
+  // day): the jump test goes to a day with jumps that holds no strength test and comes after the speed / agility day when one
+  // is free (the tests spread over the test week, R2-PER-07)
+  const order = ['strength', 'speed_agility', 'cardio', 'jumps', 'body'];
+  const items = weekShape.test.items.slice().sort((a, b) => (order.indexOf(a) < 0 ? 99 : order.indexOf(a)) - (order.indexOf(b) < 0 ? 99 : order.indexOf(b)));
+  const testDays = new Set();
+  for (const item of items) {
     if (item === 'jumps') {
       if (older && !(derived.prefs && derived.prefs.older_athletic_opt_in) && cat.jumps.older_default === false) continue;
-      const day = mains.find((d) => daySlots(d).some((s) => PLYO_BUCKETS.includes(s.bucket))) || mains[0];
+      // (fix round 2 / F2, E-165: a day with a lower-body jump station the test can replace comes first)
+      const RSj = R.athletic.r2 && R.athletic.r2.tests && R.athletic.r2.tests.replace_station;
+      const lowerJump = (s) => s.bucket === 'AP_PLYO' && s.variant !== 'upper' && !s.ankle_block;
+      const jumpy = (d) => daySlots(d).some((s) => (RSj ? lowerJump(s) : PLYO_BUCKETS.includes(s.bucket))) || (RSj && !mains.some((x) => daySlots(x).some(lowerJump)) && daySlots(d).some((s) => PLYO_BUCKETS.includes(s.bucket)));
+      // (fix round 1 / F2: a second sprint day can take the speed tests; the jump test then joins them before it joins a rep max)
+      const day = mains.find((d) => jumpy(d) && !strengthDays.has(d.weekday) && !testDays.has(d.weekday)) || mains.find((d) => jumpy(d) && !strengthDays.has(d.weekday)) ||
+        mains.find((d) => jumpy(d) && !testDays.has(d.weekday)) || mains.find(jumpy) || mains[0];
       addTestItem(day, 'jumps', cat.jumps.items[0], 'tests.' + cat.jumps.items[0]);
     } else if (item === 'speed_agility') {
       const c = cat.speed_agility;
@@ -505,8 +584,15 @@ function markTests(L, weekShape, derived, model) {
       const day = mains.find((d) => daySlots(d).some((s) => ['AP_SPRINT', 'AP_COD'].includes(s.bucket)) && !strengthDays.has(d.weekday)) ||
         mains.find((d) => daySlots(d).some((s) => ['AP_SPRINT', 'AP_COD'].includes(s.bucket))) || mains[0];
       const ib = c.items_by_profile || { sprint: c.items[0], cod: c.items[1] };
-      if (sprinty || !cody) addTestItem(day, 'sprint', fromZero ? c.from_zero : ib.sprint, null);
-      if (cody) addTestItem(day, 'cod', ib.cod, null);
+      // v0.4 fix round 2 / F2 (minimal seam, E-165; RECHECK v0.4 03 major 'let the 10-30 m sprint test replace Wednesday's acceleration
+      // station, the 5-10-5 replace Monday's shuffle station'): each timed test goes to a day that holds its own station (no strength
+      // test there), so the test replaces that station instead of adding to the day
+      const RSs = R.athletic.r2 && R.athletic.r2.tests && R.athletic.r2.tests.replace_station;
+      const dayWith = (bucket) => (RSs ? mains.find((d) => daySlots(d).some((s) => s.bucket === bucket) && !strengthDays.has(d.weekday)) : null) || day;
+      const sprintDay = dayWith('AP_SPRINT'), codDay = dayWith('AP_COD');
+      if (sprinty || !cody) { addTestItem(sprintDay, 'sprint', fromZero ? c.from_zero : ib.sprint, null); if (sprintDay) testDays.add(sprintDay.weekday); }
+      if (cody) { addTestItem(codDay, 'cod', ib.cod, null); if (codDay) testDays.add(codDay.weekday); }
+      if (day && !RSs) testDays.add(day.weekday);
     } else if (item === 'cardio') {
       const c = cat.cardio;
       const hasRun = (derived.D8_kit && (derived.D8_kit.tokens || []).includes('open_space_long'));
@@ -522,6 +608,20 @@ function markTests(L, weekShape, derived, model) {
       }
     }
     // 'body': no exercise item (rendered in the tests section)
+  }
+  // v0.4 fix round 2 / F2 (minimal seam, E-165; COACH-R2 R2-PER-07 'tested in the last week instead of that week's top sets'; RECHECK
+  // v0.4 02 / 03 majors: the sprint, 5-10-5 and jump tests came on top of the day's own sprint, COD and jump stations): a timed test
+  // replaces one station of its kind on its day (rules.athletic.r2.tests.replace_station) - the station is marked, left out of the
+  // week's items and of the day's minutes
+  const RS = R.athletic.r2 && R.athletic.r2.tests && R.athletic.r2.tests.replace_station;
+  if (RS) for (const day of mains) {
+    for (const t of daySlots(day).filter((s) => s.bucket === 'TEST')) {
+      const kind = String(t.slot_id).split('.').pop();
+      const buckets = RS[kind];
+      if (!Array.isArray(buckets)) continue;
+      const hit = daySlots(day).find((s) => buckets.includes(s.bucket) && !s.test_replaced && !s.ankle_block && !(s.bucket === 'AP_PLYO' && s.variant === 'upper'));
+      if (hit) hit.test_replaced = t.test;
+    }
   }
 }
 
@@ -678,7 +778,12 @@ function planFocus(occupied, dt, ctx) {
   const ds = (ctx.profile && ctx.profile.direct_sets_wk) || {};
   const direct = { triceps: ds.ISO_TRICEP > 0, biceps: ds.ISO_BICEP > 0 }; // the sport profile's own direct arm sets (04 weekly_sets)
   const fallback = model.muscleIds({ target: true })
-    .filter((m) => (fill[m] === 'target' || fill[m] === 'own_sets' || direct[m]) && model.groupOf(m) !== 'calves' && (FOCUS_SMALL.includes(m) || profPrio.includes(m) || ratioFirst.includes(m)))
+    // v0.4 fix round 1 (RECHECK 02 minor: credit-only triceps took 6 direct sets on the optional days, labelled Focus): a muscle the
+    // plan keeps to compound credit never fills a Focus slot
+    .filter((m) => (fill[m] === 'target' || fill[m] === 'own_sets') && model.groupOf(m) !== 'calves' && (FOCUS_SMALL.includes(m) || profPrio.includes(m) || ratioFirst.includes(m)))
+    // and an arm muscle the sport profile writes 0 direct sets for (04 weekly_sets ISO_BICEP / ISO_TRICEP 0; RECHECK 08 major: the
+    // racket player's only upper-body work was curls and kickbacks labelled Focus)
+    .filter((m) => !((m === 'biceps' && ds.ISO_BICEP === 0) || (m === 'triceps' && ds.ISO_TRICEP === 0)))
     .map((m, i) => ({ m, i, r: profPrio.includes(m) || ratioFirst.includes(m) ? (profPrio.indexOf(m) >= 0 ? profPrio.indexOf(m) : 0) : (direct[m] ? 50 : 99), c: coverage[model.groupOf(m)] || 0 }))
     .sort((a, b) => a.r - b.r || a.c - b.c || a.i - b.i)
     .map((x) => x.m);
@@ -772,6 +877,8 @@ function slotFromStation(wd, st, def, ctx, extras) {
     default_sets: defaultSetsFor(st, b, ctx, extras.calfIndex),
     pair: st.pair || null,
     superset: active ? st.superset : null,
+    // v0.4 (R3-SES-02 step 3): the template pair this station may be supersetted with (a recommendation; on when the time needs it)
+    superset_eligible: st.superset || null,
     circuit: st.circuit == null ? null : st.circuit,
     axial_req: normAxial(st.axial),
     variant: st.variant || null,
@@ -905,9 +1012,9 @@ function repairSmallSupersets(slots, ctx) {
     if (!b) continue;
     paired.add(a.s); paired.add(b.s);
     const id = a.id;
-    for (const s of [a.s, b.s]) { const active = !!s.superset; ctx.origSuperset.set(s.slot_id, id); s.superset = active ? id : null; }
+    for (const s of [a.s, b.s]) { const active = !!s.superset; ctx.origSuperset.set(s.slot_id, id); s.superset = active ? id : null; s.superset_eligible = id; }
   }
-  for (const { s } of loose) if (!paired.has(s)) { ctx.origSuperset.delete(s.slot_id); s.superset = null; }
+  for (const { s } of loose) if (!paired.has(s)) { ctx.origSuperset.delete(s.slot_id); s.superset = null; s.superset_eligible = null; }
   void model;
 }
 
@@ -1044,8 +1151,11 @@ function finalizeDay(d, ctx, preview) {
     const idx = acc.slots.findIndex((s) => model.bucket(s.bucket).kind === 'isolation' && smallPrio.includes(slotMuscle(s, model)) && inKit(s));
     if (idx >= 0) {
       const [s] = acc.slots.splice(idx, 1);
-      if (s.superset) { const partner = acc.slots.filter((x) => x.superset === s.superset); if (partner.length === 1) partner[0].superset = null; }
-      s.superset = null;
+      // v0.4 fix round 1 (RECHECK 06 major: the moved isolation stayed the eligible partner of an accessory, so the printed pair
+      // spanned two blocks): the moved item leaves its pair - active and recommended - and a lone partner is freed
+      const pid = s.superset || s.superset_eligible || ctx.origSuperset.get(s.slot_id) || null;
+      if (pid) for (const x of acc.slots) if (x.superset === pid || x.superset_eligible === pid) { x.superset = null; x.superset_eligible = null; ctx.origSuperset.delete(x.slot_id); }
+      s.superset = null; s.superset_eligible = null; ctx.origSuperset.delete(s.slot_id);
       s.why.push(why('why.priority_first', 'ORD-04'));
       strength.slots.unshift(s);
       if (!acc.slots.length) day.blocks.splice(day.blocks.indexOf(acc), 1);
@@ -1084,6 +1194,77 @@ function finalizeDay(d, ctx, preview) {
   return day;
 }
 
+/**
+ * v0.4 fix round 1 (E-90; COACH-R3 R3-SES-02 'recommend supersets so that it's a faster workout'; RECHECK 01 / 05 / 07 / 08: only the
+ * template pairs or the core pair were ever recommended): after the cuts, the day's remaining non-competing isolations are paired
+ * as recommendations (superset_eligible; switched on only when the time needs them): two isolations of different groups
+ * (rules.supersets.pairs first: biceps + rear delts, triceps + side delts, calves + delts; a knee-extension + knee-flexion pair; a
+ * chest fly + a triceps isolation), an isolation + joint care. Never a work lift, never two lower compounds, never across blocks:
+ * the partner moves next to its pair in the block (the printed page reads top to bottom).
+ */
+function pairRemaining(day, ctx) {
+  const { model, R } = ctx;
+  const kindOfS = (s) => { try { return model.bucket(s.bucket).kind; } catch { return null; } };
+  // (the region of the muscle a slot serves - bucket defs carry none; v0.4 fix round 1)
+  const regionOf = (s) => { let m = null; try { m = slotMuscle(s, model); } catch { m = null; } const d = m && R.muscles && R.muscles.defs[m]; return d ? d.region || null : (/LOWER|CALF|QUAD|LEG_|HIP|GLUTE/.test(s.bucket || '') ? 'lower' : null); };
+  const grp = (s) => (s.bucket === 'ISO_SIDE_REAR_DELT' ? (s.variant === 'rear' ? 'rear' : 'side') : s.bucket === 'ISO_CALF' ? 'calves' : s.bucket === 'ISO_BICEP' ? 'biceps'
+    : s.bucket === 'ISO_TRICEP' ? 'triceps' : (s.group || (s.focus_muscle ? model.groupOf(s.focus_muscle) : null) || s.bucket));
+  const eligible = (s) => !s.superset && !s.superset_eligible && !s.test && !s.aerobic && s.role !== 'work' && s.role !== 'core_block' && s.block !== 'circuit' &&
+    (['isolation', 'focus', 'prehab'].includes(kindOfS(s)) || s.role === 'prehab');
+  const pairsList = ((R.supersets && R.supersets.pairs) || []).map((p) => p.slice());
+  const listed = (a, b) => pairsList.some(([x, y]) => { const m = (s, k) => s.bucket === k || grp(s) === k || (k === 'delts' && ['side', 'rear'].includes(grp(s))); return (m(a, x) && m(b, y)) || (m(a, y) && m(b, x)); });
+  const compatible = (a, b) => {
+    if (grp(a) === grp(b)) return false; // two exercises of one group are never supersetted (master 10.6)
+    if (a.role === 'prehab' && b.role === 'prehab') return false;
+    const la = regionOf(a) === 'lower', lb = regionOf(b) === 'lower';
+    if (la && lb) return (a.bucket === 'ISO_QUAD' && b.bucket === 'ISO_LEG_FLEXION') || (a.bucket === 'ISO_LEG_FLEXION' && b.bucket === 'ISO_QUAD');
+    return true;
+  };
+  let k = 0;
+  for (const blk of day.blocks) {
+    if (!['strength', 'accessories', 'prehab'].includes(blk.kind)) continue;
+    for (let i = 0; i < blk.slots.length; i++) {
+      const a = blk.slots[i];
+      if (!eligible(a)) continue;
+      const rest = blk.slots.slice(i + 1).filter((b) => eligible(b) && compatible(a, b));
+      const b = rest.find((x) => listed(a, x)) || rest[0];
+      if (!b) continue;
+      const id = 'X' + (++k);
+      a.superset_eligible = id; b.superset_eligible = id;
+      blk.slots.splice(blk.slots.indexOf(b), 1);
+      blk.slots.splice(i + 1, 0, b);
+      i++;
+    }
+  }
+  // v0.4 fix round 1 (E-90; RECHECK 08 major: only the core pair was recommended while Monday ran 49 min for 45): the last unpaired
+  // exercise of a block and a compatible one at the head of the next block (an isolation and the joint care right after it) are a
+  // pair too - done back to back, they save the rest between them; the partner moves to the head of its block (no order rule there)
+  const work = day.blocks.map((b, bi) => ({ b, bi })).filter(({ b }) => ['strength', 'accessories', 'prehab'].includes(b.kind));
+  for (let j = 0; j + 1 < work.length; j++) {
+    const A = work[j].b, B = work[j + 1].b;
+    if (work[j + 1].bi !== work[j].bi + 1 || !A.slots.length) continue;
+    const a = A.slots[A.slots.length - 1];
+    if (!eligible(a)) continue;
+    const b = B.slots.find((x) => eligible(x) && compatible(a, x));
+    if (!b) continue;
+    B.slots.splice(B.slots.indexOf(b), 1);
+    B.slots.unshift(b);
+    const id = 'X' + (++k);
+    a.superset_eligible = id; b.superset_eligible = id;
+  }
+  // the day's two core exercises are always a recommended pair (R2-SES-03 'core supersets anywhere'; RECHECK 05 major: the longest
+  // bootcamp day was the only one without its core pair)
+  const CSO = R.supersets && R.supersets.core_supersets_optional;
+  if (CSO && CSO.anywhere) {
+    const core = daySlots(day).filter((s) => s.role === 'core_block' && !s.superset && !s.superset_eligible);
+    if (core.length >= 2 && !daySlots(day).some((s) => s.superset === 'core_pair')) for (const s of core.slice(0, 2)) s.superset_eligible = 'core_pair';
+  }
+  // an item cut out of a template pair keeps no lone eligible id (the printed pair needs both partners)
+  const ids = new Map();
+  for (const s of daySlots(day)) { const id = s.superset || s.superset_eligible; if (id) ids.set(id, (ids.get(id) || 0) + 1); }
+  for (const s of daySlots(day)) { if (s.superset_eligible && (ids.get(s.superset_eligible) || 0) < 2 && !s.superset) s.superset_eligible = null; }
+}
+
 function swapSlots(day, a, b) {
   // swap positions but keep each position's pair / superset (both are upper lifts of the same direction: pairing holds)
   let pa = null, pb = null;
@@ -1092,9 +1273,9 @@ function swapSlots(day, a, b) {
     const ib = blk.slots.indexOf(b); if (ib >= 0) pb = [blk, ib];
   }
   if (!pa || !pb) return;
-  const [ap, as] = [a.pair, a.superset];
-  a.pair = b.pair; a.superset = b.superset;
-  b.pair = ap; b.superset = as;
+  const [ap, as, ae] = [a.pair, a.superset, a.superset_eligible];
+  a.pair = b.pair; a.superset = b.superset; a.superset_eligible = b.superset_eligible;
+  b.pair = ap; b.superset = as; b.superset_eligible = ae;
   pa[0].slots[pa[1]] = b;
   pb[0].slots[pb[1]] = a;
 }
@@ -1146,12 +1327,19 @@ function applyCuts(day, ctx, rearCount, warnings) {
   const exempt = R.session.exercises_per_group.exempt_groups; // R3-pending: R3-SES-01
   const maxPerGroup = R.session.exercises_per_group.full_body_day[1];
   const exemptFamily = R.session.exercises_per_group.exempt_families.includes(family);
-  const est = () => estimateMinutes(day, null, null, model, { week: ctx.peakWeek });
+  const est = () => estimateMinutes(day, null, null, model, { week: ctx.peakWeek, derived: ctx.derived });
   const splitOver = () => !day.full_body && capSplit != null && daySlots(day).filter((s) => s.counts_in_cap).length > capSplit;
   const athOver = () => family === 'athletic' && athleteCount(day, model, R) > R.session.athlete_cap;
   const groupOver = () => day.full_body && !exemptFamily && Object.entries(groupCounts(day, model)).some(([g, n]) => !exempt.includes(g) && n > maxPerGroup);
   const timeOver = () => est() > limit + EPS;
   const over = () => timeOver() || splitOver() || athOver() || groupOver();
+  // v0.4 fix round 1 (RECHECK 05 major: Monday ran 45-47 min against 45 without its core pair): a day over the CHOSEN minutes at
+  // its peak (no tolerance) runs its two core exercises as a pair (R2-SES-03 'core supersets anywhere'; it costs no strength work)
+  const CS0 = R.supersets.core_supersets_optional;
+  if (est() > minutes + EPS && CS0 && CS0.anywhere && CS0.when_over_time) {
+    const core = daySlots(day).filter((s) => s.role === 'core_block' && !s.superset);
+    if (core.length >= 2) { for (const s of core.slice(0, 2)) { s.superset = 'core_pair'; s.superset_eligible = 'core_pair'; } day.supersets_on = true; day.why.push(why('why.core_superset', 'R2-SES-03')); }
+  }
   if (!over()) return;
   // 1) supersets first (ORD-05); v1.2: every over-time day pairs its template supersets
   if (timeOver() && R.cut_order.superset_first) {
@@ -1188,6 +1376,9 @@ function applyCuts(day, ctx, rearCount, warnings) {
   const cuttable = (s) => {
     if (s.aerobic) return false; // the weekly aerobic count is D14's (R2-SES-06); sessions never cost lifting time here
     if (s.track && trackProtected) return false; // the only station that carries a sport-profile track (v1.2 athletic budget)
+    if (s.ankle_keep) return false; // F2 (R3-ATH-02): the ankle track of a racket / court profile stays (2 short sets, its own time class)
+    if (s.role === 'prehab' && s.every_session) return false; // R3-ATH-01 (B2): a swimmer's shoulder care stays every session
+    if (s.role === 'prehab' && s.keep_main_day) return false; // R3-ATH-02: a racket player 50+ keeps cuff / elbow care on a main day (fix round 1)
     if (s.bucket === 'ISO_CALF' && s.calf_index === 1) return true; // the 1-set second calf station is the first cut (v1.2)
     if (s.bucket === 'ISO_CALF' && nc.first_calf_station) return false;
     if (nc.roles.includes(s.role) || nc.buckets.includes(s.bucket)) return false;
@@ -1208,7 +1399,7 @@ function applyCuts(day, ctx, rearCount, warnings) {
     if (m.wod_short) return s.bucket === 'COND_WOD' && !s.wod_short && !/^WOD\./.test(s.station_id || '');
     if (m.athletic_per_day_gt !== undefined) {
       // one athletic station a day for a short stay-active session; the medball throw stays on the hip day (cut order note)
-      const ath = daySlots(day).filter((x) => ['AP_PLYO', 'AP_THROW', 'AP_JUMP_LIMITED_KNEE', 'AP_COD', 'AP_SPRINT'].includes(x.bucket));
+      const ath = daySlots(day).filter((x) => ['AP_PLYO', 'AP_THROW', 'AP_JUMP_LIMITED_KNEE', 'AP_COD', 'AP_SPRINT'].includes(x.bucket) && !x.ankle_block); // (F2: the ankle block is prep, not the day's station)
       if (ath.length <= m.athletic_per_day_gt || !ath.includes(s)) return false;
       // the throw stays when the profile wants throws (review 08 major 4: 0 throws vs 51-69 a week); the jump goes instead
       const D11 = ctx.derived.D11_athletic_budget || {};
@@ -1280,6 +1471,11 @@ function applyCuts(day, ctx, rearCount, warnings) {
     if (!over()) break;
   }
   if (cut) day.why.push(why('why.cut_time', 'UNI-09'));
+  // v0.4 (R2-SES-04, R3-SES-01; review 02 major 2): the field-athlete cap of 12 + the 2-exercise core block is hard - a long-day
+  // warning never excuses it. Over it after the cut order: athletic pieces beyond the R3-SES-01 day split (cross pattern 2 jump /
+  // throw stations + 1 Olympic lift, same pattern 4 + 1) go first (latest first, never a day's only station of a sport track),
+  // then a whole isolation group the week trains on another main day, then any non-work isolation group of the day
+  if (athOver() && R.session.athlete_cap_hard) enforceAthleteCap(day, ctx, rearCount, athOver);
   day.supersets_on = daySlots(day).some((s) => !!s.superset);
   if (splitOver() || athOver()) {
     // the cap cannot be met without a group dropping below 2 exercises (H18 wins, D-34): keep the day, warn
@@ -1290,6 +1486,51 @@ function applyCuts(day, ctx, rearCount, warnings) {
   // a day still over minutes x 1.10 may lose whole groups to the optional day next (moveGroupsToOptional); its warning.long_day
   // is raised by generate from the week's own volume estimate (one number per day)
   if (timeOver() && day.full_body) day.why.push(why('why.group_two_to_four', 'R2-SES-05', { group: 'all' }));
+}
+
+/** the hard athlete cap (R2-SES-04, R3-SES-01): removes stations until athleteCount <= 12 (see applyCuts) */
+function enforceAthleteCap(day, ctx, rearCount, athOver) {
+  const { model } = ctx;
+  const JUMP_THROW = ['AP_PLYO', 'AP_JUMP_LIMITED_KNEE', 'AP_THROW'];
+  const same = ctx.variant === 'same_pattern';
+  const maxJumpThrow = same ? 4 : 2;
+  const remove = (list) => {
+    for (const victim of list) {
+      for (const blk of day.blocks) { const i = blk.slots.indexOf(victim); if (i >= 0) blk.slots.splice(i, 1); }
+      if (isRear(victim, model)) rearCount.n--;
+      if (victim.superset) { const mates = daySlots(day).filter((x) => x.superset === victim.superset); if (mates.length < 2) for (const x of mates) x.superset = null; }
+    }
+    day.blocks = day.blocks.filter((b) => b.slots.length);
+    day.why.push(why('why.athlete_cap', 'R2-SES-04', { cap: ctx.R.session.athlete_cap }));
+  };
+  const groupSlots = (d, g) => daySlots(d).filter((s) => s.group === g && RES_KINDS.includes(model.bucket(s.bucket).kind));
+  for (let guard = 0; guard < 20 && athOver(); guard++) {
+    const flat = daySlots(day);
+    // 1. athletic pieces over the day split (latest first; a sport track's only station of its bucket stays)
+    const jt = flat.filter((s) => JUMP_THROW.includes(s.bucket) && !s.ankle_block); // F2: the ankle block is outside the day split
+    const extraAth = flat.slice().reverse().find((s) => ['AP_PLYO', 'AP_JUMP_LIMITED_KNEE', 'AP_THROW', 'AP_COD', 'AP_SPRINT'].includes(s.bucket) && !s.ankle_block &&
+      !(s.track && flat.filter((x) => x.bucket === s.bucket).length < 2) && (JUMP_THROW.includes(s.bucket) ? jt.length > maxJumpThrow : flat.filter((x) => x.bucket === s.bucket).length > 1));
+    if (extraAth) { remove([extraAth]); continue; }
+    // 2. a whole group of the day (2-4 stations, never the work lift's group or its pair - knee + pull / hip + push stay, ORD-06),
+    // the week's other main days training it first, isolation-only groups before compound ones (R3-SES-01: the field athlete's
+    // day trains its groups with 2-4 exercises each inside the 12)
+    const workPairs = new Set(flat.filter((s) => s.role === 'work' && s.pair).map((s) => s.pair));
+    const workGroups = new Set(flat.filter((s) => s.role === 'work' && s.group).map((s) => s.group));
+    const groups = [...new Set(flat.filter((s) => s.group && RES_KINDS.includes(model.bucket(s.bucket).kind)).map((s) => s.group))];
+    const cands = groups.map((g) => ({ g, slots: groupSlots(day, g) }))
+      .filter((x) => x.slots.length && x.g !== 'calves' && !workGroups.has(x.g) && x.slots.every((s) => s.role !== 'work' && !(s.pair && workPairs.has(s.pair))))
+      .filter((x) => !(x.slots.some((s) => isRear(s, model)) && rearCount.n - x.slots.filter((s) => isRear(s, model)).length < 1));
+    const elsewhere = (g) => (ctx.allDays || []).some((d) => d !== day && d.kind === 'main' && groupSlots(d, g).length >= 2) ||
+      (ctx.pendingDays || []).some((d) => d !== day && d.kind === 'main' && (d._slots || []).filter((s) => s.group === g && RES_KINDS.includes(model.bucket(s.bucket).kind)).length >= 2);
+    const isoOnly = (x) => x.slots.every((s) => model.bucket(s.bucket).kind !== 'resistance');
+    // (fix round 1 / F2: the client's Focus groups and the sport's priority groups leave last - the swimmer's back stays on the day
+    // that takes the week's jump and throw stations, R3-SES-02 'big movers first'; 04 priorities)
+    const prioG = new Set([...(ctx.derived.priority_muscles || []), ...((ctx.profile && ctx.profile.priority_muscles) || [])].map((m) => { try { return model.groupOf(m); } catch { return m; } }));
+    const pr = (x) => (prioG.has(x.g) ? 1 : 0);
+    cands.sort((a, b) => (elsewhere(b.g) ? 1 : 0) - (elsewhere(a.g) ? 1 : 0) || pr(a) - pr(b) || (isoOnly(b) ? 1 : 0) - (isoOnly(a) ? 1 : 0) || (a.g < b.g ? -1 : 1));
+    if (cands.length) { remove(cands[0].slots); continue; }
+    break;
+  }
 }
 
 /**
@@ -1303,7 +1544,7 @@ function moveGroupsToOptional(finals, ctx, warnings) {
   const rule = (R.cut_order[ctx.family] || []).find((r) => r.match && r.match.group_to_optional);
   if (!rule) return;
   const opt = finals.find((f) => f.kind === 'optional' && daySlots(f).some((s) => RES_KINDS.includes(model.bucket(s.bucket).kind) || s.bucket === 'CORE_ANY'));
-  const est = (f) => estimateMinutes(f, null, null, model, { week: ctx.peakWeek });
+  const est = (f) => estimateMinutes(f, null, null, model, { week: ctx.peakWeek, derived: ctx.derived });
   const mains = finals.filter((f) => f.kind === 'main' && f.format !== 'circuit');
   const groupsOn = (f) => { const c = {}; for (const s of daySlots(f)) if (s.group && RES_KINDS.includes(model.bucket(s.bucket).kind)) (c[s.group] = c[s.group] || []).push(s); return c; };
   const prio = new Set([...(ctx.derived.priority_muscles || []), ...((ctx.profile && ctx.profile.priority_muscles) || [])].map((m) => model.groupOf(m)));
@@ -1455,10 +1696,19 @@ function addPrehab(days, ctx) {
     const r = Object.values(R.prehab.by_injury_code).find((x) => x.bucket === bucket);
     return r ? r.sets : R.session.default_sets.isolation;
   };
+  // v0.4 fix round 1 (RECHECK 08 major: a racket player's rotator-cuff and elbow care sat only on the optional day): for a racket
+  // player 50-59 (COACH-R3 R3-ATH-02 'rotator-cuff work') the upper-body joint care stays on a main day - never a time cut
+  const A0 = R.population.active_aging_50;
+  const racket50 = !!(A0 && (derived.age || 0) >= A0.from_age && (derived.age || 0) <= A0.to_age && derived.D2_profile && A0.racket_profiles.includes(derived.D2_profile.id));
   for (const code of injuries.slice().sort()) {
     const r = R.prehab.by_injury_code[code];
     if (!r) continue;
-    entries.push({ code, bucket: r.bucket, per_week: r.per_week, days: r.days, sets: r.sets, each: false });
+    // COACH-R3 R3-ATH-01 (stage B2): a swimmer's shoulder care runs every session (each_session)
+    const every = !!r.each_session && (!Array.isArray(r.each_session_sports) || r.each_session_sports.includes(profile && profile.sport));
+    entries.push({ code, bucket: r.bucket, per_week: r.per_week, days: every ? 'all' : r.days, sets: every && r.each_session_sets ? r.each_session_sets : r.sets, each: every, every_session: every,
+      keep_main_day: racket50 && r.bucket === 'RECOVERY_ARM_CARE',
+      // (fix round 2 / F2 minimal seam, E-175: every-session shoulder care done inside the rests of the day's pulls has its own time class)
+      time_class: every && r.each_session_time_class ? r.each_session_time_class : null });
   }
   const A = R.population.active_aging_50;
   const age = derived.age || 0;
@@ -1481,16 +1731,18 @@ function addPrehab(days, ctx) {
   const has = (d, l) => d._slots.some((s) => l.includes(s.bucket));
   const perDayMax = typeof R.prehab.per_day_max === 'number' ? R.prehab.per_day_max : 2;
   const counters = new Map();
-  for (const e of list) {
+  // the candidate days of an entry, in preference order (the filters of the v1.2 placement)
+  const poolFor = (e) => {
     let pool;
     if (e.days === 'lower') pool = mains.filter((d) => d.lower_focus || has(d, LOWER_RES_BUCKETS));
     else if (e.days === 'pull_or_upper') { pool = mains.filter((d) => has(d, PULL_BUCKETS)); if (!pool.length) pool = mains.filter((d) => has(d, UPPER_RES_BUCKETS)); }
     else pool = mains.slice();
     if (!pool.length) pool = mains.slice();
     pool = pool.filter((d) => (counters.get(d.weekday) || 0) < perDayMax);
-    if (!pool.length) continue;
-    // shoulder care goes where the day has no rear-delt work yet (never a third rear-delt exercise; review 01 / 08)
-    if (e.bucket === 'RECOVERY_ARM_CARE') {
+    if (!pool.length) return pool;
+    // shoulder care goes where the day has no rear-delt work yet (never a third rear-delt exercise; review 01 / 08); a code that
+    // runs every session takes every main day (select picks the external rotation where the day already holds rear-delt work)
+    if (e.bucket === 'RECOVERY_ARM_CARE' && !e.every_session) {
       const rears = (d) => d._slots.filter((x) => isRear(x, model)).length;
       const lean = pool.filter((d) => rears(d) === 0);
       const some = pool.filter((d) => rears(d) === 1);
@@ -1500,28 +1752,39 @@ function addPrehab(days, ctx) {
         const extra = mains.filter((d) => !pool.includes(d) && has(d, UPPER_RES_BUCKETS) && rears(d) < 2 && (counters.get(d.weekday) || 0) < perDayMax);
         pool = [...pool, ...extra];
       }
-      if (!pool.length) continue;
+      return pool;
     }
-    let chosen;
-    if (e.each) chosen = pool;
-    else {
-      // the least-loaded days first (spread the joint care over the week); shoulder care keeps its no-rear-delt order
-      const ranked = e.bucket === 'RECOVERY_ARM_CARE' ? pool.slice() : pool.slice().sort((a, b) => (counters.get(a.weekday) || 0) - (counters.get(b.weekday) || 0) || a._day_index - b._day_index);
-      chosen = ranked.slice(0, Math.min(e.per_week, ranked.length)).sort((a, b) => a._day_index - b._day_index);
-    }
-    for (const d of chosen) {
-      const c = (counters.get(d.weekday) || 0) + 1;
-      counters.set(d.weekday, c);
-      const id = `${d.day_type}.p0${c}`; // prehab_added (volume owns .xNN)
-      d._slots.push({
-        slot_id: `${d.weekday}.${id}`, station_id: id, bucket: e.bucket, role: 'prehab', block: R.prehab.block, group: null,
-        sets_hint: null, default_sets: e.sets, pair: null, superset: null, circuit: null, axial_req: null, variant: null,
-        laterality_dial: false, loading: null, focus_muscle: null, time_class: model.bucket(e.bucket).time_class || null,
-        counts_in_cap: !!R.prehab.counts_in_cap, counts_as_volume: R.prehab.credits === 'by_catalog', text_key: null, aerobic: null, origin: 'prehab_added',
-        prehab_code: e.code,
-        why: [why(e.code === 'AGE_50_RACKET' ? 'why.age_50_racket' : 'why.prehab', e.code === 'AGE_50_RACKET' ? 'R3-ATH-02' : 'D-23', { code: e.code })],
-        day_index: d._day_index, test: null, calf_index: null, note_tokens: []
-      });
+    // the least-loaded days first (spread the joint care over the week); shoulder care keeps its no-rear-delt order
+    return pool.slice().sort((a, b) => (counters.get(a.weekday) || 0) - (counters.get(b.weekday) || 0) || a._day_index - b._day_index);
+  };
+  const place = (e, d) => {
+    const c = (counters.get(d.weekday) || 0) + 1;
+    counters.set(d.weekday, c);
+    const id = `${d.day_type}.p0${c}`; // prehab_added (volume owns .xNN)
+    d._slots.push({
+      slot_id: `${d.weekday}.${id}`, station_id: id, bucket: e.bucket, role: 'prehab', block: R.prehab.block, group: null,
+      sets_hint: null, default_sets: e.sets, pair: null, superset: null, circuit: null, axial_req: null, variant: null,
+      laterality_dial: false, loading: null, focus_muscle: null, time_class: e.time_class || model.bucket(e.bucket).time_class || null,
+      counts_in_cap: !!R.prehab.counts_in_cap, counts_as_volume: R.prehab.credits === 'by_catalog', text_key: null, aerobic: null, origin: 'prehab_added',
+      prehab_code: e.code, every_session: !!e.every_session, keep_main_day: !!e.keep_main_day,
+      why: [why(e.code === 'AGE_50_RACKET' ? 'why.age_50_racket' : 'why.prehab', e.code === 'AGE_50_RACKET' ? 'R3-ATH-02' : 'D-23', { code: e.code }), ...(e.every_session ? [why('why.shoulder_care_each_session', 'R3-ATH-01')] : [])],
+      day_index: d._day_index, test: null, calf_index: null, note_tokens: []
+    });
+  };
+  // every-leg-day / every-session codes first (each takes all its days)
+  for (const e of list.filter((x) => x.each)) for (const d of poolFor(e)) place(e, d);
+  // v0.4 B4 (integration, sample 08: the racket player's rotator-cuff care - COACH-R3 R3-ATH-02 'rotator-cuff work' - lost both
+  // slots to the racket-elbow care): the weekly codes take turns, one session each, before any code takes its second
+  const weekly = list.filter((x) => !x.each);
+  const used = new Map(weekly.map((e) => [e, new Set()]));
+  const rounds = Math.max(0, ...weekly.map((e) => e.per_week || 0));
+  for (let round = 1; round <= rounds; round++) {
+    for (const e of weekly) {
+      if ((e.per_week || 0) < round) continue;
+      const d = poolFor(e).find((x) => !used.get(e).has(x.weekday));
+      if (!d) continue;
+      used.get(e).add(d.weekday);
+      place(e, d);
     }
   }
 }
@@ -1537,11 +1800,20 @@ function ensureAthleticTracks(days, ctx) {
   const RC = R.athletic.reconcile;
   const D11 = derived.D11_athletic_budget || {};
   if (!RC || !RC.enabled || !D11.enabled || derived.goal === 'muscle') return;
-  if (ctx.older && !ctx.optIn) return;
+  // COACH-R3 R3-ATH-02 (approved, stage B2): from 60 the default keeps quick stepping without a hop (the COD track, easy drills)
+  // and light throws (ensureThrowStation); jumps, ankle hops, sprints stay off unless switched on
+  const OLD = R.population.older;
+  const olderDefault = ctx.older && !ctx.optIn;
+  if (olderDefault && !(OLD.default_on && OLD.default_on.quick_stepping)) return;
   const weekly = D11.weekly || {};
   const mains = days.filter((d) => d.kind === 'main' && d._def && (d._def.format || 'straight') !== 'circuit' && (d._def.stations || []).some((st) => st.block === 'athletic' || st.block === 'power'));
   if (!mains.length) return;
   const kit = new Set((derived.D8_kit && derived.D8_kit.tokens) || []);
+  // v0.4 fix round 1 / F2: the tracks are sized from the plan's own weekly targets (engine/athletic.mjs ensureAthleticStations)
+  if (R.athletic.f2 && R.athletic.f2.tracks && R.athletic.f2.tracks.from_budget) {
+    ensureAthleticStations(mains, ctx, kit, olderDefault, { slotFromStation, keepStationIgnoringMinutes, daySlotsOf: (d) => d._slots, weekdayIndex: WDI });
+    return;
+  }
   const tracks = [
     { key: 'throws', bucket: 'AP_THROW', ok: kit.has('medball') || kit.has('slam_ball') },
     { key: 'low_contacts', bucket: 'AP_JUMP_LIMITED_KNEE', ok: true },
@@ -1550,6 +1822,7 @@ function ensureAthleticTracks(days, ctx) {
   ];
   for (const t of tracks) {
     const r = weekly[t.key];
+    if (olderDefault && t.key !== 'cod_cuts') continue;
     if (!t.ok || !Array.isArray(r) || !(r[0] > 0) || ctx.dropped.has(t.bucket)) continue;
     const setsPer = 2;
     const perMax = RC.per_set_max[t.key] || 1;
@@ -1640,12 +1913,77 @@ function trimOlympicExposures(days, ctx) {
   for (const d of days) if (d.kind === 'main') for (const s of d._slots) if (s.bucket === 'AP_TRIPLE_EXT') all.push({ d, s });
   if (all.length <= maxExp) return;
   const swing = (x) => /SWING/i.test(String(x.s.variant || '')) || /swing/i.test(String((x.s.note || '') + ' ' + (x.s.pool_filter || '')));
-  const order = all.slice().sort((a, b) => (swing(b) ? 1 : 0) - (swing(a) ? 1 : 0) || b.d._day_index - a.d._day_index);
+  // v0.4 B4 (integration, random sweep: a 52-year-old with knee pain kept the clean on the squat day - no clean passes the knee
+  // filter - and lost the DB snatch on the hinge day, so the week held no Olympic lift, V19 / R2-ATH-04): a station no record
+  // can fill for this client (kit, pain, youth ladder, floor lifts, the station's day pattern) goes first
+  const fillable = olympicFillable(ctx);
+  // v0.4 fix round 1 (RECHECK 03 major: Friday 'Olympic + strength' lost its only power piece while Monday kept four athletic stations
+  // and the clean pull): after the unfillable stations and the swings, the day already holding the most athletic work gives its
+  // exposure first, then the latest day (v1.2)
+  // (fix round 1 / F2: the stations the athletic tracks added count by the template they joined, not as the day's own work - the
+  // swimmer's / soccer player's Friday takes the week's jumps and throws and keeps its Olympic lift)
+  const athN = (d) => d._slots.filter((x) => (['athletic', 'power'].includes(x.block) || /^AP_/.test(x.bucket)) && !x.track_added).length;
+  const order = all.slice().sort((a, b) => (fillable(a.s) ? 1 : 0) - (fillable(b.s) ? 1 : 0) || (swing(b) ? 1 : 0) - (swing(a) ? 1 : 0) || athN(b.d) - athN(a.d) || b.d._day_index - a.d._day_index);
   for (const x of order.slice(0, all.length - maxExp)) {
     x.d._slots.splice(x.d._slots.indexOf(x.s), 1);
     x.d.why = x.d.why || [];
     x.d.why.push(why('why.olympic_budget', 'R2-ATH-04', { sets: r[1] }));
   }
+}
+
+/**
+ * v0.4 B4: can some Olympic / triple-extension record fill this station for this client? A static mirror of select's filters 1-6
+ * for AP_TRIPLE_EXT (the station's family by its day pattern - relaxed, as select's last step -, kit and bumpers, never-picks,
+ * youth ladder and floor lifts, 60+ opt-in, pain avoid-tags and axial limit, the barbell exclusion, the medball the client owns).
+ * Used only to order which exposures the budget trim removes first (trimOlympicExposures); select still makes the pick.
+ * @param {object} ctx week-layout context @returns {(slot:object) => boolean}
+ */
+function olympicFillable(ctx) {
+  const { model, derived, R } = ctx;
+  const kit = (derived && derived.D8_kit) || { tokens: [], machines: [] };
+  const kitObj = { tokens: new Set(kit.tokens || []), machines: kit.machines || [] };
+  const age = (derived && derived.age) || 0;
+  const L = R.levels, youth = age < L.youth_age;
+  const older = R.population && R.population.older && age >= R.population.older.from_age;
+  const optIn = !!(derived && derived.prefs && derived.prefs.older_athletic_opt_in);
+  const lvl = (derived && derived.D3_client_level && derived.D3_client_level.level) || 'L1';
+  const cycles = (derived && derived.previous_cycles && derived.previous_cycles.count) || 0;
+  const P = R.volume.pain, AX = ['none', 'low', 'moderate', 'high'];
+  const avoid = new Set();
+  let maxAx = null;
+  const lower = (x) => { if (x && (maxAx === null || AX.indexOf(x) < AX.indexOf(maxAx))) maxAx = x; };
+  for (const p of (derived && derived.pain) || []) {
+    const a = P.areas[p.area];
+    if (a) { (a.avoid_tags || []).forEach((t) => avoid.add(t)); lower(a.max_axial_class); }
+    for (const w of p.worse_with || []) { const x = P.worse_with[w]; if (x) { (x.avoid_tags || []).forEach((t) => avoid.add(t)); lower(x.max_axial_class); } }
+  }
+  const noBarbell = ((derived && derived.exclusions) || []).includes('barbell');
+  const owned = kit.medball_max_lb ?? null;
+  const famsOf = (v) => (v === 'clean' ? ['clean', 'loaded_jump', 'jerk'] : v === 'snatch' ? ['snatch', 'swing', 'jerk'] : v === 'swing' ? ['swing'] : null);
+  const pool = model.bySlot('AP_TRIPLE_EXT');
+  const memo = new Map();
+  return (slot) => {
+    const v = slot.variant || null;
+    if (memo.has(v)) return memo.get(v);
+    const fams = famsOf(v);
+    const ok = pool.some((e) => {
+      const fam = e.athletic && e.athletic.olympic_family;
+      if (!fam || (fams && !fams.includes(fam))) return false;
+      if (SWAP_ONLY_STATUS.includes(e.status) || !model.kitAvailable(e, kitObj)) return false;
+      if (e.tags.includes('olympic_from_floor') && !kitObj.tokens.has('barbell_bumpers_platform')) return false;
+      if (youth && (L.ladder_order.indexOf(e.level) > L.ladder_order.indexOf(L.youth_max_ladder) ||
+        (e.tags.includes('olympic_from_floor') && !(age >= R.olympic.youth_floor_min_age && e.tags.includes('youth_floor_ok') && cycles >= 1)))) return false;
+      if (older && !(optIn && e.older_opt_in_ok)) return false;
+      if (e.athletic.olympic_tier === 'L2_plus' && lvl !== 'L3') return false;
+      if (olympicAboveCeiling(e, ctx.profile, R, derived)) return false; // F2: the sport's Olympic ceiling (select's filter)
+      if (e.tags.some((t) => avoid.has(t)) || (maxAx !== null && AX.indexOf(e.axial_class) > AX.indexOf(maxAx))) return false;
+      if (noBarbell && e.tags.includes('barbell')) return false;
+      if (e.medball && (e.medball.min_lb > R.medball.max_lb || (owned !== null && e.medball.min_lb > owned))) return false;
+      return true;
+    });
+    memo.set(v, ok);
+    return ok;
+  };
 }
 
 /** every main day opens with 5 min cardio + A-drills or mobility (ORD-08; review 05 minor: bootcamp days had the cardio only) */
