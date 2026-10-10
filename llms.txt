@@ -1,0 +1,91 @@
+# Blaze Camp Model
+
+> A machine-readable model of how strength and athletic coach Lalo Vera (Blaze Camp, BFit Studios Corp.) designs training programs, plus a deterministic plan engine (plain JavaScript, Node 22 or browser, no dependencies) that turns one short intake into a whole 4-12-week or year plan in English or Spanish. Few inputs go in, the whole plan comes out once, and people and coaches adjust it themselves: no check-ins, no tracking, no stored user data. MIT licensed; use at your own risk (not medical advice).
+
+Authority order when sources disagree: coach_answers_round3.md (newest) > coach_answers_round2.md > coach_answers_full.md > coach_answers.md > OBSERVED facts from his sheets (raw/, dumps/) > INFERRED / SCIENCE / PROPOSED team work. Every rule carries an evidence label (OBSERVED, COACH-ANSWER <id>, COACH-R2 <id>, COACH-R3 <id>, INFERRED, SCIENCE, PROPOSED). The engine reads only the compiled model in model/; it is built from generator_spec_v1.json and synthesis/*.json by tools/compile-model.mjs. Run the tests with `node --test tests/`. Generate the sample plans with `node tools/generate-samples.mjs --out <dir>`. Status (2026-10-09): model 1.2.0, engine 0.3.0 (0.4 applying the round-3 answers), work in progress.
+
+## Start here
+
+- [AGENTS.md](AGENTS.md): guide for agents and developers: authority order, where each rule lives (file + JSON key), how to generate a plan (commands + JS example), hard rules, how to change rules and exercises safely, tests, what not to change
+- [README.md](README.md): project overview, status, repo map, evidence labels, use-at-your-own-risk notice (EN/ES)
+- [BLAZE_CAMP_BRAIN.md](BLAZE_CAMP_BRAIN.md): master document of the coaching model: philosophy, categories, levels, volume engine and stairway, bilateral vs unilateral, variables, equipment, athletes and sports, templates, plan types, testing, generator, product
+- [generator_spec_v1.json](generator_spec_v1.json): the model as a machine spec: inputs_schema (intake fields F00-F46), derived_values D1-D14, vocab, rule_tables, plan_types, tests, validation_checks, output
+
+## Coach answers (highest authority, never edit)
+
+- [coach_answers_round3.md](coach_answers_round3.md): round 3 (newest): output-only plans with no check-ins, the approved stairway, time-vs-minimums policy, block toggles and supersets, focus groups and Focus muscles 1/2, rear delts inside shoulders, calendar, swimming / 60+ / racket 50+ / HYROX / stay-active defaults, health check, release, MIT, no data kept
+- [coach_answers_round2.md](coach_answers_round2.md): round 2 (45 answers): stairway, floor of 10 sets, 2-4 exercises per group, two spine days, tests, credits, sports
+- [coach_answers_full.md](coach_answers_full.md): round 1 (140 answers by topic: CAT, UNI, VOL, PER, ATH, ORD, EQ, GEN, LIB, PRG, FIX)
+- [coach_answers.md](coach_answers.md): his earlier direct chat statements
+
+## Model documents (synthesis/)
+
+- [synthesis/01_taxonomy.md](synthesis/01_taxonomy.md): how exercises are categorized (families, patterns, lenses, muscles)
+- [synthesis/02_exercise_catalog.md](synthesis/02_exercise_catalog.md): the exercise catalog; source records in synthesis/02_exercise_catalog.json (939 records)
+- [synthesis/03_volume_dosing.md](synthesis/03_volume_dosing.md): set counting and volume dosing rules
+- [synthesis/04_athlete_profiles.md](synthesis/04_athlete_profiles.md): athlete, sport, position and population profiles; data in synthesis/04_profiles.json (127 profiles, 52-sport picker, 26 activities)
+- [synthesis/05_session_architecture.md](synthesis/05_session_architecture.md): session and week templates, buckets, ordering, session length; data in synthesis/05_templates.json
+- [synthesis/06_periodization.md](synthesis/06_periodization.md): plan shapes, seasons, blocks, tests, recovery between blocks
+- [synthesis/07_science_lineage.md](synthesis/07_science_lineage.md): the research behind the rules (Davidson, Israetel, cited studies)
+- [synthesis/09_generator_inputs.md](synthesis/09_generator_inputs.md): the intake form, field by field
+- [synthesis/10_equipment_model.md](synthesis/10_equipment_model.md): equipment profiles, kit tokens, constraint scale 1-5, substitutions
+- [synthesis/11_training_variables.md](synthesis/11_training_variables.md): reps, effort, rest, tempo, load position, ordering
+- [synthesis/12_volume_algorithm_v1.md](synthesis/12_volume_algorithm_v1.md): the volume algorithm: starts, caps, floor, focus/priority, stairway math, set placement, time model, worked examples
+- [synthesis/13_product_options.md](synthesis/13_product_options.md): the product: intake flow, outputs, health check, release, roadmap
+
+## Engine (engine/)
+
+- [engine/README.md](engine/README.md): how to run, module map, pipeline, where each hard rule is enforced and tested
+- [engine/CONTRACTS.md](engine/CONTRACTS.md): binding shapes and APIs: intake/2 (§2.1), model files (§3), module signatures (§4), plan/2 output schema (§5), validation checks V1-V29 and H01-H22 (§6), why-codes (§7)
+- [engine/DECISIONS.md](engine/DECISIONS.md): every gap or conflict decided once (C-nn, D-nn)
+- [engine/CONTRACT_REQUESTS.md](engine/CONTRACT_REQUESTS.md): append-only requests to change the contract
+- [engine/generate.mjs](engine/generate.mjs): `generate(intake, model)` orchestrator
+- [engine/model.mjs](engine/model.mjs): `loadModel(raw)` and `assertModel`
+- [engine/render.mjs](engine/render.mjs): `renderPlan(plan, model, {lang, view, format})` to Markdown or text, EN or ES
+- [engine/validate.mjs](engine/validate.mjs): `validatePlan`: every validation and hard-rule check
+
+## Runtime model (model/, generated, never hand-edited)
+
+- [model/rules.json](model/rules.json): every number and table the engine reads (muscles, credit, volume, stairway, placement, session, time_model, ordering, axial, reps, effort, athletic, olympic, medball, conditioning, equipment, population, plan_types, tests, validation, locked)
+- [model/catalog.json](model/catalog.json): 731 runtime exercises with slots, credits, spine class, kit, 60+ / youth flags, variation axes
+- [model/templates.json](model/templates.json): the coach's week and day templates as stations
+- [model/profiles.json](model/profiles.json): sport and activity profiles and the sport picker
+- [model/i18n/en.json](model/i18n/en.json): English words; Spanish twin in model/i18n/es.json, machine-translated lines pending approval in model/i18n/es_review.json
+- [model/CHANGELOG.md](model/CHANGELOG.md): coach corrections applied by the compiler
+
+## Tools and tests
+
+- [tools/compile-model.mjs](tools/compile-model.mjs): compiles the sources into model/ (`--out <dir>` for a scratch copy)
+- [tools/fixture/review-v12.mjs](tools/fixture/review-v12.mjs): the v1.2 amendment layer shared by the reference fixture and the compiler
+- [tools/generate-samples.mjs](tools/generate-samples.mjs): generates and validates the sample plans (`--only <prefix>`, `--out <dir>`, `--fixture`)
+- [tools/check-model.mjs](tools/check-model.mjs): contract checks on a compiled model
+- [tests/invariants/invariants.test.mjs](tests/invariants/invariants.test.mjs): hard rules re-checked on samples, random intakes, every sport and activity
+
+## Samples and reviews
+
+- [samples/intakes/](samples/intakes/): 8 example intakes (swimming, football, soccer, CrossFit-style bootcamp, bootcamp, full-body aesthetics, push/pull/legs, pickleball 52-year-old)
+- [samples/plans/](samples/plans/): the plans the engine generated for them (JSON + Markdown; soccer and bootcamp also in Spanish)
+- [samples/SAMPLES.md](samples/SAMPLES.md): what the engine decided for each sample and why
+- [samples/RECHECK_v0.3.md](samples/RECHECK_v0.3.md): open issues found by coach-eye reviewers in the v0.3 plans
+- [samples/REVIEW_LOG.md](samples/REVIEW_LOG.md): every review issue and how it was handled
+- [REVIEW_GUIDE.md](REVIEW_GUIDE.md): how to review the model, including the list of ideas the coach rejected
+
+## Contributing
+
+- [CONTRIBUTING.md](CONTRIBUTING.md): how to propose changes, evidence labels, authority order, tests
+- [docs/adding-exercises.md](docs/adding-exercises.md): how to add an exercise or a variation, field by field, with worked examples (Spanish: docs/adding-exercises.es.md)
+
+## Legal
+
+- [LICENSE](LICENSE): MIT, © 2026 Lalo Vera, d/b/a Blaze Camp, and BFit Studios Corp. (Florida)
+- [DISCLAIMER.md](DISCLAIMER.md): disclaimer and release of liability (draft pending attorney review): not medical advice, use at your own risk, coaches need their own release and insurance, no data collection
+- [DISCLAIMER.es.md](DISCLAIMER.es.md): the same in Spanish (meant to be legally equivalent)
+
+## Optional
+
+- [coverage_matrix_round2.md](coverage_matrix_round2.md): each round-2 answer mapped to the master section and spec key (round 1: coverage_matrix.md)
+- [round3_questions.json](round3_questions.json): the round-3 questions as asked
+- [analysis/programs/](analysis/programs/): decodes of the coach's real programs from his sheets
+- [dumps/](dumps/): every tab of his two workbooks as text (OBSERVED source; raw .xlsx in raw/)
+- [synthesis/08_open_questions_for_coach.md](synthesis/08_open_questions_for_coach.md): completeness review and questions that led to the questionnaires
+- [synthesis/10b_equipment_variables_science.md](synthesis/10b_equipment_variables_science.md): science behind equipment and variable choices

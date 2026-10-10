@@ -1,56 +1,81 @@
-# 12 · Volume algorithm v1.1 (research + design)
+# 12 · Volume algorithm v1.2 (research + design)
 
-**What this is.** The weekly-volume engine for the Blaze Camp plan generator: how many hard sets each muscle gets per week, how that number climbs week to week (the **stairway**), where each new set goes, and how the engine learns. It answers the coach's request: *"go find charts that show those averages and match them with my experience"*, *"what has been studied on volume"*, *"what would be the best algorithm for us"* and *"this tool should figure out the percentages"* (COACH-ANSWER VOL-01, UNI-01, VOL-06). The machine-readable twin is `12_volume_algorithm_v1.json` (same folder; the file names keep "v1", the content is v1.1).
+**What this is.** The weekly-volume engine for the Blaze Camp plan generator: how many hard sets each muscle group gets per week, how that number climbs week to week (the **stairway**), where each new set goes, what happens when the chosen days and minutes cannot hold the coach's minimums, and what the user or coach may switch off or edit in the finished plan. It answers the coach's request: *"go find charts that show those averages and match them with my experience"*, *"what has been studied on volume"*, *"what would be the best algorithm for us"* and *"this tool should figure out the percentages"* (COACH-ANSWER VOL-01, UNI-01, VOL-06). The machine-readable twin is `12_volume_algorithm_v1.json` (same folder; the file names keep "v1", the content is v1.2).
 
-**Status.** v1.1, 2026-10-08. Built on the coach's round-1 answers (`coach_answers_full.md`, 138 of 140) and his round-2 answers (`coach_answers_round2.md`). **Authority order: round-2 answers > round-1 answers > everything else** (sheets, science, team decisions). Where he left a gap or asked us to propose, the rule is marked **PROPOSED - PENDING COACH APPROVAL** (short form below: **PROPOSED**).
+**Status.** v1.2, 2026-10-09. Built on the coach's round-1 answers (`coach_answers_full.md`), his round-2 answers (`coach_answers_round2.md`) and his round-3 answers (`coach_answers_round3.md`, read in full first). **Authority order: round-3 answers > round-2 answers > round-1 answers > everything else** (sheets, science, team decisions). Where he left a gap or asked us to propose, the rule is marked **PROPOSED - PENDING COACH APPROVAL** (short form below: **PROPOSED**).
 
 **Evidence tags (on every rule).**
 
 | Tag | Meaning |
 |---|---|
-| **COACH-R2 <ID>** | The coach's round-2 answer (question R2-<ID> in `coach_answers_round2.md`, e.g. COACH-R2 VOL-06 = R2-VOL-06; LIB-10 and LIB-12 are the round-1 leftovers answered there). A RIGHT chip with no text makes our proposal his rule; PARTLY or NOT RIGHT means his words define the rule. |
+| **COACH-R3 <ID>** | The coach's round-3 answer (question R3-<ID> in `coach_answers_round3.md`, e.g. COACH-R3 VOL-04 = R3-VOL-04). A RIGHT chip with no text makes our proposal his rule; PARTLY means his words define the rule. **Outranks everything below.** |
+| **COACH-R2 <ID>** | The coach's round-2 answer (question R2-<ID> in `coach_answers_round2.md`, e.g. COACH-R2 VOL-06 = R2-VOL-06; LIB-10 and LIB-12 are the round-1 leftovers answered there). |
 | **COACH-ANSWER <ID>** | The coach's round-1 answer (question ID from `coach_answers_full.md`). A RIGHT chip with no text makes our assumption his rule. |
 | **OBSERVED** | Read from his Google Sheets (via the dumps and decode notes). |
 | **SCIENCE** | Published research, a practitioner survey or a published coaching reference, cited with a URL (section 8). |
 | **INFERRED** | Our reasoning from observed data or from his words. |
 | **PROPOSED** | Our design to fill a gap. It needs his OK before it ships. |
 
-**How the numbers were made.** Every worked example in section 5 and every stairway table in section 3.7 was computed by the reference prototype v1.1 (`r2_vol/vol_engine_v1_1.py`, `ex51.py`, `ex12_all.py`, `stair_tables.py`, output `examples_v1_1.json` and `stair_tables.json`, in the session scratchpad; see the verification log). The v1 prototype (`vol_engine_v1.py`) is kept unchanged for the record. Nothing in the coach's Google Sheets was opened or changed.
+**How the numbers were made.** Every worked example in section 5 and every stairway table in section 3.7 was computed by the reference prototype v1.2 (`r3_vol/vol_engine_v1_2.py`, `tvm.py` for the time-vs-minimums policy, `ex51_v12.py`, `ex12_v12.py`, `mk_tables_v12.py`; outputs `examples_v1_2.json` and `md_tables_v12.json`, in the session scratchpad; see the computation notes at the end). The v1.1 prototype (`r2_vol/vol_engine_v1_1.py`) is kept unchanged for the record. Nothing in the coach's Google Sheets was opened or changed.
 
 ---
 
-## v1.1 - round 2 applied
+## v1.2 - round 3 applied
 
-Edited in place: every table, rule, example and the JSON twin now carry the round-2 answers; this list says what changed and why.
+Edited in place: every table, rule, example and the JSON twin now carry the round-3 answers; this list says what changed and why. The v1.1 list below is history (its rows that round 3 changed are marked ‡).
+
+| # | Change in v1.2 | Coach answer | Where |
+|---|---|---|---|
+| 1 | **No check-ins, no tracking, no adaptive inputs, nothing stored.** The generator builds the whole plan once, on its planned stairway, and shows every week ahead of time; people and coaches adjust it themselves. Retired: the weekly check-in and its step table (effort, completion, pain), the 'Failed' answer, the "10 → hold and -1 set" rule, the repeated week, the block-at-risk prompt, the logbook, level-up from logs, the week-by-week mode and every "how the engine learns" step. A short printed **self-adjust guide** replaces them (the plan tells the reader how to adjust; no data comes back). | COACH-R3 VOL-02 (RIGHT + "I want to take away all check-in info. We're only doing outputs"), VOL-04 (RIGHT + "kick out a program, and that's it"), GEN-01 ("I don't want any data kept") | §0, §3.6, §3.7.3, §3.8, §3.12, §3.14, §4 |
+| 2 | **The stairway is approved**: about 3 % a week to the halfway week, about 5 % after it, each trained line's steps sized (λ) so it reaches its ceiling in the last week; the planned effort drifts 3 RIR → 2 → 1-2 → 1 RIR + intensifiers in the last week, always inside his 1-3 RIR. The v1.1 flag against VOL-13 ("no planned RIR ramp") is closed. | COACH-R3 VOL-04 (RIGHT) | §3.7.1, §3.7.2 |
+| 3 | **Rear delts are not an individual muscle.** Side, rear and front delts are one **shoulders** line (his FOCUS header 'SHOULDERS/TRAPS'): start 10 / 12 / 15, caps 14 / 22 / 25, counted with **group credit** (a set never counts more than one set to a group: side raise, rear-delt fly, face pull, vertical press 1.0; horizontal press and row 0.25). The floor of 10 is read on the group. Rear delts' own 4 / 6 / 8 sets are retired as a target; every plan still holds a rear-delt exercise each week and the user or coach can add more ("People and coaches should always be able to add more rear delts"). | COACH-R3 VOL-01 (PARTLY) | §3.1, §3.3, §3.9, §3.10.2 |
+| 4 | **The floor of 10 is counted on groups**: quads, hips (glutes + hamstrings), chest, back, shoulders, biceps, triceps, calves. Glutes and hamstrings keep their own starting lines (separate FOCUS headers); the hips group must reach 10 (hip thrust + RDL + leg curl all count). | COACH-R3 VOL-01, SES-01 (RIGHT) | §3.3 |
+| 5 | **Focus muscle 1 and Focus muscle 2** (intake, max 2, any line: quads, hamstrings, glutes, chest, back, shoulders, biceps, triceps, calves): each gets **+1 to +3 extra weekly sets** over the balanced plan (default +2), on its start and on its ceiling, so the stairway carries the extra all block; its exercise goes first in its session. The extra does not slow the other lines. VOL-02's priority push (+4 / +6, the others ≤ 3 % a week) stays only as an optional coach setting. No sex field. | COACH-R3 SES-01 (RIGHT + words) | §3.5, §3.3 |
+| 6 | **Placement approved**: an added set alternates between the two exposures of the same day type (Monday's first back exercise, then Thursday's); extra small-muscle sets become a short bonus exercise on the optional day, or on a day that already trains that muscle, never as that day's only exercise for it. Calves never get a second calf exercise on a leg day (one exercise × 3 sets, item 7). | COACH-R3 VOL-03 (RIGHT) | §3.9 |
+| 7 | **Groups and calves approved**: exercises per day are counted on the FOCUS groups (hips = glutes + hamstrings, e.g. RDL + hip thrust + leg curl = 3 hip exercises; shoulders = front + side + rear delts); **calves = one exercise × 3 sets per leg day**; field athletes get 2-4 exercises for each group trained that day inside 12 + the 2-exercise core block, which with the cross pattern leaves 2 jump / throw stations + 1 Olympic lift; cross pattern is the default for most athletes, the same-pattern athletic template (3-4 jump stations) for size-focused and high-level athletes. | COACH-R3 SES-01 (RIGHT) | §3.10 |
+| 8 | **Time vs minimums, as an exact algorithm**: (1) detect the shortfall at the peak week and tell the user up front with an offer (another day, or the session length that fits); (2) if they keep their time, train fewer groups directly - big movers kept first, arms, calves and shoulder isolation left to compound credit - instead of every group under the floor; (3) recommend supersets; (4) the stairway always climbs on the groups that are trained (never flat); never squeeze 2-4 exercises per group into a day that cannot hold them. | COACH-R3 SES-02 (RIGHT + words) | §3.10.1, §5.1, §5.5 |
+| 9 | **User editing is a plan feature**: every day's blocks carry stable ids and an on/off flag (athletic block and core block can be switched off for that day), exercises and whole blocks can be added or removed, and the plan recommends supersets per eligible pair. Edits rebuild the same plan with the edits as constraints; nothing is stored. | COACH-R3 SES-02 | §3.10.2, §3.10.3 |
+| 10 | **Calendar**: the easy week after a block is a **recommendation**, not mandatory; when a block ends it ends and the user builds the next one (the "next block × 1.05, cap + 1" rule applies when the user says the previous block was completed); holidays are planned between blocks. The maintenance "end prompt" becomes a printed note. | COACH-R3 PER-01 (RIGHT + words) | §3.12 |
+| 11 | **Athlete defaults placed** (the profiles own the details; 04 / 06): swimming 25 % plyometric at block end and 0 extra cardio; older adults (60+) landing drills, balance, quick stepping, light medball throws and fast machine work on, ankle hops, other jumps, Olympic lifts and depth jumps off by default (on with the warning); pickleball / padel / tennis 50+ calf and Achilles work every leg day (a pinned group for the time policy); HYROX station circuits are finishers that never count as muscle sets; the R3-ATH-04 plyo shares for the remaining sports. | COACH-R3 ATH-01..05 | §3.4, §3.13 |
+| 12 | **Retired**: the "older adults ≤ 3 %" step cap (PROPOSED in v1.1; it contradicts the approved "reaches its ceiling in the last week") - older adults are protected through exercise choice (R3-ATH-02) and constrained machines (EQ-03). | COACH-R3 VOL-04, ATH-02 | §3.4, §3.7.4 |
+| 13 | **Worked examples recomputed** with the v1.2 prototype: 5.1 L1 full body (the client asked 60 min: the shortfall, the offer and both branches); 5.2 L2 bodybuilder with Focus muscle 1 = chest; 5.3 tennis (shoulders line); 5.4 the recommended easy week and the maintenance option; **5.5 new**: the coach's own R3-SES-02 example, a pickleball player who keeps 2 × 45 min. | all of the above | §5 |
+
+**Flags for the master file (not decided here).** (a) Shoulders start 10 / 12 / 15 counted with group credit carries less direct side-delt work than v1.1's separate side-delt line (12 §5.2: side delts 3-4 direct sets a week for an L2 bodybuilder); a V-taper bias or Focus = shoulders restores it - confirm. (b) Focus muscle default +2 (range 1-3) on both start and ceiling. (c) The drop order inside step 2 of the time policy (arms → calves → shoulder isolation → chest → back → quads → hips; Focus and sport-pinned groups never dropped). (d) The 10 % "a little longer day" tolerance of the fit test. (e) With 2 × 45 min the coach's own minimums leave only the hips group (and the pinned calves) trained directly (§5.5); the plan says so up front.
+
+---
+
+## v1.1 - round 2 applied (history)
+
+History (kept as written in v1.1). Rows marked ‡ were changed again by round 3; the v1.2 table above and the sections below take precedence.
 
 | # | Change in v1.1 | Coach answer | Where |
 |---|---|---|---|
-| 1 | **The stairway.** Every plan climbs in weekly steps: small steps in the first half (standard 3 %), slightly bigger after the halfway week (standard 5 %), the hardest weeks last. When a muscle's level cap would be reached early, all its steps are scaled down by one factor λ so the planned peak lands on the cap in the final week. Replaces the 12-week acclimation cap (≤ 3 %), the 8-week "start hard" (start × 1.10, weeks 1-4 ≤ 5 %) and target-seeking. | COACH-R2 PER-03 (NOT RIGHT), PER-04 (PARTLY) | §3.7, §3.12, §4, §5 |
-| 2 | **"Start at a 2, end at an 11"** is perceived overall load, not sets: each week shows a level from 2 to 11 that follows the stairway, and the planned effort drifts from 3 RIR to 1 RIR inside his 1-3 RIR band; lifters already at their caps get the "11" from load, intensifiers and a rotating priority muscle. | COACH-R2 PER-05 (RIGHT + words) | §3.7.2 |
-| 3 | **Never above 7 %/week planned; 10 % absolute.** Standard steps are 3-5 %; a "too easy" week adds 2 points (max 7 %); the person's total weekly resistance sets must rise by less than 10 %. A hand-set step runs 0-7 % (fixes 03's conflict 4). | COACH-R2 VOL-01; COACH-ANSWER UNI-05 | §3.7.4 |
-| 4 | **Check-in step table approved, minus the life column.** Effort mostly 1-6 → the planned step + 2 points (= his +7 % in the late half); effort 7-8 → the planned step (= his +5 % in the late half); effort 9 → hold; any 10 → hold and remove 1 set from that day; under half the sessions → repeat the week. The step is decided from **effort, completion and pain only**: the "life was harder / better" cells are dropped because he wants no lifestyle inputs (**flagged**). | COACH-R2 VOL-01 (RIGHT), GEN-04 (NOT RIGHT) | §3.7.3 |
+| 1 ‡ | **The stairway.** Every plan climbs in weekly steps: small steps in the first half (standard 3 %), slightly bigger after the halfway week (standard 5 %), the hardest weeks last. When a muscle's level cap would be reached early, all its steps are scaled down by one factor λ so the planned peak lands on the cap in the final week. Replaces the 12-week acclimation cap (≤ 3 %), the 8-week "start hard" (start × 1.10, weeks 1-4 ≤ 5 %) and target-seeking. | COACH-R2 PER-03 (NOT RIGHT), PER-04 (PARTLY) | §3.7, §3.12, §4, §5 |
+| 2 ‡ | **"Start at a 2, end at an 11"** is perceived overall load, not sets: each week shows a level from 2 to 11 that follows the stairway, and the planned effort drifts from 3 RIR to 1 RIR inside his 1-3 RIR band; lifters already at their caps get the "11" from load, intensifiers and a rotating priority muscle. | COACH-R2 PER-05 (RIGHT + words) | §3.7.2 |
+| 3 ‡ | **Never above 7 %/week planned; 10 % absolute.** Standard steps are 3-5 %; a "too easy" week adds 2 points (max 7 %); the person's total weekly resistance sets must rise by less than 10 %. A hand-set step runs 0-7 % (fixes 03's conflict 4). | COACH-R2 VOL-01; COACH-ANSWER UNI-05 | §3.7.4 |
+| 4 ‡ | **Check-in step table approved, minus the life column.** Effort mostly 1-6 → the planned step + 2 points (= his +7 % in the late half); effort 7-8 → the planned step (= his +5 % in the late half); effort 9 → hold; any 10 → hold and remove 1 set from that day; under half the sessions → repeat the week. The step is decided from **effort, completion and pain only**: the "life was harder / better" cells are dropped because he wants no lifestyle inputs (**flagged**). | COACH-R2 VOL-01 (RIGHT), GEN-04 (NOT RIGHT) | §3.7.3 |
 | 5 | **Retired:** the readiness score R (effort 40 / completion 20 / performance 20 / life 20), the intake "recovery signal" (sleep, stress, physical job), the 3 % default for stressed clients, "7 % only once logs earn it" and the "hold 2 weeks → deload" gate. | COACH-R2 GEN-04, VOL-03, VOL-07 | §3.7.5, §3.14 |
-| 6 | **No check-in = no adaptation:** the plan follows its planned stairway ("there is no data to go off of"). | COACH-R2 VOL-03 | §3.7.3, §3.14 |
-| 7 | **Effort 10 = "the max I could do, but successful"** (0 RIR), not a fail; an optional separate 'Failed' answer is proposed. '8 - That was perfect' = hit the target the plan gave; '9' = harder than planned. | COACH-R2 VOL-02 (PARTLY) | §3.7.3, §3.14 |
-| 8 | **Floor 10 sets a week per trained muscle; small muscles grow by the same idea.** Small-muscle starts L1 **10** (was 8) / L2 12 / L3 15; the level caps 14 / 22 / 25 now apply to every target muscle (small caps were 12 / 18 / 22); priority caps L1 18 / L2 26-28 / L3 30 approved; every cap is customizable; an optional **Pro** setting may let one priority muscle pass 30 (numbers PROPOSED). | COACH-R2 VOL-04, VOL-06 | §3.3, §3.5 |
+| 6 ‡ | **No check-in = no adaptation:** the plan follows its planned stairway ("there is no data to go off of"). | COACH-R2 VOL-03 | §3.7.3, §3.14 |
+| 7 ‡ | **Effort 10 = "the max I could do, but successful"** (0 RIR), not a fail; an optional separate 'Failed' answer is proposed. '8 - That was perfect' = hit the target the plan gave; '9' = harder than planned. | COACH-R2 VOL-02 (PARTLY) | §3.7.3, §3.14 |
+| 8 ‡ | **Floor 10 sets a week per trained muscle; small muscles grow by the same idea.** Small-muscle starts L1 **10** (was 8) / L2 12 / L3 15; the level caps 14 / 22 / 25 now apply to every target muscle (small caps were 12 / 18 / 22); priority caps L1 18 / L2 26-28 / L3 30 approved; every cap is customizable; an optional **Pro** setting may let one priority muscle pass 30 (numbers PROPOSED). | COACH-R2 VOL-04, VOL-06 | §3.3, §3.5 |
 | 9 | **"Most people train 20-30 sets per muscle per week"**: researched (surveys of bodybuilders and gym-goers, dose-response meta-analyses, RP landmarks) and placed next to his statement. | COACH-R2 VOL-06 | §2.11 |
-| 10 | **Rear delts:** own sets 4 / 6 / 8 approved. Reconciled with the floor of 10 by reading the floor on his SHOULDERS/TRAPS muscle group (rear + side delt work together) - INFERRED and **flagged** for round 3. | COACH-R2 VOL-04, VOL-06 | §3.3 |
+| 10 ‡ | **Rear delts:** own sets 4 / 6 / 8 approved. Reconciled with the floor of 10 by reading the floor on his SHOULDERS/TRAPS muscle group (rear + side delt work together) - INFERRED and **flagged** for round 3. | COACH-R2 VOL-04, VOL-06 | §3.3 |
 | 11 | **Glute credit:** squats, lunges, deadlifts and RDLs give glutes **0.25** (hinges were 0.5 PROPOSED); hip thrusts and bridges 1.0; **KB swings are ballistic and never count as glute volume**; thruster = 1.0 quads + 0.5 shoulders + 0.25 glutes. | COACH-R2 VOL-05 | §3.1 |
-| 12 | **No deload or maintenance week inside a block.** A block is completed; the deload (about half of the hardest week, same exercises, 3+ RIR) sits only between blocks. A block that cannot be completed is cancelled → maintenance phase (length chosen, extendable) → at its end the app asks: keep maintaining / change the plan / start a training block. Triggered mid-block deloads are retired. | COACH-R2 VOL-07, PER-06 | §3.12 |
-| 13 | **R2-VOL-08 was not understood:** the default stays (alternate the first exercise between the two weekly exposures; bonus exercise on the optional day; with no optional day, on a day that already trains that muscle group) and is marked for a simpler re-ask. | COACH-R2 VOL-08 (not understood) | §3.9 |
-| 14 | **Full-body days: 2-4 exercises per muscle group that day, never 1.** Full-body days grow to 7-10 resistance exercises and 55-80 minutes; the time model adds a 1-minute changeover per exercise; the capacity table and every example were recomputed. | COACH-R2 SES-05 (PARTLY) | §3.10, §5 |
-| 15 | **Cardio count is adjustable** up or down by the user; aesthetics clients 4 (Orange, Green, Blue + a second Orange) plus optional 20-30-minute walks; athletes by sport off-season. | COACH-R2 SES-06, ATH-06 | §3.10 |
+| 12 ‡ | **No deload or maintenance week inside a block.** A block is completed; the deload (about half of the hardest week, same exercises, 3+ RIR) sits only between blocks. A block that cannot be completed is cancelled → maintenance phase (length chosen, extendable) → at its end the app asks: keep maintaining / change the plan / start a training block. Triggered mid-block deloads are retired. | COACH-R2 VOL-07, PER-06 | §3.12 |
+| 13 ‡ | **R2-VOL-08 was not understood:** the default stays (alternate the first exercise between the two weekly exposures; bonus exercise on the optional day; with no optional day, on a day that already trains that muscle group) and is marked for a simpler re-ask. | COACH-R2 VOL-08 (not understood) | §3.9 |
+| 14 ‡ | **Full-body days: 2-4 exercises per muscle group that day, never 1.** Full-body days grow to 7-10 resistance exercises and 55-80 minutes; the time model adds a 1-minute changeover per exercise; the capacity table and every example were recomputed. | COACH-R2 SES-05 (PARTLY) | §3.10, §5 |
+| 15 ‡ | **Cardio count is adjustable** up or down by the user; aesthetics clients 4 (Orange, Green, Blue + a second Orange) plus optional 20-30-minute walks; athletes by sport off-season. | COACH-R2 SES-06, ATH-06 | §3.10 |
 | 16 | **Session rules:** heavy squat and heavy deadlift on two different days, non-axial alternatives on the other days, the counted list of axial lifts; light core opener (2 exercises × 2 sets short of failure) with optional core supersets or monster sets anywhere; field athletes 12 exercises + the 2-exercise core block; athletic-template slots default to 2 sets (03's conflict 1); exercises by session length 45 ≈ 5, 60 ≈ 6-7, 75-90 ≈ 8-9 (03's conflict 6). | COACH-R2 SES-01..04; COACH-ANSWER VOL-08, VOL-16 | §3.9, §3.10 |
-| 17 | **Athletic budget:** plyo:ballistic shares by sport approved (end of block; each block starts 15 points more ballistic; share counted over jump **and** throw work); ballistic vs plyometric lists; "Receive-Create stages" (1 Land, 2 Land & Go, 3 Repeat) with their week timing; Olympic lifts up to 4 times a week (cleans on squat-pattern days, snatches on hinge days); full squat cleans/snatches 3-5 reps with the same weekly reps; % only when tested (RPE otherwise); in-season reductions for game-heavy sports; older adults (60+) no Olympic lifts, plyos or depth jumps by default (optional with a warning); youth Olympic lifts from the floor from about 14 after a hang block; intermediates get the full Olympic scope (11's I14). | COACH-R2 ATH-01..08, GEN-06 | §3.13 |
+| 17 ‡ | **Athletic budget:** plyo:ballistic shares by sport approved (end of block; each block starts 15 points more ballistic; share counted over jump **and** throw work); ballistic vs plyometric lists; "Receive-Create stages" (1 Land, 2 Land & Go, 3 Repeat) with their week timing; Olympic lifts up to 4 times a week (cleans on squat-pattern days, snatches on hinge days); full squat cleans/snatches 3-5 reps with the same weekly reps; % only when tested (RPE otherwise); in-season reductions for game-heavy sports; older adults (60+) no Olympic lifts, plyos or depth jumps by default (optional with a warning); youth Olympic lifts from the floor from about 14 after a hang block; intermediates get the full Olympic scope (11's I14). | COACH-R2 ATH-01..08, GEN-06 | §3.13 |
 | 18 | **Pre-season** = a 4-6-week block at about 60 % of off-season sets with more speed and power, then a 1-2-week taper; **maintenance** length is chosen and extendable. | COACH-R2 PER-06 | §3.4, §3.12 |
-| 19 | **Year plan** = gen-pop "stay in shape" planning, fully tunable by the user (re-order blocks, more or less cardio, a winter powerlifting-style block; own calendar and holiday weeks). | COACH-R2 PER-01, PER-02 | §3.12 |
+| 19 ‡ | **Year plan** = gen-pop "stay in shape" planning, fully tunable by the user (re-order blocks, more or less cardio, a winter powerlifting-style block; own calendar and holiday weeks). | COACH-R2 PER-01, PER-02 | §3.12 |
 | 20 | **Tests** before the block (or in week 1) and at the end, never mid-block; untrained people never test a 1RM or a max mile from zero (5RM / 3RM or 80-90 % submax efforts). | COACH-R2 PER-07 | §3.12 |
-| 21 | **Next block** after a completed block: start × 1.05, cap + 1 (max 25 non-priority / 30 priority) approved; after a cancelled block: the same start (PROPOSED). | COACH-R2 VOL-06 | §3.12 |
-| 22 | **"Stay athletic and active" gen-pop path** (pickleball, HYROX for fitness and similar, from the coach's request of 2026-10-08): uses the general-fitness volume factors and the floor of 10; its athletic work comes from the 04 sport profiles. | coach request 2026-10-08; numbers PROPOSED | §3.4 |
+| 21 ‡ | **Next block** after a completed block: start × 1.05, cap + 1 (max 25 non-priority / 30 priority) approved; after a cancelled block: the same start (PROPOSED). | COACH-R2 VOL-06 | §3.12 |
+| 22 ‡ | **"Stay athletic and active" gen-pop path** (pickleball, HYROX for fitness and similar, from the coach's request of 2026-10-08): uses the general-fitness volume factors and the floor of 10; its athletic work comes from the 04 sport profiles. | coach request 2026-10-08; numbers PROPOSED | §3.4 |
 | 23 | **Inconsistencies flagged by 03 and 11 fixed here:** priority add +4 (L1-L2) / +6 (L3) everywhere (I10); factor results round half up (I11); intermediates get the full Olympic scope (I14); the bodybuilder upper-body share is PROPOSED, not his number (I15); 8-9 exercises at 75-90 min is his VOL-08 answer (I16); hand-set step 0-7 % and RIR stays 1-3 (03 conflicts 2 and 4). | COACH-ANSWER VOL-02, ATH-10, UNI-03, VOL-08, UNI-05, VOL-13 | §3.3, §3.5, §3.10, §3.11, §3.13 |
-| 24 | **Worked examples 5.1-5.4 recomputed** with the v1.1 prototype: L1 full-body 12 weeks with no check-in; L2 chest-priority split with check-ins (holds, a repeated week, a "10", a pain swap); tennis 8 weeks; the maintenance flow. | all of the above | §5 |
+| 24 ‡ | **Worked examples 5.1-5.4 recomputed** with the v1.1 prototype: L1 full-body 12 weeks with no check-in; L2 chest-priority split with check-ins (holds, a repeated week, a "10", a pain swap); tennis 8 weeks; the maintenance flow. | all of the above | §5 |
 
-**Flags for the master file and round 3 (not decided here):** (a) the life column of R2-VOL-01 vs R2-GEN-04 (resolved by dropping the column, item 4); (b) rear-delt 4 / 6 / 8 vs "nobody needs less than 10" (item 10); (c) R2-VOL-08 needs a plain re-ask with an example (item 13); (d) the planned effort drift 3 → 1 RIR inside the 1-3 RIR band vs VOL-13's "no planned RIR ramp" (item 2); (e) the floor of 10 lifts field athletes' chest and back from 7.5 to 10 (§3.4).
+**Flags for the master file and round 3 (v1.1; closed or carried by v1.2):** (a) the life column of R2-VOL-01 vs R2-GEN-04 (resolved by dropping the column, item 4); (b) rear-delt 4 / 6 / 8 vs "nobody needs less than 10" (item 10); (c) R2-VOL-08 needs a plain re-ask with an example (item 13); (d) the planned effort drift 3 → 1 RIR inside the 1-3 RIR band vs VOL-13's "no planned RIR ramp" (item 2); (e) the floor of 10 lifts field athletes' chest and back from 7.5 to 10 (§3.4).
 
 ---
 
@@ -58,22 +83,23 @@ Edited in place: every table, rule, example and the JSON twin now carry the roun
 
 | # | Rule | Tag |
 |---|---|---|
-| 1 | Count **weekly hard sets per muscle**. Main mover = 1.0 set; helpers = **0.25**; squats, lunges, deadlifts and RDLs give glutes 0.25; hip thrusts and bridges 1.0 glutes; dips = 0.5 triceps + 0.5 chest; thruster = 1.0 quads + 0.5 shoulders + 0.25 glutes. A **10/10** unilateral set = **1 set**. Plyos, ballistics (KB swings included), throws, Olympic lifts, sprints and change of direction **never** count toward muscles. | COACH-ANSWER VOL-09, LIB-16, UNI-01, VOL-10; COACH-R2 VOL-05 |
-| 2 | **Starting weekly sets:** big muscles beginner **10-12**, intermediate **15-20**, advanced **20+** (engine 10 / 15 / 20); small muscles **10 / 12 / 15**; rear delts 4 / 6 / 8 own sets; **nobody below 10 sets a week per trained muscle**. 15-20 = maintenance to some growth, 20-25 = growth; most trained people end up around 20-30 (§2.11). | COACH-ANSWER VOL-01, UNI-01; COACH-R2 VOL-04, VOL-06 |
-| 3 | **Caps per 12-week plan:** 14 / 22 / 25 by level for every target muscle; priority 18 / 26-28 / 30; all customizable; above 30 only through an optional Pro setting for a very advanced, determined person (PROPOSED). | COACH-R2 VOL-06 |
-| 4 | **Priority muscle:** +4 to +6 sets on the start (PROPOSED split +4 at L1-L2, +6 at L3), 1-2 at a time; the other muscles grow at most 3 % a week while it runs. | COACH-ANSWER VOL-02; COACH-R2 VOL-06 |
-| 5 | **Pain:** that muscle or pattern -30 to -50 %, constrained machines or split grips, or drop the exercise. | COACH-ANSWER VOL-03, UNI-08, EQ-03 |
-| 6 | **The stairway:** every plan climbs week by week; standard step 3 % of each muscle's weekly sets in the first half, 5 % after the halfway week; scaled by λ so the planned peak lands on the cap in the final week; display level 2 → 11. Never above 7 % planned; total weekly resistance sets strictly below +10 %. | COACH-R2 PER-03, PER-04, PER-05, VOL-01; COACH-ANSWER UNI-05; numbers PROPOSED |
-| 7 | **Check-in (optional):** effort mostly 1-6 → step + 2 points; 7-8 → the planned step; 9 → hold; any 10 → hold and -1 set that day; under half the sessions → repeat the week; pain → pain protocol. Effort, completion and pain only. **No check-in → the planned stairway.** | COACH-R2 VOL-01, VOL-02, VOL-03, GEN-04 |
+| 1 | Count **weekly hard sets per line** (the coach's FOCUS headers: quads, hamstrings, glutes, chest, back, **shoulders**, biceps, triceps, calves; core = the opener). Main mover = 1.0 set; helpers = **0.25**; squats, lunges, deadlifts and RDLs give glutes 0.25; hip thrusts and bridges 1.0 glutes; dips = 0.5 triceps + 0.5 chest; thruster = 1.0 quads + 0.5 shoulders + 0.25 glutes. **A set counts at most 1.0 to a line or group** (a face pull is 1 shoulder set, not 1.25). A **10/10** unilateral set = **1 set**. Plyos, ballistics (KB swings included), throws, Olympic lifts, sprints, change of direction and HYROX station circuits **never** count toward muscles. | COACH-ANSWER VOL-09, LIB-16, UNI-01, VOL-10; COACH-R2 VOL-05; COACH-R3 VOL-01, ATH-03; group credit PROPOSED |
+| 2 | **Starting weekly sets:** big lines beginner **10-12**, intermediate **15-20**, advanced **20+** (engine 10 / 15 / 20); shoulders, biceps, triceps **10 / 12 / 15**; calves **one exercise × 3 sets every leg day**; core opener 2 × 2. **Nobody below 10 sets a week per trained group** (quads, hips, chest, back, shoulders, biceps, triceps, calves). 15-20 = maintenance to some growth, 20-25 = growth; most trained people end up around 20-30 (§2.11). | COACH-ANSWER VOL-01, UNI-01, VOL-17; COACH-R2 VOL-04, VOL-06; COACH-R3 VOL-01, SES-01 |
+| 3 | **Ceilings per 12-week plan:** 14 / 22 / 25 by level for every line; all customizable; above 30 only through an optional Pro setting for a very advanced, determined person (PROPOSED). | COACH-R2 VOL-06 |
+| 4 | **Focus muscle 1 and Focus muscle 2** (intake, max 2): **+1 to +3 extra sets a week** each (default +2) on the start and on the ceiling, never above 18 / 26-28 / 30; first in its session; the others keep their own stairway. The coach-only priority push (+4 / +6, others ≤ 3 %) is an optional setting. | COACH-R3 SES-01; COACH-ANSWER VOL-02, ORD-04; COACH-R2 VOL-06; default +2 PROPOSED |
+| 5 | **Pain** declared at intake: that group or pattern -30 to -50 %, constrained machines or split grips, or drop the exercise. During the plan the printed self-adjust guide tells the user what to do (swap, cut, drop); nothing is logged. | COACH-ANSWER VOL-03, UNI-08, EQ-03; COACH-R3 VOL-04 |
+| 6 | **The stairway (approved):** every plan climbs week by week; about 3 % of each line's weekly sets in the first half, about 5 % after the halfway week; scaled by λ so every trained line reaches its ceiling in the last week; display level 2 → 11; planned effort 3 RIR → 2 → 1-2 → 1 RIR + intensifiers, always inside 1-3 RIR. Never above 7 % planned; total weekly resistance sets below +10 % (one whole set may always be added). | COACH-R3 VOL-04; COACH-R2 PER-03, PER-04, PER-05, VOL-01; COACH-ANSWER UNI-05 |
+| 7 | **No check-in, no tracking, no adaptive inputs, nothing stored.** The whole plan is computed once and shown ahead of time; the user or coach adjusts it. A printed self-adjust guide replaces the v1.1 check-in table (retired, §3.7.3). | COACH-R3 VOL-02, VOL-04, GEN-01 |
 | 8 | **Rounding:** the bank = planned target - current sets; a whole set is added when it reaches 1. | COACH-ANSWER VOL-06 |
-| 9 | **Where a new set goes:** the first exercise for that muscle in the day's order, then the next (2/2/2 → 3/2/2 → 3/3/2 → 3/3/3 → 4/3/3); days alternate; the bilateral:unilateral target picks the group first. No room → bonus exercise (small muscle) or Focus slot (big muscle), on the optional day first. | COACH-ANSWER VOL-07, ORD-10, ORD-11; COACH-R2 VOL-08 default |
-| 10 | **Sessions:** split days 3-4 exercises per muscle group; **full-body days 2-4 per muscle group, never 1**; resistance sessions ≈ 5 / 6-7 / 8-9 exercises at 45 / 60 / 75-90 min; field athletes up to 12 + the 2-exercise core block; light core opener (2 × 2); heavy squat and heavy deadlift on different days. | COACH-ANSWER VOL-07, VOL-08; COACH-R2 SES-01..05 |
-| 11 | **Bilateral:unilateral share** from 90/10 to 10/90 by athlete, goal, phase and pain. | COACH-ANSWER UNI-02, UNI-03, UNI-10, CAT-13 |
-| 12 | **Blocks:** no deload or maintenance week inside a block; deload (half of the hardest week) or a maintenance phase only between blocks; a block that cannot be completed is cancelled → maintenance → new block; next block start × 1.05, cap + 1. Pre-season 4-6 weeks at ~60 % + taper. Tests before and at the end only. | COACH-R2 VOL-07, PER-06, PER-07, VOL-06 |
-| 13 | **Athletic budget:** contacts, throws, sprints, cuts and Olympic reps in their own units; plyo share by sport (approved), Receive-Create stages, Olympic lifts up to 4 × a week. | COACH-ANSWER VOL-10; COACH-R2 ATH-01..05 |
-| 14 | **Learning:** logs EFFORT (10 = successful max), HOW IT FELT, DONE, WEIGHT/SCORE; tunes each person's step scale and cap first, then the population tables, always inside fixed guardrails and with coach approval. No lifestyle inputs. | COACH-ANSWER VOL-01, GEN-05; COACH-R2 GEN-01, GEN-04; method PROPOSED |
+| 9 | **Where a new set goes:** the first exercise for that line in the day's order, then the next (2/2/2 → 3/2/2 → 3/3/2 → 3/3/3 → 4/3/3); the two exposures of a day type alternate (Monday's first back exercise, then Thursday's); the bilateral:unilateral target picks the group first. No room → a short bonus exercise on the optional day, or on a day that already trains that muscle, never as that day's only exercise for it (calves: never a second calf exercise on a leg day). | COACH-ANSWER VOL-07, ORD-10, ORD-11; COACH-R3 VOL-03 |
+| 10 | **Sessions:** 2-4 exercises per FOCUS group on every day it is trained (hips = glutes + hamstrings, shoulders = all delts), never 1; calves one exercise × 3 sets per leg day; resistance sessions ≈ 5 / 6-7 / 8-9 exercises at 45 / 60 / 75-90 min; field athletes up to 12 + the 2-exercise core block (cross pattern: 2 jump / throw stations + 1 Olympic lift; same-pattern template for size-focused or high-level athletes); light core opener (2 × 2); heavy squat and heavy deadlift on different days. | COACH-ANSWER VOL-07, VOL-08; COACH-R2 SES-01..05; COACH-R3 SES-01 |
+| 11 | **Time vs minimums:** detect the shortfall at the peak week → tell the user up front and offer another day or the session length that fits → if they keep their time, train fewer groups directly (big movers first; arms, calves and shoulder isolation from compound credit) → recommend supersets → the stairway climbs on every trained group. Never squeeze 2-4 exercises per group into a day that cannot hold them. | COACH-R3 SES-02 (algorithm §3.10.1) |
+| 12 | **Editing:** blocks carry stable ids; the athletic and core blocks of any day can be switched off; exercises and blocks can be added or removed (e.g. "add rear delts"); the plan recommends supersets per eligible pair. An edit rebuilds the plan with the edit as a constraint; nothing is stored. | COACH-R3 SES-02, VOL-01 |
+| 13 | **Bilateral:unilateral share** from 90/10 to 10/90 by athlete, goal, phase and pain. | COACH-ANSWER UNI-02, UNI-03, UNI-10, CAT-13 |
+| 14 | **Blocks:** no deload or maintenance week inside a block; after a block the easy week (about half of the hardest week) is a **recommendation**; when a block ends it ends and the user builds the next (start × 1.05, ceiling + 1 if the user says the last block was completed); holidays between blocks. Pre-season 4-6 weeks at ~60 % + taper. Tests before and at the end only. | COACH-R2 VOL-07, PER-06, PER-07, VOL-06; COACH-R3 PER-01 |
+| 15 | **Athletic budget:** contacts, throws, sprints, cuts and Olympic reps in their own units; plyo share by sport (approved, R3-ATH-04 adds the remaining sports), Receive-Create stages, Olympic lifts up to 4 × a week; older-adult and sport defaults from the profiles. | COACH-ANSWER VOL-10; COACH-R2 ATH-01..05; COACH-R3 ATH-01..05 |
 
-**What v1 retired (COACH-ANSWER VOL-05)** stays retired: every "big muscle = 3 %, medium = 5 %, small = 7 %" mapping in `03_volume_dosing.md` §9.6, `03_volume_rules.json > generator_rules.progression`, `generator_spec_v0.json > rule_tables.muscles.list[*].rate`, `> rule_tables.muscles.focus_rule` and `> progression.engine.rates`. **What v1.1 retires (round 2):** the readiness score and its life input, the intake recovery signal, target-seeking, acclimation and 8-week phase caps, the 8-week × 1.10 start, triggered mid-block deloads, hinge glute credit 0.5, KB-swing glute credit, small-muscle start 8 and small caps 12 / 18 / 22. Full lists in section 6.
+**What v1 retired (COACH-ANSWER VOL-05)** stays retired: every "big muscle = 3 %, medium = 5 %, small = 7 %" mapping. **What v1.1 retired (round 2)** stays retired: the readiness score and its life input, the intake recovery signal, target-seeking, acclimation and 8-week phase caps, the 8-week × 1.10 start, triggered mid-block deloads, hinge glute credit 0.5, KB-swing glute credit, small-muscle start 8 and small caps 12 / 18 / 22. **What v1.2 retires (round 3):** the weekly check-in and its step table, the 'Failed' answer, "10 → hold and -1 set", the repeated week, the block-at-risk prompt, the logbook and every learning step, level-up from logs, the week-by-week mode, rear delts as a line with its own 4 / 6 / 8 sets, side delts as a separate line, the "older adults ≤ 3 %" step cap, the mandatory transition deload and the maintenance end prompt. Full lists in section 6.
 
 ---
 
@@ -91,9 +117,9 @@ His round-1 answers, grouped by what the engine needs (quotes are short; the ful
 - Big muscles: quads, glutes, hamstrings, lats/upper back, chest. Small: biceps, triceps, side and rear delts, calves, forearms, abs. Traps, front delts, adductors and neck are not placed. (COACH-ANSWER CAT-02)
 
 **How much**
-- Start: beginner 10-12, intermediate 15-20, advanced 20+ ("sounds about right"); the tool should learn from everyone's data. (COACH-ANSWER VOL-01)
+- Start: beginner 10-12, intermediate 15-20, advanced 20+ ("sounds about right"); the tool should learn from everyone's data (→ R3: no data is kept, so nothing is learned from users; the coach changes the defaults by hand, COACH-R3 GEN-01, §3.14). (COACH-ANSWER VOL-01)
 - 15-20 sets is "a good foundation for maintenance to a little bit of growth", 20-25 "a good growth foundation"; 40 sets of chest is "way too much", 5 "too little". (COACH-ANSWER UNI-01)
-- Priority: +4 to +6, cap about 25-30. (COACH-ANSWER VOL-02, PARTLY: "that's the idea... we'll collect data")
+- Priority: +4 to +6, cap about 25-30. (COACH-ANSWER VOL-02, PARTLY: "that's the idea... we'll collect data"; → R3: Focus muscle 1 / 2 at +1-3 is the intake path, the push an optional coach setting, COACH-R3 SES-01; no data is collected, COACH-R3 GEN-01)
 - Pain: cut 30-50 %, machines or split grips, "maybe even drop the exercise altogether". (COACH-ANSWER VOL-03)
 - Calves get 3 sets every leg day; rear delts get their own sets; about 2 core exercises. (COACH-ANSWER VOL-17)
 - The chest-vs-side-delt imbalance in his templates was not intended; balance it, but allow a V-taper bias when the athlete wants it. (COACH-ANSWER VOL-18)
@@ -126,7 +152,7 @@ His round-1 answers, grouped by what the engine needs (quotes are short; the ful
 - 4-6 weeks: maintenance or transition (vacation, travel, off-season to in-season, moving) at about 50-70 % volume.
 - 8 weeks: first 4 adapting, next 4 driving hard; "an 8-week program wants to modify you, so you have to start hard." (→ R2: NOT RIGHT; every plan is a stairway, COACH-R2 PER-03)
 - 12 weeks (his preferred): 2-4 weeks getting used to the movements, 4-6 weeks driving hard "not all the way to the top", last weeks hardest. The next 12 weeks start one level higher ("start at a 2 and end at an 11").
-- Week-by-week mode with no fixed length; yearly mode with quarter themes and automatic maintenance over the holidays.
+- Week-by-week mode with no fixed length (→ R3: retired, it needed the check-in, COACH-R3 VOL-02); yearly mode with quarter themes and automatic maintenance over the holidays (→ R3: holidays planned between blocks, COACH-R3 PER-01).
 - Blocks of 4-6 weeks with small variable changes between blocks. Deload = about half the sets, lighter (→ R2: never inside a block, COACH-R2 VOL-07). Tests chosen by checkbox, or none (→ R2: before and at the end only, PER-07).
 
 **Athletes** (COACH-ANSWER ATH-01, ATH-02, ATH-04, ATH-05, ATH-07, ATH-09, ATH-10, CAT-10, CAT-11, PER-08)
@@ -144,7 +170,7 @@ His round-1 answers, grouped by what the engine needs (quotes are short; the ful
 - The client's level (volume) and the exercise's level (difficulty) are separate.
 
 **Generator** (COACH-ANSWER GEN-03, GEN-05, GEN-08)
-- Adjust week to week from logged EFFORT and HOW IT FELT: RIGHT. But for the output he is unsure whether people should track inside the tool ("They should be tracking it themselves"). (→ R2: settled - the plan works with no tracking, the weekly check-in is optional, COACH-R2 GEN-01; no check-in = no adaptation, VOL-03.)
+- Adjust week to week from logged EFFORT and HOW IT FELT: RIGHT. But for the output he is unsure whether people should track inside the tool ("They should be tracking it themselves"). (→ R2: settled - the plan works with no tracking, the weekly check-in is optional, COACH-R2 GEN-01; no check-in = no adaptation, VOL-03. → R3: no check-in at all, no tracking, nothing stored, COACH-R3 VOL-02, VOL-04, GEN-01.)
 - Coaches can add their own rules.
 
 ### Round 2 (`coach_answers_round2.md`, 2026-10-08): what changed the engine
@@ -157,18 +183,18 @@ Quotes are short; the full text is in `coach_answers_round2.md`. Round 2 wins ov
 **How much**
 - Small muscles at 8 / 12 / 15 = RIGHT, "but 8 sets a week is probably just barely maintenance ... the little muscles also grow the same idea". (COACH-R2 VOL-04)
 - Caps 14 / 22 / 25, priority 18 / 26-28 / 30, others ≤ 3 % while a priority runs, next cycle +5 % and cap + 1 = RIGHT, "but this is all customizable. **I don't think anybody needs less than 10 sets a week per muscle** ... More than 30 sets per week of a muscle group should probably be for a very advanced person. Maybe we can add a pro level ... I think most people train around that: 20 to 30 sets per muscle per week. I believe so, but you can do some research." (COACH-R2 VOL-06)
-- Rear delts 4 / 6 / 8 own sets = part of the approved VOL-04 proposal. (COACH-R2 VOL-04)
+- Rear delts 4 / 6 / 8 own sets = part of the approved VOL-04 proposal. (COACH-R2 VOL-04; → R3: rear delts are part of the shoulders group, COACH-R3 VOL-01)
 
 **How it moves**
-- The step table by effort (3 / 5 / 7 %, hold, -1 set, repeat the week under half the sessions) = RIGHT. (COACH-R2 VOL-01)
+- The step table by effort (3 / 5 / 7 %, hold, -1 set, repeat the week under half the sessions) = RIGHT. (COACH-R2 VOL-01; → R3: retired with the check-in, COACH-R3 VOL-02)
 - But lifestyle inputs = NOT RIGHT: "I just need the workouts here. There's no need to talk about sleep or stress or anything else." (COACH-R2 GEN-04)
 - Effort 10 = "That was the max I can do, not a fail ... I gave it all I had, but it was successful"; a 'fail' can be added. (COACH-R2 VOL-02, PARTLY)
-- No check-in: "the plan doesn't change. There is no data to go off of." (COACH-R2 VOL-03)
+- No check-in: "the plan doesn't change. There is no data to go off of." (COACH-R2 VOL-03; → R3: there is no check-in at all, COACH-R3 VOL-02)
 - Every plan is a stairway: "In the beginning, the first 2, 3, 4 weeks, the steps are a little bit smaller ... When they get to that halfway point and upwards, the steps get a little bit higher, but not too much ... that goes for every plan." (COACH-R2 PER-03, NOT RIGHT on 4 + 4 and "start hard")
 - 12 weeks: "the last 4 weeks are going to be brutal ... week by week, it just gets gradually worse. I mean worse, meaning better, more volume." (COACH-R2 PER-04, PARTLY)
 - "Start at a 2 and end at an 11" = "the amount of volume that they're putting themselves at as far as level, not the amount of sets ... The last week might feel like an 11 ... pushed yourself a little bit past your limits." (COACH-R2 PER-05)
 - Deload = half of the hardest week (RIGHT), but "It should never be thrown in the middle of a block ... If they can't complete it, they should cancel the block and start a maintenance phase ... then start a whole new block." (COACH-R2 VOL-07)
-- R2-VOL-08 (where a new set and a bonus exercise go when a day repeats): "I don't understand this question." (COACH-R2 VOL-08)
+- R2-VOL-08 (where a new set and a bonus exercise go when a day repeats): "I don't understand this question." (COACH-R2 VOL-08; → R3: re-asked in plain words and approved, COACH-R3 VOL-03)
 
 **Session and week**
 - Heavy squat and heavy deadlift on two different days; non-spinal hinge, leg press or belt squat on the other days; the counted axial list = RIGHT. (COACH-R2 SES-01, SES-02)
@@ -184,9 +210,33 @@ Quotes are short; the full text is in `coach_answers_round2.md`. Round 2 wins ov
 
 **Athletes** (COACH-R2 ATH-01 ... ATH-08, all RIGHT): plyo:ballistic shares by sport; ballistic vs plyometric jump lists; "Receive-Create stages" and their timing; Olympic lifts up to four times a week ("cleans ... more squatty ... snatches ... more hingy"); squat cleans and snatches 3-5 reps with the coach's eye on speed; aerobic sessions per sport; in-season reductions for game-heavy sports; older adults without Olympic lifts, plyos or depth jumps unless they choose it, with a warning; youth floor Olympic lifts from about 14 after a hang block.
 
-**Product inputs** (COACH-R2 GEN-01, GEN-05, GEN-06): optional check-in, the plan works with no tracking; season start date and practice/game days for competitive athletes; weight guidance by RIR/RPE, Olympic lifts explained as power output, % only for tested or competitive lifters.
+**Product inputs** (COACH-R2 GEN-01, GEN-05, GEN-06): optional check-in (→ R3: retired), the plan works with no tracking; season start date and practice/game days for competitive athletes; weight guidance by RIR/RPE, Olympic lifts explained as power output, % only for tested or competitive lifters.
 
 **New request (2026-10-08, relayed by the session):** every popular US sport must be covered (swimming included), and gen-pop clients who "want to stay athletic and active" (pickleball, "high rows" - read as HYROX) need a path. The sport profiles are being written in `04_athlete_profiles` / `synthesis/sports/`; this engine gives that path its volume rules (§3.4).
+
+### Round 3 (`coach_answers_round3.md`, 2026-10-09): what changed the engine
+
+Quotes are short; the full text is in `coach_answers_round3.md`. Round 3 wins over rounds 1 and 2 where they differ.
+
+**Outputs only**
+- Check-ins: "we're not going to have check-ins, correct? I want to take away all check-in info. We're only doing outputs, and people can change accordingly." (COACH-R3 VOL-02, RIGHT)
+- The stairway (3 % then 5 %, every muscle reaching its ceiling in the last week, effort 3 → 2 → 1-2 → 1 RIR + intensifiers) = RIGHT, "but remember that we can just kick out the program designed already without the input of somebody saying how they feel ... The program will just have its natural algorithm recommendation of growth throughout it ... I want them to be able to kick out a program, and that's it. That's the program ... and the program will tell you to adjust accordingly. It's already a template, and you need to adjust it as you need to ... very simple for them to see the whole thing ahead of time." (COACH-R3 VOL-04)
+- "I don't want any data kept." (COACH-R3 GEN-01)
+
+**Counting**
+- Rear delts: "I wouldn't categorize the rear delt as an individual muscle, so it should always be adaptable. People and coaches should always be able to add more rear delts ... If you put together all the sets of shoulders, it'll equate to more than 10 sets ... I think the rear delts also get worked when you do back." (COACH-R3 VOL-01, PARTLY)
+- Groups: FOCUS groups with glutes + hamstrings = 'hips' (RDL + hip thrust + leg curl = 3 hip exercises) and front / side / rear delts = 'shoulders'; calves one exercise × 3 sets per leg day; field athletes 2-4 exercises per group trained that day inside 12 + 2 core, cross pattern by default, the same-pattern athletic template for size-focused and high-level athletes = RIGHT. (COACH-R3 SES-01)
+- Focus muscles: "they should be able to choose one of the main muscles that they want to work on the most. The program will then automatically choose extra sets for that one ... an extra set or two or three ... a main focus muscle 1 and a main focus muscle 2, and that should be enough for the whole thing." (COACH-R3 SES-01; his "female ... glutes" is an example only: no sex field, COACH-ANSWER GEN-02, ATH-09)
+
+**Where sets go**
+- Monday's first back exercise, then Thursday's; extra small-muscle sets as a short bonus exercise on the optional day, or on a day that already trains that muscle, never as its only exercise that day = RIGHT. (COACH-R3 VOL-03)
+
+**When the time is short**
+- (1) tell them up front and offer a 3rd day or longer sessions; (2) if they keep their time, train fewer muscles directly; (3) supersets; (4) the stairway climbs on the trained muscles = RIGHT: "Recommend doing supersets so that it's a faster workout, but they should be able to get things done." Users "should be able to turn off that day's athletic training or that day's core training ... or they can delete certain exercises, because an athlete or a coach should be able to modify accordingly. The options should be: Recommend supersets; Adding or removing exercises or blocks within the training session." (COACH-R3 SES-02)
+
+**Calendar and athletes**
+- Easy / maintenance weeks "are a recommendation. They don't have to be mandatory ... when the block ends, it just ends, and then you have to go back into the app and build whatever you want next." (COACH-R3 PER-01)
+- Swimming dryland, older and racket-sport defaults, the HYROX plan, the remaining sports' plyo shares and the stay-active rules = RIGHT. (COACH-R3 ATH-01..05)
 
 ---
 
@@ -258,7 +308,7 @@ COACH-R2 "most people 20-30"        |                    MMMMMMMMMMM
 | Floor of 10 sets per muscle (COACH-R2 VOL-06) | Top of Pelland's high-efficiency tier; Schoenfeld's "10+" category; RP MEV is lower (4-10) | **Matches** as a growth floor (true maintenance needs less, §2.4). |
 | "Most people train 20-30" (COACH-R2 VOL-06) | Surveys: bodybuilders ~16 direct sets per muscle (one session a week) and 8-17 (natural, pre-contest); RP MRV 16-26; Pelland lower-efficiency tier | **Matches for trained people counting indirect work; high as a population average** (§2.11). |
 
-**Counting difference to keep in mind.** Pelland counted indirect sets at 0.5; the coach counts helpers at 0.25 (COACH-ANSWER VOL-09). For chest, quads, hamstrings and back (mostly direct work) both counts are almost the same. For glutes, triceps, biceps and the delts the coach's count is lower than Pelland's for the same program. The engine stores **both** counts so the data can later show which predicts results better (section 3.14).
+**Counting difference to keep in mind.** Pelland counted indirect sets at 0.5; the coach counts helpers at 0.25 (COACH-ANSWER VOL-09). For chest, quads, hamstrings and back (mostly direct work) both counts are almost the same. For glutes, triceps, biceps and the delts the coach's count is lower than Pelland's for the same program. The engine steers on the coach count and may **show** the Pelland count beside it; v1.2 stores nothing (COACH-R3 GEN-01), so the v1.1 idea of testing which count predicts results better on user data is retired (section 3.14).
 
 ### 2.3 Per-muscle landmarks (Renaissance Periodization, intermediate lifters, direct sets/week)
 
@@ -311,7 +361,7 @@ RP also puts a practical per-session ceiling at about **8-12 sets per muscle**, 
 - **Life stress slows progress:** in 135 students over 12 weeks, high-stress lifters gained less bench and squat strength (Bartholomew et al. 2008); chronic stress slowed muscle recovery over 96 h (Stults-Kolehmainen et al. 2014). (SCIENCE)
 - **Sleep:** several nights of short sleep lower force on multi-joint lifts (Knowles et al. 2018). (SCIENCE)
 
-→ The coach's "it depends on how tired they are and what's going on in their life" (UNI-05, VOL-05) has direct research support, and v1's readiness score used exactly these inputs. **v1.1:** he does not want lifestyle questions ("I just need the workouts here", COACH-R2 GEN-04), so sleep and stress stay here as background only; the weekly step is decided from effort, completion and pain (§3.7.3). A hard week still shows up as higher effort or fewer sessions done.
+→ The coach's "it depends on how tired they are and what's going on in their life" (UNI-05, VOL-05) has direct research support, and v1's readiness score used exactly these inputs. **v1.1:** he does not want lifestyle questions ("I just need the workouts here", COACH-R2 GEN-04), so sleep and stress stay here as background only. **v1.2:** there is no weekly step from the person at all - no check-in, nothing stored (COACH-R3 VOL-02, VOL-04, GEN-01); the plan's planned stairway runs as written, and the printed self-adjust guide (§3.7.3) tells the person how to adjust after a hard week.
 
 ### 2.7 Deloads
 
@@ -319,7 +369,7 @@ RP also puts a practical per-session ceiling at about **8-12 sets per muscle**, 
 - **Survey of 246 strength and physique athletes (Rogerson, Bell et al. 2024):** deload every **5.6 ± 2.3 weeks**, lasting **6.4 ± 1.7 days**; 79 % cut sets; most also cut effort; 47 % pre-plan, 39 % mix planned and reactive. (SCIENCE)
 - **Coleman et al. (PeerJ 2024):** a full week off at the middle of a 9-week program did not change muscle growth but slightly reduced strength gains. (SCIENCE)
 
-→ His "about half the sets, lighter" (PER-05) is in the middle of practice. Round 2 settles the timing: **never inside a block**, only between blocks (COACH-R2 VOL-07); the Delphi panel's agreement that a deload can sit in the last week of a block or the first week of the next one fits that. v1's triggered mid-block deloads are retired (§3.12).
+→ His "about half the sets, lighter" (PER-05) is in the middle of practice. Round 2 settles the timing: **never inside a block**, only between blocks (COACH-R2 VOL-07); the Delphi panel's agreement that a deload can sit in the last week of a block or the first week of the next one fits that. v1's triggered mid-block deloads are retired, and in v1.2 the easy week between blocks is a recommendation, not a mandatory week (COACH-R3 PER-01; §3.12).
 
 ### 2.8 Older adults
 
@@ -328,7 +378,7 @@ RP also puts a practical per-session ceiling at about **8-12 sets per muscle**, 
 - **Bickel 2011:** older adults need more weekly sets than younger adults to keep size. (SCIENCE)
 - **Plyometrics for masters athletes:** 3-4 days between plyo sessions (NSCA guidance as summarised for the CSCS exam). (SCIENCE)
 
-→ Fits the coach: older clients go to constrained machines for extra volume (EQ-03); round 2 tightened his "few plyos unless they ask" (ATH-09) to **no Olympic lifts, plyos or depth jumps by default**, available as an option with a warning to work with a fitness professional (COACH-R2 ATH-08; §3.4, §3.13).
+→ Fits the coach: older clients go to constrained machines for extra volume (EQ-03); round 2 tightened his "few plyos unless they ask" (ATH-09) to **no Olympic lifts, plyos or depth jumps by default**, available as an option with a warning to work with a fitness professional (COACH-R2 ATH-08); round 3 fixed the defaults from 60: landing drills (no bounce), balance, quick stepping, light medball throws and fast machine work on; low ankle hops, other jumps, Olympic lifts and depth jumps off unless switched on with the warning (COACH-R3 ATH-02; §3.4, §3.13). The NSCA's slow progression from single sets fits the stairway's small early steps.
 
 ### 2.9 Unilateral vs bilateral
 
@@ -371,11 +421,11 @@ RP also puts a practical per-session ceiling at about **8-12 sets per muscle**, 
 - **As "what trained, hypertrophy-focused people work up to, counting the indirect work", 20-30 fits.** It is RP's MRV range, Pelland's lower-efficiency tier, and what the twice-a-week minority of competitive bodybuilders do. Counted the coach's way (helpers 0.25), the bodybuilder direct-set averages (8-17) rise by roughly 1-4 sets for the upper body, so the busiest trained muscles reach the low 20s.
 - **As "what most people do", it is high.** Direct-set surveys of bodybuilders put the typical muscle at about 8-17 a week (natural, pre-contest) or about 16 (once a week); general gym-goers vary enormously from muscle to muscle (from 8 sets for hamstrings to 50-80 for arms and shoulders when every helping set is counted as a full set), which shows the counting method decides the number.
 - **His caps already sit inside it:** non-priority caps 22 (L2) and 25 (L3), priority 26-30. Above 30 the research is thin (Pelland) and the extra growth costly (Enes), which supports his "more than 30 ... for a very advanced person" and an opt-in Pro setting rather than a default.
-- **Engine consequence:** no number changes. L2-L3 12-week stairways finish at 22-25 sets for non-priority muscles and 26-30 for a priority (§3.7.1), inside his 20-30; L1 plans stay 10-14; the floor is 10 (COACH-R2 VOL-06). The data the tool collects (§3.14) will show where real users sit.
+- **Engine consequence:** no number changes. L2-L3 12-week stairways finish at 22-25 sets for non-priority muscles and 26-30 for a priority (§3.7.1), inside his 20-30; L1 plans stay 10-14; the floor is 10 (COACH-R2 VOL-06). v1.2: the tool collects no data (COACH-R3 GEN-01); the coach changes the defaults by hand if he sees real users sit elsewhere.
 
 ---
 
-## 3. The engine v1.1
+## 3. The engine v1.2
 
 ### 3.1 Counting units
 
@@ -396,7 +446,7 @@ RP also puts a practical per-session ceiling at about **8-12 sets per muscle**, 
 | Horizontal pull (rows; Kong row = double-KB row, low stimulus) | lats/upper back | - | biceps, rear delts | COACH-ANSWER VOL-09, LIB-09 |
 | Vertical pull | lats/upper back | - | biceps | COACH-ANSWER VOL-09 |
 | Lat pull-over ("pull under") | lats/upper back | - | - | COACH-ANSWER LIB-09 |
-| Face pull (cable or KB) | rear delts | - | side delts | COACH-R2 LIB-04, LIB-10 ("shoulder work": side/rear delts/traps, on pull or shoulder days); split PROPOSED |
+| Face pull (cable or KB) | rear delts | - | side delts | COACH-R2 LIB-04, LIB-10 ("shoulder work": side/rear delts/traps, on pull or shoulder days); split PROPOSED; on the v1.2 shoulders line it counts 1.0 (group credit, COACH-R3 VOL-01) |
 | Chest fly, side raise (and upright row), rear-delt fly, curls, triceps isolation, calf raise | the target muscle | - | forearms 0.25 on curls | COACH-ANSWER VOL-09, LIB-16 assumption |
 | Core (thorax / pelvis) | abs/obliques | - | - | COACH-ANSWER CAT-08 |
 | Plyo, ballistic (**KB swing included**), throw, Olympic, sprint, change of direction | **none** (own budget, §3.13) | | | COACH-ANSWER VOL-10; COACH-R2 VOL-05 ("kettlebell swings are not glutes") |
@@ -406,7 +456,8 @@ RP also puts a practical per-session ceiling at about **8-12 sets per muscle**, 
 - **Unilateral sets cost more time** (both sides): 1.5 × a bilateral set in the time model. (COACH-ANSWER UNI-09; factor PROPOSED)
 - **MYO set** = 2 hard sets (INFERRED; only on the last machine or isolation exercise, COACH-ANSWER VOL-15).
 - **Hard set** = a working set at 1-3 RIR (COACH-ANSWER VOL-13). Warm-up sets and A-drills never count (ORD-08); core sets in the light opener count toward abs (COACH-R2 SES-03 approved the 2 × 2 opener).
-- The engine steers on the **coach count (helpers 0.25)** and stores the **Pelland count (indirect 0.5)** for research comparison. (PROPOSED)
+- **Group credit (v1.2):** a set counts at most 1.0 to a line or group - the shoulders line (front + side + rear delts) and the hips group (glutes + hamstrings) add their members' credits and cap them at 1 (§3.3). (COACH-R3 VOL-01, SES-01; rule PROPOSED)
+- The engine steers on the **coach count (helpers 0.25)** and may show the **Pelland count (indirect 0.5)** beside it; nothing is stored (COACH-R3 GEN-01). (PROPOSED)
 - **What the glute change does:** with every compound at 0.25, a physique plan reaches its glute start only with direct glute work (hip thrust family or Focus slots); examples 5.1 and 5.2 carry two glute exercises on one hip day (§5).
 
 ### 3.2 Levels (client volume level, separate from exercise difficulty)
@@ -416,89 +467,97 @@ RP also puts a practical per-session ceiling at about **8-12 sets per muscle**, 
 | **L1** (novice / "newby", the same thing) | Under about 6-12 months of consistent training, **or** more than 6-12 months off (body treated as a beginner; exercise level can stay higher because skills return fast). Ex-pros: L1 for one short block only, then up. | COACH-ANSWER PRG-05, CAT-06 |
 | **L2** (intermediate) | Consistent training for more than 1 year. | COACH-ANSWER PRG-05 |
 | **L3** (advanced) | 3+ years of consistent training **and** currently training 4+ days/week, or a competitive physique/strength athlete. | PROPOSED (he did not define advanced) |
-| **Pro setting** (optional, not a level) | L3 only, chosen by the coach (or a client who is "really adamant about growing that muscle"); lets **one** priority muscle pass 30 sets, up to 35 (PROPOSED number); other muscles held at ≤ 3 %/week; needs the weekly check-in; shows a warning. | COACH-R2 VOL-06 ("maybe we can add a pro level"); numbers PROPOSED |
-| Level up | At the end of a block, when the client's logs show mostly "8 - That was perfect" or easier with no pain. | COACH-ANSWER PER-06 |
+| **Pro setting** (optional, not a level) | L3 only, set by the coach at build time (or for a client who is "really adamant about growing that muscle"); lets **one** priority-push muscle pass 30 sets, up to 35 (PROPOSED number); other muscles held at ≤ 3 %/week; shows a warning. (v1.1's "needs the weekly check-in" is retired with the check-in, COACH-R3 VOL-02.) | COACH-R2 VOL-06 ("maybe we can add a pro level"); numbers PROPOSED |
+| Level up | At the end of a block the user (or coach) chooses the level for the next build; the plan's last page says when to move up ("if the block mostly felt like '8 - That was perfect' or easier, with no pain"). No logs are read (COACH-R3 VOL-02, GEN-01). | COACH-ANSWER PER-06; COACH-R3 VOL-04 |
 
 The old L4 is retired: competition level now changes the **athlete profile** (sport, position, season), not the volume level. (COACH-ANSWER PRG-05)
 
-### 3.3 Starting weekly sets per muscle (aesthetics / hypertrophy goal; coach count)
+### 3.3 Starting weekly sets per line (aesthetics / hypertrophy goal; coach count)
 
-"Fill policy" says what the engine does when a muscle is below its start: **target** = add direct sets; **credit** = count helper credit only, no direct slot unless it is a priority or the sport needs it; **floor** = indirect only, report it, never add; **core block** = set by the session count.
+"Fill policy" says what the engine does when a line is below its start: **target** = add direct sets; **credit** = count helper credit only, no direct slot unless it is a Focus muscle or the sport needs it; **floor** = indirect only, report it, never add; **core block** = set by the session count. The lines are the coach's FOCUS headers ('QUADS', 'HAMSTRINGS', 'GLUTES', 'CHEST', 'BACK', 'SHOULDERS/TRAPS', 'BICEP', 'TRICEP', 'CALVES', 'CORE'; OBSERVED); the floor of 10 is read on the R3-SES-01 groups, where hips = glutes + hamstrings.
 
-| Muscle | Class (CAT-02) | Fill policy | L1 start | L2 start | L3 start | Level cap L1 / L2 / L3 | Priority start / cap L1 / L2 / L3 | RP intermediate direct (MEV / MAV / MRV) |
-|---|---|---|---|---|---|---|---|---|
-| Quads | big | target | **10** | **15** | **20** | 14 / 22 / 25 | +4 / +4 / +6; 18 / 26 / 30 | 4-6 / 6-14 / 14-18 |
-| Hamstrings (hinge + leg flexion) | big | target | **10** | **15** | **20** | 14 / 22 / 25 | same | 2-4 / 2-8 / 8-14 |
-| Glutes | big | target (field athletes: credit) | **10** | **15** | **20** | 14 / 22 / 25 | same | 6-8 / 8-24 / 24-30 |
-| Chest | big | target | **10** | **15** | **20** | 14 / 22 / 25 | +4 / +4 / +6; 18 / 26-28 / 30 | 4-6 / 6-16 / 16-24 |
-| Lats / upper back | big | target | **10** | **15** | **20** | 14 / 22 / 25 | +4 / +4 / +6; 18 / 26 / 30 | ~10 / - / ~20-25 |
-| Side delts | small | target (field athletes: credit) | **10** | **12** | **15** | 14 / 22 / 25 | +4 / +4 / +6; 18 / 26 / 30 | 8 / 16-22 / 26+ |
-| Biceps | small | target (field athletes: credit) | **10** | **12** | **15** | 14 / 22 / 25 | same | 8-10 / 14-20 / 20-26 |
-| Triceps | small | target (field athletes: credit) | **10** | **12** | **15** | 14 / 22 / 25 | same | 4-6 / 6-16 / 16-20 |
-| Calves | small | target | **3 per leg day, at least 10 a week** | same | 3-4 per leg day, at least 10 | 14 / 22 / 25 | +4; 18 / 26 / 30 | 4-6 / 6-16 / 16-24 |
-| Rear delts | small | target (own sets) | **4** own | **6** own | **8** own | 8 / 12 / 16 | +4; 12 / 16 / 20 | 0-4 / 4-12 / 12-20 |
-| Abs / obliques | small | core block | 2 exercises × 2 sets per session, first, short of failure | same | same | 16 / 20 / 20 | - | 0-4 / 4-12 / 12-20 |
-| Front delts | unplaced | floor | indirect | indirect | indirect | - | direct slot only if chosen | 0-2 / 4-8 / 8-12 |
-| Traps, forearms, adductors, neck | unplaced / small | floor | indirect | indirect | indirect | - | direct slot only if chosen | - |
+| Line | Group (floor of 10) | Class (CAT-02) | Fill policy | L1 start | L2 start | L3 start | Ceiling L1 / L2 / L3 | Focus muscle (+F, default +2) | RP intermediate direct (MEV / MAV / MRV) |
+|---|---|---|---|---|---|---|---|---|---|
+| Quads | quads | big | target | **10** | **15** | **20** | 14 / 22 / 25 | start + F, ceiling + F (≤ 18 / 26 / 30) | 4-6 / 6-14 / 14-18 |
+| Hamstrings (hinge + leg flexion) | hips | big | target | **10** | **15** | **20** | 14 / 22 / 25 | same | 2-4 / 2-8 / 8-14 |
+| Glutes | hips | big | target (field athletes: credit) | **10** | **15** | **20** | 14 / 22 / 25 | same | 6-8 / 8-24 / 24-30 |
+| Chest | chest | big | target | **10** | **15** | **20** | 14 / 22 / 25 | same (≤ 18 / 28 / 30) | 4-6 / 6-16 / 16-24 |
+| Lats / upper back | back | big | target | **10** | **15** | **20** | 14 / 22 / 25 | same | ~10 / - / ~20-25 |
+| **Shoulders** (front + side + rear delts, traps) | shoulders | small | target (field athletes: at the floor, through the shoulder-care station and presses) | **10** | **12** | **15** | 14 / 22 / 25 | same | side 8 / 16-22 / 26+; rear 0-4 / 4-12 / 12-20 |
+| Biceps | biceps | small | target (field athletes: credit) | **10** | **12** | **15** | 14 / 22 / 25 | same | 8-10 / 14-20 / 20-26 |
+| Triceps | triceps | small | target (field athletes: credit) | **10** | **12** | **15** | 14 / 22 / 25 | same | 4-6 / 6-16 / 16-20 |
+| Calves | calves | small | target | **one exercise × 3 sets every leg day** | same | 3-4 per leg day | 14 / 22 / 25 | +F sets on the existing calf exercise, then the optional-day slot | 4-6 / 6-16 / 16-24 |
+| Abs / obliques | core | small | core block | 2 exercises × 2 sets per session, first, short of failure | same | same | 16 / 20 / 20 | - | 0-4 / 4-12 / 12-20 |
+| Traps, forearms, adductors, neck | - | unplaced / small | floor | indirect | indirect | indirect | - | direct slot only if chosen | - |
 
-Tags: big-muscle starts **COACH-ANSWER VOL-01**; small-muscle starts 12 / 15 and rear delts 4 / 6 / 8 **COACH-R2 VOL-04 (RIGHT)**; small L1 start 10 (instead of 8) and the floor of 10 **COACH-R2 VOL-04, VOL-06** ("8 sets ... barely maintenance"; "I don't think anybody needs less than 10"); caps 14 / 22 / 25 and priority 18 / 26-28 / 30 **COACH-R2 VOL-06 (RIGHT; "all customizable")**; small muscles on the same caps as big ones **INFERRED** from "the little muscles also grow the same idea" (VOL-04) and VOL-06 giving one cap per level (v1 small caps 12 / 18 / 22 retired); calves 3 per leg day **COACH-ANSWER VOL-17**; core opener **COACH-R2 SES-03**; priority add +4 to +6 **COACH-ANSWER VOL-02**, split by level PROPOSED (now the same everywhere, fixing 11's I10); the L3 start of 20 as the low end of "20+" PROPOSED; rear-delt and calf caps PROPOSED.
+Tags: big-line starts **COACH-ANSWER VOL-01**; small-line starts 12 / 15 **COACH-R2 VOL-04 (RIGHT)**, read on the shoulders group because the coach "figured the shoulders were what we were talking about" (**COACH-R3 VOL-01**); L1 small 10 (instead of 8) and the floor of 10 **COACH-R2 VOL-04, VOL-06**; the floor counted on groups **COACH-R3 VOL-01, SES-01**; caps 14 / 22 / 25 **COACH-R2 VOL-06 (RIGHT; "all customizable")**; small lines on the same caps as big ones **INFERRED** from "the little muscles also grow the same idea" (VOL-04); calves one exercise × 3 per leg day **COACH-ANSWER VOL-17, COACH-R3 SES-01**; core opener **COACH-R2 SES-03**; Focus muscles **COACH-R3 SES-01** (default +2, the bound by the priority caps 18 / 26-28 / 30 of R2-VOL-06, PROPOSED); the L3 start of 20 as the low end of "20+" PROPOSED.
 
-**The floor of 10 (COACH-R2 VOL-06).** Every **target** muscle starts at 10 or more in any training block, after the goal and phase factors (§3.4). Not floored: maintenance phases, pre-season and in-season blocks (they are maintenance by the coach's own definition, PER-01, R2-PER-06), a pain-reduced muscle (VOL-03 wins), credit-only muscles of field athletes (UNI-02), and floor muscles. Calves reach 10 by 3 sets per leg day plus a fourth set (or the optional-day 'Calves' slot) when there are fewer than 4 leg days (PROPOSED). Abs reach 10+ through the core opener at 3+ sessions a week.
+**Group credit (PROPOSED, needed by R3-VOL-01).** Lines and groups count a set at most once: line credit = the smaller of 1 and the sum of its member muscles' credits. Shoulders: a side raise, a rear-delt fly, a face pull (rear 1.0 + side 0.25 → 1.0), a vertical press (front 1.0 + side 0.25 → 1.0) and an upright row are 1 shoulder set each; a thruster 0.5; a horizontal press (front delts 0.25) and a row (rear delts 0.25) 0.25. Hips: a hinge, a hip thrust and a leg curl are 1 hip set each; a squat or lunge 0.25 (glutes). The engine still reports side, rear and front delts and glutes / hamstrings separately for display.
 
-**Rear delts vs the floor (flagged).** He approved 4 / 6 / 8 rear-delt sets of their own (COACH-R2 VOL-04) and also said nobody needs less than 10 per muscle (VOL-06). v1.1 keeps 4 / 6 / 8 direct sets and checks the floor on his **SHOULDERS/TRAPS** muscle group (his FOCUS header joins the delts): side-delt work (10 / 12 / 15) plus rear-delt work plus face pulls is well above 10 (INFERRED). Rows also give rear delts 0.25 a set, so their own count reaches 5-7 at L1. Round 3 should ask whether rear delts need their own 10.
+**The floor of 10 on groups (COACH-R2 VOL-06, COACH-R3 VOL-01).** Every directly trained **group** - quads, hips, chest, back, shoulders, biceps, triceps, calves - holds 10 or more sets a week in any training block, after the goal and phase factors (§3.4). Not floored: maintenance phases, pre-season and in-season blocks (maintenance by the coach's own definition, PER-01, R2-PER-06), a pain-reduced group (VOL-03 wins), groups left to compound credit by the time policy (§3.10.1) and credit-only lines of field athletes. Calves: the coach's own minimum is 3 sets per leg day; with fewer than 4 leg days they reach 10 through a 4th set and the optional-day 'Calves' slot (PROPOSED) - never through a second calf exercise on a leg day (COACH-R3 SES-01). Abs reach 10+ through the core opener at 3+ sessions a week.
 
-**Why small muscles start below big ones at L2-L3 (COACH-R2 VOL-04, RIGHT).** It fits the session time, and arms and delts also grow from presses and rows (Gentil et al. 2015; SCIENCE). At L1 the floor lifts them to the big-muscle start (10).
+**Rear delts inside the shoulders group (COACH-R3 VOL-01, resolves the v1.1 flag).** "Rear delts are weird because they're part of the shoulder cap ... I wouldn't categorize the rear delt as an individual muscle." Their own 4 / 6 / 8 sets (COACH-R2 VOL-04) are retired as a number; the content rule stays: every plan holds at least one rear-delt exercise a week (reverse fly or KB face pull, 2+ sets; VOL-17 "rear delts get their own sets"), rows give rear delts 0.25 a set ("the rear delts also get worked when you do back"), and the plan editor offers **"add rear delts"** (a 2-set rear-delt exercise on a pull day, §3.10.2). Example 5.2: shoulders 13 → 20 sets over the block for an L2 bodybuilder, of which about 6-8 rear-delt credit.
 
-### 3.4 Goal, phase and population modifiers (multiply the start values; then the floor of 10)
+**Why small lines start below big ones at L2-L3 (COACH-R2 VOL-04, RIGHT).** It fits the session time, and arms and delts also grow from presses and rows (Gentil et al. 2015; SCIENCE). At L1 the floor lifts them to the big-line start (10).
 
-Factor results round half up (11's I11, PROPOSED).
+**Week 1 above the start.** Two exercises × 2 sets on every day a group is trained (R2-SES-05) often put a line above its start in week 1 (e.g. shoulders 12 against a start of 10 in example 5.1). The stairway then climbs from the week-1 sets, not from the table value (§3.7.1), so no line runs flat while its planned target catches up (COACH-R3 SES-02 step 4).
 
-| Situation | Lower body | Upper body | Small muscles | Rate / notes | Tag |
+### 3.4 Goal, phase and population modifiers (multiply the start values; then the floor of 10 on groups)
+
+Factor results round half up (11's I11, PROPOSED). The sport and activity profiles (`04_athlete_profiles`, `06_periodization`) own the athletic details; the rows below are what the volume engine reads.
+
+| Situation | Lower body | Upper body | Small lines | Rate / notes | Tag |
 |---|---|---|---|---|---|
 | Aesthetics / bodybuilding / hypertrophy | 1.0 | 1.0 | 1.0 | same-pattern pairing allowed (squat + lunge); 4 aerobic sessions, adjustable | COACH-ANSWER VOL-01, UNI-06; COACH-R2 SES-06 |
 | Strength / powerlifting | 1.0 | 1.0 | 0.75, then floor 10 | weekly sets stay similar; preference moves the **reps** on big lifts; 2 easy (Orange) aerobic sessions | COACH-ANSWER VOL-12; COACH-R2 ATH-06; small factor PROPOSED |
-| General fitness, weekend-warrior athletic, **"stay athletic and active"** (recreational pickleball, HYROX for fitness, rec leagues and similar) | 0.8 | 0.8 | 0.8, then floor 10 | 45-60 min (longer on full-body days, §3.10); cross-pattern pairing; athletic work from the 04 profile of the activity | COACH-ANSWER UNI-09, UNI-06, ATH-13; coach request 2026-10-08; factor PROPOSED |
+| General fitness, weekend-warrior athletic, **"stay athletic and active"** (recreational pickleball, padel, tennis, HYROX for fitness, rec leagues) | 0.8 | 0.8 | 0.8, then floor 10 | 45-60 min (longer on full-body days, §3.10); cross-pattern pairing; athletic work from the 04 profile of the activity; **play days** (the hardest gym day at least 48 h before the biggest play day; weeks with 3+ play sessions drop the extra agility drills and half the jumps), a 45-60+ min session of the activity counts as one of the 3 cardio sessions (up to 2), an optional **event date** (the hardest weeks end 1 week before, then 1 easy week at about half the sets) | COACH-ANSWER UNI-09, UNI-06, ATH-13; COACH-R3 ATH-05; factor PROPOSED |
+| Pickleball / padel / tennis players 50+ | as the row above | | | knee-friendly strength; **calf and Achilles work every leg day** (a pinned group in the time policy, §3.10.1); rotator-cuff work (warm-up / shoulder-care station, never bands); only low-impact jumps unless switched on | COACH-R3 ATH-02 (RIGHT) |
+| HYROX (fitness racing) | 0.8 | 0.8 | 0.8, then floor 10 | 2 strength days (squat + pull, deadlift + push) + 2 hybrid days; 4 cardio sessions (Blue, Green, Orange + a second Orange); 2 short station circuits a week as finishers that **never count as muscle sets**; wall balls with the race ball (never over 20 lb); 40-rep / AMRAP sets only inside these circuits; jumps 50 % plyometric | COACH-R3 ATH-03 (RIGHT); factor PROPOSED |
 | Bootcamp | circuits 3-5 rounds × 30-50 s, 5-7 stations, 35-45 min | | | not set-based | COACH-ANSWER PRG-03 |
 | Fat loss | 0.8 | 0.8 | 0.8, then floor 10 | + 3 aerobic sessions/week, adjustable | COACH-ANSWER ATH-07; COACH-R2 SES-06; factor PROPOSED |
-| Field/court athlete, off-season | 0.7 | 0.5, **then floor 10** | credit only (side delts, arms, glutes) | resistance is 3-4 exercises after core, plyo and Olympic work; the floor lifts chest and back from 7.5 to 10 at L2 (flagged) | COACH-ANSWER VOL-08, VOL-17, UNI-02; COACH-R2 VOL-06; factors PROPOSED |
-| Strength-type athlete off-season (linemen, wrestlers, rugby, throwers, heavyweight fighters) | 0.9 | 0.8 | 0.6, then floor 10 | | COACH-ANSWER ATH-03; factors PROPOSED |
+| Field/court athlete, off-season | 0.7 | 0.5, **then floor 10** | biceps, triceps and glutes credit only; **shoulders at the floor** (shoulder-care station + presses, group credit) | resistance is 2-4 exercises per group trained that day after core, plyo and Olympic work (12 + 2 core); the floor lifts chest and back from 7.5 to 10 at L2 (flagged) | COACH-ANSWER VOL-08, VOL-17, UNI-02; COACH-R2 VOL-06; COACH-R3 SES-01, VOL-01; factors PROPOSED |
+| Competitive swimmers (dryland) | 0.7 | 0.5, then floor 10 | as field athletes; shoulder care every session (external rotation, floor Y/T raises, KB face pulls; never bands) | 3 dryland gym days + 1 optional (2 for younger or lower-level swimmers); **0 extra cardio** by default (the pool is the aerobic work; user can add one); jumps mostly ballistic, 25 % plyometric at block end; Olympic lifts 2-3 days; a 2-week dryland taper lined up with the swim taper before the main meet (1 week or none before smaller meets) | COACH-R3 ATH-01 (RIGHT); factors PROPOSED |
+| Strength-type athlete off-season (linemen, wrestlers, rugby forwards, throwers, heavyweight fighters) | 0.9 | 0.8 | 0.6, then floor 10 | the same-pattern athletic template when the goal is size (COACH-R3 SES-01) | COACH-ANSWER ATH-03; factors PROPOSED |
 | Athlete pre-season | about **0.6 of the off-season sets** | | credit | 4-6 weeks, more speed and power, 1-2-week taper before the first game; no floor (maintenance) | COACH-R2 PER-06 (RIGHT) |
-| Athlete in-season | 0.4-0.5 | 0.3-0.4 | credit | 2 days/week, flat (no stairway); game-heavy sports (basketball, volleyball, soccer, football, hockey): gym plyos about half, no extra change of direction, sprints only for speed athletes, the one hard gym day at least 48 h before a game | COACH-ANSWER PER-08, UNI-10; COACH-R2 ATH-07; factors PROPOSED |
+| Athlete in-season | 0.4-0.5 | 0.3-0.4 | credit | 2 days/week, flat (no stairway); game-heavy sports (basketball, volleyball, soccer, football, hockey; R3-ATH-04 adds lacrosse, field hockey, rugby, ultimate, flag football, beach volleyball): gym plyos about half, no extra change of direction, sprints only for speed athletes, the one hard gym day at least 48 h before a game | COACH-ANSWER PER-08, UNI-10; COACH-R2 ATH-07; COACH-R3 ATH-04; factors PROPOSED |
 | Boxer / striker in high-punching weeks | as profile | pressing × 0.5-0.7 | arms × 0.5-0.7 | reduce, never cut to zero | COACH-ANSWER ATH-04; factor PROPOSED |
-| Older adult (60+) | as goal | as goal | as goal | stairway steps capped at 3 % (PROPOSED; age is a training input, not a lifestyle input); extra volume on constrained machines; **no Olympic lifts, plyos or depth jumps by default**, available as an option with the warning "make sure you have a fitness professional to help you understand what this means" | COACH-ANSWER EQ-03, EQ-04; COACH-R2 ATH-08; SCIENCE (Borde, Fragala, Bickel) |
+| Older adult (60+) | as goal | as goal | as goal | the same stairway as everyone (v1.1's PROPOSED ≤ 3 % step cap is retired: every trained group reaches its ceiling in the last week, COACH-R3 VOL-04); extra volume on constrained machines; **on by default:** landing drills (step down and stick, no bounce), balance, quick stepping without a hop, light medball throws, fast machine work; **off by default:** low ankle hops, other jumps, Olympic lifts, depth jumps - switchable on with the warning "Make sure that you have a fitness professional to help you understand what this means"; overhead squats and low-bar squats stay out | COACH-ANSWER EQ-03, EQ-04; COACH-R2 ATH-08; COACH-R3 ATH-02; SCIENCE (Borde, Fragala, Bickel) |
 | Youth | as goal | as goal | as goal | Olympic lifts from the floor from about 14, after one block of hang work | COACH-R2 ATH-08 |
-| No sex-based rules | - | - | - | age, foundation, goal and injuries decide | COACH-ANSWER ATH-09, GEN-02 |
+| No sex-based rules | - | - | - | age, foundation, goal and injuries decide (a Focus muscle is the user's choice, never inferred from sex) | COACH-ANSWER ATH-09, GEN-02; COACH-R3 SES-01 |
 
-### 3.5 Priority muscles
+### 3.5 Focus muscle 1 and Focus muscle 2 (COACH-R3 SES-01)
 
-1. One or two at a time; start = level start + 4 (L1-L2) or + 6 (L3); caps L1 18, L2 26-28, L3 30. (COACH-ANSWER VOL-02; caps COACH-R2 VOL-06; split by level PROPOSED)
-2. The priority muscle's exercise goes **first** in its session (small priority muscles included). (COACH-ANSWER ORD-04)
-3. Delivery order for the extra sets: its own exercises (VOL-07 order) → Focus 1 / Focus 2 slots on the optional day (both may hit the same muscle, 2-3 sets each) → a bonus exercise. (COACH-ANSWER ORD-10, ORD-11, VOL-07)
-4. While a priority runs, **the other muscles grow at most 3 % a week** (planned steps and check-in bumps). (COACH-R2 VOL-06, RIGHT)
-5. Per-session ceiling for the priority muscle: 14 fractional sets (soft ceiling 11 for the rest). (PROPOSED; SCIENCE Remmert ~11)
-6. Pro setting (L3, optional): one priority muscle up to 35 (§3.2). (COACH-R2 VOL-06; number PROPOSED)
+1. **Intake:** the user may pick **Focus muscle 1** and **Focus muscle 2** (none, one or two; never more): any line - quads, hamstrings, glutes, chest, back, shoulders, biceps, triceps, calves. "There could be a main focus muscle 1 and a main focus muscle 2, and that should be enough for the whole thing." No sex field: his "if it's a female and she chooses glutes" is an example of a choice, never a default (COACH-ANSWER GEN-02, ATH-09). (COACH-R3 SES-01)
+2. **Dose:** each Focus muscle gets **+F extra weekly sets over the balanced plan, F = 1-3** ("an extra set or two or three"); default **F = 2** (PROPOSED; the user or coach may pick 1 or 3). F is added to the start **and** to the ceiling, so the extra is there from week 1 to the last week and the stairway includes it ("throughout this program"); the ceiling never passes the approved priority caps 18 / 26-28 / 30 (COACH-R2 VOL-06). Example: L2 glutes 15 → 22 balanced becomes 17 → 24 (12-week λ 0.78: 17 · 17 · 17 · 18 · 18 · 19 · 19 · 20 · 21 · 22 · 23 · 24).
+3. **The Focus muscle's exercise goes first** in its session, small muscles included (COACH-ANSWER ORD-04).
+4. **Delivery order for the extra sets:** its own exercises (VOL-07 order) → the optional day's Focus 1 / Focus 2 slots (both may hit the same muscle, 2-3 sets each; COACH-ANSWER ORD-10, ORD-11) → a bonus exercise on a day that already trains it (§3.9).
+5. **The other lines are not slowed.** Focus muscles are a small bias inside a balanced plan, and every trained line still reaches its own ceiling in the last week (COACH-R3 VOL-04). (INFERRED resolution; see 6.)
+6. **The coach-only priority push (optional, off by default):** VOL-02's specialization stays available to a coach: one or two muscles start +4 (L1-L2) / +6 (L3) with the priority caps 18 / 26-28 / 30, and while it runs **the other muscles grow at most 3 % a week** (COACH-ANSWER VOL-02; COACH-R2 VOL-06, RIGHT). The **Pro setting** (L3, coach-set) lets one such muscle pass 30, up to 35, with a warning (COACH-R2 VOL-06 "maybe we can add a pro level"; numbers PROPOSED). The push is a build-time setting: nothing is tracked.
+7. **Per-session ceiling:** 14 fractional sets for a Focus or priority muscle (soft ceiling 11 for the rest). (PROPOSED; SCIENCE Remmert ~11)
+8. **Bias (COACH-ANSWER VOL-18):** a V-taper is expressed as Focus 1 = shoulders (the extra sets go to side raises first) and Focus 2 = back, chest held at its start (PROPOSED mechanism).
 
-### 3.6 Pain and injury
+### 3.6 Pain and injury (intake rules + the printed self-adjust guide)
 
-| Trigger | Action | Tag |
+The plan cannot react to pain during the block - nothing is logged (COACH-R3 VOL-02, GEN-01). Pain declared at intake shapes the plan; during the block the plan prints what the user (or coach) should do, and they do it themselves ("the program will tell you to adjust accordingly ... you need to adjust it as you need to", COACH-R3 VOL-04).
+
+| Trigger | What happens | Tag |
 |---|---|---|
-| Pain area declared at intake | Affected muscle/pattern starts at 50-70 % of its start (-30 to -50 %; the floor of 10 does not apply); its exercises move to constraint 4-5 machines or split grips; positions that hurt are excluded; that muscle's step = 0 until 2 pain-free weeks. | COACH-ANSWER VOL-03, EQ-03; 2-week rule PROPOSED |
-| 'Felt a PAIN' logged once | Next exposure: swap inside the same category to a more constrained, split-grip or unilateral variant; **keep the sets** if possible; that muscle's step 0 that week. | COACH-ANSWER UNI-08, GEN-05 |
-| 'Felt a PAIN' on the same slot again | That slot -30 to -50 %; muscle step 0. Removed sets may move to a pain-free exercise for the same muscle (e.g. hinge pain → leg curl + hip thrust). | COACH-ANSWER VOL-03; move PROPOSED |
-| Third time | Drop the exercise for the block; flag for coach review. | COACH-ANSWER VOL-03 ("drop the exercise altogether") |
-| Pain on 2+ exercises in one week | A **block-at-risk prompt** (continue the block, or cancel it and start maintenance, §3.12), never an automatic mid-block deload. | COACH-R2 VOL-07; prompt PROPOSED |
-| Pain shifts the bilateral:unilateral share | Low-back pain under axial bilateral loads → 20 points toward unilateral/belt squat/machines; knee or hip pain in single-leg positions → 20 points toward bilateral machines. | COACH-ANSWER UNI-02, EQ-11; 20 points PROPOSED |
-| 'Felt the WRONG muscle' | Change one variable in the same category; volume unchanged. | COACH-ANSWER GEN-05, PER-02 |
-| "Couldn't do it" | Regress one exercise level or use an assisted version; volume unchanged. | COACH-ANSWER GEN-05 |
-| Rotation bias | Keep external- and internal-rotation positions in every week; use the bias to pick a swap when something hurts (not by sport). | COACH-R2 LIB-03 |
+| Pain area declared at intake | The affected group / pattern starts at 50-70 % of its start (-30 to -50 %; the floor of 10 does not apply); its exercises move to constraint 4-5 machines or split grips; positions that hurt are excluded; that line's ceiling = its start + 1 set (a gentle climb, never flat). | COACH-ANSWER VOL-03, EQ-03; climb PROPOSED |
+| Printed guide: "an exercise hurts" | 1) swap to the listed alternative in the same category (more constrained, split grip or unilateral) and keep the sets if you can; 2) if it still hurts, cut that exercise's sets by a third to a half; 3) if it still hurts, drop it for the rest of the block. | COACH-ANSWER UNI-08, VOL-03 ("maybe even drop the exercise altogether"); wording PROPOSED |
+| Printed guide: "you feel the wrong muscle" / "you can't do it" | change one small variable (grip, stance, range) in the same category / use the easier listed version or an assisted one; the sets stay. | COACH-ANSWER GEN-05, PER-02 |
+| Printed guide: "several things hurt in one week" | stop the block and switch to the recommended easy week or a maintenance phase; build a new block when ready. The app never inserts a deload by itself. | COACH-R2 VOL-07; COACH-R3 PER-01 |
+| Pain shifts the bilateral:unilateral share (intake) | Low-back pain under axial bilateral loads → 20 points toward unilateral/belt squat/machines; knee or hip pain in single-leg positions → 20 points toward bilateral machines. | COACH-ANSWER UNI-02, EQ-11; 20 points PROPOSED |
+| Rotation bias | Keep external- and internal-rotation positions in every week; the listed swap for a painful exercise uses the other bias (not by sport). | COACH-R2 LIB-03 |
 
-### 3.7 The stairway: planned weekly steps, and how a check-in changes them
+**Retired in v1.2:** the logged triggers ('Felt a PAIN' once / twice / three times, pain on 2+ exercises → block-at-risk prompt) and "that muscle's step = 0 until 2 pain-free weeks" - they needed the check-in (COACH-R3 VOL-02).
 
-**The coach's rule.** Every plan climbs "like steps up a stairway ... In the beginning, the first 2, 3, 4 weeks, the steps are a little bit smaller, but they're gradually going up. When they get to that halfway point and upwards, the steps get a little bit higher, but not too much ... that goes for every plan" (COACH-R2 PER-03); on 12 weeks "the last 4 weeks are going to be brutal" (PER-04). The step is a % of each muscle's weekly sets (COACH-ANSWER VOL-04), one rule for every person (never by muscle size, VOL-05). His 3 / 5 / 7 % vocabulary (VOL-04, R2-VOL-01) supplies the numbers.
+### 3.7 The stairway (approved): planned weekly steps, computed once
+
+**The coach's rule.** Every plan climbs "like steps up a stairway ... In the beginning, the first 2, 3, 4 weeks, the steps are a little bit smaller, but they're gradually going up. When they get to that halfway point and upwards, the steps get a little bit higher, but not too much ... that goes for every plan" (COACH-R2 PER-03); on 12 weeks "the last 4 weeks are going to be brutal" (PER-04). Round 3 approved the numbers below as his rule - "Yeah, but remember that we can just kick out the program designed already without the input of somebody saying how they feel ... The program will just have its natural algorithm recommendation of growth throughout it" (COACH-R3 VOL-04, RIGHT). The step is a % of each line's weekly sets (COACH-ANSWER VOL-04), one rule for every person (never by muscle size, VOL-05).
 
 #### 3.7.1 The planned stairway (the math)
 
-For a training block of **N** weeks and a muscle m with start S and cap C:
+For a training block of **N** weeks and a line m with start S (the larger of its table start and its week-1 sets, §3.3) and ceiling C:
 
 ```
 halfway week          h = ceil(N / 2)
@@ -507,14 +566,16 @@ standard step into w  s_w = 3 %  if 2 <= w <= h        (early: "a little bit sma
 planned growth        G(N) = Π_{w=2..N} (1 + s_w)
 planned peak          P = min(C, S × G(N))
 scale factor          λ = 1                           if S × G(N) <= C
-                      λ in (0, 1) solving  S × Π (1 + λ·s_w) = C   otherwise   (peak lands on the cap in week N)
+                      λ in (0, 1) solving  S × Π (1 + λ·s_w) = C   otherwise   (peak lands on the ceiling in week N)
 planned target        T(1) = S;  T(w) = T(w-1) × (1 + λ·s_w)
 bank                  bank(w) = T(w) - current weekly sets;  add one whole set each time bank >= 1   (VOL-06)
-limits                planned step <= 7 %;  other muscles <= 3 % while a priority runs (R2-VOL-06);
-                      older adults (60+) <= 3 % (PROPOSED); total weekly resistance sets strictly below +10 % (UNI-05)
+limits                planned step <= 7 %;  total weekly resistance sets below +10 % (one whole set may always be added) (UNI-05);
+                      coach priority push only: other lines <= 3 % (R2-VOL-06)
+time and exercise     if the days or the exercise maxima cannot hold P, the line's ceiling becomes what they hold
+limits                (never below S + 1, §3.10.1 step 4) and λ is re-solved so the line still lands on it in week N
 ```
 
-Tags: shape COACH-R2 PER-03, PER-04; 3 % / 5 % and the λ peak-anchoring PROPOSED (built from his own 3 / 5 / 7 % table, R2-VOL-01); limits COACH-R2 VOL-01, VOL-06, COACH-ANSWER UNI-05.
+Tags: shape COACH-R2 PER-03, PER-04; 3 % / 5 % and the λ peak-anchoring **COACH-R3 VOL-04 (approved: "each muscle's steps are sized so it reaches its ceiling exactly in the last week")**; limits COACH-R2 VOL-01, VOL-06, COACH-ANSWER UNI-05; the one-set allowance and the time-limited ceiling PROPOSED (they keep a small plan, or a full day, climbing: COACH-R3 SES-02 step 4).
 
 **Step sizes by plan length and week (standard steps, λ = 1).**
 
@@ -527,120 +588,177 @@ Tags: shape COACH-R2 PER-03, PER-04; 3 % / 5 % and the λ peak-anchoring PROPOSE
 | 12 | 6 | 3 % | 5 % | ×1.554 (+55.4 %) | 2 · 2.6 · 3.2 · 3.8 · 4.4 · 5 · 6 · 7 · 8 · 9 · 10 · 11 |
 | 16 | 8 | 3 % | 5 % | ×1.817 (+81.7 %) | 2 · 2.4 · 2.9 · 3.3 · 3.8 · 4.2 · 4.7 · 5.1 · 5.8 · 6.6 · 7.3 · 8 · 8.8 · 9.5 · 10.3 · 11 |
 
-**Planned weekly sets by level (computed; whole sets, no check-in).** The early steps add a set every 3-4 weeks, the late steps one almost every week, and the last weeks are the highest. A muscle whose cap would come early gets λ < 1 (all steps shrink together) so it still peaks in the final week.
+**Planned weekly sets by level (computed; whole sets).** The early steps add a set every 3-4 weeks, the late steps one almost every week, and the last weeks are the highest. A line whose ceiling would come early gets λ < 1 (all steps shrink together) so it still peaks in the final week. Ceilings are per 12-week plan (COACH-R2 VOL-06), so an 8-week plan at standard steps peaks below them. Focus muscles carry +2 on start and ceiling (§3.5).
 
-| Plan | Muscle (start -> cap) | λ | early step | late step | planned weekly sets, week 1 -> N (whole sets) |
+| Plan | Line (start -> cap) | λ | early step | late step | planned weekly sets, week 1 -> N (whole sets) |
 |---|---|---|---|---|---|
-| 8wk | L1 big/small 10 -> cap 14 | 1.00 | 3.00 % | 5.00 % | 10 · 10 · 10 · 10 · 11 · 12 · 12 · 13 |
+| 8wk | L1 big / shoulders / arms 10 -> cap 14 | 1.00 | 3.00 % | 5.00 % | 10 · 10 · 10 · 10 · 11 · 12 · 12 · 13 |
 | 8wk | L2 big 15 -> cap 22 | 1.00 | 3.00 % | 5.00 % | 15 · 15 · 15 · 16 · 17 · 18 · 18 · 19 |
 | 8wk | L3 big 20 -> cap 25 | 0.78 | 2.35 % | 3.91 % | 20 · 20 · 20 · 21 · 22 · 23 · 24 · 25 |
-| 8wk | L2 small 12 -> cap 22 | 1.00 | 3.00 % | 5.00 % | 12 · 12 · 12 · 13 · 13 · 14 · 15 · 15 |
-| 8wk | L3 small 15 -> cap 25 | 1.00 | 3.00 % | 5.00 % | 15 · 15 · 15 · 16 · 17 · 18 · 18 · 19 |
-| 8wk | L1 rear delts 4 -> cap 8 | 1.00 | 3.00 % | 5.00 % | 4 · 4 · 4 · 4 · 4 · 4 · 5 · 5 |
-| 8wk | L2 rear delts 6 -> cap 12 | 1.00 | 3.00 % | 5.00 % | 6 · 6 · 6 · 6 · 6 · 7 · 7 · 7 |
-| 8wk | L2 priority 19 -> cap 28 | 1.00 | 3.00 % | 5.00 % | 19 · 19 · 20 · 20 · 21 · 22 · 24 · 25 |
-| 8wk | L3 priority 26 -> cap 30 | 0.50 | 1.50 % | 2.49 % | 26 · 26 · 26 · 27 · 27 · 28 · 29 · 30 |
-| 12wk | L1 big/small 10 -> cap 14 | 0.76 | 2.28 % | 3.80 % | 10 · 10 · 10 · 10 · 10 · 11 · 11 · 12 · 12 · 12 · 13 · 14 |
+| 8wk | L2 shoulders / arms 12 -> cap 22 | 1.00 | 3.00 % | 5.00 % | 12 · 12 · 12 · 13 · 13 · 14 · 15 · 15 |
+| 8wk | L3 shoulders / arms 15 -> cap 25 | 1.00 | 3.00 % | 5.00 % | 15 · 15 · 15 · 16 · 17 · 18 · 18 · 19 |
+| 8wk | L1 Focus muscle (+2) 12 -> cap 16 | 1.00 | 3.00 % | 5.00 % | 12 · 12 · 12 · 13 · 13 · 14 · 15 · 15 |
+| 8wk | L2 Focus muscle (+2) 17 -> cap 24 | 1.00 | 3.00 % | 5.00 % | 17 · 17 · 18 · 18 · 19 · 20 · 21 · 22 |
+| 8wk | L3 Focus muscle (+2) 22 -> cap 27 | 0.72 | 2.15 % | 3.59 % | 22 · 22 · 22 · 23 · 24 · 25 · 26 · 27 |
+| 12wk | L1 big / shoulders / arms 10 -> cap 14 | 0.76 | 2.28 % | 3.80 % | 10 · 10 · 10 · 10 · 10 · 11 · 11 · 12 · 12 · 12 · 13 · 14 |
 | 12wk | L2 big 15 -> cap 22 | 0.87 | 2.60 % | 4.33 % | 15 · 15 · 15 · 16 · 16 · 17 · 17 · 18 · 19 · 20 · 21 · 22 |
 | 12wk | L3 big 20 -> cap 25 | 0.50 | 1.50 % | 2.51 % | 20 · 20 · 20 · 20 · 21 · 21 · 22 · 22 · 23 · 23 · 24 · 25 |
-| 12wk | L2 small 12 -> cap 22 | 1.00 | 3.00 % | 5.00 % | 12 · 12 · 12 · 13 · 13 · 13 · 14 · 15 · 16 · 16 · 17 · 18 |
-| 12wk | L3 small 15 -> cap 25 | 1.00 | 3.00 % | 5.00 % | 15 · 15 · 15 · 16 · 16 · 17 · 18 · 19 · 20 · 21 · 22 · 23 |
-| 12wk | L1 rear delts 4 -> cap 8 | 1.00 | 3.00 % | 5.00 % | 4 · 4 · 4 · 4 · 4 · 4 · 4 · 5 · 5 · 5 · 5 · 6 |
-| 12wk | L2 rear delts 6 -> cap 12 | 1.00 | 3.00 % | 5.00 % | 6 · 6 · 6 · 6 · 6 · 6 · 7 · 7 · 8 · 8 · 8 · 9 |
-| 12wk | L2 priority 19 -> cap 28 | 0.88 | 2.63 % | 4.39 % | 19 · 19 · 20 · 20 · 21 · 21 · 22 · 23 · 24 · 25 · 26 · 28 |
-| 12wk | L3 priority 26 -> cap 30 | 0.32 | 0.96 % | 1.60 % | 26 · 26 · 26 · 26 · 27 · 27 · 27 · 28 · 28 · 29 · 29 · 30 |
+| 12wk | L2 shoulders / arms 12 -> cap 22 | 1.00 | 3.00 % | 5.00 % | 12 · 12 · 12 · 13 · 13 · 13 · 14 · 15 · 16 · 16 · 17 · 18 |
+| 12wk | L3 shoulders / arms 15 -> cap 25 | 1.00 | 3.00 % | 5.00 % | 15 · 15 · 15 · 16 · 16 · 17 · 18 · 19 · 20 · 21 · 22 · 23 |
+| 12wk | L1 Focus muscle (+2) 12 -> cap 16 | 0.65 | 1.94 % | 3.24 % | 12 · 12 · 12 · 12 · 12 · 13 · 13 · 14 · 14 · 15 · 15 · 16 |
+| 12wk | L2 Focus muscle (+2) 17 -> cap 24 | 0.78 | 2.34 % | 3.90 % | 17 · 17 · 17 · 18 · 18 · 19 · 19 · 20 · 21 · 22 · 23 · 24 |
+| 12wk | L3 Focus muscle (+2) 22 -> cap 27 | 0.46 | 1.38 % | 2.30 % | 22 · 22 · 22 · 22 · 23 · 23 · 24 · 24 · 25 · 25 · 26 · 27 |
 
-Reading the table: a 12-week L2 big muscle goes 15 → 22 with its last four weeks at 19, 20, 21, 22 ("brutal", PER-04); an L3 big muscle needs only +25 % (20 → 25), so its steps are half-size (λ 0.50: 1.5 % / 2.5 %, about RP's "2-3 sets per muscle over a whole block" for advanced lifters); an 8-week L2 plan starts at the normal start (no "start hard") and reaches 19.
+Reading the table: a 12-week L2 big line goes 15 → 22 with its last four weeks at 19, 20, 21, 22 - the coach's approved example ("the last four weeks 19, 20, 21, 22", R3-VOL-04); an L3 big line needs only +25 % (20 → 25), so its steps are half-size (λ 0.50: 1.5 % / 2.5 %, about RP's "2-3 sets per muscle over a whole block" for advanced lifters); an L2 Focus muscle runs 17 → 24, two sets above the balanced line every week.
 
-#### 3.7.2 "Start at a 2, end at an 11" (COACH-R2 PER-05)
+**When the standard steps cannot reach the ceiling (v1.2 verification; INFERRED reading, flagged in §7 item 16).** λ is never above 1, so a line whose ceiling is more than × G(N) above its start peaks **below** its ceiling, still in the last week: in a 12-week plan the L2 shoulders / arms line runs 12 → 18 (ceiling 22) and the L3 one 15 → 23 (ceiling 25); every 8-week line peaks below the 12-week ceilings. The approved proposal says both "about 3 % ... about 5 %" and "each muscle's steps are sized so it reaches its ceiling exactly in the last week" (R3-VOL-04); when the two cannot both hold, this engine keeps the step sizes and treats the ceiling as a maximum (the planned peak P = min(C, S × G(N)) always lands in the last week). The alternative - λ up to 1.4, i.e. late steps up to his 7 % limit (R2-VOL-01), which takes 12 → 22 - is the coach's call.
 
-The 2 → 11 is "how it feels and what level you're starting at", the overall load, not the set count. Each week shows a **level** that follows the same step weights as the sets: `level(w) = 2 + 9 × A(w) / A(N)`, where A(w) adds 1 for each early step and 5/3 for each late step (PROPOSED display). Planned effort drifts **inside his 1-3 RIR band** (VOL-13) as the level climbs:
+#### 3.7.2 "Start at a 2, end at an 11": the effort drift (approved)
+
+The 2 → 11 is "how it feels and what level you're starting at", the overall load, not the set count (COACH-R2 PER-05). Each week shows a **level** that follows the same step weights as the sets: `level(w) = 2 + 9 × A(w) / A(N)`, where A(w) adds 1 for each early step and 5/3 for each late step (display PROPOSED). The planned effort drifts **inside his 1-3 RIR band** as the level climbs - approved: "To make week 1 feel like a 2 and the last week like an 11, effort goes from 3 reps in the tank early, to 2, to 1-2, to 1 + intensifiers in the last week, always inside your 1-3" (COACH-R3 VOL-04, RIGHT):
 
 | Week (12-week plan) | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | display level | 2 | 2.6 | 3.2 | 3.8 | 4.4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
 | planned effort (inside 1-3 RIR) | 3 RIR | 3 RIR | 3 RIR | 3 RIR | 3 RIR | 3 RIR | 2 RIR | 2 RIR | 2 RIR | 1-2 RIR | 1-2 RIR | 1 RIR + intensifiers |
 
-In the last week MYO sets on the last machine or isolation exercise (VOL-15) and supersets (ORD-05) are allowed: that is the "a little bit past your limits". For lifters already at their caps (many L3s), the 11 comes from heavier loads, intensifiers and a rotating priority muscle that may reach 30 (COACH-R2 PER-05, RIGHT). **Flag:** VOL-13 confirmed "1-3 RIR at all times, no planned RIR ramp"; this drift never leaves 1-3 RIR, but it is a planned drift (PROPOSED; round 3).
+In the last week MYO sets on the last machine or isolation exercise (VOL-15) and supersets (ORD-05) are allowed: that is the "a little bit past your limits". For lifters already at their ceilings (many L3s), the 11 comes from heavier loads and intensifiers (COACH-R2 PER-05). The v1.1 flag against VOL-13 ("no planned RIR ramp") is closed by R3-VOL-04: the drift never leaves 1-3 RIR.
 
-#### 3.7.3 The weekly check-in (optional): effort, completion and pain only
+#### 3.7.3 The weekly check-in: RETIRED
 
-The plan works with no tracking (COACH-R2 GEN-01, RIGHT). With the optional 1-minute weekly check-in, his approved table (COACH-R2 VOL-01, RIGHT) sets next week's step, **read against the stairway**:
+**Retired by COACH-R3 VOL-02 and VOL-04** ("we're not going to have check-ins ... I want to take away all check-in info. We're only doing outputs, and people can change accordingly"; "I don't want people to be checking back on their phone in their program"). Gone: the step table read from effort, completion and pain (R2-VOL-01), "too easy = planned step + 2 points", "effort 9 = hold", "a 10 = hold and remove 1 set from that day", the optional 'Failed' answer, "under half the sessions = repeat the week", the life-column resolution and the effort reading of R2-VOL-02 as an input. The plan follows its planned stairway from week 1 to the last week; nothing adapts and nothing is stored (COACH-R3 GEN-01).
 
-| This week's check-in | Next week's step | His approved number (late half) | Tag |
-|---|---|---|---|
-| Effort mostly 1-6 ("too easy") | the planned step **+ 2 points**, max 7 % | +7 % | COACH-R2 VOL-01 |
-| Effort mostly 7-8 ("That was tough" / "That was perfect") | the planned step | +5 % | COACH-R2 VOL-01 |
-| Effort mostly 9 | **hold** (0 %) | hold | COACH-R2 VOL-01 |
-| Any "10 - the max I could do" | **hold** and remove 1 set from the day it happened (that exercise) | hold, -1 set | COACH-R2 VOL-01, VOL-02 |
-| 'Failed' (optional extra answer) | hold; that exercise -1 set and a lighter load or easier variant | - | COACH-R2 VOL-02 ("we can add a fail"); handling PROPOSED |
-| Under half the planned sessions done | **repeat the week** (the block becomes one week longer) | repeat | COACH-R2 VOL-01; "one week longer" PROPOSED |
-| 'Felt a PAIN' | pain protocol (§3.6); that muscle 0 % | - | COACH-ANSWER VOL-03 |
-| **No check-in** | **the planned step** (the plan does not change) | - | COACH-R2 VOL-03 |
-
-Always: never more than 7 % in a week; other muscles ≤ 3 % while a priority runs; total weekly resistance sets strictly below +10 %. In the early half the same rows give 3 % ("perfect") and 5 % ("too easy"), because those weeks' steps are "a little bit smaller" (PER-03). A "10" also lowers that muscle's planned target by the removed set, so the stairway continues from the lower level (PROPOSED).
-
-**The life column is removed (flag).** The approved table also had "+5 % if life was harder", "+3 % if life was harder", "+3 % only if life was better" and "life much harder (sick, travel, no sleep): hold". He then rejected lifestyle inputs: "I just need the workouts here. There's no need to talk about sleep or stress or anything else" (COACH-R2 GEN-04, NOT RIGHT). Both answers are round 2; the later, more specific one (no lifestyle inputs at all) decides the life cells, so v1.1 keeps the effort rows and drops every life cell: **the step is decided from effort, completion and pain only.** A person who was ill simply logs fewer sessions (repeat the week) or high effort (hold).
-
-**How effort is read (COACH-R2 VOL-02, PARTLY).** '8 - That was perfect' = "I hit the target the plan gave me"; '9 - That was terrible' = harder than planned; **'10' = "That was the max I can do, not a fail ... I gave it all I had, but it was successful"** (0 RIR). An optional 'Failed' answer covers a set that could not be completed.
+**What replaces it: the printed self-adjust guide (wording PROPOSED, EN / ES).** The plan tells the reader how to adjust it themselves ("the program will tell you to adjust accordingly", R3-VOL-04):
+- Missed most of a week? Repeat that week before moving on.
+- A set felt like a true max (no rep left)? Next time take one set off that exercise, or a little weight.
+- Everything feels easy? Add weight or reps first; never jump ahead more than one week.
+- Something hurts? Use the listed swap, then cut the sets, then drop the exercise (§3.6).
+- Life got in the way for several weeks? Stop the block, take the recommended easy week, build a new block (§3.12).
 
 #### 3.7.4 Ceilings
 
 - **Planned step ≤ 7 %**; standard steps 3-5 %; λ ≤ 1. (COACH-R2 VOL-01: "Never more than 7 % a week")
-- **Total weekly resistance sets strictly below +10 %** week over week ("it can progress week by week by 10 %. That's way too much", COACH-ANSWER UNI-05). Exempt (PROPOSED): the first week after a deload or maintenance phase, and block-boundary swaps that add no sets.
-- **Hand-set step** by the coach (or the client, if allowed): 0-7 %; 10 % is never offered as a step (fixes v1 §3.7 step 4 and 03's conflict 4). (COACH-ANSWER VOL-05, UNI-05, GEN-08)
+- **Total weekly resistance sets below +10 %** week over week ("it can progress week by week by 10 %. That's way too much", COACH-ANSWER UNI-05). One whole set may always be added in a week, so a plan under 10 resistance sets can still climb (PROPOSED). Exempt (PROPOSED): the first week after an easy week or a maintenance phase, and block-boundary swaps that add no sets.
+- **Hand-set step** by the coach at build time: 0-7 %; 10 % is never offered as a step. (COACH-ANSWER VOL-05, UNI-05, GEN-08)
+- **Retired:** the older-adult ≤ 3 % cap (v1.1 PROPOSED; COACH-R3 VOL-04 wants every trained group at its ceiling in the last week).
 
-#### 3.7.5 Retired by round 2
+#### 3.7.5 Retired by rounds 2 and 3
 
-The readiness score `R = 0.40·E + 0.20·C + 0.20·P + 0.20·L` and its bands (life input L rejected, COACH-R2 GEN-04; performance P is not one of effort, completion or pain); the planned rate before logs (5 % default, 3 % for high stress, under 6 h sleep, a physical job, 60+, layoff or pain) and the new 3-tap intake question (GEN-04; age and pain keep their own rules in §3.4 and §3.6); "7 % only once logs earn it"; target-seeking; the 12-week acclimation cap (≤ 3 % in weeks 1-3) and the 8-week weeks-1-4 cap (≤ 5 %) with its × 1.10 start (PER-03, PER-04: the stairway replaces them); the "hold 2 weeks in a row → deload next week" gate (VOL-07).
+Round 2: the readiness score `R = 0.40·E + 0.20·C + 0.20·P + 0.20·L` and its bands; the planned rate before logs (5 % default, 3 % for high stress, under 6 h sleep, a physical job, 60+, layoff or pain) and the 3-tap intake question; "7 % only once logs earn it"; target-seeking; the 12-week acclimation cap and the 8-week weeks-1-4 cap with its × 1.10 start; the "hold 2 weeks in a row → deload next week" gate. Round 3: the check-in step table and everything read from it (3.7.3); the block-at-risk prompt; the older-adult ≤ 3 % step cap.
 
 ### 3.8 Banking and rounding
 
 ```
-T[m] = start[m]                                      # week 1
-every week w:  T[m] = min(cap[m], T[m] × (1 + step[m, w]))     # planned (or check-in) step, §3.7
-while T[m] - current[m] >= 1 and current[m] + 1 <= cap[m]:
+T[m] = S[m]  (the larger of the table start and the week-1 sets)       # week 1
+every week w:  T[m] = min(C[m], T[m] × (1 + λ[m]·s_w))                  # the planned step, §3.7.1 (computed once)
+while T[m] - current[m] >= 1 and current[m] + 1 <= C[m]:
     place one set (§3.9)
-if current[m] >= cap[m]: progress load / reps / intensifiers instead
+if current[m] >= C[m]: progress load / reps / intensifiers instead
 ```
-(COACH-ANSWER VOL-06: bank the fraction, add a whole set at 1; "round up, round down, that's fine".) The bank is the planned target minus the current sets, the same as banking the weekly fraction, but anchored on the stairway so the whole sets land on its shape and the peak lands in the final week. A hold leaves T unchanged; a repeated week does not advance the stairway.
+(COACH-ANSWER VOL-06: bank the fraction, add a whole set at 1; "round up, round down, that's fine".) The bank is the planned target minus the current sets, the same as banking the weekly fraction, but anchored on the stairway so the whole sets land on its shape and the peak lands in the final week. The whole calculation runs once, when the plan is built (COACH-R3 VOL-04); v1.1's "a hold leaves T unchanged; a repeated week does not advance the stairway" is retired with the check-in.
 
-Helper credit gained when another muscle's set is placed counts toward T and does not need a direct set. A muscle can exceed its cap by up to ~1 set through helper spill-over; the engine reports it and never adds direct sets above the cap. (PROPOSED)
+Helper credit gained when another line's set is placed counts toward T and does not need a direct set. A line can exceed its ceiling by up to ~1 set through helper spill-over; the engine reports it and never adds direct sets above the ceiling. (PROPOSED)
 
-### 3.9 Where a new set goes
+### 3.9 Where a new set goes (COACH-R3 VOL-03, approved)
 
-1. **Day:** alternate through the days that train the muscle as a main mover (day A, then day B, …). When a day repeats twice a week, the new set goes to day A's first exercise, then day B's first exercise, so both days stay even. (COACH-ANSWER VOL-07 for the order inside a day; **R2-VOL-08 default**: the coach did not understand the question, so the proposed default stays and will be re-asked in plain words with an example)
-2. **Laterality group first** (big lower and upper muscles): if the current bilateral share is more than 3 points below target, the set goes to a bilateral exercise; more than 3 above, to a unilateral one; otherwise no preference. (PROPOSED, joins COACH-ANSWER UNI-02 with VOL-07)
+1. **Day:** alternate through the days that train the line as a main mover. When a day type repeats twice a week, "the back set goes to Monday's first back exercise this time and Thursday's first back exercise the next time, so both days stay even" (COACH-R3 VOL-03, RIGHT; the order inside a day is COACH-ANSWER VOL-07).
+2. **Laterality group first** (big lower and upper lines): if the current bilateral share is more than 3 points below target, the set goes to a bilateral exercise; more than 3 above, to a unilateral one; otherwise no preference. (PROPOSED, joins COACH-ANSWER UNI-02 with VOL-07)
 3. **Inside the day, the coach's order:** add to the first exercise (in session order) whose sets are below the first exercise's; if all are equal, add to the first. This produces exactly 2/2/2 → 3/2/2 → 3/3/2 → 3/3/3 → 4/3/3. (COACH-ANSWER VOL-07)
-4. **Limits:** sets per exercise ≤ 4 (L1) or 5 (L2-L3), isolation ≤ 4; the muscle's per-session fractional sets ≤ 11 (priority 14); session minutes ≤ the client's limit. (COACH-ANSWER VOL-16 defaults; limits PROPOSED; SCIENCE ~11 per session)
-5. **No room on any day:**
-   - first, superset the lower/upper pairs on that day if that frees the time (COACH-ANSWER ORD-05);
-   - **small muscle → bonus exercise** (2 sets, same category): on the optional day first (as a Focus slot; R2-VOL-08 default); with no optional day, on a training day that **already trains that muscle group** (so it becomes its 2nd-4th exercise that day, COACH-R2 SES-05), the one with the fewest exercises; never on a day where it would be that muscle's only exercise (PROPOSED);
-   - **big muscle → Focus slot** (2 sets) on the optional day, otherwise on a day that already trains that region (COACH-ANSWER ORD-11; big-muscle use PROPOSED);
-   - still no room → the bank waits and progress comes from load, reps and intensifiers (MYO on the last machine/isolation, supersets) (COACH-ANSWER VOL-15, ORD-05).
-6. **Hard rules:** core opener first (light, 2 exercises × 2 sets short of failure; movable; core supersets or monster sets may be added anywhere); hip dominant + push, knee dominant + pull; **heavy squat and heavy deadlift on two different days**, non-axial hinge, leg press or belt squat on the other days; row before pulldown; power before strength; no bands or variable resistance. **Axial lifts (count):** barbell back, front, zercher, overhead and Smith squats; barbell or trap-bar deadlifts and RDLs; good mornings. **Not axial:** leg press, belt squat, hip thrust, back extension, reverse hyper, single-leg DB work, Olympic lifts, loaded jumps. Goblet squat, hack squat and pendulum: fine on the second day if not sore. Powerlifters may add a light technique squat or deadlift. (COACH-ANSWER ATH-11, ORD-06, UNI-11, ORD-01, ORD-03, EQ-01, EQ-12; COACH-R2 SES-01, SES-02, SES-03)
+4. **Limits:** sets per exercise ≤ 4 (L1) or 5 (L2-L3), isolation ≤ 4; the line's per-session fractional sets ≤ 11 (Focus 14); session minutes ≤ the chosen length (or the length the user accepted, §3.10.1). (COACH-ANSWER VOL-16 defaults; limits PROPOSED; SCIENCE ~11 per session)
+5. **No room on the day:**
+   - first, superset the lower/upper pairs on that day if that frees the time (COACH-ANSWER ORD-05; recommended, §3.10.3);
+   - **small line → a short bonus exercise** (2 sets, same category) "on the optional day (e.g. Saturday); with no optional day, on a day that already trains biceps, never as the only biceps exercise of that day" (COACH-R3 VOL-03, RIGHT): optional day first, else the training day that already trains that muscle with the fewest exercises, as its 2nd-4th exercise (2-4 rule, R2-SES-05);
+   - **calves never get a second calf exercise on a leg day** (one exercise × 3 sets per leg day, COACH-R3 SES-01): extra calf sets go to the existing calf exercise (max 4), then to the optional-day 'Calves' slot;
+   - **big line → a Focus slot** (2 sets) on the optional day, otherwise on a day that already trains that region (COACH-ANSWER ORD-11; big-line use PROPOSED);
+   - still no room → that line's ceiling becomes what the week holds and its stairway lands there (§3.7.1); load, reps and intensifiers carry the rest (MYO on the last machine/isolation, supersets) (COACH-ANSWER VOL-15, ORD-05).
+6. **Hard rules:** core opener first (light, 2 exercises × 2 sets short of failure; movable; can be switched off for a day by the user, §3.10.2; core supersets or monster sets may be added anywhere); hip dominant + push, knee dominant + pull; **heavy squat and heavy deadlift on two different days**, non-axial hinge, leg press or belt squat on the other days; row before pulldown; power before strength; no bands or variable resistance. **Axial lifts (count):** barbell back, front, zercher, overhead and Smith squats; barbell or trap-bar deadlifts and RDLs; good mornings. **Not axial:** leg press, belt squat, hip thrust, back extension, reverse hyper, single-leg DB work, Olympic lifts, loaded jumps. Goblet squat, hack squat and pendulum: fine on the second day if not sore. Powerlifters may add a light technique squat or deadlift. (COACH-ANSWER ATH-11, ORD-06, UNI-11, ORD-01, ORD-03, EQ-01, EQ-12; COACH-R2 SES-01, SES-02, SES-03; COACH-R3 SES-02)
 7. Exercises stay fixed inside a 4-6-week **exercise block**; only sets, reps, load and RIR change. Between exercise blocks change one or two small variables (grip, stance, implement, range of motion, rep range) or a one-detail library variation shown as "Reverse lunge - dumbbell in opposite hand"; the tool never invents an exercise (COACH-R2 LIB-01); a stance change may swap laterality (examples 5.2, 11-A). The stairway does **not** restart at an exercise-block boundary: it runs through the whole plan (INFERRED from R2-PER-04 and R2-VOL-07). A/B lead-lift weeks only for clients who want variety. (COACH-ANSWER PER-02, PER-03; SCIENCE Kassiano 2022)
 
-### 3.10 Session limits and the time model
+### 3.10 Session limits, groups and the time model
 
 | Limit | Value | Tag |
 |---|---|---|
-| Resistance exercises per session | by length: **45 min ≈ 5, 60 min ≈ 6-7, 75-90 min ≈ 8-9** ("usually 7") | COACH-ANSWER VOL-08 (RIGHT), VOL-16 (03's conflict 6 adopted; v1 "8 PROPOSED" retired) |
-| **Full-body days** | **every muscle group trained that day gets 2-4 exercises, never 1**; the day "might be a little longer" | COACH-R2 SES-05 (PARTLY) |
-| Muscle groups for that rule | his FOCUS headers: quads, hamstrings, glutes, chest, back, shoulders (front/side/rear work together), biceps, triceps; calves keep VOL-17's 3 sets per leg day (one exercise); core = the 2-exercise opener; a field athlete's credit-only muscles are not "trained that day" | INFERRED grouping |
-| Exercises per muscle group on its day | split days 3-4; full-body days 2-4 | COACH-ANSWER VOL-07; COACH-R2 SES-05 |
-| Field athlete, off-season | up to **12 exercises + the 2-exercise core block (14 listed)**: 2-4 plyo/ballistic + 2-3 Olympic/power + 3-4 resistance (+ calves); warm-up drills never count; a superset of two small isolations counts as one | COACH-ANSWER VOL-08, VOL-17; COACH-R2 SES-04 |
-| Default sets | 3 compounds, 2 isolation, 3 calves; **athletic-template slots 2**; minimum 2 per exercise | COACH-ANSWER VOL-16, VOL-17 (03's conflict 1 adopted); minimum PROPOSED |
-| Session length | athletes/bodybuilders/powerlifters ~90 min (max 120); general/weight loss 45-60 (full-body days with 2-4 exercises per group: 55-80); bootcamp 35-45 | COACH-ANSWER UNI-09, PRG-03; COACH-R2 SES-05 |
-| Per muscle per session | soft 11 fractional sets, priority 14 | SCIENCE Remmert; RP 8-12; values PROPOSED |
+| Resistance exercises per session | by length: **45 min ≈ 5, 60 min ≈ 6-7, 75-90 min ≈ 8-9** ("usually 7") | COACH-ANSWER VOL-08 (RIGHT), VOL-16 |
+| **Exercises per group on every day it is trained** | **2-4, never 1** (split and full-body days alike; full-body days "might be a little longer") | COACH-R2 SES-05 (PARTLY); COACH-R3 SES-01 |
+| Groups for that rule (approved) | the coach's FOCUS groups: quads; **hips = glutes + hamstrings** (RDL + hip thrust + leg curl = 3 hip exercises); chest; back; **shoulders = front + side + rear delts** (+ traps); biceps; triceps; **calves = one exercise × 3 sets per leg day**; core = the 2-exercise opener; a group the time policy leaves to compound credit, or a field athlete's credit-only line, is not "trained that day" | COACH-R3 SES-01 (RIGHT) |
+| Field athlete, off-season | up to **12 exercises + the 2-exercise core block (14 listed)**; 2-4 exercises for each group trained that day; **cross pattern** (default for most athletes): the resistance groups take 9 of the 12, leaving **2 jump / throw stations + 1 Olympic lift**; **same-pattern athletic template** (size-focused and high-level athletes): fewer resistance exercises, **3-4 jump stations + 1 Olympic lift**; warm-up drills never count; a superset of two small isolations counts as one | COACH-ANSWER VOL-08, VOL-17; COACH-R2 SES-04; COACH-R3 SES-01 (RIGHT) |
+| Default sets | 3 compounds, 2 isolation, 3 calves; **athletic-template slots 2**; minimum 2 per exercise | COACH-ANSWER VOL-16, VOL-17; minimum PROPOSED |
+| Session length | athletes/bodybuilders/powerlifters ~90 min (max 120); general/weight loss 45-60 (full-body days with 2-4 exercises per group: 55-85); bootcamp 35-45; the time policy (3.10.1) decides what a chosen length can hold | COACH-ANSWER UNI-09, PRG-03; COACH-R2 SES-05; COACH-R3 SES-02 |
+| Per line per session | soft 11 fractional sets, Focus / priority 14 | SCIENCE Remmert; RP 8-12; values PROPOSED |
 | Rest | hypertrophy 1-2 min (up to 3), strength 3-6 min, athletic as prescribed | COACH-ANSWER VOL-14 |
-| Core | 2 exercises × 2 sets, short of failure, as the warm-up; optional core supersets or monster sets anywhere | COACH-R2 SES-03 |
-| Aerobic sessions/week (**adjustable up or down by the user**) | general/fat loss 3; aesthetics/bodybuilders 4 (Orange, Green, Blue + a second Orange, long and low) + optional 20-30-min easy walks after workouts; athletes in season 2; off-season by sport: baseball, softball, sprinters 2 · basketball, volleyball, football, tennis, golf, boxing, BJJ 3 · soccer, hockey, kickboxing, karate 3-4 · MMA, wrestling 4; pre-season 2; powerlifters 2 easy (Orange); sports he did not list (swimming, lacrosse, pickleball, HYROX and the rest of the US sport set) take their count from their sport profile in `synthesis/sports/` (e.g. competitive swimmers 0 gym aerobic sessions by default because the pool is the aerobic work, adjustable; PROPOSED there) | COACH-ANSWER ATH-07; COACH-R2 SES-06, ATH-06; other sports PROPOSED |
+| Core | 2 exercises × 2 sets, short of failure, as the warm-up; optional core supersets or monster sets anywhere; **the user can switch the core block off for a day** | COACH-R2 SES-03; COACH-R3 SES-02 |
+| Aerobic sessions/week (**adjustable up or down by the user**) | general/fat loss 3; aesthetics/bodybuilders 4 (Orange, Green, Blue + a second Orange) + optional 20-30-min easy walks; athletes in season 2; off-season by sport: baseball, softball, sprinters 2 · basketball, volleyball, football, tennis, golf, boxing, BJJ 3 · soccer, hockey, kickboxing, karate 3-4 · MMA, wrestling 4 · the remaining sports 2-4 like this list, **0 extra for swimmers, runners, rowers and endurance cyclists** (their practice is the cardio); pre-season 2; powerlifters 2 easy (Orange); HYROX 4 (Blue, Green, Orange + a second Orange); stay-active users: a 45-60+ min session of their activity counts as one of the 3 (up to 2) | COACH-ANSWER ATH-07; COACH-R2 SES-06, ATH-06; COACH-R3 ATH-01, ATH-03, ATH-04, ATH-05 |
 
-**What R2-SES-05 does to the week (computed, §5.1 and 11's Example A).** A 4-day full-body plan trains 3-4 muscle groups a day with knee-dominant + pull and hip-dominant + push days, 2-3 exercises each: **8-10 resistance exercises plus the core opener**. A beginner's week starts at about 55-72 minutes per session (2-3 sets per exercise, supersets on) and ends at about 66-79 minutes in week 12; an intermediate's 4-day full body runs 77-90 minutes. Where a muscle cannot get 2 exercises on a day, the generator trains it on fewer days with 2 exercises each instead of one exercise on more days (PROPOSED). A client who insists on 60 minutes gets fewer muscle groups per day (5-6 days a week) or supersets throughout; the plan says so.
+**Time model** (PROPOSED; minutes per working set including rest): warm-up 8 (COACH-ANSWER ORD-08: 5 min cardio + drills); core opener 2 × 2 sets × 1.5; bilateral compound 2.5; unilateral compound 3.75 (1.5 ×); isolation 1.75 (unilateral 2.5); plyo/ballistic 1.5; Olympic 3.0; throw 1.25; supersetted pair × 0.65; + 1.0 min changeover per exercise (0.5 inside a superset pair). Check against his own BYOP day 1 (7 exercises, 19 sets, OBSERVED): 8 + 7 + 19 × ~2.3 ≈ 59 min, i.e. his 60-minute session. Capacity, mixed hypertrophy work with the core opener: **45 min ≈ 5 exercises / 11 sets, 60 ≈ 7 / 17, 75 ≈ 8 / 23, 90 ≈ 9-10 / 29**; supersets add ~25-35 %. (`05_session_architecture` §7.4 keeps its own per-station model for the template checks; where they differ, sets come from here.)
 
-**Time model** (PROPOSED; minutes per working set including rest): warm-up 8 (COACH-ANSWER ORD-08: 5 min cardio + drills); core opener 2 × 2 sets × 1.5; bilateral compound 2.5; unilateral compound 3.75 (1.5 ×); isolation 1.75 (unilateral 2.5); plyo/ballistic 1.5; Olympic 3.0; throw 1.25; supersetted pair × 0.65; **+ 1.0 min changeover per exercise (0.5 inside a superset pair; new in v1.1)**. Check against his own BYOP day 1 (7 exercises, 19 sets, OBSERVED): 8 + 7 + 19 × ~2.3 ≈ 59 min, i.e. his 60-minute session.
-Capacity, mixed hypertrophy work with the core opener: **45 min ≈ 5 exercises / 11 sets, 60 ≈ 7 / 17, 75 ≈ 8 / 23, 90 ≈ 9-10 / 29**; supersets add ~25-35 %. (v1's 13-14 / 19-20 / 25-26 / 31-32 left out the core opener and the changeovers.)
+#### 3.10.1 Time vs minimums: the exact algorithm (COACH-R3 SES-02)
+
+**The coach's order (approved):** "(1) tell them up front and offer a 3rd day or longer sessions; (2) if they keep their time, train fewer muscles directly (big movers first; arms, calves and rear delts only from compound credit) instead of dropping below the floor on everything; (3) use supersets to save time; (4) the stairway climbs on the muscles that are trained, never flat. Never squeeze 2-4 exercises per muscle into a day that can't hold them" - "Yeah, this is fine. Recommend doing supersets so that it's a faster workout, but they should be able to get things done." (COACH-R3 SES-02, RIGHT)
+
+**Definitions.**
+- *Minimums of a directly trained group:* (a) 10 sets a week in week 1 (the floor, read on the group with group credit; calves: 3 sets per leg day); (b) 2-4 exercises on every day it is trained (calves: 1); (c) a climbing stairway: the last week at least 2 whole sets above week 1 (calves at least 1: 3 → 4 sets on a leg day) (COACH-ANSWER VOL-17; COACH-R2 SES-05, VOL-06; COACH-R3 SES-01, SES-02; the 2-set climb PROPOSED).
+- *A day holds the plan* when its week-1 minutes with every eligible pair supersetted are at most the chosen length × 1.10 (the coach's "a little longer day", R2-SES-05; 10 % PROPOSED), and the stairway's added sets fit the chosen length with supersets recommended on that day.
+- *Level plan:* every line at its level start and ceiling (§3.3-3.5). *Peak-week need:* the longest day's minutes in the last week of the level plan built with no time limit, all eligible pairs supersetted.
+
+**Algorithm** (runs once, when the plan is built; all PROPOSED inside the approved order):
+
+```
+0. build the level plan inside the chosen days x minutes (supersets on wherever a day needs them)
+   if every trained group meets its minimums AND every line reaches its planned peak:  -> output, no warning
+1. TELL UP FRONT + OFFER (R3-SES-02 step 1), always shown before the plan:
+     offer A  "another training day": the next template up (05 §8) - its days checked the same way
+     offer B  "longer sessions": ceil5(peak-week need) minutes
+     offer C  (when it helps) "switch off the core block / the athletic block on these days saves N min" (3.10.2)
+   if the user takes an offer: rebuild from 0 with it
+   if every trained group meets its minimums but some lines peak lower than planned:
+     -> output with the time-limited ceilings (step 4) and the note "your time holds a lower peak for X"
+2. KEEP THE TIME -> TRAIN FEWER GROUPS DIRECTLY (R3-SES-02 step 2)
+     try every group at its minimum plan (group-level lines: hips and shoulders as one line, start at the floor);
+     if that fails, build the kept set in priority order and keep a group only if every kept group still meets
+     its minimums:
+        1st  Focus-muscle groups and groups the sport profile pins (e.g. calves/Achilles for pickleball,
+             padel and tennis players 50+, R3-ATH-02)
+        2nd  big movers: hips, quads, back, chest
+        3rd  shoulders (isolation), calves, triceps, biceps          (the coach's "arms, calves, rear delts")
+     a group left out keeps its compound credit (rows -> biceps and rear delts, presses -> triceps and front delts,
+     squats / hinges -> glutes) and is listed on the plan as "not trained directly (time)" with that credit;
+     its exercises leave the week, and the remaining groups keep 2-4 exercises on their days (never squeezed)
+3. SUPERSETS (R3-SES-02 step 3): every UNI-11 lower/upper pair and every small-isolation pair is marked
+     "recommended superset" with the minutes it saves; when the fit depends on them the plan says
+     "do these as supersets to finish on time"
+4. STAIRWAY ON THE TRAINED GROUPS (R3-SES-02 step 4): each trained line climbs from its week-1 sets to the ceiling
+     the time holds (two passes: run, then re-solve lambda so the line lands on what it reached), never below
+     week 1 + the minimum climb, never flat
+```
+
+**Step-2 ceiling (found in the v1.2 verification; PROPOSED, flagged in §7 item 4).** In the keep-time plan the prototype (`tvm.py`) gives a group whose 2-exercise minimum puts it above its floor in week 1 a ceiling of *its week-1 sets + the level's climb* (ceiling − start), before step 4 lowers it to what the time holds. That ceiling can pass the level ceiling of R2-VOL-06: in 5.1 shoulders 12 + 4 = 16 and biceps 11 + 4 = 15 against the L1 ceiling 14 (time-lowered to 15 and 14). The full-plan rule (§3.7.1) keeps the level ceiling. Re-run in this check with the step-2 ceiling clamped to the level ceiling (never below week 1 + 2): example 5.5 is unchanged; in 5.1 the 4 × 60 client keeps hips, quads, back, chest and shoulders (quads and back then reach 14) and **biceps join triceps and calves on compound credit**. The engine should clamp (PROPOSED); the 5.1 branch below is the unclamped prototype run.
+
+**What it does on the coach's two examples** (computed, §5.1 and §5.5; time model above):
+
+| Client | Chosen | Step 0-1 result | Offer | If they keep their time (step 2) |
+|---|---|---|---|---|
+| L1 aesthetics, 4 full-body days (example 5.1) | 4 × 60 | shortfall: the week-1 days are already 56-61 min and quads would climb only 10 → 11 | about **85 min** sessions (the full plan's peak week needs 84.6 min on Friday with supersets); a 5th day (arms moved to Saturday) still does not hold every group at 60 | quads, hips, back, chest, shoulders and biceps trained directly (each line climbs to 13-14.25 by week 12); **triceps and calves** from compound credit (triceps 4.25 sets of credit, calves none); days 52-60 min in the last week |
+| Pickleball player 55 y, L2, stay-active (example 5.5) | 2 × 45 | shortfall: the base week is already 58-62 min | about **105 min** sessions (a full plan for every group on 2 days needs 92-100 min a day); a 3rd 45-min day still fails | **hips (glutes + hamstrings) 10 → 14 and the pinned calves 6 → 7** trained directly; everything else not trained directly; with 2 × 60: + quads; with 2 × 75: + quads and back. The plan says this up front. |
+
+A CrossFit-class member with 4 × 60 (the coach's other example) is computed on the 05 class template in `05_session_architecture` §8.7.1 (time-vs-minimums table).
+
+#### 3.10.2 User editing: block toggles, add / remove (COACH-R3 SES-02)
+
+"They should be able to turn off that day's athletic training or that day's core training and just focus on resistance ... or they can delete certain exercises, because an athlete or a coach should be able to modify accordingly. The options should be: Recommend supersets; Adding or removing exercises or blocks within the training session." (COACH-R3 SES-02)
+
+| Feature | Rule | Tag |
+|---|---|---|
+| Blocks with stable ids | every day lists its blocks with ids that do not change between weeks of a block: `warmup`, `core`, `skill`, `athletic` (plyo / ballistic / throws / COD / sprints), `olympic`, `resistance`, `focus` (optional-day Focus slots), `conditioning` (buy-outs, WODs, station circuits) | COACH-R3 SES-02; ids PROPOSED (shared with 05 and the engine contract) |
+| On / off per day | `core`, `athletic`, `olympic`, `skill`, `focus` and `conditioning` carry `toggle: true` (on by default; the user or coach may switch them off for that day, e.g. a pickleball player with sore calves switches off Thursday's jumps); `warmup` and `resistance` cannot be switched off as a block (exercises inside `resistance` can be removed) | COACH-R3 SES-02 |
+| What a toggle changes | athletic, Olympic, core and conditioning work never count as muscle sets (VOL-10), so switching them off changes no stairway and no weekly set number (the core opener's abs credit drops for that day); the session gets shorter by that block's minutes | COACH-ANSWER VOL-10; COACH-R3 SES-02 |
+| Remove an exercise | the plan is rebuilt with that exercise excluded: its sets move to the group's remaining exercises on that day (VOL-07 order) when it still has 2+ exercises; if the removal leaves the group with 1 exercise that day, the editor says so and offers "remove the group from this day" (its sets move to the group's other days, R3-VOL-03 placement) or "keep it anyway" - the user's choice wins | COACH-R3 SES-02; COACH-R2 SES-05; mechanism PROPOSED |
+| Add an exercise or a block | an added exercise joins its group on that day (its sets count from week 1 and climb with the group's stairway); "add rear delts" adds a 2-set rear-delt exercise on a pull day (COACH-R3 VOL-01); an added block (e.g. a core finisher, an aerobic add-on) is placed by the ordering rules | COACH-R3 SES-02, VOL-01 |
+| Nothing is stored | an edit is a rebuild of the same plan with the edits as constraints; no account, no log | COACH-R3 GEN-01, VOL-04 |
+| Rendering | every day prints which blocks can be switched off ("You can switch off today's athletic block or core block"), the recommended supersets, and, when the time policy left groups to compound credit, the "not trained directly (time)" list and the offer | COACH-R3 SES-02 |
+
+#### 3.10.3 Superset recommendation (COACH-R3 SES-02 step 3; COACH-ANSWER ORD-05)
+
+The plan recommends a superset for every eligible pair of every day: the UNI-11 lower/upper pairs (knee lift + pull, hip lift + push) and small-isolation pairs (biceps + rear delts, triceps + side delts, calves + delts); never two lower compounds, never a heavy lift with a fatiguing lift for the same muscle (contrast complexes excepted, ATH-12). Each recommendation carries the minutes it saves (pair × 0.65 + 0.5 min changeover in the time model). It is marked **needed** when the day only fits with it (3.10.1), **recommended** otherwise ("Recommend doing supersets so that it's a faster workout", R3-SES-02); the user can ignore it. ORD-05's other use cases (more stimulus for advanced lifters, VO2 / mitochondrial work for off-season athletes, beginners who do not fatigue) also switch it on.
 
 ### 3.11 Bilateral : unilateral share
 
@@ -663,28 +781,29 @@ Share = bilateral sets ÷ (bilateral + unilateral sets) in the lower-body knee- 
 
 **Pairing** (COACH-ANSWER UNI-06): same-pattern (squat + lunge) for high-level and aesthetics clients who need more stimulus on one muscle; cross-pattern for bootcamp and general clients (less soreness, more frequent sessions).
 
-### 3.12 Plan shapes, blocks, maintenance and tests
+### 3.12 Plan shapes, blocks, the recommended easy week and tests
 
 | Mode | Shape | Tag |
 |---|---|---|
-| **12-week (preferred)** | One stairway, N = 12: 3 % steps to week 6, 5 % from week 7 (λ-scaled to land on the cap in week 12); the last 4 weeks are the hardest ("brutal"): the highest sets, 2 → 1 RIR, intensifiers allowed in week 12. No deload or maintenance week inside. | COACH-R2 PER-04, PER-05; numbers PROPOSED |
-| **8-week** | One stairway, N = 8: 3 % to week 4, 5 % from week 5; starts at the normal start. v1's "start hard" (× 1.10) and "4 adapting + 4 driving" are retired. | COACH-R2 PER-03 (NOT RIGHT) |
+| **12-week (preferred)** | One stairway, N = 12: 3 % steps to week 6, 5 % from week 7 (λ-scaled to land on the ceiling in week 12); the last 4 weeks are the hardest ("brutal"): the highest sets, 2 → 1 RIR, intensifiers allowed in week 12. No deload or maintenance week inside. | COACH-R2 PER-04, PER-05; COACH-R3 VOL-04 |
+| **8-week** | One stairway, N = 8: 3 % to week 4, 5 % from week 5; starts at the normal start. | COACH-R2 PER-03 (NOT RIGHT to "start hard"); COACH-R3 VOL-04 |
 | **4-6-week training block** | One stairway, N = 4-6 (table §3.7.1), when the user wants a short training block. | COACH-R2 PER-03 ("that goes for every plan") |
-| **Maintenance phase** | Flat at **50-70 %** of the last block's final 4 weeks (new clients: of their level start): 50 % vacation or limited kit, 60 % travel, moving or a season change, 70 % planned maintenance; older adults ≥ 70 %; RIR 2-3, no intensifiers; not floored. **The user picks its length and can add weeks; at its end the app asks: keep going on maintenance? change the plan? start a training block?** | COACH-ANSWER PER-01; COACH-R2 PER-06; splits PROPOSED; SCIENCE Bickel, Spiering |
+| **Maintenance phase** | Flat at **50-70 %** of the last block's final 4 weeks (new clients: of their level start): 50 % vacation or limited kit, 60 % travel, moving or a season change, 70 % planned maintenance; older adults ≥ 70 %; RIR 2-3, no intensifiers; not floored. The user picks its length. At its end the plan simply ends: the printed note says "build your next plan: keep maintaining, change the plan or start a training block" (the app does not prompt; nothing is stored). | COACH-ANSWER PER-01; COACH-R2 PER-06; COACH-R3 PER-01; splits PROPOSED |
 | **Pre-season** | A 4-6-week block at about **60 % of off-season sets** with more speed and power, then a **1-2-week taper** before the first game. | COACH-R2 PER-06 (RIGHT) |
-| **Week by week** (no end date) | Runs on a rolling 12-week stairway; at week 12 the end-of-block prompt (new block, maintenance, change plan). Needs the weekly check-in. | COACH-ANSWER PER-01; COACH-R2 GEN-01; rolling 12 PROPOSED |
-| **Yearly (gen-pop "stay in shape")** | Jan-Mar: hard work + more cardio, start cutting (sets stay at the starting level). Apr-Jun: summer shape, keep losing fat while building a little muscle. Jul-Sep: maintain at about 70 % of the volume. Oct-mid-Dec: build muscle, less cardio. Last 2 weeks of December: automatic maintenance. Uses the user's hemisphere and their own holiday weeks (Christmas, Semana Santa, Thanksgiving ...), which switch to maintenance. **Fully tunable**: re-order the blocks, more or less cardio, e.g. a deep-winter powerlifting-style block. Athletes follow their season instead. | COACH-R2 PER-01, PER-02 (RIGHT + words) |
+| ~~Week by week~~ | **Retired in v1.2**: it needed the weekly check-in (COACH-R3 VOL-02, VOL-04: the whole plan is shown ahead of time). Use a 12-week block and build the next one. | COACH-R3 VOL-02, VOL-04 |
+| **Yearly (gen-pop "stay in shape")** | Jan-Mar: hard work + more cardio, start cutting (sets stay at the starting level). Apr-Jun: summer shape, keep losing fat while building a little muscle. Jul-Sep: maintain at about 70 % of the volume. Oct-mid-Dec: build muscle, less cardio. Last 2 weeks of December: maintenance (recommended). Uses the user's hemisphere and their own holiday weeks (Christmas, Semana Santa, Thanksgiving ...), **planned between blocks**. **Fully tunable**: re-order the blocks, more or less cardio, e.g. a deep-winter powerlifting-style block. Athletes follow their season instead. The year plan is generated once with all its blocks visible; each block is a stairway. | COACH-R2 PER-01, PER-02; COACH-R3 PER-01 |
 | **Fight / competition prep** | 2-week steps and waves instead of smooth weekly adds; same average. | COACH-ANSWER PER-10; step size PROPOSED |
-| **Athlete seasons** | Off-season: most volume, stairway. Pre-season: as above. In-season: 2 days, flat, game-heavy reductions (§3.4). Post-season: recovery, general. | COACH-ANSWER PER-08; COACH-R2 ATH-07, PER-06 |
+| **Event date (stay-active users)** | Optional (a first HYROX race, a pickleball tournament, a 10K): the hardest weeks end 1 week before, then 1 easy week at about half the sets. | COACH-R3 ATH-05 (RIGHT) |
+| **Athlete seasons** | Off-season: most volume, stairway. Pre-season: as above. In-season: 2 days, flat, game-heavy reductions (§3.4). Post-season: recovery, general. Swimmers: a 2-week dryland taper lined up with the swim coach's taper before the main championship meet (1 week or none before smaller meets). | COACH-ANSWER PER-08; COACH-R2 ATH-07, PER-06; COACH-R3 ATH-01 |
 
-**Blocks and deloads (COACH-R2 VOL-07).**
-- **No deload or maintenance week inside a block**, whatever its length: "It should never be thrown in the middle of a block ... they need to be able to manage their block and complete it." Inside a block the tools are holds, -1 set after a "10", repeated weeks and the pain protocol.
-- **Block-at-risk prompt (PROPOSED):** two holds in a row, effort mostly 9-10 two weeks in a row, pain on 2+ exercises in one week, or under half the sessions two weeks in a row → the app asks the person (or coach): continue the block, or **cancel it and start a maintenance phase**. It never deloads on its own.
-- **Cancelled block → maintenance phase** (length chosen, extendable, end prompt) **→ a whole new block** at the same start as the cancelled one (same start PROPOSED).
-- **Completed block → a transition week**: deload at about **half of the hardest (last) week's sets**, same exercises, lighter load or 3+ RIR, no buy-out, finisher, MYO or supersets; plyos only low-amplitude landings at about half the contacts; Olympic lifts at half the sets with light technique loads; conditioning Orange only. If the user chooses a maintenance phase instead, it replaces the deload week. (COACH-R2 VOL-07: the "half of the current (hardest) week" proposal is RIGHT; COACH-ANSWER PER-05; athletic details PROPOSED)
-- **Next block** (COACH-R2 VOL-06, RIGHT): start = previous start × 1.05, cap = previous cap + 1, never above 25 (non-priority) or 30 (priority; Pro setting excepted). Example L2 big muscle: 15/22 → 16/23 → 17/24 → 18/25.
+**Blocks, the easy week and the next block (COACH-R2 VOL-07, COACH-R3 PER-01).**
+- **No deload or maintenance week inside a block**, whatever its length: "It should never be thrown in the middle of a block ... they need to be able to manage their block and complete it." (R2-VOL-07)
+- **After a block: a recommended easy week**, not a mandatory one: about **half of the hardest (last) week's sets**, same exercises, lighter load or 3+ RIR, no buy-out, finisher, MYO or supersets; plyos only low-amplitude landings at about half the contacts; Olympic lifts at half the sets with light technique loads; conditioning Orange only. "Maintenance weeks are a recommendation. They don't have to be mandatory, so people can go ahead and start one, or when the block ends, it just ends, and then you have to go back into the app and build whatever you want next." (COACH-R3 PER-01; the dose is COACH-R2 VOL-07 "half of the current (hardest) week" RIGHT; athletic details PROPOSED). In the year plan the easy week is an extra week between blocks (12 + 1 = a 13-week quarter), so each block keeps all its weeks (R3-PER-01 proposal, approved).
+- **Holidays and vacations** the user marks are planned **between blocks**. A mark that falls inside a block ends that block there (then, if the user wants, the recommended easy week or a maintenance phase; then a new block the user builds) unless the user removes the mark. (COACH-R3 PER-01: the proposal's "stop, maintenance, then a new block" with his "maintenance weeks are a recommendation")
+- **A block the user cannot finish:** the user stops it and builds a maintenance phase or a new block; the app no longer asks (the v1.1 block-at-risk prompt needed check-ins and is retired). (COACH-R2 VOL-07; COACH-R3 VOL-02)
+- **Next block** (COACH-R2 VOL-06, RIGHT): when the user builds the next block and says the previous one was **completed**, start = previous start × 1.05, ceiling = previous ceiling + 1, never above 25 (non-priority) or 30 (Focus / priority; Pro setting excepted). Example L2 big line: 15/22 → 16/23 → 17/24 → 18/25. Because nothing is stored, the user enters "blocks completed in a row" (0 by default) when rebuilding (PROPOSED input); after a stopped block the start stays the same (PROPOSED).
 
-**Tests (COACH-R2 PER-07, RIGHT + words).** Ticked at block start: strength (beginners a 5-8-rep max; intermediate and up a 3-rep max or work up to a 1-rep max), cardio (1-mile run or an erg time trial), speed and agility (10-30 m sprint, 5-10-5, L-test), jumps, body weight. **Test before the block (or in week 1) and at the end, never during the block**; the end test replaces that week's top sets. **Never from zero:** someone untrained, or not coming off a completed block, tests a 5RM or 3RM (beginners 5-8RM) and 80-90 % efforts, never a 1RM or a max-effort mile. Reminders at block start, 7 days before and the day before.
+**Tests (COACH-R2 PER-07, RIGHT + words).** Ticked at block start: strength (beginners a 5-8-rep max; intermediate and up a 3-rep max or work up to a 1-rep max), cardio (1-mile run or an erg time trial), speed and agility (10-30 m sprint, 5-10-5, L-test), jumps, body weight. **Test before the block (or in week 1) and at the end, never during the block**; the end test replaces that week's top sets and is not counted as stairway sets. **Never from zero:** someone untrained, or not coming off a completed block, tests a 5RM or 3RM (beginners 5-8RM) and 80-90 % efforts, never a 1RM or a max-effort mile. The results are the user's own: the plan prints where to write them; the app keeps nothing (COACH-R3 GEN-01).
 
 ### 3.13 Athletic volume (its own budget, never muscle sets)
 
@@ -697,262 +816,247 @@ Share = bilateral sets ÷ (bilateral + unilateral sets) in the lower-body knee- 
 | Contacts per session ceiling | L1 80, L2 100, L3 120 (NSCA lower ends); his own sessions run lower and that is fine | SCIENCE NSCA; OBSERVED; caps PROPOSED |
 | Sessions with plyos | 2-3/week off-season, 48-72 h apart for the same area; older/masters 3-4 days apart | SCIENCE NSCA |
 | Olympic lifts: who | everyone in athletic training: beginners and "beginning intermediates" DB/KB snatches, hex-bar jumps, hang pulls/cleans (incl. the new hang clean, single-arm DB snatch, KB squat clean); **intermediate and up the full scope**, from hang power versions to 'Squat Snatch' / 'Squat Clean' / 'Squat Clean & Jerk' (11's I14 fixed) | COACH-ANSWER ATH-10, LIB-07; COACH-R2 LIB-07 |
-| Olympic lifts: how often | **up to 4 times a week**; clean days are squat-pattern days, snatch days are hinge-pattern days ("snatches a little bit more hingy than squatty"); in season a light piece (2 × 3 hang power clean or DB snatch), dropped in heavy game weeks | COACH-R2 ATH-04 (RIGHT + words) |
+| Olympic lifts: how often | **up to 4 times a week** (swimmers 2-3 days, COACH-R3 ATH-01); clean days are squat-pattern days, snatch days are hinge-pattern days ("snatches a little bit more hingy than squatty"); in season a light piece (2 × 3 hang power clean or DB snatch), dropped in heavy game weeks | COACH-R2 ATH-04 (RIGHT + words); COACH-R3 ATH-01 |
 | Olympic lifts: reps and load | DB/KB and pull variants keep his ramp 4 × 8 @ 75 % → 4 × 6 @ 80 % → 4 × 6 @ 85 % → 4 × 4 @ 90 %; **full squat cleans and snatches use 3-5 reps per set with the same weekly reps** (e.g. 6 × 5 @ 75 %), with the coach's eye on speed; barbell power and hang-power catches follow the 3-5-rep rule (INFERRED). **% only if the athlete has tested that lift's own max, otherwise RPE/RIR**; the plan explains Olympic lifts as power output; % programming belongs to competitive Olympic lifters (their own programming) | COACH-R2 ATH-05, GEN-06; COACH-ANSWER PER-09 |
-| Medball | rotational/athletic only; never over 20 lb; light (8-10 lb) for speed; none for aesthetics/bodybuilders except warm-up | COACH-ANSWER ATH-05, EQ-06 |
-| Older clients (60+) | no Olympic lifts, plyos or depth jumps by default; optional with the warning (§3.4); landing drills and low ankle hops when chosen | COACH-R2 ATH-08; COACH-ANSWER ATH-09 |
+| Medball | rotational/athletic only; never over 20 lb (HYROX wall balls with the race ball, never over 20 lb); light (8-10 lb) for speed; none for aesthetics/bodybuilders except warm-up; light medball throws stay on for older adults | COACH-ANSWER ATH-05, EQ-06; COACH-R3 ATH-02, ATH-03 |
+| Older clients (60+) | **on by default:** landing drills (step down and stick, no bounce), balance, quick stepping without a hop, light medball throws, fast machine work; **off by default:** low ankle hops, other jumps, Olympic lifts, depth jumps - on only with the warning "Make sure that you have a fitness professional to help you understand what this means"; overhead and low-bar squats stay out | COACH-R2 ATH-08; COACH-R3 ATH-02 (RIGHT); COACH-ANSWER ATH-09, EQ-03 |
 | Youth | Olympic lifts from the floor from about 14, after one block of hang work | COACH-R2 ATH-08 |
-| In-season, game-heavy sports | gym plyos about half; no extra change of direction; sprints only for speed athletes; the one hard gym day ≥ 48 h before a game | COACH-R2 ATH-07 |
-| Deload | contacts and throws about half; landings only | COACH-ANSWER PER-05; PROPOSED |
+| In-season, game-heavy sports | basketball, volleyball, soccer, football, hockey + lacrosse, field hockey, rugby, ultimate, flag football, beach volleyball: gym plyos about half; no extra change of direction; sprints only for speed athletes; the one hard gym day ≥ 48 h before a game | COACH-R2 ATH-07; COACH-R3 ATH-04 |
+| HYROX station circuits | 2 short circuits a week (sled push / pull, burpee broad jumps, wall balls, farmers carry, sandbag lunges, SkiErg / row) as finishers; never muscle sets; 40-rep / AMRAP sets only inside them | COACH-R3 ATH-03 (RIGHT) |
+| Stay-active play days | the hardest gym day ≥ 48 h before the biggest play day; weeks with 3+ play sessions drop the extra agility drills and half the jumps | COACH-R3 ATH-05 (RIGHT) |
+| Easy week after a block (recommended, COACH-R3 PER-01) | contacts and throws about half; landings only | COACH-ANSWER PER-05; PROPOSED |
 
-**Plyo share by sport** (COACH-R2 ATH-01, RIGHT; start of block = end - 15 points):
+**Plyo share by sport** (COACH-R2 ATH-01, RIGHT; the remaining sports COACH-R3 ATH-04, RIGHT; start of block = end - 15 points):
 
-| Sport | Plyo share at block end | Block start |
+| Plyo share at block end | Sports (R2-ATH-01 ranked list; R3-ATH-04 additions in italics) | Block start |
 |---|---|---|
-| Sprinters | 75 % | 60 % |
-| Volleyball, soccer, football skill positions | 60 % | 45 % |
-| Basketball, tennis, football big-skill, weekend warriors | 50 % | 35 % |
-| Baseball, softball, hockey, linemen, MMA | 40 % | 25 % |
-| Boxing, karate, kickboxing, wrestling, BJJ, golf | 25 % | 10 % |
-| Older adults | only if chosen (§3.4) | - |
-| Aesthetics, bodybuilding | no plyo block | - |
+| 75 % | sprinters; *runners* | 60 % |
+| 60 % | volleyball, soccer, football skill positions; *lacrosse, field hockey, flag football, ultimate cutters, rugby sevens, high jump, pole vault, gymnastics, cheer flyers* | 45 % |
+| 50 % | basketball, tennis, football big-skill, weekend warriors; *beach volleyball, pickleball, padel, rugby backs, goalkeepers, javelin, HYROX* | 35 % |
+| 40 % | baseball, softball, hockey, linemen, MMA; *rugby forwards, cheer bases, throwers, diving, alpine skiing, cycling* | 25 % |
+| 25 % | boxing, karate, kickboxing, wrestling, BJJ, golf; *swimming, water polo, rowing, judo, taekwondo, climbing* | 10 % |
+| only if chosen | older adults (60+): jumps off by default, landing drills on (§3.4) | - |
+| no plyo block | aesthetics, bodybuilding | - |
 
-Sports not in his list (swimming, lacrosse, pickleball, HYROX and the rest of the US sport set) take their share from the 04 sport profiles, placed by the same rule (fast, bouncy contacts → higher share). The 04 files name the five rows of this table ground-contact **classes**: class 1 = 75 %, 2 = 60 %, 3 = 50 %, 4 = 40 %, 5 = 25 % (the shares are his, COACH-R2 ATH-01; the class of each new sport is INFERRED or PROPOSED in `04_athlete_profiles` and `synthesis/sports/`). Examples from those files: swimming (sprint, middle, distance) class 4 → 25 % at block start, 40 % at the end (slow push-offs from block and wall); pickleball, padel and HYROX class 3 (50 %, PROPOSED, to confirm with the coach); the "stay athletic and active" gen-pop path uses the class of its activity (§3.4). Whatever the class, the resistance volume of these sports follows this engine (starts, floor of 10, stairway). v1's PROPOSED table (e.g. basketball 45 → 60 %, tennis 30 → 55 %, baseball 15 → 30 %, golf 10 → 20 %) is retired.
+**Recreational players** use their activity's share (golf 25 %, running 75 %, rec soccer 60 %); "a bit of everything" stays 50 % (COACH-R3 ATH-04). **Swimming** (R3-ATH-01): jumps mostly ballistic, 25 % plyometric by the end of a block (starts and turns are single big efforts) - this replaces v1.1's INFERRED "class 4 → 40 %". **HYROX** (R3-ATH-03): 50 %, "like basketball". The in-season game-heavy rule (§3.4) also covers lacrosse, field hockey, rugby, ultimate, flag football and beach volleyball (R3-ATH-04). Whatever the share, the resistance volume of these sports follows this engine (starts, floor of 10 on groups, stairway); the 04 profiles own the contacts, throws and drills. v1's PROPOSED table (e.g. basketball 45 → 60 %, tennis 30 → 55 %, baseball 15 → 30 %, golf 10 → 20 %) stays retired.
 
-### 3.14 How the engine learns
+### 3.14 What the engine stores and learns: nothing (v1.1's learning section RETIRED)
 
-**Two delivery modes** (COACH-R2 GEN-01, RIGHT; VOL-03)
-- **No tracking (static plan):** the whole plan follows its planned stairway; nothing adapts ("there is no data to go off of").
-- **Optional weekly check-in (about 1 minute):** effort, how it felt, anything hurting, sessions done → next week's step (§3.7.3). Required for the week-by-week mode. No sleep, stress, energy or life questions (COACH-R2 GEN-04). Learning uses only people who opt in.
+**Outputs only (COACH-R3 VOL-02, VOL-04, GEN-01).** "We're only doing outputs, and people can change accordingly"; "I don't want people to be checking back on their phone in their program. I want them to be able to kick out a program, and that's it"; "I don't want any data kept." The generator takes a few inputs, builds the whole plan once and shows every week ahead of time; the user or coach adjusts it (the printed self-adjust guide, §3.7.3; the plan editor, §3.10.2).
 
-**What to log** (minimum, phone-friendly; COACH-ANSWER GEN-02, GEN-05, PER-07; COACH-R2 VOL-02, GEN-04)
+**Retired in v1.2** (kept here as a short note so nobody rebuilds them): the two delivery modes (static vs optional weekly check-in); the log schema (DONE, reps, WEIGHT USED or SCORE, EFFORT 1-10, 'Failed', HOW IT FELT, pain location) as an input to the engine; the per-week check-in; tuning each person's step scale, personal ceiling (MRV) and next start from logs; tuning the population tables from users' outcomes; testing the 0.25 helper count against Pelland's 0.5 on user data; experiments and consent flows. The coach's EFFORT and HOW IT FELT menus stay as words the plan may print for the user's own notes, never read back.
 
-| Level | Fields |
-|---|---|
-| Per exercise per session | DONE (sets done), reps or "hit target" yes/no, WEIGHT USED or SCORE, EFFORT 1-10 (his menu; '8 - That was perfect' = hit the target, '9' = harder than planned, '10' = the max I could do, successful), optional 'Failed', HOW IT FELT ('Felt the RIGHT muscles', 'Felt the WRONG muscle', 'Felt a PAIN', "Couldn't do it"), pain location if any |
-| Per week (check-in) | sessions done; the effort and pain answers above summarised |
-| Per block | tests ticked at the start and repeated at the end (strength, cardio, speed, jumps, body weight, or none) |
-| Computed | weekly fractional sets per muscle (coach 0.25 count and Pelland 0.5 count), planned target and λ per muscle, steps used, holds, repeated weeks, "10"s, pain events, adherence, e1RM per main lift (Epley) and rep PRs at fixed loads |
-
-**What it tunes, in order** (PROPOSED)
-1. **Each person's step scale.** If "too easy" weeks keep coming with no "10"s or pain, the person's λ (and standard steps) can rise next block; if holds and "10"s keep coming, it falls.
-2. **Each person's cap (personal MRV).** The weekly sets at which lifts stall and holds/"10"s cluster become next block's cap minus 1-2 sets (RP's MRV idea, measured instead of guessed).
-3. **Each person's next start.** × 1.05 after a completed block; same start after a cancelled one.
-4. **Population tables** (start, caps, step sizes, share targets, plyo shares) by level × goal × age band × sport, updated from many people's outcomes with a hierarchical model; a cell changes only after enough completed blocks (e.g. 200+) and **only with coach approval**. No sex-based cells (COACH-ANSWER ATH-09, GEN-02).
-5. **Counting rules.** Test whether the 0.25 helper count or Pelland's 0.5 predicts each muscle's progress better. Keep 0.25 unless the data and the coach agree to change.
-
-**Guardrails the learning can never remove:** planned step ≤ 7 %, total < +10 %/week; no deload or maintenance inside a block; floor of 10 per trained muscle; pain protocol; deload ≈ half of the hardest week between blocks; hard ordering and safety rules (heavy squat and deadlift on different days, core opener, older-adult defaults, no bands/variable resistance); priority cap 30 (Pro setting excepted); coaches' own added rules (COACH-ANSWER GEN-08). Every parameter set is versioned; any experiment needs the user's consent.
+**What stays.** The defaults are changed by the coach, by hand, in one place (the JSON twins) - "this is all customizable" (COACH-R2 VOL-06) - and coaches may add their own rules (COACH-ANSWER GEN-08). The plan may show the Pelland count (indirect 0.5) next to the coach count (helpers 0.25) as a display; it is not stored. The guardrails stay fixed in the generator: planned step ≤ 7 %, total < +10 %/week; no deload or maintenance inside a block; floor of 10 per trained group; the time policy (§3.10.1); the pain rules (§3.6); the easy week ≈ half of the hardest week, recommended between blocks; heavy squat and heavy deadlift on different days; core opener first by default; older-adult defaults; no bands / variable resistance; Focus / priority ceilings ≤ 30 (Pro setting excepted).
 
 ---
 
 ## 4. Pseudo-code
 
 ```python
-# ---------- 0. intake -> profile (no sleep / stress / job questions: COACH-R2 GEN-04) ----------
+# ---------- 0. intake -> profile (few inputs; no sleep / stress / job questions; nothing stored: COACH-R2 GEN-04, COACH-R3 GEN-01) ----------
 level = level_from_experience(years_consistent, months_off, ex_pro)        # PRG-05 (L1/L2/L3)
 goal, sport, position, season_start, practice_game_days = intake...        # GEN-02, R2-GEN-05
 age, body_weight, pain_areas = intake...                                    # GEN-02 (age and pain are training inputs)
-mode = intake.plan_mode            # '12wk' | '8wk' | 'block_4_6' | 'maintenance' | 'pre_season' | 'week_by_week' | 'yearly'
-checkin = intake.weekly_checkin    # False = plan never adapts (R2-VOL-03); True = optional 1-minute check-in (R2-GEN-01)
+days, minutes = intake...                                                   # chosen week; checked by the time policy (3.10.1)
+focus = intake.focus_muscles               # 0-2 lines, each +F (default 2, 1-3): COACH-R3 SES-01
+play_days, event_date = intake...          # stay-active users (COACH-R3 ATH-05), optional
+blocks_completed = intake.blocks_completed # 0 by default; drives start x 1.05 and ceiling + 1 (R2-VOL-06; input PROPOSED)
+mode = intake.plan_mode                    # '12wk' | '8wk' | 'block_4_6' | 'maintenance' | 'pre_season' | 'yearly'  (week-by-week retired)
 
-# ---------- 1. weekly targets ----------
-STAIRWAY_MODES = ('12wk', '8wk', 'block_4_6', 'week_by_week', 'yearly')   # training blocks; maintenance and pre-season are flat
-for m in MUSCLES:
-    if mode in STAIRWAY_MODES and previous_block == 'completed':
-        start[m] = round_half_up(previous_start[m] * 1.05)                # R2-VOL-06: the PREVIOUS start x 1.05, compounding block to block
-    elif mode in STAIRWAY_MODES and previous_block == 'cancelled':
-        start[m] = previous_start[m]                                       # same start after a cancelled block (PROPOSED)
-    else:                                                                  # first block (or a new goal)
-        start[m] = START_TABLE[m][level]                                   # 3.3 (VOL-01, R2-VOL-04)
-        start[m] = round_half_up(start[m] * GOAL_PHASE_FACTOR[goal, season][region(m)])   # 3.4
-    if m in new_priorities: start[m] += 4 if level in ('L1', 'L2') else 6 # VOL-02 (a muscle that becomes the priority this block)
-    if is_target(m) and mode not in ('maintenance', 'pre_season', 'in_season'):
-        start[m] = max(start[m], 10)                                       # floor 10 (R2-VOL-06)
-    if m in pain_muscles: start[m] *= 0.5 to 0.7                           # VOL-03 (pain wins over the floor)
-    cap[m] = CAP_TABLE[level] (priority: PRIORITY_CAP[level]; Pro: up to 35) (+1 per completed block, max 25/30)
-    if mode == 'maintenance': start[m] = factor(context, age) * last_block_final4_avg[m]   # PER-01, R2-PER-06 (flat: no x1.05, no floor)
-    if mode == 'pre_season':  start[m] = 0.6 * off_season_sets[m]                          # R2-PER-06 (flat: no x1.05, no floor)
-share_target = SHARE_TABLE[profile][phase]; apply pain shift                # 3.11
+# ---------- 1. weekly targets per LINE (FOCUS headers; shoulders = all delts) ----------
+LINES = [quads, hamstrings, glutes, chest, back, shoulders, biceps, triceps, calves]          # COACH-R3 VOL-01
+GROUPS = {quads:[quads], hips:[hamstrings, glutes], chest, back, shoulders, biceps, triceps, calves}   # COACH-R3 SES-01
+for m in LINES:
+    start[m] = START_TABLE[m][level]                                                         # 3.3 (VOL-01, R2-VOL-04)
+    start[m] = round_half_up(start[m] * GOAL_PHASE_FACTOR[goal, season][region(m)])          # 3.4
+    for k in range(blocks_completed): start[m] = round_half_up(start[m] * 1.05)              # R2-VOL-06
+    cap[m] = CAP_TABLE[level] + blocks_completed (max 25 / 30)
+    if m in focus: start[m] += F[m]; cap[m] = min(cap[m] + F[m], PRIORITY_CAP[level])          # COACH-R3 SES-01
+    if m in pain_lines: start[m] *= 0.5 to 0.7; cap[m] = start[m] + 1                        # VOL-03 (pain wins over the floor)
+    if mode == 'maintenance': start[m] = factor * last_block_final4_avg[m]; cap[m] = start[m]  # flat, not floored
+    if mode == 'pre_season':  start[m] = 0.6 * off_season_sets[m]; cap[m] = start[m]          # flat, not floored
+floor_groups(start, 10)            # every directly trained GROUP >= 10 with group credit (R2-VOL-06, COACH-R3 VOL-01)
+share_target = SHARE_TABLE[profile][phase]; apply pain shift                                 # 3.11
 
-# ---------- 2. the planned stairway (3.7.1) ----------
+# ---------- 2. week-1 build ----------
+slots = template(goal, days, minutes)       # 05: 2-4 exercises per group per trained day, calves 1 x 3 per leg day,
+                                            # core opener 2x2, hip+push / knee+pull, heavy squat and deadlift on different days
+fit: trim lines > start+1 (latest isolation first, min 2 sets); add to lines < start-1 with place_set()
+S[m] = max(start[m], week1_sets[m])         # the stairway climbs from the week-1 build (3.3, 3.7.1)
+
+# ---------- 3. the planned stairway (3.7.1; approved COACH-R3 VOL-04) ----------
 N = block_length(mode); h = ceil(N / 2)
 std = {w: 0.03 if w <= h else 0.05 for w in 2..N}
-for m in targets:
-    lam[m] = 1 if start[m] * prod(1 + s for s in std) <= cap[m] else solve(start[m] * prod(1 + lam*s) == cap[m])
-    plan_step[m][w] = lam[m] * std[w]
-    if priorities and m not in priorities: plan_step[m][w] = min(plan_step[m][w], 0.03)   # R2-VOL-06
-    if age >= 60: plan_step[m][w] = min(plan_step[m][w], 0.03)                           # PROPOSED
-level_display[w] = 2 + 9 * A(w) / A(N); rir[w] = rir_for_level(level_display[w])     # R2-PER-05, inside 1-3 RIR
+for m in LINES:
+    lam[m] = 1 if S[m] * prod(1 + s for s in std) <= cap[m] else solve(S[m] * prod(1 + lam*s) == cap[m])
+    if coach_priority_push and m not in push: plan_step[m][w] = min(lam[m] * std[w], 0.03)   # optional (R2-VOL-06)
+level_display[w] = 2 + 9 * A(w) / A(N); rir[w] = rir_for_level(level_display[w])           # 3 -> 2 -> 1-2 -> 1 RIR + intensifiers
 
-# ---------- 3. week-1 build ----------
-slots = template(goal, days, minutes)       # pairing hip+push / knee+pull; core opener 2x2; heavy squat and heavy deadlift on different days
-assert every muscle group trained on a full-body day has 2-4 exercises        # R2-SES-05
-set defaults: compound 3, isolation 2, calves 3, athletic slot 2               # VOL-16, VOL-17
-fit: trim muscles > start+1 (latest isolation first, min 2 sets); add to muscles < start-1 with place_set()
+# ---------- 4. time vs minimums (3.10.1; COACH-R3 SES-02) ----------
+plan = run_block(slots, targets)            # inside the chosen minutes, supersets where a day needs them
+if not meets_minimums(plan) or peaks_lower(plan):
+    show_up_front(offer_extra_day(), offer_minutes(ceil5(peak_week_need)), offer_block_toggles())
+    if user_takes_offer: rebuild with it
+    elif not meets_minimums(plan):
+        kept = pinned + focus_groups; for g in [hips, quads, back, chest, shoulders, calves, triceps, biceps]:
+            if meets_minimums(plan_for(kept + [g], start_at_floor=True)): kept.append(g)
+        list_not_trained_directly(GROUPS - kept, with their compound credit)
+mark_superset_recommendations(every eligible pair)                      # step 3
+plan = two_pass_stairway(plan)            # step 4: each kept line lands on the ceiling its time holds, never flat
 
-# ---------- 4. weekly loop (no deload or maintenance inside the block: R2-VOL-07) ----------
-T = dict(start); stair_w = 1
-while stair_w < N:
-    log = checkin_log(this_week) if checkin else None
-    for m in targets:
-        step = plan_step[m][stair_w + 1]
-        if log:                                                            # R2-VOL-01 table, effort/completion/pain only
-            if log.sessions_done < 0.5 * log.sessions_planned: step = 'repeat'
-            elif log.failed:            step = 0;  cut_one_set_and_lighten(log.failed_exercise)      # PROPOSED
-            elif log.any_10:            step = 0;  remove_one_set(log.day_of_10)                     # 10 = successful max (R2-VOL-02)
-            elif log.median_effort >= 9: step = 0
-            elif log.median_effort <= 6: step = min(step + 0.02, 0.07)
-            if m in log.pain_muscles:   step = 0;  pain_protocol(m)
-            if priorities and m not in priorities and step != 'repeat': step = min(step, 0.03)
-        T[m] = min(cap[m], T[m] * (1 + (0 if step == 'repeat' else step)))
+# ---------- 5. the weekly loop: computed once, all weeks shown (no deload inside the block; no check-in) ----------
+T = dict(S)
+for w in 2..N:
+    for m in LINES (Focus and pinned first, then big, then small):
+        T[m] = min(cap[m], T[m] * (1 + plan_step[m][w]))
         while T[m] - weekly_sets[m] >= 1 and weekly_sets[m] + 1 <= cap[m]:
-            if total_sets_after_add >= 1.10 * total_sets_last_week: break  # hard ceiling (UNI-05)
-            if not place_set(m): break
-        if weekly_sets[m] >= cap[m]: use_load_reps_intensifiers(m)
-    if not any(step == 'repeat'): stair_w += 1
-    if block_at_risk(logs): ask('continue the block, or cancel it and start maintenance?')         # PROPOSED (R2-VOL-07)
-    if exercise_block_boundary(stair_w): change_one_small_variable(); rebalance_share(share_target) # PER-02, R2-LIB-01
-    emit(week)
+            if total_after_add >= 1.10 * total_last_week and some set was already added this week: break   # UNI-05
+            if not place_set(m): break                                          # time, exercise or session limits
+    if exercise_block_boundary(w): change_one_small_variable(); rebalance_share(share_target)   # PER-02, R2-LIB-01
+    emit(week)                              # with blocks, toggles, superset recommendations, effort cue, self-adjust guide
 
-# ---------- 5. after the block ----------
-if completed: transition_week = deload(hardest_week, factor=0.5) or maintenance(chosen_length)   # R2-VOL-07, R2-PER-06
-if cancelled: maintenance(chosen_length, extendable); at its end ask: keep maintaining / change plan / start a block
+# ---------- 6. after the block ----------
+print('recommended: an easy week at about half of the hardest week, then build your next block')    # COACH-R3 PER-01
 tests: before the block (or week 1) and at the end; untrained -> 5RM/3RM or 80-90 % efforts, never 1RM or max mile   # R2-PER-07
 
-def place_set(m):
-    for day in alternate(days_training(m)):                                # day A, then B ... (R2-VOL-08 default)
-        group = laterality_group(m, share_target)                         # bilateral vs unilateral first
+def place_set(m):                                                       # COACH-R3 VOL-03
+    for day in alternate(days_training(m)):                            # Monday's first exercise, then Thursday's
+        group = laterality_group(m, share_target)
         ex = first exercise in session order with sets < sets of the first, else the first (below max)   # VOL-07
-        if fits(ex, per_exercise_max, per_session_muscle_cap=11 (14 priority), session_minutes): ex.sets += 1; return True
-        if superset_frees_time(day): enable_superset(day); retry           # ORD-05
-    if m is small: return add_bonus(m, prefer=optional_day, else=day_already_training_its_group)   # VOL-07, R2-VOL-08, R2-SES-05
-    if m is big:   return add_focus_slot(m, prefer=optional_day)           # ORD-11
+        if fits(ex, per_exercise_max, per_session_line_cap=11 (14 Focus), session_minutes): ex.sets += 1; return True
+        if superset_frees_time(day): enable_superset(day); retry
+    if m == calves: return add_to_optional_day_calves_slot()           # never a 2nd calf exercise on a leg day (R3-SES-01)
+    if m is small: return add_bonus(m, prefer=optional_day, else=a day that already trains m, never its only exercise there)
+    if m is big:   return add_focus_slot(m, prefer=optional_day, else=a day that already trains the region)
     return False
 
+def edit(plan, edits):                     # COACH-R3 SES-02: toggles, add / remove exercise or block -> rebuild, nothing stored
+    return build(intake, constraints=edits)
+
 # athletic block (separate budget, VOL-10)
-plyo_share(week) = (SPORT_PLYO_SHARE[sport] - 0.15) + progress(week) * 0.15    # R2-ATH-01, over jump AND throw sets
+plyo_share(week) = (SPORT_PLYO_SHARE[sport] - 0.15) + progress(week) * 0.15    # R2-ATH-01, R3-ATH-04, over jump AND throw sets
 rc_stage(week)   = {12: [1-3, 4-7, 8-12], 8: [1-2, 3-5, 6-8]}[N]                # R2-ATH-03 (1 Land, 2 Land & Go, 3 Repeat)
-olympic: up to 4 slots/week; clean family on squat days, snatch family on hinge days; pulls/DB/KB 4x8@75 -> 4x4@90;
-         barbell catches 3-5 reps with the same weekly reps; % only if tested, otherwise RPE      # R2-ATH-04, ATH-05, GEN-06
+olympic: up to 4 slots/week (swimmers 2-3); clean family on squat days, snatch family on hinge days;
+         pulls/DB/KB 4x8@75 -> 4x4@90; barbell catches 3-5 reps; % only if tested, otherwise RPE      # R2-ATH-04, ATH-05, GEN-06, R3-ATH-01
+older (60+): landing drills, balance, quick stepping, light medball, fast machine work ON; hops/jumps/Olympic/depth jumps OFF   # R3-ATH-02
 contacts_per_session <= NSCA[level]
 ```
 
 ---
 
-## 5. Worked examples (computed with the reference prototype v1.1)
+## 5. Worked examples (computed with the reference prototype v1.2)
 
-Reading the tables: numbers are **weekly fractional sets per muscle (coach count, helpers 0.25)**. "stair wk" is the stairway week (it does not advance in a repeated week); "level" is the 2 → 11 display; "step taken" is the step used to build that week (for 5.2: chest / other big muscles / side delts; 11's Example A uses chest / every other muscle). "resist. sets" = total resistance working sets in the week (core opener not included).
+Reading the tables: numbers are **weekly sets per line (coach count, helpers 0.25, a set at most 1.0 to a line)**; "hips (group)" is the R3-SES-01 group the floor of 10 is read on (glutes + hamstrings with group credit). "level / planned effort" is the 2 → 11 display and its approved effort cue (COACH-R3 VOL-04). "resist. sets" = total resistance working sets in the week (core opener not included). Every plan is computed once and shown whole; no example uses a check-in (COACH-R3 VOL-02).
 
-### 5.1 Beginner (L1) aesthetics, 12 weeks, 4 full-body days, **no check-in**
+### 5.1 Beginner (L1) aesthetics, 12 weeks, 4 full-body days: the client asked for 60 minutes
 
-**Inputs.** 9 months of training (L1), aesthetics goal, no priority, no pain; no weekly check-in, so the plan is the planned stairway (COACH-R2 VOL-03). Starts: every target muscle **10** (small muscles lifted from 8 by the floor, COACH-R2 VOL-04/06), rear delts 4 own sets, calves 3 per leg day (12), abs from the core opener (16). Caps 14 (rear delts 8). Stairway λ: big and small muscles 0.76 (10 → 14 over 12 weeks: 2.28 % then 3.80 %), rear delts 1.0 (4 → 6), calves 0.35. Days: Mon and Thu knee dominant + pull, Tue and Fri hip dominant + push (ORD-06); the beginner has no axial lift (goblet squat Monday, leg press Thursday, DB RDL Tuesday; R2-SES-02 list); core opener 2 × 2 every day (R2-SES-03); calves 3 sets every day (VOL-17). **R2-SES-05:** each muscle group trained on a day gets 2-3 exercises, so the days carry 8-10 resistance exercises. The client asked for 60-minute sessions; the generator states that this plan needs about 55-80 minutes with supersets (limit set to 80) or more training days.
+**Inputs.** 9 months of training (L1), aesthetics goal, no Focus muscle, no pain, 4 days, 60 minutes chosen. Starts: every line **10** (shoulders, biceps, triceps lifted from 8 by the floor, COACH-R2 VOL-04/06), calves 3 per leg day (12), abs from the core opener (16). Ceilings 14. Days: Mon and Thu knee dominant + pull, Tue and Fri hip dominant + push (ORD-06); the beginner has no axial lift (goblet squat Monday, leg press Thursday, DB RDL Tuesday; R2-SES-02 list); core opener 2 × 2 every day; calves one exercise × 3 sets every day (COACH-R3 SES-01). Each group a day trains gets 2-4 exercises: Mon quads 3 / back 2 / biceps 2; Tue hips 3 / chest 2 / shoulders 2 (press + side raise); Thu quads 2 / back 2 / shoulders 2 (reverse fly + face pull) / biceps 2; Fri hips 4 / chest 2 / triceps 2.
+
+**Step 1 of the time policy (COACH-R3 SES-02), before the plan is shown.** At 60 minutes the week-1 days already take 56-61 minutes with every pair supersetted and quads could climb only 10 → 11. The plan says so up front and offers: **(A) sessions of about 85 minutes** (the full plan's peak week needs 84.6 minutes on Friday with supersets, 101.5 straight), or **(B) a 5th day** - checked the same way: moving the arm work to a Saturday still leaves Thursday at 61 minutes and the hips group climbing only 18 → 19 at 60 minutes, so the 5th day alone does not fix it; or **(C) keep 60 minutes** and train fewer groups directly:
+
+| Branch | Groups trained directly | Not trained directly (compound credit in the last week) | Longest day, week 1 → week 12 |
+|---|---|---|---|
+| keep 4 × 60 | hips, quads, back, chest, shoulders, biceps - each line climbs to 13-14.25 by week 12 (ceilings lowered to what the time holds: quads and back 14 → 13; shoulders 16 → 15 and biceps 15 → 14 come from the unclamped step-2 ceiling, §3.10.1 note - with the level ceiling of 14 kept, biceps also go to compound credit) | triceps (4.25 sets of credit from presses), calves (0) | 54.7 → 59.7 min |
+| takes offer A: 4 × 85 | every group (table below) | - | 71.8 → 82.9 min |
+
+**The client takes offer A.** The run below is at 85 minutes, supersets on Thursday and Friday.
 
 **Week 1:**
 - **Mon:** Dead bug 2 · Side plank 2 · Goblet squat 2 · Chest-supported DB row 3 · DB split squat 10/10 2 · Lat pulldown 2 · Leg extension 2 · DB curl 2 · Hammer curl 2 · Calf raise 3
-- **Tue:** Bird dog 2 · Pallof hold 2 · DB Romanian deadlift 2 · DB bench press 3 · DB single-leg RDL 10/10 2 · Seated DB shoulder press 2 · Incline DB press 2 · Leg curl 2 · DB side raise 4 · Cable lean-away side raise 4 · Calf raise 3
-- **Thu:** Dead bug 2 · Side plank 2 · Leg press 2 · 1-arm DB row 10/10 3 · DB step-up 10/10 2 · Neutral-grip pulldown 2 · Reverse DB fly 2 · Face pull 2 · Incline DB curl 2 · Cable curl 2 · Single-leg calf raise 10/10 3 · Cable side raise (bonus) 2
+- **Tue:** Bird dog 2 · Pallof hold 2 · DB Romanian deadlift 2 · DB bench press 3 · DB single-leg RDL 10/10 2 · Seated DB shoulder press 2 · Incline DB press 2 · Leg curl 2 · DB side raise 2 · Calf raise 3
+- **Thu:** Dead bug 2 · Side plank 2 · Leg press 2 · 1-arm DB row 10/10 3 · DB step-up 10/10 2 · Neutral-grip pulldown 2 · Reverse DB fly 2 · Face pull 2 · Incline DB curl 2 · Cable curl 2 · Single-leg calf raise 10/10 3
 - **Fri:** Bird dog 2 · Pallof hold 2 · Hip thrust 3 · Machine chest press 3 · Cable glute kickback 10/10 3 · Push-up 2 · Cable pushdown 4 · Overhead DB triceps extension 3 · B-stance DB RDL 10/10 2 · Swiss-ball leg curl 2 · Calf raise 3
 
-| Wk | stair wk | level | step taken | quads | hams | glutes | chest | back | biceps | triceps | side d. | rear d. | calves | abs | resist. sets |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | 1 | 2 | - | 10 | 11.5 | 9.5 | 10 | 10 | 10.5 | 10 | 11 | 5.5 | 12 | 16 | 89 |
-| 2 | 2 | 2.6 | 2.28 % | 10 | 11.5 | 9.5 | 10 | 10 | 10.5 | 10 | 11 | 5.5 | 12 | 16 | 89 |
-| 3 | 3 | 3.2 | 2.28 % | 10 | 11.5 | 9.5 | 10 | 10 | 10.5 | 10 | 11 | 5.5 | 12 | 16 | 89 |
-| 4 | 4 | 3.8 | 2.28 % | 10 | 11.75 | 10.5 | 10 | 10 | 10.5 | 10 | 11 | 5.5 | 12 | 16 | 90 |
-| 5 | 5 | 4.4 | 2.28 % | 10 | 11.75 | 10.5 | 10 | 10 | 10.5 | 10 | 11 | 5.5 | 12 | 16 | 90 |
-| 6 | 6 | 5 | 2.28 % | 11 | 11.75 | 10.75 | 11 | 11 | 10.75 | 10.25 | 11 | 5.5 | 12 | 16 | 93 |
-| 7 | 7 | 6 | 3.8 % | 11 | 11.75 | 10.75 | 11 | 11 | 10.75 | 11.25 | 11 | 5.5 | 12 | 16 | 94 |
-| 8 | 8 | 7 | 3.8 % | 12 | 12 | 12 | 12 | 12 | 12 | 11.5 | 12 | 5.5 | 13 | 16 | 101 |
-| 9 | 9 | 8 | 3.8 % | 12 | 12 | 12 | 12 | 12 | 12 | 11.5 | 12 | 5.5 | 13 | 16 | 101 |
-| 10 | 10 | 9 | 3.8 % | 12 | 12 | 12 | 12 | 12 | 12 | 11.5 | 12 | 5.5 | 13 | 16 | 101 |
-| 11 | 11 | 10 | 3.8 % | 13 | 13 | 12.5 | 13 | 13 | 13.25 | 11.75 | 13 | 5.75 | 13 | 16 | 107 |
-| 12 | 12 | 11 | 3.8 % | 14 | 14 | 13 | 14 | 14 | 13.5 | 12 | 13 | 5.75 | 14 | 16 | 112 |
+| Wk | level / planned effort | quads | hams | glutes | hips (group) | chest | back | shoulders | biceps | triceps | calves | abs | resist. sets |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 2 / 3 RIR | 10 | 11.5 | 9.5 | 18 | 10 | 10 | 12 | 10.5 | 10 | 12 | 16 | 81 |
+| 2 | 2.6 / 3 RIR | 10 | 11.5 | 9.5 | 18 | 10 | 10 | 12 | 10.5 | 10 | 12 | 16 | 81 |
+| 3 | 3.2 / 3 RIR | 10 | 11.5 | 9.5 | 18 | 10 | 10 | 12 | 10.5 | 10 | 12 | 16 | 81 |
+| 4 | 3.8 / 3 RIR | 10 | 11.75 | 10.5 | 19 | 10 | 10 | 12 | 10.5 | 10 | 12 | 16 | 82 |
+| 5 | 4.4 / 3 RIR | 10 | 11.75 | 10.5 | 19 | 10 | 10 | 12 | 10.5 | 10 | 12 | 16 | 82 |
+| 6 | 5 / 3 RIR | 11 | 11.75 | 10.75 | 19.25 | 11 | 11 | 12.25 | 10.75 | 10.25 | 12 | 16 | 85 |
+| 7 | 6 / 2 RIR | 11 | 11.75 | 10.75 | 19.25 | 11 | 11 | 12.25 | 11.75 | 10.25 | 12 | 16 | 86 |
+| 8 | 7 / 2 RIR | 12 | 12.75 | 11.25 | 20.5 | 12 | 12 | 12.5 | 12 | 10.5 | 13 | 16 | 91 |
+| 9 | 8 / 2 RIR | 12 | 12.75 | 11.25 | 20.5 | 12 | 12 | 12.5 | 12 | 10.5 | 13 | 16 | 91 |
+| 10 | 9 / 1-2 RIR | 12 | 13 | 12.25 | 21.5 | 12 | 12 | 13.5 | 13 | 10.75 | 13 | 16 | 94 |
+| 11 | 10 / 1-2 RIR | 13 | 13 | 12.5 | 21.75 | 13 | 13 | 14 | 13.25 | 11 | 13 | 16 | 97 |
+| 12 | 11 / 1 RIR + intensifiers | 14 | 14 | 13 | 23 | 14 | 14 | 14.5 | 13.5 | 11.25 | 14 | 16 | 102 |
 
 **What happened.**
-- **The stairway, no check-in.** Weeks 2-6 use the small steps (2.28 %): the bank fills and the first sets arrive in weeks 4 (glutes) and 6 (quads, chest, back). From week 7 the steps are bigger (3.8 %) and sets arrive every 1-3 weeks. The last four weeks are the highest (101, 101, 107, 112 resistance sets); quads, hamstrings, chest, back and calves land on the cap (14) in week 12, exactly the planned peak. The level climbs 2 → 11 and planned effort 3 RIR → 1 RIR. Nothing adapted, because there was no check-in (R2-VOL-03).
-- **The coach's add order with day alternation:** quads went Goblet squat 2 → 3 (week 6), Leg press 2 → 3 (week 8), DB split squat 2 → 3 (week 11), DB step-up 2 → 3 (week 12): Monday first, then Thursday, first exercise first (VOL-07, R2-VOL-08 default).
-- **R2-SES-05 held every week:** Mon quads 3 / back 2 / biceps 2; Tue hamstrings 3 / chest 2 / shoulders 3; Thu quads 2 / back 2 / shoulders 3 / biceps 2; Fri glutes 2 / chest 2 / triceps 2 / hamstrings 2. The side-delt bonus went to Thursday, a day that already trains shoulders (3 shoulder exercises), never as a lone exercise.
-- **Time is the cost of R2-SES-05:** week 1 sessions run 54 / 67 / 68 / 72 minutes and week 12 66 / 79 / 79 / 79 minutes with supersets on all four days. Triceps are trained directly only on Friday and stop at 12 from week 9 (per-session ceiling and time); glutes (13), biceps (13.5) and side delts (13) end just under the cap. Those muscles progress by load and reps in the last weeks.
-- **Glutes** reach 10 only with two direct glute exercises on Friday (hip thrust, kickback): with squats and hinges at 0.25 (R2-VOL-05), compounds give glutes little credit.
-- Total resistance sets 89 → 112 (+26 % in 12 weeks); the largest weekly rise is +7.4 % (week 8), under the 10 % ceiling.
+- **The approved stairway, computed once.** Weeks 2-6 use the small steps (2.28 % for the lines that start at 10); the first sets arrive in weeks 4 (glutes) and 6 (quads, chest, back). From week 7 the steps are bigger and sets arrive every 1-3 weeks. The last four weeks are the highest (91, 94, 97, 102 resistance sets); quads, hamstrings, chest, back and calves land on 14 in week 12. The level climbs 2 → 11 and the planned effort 3 RIR → 1 RIR + intensifiers.
+- **Lines that start above their table start climb from where they are.** Hamstrings (11.5) and shoulders (12) start above 10 because every trained group needs 2 exercises a day; their λ is re-solved from the week-1 sets (0.44 and 0.35), so they still climb to 14 and 14.5 instead of running flat.
+- **Two lines land on a lower ceiling.** Triceps are trained on Friday only and its two exercises reach their maxima; glutes run out of Friday minutes in the last week. Their ceilings become what the week holds (triceps 12, glutes 13) and their stairways land there in week 12 (triceps 11.25 with the bank at 0.75, glutes 13) (COACH-R3 SES-02 step 4) - the plan lists both.
+- **The coach's add order with day alternation (COACH-R3 VOL-03):** quads went Goblet squat 2 → 3 (week 6), Leg press 2 → 3 (week 8), DB split squat 2 → 3 (week 11), DB step-up 2 → 3 (week 12): Monday first, then Thursday, first exercise first.
+- **2-4 exercises per group, every week** (script check: 0 violations; calves one exercise every leg day).
+- **Shoulders as one line (COACH-R3 VOL-01).** 12 → 14.5 sets: the press and side raise on Tuesday, reverse fly and face pull on Thursday, plus 0.25 credit from every row and horizontal press (side delts 3 direct-credit sets, rear delts 5.5-6).
+- Total resistance sets 81 → 102 (+26 % in 12 weeks); the largest weekly rise is +5.8 % (week 8), under the 10 % ceiling.
 
-### 5.2 Intermediate (L2) bodybuilder, chest priority, 12-week split + optional Focus day, **weekly check-ins**
+### 5.2 Intermediate (L2) bodybuilder, Focus muscle 1 = chest, 12-week split + optional Focus day
 
-**Inputs.** 4 years of training, bodybuilding, priority = chest. Starts: chest 15 + 4 = **19** (cap 28), other big muscles 15 (cap 22), small muscles 12 (cap 22), rear delts 6 (cap 12), calves 10 (floor), abs 20. While chest is the priority, every other muscle grows at most 3 % a week (COACH-R2 VOL-06). λ: chest 0.88 (19 → 28: 2.63 % then 4.39 %); other big muscles 2.6 % then 3 %. Split: Mon Push (chest first, ORD-04), **Tue Legs A (back squat: the week's heavy squat day)**, Wed Pull (row before pulldown), Thu optional Focus day (45 min, up to 6 exercises; Focus 1 and 2 both chest, ORD-11), Fri Upper, **Sat Legs B (barbell RDL: the heavy hinge day; belt squat, non-axial)** (COACH-R2 SES-01, SES-02). Lower share 50/50 in weeks 1-4, 80/20 from the week-5 exercise-block change (UNI-02, CAT-13).
+**Inputs.** 4 years of training, bodybuilding, **Focus muscle 1 = chest (+2, COACH-R3 SES-01)**: chest starts 17 with ceiling 24 (15 + 2, 22 + 2); other big lines 15 (ceiling 22), shoulders, biceps and triceps 12 (22), calves 10 (floor), abs 20. The other lines keep their own stairway (the Focus extra does not slow them). Split: Mon Push (chest first, ORD-04), **Tue Legs A (back squat: the week's heavy squat)**, Wed Pull (row before pulldown), Thu optional Focus day (45 min, up to 6 exercises; Focus slots on chest, ORD-11), Fri Upper (chest, back, triceps), **Sat Legs B (barbell RDL: the heavy hinge; belt squat, non-axial)** (COACH-R2 SES-01, SES-02). Shoulders are trained Monday (press + side raise) and Wednesday (reverse pec-deck + face pull). Lower share 50/50 in weeks 1-4, 80/20 from the week-5 exercise-block change (UNI-02, CAT-13). 90-minute sessions.
 
-**The check-ins (effort, completion and pain only; R2-VOL-01 without the life column, R2-GEN-04):**
+**Step 1 of the time policy.** Every group meets its minimums at 90 minutes, but the time holds a lower peak for some lines: the full climb needs Saturday at about 110 minutes. The plan says so up front ("your 90-minute Saturday holds quads 19, glutes 18 and hamstrings and back 21 in the last week; a longer Saturday or a 7th day gets 22") and the client keeps 90 minutes; those lines land on the lower ceilings (step 4). Biceps (Wednesday only, two exercises at their maxima) land on 14-15 and calves (one exercise per leg day + the Thursday slot) on 11-12.
 
-| Check-in after week | Logged | Next week |
-|---|---|---|
-| 1, 2 | effort mostly 7-8, all 5 sessions | the planned step |
-| 3 | effort mostly 5-6 ("too easy") | planned + 2 points: chest 4.63 %; others stay at 3 % (priority rule) |
-| 4 | a "10 - the max I could do" on the belt squat (Saturday) | hold; belt squat -1 set (and the week-5 exercise-block change) |
-| 5 | effort mostly 8 | the planned step |
-| 6 | 2 of 5 sessions done | **repeat week 6** (the block becomes 13 weeks) |
-| 7 | effort mostly 8 | the planned step (stairway week 7, the first late step: chest 4.39 %) |
-| 8 | effort mostly 9 | hold |
-| 9 | effort mostly 8, 'Felt a PAIN' on the seated DB shoulder press | the planned step; side delts 0 %; the press is swapped in category to a seated machine shoulder press with the same sets (UNI-08; R2-LIB-07 addition) |
-| 10-12 | effort mostly 7-8 | the planned step |
+| Wk | level / planned effort | quads | hams | glutes | hips (group) | chest | back | shoulders | biceps | triceps | calves | abs | resist. sets |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 2 / 3 RIR | 15 | 14.5 | 15.25 | 25 | 18 | 16 | 13.25 | 11.5 | 11.75 | 10 | 20 | 105 |
+| 2 | 2.6 / 3 RIR | 15 | 14.5 | 15.25 | 25 | 18 | 16 | 13.25 | 11.5 | 11.75 | 10 | 20 | 105 |
+| 3 | 3.2 / 3 RIR | 15 | 15.5 | 15.25 | 26 | 18 | 16 | 13.25 | 11.5 | 11.75 | 10 | 20 | 106 |
+| 4 | 3.8 / 3 RIR | 15 | 15.5 | 15.25 | 26 | 19 | 16 | 13.5 | 11.5 | 13 | 10 | 20 | 108 |
+| 5 | 4.4 / 3 RIR | 15 | 15.5 | 15.25 | 26 | 19 | 17 | 14.75 | 11.75 | 13.25 | 10 | 20 | 110 |
+| 6 | 5 / 3 RIR | 16 | 16.5 | 15.75 | 27.25 | 19 | 17 | 14.75 | 11.75 | 13.25 | 10 | 20 | 112 |
+| 7 | 6 / 2 RIR | 16 | 16.5 | 15.75 | 27.25 | 20 | 18 | 15.25 | 12 | 14.5 | 10 | 20 | 115 |
+| 8 | 7 / 2 RIR | 17 | 17.5 | 16.25 | 28.5 | 21 | 18 | 16.5 | 14 | 14.75 | 11 | 20 | 122 |
+| 9 | 8 / 2 RIR | 17 | 18.5 | 16.5 | 29.5 | 21 | 19 | 17.5 | 14.25 | 15.75 | 11 | 20 | 126 |
+| 10 | 9 / 1-2 RIR | 19 | 18.5 | 16.5 | 29.5 | 22 | 19 | 17.75 | 14.25 | 16 | 11 | 20 | 129 |
+| 11 | 10 / 1-2 RIR | 19 | 20.75 | 17.5 | 32.5 | 23 | 20 | 19 | 14.5 | 17 | 11 | 20 | 136 |
+| 12 | 11 / 1 RIR + intensifiers | 19 | 20.75 | 17.5 | 32.5 | 24 | 21 | 20.25 | 14.75 | 19.5 | 11 | 20 | 141 |
 
-| Wk | stair wk | level | step taken | quads | hams | glutes | chest | back | biceps | triceps | side d. | rear d. | calves | abs | resist. sets |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | 1 | 2 | - | 15 | 14.5 | 15.25 | 20 | 16 | 11.5 | 12.5 | 11.25 | 7 | 10 | 20 | 117 |
-| 2 | 2 | 2.6 | 2.63 % / 2.6 % / 3 % | 15 | 14.5 | 15.25 | 20 | 16 | 11.5 | 12.5 | 12.25 | 7 | 10 | 20 | 118 |
-| 3 | 3 | 3.2 | 2.63 % / 2.6 % / 3 % | 15 | 15.5 | 15.25 | 20 | 16 | 13.5 | 12.5 | 12.25 | 7 | 10 | 20 | 121 |
-| 4 | 4 | 3.8 | 4.63 % / 3 % / 3 % | 16 | 15.5 | 15.5 | 20 | 16 | 13.5 | 12.5 | 12.25 | 7 | 10 | 20 | 122 |
-| 5 | 5 | 4.4 | 0 % / 0 % / 0 % | 15 | 15.75 | 16.25 | 20 | 16 | 13.5 | 12.5 | 12.25 | 7 | 10 | 20 | 122 |
-| 6 | 6 | 5 | 2.63 % / 2.6 % / 3 % | 15 | 15.75 | 16.25 | 21 | 16 | 13.5 | 12.75 | 13.25 | 7 | 11 | 20 | 125 |
-| 7 | 6 | 5 | repeat | 15 | 15.75 | 16.25 | 21 | 16 | 13.5 | 12.75 | 13.25 | 7 | 11 | 20 | 125 |
-| 8 | 7 | 6 | 4.39 % / 3 % / 3 % | 16 | 16.75 | 16.75 | 22 | 17 | 13.75 | 13 | 13.25 | 7.25 | 11 | 20 | 129 |
-| 9 | 8 | 7 | 0 % / 0 % / 0 % | 16 | 16.75 | 16.75 | 22 | 17 | 13.75 | 13 | 13.25 | 7.25 | 11 | 20 | 129 |
-| 10 | 9 | 8 | 4.39 % / 3 % / 0 % | 16 | 16.75 | 16.75 | 23 | 17 | 13.75 | 14 | 13.25 | 7.25 | 11 | 20 | 131 |
-| 11 | 10 | 9 | 4.39 % / 3 % / 3 % | 17 | 17.75 | 17.25 | 24 | 18 | 14 | 14.25 | 15.25 | 7.5 | 12 | 20 | 138 |
-| 12 | 11 | 10 | 4.39 % / 3 % / 3 % | 17 | 20 | 18.25 | 25 | 18 | 14 | 14.5 | 15.25 | 7.5 | 12 | 20 | 142 |
-| 13 | 12 | 11 | 4.39 % / 3 % / 3 % | 17 | 20 | 18.25 | 26 | 19 | 14.25 | 14.75 | 15.25 | 7.5 | 12 | 20 | 144 |
-
-**The coach's add order, live** (chest exercises in session order; Mon = bench / incline DB / machine press / cable fly; Fri = incline machine / flat DB / dips, where dips are triceps-led at 0.5 + 0.5; Thu = the two Focus slots):
+**Chest, exercise by exercise** (Mon = bench / incline DB / machine press / cable fly; Fri = incline machine / flat DB / dips, where dips are triceps-led at 0.5 + 0.5; Thu = the two Focus slots):
 
 | Week | Mon | Fri | Thu (Focus) |
 |---|---|---|---|
-| 1-5 | 3/3/2/2 | 3/2/2 | 2/2 |
-| 6-7 | 3/3/**3**/2 | 3/2/2 | 2/2 |
-| 8-9 | 3/3/3/2 | 3/**3**/2 | 2/2 |
-| 10 | 3/3/3/**3** | 3/3/2 | 2/2 |
-| 11 | 3/3/3/3 | **4**/3/2 | 2/2 |
-| 12 | **4**/3/3/3 | 4/3/2 | 2/2 |
-| 13 | 4/3/3/3 | 4/**4**/2 | 2/2 |
+| 1-3 | 3/2/2/2 | 2/2/2 | 2/2 |
+| 4-6 | 3/**3**/2/2 | 2/2/2 | 2/2 |
+| 7 | 3/3/2/2 | **3**/2/2 | 2/2 |
+| 8-9 | 3/3/**3**/2 | 3/2/2 | 2/2 |
+| 10 | 3/3/3/2 | 3/**3**/2 | 2/2 |
+| 11 | 3/3/3/**3** | 3/3/2 | 2/2 |
+| 12 | 3/3/3/3 | **4**/3/2 | 2/2 |
 
 **What happened.**
-- **Check-ins move the stairway, they do not replace it.** The "too easy" week gave chest one bigger step; the "10" and the "mostly 9" weeks held; the 2-session week was repeated, so the 12-step stairway took 13 calendar weeks. Two holds cost chest about two steps: it ends at **26** instead of the planned 28. Every other muscle stayed at ≤ 3 % a week. No deload was inserted at any point (R2-VOL-07).
-- **Exercise-block change at week 5 (PER-02, UNI-02, CAT-13):** three walking-lunge sets moved to back squat and belt squat, one staggered-stance set to the barbell RDL, and the staggered-stance DB deadlift became a reverse hyper / 45-degree back extension (non-axial, R2-SES-02). Lower bilateral share 0.57 → 0.82, then 0.76 at the end.
-- **Fallbacks:** biceps got a "Cable curl (bonus)" on the optional Thursday in week 3, side delts a "Machine side raise (bonus)" there in week 11 (R2-VOL-08 default), glutes a cable pull-through Focus slot (weeks 5 and 12), hamstrings a Nordic-curl Focus slot on Tuesday (week 12). In the last week quads, glutes, biceps and calves had no room left (time or per-session ceiling): they progress by load and reps.
-- Total resistance sets 117 → 144 (+23 %); the largest weekly rise is +5.3 % (week 11). Sessions at the end: Mon 79, Tue 82, Wed 77, Fri 87, Sat 89, Thu 44 minutes (90-minute limit; no supersets needed).
-- Pelland count at the end (indirect 0.5): glutes 24.5 vs 18.25 on the coach count; biceps 18.5 vs 14.25; triceps 20.5 vs 14.75. Both are stored (§3.1).
+- **Focus muscle chest:** 18 → 24 (its ceiling 24), two sets above the balanced line all block; its new sets alternate Monday → Friday → Monday (COACH-R3 VOL-03) in the VOL-07 order.
+- **No check-ins, no holds, no repeated week:** the 12 weeks are the 12 planned stairway weeks (v1.1's 13-week run with holds is retired).
+- **Placement (COACH-R3 VOL-03):** biceps got a 'Cable curl (bonus)' on the optional Thursday in week 8; triceps a 'Rope pushdown (bonus)' on Friday, a day that already trains triceps (dips + overhead extension), in week 12; quads, hamstrings and glutes got Focus slots (leg extension on Thursday, Nordic curl on Tuesday, cable pull-through on Thursday); calves never got a second calf exercise on a leg day.
+- **Exercise-block change at week 5 (PER-02, UNI-02, CAT-13):** walking-lunge sets moved to the back squat, one staggered-stance set to the barbell RDL, and the staggered-stance DB deadlift became a reverse hyper / 45-degree back extension (non-axial, R2-SES-02). Lower bilateral share 0.57 → 0.81, 0.77 at the end.
+- **Shoulders (COACH-R3 VOL-01):** 13.25 → 20.25 as one line (side delts 3 → 4.25 direct-credit sets, rear delts 6 → 7.75); "add rear delts" or a V-taper bias would raise the direct side- and rear-delt work (flag a).
+- Total resistance sets 105 → 141 (+34 %); the largest weekly rise +6.1 % (week 8). Sessions in the last week: Mon 79, Tue 82, Wed 78, Fri 81, Sat 90, Thu 42 minutes (no supersets needed).
+- Pelland count in the last week (indirect 0.5): glutes 24 vs 17.5 on the coach count; triceps 25 vs 19.5; shoulders 27.5 vs 20.25 (display only; nothing is stored).
 
-### 5.3 Tennis player (L2) off-season, 8 weeks, 80-90 % unilateral, 4 days × 90 min, **no check-in**
+### 5.3 Tennis player (L2) off-season, 8 weeks, 80-90 % unilateral, 4 days × 90 min
 
-**Inputs.** Competitive tennis, off-season, 2 years of structured training. Base (field athlete off-season: lower × 0.7, upper × 0.5, round half up, then the floor): quads and hamstrings 11; **chest and back 7.5 → 10 (floor of 10, COACH-R2 VOL-06; flagged)**; rear delts 6 (own sets, shoulder health); calves 3 per leg day (12); glutes, biceps, triceps and side delts credit only (UNI-02). Caps = base × 1.3 (quads/hamstrings 14, chest/back 13, rear delts 8, calves 14; PROPOSED). 8-week stairway (no "start hard", R2-PER-03): λ quads/hamstrings 0.85, chest/back 0.92, calves 0.54. Days (≤ 12 exercises + the 2-exercise core block, R2-SES-04): Mon knee + pull with the clean-family lift (hang power clean); Tue hip + push with the snatch-family lift (single-arm DB snatch) and the week's only axial lift (trap-bar RDL); Thu knee + pull (hang clean pull); Fri hip + push (KB swing = ballistic, no glute credit, R2-VOL-05). Athletic slots 2 sets each (VOL-16).
+**Inputs.** Competitive tennis, off-season, 2 years of structured training. Base (field athlete off-season: lower × 0.7, upper × 0.5, round half up, then the floor of 10 on groups): quads and hamstrings 11; **chest and back 7.5 → 10 (floor; flagged)**; **shoulders 6 → 10** (one line, at the floor, through the Thursday shoulder-care station and the presses; COACH-R3 VOL-01); calves 3 per leg day (12); glutes, biceps and triceps credit only (UNI-02); the hips group is trained through hamstrings (floor met). Ceilings = base × 1.3 (quads/hamstrings 14, chest/back/shoulders 13, calves 14; PROPOSED). 8-week stairway. Days (≤ 12 exercises + the 2-exercise core block, cross pattern: 2 jump / throw stations + 1 Olympic lift, COACH-R3 SES-01): Mon knee + pull with the clean-family lift (hang power clean); Tue hip + push with the snatch-family lift (single-arm DB snatch) and the week's only axial lift (trap-bar RDL); Thu knee + pull (hang clean pull) + shoulder care (reverse fly + KB face pull); Fri hip + push (KB swing = ballistic, no glute credit). Athletic slots 2 sets each (VOL-16). Time check: fits at 90 minutes (no warning).
 
 **Week 1:**
 - **Mon:** Pallof press 10/10 2 · Copenhagen side plank 2 · Lateral bound 2 · Medball rotational scoop toss 8 lb 2 · Hang power clean 3 · RFE split squat 8/8, contralateral DB 3 · 1-arm DB row 10/10 3 · Lateral lunge 8/8 3 · Half-kneeling 1-arm pulldown 10/10 2 · Single-leg calf raise 12/12 3
 - **Tue:** Dead bug 2 · Side plank 2 · Seated box jump 2 · Medball side toss 8 lb 2 · Single-arm DB snatch 5/5 3 · Trap-bar RDL 2 · Alternating DB bench press 4 · Single-leg RDL 8/8, contralateral DB 3 · Push-up 2 · Nordic curl (assisted) 2 · Single-leg calf raise 12/12 3
-- **Thu:** Pallof press 10/10 2 · Copenhagen side plank 2 · Skater hop 2 · Medball shot-put throw 8 lb 2 · Hang clean pull 3 · Lateral step-up 8/8 3 · Pull-up 3 · Cossack squat 6/6 2 · 1-arm cable row 10/10 2 · Reverse DB fly 2 · KB face pull 2 · Single-leg calf raise 12/12 3
+- **Thu:** Pallof press 10/10 2 · Copenhagen side plank 2 · Skater hop 2 · Medball shot-put throw 8 lb 2 · Hang clean pull 3 · Lateral step-up 8/8 3 · Pull-up 3 · Cossack squat 6/6 2 · 1-arm cable row 10/10 2 · Reverse DB fly 3 · KB face pull 3 · Single-leg calf raise 12/12 3
 - **Fri:** Dead bug 2 · Side plank 2 · Broad jump (stick) 2 · Medball overhead slam 10 lb 2 · KB swing 2 · 45-degree back extension 2 · 1-arm DB bench 8/8 2 · Slider leg curl 2 · Feet-elevated push-up 2 · Single-leg hip thrust 10/10 2 · Single-leg calf raise 12/12 3
 
-| Wk | stair wk | level | step taken | quads | hams | glutes | chest | back | biceps | triceps | side d. | rear d. | calves | abs | resist. sets |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | 1 | 2 | - | 11 | 11.5 | 6.5 | 10 | 10 | 2.5 | 2.5 | 0.5 | 5.25 | 12 | 16 | 60 |
-| 2 | 2 | 2.93 | 2.54 % | 11 | 11.5 | 6.5 | 10 | 10 | 2.5 | 2.5 | 0.5 | 5.25 | 12 | 16 | 60 |
-| 3 | 3 | 3.86 | 2.54 % | 11 | 11.5 | 6.5 | 10 | 10 | 2.5 | 2.5 | 0.5 | 6.25 | 12 | 16 | 61 |
-| 4 | 4 | 4.79 | 2.54 % | 11 | 11.5 | 6.5 | 10 | 10 | 2.5 | 2.5 | 0.5 | 6.25 | 12 | 16 | 61 |
-| 5 | 5 | 6.34 | 4.23 % | 12 | 11.5 | 6.75 | 11 | 11 | 2.75 | 2.75 | 0.5 | 6.25 | 12 | 16 | 64 |
-| 6 | 6 | 7.9 | 4.23 % | 12 | 12.5 | 7 | 11 | 11 | 2.75 | 2.75 | 0.5 | 6.25 | 13 | 16 | 66 |
-| 7 | 7 | 9.45 | 4.23 % | 13 | 12.5 | 7.25 | 12 | 12 | 3 | 3 | 0.75 | 7.5 | 13 | 16 | 70 |
-| 8 | 8 | 11 | 4.23 % | 14 | 13.5 | 7.75 | 13 | 13 | 3.25 | 3.25 | 0.75 | 7.75 | 14 | 16 | 75 |
+| Wk | level / planned effort | quads | hams | glutes | hips (group) | chest | back | shoulders | biceps | triceps | calves | abs | resist. sets |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 2 / 3 RIR | 11 | 11.5 | 6.5 | 15.75 | 10 | 10 | 9.75 | 2.5 | 2.5 | 12 | 16 | 62 |
+| 2 | 2.9 / 3 RIR | 11 | 11.5 | 6.5 | 15.75 | 10 | 10 | 9.75 | 2.5 | 2.5 | 12 | 16 | 62 |
+| 3 | 3.9 / 3 RIR | 11 | 11.5 | 6.5 | 15.75 | 10 | 10 | 9.75 | 2.5 | 2.5 | 12 | 16 | 62 |
+| 4 | 4.8 / 3 RIR | 11 | 11.5 | 6.5 | 15.75 | 10 | 10 | 10.75 | 2.5 | 2.5 | 12 | 16 | 63 |
+| 5 | 6.3 / 2 RIR | 12 | 12.5 | 7 | 17 | 11 | 11 | 11 | 2.75 | 2.75 | 12 | 16 | 67 |
+| 6 | 7.9 / 2 RIR | 12 | 12.5 | 7 | 17 | 11 | 11 | 11 | 2.75 | 2.75 | 13 | 16 | 68 |
+| 7 | 9.4 / 1-2 RIR | 13 | 13.5 | 7.5 | 18.25 | 12 | 12 | 11.5 | 3 | 3 | 13 | 16 | 72 |
+| 8 | 11 / 1 RIR + intensifiers | 14 | 13.5 | 7.75 | 18.5 | 13 | 13 | 13 | 3.25 | 3.25 | 14 | 16 | 77 |
 
-Lower-body bilateral share **0.22** in weeks 1 and 8 (trap-bar RDL and 45-degree back extension are the only bilateral lifts: 78 % unilateral, the low edge of his 80-90 %); upper 0.27. 10-12 listed exercises a day (≤ 14 with the core block, R2-SES-04); every muscle group trained on a day has 2-3 exercises (glutes and arms are credit-only, so not "trained" by this rule).
+Lower-body bilateral share **0.22** in weeks 1 and 8 (trap-bar RDL and 45-degree back extension are the only bilateral lifts: 78 % unilateral, the low edge of his 80-90 %); upper 0.27. 10-12 listed exercises a day (≤ 14 with the core block); every group trained on a day has 2-3 exercises, calves 1 (0 violations).
 
-**Athletic budget (separate; never in the table above).** Plyo share counted over jump **and** throw sets (COACH-R2 ATH-01): tennis ends at 50 % and starts 15 points more ballistic (35 %); Receive-Create stages on the 8-week timing 1-2 / 3-5 / 6-8 (COACH-R2 ATH-03).
+**Athletic budget (separate; never in the table above).** Plyo share counted over jump **and** throw sets (COACH-R2 ATH-01): tennis ends at 50 % and starts 15 points more ballistic (35 %); Receive-Create stages on the 8-week timing 1-2 / 3-5 / 6-8 (COACH-R2 ATH-03). Unchanged by round 3.
 
 | Wk | jump + throw sets | plyo sets | ballistic sets (incl. throws) | plyo share | Receive-Create stage | plyo contacts / week | per plyo day | throws / week | Olympic sets / week |
 |---|---|---|---|---|---|---|---|---|---|
@@ -967,29 +1071,70 @@ Lower-body bilateral share **0.22** in weeks 1 and 8 (trap-bar RDL and 45-degree
 
 (Contacts: 8 per plyo set in stage 1 (4 per side), 10 in stage 2, 14 in stage 3; throws: scoop, side toss and shot-put are 2 × 10 per side, slams 2 × 10. The generator meets the rising share by turning ballistic slots into plyometric variants of the same pattern, e.g. broad jump stick → repeated broad jumps.)
 
-**What happened.** Resistance volume follows the 8-week stairway and peaks in week 8 (60 → 75 sets, +25 %; largest weekly rise +7.1 % in week 8), with quads, chest, back and calves landing on their caps in the last week. Sessions run 79-83 minutes in week 8. The athletic side carries the "drive" (ballistic → plyometric, stage 1 → 3): contacts rise 48 → 140 a week, 24 → 70 per plyo day, inside his own observed sessions (18-77 contacts) and under NSCA's L2 guide (100).
+**What happened.** Resistance volume follows the 8-week stairway and peaks in week 8 (62 → 77 sets, +24 %; largest weekly rise +6.9 % in week 8), with quads, chest, back, shoulders and calves landing on their ceilings in the last week. Sessions run 79-87 minutes in week 8. The athletic side carries the "drive" (ballistic → plyometric, stage 1 → 3): contacts rise 48 → 140 a week, 24 → 70 per plyo day, inside his own observed sessions (18-77 contacts) and under NSCA's L2 guide (100). The user may switch off a day's athletic block (§3.10.2); that changes no set number above.
 
-### 5.4 Maintenance flow (the same bodybuilder after 5.2)
+### 5.4 After the block: the recommended easy week and the maintenance option (the bodybuilder of 5.2)
 
-**After a completed block** the person chooses: a transition week (deload) or a maintenance phase, then a new block (COACH-R2 VOL-07, PER-06).
-- **Transition deload** = about half of the hardest week (week 13 of 5.2): **80 resistance sets** (quads 11, hamstrings 10.5, glutes 9.75, chest 14.5, back 11, biceps 7.5, triceps 8.75, side delts 7.75, rear delts 4.5, calves 6), same exercises, 3+ RIR.
-- **Maintenance phase while travelling** (length picked: 4 weeks; extendable): base = average of the last 4 stairway weeks of 5.2 (138.8 resistance sets/week).
+**When the 12 weeks end, the block ends** (COACH-R3 PER-01). The plan's last page recommends, and does not impose:
+- **An easy week** at about half of the hardest week (week 12 of 5.2): **82 resistance sets** (quads 12, hamstrings 11.5, glutes 10, chest 14.5, back 13, shoulders 12.5, biceps 8, triceps 10.75, calves 6), same exercises, 3+ RIR (COACH-R2 VOL-07 dose; recommendation COACH-R3 PER-01).
+- **Or a maintenance phase** the user builds (e.g. while travelling, 4 weeks): base = average of the last 4 weeks of 5.2 (133 resistance sets/week).
 
-| Factor | quads | hams | glutes | chest | back | biceps | triceps | side d. | rear d. | calves |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 50 % (vacation, limited kit) | 8 | 9 | 9 | 12 | 9 | 7 | 7 | 7 | 4 | 6 |
-| **60 % (travel, hotel gym)** | 10 | 11 | 11 | 15 | 11 | 8 | 9 | 9 | 4 | 7 |
-| 70 % (planned maintenance; older adults' floor) | 12 | 13 | 12 | 17 | 13 | 10 | 10 | 10 | 5 | 8 |
+| Factor | quads | hams | glutes | chest | back | shoulders | biceps | triceps | calves |
+|---|---|---|---|---|---|---|---|---|---|
+| 50 % (vacation, limited kit) | 9 | 10 | 9 | 11 | 10 | 9 | 7 | 9 | 6 |
+| **60 % (travel, hotel gym)** | 11 | 12 | 10 | 14 | 12 | 11 | 9 | 10 | 7 |
+| 70 % (planned maintenance; older adults' floor) | 13 | 14 | 12 | 16 | 14 | 13 | 10 | 12 | 8 |
 
-**4 × 60-minute hotel-gym week at 60 %** (flat, RIR 2-3, machines and DBs; R2-SES-05 also holds here: every trained group has 2+ exercises): 82 resistance sets (59 % of the base); quads 10, hamstrings 10.75, glutes 10.25, chest 15, back 11, biceps 7.75, triceps 8.75, side delts 8.5, rear delts 5.5, calves 7; 49-59 minutes with supersets.
+**4 × 60-minute hotel-gym week at 60 %** (flat, RIR 2-3, machines and DBs; 2-4 exercises per trained group): 80 resistance sets; quads 11, hamstrings 11.5, glutes 9.75, chest 14, back 12, shoulders 12.25, biceps 9, triceps 9.25, calves 7; 50-59 minutes with supersets.
 - **Mon:** Dead bug 2 · Leg press 2 · Machine chest press 4 · DB split squat 10/10 2 · Incline DB press 3 · Leg extension 2 · Cable pushdown 3 · Overhead DB triceps extension 3 · Calf raise 4
-- **Tue:** Pallof press 2 · Seated cable row 3 · DB Romanian deadlift 3 · Lat pulldown 3 · Leg curl 2 · DB curl 3 · Hammer curl 2 · Reverse DB fly 2 · Face pull 2
-- **Thu:** Dead bug 2 · Hack squat or Smith squat 2 · Flat DB press 4 · Step-up 10/10 2 · Cable fly 4 · DB side raise 4 · Cable side raise 4 · Calf raise 3
-- **Fri:** Pallof press 2 · Chest-supported DB row 3 · Hip thrust 4 · Neutral-grip pulldown 2 · 45-degree back extension 2 · Cable glute kickback 10/10 3 · Leg curl 2
+- **Tue:** Pallof press 2 · Seated cable row 3 · DB Romanian deadlift 3 · Lat pulldown 3 · Leg curl 2 · DB curl 3 · Hammer curl 3 · Reverse DB fly 2 · Face pull 2
+- **Thu:** Dead bug 2 · Hack squat or Smith squat 3 · Flat DB press 4 · Step-up 10/10 2 · Cable fly 3 · Seated DB shoulder press 2 · DB side raise 2 · Calf raise 3
+- **Fri:** Pallof press 2 · Chest-supported DB row 3 · Hip thrust 3 · Neutral-grip pulldown 3 · 45-degree back extension 3 · Cable glute kickback 10/10 3 · Leg curl 2
 
-**At the end of the 4 weeks** the app asks: keep going on maintenance (add weeks), change the plan, or start a training block (COACH-R2 PER-06). If he starts a block: start × 1.05 and cap + 1 (COACH-R2 VOL-06): chest 19 → 20 (cap 29), other big muscles 15 → 16 (cap 23), small muscles 12 → 13 (cap 23). The maintenance phase replaces the transition deload. Maintenance is not floored at 10 (it is maintenance by definition); 50-70 % of this base is still well above the research minimum to keep muscle in a younger adult (§2.4); for an older adult the engine keeps ≥ 70 %.
+**The next block.** When he builds it and enters "1 block completed": start × 1.05 and ceiling + 1 (COACH-R2 VOL-06): chest 17 → 18 (ceiling 25), other big lines 15 → 16 (23), shoulders, biceps and triceps 12 → 13 (23). Maintenance is not floored at 10 (it is maintenance by definition); 50-70 % of this base is still well above the research minimum to keep muscle in a younger adult (§2.4); for an older adult the engine keeps ≥ 70 %. If he stopped the block early, he builds the next one at the same start (PROPOSED). Nothing is stored between the two builds (COACH-R3 GEN-01).
 
-**If he had cancelled the block** (for example in week 9, after the hold weeks), the same maintenance phase would follow, and the new block would start at the **same** start as the cancelled one (19 / 15 / 12; PROPOSED).
+### 5.5 The coach's own example (COACH-R3 SES-02): a pickleball player who keeps 2 × 45 minutes
+
+**Inputs.** 55 years old, L2 (2 years of training), "stay athletic and active" with pickleball 3+ times a week (general-fitness factor 0.8: big lines start 12, shoulders and arms 10 by the floor, ceilings 18; calves one exercise × 3 sets per leg day, ceiling 4 per leg day), 2 days (Mon, Thu) × 45 minutes. Profile defaults (COACH-R3 ATH-02, ATH-05): knee-friendly, mostly bilateral and machine strength; **calf and Achilles work every leg day (pinned: never dropped by the time policy)**; rotator-cuff work in the warm-up (no bands); low-impact jumps only; with 3+ play sessions a week the extra agility drills and half the jumps go, so one athletic station a day (Monday a light rotational medball throw, Thursday a step-down-and-stick landing). The full plan trains every group with 2 exercises per day it is trained (Monday quads, hips, back, shoulders, biceps; Thursday hips, chest, quads, back, triceps), paired as supersets.
+
+**Step 1: tell up front and offer.** The full plan's base week already takes 58-62 minutes a day with supersets; its peak week needs **92-100 minutes a day**. Offers: **about 105-minute sessions**, or more days (a 3rd 45-minute day that takes the arms and shoulder isolation still leaves Monday at 53 minutes in week 1, so 2 → 3 days at 45 minutes is not enough either), or the block toggles (switching off the core opener saves about 8 minutes a day).
+
+**Step 2: he keeps 2 × 45.** Every group at its minimum plan does not fit, so the kept set is built in priority order (pinned calves, then hips, quads, back, chest, shoulders, triceps, biceps), keeping a group only if every kept group still meets its minimums:
+
+| Kept | Week 1 → week 12 | Not trained directly (time) - compound credit in week 12 |
+|---|---|---|
+| calves (pinned) | 6 → 7 | quads, chest, back, shoulders, biceps, triceps: shoulders 2 (the shoulder press kept as a compound), triceps 0.5, the rest 0 |
+| hips (glutes + hamstrings: DB RDL + seated leg curl on Monday, hip thrust + lying leg curl on Thursday) | 10 → 14 | |
+
+**Step 3:** supersets recommended (Monday needs them); **step 4:** the stairway climbs on both kept lines (hips λ 0.76 to 14, calves 6 → 7). Days run 39-42 minutes in week 1 and 45 in week 12.
+
+**Monday / Thursday, week 12:** Dead bug 2 · Side plank 2 · Medball rotational throw 6 lb 2 · DB Romanian deadlift 4 · Seated DB shoulder press 2 · Seated leg curl 3 · Standing calf raise 4 / Bird dog 2 · Pallof press 2 · Low box step-down and stick 2 · Hip thrust 3 · Lying leg curl 4 · Single-leg calf raise 10/10 3.
+
+| Wk | level / planned effort | quads | hams | glutes | hips (group) | chest | back | shoulders | biceps | triceps | calves | abs | resist. sets |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 2 / 3 RIR | 0 | 7.75 | 3.75 | 10 | 0 | 0 | 2 | 0 | 0.5 | 6 | 8 | 18 |
+| 2 | 2.6 / 3 RIR | 0 | 7.75 | 3.75 | 10 | 0 | 0 | 2 | 0 | 0.5 | 6 | 8 | 18 |
+| 3 | 3.2 / 3 RIR | 0 | 7.75 | 3.75 | 10 | 0 | 0 | 2 | 0 | 0.5 | 6 | 8 | 18 |
+| 4 | 3.8 / 3 RIR | 0 | 7.75 | 3.75 | 10 | 0 | 0 | 2 | 0 | 0.5 | 6 | 8 | 18 |
+| 5 | 4.4 / 3 RIR | 0 | 7.75 | 3.75 | 10 | 0 | 0 | 2 | 0 | 0.5 | 6 | 8 | 18 |
+| 6 | 5 / 3 RIR | 0 | 8.75 | 3.75 | 11 | 0 | 0 | 2 | 0 | 0.5 | 6 | 8 | 19 |
+| 7 | 6 / 2 RIR | 0 | 8.75 | 3.75 | 11 | 0 | 0 | 2 | 0 | 0.5 | 6 | 8 | 19 |
+| 8 | 7 / 2 RIR | 0 | 9.75 | 3.75 | 12 | 0 | 0 | 2 | 0 | 0.5 | 6 | 8 | 20 |
+| 9 | 8 / 2 RIR | 0 | 9.75 | 3.75 | 12 | 0 | 0 | 2 | 0 | 0.5 | 6 | 8 | 20 |
+| 10 | 9 / 1-2 RIR | 0 | 9.75 | 3.75 | 12 | 0 | 0 | 2 | 0 | 0.5 | 6 | 8 | 20 |
+| 11 | 10 / 1-2 RIR | 0 | 10.75 | 4 | 13 | 0 | 0 | 2 | 0 | 0.5 | 6 | 8 | 21 |
+| 12 | 11 / 1 RIR + intensifiers | 0 | 11.75 | 4 | 14 | 0 | 0 | 2 | 0 | 0.5 | 7 | 8 | 23 |
+
+**The same player with other choices** (computed the same way):
+
+| Choice | Groups trained directly | Week 1 → week 12 |
+|---|---|---|
+| 2 × 45, core opener switched off (R3-SES-02 toggle) | calves, hips | hips 10 → 15, calves 6 → 8 |
+| 2 × 60 | calves, hips, quads | quads 10 → 13, hips 9.5 → 12.75, calves 6 → 7 |
+| 2 × 75 | calves, hips, quads, back | quads 10 → 15, back 10 → 15, hips 9.5 → 15, calves 6 → 8 |
+| about 2 × 105 (the offer) | every group | the full plan |
+
+**What it shows.** The coach's minimums (10 sets a week per trained group, 2-4 exercises a day, 3 calf sets per leg day, a climbing stairway) cost about 25-30 minutes of lifting per group per week in this time model, so 2 × 45 minutes with the warm-up, the core opener and one athletic station holds one big group plus the pinned calves. The policy does what he approved - tells the player first, offers more time or days, then trains fewer groups properly instead of every group under the floor - and the plan states the trade-off before it is used (flag e).
 
 ---
 
@@ -1037,36 +1182,55 @@ Lower-body bilateral share **0.22** in weeks 1 and 8 (trap-bar RDL and 45-degree
 | §3.14 logs | weekly sleep / stress / energy / body weight | sessions done, effort, pain, how it felt; 10 = successful max; optional 'Failed' | COACH-R2 GEN-04, VOL-02 |
 | §5 examples | readiness-based rates, acclimation caps, 8-week start-hard | recomputed with the v1.1 prototype | all of the above |
 
+### 6.3 What v1.2 changes in v1.1 (round 3)
+
+| v1.1 location | v1.1 rule | v1.2 rule | Why |
+|---|---|---|---|
+| §3.7.3 check-in table; JSON `stairway.checkin_table`, `checkin_inputs`, `effort_reading`, `life_column_removed` | optional weekly check-in moves next week's step (effort 1-6 +2 points, 7-8 planned, 9 hold, 10 hold -1 set, under half the sessions repeat the week); 'Failed' answer | **retired**: the planned stairway only, computed once; a printed self-adjust guide | COACH-R3 VOL-02, VOL-04 |
+| §3.14 learning; JSON `learning` | two delivery modes, log schema, tuning of personal step scale / cap / start and population tables from logs | **retired**: outputs only, nothing stored; defaults changed by the coach by hand | COACH-R3 VOL-04, GEN-01 |
+| §3.12 week-by-week mode; block-at-risk prompt; maintenance end prompt; transition deload after every completed block | rolling 12-week stairway with check-ins; app prompts | week-by-week retired; the easy week is a recommendation; the plan ends and the user builds the next; "blocks completed" entered at rebuild | COACH-R3 PER-01, VOL-02 |
+| §3.3 rear delts (own 4 / 6 / 8, caps 8 / 12 / 16), side delts (10 / 12 / 15); floor read per muscle (rear delts on SHOULDERS/TRAPS, INFERRED) | two delt lines | **one shoulders line** (10 / 12 / 15, caps 14 / 22 / 25), group credit; floor read on the R3-SES-01 groups (hips, shoulders ...); "add rear delts" editing option | COACH-R3 VOL-01, SES-01 |
+| §3.5 priority muscles (+4 / +6, caps 18 / 26-28 / 30, others ≤ 3 %) | the intake path for "more of one muscle" | **Focus muscle 1 / 2: +1-3 (default +2) on start and ceiling**, others not slowed; the +4 / +6 push only as an optional coach setting | COACH-R3 SES-01 |
+| §3.9 step 1 and step 5 (R2-VOL-08 default, flagged for a re-ask) | alternate the first exercise; bonus on the optional day, else a day that trains that group | approved as the coach's rule; calves never get a second calf exercise on a leg day | COACH-R3 VOL-03, SES-01 |
+| §3.10 groups (INFERRED), calves "one exercise" (PROPOSED), time "might be a little longer" | full-body days 55-80 min; a client who insists on 60 min gets fewer groups per day or supersets ("the plan says so") | groups approved (hips, shoulders), calves one exercise × 3 per leg day approved; **the exact time-vs-minimums algorithm** (§3.10.1); editing and superset recommendations (§3.10.2-3) | COACH-R3 SES-01, SES-02 |
+| §3.7.2 effort drift 3 → 1 RIR (PROPOSED, flagged against VOL-13) | planned drift | approved | COACH-R3 VOL-04 |
+| §3.4 older adults: stairway ≤ 3 %; no Olympic lifts, plyos or depth jumps by default | | step cap retired; R3-ATH-02 on / off defaults (landing drills, balance, quick stepping, light medball, fast machine work on; hops, jumps, Olympic lifts, depth jumps off; OH and low-bar squats out) | COACH-R3 VOL-04, ATH-02 |
+| §3.13 swimming "class 4 → 40 %" (INFERRED); pickleball / padel / HYROX class 3 "50 %, PROPOSED" | | swimming 25 % (approved), HYROX 50 % (approved), the R3-ATH-04 shares for the remaining sports | COACH-R3 ATH-01, ATH-03, ATH-04 |
+| §3.10 aerobic counts for sports outside his list | "from the sport profile (PROPOSED)" | 0 extra for swimmers, runners, rowers and endurance cyclists; HYROX 4; stay-active activity sessions count (up to 2) | COACH-R3 ATH-01, ATH-03, ATH-04, ATH-05 |
+| §3.7.4 10 % total ceiling | strictly below +10 % | strictly below +10 %, but one whole set may always be added in a week (PROPOSED: a small plan could otherwise never climb) | COACH-R3 SES-02 step 4 |
+| §3.7.1 start of the stairway | T(1) = the table start | T(1) = the larger of the table start and the week-1 sets; a line the time or the exercise maxima cannot take to its planned peak gets the ceiling it reaches and lands there in the last week | COACH-R3 VOL-04, SES-02 |
+| §5 examples | v1.1 runs with check-ins (5.2: holds, repeated week; 11-A: weekly check-ins) | recomputed with no check-ins; 5.5 new | COACH-R3 VOL-02 |
+| §3.12 tests | reminders at block start, 7 days before and the day before | no reminders (they need a stored plan); the plan prints the test weeks | COACH-R3 GEN-01 |
+
 ---
 
 ## 7. Decisions waiting for the coach (PROPOSED - PENDING COACH APPROVAL)
 
-**Settled by round 2 (removed from this list):** small-muscle starts (VOL-04), rear delts 4 / 6 / 8 (VOL-04), glute counting (VOL-05), caps and the next-cycle step (VOL-06), non-priority ≤ 3 % (VOL-06), deload size and its place between blocks (VOL-07), the step table (VOL-01), the stage name and timing (ATH-03), the plyo:ballistic table (ATH-01), the core opener (SES-03), the field-athlete cap (SES-04), the yearly quarters (PER-01), the two output modes (GEN-01). **Retired:** the readiness score and its weights, the intake rate defaults, acclimation caps and the 8-week start (GEN-04, PER-03, PER-04).
+**Settled by round 3 (removed from this list):** the stairway numbers and the λ peak-anchoring (R3-VOL-04); the effort drift (R3-VOL-04); the check-in questions (retired, R3-VOL-02); the life column (retired with the check-in); 'Failed' and "10 lowers the plan" (retired); the repeated week and the block-at-risk prompt (retired); rear delts vs the floor (R3-VOL-01: one shoulders group); the R2-SES-05 grouping (R3-SES-01); calves one exercise × 3 per leg day (R3-SES-01); the R2-VOL-08 placement default (R3-VOL-03); the Pro setting's check-in requirement (gone).
 
 **Still waiting:**
-1. **The stairway numbers:** 3 % before the halfway week and 5 % after it, and the λ scaling that makes the planned peak land on the cap in the last week (§3.7.1).
-2. **Check-in read against the stairway:** in the first half "perfect" = 3 % and "too easy" = 5 %; his +5 % / +7 % apply after the halfway week (§3.7.3).
-3. **The life column dropped** from his approved step table because of R2-GEN-04 (§3.7.3).
-4. **Effort drift 3 → 1 RIR inside his 1-3 RIR band** to make the weeks feel like 2 → 11 (§3.7.2; VOL-13 said no planned RIR ramp).
-5. **'Failed' answer** handling (hold, -1 set, lighter) and **a "10" lowering that muscle's plan by one set** (§3.7.3).
-6. **Repeated week makes the block one week longer** (§3.7.3); **block-at-risk prompt** wording and triggers (§3.12).
-7. **After a cancelled block, the new block starts at the same start** (§3.12).
-8. **Rear delts vs the floor of 10:** floor read on the SHOULDERS/TRAPS group (§3.3).
-9. **Floor of 10 for field athletes' chest and back** (raises 7.5 to 10; §3.4) and **small muscles on the same caps as big ones** (§3.3).
-10. **Pro setting:** L3 only, one priority muscle, up to 35 sets, check-in required (§3.2).
-11. **R2-SES-05 details:** groups = his FOCUS headers (shoulders together), calves keep one exercise × 3 sets per leg day, the generator consolidates a muscle onto fewer days rather than one exercise per day (§3.10).
+1. **Group credit**: a set counts at most 1.0 to a line or group (a face pull = 1 shoulder set; a press 1.0 shoulders + 0.25 side-delt credit not double counted) (§3.3).
+2. **Shoulders start 10 / 12 / 15 counted with group credit** - it gives an L2 bodybuilder about 3-4 direct side-delt sets a week (§5.2); keep it, or keep a minimum side-delt dose inside the shoulders line?
+3. **Focus muscles**: default +2 (user 1-3) on start and ceiling, bounded by 18 / 26-28 / 30; the other lines not slowed; the +4 / +6 push only as a coach setting (§3.5).
+4. **Time policy details** (§3.10.1): the 10 % "a little longer day" tolerance; the minimum climb (2 whole sets; calves 1); the keep order (pinned and Focus → hips, quads, back, chest → shoulders, calves, triceps, biceps); planning the kept groups from the floor; the offers (another day = the next template up; longer = ceil5 of the peak-week need; block toggles); **the step-2 ceiling clamped to the level ceiling** (v1.2 verification: the prototype let it pass the level ceiling; clamped, 5.1 also leaves biceps to compound credit).
+5. **2 × 45 minutes (§5.5)**: with his minimums only one big group plus the pinned calves can be trained directly; is that the answer he wants, or should short plans train big movers once a week at the floor?
+6. **Editing mechanism** (§3.10.2): removing an exercise that leaves a group with 1 exercise that day - offer "remove the group from this day" or "keep it anyway".
+7. **"Blocks completed in a row"** as the rebuild input for start × 1.05 and ceiling + 1 (nothing is stored), and the same start after a stopped block (§3.12).
+8. **The one-set allowance under the 10 % ceiling** (§3.7.4).
+9. **The printed self-adjust guide** wording (§3.7.3, §3.6), EN / ES.
+10. **Floor of 10 for field athletes' chest, back and shoulders** (raises 7.5 / 6 to 10; §3.4) and **small lines on the same ceilings as big ones** (§3.3).
+11. **Pro setting:** L3 only, one priority muscle, up to 35 sets (§3.5).
 12. **Time model:** 1-minute changeover per exercise (0.5 in a superset pair) on top of v1's per-set minutes (§3.10).
-13. **R2-VOL-08 default** (to re-ask in plain words): alternate the first exercise between the two weekly exposures; bonus on the optional day, else on a day that already trains that muscle group (§3.9).
-14. **Older adults (60+) steps ≤ 3 %** (an age rule, not a lifestyle input; §3.4). Note for the re-ask: the R2-VOL-03 proposal that he answered with "No ... the plan doesn't change" listed 60+ among the 3 % defaults; his reason was the missing check-in data, not age, so this stays a PROPOSED plan-shape rule until he confirms it.
-15. **Calves to 10 a week** with a 4th set or the optional-day 'Calves' slot when there are fewer than 4 leg days (§3.3).
-16. **Barbell power / hang-power catches** follow the 3-5-rep rule of the full squat lifts (§3.13).
-17. From v1, still open: L3 definition (§3.2); share numbers he did not give (sprinters, strength-type athletes, baseball, combat, beginners, older; the 20-point pain shift; ~70 % contralateral for COD athletes; the bodybuilder upper-body 80-90 %); per-session limits (11 / 14 fractional, max 4 / 5 sets per exercise); glutes credit-only for field athletes; contacts per session caps; the optional-day size of 6; maintenance factors 50 / 60 / 70 % and the base.
+13. **Calves to 10 a week** with a 4th set or the optional-day 'Calves' slot when there are fewer than 4 leg days (§3.3).
+14. **Barbell power / hang-power catches** follow the 3-5-rep rule of the full squat lifts (§3.13).
+15. From v1, still open: L3 definition (§3.2); share numbers he did not give (sprinters, strength-type athletes, baseball, combat, beginners, older; the 20-point pain shift; ~70 % contralateral for COD athletes; the bodybuilder upper-body 80-90 %); per-session limits (11 / 14 fractional, max 4 / 5 sets per exercise); glutes credit-only for field athletes; contacts per session caps; the optional-day size of 6; maintenance factors 50 / 60 / 70 % and the base.
+16. **Ceiling vs step size** (§3.7.1, v1.2 verification): with steps kept at about 3 % / 5 % (λ ≤ 1), 12-week L2 / L3 shoulders and arms peak at 18 / 23, below their ceilings 22 / 25; keep the steps (ceiling = a maximum), or let λ rise up to 1.4 (late steps up to 7 %) so every trained line reaches its ceiling?
 
 ---
 
 ## 8. Sources
 
-**Coach and sheets.** `coach_answers_round2.md` (round 2, 2026-10-08; authoritative over round 1), `coach_answers_full.md` (138 of 140 answers, 2026-10-08), `coach_answers.md`; `synthesis/03_volume_dosing.md`, `03_volume_rules.json`, `generator_spec_v0.json`, `09_generator_inputs.md`; BYOP EFFORT and HOW IT FELT menus (`dumps/BYOP/`, 'MASTER EXERCISE LIBRARY' AX8:AY17). Google Sheets were not opened or changed.
+**Coach and sheets.** `coach_answers_round3.md` (round 3, 2026-10-09; authoritative over rounds 1 and 2), `coach_answers_round2.md` (round 2, 2026-10-08; authoritative over round 1), `coach_answers_full.md` (138 of 140 answers, 2026-10-08), `coach_answers.md`; `synthesis/03_volume_dosing.md`, `03_volume_rules.json`, `generator_spec_v0.json`, `09_generator_inputs.md`; BYOP EFFORT and HOW IT FELT menus (`dumps/BYOP/`, 'MASTER EXERCISE LIBRARY' AX8:AY17). Google Sheets were not opened or changed.
 
 **SCIENCE** (fetched or verified 2026-10-08 unless noted)
 - Schoenfeld BJ, Ogborn D, Krieger JW. Dose-response relationship between weekly resistance training volume and increases in muscle mass. J Sports Sci 2017 (online 2016). [PDF](https://paulogentil.com/pdf/Dose-response%20relationship%20between%20weekly%20resistance%20training%20volume%20and%20increases%20in%20muscle%20mass%20-%20A%20systematic%20review%20and%20metaanalysis.pdf)
@@ -1122,6 +1286,8 @@ Lower-body bilateral share **0.22** in weeks 1 and 8 (trap-bar RDL and 45-degree
 ---
 
 ## v1.1 verification log
+
+*History (v1.1). Round 3 retired or settled what this log treats as current for R2-VOL-01 / VOL-02 / VOL-03 / GEN-01 (check-in), R2-VOL-04 (rear delts 4 / 6 / 8), R2-VOL-08 (placement) and R2-PER-06 (end prompt); the "Flags kept" list is closed or carried in the v1.2 verification log at the end of this file.*
 
 **Adversarial check of the round-2 update, 2026-10-08.** One log for the three volume files; the same text is appended to `12_volume_algorithm_v1.md`, `03_volume_dosing.md` and `11_training_variables.md`, and a short JSON twin sits in each JSON (`verification.v1_1_adversarial` in 12, `verification_log.v1_1_adversarial` in 03 and 11).
 
@@ -1191,3 +1357,56 @@ Lower-body bilateral share **0.22** in weeks 1 and 8 (trap-bar RDL and 45-degree
 - New: 03's observed `res` totals still count KB swings as written (library category); 03 JSON `normalized_muscles_coach_v1` (v1 history) keeps the old KB credit.
 
 **Not re-run.** The v1.1 prototype (`r2_vol/`) sits in another session's scratchpad; no fix changes a number in the worked examples (none credits a KB swing to a muscle; example 5.4's next-block numbers already equal the previous start × 1.05), so 12 §5, 11 3.12-3.13 and the stairway tables were checked, not recomputed (12's 18 planned-stairway rows match its JSON exactly).
+
+---
+
+## v1.2 computation notes (2026-10-09)
+
+- **Read first:** `coach_answers_round3.md` in full; then this file and its JSON, `03_volume_dosing.md` / `03_volume_rules.json`, `11_training_variables.md` / `.json` and `05_session_architecture.md` / `05_templates.json` in full (the four pairs were updated together to v1.2).
+- **Prototype v1.2** (`r3_vol/vol_engine_v1_2.py`, a copy of v1.1 with the round-3 rules; v1.1 untouched): no check-in path; lines = FOCUS headers with one shoulders line; group credit (a set ≤ 1.0 per line or group); groups for the 2-4 rule and the floor (hips = glutes + hamstrings); calves one exercise per leg day (extra calf sets never become a second calf exercise on a leg day); Focus muscles (+F on start and ceiling, bounded by the priority caps); the stairway starts from the week-1 sets; the two-pass run that lands a time- or exercise-limited line on what it reaches; the one-set allowance under the 10 % ceiling. `tvm.py` implements the time-vs-minimums policy (§3.10.1); `ex51_v12.py` + `ex12_v12.py` compute §5; `mk_tables_v12.py` renders every Markdown table in §3.7.1 and §5 from the JSON outputs, so no number was retyped.
+- **Checks on every example and week:** no planned step above 7 %; no week at or above +10 % total sets except a single added set (largest rise +6.9 %, example 5.3 week 8); 2-4 exercises per trained group on every day and exactly one calf exercise per leg day (0 violations in 5.1-5.5 and 11's A and B); heavy squat and heavy deadlift never on the same day; no deload or maintenance week inside a block; every trained line climbs at least 2 whole sets (calves 1) over the block.
+- **Prototype-driven findings:** (1) with 2-4 exercises per group, a line often starts above its table start in week 1; planning its stairway from the table start would leave it flat for weeks, so the stairway now starts from the week-1 sets; (2) "reaches its ceiling in the last week" needs the ceiling a line can actually reach when the time or its exercise maxima stop it (5.1 triceps, 5.2 quads), hence the two-pass run; (3) a 10 % ceiling on a 10-set week blocks every added set, hence the one-set allowance; (4) in the time policy the hips group must be read with group credit, otherwise 2-day plans try to give glutes and hamstrings 10 sets each; (5) the coach's 2 × 45-minute example holds one big group plus the pinned calves (§5.5).
+- No Google Sheet was opened or changed. Only the eight files of this task were written; scratch work stays in the session scratchpad (`r3_vol/`, backups in `r3_vol/backup/`).
+
+---
+
+## v1.2 verification log
+
+**Adversarial check of the round-3 update, 2026-10-09.** One log for the four volume and session files; the same text is appended to `12_volume_algorithm_v1.md`, `03_volume_dosing.md`, `11_training_variables.md` and `05_session_architecture.md`. JSON twins: `verification.v1_2_adversarial` (12), `verification_log.v1_2_adversarial` (03, 11), `_meta.v1_2_adversarial_verification` (05).
+
+**Method.** `coach_answers_round3.md` read in full first. Then the v1.2 change tables, rule sections, tables, worked examples, pseudo-code and JSON of 12, 03, 11 and 05. Every round-3 answer that touches these files was traced to the rule that carries it in each file, in the Markdown **and** the JSON (a change-log line alone did not count). Leftover scans (regex over all eight files; every hit outside history sections and "retired" notes read by hand) for: check-in; readiness; a weekly step from effort or feedback; `adapt()`; logbook-driven changes and "learn from users' data"; stored user data; rear delts as a line with a floor of their own; Apache / CC BY licensing; a mandatory maintenance or easy week; the old PAR-Q wording. The time policy of the v1.2 prototype (`r3_vol/tvm.py`) was re-run once with one change (fix 6). All four JSON files parse; indent 1, UTF-8 and the missing final newline are unchanged. `node --test tests/` gives the same 7 failures before and after this pass (the stale compiled `model/` and the cross-checks that wait on the engine, flag 3); no new failure. Backups of the eight files before this pass: session scratchpad `r3_adv/backup/`. No Google Sheet was opened or changed.
+
+**Round-3 answers traced (✔ = applied in rules, tables, examples and JSON; FIXED = gap closed in this pass).**
+
+| Answer | Rule | 12 (engine) | 03 (dosing) | 11 (variables) | 05 (sessions) | Status |
+|---|---|---|---|---|---|---|
+| R3-VOL-01 | one shoulders line (front + side + rear delts), group credit, floor of 10 read on groups, a rear-delt exercise every week, "add rear delts" | §0, §3.1, §3.3, §3.10.2; JSON `starting_table.muscles.shoulders`, `counting` | §1, §9.2, §9.3, tension 27; JSON `counting.group_credit_v1_2`, `weekly_sets` | 3.2, 3.6 item 10, 3.8 | 0, 6.13, 9 step 11; station notes | **FIXED** (03 §3 rear-delt evidence line; 05 JSON: 40 station evidence strings and 7 station notes still said "rear delts get their own sets") |
+| R3-VOL-02 | no check-in, nothing adapts; printed self-adjust guide | §3.7.3, §3.14 | §9.13 | 3.5 | 6.12, 6.13, 9 | ✔ (history leftovers marked, fixes 1, 8) |
+| R3-VOL-03 | Monday's first exercise, then Thursday's; bonus on the optional day or a day that already trains it | §3.9 | §9.6 | 3.6 | 6.13 | ✔ |
+| R3-VOL-04 | stairway ~3 % then ~5 %, peak in the last week, effort 3 → 2 → 1-2 → 1 RIR + intensifiers; outputs only | §3.7.1-3.7.2; JSON `stairway` | §9.6, §9.9, tension 20 | 3.3, 3.10 | 6.12, 9 | **FIXED** (fix 4; 11's 12-week row still said "numbers PROPOSED"; 05 6.12 lacked the approval) |
+| R3-SES-01 | FOCUS groups (hips, shoulders); calves one exercise × 3 sets per leg day; field athletes 2-4 per group inside 12 + 2 core, cross pattern default, same-pattern template for size / high level; Focus muscle 1 / 2 +1-3, no sex field | §3.3, §3.5, §3.10 | §9.1, §9.4, §9.7, §9.10 | 3.6, 3.8 | 0, 4.7, 6.6, 7.2, 8 | ✔ (flag 4) |
+| R3-SES-02 | tell up front + offer → fewer groups directly → supersets → stairway on the trained groups; block ids, on/off toggles, add / remove, superset recommendation per pair | §3.10.1-3.10.3, §5.1, §5.5 | §9.7, §9.10 | 3.6 items 11-12, 3.8 | 5.1, 8.7.1, 9; JSON `blocks_R3SES02`, `superset_recommendation_R3SES02` | **FIXED** (fix 6; 5.5 keep order) |
+| R3-PER-01 | easy week recommended, never mandatory; the block ends and the user builds the next; holidays between blocks | §3.12 | §9.8 | 3.10 | 6.12, 9 step 10, 10 | **FIXED** (12 holiday mark "then maintenance"; 05 6.12 "does a maintenance phase"; 05 section 10; 05 JSON `deload_test_architecture.status` still named the v1.1 rule current) |
+| R3-ATH-01..05 | swimming dryland; 60+ and racket 50+ defaults; HYROX; R3-ATH-04 shares and in-season list; play days, cardio credit, event dates | §3.4, §3.10, §3.13 | §9.10-9.12 | 3.3, 3.8 | 6.7, 8.2, 8.5, 8.8, 8.9 | **FIXED in 11** (swimmers row; in-season game-heavy list lacked the R3-ATH-04 sports) |
+| R3-GEN-01 | nothing stored; short Blaze Camp health check (EN / ES, link to the official PAR-Q+), coach skip after the warning, "use at your own risk" + terms + liability release at every build | §2.2, §3.14, §1 | §9.3, tension 13 | 3.2, v1 item 26 | 9 step 1 | **FIXED** (fix 2; 05 still read "PAR-Q for clients ... R2-GEN-03") |
+
+**Fixes made in this pass.**
+1. **12 ‡ markers.** The v1.2 change table carried ‡ on its rows 2, 4, 6, 7, 8, 10, 12 and 13, which are the numbers of the v1.1 rows that round 3 changed (the intro says the v1.1 rows carry ‡). Moved to v1.1 rows 2, 4, 6, 7, 8, 10, 12, 13, and rows 1 and 3 marked too (start from the week-1 sets; the "too easy +2 points" inside row 3). JSON: every changed v1.1 entry of 12, 03 and 11 now carries `changed_again_in_v1_2`, and each `v1_1_*` block says it is history; 12 `supersedes[13]` (stairway "+ check-in table") marked; 12 `verification._note` says its top-level keys are the v1.1 run.
+2. **Stored data (R3-GEN-01).** 12 §2.2 said "the engine stores both counts so the data can later show which predicts results better"; 03 tension 13 (MD and JSON) said "both counts stored". Both now: the Pelland count may be shown, nothing is stored. 12 §1 and 03 §9.3 ("the tool learns from the data of all the people", "we'll collect data") carry the R3 marker; 11 v1 item 26 ("level up when logs read ...") says no logs are read.
+3. **Health check (R3-GEN-01).** 05 section 9 step 1 and JSON `generator_algorithm[0]`: the short Blaze Camp health check in English and Spanish with a link to the official PAR-Q+, the coach's skip after the legal warning, the "use at your own risk" box and the terms and liability release at every build, nothing stored, pointing to `DISCLAIMER.md` / `DISCLAIMER.es.md` (not rewritten).
+4. **Ceiling vs step size (R3-VOL-04).** The approved text asks for both "about 3 % ... about 5 %" and "reaches its ceiling exactly in the last week". With λ ≤ 1 a line whose ceiling is more than × G(N) above its start peaks below it: 12-week L2 / L3 shoulders and arms reach 18 / 23 against 22 / 25 (12 §3.7.1 table), while 03 §9.4, 03's v1.2 change row and 11 3.3 said "every trained line reaches its ceiling". Stated as an INFERRED reading in 12 §3.7.1 (JSON `stairway.ceiling_reach_v1_2`) and 11 3.3, wording corrected in 03 and 11, flagged: 12 §7 item 16, 03 tension 33 and question 11.5-5, 11 question 25. No number changed.
+5. **Machine-readable regressions in 12 JSON.** `stairway.limits.nonpriority_while_priority` had become a string (the compiler's cross-check X05 reads a number): restored to 0.03, scope in `nonpriority_scope_v1_2`; `stairway.limits.tag` no longer calls the retired older-adult cap PROPOSED. 03 JSON `generator_rules.caps.retired_v1_1` held round-3 retirements: renamed `retired_v1_2` (no tool reads it); 03 MD §9.7 "Retired (v1.1, round 3)" → v1.2. 03 JSON `focus_muscles.others` and `feedback_loop` pointed at `tensions[31]` / `tensions[26]` (0-based indexes of the wrong tensions) → `tensions[30]` / `tensions[25]`. 11 JSON `checkin.retired_v1_1.source_12` pointed at 12 paths that no longer exist; `readiness_gate` gained a v1.2 status (its v1.1 replacements are retired too).
+6. **Time policy, step 2 (R3-SES-02).** The prototype gives a kept group that starts above its floor a ceiling of *its week-1 sets + the level's climb*, which can pass the level ceiling (R2-VOL-06): in 12 §5.1 shoulders 16 and biceps 15 against the L1 ceiling 14 (time-lowered to 15 and 14), and §5.1 / §3.10.1 printed "ceilings lowered to ... shoulders 15, biceps 14". Re-run here with the step-2 ceiling clamped to the level ceiling (never below week 1 + 2): §5.5 is unchanged; in §5.1 the 4 × 60 client keeps hips, quads, back, chest and shoulders (quads and back reach 14) and biceps join triceps and calves on compound credit. Documented in 12 §3.10.1 and §5.1 and JSON `session_limits.time_vs_minimums_R3SES02.step2_ceiling_flag_v1_2`; clamping proposed, 12 §7 item 4. The published 5.1 numbers are the unclamped run.
+7. **Smaller round-3 gaps.** 12 §3.12: a holiday mark inside a block ends it "then maintenance" → maintenance optional (R3-PER-01); 05 6.12 and section 10 likewise; 05 6.12 now carries the R3-VOL-04 approval; 12 §5.5 keep order listed calves twice; 11 3.10 / JSON `plan_shapes[0]` "numbers PROPOSED" → approved (R3-VOL-04); 11 3.3 swimmers row (2 days for younger or lower-level swimmers, Olympic 2-3 days, 25 % plyo) and in-season game-heavy list (R3-ATH-04 sports) completed in MD and JSON; 03 tensions 6, 8 and answered v0 questions 1, 12 and 15 got their v1.2 status; 03 §11.2 item 7 pointed at "12 §7 (v1.1)".
+8. **History logs.** The v1.1 verification logs of 12, 03 and 11 now open with a one-line note that round 3 retired or settled what they treat as current (check-in, rear delts 4 / 6 / 8, R2-VOL-08, the end prompt).
+
+**Leftover scans after the fixes (all eight files).** Check-in, step tables, 'Failed', holds, repeated weeks, the block-at-risk prompt, the week-by-week mode, readiness and the life column: only in "retired" notes, ‡ / † history rows, `*_retired_*` JSON keys, the v1.1 tables kept "for the record" and the verification logs. `adapt()`: none. Logbook: only as a printed page for the user's own notes ("never read back") and as OBSERVED sheet evidence. Stored data / learning from users: only "nothing is stored" statements and retired notes. Rear delts with their own 4 / 6 / 8 or caps 8 / 12 / 16: only in retired notes, v1.1 history and the observed evidence; every current rule reads them inside the shoulders group. Apache / CC BY / Creative Commons: none in these files. A mandatory maintenance or easy week: none ("recommendation, not mandatory" everywhere). PAR-Q: only in 05 section 9 step 1 (now R3-GEN-01) and the v1.1 05 verification table (history). Level up on '8 - That was perfect' or easier stays: it is the coach's own PER-06 rule (RIGHT), judged by the user or coach at the rebuild, never read from logs.
+
+**Flags (not decided here).**
+1. Ceiling vs step size (fix 4): keep the small steps or let the late steps rise to 7 % - 12 §7 item 16.
+2. The step-2 ceiling clamp (fix 6), which changes §5.1's keep-time branch (biceps to compound credit) - 12 §7 item 4.
+3. Engine / compiler follow-ups (outside these files): the compiler cross-checks X01 / X02 / X05 still compare the engine's v1.1 rules (side and rear delts as separate lines, 3 % for 60+) with 12 v1.2; `tools/compile/templates-profiles.mjs` maps the optional-day Calves condition to `if_priority:calves` only when it contains "priority", and 05 v1.2 now says "a Focus muscle", so those 14 stations compile to a plain-text condition; `model/` needs a recompile. The 05 station notes changed here keep the word "rear", which the compiler reads to pick the rear-delt variant, and add no exercise keyword the engine matches.
+4. 12 §5.4 hotel-gym maintenance week: calves on Monday and Thursday only, while Tuesday and Friday train hips (RDL, hip thrust, leg curl); maintenance is not floored, but one calf exercise per leg day (R3-SES-01) is not met there. Prototype output, not recomputed.
+5. 03 JSON `v1_changes[39].where` ("tensions[24]", 0-based would be [23]) is v1 history and left as written.
+
+**Not re-run.** Apart from the clamp experiment (a copy of `tvm.py` with a CLAMP switch in `r3_adv/proto/`; the published numbers stay the unclamped run), no worked example or table was recomputed; no fix changes a published number.
