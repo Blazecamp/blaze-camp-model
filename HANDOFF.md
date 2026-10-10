@@ -32,7 +32,7 @@ Start with `docs/README.md` (the map), `docs/CONTEXT_FOR_AI.md` (one-file briefi
 | Website | Not started, by design. Proposal in `synthesis/13_product_options.md`. |
 
 ## Next steps, in order
-1. Do not recommit the old engine or recreate the branch: v0.4 is already committed and on `origin/main` as `04637ed`; the local `planner-build` branch exists. Verify current Git state before acting. This clarification/workflow work has not been pushed.
+1. Do not recommit the old engine or recreate the branches. On 2026-10-10, `planner-build` and `review/codex` were published to GitHub without changing `main` (`04637ed`). The current clarification/workflow and progression implementation commits are `585b0c3` and `f76884e`. Start from [planner-build](https://github.com/Blazecamp/blaze-camp-model/tree/planner-build), fetch and verify the current Git state, and inspect any subsequent changes before acting. Publication is for shared review, not approval to launch the build or promote the engine.
 2. Integrate the verified progression reference with the planner's real exercise/credit/time instance. Certify all covered week costs (including reassigned epochs), use actual credited endpoints, handle zero-headroom objectives, settle the unproved peak-allocator claims, and validate the final plan/edit contract. The isolated arithmetic work is finished; the full planner is not. Do not flip the readiness flag just to bypass preflight.
 3. Once the design is genuinely ready, run the workflow in shadow mode using the documented host. Failed packages or reviews must block dependent work. Integration writers wait for package owners to finish. Technical gates and two stable clean coach-eye review rounds must pass. No automatic commits, merge, engine switch or deletion of the old engine is authorized by a shadow build.
 4. Review the artifacts and resolve remaining coach defaults, including D1, D4 and D13. Promotion requires separate explicit human authorization tied to the reviewed candidate and successful release checks. The current CX answers are not that authorization. Merge into `main` only after review and approval.
@@ -50,7 +50,9 @@ Start with `docs/README.md` (the map), `docs/CONTEXT_FOR_AI.md` (one-file briefi
    - map exercise ids to open databases (free-exercise-db, wger) for images and instructions
 
 ## Outside review
-`CODEX_BRIEF.md` requested an independent evidence review. A local `review/codex` worktree contains `reviews/codex-model-review.md`; it has not been pushed, and it is not on `planner-build`. On this Mac the worktree is `../blaze-camp-model-review`. Do not claim it is publicly available or merge it without reviewing the diff.
+`CODEX_BRIEF.md` requested an independent evidence review. The report is now published on the separate `review/codex` branch at commit `9483ea1`: [read the foundation review and upgrade blueprint](https://github.com/Blazecamp/blaze-camp-model/blob/9483ea18e52fc023ac996411337547f1704878a4/reviews/codex-model-review.md). It is not merged into `planner-build` or `main`. On this Mac its worktree remains `../blaze-camp-model-review`.
+
+Treat that report as historical research context, not current policy authority or an audit of the new implementation. It reviewed the canonical foundation at `c13cbaa` plus selected `3c373fa` documentation and explicitly excluded implementation directories. The newer CX answers and progression work resolve or supersede some questions it raised. The current implementation result is [PROGRESSION_VERIFICATION.md on planner-build](https://github.com/Blazecamp/blaze-camp-model/blob/planner-build/design/PROGRESSION_VERIFICATION.md). Review subsequent commits before merging either branch.
 
 ## Workflow and validation limits
 
