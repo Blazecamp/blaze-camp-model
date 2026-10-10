@@ -1,0 +1,7 @@
+pickleball {"care":"one"}: kept calves,hips | nodes 130 | totals 18 18 18 19 19 19 19 20 20 20 20 21
+pickleball {"care":"one","minutes":75}: kept calves,hips,quads,back,chest | nodes 266 | totals 42 43 43 44 44 45 46 47 48 50 51 52
+swimmer {}: kept back,hips | nodes 2166 | totals 22 22 23 23 24 24 25 26 26 27 28 29
+swimmer {"minutes":90}: kept back,hips,quads,chest,calves,shoulders | nodes 16749 | totals 61 62 63 64 66 67 69 71 73 75 78 80
+crossfit {}: kept back | nodes 113 | totals 23 23 24 24 24 25 25 26
+crossfit {"minutes":90}: kept hips,quads,back,chest,calves,shoulders,biceps | nodes 486 | totals 65 66 68 69 71 74 77 81
+checksum e905a0f2

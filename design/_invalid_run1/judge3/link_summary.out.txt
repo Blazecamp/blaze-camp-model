@@ -1,0 +1,36 @@
+
+all days 2-6: 105 cells (L2, 30-120 min)
+  aesthetics  cells  35 | weekly-capacity stage 1 keeps a group the exact per-day oracle rejects: 9 | ... and loses a group the exact oracle keeps: 0 | full template skeleton cannot hold floors + climb + minutes: 20 (unknown 0) | oracle 'unknown': exact 0, weekly 0
+  athletic    cells  35 | weekly-capacity stage 1 keeps a group the exact per-day oracle rejects: 3 | ... and loses a group the exact oracle keeps: 0 | full template skeleton cannot hold floors + climb + minutes: 23 (unknown 0) | oracle 'unknown': exact 0, weekly 0
+  strength    cells  35 | weekly-capacity stage 1 keeps a group the exact per-day oracle rejects: 8 | ... and loses a group the exact oracle keeps: 6 | full template skeleton cannot hold floors + climb + minutes: 35 (unknown 0) | oracle 'unknown': exact 0, weekly 0
+  TOTAL       cells 105 | weekly-capacity stage 1 keeps a group the exact per-day oracle rejects: 20 | ... and loses a group the exact oracle keeps: 6 | full template skeleton cannot hold floors + climb + minutes: 78 (unknown 0) | oracle 'unknown': exact 0, weekly 0
+
+days 2-4 only (the 5- and 6-day aesthetics / athletic / strength templates reuse the 4 main days): 63 cells (L2, 30-120 min)
+  aesthetics  cells  21 | weekly-capacity stage 1 keeps a group the exact per-day oracle rejects: 5 | ... and loses a group the exact oracle keeps: 0 | full template skeleton cannot hold floors + climb + minutes: 16 (unknown 0) | oracle 'unknown': exact 0, weekly 0
+  athletic    cells  21 | weekly-capacity stage 1 keeps a group the exact per-day oracle rejects: 1 | ... and loses a group the exact oracle keeps: 0 | full template skeleton cannot hold floors + climb + minutes: 17 (unknown 0) | oracle 'unknown': exact 0, weekly 0
+  strength    cells  21 | weekly-capacity stage 1 keeps a group the exact per-day oracle rejects: 4 | ... and loses a group the exact oracle keeps: 2 | full template skeleton cannot hold floors + climb + minutes: 21 (unknown 0) | oracle 'unknown': exact 0, weekly 0
+  TOTAL       cells  63 | weekly-capacity stage 1 keeps a group the exact per-day oracle rejects: 10 | ... and loses a group the exact oracle keeps: 2 | full template skeleton cannot hold floors + climb + minutes: 54 (unknown 0) | oracle 'unknown': exact 0, weekly 0
+
+cells where the two oracles disagree:
+  aesthetics 2x30: exact keeps [hips]; weekly capacity adds [chest]
+  aesthetics 3x30: exact keeps [hips]; weekly capacity adds [quads]
+  aesthetics 3x45: exact keeps [hips, quads, back, chest]; weekly capacity adds [shoulders]
+  aesthetics 4x30: exact keeps [hips, quads]; weekly capacity adds [back]
+  aesthetics 4x45: exact keeps [hips, quads, back, chest, shoulders]; weekly capacity adds [calves]
+  aesthetics 5x30: exact keeps [hips, quads]; weekly capacity adds [back]
+  aesthetics 5x45: exact keeps [hips, quads, back, chest, shoulders]; weekly capacity adds [calves]
+  aesthetics 6x30: exact keeps [hips, quads]; weekly capacity adds [back]
+  aesthetics 6x45: exact keeps [hips, quads, back, chest, shoulders]; weekly capacity adds [calves]
+  athletic 4x60: exact keeps [hips, quads, back, chest, calves]; weekly capacity adds [shoulders]
+  athletic 5x60: exact keeps [hips, quads, back, chest, calves]; weekly capacity adds [shoulders]
+  athletic 6x60: exact keeps [hips, quads, back, chest, calves]; weekly capacity adds [shoulders]
+  strength 3x30: exact keeps [hips]; weekly capacity adds [quads]
+  strength 3x45: exact keeps [hips, quads]; weekly capacity adds [calves]
+  strength 4x30: exact keeps [quads, chest]; weekly capacity adds [hips, calves] and loses [chest]
+  strength 4x45: exact keeps [hips, quads, chest, shoulders]; weekly capacity adds [back] and loses [shoulders]
+  strength 5x30: exact keeps [quads, chest]; weekly capacity adds [hips, calves] and loses [chest]
+  strength 5x45: exact keeps [hips, quads, chest, shoulders]; weekly capacity adds [back] and loses [shoulders]
+  strength 6x30: exact keeps [quads, chest]; weekly capacity adds [hips, calves] and loses [chest]
+  strength 6x45: exact keeps [hips, quads, chest, shoulders]; weekly capacity adds [back] and loses [shoulders]
+
+full template feasible in 27/105 cells; shortest feasible session by family and days: aesthetics 2d: never; aesthetics 3d: never; aesthetics 4d: 60; aesthetics 5d: 60; aesthetics 6d: 60; athletic 2d: never; athletic 3d: never; athletic 4d: 75; athletic 5d: 75; athletic 6d: 75; strength 2d: never; strength 3d: never; strength 4d: never; strength 5d: never; strength 6d: never

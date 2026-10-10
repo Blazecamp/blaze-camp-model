@@ -1,0 +1,6 @@
+research order: days on first, supersets off first, sets at minimum first  LP B&B: feasible 189968 nodes 10945 ms | integer-only DFS: UNKNOWN 3000001 nodes 10603 ms
+days off first, supersets off first, sets at minimum first                 LP B&B: feasible 17 nodes 15 ms | integer-only DFS: feasible 539574 nodes 3480 ms
+days off first, peak sets up, week-1 sets down                             LP B&B: feasible 23 nodes 16 ms | integer-only DFS: feasible 539632 nodes 3795 ms
+days off first, all sets up                                                LP B&B: feasible 24 nodes 16 ms | integer-only DFS: feasible 539641 nodes 3769 ms
+days on first, supersets ON first, sets at minimum first                   LP B&B: feasible 25 nodes 31 ms | integer-only DFS: feasible 43 nodes 0 ms
+days on first, supersets ON first, peak sets up                            LP B&B: feasible 28 nodes 28 ms | integer-only DFS: UNKNOWN 3000001 nodes 10511 ms

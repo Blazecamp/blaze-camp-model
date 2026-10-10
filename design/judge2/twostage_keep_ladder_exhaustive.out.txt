@@ -1,0 +1,4 @@
+plans where a legal plan beats the ladder only by passing the ladder ceiling (level start x G(N)): 3
+instances 400 (host partner in 205); unknown 0; keep vector differs from exhaustive lexicographic maximum: 0; plans with a kept group 203; ladder checked 203, ladder not the tie-broken leximin optimum: 0; no group 197
+plans where a legal plan beats the ladder only by passing the ladder ceiling (level start x G(N)): 7
+instances 400 (host partner in 186); unknown 0; keep vector differs from exhaustive lexicographic maximum: 0; plans with a kept group 228; ladder checked 228, ladder not the tie-broken leximin optimum: 0; no group 172

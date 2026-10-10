@@ -1,0 +1,50 @@
+pickleball: verdicts that differ 0, not decided by the integer search within 2000000 nodes: 0  (129 ms)
+   calves: LP fits/2 | integers fits/34
+   hips: LP fits/8 | integers fits/43
+   quads: LP infeasible/1 | integers infeasible/27
+   back: LP infeasible/1 | integers infeasible/50
+   chest: LP infeasible/0 | integers infeasible/0
+   shoulders: LP infeasible/0 | integers infeasible/0
+   triceps: LP infeasible/0 | integers infeasible/0
+   biceps: LP infeasible/0 | integers infeasible/0
+pickleball phi=1: verdicts that differ 0, not decided by the integer search within 2000000 nodes: 0  (29 ms)
+   calves: LP fits/2 | integers fits/29
+   hips: LP fits/8 | integers fits/86
+   quads: LP infeasible/1 | integers infeasible/25
+   back: LP infeasible/1 | integers infeasible/32
+   chest: LP infeasible/0 | integers infeasible/0
+   shoulders: LP infeasible/0 | integers infeasible/0
+   triceps: LP infeasible/0 | integers infeasible/0
+   biceps: LP infeasible/0 | integers infeasible/0
+crossfit: verdicts that differ 0, not decided by the integer search within 2000000 nodes: 0  (50 ms)
+   hips: LP infeasible/1 | integers infeasible/90
+   quads: LP infeasible/0 | integers infeasible/0
+   back: LP fits/8 | integers fits/45
+   chest: LP fits/12 | integers fits/47
+   shoulders: LP fits/13 | integers fits/55
+   calves: LP infeasible/1 | integers infeasible/5
+   triceps: LP infeasible/0 | integers infeasible/0
+   biceps: LP infeasible/1 | integers infeasible/23
+crossfit phi=1: verdicts that differ 0, not decided by the integer search within 2000000 nodes: 0  (5 ms)
+   hips: LP infeasible/1 | integers infeasible/4
+   quads: LP infeasible/0 | integers infeasible/0
+   back: LP fits/8 | integers fits/37
+   chest: LP infeasible/1 | integers infeasible/8
+   shoulders: LP infeasible/2 | integers infeasible/12
+   calves: LP infeasible/0 | integers infeasible/0
+   triceps: LP infeasible/0 | integers infeasible/0
+   biceps: LP infeasible/0 | integers infeasible/0
+swimmer: verdicts that differ 0, not decided by the integer search within 2000000 nodes: 0  (522 ms)
+   back: LP fits/8 | integers fits/63
+   hips: LP fits/13 | integers fits/70
+   quads: LP infeasible/17 | integers infeasible/3412
+   chest: LP fits/19 | integers fits/633
+   shoulders: LP infeasible/14 | integers infeasible/2287
+   calves: LP infeasible/5 | integers infeasible/139
+swimmer phi=1: verdicts that differ 0, not decided by the integer search within 2000000 nodes: 0  (99 ms)
+   back: LP fits/8 | integers fits/57
+   hips: LP fits/17 | integers fits/63
+   quads: LP infeasible/1 | integers infeasible/47
+   chest: LP infeasible/17 | integers infeasible/304
+   shoulders: LP infeasible/1 | integers infeasible/13
+   calves: LP infeasible/1 | integers infeasible/11

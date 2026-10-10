@@ -1,0 +1,54 @@
+
+## 08 pickleball, 52 y, L1, stay-active, knee pain, 2 x 45 min, 12 weeks - flatFirst=1
+chosen 2 x 45 min; "the day holds" limit 49.5 min (fit factor 1.1); model 131 integer variables, 363 rows; 337 ms CPU
+  fixed blocks Mon (A knee + pull): warm-up 8 + core opener 2 x 2 (as a pair) 5.5 + medball rotational throw 4.2 + Olympic lift (DB / KB, clean family) 7 + joint care: rotator cuff 3.7 + joint care: tibialis / soleus 3.7 = 32.1 min
+  fixed blocks Thu (B hinge + push): warm-up 8 + core opener 2 x 2 (as a pair) 5.5 + low box jump (landing) 4.3 + ankle hops (low contacts) 2.8 + Olympic lift (DB / KB, snatch family) 7 + joint care: wrist / elbow 3.7 + joint care: tibialis / soleus 3.7 = 35 min
+tiers (each frozen exactly before the next):
+  T1a  T1-POL-05 groups trained directly (keep order, one exact question each) =     2  optimal  29 nodes   [calves:fits/9 hips:fits/18 quads:infeasible/1 back:infeasible/1 chest:infeasible/0 shoulders:infeasible/0 triceps:infeasible/0 biceps:infeasible/0]
+  T1b  T1-POL-06 fewest room cuts                                             =     2  optimal  21 nodes
+  T1c  T1-POL-07 pattern stations in the room that is left                    =   -28  optimal  1 nodes
+  T3f  T3-STW-03 flat weeks of the weekly total (optional reading: above the minutes) =     7  optimal  12 nodes
+  T4   T4-TIME-01 minutes over the chosen length (week 1 + peak week)         =   164  optimal  9 nodes
+  T5a  T5-CAP-04 worst peak shortfall                                         =     0  optimal  0 nodes
+  T5b  T5-CAP-04 total peak shortfall                                         =     0  optimal  0 nodes
+  T5c  T3-STW-08 week 1 nearest the level start                               =     1  optimal  0 nodes
+  T6   T6-CNT-03 fewest exercises                                             =     6  optimal  0 nodes
+  T7a  T7-PLC-02 uneven exposures                                             =     2  optimal  3 nodes
+  T7b  T7-PAIR-03 fewest supersets switched on                                =     2  optimal  1 nodes
+  T9   canonical tie-break (earliest slots first)                             =   467  optimal  8 nodes
+trained directly (FULL): calves, hips
+  calves    start S 6, ceiling C 8, floor 7: Mon calf raise 3->4 | Thu calf raise 4->4
+  hips      start S 10, ceiling C 13, floor 10: Mon single-leg / staggered RDL 2->3, leg curl 2->2 | Thu DB Romanian deadlift (bilateral) 3->4, leg curl 3->4
+not trained directly: quads (pattern kept: Mon step-up (knee-friendly, unilateral) 2 sets); back (pattern kept: Mon row 2 sets); chest (pattern kept: Thu chest press 2 sets); shoulders (time); triceps (no station; compound credit); biceps (no station; compound credit)
+room cuts taken: Olympic lift off (switchable back on); joint care moves to the optional day   (not needed: ankle hops off)
+supersets on (needed): Mon step-up (knee-friendly, unilateral) + row; Thu DB Romanian deadlift (bilateral) + chest press
+
+weekly hard sets per group, weeks 1..12 (credited group sets on the main days: prime 1.0, helpers 0.25, at most 1.0 a set)
+| group | state | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| calves | trained | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 7 | 8 | 8 | 8 |
+| hips | trained | 10.5 | 10.5 | 10.5 | 11.5 | 11.5 | 11.5 | 11.5 | 12.5 | 12.5 | 12.5 | 12.5 | 13.5 |
+| quads | pattern | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
+| back | pattern | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
+| chest | pattern | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
+| shoulders | credit | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| triceps | credit | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
+| biceps | credit | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
+| total resistance sets | | 23 | 23 | 23 | 24 | 24 | 24 | 24 | 25 | 25 | 26 | 26 | 27 |
+| rise vs previous week | | - | 0 | 0 | +4.3 % | 0 | 0 | 0 | +4.2 % | 0 | +4 % | 0 | +3.8 % |
+direct sets of the trained groups: calves 7 7 7 7 7 7 7 7 7 8 8 8 (lambda 0.30); hips 10 10 10 11 11 11 11 12 12 12 12 13 (lambda 0.59)
+stairway (exact, placed weeks): lines not landing in week 12: 1; flat weeks of the total: 7 of 11 (arithmetic minimum 7); flat weeks in a row: 3; distance to the coach's rounded curve: 2 set-weeks; 122 DP states
+
+minutes per day, weeks 1..12 (supersets on where needed; chosen 45, limit 49.5)
+| day | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | straight sets, last week |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Mon | 44.5 | 44.5 | 44.5 | 47.5 | 47.5 | 47.5 | 47.5 | 47.5 | 47.5 | 49.3 | 49.3 | 49.3 | 53.3 |
+| Thu | 44.8 | 44.8 | 44.8 | 44.8 | 44.8 | 44.8 | 44.8 | 47.1 | 47.1 | 47.1 | 47.1 | 48.9 | 52.9 |
+exercises per day (resistance, last week): Mon 5, Thu 4
+certificate over all 12 weeks (integers): days over the limit 0, group-weeks under the floor 0, over the ceiling 0, slots that lost a set 0, weeks outside the endpoint sandwich 0, VOL-07 breaks 0, group steps over 1 set 0, weekly totals rising 10 % or more 0, groups not at their peak in week 12: 0  => PASS
+last week, day by day: Mon: step-up (knee-friendly, unilateral) 2->2, row 2->2, single-leg / staggered RDL 2->3, leg curl 2->2, calf raise 3->4 || Thu: DB Romanian deadlift (bilateral) 3->4, leg curl 3->4, chest press 2->2, calf raise 4->4
+CPU: tiers 337 ms (84 nodes, 3210 LP pivots), stairway + placement + certificate 7 ms
+athletic budget (planned / target per week; per-set doses climb, never drop):
+  throws          planned 40 40 40 40 40 40 40 40 40 40 40 40 | target 51 53 54 56 58 59 61 62 64 66 67 69 | attainment 58-78 %  <- told: the stations cannot hold the target (add a set or a station = minutes)
+  low_contacts    planned 35 38 42 45 49 50 50 50 50 50 50 50 | target 35 38 42 45 49 52 56 59 63 66 70 73 | attainment 68-100 %  <- told: the stations cannot hold the target (add a set or a station = minutes)
+  jump_contacts   planned 7 7 7 7 7 7 7 7 7 7 7 7 | target 7 7 7 7 7 7 7 7 7 7 7 7 | attainment 100-100 %

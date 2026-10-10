@@ -1,0 +1,100 @@
+{
+  "schema": "intake/2",
+  "_comment": "Coach sample 5 (R2-GEN-07): 42-year-old general population, 1 year training, bootcamp circuits (goal general + format bootcamp -> fat_loss_bootcamp.3 'Bootcamp 1-2-3', two circuits a day), 3 days x 45 min, 8 weeks, 160 lb, Spanish output. Bootcamp kit = FIELD_TRACK_KIT (boxes, medballs, cones, mats) + dumbbells + kettlebells; no barbell, no bands.",
+  "id": "sample-05-bootcamp",
+  "lang": "es",
+  "units": "lb",
+  "role": "self",
+  "health_route": null,
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "release": {
+    "accepted": true,
+    "version": "release.client",
+    "lang": "es",
+    "guardian": null
+  },
+  "age": 42,
+  "body_weight": {
+    "value": 160,
+    "unit": "lb"
+  },
+  "experience": {
+    "years_consistent": 1,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "goal": "general",
+  "format": "bootcamp",
+  "sport": null,
+  "activity": null,
+  "priority_muscles": [],
+  "lift_style": "balanced",
+  "schedule": {
+    "days_per_week": 3,
+    "weekdays": [
+      "Mon",
+      "Wed",
+      "Fri"
+    ],
+    "session_minutes": 45,
+    "start_date": "2026-10-12"
+  },
+  "plan": {
+    "mode": "fixed_8",
+    "maint_reason": null,
+    "maint_weeks": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "body"
+    ],
+    "just_finished_block": false
+  },
+  "equipment": {
+    "profile": "FIELD_TRACK_KIT",
+    "extras": [
+      "dumbbell",
+      "kettlebell"
+    ],
+    "machines": [],
+    "preference": "none",
+    "detail": {
+      "heaviest_db_pair": 35,
+      "medball_lb_owned": [
+        6,
+        8,
+        10,
+        14
+      ],
+      "box_height_in": 20,
+      "running_space": "10_20m",
+      "cardio_options": [
+        "run"
+      ]
+    }
+  },
+  "pain": [],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "start",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false,
+    "cardio_adjust": 0,
+    "older_athletic_opt_in": false,
+    "split_style": "default"
+  },
+  "growth_stage": null,
+  "email": null,
+  "coach_rule_pack_ids": []
+}

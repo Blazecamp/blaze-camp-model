@@ -1,0 +1,21 @@
+{"t":0,"NG":8,"ND":6,"ngd":34,"kept":7,"ms":2294,"nodes":26179,"maxQ":7708,"unknown":0,"viol":0}
+{"t":1,"NG":8,"ND":6,"ngd":32,"kept":7,"ms":319,"nodes":1328,"maxQ":68,"unknown":0,"viol":0}
+{"t":2,"NG":8,"ND":6,"ngd":23,"kept":7,"ms":191,"nodes":939,"maxQ":311,"unknown":0,"viol":0}
+{"t":3,"NG":8,"ND":6,"ngd":30,"kept":4,"ms":89,"nodes":161,"maxQ":15,"unknown":0,"viol":0}
+{"t":4,"NG":8,"ND":6,"ngd":28,"kept":8,"ms":2285,"nodes":32305,"maxQ":7597,"unknown":0,"viol":0}
+{"t":5,"NG":8,"ND":6,"ngd":29,"kept":8,"ms":459,"nodes":2820,"maxQ":1051,"unknown":0,"viol":0}
+{"t":6,"NG":8,"ND":6,"ngd":22,"kept":8,"ms":167,"nodes":553,"maxQ":23,"unknown":0,"viol":0}
+{"t":7,"NG":8,"ND":6,"ngd":35,"kept":6,"ms":322,"nodes":1645,"maxQ":282,"unknown":0,"viol":0}
+{"t":8,"NG":8,"ND":6,"ngd":33,"kept":7,"ms":8213,"nodes":123419,"maxQ":76006,"unknown":1,"viol":0}
+{"t":9,"NG":8,"ND":6,"ngd":32,"kept":7,"ms":646,"nodes":4997,"maxQ":2021,"unknown":0,"viol":0}
+{"t":10,"NG":8,"ND":6,"ngd":36,"kept":6,"ms":1331,"nodes":11096,"maxQ":2066,"unknown":0,"viol":0}
+{"t":11,"NG":8,"ND":6,"ngd":27,"kept":8,"ms":508,"nodes":2157,"maxQ":355,"unknown":0,"viol":0}
+{"t":12,"NG":8,"ND":6,"ngd":31,"kept":7,"ms":199,"nodes":517,"maxQ":28,"unknown":0,"viol":0}
+{"t":13,"NG":8,"ND":6,"ngd":31,"kept":8,"ms":39945,"nodes":320066,"maxQ":76006,"unknown":3,"viol":0}
+{"t":14,"NG":8,"ND":6,"ngd":28,"kept":6,"ms":224,"nodes":5022,"maxQ":2034,"unknown":0,"viol":0}
+{"t":15,"NG":8,"ND":6,"ngd":27,"kept":7,"ms":31121,"nodes":702974,"maxQ":76006,"unknown":9,"viol":0}
+{"t":16,"NG":8,"ND":6,"ngd":24,"kept":8,"ms":339,"nodes":1671,"maxQ":344,"unknown":0,"viol":0}
+{"t":17,"NG":8,"ND":6,"ngd":28,"kept":7,"ms":168,"nodes":440,"maxQ":29,"unknown":0,"viol":0}
+{"t":18,"NG":8,"ND":6,"ngd":24,"kept":6,"ms":148,"nodes":799,"maxQ":255,"unknown":0,"viol":0}
+{"t":19,"NG":8,"ND":6,"ngd":21,"kept":7,"ms":245,"nodes":2145,"maxQ":1196,"unknown":0,"viol":0}
+SUMMARY groups 8-8 x days 6-6, budget 20000: instances 20; ms p50 339 p90 31121 max 39945; over 1 s 6; plans with an 'unknown' verdict 3; hard-row violations 0; kept groups p50 7; group-days p50 29

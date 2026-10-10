@@ -1,0 +1,65 @@
+### 08 pickleball 2 x 45: sets per exercise, week 1 -> 12
+Mon (A knee + pull)
+   calves CALF [A.s16]          3 3 3 3 3 3 3 4 4 4 4 4
+   hips UHD [A.s10]             3 3 3 3 3 3 3 3 3 3 3 3
+   hips LEGFLEX [A.s14]         2 2 2 3 3 3 3 3 3 3 3 3
+Thu (B hip + push)
+   calves CALF [B.s16]          3 3 3 3 3 3 3 3 3 3 3 3
+   hips UHD [B.s08]             3 3 3 3 3 3 3 3 3 3 3 3
+   hips LEGFLEX [B.s12]         2 2 2 2 2 2 2 2 2 2 2 3
+   pattern HPUSH (chest)        2 2 2 2 2 2 2 2 2 2 2 2
+add sequences (which day takes each added set, in order):
+   calves     Mon   | steps in weeks 8
+   hips       Mon -> Thu   | steps in weeks 4, 12
+weekly rises of all resistance sets: 0 0 0 1 0 0 0 1 0 0 0 1  (planned curve by group: calves 6.0 6.1 6.1 6.2 6.3 6.3 6.4 6.5 6.6 6.8 6.9 7.0 | hips 10.0 10.1 10.2 10.4 10.5 10.6 10.8 11.1 11.3 11.5 11.8 12.0)
+### 01 swimmer 3 x 60: sets per exercise, week 1 -> 12
+Mon (S1 jump + knee + pull)
+   back HPULL [S1.s10]          2 2 3 3 3 3 3 3 3 4 4 4
+   back VPULL [S1.s14]          2 2 2 2 2 2 3 3 3 3 3 4
+   back VPULL [S1.x1]           2 2 2 2 2 2 2 3 3 3 3 3
+Wed (S2 medball + hip + push)
+   hips BHD [S2.s09]            2 2 2 2 3 3 3 3 3 3 3 3
+   hips UHD [S2.s13]            2 2 2 2 2 2 2 2 2 2 3 3
+   hips LEGFLEX [S2.x2]         2 2 2 2 2 2 2 2 2 2 2 2
+Fri (S3 Olympic + strength)
+   back HPULL [S3.s09]          2 2 2 2 2 2 2 2 2 2 2 2
+   back VPULL [S3.s13]          2 2 2 2 2 2 2 2 2 2 2 2
+   hips BHD [S3.s06]            2 2 2 2 2 2 2 2 2 2 2 2
+   hips LEGFLEX [S3.s10]        2 2 2 2 2 2 2 2 2 2 2 2
+   pattern UKD (quads)          2 2 2 2 2 2 2 2 2 2 2 2
+add sequences (which day takes each added set, in order):
+   back       Mon -> Mon -> Mon -> Mon -> Mon   | steps in weeks 3, 7, 8, 10, 12
+   hips       Wed -> Wed   | steps in weeks 5, 11
+weekly rises of all resistance sets: 0 0 1 0 1 0 1 1 0 1 1 1  (planned curve by group: back 10.0 10.3 10.6 10.8 11.1 11.5 12.0 12.5 13.1 13.7 14.3 15.0 | hips 10.0 10.1 10.2 10.4 10.5 10.6 10.8 11.1 11.3 11.5 11.8 12.0)
+### 04 CrossFit class 4 x 60: sets per exercise, week 1 -> 8
+Mon (squat day)
+   back HPULL [SQ.s07]          3 3 3 3 3 3 3 3
+   back VPULL [SQ.s09]          3 3 3 3 3 3 3 3
+Tue (press + snatch day)
+Thu (deadlift day)
+   pattern HPUSH (chest)        2 2 2 2 2 2 2 2
+Fri (clean + pull day)
+   back HPULL [CL.s07]          3 3 4 4 4 4 4 5
+   back VPULL [CL.s08]          3 3 3 3 3 4 4 4
+add sequences (which day takes each added set, in order):
+   back       Fri -> Fri -> Fri   | steps in weeks 3, 6, 8
+weekly rises of all resistance sets: 0 0 1 0 0 1 0 1  (planned curve by group: back 12.0 12.3 12.6 12.9 13.4 13.9 14.4 15.0)
+### 08 pickleball 3 x 45 (offer): sets per exercise, week 1 -> 12
+Mon (S1 knee + pull)
+   calves CALF [S1.s17]         3 3 3 3 3 3 3 3 3 3 3 3
+   quads UKD [S1.s09]           3 3 3 3 3 3 4 4 4 4 4 4
+   quads LEGEXT [S1.s13]        3 3 3 3 3 3 3 3 3 3 3 3
+Tue (S2 hip + push)
+   calves CALF [S2.s17]         3 3 3 3 3 3 3 3 4 4 4 4
+   hips UHD [S2.s09]            3 3 3 3 3 3 3 3 3 3 3 3
+   hips GLUTE [S2.s13]          2 2 2 2 2 2 2 2 2 2 2 2
+   pattern HPUSH (chest)        2 2 2 2 2 2 2 2 2 2 2 2
+Thu (S3 hip + push)
+   calves CALF [S3.s14]         3 3 3 3 3 3 3 3 3 3 3 3
+   hips UHD [S3.s06]            3 3 3 3 3 3 3 3 3 3 3 4
+   hips LEGFLEX [S3.s10]        2 2 2 3 3 3 3 3 3 3 3 3
+add sequences (which day takes each added set, in order):
+   calves     Tue   | steps in weeks 9
+   hips       Thu -> Thu   | steps in weeks 4, 12
+   quads      Mon   | steps in weeks 7
+weekly rises of all resistance sets: 0 0 0 1 0 0 1 0 1 0 0 1  (planned curve by group: calves 9.0 9.1 9.1 9.2 9.3 9.3 9.4 9.5 9.7 9.8 9.9 10.0 | hips 10.0 10.1 10.2 10.4 10.5 10.6 10.8 11.1 11.3 11.5 11.8 12.0 | quads 6.0 6.1 6.1 6.2 6.3 6.3 6.4 6.5 6.6 6.8 6.9 7.0)

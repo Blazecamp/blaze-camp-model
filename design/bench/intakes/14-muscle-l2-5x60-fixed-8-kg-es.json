@@ -1,0 +1,112 @@
+{
+  "schema": "intake/2",
+  "_comment": "Aesthetics L2, 5 x 60, 8 weeks, Spanish output, kilograms, Focus shoulders.",
+  "_bench": {
+    "n": 14,
+    "tags": [
+      "muscle",
+      "L2",
+      "focus",
+      "es"
+    ],
+    "edge": false
+  },
+  "id": "bench-14-muscle-l2-5x60-fixed-8-kg-es",
+  "lang": "es",
+  "units": "kg",
+  "role": "self",
+  "health_route": null,
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "release": {
+    "accepted": true,
+    "version": "release.client",
+    "lang": "es",
+    "guardian": null
+  },
+  "age": 32,
+  "body_weight": {
+    "value": 68,
+    "unit": "kg"
+  },
+  "experience": {
+    "years_consistent": 2,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "goal": "muscle",
+  "format": null,
+  "sport": null,
+  "activity": null,
+  "priority_muscles": [
+    "shoulders"
+  ],
+  "lift_style": "balanced",
+  "schedule": {
+    "days_per_week": 5,
+    "weekdays": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Fri",
+      "Sat"
+    ],
+    "session_minutes": 60,
+    "start_date": "2026-10-12"
+  },
+  "plan": {
+    "mode": "fixed_8",
+    "maint_reason": null,
+    "maint_weeks": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "none"
+    ],
+    "just_finished_block": false
+  },
+  "equipment": {
+    "profile": "FULL_GYM",
+    "extras": [],
+    "machines": [],
+    "preference": "none",
+    "detail": {
+      "heaviest_db_pair": null,
+      "medball_lb_owned": [
+        6,
+        8,
+        10
+      ],
+      "box_height_in": 24,
+      "running_space": "10_20m",
+      "cardio_options": [
+        "treadmill",
+        "bike",
+        "rower"
+      ]
+    }
+  },
+  "pain": [],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "start",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false,
+    "cardio_adjust": 0,
+    "older_athletic_opt_in": false,
+    "split_style": "default"
+  },
+  "growth_stage": null,
+  "email": null,
+  "coach_rule_pack_ids": []
+}

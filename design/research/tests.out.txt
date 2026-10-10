@@ -1,0 +1,3 @@
+kernel vs brute force: 400 random lexicographic IPs, 0 mismatches
+milp (LP-based B&B) vs brute force: 1500 random lexicographic IPs, 0 mismatches
+lp.mjs: 3000 random boxed LPs; 1680 2-variable exact checks, 1675 LP<=IP checks, 1315 infeasible; problems: 0

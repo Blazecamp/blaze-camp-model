@@ -1,0 +1,112 @@
+{
+  "schema": "intake/2",
+  "_comment": "A coach's client, 81, 2 x 45, machines preferred, moderate hip pain; coach screen.",
+  "_bench": {
+    "n": 87,
+    "tags": [
+      "general",
+      "older",
+      "pain",
+      "coach"
+    ],
+    "edge": false
+  },
+  "id": "bench-87-general-coach-client-81-2x45-hip",
+  "lang": "en",
+  "units": "lb",
+  "role": "client",
+  "health_route": "coach_screen",
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "release": {
+    "accepted": true,
+    "version": "release.coach",
+    "lang": "en",
+    "guardian": null
+  },
+  "age": 81,
+  "body_weight": {
+    "value": 150,
+    "unit": "lb"
+  },
+  "experience": {
+    "years_consistent": 0.5,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "goal": "general",
+  "format": "gym",
+  "sport": null,
+  "activity": null,
+  "priority_muscles": [],
+  "lift_style": "balanced",
+  "schedule": {
+    "days_per_week": 2,
+    "weekdays": [
+      "Mon",
+      "Thu"
+    ],
+    "session_minutes": 45,
+    "start_date": "2026-10-12"
+  },
+  "plan": {
+    "mode": "fixed_12",
+    "maint_reason": null,
+    "maint_weeks": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "none"
+    ],
+    "just_finished_block": false
+  },
+  "equipment": {
+    "profile": "BASIC_GYM",
+    "extras": [],
+    "machines": [],
+    "preference": "machines",
+    "detail": {
+      "heaviest_db_pair": null,
+      "medball_lb_owned": [],
+      "box_height_in": null,
+      "running_space": "none",
+      "cardio_options": [
+        "treadmill",
+        "bike",
+        "rower"
+      ]
+    }
+  },
+  "pain": [
+    {
+      "area": "hip_groin",
+      "side": "left",
+      "severity": "moderate",
+      "worse_with": [
+        "twisting"
+      ]
+    }
+  ],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "start",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false,
+    "cardio_adjust": 0,
+    "older_athletic_opt_in": false,
+    "split_style": "default"
+  },
+  "growth_stage": null,
+  "email": null,
+  "coach_rule_pack_ids": []
+}

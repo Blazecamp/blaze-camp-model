@@ -1,0 +1,121 @@
+{
+  "schema": "intake/2",
+  "_comment": "Recreational tennis, 62, 2 x 45, moderate elbow pain (gripping).",
+  "_bench": {
+    "n": 66,
+    "tags": [
+      "active",
+      "tennis",
+      "older",
+      "pain"
+    ],
+    "edge": false
+  },
+  "id": "bench-66-tennis-rec-62-2x45-elbow",
+  "lang": "en",
+  "units": "lb",
+  "role": "self",
+  "health_route": null,
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "release": {
+    "accepted": true,
+    "version": "release.client",
+    "lang": "en",
+    "guardian": null
+  },
+  "age": 62,
+  "body_weight": {
+    "value": 158,
+    "unit": "lb"
+  },
+  "experience": {
+    "years_consistent": 1,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "goal": "active",
+  "format": null,
+  "sport": null,
+  "activity": {
+    "ids": [
+      "rec_tennis"
+    ],
+    "play_days": [
+      "Tue",
+      "Sat"
+    ],
+    "event_date": null
+  },
+  "priority_muscles": [],
+  "lift_style": "balanced",
+  "schedule": {
+    "days_per_week": 2,
+    "weekdays": [
+      "Mon",
+      "Thu"
+    ],
+    "session_minutes": 45,
+    "start_date": "2026-10-12"
+  },
+  "plan": {
+    "mode": "fixed_12",
+    "maint_reason": null,
+    "maint_weeks": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "none"
+    ],
+    "just_finished_block": false
+  },
+  "equipment": {
+    "profile": "BASIC_GYM",
+    "extras": [],
+    "machines": [],
+    "preference": "none",
+    "detail": {
+      "heaviest_db_pair": 30,
+      "medball_lb_owned": [
+        6
+      ],
+      "box_height_in": 12,
+      "running_space": "none",
+      "cardio_options": [
+        "bike"
+      ]
+    }
+  },
+  "pain": [
+    {
+      "area": "elbow",
+      "side": "right",
+      "severity": "moderate",
+      "worse_with": [
+        "gripping"
+      ]
+    }
+  ],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "start",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false,
+    "cardio_adjust": 0,
+    "older_athletic_opt_in": false,
+    "split_style": "default"
+  },
+  "growth_stage": null,
+  "email": null,
+  "coach_rule_pack_ids": []
+}

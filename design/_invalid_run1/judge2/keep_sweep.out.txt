@@ -1,0 +1,18 @@
+E1      [hips,quads,back,chest,shoulders,calves,triceps,biceps]  30:11000000  35:11110000  40:11111000  50:11111100  60:11111111
+E2      [calves,hips,quads,back,chest,shoulders,triceps,biceps]  30:10000000  40:11000000  55:11100000  60:11110000
+E3      [hips,quads,back,chest,shoulders,calves,triceps,biceps]  30:11000000  35:11110000  40:11111000  50:11111100  60:11111111
+E4      [hips,quads,back,chest,shoulders,calves,triceps,biceps]  30:11000000  35:11110000  40:11111000  50:11111100  60:11111111
+E5      [hips,quads,back,chest,calves,shoulders,triceps,biceps]  30:00000000  40:10010000  50:11010000  55:11110000  65:11111000  70:11111100
+E5/L1   [hips,quads,back,chest,calves,shoulders,triceps,biceps]  30:00000000  40:10010000  50:11010000  55:11110000  65:11111000
+E5/L3   [hips,quads,back,chest,calves,shoulders,triceps,biceps]  30:00000000  40:10010000  50:11010000  55:11110000  65:11111000  70:11111100
+E5/2d   [hips,quads,back,chest,calves,shoulders,triceps,biceps]  30:00000000  35:00001000  40:10000000 <-- LOST calves  50:10001000  60:11000000 <-- LOST calves  65:11100000  70:11101000
+E5/4d   [hips,quads,back,chest,calves,shoulders,triceps,biceps]  30:00000000  35:00001000  40:11000000 <-- LOST calves  45:11110000  55:11111000  65:11111100
+E2/ath  [calves,hips,quads,back,chest,shoulders,triceps,biceps]  30:10000000  50:11000000  65:11100000  70:11110000
+E2/3d   [calves,hips,quads,back,chest,shoulders,triceps,biceps]  30:10000000  35:11000000  40:11001000  45:11100000 <-- LOST chest  50:11111000  60:11111100  80:?  85:11111100
+E2/L1   [calves,hips,quads,back,chest,shoulders,triceps,biceps]  30:10000000  40:11000000  55:11100000  60:11110000
+E1/3d   [hips,quads,back,chest,shoulders,calves,triceps,biceps]  30:10000000  35:11100000  40:11110000  50:11111000  55:11111100
+E1/5d   [hips,quads,back,chest,shoulders,calves,triceps,biceps]  30:11000000  35:11110000  40:11111000  50:11111100  60:11111111
+E1/2d   [hips,quads,back,chest,shoulders,calves,triceps,biceps]  30:10000000  35:10010000  40:11000000 <-- LOST chest  45:11100000  55:11110000  60:11111000  65:11111100
+
+268 five-minute steps: more minutes untrains a group in 5; keep vector lexicographically worse in 0
+node design/judge2/keep_sweep.mjs  115.80s user 2.96s system 75% cpu 2:37.42 total

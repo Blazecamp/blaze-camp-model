@@ -1,0 +1,2 @@
+oracle: "chest trained directly" -> no (1 nodes)
+hand plan: press 2 -> 3, dips 2 -> 3 (credited 3 -> 4.5 sets, floor 3, climb 2 own sets); evaluator violations: []

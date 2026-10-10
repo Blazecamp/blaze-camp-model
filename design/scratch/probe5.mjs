@@ -1,0 +1,15 @@
+import fs from 'node:fs'; import path from 'node:path'; import { pathToFileURL, fileURLToPath } from 'node:url';
+const HERE = path.dirname(fileURLToPath(import.meta.url)); const SNAP = path.join(HERE, 'snap');
+const { loadModel } = await import(pathToFileURL(path.join(SNAP, 'engine', 'model.mjs')).href);
+const { generate } = await import(pathToFileURL(path.join(SNAP, 'engine', 'generate.mjs')).href);
+const dir = path.join(SNAP, 'model'); const mf = JSON.parse(fs.readFileSync(path.join(dir,'manifest.json'),'utf8')); const f = mf.files; const read=(r)=>JSON.parse(fs.readFileSync(path.join(dir,r),'utf8'));
+const model = loadModel({ manifest: mf, catalog: read(f.catalog), rules: read(f.rules), templates: read(f.templates), profiles: read(f.profiles), i18n: { en: read(f.i18n.en), es: read(f.i18n.es), es_review: read(f.i18n.es_review) } });
+const [,, name, days, minutes, wds] = process.argv;
+const intake = JSON.parse(fs.readFileSync(path.join(SNAP, 'intakes', name + '.json'), 'utf8'));
+intake.schedule.days_per_week = Number(days); intake.schedule.session_minutes = Number(minutes); if (wds) intake.schedule.weekdays = wds.split(',');
+const p = generate(intake, model);
+console.log(p.status, JSON.stringify(p.errors), 'template', p.meta.template && p.meta.template.id, 'days', p.meta.days_per_week, 'weekdays', JSON.stringify(p.meta.weekdays));
+console.log('offers', JSON.stringify(p.offers));
+console.log('time_check', JSON.stringify({ fits: p.time_check && p.time_check.fits, trained: p.time_check && p.time_check.trained_groups, nt: p.time_check && p.time_check.not_trained_directly, below: p.time_check && p.time_check.trained_below_floor }));
+const w = p.weeks[1]; for (const d of w.days) console.log(' ', d.weekday, d.kind, d.est_minutes, JSON.stringify(d.groups));
+console.log('warnings', (p.meta.warnings||[]).map(x=>x.key).join(', '));

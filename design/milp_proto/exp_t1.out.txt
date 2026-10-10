@@ -1,0 +1,10 @@
+athletic:3:75:L3             W: unknown 3001 nodes kept - 3399 ms
+                             S: kept hips,quads,back,chest,calves,shoulders | hips:fits/3 quads:fits/13 back:fits/25 chest:fits/46 calves:fits/23 shoulders:fits/44 760 ms
+fat_loss_bootcamp:6:45:L3    W: optimal 1849 nodes kept hips,quads,back,chest,shoulders,calves 38229 ms
+                             S: kept hips,quads,back,chest,shoulders,calves | hips:fits/3 quads:fits/15 back:fits/21 chest:fits/28 shoulders:fits/38 calves:fits/38 triceps:infeasible/502 biceps:infeasible/161 18752 ms
+hybrid_crossfit:5:45:L1      W: optimal 123 nodes kept hips,quads,back,chest 794 ms
+                             S: kept hips,quads,back,chest | hips:fits/6 quads:fits/12 back:fits/24 chest:fits/27 shoulders:infeasible/36 calves:infeasible/6 423 ms
+fat_loss_bootcamp:6:45:L2    W: optimal 1893 nodes kept hips,quads,back,chest,shoulders,calves 39275 ms
+                             S: kept hips,quads,back,chest,shoulders,calves | hips:fits/3 quads:fits/16 back:fits/22 chest:fits/24 shoulders:fits/36 calves:fits/42 triceps:infeasible/501 biceps:infeasible/165 19422 ms
+fat_loss_bootcamp:6:60:L3    W: optimal 78 nodes kept hips,quads,back,chest,shoulders,calves,triceps,biceps 1245 ms
+                             S: kept hips,quads,back,chest,shoulders,calves,triceps,biceps | hips:fits/3 quads:fits/14 back:fits/23 chest:fits/26 shoulders:fits/46 calves:fits/43 triceps:fits/28 biceps:fits/51 1560 ms

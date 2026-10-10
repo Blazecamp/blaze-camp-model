@@ -1,0 +1,108 @@
+{
+  "schema": "intake/2",
+  "_comment": "Aesthetics L2 at home: dumbbells + bench only, 4 x 45, Focus biceps + triceps.",
+  "_bench": {
+    "n": 9,
+    "tags": [
+      "muscle",
+      "L2",
+      "home",
+      "focus"
+    ],
+    "edge": false
+  },
+  "id": "bench-09-muscle-l2-4x45-home-db-focus-arms",
+  "lang": "en",
+  "units": "lb",
+  "role": "self",
+  "health_route": null,
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "release": {
+    "accepted": true,
+    "version": "release.client",
+    "lang": "en",
+    "guardian": null
+  },
+  "age": 34,
+  "body_weight": {
+    "value": 165,
+    "unit": "lb"
+  },
+  "experience": {
+    "years_consistent": 2,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "goal": "muscle",
+  "format": null,
+  "sport": null,
+  "activity": null,
+  "priority_muscles": [
+    "biceps",
+    "triceps"
+  ],
+  "lift_style": "balanced",
+  "schedule": {
+    "days_per_week": 4,
+    "weekdays": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri"
+    ],
+    "session_minutes": 45,
+    "start_date": "2026-10-12"
+  },
+  "plan": {
+    "mode": "fixed_12",
+    "maint_reason": null,
+    "maint_weeks": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "none"
+    ],
+    "just_finished_block": false
+  },
+  "equipment": {
+    "profile": "HOME_DB_BENCH",
+    "extras": [],
+    "machines": [],
+    "preference": "none",
+    "detail": {
+      "heaviest_db_pair": 50,
+      "medball_lb_owned": [],
+      "box_height_in": null,
+      "running_space": "none",
+      "cardio_options": [
+        "treadmill",
+        "bike",
+        "rower"
+      ]
+    }
+  },
+  "pain": [],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "start",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false,
+    "cardio_adjust": 0,
+    "older_athletic_opt_in": false,
+    "split_style": "default"
+  },
+  "growth_stage": null,
+  "email": null,
+  "coach_rule_pack_ids": []
+}

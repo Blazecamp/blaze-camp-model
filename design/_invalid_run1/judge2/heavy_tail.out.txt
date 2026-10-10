@@ -1,0 +1,8 @@
+E2 template, 3 days x 80 min: 133 variables, 426 rows; keep order calves,hips,quads,back,chest,shoulders
+  calves    | LP B&B budget 20000: feasible (1 nodes, 6 ms)
+  hips      | LP B&B budget 20000: feasible (5 nodes, 50 ms)
+  quads     | LP B&B budget 20000: feasible (11 nodes, 48 ms)
+  back      | LP B&B budget 20000: feasible (15 nodes, 40 ms)
+  chest     | LP B&B budget 20000: feasible (20 nodes, 52 ms)
+  shoulders | LP B&B budget 20000: UNKNOWN (20001 nodes, 4367 ms) | LP B&B budget 200000: feasible (189968 nodes, 37791 ms)
+node design/judge2/heavy_tail.mjs 80  36.55s user 1.10s system 88% cpu 42.612 total

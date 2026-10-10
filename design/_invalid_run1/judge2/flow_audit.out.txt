@@ -1,0 +1,42 @@
+
+[research distribution (1-12 lines, N 4-16)] 20000 plans (0 thrown as infeasible by the flow)
+  A. realized per-line step over max(1, floor(7 %)): 0 line-weeks; realized total rise >= 10 %: 152 weeks
+  B. weeks whose total rises more than max(1, floor(7 %)) [rules.stairway.limits.placed.total_pct]: 5053 weeks in 5053/20000 plans
+     plans where every climbing line lands in week N: 19867/19990; plans where that is arithmetically impossible under the 7 % total rule: 5134/19990
+     example: {"kind":"total rise >= 10 % of the realized week","N":11,"tot":"24 24 24 25 25 26 26 27 28 28 31","lines":"12->17 6->7 6->7"}
+     example: {"kind":"total rise >= 10 % of the realized week","N":8,"tot":"27 27 27 28 29 29 29 32","lines":"12->14 9->11 6->7"}
+     example: {"kind":"total rise >= 10 % of the realized week","N":11,"tot":"16 16 16 16 17 17 18 18 19 19 21","lines":"9->13 7->8"}
+     example: {"kind":"total rise >= 10 % of the realized week","N":14,"tot":"15 15 15 15 16 16 17 17 18 18 19 20 20 22","lines":"6->7 9->15"}
+     example: {"kind":"total rise >= 10 % of the realized week","N":12,"tot":"25 25 25 26 26 27 27 28 29 30 30 33","lines":"7->8 12->18 6->7"}
+     example: {"kind":"total rise >= 10 % of the realized week","N":11,"tot":"18 18 18 18 18 18 19 19 19 19 21","lines":"6->7 12->14"}
+
+[small plans (1-4 lines, S 6-12, climb 1-6, N 4-12)] 20000 plans (0 thrown as infeasible by the flow)
+  A. realized per-line step over max(1, floor(7 %)): 0 line-weeks; realized total rise >= 10 %: 2867 weeks
+  B. weeks whose total rises more than max(1, floor(7 %)) [rules.stairway.limits.placed.total_pct]: 12534 weeks in 12534/20000 plans
+     plans where every climbing line lands in week N: 15342/19775; plans where that is arithmetically impossible under the 7 % total rule: 14375/19775
+     example: {"kind":"total rise >= 10 % of the realized week","N":12,"tot":"33 33 33 33 34 35 36 37 38 39 39 43","lines":"10->12 8->12 9->10 6->9"}
+     example: {"kind":"total rise >= 10 % of the realized week","N":4,"tot":"40 40 40 44","lines":"11->12 12->13 8->9 9->10"}
+     example: {"kind":"total rise >= 10 % of the realized week","N":10,"tot":"26 26 26 27 27 28 29 30 30 33","lines":"10->11 10->14 6->8"}
+     example: {"kind":"total rise >= 10 % of the realized week","N":7,"tot":"27 27 27 28 29 30 33","lines":"8->10 9->11 10->12"}
+     example: {"kind":"total rise >= 10 % of the realized week","N":6,"tot":"39 39 40 40 40 44","lines":"11->12 8->9 8->9 12->14"}
+     example: {"kind":"total rise >= 10 % of the realized week","N":7,"tot":"29 29 29 30 30 30 33","lines":"10->12 7->8 12->13"}
+
+[full level plans (8-9 lines of one level, N 8-12, Focus +1..+3 on 0-2 lines)] 5000 plans (0 thrown as infeasible by the flow)
+  A. realized per-line step over max(1, floor(7 %)): 4 line-weeks; realized total rise >= 10 %: 0 weeks
+  B. weeks whose total rises more than max(1, floor(7 %)) [rules.stairway.limits.placed.total_pct]: 1624 weeks in 1624/5000 plans
+     plans where every climbing line lands in week N: 5000/5000; plans where that is arithmetically impossible under the 7 % total rule: 1624/5000
+     example: {"kind":"line step over max(1, 7 % of the realized week)","N":12,"x":"20 21 21 21 22 23 24 25 26 27 28 30"}
+     example: {"kind":"line step over max(1, 7 % of the realized week)","N":8,"x":"26 26 27 28 28 28 30 31"}
+     example: {"kind":"line step over max(1, 7 % of the realized week)","N":12,"x":"20 21 21 21 22 23 24 25 26 27 28 30"}
+
+[group-level lines with high ceilings (S 20-28, C up to 35, N 8-16)] 20000 plans (0 thrown as infeasible by the flow)
+  A. realized per-line step over max(1, floor(7 %)): 3282 line-weeks; realized total rise >= 10 %: 0 weeks
+  B. weeks whose total rises more than max(1, floor(7 %)) [rules.stairway.limits.placed.total_pct]: 1 weeks in 1/20000 plans
+     plans where every climbing line lands in week N: 20000/20000; plans where that is arithmetically impossible under the 7 % total rule: 0/20000
+     example: {"kind":"line step over max(1, 7 % of the realized week)","N":11,"x":"21 21 22 23 23 24 25 26 27 28 30"}
+     example: {"kind":"line step over max(1, 7 % of the realized week)","N":12,"x":"22 23 23 24 25 25 26 27 28 30 32 33"}
+     example: {"kind":"line step over max(1, 7 % of the realized week)","N":10,"x":"21 22 22 23 24 25 26 27 28 30"}
+
+[C. flow vs exact lexicographic optimum (landings first, then flat weeks), realized rules, small plans]
+  compared 5972 plans (0 thrown by the flow, 0 with no schedule at all): flow lexicographically WORSE than the optimum in 0; flow "better" than the optimum (= it broke a realized rule) in 138
+node design/judge2/flow_audit.mjs  29.38s user 0.58s system 69% cpu 42.850 total

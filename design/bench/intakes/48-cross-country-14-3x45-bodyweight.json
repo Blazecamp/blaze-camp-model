@@ -1,0 +1,117 @@
+{
+  "schema": "intake/2",
+  "_comment": "Cross-country runner, 14, before peak growth, 3 x 45 with no equipment.",
+  "_bench": {
+    "n": 48,
+    "tags": [
+      "athletic",
+      "distance-runner",
+      "youth",
+      "competitive",
+      "no-equipment"
+    ],
+    "edge": false
+  },
+  "id": "bench-48-cross-country-14-3x45-bodyweight",
+  "lang": "en",
+  "units": "lb",
+  "role": "self",
+  "health_route": null,
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "release": {
+    "accepted": true,
+    "version": "release.minor",
+    "lang": "en",
+    "guardian": true
+  },
+  "age": 14,
+  "body_weight": {
+    "value": 105,
+    "unit": "lb"
+  },
+  "experience": {
+    "years_consistent": 0,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "goal": "athletic",
+  "format": null,
+  "sport": {
+    "competitive": "competitive",
+    "sport": "distance_running",
+    "position": "cross_country",
+    "position_detail": null,
+    "level_of_play": "youth_club",
+    "season": {
+      "type": "next_season_start",
+      "date": "2027-08-23"
+    },
+    "practice": {
+      "practice_days_per_week": 4,
+      "game_days": []
+    }
+  },
+  "activity": null,
+  "priority_muscles": [],
+  "lift_style": "balanced",
+  "schedule": {
+    "days_per_week": 3,
+    "weekdays": [
+      "Mon",
+      "Wed",
+      "Fri"
+    ],
+    "session_minutes": 45,
+    "start_date": "2027-03-01"
+  },
+  "plan": {
+    "mode": "fixed_12",
+    "maint_reason": null,
+    "maint_weeks": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "none"
+    ],
+    "just_finished_block": false
+  },
+  "equipment": {
+    "profile": "BODYWEIGHT",
+    "extras": [],
+    "machines": [],
+    "preference": "none",
+    "detail": {
+      "heaviest_db_pair": null,
+      "medball_lb_owned": [],
+      "box_height_in": null,
+      "running_space": "40_60m_or_track",
+      "cardio_options": [
+        "run"
+      ]
+    }
+  },
+  "pain": [],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "start",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false,
+    "cardio_adjust": 0,
+    "older_athletic_opt_in": false,
+    "split_style": "default"
+  },
+  "growth_stage": "pre_phv",
+  "email": null,
+  "coach_rule_pack_ids": []
+}

@@ -1,0 +1,2 @@
+feasibility first (sets at minimum first): feasible in 14 nodes, 14 ms
+tiers with that order: T1=13 (optimal, 14 nodes); T2=58 (optimal, 5149 nodes); T3=18 (optimal, 3219 nodes); 4861 ms

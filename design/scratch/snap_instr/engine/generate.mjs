@@ -1,0 +1,950 @@
+// engine/generate.mjs - the orchestrator (engine/CONTRACTS.md §4.12, §5). Owner: B4 (integrated by the integrator); v0.4 stage B1.
+// generateWith(deps, intake, model, opts) runs the fixed pipeline against injected module functions (tests use contract-
+// shaped stubs); generate() = generateWith(REAL, ...). Deterministic: same intake + model -> byte-identical plan JSON.
+// v0.4 (coach_answers_round3.md): the plan is built once with its planned stairway - no check-ins, no adapt(), no tracking, no
+// data kept (R3-VOL-02, R3-VOL-04, R3-GEN-01; adapt / adaptWith / checkinRow are RETIRED). The plan carries the time check
+// (plan.time_check, R3-SES-02), stable block ids with on / off switches and the superset recommendations (R3-SES-02), and a
+// rep-max test is its own top-set item before the planned sets (R2-PER-07: tests are not stairway sets).
+import { ENGINE_VERSION } from './version.mjs';
+import { EngineError, EPS, WEEKDAYS, canonicalJSON, hash53, makeSeed, why, round2, roundHalfUp, roundTo, uniqueSorted, addDays, forbiddenKeys } from './util.mjs';
+import { validatePlan } from './validate.mjs';
+import * as intakeMod from './intake.mjs';
+import * as shapeMod from './shape.mjs';
+import * as volumeMod from './volume.mjs';
+import * as weekMod from './week.mjs';
+import * as selectMod from './select.mjs';
+import * as doseMod from './dose.mjs';
+import { athleticKeyOf, planAthletic, plannedAthletic as plannedAthleticOf, plannedShare, perSetBounds } from './athletic.mjs';
+import { setCost, supersetMinutes } from './timefit.mjs';
+
+export { ENGINE_VERSION } from './version.mjs';
+
+/** the B2 / B3 exports the pipeline calls (CONTRACTS §4.3-§4.8) */
+export const REQUIRED_DEPS = Object.freeze(['validateIntake', 'safetyScreen', 'deriveValues', 'buildShape', 'stairwayPlan', 'planWeeklySets',
+  'athleticBudget', 'buildWeekLayout', 'layoutForWeek', 'estimateMinutes', 'selectBlock', 'fillSlot', 'doseItem', 'doseAerobic', 'doseConditioning']);
+
+const REAL = Object.freeze({ ...intakeMod, ...shapeMod, ...volumeMod, ...weekMod, ...selectMod, ...doseMod });
+
+/** @returns {{ready:boolean, missing_files:string[], missing_exports:string[]}} whether generate() can run on the real B2 / B3 modules */
+export function realModulesStatus() {
+  const missing_exports = REQUIRED_DEPS.filter(k => typeof REAL[k] !== 'function');
+  return { ready: missing_exports.length === 0, missing_files: [], missing_exports };
+}
+
+/** @param {object} intake @param {import('./util.mjs').Model} model @param {object} [opts] @returns {import('./util.mjs').Plan} */
+export function generate(intake, model, opts = {}) {
+  const st = realModulesStatus();
+  if (!st.ready) throw new EngineError('generate.modules_missing', 'engine modules not built yet: ' + st.missing_exports.join(', '), st);
+  return generateWith(REAL, intake, model, opts);
+}
+
+/**
+ * @param {Object<string,Function>} deps  the B2 / B3 exports (REQUIRED_DEPS)
+ * @param {object} intake @param {import('./util.mjs').Model} model @param {object} [opts] (no options read in v0.4)
+ * @returns {import('./util.mjs').Plan}
+ */
+export function generateWith(deps, intake, model, opts = {}) {
+  for (const k of REQUIRED_DEPS) if (typeof deps[k] !== 'function') throw new EngineError('generate.bad_deps', 'missing dependency ' + k);
+  void opts;
+  return run(deps, intake, model);
+}
+
+// RETIRED in v0.4 (COACH-R3 R3-VOL-02 'we're not going to have check-ins ... We're only doing outputs', R3-VOL-04 'kick out a
+// program, and that's it'): adapt(), adaptWith(), checkinRow() and the check-in offers. The plan is built once with its planned
+// stairway; people and coaches adjust it themselves. Nothing is read back and nothing is kept (R3-GEN-01).
+
+// ------------------------------------------------------------------------------------------------------------- pipeline
+
+const NO_SET_KINDS = ['warmup', 'aerobic', 'skill'];
+const RES_KINDS = ['resistance', 'isolation', 'focus'];
+const INSTRUCTION_KEYS = ['instruction.title', 'instruction.1', 'instruction.2', 'instruction.3', 'instruction.4', 'instruction.5'];
+
+function run(deps, intake, model) {
+  const v = deps.validateIntake(intake, model);
+  if (!v || !v.ok) return invalidPlan(intake, v, model);
+  const s = deps.safetyScreen(v.intake);
+  if (s && s.refer) return referPlan(v.intake, s, model);
+  const seed = makeSeed(intakeForHash(v.intake), model.version);
+  const derived = deps.deriveValues(v.intake, model);
+  // warnings raised while normalizing the raw intake (e.g. warning.checkin_retired: the normalized intake no longer carries the
+  // retired field, so deriveValues cannot see it again)
+  if (Array.isArray(derived.warnings)) for (const w of v.warnings || []) if (w && w.key && !derived.warnings.some(x => x.key === w.key && x.field === w.field)) derived.warnings.push(w);
+  const shape = deps.buildShape(derived, model);
+  const layouts = shape.training_blocks.map(tb => deps.buildWeekLayout(derived, shape, tb, model));
+  const targets = derived.D9_start_sets;
+  const selections = [];
+  for (const eb of shape.exercise_blocks) {
+    selections.push(deps.selectBlock({ derived, shape, layout: layouts[eb.training_block - 1], targets, exerciseBlock: eb.n, prev: selections.length ? selections[selections.length - 1] : null, model, seed }));
+  }
+  const selFor = (ebN) => selections[ebN - 1] || null;
+  const ctxFor = (n) => {
+    const ws = shape.weeks[n - 1];
+    return { derived, shape, layout: layouts[ws.training_block - 1], targets, exerciseBlock: ws.exercise_block, prev: selFor(ws.exercise_block - 1), model, seed };
+  };
+  // Slots the volume engine adds (bonus / Focus) are filled one at a time. fillSlot gets the exercise block's Selection
+  // (template picks: second-exposure and spine state, CONTRACTS §4.7) and `day_used`, the exercises already on that weekday
+  // (template picks + added slots filled earlier in this exercise block), so a day never holds the same exercise twice.
+  const fillCache = new Map();
+  const addedByBlock = new Map();   // exercise block -> Map(slot_id -> exercise_id) of filled added slots
+  const fillFor = (slot, n, fopts) => {
+    const eb = shape.weeks[n - 1].exercise_block;
+    const probe = !!(fopts && fopts.probe);
+    // the key names the muscle and bucket too: the volume engine's capacity probe and the real placement may add different
+    // slots under the same id (v1.2); probe fills never count as 'used on that day'
+    const stage = (fopts && fopts.stage) || '';
+    const key = (probe ? 'probe|' : '') + eb + '|' + slot.slot_id + '|' + slot.bucket + '|' + (slot.focus_muscle || '') + '|' + stage;
+    if (fillCache.has(key)) return fillCache.get(key);
+    const ctx = ctxFor(n);
+    const sel = selFor(eb);
+    const wd = String(slot.slot_id).split('.')[0];
+    const used = new Set();
+    if (sel && sel.fills) for (const d of ctx.layout ? ctx.layout.days : []) {
+      if (d.weekday !== wd) continue;
+      for (const b of d.blocks || []) for (const s of b.slots || []) { const f = sel.fills[s.slot_id]; if (f && f.exercise_id && s.slot_id !== slot.slot_id) used.add(f.exercise_id); }
+    }
+    if (!addedByBlock.has(eb)) addedByBlock.set(eb, new Map());
+    const added = addedByBlock.get(eb);
+    for (const [id, ex] of added) if (id !== slot.slot_id && String(id).split('.')[0] === wd && ex) used.add(ex);
+    const weekUsed = new Set();
+    for (const [, ex] of added) if (ex) weekUsed.add(ex);
+    // v0.4 fix round 2 / F1 (E-135): an engine-added slot is picked as part of its day (select reads the day's slots, e.g. the day's
+    // lead chest press - a pattern-kept press on the optional day is that day's first press, R3-SES-02 / ORD-07)
+    const inLayout = !!(ctx.layout && ctx.layout.days.some(d => (d.blocks || []).some(b => (b.slots || []).some(s => s.slot_id === slot.slot_id))));
+    const lay = !inLayout && slot.origin && slot.origin !== 'template' && ctx.layout ? withAddedSlots(ctx.layout, [slot], model) : ctx.layout;
+    const fill = deps.fillSlot(slot, { ...ctx, layout: lay, selection: sel, day_used: [...used].sort(), week_used: [...weekUsed].sort(), ...(stage ? { stage_override: stage } : {}) });
+    if (slot.origin && slot.origin !== 'template' && !probe && !stage) added.set(slot.slot_id, fill && fill.exercise_id ? fill.exercise_id : null);
+    fillCache.set(key, fill);
+    return fill;
+  };
+  const volume = deps.planWeeklySets({ derived, shape, layouts, selections, model, fillSlot: fillFor, estimateMinutes: deps.estimateMinutes });
+  const athletic = deps.athleticBudget(derived, shape, model);
+  const C = { deps, model, derived, shape, layouts, selections, selFor, fillFor, volume, athletic, targets };
+  // v0.4 stage B2: every week's items are collected first, then the athletic stairway doses the whole block at once (capacity
+  // scaling, the climb, the end-test-week hold; athletic.planAthletic), then each week is dosed and assembled
+  const collected = shape.weeks.map(ws => collectWeek(C, ws.n));
+  C.athleticPlan = planAthletic(model, derived, shape, athletic, collected.map(col => athleticItemsOf(col, model)));
+  const weeks = shape.weeks.map(ws => finishWeek(C, ws.n, collected[ws.n - 1]));
+  const plan = {
+    schema: 'plan/2',
+    status: 'ok',
+    model_version: model.version, engine_version: ENGINE_VERSION, contracts_version: model.manifest.contracts_version,
+    seed, intake_hash: 'c53:' + hash53(canonicalJSON(intakeForHash(v.intake))),
+    lang: derived.lang, units: derived.units,
+    release_stamp: releaseStamp(v.intake),
+    refer: null,
+    errors: [],
+    offers: (volume.offers || []).map(o => ({ ...o, args: { ...(o.args || {}) } })),
+    time_check: timeCheckOut(volume),
+    meta: buildMeta(C, v),
+    shape: {
+      mode: shape.mode, skeleton: shape.skeleton, weeks_total: shape.weeks_total, open_ended: !!shape.open_ended,
+      training_blocks: shape.training_blocks, exercise_blocks: shape.exercise_blocks,
+      level_by_week: shape.weeks.map(w => (typeof w.stair_level === 'number' ? w.stair_level : null))
+    },
+    weeks,
+    summary: null,
+    validation: null
+  };
+  plan.summary = buildSummary(plan, C);
+  const clean = sanitize(plan);
+  clean.validation = validatePlan(clean, model);
+  return clean;
+}
+
+function intakeForHash(intake) {
+  const strip = (o, path) => {
+    if (Array.isArray(o)) return o.map(x => strip(x, path));
+    if (!o || typeof o !== 'object') return o;
+    const out = {};
+    for (const k of Object.keys(o)) {
+      if (k.startsWith('_')) continue;
+      if (!path && (k === 'id' || k === 'email')) continue;
+      if (path === 'release' && (k === 'accepted_at' || k === 'signer_name')) continue;
+      out[k] = strip(o[k], path ? path + '.' + k : k);
+    }
+    return out;
+  };
+  return strip(intake, '');
+}
+
+function releaseStamp(intake) {
+  const r = intake.release || {};
+  return { version: r.version ?? null, lang: r.lang ?? intake.lang ?? null, role: intake.role ?? 'self', guardian: r.guardian ?? null };
+}
+
+function shell(model, status, intake) {
+  const okIntake = intake && typeof intake === 'object';
+  return {
+    schema: 'plan/2', status,
+    model_version: model.version, engine_version: ENGINE_VERSION, contracts_version: model.manifest.contracts_version,
+    seed: null, intake_hash: okIntake ? 'c53:' + hash53(canonicalJSON(intakeForHash(intake))) : null,
+    lang: okIntake && intake.lang === 'es' ? 'es' : 'en', units: okIntake && intake.units === 'kg' ? 'kg' : 'lb',
+    release_stamp: null, refer: null, errors: [], offers: [], time_check: null, meta: {}, shape: null, weeks: [], summary: null, validation: null
+  };
+}
+
+function invalidPlan(intake, v, model) {
+  const p = shell(model, 'invalid', intake);
+  p.errors = (v && v.errors && v.errors.length ? v.errors : [{ code: 'invalid', key: 'warning.release_missing' }]).map(e => ({ ...e }));
+  p.meta = { input_audit: inputAudit(intake), instruction_keys: INSTRUCTION_KEYS.slice() };
+  const out = sanitize(p);
+  out.validation = validatePlan(out, model);
+  return out;
+}
+
+function referPlan(intake, s, model) {
+  const p = shell(model, 'refer', intake);
+  p.refer = { reasons: (s.reasons || []).slice() };
+  p.meta = {
+    health: { role: intake.role || 'self', health_route: intake.health_route ?? null, refer: true, reasons: (s.reasons || []).slice(), bypass: !!s.bypass },
+    instruction_keys: INSTRUCTION_KEYS.slice()
+  };
+  const out = sanitize(p);
+  out.validation = validatePlan(out, model);
+  return out;
+}
+
+function inputAudit(intake) {
+  const keys = [];
+  const walk = (o, prefix) => {
+    if (!o || typeof o !== 'object' || Array.isArray(o)) return;
+    for (const k of Object.keys(o)) {
+      if (k.startsWith('_')) continue;
+      const p = prefix ? prefix + '.' + k : k;
+      keys.push(p);
+      walk(o[k], p);
+    }
+  };
+  walk(intake, '');
+  return { keys: uniqueSorted(keys), forbidden_found: intake && typeof intake === 'object' ? forbiddenKeys(intake) : [] };
+}
+
+/** plan.time_check (spec derived_values.D15_time_fit output; R3-SES-02): the first stairway block's check + every block's */
+function timeCheckOut(volume) {
+  const list = Array.isArray(volume.time_check) ? volume.time_check : [];
+  if (!list.length) return null;
+  const first = list[0];
+  return { ...first, offered: first.offered ? { ...first.offered } : null, by_block: list.map(x => ({ training_block: x.training_block, fits: x.fits, trained_groups: x.trained_groups.slice(), not_trained_directly: x.not_trained_directly.map(y => ({ ...y })), trained_below_floor: (x.trained_below_floor || []).map(y => ({ ...y })), blocks_off: (x.blocks_off || []).map(y => ({ ...y })) })) };
+}
+
+// ------------------------------------------------------------------------------------------------------------- week assembly
+
+function withAddedSlots(base, added, model, addedFills = {}) {
+  if (!added || !added.length) return base;
+  const order = model.rules.ordering.block_order;
+  // v0.4 fix round 1 (E-87; RECHECK 06 major: an added seal row / machine bench press printed last, after the flies and the calf
+  // raise): an added compound sits before its block's isolations, and a horizontal pull / push before the block's vertical one
+  // (ORD-01 / ORD-02 'big before small', H before V)
+  const exOfAdded = (s) => { const f = addedFills[s.slot_id]; return f && f.exercise_id && model.hasEx(f.exercise_id) ? model.ex(f.exercise_id) : null; };
+  const kindOfB = (b) => { try { return model.bucket(b).kind; } catch { return null; } };
+  const smallAfter = (slot, ex, s) => {
+    const e2 = exOfAdded(s);
+    if (e2 ? e2.exercise_class !== 'compound' : ['isolation', 'focus'].includes(kindOfB(s.bucket))) return true;
+    return (ex.pattern === 'HPULL' && (s.bucket === 'RP_VPULL' || (e2 && e2.pattern === 'VPULL'))) || (ex.pattern === 'HPUSH' && (s.bucket === 'RP_VPUSH' || (e2 && e2.pattern === 'VPUSH')));
+  };
+  const days = base.days.map(d => ({ ...d, blocks: d.blocks.map(b => ({ ...b, slots: b.slots.slice() })) }));
+  for (const slot of added) {
+    const wd = String(slot.slot_id).split('.')[0];
+    const day = days.find(d => d.weekday === wd);
+    if (!day) continue;
+    if (day.blocks.some(b => b.slots.some(s => s.slot_id === slot.slot_id))) continue;
+    // a circuit station that takes over another station's place (v0.4 circuit rebalance) sits where that station was
+    if (slot.replaces) {
+      const host = day.blocks.find(b => b.slots.some(s => s.slot_id === slot.replaces));
+      if (host) { host.slots.splice(host.slots.findIndex(s => s.slot_id === slot.replaces) + 1, 0, slot); continue; }
+    }
+    // v0.4 fix round 2 / F1 (E-145): a pattern station paired with the day's work lift sits right after it (the superset partner)
+    if (slot.pattern_partner) {
+      const host = day.blocks.find(b => b.slots.some(s => s.slot_id === slot.pattern_partner));
+      if (host) { host.slots.splice(host.slots.findIndex(s => s.slot_id === slot.pattern_partner) + 1, 0, slot); continue; }
+    }
+    let blk = day.blocks.find(b => b.kind === slot.block && (slot.block !== 'circuit' || b.circuit === slot.circuit));
+    if (!blk) {
+      blk = { kind: slot.block, movable: false, circuit: null, slots: [] };
+      const at = day.blocks.findIndex(b => order.indexOf(b.kind) > order.indexOf(slot.block));
+      if (at < 0) day.blocks.push(blk); else day.blocks.splice(at, 0, blk);
+    }
+    const ex = slot.block !== 'circuit' ? exOfAdded(slot) : null;
+    const at = ex && ex.exercise_class === 'compound' ? blk.slots.findIndex(s => smallAfter(slot, ex, s)) : -1;
+    if (at >= 0) blk.slots.splice(at, 0, slot); else blk.slots.push(slot);
+  }
+  return { ...base, days };
+}
+
+function bucketDef(model, b) { try { return model.bucket(b); } catch { return null; } }
+
+const SMALL_RC_BUCKETS = ['ISO_SIDE_REAR_DELT', 'ISO_BICEP', 'ISO_TRICEP', 'ISO_CALF'];
+const ATHLETIC_KEY_BUCKETS = ['AP_PLYO', 'AP_JUMP_LIMITED_KNEE', 'AP_THROW', 'AP_COD', 'AP_SPRINT', 'AP_TRIPLE_EXT'];
+
+function collectWeek(C, n) {
+  const { deps, model, derived, shape, volume, athletic } = C;
+  const ws = shape.weeks[n - 1];
+  const vw = volume.weeks[n - 1];
+  const base = C.layouts[ws.training_block - 1];
+  const L = deps.layoutForWeek(withAddedSlots(base, vw.added_slots || [], model, vw.added_fills || {}), ws, derived, model);
+  const sel = C.selFor(ws.exercise_block) || { fills: {} };
+  relocateStrengthTests(L, sel, model);
+  const sets = vw.sets_by_slot || {};
+  const fills = {};
+  // v0.4 stage B2: the Receive-Create stage changes only at an exercise-block boundary (shape.mjs, athletic.stagesForStairway),
+  // so the block's picks hold all its weeks; the v1.2 mid-block re-pick only runs for a stage that still moves inside a block
+  // (rules without athletic.stages.align_to_exercise_blocks)
+  const eb = shape.exercise_blocks.find(e => e.n === ws.exercise_block);
+  const ebFirst = eb ? shape.weeks[eb.weeks[0] - 1] : ws;
+  const stageMoved = !!(ws.plyo_stage && ebFirst && ebFirst.plyo_stage && ws.plyo_stage !== ebFirst.plyo_stage);
+  // pass 1: which slots become items (exercise + sets), every day
+  const perDay = [];
+  for (const day of L.days) {
+    const cands = [];
+    for (const blk of day.blocks || []) for (const slot of blk.slots || []) {
+      const bd = bucketDef(model, slot.bucket) || {};
+      let fill = sel.fills[slot.slot_id] || null;
+      if (stageMoved && ['AP_PLYO', 'AP_JUMP_LIMITED_KNEE'].includes(slot.bucket) && slot.origin === 'template') {
+        const f2 = C.fillFor(slot, n, { stage: ws.plyo_stage });
+        if (f2 && f2.exercise_id) fill = f2;
+      }
+      // v0.4 B4 (integration, random sweep V14 / H08: a circuit swap station counted as a floor press while the plan printed
+      // assisted dips): an added slot takes the fill the volume engine counted this week, else its own pick
+      if (!fill && slot.origin && slot.origin !== 'template' && slot.origin !== 'test' && !slot.text_key) fill = (vw.added_fills && vw.added_fills[slot.slot_id]) || C.fillFor(slot, n);
+      // v0.4 fix round 1 (RECHECK 08 major: a soleus raise next to the day's calf raise = two calf exercises on a leg day): the
+      // Achilles / shin joint care of a day that already holds its calf exercise takes the code's non-calf pick (a tibialis raise)
+      if (fill && fill.exercise_id && slot.role === 'prehab' && slot.bucket === 'PREHAB_LOWER') {
+        const isCalf = (id) => model.hasEx(id) && (model.ex(id).credit_class === 'ISO_CALF' || model.ex(id).primary_muscle === 'calves');
+        const dayCalf = (day.blocks || []).some(b2 => (b2.slots || []).some(x => x.bucket === 'ISO_CALF' && (sets[x.slot_id] || 0) > 0));
+        if (dayCalf && isCalf(fill.exercise_id)) {
+          const alt = (fill.swaps || []).find(id => !isCalf(id));
+          if (alt) fill = { ...fill, exercise_id: alt, laterality: model.ex(alt).laterality === 'n/a' ? null : model.ex(alt).laterality, swaps: [fill.exercise_id, ...(fill.swaps || []).filter(id => id !== alt)], why: [...(fill.why || []), why('why.prehab_not_calf', 'R3-SES-01')] };
+        }
+      }
+      if (fill) fills[slot.slot_id] = fill;
+      const exId = fill && fill.exercise_id;
+      const ex = exId && model.hasEx(exId) ? model.ex(exId) : null;
+      const isTest = slot.bucket === 'TEST';
+      const isText = (!!slot.text_key && !ex) || isTest;
+      const noSets = isText || NO_SET_KINDS.includes(bd.kind) || slot.bucket === 'COND_WOD' || blk.kind === 'cooldown';
+      const isRes = RES_KINDS.includes(bd.kind) || slot.origin === 'bonus';
+      let s = null;
+      if (!noSets) s = Object.prototype.hasOwnProperty.call(sets, slot.slot_id) ? sets[slot.slot_id] : (isRes ? null : (slot.default_sets ?? null));
+      if (s === 0) continue;
+      if (!ex && !isText && !['aerobic'].includes(bd.kind) && slot.bucket !== 'COND_WOD') continue;   // dropped slot (buy list / no candidate)
+      cands.push({ blk, slot, bd, fill, ex, sets: s, isRes: isRes && !!ex });
+    }
+    perDay.push({ day, cands });
+  }
+  // v1.2 (V27, review 03 / 08 majors): a week whose profile target for a key is 0 (in-season, heavy play, a sport without
+  // throws) drops that key's stations; a small target trims stations (sets to 1, then the latest station) until the
+  // per-set minimum dose fits target x (1 + tolerance) + one set
+  const RCx = model.rules.athletic.reconcile;
+  const wkT0 = athletic[n - 1] && athletic[n - 1].targets;
+  // stage B2: the ballistic and reactive jumps are one family here (athletic.planAthletic moves their goals to the stations the
+  // week holds), so a jump station is never dropped because its own key's target is 0 in the Receive stage
+  const wkT = wkT0 && typeof wkT0.plyo_contacts === 'number' && typeof wkT0.jump_contacts === 'number'
+    ? { ...wkT0, plyo_contacts: wkT0.plyo_contacts + wkT0.jump_contacts, jump_contacts: wkT0.plyo_contacts + wkT0.jump_contacts } : wkT0;
+  if (RCx && RCx.enabled && wkT) {
+    const feeds = {};
+    perDay.forEach((pd, di) => pd.cands.forEach((x) => {
+      if (!x.ex || !ATHLETIC_KEY_BUCKETS.includes(x.slot.bucket) || typeof x.sets !== 'number' || x.slot.bucket === 'AP_TRIPLE_EXT') return;
+      const key0 = athleticKeyOf((x.fill && x.fill.bucket) || x.slot.bucket, x.ex);
+      const key = key0 === 'plyo_contacts' || key0 === 'jump_contacts' ? 'jumps' : key0;
+      const t = key === 'jumps' ? wkT.plyo_contacts : (key ? wkT[key] : null);
+      // B2: each station's own minimum per-set dose (fixed sit-up / wall-ball throws, both legs of a single-leg drill)
+      const lo = key0 ? perSetBounds(model, key0, x.ex, 1).lo : 1;
+      if (key && typeof t === 'number') (feeds[key] = feeds[key] || []).push({ x, di, t, k: key0, lo });
+    }));
+    for (const [key, list] of Object.entries(feeds)) {
+      const k0 = list[0].k;
+      const t = list[0].t, slack = Math.max(...list.map(e => (RCx.per_set_max || {})[e.k] || 0));
+      const limit = t * (1 + (RCx.tolerance || 0)) + slack;
+      // v0.4 fix round 1 (sweep sport-bowling, V27: 28 jumps against 14): the reactive stations are dosed toward their own goal by the
+      // athletic stairway (not their minimum), so the jump family's dose counts them at max(their minimum, the reactive target + one
+      // contact a set) before the ballistic stations are trimmed
+      const plyoT = key === 'jumps' && typeof wkT0.plyo_contacts === 'number' ? wkT0.plyo_contacts : null;
+      const dose = () => {
+        if (plyoT === null) return list.reduce((a, e) => a + (e.x.sets || 0) * e.lo, 0);
+        const re = list.filter(e => e.k === 'plyo_contacts'), ba = list.filter(e => e.k !== 'plyo_contacts');
+        const reMin = re.reduce((a, e) => a + (e.x.sets || 0) * e.lo, 0), reSets = re.reduce((a, e) => a + (e.x.sets || 0), 0);
+        return ba.reduce((a, e) => a + (e.x.sets || 0) * e.lo, 0) + (re.length ? Math.max(reMin, plyoT + reSets) : 0);
+      };
+      const drop = (e) => { const c = perDay[e.di].cands; c.splice(c.indexOf(e.x), 1); list.splice(list.indexOf(e), 1); };
+      if (t <= 0) { for (const e of list.slice()) drop(e); continue; }
+      void k0;
+      for (const e of list.slice().reverse()) { if (dose() <= limit + EPS) break; if (e.x.sets > 1) { while (e.x.sets > 1 && dose() > limit + EPS) e.x.sets--; } }
+      while (dose() > limit + EPS && list.length > 1) drop(list[list.length - 1]);
+    }
+  }
+  return { ws, vw, L, sel, sets, fills, perDay };
+}
+
+/** the athletic items of a collected week (athletic.planAthletic input): slot, weekday, effective bucket, record, sets */
+function athleticItemsOf(col, model) {
+  const out = [];
+  for (const { day, cands } of col.perDay) for (const x of cands) {
+    if (!x.ex || !ATHLETIC_KEY_BUCKETS.includes(x.slot.bucket) || typeof x.sets !== 'number' || x.sets <= 0) continue;
+    out.push({ slot_id: x.slot.slot_id, weekday: day.weekday, bucket: (x.fill && x.fill.bucket) || x.slot.bucket, ex: x.ex, sets: x.sets });
+  }
+  void model;
+  return out;
+}
+
+function finishWeek(C, n, col) {
+  const { deps, model, derived, athletic } = C;
+  const R = model.rules;
+  const { ws, vw, sets, fills, perDay } = col;
+  // v0.4 fix round 1 / F2: the athletic stairway may run the ankle block at fewer sets to hold the week's plyo share (R2-ATH-01;
+  // athletic.planAthletic `slot_plan[].sets`)
+  const apF2 = C.athleticPlan && C.athleticPlan.weeks ? C.athleticPlan.weeks[n - 1] : null;
+  if (apF2) for (const { cands } of perDay) for (const x of cands) { const sp = apF2.slot_plan[x.slot.slot_id]; if (sp && typeof sp.sets === 'number' && typeof x.sets === 'number' && sp.sets > 0 && sp.sets < x.sets) x.sets = sp.sets; }
+  // the week's athletic stations: sets per budget key, and the athletic stairway's per-slot doses (stage B2, athletic.planAthletic)
+  const stationsSets = {};
+  for (const { cands } of perDay) for (const x of cands) {
+    if (!x.ex || !ATHLETIC_KEY_BUCKETS.includes(x.slot.bucket) || typeof x.sets !== 'number') continue;
+    const key = athleticKeyOf((x.fill && x.fill.bucket) || x.slot.bucket, x.ex);
+    if (key) stationsSets[key] = (stationsSets[key] || 0) + x.sets;
+  }
+  const ap = C.athleticPlan && C.athleticPlan.weeks ? C.athleticPlan.weeks[n - 1] : null;
+  // v0.4 B4: the rounds of the week's ballistic ball stations in a timed circuit (they share the week's throw target, dose.mjs)
+  let circuitBallSets = 0;
+  for (const { cands } of perDay) for (const x of cands) {
+    if (!x.ex || !x.ex.medball || x.slot.block !== 'circuit' || !(x.slot.bucket === 'COND_CIRCUIT' || x.ex.is_athletic || x.ex.conditioning)) continue;
+    circuitBallSets += (ws.circuit && ws.circuit.rounds) || (typeof x.sets === 'number' ? x.sets : 0);
+  }
+  const aw = athletic[n - 1] ? { ...athletic[n - 1], stations_sets: stationsSets, circuit_ball_sets: circuitBallSets, slot_plan: ap ? ap.slot_plan : {} } : null;
+  const days = [];
+  for (const { day, cands } of perDay) {
+    const res = cands.filter(x => x.isRes);
+    const lastRes = res.length ? res[res.length - 1] : null;
+    // v0.4 fix round 1 / F3 (minimal seam; E-119, VOL-15 'MYO on the last machine / isolation exercise'): the day's last item that can
+    // carry the last week's intensifier (a glute bridge or an Achilles-protected calf raise at the end hands it to the item before)
+    const ie = typeof deps.intensifierEligible === 'function' ? deps.intensifierEligible : null;
+    const eligRes = ie ? res.filter(x => !x.slot.test && typeof x.sets === 'number' && x.sets > 0 && ie(x.slot, x.fill, x.ex, derived, model)) : [];
+    const lastInt = ie ? (eligRes.length ? eligRes[eligRes.length - 1] : null) : undefined;
+    const smallOrMachine = res.filter(x => SMALL_RC_BUCKETS.includes((x.fill && x.fill.bucket) || x.slot.bucket) || (x.ex && (x.ex.equipment.machine || x.ex.tags.includes('machine')) && x.bd.kind !== 'resistance') ||
+      (x.bd.kind === 'focus' && x.ex && x.ex.primary_muscle && model.muscle(x.ex.primary_muscle).class === 'small'));
+    const lastSmall = smallOrMachine.length ? smallOrMachine[smallOrMachine.length - 1] : null;
+    const firstUniLower = res.find(x => ['RP_UKD', 'RP_UHD'].includes((x.fill && x.fill.bucket) || x.slot.bucket) || (x.bd.region === 'lower' && ['unilateral', 'alternating'].includes(x.ex.laterality)));
+    const firstBiCompound = res.find(x => x.bd.kind === 'resistance' && x.ex.laterality === 'bilateral' && x.ex.exercise_class === 'compound');
+    const calfSets = res.filter(x => ((x.fill && x.fill.bucket) || x.slot.bucket) === 'ISO_CALF').reduce((a, x) => a + (x.sets || 0), 0);
+    // a test item never runs as a superset (the partner goes straight sets, review 01 / 02 / 04)
+    const supersetsOn = vw.supersets_on && typeof vw.supersets_on[day.weekday] === 'boolean' ? vw.supersets_on[day.weekday] : !!day.supersets_on;
+    const dayCtx = { ...day, supersets_on: supersetsOn };
+    // superset ids of the day (R3-SES-02 step 3): an eligible template pair is a superset on a day the plan runs supersets; a pair
+    // needs both partners on the day, and a tested lift never runs in a superset (review 01 / 02 / 04)
+    const ssIdOf = (x) => (x.slot.test ? null : (x.slot.superset || x.slot.superset_eligible || null));
+    const idCount = new Map();
+    for (const x of cands) { const id = ssIdOf(x); if (id && x.sets !== 0) idCount.set(id, (idCount.get(id) || 0) + 1); }
+    const pairId = (x) => { const id = ssIdOf(x); return id && idCount.get(id) >= 2 ? id : null; };
+    // pass 2: doses + items
+    const blocks = [];
+    const testWhy = why('why.test_top_set', 'R2-PER-07');
+    cands.forEach((x, i) => {
+      const pid = pairId(x);
+      const on = supersetsOn && !!pid;
+      const position = {
+        index_in_day: i, is_last_resistance: x === lastRes, is_first_lift_of_day: x === res[0], is_last_small: x === lastSmall,
+        ...(lastInt === undefined ? {} : { is_last_intensifier: x === lastInt }),
+        is_first_unilateral_lower: x === firstUniLower, is_first_bilateral_compound: x === firstBiCompound, calf_sets_today: calfSets,
+        superset_active: on
+      };
+      let b = blocks.length ? blocks[blocks.length - 1] : null;
+      if (!b || b.src !== x.blk) { b = { src: x.blk, kind: x.blk.kind, position: 0, movable: !!x.blk.movable, circuit: x.blk.circuit ?? null, items: [] }; blocks.push(b); }
+      // a rep-max test is its own top-set item before the planned sets: the work-up to one top set (not a stairway set, no muscle
+      // credit), then the lift's planned sets at the planned effort (R2-PER-07 'the test replaces that week's top set'; review
+      // 01 / 02 / 07: '5 x 3 rep max', tests counted as stairway sets)
+      if (x.slot.test && x.ex && x.slot.bucket !== 'TEST' && typeof x.sets === 'number' && x.sets > 0 && !x.slot.aerobic) {
+        // v0.4 fix round 1 (E-91; COACH-R2 R2-PER-07 'tested ... instead of that week's top sets'; RECHECK 01 / 02 / 03 / 04 / 07 majors:
+        // the 3RM / 1RM work-up came on top of the full 3 x 6-8 at 1 RIR): the test IS the lift's top set - it counts as one of the
+        // lift's planned sets (its credits) and the rest are back-off sets a step easier (rules.tests.replaces_top_set)
+        const RT = R.tests && R.tests.replaces_top_set;
+        const replaces = !!(RT && x.sets >= 2);
+        const t = buildItem(C, n, ws, vw, dayCtx, { ...x, sets: 1 }, { ...position, superset_active: false, is_last_resistance: false, is_last_small: false }, aw);
+        t.slot_id = x.slot.slot_id + '.test'; t.station_id = x.slot.station_id ? x.slot.station_id + '.test' : null;
+        t.role = 'test'; t.origin = 'test'; t.sets = 1; t.superset = null; t.swaps = []; t.group = null;
+        t.credits = replaces ? creditsFor(model, x.ex, (x.fill && x.fill.bucket) || x.slot.bucket) : {};
+        t.notes = [{ key: replaces ? 'note.test_top_set_replaces' : 'note.test_top_set', args: { test: 'tests.' + (t.test ? t.test.test : x.slot.test) } }, ...t.notes.filter(nt => nt.key !== 'note.test_rep_max_work_up')];
+        t.why = dedupeWhy([...t.why, replaces ? why('why.test_replaces_top_set', 'R2-PER-07') : testWhy]);
+        t.superset_suggested = null;
+        b.items.push(t);
+        const plain = { ...x, sets: replaces ? x.sets - 1 : x.sets, slot: { ...x.slot, test: null } };
+        const item = buildItem(C, n, ws, vw, dayCtx, plain, position, aw);
+        item.superset = null;
+        item.why = dedupeWhy([...item.why, replaces ? why('why.test_replaces_top_set', 'R2-PER-07') : testWhy]);
+        item.superset_suggested = null;
+        if (replaces) {
+          // back-off sets: the planned effort plus the rule's extra reps in the tank (never under 2, inside the coach's 1-3)
+          const e = item.effort && item.effort.type === 'rir' ? item.effort : null;
+          if (e) {
+            const lo = Math.min(3, Math.max(RT.back_off_rir_min || 2, (e.min || 1) + (RT.back_off_rir_add || 1)));
+            const hi = Math.min(3, Math.max(lo, (e.max || lo) + (RT.back_off_rir_add || 1)));
+            item.effort = { ...e, min: lo, max: hi, rpe_min: 10 - hi, rpe_max: 10 - lo, last_set: null, intensifier: false };
+          }
+          if (!item.flags.includes('back_off')) item.flags = [...item.flags, 'back_off'].sort();
+          item.notes = [{ key: 'note.test_back_off', args: { n: plain.sets, rir: item.effort && item.effort.type === 'rir' ? (item.effort.min === item.effort.max ? String(item.effort.min) : item.effort.min + '-' + item.effort.max) : '2-3' } }, ...item.notes];
+        }
+        b.items.push(item);
+        return;
+      }
+      const item = buildItem(C, n, ws, vw, dayCtx, x, position, aw);
+      item.superset = on ? pid : null;
+      item.superset_suggested = pid; // R3-SES-02: the pair the plan recommends (the person may switch it on or off)
+      b.items.push(item);
+    });
+    blocks.forEach((b, i) => { b.position = i; delete b.src; });
+    // v0.4 fix round 1 / F2 (COACH-ANSWER ORD-03 / GEN-08 'power before strength'; RECHECK 05 major: the KB swing after two hamstring
+    // stations, the medball throw as the day's last station): a ballistic circuit station (medball throw / slam, KB swing) opens its
+    // circuit, done fresh
+    if (R.athletic.f2 && R.athletic.circuit_ballistic) for (const b of blocks) {
+      if (b.kind !== 'circuit' || b.items.length < 2) continue;
+      const ballistic = (it) => it.bucket === 'COND_CIRCUIT' && !!it.exercise_id && model.hasEx(it.exercise_id) && (!!model.ex(it.exercise_id).medball || model.ex(it.exercise_id).tags.includes('kb_swing'));
+      const first = b.items.filter(ballistic);
+      if (first.length && !ballistic(b.items[0])) {
+        b.items = [...first, ...b.items.filter(it => !ballistic(it))];
+        for (const it of first) it.why = dedupeWhy([...(it.why || []), why('why.power_before_strength', 'ORD-03')]);
+      }
+    }
+    pairLeftovers(blocks, model, supersetsOn);
+    distinctDetails(blocks, model, derived);
+    // stable block ids and on / off switches (R3-SES-02 'turn off that day's athletic training or that day's core training';
+    // spec plan_editing.block_ids: blk.<day_type>.<kind>.<n>, the same id every week of the block)
+    const BE = R.ordering.block_editing || null;
+    const kindN = {};
+    for (const b of blocks) {
+      kindN[b.kind] = (kindN[b.kind] || 0) + 1;
+      // v0.4 fix round 1 (RECHECK 03 / 07 minors: 'blk.Push.core.1' on Monday and Thursday, 'blk.Legs 1.core.1' with a space, one
+      // aerobic id on two days): weekday + day-type slug, so an edit to one day never hits another day of the same type
+      const slug = String(day.day_type || 'day').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'day';
+      b.id = 'blk.' + day.weekday.toLowerCase() + '-' + slug + '.' + b.kind + '.' + kindN[b.kind];
+      b.toggle = !!(BE && BE.toggle && BE.toggle[b.kind]);
+      b.removable = !!(BE && BE.removable && BE.removable[b.kind]);
+    }
+    const supersetRecs = supersetRecommendations(blocks, fills, model, derived, ws, supersetsOn, (vw.supersets_needed || []).includes(day.weekday));
+    const groups = {};
+    for (const x of cands) if (x.isRes) { const g = itemGroup(model, x); if (g) groups[g] = (groups[g] || 0) + 1; }
+    const est = vw.est_minutes && typeof vw.est_minutes[day.weekday] === 'number' ? vw.est_minutes[day.weekday] : deps.estimateMinutes(dayCtx, sets, fills, model, { week: ws });
+    days.push({
+      weekday: day.weekday, day_type: day.day_type ?? null, kind: day.kind, optional: !!day.optional, label_key: day.label_key,
+      full_body: !!day.full_body, format: day.format || 'straight', est_minutes: typeof est === 'number' ? roundHalfUp(est) : null,
+      aerobic_minutes: typeof deps.aerobicMinutes === 'function' ? deps.aerobicMinutes(day, model) : 0,
+      minutes_limit: day.minutes_limit ?? derived.session_minutes, supersets_on: supersetsOn,
+      supersets_needed: (vw.supersets_needed || []).includes(day.weekday),
+      superset_recommendations: supersetRecs,
+      toggle_blocks: blocks.filter(b => b.toggle).map(b => b.kind).filter((k, i, a) => a.indexOf(k) === i),
+      groups: orderedGroups(groups, R), why: dedupeWhy(day.why), blocks
+    });
+  }
+  days.sort((a, b) => WEEKDAYS.indexOf(a.weekday) - WEEKDAYS.indexOf(b.weekday));
+  const items = days.flatMap(d => d.blocks.flatMap(b => b.items));
+  const order = R.muscles.order;
+  const lineOrder = (R.muscles.lines && R.muscles.lines.order) || order;
+  const groupOrder = R.muscles.groups.order.filter(g => g !== 'core');
+  const a = athletic[n - 1] || null;
+  return {
+    n, training_block: ws.training_block, block_type: ws.block_type, exercise_block: ws.exercise_block,
+    stair_week: ws.stair_week ?? null, stair_level: ws.stair_level ?? null, phase: ws.phase, phase_key: ws.phase_key,
+    planned_rir: ws.planned_rir ?? null, season_phase: ws.season_phase ?? null, rep_phase: ws.rep_phase ?? null, plyo_stage: ws.plyo_stage ?? null,
+    test: ws.test ?? null, circuit: ws.circuit ?? null,
+    // v0.4: step / target are per LINE (one shoulders line, R3-VOL-01); weekly / direct sets per muscle for display and V14;
+    // the line and group tallies (group credit) carry the floor and the climb (R3-SES-01)
+    step_by_muscle: orderedMap(vw.step_by_muscle, lineOrder, x => roundTo(x, 4)),
+    target_by_muscle: orderedMap(vw.target_by_muscle, lineOrder, x => (x === null ? null : round2(x))),
+    weekly_sets_by_muscle: orderedMap(vw.weekly_sets_by_muscle, order, round2),
+    direct_sets_by_muscle: orderedMap(vw.direct_sets_by_muscle, order, round2),
+    main_sets_by_muscle: orderedMap(vw.main_sets_by_line || vw.main_sets_by_muscle || vw.weekly_sets_by_muscle, lineOrder, round2),
+    weekly_sets_by_line: orderedMap(vw.weekly_sets_by_line || {}, lineOrder, round2),
+    weekly_sets_by_group: orderedMap(vw.weekly_sets_by_group || {}, groupOrder, round2),
+    main_sets_by_group: orderedMap(vw.main_sets_by_group || {}, groupOrder, round2),
+    not_trained_directly: (vw.not_trained_directly || []).slice(),
+    total_main_sets: typeof vw.total_main_sets === 'number' ? vw.total_main_sets : (vw.total_resistance_sets ?? null),
+    group_counts_by_day: Object.fromEntries(days.filter(d => Object.keys(d.groups).length).map(d => [d.weekday, d.groups])),
+    total_resistance_sets: vw.total_resistance_sets ?? null,
+    rise_vs_prev: typeof vw.rise_vs_prev === 'number' ? roundTo(vw.rise_vs_prev, 4) : null,
+    athletic_budget: a ? athleticBudgetOut(a, items, ap) : null,
+    aerobic_sessions: items.filter(it => it.aerobic || it.bucket === 'COND_AEROBIC').length,
+    changes: (vw.changes || []).map(c => ({ ...c })),
+    why: dedupeWhy([...(ws.why || []), ...(vw.why || [])]),
+    days
+  };
+}
+
+/**
+ * Superset recommendations of a day (R3-SES-02 step 3; spec plan_editing.superset_recommendations): every eligible pair of the day
+ * with the minutes it saves; `on` when the day runs it as a superset (the plan's default for a day that needs it to finish on
+ * time, `needed`), else a suggestion the person may switch on.
+ * @returns {Array<{pair_id:string, items:string[], minutes_saved:number, on:boolean, needed:boolean}>}
+ */
+function supersetRecommendations(blocks, fills, model, derived, ws, on, needed) {
+  const T = model.rules.time_model;
+  const byId = new Map();
+  for (const b of blocks) for (const it of b.items) if (it.superset_suggested && typeof it.sets === 'number' && it.sets > 0) {
+    if (!byId.has(it.superset_suggested)) byId.set(it.superset_suggested, []);
+    byId.get(it.superset_suggested).push(it);
+  }
+  const out = [];
+  for (const [id, list] of byId) {
+    if (list.length < 2) continue;
+    const members = list.map(it => ({ sets: it.sets, cost: setCost({ slot_id: it.slot_id, bucket: it.bucket, role: it.role, time_class: null }, fills[it.slot_id] || { laterality: it.laterality, bucket: it.bucket }, model, derived, ws) }));
+    const straight = members.reduce((a, x) => a + x.sets * x.cost.minutes + T.changeover_min_per_exercise, 0);
+    const saved = Math.max(0, Math.round((straight - supersetMinutes(members, model)) * 2) / 2);
+    out.push({ pair_id: id, items: list.map(it => it.slot_id), minutes_saved: saved, on: !!on, needed: !!(on && needed) });
+  }
+  return out;
+}
+
+/**
+ * Rep-max tests go on bilateral compound lifts (a 3RM on an alternating cable press or a split squat is not a useful
+ * strength test). week.layoutForWeek marks the station before the pick is known; here the mark moves to another station
+ * of the same bucket whose pick is bilateral (the work lift first), or is dropped for that pattern (the squat / hinge
+ * tests remain). Integration decision D-46 (INFERRED).
+ */
+function relocateStrengthTests(L, sel, model) {
+  const cat = model.rules.tests.catalogue.strength;
+  const strength = new Set([...Object.values(cat.from_zero), ...Object.values(cat.after_completed_block), cat.older, cat.pro]);
+  const slots = [];
+  for (const d of L.days || []) for (const b of d.blocks || []) for (const sl of b.slots || []) slots.push(sl);
+  // v0.4 fix round 1 (RECHECK 02 major: a 3RM / 1RM on a stiff-leg deadlift / RDL for an athlete with hamstring and low-back hot
+  // spots): a hinge test takes a canonical deadlift (hex / trap bar, conventional, sumo) - never a Romanian / stiff-leg or single-leg
+  // hinge - when the week holds one (E-49 extended to every family)
+  const LONG_LEVER = /romanian|rdl|stiff-leg|stiff-legged|good-morning|single-leg/;
+  const ok = (sl) => {
+    const f = sel.fills ? sel.fills[sl.slot_id] : null;
+    const ex = f && f.exercise_id && model.hasEx(f.exercise_id) ? model.ex(f.exercise_id) : null;
+    if (sl.bucket === 'RP_BHD' && ex && LONG_LEVER.test(ex.id)) return false;
+    return !!ex && ex.laterality === 'bilateral' && ex.exercise_class === 'compound' && !ex.is_athletic;
+  };
+  for (const sl of slots) {
+    if (!sl.test || !strength.has(sl.test) || ok(sl)) continue;
+    const alts = slots.filter(x => x !== sl && !x.test && x.bucket === sl.bucket && x.block !== 'circuit' && ok(x));
+    const alt = alts.find(x => x.role === 'work') || alts.find(x => x.axial_req === 'axial') || alts[0] || null;
+    if (alt) alt.test = sl.test;
+    sl.test = null;
+  }
+}
+
+/**
+ * Limited kits can leave the same exercise twice on one day (select's last resort keeps a muscle group at 2 exercises with
+ * a one-detail variation, R2-LIB-01 / R2-SES-05). A repeat that ended up with the same detail as an earlier copy takes the
+ * next unused axis of the exercise's `variation_axes`, so the day never lists the identical exercise twice. Same exercise,
+ * bucket, sets and credits: nothing counted changes (integration decision D-48).
+ */
+/**
+ * v0.4 fix round 1 (E-90; RECHECK 07 / 08 majors: only the core pair was recommended on most days, 'Supersets marked today keep you
+ * inside 45 min' with no pair marked): an isolation or joint-care exercise the week keeps whose layout partner was cut (or that had
+ * none) pairs with a compatible neighbour - the next exercise in the same block, or the head of the next block (an isolation, then
+ * the joint care: the partner moves to the head of the joint-care block, which has no order rule). Same pairing rules as
+ * week.pairRemaining (never one group or two lower isolations, except quad + leg-curl; never two joint-care items). A recommendation
+ * the person may switch on (R3-SES-02 step 3); on a day that runs its pairs, it runs too.
+ */
+function pairLeftovers(blocks, model, on) {
+  const live = (it) => typeof it.sets === 'number' && it.sets > 0;
+  const count = new Map();
+  for (const b of blocks) for (const it of b.items) if (it.superset_suggested && live(it)) count.set(it.superset_suggested, (count.get(it.superset_suggested) || 0) + 1);
+  const lone = (it) => !it.superset_suggested || (count.get(it.superset_suggested) || 0) < 2;
+  const bd = (it) => { try { return model.bucket(it.bucket); } catch { return null; } };
+  const kind = (it) => (bd(it) || {}).kind || null;
+  const MD = model.rules.muscles.defs;
+  const lower = (it) => { const ex = it.exercise_id && model.hasEx(it.exercise_id) ? model.ex(it.exercise_id) : null; const m = ex && ex.primary_muscle; return (m && MD[m] ? MD[m].region === 'lower' : false) || /LOWER|CALF|QUAD|LEG_|HIP|GLUTE/.test(it.bucket || ''); };
+  const eligible = (it) => live(it) && lone(it) && !it.test && !['work', 'test', 'core_block', 'warmup'].includes(it.role) && (['isolation', 'focus', 'prehab'].includes(kind(it)) || it.role === 'prehab');
+  const compatible = (a, b) => {
+    if (a.role === 'prehab' && b.role === 'prehab') return false;
+    if (a.bucket === b.bucket || (a.group && a.group === b.group)) return false;
+    if (lower(a) && lower(b)) return (a.bucket === 'ISO_QUAD' && b.bucket === 'ISO_LEG_FLEXION') || (a.bucket === 'ISO_LEG_FLEXION' && b.bucket === 'ISO_QUAD');
+    return true;
+  };
+  let k = 0;
+  for (const b of blocks) for (const it of b.items) { const m = /^X(\d+)$/.exec(it.superset_suggested || ''); if (m) k = Math.max(k, Number(m[1])); }
+  const pair = (a, b) => { const id = 'X' + (++k); for (const it of [a, b]) { it.superset_suggested = id; it.superset = on ? id : null; } count.set(id, 2); };
+  const WORK = ['strength', 'accessories', 'prehab'];
+  for (let bi = 0; bi < blocks.length; bi++) {
+    const B = blocks[bi];
+    if (!WORK.includes(B.kind)) continue;
+    for (let i = 0; i + 1 < B.items.length; i++) if (eligible(B.items[i]) && eligible(B.items[i + 1]) && compatible(B.items[i], B.items[i + 1])) { pair(B.items[i], B.items[i + 1]); i++; }
+    const next = blocks[bi + 1];
+    const a = B.items[B.items.length - 1];
+    if (!next || !WORK.includes(next.kind) || !a || !eligible(a)) continue;
+    const j = next.items.findIndex(x => eligible(x) && compatible(a, x));
+    if (j < 0 || (j > 0 && next.kind !== 'prehab')) continue;
+    const [b] = next.items.splice(j, 1);
+    next.items.unshift(b);
+    pair(a, b);
+  }
+}
+
+function distinctDetails(blocks, model, derived) {
+  const used = new Map();   // exercise id -> Set of detail values already on the day ('' = no detail)
+  // v0.4 stage B3 (minimal): a rep-max test item and its planned sets are the same lift (never a 'different grip' copy, RECHECK
+  // 01 / 02 / 07: 'Hex Bar Deadlift - different grip' in week 1); a repeat takes the next concrete variation of the record
+  // (select.variationValues), never the axis alone
+  const kit = new Set(((derived && derived.D8_kit) || {}).tokens || []);
+  const pain = ((derived && derived.pain) || []).map(p => p.area);
+  for (const b of blocks) for (const it of b.items) {
+    if (!it.exercise_id || b.kind === 'warmup' || it.role === 'test') continue;
+    const axes = used.get(it.exercise_id) || new Set();
+    const mine = it.detail ? (it.detail.value || it.detail.axis) : '';
+    if (axes.has(mine)) {
+      const ex = model.ex(it.exercise_id);
+      const next = selectMod.variationValues(model, ex, kit, pain).find(v => !axes.has(v.value));
+      if (next) {
+        it.detail = { axis: next.axis, key: next.key, value: next.value };
+        if (!it.flags.includes('detail_variation')) it.flags = [...it.flags, 'detail_variation'].sort();
+        it.why = dedupeWhy([...it.why.filter(w => w.key !== 'why.detail_variation'), why('why.detail_variation', 'R2-LIB-01', { axis: next.axis })]);
+      }
+    }
+    axes.add(it.detail ? (it.detail.value || it.detail.axis) : '');
+    used.set(it.exercise_id, axes);
+  }
+}
+
+function buildItem(C, n, ws, vw, day, x, position, aw) {
+  const { deps, model, derived, athletic, targets } = C;
+  const { slot, bd, fill, ex } = x;
+  const effBucket = (fill && fill.bucket) || slot.bucket;
+  let dose = null;
+  if (slot.bucket === 'TEST') dose = typeof deps.doseTestItem === 'function' ? deps.doseTestItem(slot, ws, derived, model) : null;
+  else if (bd.kind === 'aerobic') dose = deps.doseAerobic(slot, ws, derived, model, fill);   // B3: the fill names the session's pattern
+  // (F3 minimal seam: a circuit station is dosed with its day and position, so the last week's circuit intensifier lands on the day's last eligible station)
+  else if (slot.bucket === 'COND_WOD' || slot.bucket === 'SKILL' || slot.circuit) dose = deps.doseConditioning(slot, fill, aw ? { ...ws, athletic_week: aw } : ws, derived, model, slot.circuit ? { day, position } : undefined);
+  else if (!['warmup'].includes(bd.kind) && slot.block !== 'cooldown' && ex) {
+    const m = ex.primary_muscle;
+    const bt = (C.volume.block_targets || []).find(b => b.training_block === ws.training_block);
+    const capM = bt && bt.cap && typeof bt.cap[m] === 'number' ? bt.cap[m] : (targets && targets.cap ? targets.cap[m] : null);
+    const tM = vw.target_by_muscle ? vw.target_by_muscle[m] : null;
+    const atCap = typeof capM === 'number' && typeof tM === 'number' && tM >= capM - EPS;
+    // B3 (minimal): the slot's sets in its exercise block's first week (the pyramid is decided for the whole block, PER-02)
+    const ebDef = C.shape.exercise_blocks.find(e => e.n === ws.exercise_block);
+    const firstVw = ebDef ? C.volume.weeks[ebDef.weeks[0] - 1] : null;
+    const block_first_sets = firstVw && firstVw.sets_by_slot && typeof firstVw.sets_by_slot[slot.slot_id] === 'number' ? firstVw.sets_by_slot[slot.slot_id] : x.sets;
+    dose = deps.doseItem({ slot, fill, exercise: ex, sets: x.sets, week: ws, day, derived, athletic: aw || athletic[n - 1] || null, position, at_cap: atCap, model, contact_scale: C.contactScale || 1, block_first_sets });
+  }
+  dose = dose || {};
+  const test = dose.test || (dose.reps && dose.reps.type === 'test' ? { type: 'test', test: dose.reps.test } : null) || slot.test || null;
+  // v0.4 fix round 1 (E-89): joint care credits no muscle when rules.prehab.credits is 'none' (survival work, ORD-07)
+  const credits = ex && !(slot.role === 'prehab' && model.rules.prehab && model.rules.prehab.credits === 'none') ? creditsFor(model, ex, effBucket) : {};
+  return {
+    slot_id: slot.slot_id, station_id: slot.station_id ?? null, bucket: effBucket, role: slot.role ?? null, origin: slot.origin || 'template',
+    group: ex && x.isRes ? itemGroup(model, x) : (slot.group ?? null),
+    exercise_id: ex ? ex.id : null, name_key: ex ? ex.name_key : (slot.bucket === 'TEST' && slot.test && !model.has('en', 'tests.' + slot.test) && model.hasEx(slot.test) ? model.ex(slot.test).name_key : null), detail: (fill && fill.detail) || null,
+    text_key: ex ? null : (slot.text_key ?? (slot.bucket === 'TEST' && slot.test && model.has('en', 'tests.' + slot.test) ? 'tests.' + slot.test : null)), cue_key: ex ? ex.cue_key : null,
+    video: ex ? (ex.video ? { kind: ex.video.kind, url: ex.video.url } : { kind: 'search', url: null }) : null,
+    sets: x.sets, reps: dose.reps ?? null, set_reps: dose.set_reps ?? null, effort: dose.effort ?? null, rest: dose.rest ?? null,
+    load: dose.load ?? null, tempo_key: dose.tempo_key ?? null,
+    superset: slot.superset ?? slot.pair ?? null,
+    laterality: (fill && fill.laterality) || (ex ? ex.laterality : null), loading: (fill && fill.loading) || null,
+    credits, athletic: dose.athletic ?? null, aerobic: slot.aerobic ?? null, circuit: dose.circuit ?? null, wod: dose.wod ?? null,
+    test: test ? { type: 'test', test: test.test } : null,
+    notes: (dose.notes || []).map(nt => ({ ...nt })), swaps: ((fill && fill.swaps) || []).slice(), flags: ((fill && fill.flags) || []).slice(),
+    why: dedupeWhy([...(slot.why || []), ...((fill && fill.why) || []), ...(dose.why || [])])
+  };
+}
+
+function creditsFor(model, ex, bucket) {
+  if (ex.tags.some(t => model.rules.credit.never_credit_tags.includes(t))) return {};
+  return { ...model.credits(ex, bucket) };
+}
+
+function itemGroup(model, x) {
+  if (x.slot.group) return x.slot.group;
+  if (x.slot.focus_muscle) return model.groupOf(x.slot.focus_muscle);
+  return x.ex && x.ex.primary_muscle ? model.groupOf(x.ex.primary_muscle) : null;
+}
+
+function orderedGroups(groups, R) {
+  const out = {};
+  for (const g of R.muscles.groups.order) if (groups[g]) out[g] = groups[g];
+  for (const g of Object.keys(groups).sort()) if (!(g in out)) out[g] = groups[g];
+  return out;
+}
+
+function orderedMap(obj, order, fn) {
+  const out = {};
+  if (!obj) return out;
+  for (const m of order) if (m in obj) out[m] = obj[m] === null || obj[m] === undefined ? null : fn(obj[m]);
+  for (const m of Object.keys(obj).sort()) if (!(m in out)) out[m] = obj[m] === null || obj[m] === undefined ? null : fn(obj[m]);
+  return out;
+}
+
+/**
+ * plan.weeks[].athletic_budget (CONTRACTS §5): the budget's targets, what the week plans (planned; v0.4 B2 adds upper_contacts -
+ * push-up plyos, outside the lower-body budget), the plyo share actually planned (R2-ATH-01: reactive jumps + ankle work over all
+ * jump and throw work), the goals the athletic stairway dosed toward (capacity-scaled) and the per-key scale.
+ */
+function athleticBudgetOut(a, items, ap) {
+  const planned = plannedAthleticOf(items);
+  return {
+    plyo_share: a.plyo_share ?? null, stage: a.stage ?? null, factor: a.factor ?? null, targets: a.targets ?? null,
+    planned, planned_share: plannedShare(planned), goals: ap && ap.goals ? { ...ap.goals } : null, scale: ap && ap.scale ? { ...ap.scale } : null,
+    hold: !!(a.hold), contacts_session_max: a.contacts_session_max ?? null
+  };
+}
+
+function dedupeWhy(list) {
+  const seen = new Set(), out = [];
+  for (const w of list || []) {
+    if (!w || !w.key) continue;
+    const k = canonicalJSON(w);
+    if (seen.has(k)) continue;
+    seen.add(k);
+    out.push(w.args && Object.keys(w.args).length ? { key: w.key, ref: w.ref, args: { ...w.args } } : { key: w.key, ref: w.ref });
+  }
+  return out;
+}
+
+// ------------------------------------------------------------------------------------------------------------- meta / summary
+
+function programId(C) {
+  const fromLayout = C.layouts[0] && C.layouts[0].program_id;
+  if (fromLayout) return fromLayout;
+  const d = C.derived, D6 = d.D6_week_layout || {};
+  let profileFamily = null;
+  try { profileFamily = C.model.sport(d.D2_profile.id).family; } catch { profileFamily = null; }
+  const ctx = { family: D6.family, days: D6.days, variant: D6.variant, goal: d.goal, format: d.format, competitive: d.D2_profile && d.D2_profile.competitive, profile_family: profileFamily };
+  const hit = C.model.templates.program_names.find(p => Object.entries(p.when).every(([k, vals]) => vals.includes(ctx[k])));
+  return hit ? hit.id : null;
+}
+
+function buildMeta(C, v) {
+  const { model, derived: d, shape, selections, volume } = C;
+  const D2 = d.D2_profile || {}, D3 = d.D3_client_level || {}, D4 = d.D4_season_phase || {}, D5 = d.D5_plan_shape || {};
+  const D6 = d.D6_week_layout || {}, D7 = d.D7_constraint_band || {}, D8 = d.D8_kit || {}, T = d.D9_start_sets || {};
+  const D11 = d.D11_athletic_budget || {}, D13 = d.D13_tests || {}, D14 = d.D14_aerobic_sessions || {};
+  const pid = programId(C);
+  const buyList = uniqueSorted([...(D8.buy_list || []), ...selections.flatMap(s => s.buy_list || [])]);
+  const warnings = [];
+  const pushW = (w) => { if (w && w.key) warnings.push(w.args && Object.keys(w.args).length ? { ...w, args: { ...w.args } } : { ...w }); };
+  (d.warnings || []).forEach(pushW);
+  (volume.warnings || []).forEach(pushW);
+  // v0.4 stage B2: a sport key the stations hold well below its weekly target (the athletic stairway still climbs; E-29)
+  ((C.athleticPlan && C.athleticPlan.warnings) || []).forEach(pushW);
+  for (const L of C.layouts) (L.warnings || []).forEach(pushW);
+  for (const s of selections) (s.warnings || []).forEach(pushW);
+  if (buyList.length && !warnings.some(w => w.key === 'warning.v7_no_equipment')) pushW({ code: 'V7', key: 'warning.v7_no_equipment', args: { items: buyList.join(', ') } });
+  // a day that runs past minutes x warn_above_factor carries warning.long_day (D-34) - added here when week / volume did not
+  const factor = model.rules.session.long_day.warn_above_factor;
+  for (const w of shape.weeks) {
+    const vw = volume.weeks[w.n - 1] || {};
+    const L = C.layouts[w.training_block - 1] || C.layouts[0];
+    for (const [wd, min] of Object.entries(vw.est_minutes || {})) {
+      const limit = d.session_minutes;
+      const kind = L && (L.days.find(x => x.weekday === wd) || {}).kind;
+      // v1.2: an optional day is long because of its aerobic session - say so (the 2-4-per-group reason is a main-day one)
+      const key = kind === 'optional' ? 'warning.long_day_optional' : 'warning.long_day';
+      // v0.4: a test week's day may run longer by its work-ups and timed tests (R2-PER-07); the plan says so for that day
+      const testMin = (vw.test_minutes || {})[wd] || 0;
+      // (v0.4 B4: a test week's day with a work-up is a test day even when the end-test week's peak sets add a minute or two - the
+      // 'the minimum work of that day does not fit' copy of warning.long_day would misread it, sample 01 Friday week 12)
+      if (typeof min === 'number' && min > limit * factor + EPS && testMin > 0 && (w.test || min - testMin <= limit * factor + EPS)) {
+        pushW({ code: 'test_day_long', key: 'warning.test_day_long', args: { day: wd, week: w.n, min: roundHalfUp(min), limit } });
+        continue;
+      }
+      if (typeof min === 'number' && min > limit * factor + EPS && !warnings.some(x => ['warning.long_day', 'warning.long_day_optional'].includes(x.key) && x.args && (x.args.day === wd || x.args.day === 'weekday.' + wd))) pushW({ code: 'long_day', key, args: { day: wd, min: roundHalfUp(min), limit } });
+    }
+  }
+  // v0.4: warning.stairway_time / floor_schedule / start_lowered are retired - the time check (R3-SES-02) names what the time
+  // cannot hold (warning.time_check, warning.not_trained_directly, warning.time_lower_peak) and every trained group climbs
+  // the stairway of each block is the one the volume engine placed (starts / ceilings from the time check)
+  const lineOrder = (model.rules.muscles.lines && model.rules.muscles.lines.order) || model.rules.muscles.order;
+  const blockT = (tbn) => (volume.block_targets || []).find(b => b.training_block === tbn) || null;
+  const stairway = shape.training_blocks.filter(tb => tb.type === 'stairway').map(tb => {
+    const b = blockT(tb.n);
+    const sp = (b && typeof C.deps.stairwayFrom === 'function' ? C.deps.stairwayFrom({ ...T, start: b.start, cap: b.cap }, tb, d, model) : C.deps.stairwayPlan(T, tb, d, model)) || {};
+    return { training_block: tb.n, N: tb.stair_N, lambda: orderedMap(sp.lambda || {}, lineOrder, x => roundTo(x, 4)), lowered: b ? (b.lowered || []).slice() : [],
+      dropped_groups: b ? (b.dropped_groups || []).slice() : [],
+      start: b ? orderedMap(b.start, lineOrder, x => x) : null, cap: b ? orderedMap(b.cap, lineOrder, x => x) : null };
+  });
+  const firstStair = shape.training_blocks.find(tb => tb.type === 'stairway');
+  const fb = firstStair ? blockT(firstStair.n) : null;
+  const tests = testsMeta(d, shape);
+  const metaWhy = dedupeWhy([...(d.why || []), ...C.layouts.flatMap(L => L.why || []),
+    ...model.rules.muscles.order.flatMap(m => ((T.why || {})[m] || []).map(w => ({ key: w.key, ref: w.ref, args: { ...(w.args || {}), muscle: (w.args && w.args.muscle) || m } })))]);
+  return {
+    program_id: pid, program_name_key: pid ? 'program.' + pid + '.name' : 'ui.plan.title',
+    goal: d.goal, family: d.D1_family, format: d.format,
+    profile: { id: D2.id ?? null, variant: D2.variant ?? null, sport_id: D2.sport_id ?? null, position: D2.position ?? null, activity_ids: (D2.activity_ids || []).slice(), overlays: (D2.overlays || []).slice(), competitive: D2.competitive ?? null, season_type: D2.season_type ?? null, name_key: D2.name_key ?? null },
+    level: { client: D3.level ?? null, exercise_ladder: D3.exercise_ladder ?? null, reason_keys: (D3.reason_keys || []).map(r => ({ ...r })) },
+    season: { phase: D4.phase ?? null, weeks_to_season: D4.weeks_to_season ?? null, season_date: D4.season_date ?? null, practice_days: D4.practice_days ?? null, game_days: (D4.game_days || []).slice() },
+    plan_mode: D5.mode ?? shape.mode, skeleton: D5.skeleton ?? shape.skeleton, weeks: shape.weeks_total, start_date: d.start_date,
+    days_per_week: d.days_per_week, session_minutes: d.session_minutes, weekdays: (d.weekdays || []).slice(), play_days: (d.play_days || []).slice(),
+    template: { id: D6.template_id ?? null, variant: D6.variant ?? null, pairing: D6.pairing ?? null },
+    kit: { profile: D8.profile ?? null, tokens: (D8.tokens || []).slice(), machines: (D8.machines || []).slice(), medball_max_lb: D8.medball_max_lb ?? null, buy_list: buyList },
+    constraint_band: { client_family: D7.client_family ?? null, main: D7.main ?? null, iso: D7.iso ?? null },
+    targets: { modifier_id: T.modifier_id ?? null, start: fb ? { ...T.start, ...fb.start } : (T.start || {}), cap: fb ? { ...T.cap, ...fb.cap } : (T.cap || {}), level_start: T.start || {}, level_cap: T.cap || {}, fill: T.fill || {}, lines: (T.lines || []).slice(), priority: (T.priority || []).slice(), focus_add: T.focus_add ?? 0, pain_muscles: (T.pain_muscles || []).slice(), floored: (T.floored || []).slice(), floor_groups: (T.floor_groups || []).slice(), credit_only: (T.credit_only || []).slice(), calves_per_leg_day: T.calves_per_leg_day ?? null, calves_floor: T.calves_floor ?? null, core_block: T.core_block ?? null },
+    stairway,
+    share_targets: d.D10_bilateral_share ?? null,
+    athletic: { enabled: !!D11.enabled, older_mode: D11.older_mode ?? null, plyo_share: D11.plyo_share ?? null, ground_contact_class: D11.ground_contact_class ?? null, contacts_session_max: D11.contacts_session_max ?? null, olympic_exposures_wk: D11.olympic_exposures_wk ?? null, game_heavy: !!D11.game_heavy, heavy_play_week: !!D11.heavy_play_week },
+    aerobic: { per_week: D14.per_week ?? 0, base: D14.base ?? 0, adjust: D14.adjust ?? 0, replaced_by_activity: D14.replaced_by_activity ?? 0, walks: !!D14.walks, sport_is_aerobic: !!D14.sport_is_aerobic },
+    tests,
+    health: { ...(d.health || { role: v.intake.role || 'self', health_route: v.intake.health_route ?? null, refer: false, reasons: [], bypass: false }) },
+    older_opt_in: d.age >= model.rules.population.older.from_age && !!(d.prefs && d.prefs.older_athletic_opt_in),
+    after_plan: shape.after_plan ?? null,
+    instruction_keys: INSTRUCTION_KEYS.slice(),
+    locked_rule_keys: model.rules.locked.map(l => l.key),
+    input_audit: inputAudit(v.intake),
+    warnings: dedupeIssues(warnings),
+    // v0.4 fix round 1 (RECHECK 08 minor): the round-3 answers are approved (coach_answers_round3.md) - none is pending any more
+    r3_pending: uniqueSorted([...(d.r3_pending || []), ...C.layouts.flatMap(L => L.r3_pending || [])]).filter(id => !(model.rules.r3_approved || []).includes(id)),
+    derived: d,
+    why: metaWhy
+  };
+}
+
+function dedupeIssues(list) {
+  const seen = new Set();
+  return list.filter(w => { const k = canonicalJSON(w); if (seen.has(k)) return false; seen.add(k); return true; });
+}
+
+function testsMeta(d, shape) {
+  const D13 = d.D13_tests || {};
+  const items = (D13.items || []).filter(x => x !== 'none');
+  const baseline = shape.weeks.find(w => w.test && w.test.type === 'baseline');
+  const ends = shape.weeks.filter(w => w.test && w.test.type === 'end');
+  const reminders = [];
+  if (items.length) for (const e of ends) {
+    const tb = shape.training_blocks.find(t => t.n === e.training_block);
+    const blockStart = addDays(d.start_date, ((tb ? tb.weeks[0] : 1) - 1) * 7);
+    const endWeekStart = addDays(d.start_date, (e.n - 1) * 7);
+    reminders.push(blockStart, addDays(endWeekStart, -7), addDays(endWeekStart, -1));
+  }
+  return {
+    items, baseline_week: baseline ? baseline.n : (items.length ? D13.baseline_week ?? null : null),
+    end_weeks: ends.length ? ends.map(w => w.n) : (D13.end_weeks || []).slice(), from_zero: !!D13.from_zero, reminders: uniqueSorted(reminders)
+  };
+}
+
+function buildSummary(plan, C) {
+  const order = C.model.rules.muscles.order;
+  const W = plan.weeks;
+  const rises = W.map(w => w.rise_vs_prev).filter(x => typeof x === 'number');
+  const steps = W.flatMap(w => Object.values(w.step_by_muscle || {})).filter(x => typeof x === 'number');
+  const myoValue = C.model.rules.credit.myo_set_value;
+  const sets = {}, tg = {}, byLine = {}, byGroup = {};
+  const lineOrder = (C.model.rules.muscles.lines && C.model.rules.muscles.lines.order) || order;
+  for (const m of order) if (W.some(w => typeof (w.weekly_sets_by_muscle || {})[m] === 'number')) sets[m] = W.map(w => ((w.weekly_sets_by_muscle || {})[m] ?? 0));
+  for (const l of lineOrder) {
+    if (W.some(w => typeof (w.target_by_muscle || {})[l] === 'number')) tg[l] = W.map(w => ((w.target_by_muscle || {})[l] ?? null));
+    if (W.some(w => typeof (w.weekly_sets_by_line || {})[l] === 'number')) byLine[l] = W.map(w => ((w.weekly_sets_by_line || {})[l] ?? 0));
+  }
+  for (const g of C.model.rules.muscles.groups.order) if (W.some(w => typeof (w.weekly_sets_by_group || {})[g] === 'number')) byGroup[g] = W.map(w => ((w.weekly_sets_by_group || {})[g] ?? 0));
+  const shortfalls = dedupeIssues(C.volume.weeks.flatMap(w => (w.shortfalls || []).map(s => ({ ...s, week: s.week ?? w.n }))));
+  return {
+    total_resistance_sets_by_week: W.map(w => w.total_resistance_sets),
+    max_weekly_rise: rises.length ? roundTo(Math.max(...rises), 4) : 0,
+    planned_steps_max: steps.length ? roundTo(Math.max(...steps), 4) : 0,
+    stair_levels: W.map(w => w.stair_level),
+    sets_by_muscle_by_week: sets,
+    sets_by_line_by_week: byLine,
+    sets_by_group_by_week: byGroup,
+    target_by_muscle_by_week: tg,
+    // D-13: a MYO set counts as `myo_set_value` sets; the extra (value - 1) per MYO item is reported here and never added to sets
+    myo_equivalent_sets_by_week: W.map(w => w.days.reduce((a, d) => a + d.blocks.reduce((b, bl) => b + bl.items.filter(it => it.effort && it.effort.last_set === 'myo').length * (myoValue - 1), 0), 0)),
+    shortfalls
+  };
+}
+
+/** undefined -> null, NaN / Infinity -> null, frozen inputs copied (CONTRACTS §1.3) */
+function sanitize(o) {
+  if (o === undefined) return null;
+  if (typeof o === 'number') return Number.isFinite(o) ? o : null;
+  if (o === null || typeof o !== 'object') return o;
+  if (Array.isArray(o)) return o.map(sanitize);
+  const out = {};
+  for (const k of Object.keys(o)) out[k] = sanitize(o[k]);
+  return out;
+}

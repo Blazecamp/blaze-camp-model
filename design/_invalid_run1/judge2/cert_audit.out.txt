@@ -1,0 +1,14 @@
+E1        research: kept [hips,quads,back,chest,shoulders,calves,triceps,biceps] tiers 1/2/4 (1048 nodes, 1536 ms) | certified: kept [hips,quads,back,chest,shoulders,calves,triceps,biceps] tiers 1/2/4 (1048 nodes, 1648 ms) SAME
+E2        research: kept [calves,hips] tiers 14/20/1 (14 nodes, 11 ms) | certified: kept [calves,hips] tiers 14/20/1 (14 nodes, 8 ms) SAME
+E3        research: kept [hips,quads,back,chest,shoulders,calves,triceps,biceps] tiers 6/24/4 (157 nodes, 274 ms) | certified: kept [hips,quads,back,chest,shoulders,calves,triceps,biceps] tiers 6/24/4 (157 nodes, 319 ms) SAME
+E4        research: kept [hips,quads,back,chest,shoulders,calves,triceps,biceps] tiers 9/43/7 (139 nodes, 251 ms) | certified: kept [hips,quads,back,chest,shoulders,calves,triceps,biceps] tiers 9/43/7 (139 nodes, 303 ms) SAME
+E5        research: kept [hips,quads,back,chest,calves,shoulders] tiers 13/36/5 (408 nodes, 247 ms) | certified: kept [hips,quads,back,chest,calves,shoulders] tiers 13/36/5 (408 nodes, 253 ms) SAME
+E2/3d@60  research: kept [calves,hips,quads,back,chest,shoulders] tiers null? (50126 nodes, 23360 ms) | certified: kept [calves,hips,quads,back,chest,shoulders] tiers null? (50126 nodes, 23736 ms) SAME
+E5@60     research: kept [hips,quads,back,chest] tiers 10/36/16 (196 nodes, 685 ms) | certified: kept [hips,quads,back,chest] tiers 10/36/16 (196 nodes, 659 ms) SAME
+E5@45     research: kept [hips,chest] tiers 9/16/6 (65 nodes, 173 ms) | certified: kept [hips,chest] tiers 9/16/6 (65 nodes, 172 ms) SAME
+E1@45     research: kept [hips,quads,back,chest,shoulders] tiers 4/7/2 (654 nodes, 569 ms) | certified: kept [hips,quads,back,chest,shoulders] tiers 4/7/2 (654 nodes, 636 ms) SAME
+E1/2d@45  research: kept [hips,quads,back] tiers 4/8/2 (158 nodes, 160 ms) | certified: kept [hips,quads,back] tiers 4/8/2 (158 nodes, 134 ms) SAME
+
+10/10 intakes: same kept groups and tier optima. Total time research 27267 ms, certified 27869 ms.
+floating-point prunes in the certified runs: LP-infeasible 19160 (re-proved in exact integers: 19160), bound 0 (re-proved: 0); not re-proved, so branched instead of pruned: 0
+node design/judge2/cert_audit.mjs  55.63s user 0.76s system 102% cpu 55.245 total

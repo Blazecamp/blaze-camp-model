@@ -1,0 +1,32 @@
+A / B. credited-set rules and chosen minutes on the research cases (12 weeks)
+  E1 : credited steps over max(1, 7 %) + 0.5: 0; groups with credited peak over ceiling + 1: 4; over 30: 0; day-weeks over the CHOSEN 60 min with every pair supersetted: 17/48 (worst +5.9 min)
+       hips: credited peak 16.5 vs ceiling 14 + 1 (direct 14)
+       shoulders: credited peak 16.75 vs ceiling 14 + 1 (direct 13)
+       biceps: credited peak 16.5 vs ceiling 14 + 1 (direct 13)
+       triceps: credited peak 16 vs ceiling 14 + 1 (direct 14)
+  E2 : credited steps over max(1, 7 %) + 0.5: 0; groups with credited peak over ceiling + 1: 0; over 30: 0; day-weeks over the CHOSEN 45 min with every pair supersetted: 18/24 (worst +4.3 min)
+  E3 : credited steps over max(1, 7 %) + 0.5: 0; groups with credited peak over ceiling + 1: 2; over 30: 0; day-weeks over the CHOSEN 75 min with every pair supersetted: 9/48 (worst +6.9 min)
+       hips: credited peak 28 vs ceiling 24 + 1 (direct 24)
+       shoulders: credited peak 27 vs ceiling 22 + 1 (direct 22)
+  E4 : credited steps over max(1, 7 %) + 0.5: 0; groups with credited peak over ceiling + 1: 1; over 30: 0; day-weeks over the CHOSEN 90 min with every pair supersetted: 0/48 (worst +0.0 min)
+       shoulders: credited peak 28.5 vs ceiling 25 + 1 (direct 24)
+  E5 : credited steps over max(1, 7 %) + 0.5: 0; groups with credited peak over ceiling + 1: 1; over 30: 0; day-weeks over the CHOSEN 90 min with every pair supersetted: 16/36 (worst +8.6 min)
+       hips: credited peak 24.5 vs ceiling 22 + 1 (direct 22)
+
+C. keep vector over the allowed session lengths (exact oracle; "kept" = trained directly)
+  E1  keep order hips,quads,back,chest,shoulders,calves,triceps,biceps
+      30: 11000000 | 45: 11111000 | 60: 11111111 | 75: 11111111 | 90: 11111111 | 105: 11111111 | 120: 11111111
+      more minutes untrains a group (set inclusion broken): 0; keep vector lexicographically worse with more minutes: 0
+  E2  keep order calves,hips,quads,back,chest,shoulders,triceps,biceps
+      30: 10000000 | 45: 11000000 | 60: 11110000 | 75: 11110000 | 90: 11110000 | 105: 11110000 | 120: 11110000
+      more minutes untrains a group (set inclusion broken): 0; keep vector lexicographically worse with more minutes: 0
+  E3  keep order hips,quads,back,chest,shoulders,calves,triceps,biceps
+      30: 11000000 | 45: 11111000 | 60: 11111111 | 75: 11111111 | 90: 11111111 | 105: 11111111 | 120: 11111111
+      more minutes untrains a group (set inclusion broken): 0; keep vector lexicographically worse with more minutes: 0
+  E4  keep order hips,quads,back,chest,shoulders,calves,triceps,biceps
+      30: 11000000 | 45: 11111000 | 60: 11111111 | 75: 11111111 | 90: 11111111 | 105: 11111111 | 120: 11111111
+      more minutes untrains a group (set inclusion broken): 0; keep vector lexicographically worse with more minutes: 0
+  E5  keep order hips,quads,back,chest,calves,shoulders,triceps,biceps
+      30: 00000000 | 45: 10010000 | 60: 11110000 | 75: 11111100 | 90: 11111100 | 105: 11111100 | 120: 11111100
+      more minutes untrains a group (set inclusion broken): 0; keep vector lexicographically worse with more minutes: 0
+node design/judge2/endpoint_audit.mjs  21.69s user 0.62s system 72% cpu 30.976 total

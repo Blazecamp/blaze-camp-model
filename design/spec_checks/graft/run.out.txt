@@ -1,0 +1,282 @@
+## Decision table D1: the 2 x 45 pickleball plan under the three readings (judge 1, section 4)
+
+### D1-a  DEFAULT: who is trained is decided inside 45; the kept movements may use the 10 % band; the smallest overrun is pinned
+   trained directly: calves 6 -> 7, hips 10.5 -> 12.5
+   kept movements (2 sets, not counted as trained): row@Mon [partner], press@Thu [partner], knee@Mon [lead]
+   not trained directly: quads (time), back (time), chest (time), shoulders (time), triceps (no_station), biceps (no_station)
+   all resistance sets by week: 22 22 22 23 23 23 23 23 23 24 24 25   (flat weeks 8, arithmetic minimum 8)
+   minutes per day, week 1 / longest week (chosen 45; overrun pinned Mon 2.5, Thu 3.5): Mon 45.7 / 47.5, Thu 43.6 / 48.5
+   longest day without the kept movements: Mon 39.0, Thu 47.0
+   exercises per day (resistance): Mon 5, Thu 4; supersets needed on: Mon, Thu
+   notes: - | questions 61, nodes 125 (largest 13), unknown 0, 55 ms | violations in any week: 0
+      Mon (A knee + pull): calves: CALF 3->4; hips: UHD 2 + LEGFLEX 2; [row HPULL 2]; [knee UKD 2]
+      Thu (B hip + push): calves: CALF 3; hips: UHD 3->4 + LEGFLEX 3->4; [press HPUSH 2]
+      calves by week: 6 6 6 6 6 6 6 6 6 6 6 7
+      hips by week: 10.5 10.5 10.5 11.5 11.5 11.5 11.5 11.5 11.5 12.5 12.5 12.5
+      Mon minutes by week: 45.7 45.7 45.7 45.7 45.7 45.7 45.7 45.7 45.7 45.7 45.7 47.5
+      Thu minutes by week: 43.6 43.6 43.6 46.6 46.6 46.6 46.6 46.6 46.6 48.5 48.5 48.5
+
+### D1-b  45 exactly for everything (pattern factor 1.00)
+   trained directly: calves 6 -> 7, hips 10 -> 12
+   kept movements (2 sets, not counted as trained): press@Thu [partner]
+   not trained directly: quads (time), back (time), chest (time), shoulders (time), triceps (no_station), biceps (no_station)
+   all resistance sets by week: 18 18 18 19 19 19 19 19 19 20 20 21   (flat weeks 8, arithmetic minimum 8)
+   minutes per day, week 1 / longest week (chosen 45; overrun pinned Mon 0.0, Thu 0.0): Mon 40.2 / 43.9, Thu 41.8 / 43.6
+   longest day without the kept movements: Mon 43.9, Thu 42.1
+   exercises per day (resistance): Mon 3, Thu 4; supersets needed on: Mon, Thu
+   notes: - | questions 37, nodes 122 (largest 14), unknown 0, 17 ms | violations in any week: 0
+      Mon (A knee + pull): calves: CALF 3->4; hips: UHD 3 + LEGFLEX 2->3
+      Thu (B hip + push): calves: CALF 3; hips: UHD 3 + LEGFLEX 2->3; [press HPUSH 2]
+      calves by week: 6 6 6 6 6 6 6 6 6 6 6 7
+      hips by week: 10 10 10 11 11 11 11 11 11 12 12 12
+      Mon minutes by week: 40.2 40.2 40.2 42.0 42.0 42.0 42.0 42.0 42.0 42.0 42.0 43.9
+      Thu minutes by week: 41.8 41.8 41.8 41.8 41.8 41.8 41.8 41.8 41.8 43.6 43.6 43.6
+
+### D1-c  45 exactly, core opener switched off by the person
+   trained directly: calves 6 -> 8, hips 10.5 -> 13.5
+   kept movements (2 sets, not counted as trained): row@Mon [partner], press@Thu [partner], knee@Mon [lead]
+   not trained directly: quads (time), back (time), chest (time), shoulders (time), triceps (no_station), biceps (no_station)
+   all resistance sets by week: 22 22 23 23 23 24 24 25 25 26 26 27   (flat weeks 6, arithmetic minimum 6)
+   minutes per day, week 1 / longest week (chosen 45; overrun pinned Mon 0.0, Thu 0.0): Mon 43.2 / 45.0, Thu 36.3 / 44.8
+   longest day without the kept movements: Mon 36.5, Thu 43.3
+   exercises per day (resistance): Mon 5, Thu 4; supersets needed on: Mon, Thu
+   notes: - | questions 37, nodes 123 (largest 14), unknown 0, 13 ms | violations in any week: 0
+      Mon (A knee + pull): calves: CALF 3->4; hips: UHD 3 + LEGFLEX 2; [row HPULL 2]; [knee UKD 2]
+      Thu (B hip + push): calves: CALF 3->4; hips: UHD 3->4 + LEGFLEX 2->4; [press HPUSH 2]
+      calves by week: 6 6 6 6 6 7 7 7 7 8 8 8
+      hips by week: 10.5 10.5 11.5 11.5 11.5 11.5 11.5 12.5 12.5 12.5 12.5 13.5
+      Mon minutes by week: 43.2 43.2 43.2 43.2 43.2 45.0 45.0 45.0 45.0 45.0 45.0 45.0
+      Thu minutes by week: 36.3 36.3 38.1 38.1 38.1 38.1 38.1 41.1 41.1 43.0 43.0 44.8
+
+### D1-c2 45 exactly, athletic piece switched off by the person
+   trained directly: calves 6 -> 7, hips 10.5 -> 12.5
+   kept movements (2 sets, not counted as trained): row@Mon [partner], press@Thu [partner], knee@Mon [lead]
+   not trained directly: quads (time), back (time), chest (time), shoulders (time), triceps (no_station), biceps (no_station)
+   all resistance sets by week: 22 22 22 23 23 23 23 23 23 24 24 25   (flat weeks 8, arithmetic minimum 8)
+   minutes per day, week 1 / longest week (chosen 45; overrun pinned Mon 0.0, Thu 0.0): Mon 41.5 / 43.3, Thu 39.3 / 44.2
+   longest day without the kept movements: Mon 34.8, Thu 42.7
+   exercises per day (resistance): Mon 5, Thu 4; supersets needed on: Mon, Thu
+   notes: - | questions 40, nodes 143 (largest 14), unknown 0, 16 ms | violations in any week: 0
+      Mon (A knee + pull): calves: CALF 3->4; hips: UHD 2 + LEGFLEX 2; [row HPULL 2]; [knee UKD 2]
+      Thu (B hip + push): calves: CALF 3; hips: UHD 3->4 + LEGFLEX 3->4; [press HPUSH 2]
+      calves by week: 6 6 6 6 6 6 6 6 6 6 6 7
+      hips by week: 10.5 10.5 10.5 11.5 11.5 11.5 11.5 11.5 11.5 12.5 12.5 12.5
+      Mon minutes by week: 41.5 41.5 41.5 41.5 41.5 41.5 41.5 41.5 41.5 41.5 41.5 43.3
+      Thu minutes by week: 39.3 39.3 39.3 42.3 42.3 42.3 42.3 42.3 42.3 44.2 44.2 44.2
+
+### D1-x  REJECTED variant of the default: the day without its kept movements must fit 45 in EVERY tier (R-TIME.CORE never dropped)
+   trained directly: calves 6 -> 7, hips 10 -> 12
+   kept movements (2 sets, not counted as trained): press@Thu [partner], row@Mon* [keep]
+   not trained directly: quads (time), back (time), chest (time), shoulders (time), triceps (no_station), biceps (no_station)
+   all resistance sets by week: 20 20 20 21 21 21 21 21 21 22 22 23   (flat weeks 8, arithmetic minimum 8)
+   minutes per day, week 1 / longest week (chosen 45; overrun pinned Mon 2.5, Thu 0.5): Mon 45.7 / 47.5, Thu 41.8 / 45.5
+   longest day without the kept movements: Mon 42.0, Thu 44.0
+   exercises per day (resistance): Mon 4, Thu 4; supersets needed on: Mon, Thu
+   notes: - | questions 56, nodes 155 (largest 13), unknown 0, 17 ms | violations in any week: 0
+      Mon (A knee + pull): calves: CALF 3; hips: UHD 3 + LEGFLEX 2->3; [row HPULL 2]
+      Thu (B hip + push): calves: CALF 3->4; hips: UHD 3 + LEGFLEX 2->3; [press HPUSH 2]
+      calves by week: 6 6 6 6 6 6 6 6 6 6 6 7
+      hips by week: 10 10 10 11 11 11 11 11 11 12 12 12
+      Mon minutes by week: 45.7 45.7 45.7 47.5 47.5 47.5 47.5 47.5 47.5 47.5 47.5 47.5
+      Thu minutes by week: 41.8 41.8 41.8 41.8 41.8 41.8 41.8 41.8 41.8 43.6 43.6 45.5
+
+### D1-d  no kept movements at all (the worked example of 12 section 5.5: R-PARTNER and stations off)
+   trained directly: calves 6 -> 8, hips 10 -> 12
+   kept movements (2 sets, not counted as trained): -
+   not trained directly: quads (time), back (time), chest (time), shoulders (time), triceps (no_station), biceps (no_station)
+   all resistance sets by week: 16 16 16 17 17 17 18 18 18 19 19 20   (flat weeks 7, arithmetic minimum 7)
+   minutes per day, week 1 / longest week (chosen 45; overrun pinned Mon 0.0, Thu 0.0): Mon 40.2 / 43.9, Thu 40.3 / 44.0
+   longest day without the kept movements: Mon 43.9, Thu 44.0
+   exercises per day (resistance): Mon 3, Thu 3; supersets needed on: Mon, Thu
+   notes: - | questions 33, nodes 235 (largest 80), unknown 0, 11 ms | violations in any week: 0
+      Mon (A knee + pull): calves: CALF 3->4; hips: UHD 3 + LEGFLEX 2->3
+      Thu (B hip + push): calves: CALF 3->4; hips: UHD 3 + LEGFLEX 2->3
+      calves by week: 6 6 6 6 6 6 7 7 7 8 8 8
+      hips by week: 10 10 10 11 11 11 11 11 11 11 11 12
+      Mon minutes by week: 40.2 40.2 40.2 42.0 42.0 42.0 43.9 43.9 43.9 43.9 43.9 43.9
+      Thu minutes by week: 40.3 40.3 40.3 40.3 40.3 40.3 40.3 40.3 40.3 42.1 42.1 44.0
+
+## The same client at other lengths (default reading)
+
+### 2 x 30
+   trained directly: calves 6 -> 7
+   kept movements (2 sets, not counted as trained): row@Mon* [keep], press@Thu* [keep]
+   not trained directly: hips (time), quads (time), back (time), chest (time), shoulders (time), triceps (no_station), biceps (no_station)
+   all resistance sets by week: 10 10 10 10 10 10 10 10 10 10 10 11   (flat weeks 10, arithmetic minimum 10)
+   minutes per day, week 1 / longest week (chosen 30; overrun pinned Mon 2.8, Thu 1.1): Mon 31.0 / 32.8, Thu 31.1 / 31.1
+   longest day without the kept movements: Mon 27.3, Thu 25.6
+   exercises per day (resistance): Mon 2, Thu 2; supersets needed on: Mon, Thu
+   notes: - | questions 49, nodes 116 (largest 13), unknown 0, 14 ms | violations in any week: 0
+
+### 2 x 60
+   trained directly: calves 6 -> 8, hips 10 -> 12.25, quads 6 -> 7
+   kept movements (2 sets, not counted as trained): row@Mon [partner], press@Thu [partner]
+   not trained directly: back (time), chest (time), shoulders (time), triceps (no_station), biceps (no_station)
+   all resistance sets by week: 25 25 26 26 26 27 27 28 28 29 29 30   (flat weeks 6, arithmetic minimum 6)
+   minutes per day, week 1 / longest week (chosen 60; overrun pinned Mon 0.0, Thu 0.0): Mon 52.2 / 57.0, Thu 51.4 / 58.1
+   longest day without the kept movements: Mon 49.0, Thu 56.6
+   exercises per day (resistance): Mon 5, Thu 5; supersets needed on: Thu
+   notes: - | questions 44, nodes 109 (largest 14), unknown 0, 15 ms | violations in any week: 0
+
+### 2 x 75
+   trained directly: calves 6 -> 8, hips 10.75 -> 13, quads 6 -> 7, back 10 -> 13, chest 10 -> 12
+   kept movements (2 sets, not counted as trained): -
+   not trained directly: shoulders (time), triceps (no_station), biceps (no_station)
+   all resistance sets by week: 42 43 43 44 45 46 47 48 49 50 51 52   (flat weeks 1, arithmetic minimum 1)
+   minutes per day, week 1 / longest week (chosen 75; overrun pinned Mon 0.0, Thu 0.0): Mon 61.0 / 74.7, Thu 68.8 / 74.8
+   longest day without the kept movements: Mon 74.7, Thu 74.8
+   exercises per day (resistance): Mon 7, Thu 8; supersets needed on: Mon, Thu
+   notes: chest: more than 11 sets in one session | questions 57, nodes 298 (largest 14), unknown 0, 38 ms | violations in any week: 0
+
+### 2 x 90
+   trained directly: calves 6 -> 8, hips 10.75 -> 13, quads 6 -> 7, back 10 -> 13, chest 10 -> 12, shoulders 11.25 -> 13.75
+   kept movements (2 sets, not counted as trained): -
+   not trained directly: triceps (no_station), biceps (no_station)
+   all resistance sets by week: 50 51 52 53 54 55 56 57 58 59 61 62   (flat weeks 0, arithmetic minimum 0)
+   minutes per day, week 1 / longest week (chosen 90; overrun pinned Mon 0.0, Thu 0.0): Mon 77.0 / 89.5, Thu 74.8 / 84.9
+   longest day without the kept movements: Mon 87.0, Thu 77.6
+   exercises per day (resistance): Mon 10, Thu 8; supersets needed on: Mon, Thu
+   notes: chest: more than 11 sets in one session | questions 61, nodes 321 (largest 14), unknown 0, 33 ms | violations in any week: 0
+
+## 01 swimmer 3 x 60
+
+### DEFAULT
+   trained directly: back 10 -> 12, hips 10.5 -> 12.5
+   kept movements (2 sets, not counted as trained): press@Wed [partner], press@Fri [partner], squat@Mon [lead]
+   not trained directly: quads (time), chest (time), calves (time), shoulders (time), triceps (credit_only), biceps (credit_only)
+   all resistance sets by week: 26 26 26 27 27 27 28 28 28 29 29 30   (flat weeks 7, arithmetic minimum 7)
+   minutes per day, week 1 / longest week (chosen 60; overrun pinned Mon 0.0, Wed 1.1, Fri 0.6): Mon 44.2 / 58.4, Wed 52.9 / 61.1, Fri 54.6 / 60.6
+   longest day without the kept movements: Mon 50.9, Wed 59.6, Fri 59.1
+   exercises per day (resistance): Mon 3, Wed 4, Fri 5; supersets needed on: Mon, Wed, Fri
+   notes: - | questions 67, nodes 6271 (largest 2016), unknown 0, 105 ms | violations in any week: 0
+      Mon (S1 jump + knee + pull): back: HPULL 3->4 + VPULL 2->3; [squat BKD 2]
+      Wed (S2 medball + hip + push): hips: BHD 2->3 + UHD 2->3 + LEGFLEX 2; [press HPUSH 2]
+      Fri (S3 Olympic + strength): back: HPULL 3 + VPULL 2; hips: BHD 2 + LEGFLEX 2; [press HPUSH 2]
+      back by week: 10 10 10 10 10 10 11 11 11 12 12 12
+      hips by week: 10.5 10.5 10.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 12.5
+      Mon minutes by week: 44.2 44.2 44.2 44.2 47.2 47.2 49.4 49.4 55.4 58.4 58.4 58.4
+      Wed minutes by week: 52.9 52.9 52.9 55.1 55.1 55.1 55.1 55.1 58.1 58.1 58.1 61.1
+      Fri minutes by week: 54.6 54.6 54.6 54.6 54.6 54.6 54.6 54.6 60.6 60.6 60.6 60.6
+
+### 60 exactly for everything (pattern factor 1.00)
+   trained directly: back 12 -> 14, quads 12 -> 14, calves 9 -> 10
+   kept movements (2 sets, not counted as trained): -
+   not trained directly: hips (time), chest (time), shoulders (time), triceps (credit_only), biceps (credit_only)
+   all resistance sets by week: 33 33 34 34 34 35 35 36 36 37 37 38   (flat weeks 6, arithmetic minimum 6)
+   minutes per day, week 1 / longest week (chosen 60; overrun pinned Mon 0.0, Wed 0.0, Fri 0.0): Mon 48.9 / 59.8, Wed 55.9 / 58.9, Fri 51.4 / 58.8
+   longest day without the kept movements: Mon 59.8, Wed 58.9, Fri 58.8
+   exercises per day (resistance): Mon 5, Wed 5, Fri 5; supersets needed on: Mon, Wed, Fri
+   notes: - | questions 70, nodes 4634 (largest 2020), unknown 0, 92 ms | violations in any week: 0
+      Mon (S1 jump + knee + pull): back: HPULL 2 + VPULL 2; quads: BKD 2 + LEGEXT 2; calves: CALF 3->4
+      Wed (S2 medball + hip + push): back: HPULL 2 + VPULL 2; quads: UKD 2 + LEGEXT 2; calves: CALF 3
+      Fri (S3 Olympic + strength): back: HPULL 2->3 + VPULL 2->3; quads: UKD 2->3 + LEGEXT 2->3; calves: CALF 3
+      back by week: 12 12 12 12 12 13 13 13 13 14 14 14
+      quads by week: 12 12 13 13 13 13 13 13 13 13 13 14
+      calves by week: 9 9 9 9 9 9 9 10 10 10 10 10
+      Mon minutes by week: 48.9 48.9 48.9 48.9 51.9 51.9 51.9 53.8 59.8 59.8 59.8 59.8
+      Wed minutes by week: 55.9 55.9 55.9 55.9 55.9 55.9 55.9 55.9 58.9 58.9 58.9 58.9
+      Fri minutes by week: 51.4 51.4 54.4 54.4 54.4 55.2 55.2 55.2 55.2 58.2 58.2 58.8
+
+### default, no strength rest in the last exercise block (open item O-17)
+   trained directly: back 10 -> 13, hips 10.25 -> 12.5, quads 10 -> 12
+   kept movements (2 sets, not counted as trained): press@Wed [partner], press@Fri [partner]
+   not trained directly: chest (time), calves (time), shoulders (time), triceps (credit_only), biceps (credit_only)
+   all resistance sets by week: 33 33 34 34 35 35 36 36 37 38 39 40   (flat weeks 4, arithmetic minimum 4)
+   minutes per day, week 1 / longest week (chosen 60; overrun pinned Mon 0.0, Wed 0.0, Fri 0.0): Mon 48.0 / 58.6, Wed 50.4 / 58.7, Fri 58.8 / 58.8
+   longest day without the kept movements: Mon 58.6, Wed 57.2, Fri 57.3
+   exercises per day (resistance): Mon 4, Wed 3, Fri 7; supersets needed on: Mon, Wed, Fri
+   notes: - | questions 58, nodes 2374 (largest 2044), unknown 0, 53 ms | violations in any week: 0
+
+### 3 x 45
+   trained directly: calves 9 -> 10
+   kept movements (2 sets, not counted as trained): press@Fri [partner], deadlift@Fri [lead], row@Mon* [keep]
+   not trained directly: back (time), hips (time), quads (time), chest (time), shoulders (time), triceps (credit_only), biceps (credit_only)
+   all resistance sets by week: 15 15 15 15 15 15 15 15 15 15 15 16   (flat weeks 10, arithmetic minimum 10)
+   minutes per day, week 1 / longest week (chosen 45; overrun pinned Mon 0.0, Wed 0.6, Fri 2.7): Mon 40.7 / 43.7, Wed 40.7 / 45.6, Fri 41.7 / 47.7
+   longest day without the kept movements: Mon 36.7, Wed 45.6, Fri 34.7
+   exercises per day (resistance): Mon 2, Wed 1, Fri 3; supersets needed on: Fri
+   notes: - | questions 60, nodes 197 (largest 58), unknown 0, 28 ms | violations in any week: 0
+
+### 3 x 75
+   trained directly: back 10 -> 12, hips 10.5 -> 13.75, quads 10 -> 12, chest 10 -> 12, calves 9 -> 10
+   kept movements (2 sets, not counted as trained): -
+   not trained directly: shoulders (time), triceps (credit_only), biceps (credit_only)
+   all resistance sets by week: 48 49 49 50 51 52 53 54 55 56 57 58   (flat weeks 1, arithmetic minimum 1)
+   minutes per day, week 1 / longest week (chosen 75; overrun pinned Mon 0.0, Wed 0.0, Fri 0.0): Mon 52.7 / 74.3, Wed 60.8 / 74.0, Fri 68.1 / 74.1
+   longest day without the kept movements: Mon 74.3, Wed 74.0, Fri 74.1
+   exercises per day (resistance): Mon 5, Wed 5, Fri 9; supersets needed on: Mon, Wed, Fri
+   notes: - | questions 76, nodes 3180 (largest 560), unknown 0, 172 ms | violations in any week: 0
+
+### 3 x 90
+   trained directly: back 13 -> 19, hips 10.5 -> 15, quads 12 -> 14, chest 10 -> 13, calves 9 -> 11, shoulders 11.25 -> 14.25
+   kept movements (2 sets, not counted as trained): -
+   not trained directly: triceps (credit_only), biceps (credit_only)
+   all resistance sets by week: 61 62 63 64 66 67 69 71 73 75 78 80   (flat weeks 0, arithmetic minimum 0)
+   minutes per day, week 1 / longest week (chosen 90; overrun pinned Mon 0.0, Wed 0.0, Fri 0.0): Mon 70.9 / 88.1, Wed 74.1 / 89.7, Fri 66.6 / 89.6
+   longest day without the kept movements: Mon 88.1, Wed 89.7, Fri 89.6
+   exercises per day (resistance): Mon 8, Wed 9, Fri 9; supersets needed on: Mon, Wed, Fri
+   notes: - | questions 92, nodes 15833 (largest 2179), unknown 0, 499 ms | violations in any week: 0
+
+## 04 CrossFit-style class 4 x 60
+
+### DEFAULT
+   trained directly: back 12 -> 15
+   kept movements (2 sets, not counted as trained): bench@Thu [partner]
+   not trained directly: hips (time), quads (time), chest (time), calves (time), shoulders (time), triceps (no_station), biceps (time)
+   all resistance sets by week: 23 23 24 24 24 25 25 26   (flat weeks 4, arithmetic minimum 4)
+   minutes per day, week 1 / longest week (chosen 60; overrun pinned Mon 0.0, Tue 0.0, Thu 0.0, Fri 0.0): Mon 58.5 / 58.5, Tue 50.3 / 50.3, Thu 51.8 / 51.8, Fri 49.0 / 55.8
+   longest day without the kept movements: Mon 58.5, Tue 50.3, Thu 46.3, Fri 55.8
+   exercises per day (resistance): Mon 2, Tue 0, Thu 1, Fri 2; supersets needed on: Mon
+   notes: - | questions 37, nodes 118 (largest 8), unknown 0, 26 ms | violations in any week: 0
+      Mon (squat day): back: HPULL 3 + VPULL 3
+      Tue (press + snatch day): -
+      Thu (deadlift day): [bench HPUSH 2]
+      Fri (clean + pull day): back: HPULL 3->5 + VPULL 3->4
+      back by week: 12 12 13 13 13 14 14 15
+      Mon minutes by week: 58.5 58.5 58.5 58.5 58.5 58.5 58.5 58.5
+      Tue minutes by week: 50.3 50.3 50.3 50.3 50.3 50.3 50.3 50.3
+      Thu minutes by week: 51.8 51.8 51.8 51.8 51.8 51.8 51.8 51.8
+      Fri minutes by week: 49.0 49.0 51.3 51.3 51.3 53.5 53.5 55.8
+
+### 60 exactly for everything (pattern factor 1.00)
+   trained directly: back 12 -> 15
+   kept movements (2 sets, not counted as trained): bench@Thu [partner]
+   not trained directly: hips (time), quads (time), chest (time), calves (time), shoulders (time), triceps (no_station), biceps (time)
+   all resistance sets by week: 23 23 24 24 24 25 25 26   (flat weeks 4, arithmetic minimum 4)
+   minutes per day, week 1 / longest week (chosen 60; overrun pinned Mon 0.0, Tue 0.0, Thu 0.0, Fri 0.0): Mon 58.5 / 58.5, Tue 50.3 / 50.3, Thu 51.8 / 51.8, Fri 49.0 / 55.8
+   longest day without the kept movements: Mon 58.5, Tue 50.3, Thu 46.3, Fri 55.8
+   exercises per day (resistance): Mon 2, Tue 0, Thu 1, Fri 2; supersets needed on: Mon
+   notes: - | questions 35, nodes 112 (largest 8), unknown 0, 13 ms | violations in any week: 0
+      Mon (squat day): back: HPULL 3 + VPULL 3
+      Tue (press + snatch day): -
+      Thu (deadlift day): [bench HPUSH 2]
+      Fri (clean + pull day): back: HPULL 3->5 + VPULL 3->4
+      back by week: 12 12 13 13 13 14 14 15
+      Mon minutes by week: 58.5 58.5 58.5 58.5 58.5 58.5 58.5 58.5
+      Tue minutes by week: 50.3 50.3 50.3 50.3 50.3 50.3 50.3 50.3
+      Thu minutes by week: 51.8 51.8 51.8 51.8 51.8 51.8 51.8 51.8
+      Fri minutes by week: 49.0 49.0 51.3 51.3 51.3 53.5 53.5 55.8
+
+### 4 x 45
+   no plan: the fixed blocks (and the partner a class lift needs) do not fit this session length - the format starts at a longer session
+
+### 4 x 75
+   trained directly: hips 10.75 -> 13, quads 10 -> 12, chest 12 -> 15, biceps 10.5 -> 12.5
+   kept movements (2 sets, not counted as trained): row@Mon [partner]
+   not trained directly: back (time), calves (time), shoulders (time), triceps (no_station)
+   all resistance sets by week: 46 47 48 49 50 52 53 55   (flat weeks 0, arithmetic minimum 0)
+   minutes per day, week 1 / longest week (chosen 75; overrun pinned Mon 0.0, Tue 0.0, Thu 0.0, Fri 0.0): Mon 68.8 / 73.7, Tue 64.6 / 70.9, Thu 68.1 / 73.3, Fri 55.0 / 58.7
+   longest day without the kept movements: Mon 70.7, Tue 70.9, Thu 73.3, Fri 58.7
+   exercises per day (resistance): Mon 3, Tue 2, Thu 4, Fri 3; supersets needed on: Mon, Thu
+   notes: quads: more than 11 sets in one session; biceps: more than 11 sets in one session | questions 59, nodes 192 (largest 10), unknown 0, 23 ms | violations in any week: 0
+
+### 4 x 90
+   trained directly: hips 11 -> 13.5, quads 10 -> 13, back 12 -> 14, chest 12 -> 15, calves 6 -> 7, shoulders 11 -> 13.75, biceps 10 -> 12.5
+   kept movements (2 sets, not counted as trained): -
+   not trained directly: triceps (no_station)
+   all resistance sets by week: 64 65 67 68 70 73 75 79   (flat weeks 0, arithmetic minimum 0)
+   minutes per day, week 1 / longest week (chosen 90; overrun pinned Mon 0.0, Tue 0.0, Thu 0.0, Fri 0.0): Mon 81.3 / 89.1, Tue 75.8 / 83.6, Thu 79.4 / 88.7, Fri 65.0 / 73.2
+   longest day without the kept movements: Mon 89.1, Tue 83.6, Thu 84.0, Fri 73.2
+   exercises per day (resistance): Mon 6, Tue 4, Thu 5, Fri 5; supersets needed on: Mon, Thu
+   notes: quads: more than 11 sets in one session | questions 90, nodes 939 (largest 284), unknown 0, 51 ms | violations in any week: 0
+

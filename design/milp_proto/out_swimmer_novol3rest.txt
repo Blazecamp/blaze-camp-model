@@ -1,0 +1,56 @@
+
+## 01 swimming, 16 y, L2, competitive off-season, 3 x 60 min, 12 weeks - vol3Rest=off
+chosen 3 x 60 min; "the day holds" limit 66 min (fit factor 1.1); model 190 integer variables, 515 rows; 2612 ms CPU
+  fixed blocks Mon: weeks 1-4 warm-up 8 + core opener 2 x 2 (as a pair) 5.5 + box jump 4.3 + Olympic lift (clean family) 7 + shoulder care (inside a rest, every session) 1.7 = 26.5 min; weeks 5-8 29.5; weeks 9-12 29.5
+  fixed blocks Wed: weeks 1-4 warm-up 8 + core opener 2 x 2 (as a pair) 5.5 + medball throw 4.2 + upper-body plyo 4.3 + ankle hops 1.9 + Olympic lift (snatch family) 7 + shoulder care (inside a rest, every session) 1.7 = 32.6 min; weeks 5-8 33.5; weeks 9-12 36.5
+  fixed blocks Fri: weeks 1-4 warm-up 8 + core opener 2 x 2 (as a pair) 5.5 + jump + medball throw (as a pair) 5.3 + Olympic lift (clean pull) 7 + shoulder care (inside a rest, every session) 1.7 = 27.5 min; weeks 5-8 27.5; weeks 9-12 27.5
+tiers (each frozen exactly before the next):
+  T1a  T1-POL-05 groups trained directly (keep order, one exact question each) =     4  optimal  105 nodes   [back:fits/8 hips:fits/22 quads:fits/24 chest:fits/29 shoulders:infeasible/7 calves:infeasible/15]
+  T1c  T1-POL-07 pattern stations in the room that is left                    =    -1  optimal  0 nodes
+  T4   T4-TIME-01 minutes over the chosen length (week 1 + peak week)         =    28  optimal  398 nodes
+  T5s  T5-CAP-05 sets over 11 a session (quarter sets)                        =     0  optimal  0 nodes
+  T5a  T5-CAP-04 worst peak shortfall                                         =     9  optimal  10 nodes
+  T5b  T5-CAP-04 total peak shortfall                                         =    19  optimal  16 nodes
+  T5c  T3-STW-08 week 1 nearest the level start                               =     7  optimal  10 nodes
+  T6   T6-CNT-03 fewest exercises                                             =    16  optimal  11 nodes
+  T7a  T7-PLC-02 uneven exposures                                             =     5  optimal  53 nodes
+  T7b  T7-PAIR-03 fewest supersets switched on                                =     8  optimal  26 nodes
+  T9   canonical tie-break (earliest slots first)                             =  1174  optimal  36 nodes
+trained directly (FULL): back, hips, quads, chest
+  back      start S 15, ceiling C 21, floor 10: Mon row 3->4, pulldown 3->4 | Fri row 2->2, pulldown 2->2
+  hips      start S 11, ceiling C 16, floor 10: Wed back extension / hip hinge (non-axial work) 3->3, staggered DB deadlift 2->3 | Fri trap-bar deadlift (axial work lift, tested) 3->3, leg curl 2->3
+  quads     start S 11, ceiling C 16, floor 10: Mon squat (axial work lift, tested) 3->4, leg extension 3->4 | Fri step-up 2->2, leg extension 2->2
+  chest     start S 10, ceiling C 14, floor 10: Wed bench press 3->4, fly 3->3 | Fri DB press 2->3, fly 2->2
+not trained directly: shoulders (pattern kept: Mon shoulder press 2 sets); calves (time)
+supersets on (needed): Mon squat (axial work lift, tested) + row; Mon leg extension + pulldown; Wed back extension / hip hinge (non-axial work) + bench press; Wed staggered DB deadlift + fly; Fri trap-bar deadlift (axial work lift, tested) + DB press; Fri step-up + row; Fri leg curl + fly; Fri leg extension + pulldown
+
+weekly hard sets per group, weeks 1..12 (credited group sets on the main days: prime 1.0, helpers 0.25, at most 1.0 a set)
+| group | state | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| back | trained | 10 | 10 | 11 | 11 | 11 | 11 | 11 | 11 | 12 | 12 | 12 | 12 |
+| hips | trained | 11.25 | 11.25 | 11.25 | 11.25 | 12.25 | 12.5 | 12.5 | 12.5 | 12.5 | 13.5 | 13.5 | 13.5 |
+| quads | trained | 10 | 10 | 10 | 10 | 10 | 11 | 11 | 11 | 11 | 11 | 12 | 12 |
+| chest | trained | 10 | 10 | 10 | 10 | 10 | 10 | 11 | 11 | 11 | 11 | 11 | 12 |
+| shoulders | pattern | 4.5 | 4.5 | 4.75 | 4.75 | 4.75 | 4.75 | 5 | 5 | 5 | 5 | 5 | 5.25 |
+| calves | - | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| total resistance sets | | 42 | 42 | 43 | 43 | 44 | 45 | 46 | 46 | 47 | 48 | 49 | 50 |
+| rise vs previous week | | - | 0 | +2.4 % | 0 | +2.3 % | +2.3 % | +2.2 % | 0 | +2.2 % | +2.1 % | +2.1 % | +2 % |
+direct sets of the trained groups: back 10 10 11 11 11 11 11 11 12 12 12 12 (lambda 0.41); hips 10 10 10 10 11 11 11 11 11 12 12 12 (lambda 0.41); quads 10 10 10 10 10 11 11 11 11 11 12 12 (lambda 0.41); chest 10 10 10 10 10 10 11 11 11 11 11 12 (lambda 0.41)
+stairway (exact, placed weeks): lines not landing in week 12: 3; flat weeks of the total: 3 of 11 (arithmetic minimum 3); flat weeks in a row: 0; distance to the coach's rounded curve: 11 set-weeks; 1272 DP states
+
+minutes per day, weeks 1..12 (supersets on where needed; chosen 60, limit 66)
+| day | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | straight sets, last week |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Mon | 51.6 | 51.6 | 53.8 | 53.8 | 56.8 | 57.6 | 57.6 | 57.6 | 59.8 | 59.8 | 60.4 | 60.4 | 73.4 |
+| Wed | 52.7 | 52.7 | 52.7 | 52.7 | 55.3 | 55.3 | 57.6 | 57.6 | 60.6 | 60.6 | 60.6 | 60.6 | 70.8 |
+| Fri | 57.9 | 57.9 | 57.9 | 57.9 | 57.9 | 57.9 | 57.9 | 57.9 | 57.9 | 59.7 | 59.7 | 60.5 | 77 |
+test weeks (1 and 12): the strength / jump test work-up adds Mon +16 min, Fri +10 min (reported apart, see design section 14)
+exercises per day (resistance, last week): Mon 5, Wed 4, Fri 8
+certificate over all 12 weeks (integers): days over the limit 0, group-weeks under the floor 0, over the ceiling 0, slots that lost a set 0, weeks outside the endpoint sandwich 0, VOL-07 breaks 0, group steps over 1 set 0, weekly totals rising 10 % or more 0, groups not at their peak in week 12: 0  => PASS
+last week, day by day: Mon: squat (axial work lift, tested) 3->4, leg extension 3->4, row 3->4, pulldown 3->4, shoulder press 2->2 || Wed: back extension / hip hinge (non-axial work) 3->3, staggered DB deadlift 2->3, bench press 3->4, fly 3->3 || Fri: trap-bar deadlift (axial work lift, tested) 3->3, leg curl 2->3, DB press 2->3, fly 2->2, step-up 2->2, leg extension 2->2, row 2->2, pulldown 2->2
+CPU: tiers 2612 ms (665 nodes, 56512 LP pivots), stairway + placement + certificate 23 ms
+athletic budget (planned / target per week; per-set doses climb, never drop):
+  jump_contacts   planned 32 32 32 32 32 32 32 32 32 32 32 32 | target 37 38 39 40 41 42 44 45 46 47 48 49 | attainment 65-86 %  <- told: the stations cannot hold the target (add a set or a station = minutes)
+  throws          planned 35 36 37 38 39 40 40 41 42 43 44 45 | target 35 36 37 38 39 40 40 41 42 43 44 45 | attainment 100-100 %
+  low_contacts    planned 8 10 11 13 15 17 18 20 22 24 25 27 | target 8 10 11 13 15 17 18 20 22 24 25 27 | attainment 100-100 %
+  olympic_sets    planned 6 6 6 6 7 7 7 7 8 8 8 8 | target 6 6 6 7 7 7 7 7 7 8 8 8 | attainment 86-100 %

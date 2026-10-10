@@ -1,0 +1,30 @@
+aesthetics 4x45 L2: select kept 5 dropped 1, 171 nodes, 739 ms CPU
+   budget    100 nodes/tier: tiers null?  nodes 101  142 ms CPU  sol=false
+   budget    300 nodes/tier: tiers 10? / 40? / 22?  nodes 301/301/301  454 ms CPU  sol=true
+   budget   1000 nodes/tier: tiers 10? / 40? / 21?  nodes 1001/1001/1001  1628 ms CPU  sol=true
+   budget   3000 nodes/tier: tiers 10? / 40? / 21?  nodes 3001/3001/3001  4111 ms CPU  sol=true
+aesthetics 3x60 L2: select kept 7 dropped 1, 173 nodes, 397 ms CPU
+   budget    100 nodes/tier: tiers 14 / 66? / 21?  nodes 71/101/101  313 ms CPU  sol=true
+   budget    300 nodes/tier: tiers 14 / 66? / 21?  nodes 71/301/301  693 ms CPU  sol=true
+   budget   1000 nodes/tier: tiers 14 / 66? / 21?  nodes 71/1001/1001  1862 ms CPU  sol=true
+   budget   3000 nodes/tier: tiers 14 / 65 / 19  nodes 71/2146/1876  3551 ms CPU  sol=true
+aesthetics 3x60 L3: select kept 7 dropped 1, 173 nodes, 389 ms CPU
+   budget    100 nodes/tier: tiers 17 / null?  nodes 63/101  201 ms CPU  sol=true
+   budget    300 nodes/tier: tiers 17 / 87? / 44?  nodes 63/301/301  786 ms CPU  sol=true
+   budget   1000 nodes/tier: tiers 17 / 87? / 44?  nodes 63/1001/1001  1887 ms CPU  sol=true
+   budget   3000 nodes/tier: tiers 17 / 86 / 45?  nodes 63/2816/3001  4447 ms CPU  sol=true
+aesthetics 2x90 L2: select kept 7 dropped 1, 125 nodes, 155 ms CPU
+   budget    100 nodes/tier: tiers 14 / 58 / null?  nodes 38/77/101  190 ms CPU  sol=true
+   budget    300 nodes/tier: tiers 14 / 58 / null?  nodes 38/77/301  299 ms CPU  sol=true
+   budget   1000 nodes/tier: tiers 14 / 58 / 14?  nodes 38/77/1001  665 ms CPU  sol=true
+   budget   3000 nodes/tier: tiers 14 / 58 / 13?  nodes 38/77/3001  1853 ms CPU  sol=true
+aesthetics 3x45 L2: select kept 4 dropped 2, 201 nodes, 246 ms CPU
+   budget    100 nodes/tier: tiers 9? / 34? / 15?  nodes 101/101/101  138 ms CPU  sol=true
+   budget    300 nodes/tier: tiers 9 / 34? / 14?  nodes 224/301/301  373 ms CPU  sol=true
+   budget   1000 nodes/tier: tiers 9 / 33 / 13  nodes 224/726/605  760 ms CPU  sol=true
+   budget   3000 nodes/tier: tiers 9 / 33 / 13  nodes 224/726/605  790 ms CPU  sol=true
+aesthetics 4x60 L1: select kept 8 dropped 0, 427 nodes, 885 ms CPU
+   budget    100 nodes/tier: tiers 1 / 2? / 4  nodes 38/101/35  157 ms CPU  sol=true
+   budget    300 nodes/tier: tiers 1 / 2? / 4  nodes 38/301/35  291 ms CPU  sol=true
+   budget   1000 nodes/tier: tiers 1 / 2 / 4  nodes 38/548/35  469 ms CPU  sol=true
+   budget   3000 nodes/tier: tiers 1 / 2 / 4  nodes 38/548/35  426 ms CPU  sol=true

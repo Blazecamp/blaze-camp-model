@@ -1,0 +1,130 @@
+{
+  "schema": "intake/2",
+  "_comment": "Hiker, 68, 3 x 45, dumbbells + bench, mild knee and low-back pain.",
+  "_bench": {
+    "n": 69,
+    "tags": [
+      "active",
+      "hiking",
+      "older",
+      "pain",
+      "home"
+    ],
+    "edge": false
+  },
+  "id": "bench-69-hike-ruck-68-3x45-knee-back",
+  "lang": "en",
+  "units": "lb",
+  "role": "self",
+  "health_route": null,
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "release": {
+    "accepted": true,
+    "version": "release.client",
+    "lang": "en",
+    "guardian": null
+  },
+  "age": 68,
+  "body_weight": {
+    "value": 165,
+    "unit": "lb"
+  },
+  "experience": {
+    "years_consistent": 2,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "goal": "active",
+  "format": null,
+  "sport": null,
+  "activity": {
+    "ids": [
+      "hike_ruck"
+    ],
+    "play_days": [
+      "Sun"
+    ],
+    "event_date": null
+  },
+  "priority_muscles": [],
+  "lift_style": "balanced",
+  "schedule": {
+    "days_per_week": 3,
+    "weekdays": [
+      "Mon",
+      "Wed",
+      "Fri"
+    ],
+    "session_minutes": 45,
+    "start_date": "2026-10-12"
+  },
+  "plan": {
+    "mode": "fixed_12",
+    "maint_reason": null,
+    "maint_weeks": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "none"
+    ],
+    "just_finished_block": false
+  },
+  "equipment": {
+    "profile": "HOME_DB_BENCH",
+    "extras": [],
+    "machines": [],
+    "preference": "none",
+    "detail": {
+      "heaviest_db_pair": 25,
+      "medball_lb_owned": [],
+      "box_height_in": null,
+      "running_space": "none",
+      "cardio_options": [
+        "treadmill",
+        "bike",
+        "rower"
+      ]
+    }
+  },
+  "pain": [
+    {
+      "area": "knee",
+      "side": "both",
+      "severity": "mild",
+      "worse_with": [
+        "deep_knee_bend"
+      ]
+    },
+    {
+      "area": "lower_back",
+      "side": "both",
+      "severity": "mild",
+      "worse_with": [
+        "bending_forward"
+      ]
+    }
+  ],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "start",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false,
+    "cardio_adjust": 0,
+    "older_athletic_opt_in": false,
+    "split_style": "default"
+  },
+  "growth_stage": null,
+  "email": null,
+  "coach_rule_pack_ids": []
+}

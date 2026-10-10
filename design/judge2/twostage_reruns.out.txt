@@ -1,0 +1,21 @@
+## node ../two-stage/proto/test_oracle.mjs 600 987654321
+instances 600, questions 2400: fits 781, no 1619, unknown 0; verdicts that differ from brute force 0; witnesses the evaluator rejects 0
+nodes: total 3673, largest 22
+drawn: {"groups":{"2":333,"3":267},"days":{"1":290,"2":310},"N":{"4":149,"6":137,"8":161,"12":153},"withPairs":463,"withPartner":304,"withFixed":163,"strength":567}
+node test_oracle.mjs 600 987654321  50.51s user 0.33s system 101% cpu 50.128 total
+
+## node ../two-stage/proto/test_link.mjs 200 777
+instances 200: plans 191 (1628 plan-weeks), no group fits 9; violations of any hard row in any week 0; oracle unknown 0
+kept groups per plan {"0":9,"1":45,"2":78,"3":43,"4":21,"5":4}; instances with a strength-rest block 149; plans that need a superset 14; oracle nodes total 45667, largest question 2009
+stairway: plans that needed the 10 % fallback 0; flat weeks of the total at the arithmetic minimum in 159 of 191; plans with a flat week in the last third 98
+node test_link.mjs 200 777  4.25s user 0.07s system 140% cpu 3.070 total
+
+## jsc -m ../two-stage/proto/det.mjs (JavaScriptCore) - identical to out/det.node.txt
+pickleball {"care":"one"}: kept calves,hips | nodes 130 | totals 18 18 18 19 19 19 19 20 20 20 20 21
+pickleball {"care":"one","minutes":75}: kept calves,hips,quads,back,chest | nodes 266 | totals 42 43 43 44 44 45 46 47 48 50 51 52
+swimmer {}: kept back,hips | nodes 2166 | totals 22 22 23 23 24 24 25 26 26 27 28 29
+swimmer {"minutes":90}: kept back,hips,quads,chest,calves,shoulders | nodes 16749 | totals 61 62 63 64 66 67 69 71 73 75 78 80
+crossfit {}: kept back | nodes 113 | totals 23 23 24 24 24 25 25 26
+crossfit {"minutes":90}: kept hips,quads,back,chest,calves,shoulders,biceps | nodes 486 | totals 65 66 68 69 71 74 77 81
+checksum e905a0f2
+$JSC -m det.mjs  1.76s user 0.06s system 114% cpu 1.593 total

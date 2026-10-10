@@ -1,0 +1,4 @@
+aesthetics 4x60 L1 T1a=8/238 T4=0/556 T5s=0/0 T5a=4/260 T5b=20(feasible)/5001 T5c=5(feasible)/5001 22220 ms
+aesthetics 3x60 L2 T1a=6/173 T4=0/207 T5s=0/0 T5a=12/1081 T5b=61/459 T5c=21/938 3075 ms
+aesthetics 4x45 L2 T1a=5/109 T4=0/329 T5a=12/50 T5b=53/312 T5c=25/295 1923 ms
+aesthetics 4x60 L3 T1a=8/280 T4=0/1545 T5s=0/0 T5a=15/237 T5b=105/2586 T5c=57/2132 24991 ms

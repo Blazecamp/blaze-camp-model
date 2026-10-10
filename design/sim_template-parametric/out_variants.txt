@@ -1,0 +1,65 @@
+
+## 08 pickleball 2 days: session-length sweep (the R3-SES-02 step-1 offers are these re-solves)
+   30 min          calves 7->8; longest day 28.6 min   [11 ms, certify 0]
+   45 min (chosen) calves 7->8, hips 10->12; kept: quads, back, chest; longest day 48.5 min   [34 ms, certify 0]
+   60 min          calves 7->8, hips 10->12, quads 6->7, back 10->12; kept: chest; longest day 62.8 min   [45 ms, certify 0]
+   75 min          calves 7->8, hips 10->12, quads 6->7, back 10->13, shoulders 8->11; kept: chest; room on: ankle hops (Thu); longest day 76.5 min   [54 ms, certify 0]
+   90 min          calves 7->8, hips 10->13, quads 6->7, back 10->13, shoulders 8->11; kept: chest; room on: ankle hops (Thu), power piece (Mon), power piece (Thu); longest day 90.0 min   [22 ms, certify 0]
+  105 min          calves 7->8, hips 10->13, quads 6->7, back 10->13, shoulders 8->11; kept: chest; room on: ankle hops (Thu), power piece (Mon), power piece (Thu); longest day 102.7 min   [24 ms, certify 0]
+  120 min          calves 7->8, hips 10->13, quads 6->7, back 10->13, shoulders 8->11; kept: chest; room on: ankle hops (Thu), power piece (Mon), power piece (Thu); longest day 114.3 min   [22 ms, certify 0]
+  monotonicity over the 6 comparable steps: keep vector worse 0; a trained group's peak (direct sets) lower 0; certify violations in all plans 0
+
+## 04 CrossFit-style class 4 days: session-length sweep (the R3-SES-02 step-1 offers are these re-solves)
+   30 min          T0 does not fit: no plan satisfies T0 (refer / remove a block)   [0 ms]
+   45 min          T0 does not fit: no plan satisfies T0 (refer / remove a block)   [1 ms]
+   60 min (chosen) back 10->12, chest 10->12, calves 7->8; longest day 64.5 min   [15 ms, certify 0]
+   75 min          back 11->13, chest 12->15, calves 7->8, shoulders 9->11, biceps 8->10; longest day 77.3 min   [76 ms, certify 0]
+   90 min          back 12->15, chest 12->15, calves 7->8, shoulders 10->12, biceps 9->11; longest day 87.8 min   [63 ms, certify 0]
+  105 min          back 12->15, chest 12->15, calves 7->8, shoulders 10->12, biceps 9->11; longest day 87.8 min   [75 ms, certify 0]
+  120 min          back 12->15, chest 12->15, calves 7->8, shoulders 10->12, biceps 9->11; longest day 87.8 min   [59 ms, certify 0]
+  monotonicity over the 4 comparable steps: keep vector worse 0; a trained group's peak (direct sets) lower 0; certify violations in all plans 0
+
+## 01 swimming 3 days: session-length sweep (the R3-SES-02 step-1 offers are these re-solves)
+   30 min          T0 does not fit: no plan satisfies T0 (refer / remove a block)   [1 ms]
+   45 min          back 10->12; kept: hips, quads, chest; room on: ankle hops (Fri), 2nd jump station (Mon); longest day 49.5 min   [16 ms, certify 0]
+   60 min (chosen) back 10->14, hips 10->12, chest 10->12; kept: quads; room on: ankle hops (Fri), 2nd jump station (Mon); longest day 65.0 min   [67 ms, certify 0]
+   75 min          back 10->13, hips 10->12, quads 10->12, chest 10->12, calves 10->11; room on: ankle hops (Fri), upper plyo (Wed), 2nd jump station (Mon); longest day 82.5 min   [234 ms, certify 0]
+   90 min          back 15->20, hips 10->14, quads 13->16, chest 10->13, calves 10->11, shoulders 8->11; room on: ankle hops (Fri), upper plyo (Wed), 2nd jump station (Mon); longest day 97.1 min   [540 ms, certify 0]
+  105 min          back 15->21, hips 10->15, quads 13->16, chest 10->14, calves 10->12, shoulders 8->11; room on: ankle hops (Fri), upper plyo (Wed), 2nd jump station (Mon); longest day 112.1 min   [606 ms, certify 0]
+  120 min          back 15->21, hips 10->15, quads 13->16, chest 10->14, calves 10->12, shoulders 8->11; room on: ankle hops (Fri), upper plyo (Wed), 2nd jump station (Mon); longest day 117.7 min   [679 ms, certify 0]
+  monotonicity over the 5 comparable steps: keep vector worse 0; a trained group's peak (direct sets) lower 1 (back 14 -> 13 at 75 min (added: quads, calves)); certify violations in all plans 0
+
+## Toggles and readings
+  08 pickleball 2 x 45 (as planned)                              calves 7->8, hips 10->12; kept: quads, back, chest; longest day 48.5 min   [12 ms, certify 0]
+  08 pickleball 2 x 45, fit factor 1.00 (strict minutes)         calves 7->8, hips 10->12; kept: chest; longest day 45.0 min   [6 ms, certify 0]
+  08 pickleball 2 x 45, no kept movement stations                calves 7->8, hips 10->13; longest day 45.1 min   [2 ms, certify 0]
+  08 pickleball 2 x 45, strict minutes and no kept stations      calves 7->8, hips 10->13; longest day 45.1 min   [2 ms, certify 0]
+  08 pickleball 2 x 45, core opener switched off (user toggle)   calves 7->8, hips 10->12; kept: quads, back, chest; room on: ankle hops (Thu); longest day 44.7 min   [10 ms, certify 0]
+  08 pickleball 2 x 45, athletic block switched off (user toggle) calves 7->8, hips 10->12; kept: quads, back, chest; longest day 44.5 min   [9 ms, certify 0]
+  08 pickleball 3 x 45 (offer: one more day)                     calves 10->11, hips 10->12, quads 6->7, back 10->12; longest day 49.3 min   [45 ms, certify 0]
+  08 pickleball 3 x 60                                           calves 10->11, hips 10->13, quads 6->7, back 10->12, chest 10->13, shoulders 7->10; longest day 63.5 min   [167 ms, certify 0]
+  04 CrossFit class 4 x 60 (as planned)                          back 10->12, chest 10->12, calves 7->8; longest day 64.5 min   [7 ms, certify 0]
+  04 CrossFit class 4 x 60, fit factor 1.00 (strict minutes)     back 11->14, chest 10->12; longest day 60.5 min   [5 ms, certify 0]
+  04 CrossFit class 4 x 75                                       back 11->13, chest 12->15, calves 7->8, shoulders 9->11, biceps 8->10; longest day 77.3 min   [69 ms, certify 0]
+  04 CrossFit class 4 x 75, 14 sets of a group allowed in a session hips 9->11, quads 10->12, back 11->13, chest 10->12, calves 7->8, shoulders 9->11; longest day 79.5 min   [21 ms, certify 0]
+  04 CrossFit class 4 x 90, 14 sets of a group allowed in a session hips 11->14, quads 11->13, back 12->15, chest 12->15, calves 7->8, shoulders 12->15, biceps 8->10; longest day 90.4 min   [26 ms, certify 0]
+  01 swimming 3 x 60 (as planned)                                back 10->14, hips 10->12, chest 10->12; kept: quads; room on: ankle hops (Fri), 2nd jump station (Mon); longest day 65.0 min   [54 ms, certify 0]
+  01 swimming 3 x 60, fit factor 1.00 (strict minutes)           back 11->16, quads 13->15; kept: hips, chest; room on: ankle hops (Fri), upper plyo (Wed), 2nd jump station (Mon); longest day 60.3 min   [15 ms, certify 0]
+  01 swimming 3 x 60, no tests                                   back 10->12, hips 10->12, quads 10->12, chest 10->12; longest day 63.4 min   [165 ms, certify 0]
+  01 swimming 3 x 60, no kept movement stations                  back 10->15, hips 10->12, chest 10->12; room on: ankle hops (Fri), 2nd jump station (Mon); longest day 65.5 min   [36 ms, certify 0]
+  01 swimming 3 x 60, work lifts without the late strength rest  back 10->13, hips 10->12, quads 10->13, chest 10->12; room on: ankle hops (Fri), upper plyo (Wed), 2nd jump station (Mon); longest day 66.1 min   [109 ms, certify 0]
+
+## Totals: 36 plans solved and certified in the sweep and the toggles, 0 violations; 15 comparable session-length steps, keep vector worse in 0
+
+## Stairway tier order: last-week landing first (default) vs never-flat first
+  08 pickleball 2 x 45       first             total 23 23 23 23 23 23 23 24 24 24 24 26 | flat weeks 9 | certify 0 | calves 7 7 7 7 7 7 7 7 7 7 7 8 | hips 10 10 10 10 10 10 10 11 11 11 11 12
+  08 pickleball 2 x 45       after_never_flat  total 23 23 23 23 23 23 23 24 24 24 25 26 | flat weeks 8 | certify 0 | calves 7 7 7 7 7 7 7 7 7 7 8 8 | hips 10 10 10 10 10 10 10 11 11 11 11 12
+  04 CrossFit class 4 x 60   first             total 36 36 36 36 37 38 38 41 | flat weeks 4 | certify 0 | back 10 10 10 10 10 11 11 12 | chest 10 10 10 10 11 11 11 12 | calves 7 7 7 7 7 7 7 8
+  04 CrossFit class 4 x 60   after_never_flat  total 36 36 36 37 38 39 40 41 | flat weeks 2 | certify 0 | back 10 10 10 11 11 12 12 12 | chest 10 10 10 10 11 11 12 12 | calves 7 7 7 7 7 7 7 8
+  01 swimming 3 x 60         first             total 32 32 32 32 33 33 34 35 36 37 37 40 | flat weeks 5 | certify 0 | back 10 10 10 10 11 11 11 12 12 13 13 14 | hips 10 10 10 10 10 10 10 10 11 11 11 12 | chest 10 10 10 10 10 10 11 11 11 11 11 12
+  01 swimming 3 x 60         after_never_flat  total 32 32 32 32 33 34 35 36 37 38 39 40 | flat weeks 3 | certify 0 | back 10 10 10 10 11 11 11 12 13 14 14 14 | hips 10 10 10 10 10 11 11 11 11 11 12 12 | chest 10 10 10 10 10 10 11 11 11 11 11 12
+
+## Timing (20 fresh solves each, this machine, Node v22.22.0) and repeatability
+  08 pickleball 2 x 45       median 8.9 ms, min 6.4, max 11.1; identical plans in all runs: true
+  04 CrossFit class 4 x 60   median 8.8 ms, min 6.7, max 12.4; identical plans in all runs: true
+  01 swimming 3 x 60         median 49.4 ms, min 45.9, max 58.7; identical plans in all runs: true

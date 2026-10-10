@@ -1,0 +1,5 @@
+stairway flow stress: 2000 random plans; slot/line decreases 0; line steps over max(1, 7 %) 0; weekly total rises >= 10 % 0
+  every climbing line lands in week N: 2000/2000 plans where the 10 % rule allows it
+  plans with >= N-1 sets to add that still have a flat week: 133/1349
+  plans with >= N-2 NON-final sets to add (landing rule kept) that still have a flat week: 0/1216
+  solve time: mean 0.09 ms, max 4.2 ms (Node v22.22.0)

@@ -1,0 +1,11 @@
+pickleball 45 {} FULL calves+hips: 24 exact-total questions (2 fit), enumeration states 33, verdicts that differ 0
+pickleball 45 {} FULL calves+hips+quads: 96 exact-total questions (0 fit), enumeration states 70, verdicts that differ 0
+pickleball 60 {} FULL calves+hips+quads: 96 exact-total questions (2 fit), enumeration states 117, verdicts that differ 0
+pickleball 60 {} FULL calves+hips+quads+back: 576 exact-total questions (4 fit), enumeration states 1747, verdicts that differ 0
+swimmer 60 {} FULL back+hips: 126 exact-total questions (27 fit), enumeration states 206, verdicts that differ 0
+swimmer 60 {} FULL back+hips+quads: 1134 exact-total questions (0 fit), enumeration states 340, verdicts that differ 0
+swimmer 60 {} FULL back+hips+chest: 882 exact-total questions (13 fit), enumeration states 2152, verdicts that differ 0
+swimmer 75 {} FULL back+hips+quads: 1134 exact-total questions (250 fit), enumeration states 10106, verdicts that differ 0
+swimmer 60 {"tests":{}} FULL back+hips+quads: 1134 exact-total questions (90 fit), enumeration states 3937, verdicts that differ 0
+pickleball3 45 {} FULL calves+hips+quads: 120 exact-total questions (4 fit), enumeration states 118, verdicts that differ 0
+questions 5322 verdicts that differ from the independent enumeration 0

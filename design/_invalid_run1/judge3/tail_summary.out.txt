@@ -1,0 +1,76 @@
+aesthetics: 105 instances, skipped 0, no group fits 0, selection unknown 0, ran 105
+   selection nodes p50 89 p90 231 max 616 | dose nodes (cap 2000/tier) p50 45 p90 6003 max 6003
+   dosing NOT proven optimal within 2000 nodes/tier: 15/105; of those with no incumbent at all: 0; weeks errors 0
+   dose over 300 nodes total: 26; over 1000: 19; selection over 300: 5; over 1000: 0
+     not proven: 2x90 L2 kept 7/8 tiers 14/58/13? nodes 2116 sol=true 138v/423c 
+     not proven: 3x60 L2 kept 7/8 tiers 14/66?/19 nodes 3959 sol=true 161v/496c 
+     not proven: 3x60 L3 kept 7/8 tiers 17/87?/44? nodes 4065 sol=true 161v/496c 
+     not proven: 4x45 L2 kept 5/6 tiers 10?/40?/21? nodes 6003 sol=true 135v/484c 
+     not proven: 4x45 L3 kept 5/6 tiers 13?/55?/38? nodes 6003 sol=true 135v/484c 
+     not proven: 4x60 L2 kept 8/8 tiers 9?/58?/14? nodes 6003 sol=true 209v/752c 
+     not proven: 4x60 L3 kept 8/8 tiers 12?/81?/null? nodes 6003 sol=true 209v/752c 
+     not proven: 5x45 L2 kept 5/6 tiers 10?/40?/21? nodes 6003 sol=true 135v/484c 
+     not proven: 5x45 L3 kept 5/6 tiers 13?/55?/38? nodes 6003 sol=true 135v/484c 
+     not proven: 5x60 L2 kept 8/8 tiers 9?/58?/14? nodes 6003 sol=true 209v/752c 
+     not proven: 5x60 L3 kept 8/8 tiers 12?/81?/null? nodes 6003 sol=true 209v/752c 
+     not proven: 6x45 L2 kept 5/6 tiers 10?/40?/21? nodes 6003 sol=true 135v/484c 
+     not proven: 6x45 L3 kept 5/6 tiers 13?/55?/38? nodes 6003 sol=true 135v/484c 
+     not proven: 6x60 L2 kept 8/8 tiers 9?/58?/14? nodes 6003 sol=true 209v/752c 
+     not proven: 6x60 L3 kept 8/8 tiers 12?/81?/null? nodes 6003 sol=true 209v/752c 
+athletic: 105 instances, skipped 0, no group fits 15, selection unknown 0, ran 90
+   selection nodes p50 84 p90 435 max 7108 | dose nodes (cap 2000/tier) p50 39 p90 3722 max 6003
+   dosing NOT proven optimal within 2000 nodes/tier: 9/90; of those with no incumbent at all: 0; weeks errors 0
+   dose over 300 nodes total: 18; over 1000: 15; selection over 300: 14; over 1000: 6
+     not proven: 4x60 L3 kept 5/6 tiers 11/49?/26 nodes 4021 sol=true 185v/666c 
+     not proven: 4x75 L2 kept 6/6 tiers 7/31?/3 nodes 3722 sol=true 185v/666c 
+     not proven: 4x75 L3 kept 6/6 tiers 11?/48?/19? nodes 6003 sol=true 185v/666c 
+     not proven: 5x60 L3 kept 5/6 tiers 11/49?/26 nodes 4021 sol=true 185v/666c 
+     not proven: 5x75 L2 kept 6/6 tiers 7/31?/3 nodes 3722 sol=true 185v/666c 
+     not proven: 5x75 L3 kept 6/6 tiers 11?/48?/19? nodes 6003 sol=true 185v/666c 
+     not proven: 6x60 L3 kept 5/6 tiers 11/49?/26 nodes 4021 sol=true 185v/666c 
+     not proven: 6x75 L2 kept 6/6 tiers 7/31?/3 nodes 3722 sol=true 185v/666c 
+     not proven: 6x75 L3 kept 6/6 tiers 11?/48?/19? nodes 6003 sol=true 185v/666c 
+strength: 105 instances, skipped 0, no group fits 0, selection unknown 0, ran 105
+   selection nodes p50 41 p90 66 max 83 | dose nodes (cap 2000/tier) p50 12 p90 52 max 600
+   dosing NOT proven optimal within 2000 nodes/tier: 0/105; of those with no incumbent at all: 0; weeks errors 0
+   dose over 300 nodes total: 1; over 1000: 0; selection over 300: 0; over 1000: 0
+fat_loss_bootcamp: 105 instances, skipped 0, no group fits 0, selection unknown 2, ran 103
+   selection nodes p50 67 p90 201 max 798 | dose nodes (cap 2000/tier) p50 40 p90 2380 max 6003
+   dosing NOT proven optimal within 2000 nodes/tier: 15/103; of those with no incumbent at all: 1; weeks errors 0
+   dose over 300 nodes total: 26; over 1000: 19; selection over 300: 8; over 1000: 0
+     not proven: 3x60 L2 kept 5/8 tiers 13/51?/23 nodes 3775 sol=true 92v/281c 
+     not proven: 3x60 L3 kept 5/8 tiers 16/66?/46 nodes 3679 sol=true 92v/281c 
+     not proven: 4x45 L2 kept 5/6 tiers 12/34?/12 nodes 3214 sol=true 185v/662c 
+     not proven: 4x45 L3 kept 5/6 tiers 15/49?/29? nodes 4408 sol=true 185v/662c 
+     not proven: 4x60 L2 kept 6/6 tiers 6/18?/3 nodes 3384 sol=true 185v/662c 
+     not proven: 4x60 L3 kept 6/6 tiers 9/null? nodes 3196 sol=true 185v/662c 
+     not proven: 4x75 L1 kept 8/8 tiers 2/6?/0 nodes 2076 sol=true 211v/766c 
+     not proven: 4x75 L3 kept 8/8 tiers 9/54?/9? nodes 5435 sol=true 211v/766c 
+     not proven: 5x60 L3 kept 6/6 tiers null? nodes 2001 sol=false 139v/530c 
+     not proven: 5x75 L3 kept 6/6 tiers 10/40?/13 nodes 2380 sol=true 139v/530c 
+     not proven: 6x60 L1 kept 8/8 tiers 3/11?/5 nodes 3896 sol=true 159v/626c 
+     not proven: 6x60 L2 kept 8/8 tiers 12?/53?/null? nodes 6003 sol=true 159v/626c 
+     not proven: 6x60 L3 kept 8/8 tiers 13?/77?/38? nodes 6003 sol=true 159v/626c 
+     not proven: 6x75 L1 kept 8/8 tiers 3/10?/3 nodes 2182 sol=true 159v/626c 
+     not proven: 6x75 L2 kept 8/8 tiers 8/48/null? nodes 2176 sol=true 159v/626c 
+hybrid_crossfit: 105 instances, skipped 21, no group fits 0, selection unknown 0, ran 84
+   selection nodes p50 25 p90 80 max 1757 | dose nodes (cap 2000/tier) p50 7 p90 37 max 626
+   dosing NOT proven optimal within 2000 nodes/tier: 0/84; of those with no incumbent at all: 0; weeks errors 0
+   dose over 300 nodes total: 4; over 1000: 0; selection over 300: 3; over 1000: 3
+no_equipment: 105 instances, skipped 0, no group fits 0, selection unknown 2, ran 103
+   selection nodes p50 71 p90 192 max 798 | dose nodes (cap 2000/tier) p50 40 p90 2182 max 6003
+   dosing NOT proven optimal within 2000 nodes/tier: 13/103; of those with no incumbent at all: 1; weeks errors 0
+   dose over 300 nodes total: 24; over 1000: 18; selection over 300: 8; over 1000: 0
+     not proven: 4x45 L2 kept 5/6 tiers 12/34?/12 nodes 3214 sol=true 185v/662c 
+     not proven: 4x45 L3 kept 5/6 tiers 15/49?/29? nodes 4408 sol=true 185v/662c 
+     not proven: 4x60 L2 kept 6/6 tiers 6/18?/3 nodes 3384 sol=true 185v/662c 
+     not proven: 4x60 L3 kept 6/6 tiers 9/null? nodes 3196 sol=true 185v/662c 
+     not proven: 4x75 L1 kept 8/8 tiers 2/6?/0 nodes 2076 sol=true 211v/766c 
+     not proven: 4x75 L3 kept 8/8 tiers 9/54?/9? nodes 5435 sol=true 211v/766c 
+     not proven: 5x60 L3 kept 6/6 tiers null? nodes 2001 sol=false 139v/530c 
+     not proven: 5x75 L3 kept 6/6 tiers 10/40?/13 nodes 2380 sol=true 139v/530c 
+     not proven: 6x60 L1 kept 8/8 tiers 3/11?/5 nodes 3896 sol=true 159v/626c 
+     not proven: 6x60 L2 kept 8/8 tiers 12?/53?/null? nodes 6003 sol=true 159v/626c 
+     not proven: 6x60 L3 kept 8/8 tiers 13?/77?/38? nodes 6003 sol=true 159v/626c 
+     not proven: 6x75 L1 kept 8/8 tiers 3/10?/3 nodes 2182 sol=true 159v/626c 
+     not proven: 6x75 L2 kept 8/8 tiers 8/48/null? nodes 2176 sol=true 159v/626c 

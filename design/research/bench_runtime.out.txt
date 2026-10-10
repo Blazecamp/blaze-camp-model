@@ -1,0 +1,14 @@
+runtime: Node v22.22.0 (V8)
+E1 : select 632 ms, dose 319 ms, weeks 1 ms (best of 3)  ->  hips,quads,back,chest,shoulders,calves,triceps,biceps | tiers 1/2/4 | week12 total 110
+E2 : select 3 ms, dose 1 ms, weeks 0 ms (best of 3)  ->  calves,hips | tiers 14/20/1 | week12 total 24
+E3 : select 116 ms, dose 82 ms, weeks 1 ms (best of 3)  ->  hips,quads,back,chest,shoulders,calves,triceps,biceps | tiers 6/24/4 | week12 total 154
+E4 : select 111 ms, dose 80 ms, weeks 1 ms (best of 3)  ->  hips,quads,back,chest,shoulders,calves,triceps,biceps | tiers 9/43/7 | week12 total 156
+E5 : select 49 ms, dose 130 ms, weeks 0 ms (best of 3)  ->  hips,quads,back,chest,calves,shoulders | tiers 13/36/5 | week12 total 96
+stairway flow: 500 random plans in 35 ms (checksum 31441)
+runtime: JavaScriptCore (macOS jsc shell)
+E1 : select 489 ms, dose 265 ms, weeks 1 ms (best of 3)  ->  hips,quads,back,chest,shoulders,calves,triceps,biceps | tiers 1/2/4 | week12 total 110
+E2 : select 3 ms, dose 1 ms, weeks 0 ms (best of 3)  ->  calves,hips | tiers 14/20/1 | week12 total 24
+E3 : select 99 ms, dose 66 ms, weeks 1 ms (best of 3)  ->  hips,quads,back,chest,shoulders,calves,triceps,biceps | tiers 6/24/4 | week12 total 154
+E4 : select 92 ms, dose 64 ms, weeks 0 ms (best of 3)  ->  hips,quads,back,chest,shoulders,calves,triceps,biceps | tiers 9/43/7 | week12 total 156
+E5 : select 41 ms, dose 111 ms, weeks 0 ms (best of 3)  ->  hips,quads,back,chest,calves,shoulders | tiers 13/36/5 | week12 total 96
+stairway flow: 500 random plans in 45 ms (checksum 31441)

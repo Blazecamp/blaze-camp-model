@@ -1,0 +1,23 @@
+pickleball 45 {} | first group not FULL: quads | FULL set tested: calves+hips+quads | minimum point: null | exact totals that fit: none in 175 vectors 
+pickleball 60 {} | first group not FULL: chest | FULL set tested: calves+hips+quads+back+chest | minimum point: null | exact totals that fit: none in 8575 vectors 
+pickleball 75 {} | first group not FULL: chest | FULL set tested: calves+hips+quads+back+chest | minimum point: null | exact totals that fit: none in 8575 vectors 
+pickleball 90 {} | first group not FULL: chest | FULL set tested: calves+hips+quads+back+chest | minimum point: null | exact totals that fit: none in 8575 vectors 
+crossfit 45 {} no plan: no plan satisfies T0 (refer / remove a block)
+crossfit 60 {} | first group not FULL: hips | FULL set tested: hips | minimum point: null | exact totals that fit: none in 10 vectors 
+crossfit 75 {} | first group not FULL: hips | FULL set tested: hips | minimum point: null | exact totals that fit: none in 10 vectors 
+crossfit 90 {} | first group not FULL: hips | FULL set tested: hips | minimum point: null | exact totals that fit: none in 10 vectors 
+swimmer 45 {} | first group not FULL: hips | FULL set tested: back+hips | minimum point: null | exact totals that fit: none in 100 vectors 
+swimmer 60 {} | first group not FULL: quads | FULL set tested: back+hips+quads | minimum point: null | exact totals that fit: none in 1000 vectors 
+swimmer 75 {} | first group not FULL: shoulders | FULL set tested: back+hips+quads+chest+calves+shoulders | minimum point: null | exact totals that fit: none in 480000 vectors 
+swimmer 90 {} every group with cells is FULL
+pickleball3 45 {} | first group not FULL: chest | FULL set tested: calves+hips+quads+back+chest | minimum point: null | exact totals that fit: none in 10290 vectors 
+pickleball3 60 {} every group with cells is FULL
+pickleball3 75 {} every group with cells is FULL
+pickleball3 90 {} every group with cells is FULL
+swimmer 60 {"tests":{}} | first group not FULL: calves | FULL set tested: back+hips+quads+chest+calves | minimum point: null | exact totals that fit: none in 48000 vectors 
+crossfit 60 {"perSession":14} | first group not FULL: hips | FULL set tested: hips | minimum point: null | exact totals that fit: none in 10 vectors 
+swimmer 75 {"tests":{}} every group with cells is FULL
+crossfit 75 {"perSession":14} | first group not FULL: biceps | FULL set tested: hips+quads+back+chest+calves+shoulders+biceps | minimum point: null | exact totals that fit: none in 5000000 vectors 
+swimmer 90 {"tests":{}} every group with cells is FULL
+crossfit 90 {"perSession":14} every group with cells is FULL
+cases 14 violations 0

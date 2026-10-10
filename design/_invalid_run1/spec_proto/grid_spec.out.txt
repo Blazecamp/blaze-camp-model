@@ -1,0 +1,21 @@
+grid_spec.jsonl: cells 630, skipped 21, errors 0, run 609
+  cells with an UNKNOWN oracle call: 0
+  nodes     median 60  p90 265  p99 75293  max 78661
+  maxNodes  median 16  p90 68  p99 73525  max 78509
+  ms        median 0.79  p90 8.14  p99 1136.7  max 1241.96
+  oracle calls 4221
+  worst cells by nodes in one call:
+    aesthetics 4x60 L2 kept 7/8 nodes 78661 (max 78509) 1154.43 ms e:f6 e:f9 e:f12 e:f13 e:f24 e:f28 e:f60 e:i78509
+    aesthetics 4x60 L3 kept 7/8 nodes 78661 (max 78509) 1141.15 ms e:f6 e:f9 e:f12 e:f13 e:f24 e:f28 e:f60 e:i78509
+    aesthetics 5x60 L2 kept 7/8 nodes 78661 (max 78509) 1159.02 ms e:f6 e:f9 e:f12 e:f13 e:f24 e:f28 e:f60 e:i78509
+    aesthetics 5x60 L3 kept 7/8 nodes 78661 (max 78509) 1136.7 ms e:f6 e:f9 e:f12 e:f13 e:f24 e:f28 e:f60 e:i78509
+    aesthetics 6x60 L2 kept 7/8 nodes 78661 (max 78509) 1144.11 ms e:f6 e:f9 e:f12 e:f13 e:f24 e:f28 e:f60 e:i78509
+    aesthetics 6x60 L3 kept 7/8 nodes 78661 (max 78509) 1141.24 ms e:f6 e:f9 e:f12 e:f13 e:f24 e:f28 e:f60 e:i78509
+grid_spec.jsonl
+  feasible   calls  2584  nodes median 14  p90 37  p99 685  p99.9 8840  max 8840
+  infeasible calls  1637  nodes median 2  p90 4  p99 359  p99.9 78509  max 78509
+  unknown    calls     0  nodes median -  p90 -  p99 -  p99.9 -  max -
+  budget   1000 per call: feasible verdicts lost 20 of 2584 (0.77 %), infeasible verdicts unproven 12 of 1637; cells touched 25 of 609
+  budget   5000 per call: feasible verdicts lost 6 of 2584 (0.23 %), infeasible verdicts unproven 9 of 1637; cells touched 15 of 609
+  budget  20000 per call: feasible verdicts lost 0 of 2584 (0.00 %), infeasible verdicts unproven 9 of 1637; cells touched 9 of 609
+  budget  50000 per call: feasible verdicts lost 0 of 2584 (0.00 %), infeasible verdicts unproven 9 of 1637; cells touched 9 of 609

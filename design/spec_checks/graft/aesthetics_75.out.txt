@@ -1,0 +1,28 @@
+### 06 aesthetics 4 x 75, L3, Focus glutes + side delts (per-question node budget 20000)
+   trained directly: hips 15.25 -> 23.5, shoulders 19.25 -> 28, quads 13 -> 18, back 12 -> 18, chest 12 -> 18, calves 12 -> 14, triceps 12.75 -> 19.75, biceps 14 -> 20.5
+   kept movements (2 sets, not counted as trained): -
+   not trained directly: 
+   all resistance sets by week: 98 100 103 105 108 111 115 120 125 130 136 142   (flat weeks 0, arithmetic minimum 0)
+   minutes per day, week 1 / longest week (chosen 75; overrun pinned Mon 0.0, Tue 0.0, Thu 0.0, Fri 0.0): Mon 60.1 / 74.9, Tue 60.3 / 75.0, Thu 56.0 / 74.9, Fri 56.2 / 75.0
+   longest day without the kept movements: Mon 74.9, Tue 75.0, Thu 74.9, Fri 75.0
+   exercises per day (resistance): Mon 9, Tue 10, Thu 9, Fri 10; supersets needed on: Mon, Tue, Thu, Fri
+   notes: - | questions 187, nodes 758493 (largest 76006), unknown 3, 54970 ms | violations in any week: 0
+      Mon (A1 squat + pull): quads: BKD 4->5 + UKD 3->4; back: HPULL 3->5 + VPULL 3->4; shoulders: ISHO 2->4 + ISHO 2->3; biceps: IBI 3->4 + IBI 3->4; calves: CALF 3->4
+      Tue (B1 hip thrust + push): hips: BHD 2->4 + UHD 2->3 + LEGFLEX 2->3; chest: HPUSH 4->5 + ICHEST 3->4; shoulders: VPUSH 2 + ISHO 2; triceps: ITRI 3->4 + ITRI 2->4; calves: CALF 3
+      Thu (A2 leg press + pull): quads: BKD 3->5 + UKD 3->4; back: HPULL 3->5 + VPULL 3->4; shoulders: ISHO 2->4 + ISHO 2->3; biceps: IBI 3->4 + IBI 2->4; calves: CALF 3->4
+      Fri (B2 deadlift + push): hips: BHD 2->3 + UHD 2->3 + LEGFLEX 2->3; chest: HPUSH 3->5 + ICHEST 2->4; shoulders: VPUSH 2->3 + ISHO 2; triceps: ITRI 3->4 + ITRI 2->4; calves: CALF 3
+      hips by week: 15.25 15.25 16.5 16.5 17.5 17.5 18.75 19 20 21.25 22.25 23.5
+      shoulders by week: 19.25 19.25 20.25 20.5 21.5 21.75 22.75 24 24.25 25.25 26.5 28
+      quads by week: 13 13 14 14 14 14 15 16 16 17 17 18
+      back by week: 12 12 12 13 13 14 14 15 16 16 17 18
+      chest by week: 12 12 12 13 13 14 14 15 16 16 17 18
+      calves by week: 12 12 12 12 13 13 13 13 13 14 14 14
+      triceps by week: 12.75 13.75 13.75 13.75 13.75 14.75 15 15.25 16.5 17.5 18.5 19.75
+      biceps by week: 14 15 15 15.25 15.25 15.5 16.5 17.75 19 19 20.25 20.5
+      Mon minutes by week: 60.1 61.9 65.5 66.3 68.1 68.1 68.1 73.6 73.6 73.6 74.9 74.9
+      Tue minutes by week: 60.3 62.1 62.9 64.7 64.7 64.7 67.7 70.0 71.8 72.4 74.3 75.0
+      Thu minutes by week: 56.0 56.0 56.0 56.0 56.6 58.8 61.4 61.4 65.5 69.5 71.3 74.9
+      Fri minutes by week: 56.2 56.2 56.2 56.2 56.9 60.6 62.9 62.9 66.6 68.5 70.9 75.0
+   ceilings: hips 14->23, shoulders 18->27, quads 14->20, back 12->19, chest 12->20, calves 12->15, triceps 14->20, biceps 15->20
+   stopped: {"hips":"ceiling","shoulders":"time","quads":"not_proven","back":"ceiling","chest":"ceiling","calves":"not_proven","triceps":"not_proven","biceps":"time"}
+   the six largest questions: raise quads to 19: unknown (76006 nodes) | raise calves to 15: unknown (76006 nodes) | raise triceps to 17: unknown (76006 nodes) | raise back to 18: fits (75710 nodes) | raise hips to 19: fits (32843 nodes) | raise chest to 18: fits (19502 nodes)

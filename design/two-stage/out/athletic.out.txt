@@ -1,0 +1,42 @@
+
+### 01 swimmer, athletic level 0 (the approved structure at its smallest dose)
+ground contacts: target 45 48 50 54 56 58 61 65 69 72 76 76 | planned 38 38 39 42 43 44 46 50 53 55 59 59
+   jump_contacts: target 37 38 39 41 40 41 42 43 44 45 46 46
+                  planned 26 26 27 29 29 29 29 30 31 31 32 32   (scale 70 %; capacity of this level 32)
+      Mon box jump                   2x7 2x7 2x7 2x8 2x8 2x8 2x8 2x8 2x8 2x8 2x8 2x8
+      Fri broad / box jump           2x7 2x7 2x7 2x7 2x7 2x7 2x7 2x8 2x8 2x8 2x8 2x8
+   low_contacts: target 8 10 11 13 14 15 17 20 22 24 27 27
+                 planned 12 12 12 13 14 15 17 20 22 24 27 27   (scale 100 %; capacity of this level 50)
+      Wed ankle hops                 2x6 2x6 2x6 2x7 2x7 2x8 2x9 2x10 2x11 2x12 2x14 2x14
+   plyo_contacts: no station at this level (target 0 -> 3)
+upper contacts: target 14 14 14 14 15 15 15 16 16 16 16 16 | planned 14 14 14 14 15 15 15 16 16 16 16 16
+   upper_contacts: target 14 14 14 14 15 15 15 16 16 16 16 16
+                   planned 14 14 14 14 15 15 15 16 16 16 16 16   (scale 100 %; capacity of this level 20)
+      Wed push-up landing / box      2x7 2x7 2x7 2x7 2x8 2x8 2x8 2x8 2x8 2x8 2x8 2x8
+throws: target 35 36 37 38 39 40 41 42 43 44 45 45 | planned 35 36 37 38 39 40 41 42 43 44 45 45
+   throws: target 35 36 37 38 39 40 41 42 43 44 45 45
+           planned 35 36 37 38 39 40 41 42 43 44 45 45   (scale 100 %; capacity of this level 80)
+      Wed overhead throw             2x9 2x9 2x10 2x10 2x10 2x10 2x11 2x11 2x11 2x11 2x12 2x12
+      Fri rotational scoop           2x9 2x9 2x9 2x10 2x10 2x10 2x10 2x11 2x11 2x11 2x11 2x11
+olympic sets: target 5 5 5 5 6 6 6 7 7 7 8 8 | planned 6 6 6 6 7 7 7 7 8 8 8 8
+   Mon hang power clean           sets 2 -> 3 -> 3 (by exercise block)
+   Wed single-arm DB snatch       sets 2 -> 2 -> 3 (by exercise block)
+   Fri clean pull                 sets 2 -> 2 -> 2 (by exercise block)
+stage by exercise block: weeks 1-4 RC1 Land, weeks 5-8 RC2 Land & Go, weeks 9-12 RC3 Repeat
+athletic minutes per day by week: Mon 11.3 11.3 11.3 11.3 14.3 14.3 14.3 14.3 14.3 14.3 14.3 14.3 | Fri 14.5 14.5 14.5 14.5 14.5 14.5 14.5 14.5 14.5 14.5 14.5 14.5 | Wed 18.3 18.3 18.3 18.3 18.3 18.3 18.3 18.3 21.3 21.3 21.3 21.3
+
+### 08 pickleball, athletic level 0 (one athletic piece a day)
+ground contacts: target 42 45 49 54 50 54 58 63 67 72 77 82 | planned 7 7 7 8 8 8 8 8 8 8 8 8
+   jump_contacts: target 7 7 7 8 6 6 6 6 6 6 6 5
+                  planned 7 7 7 8 8 8 8 8 8 8 8 8   (scale 100 %; capacity of this level 16)
+      Thu low box jump / squat jump  2x4 2x4 2x4 2x4 2x4 2x4 2x4 2x4 2x4 2x4 2x4 2x4
+   low_contacts: no station at this level (target 35 -> 73)
+   plyo_contacts: no station at this level (target 0 -> 4)
+throws: target 51 53 54 56 58 59 61 62 64 66 67 69 | planned 30 31 31 32 34 34 35 36 37 38 39 40
+   throws: target 51 53 54 56 58 59 61 62 64 66 67 69
+           planned 30 31 31 32 34 34 35 36 37 38 39 40   (scale 58 %; capacity of this level 40)
+      Mon rotational medball scoop   2x15 2x16 2x16 2x16 2x17 2x17 2x18 2x18 2x19 2x19 2x20 2x20
+olympic sets: target 4 4 5 5 5 6 6 7 7 7 8 8 | planned 0 0 0 0 0 0 0 0 0 0 0 0
+   olympic_sets: no station at this level (target 4 -> 8)
+stage by exercise block: weeks 1-4 RC1 Land, weeks 5-8 RC2 Land & Go, weeks 9-12 RC3 Repeat
+athletic minutes per day by week: Mon 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 4.2 | Thu 4.3 4.3 4.3 4.3 4.3 4.3 4.3 4.3 4.3 4.3 4.3 4.3

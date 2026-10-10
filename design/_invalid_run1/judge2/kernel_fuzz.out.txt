@@ -1,0 +1,5 @@
+structured fuzz: 3000 models (mean 23.2 variables), 13406 verdicts cross-checked against the exact integer kernel
+  feasibility-oracle mismatches: 0 (LP says infeasible but a plan exists: 0; LP says feasible but none exists: 0)
+  lexicographic-optimum mismatches: 0
+  budget exhausted: LP-based 0, exact reference 0 (skipped)
+node design/judge2/kernel_fuzz.mjs 3000  16.20s user 0.69s system 28% cpu 58.525 total

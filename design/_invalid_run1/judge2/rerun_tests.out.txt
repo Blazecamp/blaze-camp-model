@@ -1,0 +1,8 @@
+kernel vs brute force: 400 random lexicographic IPs, 0 mismatches
+milp (LP-based B&B) vs brute force: 1500 random lexicographic IPs, 0 mismatches
+lp.mjs: 3000 random boxed LPs; 1680 2-variable exact checks, 1675 LP<=IP checks, 1315 infeasible; problems: 0
+stairway flow stress: 2000 random plans; slot/line decreases 0; line steps over max(1, 7 %) 0; weekly total rises >= 10 % 0
+  every climbing line lands in week N: 2000/2000 plans where the 10 % rule allows it
+  plans with >= N-1 sets to add that still have a flat week: 133/1349
+  plans with >= N-2 NON-final sets to add (landing rule kept) that still have a flat week: 0/1216
+  solve time: mean 0.13 ms, max 5.2 ms (Node v22.22.0)

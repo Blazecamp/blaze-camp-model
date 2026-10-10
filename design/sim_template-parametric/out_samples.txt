@@ -1,0 +1,173 @@
+
+## 08 pickleball 2 x 45  (template athletic.2, level L1, 12 weeks, chosen 45 min, fit band 49 min)
+T1 keep vector: calves=FULL, hips=FULL, quads=PATTERN, back=PATTERN, chest=PATTERN, shoulders=NONE, triceps=NONE, biceps=NONE; kept movement stations: quads@Mon, back@Mon, chest@Thu
+room items: ankle hops (Thu)=off, power piece (Mon)=off, power piece (Thu)=off
+T4 smallest overrun at the minimum point: 3.05 min; minimum-point minutes Mon 47.2, Thu 48.5
+exposures: calves {Mon,Thu}  hips {Mon,Thu};  minimum point (direct sets): calves 8, hips 12
+T5 peak (direct sets): calves 8 of 8, hips 12 of 13
+starts -> peaks (direct sets): calves 7 -> 8, hips 10 -> 12
+solve: 37.3 ms, 86 oracle searches, 1741 search nodes, 582 day evaluations
+
+Weekly sets per group (credited: prime 1.0, helpers 0.25, at most 1.0 a set; * = trained directly, floor calves 7 / hips 10)
+group           w1    w2    w3    w4    w5    w6    w7    w8    w9   w10   w11   w12
+~quads           2     2     2     2     2     2     2     2     2     2     2     2
+*hips         10.5  10.5  10.5  10.5  10.5  10.5  10.5  11.5  11.5  11.5  11.5  12.5
+~back            2     2     2     2     2     2     2     2     2     2     2     2
+~chest           2     2     2     2     2     2     2     2     2     2     2     2
+ shoulders       1     1     1     1     1     1     1     1     1     1     1     1
+ biceps        0.5   0.5   0.5   0.5   0.5   0.5   0.5   0.5   0.5   0.5   0.5   0.5
+ triceps       0.5   0.5   0.5   0.5   0.5   0.5   0.5   0.5   0.5   0.5   0.5   0.5
+*calves          7     7     7     7     7     7     7     7     7     7     7     8
+  (* trained directly; ~ movement kept: one 2-set station, not counted as trained; blank: credit from other lifts)
+ direct sets
+  calves         7     7     7     7     7     7     7     7     7     7     7     8
+  hips          10    10    10    10    10    10    10    11    11    11    11    12
+ total sets     23    23    23    23    23    23    23    24    24    24    24    26   flat weeks 9 of 11; largest rise 8.3 %
+
+Minutes per day (the supersets the plan marks as needed are on)
+day             w1    w2    w3    w4    w5    w6    w7    w8    w9   w10   w11   w12
+Mon           47.2  47.2  47.2  47.2  47.2  47.2  47.2  47.2  47.2  47.2  47.2  47.2
+Thu           42.5  42.5  42.5  42.5  42.5  42.5  42.5  44.8  44.8  44.8  44.8  48.5
+ all pairs on
+  Mon         47.2  47.2  47.2  47.2  47.2  47.2  47.2  47.2  47.2  47.2  47.2  47.2
+  Thu         42.5  42.5  42.5  42.5  42.5  42.5  42.5  44.8  44.8  44.8  44.8  48.5
+ straight sets
+  Mon         51.2  51.2  51.2  51.2  51.2  51.2  51.2  51.2  51.2  51.2  51.2  51.2
+  Thu         46.5  46.5  46.5  46.5  46.5  46.5  46.5  48.8  48.8  48.8  48.8  52.5
+
+Week 1:
+  Mon A - squat + pull (axial squat; clean day) | 47.2 min | warm-up / core opener (2 exercises x 2 sets, back to back) / rotational medball throw / calf / Achilles care / rotator-cuff care | BKD (pattern) 2^, HPULL (pattern) 2^, UHD 2, iso LEG_FLEXION 2, iso CALF 4
+  Thu B - deadlift + push (axial hinge; snatch day) | 42.5 min | warm-up / core opener (2 exercises x 2 sets, back to back) / low-impact landing / jump / calf / Achilles care / elbow care | BHD 3^, HPUSH (pattern) 2^, iso LEG_FLEXION 3, iso CALF 3
+
+Week 12:
+  Mon A - squat + pull (axial squat; clean day) | 47.2 min | warm-up / core opener (2 exercises x 2 sets, back to back) / rotational medball throw / calf / Achilles care / rotator-cuff care | BKD (pattern) 2^, HPULL (pattern) 2^, UHD 2, iso LEG_FLEXION 2, iso CALF 4
+  Thu B - deadlift + push (axial hinge; snatch day) | 48.5 min | warm-up / core opener (2 exercises x 2 sets, back to back) / low-impact landing / jump / calf / Achilles care / elbow care | BHD 4^, HPUSH (pattern) 2^, iso LEG_FLEXION 4, iso CALF 4
+  (^ = done as a superset with its partner; the superset is needed for the day to fit)
+
+Athletic work a week (planned / the sport target; scale = the share of the target the kept stations can hold)
+  throws          30 30 30 32 32 34 34 36 36 38 38 40  / 51 -> 69  (2 sets, 6-20 a set; scale 0.58)
+  jump_contacts   8 8 8 8 8 8 8 8 8 8 8 10  / 7 -> 9  (2 sets, 3-8 a set; scale 1.00)
+  low_contacts    0 / 34 -> 46  (station left out for the minutes: offered back)
+  olympic_sets    0 sets every week / 4 -> 8  (block switched off for the minutes: offered back)
+
+certify: 0 violations (floors every week, 2-4 exercises per trained group per day, set bounds, never down, step <= max(1, 7 %), total < +10 % or +1 set, every day inside its limit, no slot ever loses a set)
+
+## 04 CrossFit-style class 4 x 60  (template hybrid_crossfit.4 / crossfit_style_bootcamp, level L2, 8 weeks, chosen 60 min, fit band 66 min)
+T1 keep vector: hips=NONE, quads=NONE, back=FULL, chest=FULL, calves=FULL, shoulders=NONE, triceps=NONE, biceps=NONE; kept movement stations: -
+room items: -
+T4 smallest overrun at the minimum point: 4.1 min; minimum-point minutes Mon 62.4, Tue 64.55, Thu 63.45, Fri 60.25
+exposures: back {Mon,Fri}  chest {Tue,Thu}  calves {Mon,Thu};  minimum point (direct sets): back 12, chest 12, calves 8
+T5 peak (direct sets): back 12 of 15, chest 12 of 15, calves 8 of 8
+starts -> peaks (direct sets): back 10 -> 12, chest 10 -> 12, calves 7 -> 8
+solve: 24.8 ms, 59 oracle searches, 3150 search nodes, 770 day evaluations
+
+Weekly sets per group (credited: prime 1.0, helpers 0.25, at most 1.0 a set; * = trained directly, floor back 10 / chest 10 / calves 7)
+group           w1    w2    w3    w4    w5    w6    w7    w8
+ quads           3     3     3     3     3     3     3     3
+ hips         3.75  3.75  3.75  3.75  3.75  3.75  3.75  3.75
+*back           10    10    10    10    10    11    11    12
+*chest          10    10    10    10    11    11    11    12
+ shoulders       6     6     6     6     6     6     6     6
+ biceps        2.5   2.5   2.5   2.5   2.5  2.75  2.75     3
+ triceps      2.25  2.25  2.25  2.25  2.25  2.25  2.25  2.25
+*calves          7     7     7     7     7     7     7     8
+  (* trained directly; ~ movement kept: one 2-set station, not counted as trained; blank: credit from other lifts and the class lift)
+ direct sets
+  back          10    10    10    10    10    11    11    12
+  chest         10    10    10    10    11    11    11    12
+  calves         7     7     7     7     7     7     7     8
+ total sets     36    36    36    36    37    38    38    41   flat weeks 4 of 7; largest rise 7.9 %
+
+Minutes per day (the supersets the plan marks as needed are on)
+day             w1    w2    w3    w4    w5    w6    w7    w8
+Mon           62.4  62.4  62.4  62.4  62.4  62.4  62.4  62.4
+Tue           62.7  62.7  62.7  62.7  64.5  64.5  64.5  64.5
+Thu           59.8  59.8  59.8  59.8  59.8  59.8  59.8  63.5
+Fri           55.8  55.8  55.8  55.8  55.8  58.0  58.0  60.3
+ all pairs on
+  Mon         62.4  62.4  62.4  62.4  62.4  62.4  62.4  62.4
+  Tue         62.7  62.7  62.7  62.7  64.5  64.5  64.5  64.5
+  Thu         59.8  59.8  59.8  59.8  59.8  59.8  59.8  63.5
+  Fri         55.8  55.8  55.8  55.8  55.8  58.0  58.0  60.3
+ straight sets
+  Mon         67.9  67.9  67.9  67.9  67.9  67.9  67.9  67.9
+  Tue         62.7  62.7  62.7  62.7  64.5  64.5  64.5  64.5
+  Thu         65.3  65.3  65.3  65.3  65.3  65.3  65.3  69.0
+  Fri         55.8  55.8  55.8  55.8  55.8  58.0  58.0  60.3
+
+Week 1:
+  Mon Squat day | 62.4 min | warm-up / skill (in the warm-up) / core opener (2 exercises x 2 sets, back to back) / WOD | BKD (class lift) 3^, HPULL 3^, VPULL 2, iso CALF 4
+  Tue Press + snatch day | 62.7 min | warm-up / core opener (2 exercises x 2 sets, back to back) / snatch (class power piece) / WOD | VPUSH (class lift) 3, HPUSH 3, iso CHEST 2
+  Thu Deadlift + push day | 59.8 min | warm-up / skill (in the warm-up) / core opener (2 exercises x 2 sets, back to back) / WOD | BHD (class lift) 3^, HPUSH 3^, iso CHEST 2, iso CALF 3
+  Fri Clean + pull day | 55.8 min | warm-up / core opener (2 exercises x 2 sets, back to back) / clean (class power piece) / WOD | HPULL (class lift) 3, VPULL 2
+
+Week 8:
+  Mon Squat day | 62.4 min | warm-up / skill (in the warm-up) / core opener (2 exercises x 2 sets, back to back) / WOD | BKD (class lift) 3^, HPULL 3^, VPULL 2, iso CALF 4
+  Tue Press + snatch day | 64.5 min | warm-up / core opener (2 exercises x 2 sets, back to back) / snatch (class power piece) / WOD | VPUSH (class lift) 3, HPUSH 3, iso CHEST 3
+  Thu Deadlift + push day | 63.5 min | warm-up / skill (in the warm-up) / core opener (2 exercises x 2 sets, back to back) / WOD | BHD (class lift) 3^, HPUSH 3^, iso CHEST 3, iso CALF 4
+  Fri Clean + pull day | 60.3 min | warm-up / core opener (2 exercises x 2 sets, back to back) / clean (class power piece) / WOD | HPULL (class lift) 3, VPULL 4
+  (^ = done as a superset with its partner; the superset is needed for the day to fit)
+
+Athletic work a week (planned / the sport target; scale = the share of the target the kept stations can hold)
+  olympic_sets    6 sets every week / 4.8 -> 7.2
+
+certify: 0 violations (floors every week, 2-4 exercises per trained group per day, set bounds, never down, step <= max(1, 7 %), total < +10 % or +1 set, every day inside its limit, no slot ever loses a set)
+
+## 01 swimming 3 x 60  (template athletic.3, level L2, 12 weeks, chosen 60 min, fit band 66 min)
+T1 keep vector: back=FULL, hips=FULL, quads=PATTERN, chest=FULL, calves=NONE, shoulders=NONE; kept movement stations: quads@Mon
+room items: ankle hops (Fri)=on, upper plyo (Wed)=off, 2nd jump station (Mon)=on
+T4 smallest overrun at the minimum point: 3.65 min; minimum-point minutes Mon 51.8, Wed 64.1, Fri 57.85
+exposures: back {Mon,Wed}  hips {Wed,Fri}  chest {Wed,Fri};  minimum point (direct sets): back 12, hips 12, chest 12
+T5 peak (direct sets): back 14 of 21, hips 12 of 16, chest 12 of 14
+starts -> peaks (direct sets): back 10 -> 14, hips 10 -> 12, chest 10 -> 12
+solve: 96.5 ms, 88 oracle searches, 46703 search nodes, 1987 day evaluations
+
+Weekly sets per group (credited: prime 1.0, helpers 0.25, at most 1.0 a set; * = trained directly, floor back 10 / hips 10 / chest 10)
+group           w1    w2    w3    w4    w5    w6    w7    w8    w9   w10   w11   w12
+~quads           2     2     2     2     2     2     2     2     2     2     2     2
+*hips         10.5  10.5  10.5  10.5  10.5  10.5  10.5  10.5  11.5  11.5  11.5  12.5
+*back           10    10    10    10    11    11    11    12    12    13    13    14
+*chest          10    10    10    10    10    10    11    11    11    11    11    12
+ shoulders    2.75  2.75  2.75  2.75     3     3     3     3     3  3.25  3.25   3.5
+ biceps        2.5   2.5   2.5   2.5  2.75  2.75  2.75     3     3  3.25  3.25   3.5
+ triceps       1.5   1.5   1.5   1.5   1.5   1.5   1.5   1.5   1.5   1.5   1.5  1.75
+  (* trained directly; ~ movement kept: one 2-set station, not counted as trained; blank: credit from other lifts)
+ direct sets
+  back          10    10    10    10    11    11    11    12    12    13    13    14
+  hips          10    10    10    10    10    10    10    10    11    11    11    12
+  chest         10    10    10    10    10    10    11    11    11    11    11    12
+ total sets     32    32    32    32    33    33    34    35    36    37    37    40   flat weeks 5 of 11; largest rise 8.1 %
+
+Minutes per day (the supersets the plan marks as needed are on)
+day             w1    w2    w3    w4    w5    w6    w7    w8    w9   w10   w11   w12
+Mon           58.7  51.3  51.3  51.3  53.5  53.5  53.5  55.8  51.8  54.0  54.0  63.7
+Wed           58.6  58.6  58.6  58.6  58.6  58.6  58.6  58.6  64.1  64.1  64.1  64.1
+Fri           56.6  49.4  49.4  49.4  49.4  49.4  51.3  51.3  51.9  51.9  51.9  65.0
+ all pairs on
+  Mon         54.7  47.3  47.3  47.3  49.5  49.5  49.5  51.8  51.8  54.0  54.0  63.7
+  Wed         55.1  55.1  55.1  55.1  55.1  55.1  55.1  55.1  64.1  64.1  64.1  64.1
+  Fri         47.6  40.4  40.4  40.4  40.4  40.4  42.3  42.3  51.9  51.9  51.9  65.0
+ straight sets
+  Mon         58.7  51.3  51.3  51.3  53.5  53.5  53.5  55.8  55.8  58.0  58.0  67.7
+  Wed         64.1  64.1  64.1  64.1  64.1  64.1  64.1  64.1  73.1  73.1  73.1  73.1
+  Fri         56.6  49.4  49.4  49.4  49.4  49.4  51.3  51.3  62.1  62.1  62.1  76.8
+
+Week 1:
+  Mon S1 - jump + knee + pull | 58.7 min | warm-up / core opener (2 exercises x 2 sets, back to back) / jump station (ballistic) / clean-family lift / shoulder care / second jump station | BKD (pattern) 2, HPULL 3, VPULL 3
+  Wed S2 - medball + hip + push | 58.6 min | warm-up / core opener (2 exercises x 2 sets, back to back) / medball throws / snatch-family lift / shoulder care | BHD 3^, HPUSH 3^, HPULL 2, UHD 2, iso CHEST 2, VPULL 2
+  Fri S3 - Olympic + strength | 56.6 min | warm-up / core opener (2 exercises x 2 sets, back to back) / clean-family lift / shoulder care / low ankle hops | BHD 3, HPUSH 3, iso LEG_FLEXION 2, iso CHEST 2
+
+Week 12:
+  Mon S1 - jump + knee + pull | 63.7 min | warm-up / core opener (2 exercises x 2 sets, back to back) / jump station (ballistic) / clean-family lift / shoulder care / second jump station | BKD (pattern) 2^, HPULL 5^, VPULL 5
+  Wed S2 - medball + hip + push | 64.1 min | warm-up / core opener (2 exercises x 2 sets, back to back) / medball throws / snatch-family lift / shoulder care | BHD 3^, HPUSH 3^, HPULL 2, UHD 2^, iso CHEST 2^, VPULL 2
+  Fri S3 - Olympic + strength | 65.0 min | warm-up / core opener (2 exercises x 2 sets, back to back) / clean-family lift / shoulder care / low ankle hops | BHD 4^, HPUSH 4^, iso LEG_FLEXION 3^, iso CHEST 3^
+  (^ = done as a superset with its partner; the superset is needed for the day to fit)
+
+Athletic work a week (planned / the sport target; scale = the share of the target the kept stations can hold)
+  jump_contacts   24 24 24 24 28 28 28 28 28 32 32 32  / 37 -> 49  (4 sets, 3-8 a set; scale 0.65)
+  throws          32 32 32 32 34 34 36 36 38 38 40 40  / 35 -> 45  (2 sets, 6-20 a set; scale 0.89)
+  low_contacts    36 38 38 40 40 42 42 44 46 48 48 50  / 51 -> 69  (2 sets, 6-25 a set; scale 0.72)
+  upper_contacts  0 / 6 -> 8  (station left out for the minutes: offered back)
+  olympic_sets    6 sets every week / 4.5 -> 7.5
+
+certify: 0 violations (floors every week, 2-4 exercises per trained group per day, set bounds, never down, step <= max(1, 7 %), total < +10 % or +1 set, every day inside its limit, no slot ever loses a set)

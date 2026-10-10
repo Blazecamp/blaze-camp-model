@@ -1,0 +1,33 @@
+rule 10 %: exact scheduler vs brute-force reference on 4000 small plans (+ 0 with no schedule at all, 0 thrown): (landings, flat weeks) differ in 0
+rule 7 %: exact scheduler vs brute-force reference on 4000 small plans (+ 0 with no schedule at all, 0 thrown): (landings, flat weeks) differ in 0
+
+rule 10 %, intended distribution: 20000 plans scheduled, 0 thrown; realized-rule violations 0 by certificate (research flow on the same plans: 159 plans break the rule)
+   every climbing line lands in week N: 19666/19983 plans; lines landing 128767/129095
+   plans with a flat week: 4051 (research flow: 4063); flat weeks in all 15242 (research flow: 15387)
+   time: mean 31.21 ms, max 5493.0 ms; most DP states in one plan 32580
+
+rule 7 %, intended distribution: 20000 plans scheduled, 0 thrown; realized-rule violations 0 by certificate (research flow on the same plans: 5025 plans break the rule)
+   every climbing line lands in week N: 14858/19983 plans; lines landing 122956/129095
+   plans with a flat week: 3574 (research flow: 4063); flat weeks in all 13922 (research flow: 15387)
+   time: mean 8.89 ms, max 321.8 ms; most DP states in one plan 32510
+
+pickleball 2 x 45 (hips 10->14, calves 6->7), rule 10 %: totals 16 16 17 17 17 18 18 19 19 20 20 21 | landings 1/2 | flat weeks 6
+     10 10 11 11 11 12 12 13 13 14 14 14
+     6 6 6 6 6 6 6 6 6 6 6 7
+
+pickleball 2 x 45 (hips 10->14, calves 6->7), rule 7 %: totals 16 16 17 17 17 18 18 19 19 20 20 21 | landings 1/2 | flat weeks 6
+     10 10 11 11 11 12 12 13 13 14 14 14
+     6 6 6 6 6 6 6 6 6 6 6 7
+
+hips 12->14 + calves 6->7, 14 wk (the flow breaks 10 % here), rule 10 %: totals 18 18 18 18 19 19 19 19 20 20 20 20 20 21 | landings 1/2 | flat weeks 10
+     12 12 12 12 13 13 13 13 14 14 14 14 14 14
+     6 6 6 6 6 6 6 6 6 6 6 6 6 7
+
+hips 12->14 + calves 6->7, 14 wk (the flow breaks 10 % here), rule 7 %: totals 18 18 18 18 19 19 19 19 20 20 20 20 20 21 | landings 1/2 | flat weeks 10
+     12 12 12 12 13 13 13 13 14 14 14 14 14 14
+     6 6 6 6 6 6 6 6 6 6 6 6 6 7
+
+L1 full body (8 x 10->14, calves 12->14), rule 10 %: totals 92 94 96 98 100 102 106 110 113 116 117 126 | landings 9/9 | flat weeks 0
+
+L1 full body (8 x 10->14, calves 12->14), rule 7 %: totals 92 94 96 98 100 102 106 110 113 117 118 126 | landings 8/9 | flat weeks 0
+node design/judge2/stairway_exact.mjs  526.87s user 9.36s system 63% cpu 14:08.59 total

@@ -1,0 +1,26 @@
+rule 7 %: scheduler vs brute force on 2814 small plans (186 with no schedule): (late flat weeks, landings) differ in 0; sizes drawn: groups {"1":769,"2":776,"3":731,"4":724}, weeks {"4":430,"5":429,"6":433,"7":424,"8":416,"9":401,"10":467}
+rule 10 %: scheduler vs brute force on 2974 small plans (26 with no schedule): (late flat weeks, landings) differ in 0; sizes drawn: groups {"1":767,"2":766,"3":731,"4":736}, weeks {"4":427,"5":411,"6":401,"7":427,"8":429,"9":435,"10":470}
+pickleball 2 x 45: hips 10 -> 14, calves 6 -> 7 | rule 7 %, late > shape > land: total 18 18 19 19 19 19 19 19 20 21 22 23 | landings 1/2 | flat 6 (late 0) | states 79
+     calves  6 6 6 6 6 6 6 6 7 7 7 7
+     hips    10 10 11 11 11 11 11 11 11 12 13 14
+pickleball 2 x 45: hips 10 -> 14, calves 6 -> 7 | rule 7 %, late > land > shape: total 18 18 19 19 19 19 19 19 20 21 22 23 | landings 1/2 | flat 6 (late 0) | states 79
+     calves  6 6 6 6 6 6 6 6 7 7 7 7
+     hips    10 10 11 11 11 11 11 11 11 12 13 14
+pickleball 2 x 45: hips 10 -> 14, calves 6 -> 7 | rule 10 %, late > shape > land: total 18 18 19 19 19 19 19 19 20 21 22 23 | landings 1/2 | flat 6 (late 0) | states 81
+     calves  6 6 6 6 6 6 6 6 7 7 7 7
+     hips    10 10 11 11 11 11 11 11 11 12 13 14
+pickleball 2 x 45: hips 10 -> 14, calves 6 -> 7 | rule 10 %, late > land > shape: total 18 18 18 18 18 18 18 18 19 20 21 23 | landings 2/2 | flat 7 (late 0) | states 81
+     calves  6 6 6 6 6 6 6 6 6 6 6 7
+     hips    10 10 10 10 10 10 10 10 11 12 13 14
+L2 big line alone 15 -> 22 (his approved example ends 19 20 21 22) | rule 7 %, late > shape > land: total 15 15 16 16 17 17 18 18 19 20 21 22 | landings 1/1 | flat 4 (late 0) | states 68
+     quads   15 15 16 16 17 17 18 18 19 20 21 22
+L2 big line alone 15 -> 22 (his approved example ends 19 20 21 22) | rule 7 %, late > land > shape: total 15 15 16 16 17 17 18 18 19 20 21 22 | landings 1/1 | flat 4 (late 0) | states 68
+     quads   15 15 16 16 17 17 18 18 19 20 21 22
+L2 big line alone 15 -> 22 (his approved example ends 19 20 21 22) | rule 10 %, late > shape > land: total 15 15 16 16 17 17 18 18 19 20 21 22 | landings 1/1 | flat 4 (late 0) | states 68
+     quads   15 15 16 16 17 17 18 18 19 20 21 22
+L2 big line alone 15 -> 22 (his approved example ends 19 20 21 22) | rule 10 %, late > land > shape: total 15 15 16 16 17 17 18 18 19 20 21 22 | landings 1/1 | flat 4 (late 0) | states 68
+     quads   15 15 16 16 17 17 18 18 19 20 21 22
+L1 full body: 8 groups 10 -> 14, calves 12 -> 14 | rule 7 %, late > shape > land: total 92 94 96 98 100 102 106 110 113 117 122 126 | landings 4/9 | flat 0 (late 0) | states 418
+L1 full body: 8 groups 10 -> 14, calves 12 -> 14 | rule 7 %, late > land > shape: total 92 94 96 98 100 102 106 110 113 117 118 126 | landings 8/9 | flat 0 (late 0) | states 418
+L1 full body: 8 groups 10 -> 14, calves 12 -> 14 | rule 10 %, late > shape > land: total 92 94 96 98 100 102 106 110 113 117 122 126 | landings 4/9 | flat 0 (late 0) | states 674
+L1 full body: 8 groups 10 -> 14, calves 12 -> 14 | rule 10 %, late > land > shape: total 92 94 96 98 100 102 106 110 113 116 117 126 | landings 9/9 | flat 0 (late 0) | states 674

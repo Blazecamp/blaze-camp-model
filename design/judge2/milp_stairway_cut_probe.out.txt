@@ -1,0 +1,7 @@
+N 6, week-1 total 30, D 15: climbs [5,5,5] have NO schedule; climbs [1,4,5,5] (same D) have one
+N 8, week-1 total 20, D 14: climbs [7,7] have NO schedule; climbs [1,1,5,7] (same D) have one
+N 8, week-1 total 26, D 19: climbs [5,7,7] have NO schedule; climbs [1,4,7,7] (same D) have one
+N 8, week-1 total 28, D 20: climbs [6,7,7] have NO schedule; climbs [1,5,7,7] (same D) have one
+N 8, week-1 total 28, D 21: climbs [1,6,7,7] have NO schedule; climbs [2,5,7,7] (same D) have one
+N 8, week-1 total 30, D 21: climbs [7,7,7] have NO schedule; climbs [1,6,7,7] (same D) have one
+climb vectors tried 6733; pairs with the same D and week-1 total but different verdicts: 6+

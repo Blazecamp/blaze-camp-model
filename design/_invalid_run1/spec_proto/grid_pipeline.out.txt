@@ -1,0 +1,6 @@
+cells 630; skipped 21; errors 0; no group kept 15; planned 594 (7128 plan-weeks)
+violations over all planned weeks: {"minutes":0,"session":0,"floor":0,"ceiling":0,"spill":0,"slotDrop":0,"shape":0,"groupStep":0,"creditedStep":0,"totalStep":0,"uneven":0,"lastNotHardest":0}
+unknown oracle calls: 0; plans with an 'unreachable peak' cut or a structure note: 207
+CPU ms per plan: median 9.8, p90 70.2, p99 1685.5, max 1831.8; oracle nodes per plan: median 358, p99 84712, max 86525; oracle calls per plan: median 14, max 78; stairway DP states: p99 1004, max 1004
+flat weeks of the weekly total: equal to the arithmetic minimum (11 - steps) in 466 of 594 plans; plans with a flat week in the last third 55 (of which with fewer than 4 steps in all: 55)
+plans where a kept group starts week 1 a set or more above its level start: 188; longest day over the chosen minutes: 0

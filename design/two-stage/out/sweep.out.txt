@@ -1,0 +1,116 @@
+
+## pickleball {"care":"one"}
+  30  calves 6->8 | sets 6->8 | longest day 29.9 | flat 9 | nodes 78 (max 11) | 32 ms
+  45  calves 6->7, hips 10->12 | pattern chest | sets 18->21 | longest day 43.9 | flat 8 | nodes 130 (max 17) | 32 ms
+  60  calves 6->8, hips 10->12.25, quads 6->7 | pattern back,chest | sets 25->30 | longest day 58.0 | flat 6 | nodes 101 (max 12) | 18 ms
+  75  calves 6->8, hips 10.75->13, quads 6->7, back 10->13, chest 10->12 | sets 42->52 | longest day 74.8 | flat 2 | nodes 266 (max 12) | 22 ms
+  90  calves 6->8, hips 10.75->13, quads 6->7, back 10->13, chest 10->12, shoulders 11.25->13.75 | sets 50->62 | longest day 89.5 | flat 1 | nodes 264 (max 12) | 25 ms
+ 105  calves 6->8, hips 10.75->13, quads 6->7, back 10->13, chest 10->12, shoulders 11.25->13.75 | sets 50->62 | longest day 99.8 | flat 1 | nodes 267 (max 12) | 39 ms
+ 120  calves 6->8, hips 10.75->13, quads 6->7, back 10->13, chest 10->12, shoulders 11.25->13.75 | sets 50->62 | longest day 106.8 | flat 1 | nodes 267 (max 12) | 24 ms
+
+## pickleball {"care":"engine"}
+  30  no group fits
+  45  calves 6->7 | pattern hips,quads,back | sets 12->13 | longest day 44.6 | flat 10 | nodes 146 (max 23) | 11 ms
+  60  calves 6->7, hips 10->12.25, quads 6->7 | pattern back,chest | sets 25->29 | longest day 59.9 | flat 7 | nodes 100 (max 15) | 20 ms
+  75  calves 6->8, hips 10.75->13, quads 6->7, back 10->13 | pattern chest | sets 34->42 | longest day 73.1 | flat 3 | nodes 269 (max 12) | 39 ms
+  90  calves 6->8, hips 10.75->13, quads 6->7, back 10->13, chest 10->12, shoulders 11.25->13.75 | sets 50->62 | longest day 90.0 | flat 1 | nodes 265 (max 12) | 21 ms
+ 105  calves 6->8, hips 10.75->13, quads 6->7, back 10->13, chest 10->12, shoulders 11.25->13.75 | sets 50->62 | longest day 103.5 | flat 1 | nodes 267 (max 12) | 20 ms
+ 120  calves 6->8, hips 10.75->13, quads 6->7, back 10->13, chest 10->12, shoulders 11.25->13.75 | sets 50->62 | longest day 110.5 | flat 1 | nodes 267 (max 12) | 21 ms
+
+## pickleball {"care":"warmup"}
+  30  calves 6->7 | pattern back | sets 8->9 | longest day 29.8 | flat 10 | nodes 74 (max 11) | 10 ms
+  45  calves 6->8, hips 10->12 | pattern chest | sets 18->22 | longest day 44.3 | flat 7 | nodes 164 (max 26) | 16 ms
+  60  calves 6->8, hips 10.75->13, quads 6->7 | pattern back,chest | sets 26->31 | longest day 58.9 | flat 6 | nodes 135 (max 12) | 17 ms
+  75  calves 6->8, hips 10.75->13, quads 6->7, back 10->13, chest 10->12 | sets 42->52 | longest day 74.2 | flat 2 | nodes 207 (max 12) | 18 ms
+  90  calves 6->8, hips 10.75->13, quads 6->7, back 10->13, chest 10->12, shoulders 11.25->13.75 | sets 50->62 | longest day 86.7 | flat 1 | nodes 264 (max 12) | 21 ms
+ 105  calves 6->8, hips 10.75->13, quads 6->7, back 10->13, chest 10->12, shoulders 11.25->13.75 | sets 50->62 | longest day 103.0 | flat 1 | nodes 267 (max 12) | 20 ms
+ 120  calves 6->8, hips 10.75->13, quads 6->7, back 10->13, chest 10->12, shoulders 11.25->13.75 | sets 50->62 | longest day 103.0 | flat 1 | nodes 267 (max 12) | 21 ms
+
+## pickleball {"care":"one","factor":1.1}
+  30  calves 6->7 | pattern hips,back | sets 10->11 | longest day 32.9 | flat 10 | nodes 80 (max 11) | 9 ms
+  45  calves 6->7, hips 10.5->12.5 | pattern quads,back,chest | sets 22->25 | longest day 48.5 | flat 8 | nodes 142 (max 10) | 13 ms
+  60  calves 6->8, hips 10.75->13, quads 6->7, back 10->13 | pattern chest | sets 34->42 | longest day 65.8 | flat 3 | nodes 239 (max 12) | 18 ms
+  75  calves 6->8, hips 10.75->13, quads 6->7, back 10->12, chest 10->12, shoulders 11.25->13.75 | sets 50->61 | longest day 82.0 | flat 2 | nodes 255 (max 12) | 23 ms
+  90  calves 6->8, hips 10.75->13, quads 6->7, back 10->13, chest 10->12, shoulders 11.25->13.75 | sets 50->62 | longest day 94.3 | flat 1 | nodes 267 (max 12) | 31 ms
+ 105  calves 6->8, hips 10.75->13, quads 6->7, back 10->13, chest 10->12, shoulders 11.25->13.75 | sets 50->62 | longest day 106.8 | flat 1 | nodes 267 (max 12) | 19 ms
+ 120  calves 6->8, hips 10.75->13, quads 6->7, back 10->13, chest 10->12, shoulders 11.25->13.75 | sets 50->62 | longest day 106.8 | flat 1 | nodes 267 (max 12) | 21 ms
+
+## swimmer {}
+  30  no group fits
+  45  calves 9->10 | pattern back,quads | sets 13->14 | longest day 43.7 | flat 10 | nodes 96 (max 15) | 20 ms
+  60  back 10->15, hips 10.5->12.5 | pattern quads | sets 22->29 | longest day 59.9 | flat 4 | nodes 2166 (max 2013) | 42 ms | (a kept group left for a higher-priority one)
+  75  back 10->12, hips 10.5->13.75, quads 10->12, chest 10->12, calves 9->10 | sets 48->58 | longest day 74.3 | flat 2 | nodes 2194 (max 297) | 169 ms
+  90  back 13->19, hips 10.5->15, quads 12->14, chest 10->13, calves 9->11, shoulders 11.25->14.25 | sets 61->80 | longest day 89.7 | flat 0 | nodes 16749 (max 2016) | 612 ms
+ 105  back 15->21, hips 10.5->16, quads 11->16, chest 10->14, calves 9->12, shoulders 11.25->15.25 | sets 62->88 | longest day 104.2 | flat 0 | nodes 6603 (max 2054) | 141 ms
+ 120  back 15->21, hips 10.5->16, quads 11->16, chest 10->14, calves 9->12, shoulders 11.25->15.25 | sets 62->88 | longest day 114.0 | flat 0 | nodes 6529 (max 2055) | 136 ms
+
+## swimmer {"vol3Strength":false}
+  30  no group fits
+  45  quads 10->12 | pattern back | sets 12->14 | longest day 44.7 | flat 9 | nodes 787 (max 700) | 20 ms
+  60  back 10->14, hips 10.25->12.5, quads 10->12 | pattern chest | sets 31->39 | longest day 59.8 | flat 3 | nodes 2321 (max 2046) | 49 ms
+  75  back 12->18, hips 10.5->13.75, quads 10->14, chest 10->12, calves 9->11 | sets 50->67 | longest day 74.0 | flat 0 | nodes 3168 (max 476) | 217 ms
+  90  back 13->19, hips 13.5->16, quads 10->15, chest 10->13, calves 9->12, shoulders 11->15 | sets 62->84 | longest day 89.9 | flat 0 | nodes 10675 (max 2150) | 434 ms
+ 105  back 15->21, hips 10.5->16, quads 11->16, chest 10->14, calves 9->12, shoulders 11.25->15.25 | sets 62->88 | longest day 103.3 | flat 0 | nodes 6545 (max 2055) | 134 ms
+ 120  back 15->21, hips 10.5->16, quads 11->16, chest 10->14, calves 9->12, shoulders 11.25->15.25 | sets 62->88 | longest day 114.0 | flat 0 | nodes 6529 (max 2055) | 135 ms
+
+## swimmer {"factor":1.1}
+  30  no group fits
+  45  back 10->13 | pattern quads | sets 12->15 | longest day 48.1 | flat 8 | nodes 171 (max 58) | 18 ms
+  60  back 10->12, hips 11.5->15.5, quads 10->12 | pattern chest | sets 32->40 | longest day 65.9 | flat 3 | nodes 2570 (max 2046) | 60 ms
+  75  back 10->12, hips 10.5->12.75, quads 12->14, chest 10->12, calves 9->10, shoulders 10->12.5 | sets 57->68 | longest day 82.2 | flat 2 | nodes 107294 (max 68817) | 4104 ms
+  90  back 14->20, hips 13.5->16.25, quads 12->16, chest 10->14, calves 9->12, shoulders 11.5->15.5 | sets 65->87 | longest day 98.0 | flat 0 | nodes 8021 (max 2055) | 192 ms
+ 105  back 15->21, hips 10.5->16, quads 11->16, chest 10->14, calves 9->12, shoulders 11.25->15.25 | sets 62->88 | longest day 114.0 | flat 0 | nodes 6529 (max 2055) | 126 ms
+ 120  back 15->21, hips 10.5->16, quads 11->16, chest 10->14, calves 9->12, shoulders 11.25->15.25 | sets 62->88 | longest day 128.0 | flat 0 | nodes 6529 (max 2055) | 122 ms
+
+## swimmer {"oly":false}
+  30  no group fits
+  45  back 12->15, quads 12->14 | sets 24->29 | longest day 44.6 | flat 6 | nodes 2287 (max 2015) | 37 ms
+  60  back 10->12, hips 10.25->14.5, quads 10->12, chest 10->13 | sets 39->50 | longest day 59.5 | flat 2 | nodes 770 (max 101) | 63 ms
+  75  back 12->16, hips 10.5->12.75, quads 12->14, chest 10->12, calves 9->10, shoulders 10->12.5 | sets 59->72 | longest day 74.8 | flat 1 | nodes 47239 (max 8830) | 2002 ms
+  90  back 15->21, hips 13.5->16.25, quads 11->16, chest 10->14, calves 9->12, shoulders 11.25->15 | sets 65->88 | longest day 90.0 | flat 0 | nodes 7003 (max 2054) | 177 ms
+ 105  back 15->21, hips 10.5->16, quads 11->16, chest 10->14, calves 9->12, shoulders 11.25->15.25 | sets 62->88 | longest day 104.2 | flat 0 | nodes 6610 (max 2055) | 128 ms
+ 120  back 15->21, hips 10.5->16, quads 11->16, chest 10->14, calves 9->12, shoulders 11.25->15.25 | sets 62->88 | longest day 118.0 | flat 0 | nodes 6529 (max 2055) | 123 ms
+
+## crossfit {}
+  30  no group fits
+  45  no group fits
+  60  back 12->15 | pattern chest | sets 23->26 | longest day 58.5 | flat 4 | nodes 113 (max 13) | 25 ms
+  75  hips 10.75->14, quads 10->12, back 11->14, chest 12->15 | sets 45->56 | longest day 74.6 | flat 0 | nodes 244 (max 11) | 28 ms
+  90  hips 12->15.5, quads 10->13, back 12->14, chest 12->15, calves 6->7, shoulders 11->13.75, biceps 10->12.5 | sets 65->81 | longest day 89.2 | flat 0 | nodes 486 (max 39) | 44 ms
+ 105  hips 12->15.5, quads 11->14, back 12->15, chest 12->15, calves 6->7, shoulders 10.75->13.5, biceps 11->13.75 | sets 67->84 | longest day 103.1 | flat 0 | nodes 487 (max 61) | 47 ms
+ 120  hips 12->15.5, quads 11->14, back 12->15, chest 12->15, calves 6->7, shoulders 10.75->13.5, biceps 11->13.75 | sets 67->84 | longest day 115.6 | flat 0 | nodes 521 (max 61) | 48 ms
+
+## crossfit {"classRest":180}
+  30  no group fits
+  45  no group fits
+  60  back 11->14, chest 10->12, calves 6->7 | sets 36->42 | longest day 59.4 | flat 1 | nodes 137 (max 15) | 21 ms
+  75  hips 10.75->14, quads 10->12, back 12->14, chest 11->14, shoulders 11->13.5, biceps 10->12.5 | sets 57->71 | longest day 75.0 | flat 0 | nodes 312 (max 14) | 32 ms | (a kept group left for a higher-priority one)
+  90  hips 12->15.5, quads 11->14, back 12->15, chest 12->15, calves 6->7, shoulders 11->14, biceps 10->12.75 | sets 66->83 | longest day 89.5 | flat 0 | nodes 829 (max 97) | 46 ms
+ 105  hips 12->15.5, quads 11->14, back 12->15, chest 12->15, calves 6->7, shoulders 10.75->13.5, biceps 11->13.75 | sets 67->84 | longest day 104.1 | flat 0 | nodes 489 (max 61) | 43 ms
+ 120  hips 12->15.5, quads 11->14, back 12->15, chest 12->15, calves 6->7, shoulders 10.75->13.5, biceps 11->13.75 | sets 67->84 | longest day 111.1 | flat 0 | nodes 521 (max 61) | 44 ms
+
+## crossfit {"skill":false}
+  30  no group fits
+  45  no group fits
+  60  back 12->15, calves 6->7 | pattern chest | sets 29->33 | longest day 59.0 | flat 3 | nodes 154 (max 14) | 16 ms
+  75  hips 10.75->14, quads 10->12, back 12->15, chest 10->13, shoulders 10->12.75, biceps 10->12.75 | sets 55->70 | longest day 75.0 | flat 0 | nodes 238 (max 13) | 31 ms | (a kept group left for a higher-priority one)
+  90  hips 12->15.5, quads 11->14, back 12->15, chest 12->15, calves 6->7, shoulders 11->14, biceps 10->12.75 | sets 66->83 | longest day 88.7 | flat 0 | nodes 1126 (max 143) | 49 ms
+ 105  hips 12->15.5, quads 11->14, back 12->15, chest 12->15, calves 6->7, shoulders 10.75->13.5, biceps 11->13.75 | sets 67->84 | longest day 102.6 | flat 0 | nodes 505 (max 61) | 45 ms
+ 120  hips 12->15.5, quads 11->14, back 12->15, chest 12->15, calves 6->7, shoulders 10.75->13.5, biceps 11->13.75 | sets 67->84 | longest day 109.6 | flat 0 | nodes 521 (max 61) | 45 ms
+
+## crossfit {"factor":1.1}
+  30  no group fits
+  45  no group fits
+  60  back 12->15, chest 11->14, calves 6->7 | sets 38->45 | longest day 65.7 | flat 1 | nodes 199 (max 15) | 22 ms
+  75  hips 10.75->14, quads 10->12, back 11->14, chest 10->13, calves 6->7, shoulders 10->12.5, biceps 10.75->13.5 | sets 61->77 | longest day 82.4 | flat 0 | nodes 167 (max 8) | 33 ms
+  90  hips 12->15.5, quads 11->14, back 12->15, chest 12->15, calves 6->7, shoulders 11->14, biceps 10->12.75 | sets 66->83 | longest day 97.6 | flat 0 | nodes 1030 (max 141) | 47 ms
+ 105  hips 12->15.5, quads 11->14, back 12->15, chest 12->15, calves 6->7, shoulders 10.75->13.5, biceps 11->13.75 | sets 67->84 | longest day 108.6 | flat 0 | nodes 521 (max 61) | 43 ms
+ 120  hips 12->15.5, quads 11->14, back 12->15, chest 12->15, calves 6->7, shoulders 10.75->13.5, biceps 11->13.75 | sets 67->84 | longest day 115.6 | flat 0 | nodes 521 (max 61) | 43 ms
+
+SUMMARY: 71 plans, 772 plan-weeks, per-week certificate violations 0; oracle questions 4699 (+1517 answered by a known witness), unknown 0
+nodes per plan: median 267, p90 6545, max 107294; largest single question: median 15, max 68817; ms per plan: median 33, p90 169, max 4104
+'fits' answers 3329: nodes median 6, p90 15, p99 2023, max 18619; answered within 50 nodes 96 %; a budget of 20,000 nodes would leave 0 unproven
+'no' answers 1370: nodes median 1, p90 4, p99 1350, max 68817; answered within 50 nodes 96 %; a budget of 20,000 nodes would leave 1 unproven
+stairway: plans that needed the 10 % fallback 0; plans with a needed superset 54; largest (day seconds - limit) over all plan-weeks 0
+minute steps 72: keep vector lexicographically worse 0; steps where a kept group left 3
+node sweep.mjs  12.02s user 0.13s system 112% cpu 10.761 total

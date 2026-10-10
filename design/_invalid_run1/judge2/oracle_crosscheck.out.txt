@@ -1,0 +1,3 @@
+real template models (40 intakes): LP-based oracle verdicts: feasible 121 (witness re-checked in integers), infeasible 123, unknown 0
+  infeasible verdicts cross-checked by the integer-only kernel (budget 1500000 nodes): confirmed 122, CONTRADICTED 0, undecided 1
+node design/judge2/oracle_crosscheck.mjs 1500000  113.02s user 3.34s system 33% cpu 5:43.52 total

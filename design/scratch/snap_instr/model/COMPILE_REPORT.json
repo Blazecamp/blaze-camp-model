@@ -1,0 +1,1665 @@
+{
+ "schema": "compile_report/1",
+ "model_version": "1.3.0",
+ "contracts_version": "1.1.0",
+ "spec_version": "1.2.0",
+ "counts": {
+  "source_records": 939,
+  "kept": 731,
+  "dropped": 208,
+  "dropped_by_reason": {
+   "complex": 63,
+   "generic_choice": 30,
+   "modifier": 51,
+   "not_eligible": 1,
+   "out_of_scope": 36,
+   "progression_note": 1,
+   "removed": 1,
+   "retired": 10,
+   "taxonomy_placeholder": 12,
+   "variant_rule": 3
+  },
+  "aliases": 10,
+  "templates_total": 30,
+  "templates_built": 29,
+  "templates_unbuilt": 1,
+  "template_variants": 9,
+  "stations": 1798,
+  "profiles": 127,
+  "sports_in_picker": 52,
+  "activities": 26,
+  "en_keys": 2523,
+  "es_keys": 2523,
+  "es_missing": 0,
+  "es_machine_translated": 843,
+  "coach_patches": 16,
+  "coach_patch_record_changes": 35
+ },
+ "templates": {
+  "built": [
+   "aesthetics.2",
+   "aesthetics.3",
+   "aesthetics.4",
+   "aesthetics.5",
+   "aesthetics.6",
+   "athletic.2",
+   "athletic.3",
+   "athletic.4",
+   "athletic.5",
+   "athletic.6",
+   "strength.2",
+   "strength.3",
+   "strength.4",
+   "strength.5",
+   "strength.6",
+   "fat_loss_bootcamp.2",
+   "fat_loss_bootcamp.3",
+   "fat_loss_bootcamp.4",
+   "fat_loss_bootcamp.5",
+   "fat_loss_bootcamp.6",
+   "hybrid_crossfit.2",
+   "hybrid_crossfit.3",
+   "hybrid_crossfit.5",
+   "hybrid_crossfit.6",
+   "no_equipment.2",
+   "no_equipment.3",
+   "no_equipment.4",
+   "no_equipment.5",
+   "no_equipment.6"
+  ],
+  "unbuilt": [
+   "hybrid_crossfit.4"
+  ]
+ },
+ "coach_patches": [
+  {
+   "id": "P01",
+   "refs": [
+    "EQ-01",
+    "EQ-07",
+    "EQ-08",
+    "EQ-12"
+   ],
+   "target": "every band / chain / weight-releaser item, setup, id and name",
+   "rule": "removed everywhere: band-only records dropped, band setups removed, band words stripped from ids and names (source id kept as an alias)",
+   "action": "applied",
+   "counts": {
+    "source_records_mentioning_bands": 50,
+    "out_of_scope_band_records_dropped": 36,
+    "band_only_records_dropped": 0,
+    "band_setups_removed": 0,
+    "ids_renamed": 10
+   }
+  },
+  {
+   "id": "P02",
+   "refs": [
+    "LIB-09",
+    "R2-LIB-06",
+    "LIB-17"
+   ],
+   "target": "Camporini deadlift, the 21.6-mile run, every retired record, near-duplicate seated DB curls / side planks",
+   "rule": "removed from plans and tests (the longest run stays the half-marathon plan)",
+   "action": "verified",
+   "counts": {
+    "retired_records_dropped": 11,
+    "camporini": 1,
+    "run_21_6": 1
+   }
+  },
+  {
+   "id": "P03",
+   "refs": [
+    "LIB-01",
+    "LIB-07",
+    "LIB-09",
+    "LIB-11",
+    "LIB-12",
+    "R2-LIB-05"
+   ],
+   "target": "LEFT TEST | 5/10/05 | Snatch | Clean | Clean & Jerk | Pull under | Kong Row | Single Leg Get Ups | Low DB Squats | Alternating DB/Barbell Deadlifts | Standing DB Press (second entry) | Bench Push ups",
+   "rule": "his words renamed to the clear names he approved (catalog records only; tab / program renames live in templates.program_names)",
+   "action": "verified",
+   "counts": {
+    "verified": 14,
+    "applied": 0
+   }
+  },
+  {
+   "id": "P04",
+   "refs": [
+    "CAT-09"
+   ],
+   "target": "leg curls (KFLEX pool)",
+   "rule": "'LEG CURLS' = the LEG FLEXION segment: bucket ISO_LEG_FLEXION (ISO_HAM / RP.HD.ISO are retired aliases), credit hamstrings 1.0",
+   "action": "verified",
+   "counts": {
+    "records": 9
+   }
+  },
+  {
+   "id": "P05",
+   "refs": [
+    "LIB-10",
+    "R2-LIB-04"
+   ],
+   "target": "KB / cable face pulls",
+   "rule": "shoulder work (rear delts 1.0 + side delts 0.25), a rear-delt option and a swap, never the main vertical pull",
+   "action": "verified",
+   "counts": {
+    "records": 3
+   }
+  },
+  {
+   "id": "P06",
+   "refs": [
+    "R2-VOL-05",
+    "C-04",
+    "D-12"
+   ],
+   "target": "every kettlebell swing",
+   "rule": "ballistic / athletic power reps, credit {} (never glute volume), only AP_TRIPLE_EXT and WOD slots; the 02 BHD / UHD swap listing is excluded",
+   "action": "applied",
+   "counts": {
+    "records": 3,
+    "removed_from_hinge_slots": 3
+   }
+  },
+  {
+   "id": "P07",
+   "refs": [
+    "VOL-09",
+    "UNI-01",
+    "LIB-14",
+    "LIB-16",
+    "R2-VOL-05"
+   ],
+   "target": "the credit map and every exercise credit",
+   "rule": "prime mover 1.0, helpers 0.25 (glutes 0.25 on squats / lunges / deadlifts / RDLs); dips 0.5 triceps + 0.5 chest; thruster 1.0 quads + 0.5 front delts + 0.25 glutes; upright rows = side delts; the catalog coarse per_set groups are not copied",
+   "action": "applied",
+   "counts": {
+    "classes": 26,
+    "dips": 5,
+    "thrusters": 3,
+    "upright_rows": 3,
+    "credit_mismatches": 0
+   }
+  },
+  {
+   "id": "P08",
+   "refs": [
+    "R2-LIB-07",
+    "EQ-05",
+    "EQ-11",
+    "ATH-10"
+   ],
+   "target": "belt-squat-machine, seated-machine-shoulder-press, hang-clean-of-1rm-catch-not-stated, single-arm-db-snatch, kb-squat-clean, hex-bar-jump-squat, kb-curl, table-row-inverted-row-under-a-sturdy-table, floor-prone-y-t-raises",
+   "rule": "added to the master library at FOUNDATIONAL (belt squat, seated machine shoulder press, hang clean, single-arm DB snatch, KB squat clean, hex-bar jump; home: KB curl, table row, floor Y / T raises)",
+   "action": "applied",
+   "counts": {
+    "records": 9,
+    "status_program_only_to_added_v1_1": 4
+   }
+  },
+  {
+   "id": "P09",
+   "refs": [
+    "LIB-12",
+    "R2-LIB-05",
+    "LIB-13",
+    "LIB-15"
+   ],
+   "target": "bench-push-up-hands-or-feet-on-bench-not-stated, bench-push-up-feet-on-bench, barbell-push-press, db-push-press, barbell-push-jerk, db-push-jerk, leg-extension-machine, lying-leg-curl-machine, seated-leg-curl-machine, machine-leg-curl-seated-or-lying",
+   "rule": "bench push-up hands on bench = foundational, feet on bench = advanced; push press foundational, push jerk intermediate-advanced; leg extensions / curls at every level",
+   "action": "verified",
+   "counts": {
+    "records": 10
+   }
+  },
+  {
+   "id": "P10",
+   "refs": [
+    "R2-SES-01",
+    "R2-SES-02",
+    "PER-04",
+    "EQ-11"
+   ],
+   "target": "02 v1.1 axial_spinal_load.spine_day_v1_1",
+   "rule": "at most one counted heavy squat and one counted heavy hinge a week, never the same day; goblet / hack / pendulum are second-day options; leg press, belt squat, hip thrust not counted",
+   "action": "verified",
+   "counts": {
+    "counted": 25,
+    "counted_squat": 16,
+    "counted_hinge": 9,
+    "second_day": 25
+   }
+  },
+  {
+   "id": "P11",
+   "refs": [
+    "EQ-03",
+    "R2-ATH-08",
+    "D-05"
+   ],
+   "target": "every Olympic, plyometric, depth-jump, snatch, overhead-squat and low-bar record",
+   "rule": "60+: no Olympic / plyo / depth jumps by default (opt-in with the warning); overhead and low-bar squats never; depth jumps, high drops and snatches stay locked for 60+ in Phase 0",
+   "action": "verified",
+   "counts": {
+    "never_for_60plus": 33,
+    "off_by_default_for_60plus": 146
+   }
+  },
+  {
+   "id": "P12",
+   "refs": [
+    "CAT-07",
+    "R2-LIB-07"
+   ],
+   "target": "proposed_v1 / proposed_v1_1 records (22 sport additions + 9 v1 starters)",
+   "rule": "library exercises are always the main pick; PROPOSED records are swaps only until he approves them",
+   "action": "verified",
+   "counts": {
+    "records": 31
+   }
+  },
+  {
+   "id": "P13",
+   "refs": [
+    "EQ-06",
+    "ATH-05"
+   ],
+   "target": "every record with an implement load",
+   "rule": "no medball load above 20 lb anywhere (aesthetics: warm-up only, enforced at selection)",
+   "action": "verified",
+   "counts": {
+    "medball_records": 93,
+    "clamped_to_20": 0
+   }
+  },
+  {
+   "id": "P14",
+   "refs": [
+    "GEN-08"
+   ],
+   "target": "every record",
+   "rule": "never a V-squat",
+   "action": "verified",
+   "counts": {}
+  },
+  {
+   "id": "P15",
+   "refs": [
+    "FIX-03",
+    "FIX-04"
+   ],
+   "target": "EN exercise names",
+   "rule": "decoder notes ('not stated', 'inferred', 'typo ambiguous', 'second ... listing') removed from user-facing names; his sheets untouched",
+   "action": "applied",
+   "counts": {
+    "names_cleaned_beyond_fixture_reading": 8
+   }
+  },
+  {
+   "id": "P16",
+   "refs": [
+    "FIX-03",
+    "FIX-04"
+   ],
+   "target": "user-facing EN day labels, coach cues and profile names",
+   "rule": "decoder notes removed from rendered text ('(complete)', '(corrected)', '(OT02 Day 3)', 'INFERRED', '(COACH-R2 ...)', 'the BYOP cell says ...', 'bodyweight pools'); templates.label stays verbatim",
+   "action": "applied",
+   "counts": {
+    "strings_cleaned": 23
+   }
+  }
+ ],
+ "crosschecks": [
+  {
+   "id": "X01",
+   "source": "12_volume_algorithm_v1.json",
+   "what": "volume.start (big 10/15/20, small 10/12/15, rear 4/6/8)",
+   "status": "ok"
+  },
+  {
+   "id": "X02",
+   "source": "12_volume_algorithm_v1.json",
+   "what": "volume.cap (14/22/25 incl. calves; rear 8/12/16; abs 16/20/20)",
+   "status": "ok"
+  },
+  {
+   "id": "X03",
+   "source": "12_volume_algorithm_v1.json",
+   "what": "volume.priority.cap (18/26/30; chest L2 26-28 -> 28, D-39; rear 12/16/20)",
+   "status": "ok"
+  },
+  {
+   "id": "X04",
+   "source": "12_volume_algorithm_v1.json",
+   "what": "stairway.by_N for N = 4, 6, 8, 10, 12, 16 (halfway, 3 % / 5 % steps, growth, 2 -> 11 display level, planned RIR)",
+   "status": "mismatch",
+   "detail": "N=16 planned_effort w12 2 vs 1-2 RIR"
+  },
+  {
+   "id": "X05",
+   "source": "12_volume_algorithm_v1.json",
+   "what": "stairway.limits (step <= 7 %, non-priority 3 %, 60+ 3 %, total strictly < 10 %)",
+   "status": "ok"
+  },
+  {
+   "id": "X06.12",
+   "source": "generator_spec_v1.json",
+   "what": "plan_types.fixed_12 (phases by level, exercise blocks, RC weeks, planned RIR, stair level)",
+   "status": "ok"
+  },
+  {
+   "id": "X06.8",
+   "source": "generator_spec_v1.json",
+   "what": "plan_types.fixed_8 (phases by level, exercise blocks, RC weeks, planned RIR, stair level)",
+   "status": "ok"
+  },
+  {
+   "id": "X07",
+   "source": "12_volume_algorithm_v1.json",
+   "what": "credit.classes (helpers 0.25, dips 0.5 / 0.5, thruster 1 / 0.5 / 0.25, face pull 1 + 0.25)",
+   "status": "ok"
+  },
+  {
+   "id": "X08",
+   "source": "03_volume_rules.json",
+   "what": "counting.bucket_credit_map_coach_v1 (v1 PROPOSED values)",
+   "status": "superseded",
+   "detail": "RP_BHD.glutes: 03 0.5 vs rules 0.25; RP_UHD.glutes: 03 0.5 vs rules 0.25",
+   "ref": "R2-VOL-05 (glutes 0.25 on hinges: \"a quarter\"); 12 v1.1 counting.credit_map is authoritative"
+  },
+  {
+   "id": "X09",
+   "source": "10_equipment_model.json",
+   "what": "equipment.profiles kit lists (10 ids) and banned tokens",
+   "status": "ok"
+  },
+  {
+   "id": "X10",
+   "source": "coach_answers_round2.md",
+   "what": "athletic.ground_contact_classes end shares (R2-ATH-01)",
+   "status": "ok"
+  },
+  {
+   "id": "X11",
+   "source": "12_volume_algorithm_v1.json",
+   "what": "cycles (start x 1.05, cap + 1, max 25 / 30)",
+   "status": "ok"
+  },
+  {
+   "id": "X12",
+   "source": "06_periodization.json",
+   "what": "v1_1.changes: stairway lambda for 12 weeks (0.76 / 0.87 / 0.50) present",
+   "status": "ok"
+  },
+  {
+   "id": "X13",
+   "source": "generator_spec_v1.json",
+   "what": "library_decisions.kb_swings = 0 muscle sets; medball max 20 lb",
+   "status": "ok"
+  }
+ ],
+ "i18n": {
+  "es_by_source": {
+   "architect_wordlist": 1145,
+   "b1_machine_translation": 838,
+   "profiles_04": 383,
+   "spec": 157
+  },
+  "machine_translated_by_namespace": {
+   "day": 140,
+   "exercise.cue": 63,
+   "exercise.name": 588,
+   "profile.name": 52
+  },
+  "missing_keys": [],
+  "unused_translation_rows": [
+   "exercise name: Box Squat - any variation, dead-stop ('Deload' = sit and unload on the box)",
+   "cue: Hold the DBs (or a barbell), take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.",
+   "cue: No axial (spinal) load: swap in when the athlete already loaded the back that week or is sore.",
+   "cue: Lat pull-over on a cable machine (the coach's 'pull under').",
+   "cue: No ball needed: mimic the slam and the catch / return 'any way possible' - the coach's no-medball substitute for slams.",
+   "cue: Use if the gym has one and the client feels the right muscles (hamstrings / glutes).",
+   "cue: Use if available and the client feels the right muscles.",
+   "day label: A - squat + pull (axial squat)",
+   "day label: B - deadlift + push (axial hinge)",
+   "day label: A1 - squat + pull (axial squat)",
+   "day label: A2 - leg press + pull (non-axial)",
+   "day label: B1 - hip thrust + push (non-axial hinge)",
+   "day label: B2 - deadlift + push (axial hinge)",
+   "day label: Legs 1 - squat-led (axial squat)",
+   "day label: Legs 2 - hinge-led (axial hinge, leg press)",
+   "day label: A - squat + pull (axial squat; clean day)",
+   "day label: B - deadlift + push (axial hinge; snatch day)",
+   "day label: A1 - squat + pull (axial squat; clean day)",
+   "day label: A2 - leg press / belt squat + pull (clean day)",
+   "day label: B1 - non-axial hinge + push (snatch day)",
+   "day label: B2 - deadlift + push (axial hinge; snatch day)"
+  ]
+ },
+ "fixture_diff": {
+  "rules_equal": true,
+  "templates_equal": true,
+  "profiles_equal": true,
+  "catalog_id_aliases_equal": true,
+  "catalog_records_changed": 53,
+  "catalog_fields_changed": {
+   "rule_refs": 53,
+   "status": 4
+  },
+  "catalog_records_removed": [],
+  "en_values_changed": [
+   {
+    "key": "day.aesthetics.2.A",
+    "fixture": "Day A - squat + pull, hip thrust + press (complete)",
+    "model": "Day A - squat + pull, hip thrust + press"
+   },
+   {
+    "key": "day.aesthetics.2.B",
+    "fixture": "Day B - deadlift + push, leg press + pull (complete)",
+    "model": "Day B - deadlift + push, leg press + pull"
+   },
+   {
+    "key": "day.aesthetics.3.C",
+    "fixture": "Day C - both bilaterals, non-axial (OT02 Day 3)",
+    "model": "Day C - both bilaterals, non-axial"
+   },
+   {
+    "key": "day.athletic.4.baseball_parts.THU",
+    "fixture": "Thu (strength, INFERRED) - squat + vertical pull",
+    "model": "Thu (strength) - squat + vertical pull"
+   },
+   {
+    "key": "day.fat_loss_bootcamp.2.B",
+    "fixture": "Day B - hinge + push / single-leg squat + pull (corrected)",
+    "model": "Day B - hinge + push / single-leg squat + pull"
+   },
+   {
+    "key": "day.fat_loss_bootcamp.4.B",
+    "fixture": "Day B - hinge + push / single-leg squat + pull (corrected)",
+    "model": "Day B - hinge + push / single-leg squat + pull"
+   },
+   {
+    "key": "day.no_equipment.2.A_BW",
+    "fixture": "Day A - squat + pull / single-leg hinge + press (bodyweight pools)",
+    "model": "Day A - squat + pull / single-leg hinge + press (bodyweight)"
+   },
+   {
+    "key": "day.no_equipment.2.B_BW",
+    "fixture": "Day B - hinge + push / single-leg squat + pull (corrected) (bodyweight pools)",
+    "model": "Day B - hinge + push / single-leg squat + pull (bodyweight)"
+   },
+   {
+    "key": "day.no_equipment.3.BC1_BW",
+    "fixture": "Bootcamp 1 - squat + row + single-leg hinge (bodyweight pools)",
+    "model": "Bootcamp 1 - squat + row + single-leg hinge (bodyweight)"
+   },
+   {
+    "key": "day.no_equipment.3.BC2_BW",
+    "fixture": "Bootcamp 2 - hinge + presses (bodyweight pools)",
+    "model": "Bootcamp 2 - hinge + presses (bodyweight)"
+   },
+   {
+    "key": "day.no_equipment.3.BC3_BW",
+    "fixture": "Bootcamp 3 - single-leg squat + pulls + arms (bodyweight pools)",
+    "model": "Bootcamp 3 - single-leg squat + pulls + arms (bodyweight)"
+   },
+   {
+    "key": "day.no_equipment.4.A_BW",
+    "fixture": "Day A - squat + pull / single-leg hinge + press (bodyweight pools)",
+    "model": "Day A - squat + pull / single-leg hinge + press (bodyweight)"
+   },
+   {
+    "key": "day.no_equipment.4.B_BW",
+    "fixture": "Day B - hinge + push / single-leg squat + pull (corrected) (bodyweight pools)",
+    "model": "Day B - hinge + push / single-leg squat + pull (bodyweight)"
+   },
+   {
+    "key": "day.no_equipment.5.BC_A_BW",
+    "fixture": "Bootcamp A - squat + pull / single-leg hinge + press (bodyweight pools)",
+    "model": "Bootcamp A - squat + pull / single-leg hinge + press (bodyweight)"
+   },
+   {
+    "key": "day.no_equipment.5.BC_B_BW",
+    "fixture": "Bootcamp B - hinge + push / single-leg squat + pull (bodyweight pools)",
+    "model": "Bootcamp B - hinge + push / single-leg squat + pull (bodyweight)"
+   },
+   {
+    "key": "day.no_equipment.6.BC1_BW",
+    "fixture": "Bootcamp 1 - squat + row + single-leg hinge (bodyweight pools)",
+    "model": "Bootcamp 1 - squat + row + single-leg hinge (bodyweight)"
+   },
+   {
+    "key": "day.no_equipment.6.BC2_BW",
+    "fixture": "Bootcamp 2 - hinge + presses (bodyweight pools)",
+    "model": "Bootcamp 2 - hinge + presses (bodyweight)"
+   },
+   {
+    "key": "day.no_equipment.6.BC3_BW",
+    "fixture": "Bootcamp 3 - single-leg squat + pulls + arms (bodyweight pools)",
+    "model": "Bootcamp 3 - single-leg squat + pulls + arms (bodyweight)"
+   },
+   {
+    "key": "exercise.back-squat-bar-position-not-stated.name",
+    "fixture": "Back Squat (bar position not stated)",
+    "model": "Back Squat"
+   },
+   {
+    "key": "exercise.bent-over-row-close-grip-implement-not-stated.name",
+    "fixture": "Bent-Over Row (Close Grip; implement not stated)",
+    "model": "Bent-Over Row"
+   },
+   {
+    "key": "exercise.clean-and-jerk-full.cue",
+    "fixture": "Full squat catch (the BYOP cell says only Snatch / Clean / Clean & Jerk).",
+    "model": "Full squat catch."
+   },
+   {
+    "key": "exercise.clean-squat-clean.cue",
+    "fixture": "Full squat catch (the BYOP cell says only Snatch / Clean / Clean & Jerk).",
+    "model": "Full squat catch."
+   },
+   {
+    "key": "exercise.db-overhead-press-seated-standing-not-stated.name",
+    "fixture": "DB Overhead Press (seated/standing not stated)",
+    "model": "DB Overhead Press"
+   },
+   {
+    "key": "exercise.face-up-triceps-push-away-supine-technique-unconfirmed.name",
+    "fixture": "Face-Up Triceps Push-Away (supine; technique unconfirmed)",
+    "model": "Face-Up Triceps Push-Away"
+   },
+   {
+    "key": "exercise.hang-power-clean-hang-height-not-stated.name",
+    "fixture": "Hang Power Clean (hang height not stated)",
+    "model": "Hang Power Clean"
+   },
+   {
+    "key": "exercise.low-depth-drop-single-leg-or-weighted.name",
+    "fixture": "Low Depth Drop - Single-Leg or Weighted (second FOUNDATIONAL listing)",
+    "model": "Low Depth Drop - Single-Leg or Weighted"
+   },
+   {
+    "key": "exercise.lunge-variation-not-stated.name",
+    "fixture": "Lunge (variation not stated)",
+    "model": "Lunge"
+   },
+   {
+    "key": "exercise.push-up-box-jump.cue",
+    "fixture": "INFERRED (LIB-02 was answered PARTLY and only for the stick-the-landing drill): hands start on the floor and pop up to land on a box - the opposite direction of the stick-the-landing drill. Confirm with the coach.",
+    "model": "Hands start on the floor and pop up to land on a box - the opposite direction of the stick-the-landing drill."
+   },
+   {
+    "key": "exercise.seal-cable-row-prone-chest-supported-or-seated-cable-row-typo-ambiguous.name",
+    "fixture": "Seal Cable Row (prone, chest-supported) - or Seated Cable Row (typo ambiguous)",
+    "model": "Seal Cable Row (prone, chest-supported) - or Seated Cable Row"
+   },
+   {
+    "key": "exercise.snatch-squat-snatch.cue",
+    "fixture": "Full squat catch (the BYOP cell says only Snatch / Clean / Clean & Jerk).",
+    "model": "Full squat catch."
+   },
+   {
+    "key": "profile.older_adult.name",
+    "fixture": "Older adults (60+ (COACH-R2 ATH-08), or foundation / injury based)",
+    "model": "Older adults (60+, or foundation / injury based)"
+   }
+  ],
+  "en_keys_added": [],
+  "es_fixture_values_changed": [],
+  "es_keys_added": 838
+ },
+ "dropped": [
+  {
+   "source_id": "band-assisted-pull-up",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "band-assisted-reverse-banded-bench-press",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "banded-barbell-deadlift-accommodating-resistance",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "banded-bench-press-accommodating-resistance-speed",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "banded-box-squat-any-variation-touch-and-go",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "banded-front-squat-accommodating-resistance",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "banded-kb-swing",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "banded-leg-extension-seated-on-bench",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "banded-overhead-triceps-extension",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "banded-rolling-hamstring-curl",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "banded-single-arm-lat-pulldown-fast",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "banded-tantrums-resisted-sprint-in-place",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "bent-over-barbell-row-pronated-grip",
+   "reason": "retired",
+   "rule": "LIB-09 / LIB-17 / R2-LIB-06 (retired or merged by the coach)"
+  },
+  {
+   "source_id": "bilateral-reverse-banded-hops-band-assisted-pogo-hops",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "bilateral-reverse-banded-jumps-band-assisted-repeat-jumps",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "bilateral-weighted-drop-release-the-weight-and-jump",
+   "reason": "retired",
+   "rule": "LIB-09 / LIB-17 / R2-LIB-06 (retired or merged by the coach)"
+  },
+  {
+   "source_id": "box-squat-dead-stop-deload-bottom-banded",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "camporini-deadlift-unilateral-bias-deadlift-variant-exact-set-up-not-defined-in-",
+   "reason": "retired",
+   "rule": "LIB-09 / LIB-17 / R2-LIB-06 (retired or merged by the coach)"
+  },
+  {
+   "source_id": "chained-barbell-deadlift-accommodating-resistance",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "conventional-barbell-deadlift-shoulder-width-grip",
+   "reason": "retired",
+   "rule": "LIB-09 / LIB-17 / R2-LIB-06 (retired or merged by the coach)"
+  },
+  {
+   "source_id": "cx-20-on-10-off-tabata-timer-flutter-kicks-and-hip-turns",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-2x-2-clean-pulls-2-power-cleans",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-2x-2-snatch-pulls-2-power-snatches",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-3-heavy-squats-5-tuck-jumps-5-db-squat-jumps-5-squirrel-jumps",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-3x-10-cal-row-sprint-or-ski",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-3x10-db-incline-press-core",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-3x6-db-bench-press-core",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-3x6-db-incline-bench-press-core",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-3x8-barbell-bench-press-core",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-3x8-barbell-incline-bench-press-core",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-4-deadlifts-5-broad-jumps-5-kb-swings-5-5-high-knee-runs",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-45-degree-hyper-extension-machine-kb-swings",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-4x6-bb-bench-core",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-4x8-bb-incline-bench-core",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-50-situps-50-crunches-50-reverse-crunches",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-8-box-med-ball-rocker-into-4-hops-swiss-ball-knee-tuck-ins",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-a-march-a-skips-a-runners",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-a-marches-a-skips-a-runners",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-a-marches-a-skips-a-runners-2",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-back-squats-banded-jumps-db-squat-jumps-high-ankle-hops",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-bench-glute-bridge-and-fast-alternating-db-seesaw-floor-press",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-bench-press-db-or-barbell",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-bench-press-superset-with-max-pushup-set-only-1-set-of-max-pushups-per-set-of-be",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-cable-or-db-side-raises",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-clean-pull-hang-power-clean",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-copenhagen-plank-and-unilateral-dl",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-db-reverse-flies-or-machine",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-db-rows-or-row-machine",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-db-side-raises-copenhagen-plank-50-sec-each-side",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-deadlifts-1-2rir-3-min-jump-rope",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-deadlifts-db-or-barbell",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-def-dl-or-snatch-grip",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-drop-into-box-jumps-20-20-star-toe-touches",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-ez-bar-curls-or-barbell",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-fe-contra-db-rows-core",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-ff-and-rfe-contra-db-rows-core",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-ff-and-rfe-ipsi-db-rows-core",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-ff-and-rfe-lunge-double-dbs-jumping-pull-ups-db-push-press",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-ff-and-rfe-lunge-double-dbs-pull-ups-db-strict-press",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-ff-and-rfe-lunge-goblet-t2b-hand-switch-pushups",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-ff-and-rfe-lunge-goblet-t2b-pushups",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-ff-and-rfe-lunge-t2b-db-bench-press",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-ffe-ipsi-db-rows-core",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-front-side-db-rises",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-front-squats-high-jumps-hex-bar-squat-jumps-banded-assisted-hops",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-front-squats-superset-with-15-squats-with-no-weight-every-set",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-hang-power-clean-and-press",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-heavy-curls-and-heavy-tricep-kickbacks-12-on-each-side",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-heavy-single-arm-rotational-half-kneeling-cable-row-or-band-row-or-bird-dog-row",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-heel-raises-and-fast-rhythmic-1-4-squats",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-hex-bar-or-db-dl",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-incline-bench-press-superset-with-a-set-of-max-bench-dips-one-set-only-per-set-o",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-kb-swings-12-12-single-leg-glute-bridges",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-lat-pull-down-pull-up",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-lateral-mid-size-box-step-up-jumps-directly-into-nordic-curls",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-leg-ext-leg-curls-full-range-of-motion",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-leg-press-or-just-add-2-more-rounds-to-front-squats",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-machine-dips-or-dips",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-machine-or-db-flies",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-machine-or-db-reverse-flies",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-machine-rows-or-db-rows",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-overhead-press-db-or-barbell",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-plate-core-and-leg-extensions",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-plate-core-and-leg-extensions-nordic-curls",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-pull-ups-or-banded-assisted-pull-ups",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-pull-ups-or-cable-lat-pull-down",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-pull-ups-or-close-grip-cable-lat-pull-down",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-pull-ups-or-lat-pull-down",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-push-ups-chest-pass",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-rdl-good-morning",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-rfe-contra-db-rows-core",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-rfe-ipsi-db-rows-core",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-russian-twists-30-30-side-planks",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-side-raises-front-raises",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-single-leg-swiss-ball-knee-tuck-in-db-rows",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-situps-crunches",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-situps-toes-to-bar",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-skill-h-s-dubs",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-skill-t2b-dubs",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-slider-runners-slider-hamstring-runners",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-squats-or-leg-press",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-suitcase-db-rfe-iso-holds-rfe-lunge-jumps",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-superset-db-single-leg-glute-bridges-alternating-seated-bicep-curl-runners-db-fl",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-superset-dead-bugs-front-raises-side-raises",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-superset-heavy-hex-bar-squats-directly-into-10-repeat-jump-squat-high-jumps",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-superset-heavy-ipsilateral-db-front-foot-elevated-lunge-directly-into-no-weight-",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-superset-leg-ext-leg-curls-mid-weight",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-superset-star-v-ups-side-plank-knee-to-elbow",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-toes-to-bar-or-knees-to-chest",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "cx-uni-rdl-core-oh-press",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-uni-rdl-core-uni-gb",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-weighted-bulgarian-lunge-heel-held-up-sl-def-weighted-calf-raises",
+   "reason": "complex",
+   "rule": "CONTRACTS §3.2 / D-21 v1.0 (contrast complexes: Phase 1)"
+  },
+  {
+   "source_id": "cx-weighted-pull-ups-or-max-reps-close-grip-cable-lat-pull-down",
+   "reason": "generic_choice",
+   "rule": "CONTRACTS §3.2 (generic 'any X' choice; the slot is the choice)"
+  },
+  {
+   "source_id": "deficit-reverse-lunge-front-foot-on-plate",
+   "reason": "retired",
+   "rule": "LIB-09 / LIB-17 / R2-LIB-06 (retired or merged by the coach)"
+  },
+  {
+   "source_id": "distance-test-21-6-mile-run",
+   "reason": "removed",
+   "rule": "R2-LIB-06 (21.6-mile run removed from plans and tests)"
+  },
+  {
+   "source_id": "drop-bilateral-and-jump-depth-jump",
+   "reason": "retired",
+   "rule": "LIB-09 / LIB-17 / R2-LIB-06 (retired or merged by the coach)"
+  },
+  {
+   "source_id": "half-kneeling-crunch-chop-down-high-to-low-into-active-knee-knee-banded-adductio",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "half-kneeling-crunch-chop-midline-horizontal-into-active-knee-knee-banded-adduct",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "half-kneeling-crunch-chop-up-lift-low-to-high-into-active-knee-knee-banded-adduc",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "half-kneeling-pallof-hold-knee-banded-adduction",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "lat-pull-under-technique-unconfirmed",
+   "reason": "retired",
+   "rule": "LIB-09 / LIB-17 / R2-LIB-06 (retired or merged by the coach)"
+  },
+  {
+   "source_id": "mod-end-range-behaviour-dead-stop",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-end-range-behaviour-rdl",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-end-range-behaviour-touch-and-go",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-feet-position-feet-in-air-hollow-bent-legs",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-feet-position-feet-in-air-hollow-legs-str8",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-feet-position-feet-on-bench",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-feet-position-feet-on-floor",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-feet-position-feet-on-raisers-or-plates",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-feet-position-feet-on-wall",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-hand-placement-narrow-grip",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-hand-placement-neutral",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-hand-placement-pronated",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-hand-placement-supinated",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-hand-placement-wide-grip",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-load-laterality-contralateral-loading",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-load-laterality-ipsilateral-loading",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-load-laterality-x-position-front-racked-db-or-kb-contralateral-loading",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-load-laterality-x-position-front-racked-db-or-kb-ipsilateral-loading",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-load-position-barbell-back-squat-racked",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-load-position-barbell-front-squat-racked",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-load-position-barbell-high-zercher-racked",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-load-position-barbell-overhead",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-load-position-barbell-zercher-racked",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-load-position-double-kb-or-db",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-load-position-goblet-loading",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-load-position-plate-reach",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-loading-variable-bands",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "mod-loading-variable-chains",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "mod-loading-variable-rdl",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-loading-variable-weight-releasers",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "mod-lunge-load-position-back-racked-barbell",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-load-position-contralateral-high-zercher-single-implement-hugged-high-offs",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-load-position-contralateral-on-shoulder-single-implement-racked-on-the-sho",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-load-position-contralateral-suitcase-one-db-kb-at-the-side-opposite-the-fr",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-load-position-double-handed-high-zercher-implement-hugged-high-centred",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-load-position-double-handed-on-shoulders-db-kb-on-both-shoulders",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-load-position-double-suitcase-db-kb-in-each-hand",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-load-position-front-racked-barbell",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-load-position-ipsilateral-high-zercher-single-implement-hugged-high-same-s",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-load-position-ipsilateral-on-shoulder-single-implement-on-the-same-side-sh",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-load-position-ipsilateral-suitcase-one-db-kb-on-the-same-side-as-the-front",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-load-position-zercher-barbell",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-orientation-front-back-forward-or-reverse-lunges",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-orientation-lateral-side-cossack-lunges",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-stance-propulsion-surface-ffe-front-foot-elevated",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-stance-propulsion-surface-floor-both-feet-on-the-floor",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-lunge-stance-propulsion-surface-rfe-rear-foot-elevated-bulgarian-split-squat",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-reverse-banded-squat-bands-anchored-overhead-assistance-at-the-bottom-fades-towa",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "mod-rom-variable-deficit",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-rom-variable-elevated",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-rom-variable-floor",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-rom-variable-rdl",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-stance-half-kneeling-opposite-side-leg-up",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-stance-half-kneeling-same-side-leg-up",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "mod-stance-split-stance-always-contralateral",
+   "reason": "modifier",
+   "rule": "CONTRACTS §3.2 (set / tempo modifier, applied by dose rules)"
+  },
+  {
+   "source_id": "ph-carry-bilateral-heading-no-exercises-yet",
+   "reason": "taxonomy_placeholder",
+   "rule": "CONTRACTS §3.2 (taxonomy node, not an exercise)"
+  },
+  {
+   "source_id": "ph-carry-propulsive-heading-no-exercises-yet",
+   "reason": "taxonomy_placeholder",
+   "rule": "CONTRACTS §3.2 (taxonomy node, not an exercise)"
+  },
+  {
+   "source_id": "ph-carry-stationary-heading-no-exercises-yet",
+   "reason": "taxonomy_placeholder",
+   "rule": "CONTRACTS §3.2 (taxonomy node, not an exercise)"
+  },
+  {
+   "source_id": "ph-carry-unilateral-heading-no-exercises-yet",
+   "reason": "taxonomy_placeholder",
+   "rule": "CONTRACTS §3.2 (taxonomy node, not an exercise)"
+  },
+  {
+   "source_id": "ph-drags-frontal-heading-no-exercises-yet",
+   "reason": "taxonomy_placeholder",
+   "rule": "CONTRACTS §3.2 (taxonomy node, not an exercise)"
+  },
+  {
+   "source_id": "ph-drags-sagittal-heading-no-exercises-yet",
+   "reason": "taxonomy_placeholder",
+   "rule": "CONTRACTS §3.2 (taxonomy node, not an exercise)"
+  },
+  {
+   "source_id": "ph-functional-biomechanics-system-anterior-oblique-system-crunches-heading-no-exerc",
+   "reason": "taxonomy_placeholder",
+   "rule": "CONTRACTS §3.2 (taxonomy node, not an exercise)"
+  },
+  {
+   "source_id": "ph-functional-biomechanics-system-anterior-oblique-system-integrated-with-push-and-",
+   "reason": "taxonomy_placeholder",
+   "rule": "CONTRACTS §3.2 (taxonomy node, not an exercise)"
+  },
+  {
+   "source_id": "ph-functional-biomechanics-system-lateral-subsystem-integrations-legs-and-delts-hea",
+   "reason": "taxonomy_placeholder",
+   "rule": "CONTRACTS §3.2 (taxonomy node, not an exercise)"
+  },
+  {
+   "source_id": "ph-functional-biomechanics-system-lateral-subsystem-side-lying-heading-no-exercises",
+   "reason": "taxonomy_placeholder",
+   "rule": "CONTRACTS §3.2 (taxonomy node, not an exercise)"
+  },
+  {
+   "source_id": "ph-functional-biomechanics-system-posterior-oblique-system-bridges-heading-no-exerc",
+   "reason": "taxonomy_placeholder",
+   "rule": "CONTRACTS §3.2 (taxonomy node, not an exercise)"
+  },
+  {
+   "source_id": "ph-functional-biomechanics-system-posterior-oblique-system-integrations-with-pull-a",
+   "reason": "taxonomy_placeholder",
+   "rule": "CONTRACTS §3.2 (taxonomy node, not an exercise)"
+  },
+  {
+   "source_id": "ph-progression-note-bigger-plates-restart-at-bilateral-lateral-plate-hops",
+   "reason": "progression_note",
+   "rule": "CONTRACTS §3.2 (progression note)"
+  },
+  {
+   "source_id": "ph-rule-repeat-the-5-down-over-front-leg-lunge-variations-c6-c10-with-the-medball-f",
+   "reason": "variant_rule",
+   "rule": "CONTRACTS §3.2 (variation rule, R2-LIB-01)"
+  },
+  {
+   "source_id": "ph-rule-repeat-the-5-down-over-front-leg-lunge-variations-c6-c10-with-the-medball-h",
+   "reason": "variant_rule",
+   "rule": "CONTRACTS §3.2 (variation rule, R2-LIB-01)"
+  },
+  {
+   "source_id": "ph-rule-repeat-the-5-down-over-front-leg-lunge-variations-c6-c10-with-the-medball-u",
+   "reason": "variant_rule",
+   "rule": "CONTRACTS §3.2 (variation rule, R2-LIB-01)"
+  },
+  {
+   "source_id": "reverse-banded-band-assisted-squat-jumps-french-contrast-element-4-assisted-over",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "reverse-banded-box-squat-any-variation-touch-and-go",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "reverse-banded-box-squat-dead-stop",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "single-arm-band-row",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "split-stance-pallof-hold-knee-banded-adduction",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "split-stance-standing-crunch-chop-down-high-to-low-into-active-knee-knee-banded-",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "split-stance-standing-crunch-chop-midline-horizontal-into-active-knee-knee-bande",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "split-stance-standing-crunch-chop-up-lift-low-to-high-into-active-knee-knee-band",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "squat-with-one-hip-banded-out-left-or-right",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "squat-with-rotational-strap-rotating-in-internal-rotation-bias",
+   "reason": "retired",
+   "rule": "LIB-09 / LIB-17 / R2-LIB-06 (retired or merged by the coach)"
+  },
+  {
+   "source_id": "squat-with-rotational-strap-rotating-out-external-rotation-bias",
+   "reason": "retired",
+   "rule": "LIB-09 / LIB-17 / R2-LIB-06 (retired or merged by the coach)"
+  },
+  {
+   "source_id": "squat-with-tube-bands-around-the-hips-lateral-band-pull",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "unilateral-reverse-banded-hops",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "unilateral-reverse-banded-jumps",
+   "reason": "out_of_scope",
+   "rule": "EQ-01 / EQ-12 (band, chain, weight-releaser and other out-of-scope items)"
+  },
+  {
+   "source_id": "unilateral-weighted-drop-release-the-weight-and-jump",
+   "reason": "retired",
+   "rule": "LIB-09 / LIB-17 / R2-LIB-06 (retired or merged by the coach)"
+  },
+  {
+   "source_id": "v-squat-machine",
+   "reason": "not_eligible",
+   "rule": "02 v1.1 generator.eligible = false"
+  }
+ ],
+ "validation": {
+  "errors": [],
+  "warnings": [
+   "cross-check X04 mismatch (12_volume_algorithm_v1.json: stairway.by_N for N = 4, 6, 8, 10, 12, 16 (halfway, 3 % / 5 % steps, growth, 2 -> 11 display level, planned RIR)): N=16 planned_effort w12 2 vs 1-2 RIR",
+   "check-fixture: fat_loss_bootcamp.3/main/BC3: group shoulders has 1 always-on station (R2-SES-05 needs 2-4; check include_from_minutes)",
+   "check-fixture: fat_loss_bootcamp.3/main/BC3: group chest has 1 always-on station (R2-SES-05 needs 2-4; check include_from_minutes)"
+  ]
+ }
+}

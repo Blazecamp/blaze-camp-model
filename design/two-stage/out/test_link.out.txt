@@ -1,0 +1,4 @@
+instances 300: plans 286 (2478 plan-weeks), no group fits 14; violations of any hard row in any week 0; oracle unknown 0
+kept groups per plan {"0":14,"1":75,"2":123,"3":57,"4":26,"5":5}; instances with a strength-rest block 242; plans that need a superset 21; oracle nodes total 312035, largest question 59129
+stairway: plans that needed the 10 % fallback 0; flat weeks of the total at the arithmetic minimum in 246 of 286; plans with a flat week in the last third 168
+node test_link.mjs 300  10.27s user 0.16s system 117% cpu 8.873 total

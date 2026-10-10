@@ -1,0 +1,79 @@
+
+## coach's L2 line 15 -> 22 (R3-VOL-04: 'the last four weeks 19, 20, 21, 22')
+  P prototype default (last, shape, land, late, flat, hold)
+     total 15 15 16 16 17 17 18 19 19 20 21 22 | flat 4, late flat 1, largest rise 6.7 %, last step in weeks 12
+  A judge 2 (last, flat, hold, late, land, shape)
+     total 15 15 16 16 17 17 18 18 19 20 21 22 | flat 4, late flat 0, largest rise 6.7 %, last step in weeks 12
+  B spec default (last, flat, hold, late, shape, land)
+     total 15 15 16 16 17 17 18 18 19 20 21 22 | flat 4, late flat 0, largest rise 6.7 %, last step in weeks 12
+  B spec default (last, flat, hold, late, shape, land) + final set late
+     total 15 15 16 16 17 17 18 18 19 20 21 22 | flat 4, late flat 0, largest rise 6.7 %, last step in weeks 12
+     big: 15 15 16 16 17 17 18 18 19 20 21 22
+
+## 2 x 45 example (12 section 5.5): calves 6 -> 7, hips 10 -> 14, 2 constant sets
+  P prototype default (last, shape, land, late, flat, hold)
+     total 18 18 19 19 19 20 20 21 21 22 22 23 | flat 6, late flat 2, largest rise 5.6 %, last step in weeks 8,12
+  A judge 2 (last, flat, hold, late, land, shape)
+     total 18 18 19 19 19 20 20 21 21 22 22 23 | flat 6, late flat 2, largest rise 5.6 %, last step in weeks 8,12
+  B spec default (last, flat, hold, late, shape, land)
+     total 18 18 19 19 19 20 20 21 21 22 22 23 | flat 6, late flat 2, largest rise 5.6 %, last step in weeks 8,12
+  B spec default (last, flat, hold, late, shape, land) + final set late
+     total 18 18 19 19 19 20 20 21 21 22 22 23 | flat 6, late flat 2, largest rise 5.6 %, last step in weeks 10,12
+     calves: 6 6 6 6 6 6 6 6 6 7 7 7
+     hips: 10 10 11 11 11 12 12 13 13 13 13 14
+
+## pickleball sample: calves 6 -> 7, hips 10 -> 12, 2 constant sets
+  P prototype default (last, shape, land, late, flat, hold)
+     total 18 18 18 19 19 19 19 20 20 20 20 21 | flat 8, late flat 3, largest rise 5.6 %, last step in weeks 8,12
+  A judge 2 (last, flat, hold, late, land, shape)
+     total 18 18 18 19 19 19 19 19 19 20 20 21 | flat 8, late flat 2, largest rise 5.6 %, last step in weeks 12,10
+  B spec default (last, flat, hold, late, shape, land)
+     total 18 18 18 19 19 19 19 19 19 20 20 21 | flat 8, late flat 2, largest rise 5.6 %, last step in weeks 12,10
+  B spec default (last, flat, hold, late, shape, land) + final set late
+     total 18 18 18 19 19 19 19 19 19 20 20 21 | flat 8, late flat 2, largest rise 5.6 %, last step in weeks 10,12
+     calves: 6 6 6 6 6 6 6 6 6 7 7 7
+     hips: 10 10 10 11 11 11 11 11 11 11 11 12
+
+## swimmer sample: back 10 -> 15, hips 10 -> 12, 2 constant sets
+  P prototype default (last, shape, land, late, flat, hold)
+     total 22 22 23 23 24 24 25 26 26 27 28 29 | flat 4, late flat 1, largest rise 4.5 %, last step in weeks 12,11
+  A judge 2 (last, flat, hold, late, land, shape)
+     total 22 22 23 23 24 24 25 25 26 27 28 29 | flat 4, late flat 0, largest rise 4.5 %, last step in weeks 12,11
+  B spec default (last, flat, hold, late, shape, land)
+     total 22 22 23 23 24 24 25 25 26 27 28 29 | flat 4, late flat 0, largest rise 4.5 %, last step in weeks 12,11
+  B spec default (last, flat, hold, late, shape, land) + final set late
+     total 22 22 23 23 24 24 25 25 26 27 28 29 | flat 4, late flat 0, largest rise 4.5 %, last step in weeks 12,11
+     back: 10 10 11 11 11 11 12 12 13 14 14 15
+     hips: 10 10 10 10 11 11 11 11 11 11 12 12
+
+## L1 full body: eight groups 10 -> 14, calves 12 -> 14
+  P prototype default (last, shape, land, late, flat, hold)
+     total 92 94 96 98 100 102 106 110 113 117 122 126 | flat 0, late flat 0, largest rise 4.3 %, last step in weeks 12,12,12,12,11,11,11,11,11
+  A judge 2 (last, flat, hold, late, land, shape)
+     total 92 94 96 98 100 102 106 110 113 117 118 126 | flat 0, late flat 0, largest rise 6.8 %, last step in weeks 12,12,12,12,12,12,12,12,10
+  B spec default (last, flat, hold, late, shape, land)
+     total 92 94 96 98 100 102 106 110 113 117 122 126 | flat 0, late flat 0, largest rise 4.3 %, last step in weeks 12,12,12,12,11,11,11,11,11
+  B spec default (last, flat, hold, late, shape, land) + final set late
+     total 92 94 96 98 100 102 106 110 113 117 122 126 | flat 0, late flat 0, largest rise 4.3 %, last step in weeks 12,12,12,12,11,11,11,11,11
+
+## L2 full plan: five big 15 -> 22, three small 12 -> 18, calves 12 -> 16
+  P prototype default (last, shape, land, late, flat, hold)
+     total 123 126 129 133 136 140 146 152 159 165 173 180 | flat 0, late flat 0, largest rise 4.8 %, last step in weeks 12,12,11,12,12,12,12,11,12
+  A judge 2 (last, flat, hold, late, land, shape)
+     total 123 126 129 133 136 140 146 152 159 165 171 180 | flat 0, late flat 0, largest rise 5.3 %, last step in weeks 12,12,12,12,12,12,12,12,12
+  B spec default (last, flat, hold, late, shape, land)
+     total 123 126 129 133 136 140 146 152 159 165 173 180 | flat 0, late flat 0, largest rise 4.8 %, last step in weeks 12,12,11,12,12,12,12,11,12
+  B spec default (last, flat, hold, late, shape, land) + final set late
+     total 123 126 129 133 136 140 146 152 159 165 173 180 | flat 0, late flat 0, largest rise 4.8 %, last step in weeks 12,12,12,12,12,12,12,11,11
+
+## random tables: 4000 drawn; groups {"1":508,"2":526,"3":457,"4":491,"5":529,"6":495,"7":506,"8":488}; weeks {"6":1015,"8":991,"12":980,"16":1014}
+greedy existence test against the dynamic program (rules 7 and 10): 0 verdicts differ in 8000; no schedule under 7 %: 109; none under 10 %: 15
+tables where NO order reaches the arithmetic minimum of flat weeks (the weekly cap forbids it): 0
+| order | plans | flat weeks at the arithmetic minimum | plans with a flat week in the last third | back-to-back flat weeks | plans with a group (climb >= 3) at its peak before week N-1 | such groups | sum of (N - last step week) | total distance to the planned curve | largest weekly rise | week N-1 rise <= a third of week N rise | certificate failures |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| P | 3891 | 3356 | 545 | 1897 | 163 | 172 | 8649 | 26923 | 16.7 % | 52 | 0 |
+| P+late | 3891 | 3356 | 545 | 1897 | 70 | 70 | 5057 | 26923 | 16.7 % | 52 | 0 |
+| A | 3891 | 3891 | 485 | 1653 | 94 | 94 | 3610 | 34051 | 16.7 % | 1035 | 0 |
+| A+late | 3891 | 3891 | 485 | 1653 | 54 | 54 | 1984 | 34051 | 16.7 % | 1035 | 0 |
+| B | 3891 | 3891 | 485 | 1653 | 205 | 214 | 9255 | 30551 | 16.7 % | 50 | 0 |
+| B+late | 3891 | 3891 | 485 | 1653 | 88 | 88 | 5137 | 30551 | 16.7 % | 50 | 0 |

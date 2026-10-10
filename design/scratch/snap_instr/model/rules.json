@@ -1,0 +1,9387 @@
+{
+ "schema": "rules/2",
+ "rules_version": "1.3.0",
+ "locked": [
+  {
+   "id": "LK01",
+   "key": "locked.no_failure_heavy_compounds",
+   "refs": [
+    "GEN-08",
+    "VOL-13"
+   ]
+  },
+  {
+   "id": "LK02",
+   "key": "locked.no_v_squat",
+   "refs": [
+    "GEN-08"
+   ]
+  },
+  {
+   "id": "LK03",
+   "key": "locked.power_before_strength",
+   "refs": [
+    "GEN-08",
+    "ORD-03"
+   ]
+  },
+  {
+   "id": "LK04",
+   "key": "locked.horizontal_before_vertical",
+   "refs": [
+    "GEN-08",
+    "ORD-01"
+   ]
+  },
+  {
+   "id": "LK05",
+   "key": "locked.core_never_skipped",
+   "refs": [
+    "GEN-08",
+    "ATH-11"
+   ]
+  },
+  {
+   "id": "LK06",
+   "key": "locked.no_variable_resistance",
+   "refs": [
+    "EQ-01",
+    "EQ-12"
+   ]
+  },
+  {
+   "id": "LK07",
+   "key": "locked.athletic_never_counts",
+   "refs": [
+    "VOL-10",
+    "R2-VOL-05"
+   ]
+  },
+  {
+   "id": "LK08",
+   "key": "locked.weekly_rise_below_10pct",
+   "refs": [
+    "UNI-05",
+    "R2-VOL-01"
+   ]
+  },
+  {
+   "id": "LK09",
+   "key": "locked.older_injured_never_list",
+   "refs": [
+    "EQ-03",
+    "R2-ATH-08"
+   ]
+  },
+  {
+   "id": "LK10",
+   "key": "locked.no_sex_rules",
+   "refs": [
+    "ATH-09",
+    "GEN-02"
+   ]
+  },
+  {
+   "id": "LK11",
+   "key": "locked.two_spine_days",
+   "refs": [
+    "PER-04",
+    "EQ-11",
+    "R2-SES-01",
+    "R2-SES-02"
+   ]
+  },
+  {
+   "id": "LK12",
+   "key": "locked.medball_max_20lb",
+   "refs": [
+    "EQ-06"
+   ]
+  },
+  {
+   "id": "LK13",
+   "key": "locked.no_deload_inside_block",
+   "refs": [
+    "R2-VOL-07"
+   ]
+  },
+  {
+   "id": "LK14",
+   "key": "locked.no_max_test_from_zero",
+   "refs": [
+    "R2-PER-07"
+   ]
+  },
+  {
+   "id": "LK15",
+   "key": "locked.older_power_opt_in",
+   "refs": [
+    "R2-ATH-08"
+   ]
+  },
+  {
+   "id": "LK16",
+   "key": "locked.no_lifestyle_inputs",
+   "refs": [
+    "R2-GEN-04"
+   ]
+  },
+  {
+   "id": "LK17",
+   "key": "locked.release_every_build",
+   "refs": [
+    "R2-GEN-03"
+   ]
+  },
+  {
+   "id": "LK18",
+   "key": "locked.no_checkin_no_change",
+   "refs": [
+    "R2-VOL-03",
+    "R3-VOL-02",
+    "R3-VOL-04"
+   ]
+  }
+ ],
+ "muscles": {
+  "order": [
+   "quads",
+   "hamstrings",
+   "glutes",
+   "chest",
+   "lats_upper_back",
+   "side_delts",
+   "rear_delts",
+   "biceps",
+   "triceps",
+   "calves",
+   "abs_obliques",
+   "forearms",
+   "front_delts",
+   "traps",
+   "adductors",
+   "neck"
+  ],
+  "defs": {
+   "quads": {
+    "class": "big",
+    "region": "lower",
+    "fill": "target",
+    "target": true,
+    "group": "quads"
+   },
+   "hamstrings": {
+    "class": "big",
+    "region": "lower",
+    "fill": "target",
+    "target": true,
+    "group": "hips"
+   },
+   "glutes": {
+    "class": "big",
+    "region": "lower",
+    "fill": "target",
+    "target": true,
+    "group": "hips"
+   },
+   "chest": {
+    "class": "big",
+    "region": "upper",
+    "fill": "target",
+    "target": true,
+    "group": "chest"
+   },
+   "lats_upper_back": {
+    "class": "big",
+    "region": "upper",
+    "fill": "target",
+    "target": true,
+    "group": "back"
+   },
+   "side_delts": {
+    "class": "small",
+    "region": "upper",
+    "fill": "line",
+    "target": false,
+    "group": "shoulders",
+    "line": "shoulders"
+   },
+   "rear_delts": {
+    "class": "small",
+    "region": "upper",
+    "fill": "line",
+    "target": false,
+    "group": "shoulders",
+    "line": "shoulders"
+   },
+   "biceps": {
+    "class": "small",
+    "region": "upper",
+    "fill": "target",
+    "target": true,
+    "group": "biceps"
+   },
+   "triceps": {
+    "class": "small",
+    "region": "upper",
+    "fill": "target",
+    "target": true,
+    "group": "triceps"
+   },
+   "calves": {
+    "class": "small",
+    "region": "lower",
+    "fill": "target",
+    "target": true,
+    "group": "calves",
+    "per_leg_day": true
+   },
+   "abs_obliques": {
+    "class": "small",
+    "region": "core",
+    "fill": "core_block",
+    "target": false,
+    "group": "core"
+   },
+   "forearms": {
+    "class": "small",
+    "region": "upper",
+    "fill": "floor",
+    "target": false,
+    "group": null
+   },
+   "front_delts": {
+    "class": "unplaced",
+    "region": "upper",
+    "fill": "floor",
+    "target": false,
+    "group": "shoulders",
+    "line": "shoulders"
+   },
+   "traps": {
+    "class": "unplaced",
+    "region": "upper",
+    "fill": "floor",
+    "target": false,
+    "group": "shoulders"
+   },
+   "adductors": {
+    "class": "unplaced",
+    "region": "lower",
+    "fill": "floor",
+    "target": false,
+    "group": null
+   },
+   "neck": {
+    "class": "unplaced",
+    "region": "upper",
+    "fill": "floor",
+    "target": false,
+    "group": null
+   }
+  },
+  "groups": {
+   "order": [
+    "quads",
+    "hips",
+    "back",
+    "chest",
+    "shoulders",
+    "biceps",
+    "triceps",
+    "calves",
+    "core"
+   ],
+   "members": {
+    "quads": [
+     "quads"
+    ],
+    "hips": [
+     "glutes",
+     "hamstrings"
+    ],
+    "back": [
+     "lats_upper_back"
+    ],
+    "chest": [
+     "chest"
+    ],
+    "shoulders": [
+     "side_delts",
+     "rear_delts",
+     "front_delts",
+     "traps"
+    ],
+    "biceps": [
+     "biceps"
+    ],
+    "triceps": [
+     "triceps"
+    ],
+    "calves": [
+     "calves"
+    ],
+    "core": [
+     "abs_obliques"
+    ]
+   },
+   "refs": [
+    "R2-SES-05"
+   ],
+   "r3_status": "approved (R3-SES-01): hips = glutes + hamstrings, shoulders = front + side + rear delts"
+  },
+  "refs": [
+   "CAT-02",
+   "R2-SES-05"
+  ],
+  "lines": {
+   "order": [
+    "quads",
+    "hamstrings",
+    "glutes",
+    "chest",
+    "lats_upper_back",
+    "shoulders",
+    "biceps",
+    "triceps",
+    "calves"
+   ],
+   "defs": {
+    "quads": {
+     "members": [
+      "quads"
+     ],
+     "class": "big",
+     "region": "lower",
+     "group": "quads"
+    },
+    "hamstrings": {
+     "members": [
+      "hamstrings"
+     ],
+     "class": "big",
+     "region": "lower",
+     "group": "hips"
+    },
+    "glutes": {
+     "members": [
+      "glutes"
+     ],
+     "class": "big",
+     "region": "lower",
+     "group": "hips"
+    },
+    "chest": {
+     "members": [
+      "chest"
+     ],
+     "class": "big",
+     "region": "upper",
+     "group": "chest"
+    },
+    "lats_upper_back": {
+     "members": [
+      "lats_upper_back"
+     ],
+     "class": "big",
+     "region": "upper",
+     "group": "back"
+    },
+    "shoulders": {
+     "members": [
+      "side_delts",
+      "rear_delts",
+      "front_delts"
+     ],
+     "class": "small",
+     "region": "upper",
+     "group": "shoulders",
+     "focus_muscle": "side_delts",
+     "iso_variant": "side"
+    },
+    "biceps": {
+     "members": [
+      "biceps"
+     ],
+     "class": "small",
+     "region": "upper",
+     "group": "biceps"
+    },
+    "triceps": {
+     "members": [
+      "triceps"
+     ],
+     "class": "small",
+     "region": "upper",
+     "group": "triceps"
+    },
+    "calves": {
+     "members": [
+      "calves"
+     ],
+     "class": "small",
+     "region": "lower",
+     "group": "calves",
+     "per_leg_day": true
+    }
+   },
+   "credit": "min(1, sum of member credits)",
+   "refs": [
+    "R3-VOL-01",
+    "R3-SES-01",
+    "VOL-09"
+   ],
+   "status": "one shoulders line approved (R3-VOL-01); group credit PROPOSED (12 v1.2 §3.3)"
+  }
+ },
+ "credit": {
+  "helper": 0.25,
+  "unilateral_set": 1,
+  "myo_set_value": 2,
+  "athletic_slot_zero": true,
+  "athletic_slot_buckets": [
+   "SKILL",
+   "AP_PLYO",
+   "AP_JUMP_LIMITED_KNEE",
+   "AP_SPRINT",
+   "AP_THROW",
+   "AP_COD",
+   "AP_TRIPLE_EXT",
+   "COND_AEROBIC",
+   "COND_SPRINT_BUYOUT",
+   "COND_CIRCUIT",
+   "COND_WOD",
+   "WARMUP_GENERAL",
+   "WARMUP_PREP",
+   "FUNCTIONAL"
+  ],
+  "classes": {
+   "BKD": {
+    "quads": 1,
+    "glutes": 0.25,
+    "adductors": 0.25
+   },
+   "UKD": {
+    "quads": 1,
+    "glutes": 0.25,
+    "adductors": 0.25
+   },
+   "BHD": {
+    "hamstrings": 1,
+    "glutes": 0.25
+   },
+   "UHD": {
+    "hamstrings": 1,
+    "glutes": 0.25
+   },
+   "GLUTE_ISO": {
+    "glutes": 1,
+    "hamstrings": 0.25
+   },
+   "LEG_FLEXION": {
+    "hamstrings": 1
+   },
+   "LEG_EXTENSION": {
+    "quads": 1
+   },
+   "HPUSH": {
+    "chest": 1,
+    "triceps": 0.25,
+    "front_delts": 0.25
+   },
+   "VPUSH": {
+    "front_delts": 1,
+    "side_delts": 0.25,
+    "triceps": 0.25
+   },
+   "DIPS": {
+    "triceps": 0.5,
+    "chest": 0.5
+   },
+   "THRUSTER": {
+    "quads": 1,
+    "front_delts": 0.5,
+    "glutes": 0.25
+   },
+   "HPULL": {
+    "lats_upper_back": 1,
+    "biceps": 0.25,
+    "rear_delts": 0.25
+   },
+   "VPULL": {
+    "lats_upper_back": 1,
+    "biceps": 0.25
+   },
+   "PULLOVER": {
+    "lats_upper_back": 1
+   },
+   "ISO_CHEST": {
+    "chest": 1
+   },
+   "ISO_SIDE": {
+    "side_delts": 1
+   },
+   "ISO_REAR": {
+    "rear_delts": 1
+   },
+   "FACEPULL": {
+    "rear_delts": 1,
+    "side_delts": 0.25
+   },
+   "ISO_FRONT": {
+    "front_delts": 1
+   },
+   "ISO_BICEPS": {
+    "biceps": 1,
+    "forearms": 0.25
+   },
+   "ISO_TRICEPS": {
+    "triceps": 1
+   },
+   "ISO_CALF": {
+    "calves": 1
+   },
+   "ISO_NECK": {
+    "neck": 1
+   },
+   "CORE": {
+    "abs_obliques": 1
+   },
+   "ATHLETIC": {},
+   "NONE": {}
+  },
+  "never_credit_tags": [
+   "kb_swing",
+   "wall_ball"
+  ],
+  "exceptions": {
+   "DIPS": "R2-VOL-05 / LIB-16: 0.5 triceps + 0.5 chest",
+   "THRUSTER": "R2-VOL-05: 1.0 quads + 0.5 shoulders + 0.25 glutes",
+   "FACEPULL": "R2-LIB-04, LIB-10 (split PROPOSED)"
+  },
+  "refs": [
+   "VOL-09",
+   "VOL-10",
+   "UNI-01",
+   "LIB-14",
+   "LIB-16",
+   "R2-VOL-05",
+   "R2-LIB-04"
+  ]
+ },
+ "levels": {
+  "client": {
+   "L1_below_years": 1,
+   "L3_min_years": 3,
+   "L3_min_days": 4,
+   "L3_competitive_physique_strength": true,
+   "layoff_months_body_L1": 6,
+   "former_competitor_first_block_L1": true,
+   "refs": [
+    "PRG-05"
+   ],
+   "status": "L3 PROPOSED"
+  },
+  "exercise_ladder": {
+   "L1": "foundational",
+   "L2": "intermediate",
+   "L3": "advanced"
+  },
+  "ladder_order": [
+   "foundational",
+   "intermediate",
+   "advanced"
+  ],
+  "youth_max_ladder": "intermediate",
+  "older_age": 60,
+  "active_aging_age": 50,
+  "youth_age": 18,
+  "over_ladder_penalty": 1.5,
+  "pro_setting": {
+   "enabled_by_default": false,
+   "min_level": "L3",
+   "muscles_max": 1,
+   "cap_max": 35,
+   "refs": [
+    "R2-VOL-06"
+   ],
+   "status": "PROPOSED",
+   "requires": "coach_rule_pack (Phase 1)"
+  },
+  "refs": [
+   "CAT-04",
+   "CAT-05",
+   "CAT-06",
+   "PRG-05",
+   "R2-ATH-08"
+  ]
+ },
+ "volume": {
+  "start": {
+   "quads": {
+    "L1": 10,
+    "L2": 15,
+    "L3": 20
+   },
+   "hamstrings": {
+    "L1": 10,
+    "L2": 15,
+    "L3": 20
+   },
+   "glutes": {
+    "L1": 10,
+    "L2": 15,
+    "L3": 20
+   },
+   "chest": {
+    "L1": 10,
+    "L2": 15,
+    "L3": 20
+   },
+   "lats_upper_back": {
+    "L1": 10,
+    "L2": 15,
+    "L3": 20
+   },
+   "biceps": {
+    "L1": 10,
+    "L2": 12,
+    "L3": 15
+   },
+   "triceps": {
+    "L1": 10,
+    "L2": 12,
+    "L3": 15
+   },
+   "shoulders": {
+    "L1": 10,
+    "L2": 12,
+    "L3": 15
+   }
+  },
+  "start_refs": [
+   "VOL-01",
+   "R2-VOL-04",
+   "R2-VOL-06"
+  ],
+  "cap": {
+   "quads": {
+    "L1": 14,
+    "L2": 22,
+    "L3": 25
+   },
+   "hamstrings": {
+    "L1": 14,
+    "L2": 22,
+    "L3": 25
+   },
+   "glutes": {
+    "L1": 14,
+    "L2": 22,
+    "L3": 25
+   },
+   "chest": {
+    "L1": 14,
+    "L2": 22,
+    "L3": 25
+   },
+   "lats_upper_back": {
+    "L1": 14,
+    "L2": 22,
+    "L3": 25
+   },
+   "biceps": {
+    "L1": 14,
+    "L2": 22,
+    "L3": 25
+   },
+   "triceps": {
+    "L1": 14,
+    "L2": 22,
+    "L3": 25
+   },
+   "calves": {
+    "L1": 14,
+    "L2": 22,
+    "L3": 25
+   },
+   "abs_obliques": {
+    "L1": 16,
+    "L2": 20,
+    "L3": 20
+   },
+   "shoulders": {
+    "L1": 14,
+    "L2": 22,
+    "L3": 25
+   }
+  },
+  "cap_refs": [
+   "R2-VOL-06"
+  ],
+  "cap_scales_with_modifier": true,
+  "cap_rule": "cap = max(round_half_up(cap[m][L] x factor), start + round_half_up((cap[m][L] - start[m][L]) x factor)); priority caps and own-sets caps unscaled; never above priority.absolute_cap (Pro setting excepted); finally cap >= start",
+  "cap_keeps_growth_room": true,
+  "calves": {
+   "per_leg_day": {
+    "L1": 3,
+    "L2": 3,
+    "L3": 3
+   },
+   "per_leg_day_max_L3": 4,
+   "weekly_floor": 10,
+   "second_station_sets": 1,
+   "refs": [
+    "VOL-17",
+    "R2-VOL-06"
+   ],
+   "status": "weekly floor PROPOSED",
+   "second_station": "cut_first",
+   "athlete_cap_modifiers": [
+    "field_off",
+    "strength_athlete_off",
+    "stay_active",
+    "athlete_in"
+   ],
+   "athlete_climb": 2,
+   "optional_slot_below_leg_days": 4,
+   "f1_refs": [
+    "R3-SES-01",
+    "BRAIN V13",
+    "OBSERVED BYOP ATHLETIC"
+   ],
+   "f1_status": "PROPOSED (F1, E-88): athletes climb their calves 2 sets over 3 a leg day; the optional-day Calves slot only below 4 main leg days"
+  },
+  "core_block": {
+   "exercises": 2,
+   "sets": 2,
+   "refs": [
+    "VOL-17",
+    "ATH-11",
+    "R2-SES-03"
+   ]
+  },
+  "floor": {
+   "value": 10,
+   "applies_to": "target_muscles_in_training_blocks",
+   "exempt": [
+    "block_types:pre_season,in_season,maintenance,taper,recovery",
+    "pain_reduced",
+    "credit_only",
+    "not_trained_directly_time"
+   ],
+   "schedule_shortfall": "warn",
+   "refs": [
+    "R2-VOL-06",
+    "R3-VOL-01",
+    "R3-SES-01"
+   ],
+   "counted_on": "main_days",
+   "on": "groups",
+   "group_credit": true,
+   "carriers": {
+    "quads": [
+     "quads"
+    ],
+    "hips": [
+     "hamstrings",
+     "glutes"
+    ],
+    "back": [
+     "lats_upper_back"
+    ],
+    "chest": [
+     "chest"
+    ],
+    "shoulders": [
+     "shoulders"
+    ],
+    "biceps": [
+     "biceps"
+    ],
+    "triceps": [
+     "triceps"
+    ],
+    "calves": [
+     "calves"
+    ]
+   },
+   "calves_rule": "per_leg_day",
+   "r3_status": "R3-VOL-01 / R3-SES-01 applied: floor on groups"
+  },
+  "priority": {
+   "max_muscles": 2,
+   "add": {
+    "L1": 2,
+    "L2": 2,
+    "L3": 2
+   },
+   "cap": {
+    "default": {
+     "L1": 18,
+     "L2": 26,
+     "L3": 30
+    },
+    "chest": {
+     "L1": 18,
+     "L2": 28,
+     "L3": 30
+    }
+   },
+   "absolute_cap": 30,
+   "nonpriority_step_cap": 0.03,
+   "per_session_cap": 14,
+   "first_in_session": true,
+   "intake_map": {
+    "quads": [
+     "quads"
+    ],
+    "glutes": [
+     "glutes"
+    ],
+    "hamstrings": [
+     "hamstrings"
+    ],
+    "back": [
+     "lats_upper_back"
+    ],
+    "chest": [
+     "chest"
+    ],
+    "shoulders": [
+     "shoulders"
+    ],
+    "biceps": [
+     "biceps"
+    ],
+    "triceps": [
+     "triceps"
+    ],
+    "calves": [
+     "calves"
+    ],
+    "core": [],
+    "v_taper": [
+     "shoulders",
+     "lats_upper_back"
+    ],
+    "side_delts": [
+     "shoulders"
+    ],
+    "rear_delts": [
+     "shoulders"
+    ]
+   },
+   "refs": [
+    "VOL-02",
+    "VOL-18",
+    "ORD-04",
+    "ORD-11",
+    "R2-VOL-06"
+   ],
+   "status": "v1.3: Focus muscle 1 / 2 (R3-SES-01) +2 sets on start and ceiling; the v1 +4 / +4 / +6 and the 3 % cap on the others retire",
+   "v_taper_hold_retired": "R3-SES-01 / R3-SES-02: the other lines stay balanced and climb"
+  },
+  "per_session": {
+   "soft": 11,
+   "priority": 14
+  },
+  "rounding": "half_up",
+  "order_of_operations": [
+   "base",
+   "modifier",
+   "round_half_up",
+   "priority_add",
+   "floor_10",
+   "pain_factor",
+   "profile_ratios",
+   "phase_factor(maintenance|pre_season|in_season)",
+   "cycles",
+   "cap_at_least_start"
+  ],
+  "modifiers": {
+   "aesthetics": {
+    "lower": 1,
+    "upper": 1,
+    "small": 1,
+    "refs": [
+     "VOL-01",
+     "UNI-06"
+    ]
+   },
+   "strength": {
+    "lower": 1,
+    "upper": 1,
+    "small": 0.75,
+    "refs": [
+     "VOL-12"
+    ]
+   },
+   "general": {
+    "lower": 0.8,
+    "upper": 0.8,
+    "small": 0.8,
+    "refs": [
+     "UNI-09",
+     "UNI-06",
+     "ATH-13"
+    ]
+   },
+   "fat_loss": {
+    "lower": 0.8,
+    "upper": 0.8,
+    "small": 0.8,
+    "refs": [
+     "ATH-07"
+    ]
+   },
+   "stay_active": {
+    "lower": 0.8,
+    "upper": 0.8,
+    "small": 0.8,
+    "credit_only": [],
+    "refs": [
+     "ATH-13",
+     "R2-VOL-06",
+     "R2-VOL-04"
+    ],
+    "status": "D-07 retired (v1.2 review): small muscles 0.8 x start then floor 10",
+    "r3": "R3-VOL-01"
+   },
+   "field_off": {
+    "lower": 0.7,
+    "upper": 0.5,
+    "small": 0.6,
+    "credit_only": [
+     "biceps",
+     "triceps"
+    ],
+    "refs": [
+     "VOL-08",
+     "VOL-17",
+     "UNI-02",
+     "R2-VOL-06"
+    ],
+    "status": "D-03 narrowed (v1.2 review): glutes + side delts floored for athletes",
+    "r3": "R3-VOL-01"
+   },
+   "strength_athlete_off": {
+    "lower": 0.9,
+    "upper": 0.8,
+    "small": 0.6,
+    "refs": [
+     "ATH-03"
+    ]
+   },
+   "athlete_in": {
+    "lower": 0.45,
+    "upper": 0.35,
+    "small": "credit",
+    "refs": [
+     "PER-08",
+     "UNI-10"
+    ],
+    "credit_only": [
+     "glutes",
+     "side_delts",
+     "biceps",
+     "triceps"
+    ]
+   }
+  },
+  "modifier_select": [
+   {
+    "when": {
+     "family": [
+      "athletic",
+      "hybrid_crossfit"
+     ],
+     "competitive": [
+      "competitive"
+     ],
+     "ath03_group": [
+      "resistance"
+     ]
+    },
+    "use": "strength_athlete_off"
+   },
+   {
+    "when": {
+     "family": [
+      "athletic"
+     ],
+     "competitive": [
+      "competitive"
+     ],
+     "ath03_group": [
+      "combat"
+     ],
+     "body_weight_lb_gte": 200
+    },
+    "use": "strength_athlete_off"
+   },
+   {
+    "when": {
+     "family": [
+      "athletic",
+      "hybrid_crossfit"
+     ],
+     "competitive": [
+      "competitive"
+     ]
+    },
+    "use": "field_off"
+   },
+   {
+    "when": {
+     "family": [
+      "athletic",
+      "hybrid_crossfit"
+     ]
+    },
+    "use": "stay_active"
+   },
+   {
+    "when": {
+     "goal": [
+      "muscle"
+     ]
+    },
+    "use": "aesthetics"
+   },
+   {
+    "when": {
+     "goal": [
+      "strength"
+     ]
+    },
+    "use": "strength"
+   },
+   {
+    "when": {
+     "goal": [
+      "fat_loss"
+     ]
+    },
+    "use": "fat_loss"
+   },
+   {
+    "when": {},
+    "use": "general"
+   }
+  ],
+  "phase_factors": {
+   "pre_season": {
+    "of": "last_offseason_week_sets",
+    "factor": 0.6,
+    "floor": false,
+    "step": 0,
+    "refs": [
+     "R2-PER-06"
+    ]
+   },
+   "in_season": {
+    "modifier": "athlete_in",
+    "step": 0,
+    "floor": false,
+    "refs": [
+     "PER-08",
+     "UNI-10",
+     "R2-ATH-07"
+    ]
+   },
+   "taper": {
+    "of": "pre_season_sets",
+    "factor": 0.5,
+    "refs": [
+     "R2-PER-06"
+    ],
+    "status": "factor inside the approved -40-60 %"
+   },
+   "maintenance": {
+    "refs": [
+     "PER-01",
+     "R2-PER-06"
+    ],
+    "see": "plan_types.maintenance_4_6"
+   }
+  },
+  "striker": {
+   "factor": 0.6,
+   "range": [
+    0.5,
+    0.7
+   ],
+   "applies_to_buckets": [
+    "RP_HPUSH",
+    "RP_VPUSH",
+    "RP_VPULL",
+    "ISO_BICEP",
+    "ISO_TRICEP"
+   ],
+   "when_season_phase": [
+    "PRE",
+    "IN"
+   ],
+   "when_plan_mode": [
+    "prep"
+   ],
+   "profiles": [
+    "boxing",
+    "kickboxing_muay_thai",
+    "karate_taekwondo",
+    "taekwondo",
+    "mma"
+   ],
+   "never_zero": true,
+   "refs": [
+    "ATH-04"
+   ],
+   "status": "factor PROPOSED; off-season build not reduced (INFERRED)"
+  },
+  "pitcher": {
+   "vpush_factor": 0.5,
+   "rear_delt_add": 2,
+   "variants": [
+    "baseball_pitcher",
+    "softball_pitcher"
+   ],
+   "refs": [
+    "ATH-08"
+   ]
+  },
+  "older": {
+   "step_cap": 0.03,
+   "maintenance_floor": 0.7,
+   "constraint_band": [
+    4,
+    5
+   ],
+   "refs": [
+    "EQ-03",
+    "R2-ATH-08"
+   ],
+   "status": "step cap PROPOSED"
+  },
+  "pain": {
+   "start_factor": 0.6,
+   "start_factor_range": [
+    0.5,
+    0.7
+   ],
+   "freeze_weeks": 2,
+   "after_freeze_step_cap": 0.03,
+   "share_shift": 0.2,
+   "constraint_bias": [
+    4,
+    5
+   ],
+   "refer_if_severity": [
+    "severe"
+   ],
+   "areas": {
+    "neck": {
+     "muscles": [],
+     "avoid_tags": [
+      "overhead_barbell",
+      "bent_over"
+     ],
+     "prefer_tags": [
+      "machine",
+      "chest_supported"
+     ]
+    },
+    "shoulder": {
+     "muscles": [
+      "chest",
+      "side_delts",
+      "front_delts"
+     ],
+     "avoid_tags": [
+      "overhead_barbell",
+      "dips",
+      "upright_row",
+      "fixed_grip"
+     ],
+     "prefer_tags": [
+      "split_grip",
+      "machine"
+     ]
+    },
+    "elbow": {
+     "muscles": [
+      "biceps",
+      "triceps"
+     ],
+     "avoid_tags": [
+      "skullcrusher",
+      "fixed_grip",
+      "dips"
+     ],
+     "prefer_tags": [
+      "cable",
+      "split_grip"
+     ]
+    },
+    "wrist_hand": {
+     "muscles": [],
+     "avoid_tags": [
+      "fixed_grip",
+      "front_rack",
+      "push_up_floor"
+     ],
+     "prefer_tags": [
+      "machine",
+      "split_grip"
+     ]
+    },
+    "upper_back": {
+     "muscles": [
+      "lats_upper_back"
+     ],
+     "avoid_tags": [
+      "bent_over"
+     ],
+     "prefer_tags": [
+      "chest_supported",
+      "machine"
+     ]
+    },
+    "lower_back": {
+     "muscles": [],
+     "max_axial_class": "low",
+     "avoid_tags": [
+      "good_morning",
+      "bent_over",
+      "axial_high",
+      "spine_counted"
+     ],
+     "prefer_tags": [
+      "machine",
+      "chest_supported",
+      "glute_iso",
+      "belt_squat"
+     ],
+     "share_shift_to": "unilateral"
+    },
+    "hip_groin": {
+     "muscles": [
+      "adductors"
+     ],
+     "avoid_tags": [
+      "cossack",
+      "sumo",
+      "deep_knee_flexion"
+     ],
+     "prefer_tags": [
+      "machine"
+     ],
+     "share_shift_to": "bilateral"
+    },
+    "knee": {
+     "muscles": [
+      "quads"
+     ],
+     "avoid_tags": [
+      "deep_knee_flexion",
+      "depth_jump",
+      "high_impact",
+      "hurdle_hop",
+      "bound"
+     ],
+     "prefer_tags": [
+      "machine",
+      "axial_unload"
+     ],
+     "share_shift_to": "unilateral"
+    },
+    "ankle_foot": {
+     "muscles": [
+      "calves"
+     ],
+     "avoid_tags": [
+      "high_impact",
+      "plyo_repeated"
+     ],
+     "prefer_tags": [
+      "machine"
+     ]
+    },
+    "other": {
+     "muscles": [],
+     "avoid_tags": [],
+     "prefer_tags": []
+    }
+   },
+   "worse_with": {
+    "overhead": {
+     "avoid_tags": [
+      "overhead"
+     ]
+    },
+    "deep_knee_bend": {
+     "avoid_tags": [
+      "deep_knee_flexion"
+     ]
+    },
+    "impact": {
+     "avoid_tags": [
+      "high_impact",
+      "plyo_repeated"
+     ]
+    },
+    "twisting": {
+     "avoid_planes_in_core_and_throws": [
+      "transverse"
+     ]
+    },
+    "bending_forward": {
+     "avoid_tags": [
+      "bent_over",
+      "good_morning"
+     ],
+     "max_axial_class": "low"
+    },
+    "gripping": {
+     "avoid_tags": [
+      "fixed_grip"
+     ]
+    },
+    "running": {
+     "avoid_buckets": [
+      "AP_SPRINT",
+      "AP_COD",
+      "COND_SPRINT_BUYOUT"
+     ]
+    }
+   },
+   "refs": [
+    "VOL-03",
+    "UNI-02",
+    "UNI-08",
+    "EQ-03",
+    "R2-LIB-03"
+   ],
+   "status": "area map, factor 0.6, freeze handling PROPOSED",
+   "constraint_bump": 1
+  },
+  "refs": [
+   "VOL-01",
+   "VOL-02",
+   "VOL-03",
+   "R2-VOL-04",
+   "R2-VOL-05",
+   "R2-VOL-06"
+  ],
+  "focus": {
+   "max": 2,
+   "add_default": 2,
+   "add_range": [
+    1,
+    3
+   ],
+   "applies_to": [
+    "start",
+    "cap"
+   ],
+   "cap_bound": "volume.priority.cap",
+   "slow_others": false,
+   "intake_map": {
+    "quads": [
+     "quads"
+    ],
+    "glutes": [
+     "glutes"
+    ],
+    "hamstrings": [
+     "hamstrings"
+    ],
+    "back": [
+     "lats_upper_back"
+    ],
+    "chest": [
+     "chest"
+    ],
+    "shoulders": [
+     "shoulders"
+    ],
+    "biceps": [
+     "biceps"
+    ],
+    "triceps": [
+     "triceps"
+    ],
+    "calves": [
+     "calves"
+    ],
+    "core": [],
+    "v_taper": [
+     "shoulders",
+     "lats_upper_back"
+    ],
+    "side_delts": [
+     "shoulders"
+    ],
+    "rear_delts": [
+     "shoulders"
+    ]
+   },
+   "steer_muscles": {
+    "shoulders": [
+     "side_delts",
+     "rear_delts"
+    ],
+    "core": [
+     "abs_obliques"
+    ]
+   },
+   "uses_both_slots": [
+    "v_taper"
+   ],
+   "refs": [
+    "R3-SES-01",
+    "VOL-02",
+    "VOL-18"
+   ],
+   "status": "Focus 1 / 2 approved (R3-SES-01); +2 default PROPOSED"
+  },
+  "one_target_groups": {
+   "groups": [
+    "hips"
+   ],
+   "modifiers": [
+    "field_off",
+    "strength_athlete_off",
+    "stay_active",
+    "general",
+    "fat_loss",
+    "athlete_in"
+   ],
+   "unless_focus": true,
+   "refs": [
+    "R3-SES-01",
+    "R2-VOL-06"
+   ],
+   "status": "PROPOSED (F1, E-84): one target per FOCUS group outside physique / strength plans; glutes follow the hamstrings line as credit unless picked as a Focus muscle"
+  },
+  "rear_from_rows_min": 1.5,
+  "pattern_keep": {
+   "buckets": {
+    "back": "RP_HPULL",
+    "chest": "RP_HPUSH",
+    "quads": "RP_UKD",
+    "hips": "RP_UHD"
+   },
+   "order": [
+    "back",
+    "chest",
+    "quads",
+    "hips"
+   ],
+   "sets": 2,
+   "max_per_week": 3,
+   "refs": [
+    "R3-SES-02",
+    "BRAIN 10.7"
+   ],
+   "status": "PROPOSED (F1, E-94): pattern stations on the optional day for the big movers the minutes leave untrained directly",
+   "main_day_pairs": true,
+   "main_day_status": "PROPOSED (fix round 2 / F1, E-145)"
+  }
+ },
+ "stairway": {
+  "principle": "every training block climbs like a stairway: small steps to the halfway week, slightly bigger after it, the hardest weeks last; one rule for every person",
+  "standard_steps": {
+   "early": 0.03,
+   "late": 0.05
+  },
+  "halfway": "ceil(N/2)",
+  "lambda": {
+   "solve": "bisection",
+   "lo": 0,
+   "hi": 1,
+   "iterations": 60,
+   "display_round_to": 4,
+   "last_week_equals_cap_when_lambda_below_1": true
+  },
+  "by_N": {
+   "2": {
+    "halfway": 1,
+    "standard_steps": {
+     "2": 0.05
+    },
+    "growth": 1.05,
+    "display_level": {
+     "1": 2,
+     "2": 11
+    },
+    "planned_effort": {
+     "1": "3",
+     "2": "1+"
+    }
+   },
+   "3": {
+    "halfway": 2,
+    "standard_steps": {
+     "2": 0.03,
+     "3": 0.05
+    },
+    "growth": 1.0815,
+    "display_level": {
+     "1": 2,
+     "2": 5.4,
+     "3": 11
+    },
+    "planned_effort": {
+     "1": "3",
+     "2": "2",
+     "3": "1+"
+    }
+   },
+   "4": {
+    "halfway": 2,
+    "standard_steps": {
+     "2": 0.03,
+     "3": 0.05,
+     "4": 0.05
+    },
+    "growth": 1.1356,
+    "display_level": {
+     "1": 2,
+     "2": 4.1,
+     "3": 7.5,
+     "4": 11
+    },
+    "planned_effort": {
+     "1": "3",
+     "2": "3",
+     "3": "2",
+     "4": "1+"
+    }
+   },
+   "5": {
+    "halfway": 3,
+    "standard_steps": {
+     "2": 0.03,
+     "3": 0.03,
+     "4": 0.05,
+     "5": 0.05
+    },
+    "growth": 1.1696,
+    "display_level": {
+     "1": 2,
+     "2": 3.7,
+     "3": 5.4,
+     "4": 8.2,
+     "5": 11
+    },
+    "planned_effort": {
+     "1": "3",
+     "2": "3",
+     "3": "2",
+     "4": "1-2",
+     "5": "1+"
+    }
+   },
+   "6": {
+    "halfway": 3,
+    "standard_steps": {
+     "2": 0.03,
+     "3": 0.03,
+     "4": 0.05,
+     "5": 0.05,
+     "6": 0.05
+    },
+    "growth": 1.2281,
+    "display_level": {
+     "1": 2,
+     "2": 3.3,
+     "3": 4.6,
+     "4": 6.7,
+     "5": 8.9,
+     "6": 11
+    },
+    "planned_effort": {
+     "1": "3",
+     "2": "3",
+     "3": "3",
+     "4": "2",
+     "5": "1-2",
+     "6": "1+"
+    }
+   },
+   "7": {
+    "halfway": 4,
+    "standard_steps": {
+     "2": 0.03,
+     "3": 0.03,
+     "4": 0.03,
+     "5": 0.05,
+     "6": 0.05,
+     "7": 0.05
+    },
+    "growth": 1.265,
+    "display_level": {
+     "1": 2,
+     "2": 3.1,
+     "3": 4.3,
+     "4": 5.4,
+     "5": 7.3,
+     "6": 9.1,
+     "7": 11
+    },
+    "planned_effort": {
+     "1": "3",
+     "2": "3",
+     "3": "3",
+     "4": "2",
+     "5": "2",
+     "6": "1-2",
+     "7": "1+"
+    }
+   },
+   "8": {
+    "halfway": 4,
+    "standard_steps": {
+     "2": 0.03,
+     "3": 0.03,
+     "4": 0.03,
+     "5": 0.05,
+     "6": 0.05,
+     "7": 0.05,
+     "8": 0.05
+    },
+    "growth": 1.3282,
+    "display_level": {
+     "1": 2,
+     "2": 2.9,
+     "3": 3.9,
+     "4": 4.8,
+     "5": 6.3,
+     "6": 7.9,
+     "7": 9.4,
+     "8": 11
+    },
+    "planned_effort": {
+     "1": "3",
+     "2": "3",
+     "3": "3",
+     "4": "3",
+     "5": "2",
+     "6": "2",
+     "7": "1-2",
+     "8": "1+"
+    }
+   },
+   "9": {
+    "halfway": 5,
+    "standard_steps": {
+     "2": 0.03,
+     "3": 0.03,
+     "4": 0.03,
+     "5": 0.03,
+     "6": 0.05,
+     "7": 0.05,
+     "8": 0.05,
+     "9": 0.05
+    },
+    "growth": 1.3681,
+    "display_level": {
+     "1": 2,
+     "2": 2.8,
+     "3": 3.7,
+     "4": 4.5,
+     "5": 5.4,
+     "6": 6.8,
+     "7": 8.2,
+     "8": 9.6,
+     "9": 11
+    },
+    "planned_effort": {
+     "1": "3",
+     "2": "3",
+     "3": "3",
+     "4": "3",
+     "5": "2",
+     "6": "2",
+     "7": "1-2",
+     "8": "1-2",
+     "9": "1+"
+    }
+   },
+   "10": {
+    "halfway": 5,
+    "standard_steps": {
+     "2": 0.03,
+     "3": 0.03,
+     "4": 0.03,
+     "5": 0.03,
+     "6": 0.05,
+     "7": 0.05,
+     "8": 0.05,
+     "9": 0.05,
+     "10": 0.05
+    },
+    "growth": 1.4365,
+    "display_level": {
+     "1": 2,
+     "2": 2.7,
+     "3": 3.5,
+     "4": 4.2,
+     "5": 4.9,
+     "6": 6.1,
+     "7": 7.4,
+     "8": 8.6,
+     "9": 9.8,
+     "10": 11
+    },
+    "planned_effort": {
+     "1": "3",
+     "2": "3",
+     "3": "3",
+     "4": "3",
+     "5": "3",
+     "6": "2",
+     "7": "2",
+     "8": "1-2",
+     "9": "1-2",
+     "10": "1+"
+    }
+   },
+   "11": {
+    "halfway": 6,
+    "standard_steps": {
+     "2": 0.03,
+     "3": 0.03,
+     "4": 0.03,
+     "5": 0.03,
+     "6": 0.03,
+     "7": 0.05,
+     "8": 0.05,
+     "9": 0.05,
+     "10": 0.05,
+     "11": 0.05
+    },
+    "growth": 1.4796,
+    "display_level": {
+     "1": 2,
+     "2": 2.7,
+     "3": 3.4,
+     "4": 4,
+     "5": 4.7,
+     "6": 5.4,
+     "7": 6.5,
+     "8": 7.6,
+     "9": 8.8,
+     "10": 9.9,
+     "11": 11
+    },
+    "planned_effort": {
+     "1": "3",
+     "2": "3",
+     "3": "3",
+     "4": "3",
+     "5": "3",
+     "6": "2",
+     "7": "2",
+     "8": "2",
+     "9": "1-2",
+     "10": "1-2",
+     "11": "1+"
+    }
+   },
+   "12": {
+    "halfway": 6,
+    "standard_steps": {
+     "2": 0.03,
+     "3": 0.03,
+     "4": 0.03,
+     "5": 0.03,
+     "6": 0.03,
+     "7": 0.05,
+     "8": 0.05,
+     "9": 0.05,
+     "10": 0.05,
+     "11": 0.05,
+     "12": 0.05
+    },
+    "growth": 1.5535,
+    "display_level": {
+     "1": 2,
+     "2": 2.6,
+     "3": 3.2,
+     "4": 3.8,
+     "5": 4.4,
+     "6": 5,
+     "7": 6,
+     "8": 7,
+     "9": 8,
+     "10": 9,
+     "11": 10,
+     "12": 11
+    },
+    "planned_effort": {
+     "1": "3",
+     "2": "3",
+     "3": "3",
+     "4": "3",
+     "5": "3",
+     "6": "3",
+     "7": "2",
+     "8": "2",
+     "9": "2",
+     "10": "1-2",
+     "11": "1-2",
+     "12": "1+"
+    }
+   },
+   "13": {
+    "halfway": 7,
+    "standard_steps": {
+     "2": 0.03,
+     "3": 0.03,
+     "4": 0.03,
+     "5": 0.03,
+     "6": 0.03,
+     "7": 0.03,
+     "8": 0.05,
+     "9": 0.05,
+     "10": 0.05,
+     "11": 0.05,
+     "12": 0.05,
+     "13": 0.05
+    },
+    "growth": 1.6001,
+    "display_level": {
+     "1": 2,
+     "2": 2.6,
+     "3": 3.1,
+     "4": 3.7,
+     "5": 4.3,
+     "6": 4.8,
+     "7": 5.4,
+     "8": 6.3,
+     "9": 7.3,
+     "10": 8.2,
+     "11": 9.1,
+     "12": 10.1,
+     "13": 11
+    },
+    "planned_effort": {
+     "1": "3",
+     "2": "3",
+     "3": "3",
+     "4": "3",
+     "5": "3",
+     "6": "3",
+     "7": "2",
+     "8": "2",
+     "9": "2",
+     "10": "1-2",
+     "11": "1-2",
+     "12": "1-2",
+     "13": "1+"
+    }
+   },
+   "14": {
+    "halfway": 7,
+    "standard_steps": {
+     "2": 0.03,
+     "3": 0.03,
+     "4": 0.03,
+     "5": 0.03,
+     "6": 0.03,
+     "7": 0.03,
+     "8": 0.05,
+     "9": 0.05,
+     "10": 0.05,
+     "11": 0.05,
+     "12": 0.05,
+     "13": 0.05,
+     "14": 0.05
+    },
+    "growth": 1.6802,
+    "display_level": {
+     "1": 2,
+     "2": 2.5,
+     "3": 3,
+     "4": 3.5,
+     "5": 4,
+     "6": 4.5,
+     "7": 5.1,
+     "8": 5.9,
+     "9": 6.8,
+     "10": 7.6,
+     "11": 8.5,
+     "12": 9.3,
+     "13": 10.2,
+     "14": 11
+    },
+    "planned_effort": {
+     "1": "3",
+     "2": "3",
+     "3": "3",
+     "4": "3",
+     "5": "3",
+     "6": "3",
+     "7": "2",
+     "8": "2",
+     "9": "2",
+     "10": "2",
+     "11": "1-2",
+     "12": "1-2",
+     "13": "1-2",
+     "14": "1+"
+    }
+   },
+   "15": {
+    "halfway": 8,
+    "standard_steps": {
+     "2": 0.03,
+     "3": 0.03,
+     "4": 0.03,
+     "5": 0.03,
+     "6": 0.03,
+     "7": 0.03,
+     "8": 0.03,
+     "9": 0.05,
+     "10": 0.05,
+     "11": 0.05,
+     "12": 0.05,
+     "13": 0.05,
+     "14": 0.05,
+     "15": 0.05
+    },
+    "growth": 1.7306,
+    "display_level": {
+     "1": 2,
+     "2": 2.5,
+     "3": 3,
+     "4": 3.4,
+     "5": 3.9,
+     "6": 4.4,
+     "7": 4.9,
+     "8": 5.4,
+     "9": 6.2,
+     "10": 7,
+     "11": 7.8,
+     "12": 8.6,
+     "13": 9.4,
+     "14": 10.2,
+     "15": 11
+    },
+    "planned_effort": {
+     "1": "3",
+     "2": "3",
+     "3": "3",
+     "4": "3",
+     "5": "3",
+     "6": "3",
+     "7": "3",
+     "8": "2",
+     "9": "2",
+     "10": "2",
+     "11": "2",
+     "12": "1-2",
+     "13": "1-2",
+     "14": "1-2",
+     "15": "1+"
+    }
+   },
+   "16": {
+    "halfway": 8,
+    "standard_steps": {
+     "2": 0.03,
+     "3": 0.03,
+     "4": 0.03,
+     "5": 0.03,
+     "6": 0.03,
+     "7": 0.03,
+     "8": 0.03,
+     "9": 0.05,
+     "10": 0.05,
+     "11": 0.05,
+     "12": 0.05,
+     "13": 0.05,
+     "14": 0.05,
+     "15": 0.05,
+     "16": 0.05
+    },
+    "growth": 1.8171,
+    "display_level": {
+     "1": 2,
+     "2": 2.4,
+     "3": 2.9,
+     "4": 3.3,
+     "5": 3.8,
+     "6": 4.2,
+     "7": 4.7,
+     "8": 5.1,
+     "9": 5.8,
+     "10": 6.6,
+     "11": 7.3,
+     "12": 8,
+     "13": 8.8,
+     "14": 9.5,
+     "15": 10.3,
+     "16": 11
+    },
+    "planned_effort": {
+     "1": "3",
+     "2": "3",
+     "3": "3",
+     "4": "3",
+     "5": "3",
+     "6": "3",
+     "7": "3",
+     "8": "2",
+     "9": "2",
+     "10": "2",
+     "11": "2",
+     "12": "2",
+     "13": "1-2",
+     "14": "1-2",
+     "15": "1-2",
+     "16": "1+"
+    }
+   }
+  },
+  "phases_by_N": {
+   "2": {
+    "L1": {
+     "ACCLIMATION": [
+      1,
+      1
+     ],
+     "DRIVE": null,
+     "HARDEST": [
+      2,
+      2
+     ]
+    },
+    "L2": {
+     "ACCLIMATION": [
+      1,
+      1
+     ],
+     "DRIVE": null,
+     "HARDEST": [
+      2,
+      2
+     ]
+    },
+    "L3": {
+     "ACCLIMATION": [
+      1,
+      1
+     ],
+     "DRIVE": null,
+     "HARDEST": [
+      2,
+      2
+     ]
+    }
+   },
+   "3": {
+    "L1": {
+     "ACCLIMATION": [
+      1,
+      2
+     ],
+     "DRIVE": null,
+     "HARDEST": [
+      3,
+      3
+     ]
+    },
+    "L2": {
+     "ACCLIMATION": [
+      1,
+      1
+     ],
+     "DRIVE": [
+      2,
+      2
+     ],
+     "HARDEST": [
+      3,
+      3
+     ]
+    },
+    "L3": {
+     "ACCLIMATION": [
+      1,
+      1
+     ],
+     "DRIVE": [
+      2,
+      2
+     ],
+     "HARDEST": [
+      3,
+      3
+     ]
+    }
+   },
+   "4": {
+    "L1": {
+     "ACCLIMATION": [
+      1,
+      2
+     ],
+     "DRIVE": null,
+     "HARDEST": [
+      3,
+      4
+     ]
+    },
+    "L2": {
+     "ACCLIMATION": [
+      1,
+      1
+     ],
+     "DRIVE": [
+      2,
+      2
+     ],
+     "HARDEST": [
+      3,
+      4
+     ]
+    },
+    "L3": {
+     "ACCLIMATION": [
+      1,
+      1
+     ],
+     "DRIVE": [
+      2,
+      2
+     ],
+     "HARDEST": [
+      3,
+      4
+     ]
+    }
+   },
+   "5": {
+    "L1": {
+     "ACCLIMATION": [
+      1,
+      2
+     ],
+     "DRIVE": [
+      3,
+      3
+     ],
+     "HARDEST": [
+      4,
+      5
+     ]
+    },
+    "L2": {
+     "ACCLIMATION": [
+      1,
+      1
+     ],
+     "DRIVE": [
+      2,
+      3
+     ],
+     "HARDEST": [
+      4,
+      5
+     ]
+    },
+    "L3": {
+     "ACCLIMATION": [
+      1,
+      1
+     ],
+     "DRIVE": [
+      2,
+      3
+     ],
+     "HARDEST": [
+      4,
+      5
+     ]
+    }
+   },
+   "6": {
+    "L1": {
+     "ACCLIMATION": [
+      1,
+      3
+     ],
+     "DRIVE": [
+      4,
+      4
+     ],
+     "HARDEST": [
+      5,
+      6
+     ]
+    },
+    "L2": {
+     "ACCLIMATION": [
+      1,
+      2
+     ],
+     "DRIVE": [
+      3,
+      4
+     ],
+     "HARDEST": [
+      5,
+      6
+     ]
+    },
+    "L3": {
+     "ACCLIMATION": [
+      1,
+      1
+     ],
+     "DRIVE": [
+      2,
+      4
+     ],
+     "HARDEST": [
+      5,
+      6
+     ]
+    }
+   },
+   "7": {
+    "L1": {
+     "ACCLIMATION": [
+      1,
+      3
+     ],
+     "DRIVE": [
+      4,
+      4
+     ],
+     "HARDEST": [
+      5,
+      7
+     ]
+    },
+    "L2": {
+     "ACCLIMATION": [
+      1,
+      2
+     ],
+     "DRIVE": [
+      3,
+      4
+     ],
+     "HARDEST": [
+      5,
+      7
+     ]
+    },
+    "L3": {
+     "ACCLIMATION": [
+      1,
+      1
+     ],
+     "DRIVE": [
+      2,
+      4
+     ],
+     "HARDEST": [
+      5,
+      7
+     ]
+    }
+   },
+   "8": {
+    "L1": {
+     "ACCLIMATION": [
+      1,
+      3
+     ],
+     "DRIVE": [
+      4,
+      5
+     ],
+     "HARDEST": [
+      6,
+      8
+     ]
+    },
+    "L2": {
+     "ACCLIMATION": [
+      1,
+      2
+     ],
+     "DRIVE": [
+      3,
+      5
+     ],
+     "HARDEST": [
+      6,
+      8
+     ]
+    },
+    "L3": {
+     "ACCLIMATION": [
+      1,
+      1
+     ],
+     "DRIVE": [
+      2,
+      5
+     ],
+     "HARDEST": [
+      6,
+      8
+     ]
+    }
+   },
+   "9": {
+    "L1": {
+     "ACCLIMATION": [
+      1,
+      3
+     ],
+     "DRIVE": [
+      4,
+      6
+     ],
+     "HARDEST": [
+      7,
+      9
+     ]
+    },
+    "L2": {
+     "ACCLIMATION": [
+      1,
+      2
+     ],
+     "DRIVE": [
+      3,
+      6
+     ],
+     "HARDEST": [
+      7,
+      9
+     ]
+    },
+    "L3": {
+     "ACCLIMATION": [
+      1,
+      1
+     ],
+     "DRIVE": [
+      2,
+      6
+     ],
+     "HARDEST": [
+      7,
+      9
+     ]
+    }
+   },
+   "10": {
+    "L1": {
+     "ACCLIMATION": [
+      1,
+      4
+     ],
+     "DRIVE": [
+      5,
+      6
+     ],
+     "HARDEST": [
+      7,
+      10
+     ]
+    },
+    "L2": {
+     "ACCLIMATION": [
+      1,
+      3
+     ],
+     "DRIVE": [
+      4,
+      6
+     ],
+     "HARDEST": [
+      7,
+      10
+     ]
+    },
+    "L3": {
+     "ACCLIMATION": [
+      1,
+      2
+     ],
+     "DRIVE": [
+      3,
+      6
+     ],
+     "HARDEST": [
+      7,
+      10
+     ]
+    }
+   },
+   "11": {
+    "L1": {
+     "ACCLIMATION": [
+      1,
+      4
+     ],
+     "DRIVE": [
+      5,
+      7
+     ],
+     "HARDEST": [
+      8,
+      11
+     ]
+    },
+    "L2": {
+     "ACCLIMATION": [
+      1,
+      3
+     ],
+     "DRIVE": [
+      4,
+      7
+     ],
+     "HARDEST": [
+      8,
+      11
+     ]
+    },
+    "L3": {
+     "ACCLIMATION": [
+      1,
+      2
+     ],
+     "DRIVE": [
+      3,
+      7
+     ],
+     "HARDEST": [
+      8,
+      11
+     ]
+    }
+   },
+   "12": {
+    "L1": {
+     "ACCLIMATION": [
+      1,
+      4
+     ],
+     "DRIVE": [
+      5,
+      8
+     ],
+     "HARDEST": [
+      9,
+      12
+     ]
+    },
+    "L2": {
+     "ACCLIMATION": [
+      1,
+      3
+     ],
+     "DRIVE": [
+      4,
+      8
+     ],
+     "HARDEST": [
+      9,
+      12
+     ]
+    },
+    "L3": {
+     "ACCLIMATION": [
+      1,
+      2
+     ],
+     "DRIVE": [
+      3,
+      8
+     ],
+     "HARDEST": [
+      9,
+      12
+     ]
+    }
+   },
+   "13": {
+    "L1": {
+     "ACCLIMATION": [
+      1,
+      4
+     ],
+     "DRIVE": [
+      5,
+      8
+     ],
+     "HARDEST": [
+      9,
+      13
+     ]
+    },
+    "L2": {
+     "ACCLIMATION": [
+      1,
+      3
+     ],
+     "DRIVE": [
+      4,
+      8
+     ],
+     "HARDEST": [
+      9,
+      13
+     ]
+    },
+    "L3": {
+     "ACCLIMATION": [
+      1,
+      2
+     ],
+     "DRIVE": [
+      3,
+      8
+     ],
+     "HARDEST": [
+      9,
+      13
+     ]
+    }
+   },
+   "14": {
+    "L1": {
+     "ACCLIMATION": [
+      1,
+      5
+     ],
+     "DRIVE": [
+      6,
+      9
+     ],
+     "HARDEST": [
+      10,
+      14
+     ]
+    },
+    "L2": {
+     "ACCLIMATION": [
+      1,
+      4
+     ],
+     "DRIVE": [
+      5,
+      9
+     ],
+     "HARDEST": [
+      10,
+      14
+     ]
+    },
+    "L3": {
+     "ACCLIMATION": [
+      1,
+      3
+     ],
+     "DRIVE": [
+      4,
+      9
+     ],
+     "HARDEST": [
+      10,
+      14
+     ]
+    }
+   },
+   "15": {
+    "L1": {
+     "ACCLIMATION": [
+      1,
+      5
+     ],
+     "DRIVE": [
+      6,
+      10
+     ],
+     "HARDEST": [
+      11,
+      15
+     ]
+    },
+    "L2": {
+     "ACCLIMATION": [
+      1,
+      4
+     ],
+     "DRIVE": [
+      5,
+      10
+     ],
+     "HARDEST": [
+      11,
+      15
+     ]
+    },
+    "L3": {
+     "ACCLIMATION": [
+      1,
+      3
+     ],
+     "DRIVE": [
+      4,
+      10
+     ],
+     "HARDEST": [
+      11,
+      15
+     ]
+    }
+   },
+   "16": {
+    "L1": {
+     "ACCLIMATION": [
+      1,
+      5
+     ],
+     "DRIVE": [
+      6,
+      10
+     ],
+     "HARDEST": [
+      11,
+      16
+     ]
+    },
+    "L2": {
+     "ACCLIMATION": [
+      1,
+      4
+     ],
+     "DRIVE": [
+      5,
+      10
+     ],
+     "HARDEST": [
+      11,
+      16
+     ]
+    },
+    "L3": {
+     "ACCLIMATION": [
+      1,
+      3
+     ],
+     "DRIVE": [
+      4,
+      10
+     ],
+     "HARDEST": [
+      11,
+      16
+     ]
+    }
+   }
+  },
+  "phases_by_N_note": "labels only (ACCLIMATION / DRIVE / HARDEST); 12 and 8 equal generator_spec plan_types phases_by_level",
+  "exercise_blocks_by_N": {
+   "2": [
+    [
+     1,
+     2
+    ]
+   ],
+   "3": [
+    [
+     1,
+     3
+    ]
+   ],
+   "4": [
+    [
+     1,
+     4
+    ]
+   ],
+   "5": [
+    [
+     1,
+     5
+    ]
+   ],
+   "6": [
+    [
+     1,
+     6
+    ]
+   ],
+   "7": [
+    [
+     1,
+     7
+    ]
+   ],
+   "8": [
+    [
+     1,
+     4
+    ],
+    [
+     5,
+     8
+    ]
+   ],
+   "9": [
+    [
+     1,
+     5
+    ],
+    [
+     6,
+     9
+    ]
+   ],
+   "10": [
+    [
+     1,
+     5
+    ],
+    [
+     6,
+     10
+    ]
+   ],
+   "11": [
+    [
+     1,
+     6
+    ],
+    [
+     7,
+     11
+    ]
+   ],
+   "12": [
+    [
+     1,
+     4
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     9,
+     12
+    ]
+   ],
+   "13": [
+    [
+     1,
+     5
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     10,
+     13
+    ]
+   ],
+   "14": [
+    [
+     1,
+     5
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     11,
+     14
+    ]
+   ],
+   "15": [
+    [
+     1,
+     5
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     11,
+     15
+    ]
+   ],
+   "16": [
+    [
+     1,
+     4
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     9,
+     12
+    ],
+    [
+     13,
+     16
+    ]
+   ]
+  },
+  "limits": {
+   "planned_step_max": 0.07,
+   "nonpriority_while_priority": 0.03,
+   "older_60plus": 0.03,
+   "pain_after_freeze": 0.03,
+   "total_weekly_ceiling": 0.1,
+   "total_ceiling_strict": true,
+   "hand_set_max": 0.07,
+   "exempt_from_total_ceiling": [
+    "first_week_after_recovery_or_maintenance",
+    "block_boundary_swap_no_added_sets"
+   ],
+   "placed": {
+    "per_muscle_whole_sets": 1,
+    "per_muscle_pct": 0.07,
+    "ceiling_pct": 0.1,
+    "helper_slack": 0.5,
+    "total_pct": 0.07,
+    "refs": [
+     "R2-VOL-01",
+     "UNI-05",
+     "VOL-04"
+    ],
+    "note": "a muscle rises at most max(1 set, 7 %) a week (whole sets, helpers may add 0.5); the week total at most 7 %; 10 % is never reached"
+   },
+   "nonpriority_scope_v1_3": "retired: Focus muscles do not slow the other groups (R3-SES-01)",
+   "older_cap_retired": true
+  },
+  "release": {
+   "threshold": 1,
+   "epsilon": 1e-9,
+   "bank_max_blocked": 1.99,
+   "staggering": "smallest_bank_waits",
+   "order": [
+    "priority",
+    "big",
+    "small",
+    "muscles.order"
+   ],
+   "at_cap": "hold"
+  },
+  "continues_across_exercise_blocks": true,
+  "no_checkin": "planned_only",
+  "refs": [
+   "R2-PER-03",
+   "R2-PER-04",
+   "R2-PER-05",
+   "R2-VOL-01",
+   "R2-VOL-03",
+   "UNI-05",
+   "VOL-05",
+   "VOL-06"
+  ],
+  "status": "3 % / 5 %, lambda, display, RIR drift approved (R3-VOL-04)",
+  "track": {
+   "week1_above_target_max": 1,
+   "behind_target_max": 1,
+   "flat_total_steps_max": 1,
+   "last4_growth_share_min": 0.5,
+   "refs": [
+    "R2-PER-03",
+    "R2-PER-04",
+    "R2-VOL-03"
+   ],
+   "note": "placed sets follow the planned T(w): never more than 1 set above in week 1, never 1 or more behind (unless a schedule warning names the muscle); the week total never stays flat two weeks in a row; no \"hold\" without a check-in"
+  },
+  "capacity": {
+   "probe": "peak_week_first",
+   "iterations": 3,
+   "priority_first": true,
+   "min_growth_share": 0.1,
+   "room_cut_order": [
+    "second_calf",
+    "buyout",
+    "prehab_extra",
+    "second_plyo",
+    "ankle_block_extra",
+    "second_throw",
+    "olympic_extra_stay_active",
+    "second_iso_nonpriority",
+    "third_of_group",
+    "group_frequency"
+   ],
+   "short_start_iso_sets": 1,
+   "priority_room_cuts": [
+    "second_calf",
+    "second_iso_nonpriority"
+   ],
+   "priority_min_share": 0.6,
+   "refs": [
+    "R2-PER-03",
+    "R2-SES-05",
+    "UNI-09"
+   ],
+   "note": "the whole stairway must fit the chosen minutes: the peak week is placed first; muscles whose peak does not fit start lower (never below the floor) so every week can still climb (D-67)"
+  },
+  "planned_only": {
+   "refs": [
+    "R3-VOL-02",
+    "R3-VOL-04"
+   ],
+   "note": "the generator outputs the whole plan once; people and coaches adjust it themselves; nothing is kept"
+  },
+  "min_climb": {
+   "group": 2,
+   "calves": 1,
+   "line": 1,
+   "short_block": {
+    "max_N": 7,
+    "group": 1
+   },
+   "refs": [
+    "R3-SES-02",
+    "R2-PER-03",
+    "R2-PER-04"
+   ],
+   "status": "PROPOSED (2-set climb; 1 set in blocks of 7 weeks or less)"
+  },
+  "release_rounding": {
+   "mode": "scheduled",
+   "refs": [
+    "VOL-06",
+    "R3-VOL-04"
+   ],
+   "status": "PROPOSED (F1, E-85): whole sets follow round-half-up of the planned T(w) (the coach: \"you round up, you round down\")",
+   "r2_status": "PROPOSED (fix round 2 / F1, E-146): a whole-set schedule per block - each set in the week its planned T(w) passes the half set, the last in the last week, the 7 % weekly limit, no week without a step where a neighbour holds two (was half_up, E-85)"
+  },
+  "hold_rules": {
+   "min_N": 8,
+   "min_climb": 3,
+   "hold_extra_weeks": 1,
+   "refs": [
+    "R3-VOL-04",
+    "R3-SES-02"
+   ],
+   "status": "PROPOSED (F1, E-92)",
+   "main_days": true,
+   "total_hold_max_frac": 0.5,
+   "r2_status": "PROPOSED (fix round 2 / F1, E-136): H21 reads the main days too; the main-day total holds for at most half the block"
+  }
+ },
+ "placement": {
+  "day_rotation": "alternate_same_day_type",
+  "laterality_tolerance": 0.03,
+  "order_rule": "first_below_first",
+  "max_sets_per_exercise": {
+   "L1": 4,
+   "L2": 5,
+   "L3": 5
+  },
+  "max_sets_isolation": 4,
+  "min_sets": 2,
+  "bonus": {
+   "sets": 2,
+   "for": "small",
+   "prefer": [
+    "optional_day",
+    "day_training_group_fewest_exercises"
+   ],
+   "never_only_exercise_of_group": true,
+   "optional_day_for_small_lines": true,
+   "refs": [
+    "R3-VOL-03"
+   ]
+  },
+  "focus": {
+   "sets": 2,
+   "for": "big",
+   "prefer": [
+    "optional_day",
+    "day_training_region"
+   ]
+  },
+  "week1_fit": {
+   "trim_above": 1,
+   "add_below": 1,
+   "trim_order": "latest_isolation_first"
+  },
+  "refs": [
+   "VOL-07",
+   "VOL-16",
+   "ORD-10",
+   "ORD-11",
+   "R2-SES-05"
+  ],
+  "main_days_first": true,
+  "optional_days": {
+   "stairway_sets": false,
+   "focus_slots_max": 2,
+   "focus_sets": [
+    2,
+    3
+   ],
+   "focus_only_for": [
+    "priority",
+    "floor_lifted_small"
+   ],
+   "refs": [
+    "ORD-10",
+    "ORD-11",
+    "R3-VOL-03"
+   ],
+   "small_line_bonus": true
+  },
+  "added_slot_entry_sets": 1,
+  "group_day_reduction": {
+   "enabled": true,
+   "keep_roles": [
+    "work",
+    "core_block",
+    "survival"
+   ],
+   "keep_pair_of_work": true,
+   "refs": [
+    "R2-SES-05",
+    "VOL-07",
+    "R2-PER-03"
+   ],
+   "note": "a group whose 2 x 2 minimum on every day is above its week-1 target is trained on fewer days, each with 2 exercises"
+  },
+  "work_min_sets_from_minutes": 60,
+  "work_min_sets": 3,
+  "day_rotation_refs": [
+   "R3-VOL-03",
+   "VOL-07"
+  ],
+  "added_slots": {
+   "entry_sets": 2,
+   "only_at_exercise_block_start": true,
+   "big_lines_on_optional_day": "focus_only",
+   "refs": [
+    "VOL-07",
+    "VOL-16",
+    "PER-02",
+    "R3-VOL-03"
+   ],
+   "status": "PROPOSED (F1, E-86): a bonus / Focus exercise opens at 2 sets in the first week of an exercise block; a big line's climb may open a 2-set Focus exercise on the optional day when the main days are full (R3-VOL-03 / D-33 spirit)",
+   "optional_focus": {
+    "slots": 2,
+    "sets_max": 3,
+    "refs": [
+     "ORD-10",
+     "ORD-11",
+     "R3-VOL-03"
+    ]
+   },
+   "r2_status": "PROPOSED (fix round 2 / F1, E-135): a big line climbs on the main days; only a Focus line may climb on the optional day, inside its two Focus slots x 2-3 sets"
+  }
+ },
+ "session": {
+  "exercise_cap_by_minutes": {
+   "30": 4,
+   "45": 5,
+   "60": 7,
+   "75": 9,
+   "90": 9,
+   "105": 9,
+   "120": 9
+  },
+  "exercise_cap_applies_to": "split_days_only",
+  "full_body_days": {
+   "rule": "every muscle group trained that day gets 2-4 exercises, never 1",
+   "cap": null,
+   "refs": [
+    "R2-SES-05"
+   ]
+  },
+  "athlete_cap": 12,
+  "athlete_cap_counts_core": false,
+  "athlete_cap_counts_warmup": false,
+  "small_iso_superset_counts_as_one": true,
+  "athlete_cap_refs": [
+   "R2-SES-04"
+  ],
+  "outside_cap_blocks": [
+   "warmup",
+   "core",
+   "skill",
+   "prehab",
+   "conditioning",
+   "aerobic",
+   "cooldown",
+   "test"
+  ],
+  "exercises_per_group": {
+   "full_body_day": [
+    2,
+    4
+   ],
+   "split_day": [
+    2,
+    4
+   ],
+   "exempt_groups": [
+    "calves",
+    "core"
+   ],
+   "exempt_families": [
+    "strength"
+   ],
+   "exempt_note": "conjugate four-role days stay as written (flagged, master 10.3)",
+   "refs": [
+    "R2-SES-05",
+    "VOL-07"
+   ],
+   "calves_per_day": [
+    1,
+    1
+   ],
+   "r3_status": "approved (R3-SES-01)"
+  },
+  "default_sets": {
+   "compound": 3,
+   "isolation": 2,
+   "calves_first": 2,
+   "calves_second": 1,
+   "core": 2,
+   "athletic": 2,
+   "athletic_at_90": 3,
+   "focus": 2,
+   "min": 2,
+   "refs": [
+    "VOL-16",
+    "VOL-17"
+   ],
+   "calves_first_when_alone": 3
+  },
+  "minutes_default": {
+   "athletes_bodybuilders_powerlifters": 90,
+   "general_fat_loss": 60,
+   "bootcamp": 45,
+   "non_competitive_athletic": 60,
+   "older_injured": 60
+  },
+  "minutes_allowed": [
+   30,
+   45,
+   60,
+   75,
+   90,
+   105,
+   120
+  ],
+  "minutes_over_90_competitive_only": true,
+  "long_day": {
+   "warn_above_factor": 1.1,
+   "refs": [
+    "R2-SES-05"
+   ],
+   "note": "full-body days may run a little longer (warning, not an error)",
+   "split_day_factor": 1,
+   "error_above_factor": 1.25,
+   "error_when_cuttable": true,
+   "count_aerobic_addon": true
+  },
+  "off_days_min": 1,
+  "refs": [
+   "VOL-08",
+   "VOL-16",
+   "VOL-17",
+   "UNI-09",
+   "R2-SES-04",
+   "R2-SES-05"
+  ],
+  "athlete_cap_hard": true,
+  "time_fit": {
+   "fit_factor": 1.1,
+   "keep_order": [
+    "hips",
+    "quads",
+    "back",
+    "chest",
+    "shoulders",
+    "calves",
+    "triceps",
+    "biceps"
+   ],
+   "keep_first": [
+    "focus",
+    "profile_priority"
+   ],
+   "offers": [
+    "offer.more_days",
+    "offer.longer_sessions",
+    "offer.keep_time"
+   ],
+   "round_minutes_to": 5,
+   "supersets": "recommended",
+   "refs": [
+    "R3-SES-02",
+    "R3-SES-01",
+    "R2-SES-05",
+    "UNI-09"
+   ],
+   "status": "order approved (R3-SES-02); keep order with Focus and sport-pinned groups first PROPOSED (13 N-PROD-27)",
+   "keep_work_lift": {
+    "families": [
+     "hybrid_crossfit"
+    ],
+    "roles": [
+     "work"
+    ],
+    "sets": 3,
+    "reason": "class_lift",
+    "refs": [
+     "OT18",
+     "ORD-07",
+     "R3-SES-02"
+    ],
+    "status": "PROPOSED (B4, E-64): the coach approved fewer groups trained directly (R3-SES-02, his CrossFit-class example); keeping the class lift of a group not trained directly is PROPOSED"
+   },
+   "keep_order_r2": {
+    "pin_first_50_racket": {
+     "groups": [
+      "calves"
+     ],
+     "age_gte": 50,
+     "refs": [
+      "R3-ATH-02"
+     ]
+    },
+    "athletic": [
+     "hips",
+     "quads",
+     "back",
+     "chest",
+     "calves",
+     "shoulders",
+     "triceps",
+     "biceps"
+    ],
+    "refs": [
+     "R3-SES-02",
+     "R3-SES-01",
+     "R3-ATH-02"
+    ],
+    "status": "PROPOSED (fix round 2 / F1, E-140)"
+   },
+   "stay_active_room_cuts": [
+    "stay_active_second_athletic",
+    "stay_active_power"
+   ],
+   "keep_day_patterns": true,
+   "stay_active_room_cuts_status": "PROPOSED (fix round 2 / F1, E-143)"
+  }
+ },
+ "time_model": {
+  "minutes_per_set": {
+   "warmup_session": 8,
+   "core_set": 1.5,
+   "compound_bilateral": 2.5,
+   "compound_unilateral": 3.75,
+   "isolation": 1.75,
+   "isolation_unilateral": 2.5,
+   "plyo_or_ballistic": 1.5,
+   "olympic": 3,
+   "throw": 1.25,
+   "cod": 1.5,
+   "sprint": 2,
+   "skill_block": 8,
+   "prehab": 1.5,
+   "ankle": 0.9
+  },
+  "changeover_min_per_exercise": 1,
+  "changeover_in_superset_pair": 0.5,
+  "superset_factor": 0.65,
+  "aerobic_addon_minutes": {
+   "A": 15,
+   "B": 20,
+   "C": 30,
+   "LC": 20
+  },
+  "wod_minutes": [
+   10,
+   20
+  ],
+  "walk_minutes": [
+   20,
+   30
+  ],
+  "circuit": {
+   "transition_s": 15,
+   "between_rounds_s": 90
+  },
+  "unilateral_factor": 1.5,
+  "refs": [
+   "ORD-08",
+   "VOL-14",
+   "UNI-09",
+   "R2-SES-05",
+   "R3-SES-02"
+  ],
+  "status": "PROPOSED (v1.3: work + dosed rest)",
+  "between_circuits_s": 60,
+  "wod_minutes_from_dose": true,
+  "skill_extra_min": 3,
+  "aerobic_addon_counts": true,
+  "work_minutes": {
+   "compound_bilateral": 0.75,
+   "compound_unilateral": 1.5,
+   "isolation": 0.6,
+   "isolation_unilateral": 1.2,
+   "core_set": 0.75,
+   "plyo_or_ballistic": 0.4,
+   "olympic": 0.5,
+   "throw": 0.5,
+   "cod": 1.25,
+   "sprint": 2,
+   "prehab": 0.6,
+   "ankle": 0.4
+  },
+  "rest_class_minutes": {
+   "strength": 4.5,
+   "olympic": 2.5,
+   "hypertrophy": 1.5,
+   "isolation": 1.25,
+   "core": 0.75,
+   "plyo": 1.25,
+   "throw": 1.1,
+   "cod": 1.25,
+   "sprint": 2.5,
+   "prehab": 0.75,
+   "ankle": 0.5
+  },
+  "rest_class_by_time_class": {
+   "compound_bilateral": "hypertrophy",
+   "compound_unilateral": "hypertrophy",
+   "isolation": "isolation",
+   "isolation_unilateral": "isolation",
+   "core_set": "core",
+   "plyo_or_ballistic": "plyo",
+   "olympic": "olympic",
+   "throw": "throw",
+   "cod": "cod",
+   "sprint": "sprint",
+   "prehab": "prehab",
+   "ankle": "ankle"
+  },
+  "strength_rest_for": [
+   "work_heavy",
+   "class_model_work",
+   "strength_family_work"
+  ],
+  "test_workup_minutes": 10,
+  "test_item_minutes": {
+   "jumps": 6,
+   "sprint": 8,
+   "cod": 8,
+   "cardio": 15
+  },
+  "superset_rule": "pair_shares_rest",
+  "skill_in_warmup_min": 6,
+  "skill_in_warmup_short": {
+   "at_or_below_minutes": 45,
+   "min": 3
+  }
+ },
+ "cut_order": {
+  "aesthetics": [
+   {
+    "id": "focus",
+    "match": {
+     "role": [
+      "focus"
+     ]
+    }
+   },
+   {
+    "id": "second_calf",
+    "match": {
+     "second_calf": true
+    }
+   },
+   {
+    "id": "second_isolation_same_muscle",
+    "match": {
+     "duplicate_isolation": true
+    }
+   },
+   {
+    "id": "aquatic_chest_fly",
+    "match": {
+     "bucket": [
+      "ISO_CHEST"
+     ],
+     "profile_pull_ratio_gte": 1.5
+    }
+   },
+   {
+    "id": "third_of_group",
+    "match": {
+     "third_of_group": true
+    }
+   },
+   {
+    "id": "second_non_axial_bilateral",
+    "match": {
+     "role": [
+      "secondary"
+     ],
+     "axial": [
+      "non_axial"
+     ]
+    }
+   }
+  ],
+  "athletic": [
+   {
+    "id": "olympic_over_budget",
+    "match": {
+     "olympic_over_budget": true
+    }
+   },
+   {
+    "id": "second_plyo_or_sprint",
+    "match": {
+     "bucket": [
+      "AP_JUMP_LIMITED_KNEE",
+      "AP_SPRINT"
+     ],
+     "keep_profile_tracks": true
+    }
+   },
+   {
+    "id": "second_jump_low_contact_sport",
+    "match": {
+     "bucket": [
+      "AP_PLYO"
+     ],
+     "keep_one_per_day": true,
+     "profile_ground_class_gte": 4
+    }
+   },
+   {
+    "id": "cod_non_cod_sport",
+    "match": {
+     "bucket": [
+      "AP_COD"
+     ],
+     "unless_profile_cod": true
+    }
+   },
+   {
+    "id": "buyout",
+    "match": {
+     "bucket": [
+      "COND_SPRINT_BUYOUT"
+     ]
+    }
+   },
+   {
+    "id": "second_throw",
+    "match": {
+     "bucket": [
+      "AP_THROW"
+     ],
+     "keep_one": true
+    }
+   },
+   {
+    "id": "second_calf",
+    "match": {
+     "second_calf": true
+    }
+   },
+   {
+    "id": "second_isolation_same_muscle",
+    "match": {
+     "duplicate_isolation": true
+    }
+   },
+   {
+    "id": "aquatic_chest_fly",
+    "match": {
+     "bucket": [
+      "ISO_CHEST"
+     ],
+     "profile_pull_ratio_gte": 1.5
+    }
+   },
+   {
+    "id": "third_of_group",
+    "match": {
+     "third_of_group": true
+    }
+   }
+  ],
+  "strength": [
+   {
+    "id": "nuance",
+    "match": {
+     "role": [
+      "nuance"
+     ]
+    }
+   },
+   {
+    "id": "accessory",
+    "match": {
+     "role": [
+      "accessory"
+     ]
+    }
+   },
+   {
+    "id": "second_calf",
+    "match": {
+     "second_calf": true
+    }
+   }
+  ],
+  "fat_loss_bootcamp": [
+   {
+    "id": "focus",
+    "match": {
+     "role": [
+      "focus"
+     ]
+    }
+   },
+   {
+    "id": "second_calf",
+    "match": {
+     "second_calf": true
+    }
+   },
+   {
+    "id": "second_isolation_same_muscle",
+    "match": {
+     "duplicate_isolation": true
+    }
+   },
+   {
+    "id": "rounds",
+    "match": {
+     "circuit_rounds_down": true
+    }
+   },
+   {
+    "id": "sixth_station",
+    "match": {
+     "circuit_station_index_gte": 6,
+     "except_bucket": [
+      "COND_CIRCUIT"
+     ]
+    }
+   }
+  ],
+  "hybrid_crossfit": [
+   {
+    "id": "aerobic_addon",
+    "match": {
+     "bucket": [
+      "COND_AEROBIC"
+     ]
+    }
+   },
+   {
+    "id": "focus",
+    "match": {
+     "role": [
+      "focus"
+     ]
+    }
+   },
+   {
+    "id": "second_calf",
+    "match": {
+     "second_calf": true
+    }
+   },
+   {
+    "id": "second_isolation_same_muscle",
+    "match": {
+     "duplicate_isolation": true
+    }
+   },
+   {
+    "id": "aquatic_chest_fly",
+    "match": {
+     "bucket": [
+      "ISO_CHEST"
+     ],
+     "profile_pull_ratio_gte": 1.5
+    }
+   },
+   {
+    "id": "third_of_group",
+    "match": {
+     "third_of_group": true
+    }
+   },
+   {
+    "id": "skill_to_warmup",
+    "match": {
+     "skill_to_warmup": true
+    }
+   },
+   {
+    "id": "wod_short",
+    "match": {
+     "wod_short": true
+    }
+   }
+  ],
+  "no_equipment": [
+   {
+    "id": "second_calf",
+    "match": {
+     "second_calf": true
+    }
+   },
+   {
+    "id": "second_isolation_same_muscle",
+    "match": {
+     "duplicate_isolation": true
+    }
+   },
+   {
+    "id": "aquatic_chest_fly",
+    "match": {
+     "bucket": [
+      "ISO_CHEST"
+     ],
+     "profile_pull_ratio_gte": 1.5
+    }
+   },
+   {
+    "id": "third_of_group",
+    "match": {
+     "third_of_group": true
+    }
+   }
+  ],
+  "never_cut": {
+   "roles": [
+    "core_block",
+    "work",
+    "paired_upper",
+    "survival"
+   ],
+   "buckets": [
+    "ISO_CALF"
+   ],
+   "group_min_exercises": 2,
+   "rear_delt_station_per_week_min": 1,
+   "athletic_min_plyo_or_ballistic": 1,
+   "first_calf_station": true
+  },
+  "superset_first": true,
+  "when_nothing_left": "warn_long_day",
+  "refs": [
+   "ORD-05",
+   "VOL-17",
+   "ORD-07",
+   "R2-SES-05"
+  ],
+  "status": "PROPOSED (v1.2 review: Olympic sets above the budget, 1-set fillers and duplicate isolations go before any target muscle)",
+  "athletic_stay_active": [
+   {
+    "id": "olympic_over_budget",
+    "match": {
+     "olympic_over_budget": true
+    }
+   },
+   {
+    "id": "prehab_to_optional",
+    "match": {
+     "prehab_to_optional": true
+    }
+   },
+   {
+    "id": "ankle_block",
+    "match": {
+     "bucket": [
+      "AP_JUMP_LIMITED_KNEE"
+     ]
+    }
+   },
+   {
+    "id": "one_athletic_per_day",
+    "match": {
+     "athletic_per_day_gt": 1
+    }
+   },
+   {
+    "id": "second_jump",
+    "match": {
+     "bucket": [
+      "AP_PLYO"
+     ],
+     "keep_one_per_day": true
+    }
+   },
+   {
+    "id": "second_throw",
+    "match": {
+     "bucket": [
+      "AP_THROW"
+     ],
+     "keep_one": true
+    }
+   },
+   {
+    "id": "cod",
+    "match": {
+     "bucket": [
+      "AP_COD",
+      "AP_SPRINT"
+     ]
+    }
+   },
+   {
+    "id": "buyout",
+    "match": {
+     "bucket": [
+      "COND_SPRINT_BUYOUT"
+     ]
+    }
+   },
+   {
+    "id": "second_calf",
+    "match": {
+     "second_calf": true
+    }
+   },
+   {
+    "id": "second_isolation_same_muscle",
+    "match": {
+     "duplicate_isolation": true
+    }
+   },
+   {
+    "id": "aquatic_chest_fly",
+    "match": {
+     "bucket": [
+      "ISO_CHEST"
+     ],
+     "profile_pull_ratio_gte": 1.5
+    }
+   },
+   {
+    "id": "third_of_group",
+    "match": {
+     "third_of_group": true
+    }
+   }
+  ],
+  "track_protection": "competitive_only",
+  "keep_work_pair": true,
+  "group_moves": "retired (v1.3): the time check (R3-SES-02) decides which groups are trained directly"
+ },
+ "bilateral_share": {
+  "regions": {
+   "lower": [
+    "RP_BKD",
+    "RP_UKD",
+    "RP_BHD",
+    "RP_UHD"
+   ],
+   "upper": [
+    "RP_HPUSH",
+    "RP_VPUSH",
+    "RP_HPULL",
+    "RP_VPULL"
+   ]
+  },
+  "tolerance": 0.03,
+  "siblings": {
+   "RP_BKD": "RP_UKD",
+   "RP_UKD": "RP_BKD",
+   "RP_BHD": "RP_UHD",
+   "RP_UHD": "RP_BHD"
+  },
+  "profiles": {
+   "bb_pl": {
+    "lower": {
+     "by_exercise_block": [
+      0.5,
+      0.8,
+      0.9
+     ]
+    },
+    "upper": {
+     "by_exercise_block": [
+      0.5,
+      0.8,
+      0.9
+     ]
+    },
+    "refs": [
+     "UNI-02",
+     "UNI-03",
+     "CAT-13"
+    ]
+   },
+   "beginner_general": {
+    "lower": {
+     "by_exercise_block": [
+      0.5
+     ],
+     "later_cycles": 0.6
+    },
+    "upper": {
+     "by_exercise_block": [
+      0.7
+     ]
+    },
+    "refs": [
+     "PROPOSED"
+    ]
+   },
+   "weekend_bootcamp": {
+    "lower": {
+     "by_exercise_block": [
+      0.5,
+      0.45,
+      0.4
+     ]
+    },
+    "upper": {
+     "by_exercise_block": [
+      0.6
+     ]
+    },
+    "refs": [
+     "UNI-06",
+     "PROPOSED"
+    ]
+   },
+   "rec_cod": {
+    "lower": {
+     "by_exercise_block": [
+      0.3,
+      0.25,
+      0.2
+     ]
+    },
+    "upper": {
+     "by_exercise_block": [
+      0.3
+     ]
+    },
+    "refs": [
+     "UNI-02",
+     "PROPOSED"
+    ]
+   },
+   "field_cod": {
+    "lower": {
+     "by_exercise_block": [
+      0.2,
+      0.15
+     ],
+     "PRE": 0.15,
+     "IN": 0.1
+    },
+    "upper": {
+     "by_exercise_block": [
+      0.2
+     ]
+    },
+    "refs": [
+     "UNI-02",
+     "UNI-10"
+    ]
+   },
+   "sprinters": {
+    "lower": {
+     "by_exercise_block": [
+      0.4,
+      0.3
+     ],
+     "PRE": 0.3,
+     "IN": 0.2
+    },
+    "upper": {
+     "by_exercise_block": [
+      0.4
+     ]
+    },
+    "refs": [
+     "PROPOSED"
+    ]
+   },
+   "strength_athletes": {
+    "lower": {
+     "by_exercise_block": [
+      0.6,
+      0.5
+     ],
+     "PRE": 0.4,
+     "IN": 0.25
+    },
+    "upper": {
+     "by_exercise_block": [
+      0.6
+     ]
+    },
+    "refs": [
+     "ATH-03",
+     "PROPOSED"
+    ]
+   },
+   "baseball_softball": {
+    "lower": {
+     "by_exercise_block": [
+      0.5,
+      0.4
+     ],
+     "PRE": 0.35,
+     "IN": 0.2
+    },
+    "upper": {
+     "by_exercise_block": [
+      0.3
+     ]
+    },
+    "refs": [
+     "ATH-08",
+     "UNI-10"
+    ]
+   },
+   "combat": {
+    "lower": {
+     "by_exercise_block": [
+      0.4,
+      0.3
+     ],
+     "PRE": 0.3,
+     "IN": 0.2
+    },
+    "upper": {
+     "by_exercise_block": [
+      0.3
+     ]
+    },
+    "refs": [
+     "PROPOSED"
+    ]
+   },
+   "older_injured": {
+    "lower": {
+     "by_exercise_block": [
+      0.6
+     ]
+    },
+    "upper": {
+     "by_exercise_block": [
+      0.7
+     ]
+    },
+    "refs": [
+     "EQ-03"
+    ]
+   }
+  },
+  "select": [
+   {
+    "when": {
+     "older": true
+    },
+    "use": "older_injured"
+   },
+   {
+    "when": {
+     "goal": [
+      "muscle",
+      "strength"
+     ],
+     "level": [
+      "L2",
+      "L3"
+     ]
+    },
+    "use": "bb_pl"
+   },
+   {
+    "when": {
+     "sport_share": true
+    },
+    "use": "sport"
+   },
+   {
+    "when": {
+     "family": [
+      "athletic"
+     ],
+     "competitive": [
+      "competitive"
+     ]
+    },
+    "use": "field_cod"
+   },
+   {
+    "when": {
+     "family": [
+      "athletic",
+      "hybrid_crossfit"
+     ]
+    },
+    "use": "weekend_bootcamp"
+   },
+   {
+    "when": {
+     "format": [
+      "bootcamp"
+     ]
+    },
+    "use": "weekend_bootcamp"
+   },
+   {
+    "when": {},
+    "use": "beginner_general"
+   }
+  ],
+  "sport_share_note": "'sport' = SportDef.share (from 04 v1.1 profiles[].bilateral_unilateral; block_start -> block_end over the exercise blocks; PRE / IN from pre_season / in_season)",
+  "pain_shift": 0.2,
+  "slider_range": [
+   0.1,
+   0.9
+  ],
+  "refs": [
+   "UNI-02",
+   "UNI-03",
+   "UNI-07",
+   "UNI-10",
+   "CAT-09",
+   "R2-SES-01"
+  ],
+  "selection_enforced": true,
+  "block_swap": true,
+  "compound_only": [
+   "RP_BKD",
+   "RP_UKD",
+   "RP_BHD",
+   "RP_UHD"
+  ],
+  "validate_tolerance": 0.12
+ },
+ "contra_ipsi": {
+  "cod_contralateral_share": 0.7,
+  "sprinter_ipsilateral_share": 0.6,
+  "split_stance": "contralateral",
+  "bb_pl_health_accessory_weeks": [
+   1,
+   4
+  ],
+  "general_older": "alternate_by_exercise_block",
+  "refs": [
+   "CAT-13",
+   "UNI-12"
+  ],
+  "status": "shares PROPOSED"
+ },
+ "frontal_transverse": {
+  "default_share_from_profile": true,
+  "court_combat_share": [
+   0.45,
+   0.5
+  ],
+  "aesthetics_share": 0.1,
+  "refs": [
+   "UNI-12",
+   "LIB-20"
+  ],
+  "quota_from_profile": true,
+  "min_share_to_apply": 0.2
+ },
+ "pairing": {
+  "hip_with": [
+   "RP_HPUSH",
+   "RP_VPUSH"
+  ],
+  "knee_with": [
+   "RP_HPULL",
+   "RP_VPULL"
+  ],
+  "hip_buckets": [
+   "RP_BHD",
+   "RP_UHD"
+  ],
+  "knee_buckets": [
+   "RP_BKD",
+   "RP_UKD"
+  ],
+  "not_for_variants": [
+   "upper_lower",
+   "ppl_x2"
+  ],
+  "same_pattern": {
+   "goals": [
+    "muscle",
+    "strength"
+   ],
+   "ath03_groups": [
+    "size_strength",
+    "resistance"
+   ],
+   "r3": "R3-SES-01"
+  },
+  "cross_pattern": {
+   "goals": [
+    "fat_loss",
+    "general",
+    "athletic",
+    "active",
+    "hybrid"
+   ],
+   "formats": [
+    "bootcamp"
+   ],
+   "season_phases": [
+    "IN"
+   ]
+  },
+  "refs": [
+   "UNI-11",
+   "ORD-06",
+   "UNI-06"
+  ]
+ },
+ "axial": {
+  "budget": {
+   "squat": 1,
+   "hinge": 1
+  },
+  "never_same_day": true,
+  "counted": "catalog.axial (02 v1.1 spine_day_v1_1.counts_as_heavy_spine_lift)",
+  "second_day_classes": [
+   "second_day",
+   "not_counted"
+  ],
+  "second_day_if_sore_ok": [
+   "goblet",
+   "hack",
+   "pendulum"
+  ],
+  "not_counted_tags": [
+   "olympic",
+   "loaded_jump",
+   "kb_swing",
+   "thruster"
+  ],
+  "powerlifter_light_extra": {
+   "enabled": true,
+   "profiles": [
+    "powerlifting_strength"
+   ]
+  },
+  "home_second_squat": "unilateral",
+  "spacing": {
+   "squat_day_types": [
+    "A1",
+    "A",
+    "S1",
+    "Legs 1",
+    "SQUAT",
+    "BC1"
+   ],
+   "hinge_day_types": [
+    "B2",
+    "B",
+    "S3",
+    "Legs 2",
+    "DEADLIFT"
+   ]
+  },
+  "refs": [
+   "PER-04",
+   "EQ-11",
+   "R2-SES-01",
+   "R2-SES-02"
+  ]
+ },
+ "reps": {
+  "brackets": {
+   "b1_3": {
+    "min": 1,
+    "max": 3,
+    "label_key": "reps.1_3"
+   },
+   "b3_5": {
+    "min": 3,
+    "max": 5,
+    "label_key": "reps.3_5"
+   },
+   "b4_6": {
+    "min": 4,
+    "max": 6,
+    "label_key": "reps.4_6"
+   },
+   "b6_8": {
+    "min": 6,
+    "max": 8,
+    "label_key": "reps.6_8"
+   },
+   "b8_12": {
+    "min": 8,
+    "max": 12,
+    "label_key": "reps.8_12"
+   },
+   "b10_12": {
+    "min": 10,
+    "max": 12,
+    "label_key": "reps.10_12"
+   },
+   "b10_15": {
+    "min": 10,
+    "max": 15,
+    "label_key": "reps.10_15"
+   },
+   "b12_15": {
+    "min": 12,
+    "max": 15,
+    "label_key": "reps.12_15"
+   },
+   "b15": {
+    "min": 15,
+    "max": 15,
+    "label_key": "reps.15"
+   },
+   "b15_20": {
+    "min": 15,
+    "max": 20,
+    "label_key": "reps.15_20"
+   },
+   "b20": {
+    "min": 20,
+    "max": 20,
+    "label_key": "reps.20"
+   },
+   "b20_30": {
+    "min": 20,
+    "max": 30,
+    "label_key": "reps.20_30"
+   },
+   "b25_30": {
+    "min": 25,
+    "max": 30,
+    "label_key": "reps.25_30"
+   }
+  },
+  "ladder": [
+   "b1_3",
+   "b3_5",
+   "b4_6",
+   "b6_8",
+   "b8_12",
+   "b10_15",
+   "b15",
+   "b15_20",
+   "b20_30"
+  ],
+  "matrix": {
+   "main_bilateral_compound": {
+    "hypertrophy": {
+     "bracket": "b8_12",
+     "L1": "b10_15",
+     "pyramid_from": "L2"
+    },
+    "strength": {
+     "template": "strength_pct"
+    },
+    "athletic": {
+     "vol_phase": true
+    },
+    "fat_loss": {
+     "by_exercise_block": [
+      "b10_15",
+      "b8_12"
+     ]
+    },
+    "general": {
+     "bracket": "b10_15"
+    }
+   },
+   "machine_stable_compound": {
+    "hypertrophy": {
+     "bracket": "b10_15",
+     "myo_if_last": true
+    },
+    "strength": {
+     "bracket": "b6_8",
+     "rir": [
+      2,
+      2
+     ]
+    },
+    "athletic": {
+     "bracket": "b8_12"
+    },
+    "fat_loss": {
+     "bracket": "b15"
+    },
+    "general": {
+     "bracket": "b15"
+    }
+   },
+   "unilateral_compound": {
+    "hypertrophy": {
+     "bracket": "b8_12",
+     "per_side": true,
+     "heavy_toggle": "b4_6"
+    },
+    "strength": {
+     "bracket": "b8_12",
+     "per_side": true
+    },
+    "athletic": {
+     "bracket": "b6_8",
+     "per_side": true
+    },
+    "fat_loss": {
+     "bracket": "b8_12",
+     "per_side": true
+    },
+    "general": {
+     "bracket": "b10_15",
+     "per_side": true
+    }
+   },
+   "big_muscle_isolation": {
+    "hypertrophy": {
+     "bracket": "b15_20",
+     "myo_if_last": true
+    },
+    "strength": {
+     "bracket": "b8_12"
+    },
+    "athletic": {
+     "bracket": "b8_12",
+     "myo_if_last": true
+    },
+    "fat_loss": {
+     "by_exercise_block": [
+      "b15",
+      "b15_20"
+     ]
+    },
+    "general": {
+     "bracket": "b15"
+    }
+   },
+   "small_muscle_isolation": {
+    "hypertrophy": {
+     "bracket": "b15_20",
+     "last_set": "max"
+    },
+    "strength": {
+     "bracket": "b8_12"
+    },
+    "athletic": {
+     "bracket": "b10_15"
+    },
+    "fat_loss": {
+     "bracket": "b15_20"
+    },
+    "general": {
+     "bracket": "b15_20"
+    }
+   },
+   "rear_delts": {
+    "hypertrophy": {
+     "bracket": "b20_30",
+     "last_set": "max"
+    },
+    "strength": {
+     "bracket": "b15_20"
+    },
+    "athletic": {
+     "bracket": "b15_20"
+    },
+    "fat_loss": {
+     "bracket": "b15_20"
+    },
+    "general": {
+     "bracket": "b15_20"
+    }
+   },
+   "calves": {
+    "hypertrophy": {
+     "bracket": "b15_20",
+     "last_set": "max"
+    },
+    "strength": {
+     "bracket": "b10_15"
+    },
+    "athletic": {
+     "bracket": "b8_12",
+     "per_side": true
+    },
+    "fat_loss": {
+     "bracket": "b15_20"
+    },
+    "general": {
+     "bracket": "b15_20"
+    }
+   },
+   "core": {
+    "hypertrophy": {
+     "bracket": "b10_15",
+     "or_seconds": [
+      20,
+      60
+     ]
+    },
+    "strength": {
+     "bracket": "b8_12"
+    },
+    "athletic": {
+     "bracket": "b10_15",
+     "or_seconds": [
+      20,
+      40
+     ]
+    },
+    "fat_loss": {
+     "bracket": "b10_15",
+     "or_seconds": [
+      20,
+      40
+     ]
+    },
+    "general": {
+     "bracket": "b10_15",
+     "or_seconds": [
+      20,
+      60
+     ]
+    }
+   },
+   "olympic": {
+    "L1": {
+     "bracket": "b6_8"
+    },
+    "L2": {
+     "bracket": "b3_5"
+    },
+    "L3": {
+     "bracket": "b3_5"
+    },
+    "full_catch": "b3_5",
+    "ramp": "olympic.ramp"
+   },
+   "plyo": {
+    "RC1": {
+     "contacts_per_set": [
+      6,
+      8
+     ],
+     "hold_s": 3
+    },
+    "RC2": {
+     "contacts_per_set": [
+      5,
+      8
+     ]
+    },
+    "RC3": {
+     "contacts_per_set": [
+      10,
+      20
+     ]
+    },
+    "ankle": {
+     "contacts_per_set": [
+      20,
+      40
+     ]
+    }
+   },
+   "throw": {
+    "reps_per_side": 10,
+    "situp_reps": 20,
+    "wall_ball_reps": [
+     10,
+     20
+    ]
+   },
+   "cod": {
+    "reps": [
+     3,
+     6
+    ]
+   },
+   "sprint": {
+    "reps": [
+     3,
+     6
+    ],
+    "metres": [
+     10,
+     30
+    ]
+   },
+   "skill": {
+    "minutes": [
+     6,
+     10
+    ]
+   },
+   "prehab": {
+    "bracket": "b12_15"
+   }
+  },
+  "goal_column": {
+   "muscle": "hypertrophy",
+   "strength": "strength",
+   "athletic": "athletic",
+   "active": "general",
+   "fat_loss": "fat_loss",
+   "general": "general",
+   "hybrid": "general"
+  },
+  "athlete_vol_phases": {
+   "by_exercise_block": [
+    "VOL1",
+    "VOL2",
+    "VOL3"
+   ],
+   "pre_season": "VOL3",
+   "in_season": "VOL3",
+   "VOL1": {
+    "compound": "b12_15",
+    "isolation": "b12_15"
+   },
+   "VOL2": {
+    "compound": "b8_12",
+    "isolation": "b10_12"
+   },
+   "VOL3": {
+    "compound": "b6_8",
+    "isolation": "max"
+   },
+   "refs": [
+    "PER-11"
+   ],
+   "by_season_phase": {
+    "OFF_EARLY": [
+     "VOL1",
+     "VOL2",
+     "VOL3"
+    ],
+    "OFF_BUILD": [
+     "VOL1",
+     "VOL2",
+     "VOL3"
+    ],
+    "OFF_LATE": [
+     "VOL2",
+     "VOL3",
+     "VOL3"
+    ],
+    "PRE": [
+     "VOL3"
+    ],
+    "IN": [
+     "VOL3"
+    ]
+   },
+   "off_late_single_block_step": {
+    "enabled": false,
+    "from": "VOL2",
+    "to": "VOL3",
+    "at": "after_halfway",
+    "refs": [
+     "PER-11"
+    ],
+    "status": "PROPOSED (F3, E-125): built, switched off - open question for the coach (minutes vs groups)"
+   }
+  },
+  "preference": {
+   "volume_lighter": {
+    "big_compound_shift": 1
+   },
+   "balanced": {
+    "big_compound_shift": 0
+   },
+   "heavy_powerlifting": {
+    "first_lift_of_day_shift": -2,
+    "only_rep_classes": [
+     "main_bilateral_compound"
+    ],
+    "refs": [
+     "VOL-12",
+     "UNI-04"
+    ],
+    "f3_status": "PROPOSED (F3, E-131): two classes (was -1)"
+   },
+   "weekly_sets_unchanged": true,
+   "refs": [
+    "VOL-12"
+   ]
+  },
+  "pyramid": {
+   "notation": "12/10/8 -20",
+   "sets": [
+    {
+     "reps": 12,
+     "load": "mid"
+    },
+    {
+     "reps": 10,
+     "load": "heavier"
+    },
+    {
+     "reps": 8,
+     "load": "heaviest"
+    },
+    {
+     "reps": 20,
+     "load": "light"
+    }
+   ],
+   "min_level": "L2",
+   "on": "first_main_bilateral_compound",
+   "when_sets_gte": 4,
+   "refs": [
+    "PRG-07",
+    "VOL-12",
+    "PER-02"
+   ],
+   "never_lift_styles": [
+    "heavy_powerlifting"
+   ],
+   "decide": "exercise_block_peak_sets"
+  },
+  "notation": {
+   "per_side": "{n}/{n}",
+   "refs": [
+    "PRG-07",
+    "UNI-01"
+   ]
+  },
+  "refs": [
+   "VOL-11",
+   "VOL-12",
+   "UNI-04",
+   "PER-11",
+   "PRG-06"
+  ],
+  "stay_active_compound_by_block": [
+   "b12_15",
+   "b8_12",
+   "b8_12"
+  ],
+  "rep_hint": {
+   "honour": true,
+   "classes": [
+    "bodyweight_loaded",
+    "eccentric",
+    "plyo_unilateral"
+   ],
+   "ids_low_cap": {
+    "nordic-hamstring-curl": [
+     3,
+     8
+    ]
+   },
+   "bodyweight_vertical_pull": [
+    5,
+    10
+   ],
+   "weighted": [
+    4,
+    8
+   ],
+   "refs": [
+    "VOL-11",
+    "CAT-09",
+    "GEN-04"
+   ],
+   "cap_max_compound_lte": 10,
+   "cap_max_status": "PROPOSED (F3, E-124): athletes' VOL phases only"
+  },
+  "core_hold_seconds": {
+   "default": [
+    20,
+    40
+   ],
+   "copenhagen_L1_L2": [
+    10,
+    30
+   ]
+  },
+  "class_levels": {
+   "strength": [
+    {
+     "sets": 3,
+     "reps": 7
+    },
+    {
+     "sets": 3,
+     "reps": 6
+    },
+    {
+     "sets": 3,
+     "reps": 5
+    },
+    {
+     "sets": 3,
+     "reps": 4
+    }
+   ],
+   "strength_end": "work_up_to_1rm",
+   "power": [
+    {
+     "sets": 3,
+     "reps": 4
+    },
+    {
+     "sets": 3,
+     "reps": 3
+    },
+    {
+     "sets": 3,
+     "reps": 2
+    },
+    {
+     "sets": 3,
+     "reps": 1
+    }
+   ],
+   "resistance": [
+    {
+     "sets": 2,
+     "reps": 10
+    },
+    {
+     "sets": 3,
+     "reps": 10
+    }
+   ],
+   "bodyweight_pull": [
+    5,
+    8
+   ],
+   "refs": [
+    "OT17",
+    "OT18",
+    "ORD-07",
+    "VOL-12"
+   ],
+   "status": "OBSERVED (HALF TIME class table)",
+   "strength_buckets": [
+    "RP_BKD",
+    "RP_BHD",
+    "RP_VPUSH",
+    "RP_HPUSH"
+   ],
+   "strength_buckets_status": "PROPOSED (F3, E-126)"
+  }
+ },
+ "effort": {
+  "rir_band": [
+   1,
+   3
+  ],
+  "planned_from_stairway": true,
+  "planned_map": {
+   "2": {
+    "min": 2,
+    "max": 2
+   },
+   "3": {
+    "min": 3,
+    "max": 3
+   },
+   "1-2": {
+    "min": 1,
+    "max": 2
+   },
+   "1+": {
+    "min": 1,
+    "max": 1,
+    "intensifiers": true
+   }
+  },
+  "compound_floor_rir": 1,
+  "by_block_type": {
+   "maintenance": {
+    "min": 2,
+    "max": 3
+   },
+   "pre_season": {
+    "min": 2,
+    "max": 2
+   },
+   "taper": {
+    "min": 2,
+    "max": 3
+   },
+   "in_season": {
+    "min": 2,
+    "max": 3
+   },
+   "recovery": {
+    "min": 3,
+    "max": 4
+   }
+  },
+  "rpe_for_rir": {
+   "0": 10,
+   "1": 9,
+   "2": 8,
+   "3": 7,
+   "4": 6
+  },
+  "max": {
+   "allowed_rep_classes": [
+    "small_muscle_isolation",
+    "rear_delts",
+    "calves"
+   ],
+   "allowed_bodyweight": true,
+   "last_set_only": true,
+   "only_last_small_item": true,
+   "phases": [
+    "DRIVE",
+    "HARDEST"
+   ]
+  },
+  "myo": {
+   "last_item_of_day_only": true,
+   "requires": [
+    "isolation_or_constraint_gte_4"
+   ],
+   "when": [
+    "last_week_of_stairway",
+    "muscle_at_cap_in_HARDEST"
+   ],
+   "counts_as": 2,
+   "never_in_block_types": [
+    "recovery",
+    "maintenance",
+    "taper",
+    "pre_season",
+    "in_season"
+   ]
+  },
+  "never_failure_rep_classes": [
+   "main_bilateral_compound",
+   "unilateral_compound",
+   "machine_stable_compound",
+   "olympic"
+  ],
+  "strength_roles": {
+   "work": [
+    1,
+    1
+   ],
+   "accessory": [
+    2,
+    2
+   ],
+   "nuance": "max",
+   "survival": "done"
+  },
+  "speed_work": {
+   "key": "effort.fast_rpe6"
+  },
+  "athletic": {
+   "key": "effort.max_intent"
+  },
+  "olympic": {
+   "key": "effort.olympic_power",
+   "pct": "never_by_default",
+   "pct_requires": [
+    "tested_best_same_lift",
+    "coach_opt_in"
+   ]
+  },
+  "week1_tip_key": "load.week1_tip",
+  "refs": [
+   "VOL-13",
+   "VOL-15",
+   "GEN-08",
+   "ORD-07",
+   "R2-VOL-02",
+   "R2-PER-05",
+   "R2-GEN-06",
+   "R2-ATH-05"
+  ],
+  "status": "planned 3 -> 1 RIR drift PROPOSED (flagged vs VOL-13)",
+  "r3": "R3-VOL-04",
+  "hold_key": "effort.hold_quality",
+  "circuit_keys": {
+   "resistance": "effort.circuit_resistance",
+   "metabolic": "effort.circuit_metabolic"
+  },
+  "intensifiers": {
+   "last_week_only": true,
+   "per_day": 1,
+   "kind": "myo",
+   "also_max": false,
+   "eligible": "last small-muscle (side / rear delts, biceps, triceps, calves) or machine isolation exercise of the day",
+   "never_credit_classes": [
+    "GLUTE_ISO",
+    "BKD",
+    "BHD",
+    "UKD",
+    "UHD",
+    "HPUSH",
+    "VPUSH",
+    "HPULL",
+    "VPULL"
+   ],
+   "never_calves_hotspots": [
+    "ACHILLES_CALF"
+   ],
+   "refs": [
+    "R3-VOL-04",
+    "VOL-13",
+    "VOL-15"
+   ],
+   "status": "COACH-R3 R3-VOL-04 (last week); one per day PROPOSED"
+  },
+  "circuit_rir": {
+   "key": "effort.circuit_rir",
+   "bodyweight_key": "effort.circuit_rir_bw",
+   "refs": [
+    "R2-PER-05",
+    "R3-VOL-04"
+   ],
+   "status": "INFERRED (B3)"
+  },
+  "circuit_intensifier": {
+   "enabled": true,
+   "kind": "hold",
+   "per_day": 1,
+   "hold_s": 10,
+   "refs": [
+    "R3-VOL-04",
+    "VOL-15"
+   ],
+   "status": "PROPOSED (F3, E-119): the hold as the circuit intensifier"
+  }
+ },
+ "rest": {
+  "hypertrophy_s": [
+   60,
+   120
+  ],
+  "hypertrophy_max_s": 180,
+  "isolation_s": [
+   60,
+   90
+  ],
+  "strength_s": [
+   180,
+   360
+  ],
+  "core_s": [
+   30,
+   60
+  ],
+  "olympic_s": [
+   120,
+   180
+  ],
+  "plyo_work_rest": [
+   5,
+   10
+  ],
+  "depth_jump_s": [
+   120,
+   180
+  ],
+  "throw_s": [
+   45,
+   90
+  ],
+  "prehab_s": [
+   30,
+   60
+  ],
+  "superset": "after_pair",
+  "athletic": "as_prescribed",
+  "refs": [
+   "VOL-14"
+  ],
+  "strength_for": [
+   "test",
+   "work_main_bilateral",
+   "reps_max_lte_8_shifted"
+  ],
+  "pair_with_work_lift": "strength",
+  "after_pair_numbers": true,
+  "after_pair_status": "PROPOSED (F3, E-118): each item's own class rest; the pair rests the longest"
+ },
+ "athletic": {
+  "ground_contact_classes": {
+   "1": {
+    "end": 0.75
+   },
+   "2": {
+    "end": 0.6
+   },
+   "3": {
+    "end": 0.5
+   },
+   "4": {
+    "end": 0.4
+   },
+   "5": {
+    "end": 0.25
+   }
+  },
+  "block_start_offset": -0.15,
+  "share_floor": 0,
+  "share_ceiling": 0.8,
+  "share_counted_over": [
+   "plyometric",
+   "ballistic",
+   "throw"
+  ],
+  "throws_count_as": "ballistic",
+  "classification": {
+   "ballistic": [
+    "squat jumps",
+    "box jumps",
+    "broad jumps",
+    "loaded / hex-bar jumps",
+    "medball throws",
+    "KB swings"
+   ],
+   "plyometric": [
+    "pogo / ankle hops",
+    "hurdle hops",
+    "depth jumps",
+    "bounds",
+    "squirrel jumps",
+    "repeated jumps"
+   ],
+   "receive": [
+    "stick-the-landing drills"
+   ]
+  },
+  "stages": {
+   "ids": [
+    "RC1",
+    "RC2",
+    "RC3"
+   ],
+   "weeks_by_N": {
+    "2": {
+     "RC1": [
+      1,
+      1
+     ],
+     "RC2": [
+      2,
+      2
+     ],
+     "RC3": null
+    },
+    "3": {
+     "RC1": [
+      1,
+      1
+     ],
+     "RC2": [
+      2,
+      2
+     ],
+     "RC3": [
+      3,
+      3
+     ]
+    },
+    "4": {
+     "RC1": [
+      1,
+      1
+     ],
+     "RC2": [
+      2,
+      2
+     ],
+     "RC3": [
+      3,
+      4
+     ]
+    },
+    "5": {
+     "RC1": [
+      1,
+      1
+     ],
+     "RC2": [
+      2,
+      3
+     ],
+     "RC3": [
+      4,
+      5
+     ]
+    },
+    "6": {
+     "RC1": [
+      1,
+      2
+     ],
+     "RC2": [
+      3,
+      4
+     ],
+     "RC3": [
+      5,
+      6
+     ]
+    },
+    "7": {
+     "RC1": [
+      1,
+      2
+     ],
+     "RC2": [
+      3,
+      4
+     ],
+     "RC3": [
+      5,
+      7
+     ]
+    },
+    "8": {
+     "RC1": [
+      1,
+      2
+     ],
+     "RC2": [
+      3,
+      5
+     ],
+     "RC3": [
+      6,
+      8
+     ]
+    },
+    "9": {
+     "RC1": [
+      1,
+      2
+     ],
+     "RC2": [
+      3,
+      5
+     ],
+     "RC3": [
+      6,
+      9
+     ]
+    },
+    "10": {
+     "RC1": [
+      1,
+      3
+     ],
+     "RC2": [
+      4,
+      6
+     ],
+     "RC3": [
+      7,
+      10
+     ]
+    },
+    "11": {
+     "RC1": [
+      1,
+      3
+     ],
+     "RC2": [
+      4,
+      7
+     ],
+     "RC3": [
+      8,
+      11
+     ]
+    },
+    "12": {
+     "RC1": [
+      1,
+      3
+     ],
+     "RC2": [
+      4,
+      7
+     ],
+     "RC3": [
+      8,
+      12
+     ]
+    },
+    "13": {
+     "RC1": [
+      1,
+      3
+     ],
+     "RC2": [
+      4,
+      7
+     ],
+     "RC3": [
+      8,
+      13
+     ]
+    },
+    "14": {
+     "RC1": [
+      1,
+      4
+     ],
+     "RC2": [
+      5,
+      9
+     ],
+     "RC3": [
+      10,
+      14
+     ]
+    },
+    "15": {
+     "RC1": [
+      1,
+      4
+     ],
+     "RC2": [
+      5,
+      9
+     ],
+     "RC3": [
+      10,
+      15
+     ]
+    },
+    "16": {
+     "RC1": [
+      1,
+      4
+     ],
+     "RC2": [
+      5,
+      9
+     ],
+     "RC3": [
+      10,
+      16
+     ]
+    }
+   },
+   "start_stage": "RC1",
+   "may_start_RC2_levels": [
+    "L2",
+    "L3"
+   ],
+   "start_RC2_default": false,
+   "maintenance": "hold",
+   "pre_season": "hold",
+   "restart_each_off_season": true,
+   "within_stage": [
+    "bilateral_before_unilateral",
+    "unloaded_before_loaded"
+   ],
+   "stage_qualities": {
+    "RC1": [
+     "landing",
+     "ballistic"
+    ],
+    "RC2": [
+     "landing",
+     "ballistic",
+     "plyometric"
+    ],
+    "RC3": [
+     "ballistic",
+     "plyometric"
+    ]
+   },
+   "refs": [
+    "R2-ATH-03",
+    "CAT-10",
+    "CAT-11"
+   ],
+   "align_to_exercise_blocks": {
+    "rule": "majority_of_weeks_ties_lower_one_step_at_a_time",
+    "single_block_start": {
+     "L1": "RC1",
+     "L2": "RC2",
+     "L3": "RC2"
+    },
+    "refs": [
+     "R2-ATH-03",
+     "PER-02",
+     "CAT-10"
+    ],
+    "status": "INFERRED (B2): the approved stage weeks snapped to the exercise blocks"
+   },
+   "pre_season_after_single_block": "advance_one"
+  },
+  "contacts_per_session_max": {
+   "L1": 80,
+   "L2": 100,
+   "L3": 120
+  },
+  "plyo_sessions_per_week": [
+   2,
+   3
+  ],
+  "same_area_gap_h": [
+   48,
+   72
+  ],
+  "masters_gap_days": [
+   3,
+   4
+  ],
+  "loaded_jump_bw_pct": [
+   10,
+   20
+  ],
+  "heights": {
+   "depth_drop": {
+    "low": "6-12 in",
+    "medium": "12-18 in",
+    "high": "above hip"
+   },
+   "hurdles": {
+    "moderate": "6 in",
+    "advanced": "12 in+"
+   }
+  },
+  "contrast": {
+   "min_level": "L2",
+   "season": [
+    "OFF_EARLY",
+    "OFF_BUILD",
+    "OFF_LATE"
+   ],
+   "heavy_pct": [
+    78,
+    85
+   ],
+   "rest_inside": 0,
+   "enabled_phase0": false
+  },
+  "speed_session_order": [
+   "squirrel_jumps",
+   "mach_acceleration",
+   "max_velocity"
+  ],
+  "tiers": {
+   "plyometric_contacts_wk": {
+    "T1": [
+     1,
+     25
+    ],
+    "T2": [
+     26,
+     50
+    ],
+    "T3": [
+     51,
+     80
+    ],
+    "T4": [
+     81,
+     110
+    ],
+    "T5": [
+     111,
+     150
+    ]
+   },
+   "throws_wk": {
+    "T1": [
+     1,
+     60
+    ],
+    "T2": [
+     61,
+     120
+    ],
+    "T3": [
+     121,
+     240
+    ],
+    "T4": [
+     241,
+     420
+    ],
+    "T5": [
+     421,
+     600
+    ]
+   },
+   "cuts_wk": {
+    "T1": [
+     1,
+     30
+    ],
+    "T2": [
+     31,
+     70
+    ],
+    "T3": [
+     71,
+     120
+    ],
+    "T4": [
+     121,
+     180
+    ],
+    "T5": [
+     181,
+     260
+    ]
+   }
+  },
+  "in_season_game_heavy": {
+   "sports": [
+    "basketball",
+    "volleyball",
+    "soccer",
+    "american_football",
+    "flag_football",
+    "ice_hockey",
+    "lacrosse",
+    "field_hockey",
+    "rugby",
+    "ultimate",
+    "beach_volleyball"
+   ],
+   "plyo_factor": 0.5,
+   "extra_cod": false,
+   "sprints": "speed_athletes_only",
+   "hard_day_gap_h": 48,
+   "olympic": {
+    "sets": 2,
+    "reps": 3,
+    "dropped_heavy_game_weeks": true
+   },
+   "refs": [
+    "R2-ATH-07"
+   ],
+   "r3": "R3-ATH-04 (sports he did not name)"
+  },
+  "heavy_play_weeks": {
+   "min_play_sessions": 3,
+   "plyo_factor": 0.5,
+   "extra_cod": false,
+   "olympic": "light_2x3",
+   "hard_day_gap_h": 48,
+   "refs": [
+    "R2-ATH-07"
+   ],
+   "r3": "R3-ATH-05",
+   "status": "approved (R3-ATH-05)"
+  },
+  "never_counts_to_muscles": true,
+  "refs": [
+   "ATH-01",
+   "ATH-02",
+   "CAT-10",
+   "CAT-11",
+   "VOL-10",
+   "EQ-15",
+   "EQ-16",
+   "R2-ATH-01",
+   "R2-ATH-02"
+  ],
+  "reconcile": {
+   "enabled": true,
+   "tolerance": 0.25,
+   "olympic_max_factor": 1.5,
+   "contact_rise_max": 0.2,
+   "per_set_max": {
+    "plyo_contacts": 10,
+    "jump_contacts": 8,
+    "low_contacts": 25,
+    "throws": 20,
+    "cod_cuts": 12,
+    "sprint_m": 240,
+    "upper_contacts": 10
+   },
+   "per_set_min": {
+    "plyo_contacts": 3,
+    "jump_contacts": 3,
+    "low_contacts": 6,
+    "throws": 6,
+    "cod_cuts": 4,
+    "sprint_m": 40,
+    "upper_contacts": 3
+   },
+   "stations_per_day_max": {
+    "AP_COD": 2,
+    "AP_SPRINT": 1,
+    "AP_THROW": 2,
+    "AP_JUMP_LIMITED_KNEE": 1
+   },
+   "unilateral_contacts_per_leg_max": 6,
+   "refs": [
+    "R2-ATH-01",
+    "ATH-01",
+    "ATH-06",
+    "D-63"
+   ],
+   "status": "PROPOSED (v1.2 review; B2: capacity scaling, climb, test-week hold, both legs counted)",
+   "scale_to_capacity": true,
+   "climb": true,
+   "hold_end_test_week": true,
+   "unilateral_counts_both_legs": true,
+   "unilateral_contacts_per_leg_max_low": 15,
+   "upper_contacts_key": "upper_contacts",
+   "climb_families": {
+    "contacts": [
+     "plyo_contacts",
+     "jump_contacts",
+     "low_contacts"
+    ],
+    "throws": [
+     "throws"
+    ],
+    "cod_cuts": [
+     "cod_cuts"
+    ],
+    "sprint_m": [
+     "sprint_m"
+    ]
+   },
+   "unilateral_contacts_per_leg_min": 2
+  },
+  "sprint": {
+   "reps": [
+    3,
+    6
+   ],
+   "metres_by_drill": {
+    "acceleration": [
+     10,
+     20
+    ],
+    "max_velocity": [
+     30,
+     40
+    ],
+    "default": [
+     10,
+     30
+    ]
+   },
+   "round_m": 5,
+   "focus_from_profile": "sprint_focus",
+   "refs": [
+    "LIB-21",
+    "ATH-01"
+   ],
+   "status": "PROPOSED (B2 distances)"
+  },
+  "plyo_exclusions_by_profile": true,
+  "landing_rc1_only": true,
+  "box_height_from_record": {
+   "low": "low|half-shin|step",
+   "medium": "medium|knee",
+   "high": "high|hip"
+  },
+  "response_cues": {
+   "landing": "note.rc1",
+   "single_ballistic": "note.ballistic_single",
+   "single_plyometric": "note.rc2",
+   "repeat_low": "note.repeat_low",
+   "repeat": "note.rc3",
+   "refs": [
+    "R2-ATH-02",
+    "R2-ATH-03"
+   ],
+   "status": "PROPOSED (B2 cue words)"
+  },
+  "rc3_plyometric_response": "repeat",
+  "split": {
+   "share_counts": {
+    "plyometric": [
+     "plyo_contacts",
+     "low_contacts"
+    ],
+    "over": [
+     "plyo_contacts",
+     "jump_contacts",
+     "low_contacts",
+     "throws"
+    ]
+   },
+   "high_contacts_include_plyo": true,
+   "low_capped_by_share": true,
+   "stage1_reactive_jumps": 0,
+   "refs": [
+    "R2-ATH-01",
+    "R2-ATH-02",
+    "R3-ATH-01"
+   ],
+   "status": "INFERRED reading of the 04 numbers (B2)"
+  },
+  "first_reactive": {
+   "bilateral_first_stage_block": true,
+   "unloaded_first_stage_block": true,
+   "drop_height_first": "low",
+   "heavy_bw_lb": 220,
+   "depth_jump_max_wk": 2,
+   "depth_jump_max_wk_heavy_or_l1": 1,
+   "single_leg_reactive_after_bilateral_block": true,
+   "first_block_bilateral_landing": true,
+   "refs": [
+    "CAT-10",
+    "R2-ATH-03"
+   ],
+   "status": "INFERRED thresholds (B2), coach to confirm"
+  },
+  "circuit_ballistic": {
+   "enabled": true,
+   "families": [
+    "fat_loss_bootcamp"
+   ],
+   "per_week": 2,
+   "throw_kinds": [
+    "slam",
+    "overhead",
+    "wall_ball"
+   ],
+   "swing": true,
+   "throw_seconds": 3,
+   "refs": [
+    "ATH-05",
+    "R2-VOL-05",
+    "04 general_population medball"
+   ],
+   "status": "INFERRED (B2), coach to confirm"
+  },
+  "hyrox": {
+   "station_ids": [
+    "sled-push",
+    "sled-rope-pull-hand-over-hand",
+    "sled-drag-forward",
+    "burpee-broad-jump",
+    "wall-ball-medball-squat-to-target",
+    "farmer-carry",
+    "sandbag-walking-lunge-bag-on-shoulders",
+    "skierg-calorie-sprint",
+    "rower-calorie-sprint",
+    "burpees"
+   ],
+   "station_variants": [
+    "hyrox_station",
+    "hyrox_run_station"
+   ],
+   "run_station_note": "note.hyrox_run_station",
+   "wall_ball_max_lb": 20,
+   "finisher": {
+    "rounds": [
+     2,
+     3
+    ],
+    "work_s": [
+     30,
+     45
+    ]
+   },
+   "refs": [
+    "R3-ATH-03"
+   ],
+   "status": "approved (R3-ATH-03); station list order and finisher dose PROPOSED"
+  },
+  "cod": {
+   "sport_only_field": "athletic.sport_only",
+   "no_cuts_field": "athletic.no_cuts",
+   "route_sports": [
+    "american_football",
+    "flag_football"
+   ],
+   "refs": [
+    "ATH-01",
+    "04 cod_sport"
+   ],
+   "status": "INFERRED (B2)"
+  },
+  "f2": {
+   "share": {
+    "tolerance": 0.05,
+    "enforce": true,
+    "refs": [
+     "R2-ATH-01",
+     "R2-ATH-02",
+     "R3-ATH-01",
+     "R3-ATH-04"
+    ],
+    "status": "PROPOSED (F2): tolerance 5 points"
+   },
+   "ankle_block": {
+    "outside_day_split": true,
+    "outside_athlete_cap": true,
+    "time_class": "ankle",
+    "bone_loading_days": 2,
+    "bone_loading_min_peak": 40,
+    "bone_loading_codes": [
+     "BONE_LOADING_NON_IMPACT"
+    ],
+    "keep_for_ankle_track": true,
+    "keep_from_minutes": 45,
+    "refs": [
+     "R2-ATH-02",
+     "R3-SES-01",
+     "R3-ATH-01",
+     "R3-ATH-02",
+     "SCIENCE AQ8"
+    ],
+    "status": "PROPOSED (F2)"
+   },
+   "tracks": {
+    "from_budget": true,
+    "per_station": {
+     "jumps": 16,
+     "throws": 20,
+     "low_contacts": 40,
+     "cod_cuts": 24
+    },
+    "max_stations": {
+     "jumps": 3,
+     "throws": 2,
+     "low_contacts": 2,
+     "cod_cuts": 3,
+     "sprint_m": 2
+    },
+    "sprint_second_station": true,
+    "add_from_minutes": 60,
+    "refs": [
+     "R2-ATH-01",
+     "R3-ATH-01",
+     "R3-SES-01",
+     "D-63",
+     "D-73"
+    ],
+    "status": "PROPOSED (F2): station sizes and caps"
+   },
+   "ballistic_stage_cues": {
+    "RC1": "note.ballistic_stick",
+    "RC2": "note.ballistic_land_go",
+    "RC3": "note.ballistic_repeat",
+    "refs": [
+     "R2-ATH-03",
+     "CAT-10"
+    ],
+    "status": "PROPOSED (F2) cue words"
+   },
+   "stage_drill_change": {
+    "enabled": true,
+    "ankle_first_block_in_place": true,
+    "refs": [
+     "R2-ATH-03",
+     "CAT-10",
+     "PER-02"
+    ],
+    "status": "PROPOSED (F2)"
+   },
+   "throws": {
+    "per_set": [
+     6,
+     10
+    ],
+    "per_side": [
+     5,
+     10
+    ],
+    "situp_range": [
+     6,
+     10
+    ],
+    "one_side_id_re": "-(left|right)-facing-",
+    "majority_plane_first": true,
+    "refs": [
+     "LIB-22",
+     "ATH-05"
+    ],
+    "status": "PROPOSED (F2)"
+   },
+   "cod": {
+    "reps_from_cuts_per_rep": true,
+    "reactive_drill_ids": [
+     "split-step-reaction-drill"
+    ],
+    "cuts_per_rep": {
+     "5-10-5-pro-agility-shuttle": 2,
+     "l-test-l-drill-3-cone-inferred-from-left-test": 3,
+     "lateral-shuffles": 1,
+     "split-step-reaction-drill": 1
+    },
+    "refs": [
+     "ATH-01",
+     "04 cod"
+    ],
+    "status": "PROPOSED (F2)"
+   },
+   "contacts_per_cycle": {
+    "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward": 5,
+    "single-leg-right-angle-ankle-hops": 5
+   },
+   "sprint": {
+    "max_velocity_station": true,
+    "refs": [
+     "LIB-21",
+     "04 sprint.focus"
+    ],
+    "status": "PROPOSED (F2)"
+   },
+   "olympic_ceiling": {
+    "enabled": true,
+    "hang_before_floor": true,
+    "refs": [
+     "ATH-10",
+     "R2-ATH-04",
+     "04 triple_ext.ceiling"
+    ],
+    "status": "PROPOSED (F2)"
+   },
+   "pre_season_after_single_block": "advance_one",
+   "pick_ok_ids": [
+    "broad-jump",
+    "squat-jump-high-bodyweight-or-lightly-loaded",
+    "streamline-squat-jump-arms-overhead",
+    "split-step-reaction-drill",
+    "stick-the-landing-bilateral-jump-drop-and-freeze-the-landing",
+    "bilateral-jump-on-to-box-jump-land-softly-on-top",
+    "single-leg-broad-jump"
+   ],
+   "refs": [
+    "R2-ATH-01",
+    "R2-ATH-02",
+    "R2-ATH-03",
+    "R3-ATH-01",
+    "R3-ATH-02",
+    "R3-ATH-04",
+    "R3-VOL-04",
+    "R3-SES-02"
+   ],
+   "status": "PROPOSED (F2, engine/DECISIONS.md E-97 ... E-110)"
+  }
+ },
+ "olympic": {
+  "everyone_athletic": true,
+  "families": [
+   "clean",
+   "snatch",
+   "jerk",
+   "loaded_jump",
+   "swing"
+  ],
+  "day_pattern": {
+   "clean": "knee",
+   "loaded_jump": "knee",
+   "snatch": "hip",
+   "swing": "hip",
+   "jerk": "either"
+  },
+  "per_week_max": 4,
+  "tiers": {
+   "L1": {
+    "applies": [
+     "L1",
+     "L2_block_1"
+    ],
+    "examples": [
+     "single-arm-db-snatch",
+     "kb-squat-clean",
+     "db-kb-high-pull",
+     "hex-bar-jump-squat",
+     "high-hang-clean-pull",
+     "high-hang-snatch-pull",
+     "hang-power-clean-from-the-high-hang-hip-crease",
+     "db-push-press",
+     "barbell-push-press",
+     "kettlebell-swing-russian"
+    ]
+   },
+   "L2_plus": {
+    "applies": [
+     "L2_block_2_plus",
+     "L3"
+    ],
+    "examples": [
+     "power-clean",
+     "power-snatch",
+     "power-clean-and-jerk",
+     "barbell-push-jerk",
+     "clean-squat-clean",
+     "snatch-squat-snatch"
+    ]
+   }
+  },
+  "ramp": [
+   {
+    "pct": 75,
+    "sets": 4,
+    "reps": 8
+   },
+   {
+    "pct": 80,
+    "sets": 4,
+    "reps": 6
+   },
+   {
+    "pct": 85,
+    "sets": 4,
+    "reps": 6
+   },
+   {
+    "pct": 90,
+    "sets": 4,
+    "reps": 4
+   }
+  ],
+  "ramp_applies_to": [
+   "db_kb",
+   "pulls",
+   "hang_variants"
+  ],
+  "full_catch_reps": [
+   3,
+   5
+  ],
+  "full_catch_same_weekly_reps": true,
+  "power_language": true,
+  "pct": {
+   "shown": false,
+   "requires": [
+    "tested_best_same_lift",
+    "coach_opt_in"
+   ],
+   "competitive_weightlifting": "own_program_v2"
+  },
+  "no_bumpers": "hang_variants",
+  "older": {
+   "default": false,
+   "opt_in": true,
+   "opt_in_excludes_tags": [
+    "snatch"
+   ]
+  },
+  "youth_floor_min_age": 14,
+  "youth_floor_after_hang_block": true,
+  "in_season": {
+   "sets": 2,
+   "reps": 3,
+   "per_week": 1,
+   "dropped_heavy_game_weeks": true
+  },
+  "endurance_profiles_small_dose": {
+   "sets": [
+    2,
+    3
+   ],
+   "exposures": [
+    1,
+    2
+   ]
+  },
+  "refs": [
+   "ATH-10",
+   "ATH-09",
+   "LIB-07",
+   "LIB-13",
+   "PER-09",
+   "R2-ATH-04",
+   "R2-ATH-05",
+   "R2-ATH-08",
+   "R2-GEN-06"
+  ],
+  "sets": {
+   "from_budget": true,
+   "min_per_exposure": 2,
+   "max_per_exposure": 4,
+   "stay_active": {
+    "sets": 2,
+    "reps": [
+     3,
+     6
+    ],
+    "heavy_play": {
+     "sets": 2,
+     "reps": 3
+    }
+   },
+   "ramp_for": [
+    "competitive",
+    "strength"
+   ],
+   "refs": [
+    "R2-ATH-04",
+    "R2-ATH-05",
+    "PER-09",
+    "VOL-16",
+    "R3-VOL-04"
+   ],
+   "climb": true,
+   "distribute": "day_order",
+   "hold_end_test_week": true
+  },
+  "rep_scheme": {
+   "ramp": [
+    "db_kb",
+    "pull"
+   ],
+   "three_to_five": [
+    "barbell_power_catch",
+    "barbell_squat_catch"
+   ],
+   "by": "implement_and_catch",
+   "refs": [
+    "R2-ATH-05"
+   ]
+  },
+  "ramp_carries_across_blocks": true,
+  "max_exposures_from_profile": true
+ },
+ "medball": {
+  "max_lb": 20,
+  "loads_lb": {
+   "pass_rotation": [
+    8,
+    10
+   ],
+   "overhead": [
+    6,
+    10
+   ],
+   "situp": [
+    6,
+    8
+   ],
+   "slam": [
+    10,
+    20
+   ],
+   "warmup": [
+    6,
+    10
+   ],
+   "wall_ball": [
+    10,
+    20
+   ]
+  },
+  "youth_older_minus_lb": 2,
+  "min_lb": 4,
+  "dose": {
+   "reps_per_side": 10,
+   "all_list_throws": 19
+  },
+  "aesthetics_main": false,
+  "aesthetics_warmup_only": true,
+  "no_ball_substitutes": [
+   "plyometric-push-ups",
+   "cable-oblique-rotation-cable-rotational-twist",
+   "fake-medball-slam-and-return-any-way-possible-upper-body-trunk-amortization-dril"
+  ],
+  "refs": [
+   "ATH-05",
+   "EQ-06",
+   "EQ-07",
+   "LIB-06",
+   "LIB-22"
+  ],
+  "no_ball_only_ids": [
+   "fake-medball-slam-and-return-any-way-possible-upper-body-trunk-amortization-dril"
+  ]
+ },
+ "conditioning": {
+  "sessions": {
+   "fat_loss": 3,
+   "general": 3,
+   "active": 3,
+   "aesthetics": 4,
+   "athlete_in": 2,
+   "athlete_pre": 2,
+   "powerlifter": 2,
+   "hybrid": 2,
+   "sport_is_aerobic": 0,
+   "crossfit_class": 3
+  },
+  "from_profile": true,
+  "cardio_adjust": {
+   "min": -3,
+   "max": 3,
+   "floor_total": 0,
+   "extra_colour": "C"
+  },
+  "activity_counts_as_aerobic": {
+   "enabled": true,
+   "max_replaced": 2,
+   "min_minutes": 45,
+   "keep_gym_led_min": 1,
+   "r3": "R3-ATH-05",
+   "status": "PROPOSED"
+  },
+  "walks": {
+   "goals": [
+    "muscle"
+   ],
+   "minutes": [
+    20,
+    30
+   ]
+  },
+  "colours": [
+   "A",
+   "B",
+   "C",
+   "LC"
+  ],
+  "fill_order": [
+   "C",
+   "B",
+   "A"
+  ],
+  "extra_colour": "C",
+  "unlock": {
+   "hybrid_crossfit": {
+    "L1": [
+     "C",
+     "B"
+    ],
+    "L2": [
+     "C",
+     "B",
+     "A"
+    ],
+    "L3": [
+     "C",
+     "B",
+     "A",
+     "LC"
+    ]
+   }
+  },
+  "minutes": {
+   "A": [
+    15,
+    20
+   ],
+   "B": [
+    20,
+    30
+   ],
+   "C": [
+    30,
+    40
+   ],
+   "LC": [
+    20,
+    30
+   ]
+  },
+  "steady_max_min": 40,
+  "placement": [
+   "aerobic_day",
+   "optional_day",
+   "separate_free_day",
+   "addon_after"
+  ],
+  "fighter_addon": "open_day",
+  "keep_off_days_min": 1,
+  "recovery_week": "C_only",
+  "wod": {
+   "minutes": [
+    10,
+    20
+   ],
+   "wod_only_day_minutes": [
+    20,
+    30
+   ],
+   "formats": [
+    "amrap",
+    "emom",
+    "for_time"
+   ],
+   "stations": [
+    3,
+    4
+   ],
+   "ballistic_only_in_wod": [
+    "kb_swing",
+    "wall_ball"
+   ],
+   "rep_40_amrap_only_here": true,
+   "refs": [
+    "VOL-11",
+    "PRG-10"
+   ],
+   "status": "PROPOSED",
+   "short_minutes": [
+    10,
+    15
+   ],
+   "reps_by_group": {
+    "erg": {
+     "emom": 10,
+     "amrap": 12,
+     "for_time": 15
+    },
+    "swing": {
+     "emom": 12,
+     "amrap": 15,
+     "for_time": 15
+    },
+    "thruster": {
+     "emom": 8,
+     "amrap": 10,
+     "for_time": 12
+    },
+    "ball": {
+     "emom": 10,
+     "amrap": 15,
+     "for_time": 15
+    },
+    "rope": {
+     "emom": 30,
+     "amrap": 40,
+     "for_time": 50
+    },
+    "burpee": {
+     "emom": 8,
+     "amrap": 10,
+     "for_time": 10
+    },
+    "carry": {
+     "emom": 20,
+     "amrap": 40,
+     "for_time": 40
+    },
+    "jump": {
+     "emom": 8,
+     "amrap": 10,
+     "for_time": 10
+    },
+    "default": {
+     "emom": 8,
+     "amrap": 10,
+     "for_time": 12
+    },
+    "refs": [
+     "PRG-10",
+     "VOL-11"
+    ],
+    "status": "PROPOSED (an EMOM minute holds ~35-45 s of work)"
+   },
+   "for_time_rounds": [
+    3,
+    4
+   ],
+   "rotate_stations_week": true,
+   "exclude_day_pattern": true,
+   "weekly_must_have": [
+    "jump",
+    "ball_or_kb"
+   ],
+   "station_loads_lb": {
+    "thruster": {
+     "L1": [
+      15,
+      25
+     ],
+     "L2": [
+      25,
+      35
+     ],
+     "L3": [
+      35,
+      50
+     ],
+     "unit": "dumbbells"
+    },
+    "swing": {
+     "L1": [
+      18,
+      26
+     ],
+     "L2": [
+      26,
+      35
+     ],
+     "L3": [
+      35,
+      53
+     ],
+     "unit": "kettlebell"
+    },
+    "carry": {
+     "L1": [
+      25,
+      35
+     ],
+     "L2": [
+      35,
+      50
+     ],
+     "L3": [
+      50,
+      70
+     ],
+     "unit": "dumbbells"
+    }
+   },
+   "calorie_station_generic": true
+  },
+  "circuit_finisher": {
+   "rounds": [
+    3,
+    5
+   ],
+   "work_s": [
+    30,
+    50
+   ],
+   "refs": [
+    "PRG-11"
+   ]
+  },
+  "refs": [
+   "ATH-07",
+   "ORD-09",
+   "ORD-10",
+   "EQ-14",
+   "PRG-11",
+   "R2-SES-06",
+   "R2-ATH-06"
+  ],
+  "buyout_pool": {
+   "include_ids_re": "calorie|buy-out|fast-run",
+   "exclude_ids_re": "max-velocity|acceleration|falling-start|a-march|a-skip|a-runs|mach-sprint|high-knee",
+   "bouts": [
+    1,
+    3
+   ],
+   "calories": [
+    10,
+    20
+   ],
+   "seconds": [
+    15,
+    30
+   ],
+   "refs": [
+    "ORD-03",
+    "LIB-21",
+    "OBSERVED BASEBALL Part E"
+   ]
+  },
+  "circuit_pool_extra": [
+   "kettlebell-swing-russian",
+   "medball-chest-pass",
+   "medball-rotational-downward-slam",
+   "lateral-shuffles",
+   "skater-jumps-lateral-bounds",
+   "jumping-jacks"
+  ],
+  "circuit_pool_exclude_re": "interval|min-walk|20-s-fast",
+  "addon_placement": [
+   "aerobic_day",
+   "optional_day",
+   "separate_free_day",
+   "optional_day_any",
+   "addon_after_if_fits",
+   "separate_session"
+  ],
+  "required_on_optional_note": "note.aerobic_required",
+  "aerobic_b3": {
+   "ladder": {
+    "A": [
+     "aerobic-a-blue-10x10m-sprints",
+     "aerobic-a-blue-15-sec-run-45-sec-walk",
+     "aerobic-a-blue-20-sec-run-40-sec-walk",
+     "aerobic-a-blue-30-sec-run-30-sec-walk",
+     "aerobic-a-blue-40-sec-run-20-sec-walk"
+    ],
+    "B": [
+     "aerobic-b-green-1-minute-run-3-min-walk",
+     "aerobic-b-green-2-minute-run-4-min-walk",
+     "aerobic-b-green-3-minute-run-3-min-walk"
+    ],
+    "C": [
+     "aerobic-c-orange-5-minute-run-30-sec-walk",
+     "aerobic-c-orange-8-minute-run-1-minute-walk",
+     "aerobic-c-orange-11-minute-run-2-min-walk",
+     "aerobic-c-orange-2-mile-run"
+    ]
+   },
+   "level_start": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 2
+   },
+   "climb_per_exercise_block": 1,
+   "patterns": {
+    "aerobic-a-blue-10x10m-sprints": {
+     "kind": "sprints",
+     "n": 10,
+     "m": 10,
+     "s": 8
+    },
+    "aerobic-a-blue-15-sec-run-45-sec-walk": {
+     "kind": "intervals",
+     "work_s": 15,
+     "easy_s": 45
+    },
+    "aerobic-a-blue-20-sec-run-40-sec-walk": {
+     "kind": "intervals",
+     "work_s": 20,
+     "easy_s": 40
+    },
+    "aerobic-a-blue-30-sec-run-30-sec-walk": {
+     "kind": "intervals",
+     "work_s": 30,
+     "easy_s": 30
+    },
+    "aerobic-a-blue-40-sec-run-20-sec-walk": {
+     "kind": "intervals",
+     "work_s": 40,
+     "easy_s": 20
+    },
+    "aerobic-b-green-1-minute-run-3-min-walk": {
+     "kind": "intervals",
+     "work_s": 60,
+     "easy_s": 180
+    },
+    "aerobic-b-green-2-minute-run-4-min-walk": {
+     "kind": "intervals",
+     "work_s": 120,
+     "easy_s": 240
+    },
+    "aerobic-b-green-3-minute-run-3-min-walk": {
+     "kind": "intervals",
+     "work_s": 180,
+     "easy_s": 180
+    },
+    "aerobic-c-orange-5-minute-run-30-sec-walk": {
+     "kind": "intervals",
+     "work_s": 300,
+     "easy_s": 30
+    },
+    "aerobic-c-orange-8-minute-run-1-minute-walk": {
+     "kind": "intervals",
+     "work_s": 480,
+     "easy_s": 60
+    },
+    "aerobic-c-orange-11-minute-run-2-min-walk": {
+     "kind": "intervals",
+     "work_s": 660,
+     "easy_s": 120
+    },
+    "aerobic-c-orange-2-mile-run": {
+     "kind": "steady"
+    }
+   },
+   "modalities": [
+    "run",
+    "treadmill",
+    "bike",
+    "rower",
+    "ski_erg"
+   ],
+   "impact_free": [
+    "bike",
+    "rower",
+    "ski_erg"
+   ],
+   "impact_free_first_for_pain": [
+    "knee",
+    "ankle_foot",
+    "hip_groin"
+   ],
+   "running": [
+    "run",
+    "treadmill"
+   ],
+   "refs": [
+    "ATH-07",
+    "EQ-14",
+    "R2-SES-06"
+   ],
+   "status": "colours / minutes COACH-R2; ladder, level start, climb and modality naming PROPOSED (B3)"
+  }
+ },
+ "equipment": {
+  "profiles": {
+   "FULL_GYM": {
+    "kit": [
+     "anchor_point",
+     "barbell",
+     "bench",
+     "box",
+     "cable",
+     "cable_attachments",
+     "cardio_machine_cal",
+     "cones",
+     "decline_bench",
+     "dip_bars",
+     "dip_belt",
+     "dumbbell",
+     "ez_bar",
+     "floor",
+     "foam_roller",
+     "ghd",
+     "hex_bar",
+     "household",
+     "hyper_bench",
+     "jump_rope",
+     "kettlebell",
+     "landmine",
+     "machine_plate_loaded",
+     "machine_selectorized",
+     "machine_specialty",
+     "medball",
+     "open_space_short",
+     "partner_or_wall",
+     "plate_low_target",
+     "plyo_box_high",
+     "pullup_bar",
+     "rack",
+     "reverse_hyper",
+     "sandbag",
+     "seal_bench",
+     "slam_ball",
+     "sled",
+     "slider",
+     "smith",
+     "ssb",
+     "stability_ball",
+     "step_low",
+     "treadmill",
+     "trx",
+     "two_boxes",
+     "wall",
+     "weight_bench",
+     "weight_plate"
+    ]
+   },
+   "BASIC_GYM": {
+    "kit": [
+     "anchor_point",
+     "barbell",
+     "bench",
+     "box",
+     "cable",
+     "cable_attachments",
+     "cardio_machine_cal",
+     "cones",
+     "decline_bench",
+     "dip_bars",
+     "dip_belt",
+     "dumbbell",
+     "ez_bar",
+     "floor",
+     "foam_roller",
+     "household",
+     "hyper_bench",
+     "jump_rope",
+     "kettlebell",
+     "machine_plate_loaded",
+     "machine_selectorized",
+     "medball",
+     "open_space_short",
+     "partner_or_wall",
+     "plate_low_target",
+     "pullup_bar",
+     "rack",
+     "seal_bench",
+     "slam_ball",
+     "slider",
+     "smith",
+     "stability_ball",
+     "step_low",
+     "treadmill",
+     "two_boxes",
+     "wall",
+     "weight_bench",
+     "weight_plate"
+    ]
+   },
+   "HOME_BARBELL": {
+    "kit": [
+     "anchor_point",
+     "barbell",
+     "bench",
+     "box",
+     "cones",
+     "dumbbell",
+     "floor",
+     "household",
+     "open_space_long",
+     "open_space_short",
+     "partner_or_wall",
+     "plate_low_target",
+     "pullup_bar",
+     "rack",
+     "slider",
+     "step_low",
+     "wall",
+     "weight_bench",
+     "weight_plate"
+    ]
+   },
+   "HOME_DB_BENCH": {
+    "kit": [
+     "anchor_point",
+     "bench",
+     "box",
+     "cones",
+     "dumbbell",
+     "floor",
+     "household",
+     "open_space_long",
+     "open_space_short",
+     "partner_or_wall",
+     "slider",
+     "step_low",
+     "wall",
+     "weight_bench"
+    ]
+   },
+   "KB_ONLY": {
+    "kit": [
+     "anchor_point",
+     "bench",
+     "box",
+     "cones",
+     "floor",
+     "household",
+     "kettlebell",
+     "open_space_long",
+     "open_space_short",
+     "partner_or_wall",
+     "slider",
+     "step_low",
+     "wall"
+    ]
+   },
+   "BODYWEIGHT": {
+    "kit": [
+     "anchor_point",
+     "bench",
+     "box",
+     "cones",
+     "floor",
+     "household",
+     "open_space_long",
+     "open_space_short",
+     "partner_or_wall",
+     "slider",
+     "step_low",
+     "wall"
+    ]
+   },
+   "HOTEL_GYM": {
+    "kit": [
+     "anchor_point",
+     "bench",
+     "box",
+     "cardio_machine_cal",
+     "cones",
+     "dumbbell",
+     "floor",
+     "household",
+     "open_space_short",
+     "partner_or_wall",
+     "slider",
+     "stability_ball",
+     "step_low",
+     "treadmill",
+     "wall",
+     "weight_bench"
+    ]
+   },
+   "FIELD_TRACK_KIT": {
+    "kit": [
+     "anchor_point",
+     "bench",
+     "box",
+     "cones",
+     "floor",
+     "household",
+     "hurdles",
+     "jump_rope",
+     "medball",
+     "open_space_long",
+     "open_space_short",
+     "partner_or_wall",
+     "plate_low_target",
+     "slam_ball",
+     "slider",
+     "step_low",
+     "two_boxes",
+     "wall"
+    ]
+   },
+   "FULL_FACILITY": {
+    "kit": [
+     "anchor_point",
+     "barbell",
+     "barbell_bumpers_platform",
+     "belt_squat",
+     "bench",
+     "box",
+     "cable",
+     "cable_attachments",
+     "cardio_machine_cal",
+     "cones",
+     "decline_bench",
+     "dip_bars",
+     "dip_belt",
+     "dumbbell",
+     "ez_bar",
+     "farmer_handles",
+     "floor",
+     "foam_roller",
+     "ghd",
+     "hex_bar",
+     "household",
+     "hurdles",
+     "hyper_bench",
+     "jump_rope",
+     "kettlebell",
+     "landmine",
+     "machine_plate_loaded",
+     "machine_selectorized",
+     "machine_specialty",
+     "medball",
+     "open_space_long",
+     "open_space_short",
+     "partner_or_wall",
+     "plate_low_target",
+     "plyo_box_high",
+     "pullup_bar",
+     "rack",
+     "reverse_hyper",
+     "rings",
+     "sandbag",
+     "seal_bench",
+     "slam_ball",
+     "sled",
+     "slider",
+     "smith",
+     "ssb",
+     "stability_ball",
+     "step_low",
+     "treadmill",
+     "trx",
+     "two_boxes",
+     "wall",
+     "weight_bench",
+     "weight_plate"
+    ]
+   },
+   "FIELD_TRACK_NO_KIT": {
+    "kit": [
+     "anchor_point",
+     "bench",
+     "box",
+     "cones",
+     "floor",
+     "open_space_long",
+     "open_space_short",
+     "partner_or_wall",
+     "slider",
+     "step_low",
+     "wall"
+    ]
+   }
+  },
+  "intake_profiles": [
+   "FULL_GYM",
+   "BASIC_GYM",
+   "HOME_BARBELL",
+   "HOME_DB_BENCH",
+   "KB_ONLY",
+   "BODYWEIGHT",
+   "HOTEL_GYM",
+   "FIELD_TRACK_KIT"
+  ],
+  "machines": {
+   "leg_press": "machine_plate_loaded",
+   "hack_squat": "machine_plate_loaded",
+   "pendulum": "machine_specialty",
+   "belt_squat": "belt_squat",
+   "leg_extension": "machine_selectorized",
+   "leg_curl_seated": "machine_selectorized",
+   "leg_curl_lying": "machine_selectorized",
+   "lat_pulldown": "cable",
+   "assisted_pullup": "machine_selectorized",
+   "row_machine": "machine_selectorized",
+   "chest_press": "machine_selectorized",
+   "shoulder_press_machine": "machine_selectorized",
+   "cable_stack": "cable",
+   "smith": "smith",
+   "ghd_or_45deg": "hyper_bench",
+   "reverse_hyper": "reverse_hyper",
+   "hip_thrust_machine": "machine_specialty"
+  },
+  "cardio_tokens": {
+   "run": "open_space_long",
+   "treadmill": "treadmill",
+   "bike": "cardio_machine_cal",
+   "rower": "cardio_machine_cal",
+   "ski_erg": "cardio_machine_cal"
+  },
+  "running_space": {
+   "none": {
+    "drop": [
+     "open_space_short",
+     "open_space_long"
+    ],
+    "unless_cardio_run": true
+   },
+   "10_20m": {
+    "drop": [
+     "open_space_long"
+    ],
+    "unless_cardio_run": true
+   },
+   "40_60m_or_track": {
+    "add": [
+     "open_space_short",
+     "open_space_long"
+    ]
+   }
+  },
+  "banned_tokens": [
+   "band",
+   "bands",
+   "band_anchor",
+   "chains",
+   "weight_releaser"
+  ],
+  "client_families": {
+   "athlete": {
+    "main": [
+     1,
+     2
+    ],
+    "iso": [
+     2,
+     4
+    ],
+    "machine_pen": 2,
+    "skill_pen": 0
+   },
+   "hypertrophy": {
+    "main": [
+     2,
+     5
+    ],
+    "iso": [
+     3,
+     5
+    ],
+    "machine_pen": 0,
+    "skill_pen": 0
+   },
+   "strength": {
+    "main": [
+     2,
+     3
+    ],
+    "iso": [
+     3,
+     5
+    ],
+    "machine_pen": 0.5,
+    "skill_pen": 0
+   },
+   "beginner": {
+    "main": [
+     2,
+     4
+    ],
+    "iso": [
+     3,
+     5
+    ],
+    "machine_pen": 0.5,
+    "skill_pen": 2
+   },
+   "older_or_pain": {
+    "main": [
+     4,
+     5
+    ],
+    "iso": [
+     4,
+     5
+    ],
+    "machine_pen": 0,
+    "skill_pen": 3
+   },
+   "general": {
+    "main": [
+     2,
+     3
+    ],
+    "iso": [
+     2,
+     4
+    ],
+    "machine_pen": 0.5,
+    "skill_pen": 1
+   }
+  },
+  "family_select": [
+   {
+    "when": {
+     "older": true
+    },
+    "use": "older_or_pain"
+   },
+   {
+    "when": {
+     "pain_moderate": true
+    },
+    "use": "older_or_pain"
+   },
+   {
+    "when": {
+     "family": [
+      "athletic"
+     ],
+     "competitive": [
+      "competitive"
+     ]
+    },
+    "use": "athlete"
+   },
+   {
+    "when": {
+     "goal": [
+      "strength"
+     ]
+    },
+    "use": "strength"
+   },
+   {
+    "when": {
+     "goal": [
+      "fat_loss",
+      "general",
+      "active"
+     ]
+    },
+    "use": "general"
+   },
+   {
+    "when": {
+     "level": [
+      "L1"
+     ]
+    },
+    "use": "beginner"
+   },
+   {
+    "when": {
+     "goal": [
+      "muscle",
+      "hybrid"
+     ]
+    },
+    "use": "hypertrophy"
+   },
+   {
+    "when": {},
+    "use": "hypertrophy"
+   }
+  ],
+  "substitution_order": [
+   "pool_filtered",
+   "coach_alternates",
+   "same_pattern_other_implement",
+   "machine_isolation_swap",
+   "nearest_pattern_buy_list"
+  ],
+  "implement_ladder": [
+   "machine",
+   "cable",
+   "dumbbell",
+   "kettlebell",
+   "bodyweight"
+  ],
+  "machine_isolation_swaps": {
+   "ISO_QUAD": [
+    "sissy-squat",
+    "db-leg-extension-seated-on-box"
+   ],
+   "ISO_LEG_FLEXION": [
+    "nordic-hamstring-curl",
+    "supine-slider-hamstring-curl",
+    "ball-hamstring-curl-medball-or-stability-ball"
+   ]
+  },
+  "fallback_extra_sets_to_paired_compound": 2,
+  "never_exercise_tags": [
+   "v_squat"
+  ],
+  "buy_list": {
+   "RP_VPULL": [
+    "pullup_bar",
+    "trx"
+   ],
+   "AP_THROW": [
+    "medball"
+   ],
+   "ISO_QUAD": [
+    "machine_selectorized"
+   ],
+   "ISO_BICEP": [
+    "dumbbell",
+    "kettlebell"
+   ]
+  },
+  "crossfit_box_note": "a CrossFit box = HOME_BARBELL + extras (bumpers, KBs, medballs, boxes, rings, rower / bike / ski erg); no separate profile in Phase 0 (D-16)",
+  "refs": [
+   "EQ-01",
+   "EQ-03",
+   "EQ-04",
+   "EQ-08",
+   "EQ-09",
+   "EQ-10",
+   "EQ-11",
+   "EQ-12",
+   "EQ-13",
+   "R2-LIB-08"
+  ]
+ },
+ "population": {
+  "older": {
+   "from_age": 60,
+   "default_excluded_qualities": [
+    "plyometric",
+    "olympic",
+    "ballistic_jump"
+   ],
+   "default_allowed_athletic": [
+    "landing",
+    "throw_light",
+    "cod_easy",
+    "machine_fast_intent"
+   ],
+   "opt_in_field": "prefs.older_athletic_opt_in",
+   "opt_in_unlocks": [
+    "olympic (no snatch)",
+    "ballistic jumps",
+    "low ankle hops",
+    "RC2-RC3 plyos (no depth jumps)"
+   ],
+   "never_tags": [
+    "overhead_squat",
+    "low_bar"
+   ],
+   "never_tags_phase0_even_with_opt_in": [
+    "depth_jump",
+    "high_depth_drop",
+    "snatch"
+   ],
+   "warning_key": "warning.older_athletic",
+   "constraint_band": [
+    4,
+    5
+   ],
+   "step_cap": 0.03,
+   "maintenance_floor": 0.7,
+   "tests": "submax_only",
+   "refs": [
+    "EQ-03",
+    "EQ-04",
+    "R2-ATH-08",
+    "R2-ATH-02"
+   ],
+   "r3": "R3-ATH-02",
+   "r3_status": "approved (R3-ATH-02)",
+   "default_on": {
+    "landing": true,
+    "balance_warmup": true,
+    "quick_stepping": true,
+    "light_throws": true,
+    "fast_machine_intent": true
+   },
+   "quick_stepping_ids": [
+    "lateral-shuffles",
+    "split-step-reaction-drill",
+    "quick-feet-toe-taps-on-step",
+    "hops-in-place-foot-speed-reactive-hops"
+   ],
+   "quick_stepping_no_hop": [
+    "lateral-shuffles",
+    "split-step-reaction-drill"
+   ],
+   "fast_intent_note": "note.fast_machine_intent"
+  },
+  "active_aging_50": {
+   "from_age": 50,
+   "to_age": 59,
+   "racket_profiles": [
+    "rec_pickleball",
+    "pickleball_competitive",
+    "rec_padel",
+    "rec_tennis",
+    "tennis"
+   ],
+   "avoid_tags_unless_opt_in": [
+    "depth_jump",
+    "high_depth_drop",
+    "hurdle_hop",
+    "bound"
+   ],
+   "prehab_each_leg_day": [
+    "PREHAB_LOWER"
+   ],
+   "prehab_weekly": [
+    "RECOVERY_ARM_CARE"
+   ],
+   "refs": [
+    "COACH-CHAT 2026-10-08"
+   ],
+   "r3": "R3-ATH-02",
+   "status": "approved (R3-ATH-02)",
+   "opt_in_field": "prefs.racket_50_impact_opt_in"
+  },
+  "youth": {
+   "below_age": 18,
+   "max_ladder": "intermediate",
+   "olympic_floor_min_age": 14,
+   "medball_minus_lb": 2,
+   "refs": [
+    "R2-ATH-08",
+    "EQ-06"
+   ]
+  }
+ },
+ "prehab": {
+  "by_injury_code": {
+   "SHOULDER_SWIMMER": {
+    "bucket": "RECOVERY_ARM_CARE",
+    "per_week": 2,
+    "days": "pull_or_upper",
+    "sets": 2,
+    "each_session": true,
+    "each_session_sets": 1,
+    "each_session_sports": [
+     "swimming"
+    ],
+    "refs": [
+     "R3-ATH-01"
+    ]
+   },
+   "SHOULDER_THROWER": {
+    "bucket": "RECOVERY_ARM_CARE",
+    "per_week": 2,
+    "days": "pull_or_upper",
+    "sets": 2
+   },
+   "ACHILLES_CALF": {
+    "bucket": "PREHAB_LOWER",
+    "per_week": 2,
+    "days": "lower",
+    "sets": 2
+   },
+   "KNEE_DEGENERATIVE_COURT": {
+    "bucket": "PREHAB_LOWER",
+    "per_week": 1,
+    "days": "lower",
+    "sets": 2
+   },
+   "NECK": {
+    "bucket": "PREHAB_NECK",
+    "per_week": 2,
+    "days": "any",
+    "sets": 2
+   },
+   "ELBOW_LATERAL_RACKET": {
+    "bucket": "RECOVERY_ARM_CARE",
+    "per_week": 2,
+    "days": "any",
+    "sets": 2
+   }
+  },
+  "block": "prehab",
+  "counts_in_cap": false,
+  "credits": "none",
+  "refs": [
+   "EQ-01",
+   "R2-LIB-04",
+   "R2-LIB-07"
+  ],
+  "status": "mapping INFERRED from 04 injury_prehab",
+  "preferred_by_code": {
+   "ACHILLES_CALF": [
+    "seated-bent-knee-calf-raise-soleus",
+    "tibialis-raise-back-against-a-wall"
+   ],
+   "KNEE_DEGENERATIVE_COURT": [
+    "leg-extension-machine",
+    "wall-sit-isometric-squat-hold",
+    "db-leg-extension-seated-on-box"
+   ],
+   "ELBOW_LATERAL_RACKET": [
+    "db-wrist-extension-slow-lowering",
+    "db-wrist-extension",
+    "wrist-extension-db",
+    "reverse-wrist-curl"
+   ],
+   "FALLS_COURT": [
+    "single-leg-balance-reach-front-side-back"
+   ],
+   "SHOULDER_SWIMMER": [
+    "kb-face-pull",
+    "side-lying-db-external-rotation",
+    "floor-prone-y-t-raises"
+   ],
+   "SHOULDER_THROWER": [
+    "side-lying-db-external-rotation",
+    "kb-face-pull",
+    "floor-prone-y-t-raises"
+   ],
+   "NECK": []
+  },
+  "preferred_status_ok": [
+   "proposed_v1_1",
+   "proposed_v1"
+  ],
+  "skip_if_week_has_same": true,
+  "per_day_max": 2,
+  "unit_from_rep_hint": true,
+  "credits_status": "PROPOSED (F1, E-89): joint care credits no muscle (was by_catalog)"
+ },
+ "selection": {
+  "weights": {
+   "default_in_slot": 3,
+   "preference_match": 1.5,
+   "constraint_in_band": 2,
+   "constraint_distance": -1,
+   "over_ladder_step": -1.5,
+   "pain_prefer_tag": 1,
+   "continuity": 2,
+   "machine_pen_scale": -1,
+   "skill_pen_scale": -0.5,
+   "sport_use_match": 1,
+   "older_preferred": 1,
+   "live_library": 2.5,
+   "not_stated_or_any": -4,
+   "assisted_l2_l3": -4,
+   "home_substitute": -3,
+   "implement_ladder": 1,
+   "above_level": -2.5,
+   "hotspot_avoid": -6,
+   "hotspot_prefer": 1.5,
+   "bent_over_barbell_on_axial_day": -4,
+   "uni_as_work_bb": -6,
+   "frontal_quota": 2,
+   "direction_match": 1.5,
+   "station_note": 2,
+   "load_ceiling_drop": -3
+  },
+  "swaps": {
+   "min": 2,
+   "max": 4,
+   "same_slot": true
+  },
+  "block_change": {
+   "max_share_of_slots": 0.34,
+   "keep_roles": [
+    "work",
+    "core_block",
+    "tested"
+   ],
+   "prefer_same": [
+    "pattern",
+    "laterality"
+   ],
+   "allow_detail_variation": true,
+   "never_invent": true,
+   "refs": [
+    "PER-02",
+    "R2-LIB-01"
+   ],
+   "include_circuits": true,
+   "forbid_load_downgrade": true,
+   "full_kit_real_alternative": true,
+   "one_detail": true,
+   "max_distance": 2,
+   "no_return_to_earlier_pick": true,
+   "never_olympic_tag": true,
+   "constraint_up_max_l2_l3": 1,
+   "week_unique": true,
+   "concrete_detail_only": true,
+   "status": "one-detail rule COACH-R2 R2-LIB-01 / COACH-ANSWER PER-02; distance scoring and vocabulary PROPOSED (B3)"
+  },
+  "variety_ab": {
+   "lead_lift_alternates": true,
+   "refs": [
+    "PER-03"
+   ]
+  },
+  "second_exposure_different": true,
+  "proposed_records_swap_only": true,
+  "kb_swing_never_resistance_slot": true,
+  "refs": [
+   "GEN-04",
+   "EQ-10",
+   "CAT-07",
+   "PER-02",
+   "PER-04",
+   "R2-LIB-01",
+   "R2-VOL-05"
+  ],
+  "swap_only_statuses": [
+   "program_only",
+   "reference_only"
+  ],
+  "home_substitute_kit": {
+   "floor-prone-y-t-raises": [
+    "cable",
+    "machine_selectorized"
+   ],
+   "prone-dumbbell-hamstring-curl-db-between-feet": [
+    "machine_selectorized"
+   ],
+   "standing-calf-raise-bodyweight-from-a-deficit-step": [
+    "machine_selectorized",
+    "machine_plate_loaded"
+   ],
+   "table-row-inverted-row-under-a-sturdy-table": [
+    "cable",
+    "pullup_bar"
+   ],
+   "kb-curl": [
+    "dumbbell",
+    "cable"
+   ],
+   "db-leg-extension-seated-on-box": [
+    "machine_selectorized"
+   ],
+   "supine-slider-hamstring-curl": [
+    "machine_selectorized"
+   ],
+   "ball-hamstring-curl-medball-or-stability-ball": [
+    "machine_selectorized"
+   ]
+  },
+  "generic_id_patterns": [
+   "-not-stated",
+   "-any-kind",
+   "^calf-raise-any$",
+   "^row-any",
+   "-any-loading",
+   "^squat-any",
+   "-either$",
+   "any-variation",
+   "barbell-deadlift-alternate-lead-leg-meaning-inferred$",
+   "seated-or-lying$",
+   "-verify$",
+   "typo-ambiguous"
+  ],
+  "implement_ladder_by_level": {
+   "L1": [
+    "bodyweight",
+    "dumbbell",
+    "kettlebell",
+    "machine"
+   ],
+   "L2": [
+    "dumbbell",
+    "kettlebell",
+    "barbell",
+    "machine",
+    "cable"
+   ],
+   "L3": [
+    "barbell",
+    "dumbbell",
+    "machine",
+    "cable"
+   ]
+  },
+  "second_exposure_scope": "week_all_slots",
+  "athlete_opposite_pattern": {
+   "hip_day_unilateral": "RP_UKD",
+   "knee_day_unilateral": "RP_UHD",
+   "refs": [
+    "UNI-06",
+    "OBSERVED BASEBALL Part C/D"
+   ]
+  },
+  "work_bilateral_canonical": {
+   "families": [
+    "hybrid_crossfit",
+    "strength"
+   ],
+   "goals": [
+    "muscle",
+    "strength"
+   ],
+   "refs": [
+    "ORD-02",
+    "ORD-07",
+    "CAT-13"
+   ]
+  },
+  "athlete_press_band": {
+   "buckets": [
+    "RP_HPUSH",
+    "RP_HPULL"
+   ],
+   "band": [
+    1,
+    3
+   ],
+   "refs": [
+    "ATH-03",
+    "EQ-13"
+   ]
+  },
+  "squat_implement_differs_from_hinge": true,
+  "chest_iso_to_press_when_pull_ratio_gte": 1.5,
+  "group_second_differs": [
+   "pattern",
+   "implement",
+   "grip",
+   "laterality"
+  ],
+  "hotspots": {
+   "SHOULDER_SWIMMER": {
+    "avoid_tags": [
+     "upright_row",
+     "overhead_barbell",
+     "push_press",
+     "push_jerk"
+    ],
+    "avoid_id_patterns": [
+     "upright-row",
+     "standing.*overhead-press",
+     "^alternating-db-overhead-press",
+     "military-press",
+     "push-press",
+     "jerk",
+     "seesaw-db-press"
+    ],
+    "prefer_tags": [
+     "machine",
+     "split_grip"
+    ],
+    "prefer_id_patterns": [
+     "landmine",
+     "seated-machine-shoulder-press",
+     "neutral"
+    ]
+   },
+   "SHOULDER_THROWER": {
+    "avoid_tags": [
+     "overhead_barbell",
+     "upright_row"
+    ],
+    "avoid_id_patterns": [
+     "military-press"
+    ],
+    "prefer_tags": [
+     "split_grip"
+    ],
+    "prefer_id_patterns": [
+     "landmine"
+    ]
+   },
+   "SHOULDER_CONTACT": {
+    "avoid_tags": [],
+    "avoid_id_patterns": [],
+    "prefer_tags": [],
+    "prefer_id_patterns": []
+   },
+   "LOW_BACK_EXTENSION": {
+    "avoid_tags": [
+     "good_morning"
+    ],
+    "avoid_id_patterns": [],
+    "prefer_tags": [
+     "chest_supported"
+    ],
+    "prefer_id_patterns": []
+   },
+   "KNEE_DEGENERATIVE_COURT": {
+    "avoid_tags": [
+     "deep_knee_flexion",
+     "depth_jump",
+     "hurdle_hop",
+     "bound"
+    ],
+    "avoid_id_patterns": [],
+    "prefer_tags": [
+     "machine",
+     "axial_unload"
+    ],
+    "prefer_id_patterns": [
+     "leg-press",
+     "box-squat",
+     "step-up"
+    ]
+   },
+   "LOW_BACK_ROTATIONAL": {
+    "avoid_tags": [],
+    "avoid_id_patterns": [
+     "russian-twist",
+     "sit-up",
+     "v-up",
+     "woodchop",
+     "oblique-rotation"
+    ],
+    "prefer_tags": [],
+    "prefer_id_patterns": [
+     "pallof",
+     "suitcase",
+     "side-plank",
+     "dead-bug",
+     "bird-dog",
+     "plank"
+    ]
+   },
+   "ACL_LANDING_CUTTING": {
+    "avoid_tags": [],
+    "avoid_id_patterns": [
+     "sissy"
+    ],
+    "prefer_tags": [],
+    "prefer_id_patterns": []
+   },
+   "LOW_BACK_LOADING": {
+    "avoid_tags": [],
+    "avoid_id_patterns": [
+     "^bent-over-barbell-row"
+    ],
+    "prefer_tags": [
+     "chest_supported"
+    ],
+    "prefer_id_patterns": []
+   }
+  },
+  "olympic_never_in_resistance": {
+   "tags": [
+    "push_jerk"
+   ],
+   "push_press_families": [
+    "athletic",
+    "hybrid_crossfit"
+   ],
+   "refs": [
+    "ORD-03",
+    "VOL-10",
+    "PER-02",
+    "LIB-13"
+   ],
+   "status": "INFERRED (B2)"
+  },
+  "variations": {
+   "values": [
+    {
+     "id": "opposite_hand",
+     "axis": "hand",
+     "when": {
+      "cc": [
+       "UKD",
+       "UHD"
+      ],
+      "impl": [
+       "dumbbell",
+       "kettlebell"
+      ],
+      "lat": [
+       "unilateral",
+       "alternating"
+      ],
+      "not_re": "kickstand|staggered|alternating"
+     }
+    },
+    {
+     "id": "both_hands",
+     "axis": "hand",
+     "when": {
+      "cc": [
+       "UKD"
+      ],
+      "impl": [
+       "dumbbell",
+       "kettlebell"
+      ],
+      "lat": [
+       "unilateral",
+       "alternating"
+      ],
+      "re": "lunge|split-squat|step-up"
+     }
+    },
+    {
+     "id": "neutral_grip",
+     "axis": "grip",
+     "when": {
+      "cc": [
+       "HPUSH",
+       "VPUSH"
+      ],
+      "impl": [
+       "dumbbell"
+      ],
+      "lat": [
+       "bilateral"
+      ],
+      "not_re": "neutral|hammer|landmine|push-press|push-jerk"
+     }
+    },
+    {
+     "id": "close_grip",
+     "axis": "grip",
+     "when": {
+      "cc": [
+       "HPUSH"
+      ],
+      "impl": [
+       "barbell"
+      ],
+      "re": "bench",
+      "not_re": "close"
+     }
+    },
+    {
+     "id": "underhand_grip",
+     "axis": "grip",
+     "when": {
+      "cc": [
+       "HPULL"
+      ],
+      "impl": [
+       "barbell",
+       "dumbbell",
+       "cable",
+       "machine"
+      ],
+      "lat": [
+       "bilateral"
+      ],
+      "not_re": "supinated|underhand|yates"
+     }
+    },
+    {
+     "id": "neutral_grip_pull",
+     "axis": "grip",
+     "when": {
+      "cc": [
+       "VPULL"
+      ],
+      "impl": [
+       "cable",
+       "machine"
+      ],
+      "not_re": "neutral|close|rope|single-arm|assisted",
+      "kit": [
+       "cable_attachments"
+      ]
+     }
+    },
+    {
+     "id": "chin_grip",
+     "axis": "grip",
+     "when": {
+      "cc": [
+       "VPULL"
+      ],
+      "impl": [
+       "bodyweight"
+      ],
+      "re": "pull-up",
+      "not_re": "chin|supinated|assisted|feet|ring|trx|l-sit"
+     }
+    },
+    {
+     "id": "hammer_grip",
+     "axis": "grip",
+     "when": {
+      "cc": [
+       "ISO_BICEPS"
+      ],
+      "impl": [
+       "dumbbell"
+      ],
+      "not_re": "hammer|cross-body|zottman"
+     }
+    },
+    {
+     "id": "rope_attachment",
+     "axis": "implement",
+     "when": {
+      "cc": [
+       "ISO_TRICEPS"
+      ],
+      "impl": [
+       "cable"
+      ],
+      "not_re": "rope|overhead",
+      "kit": [
+       "cable_attachments"
+      ]
+     }
+    },
+    {
+     "id": "heels_elevated",
+     "axis": "stance",
+     "when": {
+      "cc": [
+       "BKD"
+      ],
+      "impl": [
+       "dumbbell",
+       "kettlebell",
+       "barbell"
+      ],
+      "not_re": "heels|box|zercher|sumo|hex|belt|safety",
+      "kit": [
+       "weight_plate",
+       "step_low",
+       "plate_low_target"
+      ]
+     }
+    },
+    {
+     "id": "feet_high",
+     "axis": "stance",
+     "when": {
+      "cc": [
+       "BKD"
+      ],
+      "impl": [
+       "machine"
+      ],
+      "re": "leg-press|hack|pendulum"
+     }
+    },
+    {
+     "id": "feet_elevated_pushup",
+     "axis": "stance",
+     "when": {
+      "cc": [
+       "HPUSH"
+      ],
+      "impl": [
+       "bodyweight"
+      ],
+      "re": "push-up",
+      "not_re": "decline|feet|incline|wall|kneeling",
+      "kit": [
+       "bench",
+       "box",
+       "weight_bench"
+      ]
+     }
+    },
+    {
+     "id": "feet_elevated_row",
+     "axis": "stance",
+     "when": {
+      "cc": [
+       "HPULL",
+       "VPULL"
+      ],
+      "impl": [
+       "bodyweight"
+      ],
+      "re": "inverted-row|table-row|ring-row|trx-row",
+      "not_re": "feet"
+     }
+    },
+    {
+     "id": "incline_bench",
+     "axis": "stance",
+     "when": {
+      "cc": [
+       "ISO_CHEST"
+      ],
+      "impl": [
+       "dumbbell"
+      ],
+      "not_re": "incline|decline|flat",
+      "kit": [
+       "weight_bench",
+       "bench"
+      ]
+     }
+    },
+    {
+     "id": "one_leg",
+     "axis": "stance",
+     "when": {
+      "cc": [
+       "LEG_EXTENSION",
+       "LEG_FLEXION",
+       "ISO_CALF"
+      ],
+      "impl": [
+       "machine"
+      ],
+      "not_re": "single-leg|seated-or-lying"
+     }
+    },
+    {
+     "id": "one_arm",
+     "axis": "hand",
+     "when": {
+      "cc": [
+       "ISO_TRICEPS",
+       "ISO_SIDE",
+       "ISO_BICEPS"
+      ],
+      "impl": [
+       "cable"
+      ],
+      "lat": [
+       "bilateral"
+      ],
+      "not_re": "single-arm|one-arm|overhead"
+     }
+    },
+    {
+     "id": "kettlebell",
+     "axis": "implement",
+     "when": {
+      "cc": [
+       "HPULL",
+       "BKD",
+       "BHD",
+       "UHD",
+       "UKD"
+      ],
+      "impl": [
+       "dumbbell"
+      ],
+      "not_re": "kettlebell|kb-|floor|seal|renegade|bench|(^|-)db(-|$)|dumbbell",
+      "kit": [
+       "kettlebell"
+      ]
+     }
+    },
+    {
+     "id": "db_between_feet",
+     "axis": "implement",
+     "when": {
+      "cc": [
+       "DIPS"
+      ],
+      "re": "weighted-dip"
+     }
+    },
+    {
+     "id": "plate_at_chest",
+     "axis": "implement",
+     "when": {
+      "cc": [
+       "BKD",
+       "LEG_EXTENSION"
+      ],
+      "impl": [
+       "bodyweight"
+      ],
+      "re": "sissy",
+      "kit": [
+       "weight_plate"
+      ]
+     }
+    },
+    {
+     "id": "db_at_chest",
+     "axis": "implement",
+     "when": {
+      "cc": [
+       "BKD",
+       "LEG_EXTENSION"
+      ],
+      "impl": [
+       "bodyweight"
+      ],
+      "re": "sissy",
+      "kit": [
+       "dumbbell",
+       "kettlebell"
+      ]
+     }
+    },
+    {
+     "id": "front_foot_raised",
+     "axis": "range",
+     "when": {
+      "cc": [
+       "UKD"
+      ],
+      "re": "split-squat|lunge",
+      "not_re": "elevated|deficit|rfe|ffe|bulgarian|walking|lateral|side|cossack|curtsy|wall",
+      "kit": [
+       "weight_plate",
+       "step_low",
+       "plate_low_target",
+       "box"
+      ],
+      "not_pain": [
+       "knee"
+      ]
+     }
+    },
+    {
+     "id": "higher_box",
+     "axis": "range",
+     "when": {
+      "cc": [
+       "UKD"
+      ],
+      "re": "step-up",
+      "not_pain": [
+       "knee"
+      ]
+     }
+    },
+    {
+     "id": "deficit",
+     "axis": "range",
+     "when": {
+      "cc": [
+       "BHD",
+       "UHD"
+      ],
+      "re": "deadlift|rdl",
+      "not_re": "deficit|kickstand|staggered|alternating|good-morning|hyper",
+      "kit": [
+       "weight_plate",
+       "step_low",
+       "plate_low_target"
+      ],
+      "not_pain": [
+       "lower_back"
+      ]
+     }
+    },
+    {
+     "id": "deficit_calf",
+     "axis": "range",
+     "when": {
+      "cc": [
+       "ISO_CALF"
+      ],
+      "not_re": "deficit|seated|bent-knee",
+      "kit": [
+       "weight_plate",
+       "step_low",
+       "plate_low_target",
+       "box"
+      ]
+     }
+    },
+    {
+     "id": "hands_on_dbs",
+     "axis": "range",
+     "when": {
+      "cc": [
+       "HPUSH"
+      ],
+      "impl": [
+       "bodyweight"
+      ],
+      "re": "push-up",
+      "not_re": "deficit|hands-elevated|incline|wall|kneeling|offset|diamond",
+      "kit": [
+       "dumbbell",
+       "weight_plate"
+      ]
+     }
+    },
+    {
+     "id": "behind_head",
+     "axis": "range",
+     "when": {
+      "cc": [
+       "ISO_TRICEPS"
+      ],
+      "re": "skullcrusher"
+     }
+    },
+    {
+     "id": "pause_bottom",
+     "axis": "range",
+     "when": {
+      "cc": [
+       "BKD",
+       "HPUSH",
+       "VPUSH",
+       "DIPS",
+       "UKD"
+      ],
+      "not_re": "push-press|push-jerk|thruster|jump|box-squat|pause"
+     }
+    },
+    {
+     "id": "pause_top",
+     "axis": "range",
+     "when": {
+      "cc": [
+       "HPULL",
+       "VPULL",
+       "GLUTE_ISO",
+       "LEG_EXTENSION",
+       "LEG_FLEXION",
+       "ISO_BICEPS",
+       "ISO_REAR",
+       "FACEPULL",
+       "ISO_SIDE",
+       "ISO_FRONT",
+       "ISO_CHEST",
+       "ISO_TRICEPS",
+       "ISO_CALF",
+       "BHD",
+       "UHD"
+      ],
+      "not_re": "nordic|good-morning|pause|deadlift"
+     }
+    },
+    {
+     "id": "pause_knee",
+     "axis": "range",
+     "when": {
+      "cc": [
+       "BHD",
+       "UHD"
+      ],
+      "re": "deadlift|rdl",
+      "not_re": "pause|good-morning"
+     }
+    }
+   ],
+   "refs": [
+    "R2-LIB-01",
+    "PER-02"
+   ],
+   "status": "PROPOSED vocabulary (B3): the coach approved the rule, not each value",
+   "f3_status": "PROPOSED (F3, E-110): no detail that contradicts the record name; kit-aware load words"
+  },
+  "near_duplicate": {
+   "scope": "day",
+   "week_scope_kinds": [
+    "isolation",
+    "focus"
+   ],
+   "trivial_tokens": [
+    "seated",
+    "standing",
+    "bent-over",
+    "chest-to-thighs",
+    "alternating",
+    "single-arm",
+    "one-arm",
+    "kneeling",
+    "half-kneeling",
+    "tall-kneeling",
+    "seesaw",
+    "supinated",
+    "pronated",
+    "palms-up",
+    "overhand",
+    "underhand",
+    "neutral",
+    "hammer",
+    "wide",
+    "close",
+    "mag",
+    "grip"
+   ],
+   "refs": [
+    "R2-SES-05",
+    "PER-04"
+   ],
+   "status": "INFERRED (B3)"
+  },
+  "lead_press": {
+   "buckets": [
+    "RP_HPUSH"
+   ],
+   "avoid_re": "alternating|seesaw|single-arm|one-arm|offset|staggered",
+   "floor_re": "floor-press|push-up",
+   "penalty": -6,
+   "floor_penalty": -4,
+   "refs": [
+    "ORD-07",
+    "CAT-13"
+   ],
+   "status": "INFERRED (B3)"
+  },
+  "powerlifting_presses": {
+   "lift_style": "heavy_powerlifting",
+   "buckets": [
+    "RP_HPUSH",
+    "RP_VPUSH"
+   ],
+   "avoid_re": "alternating|seesaw|single-arm|one-arm|offset",
+   "penalty": -4,
+   "refs": [
+    "VOL-12",
+    "UNI-02"
+   ],
+   "status": "INFERRED (B3)"
+  },
+  "barbell_l1_50_pain": {
+   "penalty": -4,
+   "from_age": 50,
+   "levels": [
+    "L1"
+   ],
+   "refs": [
+    "EQ-03",
+    "EQ-09",
+    "UNI-08"
+   ],
+   "status": "INFERRED (B3)"
+  },
+  "home_substitute_only_when_needed": true,
+  "assisted_id_re": "assisted|feet-supported|feet-on-the-floor",
+  "core_week_unique": true,
+  "core_swaps_same_plane": true,
+  "pain_avoid_id_patterns": {
+   "knee": [
+    "^copenhagen-plank$"
+   ]
+  },
+  "class_work_prefer_id_patterns": {
+   "RP_BKD": [
+    "^front-squat-barbell$",
+    "^high-bar-back-squat$"
+   ],
+   "RP_BHD": [
+    "^barbell-deadlift-conventional$",
+    "^sumo-deadlift$",
+    "^hex-trap-bar-deadlift$"
+   ]
+  },
+  "skill_rotate": true,
+  "f3": {
+   "dial": {
+    "all_lower": true,
+    "keep_axial": true,
+    "skip_roles": [
+     "circuit_station"
+    ],
+    "flipped_bilateral_counted": 4,
+    "refs": [
+     "UNI-02",
+     "UNI-03",
+     "R2-SES-01",
+     "BRAIN 6.5"
+    ],
+    "status": "PROPOSED (F3, E-127)"
+   },
+   "non_spinal_hinge": {
+    "prefer_re": "hip-thrust|hyperextension|back-extension|reverse-hyper|glute-ham|b-stance",
+    "avoid_re": "deadlift|rdl|good-morning",
+    "deadlift_re": "deadlift|rdl",
+    "weight": 0,
+    "hotspot_extra": 5,
+    "hotspot_avoid": -3,
+    "second_bilateral_deadlift": -4,
+    "hotspots": [
+     "LOW_BACK_EXTENSION",
+     "LOW_BACK_LOADING"
+    ],
+    "refs": [
+     "R2-SES-01",
+     "PER-04"
+    ],
+    "status": "PROPOSED (F3, E-128)"
+   },
+   "core_low_back": {
+    "hotspots": [
+     "LOW_BACK_EXTENSION",
+     "LOW_BACK_LOADING"
+    ],
+    "anti_bonus": 3,
+    "avoid_re": "russian-twist|leg-raise|v-up|sit-up|toes-to-bar|knees-to-chest|woodchop|crunch",
+    "avoid": -3,
+    "refs": [
+     "R2-SES-03",
+     "SCIENCE AQ4"
+    ],
+    "status": "PROPOSED (F3, E-129)"
+   },
+   "hanging_core": {
+    "re": "hanging|toes-to-bar|knees-to-chest-hanging",
+    "penalty": -3,
+    "status": "PROPOSED (F3, E-129)"
+   },
+   "core_swaps_by_category": true,
+   "swaps_not_on_day": true,
+   "axial_high_non_axial_day": -7,
+   "families": [
+    {
+     "id": "strict_pull_up",
+     "re": "^(strict-pull-up|pull-up-|wide-grip-pull-up|weighted-pull-up|l-sit-pull-up)"
+    },
+    {
+     "id": "db_staggered_hinge",
+     "re": "kickstand|staggered-stance|rear-foot-on-wall"
+    },
+    {
+     "id": "lying_triceps",
+     "re": "skullcrusher|tate-press|lying-triceps|french-press",
+     "lying": true
+    },
+    {
+     "id": "reverse_fly",
+     "re": "reverse-fly|rear-delt-pec-deck"
+    },
+    {
+     "id": "sissy",
+     "re": "sissy"
+    },
+    {
+     "id": "side_plank",
+     "re": "side-plank|star-side"
+    },
+    {
+     "id": "front_plank",
+     "re": "^(plank|high-plank|plank-with|plank-shoulder|plank-db)"
+    }
+   ],
+   "family_penalty": -2.5,
+   "lying_week_max": 2,
+   "powerlifting_canonical": {
+    "lift_style": "heavy_powerlifting",
+    "prefer": {
+     "RP_BKD": "back-squat",
+     "RP_BHD": "conventional|sumo-deadlift",
+     "RP_HPUSH": "^barbell-bench-press$"
+    },
+    "weight": 4,
+    "status": "PROPOSED (F3, E-131)"
+   },
+   "glute_with_leg_curl": {
+    "enabled": false,
+    "re": "hip-thrust|glute-bridge|step-up",
+    "weight": 5,
+    "racket_only": true,
+    "status": "PROPOSED (F3, E-132): racket profiles (R3-ATH-02 knee-friendly strength); switched off - open"
+   },
+   "level_hard": {
+    "skills": [
+     "high"
+    ],
+    "max_ladder": "intermediate",
+    "circuit_any_above": true,
+    "refs": [
+     "CAT-05"
+    ],
+    "status": "PROPOSED (F3, E-130)"
+   },
+   "delt_variants": {
+    "side_focus_choices": [
+     "side_delts",
+     "shoulders"
+    ],
+    "side_focus_keep_rear": 1,
+    "second_rear_to_side": true,
+    "refs": [
+     "R3-VOL-01",
+     "R3-SES-01"
+    ],
+    "status": "PROPOSED (F3, E-133)"
+   },
+   "refs": [
+    "R2-SES-01",
+    "R2-SES-03",
+    "R2-SES-05",
+    "PER-04",
+    "UNI-02",
+    "CAT-05",
+    "R3-VOL-01",
+    "R3-SES-01"
+   ],
+   "status": "PROPOSED (F3): selection weights of fix round 1"
+  }
+ },
+ "ordering": {
+  "block_order": [
+   "warmup",
+   "core",
+   "test",
+   "skill",
+   "athletic",
+   "power",
+   "strength",
+   "accessories",
+   "prehab",
+   "circuit",
+   "conditioning",
+   "aerobic",
+   "cooldown"
+  ],
+  "core_positions": {
+   "start": "after_warmup",
+   "after_plyos": "after_athletic",
+   "after_strength": "after_strength",
+   "end": "end"
+  },
+  "athletic_bucket_order": [
+   "AP_SPRINT",
+   "AP_PLYO",
+   "AP_JUMP_LIMITED_KNEE",
+   "AP_THROW",
+   "AP_COD"
+  ],
+  "role_to_block": {
+   "warmup": "warmup",
+   "core_block": "core",
+   "skill": "skill",
+   "athletic": "athletic",
+   "power": "power",
+   "work": "strength",
+   "paired_upper": "strength",
+   "secondary": "strength",
+   "secondary_upper": "strength",
+   "accessory": "strength",
+   "nuance": "accessories",
+   "survival": "accessories",
+   "iso": "accessories",
+   "focus": "accessories",
+   "conditioning": "conditioning",
+   "aerobic_block": "aerobic",
+   "circuit_station": "circuit",
+   "prehab": "prehab",
+   "cooldown": "cooldown"
+  },
+  "hard": [
+   "H_PULL_BEFORE_V_PULL",
+   "H_PUSH_BEFORE_V_PUSH",
+   "POWER_BEFORE_STRENGTH",
+   "WORK_FIRST",
+   "BILATERAL_BEFORE_UNILATERAL",
+   "MYO_LAST",
+   "ATHLETIC_BEFORE_OLYMPIC",
+   "SPEED_SESSION_ORDER"
+  ],
+  "h_before_v_exempt_when_vertical_is": "work",
+  "allowed_overrides": [
+   "contrast_station",
+   "priority_small_muscle_first",
+   "core_moved_by_user",
+   "bootcamp_cardio_station",
+   "fighter_opening_aerobic",
+   "work_first_vertical"
+  ],
+  "refs": [
+   "ORD-01",
+   "ORD-02",
+   "ORD-03",
+   "ORD-04",
+   "ORD-09",
+   "ATH-11",
+   "LIB-21",
+   "VOL-15",
+   "R2-SES-03"
+  ],
+  "block_editing": {
+   "id_format": "blk.<weekday>-<day_type slug>.<kind>.<n>",
+   "toggle": {
+    "warmup": false,
+    "core": true,
+    "skill": true,
+    "athletic": true,
+    "power": true,
+    "strength": false,
+    "accessories": true,
+    "prehab": true,
+    "circuit": false,
+    "conditioning": true,
+    "aerobic": true,
+    "cooldown": true,
+    "test": false
+   },
+   "removable": {
+    "strength": true,
+    "accessories": true,
+    "prehab": true
+   },
+   "refs": [
+    "R3-SES-02"
+   ],
+   "status": "toggles approved (R3-SES-02); per-kind flags PROPOSED",
+   "id_format_status": "PROPOSED (F1, E-90): lower-case weekday + day-type slug (a-z, 0-9, -)"
+  }
+ },
+ "supersets": {
+  "triggers": {
+   "short_session": true,
+   "l3_preference": true,
+   "athlete_off_season": true,
+   "l1_preference": true
+  },
+  "pairs": [
+   [
+    "knee",
+    "pull"
+   ],
+   [
+    "hip",
+    "push"
+   ],
+   [
+    "ISO_BICEP",
+    "rear"
+   ],
+   [
+    "ISO_TRICEP",
+    "side"
+   ],
+   [
+    "ISO_CALF",
+    "delts"
+   ]
+  ],
+  "never": [
+   "two_lower_compounds",
+   "heavy_and_fatiguing_same_muscle"
+  ],
+  "default": "straight_sets",
+  "core_supersets_optional": {
+   "anywhere": true,
+   "by": [
+    "coach_rule_pack",
+    "user"
+   ],
+   "refs": [
+    "R2-SES-03"
+   ],
+   "when_over_time": true
+  },
+  "bootcamp": {
+   "circuits": 2,
+   "stations": [
+    4,
+    6
+   ],
+   "rounds": [
+    3,
+    5
+   ],
+   "work_s": [
+    30,
+    50
+   ],
+   "transition_s": 15,
+   "between_rounds_s": 90,
+   "session_min": [
+    35,
+    45
+   ],
+   "round_counts_as_set": true,
+   "stairway": {
+    "work_s_start": 35,
+    "work_s_max": 50,
+    "work_s_step": 5,
+    "rounds_start": 3,
+    "rounds_max_by_minutes": {
+     "30": 3,
+     "45": 3,
+     "60": 4,
+     "75": 5,
+     "90": 5
+    },
+    "by_planned_steps": true,
+    "work_s_fine_step": 1
+   },
+   "refs": [
+    "PRG-03",
+    "R2-SES-05",
+    "R2-PER-03"
+   ],
+   "status": "stairway in rounds and seconds PROPOSED"
+  },
+  "refs": [
+   "ORD-05",
+   "PRG-03"
+  ],
+  "recommend": {
+   "pairs": [
+    [
+     "knee",
+     "pull"
+    ],
+    [
+     "hip",
+     "push"
+    ],
+    [
+     "ISO_BICEP",
+     "rear"
+    ],
+    [
+     "ISO_TRICEP",
+     "side"
+    ],
+    [
+     "ISO_CALF",
+     "delts"
+    ],
+    [
+     "core",
+     "core"
+    ]
+   ],
+   "never": [
+    "two_lower_compounds",
+    "heavy_and_fatiguing_same_muscle"
+   ],
+   "on_when": "needed_for_time",
+   "pref_key": "superset_recommendations",
+   "refs": [
+    "R3-SES-02",
+    "ORD-05"
+   ],
+   "status": "recommendation approved (R3-SES-02); pair list PROPOSED"
+  }
+ },
+ "plan_types": {
+  "fixed_12": {
+   "weeks": 12,
+   "training_blocks": [
+    {
+     "type": "stairway",
+     "weeks": [
+      1,
+      12
+     ]
+    }
+   ],
+   "test_weeks": [
+    1,
+    12
+   ],
+   "recovery_after_if_next": true,
+   "refs": [
+    "PER-01",
+    "R2-PER-04"
+   ]
+  },
+  "fixed_8": {
+   "weeks": 8,
+   "training_blocks": [
+    {
+     "type": "stairway",
+     "weeks": [
+      1,
+      8
+     ]
+    }
+   ],
+   "test_weeks": [
+    1,
+    8
+   ],
+   "recovery_after_if_next": true,
+   "refs": [
+    "R2-PER-03"
+   ]
+  },
+  "short_block": {
+   "weeks_range": [
+    4,
+    6
+   ],
+   "refs": [
+    "R2-PER-03"
+   ],
+   "status": "coach / year only"
+  },
+  "maintenance_4_6": {
+   "weeks_default": 4,
+   "weeks_range": [
+    1,
+    8
+   ],
+   "extendable": true,
+   "factor": {
+    "vacation_limited_kit": 0.5,
+    "travel_moving_season_change": 0.6,
+    "planned_maintenance": 0.7
+   },
+   "older_floor": 0.7,
+   "base": "level_start",
+   "step": 0,
+   "effort": {
+    "min": 2,
+    "max": 3
+   },
+   "intensifiers": false,
+   "floor_10": false,
+   "end_prompt": [
+    "keep_maintaining",
+    "change_plan",
+    "new_block"
+   ],
+   "refs": [
+    "PER-01",
+    "R2-PER-06",
+    "R2-VOL-07"
+   ]
+  },
+  "week_by_week": {
+   "alias_of": "fixed_12",
+   "view": "week",
+   "refs": [
+    "R3-VOL-02",
+    "R3-VOL-04"
+   ],
+   "status": "retired as a check-in mode"
+  },
+  "year": {
+   "weeks": 52,
+   "layout": [
+    {
+     "type": "stairway",
+     "weeks": [
+      1,
+      12
+     ],
+     "quarter": "Q1",
+     "theme": "cut",
+     "flat_sets": true,
+     "aerobic_delta": 1
+    },
+    {
+     "type": "recovery",
+     "weeks": [
+      13,
+      13
+     ]
+    },
+    {
+     "type": "stairway",
+     "weeks": [
+      14,
+      25
+     ],
+     "quarter": "Q2",
+     "theme": "summer",
+     "cycle_step": 1,
+     "aerobic_delta": 0
+    },
+    {
+     "type": "recovery",
+     "weeks": [
+      26,
+      26
+     ]
+    },
+    {
+     "type": "maintenance",
+     "weeks": [
+      27,
+      39
+     ],
+     "quarter": "Q3",
+     "factor": 0.7,
+     "of": "last_stairway_final_4_avg"
+    },
+    {
+     "type": "stairway",
+     "weeks": [
+      40,
+      50
+     ],
+     "quarter": "Q4",
+     "theme": "build",
+     "cycle_step": 2,
+     "aerobic_delta": -1,
+     "aerobic_min": 2
+    },
+    {
+     "type": "maintenance",
+     "weeks": [
+      51,
+      52
+     ],
+     "quarter": "HOLIDAYS",
+     "factor": 0.6,
+     "of": "last_stairway_final_4_avg"
+    }
+   ],
+   "test_weeks": [
+    1,
+    12,
+    25,
+    50
+   ],
+   "non_competitive_only": true,
+   "calendar_alignment": "phase1",
+   "refs": [
+    "R2-PER-01",
+    "R2-PER-02"
+   ],
+   "r3": "R3-PER-01",
+   "status": "layout PROPOSED"
+  },
+  "prep": {
+   "step_every_weeks": 2,
+   "taper_weeks": [
+    1,
+    2
+   ],
+   "taper_volume_cut": [
+    0.4,
+    0.6
+   ],
+   "gen_pop_event": {
+    "hardest_ends_weeks_before": 1,
+    "taper_weeks": 1,
+    "taper_factor": 0.5,
+    "r3": "R3-ATH-05"
+   },
+   "refs": [
+    "PER-10"
+   ],
+   "taper_weeks_by_sport": {
+    "swimming": 2
+   },
+   "taper_by_sport_refs": [
+    "R3-ATH-01"
+   ]
+  },
+  "season": {
+   "weeks_to_season": {
+    "OFF_EARLY": 20,
+    "OFF_BUILD": 12,
+    "OFF_LATE": 6,
+    "PRE": 0
+   },
+   "pre_weeks_default": 4,
+   "pre_weeks_range": [
+    4,
+    6
+   ],
+   "min_offseason_stairway_weeks": 4,
+   "taper_weeks_by_pre_len": {
+    "1": 0,
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "no_taper_before_first_meet_season_types": [
+    "C"
+   ],
+   "in_season": {
+    "template": "athletic.2",
+    "variant": "in_season",
+    "days": 2
+   },
+   "phase_labels": {
+    "PRE": "pre_season",
+    "TAPER": "taper",
+    "IN": "in_season"
+   },
+   "refs": [
+    "PER-08",
+    "R2-PER-06",
+    "R2-GEN-05",
+    "R2-ATH-07"
+   ],
+   "status": "thresholds and placement INFERRED (D-10)"
+  },
+  "skeleton_ids": {
+   "muscle": {
+    "fixed_12": "C12_HYPERTROPHY",
+    "fixed_8": "C8_HYPERTROPHY"
+   },
+   "strength": {
+    "fixed_12": "C12_STRENGTH",
+    "fixed_8": "C8_STRENGTH"
+   },
+   "fat_loss": {
+    "fixed_12": "C12_FAT_LOSS",
+    "fixed_8": "C8_FAT_LOSS"
+   },
+   "general": {
+    "fixed_12": "C12_GENERAL",
+    "fixed_8": "C8_GENERAL"
+   },
+   "active": {
+    "fixed_12": "C12_GENERAL",
+    "fixed_8": "C8_GENERAL"
+   },
+   "hybrid": {
+    "fixed_12": "C12_HYBRID",
+    "fixed_8": "C8_HYBRID"
+   },
+   "athletic": {
+    "fixed_12": "ATHLETE_OFF_C12",
+    "fixed_8": "ATHLETE_OFF_C8"
+   },
+   "any": {
+    "maintenance_4_6": "MAINT_4",
+    "week_by_week": "WBW_12",
+    "year": "YEAR_GENPOP"
+   }
+  },
+  "refs": [
+   "PER-01",
+   "PER-08",
+   "PER-10",
+   "R2-PER-01",
+   "R2-PER-02",
+   "R2-PER-03",
+   "R2-PER-04",
+   "R2-PER-06"
+  ]
+ },
+ "recovery": {
+  "sets_factor": 0.5,
+  "of": "hardest_week",
+  "round": "up",
+  "min_sets_per_exercise": 1,
+  "rir_min": 3,
+  "remove": [
+   "buyout",
+   "finisher",
+   "myo",
+   "superset"
+  ],
+  "olympic": {
+   "sets_factor": 0.5,
+   "load": "light_technique"
+  },
+  "athletic_factor": 0.5,
+  "athletic_mode": "landings_low_amplitude",
+  "conditioning": "C_only",
+  "only_between_blocks": true,
+  "extra_week": true,
+  "skip_when_maintenance_adjacent": true,
+  "refs": [
+   "PER-05",
+   "R2-VOL-07"
+  ],
+  "r3": "R3-PER-01"
+ },
+ "cycles": {
+  "start_multiplier": 1.05,
+  "rounding": "half_up",
+  "cap_add": 1,
+  "cap_max_nonpriority": 25,
+  "cap_max_priority": 30,
+  "same_start_if": [
+   "last_block_not_finished"
+  ],
+  "refs": [
+   "R2-VOL-06"
+  ]
+ },
+ "tests": {
+  "catalogue": {
+   "strength": {
+    "from_zero": {
+     "L1": "rm_5_8",
+     "L2": "rm_3_or_5",
+     "L3": "rm_3_or_5"
+    },
+    "after_completed_block": {
+     "L1": "rm_5_8",
+     "L2": "rm_3_or_work_up_to_1",
+     "L3": "rm_3_or_work_up_to_1"
+    },
+    "pro": "no_true_1rm",
+    "older": "submax"
+   },
+   "cardio": {
+    "from_zero": "mile_or_erg_80_90",
+    "after_completed_block": [
+     "1_mile",
+     "erg_time_trial"
+    ]
+   },
+   "speed_agility": {
+    "from_zero": "sprint_10_30m_80_90",
+    "items": [
+     "sprint_10_30m",
+     "5-10-5-pro-agility-shuttle",
+     "l-test-l-drill-3-cone-inferred-from-left-test"
+    ],
+    "items_by_profile": {
+     "sprint": "sprint_10_30m",
+     "cod": "5-10-5-pro-agility-shuttle"
+    }
+   },
+   "jumps": {
+    "items": [
+     "cmj",
+     "broad-jump"
+    ],
+    "older_default": false
+   },
+   "body": {
+    "items": [
+     "body_weight",
+     "photos_girths"
+    ]
+   }
+  },
+  "when": {
+   "baseline": "week_1_of_each_stairway",
+   "end": "last_week_of_each_stairway",
+   "never_mid_block": true,
+   "not_in_block_types": [
+    "pre_season",
+    "in_season",
+    "taper",
+    "recovery",
+    "maintenance"
+   ]
+  },
+  "from_zero_if": [
+   "level_L1",
+   "layoff",
+   "years_consistent_lt_1",
+   "youth"
+  ],
+  "end_test_counts_as_completed_block": true,
+  "other_sets_factor": 1,
+  "test_replaces": "top_sets_of_tested_lifts_only",
+  "test_week_note": "the rest of the test week stays as planned so the last week stays the hardest (D-17; 06 proposed 50-70 %)",
+  "reminders": [
+   "block_start",
+   "days_before_7",
+   "days_before_1"
+  ],
+  "excluded": [
+   "21.6 mile run"
+  ],
+  "refs": [
+   "PER-07",
+   "LIB-18",
+   "R2-PER-07",
+   "R2-LIB-06"
+  ],
+  "lock_tested_exercise": true,
+  "test_item": {
+   "own_item": true,
+   "no_superset": true,
+   "no_week1_tip": true,
+   "strength_wording": "work_up_to_top_set"
+  },
+  "cardio_day": "lightest_or_aerobic_day",
+  "replaces_top_set": {
+   "back_off_rir_add": 1,
+   "back_off_rir_min": 2,
+   "refs": [
+    "R2-PER-07"
+   ],
+   "status": "PROPOSED (F1, E-91): the back-off dose (planned RIR + 1, at least 2)"
+  }
+ },
+ "warmup": {
+  "general": {
+   "text_key": "warmup.any_cardio_5min",
+   "minutes": 5
+  },
+  "lower_or_athletic_drills": [
+   "a-march-running-drill",
+   "a-skip-running-drill",
+   "a-runs-high-knee-running-drill"
+  ],
+  "press_day_mobility": [
+   "kb-book-opener"
+  ],
+  "before_sprints": "warmup.running_warmup",
+  "aesthetics_medball_warmup_allowed": true,
+  "counts_as_volume": false,
+  "refs": [
+   "ORD-08",
+   "ATH-05"
+  ],
+  "prep_by_profile": {
+   "mobility_when": [
+    "sprint_tier_T0",
+    "injury:SHOULDER_SWIMMER",
+    "injury:SHOULDER_THROWER",
+    "running_space_none",
+    "lower_limb_pain"
+   ],
+   "drills_when": [
+    "running_sport"
+   ],
+   "mobility_ids": [
+    "kb-book-opener"
+   ],
+   "balance_ids": [
+    "single-leg-balance-reach-front-side-back"
+   ],
+   "refs": [
+    "ORD-08"
+   ]
+  }
+ },
+ "core_block": {
+  "position_default": "start",
+  "positions": [
+   "start",
+   "after_plyos",
+   "after_strength",
+   "end"
+  ],
+  "exercises": 2,
+  "sets_when_first": 2,
+  "submaximal_when_first": true,
+  "harder_only_when_moved_to_end": true,
+  "thorax_and_pelvis": true,
+  "plane_rotation": [
+   "sagittal",
+   "frontal",
+   "transverse"
+  ],
+  "rotational_profiles_groups": [
+   "rotational_power",
+   "combat"
+  ],
+  "never_skipped": true,
+  "counts_to_abs": true,
+  "refs": [
+   "ATH-11",
+   "VOL-17",
+   "CAT-08",
+   "GEN-08",
+   "R2-SES-03"
+  ]
+ },
+ "template_select": {
+  "variant_order": [
+   "in_season_week",
+   "split_style",
+   "profile_template_hint",
+   "unbuilt_main_fallback",
+   "same_pattern",
+   "format_circuit"
+  ],
+  "split_style_variants": {
+   "ppl": "ppl_x2",
+   "upper_lower": "upper_lower"
+  },
+  "unbuilt_fallback": "first_built_alternative_else_family_days_minus_1",
+  "weekday_mapping": "template_planned_days_onto_intake_weekdays_in_order",
+  "optional_days": "free_weekdays_nearest_template_day_skipping_play_and_game_days",
+  "refs": [
+   "VOL-08",
+   "ORD-06",
+   "PRG-02",
+   "R2-GEN-07"
+  ]
+ },
+ "validation": {
+  "checks": [
+   {
+    "id": "V1",
+    "key": "check.v1_safety",
+    "severity": "error"
+   },
+   {
+    "id": "V2",
+    "key": "check.v2_days",
+    "severity": "warn"
+   },
+   {
+    "id": "V3",
+    "key": "check.v3_short_athletes",
+    "severity": "warn"
+   },
+   {
+    "id": "V4",
+    "key": "check.v4_youth",
+    "severity": "error"
+   },
+   {
+    "id": "V5",
+    "key": "check.v5_older",
+    "severity": "error"
+   },
+   {
+    "id": "V6",
+    "key": "check.v6_season",
+    "severity": "warn"
+   },
+   {
+    "id": "V7",
+    "key": "check.v7_no_equipment",
+    "severity": "warn"
+   },
+   {
+    "id": "V8",
+    "key": "check.v8_priorities",
+    "severity": "error"
+   },
+   {
+    "id": "V9",
+    "key": "check.v9_bands",
+    "severity": "error"
+   },
+   {
+    "id": "V10",
+    "key": "check.v10_spine",
+    "severity": "error"
+   },
+   {
+    "id": "V11",
+    "key": "check.v11_pairing",
+    "severity": "error"
+   },
+   {
+    "id": "V12",
+    "key": "check.v12_order",
+    "severity": "error"
+   },
+   {
+    "id": "V13",
+    "key": "check.v13_caps",
+    "severity": "error"
+   },
+   {
+    "id": "V14",
+    "key": "check.v14_counting",
+    "severity": "error"
+   },
+   {
+    "id": "V15",
+    "key": "check.v15_step",
+    "severity": "error"
+   },
+   {
+    "id": "V16",
+    "key": "check.v16_aesthetics_medball",
+    "severity": "error"
+   },
+   {
+    "id": "V17",
+    "key": "check.v17_effort",
+    "severity": "error"
+   },
+   {
+    "id": "V18",
+    "key": "check.v18_minimums",
+    "severity": "error"
+   },
+   {
+    "id": "V19",
+    "key": "check.v19_olympic",
+    "severity": "error"
+   },
+   {
+    "id": "V20",
+    "key": "check.v20_vsquat",
+    "severity": "error"
+   },
+   {
+    "id": "V21",
+    "key": "check.v21_release",
+    "severity": "error"
+   },
+   {
+    "id": "V22",
+    "key": "check.v22_floor",
+    "severity": "error"
+   },
+   {
+    "id": "V23",
+    "key": "check.v23_exercises_per_group",
+    "severity": "error"
+   },
+   {
+    "id": "V24",
+    "key": "check.v24_block_structure",
+    "severity": "error"
+   },
+   {
+    "id": "V25",
+    "key": "check.v25_tests",
+    "severity": "error"
+   },
+   {
+    "id": "V26",
+    "key": "check.v26_inputs",
+    "severity": "error"
+   },
+   {
+    "id": "V27",
+    "key": "check.v27_athletic_budget",
+    "severity": "error",
+    "b2": "over / under (capacity-scaled) / drop inside a stairway block / RC3 single-response / sport-only drills"
+   },
+   {
+    "id": "V28",
+    "key": "check.v28_laterality_share",
+    "severity": "warn"
+   },
+   {
+    "id": "V29",
+    "key": "check.v29_push_pull",
+    "severity": "warn"
+   }
+  ],
+  "hard": [
+   {
+    "id": "H01",
+    "key": "check.h01_no_bands"
+   },
+   {
+    "id": "H02",
+    "key": "check.h02_no_failure_heavy"
+   },
+   {
+    "id": "H03",
+    "key": "check.h03_power_before_strength"
+   },
+   {
+    "id": "H04",
+    "key": "check.h04_h_before_v"
+   },
+   {
+    "id": "H05",
+    "key": "check.h05_core_first"
+   },
+   {
+    "id": "H06",
+    "key": "check.h06_pairing"
+   },
+   {
+    "id": "H07",
+    "key": "check.h07_two_spine_days"
+   },
+   {
+    "id": "H08",
+    "key": "check.h08_credits"
+   },
+   {
+    "id": "H09",
+    "key": "check.h09_athletic_no_credit"
+   },
+   {
+    "id": "H10",
+    "key": "check.h10_step_cap"
+   },
+   {
+    "id": "H11",
+    "key": "check.h11_medball"
+   },
+   {
+    "id": "H12",
+    "key": "check.h12_older_never"
+   },
+   {
+    "id": "H13",
+    "key": "check.h13_no_sex"
+   },
+   {
+    "id": "H14",
+    "key": "check.h14_i18n"
+   },
+   {
+    "id": "H15",
+    "key": "check.h15_no_deload_inside"
+   },
+   {
+    "id": "H16",
+    "key": "check.h16_no_lifestyle"
+   },
+   {
+    "id": "H17",
+    "key": "check.h17_floor_10"
+   },
+   {
+    "id": "H18",
+    "key": "check.h18_two_to_four"
+   },
+   {
+    "id": "H19",
+    "key": "check.h19_tests"
+   },
+   {
+    "id": "H20",
+    "key": "check.h20_release"
+   },
+   {
+    "id": "H21",
+    "key": "check.h21_stairway"
+   },
+   {
+    "id": "H22",
+    "key": "check.h22_no_checkin_no_change"
+   }
+  ]
+ },
+ "legal": {
+  "disclaimer_url": {
+   "en": "https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md",
+   "es": "https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.es.md"
+  },
+  "owner": "Lalo Vera / Blaze Camp / BFit Studios Corp.",
+  "nothing_stored": true,
+  "refs": [
+   "R3-GEN-01"
+  ],
+  "status": "COACH-R3 R3-GEN-01 approved; release text DRAFT for attorney review",
+  "parq_url": "https://eparmedx.com/",
+  "parq_status": "COACH-R3 R3-GEN-01 (approved: a link to the official PAR-Q+; spec health.parq_link, RESEARCH eparmedx.com 2026-10-08)"
+ },
+ "r3_approved": [
+  "R3-VOL-01",
+  "R3-VOL-02",
+  "R3-VOL-03",
+  "R3-VOL-04",
+  "R3-SES-01",
+  "R3-SES-02",
+  "R3-PER-01",
+  "R3-ATH-01",
+  "R3-ATH-02",
+  "R3-ATH-03",
+  "R3-ATH-04",
+  "R3-ATH-05",
+  "R3-GEN-01"
+ ]
+}

@@ -1,0 +1,1 @@
+{"plans":594,"sessionRelax":151,"witnessWeek1":0,"structureFallback":110,"peakCut":0,"opened":231,"helperLifts":76,"evening":226}

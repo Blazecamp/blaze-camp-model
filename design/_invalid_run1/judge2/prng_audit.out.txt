@@ -1,0 +1,28 @@
+1. proto_stairway_stress.mjs, as written (seed 4242, 2000 plans):
+   number of lines k: {"1":651,"2":6,"5":669,"6":2,"9":670,"10":2}  (intended: 1..12 uniform)
+   level-table row drawn: {"0":10027,"1":43}  of 10070 lines (intended: 8 rows uniform)
+   Focus add f: {"0":32,"1":3372,"2":3280,"3":3386}  (intended: 0 in 3 of 4 lines)
+   kernel.test.mjs generator (seed 12345): rnd(2) {"0":19917,"1":83}  rnd(4) {"0":19913,"1":87}  rnd(12) {"0":6581,"1":23,"4":6695,"5":21,"8":6642,"9":38}
+   => variable lower bounds rnd(2) and branching preference rnd(2) are (almost) constant; domains 2 + rnd(4) are (almost) always 0..2
+
+2. kernel.mjs and milp.mjs vs brute force, sound generator, varied domains, 1 row in 4 with coefficients up to 6000: 12000 solves, 0 mismatches, 0 budget stops
+
+3. lp.mjs, sound generator, 20000 boxed LPs (1 row in 4 with coefficients up to 6000): optimal 13785, infeasible 6215, other 0
+   FALSE infeasible: 0; LP bound above an integer optimum: 0; row violations at the optimum: 0
+
+4. stairway flow stress, sound generator, the INTENDED distribution (1-12 lines, all 8 level rows, Focus on 1 line in 4): 20000 plans, 0 thrown
+   line decreases 0; lines not on their peak in week N 0; realized line steps over max(1, 7 %) 0
+   realized weekly total rises >= 10 %: 159 weeks in 159 plans (hard rule T0-STW-03)
+   weekly total rises above max(1, 7 %) [placed.total_pct]: 5025 weeks in 5025 plans
+   every climbing line lands in week N: 19683/19683 plans where the 10 % rule allows it
+   plans with >= N-2 non-final sets that still have a flat week: 0/15929
+   max solve time 118.0 ms
+   example: {"kind":"total rise >= 10 % of the realized week","N":5,"tot":"49 49 50 50 55","lines":"6->7 10->11 15->17 9->10 9->10"}
+   example: {"kind":"total rise >= 10 % of the realized week","N":14,"tot":"18 18 18 18 18 18 18 18 19 19 19 19 19 21","lines":"6->7 12->14"}
+   example: {"kind":"total rise >= 10 % of the realized week","N":14,"tot":"36 36 36 36 36 36 36 37 38 38 38 38 38 42","lines":"6->7 12->14 12->14 6->7"}
+   example: {"kind":"total rise >= 10 % of the realized week","N":13,"tot":"18 18 18 18 18 18 18 19 19 19 19 19 21","lines":"6->7 12->14"}
+   example: {"kind":"total rise >= 10 % of the realized week","N":15,"tot":"15 15 15 15 16 16 16 17 17 18 19 19 20 20 22","lines":"6->7 9->15"}
+   example: {"kind":"total rise >= 10 % of the realized week","N":5,"tot":"55 55 56 57 63","lines":"10->11 9->10 6->7 12->14 6->7 12->14"}
+   example: {"kind":"total rise >= 10 % of the realized week","N":8,"tot":"27 27 28 29 30 30 30 33","lines":"9->11 12->15 6->7"}
+   example: {"kind":"total rise >= 10 % of the realized week","N":5,"tot":"19 19 20 20 22","lines":"13->15 6->7"}
+   example: {"kind":"total rise >= 10 % of the realized week","N":8,"tot":"34 34 35 36 37 38 38 42","lines":"12->15 10->13 6->7 6->7"}

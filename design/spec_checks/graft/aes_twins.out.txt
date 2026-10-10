@@ -1,0 +1,4 @@
+twins free (budget 2000 per question): 8 groups kept; hips 15.5->23.75, shoulders 19->25.75, quads 14->19, back 12->18, chest 11->17, calves 12->14, triceps 13.5->19.5, biceps 14->20.5
+   total 99 -> 140; 189 questions, 153187 nodes ('fits' 138 answers 63698 nodes; 'no' 29 answers 1445 nodes; unknown 22), 10737 ms; violations 0; longest day 75.0 min
+twins TIED (budget 2000 per question): 8 groups kept; hips 15.25->23.5, shoulders 19->26.5, quads 13->18, back 12->18, chest 11->16, calves 12->15, triceps 12.5->19, biceps 14->20.5
+   total 97 -> 140; 171 questions, 20967 nodes ('fits' 129 answers 12333 nodes; 'no' 41 answers 4632 nodes; unknown 1), 1313 ms; violations 0; longest day 74.9 min

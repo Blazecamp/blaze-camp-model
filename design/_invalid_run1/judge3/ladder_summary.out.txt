@@ -1,0 +1,35 @@
+instances 126 (aesthetics + athletic, 2-4 days, 30-120 min, L1-L3); no group fits 9; compared 117
+
+function P(D) (strict even exposures)
+  builds a plan in 92/117; cannot place the kept set in 25 (time wN)
+  worst peak shortfall minus the MILP's proven T1 (sets; 87 cells): +0: 74, +1: 6, +2: 6, +5: 1
+  total peak shortfall minus the MILP's proven T2 (sets; 84 cells with all tiers proven): +0: 59, +1: 8, +2: 13, +3: 1, +6: 2, +14: 1
+  cells where the MILP did NOT finish its proof in 2,000 nodes per tier: 8; there, T1 vs the MILP's best found: +0: 3, +1: 3, +4: 1, +5: 1; T2: +1: 2, +2: 3, +3: 1, +4: 1, +14: 1
+  every week checked (minutes, floors, VOL-07, twin days, session ceiling): violations 0; slots that lost a set 0; stairway errors 0
+  CPU per plan: median 1.58 ms, max 10.52 ms
+
+sequential, minutes-aware
+  builds a plan in 105/117; cannot place the kept set in 12 (no room for the floor of quads; no room for the floor of biceps; no room for the floor of chest; no room for the climb of shoulders)
+  worst peak shortfall minus the MILP's proven T1 (sets; 100 cells): +0: 89, +1: 9, +2: 1, +3: 1
+  total peak shortfall minus the MILP's proven T2 (sets; 97 cells with all tiers proven): +0: 79, +1: 10, +2: 7, +4: 1
+  cells where the MILP did NOT finish its proof in 2,000 nodes per tier: 8; there, T1 vs the MILP's best found: +0: 6, +2: 1, +3: 1; T2: +0: 2, +1: 3, +2: 2, +3: 1
+  every week checked (minutes, floors, VOL-07, twin days, session ceiling): violations 0; slots that lost a set 0; stairway errors 0
+  CPU per plan: median 1.45 ms, max 15.12 ms
+
+research MILP endpoint dosing on the same cells (2,000 nodes per tier): nodes median 34, p90 1555, max 6003; CPU median 29 ms, p90 1204 ms, max 18095 ms; all tiers proven in 107/117
+
+cells where the sequential construction is more than 1 set from the proven T1, or fails:
+  aesthetics 2x45 L1 kept 3/6: sequential FAIL no room for the floor of quads vs MILP 4/8/2 (optimal)
+  aesthetics 2x45 L2 kept 3/6: sequential FAIL no room for the floor of quads vs MILP 12/32/17 (optimal)
+  aesthetics 2x45 L3 kept 3/6: sequential FAIL no room for the floor of quads vs MILP 15/41/32 (optimal)
+  aesthetics 2x75 L2 kept 7/8: sequential FAIL no room for the floor of biceps vs MILP 14/75/27 (optimal)
+  aesthetics 2x75 L3 kept 7/8: sequential FAIL no room for the floor of biceps vs MILP 17/96/51 (optimal)
+  aesthetics 3x60 L2 kept 7/8: sequential FAIL no room for the floor of biceps vs MILP 14/66/19 (limit)
+  aesthetics 3x60 L3 kept 7/8: sequential FAIL no room for the floor of biceps vs MILP 17/87/44 (limit)
+  athletic 3x60 L1 kept 4/6: sequential FAIL no room for the floor of chest vs MILP 2/4/4 (optimal)
+  athletic 3x60 L2 kept 4/6: sequential FAIL no room for the floor of chest vs MILP 10/36/16 (optimal)
+  athletic 3x60 L3 kept 4/6: sequential FAIL no room for the floor of chest vs MILP 13/48/36 (optimal)
+  athletic 3x75 L1 kept 5/6: sequential 4/6/4 vs MILP 2/2/4 (optimal)
+  athletic 3x75 L2 kept 6/6: sequential FAIL no room for the climb of shoulders vs MILP 14/58/18 (optimal)
+  athletic 3x75 L3 kept 6/6: sequential FAIL no room for the climb of shoulders vs MILP 17/76/41 (optimal)
+  athletic 4x75 L2 kept 6/6: sequential 10/31/5 vs MILP 7/31/3 (limit)

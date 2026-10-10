@@ -1,0 +1,16 @@
+1a. hosted pattern station that credits a higher-priority group (judge 2, D1): prototype keeps [1]; fixed stage 1 keeps [0,1] (certificate violations: 0)
+1b. an own exercise with half a set of own credit (dips; judge 2, D2): prototype oracle 'no'; fixed oracle 'fits'
+2. oracle against brute force, widened generator (600 instances, 2400 questions; drawn: own credit {"0":701,"2":1418,"4":2395}, hosted pattern stations 284 (133 credit another group), instances with pairs 482, with fixed credit 137, groups {"2":303,"3":297}, days {"1":279,"2":321})
+   fixed oracle: fits 637, no 1763, unknown 0; verdicts that differ from brute force 0; witnesses the evaluator rejects 0
+   unpatched prototype oracle on the same questions: verdicts that differ 23 (false 'no': 23)
+3. keep vector against the exhaustive lexicographic maximum (600 instances, per-session limit drawn per group: differences here are the 11 -> 14 rule of stage 1, see the header): fixed stage 1 differs in 5; unpatched prototype differs in 34
+4. the three hard samples (keep-time branch, 100 % of the minutes):
+   08 pickleball 2 x 45
+      prototype: calves 6 -> 7, hips 10 -> 12; pattern chest; 38 questions, 130 nodes (largest 17), unknown 0; violations 0
+      fixed: calves 6 -> 7, hips 10 -> 12; pattern chest; 38 questions, 141 nodes (largest 18), unknown 0; violations 0
+   04 CrossFit class 4 x 60
+      prototype: back 12 -> 15; pattern chest; 40 questions, 113 nodes (largest 13), unknown 0; violations 0
+      fixed: back 12 -> 15; pattern chest; 40 questions, 130 nodes (largest 13), unknown 0; violations 0
+   01 swimmer 3 x 60
+      prototype: back 10 -> 15, hips 10.5 -> 12.5; pattern quads; 57 questions, 2166 nodes (largest 2013), unknown 0; violations 0
+      fixed: back 10 -> 15, hips 10.5 -> 12.5; pattern quads; 57 questions, 2200 nodes (largest 2013), unknown 0; violations 0

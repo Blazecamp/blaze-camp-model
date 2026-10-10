@@ -1,0 +1,9 @@
+
+## X   E2 template (stay-active racket player, L2), 3 days x 60 min
+main days: Mon S1 (9 resistance slots, fixed 16.0 min, athletic 14.6 min); Wed S2 (9 resistance slots, fixed 16.0 min, athletic 4.3 min); Fri S3 (9 resistance slots, fixed 16.0 min)
+variables 146, constraints 450
+group selection (R3-SES-02 step 2, exact oracle): kept calves, hips, quads, back, chest, shoulders; not trained directly -; oracle calls 6, nodes 1/5/10/24/34/51; 439 ms
+dosing tiers: T1=null (limit, 50001 nodes); 18197 ms
+NO SOLUTION
+
+wall time 18.6 s

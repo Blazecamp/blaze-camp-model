@@ -1,0 +1,9 @@
+cell hips@Mon lead false slots RP_UHD 2-4, ISO_LEG_FLEXION 2-4, RP_BHD 2-4, ISO_LEG_FLEXION 2-4 values 4,5,6,7,8,9,10,11
+cell hips@Wed lead true slots RP_BHD(work) 2-4, RP_UHD 2-4, ISO_LEG_FLEXION 2-4, ISO_LEG_FLEXION 2-4 values 4,5,6,7,8,9,10,11
+cell hips@Fri lead true slots RP_BHD(work) 2-4, ISO_LEG_FLEXION 2-4, RP_UHD 2-4, ISO_LEG_FLEXION 2-4 values 4,5,6,7,8,9,10,11
+band 49.45 min a day
+keep-search question (minimum point): null ("does not fit")
+exact total hips = 12 : null ("does not fit")
+exact total hips = 13 : ["hips@Wed=9 sets/3 exercises","hips@Fri=4 sets/2 exercises"]
+   minutes in week 12: Mon 48, Wed 48.75, Fri 46.65 | credited hips 13
+plan(): hips state = NONE

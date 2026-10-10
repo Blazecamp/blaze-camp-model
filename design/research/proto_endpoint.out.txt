@@ -1,0 +1,97 @@
+Simplifications: (1) groups are dosed as group lines (hips = one line with the line start / cap; the engine keeps glutes and hamstrings lines) (2) optional days, FOCUS slots, conditioning and tests are left out (the optional day would add room, not remove it) (3) athletic stations hold their template sets; their peak-week minutes = week-1 minutes x athleticPeak (the real planner takes them from the athletic budget) (4) calves: one exercise x 3-4 sets per leg day, floor = min(10, 3 x leg days) on the main days (the optional-day calves slot is left out)
+
+## E1  coach example 12 v1.2 5.1: L1 aesthetics, 4 days x 60 min
+main days: Mon A1 (10 resistance slots, fixed 16.0 min, twin Thu); Tue B1 (10 resistance slots, fixed 16.0 min, twin Fri); Thu A2 (10 resistance slots, fixed 16.0 min, twin Mon); Fri B2 (10 resistance slots, fixed 16.0 min, twin Tue)
+variables 209, constraints 752
+group selection (R3-SES-02 step 2, exact oracle): kept hips, quads, back, chest, shoulders, calves, triceps, biceps; not trained directly -; oracle calls 8, nodes 3/5/6/7/11/53/194/148; 743 ms
+dosing tiers: T1=1 (optimal, 38 nodes); T2=2 (optimal, 548 nodes); T3=4 (optimal, 35 nodes); 356 ms
+weeks 2..11 (flow stairway + VOL-07 placement): 3.0 ms
+group (start S / ceiling C): direct sets week 1..12  [credited sets week 1 -> 12]
+  quads     (10/14): 12 12 12 12 12 12 13 13 13 13 13 14  [12.00 -> 14.00]
+  hips      (10/14): 12 12 12 12 12 12 13 13 13 13 13 14  [14.00 -> 16.50]
+  back      (10/14): 10 10 11 11 11 11 11 12 12 13 13 14  [10.00 -> 14.00]
+  chest     (10/14): 10 10 10 11 11 11 11 12 12 12 13 14  [10.00 -> 14.00]
+  shoulders (10/14): 10 11 11 11 11 11 11 11 12 12 12 13  [12.50 -> 16.75]
+  biceps    (10/14): 10 10 10 10 10 11 11 11 12 12 12 13  [12.50 -> 16.50]
+  triceps   (10/14): 10 10 10 10 11 11 11 12 12 13 13 14  [11.25 -> 16.00]
+  calves    (12/14): 12 12 12 12 12 12 13 13 13 13 13 14  [12.00 -> 14.00]
+  total resistance sets: 86 87 88 89 90 91 94 97 99 101 102 110
+  minutes per day (week 1 -> 12; limit 60 x 1.1 = 66): Mon 58->66, Tue 58->66, Thu 56->65, Fri 52->65; supersets needed on: Mon, Tue, Thu, Fri
+  checks over all 12 weeks: time violations 0, floor violations 0, slot decreases 0, flat weeks in the total 0, VOL-07 shape breaks 0, uneven twin days 0, group steps over 7 % 0, weekly total rises >= 10 % 0
+  offer (exact, 5-min grid): every group trained directly from 60 min; every group reaching its ceiling from 65 min  (1247 ms)
+
+## E2  coach example 12 v1.2 5.5: L2 stay-active racket player 55 y, 2 days x 45 min (calves pinned first)
+main days: Mon A (9 resistance slots, fixed 16.0 min, athletic 4.3 min); Thu B (9 resistance slots, fixed 16.0 min, athletic 4.3 min)
+variables 102, constraints 311
+group selection (R3-SES-02 step 2, exact oracle): kept calves, hips; not trained directly quads, back, chest, shoulders; oracle calls 6, nodes 1/5/1/1/0/0; 4 ms
+dosing tiers: T1=14 (optimal, 2 nodes); T2=20 (optimal, 2 nodes); T3=1 (optimal, 2 nodes); 1 ms
+weeks 2..11 (flow stairway + VOL-07 placement): 0.2 ms
+group (start S / ceiling C): direct sets week 1..12  [credited sets week 1 -> 12]
+  quads     not trained directly; compound credit week 1 0.00 -> week 12 0.00
+  hips      (15/22): 14 14 14 14 14 14 15 15 15 15 15 16  [14.00 -> 16.00]
+  back      not trained directly; compound credit week 1 0.00 -> week 12 0.00
+  chest     not trained directly; compound credit week 1 0.00 -> week 12 0.00
+  shoulders not trained directly; compound credit week 1 0.00 -> week 12 0.00
+  calves    (6/22): 6 6 6 6 6 6 6 7 7 7 7 8  [6.00 -> 8.00]
+  total resistance sets: 20 20 20 20 20 20 21 22 22 22 22 24
+  minutes per day (week 1 -> 12; limit 45 x 1.1 = 50): Mon 46->48, Thu 43->49; supersets needed on: none
+  checks over all 12 weeks: time violations 0, floor violations 0, slot decreases 0, flat weeks in the total 8, VOL-07 shape breaks 0, uneven twin days 0, group steps over 7 % 0, weekly total rises >= 10 % 0
+  offer (exact, 5-min grid): every group trained directly from >150 min; every group reaching its ceiling from >150 min  (238 ms)
+
+## E3  L2 aesthetics, 4 days x 75 min, Focus glutes -> hips
+main days: Mon A1 (10 resistance slots, fixed 16.0 min, twin Thu); Tue B1 (10 resistance slots, fixed 16.0 min, twin Fri); Thu A2 (10 resistance slots, fixed 16.0 min, twin Mon); Fri B2 (10 resistance slots, fixed 16.0 min, twin Tue)
+variables 209, constraints 752
+group selection (R3-SES-02 step 2, exact oracle): kept hips, quads, back, chest, shoulders, calves, triceps, biceps; not trained directly -; oracle calls 8, nodes 3/5/7/9/11/13/21/22; 118 ms
+dosing tiers: T1=6 (optimal, 9 nodes); T2=24 (optimal, 17 nodes); T3=4 (optimal, 40 nodes); 83 ms
+weeks 2..11 (flow stairway + VOL-07 placement): 3.7 ms
+group (start S / ceiling C): direct sets week 1..12  [credited sets week 1 -> 12]
+  quads     (15/22): 15 16 16 16 16 17 18 18 19 20 21 22  [15.00 -> 22.00]
+  hips      (17/24): 17 17 18 19 19 19 20 21 21 22 23 24  [19.50 -> 28.00]
+  back      (15/22): 15 15 15 16 16 16 17 17 18 18 19 20  [15.00 -> 20.00]
+  chest     (15/22): 15 15 15 15 15 16 16 16 17 17 17 18  [15.00 -> 18.00]
+  shoulders (12/22): 16 16 17 17 17 17 18 19 20 20 21 22  [20.00 -> 27.00]
+  biceps    (12/22): 12 12 12 12 13 13 13 14 14 15 15 16  [15.75 -> 21.00]
+  triceps   (12/22): 12 12 12 12 13 13 13 14 14 15 15 16  [15.00 -> 20.25]
+  calves    (12/22): 12 12 12 12 13 13 13 14 14 15 15 16  [12.00 -> 16.00]
+  total resistance sets: 114 115 117 119 122 124 128 133 137 142 146 154
+  minutes per day (week 1 -> 12; limit 75 x 1.1 = 83): Mon 67->79, Tue 67->82, Thu 60->79, Fri 64->79; supersets needed on: Mon, Tue, Thu, Fri
+  checks over all 12 weeks: time violations 0, floor violations 0, slot decreases 0, flat weeks in the total 0, VOL-07 shape breaks 0, uneven twin days 0, group steps over 7 % 0, weekly total rises >= 10 % 0
+  offer (exact, 5-min grid): every group trained directly from 75 min; every group reaching its ceiling from >150 min  (2411 ms)
+
+## E4  L3 aesthetics, 4 days x 90 min
+main days: Mon A1 (11 resistance slots, fixed 16.0 min, twin Thu); Tue B1 (10 resistance slots, fixed 16.0 min, twin Fri); Thu A2 (11 resistance slots, fixed 16.0 min, twin Mon); Fri B2 (10 resistance slots, fixed 16.0 min, twin Tue)
+variables 213, constraints 774
+group selection (R3-SES-02 step 2, exact oracle): kept hips, quads, back, chest, shoulders, calves, triceps, biceps; not trained directly -; oracle calls 8, nodes 3/5/7/9/11/13/18/20; 111 ms
+dosing tiers: T1=9 (optimal, 11 nodes); T2=43 (optimal, 19 nodes); T3=7 (optimal, 23 nodes); 80 ms
+weeks 2..11 (flow stairway + VOL-07 placement): 1.8 ms
+group (start S / ceiling C): direct sets week 1..12  [credited sets week 1 -> 12]
+  quads     (20/25): 20 20 20 20 20 20 20 20 21 21 21 22  [20.00 -> 22.00]
+  hips      (20/25): 20 20 20 20 20 20 21 21 21 21 21 22  [23.50 -> 26.00]
+  back      (20/25): 20 21 21 21 21 21 21 21 21 21 21 22  [20.00 -> 22.00]
+  chest     (20/25): 16 16 16 16 16 16 16 16 17 17 17 18  [16.00 -> 18.00]
+  shoulders (15/25): 16 16 17 18 18 19 20 20 21 22 23 24  [19.75 -> 28.50]
+  biceps    (15/25): 14 14 14 14 14 14 14 15 15 15 15 16  [19.00 -> 21.50]
+  triceps   (15/25): 14 14 14 14 14 14 14 15 15 15 15 16  [17.00 -> 20.00]
+  calves    (12/25): 12 12 12 12 13 13 13 14 14 15 15 16  [12.00 -> 16.00]
+  total resistance sets: 132 133 134 135 136 137 139 142 145 147 148 156
+  minutes per day (week 1 -> 12; limit 90 x 1.1 = 99): Mon 81->86, Tue 73->79, Thu 72->85, Fri 67->78; supersets needed on: Mon, Tue, Thu, Fri
+  checks over all 12 weeks: time violations 0, floor violations 0, slot decreases 0, flat weeks in the total 0, VOL-07 shape breaks 0, uneven twin days 0, group steps over 7 % 0, weekly total rises >= 10 % 0
+  offer (exact, 5-min grid): every group trained directly from 90 min; every group reaching its ceiling from >150 min  (2279 ms)
+
+## E5  L2 field athlete (swimmer-like), 3 days x 90 min, athletic minutes +30 % by the peak
+main days: Mon S1 (9 resistance slots, fixed 16.0 min, athletic 21.6 min); Wed S2 (9 resistance slots, fixed 16.0 min, athletic 20.9 min); Fri S3 (9 resistance slots, fixed 16.0 min, athletic 7.0 min)
+variables 146, constraints 450
+group selection (R3-SES-02 step 2, exact oracle): kept hips, quads, back, chest, calves, shoulders; not trained directly -; oracle calls 6, nodes 5/11/15/19/19/28; 50 ms
+dosing tiers: T1=13 (optimal, 27 nodes); T2=36 (optimal, 153 nodes); T3=5 (optimal, 131 nodes); 131 ms
+weeks 2..11 (flow stairway + VOL-07 placement): 0.6 ms
+group (start S / ceiling C): direct sets week 1..12  [credited sets week 1 -> 12]
+  quads     (15/22): 15 15 15 16 16 16 16 16 17 17 17 18  [15.00 -> 18.00]
+  hips      (15/22): 15 15 16 16 17 17 18 19 19 20 21 22  [17.00 -> 24.50]
+  back      (15/22): 15 15 15 15 15 15 16 16 16 16 16 17  [15.00 -> 17.00]
+  chest     (15/22): 15 15 15 15 15 16 16 16 17 17 17 18  [15.00 -> 18.00]
+  shoulders (12/22): 7 7 7 7 7 7 7 8 8 8 8 9  [11.00 -> 13.75]
+  calves    (9/22): 9 10 10 10 10 10 10 10 11 11 11 12  [9.00 -> 12.00]
+  total resistance sets: 76 77 78 79 80 81 83 85 88 89 90 96
+  minutes per day (week 1 -> 12; limit 90 x 1.1 = 99): Mon 87->98, Wed 86->99, Fri 69->91; supersets needed on: Mon, Wed, Fri
+  checks over all 12 weeks: time violations 0, floor violations 0, slot decreases 0, flat weeks in the total 0, VOL-07 shape breaks 0, uneven twin days 0, group steps over 7 % 0, weekly total rises >= 10 % 0
+  offer (exact, 5-min grid): every group trained directly from 90 min; every group reaching its ceiling from >150 min  (692 ms)

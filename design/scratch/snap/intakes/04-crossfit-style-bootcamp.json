@@ -1,0 +1,117 @@
+{
+  "schema": "intake/2",
+  "_comment": "Coach sample 4 (R2-GEN-07): 35-year-old CrossFit-style class member ('Stay athletic and active' -> activity crossfit_class -> class model template hybrid_crossfit.4 'crossfit_style_bootcamp'), 2 years, 4 days x 60 min, 8 weeks, 170 lb. CrossFit box kit = HOME_BARBELL + extras: bumpers, kettlebells, dumbbells, rower / bike / ski erg, boxes, rings, pull-up rig, medballs up to 20 lb; no bands, no machines (D-16).",
+  "id": "sample-04-crossfit-style-bootcamp",
+  "lang": "en",
+  "units": "lb",
+  "role": "self",
+  "health_route": null,
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "release": {
+    "accepted": true,
+    "version": "release.client",
+    "lang": "en",
+    "guardian": null
+  },
+  "age": 35,
+  "body_weight": {
+    "value": 170,
+    "unit": "lb"
+  },
+  "experience": {
+    "years_consistent": 2,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "goal": "active",
+  "format": null,
+  "sport": null,
+  "activity": {
+    "ids": [
+      "crossfit_class"
+    ],
+    "play_days": [],
+    "event_date": null
+  },
+  "priority_muscles": [],
+  "lift_style": "balanced",
+  "schedule": {
+    "days_per_week": 4,
+    "weekdays": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri"
+    ],
+    "session_minutes": 60,
+    "start_date": "2026-10-12"
+  },
+  "plan": {
+    "mode": "fixed_8",
+    "maint_reason": null,
+    "maint_weeks": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "strength",
+      "cardio"
+    ],
+    "just_finished_block": false
+  },
+  "equipment": {
+    "profile": "HOME_BARBELL",
+    "extras": [
+      "barbell_bumpers_platform",
+      "kettlebell",
+      "medball",
+      "slam_ball",
+      "plyo_box_high",
+      "two_boxes",
+      "rings",
+      "jump_rope",
+      "cardio_machine_cal"
+    ],
+    "machines": [],
+    "preference": "none",
+    "detail": {
+      "heaviest_db_pair": 70,
+      "medball_lb_owned": [
+        10,
+        14,
+        20
+      ],
+      "box_height_in": 24,
+      "running_space": "40_60m_or_track",
+      "cardio_options": [
+        "run",
+        "rower",
+        "bike",
+        "ski_erg"
+      ]
+    }
+  },
+  "pain": [],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "start",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false,
+    "cardio_adjust": 0,
+    "older_athletic_opt_in": false,
+    "split_style": "default"
+  },
+  "growth_stage": null,
+  "email": null,
+  "coach_rule_pack_ids": []
+}

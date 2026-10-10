@@ -1,0 +1,5 @@
+cells compared 609: identical kept lists 609, different 0; unknown oracle calls 0
+reduced oracle, nodes per plan (all calls): median 80, p90 265, p99 14440, max 104376; largest single call: p99 14377, max 104026
+calls: 'fits' 2979 (nodes median 14, p99 80, max 3644); 'proven not to fit' 1242 (nodes median 2, p99 4650, max 104026)
+CPU ms per plan: median 1.13, p90 8.4, p99 168, max 1282
+LP reference (stored run): CPU ms per plan median 34, p99 6327, max 14485; nodes max 34310

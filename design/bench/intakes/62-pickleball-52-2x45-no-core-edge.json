@@ -1,0 +1,126 @@
+{
+  "schema": "intake/2",
+  "_comment": "EDGE: the D1 client (pickleball, 52, 2 x 45, mild knee) with the core opener moved to the end.",
+  "_bench": {
+    "n": 62,
+    "tags": [
+      "active",
+      "pickleball",
+      "active-aging",
+      "L1",
+      "edge",
+      "pain"
+    ],
+    "edge": true
+  },
+  "id": "bench-62-pickleball-52-2x45-no-core-edge",
+  "lang": "en",
+  "units": "lb",
+  "role": "self",
+  "health_route": null,
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "release": {
+    "accepted": true,
+    "version": "release.client",
+    "lang": "en",
+    "guardian": null
+  },
+  "age": 52,
+  "body_weight": {
+    "value": 180,
+    "unit": "lb"
+  },
+  "experience": {
+    "years_consistent": 0.5,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "goal": "active",
+  "format": null,
+  "sport": null,
+  "activity": {
+    "ids": [
+      "rec_pickleball"
+    ],
+    "play_days": [
+      "Wed",
+      "Sat",
+      "Sun"
+    ],
+    "event_date": null
+  },
+  "priority_muscles": [],
+  "lift_style": "balanced",
+  "schedule": {
+    "days_per_week": 2,
+    "weekdays": [
+      "Mon",
+      "Thu"
+    ],
+    "session_minutes": 45,
+    "start_date": "2026-10-12"
+  },
+  "plan": {
+    "mode": "fixed_12",
+    "maint_reason": null,
+    "maint_weeks": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "none"
+    ],
+    "just_finished_block": false
+  },
+  "equipment": {
+    "profile": "BASIC_GYM",
+    "extras": [],
+    "machines": [],
+    "preference": "none",
+    "detail": {
+      "heaviest_db_pair": 50,
+      "medball_lb_owned": [
+        6,
+        8
+      ],
+      "box_height_in": 18,
+      "running_space": "none",
+      "cardio_options": [
+        "treadmill",
+        "bike"
+      ]
+    }
+  },
+  "pain": [
+    {
+      "area": "knee",
+      "side": "right",
+      "severity": "mild",
+      "worse_with": [
+        "deep_knee_bend"
+      ]
+    }
+  ],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "end",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false,
+    "cardio_adjust": 0,
+    "older_athletic_opt_in": false,
+    "split_style": "default"
+  },
+  "growth_stage": null,
+  "email": null,
+  "coach_rule_pack_ids": []
+}

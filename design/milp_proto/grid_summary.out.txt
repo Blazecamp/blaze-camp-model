@@ -1,0 +1,43 @@
+cells 630: skipped 21 (build), errors 0, solved 609
+no plan at all (the fixed blocks alone do not fit): 0; unknown (budget, nothing found): 0
+model size: variables p50 151 max 235; rows p50 420 max 642
+  T1a  solved 609; proven 609; budget hit with a plan 0; unknown 0; nodes p50 63 p90 212 p99 624 max 809; pivots per node p50 47
+  T4   solved 609; proven 599; budget hit with a plan 10; unknown 0; nodes p50 0 p90 383 p99 3001 max 3001; pivots per node p50 55
+  T5a  solved 609; proven 589; budget hit with a plan 20; unknown 0; nodes p50 2 p90 141 p99 3001 max 3001; pivots per node p50 67
+  T5s  solved 205; proven 205; budget hit with a plan 0; unknown 0; nodes p50 0 p90 1 p99 1 max 1; pivots per node p50 41
+CPU per plan for these tiers (ms, loaded laptop): p50 112 p90 3276 p99 24528 max 42244
+plans carried through stairway + placement + certificate: 594; certificate PASS 594; FAIL 0; stairway errors 0
+  aesthetics         cells 105; not proven on some tier 0; max nodes in one tier 1545; CPU p50 476 max 10541 ms
+  strength           cells 105; not proven on some tier 0; max nodes in one tier 84; CPU p50 1 max 122 ms
+  athletic           cells 105; not proven on some tier 0; max nodes in one tier 1675; CPU p50 302 max 6256 ms
+  hybrid_crossfit    cells 84; not proven on some tier 2; max nodes in one tier 3001; CPU p50 12 max 1667 ms
+  fat_loss_bootcamp  cells 105; not proven on some tier 13; max nodes in one tier 3001; CPU p50 300 max 42244 ms
+  no_equipment       cells 105; not proven on some tier 13; max nodes in one tier 3001; CPU p50 217 max 37284 ms
+   not proven: hybrid_crossfit 5x60 L2: T1a=6/110 T4=0/0 T5a=9(feasible)/3001
+   not proven: hybrid_crossfit 5x60 L3: T1a=6/116 T4=0/0 T5a=12(feasible)/3001
+   not proven: fat_loss_bootcamp 4x45 L3: T1a=5/625 T4=6(feasible)/3001 T5a=15/395
+   not proven: fat_loss_bootcamp 4x60 L2: T1a=6/213 T4=0/233 T5a=9(feasible)/3001
+   not proven: fat_loss_bootcamp 4x60 L3: T1a=6/244 T4=0/202 T5a=11(feasible)/3001
+   not proven: fat_loss_bootcamp 4x75 L2: T1a=8/271 T4=0/0 T5a=10(feasible)/3001
+   not proven: fat_loss_bootcamp 4x75 L3: T1a=8/282 T4=0/109 T5a=13(feasible)/3001
+   not proven: fat_loss_bootcamp 5x45 L1: T1a=5/286 T4=0/1456 T5a=4(feasible)/3001
+   not proven: fat_loss_bootcamp 5x45 L2: T1a=5/236 T4=0/2059 T5a=12(feasible)/3001
+   not proven: fat_loss_bootcamp 5x45 L3: T1a=5/253 T4=0/1714 T5a=15(feasible)/3001
+   not proven: fat_loss_bootcamp 5x75 L3: T1a=6/158 T4=0/48 T5a=9(feasible)/3001
+   not proven: fat_loss_bootcamp 6x45 L2: T1a=6/809 T4=270(feasible)/3001 T5a=12/1424
+   not proven: fat_loss_bootcamp 6x45 L3: T1a=6/806 T4=270(feasible)/3001 T5a=15/1430
+   not proven: fat_loss_bootcamp 6x60 L2: T1a=8/209 T4=519(feasible)/3001 T5a=9(feasible)/3001
+   not proven: fat_loss_bootcamp 6x60 L3: T1a=8/234 T4=236(feasible)/3001 T5a=11/135
+   not proven: no_equipment 4x45 L3: T1a=5/625 T4=6(feasible)/3001 T5a=15/395
+   not proven: no_equipment 4x60 L2: T1a=6/213 T4=0/233 T5a=9(feasible)/3001
+   not proven: no_equipment 4x60 L3: T1a=6/244 T4=0/202 T5a=11(feasible)/3001
+   not proven: no_equipment 4x75 L2: T1a=8/271 T4=0/0 T5a=10(feasible)/3001
+   not proven: no_equipment 4x75 L3: T1a=8/282 T4=0/109 T5a=13(feasible)/3001
+   not proven: no_equipment 5x45 L1: T1a=5/286 T4=0/1456 T5a=4(feasible)/3001
+   not proven: no_equipment 5x45 L2: T1a=5/236 T4=0/2059 T5a=12(feasible)/3001
+   not proven: no_equipment 5x45 L3: T1a=5/253 T4=0/1714 T5a=15(feasible)/3001
+   not proven: no_equipment 5x75 L3: T1a=6/158 T4=0/48 T5a=9(feasible)/3001
+   not proven: no_equipment 6x45 L2: T1a=6/809 T4=270(feasible)/3001 T5a=12/1424
+   not proven: no_equipment 6x45 L3: T1a=6/806 T4=270(feasible)/3001 T5a=15/1430
+   not proven: no_equipment 6x60 L2: T1a=8/209 T4=519(feasible)/3001 T5a=9(feasible)/3001
+   not proven: no_equipment 6x60 L3: T1a=8/234 T4=236(feasible)/3001 T5a=11/135

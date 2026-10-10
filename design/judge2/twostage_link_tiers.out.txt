@@ -1,0 +1,14 @@
+## default tier order (last, shape, land, late, flat, hold), seed 777
+instances 200: plans 191 (1628 plan-weeks), no group fits 9; violations of any hard row in any week 0; oracle unknown 0
+kept groups per plan {"0":9,"1":45,"2":78,"3":43,"4":21,"5":4}; instances with a strength-rest block 149; plans that need a superset 14; oracle nodes total 45667, largest question 2009
+stairway: plans that needed the 10 % fallback 0; flat weeks of the total at the arithmetic minimum in 159 of 191; plans with a flat week in the last third 98
+
+## flat weeks first (last, flat, hold, late, land, shape), seed 777
+instances 200: plans 191 (1628 plan-weeks), no group fits 9; violations of any hard row in any week 0; oracle unknown 0
+kept groups per plan {"0":9,"1":45,"2":78,"3":43,"4":21,"5":4}; instances with a strength-rest block 149; plans that need a superset 14; oracle nodes total 45667, largest question 2009
+stairway: plans that needed the 10 % fallback 0; flat weeks of the total at the arithmetic minimum in 191 of 191; plans with a flat week in the last third 81
+
+## flat first of all (flat, hold, last, late, land, shape), seed 777
+instances 200: plans 191 (1628 plan-weeks), no group fits 9; violations of any hard row in any week 0; oracle unknown 0
+kept groups per plan {"0":9,"1":45,"2":78,"3":43,"4":21,"5":4}; instances with a strength-rest block 149; plans that need a superset 14; oracle nodes total 45667, largest question 2009
+stairway: plans that needed the 10 % fallback 0; flat weeks of the total at the arithmetic minimum in 191 of 191; plans with a flat week in the last third 144

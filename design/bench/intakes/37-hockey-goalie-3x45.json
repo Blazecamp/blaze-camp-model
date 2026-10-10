@@ -1,0 +1,131 @@
+{
+  "schema": "intake/2",
+  "_comment": "Hockey goalie, 3 x 45, mild hip / groin pain (twisting).",
+  "_bench": {
+    "n": 37,
+    "tags": [
+      "athletic",
+      "hockey",
+      "competitive",
+      "pain"
+    ],
+    "edge": false
+  },
+  "id": "bench-37-hockey-goalie-3x45",
+  "lang": "en",
+  "units": "lb",
+  "role": "self",
+  "health_route": null,
+  "safety": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+  },
+  "release": {
+    "accepted": true,
+    "version": "release.client",
+    "lang": "en",
+    "guardian": null
+  },
+  "age": 24,
+  "body_weight": {
+    "value": 185,
+    "unit": "lb"
+  },
+  "experience": {
+    "years_consistent": 2,
+    "months_off_last_2y": 0,
+    "former_competitor": false
+  },
+  "goal": "athletic",
+  "format": null,
+  "sport": {
+    "competitive": "competitive",
+    "sport": "ice_hockey",
+    "position": "goalie",
+    "position_detail": null,
+    "level_of_play": "amateur",
+    "season": {
+      "type": "next_season_start",
+      "date": "2027-09-13"
+    },
+    "practice": {
+      "practice_days_per_week": 2,
+      "game_days": []
+    }
+  },
+  "activity": null,
+  "priority_muscles": [],
+  "lift_style": "balanced",
+  "schedule": {
+    "days_per_week": 3,
+    "weekdays": [
+      "Mon",
+      "Wed",
+      "Fri"
+    ],
+    "session_minutes": 45,
+    "start_date": "2027-04-12"
+  },
+  "plan": {
+    "mode": "fixed_12",
+    "maint_reason": null,
+    "maint_weeks": null,
+    "previous_cycles": {
+      "count": 0,
+      "last_had_holds_or_pain": false
+    },
+    "tests": [
+      "none"
+    ],
+    "just_finished_block": false
+  },
+  "equipment": {
+    "profile": "FULL_GYM",
+    "extras": [],
+    "machines": [],
+    "preference": "none",
+    "detail": {
+      "heaviest_db_pair": null,
+      "medball_lb_owned": [
+        6,
+        8,
+        10
+      ],
+      "box_height_in": 24,
+      "running_space": "10_20m",
+      "cardio_options": [
+        "treadmill",
+        "bike",
+        "rower"
+      ]
+    }
+  },
+  "pain": [
+    {
+      "area": "hip_groin",
+      "side": "both",
+      "severity": "mild",
+      "worse_with": [
+        "twisting"
+      ]
+    }
+  ],
+  "exclusions": [],
+  "output_mode": "plan_only",
+  "prefs": {
+    "core_position": "start",
+    "optional_days": "separate",
+    "variety_ab": false,
+    "heavy_unilateral": false,
+    "supersets_for_fatigue": false,
+    "cardio_adjust": 0,
+    "older_athletic_opt_in": false,
+    "split_style": "default"
+  },
+  "growth_stage": null,
+  "email": null,
+  "coach_rule_pack_ids": []
+}

@@ -1,0 +1,67 @@
+
+## 04 CrossFit-style class, 35 y, L2, stay-active, 4 x 60 min, 8 weeks
+chosen 4 x 60 min; "the day holds" limit 66 min (fit factor 1.1); model 130 integer variables, 364 rows; 339 ms CPU
+  fixed blocks Mon (Squat day): warm-up 8 + skill (in the warm-up) 6 + core opener 2 x 2 (as a pair) 5.5 + WOD (10 min) + transition 11 = 30.5 min
+  fixed blocks Tue (Press + snatch day): warm-up 8 + core opener 2 x 2 (as a pair) 5.5 + Olympic lift (snatch family) 10 + WOD (10 min) + transition 11 = 34.5 min
+  fixed blocks Thu (Deadlift + push day): warm-up 8 + skill (in the warm-up) 6 + core opener 2 x 2 (as a pair) 5.5 + WOD (10 min) + transition 11 = 30.5 min
+  fixed blocks Fri (Clean + pull day): warm-up 8 + core opener 2 x 2 (as a pair) 5.5 + Olympic lift (clean family) 10 + WOD (10 min) + transition 11 = 34.5 min
+tiers (each frozen exactly before the next):
+  T1a  T1-POL-05 groups trained directly (keep order, one exact question each) =     3  optimal  36 nodes   [hips:infeasible/1 quads:infeasible/0 back:fits/8 chest:fits/12 shoulders:fits/13 calves:infeasible/1 triceps:infeasible/0 biceps:infeasible/1]
+  T1c  T1-POL-07 pattern stations in the room that is left                    =     0  optimal  0 nodes
+  T4   T4-TIME-01 minutes over the chosen length (week 1 + peak week)         =   131  optimal  20 nodes
+  T5s  T5-CAP-05 sets over 11 a session (quarter sets)                        =     0  optimal  0 nodes
+  T5a  T5-CAP-04 worst peak shortfall                                         =     9  optimal  3 nodes
+  T5b  T5-CAP-04 total peak shortfall                                         =    18  optimal  3 nodes
+  T5c  T3-STW-08 week 1 nearest the level start                               =     6  optimal  5 nodes
+  T6   T6-CNT-03 fewest exercises                                             =    10  optimal  2 nodes
+  T7a  T7-PLC-02 uneven exposures                                             =     7  optimal  3 nodes
+  T7b  T7-PAIR-03 fewest supersets switched on                                =     3  optimal  3 nodes
+  T9   canonical tie-break (earliest slots first)                             =   864  optimal  4 nodes
+trained directly (FULL): back, chest, shoulders
+  back      start S 12, ceiling C 18, floor 10: Mon row 2->3, pull-up 2->2 | Fri row (work) 5->5, chin-up 4->5
+  chest     start S 12, ceiling C 18, floor 10: Tue bench press 2->2, fly 2->2 | Thu bench press 3->4, fly 3->4
+  shoulders start S 10, ceiling C 18, floor 10: Mon rear-delt raise 2->3, side raise 2->3 | Tue overhead press (class lift) 3->3
+not trained directly: hips (class lift deadlift (class lift) 3 sets); quads (class lift front squat (class lift) 3 sets); calves (time); triceps (no station; compound credit); biceps (time)
+supersets on (needed): Mon front squat (class lift) + row; Mon rear-delt raise + side raise; Thu deadlift (class lift) + bench press
+
+weekly hard sets per group, weeks 1..8 (credited group sets on the main days: prime 1.0, helpers 0.25, at most 1.0 a set)
+| group | state | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+|---|---|---|---|---|---|---|---|---|---|
+| hips | class lift | 3.75 | 3.75 | 3.75 | 3.75 | 3.75 | 3.75 | 3.75 | 3.75 |
+| quads | class lift | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
+| back | trained | 13 | 13 | 14 | 14 | 14 | 15 | 15 | 15 |
+| chest | trained | 10 | 10 | 10 | 11 | 11 | 11 | 12 | 12 |
+| shoulders | trained | 10 | 10 | 10.25 | 10.5 | 11.5 | 11.5 | 11.5 | 12.5 |
+| calves | - | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| triceps | credit | 2 | 2 | 2 | 2.25 | 2.25 | 2.25 | 2.25 | 2.25 |
+| biceps | credit | 3.25 | 3.25 | 3.5 | 3.5 | 3.5 | 3.75 | 3.75 | 3.75 |
+| total resistance sets | | 36 | 36 | 37 | 38 | 39 | 40 | 41 | 42 |
+| rise vs previous week | | - | 0 | +2.8 % | +2.7 % | +2.6 % | +2.6 % | +2.5 % | +2.4 % |
+direct sets of the trained groups: back 13 13 14 14 14 15 15 15 (lambda 0.50); chest 10 10 10 11 11 11 12 12 (lambda 0.64); shoulders 7 7 7 7 8 8 8 9 (lambda 0.88)
+stairway (exact, placed weeks): lines not landing in week 8: 2; flat weeks of the total: 1 of 7 (arithmetic minimum 1); flat weeks in a row: 0; distance to the coach's rounded curve: 5 set-weeks; 218 DP states
+
+minutes per day, weeks 1..8 (supersets on where needed; chosen 60, limit 66)
+| day | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | straight sets, last week |
+|---|---|---|---|---|---|---|---|---|---|
+| Mon | 60.2 | 60.2 | 60.9 | 60.9 | 62.8 | 62.8 | 62.8 | 63.4 | 73.6 |
+| Tue | 61.5 | 61.5 | 61.5 | 61.5 | 61.5 | 61.5 | 61.5 | 61.5 | 61.5 |
+| Thu | 56.1 | 56.1 | 56.1 | 58.3 | 58.3 | 58.3 | 60.2 | 60.2 | 65.7 |
+| Fri | 56.8 | 56.8 | 56.8 | 56.8 | 56.8 | 59 | 59 | 59 | 59 |
+test weeks (1 and 8): the strength / jump test work-up adds Mon +10 min, Tue +10 min, Thu +10 min (reported apart, see design section 14)
+exercises per day (resistance, last week): Mon 5, Tue 3, Thu 3, Fri 2
+certificate over all 8 weeks (integers): days over the limit 0, group-weeks under the floor 0, over the ceiling 0, slots that lost a set 0, weeks outside the endpoint sandwich 0, VOL-07 breaks 0, group steps over 1 set 0, weekly totals rising 10 % or more 0, groups not at their peak in week 8: 0  => PASS
+last week, day by day: Mon: front squat (class lift) 3->3, row 2->3, pull-up 2->2, rear-delt raise 2->3, side raise 2->3 || Tue: overhead press (class lift) 3->3, bench press 2->2, fly 2->2 || Thu: deadlift (class lift) 3->3, bench press 3->4, fly 3->4 || Fri: row (work) 5->5, chin-up 4->5
+CPU: tiers 339 ms (79 nodes, 3597 LP pivots), stairway + placement + certificate 5 ms
+why not hips (with nothing else kept): infeasible - minimal conflict: T3-STW-02 minimum climb hips | T2-FLR-01 floor hips | T1-POL-02 day holds Thu peak  [58 nodes, 204 ms]
+why not quads (with nothing else kept): infeasible - minimal conflict: T2-FLR-01 floor quads | T1-POL-02 day holds Mon week 1  [18 nodes, 22 ms]
+
+offers (keep vector re-solved at every legal length):
+| schedule | trained directly | pattern stations | room cuts | proof (T1a / T1b / T1c: status, nodes) | ms |
+|---|---|---|---|---|---|
+| 4 x 30 | - | - | - | infeasible 0 | 4 |
+| 4 x 45 | - | - | - | infeasible 0 | 8 |
+| 4 x 60 | back, chest, shoulders | - | - | optimal 36 / optimal 0 | 42 |
+| 4 x 75 | hips, back, chest, shoulders, biceps | - | - | optimal 83 / optimal 0 | 93 |
+| 4 x 90 | hips, back, chest, shoulders, calves, biceps | - | - | optimal 116 / optimal 0 | 69 |
+| 4 x 105 | hips, back, chest, shoulders, calves, biceps | - | - | optimal 108 / optimal 0 | 93 |
+| 4 x 120 | hips, back, chest, shoulders, calves, biceps | - | - | optimal 108 / optimal 0 | 73 |

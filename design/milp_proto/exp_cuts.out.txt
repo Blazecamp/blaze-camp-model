@@ -1,0 +1,6 @@
+aesthetics:4:60:L1         cuts=off kept 8/8 vars 209 tiers 1/2/4 nodes 38/543/0 cpu 422 ms
+aesthetics:4:60:L1         cuts=on  kept 8/8 vars 209 tiers 1/2/4 nodes 48/415/0 cpu 331 ms
+aesthetics:3:60:L2         cuts=off kept 7/8 vars 161 tiers 14/65/19 nodes 71/2140/693 cpu 2319 ms
+aesthetics:3:60:L2         cuts=on  kept 7/8 vars 161 tiers 14/66?/20? nodes 31/3001/3001 cpu 5714 ms
+aesthetics:4:45:L2         cuts=off kept 5/6 vars 135 tiers 10?/40?/21? nodes 3001/3001/3001 cpu 3719 ms
+aesthetics:4:45:L2         cuts=on  kept 5/6 vars 135 tiers 10/40?/23? nodes 2641/3001/3001 cpu 4895 ms
