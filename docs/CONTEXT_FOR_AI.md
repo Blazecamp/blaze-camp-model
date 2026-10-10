@@ -20,12 +20,15 @@ When two sources disagree, the higher one wins.
 
 | Rank | Source | Cited as |
 |---|---|---|
-| 1 | `coach_answers_round3.md` (13 answers, newest) | `R3-...` |
-| 2 | `coach_answers_round2.md` (45 answers) | `R2-...` |
-| 3 | `coach_answers_full.md` (140 answers) | no prefix: `CAT-01`, `VOL-09`, `ORD-06` and so on |
-| 4 | `coach_chat_statements.md`, `coach_answers.md` | "conversation" |
-| 5 | His two Google Sheets (`raw/`, `dumps/`) | OBSERVED |
-| 6 | Team work | INFERRED, SCIENCE, PROPOSED |
+| 1 | [2026-10-10 clarification](../coach_answers_codex_2026-10-10.md), only the subjects answered there | `CX-01..04` |
+| 2 | `coach_answers_round3.md` (13 answers) | `R3-...` |
+| 3 | `coach_answers_round2.md` (45 answers) | `R2-...` |
+| 4 | `coach_answers_full.md` (140 answers) | no prefix: `CAT-01`, `VOL-09`, `ORD-06` and so on |
+| 5 | `coach_chat_statements.md`, `coach_answers.md` | "conversation" |
+| 6 | His two Google Sheets (`raw/`, `dumps/`) | OBSERVED |
+| 7 | Team work | INFERRED, SCIENCE, PROPOSED |
+
+**Implementation caveat:** CX-01..04 is approved policy, not yet migrated behavior in the canonical numeric tables or runtime. The new planner remains blocked on design reconciliation; see [ADR-049](04-decisions/adr-049-endpoint-priority-and-editable-progression.md). Earlier percentages below must not be applied as absolute limits that force a missed endpoint.
 
 - RIGHT with no words means he approved the team's proposal as his rule. The wording is the team's.
 - Text that contradicts a coach answer is a bug. A coach answer you think is scientifically weak is not a bug: report it "for discussion with the coach" and leave the rule alone.
@@ -90,22 +93,22 @@ PROPOSED: a set counts at most once toward a group such as hips or shoulders.
 
 ### 4.3 The stairway
 
-**The rule.** Every plan climbs: "It should be like steps up a stairway" (R2-PER-03). The whole stairway is computed when the plan is built. Nothing changes it afterwards.
+**The rule.** Every plan climbs: "It should be like steps up a stairway" (R2-PER-03). The whole stairway is computed when the plan is built, without adaptive follow-up. People and coaches can edit it, including sets for a day or week (CX-02..04). Some weeks may hold sets while progressing through reps or load, including after the set ceiling is reached (CX-02, CX-03).
 
 | Parameter | Value | Source |
 |---|---|---|
-| Weekly step until the halfway week | about 3 % of the group's weekly sets | R3-VOL-04 |
-| Weekly step after the halfway week | about 5 % | R3-VOL-04 |
+| Weekly step until the halfway week | default pattern about 3 %; may accelerate to reach endpoint | R3-VOL-04, CX-01 |
+| Weekly step after the halfway week | default pattern about 5 %; may accelerate to reach endpoint | R3-VOL-04, CX-01 |
 | Where it ends | each trained group reaches its ceiling in the last week | R3-VOL-04 |
-| Largest planned step for one group | 7 % a week | R2-VOL-01 |
-| Rise of total weekly sets | less than 10 % a week | UNI-05 |
+| Largest planned step for one group | previous 7 % limit gives way when needed for endpoint; replacement bound unspecified | R2-VOL-01, CX-01 |
+| Rise of total weekly sets | previous less-than-10 % limit gives way when needed for endpoint; replacement bound unspecified | UNI-05, CX-01 |
 | Fractions | banked, and added as a whole set when they reach 1 | VOL-06 |
 | How it feels | week 1 like a 2, the last week like an 11 | R2-PER-05 |
 | Effort | 3 RIR early, then 2, then 1-2, then 1 plus intensifiers in the last week | R3-VOL-04 |
 | Easy week inside a block | none | R2-VOL-07 |
 | Next block | start 5 % higher, ceiling 1 set higher, never above 25 (30 for a priority muscle) | R2-VOL-06 |
 
-Approved example: a level 2 big muscle goes 15 to 22 sets in 12 weeks, with the last four weeks at 19, 20, 21, 22 (R3-VOL-04). Open point (INFERRED): when steps of 3 % and 5 % cannot reach the ceiling, the group ends below it, with its highest week last. The halfway rounding and the week each effort step starts are PROPOSED.
+Approved example: a level 2 big muscle goes 15 to 22 sets in 12 weeks, with the last four weeks at 19, 20, 21, 22 (R3-VOL-04). CX-01 rejects ending below the target solely to preserve the earlier rate limits. The accelerated schedule still needs a consistent mathematical definition and feasibility checks against the other rules. At the maximum sets, progress may come from reps/load (CX-03); exact next-block saturation arithmetic remains PROPOSED. Halfway rounding and the week each effort step starts are PROPOSED.
 
 ### 4.4 Where a new set goes
 
@@ -136,7 +139,7 @@ Approved example: a level 2 big muscle goes 15 to 22 sets in 12 weeks, with the 
 
 **When time cannot hold the minimums** (the floor of 10, 2 to 4 exercises per group, a climbing stairway), follow his order (R3-SES-02): (1) say so up front and offer another day or longer sessions; (2) if the person keeps their time, train fewer groups directly, big movers first; (3) recommend supersets, which are two exercises done back to back; (4) keep the stairway climbing on what is trained. Never squeeze 2 to 4 exercises per group into a day that cannot hold them. The minutes-per-set model behind this check is PROPOSED.
 
-**Editing.** People can switch off a day's athletic block or core block, add or remove exercises or blocks, and swap inside a category (R3-SES-02, GEN-04). How this works on screen is PROPOSED.
+**Editing.** People can switch off a day's athletic block or core block, add or remove exercises or blocks, and swap inside a category (R3-SES-02, GEN-04). The template is editable, explicitly including sets on any day or week (CX-02..04). PROPOSED mechanics: recalculate volume, time and applicable checks after edits, and show conflicts without silently retaining the original validation result. Screen design is not being built yet.
 
 **Bilateral and unilateral.** The share runs from 90/10 to 10/90. Unilateral work is "for health and keeping rotational foundations", bilateral "for driving and creating forces" (UNI-02). Bodybuilders and powerlifters start near 50/50 and end 80/20 or 90/10 bilateral. Field athletes stay 80 to 90 % unilateral, and bilateral work is minimal in season (UNI-10). Most per-sport numbers are PROPOSED.
 
@@ -214,7 +217,7 @@ Keys are in [generator_spec_v1.json](../generator_spec_v1.json) unless a file is
 
 | Thing | Data | Explained in |
 |---|---|---|
-| His words | `coach_answers_round3.md`, `coach_answers_round2.md`, `coach_answers_full.md`, `coach_chat_statements.md` | [answers by topic](03-coach-answers/index.md) |
+| His words | `coach_answers_codex_2026-10-10.md`, `coach_answers_round3.md`, `coach_answers_round2.md`, `coach_answers_full.md`, `coach_chat_statements.md` | [answers by topic](03-coach-answers/index.md) |
 | Master document | [BLAZE_CAMP_BRAIN.md](../BLAZE_CAMP_BRAIN.md) | this folder |
 | Categories and exercises | `synthesis/01_taxonomy.json`; `synthesis/02_exercise_catalog.json` | [categories](02-model/categories.md), [exercise library](02-model/exercise-library.md) |
 | Levels | `vocab > levels`; `rule_tables > levels_exercise` | [levels and zones](02-model/levels-and-zones.md) |
@@ -234,7 +237,7 @@ Keys are in [generator_spec_v1.json](../generator_spec_v1.json) unless a file is
 ## 11. How to stay faithful to the coach
 
 1. **Find the answer first.** Before you state or change a rule, find the answer id that owns it. If there is none, your statement is PROPOSED.
-2. **The newest round wins.** Check [changes across rounds](03-coach-answers/changes-across-rounds.md) before you quote a round-1 answer.
+2. **The newest relevant answer wins.** Read the dated CX clarification first, then [changes across rounds](03-coach-answers/changes-across-rounds.md) before quoting an older answer.
 3. **Never invent a coach statement.** Quote only words that are in his answer files, with the id. `coach_chat_statements.md` is a close paraphrase, so quote only what it puts in quotation marks.
 4. **Never upgrade a label.** INFERRED does not become OBSERVED or confirmed because it looks right.
 5. **Keep his vocabulary:** athletic patterns, resistance patterns, core, bigger and smaller muscles, stairway, Focus muscle, block. Keep his sheet spellings inside quotes ('SAGITAL', 'TRIPPLE EXTENSION').

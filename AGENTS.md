@@ -2,6 +2,8 @@
 
 This file is for AI agents and developers. It tells you what the repo is, which source wins when two disagree, where every kind of rule lives, how to generate a plan, which rules must never break, and how to change things without breaking the coach's model. Read it before you edit anything.
 
+> **Latest policy, 2026-10-10:** [COACH-CX CX-01..04](coach_answers_codex_2026-10-10.md) supersedes earlier answers on endpoint priority, same-set progression, at-cap progression and editability. Faster increases may be needed to reach the final target; day/week sets remain editable. This is approved direction, not yet a migrated runtime. Read [ADR-049](docs/04-decisions/adr-049-endpoint-priority-and-editable-progression.md) and the controlling planner addenda. Do not start the planner build while `design/rules_as_constraints.json > policy_amendment.implementation_ready` is false.
+
 > **Use at your own risk.** Everything here is general fitness information, not medical advice. Downloading or using this repository, or any plan generated from it, is at your own expense and risk. If you program for anyone else, you need your own health screening, liability release, insurance and privacy terms. Read [DISCLAIMER.md](DISCLAIMER.md) (EN) and [DISCLAIMER.es.md](DISCLAIMER.es.md) (ES); both are drafts pending review by a Florida attorney. License: [MIT](LICENSE), © 2026 Lalo Vera, d/b/a Blaze Camp, and BFit Studios Corp.
 
 ---
@@ -12,24 +14,24 @@ This file is for AI agents and developers. It tells you what the repo is, which 
 * **The engine.** Plain JavaScript ES modules (Node 22 or a browser, no npm dependencies, no build step, deterministic). It turns one intake (goal, sport or activity, days, minutes, equipment, pain, experience) into the **whole plan at once**: a 4-6, 8 or 12-week block, or a year plan, in English or Spanish. Every decision carries a machine-readable `why`.
 * **The product principle (COACH-R3 R3-VOL-02, R3-VOL-04, R3-GEN-01).** Few inputs go in and the whole plan comes out, visible ahead of time, and the person or their coach adjusts it themselves. There are no check-ins, no tracking and no adaptive inputs, and no user data is kept.
 
-Versions on 2026-10-09 (always read the live value from the file named):
+Versions checked on 2026-10-10 (always read the live value from the file named):
 
 | Thing | Value | Where |
 |---|---|---|
-| Model (compiled runtime data) | 1.2.0 | `model/MODEL_VERSION`, `model/manifest.json` |
-| Engine | 0.3.0 (0.4 in progress: round 3) | `engine/version.mjs` |
+| Model (compiled runtime data) | 1.3.0 | `model/MODEL_VERSION`, `model/manifest.json` |
+| Engine | 0.4.0 | `engine/version.mjs` |
 | Contracts | 1.1.1 | header of `engine/CONTRACTS.md` |
-| Generator spec | 1.1.0 (moving to 1.2.0 with round 3) | `generator_spec_v1.json > _meta.version` |
+| Generator spec | 1.2.0 | `generator_spec_v1.json > _meta.version` |
 | Schemas | `intake/2`, `plan/2`, `manifest/2`, `catalog/2`, `rules/2`, `templates/2`, `profiles/2` | `engine/CONTRACTS.md` §2, §3, §5 |
 
-**Status.** Private work in progress, to be open-sourced once the coach approves. The engine produces complete, valid plans for any intake. Coach-eye reviewers grade the 8 sample plans C to D: the structure is right, but the dosing is not there yet. `samples/RECHECK_v0.3.md` lists the 136 open issues.
+**Status.** Work in progress, not a verified public release. Engine v0.4 at `04637ed` passed 1,035 tests in the independent audit. Historical coach-eye reviews still identify dosing issues; their C-to-D grades are not a fresh grade of that exact final commit. Passing tests does not prove appropriate programs for every intake. The new planner is not built, and its design must be reconciled with CX-01..04 before the build workflow proceeds. See [HANDOFF.md](HANDOFF.md).
 
 ---
 
 ## 2. Quick start (every command below was run on this repo, Node v22)
 
 ```sh
-node --test tests/                                         # whole suite: 711 tests, 705 pass, 0 fail, 6 todo (~35 s)
+node --test tests/                                         # whole suite; use the live test report for counts
 node tools/check-model.mjs                                 # contract checks on model/ (read-only)
 node tools/generate-samples.mjs --only 08 --out /tmp/bc-plans   # one sample plan -> /tmp/bc-plans/08-pickleball-genpop.{json,en.md}
 node tools/compile-model.mjs --out /tmp/bc-model           # compile the sources into a scratch dir ...
@@ -52,12 +54,13 @@ When two sources disagree, the higher one wins:
 
 | Rank | Source | Cited as | Ids |
 |---|---|---|---|
-| 1 (newest) | `coach_answers_round3.md` | `COACH-R3 <id>` | `R3-VOL-01..04`, `R3-SES-01..02`, `R3-PER-01`, `R3-ATH-01..05`, `R3-GEN-01` (13) |
-| 2 | `coach_answers_round2.md` | `COACH-R2 <id>` | `R2-VOL`, `R2-SES`, `R2-PER`, `R2-ATH`, `R2-LIB`, `R2-GEN` (45 + 2 round-1 leftovers) |
-| 3 | `coach_answers_full.md` | `COACH-ANSWER <id>` | `CAT UNI VOL PER ATH ORD EQ GEN LIB PRG FIX-nn` (140) |
-| 4 | `coach_answers.md` | `COACH-CHAT <date>` | his earlier chat statements |
-| 5 | His two Google Sheets: `raw/*.xlsx`, decoded cell by cell in `dumps/` | `OBSERVED` | cell references |
-| 6 | Team work | `INFERRED` (reasoned from the sheets), `SCIENCE` (cited literature), `PROPOSED` (waiting for his approval) | |
+| 1 (newest; scoped) | `coach_answers_codex_2026-10-10.md` | `COACH-CX <id>` | `CX-01..04`; only the subjects answered there |
+| 2 | `coach_answers_round3.md` | `COACH-R3 <id>` | `R3-VOL-01..04`, `R3-SES-01..02`, `R3-PER-01`, `R3-ATH-01..05`, `R3-GEN-01` (13) |
+| 3 | `coach_answers_round2.md` | `COACH-R2 <id>` | `R2-VOL`, `R2-SES`, `R2-PER`, `R2-ATH`, `R2-LIB`, `R2-GEN` (45 + 2 round-1 leftovers) |
+| 4 | `coach_answers_full.md` | `COACH-ANSWER <id>` | `CAT UNI VOL PER ATH ORD EQ GEN LIB PRG FIX-nn` (140) |
+| 5 | `coach_chat_statements.md`, `coach_answers.md` | `COACH-CHAT <date>` | his earlier chat statements |
+| 6 | His two Google Sheets: `raw/*.xlsx`, decoded cell by cell in `dumps/` | `OBSERVED` | cell references |
+| 7 | Team work | `INFERRED` (reasoned from the sheets), `SCIENCE` (cited literature), `PROPOSED` (waiting for his approval) | |
 
 * "RIGHT" with no text means the team's proposal is approved as his rule. The raw questionnaire answers are in `answers_raw/`, `answers_raw_r2/` and `answers_raw_r3/`.
 * Text that contradicts a coach answer is a bug. A coach answer you think is scientifically questionable is **not** a bug: write it up "for discussion" and leave the rule alone.
@@ -67,6 +70,8 @@ When two sources disagree, the higher one wins:
 ---
 
 ## 4. Round 3 in one screen (approved 2026-10-09; do not undo)
+
+Read this historical round-3 summary subject to CX-01..04 above: rate limits no longer force an undershoot, sets may stay level with reps/load progression, and output-only does not mean uneditable. The canonical numeric sources and runtime still need reconciliation.
 
 * **Output only (R3-VOL-02, R3-VOL-04).** The plan is generated once with its built-in stairway; people and coaches adjust it themselves. Check-ins, weekly steps from feedback, readiness, logbook-driven changes and `adapt()` are **retired**.
 * **Stairway approved (R3-VOL-04).** About 3 % a week until the halfway week, about 5 % after. Each trained group reaches its ceiling in the last week. The effort cue drifts 3 reps in reserve (RIR), then 2, then 1-2, then 1 + intensifiers in the last week, always inside 1-3 RIR.
@@ -85,7 +90,7 @@ When two sources disagree, the higher one wins:
   * *Stay active (R3-ATH-05):* the user enters play days. The hardest gym day stays at least 48 h before the biggest play day, and weeks with 3+ play sessions drop the extra agility drills and half the jumps. A 45-60+ min session of the activity counts as one of the 3 cardio sessions (up to 2). With an optional event date, the hardest weeks end 1 week before the event, followed by 1 easy week at about half the sets.
 * **Legal (R3-GEN-01).** A short Blaze Camp health check (EN/ES, written by a lawyer, linking to the official PAR-Q+), which a coach can skip with a warning. A "use at your own risk" checkbox plus terms and liability release every time a plan is built. Nothing is stored. MIT license to Lalo Vera / Blaze Camp / BFit Studios Corp.
 
-**Not yet in engine 0.3.0 / model 1.2.0** (team work in progress; until it lands, treat the round-3 rule as the truth and the code as out of date):
+**Historical migration checklist for engine 0.3.0 / model 1.2.0** (not a current v0.4 defect list; verify live code before acting on an item):
 * `adapt()`, `adaptWith()`, `checkinRow()`, the `checkin/2` schema, `output_mode: checkin | logbook`, `rules.stairway.checkin`, `plan.offers`, and `plan.mode: week_by_week` (which `validateIntake` only accepts with check-ins). These are all retired. Don't call them or build on them.
 * The intake field `priority_muscles` (max 2) is today's carrier for Focus 1 / 2, but `rules.volume.priority.add` is still `L1 4 / L2 4 / L3 6` sets, not +1 to +3.
 * The plan does not yet carry stable block ids, block on/off flags, superset recommendations or a "not trained directly (time)" list. When they land, they will be in `engine/CONTRACTS.md` §5.
@@ -101,7 +106,7 @@ When two sources disagree, the higher one wins:
 | `BLAZE_CAMP_BRAIN.md` | **Master document** (start here): philosophy, categories, levels, volume engine, bilateral vs unilateral, variables, equipment, athletes and sports, templates, plan types, testing, generator, product | yes, with labels |
 | `generator_spec_v1.json` | The same model as a machine spec: `inputs_schema`, `derived_values` (D1-D14), `vocab`, `rule_tables`, `template_refs`, `plan_types`, `tests`, `adaptation` (retired by round 3), `coach_rule_hooks`, `pipeline`, `validation_checks`, `output`, `open_decisions` | yes, with labels |
 | `synthesis/` | Detailed model docs (`.md`, most with a `.json` twin): 01 taxonomy, 02 exercise catalog, 03 volume dosing, 04 athlete profiles, 05 session architecture, 06 periodization, 07 science lineage, 08 open questions, 09 generator inputs, 10 / 10b equipment, 11 training variables, 12 volume algorithm, 13 product options; `sports/` (per-group sport research, merged into 04) | yes, with labels |
-| `coach_answers*.md`, `answers_raw*/` | The coach's own answers | **never** |
+| `coach_answers*.md`, `answers_raw*/` | The coach's own answers | **never edit existing transcripts**; record a new answer in a separately dated file |
 | `raw/`, `dumps/`, `dump.py` | His two workbooks ("BUILD YOUR OWN PROGRAM" = BYOP, "MASTER MODEL") as `.xlsx`, and every tab as text produced by `dump.py` | **never** (regenerate only) |
 | `analysis/` | First-pass decode of the library, the reference tabs and every program (`analysis/programs/*.md`) | rarely |
 | `model/` | Compiled runtime model: `manifest.json`, `catalog.json`, `rules.json`, `templates.json`, `profiles.json`, `i18n/{en,es,es_review}.json`, `MODEL_VERSION`, `CHANGELOG.md`, `COMPILE_REPORT.json` | **generated**, never by hand |
@@ -250,7 +255,7 @@ Output with the built-in intake: `ok valid: true | template: aesthetics.4 | 12 w
 
 ## 10. Hard rules: never break these
 
-Each one is a locked rule (`rules.json > locked`), a validation check, and a test. If a change makes any of them fail, the change is wrong.
+These map to locked rules (`rules.json > locked`), validation checks and tests. H10, H21 and H22 below include the new CX policy; their runtime checks have not yet been migrated. Do not preserve a superseded rule merely because its old test passes, and do not claim the new rule is implemented until its proofs and tests agree.
 
 | Id | Rule | Source |
 |---|---|---|
@@ -263,7 +268,7 @@ Each one is a locked rule (`rules.json > locked`), a validation check, and a tes
 | H07 | Two spine days: at most one counted heavy squat and one counted heavy hinge a week, never on the same day | PER-04, EQ-11, R2-SES-01, R2-SES-02 |
 | H08 | Credits: prime mover 1.0, helpers 0.25; dips 0.5 triceps + 0.5 chest; thruster 1.0 quads + 0.5 front delts + 0.25 glutes; face pull rear delts 1.0 + side 0.25 | VOL-09, LIB-16, R2-VOL-05, R2-LIB-04 |
 | H09 | Athletic work (plyos, ballistics, KB swings, throws, Olympic lifts, sprints, change of direction, conditioning, WODs, HYROX station circuits) never counts toward muscle sets | VOL-10, R2-VOL-05, R3-ATH-03 |
-| H10 | Planned step ≤ 7 % per muscle; the total weekly resistance sets rise by strictly less than 10 % | UNI-05, R2-VOL-01 |
+| H10 | Earlier limits were 7 % per muscle and strictly less than 10 % total. Faster increases are now allowed when needed for the planned endpoint; no replacement maximum was specified. Other constraints and final ceilings remain | UNI-05, R2-VOL-01, superseded on rate-versus-endpoint by CX-01 |
 | H11 | No medball in physique (`muscle` goal) main work; no medball or wall ball above 20 lb anywhere | ATH-05, EQ-06, R3-ATH-03 |
 | H12 | Never overhead or low-bar squats for 60+; 60+ default: no Olympic lifts, plyos, jumps or depth jumps unless switched on with the warning (engine Phase 0 keeps depth jumps, high depth drops and snatches locked, D-05) | EQ-03, R2-ATH-08, R3-ATH-02 |
 | H13 | **No sex or gender field**, anywhere | GEN-02, ATH-09 |
@@ -274,8 +279,8 @@ Each one is a locked rule (`rules.json > locked`), a validation check, and a tes
 | H18 | 2-4 exercises per group trained on a day, never 1 (calves and the core opener excepted); never squeeze 2-4 into a day that can't hold them | R2-SES-05, R3-SES-01, R3-SES-02 |
 | H19 | Tests only in week 1 and the last week, never mid-block; never a 1RM or max-effort mile without a completed block | R2-PER-07 |
 | H20 | The release (and the "use at your own risk" checkbox) is accepted for every build; the health check runs unless a coach skips it with the warning | R2-GEN-03, R3-GEN-01 |
-| H21 | The stairway climbs: small steps early, bigger late, weekly sets never drop, the last week is the hardest, RIR never rises, and it never stays flat on a trained group | R2-PER-03, R2-PER-04, R2-PER-05, R3-VOL-04, R3-SES-02 |
-| H22 | The plan is the planned stairway: built once, no input changes it afterwards | R2-VOL-03, R3-VOL-02, R3-VOL-04 |
+| H21 | The generated stairway progresses toward the final target: weekly sets never decrease, RIR never increases, and the final weeks are hardest. Same-set weeks can progress through reps/load, and sets can stay at the ceiling. No fake progress label on an unchanged prescription. Human edits remain editable and require fresh checks (H22) | R2-PER-03..05, R3-VOL-04, R3-SES-02, refined by CX-01..03 |
+| H22 | Build the whole template once, without tracking or adaptive follow-up. The person or coach can edit it, explicitly including sets for any day/week. Edited prescriptions require fresh checks; exact edit handling is PROPOSED | R2-VOL-03, R3-VOL-02, R3-VOL-04, CX-02..04 |
 
 Product rules from round 3 that are just as hard:
 * **No data kept (R3-GEN-01).** No storage, accounts, analytics or logging of intakes in anything built here. The engine has no I/O; keep it that way.

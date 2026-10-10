@@ -1,12 +1,25 @@
 # Rules as constraints: the coach's system as a formal model
 
+## Controlling Amendment: 2026-10-10
+
+[Coach answers CX-01..04](../coach_answers_codex_2026-10-10.md) supersede earlier readings on the topics below. The generated rule tables, numeric parameters, metrics and counts are otherwise retained as a **historical snapshot**, not a fully migrated active inventory. In the JSON twin, `policy_amendment` identifies the overridden items. Consumers must reconcile that amendment before using an affected legacy constraint or benchmark as a current requirement; no runtime change is made here.
+
+| Source | Approved policy | Superseded or conditional legacy items |
+|---|---|---|
+| CX-01 | Increase faster when needed to reach the intended endpoint instead of accepting a lower peak solely to retain the former weekly rate limit. Lambda may exceed 1; no new numerical maximum was approved. Keep the applicable set ceiling, time/equipment feasibility, execution quality and clinical scope. Proposed targets are not upgraded to approved targets. | T0-STW-02/03, T3-STW-05/06, DEF-10, SF-2, C-01/C-09, P-09/P-12, LK08 and O-01/O-09 cannot impose their old rate bounds when acceleration is needed. Standard 3%/5% weights remain a reference shape. |
+| CX-02 | Occasional same-set weeks can progress reps/load; the nonsaturated accumulation block progresses overall. A rising display level alone is insufficient. | T3-STW-02/03/09, P-10/P-11 and associated hold/flat metrics do not prohibit approved plateaus. Exact climb amounts and tier weights remain proposals. |
+| CX-03 | At the applicable set ceiling hold sets and progress load/reps. | DER-09, P-10/P-28 and positive minimum-climb rules require a saturation branch; use no positive set climb and no `(C-S)` division when `S=C`. |
+| CX-04 | People/coaches can edit sets in any week/day. | T1-POL-14 extends to explicit set overrides. Recompute credits/time/rule compliance; the original certificate is invalid until rechecked. Do not silently discard the edit or falsely certify conflicts. No check-ins, tracking or stored personal data are introduced. |
+
+**Implementation status:** endpoint priority, plateaus, saturation and editability are approved policy; root finding, bounded recurrence, integer scheduling, tolerance and edited-plan reporting are proposed procedures. The affected scheduler bounds and proofs in [PLANNER_SPEC](PLANNER_SPEC.md) must be revised and independently checked before release. A rate-restricted search failure is not proof of general infeasibility. Exact endpoint arrival remains subject to joint discrete/time feasibility; neither an editable plan nor a mathematical certificate predicts an individual's gains or safety.
+
 **What this is.** Every coach rule that affects dosing (weekly sets, the stairway, floors, ceilings), ordering, exercise selection or session time, written as a numbered formal item - a hard constraint, a conditional hard constraint, a soft constraint with its priority tier, an objective term, an output obligation or a definition - with its source (coach answer id, master section, engine decision), the exact parameter values read from `model/rules.json`, and the variables it touches. The items are grouped into lexicographic priority tiers in the coach's stated order: **safety and hard rules > the R3-SES-02 policy > floors on trained groups > a monotone stairway climb > time fit > caps > exercise counts > pairing / order preferences > balance / variety**. It is the input for the planner designs (`design/design_*.md`) and for the benchmark scorer (`design/bench/score.mjs`); the machine-readable twin is `design/rules_as_constraints.json` (same ids, full parameter values, a `metric` per measurable rule).
 
 **State of the repo.** Model 1.3.0 (rules 1.3.0), engine 0.4.0, git 4d6cc82 2026-10-09 06:29:45 -0400. Another workflow is editing `engine/`, `model/` and `samples/` (fix round 2 / F1, decisions E-135 ... E-146; the 8 sample plans were regenerated 2026-10-10 00:57 UTC) while this was written; every value below was read from `model/rules.json` when this file was generated, and sample evidence is dated where it is quoted. Values tagged PROPOSED are ours and need the coach's OK.
 
 **In numbers.** 127 rules (T0 52, T1 14, T2 6, T3 12, T4 3, T5 9, T6 8, T7 13, T8 10), 12 definitions, 13 parameter derivations, 10 structural facts a solver can use, 15 review failure modes mapped to the rules they break, 17 conflicts that need a reading, 55 coach-tunable parameters. By kind: hard 67, output 4, hard_conditional 13, objective 10, definition 3, soft 30. By status: approved 75, approved+proposed-numbers 30, science 1, proposed 14, inferred 4, engine 1, observed 2.
 
-**Authority order** (when sources differ, the earlier wins): coach_answers_round3.md (COACH-R3, ids R3-*) > coach_answers_round2.md (COACH-R2, ids R2-*; LIB-10 / LIB-12 round-1 leftovers answered there) > coach_answers_full.md (round 1, ids CAT-, UNI-, VOL-, PER-, ATH-, ORD-, EQ-, GEN-, LIB-, PRG-, FIX-) > BLAZE_CAMP_BRAIN.md v1.2 (master; §-references) > generator_spec_v1.json / synthesis/12_volume_algorithm_v1.md v1.2 / 05 / 06 / 04 / 10 / 11 > engine/DECISIONS.md (D-xx, E-xx) and model/rules.json 1.3.0 (the values).
+**Authority order** (when sources differ, the earlier wins): coach_answers_codex_2026-10-10.md (CX-01..04, within their scope) > coach_answers_round3.md (COACH-R3, ids R3-*) > coach_answers_round2.md (COACH-R2, ids R2-*; LIB-10 / LIB-12 round-1 leftovers answered there) > coach_answers_full.md (round 1, ids CAT-, UNI-, VOL-, PER-, ATH-, ORD-, EQ-, GEN-, LIB-, PRG-, FIX-) > BLAZE_CAMP_BRAIN.md v1.2 (master; §-references) > generator_spec_v1.json / synthesis/12_volume_algorithm_v1.md v1.2 / 05 / 06 / 04 / 10 / 11 > engine/DECISIONS.md (D-xx, E-xx) and model/rules.json 1.3.0 (the values).
 
 **Map of this file.** 1 how to read an item · 2 notation · 3 the tiers and why they interlock · 4 every rule at a glance · 5 definitions and parameter derivations · 6 the full inventory by tier · 7 the objective as a lexicographic vector · 8 structural facts a solver can use · 9 review failure modes mapped to rules · 10 conflicts that need a reading · 11 what a coach can change (tunable parameters, client preferences, locked rules) · 12 open items.
 
@@ -339,16 +352,18 @@ Min_{d,w} = warmup + skill_in_warmup + Σ_straight + Σ_supersets + athletic / O
 
 ### DEF-10 · The planned stairway T_l(w)
 
-*approved+proposed-numbers* - About 3 % a week to the halfway week, about 5 % after it, every step of a line scaled by one λ so the line lands on its ceiling in the last week.
+*approved policy, proposed numerical procedure (CX-01/03)* - Use the standard 3%/5% weights as a reference shape; reach the intended endpoint by accelerating when needed, without raising the applicable set ceiling. Choose an endpoint P through the joint feasibility policy, not by silently truncating it at standard-rate growth. For positive S and N>=2, the continuous endpoint equation has one nonnegative root for every P>=S; this does not prove an integer prescription fits the time.
 
 ```
 h = ⌈N/2⌉; s_w = 0.03 (2 ≤ w ≤ h), 0.05 (h < w ≤ N); G(N) = Π_{w=2..N}(1 + s_w).
-S_l = max(start_l, V_{l,1}); C̃_l = realized ceiling (T5).
-λ_l = 1 if S_l·G(N) ≤ C̃_l, else the unique λ ∈ (0,1) with S_l·Π_{w=2..N}(1 + λ s_w) = C̃_l (bisection, 60 iterations).
+S_l = actual credited start; P_l = intended, jointly feasible endpoint; S_l <= P_l <= applicable ceiling.
+If P_l = S_l: lambda_l = 0 (saturation or an explicitly flat regime).
+If P_l > S_l: solve S_l*product(1 + lambda_l*s_w) = P_l with lambda_l >= 0, including lambda_l > 1 when needed.
 T_l(1) = S_l;  T_l(w) = T_l(w−1)·(1 + λ_l s_w).
 ```
+- The bounded bracket `[0,1]` and fixed numerical recipe in the historical params below are superseded when acceleration is needed. Root bracketing, precision, discrete allocation and endpoint tolerances must be verified; no new numeric rate ceiling is approved.
 - **Params:** early / late step = `{"early":0.03,"late":0.05}` (`rules.stairway.standard_steps`); halfway = `ceil(N/2)` (`rules.stairway.halfway`); λ solve = `{"solve":"bisection","lo":0,"hi":1,"iterations":60,"display_round_to":4,"last_week_equals_cap_when_lambda_bel… (full value in the JSON)` (`rules.stairway.lambda`); growth by N: rules.stairway.by_N[N].growth (N=8: 1.3282, N=12: 1.5535)
-- **Sources:** R2-PER-03; R2-PER-04; R3-VOL-04; VOL-04; VOL-05; 12 §3.7.1; D-18
+- **Sources:** CX-01; CX-03; R2-PER-03; R2-PER-04; R3-VOL-04; VOL-04; VOL-05; 12 §3.7.1; D-18 (historical procedure)
 
 ### DEF-11 · Bilateral share
 
@@ -452,13 +467,18 @@ S_back ≥ ⌈1.5·S_chest⌉ (and on C).
 
 ### DER-09 · Next block after completed blocks
 
-*approved+proposed-numbers* - Start x 1.05 and ceiling + 1 per completed block in a row (never above 25, Focus 30); an unfinished block repeats the same start. Nothing is stored, so the person enters the count.
+*approved policy, proposed numerical procedure* - R2-VOL-06 supplies the next-block increase; CX-03 holds the applicable set ceiling and continues load/rep progression there. Canonical synthesis section 4 rounds after each completed block, not once after exponentiation. The bounded recurrence below is a proposed exact implementation consistent with that saturation policy. An unfinished block repeating its start and the count input retain their existing proposed status. Nothing is stored.
 
 ```
-S_l ← round_half_up(S_l·1.05^k);  C_l ← min(C_l + k, 25 | 30),  k = blocks completed in a row.
+For each completed block, in order:
+    C_next = min(C_l + 1, applicable_cap_l)
+    S_next = min(C_next, round_half_up(1.05*S_l))
+    S_l, C_l = S_next, C_next
+At S_l = C_l: set climb = 0; use load/rep progression, never a ratio divided by C_l-S_l.
+Resolve imported S_l > C_l before planning; do not silently raise the ceiling.
 ```
 - **Params:** cycles = `{"start_multiplier":1.05,"rounding":"half_up","cap_add":1,"cap_max_nonpriority":25,"cap_max_priority":30,"sam… (full value in the JSON)` (`rules.cycles`)
-- **Sources:** R2-VOL-06; R3-PER-01; R3-GEN-01; E-07
+- **Sources:** CX-03; R2-VOL-06; R3-PER-01; R3-GEN-01; synthesis/12_volume_algorithm_v1.md section 4; E-07 (historical)
 
 ### DER-10 · Flat block types (maintenance, pre-season, taper, in-season, recovery)
 
@@ -2223,7 +2243,7 @@ Weights inside a tier (the powers of 10, ε) are PROPOSED orderings of the tier'
 
 | Id | Conflict | Between | Detail | Options | Current reading | Who decides |
 |---|---|---|---|---|---|---|
-| C-01 | Step size vs reaching the ceiling | T3-STW-05/06 (about 3 % / 5 %, λ ≤ 1) vs R3-VOL-04 "reaches its ceiling exactly in the last week" | With λ ≤ 1 a 12-week L2 small line runs 12 → 18 (ceiling 22), L3 15 → 23 (25); every 8-week line peaks below the 12-week ceilings. | λ_max = 1 (ceiling is a maximum; today) \| λ_max up to 1.4 (late steps up to the 7 % limit, 12 → 22) | λ_max = 1 | coach (12 §7 item 16) |
+| C-01 | Step size vs reaching the ceiling | former T3-STW-05/06 rate bounds vs endpoint arrival | Standard rates can finish below the intended endpoint. | Historical alternatives retained in earlier revisions. | **CX-01 resolved policy:** accelerate when needed, including lambda>1; no new numeric maximum; preserve applicable ceilings and joint feasibility | numerical scheduler and proof reconciliation pending, not another open policy vote |
 | C-02 | Very short weeks: one group fully vs big movers partly | T1-POL-05 (FULL only counts) vs R3-SES-02 "big movers first; arms, calves and rear delts only from compound credit" | 2 x 45 holds about one group plus pinned calves when athletic, power and joint-care blocks stay (SF-7); without them three groups climb. The coach's words presume presses and rows remain. | (a) FULL-only (12 v1.2) \| (b) PATTERN state for big movers (E-94 / E-145; this file T1-POL-07) \| (c) BELOW_FLOOR big movers once a week \| (d) athletic / power / joint care give way first for stay-active (T1-POL-13) | fix round 2 (in progress) uses all three states: sample 08 now keeps quads and hips BELOW_FLOOR (4-6 sets), back as a PATTERN station, chest none | coach (12 §7 item 5) |
 | C-03 | How much longer a day may run | R2-SES-05 "a little longer day" vs UNI-09 / the chosen minutes | fit 1.10 for the minimums (PROPOSED), split days 1.0, error at 1.25 when cuttable, test days exempt with a warning. This file spends the 10 % only on minimums (T4 above T5). | 1.0 \| 1.10 (today) \| 1.15; split-day tolerance 1.0 or 1.10 | 1.10 full-body / 1.0 split | coach (12 §7 item 4) |
 | C-04 | Calves: floor 10 vs one exercise x 3 per leg day | R2-VOL-06 floor 10 vs R3-SES-01 one calf exercise x 3 sets per leg day | With 2 leg days one exercise holds at most 8 (4 + 4); the engine floor is max(3n, min(10, 4n − 1)) = 7; 10 needs the optional-day Calves slot. | leg-day floor (7) \| 10 via the optional day \| 10 via a 4th set + optional slot | DER-04 formula + optional slot below 4 leg days (E-139) | coach (12 §7 item 13) |
@@ -2231,7 +2251,7 @@ Weights inside a tier (the powers of 10, ε) are PROPOSED orderings of the tier'
 | C-06 | Split-day exercise cap vs 2-4 per group | VOL-08 5 / 7 / 9 by minutes vs R2-SES-05 2-4 per group | The 2-4 rule wins (D-54); the cap is soft (T6). | - | 2-4 wins | settled (engine) |
 | C-07 | 12 + 2 cap vs athletic tracks vs 2-4 per group | R2-SES-04 cap vs R3-SES-01 split vs athletic budget (D-73) | The day's athletic stations shrink to the R3-SES-01 split first, then whole non-work groups leave; COD / sprint budgets can then sit under target (told). | - | E-19 | settled (approved split) |
 | C-08 | Optional-day climb | ORD-10 "ideally separate days, so they don't get in the way" vs R3-VOL-03 bonus exercise on the optional day | Small-muscle bonus sets on the optional day are approved; a big line's stairway sitting only on the optional day reads as flat on the main days (FM-01). | Focus lines only (E-135) \| any line with a 2-set Focus slot | Focus lines only | proposed |
-| C-09 | Weekly-rise limits on small plans | UNI-05 < 10 % vs R3-SES-02 step 4 never flat | One set on a 9-set total is 11 %: one whole set may always be added (PROPOSED). | - | one-set exception | coach (12 §7 item 8) |
+| C-09 | Weekly-rise limits on small plans | former UNI-05 rate rule vs endpoint arrival | One set on a 9-set total is 11%; the old one-set exception was proposed. | Historical one-set exception is not the only permitted acceleration after CX-01. | **CX-01/02:** accelerate when needed; occasional same-set weeks may progress reps/load | integer/rate reporting procedure pending; no new rate maximum approved |
 | C-10 | Week-1 structure vs start and ceiling | R2-SES-05 2 exercises per trained day vs R3-VOL-04 room to climb | SF-9: frequency fixes week 1; E-83 trains a group on fewer days to start lower. | optimize z_{g,d} (this file) \| template frequency + repair | repair (E-83) | design |
 | C-11 | Removing an exercise in the editor | 12 §3.10.2 (sets move to the group's other exercises) vs 13 / spec (sets not moved) | BRAIN §0.3 cross-file decision: not moved; the person's choice wins; a note when a group drops to 1 exercise. | - | not moved | master |
 | C-12 | Pain lines | 12 §3.6 cap = start + 1 vs D-11 no step in weeks 2-3, then ≤ 3 % | Both are gentle climbs; neither is the coach's number. | start + 1 \| freeze 2 weeks then ≤ 3 % | engine D-11 parameters in rules.volume.pain | proposed |
@@ -2356,7 +2376,7 @@ Also fixed in the generator (spec layer 1): planned step ≤ 7 %, no data kept, 
 
 | Id | Question | Where |
 |---|---|---|
-| O-01 | λ above 1 so small lines reach their ceiling (C-01) | 12 §7 item 16 |
+| O-01 | Policy resolved by CX-01; implement and verify endpoint-prioritized acceleration, including lambda>1 (C-01) | coach_answers_codex_2026-10-10.md CX-01; PLANNER_SPEC current amendment |
 | O-02 | Very short weeks: FULL-only vs PATTERN / BELOW_FLOOR big movers (C-02, T1-POL-07 / 08) | 12 §7 item 5, E-94 / E-145, E-11 |
 | O-03 | Which fixed blocks stay ahead of big movers in short sessions (C-17, T1-POL-13) | R3-SES-02 vs R3-ATH-02 / R2-ATH-04 |
 | O-04 | Fit factor 1.10 and the split-day tolerance (C-03) | 12 §7 item 4 |
@@ -2364,7 +2384,7 @@ Also fixed in the generator (spec layer 1): planned step ≤ 7 %, no data kept, 
 | O-06 | Focus default +2 and the cap bound | 12 §7 item 3 |
 | O-07 | Calves 10 a week with fewer than 4 leg days (C-04) | 12 §7 item 13 |
 | O-08 | Field athletes' floor on chest / back / shoulders; small lines on the big-line ceilings (C-05) | 12 §7 item 10 |
-| O-09 | The one-set allowance under the 10 % weekly ceiling (C-09) | 12 §7 item 8 |
+| O-09 | Reconcile discrete scheduling and rate reporting under CX-01/02; do not retain the old weekly bound as an endpoint veto (C-09) | coach_answers_codex_2026-10-10.md CX-01/02 |
 | O-10 | Time model numbers (work + rest, changeovers); 1-minute changeover | 12 §7 item 12, E-09 |
 | O-11 | Per-session line caps 11 / 14, max sets per exercise 4 / 5 | 12 §7 item 15 |
 | O-12 | Laterality share numbers he did not give; the upper-body dial | 12 §7 item 15, E-127 |

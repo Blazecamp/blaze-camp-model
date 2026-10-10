@@ -10,7 +10,20 @@ inventory; every id of the form `T<tier>-...`, `DEF-`, `DER-`, `SF-`, `FM-`, `C-
 `design/judge_1.md`, `judge_2.md`, `judge_3.md`. Companion: `design/IMPLEMENTATION_PLAN.md` (work packages).
 Nothing outside `design/` was written to produce it, and no git command was run.
 
-Where this spec changes the winning design, the change was built on a copy of its prototype and run before it was written
+## Current Policy Amendment: 2026-10-10
+
+**Controlling source:** [coach answers CX-01 through CX-04](../coach_answers_codex_2026-10-10.md), newer than round 3 for these topics. The original prototype results and proofs below are historical evidence for the earlier, rate-limited design, not validation of this amendment. Runtime, compiled model, and prototypes have not been changed by this documentation update.
+
+- **CX-01, approved:** accelerate the planned increase when needed to reach the intended endpoint instead of finishing below it solely because of the former weekly rate limit. The 3%/5% shape remains the ordinary reference; `lambda > 1` is permitted when needed. This does not approve a new numerical maximum rate, establish a scientifically validated safe rate, raise the applicable set ceiling, or override equipment, time, execution-quality or clinical-scope constraints. Existing PROPOSED targets remain PROPOSED. A genuinely infeasible endpoint must still be disclosed with the authorized alternatives.
+- **CX-02, approved:** occasional same-set weeks may progress reps or load. This is not permission to substitute a rising display number for training progression. A nonsaturated accumulation block still progresses overall; maintenance and saturation are distinct regimes.
+- **CX-03, approved:** at the applicable set ceiling, hold sets and progress load/reps. No positive minimum set climb or division by `C-S` applies when `S=C`. Reconcile the canonical iterative rounding before each next-block calculation. The exact bounded recurrence `C_next = min(C + 1, applicable_cap); S_next = min(C_next, round_half_up(1.05*S))` is **PROPOSED implementation**, consistent with holding the ceiling, not a newly approved numerical coaching rule. If imported state has `S>C`, report the inconsistency and resolve it before planning.
+- **CX-04, approved:** the person or coach may edit sets in any week/day. Edits are explicit prescription overrides; they require re-tallying credits, time and constraints. The original certificate does not automatically survive an edit, and an edited prescription must not be represented as certified when a rule fails. This creates no check-ins, tracking or stored personal data, and makes no prediction of the individual's future outcomes.
+
+**Implementation gate.** This spec is not yet a complete algorithm for the amended policy. R-LAMBDA, R-TOP, R-REACH, R-STEP.G, R-STEP.T, positive minimum climbs, the peak objective at zero headroom, and the scheduler's fallback/proofs must be revised and independently checked before enabling the new planner. The one-set-per-group-per-week model is only a candidate fast path when it can reach the authorized endpoint. Failure of that restricted path does not prove the endpoint infeasible. L5/L6, T1/T3, existing fuzz results and the arithmetic-minimum-flat claim do not certify an accelerated path with different bounds. No full planner build is authorized by this amendment.
+
+**Required boundary checks before that gate:** six weeks, calves 3 to 4 (standard growth reaches 3.684373, so an exact curve needs `lambda > 1`); twelve weeks, 12 to 22; an endpoint needing more than one added set per group in a week; `S=C`; an imported `S>C`; repeated blocks with iterative rounding and saturation; a user edit that exceeds time or the ceiling; and a continuously reachable endpoint that has no legal integer allocation. Numerical root-finding, discrete scheduling, rounding/tolerance and edited-plan reporting remain implementation proposals to verify, not new coach answers.
+
+Before the current policy amendment, changes from the winning design were built on a copy of its prototype and run before being written
 down. Those runs are in `design/spec_checks/` and are summarized in Appendix A. A number marked *measured* comes from a saved
 output there or from a design or judge file named beside it. A number marked *target* has not been measured.
 
@@ -55,7 +68,7 @@ stage 2 can never fail, cut or change what stage 1 decided.
   of 250 ms. Section 10 says what has to be built to close that gap and what happens if it does not close.
 - Samples 02, 03, 05 and 07 have not been run by any prototype. The grammar builder (S0) is the largest unbuilt piece.
 
-**What needs the coach** (section 14): fifteen choices, each with a default so the build is not blocked. The three that move
+**What needs the coach** (section 14): the original panel listed fifteen choices with prototype defaults. CX-01..03 resolve the policy portions of D10/D15; they do not approve the remaining defaults or waive the new implementation gate. The three that move
 the plans most: whether kept movements may run a day 2-4 minutes long (the 2 x 45 table of 14.1), which fixed blocks stay
 ahead of a big mover for each kind of client, and the late-block strength rest of athletes' heavy lifts.
 
@@ -74,7 +87,7 @@ the progression card (7.8), rendering except the new keys (section 8). They are 
 
 ### 1.2 Sources and authority
 
-When sources differ, the earlier wins: `coach_answers_round3.md` > `coach_answers_round2.md` > `coach_answers_full.md` >
+When sources differ, the earlier wins: `coach_answers_codex_2026-10-10.md` (CX-01..04, within their scope) > `coach_answers_round3.md` > `coach_answers_round2.md` > `coach_answers_full.md` >
 `BLAZE_CAMP_BRAIN.md` v1.2 > `generator_spec_v1.json`, `synthesis/12_volume_algorithm_v1.md` > `engine/DECISIONS.md`,
 `model/rules.json` 1.3.0. A value marked PROPOSED is ours and waits for the coach. The binding engine rules of
 `engine/CONTRACTS.md` 1.2 and 1.3 stay binding: plain ES modules, no npm dependency, no build step, no clock, no randomness,
@@ -412,7 +425,7 @@ trained groups and equals what is placed (DR-21). New field: `volume.planner = P
   },
   "epochs": {"mode": "dominance", "max_middle": 2},      // dominance | reserved
   "stairway": {"tiers": ["last", "flat", "hold", "late", "shape", "land"], "final_set_late": true,
-               "total_rule_pct": 7, "fallback_pct": 10},
+               "total_rule_pct": 7, "fallback_pct": 10}, // HISTORICAL rate-limited path; CX-01 acceleration contract pending
   "laterality": {"mode": "prepass"},
   "oracle": {"implied": {"peak_floor": true, "optimistic_time": true, "day_subset": true, "twin_lex": true}, "tied_first": true},
   "budget": {"plan_nodes": 25000, "question_first": 500, "question_growth": 8, "keep_share": 0.6,
@@ -584,18 +597,18 @@ validator and the scorer re-check it on every week whatever that column says.
 | R-STAIRCASE | T7-PLC-01 | sets of a group-day are St(gamma, K, n) in every week | definition |
 | R-MONO | T3-STW-01, T0-SES-14, T3-STW-08 | no exercise ever loses a set inside the block; the active exercises are constant; the climb does not restart at an exercise block | S2 prefixes |
 | R-FLOOR | T2-FLR-01, -04, T1-POL-01 | trained g: Q_g(w) >= 4 F_g in every week | oracle on week 1; L3 |
-| R-CLIMB | T3-STW-02, T1-POL-01, T1-POL-12 | trained g: Own_g(N) - Own_g(1) >= mc_g | oracle |
-| R-REACH | T0-STW-02 | OwnAll_g(w_j) - OwnAll_g(w_{j-1}) <= w_j - w_{j-1} for consecutive proved weeks | oracle |
+| R-CLIMB | T3-STW-02, T1-POL-01, T1-POL-12, CX-02/03 | nonsaturated accumulation: the proposed minimum climb applies only where compatible with the endpoint; saturated S=C: mc=0 and load/rep progression; occasional same-set weeks allowed | amended row requires verification |
+| R-REACH | T0-STW-02, CX-01 | HISTORICAL restricted-path bound: OwnAll_g(w_j) - OwnAll_g(w_{j-1}) <= w_j - w_{j-1}. It must not reject an endpoint requiring acceleration; generalized reachability is pending | restricted path only |
 | R-TIME | T1-POL-02, T4-TIME-01, DEF-09 | Sec_d(w) <= L_d + delta_d in every week, with the pairs that are on (5.6) | oracle on every proved week; L3 |
 | R-TIME.CORE | T1-POL-02, T1-POL-05 | asked in G1 and G2 only: the day without its pattern stations fits L_d in every proved week (5.6) | oracle |
 | R-TEST | T0-TST-01 | test seconds are part of Fix_d(1) and Fix_d(N): a timed test takes the place of the station of its quality, the day's room items are skipped that week, a strength test adds its work-up only when its group is trained on that lift (`fit.test_days = inside`) | Fix tables; a column on z_g |
 | R-CEIL | T5-CAP-01, -02, -06 | OwnAll_g <= C_g; Qall_g <= 4 C_g + 4 (helper spill of at most one set) | oracle on week N |
 | R-ABS30 | T5-CAP-03 | Qall_g <= 120 q | oracle on week N |
-| R-LAMBDA | T3-STW-05, -06, DEF-10 | 10,000 Qall_g(N) <= G10k x Qall_g(1); or, where that would forbid the minimum climb (short blocks, low floors), Qall_g(N) <= Qall_g(1) + 4 mc_g | oracle (t_g picks the branch) |
-| R-TOP | T3-STW-06, T2-FLR-06, DER-01 | a_g x OwnAll_g(N) + h_g <= max( floor(4 S_g G10k / 10,000), 4 F_g + 4 mc_g ), with a_g and h_g the constants of T3 (section 6): the level's planned growth from the level start, so a higher week 1 never buys a higher peak. Asked from G5 on | oracle on week N |
+| R-LAMBDA | T3-STW-05, -06, DEF-10, CX-01 | continuous endpoint P>=S: solve S*product(1+lambda*s_w)=P with lambda>=0, including lambda>1 when needed; P=S uses lambda=0. This is an endpoint-shape calculation, not proof of discrete/time feasibility. No former growth-factor bound may alone lower P | replacement procedure PROPOSED; verification pending |
+| R-TOP | T3-STW-06, T2-FLR-06, DER-01, CX-01/03 | applicable policy ceiling still holds; the former S*G10k rate-based peak truncation is superseded when acceleration is needed. Define a jointly feasible endpoint without relabeling proposed targets as approved | replacement allocation contract pending |
 | R-SESSION | T5-CAP-05 | credited sets of g on one day <= 14 (hard, every group). The usual 11 is tier G5s | oracle on week N |
-| R-STEP.G | T0-STW-02 | OwnAll_g(w) - OwnAll_g(w-1) is 0 or 1 | scheduler |
-| R-STEP.T | T0-STW-03, LK08 | Tot(w) - Tot(w-1) <= max(1, floor(7 % of Tot(w-1))) on the placed weeks. Fallback rule 10: strictly below 10 %. One set may always be added | scheduler |
+| R-STEP.G | T0-STW-02, CX-01/02 | 0-or-1 own-set additions describe the old restricted path, not an absolute bound after CX-01. Same-set weeks are allowed; more than one addition may be needed for the endpoint. Revised integer bounds must be verified | accelerated scheduler pending |
+| R-STEP.T | T0-STW-03, LK08, CX-01 | historical 7% / below-10% rules cannot force a lower endpoint when acceleration is needed. Report the planned rates and the exception; no replacement numerical maximum was approved | revised scheduling contract pending |
 | R-LAST | T3-STW-04 | the last week is the largest; with 12 weeks the last four are the four largest | R-MONO |
 | R-ATHLETE12 | T0-SES-13, T6-CNT-07 | field athletes: counted exercises of a day <= 12, athletic stations of the room prefix included (core and warm-up outside) | oracle row |
 | R-EXBUDGET | T6-CNT-01 (PROPOSED as hard) | counted resistance exercises of a full-body day <= `exercise_cap_by_minutes` + `fit.exercise_margin` (split days: soft metric) | oracle row |
@@ -706,6 +719,8 @@ Three places where this order differs from the inventory's filing, each on purpo
 
 ## 6. Guarantees: what is proved, and under which hypotheses
 
+**Historical proof scope after CX-01..03:** the arguments below describe the original fixed, one-set-per-group-per-week, rate-limited design. They remain useful reference lemmas under those hypotheses, but are not proof of the amended policy. In particular, L5/L6 and T1/T3 need review for accelerated schedules and zero-headroom groups. This section does not waive the implementation gate above.
+
 The hypotheses are written out because every false guarantee found so far in this project came from one nobody wrote down.
 S0 asserts H1, H2, H3 and H5 on every instance; the scheduler's certificate asserts H4.
 
@@ -765,7 +780,7 @@ later groups to "off"; that lost plans and is removed. *Measured:* equal to exha
 instances after the change, different in 72 before it, on a generator with hosted stations and partial own credit.)
 
 **T3 (the peaks are the lexicographic max-min optimum).** Give every (group, own peak v) the key
-rho_g(v) = (a_g v + h_g - 4 S_g) / (4 C_g - 4 S_g), where a_g is the group's average own credit per set and h_g its helper
+rho_g(v) = (a_g v + h_g - 4 S_g) / (4 C_g - 4 S_g), **only for C_g>S_g**; saturated groups are excluded from this set-growth objective under CX-03 and use load/rep progression. The generalized objective remains to be checked. Here a_g is the group's average own credit per set and h_g its helper
 allowance, both constants of the instance; ties go to the earlier group in keep order. The ladder always tries to raise the
 group with the smallest key by one set, asking "is there a legal plan with peaks at least the current vector plus this
 set?", and freezes the group on "no". If every answer is exact, the final vector is the unique optimum of the lexicographic
@@ -797,6 +812,8 @@ model; calibrating that model on the coach's own sessions is a separate task (DR
 
 Pseudo-code is normative for *what* is computed and in which order. How many questions a tier asks is an implementation
 matter, as long as the result is the optimum the tier names (the tests of section 12 compare results, not question counts).
+
+**Amendment precedence:** the pseudocode below has not been re-proved for CX-01..04. Its rate restrictions, schedule-based freezes, fallback group removal and positive-climb assumptions are historical where they conflict with the current policy amendment. Do not implement those conflicts as fresh coach rules.
 
 ### 7.1 S0: the grammar builder
 
@@ -1054,8 +1071,10 @@ Notes.
 existsSchedule(groups {from, to}, weeks, base, rule):      # L6: every week take as many sets as the rule allows, most-left first
 scheduleStairway(I, certificate):
   segments  <- consecutive proved weeks (w_{j-1}, w_j] with per-group needs u_g = OwnAll_g(w_j) - OwnAll_g(w_{j-1})
-  curve     <- per group the planned T_g(w): 3 % a week to the halfway week, 5 % after it, one lambda <= 1 so that T_g(N) = peak (DEF-10;
-               bisection, 60 steps, + - x / only); ideal(w) = sum over groups of T_g(w) - T_g(1)
+  curve     <- PROPOSED endpoint shape under CX-01: base 3 % / 5 % weights, solve lambda >= 0 so T_g(N) = peak;
+               lambda may exceed 1; a fixed upper bracket of 1 is invalid. At S=peak, lambda=0 (CX-03).
+               Numerical procedure and accelerated integer scheduler still require verification; the DP below is the historical restricted path.
+               ideal(w) = sum over groups of T_g(w) - T_g(1)
   DP over weeks 2..N, state = (sorted vector of sets left in the current segment, was last week flat):
       for D in 0 .. min(cap(total placed so far), groups with sets left):          # R-STEP.T on the PLACED total
           take one set from each of the D groups with the most left                 # L5
@@ -1078,6 +1097,8 @@ when no schedule exists, in this order, each with a printed note (judge 2, issue
   1. rule 10 (strictly below 10 %, one set always)      2. undo the ladder's raises last in, first out, down to the minimum climbs
   3. un-keep the lowest-priority kept group and run S1 again
 ```
+
+**CX-01 supersession:** that fallback order applies only to the historical restricted model. A failed 7%/10% or one-set-per-group schedule is not grounds to lower the endpoint or un-keep a group under the new policy. Try a verified accelerated formulation; until one exists, report the planning result as unresolved, not proven infeasible. Genuine time, equipment, ceiling or integer-allocation conflicts still use the authorized feasibility policy.
 
 *Measured* (`spec_checks/stairway_v2.out.txt`, 3,891 schedulable random tables of 1-8 groups and 6-16 weeks): with the
 default order the flat weeks equal the arithmetic minimum (weeks - 1 - sets added, at least 0) in every table; the
@@ -1103,8 +1124,8 @@ placeBlock(I, certificate, table):
        'load'    else: a little more weight, back to the low end of the bracket
 ```
 
-"Never flat" as a checkable property: the display level of week w rises every week by construction, Q_g never drops, and
-every trained group has exactly one progression fact in every week from week 2 on. This is the coach's own reading: "started
+**CX-02/03:** same-set weeks with rep/load progression are approved; saturated groups hold sets. A display-level change alone is not progression. The precise automatic progression-card procedure above remains PROPOSED, including its feasibility under the prescribed reps and loads. The earlier reading was: the display level of week w rises every week by construction, Q_g never drops, and
+every trained group has exactly one progression fact in every week from week 2 on: "started
 at 2 and ended at 11, I mean the amount of volume that they're putting themselves at as far as level, not the amount of
 sets" (R2-PER-05). In whole sets the flat weeks are at their arithmetic minimum (7.7).
 
@@ -1184,12 +1205,11 @@ vector stays the same (H1). After planning, a second pass may swap picks of acti
 **inside the same time and credit class**; nothing is re-proved. Selection can no longer change laterality after the plan
 is built, and can never add or remove an exercise.
 
-**Next block.** A new instance: start x 1.05 and ceiling + 1 per completed block (DER-09), new picks, the stairway from its
-own week 1. Nothing is stored.
+**Next block.** A new instance using DER-09 with canonical iterative half-up rounding, not one final rounding of `S0*1.05^k`. CX-03 holds the applicable ceiling and uses load/rep progression at saturation. The exact bounded recurrence in the current policy amendment is PROPOSED and must be verified; do not compound the start beyond its ceiling or evaluate the set-growth objective at zero headroom. Nothing is stored.
 
 **Edits** (T1-POL-14). Removing or adding an exercise, or switching a block off, is a rebuild with `PlanOverrides`: a removed
 exercise leaves the candidates, an added one is appended to its group-day, a block switched off leaves the fixed seconds.
-The same chain runs; the result is again a certificate.
+The same chain runs where its constraints remain satisfied. CX-04 also permits explicit set edits in any week/day. An edit invalidates the old certificate until its credits, time, ceilings and other rules are rechecked; preserve the human edit and disclose conflicts rather than falsely certifying it. The exact edited-plan schema and reporting procedure remain PROPOSED. Editing does not add tracking or automatic adaptation.
 
 **A coach's own rules.** Three layers, all data (locked > coach rule pack > Blaze defaults > client preferences):
 
@@ -1582,6 +1602,7 @@ reported per plan with the weeks, days and groups that break it, so a failing nu
 5. The ten `tests/review-*.test.mjs` files re-expressed as rule-id properties or retired, each with its line in `DECISIONS.md`.
 6. The coach-eye review of 13.4.
 7. The coach's answers to D1, D4 and D13 of section 14, or his explicit "use the defaults".
+8. Reconcile and independently verify the CX-01..04 amendment: generalized endpoint reachability and scheduling, affected bounds/proofs, saturated next-block behavior, and manual-set-edit reporting. Re-run independent reference, boundary and benchmark checks under the revised policy. The existing prototype results cannot satisfy this new gate.
 
 ### 13.4 Coach-eye review targets
 
@@ -1600,7 +1621,7 @@ graded A-D, issues as blocker / major / minor).
 
 ## 14. Decisions for the coach
 
-Each has a default, so nothing blocks the build; the plan prints the defaults it used (`meta.planner.defaults_used`).
+The original defaults remain visible for comparison; they do not bypass the current policy amendment or its implementation gate. The plan must identify unresolved defaults it uses (`meta.planner.defaults_used`).
 `tools/planner/decision-table.mjs` re-solves the 8 samples under each alternative and prints one table per decision in the
 format of 14.1 (the milp design's D1-D10 table, judge 1 graft 10).
 
@@ -1632,12 +1653,12 @@ the minutes", told and offered; reading c is what he asked for in R3-SES-02 and 
 | D7 | One ceiling per FOCUS group or per line | per group; hips takes the larger of its two lines | per line: hips could pass 30 on all days (FM-11, FM-12) |
 | D8 | Athletic extras against resistance peaks | competitive athletes: before the peaks, never at the cost of a kept group or a kept movement; everyone else: after | swap the tags of the room items |
 | D9 | Exercise count on full-body days | his count by session length + 1, hard (`fit.exercise_margin`) | *measured* on sample 06 at 4 x 75: 9-10 resistance exercises a day with all 8 groups trained; + 0 would cost a group or an exercise; + 2 is the winning design's value; "guide only" removes the row |
-| D10 | What "never flat" means, and the stairway order | the level rises every week, every trained group has one thing that climbs each week, and whole sets have the fewest flat weeks possible; order `last, flat, hold, late, shape, land` | `land` first: every group lands in the last week, with a small week before it and more flat weeks (7.7) |
+| D10 | What "never flat" means, and the stairway order | **Policy resolved by CX-02/03:** occasional same-set weeks with reps/load progression; hold sets at saturation. Display-only progression is insufficient. Exact tier order remains PROPOSED | historical tier comparisons in 7.7 are not new coach approvals |
 | D11 | May a trained group keep a lone partner exercise on a day it does not otherwise train? | no ("there's never one exercise") | *measured*: class 4 x 75 trains hips, quads, chest and biceps but not back, because the class squat needs its row on Monday and Monday cannot hold two back exercises beside the quads; with "yes" back would train on Friday and keep the row on Monday |
 | D12 | Tests inside the day limit | inside: a timed test replaces its station, room items are skipped that day, a strength test only on a trained lift | outside with a printed warning (today: test days up to 128 %) |
 | D13 | The strength rest of athletes' heavy lifts in the last exercise block (O-17) | as the model (4.5 minutes) | *measured*: without it the swimmer trains quads directly as a third group at 3 x 60 |
 | D14 | The per-session 11 | 11 where the plan fits, up to 14 when a group needs it, printed | 11 hard: one-day groups (chest on the 2-day template, quads and hips in the class) can never be trained |
-| D15 | Lambda above 1 so small lines reach the level ceiling (C-01) | no: growth of at most 3 % / 5 % a week | 8-week blocks peak higher (the class member's back stops at 15 for this reason) |
+| D15 | Lambda above 1 so small lines reach the intended endpoint (C-01) | **Policy resolved by CX-01:** increase faster when needed, including lambda>1; do not finish low solely because of the previous rate limit | exact accelerated integer scheduling remains to be specified and verified; applicable ceilings and other feasibility constraints remain |
 
 ---
 

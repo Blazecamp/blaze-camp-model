@@ -1,5 +1,7 @@
 # Blaze Camp planner: implementation plan (planner/1)
 
+> **2026-10-10 controlling update:** [COACH-CX CX-01..04](../coach_answers_codex_2026-10-10.md) changes endpoint priority, same-set progression, at-cap behavior and editability. Read the controlling addendum in [PLANNER_SPEC.md](PLANNER_SPEC.md) first. The package descriptions below predate this clarification; rate-limited and one-added-set assumptions require reconciliation and new proofs/tests before implementation is ready. The workflow must stop at preflight while `rules_as_constraints.json > policy_amendment.implementation_ready` is false. Default-engine promotion also requires explicit approval after technical and coaching gates; there is no automatic switch or guaranteed resume after a usage reset.
+
 Ordered work packages for a multi-agent build of `design/PLANNER_SPEC.md`. Written 2026-10-10. Section numbers such as
 "spec 7.5" point into that file. Nothing here is built yet; nothing outside `design/` was written to produce this plan.
 

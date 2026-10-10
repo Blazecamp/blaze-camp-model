@@ -14,16 +14,18 @@ Highest authority first:
 
 | Rank | Source | Label |
 |---|---|---|
-| 1 | Round-3 answers ([coach_answers_round3.md](../../coach_answers_round3.md)) | `COACH-R3 <id>` |
-| 2 | Round-2 answers ([coach_answers_round2.md](../../coach_answers_round2.md)) | `COACH-R2 <id>` |
-| 3 | Round-1 answers ([coach_answers_full.md](../../coach_answers_full.md)) | `COACH-ANSWER <id>` |
-| 4 | Things he said in conversation ([coach_chat_statements.md](../../coach_chat_statements.md), [coach_answers.md](../../coach_answers.md)) | `COACH-CHAT` |
-| 5 | Facts read from his sheets (`raw/`, `dumps/`) | `OBSERVED` |
-| 6 | Team work | `INFERRED`, `SCIENCE`, `PROPOSED` |
+| 1 | [2026-10-10 clarification](../../coach_answers_codex_2026-10-10.md), only the subjects answered there | `COACH-CX CX-01..04` |
+| 2 | Round-3 answers ([coach_answers_round3.md](../../coach_answers_round3.md)) | `COACH-R3 <id>` |
+| 3 | Round-2 answers ([coach_answers_round2.md](../../coach_answers_round2.md)) | `COACH-R2 <id>` |
+| 4 | Round-1 answers ([coach_answers_full.md](../../coach_answers_full.md)) | `COACH-ANSWER <id>` |
+| 5 | Earlier conversation ([coach_chat_statements.md](../../coach_chat_statements.md), [coach_answers.md](../../coach_answers.md)) | `COACH-CHAT` |
+| 6 | Facts read from his sheets (`raw/`, `dumps/`) | `OBSERVED` |
+| 7 | Team work | `INFERRED`, `SCIENCE`, `PROPOSED` |
 
 - An answer marked RIGHT with no words makes the team's proposal his rule.
 - **PROPOSED** means "waiting for the coach's approval". It is not his rule yet.
 - His words and his sheets are never edited.
+- A new dated answer record can supersede an older questionnaire answer on the subject explicitly answered. Keep the original transcript intact and separate implementation proposals from the coach's words. See [ADR-049](adr-049-endpoint-priority-and-editable-progression.md).
 
 ## Why
 

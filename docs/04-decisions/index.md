@@ -22,6 +22,8 @@ Every record has the same parts, in this order:
 
 **Status words.**
 
+**Latest clarification:** [COACH-CX CX-01..04](../../coach_answers_codex_2026-10-10.md), dated 2026-10-10, overrides earlier answers only on endpoint priority, same-set and at-cap progression, and editability. See [ADR-049](adr-049-endpoint-priority-and-editable-progression.md). This is not a fourth questionnaire round or approval of all planner defaults.
+
 | Status | Meaning |
 |---|---|
 | Accepted | The coach decided it. The answer id is given. |
@@ -76,6 +78,7 @@ Every record has the same parts, in this order:
 | [ADR-024](adr-024-focus-muscle-1-and-2.md) | Focus muscle 1 and Focus muscle 2 | Accepted; default of +2 PROPOSED | Coach: R3-SES-01 |
 | [ADR-025](adr-025-where-a-new-set-goes.md) | Where a new set goes | Accepted; per-exercise limits PROPOSED | Coach: VOL-06, VOL-07, R3-VOL-03 |
 | [ADR-026](adr-026-effort-in-reps-in-reserve.md) | Effort is given in reps in reserve | Accepted | Coach: VOL-13, GEN-08, R2-VOL-02, R2-GEN-06, R3-VOL-04 |
+| [ADR-049](adr-049-endpoint-priority-and-editable-progression.md) | Endpoint priority; same-set and at-cap progression; editable day/week sets | Accepted direction; implementation pending | Coach: CX-01..04 |
 
 ### Sessions: what a training day looks like
 
@@ -170,7 +173,7 @@ These are the PROPOSED or INFERRED parts named inside the records. None of them 
 | Group credit; how calves reach 10 sets with few leg days | [ADR-017](adr-017-floor-of-10-on-focus-groups.md) |
 | Direct side-delt sets under one shoulders line | [ADR-018](adr-018-rear-delts-part-of-shoulders.md) |
 | The advanced (L3) start of 20 sets; the goal and phase multipliers | [ADR-021](adr-021-starting-sets-and-ceilings-by-level.md) |
-| Step sizes versus reaching the ceiling exactly in the last week | [ADR-022](adr-022-every-plan-is-a-stairway.md) |
+| Exact accelerated schedule and remaining numeric bounds; endpoint priority itself is now approved | [ADR-049](adr-049-endpoint-priority-and-editable-progression.md) |
 | The default of +2 sets; Focus muscles for field athletes; Focus muscles when time is short | [ADR-024](adr-024-focus-muscle-1-and-2.md) |
 | Which groups to keep first when time is short; very short weeks | [ADR-032](adr-032-time-vs-minimums-order.md) |
 | The bilateral share for each sport | [ADR-033](adr-033-bilateral-unilateral-scale.md) |

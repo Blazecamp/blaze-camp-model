@@ -1,10 +1,12 @@
 # Coach answers by topic: index
 
+> **2026-10-10 update:** The 198-question inventory below records rounds 1-3. A later [dated clarification](../../coach_answers_codex_2026-10-10.md), `CX-01..04`, takes precedence on endpoint priority, same-set and at-cap progression, and editable templates. The topic pages and counts below have not yet been fully reconciled with that clarification. Do not treat their older rate limits or "never flat" wording as overriding it. [ADR-049](../04-decisions/adr-049-endpoint-priority-and-editable-progression.md) records the change.
+
 Everything coach Lalo Vera answered about his training model, sorted by topic instead of by questionnaire round. There are 198 question ids: 140 from round 1, 45 from round 2 and 13 from round 3. Each id sits on one topic page with the question, his final answer as it stands today, a short quote, what the team added without his confirmation, where the rule lives in the data, and a note when a later round changed it. This index maps every id to its page and gives the final rule in one line. The things he said in conversation are filed under the same topics.
 
 ## How to read this folder
 
-1. **The latest answer wins.** Round 3 beats round 2. Round 2 beats round 1. Any questionnaire answer beats a statement made in conversation. Anything he said beats what was read from his sheets.
+1. **The latest relevant answer wins.** The dated CX clarification above beats older answers on its specific subjects. Otherwise round 3 beats round 2, round 2 beats round 1, and questionnaire answers beat the earlier conversation notes. Anything he said beats what was read from his sheets.
 2. **"Final rule" is the rule today.** When a later round changed an answer, the entry shows both: the earlier text is marked *superseded* and the entry names the answer that replaced it.
 3. **PROPOSED means not confirmed by him.** It is the team's design where he asked for a proposal or left a gap. INFERRED means the team's reading of his words. Neither is the coach speaking.
 4. **RIGHT with no words** means our assumption or proposal became his rule as written, so each entry prints that text.
