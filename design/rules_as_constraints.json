@@ -6,36 +6,45 @@
   "date": "2026-10-10",
   "source": "coach_answers_codex_2026-10-10.md",
   "implementation_ready": false,
-  "reconciliation_status": "pending_math_reconciliation",
+  "reconciliation_status": "progression_reference_verified_integration_pending",
   "precedence": "CX-01..04 control within their stated scope. Remaining tables, numeric params, metrics and counts retain the generated historical snapshot; do not consume an affected legacy constraint as active without reconciling this amendment.",
-  "status": "coach policy approved; numerical procedures and generalized scheduler pending verification; no runtime changes",
+  "status": "coach policy approved; isolated progression reference implemented and independently tested; full planner integration not ready; default runtime unchanged",
+  "progression_reference": {
+   "status": "verified_isolated_contract",
+   "proofs": "design/PROGRESSION_MATH.md",
+   "verification": "design/PROGRESSION_VERIFICATION.md",
+   "modules": ["design/progression/stairway.mjs", "design/progression/prescription.mjs"],
+   "tests": ["tests/progression/stairway.test.mjs", "tests/progression/prescription.test.mjs"],
+   "verified_scope": ["accelerated endpoint root within explicit numerical tolerance", "nested integer and group-day prefix schedules", "shared endpoint epochs", "iterative bounded block rounding", "explicit conditional reps/load progression", "all-week arithmetic and set-edit rechecks"],
+   "not_certified": ["actual-credit endpoint selection or global peak optimality", "full instance and covering-envelope construction", "exercise-level integration and plan/2 contract", "exercise or population suitability", "physiological safety or individual results", "full planner build or production promotion"]
+  },
   "resolutions": [
    {
     "id": "CX-01",
     "policy": "Accelerate when needed to reach the intended endpoint instead of finishing below it solely because of the former weekly rate limit; lambda may exceed 1. No new numerical maximum rate or validated safe rate is approved. Keep applicable set ceilings, time, equipment, execution quality and clinical scope; PROPOSED targets remain PROPOSED.",
     "affects": ["DEF-10", "T0-STW-02", "T0-STW-03", "T3-STW-05", "T3-STW-06", "SF-2", "C-01", "C-09", "P-09", "P-12", "LK08", "O-01", "O-09"],
-    "pending": "Reconcile R-LAMBDA, R-TOP, R-REACH, R-STEP.G, R-STEP.T and the integer scheduler. A failed rate-limited or one-set-per-group search is not proof of infeasibility. Endpoint root bracketing, precision and allocation tolerances remain proposed."
+    "pending": "Reference root bracketing, precision and accelerated integer schedules are implemented and tested; caller-supplied numerical controls remain implementation choices, not training policy. Integrate R-LAMBDA, R-TOP, R-REACH, R-STEP.G and R-STEP.T with actual-credit endpoints and certified instances. A failed restricted search is not proof of general infeasibility."
    },
    {
     "id": "CX-02",
     "policy": "Occasional same-set weeks may progress reps/load; nonsaturated accumulation progresses overall. A rising display level alone is insufficient.",
     "affects": ["T3-STW-02", "T3-STW-03", "T3-STW-09", "P-10", "P-11"],
-    "pending": "Exact climb amounts, hold/flat metrics and scheduler tier order remain proposed and must not prohibit approved plateaus."
+    "pending": "Conditional reps/load progression is implemented in the reference contract. Integrate rep/rest envelopes and output wording; exact climb amounts, hold/flat metrics and scheduler tier order remain proposed and must not prohibit approved plateaus."
    },
    {
     "id": "CX-03",
     "policy": "At the applicable set ceiling hold sets and progress load/reps. At S=C, no positive minimum set climb and no division by C-S apply.",
     "affects": ["DER-09", "T3-STW-02", "P-10", "P-28"],
-    "pending": "Canonical rounding is iterative per completed block. The bounded recurrence in DER-09 is PROPOSED implementation of saturation; resolve imported S>C before planning without silently raising the ceiling."
+    "pending": "Exact iterative rational rounding and bounded saturation are implemented and tested in the reference contract; integrate DER-09 and reject imported S>C without silently raising the ceiling. Parameters remain caller-supplied; tests do not approve new training defaults."
    },
    {
     "id": "CX-04",
     "policy": "People/coaches may edit sets in any week/day. Preserve explicit overrides and re-tally dose, time and rule compliance; a prior certificate does not automatically survive the edit. Disclose conflicts without falsely certifying them. No check-ins, tracking or stored personal data are introduced.",
     "affects": ["T1-POL-14"],
-    "pending": "Edited-plan schema, overrides and reporting procedure remain proposed. Editability and mathematical consistency do not predict individual outcomes."
+    "pending": "Normalized set edits preserve overrides, discard old validation and rerun the declared arithmetic subset. Integrate the final plan/2 edit schema, complete model checks and output reporting. Editability and mathematical consistency do not predict individual outcomes."
    }
   ],
-  "implementation_gate": "Before enabling the amended planner, revise and independently verify accelerated reachability, affected L5/L6 and T1/T3 proof scopes, zero-headroom objective/recurrence, and edit reporting; rerun boundary, independent-reference and benchmark checks. Historical prototypes do not validate this amendment.",
+  "implementation_gate": "The isolated reference and replacement proof scopes are documented in PROGRESSION_MATH.md. Before enabling the amended planner, verify actual-credit endpoint selection, covering-envelope construction, zero-headroom objective integration, exercise-level placement, final plan/edit contracts and canonical rule migration; rerun independent-reference, whole-planner and benchmark gates. Reference tests do not certify the full planner or authorize promotion.",
   "required_boundary_cases": ["6 weeks, 3 to 4", "12 weeks, 12 to 22", "endpoint requiring more than one added set per group in a week", "S=C", "imported S>C", "iterative rounding through saturation", "set edit exceeding time or ceiling", "continuous endpoint without feasible integer allocation"]
  },
  "repo_state": {

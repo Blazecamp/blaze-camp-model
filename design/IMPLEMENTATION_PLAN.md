@@ -1,9 +1,9 @@
 # Blaze Camp planner: implementation plan (planner/1)
 
-> **2026-10-10 controlling update:** [COACH-CX CX-01..04](../coach_answers_codex_2026-10-10.md) changes endpoint priority, same-set progression, at-cap behavior and editability. Read the controlling addendum in [PLANNER_SPEC.md](PLANNER_SPEC.md) first. The package descriptions below predate this clarification; rate-limited and one-added-set assumptions require reconciliation and new proofs/tests before implementation is ready. The workflow must stop at preflight while `rules_as_constraints.json > policy_amendment.implementation_ready` is false. Default-engine promotion also requires explicit approval after technical and coaching gates; there is no automatic switch or guaranteed resume after a usage reset.
+> **2026-10-10 controlling update:** [COACH-CX CX-01..04](../coach_answers_codex_2026-10-10.md) changes endpoint priority, same-set progression, at-cap behavior and editability. Read [PLANNER_SPEC.md](PLANNER_SPEC.md), [PROGRESSION_MATH.md](PROGRESSION_MATH.md), and [PROGRESSION_VERIFICATION.md](PROGRESSION_VERIFICATION.md). The isolated progression references and independent focused suites are implemented and passing; the production planner packages below are not thereby complete. Remaining blockers are the actual-credit endpoint oracle, full inherited cost-envelope certification, integrated validation, and a resolved or honestly limited T3 optimizer. The workflow must stop at preflight while `rules_as_constraints.json > policy_amendment.implementation_ready` is false. Default-engine promotion also requires explicit approval after technical and coaching gates; there is no automatic switch or guaranteed resume after a usage reset.
 
 Ordered work packages for a multi-agent build of `design/PLANNER_SPEC.md`. Written 2026-10-10. Section numbers such as
-"spec 7.5" point into that file. Nothing here is built yet; nothing outside `design/` was written to produce this plan.
+"spec 7.5" point into that file. The full planner is not built. Current preparatory references are `design/progression/stairway.mjs` and `prescription.mjs`, with independent tests under `tests/progression/`; no default-engine migration is part of that preparation.
 
 ---
 
@@ -19,8 +19,7 @@ Ordered work packages for a multi-agent build of `design/PLANNER_SPEC.md`. Writt
 - **Each slice is scored before the next** on the benchmark of `design/bench/` in shadow mode (section 4).
 - **Three things come first because everything hangs on them:** the contracts and the model data (WP-00), the generic
   search with its brute-force fuzz (WP-02), and the uncut layout (WP-07), which is the largest change to existing code.
-- **Open decisions** that the build can start without, but that the gate needs: the coach's D1, D4 and D13 (spec 14), and
-  the maintainers' M-1 ... M-4 (section 5).
+- **Open decisions:** the coach's D1, D4 and D13 (spec 14), and the maintainers' M-1 ... M-4 (section 5), are not silently approved by CX. A future shadow build can use only explicitly declared provisional policies after readiness is reconciled; default promotion needs the separate approvals and gates.
 
 ---
 
@@ -51,7 +50,7 @@ tested on generated instances (`tests/helpers/plan-gen.mjs`), which is how the p
 
 | Phase | Packages | Can start when | Size |
 |---|---|---|---|
-| 0 | WP-00 | now | M |
+| 0 | WP-00 | after the current readiness blockers are resolved and preflight passes | M |
 | 1 | WP-01, 02, 03, 04, 05, 06 | WP-00 merged | S, L, M, M, M, S |
 | 2 | WP-07, 08, 09, 10 | WP-00 merged | L, M, S, M |
 | 3 | WP-11, 12, 13, 14, 15 | their dependencies | L, L, L, M, M |
@@ -161,7 +160,7 @@ section in every test title.
 - **Delivers.** `plan/units.mjs`, `plan/timecost.mjs`, `plan/staircase.mjs`; `timefit.setCost`, `supersetMinutes`,
   `testMinutes` as wrappers over `plan/timecost`.
 - **Tests to add** (`tests/plan/units.test.mjs`, `timecost.test.mjs`, `staircase.test.mjs`).
-  - every value of `rules.time_model` times 60 is a whole number; `growth10k(12) = 15535`, `growth10k(8) = 13282`.
+  - every value of `rules.time_model` times 60 is a whole number; historical `growth10k` values remain reference data, never endpoint caps after CX-01.
   - R-STAIRCASE golden: 2/2/2 -> 3/2/2 -> 3/3/2 -> 3/3/3 -> 4/3/3; with unequal bounds; a class lift never moves.
   - L1: St(n + 1) = St(n) plus one set on one exercise, for every legal n of 500 random group-days.
   - pair saving = the old `supersetMinutes` for two members, every pair of time classes, sets 0..5 on each side.
@@ -188,21 +187,17 @@ section in every test title.
 
 ### WP-03 The stairway scheduler
 
-- **Goal.** Spec 7.7.
+- **Goal.** Integrate spec 7.7 and the scoped proofs in PROGRESSION_MATH. The isolated reference already exists; this package still owns production integration.
 - **Depends on.** WP-00.
-- **Delivers.** `plan/stairway.mjs`: `existsSchedule`, `scheduleStairway` (segments, tiers as data, transportation with the
-  final set late), `certifyTable`, the fallback order.
+- **Delivers.** `plan/stairway.mjs`: bounded endpoint curves, aggregate group-prefix schedules across certified nested epochs, exact endpoint/monotonicity checks, actual integer rate metadata and scoped failure states. Carry cyclic day state across segments. Preserve explicit numerical/rounding policies. No legacy rate-capped fallback may truncate endpoints or remove groups.
 - **Tests to add** (`tests/plan/stairway.test.mjs`, `tests/golden/planner-stairway.json`).
-  - goldens: 15 -> 22 gives 15 15 16 16 17 17 18 18 19 20 21 22; the lines of `spec_checks/stairway_v2.out.txt`.
-  - P7: optimal for the tier order against brute force on 3,000 small plans; `existsSchedule` equal to the dynamic program
-    on 8,000 random tables; certificate on 10,000 tables of real size.
-  - T3-STW-03: flat weeks equal max(0, N - 1 - sets added) on every schedulable table of the random set.
-  - segments: with fixed totals at one and two middle weeks, every segment is exact and the total rule holds across the boundary.
-  - final set late: on small tables no other assignment with the same weekly rises gives any group a later final set
-    without giving another an earlier one.
-  - the fallback: a constructed table with no schedule under 7 % uses rule 10 with its note; one with none under 10 %
-    undoes the last raise; tier weights asserted below 2^53.
-- **Done when.** The tests pass; about 1 ms per table of real size (reported).
+  - Port the independent `tests/progression/stairway.test.mjs` cases without replacing their reference enumeration with implementation helpers: accelerated endpoints, more than one addition/group/week, exact binary quantization, short blocks, zero headroom and scoped numerical/resource failures.
+  - R3 worked-line intent: 15 -> 22 and last four 19,20,21,22 under the declared reference shape/rounding; retain earlier whole-line schedules as historical comparisons, not an undocumented universal shape rule.
+  - P7: endpoints exact, all weeks within their nested interval, additions nonnegative; prefix totals agree with aggregate group rounding and the declared alternating tie policy.
+  - Segments: matching certified boundary vectors, explicit cursor continuity, and no endpoint loss with one or two middle epochs. Full envelope and weekly-row checks belong to WP-04/WP-11/WP-14.
+  - A half-up short-block curve may arrive at the ceiling early; subsequent flat sets require concrete rep/load progression, not rejection under a retired flat-week objective.
+  - Neither 7%/10% exceedance nor failure of the historical one-set scheduler lowers a feasible endpoint. Test honest relative-rate reporting, including zero-to-positive undefined percentages.
+- **Done when.** Integrated tests and independent actual-week certificate checks pass; performance is measured, not presumed from the old DP. No general tier/flat-week optimum is claimed.
 
 ### WP-04 The rule catalogue and the certifier
 
@@ -284,7 +279,7 @@ section in every test title.
   - `doseParams` gives the same result for 2, 3, 4 and 5 sets (it never reads the sets).
   - strength-rest cases (an athlete's heavy lift in the last exercise block, class lifts, the strength family) equal
     `timefit.restClassOf` of today.
-  - card: each trained group has exactly one line in every week from week 2 on; the order sets, effort, reps, load.
+  - card: same-set weeks have a concrete permitted rep/load prescription or an explicit unresolved result; effort/display changes alone cannot fabricate that prescription. Port `planProgression` cases from the isolated prescription suite; recost changed work/rest prescriptions.
 - **Done when.** The tests pass and the dose tests of today pass unchanged.
 
 ### WP-10 The athletic plan and the room ladder
@@ -316,7 +311,7 @@ section in every test title.
   - minimum length: the class template at 30 and 45 minutes returns `format_min` with 60; `athletic.3` with tests at 30.
   - structural "no": a one-day group whose candidates cannot reach floor + climb gets reason `template` with no search.
   - epochs: an athlete's block {1, N}; a physique block with a costliest first exercise block {1, 4, N}; tests inside with
-    a larger room item {1, N-1, N}; `max_middle` merges soundly (the merged costs dominate).
+    a larger room item {1, N-1, N}; compressed envelopes dominate every inherited covered week's fixed/work/rest costs, not only the dropped epoch's raw costs. Independently assert cover(w)>=w and full cost dominance for every week.
   - R-TEST: a strength test's seconds sit on z of its group; a timed test replaces its station.
   - edit rules: every candidate, station and room item of an instance names the edit rule that brought it in.
 - **Done when.** The tests pass and `tools/planner/grid.mjs` (WP-20) can list every cell.
@@ -343,7 +338,7 @@ section in every test title.
 - **Delivers.** `plan/table.mjs`.
 - **Tests to add** (`tests/plan/table.test.mjs`, `tests/golden/planner-plans/`).
   - P5: keep vector equal to the exhaustive lexicographic maximum on 1,200 small instances (hosted stations, partial credit).
-  - P6: the ladder equals the priority-refined max-min optimum on small instances; every raise leaves a stairway.
+  - P6: define the exact actual-credit objective and compare it with finite exhaustive candidates; S=C is excluded from growth scoring, S>C conflicts. Do not use average credits as exact heterogeneous staircase tallies. A retained unproved ladder is best_found, not a general optimum; no legacy rate-cap failure freezes a peak.
   - P15: the room prefix is the largest that keeps the keep vector; P16: no day's overrun can be lowered.
   - G3: lead before keep; a partner is on exactly when its work lift is active and its group is not trained; at most
     `max_per_week` chosen stations; the keep form on its lead-pair day first.
@@ -366,7 +361,8 @@ section in every test title.
   - P8, P9: 300 random plans with exercise-block costs that change, fixed seconds that go up and down, and a middle epoch:
     0 violations of any hard row in any week; no exercise loses a set; table printed = table placed.
   - supersets: the chosen set is the smallest that makes every week fit (against all subsets); the rest are "recommended".
-  - progression facts: one per trained group and week from week 2 on.
+  - progression prescriptions: actual set additions or concrete permitted rep/load instructions on flat weeks, including early ceiling arrival; no invented change when no progression is available.
+  - edit rechecks: discard stale plan/week/day/item certificate metadata, preserve the user's edit and conflicts, and check per-item nondecrease/removal/RIR, main-only floors, all-day targets/ceilings, optional daily limits and time. The isolated subset validator is a reference, not a substitute for full model checks.
   - golden: the add order of the coach's example (quads: first exercise Monday, first exercise Thursday, second Monday ...).
 - **Done when.** The tests pass.
 
@@ -474,7 +470,7 @@ Scores are the scorer's (spec 13.2) on C1 and C2 unless stated; "no worse" means
 | Slice | Packages merged | Engine setting scored | Must show |
 |---|---|---|---|
 | 1 baseline | 00, 01, 04, 06 | `v04` | the baseline saved; the scorer reproduces the failures of the diagnosis |
-| 2 stairway and placement | 03, 14 | `v04` plans re-scheduled by `tools/planner/reschedule.mjs` where their ends certify | A7 = 0 on the re-scheduled plans; A9 = 0 |
+| 2 stairway and placement | 03, 14 | shadow-only rescheduling where the actual endpoints and complete cost envelopes certify | current A6/A8/A9 = 0; A7/A20 reported as diagnostics, not former flat-week rejections |
 | 3 the planner in shadow | 02, 05, 07, 08, 09, 10, 11, 12, 13, 16 | `shadow` | A2, A3, A5, A6, A10, A11, A13 = 0 on C1; P5 and P8 green; the 8 shadow summaries read by a person |
 | 4 athletic and room | 10 complete | `shadow` | A18 holds; no sample loses a kept group against slice 3 unless a room rule says so |
 | 5 offers and words | 17, 18, 19 | `shadow` | A16, A17 = 0; the block of spec 8.3 renders in EN and ES |

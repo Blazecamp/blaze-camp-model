@@ -12,16 +12,18 @@ Nothing outside `design/` was written to produce it, and no git command was run.
 
 ## Current Policy Amendment: 2026-10-10
 
-**Controlling source:** [coach answers CX-01 through CX-04](../coach_answers_codex_2026-10-10.md), newer than round 3 for these topics. The original prototype results and proofs below are historical evidence for the earlier, rate-limited design, not validation of this amendment. Runtime, compiled model, and prototypes have not been changed by this documentation update.
+**Controlling source:** [coach answers CX-01 through CX-04](../coach_answers_codex_2026-10-10.md), newer than round 3 for these topics. The original panel prototypes/results remain historical evidence for the earlier rate-limited design. The new isolated references in `design/progression/stairway.mjs` and `prescription.mjs` implement the amended progression construction and subset checks; they do not replace the runtime or compiled model. Read [PROGRESSION_MATH.md](PROGRESSION_MATH.md) for the exact proof scope and API contract.
 
 - **CX-01, approved:** accelerate the planned increase when needed to reach the intended endpoint instead of finishing below it solely because of the former weekly rate limit. The 3%/5% shape remains the ordinary reference; `lambda > 1` is permitted when needed. This does not approve a new numerical maximum rate, establish a scientifically validated safe rate, raise the applicable set ceiling, or override equipment, time, execution-quality or clinical-scope constraints. Existing PROPOSED targets remain PROPOSED. A genuinely infeasible endpoint must still be disclosed with the authorized alternatives.
 - **CX-02, approved:** occasional same-set weeks may progress reps or load. This is not permission to substitute a rising display number for training progression. A nonsaturated accumulation block still progresses overall; maintenance and saturation are distinct regimes.
 - **CX-03, approved:** at the applicable set ceiling, hold sets and progress load/reps. No positive minimum set climb or division by `C-S` applies when `S=C`. Reconcile the canonical iterative rounding before each next-block calculation. The exact bounded recurrence `C_next = min(C + 1, applicable_cap); S_next = min(C_next, round_half_up(1.05*S))` is **PROPOSED implementation**, consistent with holding the ceiling, not a newly approved numerical coaching rule. If imported state has `S>C`, report the inconsistency and resolve it before planning.
 - **CX-04, approved:** the person or coach may edit sets in any week/day. Edits are explicit prescription overrides; they require re-tallying credits, time and constraints. The original certificate does not automatically survive an edit, and an edited prescription must not be represented as certified when a rule fails. This creates no check-ins, tracking or stored personal data, and makes no prediction of the individual's future outcomes.
 
-**Implementation gate.** This spec is not yet a complete algorithm for the amended policy. R-LAMBDA, R-TOP, R-REACH, R-STEP.G, R-STEP.T, positive minimum climbs, the peak objective at zero headroom, and the scheduler's fallback/proofs must be revised and independently checked before enabling the new planner. The one-set-per-group-per-week model is only a candidate fast path when it can reach the authorized endpoint. Failure of that restricted path does not prove the endpoint infeasible. L5/L6, T1/T3, existing fuzz results and the arithmetic-minimum-flat claim do not certify an accelerated path with different bounds. No full planner build is authorized by this amendment.
+**Verified progression scope.** The isolated references have passed the independent focused suites: `node --test tests/progression/stairway.test.mjs tests/progression/prescription.test.mjs` (see [PROGRESSION_VERIFICATION.md](PROGRESSION_VERIFICATION.md) for results). They cover numerical endpoint construction including `lambda > 1`, nested integer and aggregate group-prefix scheduling, zero headroom, exact bounded iterative rounding, concrete rep/load instructions, and edited-prescription subset checks. PROGRESSION_MATH P5 proves conditional preservation of monotone floor/upper/time rows for certified nested endpoints with valid covering-cost envelopes. It does not prove that an endpoint is feasible or that the full planner is optimal or safe for every person.
 
-**Required boundary checks before that gate:** six weeks, calves 3 to 4 (standard growth reaches 3.684373, so an exact curve needs `lambda > 1`); twelve weeks, 12 to 22; an endpoint needing more than one added set per group in a week; `S=C`; an imported `S>C`; repeated blocks with iterative rounding and saturation; a user edit that exceeds time or the ceiling; and a continuously reachable endpoint that has no legal integer allocation. Numerical root-finding, discrete scheduling, rounding/tolerance and edited-plan reporting remain implementation proposals to verify, not new coach answers.
+**Full planner implementation gate remains closed.** `rules_as_constraints.json > policy_amendment.implementation_ready` remains false. Integration must still supply an actual-credit endpoint oracle, certify every inherited covering-cost envelope, replace all active legacy rate-based truncations/fallbacks, and resolve or honestly limit T3 peak-optimizer claims. A positive minimum climb cannot override saturation or a valid endpoint; compatibility is checked before using a proposed `mc`. Neither the focused tests nor the mathematical construction authorize a full workflow launch or default-engine promotion. The one-set/rate-limited scheduler is historical only; its failure is not global infeasibility.
+
+**Boundary coverage and limits:** focused tests exercise short blocks, large endpoint jumps, zero headroom, invalid imported state, repeated-block saturation, conflicting edits, and independent tiny integer/time feasibility cases. Numerical controls, rounding and the exact progression-card policy remain explicit engineering choices, not new coach answers. Complete grammar, athletic/population/effort validation, whole-plan endpoint search and cost-envelope construction still require the full integration checks below.
 
 Before the current policy amendment, changes from the winning design were built on a copy of its prototype and run before being written
 down. Those runs are in `design/spec_checks/` and are summarized in Appendix A. A number marked *measured* comes from a saved
@@ -31,19 +33,18 @@ output there or from a design or judge file named beside it. A number marked *ta
 
 ## 0. Summary
 
-**What is built.** A two-stage planner. Stage 1 decides the numbers; stage 2 writes the sessions; a certificate links them, so
-stage 2 can never fail, cut or change what stage 1 decided.
+**What is specified.** A two-stage planner: stage 1 decides the numbers; stage 2 writes the sessions. The isolated progression references are built and tested, but the complete planner is not. A valid fixed-structure certificate supports conditional monotone linking (PROGRESSION_MATH P5); every other rule still needs independent full-week validation.
 
 | Stage | Decides | Method | Guarantee |
 |---|---|---|---|
 | S0 grammar | which exercises of which group may sit on which day, in what order, with which pair partner; the fixed blocks; the kept-movement stations; the room items; the proved weeks | compiled from the coach's templates by a short catalogue of edit rules (data) | the planner never invents a day and never reorders one |
 | SA athletic | athletic stations, sets and weekly doses; their minutes per day and week | a protected minimum per profile class, then room items in keep order; doses scaled once per key | athletic minutes are inside the day before any set is placed; no dose ever drops |
 | S1 block table | who is trained directly; which room items stay; which movements are kept; the smallest overrun; how high each group climbs; week 1; the structure | lexicographic tiers; every question goes to an exact three-valued oracle on a small whole-number model | a group is left out only when no legal plan trains it with every higher-priority group; "not proven" is never read as "does not fit" |
-| S1 stairway | the week each added set lands in | dynamic program on the totals really placed, then a transportation flow | step limits hold on the placed weeks; fewest flat weeks the sets allow |
-| S2 placement | sets per exercise per day per week; supersets needed; what climbs each week | one add sequence per group, week w is a prefix; the coach's staircase inside a day | no exercise ever loses a set; every week passes every hard rule without being searched |
+| S1 stairway | the week each added set lands in | monotone aggregate group-prefix interpolation through certified nested endpoints; isolated reference tested | exact endpoints and nondecreasing physical sets; no rate-derived truncation; no general flat-week/tier optimum claimed |
+| S2 placement | sets per exercise per day per week; supersets needed; what climbs each week | one add sequence per group, week w is a prefix; the coach's staircase inside a day | conditional monotone/time/credit preservation under PROGRESSION_MATH P5; remaining hard rows rechecked |
 | S3 dose and certify | reps, effort, rest inside the solved sets; every rule re-evaluated on every week | one time function shared with the dose; the rule catalogue | printed minutes equal planned minutes; nothing changes after S2 |
 
-**What the spec changes in the winning design** (each traced to its judge in Appendix B):
+**Historical panel changes in the winning design** (each traced to its judge in Appendix B; these measurements do not validate the amended scheduler):
 
 | Change | Why | Evidence |
 |---|---|---|
@@ -58,7 +59,7 @@ stage 2 can never fail, cut or change what stage 1 decided.
 | One node cap per plan; a generic propagator separate from the training model; every pruning row named, switchable and tested on its own | judge 3's conditions | specified; gate in 13.3 |
 | "One more day is never worse" by construction; a minimum session length per template; a plan when no group fits; conflicts in rule ids on demand; the certified grid; shadow mode | grafts from both other designs | specified |
 
-**The state of the evidence.**
+**The state of the historical panel evidence.** Current isolated CX verification is reported in the controlling amendment above.
 
 - Legality held in every run of every prototype, including the ones made for this spec: no trained group under its floor,
   no exercise losing a set, no day over the limit it was given.
@@ -98,7 +99,7 @@ synchronous `generate()`, byte-identical output.
 | Word | Meaning |
 |---|---|
 | group | one of the coach's FOCUS groups: quads, hips (glutes + hamstrings), back, chest, shoulders, biceps, triceps, calves |
-| trained directly | the group has its own exercises, holds its floor every week and climbs (state FULL) |
+| trained directly | the group has its own exercises and holds its applicable floor; progression follows CX-01..03, including same-set and at-cap rep/load progression (state FULL) |
 | kept movement, pattern station | one exercise at 2 sets, constant over the block, for a big mover that is not trained directly. It credits its muscles and is never counted as trained (state PATTERN). Three kinds: **lead** (the day's own work lift), **partner** (the upper lift paired with an active lower work lift), **keep** (any other template station of the coach's pattern list) |
 | class lift | the heavy lift of a class day (3 sets, the class's own progression): a fixed item that credits its group |
 | group-day | one group on one day: its candidate exercises in session order |
@@ -425,7 +426,7 @@ trained groups and equals what is placed (DR-21). New field: `volume.planner = P
   },
   "epochs": {"mode": "dominance", "max_middle": 2},      // dominance | reserved
   "stairway": {"tiers": ["last", "flat", "hold", "late", "shape", "land"], "final_set_late": true,
-               "total_rule_pct": 7, "fallback_pct": 10}, // HISTORICAL rate-limited path; CX-01 acceleration contract pending
+               "total_rule_pct": 7, "fallback_pct": 10}, // HISTORICAL ONLY: not active bounds; see 7.7 and PROGRESSION_MATH
   "laterality": {"mode": "prepass"},
   "oracle": {"implied": {"peak_floor": true, "optimistic_time": true, "day_subset": true, "twin_lex": true}, "tied_first": true},
   "budget": {"plan_nodes": 25000, "question_first": 500, "question_growth": 8, "keep_share": 0.6,
@@ -488,8 +489,7 @@ candidates; the planner applies the R-rules only through the tiers named.
 Time is in whole seconds; every value of `rules.time_model` times 60 must be a whole number (asserted by S0). The time
 quantum `q_t` of an instance is the greatest common divisor of its per-set seconds, changeovers, fixed seconds and limits
 (3 s with today's model). Credit is in quarter sets (1 set = 4 q); a set credits a group with 0, 1, 2 or 4 q (DEF-02 ... 05).
-Sets are whole. No comparison uses a tolerance; ratios are compared by cross-multiplication. `G10k(N)` is the planned growth
-of an N-week stairway times 10,000, read from `rules.stairway.by_N[N].growth` (15,535 for 12 weeks, 13,282 for 8).
+Sets and credited comparisons are exact integers; ratios are compared by cross-multiplication. The isolated continuous curve uses explicit bounded numerical tolerances (PROGRESSION_MATH 3.1), then exact integer quantization. `G10k(N)` is the historical reference growth of an N-week stairway times 10,000, read from `rules.stairway.by_N[N].growth` (15,535 for 12 weeks, 13,282 for 8); it is not an endpoint ceiling after CX-01.
 
 | Symbol | Meaning |
 |---|---|
@@ -503,7 +503,7 @@ of an N-week stairway times 10,000, read from `rules.stairway.by_N[N].growth` (1
 | r in 0..R | the room prefix: room items 1..r are on, r+1..R are off |
 | Fix_d(w; r, z) | fixed seconds of day d in week w: protected blocks + room items 1..r + test seconds (a strength test only when its group is trained, 5.5 R-TEST) |
 | L_d, Delta_d, delta_d | day limit in seconds (60 x chosen minutes x `fit.trained_factor`); the band of the day in this branch; the overrun allowed, 0 <= delta_d <= Delta_d |
-| S_g, C_g, F_g, mc_g | level start, ceiling, floor and minimum climb of a group in credited sets (DER-01 ... 09; T2-FLR-01/02; T3-STW-02): F = 10; calves F = 3 x leg days; a pain-reduced group F = its reduced start; mc = 2, calves and pain groups 1, every group 1 when N <= 7 |
+| S_g, C_g, F_g, mc_g | level start, ceiling, floor and proposed compatible minimum climb (DER-01 ... 09; T2-FLR-01/02; T3-STW-02): F = 10; calves F = 3 x leg days; a pain-reduced group F = its reduced start. Historical mc defaults: 2, calves/pain 1, every group 1 when N <= 7; mc=0 at S=C, and no positive mc may override a compatible endpoint or another hard bound. Its physical/credited conversion uses actual credits. |
 
 Derived tallies, all linear in the sets (the one unit of account, DR-7):
 
@@ -554,7 +554,8 @@ epochs(instance):                                     # rules.planner.epochs.mod
   for w = N-1 down to 2:   if some v in E, v > w, dominates w:  cover(w) <- the smallest such v     else: E <- E + {w}; cover(w) <- w
   week 1 is always its own epoch (it carries the floors)
   if E holds more than max_middle weeks between 1 and N: keep the latest max_middle; every dropped week x is covered by the
-     next kept epoch v, whose costs become the component-wise maximum of cost(v) and cost(x)          # sound, conservative
+     next kept epoch v, whose envelope includes every week previously covered by x as well as its own coverage
+  assert for EVERY week w: cover(w) >= w and envelope(cover(w)) >= actualCost(w) componentwise
 mode 'reserved' (the winning design's two vectors): E = {1, N}; cost(N) <- component-wise maximum over weeks 2..N
 ```
 
@@ -562,8 +563,7 @@ Examples. Athletes (strength rests and more Olympic sets late): E = {1, N}. A ph
 costliest (50 % single-leg work in block 1, 90 % two-leg in block 3): E = {1, 4, N}. Tests inside the limit with a room
 item larger than the test: E = {1, N-1, N}.
 
-Each proved week has its own set vector n^j. Vectors are nested, n^0 <= n^1 <= ... <= n^m, and a group adds at most
-`w_j - w_{j-1}` sets between two of them (one set a week).
+Each proved week has its own set vector n^j. Vectors are nested, n^0 <= n^1 <= ... <= n^m, component by component. There is no mandatory one-set-per-group-per-week reachability bound after CX-01. The isolated interpolation/group-prefix reference proves construction inside these nested intervals; the full planner must still certify the endpoints and envelopes above. Costs of a dropped epoch mean its complete inherited envelope, not only its raw calendar-week costs (PROGRESSION_MATH 4.3).
 
 ### 5.4 Decision variables
 
@@ -597,18 +597,18 @@ validator and the scorer re-check it on every week whatever that column says.
 | R-STAIRCASE | T7-PLC-01 | sets of a group-day are St(gamma, K, n) in every week | definition |
 | R-MONO | T3-STW-01, T0-SES-14, T3-STW-08 | no exercise ever loses a set inside the block; the active exercises are constant; the climb does not restart at an exercise block | S2 prefixes |
 | R-FLOOR | T2-FLR-01, -04, T1-POL-01 | trained g: Q_g(w) >= 4 F_g in every week | oracle on week 1; L3 |
-| R-CLIMB | T3-STW-02, T1-POL-01, T1-POL-12, CX-02/03 | nonsaturated accumulation: the proposed minimum climb applies only where compatible with the endpoint; saturated S=C: mc=0 and load/rep progression; occasional same-set weeks allowed | amended row requires verification |
-| R-REACH | T0-STW-02, CX-01 | HISTORICAL restricted-path bound: OwnAll_g(w_j) - OwnAll_g(w_{j-1}) <= w_j - w_{j-1}. It must not reject an endpoint requiring acceleration; generalized reachability is pending | restricted path only |
+| R-CLIMB | T3-STW-02, T1-POL-01, T1-POL-12, CX-02/03 | nonsaturated accumulation: the proposed minimum climb applies only where compatible with the endpoint; saturated S=C: mc=0 and load/rep progression; occasional same-set weeks allowed | isolated saturation/prescription checks tested; endpoint integration pending |
+| R-REACH | T0-STW-02, CX-01 | selected epoch vectors must be componentwise nested within finite slot bounds; arbitrary nonnegative integer additions may be distributed by a monotone group prefix. The former difference <= elapsedWeeks bound is retired | isolated construction proved/tested; endpoint certificate required |
 | R-TIME | T1-POL-02, T4-TIME-01, DEF-09 | Sec_d(w) <= L_d + delta_d in every week, with the pairs that are on (5.6) | oracle on every proved week; L3 |
 | R-TIME.CORE | T1-POL-02, T1-POL-05 | asked in G1 and G2 only: the day without its pattern stations fits L_d in every proved week (5.6) | oracle |
 | R-TEST | T0-TST-01 | test seconds are part of Fix_d(1) and Fix_d(N): a timed test takes the place of the station of its quality, the day's room items are skipped that week, a strength test adds its work-up only when its group is trained on that lift (`fit.test_days = inside`) | Fix tables; a column on z_g |
 | R-CEIL | T5-CAP-01, -02, -06 | OwnAll_g <= C_g; Qall_g <= 4 C_g + 4 (helper spill of at most one set) | oracle on week N |
 | R-ABS30 | T5-CAP-03 | Qall_g <= 120 q | oracle on week N |
-| R-LAMBDA | T3-STW-05, -06, DEF-10, CX-01 | continuous endpoint P>=S: solve S*product(1+lambda*s_w)=P with lambda>=0, including lambda>1 when needed; P=S uses lambda=0. This is an endpoint-shape calculation, not proof of discrete/time feasibility. No former growth-factor bound may alone lower P | replacement procedure PROPOSED; verification pending |
+| R-LAMBDA | T3-STW-05, -06, DEF-10, CX-01 | continuous endpoint P>=S: solve S*product(1+lambda*s_w)=P with lambda>=0, including lambda>1 when needed; P=S uses lambda=0. This is an endpoint-shape calculation, not proof of discrete/time feasibility. No former growth-factor bound may alone lower P | bounded log-space reference tested; PROGRESSION_MATH 3.1 |
 | R-TOP | T3-STW-06, T2-FLR-06, DER-01, CX-01/03 | applicable policy ceiling still holds; the former S*G10k rate-based peak truncation is superseded when acceleration is needed. Define a jointly feasible endpoint without relabeling proposed targets as approved | replacement allocation contract pending |
 | R-SESSION | T5-CAP-05 | credited sets of g on one day <= 14 (hard, every group). The usual 11 is tier G5s | oracle on week N |
-| R-STEP.G | T0-STW-02, CX-01/02 | 0-or-1 own-set additions describe the old restricted path, not an absolute bound after CX-01. Same-set weeks are allowed; more than one addition may be needed for the endpoint. Revised integer bounds must be verified | accelerated scheduler pending |
-| R-STEP.T | T0-STW-03, LK08, CX-01 | historical 7% / below-10% rules cannot force a lower endpoint when acceleration is needed. Report the planned rates and the exception; no replacement numerical maximum was approved | revised scheduling contract pending |
+| R-STEP.G | T0-STW-02, CX-01/02 | integer own-set additions are nonnegative, may exceed one, and stay within certified nested endpoints. Same-set weeks use actual rep/load prescriptions where required | isolated nested/group-prefix references proved/tested |
+| R-STEP.T | T0-STW-03, LK08, CX-01 | historical 7% / below-10% rules cannot force a lower endpoint when acceleration is needed. Report actual integer rates and acceleration; zero-to-positive percentage is undefined. No replacement numerical maximum was approved | actual delta/rate metadata tested; full-plan reporting pending |
 | R-LAST | T3-STW-04 | the last week is the largest; with 12 weeks the last four are the four largest | R-MONO |
 | R-ATHLETE12 | T0-SES-13, T6-CNT-07 | field athletes: counted exercises of a day <= 12, athletic stations of the room prefix included (core and warm-up outside) | oracle row |
 | R-EXBUDGET | T6-CNT-01 (PROPOSED as hard) | counted resistance exercises of a full-body day <= `exercise_cap_by_minutes` + `fit.exercise_margin` (split days: soft metric) | oracle row |
@@ -663,12 +663,12 @@ A lower tier never changes a higher tier's result. Each tier is frozen as a pin 
 | G3b overrun | T4-TIME-01 | the smallest largest overrun, then each day's overrun in week order | bisection on exact questions |
 | G4a room B | T1-POL-13, T5-ATH-02 | the largest prefix of the `after_patterns` items (competitive athletes: athletic work before the peaks) | exact questions |
 | G5s sessions | T5-CAP-05 | the usual 11 sets a session, group by group in keep order | exact questions |
-| G5 peaks | T5-CAP-04, T8-BAL-04 | lexicographic max-min of relative progress (peak - start) / (ceiling - start); ties in keep order; every raise must leave a stairway | exact water-filling |
+| G5 peaks | T5-CAP-04, T8-BAL-04 | proposed fairness objective uses actual endpoint credits and excludes S=C from set-growth scoring; exact comparator/priority semantics must be explicit | old water-filling not proved globally exact; actual-credit oracle and optimizer unresolved (PROGRESSION_MATH 6) |
 | G6 week 1 | T3-STW-08, T2-FLR-06 | week 1 = peak - (C - S), never under the floor, never above the level start; nearest legal value, lower first | pinned questions |
 | G7 structure | T7-WEEK-01, T6-CNT-03, T7-PLC-02, -04 | most exposure days; fewest exercises; fewest optional-day sets; the most even split, the earlier day taking the odd set, twins tied, the home day first | pinned questions |
 | G7b middle epochs | T3-STW-05 | the totals of every middle proved week nearest the planned curve | evaluation, no search |
 | G4b room C | T5-ATH-02 | the largest prefix of the `after_peaks` items that changes no set | evaluation, no search |
-| G8 stairway | T3-STW-03 ... 07 | last, flat, hold, late, shape, land (7.7) | dynamic program + flow |
+| G8 stairway | T3-STW-03 ... 07, CX-01..03 | reach certified endpoints with monotone group prefixes; exact shape/rounding remains explicit implementation policy (7.7) | isolated reference proved/tested; no global flat-week/tier optimum claimed |
 | G9 supersets | T7-PAIR-03, T1-POL-11 | fewest pairs switched on while every week holds | exact, per day |
 | G10 | T8-* | variety, balance, preference | selection, inside fixed time and credit classes |
 
@@ -719,7 +719,9 @@ Three places where this order differs from the inventory's filing, each on purpo
 
 ## 6. Guarantees: what is proved, and under which hypotheses
 
-**Historical proof scope after CX-01..03:** the arguments below describe the original fixed, one-set-per-group-per-week, rate-limited design. They remain useful reference lemmas under those hypotheses, but are not proof of the amended policy. In particular, L5/L6 and T1/T3 need review for accelerated schedules and zero-headroom groups. This section does not waive the implementation gate above.
+**Current proof scope:** [PROGRESSION_MATH.md](PROGRESSION_MATH.md) is controlling for amended progression. P1-P3 construct exact monotone integer schedules, including multiple additions per group/week; P4 proves fixed-pair time monotonicity; P5 conditionally preserves monotone floor/upper/time rows across certified covering epochs; P6 proves bounded iterative saturation. The isolated references passed the focused independent suites named above. L5/L6 are no longer needed, the original T1 "every row" claim is replaced by P5's limited guarantee, and general T3 peak optimality is not established. Full planner readiness remains false.
+
+**Historical arguments below:** the following H1-H5 and L1-T5 text records the original panel design and its measurements. It is not the current accelerated scheduler contract. Where a useful lemma remains, its explicit current hypotheses are in PROGRESSION_MATH; the old one-set/rate-cap conclusions and broad T1/T3 claims must not be treated as active guarantees.
 
 The hypotheses are written out because every false guarantee found so far in this project came from one nobody wrote down.
 S0 asserts H1, H2, H3 and H5 on every instance; the scheduler's certificate asserts H4.
@@ -779,16 +781,8 @@ variable, and "every eligible pair supersetted" is the definition of a day that 
 later groups to "off"; that lost plans and is removed. *Measured:* equal to exhaustive enumeration in 1,200 of 1,200
 instances after the change, different in 72 before it, on a generator with hosted stations and partial own credit.)
 
-**T3 (the peaks are the lexicographic max-min optimum).** Give every (group, own peak v) the key
-rho_g(v) = (a_g v + h_g - 4 S_g) / (4 C_g - 4 S_g), **only for C_g>S_g**; saturated groups are excluded from this set-growth objective under CX-03 and use load/rep progression. The generalized objective remains to be checked. Here a_g is the group's average own credit per set and h_g its helper
-allowance, both constants of the instance; ties go to the earlier group in keep order. The ladder always tries to raise the
-group with the smallest key by one set, asking "is there a legal plan with peaks at least the current vector plus this
-set?", and freezes the group on "no". If every answer is exact, the final vector is the unique optimum of the lexicographic
-max-min order of the keys over the legal plans that have a stairway. *Proof.* As in `design_two-stage.md` section 3 (T3):
-the questions test the down-closure of the legal peak vectors, and a group frozen at a value can only be passed by lowering
-a group with a smaller key. QED. One consequence to say plainly: a tie goes to the higher-priority group before anything
-else is compared, so the result is the priority-refined optimum, not the plain one. (*Measured* by judge 2: equal to
-exhaustive search in 431 of 431 plans.)
+**T3 (historical peak-optimality claim; not certified).** The old ladder used
+`rho_g(v) = (a_g*v + h_g - 4*S_g)/(4*C_g - 4*S_g)` and tried one increment for the smallest key, freezing on an exact "no". Its average own-credit rate and fixed helper allowance are not automatically exact for heterogeneous staircase additions or coupled donor changes. Exclude S=C from this score, reject S>C, and evaluate actual endpoint credits. Agreement with exhaustive search in 431 historical examples does not prove global optimality. PROGRESSION_MATH section 6 defines the distinction between an explicit finite leximin comparator and a transparent `best_found` heuristic. The full actual-credit endpoint oracle and optimizer remain unresolved; no unique general optimum is claimed here.
 
 **T4 (the monotonicity that is true).** If the legal plans at session length m are all legal at m' > m, the keep vector at
 m' is lexicographically at least the keep vector at m. The hypothesis holds here by construction: a longer session only
@@ -810,10 +804,9 @@ model; calibrating that model on the coach's own sessions is a separate task (DR
 
 ## 7. Algorithms
 
-Pseudo-code is normative for *what* is computed and in which order. How many questions a tier asks is an implementation
-matter, as long as the result is the optimum the tier names (the tests of section 12 compare results, not question counts).
+Pseudocode specifies intended computation only within its stated current proof/implementation scope. An optimum may be claimed only when the relevant objective and solver are established; unknown/best-found results remain explicit.
 
-**Amendment precedence:** the pseudocode below has not been re-proved for CX-01..04. Its rate restrictions, schedule-based freezes, fallback group removal and positive-climb assumptions are historical where they conflict with the current policy amendment. Do not implement those conflicts as fresh coach rules.
+**Amendment precedence:** section 7.7 now gives the tested isolated accelerated construction and its remaining integration contract. The endpoint-search portions of 7.1/7.5/7.6 are not yet an amended, proved actual-credit oracle. Their positive-climb, average-credit and fairness assumptions are conditional/proposed, not permission to override CX-01..04. A historical restricted schedule must never freeze a peak or remove a group merely because of its rate bounds.
 
 ### 7.1 S0: the grammar builder
 
@@ -824,6 +817,7 @@ buildGrammar(ctx):
               ceiling; the Focus add once); F = volume.floor.value; calves F = 3 x leg days, at most 4 sets a leg day;
               a pain-reduced group: F = its reduced start, mc = 1, C = S + 1; credit-only and no-station groups: fixed_state
               sorted in keep order pi (5.1)
+              reject unresolved S > C; mc <- 0 when S = C; other positive mc values remain conditional on endpoint compatibility
   days     <- limit_s and band_s by day kind and branch (5.6); ex_budget = exercise_cap_by_minutes[minutes] + exercise_margin
               on full-body days; athlete_cap for field athletes
   candidates: for every station of block strength / accessories that has a group:
@@ -980,6 +974,8 @@ grid (12.4) fails the build when any G1 question of any cell is unknown at the r
 
 ### 7.6 S1: the tiers (`plan/table.mjs`)
 
+**Endpoint allocator integration unresolved:** G5/G6 below retain the historical average-credit ladder as a design sketch, not an exact amended optimizer. Actual-credit evaluation and an explicitly defined objective must replace or justify those approximations. Any retained ladder is `best_found` unless exactness is independently established. Its `existsSchedule` checks mean current nested construction plus full certificate validation, never L6's historical rate-cap routine. G7b's current construction is specified below without one-set reach bounds.
+
 ```
 planTable(I):
   # G1 keep vector (R3-SES-02 step 2). Rows: 5.5 with BOTH day rows, session limit hard (14) for every group.
@@ -1020,8 +1016,8 @@ planTable(I):
       if v_g = C_g: freeze ('ceiling'); continue
       if a witness in hand already has peaks >= v + e_g and a stairway: v_g += 1; continue                # no search
       a <- ask(pins, peak_min = v + e_g)
-      'fits' and existsSchedule(witness ends, rule 7): v_g += 1
-      'fits' but no stairway:                          freeze ('schedule')
+      'fits' with certified nested witness ends:      v_g += 1
+      'fits' without a certified nested construction: mark unresolved construction; do not infer global infeasibility
       'no':   freeze ( ask(same, no_time) = 'no' ? 'growth' : 'time' )
       'unknown': freeze ('not_proven')
   pin the peaks (own sets, all days)
@@ -1040,9 +1036,9 @@ planTable(I):
 
   # G7b middle proved weeks (only when the instance has any), j = 1 .. m-1 in week order: evaluation, no search
       target_g <- round_half_up of the planned curve of g at week w_j, clamped to [lo_g, hi_g]
-                  lo_g = max(total at j-1, peak - (N - w_j));   hi_g = min(peak, total at j-1 + (w_j - w_{j-1}))
+                  lo_g = total at j-1; hi_g = peak; require group-day componentwise nesting, not only these total bounds
       loop: n^j <- add-sequence vectors for these totals (5.2 c)
-            if every day fits at the costs of w_j and existsSchedule(segment j): break
+            if every day fits at the complete envelope of w_j and the nested segment is certified: break
             lower by one the group with the largest (target_g - lo_g), ties to the lowest priority; if none can be lowered:
                   take the oracle's own witness for week j (legal by the certificate) and break
 
@@ -1058,8 +1054,7 @@ Notes.
   prototype lifted 11 to 14 only for the group being asked, so its keep vector is not the optimum of any one model
   (*measured*: with a limit drawn per group, 5 of 600 keep vectors differ from brute force at those limits,
   `spec_checks/fix/check_fixes.limits_drawn.out.txt`; with one limit for every group, 0 of 1,200).
-- **A raise must leave a stairway.** `existsSchedule` (L6) costs microseconds, so the ladder checks it at every raise and
-  the fallback of 7.7 is needed only for the base vector.
+- **A raise must retain a certificate.** The current nested/prefix construction reaches any nested integer endpoints inside its fixed domains. The full allocator must still produce valid endpoint and envelope certificates; failure of the retired L6 routine is not grounds to freeze or lower a peak.
 - **Zero kept groups is a plan** (judge 2, D3): the tiers G2-G3b still run; the result holds the protected blocks, class
   lifts, kept movements and offers, and the stairway is flat in sets (the progression card and the athletic doses climb).
 - **Cost centres** (*measured* on sample 06): the last "no" of each ladder and the week-1 pins of G6 take most of the
@@ -1067,40 +1062,31 @@ Notes.
 
 ### 7.7 The stairway scheduler (`plan/stairway.mjs`)
 
+**Current construction:** the isolated reference is `design/progression/stairway.mjs`, tested independently in `tests/progression/stairway.test.mjs`. Its proof and explicit numerical/rounding/budget contracts are in PROGRESSION_MATH sections 3-5. It is not yet integrated into `engine/plan/`.
+
 ```
-existsSchedule(groups {from, to}, weeks, base, rule):      # L6: every week take as many sets as the rule allows, most-left first
 scheduleStairway(I, certificate):
-  segments  <- consecutive proved weeks (w_{j-1}, w_j] with per-group needs u_g = OwnAll_g(w_j) - OwnAll_g(w_{j-1})
-  curve     <- PROPOSED endpoint shape under CX-01: base 3 % / 5 % weights, solve lambda >= 0 so T_g(N) = peak;
-               lambda may exceed 1; a fixed upper bracket of 1 is invalid. At S=peak, lambda=0 (CX-03).
-               Numerical procedure and accelerated integer scheduler still require verification; the DP below is the historical restricted path.
-               ideal(w) = sum over groups of T_g(w) - T_g(1)
-  DP over weeks 2..N, state = (sorted vector of sets left in the current segment, was last week flat):
-      for D in 0 .. min(cap(total placed so far), groups with sets left):          # R-STEP.T on the PLACED total
-          take one set from each of the D groups with the most left                 # L5
-          reject if a group has more sets left than weeks left in the segment; at the segment's last week everything is placed
-          cost += tier weights x [ last | flat | hold | late | shape | land ]
-      at a segment boundary the vector is re-set to the next segment's needs
-  tier terms (rules.planner.stairway.tiers, most important first; default last, flat, hold, late, shape, land):
-      last   week N adds no set although sets were added in the block
-      flat   a week with no added set while sets are still to come
-      hold   a flat week right after a flat week
-      late   a flat week in the last third, later weeks weighing more
-      shape  100 x |sets placed by week w - ideal(w)|, summed
-      land   groups that do not step in week N
-      weights are whole numbers, each larger than everything below it can sum to; asserted below 2^53
-  who steps when: a transportation flow with the DP's rises as column sums, one set per group per week; cost of unit j of
-      group g in week w = [final set of the group: BIG x (N - w)] + 1000 x |w - the week its curve reaches that set| + keep rank
-      (final_set_late: every group's last set as late as the rises allow, before the curve timing is looked at)
-  certifyTable: never down, one set a week per group, the total rule on every placed week, every proved week equal to the certificate
-when no schedule exists, in this order, each with a printed note (judge 2, issue 2):
-  1. rule 10 (strictly below 10 %, one set always)      2. undo the ladder's raises last in, first out, down to the minimum climbs
-  3. un-keep the lowest-priority kept group and run S1 again
+  require independently certified nested group-day endpoints and complete later cost-envelope coverage
+  curves <- solveEndpointCurve with explicit transition weights and bounded numerical controls
+            lambda >= 0, no upper training cap; equal endpoints hold; multiplicative zero-start failures are scoped
+  for each consecutive epoch segment:
+      progress_g <- explicit nondecreasing endpoint-pinned segment shape
+      table <- scheduleGroupPrefixes using the aggregate own-work-set additions for each group,
+               explicit rounding, optional-day flags, cyclic tie cursor, and finite addition budget
+      carry the final day cursor into the next segment; share the boundary vector exactly once
+  place the coach's exercise staircase inside each group-day; recheck all actual weekly credit/time/other rule rows
+  prescribe concrete rep/load progress on same-set weeks where required; unresolved means unresolved, not a label
+  report actual integer additions and relative rises; zero-to-positive rate is undefined
+  return only with exact endpoints and the complete integrated certificate
 ```
 
-**CX-01 supersession:** that fallback order applies only to the historical restricted model. A failed 7%/10% or one-set-per-group schedule is not grounds to lower the endpoint or un-keep a group under the new policy. Try a verified accelerated formulation; until one exists, report the planning result as unresolved, not proven infeasible. Genuine time, equipment, ceiling or integer-allocation conflicts still use the authorized feasibility policy.
+The reference also exposes `scheduleNestedSets` for low-level coordinatewise interpolation and `scheduleEpochs` for joining matching nested boundaries. Neither helper implements full exercise placement or a cost-envelope builder. Independent day rounding is not interchangeable with aggregate group rounding followed by alternating prefix placement.
 
-*Measured* (`spec_checks/stairway_v2.out.txt`, 3,891 schedulable random tables of 1-8 groups and 6-16 weeks): with the
+**Failure semantics:** invalid inputs are rejected; a numerical/resource limit is `unresolved`; a non-nested endpoint is unsupported by this construction. None proves global infeasibility. The former fallback (7% to 10%, undo raises, remove groups) is retired for CX progression. Genuine time, ceiling, equipment or structure conflicts require actual constraint evidence and the authorized alternatives. A continuously reachable curve is not a certificate for an integer exercise allocation.
+
+**Objective scope:** this construction proves exact endpoints and monotonic containment, not optimality for the historical `last, flat, hold, late, shape, land` tiers or a minimum number of flat weeks. Rounding and shape remain explicit implementation policies. Flat-set weeks are compatible with CX-02/03 when their rep/load prescriptions are real.
+
+*Historical measured evidence only* (`spec_checks/stairway_v2.out.txt`, 3,891 schedulable random tables of 1-8 groups and 6-16 weeks): with the
 default order the flat weeks equal the arithmetic minimum (weeks - 1 - sets added, at least 0) in every table; the
 winning design's order reached it in 3,356. Putting `land` above `shape` (judge 2's exact order) squeezes week N-1 to make
 room for a jump in week N in 1,035 tables against 50, so `shape` goes first. The coach's own line 15 -> 22 comes out as
@@ -1117,17 +1103,14 @@ placeBlock(I, certificate, table):
   supersets, per day: the smallest set of the day's eligible pairs such that every week fits L_d + delta_d
        (at most 5 pairs: all subsets by size, then by larger total saving, then session order); those are 'needed';
        every other eligible pair is 'recommended' with the minutes it saves
-  progression facts, per week w >= 2 and trained group g (the card of section 8; T3-STW-09):
-       'sets'    the group gained a set this week (with the exercise that took it)
-       'effort'  else, the planned effort steps this week (3 RIR -> 2 -> 1-2 -> 1 + intensifiers)
-       'reps'    else, on the 1st, 3rd, ... such week since its last 'sets' or 'load': the first exercise moves up its rep bracket
-       'load'    else: a little more weight, back to the low end of the bracket
+  progression prescription, per week w >= 2 and trained group g (the card of section 8; T3-STW-09):
+       'sets'    record actual additions, with the exercises receiving them
+       flat     issue a concrete permitted rep increase or conditional next-load-step prescription
+                if neither is available, return unresolved progression; never invent a change
+       effort   keep the approved RIR envelope and nonincreasing RIR; effort text is not a substitute for required rep/load progress
 ```
 
-**CX-02/03:** same-set weeks with rep/load progression are approved; saturated groups hold sets. A display-level change alone is not progression. The precise automatic progression-card procedure above remains PROPOSED, including its feasibility under the prescribed reps and loads. The earlier reading was: the display level of week w rises every week by construction, Q_g never drops, and
-every trained group has exactly one progression fact in every week from week 2 on: "started
-at 2 and ended at 11, I mean the amount of volume that they're putting themselves at as far as level, not the amount of
-sets" (R2-PER-05). In whole sets the flat weeks are at their arithmetic minimum (7.7).
+**CX-02/03:** same-set weeks with rep/load progression are approved; saturated groups hold sets. The isolated `planProgression` reference and prescription validator have focused tests, but final plan/2 and rendering integration remain unbuilt. Its exact rep/load policy is explicit engineering, not a new coach rule; a load step is ordinal unless calibrated load units are supplied. Recost any changed rep/rest prescription. No arithmetic-minimum-flat or display-level-only progress guarantee is active. The original quoted R2-PER-05 intent is preserved in its authority file, subject to the newer CX answers.
 
 ### 7.9 S3: certify (`plan/certify.mjs`)
 
@@ -1488,8 +1471,8 @@ the planner and nothing else.
 | P3 | every "fits" witness passes the evaluators | `certifyEndpoints` | same run: 0 rejected |
 | P4 | every implied row is implied: each brute-force-feasible point satisfies it; verdicts equal with the row on and off | brute force, one test per row | specified (the prototype's test caught one invalid bound; judge 2 found a second) |
 | P5 | the keep vector equals the exhaustive lexicographic maximum | enumeration of all 2^n group subsets on small instances | *measured*: 1,200 of 1,200 |
-| P6 | the ladder is the priority-refined max-min optimum | exhaustive peak vectors on small instances | *measured* by judge 2: 431 of 431 |
-| P7 | the scheduler is optimal for its tier order and certified; `existsSchedule` equals the dynamic program | brute force over every table on small plans; certificate on real sizes | *measured*: 3,000 small plans (prototype order); 8,000 existence verdicts, 0 differ; 3,891 certificates, 0 failures |
+| P6 | an explicitly defined actual-credit peak objective matches exhaustive evaluation on a bounded domain; outside proven coverage report best_found | finite exact comparator/oracle under PROGRESSION_MATH 6 | old ladder matched 431 historical cases; generalized exact optimizer unresolved |
+| P7 | accelerated schedule has exact nested endpoints, monotone integer bounds and aggregate group-prefix placement; failures retain scoped status | independent tiny monotone path enumeration and focused reference tests | current isolated suites pass; old DP/tier/existence numbers in Appendix A are historical only |
 | P8 | the link: every week of every plan passes every hard row, recomputed with that week's own costs and fixed seconds, with costs that change by exercise block and fixed seconds that go up and down | the certifier | *measured*: 2,478 + 1,628 plan-weeks, 0 violations (winning design, judge 2) |
 | P9 | no exercise ever loses a set; every week lies between its two proved weeks; the staircase holds; the table printed equals the table placed | direct check | same runs: 0 |
 | P10 | middle epochs: with a costliest first exercise block, the plan in `dominance` mode is legal and its peaks are never below `reserved` mode | both modes on the same instances | specified |
@@ -1500,7 +1483,7 @@ the planner and nothing else.
 | P15 | the room ladder: feasibility is monotone in r; a room item is off only if a higher tier needed it | exhaustive over r on small instances | specified |
 | P16 | the overrun is minimal: no day's delta can be lowered with the pins of G1-G3 | exhaustive over delta on small instances | specified |
 | P17 | no stage after the planner changes sets or minutes: `est_minutes` equals the re-cost of the dosed items by `plan/timecost` | every sample and bench plan | specified |
-| P18 | parameter robustness: floors 8-12, total rule 7 or 10 %, factors 1.0-1.15, ceilings to 30, margin 0-2: P2-P9 still pass | the same generators | specified |
+| P18 | parameter robustness: floors 8-12, explicit curve weights/rounding/numerical budgets, factors 1.0-1.15, ceilings to 30, margin 0-2; accelerated and zero-headroom cases retain the applicable properties | independent generators; no former percentage threshold becomes a hard target cap | isolated progression subset tested; full P2-P9 integration specified |
 | P19 | determinism: same bytes twice, and in V8 and JavaScriptCore | 8 samples + bench corpus | *measured* for the prototype (six plans) |
 | P20 | a custom rule that lies about its shape is rejected at registration | sampled points | specified |
 
@@ -1565,10 +1548,10 @@ look at before anyone proposes to soften VOL-07 or to make laterality a choice o
 | A3 | `below_floor_states` | entries of `trained_below_floor`, plus groups with 2 or more exercises on a day that are not in `trained_groups` | C1-C5 | 0: a group is trained or explicitly listed as not trained |
 | A4 | `unlisted_untrained` | groups neither in `trained_groups` nor in `not_trained_directly` with a reason | C1-C5 | 0 |
 | A5 | `one_exercise_groups` | (day, group) with exactly one exercise that is neither calves, nor a class lift, nor a station listed in `time_check.pattern_stations` with 2 constant sets and a group that is not trained | C1-C5 | 0 |
-| A6 | `trained_not_climbing`, `set_drops` | trained groups whose main-day own sets rise by less than the minimum climb over the block; any exercise or group with fewer sets than the week before | C1-C5 | 0 |
-| A7 | `flat_weeks_excess` | flat weeks of `total_resistance_sets` in the stairway block minus max(0, N - 1 - sets added in the block) | C1-C5 | 0 in every plan: **no flat week that whole sets could have avoided** |
-| A8 | `progression_missing` | trained group-weeks from week 2 on without exactly one entry in `weeks[].progression`; weeks whose display level does not rise | C1-C5 | 0: **0 flat weeks on trained groups in the coach's sense** (level, then sets, reps, effort or load) |
-| A9 | `weekly_rise_over`, `last_week_not_hardest` | a weekly total rising by more than max(1 set, 7 %) (10 % only with the printed note); a last week that is not the largest | C1-C5 | 0 |
+| A6 | `trained_not_climbing`, `set_drops` | failure to reach the certified endpoint or a compatible applicable minimum climb; any generated exercise/group set decrease. No positive climb applies at S=C | C1-C5 | 0 after CX-aware scoring |
+| A7 | `flat_weeks_excess` (historical metric) | former arithmetic-minimum-flat diagnostic only; occasional same-set and at-cap weeks are permitted under CX-02/03 | C1-C5 | report only; not a current release rejection |
+| A8 | `progression_missing` | a required progression entry lacks actual set additions or a concrete permitted rep/load prescription; display-level or effort-only labels cannot fabricate flat-set progression | C1-C5 | 0 after prescription/scorer integration; unresolved states explicit |
+| A9 | `progression_unreported`, `last_week_not_hardest` | actual integer rises/acceleration omitted or misreported; an applicable nondecreasing stairway ends below an earlier week. Former 7%/10% exceedance alone is not a violation; equal-at-cap weeks are allowed | C1-C5 | 0 after scorer reconciliation |
 | A10 | `days_over_unwarned` | days of any week, test weeks included, with `est_minutes` above the chosen minutes that are not listed in `time_check.overrun` with an offer that removes the overrun | C1-C5 | 0: **100 % of days within the minutes, or told with an offer** |
 | A11 | `days_over_band` | days with `est_minutes` above ceil(chosen minutes x 1.10), any week | C1-C5 | 0 |
 | A12 | `minutes_recost_gap` | days where `est_minutes` differs from the scorer's own DEF-09 re-cost of the dosed items | C1, C2 | 0 |
@@ -1579,7 +1562,7 @@ look at before anyone proposes to soften VOL-07 or to make laterality a choice o
 | A17 | `unexplained_decisions` | a group not trained without a reason; a lowered peak without `stopped_by`; an overrun without a cause; an athletic key under 85 % of its target that is not told | C1-C5 | 0 |
 | A18 | `athletic_drops`, `athletic_attainment` | a key whose weekly dose drops inside a block; planned dose under 0.9 x the scaled target in any week | C1, C2 | 0; 100 % of keys |
 | A19 | `best_found_share` | plans with any tier marked `best_found` | C4 | <= 5 % of cells; G1 never |
-| A20 | `early_peak_plans` | plans with a trained group (climb of 3 or more) whose last set arrives before week N-1 | C2, C5 | <= 5 % of plans (*measured* 2.3 % on random tables) |
+| A20 | `early_peak_plans` | diagnostic: a group's last set arrives before week N-1; subsequent ceiling-hold weeks need permitted rep/load progression | C2, C5 | report only under CX-02/03; the historical <=5% threshold is not a new coach-approved bound |
 | A21 | `laterality_error` | bilateral share reached against the target, per region and exercise block | C1, C2 | within 0.12 in >= 95 % of blocks; reported otherwise |
 | A22 | `determinism` | byte-identical plan JSON twice; V8 and JavaScriptCore | C1, C2 | identical |
 | A23 | `time` | 10.1 | C2, C4 | p99 <= 250 ms laptop; one phone measurement recorded |
@@ -1602,7 +1585,7 @@ reported per plan with the weeks, days and groups that break it, so a failing nu
 5. The ten `tests/review-*.test.mjs` files re-expressed as rule-id properties or retired, each with its line in `DECISIONS.md`.
 6. The coach-eye review of 13.4.
 7. The coach's answers to D1, D4 and D13 of section 14, or his explicit "use the defaults".
-8. Reconcile and independently verify the CX-01..04 amendment: generalized endpoint reachability and scheduling, affected bounds/proofs, saturated next-block behavior, and manual-set-edit reporting. Re-run independent reference, boundary and benchmark checks under the revised policy. The existing prototype results cannot satisfy this new gate.
+8. Integrate and independently certify the CX-01..04 behavior using the verified isolated progression references: actual-credit endpoint oracle, inherited cost envelopes, an explicit/proven or honestly limited peak objective, production prescription/edit handling, and reconciled scorers. Re-run whole-plan boundary and benchmark checks. The focused references establish their stated subset, not this complete gate.
 
 ### 13.4 Coach-eye review targets
 
@@ -1613,8 +1596,8 @@ graded A-D, issues as blocker / major / minor).
 |---|---|
 | grade of every sample | B+ or better |
 | blockers | 0 on every sample |
-| majors in the dosing area (floors, flat stairway, minutes, exercise count, over-cutting, athletic dose) | 0 on every sample |
-| the reviewed failures of the brief, each checked by name on each sample | none present: a flat main-day stairway that sets could have avoided; a trained group under 10; a day over the minutes that is not told; more exercises than the cap; a day that lost its pattern (R08-patterns, R01-press); athletic work that drops or is under its scaled budget untold |
+| majors in the dosing area (floors, endpoint misses/fabricated progression, minutes, exercise count, over-cutting, athletic dose) | 0 on every sample |
+| the reviewed failures of the brief, interpreted under current authority and checked by name on each sample | none present: a feasible endpoint missed solely due to retired rate limits; a same-set week with fabricated rather than permitted rep/load progression; a trained group under its applicable floor; a day over the minutes that is not told; more exercises than the cap; a day that lost its pattern (R08-patterns, R01-press); athletic work that drops or is under its scaled budget untold |
 | stability | the same grades or better on a second review round after any fix; no sample's `trained_groups` changes between two rounds unless a coach decision changed |
 
 ---
@@ -1658,7 +1641,7 @@ the minutes", told and offered; reading c is what he asked for in R3-SES-02 and 
 | D12 | Tests inside the day limit | inside: a timed test replaces its station, room items are skipped that day, a strength test only on a trained lift | outside with a printed warning (today: test days up to 128 %) |
 | D13 | The strength rest of athletes' heavy lifts in the last exercise block (O-17) | as the model (4.5 minutes) | *measured*: without it the swimmer trains quads directly as a third group at 3 x 60 |
 | D14 | The per-session 11 | 11 where the plan fits, up to 14 when a group needs it, printed | 11 hard: one-day groups (chest on the 2-day template, quads and hips in the class) can never be trained |
-| D15 | Lambda above 1 so small lines reach the intended endpoint (C-01) | **Policy resolved by CX-01:** increase faster when needed, including lambda>1; do not finish low solely because of the previous rate limit | exact accelerated integer scheduling remains to be specified and verified; applicable ceilings and other feasibility constraints remain |
+| D15 | Lambda above 1 so small lines reach the intended endpoint (C-01) | **Policy resolved by CX-01:** increase faster when needed, including lambda>1; do not finish low solely because of the previous rate limit | isolated curve/integer construction verified; full endpoint/cost integration remains required; applicable ceilings and other constraints stay |
 
 ---
 
@@ -1690,9 +1673,7 @@ the minutes", told and offered; reading c is what he asked for in R3-SES-02 and 
 
 - **Laterality as a choice of the oracle** (slot variants). Reopen if `staircase-price.mjs` shows the pre-pass costing a
   group on more than 2 % of grid cells.
-- **An exercise that enters at an exercise-block start** (T6-CNT-04). Version 1 keeps the structure constant over the block:
-  an exercise the peak needs is in from week 1 at 2 sets. A mid-block entry is a + 2 step in one week, which collides with
-  "one set a week per group"; it needs the coach's ruling first.
+- **An exercise that enters at an exercise-block start** (T6-CNT-04). The current proof keeps active structure constant over the block: an exercise the peak needs is present from week 1 at its minimum. CX-01 removes the old one-set objection, but changing active structure still requires a separate placement/time/credit proof and the applicable exercise policy; it is not covered by P5.
 - **Stairway optimal across segments** when there are middle epochs. Reopen if P10 shows avoidable flat weeks.
 - **QuickXplain** for the conflict explanation, and **conflict-directed backjumping**, if the gate needs them.
 
@@ -1711,9 +1692,9 @@ the minutes", told and offered; reading c is what he asked for in R3-SES-02 and 
 
 ---
 
-## Appendix A. Evidence produced for this spec
+## Appendix A. Historical Panel Evidence
 
-All in `design/spec_checks/` (plain JS, Node 22, no dependency; `README.md` there lists the commands).
+All in `design/spec_checks/` (plain JS, Node 22, no dependency; `README.md` there lists the commands). These runs concern the pre-CX panel prototypes, including the old rate-capped scheduler. Current isolated progression results are in [PROGRESSION_VERIFICATION.md](PROGRESSION_VERIFICATION.md).
 
 ### A.1 The two repairs (`fix/`)
 

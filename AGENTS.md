@@ -24,7 +24,7 @@ Versions checked on 2026-10-10 (always read the live value from the file named):
 | Generator spec | 1.2.0 | `generator_spec_v1.json > _meta.version` |
 | Schemas | `intake/2`, `plan/2`, `manifest/2`, `catalog/2`, `rules/2`, `templates/2`, `profiles/2` | `engine/CONTRACTS.md` §2, §3, §5 |
 
-**Status.** Work in progress, not a verified public release. Engine v0.4 at `04637ed` passed 1,035 tests in the independent audit. Historical coach-eye reviews still identify dosing issues; their C-to-D grades are not a fresh grade of that exact final commit. Passing tests does not prove appropriate programs for every intake. The new planner is not built, and its design must be reconciled with CX-01..04 before the build workflow proceeds. See [HANDOFF.md](HANDOFF.md).
+**Status.** Work in progress, not a verified public release. Engine v0.4 at `04637ed` passed 1,035 tests in the independent audit. Historical coach-eye reviews still identify dosing issues; their C-to-D grades are not a fresh grade of that exact final commit. Passing tests does not prove appropriate programs for every intake. The isolated CX progression reference is implemented and tested; see [PROGRESSION_VERIFICATION.md](design/PROGRESSION_VERIFICATION.md). It is not imported by the default engine. Full planner construction, actual-credit endpoint selection, covering-envelope certification and final edit-contract integration remain pending; keep the build workflow gated. See [HANDOFF.md](HANDOFF.md).
 
 ---
 
