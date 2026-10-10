@@ -2,7 +2,7 @@
 
 A complete, machine-readable model of how the Blaze Camp coach designs training programs, and a plan generator built on it. You enter basic information (goal, sport, experience, days, equipment) and get a 4–6, 8 or 12-week plan, a week-by-week plan or a year plan, written the way the coach programs.
 
-> **Status: private work in progress.** The plan is to open-source this once the coach has graded the sample plans and approved the model. It will be a free, fully explained training model that anyone can use in their own app or training, and that AI agents can read and build on.
+> **Status: work in progress, public for review.** The model and library are complete enough to read and research. The plan engine is being rebuilt, and the coach has not yet graded the sample plans, so treat everything as a draft. The goal is a free, fully explained training model that anyone can use in their own app or training, and that AI agents can read and build on.
 
 ## ⚠️ Use at your own risk / Uso bajo su propio riesgo
 
