@@ -54,8 +54,12 @@ describe('stage B2: athletic work (RECHECK_v0.3 + R3-ATH-01 .. 05)', { skip: !mo
     const p = plan('01');
     athleticClimbs(p, '01');
     const o = stairWeeks(p).map(w => w.athletic_budget.planned.olympic_sets);
-    assert.ok(o[o.length - 1] > o[0], `Olympic sets flat ${o.join(' ')}`);
-    for (let i = 1; i < o.length; i++) assert.ok(o[i] - o[i - 1] <= 1, `Olympic step > 1 set at week ${i + 1}`);
+    // (v0.5: the swimmer's three strength tests now sit on his three days - the A / B / C lifts of R4-SES-05 - so every day of the
+    // end-test week is a tested day and runs the baseline week's athletic dose, R2-PER-07; the climb is read up to the week before)
+    const N = o.length;
+    assert.ok(o[N - 2] > o[0] && o[N - 2] === Math.max(...o), `Olympic sets flat ${o.join(' ')}`);
+    for (let i = 1; i < N - 1; i++) assert.ok(o[i] >= o[i - 1] && o[i] - o[i - 1] <= 1, `Olympic step at week ${i + 1}: ${o.join(' ')}`);
+    assert.ok(o[N - 1] >= o[0], `the end-test week never under the baseline week ${o.join(' ')}`);
     assert.ok(check(p, 'V27').pass);
   });
   test('R01-per-side-contacts: a single-leg drill counts both legs (per_set = 2 x the per-leg contacts written)', () => {
@@ -255,7 +259,13 @@ describe('stage B2: athletic work (RECHECK_v0.3 + R3-ATH-01 .. 05)', { skip: !mo
       const a = w.athletic_budget;
       for (const k of Object.keys(a.goals || {})) assert.ok(a.goals[k] <= a.targets[k] + 1 || ['plyo_contacts', 'jump_contacts'].includes(k), `w${w.n} ${k} goal over target`);
     }
-    assert.ok(p.meta.warnings.some(x => x.key === 'warning.athletic_capacity'));
+    // (v0.5 fix round 1: a 3-day week asks for three quarters of the sport's 4-day athletic dose - rules.athletic.x1.scale_by_days,
+    // PROPOSED - so the stations now hold the week's targets; the notice is owed for a family whose block peak sits under the told share)
+    const SH = (R.athletic.reconcile || {}).warn_below_share ?? 0.6;
+    const peakW = stairWeeks(p).filter(w => !w.athletic_budget.hold).slice(-1)[0].athletic_budget;
+    const short = ['throws', 'cod_cuts', 'sprint_m'].filter(k => peakW.targets[k] > 0 && peakW.planned[k] < SH * peakW.targets[k]);
+    if (short.length) assert.ok(p.meta.warnings.some(x => x.key === 'warning.athletic_capacity'));
+    else assert.ok(!p.meta.warnings.some(x => x.key === 'warning.athletic_capacity'), 'a capacity notice with every family above the told share');
     assert.ok(check(p, 'V27').pass);
   });
   test('R03-upper-plyo-out: push-up plyos are upper-body contacts, outside the lower-body budget and the share', () => {
@@ -267,7 +277,14 @@ describe('stage B2: athletic work (RECHECK_v0.3 + R3-ATH-01 .. 05)', { skip: !mo
       assert.equal(athleticKeyOf('AP_PLYO', e), 'upper_contacts');
       seen++;
     }
-    assert.ok(seen > 0);
+    // v0.5 fix round 2 (converted; DECISIONS G 'Tests converted in fix round 2'): the swimmer's upper-body plyo slot is a leg jump now (sample 01
+    // minor: no push-up plyo on a swimmer's shoulder - rules.athletic.x2.upper_plyo_not_for_codes), so none of the three plans
+    // holds one; the mapping itself is held on the library records
+    assert.equal(seen, 0);
+    const uppers = model.bySlot('AP_PLYO').filter(e => e.athletic && e.athletic.upper);
+    assert.ok(uppers.length > 0);
+    for (const e of uppers) assert.equal(athleticKeyOf('AP_PLYO', e), 'upper_contacts');
+    assert.deepEqual(R.athletic.x2.upper_plyo_not_for_codes, ['SHOULDER_SWIMMER']);
   });
   test('R03-preseason-stage-held: the pre-season keeps the stage reached; no stick cue on a jump that is not a landing drill', () => {
     const p = plan('03');

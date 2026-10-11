@@ -6,7 +6,8 @@ import { circuitWorkSeconds } from '../../engine/shape.mjs';
 // generate / validate / render / tools can be exercised end to end before B2 / B3 land. Same exported names and shapes as
 // engine/CONTRACTS.md §4.3-§4.8. Never used by engine code.
 import { why, roundHalfUp, round2, WEEKDAYS, forbiddenKeys, weeksBetween, EPS, clamp } from '../../engine/util.mjs';
-import { plannedStairway } from '../../engine/validate.mjs';
+import { stairwayPlan as realStairwayPlan } from '../../engine/volume.mjs';
+import { sessionSize } from '../../engine/intake.mjs';
 
 const RES_KINDS = ['resistance', 'isolation', 'focus'];
 const ATHLETIC_KINDS = ['athletic', 'power'];
@@ -134,19 +135,20 @@ export function deriveValues(i, model) {
     D3_client_level: { level, reason_keys: [{ key: 'level.reason.exp_years', args: { years } }], exercise_ladder: ladder, replace_after_block: null },
     D4_season_phase: { phase: null, weeks_to_season: null, season_date: null, competition_date: null, season_type: D2.competitive === 'competitive' ? D2.season_type : null, practice_days: null, game_days: [] },
     D5_plan_shape: { mode, overlay: null, skeleton: (R.plan_types.skeleton_ids[i.goal] || R.plan_types.skeleton_ids.any)[mode] || R.plan_types.skeleton_ids.any[mode] || 'STUB', weeks },
-    D6_week_layout: { template_id: t.id, family, days: t.days, variant, pairing: model.templates.families[family].pairing.startsWith('same') ? 'same_pattern' : 'cross_pattern', format: i.format || 'gym' },
+    D6_week_layout: { template_id: t.id, family, days: t.days, variant, pairing: model.templates.families[family].pairing.startsWith('same') ? 'same_pattern' : 'cross_pattern', format: i.format || 'gym',
+      session_size: sessionSize({ age }, family, D2, { template: t, variant }, model) },
     D7_constraint_band: { client_family: fsel.use, main: cf.main, iso: cf.iso, machine_pen: cf.machine_pen, skill_pen: cf.skill_pen },
     D8_kit: { profile: i.equipment.profile, tokens: tokenList, machines, medball_max_lb: owned.length ? Math.min(R.medball.max_lb, Math.max(...owned)) : null, heaviest_db_pair: det.heaviest_db_pair ?? null, box_height_in: det.box_height_in ?? null, buy_list: [] },
     D9_start_sets: null,
     D10_bilateral_share: { profile_id: 'sport', lower: { by_exercise_block: (sd.share && sd.share.lower && sd.share.lower.by_exercise_block) || [0.5], PRE: null, IN: null }, upper: { by_exercise_block: [0.5] }, pain_shift: 0 },
     D11_athletic_budget: { enabled: family === 'athletic', older_mode: age >= R.population.older.from_age ? (i.prefs.older_athletic_opt_in ? 'opt_in' : 'default') : null, plyo_share: sd.plyo_share || null, ground_contact_class: sd.ground_contact_class ?? null, contacts_session_max: R.athletic.contacts_per_session_max[level], weekly: sd.athletic_weekly || {}, olympic_exposures_wk: sd.olympic ? sd.olympic.exposures_wk : null, medball_main: true, cod_sport: !!sd.cod_sport, game_heavy: false, heavy_play_week: false },
-    D12_planned_step: { early: R.stairway.standard_steps.early, late: R.stairway.standard_steps.late, caps: { nonpriority_while_priority: i.priority_muscles.length ? R.stairway.limits.nonpriority_while_priority : null, older: age >= R.population.older.from_age ? R.stairway.limits.older_60plus : null }, source: 'planned_stairway' },
+    D12_planned_step: { early: R.stairway.standard_steps.early, late: R.stairway.standard_steps.late, caps: { nonpriority_while_priority: null, older: null }, target_reached: true, note_above: R.stairway.progression.note_above, arrival_weeks_early_max: R.stairway.progression.arrival_weeks_early_max, source: 'planned_stairway' },
     D13_tests: { items: (i.plan.tests || []).filter(x => x !== 'none'), baseline_week: 1, end_weeks: [weeks], from_zero: true },
     D14_aerobic_sessions: { per_week: 0, base: 0, adjust: 0, replaced_by_activity: 0, walks: false, colours: [], fighter_open: false, sport_is_aerobic: false },
     goal: i.goal, format: i.format || 'gym', lang: i.lang, units: i.units, age,
     age_group: age < 18 ? 'youth' : age >= 60 ? 'older' : age >= 50 ? 'active_aging_50' : 'adult',
     body_weight_lb: i.body_weight.unit === 'kg' ? round2(i.body_weight.value * 2.20462) : i.body_weight.value,
-    days_per_week: days, weekdays: WEEKDAYS.filter(d => i.schedule.weekdays.includes(d)), session_minutes: i.schedule.session_minutes, start_date: i.schedule.start_date,
+    days_per_week: days, weekdays: WEEKDAYS.filter(d => i.schedule.weekdays.includes(d)), start_date: i.schedule.start_date,
     play_days: (i.activity && i.activity.play_days) || [], event_date: (i.activity && i.activity.event_date) || null,
     priority_muscles: i.priority_muscles.flatMap(p => R.volume.priority.intake_map[p] || []),
     pain: i.pain, exclusions: i.exclusions, lift_style: i.lift_style, output_mode: i.output_mode, prefs: i.prefs,
@@ -157,7 +159,6 @@ export function deriveValues(i, model) {
     why: [why('why.profile', 'COACH-CHAT 2026-10-08', { profile: D2.id }), why('why.template', 'VOL-08', { template: t.id })]
   };
   if (age >= R.population.older.from_age) derived.warnings.push({ code: 'older', key: R.population.older.warning_key });
-  if (family === 'athletic' && i.schedule.session_minutes <= 30) derived.warnings.push({ code: 'V3', key: 'warning.v3_short_athletes' });
   if (derived.health.bypass) derived.warnings.push({ code: 'bypass', key: 'warning.coach_bypass' });
   derived.D9_start_sets = computeTargets(derived, model);
   derived.modifier_id = derived.D9_start_sets.modifier_id;
@@ -222,7 +223,7 @@ export function buildShape(d, model) {
         ws.plyo_stage = rc ? rc[0] : 'RC1';
       }
       if (circuit) {
-        const rounds = Math.min(B.rounds_max_by_minutes[String(d.session_minutes)] ?? B.rounds_start, d.session_minutes <= 45 ? B.rounds_start : 99);
+        const rounds = (B.rounds_by_level && B.rounds_by_level[d.D3_client_level.level]) ?? B.rounds_start;
         if (B.by_planned_steps) {
           // v1.2 (D-19 revised): the planned steps on the work seconds, lambda-scaled to the top, 1-s steps (engine/shape.mjs)
           ws.circuit = { rounds, work_s: circuitWorkSeconds(W, stair.standard_steps, B)[n - 1] };
@@ -235,22 +236,10 @@ export function buildShape(d, model) {
     after_plan: { next: 'block_choice', weeks: null, date: null } };
 }
 
-/** planned T(w) per target muscle @returns {{lambda:Object<string,number>, steps:Object<string,number[]>, T:Object<string,number[]>}} */
+/** planned whole-set T(w) per target line: the real kernel (engine/progression through volume.stairwayPlan; v0.5) */
 export function stairwayPlan(targets, tb, d, model) {
-  const R = model.rules, out = { lambda: {}, steps: {}, T: {} };
-  if (tb.type !== 'stairway') return out;
-  const stair = model.stair(tb.stair_N), L = R.stairway.limits;
-  for (const m of Object.keys(targets.start)) {
-    if (typeof targets.start[m] !== 'number' || typeof targets.cap[m] !== 'number') continue;
-    const caps = [L.planned_step_max];
-    // v0.4 (R3-VOL-03): Focus muscles never slow the others; the 60+ planned-step cap is retired (stage A, R3)
-    if (targets.priority.length && !targets.priority.includes(m) && !(R.volume.focus && R.volume.focus.slow_others === false)) caps.push(L.nonpriority_while_priority);
-    if (d.age >= R.population.older.from_age && !L.older_cap_retired) caps.push(L.older_60plus);
-    const pain = targets.pain_muscles.includes(m);
-    const p = plannedStairway({ start: targets.start[m], cap: targets.cap[m] }, tb.stair_N, { early_late: stair.standard_steps, caps, freeze: pain ? R.volume.pain.freeze_weeks : 0, after_freeze: pain ? L.pain_after_freeze : null, iterations: R.stairway.lambda.iterations });
-    out.lambda[m] = p.lambda; out.steps[m] = p.steps; out.T[m] = p.T;
-  }
-  return out;
+  if (tb.type !== 'stairway') return { lambda: {}, steps: {}, T: {} };
+  return realStairwayPlan(targets, tb, d, model);
 }
 
 const slotsOf = (layout) => layout.days.flatMap(d => d.blocks.flatMap(b => b.slots.map(s => ({ s, d }))));
@@ -289,7 +278,7 @@ export function planWeeklySets(ctx) {
       if (s.text_key || ['warmup', 'aerobic', 'skill'].includes(bd.kind) || s.bucket === 'COND_WOD') continue;
       const f = sel.fills[s.slot_id];
       if (!f || !f.exercise_id) { sets[s.slot_id] = 0; continue; }
-      let n = s.sets_hint ? s.sets_hint[d.session_minutes >= 90 ? 1 : 0] : s.default_sets;
+      let n = s.sets_hint ? s.sets_hint[0] : s.default_sets;
       if (ws.circuit && s.circuit) n = ws.circuit.rounds;
       sets[s.slot_id] = n;
       if (RES_KINDS.includes(bd.kind)) total += n;
@@ -301,8 +290,8 @@ export function planWeeklySets(ctx) {
     for (const m of R.muscles.order) {
       if (!(m in d.D9_start_sets.fill) || d.D9_start_sets.fill[m] === 'core_block') continue;
       const st = d.D9_start_sets.start[m];
-      target[m] = typeof st !== 'number' ? null : (sp.T[m] ? round2(sp.T[m][ws.stair_week]) : st);
-      if (typeof st === 'number') step[m] = sp.steps[m] && ws.stair_week ? sp.steps[m][ws.stair_week] : 0;
+      target[m] = typeof st !== 'number' ? null : (sp.T[m] && ws.stair_week ? round2(sp.T[m][ws.stair_week - 1]) : st);
+      if (typeof st === 'number') step[m] = sp.steps[m] && ws.stair_week ? sp.steps[m][ws.stair_week - 1] : 0;
     }
     const est = {};
     for (const day of layout.days) est[day.weekday] = estimateMinutes(day, sets, sel.fills, model);
@@ -312,7 +301,7 @@ export function planWeeklySets(ctx) {
       changes: ws.is_exercise_block_start && ws.n > 1 ? [{ key: 'changes.new_exercise_block', args: {} }] : [], shortfalls: [], why: [] });
     prevTotal = total;
   }
-  return { weeks, athletic: athleticBudget(d, shape, model), warnings: [] };
+  return { weeks, athletic: athleticBudget(d, shape, model), warnings: [], block_targets: [] };
 }
 
 /** @returns {import('../../engine/util.mjs').AthleticBudget[]} */
@@ -352,7 +341,9 @@ export function buildWeekLayout(d, shape, tb, model) {
     const wd = d.weekdays[i];
     if (!wd) return;
     const dtId = week_layout[twd].day_type, dt = day_types[dtId];
-    const keep = dt.stations.filter(st => (st.include_from_minutes === null || st.include_from_minutes <= d.session_minutes) && !st.condition
+    const size = d.D6_week_layout.session_size;
+    const dayCount = typeof dt.count === 'number' ? dt.count : (size ? size.default : Infinity);
+    const keep = dt.stations.filter(st => (typeof st.rank !== 'number' || st.rank <= dayCount) && !st.condition
       && !(older && st.older_default_excluded) && !SKIP_BUCKETS.includes(st.bucket));
     // R2-SES-05: a muscle group never holds a single exercise; the stub drops a lone non-work station instead of adding one
     const count = {};
@@ -367,7 +358,7 @@ export function buildWeekLayout(d, shape, tb, model) {
       else blocks.push({ kind, movable: kind === 'core', circuit: null, slots });
     }
     days.push({ weekday: wd, day_type: dtId, kind: 'main', optional: false, label_key: dt.label_key, lower_focus: dt.lower_focus, full_body: !!dt.full_body,
-      format: dt.format || 'straight', minutes_limit: d.session_minutes, supersets_on: false, est_minutes: 0, groups: dt.groups || [], blocks, why: [why('why.template', 'VOL-08', { template: t.id })] });
+      format: dt.format || 'straight', supersets_on: false, est_minutes: 0, groups: dt.groups || [], blocks, why: [why('why.template', 'VOL-08', { template: t.id })] });
   });
   for (const wd of d.play_days || []) if (!days.some(x => x.weekday === wd)) days.push({ weekday: wd, day_type: null, kind: 'play', optional: false, label_key: 'ui.plan.play_day', lower_focus: null, full_body: false, format: 'straight', minutes_limit: 0, supersets_on: false, est_minutes: 0, groups: [], blocks: [], why: [] });
   days.sort((a, b) => WEEKDAYS.indexOf(a.weekday) - WEEKDAYS.indexOf(b.weekday));
@@ -377,7 +368,7 @@ export function buildWeekLayout(d, shape, tb, model) {
 
 function slotDef(st, wd, d, model, calfSeen) {
   const R = model.rules, bd = model.bucket(st.bucket), S = R.session.default_sets;
-  let def = bd.kind === 'core' ? S.core : ATHLETIC_KINDS.includes(bd.kind) ? (d.session_minutes >= 90 ? S.athletic_at_90 : S.athletic) : bd.kind === 'resistance' ? S.compound : S.isolation;
+  let def = bd.kind === 'core' ? S.core : ATHLETIC_KINDS.includes(bd.kind) ? S.athletic : bd.kind === 'resistance' ? S.compound : S.isolation;
   if (st.bucket === 'ISO_CALF') def = calfSeen.n++ === 0 ? S.calves_first : S.calves_second;
   return { slot_id: wd + '.' + st.id, station_id: st.id, bucket: st.bucket, role: st.role, block: st.block, group: st.group, sets_hint: st.sets_hint, default_sets: def,
     pair: st.pair, superset: st.superset, circuit: st.circuit, axial_req: st.axial, variant: st.variant, laterality_dial: !!st.laterality_dial, loading: st.loading,

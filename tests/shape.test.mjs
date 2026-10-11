@@ -48,7 +48,9 @@ for (const [mname, model] of MODELS) {
       assert.deepEqual(w.map(x => x.plyo_stage), ['RC2', 'RC2', 'RC2', 'RC2', 'RC2', 'RC2', pre, pre]);
       // v0.4 B3 (PER-11 athlete_vol_phases.by_season_phase; RECHECK 03 major 'VOL1 for 6 weeks in the late off-season'): the rep
       // phase follows the season phase - OFF_LATE starts at VOL2
-      assert.deepEqual(w.map(x => x.rep_phase), ['VOL2', 'VOL2', 'VOL2', 'VOL2', 'VOL2', 'VOL2', 'VOL3', 'VOL3']);
+      // (v0.5 fix round 1, PER-11 'heavier by block' / sample 03 major: a single-block late off-season steps to VOL3 after its halfway
+      // week - rules.reps.athlete_vol_phases.off_late_single_block_step, switched on)
+      assert.deepEqual(w.map(x => x.rep_phase), ['VOL2', 'VOL2', 'VOL2', 'VOL3', 'VOL3', 'VOL3', 'VOL3', 'VOL3']);
       assert.deepEqual(w.slice(6).map(x => x.season_phase), ['PRE', 'PRE']);
       assert.ok(w.slice(0, 6).every(x => x.season_phase.startsWith('OFF_')));
       assert.deepEqual(w.map(x => (x.test ? x.test.type : null)), ['baseline', null, null, null, null, 'end', null, null]);
@@ -96,16 +98,28 @@ for (const [mname, model] of MODELS) {
       assert.equal(again.weeks[0].test.from_zero, false, 'coming off a completed block');
     });
 
-    it('bootcamp circuit (D-19 v1.2, review 05 blocker 1): 3 rounds at 45 min, work seconds climb every week by the planned steps', () => {
+    it('bootcamp circuit (D-19 v1.2, review 05 blocker 1; PRG-03): rounds by level - never by minutes - and work seconds that climb every week', () => {
       const [sh] = shapeOf('05');
-      // 3 % steps early, 5 % after halfway, 1-s granularity: never a flat week, never more than the 7 % step; v0.4 fix round 1
-      // (RECHECK 05 major 'stopped at 46 s of its 50-s top') scaled the steps up to the top; fix round 2 / F1 (E-153, the coach's
-      // 05 'work-time steps'): the approved 3 % / 5 % steps from the configured start, ending at or under the top
-      assert.deepEqual(sh.weeks.map(x => x.circuit.work_s), [35, 36, 37, 38, 40, 42, 44, 46]);
-      for (let i = 1; i < sh.weeks.length; i++) { const a = sh.weeks[i - 1].circuit.work_s, z = sh.weeks[i].circuit.work_s; assert.ok(z > a && (z - a) / a <= 0.07 + 1e-9); }
-      assert.ok(sh.weeks.every(x => x.circuit.rounds === 3), 'rounds never rise inside a 45-min block');
+      // 3 % steps early, 5 % after halfway, 1-s granularity: never a flat week; fix round 2 / F1 (E-153, the coach's 05 'work-time
+      // steps'): the approved 3 % / 5 % steps from the configured start, ending at or under the top
+      // v0.5 fix round 2 (converted; DECISIONS G 'Tests converted in fix round 2'): PRG-03 '30-50 s' in the 5-s steps a coach sets a timer
+      // to (sample 05 major 'no coach sets a timer to 37 s') - 35 35 40 40 45 45 50 50 over 8 weeks, a number held two weeks at most
+      assert.deepEqual(sh.weeks.map(x => x.circuit.work_s), [35, 35, 40, 40, 45, 45, 50, 50]);
+      for (let i = 1; i < sh.weeks.length; i++) { const a = sh.weeks[i - 1].circuit.work_s, z = sh.weeks[i].circuit.work_s; assert.ok(z >= a); if (i > 1) assert.ok(z > sh.weeks[i - 2].circuit.work_s); }
+      // v0.5 (COACH-CT CT-01, R4-SES-01; converted from '3 rounds at 45 min'): the rounds come from the client's level (PRG-03 '3 to 5
+      // rounds': 3 / 4 / 5, rules.supersets.bootcamp.stairway.rounds_by_level, PROPOSED) and never rise inside a block
+      const RB = model.rules.supersets.bootcamp.stairway.rounds_by_level;
+      assert.deepEqual(RB, { L1: 3, L2: 4, L3: 5 });
+      // (v0.5 fix round 2 (converted; DECISIONS G 'Tests converted in fix round 2'): the rounds are the second lever - one more round in the
+      // last two weeks, inside his 3-5; rules.supersets.bootcamp.x2.rounds_late)
+      const RL = model.rules.supersets.bootcamp.x2.rounds_late;
+      assert.deepEqual([RL.add, RL.last_weeks], [1, 2]);
+      assert.deepEqual(sh.weeks.map(x => x.circuit.rounds), [4, 4, 4, 4, 4, 4, 5, 5], 'sample 05 is L2: 4 rounds, 5 in the last two weeks');
+      const [l1] = shapeOf('05', i => { i.experience.years_consistent = 0.2; });
+      assert.deepEqual(l1.weeks.map(x => x.circuit.rounds), [3, 3, 3, 3, 3, 3, 4, 4]);
+      // a retired session length changes nothing
       const [s60] = shapeOf('05', i => { i.schedule.session_minutes = 60; });
-      assert.ok(s60.weeks.every(x => x.circuit.rounds === model.rules.supersets.bootcamp.stairway.rounds_max_by_minutes['60']));
+      assert.deepEqual(s60.weeks.map(x => x.circuit), sh.weeks.map(x => x.circuit));
       const [gym] = shapeOf('06');
       assert.ok(gym.weeks.every(x => x.circuit === null));
     });

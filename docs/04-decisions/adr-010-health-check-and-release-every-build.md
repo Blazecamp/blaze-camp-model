@@ -4,9 +4,11 @@ Before a plan is built, a client answers a short health check. Some answers send
 
 | | |
 |---|---|
-| **Status** | Accepted. Wording: LEGAL REVIEW pending. Screen layout PROPOSED. |
+| **Status** | Accepted, refined in round 4: the tick is required before a plan is generated, and every plan prints a release line ([ADR-056](adr-056-liability-gate-before-every-plan.md)). Wording: LEGAL REVIEW pending. Screen layout PROPOSED. |
 | **Decided by** | Coach: R2-GEN-03 (round 2), R3-GEN-01 (round 3) |
 | **Replaces** | A plain safety screen proposed by the team with no coach route |
+
+> **Update, round 4 (R4-SCP-01, R4-SCP-02, 2026-10-11).** The acceptance is a gate: "they need to click it before the plan shows" (R4-SCP-02). No acceptance, no plan. Every plan also prints a short line that liability was released, in English and Spanish. He also said "Everyone should be able to use the plan on their own" (R4-SCP-01). Whether a flagged health-check answer should still stop a plan after that answer is open for him. See [ADR-056](adr-056-liability-gate-before-every-plan.md).
 
 ## Decision (the rule)
 

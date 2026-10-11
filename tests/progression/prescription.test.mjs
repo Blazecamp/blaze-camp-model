@@ -1,8 +1,10 @@
-// CX-01..04 reference math only: these checks do not certify production plans.
+// CX-01..04 kernel arithmetic (engine/progression/, engine 0.5.0): these checks do not certify production plans.
+// v0.5 (CT-01): session time is never a limit - `seconds` is an estimate. The tests that asserted `time_exceeded` / `limitSeconds`
+// were converted to assert the estimate and the absence of any time issue (engine/DECISIONS.md section G).
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { advanceBlocks, planProgression, evaluatePrescription, applySetEdits } from '../../design/progression/prescription.mjs';
-import { scheduleEpochs } from '../../design/progression/stairway.mjs';
+import { advanceBlocks, nextBlockStart, planProgression, progressionRule, evaluatePrescription, applySetEdits, PROGRESSION_CONDITION } from '../../engine/progression/prescription.mjs';
+import { scheduleEpochs } from '../../engine/progression/stairway.mjs';
 
 const freeze = value => {
   if (value && typeof value === 'object') {
@@ -18,7 +20,7 @@ const progression = changes => ({ sets: [3, 3, 3, 3, 3], repMin: 8, repMax: 10, 
 const item = (id, changes = {}) => ({ id, sets: 1, minSets: 0, maxSets: 10, reps: 8,
   minReps: 6, maxReps: 12, secondsPerRep: 2, restSeconds: 40, changeoverSeconds: 10,
   rir: 2, credits: { hips: 4 }, ...changes });
-const day = (items, changes = {}) => ({ id: 'monday', limitSeconds: 1000, fixedSeconds: 60, items, pairs: [], ...changes });
+const day = (items, changes = {}) => ({ id: 'monday', fixedSeconds: 60, items, pairs: [], ...changes });
 const plan = (weeks, groups = [{ id: 'hips', minCredits: 0, maxCredits: 100 }]) => ({ groups, weeks: weeks.map(days => ({ days })) });
 const codes = result => result.issues.map(issue => issue.code);
 
@@ -71,8 +73,12 @@ test('CX-02: same-set weeks progress reps then conditionally request a relative 
   assert.deepEqual(result.weeks.map(w => w.reps), [8, 9, 10, 8, 9]);
   assert.deepEqual(result.weeks.map(w => w.loadIndex), [0, 0, 0, 1, 1]);
   assert.deepEqual(result.weeks.map(w => w.action), ['start', 'reps', 'reps', 'load', 'reps']);
-  assert.equal(result.weeks[3].conditional, true);
-  assert.match(result.weeks[3].condition, /rir_and_technique/);
+  // HIGH-2 (audit): the rep steps are conditional like the load step - a rule the person applies, never a predicted number
+  assert.deepEqual(result.weeks.map(w => w.conditional), [false, true, true, true, true]);
+  for (const w of result.weeks.slice(1)) assert.equal(w.condition, PROGRESSION_CONDITION);
+  assert.match(result.weeks[3].condition, /planned_rir_with_good_technique_otherwise_repeat/);
+  assert.deepEqual(result.weeks[0].repRange, [8, 10]);
+  assert.equal(result.rule.promised_numbers, false);
   assert.match(result.loadMeaning, /not_absolute_weight_or_guaranteed_performance/);
   assert.deepEqual(result, planProgression(structuredClone(input)));
 });
@@ -108,7 +114,7 @@ test('whole-week accounting retallies explicit quarter credits and paired time e
   const input = freeze(plan([[day([
     item('a', { sets: 3, credits: { hips: 4, back: 1 } }),
     item('b', { sets: 2, reps: 10, restSeconds: 30, changeoverSeconds: 20, credits: { back: 4 } }),
-  ], { limitSeconds: 283, pairs: [{ a: 'a', b: 'b', changeoverSavingSeconds: 15 }] })]], [
+  ], { pairs: [{ a: 'a', b: 'b', changeoverSavingSeconds: 10 }] })]], [
     { id: 'hips', minCredits: 12, maxCredits: 12, targetCredits: 12 },
     { id: 'back', minCredits: 11, maxCredits: 11, targetCredits: 11 },
   ]));
@@ -116,79 +122,75 @@ test('whole-week accounting retallies explicit quarter credits and paired time e
   assert.equal(result.status, 'valid_subset');
   assert.equal(result.certified, false);
   assert.deepEqual(result.totals[0].credits, { hips: 12, back: 11 });
-  assert.equal(result.totals[0].days[0].seconds, 283);
+  assert.equal(result.totals[0].days[0].seconds, 288);
+  assert.equal(result.time, 'estimate_only');
   assert.deepEqual(result, evaluatePrescription(structuredClone(input)));
   const withoutPair = structuredClone(input);
   withoutPair.weeks[0].days[0].pairs = [];
+  // CT-01: the longer straight-set day is only a bigger estimate - time never raises an issue
   assert.equal(evaluatePrescription(withoutPair).totals[0].days[0].seconds, 358);
-  assert.ok(codes(evaluatePrescription(withoutPair)).includes('time_exceeded'));
+  assert.equal(evaluatePrescription(withoutPair).status, 'valid_subset');
+  assert.ok(!codes(evaluatePrescription(withoutPair)).includes('time_exceeded'));
 });
 
 test('inactive items charge no changeover and receive no pair-time saving', () => {
   const input = plan([[day([item('a', { sets: 0 }), item('b')], {
-    pairs: [{ a: 'a', b: 'b', changeoverSavingSeconds: 20 }],
+    pairs: [{ a: 'a', b: 'b', changeoverSavingSeconds: 10 }],
   })]]);
   assert.equal(evaluatePrescription(input).totals[0].days[0].seconds, 126);
 });
 
 test('paired changeover cancellation never produces negative time or depends on pair order', () => {
-  const pairs = [{ a: 'c', b: 'd', changeoverSavingSeconds: 1 }, { a: 'a', b: 'b', changeoverSavingSeconds: 0.2 }];
+  // MEDIUM-5 (audit): a pair's saving is bounded by the smaller of its two changeovers
+  const pairs = [{ a: 'c', b: 'd', changeoverSavingSeconds: 1 }, { a: 'a', b: 'b', changeoverSavingSeconds: 0.1 }];
   const items = ['a', 'b', 'c', 'd'].map((id, index) => item(id, {
     sets: 1, reps: 1, minReps: 1, secondsPerRep: 0, restSeconds: 0,
-    changeoverSeconds: [0.1, 0.1, 1, 0][index],
+    changeoverSeconds: [0.1, 0.1, 1, 1][index],
   }));
   const results = [pairs, [...pairs].reverse()].map(order => evaluatePrescription(plan([[day(items, {
-    pairs: order, fixedSeconds: 0, limitSeconds: 0,
+    pairs: order, fixedSeconds: 0,
   })]])));
   for (const result of results) {
     assert.equal(result.status, 'valid_subset');
-    assert.equal(result.totals[0].days[0].seconds, 0);
+    assert.ok(Math.abs(result.totals[0].days[0].seconds - 1.1) < 1e-9);
     assert.equal(result.certified, false);
   }
   assert.deepEqual(results[0], results[1]);
 });
 
-test('every intermediate week is checked when epoch cost assumptions change', () => {
+test('CT-01: every week carries its own time estimate and none of them raises an issue', () => {
   const epochs = scheduleEpochs({ epochs: [
     { startSets: [1, 1], peakSets: [2, 2], progress: [0, 0.5, 1], rounding: 'floor' },
     { startSets: [2, 2], peakSets: [3, 3], progress: [0, 0.5, 1], rounding: 'floor' },
   ] });
   const input = plan(epochs.weeks.map((sets, w) => [day(sets.map((n, j) => item(`i${j}`, { sets: n })), {
-    limitSeconds: 420, fixedSeconds: w === 3 ? 300 : 60,
+    fixedSeconds: w === 3 ? 300 : 60,
   })]), [{ id: 'hips', minCredits: 8, maxCredits: 24, targetCredits: 24 }]);
   const result = evaluatePrescription(input);
-  assert.equal(result.status, 'conflicts');
-  assert.deepEqual(result.issues.filter(i => i.code === 'time_exceeded').map(i => i.week), [4]);
-  assert.equal(result.totals.at(-1).days[0].seconds, 416);
+  assert.equal(result.status, 'valid_subset');
+  assert.deepEqual(result.issues, []);
+  // the week-4 estimate is the largest of the block: reported, never judged (the coach: 'we will never know what it's going to take')
+  assert.deepEqual(result.totals.map(t => t.days[0].seconds), [192, 192, 304, 544, 416]);
   assert.equal(result.certified, false);
-  input.weeks[3].days[0].fixedSeconds = 60;
-  assert.equal(evaluatePrescription(input).status, 'valid_subset');
 });
 
-test('tiny exhaustive allocation reference distinguishes impossible time from one poor candidate', () => {
+test('CT-01: every credit-exact candidate of a tiny allocation space is valid whatever its time estimate', () => {
   const candidates = [];
   // Exhaustively enumerate this declared finite two-exercise space, independently of the validator.
   for (let a = 0; a <= 3; a++) for (let b = 0; b <= 3; b++) {
     if (4 * (a + b) === 12) candidates.push({ a, b, seconds: 10 * a + 20 * b });
   }
   assert.equal(Math.min(...candidates.map(x => x.seconds)), 30);
-  for (const limitSeconds of [29, 30, 45, 60]) {
-    let feasible = 0;
-    for (const candidate of candidates) {
-      const input = plan([[day([
-        item('fast', { sets: candidate.a, maxSets: 3, reps: 1, minReps: 1, secondsPerRep: 10, restSeconds: 0, changeoverSeconds: 0 }),
-        item('slow', { sets: candidate.b, maxSets: 3, reps: 1, minReps: 1, secondsPerRep: 20, restSeconds: 0, changeoverSeconds: 0 }),
-      ], { limitSeconds, fixedSeconds: 0 })]], [{ id: 'hips', minCredits: 12, maxCredits: 12, targetCredits: 12 }]);
-      const result = evaluatePrescription(input);
-      assert.equal(result.status === 'valid_subset', candidate.seconds <= limitSeconds);
-      assert.equal(result.totals[0].days[0].seconds, candidate.seconds);
-      assert.equal(result.certified, false);
-      assert.notEqual(result.status, 'infeasible');
-      if (result.status === 'valid_subset') feasible++;
-    }
-    assert.equal(feasible, candidates.filter(x => x.seconds <= limitSeconds).length);
-    if (limitSeconds === 29) assert.equal(feasible, 0);
-    if (limitSeconds === 30) assert.equal(feasible, 1);
+  assert.equal(candidates.length, 4);
+  for (const candidate of candidates) {
+    const input = plan([[day([
+      item('fast', { sets: candidate.a, maxSets: 3, reps: 1, minReps: 1, secondsPerRep: 10, restSeconds: 0, changeoverSeconds: 0 }),
+      item('slow', { sets: candidate.b, maxSets: 3, reps: 1, minReps: 1, secondsPerRep: 20, restSeconds: 0, changeoverSeconds: 0 }),
+    ], { fixedSeconds: 0 })]], [{ id: 'hips', minCredits: 12, maxCredits: 12, targetCredits: 12 }]);
+    const result = evaluatePrescription(input);
+    assert.equal(result.status, 'valid_subset');
+    assert.equal(result.totals[0].days[0].seconds, candidate.seconds);
+    assert.equal(result.certified, false);
   }
 });
 
@@ -249,7 +251,7 @@ test('malformed pairings, duplicate identities, reserved IDs and unsafe arithmet
   const mutations = [
     p => { p.weeks[0].days[0].pairs = [{ a: 'a', b: 'a', changeoverSavingSeconds: 0 }]; },
     p => { p.weeks[0].days[0].pairs = [{ a: 'a', b: 'missing', changeoverSavingSeconds: 0 }]; },
-    p => { p.weeks[0].days[0].pairs = [{ a: 'a', b: 'b', changeoverSavingSeconds: 21 }]; },
+    p => { p.weeks[0].days[0].pairs = [{ a: 'a', b: 'b', changeoverSavingSeconds: 11 }]; }, // MEDIUM-5: above the smaller changeover (10)
     p => { p.weeks[0].days[0].pairs = [{ a: 'a', b: 'b', changeoverSavingSeconds: 0 }, { a: 'b', b: 'c', changeoverSavingSeconds: 0 }]; },
     p => { p.weeks[0].days[0].items[1].id = 'a'; },
     p => { p.groups[0].id = 'constructor'; },
@@ -267,8 +269,8 @@ test('malformed pairings, duplicate identities, reserved IDs and unsafe arithmet
   }
 });
 
-test('CX-04: human edits are preserved even when they violate bounds, time or monotonicity', () => {
-  const input = plan([[day([item('a', { sets: 2 })], { limitSeconds: 200 })], [day([item('a', { sets: 3 })])]], [
+test('CX-04: human edits are preserved even when they violate bounds or monotonicity', () => {
+  const input = plan([[day([item('a', { sets: 2 })])], [day([item('a', { sets: 3 })])]], [
     { id: 'hips', minCredits: 8, maxCredits: 12, targetCredits: 12 },
   ]);
   input.validation = { status: 'old_pass' };
@@ -284,9 +286,43 @@ test('CX-04: human edits are preserved even when they violate bounds, time or mo
   assert.equal(result.priorValidationDiscarded, true);
   assert.equal(result.validation.status, 'conflicts');
   assert.equal(result.validation.certified, false);
-  for (const code of ['sets_above_max', 'time_exceeded', 'credits_above_max', 'credits_decreased']) {
+  for (const code of ['sets_above_max', 'credits_above_max', 'credits_decreased']) {
     assert.ok(codes(result.validation).includes(code), code);
   }
+  assert.ok(!codes(result.validation).includes('time_exceeded')); // CT-01
+  // MEDIUM-1 (audit): the edited plan says so itself and carries a summary recomputed from the edited weeks
+  assert.equal(result.plan.edited, true);
+  assert.deepEqual(result.plan.summary.setsByWeek, [12, 3]);
+  // audit L4: every conflict carries a class
+  assert.equal(result.validation.issues.find(i => i.code === 'sets_above_max').class, 'bound');
+  assert.equal(result.validation.issues.find(i => i.code === 'credits_decreased').class, 'plan_shape');
+});
+
+test('R4-PRG-04: the next block starts about 5 % above the last start, in whole sets, never above the level top', () => {
+  const m = { numerator: 105, denominator: 100 };
+  assert.equal(nextBlockStart({ start: 10, top: 14, multiplier: m }).start, 11); // 10.5 -> 11 (half up)
+  assert.equal(nextBlockStart({ start: 15, top: 22, multiplier: m }).start, 16); // 15.75 -> 16
+  assert.equal(nextBlockStart({ start: 20, top: 25, multiplier: m }).start, 21);
+  assert.equal(nextBlockStart({ start: 9, top: 14, multiplier: m }).start, 10);  // never stuck: at least one whole set (audit L8)
+  // never above the top; at the top the sets stay (progress comes from load and reps)
+  const at = nextBlockStart({ start: 14, top: 14, multiplier: m });
+  assert.deepEqual([at.start, at.at_top], [14, true]);
+  const runs = nextBlockStart({ start: 10, top: 14, multiplier: m, blocks: 8 });
+  assert.deepEqual(runs.history.map(h => h.start), [11, 12, 13, 14, 14, 14, 14, 14]);
+  assert.ok(runs.history.every(h => h.start <= 14));
+  assert.throws(() => nextBlockStart({ start: 10, top: 14, multiplier: { numerator: 99, denominator: 100 } }));
+  assert.throws(() => nextBlockStart({ start: 1.5, top: 14, multiplier: m }));
+});
+
+test('R4-PRG-03: the progression rule is data the person applies - a rep range, a condition, no promised numbers', () => {
+  const rule = progressionRule({ repMin: 8, repMax: 12 });
+  assert.deepEqual(rule.rep_range, [8, 12]);
+  assert.equal(rule.kind, 'double_progression');
+  assert.equal(rule.when, PROGRESSION_CONDITION);
+  assert.equal(rule.then, 'add_load_next_time_and_restart_at_bottom_of_range');
+  assert.equal(rule.else, 'repeat');
+  assert.equal(rule.promised_numbers, false);
+  assert.equal(progressionRule({ repMin: 5, repMax: 5 }).kind, 'load_when_all_sets_done');
 });
 
 test('empty edits still discard old certificates and recompute; duplicate or unknown coordinates reject', () => {

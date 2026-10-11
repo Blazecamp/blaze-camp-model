@@ -11,7 +11,8 @@ Related pages: [principles](principles.md) (the rules, one by one), [lineage](li
 | "Text in double quotes" | His own words, copied from the answer files. " ... " marks words left out. |
 | 'Text in single quotes' | A label copied from his sheets, with his spelling. |
 | `CAT-..`, `UNI-..`, `VOL-..`, `PER-..`, `ATH-..`, `ORD-..`, `EQ-..`, `GEN-..`, `LIB-..`, `PRG-..`, `FIX-..` | Round-1 answers: [coach_answers_full.md](../../coach_answers_full.md) |
-| `R2-..`, `R3-..` | Round-2 and round-3 answers: [coach_answers_round2.md](../../coach_answers_round2.md), [coach_answers_round3.md](../../coach_answers_round3.md). Round 3 is the newest and wins. |
+| `R2-..`, `R3-..`, `R4-..` | Round-2, round-3 and round-4 answers: [coach_answers_round2.md](../../coach_answers_round2.md), [coach_answers_round3.md](../../coach_answers_round3.md), [coach_answers_round4.md](../../coach_answers_round4.md). Round 4 is the newest questionnaire round and wins. |
+| `CT-01`, `CX-01..04` | Two clarifications he gave in conversation on 2026-10-10: on session time ([coach_answers_time_2026-10-10.md](../../coach_answers_time_2026-10-10.md)) and on progression and editing ([coach_answers_codex_2026-10-10.md](../../coach_answers_codex_2026-10-10.md)). They rank with round 4 on their subjects. |
 | `COACH-CHAT` | Said in conversation: [coach_chat_statements.md](../../coach_chat_statements.md), [coach_answers.md](../../coach_answers.md). Close paraphrases unless shown in quotes there. |
 | `OBSERVED` | Read from his sheets (`dumps/`). |
 | **PROPOSED** | The team's number or reading. He has not confirmed it. |
@@ -263,20 +264,24 @@ Everyone in athletic training gets Olympic lifts, in a version that fits their l
 
 | Part of the stairway | Value | Status | Source |
 |---|---|---|---|
-| Step in the first half | about 3% of weekly sets | approved | R3-VOL-04 |
-| Step in the second half | about 5% of weekly sets | approved | R3-VOL-04 |
+| Usual step in the first half | about 3% of weekly sets | approved | R3-VOL-04 |
+| Usual step in the second half | about 5% of weekly sets | approved | R3-VOL-04 |
 | What sets the step | the person, not the muscle's size | his rule | VOL-05 |
-| Too big | 10% a week | his rule | UNI-05 |
-| Largest step allowed | 7% | approved | R2-VOL-01 |
+| Too big to sustain as a habit | 10% a week | his words | UNI-05 |
+| Largest step allowed | no hard limit; a note when a week adds more than about 15% | approved | CX-01, R4-PRG-02 (the 7% limit is retired) |
+| A week with the same sets | fine, while reps or load progress | his rule | CX-02, CX-03 |
+| Reps and load | a rule the person applies, never a promised number | approved | R4-PRG-03 |
 | Where a new set goes | the first exercise of the day, then the next | his rule | VOL-07 |
 | How it feels | a 2 in week 1, an 11 in the last week | his rule | R2-PER-05 |
 | Effort cue | 3 reps in the tank, then 2, then 1 to 2, then 1 plus extra-hard sets | approved | R3-VOL-04 |
 | Deload inside the block | none | his rule | R2-VOL-07 |
-| Next block | starts a little higher | approved | PER-01, R2-VOL-06 |
-| Where each group ends | at its ceiling, in the last week | approved | R3-VOL-04 |
-| Exact scaling so each group lands on its ceiling, and what happens when 3% and 5% steps cannot reach it | a factor per group; the peak then sits below the ceiling | **PROPOSED** | team |
+| Next block | starts about 5% above where the last one started, never above the level's top | approved | PER-01, R2-VOL-06, R4-PRG-04 |
+| Where each group ends | at its planned final sets, in the last week (one week early is fine) | approved | R3-VOL-04, CX-01, R4-PRG-01 |
+| Exact scaling so each group lands on its final sets | one factor per group; it may make the steps bigger than 3% and 5% | the formula is the team's; the choice is his | CX-01 |
 
-**Why the steps are small.** "it can progress week by week by 10%. That's way too much. It's hard to sustain a program like that for an 8-week program." (UNI-05).
+**Why the steps are usually small.** "it can progress week by week by 10%. That's way too much. It's hard to sustain a program like that for an 8-week program." (UNI-05).
+
+**Why the endpoint still wins.** When small steps cannot reach the planned final sets, he does not want the plan to finish lower: "no, go ahead and increase faster if thats the need, they could edit accordingly" (CX-01). The person can always lower a week.
 
 **Why the stairs never dip.** A block is meant to be finished: "It should never be thrown in the middle of a block." (R2-VOL-07, about maintenance and deload weeks). Rest belongs after the last step.
 
@@ -287,7 +292,7 @@ Everyone in athletic training gets Olympic lifts, in a version that fits their l
 - `generator_spec_v1.json > rule_tables > set_placement > steps`
 - `generator_spec_v1.json > plan_types > fixed_12` and `generator_spec_v1.json > plan_types > cycles`
 - `synthesis/12_volume_algorithm_v1.json > stairway`
-- `model/rules.json > stairway`
+- `model/rules.json > stairway` (`standard_steps`, `progression`), `model/rules.json > cycles > next_block`, `model/rules.json > render > progression`
 - Guides: [stairway](../02-model/stairway.md), [plans and calendar](../02-model/plans-and-calendar.md)
 
 ---
@@ -310,6 +315,10 @@ Everyone in athletic training gets Olympic lifts, in a version that fits their l
 | Levels explained plainly | "We just have to explain it a little bit better so that they understand it." | PRG-05 |
 | Nothing stored | "I don't want any data kept." | R3-GEN-01 |
 | The person stays in charge | "an athlete or a coach should be able to modify accordingly." | R3-SES-02 |
+| Everything is editable | "it should be all editable as they need to." | CX-04 |
+| The person owns their time | "You need to stop trying to be responsible for the people's time." | CT-01 |
+| No session-length question | "Drop it. We don't need it." | R4-SES-01 |
+| His templates, not invented layouts | "These are templates that we're giving them for them to add or take away" | R4-SES-02 |
 
 **Simple outside, adjustable inside.** He sees training as partly a matter of feel: "Everything in training is kind of subjective." (VOL-13). So the plan gives a sound default and trusts the person to adapt it. The words "adjust accordingly" come up again and again in his answers (UNI-02, UNI-08, VOL-01, VOL-05, VOL-16, PER-01, R3-VOL-04). The numbers are defaults too: "Yeah, but this is all customizable." (R2-VOL-06).
 
@@ -318,6 +327,7 @@ Everyone in athletic training gets Olympic lifts, in a version that fits their l
 **In the data.**
 - `generator_spec_v1.json > inputs_schema > fewest_clicks` and `generator_spec_v1.json > inputs_schema > removed_fields`
 - `generator_spec_v1.json > plan_editing > principle`
+- `model/rules.json > session > size`, `model/rules.json > time_model` (`use: estimate_only`), `model/rules.json > session > easy_to_remove`
 - `generator_spec_v1.json > legal_and_privacy > no_data_kept`
 - `generator_spec_v1.json > rule_tables > rate_engine > no_feedback`
 - Guides: [how a plan is made](../00-overview/how-a-plan-is-made.md), [what this is](../00-overview/what-this-is.md)
@@ -335,13 +345,13 @@ This list is the team's summary of the order his answers imply. He did not state
 | 3 | Do they need to get bigger and stronger, or stay fast and healthy? | the bilateral to unilateral slider, how much resistance work | UNI-02, ATH-03 |
 | 4 | Where are they in their year or season? | drive a change, or maintain | UNI-10, PER-08, PER-01 |
 | 5 | Does anything hurt? Are they older? | machines, cuts, exercises left out | VOL-03, EQ-03, R3-ATH-02 |
-| 6 | What equipment and how much time do they have? | which exercises, how many groups can be trained directly | EQ-09, R3-SES-02 |
+| 6 | What equipment do they have, and how many days? | which exercises; with 2 days, every big muscle at about 6 to 8 sets instead of 10. (How long a session lasts is not asked: CT-01, R4-SES-01.) | EQ-09, R4-SES-03 |
 | 7 | Which muscle do they want most? | Focus muscle 1 and 2 | R3-SES-01 |
-| 8 | Build each session: core, then fast work, then the main lift with its opposite, then the rest. | session order and pairing | ATH-11, ORD-03, UNI-11 |
-| 9 | Grow it week by week like a stairway and finish the block. | weekly sets, effort | R2-PER-03, R2-VOL-07 |
-| 10 | Hand over the whole plan and let them adjust it. | the output | R3-VOL-04 |
+| 8 | Build each session on his template: core, then fast work, then the Day A or Day B lifts in their slots. | session order, pairing, session size | ATH-11, ORD-03, UNI-11, R4-SES-05, R4-SES-02 |
+| 9 | Grow it week by week like a stairway, reach the final sets and finish the block. | weekly sets, effort, the progression rule | R2-PER-03, R2-VOL-07, CX-01, R4-PRG-03 |
+| 10 | Hand over the whole plan and let them adjust all of it. | the output | R3-VOL-04, CX-04 |
 
-When a new case comes up that no rule covers, these questions are the safest guide. If the answer would add an input, a check-in, a band, a rule by sex or a deload inside a block, stop: he has already said no. See [what he rejected](what-he-rejected.md).
+When a new case comes up that no rule covers, these questions are the safest guide. If the answer would add an input, a check-in, a band, a rule by sex, a deload inside a block, a session-length question or a cut made for time, stop: he has already said no. See [what he rejected](what-he-rejected.md).
 
 ## Where to go next
 

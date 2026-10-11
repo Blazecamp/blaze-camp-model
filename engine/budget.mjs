@@ -132,7 +132,11 @@ export function warmupMode(derived, model, profile) {
   const lowerPain = (derived.pain || []).some((p) => ['knee', 'ankle_foot', 'hip_groin'].includes(p.area));
   const noRun = !tokens.has('open_space_short') && !tokens.has('open_space_long');
   const running = !!(profile && profile.running_sport);
-  if (inj.has('FALLS_COURT')) return 'balance';
+  // (v0.5 fix round 1, sample 08 minor: balance and quick stepping by default is the 60+ rule, R3-ATH-02 - a 52-year-old court
+  // player keeps the mobility / drills prep; rules.warmup.x1.balance_from_older_only)
+  const WX = model.rules.warmup.x1 || null;
+  const older60 = (derived.age || 0) >= model.rules.population.older.from_age;
+  if (inj.has('FALLS_COURT') && (!(WX && WX.balance_from_older_only) || older60)) return 'balance';
   // COACH-R3 R3-ATH-02 (approved, stage B2): from 60 the default includes balance work - the warm-up takes the balance prep
   const OL = model.rules.population.older;
   if (OL && OL.default_on && OL.default_on.balance_warmup && (derived.age || 0) >= OL.from_age) return 'balance';

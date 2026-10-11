@@ -63,16 +63,22 @@ test('templates and profiles equal the reference build (same output as the fixtu
   assert.deepEqual(raw.profiles, fixture.profiles);
 });
 
-test('counts: 731 kept / 208 dropped, 30 templates, 127 profiles, 52 picker sports, 26 activities', () => {
+// engine 0.5.0 / V2 (converted; DECISIONS G): 733 = the 731 source records + the 2 mid-range pull records the coach's approved proposal
+// names (COACH-R4 R4-LIB-03: high row, 45-degree row; optional add-ons, tools/fixture/v05-library.mjs)
+test('counts: 733 kept (731 source + 2 mid-range pull records) / 208 dropped, 30 templates, 127 profiles, 52 picker sports, 26 activities', () => {
   const c = first.report.counts;
-  assert.equal(c.kept, 731); assert.equal(c.dropped, 208); assert.equal(c.kept + c.dropped, c.source_records);
+  assert.equal(c.kept, 733); assert.equal(c.dropped, 208); assert.equal(c.kept - 2 + c.dropped, c.source_records);
   // v1.2 sources: one calf exercise per leg day (R3-SES-01), rebuilt 05 templates; + 55 stations of the stage-B2 HYROX variant
   // athletic.4/hyrox (COACH-R3 R3-ATH-03, tools/fixture/athletic-b2.mjs); fix round 2 / F1 (tools/fixture/fix-r2-f1.mjs): + 32 stations of
   // the athletic.3 same_pattern variant (the v1.1 S1 / S2, E-137), + 2 on the cross-pattern S2, - 1 on the class (snatch to the press
   // day, no Olympic piece on the squat and deadlift days, E-141)
-  assert.equal(c.templates_total, 30); assert.equal(c.stations, 1710 + 55 + 32 + 2 - 1);
+  // engine 0.5.0 / V1 (tools/fixture/v05-structure.mjs): the main days of 16 templates are rebuilt on the coach's A / B, push / pull /
+  // legs and athletic skeletons (COACH-R4 R4-SES-05) - fewer stations than the v0.4 time-tiered days (1,798 -> 1,678)
+  // engine 0.5.0 / V4 (converted; DECISIONS G-56, tools/fixture/v05-integrate.mjs): + 1, the general warm-up of the 5-day hybrid
+  // week's Friday, the one main day type that was written without one (COACH-ANSWER ORD-08 'always')
+  assert.equal(c.templates_total, 30); assert.equal(c.stations, 1682);
   assert.equal(c.profiles, 127); assert.equal(c.sports_in_picker, 52); assert.equal(c.activities, 26);
-  assert.deepEqual(raw.manifest.counts, { exercises: 731, templates: 30, profiles: 127, sports_in_picker: 52, activities: 26 });
+  assert.deepEqual(raw.manifest.counts, { exercises: 733, templates: 30, profiles: 127, sports_in_picker: 52, activities: 26 });
   for (const d of first.report.dropped) assert.ok(d.reason && d.rule, `drop ${d.source_id} has a reason and a rule`);
 });
 
@@ -108,7 +114,10 @@ test('H08: credits equal the class map; helpers 0.25, dips 0.5 / 0.5, thruster 1
   for (const e of exs) assert.deepEqual(e.credits, C[e.credit_class], e.id);
   assert.deepEqual(C.DIPS, { triceps: 0.5, chest: 0.5 });
   assert.deepEqual(C.THRUSTER, { quads: 1, front_delts: 0.5, glutes: 0.25 });
-  for (const [cls, map] of Object.entries(C)) if (!['DIPS', 'THRUSTER'].includes(cls)) for (const v of Object.values(map)) assert.ok(v === 1 || v === 0.25, `${cls} ${v}`);
+  // v0.5 fix round 1 (R4-SES-05 'Chest / Shoulders', R4-LIB-03): the high-incline press of that slot - 1 front delts, half a set chest
+  assert.deepEqual(C.MRPUSH, { front_delts: 1, chest: 0.5, triceps: 0.25 });
+  for (const id of ['high-incline-db-press', 'high-incline-seated-barbell-press', 'high-incline-seated-db-press']) assert.equal(byId.get(id).credit_class, 'MRPUSH');
+  for (const [cls, map] of Object.entries(C)) if (!['DIPS', 'THRUSTER', 'MRPUSH'].includes(cls)) for (const v of Object.values(map)) assert.ok(v === 1 || v === 0.25, `${cls} ${v}`);
   for (const id of ['barbell-thruster', 'db-thruster-front-squat-into-overhead-press']) assert.equal(byId.get(id).credit_class, 'THRUSTER');
   assert.equal(byId.get('parallel-bar-dip').credit_class, 'DIPS');
   assert.equal(byId.get('parallel-bar-dip').primary_muscle, null);
@@ -159,7 +168,8 @@ test('R2-LIB-07 additions are library defaults at foundational; PROPOSED records
     assert.ok(e, id); assert.equal(e.level, 'foundational', id); assert.ok(e.default_in_slots.length > 0, id); assert.ok(e.rule_refs.includes('R2-LIB-07'), id);
     assert.notEqual(e.status, 'program_only', id);
   }
-  for (const e of exs) if (['proposed_v1', 'proposed_v1_1'].includes(e.status)) assert.deepEqual(e.default_in_slots, [], e.id);
+  // (engine 0.5.0 / V2, R4-LIB-01: the optional add-ons are never a default pick either)
+  for (const e of exs) if (['proposed_v1', 'proposed_v1_1', 'optional_addon'].includes(e.status)) assert.deepEqual(e.default_in_slots, [], e.id);
 });
 
 test('renames the coach approved are the EN names (LIB-01, LIB-07, LIB-09, LIB-11, R2-LIB-05) and decoder notes are gone', () => {
@@ -184,7 +194,8 @@ test('i18n: every key used has EN and ES; nothing missing; ES placeholders match
   for (const k of used) { assert.ok(k in en, `EN ${k}`); assert.ok(k in es || es_review.missing_keys.includes(k), `ES ${k}`); }
   for (const k of Object.keys(en)) if (k !== '_meta') assert.ok(k in es, `ES ${k}`);
   for (const k of es_review.machine_translated) { assert.ok(k in es, k); assert.equal(PH(es[k]), PH(en[k]), `placeholders ${k}`); }
-  assert.equal(es_review.machine_translated.length, 843); // v1.2: review-v12 UI strings carry coach-reviewed ES; v0.4 B3: Spanish fixes of names / cues / labels (render-b3.mjs)
+  // (v0.5 fix round 2, converted - DECISIONS G: the side plank press got a coach-style Spanish name with the layer, 843 -> 842)
+  assert.equal(es_review.machine_translated.length, 842); // v1.2: review-v12 UI strings carry coach-reviewed ES; v0.4 B3: Spanish fixes of names / cues / labels (render-b3.mjs)
   if (fixture) for (const k of Object.keys(fixture.i18n.en)) assert.ok(k in en, `fixture EN key ${k} kept`);
 });
 

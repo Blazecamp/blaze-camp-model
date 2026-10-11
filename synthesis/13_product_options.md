@@ -1,6 +1,104 @@
-# 13 · Product and output: how people get, follow and adjust a Blaze Camp plan (v1.2)
+# 13 · Product and output: how people get, follow and adjust a Blaze Camp plan (v1.3)
+
+## v1.3 - round 4, CT-01 and CX-01..04 applied (2026-10-11)
+
+The coach's newest answers outrank everything below: round 4 (`coach_answers_round4.md`, 20 answers, 2026-10-11), his clarification on session time (`coach_answers_time_2026-10-10.md`, **CT-01**) and his clarifications on progression and editing (`coach_answers_codex_2026-10-10.md`, **CX-01..04**). **Authority order: round 4 and CT-01 > CX-01..04 > round 3 > round 2 > round 1 > chat statements > sheets.** **Where this section and a later section of this file disagree, this section wins.** Later sections that v1.3 supersedes carry a "RETIRED in v1.3" or "Changed in v1.3" note under their heading; the text under such a note is history. The master record is `BLAZE_CAMP_BRAIN.md` v1.3 (what changed: §0d). The twin spec is `generator_spec_v1.json` 1.3.0. The working engine is `engine/` 0.5.0 on the compiled `model/` 1.3.0; its plan contract is `engine/CONTRACTS.md`.
+
+### V1. What v1.3 changes in this file
+
+| # | Change | Sections below it replaces | Source |
+|---|---|---|---|
+| 1 | **No session-length question and no time check.** The plan is sized by the number of exercises. Each day prints an average time ("about 60-75 min") as information only. Nothing is cut or changed because of time | v1.2 change 4; §0 item 7; §3.1 S5; §4 (time-check row); §12.1; §12.5 C19, C20; §12.6; E4; E5; E6; E10 | COACH-CT CT-01; COACH-R4 R4-SES-01 |
+| 2 | **Exercises per session by client type** (general 5-7, aesthetics 6-8, strength 5-6, bootcamp 5-7 stations, field athletes up to 12, older adults 5-6); with 2 days every big group at about 6-8 weekly sets and a third day suggested | §3.1 S5 | COACH-R4 R4-SES-02, R4-SES-03 |
+| 3 | **His own templates** (the A / B days, push / pull / legs) are what the plan prints; nothing is dropped automatically; each day names the easiest things to remove | §14.5 | COACH-R4 R4-SES-05, R4-SES-04 |
+| 4 | **Everything is editable**, the sets of any day or week included; after an edit the totals are recomputed and the plan is marked edited, with no old "validated" stamp | §0 item 6; §14.5; E5 | COACH-CX CX-02, CX-04 |
+| 5 | **The stairway reaches its final sets**; a week that jumps more than about 15 % carries a note; a week may keep the same sets; **reps and load progress by a rule the person applies**; the next block starts about 5 % above the last start | §2.2; §15; E6; E10 | COACH-CX CX-01..03; COACH-R4 R4-PRG-01..04 |
+| 6 | **The terms and the release must be accepted before a plan is generated** (no plan without it), and **a short release line is printed on every plan**, at the top and the bottom, in English and Spanish, linking `DISCLAIMER.md`. Everyone may use the plans on their own | §0 item 10; §12.4 | COACH-R4 R4-SCP-01, R4-SCP-02 |
+| 7 | **Videos: no third-party links.** A YouTube search link built from the exercise name, and the exact name with a one-tap copy; his own videos later | §0 item 15; §7.3 | COACH-R4 R4-LIB-05 |
+| 8 | **Optional add-ons**: a list on the plan the person can add from; never template picks (wall balls and sled pushes in HYROX excepted). **Swaps say what they keep and lose** | §14.5 | COACH-R4 R4-LIB-01, R4-LIB-04 |
+| 9 | **Sport profiles carry a confidence label** in the data and the docs; it is not shown on a plan | §13 | COACH-R4 R4-SCP-03 |
+| 10 | **Credit**: a complete coaching model from the experience of Coach Lalo (Gerardo Vera), Master NASM coach - his intellectual property; no "world's best" or injury-prevention claims | §8 (README wording) | COACH-R4 R4-REL-03 |
+| 11 | **Release**: model v1.3 is the product; the engine was rebuilt now (0.5.0, template-first, no time-fitting) and stays marked experimental; the website is built after the model and the engine are finished | §5; §6 | COACH-R4 R4-REL-01, R4-REL-02 |
+
+### V2. What the person sees that is new (wording from the engine's word lists; PROPOSED, the legal lines for attorney review)
+
+| Where | English | Spanish |
+|---|---|---|
+| Before the build, when the box is not ticked | Read and accept the terms and the release of liability first. No plan is built without it. | Primero lee y acepta los términos y la liberación de responsabilidad. Sin eso no se crea ningún plan. |
+| Top of every full plan (self-built) | You accepted the terms and released Lalo Vera, Blaze Camp and BFit Studios Corp. from all liability before this plan was built. You follow it entirely at your own risk. It is general fitness information, not medical advice: stop and see a professional if something hurts. | Aceptaste los términos y liberaste de toda responsabilidad a Lalo Vera, Blaze Camp y BFit Studios Corp. antes de que se creara este plan. Lo sigues por completo bajo tu propio riesgo. Es información general de acondicionamiento físico, no un consejo médico: detente y consulta a un profesional si algo te duele. |
+| Every block, week and day view | Liability released before this plan was built: use it at your own risk. Not medical advice. | Responsabilidad liberada antes de crear este plan: úsalo bajo tu propio riesgo. No es un consejo médico. |
+| Bottom of every full plan | Liability released: the terms and the release were accepted before this plan was built. | Responsabilidad liberada: los términos y la liberación de responsabilidad se aceptaron antes de crear este plan. |
+| Each day | Average time: about {low}-{high} min (an estimate, for information only) | Tiempo promedio: aprox. {low}-{high} min (un estimado, solo como información) |
+| Each day | Easiest to remove if you want a shorter day (your choice): {list} | Lo más fácil de quitar si quieres un día más corto (tú decides): {list} |
+| Each lift | Progress: when you hit {high} on every set with {rir} left in the tank, add weight next time and start again at {low}. | Progresión: cuando llegues a {high} en todas las series con {rir} en reserva, sube el peso la próxima vez y vuelve a empezar en {low}. |
+| A week that jumps | This week jumps more than usual ({pct} % more sets for {group}): adjust if needed. | Esta semana sube más de lo habitual ({pct} % más series para {group}): ajusta si hace falta. |
+| A 2-day plan | With {days} training days a week every big muscle group is trained with about {low}-{high} weekly sets instead of 10 or more. A third training day would let every group reach 10. | Con {days} días de entrenamiento a la semana, cada grupo muscular grande se entrena con unas {low}-{high} series semanales en lugar de 10 o más. Un tercer día de entrenamiento permitiría que cada grupo llegue a 10. |
+| A group its template cannot hold | {group}: this template holds {held} weekly sets, below the planned {planned}. Add an exercise if you want more. | {group}: esta plantilla alcanza {held} series semanales, menos que las {planned} planeadas. Agrega un ejercicio si quieres más. |
+| Each exercise | Name to copy into YouTube: {name} | Nombre para copiar en YouTube: {name} |
+| The add-on list | Optional add-ons. Not part of your template. Add any of these if you want; the plan is complete without them. | Extras opcionales. No son parte de tu plantilla. Agrega los que quieras; el plan está completo sin ellos. |
+| An old intake that still sends a session length | Session length is no longer asked: the plan is sized by exercises, and how long a session takes is up to you. The time shown on each day is only an estimate. | Ya no se pregunta la duración de la sesión: el plan se arma por número de ejercicios, y cuánto dura cada sesión depende de ti. El tiempo que aparece en cada día es solo un estimado. |
+
+A coach-built plan and a minor's plan have their own release line (a fitness professional built it and is responsible for the client's screening; a parent or guardian accepted). Spanish stays PROPOSED until he or a coach he trusts approves it (R2-GEN-08).
+
+### V3. Session sizes and the time estimate
+
+| Session type | Exercises (not counting the warm-up or the 2 core exercises) | Default sets | ID |
+|---|---|---|---|
+| General fitness / fat loss, gym days | **5-7** (his A / B day; 7 by default) | 3 compound / 2 isolation / 3 calves | **R4-SES-02**; VOL-16 |
+| Aesthetics / bodybuilding | **6-8** (his A / B days; push / pull / legs as his sheet) | 3 compound / 2 isolation / 3 calves | **R4-SES-02, R4-SES-05** |
+| Strength | **5-6**: the four roles + survival isolations | his template | **R4-SES-02**; ORD-07 |
+| Bootcamp | **5-7 stations**; 3 / 4 / 5 rounds by level (PROPOSED) × 35-50 s | time-based | **R4-SES-02**; PRG-03 |
+| Field athlete off-season | **up to 12** (jumps / throws + Olympic + lifts) + the 2-exercise core block | **2 per slot** | **R4-SES-02**; VOL-08, VOL-17, VOL-16; R2-SES-04 |
+| Non-competitive athletic / stay athletic | 5-10 (his sheet has 10 slots; range PROPOSED) | 2 per slot | ATH-13 |
+| Older adults 60+ | **5-6** | as the goal | **R4-SES-02** |
+| CrossFit-style class | warm-up → light core → skill → strength / power → WOD; 5-7 lifts around the skill and the WOD (PROPOSED) | his class tables | OBSERVED; R2-GEN-07 |
+| In-season athlete | 2 days a week (the 2-day athletic template, in-season variant) | 1-2 | PER-08 |
+| Optional day | Focus 1, Focus 2, calves, core, aerobic; bonus exercises land here | Focus 2-3 sets each | ORD-10, ORD-11 |
+
+**Lengths are estimates, never limits** (CT-01, R4-SES-01). Each day prints "Average time: about 60-75 min (an estimate, for information only)"; the arithmetic is in §5.6. "Sometimes it might be 45 minutes. Sometimes they can take off exercises and make it faster. Sometimes they can add exercises and make it longer. We don't need to be counting their time."
+
+**Counting convention** (APPROVED R2-SES-04; R4-SES-02): warm-up drills never count; the 2 core exercises sit outside the count; a superset of two small isolations counts as one station.
+
+**Time vs minimums: RETIRED** (CT-01; master §5.6.1). **Time-overflow rule: RETIRED** (round 3). Nothing is cut or reshaped for time, and nothing is dropped automatically (R4-SES-04).
+
+### V4. Editing the plan (replaces §14.5 where it differs)
+
+"They should be able to turn off that day's athletic training or that day's core training and just focus on resistance. Maybe a pickleball player that played a lot of pickleball has a lot of soreness in their calves, or their connective tissues just don't feel like doing any plies and things like that. Then it could be turned off, or they can delete certain exercises, because an athlete or a coach should be able to modify accordingly. The options should be: Recommend supersets; Adding or removing exercises or blocks within the training session." (R3-SES-02) "It's already a template, and you need to adjust it as you need to." (R3-VOL-04)
+
+"This is essentially a tool that's going to allow people to set up their templates a lot better, and it should be all editable as they need to. Ideally, the tool is just so great and smart that edits are probably not going to be needed ... it will be editable, but they might not need to most of the time." (CX-04) "should be editable if they want to adjust their sets on that week or that day doesnt matter" (CX-02)
+
+| Control | What it does | Tag |
+|---|---|---|
+| **Blocks with stable ids** | every block of every day carries an id that does not change between the weeks of an exercise block, e.g. `blk.A.core.1`, `blk.A.athletic.1`, `blk.A.olympic.1`, `blk.A.strength.2`, `blk.B.calves.1`, `blk.A.finisher.1`; items keep their slot ids, added items get `edit.<n>` | R3-SES-02; format PROPOSED (spec `plan_editing.block_ids`) |
+| **Block switch (on / off)** | `core`, `skill`, `athletic` (jumps, throws, agility, sprints), `olympic`, `accessory`, `calves`, `focus` (optional-day Focus slots), `finisher` (conditioning finishers and HYROX station circuits) and `cardio` carry `optional: true, toggle: true` (the union of the 05 / 12 and 13 / spec lists, master §0.3); the `warmup` cannot be switched off; the `strength` block (05 / 12 `resistance`) is edited exercise by exercise (or removed as a block); default scope "this day every week of the exercise block", or "this day only"; switched-off blocks stay visible, greyed, and print as "(switched off)" | **R3-SES-02**; per-kind flags PROPOSED |
+| What a switch changes | athletic, Olympic, core and conditioning work never count as muscle sets (VOL-10), so switching them off changes no stairway and no weekly set number (the opener's abs credit drops for that day); the day's time estimate drops by that block's minutes | VOL-10; R3-SES-02 |
+| **Remove an exercise / a block** | removes it (this day or every week of the block); the remaining exercises keep their planned sets and keep climbing; **the sets of a removed exercise are not moved elsewhere automatically** (13 / spec; 12 v1.2 §3.10.2 would move them to the group's other exercises that day - cross-file decision §0.3); when a removal leaves a group with 1 exercise that day, the editor says so; the person's choice wins | R3-SES-02; R2-SES-05; mechanism PROPOSED |
+| **Change the sets** (v1.3) | the sets of any exercise, on one day or in one week or for the rest of the block; the weekly sets per group are recomputed from what is now written | **CX-02, CX-04** |
+| **Easiest to remove** (v1.3) | each day prints "Easiest to remove if you want a shorter day (your choice)": the conditioning finisher, then extra jump / throw stations, then small-muscle accessories, then bonus exercises; at most 6 names; nothing is removed by the tool | **R4-SES-04** |
+| **Optional add-ons** (v1.3) | the plan lists up to 6 optional add-ons that fit the person (joint care for their pain areas, the add-ons marked for their sport, a farmer carry for general and athletic goals); the person adds one with an edit; carries land in the conditioning block and count no muscle sets | **R4-LIB-01, R4-LIB-02**; list size and order PROPOSED |
+| **+ Add an exercise / a block** | the list offers only what the generator could have picked for this person (equipment, level, age and pain rules, exclusions; never V-squat, bands or 60+ power work without the switch and its warning); **rear-delt work is always offered on upper days** ("People and coaches should always be able to add more rear delts"); default sets compound 3, isolation 2, calves 3; an added exercise climbs with its group's stairway from the week it is added; blocks: a core superset or monster set anywhere (R2-SES-03), an accessory block, a cardio session | **R3-SES-02, R3-VOL-01**; R2-SES-03 |
+| **Swap** | the same-category dropdown (GEN-04); one-detail variations only (R2-LIB-01) | GEN-04 |
+| **Superset suggested** | every eligible pair (knee lift + pull, hip lift + push, biceps + rear delts, triceps + side delts, calves + delts, core supersets) carries `{pair_id, items, minutes_saved, on}`; shown by default ("Recommend doing supersets so that it's a faster workout"); the person switches a pair on - no session length does (CT-01); suggested only between neighbouring exercises, so nothing is reordered; never two lower compounds, never a heavy lift with a fatiguing lift for the same muscle (contrast excepted) | **R3-SES-02**; ORD-05 |
+| **Reset** | "Reset to the generated plan" undoes every edit | PROPOSED |
+| After an edit | the weekly sets per group are **recomputed**; the plan is **marked edited** (`plan.edited = true`, with the list of edits); the checks run again and their result is stamped "edited" - **no old "validated" stamp stays on a changed plan**; where the edit leaves the template's rules (a trained group under its floor, a day without its core block, a day above its exercise count) the tool lists it as a note - **notes, never refusals, and nothing is repaired behind the person's back**: the locked rules bind what the generator builds and what the "add" list offers, not what people take out of their own plan | **CX-04**; R3-VOL-04, R3-SES-02; mechanism PROPOSED |
+| Where edits live | inside the plan (`plan.edits[]` on top of the generated plan); they travel with the plan link and the plan file and are printed in every image, PDF and sheet; Blaze Camp keeps nothing | **R3-GEN-01** |
+| What every export says | "You can switch off today's jump / throw block or core block, remove or add exercises or blocks, and do the suggested supersets to save time" (copy C17, `edit.hint`), with the optional blocks and suggested supersets marked, so a coach's screenshot tells the client what they can change | **R3-SES-02** |
+
+The generator still builds every plan by the rules first: the core opener every session, the athletic budget, his template complete, calves on leg days, the floor on every trained group from 3 training days, a stairway that reaches its planned final sets. It does not shorten or trim a plan for anyone. The person does that, with the hints above (R4-SES-04). An editable template is not a guarantee that every possible edit follows the rules (CX-04's record). The engine's edit function is `applyPlanEdits(plan, edits, model)` in `engine/edit.mjs` (`set_sets`, `remove_exercise`, `add_exercise`, `set_block`); the generated plan is never changed in place.
+
+### V5. The data contracts in v1.3 (replaces E4 where it differs)
+
+- **Intake** (`intake/3`): no `schedule.session_minutes`. An intake that still sends it is accepted, the value is ignored, and the plan carries a notice. `release.accepted` must be `true` or no plan is generated.
+- **Plan** (`plan/2`, engine 0.5.0): no `time_check`, no offers, no session minutes, no day minute limit. New: `edited`; `release_stamp.accepted`; `meta.session_size`, `meta.two_day`, `meta.addons`; `meta.stairway[]` per group (start, top, schedule, arrival week, capped, below the floor, bonus, acceleration); day `exercise_count`, `skeleton`, `easy_to_remove`, `est_minutes` (information only); item `progression`, `swap_notes`, `instead_of`, `video {kind: search, url, copy_name}`. The authoritative contract is `engine/CONTRACTS.md`.
+- **Engine API**: `generate(intake, model)`, `applyPlanEdits(plan, edits, model)` (`set_sets`, `remove_exercise`, `add_exercise`, `set_block`), `validate(plan)`, the renderers (full plan, overview, block, week, day; macro views for screenshots). The generated plan is never changed in place.
+- **Checks**: no check reads minutes; the list is in `BLAZE_CAMP_BRAIN.md` §13.6 (V1-V37).
+
+---
+
 
 ## v1.2 - round 3 applied (2026-10-09)
+
+> **Changed again in v1.3.** This list is the v1.2 change record, kept as written. Its rows about the time check and time vs minimums (R3-SES-02: offers, "fewer groups trained directly", "never flat"), about the 7 % and 10 % limits, and about the next block's "cap + 1" were changed again by COACH-CT CT-01, COACH-CX CX-01..04 and round 4. The v1.3 section above wins.
 
 What changed from v1.1. Each change is applied in the tables, examples and contracts below, not only listed here. The v1.1 change table and the v1.1 verification log are kept near the end of the file as history; the v1.2 verification log closes the file.
 
@@ -9,7 +107,7 @@ What changed from v1.1. Each change is applied in the tables, examples and contr
 | 1 | **No check-ins, no tracking, no adaptive inputs.** The generator takes the answers and puts out the whole plan once, with its built-in stairway; people and coaches adjust it themselves. The weekly check-in, the four tracking levels, the check-in step table, the HOW IT FELT? engine rules, the "block can't be finished" signals, the in-app maintenance and block-done prompts, week-by-week mode on check-ins and `adapt()` are **RETIRED** (§2, §3.2, E4-E6). | COACH-R3 R3-VOL-02, R3-VOL-04 |
 | 2 | **No data kept, anywhere.** No accounts, no server database, no analytics with personal fields, no research data, no email field. The engine runs in the browser; the person keeps the plan as an image, PDF, sheet, plan link or plan file. The v1.1 "data to collect with consent" section and the v2 accounts are retired (§2.5, §7.5, E8). | R3-GEN-01 |
 | 3 | **The plan can be edited.** Switch off a day's athletic block or core block, add or remove exercises or whole blocks, turn suggested supersets on or off. Blocks carry stable ids and on / off flags; every export tells the reader what can be switched off (§14.5, E4 `plan/2`, spec `plan_editing`). | R3-SES-02 |
-| 4 | **Time vs minimums**, in his approved order: tell the person up front and offer another day or longer sessions; if they keep their time, train fewer groups directly (big movers first; keeping the focus groups too is our PROPOSED reading of R3-SES-01, N-PROD-27); recommend supersets; the stairway always climbs on the groups that are trained (S5, copy C19-C20). | R3-SES-02 |
+| 4 | **Time vs minimums - RETIRED in v1.3 (COACH-CT CT-01; COACH-R4 R4-SES-01)**. v1.2 text: tell the person up front and offer another day or longer sessions; if they keep their time, train fewer groups directly (big movers first; keeping the focus groups too is our PROPOSED reading of R3-SES-01, N-PROD-27); recommend supersets; the stairway always climbs on the groups that are trained (S5, copy C19-C20). | R3-SES-02 |
 | 5 | **Focus muscle 1 and Focus muscle 2** (optional, max 2) replace "muscles to bring up": each gets +1 to +3 extra weekly sets over the balanced plan, riding the stairway. One "shoulders" choice covers front, side and rear delts. No sex field. | R3-SES-01, R3-VOL-01 |
 | 6 | **The stairway is approved in numbers** (about 3 % a week to the halfway week, about 5 % after it, each group reaching its ceiling in the last week; effort 3 RIR → 2 → 1-2 → 1 + intensifiers in the last week, always inside 1-3) and is now the only way a plan grows (§2.2, §15). | R3-VOL-04 |
 | 7 | **The easy week after a block is a recommendation.** When a block ends, it ends, and the person builds the next one. Holidays go between blocks. The plan's last page says what's next (copy C15). | R3-PER-01 |
@@ -26,7 +124,7 @@ What changed from v1.1. Each change is applied in the tables, examples and contr
 
 **Status.** Items marked APPROVED come from his round-2 or round-3 answers. Everything marked PROPOSED is a recommendation waiting for his yes or no. RETIRED marks what round 3 removed. Legal copy is marked **[LEGAL REVIEW]** and must not ship without a lawyer's review. Nothing here changes a training rule; the training rules live in `BLAZE_CAMP_BRAIN.md`, `generator_spec_v1.json` and synthesis files 01-12. This file only decides how those rules reach people.
 
-**Read with.** `coach_answers_round3.md` (authoritative, above everything else), `coach_answers_round2.md`, `coach_answers_full.md`, `generator_spec_v1.json` 1.2.0 (`inputs_schema`, `plan_editing`, `legal_and_privacy` and `output` are the machine twin of this file; `adaptation` is a retired stub), `BLAZE_CAMP_BRAIN.md` §13-14, `12_volume_algorithm_v1` v1.2 (stairway, focus sets, time vs minimums), `05_session_architecture` v1.2 (groups, templates), `06_periodization` v1.2 (plan shapes, block end, calendar), `04_profiles.json` v1.2 (sport and activity profiles), `DISCLAIMER.md`, `DISCLAIMER.es.md`, `LICENSE`.
+**Read with.** v1.3: `coach_answers_round4.md`, `coach_answers_time_2026-10-10.md` (CT-01) and `coach_answers_codex_2026-10-10.md` (CX-01..04) are authoritative above everything else; `generator_spec_v1.json` is 1.3.0. v1.2: `coach_answers_round3.md` (authoritative, above everything else), `coach_answers_round2.md`, `coach_answers_full.md`, `generator_spec_v1.json` 1.2.0 (`inputs_schema`, `plan_editing`, `legal_and_privacy` and `output` are the machine twin of this file; `adaptation` is a retired stub), `BLAZE_CAMP_BRAIN.md` §13-14, `12_volume_algorithm_v1` v1.2 (stairway, focus sets, time vs minimums), `05_session_architecture` v1.2 (groups, templates), `06_periodization` v1.2 (plan shapes, block end, calendar), `04_profiles.json` v1.2 (sport and activity profiles), `DISCLAIMER.md`, `DISCLAIMER.es.md`, `LICENSE`.
 
 **Map.** §0 one page · §1 your decisions · §2 no check-ins: the whole plan up front · §3-5 the options and the recommendation · §6 roadmap · §7 how it is built · §8 open source (MIT) · §9 cost · §10 risks · §11 decisions for you · §12 start flow: health check, terms and release · §13 sport and activity picker · §14 views, editing, screenshots and exports · §15 weight guidance · Appendix E for the engineer · History (v1.1) · v1.2 verification log.
 
@@ -55,19 +153,19 @@ What changed from v1.1. Each change is applied in the tables, examples and contr
 3. **Nothing is kept.** No accounts, no server, no email field; Blaze Camp never sees the answers or the plan. People keep their plan as an image, PDF, sheet, link or file. [APPROVED, R3-GEN-01]
 4. **As few clicks as possible, made for the phone.** One question per screen with big buttons, smart defaults, "More options" folded away; a client gets from the link to a plan in about 14 taps (INFERRED count, §12.6). [R2-GEN-02; R3-VOL-04]
 5. **See the whole thing at a glance.** One toggle switches between the **Block** (all 12 weeks), the **Week** and the **Day**, with "show" chips (exercises, sets × reps, effort, cardio, jumps and throws). [R2-GEN-02; layout PROPOSED, §14]
-6. **Change it yourself.** Switch off today's jump / throw block or core block (a pickleball player with sore calves), remove or add exercises or whole blocks, and turn on the suggested supersets to save time. Every screenshot says what can be switched off. [APPROVED, R3-SES-02; layout PROPOSED, §14.5]
-7. **Not enough time? It says so first.** When the days and minutes can't hold your minimums, the tool offers another day or longer sessions; if the person keeps their time, it trains fewer muscle groups directly (big movers first; it also keeps your focus muscles, PROPOSED, N-PROD-27), suggests supersets, and the stairway still climbs on every group it trains. [APPROVED, R3-SES-02; focus muscles kept INFERRED from R3-SES-01]
+6. **Change it yourself.** Switch off today's jump / throw block or core block (a pickleball player with sore calves), remove or add exercises or whole blocks, change the sets of any day or week, and turn on the suggested supersets to save time. Nothing is dropped automatically: each day names the easiest things to remove and you decide. Every screenshot says what can be switched off. [APPROVED, R3-SES-02; v1.3 COACH-CX CX-02, CX-04, COACH-R4 R4-SES-04; layout PROPOSED, §14.5]
+7. **Sized by exercises, not by minutes.** The form does not ask how long you want to train. A session holds the number of exercises that fits the person (general fitness and fat loss 5-7, aesthetics 6-8, strength 5-6, bootcamp 5-7 stations, field athletes up to 12, older adults 5-6), built on your own day templates. Each day shows an average time as information only; nothing is cut or changed because of time. With 2 training days every big muscle is still trained, at about 6-8 sets a week, and the plan suggests a third day. [v1.3: COACH-CT CT-01; COACH-R4 R4-SES-01, R4-SES-02, R4-SES-03, R4-SES-05. Retired: "Not enough time? It says so first", R3-SES-02's time order]
 8. **Focus muscle 1 and Focus muscle 2.** Optional: each gets 1 to 3 extra sets a week on top of a balanced plan. [APPROVED, R3-SES-01]
 9. **Screenshot and send.** One tap saves the whole 12-week block or one week (or one day) as an image a coach can text to a client; also print / PDF, a Google Sheets / Excel download with your BYOP columns, a plan link and a plan file. [R2-GEN-02; §14]
-10. **Health check, coach skip, own risk every time.** Clients answer a short Blaze Camp health check (written by a lawyer in English and Spanish, with a link to the official PAR-Q+); coaches can run it with their client or skip it with your legal warning. **Everyone, client or coach, ticks "use at my own risk + terms + liability release" every time a plan is built.** [APPROVED, R3-GEN-01; R2-GEN-03; §12]
+10. **Health check, coach skip, own risk every time.** Clients answer a short Blaze Camp health check (written by a lawyer in English and Spanish, with a link to the official PAR-Q+); coaches can run it with their client or skip it with your legal warning. **Everyone, client or coach, ticks "use at my own risk + terms + liability release" every time a plan is built. v1.3: the tick is required - no plan is generated without it - and a short "liability released" line is printed at the top and the bottom of every plan, in English and Spanish.** [APPROVED, R3-GEN-01; R2-GEN-03; v1.3 COACH-R4 R4-SCP-01, R4-SCP-02; §12]
 11. **Only workouts, nothing about sleep or stress.** [R2-GEN-04]
 12. **Every popular US sport, with positions, swimming included; and a "Stay athletic and active" door** for gen-pop people who want pickleball, padel, tennis, golf, HYROX, rec leagues, running, hiking or skiing, with optional play days and an event date. [COACH-CHAT 2026-10-08; R2-GEN-05; APPROVED R3-ATH-05; §13]
-13. **Weights in plain words.** "Leave 2 reps in the tank (RPE 8)": 3 in the tank early, 2 in the middle, 1-2 late, 1 plus a few extra-hard sets in the last week; percentages only with a recent tested best on a barbell main lift; Olympic lifts explained as power. [R2-GEN-06; APPROVED R3-VOL-04; §15]
-14. **When a block ends, it ends.** The last page recommends an easy week and then building the next block one step up (or a maintenance plan); the easy week is a recommendation, not a rule. Holidays go between blocks. [APPROVED, R3-PER-01]
-15. **Videos optional.** A "Watch how" link opens a YouTube search; your own videos replace it as you film them. [R2-GEN-02; §7.3]
+13. **Weights in plain words.** "Leave 2 reps in the tank (RPE 8)": 3 in the tank early, 2 in the middle, 1-2 late, 1 plus a few extra-hard sets in the last week; percentages only with a recent tested best on a barbell main lift; Olympic lifts explained as power. v1.3: every lift prints the rule for adding weight ("when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8"); no number is promised for a week (COACH-R4 R4-PRG-03). [R2-GEN-06; APPROVED R3-VOL-04; §15]
+14. **When a block ends, it ends.** The last page recommends an easy week and then building the next block one step up (about 5 % above the last start, never above the level's top; COACH-R4 R4-PRG-04) (or a maintenance plan); the easy week is a recommendation, not a rule. Holidays go between blocks. [APPROVED, R3-PER-01]
+15. **Videos: a YouTube search, never someone else's link.** A "Watch how" link opens a YouTube search for the exercise name, and the exact name can be copied with one tap; your own videos replace it as you film them. [R2-GEN-02; v1.3 COACH-R4 R4-LIB-05; §7.3]
 16. **English first, full Spanish switch;** legal texts legally equivalent in both languages. [APPROVED, R2-GEN-08; R3-GEN-01]
 17. **Default exercise in every slot, with a dropdown to swap within the same category;** coaches can add their own rules; your hard rules stay locked for what the tool builds. [COACH-ANSWER GEN-04, GEN-08; mechanism PROPOSED]
-18. **Open source under MIT,** to you, Blaze Camp and BFit Studios Corp., with the disclaimer in English and Spanish. [APPROVED, R3-GEN-01]
+18. **Open source under MIT,** to you, Blaze Camp and BFit Studios Corp., with the disclaimer in English and Spanish. [APPROVED, R3-GEN-01] v1.3: it describes itself as a complete coaching model from the experience of Coach Lalo (Gerardo Vera), Master NASM coach - your intellectual property - with no "world's best" or injury-prevention claims (COACH-R4 R4-REL-03).
 
 **The plan in one line [v1.2; R3-VOL-02, R3-VOL-04, R3-GEN-01]:** phase 1 the plan website (Option A with plan editing; the Google Sheet as a download, Option C) → open source under MIT (Option D) once you approve v1. The weekly check-in (Option B) is retired.
 
@@ -131,7 +229,7 @@ What changed from v1.1. Each change is applied in the tables, examples and contr
 | R3-VOL-04 | RIGHT on the stairway in numbers, and: "anybody can just plug in the numbers of what they want as far as weeks and sport or goals. The program would just kick itself out ... I don't want people to be checking back on their phone in their program ... very simple for them to see the whole thing ahead of time." | The plan is generated once and shown whole (Block view). Its stairway (about 3 % a week to halfway, about 5 % after, each group at its ceiling in the last week) and the effort drift (3 → 2 → 1-2 → 1 RIR + intensifiers) are the only progression (§2.2, §15). |
 | R3-VOL-01 | PARTLY: rear delts are "part of the shoulder cap"; "I wouldn't categorize the rear delt as an individual muscle ... People and coaches should always be able to add more rear delts." | The Focus picker has one "Shoulders" choice; the floor is counted on the shoulders group; "add exercise" offers rear-delt work (§14.5). Numbers in `12` v1.2. |
 | R3-VOL-03 | RIGHT: an added set alternates between Monday's and Thursday's first exercise for the muscle; extra small-muscle sets become a short bonus exercise on the optional day or on a day that already trains that muscle, never as that day's only exercise for it. | No screen; the plan shows it in the Block view as the stairway's added sets. |
-| R3-SES-02 | RIGHT on the time-vs-minimums order, and: "Recommend doing supersets so that it's a faster workout ... they should be able to turn off that day's athletic training or that day's core training and just focus on resistance ... they can delete certain exercises ... The options should be: Recommend supersets; Adding or removing exercises or blocks within the training session." | The time check on the schedule screen (S5, C19-C20); plan editing: block switches, add / remove exercises or blocks, superset suggestions (§14.5). |
+| R3-SES-02 | RIGHT on the time-vs-minimums order (**superseded by CT-01 in v1.3**), and: "Recommend doing supersets so that it's a faster workout ... they should be able to turn off that day's athletic training or that day's core training and just focus on resistance ... they can delete certain exercises ... The options should be: Recommend supersets; Adding or removing exercises or blocks within the training session." | The time check on the schedule screen (S5, C19-C20); plan editing: block switches, add / remove exercises or blocks, superset suggestions (§14.5). |
 | R3-SES-01 | RIGHT on counting focus groups (hips = glutes + hamstrings; shoulders = front + side + rear delts; calves one exercise × 3 sets per leg day; field athletes 2-4 exercises per group trained that day inside 12 + 2 core; cross pattern by default, same-pattern template for size-focused and high-level athletes), and: "they should be able to choose one of the main muscles that they want to work on the most ... an extra set or two or three ... a main focus muscle 1 and a main focus muscle 2." | Focus muscle 1 / Focus muscle 2 on the goal screen, +1 to +3 weekly sets each (S3, C21). His example of a woman choosing glutes is only an example: no sex field. |
 | R3-PER-01 | RIGHT, and: "maintenance weeks are a recommendation. They don't have to be mandatory ... when the block ends, it just ends, and then you have to go back into the app and build whatever you want next." | The last page of every plan recommends an easy week and the next block; the person builds it (S18, C15). Holidays are planned between blocks; a holiday marked inside a running block ends that block there. |
 | R3-ATH-01 | RIGHT: swimming dryland defaults (3 gym days + 1 optional, 2 for younger or lower-level swimmers; 0 extra cardio; jumps mostly ballistic, 25 % plyometric at the end of a block; Olympic lifts 2-3 days; shoulder care every session, never bands; a 2-week dryland taper lined up with the swim taper before the main championship meet). | The swimming picker asks the championship meet date (F14) so the taper lands on it (§13.2). |
@@ -141,7 +239,26 @@ What changed from v1.1. Each change is applied in the tables, examples and contr
 | R3-ATH-05 | RIGHT: play days (hardest gym day ≥ 48 h before the biggest play day; 3+ play sessions a week drop the extra agility drills and half the jumps); a 45-60+ minute session of the activity counts as one of the 3 cardio sessions (up to 2); an optional event date (hardest weeks end 1 week before, then 1 easy week at about half the sets). | Play days, play length and event date under More options for stay-active users (§13.3). Answers N-PROD-18. |
 | R3-GEN-01 | RIGHT on the lawyer-written Blaze Camp health check (EN / ES) with a link to the official PAR-Q+, the coach skip with a legal warning and the release at every build, and: "there probably should be a 'use at your own risk' checkbox. I don't know if we should be keeping any kind of data, but I don't want any data kept ... Terms and conditions and liability releases. They should all be in that." Plus: MIT to Lalo Vera, Blaze Camp and BFit Studios Corp.; the README and repo state that people download and use it at their own expense and risk, and that anyone using it for clients needs their own liability release; a legally equivalent Spanish version. | §12 (one box, every build, printed not stored), §2.5 and §7.5 (nothing kept), §8 (MIT; `LICENSE`, `DISCLAIMER.md`, `DISCLAIMER.es.md` already exist as drafts for a Florida attorney). |
 
+### 1.4 Round 4, CT-01 and CX (what you decided on 2026-10-10 and 2026-10-11)
+
+| ID | Your verdict and words | What it means for the product |
+|---|---|---|
+| CT-01 | "You need to stop trying to be responsible for the people's time ... I want you to not get complicated over the time." | no time-fitting anywhere; a time estimate as information |
+| CX-01..03 | "go ahead and increase faster if thats the need, they could edit accordingly"; the same sets may hold while reps or load progress | the stairway reaches its final sets; a note on big weeks |
+| CX-04 | "it should be all editable as they need to ... it will be editable, but they might not need to most of the time" | a complete, editable template |
+| R4-SES-01 | RIGHT: "Drop it. We don't need it." | no session-length question |
+| R4-SES-02 | RIGHT: "These are templates that we're giving them for them to add or take away" | exercises per session by client type |
+| R4-SES-03 | RIGHT | 2 days: every big muscle at about 6-8 weekly sets; a third day suggested |
+| R4-SES-04 | PARTLY: "they get to pick what they want to keep or what they want to take away" | nothing dropped automatically; "easiest to remove" hints |
+| R4-SES-05 | NOT RIGHT, with your A / B template | your day templates are the skeleton |
+| R4-PRG-01..04 | RIGHT | arrival in the last week; no hard limit with a note; rule-based progression; the next block |
+| R4-LIB-01..05 | RIGHT | optional add-ons; carries by distance or time; mid-range pull and incline first; swap notes; YouTube search and copy-the-name |
+| R4-SCP-01, R4-SCP-02 | RIGHT / PARTLY: "they need to click it before the plan shows" | the release is a required gate and a printed line |
+| R4-SCP-03 | RIGHT | confidence labels on sport profiles, not on plans |
+| R4-REL-01..03 | RIGHT / PARTLY | model v1.3 is the product; the engine built now, experimental; the credit line |
+
 ---
+
 
 ## 2. No check-ins: the whole plan up front, adjusted by people and coaches [APPROVED, R3-VOL-02, R3-VOL-04]
 
@@ -209,7 +326,7 @@ All options use the same engine (the model turned into code). The engine is the 
 | **S2 · About you** | Age; body weight (required, GEN-02); training experience in years, months off in the last 2 years, "I used to compete" (PRG-05) on the same screen. The level it chose and why, in plain words. No sex question (GEN-02). No sleep, stress or job questions (R2-GEN-04). |
 | **S3 · Goal** | Build muscle · Get stronger · **Train for my sport** · **Stay athletic and active** (§13.3) · Lose fat · General fitness and health · Hybrid / CrossFit. Then, where it applies: lift style; gym or bootcamp format (PRG-03). One optional line for every goal (competitive field athletes PROPOSED, N-PROD-25): **Focus muscle 1 · Focus muscle 2** ("Each gets 1 to 3 extra sets a week on top of a balanced plan"; glutes, quads, hamstrings, back, chest, shoulders, biceps, triceps, calves, core, V-taper) [APPROVED, R3-SES-01; list PROPOSED]. |
 | **S4 · Sport or activity** | "Train for my sport" → competitive or recreational → sport (every popular US sport, searchable, EN / ES) → position or event group → level of play → next season start date (or in season until / competition date; swimmers give the main championship meet date) → practice days and game days (§13.2; R2-GEN-05; R3-ATH-01). "Stay athletic and active" (or recreational) → pick up to two activities, no position or season (§13.3; GEN-02); under More options: the days they play, how long they usually play, and an event date [APPROVED, R3-ATH-05]. |
-| **S5 · Schedule and time check** | Days per week, which days, session length (45-60 min suggested for general / fat loss; about 90 min, max 120, for athletes, bodybuilders and powerlifters, UNI-09), start date. **Time check [APPROVED order, R3-SES-02]:** when the days and minutes can't hold the minimums (10 sets a week per trained group, 2-4 exercises per group trained that day, 3 calf sets per leg day, a climbing stairway), the screen says so right away with the numbers and offers **Add a day** or **Make sessions N min**; if the person taps **Keep my time**, the plan trains fewer groups directly (big movers first, APPROVED; the focus muscles kept too, INFERRED from R3-SES-01 and PROPOSED, N-PROD-27; arms, calves and shoulder isolation from the big lifts), suggests supersets, and still climbs on every group it trains (C19, C20). It never squeezes 2-4 exercises per group into a day that can't hold them. |
+| **S5 · Schedule** (v1.3: no session length, no time check - COACH-CT CT-01, COACH-R4 R4-SES-01; with 2 days the screen says every big muscle gets about 6-8 weekly sets and suggests a third day, R4-SES-03) | *v1.2 text, retired:* Days per week, which days, session length (45-60 min suggested for general / fat loss; about 90 min, max 120, for athletes, bodybuilders and powerlifters, UNI-09), start date. **Time check [APPROVED order, R3-SES-02]:** when the days and minutes can't hold the minimums (10 sets a week per trained group, 2-4 exercises per group trained that day, 3 calf sets per leg day, a climbing stairway), the screen says so right away with the numbers and offers **Add a day** or **Make sessions N min**; if the person taps **Keep my time**, the plan trains fewer groups directly (big movers first, APPROVED; the focus muscles kept too, INFERRED from R3-SES-01 and PROPOSED, N-PROD-27; arms, calves and shoulder isolation from the big lifts), suggests supersets, and still climbs on every group it trains (C19, C20). It never squeezes 2-4 exercises per group into a day that can't hold them. |
 | **S6 · Plan type and tests** | **12 weeks (recommended)** · **8 weeks** · **Maintenance** (you choose the weeks, 1-8; R2-PER-06) · **Full year** (gen-pop, tunable; R2-PER-01, R2-PER-02). "Week by week" is no longer offered (it ran on check-ins; R3-VOL-02); the Week view of any plan shows it one week at a time (N-PROD-22). "Have you finished a Blaze Camp 12-week plan before?" → how many, and "Did you finish your last block?" (yes → the next starts one step up; no → the same start; PER-01, R2-VOL-06). Tests: strength / cardio / speed and agility / jumps / body weight / "No need for testing", **before the block (or in week 1) and at the end** (R2-PER-07). "Never from zero": anyone not coming off a completed training block (new and returning users, Level 1) only sees safe choices (a 5- or 3-rep max, beginners 5-8; cardio and speed at 80-90 % effort; never a 1-rep max or an all-out mile). A 1-rep max ('Work up to 1RM') is offered to intermediate and up only at the end of a completed block, or at the start when a Level 2-3 user taps "I just finished a training block" [gate PROPOSED; R2-PER-07; 06 §6]. |
 | **S7 · Equipment** | Where you train, extra equipment, machines; no band or chain options (EQ-01, EQ-12). |
 | **S8 · Pain and injuries** | Areas, side, how bad, what makes it worse. "Severe" → refer (V1). |
@@ -334,7 +451,7 @@ Approved as phase 1.1 in round 2 (R2-GEN-02, R2-GEN-01), retired in round 3: "we
 | Block / week / day views with toggles (R2-GEN-02) | Yes | Partly | as A |
 | Screenshot the whole 12 weeks or one week (R2-GEN-02) | Yes (block / week / day images) | Partly (print from Sheets) | as A |
 | Switch off a day's athletic or core block, add / remove exercises or blocks, superset suggestions (R3-SES-02) | Yes | By hand (edit cells) | as A, and deeper (fork) |
-| Time check with an offer (R3-SES-02) | Yes | Only on the intake page | as A |
+| ~~Time check with an offer (R3-SES-02)~~ retired in v1.3 (CT-01) | Yes | Only on the intake page | as A |
 | Focus muscles 1 / 2 (R3-SES-01) | Yes | Yes (intake page) | as A |
 | No data kept (R3-GEN-01) | Yes | Yes (C1); C2 writes to the user's Drive | Yes (a fork's privacy is the fork's job, DISCLAIMER §7) |
 | Health check, coach skip, own risk + terms + release every build (R3-GEN-01) | Yes | Only with the website in front | as A |
@@ -374,8 +491,8 @@ The v1.1 recommendation (A, then B with the weekly check-in, then D) is supersed
 
 | Phase | What ships | Your part | Done when | Rough time |
 |---|---|---|---|---|
-| **0 · Freeze the model** (in progress) | Model v1.2 with rounds 1-3 folded in; the runtime model files (E3); the merged sport profiles (`04_profiles.json` v1.2); the engine (v0.4) with the test suite of your hard rules, the time check, focus muscles and group floors; **sample plans for you to grade**: your seven (R2-GEN-07: swimming, football, soccer, CrossFit-style bootcamp, bootcamp, full-body aesthetics, push / pull / legs) plus the pickleball gen-pop bonus sample. | Grade the plans; answer the few round-4 questions (§11.2); pick plan names (N-PROD-10). | You sign off the sample plans. | 2-3 weeks (team), ~8 hours of yours |
-| **1 · MVP: plan website (Option A)** | Start flow (role → health check or coach skip → intake with focus muscles, sport / activity, play days and event date → schedule with the time check → … → own risk + terms + release, §12); Block / Week / Day views with show chips (§14); **plan editing** (block switches, add / remove exercises or blocks, superset suggestions, reset; §14.5); swaps, cues, "Watch how" links, Blaze Camp videos where they exist; instruction block with "How to adjust this plan"; weight guidance (§15); plan types 12 / 8 weeks, maintenance (chosen weeks), full year (tunable, holidays between blocks); tests at start and end; the end-of-block page; save block / week / day as image; print / PDF; Excel / Google Sheets download; plan link and plan file; share; calendar; EN / ES; lb / kg. **No accounts, no data kept, no check-in.** | A Florida lawyer turns `DISCLAIMER.md` / `DISCLAIMER.es.md` into the final Terms and Release and writes the short health check (EN / ES); check the Spanish; approve cue lines and the "How to adjust" lines; send videos whenever you film them (optional). | 20-50 of your clients and coaches use it for 4 weeks and send feedback by email or in person (nothing is collected by the site). | 13.5-20 developer-weeks (about 3.5-5 months) |
+| **0 · Freeze the model** (in progress) | Model v1.3 with rounds 1-4, CT-01 and CX folded in (v1.3 note: the engine is now 0.5.0, template-first with no time check); the runtime model files (E3); the merged sport profiles (`04_profiles.json` v1.2); the engine (v0.4) with the test suite of your hard rules, the time check, focus muscles and group floors; **sample plans for you to grade**: your seven (R2-GEN-07: swimming, football, soccer, CrossFit-style bootcamp, bootcamp, full-body aesthetics, push / pull / legs) plus the pickleball gen-pop bonus sample. | Grade the plans; answer the few round-4 questions (§11.2); pick plan names (N-PROD-10). | You sign off the sample plans. | 2-3 weeks (team), ~8 hours of yours |
+| **1 · MVP: plan website (Option A)** | Start flow (role → health check or coach skip → intake with focus muscles, sport / activity, play days and event date → schedule (days; no session length) → … → own risk + terms + release, §12); Block / Week / Day views with show chips (§14); **plan editing** (block switches, add / remove exercises or blocks, superset suggestions, reset; §14.5); swaps, cues, "Watch how" links, Blaze Camp videos where they exist; instruction block with "How to adjust this plan"; weight guidance (§15); plan types 12 / 8 weeks, maintenance (chosen weeks), full year (tunable, holidays between blocks); tests at start and end; the end-of-block page; save block / week / day as image; print / PDF; Excel / Google Sheets download; plan link and plan file; share; calendar; EN / ES; lb / kg. **No accounts, no data kept, no check-in.** | A Florida lawyer turns `DISCLAIMER.md` / `DISCLAIMER.es.md` into the final Terms and Release and writes the short health check (EN / ES); check the Spanish; approve cue lines and the "How to adjust" lines; send videos whenever you film them (optional). | 20-50 of your clients and coaches use it for 4 weeks and send feedback by email or in person (nothing is collected by the site). | 13.5-20 developer-weeks (about 3.5-5 months) |
 | **2 · Open source (Option D) and coach tools without accounts** | Public repository under MIT with `LICENSE`, `DISCLAIMER.md` / `DISCLAIMER.es.md` and a bilingual README (own risk, own release for clients); docs for rule packs and for adding exercises; coach tools that keep nothing on a server: a rule-pack editor (rules saved as a file the coach keeps), "start from a saved answers file" to rebuild a client's next block, Olympic weightlifting as its own program type (R2-GEN-06; N-PROD-17); optional Google Drive export (C2). | Approve the public release and the README; decide coach tools free or paid (N-PROD-09). | First outside coaches use the repo or rule packs. | 5-9 developer-weeks + legal review |
 | **Model updates** (ongoing) | New model versions when you change a rule: you review sample plans and the feedback people choose to send; each approved change ships with a changelog and a new `model_version`. No learning from user data (R3-GEN-01). | Approve or reject each change. | - | as needed |
 
@@ -393,7 +510,7 @@ The Spanish switch, the video map and the coach rule layer are built into the MV
   MODEL (data files, versioned)          ENGINE (code, runs on the phone)   RENDERERS (code)
   +------------------------------+      +------------------------------+   +---------------------------+
   | rule tables (JSON)           |----->| build the whole plan once    |-->| block / week / day views  |
-  | exercise catalog (JSON)      |      | time check + focus muscles   |   |   with edit controls      |
+  | exercise catalog (JSON)      |      | session size + focus muscles |   |   with edit controls      |
   | templates, stairway shapes   |      | apply the person's edits     |   | block, week, day images   |
   | sport + activity profiles    |      | explain each choice          |   | print / PDF               |
   | coach rule packs (files)     |      | check the plan vs rules      |   | Excel / Google Sheets     |
@@ -414,7 +531,7 @@ The Spanish switch, the video map and the coach rule layer are built into the MV
 
 | Layer | Who owns it | Can it be changed? | Examples |
 |---|---|---|---|
-| 1 · Locked Blaze Camp rules | you | No (only in a fork of the open-source code, which is then not Blaze Camp) | never to failure on heavy compounds; no V-squat; power before strength; horizontal before vertical; core never skipped by the generator (GEN-08); no bands or variable resistance (EQ-01, EQ-12); athletic sets never count toward muscle sets (VOL-10); KB swings are ballistic and never count as glute sets (R2-VOL-05); weekly total rise < 10 % (UNI-05); no deload or maintenance week inside a block (R2-VOL-07); **no data kept; no check-ins or feedback inputs** (R3-GEN-01, R3-VOL-02); **the own-risk + terms + release tick before every build** (R2-GEN-03, R3-GEN-01); no sex-based rules (ATH-09) |
+| 1 · Locked Blaze Camp rules | you | No (only in a fork of the open-source code, which is then not Blaze Camp) | never to failure on heavy compounds; no V-squat; power before strength; horizontal before vertical; core never skipped by the generator (GEN-08); no bands or variable resistance (EQ-01, EQ-12); athletic sets never count toward muscle sets (VOL-10); KB swings are ballistic and never count as glute sets (R2-VOL-05); no time-fitting (CT-01); nothing dropped automatically (R4-SES-04); the terms and release accepted before a plan is generated (R4-SCP-02); *(v1.3 removed "weekly total rise < 10 %": CX-01, R4-PRG-02)*; no deload or maintenance week inside a block (R2-VOL-07); **no data kept; no check-ins or feedback inputs** (R3-GEN-01, R3-VOL-02); **the own-risk + terms + release tick before every build** (R2-GEN-03, R3-GEN-01); no sex-based rules (ATH-09) |
 | 2 · Blaze Camp defaults | you | Yes, by a coach's rule pack | starting sets by level and the floor of 10 sets per trained group (VOL-01, R2-VOL-04, R2-VOL-06, R3-SES-01); helpers count 0.25 (VOL-09); heavy squat and heavy deadlift on two different days (R2-SES-01, R2-SES-02); 3 calf sets per leg day (VOL-17); session lengths (UNI-09); caps per level ("this is all customizable", R2-VOL-06); focus add +1 to +3 (R3-SES-01); 60+ and racket-50+ defaults (R3-ATH-02) |
 | 3 · Coach rule pack | the coach using the tool | Yes | "My youth clients under 15 do no Olympic lifts from the floor"; "Tennis players: lower body 85 % unilateral"; "Always put Hip Thrust Machine first on glute-focus days"; "Athletic block off on the day after pickleball" (a toggle rule, R3-SES-02); a **pro level** that lets one focus muscle go above 30 sets for a very advanced client (R2-VOL-06; PROPOSED) |
 | 4 · Client preferences and edits | the client | Yes, within the layers above for what the tool offers | swaps in the dropdown (EQ-10), core block position (ATH-11), variety on / off (PER-03), optional days separate or added on (ORD-10), more or less cardio (R2-SES-06), year blocks re-ordered or re-themed (R2-PER-02), 60+ and racket-50+ switches with the warning (R3-ATH-02), Focus muscle 1 / 2 (R3-SES-01), superset suggestions on / off, and the plan edits: block switches, add / remove exercises or blocks (R3-SES-02) |
@@ -447,7 +564,7 @@ His words: "They can just look up the videos on their own on YouTube. No need to
 * **Neutral Latin American Spanish**, with the common English gym term in brackets where gyms use it ("Empuje de cadera (Hip Thrust)", "Cargada colgante (Hang Clean)"). The coach approved this choice: "That sounds right."
 * **Who approves:** the coach or a coach he trusts approves every line. AI drafts first. A missing Spanish line falls back to English and is listed for review, so the site never breaks.
 * **Legal text** (health check, terms and release, warnings) is translated "as legally equivalent as possible in English and Spanish" (R3-GEN-01) and reviewed by a lawyer in both languages; the base texts are `DISCLAIMER.md` and `DISCLAIMER.es.md`, and the lawyer decides which language governs (the Spanish draft already says the reviewing lawyer decides). Legal lines never fall back to English silently.
-* Volume [INFERRED]: about 450-650 screen phrases (the check-in phrases are gone; the editing controls, time check, focus muscles and terms are new), about 350-590 exercise names, about 80-120 sport, position and activity names, one cue line per exercise, his instruction block with the "How to adjust" lines, the effort and feeling labels of the sheet, the explanations.
+* Volume [INFERRED]: about 450-650 screen phrases (the check-in phrases are gone; the editing controls, focus muscles and terms are new; v1.3: the time-check phrases are gone too, COACH-CT CT-01), about 350-590 exercise names, about 80-120 sport, position and activity names, one cue line per exercise, his instruction block with the "How to adjust" lines, the effort and feeling labels of the sheet, the explanations.
 * **Units:** pounds by default in the US, kilograms elsewhere, switchable at any time (R2-GEN-08).
 
 ### 7.5 Data: none collected, none kept [APPROVED, R3-GEN-01]
@@ -497,8 +614,8 @@ His words: "for people that are downloading the repo, eventually the public repo
 
 | Piece | Developer-weeks | Needed by |
 |---|---|---|
-| Model compile tool, engine (rule tables → whole plan, stairway, groups and floors, focus muscles, time check, explanations, checks), edit layer and tests | 6-8.75 | A, C, D |
-| Intake screens (few-click flow, focus muscles, time check, play days / event date), sport and activity picker | 1.5-2.25 | A |
+| Model compile tool, engine (rule tables → whole plan, stairway, groups and floors, focus muscles, ~~time check~~ (retired in v1.3, COACH-CT CT-01; the estimate is the v1.2 one), explanations, checks), edit layer and tests | 6-8.75 | A, C, D |
+| Intake screens (few-click flow, focus muscles, ~~time check~~ (retired in v1.3; no session-length question, COACH-R4 R4-SES-01), play days / event date), sport and activity picker | 1.5-2.25 | A |
 | Health check, coach skip, own risk + terms + release flow and the printed stamp | 0.5-0.75 | A |
 | Block / week / day views with show chips, exercise sheet, swaps, cues, video links | 2-2.25 | A |
 | Plan editing UI (block switches, add / remove exercises or blocks, superset switches, reset, notes) | 1-1.5 | A |
@@ -585,6 +702,8 @@ His words: "for people that are downloading the repo, eventually the public repo
 
 ### 11.2 New questions (round 4 candidates; only what blocks the product)
 
+> **Status after round 4 (v1.3).** Round 4 was re-scoped after CT-01 and asked other questions (section V1). N-PROD-27 is moot (the time check is retired). N-PROD-13's box is now a required gate (R4-SCP-02). The other N-PROD questions below were not asked and keep their defaults. New open questions: `BLAZE_CAMP_BRAIN.md` §0d.3.
+
 | ID | Question | Our suggestion |
 |---|---|---|
 | N-PROD-21 | "No data kept": may the site remember the last plan **on that one phone only** (never sent anywhere; one tap clears it), or should it forget everything when the page closes (people keep their image, PDF, sheet, link or file)? The same question covers the optional Google Drive export (C2), which needs a Google sign-in. | Forget everything by default; offer a "Keep this plan on this phone" switch, off by default. No Drive export in the MVP. |
@@ -593,7 +712,7 @@ His words: "for people that are downloading the repo, eventually the public repo
 | N-PROD-24 | Your words: own risk, terms and release "should all be in that". One box for all three, or separate ticks if the lawyer prefers? | One box (fewest clicks), unless the lawyer asks for separate ticks. |
 | N-PROD-25 | Focus muscles for competitive field athletes (football, soccer …): offer them, or keep athletes on their sport profile only? | Offer them, with a one-line note that the sport work comes first. |
 | N-PROD-26 | Round 1 (VOL-01): the tool "eventually will be something that learns from the data of all the people that use it". With "no data kept", that is off. Off for good, or only for now? | Off; the model improves through your reviews and the feedback people choose to email. |
-| N-PROD-27 | Time check (R3-SES-02): when someone keeps a short schedule, you approved "big movers first; arms, calves and rear delts from compound credit". If that person picked a Focus muscle that is an arm or the calves (R3-SES-01), is it still trained directly, or does it also come from compound credit? | Keep the Focus muscles trained directly (they are what the person asked for) and trim another small group instead; say so on the time-check screen. |
+| N-PROD-27 (**moot in v1.3**: the time check is retired, CT-01) | Time check (R3-SES-02): when someone keeps a short schedule, you approved "big movers first; arms, calves and rear delts from compound credit". If that person picked a Focus muscle that is an arm or the calves (R3-SES-01), is it still trained directly, or does it also come from compound credit? | Keep the Focus muscles trained directly (they are what the person asked for) and trim another small group instead; say so on the time-check screen. |
 
 ---
 
@@ -614,7 +733,7 @@ Who is this plan for?  ---- "Me" (client) ------------------> 12.2 Blaze Camp he
    |
    v
 About you -> Goal (+ Focus muscle 1 / 2) -> Sport or activity (+ play days, event date)
-   -> Schedule (+ time check: add a day / longer sessions / keep my time) -> Plan type and tests
+   -> Schedule (days and weekdays; v1.3: no session length, no time check) -> Plan type and tests
    -> Equipment -> Pain -> (More options)
    |
    v
@@ -645,6 +764,8 @@ His words (round 2): "If you're a coach, it should be able to be toggled ... I w
 * A coach can make Skip the default on the page they have open (fewest clicks; nothing is stored by Blaze Camp), but the warning line stays visible and the box is still ticked every time [PROPOSED].
 
 ### 12.4 Terms, release and own risk: everyone, every build [APPROVED, R3-GEN-01]
+
+> **Changed in v1.3** (COACH-R4 R4-SCP-01, R4-SCP-02). The tick is a required gate: without it no plan is generated, and the check runs before the health check. A short release line is printed on every plan (top and bottom of a full plan; a short line on every block, week and day view), in English and Spanish, linking `DISCLAIMER.md` / `DISCLAIMER.es.md`. Everyone may use the plans on their own. Where the text below differs, the v1.3 section at the top of this file wins.
 
 His words: "there probably should be a 'use at your own risk' checkbox. I don't know if we should be keeping any kind of data, but I don't want any data kept. It doesn't matter if they click it; it comes out. If they click it, they understand it ... Terms and conditions and liability releases. They should all be in that." (R3-GEN-01); "We want everyone that's using it, every time they're going to get it, to release liability, whether it be a client or a coach." (R2-GEN-03)
 
@@ -684,21 +805,21 @@ Keys follow the word-list convention (`ui.*`, `health.*`, `release.*`, `warn.*`,
 | C16 `release.own_risk` | ☐ I accept the Terms and the Release of Liability, and I use this plan at my own risk. (R3-GEN-01; one unticked box) [LEGAL REVIEW] | ☐ Acepto los Términos y la Liberación de Responsabilidad, y uso este plan bajo mi propio riesgo. [REVISIÓN LEGAL] |
 | C17 `edit.hint` | You can change this plan: switch off today's jump / throw block or core block, remove or add exercises or blocks, and do the suggested supersets to save time. (R3-SES-02) | Puedes cambiar este plan: desactiva hoy el bloque de saltos / lanzamientos o el bloque de core, quita o agrega ejercicios o bloques, y haz las superseries sugeridas para ahorrar tiempo. |
 | C18 `edit.superset_suggested` | Superset suggested: do these two back to back, then rest. Saves about {minutes} min. | Superserie sugerida: haz estos dos ejercicios seguidos y luego descansa. Ahorras unos {minutes} min. |
-| C19 `time.too_short` | {days} days × {minutes} min can't hold every muscle group at its weekly minimum. Choose one: **Add a day** · **Make sessions {suggested} min** · **Keep my time (train fewer groups directly)** (R3-SES-02) | {days} días × {minutes} min no alcanzan para que cada grupo muscular llegue a su mínimo semanal. Elige una opción: **Agregar un día** · **Hacer sesiones de {suggested} min** · **Mantener mi tiempo (entrenar menos grupos de forma directa)** |
-| C20 `time.kept` | Trained directly this block: {groups}. Not trained directly (time): {others} - they still get work from the big lifts. Supersets are suggested to save time. Every trained group still climbs week by week. | Entrenados de forma directa en este bloque: {groups}. No entrenados de forma directa (tiempo): {others}; igual reciben trabajo de los ejercicios grandes. Se sugieren superseries para ahorrar tiempo. Cada grupo entrenado sigue subiendo semana a semana. |
+| ~~C19 `time.too_short`~~ **RETIRED in v1.3** (CT-01) | {days} days × {minutes} min can't hold every muscle group at its weekly minimum. Choose one: **Add a day** · **Make sessions {suggested} min** · **Keep my time (train fewer groups directly)** (R3-SES-02) | {days} días × {minutes} min no alcanzan para que cada grupo muscular llegue a su mínimo semanal. Elige una opción: **Agregar un día** · **Hacer sesiones de {suggested} min** · **Mantener mi tiempo (entrenar menos grupos de forma directa)** |
+| ~~C20 `time.kept`~~ **RETIRED in v1.3** (CT-01) | Trained directly this block: {groups}. Not trained directly (time): {others} - they still get work from the big lifts. Supersets are suggested to save time. Every trained group still climbs week by week. | Entrenados de forma directa en este bloque: {groups}. No entrenados de forma directa (tiempo): {others}; igual reciben trabajo de los ejercicios grandes. Se sugieren superseries para ahorrar tiempo. Cada grupo entrenado sigue subiendo semana a semana. |
 | C21 `focus.help` | Want extra work for one or two muscles? Focus muscle 1 · Focus muscle 2 (optional). Each gets 1 to 3 extra sets a week on top of a balanced plan. (R3-SES-01) | ¿Quieres trabajo extra para uno o dos músculos? Músculo de enfoque 1 · Músculo de enfoque 2 (opcional). Cada uno recibe de 1 a 3 series extra por semana además de un plan equilibrado. |
 | C22 `intake.activity.play_days` / `.event_date` | Which days do you play? (optional) · Event date (optional): a race, tournament or trip you are getting ready for (R3-ATH-05) | ¿Qué días juegas? (opcional) · Fecha del evento (opcional): una carrera, un torneo o un viaje para el que te preparas |
 | C23 `privacy.nothing_kept` | Blaze Camp keeps none of your answers and none of your plan. Save your plan as an image, PDF, sheet, link or file: it lives only where you save it. (R3-GEN-01) [LEGAL REVIEW] | Blaze Camp no guarda ninguna de tus respuestas ni tu plan. Guarda tu plan como imagen, PDF, hoja de cálculo, enlace o archivo: solo existe donde tú lo guardes. [REVISIÓN LEGAL] |
 
 ### 12.6 Fewest clicks: the express path [R2-GEN-02; R3-VOL-04; counts INFERRED]
 
-Rules: one question per screen; big buttons that move on by themselves; numbers by stepper with a sensible start value; units, language and session length pre-filled; everything optional under "More options"; nothing asked that the engine does not use (R2-GEN-04); nothing asked after the build (R3-VOL-02, R3-VOL-04).
+Rules: one question per screen; big buttons that move on by themselves; numbers by stepper with a sensible start value; units and language pre-filled (v1.3: no session length is asked); everything optional under "More options"; nothing asked that the engine does not use (R2-GEN-04); nothing asked after the build (R3-VOL-02, R3-VOL-04).
 
 | Path | Screens (taps) | About |
 |---|---|---|
-| Client, gym goal | role (1) · health "none apply" (1) · about you: age, weight, years (3) · goal (1) · days (1) · minutes (1, pre-filled) · plan type (1, default 12 weeks) · equipment (1) · pain "nothing" (1) · box + Build (2) | 13-14 taps |
+| Client, gym goal | role (1) · health "none apply" (1) · about you: age, weight, years (3) · goal (1) · days (1) · plan type (1, default 12 weeks) · equipment (1) · pain "nothing" (1) · box + Build (2) | 12-13 taps (v1.3: one fewer, no session length) |
 | + Focus muscles | + 2 | optional |
-| + Time check (only when the schedule is short) | + 1 (add a day / longer sessions / keep my time) | |
+| ~~+ Time check (only when the schedule is short)~~ retired in v1.3 | + 1 (add a day / longer sessions / keep my time) | |
 | Client, "stay athletic and active" | as above + activity (1-2); play days and event date optional (+2-4) | 14-16 taps |
 | Competitive athlete | as above + competitive (1) · sport (1-2, with search) · position (1) · level of play (1) · season start date (2) · practice and game days (2) | 20-22 taps |
 | Coach, skip on by default | role (1) · about the client (3) · goal (1) · … · box + Build (2); or "start from a saved answers file" and change what differs | 11-13 taps |
@@ -848,6 +969,8 @@ Chest-Supported Row      3x10  3x10  4x10  4x10      4x8   4x8
 
 ### 14.5 Editing the plan (R3-SES-02) [APPROVED options; mechanism PROPOSED]
 
+> **Changed in v1.3** (COACH-CX CX-02, CX-04; COACH-R4 R4-SES-04, R4-LIB-01, R4-LIB-04). Everything is editable, the sets of any day or week included; after an edit the totals are recomputed and the plan is marked edited; each day names the easiest things to remove; the plan offers optional add-ons; a swap says what it keeps and loses; supersets are never switched on by a session length (section V4). Where the text below differs, the v1.3 section at the top of this file wins.
+
 His words: "they should be able to turn off that day's athletic training or that day's core training and just focus on resistance. Maybe a pickleball player that played a lot of pickleball has a lot of soreness in their calves, or their connective tissues just don't feel like doing any plies and things like that. Then it could be turned off, or they can delete certain exercises, because an athlete or a coach should be able to modify accordingly. The options should be: Recommend supersets; Adding or removing exercises or blocks within the training session." (R3-SES-02) And: "It's already a template, and you need to adjust it as you need to." (R3-VOL-04)
 
 **What can be changed, and how.**
@@ -859,7 +982,7 @@ His words: "they should be able to turn off that day's athletic training or that
 | **+ Add exercise** | Adds an exercise to a block from that day's categories; the list only offers what the generator could have picked for this person (equipment, level, age, pain and exclusions); rear-delt work is always offered on upper days ("People and coaches should always be able to add more rear delts", R3-VOL-01); default sets: compound 3, isolation 2, calves 3 | as above | R3-SES-02, R3-VOL-01 |
 | **Add / remove a block** | Adds a core superset or monster set anywhere (R2-SES-03), an accessory block or a cardio session; removes any block | as above | R3-SES-02, R2-SES-03 |
 | **Swap** | The same-category dropdown | the exercise block | GEN-04 |
-| **Superset suggested** | Marks a pair that can be done back to back (knee lift + pull, hip lift + push, biceps + rear delts, triceps + side delts, calves + delts, core supersets) with the minutes it saves; a switch turns it into a superset or back. Suggestions show by default (S9); when the schedule is short they are already on (R3-SES-02 step 3) | the pair, every week of the block | R3-SES-02 |
+| **Superset suggested** | Marks a pair that can be done back to back (knee lift + pull, hip lift + push, biceps + rear delts, triceps + side delts, calves + delts, core supersets) with the minutes it saves; a switch turns it into a superset or back. Suggestions show by default (S9); the person switches them on (v1.3: no session length does, CT-01) | the pair, every week of the block | R3-SES-02 |
 | **Reset to the generated plan** | Undoes every edit | the whole plan | PROPOSED |
 
 **What the tool shows after an edit [PROPOSED].** The day's estimated minutes; the weekly sets per focus group for the weeks affected, with a note when a trained group drops below its floor of 10 or stops climbing; a note when a day has no core block ("This day now has no core block") or no athletic block. It never blocks the person's own edit: your locked rules bind what the generator builds and what the "add" list offers, not what people take out of their own plan (§7.2). Remaining exercises keep their planned sets and keep climbing; the sets of a removed exercise are not moved elsewhere automatically; an added exercise follows its group's planned steps from the week it is added.
@@ -868,11 +991,13 @@ His words: "they should be able to turn off that day's athletic training or that
 
 **What every export says.** "You can switch off today's jump / throw block or core block, remove or add exercises or blocks, and do the suggested supersets to save time" (C17), with the optional blocks and suggested supersets marked, so a coach's screenshot tells the client what they can change.
 
-**What the generator still guarantees.** Before any edit, the plan the tool builds follows every rule: the core opener every session (GEN-08), the athletic budget for the sport, 2-4 exercises per group trained that day, calves on leg days, the floor on every trained group and a stairway that climbs to the last week. The time check (§3.1 S5) runs before the plan is built, so people with short sessions start from a plan that fits rather than having to cut it down themselves.
+**What the generator still guarantees.** Before any edit, the plan the tool builds follows every rule: the core opener every session (GEN-08), the athletic budget for the sport, your template complete (v1.3: the A / B days or push / pull / legs), calves on leg days, the floor on every trained group from 3 training days and a stairway that reaches its final sets. v1.3: no time check runs and the tool shortens nothing; the person does, with the "easiest to remove" hints (R4-SES-04).
 
 ---
 
 ## 15. Weight guidance: reps in reserve, RPE, and Olympic lifts as power (R2-GEN-06; drift APPROVED R3-VOL-04) [wording PROPOSED]
+
+> **Changed in v1.3** (COACH-R4 R4-PRG-03). Every lift also prints the rule for progressing: "Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8." A section "How you progress" explains it. No number is promised for a week. Where the text below differs, the v1.3 section at the top of this file wins.
 
 * **Default language: reps in reserve with the RPE number beside it.** "Leave 2 reps in the tank (2 RIR · RPE 8)" (VOL-13: "add an explanation of RIR and how it relates to RPE"). Mapping shown on the "How hard?" page: 3 reps left = RPE 7, 2 = RPE 8, 1 = RPE 9, 0 = RPE 10 (spec `rule_tables.effort.rir_rpe`).
 * **The number follows the stairway [APPROVED, R3-VOL-04].** 3 reps in the tank in the early weeks, then 2, then 1-2, and 1 + intensifiers (supersets, a last-set MYO on a machine or isolation) in the last week, always inside his 1-3 RIR band. On a 12-week block: weeks 1-6 at 3 RIR, weeks 7-9 at 2, weeks 10-11 at 1-2, week 12 at 1 + intensifiers (12 v1.2 §3.7). This replaces the v1.1 flag against VOL-13's "no planned RIR ramp": he approved the drift.
@@ -924,6 +1049,8 @@ Retired from the v1.1 layout: `engine/adapt.ts`, `app/storage/`, `LICENSE-MODEL 
 
 ### E4 · Data contracts (abridged)
 
+> **Changed in v1.3** (COACH-CT CT-01; round 4). See section V5: the intake has no `session_minutes`, the plan has no `time_check`. The examples below are v1.2. Where the text below differs, the v1.3 section at the top of this file wins.
+
 **Intake** (`generator_spec_v1.json > inputs_schema`, schema `intake/3`). The intake lives in memory during the build and is never stored or sent (R3-GEN-01). Example 1: a competitive college sprint swimmer, client door.
 
 ```json
@@ -942,7 +1069,7 @@ Retired from the v1.1 layout: `engine/adapt.ts`, `app/storage/`, `LICENSE-MODEL 
             "practice": {"practice_days_per_week": 6, "game_days": ["Sat"]}},
   "activity": null,
   "experience": {"years_consistent": 4, "months_off_last_2y": 0, "former_competitor": false},
-  "schedule": {"days_per_week": 3, "weekdays": ["Mon","Wed","Fri"], "session_minutes": 60, "start_date": "2026-10-12"},
+  "schedule": {"days_per_week": 3, "weekdays": ["Mon","Wed","Fri"], "start_date": "2026-10-12"},
   "plan": {"mode": "fixed_12", "previous_cycles": {"count": 0, "last_block_finished": null}, "tests": ["strength","jumps"], "maintenance_weeks": null},
   "equipment": {"profile": "FULL_GYM", "extra": ["medball","plyo_box"], "machines": ["cable_stack","lat_pulldown"]},
   "pain": [{"area": "shoulder", "side": "right", "severity": "mild", "worse_with": ["overhead"]}],
@@ -976,7 +1103,7 @@ Example 3 (only the parts that differ): a coach who skips the health check.
 
 `role`: `self` (client door) | `client` (coach mode, building for a client) (F39). `health.route`: `client_screen` | `coach_screen` | `coach_own_sop` (F45); `outcome`: `clear` | `refer` | `cleared_by_professional` | `bypassed_by_coach`. `goal` adds `active` (Stay athletic and active), which maps to the athletic family with `competitive = recreational`. `focus_muscles` (F09): up to 2 of `glutes`, `quads`, `hamstrings`, `back`, `chest`, `shoulders`, `biceps`, `triceps`, `calves`, `core`, `v_taper` (uses both slots); intake/2 `priority_muscles` is accepted as an alias, and its `side_delts` / `rear_delts` values map to `shoulders` (R3-VOL-01). `plan.mode` ∈ `fixed_12` | `fixed_8` | `maintenance_4_6` | `year` (`week_by_week` accepted as an alias of `fixed_12` opening on the Week view, PROPOSED; the `maintenance_4_6` code is kept, its length comes from `maintenance_weeks`, 1-8). **Removed:** `sex` (GEN-02), `recovery` (R2-GEN-04), `output_mode` (R3-VOL-02, R3-VOL-04), `email` (R3-GEN-01), `previous_cycles.last_had_holds_or_pain` (→ `last_block_finished`). No plan is generated unless `release.accepted` and `release.own_risk_terms_release` are true for this generation and `health.outcome` ≠ `refer`.
 
-**Plan** (`plan/2`; codes only; all words resolved by the renderer through the word lists). Illustrative: a 3-day × 45-minute general-fitness plan where the time check trimmed groups and the person kept their time.
+**Plan** (`plan/2`; codes only; all words resolved by the renderer through the word lists). **The example below is the v1.2 shape and is RETIRED in v1.3: a v1.3 plan carries no `time_check` and trims no groups for time (section V5; `engine/CONTRACTS.md`).** Illustrative: a 3-day × 45-minute general-fitness plan where the time check trimmed groups and the person kept their time.
 
 ```json
 {
@@ -1064,17 +1191,19 @@ Action vocabulary (closed list): `exclude_exercise`, `exclude_tag`, `exclude_equ
 
 ### E5 · Engine API and determinism
 
-* `generate(intake, model, rulePacks, opts) → Plan` builds the whole plan once (refuses without the F46 tick for this generation, or with `health.outcome = refer`); it runs the time check (D15) and returns `time_check`, `superset_recommendations`, block ids and kinds. · `applyEdits(plan, edits[], model) → Plan` (pure; edits never feed back into `generate`) · `explain(plan, slot_id) → reason keys` · `validate(plan) → checks[]` (for an edited plan: notes, not refusals). **`adapt()` is RETIRED** (R3-VOL-02, R3-VOL-04).
+* `generate(intake, model, rulePacks, opts) → Plan` builds the whole plan once (refuses without the F46 tick for this generation, or with `health.outcome = refer`); v1.3: no time check runs; it returns the plan with its stairway record, `superset_recommendations`, block ids and kinds. · `applyPlanEdits(plan, edits[], model) → Plan` (v1.2 name `applyEdits`; totals recomputed, plan marked edited) (pure; edits never feed back into `generate`) · `explain(plan, slot_id) → reason keys` · `validate(plan) → checks[]` (for an edited plan: notes, not refusals). **`adapt()` is RETIRED** (R3-VOL-02, R3-VOL-04).
 * Pure functions; seeded random only for tie-breaks (`seed` = hash of intake + model version); no clock reads inside the engine (dates come from the intake); **no network access** (R3-GEN-01).
 * Rule precedence: locked > coach rule pack > Blaze defaults > client preference (client swaps cannot re-introduce an exercise a coach or locked rule excluded; the "add exercise" list obeys the same filter). Conflicts inside one layer: the more specific `when` wins; equal specificity → the later rule wins, and the coach UI flags it.
 * Performance target: a 12-week plan in under 200 ms on a mid-range phone [INFERRED]; run in a Web Worker so the UI never freezes.
 
 ### E6 · The planned stairway (no feedback) [R3-VOL-04; replaces the v1.1 "weekly step implementation"]
 
+> **Changed in v1.3** (COACH-CX CX-01; COACH-R4 R4-PRG-01, R4-PRG-02). λ is free, so every trained group reaches its final sets; there is no 7 % or 10 % limit; weeks that add more than about 15 % are noted. Kernel: `engine/progression/stairway.mjs`. Where the text below differs, the v1.3 section at the top of this file wins.
+
 The engine math is owned by `12_volume_algorithm_v1` v1.2 §3.7 and §4; this is the product view of the same loop and must stay identical to it.
 
 ```
-groups   = trained focus groups after the time check (D15_time_fit; R3-SES-02); rear delts inside shoulders (R3-VOL-01)
+groups   = trained focus groups (v1.3: no time check, CT-01); rear delts inside shoulders (R3-VOL-01)
 start[g] = level start x modifiers, floor 10 in a training block, + focus add (+1..+3) if g is a focus group (R3-SES-01)
 plan_step[g][w] = lambda[g] x (3 % if w <= ceil(N/2) else 5 %)          # each group reaches its ceiling in week N (R3-VOL-04)
 T[g] = start[g]                                                          # week 1
@@ -1090,7 +1219,7 @@ for w in 2..N:                                                           # no de
       place one set in VOL-07 order, alternating the two exposures of the same day type (R3-VOL-03);
       a small-muscle extra becomes a short bonus exercise on the optional day, or on a day that already trains it,
       never as that day's only exercise for it (R3-VOL-03)
-  enforce total weekly rise < 10 % (UNI-05; smallest banks wait)
+  v1.3: no rate limit; note the weeks that add more than about 15 % (CX-01; R4-PRG-02)
   planned effort of week w: 3 RIR -> 2 -> 1-2 -> 1 + intensifiers in week N, inside 1-3 (R3-VOL-04)
 week N: end test if ticked; last page = plan.next_steps (R3-PER-01)
 # nothing after the build changes T: no check-in, no effort rows, no readiness, no logbook (R3-VOL-02, R3-VOL-04)
@@ -1100,7 +1229,7 @@ All thresholds live in the rule tables and are coach-editable before the build. 
 
 ### E7 · Renderers
 
-* **Block view:** per training day, rows = the block's exercises, columns = weeks; cells = sets × reps (+ effort if the chip is on); stairway bar from the plan's `shape`; test weeks marked; switched-off blocks greyed; "Not trained directly this block (time): …" from `time_check` when present.
+* **Block view:** per training day, rows = the block's exercises, columns = weeks; cells = sets × reps (+ effort if the chip is on); stairway bar from the plan's `shape`; test weeks marked; switched-off blocks greyed. *(Retired in v1.3, COACH-CT CT-01: the "Not trained directly this block (time): …" line from `time_check`. A plan carries no `time_check`; what a template cannot hold is said in `meta.stairway[].capped`.)*
 * **Week view and day view:** one component per block with its `block_id`, `kind` and switch (`toggle`, `on`); superset pairs grouped and labelled with his 'SUPERSET W/' wording (arrow emoji in his label not reproduced here); suggested pairs from `superset_recommendations` with the minutes saved and a switch; effort as RIR text with the RPE number; Olympic lifts with the power cue instead of a load unless `load_hint` is a percentage; rest; cue; video; remove (×) and "+ add exercise" in the day view (§14.5).
 * **Video:** `coach` / `approved_public` → lazy iframe on tap (`youtube-nocookie.com`); `search` → a plain link `https://www.youtube.com/results?search_query=` + URL-encoded exercise name in the user's language (Spanish adds the English gym term), opened in a new tab; the C8 note under it.
 * **Images:** block (per training day or whole block), week, day; rendered off-screen at full length; language, units, plan name, model version, the release stamp, the own-risk / not-medical-advice line (C14), the edit hint (C17) and the switched-off marks baked in at export time; never age, weight, pain or health answers.
@@ -1140,16 +1269,16 @@ Invariants (property tests over thousands of random intakes):
 | No lifestyle field (sleep, stress, job, life) and no check-in or tracking field in the intake; `generate` reads nothing after the build | R2-GEN-04, R3-VOL-02, R3-VOL-04 |
 | The engine makes no network call; share links, plan links, images and exports never contain age, weight, pain or health answers | R3-GEN-01 |
 | No deload or maintenance week inside a block; maintenance only when the person builds it; the easy week between blocks is a recommendation on the last page | R2-VOL-07, R2-PER-06, R3-PER-01 |
-| On every trained group the planned weekly sets follow the stairway: about 3 % steps to the halfway week, about 5 % after, never down inside a block (except pain cuts), the ceiling in the last week, never flat | R2-PER-03, R2-PER-04, R3-VOL-04, R3-SES-02 |
+| On every trained group the planned weekly sets follow the stairway: about 3 % steps to the halfway week, about 5 % after, never down inside a block (except pain cuts), the planned final sets in the last week (one week early at most). **v1.3:** steps may be faster when the final sets need it, a week that adds more than about 15 % carries a note, and a week may keep the same sets while reps or load progress ("never flat" is retired) | R2-PER-03, R2-PER-04, R3-VOL-04; COACH-CX CX-01, CX-02; COACH-R4 R4-PRG-01, R4-PRG-02 |
 | Planned RIR: 3 → 2 → 1-2 → 1 + intensifiers in the last week, always inside 1-3 | VOL-13, R3-VOL-04 |
-| Time check: when days × minutes cannot hold the minimums, the plan carries the offer; with the time kept, every trained group meets its floor and climbs, the rest are listed as not trained directly, superset suggestions are on; never 2-4 exercises per group squeezed into a day that cannot hold them | R3-SES-02 |
-| Floors counted on focus groups (hips = glutes + hamstrings; shoulders = front + side + rear delts): every trained group ≥ 10 weekly sets in a training block (exempt: maintenance, pre-season, in-season, pain cuts, athletes' credit-only groups, groups not trained directly by the time check) | R2-VOL-06, R3-SES-01, R3-VOL-01 |
+| ~~Time check~~ **RETIRED in v1.3 (CT-01); the test is now: no plan carries a session length, a minute limit, a time check or a time offer.** v1.2: when days × minutes cannot hold the minimums, the plan carries the offer; with the time kept, every trained group meets its floor and climbs, the rest are listed as not trained directly, superset suggestions are on; never 2-4 exercises per group squeezed into a day that cannot hold them | R3-SES-02 |
+| Floors counted on focus groups (hips = glutes + hamstrings; shoulders = front + side + rear delts): every trained group ≥ 10 weekly sets in a training block with 3 or more training days; on 2 days every big group ≥ 6 (v1.3, R4-SES-03) (exempt: maintenance, pre-season, in-season, pain cuts, athletes' credit-only groups, groups the plan says its template cannot hold) | R2-VOL-06, R3-SES-01, R3-VOL-01 |
 | Focus muscles: at most 2; each gets +1 to +3 weekly sets over the balanced plan and climbs with the stairway; no sex field anywhere | R3-SES-01, GEN-02 |
 | Added sets alternate between the two exposures of the same day type; a small-muscle extra is never the only exercise for that muscle on its day | R3-VOL-03 |
 | Every block has a stable id and kind; core, athletic, Olympic, accessory, calves, finisher and cardio blocks carry switches; `applyEdits` is pure and reversible ("Reset" restores the generated plan); edits never reach `generate` | R3-SES-02 |
 | The "add exercise" list never offers excluded exercises (bands, V-squat, 60+ or racket-50+ power work without the switch, pain exclusions) | R3-SES-02, EQ-01, GEN-08, R3-ATH-02 |
 | No band, chain or weight-releaser exercise, and no band substitute, appears anywhere | COACH-ANSWER EQ-01, EQ-07, EQ-08, EQ-12 |
-| Planned step never above 7 %; total weekly sets rise < 10 % | R2-VOL-01, UNI-05 |
+| v1.3: every trained group reaches its planned final sets in the last week (one week early at most); a week that adds more than about 15 % carries the note; every lift carries its progression rule. *(Retired: planned step never above 7 %; total weekly sets rise < 10 %.)* | COACH-CX CX-01; COACH-R4 R4-PRG-01, R4-PRG-02, R4-PRG-03 |
 | Helper credit 0.25; dips 0.5 / 0.5; thruster 1.0 quads / 0.5 shoulders / 0.25 glutes; KB swings credit no muscle; 10/10 counts 1 set; athletic sets and HYROX station circuits credit no muscle | VOL-09, LIB-16, R2-VOL-05, UNI-01, VOL-10, R3-ATH-03 |
 | Core block first and light unless moved; never left out by the generator (the person may switch it off) | ATH-11, R2-SES-03, GEN-08, R3-SES-02 |
 | Power / Olympic before strength; horizontal pull before vertical pull; the day's main lift before accessories | ORD-03, ORD-01, ORD-02, GEN-08 |
@@ -1180,10 +1309,10 @@ No page analytics with personal fields, no opt-in events, no research data, no l
 | Work package | Low | High |
 |---|---|---|
 | Model compile tool + coach-answer patches (rounds 1-3) + schema validation | 1 | 1.5 |
-| Engine: level, stairway, groups and floors, focus muscles, time check, week layout, slots, sets allocation, exercise choice, reps / effort / rest, order, maintenance, checks | 4 | 5.5 |
+| Engine: level, stairway, groups and floors, focus muscles, ~~time check~~ (retired in v1.3, COACH-CT CT-01), week layout, slots, sets allocation, exercise choice, reps / effort / rest, order, maintenance, checks | 4 | 5.5 |
 | Engine: edit layer (`applyEdits`, block ids and kinds, switches, superset recommendations, re-timing, reset) | 0.5 | 0.75 |
 | Engine tests: golden plans + invariants | 0.5 | 1 |
-| Intake screens (few-click flow, branching, focus muscles, time check, play days / event date) | 1.25 | 1.75 |
+| Intake screens (few-click flow, branching, focus muscles, ~~time check~~ (retired in v1.3, COACH-R4 R4-SES-01), play days / event date) | 1.25 | 1.75 |
 | Sport and activity picker (search, positions, EN / ES names, "not listed") | 0.25 | 0.5 |
 | Health check, coach skip, own risk + terms + release flow, printed stamp | 0.5 | 0.75 |
 | Block / week / day views with show chips, exercise sheet, swaps, video links | 2 | 2.25 |
@@ -1387,3 +1516,12 @@ Patterns searched in both files: check-in / checkin, readiness, adapt / adapt(),
 * `engine/intake.mjs` (OUTPUT_MODES, `week_by_week_needs_checkin`, `email`), `engine/validate.mjs` (the adapt / check-in branches near line 985) and `engine/CONTRACTS.md` (intake/2 `priority_muscles` with `side_delts` / `rear_delts`) are still v1.1. They belong to engine stages B1-B3 (spec `pending_cross_refs[2]`, `[7]`).
 * `tools/fixture` and `tools/compile/i18n.mjs`: drop the 26 keys and the `adaptation` stub reads, then delete the `adaptation` key from the spec (engine stage B1, `pending_cross_refs[0]`, `[1]`).
 * Rule-table numbers for rear delts, the Focus add (+1 to +3 by level) and the worked `planned_targets_by_level` rows wait for `12_volume_algorithm_v1` v1.2 (master step, `pending_cross_refs[3]`, `[4]`).
+
+
+## v1.3 verification log (2026-10-11)
+
+- Read first, in full: `design/ENGINE_V05_PLAN.md`, `coach_answers_round4.md`, `coach_answers_time_2026-10-10.md`, `coach_answers_codex_2026-10-10.md`.
+- Added the v1.3 section and §1.4; rewrote §0 items 7 and 15 and extended items 6, 10, 13, 14 and 18; retired the time check in S5, the comparison table, the roadmap, the start flow, the copy table (C19, C20), the express path, E4-E6 and the E10 tests; marked §12.4, §14.5, §15, E4 and E6 as changed.
+- The English and Spanish lines of section V2 are copied from the compiled word lists (`model/i18n/en.json`, `model/i18n/es.json`, model 1.3.0).
+- The blocks of sections V3 and V4 are the same text as `BLAZE_CAMP_BRAIN.md` v1.3 (§10.5, §10.10); "master §" in them points to that file.
+- Not changed: the option analysis, the cost and effort estimates (only the feature names in them), the sport picker, the references and the v1.1 / v1.2 history and logs. The effort estimates still count a "time check" item in a few rows of §9 and E12; read it as the session-size and estimate work, which is smaller.

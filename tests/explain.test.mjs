@@ -16,12 +16,12 @@ test('whyText = translated text + [ref], args resolved', () => {
 });
 
 test('resolveArgs turns ids into words (weekday, muscle, exercise, area, key-valued args) and keeps codes', () => {
-  const a = resolveArgs({ day: 'Mon', muscle: 'lats_upper_back', exercise: 'front-squat-barbell', area: 'knee', advice: 'ui.plan.schedule_advice.more_days', version: 'release.client', n: 3 }, model, 'en');
+  const a = resolveArgs({ day: 'Mon', muscle: 'lats_upper_back', exercise: 'front-squat-barbell', area: 'knee', advice: 'plan.block_type.stairway', version: 'release.client', n: 3 }, model, 'en');
   assert.equal(a.day, 'Monday');
   assert.equal(a.muscle, 'Back (lats / upper back)');
   assert.equal(a.exercise, model.t('en', model.ex('front-squat-barbell').name_key));
   assert.equal(a.area, 'Knee');
-  assert.equal(a.advice, 'add a training day');
+  assert.equal(a.advice, model.t('en', 'plan.block_type.stairway'));   // (a key-valued arg; the v0.4 schedule advice words went with the time check, CT-01)
   assert.equal(a.version, 'release.client');
   assert.equal(a.n, 3);
   assert.equal(resolveArgs({ muscles: ['quads', 'chest'] }, model, 'en').muscles, 'Quads, Chest');
@@ -37,8 +37,9 @@ test('levelText: "Intermediate (L2): 2 years of consistent training" (PRG-05)', 
 
 test('changesText: words, never percentages (VOL-06)', () => {
   const en = changesText(plan, 3, model, 'en');
-  assert.deepEqual(en, ['+1 set on ' + model.t('en', model.ex('front-squat-barbell').name_key) + ' (Monday)',
-    '+1 set on ' + model.t('en', model.ex('barbell-deadlift-conventional').name_key) + ' (Thursday)']);
+  // (v0.5 fixture: the last week adds the sets that take the shoulders and the chest to their final sets, CX-01)
+  assert.deepEqual(en, ['+1 set on ' + model.t('en', model.ex('bent-over-db-reverse-fly').name_key) + ' (Monday)',
+    '+1 set on ' + model.t('en', model.ex('cable-fly').name_key) + ' (Thursday)']);
   const withPct = structuredClone(plan);
   withPct.weeks[2].changes.push({ key: 'why.stairway_step', args: { pct: 5, part: 'late' } });
   for (const s of changesText(withPct, 3, model, 'en')) assert.ok(!/%/.test(s.replace('{pct}', '')) || !/\d%/.test(s), s);
@@ -58,7 +59,9 @@ test('explainItem lists the item reasons first, then the day and week reasons, d
   const lines = explainItem(plan, { week: 1, weekday: 'Mon', slot_id: 'Mon.A.s08' }, model, 'en');
   assert.ok(lines.length >= 4);
   assert.equal(lines[0], 'Heavy squat and heavy deadlift on different days [R2-SES-01]');
-  assert.ok(lines.some(l => l.endsWith('[R2-VOL-03]')));
+  assert.ok(lines.some(l => l.endsWith('[R3-VOL-04]')), 'the planned-stairway reason');
+  assert.ok(lines.some(l => l.endsWith('[CX-01]')), 'the final-target reason (v0.5)');
+  assert.ok(lines.some(l => l.endsWith('[R4-SES-03]')), 'the 2-day rule reason (v0.5)');
   assert.equal(new Set(lines).size, lines.length);
   assert.deepEqual(explainItem(plan, { week: 1, weekday: 'Mon', slot_id: 'nope' }, model, 'en'), []);
 });

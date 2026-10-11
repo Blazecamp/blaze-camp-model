@@ -28,6 +28,12 @@ import { amendRulesF3, amendExerciseF3 } from './fixture/fix-r1-f3.mjs';
 import { amendRulesR2F1, amendTemplatesR2F1 } from './fixture/fix-r2-f1.mjs';
 import { amendRulesR2F2, amendSportR2F2, amendExerciseR2F2 } from './fixture/fix-r2-f2.mjs';
 import { amendRulesR2F3, amendExerciseR2F3 } from './fixture/fix-r2-f3.mjs';
+import { amendRulesV05, amendTemplatesV05 } from './fixture/v05-structure.mjs';
+import { amendRulesV3, CHECKS_V3, REMOVED_V3, ES_REVIEW_V3 } from './fixture/v05-words.mjs';
+import { amendExerciseV2, addedExercisesV2, attachVideoSearchV2, amendBucketsV2, amendSportV2, amendRulesV2, UI_V2 } from './fixture/v05-library.mjs';
+import { amendRulesV4, amendTemplatesV4, amendExerciseV4 } from './fixture/v05-integrate.mjs';
+import { amendRulesX1, amendTemplatesX1, amendExerciseX1, amendSportX1 } from './fixture/v05-fix1.mjs';
+import { amendRulesX2, amendTemplatesX2, amendExerciseX2, amendSportX2 } from './fixture/v05-fix2.mjs';
 
 // 1.3.0: the v1.2 sources (round-3 docs) + the coach-eye review amendments (tools/fixture/review-v12.mjs) + the round-3 engine
 // amendments (tools/fixture/round3.mjs: lines / groups, time check, Focus muscles, check-ins retired) + the stage-B2 athletic
@@ -84,7 +90,12 @@ export function compileModel(S = loadSources()) {
   const exMap = new Map(exercises.map(e => [e.id, e]));
   const patched = applyCoachPatches({ src, ex: exMap, en: enNames, dropped, aliases, activeSourceIds, nameCleanups });
   for (const e of patched.errors) errors.push(`coach patch: ${e}`);
-  for (let i = 0; i < exercises.length; i++) exercises[i] = amendExerciseR2F3(amendExerciseR2F2(amendExerciseF3(amendExerciseB3(amendExerciseB2(amendExercise(exercises[i])))))); // (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ F3, fix-r1-f3.mjs) // v1.2 review amendments, stage B2 (athletic-b2.mjs), then stage B3 (render-b3.mjs)
+  for (let i = 0; i < exercises.length; i++) exercises[i] = amendExerciseX2(amendExerciseX1(amendExerciseV4(amendExerciseV2(amendExerciseR2F3(amendExerciseR2F2(amendExerciseF3(amendExerciseB3(amendExerciseB2(amendExercise(exercises[i])))))))))); // (+ v0.5 fix round 2, v05-fix2.mjs) // (+ v0.5 fix round 1, v05-fix1.mjs) // (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ F3, fix-r1-f3.mjs) // v1.2 review amendments, stage B2 (athletic-b2.mjs), then stage B3 (render-b3.mjs)
+
+  // engine 0.5.0 / V2: the two mid-range pull records (R4-LIB-03; optional add-ons, tools/fixture/v05-library.mjs)
+  const addedV2 = addedExercisesV2(exercises);
+  for (const e of addedV2) { exercises.push(e); enNames[e.name_key] = UI_V2[e.name_key][0]; }
+  exercises.sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
 
   // ---------------------------------------------------------------- templates (all 30 + variants)
   const families = {};
@@ -95,9 +106,13 @@ export function compileModel(S = loadSources()) {
   { const amended = amendTemplates(families); for (const k of Object.keys(families)) families[k] = amended[k]; }
   { const b2 = amendTemplatesB2(families); for (const k of Object.keys(families)) families[k] = b2[k]; } // R3-ATH-03 HYROX variant (athletic-b2.mjs)
   { const r2 = amendTemplatesR2F1(families); for (const k of Object.keys(families)) families[k] = r2[k]; } // fix round 2 / F1: athletic.3 cross pattern (fix-r2-f1.mjs)
+  { const v5 = amendTemplatesV05(families); for (const k of Object.keys(families)) families[k] = v5[k]; } // engine 0.5.0 / V1: the coach's templates as the skeleton, ranks, no minutes (v05-structure.mjs)
+  { const v4 = amendTemplatesV4(families); for (const k of Object.keys(families)) families[k] = v4[k]; } // engine 0.5.0 / V4: push / pull / legs in the sheet's order, a warm-up on every main day (v05-integrate.mjs)
+  { const x1 = amendTemplatesX1(families); for (const k of Object.keys(families)) families[k] = x1[k]; } // engine 0.5.0 / fix round 1 (v05-fix1.mjs)
+  { const x2 = amendTemplatesX2(families); for (const k of Object.keys(families)) families[k] = x2[k]; } // engine 0.5.0 / fix round 2 (v05-fix2.mjs)
   const templates = {
     schema: 'templates/2',
-    buckets: BUCKETS,
+    buckets: amendBucketsV2(BUCKETS), // V2: carries and sled work sit with conditioning (R4-LIB-02)
     goal_to_family: { muscle: 'aesthetics', strength: 'strength', athletic: 'athletic', active: 'athletic', fat_loss: 'fat_loss_bootcamp', general: 'fat_loss_bootcamp', hybrid: 'hybrid_crossfit' },
     kit_family_override: { profiles: ['BODYWEIGHT', 'FIELD_TRACK_NO_KIT'], family: 'no_equipment', except_goals: ['athletic', 'active'] },
     families,
@@ -109,7 +124,7 @@ export function compileModel(S = loadSources()) {
   // ---------------------------------------------------------------- profiles (all 127 + picker + activities)
   const classEnd = { 1: 0.75, 2: 0.6, 3: 0.5, 4: 0.4, 5: 0.25 };
   const sports = {};
-  for (const p of S.prof.profiles.slice().sort((a, b) => (a.id < b.id ? -1 : 1))) sports[p.id] = amendSportR2F2(amendSportF2(amendSportB2(amendSport(normSport(p, classEnd), p), p), p)); // (+ fix round 2 / F2) // (+ F2)
+  for (const p of S.prof.profiles.slice().sort((a, b) => (a.id < b.id ? -1 : 1))) sports[p.id] = amendSportX2(amendSportX1(amendSportV2(amendSportR2F2(amendSportF2(amendSportB2(amendSport(normSport(p, classEnd), p), p), p)), p), p), p); // (+ v0.5 fix round 2) // (+ v0.5 fix round 1) // (+ V2: the confidence label, R4-SCP-03) // (+ fix round 2 / F2) // (+ F2)
   const picker = normPicker(S.prof);
   const profiles = {
     schema: 'profiles/2',
@@ -123,7 +138,7 @@ export function compileModel(S = loadSources()) {
   };
 
   // ---------------------------------------------------------------- rules + cross-checks against the sources
-  const rules = amendRulesR2F3(amendRulesR2F2(amendRulesR2F1(amendRulesF3(amendRulesF2(amendRulesF1(amendRulesB4(amendRulesB3(amendRulesB2(amendRulesR3(amendRules(buildRules(S.eqm)))))))))))); // (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ fix round 2 / F1, fix-r2-f1.mjs) // (+ fix round 1 / F1, F2, F3) v1.2 review amendments, the round-3 answers, stage B2 (athletic), stage B3 (selection / render), then stage B4 (integration)
+  const rules = amendRulesX2(amendRulesX1(amendRulesV4(amendRulesV3(amendRulesV2(amendRulesV05(amendRulesR2F3(amendRulesR2F2(amendRulesR2F1(amendRulesF3(amendRulesF2(amendRulesF1(amendRulesB4(amendRulesB3(amendRulesB2(amendRulesR3(amendRules(buildRules(S.eqm)))))))))))))))))); /* (+ v0.5 fix round 2, v05-fix2.mjs) (+ v0.5 fix round 1, v05-fix1.mjs) (+ V3, v05-words.mjs) */ // (+ V2, v05-library.mjs) (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ fix round 2 / F1, fix-r2-f1.mjs) // (+ fix round 1 / F1, F2, F3) v1.2 review amendments, the round-3 answers, stage B2 (athletic), stage B3 (selection / render), then stage B4 (integration)
   // a mismatch is a warning, not an error: rules.json must deep-equal the fixture's normative rules (BUILD_PLAN B1.2);
   // a value we believe is wrong goes to engine/CONTRACT_REQUESTS.md for the integrator
   const crosschecks = crossCheckRules(rules, S);
@@ -132,6 +147,7 @@ export function compileModel(S = loadSources()) {
   // ---------------------------------------------------------------- i18n
   const i18n = buildI18n({ spec: S.spec, prof: S.prof, families, exercises, enNames, enCues });
   for (const p of i18n.problems) errors.push(`i18n: ${p}`);
+  attachVideoSearchV2(exercises, i18n.en); // R4-LIB-05: a YouTube search link built from the final English name (v05-library.mjs)
   patched.patches.push({ id: 'P16', refs: ['FIX-03', 'FIX-04'], target: 'user-facing EN day labels, coach cues and profile names', rule: "decoder notes removed from rendered text ('(complete)', '(corrected)', '(OT02 Day 3)', 'INFERRED', '(COACH-R2 ...)', 'the BYOP cell says ...', 'bodyweight pools'); templates.label stays verbatim", action: i18n.cleaned_en.length ? 'applied' : 'verified', counts: { strings_cleaned: i18n.cleaned_en.length } });
   for (const c of i18n.cleaned_en) patched.changes.push({ patch: 'P16', id: c.key, field: 'en', from: c.from, to: c.to });
 
@@ -165,6 +181,7 @@ export function compileModel(S = loadSources()) {
     counts: {
       source_records: S.cat.length,
       kept: exercises.length,
+      added_v2: addedV2.length,
       dropped: dropped.length,
       dropped_by_reason: sortKeys(droppedBy),
       aliases: Object.keys(aliases).length,
@@ -230,6 +247,35 @@ function renderChangelog(raw, report, changes) {
   L.push(`Generated by \`node tools/compile-model.mjs\` (B1). Do not edit by hand: change the compiler (tools/compile/**) or the sources and re-compile.`, '');
   L.push(`## ${raw.manifest.model_version} (contracts ${raw.manifest.contracts_version}, spec ${raw.manifest.spec_version})`, '');
   L.push(`Compiled from the v1.1 sources with the coach's round-2 answers (coach_answers_round2.md, newest authority). Counts: ${report.counts.kept} exercises kept / ${report.counts.dropped} dropped, ${report.counts.aliases} id aliases, ${report.counts.templates_total} templates (${report.counts.templates_built} built, ${report.counts.templates_unbuilt} unbuilt: ${report.templates.unbuilt.join(', ') || '-'}), ${report.counts.stations} stations, ${report.counts.profiles} profiles, ${report.counts.sports_in_picker} picker sports, ${report.counts.activities} activities; i18n ${report.counts.en_keys} EN keys, ${report.counts.es_keys} ES keys (${report.counts.es_machine_translated} machine-translated, PROPOSED; ${report.counts.es_missing} missing).`, '');
+  L.push('### v0.5 layer (engine 0.5.0, package V1 "structure and volume"; tools/fixture/v05-structure.mjs)', '');
+  L.push('Applied on top of the round-3 layers by both builds (the model version is unchanged until V2 - V4 land; engine/DECISIONS.md G):', '');
+  L.push('- rules: time fitting removed (CT-01, R4-SES-01) - session minutes, exercise caps by minutes, the cut order, the long-day and time-fit tables, the stairway step limits; `time_model.use = estimate_only`');
+  L.push('- rules: `session.size` (exercise count by client type, R4-SES-02), `volume.two_day` (R4-SES-03), `volume.floor.applies_from_days = 3`, `stairway.progression` (CX-01, R4-PRG-01 / 02), `cycles.next_block` (R4-PRG-04), `placement` (allocation and the bonus exercise), bootcamp `rounds_by_level`');
+  L.push('- templates: the coach\'s A / B / C skeletons, the athletic days and push / pull / legs (R4-SES-05); every station has a `rank`, every day type a `count` and a `skeleton`; `include_from_minutes` / `superset_below_minutes` deleted');
+  L.push('- words: the time-fitting strings deleted from both languages; new warnings (2-day rule, acceleration, capped by the template, below the floor, credit-only groups, plan edited) and the reworded check labels', '');
+  const conf = {};
+  for (const s of Object.values(raw.profiles.sports)) conf[s.confidence] = (conf[s.confidence] || 0) + 1;
+  const st = {};
+  for (const e of raw.catalog.exercises) st[e.status] = (st[e.status] || 0) + 1;
+  L.push('### v0.5 layer, package V2 "library and selection" (tools/fixture/v05-library.mjs)', '');
+  L.push('Applied after the V1 layer by both builds (engine/DECISIONS.md G-25 ...):', '');
+  L.push(`- catalog: the proposed exercises are **optional add-ons** (status \`optional_addon\`: ${st.optional_addon || 0} records, never a template pick; COACH-R4 R4-LIB-01); neck work stays proposed (${(st.proposed_v1 || 0) + (st.proposed_v1_1 || 0)} records, never shown); carries and sled work are dosed by distance or time and credit no muscle sets (R4-LIB-02); the mid-range pull category with its ${report.counts.added_v2} records and the \`mid_range_push\` / \`mid_range_pull\` tags (R4-LIB-03); the 60+ flag no longer excludes the landing drills round 3 switched on (R3-ATH-02); the Appendix F1 record fixes (split-step reaction drill, 2 min fast / 1 min walk intervals, the suitcase carry)`);
+  L.push('- catalog: **no third-party video link** - every exercise carries a YouTube search link built from its English name (R4-LIB-05)');
+  L.push('- rules: `selection.addons`, `conditioning.carry`, `selection.mid_range`, `selection.incline_first`, `selection.swap_notes`, `render.video`, `render.profile_confidence`, `selection.v2`; the retired 60+ and non-priority 3 % step caps are deleted (HANDOFF clean-up); `selection.lead_press.floor_penalty` -8; `selection.r2.family_over_week` -7');
+  L.push(`- profiles: every sport profile carries \`confidence\` (R4-SCP-03): ${Object.entries(conf).sort().map(([k, v]) => `${k} ${v}`).join(', ')}`);
+  L.push('- words: swap notes (what a swap keeps and loses, R4-LIB-04), the name to copy into YouTube, optional add-ons, carries by distance or time', '');
+  L.push('### v0.5 layer, package V3 "words and checks" (tools/fixture/v05-words.mjs)', '');
+  L.push('Applied after the V2 layer by both builds (engine/DECISIONS.md G-37 ...):', '');
+  L.push('- rules: `legal.gate` and `legal.release_line` (COACH-R4 R4-SCP-01 / R4-SCP-02: the terms and the release are accepted before a plan is generated; a short release line on every plan, EN and ES, linking DISCLAIMER.md / DISCLAIMER.es.md)');
+  L.push('- rules: `render.progression` (R4-PRG-03: reps and load as a rule the person applies), `render.acceleration` (R4-PRG-02), `render.estimate` (CT-01 / R4-SES-01: an average range, information only), `render.easy_to_remove` (R4-SES-04), `render.views` (the weekly sets per group table week by week; block / week / day macro views)');
+  L.push('- rules: `validation.checks` gains ' + CHECKS_V3.map(([id]) => id).join(', ') + ' and `validation.v05` (which check holds which v0.5 rule); no check reads minutes');
+  L.push(`- words: the release lines, the progression rule, the acceleration note, the time estimate, the easy-to-remove hints, the week-by-week table; ${REMOVED_V3.length} dead time-fitting / rate-cap words deleted; ${Object.keys(ES_REVIEW_V3).length} Spanish lines reviewed (R2-GEN-08)`, '');
+  L.push('### v0.5 layer, package V4 "integrate" (tools/fixture/v05-integrate.mjs)', '');
+  L.push('Applied after the V3 layer by both builds (engine/DECISIONS.md G-51 ...):', '');
+  L.push('- rules: `selection.skeleton_laterality` (COACH-R4 R4-SES-05: on a gym A / B / C day and a push / pull / legs day a two-leg slot keeps a two-leg lift, a single-leg slot a single-leg lift, and the A day\'s first row is a two-arm row; the athletic days keep the laterality dial)');
+  L.push('- rules: `placement.optional_focus.close_when_over_top` (an optional-day Focus slot closes when the group\'s exercises at their fewest sets already hold more than its planned final sets)');
+  L.push('- rules: `validation.v05.skeleton` gains the laterality table (V30 holds it; V28 reads the share on the stations the dial may move)');
+  L.push('- templates: push / pull / legs prints in the sheet\'s order (flies before dips; leg extension and leg curl before the single-leg hinge); every main day type opens with the general warm-up (ORD-08)', '');
   L.push('### Sources (sha256)', '');
   for (const [f, h] of Object.entries(raw.manifest.sources_sha256)) L.push(`- \`${f}\` ${h}`);
   L.push('', '### Coach corrections applied in the compile', '');

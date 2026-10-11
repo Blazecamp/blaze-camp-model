@@ -1,7 +1,7 @@
 # Muscle & Physique - Full Body A/B
 _Your Blaze Camp plan_
 
-> **Use at your own risk.** This plan is general fitness information, not medical advice. You follow it entirely at your own expense and risk, and you release Lalo Vera, Blaze Camp and BFit Studios Corp. from all liability. Stop and see a professional if something hurts. [Read the full disclaimer and release](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md)
+> **Use at your own risk.** You accepted the terms and released Lalo Vera, Blaze Camp and BFit Studios Corp. from all liability before this plan was built. You follow it entirely at your own risk. It is general fitness information, not medical advice: stop and see a professional if something hurts. [Read the full disclaimer and release](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md)
 
 - **Main goal:** Build muscle
 - **Profile:** Muscle & physique
@@ -9,28 +9,13 @@ _Your Blaze Camp plan_
 - **Level:** Advanced (L3): 3 years of consistent training, training 4 days a week now
 - **Plan type:** 12 weeks (recommended) · Week 1-12
 - **Start date:** 12 Oct 2026
-- **Training days per week:** 4 · Monday, Tuesday, Thursday, Friday · Session length (minutes): 75
-- Use at your own risk, terms and release accepted: client, English
+- **Training days per week:** 4 · Monday, Tuesday, Thursday, Friday · about 7 exercises a session (plus the warm-up and the 2 core exercises)
+- Terms and release of liability accepted before this plan was built: client, English
 - Health check: answered; nothing in it asked for a doctor first. [Official PAR-Q+ (in English)](https://eparmedx.com/)
 
 ## Before you start
 
-- Do the marked supersets on Monday, Tuesday, Thursday and Friday to save time.
-- These days run over your 75 min even with the marked supersets: Monday in weeks 10-12 (about 76 min); Tuesday in weeks 10-12 (about 76 min); Friday in weeks 9-12 (about 77-82 min). Each of them shows what else saves time; or plan the extra minutes.
 - Weeks 11, 12 include Christmas / New Year: move a session by a day or two if you need to; plan longer holidays between blocks.
-
-## Your schedule
-
-- Your 4 x 75-minute schedule cannot hold the full plan (10+ weekly sets for every muscle group, 2-4 exercises per group, a climbing stairway). See your schedule options below.
-- Trained directly (10+ sets a week, climbing through the block): Quads, Hips (glutes + hamstrings), Back, Chest, Shoulders, Biceps, Triceps, Calves
-- Your 75-minute sessions hold a lower peak for Quads, Hips (glutes + hamstrings), Chest, Back, Biceps, Triceps, Calves: they still climb through the block, to fewer sets than the full plan.
-
-**Your schedule options**
-- Make Wednesday (your optional day) a full training day: the groups your main days cannot hold train there
-- One more training day (5 days)
-- About 90 min a session gives Quads, Hips (glutes + hamstrings), Chest a higher peak (2+ more sets by the last week)
-- Switch off the core block: about 6 minutes freed for your lifts each session
-- Keep 4 x 75 min: every group trained, a lower peak for some (this plan)
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.
@@ -47,11 +32,18 @@ _This plan starts at 3 in the tank and ends at 1 in the last week: the coach's "
 
 _In this plan your cardio sessions sit on lifting days: do each one as its own session that day, or move it to any free day._
 
-Planned effort across the stairway: weeks 1-6: leave 3 in the tank; weeks 7-9: leave 2 in the tank; weeks 10-11: leave 1-2 in the tank; week 12: leave 1 in the tank. Week 12: one intensifier on each of these days (Monday, Tuesday, Wednesday, Thursday, Friday and Saturday): a MYO set on the day's last small-muscle or machine exercise.
+Planned effort across the stairway: weeks 1-6: leave 3 in the tank; weeks 7-9: leave 2 in the tank; weeks 10-11: leave 1-2 in the tank; week 12: leave 1 in the tank. Week 12: one intensifier on each of these days (Monday, Tuesday, Thursday and Friday): a MYO set on the day's last small-muscle or machine exercise.
 
 How heavy? Each exercise tells you how many reps to leave in the tank: "leave 2 in the tank" means you could do 2 more reps at the end of the set (about RPE 8; 3 left = RPE 7, 1 left = RPE 9). Your plan starts with 3 in the tank, then 2, then 1-2, and in the last week 1 with a few extra-hard sets. Week 1: start a little lighter, with a weight you could lift about 3 more times.
 
 Core supersets are optional anywhere: you can pair a core exercise with any exercise to save time.
+
+## How you progress
+
+- Reps and weight follow a rule you apply yourself, not a number this plan promises. Every lift shows a rep range. Example from your plan: Front Squat (barbell), 4 sets of 8-10. When you hit 10 on every set with the planned reps left in the tank and good form, add weight next time and start again at 8. Not there yet? Keep the weight and add a rep where you can.
+- Sets follow the stairway: the plan adds sets week by week until each muscle group reaches its final sets in the last week (see the week-by-week table). In a week with the same sets as the week before, you progress with reps or weight.
+- Your next block starts a little above where this one started (about 5 % more sets, in whole sets), never above the top number for your level. At the top, the sets stay and you progress with weight and reps.
+- This plan is a template you can edit: change the sets of any exercise on any day or week, add or remove exercises, and switch blocks off.
 
 ## How to adjust this plan
 
@@ -62,6 +54,8 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 - Life got in the way for several weeks (sick, travel, busy)? Stop the block, take the recommended easy week if you want, then build a new block.
 - You (or your coach) can switch off these blocks on any day: core, cardio, accessories and walk after the workout. You can also add or remove exercises (more rear-delt work, for example). Use the suggested supersets to save time.
 - Switching off the accessories block takes away every direct set for Biceps, Triceps and Calves.
+- You (or your coach) can also change the sets of any exercise on any day or week: the plan is a template.
+- The time shown on each day is an average estimate, for information only: nothing in this plan is cut or changed because of time. Want a shorter day? Use the suggested supersets, or remove what the day lists as easiest to remove.
 
 Your plan climbs like a stairway: small steps up to week 6, a bit bigger from week 7, the hardest weeks at the end.
 
@@ -69,18 +63,18 @@ Your plan climbs like a stairway: small steps up to week 6, a bit bigger from we
 
 | Week | Level | Effort | Sets |
 |---|---|---|---|
-| 1 | 2.0 ▮▮ | 3 in the tank | 117 |
-| 2 | 2.6 ▮▮▮ | 3 in the tank | 124 |
-| 3 | 3.2 ▮▮▮ | 3 in the tank | 126 |
-| 4 | 3.8 ▮▮▮▮ | 3 in the tank | 128 |
-| 5 | 4.4 ▮▮▮▮ | 3 in the tank | 134 |
-| 6 | 5.0 ▮▮▮▮▮ | 3 in the tank | 135 |
-| 7 | 6.0 ▮▮▮▮▮▮ | 2 in the tank | 138 |
-| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 in the tank | 143 |
-| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 151 |
-| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 154 |
-| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 157 |
-| 12 | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 163 |
+| 1 | 2.0 ▮▮ | 3 in the tank | 121 |
+| 2 | 2.6 ▮▮▮ | 3 in the tank | 123 |
+| 3 | 3.2 ▮▮▮ | 3 in the tank | 125 |
+| 4 | 3.8 ▮▮▮▮ | 3 in the tank | 127 |
+| 5 | 4.4 ▮▮▮▮ | 3 in the tank | 129 |
+| 6 | 5.0 ▮▮▮▮▮ | 3 in the tank | 131 |
+| 7 | 6.0 ▮▮▮▮▮▮ | 2 in the tank | 135 |
+| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 in the tank | 138 |
+| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 141 |
+| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 145 |
+| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 150 |
+| 12 | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 154 |
 
 weeks 1-2: Getting used to it (small steps) · weeks 3-8: Driving it · weeks 9-12: Hardest weeks
 
@@ -92,36 +86,52 @@ After this plan: you choose: next block (an easy week first is recommended, not 
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings and Olympic lifts never count. "-" = not trained directly (in brackets: the sets it still gets from other lifts or a kept movement, with no climb)._
+_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts)._
 
 |  | Week 1 | Week 6 | Week 12 |
 |---|---|---|---|
-| Quads | 14 | 16 | 20 |
-| Hips (glutes + hamstrings) | 27 | 31.5 | 36.25 |
-| ↳ Glutes (Focus) | 17.75 | 22.25 | 27 |
-| Back | 12 | 14 | 19 |
-| Chest | 12 | 14 | 20 |
-| Shoulders | 23 | 25 | 29.75 |
-| ↳ Side delts (Focus) | 15 | 16 | 18.5 |
-| Biceps | 15 | 17.5 | 20.75 |
-| Triceps | 13.5 | 18 | 20 |
-| Calves | 12 | 13 | 15 |
-| **Total** | **117** | **135** | **163** |
+| Quads | 20 | 22 | 25 |
+| Hips (glutes + hamstrings) | 22.5 | 25 | 27.25 |
+| ↳ Glutes (Focus) | 12.5 | 14.25 | 15.5 |
+| Back | 19 | 21 | 24 |
+| Chest | 19 | 20 | 24 |
+| Shoulders | 20 | 22.5 | 27.5 |
+| ↳ Side delts (Focus) | 8 | 10 | 13 |
+| Biceps | 14.75 | 15.25 | 18 |
+| Triceps | 15.25 | 16.5 | 20 |
+| Calves | 10 | 10 | 12 |
+| **Total** | **121** | **131** | **154** |
 
 ### Week 1 at a glance
 
 | Day | Session | Time | Muscle groups (exercises) |
 |---|---|---|---|
-| Monday | A1 - squat + pull | about 66 min | Quads 3, Back 2, Shoulders 2, Biceps 2, Calves 1 |
-| Tuesday | B1 - hip thrust + push | about 73 min | Hips (glutes + hamstrings) 4, Chest 2, Shoulders 2, Triceps 2, Calves 1 |
-| Wednesday | Optional day | about 51 min | Hips (glutes + hamstrings) 2 |
-| Thursday | A2 - leg press + pull | about 63 min | Quads 3, Back 2, Shoulders 2, Biceps 2, Calves 1 |
-| Friday | B2 - deadlift + push | about 61 min | Hips (glutes + hamstrings) 3, Chest 2, Shoulders 2, Triceps 2, Calves 1 |
-| Saturday | Optional day | about 41 min | Shoulders 2 |
+| Monday | A1 - squat + pull | about 80-95 min | Quads 3, Back 2, Shoulders 1, Biceps 1, Calves 1 |
+| Tuesday | B1 - hip thrust + push | about 100-120 min | Hips (glutes + hamstrings) 3, Chest 1, Shoulders 2, Triceps 2 |
+| Wednesday | Optional day | about 50-60 min | Hips (glutes + hamstrings) 2, Back 1, Biceps 1, Calves 1 |
+| Thursday | A2 - leg press + pull | about 75-90 min | Quads 3, Back 2, Shoulders 1, Biceps 1, Calves 1 |
+| Friday | B2 - deadlift + push | about 90-110 min | Hips (glutes + hamstrings) 3, Chest 1, Shoulders 2, Triceps 1 |
+| Saturday | Optional day | about 50-65 min | Chest 1, Shoulders 2, Triceps 1, Calves 1 |
 
 ## Block · Training block · Week 1-12
 
 **Level:** 2.0 · 2.6 · 3.2 · 3.8 · 4.4 · 5.0 · 6.0 · 7.0 · 8.0 · 9.0 · 10.0 · 11.0
+
+### Weekly sets per muscle group, week by week · Week 1-12
+
+_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). "Final sets" is where the stairway is planned to end; "24 of 25" means this template's exercises hold 24 of the 25 planned sets._
+
+| Muscle group | Sets each week (weeks 1-12) | Final sets |
+|---|---|---|
+| Quads | 20 20 21 21 · 21 22 22 23 · 23 24 25 25 | 25 |
+| Hips (glutes + hamstrings) | 22.5 23.5 23.75 23.75 · 24.75 25 25 25 · 25 26 27.25 27.25 | 27 |
+| Back | 19 19 20 20 · 20 21 21 22 · 22 23 23 24 | 24 of 25 |
+| Chest | 19 19 19 20 · 20 20 21 22 · 22 23 23 24 | 24 of 25 |
+| Shoulders | 20 21 21.25 21.5 · 22.5 22.5 23.75 24 · 25 25.25 26.25 27.5 | 27 |
+| Biceps | 14.75 14.75 15 15 · 15 15.25 16.25 16.5 · 17.5 17.75 17.75 18 | 18 of 25 |
+| Triceps | 15.25 15.25 15.25 16.5 · 16.5 16.5 17.75 18 · 18 18 19 20 | 20 of 25 |
+| Calves | 10 10 10 10 · 10 10 10 10 · 11 11 12 12 | 12 |
+| **Total** | 121 123 125 127 · 129 131 135 138 · 141 145 150 154 | 154 |
 
 ### Monday · A1 - squat + pull
 
@@ -129,429 +139,469 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 |---|---|---|
 | Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
 | Copenhagen Plank | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
-| Seated DB Lateral Raise → Seated DB Lateral Raise - 1-second squeeze at the top | 2 2 2 3 · 3 3 3 3 · 3 3 3 3 | 15 to 20 Reps |
-| High-Bar Back Squat | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 8 to 12 Reps |
-| Seal Row - Barbell (Supinated Grip) | 3 3 4 4 · 4 4 4 4 · 4 4 4 4 | 10 to 15 Reps |
-| Deficit Reverse Lunge (standing on plate/step) → Hack Squat (machine) → Pendulum Squat (machine) | 2 3 3 3 · 3 3 3 3 · 3 3 3 3 | 8 to 12 per side → 10 to 15 Reps |
-| Single-Arm Lat Pulldown → Lat Pulldown (Pronated / Overhand Grip) | 3 3 3 3 · 3 3 4 4 · 4 5 5 5 | 10 to 15 per side → 10 to 15 Reps |
-| Leg Extension (machine) | 2 2 2 2 · 2 2 2 3 · 3 3 3 3 | 15 to 20 Reps |
-| Dumbbell Concentration Curl | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 15 to 20 per side |
-| Cable Side Raise (leaning) | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 15 to 20 per side |
-| Incline Dumbbell Curl ('pinky facing up' supinated variation) → Supine (Lying) Biceps Curl | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 15 to 20 Reps |
-| Machine Calf Raise | 3 3 3 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
+| Seal Row - DB (Supinated Grip) → Seal Row - Barbell (Supinated Grip) | 5 5 5 5 · 5 5 5 5 · 5 5 5 5 | 10 to 12 Reps |
+| Front Squat (barbell) | 4 4 4 4 · 4 4 4 4 · 4 4 5 5 | 8-10 Reps |
+| Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top | 4 4 4 4 · 4 5 5 5 · 5 5 5 5 | 10 to 15 per side |
+| Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) | 3 3 4 4 · 4 4 4 4 · 4 4 4 4 | 8 to 12 per side |
+| Spider Curl (chest on incline bench) → Supine (Lying) Biceps Curl | 3 3 3 3 · 3 3 3 3 · 4 4 4 4 | 15 to 20 Reps |
+| Leg Extension (machine) | 3 3 3 3 · 3 3 3 4 · 4 4 4 4 | 15 to 20 Reps |
+| Machine Calf Raise → Machine Calf Raise - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 15 to 20 Reps |
+| Seated (Chest-to-Thighs) DB Reverse Fly | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 20 to 30 Reps |
 
 ### Tuesday · B1 - hip thrust + push
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Sit-Up | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
+| Crunch | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
 | Hanging Rotational Knees-to-Chest (hanging oblique knee raise) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
-| Incline / Side-Lying Cable Lateral Raise | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 per side |
-| Barbell Hip Thrust | 5 5 5 5 · 5 5 5 5 · 5 5 5 5 | 12/10/8/8/20 |
-| Barbell Bench Press → Barbell Bench Press - 1-second pause at the bottom | 3 3 4 4 · 4 4 4 4 · 4 5 5 5 | 8 to 12 Reps |
-| Staggered-Stance (Kickstand) DB Deadlift → 45-Degree Hyperextension (back/hip extension) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 8 to 12 per side → 10 to 15 Reps |
-| Half-Kneeling Single-Arm Landmine Press → Standing Barbell Overhead Press (strict) → Standing Barbell Overhead Press (strict) - 1-second pause at the bottom | 2 2 2 2 · 2 2 3 3 · 3 3 3 3 | 8 to 12 per side → 8 to 12 Reps |
-| Cable Pull-Through | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
+| Seated DB Lateral Raise | 2 3 3 3 · 3 3 3 3 · 3 3 4 4 | 15 to 20 Reps |
+| Barbell Bench Press | 5 5 5 5 · 5 5 5 5 · 5 5 5 5 | 12/10/8/8/20 |
+| Barbell Hip Thrust | 3 3 3 3 · 4 4 4 4 · 4 5 5 5 | 8 to 12 Reps |
+| Incline Barbell Bench Press → Incline Barbell Bench Press - close grip (hands shoulder-width) → Incline Barbell Bench Press - 1-second pause at the bottom | 4 4 4 4 · 4 4 5 5 · 5 5 5 5 | 8-10 Reps |
+| Staggered-Stance (Kickstand) DB Deadlift → Rear-Foot-on-Wall DB Deadlift (RDL) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 8 to 12 per side |
+| EZ-Bar Skullcrusher → EZ-Bar Skullcrusher - 1-second squeeze at the top | 3 3 3 3 · 3 3 4 4 · 4 4 4 4 | 10 to 12 Reps |
 | Seated Leg Curl (machine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
-| Flat DB Fly | 3 3 3 3 · 3 3 4 4 · 4 4 4 4 | 15 to 20 Reps |
-| Tate Press | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 15 to 20 Reps |
-| Standing DB Calf Raise (deficit optional) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 15 to 20 Reps |
-| Cable Triceps Pushdown - straight bar, supinated (reverse) grip → Cable Triceps Push-down | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
+| Cable Triceps Pushdown - straight bar, supinated (reverse) grip | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 15 to 20 Reps |
 
 ### Wednesday · Optional day
 
 | Exercise | Sets | Reps |
 |---|---|---|
 | Cable Oblique Rotation (cable rotational twist) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
-| Reverse Hyperextension | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
+| Machine Row (Close / Neutral Grip) | 2 2 2 2 · 2 2 2 2 · 2 3 3 4 | 10 to 15 Reps |
 | Hip Thrust (machine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
-| Dumbbell Hip Thrust | – 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
-| Cable Triceps Pushdown - straight bar, pronated grip | – 2 2 2 · 2 2 2 2 · 2 2 2 3 | 15 to 20 Reps |
-| Spider Curl (chest on incline bench) | – 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
+| Reverse Hyperextension | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
+| Standing DB Calf Raise (deficit optional) → Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top | 2 2 2 2 · 2 2 2 2 · 3 3 3 3 | 15 to 20 Reps |
+| Supine (Lying) Biceps Curl → Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
 
 ### Thursday · A2 - leg press + pull
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Crunch | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
-| Hanging Rotational Knee/Leg Raise | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
-| DB Lateral Raise (Supinated / palms-up grip) → DB Lateral Raise (Supinated / palms-up grip) - 1-second squeeze at the top | 2 2 2 2 · 2 2 2 3 · 3 3 3 3 | 15 to 20 Reps |
-| Leg Press (machine) | 3 3 3 3 · 3 3 3 3 · 3 3 3 4 | 10 to 15 Reps |
-| Single-Arm DB/KB Row → Bent-Over Barbell Row (Supinated / Yates grip) | 3 3 3 3 · 4 4 4 4 · 4 4 5 5 | 8 to 12 per side → 8 to 12 Reps |
-| Stationary Lunge (Split Squat) → Landmine Hack Squat | 2 2 2 2 · 2 3 3 3 · 3 3 3 3 | 8 to 12 per side → 8 to 12 Reps |
-| Lat Pulldown (Rope Attachment) | 3 3 3 3 · 3 3 3 3 · 4 4 4 5 | 10 to 15 Reps |
-| Sissy Squat → Sissy Squat - holding a plate at the chest | 2 2 2 2 · 2 2 2 2 · 3 3 3 3 | 15 to 20 Reps |
-| Seated Dumbbell Curl | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 15 to 20 Reps |
-| Seated (Chest-to-Thighs) DB Reverse Fly → Machine Reverse Fly (rear-delt pec deck) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20 to 30 Reps |
-| Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 15 to 20 Reps |
-| Machine Calf Raise - one leg at a time | 3 3 3 3 · 3 3 3 4 · 4 4 4 4 | 15 to 20 Reps |
+| Sit-Up | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
+| Reverse Crunch | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
+| Bent-Over Barbell Row → Bent-Over Barbell Row (Supinated / Yates grip) | 4 4 5 5 · 5 5 5 5 · 5 5 5 5 | 12/10/8 -20 → 12/10/8/8/20 |
+| Leg Press (machine) | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 10 to 15 Reps |
+| Lat Pulldown (Rope Attachment) → Lat Pulldown (Rope Attachment) - 1-second squeeze at the top | 4 4 4 4 · 4 4 4 5 · 5 5 5 5 | 10 to 15 Reps |
+| Stationary Lunge (Split Squat) | 3 3 3 3 · 3 4 4 4 · 4 4 4 4 | 8 to 12 per side |
+| Dumbbell Concentration Curl | 3 3 3 3 · 3 3 4 4 · 4 4 4 4 | 15 to 20 per side |
+| Leg Extension (machine) - one leg at a time → Leg Extension (machine) - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 4 4 4 | 15 to 20 Reps |
+| Machine Calf Raise - one leg at a time → Machine Calf Raise - from a step (full stretch at the bottom) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 15 to 20 Reps |
+| Machine Reverse Fly (rear-delt pec deck) | 2 2 2 2 · 2 2 3 3 · 3 3 3 3 | 20 to 30 Reps |
 
 ### Friday · B2 - deadlift + push
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| V-Up | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
-| Reverse Crunch | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
-| DB Upright Row | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
-| Hex (Trap) Bar Deadlift | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 8 to 12 Reps |
-| Incline Barbell Bench Press → Incline Barbell Bench Press - close grip (hands shoulder-width) | 3 3 3 3 · 4 4 4 4 · 4 4 4 5 | 8 to 12 Reps |
-| Alternating Staggered-Stance Single-Leg Deadlift (DB) → Staggered-Stance (Kickstand) DB Deadlift | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 8 to 12 per side |
-| Seesaw DB Press (alternating, one up / one down) | 2 2 2 2 · 2 2 2 2 · 3 3 3 3 | 8 to 12 per side |
-| Lying Leg Curl (machine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
-| Machine Fly (Pec Deck) → Machine Fly (Pec Deck) - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 4 · 3 3 4 4 | 15 to 20 Reps |
-| Overhead Cable Triceps Extension → Overhead Cable Triceps Extension - 1-second squeeze at the top | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
-| Barbell Calf Raise → Barbell Calf Raise - from a step (full stretch at the bottom) | 3 3 3 3 · 3 3 3 3 · 3 3 3 4 | 15 to 20 Reps |
-| Floor Dumbbell Skullcrusher → Overhead Dumbbell Triceps Extension | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
-| Reverse Hyperextension - 1-second squeeze at the top | – – – – · 2 2 2 3 · 3 3 3 3 | 15 to 20 Reps |
-| Cable Fly | – – – – · – – – – · 2 2 2 2 | 15 to 20 Reps |
+| Side Plank (elbow) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
+| Leg Raise (lying / supine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
+| Cable Side Raise (leaning) | 2 2 2 2 · 3 3 3 3 · 4 4 4 4 | 15 to 20 per side |
+| Flat DB Bench Press → Flat DB Bench Press - 1-second pause at the bottom | 4 4 4 5 · 5 5 5 5 · 5 5 5 5 | 12/10/8 -20 → 12/10/8/8/20 |
+| Hex (Trap) Bar Deadlift | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 8-10 Reps |
+| Incline DB Bench Press | 4 4 4 4 · 4 4 4 5 · 5 5 5 5 | 8 to 12 Reps |
+| Alternating Staggered-Stance Single-Leg Deadlift (DB) → Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee | 2 3 3 3 · 3 3 3 3 · 3 3 3 3 | 8 to 12 per side |
+| Cable Triceps Push-down → Cable Triceps Pushdown - straight bar, pronated grip | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 15 to 20 Reps |
+| Lying Leg Curl (machine) → Lying Leg Curl (machine) - one leg at a time | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 15 to 20 Reps |
 
 ### Saturday · Optional day
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Leg Raise (lying / supine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
-| DB Lateral (Side) Raise | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
-| Barbell Upright Row | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
-| Cable Triceps Push-down → EZ-Bar Skullcrusher | – – – – · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps → 10 to 12 Reps |
-| Cable Pull-Through - 1-second squeeze at the top | – – – – · – – – – · 2 2 2 3 | 15 to 20 Reps |
-| Dumbbell Hammer Curl | – – – – · – – – – · 2 2 2 2 | 15 to 20 Reps |
+| Russian Twist | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
+| Incline / Side-Lying Cable Lateral Raise | 2 2 2 2 · 2 2 2 2 · 2 2 2 3 | 15 to 20 per side |
+| DB Upright Row | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
+| Machine Calf Raise - from a step (full stretch at the bottom) → Machine Calf Raise - 1-second squeeze at the top | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 15 to 20 Reps |
+| Overhead Cable Triceps Extension | 2 2 2 3 · 3 3 3 3 · 3 3 3 4 | 15 to 20 Reps |
+| Machine Fly (Pec Deck) | 2 2 2 2 · 2 2 2 2 · 2 3 3 4 | 15 to 20 Reps |
 
 ## Week 1 — Getting used to it (small steps)
 
 _Week level: 2 of 11 (2 = the start, 11 = a little past your limits)_
 
 ### Monday · A1 - squat + pull
-_about 66 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 80-95 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 5.5 min saved)_
+_Superset to save time: Spider Curl (chest on incline bench) + Leg Extension (machine) (about 5 min saved)_
+_Superset to save time: Machine Calf Raise + Seated (Chest-to-Thighs) DB Reverse Fly (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise, Leg Extension (machine), Spider Curl (chest on incline bench) · bonus exercises: Seated (Chest-to-Thighs) DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Hug Goblet Squat**
-   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Held Forward / Medball Reverse Lunge with Down-and-Back Cross-Body Reach / Medball Reverse Lunge with Medball Up
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Hug%20Goblet%20Squat)
+2. **Medball Stationary Lunge (Split Squat) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
 **Core**
-1. **Plank (forearm / low plank)** [A1] — 2 × 20-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Streamline Hold (hollow body, arms locked overhead) / Hollow Rocks / High Plank (straight-arm plank) / L-Sit Hold
-   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Copenhagen Plank** [A2] — 2 × 20-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Plank (forearm / low plank)
+1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Side Plank Press (advanced: star side plank press) / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Strength**
-1. **Seated DB Lateral Raise** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: DB Lateral (Side) Raise / DB Upright Row / DB Lateral Raise (Supinated / palms-up grip) / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise)
-2. **High-Bar Back Squat** [B1] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Seal Row - Barbell (Supinated Grip)
+1. **Seal Row - DB (Supinated Grip)** — 5 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
-   - Swap for: Front Squat (barbell) / Zercher Squat (barbell) / Box Zercher Squat (touch-and-go) / Flipped Hex Bar Squat (low handles, longer range)
-   - [Video](https://youtu.be/i7J5h7BJ07g)
-3. **Seal Row - Barbell (Supinated Grip)** [B2] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ High-Bar Back Squat
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Seal Row - Barbell (Supinated Grip) (keeps the horizontal pull; loses each hand moving on its own) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses each hand moving on its own) / Machine Row (Close / Neutral Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
+2. **Front Squat (barbell)** — 4 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
-   - Swap for: Seal Row - Barbell (Pronated Grip) / Seal Row - DB (Supinated Grip) / Machine Row (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip))
-4. **Deficit Reverse Lunge (standing on plate/step)** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Single-Arm Lat Pulldown
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
+3. **Single-Arm Lat Pulldown** — 4 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Week 1: pick a weight you could lift about 3 more times
+   - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - per side = 1 set
-   - Swap for: Reverse Lunge / Walking Lunge / Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE)
-   - [Video](https://www.youtube.com/watch?v=W0wZ-yk6WR4)
-5. **Single-Arm Lat Pulldown** [C2] — 3 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Deficit Reverse Lunge (standing on plate/step)
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Then do its last set on its own
-   - [Video](https://www.youtube.com/watch?v=XbZgoSNJXm4)
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)) · Name to copy into YouTube: `Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)`
 
 **Accessories**
-1. **Leg Extension (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Dumbbell Concentration Curl
-   - Swap for: DB Leg Extension (seated on box)
-   - [Video](https://youtu.be/m0FOpMEgero)
-2. **Dumbbell Concentration Curl** [D2] — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Leg Extension (machine)
-   - per side = 1 set
-   - Then do its last set on its own
-   - Swap for: Cross-Body Dumbbell Hammer Curl / Single-Arm DB Preacher Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl)
-3. **Cable Side Raise (leaning)** [E1] — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - per side = 1 set
-   - Swap for: Incline / Side-Lying Cable Lateral Raise
-   - [Video](https://www.youtube.com/watch?v=lq7eLC30b9w)
-4. **Incline Dumbbell Curl ('pinky facing up' supinated variation)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Cable Side Raise (leaning)
-   - Then do its last set on its own
-   - Swap for: Supine (Lying) Biceps Curl / Spider Curl (chest on incline bench) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Video](https://www.youtube.com/watch?v=aTYlqC_JacQ)
-5. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Barbell Calf Raise / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
-
-**Aerobic**
-1. **Blue (A): short / high intensity · treadmill** — 15 min · 20 s run / 40 s walk, repeat
-   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
+1. **Spider Curl (chest on incline bench)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)) · Name to copy into YouTube: `Spider Curl (chest on incline bench)`
+2. **Leg Extension (machine)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Barbell Calf Raise (keeps the calf work; loses the machine's support) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Seated (Chest-to-Thighs) DB Reverse Fly (bonus)** — 3 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · B1 - hip thrust + push
-_about 73 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 100-120 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Crunch + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
+_Superset to save time: Barbell Bench Press + Barbell Hip Thrust (about 5.5 min saved)_
+_Superset to save time: Incline Barbell Bench Press + Staggered-Stance (Kickstand) DB Deadlift (about 5.5 min saved)_
+_Superset to save time: EZ-Bar Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Seated Leg Curl (machine), EZ-Bar Skullcrusher · bonus exercises: Cable Triceps Pushdown - straight bar, supinated (reverse) grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball Forward Lunge with Overhead Reach / Medball FFE Split Squat/Lunge with Medball Up / Medball Forward Lunge with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball Forward Lunge with Overhead Reach**
+   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
 **Core**
-1. **Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knees-to-Chest (hanging oblique knee raise)
-   - Swap for: Crunch / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up)
-2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** [A2] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Sit-Up
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bear Crawl / Hip Turns (pelvis rotations) / Flutter Kicks / Windshield Wipers
-   - [Video](https://youtu.be/L1rt7qr5LCk)
+   - Swap for: Star V-Ups (cross-body / diagonal V-ups) (keeps the core work; loses little - same movement, another grip or position) / Single-Leg Toes to Bar (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses the same trunk action - this one trains the core another way) / Windshield Wipers (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knees-to-Chest%20(hanging%20oblique%20knee%20raise)) · Name to copy into YouTube: `Hanging Rotational Knees-to-Chest (hanging oblique knee raise)`
 
 **Strength**
-1. **Incline / Side-Lying Cable Lateral Raise** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Seated DB Lateral Raise** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
+2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Week 1: pick a weight you could lift about 3 more times
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
+3. **Barbell Hip Thrust** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Week 1: pick a weight you could lift about 3 more times
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
+4. **Incline Barbell Bench Press** — 4 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Week 1: pick a weight you could lift about 3 more times
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Incline DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / High-Incline DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press) · Name to copy into YouTube: `Incline Barbell Bench Press`
+5. **Staggered-Stance (Kickstand) DB Deadlift** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Week 1: pick a weight you could lift about 3 more times
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Cable Side Raise (leaning)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise)
-2. **Barbell Hip Thrust** [B1] — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Barbell Bench Press
-   - Week 1: pick a weight you could lift about 3 more times
-   - Then do its last 2 sets on their own
-   - Swap for: Hip Thrust (machine) / Reverse Hyperextension / Dumbbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust)
-3. **Barbell Bench Press** [B2] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Barbell Hip Thrust
-   - Week 1: pick a weight you could lift about 3 more times
-   - Swap for: Incline Barbell Bench Press / Incline DB Bench Press / Flat DB Bench Press / Machine Bench Press
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press)
-4. **Staggered-Stance (Kickstand) DB Deadlift** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Half-Kneeling Single-Arm Landmine Press
-   - Week 1: pick a weight you could lift about 3 more times
-   - per side = 1 set
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) / Alternating Staggered-Stance Single-Leg Deadlift (DB) / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-5. **Half-Kneeling Single-Arm Landmine Press** [C2] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Staggered-Stance (Kickstand) DB Deadlift
-   - Week 1: pick a weight you could lift about 3 more times
-   - per side = 1 set
-   - Swap for: Alternating DB Overhead Press / Seesaw DB Press (alternating, one up / one down) / Half-Kneeling Single-Arm DB Press / Single-Arm DB Overhead Press
-   - [Video](https://www.youtube.com/watch?v=ORoOn93dnh4)
+   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accessories**
-1. **Cable Pull-Through (Focus)** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **Seated Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Flat DB Fly
-   - Swap for: Lying Leg Curl (machine) / Nordic Hamstring Curl / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
-3. **Flat DB Fly** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated Leg Curl (machine)
-   - Then do its last set on its own
-   - Swap for: Machine Fly (Pec Deck) / Cable Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
-4. **Tate Press** [E1] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Standing DB Calf Raise (deficit optional)
-   - Swap for: EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press)
-5. **Standing DB Calf Raise (deficit optional)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Tate Press
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
-6. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Cable Triceps Push-down / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip / EZ-Bar Skullcrusher
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip)
+1. **EZ-Bar Skullcrusher** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses the heavier barbell load) / Tate Press (keeps the triceps work; loses the heavier barbell load) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher) · Name to copy into YouTube: `EZ-Bar Skullcrusher`
+2. **Seated Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
+3. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip (bonus)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 30 min · 11 min steady / 2 min easy, repeat
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Optional day
-_about 51 min_
+_Average time: about 50-60 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
+_Superset to save time: Standing DB Calf Raise (deficit optional) + Supine (Lying) Biceps Curl (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Standing DB Calf Raise (deficit optional), Reverse Hyperextension, Hip Thrust (machine) · bonus exercises: Supine (Lying) Biceps Curl, Machine Row (Close / Neutral Grip)_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Hanging Rotational Knees-to-Chest (hanging oblique knee raise) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees / Russian Twist
-   - [Video](https://www.youtube.com/watch?v=Gq7ToKnOC1Q)
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
 
 **Accessories**
-1. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Machine Row (Close / Neutral Grip) (bonus)** — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: High Row (machine) (keeps the horizontal pull; loses the top-end load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the machine's support) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Row%20(Close%20%2F%20Neutral%20Grip)) · Name to copy into YouTube: `Machine Row (Close / Neutral Grip)`
+2. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Focus slot for your priority muscle
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the machine's support) / Dumbbell Hip Thrust (keeps the glute work; loses the machine's support) / Barbell Hip Thrust (keeps the glute work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine)) · Name to copy into YouTube: `Hip Thrust (machine)`
+3. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
    > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-2. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Barbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine))
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Barbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Glute Bridge (keeps the glute work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Hyperextension) · Name to copy into YouTube: `Reverse Hyperextension`
+4. **Standing DB Calf Raise (deficit optional)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+5. **Supine (Lying) Biceps Curl (bonus)** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 30 min · 11 min steady / 2 min easy, repeat
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+1. **Blue (A): short / high intensity · treadmill** — 15 min · 20 s run / 40 s walk, repeat
+   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
-_about 63 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 75-90 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Sit-Up + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bent-Over Barbell Row + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Lat Pulldown (Rope Attachment) + Stationary Lunge (Split Squat) (about 5.5 min saved)_
+_Superset to save time: Dumbbell Concentration Curl + Leg Extension (machine) - one leg at a time (about 5 min saved)_
+_Superset to save time: Machine Calf Raise - one leg at a time + Machine Reverse Fly (rear-delt pec deck) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - one leg at a time, Leg Extension (machine) - one leg at a time, Dumbbell Concentration Curl · bonus exercises: Machine Reverse Fly (rear-delt pec deck)_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball FFE Split Squat/Lunge with Medball Hug / Medball Reverse Lunge with Forward Reach / Medball Reverse Lunge with Cross-Body Turn
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball RFE Split Squat (Bulgarian) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
 **Core**
-1. **Crunch** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knee/Leg Raise
-   - Swap for: Sit-Up / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Crunch)
-2. **Hanging Rotational Knee/Leg Raise** [A2] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Crunch
-   - per side = 1 set
-   - Swap for: Single-Leg Balance Reach (front / side / back) / Windshield Wipers / Break Dancers (bear/crab-position thread-through rotations) / Hip Turns (pelvis rotations)
-   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise)
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **DB Lateral Raise (Supinated / palms-up grip)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Upright Row / DB Lateral (Side) Raise / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip))
-2. **Leg Press (machine)** [B1] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Single-Arm DB/KB Row
+1. **Bent-Over Barbell Row** — 4 × 12/10/8 -20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - Barbell (Supinated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
+2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Week 1: pick a weight you could lift about 3 more times
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
-   - Swap for: Pendulum Squat (machine) / Hack Squat (machine) / Landmine Hack Squat / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine))
-3. **Single-Arm DB/KB Row** [B2] — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Leg Press (machine)
+   - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Landmine Hack Squat (keeps the two-leg squat; loses the machine's support) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
+3. **Lat Pulldown (Rope Attachment)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
-   - per side = 1 set
-   - Swap for: Single-Arm Cable Row / Bent-Over Seesaw DB Row (alternating) / Bird Dog Row (DB) / Renegade Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-4. **Stationary Lunge (Split Squat)** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Rope Attachment)
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Weighted Pull-Up (keeps the vertical pull; loses the machine's support) / Pull-up (keeps the vertical pull; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment)) · Name to copy into YouTube: `Lat Pulldown (Rope Attachment)`
+4. **Stationary Lunge (Split Squat)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
-   - Swap for: Step-Up (forward and lateral) / Forward Lunge / Side (Lateral) Lunge / Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)
-   - [Video](https://youtu.be/cnwphCgR60A)
-5. **Lat Pulldown (Rope Attachment)** [C2] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Stationary Lunge (Split Squat)
-   - Week 1: pick a weight you could lift about 3 more times
-   - Then do its last set on its own
-   - Swap for: Lat Pulldown (Wide MAG Grip) / Weighted Pull-Up / Lat Pulldown (Close Grip) / Strict Pull-Up (Feet in Front / hollow)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment))
+   - Swap for: Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses the body-weight control) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
 
 **Accessories**
-1. **Sissy Squat** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated Dumbbell Curl
-   - [Video](https://youtu.be/HW5yUsjKru4)
-2. **Seated Dumbbell Curl** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Sissy Squat
-   - Then do its last set on its own
-   - Swap for: Spider Curl (chest on incline bench) / Supine (Lying) Biceps Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Dumbbell%20Curl)
-3. **Seated (Chest-to-Thighs) DB Reverse Fly** [E1] — 2 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - Swap for: Machine Reverse Fly (rear-delt pec deck) / Floor Prone Y / T Raises (bodyweight or light DBs) / Bent-Over DB Reverse Fly / Incline-Bench Prone DB T-Raise
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly)
-4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated (Chest-to-Thighs) DB Reverse Fly
-   - Then do its last set on its own
-   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
-   - Swap for: Supine (Lying) Biceps Curl / Barbell Curl / Spider Curl (chest on incline bench) / EZ-Bar Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups))
-5. **Machine Calf Raise - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise%20-%20one%20leg%20at%20a%20time)
-
-**Aerobic**
-1. **Orange (C): long / easy · rower** — 30 min · 11 min steady / 2 min easy, repeat
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+1. **Dumbbell Concentration Curl** — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+2. **Leg Extension (machine) - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Machine Reverse Fly (rear-delt pec deck) (bonus)** — 2 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · B2 - deadlift + push
-_about 61 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 90-110 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Flat DB Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Incline DB Bench Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 4 min saved)_
+_Superset to save time: Cable Triceps Push-down + Lying Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Lying Leg Curl (machine), Cable Triceps Push-down_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Hug**
-   - Swap for: Medball Stationary Lunge (Split Squat) with Medball Up / Medball Hug Goblet Squat / Medball RFE Split Squat (Bulgarian) with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Hug)
+2. **Medball Forward Lunge with Medball Up**
+   - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
 **Core**
-1. **V-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
-   - Swap for: Sit-Up / Crunch / Supermans / Butterfly Sit-up
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ V-Up
-   - Swap for: Swiss Ball Knee Tuck / Slider Runners (mountain-climber style) / Mountain Climber / Hip Raises ('hips raises')
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Strength**
-1. **DB Upright Row** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Lateral (Side) Raise / Barbell Upright Row / DB Lateral Raise (Supinated / palms-up grip)
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row)
-2. **Hex (Trap) Bar Deadlift** [B1] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Incline Barbell Bench Press
+1. **Cable Side Raise (leaning)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
+2. **Flat DB Bench Press** — 4 × 12/10/8 -20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
-   - Swap for: Sumo Deadlift / Barbell Deadlift (conventional) / Stiff-Leg Deadlift / RDL / Wide-Grip Barbell Deadlift
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-3. **Incline Barbell Bench Press** [B2] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Hex (Trap) Bar Deadlift
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
+3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
-   - Swap for: Flat DB Bench Press / Incline DB Bench Press / Machine Bench Press / Standing Cable Chest Press
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press)
-4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Seesaw DB Press (alternating, one up / one down)
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
+4. **Incline DB Bench Press** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+5. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Week 1: pick a weight you could lift about 3 more times
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
-   - Swap for: Staggered-Stance (Kickstand) DB Deadlift / Rear-Foot-on-Wall DB Deadlift (RDL) / Single-Leg RDL / Single-Leg Deadlift / Staggered-Stance Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB))
-5. **Seesaw DB Press (alternating, one up / one down)** [C2] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Alternating Staggered-Stance Single-Leg Deadlift (DB)
-   - Week 1: pick a weight you could lift about 3 more times
-   - per side = 1 set
-   - Swap for: Alternating DB Overhead Press / Half-Kneeling Single-Arm Landmine Press / Single-Arm DB Overhead Press / Half-Kneeling Single-Arm DB Press
-   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down))
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Lying Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Machine Fly (Pec Deck)
-   - Swap for: Nordic Hamstring Curl / Seated Leg Curl (machine) / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine))
-2. **Machine Fly (Pec Deck)** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Lying Leg Curl (machine)
-   - Then do its last set on its own
-   - Swap for: Cable Fly / Flat DB Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck))
-3. **Overhead Cable Triceps Extension** [E1] — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Barbell Calf Raise
-   - Then do its last set on its own
-   - Swap for: Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip / Tate Press / EZ-Bar Skullcrusher
-   - [Video](https://www.youtube.com/watch?v=kqidUIf1eJE)
-4. **Barbell Calf Raise** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Overhead Cable Triceps Extension
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise)
-5. **Floor Dumbbell Skullcrusher** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Tate Press / EZ-Bar Skullcrusher / Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Video](https://www.youtube.com/watch?v=IAHDkC6vJw4)
+1. **Cable Triceps Push-down** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Push-down) · Name to copy into YouTube: `Cable Triceps Push-down`
+2. **Lying Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 30 min · 11 min steady / 2 min easy, repeat
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Optional day
-_about 41 min_
+_Average time: about 50-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
+_Superset to save time: DB Upright Row + Machine Calf Raise - from a step (full stretch at the bottom) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - from a step (full stretch at the bottom), DB Upright Row, Incline / Side-Lying Cable Lateral Raise · bonus exercises: Machine Fly (Pec Deck), Overhead Cable Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 30-60 s rest
-   - Swap for: Crunch / Sit-Up / Reverse Crunch / Knees to Chest (hanging)
-   - [Video](https://youtu.be/VpEcj96HO4k)
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Accessories**
-1. **DB Lateral (Side) Raise (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Incline / Side-Lying Cable Lateral Raise (Focus)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Barbell Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Side Raise (leaning) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise) · Name to copy into YouTube: `Incline / Side-Lying Cable Lateral Raise`
+2. **DB Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) / DB Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Upright%20Row)
+   - Swap for: Seated DB Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row) · Name to copy into YouTube: `DB Upright Row`
+3. **Machine Calf Raise - from a step (full stretch at the bottom)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Overhead Cable Triceps Extension (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
+5. **Machine Fly (Pec Deck) (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Flat DB Fly (keeps the chest isolation; loses the machine's support) / Cable Fly (keeps the chest isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)) · Name to copy into YouTube: `Machine Fly (Pec Deck)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
@@ -564,340 +614,377 @@ _You can switch off these blocks today: core, accessories, cardio. You can also 
 _Week level: 2.6 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- New bonus exercise: Dumbbell Hip Thrust (Wednesday)
-- New bonus exercise: Cable Triceps Pushdown - straight bar, pronated grip (Wednesday)
-- New bonus exercise: Spider Curl (chest on incline bench) (Wednesday)
-- +1 set on Deficit Reverse Lunge (standing on plate/step) (Monday)
+- +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Friday)
+- +1 set on Seated DB Lateral Raise (Tuesday)
 
 ### Monday · A1 - squat + pull
-_about 68 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 80-95 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 5.5 min saved)_
+_Superset to save time: Spider Curl (chest on incline bench) + Leg Extension (machine) (about 5 min saved)_
+_Superset to save time: Machine Calf Raise + Seated (Chest-to-Thighs) DB Reverse Fly (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise, Leg Extension (machine), Spider Curl (chest on incline bench) · bonus exercises: Seated (Chest-to-Thighs) DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Hug Goblet Squat**
-   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Held Forward / Medball Reverse Lunge with Down-and-Back Cross-Body Reach / Medball Reverse Lunge with Medball Up
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Hug%20Goblet%20Squat)
+2. **Medball Stationary Lunge (Split Squat) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
 **Core**
-1. **Plank (forearm / low plank)** [A1] — 2 × 20-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Streamline Hold (hollow body, arms locked overhead) / Hollow Rocks / High Plank (straight-arm plank) / L-Sit Hold
-   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Copenhagen Plank** [A2] — 2 × 20-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Plank (forearm / low plank)
+1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Side Plank Press (advanced: star side plank press) / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Strength**
-1. **Seated DB Lateral Raise** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: DB Lateral (Side) Raise / DB Upright Row / DB Lateral Raise (Supinated / palms-up grip) / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise)
-2. **High-Bar Back Squat** [B1] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Seal Row - Barbell (Supinated Grip)
-   - Swap for: Front Squat (barbell) / Zercher Squat (barbell) / Box Zercher Squat (touch-and-go) / Flipped Hex Bar Squat (low handles, longer range)
-   - [Video](https://youtu.be/i7J5h7BJ07g)
-3. **Seal Row - Barbell (Supinated Grip)** [B2] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ High-Bar Back Squat
-   - Swap for: Seal Row - Barbell (Pronated Grip) / Seal Row - DB (Supinated Grip) / Machine Row (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip))
-4. **Deficit Reverse Lunge (standing on plate/step)** [C1] — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Single-Arm Lat Pulldown
+1. **Seal Row - DB (Supinated Grip)** — 5 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Seal Row - Barbell (Supinated Grip) (keeps the horizontal pull; loses each hand moving on its own) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses each hand moving on its own) / Machine Row (Close / Neutral Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
+2. **Front Squat (barbell)** — 4 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
+3. **Single-Arm Lat Pulldown** — 4 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - per side = 1 set
-   - Swap for: Reverse Lunge / Walking Lunge / Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE)
-   - [Video](https://www.youtube.com/watch?v=W0wZ-yk6WR4)
-5. **Single-Arm Lat Pulldown** [C2] — 3 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Deficit Reverse Lunge (standing on plate/step)
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - [Video](https://www.youtube.com/watch?v=XbZgoSNJXm4)
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)) · Name to copy into YouTube: `Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)`
 
 **Accessories**
-1. **Leg Extension (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Dumbbell Concentration Curl
-   - Swap for: DB Leg Extension (seated on box)
-   - [Video](https://youtu.be/m0FOpMEgero)
-2. **Dumbbell Concentration Curl** [D2] — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Leg Extension (machine)
-   - per side = 1 set
-   - Then do its last set on its own
-   - Swap for: Cross-Body Dumbbell Hammer Curl / Single-Arm DB Preacher Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl)
-3. **Cable Side Raise (leaning)** [E1] — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - per side = 1 set
-   - Swap for: Incline / Side-Lying Cable Lateral Raise
-   - [Video](https://www.youtube.com/watch?v=lq7eLC30b9w)
-4. **Incline Dumbbell Curl ('pinky facing up' supinated variation)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Cable Side Raise (leaning)
-   - Then do its last set on its own
-   - Swap for: Supine (Lying) Biceps Curl / Spider Curl (chest on incline bench) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Video](https://www.youtube.com/watch?v=aTYlqC_JacQ)
-5. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Barbell Calf Raise / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
-
-**Aerobic**
-1. **Blue (A): short / high intensity · treadmill** — 17 min · 20 s run / 40 s walk, repeat
-   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
+1. **Spider Curl (chest on incline bench)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)) · Name to copy into YouTube: `Spider Curl (chest on incline bench)`
+2. **Leg Extension (machine)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Barbell Calf Raise (keeps the calf work; loses the machine's support) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Seated (Chest-to-Thighs) DB Reverse Fly (bonus)** — 3 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · B1 - hip thrust + push
-_about 73 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 100-120 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Crunch + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
+_Superset to save time: Barbell Bench Press + Barbell Hip Thrust (about 5.5 min saved)_
+_Superset to save time: Incline Barbell Bench Press + Staggered-Stance (Kickstand) DB Deadlift (about 5.5 min saved)_
+_Superset to save time: EZ-Bar Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Seated Leg Curl (machine), EZ-Bar Skullcrusher · bonus exercises: Cable Triceps Pushdown - straight bar, supinated (reverse) grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball Forward Lunge with Overhead Reach / Medball FFE Split Squat/Lunge with Medball Up / Medball Forward Lunge with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball Forward Lunge with Overhead Reach**
+   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
 **Core**
-1. **Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knees-to-Chest (hanging oblique knee raise)
-   - Swap for: Crunch / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up)
-2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** [A2] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Sit-Up
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bear Crawl / Hip Turns (pelvis rotations) / Flutter Kicks / Windshield Wipers
-   - [Video](https://youtu.be/L1rt7qr5LCk)
+   - Swap for: Star V-Ups (cross-body / diagonal V-ups) (keeps the core work; loses little - same movement, another grip or position) / Single-Leg Toes to Bar (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses the same trunk action - this one trains the core another way) / Windshield Wipers (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knees-to-Chest%20(hanging%20oblique%20knee%20raise)) · Name to copy into YouTube: `Hanging Rotational Knees-to-Chest (hanging oblique knee raise)`
 
 **Strength**
-1. **Incline / Side-Lying Cable Lateral Raise** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Seated DB Lateral Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
+2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
+3. **Barbell Hip Thrust** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
+4. **Incline Barbell Bench Press** — 4 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Incline DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / High-Incline DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press) · Name to copy into YouTube: `Incline Barbell Bench Press`
+5. **Staggered-Stance (Kickstand) DB Deadlift** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Cable Side Raise (leaning)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise)
-2. **Barbell Hip Thrust** [B1] — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Barbell Bench Press
-   - Then do its last 2 sets on their own
-   - Swap for: Hip Thrust (machine) / Reverse Hyperextension / Dumbbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust)
-3. **Barbell Bench Press** [B2] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Barbell Hip Thrust
-   - Swap for: Incline Barbell Bench Press / Incline DB Bench Press / Flat DB Bench Press / Machine Bench Press
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press)
-4. **Staggered-Stance (Kickstand) DB Deadlift** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Half-Kneeling Single-Arm Landmine Press
-   - per side = 1 set
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) / Alternating Staggered-Stance Single-Leg Deadlift (DB) / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-5. **Half-Kneeling Single-Arm Landmine Press** [C2] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Staggered-Stance (Kickstand) DB Deadlift
-   - per side = 1 set
-   - Swap for: Alternating DB Overhead Press / Seesaw DB Press (alternating, one up / one down) / Half-Kneeling Single-Arm DB Press / Single-Arm DB Overhead Press
-   - [Video](https://www.youtube.com/watch?v=ORoOn93dnh4)
+   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accessories**
-1. **Cable Pull-Through (Focus)** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **Seated Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Flat DB Fly
-   - Swap for: Lying Leg Curl (machine) / Nordic Hamstring Curl / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
-3. **Flat DB Fly** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated Leg Curl (machine)
-   - Then do its last set on its own
-   - Swap for: Machine Fly (Pec Deck) / Cable Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
-4. **Tate Press** [E1] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Standing DB Calf Raise (deficit optional)
-   - Swap for: EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press)
-5. **Standing DB Calf Raise (deficit optional)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Tate Press
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
-6. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Cable Triceps Push-down / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip / EZ-Bar Skullcrusher
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip)
+1. **EZ-Bar Skullcrusher** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses the heavier barbell load) / Tate Press (keeps the triceps work; loses the heavier barbell load) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher) · Name to copy into YouTube: `EZ-Bar Skullcrusher`
+2. **Seated Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
+3. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip (bonus)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 33 min · 11 min steady / 2 min easy, repeat
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Optional day
-_about 66 min_
+_Average time: about 50-60 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Hip Thrust (machine) + Cable Triceps Pushdown - straight bar, pronated grip (about 3.5 min saved)_
+_Superset to save time: Standing DB Calf Raise (deficit optional) + Supine (Lying) Biceps Curl (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Standing DB Calf Raise (deficit optional), Reverse Hyperextension, Hip Thrust (machine) · bonus exercises: Supine (Lying) Biceps Curl, Machine Row (Close / Neutral Grip)_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Hanging Rotational Knees-to-Chest (hanging oblique knee raise) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees / Russian Twist
-   - [Video](https://www.youtube.com/watch?v=Gq7ToKnOC1Q)
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
 
 **Accessories**
-1. **Dumbbell Hip Thrust (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Machine Row (Close / Neutral Grip) (bonus)** — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: High Row (machine) (keeps the horizontal pull; loses the top-end load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the machine's support) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Row%20(Close%20%2F%20Neutral%20Grip)) · Name to copy into YouTube: `Machine Row (Close / Neutral Grip)`
+2. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Barbell Hip Thrust / Glute Bridge / Hip Thrust or Glute Bridge (either)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hip%20Thrust)
-2. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the machine's support) / Dumbbell Hip Thrust (keeps the glute work; loses the machine's support) / Barbell Hip Thrust (keeps the glute work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine)) · Name to copy into YouTube: `Hip Thrust (machine)`
+3. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
    > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-3. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Barbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine))
-4. **Cable Triceps Pushdown - straight bar, pronated grip (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Barbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Glute Bridge (keeps the glute work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Hyperextension) · Name to copy into YouTube: `Reverse Hyperextension`
+4. **Standing DB Calf Raise (deficit optional)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+5. **Supine (Lying) Biceps Curl (bonus)** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Overhead Dumbbell Triceps Extension
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip)
-5. **Spider Curl (chest on incline bench) (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Supine (Lying) Biceps Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench))
+   - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 33 min · 11 min steady / 2 min easy, repeat
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+1. **Blue (A): short / high intensity · treadmill** — 17 min · 20 s run / 40 s walk, repeat
+   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
-_about 63 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 75-90 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Sit-Up + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bent-Over Barbell Row + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Lat Pulldown (Rope Attachment) + Stationary Lunge (Split Squat) (about 5.5 min saved)_
+_Superset to save time: Dumbbell Concentration Curl + Leg Extension (machine) - one leg at a time (about 5 min saved)_
+_Superset to save time: Machine Calf Raise - one leg at a time + Machine Reverse Fly (rear-delt pec deck) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - one leg at a time, Leg Extension (machine) - one leg at a time, Dumbbell Concentration Curl · bonus exercises: Machine Reverse Fly (rear-delt pec deck)_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball FFE Split Squat/Lunge with Medball Hug / Medball Reverse Lunge with Forward Reach / Medball Reverse Lunge with Cross-Body Turn
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball RFE Split Squat (Bulgarian) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
 **Core**
-1. **Crunch** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knee/Leg Raise
-   - Swap for: Sit-Up / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Crunch)
-2. **Hanging Rotational Knee/Leg Raise** [A2] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Crunch
-   - per side = 1 set
-   - Swap for: Single-Leg Balance Reach (front / side / back) / Windshield Wipers / Break Dancers (bear/crab-position thread-through rotations) / Hip Turns (pelvis rotations)
-   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise)
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **DB Lateral Raise (Supinated / palms-up grip)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Upright Row / DB Lateral (Side) Raise / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip))
-2. **Leg Press (machine)** [B1] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Single-Arm DB/KB Row
+1. **Bent-Over Barbell Row** — 4 × 12/10/8 -20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - Barbell (Supinated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
+2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
-   - Swap for: Pendulum Squat (machine) / Hack Squat (machine) / Landmine Hack Squat / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine))
-3. **Single-Arm DB/KB Row** [B2] — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Leg Press (machine)
-   - per side = 1 set
-   - Swap for: Single-Arm Cable Row / Bent-Over Seesaw DB Row (alternating) / Bird Dog Row (DB) / Renegade Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-4. **Stationary Lunge (Split Squat)** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Rope Attachment)
+   - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Landmine Hack Squat (keeps the two-leg squat; loses the machine's support) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
+3. **Lat Pulldown (Rope Attachment)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Weighted Pull-Up (keeps the vertical pull; loses the machine's support) / Pull-up (keeps the vertical pull; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment)) · Name to copy into YouTube: `Lat Pulldown (Rope Attachment)`
+4. **Stationary Lunge (Split Squat)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
-   - Swap for: Step-Up (forward and lateral) / Forward Lunge / Side (Lateral) Lunge / Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)
-   - [Video](https://youtu.be/cnwphCgR60A)
-5. **Lat Pulldown (Rope Attachment)** [C2] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Stationary Lunge (Split Squat)
-   - Then do its last set on its own
-   - Swap for: Lat Pulldown (Wide MAG Grip) / Weighted Pull-Up / Lat Pulldown (Close Grip) / Strict Pull-Up (Feet in Front / hollow)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment))
+   - Swap for: Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses the body-weight control) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
 
 **Accessories**
-1. **Sissy Squat** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated Dumbbell Curl
-   - [Video](https://youtu.be/HW5yUsjKru4)
-2. **Seated Dumbbell Curl** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Sissy Squat
-   - Then do its last set on its own
-   - Swap for: Spider Curl (chest on incline bench) / Supine (Lying) Biceps Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Dumbbell%20Curl)
-3. **Seated (Chest-to-Thighs) DB Reverse Fly** [E1] — 2 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - Swap for: Machine Reverse Fly (rear-delt pec deck) / Floor Prone Y / T Raises (bodyweight or light DBs) / Bent-Over DB Reverse Fly / Incline-Bench Prone DB T-Raise
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly)
-4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated (Chest-to-Thighs) DB Reverse Fly
-   - Then do its last set on its own
-   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
-   - Swap for: Supine (Lying) Biceps Curl / Barbell Curl / Spider Curl (chest on incline bench) / EZ-Bar Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups))
-5. **Machine Calf Raise - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise%20-%20one%20leg%20at%20a%20time)
-
-**Aerobic**
-1. **Orange (C): long / easy · rower** — 33 min · 11 min steady / 2 min easy, repeat
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+1. **Dumbbell Concentration Curl** — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+2. **Leg Extension (machine) - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Machine Reverse Fly (rear-delt pec deck) (bonus)** — 2 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · B2 - deadlift + push
-_about 61 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 90-110 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Flat DB Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Incline DB Bench Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
+_Superset to save time: Cable Triceps Push-down + Lying Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Lying Leg Curl (machine), Cable Triceps Push-down_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Hug**
-   - Swap for: Medball Stationary Lunge (Split Squat) with Medball Up / Medball Hug Goblet Squat / Medball RFE Split Squat (Bulgarian) with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Hug)
+2. **Medball Forward Lunge with Medball Up**
+   - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
 **Core**
-1. **V-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
-   - Swap for: Sit-Up / Crunch / Supermans / Butterfly Sit-up
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ V-Up
-   - Swap for: Swiss Ball Knee Tuck / Slider Runners (mountain-climber style) / Mountain Climber / Hip Raises ('hips raises')
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Strength**
-1. **DB Upright Row** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Lateral (Side) Raise / Barbell Upright Row / DB Lateral Raise (Supinated / palms-up grip)
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row)
-2. **Hex (Trap) Bar Deadlift** [B1] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Incline Barbell Bench Press
-   - Swap for: Sumo Deadlift / Barbell Deadlift (conventional) / Stiff-Leg Deadlift / RDL / Wide-Grip Barbell Deadlift
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-3. **Incline Barbell Bench Press** [B2] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Hex (Trap) Bar Deadlift
-   - Swap for: Flat DB Bench Press / Incline DB Bench Press / Machine Bench Press / Standing Cable Chest Press
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press)
-4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Seesaw DB Press (alternating, one up / one down)
+1. **Cable Side Raise (leaning)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
+2. **Flat DB Bench Press** — 4 × 12/10/8 -20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
+3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
+4. **Incline DB Bench Press** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+5. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
-   - Swap for: Staggered-Stance (Kickstand) DB Deadlift / Rear-Foot-on-Wall DB Deadlift (RDL) / Single-Leg RDL / Single-Leg Deadlift / Staggered-Stance Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB))
-5. **Seesaw DB Press (alternating, one up / one down)** [C2] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Alternating Staggered-Stance Single-Leg Deadlift (DB)
-   - per side = 1 set
-   - Swap for: Alternating DB Overhead Press / Half-Kneeling Single-Arm Landmine Press / Single-Arm DB Overhead Press / Half-Kneeling Single-Arm DB Press
-   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down))
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Lying Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Machine Fly (Pec Deck)
-   - Swap for: Nordic Hamstring Curl / Seated Leg Curl (machine) / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine))
-2. **Machine Fly (Pec Deck)** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Lying Leg Curl (machine)
-   - Then do its last set on its own
-   - Swap for: Cable Fly / Flat DB Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck))
-3. **Overhead Cable Triceps Extension** [E1] — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Barbell Calf Raise
-   - Then do its last set on its own
-   - Swap for: Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip / Tate Press / EZ-Bar Skullcrusher
-   - [Video](https://www.youtube.com/watch?v=kqidUIf1eJE)
-4. **Barbell Calf Raise** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Overhead Cable Triceps Extension
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise)
-5. **Floor Dumbbell Skullcrusher** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Tate Press / EZ-Bar Skullcrusher / Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Video](https://www.youtube.com/watch?v=IAHDkC6vJw4)
+1. **Cable Triceps Push-down** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Push-down) · Name to copy into YouTube: `Cable Triceps Push-down`
+2. **Lying Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 33 min · 11 min steady / 2 min easy, repeat
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Optional day
-_about 41 min_
+_Average time: about 50-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
+_Superset to save time: DB Upright Row + Machine Calf Raise - from a step (full stretch at the bottom) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - from a step (full stretch at the bottom), DB Upright Row, Incline / Side-Lying Cable Lateral Raise · bonus exercises: Machine Fly (Pec Deck), Overhead Cable Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 30-60 s rest
-   - Swap for: Crunch / Sit-Up / Reverse Crunch / Knees to Chest (hanging)
-   - [Video](https://youtu.be/VpEcj96HO4k)
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Accessories**
-1. **DB Lateral (Side) Raise (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Incline / Side-Lying Cable Lateral Raise (Focus)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Barbell Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Side Raise (leaning) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise) · Name to copy into YouTube: `Incline / Side-Lying Cable Lateral Raise`
+2. **DB Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) / DB Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Upright%20Row)
+   - Swap for: Seated DB Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row) · Name to copy into YouTube: `DB Upright Row`
+3. **Machine Calf Raise - from a step (full stretch at the bottom)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Overhead Cable Triceps Extension (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
+5. **Machine Fly (Pec Deck) (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Flat DB Fly (keeps the chest isolation; loses the machine's support) / Cable Fly (keeps the chest isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)) · Name to copy into YouTube: `Machine Fly (Pec Deck)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
@@ -910,339 +997,377 @@ _You can switch off these blocks today: core, accessories, cardio. You can also 
 _Week level: 3.2 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- +1 set on Barbell Bench Press (Tuesday)
-- +1 set on Seal Row - Barbell (Supinated Grip) (Monday)
+- +1 set on Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (Monday)
+- +1 set on Bent-Over Barbell Row (Thursday)
 
 ### Monday · A1 - squat + pull
-_about 70 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 80-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 7 min saved)_
+_Superset to save time: Spider Curl (chest on incline bench) + Leg Extension (machine) (about 5 min saved)_
+_Superset to save time: Machine Calf Raise + Seated (Chest-to-Thighs) DB Reverse Fly (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise, Leg Extension (machine), Spider Curl (chest on incline bench) · bonus exercises: Seated (Chest-to-Thighs) DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Hug Goblet Squat**
-   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Held Forward / Medball Reverse Lunge with Down-and-Back Cross-Body Reach / Medball Reverse Lunge with Medball Up
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Hug%20Goblet%20Squat)
+2. **Medball Stationary Lunge (Split Squat) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
 **Core**
-1. **Plank (forearm / low plank)** [A1] — 2 × 20-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Streamline Hold (hollow body, arms locked overhead) / Hollow Rocks / High Plank (straight-arm plank) / L-Sit Hold
-   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Copenhagen Plank** [A2] — 2 × 20-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Plank (forearm / low plank)
+1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Side Plank Press (advanced: star side plank press) / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Strength**
-1. **Seated DB Lateral Raise** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: DB Lateral (Side) Raise / DB Upright Row / DB Lateral Raise (Supinated / palms-up grip) / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise)
-2. **High-Bar Back Squat** [B1] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Seal Row - Barbell (Supinated Grip)
-   - Swap for: Front Squat (barbell) / Zercher Squat (barbell) / Box Zercher Squat (touch-and-go) / Flipped Hex Bar Squat (low handles, longer range)
-   - [Video](https://youtu.be/i7J5h7BJ07g)
-3. **Seal Row - Barbell (Supinated Grip)** [B2] — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ High-Bar Back Squat
-   - Then do its last set on its own
-   - Swap for: Seal Row - Barbell (Pronated Grip) / Seal Row - DB (Supinated Grip) / Machine Row (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip))
-4. **Deficit Reverse Lunge (standing on plate/step)** [C1] — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Single-Arm Lat Pulldown
+1. **Seal Row - DB (Supinated Grip)** — 5 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Seal Row - Barbell (Supinated Grip) (keeps the horizontal pull; loses each hand moving on its own) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses each hand moving on its own) / Machine Row (Close / Neutral Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
+2. **Front Squat (barbell)** — 4 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
+3. **Single-Arm Lat Pulldown** — 4 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - per side = 1 set
-   - Swap for: Reverse Lunge / Walking Lunge / Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE)
-   - [Video](https://www.youtube.com/watch?v=W0wZ-yk6WR4)
-5. **Single-Arm Lat Pulldown** [C2] — 3 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Deficit Reverse Lunge (standing on plate/step)
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 4 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - [Video](https://www.youtube.com/watch?v=XbZgoSNJXm4)
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)) · Name to copy into YouTube: `Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)`
 
 **Accessories**
-1. **Leg Extension (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Dumbbell Concentration Curl
-   - Swap for: DB Leg Extension (seated on box)
-   - [Video](https://youtu.be/m0FOpMEgero)
-2. **Dumbbell Concentration Curl** [D2] — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Leg Extension (machine)
-   - per side = 1 set
-   - Then do its last set on its own
-   - Swap for: Cross-Body Dumbbell Hammer Curl / Single-Arm DB Preacher Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl)
-3. **Cable Side Raise (leaning)** [E1] — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - per side = 1 set
-   - Swap for: Incline / Side-Lying Cable Lateral Raise
-   - [Video](https://www.youtube.com/watch?v=lq7eLC30b9w)
-4. **Incline Dumbbell Curl ('pinky facing up' supinated variation)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Cable Side Raise (leaning)
-   - Then do its last set on its own
-   - Swap for: Supine (Lying) Biceps Curl / Spider Curl (chest on incline bench) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Video](https://www.youtube.com/watch?v=aTYlqC_JacQ)
-5. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Barbell Calf Raise / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
-
-**Aerobic**
-1. **Blue (A): short / high intensity · treadmill** — 18 min · 20 s run / 40 s walk, repeat
-   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
+1. **Spider Curl (chest on incline bench)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)) · Name to copy into YouTube: `Spider Curl (chest on incline bench)`
+2. **Leg Extension (machine)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Barbell Calf Raise (keeps the calf work; loses the machine's support) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Seated (Chest-to-Thighs) DB Reverse Fly (bonus)** — 3 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · B1 - hip thrust + push
-_about 74 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 100-120 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Crunch + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
+_Superset to save time: Barbell Bench Press + Barbell Hip Thrust (about 5.5 min saved)_
+_Superset to save time: Incline Barbell Bench Press + Staggered-Stance (Kickstand) DB Deadlift (about 5.5 min saved)_
+_Superset to save time: EZ-Bar Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Seated Leg Curl (machine), EZ-Bar Skullcrusher · bonus exercises: Cable Triceps Pushdown - straight bar, supinated (reverse) grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball Forward Lunge with Overhead Reach / Medball FFE Split Squat/Lunge with Medball Up / Medball Forward Lunge with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball Forward Lunge with Overhead Reach**
+   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
 **Core**
-1. **Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knees-to-Chest (hanging oblique knee raise)
-   - Swap for: Crunch / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up)
-2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** [A2] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Sit-Up
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bear Crawl / Hip Turns (pelvis rotations) / Flutter Kicks / Windshield Wipers
-   - [Video](https://youtu.be/L1rt7qr5LCk)
+   - Swap for: Star V-Ups (cross-body / diagonal V-ups) (keeps the core work; loses little - same movement, another grip or position) / Single-Leg Toes to Bar (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses the same trunk action - this one trains the core another way) / Windshield Wipers (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knees-to-Chest%20(hanging%20oblique%20knee%20raise)) · Name to copy into YouTube: `Hanging Rotational Knees-to-Chest (hanging oblique knee raise)`
 
 **Strength**
-1. **Incline / Side-Lying Cable Lateral Raise** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Seated DB Lateral Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
+2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
+3. **Barbell Hip Thrust** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
+4. **Incline Barbell Bench Press** — 4 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Incline DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / High-Incline DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press) · Name to copy into YouTube: `Incline Barbell Bench Press`
+5. **Staggered-Stance (Kickstand) DB Deadlift** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Cable Side Raise (leaning)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise)
-2. **Barbell Hip Thrust** [B1] — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Barbell Bench Press
-   - Then do its last set on its own
-   - Swap for: Hip Thrust (machine) / Reverse Hyperextension / Dumbbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust)
-3. **Barbell Bench Press** [B2] — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Barbell Hip Thrust
-   - Swap for: Incline Barbell Bench Press / Incline DB Bench Press / Flat DB Bench Press / Machine Bench Press
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press)
-4. **Staggered-Stance (Kickstand) DB Deadlift** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Half-Kneeling Single-Arm Landmine Press
-   - per side = 1 set
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) / Alternating Staggered-Stance Single-Leg Deadlift (DB) / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-5. **Half-Kneeling Single-Arm Landmine Press** [C2] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Staggered-Stance (Kickstand) DB Deadlift
-   - per side = 1 set
-   - Swap for: Alternating DB Overhead Press / Seesaw DB Press (alternating, one up / one down) / Half-Kneeling Single-Arm DB Press / Single-Arm DB Overhead Press
-   - [Video](https://www.youtube.com/watch?v=ORoOn93dnh4)
+   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accessories**
-1. **Cable Pull-Through (Focus)** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **Seated Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Flat DB Fly
-   - Swap for: Lying Leg Curl (machine) / Nordic Hamstring Curl / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
-3. **Flat DB Fly** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated Leg Curl (machine)
-   - Then do its last set on its own
-   - Swap for: Machine Fly (Pec Deck) / Cable Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
-4. **Tate Press** [E1] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Standing DB Calf Raise (deficit optional)
-   - Swap for: EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press)
-5. **Standing DB Calf Raise (deficit optional)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Tate Press
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
-6. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Cable Triceps Push-down / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip / EZ-Bar Skullcrusher
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip)
+1. **EZ-Bar Skullcrusher** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses the heavier barbell load) / Tate Press (keeps the triceps work; loses the heavier barbell load) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher) · Name to copy into YouTube: `EZ-Bar Skullcrusher`
+2. **Seated Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
+3. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip (bonus)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 37 min · 11 min steady / 2 min easy, repeat
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Optional day
-_about 66 min_
+_Average time: about 50-60 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Hip Thrust (machine) + Cable Triceps Pushdown - straight bar, pronated grip (about 3.5 min saved)_
+_Superset to save time: Standing DB Calf Raise (deficit optional) + Supine (Lying) Biceps Curl (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Standing DB Calf Raise (deficit optional), Reverse Hyperextension, Hip Thrust (machine) · bonus exercises: Supine (Lying) Biceps Curl, Machine Row (Close / Neutral Grip)_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Hanging Rotational Knees-to-Chest (hanging oblique knee raise) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees / Russian Twist
-   - [Video](https://www.youtube.com/watch?v=Gq7ToKnOC1Q)
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
 
 **Accessories**
-1. **Dumbbell Hip Thrust (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Machine Row (Close / Neutral Grip) (bonus)** — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: High Row (machine) (keeps the horizontal pull; loses the top-end load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the machine's support) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Row%20(Close%20%2F%20Neutral%20Grip)) · Name to copy into YouTube: `Machine Row (Close / Neutral Grip)`
+2. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Barbell Hip Thrust / Glute Bridge / Hip Thrust or Glute Bridge (either)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hip%20Thrust)
-2. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the machine's support) / Dumbbell Hip Thrust (keeps the glute work; loses the machine's support) / Barbell Hip Thrust (keeps the glute work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine)) · Name to copy into YouTube: `Hip Thrust (machine)`
+3. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
    > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-3. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Barbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine))
-4. **Cable Triceps Pushdown - straight bar, pronated grip (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Barbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Glute Bridge (keeps the glute work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Hyperextension) · Name to copy into YouTube: `Reverse Hyperextension`
+4. **Standing DB Calf Raise (deficit optional)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+5. **Supine (Lying) Biceps Curl (bonus)** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Overhead Dumbbell Triceps Extension
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip)
-5. **Spider Curl (chest on incline bench) (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Supine (Lying) Biceps Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench))
+   - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 37 min · 11 min steady / 2 min easy, repeat
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+1. **Blue (A): short / high intensity · treadmill** — 18 min · 20 s run / 40 s walk, repeat
+   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
-_about 63 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 75-90 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Sit-Up + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bent-Over Barbell Row + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Lat Pulldown (Rope Attachment) + Stationary Lunge (Split Squat) (about 5.5 min saved)_
+_Superset to save time: Dumbbell Concentration Curl + Leg Extension (machine) - one leg at a time (about 5 min saved)_
+_Superset to save time: Machine Calf Raise - one leg at a time + Machine Reverse Fly (rear-delt pec deck) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - one leg at a time, Leg Extension (machine) - one leg at a time, Dumbbell Concentration Curl · bonus exercises: Machine Reverse Fly (rear-delt pec deck)_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball FFE Split Squat/Lunge with Medball Hug / Medball Reverse Lunge with Forward Reach / Medball Reverse Lunge with Cross-Body Turn
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball RFE Split Squat (Bulgarian) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
 **Core**
-1. **Crunch** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knee/Leg Raise
-   - Swap for: Sit-Up / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Crunch)
-2. **Hanging Rotational Knee/Leg Raise** [A2] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Crunch
-   - per side = 1 set
-   - Swap for: Single-Leg Balance Reach (front / side / back) / Windshield Wipers / Break Dancers (bear/crab-position thread-through rotations) / Hip Turns (pelvis rotations)
-   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise)
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **DB Lateral Raise (Supinated / palms-up grip)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Upright Row / DB Lateral (Side) Raise / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip))
-2. **Leg Press (machine)** [B1] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Single-Arm DB/KB Row
+1. **Bent-Over Barbell Row** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - Barbell (Supinated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
+2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
-   - Swap for: Pendulum Squat (machine) / Hack Squat (machine) / Landmine Hack Squat / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine))
-3. **Single-Arm DB/KB Row** [B2] — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Leg Press (machine)
-   - per side = 1 set
-   - Swap for: Single-Arm Cable Row / Bent-Over Seesaw DB Row (alternating) / Bird Dog Row (DB) / Renegade Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-4. **Stationary Lunge (Split Squat)** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Rope Attachment)
+   - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Landmine Hack Squat (keeps the two-leg squat; loses the machine's support) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
+3. **Lat Pulldown (Rope Attachment)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Weighted Pull-Up (keeps the vertical pull; loses the machine's support) / Pull-up (keeps the vertical pull; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment)) · Name to copy into YouTube: `Lat Pulldown (Rope Attachment)`
+4. **Stationary Lunge (Split Squat)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
-   - Swap for: Step-Up (forward and lateral) / Forward Lunge / Side (Lateral) Lunge / Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)
-   - [Video](https://youtu.be/cnwphCgR60A)
-5. **Lat Pulldown (Rope Attachment)** [C2] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Stationary Lunge (Split Squat)
-   - Then do its last set on its own
-   - Swap for: Lat Pulldown (Wide MAG Grip) / Weighted Pull-Up / Lat Pulldown (Close Grip) / Strict Pull-Up (Feet in Front / hollow)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment))
+   - Swap for: Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses the body-weight control) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
 
 **Accessories**
-1. **Sissy Squat** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated Dumbbell Curl
-   - [Video](https://youtu.be/HW5yUsjKru4)
-2. **Seated Dumbbell Curl** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Sissy Squat
-   - Then do its last set on its own
-   - Swap for: Spider Curl (chest on incline bench) / Supine (Lying) Biceps Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Dumbbell%20Curl)
-3. **Seated (Chest-to-Thighs) DB Reverse Fly** [E1] — 2 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - Swap for: Machine Reverse Fly (rear-delt pec deck) / Floor Prone Y / T Raises (bodyweight or light DBs) / Bent-Over DB Reverse Fly / Incline-Bench Prone DB T-Raise
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly)
-4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated (Chest-to-Thighs) DB Reverse Fly
-   - Then do its last set on its own
-   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
-   - Swap for: Supine (Lying) Biceps Curl / Barbell Curl / Spider Curl (chest on incline bench) / EZ-Bar Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups))
-5. **Machine Calf Raise - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise%20-%20one%20leg%20at%20a%20time)
-
-**Aerobic**
-1. **Orange (C): long / easy · rower** — 37 min · 11 min steady / 2 min easy, repeat
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+1. **Dumbbell Concentration Curl** — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+2. **Leg Extension (machine) - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Machine Reverse Fly (rear-delt pec deck) (bonus)** — 2 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · B2 - deadlift + push
-_about 61 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 90-110 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Flat DB Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Incline DB Bench Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
+_Superset to save time: Cable Triceps Push-down + Lying Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Lying Leg Curl (machine), Cable Triceps Push-down_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Hug**
-   - Swap for: Medball Stationary Lunge (Split Squat) with Medball Up / Medball Hug Goblet Squat / Medball RFE Split Squat (Bulgarian) with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Hug)
+2. **Medball Forward Lunge with Medball Up**
+   - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
 **Core**
-1. **V-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
-   - Swap for: Sit-Up / Crunch / Supermans / Butterfly Sit-up
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ V-Up
-   - Swap for: Swiss Ball Knee Tuck / Slider Runners (mountain-climber style) / Mountain Climber / Hip Raises ('hips raises')
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Strength**
-1. **DB Upright Row** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Lateral (Side) Raise / Barbell Upright Row / DB Lateral Raise (Supinated / palms-up grip)
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row)
-2. **Hex (Trap) Bar Deadlift** [B1] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Incline Barbell Bench Press
-   - Swap for: Sumo Deadlift / Barbell Deadlift (conventional) / Stiff-Leg Deadlift / RDL / Wide-Grip Barbell Deadlift
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-3. **Incline Barbell Bench Press** [B2] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Hex (Trap) Bar Deadlift
-   - Swap for: Flat DB Bench Press / Incline DB Bench Press / Machine Bench Press / Standing Cable Chest Press
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press)
-4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Seesaw DB Press (alternating, one up / one down)
+1. **Cable Side Raise (leaning)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
+2. **Flat DB Bench Press** — 4 × 12/10/8 -20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
+3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
+4. **Incline DB Bench Press** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+5. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
-   - Swap for: Staggered-Stance (Kickstand) DB Deadlift / Rear-Foot-on-Wall DB Deadlift (RDL) / Single-Leg RDL / Single-Leg Deadlift / Staggered-Stance Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB))
-5. **Seesaw DB Press (alternating, one up / one down)** [C2] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Alternating Staggered-Stance Single-Leg Deadlift (DB)
-   - per side = 1 set
-   - Swap for: Alternating DB Overhead Press / Half-Kneeling Single-Arm Landmine Press / Single-Arm DB Overhead Press / Half-Kneeling Single-Arm DB Press
-   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down))
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Lying Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Machine Fly (Pec Deck)
-   - Swap for: Nordic Hamstring Curl / Seated Leg Curl (machine) / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine))
-2. **Machine Fly (Pec Deck)** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Lying Leg Curl (machine)
-   - Then do its last set on its own
-   - Swap for: Cable Fly / Flat DB Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck))
-3. **Overhead Cable Triceps Extension** [E1] — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Barbell Calf Raise
-   - Then do its last set on its own
-   - Swap for: Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip / Tate Press / EZ-Bar Skullcrusher
-   - [Video](https://www.youtube.com/watch?v=kqidUIf1eJE)
-4. **Barbell Calf Raise** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Overhead Cable Triceps Extension
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise)
-5. **Floor Dumbbell Skullcrusher** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Tate Press / EZ-Bar Skullcrusher / Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Video](https://www.youtube.com/watch?v=IAHDkC6vJw4)
+1. **Cable Triceps Push-down** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Push-down) · Name to copy into YouTube: `Cable Triceps Push-down`
+2. **Lying Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 37 min · 11 min steady / 2 min easy, repeat
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Optional day
-_about 41 min_
+_Average time: about 50-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
+_Superset to save time: DB Upright Row + Machine Calf Raise - from a step (full stretch at the bottom) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - from a step (full stretch at the bottom), DB Upright Row, Incline / Side-Lying Cable Lateral Raise · bonus exercises: Machine Fly (Pec Deck), Overhead Cable Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 30-60 s rest
-   - Swap for: Crunch / Sit-Up / Reverse Crunch / Knees to Chest (hanging)
-   - [Video](https://youtu.be/VpEcj96HO4k)
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Accessories**
-1. **DB Lateral (Side) Raise (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Incline / Side-Lying Cable Lateral Raise (Focus)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Barbell Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Side Raise (leaning) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise) · Name to copy into YouTube: `Incline / Side-Lying Cable Lateral Raise`
+2. **DB Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) / DB Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Upright%20Row)
+   - Swap for: Seated DB Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row) · Name to copy into YouTube: `DB Upright Row`
+3. **Machine Calf Raise - from a step (full stretch at the bottom)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Overhead Cable Triceps Extension (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
+5. **Machine Fly (Pec Deck) (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Flat DB Fly (keeps the chest isolation; loses the machine's support) / Cable Fly (keeps the chest isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)) · Name to copy into YouTube: `Machine Fly (Pec Deck)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
@@ -1255,339 +1380,377 @@ _You can switch off these blocks today: core, accessories, cardio. You can also 
 _Week level: 3.8 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- +1 set on Seated DB Lateral Raise (Monday)
-- +1 set on Machine Calf Raise (Monday)
+- +1 set on Flat DB Bench Press (Friday)
+- +1 set on Overhead Cable Triceps Extension (Saturday)
 
 ### Monday · A1 - squat + pull
-_about 74 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 80-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 7 min saved)_
+_Superset to save time: Spider Curl (chest on incline bench) + Leg Extension (machine) (about 5 min saved)_
+_Superset to save time: Machine Calf Raise + Seated (Chest-to-Thighs) DB Reverse Fly (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise, Leg Extension (machine), Spider Curl (chest on incline bench) · bonus exercises: Seated (Chest-to-Thighs) DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Hug Goblet Squat**
-   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Held Forward / Medball Reverse Lunge with Down-and-Back Cross-Body Reach / Medball Reverse Lunge with Medball Up
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Hug%20Goblet%20Squat)
+2. **Medball Stationary Lunge (Split Squat) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
 **Core**
-1. **Plank (forearm / low plank)** [A1] — 2 × 20-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Streamline Hold (hollow body, arms locked overhead) / Hollow Rocks / High Plank (straight-arm plank) / L-Sit Hold
-   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Copenhagen Plank** [A2] — 2 × 20-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Plank (forearm / low plank)
+1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Side Plank Press (advanced: star side plank press) / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Strength**
-1. **Seated DB Lateral Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: DB Lateral (Side) Raise / DB Upright Row / DB Lateral Raise (Supinated / palms-up grip) / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise)
-2. **High-Bar Back Squat** [B1] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Seal Row - Barbell (Supinated Grip)
-   - Swap for: Front Squat (barbell) / Zercher Squat (barbell) / Box Zercher Squat (touch-and-go) / Flipped Hex Bar Squat (low handles, longer range)
-   - [Video](https://youtu.be/i7J5h7BJ07g)
-3. **Seal Row - Barbell (Supinated Grip)** [B2] — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ High-Bar Back Squat
-   - Then do its last set on its own
-   - Swap for: Seal Row - Barbell (Pronated Grip) / Seal Row - DB (Supinated Grip) / Machine Row (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip))
-4. **Deficit Reverse Lunge (standing on plate/step)** [C1] — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Single-Arm Lat Pulldown
+1. **Seal Row - DB (Supinated Grip)** — 5 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Seal Row - Barbell (Supinated Grip) (keeps the horizontal pull; loses each hand moving on its own) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses each hand moving on its own) / Machine Row (Close / Neutral Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
+2. **Front Squat (barbell)** — 4 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
+3. **Single-Arm Lat Pulldown** — 4 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - per side = 1 set
-   - Swap for: Reverse Lunge / Walking Lunge / Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE)
-   - [Video](https://www.youtube.com/watch?v=W0wZ-yk6WR4)
-5. **Single-Arm Lat Pulldown** [C2] — 3 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Deficit Reverse Lunge (standing on plate/step)
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 4 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - [Video](https://www.youtube.com/watch?v=XbZgoSNJXm4)
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)) · Name to copy into YouTube: `Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)`
 
 **Accessories**
-1. **Leg Extension (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Dumbbell Concentration Curl
-   - Swap for: DB Leg Extension (seated on box)
-   - [Video](https://youtu.be/m0FOpMEgero)
-2. **Dumbbell Concentration Curl** [D2] — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Leg Extension (machine)
-   - per side = 1 set
-   - Then do its last set on its own
-   - Swap for: Cross-Body Dumbbell Hammer Curl / Single-Arm DB Preacher Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl)
-3. **Cable Side Raise (leaning)** [E1] — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - per side = 1 set
-   - Swap for: Incline / Side-Lying Cable Lateral Raise
-   - [Video](https://www.youtube.com/watch?v=lq7eLC30b9w)
-4. **Incline Dumbbell Curl ('pinky facing up' supinated variation)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Cable Side Raise (leaning)
-   - Then do its last set on its own
-   - Swap for: Supine (Lying) Biceps Curl / Spider Curl (chest on incline bench) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Video](https://www.youtube.com/watch?v=aTYlqC_JacQ)
-5. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Barbell Calf Raise / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
-
-**Aerobic**
-1. **Blue (A): short / high intensity · treadmill** — 20 min · 20 s run / 40 s walk, repeat
-   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
+1. **Spider Curl (chest on incline bench)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)) · Name to copy into YouTube: `Spider Curl (chest on incline bench)`
+2. **Leg Extension (machine)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Barbell Calf Raise (keeps the calf work; loses the machine's support) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Seated (Chest-to-Thighs) DB Reverse Fly (bonus)** — 3 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · B1 - hip thrust + push
-_about 74 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 100-120 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Crunch + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
+_Superset to save time: Barbell Bench Press + Barbell Hip Thrust (about 5.5 min saved)_
+_Superset to save time: Incline Barbell Bench Press + Staggered-Stance (Kickstand) DB Deadlift (about 5.5 min saved)_
+_Superset to save time: EZ-Bar Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Seated Leg Curl (machine), EZ-Bar Skullcrusher · bonus exercises: Cable Triceps Pushdown - straight bar, supinated (reverse) grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball Forward Lunge with Overhead Reach / Medball FFE Split Squat/Lunge with Medball Up / Medball Forward Lunge with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball Forward Lunge with Overhead Reach**
+   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
 **Core**
-1. **Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knees-to-Chest (hanging oblique knee raise)
-   - Swap for: Crunch / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up)
-2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** [A2] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Sit-Up
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bear Crawl / Hip Turns (pelvis rotations) / Flutter Kicks / Windshield Wipers
-   - [Video](https://youtu.be/L1rt7qr5LCk)
+   - Swap for: Star V-Ups (cross-body / diagonal V-ups) (keeps the core work; loses little - same movement, another grip or position) / Single-Leg Toes to Bar (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses the same trunk action - this one trains the core another way) / Windshield Wipers (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knees-to-Chest%20(hanging%20oblique%20knee%20raise)) · Name to copy into YouTube: `Hanging Rotational Knees-to-Chest (hanging oblique knee raise)`
 
 **Strength**
-1. **Incline / Side-Lying Cable Lateral Raise** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Seated DB Lateral Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
+2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
+3. **Barbell Hip Thrust** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
+4. **Incline Barbell Bench Press** — 4 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Incline DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / High-Incline DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press) · Name to copy into YouTube: `Incline Barbell Bench Press`
+5. **Staggered-Stance (Kickstand) DB Deadlift** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Cable Side Raise (leaning)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise)
-2. **Barbell Hip Thrust** [B1] — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Barbell Bench Press
-   - Then do its last set on its own
-   - Swap for: Hip Thrust (machine) / Reverse Hyperextension / Dumbbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust)
-3. **Barbell Bench Press** [B2] — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Barbell Hip Thrust
-   - Swap for: Incline Barbell Bench Press / Incline DB Bench Press / Flat DB Bench Press / Machine Bench Press
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press)
-4. **Staggered-Stance (Kickstand) DB Deadlift** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Half-Kneeling Single-Arm Landmine Press
-   - per side = 1 set
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) / Alternating Staggered-Stance Single-Leg Deadlift (DB) / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-5. **Half-Kneeling Single-Arm Landmine Press** [C2] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Staggered-Stance (Kickstand) DB Deadlift
-   - per side = 1 set
-   - Swap for: Alternating DB Overhead Press / Seesaw DB Press (alternating, one up / one down) / Half-Kneeling Single-Arm DB Press / Single-Arm DB Overhead Press
-   - [Video](https://www.youtube.com/watch?v=ORoOn93dnh4)
+   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accessories**
-1. **Cable Pull-Through (Focus)** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **Seated Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Flat DB Fly
-   - Swap for: Lying Leg Curl (machine) / Nordic Hamstring Curl / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
-3. **Flat DB Fly** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated Leg Curl (machine)
-   - Then do its last set on its own
-   - Swap for: Machine Fly (Pec Deck) / Cable Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
-4. **Tate Press** [E1] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Standing DB Calf Raise (deficit optional)
-   - Swap for: EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press)
-5. **Standing DB Calf Raise (deficit optional)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Tate Press
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
-6. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Cable Triceps Push-down / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip / EZ-Bar Skullcrusher
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip)
+1. **EZ-Bar Skullcrusher** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses the heavier barbell load) / Tate Press (keeps the triceps work; loses the heavier barbell load) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher) · Name to copy into YouTube: `EZ-Bar Skullcrusher`
+2. **Seated Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
+3. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip (bonus)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 40 min · 11 min steady / 2 min easy, repeat
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Optional day
-_about 66 min_
+_Average time: about 50-60 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Hip Thrust (machine) + Cable Triceps Pushdown - straight bar, pronated grip (about 3.5 min saved)_
+_Superset to save time: Standing DB Calf Raise (deficit optional) + Supine (Lying) Biceps Curl (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Standing DB Calf Raise (deficit optional), Reverse Hyperextension, Hip Thrust (machine) · bonus exercises: Supine (Lying) Biceps Curl, Machine Row (Close / Neutral Grip)_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Hanging Rotational Knees-to-Chest (hanging oblique knee raise) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees / Russian Twist
-   - [Video](https://www.youtube.com/watch?v=Gq7ToKnOC1Q)
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
 
 **Accessories**
-1. **Dumbbell Hip Thrust (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Machine Row (Close / Neutral Grip) (bonus)** — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: High Row (machine) (keeps the horizontal pull; loses the top-end load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the machine's support) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Row%20(Close%20%2F%20Neutral%20Grip)) · Name to copy into YouTube: `Machine Row (Close / Neutral Grip)`
+2. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Barbell Hip Thrust / Glute Bridge / Hip Thrust or Glute Bridge (either)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hip%20Thrust)
-2. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the machine's support) / Dumbbell Hip Thrust (keeps the glute work; loses the machine's support) / Barbell Hip Thrust (keeps the glute work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine)) · Name to copy into YouTube: `Hip Thrust (machine)`
+3. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
    > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-3. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Barbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine))
-4. **Cable Triceps Pushdown - straight bar, pronated grip (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Barbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Glute Bridge (keeps the glute work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Hyperextension) · Name to copy into YouTube: `Reverse Hyperextension`
+4. **Standing DB Calf Raise (deficit optional)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+5. **Supine (Lying) Biceps Curl (bonus)** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Overhead Dumbbell Triceps Extension
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip)
-5. **Spider Curl (chest on incline bench) (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Supine (Lying) Biceps Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench))
+   - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 40 min · 11 min steady / 2 min easy, repeat
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+1. **Blue (A): short / high intensity · treadmill** — 20 min · 20 s run / 40 s walk, repeat
+   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
-_about 63 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 75-90 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Sit-Up + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bent-Over Barbell Row + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Lat Pulldown (Rope Attachment) + Stationary Lunge (Split Squat) (about 5.5 min saved)_
+_Superset to save time: Dumbbell Concentration Curl + Leg Extension (machine) - one leg at a time (about 5 min saved)_
+_Superset to save time: Machine Calf Raise - one leg at a time + Machine Reverse Fly (rear-delt pec deck) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - one leg at a time, Leg Extension (machine) - one leg at a time, Dumbbell Concentration Curl · bonus exercises: Machine Reverse Fly (rear-delt pec deck)_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball FFE Split Squat/Lunge with Medball Hug / Medball Reverse Lunge with Forward Reach / Medball Reverse Lunge with Cross-Body Turn
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball RFE Split Squat (Bulgarian) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
 **Core**
-1. **Crunch** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knee/Leg Raise
-   - Swap for: Sit-Up / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Crunch)
-2. **Hanging Rotational Knee/Leg Raise** [A2] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Crunch
-   - per side = 1 set
-   - Swap for: Single-Leg Balance Reach (front / side / back) / Windshield Wipers / Break Dancers (bear/crab-position thread-through rotations) / Hip Turns (pelvis rotations)
-   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise)
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **DB Lateral Raise (Supinated / palms-up grip)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Upright Row / DB Lateral (Side) Raise / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip))
-2. **Leg Press (machine)** [B1] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Single-Arm DB/KB Row
+1. **Bent-Over Barbell Row** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - Barbell (Supinated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
+2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
-   - Swap for: Pendulum Squat (machine) / Hack Squat (machine) / Landmine Hack Squat / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine))
-3. **Single-Arm DB/KB Row** [B2] — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Leg Press (machine)
-   - per side = 1 set
-   - Swap for: Single-Arm Cable Row / Bent-Over Seesaw DB Row (alternating) / Bird Dog Row (DB) / Renegade Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-4. **Stationary Lunge (Split Squat)** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Rope Attachment)
+   - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Landmine Hack Squat (keeps the two-leg squat; loses the machine's support) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
+3. **Lat Pulldown (Rope Attachment)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Weighted Pull-Up (keeps the vertical pull; loses the machine's support) / Pull-up (keeps the vertical pull; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment)) · Name to copy into YouTube: `Lat Pulldown (Rope Attachment)`
+4. **Stationary Lunge (Split Squat)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
-   - Swap for: Step-Up (forward and lateral) / Forward Lunge / Side (Lateral) Lunge / Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)
-   - [Video](https://youtu.be/cnwphCgR60A)
-5. **Lat Pulldown (Rope Attachment)** [C2] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Stationary Lunge (Split Squat)
-   - Then do its last set on its own
-   - Swap for: Lat Pulldown (Wide MAG Grip) / Weighted Pull-Up / Lat Pulldown (Close Grip) / Strict Pull-Up (Feet in Front / hollow)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment))
+   - Swap for: Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses the body-weight control) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
 
 **Accessories**
-1. **Sissy Squat** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated Dumbbell Curl
-   - [Video](https://youtu.be/HW5yUsjKru4)
-2. **Seated Dumbbell Curl** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Sissy Squat
-   - Then do its last set on its own
-   - Swap for: Spider Curl (chest on incline bench) / Supine (Lying) Biceps Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Dumbbell%20Curl)
-3. **Seated (Chest-to-Thighs) DB Reverse Fly** [E1] — 2 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - Swap for: Machine Reverse Fly (rear-delt pec deck) / Floor Prone Y / T Raises (bodyweight or light DBs) / Bent-Over DB Reverse Fly / Incline-Bench Prone DB T-Raise
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly)
-4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated (Chest-to-Thighs) DB Reverse Fly
-   - Then do its last set on its own
-   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
-   - Swap for: Supine (Lying) Biceps Curl / Barbell Curl / Spider Curl (chest on incline bench) / EZ-Bar Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups))
-5. **Machine Calf Raise - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise%20-%20one%20leg%20at%20a%20time)
-
-**Aerobic**
-1. **Orange (C): long / easy · rower** — 40 min · 11 min steady / 2 min easy, repeat
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+1. **Dumbbell Concentration Curl** — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+2. **Leg Extension (machine) - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Machine Reverse Fly (rear-delt pec deck) (bonus)** — 2 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · B2 - deadlift + push
-_about 61 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 95-115 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Flat DB Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Incline DB Bench Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
+_Superset to save time: Cable Triceps Push-down + Lying Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Lying Leg Curl (machine), Cable Triceps Push-down_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Hug**
-   - Swap for: Medball Stationary Lunge (Split Squat) with Medball Up / Medball Hug Goblet Squat / Medball RFE Split Squat (Bulgarian) with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Hug)
+2. **Medball Forward Lunge with Medball Up**
+   - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
 **Core**
-1. **V-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
-   - Swap for: Sit-Up / Crunch / Supermans / Butterfly Sit-up
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ V-Up
-   - Swap for: Swiss Ball Knee Tuck / Slider Runners (mountain-climber style) / Mountain Climber / Hip Raises ('hips raises')
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Strength**
-1. **DB Upright Row** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Lateral (Side) Raise / Barbell Upright Row / DB Lateral Raise (Supinated / palms-up grip)
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row)
-2. **Hex (Trap) Bar Deadlift** [B1] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Incline Barbell Bench Press
-   - Swap for: Sumo Deadlift / Barbell Deadlift (conventional) / Stiff-Leg Deadlift / RDL / Wide-Grip Barbell Deadlift
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-3. **Incline Barbell Bench Press** [B2] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Hex (Trap) Bar Deadlift
-   - Swap for: Flat DB Bench Press / Incline DB Bench Press / Machine Bench Press / Standing Cable Chest Press
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press)
-4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Seesaw DB Press (alternating, one up / one down)
+1. **Cable Side Raise (leaning)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
+2. **Flat DB Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
+3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
+4. **Incline DB Bench Press** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+5. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
-   - Swap for: Staggered-Stance (Kickstand) DB Deadlift / Rear-Foot-on-Wall DB Deadlift (RDL) / Single-Leg RDL / Single-Leg Deadlift / Staggered-Stance Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB))
-5. **Seesaw DB Press (alternating, one up / one down)** [C2] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Alternating Staggered-Stance Single-Leg Deadlift (DB)
-   - per side = 1 set
-   - Swap for: Alternating DB Overhead Press / Half-Kneeling Single-Arm Landmine Press / Single-Arm DB Overhead Press / Half-Kneeling Single-Arm DB Press
-   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down))
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Lying Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Machine Fly (Pec Deck)
-   - Swap for: Nordic Hamstring Curl / Seated Leg Curl (machine) / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine))
-2. **Machine Fly (Pec Deck)** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Lying Leg Curl (machine)
-   - Then do its last set on its own
-   - Swap for: Cable Fly / Flat DB Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck))
-3. **Overhead Cable Triceps Extension** [E1] — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Barbell Calf Raise
-   - Then do its last set on its own
-   - Swap for: Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip / Tate Press / EZ-Bar Skullcrusher
-   - [Video](https://www.youtube.com/watch?v=kqidUIf1eJE)
-4. **Barbell Calf Raise** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Overhead Cable Triceps Extension
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise)
-5. **Floor Dumbbell Skullcrusher** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Tate Press / EZ-Bar Skullcrusher / Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Video](https://www.youtube.com/watch?v=IAHDkC6vJw4)
+1. **Cable Triceps Push-down** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Push-down) · Name to copy into YouTube: `Cable Triceps Push-down`
+2. **Lying Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 40 min · 11 min steady / 2 min easy, repeat
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Optional day
-_about 41 min_
+_Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
+_Superset to save time: DB Upright Row + Machine Calf Raise - from a step (full stretch at the bottom) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - from a step (full stretch at the bottom), DB Upright Row, Incline / Side-Lying Cable Lateral Raise · bonus exercises: Machine Fly (Pec Deck), Overhead Cable Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 30-60 s rest
-   - Swap for: Crunch / Sit-Up / Reverse Crunch / Knees to Chest (hanging)
-   - [Video](https://youtu.be/VpEcj96HO4k)
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Accessories**
-1. **DB Lateral (Side) Raise (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Incline / Side-Lying Cable Lateral Raise (Focus)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Barbell Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Side Raise (leaning) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise) · Name to copy into YouTube: `Incline / Side-Lying Cable Lateral Raise`
+2. **DB Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) / DB Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Upright%20Row)
+   - Swap for: Seated DB Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row) · Name to copy into YouTube: `DB Upright Row`
+3. **Machine Calf Raise - from a step (full stretch at the bottom)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Overhead Cable Triceps Extension (bonus)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
+5. **Machine Fly (Pec Deck) (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Flat DB Fly (keeps the chest isolation; loses the machine's support) / Cable Fly (keeps the chest isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)) · Name to copy into YouTube: `Machine Fly (Pec Deck)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
@@ -1600,352 +1763,379 @@ _You can switch off these blocks today: core, accessories, cardio. You can also 
 _Week level: 4.4 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- New exercise block: 10 exercises change a little (another version or one new detail); the rest stay
-- New bonus exercise: Reverse Hyperextension (Friday)
-- New bonus exercise: Cable Triceps Push-down (Saturday)
-- +1 set on Incline Barbell Bench Press (Friday)
-- +1 set on Single-Arm DB/KB Row (Thursday)
+- New exercise block: 11 exercises change a little (another version or one new detail); the rest stay
+- +1 set on Barbell Hip Thrust (Tuesday)
+- +1 set on Cable Side Raise (leaning) (Friday)
 
 ### Monday · A1 - squat + pull
-_about 69 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 80-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 7 min saved)_
+_Superset to save time: Supine (Lying) Biceps Curl + Leg Extension (machine) (about 5 min saved)_
+_Superset to save time: Machine Calf Raise + Seated (Chest-to-Thighs) DB Reverse Fly (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise, Leg Extension (machine), Supine (Lying) Biceps Curl · bonus exercises: Seated (Chest-to-Thighs) DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Hug Goblet Squat**
-   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Held Forward / Medball Reverse Lunge with Down-and-Back Cross-Body Reach / Medball Reverse Lunge with Medball Up
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Hug%20Goblet%20Squat)
+2. **Medball Stationary Lunge (Split Squat) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
 **Core**
-1. **Plank (forearm / low plank)** [A1] — 2 × 25-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Streamline Hold (hollow body, arms locked overhead) / Hollow Rocks / High Plank (straight-arm plank) / L-Sit Hold
-   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Copenhagen Plank** [A2] — 2 × 25-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Plank (forearm / low plank)
+1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Side Plank Press (advanced: star side plank press) / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Strength**
-1. **Seated DB Lateral Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: DB Lateral (Side) Raise / DB Upright Row / DB Lateral Raise (Supinated / palms-up grip) / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise)
-2. **High-Bar Back Squat** [B1] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Seal Row - Barbell (Supinated Grip)
-   - Swap for: Front Squat (barbell) / Zercher Squat (barbell) / Box Zercher Squat (touch-and-go) / Flipped Hex Bar Squat (low handles, longer range)
-   - [Video](https://youtu.be/i7J5h7BJ07g)
-3. **Seal Row - Barbell (Supinated Grip)** [B2] — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ High-Bar Back Squat
-   - Then do its last set on its own
-   - Swap for: Seal Row - Barbell (Pronated Grip) / Seal Row - DB (Supinated Grip) / Machine Row (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip))
-4. **Hack Squat (machine)** [C1] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Pronated / Overhand Grip)
-   > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
-   - Swap for: Leg Press (machine) / Pendulum Squat (machine) / High-Zercher DB Squat (DB hugged high at chest) / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine))
-5. **Lat Pulldown (Pronated / Overhand Grip)** [C2] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Hack Squat (machine)
-   - Swap for: Lat Pulldown (Close Grip) / Lat Pulldown (Supinated / Underhand Grip) / Weighted Pull-Up / Strict Pull-Up (Feet Behind)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Pronated%20%2F%20Overhand%20Grip))
+1. **Seal Row - Barbell (Supinated Grip)** — 5 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Close / Neutral Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
+2. **Front Squat (barbell)** — 4 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
+3. **Single-Arm Lat Pulldown** — 4 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 10.
+   - per side = 1 set
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 4 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)) · Name to copy into YouTube: `Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)`
 
 **Accessories**
-1. **Leg Extension (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Dumbbell Concentration Curl
-   - Swap for: DB Leg Extension (seated on box)
-   - [Video](https://youtu.be/m0FOpMEgero)
-2. **Dumbbell Concentration Curl** [D2] — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Leg Extension (machine)
-   - per side = 1 set
-   - Then do its last set on its own
-   - Swap for: Cross-Body Dumbbell Hammer Curl / Single-Arm DB Preacher Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl)
-3. **Cable Side Raise (leaning)** [E1] — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - per side = 1 set
-   - Swap for: Incline / Side-Lying Cable Lateral Raise
-   - [Video](https://www.youtube.com/watch?v=lq7eLC30b9w)
-4. **Incline Dumbbell Curl ('pinky facing up' supinated variation)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Cable Side Raise (leaning)
-   - Then do its last set on its own
-   - Swap for: Supine (Lying) Biceps Curl / Spider Curl (chest on incline bench) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Video](https://www.youtube.com/watch?v=aTYlqC_JacQ)
-5. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Barbell Calf Raise / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
-
-**Aerobic**
-1. **Blue (A): short / high intensity · treadmill** — 15 min · 30 s run / 30 s walk, repeat
-   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
+1. **Supine (Lying) Biceps Curl** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+2. **Leg Extension (machine)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Barbell Calf Raise (keeps the calf work; loses the machine's support) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Seated (Chest-to-Thighs) DB Reverse Fly (bonus)** — 3 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · B1 - hip thrust + push
-_about 71 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 100-125 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Crunch + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
+_Superset to save time: Barbell Bench Press + Barbell Hip Thrust (about 7 min saved)_
+_Superset to save time: Incline Barbell Bench Press - close grip (hands shoulder-width) + Rear-Foot-on-Wall DB Deadlift (RDL) (about 5.5 min saved)_
+_Superset to save time: EZ-Bar Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Seated Leg Curl (machine), EZ-Bar Skullcrusher · bonus exercises: Cable Triceps Pushdown - straight bar, supinated (reverse) grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball Forward Lunge with Overhead Reach / Medball FFE Split Squat/Lunge with Medball Up / Medball Forward Lunge with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball Forward Lunge with Overhead Reach**
+   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
 **Core**
-1. **Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knees-to-Chest (hanging oblique knee raise)
-   - Swap for: Crunch / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up)
-2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** [A2] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Sit-Up
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bear Crawl / Hip Turns (pelvis rotations) / Flutter Kicks / Windshield Wipers
-   - [Video](https://youtu.be/L1rt7qr5LCk)
+   - Swap for: Star V-Ups (cross-body / diagonal V-ups) (keeps the core work; loses little - same movement, another grip or position) / Single-Leg Toes to Bar (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses the same trunk action - this one trains the core another way) / Windshield Wipers (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knees-to-Chest%20(hanging%20oblique%20knee%20raise)) · Name to copy into YouTube: `Hanging Rotational Knees-to-Chest (hanging oblique knee raise)`
 
 **Strength**
-1. **Incline / Side-Lying Cable Lateral Raise** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Seated DB Lateral Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
+2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
+3. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
+4. **Incline Barbell Bench Press - close grip (hands shoulder-width)** — 4 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Incline DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / High-Incline DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press) · Name to copy into YouTube: `Incline Barbell Bench Press`
+5. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Cable Side Raise (leaning)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise)
-2. **Barbell Hip Thrust** [B1] — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Barbell Bench Press
-   - Then do its last set on its own
-   - Swap for: Hip Thrust (machine) / Reverse Hyperextension / Dumbbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust)
-3. **Barbell Bench Press** [B2] — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Barbell Hip Thrust
-   - Swap for: Incline Barbell Bench Press / Incline DB Bench Press / Flat DB Bench Press / Machine Bench Press
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press)
-4. **45-Degree Hyperextension (back/hip extension)** [C1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Standing Barbell Overhead Press (strict)
-   - Swap for: Dumbbell Deadlift / Good Morning (machine) / GHD - Glute-Ham Developer (hip extension / glute-ham raise) / Single-Kettlebell Deadlift
-   - [Video](https://youtu.be/tsP0eYPsoiE)
-5. **Standing Barbell Overhead Press (strict)** [C2] — 2 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ 45-Degree Hyperextension (back/hip extension)
-   - Swap for: High-Incline Seated Barbell Press / Standing DB Overhead Press / High-Incline DB Press / Tall-Kneeling Barbell Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict))
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
-1. **Cable Pull-Through (Focus)** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **Seated Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Flat DB Fly
-   - Swap for: Lying Leg Curl (machine) / Nordic Hamstring Curl / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
-3. **Flat DB Fly** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated Leg Curl (machine)
-   - Then do its last set on its own
-   - Swap for: Machine Fly (Pec Deck) / Cable Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
-4. **Tate Press** [E1] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Standing DB Calf Raise (deficit optional)
-   - Swap for: EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press)
-5. **Standing DB Calf Raise (deficit optional)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Tate Press
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
-6. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Cable Triceps Push-down / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip / EZ-Bar Skullcrusher
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip)
+1. **EZ-Bar Skullcrusher** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses the heavier barbell load) / Tate Press (keeps the triceps work; loses the heavier barbell load) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher) · Name to copy into YouTube: `EZ-Bar Skullcrusher`
+2. **Seated Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
+3. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip (bonus)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Optional day
-_about 66 min_
+_Average time: about 50-60 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Hip Thrust (machine) + Cable Triceps Pushdown - straight bar, pronated grip (about 3.5 min saved)_
+_Superset to save time: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top + Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Reverse Hyperextension, Hip Thrust (machine) · bonus exercises: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups), Machine Row (Close / Neutral Grip)_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Hanging Rotational Knees-to-Chest (hanging oblique knee raise) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees / Russian Twist
-   - [Video](https://www.youtube.com/watch?v=Gq7ToKnOC1Q)
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
 
 **Accessories**
-1. **Dumbbell Hip Thrust (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Machine Row (Close / Neutral Grip) (bonus)** — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: High Row (machine) (keeps the horizontal pull; loses the top-end load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the machine's support) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Row%20(Close%20%2F%20Neutral%20Grip)) · Name to copy into YouTube: `Machine Row (Close / Neutral Grip)`
+2. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Barbell Hip Thrust / Glute Bridge / Hip Thrust or Glute Bridge (either)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hip%20Thrust)
-2. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the machine's support) / Dumbbell Hip Thrust (keeps the glute work; loses the machine's support) / Barbell Hip Thrust (keeps the glute work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine)) · Name to copy into YouTube: `Hip Thrust (machine)`
+3. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
    > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-3. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Barbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine))
-4. **Cable Triceps Pushdown - straight bar, pronated grip (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Barbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Glute Bridge (keeps the glute work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Hyperextension) · Name to copy into YouTube: `Reverse Hyperextension`
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+5. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (bonus)** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Overhead Dumbbell Triceps Extension
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip)
-5. **Spider Curl (chest on incline bench) (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Supine (Lying) Biceps Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench))
+   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
+   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses the constant cable tension) / Spider Curl (chest on incline bench) (keeps the biceps work; loses the constant cable tension) / Seated Dumbbell Curl (keeps the biceps work; loses the constant cable tension) / Supine (Lying) Biceps Curl (keeps the biceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)) · Name to copy into YouTube: `Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+1. **Blue (A): short / high intensity · treadmill** — 15 min · 30 s run / 30 s walk, repeat
+   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
-_about 66 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 75-90 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Sit-Up + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bent-Over Barbell Row + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Lat Pulldown (Rope Attachment) - 1-second squeeze at the top + Stationary Lunge (Split Squat) (about 5.5 min saved)_
+_Superset to save time: Dumbbell Concentration Curl + Leg Extension (machine) - 1-second squeeze at the top (about 5 min saved)_
+_Superset to save time: Machine Calf Raise - one leg at a time + Machine Reverse Fly (rear-delt pec deck) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - one leg at a time, Leg Extension (machine) - 1-second squeeze at the top, Dumbbell Concentration Curl · bonus exercises: Machine Reverse Fly (rear-delt pec deck)_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball FFE Split Squat/Lunge with Medball Hug / Medball Reverse Lunge with Forward Reach / Medball Reverse Lunge with Cross-Body Turn
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball RFE Split Squat (Bulgarian) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
 **Core**
-1. **Crunch** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knee/Leg Raise
-   - Swap for: Sit-Up / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Crunch)
-2. **Hanging Rotational Knee/Leg Raise** [A2] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Crunch
-   - per side = 1 set
-   - Swap for: Single-Leg Balance Reach (front / side / back) / Windshield Wipers / Break Dancers (bear/crab-position thread-through rotations) / Hip Turns (pelvis rotations)
-   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise)
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **DB Lateral Raise (Supinated / palms-up grip) - 1-second squeeze at the top** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Upright Row / DB Lateral (Side) Raise / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)%20-%201-second%20squeeze%20at%20the%20top)
-2. **Leg Press (machine)** [B1] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Single-Arm DB/KB Row
+1. **Bent-Over Barbell Row** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
+2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
-   - Swap for: Pendulum Squat (machine) / Hack Squat (machine) / Landmine Hack Squat / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine))
-3. **Single-Arm DB/KB Row** [B2] — 4 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Leg Press (machine)
-   - per side = 1 set
-   - Then do its last set on its own
-   - Swap for: Single-Arm Cable Row / Bent-Over Seesaw DB Row (alternating) / Bird Dog Row (DB) / Renegade Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-4. **Stationary Lunge (Split Squat)** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Rope Attachment)
+   - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Landmine Hack Squat (keeps the two-leg squat; loses the machine's support) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
+3. **Lat Pulldown (Rope Attachment) - 1-second squeeze at the top** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Weighted Pull-Up (keeps the vertical pull; loses the machine's support) / Pull-up (keeps the vertical pull; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment)) · Name to copy into YouTube: `Lat Pulldown (Rope Attachment)`
+4. **Stationary Lunge (Split Squat)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
-   - Swap for: Step-Up (forward and lateral) / Forward Lunge / Side (Lateral) Lunge / Deficit Reverse Lunge (standing on plate/step)
-   - [Video](https://youtu.be/cnwphCgR60A)
-5. **Lat Pulldown (Rope Attachment)** [C2] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Stationary Lunge (Split Squat)
-   - Then do its last set on its own
-   - Swap for: Lat Pulldown (Pronated / Overhand Grip) / Lat Pulldown (Wide MAG Grip) / Weighted Pull-Up / Strict Pull-Up (Feet in Front / hollow)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment))
+   - Swap for: Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses the body-weight control) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
 
 **Accessories**
-1. **Sissy Squat - holding a plate at the chest** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated Dumbbell Curl
-   - [Video](https://youtu.be/HW5yUsjKru4)
-2. **Seated Dumbbell Curl** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Sissy Squat - holding a plate at the chest
-   - Then do its last set on its own
-   - Swap for: Spider Curl (chest on incline bench) / Supine (Lying) Biceps Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Dumbbell%20Curl)
-3. **Machine Reverse Fly (rear-delt pec deck)** [E1] — 2 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly / Floor Prone Y / T Raises (bodyweight or light DBs) / Bent-Over DB Reverse Fly / Incline-Bench Prone DB T-Raise
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck))
-4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Machine Reverse Fly (rear-delt pec deck)
-   - Then do its last set on its own
-   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
-   - Swap for: Supine (Lying) Biceps Curl / Barbell Curl / Spider Curl (chest on incline bench) / EZ-Bar Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups))
-5. **Machine Calf Raise - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise%20-%20one%20leg%20at%20a%20time)
-
-**Aerobic**
-1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+1. **Dumbbell Concentration Curl** — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+2. **Leg Extension (machine) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Machine Reverse Fly (rear-delt pec deck) (bonus)** — 2 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · B2 - deadlift + push
-_about 68 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 95-115 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Flat DB Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Incline DB Bench Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
+_Superset to save time: Cable Triceps Pushdown - straight bar, pronated grip + Lying Leg Curl (machine) - one leg at a time (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Lying Leg Curl (machine) - one leg at a time, Cable Triceps Pushdown - straight bar, pronated grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Hug**
-   - Swap for: Medball Stationary Lunge (Split Squat) with Medball Up / Medball Hug Goblet Squat / Medball RFE Split Squat (Bulgarian) with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Hug)
+2. **Medball Forward Lunge with Medball Up**
+   - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
 **Core**
-1. **V-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
-   - Swap for: Sit-Up / Crunch / Supermans / Butterfly Sit-up
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ V-Up
-   - Swap for: Swiss Ball Knee Tuck / Slider Runners (mountain-climber style) / Mountain Climber / Hip Raises ('hips raises')
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Strength**
-1. **DB Upright Row** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Lateral (Side) Raise / Barbell Upright Row / DB Lateral Raise (Supinated / palms-up grip)
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row)
-2. **Hex (Trap) Bar Deadlift** [B1] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Incline Barbell Bench Press - close grip (hands shoulder-width)
-   - Swap for: Sumo Deadlift / Barbell Deadlift (conventional) / Stiff-Leg Deadlift / RDL / Wide-Grip Barbell Deadlift
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-3. **Incline Barbell Bench Press - close grip (hands shoulder-width)** [B2] — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Hex (Trap) Bar Deadlift
-   - Then do its last set on its own
-   - Swap for: Flat DB Bench Press / Incline DB Bench Press / Machine Bench Press / Standing Cable Chest Press
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press%20-%20close%20grip%20(hands%20shoulder-width))
-4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Seesaw DB Press (alternating, one up / one down)
+1. **Cable Side Raise (leaning)** — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
+2. **Flat DB Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
+3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
+4. **Incline DB Bench Press** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+5. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
-   - Swap for: Staggered-Stance (Kickstand) DB Deadlift / Rear-Foot-on-Wall DB Deadlift (RDL) / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB))
-5. **Seesaw DB Press (alternating, one up / one down)** [C2] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Alternating Staggered-Stance Single-Leg Deadlift (DB)
-   - per side = 1 set
-   - Swap for: Half-Kneeling Single-Arm Landmine Press / Alternating DB Overhead Press / Single-Arm DB Overhead Press / Half-Kneeling Single-Arm DB Press
-   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down))
+   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Reverse Hyperextension - 1-second squeeze at the top (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Focus slot for your priority muscle
-   > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-2. **Lying Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Machine Fly (Pec Deck)
-   - Swap for: Nordic Hamstring Curl / Seated Leg Curl (machine) / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine))
-3. **Machine Fly (Pec Deck)** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Lying Leg Curl (machine)
-   - Then do its last set on its own
-   - Swap for: Cable Fly / Flat DB Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck))
-4. **Overhead Cable Triceps Extension - 1-second squeeze at the top** [E1] — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Barbell Calf Raise - from a step (full stretch at the bottom)
-   - Then do its last set on its own
-   - Swap for: Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip / Tate Press / EZ-Bar Skullcrusher
-   - [Video](https://www.youtube.com/watch?v=kqidUIf1eJE)
-5. **Barbell Calf Raise - from a step (full stretch at the bottom)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Overhead Cable Triceps Extension - 1-second squeeze at the top
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise%20-%20from%20a%20step%20(full%20stretch%20at%20the%20bottom))
-6. **Floor Dumbbell Skullcrusher** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Tate Press / EZ-Bar Skullcrusher / Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Video](https://www.youtube.com/watch?v=IAHDkC6vJw4)
+1. **Cable Triceps Pushdown - straight bar, pronated grip** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, pronated grip`
+2. **Lying Leg Curl (machine) - one leg at a time** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Optional day
-_about 46 min_
+_Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Barbell Upright Row + Cable Triceps Push-down (about 3.5 min saved)_
+_Superset to save time: DB Upright Row + Machine Calf Raise - 1-second squeeze at the top (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - 1-second squeeze at the top, DB Upright Row, Incline / Side-Lying Cable Lateral Raise · bonus exercises: Machine Fly (Pec Deck), Overhead Cable Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 30-60 s rest
-   - Swap for: Crunch / Sit-Up / Reverse Crunch / Knees to Chest (hanging)
-   - [Video](https://youtu.be/VpEcj96HO4k)
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Accessories**
-1. **DB Lateral (Side) Raise (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Incline / Side-Lying Cable Lateral Raise (Focus)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Barbell Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Side Raise (leaning) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise) · Name to copy into YouTube: `Incline / Side-Lying Cable Lateral Raise`
+2. **DB Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) / DB Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Upright%20Row)
-3. **Cable Triceps Push-down (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Seated DB Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row) · Name to copy into YouTube: `DB Upright Row`
+3. **Machine Calf Raise - 1-second squeeze at the top** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Overhead Cable Triceps Extension (bonus)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip / Overhead Dumbbell Triceps Extension
-   - [Video](https://youtu.be/hp7ktB-sjoo)
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
+5. **Machine Fly (Pec Deck) (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Flat DB Fly (keeps the chest isolation; loses the machine's support) / Cable Fly (keeps the chest isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)) · Name to copy into YouTube: `Machine Fly (Pec Deck)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
@@ -1959,346 +2149,377 @@ _Week level: 5 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
 - +1 set on Stationary Lunge (Split Squat) (Thursday)
+- +1 set on Single-Arm Lat Pulldown (Monday)
 
 ### Monday · A1 - squat + pull
-_about 69 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 85-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 7 min saved)_
+_Superset to save time: Supine (Lying) Biceps Curl + Leg Extension (machine) (about 5 min saved)_
+_Superset to save time: Machine Calf Raise + Seated (Chest-to-Thighs) DB Reverse Fly (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise, Leg Extension (machine), Supine (Lying) Biceps Curl · bonus exercises: Seated (Chest-to-Thighs) DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Hug Goblet Squat**
-   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Held Forward / Medball Reverse Lunge with Down-and-Back Cross-Body Reach / Medball Reverse Lunge with Medball Up
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Hug%20Goblet%20Squat)
+2. **Medball Stationary Lunge (Split Squat) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
 **Core**
-1. **Plank (forearm / low plank)** [A1] — 2 × 25-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Streamline Hold (hollow body, arms locked overhead) / Hollow Rocks / High Plank (straight-arm plank) / L-Sit Hold
-   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Copenhagen Plank** [A2] — 2 × 25-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Plank (forearm / low plank)
+1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Side Plank Press (advanced: star side plank press) / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Strength**
-1. **Seated DB Lateral Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: DB Lateral (Side) Raise / DB Upright Row / DB Lateral Raise (Supinated / palms-up grip) / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise)
-2. **High-Bar Back Squat** [B1] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Seal Row - Barbell (Supinated Grip)
-   - Swap for: Front Squat (barbell) / Zercher Squat (barbell) / Box Zercher Squat (touch-and-go) / Flipped Hex Bar Squat (low handles, longer range)
-   - [Video](https://youtu.be/i7J5h7BJ07g)
-3. **Seal Row - Barbell (Supinated Grip)** [B2] — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ High-Bar Back Squat
-   - Then do its last set on its own
-   - Swap for: Seal Row - Barbell (Pronated Grip) / Seal Row - DB (Supinated Grip) / Machine Row (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip))
-4. **Hack Squat (machine)** [C1] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Pronated / Overhand Grip)
-   > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
-   - Swap for: Leg Press (machine) / Pendulum Squat (machine) / High-Zercher DB Squat (DB hugged high at chest) / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine))
-5. **Lat Pulldown (Pronated / Overhand Grip)** [C2] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Hack Squat (machine)
-   - Swap for: Lat Pulldown (Close Grip) / Lat Pulldown (Supinated / Underhand Grip) / Weighted Pull-Up / Strict Pull-Up (Feet Behind)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Pronated%20%2F%20Overhand%20Grip))
+1. **Seal Row - Barbell (Supinated Grip)** — 5 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Close / Neutral Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
+2. **Front Squat (barbell)** — 4 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
+3. **Single-Arm Lat Pulldown** — 5 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 10.
+   - per side = 1 set
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 4 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)) · Name to copy into YouTube: `Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)`
 
 **Accessories**
-1. **Leg Extension (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Dumbbell Concentration Curl
-   - Swap for: DB Leg Extension (seated on box)
-   - [Video](https://youtu.be/m0FOpMEgero)
-2. **Dumbbell Concentration Curl** [D2] — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Leg Extension (machine)
-   - per side = 1 set
-   - Then do its last set on its own
-   - Swap for: Cross-Body Dumbbell Hammer Curl / Single-Arm DB Preacher Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl)
-3. **Cable Side Raise (leaning)** [E1] — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - per side = 1 set
-   - Swap for: Incline / Side-Lying Cable Lateral Raise
-   - [Video](https://www.youtube.com/watch?v=lq7eLC30b9w)
-4. **Incline Dumbbell Curl ('pinky facing up' supinated variation)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Cable Side Raise (leaning)
-   - Then do its last set on its own
-   - Swap for: Supine (Lying) Biceps Curl / Spider Curl (chest on incline bench) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Video](https://www.youtube.com/watch?v=aTYlqC_JacQ)
-5. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Barbell Calf Raise / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
-
-**Aerobic**
-1. **Blue (A): short / high intensity · treadmill** — 17 min · 30 s run / 30 s walk, repeat
-   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
+1. **Supine (Lying) Biceps Curl** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+2. **Leg Extension (machine)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Barbell Calf Raise (keeps the calf work; loses the machine's support) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Seated (Chest-to-Thighs) DB Reverse Fly (bonus)** — 3 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · B1 - hip thrust + push
-_about 71 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 100-125 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Crunch + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
+_Superset to save time: Barbell Bench Press + Barbell Hip Thrust (about 7 min saved)_
+_Superset to save time: Incline Barbell Bench Press - close grip (hands shoulder-width) + Rear-Foot-on-Wall DB Deadlift (RDL) (about 5.5 min saved)_
+_Superset to save time: EZ-Bar Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Seated Leg Curl (machine), EZ-Bar Skullcrusher · bonus exercises: Cable Triceps Pushdown - straight bar, supinated (reverse) grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball Forward Lunge with Overhead Reach / Medball FFE Split Squat/Lunge with Medball Up / Medball Forward Lunge with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball Forward Lunge with Overhead Reach**
+   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
 **Core**
-1. **Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knees-to-Chest (hanging oblique knee raise)
-   - Swap for: Crunch / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up)
-2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** [A2] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Sit-Up
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bear Crawl / Hip Turns (pelvis rotations) / Flutter Kicks / Windshield Wipers
-   - [Video](https://youtu.be/L1rt7qr5LCk)
+   - Swap for: Star V-Ups (cross-body / diagonal V-ups) (keeps the core work; loses little - same movement, another grip or position) / Single-Leg Toes to Bar (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses the same trunk action - this one trains the core another way) / Windshield Wipers (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knees-to-Chest%20(hanging%20oblique%20knee%20raise)) · Name to copy into YouTube: `Hanging Rotational Knees-to-Chest (hanging oblique knee raise)`
 
 **Strength**
-1. **Incline / Side-Lying Cable Lateral Raise** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Seated DB Lateral Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
+2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
+3. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
+4. **Incline Barbell Bench Press - close grip (hands shoulder-width)** — 4 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Incline DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / High-Incline DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press) · Name to copy into YouTube: `Incline Barbell Bench Press`
+5. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Cable Side Raise (leaning)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise)
-2. **Barbell Hip Thrust** [B1] — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Barbell Bench Press
-   - Then do its last set on its own
-   - Swap for: Hip Thrust (machine) / Reverse Hyperextension / Dumbbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust)
-3. **Barbell Bench Press** [B2] — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Barbell Hip Thrust
-   - Swap for: Incline Barbell Bench Press / Incline DB Bench Press / Flat DB Bench Press / Machine Bench Press
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press)
-4. **45-Degree Hyperextension (back/hip extension)** [C1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Standing Barbell Overhead Press (strict)
-   - Swap for: Dumbbell Deadlift / Good Morning (machine) / GHD - Glute-Ham Developer (hip extension / glute-ham raise) / Single-Kettlebell Deadlift
-   - [Video](https://youtu.be/tsP0eYPsoiE)
-5. **Standing Barbell Overhead Press (strict)** [C2] — 2 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ 45-Degree Hyperextension (back/hip extension)
-   - Swap for: High-Incline Seated Barbell Press / Standing DB Overhead Press / High-Incline DB Press / Tall-Kneeling Barbell Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict))
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
-1. **Cable Pull-Through (Focus)** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **Seated Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Flat DB Fly
-   - Swap for: Lying Leg Curl (machine) / Nordic Hamstring Curl / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
-3. **Flat DB Fly** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated Leg Curl (machine)
-   - Then do its last set on its own
-   - Swap for: Machine Fly (Pec Deck) / Cable Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
-4. **Tate Press** [E1] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Standing DB Calf Raise (deficit optional)
-   - Swap for: EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press)
-5. **Standing DB Calf Raise (deficit optional)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Tate Press
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
-6. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Cable Triceps Push-down / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip / EZ-Bar Skullcrusher
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip)
+1. **EZ-Bar Skullcrusher** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses the heavier barbell load) / Tate Press (keeps the triceps work; loses the heavier barbell load) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher) · Name to copy into YouTube: `EZ-Bar Skullcrusher`
+2. **Seated Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
+3. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip (bonus)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Optional day
-_about 66 min_
+_Average time: about 50-60 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Hip Thrust (machine) + Cable Triceps Pushdown - straight bar, pronated grip (about 3.5 min saved)_
+_Superset to save time: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top + Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Reverse Hyperextension, Hip Thrust (machine) · bonus exercises: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups), Machine Row (Close / Neutral Grip)_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Hanging Rotational Knees-to-Chest (hanging oblique knee raise) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees / Russian Twist
-   - [Video](https://www.youtube.com/watch?v=Gq7ToKnOC1Q)
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
 
 **Accessories**
-1. **Dumbbell Hip Thrust (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Machine Row (Close / Neutral Grip) (bonus)** — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: High Row (machine) (keeps the horizontal pull; loses the top-end load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the machine's support) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Row%20(Close%20%2F%20Neutral%20Grip)) · Name to copy into YouTube: `Machine Row (Close / Neutral Grip)`
+2. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Barbell Hip Thrust / Glute Bridge / Hip Thrust or Glute Bridge (either)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hip%20Thrust)
-2. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the machine's support) / Dumbbell Hip Thrust (keeps the glute work; loses the machine's support) / Barbell Hip Thrust (keeps the glute work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine)) · Name to copy into YouTube: `Hip Thrust (machine)`
+3. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
    > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-3. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Barbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine))
-4. **Cable Triceps Pushdown - straight bar, pronated grip (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Barbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Glute Bridge (keeps the glute work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Hyperextension) · Name to copy into YouTube: `Reverse Hyperextension`
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+5. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (bonus)** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Overhead Dumbbell Triceps Extension
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip)
-5. **Spider Curl (chest on incline bench) (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Supine (Lying) Biceps Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench))
+   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
+   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses the constant cable tension) / Spider Curl (chest on incline bench) (keeps the biceps work; loses the constant cable tension) / Seated Dumbbell Curl (keeps the biceps work; loses the constant cable tension) / Supine (Lying) Biceps Curl (keeps the biceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)) · Name to copy into YouTube: `Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+1. **Blue (A): short / high intensity · treadmill** — 17 min · 30 s run / 30 s walk, repeat
+   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
-_about 68 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 80-95 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Sit-Up + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bent-Over Barbell Row + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Lat Pulldown (Rope Attachment) - 1-second squeeze at the top + Stationary Lunge (Split Squat) (about 7 min saved)_
+_Superset to save time: Dumbbell Concentration Curl + Leg Extension (machine) - 1-second squeeze at the top (about 5 min saved)_
+_Superset to save time: Machine Calf Raise - one leg at a time + Machine Reverse Fly (rear-delt pec deck) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - one leg at a time, Leg Extension (machine) - 1-second squeeze at the top, Dumbbell Concentration Curl · bonus exercises: Machine Reverse Fly (rear-delt pec deck)_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball FFE Split Squat/Lunge with Medball Hug / Medball Reverse Lunge with Forward Reach / Medball Reverse Lunge with Cross-Body Turn
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball RFE Split Squat (Bulgarian) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
 **Core**
-1. **Crunch** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knee/Leg Raise
-   - Swap for: Sit-Up / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Crunch)
-2. **Hanging Rotational Knee/Leg Raise** [A2] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Crunch
-   - per side = 1 set
-   - Swap for: Single-Leg Balance Reach (front / side / back) / Windshield Wipers / Break Dancers (bear/crab-position thread-through rotations) / Hip Turns (pelvis rotations)
-   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise)
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **DB Lateral Raise (Supinated / palms-up grip) - 1-second squeeze at the top** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Upright Row / DB Lateral (Side) Raise / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)%20-%201-second%20squeeze%20at%20the%20top)
-2. **Leg Press (machine)** [B1] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Single-Arm DB/KB Row
+1. **Bent-Over Barbell Row** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
+2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
-   - Swap for: Pendulum Squat (machine) / Hack Squat (machine) / Landmine Hack Squat / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine))
-3. **Single-Arm DB/KB Row** [B2] — 4 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Leg Press (machine)
-   - per side = 1 set
-   - Then do its last set on its own
-   - Swap for: Single-Arm Cable Row / Bent-Over Seesaw DB Row (alternating) / Bird Dog Row (DB) / Renegade Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-4. **Stationary Lunge (Split Squat)** [C1] — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Rope Attachment)
+   - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Landmine Hack Squat (keeps the two-leg squat; loses the machine's support) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
+3. **Lat Pulldown (Rope Attachment) - 1-second squeeze at the top** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Weighted Pull-Up (keeps the vertical pull; loses the machine's support) / Pull-up (keeps the vertical pull; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment)) · Name to copy into YouTube: `Lat Pulldown (Rope Attachment)`
+4. **Stationary Lunge (Split Squat)** — 4 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
-   - Swap for: Step-Up (forward and lateral) / Forward Lunge / Side (Lateral) Lunge / Deficit Reverse Lunge (standing on plate/step)
-   - [Video](https://youtu.be/cnwphCgR60A)
-5. **Lat Pulldown (Rope Attachment)** [C2] — 3 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Stationary Lunge (Split Squat)
-   - Swap for: Lat Pulldown (Pronated / Overhand Grip) / Lat Pulldown (Wide MAG Grip) / Weighted Pull-Up / Strict Pull-Up (Feet in Front / hollow)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment))
+   - Swap for: Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses the body-weight control) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
 
 **Accessories**
-1. **Sissy Squat - holding a plate at the chest** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Seated Dumbbell Curl
-   - [Video](https://youtu.be/HW5yUsjKru4)
-2. **Seated Dumbbell Curl** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Sissy Squat - holding a plate at the chest
-   - Then do its last set on its own
-   - Swap for: Spider Curl (chest on incline bench) / Supine (Lying) Biceps Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Dumbbell%20Curl)
-3. **Machine Reverse Fly (rear-delt pec deck)** [E1] — 2 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly / Floor Prone Y / T Raises (bodyweight or light DBs) / Bent-Over DB Reverse Fly / Incline-Bench Prone DB T-Raise
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck))
-4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Machine Reverse Fly (rear-delt pec deck)
-   - Then do its last set on its own
-   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
-   - Swap for: Supine (Lying) Biceps Curl / Barbell Curl / Spider Curl (chest on incline bench) / EZ-Bar Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups))
-5. **Machine Calf Raise - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise%20-%20one%20leg%20at%20a%20time)
-
-**Aerobic**
-1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+1. **Dumbbell Concentration Curl** — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+2. **Leg Extension (machine) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - one leg at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Machine Reverse Fly (rear-delt pec deck) (bonus)** — 2 × 20 to 30 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · B2 - deadlift + push
-_about 68 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 95-115 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Flat DB Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Incline DB Bench Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
+_Superset to save time: Cable Triceps Pushdown - straight bar, pronated grip + Lying Leg Curl (machine) - one leg at a time (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Lying Leg Curl (machine) - one leg at a time, Cable Triceps Pushdown - straight bar, pronated grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Hug**
-   - Swap for: Medball Stationary Lunge (Split Squat) with Medball Up / Medball Hug Goblet Squat / Medball RFE Split Squat (Bulgarian) with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Hug)
+2. **Medball Forward Lunge with Medball Up**
+   - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
 **Core**
-1. **V-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
-   - Swap for: Sit-Up / Crunch / Supermans / Butterfly Sit-up
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ V-Up
-   - Swap for: Swiss Ball Knee Tuck / Slider Runners (mountain-climber style) / Mountain Climber / Hip Raises ('hips raises')
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Strength**
-1. **DB Upright Row** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Lateral (Side) Raise / Barbell Upright Row / DB Lateral Raise (Supinated / palms-up grip)
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row)
-2. **Hex (Trap) Bar Deadlift** [B1] — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Incline Barbell Bench Press - close grip (hands shoulder-width)
-   - Swap for: Sumo Deadlift / Barbell Deadlift (conventional) / Stiff-Leg Deadlift / RDL / Wide-Grip Barbell Deadlift
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-3. **Incline Barbell Bench Press - close grip (hands shoulder-width)** [B2] — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Hex (Trap) Bar Deadlift
-   - Then do its last set on its own
-   - Swap for: Flat DB Bench Press / Incline DB Bench Press / Machine Bench Press / Standing Cable Chest Press
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press%20-%20close%20grip%20(hands%20shoulder-width))
-4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** [C1] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Seesaw DB Press (alternating, one up / one down)
+1. **Cable Side Raise (leaning)** — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
+2. **Flat DB Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
+3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
+4. **Incline DB Bench Press** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+5. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
-   - Swap for: Staggered-Stance (Kickstand) DB Deadlift / Rear-Foot-on-Wall DB Deadlift (RDL) / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB))
-5. **Seesaw DB Press (alternating, one up / one down)** [C2] — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 1-2 min after the pair · SUPERSET W/ Alternating Staggered-Stance Single-Leg Deadlift (DB)
-   - per side = 1 set
-   - Swap for: Half-Kneeling Single-Arm Landmine Press / Alternating DB Overhead Press / Single-Arm DB Overhead Press / Half-Kneeling Single-Arm DB Press
-   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down))
+   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Reverse Hyperextension - 1-second squeeze at the top (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Focus slot for your priority muscle
-   > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-2. **Lying Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Machine Fly (Pec Deck)
-   - Swap for: Nordic Hamstring Curl / Seated Leg Curl (machine) / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine))
-3. **Machine Fly (Pec Deck)** [D2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Lying Leg Curl (machine)
-   - Then do its last set on its own
-   - Swap for: Cable Fly / Flat DB Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck))
-4. **Overhead Cable Triceps Extension - 1-second squeeze at the top** [E1] — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Barbell Calf Raise - from a step (full stretch at the bottom)
-   - Then do its last set on its own
-   - Swap for: Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip / Tate Press / EZ-Bar Skullcrusher
-   - [Video](https://www.youtube.com/watch?v=kqidUIf1eJE)
-5. **Barbell Calf Raise - from a step (full stretch at the bottom)** [E2] — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 60-90 s after the pair · SUPERSET W/ Overhead Cable Triceps Extension - 1-second squeeze at the top
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise%20-%20from%20a%20step%20(full%20stretch%20at%20the%20bottom))
-6. **Floor Dumbbell Skullcrusher** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Swap for: Tate Press / EZ-Bar Skullcrusher / Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Video](https://www.youtube.com/watch?v=IAHDkC6vJw4)
+1. **Cable Triceps Pushdown - straight bar, pronated grip** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, pronated grip`
+2. **Lying Leg Curl (machine) - one leg at a time** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Optional day
-_about 46 min_
+_Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Barbell Upright Row + Cable Triceps Push-down (about 3.5 min saved)_
+_Superset to save time: DB Upright Row + Machine Calf Raise - 1-second squeeze at the top (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - 1-second squeeze at the top, DB Upright Row, Incline / Side-Lying Cable Lateral Raise · bonus exercises: Machine Fly (Pec Deck), Overhead Cable Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 30-60 s rest
-   - Swap for: Crunch / Sit-Up / Reverse Crunch / Knees to Chest (hanging)
-   - [Video](https://youtu.be/VpEcj96HO4k)
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Accessories**
-1. **DB Lateral (Side) Raise (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Incline / Side-Lying Cable Lateral Raise (Focus)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Barbell Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Cable Side Raise (leaning) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise) · Name to copy into YouTube: `Incline / Side-Lying Cable Lateral Raise`
+2. **DB Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) / DB Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Upright%20Row)
-3. **Cable Triceps Push-down (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Swap for: Seated DB Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row) · Name to copy into YouTube: `DB Upright Row`
+3. **Machine Calf Raise - 1-second squeeze at the top** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Overhead Cable Triceps Extension (bonus)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip / Overhead Dumbbell Triceps Extension
-   - [Video](https://youtu.be/hp7ktB-sjoo)
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
+5. **Machine Fly (Pec Deck) (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Flat DB Fly (keeps the chest isolation; loses the machine's support) / Cable Fly (keeps the chest isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)) · Name to copy into YouTube: `Machine Fly (Pec Deck)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
@@ -2311,351 +2532,380 @@ _Superset to save time: Barbell Upright Row + Cable Triceps Push-down (about 3.5
 _Week level: 6 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- +1 set on Standing Barbell Overhead Press (strict) (Tuesday)
-- +1 set on Flat DB Fly (Tuesday)
-- +1 set on Lat Pulldown (Pronated / Overhand Grip) (Monday)
+- +1 set on Incline Barbell Bench Press (Tuesday)
+- +1 set on Machine Reverse Fly (rear-delt pec deck) (Thursday)
+- +1 set on Dumbbell Concentration Curl (Thursday)
+- +1 set on EZ-Bar Skullcrusher (Tuesday)
 
 ### Monday · A1 - squat + pull
-_about 71 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 85-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 7 min saved)_
+_Superset to save time: Supine (Lying) Biceps Curl + Leg Extension (machine) (about 5 min saved)_
+_Superset to save time: Machine Calf Raise + Seated (Chest-to-Thighs) DB Reverse Fly (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise, Leg Extension (machine), Supine (Lying) Biceps Curl · bonus exercises: Seated (Chest-to-Thighs) DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Hug Goblet Squat**
-   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Held Forward / Medball Reverse Lunge with Down-and-Back Cross-Body Reach / Medball Reverse Lunge with Medball Up
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Hug%20Goblet%20Squat)
+2. **Medball Stationary Lunge (Split Squat) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
 **Core**
-1. **Plank (forearm / low plank)** [A1] — 2 × 25-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Streamline Hold (hollow body, arms locked overhead) / Hollow Rocks / High Plank (straight-arm plank) / L-Sit Hold
-   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Copenhagen Plank** [A2] — 2 × 25-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Plank (forearm / low plank)
+1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Side Plank Press (advanced: star side plank press) / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Strength**
-1. **Seated DB Lateral Raise** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: DB Lateral (Side) Raise / DB Upright Row / DB Lateral Raise (Supinated / palms-up grip) / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise)
-2. **High-Bar Back Squat** [B1] — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Seal Row - Barbell (Supinated Grip)
-   - Swap for: Front Squat (barbell) / Zercher Squat (barbell) / Box Zercher Squat (touch-and-go) / Flipped Hex Bar Squat (low handles, longer range)
-   - [Video](https://youtu.be/i7J5h7BJ07g)
-3. **Seal Row - Barbell (Supinated Grip)** [B2] — 4 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ High-Bar Back Squat
-   - Then do its last set on its own
-   - Swap for: Seal Row - Barbell (Pronated Grip) / Seal Row - DB (Supinated Grip) / Machine Row (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip))
-4. **Hack Squat (machine)** [C1] — 3 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Pronated / Overhand Grip)
-   > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
-   - Swap for: Leg Press (machine) / Pendulum Squat (machine) / High-Zercher DB Squat (DB hugged high at chest) / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine))
-5. **Lat Pulldown (Pronated / Overhand Grip)** [C2] — 4 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Hack Squat (machine)
-   - Then do its last set on its own
-   - Swap for: Lat Pulldown (Close Grip) / Lat Pulldown (Supinated / Underhand Grip) / Weighted Pull-Up / Strict Pull-Up (Feet Behind)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Pronated%20%2F%20Overhand%20Grip))
+1. **Seal Row - Barbell (Supinated Grip)** — 5 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Close / Neutral Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
+2. **Front Squat (barbell)** — 4 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
+3. **Single-Arm Lat Pulldown** — 5 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 15 per side on every set with 2 left in the tank, add weight next time and start again at 10.
+   - per side = 1 set
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 4 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)) · Name to copy into YouTube: `Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)`
 
 **Accessories**
-1. **Leg Extension (machine)** [D1] — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Dumbbell Concentration Curl
-   - Swap for: DB Leg Extension (seated on box)
-   - [Video](https://youtu.be/m0FOpMEgero)
-2. **Dumbbell Concentration Curl** [D2] — 3 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Leg Extension (machine)
-   - per side = 1 set
-   - Then do its last set on its own
-   - Swap for: Cross-Body Dumbbell Hammer Curl / Single-Arm DB Preacher Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl)
-3. **Cable Side Raise (leaning)** [E1] — 2 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - per side = 1 set
-   - Swap for: Incline / Side-Lying Cable Lateral Raise
-   - [Video](https://www.youtube.com/watch?v=lq7eLC30b9w)
-4. **Incline Dumbbell Curl ('pinky facing up' supinated variation)** [E2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Cable Side Raise (leaning)
-   - Then do its last set on its own
-   - Swap for: Supine (Lying) Biceps Curl / Spider Curl (chest on incline bench) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Video](https://www.youtube.com/watch?v=aTYlqC_JacQ)
-5. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Barbell Calf Raise / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
-
-**Aerobic**
-1. **Blue (A): short / high intensity · treadmill** — 18 min · 30 s run / 30 s walk, repeat
-   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
+1. **Supine (Lying) Biceps Curl** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+2. **Leg Extension (machine)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Barbell Calf Raise (keeps the calf work; loses the machine's support) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Seated (Chest-to-Thighs) DB Reverse Fly (bonus)** — 3 × 20 to 30 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 2 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · B1 - hip thrust + push
-_about 75 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 105-130 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Crunch + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
+_Superset to save time: Barbell Bench Press + Barbell Hip Thrust (about 7 min saved)_
+_Superset to save time: Incline Barbell Bench Press - close grip (hands shoulder-width) + Rear-Foot-on-Wall DB Deadlift (RDL) (about 5.5 min saved)_
+_Superset to save time: EZ-Bar Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Seated Leg Curl (machine), EZ-Bar Skullcrusher · bonus exercises: Cable Triceps Pushdown - straight bar, supinated (reverse) grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball Forward Lunge with Overhead Reach / Medball FFE Split Squat/Lunge with Medball Up / Medball Forward Lunge with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball Forward Lunge with Overhead Reach**
+   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
 **Core**
-1. **Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knees-to-Chest (hanging oblique knee raise)
-   - Swap for: Crunch / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up)
-2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** [A2] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Sit-Up
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bear Crawl / Hip Turns (pelvis rotations) / Flutter Kicks / Windshield Wipers
-   - [Video](https://youtu.be/L1rt7qr5LCk)
+   - Swap for: Star V-Ups (cross-body / diagonal V-ups) (keeps the core work; loses little - same movement, another grip or position) / Single-Leg Toes to Bar (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses the same trunk action - this one trains the core another way) / Windshield Wipers (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knees-to-Chest%20(hanging%20oblique%20knee%20raise)) · Name to copy into YouTube: `Hanging Rotational Knees-to-Chest (hanging oblique knee raise)`
 
 **Strength**
-1. **Incline / Side-Lying Cable Lateral Raise** — 2 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Seated DB Lateral Raise** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
+2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
+3. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
+4. **Incline Barbell Bench Press - close grip (hands shoulder-width)** — 5 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Incline DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / High-Incline DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press) · Name to copy into YouTube: `Incline Barbell Bench Press`
+5. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Cable Side Raise (leaning)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise)
-2. **Barbell Hip Thrust** [B1] — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Barbell Bench Press
-   - Then do its last set on its own
-   - Swap for: Hip Thrust (machine) / Reverse Hyperextension / Dumbbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust)
-3. **Barbell Bench Press** [B2] — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Barbell Hip Thrust
-   - Swap for: Incline Barbell Bench Press / Incline DB Bench Press / Flat DB Bench Press / Machine Bench Press
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press)
-4. **45-Degree Hyperextension (back/hip extension)** [C1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Standing Barbell Overhead Press (strict)
-   - Swap for: Dumbbell Deadlift / Good Morning (machine) / GHD - Glute-Ham Developer (hip extension / glute-ham raise) / Single-Kettlebell Deadlift
-   - [Video](https://youtu.be/tsP0eYPsoiE)
-5. **Standing Barbell Overhead Press (strict)** [C2] — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ 45-Degree Hyperextension (back/hip extension)
-   - Then do its last set on its own
-   - Swap for: High-Incline Seated Barbell Press / Standing DB Overhead Press / High-Incline DB Press / Tall-Kneeling Barbell Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict))
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
-1. **Cable Pull-Through (Focus)** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **Seated Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Flat DB Fly
-   - Swap for: Lying Leg Curl (machine) / Nordic Hamstring Curl / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
-3. **Flat DB Fly** [D2] — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Seated Leg Curl (machine)
-   - Then do its last 2 sets on their own
-   - Swap for: Machine Fly (Pec Deck) / Cable Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
-4. **Tate Press** [E1] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Standing DB Calf Raise (deficit optional)
-   - Swap for: EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press)
-5. **Standing DB Calf Raise (deficit optional)** [E2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Tate Press
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
-6. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Cable Triceps Push-down / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip / EZ-Bar Skullcrusher
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip)
+1. **EZ-Bar Skullcrusher** — 4 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses the heavier barbell load) / Tate Press (keeps the triceps work; loses the heavier barbell load) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher) · Name to copy into YouTube: `EZ-Bar Skullcrusher`
+2. **Seated Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
+3. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip (bonus)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Optional day
-_about 66 min_
+_Average time: about 50-60 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Hip Thrust (machine) + Cable Triceps Pushdown - straight bar, pronated grip (about 3.5 min saved)_
+_Superset to save time: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top + Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Reverse Hyperextension, Hip Thrust (machine) · bonus exercises: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups), Machine Row (Close / Neutral Grip)_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Hanging Rotational Knees-to-Chest (hanging oblique knee raise) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees / Russian Twist
-   - [Video](https://www.youtube.com/watch?v=Gq7ToKnOC1Q)
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
 
 **Accessories**
-1. **Dumbbell Hip Thrust (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Machine Row (Close / Neutral Grip) (bonus)** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: High Row (machine) (keeps the horizontal pull; loses the top-end load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the machine's support) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Row%20(Close%20%2F%20Neutral%20Grip)) · Name to copy into YouTube: `Machine Row (Close / Neutral Grip)`
+2. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Barbell Hip Thrust / Glute Bridge / Hip Thrust or Glute Bridge (either)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hip%20Thrust)
-2. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the machine's support) / Dumbbell Hip Thrust (keeps the glute work; loses the machine's support) / Barbell Hip Thrust (keeps the glute work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine)) · Name to copy into YouTube: `Hip Thrust (machine)`
+3. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
    > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-3. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Barbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine))
-4. **Cable Triceps Pushdown - straight bar, pronated grip (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Barbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Glute Bridge (keeps the glute work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Hyperextension) · Name to copy into YouTube: `Reverse Hyperextension`
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+5. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (bonus)** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Overhead Dumbbell Triceps Extension
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip)
-5. **Spider Curl (chest on incline bench) (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Supine (Lying) Biceps Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench))
+   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
+   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses the constant cable tension) / Spider Curl (chest on incline bench) (keeps the biceps work; loses the constant cable tension) / Seated Dumbbell Curl (keeps the biceps work; loses the constant cable tension) / Supine (Lying) Biceps Curl (keeps the biceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)) · Name to copy into YouTube: `Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+1. **Blue (A): short / high intensity · treadmill** — 18 min · 30 s run / 30 s walk, repeat
+   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
-_about 68 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 85-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Sit-Up + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bent-Over Barbell Row + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Lat Pulldown (Rope Attachment) - 1-second squeeze at the top + Stationary Lunge (Split Squat) (about 7 min saved)_
+_Superset to save time: Dumbbell Concentration Curl + Leg Extension (machine) - 1-second squeeze at the top (about 5 min saved)_
+_Superset to save time: Machine Calf Raise - one leg at a time + Machine Reverse Fly (rear-delt pec deck) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - one leg at a time, Leg Extension (machine) - 1-second squeeze at the top, Dumbbell Concentration Curl · bonus exercises: Machine Reverse Fly (rear-delt pec deck)_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball FFE Split Squat/Lunge with Medball Hug / Medball Reverse Lunge with Forward Reach / Medball Reverse Lunge with Cross-Body Turn
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball RFE Split Squat (Bulgarian) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
 **Core**
-1. **Crunch** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knee/Leg Raise
-   - Swap for: Sit-Up / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Crunch)
-2. **Hanging Rotational Knee/Leg Raise** [A2] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Crunch
-   - per side = 1 set
-   - Swap for: Single-Leg Balance Reach (front / side / back) / Windshield Wipers / Break Dancers (bear/crab-position thread-through rotations) / Hip Turns (pelvis rotations)
-   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise)
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **DB Lateral Raise (Supinated / palms-up grip) - 1-second squeeze at the top** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Upright Row / DB Lateral (Side) Raise / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)%20-%201-second%20squeeze%20at%20the%20top)
-2. **Leg Press (machine)** [B1] — 3 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Single-Arm DB/KB Row
+1. **Bent-Over Barbell Row** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
+   - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
+2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
-   - Swap for: Pendulum Squat (machine) / Hack Squat (machine) / Landmine Hack Squat / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine))
-3. **Single-Arm DB/KB Row** [B2] — 4 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Leg Press (machine)
-   - per side = 1 set
-   - Then do its last set on its own
-   - Swap for: Single-Arm Cable Row / Bent-Over Seesaw DB Row (alternating) / Bird Dog Row (DB) / Renegade Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-4. **Stationary Lunge (Split Squat)** [C1] — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Rope Attachment)
+   - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Landmine Hack Squat (keeps the two-leg squat; loses the machine's support) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
+3. **Lat Pulldown (Rope Attachment) - 1-second squeeze at the top** — 4 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Weighted Pull-Up (keeps the vertical pull; loses the machine's support) / Pull-up (keeps the vertical pull; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment)) · Name to copy into YouTube: `Lat Pulldown (Rope Attachment)`
+4. **Stationary Lunge (Split Squat)** — 4 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
-   - Swap for: Step-Up (forward and lateral) / Forward Lunge / Side (Lateral) Lunge / Deficit Reverse Lunge (standing on plate/step)
-   - [Video](https://youtu.be/cnwphCgR60A)
-5. **Lat Pulldown (Rope Attachment)** [C2] — 3 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Stationary Lunge (Split Squat)
-   - Swap for: Lat Pulldown (Pronated / Overhand Grip) / Lat Pulldown (Wide MAG Grip) / Weighted Pull-Up / Strict Pull-Up (Feet in Front / hollow)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment))
+   - Swap for: Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses the body-weight control) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
 
 **Accessories**
-1. **Sissy Squat - holding a plate at the chest** [D1] — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Seated Dumbbell Curl
-   - [Video](https://youtu.be/HW5yUsjKru4)
-2. **Seated Dumbbell Curl** [D2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Sissy Squat - holding a plate at the chest
-   - Then do its last set on its own
-   - Swap for: Spider Curl (chest on incline bench) / Supine (Lying) Biceps Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Dumbbell%20Curl)
-3. **Machine Reverse Fly (rear-delt pec deck)** [E1] — 2 × 20 to 30 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly / Floor Prone Y / T Raises (bodyweight or light DBs) / Bent-Over DB Reverse Fly / Incline-Bench Prone DB T-Raise
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck))
-4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)** [E2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Machine Reverse Fly (rear-delt pec deck)
-   - Then do its last set on its own
-   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
-   - Swap for: Supine (Lying) Biceps Curl / Barbell Curl / Spider Curl (chest on incline bench) / EZ-Bar Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups))
-5. **Machine Calf Raise - one leg at a time** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise%20-%20one%20leg%20at%20a%20time)
-
-**Aerobic**
-1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+1. **Dumbbell Concentration Curl** — 4 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+2. **Leg Extension (machine) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - one leg at a time** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Machine Reverse Fly (rear-delt pec deck) (bonus)** — 3 × 20 to 30 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 2 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · B2 - deadlift + push
-_about 68 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 95-115 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Flat DB Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Incline DB Bench Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
+_Superset to save time: Cable Triceps Pushdown - straight bar, pronated grip + Lying Leg Curl (machine) - one leg at a time (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Lying Leg Curl (machine) - one leg at a time, Cable Triceps Pushdown - straight bar, pronated grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Hug**
-   - Swap for: Medball Stationary Lunge (Split Squat) with Medball Up / Medball Hug Goblet Squat / Medball RFE Split Squat (Bulgarian) with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Hug)
+2. **Medball Forward Lunge with Medball Up**
+   - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
 **Core**
-1. **V-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
-   - Swap for: Sit-Up / Crunch / Supermans / Butterfly Sit-up
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ V-Up
-   - Swap for: Swiss Ball Knee Tuck / Slider Runners (mountain-climber style) / Mountain Climber / Hip Raises ('hips raises')
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Strength**
-1. **DB Upright Row** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Lateral (Side) Raise / Barbell Upright Row / DB Lateral Raise (Supinated / palms-up grip)
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row)
-2. **Hex (Trap) Bar Deadlift** [B1] — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Incline Barbell Bench Press - close grip (hands shoulder-width)
-   - Swap for: Sumo Deadlift / Barbell Deadlift (conventional) / Stiff-Leg Deadlift / RDL / Wide-Grip Barbell Deadlift
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-3. **Incline Barbell Bench Press - close grip (hands shoulder-width)** [B2] — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Hex (Trap) Bar Deadlift
-   - Then do its last set on its own
-   - Swap for: Flat DB Bench Press / Incline DB Bench Press / Machine Bench Press / Standing Cable Chest Press
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press%20-%20close%20grip%20(hands%20shoulder-width))
-4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** [C1] — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Seesaw DB Press (alternating, one up / one down)
+1. **Cable Side Raise (leaning)** — 3 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
+2. **Flat DB Bench Press** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
+3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
+4. **Incline DB Bench Press** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+5. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
-   - Swap for: Staggered-Stance (Kickstand) DB Deadlift / Rear-Foot-on-Wall DB Deadlift (RDL) / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB))
-5. **Seesaw DB Press (alternating, one up / one down)** [C2] — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Alternating Staggered-Stance Single-Leg Deadlift (DB)
-   - per side = 1 set
-   - Swap for: Half-Kneeling Single-Arm Landmine Press / Alternating DB Overhead Press / Single-Arm DB Overhead Press / Half-Kneeling Single-Arm DB Press
-   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down))
+   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Reverse Hyperextension - 1-second squeeze at the top (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Focus slot for your priority muscle
-   > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-2. **Lying Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Machine Fly (Pec Deck)
-   - Swap for: Nordic Hamstring Curl / Seated Leg Curl (machine) / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine))
-3. **Machine Fly (Pec Deck)** [D2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Lying Leg Curl (machine)
-   - Then do its last set on its own
-   - Swap for: Cable Fly / Flat DB Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck))
-4. **Overhead Cable Triceps Extension - 1-second squeeze at the top** [E1] — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Barbell Calf Raise - from a step (full stretch at the bottom)
-   - Then do its last set on its own
-   - Swap for: Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip / Tate Press / EZ-Bar Skullcrusher
-   - [Video](https://www.youtube.com/watch?v=kqidUIf1eJE)
-5. **Barbell Calf Raise - from a step (full stretch at the bottom)** [E2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Overhead Cable Triceps Extension - 1-second squeeze at the top
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise%20-%20from%20a%20step%20(full%20stretch%20at%20the%20bottom))
-6. **Floor Dumbbell Skullcrusher** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Tate Press / EZ-Bar Skullcrusher / Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Video](https://www.youtube.com/watch?v=IAHDkC6vJw4)
+1. **Cable Triceps Pushdown - straight bar, pronated grip** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, pronated grip`
+2. **Lying Leg Curl (machine) - one leg at a time** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Optional day
-_about 46 min_
+_Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Barbell Upright Row + Cable Triceps Push-down (about 3.5 min saved)_
+_Superset to save time: DB Upright Row + Machine Calf Raise - 1-second squeeze at the top (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - 1-second squeeze at the top, DB Upright Row, Incline / Side-Lying Cable Lateral Raise · bonus exercises: Machine Fly (Pec Deck), Overhead Cable Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 30-60 s rest
-   - Swap for: Crunch / Sit-Up / Reverse Crunch / Knees to Chest (hanging)
-   - [Video](https://youtu.be/VpEcj96HO4k)
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Accessories**
-1. **DB Lateral (Side) Raise (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Incline / Side-Lying Cable Lateral Raise (Focus)** — 2 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Barbell Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Swap for: Cable Side Raise (leaning) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise) · Name to copy into YouTube: `Incline / Side-Lying Cable Lateral Raise`
+2. **DB Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) / DB Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Upright%20Row)
-3. **Cable Triceps Push-down (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Swap for: Seated DB Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row) · Name to copy into YouTube: `DB Upright Row`
+3. **Machine Calf Raise - 1-second squeeze at the top** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Overhead Cable Triceps Extension (bonus)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip / Overhead Dumbbell Triceps Extension
-   - [Video](https://youtu.be/hp7ktB-sjoo)
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
+5. **Machine Fly (Pec Deck) (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Flat DB Fly (keeps the chest isolation; loses the machine's support) / Cable Fly (keeps the chest isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)) · Name to copy into YouTube: `Machine Fly (Pec Deck)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
@@ -2668,352 +2918,379 @@ _Superset to save time: Barbell Upright Row + Cable Triceps Push-down (about 3.5
 _Week level: 7 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- +1 set on Reverse Hyperextension (Friday)
-- +1 set on DB Lateral Raise (Supinated / palms-up grip) (Thursday)
 - +1 set on Leg Extension (machine) (Monday)
-- +1 set on Machine Fly (Pec Deck) (Friday)
-- +1 set on Machine Calf Raise (Thursday)
+- +1 set on Lat Pulldown (Rope Attachment) (Thursday)
+- +1 set on Incline DB Bench Press (Friday)
 
 ### Monday · A1 - squat + pull
-_about 72 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 85-105 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 7 min saved)_
+_Superset to save time: Supine (Lying) Biceps Curl + Leg Extension (machine) (about 5 min saved)_
+_Superset to save time: Machine Calf Raise + Seated (Chest-to-Thighs) DB Reverse Fly (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise, Leg Extension (machine), Supine (Lying) Biceps Curl · bonus exercises: Seated (Chest-to-Thighs) DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Hug Goblet Squat**
-   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Held Forward / Medball Reverse Lunge with Down-and-Back Cross-Body Reach / Medball Reverse Lunge with Medball Up
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Hug%20Goblet%20Squat)
+2. **Medball Stationary Lunge (Split Squat) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
 **Core**
-1. **Plank (forearm / low plank)** [A1] — 2 × 25-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Streamline Hold (hollow body, arms locked overhead) / Hollow Rocks / High Plank (straight-arm plank) / L-Sit Hold
-   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Copenhagen Plank** [A2] — 2 × 25-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Plank (forearm / low plank)
+1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Side Plank Press (advanced: star side plank press) / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Strength**
-1. **Seated DB Lateral Raise** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: DB Lateral (Side) Raise / DB Upright Row / DB Lateral Raise (Supinated / palms-up grip) / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise)
-2. **High-Bar Back Squat** [B1] — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Seal Row - Barbell (Supinated Grip)
-   - Swap for: Front Squat (barbell) / Zercher Squat (barbell) / Box Zercher Squat (touch-and-go) / Flipped Hex Bar Squat (low handles, longer range)
-   - [Video](https://youtu.be/i7J5h7BJ07g)
-3. **Seal Row - Barbell (Supinated Grip)** [B2] — 4 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ High-Bar Back Squat
-   - Then do its last set on its own
-   - Swap for: Seal Row - Barbell (Pronated Grip) / Seal Row - DB (Supinated Grip) / Machine Row (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip))
-4. **Hack Squat (machine)** [C1] — 3 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Pronated / Overhand Grip)
-   > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
-   - Swap for: Leg Press (machine) / Pendulum Squat (machine) / High-Zercher DB Squat (DB hugged high at chest) / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine))
-5. **Lat Pulldown (Pronated / Overhand Grip)** [C2] — 4 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Hack Squat (machine)
-   - Then do its last set on its own
-   - Swap for: Lat Pulldown (Close Grip) / Lat Pulldown (Supinated / Underhand Grip) / Weighted Pull-Up / Strict Pull-Up (Feet Behind)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Pronated%20%2F%20Overhand%20Grip))
+1. **Seal Row - Barbell (Supinated Grip)** — 5 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Close / Neutral Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
+2. **Front Squat (barbell)** — 4 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
+3. **Single-Arm Lat Pulldown** — 5 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 15 per side on every set with 2 left in the tank, add weight next time and start again at 10.
+   - per side = 1 set
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 4 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)) · Name to copy into YouTube: `Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)`
 
 **Accessories**
-1. **Leg Extension (machine)** [D1] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Dumbbell Concentration Curl
-   - Swap for: DB Leg Extension (seated on box)
-   - [Video](https://youtu.be/m0FOpMEgero)
-2. **Dumbbell Concentration Curl** [D2] — 3 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Leg Extension (machine)
-   - per side = 1 set
-   - Swap for: Cross-Body Dumbbell Hammer Curl / Single-Arm DB Preacher Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl)
-3. **Cable Side Raise (leaning)** [E1] — 2 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - per side = 1 set
-   - Swap for: Incline / Side-Lying Cable Lateral Raise
-   - [Video](https://www.youtube.com/watch?v=lq7eLC30b9w)
-4. **Incline Dumbbell Curl ('pinky facing up' supinated variation)** [E2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Cable Side Raise (leaning)
-   - Then do its last set on its own
-   - Swap for: Supine (Lying) Biceps Curl / Spider Curl (chest on incline bench) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Video](https://www.youtube.com/watch?v=aTYlqC_JacQ)
-5. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Barbell Calf Raise / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
-
-**Aerobic**
-1. **Blue (A): short / high intensity · treadmill** — 20 min · 30 s run / 30 s walk, repeat
-   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
+1. **Supine (Lying) Biceps Curl** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+2. **Leg Extension (machine)** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Barbell Calf Raise (keeps the calf work; loses the machine's support) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Seated (Chest-to-Thighs) DB Reverse Fly (bonus)** — 3 × 20 to 30 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 2 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · B1 - hip thrust + push
-_about 75 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 105-130 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Crunch + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
+_Superset to save time: Barbell Bench Press + Barbell Hip Thrust (about 7 min saved)_
+_Superset to save time: Incline Barbell Bench Press - close grip (hands shoulder-width) + Rear-Foot-on-Wall DB Deadlift (RDL) (about 5.5 min saved)_
+_Superset to save time: EZ-Bar Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Seated Leg Curl (machine), EZ-Bar Skullcrusher · bonus exercises: Cable Triceps Pushdown - straight bar, supinated (reverse) grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball Forward Lunge with Overhead Reach / Medball FFE Split Squat/Lunge with Medball Up / Medball Forward Lunge with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball Forward Lunge with Overhead Reach**
+   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
 **Core**
-1. **Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knees-to-Chest (hanging oblique knee raise)
-   - Swap for: Crunch / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up)
-2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** [A2] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Sit-Up
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bear Crawl / Hip Turns (pelvis rotations) / Flutter Kicks / Windshield Wipers
-   - [Video](https://youtu.be/L1rt7qr5LCk)
+   - Swap for: Star V-Ups (cross-body / diagonal V-ups) (keeps the core work; loses little - same movement, another grip or position) / Single-Leg Toes to Bar (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses the same trunk action - this one trains the core another way) / Windshield Wipers (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knees-to-Chest%20(hanging%20oblique%20knee%20raise)) · Name to copy into YouTube: `Hanging Rotational Knees-to-Chest (hanging oblique knee raise)`
 
 **Strength**
-1. **Incline / Side-Lying Cable Lateral Raise** — 2 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Seated DB Lateral Raise** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
+2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
+3. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
+4. **Incline Barbell Bench Press - close grip (hands shoulder-width)** — 5 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Incline DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / High-Incline DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press) · Name to copy into YouTube: `Incline Barbell Bench Press`
+5. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Cable Side Raise (leaning)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise)
-2. **Barbell Hip Thrust** [B1] — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Barbell Bench Press
-   - Then do its last set on its own
-   - Swap for: Hip Thrust (machine) / Reverse Hyperextension / Dumbbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust)
-3. **Barbell Bench Press** [B2] — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Barbell Hip Thrust
-   - Swap for: Incline Barbell Bench Press / Incline DB Bench Press / Flat DB Bench Press / Machine Bench Press
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press)
-4. **45-Degree Hyperextension (back/hip extension)** [C1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Standing Barbell Overhead Press (strict)
-   - Swap for: Dumbbell Deadlift / Good Morning (machine) / GHD - Glute-Ham Developer (hip extension / glute-ham raise) / Single-Kettlebell Deadlift
-   - [Video](https://youtu.be/tsP0eYPsoiE)
-5. **Standing Barbell Overhead Press (strict)** [C2] — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ 45-Degree Hyperextension (back/hip extension)
-   - Then do its last set on its own
-   - Swap for: High-Incline Seated Barbell Press / Standing DB Overhead Press / High-Incline DB Press / Tall-Kneeling Barbell Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict))
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
-1. **Cable Pull-Through (Focus)** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **Seated Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Flat DB Fly
-   - Swap for: Lying Leg Curl (machine) / Nordic Hamstring Curl / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
-3. **Flat DB Fly** [D2] — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Seated Leg Curl (machine)
-   - Then do its last 2 sets on their own
-   - Swap for: Machine Fly (Pec Deck) / Cable Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
-4. **Tate Press** [E1] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Standing DB Calf Raise (deficit optional)
-   - Swap for: EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press)
-5. **Standing DB Calf Raise (deficit optional)** [E2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Tate Press
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
-6. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Cable Triceps Push-down / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip / EZ-Bar Skullcrusher
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip)
+1. **EZ-Bar Skullcrusher** — 4 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses the heavier barbell load) / Tate Press (keeps the triceps work; loses the heavier barbell load) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher) · Name to copy into YouTube: `EZ-Bar Skullcrusher`
+2. **Seated Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
+3. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip (bonus)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Optional day
-_about 66 min_
+_Average time: about 50-60 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Hip Thrust (machine) + Cable Triceps Pushdown - straight bar, pronated grip (about 3.5 min saved)_
+_Superset to save time: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top + Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Reverse Hyperextension, Hip Thrust (machine) · bonus exercises: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups), Machine Row (Close / Neutral Grip)_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Hanging Rotational Knees-to-Chest (hanging oblique knee raise) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees / Russian Twist
-   - [Video](https://www.youtube.com/watch?v=Gq7ToKnOC1Q)
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
 
 **Accessories**
-1. **Dumbbell Hip Thrust (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Machine Row (Close / Neutral Grip) (bonus)** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: High Row (machine) (keeps the horizontal pull; loses the top-end load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the machine's support) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Row%20(Close%20%2F%20Neutral%20Grip)) · Name to copy into YouTube: `Machine Row (Close / Neutral Grip)`
+2. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Barbell Hip Thrust / Glute Bridge / Hip Thrust or Glute Bridge (either)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hip%20Thrust)
-2. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the machine's support) / Dumbbell Hip Thrust (keeps the glute work; loses the machine's support) / Barbell Hip Thrust (keeps the glute work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine)) · Name to copy into YouTube: `Hip Thrust (machine)`
+3. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
    > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-3. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Barbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine))
-4. **Cable Triceps Pushdown - straight bar, pronated grip (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Barbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Glute Bridge (keeps the glute work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Hyperextension) · Name to copy into YouTube: `Reverse Hyperextension`
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+5. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (bonus)** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Overhead Dumbbell Triceps Extension
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip)
-5. **Spider Curl (chest on incline bench) (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Supine (Lying) Biceps Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench))
+   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
+   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses the constant cable tension) / Spider Curl (chest on incline bench) (keeps the biceps work; loses the constant cable tension) / Seated Dumbbell Curl (keeps the biceps work; loses the constant cable tension) / Supine (Lying) Biceps Curl (keeps the biceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)) · Name to copy into YouTube: `Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+1. **Blue (A): short / high intensity · treadmill** — 20 min · 30 s run / 30 s walk, repeat
+   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
-_about 71 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 85-105 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Sit-Up + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bent-Over Barbell Row + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Lat Pulldown (Rope Attachment) - 1-second squeeze at the top + Stationary Lunge (Split Squat) (about 7 min saved)_
+_Superset to save time: Dumbbell Concentration Curl + Leg Extension (machine) - 1-second squeeze at the top (about 5 min saved)_
+_Superset to save time: Machine Calf Raise - one leg at a time + Machine Reverse Fly (rear-delt pec deck) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - one leg at a time, Leg Extension (machine) - 1-second squeeze at the top, Dumbbell Concentration Curl · bonus exercises: Machine Reverse Fly (rear-delt pec deck)_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball FFE Split Squat/Lunge with Medball Hug / Medball Reverse Lunge with Forward Reach / Medball Reverse Lunge with Cross-Body Turn
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball RFE Split Squat (Bulgarian) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
 **Core**
-1. **Crunch** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knee/Leg Raise
-   - Swap for: Sit-Up / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Crunch)
-2. **Hanging Rotational Knee/Leg Raise** [A2] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Crunch
-   - per side = 1 set
-   - Swap for: Single-Leg Balance Reach (front / side / back) / Windshield Wipers / Break Dancers (bear/crab-position thread-through rotations) / Hip Turns (pelvis rotations)
-   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise)
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **DB Lateral Raise (Supinated / palms-up grip) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Upright Row / DB Lateral (Side) Raise / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)%20-%201-second%20squeeze%20at%20the%20top)
-2. **Leg Press (machine)** [B1] — 3 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Single-Arm DB/KB Row
+1. **Bent-Over Barbell Row** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
+   - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
+2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
-   - Swap for: Pendulum Squat (machine) / Hack Squat (machine) / Landmine Hack Squat / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine))
-3. **Single-Arm DB/KB Row** [B2] — 4 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Leg Press (machine)
-   - per side = 1 set
-   - Then do its last set on its own
-   - Swap for: Single-Arm Cable Row / Bent-Over Seesaw DB Row (alternating) / Bird Dog Row (DB) / Renegade Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-4. **Stationary Lunge (Split Squat)** [C1] — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Rope Attachment)
+   - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Landmine Hack Squat (keeps the two-leg squat; loses the machine's support) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
+3. **Lat Pulldown (Rope Attachment) - 1-second squeeze at the top** — 5 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Weighted Pull-Up (keeps the vertical pull; loses the machine's support) / Pull-up (keeps the vertical pull; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment)) · Name to copy into YouTube: `Lat Pulldown (Rope Attachment)`
+4. **Stationary Lunge (Split Squat)** — 4 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
-   - Swap for: Step-Up (forward and lateral) / Forward Lunge / Side (Lateral) Lunge / Deficit Reverse Lunge (standing on plate/step)
-   - [Video](https://youtu.be/cnwphCgR60A)
-5. **Lat Pulldown (Rope Attachment)** [C2] — 3 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Stationary Lunge (Split Squat)
-   - Swap for: Lat Pulldown (Pronated / Overhand Grip) / Lat Pulldown (Wide MAG Grip) / Weighted Pull-Up / Strict Pull-Up (Feet in Front / hollow)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment))
+   - Swap for: Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses the body-weight control) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
 
 **Accessories**
-1. **Sissy Squat - holding a plate at the chest** [D1] — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Seated Dumbbell Curl
-   - [Video](https://youtu.be/HW5yUsjKru4)
-2. **Seated Dumbbell Curl** [D2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Sissy Squat - holding a plate at the chest
-   - Then do its last set on its own
-   - Swap for: Spider Curl (chest on incline bench) / Supine (Lying) Biceps Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation)
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Dumbbell%20Curl)
-3. **Machine Reverse Fly (rear-delt pec deck)** [E1] — 2 × 20 to 30 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly / Floor Prone Y / T Raises (bodyweight or light DBs) / Bent-Over DB Reverse Fly / Incline-Bench Prone DB T-Raise
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck))
-4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)** [E2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Machine Reverse Fly (rear-delt pec deck)
-   - Then do its last set on its own
-   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
-   - Swap for: Supine (Lying) Biceps Curl / Barbell Curl / Spider Curl (chest on incline bench) / EZ-Bar Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups))
-5. **Machine Calf Raise - one leg at a time** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise%20-%20one%20leg%20at%20a%20time)
-
-**Aerobic**
-1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+1. **Dumbbell Concentration Curl** — 4 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+2. **Leg Extension (machine) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - one leg at a time** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Machine Reverse Fly (rear-delt pec deck) (bonus)** — 3 × 20 to 30 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 2 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · B2 - deadlift + push
-_about 72 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 95-120 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Flat DB Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Incline DB Bench Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
+_Superset to save time: Cable Triceps Pushdown - straight bar, pronated grip + Lying Leg Curl (machine) - one leg at a time (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Lying Leg Curl (machine) - one leg at a time, Cable Triceps Pushdown - straight bar, pronated grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Hug**
-   - Swap for: Medball Stationary Lunge (Split Squat) with Medball Up / Medball Hug Goblet Squat / Medball RFE Split Squat (Bulgarian) with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Hug)
+2. **Medball Forward Lunge with Medball Up**
+   - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
 **Core**
-1. **V-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
-   - Swap for: Sit-Up / Crunch / Supermans / Butterfly Sit-up
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ V-Up
-   - Swap for: Swiss Ball Knee Tuck / Slider Runners (mountain-climber style) / Mountain Climber / Hip Raises ('hips raises')
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Strength**
-1. **DB Upright Row** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Lateral (Side) Raise / Barbell Upright Row / DB Lateral Raise (Supinated / palms-up grip)
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row)
-2. **Hex (Trap) Bar Deadlift** [B1] — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Incline Barbell Bench Press - close grip (hands shoulder-width)
-   - Swap for: Sumo Deadlift / Barbell Deadlift (conventional) / Stiff-Leg Deadlift / RDL / Wide-Grip Barbell Deadlift
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-3. **Incline Barbell Bench Press - close grip (hands shoulder-width)** [B2] — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Hex (Trap) Bar Deadlift
-   - Then do its last set on its own
-   - Swap for: Flat DB Bench Press / Incline DB Bench Press / Machine Bench Press / Standing Cable Chest Press
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press%20-%20close%20grip%20(hands%20shoulder-width))
-4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** [C1] — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Seesaw DB Press (alternating, one up / one down)
+1. **Cable Side Raise (leaning)** — 3 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
+2. **Flat DB Bench Press** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
+3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
+4. **Incline DB Bench Press** — 5 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+5. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
-   - Swap for: Staggered-Stance (Kickstand) DB Deadlift / Rear-Foot-on-Wall DB Deadlift (RDL) / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB))
-5. **Seesaw DB Press (alternating, one up / one down)** [C2] — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Alternating Staggered-Stance Single-Leg Deadlift (DB)
-   - per side = 1 set
-   - Swap for: Half-Kneeling Single-Arm Landmine Press / Alternating DB Overhead Press / Single-Arm DB Overhead Press / Half-Kneeling Single-Arm DB Press
-   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down))
+   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Reverse Hyperextension - 1-second squeeze at the top (Focus)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Focus slot for your priority muscle
-   > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-2. **Lying Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Machine Fly (Pec Deck)
-   - Swap for: Nordic Hamstring Curl / Seated Leg Curl (machine) / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine))
-3. **Machine Fly (Pec Deck)** [D2] — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Lying Leg Curl (machine)
-   - Then do its last 2 sets on their own
-   - Swap for: Cable Fly / Flat DB Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck))
-4. **Overhead Cable Triceps Extension - 1-second squeeze at the top** [E1] — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Barbell Calf Raise - from a step (full stretch at the bottom)
-   - Then do its last set on its own
-   - Swap for: Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip / Tate Press / EZ-Bar Skullcrusher
-   - [Video](https://www.youtube.com/watch?v=kqidUIf1eJE)
-5. **Barbell Calf Raise - from a step (full stretch at the bottom)** [E2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Overhead Cable Triceps Extension - 1-second squeeze at the top
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise%20-%20from%20a%20step%20(full%20stretch%20at%20the%20bottom))
-6. **Floor Dumbbell Skullcrusher** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Tate Press / EZ-Bar Skullcrusher / Cable Triceps Push-down / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Video](https://www.youtube.com/watch?v=IAHDkC6vJw4)
+1. **Cable Triceps Pushdown - straight bar, pronated grip** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, pronated grip`
+2. **Lying Leg Curl (machine) - one leg at a time** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Optional day
-_about 46 min_
+_Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Barbell Upright Row + Cable Triceps Push-down (about 3.5 min saved)_
+_Superset to save time: DB Upright Row + Machine Calf Raise - 1-second squeeze at the top (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - 1-second squeeze at the top, DB Upright Row, Incline / Side-Lying Cable Lateral Raise · bonus exercises: Machine Fly (Pec Deck), Overhead Cable Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 30-60 s rest
-   - Swap for: Crunch / Sit-Up / Reverse Crunch / Knees to Chest (hanging)
-   - [Video](https://youtu.be/VpEcj96HO4k)
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Accessories**
-1. **DB Lateral (Side) Raise (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Incline / Side-Lying Cable Lateral Raise (Focus)** — 2 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Barbell Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Swap for: Cable Side Raise (leaning) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise) · Name to copy into YouTube: `Incline / Side-Lying Cable Lateral Raise`
+2. **DB Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) / DB Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Upright%20Row)
-3. **Cable Triceps Push-down (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Swap for: Seated DB Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row) · Name to copy into YouTube: `DB Upright Row`
+3. **Machine Calf Raise - 1-second squeeze at the top** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Overhead Cable Triceps Extension (bonus)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip / Overhead Dumbbell Triceps Extension
-   - [Video](https://youtu.be/hp7ktB-sjoo)
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
+5. **Machine Fly (Pec Deck) (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Flat DB Fly (keeps the chest isolation; loses the machine's support) / Cable Fly (keeps the chest isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)) · Name to copy into YouTube: `Machine Fly (Pec Deck)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
@@ -3026,363 +3303,380 @@ _Superset to save time: Barbell Upright Row + Cable Triceps Push-down (about 3.5
 _Week level: 8 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- New exercise block: 12 exercises change a little (another version or one new detail); the rest stay
-- New bonus exercise: Cable Pull-Through (Saturday)
-- New bonus exercise: Cable Fly (Friday)
-- New bonus exercise: Dumbbell Hammer Curl (Saturday)
-- +1 set on Seesaw DB Press (alternating, one up / one down) (Friday)
-- +1 set on Sissy Squat (Thursday)
-- +1 set on Lat Pulldown (Rope Attachment) (Thursday)
+- New exercise block: 8 exercises change a little (another version or one new detail); the rest stay
+- +1 set on Cable Side Raise (leaning) (Friday)
+- +1 set on Supine (Lying) Biceps Curl (Monday)
+- +1 set on Standing DB Calf Raise (deficit optional) (Wednesday)
 
 ### Monday · A1 - squat + pull
-_about 72 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 85-105 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 7 min saved)_
+_Superset to save time: Supine (Lying) Biceps Curl + Leg Extension (machine) (about 6 min saved)_
+_Superset to save time: Machine Calf Raise - 1-second squeeze at the top + Seated (Chest-to-Thighs) DB Reverse Fly (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - 1-second squeeze at the top, Leg Extension (machine), Supine (Lying) Biceps Curl · bonus exercises: Seated (Chest-to-Thighs) DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Hug Goblet Squat**
-   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Held Forward / Medball Reverse Lunge with Down-and-Back Cross-Body Reach / Medball Reverse Lunge with Medball Up
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Hug%20Goblet%20Squat)
+2. **Medball Stationary Lunge (Split Squat) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
 **Core**
-1. **Plank (forearm / low plank)** [A1] — 2 × 30-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Streamline Hold (hollow body, arms locked overhead) / Hollow Rocks / High Plank (straight-arm plank) / L-Sit Hold
-   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Copenhagen Plank** [A2] — 2 × 30-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Plank (forearm / low plank)
+1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Side Plank Press (advanced: star side plank press) / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Strength**
-1. **Seated DB Lateral Raise - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: DB Lateral (Side) Raise / DB Upright Row / DB Lateral Raise (Supinated / palms-up grip) / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise%20-%201-second%20squeeze%20at%20the%20top)
-2. **High-Bar Back Squat** [B1] — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Seal Row - Barbell (Supinated Grip)
-   - Swap for: Front Squat (barbell) / Zercher Squat (barbell) / Box Zercher Squat (touch-and-go) / Flipped Hex Bar Squat (low handles, longer range)
-   - [Video](https://youtu.be/i7J5h7BJ07g)
-3. **Seal Row - Barbell (Supinated Grip)** [B2] — 4 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ High-Bar Back Squat
-   - Then do its last set on its own
-   - Swap for: Seal Row - Barbell (Pronated Grip) / Seal Row - DB (Supinated Grip) / Machine Row (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip))
-4. **Pendulum Squat (machine)** [C1] — 3 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Pronated / Overhand Grip)
-   - Swap for: Hack Squat (machine) / Leg Press (machine) / Goblet Squat (Heels Elevated) / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Pendulum%20Squat%20(machine))
-5. **Lat Pulldown (Pronated / Overhand Grip)** [C2] — 4 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Pendulum Squat (machine)
-   - Then do its last set on its own
-   - Swap for: Lat Pulldown (Close Grip) / Lat Pulldown (Supinated / Underhand Grip) / Weighted Pull-Up / Strict Pull-Up (Feet Behind)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Pronated%20%2F%20Overhand%20Grip))
+1. **Seal Row - Barbell (Supinated Grip)** — 5 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Close / Neutral Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
+2. **Front Squat (barbell)** — 4 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
+3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 5 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 15 per side on every set with 2 left in the tank, add weight next time and start again at 10.
+   - per side = 1 set
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 4 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)) · Name to copy into YouTube: `Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)`
 
 **Accessories**
-1. **Leg Extension (machine)** [D1] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Dumbbell Concentration Curl
-   - Swap for: DB Leg Extension (seated on box)
-   - [Video](https://youtu.be/m0FOpMEgero)
-2. **Dumbbell Concentration Curl** [D2] — 3 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Leg Extension (machine)
-   - per side = 1 set
-   - Swap for: Cross-Body Dumbbell Hammer Curl / Single-Arm DB Preacher Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl)
-3. **Cable Side Raise (leaning)** [E1] — 2 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Supine (Lying) Biceps Curl
-   - per side = 1 set
-   - Swap for: Incline / Side-Lying Cable Lateral Raise
-   - [Video](https://www.youtube.com/watch?v=lq7eLC30b9w)
-4. **Supine (Lying) Biceps Curl** [E2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Cable Side Raise (leaning)
-   - Then do its last set on its own
-   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) / Spider Curl (chest on incline bench) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl)
-5. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Barbell Calf Raise / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
-
-**Aerobic**
-1. **Blue (A): short / high intensity · treadmill** — 15 min · 40 s run / 20 s walk, repeat
-   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
+1. **Supine (Lying) Biceps Curl** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+2. **Leg Extension (machine)** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Barbell Calf Raise (keeps the calf work; loses the machine's support) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Seated (Chest-to-Thighs) DB Reverse Fly (bonus)** — 3 × 20 to 30 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 2 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · B1 - hip thrust + push
-_about 75 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 105-130 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Crunch + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
+_Superset to save time: Barbell Bench Press + Barbell Hip Thrust (about 7 min saved)_
+_Superset to save time: Incline Barbell Bench Press - 1-second pause at the bottom + Rear-Foot-on-Wall DB Deadlift (RDL) (about 5.5 min saved)_
+_Superset to save time: EZ-Bar Skullcrusher - 1-second squeeze at the top + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Seated Leg Curl (machine), EZ-Bar Skullcrusher - 1-second squeeze at the top · bonus exercises: Cable Triceps Pushdown - straight bar, supinated (reverse) grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball Forward Lunge with Overhead Reach / Medball FFE Split Squat/Lunge with Medball Up / Medball Forward Lunge with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball Forward Lunge with Overhead Reach**
+   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
 **Core**
-1. **Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knees-to-Chest (hanging oblique knee raise)
-   - Swap for: Crunch / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up)
-2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** [A2] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Sit-Up
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bear Crawl / Hip Turns (pelvis rotations) / Flutter Kicks / Windshield Wipers
-   - [Video](https://youtu.be/L1rt7qr5LCk)
+   - Swap for: Star V-Ups (cross-body / diagonal V-ups) (keeps the core work; loses little - same movement, another grip or position) / Single-Leg Toes to Bar (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses the same trunk action - this one trains the core another way) / Windshield Wipers (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knees-to-Chest%20(hanging%20oblique%20knee%20raise)) · Name to copy into YouTube: `Hanging Rotational Knees-to-Chest (hanging oblique knee raise)`
 
 **Strength**
-1. **Incline / Side-Lying Cable Lateral Raise** — 2 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Seated DB Lateral Raise** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
+2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
+3. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
+4. **Incline Barbell Bench Press - 1-second pause at the bottom** — 5 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Incline DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / High-Incline DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press) · Name to copy into YouTube: `Incline Barbell Bench Press`
+5. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Cable Side Raise (leaning)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise)
-2. **Barbell Hip Thrust** [B1] — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Barbell Bench Press - 1-second pause at the bottom
-   - Then do its last set on its own
-   - Swap for: Hip Thrust (machine) / Reverse Hyperextension / Dumbbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust)
-3. **Barbell Bench Press - 1-second pause at the bottom** [B2] — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Barbell Hip Thrust
-   - Swap for: Incline Barbell Bench Press / Incline DB Bench Press / Flat DB Bench Press / Machine Bench Press
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press%20-%201-second%20pause%20at%20the%20bottom)
-4. **45-Degree Hyperextension (back/hip extension)** [C1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Standing Barbell Overhead Press (strict) - 1-second pause at the bottom
-   - Swap for: Dumbbell Deadlift / Good Morning (machine) / GHD - Glute-Ham Developer (hip extension / glute-ham raise) / Single-Kettlebell Deadlift
-   - [Video](https://youtu.be/tsP0eYPsoiE)
-5. **Standing Barbell Overhead Press (strict) - 1-second pause at the bottom** [C2] — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ 45-Degree Hyperextension (back/hip extension)
-   - Then do its last set on its own
-   - Swap for: High-Incline Seated Barbell Press / Standing DB Overhead Press / High-Incline DB Press / Tall-Kneeling Barbell Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict)%20-%201-second%20pause%20at%20the%20bottom)
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
-1. **Cable Pull-Through (Focus)** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **Seated Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Flat DB Fly
-   - Swap for: Lying Leg Curl (machine) / Nordic Hamstring Curl / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
-3. **Flat DB Fly** [D2] — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Seated Leg Curl (machine)
-   - Then do its last 2 sets on their own
-   - Swap for: Machine Fly (Pec Deck) / Cable Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
-4. **Tate Press** [E1] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Standing DB Calf Raise (deficit optional)
-   - Swap for: EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher / Overhead Dumbbell Triceps Extension / Overhead Cable Triceps Extension
-   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press)
-5. **Standing DB Calf Raise (deficit optional)** [E2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Tate Press
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
-6. **Cable Triceps Push-down** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher
-   - [Video](https://youtu.be/hp7ktB-sjoo)
+1. **EZ-Bar Skullcrusher - 1-second squeeze at the top** — 4 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses the heavier barbell load) / Tate Press (keeps the triceps work; loses the heavier barbell load) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher) · Name to copy into YouTube: `EZ-Bar Skullcrusher`
+2. **Seated Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
+3. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip (bonus)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Optional day
-_about 66 min_
+_Average time: about 50-60 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Hip Thrust (machine) + Cable Triceps Pushdown - straight bar, pronated grip (about 3.5 min saved)_
+_Superset to save time: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top + Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Reverse Hyperextension, Hip Thrust (machine) · bonus exercises: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups), Machine Row (Close / Neutral Grip)_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Hanging Rotational Knees-to-Chest (hanging oblique knee raise) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees / Russian Twist
-   - [Video](https://www.youtube.com/watch?v=Gq7ToKnOC1Q)
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
 
 **Accessories**
-1. **Dumbbell Hip Thrust (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Machine Row (Close / Neutral Grip) (bonus)** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: High Row (machine) (keeps the horizontal pull; loses the top-end load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the machine's support) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Row%20(Close%20%2F%20Neutral%20Grip)) · Name to copy into YouTube: `Machine Row (Close / Neutral Grip)`
+2. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Barbell Hip Thrust / Glute Bridge / Hip Thrust or Glute Bridge (either)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hip%20Thrust)
-2. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the machine's support) / Dumbbell Hip Thrust (keeps the glute work; loses the machine's support) / Barbell Hip Thrust (keeps the glute work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine)) · Name to copy into YouTube: `Hip Thrust (machine)`
+3. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
    > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-3. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Barbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine))
-4. **Cable Triceps Pushdown - straight bar, pronated grip (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Barbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Glute Bridge (keeps the glute work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Hyperextension) · Name to copy into YouTube: `Reverse Hyperextension`
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+5. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (bonus)** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Tate Press / Overhead Cable Triceps Extension / EZ-Bar Skullcrusher
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip)
-5. **Spider Curl (chest on incline bench) (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) / Supine (Lying) Biceps Curl / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench))
+   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
+   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses the constant cable tension) / Spider Curl (chest on incline bench) (keeps the biceps work; loses the constant cable tension) / Seated Dumbbell Curl (keeps the biceps work; loses the constant cable tension) / Supine (Lying) Biceps Curl (keeps the biceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)) · Name to copy into YouTube: `Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+1. **Blue (A): short / high intensity · treadmill** — 15 min · 40 s run / 20 s walk, repeat
+   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
-_about 69 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 85-105 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Sit-Up + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bent-Over Barbell Row (Supinated / Yates grip) + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Lat Pulldown (Rope Attachment) - 1-second squeeze at the top + Stationary Lunge (Split Squat) (about 7 min saved)_
+_Superset to save time: Dumbbell Concentration Curl + Leg Extension (machine) - 1-second squeeze at the top (about 5 min saved)_
+_Superset to save time: Machine Calf Raise - from a step (full stretch at the bottom) + Machine Reverse Fly (rear-delt pec deck) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - from a step (full stretch at the bottom), Leg Extension (machine) - 1-second squeeze at the top, Dumbbell Concentration Curl · bonus exercises: Machine Reverse Fly (rear-delt pec deck)_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball FFE Split Squat/Lunge with Medball Hug / Medball Reverse Lunge with Forward Reach / Medball Reverse Lunge with Cross-Body Turn
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball RFE Split Squat (Bulgarian) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
 **Core**
-1. **Crunch** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knee/Leg Raise
-   - Swap for: Sit-Up / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Crunch)
-2. **Hanging Rotational Knee/Leg Raise** [A2] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Crunch
-   - per side = 1 set
-   - Swap for: Single-Leg Balance Reach (front / side / back) / Windshield Wipers / Break Dancers (bear/crab-position thread-through rotations) / Hip Turns (pelvis rotations)
-   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise)
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **DB Lateral Raise (Supinated / palms-up grip) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Upright Row / DB Lateral (Side) Raise / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)%20-%201-second%20squeeze%20at%20the%20top)
-2. **Leg Press (machine)** [B1] — 3 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Bent-Over Barbell Row (Supinated / Yates grip)
+1. **Bent-Over Barbell Row (Supinated / Yates grip)** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
+   - Swap for: Bent-Over Barbell Row (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row%20(Supinated%20%2F%20Yates%20grip)) · Name to copy into YouTube: `Bent-Over Barbell Row (Supinated / Yates grip)`
+2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
-   - Swap for: Hack Squat (machine) / Pendulum Squat (machine) / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine))
-3. **Bent-Over Barbell Row (Supinated / Yates grip)** [B2] — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Leg Press (machine)
-   - Then do its last set on its own
-   - Swap for: Bent-Over Barbell Row / Seal Row - DB (Supinated Grip) / Seal Row - DB (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row%20(Supinated%20%2F%20Yates%20grip))
-4. **Landmine Hack Squat** [C1] — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Rope Attachment)
-   - Swap for: Hack Squat (machine) / Landmine Squat / Double-KB Front-Rack Squat / Pendulum Squat (machine)
-   - [Watch how](https://www.youtube.com/results?search_query=Landmine%20Hack%20Squat)
-5. **Lat Pulldown (Rope Attachment)** [C2] — 4 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Landmine Hack Squat
-   - Then do its last set on its own
-   - Swap for: Lat Pulldown (Pronated / Overhand Grip) / Lat Pulldown (Wide MAG Grip) / Weighted Pull-Up / Strict Pull-Up (Feet in Front / hollow)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment))
+   - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Landmine Hack Squat (keeps the two-leg squat; loses the machine's support) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
+3. **Lat Pulldown (Rope Attachment) - 1-second squeeze at the top** — 5 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Weighted Pull-Up (keeps the vertical pull; loses the machine's support) / Pull-up (keeps the vertical pull; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment)) · Name to copy into YouTube: `Lat Pulldown (Rope Attachment)`
+4. **Stationary Lunge (Split Squat)** — 4 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses the body-weight control) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
 
 **Accessories**
-1. **Sissy Squat - holding a plate at the chest** [D1] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Seated Dumbbell Curl
-   - [Video](https://youtu.be/HW5yUsjKru4)
-2. **Seated Dumbbell Curl** [D2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Sissy Squat - holding a plate at the chest
-   - Swap for: Spider Curl (chest on incline bench) / Incline Dumbbell Curl ('pinky facing up' supinated variation) / Supine (Lying) Biceps Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Dumbbell%20Curl)
-3. **Machine Reverse Fly (rear-delt pec deck)** [E1] — 2 × 20 to 30 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly / Floor Prone Y / T Raises (bodyweight or light DBs) / Bent-Over DB Reverse Fly / Incline-Bench Prone DB T-Raise
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck))
-4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)** [E2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Machine Reverse Fly (rear-delt pec deck)
-   - Then do its last set on its own
-   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
-   - Swap for: Barbell Curl / Spider Curl (chest on incline bench) / Incline Dumbbell Curl ('pinky facing up' supinated variation) / EZ-Bar Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups))
-5. **Machine Calf Raise - one leg at a time** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise%20-%20one%20leg%20at%20a%20time)
-
-**Aerobic**
-1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+1. **Dumbbell Concentration Curl** — 4 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+2. **Leg Extension (machine) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - from a step (full stretch at the bottom)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Machine Reverse Fly (rear-delt pec deck) (bonus)** — 3 × 20 to 30 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 2 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · B2 - deadlift + push
-_about 77 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Even with the supersets marked today this day runs over your 75 min: switch off a block, or plan the extra minutes._
+_Average time: about 100-120 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Flat DB Bench Press - 1-second pause at the bottom + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Incline DB Bench Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee (about 5.5 min saved)_
+_Superset to save time: Cable Triceps Pushdown - straight bar, pronated grip + Lying Leg Curl (machine) - one leg at a time (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Lying Leg Curl (machine) - one leg at a time, Cable Triceps Pushdown - straight bar, pronated grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Hug**
-   - Swap for: Medball Stationary Lunge (Split Squat) with Medball Up / Medball Hug Goblet Squat / Medball RFE Split Squat (Bulgarian) with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Hug)
+2. **Medball Forward Lunge with Medball Up**
+   - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
 **Core**
-1. **V-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
-   - Swap for: Sit-Up / Crunch / Supermans / Butterfly Sit-up
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ V-Up
-   - Swap for: Swiss Ball Knee Tuck / Slider Runners (mountain-climber style) / Mountain Climber / Hip Raises ('hips raises')
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+1. **Side Plank (elbow)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Strength**
-1. **DB Upright Row** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Lateral (Side) Raise / Barbell Upright Row / DB Lateral Raise (Supinated / palms-up grip)
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row)
-2. **Hex (Trap) Bar Deadlift** [B1] — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Incline Barbell Bench Press - close grip (hands shoulder-width)
-   - Swap for: Sumo Deadlift / Barbell Deadlift (conventional) / Stiff-Leg Deadlift / RDL / Wide-Grip Barbell Deadlift
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-3. **Incline Barbell Bench Press - close grip (hands shoulder-width)** [B2] — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Hex (Trap) Bar Deadlift
-   - Then do its last set on its own
-   - Swap for: Flat DB Bench Press / Incline DB Bench Press / Machine Bench Press / Standing Cable Chest Press
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press%20-%20close%20grip%20(hands%20shoulder-width))
-4. **Staggered-Stance (Kickstand) DB Deadlift** [C1] — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Seesaw DB Press (alternating, one up / one down)
+1. **Cable Side Raise (leaning)** — 4 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
-   - Swap for: Alternating Staggered-Stance Single-Leg Deadlift (DB) / Rear-Foot-on-Wall DB Deadlift (RDL) / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-5. **Seesaw DB Press (alternating, one up / one down)** [C2] — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 1-2 min after the pair · SUPERSET W/ Staggered-Stance (Kickstand) DB Deadlift
+   - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
+2. **Flat DB Bench Press - 1-second pause at the bottom** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
+3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
+4. **Incline DB Bench Press** — 5 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+5. **Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Then do its last set on its own
-   - Swap for: Half-Kneeling Single-Arm Landmine Press / Alternating DB Overhead Press / Single-Arm DB Overhead Press / Half-Kneeling Single-Arm DB Press
-   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down))
+   > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
+   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Reverse Hyperextension - 1-second squeeze at the top (Focus)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Focus slot for your priority muscle
-   > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-2. **Cable Fly (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Extra exercise to reach your weekly sets
-   - Swap for: Flat DB Fly / Machine Fly (Pec Deck)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Fly)
-3. **Lying Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Machine Fly (Pec Deck) - 1-second squeeze at the top
-   - Swap for: Nordic Hamstring Curl / Seated Leg Curl (machine) / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine))
-4. **Machine Fly (Pec Deck) - 1-second squeeze at the top** [D2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Lying Leg Curl (machine)
-   - Then do its last set on its own
-   - Swap for: Cable Fly / Flat DB Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)%20-%201-second%20squeeze%20at%20the%20top)
-5. **Overhead Cable Triceps Extension - 1-second squeeze at the top** [E1] — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Barbell Calf Raise - from a step (full stretch at the bottom)
-   - Then do its last set on its own
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Cable Triceps Pushdown - straight bar, pronated grip / EZ-Bar Skullcrusher / Tate Press
-   - [Video](https://www.youtube.com/watch?v=kqidUIf1eJE)
-6. **Barbell Calf Raise - from a step (full stretch at the bottom)** [E2] — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 60-90 s after the pair · SUPERSET W/ Overhead Cable Triceps Extension - 1-second squeeze at the top
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise%20-%20from%20a%20step%20(full%20stretch%20at%20the%20bottom))
-7. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Swap for: Floor Dumbbell Skullcrusher / Cable Triceps Pushdown - straight bar, pronated grip / Cable Triceps Pushdown - straight bar, supinated (reverse) grip
-   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension)
+1. **Cable Triceps Pushdown - straight bar, pronated grip** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, pronated grip`
+2. **Lying Leg Curl (machine) - one leg at a time** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Optional day
-_about 56 min_
+_Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Barbell Upright Row + EZ-Bar Skullcrusher (about 3.5 min saved)_
+_Superset to save time: DB Upright Row + Machine Calf Raise - 1-second squeeze at the top (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - 1-second squeeze at the top, DB Upright Row, Incline / Side-Lying Cable Lateral Raise · bonus exercises: Machine Fly (Pec Deck), Overhead Cable Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 30-60 s rest
-   - Swap for: Crunch / Sit-Up / Reverse Crunch / Knees to Chest (hanging)
-   - [Video](https://youtu.be/VpEcj96HO4k)
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Accessories**
-1. **Cable Pull-Through - 1-second squeeze at the top (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Incline / Side-Lying Cable Lateral Raise (Focus)** — 2 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
    - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Hip Thrust (machine) / Sandbag Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **DB Lateral (Side) Raise (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Swap for: Cable Side Raise (leaning) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise) · Name to copy into YouTube: `Incline / Side-Lying Cable Lateral Raise`
+2. **DB Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-3. **Barbell Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) / DB Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Upright%20Row)
-4. **EZ-Bar Skullcrusher (bonus)** — 2 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Keep this lift at 10-12 reps.
+   - Swap for: Seated DB Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row) · Name to copy into YouTube: `DB Upright Row`
+3. **Machine Calf Raise - 1-second squeeze at the top** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Overhead Cable Triceps Extension (bonus)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Tate Press / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher)
-5. **Dumbbell Hammer Curl (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
+5. **Machine Fly (Pec Deck) (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Seated Dumbbell Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation) / Spider Curl (chest on incline bench) / Supine (Lying) Biceps Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl)
+   - Swap for: Flat DB Fly (keeps the chest isolation; loses the machine's support) / Cable Fly (keeps the chest isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)) · Name to copy into YouTube: `Machine Fly (Pec Deck)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
@@ -3395,357 +3689,380 @@ _Superset to save time: Barbell Upright Row + EZ-Bar Skullcrusher (about 3.5 min
 _Week level: 9 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- +1 set on Cable Side Raise (leaning) (Monday)
-- +1 set on Barbell Bench Press (Tuesday)
-- +1 set on Lat Pulldown (Pronated / Overhand Grip) (Monday)
+- +1 set on Leg Extension (machine) (Thursday)
+- +1 set on Barbell Hip Thrust (Tuesday)
+- +1 set on Machine Row (Close / Neutral Grip) (Wednesday)
+- +1 set on Machine Fly (Pec Deck) (Saturday)
 
 ### Monday · A1 - squat + pull
-_about 76 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Even with the supersets marked today this day runs over your 75 min: switch off a block, or plan the extra minutes._
+_Average time: about 85-105 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 7 min saved)_
+_Superset to save time: Supine (Lying) Biceps Curl + Leg Extension (machine) (about 6 min saved)_
+_Superset to save time: Machine Calf Raise - 1-second squeeze at the top + Seated (Chest-to-Thighs) DB Reverse Fly (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - 1-second squeeze at the top, Leg Extension (machine), Supine (Lying) Biceps Curl · bonus exercises: Seated (Chest-to-Thighs) DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Hug Goblet Squat**
-   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Held Forward / Medball Reverse Lunge with Down-and-Back Cross-Body Reach / Medball Reverse Lunge with Medball Up
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Hug%20Goblet%20Squat)
+2. **Medball Stationary Lunge (Split Squat) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
 **Core**
-1. **Plank (forearm / low plank)** [A1] — 2 × 30-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Streamline Hold (hollow body, arms locked overhead) / Hollow Rocks / High Plank (straight-arm plank) / L-Sit Hold
-   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Copenhagen Plank** [A2] — 2 × 30-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Plank (forearm / low plank)
+1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Side Plank Press (advanced: star side plank press) / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Strength**
-1. **Seated DB Lateral Raise - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Swap for: DB Lateral (Side) Raise / DB Upright Row / DB Lateral Raise (Supinated / palms-up grip) / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise%20-%201-second%20squeeze%20at%20the%20top)
-2. **High-Bar Back Squat** [B1] — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Seal Row - Barbell (Supinated Grip)
-   - Swap for: Front Squat (barbell) / Zercher Squat (barbell) / Box Zercher Squat (touch-and-go) / Flipped Hex Bar Squat (low handles, longer range)
-   - [Video](https://youtu.be/i7J5h7BJ07g)
-3. **Seal Row - Barbell (Supinated Grip)** [B2] — 4 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ High-Bar Back Squat
-   - Then do its last set on its own
-   - Swap for: Seal Row - Barbell (Pronated Grip) / Seal Row - DB (Supinated Grip) / Machine Row (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip))
-4. **Pendulum Squat (machine)** [C1] — 3 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Pronated / Overhand Grip)
-   - Swap for: Hack Squat (machine) / Leg Press (machine) / Goblet Squat (Heels Elevated) / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Pendulum%20Squat%20(machine))
-5. **Lat Pulldown (Pronated / Overhand Grip)** [C2] — 5 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Pendulum Squat (machine)
-   - Then do its last 2 sets on their own
-   - Swap for: Lat Pulldown (Close Grip) / Lat Pulldown (Supinated / Underhand Grip) / Weighted Pull-Up / Strict Pull-Up (Feet Behind)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Pronated%20%2F%20Overhand%20Grip))
+1. **Seal Row - Barbell (Supinated Grip)** — 5 × 10 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Close / Neutral Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
+2. **Front Squat (barbell)** — 4 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
+3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 5 × 10 to 15 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 15 per side on every set with 1-2 left in the tank, add weight next time and start again at 10.
+   - per side = 1 set
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 4 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)) · Name to copy into YouTube: `Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)`
 
 **Accessories**
-1. **Leg Extension (machine)** [D1] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Dumbbell Concentration Curl
-   - Swap for: DB Leg Extension (seated on box)
-   - [Video](https://youtu.be/m0FOpMEgero)
-2. **Dumbbell Concentration Curl** [D2] — 3 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Leg Extension (machine)
-   - per side = 1 set
-   - Swap for: Cross-Body Dumbbell Hammer Curl / Single-Arm DB Preacher Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl)
-3. **Cable Side Raise (leaning)** [E1] — 3 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Supine (Lying) Biceps Curl
-   - per side = 1 set
-   - Swap for: Incline / Side-Lying Cable Lateral Raise
-   - [Video](https://www.youtube.com/watch?v=lq7eLC30b9w)
-4. **Supine (Lying) Biceps Curl** [E2] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Cable Side Raise (leaning)
-   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) / Spider Curl (chest on incline bench) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl)
-5. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Swap for: Barbell Calf Raise / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
-
-**Aerobic**
-1. **Blue (A): short / high intensity · treadmill** — 17 min · 40 s run / 20 s walk, repeat
-   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
+1. **Supine (Lying) Biceps Curl** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+2. **Leg Extension (machine)** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Barbell Calf Raise (keeps the calf work; loses the machine's support) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Seated (Chest-to-Thighs) DB Reverse Fly (bonus)** — 3 × 20 to 30 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 1-2 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · B1 - hip thrust + push
-_about 76 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Even with the supersets marked today this day runs over your 75 min: switch off a block, or plan the extra minutes._
+_Average time: about 105-130 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Crunch + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
+_Superset to save time: Barbell Bench Press + Barbell Hip Thrust (about 8.5 min saved)_
+_Superset to save time: Incline Barbell Bench Press - 1-second pause at the bottom + Rear-Foot-on-Wall DB Deadlift (RDL) (about 5.5 min saved)_
+_Superset to save time: EZ-Bar Skullcrusher - 1-second squeeze at the top + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Seated Leg Curl (machine), EZ-Bar Skullcrusher - 1-second squeeze at the top · bonus exercises: Cable Triceps Pushdown - straight bar, supinated (reverse) grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball Forward Lunge with Overhead Reach / Medball FFE Split Squat/Lunge with Medball Up / Medball Forward Lunge with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball Forward Lunge with Overhead Reach**
+   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
 **Core**
-1. **Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knees-to-Chest (hanging oblique knee raise)
-   - Swap for: Crunch / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up)
-2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** [A2] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Sit-Up
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bear Crawl / Hip Turns (pelvis rotations) / Flutter Kicks / Windshield Wipers
-   - [Video](https://youtu.be/L1rt7qr5LCk)
+   - Swap for: Star V-Ups (cross-body / diagonal V-ups) (keeps the core work; loses little - same movement, another grip or position) / Single-Leg Toes to Bar (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses the same trunk action - this one trains the core another way) / Windshield Wipers (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knees-to-Chest%20(hanging%20oblique%20knee%20raise)) · Name to copy into YouTube: `Hanging Rotational Knees-to-Chest (hanging oblique knee raise)`
 
 **Strength**
-1. **Incline / Side-Lying Cable Lateral Raise** — 2 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Seated DB Lateral Raise** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
+2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 1-2 left in the tank, add weight next time.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
+3. **Barbell Hip Thrust** — 5 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
+4. **Incline Barbell Bench Press - 1-second pause at the bottom** — 5 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Incline DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / High-Incline DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press) · Name to copy into YouTube: `Incline Barbell Bench Press`
+5. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 3 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Cable Side Raise (leaning)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise)
-2. **Barbell Hip Thrust** [B1] — 5 × 12/10/8/8/20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Barbell Bench Press - 1-second pause at the bottom
-   - Swap for: Hip Thrust (machine) / Reverse Hyperextension / Dumbbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust)
-3. **Barbell Bench Press - 1-second pause at the bottom** [B2] — 5 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Barbell Hip Thrust
-   - Swap for: Incline Barbell Bench Press / Incline DB Bench Press / Flat DB Bench Press / Machine Bench Press
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press%20-%201-second%20pause%20at%20the%20bottom)
-4. **45-Degree Hyperextension (back/hip extension)** [C1] — 2 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Standing Barbell Overhead Press (strict) - 1-second pause at the bottom
-   - Swap for: Dumbbell Deadlift / Good Morning (machine) / GHD - Glute-Ham Developer (hip extension / glute-ham raise) / Single-Kettlebell Deadlift
-   - [Video](https://youtu.be/tsP0eYPsoiE)
-5. **Standing Barbell Overhead Press (strict) - 1-second pause at the bottom** [C2] — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ 45-Degree Hyperextension (back/hip extension)
-   - Then do its last set on its own
-   - Swap for: High-Incline Seated Barbell Press / Standing DB Overhead Press / High-Incline DB Press / Tall-Kneeling Barbell Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict)%20-%201-second%20pause%20at%20the%20bottom)
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
-1. **Cable Pull-Through (Focus)** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **Seated Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Flat DB Fly
-   - Swap for: Lying Leg Curl (machine) / Nordic Hamstring Curl / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
-3. **Flat DB Fly** [D2] — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Seated Leg Curl (machine)
-   - Then do its last 2 sets on their own
-   - Swap for: Machine Fly (Pec Deck) / Cable Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
-4. **Tate Press** [E1] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Standing DB Calf Raise (deficit optional)
-   - Swap for: EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher / Overhead Dumbbell Triceps Extension / Overhead Cable Triceps Extension
-   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press)
-5. **Standing DB Calf Raise (deficit optional)** [E2] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Tate Press
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
-6. **Cable Triceps Push-down** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher
-   - [Video](https://youtu.be/hp7ktB-sjoo)
+1. **EZ-Bar Skullcrusher - 1-second squeeze at the top** — 4 × 10 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses the heavier barbell load) / Tate Press (keeps the triceps work; loses the heavier barbell load) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher) · Name to copy into YouTube: `EZ-Bar Skullcrusher`
+2. **Seated Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
+3. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip (bonus)** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Optional day
-_about 66 min_
+_Average time: about 50-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Hip Thrust (machine) + Cable Triceps Pushdown - straight bar, pronated grip (about 3.5 min saved)_
+_Superset to save time: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top + Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Reverse Hyperextension, Hip Thrust (machine) · bonus exercises: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups), Machine Row (Close / Neutral Grip)_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Hanging Rotational Knees-to-Chest (hanging oblique knee raise) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees / Russian Twist
-   - [Video](https://www.youtube.com/watch?v=Gq7ToKnOC1Q)
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
 
 **Accessories**
-1. **Dumbbell Hip Thrust (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Machine Row (Close / Neutral Grip) (bonus)** — 3 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 10.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: High Row (machine) (keeps the horizontal pull; loses the top-end load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the machine's support) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Row%20(Close%20%2F%20Neutral%20Grip)) · Name to copy into YouTube: `Machine Row (Close / Neutral Grip)`
+2. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Barbell Hip Thrust / Glute Bridge / Hip Thrust or Glute Bridge (either)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hip%20Thrust)
-2. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the machine's support) / Dumbbell Hip Thrust (keeps the glute work; loses the machine's support) / Barbell Hip Thrust (keeps the glute work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine)) · Name to copy into YouTube: `Hip Thrust (machine)`
+3. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
    > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-3. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Barbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine))
-4. **Cable Triceps Pushdown - straight bar, pronated grip (bonus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Barbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Glute Bridge (keeps the glute work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Hyperextension) · Name to copy into YouTube: `Reverse Hyperextension`
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+5. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (bonus)** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Tate Press / Overhead Cable Triceps Extension / EZ-Bar Skullcrusher
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip)
-5. **Spider Curl (chest on incline bench) (bonus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) / Supine (Lying) Biceps Curl / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench))
+   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
+   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses the constant cable tension) / Spider Curl (chest on incline bench) (keeps the biceps work; loses the constant cable tension) / Seated Dumbbell Curl (keeps the biceps work; loses the constant cable tension) / Supine (Lying) Biceps Curl (keeps the biceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)) · Name to copy into YouTube: `Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+1. **Blue (A): short / high intensity · treadmill** — 17 min · 40 s run / 20 s walk, repeat
+   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
-_about 69 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 85-105 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Sit-Up + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bent-Over Barbell Row (Supinated / Yates grip) + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Lat Pulldown (Rope Attachment) - 1-second squeeze at the top + Stationary Lunge (Split Squat) (about 7 min saved)_
+_Superset to save time: Dumbbell Concentration Curl + Leg Extension (machine) - 1-second squeeze at the top (about 6 min saved)_
+_Superset to save time: Machine Calf Raise - from a step (full stretch at the bottom) + Machine Reverse Fly (rear-delt pec deck) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - from a step (full stretch at the bottom), Leg Extension (machine) - 1-second squeeze at the top, Dumbbell Concentration Curl · bonus exercises: Machine Reverse Fly (rear-delt pec deck)_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball FFE Split Squat/Lunge with Medball Hug / Medball Reverse Lunge with Forward Reach / Medball Reverse Lunge with Cross-Body Turn
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball RFE Split Squat (Bulgarian) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
 **Core**
-1. **Crunch** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knee/Leg Raise
-   - Swap for: Sit-Up / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Crunch)
-2. **Hanging Rotational Knee/Leg Raise** [A2] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Crunch
-   - per side = 1 set
-   - Swap for: Single-Leg Balance Reach (front / side / back) / Windshield Wipers / Break Dancers (bear/crab-position thread-through rotations) / Hip Turns (pelvis rotations)
-   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise)
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **DB Lateral Raise (Supinated / palms-up grip) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Upright Row / DB Lateral (Side) Raise / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)%20-%201-second%20squeeze%20at%20the%20top)
-2. **Leg Press (machine)** [B1] — 3 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Bent-Over Barbell Row (Supinated / Yates grip)
+1. **Bent-Over Barbell Row (Supinated / Yates grip)** — 5 × 12/10/8/8/20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 1-2 left in the tank, add weight next time.
+   - Swap for: Bent-Over Barbell Row (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row%20(Supinated%20%2F%20Yates%20grip)) · Name to copy into YouTube: `Bent-Over Barbell Row (Supinated / Yates grip)`
+2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 10.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
-   - Swap for: Hack Squat (machine) / Pendulum Squat (machine) / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine))
-3. **Bent-Over Barbell Row (Supinated / Yates grip)** [B2] — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Leg Press (machine)
-   - Then do its last set on its own
-   - Swap for: Bent-Over Barbell Row / Seal Row - DB (Supinated Grip) / Seal Row - DB (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row%20(Supinated%20%2F%20Yates%20grip))
-4. **Landmine Hack Squat** [C1] — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Rope Attachment)
-   - Swap for: Hack Squat (machine) / Landmine Squat / Double-KB Front-Rack Squat / Pendulum Squat (machine)
-   - [Watch how](https://www.youtube.com/results?search_query=Landmine%20Hack%20Squat)
-5. **Lat Pulldown (Rope Attachment)** [C2] — 4 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Landmine Hack Squat
-   - Then do its last set on its own
-   - Swap for: Lat Pulldown (Pronated / Overhand Grip) / Lat Pulldown (Wide MAG Grip) / Weighted Pull-Up / Strict Pull-Up (Feet in Front / hollow)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment))
+   - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Landmine Hack Squat (keeps the two-leg squat; loses the machine's support) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
+3. **Lat Pulldown (Rope Attachment) - 1-second squeeze at the top** — 5 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 10.
+   - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Weighted Pull-Up (keeps the vertical pull; loses the machine's support) / Pull-up (keeps the vertical pull; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment)) · Name to copy into YouTube: `Lat Pulldown (Rope Attachment)`
+4. **Stationary Lunge (Split Squat)** — 4 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses the body-weight control) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
 
 **Accessories**
-1. **Sissy Squat - holding a plate at the chest** [D1] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Seated Dumbbell Curl
-   - [Video](https://youtu.be/HW5yUsjKru4)
-2. **Seated Dumbbell Curl** [D2] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Sissy Squat - holding a plate at the chest
-   - Swap for: Spider Curl (chest on incline bench) / Incline Dumbbell Curl ('pinky facing up' supinated variation) / Supine (Lying) Biceps Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Dumbbell%20Curl)
-3. **Machine Reverse Fly (rear-delt pec deck)** [E1] — 2 × 20 to 30 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly / Floor Prone Y / T Raises (bodyweight or light DBs) / Bent-Over DB Reverse Fly / Incline-Bench Prone DB T-Raise
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck))
-4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)** [E2] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Machine Reverse Fly (rear-delt pec deck)
-   - Then do its last set on its own
-   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
-   - Swap for: Barbell Curl / Spider Curl (chest on incline bench) / Incline Dumbbell Curl ('pinky facing up' supinated variation) / EZ-Bar Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups))
-5. **Machine Calf Raise - one leg at a time** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise%20-%20one%20leg%20at%20a%20time)
-
-**Aerobic**
-1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+1. **Dumbbell Concentration Curl** — 4 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+2. **Leg Extension (machine) - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - from a step (full stretch at the bottom)** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Machine Reverse Fly (rear-delt pec deck) (bonus)** — 3 × 20 to 30 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 1-2 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · B2 - deadlift + push
-_about 77 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Even with the supersets marked today this day runs over your 75 min: switch off a block, or plan the extra minutes._
+_Average time: about 100-120 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Flat DB Bench Press - 1-second pause at the bottom + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Incline DB Bench Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee (about 5.5 min saved)_
+_Superset to save time: Cable Triceps Pushdown - straight bar, pronated grip + Lying Leg Curl (machine) - one leg at a time (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Lying Leg Curl (machine) - one leg at a time, Cable Triceps Pushdown - straight bar, pronated grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Hug**
-   - Swap for: Medball Stationary Lunge (Split Squat) with Medball Up / Medball Hug Goblet Squat / Medball RFE Split Squat (Bulgarian) with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Hug)
+2. **Medball Forward Lunge with Medball Up**
+   - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
 **Core**
-1. **V-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
-   - Swap for: Sit-Up / Crunch / Supermans / Butterfly Sit-up
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ V-Up
-   - Swap for: Swiss Ball Knee Tuck / Slider Runners (mountain-climber style) / Mountain Climber / Hip Raises ('hips raises')
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+1. **Side Plank (elbow)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Strength**
-1. **DB Upright Row** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Lateral (Side) Raise / Barbell Upright Row / DB Lateral Raise (Supinated / palms-up grip)
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row)
-2. **Hex (Trap) Bar Deadlift** [B1] — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Incline Barbell Bench Press - close grip (hands shoulder-width)
-   - Swap for: Sumo Deadlift / Barbell Deadlift (conventional) / Stiff-Leg Deadlift / RDL / Wide-Grip Barbell Deadlift
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-3. **Incline Barbell Bench Press - close grip (hands shoulder-width)** [B2] — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Hex (Trap) Bar Deadlift
-   - Then do its last set on its own
-   - Swap for: Flat DB Bench Press / Incline DB Bench Press / Machine Bench Press / Standing Cable Chest Press
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press%20-%20close%20grip%20(hands%20shoulder-width))
-4. **Staggered-Stance (Kickstand) DB Deadlift** [C1] — 2 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Seesaw DB Press (alternating, one up / one down)
+1. **Cable Side Raise (leaning)** — 4 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
-   - Swap for: Alternating Staggered-Stance Single-Leg Deadlift (DB) / Rear-Foot-on-Wall DB Deadlift (RDL) / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-5. **Seesaw DB Press (alternating, one up / one down)** [C2] — 3 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Staggered-Stance (Kickstand) DB Deadlift
+   - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
+2. **Flat DB Bench Press - 1-second pause at the bottom** — 5 × 12/10/8/8/20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 1-2 left in the tank, add weight next time.
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
+3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
+4. **Incline DB Bench Press** — 5 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+5. **Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee** — 3 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Then do its last set on its own
-   - Swap for: Half-Kneeling Single-Arm Landmine Press / Alternating DB Overhead Press / Single-Arm DB Overhead Press / Half-Kneeling Single-Arm DB Press
-   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down))
+   > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
+   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Reverse Hyperextension - 1-second squeeze at the top (Focus)** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Focus slot for your priority muscle
-   > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-2. **Cable Fly (bonus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Extra exercise to reach your weekly sets
-   - Swap for: Flat DB Fly / Machine Fly (Pec Deck)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Fly)
-3. **Lying Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Machine Fly (Pec Deck) - 1-second squeeze at the top
-   - Swap for: Nordic Hamstring Curl / Seated Leg Curl (machine) / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine))
-4. **Machine Fly (Pec Deck) - 1-second squeeze at the top** [D2] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Lying Leg Curl (machine)
-   - Then do its last set on its own
-   - Swap for: Cable Fly / Flat DB Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)%20-%201-second%20squeeze%20at%20the%20top)
-5. **Overhead Cable Triceps Extension - 1-second squeeze at the top** [E1] — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Barbell Calf Raise - from a step (full stretch at the bottom)
-   - Then do its last set on its own
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Cable Triceps Pushdown - straight bar, pronated grip / EZ-Bar Skullcrusher / Tate Press
-   - [Video](https://www.youtube.com/watch?v=kqidUIf1eJE)
-6. **Barbell Calf Raise - from a step (full stretch at the bottom)** [E2] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Overhead Cable Triceps Extension - 1-second squeeze at the top
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise%20-%20from%20a%20step%20(full%20stretch%20at%20the%20bottom))
-7. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Swap for: Floor Dumbbell Skullcrusher / Cable Triceps Pushdown - straight bar, pronated grip / Cable Triceps Pushdown - straight bar, supinated (reverse) grip
-   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension)
+1. **Cable Triceps Pushdown - straight bar, pronated grip** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, pronated grip`
+2. **Lying Leg Curl (machine) - one leg at a time** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Optional day
-_about 56 min_
+_Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Barbell Upright Row + EZ-Bar Skullcrusher (about 3.5 min saved)_
+_Superset to save time: DB Upright Row + Machine Calf Raise - 1-second squeeze at the top (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - 1-second squeeze at the top, DB Upright Row, Incline / Side-Lying Cable Lateral Raise · bonus exercises: Machine Fly (Pec Deck), Overhead Cable Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 30-60 s rest
-   - Swap for: Crunch / Sit-Up / Reverse Crunch / Knees to Chest (hanging)
-   - [Video](https://youtu.be/VpEcj96HO4k)
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Accessories**
-1. **Cable Pull-Through - 1-second squeeze at the top (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Incline / Side-Lying Cable Lateral Raise (Focus)** — 2 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
    - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Hip Thrust (machine) / Sandbag Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **DB Lateral (Side) Raise (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Swap for: Cable Side Raise (leaning) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise) · Name to copy into YouTube: `Incline / Side-Lying Cable Lateral Raise`
+2. **DB Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-3. **Barbell Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) / DB Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Upright%20Row)
-4. **EZ-Bar Skullcrusher (bonus)** — 2 × 10 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Keep this lift at 10-12 reps.
+   - Swap for: Seated DB Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row) · Name to copy into YouTube: `DB Upright Row`
+3. **Machine Calf Raise - 1-second squeeze at the top** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Overhead Cable Triceps Extension (bonus)** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Tate Press / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher)
-5. **Dumbbell Hammer Curl (bonus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
+5. **Machine Fly (Pec Deck) (bonus)** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Seated Dumbbell Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation) / Spider Curl (chest on incline bench) / Supine (Lying) Biceps Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl)
+   - Swap for: Flat DB Fly (keeps the chest isolation; loses the machine's support) / Cable Fly (keeps the chest isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)) · Name to copy into YouTube: `Machine Fly (Pec Deck)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
@@ -3758,356 +4075,381 @@ _Superset to save time: Barbell Upright Row + EZ-Bar Skullcrusher (about 3.5 min
 _Week level: 10 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- +1 set on High-Bar Back Squat (Monday)
-- +1 set on Machine Fly (Pec Deck) (Friday)
-- +1 set on Bent-Over Barbell Row (Supinated / Yates grip) (Thursday)
+- +1 set on Front Squat (barbell) (Monday)
+- +1 set on Lying Leg Curl (machine) (Friday)
+- +1 set on Seated DB Lateral Raise (Tuesday)
+- +1 set on Cable Triceps Pushdown - straight bar, pronated grip (Friday)
+- +1 set on Machine Calf Raise (Saturday)
 
 ### Monday · A1 - squat + pull
-_about 76 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Even with the supersets marked today this day runs over your 75 min: switch off a block, or plan the extra minutes._
+_Average time: about 90-110 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 8.5 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 7 min saved)_
+_Superset to save time: Supine (Lying) Biceps Curl + Leg Extension (machine) (about 6 min saved)_
+_Superset to save time: Machine Calf Raise - 1-second squeeze at the top + Seated (Chest-to-Thighs) DB Reverse Fly (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - 1-second squeeze at the top, Leg Extension (machine), Supine (Lying) Biceps Curl · bonus exercises: Seated (Chest-to-Thighs) DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Hug Goblet Squat**
-   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Held Forward / Medball Reverse Lunge with Down-and-Back Cross-Body Reach / Medball Reverse Lunge with Medball Up
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Hug%20Goblet%20Squat)
+2. **Medball Stationary Lunge (Split Squat) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
 **Core**
-1. **Plank (forearm / low plank)** [A1] — 2 × 30-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Streamline Hold (hollow body, arms locked overhead) / Hollow Rocks / High Plank (straight-arm plank) / L-Sit Hold
-   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Copenhagen Plank** [A2] — 2 × 30-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Plank (forearm / low plank)
+1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Side Plank Press (advanced: star side plank press) / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Strength**
-1. **Seated DB Lateral Raise - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Swap for: DB Lateral (Side) Raise / DB Upright Row / DB Lateral Raise (Supinated / palms-up grip) / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise%20-%201-second%20squeeze%20at%20the%20top)
-2. **High-Bar Back Squat** [B1] — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Seal Row - Barbell (Supinated Grip)
-   - Swap for: Front Squat (barbell) / Zercher Squat (barbell) / Box Zercher Squat (touch-and-go) / Flipped Hex Bar Squat (low handles, longer range)
-   - [Video](https://youtu.be/i7J5h7BJ07g)
-3. **Seal Row - Barbell (Supinated Grip)** [B2] — 4 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ High-Bar Back Squat
-   - Swap for: Seal Row - Barbell (Pronated Grip) / Seal Row - DB (Supinated Grip) / Machine Row (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip))
-4. **Pendulum Squat (machine)** [C1] — 3 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Pronated / Overhand Grip)
-   - Swap for: Hack Squat (machine) / Leg Press (machine) / Goblet Squat (Heels Elevated) / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Pendulum%20Squat%20(machine))
-5. **Lat Pulldown (Pronated / Overhand Grip)** [C2] — 5 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Pendulum Squat (machine)
-   - Then do its last 2 sets on their own
-   - Swap for: Lat Pulldown (Close Grip) / Lat Pulldown (Supinated / Underhand Grip) / Weighted Pull-Up / Strict Pull-Up (Feet Behind)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Pronated%20%2F%20Overhand%20Grip))
+1. **Seal Row - Barbell (Supinated Grip)** — 5 × 10 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Close / Neutral Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
+2. **Front Squat (barbell)** — 5 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
+3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 5 × 10 to 15 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 15 per side on every set with 1-2 left in the tank, add weight next time and start again at 10.
+   - per side = 1 set
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 4 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)) · Name to copy into YouTube: `Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)`
 
 **Accessories**
-1. **Leg Extension (machine)** [D1] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Dumbbell Concentration Curl
-   - Swap for: DB Leg Extension (seated on box)
-   - [Video](https://youtu.be/m0FOpMEgero)
-2. **Dumbbell Concentration Curl** [D2] — 3 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Leg Extension (machine)
-   - per side = 1 set
-   - Swap for: Cross-Body Dumbbell Hammer Curl / Single-Arm DB Preacher Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl)
-3. **Cable Side Raise (leaning)** [E1] — 3 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Supine (Lying) Biceps Curl
-   - per side = 1 set
-   - Swap for: Incline / Side-Lying Cable Lateral Raise
-   - [Video](https://www.youtube.com/watch?v=lq7eLC30b9w)
-4. **Supine (Lying) Biceps Curl** [E2] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Cable Side Raise (leaning)
-   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) / Spider Curl (chest on incline bench) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl)
-5. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Swap for: Barbell Calf Raise / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
-
-**Aerobic**
-1. **Blue (A): short / high intensity · treadmill** — 18 min · 40 s run / 20 s walk, repeat
-   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
+1. **Supine (Lying) Biceps Curl** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+2. **Leg Extension (machine)** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Barbell Calf Raise (keeps the calf work; loses the machine's support) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Seated (Chest-to-Thighs) DB Reverse Fly (bonus)** — 3 × 20 to 30 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 1-2 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · B1 - hip thrust + push
-_about 76 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Even with the supersets marked today this day runs over your 75 min: switch off a block, or plan the extra minutes._
+_Average time: about 110-135 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Crunch + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
+_Superset to save time: Barbell Bench Press + Barbell Hip Thrust (about 8.5 min saved)_
+_Superset to save time: Incline Barbell Bench Press - 1-second pause at the bottom + Rear-Foot-on-Wall DB Deadlift (RDL) (about 5.5 min saved)_
+_Superset to save time: EZ-Bar Skullcrusher - 1-second squeeze at the top + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Seated Leg Curl (machine), EZ-Bar Skullcrusher - 1-second squeeze at the top · bonus exercises: Cable Triceps Pushdown - straight bar, supinated (reverse) grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball Forward Lunge with Overhead Reach / Medball FFE Split Squat/Lunge with Medball Up / Medball Forward Lunge with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball Forward Lunge with Overhead Reach**
+   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
 **Core**
-1. **Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knees-to-Chest (hanging oblique knee raise)
-   - Swap for: Crunch / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up)
-2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** [A2] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Sit-Up
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bear Crawl / Hip Turns (pelvis rotations) / Flutter Kicks / Windshield Wipers
-   - [Video](https://youtu.be/L1rt7qr5LCk)
+   - Swap for: Star V-Ups (cross-body / diagonal V-ups) (keeps the core work; loses little - same movement, another grip or position) / Single-Leg Toes to Bar (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses the same trunk action - this one trains the core another way) / Windshield Wipers (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knees-to-Chest%20(hanging%20oblique%20knee%20raise)) · Name to copy into YouTube: `Hanging Rotational Knees-to-Chest (hanging oblique knee raise)`
 
 **Strength**
-1. **Incline / Side-Lying Cable Lateral Raise** — 2 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Seated DB Lateral Raise** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
+2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 1-2 left in the tank, add weight next time.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
+3. **Barbell Hip Thrust** — 5 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
+4. **Incline Barbell Bench Press - 1-second pause at the bottom** — 5 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Incline DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / High-Incline DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press) · Name to copy into YouTube: `Incline Barbell Bench Press`
+5. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 3 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Cable Side Raise (leaning)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise)
-2. **Barbell Hip Thrust** [B1] — 5 × 12/10/8/8/20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Barbell Bench Press - 1-second pause at the bottom
-   - Swap for: Hip Thrust (machine) / Reverse Hyperextension / Dumbbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust)
-3. **Barbell Bench Press - 1-second pause at the bottom** [B2] — 5 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Barbell Hip Thrust
-   - Swap for: Incline Barbell Bench Press / Incline DB Bench Press / Flat DB Bench Press / Machine Bench Press
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press%20-%201-second%20pause%20at%20the%20bottom)
-4. **45-Degree Hyperextension (back/hip extension)** [C1] — 2 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Standing Barbell Overhead Press (strict) - 1-second pause at the bottom
-   - Swap for: Dumbbell Deadlift / Good Morning (machine) / GHD - Glute-Ham Developer (hip extension / glute-ham raise) / Single-Kettlebell Deadlift
-   - [Video](https://youtu.be/tsP0eYPsoiE)
-5. **Standing Barbell Overhead Press (strict) - 1-second pause at the bottom** [C2] — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ 45-Degree Hyperextension (back/hip extension)
-   - Then do its last set on its own
-   - Swap for: High-Incline Seated Barbell Press / Standing DB Overhead Press / High-Incline DB Press / Tall-Kneeling Barbell Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict)%20-%201-second%20pause%20at%20the%20bottom)
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
-1. **Cable Pull-Through (Focus)** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **Seated Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Flat DB Fly
-   - Swap for: Lying Leg Curl (machine) / Nordic Hamstring Curl / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
-3. **Flat DB Fly** [D2] — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Seated Leg Curl (machine)
-   - Then do its last 2 sets on their own
-   - Swap for: Machine Fly (Pec Deck) / Cable Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
-4. **Tate Press** [E1] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Standing DB Calf Raise (deficit optional)
-   - Swap for: EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher / Overhead Dumbbell Triceps Extension / Overhead Cable Triceps Extension
-   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press)
-5. **Standing DB Calf Raise (deficit optional)** [E2] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Tate Press
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
-6. **Cable Triceps Push-down** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher
-   - [Video](https://youtu.be/hp7ktB-sjoo)
+1. **EZ-Bar Skullcrusher - 1-second squeeze at the top** — 4 × 10 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses the heavier barbell load) / Tate Press (keeps the triceps work; loses the heavier barbell load) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher) · Name to copy into YouTube: `EZ-Bar Skullcrusher`
+2. **Seated Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
+3. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip (bonus)** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Optional day
-_about 66 min_
+_Average time: about 50-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Hip Thrust (machine) + Cable Triceps Pushdown - straight bar, pronated grip (about 3.5 min saved)_
+_Superset to save time: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top + Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Reverse Hyperextension, Hip Thrust (machine) · bonus exercises: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups), Machine Row (Close / Neutral Grip)_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Hanging Rotational Knees-to-Chest (hanging oblique knee raise) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees / Russian Twist
-   - [Video](https://www.youtube.com/watch?v=Gq7ToKnOC1Q)
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
 
 **Accessories**
-1. **Dumbbell Hip Thrust (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Machine Row (Close / Neutral Grip) (bonus)** — 3 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 10.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: High Row (machine) (keeps the horizontal pull; loses the top-end load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the machine's support) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Row%20(Close%20%2F%20Neutral%20Grip)) · Name to copy into YouTube: `Machine Row (Close / Neutral Grip)`
+2. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Barbell Hip Thrust / Glute Bridge / Hip Thrust or Glute Bridge (either)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hip%20Thrust)
-2. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the machine's support) / Dumbbell Hip Thrust (keeps the glute work; loses the machine's support) / Barbell Hip Thrust (keeps the glute work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine)) · Name to copy into YouTube: `Hip Thrust (machine)`
+3. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
    > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-3. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Barbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine))
-4. **Cable Triceps Pushdown - straight bar, pronated grip (bonus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Barbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Glute Bridge (keeps the glute work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Hyperextension) · Name to copy into YouTube: `Reverse Hyperextension`
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+5. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (bonus)** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Tate Press / Overhead Cable Triceps Extension / EZ-Bar Skullcrusher
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip)
-5. **Spider Curl (chest on incline bench) (bonus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) / Supine (Lying) Biceps Curl / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench))
+   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
+   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses the constant cable tension) / Spider Curl (chest on incline bench) (keeps the biceps work; loses the constant cable tension) / Seated Dumbbell Curl (keeps the biceps work; loses the constant cable tension) / Supine (Lying) Biceps Curl (keeps the biceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)) · Name to copy into YouTube: `Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+1. **Blue (A): short / high intensity · treadmill** — 18 min · 40 s run / 20 s walk, repeat
+   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
-_about 71 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 85-105 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Sit-Up + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bent-Over Barbell Row (Supinated / Yates grip) + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Lat Pulldown (Rope Attachment) - 1-second squeeze at the top + Stationary Lunge (Split Squat) (about 7 min saved)_
+_Superset to save time: Dumbbell Concentration Curl + Leg Extension (machine) - 1-second squeeze at the top (about 6 min saved)_
+_Superset to save time: Machine Calf Raise - from a step (full stretch at the bottom) + Machine Reverse Fly (rear-delt pec deck) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - from a step (full stretch at the bottom), Leg Extension (machine) - 1-second squeeze at the top, Dumbbell Concentration Curl · bonus exercises: Machine Reverse Fly (rear-delt pec deck)_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball FFE Split Squat/Lunge with Medball Hug / Medball Reverse Lunge with Forward Reach / Medball Reverse Lunge with Cross-Body Turn
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball RFE Split Squat (Bulgarian) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
 **Core**
-1. **Crunch** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knee/Leg Raise
-   - Swap for: Sit-Up / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Crunch)
-2. **Hanging Rotational Knee/Leg Raise** [A2] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Crunch
-   - per side = 1 set
-   - Swap for: Single-Leg Balance Reach (front / side / back) / Windshield Wipers / Break Dancers (bear/crab-position thread-through rotations) / Hip Turns (pelvis rotations)
-   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise)
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **DB Lateral Raise (Supinated / palms-up grip) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Upright Row / DB Lateral (Side) Raise / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)%20-%201-second%20squeeze%20at%20the%20top)
-2. **Leg Press (machine)** [B1] — 3 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Bent-Over Barbell Row (Supinated / Yates grip)
+1. **Bent-Over Barbell Row (Supinated / Yates grip)** — 5 × 12/10/8/8/20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 1-2 left in the tank, add weight next time.
+   - Swap for: Bent-Over Barbell Row (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row%20(Supinated%20%2F%20Yates%20grip)) · Name to copy into YouTube: `Bent-Over Barbell Row (Supinated / Yates grip)`
+2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 10.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
-   - Swap for: Hack Squat (machine) / Pendulum Squat (machine) / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine))
-3. **Bent-Over Barbell Row (Supinated / Yates grip)** [B2] — 5 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Leg Press (machine)
-   - Then do its last 2 sets on their own
-   - Swap for: Bent-Over Barbell Row / Seal Row - DB (Supinated Grip) / Seal Row - DB (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row%20(Supinated%20%2F%20Yates%20grip))
-4. **Landmine Hack Squat** [C1] — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Rope Attachment)
-   - Swap for: Hack Squat (machine) / Landmine Squat / Double-KB Front-Rack Squat / Pendulum Squat (machine)
-   - [Watch how](https://www.youtube.com/results?search_query=Landmine%20Hack%20Squat)
-5. **Lat Pulldown (Rope Attachment)** [C2] — 4 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Landmine Hack Squat
-   - Then do its last set on its own
-   - Swap for: Lat Pulldown (Pronated / Overhand Grip) / Lat Pulldown (Wide MAG Grip) / Weighted Pull-Up / Strict Pull-Up (Feet in Front / hollow)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment))
+   - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Landmine Hack Squat (keeps the two-leg squat; loses the machine's support) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
+3. **Lat Pulldown (Rope Attachment) - 1-second squeeze at the top** — 5 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 10.
+   - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Weighted Pull-Up (keeps the vertical pull; loses the machine's support) / Pull-up (keeps the vertical pull; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment)) · Name to copy into YouTube: `Lat Pulldown (Rope Attachment)`
+4. **Stationary Lunge (Split Squat)** — 4 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses the body-weight control) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
 
 **Accessories**
-1. **Sissy Squat - holding a plate at the chest** [D1] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Seated Dumbbell Curl
-   - [Video](https://youtu.be/HW5yUsjKru4)
-2. **Seated Dumbbell Curl** [D2] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Sissy Squat - holding a plate at the chest
-   - Swap for: Spider Curl (chest on incline bench) / Incline Dumbbell Curl ('pinky facing up' supinated variation) / Supine (Lying) Biceps Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Dumbbell%20Curl)
-3. **Machine Reverse Fly (rear-delt pec deck)** [E1] — 2 × 20 to 30 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly / Floor Prone Y / T Raises (bodyweight or light DBs) / Bent-Over DB Reverse Fly / Incline-Bench Prone DB T-Raise
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck))
-4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)** [E2] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Machine Reverse Fly (rear-delt pec deck)
-   - Then do its last set on its own
-   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
-   - Swap for: Barbell Curl / Spider Curl (chest on incline bench) / Incline Dumbbell Curl ('pinky facing up' supinated variation) / EZ-Bar Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups))
-5. **Machine Calf Raise - one leg at a time** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise%20-%20one%20leg%20at%20a%20time)
-
-**Aerobic**
-1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+1. **Dumbbell Concentration Curl** — 4 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+2. **Leg Extension (machine) - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - from a step (full stretch at the bottom)** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Machine Reverse Fly (rear-delt pec deck) (bonus)** — 3 × 20 to 30 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 30 on every set with 1-2 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · B2 - deadlift + push
-_about 79 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Even with the supersets marked today this day runs over your 75 min: switch off a block, or plan the extra minutes._
+_Average time: about 105-125 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Flat DB Bench Press - 1-second pause at the bottom + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Incline DB Bench Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee (about 5.5 min saved)_
+_Superset to save time: Cable Triceps Pushdown - straight bar, pronated grip + Lying Leg Curl (machine) - one leg at a time (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Lying Leg Curl (machine) - one leg at a time, Cable Triceps Pushdown - straight bar, pronated grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Hug**
-   - Swap for: Medball Stationary Lunge (Split Squat) with Medball Up / Medball Hug Goblet Squat / Medball RFE Split Squat (Bulgarian) with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Hug)
+2. **Medball Forward Lunge with Medball Up**
+   - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
 **Core**
-1. **V-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
-   - Swap for: Sit-Up / Crunch / Supermans / Butterfly Sit-up
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ V-Up
-   - Swap for: Swiss Ball Knee Tuck / Slider Runners (mountain-climber style) / Mountain Climber / Hip Raises ('hips raises')
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+1. **Side Plank (elbow)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Strength**
-1. **DB Upright Row** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Lateral (Side) Raise / Barbell Upright Row / DB Lateral Raise (Supinated / palms-up grip)
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row)
-2. **Hex (Trap) Bar Deadlift** [B1] — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Incline Barbell Bench Press - close grip (hands shoulder-width)
-   - Swap for: Sumo Deadlift / Barbell Deadlift (conventional) / Stiff-Leg Deadlift / RDL / Wide-Grip Barbell Deadlift
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-3. **Incline Barbell Bench Press - close grip (hands shoulder-width)** [B2] — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Hex (Trap) Bar Deadlift
-   - Then do its last set on its own
-   - Swap for: Flat DB Bench Press / Incline DB Bench Press / Machine Bench Press / Standing Cable Chest Press
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press%20-%20close%20grip%20(hands%20shoulder-width))
-4. **Staggered-Stance (Kickstand) DB Deadlift** [C1] — 2 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Seesaw DB Press (alternating, one up / one down)
+1. **Cable Side Raise (leaning)** — 4 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
-   - Swap for: Alternating Staggered-Stance Single-Leg Deadlift (DB) / Rear-Foot-on-Wall DB Deadlift (RDL) / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-5. **Seesaw DB Press (alternating, one up / one down)** [C2] — 3 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 1-2 min after the pair · SUPERSET W/ Staggered-Stance (Kickstand) DB Deadlift
+   - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
+2. **Flat DB Bench Press - 1-second pause at the bottom** — 5 × 12/10/8/8/20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 1-2 left in the tank, add weight next time.
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
+3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
+4. **Incline DB Bench Press** — 5 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+5. **Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee** — 3 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Then do its last set on its own
-   - Swap for: Half-Kneeling Single-Arm Landmine Press / Alternating DB Overhead Press / Single-Arm DB Overhead Press / Half-Kneeling Single-Arm DB Press
-   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down))
+   > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
+   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Reverse Hyperextension - 1-second squeeze at the top (Focus)** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Focus slot for your priority muscle
-   > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-2. **Cable Fly (bonus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Extra exercise to reach your weekly sets
-   - Swap for: Flat DB Fly / Machine Fly (Pec Deck)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Fly)
-3. **Lying Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Machine Fly (Pec Deck) - 1-second squeeze at the top
-   - Swap for: Nordic Hamstring Curl / Seated Leg Curl (machine) / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine))
-4. **Machine Fly (Pec Deck) - 1-second squeeze at the top** [D2] — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Lying Leg Curl (machine)
-   - Then do its last 2 sets on their own
-   - Swap for: Cable Fly / Flat DB Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)%20-%201-second%20squeeze%20at%20the%20top)
-5. **Overhead Cable Triceps Extension - 1-second squeeze at the top** [E1] — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Barbell Calf Raise - from a step (full stretch at the bottom)
-   - Then do its last set on its own
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Cable Triceps Pushdown - straight bar, pronated grip / EZ-Bar Skullcrusher / Tate Press
-   - [Video](https://www.youtube.com/watch?v=kqidUIf1eJE)
-6. **Barbell Calf Raise - from a step (full stretch at the bottom)** [E2] — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · rest 60-90 s after the pair · SUPERSET W/ Overhead Cable Triceps Extension - 1-second squeeze at the top
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise%20-%20from%20a%20step%20(full%20stretch%20at%20the%20bottom))
-7. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Swap for: Floor Dumbbell Skullcrusher / Cable Triceps Pushdown - straight bar, pronated grip / Cable Triceps Pushdown - straight bar, supinated (reverse) grip
-   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension)
+1. **Cable Triceps Pushdown - straight bar, pronated grip** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, pronated grip`
+2. **Lying Leg Curl (machine) - one leg at a time** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Optional day
-_about 56 min_
+_Average time: about 55-70 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Barbell Upright Row + EZ-Bar Skullcrusher (about 3.5 min saved)_
+_Superset to save time: DB Upright Row + Machine Calf Raise - 1-second squeeze at the top (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - 1-second squeeze at the top, DB Upright Row, Incline / Side-Lying Cable Lateral Raise · bonus exercises: Machine Fly (Pec Deck), Overhead Cable Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 30-60 s rest
-   - Swap for: Crunch / Sit-Up / Reverse Crunch / Knees to Chest (hanging)
-   - [Video](https://youtu.be/VpEcj96HO4k)
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Accessories**
-1. **Cable Pull-Through - 1-second squeeze at the top (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Incline / Side-Lying Cable Lateral Raise (Focus)** — 2 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
    - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Hip Thrust (machine) / Sandbag Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **DB Lateral (Side) Raise (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Swap for: Cable Side Raise (leaning) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise) · Name to copy into YouTube: `Incline / Side-Lying Cable Lateral Raise`
+2. **DB Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-3. **Barbell Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) / DB Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Upright%20Row)
-4. **EZ-Bar Skullcrusher (bonus)** — 2 × 10 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Keep this lift at 10-12 reps.
+   - Swap for: Seated DB Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row) · Name to copy into YouTube: `DB Upright Row`
+3. **Machine Calf Raise - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Overhead Cable Triceps Extension (bonus)** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Tate Press / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher)
-5. **Dumbbell Hammer Curl (bonus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
+5. **Machine Fly (Pec Deck) (bonus)** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Seated Dumbbell Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation) / Spider Curl (chest on incline bench) / Supine (Lying) Biceps Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl)
+   - Swap for: Flat DB Fly (keeps the chest isolation; loses the machine's support) / Cable Fly (keeps the chest isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)) · Name to copy into YouTube: `Machine Fly (Pec Deck)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
@@ -4119,361 +4461,381 @@ _Superset to save time: Barbell Upright Row + EZ-Bar Skullcrusher (about 3.5 min
 
 _Week level: 11 of 11 (2 = the start, 11 = a little past your limits)_
 
-_Last week: one intensifier on each of these days (Monday, Tuesday, Wednesday, Thursday, Friday and Saturday): a MYO set on the day's last small-muscle or machine exercise_
+_Last week: one intensifier on each of these days (Monday, Tuesday, Thursday and Friday): a MYO set on the day's last small-muscle or machine exercise_
 
 **What changes this week**
-- +1 set on Cable Pull-Through (Saturday)
-- +1 set on Leg Press (machine) (Thursday)
-- +1 set on Incline Barbell Bench Press (Friday)
-- +1 set on Lat Pulldown (Rope Attachment) (Thursday)
-- +1 set on Barbell Calf Raise (Friday)
-- +1 set on Cable Triceps Pushdown - straight bar, pronated grip (Wednesday)
+- +1 set on Machine Row (Close / Neutral Grip) (Wednesday)
+- +1 set on Machine Fly (Pec Deck) (Saturday)
+- +1 set on Incline / Side-Lying Cable Lateral Raise (Saturday)
+- +1 set on Overhead Cable Triceps Extension (Saturday)
 
 ### Monday · A1 - squat + pull
-_about 76 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Even with the supersets marked today this day runs over your 75 min: switch off a block, or plan the extra minutes._
+_Average time: about 90-110 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 8.5 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 7 min saved)_
+_Superset to save time: Supine (Lying) Biceps Curl + Leg Extension (machine) (about 6 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - 1-second squeeze at the top, Leg Extension (machine), Supine (Lying) Biceps Curl · bonus exercises: Seated (Chest-to-Thighs) DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Hug Goblet Squat**
-   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Held Forward / Medball Reverse Lunge with Down-and-Back Cross-Body Reach / Medball Reverse Lunge with Medball Up
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Hug%20Goblet%20Squat)
+2. **Medball Stationary Lunge (Split Squat) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
 **Core**
-1. **Plank (forearm / low plank)** [A1] — 2 × 30-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Streamline Hold (hollow body, arms locked overhead) / Hollow Rocks / High Plank (straight-arm plank) / L-Sit Hold
-   - [Video](https://www.youtube.com/watch?v=wq6N_PjU5fA)
-2. **Copenhagen Plank** [A2] — 2 × 30-60 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Plank (forearm / low plank)
+1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Side Plank Press (advanced: star side plank press) / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Strength**
-1. **Seated DB Lateral Raise - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
-   - Swap for: DB Lateral (Side) Raise / DB Upright Row / DB Lateral Raise (Supinated / palms-up grip) / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise%20-%201-second%20squeeze%20at%20the%20top)
-2. **High-Bar Back Squat** [B1] — 4 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ Seal Row - Barbell (Supinated Grip)
-   - Swap for: Front Squat (barbell) / Zercher Squat (barbell) / Box Zercher Squat (touch-and-go) / Flipped Hex Bar Squat (low handles, longer range)
-   - [Video](https://youtu.be/i7J5h7BJ07g)
-3. **Seal Row - Barbell (Supinated Grip)** [B2] — 4 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ High-Bar Back Squat
-   - Swap for: Seal Row - Barbell (Pronated Grip) / Seal Row - DB (Supinated Grip) / Machine Row (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip))
-4. **Pendulum Squat (machine)** [C1] — 3 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Pronated / Overhand Grip)
-   - Swap for: Hack Squat (machine) / Leg Press (machine) / Goblet Squat (Heels Elevated) / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Pendulum%20Squat%20(machine))
-5. **Lat Pulldown (Pronated / Overhand Grip)** [C2] — 5 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ Pendulum Squat (machine)
-   - Then do its last 2 sets on their own
-   - Swap for: Lat Pulldown (Close Grip) / Lat Pulldown (Supinated / Underhand Grip) / Weighted Pull-Up / Strict Pull-Up (Feet Behind)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Pronated%20%2F%20Overhand%20Grip))
+1. **Seal Row - Barbell (Supinated Grip)** — 5 × 10 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Close / Neutral Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
+2. **Front Squat (barbell)** — 5 × 8-10 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 1 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
+3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 5 × 10 to 15 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 15 per side on every set with 1 left in the tank, add weight next time and start again at 10.
+   - per side = 1 set
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 4 × 8 to 12 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 1 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)) · Name to copy into YouTube: `Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)`
 
 **Accessories**
-1. **Leg Extension (machine)** [D1] — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Dumbbell Concentration Curl
-   - Swap for: DB Leg Extension (seated on box)
-   - [Video](https://youtu.be/m0FOpMEgero)
-2. **Dumbbell Concentration Curl** [D2] — 3 × 15 to 20 per side · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Leg Extension (machine)
-   - per side = 1 set
-   - Swap for: Cross-Body Dumbbell Hammer Curl / Single-Arm DB Preacher Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl)
-3. **Cable Side Raise (leaning)** [E1] — 3 × 15 to 20 per side · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Supine (Lying) Biceps Curl
-   - per side = 1 set
-   - Swap for: Incline / Side-Lying Cable Lateral Raise
-   - [Video](https://www.youtube.com/watch?v=lq7eLC30b9w)
-4. **Supine (Lying) Biceps Curl** [E2] — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Cable Side Raise (leaning)
-   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) / Spider Curl (chest on incline bench) / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl)
-5. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set · 60-90 s rest
-   - Swap for: Barbell Calf Raise / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise)
-
-**Aerobic**
-1. **Blue (A): short / high intensity · treadmill** — 20 min · 40 s run / 20 s walk, repeat
-   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
+1. **Supine (Lying) Biceps Curl** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+2. **Leg Extension (machine)** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
+   - Swap for: Barbell Calf Raise (keeps the calf work; loses the machine's support) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Seated (Chest-to-Thighs) DB Reverse Fly (bonus)** — 3 × 20 to 30 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+   - Progress: when you hit 30 on every set with 1 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · B1 - hip thrust + push
-_about 76 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Even with the supersets marked today this day runs over your 75 min: switch off a block, or plan the extra minutes._
+_Average time: about 110-135 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Crunch + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
+_Superset to save time: Barbell Bench Press + Barbell Hip Thrust (about 8.5 min saved)_
+_Superset to save time: Incline Barbell Bench Press - 1-second pause at the bottom + Rear-Foot-on-Wall DB Deadlift (RDL) (about 5.5 min saved)_
+_Superset to save time: EZ-Bar Skullcrusher - 1-second squeeze at the top + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Seated Leg Curl (machine), EZ-Bar Skullcrusher - 1-second squeeze at the top · bonus exercises: Cable Triceps Pushdown - straight bar, supinated (reverse) grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball Forward Lunge with Overhead Reach / Medball FFE Split Squat/Lunge with Medball Up / Medball Forward Lunge with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball Forward Lunge with Overhead Reach**
+   - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
 **Core**
-1. **Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knees-to-Chest (hanging oblique knee raise)
-   - Swap for: Crunch / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up)
-2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** [A2] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Sit-Up
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knees-to-Chest (hanging oblique knee raise)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bear Crawl / Hip Turns (pelvis rotations) / Flutter Kicks / Windshield Wipers
-   - [Video](https://youtu.be/L1rt7qr5LCk)
+   - Swap for: Star V-Ups (cross-body / diagonal V-ups) (keeps the core work; loses little - same movement, another grip or position) / Single-Leg Toes to Bar (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses the same trunk action - this one trains the core another way) / Windshield Wipers (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knees-to-Chest%20(hanging%20oblique%20knee%20raise)) · Name to copy into YouTube: `Hanging Rotational Knees-to-Chest (hanging oblique knee raise)`
 
 **Strength**
-1. **Incline / Side-Lying Cable Lateral Raise** — 2 × 15 to 20 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+1. **Seated DB Lateral Raise** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
+2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 1 left in the tank, add weight next time.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
+3. **Barbell Hip Thrust** — 5 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 8.
+   - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
+4. **Incline Barbell Bench Press - 1-second pause at the bottom** — 5 × 8-10 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 1 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Incline DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / High-Incline DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press) · Name to copy into YouTube: `Incline Barbell Bench Press`
+5. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 3 × 8 to 12 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 1 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Cable Side Raise (leaning)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise)
-2. **Barbell Hip Thrust** [B1] — 5 × 12/10/8/8/20 · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ Barbell Bench Press - 1-second pause at the bottom
-   - Swap for: Hip Thrust (machine) / Reverse Hyperextension / Dumbbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust)
-3. **Barbell Bench Press - 1-second pause at the bottom** [B2] — 5 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ Barbell Hip Thrust
-   - Swap for: Incline Barbell Bench Press / Incline DB Bench Press / Flat DB Bench Press / Machine Bench Press
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press%20-%201-second%20pause%20at%20the%20bottom)
-4. **45-Degree Hyperextension (back/hip extension)** [C1] — 2 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ Standing Barbell Overhead Press (strict) - 1-second pause at the bottom
-   - Swap for: Dumbbell Deadlift / Good Morning (machine) / GHD - Glute-Ham Developer (hip extension / glute-ham raise) / Single-Kettlebell Deadlift
-   - [Video](https://youtu.be/tsP0eYPsoiE)
-5. **Standing Barbell Overhead Press (strict) - 1-second pause at the bottom** [C2] — 3 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ 45-Degree Hyperextension (back/hip extension)
-   - Then do its last set on its own
-   - Swap for: High-Incline Seated Barbell Press / Standing DB Overhead Press / High-Incline DB Press / Tall-Kneeling Barbell Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict)%20-%201-second%20pause%20at%20the%20bottom)
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
-1. **Cable Pull-Through (Focus)** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **Seated Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Flat DB Fly
-   - Swap for: Lying Leg Curl (machine) / Nordic Hamstring Curl / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine))
-3. **Flat DB Fly** [D2] — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Seated Leg Curl (machine)
-   - Then do its last 2 sets on their own
-   - Swap for: Machine Fly (Pec Deck) / Cable Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Fly)
-4. **Tate Press** [E1] — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Standing DB Calf Raise (deficit optional)
-   - Swap for: EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher / Overhead Dumbbell Triceps Extension / Overhead Cable Triceps Extension
-   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press)
-5. **Standing DB Calf Raise (deficit optional)** [E2] — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Tate Press
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
-6. **Cable Triceps Push-down** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set · 60-90 s rest
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / EZ-Bar Skullcrusher / Floor Dumbbell Skullcrusher
-   - [Video](https://youtu.be/hp7ktB-sjoo)
+1. **EZ-Bar Skullcrusher - 1-second squeeze at the top** — 4 × 10 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses the heavier barbell load) / Tate Press (keeps the triceps work; loses the heavier barbell load) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher) · Name to copy into YouTube: `EZ-Bar Skullcrusher`
+2. **Seated Leg Curl (machine)** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
+   - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
+3. **Cable Triceps Pushdown - straight bar, supinated (reverse) grip (bonus)** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Optional day
-_about 67 min_
+_Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Hip Thrust (machine) + Cable Triceps Pushdown - straight bar, pronated grip (about 3.5 min saved)_
+_Superset to save time: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top + Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Reverse Hyperextension, Hip Thrust (machine) · bonus exercises: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups), Machine Row (Close / Neutral Grip)_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Hanging Rotational Knees-to-Chest (hanging oblique knee raise) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees / Russian Twist
-   - [Video](https://www.youtube.com/watch?v=Gq7ToKnOC1Q)
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
 
 **Accessories**
-1. **Dumbbell Hip Thrust (Focus)** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+1. **Machine Row (Close / Neutral Grip) (bonus)** — 4 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 10.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: High Row (machine) (keeps the horizontal pull; loses the top-end load) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the machine's support) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Row%20(Close%20%2F%20Neutral%20Grip)) · Name to copy into YouTube: `Machine Row (Close / Neutral Grip)`
+2. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Barbell Hip Thrust / Glute Bridge / Hip Thrust or Glute Bridge (either)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hip%20Thrust)
-2. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the machine's support) / Dumbbell Hip Thrust (keeps the glute work; loses the machine's support) / Barbell Hip Thrust (keeps the glute work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine)) · Name to copy into YouTube: `Hip Thrust (machine)`
+3. **Reverse Hyperextension (Focus)** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
    > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-3. **Hip Thrust (machine) (Focus)** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Barbell Hip Thrust / Glute Bridge
-   - [Watch how](https://www.youtube.com/results?search_query=Hip%20Thrust%20(machine))
-4. **Cable Triceps Pushdown - straight bar, pronated grip (bonus)** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Swap for: Cable Pull-Through (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Barbell Hip Thrust (keeps the glute work; loses the feel of the original implement) / Glute Bridge (keeps the glute work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Hyperextension) · Name to copy into YouTube: `Reverse Hyperextension`
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+5. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (bonus)** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Tate Press / Overhead Cable Triceps Extension / EZ-Bar Skullcrusher
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip)
-5. **Spider Curl (chest on incline bench) (bonus)** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set · 60-90 s rest
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) / Supine (Lying) Biceps Curl / Seated Dumbbell Curl / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench))
+   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
+   - Swap for: Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses the constant cable tension) / Spider Curl (chest on incline bench) (keeps the biceps work; loses the constant cable tension) / Seated Dumbbell Curl (keeps the biceps work; loses the constant cable tension) / Supine (Lying) Biceps Curl (keeps the biceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)) · Name to copy into YouTube: `Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+1. **Blue (A): short / high intensity · treadmill** — 20 min · 40 s run / 20 s walk, repeat
+   - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
-_about 74 min_
-_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
-_Supersets marked today keep you inside 75 min._
+_Average time: about 85-105 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Sit-Up + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bent-Over Barbell Row (Supinated / Yates grip) + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Lat Pulldown (Rope Attachment) - 1-second squeeze at the top + Stationary Lunge (Split Squat) (about 7 min saved)_
+_Superset to save time: Dumbbell Concentration Curl + Leg Extension (machine) - 1-second squeeze at the top (about 6 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - from a step (full stretch at the bottom), Leg Extension (machine) - 1-second squeeze at the top, Dumbbell Concentration Curl · bonus exercises: Machine Reverse Fly (rear-delt pec deck)_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Held Forward**
-   - Swap for: Medball FFE Split Squat/Lunge with Medball Hug / Medball Reverse Lunge with Forward Reach / Medball Reverse Lunge with Cross-Body Turn
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Held%20Forward)
+2. **Medball RFE Split Squat (Bulgarian) with Medball Held Forward**
+   - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
 **Core**
-1. **Crunch** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Hanging Rotational Knee/Leg Raise
-   - Swap for: Sit-Up / V-Up / Butterfly Sit-up / Supermans
-   - [Watch how](https://www.youtube.com/results?search_query=Crunch)
-2. **Hanging Rotational Knee/Leg Raise** [A2] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Crunch
-   - per side = 1 set
-   - Swap for: Single-Leg Balance Reach (front / side / back) / Windshield Wipers / Break Dancers (bear/crab-position thread-through rotations) / Hip Turns (pelvis rotations)
-   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise)
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **DB Lateral Raise (Supinated / palms-up grip) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Upright Row / DB Lateral (Side) Raise / Barbell Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)%20-%201-second%20squeeze%20at%20the%20top)
-2. **Leg Press (machine)** [B1] — 4 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ Bent-Over Barbell Row (Supinated / Yates grip)
+1. **Bent-Over Barbell Row (Supinated / Yates grip)** — 5 × 12/10/8/8/20 · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 1 left in the tank, add weight next time.
+   - Swap for: Bent-Over Barbell Row (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row%20(Supinated%20%2F%20Yates%20grip)) · Name to copy into YouTube: `Bent-Over Barbell Row (Supinated / Yates grip)`
+2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 10.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
-   - Swap for: Hack Squat (machine) / Pendulum Squat (machine) / Double-KB Front-Rack Squat
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine))
-3. **Bent-Over Barbell Row (Supinated / Yates grip)** [B2] — 5 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ Leg Press (machine)
-   - Then do its last set on its own
-   - Swap for: Bent-Over Barbell Row / Seal Row - DB (Supinated Grip) / Seal Row - DB (Pronated Grip) / Machine Row (Close / Neutral Grip)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row%20(Supinated%20%2F%20Yates%20grip))
-4. **Landmine Hack Squat** [C1] — 3 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ Lat Pulldown (Rope Attachment)
-   - Swap for: Hack Squat (machine) / Landmine Squat / Double-KB Front-Rack Squat / Pendulum Squat (machine)
-   - [Watch how](https://www.youtube.com/results?search_query=Landmine%20Hack%20Squat)
-5. **Lat Pulldown (Rope Attachment)** [C2] — 5 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ Landmine Hack Squat
-   - Then do its last 2 sets on their own
-   - Swap for: Lat Pulldown (Pronated / Overhand Grip) / Lat Pulldown (Wide MAG Grip) / Weighted Pull-Up / Strict Pull-Up (Feet in Front / hollow)
-   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment))
+   - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Landmine Hack Squat (keeps the two-leg squat; loses the machine's support) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
+3. **Lat Pulldown (Rope Attachment) - 1-second squeeze at the top** — 5 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 10.
+   - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses little - same movement, another grip or position) / Weighted Pull-Up (keeps the vertical pull; loses the machine's support) / Pull-up (keeps the vertical pull; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Lat%20Pulldown%20(Rope%20Attachment)) · Name to copy into YouTube: `Lat Pulldown (Rope Attachment)`
+4. **Stationary Lunge (Split Squat)** — 4 × 8 to 12 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 1 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
+   - Swap for: Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses the body-weight control) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
 
 **Accessories**
-1. **Sissy Squat - holding a plate at the chest** [D1] — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Seated Dumbbell Curl
-   - [Video](https://youtu.be/HW5yUsjKru4)
-2. **Seated Dumbbell Curl** [D2] — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Sissy Squat - holding a plate at the chest
-   - Swap for: Spider Curl (chest on incline bench) / Incline Dumbbell Curl ('pinky facing up' supinated variation) / Supine (Lying) Biceps Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Dumbbell%20Curl)
-3. **Machine Reverse Fly (rear-delt pec deck)** [E1] — 2 × 20 to 30 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly / Floor Prone Y / T Raises (bodyweight or light DBs) / Bent-Over DB Reverse Fly / Incline-Bench Prone DB T-Raise
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck))
-4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)** [E2] — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Machine Reverse Fly (rear-delt pec deck)
-   - Then do its last set on its own
-   > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
-   - Swap for: Barbell Curl / Spider Curl (chest on incline bench) / Incline Dumbbell Curl ('pinky facing up' supinated variation) / EZ-Bar Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups))
-5. **Machine Calf Raise - one leg at a time** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set · 60-90 s rest
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) / Standing DB Calf Raise (deficit optional)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise%20-%20one%20leg%20at%20a%20time)
-
-**Aerobic**
-1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
-   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - Separate session: any time of day (not added to your lifting time).
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
+1. **Dumbbell Concentration Curl** — 4 × 15 to 20 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 1 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
+   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+2. **Leg Extension (machine) - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise - from a step (full stretch at the bottom)** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Machine Reverse Fly (rear-delt pec deck) (bonus)** — 3 × 20 to 30 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+   - Progress: when you hit 30 on every set with 1 left in the tank, add weight next time and start again at 20.
+   - Bonus exercise to reach your weekly sets
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · B2 - deadlift + push
-_about 82 min_
-_You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
-_Even with the supersets marked today this day runs over your 75 min: switch off a block, or plan the extra minutes._
+_Average time: about 105-125 min (an estimate, for information only)_
+_You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Flat DB Bench Press - 1-second pause at the bottom + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Incline DB Bench Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee (about 5.5 min saved)_
+_Superset to save time: Cable Triceps Pushdown - straight bar, pronated grip + Lying Leg Curl (machine) - one leg at a time (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Lying Leg Curl (machine) - one leg at a time, Cable Triceps Pushdown - straight bar, pronated grip_
 
 **Warm-up**
 1. 5 min any cardio
-2. **Medball Reverse Lunge with Medball Hug**
-   - Swap for: Medball Stationary Lunge (Split Squat) with Medball Up / Medball Hug Goblet Squat / Medball RFE Split Squat (Bulgarian) with Reach Down Over the Front Leg
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Reverse%20Lunge%20with%20Medball%20Hug)
+2. **Medball Forward Lunge with Medball Up**
+   - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
 **Core**
-1. **V-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
-   - Swap for: Sit-Up / Crunch / Supermans / Butterfly Sit-up
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ V-Up
-   - Swap for: Swiss Ball Knee Tuck / Slider Runners (mountain-climber style) / Mountain Climber / Hip Raises ('hips raises')
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+1. **Side Plank (elbow)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Strength**
-1. **DB Upright Row** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
-   - Swap for: Seated DB Lateral Raise / DB Lateral (Side) Raise / Barbell Upright Row / DB Lateral Raise (Supinated / palms-up grip)
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row)
-2. **Hex (Trap) Bar Deadlift** [B1] — 3 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ Incline Barbell Bench Press - close grip (hands shoulder-width)
-   - Swap for: Sumo Deadlift / Barbell Deadlift (conventional) / Stiff-Leg Deadlift / RDL / Wide-Grip Barbell Deadlift
-   - [Video](https://youtu.be/1jC_nqcSCp8)
-3. **Incline Barbell Bench Press - close grip (hands shoulder-width)** [B2] — 5 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ Hex (Trap) Bar Deadlift
-   - Then do its last 2 sets on their own
-   - Swap for: Flat DB Bench Press / Incline DB Bench Press / Machine Bench Press / Standing Cable Chest Press
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20Barbell%20Bench%20Press%20-%20close%20grip%20(hands%20shoulder-width))
-4. **Staggered-Stance (Kickstand) DB Deadlift** [C1] — 2 × 8 to 12 per side · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ Seesaw DB Press (alternating, one up / one down)
+1. **Cable Side Raise (leaning)** — 4 × 15 to 20 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 1 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
-   - Swap for: Alternating Staggered-Stance Single-Leg Deadlift (DB) / Rear-Foot-on-Wall DB Deadlift (RDL) / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Video](https://youtube.com/shorts/avUPBq-FrDU?feature=share)
-5. **Seesaw DB Press (alternating, one up / one down)** [C2] — 3 × 8 to 12 per side · leave 1 in the tank (1 RIR, RPE 9) · rest 1-2 min after the pair · SUPERSET W/ Staggered-Stance (Kickstand) DB Deadlift
+   - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
+2. **Flat DB Bench Press - 1-second pause at the bottom** — 5 × 12/10/8/8/20 · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit the written reps on every set with 1 left in the tank, add weight next time.
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
+3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 1 left in the tank, add weight next time and start again at 8.
+   - Keep this lift at 8-10 reps.
+   - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
+4. **Incline DB Bench Press** — 5 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 8.
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Barbell Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle) / DB Z-Press (seated on floor) (keeps the same job in the session; loses the incline angle)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+5. **Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee** — 3 × 8 to 12 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 1 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Then do its last set on its own
-   - Swap for: Half-Kneeling Single-Arm Landmine Press / Alternating DB Overhead Press / Single-Arm DB Overhead Press / Half-Kneeling Single-Arm DB Press
-   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down))
+   > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
+   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Reverse Hyperextension - 1-second squeeze at the top (Focus)** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
-   - Focus slot for your priority muscle
-   > Use it if your gym has one and you feel your glutes and hamstrings doing the work.
-   - Swap for: Cable Pull-Through / Dumbbell Hip Thrust / Hip Thrust (machine) / Glute Bridge
-   - [Video](https://youtu.be/3vmbvoT2m-U)
-2. **Cable Fly (bonus)** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
-   - Extra exercise to reach your weekly sets
-   - Swap for: Flat DB Fly / Machine Fly (Pec Deck)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Fly)
-3. **Lying Leg Curl (machine)** [D1] — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Machine Fly (Pec Deck) - 1-second squeeze at the top
-   - Swap for: Nordic Hamstring Curl / Seated Leg Curl (machine) / Prone Dumbbell Hamstring Curl (DB between feet) / Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine))
-4. **Machine Fly (Pec Deck) - 1-second squeeze at the top** [D2] — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Lying Leg Curl (machine)
-   - Then do its last 2 sets on their own
-   - Swap for: Cable Fly / Flat DB Fly
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)%20-%201-second%20squeeze%20at%20the%20top)
-5. **Overhead Cable Triceps Extension - 1-second squeeze at the top** [E1] — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Barbell Calf Raise - from a step (full stretch at the bottom)
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Cable Triceps Pushdown - straight bar, pronated grip / EZ-Bar Skullcrusher / Tate Press
-   - [Video](https://www.youtube.com/watch?v=kqidUIf1eJE)
-6. **Barbell Calf Raise - from a step (full stretch at the bottom)** [E2] — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · rest 60-90 s after the pair · SUPERSET W/ Overhead Cable Triceps Extension - 1-second squeeze at the top
-   - Swap for: Machine Calf Raise / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise%20-%20from%20a%20step%20(full%20stretch%20at%20the%20bottom))
-7. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set · 60-90 s rest
-   - Swap for: Floor Dumbbell Skullcrusher / Cable Triceps Pushdown - straight bar, pronated grip / Cable Triceps Pushdown - straight bar, supinated (reverse) grip
-   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension)
+1. **Cable Triceps Pushdown - straight bar, pronated grip** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, pronated grip`
+2. **Lying Leg Curl (machine) - one leg at a time** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
+
+**Aerobic**
+1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
+   - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
+   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Optional day
-_about 57 min_
+_Average time: about 60-75 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Barbell Upright Row + EZ-Bar Skullcrusher (about 3.5 min saved)_
+_Superset to save time: DB Upright Row + Machine Calf Raise - 1-second squeeze at the top (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Machine Calf Raise - 1-second squeeze at the top, DB Upright Row, Incline / Side-Lying Cable Lateral Raise · bonus exercises: Machine Fly (Pec Deck), Overhead Cable Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
 
 **Core**
-1. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 30-60 s rest
-   - Swap for: Crunch / Sit-Up / Reverse Crunch / Knees to Chest (hanging)
-   - [Video](https://youtu.be/VpEcj96HO4k)
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Accessories**
-1. **Cable Pull-Through - 1-second squeeze at the top (Focus)** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+1. **Incline / Side-Lying Cable Lateral Raise (Focus)** — 3 × 15 to 20 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 per side on every set with 1 left in the tank, add weight next time and start again at 15.
+   - per side = 1 set
    - Focus slot for your priority muscle
-   - Swap for: Reverse Hyperextension / Hip Thrust (machine) / Sandbag Hip Thrust / Glute Bridge
-   - [Video](https://youtu.be/pv8e6OSyETE)
-2. **DB Lateral (Side) Raise (Focus)** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Swap for: Cable Side Raise (leaning) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20%2F%20Side-Lying%20Cable%20Lateral%20Raise) · Name to copy into YouTube: `Incline / Side-Lying Cable Lateral Raise`
+2. **DB Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-3. **Barbell Upright Row (Focus)** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
-   - Focus slot for your priority muscle
-   - Swap for: Seated DB Lateral Raise / DB Lateral Raise (Supinated / palms-up grip) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) / DB Upright Row
-   - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Upright%20Row)
-4. **EZ-Bar Skullcrusher (bonus)** — 2 × 10 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
-   - Keep this lift at 10-12 reps.
+   - Swap for: Seated DB Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Upright%20Row) · Name to copy into YouTube: `DB Upright Row`
+3. **Machine Calf Raise - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+4. **Overhead Cable Triceps Extension (bonus)** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Pushdown - straight bar, supinated (reverse) grip / Tate Press / Overhead Cable Triceps Extension / Cable Triceps Pushdown - straight bar, pronated grip
-   - [Watch how](https://www.youtube.com/results?search_query=EZ-Bar%20Skullcrusher)
-5. **Dumbbell Hammer Curl (bonus)** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set · 60-90 s rest
+   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses the constant cable tension)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
+5. **Machine Fly (Pec Deck) (bonus)** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Seated Dumbbell Curl / Incline Dumbbell Curl ('pinky facing up' supinated variation) / Spider Curl (chest on incline bench) / Supine (Lying) Biceps Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl)
+   - Swap for: Flat DB Fly (keeps the chest isolation; loses the machine's support) / Cable Fly (keeps the chest isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Fly%20(Pec%20Deck)) · Name to copy into YouTube: `Machine Fly (Pec Deck)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
@@ -4483,8 +4845,8 @@ _Superset to save time: Barbell Upright Row + EZ-Bar Skullcrusher (about 3.5 min
 
 ---
 
-_Model 1.3.0 · Engine 0.4.0_
+_Model 1.3.0 · Engine 0.5.0_
 
-Not medical advice. Use at your own risk. Train within your limits. Full terms: Disclaimer and Release of Liability. [Read the full disclaimer and release](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md)
+Liability released: the terms and the release were accepted before this plan was built. Not medical advice. Use at your own risk. Train within your limits. Full terms: Disclaimer and Release of Liability. [Read the full disclaimer and release](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md)
 
-Videos open on YouTube and are not made by Blaze Camp. We're building our own library. Have a great video of this exercise? Send it to @BLAZECAMP on Instagram.
+"Watch how" opens a YouTube search for the exercise name. The videos you find are not made or checked by Blaze Camp. You can also copy the name shown under each exercise and paste it into YouTube.

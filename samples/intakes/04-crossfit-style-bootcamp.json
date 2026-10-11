@@ -1,6 +1,6 @@
 {
   "schema": "intake/2",
-  "_comment": "Coach sample 4 (R2-GEN-07): 35-year-old CrossFit-style class member ('Stay athletic and active' -> activity crossfit_class -> class model template hybrid_crossfit.4 'crossfit_style_bootcamp'), 2 years, 4 days x 60 min, 8 weeks, 170 lb. CrossFit box kit = HOME_BARBELL + extras: bumpers, kettlebells, dumbbells, rower / bike / ski erg, boxes, rings, pull-up rig, medballs up to 20 lb; no bands, no machines (D-16).",
+  "_comment": "Coach sample 4 (R2-GEN-07): 35-year-old CrossFit-style class member ('Stay athletic and active' -> activity crossfit_class -> class model template hybrid_crossfit.4 'crossfit_style_bootcamp'), 2 years, 4 days, 8 weeks, 170 lb. CrossFit box kit = HOME_BARBELL + extras: bumpers, kettlebells, dumbbells, rower / bike / ski erg, boxes, rings, pull-up rig, medballs up to 20 lb; no bands, no machines (D-16).",
   "id": "sample-04-crossfit-style-bootcamp",
   "lang": "en",
   "units": "lb",
@@ -49,7 +49,6 @@
       "Thu",
       "Fri"
     ],
-    "session_minutes": 60,
     "start_date": "2026-10-12"
   },
   "plan": {

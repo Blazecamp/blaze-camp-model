@@ -8,6 +8,8 @@ A plan starts each muscle group at a number of weekly sets that fits the person'
 | **Decided by** | Coach: VOL-01, UNI-01 (round 1); R2-VOL-04, R2-VOL-06 (round 2); R3-VOL-01 (round 3) |
 | **Replaces** | Reading "15 to 20 sets" as the peak week (team's first reading) |
 
+> **Update, round 4 (R4-PRG-04, R4-SES-03).** The next block starts "a little above where the last block started": about 5 % more, in whole sets, never above the level's top number. At the top, sets stay and progress comes from load and reps. On 2 training days a week the starts and tops below do not apply to big groups: they run about 6 to 8 weekly sets ([ADR-052](adr-052-two-day-rule.md)). The starts and ceilings in the table are otherwise unchanged.
+
 ## Decision (the rule)
 
 A **hard set** is a working set done 1 to 3 reps short of failure. L1, L2 and L3 are the client levels ([ADR-016](adr-016-client-levels-by-training-experience.md)). Weekly hard sets for one muscle group:
@@ -20,7 +22,7 @@ A **hard set** is a working set done 1 to 3 reps short of failure. L1, L2 and L3
 | Ceiling in one 12-week plan | 14 | 22 | 25 | R2-VOL-06 |
 | Ceiling for a priority muscle (now a Focus muscle, [ADR-024](adr-024-focus-muscle-1-and-2.md)) | 18 | 26-28 | 30 | R2-VOL-06 |
 
-- After a completed plan, the next one starts 5 % higher with the ceiling 1 set higher. It never passes 25, or 30 for a Focus or priority muscle (R2-VOL-06).
+- After a completed plan, the next one starts about 5 % above where the last one started, in whole sets, and never above the level's top number (R4-PRG-04). Round 2 also raised the ceiling by 1 set per completed plan, never past 25, or 30 for a Focus or priority muscle (R2-VOL-06). At the top, sets stay and reps and load progress (CX-03).
 - More than 30 sets is for a very advanced person only.
 
 ## Why

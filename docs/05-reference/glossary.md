@@ -11,7 +11,8 @@ This page lists every term the Blaze Camp model uses, in alphabetical order, wit
 | "Double quotes" with an answer id | His own words from an answer or from conversation. Double quotes with no id are only a name, a title or the long form of an abbreviation. Wording that comes from a proposal he approved is called "approved wording", not his words. |
 | `code` | An id as it appears in the data files. |
 | `CAT-01`, `VOL-09` | A round-1 answer ([coach_answers_full.md](../../coach_answers_full.md)). |
-| `R2-…`, `R3-…` | A round-2 or round-3 answer ([round 2](../../coach_answers_round2.md), [round 3](../../coach_answers_round3.md)). The newest round wins. |
+| `R2-…`, `R3-…`, `R4-…` | A round-2, round-3 or round-4 answer ([round 2](../../coach_answers_round2.md), [round 3](../../coach_answers_round3.md), [round 4](../../coach_answers_round4.md)). The newest round wins. |
+| `CT-01`, `CX-01..04` | Two clarifications he gave in conversation on 2026-10-10: on session time ([file](../../coach_answers_time_2026-10-10.md)) and on progression and editing ([file](../../coach_answers_codex_2026-10-10.md)). They rank with round 4 on their subjects. |
 | "conversation" | Something he said while the model was built ([coach_chat_statements.md](../../coach_chat_statements.md), [coach_answers.md](../../coach_answers.md)). |
 | **OBSERVED** | Read from his sheets. |
 | **PROPOSED** | Designed by the team. He has not confirmed it. |
@@ -26,9 +27,11 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **A-drills** ('A March/ A skips/ A runners'). Running warm-up drills: A March, A Skip, A Run. They are warm-up on lower-body and athletic days. They never count as training volume (ORD-08).
 
-**A/B weeks**. Two alternating weeks that swap the lead lift: a squat-led week and a hinge-led week, or a bench week and an overhead week. Used only when a person wants more variety (PER-03). Intake switch: `prefs.variety_ab`.
+**A/B weeks**. Two alternating weeks that swap the lead lift: a squat-led week and a hinge-led week, or a bench week and an overhead week. Used only when a person wants more variety (PER-03). Intake switch: `prefs.variety_ab`. Not the same thing as **Day A / Day B**.
 
 **'ABdution'**. His label for the side-raise slot under 'Shoulders/Traps'. Correct spelling: abduction. Side raises, upright rows, rear-delt work and KB face pulls all live there, and all count to the one **shoulders** group (LIB-16, R2-LIB-04, R3-VOL-01).
+
+**Acceleration note**. The note a week carries when it adds more than about 15 % to a group's sets: "This week jumps more than usual: adjust if needed." There is no hard limit on a step; the note is the safeguard (R4-PRG-02). A single added set is never flagged (PROPOSED).
 
 **Access profile** (equipment profile). Where the person trains and what they have: `FULL_GYM`, `BASIC_GYM`, `HOME_BARBELL`, `HOME_DB_BENCH`, `KB_ONLY`, `BODYWEIGHT`, `HOTEL_GYM`, `FIELD_TRACK_KIT` (EQ-01). There is no bands profile. See [equipment](../02-model/equipment.md).
 
@@ -70,7 +73,7 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Bands**. Not used. "I don't do bands" (EQ-01). No band, chain or weight-releaser exercise, swap or equipment token can reach a plan. The band and chain items in his sheets are kept in the source catalog as `out_of_scope` records. They are never picked and never reach the compiled catalog. See **Variable resistance**.
 
-**Bank** (banking). The stairway grows in small percentages, so a week's increase is often less than one set. The fraction is saved ("banked") and a whole set is added when the bank reaches 1 (VOL-06). The tool does this math. The person never sees a percentage.
+**Bank** (banking). The stairway grows in small percentages, so a week's increase is often less than one set. He approved saving the fraction and adding a whole set when it reaches 1 (VOL-06). The tool does this math in whole sets. The person never sees a percentage.
 
 **Big muscles** ("bigger muscles"). Quads, glutes, hamstrings, lats and upper back, chest (CAT-02). Big muscles are organized by movement pattern and take a mix of rep ranges, about 5 to 15.
 
@@ -91,9 +94,9 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Block switch** (toggle). The on/off control on a session block. "They should be able to turn off that day's athletic training or that day's core training and just focus on resistance" (R3-SES-02).
 
-**Bonus exercise**. A short extra exercise (2 sets, PROPOSED) for a small muscle that has no room left on its normal day. It goes on the optional day, or on a day that already trains that muscle. It is never the only exercise for that muscle that day (VOL-07, R3-VOL-03).
+**Bonus exercise**. A short extra exercise (2 to 4 sets, PROPOSED) for a muscle that has no room left on its normal day. It goes on the optional day, or on a day that already trains that muscle (VOL-07, R3-VOL-03). When a template's slots cannot hold a group's planned sets, the plan opens a bonus exercise for it. With no optional day the group is capped and the plan says so (R4-SES-04).
 
-**Bootcamp**. Timed circuits: 3 to 5 rounds of 30 to 50 seconds per station, 5 to 7 stations, 35 to 45 minutes in total (PRG-03).
+**Bootcamp**. Timed circuits: 3 to 5 rounds of 30 to 50 seconds per station, 5 to 7 stations (PRG-03, R4-SES-02). He described a class as 35 to 45 minutes in total; that is a description, not a limit the plan is fitted to (CT-01).
 
 **Bucket**. A named category that a template station draws exercises from, for example `RP_BKD` (bilateral knee dominant) or `ISO_CALF`. Same idea as his CATEGORY column.
 
@@ -107,9 +110,11 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Cap**. See **Ceiling**.
 
+**Carry** (and sled work). Farmer carries, suitcase carries, sled pushes and drags. Dosed by distance or time, not reps: 2 to 4 trips of 20 to 40 metres, or 20 to 40 seconds. No muscle sets. They sit with core and conditioning (R4-LIB-02). They are optional add-ons (R4-LIB-01).
+
 **CATEGORY**. A column in his program sheets: the list an exercise is chosen from ('Bilateral KD', 'Horizontal Pull'). With PURPOSE it makes a **slot**.
 
-**Ceiling** (cap). The most weekly sets a muscle group reaches in one plan: 14 / 22 / 25 for Level 1 / 2 / 3. "This is all customizable" (R2-VOL-06). A Focus muscle may go to 18 / 26-28 / 30. Those are the priority-muscle ceilings he approved in R2-VOL-06. Using them for Focus muscles is the team's reading (INFERRED).
+**Ceiling** (cap, top number, final sets). The most weekly sets a muscle group reaches in one plan: 14 / 22 / 25 for Level 1 / 2 / 3. "This is all customizable" (R2-VOL-06). It is also the target: each trained group reaches it in the last week, with bigger steps when needed (CX-01, R4-PRG-01). A Focus muscle may go to 18 / 26-28 / 30. Those are the priority-muscle ceilings he approved in R2-VOL-06. Using them for Focus muscles is the team's reading (INFERRED).
 
 **Check-in**. RETIRED. A weekly report of effort and pain that changed the next week. "We're not going to have check-ins, correct? I want to take away all check-in info. We're only doing outputs, and people can change accordingly" (R3-VOL-02). See [ADR-001](../04-decisions/adr-001-answers-in-plan-out-no-check-ins.md).
 
@@ -128,6 +133,8 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 **Compound**. A lift that moves more than one joint (squat, row, press). Opposite: **isolation**.
 
 **Conditioning**. Aerobic sessions, buy-outs, circuits and WODs. It comes last in a session, except a fighter's or hybrid athlete's opening aerobic block (ORD-09). It never counts as muscle sets.
+
+**Confidence label**. The label on every sport profile that says how sure its numbers are: `confirmed_by_coach`, `similar_sport` or `proposed`. In the data and the docs only, never on a plan (R4-SCP-03). See [sports](../02-model/sports.md) §5.1.
 
 **Constraint** (constraint scale 1-5). How much the set-up guides and supports the body. 5 = seated machine with a back pad. 4 = plate-loaded machine, Smith, chest-supported. 3 = cable, or a dumbbell on a bench. 2 = standing free weights. 1 = bodyweight, ballistic, reactive (EQ-13). More constraint is safer, so older, injured and high-volume clients "collect that volume in a safe place with more constraints" (EQ-03).
 
@@ -153,7 +160,9 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Davidson zone** (Z1, Z2, Z3). A position tag he takes from Dr. Pat Davidson's book *A Coach's Guide to Optimizing Movement*. Zone 1: standing, arms low, load low and close (external-rotation bias). Zone 2: hands in front, or the knee at hip height (internal-rotation bias, more compressive). Zone 3: arms overhead or a deep squat (external-rotation bias). It is a tag, not a level. The plan keeps both biases every week and uses the bias to pick a swap when something hurts (CAT-04, CAT-10, R2-LIB-02, R2-LIB-03). Zones do not apply to plyos. See [levels and zones](../02-model/levels-and-zones.md).
 
-**Default pick**. The exercise the plan puts in a slot before the person swaps it. Only library exercises (and items he approved) can be the default (CAT-07). The person can always swap inside the same category (GEN-04).
+**Day A / Day B**. His two full-body days. **Day A** is pull + knee dominant: horizontal pull, squat, vertical pull, lunge, biceps, leg extension. **Day B** is push + hip dominant: horizontal push, hinge or hip thrust, vertical push or incline press, single-leg hinge, triceps, leg curl. About 6 exercises each, up to 8. The usual week is A, B, rest, A, B. "This is the model that I believe is the greatest one" (R4-SES-05). See [sessions](../02-model/sessions.md).
+
+**Default pick**. The exercise the plan puts in a slot before the person swaps it. Only library exercises (and items he approved) can be the default (CAT-07). An **optional add-on** is never the default, except wall balls and sled pushes in HYROX (R4-LIB-01). The person can always swap inside the same category (GEN-04).
 
 **Deload**. See **Easy week**. There is never a deload inside a block (R2-VOL-07).
 
@@ -165,11 +174,15 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Dose unit**. What an exercise is counted in: sets and reps, contacts, throws, cuts, metres, seconds, calories.
 
+**Double progression**. The data name for the way reps and load progress: first reps go up inside the rep range, then weight goes up and reps start again at the bottom. See **Progression rule**.
+
 **Drive** (`DRIVE`). The label for the middle weeks of a stairway, "driving it hard, not all the way to the top" (PER-01). A label only.
 
 **Dryland**. A swimmer's gym training. Approved defaults in R3-ATH-01. See [swimming](../02-model/swimming.md).
 
 ## E
+
+**Easiest to remove**. The short list each day prints of what a person could take out for a shorter day: conditioning finishers, extra jump or throw stations, small-muscle accessories, bonus exercises. A hint only. Nothing is removed automatically: "they get to pick what they want to keep or what they want to take away" (R4-SES-04). The list and its order are PROPOSED.
 
 **Easy week** (recovery week). One week after a finished block at about half the sets of the hardest week, same exercises, 3 or more reps in reserve, no buy-outs or finishers (PER-05, R2-VOL-07). It is a recommendation, not a requirement: "maintenance weeks are a recommendation. They don't have to be mandatory" (R3-PER-01). It never sits inside a block.
 
@@ -177,7 +190,7 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **EFFORT menu**. The dropdown in his sheets: '1 - Way Too Easy', '2 - Way Too Easy', '3 - Too Easy', '4 - Easy', '5 - Easyish', '6 - Broke a Sweat', '7 - That was tough', '8 - That was perfect', '9 - That was terrible', "10 - I'm done". He reads 10 as "That was the max I can do, not a fail" (R2-VOL-02). Today it is only a column in the downloaded sheet for the person's own notes. The tool never reads it back (R3-VOL-02).
 
-**Engine**. The code that turns one intake into a plan (`engine/`). It is being rebuilt. The model is the authority, not the engine. See [ADR-048](../04-decisions/adr-048-optimizer-rebuild-of-the-planner.md).
+**Engine**. The code that turns one intake into a plan (`engine/`). Version 0.5 is template-first: it builds each day on the coach's own templates, sizes sessions by exercise count and fits nothing to time. The model is the authority, not the engine. See [ADR-058](../04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md) and `samples/STATUS_v0.5.md`.
 
 **Event date**. An optional date for a stay-active person (a first HYROX race, a pickleball tournament, a 10K). The hardest weeks end 1 week before it, followed by 1 easy week at about half the sets (R3-ATH-05).
 
@@ -203,16 +216,18 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Fill policy**. How a muscle gets its sets in the data: `target` (the plan adds direct sets to reach the start), `credit` (helper credit only), `floor` (reported, never filled), `core_block` (set by the core opener).
 
+**Final sets**. The weekly sets a muscle group is planned to reach at the end of a block: its top number. See **Ceiling**.
+
 **Finisher**. Conditioning at the end of a session: buy-outs, fat-burn circuits, HYROX station circuits. Finishers never count as muscle sets.
 
-**Floor** (floor of 10). Every muscle group a training block trains directly gets at least 10 sets a week. "I don't think anybody needs less than 10 sets a week per muscle" (R2-VOL-06). It is counted on focus groups (R3-VOL-01). It does not apply to a group the time check leaves to compound credit (R3-SES-02). The model also leaves out maintenance, pre-season, in-season and a group cut for pain. Those four exemptions are INFERRED: they were in the team's R3-VOL-01 proposal, and his answer spoke only about rear delts. See [ADR-017](../04-decisions/adr-017-floor-of-10-on-focus-groups.md).
+**Floor** (floor of 10). With 3 or more training days, every muscle group a training block trains directly gets at least 10 sets a week. "I don't think anybody needs less than 10 sets a week per muscle" (R2-VOL-06). It is counted on focus groups (R3-VOL-01). With 2 training days the **two-day rule** applies instead (R4-SES-03). The model also leaves out maintenance, pre-season, in-season and a group cut for pain. Those four exemptions are INFERRED: they were in the team's R3-VOL-01 proposal, and his answer spoke only about rear delts. See [ADR-017](../04-decisions/adr-017-floor-of-10-on-focus-groups.md).
 
 **FOCUS**. Three related things. Do not mix them up.
 1. **FOCUS headers**: the muscle headings of his library's Focus list ('QUADS', 'HAMSTRINGS', 'GLUTES', 'CHEST', 'BACK', 'SHOULDERS/TRAPS', 'BICEP', 'TRICEP', 'CALVES', 'CORE').
 2. **'Focus 1' / 'Focus 2' slots**: two open slots on an optional day. Both may train the same muscle, 2-3 sets each (ORD-11).
 3. **Focus muscle 1 / Focus muscle 2**: an intake choice. See below.
 
-**Focus group**. The unit the model counts on: quads; **hips** (glutes + hamstrings); back; chest; **shoulders** (front + side + rear delts); biceps; triceps; calves; core. The floor of 10, the rule of 2 to 4 exercises and the time check all count focus groups (R3-SES-01). Key: `generator_spec_v1.json > vocab > muscles > focus_groups`.
+**Focus group**. The unit the model counts on: quads; **hips** (glutes + hamstrings); back; chest; **shoulders** (front + side + rear delts); biceps; triceps; calves; core. The floor of 10 and the count of exercises per group both read focus groups (R3-SES-01). Key: `generator_spec_v1.json > vocab > muscles > focus_groups`.
 
 **Focus muscle 1 / Focus muscle 2**. Up to two muscles a person picks to get more work. Each gets "an extra set or two or three" a week on top of a balanced plan: "There could be a main focus muscle 1 and a main focus muscle 2, and that should be enough for the whole thing" (R3-SES-01). The default of +2 is PROPOSED. See [ADR-024](../04-decisions/adr-024-focus-muscle-1-and-2.md).
 
@@ -220,9 +235,9 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Frontal plane**. Side-to-side movement (lateral lunge, Cossack squat, lateral step-up). Court and combat athletes get more frontal and transverse single-leg work (UNI-12). The share numbers are PROPOSED.
 
-**Full-body day**. A day that trains lower and upper body. Every group trained that day still gets 2 to 4 exercises, never 1, "so it might be a little longer day" (R2-SES-05).
+**Full-body day**. In his model: a **Day A** or a **Day B**, each with upper-body and lower-body work, about 6 exercises, up to 8 (R4-SES-05). He also calls these days "upper/lower". On a full-body day a group gets what the template gives, 1 to 4 exercises. The round-2 rule "2 to 4 exercises per muscle, never 1" on full-body days (R2-SES-05) was replaced by his template; it is kept for split days.
 
-**Functional** (FN; 'FUNCTIONAL BIOMECHANICS SYSTEM'). Carries, drags and the sling systems ('ANTERIOR OBLIQUE SYSTEM', 'POSTERIOR OBLIQUE SYSTEM', 'LATERAL SUBSYSTEM'). The carry, drag, posterior-oblique and lateral columns are empty in his sheets and are to be built out (LIB-19). The anterior-oblique column already holds chops and anti-rotation work (OBSERVED). Carries and drags earn no muscle sets (INFERRED).
+**Functional** (FN; 'FUNCTIONAL BIOMECHANICS SYSTEM'). Carries, drags and the sling systems ('ANTERIOR OBLIQUE SYSTEM', 'POSTERIOR OBLIQUE SYSTEM', 'LATERAL SUBSYSTEM'). The carry, drag, posterior-oblique and lateral columns are empty in his sheets and are to be built out (LIB-19). The anterior-oblique column already holds chops and anti-rotation work (OBSERVED). Carries and sled work are optional add-ons, dosed by distance or time, and earn no muscle sets (R4-LIB-01, R4-LIB-02).
 
 ## G
 
@@ -248,7 +263,7 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Hardest** (`HARDEST`). The label for the last weeks of a stairway. "On a 12-week program, the last 4 weeks are going to be brutal" (R2-PER-04).
 
-**Health check**. A short set of questions before a plan is built. Five answers stop the automatic plan and refer the person to a professional: chest pain or heart issues; surgery or a fracture in the last 6 months; pregnant or gave birth in the last 6 months; an injury under treatment; a doctor said no (R2-GEN-03). The final text will be written by a lawyer in English and Spanish, with a link to the official PAR-Q+ (R3-GEN-01). A coach may skip it with a legal warning.
+**Health check**. A short set of questions before a plan is built. Five answers stop the automatic plan and refer the person to a professional: chest pain or heart issues; surgery or a fracture in the last 6 months; pregnant or gave birth in the last 6 months; an injury under treatment; a doctor said no (R2-GEN-03). The final text will be written by a lawyer in English and Spanish, with a link to the official PAR-Q+ (R3-GEN-01). A coach may skip it with a legal warning. Open for the coach after round 4: he said "Everyone should be able to use the plan on their own" with the release (R4-SCP-01), so whether these answers should still stop a plan is a question for him. Today they do.
 
 **Helper**. A muscle that assists the main mover. It gets 0.25 of a set (VOL-09).
 
@@ -270,11 +285,13 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Implement**. The tool used: barbell, dumbbell, kettlebell, medball, cable, machine, bodyweight. When a name has no implement, the default goes bodyweight → dumbbell → barbell as the level rises (EQ-09).
 
+**Incline first**. For bodybuilders and the general population, the vertical or mid-range push slot leads with an incline press. Overhead presses stay as swaps. "For bodybuilders, I would rather focus more on incline pressing than on overhead pressing" (R4-LIB-03).
+
 **In-season**. The competition part of an athlete's year: about 2 gym days a week, low volume, bilateral work kept minimal (PER-08, UNI-10). The model keeps it flat, with no stairway. That is the team's reading (INFERRED) of "I just want them to maintain their strength" (UNI-10).
 
 **INFERRED**. The team's reasoning from his sheets or answers. A default until he confirms it.
 
-**Intake**. The answers a person gives before the plan is built. Few inputs on purpose: "We're not going to need a lot of inputs for this" (R3-VOL-04). Nothing is asked after the build.
+**Intake**. The answers a person gives before the plan is built. Few inputs on purpose: "We're not going to need a lot of inputs for this" (R3-VOL-04). It does not ask for a session length (R4-SES-01). It does require the accepted terms and release (R4-SCP-02). Nothing is asked after the build.
 
 **Intensifier**. A way to make a set harder without adding a set: a MYO set, a MAX last set, a superset. Allowed in the last week of a stairway (R3-VOL-04).
 
@@ -300,7 +317,7 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 ## L
 
-**Lambda** (λ). A scale factor between 0 and 1 on a group's weekly steps. It shrinks the steps when the standard 3 % and 5 % would pass the ceiling early, so the group reaches its ceiling in the last week. The idea is approved (R3-VOL-04).
+**Lambda** (λ, the scale factor). One factor on all of a group's weekly steps, chosen so the group lands on its final sets in the last week. Below 1 it shrinks the usual 3 % and 5 % steps (R3-VOL-04). Above 1 it makes them bigger, which he allowed: "go ahead and increase faster if thats the need" (CX-01). The formula is the team's math.
 
 **Landing drill** (stick the landing). Jumping or stepping down and holding the landing. It is the "receive" stage of plyo training. On by default from age 60 (R3-ATH-02).
 
@@ -315,6 +332,8 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 2. **Client level**: Level 1 (novice = newby: less than a year of consistent training, or back after 6-12 months off), Level 2 (more than a year), Level 3 (PROPOSED: 3+ years and 4+ days a week now, or a competitive physique or strength athlete) (PRG-05).
 3. **Stair level**: the number 2 to 11 shown for each week. See **Stair level**.
 4. **'LVL'** in his CrossFit tab (levels 1 to 4, for example 'LVL 3 = 5 SETS x 5', OBSERVED): the dose tiers of that program (INFERRED).
+
+**Liability gate**. The rule that no plan is generated until the person accepts the terms and the release of liability. "They need to click it before the plan shows, as part of when they put in their data" (R4-SCP-02). Everyone may use the plans, and everyone passes the gate (R4-SCP-01). See [ADR-056](../04-decisions/adr-056-liability-gate-before-every-plan.md).
 
 **Library**. The 'MASTER EXERCISE LIBRARY' tab of BYOP: the single source of truth, "as far as I was able to take it so far" (CAT-07). See [exercise library](../02-model/exercise-library.md).
 
@@ -338,7 +357,9 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Medball**. Medicine ball. Light for speed: passes and rotations 8-10 lb, overhead throws 6-10 lb, sit-up throws 6-8 lb, slams 10-20 lb. Nothing over 20 lb (EQ-06). No medball in a bodybuilder's main workout (ATH-05).
 
-**Minimum climb**. The least a trained group must grow across a block: 2 sets from week 1 to the last week (calves 1). PROPOSED.
+**Mid-range push / mid-range pull**. Lifts at an angle between horizontal and vertical. Mid-range push: incline and landmine presses ('MID RANGE PUSH' in his sheet, OBSERVED). Mid-range pull: high row, 45-degree row, the face-pull angle; "its own small category between horizontal and vertical pull" (approved wording, R4-LIB-03).
+
+**Minimum climb**. RETIRED. A team rule that a trained group must grow by at least 2 sets across a block. A group may now hold its sets while reps or load progress (CX-02, CX-03).
 
 **MM**. Short for his second workbook, 'BLAZE CAMP MASTER MODEL'.
 
@@ -370,6 +391,8 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **One-detail variation**. A library exercise with one detail changed: which hand holds the weight, grip, stance, implement or range. Shown, for example, as *Reverse lunge - dumbbell in opposite hand* (approved wording). Allowed between exercise blocks. The tool never invents an exercise (R2-LIB-01).
 
+**Optional add-on**. An exercise a person can choose and add, but that a template never picks. The exercises the team proposed became optional add-ons in round 4: carries, sled work, wall balls, sandbag lunges, burpee broad jumps, split-step drills, swimmer shoulder work, tibialis and soleus raises. "They can be optional, and they can be chosen and added, but not primary ones" (R4-LIB-01). Exceptions: wall balls and sled pushes may be primary in HYROX, maybe in CrossFit. Data status: `optional_addon`.
+
 **Optional day** ('OPT'). An extra day for Calves, Cardio, Core, Focus 1 and Focus 2. Ideally a separate day, "so they don't get in the way" (ORD-10).
 
 ## P
@@ -390,11 +413,11 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 3. **Rep phase**: VOL 1, VOL 2, VOL 3.
 4. **Maintenance phase**: see that entry.
 
-**Pinned group**. A group the time check never drops for a given person. Example: calves for racket players from 50, who get calf and Achilles work every leg day (approved wording, R3-ATH-02). The pinning mechanism is PROPOSED.
+**Pinned group**. RETIRED as a mechanism. It was a group the time check never dropped. There is no time check now (CT-01). What it protected still holds as a rule: calf and Achilles work on every leg day for racket players from 50 (R3-ATH-02).
 
 **Plan**. The output: every week, day, block and exercise, with sets, reps, effort and rest. Built once and shown whole.
 
-**Plan editing**. What a person or coach can change in the finished plan: switch off a day's athletic or core block, add or remove exercises or blocks, swap inside a category, take the suggested supersets (R3-SES-02). The mechanics are PROPOSED.
+**Plan editing**. What a person or coach can change in the finished plan: everything. Change the sets of any exercise on any day or week, switch off a day's athletic or core block, add or remove exercises or blocks, swap inside a category, add an optional add-on, take the suggested supersets (R3-SES-02, CX-02, CX-04). After an edit the totals are recounted and the plan is marked as edited. The screen mechanics are PROPOSED.
 
 **Plan mode**. The type of plan: `fixed_12` (12 weeks, his preferred), `fixed_8`, `maintenance_4_6`, `year`, plus `season` for competitive athletes and `prep` for an event date. `week_by_week` is RETIRED as a mode.
 
@@ -424,6 +447,8 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Profile**. The record for one sport, position, activity or goal. It holds that group's dials: plyo share, bilateral share, athletic amounts, aerobic sessions, Olympic policy, injury hot spots. 127 profiles. Key: `synthesis/04_profiles.json > profiles`.
 
+**Progression rule**. The line under each lift that says how to progress reps and load: "When you hit 12 on every set with 1-2 reps left in the tank, add weight next time and start again at 8." The person applies it. The plan never promises a number for a week (R4-PRG-03). See [ADR-053](../04-decisions/adr-053-progression-written-as-a-rule.md).
+
 **PROPOSED**. Short for "PROPOSED - PENDING COACH APPROVAL". The team designed it and he has not confirmed it. It ships only after his yes.
 
 **PURPOSE**. A column in his program sheets: the muscle or quality a slot serves ('Quads', 'Back', 'Plyo'). With CATEGORY it makes a **slot**.
@@ -434,9 +459,11 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Receive-Create stages** (RC1, RC2, RC3). His plyo progression. Stage 1 **Land**: receive and pause. Stage 2 **Land & Go**: receive, then create once. Stage 3 **Repeat**: receive and create again and again. "Your body and your connective tissue need to learn how to receive forces before we teach it how to create" (CAT-10). 12-week plan: weeks 1-3 / 4-7 / 8-12 (R2-ATH-03). His sheet wrote these as 'Receive pause/creat', 'Receive/create', 'Repeat receive create'. They are not Davidson zones.
 
-**Refer**. The result when a health-check answer (R2-GEN-03) or severe pain (PROPOSED) stops the automatic plan. The person is sent to a professional.
+**Refer**. The result when a health-check answer (R2-GEN-03) or severe pain (PROPOSED) stops the automatic plan. The person is sent to a professional. Open for the coach after R4-SCP-01 ("Everyone should be able to use the plan on their own"): whether a health answer should still stop a plan.
 
-**Release** (release stamp). The "use at your own risk" tick, with the terms and the liability release, accepted every time a plan is built (R3-GEN-01). The stamp is printed on the plan. Nothing is stored. See [DISCLAIMER.md](../../DISCLAIMER.md).
+**Release** (release stamp). The acceptance of the terms and the release of liability. It is required before a plan is generated, every time (R3-GEN-01, R4-SCP-02). The stamp is printed on the plan as the **release line**. Nothing is stored. See **Liability gate** and [DISCLAIMER.md](../../DISCLAIMER.md).
+
+**Release line**. The short line printed on every plan saying liability was released, at the top and at the bottom, in English and Spanish, with a link to the disclaimer (R4-SCP-01, R4-SCP-02). The wording is PROPOSED and waits for a lawyer.
 
 **Rep class**. The kind of dosing an exercise gets, for example `main_bilateral_compound`, `small_muscle_isolation`, `calves`, `olympic`.
 
@@ -474,11 +501,15 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Segmentation**. His word for sorting exercises into buckets: "building the segmentation and the buckets from the ground up" (conversation).
 
-**Self-adjust guide** ("How to adjust this plan"). The printed lines that tell a person what to do when a week is missed, a set felt like a true max, everything feels easy or something hurts. It replaces the check-in. "The program will tell you to adjust accordingly" (R3-VOL-04). The wording is PROPOSED.
+**Self-adjust guide** ("How to adjust this plan"). The printed lines that tell a person what to do when a week is missed, a set felt like a true max, everything feels easy or something hurts, and that they may change sets, exercises and blocks. It replaces the check-in. "The program will tell you to adjust accordingly" (R3-VOL-04). The wording is PROPOSED.
+
+**Session size**. How big a session is, as a number of exercises, not counting the warm-up or the 2 core exercises: general fitness and fat loss 5 to 7; aesthetics 6 to 8; strength 5 to 6; bootcamp 5 to 7 stations; field athletes off-season up to 12; older adults 5 to 6 (R4-SES-02). Recommendations: people add or remove. Session length in minutes is not asked (R4-SES-01).
 
 **Set placement**. Where a new set goes when a group's weekly sets rise: the first exercise on the list, then the second (2/2/2 → 3/2/2 → 3/3/2 → 3/3/3 → 4/3/3). "I'm adding sets to the things that matter most" (VOL-07). When a day type runs twice a week the added set alternates between the two (R3-VOL-03).
 
 **Shoulders**. The focus group made of front + side + rear delts. Traps are listed with it for display. One choice in the Focus muscle list (R3-VOL-01).
+
+**Skeleton**. The coach's day template that a day follows, slot for slot: `gym_A`, `gym_B`, `gym_C`, `athletic_A`, `athletic_B`, `athletic_C`, `ppl_push`, `ppl_pull`, `ppl_legs` and the class days (R4-SES-05). Key: `model/templates.json`, day type field `skeleton`.
 
 **Skill**. A block for CrossFit-style skill practice (double-unders, toes-to-bar). INFERRED.
 
@@ -490,13 +521,13 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Spine day** (two spine days). A day with a heavy, counted spine-loading lift. One heavy squat day and one heavy deadlift day a week, never the same day (R2-SES-01). Counted: barbell back, front, zercher, overhead and Smith squats; barbell or trap-bar deadlifts and RDLs; good mornings. Not counted: leg press, belt squat, hip thrust, back extension, reverse hyper, single-leg DB work, Olympic lifts, loaded jumps (R2-SES-02). See [ADR-030](../04-decisions/adr-030-axial-loading-once-per-pattern.md).
 
-**Split day**. A day that trains part of the body (push, pull, legs, upper, lower). Opposite: full-body day.
+**Split day**. A day that trains part of the body (push, pull, legs). Opposite: full-body day. On a split day a group gets 2 to 4 exercises, never 1 (VOL-07, R2-SES-05).
 
 **Split grip**. Each hand holds its own handle: dumbbells, kettlebells, single handles. His instruction block says that with joint pain it helps to go unilateral or to move from fixed grips (barbells) to split grips (OBSERVED).
 
 **Stair level** (2 → 11). The felt level of a week. "You might want to start at a 2 and end at an 11" (PER-01). It means how the week feels in total volume and loading, "not the amount of sets" (R2-PER-05). The display formula is PROPOSED.
 
-**Stairway**. His shape for every plan. "It should be like steps up a stairway" (R2-PER-03): small steps in the first weeks, a bit bigger after the halfway point, the hardest weeks last. In numbers: about 3 % more sets a week to the halfway week and about 5 % after it (R3-VOL-04). See [stairway](../02-model/stairway.md).
+**Stairway**. His shape for every plan. "It should be like steps up a stairway" (R2-PER-03): small steps in the first weeks, a bit bigger after the halfway point, the hardest weeks last. In numbers: usually about 3 % more sets a week to the halfway week and about 5 % after it (R3-VOL-04). Each trained group reaches its final sets in the last week, with bigger steps when needed (CX-01, R4-PRG-01). A week may hold its sets while reps or load progress (CX-02). See [stairway](../02-model/stairway.md).
 
 **Start** (starting sets). A group's weekly sets in week 1: big muscles 10 / 15 / 20 by level; shoulders, biceps and triceps 10 / 12 / 15 (VOL-01, R2-VOL-04, R2-VOL-06). Two notes. He approved 8 / 12 / 15 for small muscles, and the 8 becomes 10 by his floor. The Level 3 start of 20 is PROPOSED: the range he approved says 20 or more (VOL-01).
 
@@ -504,13 +535,13 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Stay athletic and active**. The goal for general-population people who play something for fun: "they want to stay athletic and active, so we need to understand that that's an option for them" (conversation). Goal code `active`.
 
-**Step**. The weekly rise in a group's sets, as a percentage. Never more than 7 % for a muscle (approved in R2-VOL-01). The model also keeps the person's total weekly sets rising by less than 10 %, because a 10 % weekly jump is "way too much" (UNI-05).
+**Step**. The weekly rise in a group's sets. Usually about 3 % and then 5 %. There is no hard limit: a step is as big as reaching the final sets needs, and a week that adds more than about 15 % carries a note (CX-01, R4-PRG-02). The old limits (7 % for a muscle, under 10 % in total) are RETIRED. His remark that a 10 % weekly jump is "way too much" to sustain (UNI-05) explains why the usual steps are small.
 
-**Superset**. Two exercises done back to back, then rest. His sheets mark it 'SUPERSET W/' followed by a pointing-down hand. "The supersetting is more like a fatiguing principle" (ORD-05), and it saves time. The plan recommends supersets on eligible pairs (R3-SES-02). The pair list is PROPOSED.
+**Superset**. Two exercises done back to back, then rest. His sheets mark it 'SUPERSET W/' followed by a pointing-down hand. "The supersetting is more like a fatiguing principle" (ORD-05), and it saves time. The plan recommends supersets on eligible pairs and the person switches them on (R3-SES-02). No session length switches them on. The pair list is PROPOSED.
 
 **Survival, the**. See **The work / the accessory / the nuance / the survival**.
 
-**Swap**. Changing the exercise in a slot for another from the same category. Always allowed (GEN-04).
+**Swap**. Changing the exercise in a slot for another from the same category. Always allowed (GEN-04). A swap prints one short line on what it keeps and what it loses, for example "DB snatch instead of power clean: keeps the explosive hip drive, loses the barbell catch" (R4-LIB-04).
 
 ## T
 
@@ -520,7 +551,7 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Target**. The planned weekly sets of a group for a given week.
 
-**Template**. The skeleton of a week and its days for one family and one number of days. 30 templates: 6 families × 2 to 6 days. Key: `synthesis/05_templates.json > generator_split_templates`.
+**Template**. The skeleton of a week and its days for one family and one number of days. 30 templates: 6 families × 2 to 6 days. Since round 4 the coach's own templates are the skeleton of every day: the tool does not invent layouts (R4-SES-05). See **Day A / Day B** and **Skeleton**. Key: `synthesis/05_templates.json > generator_split_templates`; compiled in `model/templates.json`.
 
 **Test**. A measurement at the start and the end of a block, never in the middle. Never from zero: someone who has not finished a block never tests a 1-rep max or an all-out mile. They use a 5-rep or 3-rep max, or 80-90 % efforts (R2-PER-07). See [testing](../02-model/testing.md).
 
@@ -537,15 +568,17 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Tier**. Two uses. (1) Dose tiers T0-T5: how much weekly athletic work a profile gets (INFERRED scale). (2) Access tiers T0-T3 on a catalog record: the least equipment an exercise needs.
 
-**Time check** (time vs minimums). The check, before a plan is built, of whether the chosen days and minutes can hold the minimums. If not, in his approved order: tell the person up front and offer another day or longer sessions; if they keep their time, train fewer groups directly (big movers first); recommend supersets; keep the stairway climbing on what is trained (R3-SES-02). See [ADR-032](../04-decisions/adr-032-time-vs-minimums-order.md).
+**Time check** (time vs minimums). RETIRED on 2026-10-10. It was the round-3 check of whether the chosen days and minutes could hold the minimums, with an order for what gives (R3-SES-02). He removed it: "You need to stop trying to be responsible for the people's time" (CT-01). See **Time estimate**, **Session size**, **Two-day rule** and [ADR-050](../04-decisions/adr-050-no-time-fitting-sessions-sized-by-exercise-count.md).
 
-**Time model**. The team's estimate of how many minutes each kind of set takes, used by the time check. PROPOSED.
+**Time estimate**. The average time printed on each day, as a range, for information only: "Average time: about 55-70 min (an estimate, for information only)". Nothing is cut, moved or flagged because of it (CT-01, R4-SES-01). The minutes per kind of set behind it (once called the time model) are the team's and PROPOSED.
 
 **Training block**. See **Block**, meaning 1.
 
 **Transverse plane**. Rotation.
 
 **Triple extension** ('TRIPPLE EXTENSION'). Extending ankles, knees and hips together. His library heading for Olympic lifts and loaded jumps. Pattern code `TX`, bucket `AP_TRIPLE_EXT`.
+
+**Two-day rule**. With 2 training days a week, every big muscle is still trained, at about 6 to 8 weekly sets instead of 10. The plan says so and suggests a third day. No whole muscle is dropped and no extra exercises are piled on (R4-SES-03). See [ADR-052](../04-decisions/adr-052-two-day-rule.md).
 
 ## U
 
@@ -588,6 +621,8 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 **Year plan**. A plan for a whole year, for the general population "that wants to just stay in shape" (R2-PER-01). January-March: hard work, more cardio, start cutting. April-June: summer shape. July-September: maintain at about 70 %. October to mid-December: build muscle, less cardio. Last two weeks of December: maintenance. The person can re-order and tune it (R2-PER-02). Athletes follow their season instead.
 
 **Youth**. Under 18 (the age line is INFERRED). Olympic lifts from the floor from about age 14, after one block of hang work (R2-ATH-08).
+
+**YouTube search link**. What each exercise carries instead of a video: a link that searches YouTube for its name, plus the exact name to copy. "Click here to copy it and put into YouTube" (R4-LIB-05). The third-party video links from his sheets were removed from the public data.
 
 ## Z
 
@@ -658,7 +693,8 @@ The model keeps his labels in quotes as he wrote them and uses corrected spellin
 | `MRPUSH` | mid-range push | `COD` | change of direction |
 | `VPUSH` | vertical push | `SPRINT` | sprint and mechanics |
 | `HPULL` | horizontal pull | `CARDIO` | aerobic session |
-| `VPULL` | vertical pull | `CARRY`, `DRAG` | carries, drags |
+| `MRPULL` | mid-range pull (round 4) | | |
+| `VPULL` | vertical pull | `CARRY`, `DRAG` | carries, drags, sled work (by distance or time) |
 
 **Levels**
 
@@ -688,6 +724,14 @@ The model keeps his labels in quotes as he wrote them and uses corrected spellin
 | KB swings as glute sets | swings credited to glutes | R2-VOL-05 |
 | Bands, chains, weight releasers | variable resistance | EQ-01, EQ-12 |
 | Week-by-week mode | a rolling plan run on check-ins | R3-VOL-02 |
+| Time check, time offers, "not trained directly (time)", the 110 % fit rule | fitting a plan to a chosen session length | CT-01, R4-SES-01 |
+| Session length (as an intake field), exercise caps by minutes | sizing a session by minutes | R4-SES-01, R4-SES-02 |
+| Pinned group, keep order | which groups the time check kept first | CT-01 |
+| Step limit of 7 %, total rise under 10 %, minimum climb, one-set allowance | hard rules on how fast or how steadily sets rise | CX-01, CX-02, R4-PRG-02 |
+| "Ceiling as a maximum" | ending below the planned final sets when small steps could not reach them | CX-01 |
+| Proposed record as a swap "until he approves" | the status of the team's exercises before round 4 | R4-LIB-01 (now optional add-ons; neck work still proposed) |
+| Third-party video link | the links found in his sheets | R4-LIB-05 |
+| Optimizer planner (`planner/1`) | a large two-stage planner that was designed and not built | team, [ADR-058](../04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md) |
 | Mandatory easy week | a required recovery week after a block | R3-PER-01 |
 | Learning from user data | tables tuned from everyone's logs | R3-GEN-01 |
 

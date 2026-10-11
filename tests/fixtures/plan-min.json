@@ -2,7 +2,7 @@
   "schema": "plan/2",
   "status": "ok",
   "model_version": "1.3.0-fixture",
-  "engine_version": "0.4.0",
+  "engine_version": "0.5.0",
   "contracts_version": "1.1.0",
   "seed": "c53:00000000000000",
   "intake_hash": "c53:00000000000000",
@@ -12,92 +12,12 @@
     "version": "release.client",
     "lang": "en",
     "role": "self",
-    "guardian": null
+    "guardian": null,
+    "accepted": true
   },
   "refer": null,
   "errors": [],
-  "offers": [
-    {
-      "key": "offer.more_days",
-      "args": {
-        "days": 3
-      }
-    },
-    {
-      "key": "offer.longer_sessions",
-      "args": {
-        "min": 75
-      }
-    },
-    {
-      "key": "offer.keep_time_lower_peak",
-      "args": {
-        "days": 2,
-        "minutes": 60
-      },
-      "chosen": true
-    }
-  ],
-  "time_check": {
-    "training_block": 1,
-    "fits": false,
-    "kept_time": true,
-    "needed_minutes": 75,
-    "offered": {
-      "extra_day": {
-        "days": 3,
-        "minutes": 60
-      },
-      "session_minutes": 75
-    },
-    "trained_groups": [
-      "quads",
-      "hips",
-      "back",
-      "shoulders",
-      "calves"
-    ],
-    "not_trained_directly": [
-      {
-        "group": "biceps",
-        "reason": "credit_only"
-      },
-      {
-        "group": "triceps",
-        "reason": "credit_only"
-      }
-    ],
-    "lowered_peak": [
-      "calves"
-    ],
-    "trained_below_floor": [],
-    "supersets_recommended": true,
-    "supersets_needed": [],
-    "by_block": [
-      {
-        "training_block": 1,
-        "fits": false,
-        "trained_groups": [
-          "quads",
-          "hips",
-          "back",
-          "shoulders",
-          "calves"
-        ],
-        "not_trained_directly": [
-          {
-            "group": "biceps",
-            "reason": "credit_only"
-          },
-          {
-            "group": "triceps",
-            "reason": "credit_only"
-          }
-        ],
-        "trained_below_floor": []
-      }
-    ]
-  },
+  "edited": false,
   "meta": {
     "program_id": "OT04b",
     "program_name_key": "program.OT04b.name",
@@ -111,7 +31,7 @@
       "position": null,
       "activity_ids": [],
       "overlays": [],
-      "competitive": "none",
+      "competitive": "competitive",
       "season_type": "I",
       "name_key": "profile.weekend_warrior.name"
     },
@@ -139,12 +59,27 @@
     "weeks": 3,
     "start_date": "2026-10-12",
     "days_per_week": 2,
-    "session_minutes": 60,
     "weekdays": [
       "Mon",
       "Thu"
     ],
     "play_days": [],
+    "session_size": {
+      "type": "athletic",
+      "range": [
+        6,
+        12
+      ],
+      "default": 12
+    },
+    "two_day": {
+      "weekly_sets": [
+        6,
+        8
+      ],
+      "suggest_days": 3
+    },
+    "time": "estimate_only",
     "template": {
       "id": "athletic.2",
       "variant": null,
@@ -237,34 +172,56 @@
     "targets": {
       "modifier_id": "stay_active",
       "start": {
-        "quads": 10,
-        "hamstrings": 10,
+        "quads": 6,
+        "hamstrings": 6,
         "glutes": null,
-        "chest": null,
-        "lats_upper_back": 10,
+        "chest": 6,
+        "lats_upper_back": 6,
         "shoulders": 6,
         "biceps": null,
         "triceps": null,
-        "calves": 10
+        "calves": 6
       },
       "cap": {
-        "quads": 13,
-        "hamstrings": 13,
+        "quads": 8,
+        "hamstrings": 8,
         "glutes": null,
-        "chest": null,
-        "lats_upper_back": 13,
-        "shoulders": 12,
+        "chest": 8,
+        "lats_upper_back": 8,
+        "shoulders": 8,
         "biceps": null,
         "triceps": null,
-        "calves": 22
+        "calves": 6
+      },
+      "level_start": {
+        "quads": 6,
+        "hamstrings": 6,
+        "glutes": null,
+        "chest": 6,
+        "lats_upper_back": 6,
+        "shoulders": 6,
+        "biceps": null,
+        "triceps": null,
+        "calves": 6
+      },
+      "level_cap": {
+        "quads": 8,
+        "hamstrings": 8,
+        "glutes": null,
+        "chest": 8,
+        "lats_upper_back": 8,
+        "shoulders": 8,
+        "biceps": null,
+        "triceps": null,
+        "calves": 6
       },
       "fill": {
         "quads": "target",
         "hamstrings": "target",
         "glutes": "credit",
-        "chest": "credit",
+        "chest": "target",
         "lats_upper_back": "target",
-        "shoulders": "own_sets",
+        "shoulders": "target",
         "side_delts": "own_sets",
         "rear_delts": "own_sets",
         "front_delts": "own_sets",
@@ -286,25 +243,15 @@
       "priority": [],
       "focus_add": 0,
       "pain_muscles": [],
-      "floored": [
-        "quads",
-        "hamstrings",
-        "lats_upper_back"
-      ],
-      "floor_groups": [
-        "quads",
-        "hips",
-        "back"
-      ],
+      "floored": [],
+      "floor_groups": [],
       "credit_only": [
         "glutes",
-        "chest",
         "biceps",
         "triceps"
       ],
       "calves_per_leg_day": 3,
-      "calves_floor": 7,
-      "leg_days": 2,
+      "calves_floor": 6,
       "core_block": {
         "exercises": 2,
         "sets": 2
@@ -315,38 +262,142 @@
         "training_block": 1,
         "N": 3,
         "lambda": {
-          "quads": 1,
-          "hamstrings": 1,
-          "lats_upper_back": 1,
-          "shoulders": 1,
-          "calves": 1
+          "quads": 0,
+          "hamstrings": 0,
+          "lats_upper_back": 0,
+          "chest": 3.8838,
+          "shoulders": 3.8838,
+          "calves": 0
         },
-        "lowered": [
-          "calves"
-        ],
+        "lowered": [],
         "dropped_groups": [],
         "start": {
-          "quads": 10,
-          "hamstrings": 10,
+          "quads": 6,
+          "hamstrings": 6,
           "glutes": null,
-          "chest": null,
-          "lats_upper_back": 10,
+          "chest": 6,
+          "lats_upper_back": 6,
           "shoulders": 6,
           "biceps": null,
           "triceps": null,
-          "calves": 10
+          "calves": 6
         },
         "cap": {
-          "quads": 13,
-          "hamstrings": 13,
+          "quads": 8,
+          "hamstrings": 8,
           "glutes": null,
-          "chest": null,
-          "lats_upper_back": 13,
-          "shoulders": 12,
+          "chest": 8,
+          "lats_upper_back": 8,
+          "shoulders": 8,
           "biceps": null,
           "triceps": null,
-          "calves": 22
-        }
+          "calves": 6
+        },
+        "groups": [
+          "quads",
+          "hips",
+          "back",
+          "chest",
+          "shoulders",
+          "calves"
+        ],
+        "credit_only_groups": [
+          "biceps",
+          "triceps"
+        ],
+        "group_start": {
+          "quads": 8,
+          "hips": 8,
+          "back": 8,
+          "chest": 6,
+          "shoulders": 6,
+          "calves": 6
+        },
+        "group_top": {
+          "quads": 8,
+          "hips": 8,
+          "back": 8,
+          "chest": 8,
+          "shoulders": 8,
+          "calves": 6
+        },
+        "planned_top": {
+          "quads": 8,
+          "hips": 8,
+          "back": 8,
+          "chest": 8,
+          "shoulders": 8,
+          "calves": 6
+        },
+        "schedule": {
+          "quads": [
+            8,
+            8,
+            8
+          ],
+          "hips": [
+            8,
+            8,
+            8
+          ],
+          "back": [
+            8,
+            8,
+            8
+          ],
+          "chest": [
+            6,
+            7,
+            8
+          ],
+          "shoulders": [
+            6,
+            7,
+            8
+          ],
+          "calves": [
+            6,
+            6,
+            6
+          ]
+        },
+        "group_lambda": {
+          "quads": 0,
+          "hips": 0,
+          "back": 0,
+          "chest": 3.8838,
+          "shoulders": 3.8838,
+          "calves": 0
+        },
+        "arrival_week": {
+          "quads": null,
+          "hips": null,
+          "back": null,
+          "chest": 3,
+          "shoulders": 3,
+          "calves": null
+        },
+        "realized_arrival_week": {
+          "quads": null,
+          "hips": null,
+          "back": null,
+          "chest": 3,
+          "shoulders": 2,
+          "calves": null
+        },
+        "realized_top": {
+          "quads": 8,
+          "hips": 9,
+          "back": 8,
+          "chest": 8,
+          "shoulders": 10,
+          "calves": 6
+        },
+        "capped": [],
+        "below_floor": [],
+        "bonus": [],
+        "acceleration": [],
+        "circuit": false
       }
     ],
     "share_targets": {
@@ -401,6 +452,7 @@
         "2026-10-25"
       ]
     },
+    "addons": [],
     "health": {
       "role": "self",
       "health_route": null,
@@ -453,21 +505,23 @@
     },
     "warnings": [
       {
-        "code": "time_check",
-        "key": "warning.time_check",
+        "code": "two_day_rule",
+        "key": "warning.two_day_rule",
         "args": {
           "days": 2,
-          "minutes": 60
+          "low": 6,
+          "high": 8,
+          "suggest": 3
         }
       },
       {
-        "code": "time_lower_peak",
-        "key": "warning.time_lower_peak",
+        "code": "credit_only_groups",
+        "key": "warning.credit_only_groups",
         "args": {
           "group": [
-            "calves"
-          ],
-          "minutes": 60
+            "biceps",
+            "triceps"
+          ]
         }
       },
       {
@@ -491,7 +545,7 @@
         "position_detail": null,
         "activity_ids": [],
         "overlays": [],
-        "competitive": "none",
+        "competitive": "competitive",
         "ath03_group": "health",
         "ground_contact_class": 3,
         "season_type": "I",
@@ -522,7 +576,20 @@
         "days": 2,
         "variant": null,
         "pairing": "cross_pattern",
-        "format": "gym"
+        "format": "gym",
+        "session_size": {
+          "type": "athletic",
+          "range": [
+            6,
+            12
+          ],
+          "default": 12,
+          "refs": [
+            "R4-SES-02",
+            "VOL-08",
+            "R2-SES-04"
+          ]
+        }
       },
       "D13_tests": {
         "items": [
@@ -546,7 +613,6 @@
         "Mon",
         "Thu"
       ],
-      "session_minutes": 60,
       "start_date": "2026-10-12",
       "play_days": [],
       "event_date": null,
@@ -672,51 +738,52 @@
       "step_by_muscle": {
         "quads": 0,
         "hamstrings": 0,
+        "chest": 0,
         "lats_upper_back": 0,
         "shoulders": 0,
         "calves": 0
       },
       "target_by_muscle": {
-        "quads": 10,
-        "hamstrings": 10,
+        "quads": 8,
+        "hamstrings": 8,
         "glutes": null,
-        "chest": null,
-        "lats_upper_back": 10,
+        "chest": 6,
+        "lats_upper_back": 8,
         "shoulders": 6,
         "biceps": null,
         "triceps": null,
-        "calves": 10
+        "calves": 6
       },
       "weekly_sets_by_muscle": {
-        "quads": 10,
-        "hamstrings": 10,
-        "glutes": 3,
-        "chest": 5,
-        "lats_upper_back": 10,
+        "quads": 8,
+        "hamstrings": 8,
+        "glutes": 2,
+        "chest": 6,
+        "lats_upper_back": 8,
         "side_delts": 0.75,
-        "rear_delts": 3.5,
-        "biceps": 2.5,
+        "rear_delts": 4,
+        "biceps": 2,
         "triceps": 1.5,
         "calves": 6,
         "abs_obliques": 8,
         "forearms": 0,
         "front_delts": 3.75,
         "traps": 0,
-        "adductors": 1.5,
+        "adductors": 1,
         "neck": 0
       },
       "direct_sets_by_muscle": {
-        "quads": 10,
-        "hamstrings": 10,
+        "quads": 8,
+        "hamstrings": 8,
         "glutes": 0,
-        "chest": 5,
-        "lats_upper_back": 10,
+        "chest": 6,
+        "lats_upper_back": 8,
         "side_delts": 0,
-        "rear_delts": 2,
+        "rear_delts": 3,
         "biceps": 0,
         "triceps": 0,
         "calves": 6,
-        "abs_obliques": 0,
+        "abs_obliques": 8,
         "forearms": 0,
         "front_delts": 3,
         "traps": 0,
@@ -724,66 +791,80 @@
         "neck": 0
       },
       "main_sets_by_muscle": {
-        "quads": 10,
-        "hamstrings": 10,
-        "glutes": 3,
-        "chest": 5,
-        "lats_upper_back": 10,
-        "shoulders": 7.25,
-        "biceps": 2.5,
+        "quads": 8,
+        "hamstrings": 8,
+        "glutes": 2,
+        "chest": 6,
+        "lats_upper_back": 8,
+        "shoulders": 7.75,
+        "biceps": 2,
         "triceps": 1.5,
         "calves": 6
       },
       "weekly_sets_by_line": {
-        "quads": 10,
-        "hamstrings": 10,
-        "glutes": 3,
-        "chest": 5,
-        "lats_upper_back": 10,
-        "shoulders": 7.25,
-        "biceps": 2.5,
+        "quads": 8,
+        "hamstrings": 8,
+        "glutes": 2,
+        "chest": 6,
+        "lats_upper_back": 8,
+        "shoulders": 7.75,
+        "biceps": 2,
         "triceps": 1.5,
         "calves": 6
       },
       "weekly_sets_by_group": {
-        "quads": 10,
-        "hips": 11.5,
-        "back": 10,
-        "chest": 5,
-        "shoulders": 7.25,
-        "biceps": 2.5,
+        "quads": 8,
+        "hips": 9,
+        "back": 8,
+        "chest": 6,
+        "shoulders": 7.75,
+        "biceps": 2,
         "triceps": 1.5,
         "calves": 6
       },
       "main_sets_by_group": {
-        "quads": 10,
-        "hips": 11.5,
-        "back": 10,
-        "chest": 5,
-        "shoulders": 7.25,
-        "biceps": 2.5,
+        "quads": 8,
+        "hips": 9,
+        "back": 8,
+        "chest": 6,
+        "shoulders": 7.75,
+        "biceps": 2,
         "triceps": 1.5,
         "calves": 6
       },
-      "not_trained_directly": [],
-      "total_main_sets": 46,
+      "target_by_group": {
+        "quads": 8,
+        "hips": 8,
+        "back": 8,
+        "chest": 6,
+        "shoulders": 6,
+        "biceps": null,
+        "triceps": null,
+        "calves": 6
+      },
+      "acceleration": [],
+      "credit_only_groups": [
+        "biceps",
+        "triceps"
+      ],
+      "total_main_sets": 42,
       "group_counts_by_day": {
         "Mon": {
           "quads": 2,
           "hips": 2,
           "back": 2,
           "shoulders": 2,
-          "calves": 2
+          "calves": 1
         },
         "Thu": {
           "quads": 2,
           "hips": 2,
           "back": 2,
           "chest": 2,
-          "calves": 2
+          "calves": 1
         }
       },
-      "total_resistance_sets": 46,
+      "total_resistance_sets": 42,
       "rise_vs_prev": null,
       "athletic_budget": {
         "plyo_share": 0.35,
@@ -813,8 +894,16 @@
       "changes": [],
       "why": [
         {
-          "key": "why.no_checkin_planned",
-          "ref": "R2-VOL-03"
+          "key": "why.sets_default",
+          "ref": "VOL-16"
+        },
+        {
+          "key": "why.stairway_target",
+          "ref": "CX-01"
+        },
+        {
+          "key": "why.two_day_rule",
+          "ref": "R4-SES-03"
         },
         {
           "key": "why.stairway_step",
@@ -823,6 +912,10 @@
             "pct": 0,
             "part": "early"
           }
+        },
+        {
+          "key": "why.planned_only",
+          "ref": "R3-VOL-04"
         },
         {
           "key": "why.test_timing",
@@ -838,15 +931,34 @@
           "label_key": "day.athletic.2.A",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 62,
-          "minutes_limit": 60,
+          "est_minutes": 58,
+          "exercise_count": 11,
+          "skeleton": null,
+          "easy_to_remove": [
+            {
+              "slot_id": "Mon.A.s16",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Mon.A.s15",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Mon.A.s14",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Mon.A.s12",
+              "kind": "small_muscle_accessory"
+            }
+          ],
           "supersets_on": true,
           "groups": {
             "quads": 2,
             "hips": 2,
             "back": 2,
             "shoulders": 2,
-            "calves": 2
+            "calves": 1
           },
           "why": [
             {
@@ -897,8 +1009,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -928,8 +1043,9 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "observed",
-                    "url": "https://www.youtube.com/watch?v=wq6N_PjU5fA"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
+                    "copy_name": "Plank (forearm / low plank)"
                   },
                   "sets": 2,
                   "reps": {
@@ -965,8 +1081,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -989,7 +1108,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
+                    "copy_name": "Reverse Crunch"
                   },
                   "sets": 2,
                   "reps": {
@@ -1025,8 +1145,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -1057,7 +1180,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
+                    "copy_name": "Ankle Hops (bilateral, in place)"
                   },
                   "sets": 2,
                   "reps": {
@@ -1091,6 +1215,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [
                     {
                       "key": "note.rc1"
@@ -1100,6 +1225,19 @@
                     "alternating-single-leg-plate-hops-hop-off-bilateral",
                     "bilateral-forward-plate-hops"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "alternating-single-leg-plate-hops-hop-off-bilateral",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
+                      "id": "bilateral-forward-plate-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.simplicity"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -1133,7 +1271,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Hang%20Clean",
+                    "copy_name": "Hang Clean"
                   },
                   "sets": 3,
                   "reps": {
@@ -1165,6 +1304,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [
                     {
                       "key": "note.olympic_power"
@@ -1174,6 +1314,19 @@
                     "barbell-push-jerk",
                     "barbell-push-press"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "barbell-push-jerk",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.same_pattern"
+                    },
+                    {
+                      "id": "barbell-push-press",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.same_pattern"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -1207,10 +1360,11 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "coach",
-                    "url": "https://youtu.be/uYumuL_G_V0"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)",
+                    "copy_name": "Front Squat (barbell)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -1250,6 +1404,17 @@
                     "type": "test",
                     "test": "rm_3_or_5"
                   },
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [
                     {
                       "key": "load.week1_tip"
@@ -1259,6 +1424,19 @@
                     "barbell-thruster",
                     "bodyweight-squat-air-squat"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "barbell-thruster",
+                      "keeps": "swap.keeps.same_muscle",
+                      "loses": "swap.loses.heavy_spine_load"
+                    },
+                    {
+                      "id": "bodyweight-squat-air-squat",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.external_load"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [
                     "axial_counted"
                   ],
@@ -1304,9 +1482,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Machine%20Row%20(Close%20%2F%20Neutral%20Grip)",
+                    "copy_name": "Machine Row (Close / Neutral Grip)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -1341,11 +1520,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row",
                     "bent-over-barbell-row-supinated-yates-grip"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "bent-over-barbell-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
+                    },
+                    {
+                      "id": "bent-over-barbell-row-supinated-yates-grip",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -1378,9 +1581,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)",
+                    "copy_name": "Rear-Foot-on-Wall DB Deadlift (RDL)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 6,
@@ -1413,6 +1617,17 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      6,
+                      8
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [
                     {
                       "key": "note.per_side"
@@ -1422,6 +1637,19 @@
                     "alternating-barbell-deadlift-alternate-lead-leg-meaning-inferred",
                     "alternating-db-deadlift-alternate-lead-leg-staggered-side-each-rep-meaning-infer"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "alternating-barbell-deadlift-alternate-lead-leg-meaning-inferred",
+                      "keeps": "swap.keeps.UHD",
+                      "loses": "swap.loses.split_grip"
+                    },
+                    {
+                      "id": "alternating-db-deadlift-alternate-lead-leg-staggered-side-each-rep-meaning-infer",
+                      "keeps": "swap.keeps.UHD",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -1454,7 +1682,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=DB%20Overhead%20Press%20(seated%2Fstanding%20not%20stated)",
+                    "copy_name": "DB Overhead Press (seated/standing not stated)"
                   },
                   "sets": 3,
                   "reps": {
@@ -1491,11 +1720,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "alternating-db-overhead-press",
                     "barbell-push-jerk"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "alternating-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
+                      "id": "barbell-push-jerk",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.split_grip"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -1528,7 +1781,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Assisted%20Pull-up%20(machine)",
+                    "copy_name": "Assisted Pull-up (machine)"
                   },
                   "sets": 2,
                   "reps": {
@@ -1564,11 +1818,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "assisted-pull-up-machine-close-grip",
                     "assisted-pull-up-machine-pronated-grip"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "assisted-pull-up-machine-close-grip",
+                      "keeps": "swap.keeps.VPULL",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "assisted-pull-up-machine-pronated-grip",
+                      "keeps": "swap.keeps.VPULL",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -1608,8 +1886,9 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "coach",
-                    "url": "https://youtu.be/m0FOpMEgero"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
+                    "copy_name": "Leg Extension (machine)"
                   },
                   "sets": 2,
                   "reps": {
@@ -1644,10 +1923,29 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "sissy-squat"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "sissy-squat",
+                      "keeps": "swap.keeps.same_muscle",
+                      "loses": "swap.loses.machine_support"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -1680,7 +1978,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)",
+                    "copy_name": "Lying Leg Curl (machine)"
                   },
                   "sets": 2,
                   "reps": {
@@ -1717,11 +2016,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "ball-hamstring-curl-medball-or-stability-ball",
                     "machine-leg-curl-seated-or-lying"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "ball-hamstring-curl-medball-or-stability-ball",
+                      "keeps": "swap.keeps.LEG_FLEXION",
+                      "loses": "swap.loses.machine_support"
+                    },
+                    {
+                      "id": "machine-leg-curl-seated-or-lying",
+                      "keeps": "swap.keeps.LEG_FLEXION",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -1754,9 +2077,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
+                    "copy_name": "Bent-Over DB Reverse Fly"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -1791,11 +2115,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      15,
+                      20
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "barbell-front-raise",
                     "barbell-upright-row"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "barbell-front-raise",
+                      "keeps": "swap.keeps.same_job",
+                      "loses": "swap.loses.split_grip"
+                    },
+                    {
+                      "id": "barbell-upright-row",
+                      "keeps": "swap.keeps.same_job",
+                      "loses": "swap.loses.split_grip"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -1828,9 +2176,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Machine%20Calf%20Raise",
+                    "copy_name": "Machine Calf Raise"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -1853,7 +2202,7 @@
                   },
                   "load": null,
                   "tempo_key": null,
-                  "superset": "SC",
+                  "superset": null,
                   "laterality": "bilateral",
                   "loading": null,
                   "credits": {
@@ -1864,6 +2213,17 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [
                     {
                       "key": "note.per_side"
@@ -1873,83 +2233,19 @@
                     "barbell-calf-raise",
                     "standing-calf-raise-bodyweight-from-a-deficit-step"
                   ],
-                  "flags": [],
-                  "why": [
+                  "swap_notes": [
                     {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL1"
-                      }
+                      "id": "barbell-calf-raise",
+                      "keeps": "swap.keeps.ISO_CALF",
+                      "loses": "swap.loses.machine_support"
                     },
                     {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "slot_id": "Mon.A.s17",
-                  "station_id": "A.s17",
-                  "bucket": "ISO_CALF",
-                  "role": "iso",
-                  "origin": "template",
-                  "group": "calves",
-                  "exercise_id": "standing-db-calf-raise-deficit-optional",
-                  "name_key": "exercise.standing-db-calf-raise-deficit-optional.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": null
-                  },
-                  "sets": 1,
-                  "reps": {
-                    "type": "per_side",
-                    "min": 8,
-                    "max": 12
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": "SC",
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "calves": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
+                      "id": "standing-calf-raise-bodyweight-from-a-deficit-step",
+                      "keeps": "swap.keeps.ISO_CALF",
+                      "loses": "swap.loses.top_load"
                     }
                   ],
-                  "swaps": [
-                    "barbell-calf-raise",
-                    "machine-calf-raise"
-                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -1980,15 +2276,34 @@
           "label_key": "day.athletic.2.B",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 64,
-          "minutes_limit": 60,
+          "est_minutes": 59,
+          "exercise_count": 11,
+          "skeleton": null,
+          "easy_to_remove": [
+            {
+              "slot_id": "Thu.B.s16",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Thu.B.s14",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Thu.B.s13",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Thu.B.s12",
+              "kind": "small_muscle_accessory"
+            }
+          ],
           "supersets_on": true,
           "groups": {
             "quads": 2,
             "hips": 2,
             "back": 2,
             "chest": 2,
-            "calves": 2
+            "calves": 1
           },
           "why": [
             {
@@ -2039,8 +2354,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -2070,8 +2388,9 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "observed",
-                    "url": "https://www.youtube.com/watch?v=wq6N_PjU5fA"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
+                    "copy_name": "Plank (forearm / low plank)"
                   },
                   "sets": 2,
                   "reps": {
@@ -2107,8 +2426,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -2131,7 +2453,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
+                    "copy_name": "Reverse Crunch"
                   },
                   "sets": 2,
                   "reps": {
@@ -2167,8 +2490,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -2199,7 +2525,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Forward%20Plate%20Hops",
+                    "copy_name": "Bilateral Forward Plate Hops"
                   },
                   "sets": 2,
                   "reps": {
@@ -2233,6 +2560,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [
                     {
                       "key": "note.rc1"
@@ -2242,6 +2570,19 @@
                     "alternating-single-leg-plate-hops-hop-off-bilateral",
                     "ankle-hops-bilateral-in-place"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "alternating-single-leg-plate-hops-hop-off-bilateral",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
+                      "id": "ankle-hops-bilateral-in-place",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.difficulty"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -2275,7 +2616,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=High-Hang%20Snatch%20Pull",
+                    "copy_name": "High-Hang Snatch Pull"
                   },
                   "sets": 3,
                   "reps": {
@@ -2307,6 +2649,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [
                     {
                       "key": "note.olympic_power"
@@ -2316,6 +2659,19 @@
                     "barbell-push-jerk",
                     "barbell-push-press"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "barbell-push-jerk",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.same_pattern"
+                    },
+                    {
+                      "id": "barbell-push-press",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.same_pattern"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -2349,10 +2705,11 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "coach",
-                    "url": "https://youtu.be/op9kVnSso6Q"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Barbell%20Deadlift%20(conventional)",
+                    "copy_name": "Barbell Deadlift (conventional)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -2388,6 +2745,17 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [
                     {
                       "key": "load.week1_tip"
@@ -2397,6 +2765,19 @@
                     "45-degree-hyperextension-back-hip-extension",
                     "barbell-hip-thrust"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "45-degree-hyperextension-back-hip-extension",
+                      "keeps": "swap.keeps.BHD",
+                      "loses": "swap.loses.implement"
+                    },
+                    {
+                      "id": "barbell-hip-thrust",
+                      "keeps": "swap.keeps.same_job",
+                      "loses": "swap.loses.heavy_spine_load"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [
                     "axial_counted"
                   ],
@@ -2438,7 +2819,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
+                    "copy_name": "Barbell Bench Press"
                   },
                   "sets": 3,
                   "reps": {
@@ -2475,11 +2857,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "alternating-db-floor-press",
                     "alternating-flat-db-bench-press"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "alternating-db-floor-press",
+                      "keeps": "swap.keeps.HPUSH",
+                      "loses": "swap.loses.bottom_range"
+                    },
+                    {
+                      "id": "alternating-flat-db-bench-press",
+                      "keeps": "swap.keeps.HPUSH",
+                      "loses": "swap.loses.barbell_load"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -2511,10 +2917,11 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "coach",
-                    "url": "https://youtu.be/WxakFlx9zLk"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Front-Foot-Elevated%20Split%20Squat%20%2F%20Lunge%20(FFE)",
+                    "copy_name": "Front-Foot-Elevated Split Squat / Lunge (FFE)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 6,
@@ -2548,6 +2955,17 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      6,
+                      8
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [
                     {
                       "key": "note.per_side"
@@ -2557,6 +2975,19 @@
                     "cossack-lateral-lunge",
                     "curtsy-lunge"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "cossack-lateral-lunge",
+                      "keeps": "swap.keeps.UKD",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "curtsy-lunge",
+                      "keeps": "swap.keeps.UKD",
+                      "loses": "swap.loses.external_load"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -2589,9 +3020,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Inverted%20Row",
+                    "copy_name": "Inverted Row"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -2626,11 +3058,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row",
                     "bent-over-barbell-row-supinated-yates-grip"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "bent-over-barbell-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.implement"
+                    },
+                    {
+                      "id": "bent-over-barbell-row-supinated-yates-grip",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.implement"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -2663,7 +3119,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Assisted%20Pull-Up%20Machine%20(Close%20Grip)",
+                    "copy_name": "Assisted Pull-Up Machine (Close Grip)"
                   },
                   "sets": 2,
                   "reps": {
@@ -2699,11 +3156,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "assisted-pull-up-machine",
                     "assisted-pull-up-machine-pronated-grip"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "assisted-pull-up-machine",
+                      "keeps": "swap.keeps.VPULL",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "assisted-pull-up-machine-pronated-grip",
+                      "keeps": "swap.keeps.VPULL",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -2744,7 +3225,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)",
+                    "copy_name": "Seated Leg Curl (machine)"
                   },
                   "sets": 2,
                   "reps": {
@@ -2779,11 +3261,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "ball-hamstring-curl-medball-or-stability-ball",
                     "lying-leg-curl-machine"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "ball-hamstring-curl-medball-or-stability-ball",
+                      "keeps": "swap.keeps.LEG_FLEXION",
+                      "loses": "swap.loses.machine_support"
+                    },
+                    {
+                      "id": "lying-leg-curl-machine",
+                      "keeps": "swap.keeps.LEG_FLEXION",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -2816,9 +3322,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Cable%20Fly",
+                    "copy_name": "Cable Fly"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -2851,11 +3358,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "flat-db-fly",
                     "machine-fly-pec-deck"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "flat-db-fly",
+                      "keeps": "swap.keeps.ISO_CHEST",
+                      "loses": "swap.loses.cable_tension"
+                    },
+                    {
+                      "id": "machine-fly-pec-deck",
+                      "keeps": "swap.keeps.ISO_CHEST",
+                      "loses": "swap.loses.cable_tension"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -2887,8 +3418,9 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "coach",
-                    "url": "https://youtu.be/m0FOpMEgero"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
+                    "copy_name": "Leg Extension (machine)"
                   },
                   "sets": 2,
                   "reps": {
@@ -2923,10 +3455,29 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "sissy-squat"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "sissy-squat",
+                      "keeps": "swap.keeps.same_muscle",
+                      "loses": "swap.loses.machine_support"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -2959,9 +3510,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise",
+                    "copy_name": "Barbell Calf Raise"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -2984,7 +3536,7 @@
                   },
                   "load": null,
                   "tempo_key": null,
-                  "superset": "SC",
+                  "superset": null,
                   "laterality": "bilateral",
                   "loading": null,
                   "credits": {
@@ -2995,6 +3547,17 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [
                     {
                       "key": "note.per_side"
@@ -3004,83 +3567,19 @@
                     "machine-calf-raise",
                     "standing-calf-raise-bodyweight-from-a-deficit-step"
                   ],
-                  "flags": [],
-                  "why": [
+                  "swap_notes": [
                     {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL1"
-                      }
+                      "id": "machine-calf-raise",
+                      "keeps": "swap.keeps.ISO_CALF",
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "slot_id": "Thu.B.s17",
-                  "station_id": "B.s17",
-                  "bucket": "ISO_CALF",
-                  "role": "iso",
-                  "origin": "template",
-                  "group": "calves",
-                  "exercise_id": "standing-calf-raise-bodyweight-from-a-deficit-step",
-                  "name_key": "exercise.standing-calf-raise-bodyweight-from-a-deficit-step.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": null
-                  },
-                  "sets": 1,
-                  "reps": {
-                    "type": "per_side",
-                    "min": 8,
-                    "max": 12
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": "SC",
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "calves": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
+                      "id": "standing-calf-raise-bodyweight-from-a-deficit-step",
+                      "keeps": "swap.keeps.ISO_CALF",
+                      "loses": "swap.loses.free_weight_balance"
                     }
                   ],
-                  "swaps": [
-                    "barbell-calf-raise",
-                    "machine-calf-raise"
-                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -3125,121 +3624,136 @@
       "test": null,
       "circuit": null,
       "step_by_muscle": {
-        "quads": 0.03,
-        "hamstrings": 0.03,
-        "lats_upper_back": 0.03,
-        "shoulders": 0.03,
-        "calves": 0.03
+        "quads": 0,
+        "hamstrings": 0,
+        "chest": 0.1667,
+        "lats_upper_back": 0,
+        "shoulders": 0.1667,
+        "calves": 0
       },
       "target_by_muscle": {
-        "quads": 10.3,
-        "hamstrings": 10.3,
+        "quads": 8,
+        "hamstrings": 8,
         "glutes": null,
-        "chest": null,
-        "lats_upper_back": 10.3,
-        "shoulders": 6.18,
+        "chest": 7,
+        "lats_upper_back": 8,
+        "shoulders": 7,
         "biceps": null,
         "triceps": null,
-        "calves": 10.3
+        "calves": 6
       },
       "weekly_sets_by_muscle": {
-        "quads": 10,
-        "hamstrings": 10,
-        "glutes": 3,
-        "chest": 5,
-        "lats_upper_back": 11,
-        "side_delts": 0.75,
-        "rear_delts": 3.5,
-        "biceps": 2.75,
-        "triceps": 1.5,
+        "quads": 8,
+        "hamstrings": 8,
+        "glutes": 2,
+        "chest": 7,
+        "lats_upper_back": 8,
+        "side_delts": 1,
+        "rear_delts": 4,
+        "biceps": 2,
+        "triceps": 2,
         "calves": 6,
         "abs_obliques": 8,
         "forearms": 0,
-        "front_delts": 3.75,
+        "front_delts": 5,
         "traps": 0,
-        "adductors": 1.5,
+        "adductors": 1,
         "neck": 0
       },
       "direct_sets_by_muscle": {
-        "quads": 10,
-        "hamstrings": 10,
+        "quads": 8,
+        "hamstrings": 8,
         "glutes": 0,
-        "chest": 5,
-        "lats_upper_back": 11,
+        "chest": 7,
+        "lats_upper_back": 8,
         "side_delts": 0,
-        "rear_delts": 2,
+        "rear_delts": 3,
         "biceps": 0,
         "triceps": 0,
         "calves": 6,
-        "abs_obliques": 0,
+        "abs_obliques": 8,
         "forearms": 0,
-        "front_delts": 3,
+        "front_delts": 4,
         "traps": 0,
         "adductors": 0,
         "neck": 0
       },
       "main_sets_by_muscle": {
-        "quads": 10,
-        "hamstrings": 10,
-        "glutes": 3,
-        "chest": 5,
-        "lats_upper_back": 11,
-        "shoulders": 7.25,
-        "biceps": 2.75,
-        "triceps": 1.5,
+        "quads": 8,
+        "hamstrings": 8,
+        "glutes": 2,
+        "chest": 7,
+        "lats_upper_back": 8,
+        "shoulders": 9,
+        "biceps": 2,
+        "triceps": 2,
         "calves": 6
       },
       "weekly_sets_by_line": {
-        "quads": 10,
-        "hamstrings": 10,
-        "glutes": 3,
-        "chest": 5,
-        "lats_upper_back": 11,
-        "shoulders": 7.25,
-        "biceps": 2.75,
-        "triceps": 1.5,
+        "quads": 8,
+        "hamstrings": 8,
+        "glutes": 2,
+        "chest": 7,
+        "lats_upper_back": 8,
+        "shoulders": 9,
+        "biceps": 2,
+        "triceps": 2,
         "calves": 6
       },
       "weekly_sets_by_group": {
-        "quads": 10,
-        "hips": 11.5,
-        "back": 11,
-        "chest": 5,
-        "shoulders": 7.25,
-        "biceps": 2.75,
-        "triceps": 1.5,
+        "quads": 8,
+        "hips": 9,
+        "back": 8,
+        "chest": 7,
+        "shoulders": 9,
+        "biceps": 2,
+        "triceps": 2,
         "calves": 6
       },
       "main_sets_by_group": {
-        "quads": 10,
-        "hips": 11.5,
-        "back": 11,
-        "chest": 5,
-        "shoulders": 7.25,
-        "biceps": 2.75,
-        "triceps": 1.5,
+        "quads": 8,
+        "hips": 9,
+        "back": 8,
+        "chest": 7,
+        "shoulders": 9,
+        "biceps": 2,
+        "triceps": 2,
         "calves": 6
       },
-      "not_trained_directly": [],
-      "total_main_sets": 47,
+      "target_by_group": {
+        "quads": 8,
+        "hips": 8,
+        "back": 8,
+        "chest": 7,
+        "shoulders": 7,
+        "biceps": null,
+        "triceps": null,
+        "calves": 6
+      },
+      "acceleration": [],
+      "credit_only_groups": [
+        "biceps",
+        "triceps"
+      ],
+      "total_main_sets": 44,
       "group_counts_by_day": {
         "Mon": {
           "quads": 2,
           "hips": 2,
           "back": 2,
           "shoulders": 2,
-          "calves": 2
+          "calves": 1
         },
         "Thu": {
           "quads": 2,
           "hips": 2,
           "back": 2,
           "chest": 2,
-          "calves": 2
+          "calves": 1
         }
       },
-      "total_resistance_sets": 47,
-      "rise_vs_prev": 0.0217,
+      "total_resistance_sets": 44,
+      "rise_vs_prev": 0.0476,
       "athletic_budget": {
         "plyo_share": 0.35,
         "stage": "RC2",
@@ -3265,12 +3779,25 @@
         "contacts_session_max": 100
       },
       "aerobic_sessions": 0,
-      "changes": [],
-      "why": [
+      "changes": [
         {
-          "key": "why.no_checkin_planned",
-          "ref": "R2-VOL-03"
+          "key": "changes.set_added",
+          "args": {
+            "exercise": "db-overhead-press-seated-standing-not-stated",
+            "day": "Mon",
+            "slot_id": "Mon.A.s11"
+          }
         },
+        {
+          "key": "changes.set_added",
+          "args": {
+            "exercise": "barbell-bench-press",
+            "day": "Thu",
+            "slot_id": "Thu.B.s09"
+          }
+        }
+      ],
+      "why": [
         {
           "key": "why.stairway_step",
           "ref": "R2-PER-03",
@@ -3278,6 +3805,14 @@
             "pct": 3,
             "part": "early"
           }
+        },
+        {
+          "key": "why.planned_only",
+          "ref": "R3-VOL-04"
+        },
+        {
+          "key": "why.set_added",
+          "ref": "VOL-07"
         }
       ],
       "days": [
@@ -3289,15 +3824,34 @@
           "label_key": "day.athletic.2.A",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 62,
-          "minutes_limit": 60,
+          "est_minutes": 59,
+          "exercise_count": 11,
+          "skeleton": null,
+          "easy_to_remove": [
+            {
+              "slot_id": "Mon.A.s16",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Mon.A.s15",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Mon.A.s14",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Mon.A.s12",
+              "kind": "small_muscle_accessory"
+            }
+          ],
           "supersets_on": true,
           "groups": {
             "quads": 2,
             "hips": 2,
             "back": 2,
             "shoulders": 2,
-            "calves": 2
+            "calves": 1
           },
           "why": [
             {
@@ -3348,8 +3902,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -3379,8 +3936,9 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "observed",
-                    "url": "https://www.youtube.com/watch?v=wq6N_PjU5fA"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
+                    "copy_name": "Plank (forearm / low plank)"
                   },
                   "sets": 2,
                   "reps": {
@@ -3416,8 +3974,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -3440,7 +4001,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
+                    "copy_name": "Reverse Crunch"
                   },
                   "sets": 2,
                   "reps": {
@@ -3476,8 +4038,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -3508,7 +4073,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
+                    "copy_name": "Ankle Hops (bilateral, in place)"
                   },
                   "sets": 2,
                   "reps": {
@@ -3542,6 +4108,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [
                     {
                       "key": "note.rc2"
@@ -3551,6 +4118,19 @@
                     "alternating-single-leg-plate-hops-hop-off-bilateral",
                     "bilateral-forward-plate-hops"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "alternating-single-leg-plate-hops-hop-off-bilateral",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
+                      "id": "bilateral-forward-plate-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.simplicity"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -3584,7 +4164,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Hang%20Clean",
+                    "copy_name": "Hang Clean"
                   },
                   "sets": 3,
                   "reps": {
@@ -3616,6 +4197,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [
                     {
                       "key": "note.olympic_power"
@@ -3625,6 +4207,19 @@
                     "barbell-push-jerk",
                     "barbell-push-press"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "barbell-push-jerk",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.same_pattern"
+                    },
+                    {
+                      "id": "barbell-push-press",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.same_pattern"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -3658,10 +4253,11 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "coach",
-                    "url": "https://youtu.be/uYumuL_G_V0"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)",
+                    "copy_name": "Front Squat (barbell)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -3696,11 +4292,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "barbell-thruster",
                     "bodyweight-squat-air-squat"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "barbell-thruster",
+                      "keeps": "swap.keeps.same_muscle",
+                      "loses": "swap.loses.heavy_spine_load"
+                    },
+                    {
+                      "id": "bodyweight-squat-air-squat",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.external_load"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [
                     "axial_counted"
                   ],
@@ -3742,9 +4362,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Machine%20Row%20(Close%20%2F%20Neutral%20Grip)",
+                    "copy_name": "Machine Row (Close / Neutral Grip)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -3779,11 +4400,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row",
                     "bent-over-barbell-row-supinated-yates-grip"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "bent-over-barbell-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
+                    },
+                    {
+                      "id": "bent-over-barbell-row-supinated-yates-grip",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -3816,9 +4461,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)",
+                    "copy_name": "Rear-Foot-on-Wall DB Deadlift (RDL)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 6,
@@ -3851,6 +4497,17 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      6,
+                      8
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [
                     {
                       "key": "note.per_side"
@@ -3860,6 +4517,19 @@
                     "alternating-barbell-deadlift-alternate-lead-leg-meaning-inferred",
                     "alternating-db-deadlift-alternate-lead-leg-staggered-side-each-rep-meaning-infer"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "alternating-barbell-deadlift-alternate-lead-leg-meaning-inferred",
+                      "keeps": "swap.keeps.UHD",
+                      "loses": "swap.loses.split_grip"
+                    },
+                    {
+                      "id": "alternating-db-deadlift-alternate-lead-leg-staggered-side-each-rep-meaning-infer",
+                      "keeps": "swap.keeps.UHD",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -3892,9 +4562,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=DB%20Overhead%20Press%20(seated%2Fstanding%20not%20stated)",
+                    "copy_name": "DB Overhead Press (seated/standing not stated)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -3929,11 +4600,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "alternating-db-overhead-press",
                     "barbell-push-jerk"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "alternating-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
+                      "id": "barbell-push-jerk",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.split_grip"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -3966,9 +4661,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Assisted%20Pull-up%20(machine)",
+                    "copy_name": "Assisted Pull-up (machine)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -4002,11 +4698,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "assisted-pull-up-machine-close-grip",
                     "assisted-pull-up-machine-pronated-grip"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "assisted-pull-up-machine-close-grip",
+                      "keeps": "swap.keeps.VPULL",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "assisted-pull-up-machine-pronated-grip",
+                      "keeps": "swap.keeps.VPULL",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -4046,8 +4766,9 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "coach",
-                    "url": "https://youtu.be/m0FOpMEgero"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
+                    "copy_name": "Leg Extension (machine)"
                   },
                   "sets": 2,
                   "reps": {
@@ -4082,10 +4803,29 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "sissy-squat"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "sissy-squat",
+                      "keeps": "swap.keeps.same_muscle",
+                      "loses": "swap.loses.machine_support"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -4118,7 +4858,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)",
+                    "copy_name": "Lying Leg Curl (machine)"
                   },
                   "sets": 2,
                   "reps": {
@@ -4155,11 +4896,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "ball-hamstring-curl-medball-or-stability-ball",
                     "machine-leg-curl-seated-or-lying"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "ball-hamstring-curl-medball-or-stability-ball",
+                      "keeps": "swap.keeps.LEG_FLEXION",
+                      "loses": "swap.loses.machine_support"
+                    },
+                    {
+                      "id": "machine-leg-curl-seated-or-lying",
+                      "keeps": "swap.keeps.LEG_FLEXION",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -4192,9 +4957,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
+                    "copy_name": "Bent-Over DB Reverse Fly"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -4229,11 +4995,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      15,
+                      20
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "barbell-front-raise",
                     "barbell-upright-row"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "barbell-front-raise",
+                      "keeps": "swap.keeps.same_job",
+                      "loses": "swap.loses.split_grip"
+                    },
+                    {
+                      "id": "barbell-upright-row",
+                      "keeps": "swap.keeps.same_job",
+                      "loses": "swap.loses.split_grip"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -4266,9 +5056,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Machine%20Calf%20Raise",
+                    "copy_name": "Machine Calf Raise"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -4291,7 +5082,7 @@
                   },
                   "load": null,
                   "tempo_key": null,
-                  "superset": "SC",
+                  "superset": null,
                   "laterality": "bilateral",
                   "loading": null,
                   "credits": {
@@ -4302,6 +5093,17 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [
                     {
                       "key": "note.per_side"
@@ -4311,83 +5113,19 @@
                     "barbell-calf-raise",
                     "standing-calf-raise-bodyweight-from-a-deficit-step"
                   ],
-                  "flags": [],
-                  "why": [
+                  "swap_notes": [
                     {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL1"
-                      }
+                      "id": "barbell-calf-raise",
+                      "keeps": "swap.keeps.ISO_CALF",
+                      "loses": "swap.loses.machine_support"
                     },
                     {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "2"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "slot_id": "Mon.A.s17",
-                  "station_id": "A.s17",
-                  "bucket": "ISO_CALF",
-                  "role": "iso",
-                  "origin": "template",
-                  "group": "calves",
-                  "exercise_id": "standing-db-calf-raise-deficit-optional",
-                  "name_key": "exercise.standing-db-calf-raise-deficit-optional.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": null
-                  },
-                  "sets": 1,
-                  "reps": {
-                    "type": "per_side",
-                    "min": 8,
-                    "max": 12
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 2,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 8,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": "SC",
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "calves": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
+                      "id": "standing-calf-raise-bodyweight-from-a-deficit-step",
+                      "keeps": "swap.keeps.ISO_CALF",
+                      "loses": "swap.loses.top_load"
                     }
                   ],
-                  "swaps": [
-                    "barbell-calf-raise",
-                    "machine-calf-raise"
-                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -4418,15 +5156,34 @@
           "label_key": "day.athletic.2.B",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 64,
-          "minutes_limit": 60,
+          "est_minutes": 60,
+          "exercise_count": 11,
+          "skeleton": null,
+          "easy_to_remove": [
+            {
+              "slot_id": "Thu.B.s16",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Thu.B.s14",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Thu.B.s13",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Thu.B.s12",
+              "kind": "small_muscle_accessory"
+            }
+          ],
           "supersets_on": true,
           "groups": {
             "quads": 2,
             "hips": 2,
             "back": 2,
             "chest": 2,
-            "calves": 2
+            "calves": 1
           },
           "why": [
             {
@@ -4477,8 +5234,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -4508,8 +5268,9 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "observed",
-                    "url": "https://www.youtube.com/watch?v=wq6N_PjU5fA"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
+                    "copy_name": "Plank (forearm / low plank)"
                   },
                   "sets": 2,
                   "reps": {
@@ -4545,8 +5306,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -4569,7 +5333,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
+                    "copy_name": "Reverse Crunch"
                   },
                   "sets": 2,
                   "reps": {
@@ -4605,8 +5370,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -4637,7 +5405,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Forward%20Plate%20Hops",
+                    "copy_name": "Bilateral Forward Plate Hops"
                   },
                   "sets": 2,
                   "reps": {
@@ -4671,6 +5440,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [
                     {
                       "key": "note.rc2"
@@ -4680,6 +5450,19 @@
                     "alternating-single-leg-plate-hops-hop-off-bilateral",
                     "ankle-hops-bilateral-in-place"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "alternating-single-leg-plate-hops-hop-off-bilateral",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
+                      "id": "ankle-hops-bilateral-in-place",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.difficulty"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -4713,7 +5496,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=High-Hang%20Snatch%20Pull",
+                    "copy_name": "High-Hang Snatch Pull"
                   },
                   "sets": 3,
                   "reps": {
@@ -4745,6 +5529,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [
                     {
                       "key": "note.olympic_power"
@@ -4754,6 +5539,19 @@
                     "barbell-push-jerk",
                     "barbell-push-press"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "barbell-push-jerk",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.same_pattern"
+                    },
+                    {
+                      "id": "barbell-push-press",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.same_pattern"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -4787,10 +5585,11 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "coach",
-                    "url": "https://youtu.be/op9kVnSso6Q"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Barbell%20Deadlift%20(conventional)",
+                    "copy_name": "Barbell Deadlift (conventional)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -4824,11 +5623,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "45-degree-hyperextension-back-hip-extension",
                     "barbell-hip-thrust"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "45-degree-hyperextension-back-hip-extension",
+                      "keeps": "swap.keeps.BHD",
+                      "loses": "swap.loses.implement"
+                    },
+                    {
+                      "id": "barbell-hip-thrust",
+                      "keeps": "swap.keeps.same_job",
+                      "loses": "swap.loses.heavy_spine_load"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [
                     "axial_counted"
                   ],
@@ -4870,9 +5693,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
+                    "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -4907,11 +5731,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "alternating-db-floor-press",
                     "alternating-flat-db-bench-press"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "alternating-db-floor-press",
+                      "keeps": "swap.keeps.HPUSH",
+                      "loses": "swap.loses.bottom_range"
+                    },
+                    {
+                      "id": "alternating-flat-db-bench-press",
+                      "keeps": "swap.keeps.HPUSH",
+                      "loses": "swap.loses.barbell_load"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -4943,10 +5791,11 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "coach",
-                    "url": "https://youtu.be/WxakFlx9zLk"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Front-Foot-Elevated%20Split%20Squat%20%2F%20Lunge%20(FFE)",
+                    "copy_name": "Front-Foot-Elevated Split Squat / Lunge (FFE)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 6,
@@ -4980,6 +5829,17 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      6,
+                      8
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [
                     {
                       "key": "note.per_side"
@@ -4989,6 +5849,19 @@
                     "cossack-lateral-lunge",
                     "curtsy-lunge"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "cossack-lateral-lunge",
+                      "keeps": "swap.keeps.UKD",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "curtsy-lunge",
+                      "keeps": "swap.keeps.UKD",
+                      "loses": "swap.loses.external_load"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -5021,9 +5894,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Inverted%20Row",
+                    "copy_name": "Inverted Row"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -5058,11 +5932,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row",
                     "bent-over-barbell-row-supinated-yates-grip"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "bent-over-barbell-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.implement"
+                    },
+                    {
+                      "id": "bent-over-barbell-row-supinated-yates-grip",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.implement"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -5095,7 +5993,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Assisted%20Pull-Up%20Machine%20(Close%20Grip)",
+                    "copy_name": "Assisted Pull-Up Machine (Close Grip)"
                   },
                   "sets": 2,
                   "reps": {
@@ -5131,11 +6030,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "assisted-pull-up-machine",
                     "assisted-pull-up-machine-pronated-grip"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "assisted-pull-up-machine",
+                      "keeps": "swap.keeps.VPULL",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "assisted-pull-up-machine-pronated-grip",
+                      "keeps": "swap.keeps.VPULL",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -5176,7 +6099,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)",
+                    "copy_name": "Seated Leg Curl (machine)"
                   },
                   "sets": 2,
                   "reps": {
@@ -5211,11 +6135,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "ball-hamstring-curl-medball-or-stability-ball",
                     "lying-leg-curl-machine"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "ball-hamstring-curl-medball-or-stability-ball",
+                      "keeps": "swap.keeps.LEG_FLEXION",
+                      "loses": "swap.loses.machine_support"
+                    },
+                    {
+                      "id": "lying-leg-curl-machine",
+                      "keeps": "swap.keeps.LEG_FLEXION",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -5248,9 +6196,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Cable%20Fly",
+                    "copy_name": "Cable Fly"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -5283,11 +6232,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "flat-db-fly",
                     "machine-fly-pec-deck"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "flat-db-fly",
+                      "keeps": "swap.keeps.ISO_CHEST",
+                      "loses": "swap.loses.cable_tension"
+                    },
+                    {
+                      "id": "machine-fly-pec-deck",
+                      "keeps": "swap.keeps.ISO_CHEST",
+                      "loses": "swap.loses.cable_tension"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -5319,8 +6292,9 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "coach",
-                    "url": "https://youtu.be/m0FOpMEgero"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
+                    "copy_name": "Leg Extension (machine)"
                   },
                   "sets": 2,
                   "reps": {
@@ -5355,10 +6329,29 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "sissy-squat"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "sissy-squat",
+                      "keeps": "swap.keeps.same_muscle",
+                      "loses": "swap.loses.machine_support"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -5391,9 +6384,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise",
+                    "copy_name": "Barbell Calf Raise"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -5416,7 +6410,7 @@
                   },
                   "load": null,
                   "tempo_key": null,
-                  "superset": "SC",
+                  "superset": null,
                   "laterality": "bilateral",
                   "loading": null,
                   "credits": {
@@ -5427,6 +6421,17 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [
                     {
                       "key": "note.per_side"
@@ -5436,83 +6441,19 @@
                     "machine-calf-raise",
                     "standing-calf-raise-bodyweight-from-a-deficit-step"
                   ],
-                  "flags": [],
-                  "why": [
+                  "swap_notes": [
                     {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL1"
-                      }
+                      "id": "machine-calf-raise",
+                      "keeps": "swap.keeps.ISO_CALF",
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "2"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "slot_id": "Thu.B.s17",
-                  "station_id": "B.s17",
-                  "bucket": "ISO_CALF",
-                  "role": "iso",
-                  "origin": "template",
-                  "group": "calves",
-                  "exercise_id": "standing-calf-raise-bodyweight-from-a-deficit-step",
-                  "name_key": "exercise.standing-calf-raise-bodyweight-from-a-deficit-step.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": null
-                  },
-                  "sets": 1,
-                  "reps": {
-                    "type": "per_side",
-                    "min": 8,
-                    "max": 12
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 2,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 8,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": "SC",
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "calves": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
+                      "id": "standing-calf-raise-bodyweight-from-a-deficit-step",
+                      "keeps": "swap.keeps.ISO_CALF",
+                      "loses": "swap.loses.free_weight_balance"
                     }
                   ],
-                  "swaps": [
-                    "barbell-calf-raise",
-                    "machine-calf-raise"
-                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -5563,121 +6504,136 @@
       },
       "circuit": null,
       "step_by_muscle": {
-        "quads": 0.05,
-        "hamstrings": 0.05,
-        "lats_upper_back": 0.05,
-        "shoulders": 0.05,
-        "calves": 0.05
+        "quads": 0,
+        "hamstrings": 0,
+        "chest": 0.1429,
+        "lats_upper_back": 0,
+        "shoulders": 0.1429,
+        "calves": 0
       },
       "target_by_muscle": {
-        "quads": 10.82,
-        "hamstrings": 10.82,
+        "quads": 8,
+        "hamstrings": 8,
         "glutes": null,
-        "chest": null,
-        "lats_upper_back": 10.82,
-        "shoulders": 6.49,
+        "chest": 8,
+        "lats_upper_back": 8,
+        "shoulders": 8,
         "biceps": null,
         "triceps": null,
-        "calves": 10.82
+        "calves": 6
       },
       "weekly_sets_by_muscle": {
-        "quads": 12,
-        "hamstrings": 11,
-        "glutes": 3.75,
-        "chest": 5,
-        "lats_upper_back": 12,
-        "side_delts": 0.75,
-        "rear_delts": 3.5,
-        "biceps": 3,
-        "triceps": 1.5,
+        "quads": 8,
+        "hamstrings": 8,
+        "glutes": 2,
+        "chest": 8,
+        "lats_upper_back": 8,
+        "side_delts": 1,
+        "rear_delts": 5,
+        "biceps": 2,
+        "triceps": 2,
         "calves": 6,
         "abs_obliques": 8,
         "forearms": 0,
-        "front_delts": 3.75,
+        "front_delts": 5,
         "traps": 0,
-        "adductors": 2,
+        "adductors": 1,
         "neck": 0
       },
       "direct_sets_by_muscle": {
-        "quads": 12,
-        "hamstrings": 11,
+        "quads": 8,
+        "hamstrings": 8,
         "glutes": 0,
-        "chest": 5,
-        "lats_upper_back": 12,
+        "chest": 8,
+        "lats_upper_back": 8,
         "side_delts": 0,
-        "rear_delts": 2,
+        "rear_delts": 4,
         "biceps": 0,
         "triceps": 0,
         "calves": 6,
-        "abs_obliques": 0,
+        "abs_obliques": 8,
         "forearms": 0,
-        "front_delts": 3,
+        "front_delts": 4,
         "traps": 0,
         "adductors": 0,
         "neck": 0
       },
       "main_sets_by_muscle": {
-        "quads": 12,
-        "hamstrings": 11,
-        "glutes": 3.75,
-        "chest": 5,
-        "lats_upper_back": 12,
-        "shoulders": 7.25,
-        "biceps": 3,
-        "triceps": 1.5,
+        "quads": 8,
+        "hamstrings": 8,
+        "glutes": 2,
+        "chest": 8,
+        "lats_upper_back": 8,
+        "shoulders": 10,
+        "biceps": 2,
+        "triceps": 2,
         "calves": 6
       },
       "weekly_sets_by_line": {
-        "quads": 12,
-        "hamstrings": 11,
-        "glutes": 3.75,
-        "chest": 5,
-        "lats_upper_back": 12,
-        "shoulders": 7.25,
-        "biceps": 3,
-        "triceps": 1.5,
+        "quads": 8,
+        "hamstrings": 8,
+        "glutes": 2,
+        "chest": 8,
+        "lats_upper_back": 8,
+        "shoulders": 10,
+        "biceps": 2,
+        "triceps": 2,
         "calves": 6
       },
       "weekly_sets_by_group": {
-        "quads": 12,
-        "hips": 13,
-        "back": 12,
-        "chest": 5,
-        "shoulders": 7.25,
-        "biceps": 3,
-        "triceps": 1.5,
+        "quads": 8,
+        "hips": 9,
+        "back": 8,
+        "chest": 8,
+        "shoulders": 10,
+        "biceps": 2,
+        "triceps": 2,
         "calves": 6
       },
       "main_sets_by_group": {
-        "quads": 12,
-        "hips": 13,
-        "back": 12,
-        "chest": 5,
-        "shoulders": 7.25,
-        "biceps": 3,
-        "triceps": 1.5,
+        "quads": 8,
+        "hips": 9,
+        "back": 8,
+        "chest": 8,
+        "shoulders": 10,
+        "biceps": 2,
+        "triceps": 2,
         "calves": 6
       },
-      "not_trained_directly": [],
-      "total_main_sets": 51,
+      "target_by_group": {
+        "quads": 8,
+        "hips": 8,
+        "back": 8,
+        "chest": 8,
+        "shoulders": 8,
+        "biceps": null,
+        "triceps": null,
+        "calves": 6
+      },
+      "acceleration": [],
+      "credit_only_groups": [
+        "biceps",
+        "triceps"
+      ],
+      "total_main_sets": 46,
       "group_counts_by_day": {
         "Mon": {
           "quads": 2,
           "hips": 2,
           "back": 2,
           "shoulders": 2,
-          "calves": 2
+          "calves": 1
         },
         "Thu": {
           "quads": 2,
           "hips": 2,
           "back": 2,
           "chest": 2,
-          "calves": 2
+          "calves": 1
         }
       },
-      "total_resistance_sets": 51,
-      "rise_vs_prev": 0.0851,
+      "total_resistance_sets": 46,
+      "rise_vs_prev": 0.0455,
       "athletic_budget": {
         "plyo_share": 0.35,
         "stage": "RC2",
@@ -5707,23 +6663,21 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "front-squat-barbell",
-            "day": "Mon"
+            "exercise": "bent-over-db-reverse-fly",
+            "day": "Mon",
+            "slot_id": "Mon.A.s15"
           }
         },
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "barbell-deadlift-conventional",
-            "day": "Thu"
+            "exercise": "cable-fly",
+            "day": "Thu",
+            "slot_id": "Thu.B.s13"
           }
         }
       ],
       "why": [
-        {
-          "key": "why.no_checkin_planned",
-          "ref": "R2-VOL-03"
-        },
         {
           "key": "why.stairway_step",
           "ref": "R2-PER-03",
@@ -5731,6 +6685,14 @@
             "pct": 5,
             "part": "late"
           }
+        },
+        {
+          "key": "why.planned_only",
+          "ref": "R3-VOL-04"
+        },
+        {
+          "key": "why.set_added",
+          "ref": "VOL-07"
         },
         {
           "key": "why.test_timing",
@@ -5746,15 +6708,34 @@
           "label_key": "day.athletic.2.A",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 62,
-          "minutes_limit": 60,
+          "est_minutes": 60,
+          "exercise_count": 11,
+          "skeleton": null,
+          "easy_to_remove": [
+            {
+              "slot_id": "Mon.A.s16",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Mon.A.s15",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Mon.A.s14",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Mon.A.s12",
+              "kind": "small_muscle_accessory"
+            }
+          ],
           "supersets_on": true,
           "groups": {
             "quads": 2,
             "hips": 2,
             "back": 2,
             "shoulders": 2,
-            "calves": 2
+            "calves": 1
           },
           "why": [
             {
@@ -5805,8 +6786,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -5836,8 +6820,9 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "observed",
-                    "url": "https://www.youtube.com/watch?v=wq6N_PjU5fA"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
+                    "copy_name": "Plank (forearm / low plank)"
                   },
                   "sets": 2,
                   "reps": {
@@ -5873,8 +6858,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -5897,7 +6885,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
+                    "copy_name": "Reverse Crunch"
                   },
                   "sets": 2,
                   "reps": {
@@ -5933,8 +6922,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -5965,7 +6957,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
+                    "copy_name": "Ankle Hops (bilateral, in place)"
                   },
                   "sets": 2,
                   "reps": {
@@ -5999,6 +6992,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [
                     {
                       "key": "note.rc3"
@@ -6008,6 +7002,19 @@
                     "alternating-single-leg-plate-hops-hop-off-bilateral",
                     "bilateral-forward-plate-hops"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "alternating-single-leg-plate-hops-hop-off-bilateral",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
+                      "id": "bilateral-forward-plate-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.simplicity"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -6041,7 +7048,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Hang%20Clean",
+                    "copy_name": "Hang Clean"
                   },
                   "sets": 3,
                   "reps": {
@@ -6073,6 +7081,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [
                     {
                       "key": "note.olympic_power"
@@ -6082,6 +7091,19 @@
                     "barbell-push-jerk",
                     "barbell-push-press"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "barbell-push-jerk",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.same_pattern"
+                    },
+                    {
+                      "id": "barbell-push-press",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.same_pattern"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -6115,10 +7137,11 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "coach",
-                    "url": "https://youtu.be/uYumuL_G_V0"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)",
+                    "copy_name": "Front Squat (barbell)"
                   },
-                  "sets": 4,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -6156,11 +7179,35 @@
                     "type": "test",
                     "test": "rm_3_or_work_up_to_1"
                   },
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "barbell-thruster",
                     "bodyweight-squat-air-squat"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "barbell-thruster",
+                      "keeps": "swap.keeps.same_muscle",
+                      "loses": "swap.loses.heavy_spine_load"
+                    },
+                    {
+                      "id": "bodyweight-squat-air-squat",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.external_load"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [
                     "axial_counted"
                   ],
@@ -6206,9 +7253,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Machine%20Row%20(Close%20%2F%20Neutral%20Grip)",
+                    "copy_name": "Machine Row (Close / Neutral Grip)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -6243,11 +7291,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row",
                     "bent-over-barbell-row-supinated-yates-grip"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "bent-over-barbell-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
+                    },
+                    {
+                      "id": "bent-over-barbell-row-supinated-yates-grip",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -6280,9 +7352,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)",
+                    "copy_name": "Rear-Foot-on-Wall DB Deadlift (RDL)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 6,
@@ -6315,6 +7388,17 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      6,
+                      8
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [
                     {
                       "key": "note.per_side"
@@ -6324,6 +7408,19 @@
                     "alternating-barbell-deadlift-alternate-lead-leg-meaning-inferred",
                     "alternating-db-deadlift-alternate-lead-leg-staggered-side-each-rep-meaning-infer"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "alternating-barbell-deadlift-alternate-lead-leg-meaning-inferred",
+                      "keeps": "swap.keeps.UHD",
+                      "loses": "swap.loses.split_grip"
+                    },
+                    {
+                      "id": "alternating-db-deadlift-alternate-lead-leg-staggered-side-each-rep-meaning-infer",
+                      "keeps": "swap.keeps.UHD",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -6356,9 +7453,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=DB%20Overhead%20Press%20(seated%2Fstanding%20not%20stated)",
+                    "copy_name": "DB Overhead Press (seated/standing not stated)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -6393,11 +7491,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "alternating-db-overhead-press",
                     "barbell-push-jerk"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "alternating-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
+                      "id": "barbell-push-jerk",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.split_grip"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -6430,9 +7552,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Assisted%20Pull-up%20(machine)",
+                    "copy_name": "Assisted Pull-up (machine)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -6466,11 +7589,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "assisted-pull-up-machine-close-grip",
                     "assisted-pull-up-machine-pronated-grip"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "assisted-pull-up-machine-close-grip",
+                      "keeps": "swap.keeps.VPULL",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "assisted-pull-up-machine-pronated-grip",
+                      "keeps": "swap.keeps.VPULL",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -6510,8 +7657,9 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "coach",
-                    "url": "https://youtu.be/m0FOpMEgero"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
+                    "copy_name": "Leg Extension (machine)"
                   },
                   "sets": 2,
                   "reps": {
@@ -6546,10 +7694,29 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "sissy-squat"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "sissy-squat",
+                      "keeps": "swap.keeps.same_muscle",
+                      "loses": "swap.loses.machine_support"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -6582,7 +7749,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)",
+                    "copy_name": "Lying Leg Curl (machine)"
                   },
                   "sets": 2,
                   "reps": {
@@ -6619,11 +7787,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "ball-hamstring-curl-medball-or-stability-ball",
                     "machine-leg-curl-seated-or-lying"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "ball-hamstring-curl-medball-or-stability-ball",
+                      "keeps": "swap.keeps.LEG_FLEXION",
+                      "loses": "swap.loses.machine_support"
+                    },
+                    {
+                      "id": "machine-leg-curl-seated-or-lying",
+                      "keeps": "swap.keeps.LEG_FLEXION",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -6656,9 +7848,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
+                    "copy_name": "Bent-Over DB Reverse Fly"
                   },
-                  "sets": 2,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -6693,11 +7886,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      15,
+                      20
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "barbell-front-raise",
                     "barbell-upright-row"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "barbell-front-raise",
+                      "keeps": "swap.keeps.same_job",
+                      "loses": "swap.loses.split_grip"
+                    },
+                    {
+                      "id": "barbell-upright-row",
+                      "keeps": "swap.keeps.same_job",
+                      "loses": "swap.loses.split_grip"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -6730,9 +7947,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Machine%20Calf%20Raise",
+                    "copy_name": "Machine Calf Raise"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -6755,7 +7973,7 @@
                   },
                   "load": null,
                   "tempo_key": null,
-                  "superset": "SC",
+                  "superset": null,
                   "laterality": "bilateral",
                   "loading": null,
                   "credits": {
@@ -6766,6 +7984,17 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [
                     {
                       "key": "note.per_side"
@@ -6775,83 +8004,19 @@
                     "barbell-calf-raise",
                     "standing-calf-raise-bodyweight-from-a-deficit-step"
                   ],
-                  "flags": [],
-                  "why": [
+                  "swap_notes": [
                     {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL1"
-                      }
+                      "id": "barbell-calf-raise",
+                      "keeps": "swap.keeps.ISO_CALF",
+                      "loses": "swap.loses.machine_support"
                     },
                     {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "1"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "slot_id": "Mon.A.s17",
-                  "station_id": "A.s17",
-                  "bucket": "ISO_CALF",
-                  "role": "iso",
-                  "origin": "template",
-                  "group": "calves",
-                  "exercise_id": "standing-db-calf-raise-deficit-optional",
-                  "name_key": "exercise.standing-db-calf-raise-deficit-optional.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": null
-                  },
-                  "sets": 1,
-                  "reps": {
-                    "type": "per_side",
-                    "min": 8,
-                    "max": 12
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 1,
-                    "max": 1,
-                    "rpe_min": 9,
-                    "rpe_max": 9,
-                    "last_set": null,
-                    "intensifier": true
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": "SC",
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "calves": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
+                      "id": "standing-calf-raise-bodyweight-from-a-deficit-step",
+                      "keeps": "swap.keeps.ISO_CALF",
+                      "loses": "swap.loses.top_load"
                     }
                   ],
-                  "swaps": [
-                    "barbell-calf-raise",
-                    "machine-calf-raise"
-                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -6882,15 +8047,34 @@
           "label_key": "day.athletic.2.B",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 64,
-          "minutes_limit": 60,
+          "est_minutes": 61,
+          "exercise_count": 11,
+          "skeleton": null,
+          "easy_to_remove": [
+            {
+              "slot_id": "Thu.B.s16",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Thu.B.s14",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Thu.B.s13",
+              "kind": "small_muscle_accessory"
+            },
+            {
+              "slot_id": "Thu.B.s12",
+              "kind": "small_muscle_accessory"
+            }
+          ],
           "supersets_on": true,
           "groups": {
             "quads": 2,
             "hips": 2,
             "back": 2,
             "chest": 2,
-            "calves": 2
+            "calves": 1
           },
           "why": [
             {
@@ -6941,8 +8125,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -6972,8 +8159,9 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "observed",
-                    "url": "https://www.youtube.com/watch?v=wq6N_PjU5fA"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
+                    "copy_name": "Plank (forearm / low plank)"
                   },
                   "sets": 2,
                   "reps": {
@@ -7009,8 +8197,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -7033,7 +8224,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
+                    "copy_name": "Reverse Crunch"
                   },
                   "sets": 2,
                   "reps": {
@@ -7069,8 +8261,11 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [],
                   "swaps": [],
+                  "swap_notes": [],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -7101,7 +8296,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Forward%20Plate%20Hops",
+                    "copy_name": "Bilateral Forward Plate Hops"
                   },
                   "sets": 2,
                   "reps": {
@@ -7135,6 +8331,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [
                     {
                       "key": "note.rc3"
@@ -7144,6 +8341,19 @@
                     "alternating-single-leg-plate-hops-hop-off-bilateral",
                     "ankle-hops-bilateral-in-place"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "alternating-single-leg-plate-hops-hop-off-bilateral",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
+                      "id": "ankle-hops-bilateral-in-place",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.difficulty"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -7177,7 +8387,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=High-Hang%20Snatch%20Pull",
+                    "copy_name": "High-Hang Snatch Pull"
                   },
                   "sets": 3,
                   "reps": {
@@ -7209,6 +8420,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": null,
                   "notes": [
                     {
                       "key": "note.olympic_power"
@@ -7218,6 +8430,19 @@
                     "barbell-push-jerk",
                     "barbell-push-press"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "barbell-push-jerk",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.same_pattern"
+                    },
+                    {
+                      "id": "barbell-push-press",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.same_pattern"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -7251,10 +8476,11 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "coach",
-                    "url": "https://youtu.be/op9kVnSso6Q"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Barbell%20Deadlift%20(conventional)",
+                    "copy_name": "Barbell Deadlift (conventional)"
                   },
-                  "sets": 4,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -7288,11 +8514,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "45-degree-hyperextension-back-hip-extension",
                     "barbell-hip-thrust"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "45-degree-hyperextension-back-hip-extension",
+                      "keeps": "swap.keeps.BHD",
+                      "loses": "swap.loses.implement"
+                    },
+                    {
+                      "id": "barbell-hip-thrust",
+                      "keeps": "swap.keeps.same_job",
+                      "loses": "swap.loses.heavy_spine_load"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [
                     "axial_counted"
                   ],
@@ -7334,9 +8584,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
+                    "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -7371,11 +8622,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "alternating-db-floor-press",
                     "alternating-flat-db-bench-press"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "alternating-db-floor-press",
+                      "keeps": "swap.keeps.HPUSH",
+                      "loses": "swap.loses.bottom_range"
+                    },
+                    {
+                      "id": "alternating-flat-db-bench-press",
+                      "keeps": "swap.keeps.HPUSH",
+                      "loses": "swap.loses.barbell_load"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -7407,10 +8682,11 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "coach",
-                    "url": "https://youtu.be/WxakFlx9zLk"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Front-Foot-Elevated%20Split%20Squat%20%2F%20Lunge%20(FFE)",
+                    "copy_name": "Front-Foot-Elevated Split Squat / Lunge (FFE)"
                   },
-                  "sets": 4,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 6,
@@ -7444,6 +8720,17 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      6,
+                      8
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [
                     {
                       "key": "note.per_side"
@@ -7453,6 +8740,19 @@
                     "cossack-lateral-lunge",
                     "curtsy-lunge"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "cossack-lateral-lunge",
+                      "keeps": "swap.keeps.UKD",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "curtsy-lunge",
+                      "keeps": "swap.keeps.UKD",
+                      "loses": "swap.loses.external_load"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -7485,9 +8785,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Inverted%20Row",
+                    "copy_name": "Inverted Row"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -7522,11 +8823,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row",
                     "bent-over-barbell-row-supinated-yates-grip"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "bent-over-barbell-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.implement"
+                    },
+                    {
+                      "id": "bent-over-barbell-row-supinated-yates-grip",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.implement"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -7559,9 +8884,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Assisted%20Pull-Up%20Machine%20(Close%20Grip)",
+                    "copy_name": "Assisted Pull-Up Machine (Close Grip)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -7595,11 +8921,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      12,
+                      15
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "assisted-pull-up-machine",
                     "assisted-pull-up-machine-pronated-grip"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "assisted-pull-up-machine",
+                      "keeps": "swap.keeps.VPULL",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "assisted-pull-up-machine-pronated-grip",
+                      "keeps": "swap.keeps.VPULL",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -7640,7 +8990,8 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)",
+                    "copy_name": "Seated Leg Curl (machine)"
                   },
                   "sets": 2,
                   "reps": {
@@ -7675,11 +9026,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "ball-hamstring-curl-medball-or-stability-ball",
                     "lying-leg-curl-machine"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "ball-hamstring-curl-medball-or-stability-ball",
+                      "keeps": "swap.keeps.LEG_FLEXION",
+                      "loses": "swap.loses.machine_support"
+                    },
+                    {
+                      "id": "lying-leg-curl-machine",
+                      "keeps": "swap.keeps.LEG_FLEXION",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -7712,9 +9087,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Cable%20Fly",
+                    "copy_name": "Cable Fly"
                   },
-                  "sets": 2,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -7747,11 +9123,35 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "flat-db-fly",
                     "machine-fly-pec-deck"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "flat-db-fly",
+                      "keeps": "swap.keeps.ISO_CHEST",
+                      "loses": "swap.loses.cable_tension"
+                    },
+                    {
+                      "id": "machine-fly-pec-deck",
+                      "keeps": "swap.keeps.ISO_CHEST",
+                      "loses": "swap.loses.cable_tension"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -7783,8 +9183,9 @@
                   "text_key": null,
                   "cue_key": null,
                   "video": {
-                    "kind": "coach",
-                    "url": "https://youtu.be/m0FOpMEgero"
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
+                    "copy_name": "Leg Extension (machine)"
                   },
                   "sets": 2,
                   "reps": {
@@ -7819,10 +9220,29 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [],
                   "swaps": [
                     "sissy-squat"
                   ],
+                  "swap_notes": [
+                    {
+                      "id": "sissy-squat",
+                      "keeps": "swap.keeps.same_muscle",
+                      "loses": "swap.loses.machine_support"
+                    }
+                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -7855,9 +9275,10 @@
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": null
+                    "url": "https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise",
+                    "copy_name": "Barbell Calf Raise"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -7880,7 +9301,7 @@
                   },
                   "load": null,
                   "tempo_key": null,
-                  "superset": "SC",
+                  "superset": null,
                   "laterality": "bilateral",
                   "loading": null,
                   "credits": {
@@ -7891,6 +9312,17 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
+                  "progression": {
+                    "kind": "double_progression",
+                    "rep_range": [
+                      8,
+                      12
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
                   "notes": [
                     {
                       "key": "note.per_side"
@@ -7900,83 +9332,19 @@
                     "machine-calf-raise",
                     "standing-calf-raise-bodyweight-from-a-deficit-step"
                   ],
-                  "flags": [],
-                  "why": [
+                  "swap_notes": [
                     {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL1"
-                      }
+                      "id": "machine-calf-raise",
+                      "keeps": "swap.keeps.ISO_CALF",
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "1"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "slot_id": "Thu.B.s17",
-                  "station_id": "B.s17",
-                  "bucket": "ISO_CALF",
-                  "role": "iso",
-                  "origin": "template",
-                  "group": "calves",
-                  "exercise_id": "standing-calf-raise-bodyweight-from-a-deficit-step",
-                  "name_key": "exercise.standing-calf-raise-bodyweight-from-a-deficit-step.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": null
-                  },
-                  "sets": 1,
-                  "reps": {
-                    "type": "per_side",
-                    "min": 8,
-                    "max": 12
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 1,
-                    "max": 1,
-                    "rpe_min": 9,
-                    "rpe_max": 9,
-                    "last_set": null,
-                    "intensifier": true
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": "SC",
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "calves": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
+                      "id": "standing-calf-raise-bodyweight-from-a-deficit-step",
+                      "keeps": "swap.keeps.ISO_CALF",
+                      "loses": "swap.loses.free_weight_balance"
                     }
                   ],
-                  "swaps": [
-                    "barbell-calf-raise",
-                    "machine-calf-raise"
-                  ],
+                  "instead_of": null,
                   "flags": [],
                   "why": [
                     {
@@ -8004,12 +9372,12 @@
   ],
   "summary": {
     "total_resistance_sets_by_week": [
-      46,
-      47,
-      51
+      42,
+      44,
+      46
     ],
-    "max_weekly_rise": 0.0851,
-    "planned_steps_max": 0.05,
+    "max_weekly_rise": 0.0476,
+    "planned_steps_max": 0.1667,
     "stair_levels": [
       2,
       5.4,
@@ -8017,49 +9385,49 @@
     ],
     "sets_by_muscle_by_week": {
       "quads": [
-        10,
-        10,
-        12
+        8,
+        8,
+        8
       ],
       "hamstrings": [
-        10,
-        10,
-        11
+        8,
+        8,
+        8
       ],
       "glutes": [
-        3,
-        3,
-        3.75
+        2,
+        2,
+        2
       ],
       "chest": [
-        5,
-        5,
-        5
+        6,
+        7,
+        8
       ],
       "lats_upper_back": [
-        10,
-        11,
-        12
+        8,
+        8,
+        8
       ],
       "side_delts": [
         0.75,
-        0.75,
-        0.75
+        1,
+        1
       ],
       "rear_delts": [
-        3.5,
-        3.5,
-        3.5
+        4,
+        4,
+        5
       ],
       "biceps": [
-        2.5,
-        2.75,
-        3
+        2,
+        2,
+        2
       ],
       "triceps": [
         1.5,
-        1.5,
-        1.5
+        2,
+        2
       ],
       "calves": [
         6,
@@ -8078,8 +9446,8 @@
       ],
       "front_delts": [
         3.75,
-        3.75,
-        3.75
+        5,
+        5
       ],
       "traps": [
         0,
@@ -8087,9 +9455,9 @@
         0
       ],
       "adductors": [
-        1.5,
-        1.5,
-        2
+        1,
+        1,
+        1
       ],
       "neck": [
         0,
@@ -8099,44 +9467,44 @@
     },
     "sets_by_line_by_week": {
       "quads": [
-        10,
-        10,
-        12
+        8,
+        8,
+        8
       ],
       "hamstrings": [
-        10,
-        10,
-        11
+        8,
+        8,
+        8
       ],
       "glutes": [
-        3,
-        3,
-        3.75
+        2,
+        2,
+        2
       ],
       "chest": [
-        5,
-        5,
-        5
+        6,
+        7,
+        8
       ],
       "lats_upper_back": [
-        10,
-        11,
-        12
+        8,
+        8,
+        8
       ],
       "shoulders": [
-        7.25,
-        7.25,
-        7.25
+        7.75,
+        9,
+        10
       ],
       "biceps": [
-        2.5,
-        2.75,
-        3
+        2,
+        2,
+        2
       ],
       "triceps": [
         1.5,
-        1.5,
-        1.5
+        2,
+        2
       ],
       "calves": [
         6,
@@ -8146,39 +9514,39 @@
     },
     "sets_by_group_by_week": {
       "quads": [
-        10,
-        10,
-        12
+        8,
+        8,
+        8
       ],
       "hips": [
-        11.5,
-        11.5,
-        13
+        9,
+        9,
+        9
       ],
       "back": [
-        10,
-        11,
-        12
+        8,
+        8,
+        8
       ],
       "chest": [
-        5,
-        5,
-        5
+        6,
+        7,
+        8
       ],
       "shoulders": [
-        7.25,
-        7.25,
-        7.25
+        7.75,
+        9,
+        10
       ],
       "biceps": [
-        2.5,
-        2.75,
-        3
+        2,
+        2,
+        2
       ],
       "triceps": [
         1.5,
-        1.5,
-        1.5
+        2,
+        2
       ],
       "calves": [
         6,
@@ -8188,31 +9556,69 @@
     },
     "target_by_muscle_by_week": {
       "quads": [
-        10,
-        10.3,
-        10.82
+        8,
+        8,
+        8
       ],
       "hamstrings": [
-        10,
-        10.3,
-        10.82
+        8,
+        8,
+        8
+      ],
+      "chest": [
+        6,
+        7,
+        8
       ],
       "lats_upper_back": [
-        10,
-        10.3,
-        10.82
+        8,
+        8,
+        8
       ],
       "shoulders": [
         6,
-        6.18,
-        6.49
+        7,
+        8
       ],
       "calves": [
-        10,
-        10.3,
-        10.82
+        6,
+        6,
+        6
       ]
     },
+    "target_by_group_by_week": {
+      "quads": [
+        8,
+        8,
+        8
+      ],
+      "hips": [
+        8,
+        8,
+        8
+      ],
+      "back": [
+        8,
+        8,
+        8
+      ],
+      "chest": [
+        6,
+        7,
+        8
+      ],
+      "shoulders": [
+        6,
+        7,
+        8
+      ],
+      "calves": [
+        6,
+        6,
+        6
+      ]
+    },
+    "acceleration": [],
     "myo_equivalent_sets_by_week": [
       0,
       0,
@@ -8240,7 +9646,7 @@
       {
         "id": "V3",
         "key": "check.v3_short_athletes",
-        "severity": "warn",
+        "severity": "error",
         "pass": true,
         "violations": []
       },

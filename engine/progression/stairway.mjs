@@ -1,5 +1,17 @@
-// PROPOSED numerical implementation of CX-01..03, not the planner or a safety model.
+// engine/progression/stairway.mjs - the arithmetic kernel of the weekly-set stairway (engine 0.5.0).
+// Coach answers: CX-01 (reach the planned final target, faster steps allowed), CX-02 / CX-03 (the same sets may hold while reps or
+// load progress), R4-PRG-01 (reach the top number in the last week, one week early at most), R4-PRG-02 (no hard limit; a note when
+// a week adds more than about 15 %). Moved from design/progression/ with the fixes of reviews/claude-codex-audit.md:
+//   MEDIUM-2  a loose logTolerance can no longer return status 'ok' (MAX_LOG_TOLERANCE)
+//   MEDIUM-3  acceleration is reported from the INTEGER schedule (accelerationReport), not only from the smooth curve
+//   MEDIUM-4  the default rounding is arrival-preserving ('arrival': half up, held one set under the top until the arrival week)
+// Pure arithmetic: no I/O, no clock, no randomness, no model access. It is not a safety model.
 // Units: curve values may be credited sets; scheduled coordinates are actual work sets.
+
+/** MEDIUM-2: numerical controls are engineering parameters; a tolerance above this bound is refused, never 'ok'. */
+export const MAX_LOG_TOLERANCE = 1e-6;
+/** The engine's default numerical controls (computational only, never training limits). */
+export const DEFAULT_NUMERICS = Object.freeze({ logTolerance: 1e-12, maxIterations: 200, maxBracketDoublings: 80 });
 
 function object(value, name) {
   if (value === null || typeof value !== 'object' || Array.isArray(value)) {
@@ -86,6 +98,9 @@ export function solveEndpointCurve(input) {
   if (logTolerance === 0) throw new RangeError('logTolerance must be positive');
   integer(maxIterations, 'numerics.maxIterations');
   integer(maxBracketDoublings, 'numerics.maxBracketDoublings');
+  // MEDIUM-2 (reviews/claude-codex-audit.md): a loose tolerance pinned the endpoint with most of the growth missing and still said
+  // 'ok'. The controls may not turn a numerical failure into success: above the bound the curve is unresolved.
+  if (logTolerance > MAX_LOG_TOLERANCE) return curveFailure('unresolved', 'tolerance_too_loose', { logTolerance, maxLogTolerance: MAX_LOG_TOLERANCE });
   if (peak < start) return curveFailure('unreachable', 'peak_below_start');
 
   const referenceLogGrowth = logGrowth(1, rates);
@@ -188,6 +203,194 @@ function roundingMode(rounding) {
   if (rounding !== 'floor' && rounding !== 'half_up') {
     throw new RangeError('rounding must be floor or half_up');
   }
+}
+
+/**
+ * MEDIUM-4 / R4-PRG-01: arrival-preserving whole sets. Half up ("you round up, you round down", VOL-06), but the count stays at
+ * least one set under the top until the arrival week, so the top number is reached in the last week (weeksEarly 0, the default)
+ * or one week early (weeksEarly 1) and never earlier. `progress` is the curve's progress vector (0 ... 1).
+ * @param {{start:number, peak:number, progress:number[], weeksEarly?:number}} input whole sets, peak >= start
+ * @returns {number[]} whole sets per week, non-decreasing, first = start, last = peak
+ */
+export function arrivalSchedule(input) {
+  object(input, 'input');
+  const { start, peak, progress } = input;
+  const weeksEarly = input.weeksEarly === undefined ? 0 : input.weeksEarly;
+  integer(start, 'start'); integer(peak, 'peak'); integer(weeksEarly, 'weeksEarly');
+  if (weeksEarly > 1) throw new RangeError('weeksEarly must be 0 or 1 (R4-PRG-01: one week early at most)');
+  if (peak < start) throw new RangeError('peak must be >= start');
+  const grows = peak > start;
+  progressVector(progress, grows);
+  const n = progress.length;
+  if (grows && n === 1) throw new RangeError('a one-week block cannot grow');
+  const h = peak - start;
+  const arrival = Math.max(1, n - weeksEarly); // 1-based week the top number is first allowed
+  const out = [];
+  for (let w = 1; w <= n; w += 1) {
+    let add = quantize(h, progress[w - 1], 'half_up');
+    if (w < arrival) add = Math.min(add, Math.max(0, h - 1));
+    if (w >= arrival && w === n) add = h;
+    if (w > 1) add = Math.max(add, out[w - 2] - start);
+    out.push(start + add);
+  }
+  if (n > 1 || !grows) out[n - 1] = peak;
+  return out;
+}
+
+/**
+ * MEDIUM-3 / R4-PRG-02: what the INTEGER schedule does, week by week. Information only - none of these numbers is a cap (CX-01).
+ * @param {{sets:number[], referenceRates:number[], noteAbove:number, minWholeSets?:number}} input
+ *   sets: whole (or credited) sets per week; referenceRates: the default pattern's rise for each transition (3 % / 5 %);
+ *   noteAbove: the fraction above which a week is noted (about 0.15); minWholeSets: a rise smaller than this many sets is never
+ *   noted (one whole set is the smallest step a group can take).
+ * @returns {{weeks:Array<{week:number, from:number, to:number, added:number, rise:number|null, defaultRise:number,
+ *   aboveDefault:boolean, noted:boolean}>, accelerated:boolean, noted:number[]}}
+ */
+export function accelerationReport(input) {
+  object(input, 'input');
+  const { sets, referenceRates, noteAbove } = input;
+  const minWholeSets = input.minWholeSets === undefined ? 0 : input.minWholeSets;
+  if (!Array.isArray(sets) || sets.length === 0) throw new TypeError('sets must be a nonempty array');
+  if (!Array.isArray(referenceRates) || referenceRates.length !== sets.length - 1) throw new RangeError('referenceRates must give one rate per transition');
+  finite(noteAbove, 'noteAbove'); finite(minWholeSets, 'minWholeSets');
+  for (let i = 0; i < sets.length; i += 1) finite(sets[i], `sets[${i}]`);
+  const weeks = [];
+  for (let i = 1; i < sets.length; i += 1) {
+    finite(referenceRates[i - 1], `referenceRates[${i - 1}]`);
+    const from = sets[i - 1], to = sets[i], added = to - from;
+    const rise = from === 0 ? (added === 0 ? 0 : null) : added / from;
+    const defaultRise = referenceRates[i - 1];
+    const tiny = 1e-9;
+    const aboveDefault = added > 0 && (rise === null || rise > defaultRise + tiny);
+    const noted = added > 0 && added >= minWholeSets - tiny && (rise === null || rise > noteAbove + tiny);
+    weeks.push({ week: i + 1, from, to, added, rise, defaultRise, aboveDefault, noted });
+  }
+  return freeze({ weeks, accelerated: weeks.some((w) => w.aboveDefault), noted: weeks.filter((w) => w.noted).map((w) => w.week) });
+}
+
+/**
+ * One group's whole-set stairway from start to the planned final target (CX-01: the target is reached; lambda may pass 1).
+ * @param {{start:number, peak:number, rates:number[], weeksEarly?:number, noteAbove:number, minWholeSets?:number, numerics?:object}} input
+ * @returns {{status:string, sets:number[], lambda:number|null, curveAccelerated:boolean, report:object, code?:string}}
+ */
+export function planStairway(input) {
+  object(input, 'input');
+  const { start, peak, rates } = input;
+  integer(start, 'start'); integer(peak, 'peak');
+  if (peak < start) throw new RangeError('peak must be >= start');
+  const c = stairwayProgress({ start, peak, rates, numerics: input.numerics });
+  const sets = c.progress ? arrivalSchedule({ start, peak, progress: c.progress, weeksEarly: input.weeksEarly }) : Array(rates.length + 1).fill(start);
+  const report = accelerationReport({ sets, referenceRates: rates, noteAbove: input.noteAbove, minWholeSets: input.minWholeSets });
+  return freeze({ status: c.status, sets, lambda: c.lambda, curveAccelerated: c.curveAccelerated, report, ...(c.code ? { code: c.code } : {}) });
+}
+
+/**
+ * The curve of one group as a progress vector (0 in the first week ... 1 in the last): the 3 % / 5 % weights scaled by one lambda so
+ * the curve runs from start to peak (solveEndpointCurve), or - a zero start, an all-zero weight vector, a numerical failure - the
+ * whole sets spread evenly, the endpoint still reached (CX-01); a failure is reported, never hidden. `progress` is null when the
+ * group does not grow.
+ * @param {{start:number, peak:number, rates:number[], numerics?:object}} input
+ * @returns {{status:string, progress:number[]|null, lambda:number|null, curveAccelerated:boolean, code?:string}}
+ */
+export function stairwayProgress(input) {
+  object(input, 'input');
+  const { start, peak, rates } = input;
+  integer(start, 'start'); integer(peak, 'peak');
+  const numerics = input.numerics || DEFAULT_NUMERICS;
+  if (peak < start) throw new RangeError('peak must be >= start');
+  if (peak === start || rates.length === 0) return { status: 'ok', progress: null, lambda: 0, curveAccelerated: false };
+  const usable = start > 0 && rates.some((r) => r > 0);
+  const curve = usable ? solveEndpointCurve({ start, peak, rates, numerics }) : null;
+  if (curve && curve.status === 'ok') return { status: 'ok', progress: curve.progress.slice(), lambda: curve.lambda, curveAccelerated: curve.accelerated };
+  const n = rates.length + 1;
+  const progress = Array.from({ length: n }, (_, i) => (i === n - 1 ? 1 : i / (n - 1)));
+  if (curve && curve.status === 'unresolved') return { status: 'unresolved_curve_linear_fallback', progress, lambda: null, curveAccelerated: false, code: curve.code };
+  return { status: 'linear_fallback', progress, lambda: null, curveAccelerated: false, code: curve ? curve.code : (start === 0 ? 'zero_start' : 'no_positive_rate') };
+}
+
+/**
+ * Engine 0.5.0, fix round 1 (R3-VOL-04 'about 3 % a week to halfway, about 5 % after'; R2-PER-03 / R2-PER-04 'like steps up a
+ * stairway ... the last 4 weeks ... week by week'; R4-PRG-01 'reach it in the last week ... one week early is fine, never earlier';
+ * the coach-eye reviews of samples 01 / 02 / 03 / 06 / 08: every group stepped in the same weeks, so the week's total sat flat and
+ * then jumped, and every group took its last set in the final week).
+ *
+ * The whole-set schedules of ALL the groups of one block, fitted together. Each group still runs from its start to its final sets
+ * on its own curve; what is shared is WHEN the whole sets land:
+ *   - the week's total follows the sum of the groups' curves, rounded half up (never down);
+ *   - the sets a week adds go to the groups that will be furthest behind their own curve (largest remainder, read one week
+ *     ahead so a steep curve steps before it has to jump), one set at a time, a group that has not stepped this week first - the
+ *     groups take turns instead of all stepping together;
+ *   - a group is never a whole set or more behind its own curve;
+ *   - a group stays at least one set under its final sets until the first week it may arrive (the last week, or `weeksEarly` weeks
+ *     before it - 1 at most, R4-PRG-01), and at most half of the groups still climbing arrive a week early, so the last steps are
+ *     shared between the last two weeks instead of landing in one;
+ *   - `cap[g][w]` (optional) is the most a group can hold in a week; a schedule never passes it.
+ * Pure arithmetic, deterministic: ties go to the group that waited longest for a set, then to the earlier group in `groups`.
+ * @param {{groups:Array<{id:string, start:number, peak:number, progress:number[]|null, cap?:number[]}>, weeks:number, weeksEarly?:number}} input
+ * @returns {{sets:Object<string,number[]>, total:number[]}} whole sets per group and week; first = start, last = peak (or the cap)
+ */
+export function staggerStairways(input) {
+  object(input, 'input');
+  const { groups, weeks } = input;
+  const weeksEarly = input.weeksEarly === undefined ? 0 : input.weeksEarly;
+  if (!Array.isArray(groups)) throw new TypeError('groups must be an array');
+  integer(weeks, 'weeks'); integer(weeksEarly, 'weeksEarly');
+  if (weeks < 1) throw new RangeError('weeks must be >= 1');
+  if (weeksEarly > 1) throw new RangeError('weeksEarly must be 0 or 1 (R4-PRG-01: one week early at most)');
+  const tiny = 1e-9;
+  const firstArrival = Math.max(1, weeks - 1 - weeksEarly); // 0-based index of the first week a group may hold its final sets
+  const G = groups.map((g, order) => {
+    object(g, 'group');
+    integer(g.start, 'start'); integer(g.peak, 'peak');
+    if (g.peak < g.start) throw new RangeError('peak must be >= start');
+    const grows = g.peak > g.start && weeks > 1;
+    if (grows) { progressVector(g.progress, true); if (g.progress.length !== weeks) throw new RangeError('progress must give one value per week'); }
+    if (g.cap !== undefined && (!Array.isArray(g.cap) || g.cap.length !== weeks)) throw new RangeError('cap must give one value per week');
+    const h = g.peak - g.start;
+    // the group's own curve. A group with a small climb (2 or 3 sets) would reach 'one set under the top' long before it may
+    // arrive and then sit flat for weeks: until the first arrival week its curve is the same shape scaled to end one set under
+    // the top in the week before, so its early steps are spread over the block instead
+    const pre = grows && firstArrival >= 2 ? g.progress[firstArrival - 1] : 0;
+    const scaled = grows && pre > 0 && h * pre > h - 1;
+    const ideal = (w) => (!grows ? g.start : w < firstArrival && scaled ? g.start + (h - 1) * (g.progress[w] / pre) : g.start + h * g.progress[w]);
+    return { id: g.id, order, start: g.start, peak: grows ? g.peak : g.start, grows, ideal, cap: g.cap || null, cur: g.start, waited: 0, out: [g.start] };
+  });
+  // the groups that arrive a week early are at most half of those still climbing: the last steps are shared between the last two weeks
+  let earlyLeft = 0;
+  const room = (g, w) => {
+    let max = g.peak;
+    if (g.grows && w < firstArrival) max = g.peak - 1;
+    if (g.grows && w === firstArrival && w < weeks - 1 && earlyLeft <= 0) max = g.peak - 1;
+    if (g.cap) max = Math.min(max, g.cap[w]);
+    return Math.max(g.cur, max);
+  };
+  const total = [G.reduce((a, g) => a + g.cur, 0)];
+  for (let w = 1; w < weeks; w += 1) {
+    const last = w === weeks - 1;
+    const stepped = new Set();
+    if (w === firstArrival && w < weeks - 1) earlyLeft = Math.floor(G.filter((g) => g.grows && g.cur < g.peak).length / 2);
+    const give = (g) => { g.cur += 1; stepped.add(g); if (g.grows && g.cur === g.peak && w === firstArrival && w < weeks - 1) earlyLeft -= 1; };
+    // a group is never a whole set or more behind its own curve; in the last week every group arrives
+    for (const g of G) while (g.cur < room(g, w) && (last ? g.cur < g.peak : g.ideal(w) - g.cur >= 1 - tiny)) give(g);
+    // the week's total follows the sum of the curves; its sets go to the groups furthest behind their own curve
+    const want = Math.floor(G.reduce((a, g) => a + g.ideal(w), 0) + 0.5 + tiny);
+    for (let guard = 0; guard < 10000; guard += 1) {
+      if (G.reduce((a, g) => a + g.cur, 0) >= want) break;
+      const open = G.filter((g) => g.cur < room(g, w));
+      if (!open.length) break;
+      // (a group already half a set ahead of its curve takes no set just to fill the total; a group that has not stepped this week
+      // goes first; then the group that will be furthest behind its curve next week - a steep curve steps before it has to jump)
+      const ok = open.filter((g) => g.ideal(w) - g.cur > -0.5 + tiny);
+      if (!ok.length) break;
+      const next = Math.min(w + 1, weeks - 1);
+      const need = (g) => Math.round((g.ideal(next) - g.cur) * 1e9) / 1e9;
+      ok.sort((a, b) => ((stepped.has(a) ? 1 : 0) - (stepped.has(b) ? 1 : 0)) || (need(b) - need(a)) || (b.waited - a.waited) || (a.order - b.order));
+      give(ok[0]);
+    }
+    for (const g of G) { g.waited = stepped.has(g) ? 0 : g.waited + 1; g.out.push(g.cur); }
+    total.push(G.reduce((a, g) => a + g.cur, 0));
+  }
+  return freeze({ sets: Object.fromEntries(G.map((g) => [g.id, g.out])), total });
 }
 
 function progressVector(progress, grows) {

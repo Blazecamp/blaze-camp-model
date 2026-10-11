@@ -1,28 +1,29 @@
-# Roadmap: what is done, what is in progress, what comes next
+# Roadmap: what is done, what is open, what comes next
 
-On 2026-10-09 the model was complete enough to read and study: three rounds of the coach's answers were applied and traced, and 52 sports and 26 activities were covered. The plan engine was not finished. It built complete plans, but AI reviewers kept grading them low (C- to D, then D to B- after a first round of fixes), mostly for the dosing. So the dosing part is being redesigned as an optimizer. Next come the planner's specification, a benchmark that scores plans against his rules, new sample plans for him to grade, and the review of the Spanish and the legal texts. The website comes later. A public release has its own checklist, including review of the disclaimers by a Florida attorney. Nothing in this roadmap changes a coaching rule. Plans and estimates here are the team's, and they are marked PROPOSED or INFERRED where he has not confirmed them.
+On 2026-10-11 the model is complete at version 1.3: four rounds of the coach's answers and his two later clarifications are applied and traced, and 52 sports and 26 activities are covered. The plan engine is at version 0.5 and is labelled experimental. It builds complete plans from his own templates with no time-fitting, passes its tests and checks, and its 8 sample plans get B- to B+ from AI reviewers. The coach has not graded them. The large optimizer planner that this page used to list as the next step is parked. Next come the coach's own review of the sample plans, his answers to 14 open questions, more engine work on athletic doses, the review of the Spanish and of the legal texts, and only then the tool that people will see. Nothing in this roadmap changes a coaching rule. Plans and estimates here are the team's, and they are marked PROPOSED or INFERRED where he has not confirmed them.
 
-> **How to read this page.** The status is a snapshot of 2026-10-09. The steps that led here are on [timeline.md](timeline.md). For anything that moves, read the live file named in the row. **The team** means the people working with the coach plus the AI agents they ran. A **coach-eye reviewer** is an AI agent that reads a plan the way the coach would. It is not the coach. Ids such as `R2-GEN-07` point to his answers: no prefix is round 1, `R2-` is round 2, `R3-` is round 3.
+> **How to read this page.** The status is a snapshot of 2026-10-11. The steps that led here are on [timeline.md](timeline.md). For anything that moves, read the live file named in the row. **The team** means the people working with the coach plus the AI agents they ran. A **coach-eye reviewer** is an AI agent that reads a plan the way the coach would. It is not the coach. Ids such as `R2-GEN-07` point to his answers: no prefix is round 1, `R2-` is round 2, `R3-` is round 3, `R4-` is round 4, `CT-01` is his clarification on session time and `CX-01` to `CX-04` are his clarifications on progression and editing.
 
 ## The rule: the order of the work
 
 | # | Rule | Decided by |
 |---|---|---|
-| 1 | The model comes first. No website or app is built until the data and the context are organized. | Coach, in conversation |
+| 1 | The model comes first. No website or app is built until the logic, the model and its testing are finished. | Coach, in conversation ([coach_chat_statements.md](../../coach_chat_statements.md)). He said it again on 2026-10-11, in the session that built engine 0.5. That request is not recorded in an answer file |
 | 2 | The first product is a simple, phone-friendly website, not an app. | GEN-03, R2-GEN-02 ([ADR-006](../04-decisions/adr-006-website-not-app.md)) |
-| 3 | The repository is opened to everyone after he approves the model. | R2-GEN-02 |
+| 3 | The model is released as the finished product. The engine stays labelled experimental until its plans are good enough. | R4-REL-01 |
 | 4 | He grades sample plans before launch. | R2-GEN-07 |
 | 5 | No check-ins, no tracking and no data kept, in any phase. So there are no accounts either (the team's reading of "I don't want any data kept"). | R3-VOL-02, R3-VOL-04, R3-GEN-01 |
-| 6 | The license is MIT. The disclaimers exist in English and Spanish. | R3-GEN-01 ([ADR-009](../04-decisions/adr-009-mit-license-and-disclaimers.md)) |
-| 7 | The planner is rebuilt as an optimizer before the sample plans go to him. | Team ([ADR-048](../04-decisions/adr-048-optimizer-rebuild-of-the-planner.md)) |
+| 6 | The license is MIT. The disclaimers exist in English and Spanish. The terms and release are accepted before any plan is built. | R3-GEN-01, R4-SCP-02 ([ADR-009](../04-decisions/adr-009-mit-license-and-disclaimers.md), [ADR-056](../04-decisions/adr-056-liability-gate-before-every-plan.md)) |
+| 7 | The engine follows his templates and does no time-fitting. The large optimizer planner is parked as research. | Team ([ADR-058](../04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md)), following CT-01 and R4-REL-02 |
+| 8 | The repo credits Coach Lalo (Gerardo Vera), Master NASM coach, as author and owner. It claims neither to be the best nor to prevent injury. | R4-REL-03 |
 
 ## Why
 
 **Why the model before the product.** His idea of the product was open in round 1: "I was going to create a whole app, but that kind of fell through, so I don't want to create a whole app. Maybe just a website" (GEN-03). In the same answer he first raised giving the model away: "just give away the repo, open source it to any coach and person that wants to create a training app" (GEN-03).
 
-**Why it must stay simple.** "Yeah, ideally, we want to make it as simple as possible. The fewer clicks, the better." (R2-GEN-02). And in round 3: "I want them to be able to kick out a program, and that's it." (R3-VOL-04)
+**Why it must stay simple.** "Yeah, ideally, we want to make it as simple as possible. The fewer clicks, the better." (R2-GEN-02). In round 3: "I want them to be able to kick out a program, and that's it." (R3-VOL-04). And on time: "I want you to not get complicated over the time." (CT-01)
 
-**Why the planner is rebuilt first.** He asked for "the best mathematical, logical algorithms possible to make sure this is top of the line. Spare no expense." (conversation). The first engine's dosing did not meet that. Sending him plans that the team already knows are wrong would waste his grading.
+**Why the planner is parked.** The optimizer was designed to decide what to keep when a session's minutes could not hold his minimums. He removed that problem: "You need to stop trying to be responsible for the people's time." (CT-01). Without it, his own templates give the layout and the stairway gives the sets. A simpler engine could be built at once, and he asked for that: "I think you can try to build it now." (R4-REL-02)
 
 **Why he grades the plans.** He said he would: "Yes, I will go ahead and go over five different sample plans" (R2-GEN-07). He then listed seven. In the proposal he approved, his grades become automatic tests.
 
@@ -33,155 +34,134 @@ On 2026-10-09 the model was complete enough to read and study: three rounds of t
 | Both Google Sheets exported and every tab dumped to text | [raw/](../../raw/), [dumps/](../../dumps/) | [source-sheets.md](source-sheets.md) |
 | First-pass decode of the library, the reference tabs and every program | [analysis/](../../analysis/) | Each fact marked observed or inferred |
 | Model documents on every topic | [synthesis/](../../synthesis/) | 01 to 13. Most end with the logs of their fact-checks |
-| Three rounds of his answers: 140, 45 (+2), 13 | [coach_answers_full.md](../../coach_answers_full.md), [coach_answers_round2.md](../../coach_answers_round2.md), [coach_answers_round3.md](../../coach_answers_round3.md) | Never edited |
-| Every answer traced to the master and the spec | [coverage_matrix.md](../../coverage_matrix.md), [coverage_matrix_round2.md](../../coverage_matrix_round2.md), [coverage_matrix_round3.md](../../coverage_matrix_round3.md) | No row left missing |
-| Master document v1.2 and spec 1.2.0 | [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md), [generator_spec_v1.json](../../generator_spec_v1.json) | Round 3 applied |
-| Sport coverage: 127 profiles, 52 sports, 26 activities | [synthesis/04_profiles.json](../../synthesis/04_profiles.json) | Many inner numbers still PROPOSED: [sports.md](../02-model/sports.md) |
+| Four rounds of his answers: 140, 45 (+2), 13, 20 | [coach_answers_full.md](../../coach_answers_full.md), [coach_answers_round2.md](../../coach_answers_round2.md), [coach_answers_round3.md](../../coach_answers_round3.md), [coach_answers_round4.md](../../coach_answers_round4.md) | Never edited |
+| Two clarifications: session time (CT-01) and progression and editing (CX-01..04) | [coach_answers_time_2026-10-10.md](../../coach_answers_time_2026-10-10.md), [coach_answers_codex_2026-10-10.md](../../coach_answers_codex_2026-10-10.md) | Each wins only on its own subject |
+| Every answer traced to the master and the spec | `coverage_matrix.md`, `coverage_matrix_round2.md`, `coverage_matrix_round3.md`, `coverage_matrix_round4.md` | One file per round |
+| Master document v1.3 and the matching spec | [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md), [generator_spec_v1.json](../../generator_spec_v1.json) | Round 4, CT-01 and CX applied. Section 0d of the master lists the changes |
+| Sport coverage: 127 profiles, 52 sports, 26 activities, each with a confidence label | [synthesis/04_profiles.json](../../synthesis/04_profiles.json), [sports.md](../02-model/sports.md) | 23 confirmed by him, 67 based on a similar sport, 37 proposed |
+| Library: 733 runtime exercises, proposed ones as optional add-ons, no third-party video links in the model data | [model/catalog.json](../../model/catalog.json), [exercise-library.md](../02-model/exercise-library.md) | R4-LIB-01 to R4-LIB-05 |
 | MIT license | [LICENSE](../../LICENSE) | To Lalo Vera, doing business as Blaze Camp, and BFit Studios Corp. |
 | Disclaimers in English and Spanish | [DISCLAIMER.md](../../DISCLAIMER.md), [DISCLAIMER.es.md](../../DISCLAIMER.es.md) | **Drafts.** Attorney review is open |
-| Guides for agents, developers and contributors | [AGENTS.md](../../AGENTS.md), [llms.txt](../../llms.txt), [CONTRIBUTING.md](../../CONTRIBUTING.md), [adding-exercises.md](../adding-exercises.md), [adding-exercises.es.md](../adding-exercises.es.md) | |
-| A first engine that builds a whole plan from one intake, the same plan every time, in English or Spanish | [engine/](../../engine/), [model/](../../model/), [tests/](../../tests/) | A first draft. Its dosing is being rebuilt |
-| Eight sample clients | [samples/intakes/](../../samples/intakes/) | His seven plus a pickleball player |
-| A measured diagnosis of the dosing, a study of methods, and every rule written as a constraint | [design/diagnosis.md](../../design/diagnosis.md), [design/algorithm_research.md](../../design/algorithm_research.md), [design/rules_as_constraints.md](../../design/rules_as_constraints.md) | |
-| A guide and a research brief for the outside reviewer | [REVIEW_GUIDE.md](../../REVIEW_GUIDE.md), [CODEX_BRIEF.md](../../CODEX_BRIEF.md) | |
+| Guides for agents, developers, contributors and reviewers | [AGENTS.md](../../AGENTS.md), [llms.txt](../../llms.txt), [CONTRIBUTING.md](../../CONTRIBUTING.md), [REVIEW_GUIDE.md](../../REVIEW_GUIDE.md), [adding-exercises.md](../adding-exercises.md), [adding-exercises.es.md](../adding-exercises.es.md) | |
+| The front door for release | [README.md](../../README.md), [MODEL_CARD.md](../../MODEL_CARD.md), [HANDOFF.md](../../HANDOFF.md) | Status, credit line, scope and limits |
+| Decision records | [docs/04-decisions/](../04-decisions/index.md) | ADR-001 to ADR-058 |
+| Engine 0.5: template-first, no time-fitting, the same plan every time, English or Spanish | [engine/](../../engine/), [model/](../../model/), [tests/](../../tests/) | Experimental. Results below |
+| A benchmark with a scorer written separately from the engine | [design/bench/](../../design/bench/) | 94 intakes plus the 8 samples |
+| Eight sample clients and their plans | [samples/intakes/](../../samples/intakes/), [samples/plans/](../../samples/plans/) | His seven plus a pickleball player. Not graded by him |
+| An outside review of the model's evidence, and an independent audit of the progression arithmetic | [reviews/](../../reviews/) | Findings against his answers are "for discussion" |
+| The research for a larger optimizer planner | [design/](../../design/) | Parked. Kept as research |
 
-## In progress (2026-10-09)
+## Where the engine stands (2026-10-11)
 
-| What | State on 2026-10-09 | Where to look |
+All numbers are from [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md) and [design/bench/V05.md](../../design/bench/V05.md).
+
+| Measure | Target | Result |
 |---|---|---|
-| Engine v0.4 | Round 3 is applied. AI reviewers graded the plans C- to D. A first fix round is done. A second review graded them D to B-, and a second fix round was under way | [samples/REVIEW_LOG.md](../../samples/REVIEW_LOG.md), [engine/README.md](../../engine/README.md) |
-| Planner design | The diagnosis, the research and the rule inventory are written. The step that should have produced three full design documents returned none, so three judges scored the three approaches as briefed. All three favoured the two-stage approach. No final specification yet | [design/](../../design/): `judge_1.md`, `judge_2.md`, `judge_3.md` |
-| Guidance documents | Being written and fact-checked folder by folder | `docs/` |
-| Outside review (Codex) | A first review exists on the git branch `review/codex`. The two reports the brief asks for are not written yet | [CODEX_BRIEF.md](../../CODEX_BRIEF.md) |
+| Tests failing | 0 | 0 of 1,407 (4 to-do, 2 skipped) |
+| Failing error checks on the 8 samples and on the 1,578 sweep intakes (1,500 random, one per sport, one per activity) | 0 | 0 |
+| No time-based behaviour anywhere | In every plan | Holds in all 102 benchmark plans |
+| His templates, slot for slot | In every plan | Holds in every benchmark plan it applies to |
+| Final sets reached; floor of 10 and the 2-day rule | In every plan | Holds in every benchmark plan it applies to |
+| Hard-rule violations in the benchmark | 0 | 3, in 2 of 102 plans |
+| Athletic work at the sport's weekly target | In every athletic plan | Short in 45 of 63 athletic plans |
+| Every shortfall said in the plan | In every plan | 35 unsaid cases in 30 plans |
+| Coach-eye grade of each sample plan | B+ or better | 2 of 8 (grades below) |
 
-The **two-stage approach** means: first decide how many weekly sets each muscle group gets in each week, then fit those sets into days and exercises. The judges' scores are provisional. They are scores of approaches, not of finished designs.
+The targets are the team's, from [design/ENGINE_V05_PLAN.md](../../design/ENGINE_V05_PLAN.md) ("Done means"). They are not his numbers. Two targets of the earlier roadmap are retired: "no flat week on a trained group" (a week may hold the same sets while reps or load progress, CX-02) and "every day inside the chosen minutes" (CT-01).
+
+| Sample | Who | AI grade, third review |
+|---|---|---|
+| Swimming | A 16-year-old high-school swimmer, 3 gym days | B |
+| Football | A 20-year-old college linebacker, 4 days | B |
+| Soccer | A 22-year-old midfielder 10 weeks before the season, 3 days. Spanish output | B |
+| CrossFit-style class | A 35-year-old class member, 4 days | B- |
+| Bootcamp | A 42-year-old general-population client, 3 circuit days, dumbbells and kettlebells. Spanish output | B- |
+| Full-body aesthetics | A 29-year-old, 4 days, his A/B days | B |
+| Push / pull / legs | A 24-year-old, 6 days | B+ |
+| Pickleball (bonus) | A 52-year-old who plays 3 times a week, 2 gym days, knee pain. Also in Spanish | B+ |
+
+The first seven are the ones he named (R2-GEN-07). The pickleball player is the team's addition. **The plans in [samples/plans/](../../samples/plans/) are not approved by him. Do not treat them as examples of his programming.**
 
 ## Next, in order
 
 | # | Step | Who | Done when |
 |---|---|---|---|
-| 1 | Put the open rule conflicts to him | Team asks, coach answers | He has answered the questions below |
-| 2 | Write the planner specification | Team | One document says exactly what the planner decides and in what order of priority |
-| 3 | Build the optimizer planner | Team | It replaces the dosing part of the engine and passes the benchmark |
-| 4 | Build the benchmark | Team | A set of test clients and a scorer that is separate from the planner |
-| 5 | Regenerate the eight sample plans and review them with a coach's eye | Team | The reviewers find no blocker |
-| 6 | He grades the sample plans | Coach | He signs off, or his corrections become new rules and tests |
-| 7 | Review the Spanish | Coach or a coach he trusts | Every line approved (R2-GEN-08) |
-| 8 | Legal review | A licensed Florida attorney | The disclaimers and the health check are final in both languages |
-| 9 | Bring the top-level documents in line with round 3 | Team | README and AGENTS show the current versions and no retired feature |
-| 10 | Public release | Coach | The checklist below is complete |
-| 11 | The website | Later | See "The website, later" |
+| 1 | Consolidate: commit engine 0.5 and model v1.3, and merge into `main` | Lead | `main` holds the release (R4-REL-01) |
+| 2 | Supply his list of certifications | Coach | The marked placeholder in the README and the model card is filled |
+| 3 | Grade the sample plans | Coach | He signs off, or his corrections become new rules and tests |
+| 4 | Answer the open questions below | Coach | Each one is his rule, or stays PROPOSED |
+| 5 | Engine: athletic doses, saying every shortfall, the last hard-rule violations, the class and bootcamp samples | Team | Every sample grades B+ or better and the benchmark has no hard-rule violation |
+| 6 | Review the Spanish | Coach or a coach he trusts | Every line approved (R2-GEN-08) |
+| 7 | Legal review | A licensed Florida attorney | The disclaimers, the health check and the release line are final in both languages |
+| 8 | Public release called final | Coach | The checklist below is complete |
+| 9 | The tool people will see | Later | See "The website, later" |
 
-Steps 2 to 5 and the estimates below are the team's plan (PROPOSED). Steps 6, 7, 8 and 10 depend on him or on a lawyer.
+Step 5 and the estimates below are the team's plan (PROPOSED). Steps 2, 3, 4, 6, 7 and 8 depend on him or on a lawyer.
 
-### 1. Decisions only he can make
+### Decisions only he can make
 
-A solver needs a fixed priority for every pair of rules that can collide. The diagnosis found nine such places. None has been put to him yet.
+**His certifications.** He said he has many and that they could be looked up (R4-REL-03). The team did not look them up and did not invent any. He supplies the list.
 
-| # | Question | Why the planner needs it |
+**Fourteen questions from the engine work.** They are written out in [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md). Until he answers, the engine's choice is PROPOSED.
+
+| # | Question | What the engine does today (PROPOSED) |
 |---|---|---|
-| 1 | May a big muscle group ever be trained below 10 sets when time is short, or must the plan train fewer groups, each at 10 or more? | His approved order says fewer groups (R3-SES-02). The first engine sometimes kept a group below the floor |
-| 2 | Must every day fit the chosen minutes exactly, or may a full-body day run about 10 % over? What about test weeks? | The first engine allowed 10 % |
-| 3 | Is "never flat" measured on the week's total, or on every trained group? | Sets are whole numbers. A group with 2 or 3 sets to add over 11 weeks cannot add one every week |
-| 4 | On 2 and 3-day plans, may a hip exercise go on the knee and pull day when that is the only way a group reaches 10? | The pairing rule and the floor can collide |
-| 5 | For a group that is not trained directly, keep one exercise for its main pattern, or nothing? | His rule of 2 to 4 exercises per group, never 1 (R2-SES-05), collides with keeping every movement pattern in the week |
-| 6 | Calves: is 3 sets on each leg day the whole rule, or do calves also need 10? | With few leg days, 3 sets a day stays under 10 |
-| 7 | For hips (glutes and hamstrings) and shoulders: one ceiling for the group, or one for each part? | It changes how high the stairway can climb |
-| 8 | In a short session for an athlete, what share goes to athletic work and what share to lifting? | The sport profiles give weekly targets with no time limit |
-| 9 | Is the number of exercises per session (VOL-08) a hard limit or a guide? | Full-body days went past it |
+| 1 | Does a high-incline press count for chest? | 1 set for front delts and half a set for chest |
+| 2 | Athletic A/B days: a two-leg lift in slot 2 on every day, so less single-leg work than his earlier 80-90% answer? | Yes, a two-leg lift in slot 2 |
+| 3 | 2- and 3-day athletic weeks: what share of a 4-day profile's jumps, throws, cuts and sprints? | Three quarters |
+| 4 | The class needs a second quad exposure in the week: a lunge, or a leg press or goblet squat? | A lunge, which now sits on the clean + pull day |
+| 5 | Should every plan hold pulling at or above pressing? | Only for sports whose profile asks for it |
+| 6 | A non-competitive adult (pickleball): how many exercises a day? | 5 to 10, from his sheet |
+| 7 | Side delts on a physique plan: a minimum of direct sets? | 4, 6 or 8 by level |
+| 8 | Small kits: may the two-arm dumbbell row and the chest-supported dumbbell row be regular picks? | Swaps only |
+| 9 | In season: is the session on the day before a game the lighter one? | Yes |
+| 10 | Bootcamp with no pull-up bar: does the freed station go to the hips or stay on the pulling side? | It stays on the pulling side (a rear-delt fly) |
+| 11 | Which floor anti-rotation core drills should be regular picks? | Bird dogs and dead bugs beside the planks |
+| 12 | Should throwers and volleyball players press incline-first like the swimmer? | Only the swimmer does |
+| 13 | Circuits: one more round in the last two weeks? | Yes |
+| 14 | May a press lead the pulls by one set while the back sits on its number for the week? | Yes |
 
-Eighteen questions are also waiting from the model side. A few overlap with the nine above. They are listed in [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) §16.6 and in the spec under `open_decisions.round4_candidates_master`. Examples:
+**What became of the nine planner questions.** The earlier version of this page listed nine rule conflicts that the optimizer needed him to rank. None was put to him in that form. Most were settled when time-fitting was removed.
 
-| Question | The team's suggestion (PROPOSED) |
+| The question then | What settled it |
 |---|---|
-| Some muscle lines cannot reach their ceiling with the approved 3 % and 5 % steps. Keep the small steps, or allow bigger late steps? | Keep the steps. The ceiling is a maximum |
-| With his minimums, 2 sessions of 45 minutes hold one big group plus calves. Right? | Keep his minimums and say so up front |
-| A Focus muscle that is an arm or the calves: still trained directly when time is short? | Yes |
-| Focus muscles: +2 sets by default (he said 1 to 3)? | +2 |
-| "Week by week": drop the name, or keep it as the week view of a 12-week plan? | Keep it as a view |
-| Should the model ever learn from user data? | No. It improves through his reviews |
+| May a big group be trained below 10 sets when time is short? | There is no "short on time". The floor of 10 applies from 3 training days. On 2 days every big group is trained at about 6-8 (R4-SES-03) |
+| Must every day fit the chosen minutes? | No minutes are chosen (CT-01, R4-SES-01) |
+| Is "never flat" measured on the total or on every group? | A week may hold the same sets while reps or load progress. The final sets must be reached (CX-01, CX-02) |
+| On 2- and 3-day plans, may a hip exercise go on the knee and pull day? | The days are his templates, and the knee + pull and hip + push pairing is checked on each of them (R4-SES-05) |
+| For a group not trained directly, keep one exercise or nothing? | No group is left out. The template comes out complete (R4-SES-03, R4-SES-04) |
+| In a short session for an athlete, what share is athletic work? | Field athletes get up to 12 exercises: the athletic block, then the lifts (R4-SES-02). The scale for 2- and 3-day weeks is open question 3 above |
+| Is the number of exercises per session a hard limit or a guide? | A recommendation in a template: "They can add 1 if they want to." (R4-SES-02) |
+| Calves: is 3 sets on each leg day the whole rule, or do calves also need 10? | **Still open.** The engine holds 3 sets on each leg day (R3-SES-01) and a weekly calf floor that is PROPOSED |
+| Hips and shoulders: one final number for the group, or one for each part? | **Still open.** Outside physique and strength plans the engine uses one target per group (PROPOSED) |
 
-### 2 and 3. The optimizer planner
+Other open items from the model side are listed in [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) §16 and in the spec under `open_decisions`.
 
-A **planner** is the code that turns his rules and one person's answers into sets per exercise per week. An **optimizer** looks at all the plans that obey the rules and picks the best one by a fixed order of priorities.
+### The engine, toward B+ on every sample
 
-**What it must decide together.** Which groups are trained directly. On which days. How many sets each exercise gets in each week. How much athletic work. Which exercises are paired as supersets.
-
-**The order of priorities** (PROPOSED by the team, from his answers; the judges have already suggested corrections to it):
-
-| Rank | Tier | Source |
+| Area | What is open | Where |
 |---|---|---|
-| 1 | Safety and his hard rules | GEN-08 and the hard rules in [AGENTS.md](../../AGENTS.md) §10 |
-| 2 | His order for short time: say so, offer more time, train fewer groups, recommend supersets | R3-SES-02 |
-| 3 | The floor of 10 on every trained group | R2-VOL-06, R3-VOL-01, R3-SES-02 |
-| 4 | A stairway that climbs | R2-PER-03, R3-VOL-04 |
-| 5 | The session fits the minutes | Team's reading of R3-SES-02. How strict is question 2 above |
-| 6 | Ceilings | R2-VOL-06 |
-| 7 | Exercise counts: 2 to 4 per group | R2-SES-05, R3-SES-01 |
-| 8 | Pairing and order preferences | UNI-11, ORD answers |
-| 9 | Balance and variety | VOL-18, PER-02 |
+| Athletic layer | Jumps, throws, cuts, sprint metres and Olympic sets are often under the sport's weekly target, or flat for weeks. 4 to-do tests | `samples/STATUS_v0.5.md`, "Athletic layer" |
+| Saying it | A shortfall in Olympic sets, or a quality with a target and no station, is not yet said in the plan | Benchmark row A11 |
+| Hard rules | One CrossFit plan has more jumps than its scaled target. One MYO set is placed differently by the scorer and the engine | Benchmark row A1 |
+| Class and bootcamp samples | Still graded B- after both fix rounds. Small kits run out of library lifts | Samples 04 and 05 |
+| Validator | The rules added in the fix rounds are held by tests and the scorer, not yet by a validator check | `engine/validate.mjs` |
+| Printed copy | Minor items: whole sets in the weekly table, one exercise counter, swap lines once per block, the warm-up by day | `samples/STATUS_v0.5.md`, "Not fixed in this round" |
+| Leftovers | The locked-rule list in the compiled model still names the retired "less than 10% a week" rule (LK08). Nothing enforces it | `model/rules.json > locked` |
 
-**What stays the same.** Plain JavaScript that runs in a browser. The same answers always give the same plan. Every decision carries its reason. The exercise catalog, the sport profiles, the choice of exercises and the printed plan are outside the rebuild. The research recommends a solver written in plain JavaScript with no outside dependency. That choice is not final.
+### Spanish
 
-**Where it will live.** The workflow is set to write `design/PLANNER_SPEC.md` and `design/IMPLEMENTATION_PLAN.md`. Neither existed on 2026-10-09.
+The Spanish is neutral Latin American Spanish with the English gym word in brackets where gyms use it (R2-GEN-08). The team reviewed the plan-facing lines during engine 0.5. He has not approved any Spanish yet. 842 machine-translated lines, mostly exercise names and cues, are marked for review in [model/i18n/](../../model/i18n/). The approved process is that he, or a coach he trusts, approves every line. See [ADR-007](../04-decisions/adr-007-bilingual-english-first-full-spanish.md).
 
-### 4. The benchmark
-
-A **benchmark** is a fixed set of test clients plus a scorer. The scorer reads a finished plan and measures it against each rule. It is written separately from the planner, so a passing score means something.
-
-| Part | Plan (PROPOSED) |
-|---|---|
-| Test clients | At least 50 intakes: every goal family, 2 to 6 days, 30 to 120 minutes, every equipment profile, levels 1 to 3, youth to 70 and over, Focus muscles, pain, 15 or more sports, and hard cases such as an athlete with 2 sessions of 30 minutes |
-| Scorer | One score from 0 to 100 per plan, and a list of every rule the plan breaks |
-| Baseline | The current engine scored first, so the new planner has a number to beat |
-| Properties | More time must never train fewer groups. The same intake must always give the same plan |
-
-**Targets** (PROPOSED by the team, not his numbers):
-
-| Measure | Target |
-|---|---|
-| Trained groups at or above the floor, or listed as "not trained directly" | 100 % |
-| Flat weeks on a trained group | 0 |
-| Days inside the chosen minutes, or warned with an offer | 100 % |
-| Hard-rule violations | 0 |
-| Coach-eye grade of each sample plan | B+ or better |
-
-The workflow is set to write the benchmark to `design/bench/`. It did not exist on 2026-10-09.
-
-### 5 and 6. Sample plans graded by the coach
-
-| Sample | Who | Why this one |
-|---|---|---|
-| Swimming | A 16-year-old high-school swimmer, 3 gym days | First on his list. Dryland defaults approved in R3-ATH-01 |
-| Football | A college linebacker, 4 days | The field-athlete day: up to 12 exercises plus 2 core |
-| Soccer | A midfielder 10 weeks before the season, 3 days | The end of the off-season into pre-season. Spanish output |
-| CrossFit-style bootcamp | A class member, 4 days of 60 minutes | The example used in question R3-SES-02 of a schedule that cannot hold the minimums |
-| Bootcamp | A general-population client, 3 days of 45 minutes | The stairway in rounds and seconds. Spanish output |
-| Full-body aesthetics | A 29-year-old, 4 days | 2 to 4 exercises per group on full-body days |
-| Push / pull / legs | A 24-year-old, 6 days | Split days |
-| Pickleball (bonus) | A 52-year-old who plays 3 times a week, 2 gym days of 45 minutes | Stay athletic and active, and a very short week |
-
-The first seven are the ones he named (R2-GEN-07). The pickleball player is the team's addition.
-
-**What he will be asked to do.** Read each plan as if he had written it for that client. Mark what he would change. His corrections become rules, and where a rule is clear, a test. The plans in [samples/plans/](../../samples/plans/) on 2026-10-09 come from the first engine. **They are not approved by him. Do not treat them as examples of his programming.**
-
-### 7. Spanish
-
-The Spanish is neutral Latin American Spanish with the English gym word in brackets where gyms use it (R2-GEN-08). Part of it is machine-translated and marked for review in [model/i18n/](../../model/i18n/). The approved process is that he, or a coach he trusts, approves every line. See [ADR-007](../04-decisions/adr-007-bilingual-english-first-full-spanish.md).
-
-### 8. Legal review
+### Legal review
 
 | Text | State | Who finishes it |
 |---|---|---|
 | [DISCLAIMER.md](../../DISCLAIMER.md), [DISCLAIMER.es.md](../../DISCLAIMER.es.md) | Drafts. Each file says so at the top | A licensed Florida attorney |
-| The short health check shown before a plan is built | Not written. He approved that a lawyer writes it, in English and Spanish, with a link to the official PAR-Q+ (R3-GEN-01) | A lawyer |
-| The "use at your own risk" tick, the terms and the release shown at every build | Placeholder wording | A lawyer |
+| The short health check shown before a plan is built | Placeholder wording. He approved that a lawyer writes it, in English and Spanish, with a link to the official PAR-Q+ (R3-GEN-01) | A lawyer |
+| The terms and release accepted before every build, and the release line printed on every plan | Working draft wording. The gate itself is built (R4-SCP-01, R4-SCP-02) | A lawyer |
 
-He asked for the Spanish to be "translated as legally equivalent as possible" (R3-GEN-01). See [ADR-010](../04-decisions/adr-010-health-check-and-release-every-build.md) and [safety-and-liability.md](../00-overview/safety-and-liability.md).
-
-### 9. Top-level documents
-
-The master document lists the fixes other files still owe after round 3 ([BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) §16.4). Two matter to a new reader. On 2026-10-09 [README.md](../../README.md) still said "Model: v1.1" and listed "the weekly check-in screens, and accounts" as not built yet. Round 3 retired both. The model is v1.2.
+He asked for the Spanish to be "translated as legally equivalent as possible" (R3-GEN-01). See [ADR-010](../04-decisions/adr-010-health-check-and-release-every-build.md), [ADR-056](../04-decisions/adr-056-liability-gate-before-every-plan.md) and [safety-and-liability.md](../00-overview/safety-and-liability.md).
 
 ## The website, later
 
@@ -191,45 +171,52 @@ No website is being built now. This is what is already decided and what is still
 |---|---|---|
 | A phone-friendly website, not an app | His decision | GEN-03, R2-GEN-02 |
 | Few inputs in, the whole plan out, visible ahead of time | His decision | R3-VOL-04 |
+| The form does not ask for a session length | His decision | R4-SES-01 |
+| The terms and release are ticked as part of entering the data, before the plan shows | His decision | R4-SCP-02 |
+| Everything is editable: sets for any day or week, add or remove an exercise, a block on or off | His decision | CX-02, CX-04, R3-SES-02 |
+| Each exercise has a "copy the name" control and a YouTube search link | His decision | R4-LIB-05 |
 | Views of the block, the week and the day, easy to switch | His decision | R2-GEN-02 |
 | A coach can screenshot 12 weeks or one week and send it | His decision | R2-GEN-02 |
-| Users can switch off a day's athletic or core block, add or remove exercises, and see superset suggestions | His decision | R3-SES-02 |
 | English first, with a full Spanish toggle | His decision | GEN-01, R2-GEN-08 |
-| A health check with a coach bypass, and a "use at your own risk" tick at every build | His decision | R2-GEN-03, R3-GEN-01 |
+| A health check with a coach bypass | His decision | R2-GEN-03, R3-GEN-01 |
 | No data kept | His decision | R3-GEN-01 |
 | No accounts and no database | PROPOSED: how the team carries out "no data kept" | [ADR-002](../04-decisions/adr-002-no-data-kept.md) |
-| Videos are optional | His decision | R2-GEN-02 |
+| Videos are optional. His own videos can be added later | His decision | R2-GEN-02, R4-LIB-05 |
 | Save a day as an image, a PDF, a Google Sheet download | In the proposal he marked RIGHT | R2-GEN-02 |
-| The full export list (block and week images, a plan link, a plan file, a calendar) and how each export looks | PROPOSED | [synthesis/13_product_options.md](../../synthesis/13_product_options.md) §14 |
+| The full export list (block and week images, a plan link, a plan file, a calendar) and how each export looks | PROPOSED | [synthesis/13_product_options.md](../../synthesis/13_product_options.md) |
 | Technology and hosting | PROPOSED | 13, Appendix E |
-| Effort: about 13.5 to 20 developer-weeks for the first version | INFERRED estimate for one developer | 13 §6 and §9 |
+| Effort: about 13.5 to 20 developer-weeks for the first version | INFERRED estimate for one developer, made before round 4 | 13 §6 and §9 |
 | Free or paid coach tools | Open | 13 §11 |
 
 ## Public release checklist
 
-The repository has a license and the notices he asked for. It still has open items before it can be called a finished public release. Check [README.md](../../README.md) for the current status line: on 2026-10-09 it read "work in progress, public for review". His approved order was to open the repository after he approves the model (R2-GEN-02), and in conversation he called it private for now. The "public for review" line is newer than both and is not recorded in an answer file or in the conversation file. Treat it as a draft shown for review, not as the finished release.
+He approved releasing the model as the finished product with the engine labelled experimental (R4-REL-01). The items below are what still stands between that and a release that can be called final.
 
-| # | Item | Status on 2026-10-09 | Source |
+| # | Item | Status on 2026-10-11 | Source |
 |---|---|---|---|
 | 1 | MIT license in the repo, in his name, Blaze Camp and BFit Studios Corp. | Done | R3-GEN-01 |
 | 2 | README says: at your own expense and risk; if you use it for other people, have your own liability release | Done, in English and Spanish | R3-GEN-01 |
-| 3 | Disclaimers in English and Spanish | Drafts | R3-GEN-01 |
-| 4 | **A licensed Florida attorney reviews both disclaimers**, and confirms the Spanish is legally equivalent | **Open** | The files themselves; R3-GEN-01 |
-| 5 | He approves the model | Open | R2-GEN-02 |
-| 6 | He grades the sample plans | Open | R2-GEN-07 |
-| 7 | The planner is rebuilt, or the engine is clearly labelled as a draft | Labelled as a draft in the README. Rebuild in progress | Team |
-| 8 | The sample plans in the repo are ones he approved | Open | Team (PROPOSED) |
-| 9 | The Spanish is approved line by line | Open | R2-GEN-08 |
-| 10 | He decides whether the sheet exports in `raw/` and `dumps/` stay in the public repo | Open. He has said the repo may include copies of his sheets "so people can download it and play with it." | Conversation |
-| 11 | The sheet exports are checked for client names and for content that is not his: third-party video links and the half-marathon plan credited to someone else | Open | Team (PROPOSED). See [source-sheets.md](source-sheets.md) |
-| 12 | The lawyer advises on the Blaze Camp name. The MIT license covers copyright. It does not grant rights in the name | Open | Team (INFERRED, 13 §8) |
-| 13 | README and AGENTS show the current versions and no retired feature | Open | [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) §16.4 |
-| 14 | A last search for retired ideas presented as current | Open. Repeat before release | [REVIEW_GUIDE.md](../../REVIEW_GUIDE.md) |
-| 15 | The outside review is read, and each finding is fixed or listed "for discussion with the coach" | Open | [CODEX_BRIEF.md](../../CODEX_BRIEF.md) |
-| 16 | The guide for adding exercises exists in both languages | Done | Conversation |
-| 17 | Every number that is not his is marked PROPOSED | Ongoing | [method.md](method.md) |
+| 3 | The README credits him as author and owner, with no "best" claim and no injury-prevention claim | Done | R4-REL-03 |
+| 4 | His list of certifications | **Open.** A marked placeholder waits for him | R4-REL-03 |
+| 5 | Disclaimers in English and Spanish | Drafts | R3-GEN-01 |
+| 6 | **A licensed Florida attorney reviews both disclaimers** and the release wording, and confirms the Spanish is legally equivalent | **Open** | The files themselves; R3-GEN-01 |
+| 7 | The terms and release are accepted before any plan is built, and every plan prints the release line | Done in the engine | R4-SCP-01, R4-SCP-02 |
+| 8 | The model is complete and consolidated on `main` | Model v1.3 complete. The merge is the lead's step | R4-REL-01 |
+| 9 | The engine is clearly labelled experimental | Done in the README, the model card and the handoff | R4-REL-01 |
+| 10 | He grades the sample plans | Open | R2-GEN-07 |
+| 11 | The sample plans in the repo are ones he approved | Open. They carry AI grades only | Team (PROPOSED) |
+| 12 | The Spanish is approved line by line | Open (842 lines) | R2-GEN-08 |
+| 13 | No third-party video links in the public data | Done for the compiled model and the library source. **Open** for the sheet exports (`raw/`, `dumps/`), the first-pass files in `analysis/`, `synthesis/02_exercise_catalog_crosswalk.json` and the old model snapshots in `design/scratch/snap*/`, which still hold them | R4-LIB-05 |
+| 14 | He decides whether the sheet exports in `raw/` and `dumps/` stay in the public repo | Open. He has said the repo may include copies of his sheets "so people can download it and play with it." | Conversation |
+| 15 | The sheet exports are checked for client names and for content that is not his (the half-marathon plan credited to someone else) | Open | Team (PROPOSED). See [source-sheets.md](source-sheets.md) |
+| 16 | The lawyer advises on the Blaze Camp name. The MIT license covers copyright. It does not grant rights in the name | Open | Team (INFERRED, 13 §8) |
+| 17 | README and AGENTS show the current versions and no retired feature | Done on 2026-10-11 | Team |
+| 18 | A last search for retired ideas presented as current | Run on 2026-10-11 as the final consistency check of v1.3 ([RELEASE_CHECK_v1.3.md](../../RELEASE_CHECK_v1.3.md)). Repeat before each release | [REVIEW_GUIDE.md](../../REVIEW_GUIDE.md) |
+| 19 | The outside review is read, and each finding is fixed or listed "for discussion with the coach" | Partly. Its record fixes were applied, and points that were open at the time went to him in round 4. A second pass on v1.3 is briefed | [CODEX_BRIEF.md](../../CODEX_BRIEF.md) |
+| 20 | The guide for adding exercises exists in both languages | Done | Conversation |
+| 21 | Every number that is not his is marked PROPOSED | Ongoing. The compiled rules carry a status on each table | [method.md](method.md) |
 
-What he wants the release to be, in his words: "the most comprehensive training model that there is out there," free "for anybody to use in their own app and their own training." (conversation). And on the name: "The Blaze Camp name is the culture." (conversation)
+What he wants the release to be, in his words: free "for anybody to use in their own app and their own training." (conversation). On how the repo describes itself: "a complete coaching model from the experience of Coach Lalo, who is Gerardo Vera." (R4-REL-03). And on the name: "The Blaze Camp name is the culture." (conversation)
 
 ## Not on the roadmap
 
@@ -237,12 +224,16 @@ These were considered and then set aside. Each row names the answer behind it. T
 
 | Retired | By | Record |
 |---|---|---|
+| Fitting a plan to a session length: a session-length question, a time check, cutting for time, offers of longer sessions | CT-01, R4-SES-01 | [ADR-050](../04-decisions/adr-050-no-time-fitting-sessions-sized-by-exercise-count.md) |
+| The large optimizer planner as a build target | Team, following CT-01 and R4-REL-02 | [ADR-058](../04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md) |
+| A hard cap on the weekly step, and "sets must rise every week" | CX-01, CX-02 | [ADR-049](../04-decisions/adr-049-endpoint-priority-and-editable-progression.md) |
+| Dropping muscle groups or exercises automatically | R4-SES-03, R4-SES-04 | [ADR-052](../04-decisions/adr-052-two-day-rule.md) |
 | A weekly check-in, a logbook, tracking | R3-VOL-02, R3-VOL-04 | [ADR-001](../04-decisions/adr-001-answers-in-plan-out-no-check-ins.md) |
 | Stored data | R3-GEN-01 | [ADR-002](../04-decisions/adr-002-no-data-kept.md) |
 | Accounts, and learning from users' data | The team's reading of R3-GEN-01. In round 1 he expected the tool to learn from users' data (VOL-01), so "off for good?" is still a question for him | [ADR-002](../04-decisions/adr-002-no-data-kept.md) |
 | Sleep, stress and lifestyle questions | R2-GEN-04 | [ADR-003](../04-decisions/adr-003-no-lifestyle-inputs.md) |
 | A native app | GEN-03 | [ADR-006](../04-decisions/adr-006-website-not-app.md) |
-| A video for every exercise before launch | R2-GEN-02 | [ADR-008](../04-decisions/adr-008-videos-optional.md) |
+| A video for every exercise before launch; third-party video links | R2-GEN-02, R4-LIB-05 | [ADR-008](../04-decisions/adr-008-videos-optional.md) |
 | Bands and variable resistance | EQ-01, EQ-12. Not for now: "We will work with that later on." (EQ-12) | [ADR-034](../04-decisions/adr-034-no-bands-no-variable-resistance.md) |
 
 The full list is on [what-he-rejected.md](../01-philosophy/what-he-rejected.md).
@@ -251,16 +242,17 @@ The full list is on [what-he-rejected.md](../01-philosophy/what-he-rejected.md).
 
 | What | File | Key or section |
 |---|---|---|
-| Questions waiting for him | [generator_spec_v1.json](../../generator_spec_v1.json) | `open_decisions.round4_candidates`, `open_decisions.round4_candidates_master` |
-| The same list, with the team's suggestion for each | [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) | §16.6 |
-| Fixes that other files still owe | [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) | §16.4 |
+| The plan engine 0.5 was built to, and what "done" means | [design/ENGINE_V05_PLAN.md](../../design/ENGINE_V05_PLAN.md) | whole file |
+| Engine results, known gaps and the 14 open questions | [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md) | whole file |
+| The benchmark's latest run, plan by plan | [design/bench/V05.md](../../design/bench/V05.md), `results_v05.json` | whole file |
+| Questions waiting for him from the model side | [generator_spec_v1.json](../../generator_spec_v1.json), [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) | `open_decisions`; §16 |
+| Which rule tables or details are still proposed | [model/rules.json](../../model/rules.json) | the `status` of each table (about 130 of them contain the word PROPOSED) |
+| Which sport profiles are confirmed | [model/profiles.json](../../model/profiles.json) | `sports[id].confidence` |
 | The product phases and their estimates | [synthesis/13_product_options.md](../../synthesis/13_product_options.md) | §6, §9 |
-| The nine decisions the planner needs | [design/diagnosis.md](../../design/diagnosis.md) | §3 |
-| What the new planner must do, with a test for each requirement | [design/diagnosis.md](../../design/diagnosis.md) | §4 |
-| Every rule as a constraint, with its priority tier | [design/rules_as_constraints.json](../../design/rules_as_constraints.json) | whole file |
-| The planned steps of the planner work | [workflows/planner_design.js](../../workflows/planner_design.js) | phases Diagnose, Design panel, Judge, Spec, Benchmark |
+| The parked planner research | [design/PLANNER_SPEC.md](../../design/PLANNER_SPEC.md), [design/diagnosis.md](../../design/diagnosis.md), [design/rules_as_constraints.json](../../design/rules_as_constraints.json) | whole files (history) |
 | Live versions | [model/MODEL_VERSION](../../model/MODEL_VERSION), [engine/version.mjs](../../engine/version.mjs), [generator_spec_v1.json](../../generator_spec_v1.json) `_meta.version` | |
+| Current state for whoever continues | [HANDOFF.md](../../HANDOFF.md) | whole file |
 
 ## Related
 
-[timeline.md](timeline.md) · [method.md](method.md) · [source-sheets.md](source-sheets.md) · [ADR-048](../04-decisions/adr-048-optimizer-rebuild-of-the-planner.md) · [Decision records](../04-decisions/index.md)
+[timeline.md](timeline.md) · [method.md](method.md) · [source-sheets.md](source-sheets.md) · [ADR-058](../04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md) · [Decision records](../04-decisions/index.md) · [Model card](../../MODEL_CARD.md)

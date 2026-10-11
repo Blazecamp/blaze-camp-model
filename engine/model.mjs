@@ -177,11 +177,12 @@ const CLOSED_TAGS = new Set(['overhead_squat', 'snatch', 'low_bar', 'depth_jump'
   'deep_knee_flexion', 'front_rack', 'push_up_floor', 'belt_squat', 'kong_row', 'push_press', 'push_jerk', 'thruster', 'pullover', 'face_pull',
   'kb_swing', 'wall_ball', 'glute_iso', 'spine_counted', 'fixed_grip', 'split_grip', 'machine', 'cable', 'barbell', 'medball', 'olympic',
   'loaded_jump', 'olympic_from_floor', 'plyo_repeated', 'high_impact', 'axial_high', 'older_preferred', 'aesthetics_warmup_only',
-  'pitcher_reduce', 'striker_reduce', 'beginner_olympic', 'youth_floor_ok', 'axial_unload', 'pain_friendly', 'assisted', 'home_substitute']);
+  'pitcher_reduce', 'striker_reduce', 'beginner_olympic', 'youth_floor_ok', 'axial_unload', 'pain_friendly', 'assisted', 'home_substitute',
+  'carry_sled', 'mid_range_push', 'mid_range_pull']); // + v0.5 / V2 (R4-LIB-02, R4-LIB-03)
 const CREDIT_CLASSES = ['BKD', 'UKD', 'BHD', 'UHD', 'GLUTE_ISO', 'LEG_FLEXION', 'LEG_EXTENSION', 'HPUSH', 'VPUSH', 'DIPS', 'THRUSTER', 'HPULL',
   'VPULL', 'PULLOVER', 'ISO_CHEST', 'ISO_SIDE', 'ISO_REAR', 'FACEPULL', 'ISO_FRONT', 'ISO_BICEPS', 'ISO_TRICEPS', 'ISO_CALF', 'ISO_NECK', 'CORE',
   'ATHLETIC', 'NONE'];
-const RULE_SECTIONS = ['locked', 'muscles', 'credit', 'levels', 'volume', 'stairway', 'placement', 'session', 'time_model', 'cut_order',
+const RULE_SECTIONS = ['locked', 'muscles', 'credit', 'levels', 'volume', 'stairway', 'placement', 'session', 'time_model',
   'bilateral_share', 'contra_ipsi', 'frontal_transverse', 'pairing', 'axial', 'reps', 'effort', 'rest', 'athletic', 'olympic', 'medball',
   'conditioning', 'equipment', 'population', 'prehab', 'selection', 'ordering', 'supersets', 'plan_types', 'recovery', 'cycles', 'tests',
   'warmup', 'core_block', 'template_select', 'validation'];
@@ -194,6 +195,10 @@ const BLOCK_KINDS = ['warmup', 'core', 'skill', 'athletic', 'power', 'strength',
 const WEEKDAY_IDS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 const LIFESTYLE_IN_RULES = ['"sleep', '"stress', 'hard_job', 'stress_high', 'sleep_lt6'];
 const PROPOSED_STATUSES = ['proposed_v1', 'proposed_v1_1'];
+// v0.5 / V2 (COACH-R4 R4-LIB-01): records the template never picks - optional add-ons and the records still proposed (neck work)
+const NEVER_DEFAULT_STATUSES = [...PROPOSED_STATUSES, 'optional_addon'];
+// v0.5 / V2 (COACH-R4 R4-LIB-05): the only video kinds - a YouTube search built from the name, or the coach's own video
+const VIDEO_KINDS = ['search', 'coach'];
 const PLACEHOLDER_RE = /\{([a-zA-Z0-9_]+)\}/g;
 
 const isObj = (o) => !!o && typeof o === 'object' && !Array.isArray(o);
@@ -255,8 +260,22 @@ export function assertModel(raw) {
     if (!rules.stairway.phases_by_N[String(N)]) err(`stairway.phases_by_N.${N} missing`);
     if (!rules.stairway.exercise_blocks_by_N[String(N)]) err(`stairway.exercise_blocks_by_N.${N} missing`);
   }
-  if (!(rules.stairway.limits.planned_step_max <= 0.07 + 1e-12)) err('stairway.limits.planned_step_max > 0.07');
-  if (!(rules.stairway.limits.total_weekly_ceiling <= 0.1 + 1e-12)) err('stairway.limits.total_weekly_ceiling > 0.10');
+  // v0.5 (COACH-CX CX-01, COACH-R4 R4-PRG-01 / 02, COACH-CT CT-01): no rate limit and no session-minutes rule exists; the planned
+  // final sets are reached, at most one week early; sessions are sized by exercise count
+  const PG = rules.stairway.progression;
+  if (!PG || PG.target_reached !== true) err('stairway.progression.target_reached must be true (CX-01)');
+  else {
+    if (!(PG.arrival_weeks_early_max <= 1)) err('stairway.progression.arrival_weeks_early_max > 1 (R4-PRG-01)');
+    if (!(PG.arrival_weeks_early <= PG.arrival_weeks_early_max)) err('stairway.progression.arrival_weeks_early above its maximum');
+    if (!(PG.note_above > 0 && PG.note_above < 1)) err('stairway.progression.note_above must be a fraction (R4-PRG-02)');
+  }
+  if (!rules.session.size || !rules.session.size.by_type) err('session.size missing (R4-SES-02)');
+  else for (const [k, z] of Object.entries(rules.session.size.by_type)) {
+    if (!(Array.isArray(z.range) && z.range[0] <= z.default && z.default <= z.range[1])) err(`session.size.by_type.${k}: default outside its range`);
+  }
+  for (const k of ['exercise_cap_by_minutes', 'minutes_allowed', 'minutes_default', 'long_day', 'time_fit']) if (rules.session[k] !== undefined) err(`session.${k} is a time-fitting rule (retired, CT-01)`);
+  if (rules.time_model && rules.time_model.use !== 'estimate_only') err('time_model.use must be estimate_only (CT-01)');
+  if (!rules.volume.two_day || !(rules.volume.floor.applies_from_days >= 3)) err('volume.two_day / volume.floor.applies_from_days missing (R4-SES-03)');
   if (!(rules.medball.max_lb <= 20)) err('medball.max_lb > 20');
   const rulesStr = JSON.stringify(rules);
   for (const w of LIFESTYLE_IN_RULES) if (rulesStr.includes(w)) err(`lifestyle input in rules: ${w}`);
@@ -322,7 +341,20 @@ export function assertModel(raw) {
     if (!Array.isArray(e.slots) || !isSortedStrings(e.slots)) err(`${where}: slots must be a sorted array`);
     else for (const s of e.slots) if (!buckets[s] && !BUCKET_ALIASES[s]) err(`${where}: unknown slot ${s}`);
     if (!Array.isArray(e.default_in_slots) || e.default_in_slots.some(s => !e.slots.includes(s))) err(`${where}: default_in_slots not a subset of slots`);
-    if (PROPOSED_STATUSES.includes(e.status) && e.default_in_slots.length) err(`${where}: proposed record may not be a default pick`);
+    if (NEVER_DEFAULT_STATUSES.includes(e.status) && e.default_in_slots.length) err(`${where}: proposed record may not be a default pick`);
+    // v0.5 / V2 (R4-LIB-01): the 31 proposed records are optional add-ons; only neck work is still proposed
+    if (rules.selection.addons && PROPOSED_STATUSES.includes(e.status) && !(e.pattern === 'NECK' || e.credit_class === 'ISO_NECK')) err(`${where}: still 'proposed' - only neck work stays proposed (R4-LIB-01)`);
+    // v0.5 / V2 (R4-LIB-02): carries and sled work credit no muscle and are never dosed in reps
+    if (rules.conditioning.carry && ((e.tags || []).includes(rules.conditioning.carry.tag) || (rules.conditioning.carry.patterns || []).includes(e.pattern))) {
+      if (e.credit_class !== 'NONE' || Object.keys(e.credits || {}).length) err(`${where}: a carry / sled record credits muscle sets (R4-LIB-02)`);
+      if (!e.rep_hint || !['distance_or_time', 'seconds'].includes(e.rep_hint.unit)) err(`${where}: a carry / sled record must be dosed by distance or time (R4-LIB-02)`);
+    }
+    // v0.5 / V2 (R4-LIB-05): no third-party video link - a search link built from the English name (or the coach's own video)
+    if (rules.render && rules.render.video) {
+      const V = rules.render.video;
+      if (!e.video || !VIDEO_KINDS.includes(e.video.kind)) err(`${where}: video must be a search link or the coach's own video (R4-LIB-05)`);
+      else if (e.video.kind === 'search' && hasEn(e.name_key) && e.video.url !== V.search_url + encodeURIComponent(en[e.name_key])) err(`${where}: video search link is not built from the exercise name (R4-LIB-05)`);
+    }
     if (!classes[e.credit_class]) err(`unknown credit class ${e.credit_class} (${e.id})`);
     else if (canonical(classes[e.credit_class]) !== canonical(e.credits)) err(`credits != class map (${e.id})`);
     if (e.is_athletic !== (e.credit_class === 'ATHLETIC')) err(`${where}: is_athletic must equal credit_class == ATHLETIC`);
@@ -356,9 +388,12 @@ export function assertModel(raw) {
   const sports = profiles.sports || {};
   const pAlias = (profiles.id_aliases && profiles.id_aliases.profiles) || {};
   const hasProfile = (id) => !!sports[pAlias[id] || id];
+  const confLabels = (rules.render && rules.render.profile_confidence && rules.render.profile_confidence.labels) || null;
   for (const [id, p] of Object.entries(sports)) {
     if (p.id !== id) err(`profile ${id}: id mismatch`);
     if (!hasEn(p.name_key)) err(`missing EN ${p.name_key}`);
+    // v0.5 / V2 (COACH-R4 R4-SCP-03): every sport profile carries its confidence label (data and docs, never on a plan)
+    if (confLabels && !confLabels.includes(p.confidence)) err(`profile ${id}: confidence '${p.confidence}' is not one of ${confLabels.join(' / ')} (R4-SCP-03)`);
   }
   if (manifest.counts && manifest.counts.profiles !== undefined && manifest.counts.profiles !== Object.keys(sports).length) err(`manifest.counts.profiles != ${Object.keys(sports).length}`);
   const picker = profiles.picker || { sports: [], activities: [] };
@@ -389,6 +424,42 @@ export function assertModel(raw) {
   // (the legal release texts carry their own [LEGAL REVIEW] / [RELEASE_VERSION] markers until counsel signs them off - D-35)
   for (const [lang, dict] of [['EN', en], ['ES', es]]) for (const [k, v] of Object.entries(dict)) if (k !== '_meta' && !/^release\./.test(k) && typeof v === 'string' && /\[[A-Z][A-Z0-9_]{2,}\]/.test(v)) err(`unresolved placeholder in ${lang} ${k}`);
   if (/"(sex|gender)"\s*:/i.test(JSON.stringify({ manifest, catalog, rules, templates, profiles }))) err('sex/gender key present');
+
+  // v0.5 / V3 (design/ENGINE_V05_PLAN.md "V3 words and checks"): the liability gate, the printed lines and the check list
+  const hasEs = (k) => typeof k === 'string' && Object.prototype.hasOwnProperty.call(es, k);
+  const both = (k, what) => { if (!hasEn(k) || !hasEs(k)) err(`${what}: ${k} needs English and Spanish words`); };
+  const LG = rules.legal || {};
+  if (LG.gate) {
+    // COACH-R4 R4-SCP-02 'they need to click it before the plan shows': the gate cannot be switched off in data
+    if (LG.gate.required !== true) err('rules.legal.gate.required must be true (R4-SCP-02: no plan without the accepted release)');
+    const RL = LG.release_line || null;
+    if (!RL) err('rules.legal.release_line is missing (R4-SCP-01 / R4-SCP-02: a release line on every plan)');
+    else {
+      for (const k of [RL.label_key, RL.link_key, RL.short_key, RL.footer_key, RL.no_plan_key, ...Object.values(RL.by_version || {})]) both(k, 'release line');
+      for (const v of ['release.client', 'release.coach', 'release.minor']) if (!(RL.by_version || {})[v]) err(`rules.legal.release_line.by_version.${v} is missing`);
+      for (const lang of RL.langs || []) if (!(LG.disclaimer_url && /^https?:\/\//.test(String(LG.disclaimer_url[lang])))) err(`rules.legal.disclaimer_url.${lang} is missing (the release line links the full text)`);
+      for (const lang of ['en', 'es']) if (!(RL.langs || []).includes(lang)) err(`rules.legal.release_line.langs must hold ${lang}`);
+    }
+  }
+  const RN = rules.render || {};
+  if (RN.progression) {
+    // R4-PRG-03: the rule is worded for every kind engine/progression can give, per side too; never a promised number
+    if (RN.progression.promised_numbers !== false) err('rules.render.progression.promised_numbers must be false (R4-PRG-03)');
+    for (const k of Object.values(RN.progression.keys || {})) both(k, 'progression rule');
+    for (const kind of ['double_progression', 'load_when_all_sets_done']) both(((RN.progression.keys || {})[kind] || '?') + (RN.progression.per_side_suffix || '_side'), 'progression rule (per side)');
+  }
+  if (RN.estimate && RN.estimate.information_only !== true) err('rules.render.estimate.information_only must be true (CT-01, R4-SES-01)');
+  if (RN.easy_to_remove) {
+    for (const kind of ((rules.session && rules.session.easy_to_remove && rules.session.easy_to_remove.order) || [])) both((RN.easy_to_remove.kind_keys || {})[kind], `easy-to-remove kind ${kind}`);
+    if (rules.session && rules.session.easy_to_remove && rules.session.easy_to_remove.automatic !== false) err('rules.session.easy_to_remove.automatic must be false (R4-SES-04: nothing is removed for the person)');
+  }
+  if (rules.validation && rules.validation.v05) {
+    const ids = new Set([...(rules.validation.checks || []).map(c => c.id), ...(rules.validation.hard || []).map(c => c.id)]);
+    for (const [rule, list] of Object.entries(rules.validation.v05.by_rule || {})) for (const id of list) if (!ids.has(id)) err(`rules.validation.v05.by_rule.${rule}: unknown check ${id}`);
+    for (const c of [...(rules.validation.checks || []), ...(rules.validation.hard || [])]) both(c.key, `check ${c.id}`);
+    // no check or rule is about minutes any more (CT-01): the time model is an estimate only
+    if (rules.time_model && rules.time_model.use !== 'estimate_only') err('rules.time_model.use must be estimate_only (CT-01)');
+  }
   return errors;
 }
 

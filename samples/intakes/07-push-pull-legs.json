@@ -1,6 +1,6 @@
 {
   "schema": "intake/2",
-  "_comment": "Coach sample 7 (R2-GEN-07): 24-year-old, 4 years training, 6 days x 75 min push / pull / legs (aesthetics.6 variant ppl_x2 via prefs.split_style = ppl, PROPOSED field, D-15), priority chest + back, prefers heavier powerlifting-style compounds (F10 heavy_powerlifting), full gym, 12 weeks, 195 lb.",
+  "_comment": "Coach sample 7 (R2-GEN-07): 24-year-old, 4 years training, 6 days push / pull / legs (aesthetics.6 variant ppl_x2 via prefs.split_style = ppl, PROPOSED field, D-15), priority chest + back, prefers heavier powerlifting-style compounds (F10 heavy_powerlifting), full gym, 12 weeks, 195 lb.",
   "id": "sample-07-push-pull-legs",
   "lang": "en",
   "units": "lb",
@@ -48,7 +48,6 @@
       "Fri",
       "Sat"
     ],
-    "session_minutes": 75,
     "start_date": "2026-10-12"
   },
   "plan": {

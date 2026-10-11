@@ -2,7 +2,7 @@
 
 This page explains how the model changes a plan for people who need more care. The coach plans by **age, training foundation, goal and injuries**. He does not plan by sex, so the tool has no sex field. From **age 60**, jumps and Olympic lifts are off by default and can be switched on with a warning; landing drills, balance, quick steps, light throws and fast machine work stay on. **Pickleball, padel and tennis players from 50** get knee-friendly strength, calf and Achilles work, rotator-cuff work and low-impact jumps. **Youth** use simpler exercises and may lift from the floor from about 14. With **pain or injury**, the plan cuts that area by 30-50 %, moves it to machines or split grips, and keeps it moving. Nothing is tracked: the plan prints what to do if something hurts, and the person or coach does it.
 
-> **How to read this page.** Ids with no prefix (`ATH-09`, `VOL-03`) are the coach's round-1 answers (`coach_answers_full.md`). `R2-` is round 2 (`coach_answers_round2.md`). `R3-` is round 3 (`coach_answers_round3.md`), the newest. A later round wins. "chat" means something he said in conversation. "Approved" means he marked our proposal RIGHT. **OBSERVED** means read from his sheets. **PROPOSED** means the team designed it and he has not confirmed it. His answers: [../03-coach-answers/athletes-and-sports.md](../03-coach-answers/athletes-and-sports.md) and [../03-coach-answers/equipment.md](../03-coach-answers/equipment.md).
+> **How to read this page.** Ids with no prefix (`ATH-09`, `VOL-03`) are the coach's round-1 answers (`coach_answers_full.md`). `R2-` is round 2 (`coach_answers_round2.md`). `R3-` is round 3 (`coach_answers_round3.md`). A later round wins. "chat" means something he said in conversation. "Approved" means he marked our proposal RIGHT. **OBSERVED** means read from his sheets. **PROPOSED** means the team designed it and he has not confirmed it. His answers: [../03-coach-answers/athletes-and-sports.md](../03-coach-answers/athletes-and-sports.md) and [../03-coach-answers/equipment.md](../03-coach-answers/equipment.md). **Since model v1.3** there are newer answers too: round 4 (`R4-`, `coach_answers_round4.md`) and two clarifications of 2026-10-10 (`CT-01` on session time, `CX-01..04` on progression and editing). They win on their subjects.
 
 Related pages: [athletes.md](athletes.md), [stay-athletic-and-active.md](stay-athletic-and-active.md), [sports.md](sports.md), [equipment.md](equipment.md) (machines and the constraint scale), [levels-and-zones.md](levels-and-zones.md), [volume.md](volume.md), [testing.md](testing.md). Terms: [../05-reference/glossary.md](../05-reference/glossary.md).
 
@@ -87,7 +87,7 @@ PROPOSED for this group: maintenance phases at 70 % of the volume or more; tests
 | Compiled copy the engine reads | `model/rules.json > population.older` |
 | Master text | `BLAZE_CAMP_BRAIN.md` §9.9 and §8.3 |
 
-A note for developers: when this page was written (model 1.3.0), the compiled `model/rules.json > population.older` still carried a 3 % step cap and kept depth jumps locked even after the switch. Both are stricter than his round-3 answers. The engine and the compiled model are being rebuilt. The coach answers win.
+A note for developers: the 3 % step cap for older adults is deleted from the compiled `model/rules.json` (it was PROPOSED, never his rule). The engine is still stricter than his round-3 answer in two places, on purpose: depth jumps stay locked for over-60s even after the switch, and handstand work is never picked for them. Older adults get 5 to 6 exercises a session, not counting the warm-up and the 2 core exercises (R4-SES-02). The coach answers win.
 
 ---
 
@@ -98,7 +98,7 @@ A note for developers: when this page was written (model 1.3.0), the compiled `m
 | Default | What it means in the plan |
 |---|---|
 | Knee-friendly strength | Leg press, box squat to a pain-free depth, split squats and low step-ups before deep, heavy, twisting work (exercise choices PROPOSED) |
-| Calf and Achilles work every leg day | This work is never the first thing dropped when time is short (the "never dropped" part is PROPOSED) |
+| Calf and Achilles work every leg day | It stays on every leg day. Nothing is dropped for time any more (CT-01). |
 | Rotator-cuff work | Side-lying external rotation, floor Y and T raises, kettlebell face pulls. No bands. (Exercise choices PROPOSED) |
 | Low-impact jumps only | No depth jumps, hurdle hops or bounds, unless the person switches them on |
 

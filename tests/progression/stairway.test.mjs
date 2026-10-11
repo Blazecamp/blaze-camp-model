@@ -1,7 +1,7 @@
 // CX-01..03 math checks for the isolated design module, not runtime-plan validation.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { solveEndpointCurve, scheduleNestedSets, scheduleEpochs, scheduleGroupPrefixes } from '../../design/progression/stairway.mjs';
+import { solveEndpointCurve, scheduleNestedSets, scheduleEpochs, scheduleGroupPrefixes, arrivalSchedule, accelerationReport, planStairway, MAX_LOG_TOLERANCE } from '../../engine/progression/stairway.mjs';
 
 const NUMERICS = Object.freeze({ logTolerance: 1e-12, maxIterations: 160, maxBracketDoublings: 80 });
 const ratesFor = weeks => Array.from({ length: weeks - 1 }, (_, i) => i + 2 <= weeks / 2 ? 0.03 : 0.05);
@@ -78,7 +78,7 @@ test('approved 15->22 example retains its last four integer weeks', () => {
   assert.deepEqual(result.weeks.slice(-4), [[19], [20], [21], [22]]);
 });
 
-test('CX-01/03: half-up 6-week 3->4 may reach the ceiling early and then hold it', () => {
+test('CX-01/03: plain half-up 6-week 3->4 reaches the ceiling early (the explicit option; the engine default is arrivalSchedule)', () => {
   const result = scheduleNestedSets({ startSets: [3], peakSets: [4], progress: curve(3, 4, 6).progress, rounding: 'half_up' });
   assert.equal(result.status, 'ok');
   const firstArrival = result.weeks.findIndex(week => week[0] === 4);
@@ -373,4 +373,79 @@ test('epoch boundary mismatch cannot silently splice incompatible prescriptions'
   ] });
   assert.notEqual(result.status, 'ok');
   assert.notEqual(result.status, 'infeasible');
+});
+
+// ---------------------------------------------------------------------------------------------------------------------------
+// engine 0.5.0: arrival-preserving whole sets, the integer acceleration report, the tolerance bound (audit MEDIUM-2 / 3 / 4)
+
+const rates12 = Array.from({ length: 11 }, (_, i) => (i + 2 <= 6 ? 0.03 : 0.05));
+
+test('R4-PRG-01: the top number is reached in the last week, never earlier (arrival-preserving rounding, audit MEDIUM-4)', () => {
+  for (const [start, peak, weeks] of [[10, 11, 12], [3, 4, 6], [15, 22, 12], [12, 22, 12], [10, 14, 12], [10, 30, 4], [6, 8, 8], [20, 25, 16]]) {
+    const out = planStairway({ start, peak, rates: Array.from({ length: weeks - 1 }, (_, i) => (i + 2 <= Math.ceil(weeks / 2) ? 0.03 : 0.05)), noteAbove: 0.15, minWholeSets: 2 });
+    assert.equal(out.status, 'ok');
+    assert.equal(out.sets[0], start);
+    assert.equal(out.sets.at(-1), peak);
+    assert.equal(out.sets.indexOf(peak), weeks - 1, `${start}->${peak} in ${weeks} weeks: ${out.sets.join(' ')}`);
+    for (let i = 1; i < out.sets.length; i++) assert.ok(out.sets[i] >= out.sets[i - 1]);
+  }
+  // the audit's two early arrivals under plain half-up (week 8 of 12, week 5 of 6) now land in the last week
+  assert.deepEqual(planStairway({ start: 10, peak: 11, rates: rates12, noteAbove: 0.15 }).sets, [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11]);
+  // the coach's approved 15 -> 22 example keeps its last four whole weeks
+  assert.deepEqual(planStairway({ start: 15, peak: 22, rates: rates12, noteAbove: 0.15 }).sets.slice(-4), [19, 20, 21, 22]);
+});
+
+test('R4-PRG-01: one week early is allowed when asked, two weeks early never', () => {
+  const p = [0, 0.2, 0.5, 0.96, 0.99, 1];
+  assert.deepEqual(arrivalSchedule({ start: 10, peak: 12, progress: p }), [10, 10, 11, 11, 11, 12]);
+  assert.deepEqual(arrivalSchedule({ start: 10, peak: 12, progress: p, weeksEarly: 1 }), [10, 10, 11, 11, 12, 12]);
+  assert.throws(() => arrivalSchedule({ start: 10, peak: 12, progress: p, weeksEarly: 2 }));
+  assert.throws(() => arrivalSchedule({ start: 12, peak: 10, progress: p }));
+  // already at the top: the sets stay (CX-03), no division by zero, no required increase
+  assert.deepEqual(arrivalSchedule({ start: 14, peak: 14, progress: [0, 0, 0, 0] }), [14, 14, 14, 14]);
+  assert.deepEqual(planStairway({ start: 14, peak: 14, rates: [0.03, 0.05, 0.05], noteAbove: 0.15 }).sets, [14, 14, 14, 14]);
+});
+
+test('CX-01 / R4-PRG-02: a short block with a big target is reached with faster steps, and the weeks above about 15 % are noted', () => {
+  const out = planStairway({ start: 10, peak: 30, rates: [0.03, 0.05, 0.05], noteAbove: 0.15, minWholeSets: 2 });
+  assert.equal(out.sets[0], 10);
+  assert.equal(out.sets.at(-1), 30);                      // CX-01: the endpoint is never undershot to protect a rate
+  assert.ok(out.lambda > 1 && out.curveAccelerated);
+  assert.deepEqual(out.report.noted, [2, 3, 4]);          // every week adds more than 15 %
+  assert.ok(out.report.weeks.every(w => w.aboveDefault));
+  assert.ok(Math.max(...out.report.weeks.map(w => w.rise)) > 0.4);   // no hard limit (R4-PRG-02)
+});
+
+test('audit MEDIUM-3: acceleration is read from the integer schedule, not only from the smooth curve', () => {
+  // 12 weeks 10 -> 11: the curve says lambda 0.21 (not accelerated) while the one whole set is a 10 % week
+  const out = planStairway({ start: 10, peak: 11, rates: rates12, noteAbove: 0.15, minWholeSets: 2 });
+  assert.equal(out.curveAccelerated, false);
+  assert.equal(out.report.accelerated, true);
+  const step = out.report.weeks.find(w => w.added > 0);
+  assert.deepEqual([step.week, step.from, step.to, step.rise, step.defaultRise], [12, 10, 11, 0.1, 0.05]);
+  assert.equal(step.aboveDefault, true);
+  // a single whole set is the smallest step a group can take: it is information, not a note (minWholeSets 2)
+  assert.deepEqual(out.report.noted, []);
+  const r = accelerationReport({ sets: [6, 7, 9, 9], referenceRates: [0.03, 0.05, 0.05], noteAbove: 0.15, minWholeSets: 2 });
+  assert.deepEqual(r.noted, [3]);                          // +1 of 6 (16.7 %) is one set; +2 of 7 (28.6 %) is noted
+  assert.deepEqual(accelerationReport({ sets: [6, 7, 9, 9], referenceRates: [0.03, 0.05, 0.05], noteAbove: 0.15 }).noted, [2, 3]);
+  const zero = accelerationReport({ sets: [0, 2], referenceRates: [0.03], noteAbove: 0.15 });
+  assert.equal(zero.weeks[0].rise, null);                  // a rise from zero is never a finite percentage
+  assert.throws(() => accelerationReport({ sets: [1, 2, 3], referenceRates: [0.03], noteAbove: 0.15 }));
+});
+
+test('audit MEDIUM-2: a loose tolerance is refused, never returned as ok', () => {
+  const loose = solveEndpointCurve({ start: 10, peak: 20, rates: [0.01, 0.01, 0.01], numerics: { logTolerance: 0.9, maxIterations: 0, maxBracketDoublings: 10 } });
+  assert.deepEqual([loose.status, loose.code], ['unresolved', 'tolerance_too_loose']);
+  const edge = solveEndpointCurve({ start: 10, peak: 20, rates: [0.01, 0.01, 0.01], numerics: { logTolerance: MAX_LOG_TOLERANCE, maxIterations: 200, maxBracketDoublings: 80 } });
+  assert.equal(edge.status, 'ok');
+  assert.ok(Math.abs(edge.endpointLogResidual) <= MAX_LOG_TOLERANCE);
+});
+
+test('a zero start or all-zero weights still reach the endpoint on an even whole-set schedule, and say how', () => {
+  const zero = planStairway({ start: 0, peak: 4, rates: rates12, noteAbove: 0.15 });
+  assert.deepEqual([zero.status, zero.code, zero.sets[0], zero.sets.at(-1)], ['linear_fallback', 'zero_start', 0, 4]);
+  const flat = planStairway({ start: 10, peak: 12, rates: [0, 0, 0], noteAbove: 0.15 });
+  assert.deepEqual([flat.status, flat.code], ['linear_fallback', 'no_positive_rate']);
+  assert.deepEqual(flat.sets, [10, 11, 11, 12]);
 });

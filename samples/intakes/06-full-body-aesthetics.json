@@ -1,6 +1,6 @@
 {
   "schema": "intake/2",
-  "_comment": "Coach sample 6 (R2-GEN-07): 29-year-old, 3 years training, 4 days x 75 min full-body aesthetics (aesthetics.4 A1/B1/A2/B2 + optional days, same pattern), priority glutes + shoulders (F09 has no 'shoulders' option: side delts), full gym, 12 weeks, 150 lb. L3 by the PROPOSED rule (3+ years and 4+ days).",
+  "_comment": "Coach sample 6 (R2-GEN-07): 29-year-old, 3 years training, 4 days full-body aesthetics (aesthetics.4 A1/B1/A2/B2 + optional days, same pattern), priority glutes + shoulders (F09 has no 'shoulders' option: side delts), full gym, 12 weeks, 150 lb. L3 by the PROPOSED rule (3+ years and 4+ days).",
   "id": "sample-06-full-body-aesthetics",
   "lang": "en",
   "units": "lb",
@@ -46,7 +46,6 @@
       "Thu",
       "Fri"
     ],
-    "session_minutes": 75,
     "start_date": "2026-10-12"
   },
   "plan": {

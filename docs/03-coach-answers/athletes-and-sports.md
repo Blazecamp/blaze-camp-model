@@ -2,7 +2,7 @@
 
 What changes for an athlete, sport by sport, and for people who just want to stay athletic and active. "Different athletes need different things." The main dial is ground-contact time: the less time the sport spends on the ground, the more plyometric work (short, bouncy contacts); the more time on the ground, the more ballistic work (one big effort). Everyone in athletic training gets Olympic lifts, in a version that fits their level. There are no rules by sex. Older adults, youth, swimmers, HYROX and pickleball players each have their own approved defaults.
 
-This page is part of [the coach answers by topic](index.md). It holds 26 question ids. Every place where a later round changed an earlier answer is also listed in [changes across rounds](changes-across-rounds.md). Read next: [model guide: athletes](../02-model/athletes.md), [sports table](../02-model/sports.md), [stay athletic and active](../02-model/stay-athletic-and-active.md), [special populations](../02-model/special-populations.md), [swimming](../02-model/swimming.md).
+This page is part of [the coach answers by topic](index.md). It holds 27 question ids: 26 from rounds 1 to 3 and 1 from round 4. Every place where a later round changed an earlier answer is also listed in [changes across rounds](changes-across-rounds.md). Read next: [model guide: athletes](../02-model/athletes.md), [sports table](../02-model/sports.md), [stay athletic and active](../02-model/stay-athletic-and-active.md), [special populations](../02-model/special-populations.md), [swimming](../02-model/swimming.md).
 
 ## The rules in short
 
@@ -88,6 +88,7 @@ Keys are in [`generator_spec_v1.json`](../../generator_spec_v1.json), the machin
 | [R3-ATH-05](#r3-ath-05) | 3 | RIGHT | Stay active: play days (hard gym day 48 h before), activity counts as cardio (up to 2), optional event date. | Stands |
 | [PRG-09](#prg-09) | 1 | RIGHT | Baseball: high school = college = pro in structure; loads and speeds differ; Thursday = strength. | Stands |
 | [PRG-10](#prg-10) | 1 | RIGHT | CrossFit FULL TIME = competitor, HALF TIME = class member. | Stands |
+| [R4-SCP-03](#r4-scp-03) | 4 | RIGHT | Every sport profile carries a label in the data and docs: confirmed by coach, based on a similar sport, or proposed. Not shown on the plan. | Stands |
 
 ## What he said in conversation
 
@@ -532,6 +533,21 @@ Each entry gives the question, the final rule as it stands today, what we assume
 - **Where it lives:** `generator_spec_v1.json` → `rule_tables.athletic.stay_active_play`, `plan_types.prep.gen_pop_event`, `inputs_schema.fields.F11r`
 - **This answer changed:** [PER-10](plans-and-calendar.md#per-10) (refined), [ATH-06](#ath-06) (refined), [ATH-07](sessions-and-order.md#ath-07) (refined), [ATH-13](#ath-13) (refined), [R2-ATH-07](#r2-ath-07) (refined)
 - **See also:** [ATH-13](#ath-13), [R2-ATH-07](#r2-ath-07), [ATH-07](sessions-and-order.md#ath-07), [R3-ATH-02](#r3-ath-02)
+
+### How sure each sport profile is (round 4)
+
+#### R4-SCP-03
+
+**Question (round 4).** Many sport numbers were confirmed by you, others we inferred from similar sports. Should each sport profile carry a label?
+
+**Final rule.** Yes. Every sport profile carries one of three labels, in the data and in the docs: "Confirmed by coach", "Based on a similar sport" or "Proposed". The label is not shown on the plan itself.
+
+- **Status:** Stands as answered.
+- **We proposed (round 4):** Yes, in the data and docs: 'Confirmed by coach', 'Based on a similar sport', or 'Proposed'. Not shown on the plan itself.
+- **His verdict (round 4):** RIGHT, no words (our proposal became his rule)
+- **Not confirmed by him:** How each of the 127 profiles was sorted is the team's reading (INFERRED): 23 `confirmed_by_coach` (numbers from his own programs, or a sport whose plan he approved by name: swimming, HYROX), 67 `similar_sport` (built on another profile), 37 `proposed` (worked out from the sport's demands with his general rules). A label describes the whole profile; single numbers inside a profile can still be his, such as the plyometric shares of [R2-ATH-01](#r2-ath-01).
+- **Where it lives:** `model/profiles.json` → `sports[id].confidence`, `sports[id].confidence_basis`; `model/rules.json` → `render.profile_confidence` (`shown_on_plan: false`); the list of profiles under each label is in [sports](../02-model/sports.md) §5.1. Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md). Decision record: [ADR-057](../04-decisions/adr-057-sport-profile-confidence-labels.md).
+- **See also:** [R3-ATH-04](#r3-ath-04), [R2-ATH-01](#r2-ath-01), [R3-ATH-01](#r3-ath-01), [R3-ATH-03](#r3-ath-03)
 
 ### Populations in his sheets
 

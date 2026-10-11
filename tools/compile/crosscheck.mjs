@@ -66,17 +66,14 @@ export function crossCheckRules(rules, S) {
     add('X04', '12_volume_algorithm_v1.json', `stairway.by_N for N = ${Object.keys(steps).join(', ')} (halfway, 3 % / 5 % steps, growth, 2 -> 11 display level, planned RIR)`, diffs.length ? 'mismatch' : 'ok', diffs.join('; ') || undefined);
   }
 
-  // X05: stairway limits
-  const lim = dig(S.alg12, 'stairway.limits');
-  if (!lim) add('X05', '12_volume_algorithm_v1.json', 'stairway limits', 'source_missing');
-  else {
-    const L = rules.stairway.limits, d = [];
-    if (L.planned_step_max !== lim.planned_step_max) d.push(`planned_step_max ${L.planned_step_max} vs ${lim.planned_step_max}`);
-    if (L.nonpriority_while_priority !== lim.nonpriority_while_priority) d.push(`nonpriority ${L.nonpriority_while_priority} vs ${lim.nonpriority_while_priority}`);
-    // v1.2 sources (round 3): the older-adult 3 % cap is retired (R3-VOL-04; 12 v1.2 §3.7.4) - the rules carry older_cap_retired
-    if (lim.older_adults_60plus === undefined ? !L.older_cap_retired : L.older_60plus !== lim.older_adults_60plus) d.push(`older ${L.older_60plus} vs ${lim.older_adults_60plus}`);
-    if (!(L.total_weekly_ceiling === 0.10 && L.total_ceiling_strict === true && /strictly below \+10/.test(String(lim.total_weekly_resistance_sets)))) d.push('total weekly ceiling not "strictly below 10 %"');
-    add('X05', '12_volume_algorithm_v1.json', 'stairway.limits (step <= 7 %, non-priority 3 %, 60+ 3 %, total strictly < 10 %)', d.length ? 'mismatch' : 'ok', d.join('; ') || undefined);
+  // X05: stairway limits. v0.5: the source's rate limits (step <= 7 %, total strictly < 10 %) are SUPERSEDED by COACH-CX CX-01
+  // ('increase faster if that's the need') and COACH-R4 R4-PRG-02 (no hard limit; a note above about 15 %): the compiled rules
+  // carry rules.stairway.progression instead, and no limit of the source may come back as a rule
+  {
+    const L = rules.stairway.limits || {}, PG = rules.stairway.progression, d = [];
+    if (!PG || PG.target_reached !== true) d.push('stairway.progression.target_reached missing');
+    for (const k of ['planned_step_max', 'total_weekly_ceiling', 'placed']) if (L[k] !== undefined) d.push(`stairway.limits.${k} is back`);
+    add('X05', 'coach_answers_codex_2026-10-10.md / coach_answers_round4.md', 'stairway progression (CX-01, R4-PRG-01 / 02) supersedes the 7 % / 10 % limits of 12_volume_algorithm_v1.json', d.length ? 'mismatch' : 'ok', d.join('; ') || undefined);
   }
 
   // X06: plan types 12 / 8 (spec plan_types) vs rules phases_by_N, exercise blocks, Receive-Create weeks, planned RIR
@@ -143,12 +140,12 @@ export function crossCheckRules(rules, S) {
   const roundTwo = /R2-ATH-01/.test(S.round2);
   add('X10', 'coach_answers_round2.md', 'athletic.ground_contact_classes end shares (R2-ATH-01)', d10.length || !roundTwo ? 'mismatch' : 'ok', d10.join('; ') || (roundTwo ? undefined : 'R2-ATH-01 not found in round 2'));
 
-  // X11: cycles (12 v1.1 cycles: start x 1.05, cap + 1, max 25 / 30)
-  const cyc = dig(S.alg12, 'cycles.rule');
-  if (!cyc) add('X11', '12_volume_algorithm_v1.json', 'cycles', 'source_missing');
-  else {
-    const c = rules.cycles, ok = /1\.05/.test(cyc) && /\+ 1/.test(cyc) && /max 25/.test(cyc) && /30 (Focus \/ )?priority/.test(cyc) && c.start_multiplier === 1.05 && c.cap_add === 1 && c.cap_max_nonpriority === 25 && c.cap_max_priority === 30;
-    add('X11', '12_volume_algorithm_v1.json', 'cycles (start x 1.05, cap + 1, max 25 / 30)', ok ? 'ok' : 'mismatch', ok ? undefined : cyc);
+  // X11: the next block. v0.5: the source's rule (start x 1.05, ceiling + 1 up to 25 / 30) is SUPERSEDED by COACH-R4 R4-PRG-04:
+  // the start goes up about 5 % in whole sets and never above the level's top - the ceiling no longer grows with finished blocks
+  {
+    const c = rules.cycles, nb = c.next_block || {};
+    const ok = c.start_multiplier === 1.05 && nb.multiplier && nb.multiplier.numerator === 105 && nb.multiplier.denominator === 100 && nb.never_above_top === true && c.cap_add === undefined;
+    add('X11', 'coach_answers_round4.md', 'next block (R4-PRG-04): start about 5 % up in whole sets, never above the level top (supersedes 12_volume_algorithm_v1.json cycles: cap + 1)', ok ? 'ok' : 'mismatch', ok ? undefined : JSON.stringify(c));
   }
 
   // X12: 06 v1.1 states the 12-week lambda (L1 0.76, L2 0.87, L3 0.50) and no deload inside a block

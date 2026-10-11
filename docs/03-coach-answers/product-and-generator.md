@@ -1,8 +1,8 @@
 # Coach answers: Product and generator
 
-Who the tool is for, what it asks and what it gives back. It is for clients, coaches, trainers, strength and conditioning coaches and anyone else, in English with a full Spanish switch. It must be very simple: put in the basics, get the whole program, see it ahead of time, adjust it yourself. The form asks about workouts only: no sex, no sleep, no stress. The output is a phone-friendly website, not an app, that people can screenshot. The tool does not track anyone. Health check, liability and licence are on the [legal and open source](legal-and-open-source.md) page.
+Who the tool is for, what it asks and what it gives back. It is for clients, coaches, trainers, strength and conditioning coaches and anyone else, in English with a full Spanish switch. It must be very simple: put in the basics, get the whole program, see it ahead of time, adjust it yourself. The form asks about workouts only: no sex, no sleep, no stress. The output is a phone-friendly website, not an app, that people can screenshot. The tool does not track anyone. Health check, liability and licence are on the [legal and open source](legal-and-open-source.md) page. **Newest answers:** the form no longer asks for a session length ([R4-SES-01](sessions-and-order.md#r4-ses-01)); the output is an editable template, including the sets of any day or week ([CX-04](#cx-04)); accepting the terms and release is required before a plan is shown ([R4-SCP-02](legal-and-open-source.md#r4-scp-02)); and he approved releasing the model as v1.3 and building the engine now ([R4-REL-01](#r4-rel-01), [R4-REL-02](#r4-rel-02)).
 
-This page is part of [the coach answers by topic](index.md). It holds 13 question ids. Every place where a later round changed an earlier answer is also listed in [changes across rounds](changes-across-rounds.md). Read next: [how a plan is made](../00-overview/how-a-plan-is-made.md), [for developers](../00-overview/for-developers.md).
+This page is part of [the coach answers by topic](index.md). It holds 16 ids: 13 from rounds 1 to 3, the dated clarification CX-04, and 2 from round 4. Every place where a later answer changed an earlier one is also listed in [changes across rounds](changes-across-rounds.md). Read next: [how a plan is made](../00-overview/how-a-plan-is-made.md), [for developers](../00-overview/for-developers.md).
 
 ## The rules in short
 
@@ -12,20 +12,21 @@ CONFIRMED means the coach said it or approved it. PROPOSED means the team design
 |---|---|---|---|
 | 1 | Users: clients, coaches, trainers, strength and conditioning coaches, anyone. | [GEN-01](#gen-01) | CONFIRMED |
 | 2 | English first, with a switch that turns the whole thing into Spanish: neutral Latin American Spanish, with the English gym word in brackets. Pounds in the US, kilograms elsewhere, switchable. | [GEN-01](#gen-01), [R2-GEN-08](#r2-gen-08) | CONFIRMED |
-| 3 | Very simple and few inputs. The plan is kicked out whole, people see it ahead of time and adjust it themselves. | [R3-VOL-04](progression.md#r3-vol-04) | CONFIRMED |
+| 3 | Very simple and few inputs. The plan is kicked out whole, people see it ahead of time and adjust it themselves. It is an editable template: swaps, blocks, exercises, and the sets of any day or week. | [R3-VOL-04](progression.md#r3-vol-04), [CX-04](#cx-04), [CX-02](progression.md#cx-02) | CONFIRMED |
 | 4 | The form asks about workouts only. No sex field. No sleep, stress or other lifestyle questions. | [GEN-02](#gen-02), [R2-GEN-04](#r2-gen-04) | CONFIRMED |
-| 5 | The form asks training experience in years, body weight, and for competitive athletes sport, position and season. Recreational players give a general sport only. | [GEN-02](#gen-02) | CONFIRMED |
+| 5 | The form asks training experience in years, body weight, and for competitive athletes sport, position and season. Recreational players give a general sport only. It does not ask how long a session should be. | [GEN-02](#gen-02), [R4-SES-01](sessions-and-order.md#r4-ses-01) | CONFIRMED |
 | 6 | Competitive athletes give the next season start date and their practice and game days; the tool works out the phase. | [R2-GEN-05](#r2-gen-05) | CONFIRMED |
 | 7 | People can pick Focus muscle 1 and Focus muscle 2. | [R3-SES-01](sessions-and-order.md#r3-ses-01) | CONFIRMED |
-| 8 | Every slot gets a default exercise, with a dropdown to swap inside the same category. | [GEN-04](#gen-04) | CONFIRMED |
+| 8 | Every slot gets a default exercise, with a dropdown to swap inside the same category. A swap says in one line what it keeps and what it loses. | [GEN-04](#gen-04), [R4-LIB-04](library-details.md#r4-lib-04) | CONFIRMED |
 | 9 | A phone-friendly website, not an app. Fewest clicks. Macro views of the block, the week and the day. Easy to screenshot and send. | [GEN-03](#gen-03), [R2-GEN-02](#r2-gen-02) | CONFIRMED |
 | 10 | The tool does not track. People track for themselves, however they like. | [GEN-03](#gen-03), [R3-VOL-02](progression.md#r3-vol-02) | CONFIRMED |
-| 11 | Videos are optional. People can look exercises up on YouTube. | [R2-GEN-02](#r2-gen-02) | CONFIRMED |
+| 11 | Videos are optional. No third-party video links in the public data: each exercise has a YouTube search link and an easy way to copy its name. | [R2-GEN-02](#r2-gen-02), [R4-LIB-05](library-details.md#r4-lib-05) | CONFIRMED |
 | 12 | A short coaching cue per exercise in his voice, plus his instruction block at the top. | [GEN-07](#gen-07) | CONFIRMED |
 | 13 | Weight is given in reps-in-reserve language. Percentages only for lifts with a recent tested best. Olympic lifts are explained as power output. | [R2-GEN-06](#r2-gen-06) | CONFIRMED |
 | 14 | Hard rules the generator never breaks: never to failure on heavy compounds; no V-squat; power before strength; horizontal before vertical; core never skipped. Coaches can add their own rules. | [GEN-08](#gen-08) | CONFIRMED |
 | 15 | He grades seven sample plans before launch. | [R2-GEN-07](#r2-gen-07) | CONFIRMED |
-| 16 | Screen layouts, export formats, the coach rule-pack mechanism and all time and cost estimates. | [R2-GEN-02](#r2-gen-02), [GEN-08](#gen-08) | PROPOSED |
+| 15b | Model v1.3 is released as the finished model; the engine is built now, in the same repo. | [R4-REL-01](#r4-rel-01), [R4-REL-02](#r4-rel-02) | CONFIRMED |
+| 16 | Screen layouts, export formats, the coach rule-pack mechanism, what the tool shows after an edit, and all cost estimates. | [R2-GEN-02](#r2-gen-02), [GEN-08](#gen-08), [CX-04](#cx-04) | PROPOSED |
 
 ## Why, in his words
 
@@ -34,6 +35,8 @@ CONFIRMED means the coach said it or approved it. PROPOSED means the team design
 - "They should be tracking it themselves, however they want to track it" ([GEN-03](#gen-03))
 - "This needs to be very simple for them to see the whole thing ahead of time" ([R3-VOL-04](progression.md#r3-vol-04))
 - "I need you to take away just sex." ([GEN-02](#gen-02))
+- "it should be all editable as they need to" ([CX-04](#cx-04))
+- "Yes, go ahead and finish it all, and then after you're done, consolidate everything." ([R4-REL-01](#r4-rel-01))
 
 ## Where it lives in the data
 
@@ -54,6 +57,9 @@ Keys are in [`generator_spec_v1.json`](../../generator_spec_v1.json), the machin
 | Coach-added rules | `generator_spec_v1.json` | `coach_rule_hooks` |
 | Sample plans to grade | `generator_spec_v1.json` | `output.sample_plans_for_grading` |
 | The build steps, in order | `generator_spec_v1.json` | `pipeline` |
+| Plan edits: sets, add, remove, block on or off (CX-04) | `engine/edit.mjs` | `applyPlanEdits`; plan field `edited` |
+| The intake without a session length (R4-SES-01) | `engine/CONTRACTS.md` | intake `schedule = {days_per_week, weekdays, start_date}` |
+| Spec keys for every 2026-10-10 and round-4 answer | `coverage_matrix_round4.md` | |
 
 ## Questions on this page
 
@@ -61,17 +67,20 @@ Keys are in [`generator_spec_v1.json`](../../generator_spec_v1.json), the machin
 |---|---|---|---|---|
 | [GEN-01](#gen-01) | 1 | answered in words (no chip) | For clients, coaches, trainers, S&C coaches, anyone; English first with a full Spanish toggle. | Stands, refined |
 | [R2-GEN-08](#r2-gen-08) | 2 | RIGHT | Neutral Latin American Spanish with the English gym word in brackets; he approves the lines; lb / kg switchable. | Stands, refined |
-| [GEN-02](#gen-02) | 1 | answered in words (no chip) | Intake: no sex; training experience in years; body weight; sport, position and season only for competitive athletes. | Stands, refined |
+| [GEN-02](#gen-02) | 1 | answered in words (no chip) | Intake: no sex; training experience in years; body weight; sport, position and season only for competitive athletes. Session length left the form in round 4. | Partly superseded |
 | [R2-GEN-04](#r2-gen-04) | 2 | NOT RIGHT | No sleep, stress or lifestyle questions: workouts only. | Stands |
 | [R2-GEN-05](#r2-gen-05) | 2 | RIGHT | Ask the season start date and practice / game days; the tool works out the phase. | Stands |
 | [GEN-03](#gen-03) | 1 | answered in words (no chip) | Output: a simple, phone-friendly website (not an app); no tracking by the tool; the repo given away as open source. | Stands, refined |
 | [R2-GEN-02](#r2-gen-02) | 2 | RIGHT | Phone-friendly website: fewest clicks, block / week / day views, easy screenshots, videos optional. | Partly superseded |
 | [GEN-04](#gen-04) | 1 | RIGHT | A default exercise in every slot plus same-category dropdown swaps. | Stands, refined |
-| [GEN-06](#gen-06) | 1 | answered in words (no chip) | Superseded: videos are optional; people can look exercises up on YouTube. | Superseded |
+| [GEN-06](#gen-06) | 1 | answered in words (no chip) | Superseded: videos are optional; each exercise has a YouTube search link and a name to copy. | Superseded |
 | [GEN-07](#gen-07) | 1 | RIGHT | A short cue per exercise in his voice + his instruction block at the top. | Stands |
 | [R2-GEN-06](#r2-gen-06) | 2 | RIGHT | Weight in reps-in-reserve words; percentages only with a recent tested best; Olympic lifts explained as power output. | Stands |
 | [GEN-08](#gen-08) | 1 | RIGHT | Hard rules: no failure on heavy compounds, no V-squat, power before strength, horizontal before vertical, core never skipped. Coaches can add rules. | Stands, refined |
-| [R2-GEN-07](#r2-gen-07) | 2 | RIGHT | He grades seven sample plans: swimming, football, soccer, CrossFit-style bootcamp, bootcamp, full-body aesthetics, push/pull/legs. | Stands |
+| [R2-GEN-07](#r2-gen-07) | 2 | RIGHT | He grades seven sample plans: swimming, football, soccer, CrossFit-style bootcamp, bootcamp, full-body aesthetics, push/pull/legs. | Stands, refined |
+| [CX-04](#cx-04) | 2026-10-10 | said in conversation | The output is an editable template: everything can be adjusted, including the sets of any day or week. | Stands |
+| [R4-REL-01](#r4-rel-01) | 4 | RIGHT | Release model v1.3 as the finished model; finish it all, then consolidate. | Stands, refined |
+| [R4-REL-02](#r4-rel-02) | 4 | PARTLY | Build the engine now. | Stands |
 
 ## What he said in conversation
 
@@ -153,9 +162,9 @@ Each entry gives the question, the final rule as it stands today, what we assume
 
 **Question (round 1).** Intake fields: what's missing or unnecessary?
 
-**Final rule.** Take sex off the form. Replace "training age" with training experience, in years of training and experience in the gym. Under goals, open the sport and position options when someone trains for athleticism in a sport. For recreational sports there is no position and no season, just the general sport. Add body weight, which matters for the training. The rest of our list stood: goal, age, days per week, session length, equipment, injuries or pain areas, priority muscles, rep-style preference and plan length. Later rounds renamed priority muscles to Focus muscle 1 and 2, refused any lifestyle question and added the own-risk box.
+**Final rule.** Take sex off the form. Replace "training age" with training experience, in years of training and experience in the gym. Under goals, open the sport and position options when someone trains for athleticism in a sport. For recreational sports there is no position and no season, just the general sport. Add body weight, which matters for the training. The rest of our list stood at the time: goal, age, days per week, session length, equipment, injuries or pain areas, priority muscles, rep-style preference and plan length. Later rounds renamed priority muscles to Focus muscle 1 and 2, refused any lifestyle question and added the own-risk box. **Round 4 took session length off the form** ([R4-SES-01](sessions-and-order.md#r4-ses-01)) and made accepting the terms a condition for getting a plan ([R4-SCP-02](legal-and-open-source.md#r4-scp-02)).
 
-- **Status:** Stands. Later answers added detail (see "Changed later").
+- **Status:** PARTLY SUPERSEDED. Part of this answer was reversed later (see "Changed later").
 - **We assumed (round 1):** Goal · sport + position · season · training age · age · sex · days per week · session length · equipment · injuries/pain areas · priority muscles · rep-style preference · plan length (6/8/12).
 - **His verdict (round 1):** answered in words, no chip
 - **In his words:** "I need you to take away just sex." / "Also, you missed weight." (GEN-02)
@@ -167,6 +176,8 @@ Each entry gives the question, the final rule as it stands today, what we assume
   - **REFINED by [R3-SES-01](sessions-and-order.md#r3-ses-01) (round 3).** Before: Priority muscles on the form. Now: Focus muscle 1 and Focus muscle 2.
   - **REFINED by [R3-VOL-04](progression.md#r3-vol-04) (round 3).** Before: A list of fields. Now: "We're not going to need a lot of inputs for this."
   - **REFINED by [R3-GEN-01](legal-and-open-source.md#r3-gen-01) (round 3).** Before: The field list. Now: A "use at your own risk" box before every build; no data kept.
+  - **REVERSED in part by [R4-SES-01](sessions-and-order.md#r4-ses-01) (round 4) and [CT-01](sessions-and-order.md#ct-01) (2026-10-10).** Before (superseded): "Session length" was one of the form's questions. Now: "Drop it. We don't need it." The form does not ask how long a session should be.
+  - **REFINED by [R4-SCP-02](legal-and-open-source.md#r4-scp-02) (round 4).** Before: An own-risk box on the form. Now: Accepting the terms and release is required before a plan is shown.
 - **See also:** [ATH-09](athletes-and-sports.md#ath-09), [R2-GEN-04](#r2-gen-04), [R2-GEN-05](#r2-gen-05), [R3-SES-01](sessions-and-order.md#r3-ses-01), [PRG-05](levels-and-zones.md#prg-05)
 
 <details>
@@ -260,6 +271,8 @@ Each entry gives the question, the final rule as it stands today, what we assume
   - **REVERSED by [R3-VOL-02](progression.md#r3-vol-02) (round 3).** Before (superseded): Approved path: website, then a weekly check-in, then open source. Now: No check-in phase. "We're only doing outputs."
   - **REVERSED by [R3-GEN-01](legal-and-open-source.md#r3-gen-01) (round 3).** Before (superseded): Approved proposal: code under Apache, the model under CC BY. Now: MIT for the repo, to Lalo Vera, Blaze Camp and BFit Studios Corp.
   - **REFINED by [R3-GEN-01](legal-and-open-source.md#r3-gen-01) (round 3).** Before: Save-day-as-image, PDF and a Google Sheet download. Now: Same exports, and nothing the person enters is kept.
+  - **REFINED by [R4-LIB-05](library-details.md#r4-lib-05) (round 4).** Before: Videos optional; people look them up on YouTube. Now: A "search this exercise on YouTube" link for each exercise and an easy way to copy its name. No third-party links in the public data.
+  - **REFINED by [R4-REL-01](#r4-rel-01) (round 4).** Before: Website first, then open source. Now: The model is released as v1.3 before any website is built.
 - **This answer changed:** [GEN-03](#gen-03) (refined), [GEN-06](#gen-06) (reversed)
 - **See also:** [GEN-03](#gen-03), [GEN-06](#gen-06), [R3-GEN-01](legal-and-open-source.md#r3-gen-01), [R3-VOL-02](progression.md#r3-vol-02)
 
@@ -285,6 +298,9 @@ Each entry gives the question, the final rule as it stands today, what we assume
 - **Where it lives:** `generator_spec_v1.json` → `template_refs.exercise_catalog.slot_rule`
 - **Changed later:**
   - **REFINED by [R3-SES-02](sessions-and-order.md#r3-ses-02) (round 3).** Before: Swap inside the same category. Now: People can also add or remove exercises or whole blocks, and switch off a day's athletic or core block.
+  - **REFINED by [CX-04](#cx-04) (2026-10-10).** Before: Swap, add or remove. Now: "It should be all editable as they need to": the sets of any day or week too.
+  - **REFINED by [R4-LIB-04](library-details.md#r4-lib-04) (round 4).** Before: A dropdown of swaps. Now: A swap also says in one short line what it keeps and what it loses.
+  - **REFINED by [R4-LIB-01](library-details.md#r4-lib-01) (round 4).** Before: Swaps come from his library. Now: The exercises the team proposed can also be chosen and added as optional add-ons.
 - **See also:** [EQ-10](equipment.md#eq-10), [R3-SES-02](sessions-and-order.md#r3-ses-02), [R2-LIB-01](library-details.md#r2-lib-01)
 
 <details>
@@ -307,6 +323,7 @@ Each entry gives the question, the final rule as it stands today, what we assume
 - **Where it lives:** `generator_spec_v1.json` → `output.videos`
 - **Changed later:**
   - **REVERSED by [R2-GEN-02](#r2-gen-02) (round 2).** Before (superseded): "yes but we need more links, i dont have them all and thats a lot of work but needs to get done" Now: "They can just look up the videos on their own on YouTube. No need to have the videos on there."
+  - **REFINED by [R4-LIB-05](library-details.md#r4-lib-05) (round 4).** Before: People look videos up themselves. Now: The third-party links from his sheets are removed from the public data; each exercise has a YouTube search link and an easy way to copy its name.
 - **See also:** [R2-GEN-02](#r2-gen-02)
 
 <details>
@@ -381,12 +398,14 @@ Each entry gives the question, the final rule as it stands today, what we assume
 
 **Final rule.** Before launch he will go over sample plans. His list has seven: swimming, football, soccer, CrossFit-style boot camp, boot camp, full-body aesthetics, and push / pull / legs. His grades become automatic tests, and he reviews the exercise tags in one sheet, most-used exercises first.
 
-- **Status:** Stands as answered.
+- **Status:** Stands. Later answers added detail (see "Changed later").
 - **We proposed (round 2):** Yes: beginner fat loss, intermediate aesthetics, off-season basketball, boxer, and a home dumbbell client (about 5 hours). Your grades become automatic tests. Tags reviewed in one sheet, most-used exercises first.
 - **His verdict (round 2):** RIGHT, with words
 - **In his words:** "Yes, I will go ahead and go over five different sample plans:" (R2-GEN-07)
 - **Note:** The question asked for five plans; his list names seven. The model plans for seven (INFERRED).
 - **Where it lives:** `generator_spec_v1.json` → `output.sample_plans_for_grading`
+- **Changed later:**
+  - **REFINED by [R4-REL-02](#r4-rel-02) (round 4).** Before: He grades sample plans before launch. Now: Unchanged. The engine was rebuilt as version 0.5 and its 8 sample plans wait for his grades.
 - **See also:** [R3-ATH-01](athletes-and-sports.md#r3-ath-01), [PRG-03](sessions-and-order.md#prg-03)
 
 <details>
@@ -403,6 +422,63 @@ Each entry gives the question, the final rule as it stands today, what we assume
 > 7. Push, pull, legs
 
 </details>
+
+### The editable template and the release (2026-10-10 and round 4)
+
+These three entries are the newest on this page.
+
+#### CX-04
+
+**Question (conversation, 2026-10-10).** Not a question. This is the explanation he gave with his three progression answers ([CX-01](progression.md#cx-01), [CX-02](progression.md#cx-02), [CX-03](progression.md#cx-03)).
+
+**Final rule.** The output is an editable template. A coach or a person receives a complete, usable starting plan and can adjust all of it as they need. Editing is not limited to swaps or switching blocks: the sets of any day or week can be changed too. The aim is a tool so intuitive and well built that most people will not need to edit.
+
+- **Status:** Stands as answered.
+- **Authority:** A dated clarification (`COACH-CX CX-04`). It indexes his explanation; it is not a fourth questionnaire answer.
+- **In his words:** "This is essentially a tool that's going to allow people to set up their templates a lot better, and it should be all editable as they need to." / "it will be editable, but they might not need to most of the time" (CX-04)
+- **Not confirmed by him:** PROPOSED: what the tool does after an edit. Today the plan data supports four edits (change sets for a day or week, remove an exercise, add an exercise, switch a block on or off). After an edit the weekly totals are recounted and the plan is marked as edited. The checks that judged the generated layout no longer vouch for an edited plan. Nothing is stored, and nothing adapts. An editable template is not a promise that every edit still follows his rules. "For any type of sport, the general population, or an older generation" states the goal; it is not a claim that every profile is validated ([R4-SCP-03](athletes-and-sports.md#r4-scp-03)).
+- **Where it lives:** `engine/edit.mjs` → `applyPlanEdits`; plan field `edited`. Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md). Decision records: [ADR-005](../04-decisions/adr-005-editable-plan-switches-and-supersets.md), [ADR-049](../04-decisions/adr-049-endpoint-priority-and-editable-progression.md).
+- **This answer changed:** [GEN-04](#gen-04) (refined), [R3-VOL-04](progression.md#r3-vol-04) (refined), [R3-SES-02](sessions-and-order.md#r3-ses-02) (refined)
+- **See also:** [CX-02](progression.md#cx-02), [R4-SES-04](sessions-and-order.md#r4-ses-04), [R3-VOL-02](progression.md#r3-vol-02)
+
+<details>
+<summary>His full explanation, 2026-10-10 (from <code>coach_answers_codex_2026-10-10.md</code>)</summary>
+
+> This is essentially a tool that's going to allow people to set up their templates a lot better, and it should be all editable as they need to. Ideally, the tool is just so great and smart that edits are probably not going to be needed if it's that intuitive and it's built that well for any type of sport, the general population, or an older generation. Young people like it. It should be so intuitive and so good with everything that we've been putting into it that it will be editable, but they might not need to most of the time.
+
+</details>
+
+#### R4-REL-01
+
+**Question (round 4).** Release the model now as the finished product, and label the plan-writing engine 'experimental'?
+
+**Final rule.** Yes. Model v1.3 is the library, the categories, the rules, the sports, his answers and the docs, merged into one clean main branch. He added: finish it all, then consolidate everything.
+
+- **Status:** Stands. The engine part moved on with [R4-REL-02](#r4-rel-02) (see "Changed later").
+- **We proposed (round 4):** Yes. Model v1.3 = library + categories + rules + sports + your answers + docs, all merged into one clean main branch. The engine stays in the repo marked experimental until it's rebuilt (simpler now that time-fitting is gone).
+- **His verdict (round 4):** RIGHT, with words
+- **In his words:** "Yes, go ahead and finish it all, and then after you're done, consolidate everything." (R4-REL-01)
+- **Not confirmed by him:** "Finished" describes the model documents and data. It is not a claim that every number is his: profiles and parameters keep their PROPOSED and INFERRED labels. Before the public release is called final the team still owes an attorney's review of the disclaimers, his review of the Spanish, and his grades on the sample plans.
+- **Changed later:**
+  - **REFINED by [R4-REL-02](#r4-rel-02) (round 4).** Before: The engine stays "experimental until it's rebuilt" later. Now: "I think you can try to build it now." The engine was rebuilt as version 0.5 in the same release.
+- **Where it lives:** the repo itself; version numbers in `model/MODEL_VERSION` and `engine/version.mjs`. Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md).
+- **This answer changed:** [R2-GEN-02](#r2-gen-02) (refined)
+- **See also:** [R4-REL-03](legal-and-open-source.md#r4-rel-03), [R2-GEN-07](#r2-gen-07)
+
+#### R4-REL-02
+
+**Question (round 4).** Who rebuilds the engine after the release?
+
+**Final rule.** Build it now. The team had proposed to rebuild the engine later, from the planner design already in the repo. He said to try now.
+
+- **Status:** Stands as answered.
+- **We proposed (round 4):** Claude builds it when your weekly usage resets, using the planner design already in the repo (minus all the time-fitting), and your Codex reviews it.
+- **His verdict (round 4):** PARTLY
+- **In his words:** "I think you can try to build it now." (R4-REL-02)
+- **Not confirmed by him:** How it was built is a team decision: engine 0.5 is template-first, and the large two-stage planner in `design/PLANNER_SPEC.md` was not built ([ADR-058](../04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md)). He has not graded the engine's sample plans.
+- **Where it lives:** `design/ENGINE_V05_PLAN.md`, `engine/`, `samples/STATUS_v0.5.md`. Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md).
+- **This answer changed:** [R2-GEN-07](#r2-gen-07) (refined), [R4-REL-01](#r4-rel-01) (refined)
+- **See also:** [CT-01](sessions-and-order.md#ct-01), [R2-GEN-07](#r2-gen-07)
 
 ## Related answers on other pages
 

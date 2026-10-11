@@ -12,7 +12,7 @@ This page describes every field of the four records that make up the Blaze Camp 
 
 | Record | Source (edit here) | Runtime (generated, never edit) | Shape defined in |
 |---|---|---|---|
-| Exercise | [`synthesis/02_exercise_catalog.json`](../../synthesis/02_exercise_catalog.json): an array of 939 records | `model/catalog.json > exercises[]`: 731 records | [`engine/CONTRACTS.md`](../../engine/CONTRACTS.md) §3.2 |
+| Exercise | [`synthesis/02_exercise_catalog.json`](../../synthesis/02_exercise_catalog.json): an array of 939 records | `model/catalog.json > exercises[]`: 733 records (731 source records plus the 2 mid-range pull rows of round 4) | [`engine/CONTRACTS.md`](../../engine/CONTRACTS.md) §3.2 |
 | Profile | [`synthesis/04_profiles.json`](../../synthesis/04_profiles.json) `> profiles[]`: 127 records | `model/profiles.json > sports{}` | CONTRACTS §3.5 |
 | Template | [`synthesis/05_templates.json`](../../synthesis/05_templates.json) `> generator_split_templates[family][days]`: 30 templates | `model/templates.json > families{}` | CONTRACTS §3.4 |
 | Rules (numbers) | [`generator_spec_v1.json`](../../generator_spec_v1.json) and `synthesis/12_volume_algorithm_v1.json` | `model/rules.json` | CONTRACTS §3.3; see [parameters.md](parameters.md) |
@@ -23,9 +23,10 @@ This page describes every field of the four records that make up the Blaze Camp 
 Things to know before you start:
 
 - **Codes stay in English.** Field names and values (`pattern_code`, `HPULL`, `bilateral`) are ids. Only display text is translated.
-- **The engine is being rebuilt** ([ADR-048](../04-decisions/adr-048-optimizer-rebuild-of-the-planner.md)). The source files and the coach's answers are the authority. The runtime shapes below were checked against the repo on 2026-10-09 (model 1.3.0, engine 0.4.0, plan schema `plan/2`). Read `engine/CONTRACTS.md` for the current shape before you depend on a runtime field.
+- **The runtime shapes below describe engine 0.5** (template-first, no time-fitting; [ADR-058](../04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md)). They were checked against the repo on 2026-10-11 (model 1.3.0, engine 0.5.0, plan schema `plan/2`). The source files and the coach's answers are the authority. Read `engine/CONTRACTS.md` for the current shape before you depend on a runtime field.
+- **Time is not in the data as a limit.** There is no session-length field in the intake, no time check and no time offer in a plan (CT-01, R4-SES-01). A day carries `est_minutes` as information only. Some source templates still hold minute fields from before; the compiler drops them (section 3).
 - **Evidence travels with the data.** Source records carry fields such as `evidence`, `basis`, `tag` or `sources` that say whether a value is the coach's answer, OBSERVED in his sheets, INFERRED or PROPOSED. Keep them when you edit.
-- **Three things never reach the runtime files or a plan**: a band, chain or weight-releaser set-up (EQ-01, EQ-12); a sex or gender field (GEN-02, ATH-09); a sleep, stress, job or lifestyle field (R2-GEN-04). One detail on bands: the band and chain items of his sheets are kept in the source catalog as `out_of_scope` records, with `generator.eligible: false`. Some source ids also keep the word "band" from his sheet names. The compiler drops those records, removes every band set-up and takes the word out of the ids.
+- **Four things never reach the runtime files or a plan**: a third-party video link (R4-LIB-05); a band, chain or weight-releaser set-up (EQ-01, EQ-12); a sex or gender field (GEN-02, ATH-09); a sleep, stress, job or lifestyle field (R2-GEN-04). One detail on bands: the band and chain items of his sheets are kept in the source catalog as `out_of_scope` records, with `generator.eligible: false`. Some source ids also keep the word "band" from his sheet names. The compiler drops those records, removes every band set-up and takes the word out of the ids.
 
 Terms are defined in the [glossary](glossary.md).
 
@@ -44,7 +45,7 @@ A step-by-step guide to writing one, with worked examples, is in [adding-exercis
 | `id` | Unique id, made from the name | lowercase kebab-case, e.g. `front-squat-barbell` |
 | `name` | Display name in plain gym English | text |
 | `record_type` | What kind of record this is | `exercise` (633), `conditioning_prescription` (72), `complex` (63), `modifier` (51), `out_of_scope` (36: the band, chain and other variable-resistance items of his sheets, kept on file and never used), `generic_choice` (30), `drill` (14), `test` (13), `taxonomy_placeholder` (12), `retired` (11), `variant_rule` (3), `progression_note` (1). Only `exercise`, `drill`, `test` and `conditioning_prescription` reach the runtime catalog. |
-| `status` | Where it came from and how it may be used | `live_library_selectable` (in his BYOP library; can be the default pick), `live_library_not_selectable`, `reference_only` and `program_only` (swaps only), `added_v1`, `added_v1_1` (added and approved by him), `proposed_v1`, `proposed_v1_1` (PROPOSED: swap only until he approves) |
+| `status` | Where it came from and how it may be used | `live_library_selectable` (in his BYOP library; can be the default pick), `live_library_not_selectable`, `reference_only` and `program_only` (swaps only), `added_v1`, `added_v1_1` (added and approved by him), `proposed_v1`, `proposed_v1_1` (proposed by the team). Since round 4 the compiler turns the proposed records into `optional_addon` in the runtime file: a swap and an offered add-on, never a template's pick (R4-LIB-01). Only the 2 neck records stay `proposed_v1_1`: never picked, never shown. |
 | `generic` | True for a placeholder that is not one real exercise | `true`, `false` |
 | `aliases[]` | Every place the name appears in his sheets, as written | objects: `raw`, `workbook`, `tab`, `cell`, `role`, `category_verbatim`. OBSERVED only. |
 | `placements[]` | The cells where the library files it, with the level label | objects: `workbook`, `tab`, `cell`, `role`, `pattern_code`, `level`, `level_label_verbatim`, `level_evidence`. OBSERVED only. |
@@ -131,7 +132,7 @@ A step-by-step guide to writing one, with worked examples, is in [adding-exercis
 | `typical_rep_range.value` | A dose hint. The real dose comes from the rules. | text, e.g. "8-12 per side" |
 | `typical_rep_range.dose_unit` | The unit | `reps`, `reps per side`, `contacts`, `throws`, `seconds`, `reps or seconds`, `time / distance / calories`, `distance` and a few mixed units (`reps or meters`, `distance or seconds`) |
 | `typical_rep_range.observed_doses[]` | Doses he wrote for it in his programs | OBSERVED |
-| `video_urls[]` | Video links. Optional (R2-GEN-02). Links found in his sheets are not Blaze Camp's videos. | objects: `url`, `source` |
+| `video_urls[]` | Empty on every record. The third-party links from his sheets were removed from the public data (R4-LIB-05). The compiler gives each exercise a YouTube search link built from its English name (see `video` in 1.2). His own videos can be added later. | `[]` |
 | `coach_cues[]` | His own cue for the exercise (GEN-07). Never written for him. | objects: `cue` |
 | `variation_v1_1.axes[]` | The one detail that may change between exercise blocks (R2-LIB-01) | `implement`, `stance`, `grip`, `range`, `which hand holds the weight` |
 | `program_slots[]`, `observed_in_programs[]`, `observed_in_programs_count` | Where his programs use it | OBSERVED |
@@ -195,8 +196,8 @@ The compiler turns each usable source record into this flat record. Every field 
 | `tags[]` | Rule tags | a closed list, see 1.4 |
 | `variation_axes[]` | One-detail axes | `implement`, `stance`, `grip`, `range`, `hand` |
 | `rep_hint` | Dose hint | `{text, unit}` |
-| `video` | A video link | `{url, kind: coach or observed}` or null. With null, the plan offers a YouTube search link. |
-| `status` | Copied | as in 1.1 |
+| `video` | A video link | always `{url, kind}`. `kind: search` = a YouTube search for the exercise's English name (`rules.render.video.search_url` + the name). `kind: coach` is reserved for his own videos. There is no third-party link (R4-LIB-05). |
+| `status` | Copied, except that the team-proposed records become `optional_addon` | as in 1.1, plus `optional_addon` (32 records: 29 team proposals, the 2 mid-range pull rows, his single-side carry). `proposed_v1_1` remains on the 2 neck records only. |
 | `sport_use[]` | Copied | sport names |
 | `rule_refs[]` | Answer ids that changed this record | e.g. `R2-VOL-05`, `LIB-16` |
 
@@ -376,8 +377,10 @@ The compiler reduces each profile to the fields the engine reads.
 | `in_season`, `pre_season` | Season rules | `{lift_days, game_heavy, hard_day_gap_h}`; multipliers by bucket |
 | `injuries[]`, `variants{}`, `age_rules`, `play`, `stay_athletic_dial`, `resistance_goal` | As in 2.1 | |
 | `template_hint`, `lead_for_goals[]`, `volume_ratios[]` | Engine hints | objects |
+| `confidence` | How sure the profile is (R4-SCP-03). In the data and the docs only; never printed on a plan. | `confirmed_by_coach` (23 profiles), `similar_sport` (67), `proposed` (37) |
+| `confidence_basis` | One line saying what the label rests on | text, e.g. "built on the weekend_warrior profile" |
 
-`model/profiles.json` also holds `goals{}` (one record per goal: family, default profile, aerobic count, default minutes), `picker{}` (groups, sports, activities), `goal_defaults{}`, `age_overlays{}` and `id_aliases{}`.
+`model/profiles.json` also holds `goals{}` (one record per goal: family, default profile, aerobic count; a `default_minutes` value there is a leftover that feeds nothing but the time estimate), `picker{}` (groups, sports, activities), `goal_defaults{}`, `age_overlays{}` and `id_aliases{}`.
 
 ---
 
@@ -394,7 +397,7 @@ A template is the skeleton of a week for one family and one number of training d
 | (key) | The template family | `aesthetics`, `athletic`, `strength`, `fat_loss_bootcamp`, `hybrid_crossfit`, `no_equipment` |
 | `family_notes` | What the family is for and how it is built | text |
 | `pairing_mode` | Same pattern or cross pattern (UNI-06) | `same_pattern` (aesthetics), `cross_pattern` (fat loss, bootcamp, no equipment; the default for athletes), a four-role layout (strength), a class model (hybrid / CrossFit) |
-| `default_minutes` | Usual session length by kind of client (UNI-09) | minutes |
+| `default_minutes` | Usual session length by kind of client (UNI-09). Source field only: background for the time estimate. Not an input and not a limit (CT-01). | minutes |
 | `"2"` … `"6"` | One template per number of training days | template objects |
 
 **Template level** (`[family][days]`)
@@ -405,7 +408,7 @@ A template is the skeleton of a week for one family and one number of training d
 | `day_types{}` | The day types of the week | see below |
 | `alternative`, `same_pattern_variant`, `in_season_variant`, `baseball_parts_variant` | Other versions of the same week (upper/lower, push/pull/legs, in-season, and so on) | template-like objects |
 | `aerobic_ATH07` | How many aerobic sessions the layout holds and the target by client type | object |
-| `checks` | Stored checks of the template at 45, 60 and 90 minutes: exposures per pattern, spine days, exercises per group, estimated minutes, flags | computed |
+| `checks` | Stored checks of the template from before round 4, at 45, 60 and 90 minutes. Source field only; nothing reads the minute parts any more. | computed |
 | `evidence` | What is OBSERVED from his program and which answers shaped it | text |
 
 **Day type** (`day_types[id]`)
@@ -425,10 +428,10 @@ A template is the skeleton of a week for one family and one number of training d
 | `bucket` | The category the exercise is drawn from | a bucket id (3.3) |
 | `role` | What the station does in the session | `warmup`, `core_block`, `skill`, `athletic`, `power`, `work`, `paired_upper`, `secondary`, `accessory`, `nuance`, `survival`, `iso`, `focus`, `conditioning`, `aerobic_block`, `circuit_station` |
 | `group` | The focus group the station serves | `quads`, `hips`, `back`, `chest`, `shoulders`, `biceps`, `triceps`, `calves`, `core` |
-| `sets_hint` | Starting sets in week 1 | a number, or "a-b" (a below 90 minutes, b at 90) |
+| `sets_hint` | Starting sets in week 1 | a number, or "a-b" in older source records (two values that used to depend on session length; the runtime keeps one pair and time no longer chooses between them) |
 | `pair` | The lower lift and upper lift that belong together (hip + push, knee + pull) | `P1`, `P2`, `P3` |
-| `superset`, `superset_below_minutes`, `superset_rule` | The superset group, and the session length below which it is done as a superset | group id; minutes (`999` = always) |
-| `include_from_minutes` | The station is only used when the session is at least this long | minutes |
+| `superset`, `superset_rule` | The superset group. A superset is a recommendation the person switches on (R3-SES-02). The source field `superset_below_minutes` is retired: the compiler deletes it (CT-01). | group id |
+| `include_from_minutes` | Retired source field (it tied a station to a session length). The compiler deletes it and gives every station a `rank` instead (3.2). | - |
 | `axial` | Which squat or hinge station is the week's heavy spine lift | `axial`, `non_axial`, light variants, or absent |
 | `variant` | A narrower choice inside the bucket | in the runtime file: `side`, `rear` (delts); `clean`, `snatch` (Olympic family, placed by the team's reading of R2-ATH-04); `upper` (plyo push-ups); `swing`. The source file writes the same choices as short phrases. |
 | `movable`, `default_position`, `allowed_positions[]` | For the core block: it may be moved (ATH-11) | `first`, `after_plyo`, `after_strength`, `end` |
@@ -444,10 +447,13 @@ A template is the skeleton of a week for one family and one number of training d
 |---|---|
 | Top level | `schema`, `buckets{}`, `goal_to_family{}`, `kit_family_override`, `families{}`, `program_names[]` |
 | `goal_to_family` | `muscle` → `aesthetics`; `strength` → `strength`; `athletic`, `active` → `athletic`; `fat_loss`, `general` → `fat_loss_bootcamp`; `hybrid` → `hybrid_crossfit` |
-| Template (`families[f].days[d]`) | `id` (e.g. `athletic.3`), `family`, `days`, `status` (`built`, `unbuilt`), `week_layout`, `day_types`, `variants`, `aerobic`, `evidence` |
+| Template (`families[f].days[d]`) | `id` (e.g. `athletic.3`), `family`, `days`, `status` (`built`, `unbuilt`), `format_note`, `week_layout`, `day_types`, `variants`, `aerobic`, `evidence` |
 | `week_layout[weekday]` | `day_type`, `kind` (`main`, `optional`, `aerobic`, `off`), `optional`, `note` |
-| Day type | `label`, `label_key`, `kind`, `format` (`straight`, `circuit`), `lower_focus` (`knee`, `hip`, null), `full_body`, `groups[]`, `axial` {squat, hinge}, `stations[]` |
-| Station | `id` (e.g. `A1.s09`), `bucket`, `role`, `block`, `group`, `sets_hint` [below 90 min, at 90 min], `pair`, `superset`, `superset_below_minutes`, `circuit`, `include_from_minutes`, `axial`, `variant`, `laterality_dial`, `movable`, `counts_as_volume`, `older_default_excluded`, `pool_filter`, `rir`, `note` |
+| Day type | `label`, `label_key`, `kind`, `format` (`straight`, `circuit`), `dose_text`, `lower_focus` (`knee`, `hip`, null), `full_body`, `groups[]`, `axial` {squat, hinge}, `stations[]`, `count`, `skeleton` |
+| `skeleton` | Which of the coach's day templates the day follows (R4-SES-05): `gym_A` (pull + knee dominant), `gym_B` (push + hip dominant), `gym_C` (the 3-day builder's third day), `athletic_A`, `athletic_B`, `athletic_C`, `ppl_push`, `ppl_pull`, `ppl_legs`, `class_squat`, `class_press`, `class_deadlift`, `class_pull`; null on a day type with no named skeleton |
+| `count` | The exercise count the day is built to; null = the client type's default from `rules.session.size` (R4-SES-02) |
+| Station | `id` (e.g. `A1.s09`), `bucket`, `role`, `block`, `group`, `sets_hint` [a, b], `sets_text`, `dose_text`, `pair`, `superset`, `circuit`, `axial`, `variant`, `variant_text`, `laterality_dial`, `loading`, `movable`, `counts_as_volume`, `condition`, `older_default_excluded`, `pool_filter`, `rir`, `note`, `rank` |
+| `rank` | A counted station's place in the day: 1 = first to stay. A day holds the stations with `rank` up to its exercise count. `99` = a template extra outside the default session (there to add). `null` = an uncounted station that is always in (warm-up, core, cardio). |
 | `program_names[]` | `when` (family, days, variant, goal …) → `id`. Names are generic and understandable (FIX-03). |
 
 ### 3.3 Buckets
@@ -474,7 +480,7 @@ A bucket is the "category" of a station. Each has a definition in `model/templat
 
 ## 4. Intake (what goes in)
 
-The intake is the only input. Nothing is asked after the plan is built (R3-VOL-02, R3-VOL-04). The form is defined in `generator_spec_v1.json > inputs_schema` (schema name `intake/3`, fields F00-F46). The engine's contract in `engine/CONTRACTS.md` §2.1 uses the name `intake/2` and accepts the round-3 fields as additions. The field names below are the engine's.
+The intake is the only input. Nothing is asked after the plan is built (R3-VOL-02, R3-VOL-04). The form is defined in `generator_spec_v1.json > inputs_schema` (fields F00-F46). The engine's contract in `engine/CONTRACTS.md` §2.1 uses the name `intake/2`. The field names below are the engine's. Since round 4 the intake has no session length (R4-SES-01), and the release must be accepted or no plan is generated (R4-SCP-02).
 
 | Field | Form id | Meaning | Allowed values | Source |
 |---|---|---|---|---|
@@ -482,8 +488,8 @@ The intake is the only input. Nothing is asked after the plan is built (R3-VOL-0
 | `units` | F06 | Units | `lb`, `kg` | R2-GEN-08 |
 | `role` | F39 | Who the plan is for | `self`, `client` (a coach building for a client) | R2-GEN-03 |
 | `health_route` | F45 | For a coach: run the health check or skip it | `coach_screen`, `coach_own_sop` | R2-GEN-03, R3-GEN-01 |
-| `safety` | F01 | The five health-check answers | booleans: `heart`, `surgery_6mo`, `pregnant_postpartum_6mo`, `injury_in_treatment`, `doctor_said_no`. Any true answer stops the plan. | R2-GEN-03 |
-| `release` | F46 | The own-risk and liability tick for this build | `accepted: true`; `version`: `release.client`, `release.coach`, `release.minor` (with `guardian: true` under 18) | R3-GEN-01 |
+| `safety` | F01 | The five health-check answers | booleans: `heart`, `surgery_6mo`, `pregnant_postpartum_6mo`, `injury_in_treatment`, `doctor_said_no`. Today any true answer stops the automatic plan (status `refer`). Open for the coach after R4-SCP-01 ("everyone should be able to use the plan"). | R2-GEN-03, R4-SCP-01 |
+| `release` | F46 | The acceptance of the terms and the release of liability for this build. **Required**: without `accepted: true` the engine returns `status: invalid`, no weeks and the error `release_missing`. It is checked first, before the health screen. | `accepted: true`; `version`: `release.client`, `release.coach`, `release.minor` (with `guardian: true` under 18) | R3-GEN-01, R4-SCP-01, R4-SCP-02 |
 | `age` | F02 | Age | 10 to 90 (range PROPOSED) | ATH-09 |
 | `body_weight` | F05 | Body weight | `{value, unit}` | GEN-02 |
 | `experience` | F17 | Training experience | `years_consistent`, `months_off_last_2y`, `former_competitor` | GEN-02, PRG-05 |
@@ -493,7 +499,7 @@ The intake is the only input. Nothing is asked after the plan is built (R3-VOL-0
 | `activity` | F11r | For stay-active people: `ids` (up to 2), `play_days`, `play_minutes`, `event_date`, `league_sport`, `style` | activity ids; `play_minutes`: `under_45`, `45_60`, `60_plus` | conversation, R3-ATH-05 |
 | `focus_muscles` (old name `priority_muscles`) | F09 | Focus muscle 1 and 2 | up to 2 of `quads`, `glutes`, `hamstrings`, `back`, `chest`, `shoulders`, `biceps`, `triceps`, `calves`, `core`, `v_taper`. There is no `rear_delts` or `side_delts` choice: old values read as `shoulders` (R3-VOL-01). | R3-SES-01 (two Focus muscles); the list of options is PROPOSED |
 | `lift_style` | F10 | Rep-style preference | `volume_lighter`, `balanced`, `heavy_powerlifting` | VOL-12 |
-| `schedule` | F22-F26 | `days_per_week`, `weekdays`, `session_minutes`, `start_date` | 2-6 days; 30, 45, 60, 75, 90 (105, 120 for competitive athletes) | UNI-09 |
+| `schedule` | F22, F23, F26 | `days_per_week`, `weekdays`, `start_date`. There is no session length (R4-SES-01). An old intake that still sends `session_minutes` is accepted and the value is ignored, with `warning.session_minutes_retired`. | 2-6 days | R4-SES-01, CT-01 |
 | `plan` | F25-F26b | `mode`, `maint_reason`, `maint_weeks`, `previous_cycles` {`count`, `last_block_finished`}, `tests[]` | modes `fixed_12`, `fixed_8`, `maintenance_4_6`, `year`; tests `strength`, `cardio`, `speed_agility`, `jumps`, `body`, `none` | PER-01, R2-PER-06, R2-PER-07 |
 | `equipment` | F27-F34 | `profile`, `extras[]`, `machines[]`, `preference`, `detail` | profiles `FULL_GYM`, `BASIC_GYM`, `HOME_BARBELL`, `HOME_DB_BENCH`, `KB_ONLY`, `BODYWEIGHT`, `HOTEL_GYM`, `FIELD_TRACK_KIT` | EQ-01, EQ-10 |
 | `pain[]` | F35, F36 | Painful areas | `area`: `neck`, `shoulder`, `elbow`, `wrist_hand`, `upper_back`, `lower_back`, `hip_groin`, `knee`, `ankle_foot`, `other`; `side`; `severity`: `mild`, `moderate`, `severe` (severe stops the plan) | VOL-03 |
@@ -501,7 +507,7 @@ The intake is the only input. Nothing is asked after the plan is built (R3-VOL-0
 | `growth_stage` | F03 | For athletes under 18: growth stage | `pre_phv`, `circa_phv`, `post_phv`, `not_sure` | team (PROPOSED) |
 | `prefs` | F44 | Preferences | `core_position` (`start`, `after_plyos`, `after_strength`, `end`), `optional_days` (`separate`, `add_on`), `variety_ab`, `heavy_unilateral`, `supersets_for_fatigue`, `cardio_adjust`, `superset_recommendations` (`show`, `hide`), `older_athletic_opt_in`, `racket_50_impact_opt_in` | ATH-11, ORD-10, PER-03, UNI-04, ORD-05, R2-SES-06, R2-ATH-08, R3-ATH-02, R3-SES-02 |
 
-**Removed fields.** `sex` (GEN-02); sleep, stress and job (R2-GEN-04); `output_mode` with its check-in and logbook options (R3-VOL-02); `email` (R3-GEN-01). The engine rejects any key named `sex`, `gender`, `sleep`, `stress`, `recovery`, `job`, `hard_job_or_other_sport`, `life` or `energy`.
+**Removed fields.** `sex` (GEN-02); sleep, stress and job (R2-GEN-04); `output_mode` with its check-in and logbook options (R3-VOL-02); `email` (R3-GEN-01); `schedule.session_minutes`, the session length (R4-SES-01). The engine rejects any key named `sex`, `gender`, `sleep`, `stress`, `recovery`, `job`, `hard_job_or_other_sport`, `life` or `energy`.
 
 ---
 
@@ -514,15 +520,14 @@ The plan is one JSON object. It holds codes and word-list keys, never sentences.
 | Field | Meaning | Allowed values |
 |---|---|---|
 | `schema` | Schema name | `plan/2` |
-| `status` | Result | `ok` (a full plan), `refer` (a health answer or severe pain stopped it), `invalid` (the intake was wrong) |
+| `status` | Result | `ok` (a full plan), `refer` (a health answer or severe pain stopped it), `invalid` (the intake was wrong, or the terms and release were not accepted: R4-SCP-02) |
 | `model_version`, `engine_version`, `contracts_version` | What built the plan | version strings |
 | `seed`, `intake_hash` | Fixed values taken from the intake, so the result can be reproduced | strings |
 | `lang`, `units` | Language and units | `en`, `es`; `lb`, `kg` |
-| `release_stamp` | The release accepted for this build. Printed on the plan. Never stored (R3-GEN-01). | `{version, lang, role, guardian}`; null when the status is not `ok` |
+| `release_stamp` | The release accepted for this build. Printed on the plan as the release line, top and bottom (R4-SCP-01, R4-SCP-02). Never stored (R3-GEN-01). | `{version, lang, role, guardian, accepted}`; `accepted: true` on every `ok` plan; null when the status is not `ok` |
 | `refer` | Why the person was referred | `{reasons: [keys]}` or null |
 | `errors[]` | Intake problems, when `invalid` | issue objects |
-| `offers[]` | What the time check offers | keys such as `offer.more_days`, `offer.longer_sessions`, `offer.keep_time` |
-| `time_check` | The result of the time check (R3-SES-02) | see 5.6 |
+| `edited` | False on a generated plan. True after `applyPlanEdits` (CX-04): totals are recounted, an `edits` list is added, and the checks that judge the generated layout no longer vouch for the plan. | boolean |
 | `meta` | Everything decided once for the whole plan | see 5.2 |
 | `shape` | The calendar of the plan | see 5.3 |
 | `weeks[]` | The weeks | see 5.4 |
@@ -539,22 +544,26 @@ The plan is one JSON object. It holds codes and word-list keys, never sentences.
 | `level` | `{client: L1, L2 or L3, exercise_ladder, reason_keys}`: the level and the plain-words reason for it (PRG-05) |
 | `season` | For athletes: `{phase, weeks_to_season, season_date, practice_days, game_days}` |
 | `plan_mode`, `skeleton`, `weeks`, `start_date` | The plan type and length |
-| `days_per_week`, `session_minutes`, `weekdays`, `play_days` | The schedule |
+| `days_per_week`, `weekdays`, `play_days` | The schedule |
+| `session_size` | The exercise count the days are built to (R4-SES-02): `{type, range: [lo, hi], default}`; types `general`, `aesthetics`, `strength`, `bootcamp`, `athletic`, `stay_active`, `class`, `older` |
+| `two_day` | Set on a plan with 2 training days (R4-SES-03): `{weekly_sets: [6, 8], suggest_days: 3}`; else null |
+| `time` | Always `estimate_only` (CT-01) |
 | `template` | `{id, variant, pairing}` |
 | `kit` | `{profile, tokens, machines, medball_max_lb, buy_list}` |
 | `constraint_band` | The constraint levels preferred for this person |
 | `targets` | Weekly-set starts and ceilings by line, the fill policy of each muscle, Focus muscles, pain-reduced muscles, groups under the floor rule, credit-only groups, calves per leg day, core block |
-| `stairway[]` | One entry per training block: its length and the λ of each line |
+| `stairway[]` | One entry per training block: `training_block`, `N`, `groups`, `credit_only_groups`, `group_start`, `group_top`, `planned_top`, `schedule` (whole sets per group and week), `arrival_week`, `realized_arrival_week`, `realized_top`, `capped[]` (`{group, planned, held}`: what the template could not hold), `below_floor`, `bonus[]` (bonus exercises opened), `focus_closed`, `acceleration` (weeks above the note threshold), and more |
 | `share_targets` | The bilateral share targets by exercise block |
 | `athletic` | `{enabled, older_mode, plyo_share {start, end}, ground_contact_class, contacts_session_max, olympic_exposures_wk, game_heavy, heavy_play_week}` |
 | `aerobic` | `{per_week, base, adjust, replaced_by_activity, walks, sport_is_aerobic}` |
 | `tests` | `{items, baseline_week, end_weeks, from_zero, test_days, test_dates}` |
+| `addons[]` | Optional add-ons that fit this person (R4-LIB-01): `{exercise_id, name_key, kind: joint_care, sport or carry, code, bucket, block, sets: [min, max], reps, counts_as_muscle_sets, video, why}`. None is in the plan's days; the person adds one with an edit. |
 | `health` | `{role, health_route, refer, reasons, bypass}`. The health answers themselves are not in the plan. |
 | `after_plan` | What comes next for an athlete (for example a pre-season) |
 | `instruction_keys[]` | The coach's instruction block shown at the top of the plan (GEN-07) |
 | `locked_rule_keys[]` | The hard rules in force |
 | `input_audit` | The intake keys that were read, and any forbidden key found |
-| `warnings[]` | Notes for the person, e.g. a long day or groups not trained directly |
+| `warnings[]` | Notes for the person: `{code, key, args}`. Codes of engine 0.5 include `two_day_rule`, `acceleration`, `capped_by_template`, `below_floor_template`, `credit_only_groups`, `floor_needs_optional_day`, `session_minutes_retired`, `plan_edited`. None is about time. |
 | `derived` | The full set of derived values, for audit |
 | `why[]` | Why the profile, level and template were chosen |
 
@@ -581,11 +590,14 @@ The plan is one JSON object. It holds codes and word-list keys, never sentences.
 | `test` | Test week details | `{type: baseline or end, items, from_zero}` or null. Only in week 1 and the last week (R2-PER-07). |
 | `circuit` | Bootcamp circuit dose for the week | rounds and work seconds, or null |
 | `step_by_muscle` | The planned step into this week | fractions; 0 in week 1 |
+| `target_by_group` | The planned whole sets of each focus group this week (the stairway schedule) | integers |
+| `acceleration[]` | Groups whose step into this week is above the note threshold (about 15 %, R4-PRG-02) | entries, or `[]` |
+| `credit_only_groups[]` | Groups with no exercise of their own this week | group ids |
 | `target_by_muscle` | The planned weekly sets | numbers |
 | `weekly_sets_by_muscle`, `direct_sets_by_muscle`, `main_sets_by_muscle` | Sets actually placed, with credits; direct sets only; main-day sets only | numbers |
 | `weekly_sets_by_line`, `weekly_sets_by_group`, `main_sets_by_group` | The same, by line and by focus group | numbers |
-| `not_trained_directly[]` | Groups the time check left to compound credit | group ids |
-| `group_counts_by_day` | Exercises per group on each day (the 2-4 rule) | counts |
+| `total_main_sets` | Resistance sets on the main training days | number |
+| `group_counts_by_day` | Exercises per group on each day (1 to 4 on a full-body day, 2 to 4 on a split day) | counts |
 | `total_resistance_sets`, `rise_vs_prev` | The week's total and its rise over the week before | number; fraction |
 | `athletic_budget` | Jumps, throws, cuts, sprint metres and Olympic sets: targets and planned amounts | object |
 | `aerobic_sessions` | Aerobic sessions in the week | integer |
@@ -602,9 +614,12 @@ The plan is one JSON object. It holds codes and word-list keys, never sentences.
 | `weekday`, `day_type`, `label_key` | Which day | `Mon`…`Sun`; a day-type id |
 | `kind`, `optional` | Kind of day | `main`, `optional`, `aerobic`, `play` |
 | `full_body`, `format` | Full-body day or split day; straight sets or circuit | boolean; `straight`, `circuit` |
-| `est_minutes`, `minutes_limit` | Estimated length and the length the person chose | minutes |
-| `supersets_on`, `supersets_needed` | Whether supersets are counted in the estimate, and whether the day only fits with them | booleans |
-| `superset_recommendations[]` | Suggested pairs (R3-SES-02) | `{pair_id, items[], minutes_saved, on, needed}` |
+| `est_minutes`, `aerobic_minutes` | The estimated length of the day, and the part of it that is cardio. Information only: nothing reads it to cut or reshape (CT-01). There is no chosen length and no limit. | minutes |
+| `exercise_count` | The exercise count the day was built to (R4-SES-02) | integer |
+| `skeleton` | The coach's day template the day follows (R4-SES-05) | as in 3.2, or null |
+| `easy_to_remove[]` | What is easiest to remove if the person wants a shorter day (R4-SES-04). A hint: nothing is removed. | `{slot_id, kind}`; kinds `conditioning_finisher`, `extra_athletic_station`, `small_muscle_accessory`, `bonus_exercise` |
+| `supersets_on` | Whether the person switched supersets on. No session length switches them on. | boolean |
+| `superset_recommendations[]` | Suggested pairs (R3-SES-02) | `{pair_id, items[], minutes_saved, on}` |
 | `toggle_blocks[]`, `toggle_items[]` | The blocks and circuit stations a person may switch off | block kinds; item references |
 | `groups` | Exercises per focus group that day | counts |
 | `why[]` | Why the day is built this way | why objects |
@@ -633,9 +648,9 @@ The plan is one JSON object. It holds codes and word-list keys, never sentences.
 | `exercise_id`, `name_key` | The exercise | catalog id; word-list key. Null for a text-only item such as the general warm-up. |
 | `detail` | A one-detail variation (R2-LIB-01) | `{axis, key, value}` or null |
 | `text_key`, `cue_key`, `tempo_key` | Extra text keys | keys or null |
-| `video` | Video link | `{kind: coach, observed or search, url}`. `search` = a YouTube search link (R2-GEN-02). |
+| `video` | Video link | `{kind, url, copy_name}` or null. `kind: search` = a YouTube search link; `copy_name` = the exact English name to copy into YouTube (R4-LIB-05). `kind: coach` is reserved for his own videos. Never a third-party link. |
 | `sets` | Sets this week | integer |
-| `reps` | Reps | `{type, …}`; types `range`, `fixed`, `per_side`, `seconds`, `minutes`, `contacts`, `throws_per_side`, `cuts`, `sprint_reps`, `rounds_work`, `test` |
+| `reps` | Reps | `{type, …}`; types `range`, `fixed`, `per_side`, `seconds`, `minutes`, `contacts`, `throws_per_side`, `cuts`, `sprint_reps`, `rounds_work`, `test`, and `distance_or_time` for carries and sled work (`metres: [20, 40]`, `seconds: [20, 40]`, `per_side`; the item's `sets` are trips: R4-LIB-02) |
 | `set_reps` | Per-set reps for a pyramid such as 12/10/8 then 20 | list or null |
 | `effort` | Effort target | `{type, …}`; types `rir` (with `min`, `max`, `rpe_min`, `rpe_max`, `last_set`: null, `max`, `myo`), `intent`, `power`, `aerobic` |
 | `rest` | Rest | `{type, …}`; types `seconds`, `after_pair`, `work_rest`, `circuit`, `as_prescribed` |
@@ -644,25 +659,26 @@ The plan is one JSON object. It holds codes and word-list keys, never sentences.
 | `laterality`, `loading` | Bilateral or unilateral; contralateral or ipsilateral cue | |
 | `credits` | Sets credited per muscle for one set of this item | object; `{}` for athletic work |
 | `athletic`, `aerobic`, `circuit`, `wod`, `test` | Details for those kinds of item | objects or null |
+| `progression` | The rule the person applies to progress reps and load (R4-PRG-03). Never a promised number. | `{kind: double_progression, rep_range: [lo, hi], when, then, else, promised_numbers: false}` or null |
 | `notes[]` | Notes to show | `{key, args}` |
 | `swaps[]` | Other exercises of the same category the person may choose (GEN-04) | catalog ids |
+| `swap_notes[]` | What each swap keeps and loses (R4-LIB-04) | `{id, keeps, loses}`: word-list keys under `swap.keeps.` and `swap.loses.` |
+| `instead_of` | Set when the pick stands in for missing equipment: what it replaces, keeps and loses | `{exercise_id, keeps, loses}` or null |
 | `flags[]` | Marks set by the engine | e.g. `axial_counted`, `clean_day`, `snatch_day`, `detail_variation`, `block_change`, `pain_swap`, `back_off` |
 | `why[]` | Why this exercise, these sets, this effort | why objects |
 
-### 5.6 `time_check`
+### 5.6 `time_check` (retired)
 
-| Field | Meaning |
+Engine 0.5 has no `time_check` and no `offers` in a plan. The round-3 time check was removed on 2026-10-10 (CT-01). Check V3 fails any plan that still carries `time_check`, a time offer, `session_minutes`, a day `minutes_limit` or a retired time warning. What a plan says instead:
+
+| Situation | Where the plan says it |
 |---|---|
-| `fits` | True when the chosen days and minutes hold the minimums |
-| `kept_time` | True when the person kept their time and the plan trains fewer groups directly |
-| `needed_minutes` | The session length the full plan would need |
-| `offered` | The offers: `extra_day {days, minutes}`, `session_minutes`, and smaller steps |
-| `trained_groups[]` | Groups trained directly |
-| `not_trained_directly[]` | `{group, reason}`; reasons `time`, `credit_only`, `no_station`, `class_lift` |
-| `lowered_peak[]` | Groups whose last-week sets are lower than their ceiling because of time |
-| `trained_below_floor[]` | Groups that are trained but stay under 10 sets, with the reason |
-| `supersets_recommended`, `supersets_needed[]` | Whether supersets are suggested, and the days that only fit with them |
-| `by_block[]` | The same result for each training block |
+| 2 training days: every big muscle at about 6 to 8 weekly sets | `meta.two_day`, `warning.two_day_rule` |
+| A group its template cannot take to its planned final sets | `meta.stairway[].capped[]`, `warning.capped_by_template` |
+| A group its template holds under the floor | `meta.stairway[].below_floor`, `warning.below_floor_template` |
+| A group with no exercise of its own | `week.credit_only_groups[]`, `warning.credit_only_groups` |
+| What is easiest to remove from a day | `day.easy_to_remove[]` |
+| How long a day takes on average | `day.est_minutes` (printed as a range, information only) |
 
 ### 5.7 `summary` and `validation`
 
@@ -671,13 +687,33 @@ The plan is one JSON object. It holds codes and word-list keys, never sentences.
 | `summary.total_resistance_sets_by_week[]` | Total resistance sets, week by week |
 | `summary.max_weekly_rise`, `planned_steps_max` | The biggest weekly rise of the total, and the biggest planned step |
 | `summary.stair_levels[]` | Stair level by week |
-| `summary.sets_by_muscle_by_week`, `sets_by_line_by_week`, `sets_by_group_by_week`, `target_by_muscle_by_week` | Sets and targets, week by week |
+| `summary.sets_by_muscle_by_week`, `sets_by_line_by_week`, `sets_by_group_by_week`, `target_by_muscle_by_week`, `target_by_group_by_week` | Sets and targets, week by week |
+| `summary.acceleration` | The weeks that carry the big-step note (R4-PRG-02) |
 | `summary.myo_equivalent_sets_by_week[]` | Extra sets counted for MYO sets |
 | `summary.shortfalls[]` | Where the plan fell short of a target |
 | `validation.ok` | True when no error check failed |
-| `validation.checks[]` | One entry per check: `{id, key, severity: error or warn, pass, violations[]}`. Ids `V1`-`V29` and `H01`-`H22` in the engine. |
+| `validation.checks[]` | One entry per check: `{id, key, severity: error or warn, pass, violations[]}`. Engine 0.5 runs 59 checks: `V1`-`V37` and `H01`-`H22`. |
 
-A note on check ids: `generator_spec_v1.json > validation_checks` lists `V1`-`V31`. The engine's list is `V1`-`V29` plus `H01`-`H22`. The two lists agree up to `V26` and use different numbers after that. Cite a check together with the file you read it in.
+A note on check ids: the engine's list (`model/rules.json > validation > checks`, explained in `engine/CONTRACTS.md` §6) is `V1`-`V37` plus `H01`-`H22`. The spec's own list (`generator_spec_v1.json > validation_checks`) uses different numbers after `V26`. Cite a check together with the file you read it in. The engine checks added or changed for the newest answers:
+
+| Check | What it holds | Answer |
+|---|---|---|
+| `V3` | No time fitting anywhere in the plan | CT-01, R4-SES-01 |
+| `V13` | Session size by exercise count | R4-SES-02 |
+| `V15`, `H10` | Final sets reached in the last week, one week early at most | CX-01, R4-PRG-01 |
+| `V21`, `H20` | The liability gate: release accepted, the release line's words and link in English and Spanish | R4-SCP-01, R4-SCP-02 |
+| `V22`, `H17` | Floor of 10 from 3 training days; 6 for big groups on 2 days | R2-VOL-06, R4-SES-03 |
+| `V23`, `H18` | 1 to 4 exercises a group on a full-body day | R4-SES-05 |
+| `V30` | A day that names a skeleton follows the coach's template; nothing dropped | R4-SES-05, R4-SES-04 |
+| `V31` | No optional add-on or proposed record as a pick outside the two exceptions | R4-LIB-01 |
+| `V32` (warning) | Incline first for bodybuilding and general-population plans | R4-LIB-03 |
+| `V33` | No third-party video link | R4-LIB-05 |
+| `V34` | Every set-and-rep lift carries its progression rule; no promised numbers | R4-PRG-03 |
+| `V35` | A week above about 15 % carries its note | R4-PRG-02 |
+| `V36` | The easy-to-remove list names only removable items | R4-SES-04 |
+| `V37` | A carry or sled item is dosed by distance or time and credits nothing | R4-LIB-02 |
+
+An edited plan (`edited: true`) is not judged by V30, V32 and V35.
 
 ### 5.8 Why objects and word keys
 
@@ -702,6 +738,10 @@ Words live in `model/i18n/en.json` and `es.json` as flat key → text lists. Key
 - A `sex`, `gender` or lifestyle key (GEN-02, R2-GEN-04).
 - A band, chain or weight-releaser exercise or swap (EQ-01, EQ-12).
 - A check-in, a log or anything that feeds back into the plan (R3-VOL-02).
+- A session length, a minute limit, a time check or a time offer (CT-01, R4-SES-01).
+- A third-party video link (R4-LIB-05).
+- A promised number of reps or a load for a given week (R4-PRG-03).
+- A team-proposed exercise as a template pick, outside wall balls and sled pushes in HYROX and the CrossFit-style class (R4-LIB-01).
 
 ---
 

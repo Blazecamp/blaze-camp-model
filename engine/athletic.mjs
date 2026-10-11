@@ -9,7 +9,7 @@
 // grows by itself), R3-SES-02 step 4 (never flat); PER-02 (exercises stay for an exercise block); INFERRED rules are named in
 // engine/DECISIONS.md E-26 ... E-45.
 import { clamp, roundHalfUp, EPS, why } from './util.mjs';
-import { setCost } from './timefit.mjs';
+import { setCost } from './estimate.mjs';
 
 export const CONTACT_KEYS = Object.freeze(['plyo_contacts', 'jump_contacts', 'low_contacts']);
 export const ATHLETIC_KEYS = Object.freeze(['plyo_contacts', 'jump_contacts', 'low_contacts', 'throws', 'cod_cuts', 'sprint_m', 'olympic_sets']);
@@ -434,7 +434,7 @@ export function athleticBudget(derived, shape, model) {
  * days for a bone-loading sport (BONE_LOADING_NON_IMPACT) and kept for a profile with an ankle track (R3-ATH-02). A stay-active
  * plan adds only the first station of a track (its minutes go to strength first). Mutates the days' `_slots`.
  * @param {Array} mains the week's main days (week.mjs) @param {object} ctx week.mjs context @param {Set<string>} kit tokens
- * @param {boolean} olderDefault 60+ without the opt-in @param {object} H week.mjs helpers {slotFromStation, keepStationIgnoringMinutes, daySlotsOf, weekdayIndex}
+ * @param {boolean} olderDefault 60+ without the opt-in @param {object} H week.mjs helpers {slotFromStation, keepStationAnyRank, daySlotsOf, weekdayIndex}
  */
 export function ensureAthleticStations(mains, ctx, kit, olderDefault, H) {
   const { R, derived, model } = ctx;
@@ -446,6 +446,8 @@ export function ensureAthleticStations(mains, ctx, kit, olderDefault, H) {
     bud = all.filter((b, i) => ctx.shape.weeks[i] && ctx.shape.weeks[i].training_block === ctx.tb.n);
   } catch { bud = []; }
   const peakOf = (keys) => bud.reduce((m, b) => Math.max(m, keys.reduce((a, k) => a + (isNum(b.targets[k]) ? b.targets[k] : 0), 0)), 0);
+  /** the lowest positive weekly target of the block for these keys (0 when the block never targets them) */
+  const lowOf = (keys) => bud.reduce((m, b) => { const v = keys.reduce((a, k) => a + (isNum(b.targets[k]) ? b.targets[k] : 0), 0); return v > 0 && (m === 0 || v < m) ? v : m; }, 0);
   const competitive = !!(derived.D2_profile && derived.D2_profile.competitive === 'competitive');
   const stayActive = derived.D1_family === 'athletic' && !competitive;
   const prof = ctx.profile || null;
@@ -467,15 +469,20 @@ export function ensureAthleticStations(mains, ctx, kit, olderDefault, H) {
     if (!others.length) return 7;
     return Math.min(...others.map((i) => { const g = Math.abs(WDI[d.weekday] - i); return Math.min(g, 7 - g); }));
   };
-  const capN = R.session.athlete_cap || Infinity;
-  const roomOf = (d) => capN - slotsOf(d).filter((s) => s.counts_in_cap).length;
+  // v0.5 (R4-SES-02): a day's room is its exercise count (field athletes off-season up to 12; a stay-active plan its own size)
+  const capOf = (d) => (typeof ctx.countFor === 'function' ? ctx.countFor(d._def) : (R.session.athlete_cap || Infinity));
+  const roomOf = (d) => capOf(d) - slotsOf(d).filter((s) => s.counts_in_cap).length;
+  // the most a generated session of this client type holds (rules.session.size range maximum, R4-SES-02): a sport track's first
+  // station - or its top-tier track - may use the room between the day's own count and that maximum, never more
+  const sizeMax = ctx.size && Array.isArray(ctx.size.range) ? ctx.size.range[1] : Infinity;
+  const hardRoomOf = (d) => Math.max(capOf(d), sizeMax) - slotsOf(d).filter((s) => s.counts_in_cap).length;
   const tierOf = (k) => { const v = prof && prof.tiers ? prof.tiers[k] : null; const m = /T(\d)/.exec(String(v || '')); return m ? Number(m[1]) : 0; };
   const topTier = Math.max(0, ...['plyo', 'throws', 'cod', 'sprint'].map(tierOf));
   const markAnkle = (s, first) => {
     s.ankle_block = true;
     if (AB.outside_athlete_cap) s.counts_in_cap = false;
     if (AB.time_class) s.time_class = AB.time_class;
-    if (first && AB.keep_for_ankle_track && ankleTrack && (derived.session_minutes || 60) >= (AB.keep_from_minutes || 0)) s.ankle_keep = true;
+    if (first && AB.keep_for_ankle_track && ankleTrack) s.ankle_keep = true;
   };
   const tracks = [
     { key: 'jump_contacts', keys: ['plyo_contacts', 'jump_contacts'], bucket: 'AP_PLYO', isSt: isJump, ok: !olderDefault && !ctx.dropped.has('AP_PLYO'), per: T.per_station.jumps, max: T.max_stations.jumps, jt: true, dayMax: 1, tier: tierOf('plyo') },
@@ -495,10 +502,12 @@ export function ensureAthleticStations(mains, ctx, kit, olderDefault, H) {
     if (!(pk > 0)) continue;
     let need = Math.min(t.max, Math.max(t.min || 1, Math.ceil(pk / t.per - EPS)));
     const have = () => mains.reduce((a, d) => a + slotsOf(d).filter(t.isSt).length, 0);
+    // v0.5: with the day's room no longer set by minutes, a track opens a further station only when the block's LOWEST weekly
+    // target already holds every station at its smallest dose (2 sets at the per-set minimum) - one throw station climbs 2 x 10
+    // -> 2 x 20 with the stairway (LIB-22, E-101) instead of two stations sitting at 40 throws from week 1
+    const lowT = lowOf(t.keys), minSet = t.keys.reduce((m, k) => Math.max(m, (RC.per_set_min || {})[k] || 1), 1);
+    if (!t.ankle && lowT > 0) need = Math.min(need, Math.max(t.min || 1, have(), Math.floor(lowT / (2 * minSet) + EPS)));
     if (stayActive && !t.ankle) need = Math.min(need, Math.max(1, have())); // a stay-active plan: the track's first station only
-    // a short session (under add_from_minutes) keeps its minutes for the strength work: the track's first station only (E-80:
-    // the fixed blocks already fill a 30-minute session)
-    if ((derived.session_minutes || 60) < (T.add_from_minutes || 0)) need = Math.min(need, Math.max(1, have()));
     if (t.ankle) need = Math.max(need, Math.min(t.max, t.min || 1));
     // a single existing station written at 1 set takes 2 (e.g. the swimmer's throw)
     for (const d of mains) for (const sl of slotsOf(d)) if (t.isSt(sl) && Array.isArray(sl.sets_hint) && sl.sets_hint[0] < 2) sl.sets_hint = [2, Math.max(2, sl.sets_hint[1])];
@@ -506,18 +515,18 @@ export function ensureAthleticStations(mains, ctx, kit, olderDefault, H) {
     if (t.ankle) existing.forEach((s, i) => { markAnkle(s, i === 0); s.track_index = i; });
     if (existing[0] && t.key !== 'jump_contacts') existing[0].track = t.key; // the first station of the track is protected from the time cut
     for (let guard = 0; have() < need && guard < 12; guard++) {
-      // an added station keeps a day inside the 12 + 2 count (R2-SES-04 / R3-SES-01: the strength groups keep their 2-4 exercises);
-      // only the sport's top-tier track (04 tiers, T3+) may take a full day's place, on the day with the most room
+      // an added station keeps a day inside its exercise count (R4-SES-02; the strength lifts keep their places, R4-SES-04);
+      // a track's first station and the sport's top-tier track (04 tiers, T3+) may use the room up to the size range's maximum
       const over = (t.tier || 0) >= 3 && (t.tier || 0) >= topTier;
-      const cands = mains.filter((d) => slotsOf(d).filter(t.isSt).length < t.dayMax && (!t.jt || jtCount(d) < splitMax) && (roomOf(d) >= 1 || over || !have() || (t.ankle && AB.outside_athlete_cap)))
+      const cands = mains.filter((d) => slotsOf(d).filter(t.isSt).length < t.dayMax && (!t.jt || jtCount(d) < splitMax) && (roomOf(d) >= 1 || ((over || !have()) && hardRoomOf(d) >= 1) || (t.ankle && AB.outside_athlete_cap)))
         .map((d) => ({ d, jt: jtCount(d), n: slotsOf(d).filter(t.isSt).length, gap: gapTo(d, t.isSt), room: roomOf(d) }))
         .sort((a, b) => b.room - a.room || (t.jt ? a.jt - b.jt : a.n - b.n) || b.gap - a.gap || a.d._day_index - b.d._day_index);
       const d = cands[0] && cands[0].d;
       if (!d) break;
-      const tpl = (d._def.stations || []).find((x) => x.bucket === t.bucket && (t.bucket !== 'AP_PLYO' || x.variant !== 'upper') && !slotsOf(d).some((s) => s.station_id === x.id) && H.keepStationIgnoringMinutes(x, ctx));
+      const tpl = (d._def.stations || []).find((x) => x.bucket === t.bucket && (t.bucket !== 'AP_PLYO' || x.variant !== 'upper') && !slotsOf(d).some((s) => s.station_id === x.id) && H.keepStationAnyRank(x, ctx));
       const k = slotsOf(d).filter((s) => /\.t\d+$/.test(s.station_id)).length + 1;
       const st = tpl || { id: `${d.day_type}.t0${k}`, bucket: t.bucket, role: 'athletic', block: 'athletic', group: null, sets_hint: [2, 2], pair: null,
-        superset: null, superset_below_minutes: null, circuit: null, include_from_minutes: null, axial: null, variant: null, laterality_dial: false, loading: null,
+        superset: null, circuit: null, axial: null, variant: null, laterality_dial: false, loading: null,
         movable: false, counts_as_volume: true, condition: null, older_default_excluded: false, note: null, pool_filter: null };
       const slot = H.slotFromStation(d.weekday, st, d._def, ctx, { calfIndex: 0, focus: null, olderLanding: false, dayIndex: d._day_index });
       slot.why.push(why('why.athletic_reconcile', 'D-63'));
@@ -544,33 +553,54 @@ export function ensureAthleticStations(mains, ctx, kit, olderDefault, H) {
     // station into a lower-body jump station (the profiles carry no upper-body plyo target) - only for the stations the track could
     // not add within the 12 + 2 count, so a week that already holds its jump stations keeps its layout
     const R2S = R.athletic.r2 && R.athletic.r2.selection;
+    // v0.5 fix round 1 (sample 03 major: Wednesday held no lower-body jump - its Plyo slot was a push-up box jump for 8 weeks;
+    // OBSERVED BYOP ATHLETIC 'every athletic quality on every day'): a change-of-direction sport takes the jump on every day that
+    // has a Plyo slot, whatever the track's station count says (rules.athletic.x1.cod_sport_jump_every_day)
+    // v0.5 fix round 2 (sample 01 minor: a push-up box jump for 12 weeks for a swimmer whose hot spot is the shoulder; R3-ATH-01 his
+    // jumps are for starts and turns): a profile with that hot spot takes a leg jump in the slot (rules.athletic.x2.upper_plyo_not_for_codes)
+    const shoulderHot = !!(R.athletic.x2 && prof && (R.athletic.x2.upper_plyo_not_for_codes || []).some((c) => (prof.injuries || []).includes(c)) && !olderDefault);
+    const everyDay = shoulderHot || !!(R.athletic.x1 && R.athletic.x1.cod_sport_jump_every_day && prof && prof.cod_sport && !olderDefault);
     if (t.key === 'jump_contacts' && R2S && R2S.upper_plyo_to_jump_when_short) {
       for (const d of mains) for (const sl of slotsOf(d)) {
-        if (have() >= need) break;
+        if (have() >= need && !everyDay) break;
         if (sl.bucket !== 'AP_PLYO' || sl.variant !== 'upper' || slotsOf(d).filter(t.isSt).length >= t.dayMax) continue;
         sl.variant = null; sl.note_tokens = []; sl.from_upper = true; sl.track = t.key;
         sl.why = [...(sl.why || []), why('why.athletic_reconcile', 'D-63')];
       }
     }
   }
+  // v0.5: the ankle days open in week order. The stations are placed on the days with the most room, so the track's first
+  // station could land late in the week; the week's FIRST ankle day is the track's first station - the one that starts in place
+  // on two feet and is there from week 1 (CAT-10, E-99) - and a later day is the one that waits for its exercise block
+  const ank = mains.slice().sort((a, b) => WDI[a.weekday] - WDI[b.weekday]).flatMap((d) => slotsOf(d).filter((sl) => sl.ankle_block));
+  if (ank.length > 1) {
+    const made = ank.slice().sort((a, b) => (a.track_index ?? 99) - (b.track_index ?? 99)).map((sl) => ({ track_index: sl.track_index, ankle_keep: sl.ankle_keep, prep_in_warmup: sl.prep_in_warmup }));
+    ank.forEach((sl, i) => {
+      for (const k of ['track_index', 'ankle_keep', 'prep_in_warmup']) { if (made[i][k] === undefined) delete sl[k]; else sl[k] = made[i][k]; }
+    });
+  }
 }
 
 /**
  * v0.4 fix round 1 / F2 (COACH-R3 R3-SES-02 'recommend supersets so that it's a faster workout'): a day's lower-body jump and its
  * medball throw are a recommended contrast pair (they do not compete: legs, then trunk and arms) - done back to back, they share
- * the rest. A recommendation (superset_eligible), switched on only when the time needs it, like the strength pairs (E-90).
+ * the rest. A recommendation (superset_eligible), switched on only when the person wants it, like the strength pairs (E-90).
+ * v0.5 / V4 (rules.ordering.hard SPEED_SESSION_ORDER: sprint -> jump -> ankle -> throw -> cuts): the pair never reorders the
+ * block. The throw pairs with the lower-body jump station that already stands right before it (the day's jump, or its ankle hops
+ * when those sit between); a throw with no jump station directly before it stays unpaired. (v0.4 moved the throw up next to the
+ * jump, which put it ahead of the ankle station on 29 of the 102 benchmark plans.)
  * @param {object} day a finalized week.mjs day (blocks / slots)
  */
 export function pairAthleticBlock(day) {
   const blk = (day.blocks || []).find((b) => b.kind === 'athletic');
   if (!blk) return;
   const free = (s) => !s.superset && !s.superset_eligible && !s.test;
-  const jump = blk.slots.find((s) => s.bucket === 'AP_PLYO' && s.variant !== 'upper' && free(s));
-  const thr = blk.slots.find((s) => s.bucket === 'AP_THROW' && free(s));
-  if (!jump || !thr) return;
+  const lowerJump = (s) => (s.bucket === 'AP_PLYO' && s.variant !== 'upper') || (s.bucket === 'AP_JUMP_LIMITED_KNEE' && !s.prep_in_warmup);
+  const ti = blk.slots.findIndex((s) => s.bucket === 'AP_THROW' && free(s));
+  if (ti < 1) return;
+  const jump = blk.slots[ti - 1], thr = blk.slots[ti];
+  if (!lowerJump(jump) || !free(jump)) return;
   jump.superset_eligible = 'AJ1'; thr.superset_eligible = 'AJ1';
-  blk.slots.splice(blk.slots.indexOf(thr), 1);
-  blk.slots.splice(blk.slots.indexOf(jump) + 1, 0, thr);
 }
 
 // ------------------------------------------------------------------------------------------------------------- the athletic stairway
@@ -636,17 +666,16 @@ function dayRoom(items, it, cap) {
  * v0.4 fix round 2 / F2 (rules.athletic.r2, DECISIONS E-160 ... E-166): the jumps and the ankle work are two never-drop families;
  * one scale down the training block (a later exercise block never plans a smaller share of its target than an earlier one, so the
  * work climbs to what the hardest weeks hold instead of holding flat for weeks) with the full key of a family handing its rest to
- * the family's other stations; a station whose family is under its target with every dose at the top takes one more set where the
- * day has the minutes (`opts.rooms`); a bone-loading sport's second ankle day opens with the exercise block whose target holds it;
+ * the family's other stations; a station whose family is under its target with every dose at the top takes one more set (v0.5:
+ * wherever the family needs it - session minutes are never a limit, COACH-CT CT-01); a bone-loading sport's second ankle day opens with the exercise block whose target holds it;
  * the weekly plyo share never passes the block-end share; a pre-season block plans its sprint metres and cuts at or above the last
  * off-season week (R2-PER-06); a station a timed test replaces is dosed with its week and left out (`replaced`); on the tested days
  * of the end-test week the athletic and Olympic work runs the baseline week's dose (R2-PER-07).
  * @param {object} model @param {object} derived @param {object} shape @param {Array} budget athleticBudget()
  * @param {Array<Array<{slot_id:string, weekday:string, bucket:string, ex:object, sets:number, time_class?:string, order?:number, replaced?:boolean, test_day?:boolean}>>} weeksItems athletic items per week
- * @param {{rooms?:Array<Object<string,number>>}} [opts] rooms: per week, the minutes each weekday has left inside its session length
  * @returns {{weeks: Array<{slot_plan:Object<string,{per_set?:number, per_leg?:number|null, key:string, sets?:number}>, goals:object, scale:object, hold?:boolean, replaced?:object, minutes_delta?:object}>, warnings:Array}}
  */
-export function planAthletic(model, derived, shape, budget, weeksItems, opts = {}) {
+export function planAthletic(model, derived, shape, budget, weeksItems) {
   const R = model.rules, RC = R.athletic.reconcile || {};
   const R2 = R.athletic.r2 || null;
   const outWeeks = shape.weeks.map(() => ({ slot_plan: {}, goals: {}, scale: {} }));
@@ -655,11 +684,11 @@ export function planAthletic(model, derived, shape, budget, weeksItems, opts = {
   const cap = (budget[0] && budget[0].contacts_session_max) || null;
   const fams = RC.climb_families || { contacts: CONTACT_KEYS, throws: ['throws'], cod_cuts: ['cod_cuts'], sprint_m: ['sprint_m'] };
   const D11 = derived.D11_athletic_budget || {};
-  const rooms = Array.isArray(opts.rooms) ? opts.rooms : null;
   const T = R.time_model || {};
   const changeover = isNum(T.changeover_min_per_exercise) ? T.changeover_min_per_exercise : 0;
   const costOf = (it, ws) => (it.free ? 0 : setCost({ slot_id: it.slot_id, bucket: it.bucket, role: 'athletic', time_class: it.time_class || null }, { laterality: it.ex && it.ex.laterality, bucket: it.bucket }, model, derived, ws).minutes);
   let prevPeak = null; // the planned totals per key of the last stairway's peak week (the pre-season holds its speed work, E-164)
+  let prevExtra = null; // the extra set each station took down the last stairway (the pre-season keeps it, fix round 1)
   for (const tb of shape.training_blocks) {
     const wks = shape.weeks.filter(w => w.training_block === tb.n);
     const stair = tb.type === 'stairway';
@@ -727,13 +756,10 @@ export function planAthletic(model, derived, shape, budget, weeksItems, opts = {
     const famKeys = Object.values(fams);
     const famGoal = (d, keys) => keys.reduce((a, k) => a + (isNum(d.goals[k]) && d.goals[k] > 0 && d.items.some(it => it.dkey === k) ? d.goals[k] : 0), 0);
     const famCap = (d, keys) => d.items.filter(it => keys.includes(it.dkey) && isNum(d.goals[it.dkey]) && d.goals[it.dkey] > 0).reduce((a, it) => a + it.sets * it.b.hi, 0);
-    // E-161: one more set on a station whose family is under its week's target with every per-set dose at the top - on the day with
-    // the most minutes left, only while that day stays inside its minutes in every later week of the block; the set stays (VOL-07)
+    // E-161: one more set on a station whose family is under its week's target with every per-set dose at the top; the set stays
+    // (VOL-07). v0.5 (COACH-CT CT-01): no minutes are asked of the day - the station with the fewest sets takes it.
     const SC = R2 && R2.set_climb;
-    if (stair && SC && SC.enabled && rooms) {
-      const left = data.map(d => ({ ...(rooms[d.ws.n - 1] || {}) }));
-      // (a waiting ankle day gives its minutes back)
-      for (let i = 0; i < data.length; i++) for (const it of data[i].dormant) if (!it.replaced && !it.free && isNum(left[i][it.weekday])) left[i][it.weekday] += it.sets0 * costOf(it, data[i].ws) + changeover;
+    if (stair && SC && SC.enabled) {
       const extra = new Map();
       for (const keys of famKeys) {
         for (let i = 0; i < data.length; i++) {
@@ -742,30 +768,25 @@ export function planAthletic(model, derived, shape, budget, weeksItems, opts = {
           if (d.hold) continue;
           const G = famGoal(d, keys);
           for (let guard = 0; guard < 12 && famCap(d, keys) < G - EPS; guard++) {
-            const fits = (it) => {
-              for (let j = i; j < data.length; j++) {
-                const x = data[j].items.find(y => y.slot_id === it.slot_id);
-                if (!x) continue;
-                if (!isNum(left[j][x.weekday]) || left[j][x.weekday] < costOf(x, data[j].ws) - EPS) return false;
-              }
-              return true;
-            };
             const cands = d.items.filter(it => keys.includes(it.dkey) && isNum(d.goals[it.dkey]) && d.goals[it.dkey] > 0 && !it.b.fixed && isNum((SC.sets_max || {})[it.key]) && it.sets < SC.sets_max[it.key] &&
-              (extra.get(it.slot_id) || 0) < (SC.max_extra_per_station || 1) && fits(it))
-              .sort((a, b) => (left[i][b.weekday] - left[i][a.weekday]) || a.sets - b.sets || (a.slot_id < b.slot_id ? -1 : 1));
+              (extra.get(it.slot_id) || 0) < (SC.max_extra_per_station || 1))
+              .sort((a, b) => a.sets - b.sets || (a.slot_id < b.slot_id ? -1 : 1));
             const c = cands[0];
             if (!c) break;
             extra.set(c.slot_id, (extra.get(c.slot_id) || 0) + 1);
             c.sets += 1;
-            for (let j = i; j < data.length; j++) {
-              const x = data[j].items.find(y => y.slot_id === c.slot_id);
-              if (!x) continue;
-              left[j][x.weekday] -= costOf(x, data[j].ws);
-            }
           }
         }
       }
       for (const d of data) for (const it of d.items) it.sets = it.sets0 + (extra.get(it.slot_id) || 0);
+      prevExtra = new Map(extra);
+    }
+    // v0.5 fix round 1 (COACH-R2 R2-PER-06 'about 60 % of off-season sets with more speed and power'; sample 03 major: the
+    // pre-season block cut every athletic station from 3 sets to 2 and planned 72 cuts against 108): a pre-season block keeps the
+    // set each athletic station took down the off-season stairway (rules.athletic.x1.pre_season_keep_sets)
+    const X1A = R.athletic.x1 || null;
+    if (tb.type === 'pre_season' && prevExtra && X1A && X1A.pre_season_keep_sets) {
+      for (const d of data) for (const it of d.items) it.sets = it.sets0 + (prevExtra.get(it.slot_id) || 0);
     }
     // scale per family and exercise block: inside an exercise block the stations are the same every week, so a family whose
     // stations cannot hold its goal keeps the shape of its targets (the same factor every week of the block) and still climbs.

@@ -4,7 +4,7 @@ import { WEEKDAYS } from '../../engine/util.mjs';
 
 const textKey = (bucket) => (bucket === 'WARMUP_GENERAL' ? 'warmup.any_cardio_5min' : null);
 
-function defaultSets(model, st, bucketDef, minutes, calfIndex) {
+function defaultSets(model, st, bucketDef, calfIndex) {
   const D = model.rules.session.default_sets;
   if (['warmup', 'aerobic', 'skill'].includes(bucketDef.kind)) return null;
   if (st.bucket === 'COND_WOD') return null;
@@ -12,19 +12,20 @@ function defaultSets(model, st, bucketDef, minutes, calfIndex) {
   if (st.bucket === 'ISO_CALF') return calfIndex === 0 ? D.calves_first : D.calves_second;
   if (bucketDef.kind === 'isolation') return D.isolation;
   if (bucketDef.kind === 'core') return D.core;
-  if (bucketDef.kind === 'athletic' || bucketDef.kind === 'power') return minutes >= 90 ? D.athletic_at_90 : D.athletic;
+  if (bucketDef.kind === 'athletic' || bucketDef.kind === 'power') return D.athletic;
   if (bucketDef.kind === 'focus') return D.focus;
   return D.min;
 }
 
 /**
  * A WeekLayout that maps the template's planned days onto `weekdays` in order (optional / aerobic days keep their template
- * weekday when free, else the next free weekday) and turns every station with include_from_minutes <= minutes into a SlotDef.
+ * weekday when free, else the next free weekday) and turns every station whose rank is inside `count` into a SlotDef (v0.5,
+ * R4-SES-02: a day is sized by exercise count; `count` = Infinity keeps the whole template day).
  * @param {object} model @param {string} templateId e.g. 'athletic.3' @param {string|null} variant @param {string[]} weekdays
- * @param {number} minutes @param {{priority?:string[], focus?:Object<string,string>, supersets?:boolean}} [opts]
+ * @param {number} count @param {{priority?:string[], focus?:Object<string,string>, supersets?:boolean}} [opts]
  * @returns {object} WeekLayout
  */
-export function simpleLayout(model, templateId, variant, weekdays, minutes, opts = {}) {
+export function simpleLayout(model, templateId, variant, weekdays, count, opts = {}) {
   const [family, days] = templateId.split('.');
   const t = model.template(family, days);
   const dt = model.dayTypes(t, variant || null);
@@ -53,27 +54,26 @@ export function simpleLayout(model, templateId, variant, weekdays, minutes, opts
     let calfIndex = 0;
     let ssOn = !!opts.supersets;
     for (const st of day.stations) {
-      if (st.include_from_minutes !== null && st.include_from_minutes !== undefined && st.include_from_minutes > minutes) continue;
+      if (typeof st.rank === 'number' && st.rank > (typeof day.count === 'number' ? day.count : count)) continue;
       if (st.condition && st.condition.startsWith('if_priority:') && !prio.includes(st.condition.split(':')[1])) continue;
       const b = model.bucket(st.bucket);
       const isCalf = st.bucket === 'ISO_CALF';
       const slot = {
         slot_id: wd + '.' + st.id, station_id: st.id, bucket: st.bucket, role: st.role, block: st.block, group: st.group,
-        sets_hint: st.sets_hint, default_sets: defaultSets(model, st, b, minutes, isCalf ? calfIndex : 0), pair: st.pair,
+        sets_hint: st.sets_hint, default_sets: defaultSets(model, st, b, isCalf ? calfIndex : 0), pair: st.pair,
         superset: st.superset, circuit: st.circuit, axial_req: st.axial, variant: st.variant, laterality_dial: st.laterality_dial,
         loading: null, focus_muscle: st.bucket === 'FOCUS' && opts.focus ? (opts.focus[wd + '.' + st.id] || null) : null,
         time_class: b.time_class || 'isolation', counts_in_cap: !model.rules.session.outside_cap_blocks.includes(st.block),
         counts_as_volume: st.counts_as_volume !== false, text_key: textKey(st.bucket), aerobic: null, origin: 'template', why: []
       };
       if (isCalf) calfIndex++;
-      if (st.superset && st.superset_below_minutes !== null && st.superset_below_minutes !== undefined && minutes < st.superset_below_minutes) ssOn = true;
       let blk = blocks.find(x => x.kind === st.block);
       if (!blk) { blk = { kind: st.block, movable: !!st.movable, circuit: st.circuit || null, slots: [] }; blocks.push(blk); }
       blk.slots.push(slot);
     }
     out.push({
       weekday: wd, day_type: e.day_type, kind: e.kind === 'main' && !e.optional ? 'main' : e.kind, optional: !!e.optional,
-      label_key: day.label_key, lower_focus: day.lower_focus, full_body: !!day.full_body, format: day.format, minutes_limit: minutes,
+      label_key: day.label_key, lower_focus: day.lower_focus, full_body: !!day.full_body, format: day.format,
       supersets_on: ssOn, est_minutes: 0, groups: day.groups.slice(), blocks, why: []
     });
   }

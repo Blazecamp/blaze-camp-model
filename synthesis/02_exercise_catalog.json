@@ -448,7 +448,7 @@
   "aliases": [
    {
     "raw": "alternating split stance jumps FFE (box)",
-    "raw_with_links": "alternating split stance jumps FFE (box) https://www.youtube.com/watch?v=RfQK-QENvyA",
+    "raw_with_links": "alternating split stance jumps FFE (box)",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CA72",
@@ -461,9 +461,7 @@
     "part": "Part D",
     "sets_raw": "4",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=RfQK-QENvyA"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -563,12 +561,7 @@
   "candidate_slot_inferred": "Plyo",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=RfQK-QENvyA",
-    "source": "BASEBALL!CA72"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CA72"
   ],
@@ -4020,7 +4013,7 @@
    },
    {
     "raw": "Side to side hurdle hops",
-    "raw_with_links": "Side to side hurdle hops - https://www.youtube.com/watch?v=CSMzq7rAbKU",
+    "raw_with_links": "Side to side hurdle hops",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "D74",
@@ -4031,13 +4024,11 @@
     "day": "MONDAY",
     "part": "Part D",
     "reps_raw": "8/8",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=CSMzq7rAbKU"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Side to side hurdle hops",
-    "raw_with_links": "Side to side hurdle hops - https://www.youtube.com/watch?v=CSMzq7rAbKU",
+    "raw_with_links": "Side to side hurdle hops",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AJ74",
@@ -4048,9 +4039,7 @@
     "day": "MONDAY",
     "part": "Part D",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=CSMzq7rAbKU"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -4311,12 +4300,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=CSMzq7rAbKU",
-    "source": "BASEBALL!D74"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AJ74",
    "MASTER_MODEL:BASEBALL!D38",
@@ -7430,7 +7414,7 @@
    },
    {
     "raw": "Broad jumps",
-    "raw_with_links": "Broad jumps https://www.youtube.com/watch?v=VMF24tV5Rzw",
+    "raw_with_links": "Broad jumps",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "W70",
@@ -7442,9 +7426,7 @@
     "slot": "horiz push",
     "part": "Part C",
     "reps_raw": "5",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=VMF24tV5Rzw"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -7610,12 +7592,7 @@
   "candidate_slot_inferred": "Plyo",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=VMF24tV5Rzw",
-    "source": "BASEBALL!W70"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AW33",
    "MASTER_MODEL:BASEBALL!I52",
@@ -9464,7 +9441,7 @@
    },
    {
     "raw": "DB Squat Jumps",
-    "raw_with_links": "DB Squat Jumps - https://www.youtube.com/watch?v=3kiH8WufBeg",
+    "raw_with_links": "DB Squat Jumps",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "D69",
@@ -9476,9 +9453,7 @@
     "part": "Part C",
     "sets_raw": "4",
     "reps_raw": "8",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=3kiH8WufBeg"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -9726,12 +9701,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=3kiH8WufBeg",
-    "source": "BASEBALL!D69"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!D33",
    "MASTER_MODEL:BASEBALL!D69"
@@ -9923,7 +9893,7 @@
   "aliases": [
    {
     "raw": "DB snap downs",
-    "raw_with_links": "DB snap downs - https://youtu.be/L_2tMNItxmA",
+    "raw_with_links": "DB snap downs",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BG28",
@@ -9936,13 +9906,11 @@
     "part": "Part A",
     "sets_raw": "2",
     "reps_raw": "10",
-    "video_urls": [
-     "https://youtu.be/L_2tMNItxmA"
-    ]
+    "video_urls": []
    },
    {
     "raw": "DB snap downs",
-    "raw_with_links": "DB snap downs - https://youtu.be/L_2tMNItxmA",
+    "raw_with_links": "DB snap downs",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AA46",
@@ -9955,9 +9923,7 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "10",
-    "video_urls": [
-     "https://youtu.be/L_2tMNItxmA"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -10064,12 +10030,7 @@
   "candidate_slot_inferred": "Plyo",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/L_2tMNItxmA",
-    "source": "BASEBALL!BG28"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AA46",
    "MASTER_MODEL:BASEBALL!BG28"
@@ -10521,7 +10482,7 @@
    },
    {
     "raw": "Depth drop",
-    "raw_with_links": "Depth drop - https://www.youtube.com/shorts/9kIt6mNzdYU",
+    "raw_with_links": "Depth drop",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "G64",
@@ -10533,13 +10494,11 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "10",
-    "video_urls": [
-     "https://www.youtube.com/shorts/9kIt6mNzdYU"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Depth drop",
-    "raw_with_links": "Depth drop - https://www.youtube.com/shorts/9kIt6mNzdYU",
+    "raw_with_links": "Depth drop",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AM64",
@@ -10551,9 +10510,7 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "5",
-    "video_urls": [
-     "https://www.youtube.com/shorts/9kIt6mNzdYU"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Depth drops",
@@ -10744,12 +10701,7 @@
   "candidate_slot_inferred": "Plyo",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/shorts/9kIt6mNzdYU",
-    "source": "BASEBALL!G64"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!E82",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!E93",
@@ -15996,7 +15948,7 @@
   "aliases": [
    {
     "raw": "hurdle hops to box jump",
-    "raw_with_links": "hurdle hops to box jump - https://www.youtube.com/watch?v=pLyK-Q-G2LQ",
+    "raw_with_links": "hurdle hops to box jump",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "EL45",
@@ -16008,13 +15960,11 @@
     "part": "Part A",
     "sets_raw": "2",
     "reps_raw": "2 to 1",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=pLyK-Q-G2LQ"
-    ]
+    "video_urls": []
    },
    {
     "raw": "hurdle hops to box jump",
-    "raw_with_links": "hurdle hops to box jump - https://www.youtube.com/watch?v=pLyK-Q-G2LQ",
+    "raw_with_links": "hurdle hops to box jump",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DC48",
@@ -16026,9 +15976,7 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "5 to 1",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=pLyK-Q-G2LQ"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -16136,12 +16084,7 @@
   "candidate_slot_inferred": "Plyo",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=pLyK-Q-G2LQ",
-    "source": "BASEBALL!EL45"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!DC48",
    "MASTER_MODEL:BASEBALL!EL45"
@@ -25206,7 +25149,7 @@
   "aliases": [
    {
     "raw": "2 Single leg hops to 1 SL box jump",
-    "raw_with_links": "2 Single leg hops to 1 SL box jump - https://www.youtube.com/watch?v=CnWUbIjt57I",
+    "raw_with_links": "2 Single leg hops to 1 SL box jump",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DT46",
@@ -25219,13 +25162,11 @@
     "part": "Part A",
     "sets_raw": "4",
     "reps_raw": "5/5",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=CnWUbIjt57I"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Single leg hop to SL box jump",
-    "raw_with_links": "Single leg hop to SL box jump - https://www.youtube.com/watch?v=CnWUbIjt57I",
+    "raw_with_links": "Single leg hop to SL box jump",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CK47",
@@ -25238,9 +25179,7 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "6/6",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=CnWUbIjt57I"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -25350,12 +25289,7 @@
   "candidate_slot_inferred": "Plyo",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=CnWUbIjt57I",
-    "source": "BASEBALL!DT46"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CK47",
    "MASTER_MODEL:BASEBALL!DT46"
@@ -28726,7 +28660,7 @@
   "aliases": [
    {
     "raw": "Single leg march jumps",
-    "raw_with_links": "Single leg march jumps - https://youtu.be/dmx8roGpwDI",
+    "raw_with_links": "Single leg march jumps",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BY28",
@@ -28739,13 +28673,11 @@
     "part": "Part A",
     "sets_raw": "2",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://youtu.be/dmx8roGpwDI"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Single leg march jumps",
-    "raw_with_links": "Single leg march jumps - https://youtu.be/dmx8roGpwDI",
+    "raw_with_links": "Single leg march jumps",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AS46",
@@ -28758,9 +28690,7 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://youtu.be/dmx8roGpwDI"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Single Leg to march jumps",
@@ -28944,12 +28874,7 @@
   "candidate_slot_inferred": "Plyo",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/dmx8roGpwDI",
-    "source": "BASEBALL!BY28"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AS46",
    "MASTER_MODEL:BASEBALL!BY28",
@@ -29109,7 +29034,7 @@
   "aliases": [
    {
     "raw": "skater jumps over hurdle",
-    "raw_with_links": "skater jumps over hurdle - https://www.youtube.com/watch?v=CaN4zfIPyXU",
+    "raw_with_links": "skater jumps over hurdle",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DT47",
@@ -29123,9 +29048,7 @@
     "cues": [
      "over hurdle"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=CaN4zfIPyXU"
-    ]
+    "video_urls": []
    },
    {
     "raw": "skater jumps with MB rotations",
@@ -29254,12 +29177,7 @@
   "candidate_slot_inferred": "Plyo",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=CaN4zfIPyXU",
-    "source": "BASEBALL!DT47"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AJ64",
    "MASTER_MODEL:BASEBALL!DT47"
@@ -37615,7 +37533,7 @@
   "aliases": [
    {
     "raw": "Quick feet toe tap on step",
-    "raw_with_links": "Quick feet toe tap on step - https://www.youtube.com/watch?v=DH9gWHjcDuY",
+    "raw_with_links": "Quick feet toe tap on step",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DC47",
@@ -37628,9 +37546,7 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "15  secs",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=DH9gWHjcDuY"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -37722,12 +37638,7 @@
   "candidate_slot_inferred": "Tripple Extension",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=DH9gWHjcDuY",
-    "source": "BASEBALL!DC47"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!DC47"
   ],
@@ -46781,7 +46692,7 @@
    },
    {
     "raw": "kb clean squat",
-    "raw_with_links": "kb clean squat https://www.youtube.com/watch?v=Oui8-eLXkqo",
+    "raw_with_links": "kb clean squat",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CG52",
@@ -46794,9 +46705,7 @@
     "part": "Part C",
     "sets_raw": "4",
     "reps_raw": "12",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=Oui8-eLXkqo"
-    ]
+    "video_urls": []
    },
    {
     "raw": "KB HANG SQUAT CLEANS",
@@ -46818,7 +46727,7 @@
    },
    {
     "raw": "kb squat cleans",
-    "raw_with_links": "kb squat cleans https://www.youtube.com/watch?v=6wyxpVY8PQ0",
+    "raw_with_links": "kb squat cleans",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BF69",
@@ -46831,9 +46740,7 @@
     "part": "Part C",
     "sets_raw": "4",
     "reps_raw": "10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=6wyxpVY8PQ0"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -46988,16 +46895,7 @@
   "candidate_slot_inferred": "Tripple Extension",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=Oui8-eLXkqo",
-    "source": "BASEBALL!CG52"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=6wyxpVY8PQ0",
-    "source": "BASEBALL!BF69"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!BC33",
    "MASTER_MODEL:BASEBALL!BF69",
@@ -51700,7 +51598,7 @@
   "aliases": [
    {
     "raw": "sigle arm DB push split jerk",
-    "raw_with_links": "sigle arm DB push split jerk - https://www.youtube.com/watch?v=nwVFp4Lk6X4",
+    "raw_with_links": "sigle arm DB push split jerk",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DT52",
@@ -51712,9 +51610,7 @@
     "slot": "vert push",
     "part": "Part C",
     "reps_raw": "8/8",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=nwVFp4Lk6X4"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -51821,12 +51717,7 @@
   "candidate_slot_inferred": "Tripple Extension",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=nwVFp4Lk6X4",
-    "source": "BASEBALL!DT52"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!DT52"
   ],
@@ -55919,7 +55810,7 @@
   "aliases": [
    {
     "raw": "half kneeling Rotational med ball slams",
-    "raw_with_links": "half kneeling Rotational med ball slams https://www.youtube.com/watch?v=TJltOvjKOBU",
+    "raw_with_links": "half kneeling Rotational med ball slams",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DP46",
@@ -55932,13 +55823,11 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "12/12",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=TJltOvjKOBU"
-    ]
+    "video_urls": []
    },
    {
     "raw": "half kneeling Rotational med ball slams",
-    "raw_with_links": "half kneeling Rotational med ball slams https://www.youtube.com/watch?v=TJltOvjKOBU",
+    "raw_with_links": "half kneeling Rotational med ball slams",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CG47",
@@ -55951,9 +55840,7 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=TJltOvjKOBU"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -56061,12 +55948,7 @@
   "candidate_slot_inferred": "Throwing",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=TJltOvjKOBU",
-    "source": "BASEBALL!DP46"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CG47",
    "MASTER_MODEL:BASEBALL!DP46"
@@ -56221,7 +56103,7 @@
    },
    {
     "raw": "half kneeling med ball side slam",
-    "raw_with_links": "half kneeling med ball side slam - https://www.youtube.com/watch?v=g988Ttq0FpA",
+    "raw_with_links": "half kneeling med ball side slam",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AP65",
@@ -56232,13 +56114,11 @@
     "day": "THURSDAY",
     "part": "Part A",
     "reps_raw": "5/5",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=g988Ttq0FpA"
-    ]
+    "video_urls": []
    },
    {
     "raw": "kneeling rotational OH MB slam",
-    "raw_with_links": "kneeling rotational OH MB slam https://www.youtube.com/watch?v=g988Ttq0FpA",
+    "raw_with_links": "kneeling rotational OH MB slam",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CA67",
@@ -56249,9 +56129,7 @@
     "day": "FRIDAY",
     "part": "Part B",
     "reps_raw": "6/6",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=g988Ttq0FpA"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -56369,12 +56247,7 @@
   "candidate_slot_inferred": "Throwing",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=g988Ttq0FpA",
-    "source": "BASEBALL!AP65"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AP65",
    "MASTER_MODEL:BASEBALL!CA67",
@@ -57310,7 +57183,7 @@
   "aliases": [
    {
     "raw": "lateral lunge to Medball scoop",
-    "raw_with_links": "lateral lunge to Medball scoop - https://www.youtube.com/watch?v=4jUxbJ10uKU",
+    "raw_with_links": "lateral lunge to Medball scoop",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AO46",
@@ -57323,9 +57196,7 @@
     "part": "Part A",
     "sets_raw": "2",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=4jUxbJ10uKU"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -57423,12 +57294,7 @@
   "candidate_slot_inferred": "Throwing",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=4jUxbJ10uKU",
-    "source": "BASEBALL!AO46"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AO46"
   ],
@@ -59370,7 +59236,7 @@
   "aliases": [
    {
     "raw": "medball floor catch & release push",
-    "raw_with_links": "medball floor catch & release push - https://youtu.be/bIQFwjLcbSw",
+    "raw_with_links": "medball floor catch & release push",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CC28",
@@ -59383,9 +59249,7 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "20",
-    "video_urls": [
-     "https://youtu.be/bIQFwjLcbSw"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -59481,12 +59345,7 @@
   "candidate_slot_inferred": "Throwing",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/bIQFwjLcbSw",
-    "source": "BASEBALL!CC28"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CC28"
   ],
@@ -61963,7 +61822,7 @@
   "aliases": [
    {
     "raw": "MB OH toss to rotational scoop",
-    "raw_with_links": "MB OH toss to rotational scoop - https://www.youtube.com/watch?v=5jruVyTr5GA",
+    "raw_with_links": "MB OH toss to rotational scoop",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DZ45",
@@ -61974,13 +61833,11 @@
     "day": "MONDAY",
     "part": "Part A",
     "reps_raw": "6/6",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=5jruVyTr5GA"
-    ]
+    "video_urls": []
    },
    {
     "raw": "MB OH toss to rotational scoop",
-    "raw_with_links": "MB OH toss to rotational scoop - https://www.youtube.com/watch?v=5jruVyTr5GA",
+    "raw_with_links": "MB OH toss to rotational scoop",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CQ48",
@@ -61991,9 +61848,7 @@
     "day": "MONDAY",
     "part": "Part A",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=5jruVyTr5GA"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -62103,12 +61958,7 @@
   "candidate_slot_inferred": "Throwing",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=5jruVyTr5GA",
-    "source": "BASEBALL!DZ45"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CQ48",
    "MASTER_MODEL:BASEBALL!DZ45"
@@ -62267,7 +62117,7 @@
    },
    {
     "raw": "Rotational med ball slams",
-    "raw_with_links": "Rotational med ball slams - https://youtu.be/hVX13jShJXE",
+    "raw_with_links": "Rotational med ball slams",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DM29",
@@ -62280,9 +62130,7 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://youtu.be/hVX13jShJXE"
-    ]
+    "video_urls": []
    },
    {
     "raw": "OH Rotational slams",
@@ -62523,12 +62371,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/hVX13jShJXE",
-    "source": "BASEBALL!DM29"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AA65",
    "MASTER_MODEL:BASEBALL!BF65",
@@ -63775,7 +63618,7 @@
    },
    {
     "raw": "medball situp to overhead toss",
-    "raw_with_links": "medball situp to overhead toss - https://youtu.be/gi8Qqb-ehNo",
+    "raw_with_links": "medball situp to overhead toss",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BU29",
@@ -63786,9 +63629,7 @@
     "day": "MONDAY",
     "part": "Part A",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://youtu.be/gi8Qqb-ehNo"
-    ]
+    "video_urls": []
    },
    {
     "raw": "situp to overhead toss",
@@ -64052,12 +63893,7 @@
     "source": "(NOT DONE) ALL ABOUT BALLISTICS!C71"
    }
   ],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/gi8Qqb-ehNo",
-    "source": "BASEBALL!BU29"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "BYOP:JUSTICE LEAGUE!E5",
    "MASTER_MODEL:BASEBALL!AS28",
@@ -66049,7 +65885,7 @@
    },
    {
     "raw": "Facing The Wall MB Rotational Scoop",
-    "raw_with_links": "Facing The Wall MB Rotational Scoop - https://www.youtube.com/watch?v=Qq83wji4t2I",
+    "raw_with_links": "Facing The Wall MB Rotational Scoop",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "ED46",
@@ -66065,9 +65901,7 @@
     "cues": [
      "facing the wall"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=Qq83wji4t2I"
-    ]
+    "video_urls": []
    },
    {
     "raw": "rotational scoops",
@@ -66084,7 +65918,7 @@
    },
    {
     "raw": "MB scoop toss to the wall",
-    "raw_with_links": "MB scoop toss to the wall https://www.youtube.com/watch?v=QnKHt-iBqO0",
+    "raw_with_links": "MB scoop toss to the wall",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DH47",
@@ -66098,13 +65932,11 @@
     "cues": [
      "to the wall"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=QnKHt-iBqO0"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Rotational Medicine Ball Scoop Toss",
-    "raw_with_links": "Rotational Medicine Ball Scoop Toss - https://www.youtube.com/watch?v=LIQVEVwjAqU",
+    "raw_with_links": "Rotational Medicine Ball Scoop Toss",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DT49",
@@ -66115,13 +65947,11 @@
     "day": "FRIDAY",
     "part": "Part B",
     "reps_raw": "6/6",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=LIQVEVwjAqU"
-    ]
+    "video_urls": []
    },
    {
     "raw": "MB scoop toss to the wall",
-    "raw_with_links": "MB scoop toss to the wall https://www.youtube.com/watch?v=QnKHt-iBqO0",
+    "raw_with_links": "MB scoop toss to the wall",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BY48",
@@ -66135,13 +65965,11 @@
     "cues": [
      "to the wall"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=QnKHt-iBqO0"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Facing The Wall MB Rotational Scoop",
-    "raw_with_links": "Facing The Wall MB Rotational Scoop - https://www.youtube.com/watch?v=Qq83wji4t2I",
+    "raw_with_links": "Facing The Wall MB Rotational Scoop",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CU49",
@@ -66157,9 +65985,7 @@
     "cues": [
      "facing the wall"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=Qq83wji4t2I"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Rotational medball scoop",
@@ -66768,20 +66594,7 @@
     "source": "(NOT DONE) ALL ABOUT BALLISTICS!C58"
    }
   ],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=Qq83wji4t2I",
-    "source": "BASEBALL!ED46"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=QnKHt-iBqO0",
-    "source": "BASEBALL!DH47"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=LIQVEVwjAqU",
-    "source": "BASEBALL!DT49"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AS67",
    "MASTER_MODEL:BASEBALL!AX64",
@@ -67477,7 +67290,7 @@
   "aliases": [
    {
     "raw": "back against wall med ball rotational toss",
-    "raw_with_links": "back against wall med ball rotational toss - https://youtu.be/Wiai414wTrA",
+    "raw_with_links": "back against wall med ball rotational toss",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BU28",
@@ -67490,13 +67303,11 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://youtu.be/Wiai414wTrA"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Back against the wall seated rotational medball tosses",
-    "raw_with_links": "Back against the wall seated rotational medball tosses - https://youtu.be/Wiai414wTrA",
+    "raw_with_links": "Back against the wall seated rotational medball tosses",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DM30",
@@ -67507,9 +67318,7 @@
     "day": "THURSDAY",
     "part": "Part A",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://youtu.be/Wiai414wTrA"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -67619,12 +67428,7 @@
   "candidate_slot_inferred": "Throwing",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/Wiai414wTrA",
-    "source": "BASEBALL!BU28"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!BU28",
    "MASTER_MODEL:BASEBALL!DM30"
@@ -68016,7 +67820,7 @@
   "aliases": [
    {
     "raw": "step back to MB roational chest pass",
-    "raw_with_links": "step back  to MB roational chest pass https://www.youtube.com/watch?v=c6txBU8V-YI",
+    "raw_with_links": "step back  to MB roational chest pass",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DP47",
@@ -68027,13 +67831,11 @@
     "day": "THURSDAY",
     "part": "Part A",
     "reps_raw": "8/8",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=c6txBU8V-YI"
-    ]
+    "video_urls": []
    },
    {
     "raw": "step back to MB roational chest pass",
-    "raw_with_links": "step back  to MB roational chest pass https://www.youtube.com/watch?v=c6txBU8V-YI",
+    "raw_with_links": "step back  to MB roational chest pass",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CG48",
@@ -68044,9 +67846,7 @@
     "day": "THURSDAY",
     "part": "Part A",
     "reps_raw": "5/5",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=c6txBU8V-YI"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -68155,12 +67955,7 @@
   "candidate_slot_inferred": "Throwing",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=c6txBU8V-YI",
-    "source": "BASEBALL!DP47"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CG48",
    "MASTER_MODEL:BASEBALL!DP47"
@@ -68376,7 +68171,7 @@
    },
    {
     "raw": "step to chest pass",
-    "raw_with_links": "step to chest pass - https://www.youtube.com/watch?v=sihui0sI2Hw",
+    "raw_with_links": "step to chest pass",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DZ44",
@@ -68389,13 +68184,11 @@
     "part": "Part A",
     "sets_raw": "1",
     "reps_raw": "8",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=sihui0sI2Hw"
-    ]
+    "video_urls": []
    },
    {
     "raw": "step to chest pass",
-    "raw_with_links": "step to chest pass - https://www.youtube.com/watch?v=sihui0sI2Hw",
+    "raw_with_links": "step to chest pass",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CQ47",
@@ -68408,9 +68201,7 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=sihui0sI2Hw"
-    ]
+    "video_urls": []
    },
    {
     "raw": "step forward chest pass",
@@ -68807,12 +68598,7 @@
     "source": "(NOT DONE) ALL ABOUT BALLISTICS!C62"
    }
   ],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=sihui0sI2Hw",
-    "source": "BASEBALL!DZ44"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AA28",
    "MASTER_MODEL:BASEBALL!BF64",
@@ -69030,7 +68816,7 @@
    },
    {
     "raw": "step to overhead toss",
-    "raw_with_links": "step to overhead toss - https://www.youtube.com/watch?v=i9M9ZnSFEw4",
+    "raw_with_links": "step to overhead toss",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AO47",
@@ -69042,9 +68828,7 @@
     "part": "Part A",
     "sets_raw": "2",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=i9M9ZnSFEw4"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -69355,12 +69139,7 @@
     "source": "(NOT DONE) ALL ABOUT BALLISTICS!C64"
    }
   ],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=i9M9ZnSFEw4",
-    "source": "BASEBALL!AO47"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AO47",
    "MASTER_MODEL:BASEBALL!DE29"
@@ -69510,7 +69289,7 @@
   "aliases": [
    {
     "raw": "lay down MB presses",
-    "raw_with_links": "lay down MB presses https://www.youtube.com/watch?v=E6eZBrF0Y2M",
+    "raw_with_links": "lay down MB presses",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "EH44",
@@ -69523,13 +69302,11 @@
     "part": "Part A",
     "sets_raw": "2",
     "reps_raw": "10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=E6eZBrF0Y2M"
-    ]
+    "video_urls": []
    },
    {
     "raw": "lay down MB presses",
-    "raw_with_links": "lay down MB presses https://www.youtube.com/watch?v=E6eZBrF0Y2M",
+    "raw_with_links": "lay down MB presses",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CY47",
@@ -69542,9 +69319,7 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "20",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=E6eZBrF0Y2M"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -69653,12 +69428,7 @@
   "candidate_slot_inferred": "Throwing",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=E6eZBrF0Y2M",
-    "source": "BASEBALL!EH44"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CY47",
    "MASTER_MODEL:BASEBALL!EH44"
@@ -85852,7 +85622,7 @@
   "aliases": [
    {
     "raw": "banded front squats",
-    "raw_with_links": "banded front squats - https://www.youtube.com/watch?v=Oy6-7I1qhsk",
+    "raw_with_links": "banded front squats",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CY52",
@@ -85865,9 +85635,7 @@
     "part": "Part C",
     "sets_raw": "5",
     "reps_raw": "10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=Oy6-7I1qhsk"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -85965,12 +85733,7 @@
   "candidate_slot_inferred": "Quads / Bilateral KD",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=Oy6-7I1qhsk",
-    "source": "BASEBALL!CY52"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CY52"
   ],
@@ -86236,12 +85999,7 @@
   "candidate_slot_inferred": "Quads / Bilateral KD",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/pn8mqlG0nkE",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!A36"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [
@@ -87222,12 +86980,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/rMvwVtlqjTE",
-    "source": "MASTER EXERCISE LIBRARY!AI12"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:EXAMPLE FAT BURNBODY TONING PRO!G55",
    "MASTER_MODEL:EXAMPLE FAT BURNBODY TONING PRO!M55"
@@ -87603,12 +87356,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/MeIiIdhvXT4 ; https://youtu.be/f-Vf2yRRqOg",
-    "source": "MASTER EXERCISE LIBRARY!AI10"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -88008,12 +87756,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/VyarbKwmOeE",
-    "source": "MASTER EXERCISE LIBRARY!AI13"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -89142,12 +88885,7 @@
     "source": "MASTER EXERCISE LIBRARY!AK13 (decoder field)"
    }
   ],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/zwa-VtaB4S0",
-    "source": "MASTER EXERCISE LIBRARY!AI95"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -89659,12 +89397,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/EqpRWfab9eo",
-    "source": "MASTER EXERCISE LIBRARY!AI91"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!F10",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!H10",
@@ -90010,12 +89743,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtube.com/shorts/0aTzcRGDCQE?feature=share",
-    "source": "MASTER EXERCISE LIBRARY!AI9"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -90966,12 +90694,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/6XghYOzny8U",
-    "source": "MASTER EXERCISE LIBRARY!AI51"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -91370,12 +91093,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtube.com/shorts/0BwOWfg_-Og?feature=share",
-    "source": "MASTER EXERCISE LIBRARY!AI18"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [
@@ -93053,12 +92771,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/uYumuL_G_V0",
-    "source": "MASTER EXERCISE LIBRARY!AI46"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "BYOP:JUSTICE LEAGUE!E8",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!E35",
@@ -93826,7 +93539,7 @@
    },
    {
     "raw": "goblet squats",
-    "raw_with_links": "goblet squats - https://www.youtube.com/watch?v=a-dqF4NL2K4",
+    "raw_with_links": "goblet squats",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "EH49",
@@ -93839,9 +93552,7 @@
     "part": "Part C",
     "sets_raw": "3",
     "reps_raw": "8",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=a-dqF4NL2K4"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -94198,24 +93909,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/MeIiIdhvXT4 ; https://youtu.be/f-Vf2yRRqOg",
-    "source": "MASTER EXERCISE LIBRARY!AI11"
-   },
-   {
-    "url": "https://youtu.be/MeIiIdhvXT4",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!A11"
-   },
-   {
-    "url": "https://youtu.be/f-Vf2yRRqOg",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!A17"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=a-dqF4NL2K4",
-    "source": "BASEBALL!EH49"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AA33",
    "MASTER_MODEL:BASEBALL!EH49"
@@ -94985,7 +94679,7 @@
    },
    {
     "raw": "heavy hex bar squats",
-    "raw_with_links": "heavy hex bar squats https://www.youtube.com/watch?v=M-3wmzwsUxc",
+    "raw_with_links": "heavy hex bar squats",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AW51",
@@ -95001,9 +94695,7 @@
     "cues": [
      "heavy"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=M-3wmzwsUxc"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -95289,16 +94981,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/M-3wmzwsUxc",
-    "source": "MASTER EXERCISE LIBRARY!AI17"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=M-3wmzwsUxc",
-    "source": "BASEBALL!AW51"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AW51"
   ],
@@ -95882,12 +95565,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/4yxT7QPowa0",
-    "source": "MASTER EXERCISE LIBRARY!AI48"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AK33",
    "MASTER_MODEL:BASEBALL!BG52",
@@ -96652,12 +96330,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/i7J5h7BJ07g",
-    "source": "MASTER EXERCISE LIBRARY!AI49"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!J10",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!K18",
@@ -97115,12 +96788,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtube.com/shorts/7nFjBP4K0t4?feature=share",
-    "source": "MASTER EXERCISE LIBRARY!AI47"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -97899,12 +97567,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/_mfORB47xMs",
-    "source": "MASTER EXERCISE LIBRARY!AI16"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -99986,12 +99649,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/Uy8lViLbwGQ",
-    "source": "MASTER EXERCISE LIBRARY!AI50"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "BYOP:JUSTICE LEAGUE!E35",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!T18",
@@ -100420,12 +100078,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/v_c67Omje48",
-    "source": "MASTER EXERCISE LIBRARY!AI15"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -101393,12 +101046,7 @@
   "candidate_slot_inferred": "Quads / Bilateral KD",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtube.com/shorts/NB_DvZx-2vk?feature=share",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!A35"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -101630,12 +101278,7 @@
   "candidate_slot_inferred": "Quads / Bilateral KD",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtube.com/shorts/Xb8IH4RpW_s?feature=share",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!A10"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -102656,12 +102299,7 @@
   "candidate_slot_inferred": "Quads / Bilateral KD",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/CqN02EAAtc8",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!A33"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -103568,12 +103206,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/HW5yUsjKru4",
-    "source": "MASTER EXERCISE LIBRARY!AI100"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -106259,12 +105892,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/NcOoCrI-Vro",
-    "source": "MASTER EXERCISE LIBRARY!AI14"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -106444,7 +106072,7 @@
    },
    {
     "raw": "zercher squat",
-    "raw_with_links": "zercher squat https://www.youtube.com/watch?v=Oui8-eLXkqo",
+    "raw_with_links": "zercher squat",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DP51",
@@ -106457,9 +106085,7 @@
     "part": "Part C",
     "sets_raw": "5",
     "reps_raw": "12",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=Oui8-eLXkqo"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -106779,16 +106405,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtube.com/shorts/0aTzcRGDCQE?feature=share",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!A21"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=Oui8-eLXkqo",
-    "source": "BASEBALL!DP51"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CU34",
    "MASTER_MODEL:BASEBALL!DP51"
@@ -107050,12 +106667,7 @@
   "candidate_slot_inferred": "Quads/Glutes / Unilateral KD",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/zKWe7UAWbIo",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!C47"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [
@@ -107554,7 +107166,7 @@
    },
    {
     "raw": "slow eccentric deficit Lunges (no weigths)",
-    "raw_with_links": "slow eccentric deficit Lunges (no weigths) - https://www.youtube.com/watch?v=W0wZ-yk6WR4",
+    "raw_with_links": "slow eccentric deficit Lunges (no weigths)",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "EL52",
@@ -107571,13 +107183,11 @@
      "slow",
      "bodyweight, slow eccentric"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=W0wZ-yk6WR4"
-    ]
+    "video_urls": []
    },
    {
     "raw": "DB alternating Deficit Reverse lunges from plate",
-    "raw_with_links": "DB alternating Deficit Reverse lunges from plate https://www.youtube.com/watch?v=EbBWFpUbrQ0",
+    "raw_with_links": "DB alternating Deficit Reverse lunges from plate",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DL54",
@@ -107593,13 +107203,11 @@
     "cues": [
      "DB, alternating"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=EbBWFpUbrQ0"
-    ]
+    "video_urls": []
    },
    {
     "raw": "DB alternating Deficit Reverse lunges from plate",
-    "raw_with_links": "DB alternating Deficit Reverse lunges from plate https://www.youtube.com/watch?v=EbBWFpUbrQ0",
+    "raw_with_links": "DB alternating Deficit Reverse lunges from plate",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CC55",
@@ -107615,9 +107223,7 @@
     "cues": [
      "DB, alternating"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=EbBWFpUbrQ0"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -107753,16 +107359,7 @@
   "candidate_slot_inferred": "Quads/Glutes / Unilateral KD",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=W0wZ-yk6WR4",
-    "source": "BASEBALL!EL52"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=EbBWFpUbrQ0",
-    "source": "BASEBALL!DL54"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CC55",
    "MASTER_MODEL:BASEBALL!DI37",
@@ -107868,7 +107465,7 @@
    },
    {
     "raw": "slow eccentric deficit Lunges (no weigths)",
-    "raw_with_links": "slow eccentric deficit Lunges (no weigths) - https://www.youtube.com/watch?v=W0wZ-yk6WR4",
+    "raw_with_links": "slow eccentric deficit Lunges (no weigths)",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "EL52",
@@ -107885,14 +107482,12 @@
      "slow",
      "bodyweight, slow eccentric"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=W0wZ-yk6WR4"
-    ],
+    "video_urls": [],
     "merged_because": "LIB-17: BASEBALL 'deficit reverse lunge (front foot on plate)' is the BYOP deficit reverse lunge (stand on the plate/step, step back)"
    },
    {
     "raw": "DB alternating Deficit Reverse lunges from plate",
-    "raw_with_links": "DB alternating Deficit Reverse lunges from plate https://www.youtube.com/watch?v=EbBWFpUbrQ0",
+    "raw_with_links": "DB alternating Deficit Reverse lunges from plate",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DL54",
@@ -107908,14 +107503,12 @@
     "cues": [
      "DB, alternating"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=EbBWFpUbrQ0"
-    ],
+    "video_urls": [],
     "merged_because": "LIB-17: BASEBALL 'deficit reverse lunge (front foot on plate)' is the BYOP deficit reverse lunge (stand on the plate/step, step back)"
    },
    {
     "raw": "DB alternating Deficit Reverse lunges from plate",
-    "raw_with_links": "DB alternating Deficit Reverse lunges from plate https://www.youtube.com/watch?v=EbBWFpUbrQ0",
+    "raw_with_links": "DB alternating Deficit Reverse lunges from plate",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CC55",
@@ -107931,9 +107524,7 @@
     "cues": [
      "DB, alternating"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=EbBWFpUbrQ0"
-    ],
+    "video_urls": [],
     "merged_because": "LIB-17: BASEBALL 'deficit reverse lunge (front foot on plate)' is the BYOP deficit reverse lunge (stand on the plate/step, step back)"
    }
   ],
@@ -108200,16 +107791,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=W0wZ-yk6WR4",
-    "source": "BASEBALL!EL52"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=EbBWFpUbrQ0",
-    "source": "BASEBALL!DL54"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CC55",
    "MASTER_MODEL:BASEBALL!DI37",
@@ -108692,12 +108274,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/VG52O1zzDks",
-    "source": "MASTER EXERCISE LIBRARY!AL11"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AE36",
    "MASTER_MODEL:EXAMPLE FAT BURNBODY TONING PRO!G53",
@@ -109462,12 +109039,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/n4PKawSrLt0",
-    "source": "MASTER EXERCISE LIBRARY!AL18"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!J38",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!J51",
@@ -109802,7 +109374,7 @@
    },
    {
     "raw": "FFE ipsilateral lunge",
-    "raw_with_links": "FFE  ipsilateral lunge - https://www.youtube.com/watch?v=ezKp-MB51lA",
+    "raw_with_links": "FFE  ipsilateral lunge",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "M72",
@@ -109817,13 +109389,11 @@
     "cues": [
      "ipsilateral"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=ezKp-MB51lA"
-    ]
+    "video_urls": []
    },
    {
     "raw": "ffe lunges - contralateral loading",
-    "raw_with_links": "ffe lunges - contralateral loading https://www.youtube.com/watch?v=yKQIWcbccwI",
+    "raw_with_links": "ffe lunges - contralateral loading",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "W72",
@@ -109839,13 +109409,11 @@
     "cues": [
      "contralateral"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=yKQIWcbccwI"
-    ]
+    "video_urls": []
    },
    {
     "raw": "FFE ipsilateral reverse lunge",
-    "raw_with_links": "FFE  ipsilateral reverse lunge - https://www.youtube.com/watch?v=ezKp-MB51lA",
+    "raw_with_links": "FFE  ipsilateral reverse lunge",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AS72",
@@ -109860,9 +109428,7 @@
     "cues": [
      "ipsilateral, reverse step"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=ezKp-MB51lA"
-    ]
+    "video_urls": []
    },
    {
     "raw": "FFE LUNGES",
@@ -110513,20 +110079,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/WxakFlx9zLk",
-    "source": "MASTER EXERCISE LIBRARY!AL15"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=ezKp-MB51lA",
-    "source": "BASEBALL!M72"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=yKQIWcbccwI",
-    "source": "BASEBALL!W72"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "BYOP:JUSTICE LEAGUE!E10",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!E38",
@@ -112079,12 +111632,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/qDcniqddTeE",
-    "source": "MASTER EXERCISE LIBRARY!AL13"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -112472,12 +112020,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/1ozWQ-B9zu4",
-    "source": "MASTER EXERCISE LIBRARY!AL17"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -112766,7 +112309,7 @@
    },
    {
     "raw": "RFE Bulgarian lunge",
-    "raw_with_links": "RFE Bulgarian lunge - https://www.youtube.com/watch?v=JhUjQo8fB8c",
+    "raw_with_links": "RFE Bulgarian lunge",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "G72",
@@ -112778,13 +112321,11 @@
     "part": "Part D",
     "sets_raw": "4",
     "reps_raw": "8/8",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=JhUjQo8fB8c"
-    ]
+    "video_urls": []
    },
    {
     "raw": "RFE Bulgarian lunge",
-    "raw_with_links": "RFE Bulgarian lunge - https://www.youtube.com/watch?v=JhUjQo8fB8c",
+    "raw_with_links": "RFE Bulgarian lunge",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AM72",
@@ -112796,9 +112337,7 @@
     "part": "Part D",
     "sets_raw": "PART D 4X",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=JhUjQo8fB8c"
-    ]
+    "video_urls": []
    },
    {
     "raw": "High zercher DB RFE Lunge front foot on ramp",
@@ -113784,16 +113323,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/LFI6UUQgyMY",
-    "source": "MASTER EXERCISE LIBRARY!AL16"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=JhUjQo8fB8c",
-    "source": "BASEBALL!G72"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!E12",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!E20",
@@ -114848,12 +114378,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/7pwO2gemRyg",
-    "source": "MASTER EXERCISE LIBRARY!AL10"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "BYOP:AESTHETICS - FULL BODY - 4 DAYS!D6",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!I12",
@@ -115227,7 +114752,7 @@
    },
    {
     "raw": "kb front rack lateral lunge - kb lunges",
-    "raw_with_links": "kb front rack lateral lunge - https://youtube.com/shorts/WA7HfjppDkc?feature=sharelateral kb lunges",
+    "raw_with_links": "kb front rack lateral lunge kb lunges",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DQ37",
@@ -115243,13 +114768,11 @@
     "cues": [
      "KB front rack"
     ],
-    "video_urls": [
-     "https://youtube.com/shorts/WA7HfjppDkc?feature=sharelateral"
-    ]
+    "video_urls": []
    },
    {
     "raw": "side lunges (db contralateral load)",
-    "raw_with_links": "side lunges (db contralateral load) - https://www.youtube.com/watch?v=HLDhxSqMQyE",
+    "raw_with_links": "side lunges (db contralateral load)",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BA54",
@@ -115265,13 +114788,11 @@
     "cues": [
      "DB contralateral load"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=HLDhxSqMQyE"
-    ]
+    "video_urls": []
    },
    {
     "raw": "kb front rack lateral lunge - kb lunges",
-    "raw_with_links": "kb front rack lateral lunge - https://youtube.com/shorts/WA7HfjppDkc?feature=sharelateral kb lunges",
+    "raw_with_links": "kb front rack lateral lunge kb lunges",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DT54",
@@ -115287,13 +114808,11 @@
     "cues": [
      "KB front rack"
     ],
-    "video_urls": [
-     "https://youtube.com/shorts/WA7HfjppDkc?feature=sharelateral"
-    ]
+    "video_urls": []
    },
    {
     "raw": "kb front rack lateral lunge - kb lunges",
-    "raw_with_links": "kb front rack lateral lunge - https://youtube.com/shorts/WA7HfjppDkc?feature=sharelateral kb lunges",
+    "raw_with_links": "kb front rack lateral lunge kb lunges",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CK55",
@@ -115309,13 +114828,11 @@
     "cues": [
      "KB front rack"
     ],
-    "video_urls": [
-     "https://youtube.com/shorts/WA7HfjppDkc?feature=sharelateral"
-    ]
+    "video_urls": []
    },
    {
     "raw": "db lateral lunge",
-    "raw_with_links": "db lateral lunge https://www.youtube.com/watch?v=pjIq2m9XsVE",
+    "raw_with_links": "db lateral lunge",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BB72",
@@ -115331,9 +114848,7 @@
     "cues": [
      "DB"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=pjIq2m9XsVE"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -115621,24 +115136,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/zKWe7UAWbIo",
-    "source": "MASTER EXERCISE LIBRARY!AL12"
-   },
-   {
-    "url": "https://youtube.com/shorts/WA7HfjppDkc?feature=sharelateral",
-    "source": "BASEBALL!DQ37"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=HLDhxSqMQyE",
-    "source": "BASEBALL!BA54"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=pjIq2m9XsVE",
-    "source": "BASEBALL!BB72"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!BA54",
    "MASTER_MODEL:BASEBALL!BB72",
@@ -116061,12 +115559,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/ay02gvlU_Js",
-    "source": "MASTER EXERCISE LIBRARY!AL14"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -116681,12 +116174,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/cnwphCgR60A",
-    "source": "MASTER EXERCISE LIBRARY!AL9"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:EXAMPLE FAT BURNBODY TONING PRO!D22",
    "MASTER_MODEL:EXAMPLE FAT BURNBODY TONING PRO!G9"
@@ -116939,7 +116427,7 @@
    },
    {
     "raw": "db high zercher step ups",
-    "raw_with_links": "db high zercher step ups https://www.youtube.com/watch?v=1BaYS6fhR2U",
+    "raw_with_links": "db high zercher step ups",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AS54",
@@ -116955,9 +116443,7 @@
     "cues": [
      "DB high zercher"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=1BaYS6fhR2U"
-    ]
+    "video_urls": []
    },
    {
     "raw": "heavy DB step ups",
@@ -116980,7 +116466,7 @@
    },
    {
     "raw": "ipsilateral kb front rack step up",
-    "raw_with_links": "ipsilateral kb front rack step up https://www.youtube.com/watch?v=CMoO_jsKTVk",
+    "raw_with_links": "ipsilateral kb front rack step up",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AE72",
@@ -116996,9 +116482,7 @@
     "cues": [
      "KB front rack ipsilateral"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=CMoO_jsKTVk"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Lateral Step ups IPSILATERAL loading",
@@ -117479,28 +116963,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/9ZknEYboBOQ (forward) ; https://youtu.be/Ha__mTXHk3c (lateral)",
-    "source": "MASTER EXERCISE LIBRARY!AL19"
-   },
-   {
-    "url": "https://youtu.be/9ZknEYboBOQ",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!C17"
-   },
-   {
-    "url": "https://youtu.be/Ha__mTXHk3c",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!C18"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=1BaYS6fhR2U",
-    "source": "BASEBALL!AS54"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=CMoO_jsKTVk",
-    "source": "BASEBALL!AE72"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AE72",
    "MASTER_MODEL:BASEBALL!AI54",
@@ -117664,7 +117127,7 @@
   "aliases": [
    {
     "raw": "STEP UPS TO KNEE DRIVE",
-    "raw_with_links": "STEP UPS TO KNEE DRIVE https://www.youtube.com/watch?v=fe4JN3BrlsY",
+    "raw_with_links": "STEP UPS TO KNEE DRIVE",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "EC71",
@@ -117677,9 +117140,7 @@
     "part": "Part D",
     "sets_raw": "4",
     "reps_raw": "12/12",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=fe4JN3BrlsY"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -117779,12 +117240,7 @@
   "candidate_slot_inferred": "Quads/Glutes / Unilateral KD",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=fe4JN3BrlsY",
-    "source": "BASEBALL!EC71"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!EC71"
   ],
@@ -118464,12 +117920,7 @@
   "candidate_slot_inferred": "Quads / Leg Extensions",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/MM_WD0gZres",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!A40"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -118662,12 +118113,7 @@
   "candidate_slot_inferred": "Quads / Leg Extensions",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/HpCE66lfEuk",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!A41"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -120384,18 +119830,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/m0FOpMEgero",
-    "source": "MASTER EXERCISE LIBRARY!AI20",
-    "url_v0": "https://youtu.be/m0FOpMEgero (no-machine options listed beside it: A40 'banded leg extensions on bench' https://youtu.be/MM_WD0gZres ; A41 'DB leg extensions on box' https://youtu.be/HpCE66lfEuk)",
-    "note": "no-machine option listed beside it: A41 'DB leg extensions on box' https://youtu.be/HpCE66lfEuk (A40 'banded leg extensions on bench' is out of scope, COACH-ANSWER EQ-08)"
-   },
-   {
-    "url": "https://youtu.be/m0FOpMEgero",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!A39"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "BYOP:AESTHETICS - FULL BODY - 4 DAYS!D9",
    "BYOP:BOOTCAMP - OPTION 1!E30",
@@ -121083,12 +120518,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/tsP0eYPsoiE",
-    "source": "MASTER EXERCISE LIBRARY!AN55"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CY34"
   ],
@@ -121357,12 +120787,7 @@
   "candidate_slot_inferred": "Hamstring / Bilateral HD",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/rGQA9QXTdbU",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!A79"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -122509,7 +121934,7 @@
    },
    {
     "raw": "banded kb swings",
-    "raw_with_links": "banded kb swings - https://www.youtube.com/watch?v=lL7TGSQzUx4",
+    "raw_with_links": "banded kb swings",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DC52",
@@ -122522,9 +121947,7 @@
     "part": "Part C",
     "sets_raw": "5",
     "reps_raw": "10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=lL7TGSQzUx4"
-    ]
+    "video_urls": []
    },
    {
     "raw": "BANDED KB SWINGS",
@@ -122681,12 +122104,7 @@
   "candidate_slot_inferred": "Hamstring / Bilateral HD",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=lL7TGSQzUx4",
-    "source": "BASEBALL!DC52"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!BO33",
    "MASTER_MODEL:BASEBALL!CS69",
@@ -123588,12 +123006,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/op9kVnSso6Q",
-    "source": "MASTER EXERCISE LIBRARY!AN49"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!I86",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!L86",
@@ -124131,12 +123544,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/YA-h3n9L4YU",
-    "source": "MASTER EXERCISE LIBRARY!AN97"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!O18"
   ],
@@ -125117,12 +124525,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/pv8e6OSyETE",
-    "source": "MASTER EXERCISE LIBRARY!AN12"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -125804,12 +125207,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/op9kVnSso6Q",
-    "source": "MASTER EXERCISE LIBRARY!AN49"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [
@@ -128045,12 +127443,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/aXwilZfmDyo",
-    "source": "MASTER EXERCISE LIBRARY!AN14"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -128696,12 +128089,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/ev5Bx5a_mss",
-    "source": "MASTER EXERCISE LIBRARY!AN46"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "BYOP:AESTHETICS - FULL BODY - 4 DAYS!D10",
    "MASTER_MODEL:BASEBALL!M33",
@@ -130106,12 +129494,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/z15C9UZUbss",
-    "source": "MASTER EXERCISE LIBRARY!AN48"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -130562,12 +129945,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/wMEoGwkk650",
-    "source": "MASTER EXERCISE LIBRARY!AN9"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:EXAMPLE ATHLETIC FULL BODY SPLI!J33"
   ],
@@ -131473,12 +130851,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/1jC_nqcSCp8",
-    "source": "MASTER EXERCISE LIBRARY!AN47"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AM69",
    "MASTER_MODEL:BASEBALL!G33",
@@ -132778,7 +132151,7 @@
    },
    {
     "raw": "kb swings",
-    "raw_with_links": "kb swings - https://www.youtube.com/watch?v=KkYOW3jDhoM",
+    "raw_with_links": "kb swings",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "EL49",
@@ -132791,9 +132164,7 @@
     "part": "Part C",
     "sets_raw": "3",
     "reps_raw": "8",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=KkYOW3jDhoM"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Fast KB swings",
@@ -133207,20 +132578,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/KkYOW3jDhoM (Russian) ; https://youtu.be/rGQA9QXTdbU (American)",
-    "source": "MASTER EXERCISE LIBRARY!AN20"
-   },
-   {
-    "url": "https://youtu.be/KkYOW3jDhoM",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!A78"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=KkYOW3jDhoM",
-    "source": "BASEBALL!EL49"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AE33",
    "MASTER_MODEL:BASEBALL!AI51",
@@ -136063,12 +135421,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/3vmbvoT2m-U",
-    "source": "MASTER EXERCISE LIBRARY!AN11"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -137481,12 +136834,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/ekNKtG0ZFTU",
-    "source": "MASTER EXERCISE LIBRARY!AN96"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!E10",
    "MASTER_MODEL:(NOT DONE) EXAMPLE CONJUGATE!E14",
@@ -138572,12 +137920,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/wQHSYDSgDn8",
-    "source": "MASTER EXERCISE LIBRARY!AN94"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [
@@ -139424,12 +138767,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/SZEcHFpc6Gw",
-    "source": "MASTER EXERCISE LIBRARY!AN95"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -140358,7 +139696,7 @@
    },
    {
     "raw": "camporini deadlift",
-    "raw_with_links": "camporini deadlift - https://www.youtube.com/watch?v=cRU0RQ1KTfg",
+    "raw_with_links": "camporini deadlift",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DZ52",
@@ -140371,13 +139709,11 @@
     "part": "Part D",
     "sets_raw": "3",
     "reps_raw": "8 on each side",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=cRU0RQ1KTfg"
-    ]
+    "video_urls": []
    },
    {
     "raw": "camporini deadlift",
-    "raw_with_links": "camporini deadlift - https://www.youtube.com/watch?v=cRU0RQ1KTfg",
+    "raw_with_links": "camporini deadlift",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CQ55",
@@ -140390,9 +139726,7 @@
     "part": "Part D",
     "sets_raw": "5",
     "reps_raw": "10 on each side",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=cRU0RQ1KTfg"
-    ]
+    "video_urls": []
    },
    {
     "raw": "camporini dl",
@@ -140411,7 +139745,7 @@
    },
    {
     "raw": "camporini dl",
-    "raw_with_links": "camporini dl - https://www.youtube.com/watch?v=cRU0RQ1KTfg",
+    "raw_with_links": "camporini dl",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "J72",
@@ -140423,13 +139757,11 @@
     "part": "Part D",
     "sets_raw": "4",
     "reps_raw": "8/8",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=cRU0RQ1KTfg"
-    ]
+    "video_urls": []
    },
    {
     "raw": "camporini dl",
-    "raw_with_links": "camporini dl - https://www.youtube.com/watch?v=cRU0RQ1KTfg",
+    "raw_with_links": "camporini dl",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AP72",
@@ -140441,9 +139773,7 @@
     "part": "Part D",
     "sets_raw": "4",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=cRU0RQ1KTfg"
-    ]
+    "video_urls": []
    },
    {
     "raw": "camporini dl",
@@ -140786,12 +140116,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=cRU0RQ1KTfg",
-    "source": "BASEBALL!DZ52"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AA36",
    "MASTER_MODEL:BASEBALL!AP72",
@@ -141433,7 +140758,7 @@
    },
    {
     "raw": "SL glute bridges (heel on bench)",
-    "raw_with_links": "SL glute bridges (heel on bench) https://www.youtube.com/watch?v=tiZWu8faIkM",
+    "raw_with_links": "SL glute bridges (heel on bench)",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AW54",
@@ -141446,9 +140771,7 @@
     "part": "Part D",
     "sets_raw": "4",
     "reps_raw": "8/8",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=tiZWu8faIkM"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -141676,12 +140999,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=tiZWu8faIkM",
-    "source": "BASEBALL!AW54"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AW54"
   ],
@@ -141825,7 +141143,7 @@
    },
    {
     "raw": "SL glute bridge",
-    "raw_with_links": "SL glute bridge https://www.youtube.com/watch?v=tiZWu8faIkM",
+    "raw_with_links": "SL glute bridge",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DH54",
@@ -141838,13 +141156,11 @@
     "part": "Part D",
     "sets_raw": "5",
     "reps_raw": "15/15",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=tiZWu8faIkM"
-    ]
+    "video_urls": []
    },
    {
     "raw": "SL glute bridge",
-    "raw_with_links": "SL glute bridge https://www.youtube.com/watch?v=tiZWu8faIkM",
+    "raw_with_links": "SL glute bridge",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BY55",
@@ -141857,9 +141173,7 @@
     "part": "Part D",
     "sets_raw": "4",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=tiZWu8faIkM"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -142232,12 +141546,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=tiZWu8faIkM",
-    "source": "BASEBALL!DH54"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!BY55",
    "MASTER_MODEL:BASEBALL!DH54"
@@ -144713,7 +144022,7 @@
    },
    {
     "raw": "Staggered stance DB dl - Medial pressure - contralateral loading",
-    "raw_with_links": "Staggered stance DB dl - Medial pressure - contralateral loading - https://youtube.com/shorts/avUPBq-FrDU?feature=share",
+    "raw_with_links": "Staggered stance DB dl - Medial pressure - contralateral loading",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CU37",
@@ -144729,9 +144038,7 @@
     "cues": [
      "- Medial pressure - contralateral loading"
     ],
-    "video_urls": [
-     "https://youtube.com/shorts/avUPBq-FrDU?feature=share"
-    ]
+    "video_urls": []
    },
    {
     "raw": "suitcase double dumbell staggered db RDL",
@@ -144783,7 +144090,7 @@
    },
    {
     "raw": "Staggered stance DB dl - Medial pressure - contralateral loading",
-    "raw_with_links": "Staggered stance DB dl - Medial pressure - contralateral loading - https://youtube.com/shorts/avUPBq-FrDU?feature=share",
+    "raw_with_links": "Staggered stance DB dl - Medial pressure - contralateral loading",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BO55",
@@ -144799,9 +144106,7 @@
     "cues": [
      "- Medial pressure - contralateral loading"
     ],
-    "video_urls": [
-     "https://youtube.com/shorts/avUPBq-FrDU?feature=share"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Staggered stance DB dl",
@@ -144820,7 +144125,7 @@
    },
    {
     "raw": "Staggered stance DB dl - Medial pressure - contralateral loading",
-    "raw_with_links": "Staggered stance DB dl - Medial pressure - contralateral loading - https://youtube.com/shorts/avUPBq-FrDU?feature=share",
+    "raw_with_links": "Staggered stance DB dl - Medial pressure - contralateral loading",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DY71",
@@ -144836,13 +144141,11 @@
     "cues": [
      "- Medial pressure - contralateral loading"
     ],
-    "video_urls": [
-     "https://youtube.com/shorts/avUPBq-FrDU?feature=share"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Staggered stance double rack deadlifts",
-    "raw_with_links": "Staggered stance double rack deadlifts https://www.youtube.com/watch?v=prDdkGgNWLM",
+    "raw_with_links": "Staggered stance double rack deadlifts",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AX72",
@@ -144858,9 +144161,7 @@
     "cues": [
      "double rack"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=prDdkGgNWLM"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Staggered stance DB dl",
@@ -144879,7 +144180,7 @@
    },
    {
     "raw": "Staggered stance DB dl - Medial pressure - contralateral loading",
-    "raw_with_links": "Staggered stance DB dl - Medial pressure - contralateral loading - https://youtube.com/shorts/avUPBq-FrDU?feature=share",
+    "raw_with_links": "Staggered stance DB dl - Medial pressure - contralateral loading",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CO72",
@@ -144895,9 +144196,7 @@
     "cues": [
      "- Medial pressure - contralateral loading"
     ],
-    "video_urls": [
-     "https://youtube.com/shorts/avUPBq-FrDU?feature=share"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -145277,16 +144576,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtube.com/shorts/avUPBq-FrDU?feature=share",
-    "source": "BASEBALL!CU37"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=prDdkGgNWLM",
-    "source": "BASEBALL!AX72"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "BYOP:AESTHETICS - FULL BODY - 4 DAYS!D12",
    "MASTER_MODEL:BASEBALL!AO54",
@@ -147151,7 +146441,7 @@
    },
    {
     "raw": "Banded rolling hamstring curls",
-    "raw_with_links": "Banded rolling hamstring curls https://www.youtube.com/watch?v=wwVXsfCI8cY",
+    "raw_with_links": "Banded rolling hamstring curls",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AA72",
@@ -147164,9 +146454,7 @@
     "part": "Part D",
     "sets_raw": "4",
     "reps_raw": "20",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=wwVXsfCI8cY"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -147267,12 +146555,7 @@
   "candidate_slot_inferred": "Hamstrings / Leg Curls",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=wwVXsfCI8cY",
-    "source": "BASEBALL!AA72"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AA72",
    "MASTER_MODEL:BASEBALL!M54"
@@ -148287,7 +147570,7 @@
    },
    {
     "raw": "hamstring runners",
-    "raw_with_links": "hamstring runners - https://www.youtube.com/watch?v=9XG1s1dEl6A",
+    "raw_with_links": "hamstring runners",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CY55",
@@ -148300,9 +147583,7 @@
     "part": "Part D",
     "sets_raw": "5",
     "reps_raw": "0:12 secs",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=9XG1s1dEl6A"
-    ]
+    "video_urls": []
    },
    {
     "raw": "HAMSTRING SLIDERS RUNNERS",
@@ -148321,7 +147602,7 @@
    },
    {
     "raw": "Glidder hamstring runners",
-    "raw_with_links": "Glidder hamstring runners https://www.youtube.com/watch?v=mjUHc_6TbXU",
+    "raw_with_links": "Glidder hamstring runners",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "S72",
@@ -148334,9 +147615,7 @@
     "part": "Part D",
     "sets_raw": "4",
     "reps_raw": "20 on each side - FAST ",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=mjUHc_6TbXU"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -148490,16 +147769,7 @@
   "candidate_slot_inferred": "Hamstrings / Leg Curls",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=9XG1s1dEl6A",
-    "source": "BASEBALL!CY55"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=mjUHc_6TbXU",
-    "source": "BASEBALL!S72"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AK36",
    "MASTER_MODEL:BASEBALL!BC36",
@@ -148977,7 +148247,7 @@
    },
    {
     "raw": "bent over Barbell Row",
-    "raw_with_links": "bent over Barbell Row - https://www.youtube.com/watch?v=9Gf-Ourup_k",
+    "raw_with_links": "bent over Barbell Row",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "D70",
@@ -148988,13 +148258,11 @@
     "day": "MONDAY",
     "part": "Part C",
     "reps_raw": "Superset - same reps",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=9Gf-Ourup_k"
-    ]
+    "video_urls": []
    },
    {
     "raw": "bent over Barbell Row",
-    "raw_with_links": "bent over Barbell Row - https://www.youtube.com/watch?v=9Gf-Ourup_k",
+    "raw_with_links": "bent over Barbell Row",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AJ70",
@@ -149005,9 +148273,7 @@
     "day": "MONDAY",
     "part": "Part C",
     "reps_raw": "Superset - same reps",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=9Gf-Ourup_k"
-    ]
+    "video_urls": []
    },
    {
     "raw": "BENT OVER ROW",
@@ -149676,12 +148942,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=9Gf-Ourup_k",
-    "source": "BASEBALL!D70"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "BYOP:AESTHETICS - FULL BODY - 4 DAYS!D5",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!E14",
@@ -151689,7 +150950,7 @@
    },
    {
     "raw": "bent over sesaw rows",
-    "raw_with_links": "bent over sesaw rows https://www.youtube.com/watch?v=_UUyU3FOhto",
+    "raw_with_links": "bent over sesaw rows",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AE74",
@@ -151701,9 +150962,7 @@
     "slot": "shoulders",
     "part": "Part D",
     "reps_raw": "max",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=_UUyU3FOhto"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -151806,12 +151065,7 @@
   "candidate_slot_inferred": "Back / Horizontal Pull",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=_UUyU3FOhto",
-    "source": "BASEBALL!AE74"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AE74",
    "MASTER_MODEL:BASEBALL!Q56"
@@ -157006,7 +156260,7 @@
    },
    {
     "raw": "seal rows",
-    "raw_with_links": "seal rows https://www.youtube.com/watch?v=Sm8O4hjJr9M",
+    "raw_with_links": "seal rows",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "S70",
@@ -157018,9 +156272,7 @@
     "slot": "horiz pull",
     "part": "Part C",
     "reps_raw": "12",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=Sm8O4hjJr9M"
-    ]
+    "video_urls": []
    },
    {
     "raw": "seal rows 10 reps all rounds",
@@ -157389,12 +156641,7 @@
   "candidate_slot_inferred": "Back / Horizontal Pull",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=Sm8O4hjJr9M",
-    "source": "BASEBALL!S70"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!G14",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!G22",
@@ -160312,7 +159559,7 @@
    },
    {
     "raw": "heavy DB rows",
-    "raw_with_links": "heavy DB rows https://www.youtube.com/watch?v=xl1YiqQY2vA",
+    "raw_with_links": "heavy DB rows",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AX70",
@@ -160327,9 +159574,7 @@
     "cues": [
      "heavy"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=xl1YiqQY2vA"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Heavy DB row",
@@ -161439,12 +160684,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=xl1YiqQY2vA",
-    "source": "BASEBALL!AX70"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!F11",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!F19",
@@ -173497,7 +172737,7 @@
    },
    {
     "raw": "half kneeling SA cable lats pull down",
-    "raw_with_links": "half kneeling SA cable lats pull down https://www.youtube.com/watch?v=XbZgoSNJXm4",
+    "raw_with_links": "half kneeling SA cable lats pull down",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DH52",
@@ -173512,13 +172752,11 @@
     "cues": [
      "half kneeling"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=XbZgoSNJXm4"
-    ]
+    "video_urls": []
    },
    {
     "raw": "half kneeling SA cable lats pull down",
-    "raw_with_links": "half kneeling SA cable lats pull down https://www.youtube.com/watch?v=XbZgoSNJXm4",
+    "raw_with_links": "half kneeling SA cable lats pull down",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BY53",
@@ -173533,9 +172771,7 @@
     "cues": [
      "half kneeling"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=XbZgoSNJXm4"
-    ]
+    "video_urls": []
    },
    {
     "raw": "UNILATERAL LAT PULL DOWN",
@@ -174022,12 +173258,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=XbZgoSNJXm4",
-    "source": "BASEBALL!DH52"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!E42",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!E56",
@@ -176793,7 +176024,7 @@
    },
    {
     "raw": "Alternating DB Bench press (botton up)",
-    "raw_with_links": "Alternating DB Bench press (botton up) - https://www.youtube.com/watch?v=YUhAJt8xsFY",
+    "raw_with_links": "Alternating DB Bench press (botton up)",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "ED50",
@@ -176808,13 +176039,11 @@
     "cues": [
      "bottom-up start"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=YUhAJt8xsFY"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Alternating DB Bench press (botton up)",
-    "raw_with_links": "Alternating DB Bench press (botton up) - https://www.youtube.com/watch?v=YUhAJt8xsFY",
+    "raw_with_links": "Alternating DB Bench press (botton up)",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CU53",
@@ -176829,9 +176058,7 @@
     "cues": [
      "bottom-up start"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=YUhAJt8xsFY"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -177164,12 +176391,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=YUhAJt8xsFY",
-    "source": "BASEBALL!ED50"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CU53",
    "MASTER_MODEL:BASEBALL!ED50"
@@ -184574,7 +183796,7 @@
    },
    {
     "raw": "diamond push ups",
-    "raw_with_links": "diamond push ups https://www.youtube.com/watch?v=XtU2VQVuLYs",
+    "raw_with_links": "diamond push ups",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CC56",
@@ -184586,9 +183808,7 @@
     "slot": "tricep",
     "part": "Part D",
     "reps_raw": "15",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=XtU2VQVuLYs"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -184907,12 +184127,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=XtU2VQVuLYs",
-    "source": "BASEBALL!CC56"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CC56"
   ],
@@ -185189,7 +184404,7 @@
    },
    {
     "raw": "DB Bottoms up bench press",
-    "raw_with_links": "DB Bottoms up bench press https://www.youtube.com/watch?v=ZdhsVPoO9sc",
+    "raw_with_links": "DB Bottoms up bench press",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "G70",
@@ -185203,13 +184418,11 @@
     "cues": [
      "bottom-up start"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=ZdhsVPoO9sc"
-    ]
+    "video_urls": []
    },
    {
     "raw": "DB Bottoms up bench press",
-    "raw_with_links": "DB Bottoms up bench press https://www.youtube.com/watch?v=ZdhsVPoO9sc",
+    "raw_with_links": "DB Bottoms up bench press",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AM70",
@@ -185223,9 +184436,7 @@
     "cues": [
      "bottom-up start"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=ZdhsVPoO9sc"
-    ]
+    "video_urls": []
    },
    {
     "raw": "top down db bench press",
@@ -186005,12 +185216,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=ZdhsVPoO9sc",
-    "source": "BASEBALL!G70"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!E41",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!E55",
@@ -188467,7 +187673,7 @@
    },
    {
     "raw": "incline db bench press",
-    "raw_with_links": "incline db bench press https://www.youtube.com/watch?v=Fv5EYoJfRt4",
+    "raw_with_links": "incline db bench press",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "W71",
@@ -188478,13 +187684,11 @@
     "day": "TUESDAY",
     "part": "Part C",
     "reps_raw": "8",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=Fv5EYoJfRt4"
-    ]
+    "video_urls": []
    },
    {
     "raw": "incline db bench press",
-    "raw_with_links": "incline db bench press https://www.youtube.com/watch?v=Fv5EYoJfRt4",
+    "raw_with_links": "incline db bench press",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BB70",
@@ -188496,9 +187700,7 @@
     "slot": "horiz push",
     "part": "Part C",
     "reps_raw": "8",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=Fv5EYoJfRt4"
-    ]
+    "video_urls": []
    },
    {
     "raw": "inclined db bench press",
@@ -189318,12 +188520,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=Fv5EYoJfRt4",
-    "source": "BASEBALL!W71"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!H42",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!H56",
@@ -192137,7 +191334,7 @@
    },
    {
     "raw": "offset pushups",
-    "raw_with_links": "offset pushups https://www.youtube.com/watch?v=nxPEqBn6tFc",
+    "raw_with_links": "offset pushups",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AE73",
@@ -192152,9 +191349,7 @@
     "cues": [
      "offset push-ups"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=nxPEqBn6tFc"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -192529,12 +191724,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=nxPEqBn6tFc",
-    "source": "BASEBALL!AE73"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AE73",
    "MASTER_MODEL:BASEBALL!AI55",
@@ -201300,7 +200490,7 @@
    },
    {
     "raw": "half kneeling landmine press",
-    "raw_with_links": "half kneeling landmine press - https://www.youtube.com/watch?v=ORoOn93dnh4",
+    "raw_with_links": "half kneeling landmine press",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CK53",
@@ -201315,13 +200505,11 @@
     "cues": [
      "half kneeling"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=ORoOn93dnh4"
-    ]
+    "video_urls": []
    },
    {
     "raw": "LAndmine half kneeling press",
-    "raw_with_links": "LAndmine half kneeling press - https://www.youtube.com/watch?v=ORoOn93dnh4",
+    "raw_with_links": "LAndmine half kneeling press",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "M70",
@@ -201335,13 +200523,11 @@
     "cues": [
      "half kneeling"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=ORoOn93dnh4"
-    ]
+    "video_urls": []
    },
    {
     "raw": "half kneeling landmine press",
-    "raw_with_links": "half kneeling landmine press https://www.youtube.com/watch?v=ORoOn93dnh4",
+    "raw_with_links": "half kneeling landmine press",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AE70",
@@ -201356,9 +200542,7 @@
     "cues": [
      "half kneeling"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=ORoOn93dnh4"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -201676,12 +200860,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=ORoOn93dnh4",
-    "source": "BASEBALL!CK53"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AE70",
    "MASTER_MODEL:BASEBALL!CK53",
@@ -203400,7 +202579,7 @@
   "aliases": [
    {
     "raw": "medball press",
-    "raw_with_links": "medball press - https://youtu.be/p7njQa7-WLI",
+    "raw_with_links": "medball press",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BO34",
@@ -203412,13 +202591,11 @@
     "slot": "vert push",
     "part": "Part C",
     "reps_raw": "8",
-    "video_urls": [
-     "https://youtu.be/p7njQa7-WLI"
-    ]
+    "video_urls": []
    },
    {
     "raw": "medball press",
-    "raw_with_links": "medball press - https://youtu.be/p7njQa7-WLI",
+    "raw_with_links": "medball press",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AI52",
@@ -203430,9 +202607,7 @@
     "slot": "vert push",
     "part": "Part C",
     "reps_raw": "12",
-    "video_urls": [
-     "https://youtu.be/p7njQa7-WLI"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -203540,12 +202715,7 @@
   "candidate_slot_inferred": "Chest/Shoulders / Vertical Push",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/p7njQa7-WLI",
-    "source": "BASEBALL!BO34"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AI52",
    "MASTER_MODEL:BASEBALL!BO34"
@@ -204993,7 +204163,7 @@
    },
    {
     "raw": "sesaw push press",
-    "raw_with_links": "sesaw push press - https://www.youtube.com/watch?v=N4Y5hWOwDBY",
+    "raw_with_links": "sesaw push press",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "M74",
@@ -205004,9 +204174,7 @@
     "day": "FRIDAY",
     "part": "Part D",
     "reps_raw": "max",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=N4Y5hWOwDBY"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Standing Overhead DB sesaw push presses",
@@ -205138,12 +204306,7 @@
   "candidate_slot_inferred": "Chest/Shoulders / Vertical Push",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=N4Y5hWOwDBY",
-    "source": "BASEBALL!M74"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!M38",
    "MASTER_MODEL:BASEBALL!M74",
@@ -209653,7 +208816,7 @@
    },
    {
     "raw": "Cable side raises",
-    "raw_with_links": "Cable side raises https://www.youtube.com/watch?v=lq7eLC30b9w",
+    "raw_with_links": "Cable side raises",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DL55",
@@ -209665,13 +208828,11 @@
     "slot": "shoulders",
     "part": "Part D",
     "reps_raw": "12/12",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=lq7eLC30b9w"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Cable side raises",
-    "raw_with_links": "Cable side raises https://www.youtube.com/watch?v=lq7eLC30b9w",
+    "raw_with_links": "Cable side raises",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CC57",
@@ -209683,9 +208844,7 @@
     "slot": "shoulders",
     "part": "Part D",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=lq7eLC30b9w"
-    ]
+    "video_urls": []
    },
    {
     "raw": "cable Side raises",
@@ -210272,12 +209431,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=lq7eLC30b9w",
-    "source": "BASEBALL!DL55"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!O35",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!O51",
@@ -212058,7 +211212,7 @@
    },
    {
     "raw": "Side Raises FULL ROM",
-    "raw_with_links": "Side Raises FULL ROM https://www.youtube.com/watch?v=OuG1smZTsQQ",
+    "raw_with_links": "Side Raises FULL ROM",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BB74",
@@ -212073,9 +211227,7 @@
     "cues": [
      "full ROM"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=OuG1smZTsQQ"
-    ]
+    "video_urls": []
    },
    {
     "raw": "side raises",
@@ -213186,12 +212338,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=OuG1smZTsQQ",
-    "source": "BASEBALL!BB74"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!O16",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!P35",
@@ -216965,7 +216112,7 @@
   "aliases": [
    {
     "raw": "rear delt db row",
-    "raw_with_links": "rear delt db row - https://youtu.be/hOlO2wO-6dk",
+    "raw_with_links": "rear delt db row",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BO38",
@@ -216977,13 +216124,11 @@
     "slot": "shoulders",
     "part": "Part D",
     "reps_raw": "max",
-    "video_urls": [
-     "https://youtu.be/hOlO2wO-6dk"
-    ]
+    "video_urls": []
    },
    {
     "raw": "rear delt db row",
-    "raw_with_links": "rear delt db row - https://youtu.be/hOlO2wO-6dk",
+    "raw_with_links": "rear delt db row",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AI56",
@@ -216995,9 +216140,7 @@
     "slot": "shoulders",
     "part": "Part D",
     "reps_raw": "max",
-    "video_urls": [
-     "https://youtu.be/hOlO2wO-6dk"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -217099,12 +216242,7 @@
   "candidate_slot_inferred": "Shoulders/Traps / ABdution",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/hOlO2wO-6dk",
-    "source": "BASEBALL!BO38"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AI56",
    "MASTER_MODEL:BASEBALL!BO38"
@@ -218931,7 +218069,7 @@
    },
    {
     "raw": "barbell pronted grip bicep curls",
-    "raw_with_links": "barbell pronted grip bicep curls - https://www.youtube.com/watch?v=-aPmVcgoRiY",
+    "raw_with_links": "barbell pronted grip bicep curls",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CG56",
@@ -218943,9 +218081,7 @@
     "slot": "bicep",
     "part": "Part D",
     "reps_raw": "15",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=-aPmVcgoRiY"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -219063,12 +218199,7 @@
   "candidate_slot_inferred": "Bicep / Bicep",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=-aPmVcgoRiY",
-    "source": "BASEBALL!CG56"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CG56"
   ],
@@ -224328,7 +223459,7 @@
    },
    {
     "raw": "incline bicep curls",
-    "raw_with_links": "incline bicep curls https://www.youtube.com/watch?v=aTYlqC_JacQ",
+    "raw_with_links": "incline bicep curls",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "S73",
@@ -224340,9 +223471,7 @@
     "slot": "bicep",
     "part": "Part D",
     "reps_raw": "8/8",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=aTYlqC_JacQ"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -224728,12 +223857,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=aTYlqC_JacQ",
-    "source": "BASEBALL!S73"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AK37",
    "MASTER_MODEL:BASEBALL!BG56",
@@ -225766,7 +224890,7 @@
   "aliases": [
    {
     "raw": "SA db preacher curls",
-    "raw_with_links": "SA db preacher curls https://www.youtube.com/watch?v=JFXLD7NaDEI",
+    "raw_with_links": "SA db preacher curls",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AW55",
@@ -225778,9 +224902,7 @@
     "slot": "bicep",
     "part": "Part D",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=JFXLD7NaDEI"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -225876,12 +224998,7 @@
   "candidate_slot_inferred": "Bicep / Bicep",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=JFXLD7NaDEI",
-    "source": "BASEBALL!AW55"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AW55"
   ],
@@ -227866,7 +226983,7 @@
    },
    {
     "raw": "cable tricep extension",
-    "raw_with_links": "cable tricep extension https://youtu.be/hp7ktB-sjoo",
+    "raw_with_links": "cable tricep extension",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "P39",
@@ -227877,9 +226994,7 @@
     "day": "MONDAY",
     "sets_raw": "3",
     "reps_raw": "12/10/8- 20",
-    "video_urls": [
-     "https://youtu.be/hp7ktB-sjoo"
-    ]
+    "video_urls": []
    },
    {
     "raw": "cable regular top down tricep extension",
@@ -227896,7 +227011,7 @@
    },
    {
     "raw": "cable tricep extension",
-    "raw_with_links": "cable tricep extension https://youtu.be/hp7ktB-sjoo",
+    "raw_with_links": "cable tricep extension",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "P55",
@@ -227907,9 +227022,7 @@
     "day": "THURSDAY",
     "sets_raw": "3",
     "reps_raw": "12/10/8- 20",
-    "video_urls": [
-     "https://youtu.be/hp7ktB-sjoo"
-    ]
+    "video_urls": []
    },
    {
     "raw": "cable regular top down tricep extension",
@@ -227926,7 +227039,7 @@
    },
    {
     "raw": "cable tricep extension",
-    "raw_with_links": "cable tricep extension https://youtu.be/hp7ktB-sjoo",
+    "raw_with_links": "cable tricep extension",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "R39",
@@ -227937,9 +227050,7 @@
     "day": "MONDAY",
     "sets_raw": "4",
     "reps_raw": "12/12/10-20",
-    "video_urls": [
-     "https://youtu.be/hp7ktB-sjoo"
-    ]
+    "video_urls": []
    },
    {
     "raw": "cable regular top down tricep extension",
@@ -227956,7 +227067,7 @@
    },
    {
     "raw": "cable tricep extension",
-    "raw_with_links": "cable tricep extension https://youtu.be/hp7ktB-sjoo",
+    "raw_with_links": "cable tricep extension",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "R55",
@@ -227967,9 +227078,7 @@
     "day": "THURSDAY",
     "sets_raw": "4",
     "reps_raw": "12/12/10-20",
-    "video_urls": [
-     "https://youtu.be/hp7ktB-sjoo"
-    ]
+    "video_urls": []
    },
    {
     "raw": "cable regular top down tricep extension",
@@ -227986,7 +227095,7 @@
    },
    {
     "raw": "cable tricep extension",
-    "raw_with_links": "cable tricep extension https://youtu.be/hp7ktB-sjoo",
+    "raw_with_links": "cable tricep extension",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "T39",
@@ -227997,9 +227106,7 @@
     "day": "MONDAY",
     "sets_raw": "4",
     "reps_raw": "12/12/12-20",
-    "video_urls": [
-     "https://youtu.be/hp7ktB-sjoo"
-    ]
+    "video_urls": []
    },
    {
     "raw": "cable regular top down tricep extension",
@@ -228016,7 +227123,7 @@
    },
    {
     "raw": "cable tricep extension",
-    "raw_with_links": "cable tricep extension https://youtu.be/hp7ktB-sjoo",
+    "raw_with_links": "cable tricep extension",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "T55",
@@ -228027,9 +227134,7 @@
     "day": "THURSDAY",
     "sets_raw": "4",
     "reps_raw": "12/12/12-20",
-    "video_urls": [
-     "https://youtu.be/hp7ktB-sjoo"
-    ]
+    "video_urls": []
    },
    {
     "raw": "cable regular top down tricep extension",
@@ -228046,7 +227151,7 @@
    },
    {
     "raw": "cable tricep extension",
-    "raw_with_links": "cable tricep extension https://youtu.be/hp7ktB-sjoo",
+    "raw_with_links": "cable tricep extension",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "V55",
@@ -228057,9 +227162,7 @@
     "day": "THURSDAY",
     "sets_raw": "4",
     "reps_raw": "15/12/10/8-20",
-    "video_urls": [
-     "https://youtu.be/hp7ktB-sjoo"
-    ]
+    "video_urls": []
    },
    {
     "raw": "cable regular top down tricep extension",
@@ -228618,12 +227721,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/hp7ktB-sjoo",
-    "source": "(NOT DONE) 4 TRACKS PROGRAMMING!P39"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!P39",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!P40",
@@ -229844,7 +228942,7 @@
    },
    {
     "raw": "db tricep kick backs",
-    "raw_with_links": "db tricep kick backs https://www.youtube.com/watch?v=shoqcV-yVrg",
+    "raw_with_links": "db tricep kick backs",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BB73",
@@ -229856,9 +228954,7 @@
     "slot": "tricep",
     "part": "Part D",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=shoqcV-yVrg"
-    ]
+    "video_urls": []
    },
    {
     "raw": "tricep kickbacks",
@@ -230190,12 +229286,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=shoqcV-yVrg",
-    "source": "BASEBALL!BB73"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!BB73",
    "MASTER_MODEL:BASEBALL!BS73",
@@ -231039,7 +230130,7 @@
    },
    {
     "raw": "floor db skull crushers",
-    "raw_with_links": "floor db skull crushers https://www.youtube.com/watch?v=IAHDkC6vJw4",
+    "raw_with_links": "floor db skull crushers",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "W73",
@@ -231051,9 +230142,7 @@
     "slot": "tricep",
     "part": "Part D",
     "reps_raw": "MAX",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=IAHDkC6vJw4"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Floor tricep DB skull crushers",
@@ -231386,12 +230475,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=IAHDkC6vJw4",
-    "source": "BASEBALL!W73"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AO37",
    "MASTER_MODEL:BASEBALL!BK56",
@@ -232155,7 +231239,7 @@
    },
    {
     "raw": "OH rope tricep extension",
-    "raw_with_links": "OH rope tricep extension - https://www.youtube.com/watch?v=kqidUIf1eJE",
+    "raw_with_links": "OH rope tricep extension",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "ED53",
@@ -232170,9 +231254,7 @@
     "cues": [
      "rope"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=kqidUIf1eJE"
-    ]
+    "video_urls": []
    },
    {
     "raw": "cable overhead tricep extensions",
@@ -232204,7 +231286,7 @@
    },
    {
     "raw": "OH rope tricep extension",
-    "raw_with_links": "OH rope tricep extension - https://www.youtube.com/watch?v=kqidUIf1eJE",
+    "raw_with_links": "OH rope tricep extension",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CU56",
@@ -232219,13 +231301,11 @@
     "cues": [
      "rope"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=kqidUIf1eJE"
-    ]
+    "video_urls": []
    },
    {
     "raw": "overhead cable rope tricep ext",
-    "raw_with_links": "overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE",
+    "raw_with_links": "overhead cable rope tricep ext",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "V39",
@@ -232239,13 +231319,11 @@
     "cues": [
      "rope"
     ],
-    "video_urls": [
-     "https://youtu.be/kqidUIf1eJE"
-    ]
+    "video_urls": []
    },
    {
     "raw": "overhead cable rope tricep ext",
-    "raw_with_links": "overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE",
+    "raw_with_links": "overhead cable rope tricep ext",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "W39",
@@ -232259,13 +231337,11 @@
     "cues": [
      "rope"
     ],
-    "video_urls": [
-     "https://youtu.be/kqidUIf1eJE"
-    ]
+    "video_urls": []
    },
    {
     "raw": "overhead cable rope tricep ext",
-    "raw_with_links": "overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE",
+    "raw_with_links": "overhead cable rope tricep ext",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "W55",
@@ -232279,13 +231355,11 @@
     "cues": [
      "rope"
     ],
-    "video_urls": [
-     "https://youtu.be/kqidUIf1eJE"
-    ]
+    "video_urls": []
    },
    {
     "raw": "overhead cable rope tricep ext",
-    "raw_with_links": "overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE",
+    "raw_with_links": "overhead cable rope tricep ext",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "X39",
@@ -232299,13 +231373,11 @@
     "cues": [
      "rope"
     ],
-    "video_urls": [
-     "https://youtu.be/kqidUIf1eJE"
-    ]
+    "video_urls": []
    },
    {
     "raw": "overhead cable rope tricep ext",
-    "raw_with_links": "overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE",
+    "raw_with_links": "overhead cable rope tricep ext",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "X55",
@@ -232319,13 +231391,11 @@
     "cues": [
      "rope"
     ],
-    "video_urls": [
-     "https://youtu.be/kqidUIf1eJE"
-    ]
+    "video_urls": []
    },
    {
     "raw": "overhead cable rope tricep ext",
-    "raw_with_links": "overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE",
+    "raw_with_links": "overhead cable rope tricep ext",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "Y39",
@@ -232339,13 +231409,11 @@
     "cues": [
      "rope"
     ],
-    "video_urls": [
-     "https://youtu.be/kqidUIf1eJE"
-    ]
+    "video_urls": []
    },
    {
     "raw": "overhead cable rope tricep ext",
-    "raw_with_links": "overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE",
+    "raw_with_links": "overhead cable rope tricep ext",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "Y55",
@@ -232359,13 +231427,11 @@
     "cues": [
      "rope"
     ],
-    "video_urls": [
-     "https://youtu.be/kqidUIf1eJE"
-    ]
+    "video_urls": []
    },
    {
     "raw": "overhead cable rope tricep ext",
-    "raw_with_links": "overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE",
+    "raw_with_links": "overhead cable rope tricep ext",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "Z39",
@@ -232379,13 +231445,11 @@
     "cues": [
      "rope"
     ],
-    "video_urls": [
-     "https://youtu.be/kqidUIf1eJE"
-    ]
+    "video_urls": []
    },
    {
     "raw": "overhead cable rope tricep ext",
-    "raw_with_links": "overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE",
+    "raw_with_links": "overhead cable rope tricep ext",
     "workbook": "MASTER_MODEL",
     "tab": "(NOT DONE) 4 TRACKS PROGRAMMING",
     "cell": "Z55",
@@ -232399,9 +231463,7 @@
     "cues": [
      "rope"
     ],
-    "video_urls": [
-     "https://youtu.be/kqidUIf1eJE"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -232931,16 +231993,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=kqidUIf1eJE",
-    "source": "BASEBALL!ED53"
-   },
-   {
-    "url": "https://youtu.be/kqidUIf1eJE",
-    "source": "(NOT DONE) 4 TRACKS PROGRAMMING!V39"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!V39",
    "MASTER_MODEL:(NOT DONE) 4 TRACKS PROGRAMMING!W39",
@@ -238924,7 +237977,7 @@
    },
    {
     "raw": "bycicle crunches",
-    "raw_with_links": "bycicle crunches - https://www.youtube.com/watch?v=_vWNnODwF5w",
+    "raw_with_links": "bycicle crunches",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DC49",
@@ -238937,13 +237990,11 @@
     "part": "Part B",
     "sets_raw": "4",
     "reps_raw": "20 secs",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=_vWNnODwF5w"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Bicycle crunches",
-    "raw_with_links": "Bicycle crunches https://www.youtube.com/watch?v=_vWNnODwF5w",
+    "raw_with_links": "Bicycle crunches",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "W67",
@@ -238954,9 +238005,7 @@
     "day": "TUESDAY",
     "part": "Part B",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=_vWNnODwF5w"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -239089,12 +238138,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=_vWNnODwF5w",
-    "source": "BASEBALL!DC49"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!DC49",
    "MASTER_MODEL:BASEBALL!I49",
@@ -239205,7 +238249,7 @@
    },
    {
     "raw": "butterfly situps",
-    "raw_with_links": "butterfly situps - https://www.youtube.com/watch?v=O4_u-dOYBA0",
+    "raw_with_links": "butterfly situps",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "J66",
@@ -239217,9 +238261,7 @@
     "part": "Part B",
     "sets_raw": "3",
     "reps_raw": "20",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=O4_u-dOYBA0"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -239320,12 +238362,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=O4_u-dOYBA0",
-    "source": "BASEBALL!J66"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!J30",
    "MASTER_MODEL:BASEBALL!J66"
@@ -239545,7 +238582,7 @@
    },
    {
     "raw": "cable oblique twists",
-    "raw_with_links": "cable oblique twists - https://www.youtube.com/watch?v=Gq7ToKnOC1Q",
+    "raw_with_links": "cable oblique twists",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DT48",
@@ -239558,13 +238595,11 @@
     "part": "Part B",
     "sets_raw": "4",
     "reps_raw": "12/12",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=Gq7ToKnOC1Q"
-    ]
+    "video_urls": []
    },
    {
     "raw": "cable oblique twists",
-    "raw_with_links": "cable oblique twists - https://www.youtube.com/watch?v=Gq7ToKnOC1Q",
+    "raw_with_links": "cable oblique twists",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CK49",
@@ -239577,9 +238612,7 @@
     "part": "Part B",
     "sets_raw": "4",
     "reps_raw": "12/12",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=Gq7ToKnOC1Q"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Cable rotational oblique twist",
@@ -239979,12 +239012,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=Gq7ToKnOC1Q",
-    "source": "BASEBALL!DT48"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AE30",
    "MASTER_MODEL:BASEBALL!AE66",
@@ -242704,7 +241732,7 @@
    },
    {
     "raw": "med ball rockers",
-    "raw_with_links": "med ball rockers - https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share",
+    "raw_with_links": "med ball rockers",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CU31",
@@ -242720,13 +241748,11 @@
     "cues": [
      "ambiguous (rocker type not stated)"
     ],
-    "video_urls": [
-     "https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share"
-    ]
+    "video_urls": []
    },
    {
     "raw": "med ball rockers",
-    "raw_with_links": "med ball rockers - https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share",
+    "raw_with_links": "med ball rockers",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BO49",
@@ -242742,13 +241768,11 @@
     "cues": [
      "ambiguous (rocker type not stated)"
     ],
-    "video_urls": [
-     "https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share"
-    ]
+    "video_urls": []
    },
    {
     "raw": "med ball rockers",
-    "raw_with_links": "med ball rockers - https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share",
+    "raw_with_links": "med ball rockers",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DY65",
@@ -242764,13 +241788,11 @@
     "cues": [
      "ambiguous (rocker type not stated)"
     ],
-    "video_urls": [
-     "https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share"
-    ]
+    "video_urls": []
    },
    {
     "raw": "med ball rockers",
-    "raw_with_links": "med ball rockers - https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share",
+    "raw_with_links": "med ball rockers",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CO66",
@@ -242786,9 +241808,7 @@
     "cues": [
      "ambiguous (rocker type not stated)"
     ],
-    "video_urls": [
-     "https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Med Ball Rockers",
@@ -243005,12 +242025,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share",
-    "source": "BASEBALL!CU31"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!BO49",
    "MASTER_MODEL:BASEBALL!CO66",
@@ -244067,7 +243082,7 @@
    },
    {
     "raw": "feet against wall plank",
-    "raw_with_links": "feet against wall plank - https://www.youtube.com/watch?v=wq6N_PjU5fA",
+    "raw_with_links": "feet against wall plank",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BF66",
@@ -244083,9 +243098,7 @@
     "cues": [
      "feet against wall"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=wq6N_PjU5fA"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Feet againts the wall weighted low plank",
@@ -244399,12 +243412,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=wq6N_PjU5fA",
-    "source": "BASEBALL!BF66"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AP66",
    "MASTER_MODEL:BASEBALL!BF66",
@@ -244511,7 +243519,7 @@
   "aliases": [
    {
     "raw": "PLANK DB PULL THROUGH",
-    "raw_with_links": "PLANK DB PULL THROUGH - https://www.youtube.com/watch?v=Zko5x2SoQmo",
+    "raw_with_links": "PLANK DB PULL THROUGH",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BB67",
@@ -244522,9 +243530,7 @@
     "day": "TUESDAY",
     "part": "Part B",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=Zko5x2SoQmo"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -244617,12 +243623,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=Zko5x2SoQmo",
-    "source": "BASEBALL!BB67"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!BB67"
   ],
@@ -245741,7 +244742,7 @@
    },
    {
     "raw": "Low oblique plank",
-    "raw_with_links": "Low oblique plank https://youtu.be/at9CMT91HrM",
+    "raw_with_links": "Low oblique plank",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DE31",
@@ -245757,13 +244758,11 @@
     "cues": [
      "low (elbow) oblique plank"
     ],
-    "video_urls": [
-     "https://youtu.be/at9CMT91HrM"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Low oblique plank",
-    "raw_with_links": "Low oblique plank https://youtu.be/at9CMT91HrM",
+    "raw_with_links": "Low oblique plank",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BY49",
@@ -245779,9 +244778,7 @@
     "cues": [
      "low (elbow) oblique plank"
     ],
-    "video_urls": [
-     "https://youtu.be/at9CMT91HrM"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Side planks",
@@ -246246,12 +245243,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/at9CMT91HrM",
-    "source": "BASEBALL!DE31"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!BY49",
    "MASTER_MODEL:BASEBALL!CG66",
@@ -248130,7 +247122,7 @@
    },
    {
     "raw": "plank up downs",
-    "raw_with_links": "plank up downs https://www.youtube.com/watch?v=UL0YQy4KYZg",
+    "raw_with_links": "plank up downs",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AS55",
@@ -248142,9 +247134,7 @@
     "slot": "tricep",
     "part": "Part D",
     "reps_raw": "12/12",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=UL0YQy4KYZg"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -248276,12 +247266,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=UL0YQy4KYZg",
-    "source": "BASEBALL!AS55"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AS55",
    "MASTER_MODEL:BASEBALL!BY37"
@@ -248888,7 +247873,7 @@
    },
    {
     "raw": "heavy plate russian twists",
-    "raw_with_links": "heavy plate russian twists https://www.youtube.com/watch?v=4p5jWyz-YRQ",
+    "raw_with_links": "heavy plate russian twists",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "W66",
@@ -248905,9 +247890,7 @@
      "heavy",
      "plate"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=4p5jWyz-YRQ"
-    ]
+    "video_urls": []
    },
    {
     "raw": "plate russian twists",
@@ -249337,12 +248320,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=4p5jWyz-YRQ",
-    "source": "BASEBALL!W66"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AE31",
    "MASTER_MODEL:BASEBALL!AE67",
@@ -249489,7 +248467,7 @@
    },
    {
     "raw": "weighted sit ups",
-    "raw_with_links": "weighted sit ups https://www.youtube.com/watch?v=4YOoMXPnOu4",
+    "raw_with_links": "weighted sit ups",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BF67",
@@ -249500,9 +248478,7 @@
     "day": "THURSDAY",
     "part": "Part B",
     "reps_raw": "10 reps ",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=4YOoMXPnOu4"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -249848,12 +248824,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=4YOoMXPnOu4",
-    "source": "BASEBALL!BF67"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!BF67"
   ],
@@ -250038,7 +249009,7 @@
    },
    {
     "raw": "copenhagen plank",
-    "raw_with_links": "copenhagen plank https://www.youtube.com/watch?v=aDsaGBnvDQo",
+    "raw_with_links": "copenhagen plank",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DH48",
@@ -250051,13 +249022,11 @@
     "part": "Part B",
     "sets_raw": "2",
     "reps_raw": " 1 minute straight on each side",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=aDsaGBnvDQo"
-    ]
+    "video_urls": []
    },
    {
     "raw": "copenhagen plank",
-    "raw_with_links": "copenhagen plank https://www.youtube.com/watch?v=tKb76R21AfM",
+    "raw_with_links": "copenhagen plank",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DQ65",
@@ -250070,13 +249039,11 @@
     "part": "Part B",
     "sets_raw": "3 each side",
     "reps_raw": "45 secs",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=tKb76R21AfM"
-    ]
+    "video_urls": []
    },
    {
     "raw": "copenhagen plank",
-    "raw_with_links": "copenhagen plank https://www.youtube.com/watch?v=tKb76R21AfM",
+    "raw_with_links": "copenhagen plank",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BO66",
@@ -250089,9 +249056,7 @@
     "part": "Part B",
     "sets_raw": "3",
     "reps_raw": "1 min each side",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=tKb76R21AfM"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -250388,16 +249353,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=aDsaGBnvDQo",
-    "source": "BASEBALL!DH48"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=tKb76R21AfM",
-    "source": "BASEBALL!DQ65"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AK30",
    "MASTER_MODEL:BASEBALL!BO66",
@@ -250544,7 +249500,7 @@
   "aliases": [
    {
     "raw": "Copenhagen raises",
-    "raw_with_links": "Copenhagen raises https://www.youtube.com/watch?v=0Cwk_wwL6uM",
+    "raw_with_links": "Copenhagen raises",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "S66",
@@ -250557,9 +249513,7 @@
     "part": "Part B",
     "sets_raw": "2",
     "reps_raw": "Accumulate 1 minutes on each side",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=0Cwk_wwL6uM"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -250652,12 +249606,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=0Cwk_wwL6uM",
-    "source": "BASEBALL!S66"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!S66"
   ],
@@ -250987,7 +249936,7 @@
    },
    {
     "raw": "SL hip thurts march",
-    "raw_with_links": "SL hip thurts march- https://www.youtube.com/watch?v=gyMNIOlVwYQ",
+    "raw_with_links": "SL hip thurts march",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "EH52",
@@ -251003,13 +249952,11 @@
     "cues": [
      "single-leg hip thrust march"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=gyMNIOlVwYQ"
-    ]
+    "video_urls": []
    },
    {
     "raw": "SL Glute bridge Marchs",
-    "raw_with_links": "SL Glute bridge Marchs https://www.youtube.com/watch?v=jxd0G4Ex1lQ",
+    "raw_with_links": "SL Glute bridge Marchs",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BF72",
@@ -251025,9 +249972,7 @@
     "cues": [
      "single leg"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=jxd0G4Ex1lQ"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -251164,16 +250109,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=gyMNIOlVwYQ",
-    "source": "BASEBALL!EH52"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=jxd0G4Ex1lQ",
-    "source": "BASEBALL!BF72"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!BF72",
    "MASTER_MODEL:BASEBALL!EH52"
@@ -251664,7 +250600,7 @@
    },
    {
     "raw": "Hanging lateral knees to chest",
-    "raw_with_links": "Hanging lateral knees to chest - https://youtu.be/L1rt7qr5LCk",
+    "raw_with_links": "Hanging lateral knees to chest",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BG30",
@@ -251680,13 +250616,11 @@
     "cues": [
      "lateral"
     ],
-    "video_urls": [
-     "https://youtu.be/L1rt7qr5LCk"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Hanging lateral knees to chest",
-    "raw_with_links": "Hanging lateral knees to chest - https://youtu.be/L1rt7qr5LCk",
+    "raw_with_links": "Hanging lateral knees to chest",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AA48",
@@ -251702,13 +250636,11 @@
     "cues": [
      "lateral"
     ],
-    "video_urls": [
-     "https://youtu.be/L1rt7qr5LCk"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Hanging Oblique Knee Raise to chest",
-    "raw_with_links": "Hanging Oblique Knee Raise to chest - https://www.youtube.com/watch?v=L1rt7qr5LCk",
+    "raw_with_links": "Hanging Oblique Knee Raise to chest",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CQ49",
@@ -251724,9 +250656,7 @@
     "cues": [
      "oblique"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=L1rt7qr5LCk"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Hanging knees side to side raises",
@@ -252014,16 +250944,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/L1rt7qr5LCk",
-    "source": "BASEBALL!BG30"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=L1rt7qr5LCk",
-    "source": "BASEBALL!CQ49"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AA48",
    "MASTER_MODEL:BASEBALL!BG30",
@@ -252447,7 +251368,7 @@
    },
    {
     "raw": "Hip turns",
-    "raw_with_links": "Hip turns - https://www.youtube.com/watch?v=edjXnw7Ca_g",
+    "raw_with_links": "Hip turns",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "G66",
@@ -252459,9 +251380,7 @@
     "part": "Part B",
     "sets_raw": "2",
     "reps_raw": "Accumulate 3 minutes",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=edjXnw7Ca_g"
-    ]
+    "video_urls": []
    },
    {
     "raw": "plank Hip turns",
@@ -252683,12 +251602,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=edjXnw7Ca_g",
-    "source": "BASEBALL!G66"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!BK49",
    "MASTER_MODEL:BASEBALL!CK66",
@@ -252849,7 +251763,7 @@
    },
    {
     "raw": "Weighted leg raises medball",
-    "raw_with_links": "Weighted leg raises medball - https://youtu.be/VpEcj96HO4k",
+    "raw_with_links": "Weighted leg raises medball",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BK30",
@@ -252865,13 +251779,11 @@
     "cues": [
      "medball-weighted"
     ],
-    "video_urls": [
-     "https://youtu.be/VpEcj96HO4k"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Weighted leg raises medball",
-    "raw_with_links": "Weighted leg raises medball - https://youtu.be/VpEcj96HO4k",
+    "raw_with_links": "Weighted leg raises medball",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AE48",
@@ -252887,9 +251799,7 @@
     "cues": [
      "medball-weighted"
     ],
-    "video_urls": [
-     "https://youtu.be/VpEcj96HO4k"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -253178,12 +252088,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/VpEcj96HO4k",
-    "source": "BASEBALL!BK30"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AE48",
    "MASTER_MODEL:BASEBALL!BK30"
@@ -256649,7 +255554,7 @@
    },
    {
     "raw": "windshield wipers",
-    "raw_with_links": "windshield wipers - https://www.youtube.com/watch?v=3npJSSGOpXg",
+    "raw_with_links": "windshield wipers",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "EL46",
@@ -256662,9 +255567,7 @@
     "part": "Part B",
     "sets_raw": "3",
     "reps_raw": "8/8",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=3npJSSGOpXg"
-    ]
+    "video_urls": []
    },
    {
     "raw": "WINDSHIELD WIPERS",
@@ -256698,7 +255601,7 @@
    },
    {
     "raw": "winshield wiper",
-    "raw_with_links": "winshield wiper https://www.youtube.com/watch?v=M8csHpQrq5o",
+    "raw_with_links": "winshield wiper",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BB66",
@@ -256711,9 +255614,7 @@
     "part": "Part B",
     "sets_raw": "4x",
     "reps_raw": "20/20",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=M8csHpQrq5o"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -256906,16 +255807,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=3npJSSGOpXg",
-    "source": "BASEBALL!EL46"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=M8csHpQrq5o",
-    "source": "BASEBALL!BB66"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AO30",
    "MASTER_MODEL:BASEBALL!BB66",
@@ -257025,7 +255917,7 @@
    },
    {
     "raw": "bear crawl",
-    "raw_with_links": "bear crawl - https://www.youtube.com/watch?v=Ee1BQNI6zN4",
+    "raw_with_links": "bear crawl",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DP48",
@@ -257038,9 +255930,7 @@
     "part": "Part B",
     "sets_raw": "4",
     "reps_raw": "10 yrds fwd/10 yrds back ",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=Ee1BQNI6zN4"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -257165,12 +256055,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=Ee1BQNI6zN4",
-    "source": "BASEBALL!DP48"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!DP48"
   ],
@@ -257949,7 +256834,7 @@
   "aliases": [
    {
     "raw": "cross body mountain climbers",
-    "raw_with_links": "cross body mountain climbers https://www.youtube.com/watch?v=luRruRjECm8",
+    "raw_with_links": "cross body mountain climbers",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AS48",
@@ -257962,13 +256847,11 @@
     "part": "Part B",
     "sets_raw": "4",
     "reps_raw": "15/15",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=luRruRjECm8"
-    ]
+    "video_urls": []
    },
    {
     "raw": "fast mountain climbers cross connect",
-    "raw_with_links": "fast mountain climbers cross connect https://www.youtube.com/watch?v=Ttq41I_raVU",
+    "raw_with_links": "fast mountain climbers cross connect",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DL48",
@@ -257985,9 +256868,7 @@
      "fast",
      "fast"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=Ttq41I_raVU"
-    ]
+    "video_urls": []
    },
    {
     "raw": "CROSSING MOUNTAIN CLIMBERS",
@@ -258004,7 +256885,7 @@
    },
    {
     "raw": "MOUNTAIN CLIMBERS CROSSING",
-    "raw_with_links": "MOUNTAIN CLIMBERS CROSSING  https://www.youtube.com/watch?v=luRruRjECm8",
+    "raw_with_links": "MOUNTAIN CLIMBERS CROSSING",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "EC66",
@@ -258015,13 +256896,11 @@
     "day": "FRIDAY",
     "part": "Part B",
     "reps_raw": "10/1O",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=luRruRjECm8"
-    ]
+    "video_urls": []
    },
    {
     "raw": "cross body mountain climbers",
-    "raw_with_links": "cross body mountain climbers https://www.youtube.com/watch?v=luRruRjECm8",
+    "raw_with_links": "cross body mountain climbers",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AM67",
@@ -258033,9 +256912,7 @@
     "part": "Part B",
     "sets_raw": "PART B 4X",
     "reps_raw": "15/15",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=luRruRjECm8"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -258174,16 +257051,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=luRruRjECm8",
-    "source": "BASEBALL!AS48"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=Ttq41I_raVU",
-    "source": "BASEBALL!DL48"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AM67",
    "MASTER_MODEL:BASEBALL!AS48",
@@ -258296,7 +257164,7 @@
    },
    {
     "raw": "DEad bugs",
-    "raw_with_links": "DEad bugs - https://youtu.be/rbemelnkHag",
+    "raw_with_links": "DEad bugs",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DI31",
@@ -258309,13 +257177,11 @@
     "part": "Part B",
     "sets_raw": "Accumulate",
     "reps_raw": "4 min",
-    "video_urls": [
-     "https://youtu.be/rbemelnkHag"
-    ]
+    "video_urls": []
    },
    {
     "raw": "DEad bugs",
-    "raw_with_links": "DEad bugs - https://youtu.be/rbemelnkHag",
+    "raw_with_links": "DEad bugs",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CC49",
@@ -258328,9 +257194,7 @@
     "part": "Part B",
     "sets_raw": "4",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://youtu.be/rbemelnkHag"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -258481,12 +257345,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/rbemelnkHag",
-    "source": "BASEBALL!DI31"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CC49",
    "MASTER_MODEL:BASEBALL!DI31"
@@ -258620,7 +257479,7 @@
    },
    {
     "raw": "Oblique sit plank",
-    "raw_with_links": "Oblique sit plank -https://youtu.be/bC1zR8DVVAc",
+    "raw_with_links": "Oblique sit plank",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BC30",
@@ -258633,9 +257492,7 @@
     "part": "Part B",
     "sets_raw": "2",
     "reps_raw": "Accumulate 2 minutes on each side",
-    "video_urls": [
-     "https://youtu.be/bC1zR8DVVAc"
-    ]
+    "video_urls": []
    },
    {
     "raw": "OBLIQUE SIT",
@@ -258654,7 +257511,7 @@
    },
    {
     "raw": "Oblique sit plank",
-    "raw_with_links": "Oblique sit plank -https://youtu.be/bC1zR8DVVAc",
+    "raw_with_links": "Oblique sit plank",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "W48",
@@ -258667,9 +257524,7 @@
     "part": "Part B",
     "sets_raw": "1",
     "reps_raw": "Accumulate 2 minutes on each side",
-    "video_urls": [
-     "https://youtu.be/bC1zR8DVVAc"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Obilque sit plank",
@@ -258865,12 +257720,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/bC1zR8DVVAc",
-    "source": "BASEBALL!BC30"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AX66",
    "MASTER_MODEL:BASEBALL!BC30",
@@ -259373,7 +258223,7 @@
   "aliases": [
    {
     "raw": "hallow rocks",
-    "raw_with_links": "hallow rocks - https://www.youtube.com/watch?v=6Qdh8qzxFY8",
+    "raw_with_links": "hallow rocks",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "EH46",
@@ -259386,13 +258236,11 @@
     "part": "Part B",
     "sets_raw": "2",
     "reps_raw": "40 secs",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=6Qdh8qzxFY8"
-    ]
+    "video_urls": []
    },
    {
     "raw": "hallow rocks",
-    "raw_with_links": "hallow rocks - https://www.youtube.com/watch?v=6Qdh8qzxFY8",
+    "raw_with_links": "hallow rocks",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "CY49",
@@ -259405,9 +258253,7 @@
     "part": "Part B",
     "sets_raw": "Accumulate",
     "reps_raw": "3 min",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=6Qdh8qzxFY8"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Hollow rocks",
@@ -259554,12 +258400,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=6Qdh8qzxFY8",
-    "source": "BASEBALL!EH46"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!CY49",
    "MASTER_MODEL:BASEBALL!EH46",
@@ -260301,7 +259142,7 @@
   "aliases": [
    {
     "raw": "Side planks hips lifts (slow)",
-    "raw_with_links": "Side planks hips lifts (slow) https://www.youtube.com/watch?v=LgaYt4Hi6-g",
+    "raw_with_links": "Side planks hips lifts (slow)",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AJ66",
@@ -260316,9 +259157,7 @@
     "cues": [
      "(slow)"
     ],
-    "video_urls": [
-     "https://www.youtube.com/watch?v=LgaYt4Hi6-g"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -260415,12 +259254,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=LgaYt4Hi6-g",
-    "source": "BASEBALL!AJ66"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AJ66"
   ],
@@ -260891,7 +259725,7 @@
   "aliases": [
    {
     "raw": "Single arm/leg turkish situps",
-    "raw_with_links": "Single arm/leg turkish situps - https://www.youtube.com/watch?v=mVYAWimTXlk",
+    "raw_with_links": "Single arm/leg turkish situps",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AW48",
@@ -260904,9 +259738,7 @@
     "part": "Part B",
     "sets_raw": "3",
     "reps_raw": "15/15",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=mVYAWimTXlk"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -261001,12 +259833,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=mVYAWimTXlk",
-    "source": "BASEBALL!AW48"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AW48"
   ],
@@ -261143,7 +259970,7 @@
    },
    {
     "raw": "Star plank",
-    "raw_with_links": "Star plank https://www.youtube.com/watch?v=-9toG6869YY",
+    "raw_with_links": "Star plank",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "S67",
@@ -261154,13 +259981,11 @@
     "day": "MONDAY",
     "part": "Part B",
     "reps_raw": "30 secs on each side",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=-9toG6869YY"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Star plank",
-    "raw_with_links": "Star plank https://www.youtube.com/watch?v=-9toG6869YY",
+    "raw_with_links": "Star plank",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AX67",
@@ -261171,9 +259996,7 @@
     "day": "MONDAY",
     "part": "Part B",
     "reps_raw": "30 secs on each side",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=-9toG6869YY"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -261304,12 +260127,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=-9toG6869YY",
-    "source": "BASEBALL!S67"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AO48",
    "MASTER_MODEL:BASEBALL!AX67",
@@ -261406,7 +260224,7 @@
   "aliases": [
    {
     "raw": "star supine cross connect",
-    "raw_with_links": "star supine cross connect https://www.youtube.com/watch?v=lb1bVUNx-OM",
+    "raw_with_links": "star supine cross connect",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "BA48",
@@ -261419,9 +260237,7 @@
     "part": "Part B",
     "sets_raw": "4x",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=lb1bVUNx-OM"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Star Supine Cross Connects",
@@ -261629,12 +260445,7 @@
   "candidate_slot_inferred": "Core",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=lb1bVUNx-OM",
-    "source": "BASEBALL!BA48"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!BA48",
    "MASTER_MODEL:EXAMPLE ATHLETIC FULL BODY SPLI!C25",
@@ -267591,7 +266402,7 @@
   "aliases": [
    {
     "raw": "Half kneeling shoulder roll",
-    "raw_with_links": "Half kneeling shoulder roll - https://youtu.be/B4kRyoWzi7A",
+    "raw_with_links": "Half kneeling shoulder roll",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DW31",
@@ -267604,13 +266415,11 @@
     "part": "Part B",
     "sets_raw": "3",
     "reps_raw": "8/8",
-    "video_urls": [
-     "https://youtu.be/B4kRyoWzi7A"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Half kneeling shoulder roll",
-    "raw_with_links": "Half kneeling shoulder roll - https://youtu.be/B4kRyoWzi7A",
+    "raw_with_links": "Half kneeling shoulder roll",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "EE31",
@@ -267623,9 +266432,7 @@
     "part": "Part B",
     "sets_raw": "3",
     "reps_raw": "8/8",
-    "video_urls": [
-     "https://youtu.be/B4kRyoWzi7A"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -267729,12 +266536,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/B4kRyoWzi7A",
-    "source": "BASEBALL!DW31"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!DW31",
    "MASTER_MODEL:BASEBALL!EE31"
@@ -267843,7 +266645,7 @@
   "aliases": [
    {
     "raw": "Kettlebell arm bars",
-    "raw_with_links": "Kettlebell arm bars - https://youtu.be/Z6tT500Jw7s",
+    "raw_with_links": "Kettlebell arm bars",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "DW29",
@@ -267856,13 +266658,11 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://youtu.be/Z6tT500Jw7s"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Kettlebell arm bars",
-    "raw_with_links": "Kettlebell arm bars - https://youtu.be/Z6tT500Jw7s",
+    "raw_with_links": "Kettlebell arm bars",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "EA29",
@@ -267874,13 +266674,11 @@
     "slot": "LOWER ballistics/plyo",
     "part": "Part A",
     "sets_raw": "4",
-    "video_urls": [
-     "https://youtu.be/Z6tT500Jw7s"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Kettlebell arm bars",
-    "raw_with_links": "Kettlebell arm bars - https://youtu.be/Z6tT500Jw7s",
+    "raw_with_links": "Kettlebell arm bars",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "EE29",
@@ -267893,13 +266691,11 @@
     "part": "Part A",
     "sets_raw": "3",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://youtu.be/Z6tT500Jw7s"
-    ]
+    "video_urls": []
    },
    {
     "raw": "Kettlebell arm bars",
-    "raw_with_links": "Kettlebell arm bars - https://youtu.be/Z6tT500Jw7s",
+    "raw_with_links": "Kettlebell arm bars",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "EI29",
@@ -267912,9 +266708,7 @@
     "part": "Part A",
     "sets_raw": "2",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://youtu.be/Z6tT500Jw7s"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -268038,12 +266832,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/Z6tT500Jw7s",
-    "source": "BASEBALL!DW29"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!DW29",
    "MASTER_MODEL:BASEBALL!EA29",
@@ -268154,7 +266943,7 @@
   "aliases": [
    {
     "raw": "side lying db drop & catch - like this but with a DB that drops and you catch it to bring it up",
-    "raw_with_links": "side lying db drop & catch - like this but with a DB that drops and you catch it to bring it up - https://youtu.be/af3Qy82vjRg",
+    "raw_with_links": "side lying db drop & catch - like this but with a DB that drops and you catch it to bring it up",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AK29",
@@ -268165,9 +266954,7 @@
     "day": "MONDAY",
     "part": "Part A",
     "reps_raw": "10/10",
-    "video_urls": [
-     "https://youtu.be/af3Qy82vjRg"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -268261,12 +267048,7 @@
   "candidate_slot_inferred": null,
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/af3Qy82vjRg",
-    "source": "BASEBALL!AK29"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AK29"
   ],
@@ -295138,7 +293920,7 @@
    },
    {
     "raw": "toes to bar or knees to chest",
-    "raw_with_links": "toes to bar or knees to chest - https://www.youtube.com/watch?v=xdcT0WRTPw8",
+    "raw_with_links": "toes to bar or knees to chest",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "J67",
@@ -295149,13 +293931,11 @@
     "day": "THURSDAY",
     "part": "Part B",
     "reps_raw": "10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=xdcT0WRTPw8"
-    ]
+    "video_urls": []
    },
    {
     "raw": "toes to bar or knees to chest",
-    "raw_with_links": "toes to bar or knees to chest - https://www.youtube.com/watch?v=xdcT0WRTPw8",
+    "raw_with_links": "toes to bar or knees to chest",
     "workbook": "MASTER_MODEL",
     "tab": "BASEBALL",
     "cell": "AP67",
@@ -295166,9 +293946,7 @@
     "day": "THURSDAY",
     "part": "Part B",
     "reps_raw": "10",
-    "video_urls": [
-     "https://www.youtube.com/watch?v=xdcT0WRTPw8"
-    ]
+    "video_urls": []
    }
   ],
   "taxonomy": {
@@ -295226,16 +294004,7 @@
    ],
    "observed_doses_total": 3
   },
-  "video_urls": [
-   {
-    "url": "https://www.youtube.com/watch?v=xdcT0WRTPw8",
-    "source": "BASEBALL!J67"
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=xdcT0WRTPw8",
-    "source": "BASEBALL!AP67"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [
    "MASTER_MODEL:BASEBALL!AP67",
    "MASTER_MODEL:BASEBALL!J31",
@@ -303961,12 +302730,7 @@
   "candidate_slot_inferred": "Quads / Bilateral KD",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/rSh6zBVNYRU",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!A88"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -312515,12 +311279,7 @@
   "candidate_slot_inferred": "Quads / Bilateral KD",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/CpWsUsqBtN8",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!A84"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],
@@ -312860,12 +311619,7 @@
   "candidate_slot_inferred": "Quads / Bilateral KD",
   "coach_preference": null,
   "coach_statements": [],
-  "video_urls": [
-   {
-    "url": "https://youtu.be/rctF-33G7nw",
-    "source": "(NOT DONE) RESISTANCE PATTERNS!A83"
-   }
-  ],
+  "video_urls": [],
   "observed_in_programs": [],
   "observed_in_programs_count": 0,
   "flags": [],

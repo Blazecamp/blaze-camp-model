@@ -2,7 +2,7 @@
 
 The coach calls the balance between bilateral work (both legs or both arms working together) and unilateral work (one side at a time) very important. In his model bilateral work is for driving and creating force, and unilateral work is for health and for keeping rotation. Every person sits somewhere on a scale that runs from 90 % bilateral and 10 % unilateral to the opposite, 10/90. Bodybuilders and powerlifters start near the middle and end near the bilateral side. Field athletes who change direction sit near the unilateral side, and even more in season. Inside unilateral work, the hand that holds the weight matters too: a contralateral load pulls you into the hip, and an ipsilateral load helps you out of it.
 
-> **How to read this page.** A rule with an answer id was decided by coach Lalo Vera. Ids with no prefix (`UNI-02`) are round 1, `R2-` is round 2, `R3-` is round 3. The newest round wins. **PROPOSED** means the team designed it and he has not confirmed it. **OBSERVED** means it was read from his sheets. Shares are always written bilateral / unilateral. His full answers by topic: [../03-coach-answers/bilateral-unilateral.md](../03-coach-answers/bilateral-unilateral.md).
+> **How to read this page.** A rule with an answer id was decided by coach Lalo Vera. Ids with no prefix (`UNI-02`) are round 1, `R2-` is round 2, `R3-` is round 3. The newest round wins. **PROPOSED** means the team designed it and he has not confirmed it. **OBSERVED** means it was read from his sheets. Shares are always written bilateral / unilateral. His full answers by topic: [../03-coach-answers/bilateral-unilateral.md](../03-coach-answers/bilateral-unilateral.md). **Since model v1.3** there are newer answers too: round 4 (`R4-`, `coach_answers_round4.md`) and two clarifications of 2026-10-10 (`CT-01` on session time, `CX-01..04` on progression and editing). They win on their subjects.
 
 ## The rule
 
@@ -19,7 +19,8 @@ The coach calls the balance between bilateral work (both legs or both arms worki
 | 9 | Court and combat athletes get **more side-to-side and rotational** unilateral work. Aesthetics clients get little. | UNI-12 |
 | 10 | A 10/10 set is one set. Alternating exercises count as unilateral. Unilateral volume progresses like bilateral volume. | UNI-01, UNI-07, UNI-05 |
 | 11 | Unilateral lifts use moderate to high reps by default. Heavy low reps are an option. | UNI-04 |
-| 12 | Unilateral work takes longer, and the session must account for it. | UNI-09 |
+| 12 | Unilateral work takes longer. That shows in the average time printed on a day; it changes nothing in the plan. | UNI-09, CT-01 |
+| 13 | **His templates name each slot's kind.** On an A or B day slot 2 is a two-leg lift and slot 4 a single-leg lift. The share is steered only on the slots the template leaves open. | R4-SES-05; open for him on athletic days (section 9a) |
 
 ## Why
 
@@ -174,7 +175,7 @@ Typical moves: lateral lunge, Cossack lunge, lateral step-up, rotational lunge, 
 | Reps | moderate to high by default (about 8 to 12 per side) | UNI-04 |
 | Heavy low reps on one leg | an option the athlete or coach can switch on | UNI-04; the switch is **PROPOSED** |
 | Progression | the same stairway as bilateral work | UNI-05 |
-| Time | a unilateral set takes longer; the model counts it as 1.5 times a bilateral set | Must be accounted for: UNI-09. The 1.5 is **PROPOSED**. |
+| Time | a unilateral set takes longer; the time estimate counts it as 1.5 times a bilateral set. The estimate is information only (CT-01). | UNI-09. The 1.5 is **PROPOSED**. |
 | Pain swap, bilateral to unilateral | keep the sets "Ideally, but you have to adjust accordingly" | UNI-08 |
 | Order in the session | bilateral before unilateral for the same body region | OBSERVED in 225 of 231 of his sessions |
 
@@ -206,6 +207,18 @@ He asked the team to work this out: "We got to figure that out and put that algo
 3. **Athletes.** Bilateral stations are swapped for unilateral ones of the same pattern, starting with the second lower-body day of the week, until the share matches. Off-season, at least one bilateral lift stays in the week unless pain says otherwise.
 4. **Equipment swaps.** If a swap changes a lift from bilateral to unilateral, it is counted on its true side.
 
+### 9a. The scale and his templates (round 4)
+
+**Rule.** His round-4 description of the A and B days names the kind of every lower-body slot: "Knee-dominant movement, bilateral, symmetrical (a squat)" in slot 2 and "Unilateral knee-dominant movement, like a lunge" in slot 4 on Day A; a bilateral hip-dominant lift and a unilateral hip-dominant lift on Day B (R4-SES-05). The data keeps each slot's kind in every block. The scale of this page then acts on what the template leaves open: the vertical pull, the isolation details, the jump stations, and the choice of lift inside a slot.
+
+| Case | What happens | Status |
+|---|---|---|
+| Gym A / B / C days and push / pull / legs days | a two-leg slot holds a two-leg lift, a single-leg slot a single-leg lift; the A day opens with a two-arm row | R4-SES-05; the selection weights are **PROPOSED** |
+| Athletic A / B / C days | the same slots, after the athletic block | R4-SES-05 read by the team; **open for the coach** |
+| A plan whose template holds more two-leg work than the sport's share asks for | the plan says so in one line | **PROPOSED** |
+
+**Open for the coach.** A field or court athlete should do 80 to 90 % of gym work on one leg (UNI-02). On his A / B template about half of the lower-body slots are two-leg lifts. The soccer sample plan holds about 45 % two-leg work against a target of 20 % (`samples/STATUS_v0.5.md`). The data follows the template on athletic days because round 4 is the newer answer. He has not said which wins.
+
 ### 10. Evidence
 
 - **OBSERVED.** His written programs mostly sit near 50 % bilateral. Bilateral lifts come before unilateral ones in 225 of 231 sessions.
@@ -236,13 +249,13 @@ Waiting for his yes or no:
 - The 20-point shift for pain.
 - Choosing contralateral or ipsilateral by sport only, with no hip-range screen.
 - The 3-point tolerance when adding sets, and the switch from 50/50 to 80/20 at week 5.
-- Whether COD athletes at 80-90 % unilateral still train each bilateral pattern once a week.
+- Whether COD athletes at 80-90 % unilateral still train each bilateral pattern once a week. After round 4 the bigger form of this question: whether athletic A / B days keep a two-leg lift in slot 2 on every day (section 9a).
 - The upper-body numbers.
 
 ## Related pages
 
 - [volume.md](volume.md): how sets are counted.
-- [stairway.md](stairway.md): how sets are added each week.
+- [stairway.md](stairway.md): how weekly sets climb through a block to their final number.
 - [sessions.md](sessions.md): pairing, the two spine days and session order.
 - [athletes.md](athletes.md) and [sports.md](sports.md): season phases and each sport's share.
 - [categories.md](categories.md): patterns, laterality and planes.

@@ -57,7 +57,7 @@ const SHAPE = {
     practice: { practice_days_per_week: 1, game_days: 1 } },
   activity: { ids: 1, play_days: 1, event_date: 1, league_sport: 1, style: 1, play_minutes: 1 },
   focus_muscles: 1, priority_muscles: 1, lift_style: 1,
-  schedule: { days_per_week: 1, weekdays: 1, session_minutes: 1, start_date: 1 },
+  schedule: { days_per_week: 1, weekdays: 1, session_minutes: 1 /* retired in v0.5 (R4-SES-01): accepted, ignored, warned */, start_date: 1 },
   plan: { mode: 1, maint_reason: 1, maint_weeks: 1, previous_cycles: { count: 1, last_block_finished: 1, last_had_holds_or_pain: 1 }, tests: 1, just_finished_block: 1, view: 1 },
   equipment: { profile: 1, extras: 1, machines: 1, preference: 1,
     detail: { heaviest_db_pair: 1, medball_lb_owned: 1, box_height_in: 1, running_space: 1, cardio_options: 1 } },
@@ -78,7 +78,7 @@ const LABEL = {
   'sport.season': 'intake.season.label', 'sport.practice': 'intake.practice.label', sport: 'intake.sport.label',
   activity: 'intake.activity.label', priority_muscles: 'intake.priority.label', focus_muscles: 'intake.focus.label', lift_style: 'intake.lift_style.label',
   'schedule.days_per_week': 'intake.days.label', 'schedule.weekdays': 'intake.weekdays.label',
-  'schedule.session_minutes': 'intake.minutes.label', 'schedule.start_date': 'intake.start.label', schedule: 'intake.days.label',
+  'schedule.start_date': 'intake.start.label', schedule: 'intake.days.label',
   'plan.mode': 'intake.plan_mode.label', 'plan.maint_reason': 'intake.maint_reason.label', 'plan.maint_weeks': 'intake.maint_weeks.label',
   'plan.previous_cycles': 'intake.previous_cycles.label', 'plan.tests': 'intake.tests.label', plan: 'intake.plan_mode.label',
   'equipment.profile': 'intake.equipment.label', 'equipment.extras': 'intake.extras.label', 'equipment.machines': 'intake.machines.label',
@@ -161,7 +161,7 @@ function matchWhen(when, ctx) {
 
 /**
  * Validate and normalize an intake/2 object (CONTRACTS §2.1). Defaults are filled; nothing the person chose is dropped
- * (minutes clamp, priority trim and the under-60 opt-in are applied in deriveValues and reported here as warnings).
+ * (priority trim and the under-60 opt-in are applied in deriveValues and reported here as warnings).
  * @param {object} intake
  * @param {object} model
  * @returns {{ok:boolean, errors:Issue[], warnings:Issue[], intake:object|null}}
@@ -490,13 +490,11 @@ export function validateIntake(intake, model) {
       const w = listOf('schedule.weekdays', s.weekdays, WEEKDAYS);
       weekdays = sortWeekdays(w);
     }
-    let session_minutes = null;
-    if (s.session_minutes !== undefined && s.session_minutes !== null) {
-      if (!R.session.minutes_allowed.includes(s.session_minutes)) err('enum', 'schedule.session_minutes', { value: String(s.session_minutes) });
-      else session_minutes = s.session_minutes;
-    }
+    // v0.5 (COACH-R4 R4-SES-01 'Drop it. We don't need it.'; COACH-CT CT-01): session length is not an input. An intake that still
+    // carries it is accepted and the field is ignored with a warning (like the retired check-in mode) - it changes nothing.
+    if (s.session_minutes !== undefined && s.session_minutes !== null) warn('session_minutes_retired', 'warning.session_minutes_retired', undefined, 'schedule.session_minutes');
     const start_date = dateOf('schedule.start_date', s.start_date);
-    schedule = { days_per_week, weekdays, session_minutes, start_date };
+    schedule = { days_per_week, weekdays, start_date };
   }
 
   // release (F46) - checked for this build
@@ -530,16 +528,11 @@ export function validateIntake(intake, model) {
     const sp = model.sport(prof.id);
     const family = familyOf(normalized, sp, model);
     const lvl = clientLevel(normalized, prof, sp, model);
-    if (normalized.schedule.session_minutes === null) normalized.schedule.session_minutes = defaultMinutes(normalized, prof, lvl.level, model);
     const tsel = selectTemplate(normalized, family, prof, sp, model);
     if (tsel.warning) warnings.push(tsel.warning);
     if (normalized.schedule.weekdays === null) normalized.schedule.weekdays = templateWeekdays(tsel, model);
     if (normalized.schedule.weekdays.length < normalized.schedule.days_per_week) {
       warn('v2_days', 'warning.v2_days', { days: normalized.schedule.days_per_week, weekdays: normalized.schedule.weekdays.length }, 'schedule.weekdays');
-    }
-    const minutes = normalized.schedule.session_minutes;
-    if (R.session.minutes_over_90_competitive_only && minutes > 90 && !(sport && sport.competitive === 'competitive')) {
-      warn('minutes_competitive_only', 'warning.minutes_competitive_only', { minutes, used: 90 }, 'schedule.session_minutes');
     }
   }
 
@@ -697,16 +690,22 @@ function clientLevel(i, prof, sp, model) {
   return { level, reason_keys, exercise_ladder: ladder, replace_after_block, l3 };
 }
 
-/** F24 default by population (GoalDef default_minutes*, rules.session.minutes_default) */
-function defaultMinutes(i, prof, level, model) {
-  const S = model.rules.session.minutes_default;
-  const g = model.goal(i.goal);
-  if (isNum(i.age) && i.age >= model.rules.levels.older_age) return S.older_injured;
-  if ((i.pain || []).some(p => p.severity === 'moderate')) return S.older_injured;
-  if (i.format === 'bootcamp') return S.bootcamp;
-  if (i.goal === 'athletic' && prof.competitive !== 'competitive') return g.default_minutes_noncompetitive || S.non_competitive_athletic;
-  if (level === 'L3' && g.default_minutes_L3) return g.default_minutes_L3;
-  return g.default_minutes;
+/**
+ * The session size (COACH-R4 R4-SES-02): how many exercises a session holds for this client type - not counting the warm-up or
+ * the 2 core exercises. A recommendation in a template: the user adds or removes. Older adults (60+) take their own range
+ * whatever the template; a timed circuit counts stations; a non-competitive athletic plan takes the stay-active size (PROPOSED).
+ * @returns {{type:string, range:number[], default:number, refs:string[]}}
+ */
+export function sessionSize(i, family, prof, tsel, model) {
+  const Z = model.rules.session.size;
+  const dt = tsel && tsel.template ? model.dayTypes(tsel.template, tsel.variant) : null;
+  const circuit = !!dt && Object.values(dt.day_types || {}).some(d => d.kind === 'main' && d.format === 'circuit');
+  let type = Z.by_family[family] || 'general';
+  if (circuit) type = Z.circuit_type;
+  if (family === 'athletic' && !(prof && prof.competitive === 'competitive')) type = Z.stay_active_type;
+  if (isNum(i.age) && i.age >= model.rules.population.older.from_age) type = Z.older_type;
+  const def = Z.by_type[type];
+  return { type, range: def.range.slice(), default: def.default, refs: (def.refs || Z.refs).slice() };
 }
 
 /** D6 variant choice (rules.template_select.variant_order; in_season variants are chosen per block by week.mjs) */
@@ -791,8 +790,6 @@ export function deriveValues(intake, model) {
 
   // schedule
   const competitive = D2.competitive === 'competitive';
-  let session_minutes = i.schedule.session_minutes;
-  if (R.session.minutes_over_90_competitive_only && session_minutes > 90 && !competitive) session_minutes = 90;
   const weekdays = i.schedule.weekdays.slice();
   const days_per_week = i.schedule.days_per_week;
   const play_days = i.activity ? i.activity.play_days.slice() : [];
@@ -833,6 +830,9 @@ export function deriveValues(intake, model) {
   const tsel = selectTemplate(i, D1, D2, sp, model);
   const D6 = { template_id: tsel.template.id, family: tsel.template.family, days: tsel.template.days, variant: tsel.variant, pairing: tsel.pairing, format: i.format || 'gym' };
   whys.push(why('why.template', 'VOL-08', { template: D6.template_id }));
+  // v0.5 (R4-SES-02): the session is sized by exercise count, never by minutes (CT-01)
+  D6.session_size = sessionSize(i, D1, D2, tsel, model);
+  whys.push(why('why.session_size', 'R4-SES-02', { n: D6.session_size.default }));
   if (D6.variant) whys.push(why('why.template_variant', tsel.reason === 'split_style' ? 'D-15' : 'R2-GEN-07', { variant: D6.variant }));
 
   // D7 constraint band
@@ -860,13 +860,14 @@ export function deriveValues(intake, model) {
     r3.push(R.population.active_aging_50.r3);
   }
 
-  // D12 planned step (no intake input decides it; R3-VOL-04 approved). Focus muscles never slow the other groups (R3-SES-01);
-  // the older-adult 3 % cap is retired (R3-VOL-04: every trained group on its ceiling in the last week)
-  const lim = R.stairway.limits;
-  const slowOthers = !(R.volume.focus && R.volume.focus.slow_others === false);
+  // D12 planned step (no intake input decides it; R3-VOL-04 approved): the default pattern - about 3 % a week to the halfway week,
+  // about 5 % after it. v0.5 (COACH-CX CX-01, R4-PRG-01 / 02): it is the stairway's SHAPE, not a limit - the planned final sets are
+  // reached in the last week and a week may add more when the block needs it (noted above about 15 %). No cap exists.
+  const PGR = R.stairway.progression;
   const D12 = {
     early: R.stairway.standard_steps.early, late: R.stairway.standard_steps.late,
-    caps: { nonpriority_while_priority: focus_lines.length && slowOthers ? lim.nonpriority_while_priority : null, older: older && !lim.older_cap_retired ? lim.older_60plus : null },
+    caps: { nonpriority_while_priority: null, older: null },
+    target_reached: true, note_above: PGR.note_above, arrival_weeks_early_max: PGR.arrival_weeks_early_max,
     source: 'planned_stairway'
   };
 
@@ -879,7 +880,7 @@ export function deriveValues(intake, model) {
     D7_constraint_band: D7, D8_kit: D8, D9_start_sets: null, D10_bilateral_share: D10, D11_athletic_budget: D11,
     D12_planned_step: D12, D13_tests: null, D14_aerobic_sessions: D14,
     goal: i.goal, format: i.format || 'gym', lang: i.lang, units: i.units, age, age_group, body_weight_lb,
-    days_per_week, weekdays, session_minutes, start_date: i.schedule.start_date, play_days, event_date,
+    days_per_week, weekdays, start_date: i.schedule.start_date, play_days, event_date,
     priority_muscles, priority_choices: choices.slice(), focus_lines, pain, exclusions: i.exclusions.slice(), lift_style: i.lift_style, output_mode: 'plan_only', prefs,
     previous_cycles: { ...i.plan.previous_cycles }, just_finished_block: i.plan.just_finished_block, view: i.plan.view || null,
     maint_reason: i.plan.maint_reason, maint_weeks: i.plan.maint_weeks,
@@ -910,7 +911,6 @@ export function deriveValues(intake, model) {
   if (items.length) whys.push(why('why.test_timing', 'R2-PER-07'));
 
   // V3 / V6 warnings
-  if (D1 === 'athletic' && session_minutes <= 30) warnings.push(issue('v3_short_athletes', 'schedule.session_minutes', 'warning.v3_short_athletes'));
   const preWeeks = blocks.training_blocks.filter(b => b.type === 'pre_season' || b.type === 'taper');
   if (D5.overlay === 'season' && preWeeks.length) {
     const n = preWeeks.reduce((a, b) => a + (b.weeks[1] - b.weeks[0] + 1), 0);
@@ -1035,7 +1035,15 @@ function athleticOf(i, D1, D2, D3, sp, older, prefs, play_days, model) {
     plyo_share = { start: round2(Math.max(A.share_floor, end + A.block_start_offset)), end };
   }
   const aw = sp.athletic_weekly || {};
-  const pick = (k) => (Array.isArray(aw[k]) ? aw[k].slice() : null);
+  // v0.5 fix round 1 (sample 03 major: a 3-day soccer plan printed 'holds about 53 % of your sport's weekly jump contacts' three
+  // times): the weekly athletic numbers of a profile the coach has not confirmed are written for the four training days of his
+  // athletic sheet (OBSERVED BYOP ATHLETIC - FULL BODY - 4 DAYS); a plan with fewer training days takes that share of them
+  // (rules.athletic.x1.scale_by_days). His own confirmed profiles keep their numbers.
+  const SBD = A.x1 && A.x1.scale_by_days;
+  const tdays = i.schedule && isNum(i.schedule.days_per_week) ? i.schedule.days_per_week : null;
+  const dayScale = SBD && tdays && (SBD.confidences || []).includes(sp.confidence) ? Math.min(1, Math.max(SBD.floor, tdays / SBD.reference_days)) : 1;
+  const stepOf = (k) => (SBD && SBD.step && isNum(SBD.step[k]) ? SBD.step[k] : 5);
+  const pick = (k) => (Array.isArray(aw[k]) ? aw[k].map(v => (dayScale < 1 && (SBD.keys || []).includes(k) ? Math.max(0, Math.round(v * dayScale / stepOf(k)) * stepOf(k)) : v)) : null);
   const ol = sp.olympic || {};
   const ishg = A.in_season_game_heavy;
   return {
@@ -1049,6 +1057,7 @@ function athleticOf(i, D1, D2, D3, sp, older, prefs, play_days, model) {
     olympic_exposures_wk: ol.none_by_default ? null : (isNum(ol.exposures_wk) ? ol.exposures_wk : null),
     medball_main: !!goalDef.medball_main && !!(!sp.medball || sp.medball.main_workout),
     cod_sport: !!sp.cod_sport,
+    day_scale: dayScale,
     game_heavy: !!((sp.in_season && sp.in_season.game_heavy) || (sp.sport && ishg.sports.includes(sp.sport))),
     heavy_play_week: play_days.length >= A.heavy_play_weeks.min_play_sessions
   };

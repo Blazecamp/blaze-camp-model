@@ -106,6 +106,7 @@ Each entry gives the question, the final rule as it stands today, what we assume
   - **REFINED by [R2-PER-04](progression.md#r2-per-04) (round 2).** Before: 12 weeks: 2 to 4 weeks getting used to it, 4 to 6 driving hard, the last weeks hardest. Now: A stairway whose last 4 weeks are "brutal".
   - **REFINED by [R2-PER-05](progression.md#r2-per-05) (round 2).** Before: "You might want to start at a 2 and end at an 11." Now: That is how the block feels, not a count of sets.
   - **REFINED by [R2-VOL-06](volume.md#r2-vol-06) (round 2).** Before: The second 12 weeks starts higher. Now: Approved step: the next block starts 5 % higher with the ceiling 1 set higher.
+  - **REFINED by [R4-PRG-04](progression.md#r4-prg-04) (round 4).** Before: The next block starts 5 % higher with the ceiling 1 set higher. Now: The next block starts about 5 % above where the last block started, in whole sets, never above the level's top number. At the top, sets stay and load and reps progress.
   - **REFINED by [R2-PER-01](#r2-per-01) (round 2).** Before: A first sketch of the year in quarters. Now: The year approved quarter by quarter, for the general population.
   - **REFINED by [R2-PER-06](#r2-per-06) (round 2).** Before: Maintenance of 4 to 6 weeks. Now: The person picks how many weeks and can add more.
   - **REFINED by [R2-GEN-01](progression.md#r2-gen-01) (round 2).** Before: A week-by-week plan: "Just keep me in line ... and then it does it by itself." Now: Round 2 tied the week-by-week plan to the weekly check-in, which round 3 removed.
@@ -421,6 +422,9 @@ Each entry gives the question, the final rule as it stands today, what we assume
 | [R2-PER-05](progression.md#r2-per-05) | [progression](progression.md) | Start at a 2, end at an 11. |
 | [R3-VOL-04](progression.md#r3-vol-04) | [progression](progression.md) | The stairway in numbers. |
 | [R2-VOL-06](volume.md#r2-vol-06) | [volume](volume.md) | The next block starts 5 % higher. |
+| [R4-PRG-04](progression.md#r4-prg-04) | [progression](progression.md) | The next block: about 5 % above the last block's start, never above the level's top. |
+| [R4-PRG-01](progression.md#r4-prg-01) | [progression](progression.md) | The top set number arrives in the last week, one week early at most. |
+| [R4-REL-01](product-and-generator.md#r4-rel-01) | [product-and-generator](product-and-generator.md) | Model v1.3 is released. |
 | [R2-GEN-01](progression.md#r2-gen-01) | [progression](progression.md) | The week-by-week plan needed the check-in. |
 | [PER-07](testing.md#per-07) | [testing](testing.md) | Tests are picked at the start of a block. |
 | [R2-PER-07](testing.md#r2-per-07) | [testing](testing.md) | Test before and at the end, never during. |

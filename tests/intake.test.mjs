@@ -31,10 +31,10 @@ for (const [mname, model] of MODELS) {
       }
     });
 
-    it('fills defaults: lang, units, lift style, plan mode, tests, output mode, prefs, weekdays and minutes', () => {
+    it('fills defaults: lang, units, lift style, plan mode, tests, output mode, prefs and weekdays; R4-SES-01: no session minutes', () => {
       const i = sample('06');
       for (const k of ['lang', 'units', 'lift_style', 'output_mode', 'prefs']) delete i[k];
-      delete i.schedule.weekdays; delete i.schedule.session_minutes; i.plan = {};
+      delete i.schedule.weekdays; i.plan = {};
       const r = validateIntake(i, model);
       assert.equal(r.ok, true, JSON.stringify(r.errors));
       assert.equal(r.intake.lang, 'en'); assert.equal(r.intake.units, 'lb'); assert.equal(r.intake.lift_style, 'balanced');
@@ -44,7 +44,11 @@ for (const [mname, model] of MODELS) {
       assert.deepEqual(r.intake.prefs, { core_position: 'start', optional_days: 'separate', variety_ab: false, heavy_unilateral: false,
         supersets_for_fatigue: false, cardio_adjust: 0, older_athletic_opt_in: false, split_style: 'default', superset_recommendations: 'show', racket_50_impact_opt_in: false });
       assert.deepEqual(r.intake.schedule.weekdays, ['Mon', 'Tue', 'Thu', 'Fri'], 'aesthetics.4 planned days');
-      assert.equal(r.intake.schedule.session_minutes, model.goal('muscle').default_minutes_L3, 'L3 bodybuilder default');
+      // v0.5 (COACH-R4 R4-SES-01 'Drop it. We don't need it.', COACH-CT CT-01): session length is not an input - the normalized
+      // intake carries no minutes, no default is invented, and the derived values size the session by exercise count (R4-SES-02)
+      assert.equal('session_minutes' in r.intake.schedule, false);
+      assert.deepEqual(Object.keys(r.intake.schedule), ['days_per_week', 'weekdays', 'start_date']);
+      assert.equal(r.warnings.some(w => w.key === 'warning.session_minutes_retired'), false);
       const m = sample('08', x => { x.plan = { mode: 'maintenance_4_6', maint_reason: 'planned_maintenance' }; });
       assert.equal(validateIntake(m, model).intake.plan.maint_weeks, model.rules.plan_types.maintenance_4_6.weeks_default);
     });
@@ -114,15 +118,21 @@ for (const [mname, model] of MODELS) {
       assert.equal(validateIntake(sample('06', i => { i.coach_rule_pack_ids = ['pack1']; }), model).ok, false, 'rule packs are Phase 1');
     });
 
-    it('warnings, not errors: 60+ opt-in under 60, 105 min non-competitive, > 2 priorities, split style unavailable, V2', () => {
+    it('warnings, not errors: 60+ opt-in under 60, R4-SES-01 a retired session length, > 2 priorities, split style unavailable, V2', () => {
       let r = validateIntake(sample('06', i => { i.prefs.older_athletic_opt_in = true; }), model);
       assert.equal(r.ok, true); assert.ok(r.warnings.some(w => w.code === 'older_opt_in_ignored'));
       assert.equal(deriveValues(sample('06', i => { i.prefs.older_athletic_opt_in = true; }), model).prefs.older_athletic_opt_in, false);
-      r = validateIntake(sample('06', i => { i.schedule.session_minutes = 105; }), model);
-      assert.equal(r.ok, true); assert.ok(r.warnings.some(w => w.key === 'warning.minutes_competitive_only'));
-      assert.equal(deriveValues(sample('06', i => { i.schedule.session_minutes = 105; }), model).session_minutes, 90);
-      const d2 = deriveValues(sample('02', i => { i.schedule.session_minutes = 105; }), model);
-      assert.equal(d2.session_minutes, 105, 'competitive athletes may train 105 min');
+      // v0.5 (R4-SES-01, CT-01): an intake that still carries a session length is accepted, the field is ignored with a warning and
+      // changes nothing - whatever its value (it is no longer an enum); the derived values hold no minutes
+      for (const min of [45, 105, 50, 'long']) {
+        r = validateIntake(sample('06', i => { i.schedule.session_minutes = min; }), model);
+        assert.equal(r.ok, true); assert.ok(r.warnings.some(w => w.key === 'warning.session_minutes_retired' && w.field === 'schedule.session_minutes'));
+        assert.equal('session_minutes' in r.intake.schedule, false);
+      }
+      const d1 = deriveValues(sample('06'), model), d2 = deriveValues(sample('06', i => { i.schedule.session_minutes = 105; }), model);
+      assert.equal('session_minutes' in d2, false);
+      assert.deepEqual(d2.D6_week_layout, d1.D6_week_layout, 'a retired session length changes no decision');
+      assert.deepEqual(d2.D9_start_sets, d1.D9_start_sets);
       r = validateIntake(sample('06', i => { i.priority_muscles = ['glutes', 'side_delts', 'chest']; }), model);
       assert.equal(r.ok, true); assert.ok(r.warnings.some(w => w.key === 'warning.v8_priorities'));
       // v0.4 (R3-VOL-01 / R3-VOL-03): two Focus slots; side delts map to the shoulders line and steer the pick to side and rear delts
@@ -139,7 +149,6 @@ for (const [mname, model] of MODELS) {
       assert.equal(validateIntake(sample('06', i => { i.age = 9; }), model).ok, false);
       assert.equal(validateIntake(sample('06', i => { delete i.body_weight; }), model).ok, false);
       assert.equal(validateIntake(sample('06', i => { i.schedule.days_per_week = 7; }), model).ok, false);
-      assert.equal(validateIntake(sample('06', i => { i.schedule.session_minutes = 50; }), model).ok, false);
       assert.equal(validateIntake(sample('06', i => { i.schedule.start_date = '2026-02-30'; }), model).ok, false);
       assert.equal(validateIntake(sample('08', i => { i.activity = null; }), model).ok, false, 'goal active needs an activity');
       assert.equal(validateIntake(sample('01', i => { i.sport.sport = 'quidditch'; }), model).ok, false);
@@ -253,7 +262,8 @@ for (const [mname, model] of MODELS) {
       assert.equal(a('05').enabled, false); assert.equal(a('06').enabled, false); assert.equal(a('06').medball_main, false);
       assert.deepEqual(a('08').plyo_share, { start: 0.35, end: 0.5 }); assert.equal(a('08').contacts_session_max, 80); assert.equal(a('08').heavy_play_week, true);
       // v0.4 (R3-VOL-03): a Focus muscle never slows the other lines (no 3 % cap on them); the 60+ planned-step cap is retired
-      assert.deepEqual(D['06'].D12_planned_step, { early: 0.03, late: 0.05, caps: { nonpriority_while_priority: null, older: null }, source: 'planned_stairway' });
+      // v0.5 (CX-01, R4-PRG-01 / 02): the 3 % / 5 % pattern is the stairway's shape, never a limit; the target is reached
+      assert.deepEqual(D['06'].D12_planned_step, { early: 0.03, late: 0.05, caps: { nonpriority_while_priority: null, older: null }, target_reached: true, note_above: 0.15, arrival_weeks_early_max: 1, source: 'planned_stairway' });
       assert.deepEqual(D['01'].D12_planned_step.caps, { nonpriority_while_priority: null, older: null });
     });
 
@@ -290,8 +300,24 @@ for (const [mname, model] of MODELS) {
       assert.equal(old.D11_athletic_budget.older_mode, 'default'); assert.equal(old.age_group, 'older');
       assert.equal(old.D12_planned_step.caps.older, null, 'v0.4: the 60+ planned-step cap is retired (round 3)');
       assert.ok(old.D2_profile.overlays.includes('active_aging_60plus'));
+      // v0.5 (CT-01): no 'short session' warning exists - the plan never reasons about minutes
       const short = deriveValues(sample('01', i => { i.schedule.session_minutes = 30; }), model);
-      assert.ok(short.warnings.some(w => w.key === 'warning.v3_short_athletes'));
+      assert.equal(short.warnings.some(w => w.key === 'warning.v3_short_athletes'), false);
+    });
+
+    it('R4-SES-02: the session is sized by exercise count for the client type (never by minutes)', () => {
+      const size = (n, mut) => deriveValues(sample(n, mut), model).D6_week_layout.session_size;
+      assert.deepEqual(size('06'), { type: 'aesthetics', range: [6, 8], default: 7, refs: ['R4-SES-02', 'R4-SES-05'] });   // aesthetics / bodybuilding 6-8
+      assert.deepEqual(size('07').range, [6, 8]);
+      assert.deepEqual([size('02').type, size('02').range, size('02').default], ['athletic', [6, 12], 12]);                 // field athletes off-season: up to 12
+      assert.deepEqual([size('05').type, size('05').range], ['bootcamp', [5, 7]]);                                          // bootcamp: 5-7 stations
+      assert.deepEqual([size('08').type, size('08').range], ['stay_active', [5, 10]]);                                      // PROPOSED: non-competitive athletic adult - an athlete's day (R4-SES-02 'up to 12'), fix round 1
+      assert.deepEqual(size('06', i => { i.goal = 'general'; i.priority_muscles = []; }).range, [5, 7]);                    // general fitness / fat loss 5-7
+      assert.deepEqual(size('06', i => { i.goal = 'fat_loss'; i.priority_muscles = []; }).range, [5, 7]);
+      assert.deepEqual(size('06', i => { i.goal = 'strength'; i.priority_muscles = []; }).range, [5, 6]);                   // strength 5-6
+      // older adults 60+: 5-6, whatever the template
+      for (const n of ['06', '08']) assert.deepEqual([size(n, i => { i.age = 64; }).type, size(n, i => { i.age = 64; }).range], ['older', [5, 6]]);
+      for (const z of Object.values(model.rules.session.size.by_type)) assert.ok(z.range[0] <= z.default && z.default <= z.range[1]);
     });
 
     it('D2 mapping examples from the spec (every popular US sport, swimming, pickleball, HYROX, rec leagues)', () => {

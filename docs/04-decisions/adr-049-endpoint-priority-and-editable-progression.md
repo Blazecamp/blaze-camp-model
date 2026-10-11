@@ -4,9 +4,11 @@ The generated template should reach its planned final set target, allowing faste
 
 | | |
 |---|---|
-| **Status** | Accepted coaching direction; scheduling and editing mechanics remain in development |
+| **Status** | Accepted. Completed by round 4 (R4-PRG-01 to R4-PRG-04) and built in engine 0.5.0. See [ADR-053](adr-053-progression-written-as-a-rule.md). |
 | **Decided by** | Coach, 2026-10-10: [COACH-CX CX-01..04](../../coach_answers_codex_2026-10-10.md) |
 | **Replaces** | Ending below the target solely to preserve rate limits; interpreting "never flat" as an obligatory extra set every week; interpreting output-only as uneditable |
+
+> **Update, 2026-10-11.** Round 4 answered what this record left open. The top set number arrives in the last week, one week early at most (R4-PRG-01). There is no hard limit on a weekly step; a week that adds more than about 15 % carries a note (R4-PRG-02). Rep and load progress is written as a rule the person applies (R4-PRG-03). The next block starts about 5 % above the last block's start, never above the level's top (R4-PRG-04). Time is no longer a constraint at all (CT-01), so where the text below says "time", read "the other rules". The large planner it points to was not built ([ADR-058](adr-058-engine-v05-template-first-not-the-large-planner.md)); the rules now live in the model data: `model/rules.json` → `stairway.progression`, `cycles.next_block`, `render.progression`. [ADR-053](adr-053-progression-written-as-a-rule.md) holds the full rule.
 
 ## Decision (the rule)
 

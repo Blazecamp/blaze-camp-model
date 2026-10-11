@@ -10,11 +10,11 @@ The tool takes a few answers and gives back the whole plan once, with every week
 
 ## Decision (the rule)
 
-1. A person enters the basics: goal, sport or activity, plan length, experience, days, minutes, equipment, pain.
+1. A person enters the basics: goal, sport or activity, plan length, experience, days, equipment, pain. Session length is no longer asked (R4-SES-01, [ADR-050](adr-050-no-time-fitting-sessions-sized-by-exercise-count.md)). The person accepts the terms and the release first ([ADR-056](adr-056-liability-gate-before-every-plan.md)).
 2. The tool builds the whole plan once. The coach calls this being able to "kick out a program".
 3. Every week is shown before it begins. The growth is built in (the stairway, [ADR-022](adr-022-every-plan-is-a-stairway.md)).
 4. Nothing is asked after the build. No check-in, no effort log, no readiness score.
-5. The plan is a template. The person or their coach adjusts it ([ADR-005](adr-005-editable-plan-switches-and-supersets.md)).
+5. The plan is a template. The person or their coach adjusts it, including the sets of any day or week ([ADR-005](adr-005-editable-plan-switches-and-supersets.md), CX-04). Editing is done by the person. It is not a check-in: nothing is stored and nothing adapts.
 
 A **check-in** here means a short weekly form (effort, sessions done, pain) that the tool would read to change next week.
 

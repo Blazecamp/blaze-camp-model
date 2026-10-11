@@ -40,13 +40,11 @@ for (const [fam, F] of Object.entries(m.templates.families)) for (const [d, t] o
   const allDayTypes = [['main', t.day_types], ...Object.entries(t.variants).map(([n, v]) => [n, v.day_types])];
   for (const [vname, dts] of allDayTypes) for (const [k, dt] of Object.entries(dts)) {
     if (!(dt.label_key in en)) errors.push(`missing day label ${dt.label_key}`);
-    const groupCount = {};
+    // (v0.5, COACH-R4 R4-SES-05: the 'never 1 station of a group' warning is retired - a day follows the coach's template)
     for (const st of dt.stations) {
       stCount++; usedBuckets.add(st.bucket);
       if (!m.templates.buckets[st.bucket]) errors.push(`unknown bucket ${st.bucket} in ${t.id}/${vname}/${k}`);
-      if (st.group && ['resistance', 'isolation'].includes(m.templates.buckets[st.bucket].kind) && !st.include_from_minutes) groupCount[st.group] = (groupCount[st.group] || 0) + 1;
     }
-    for (const [g, n] of Object.entries(groupCount)) if (n === 1 && !['calves', 'core'].includes(g) && !m.rules.session.exercises_per_group.exempt_families.includes(fam)) warns.push(`${t.id}/${vname}/${k}: group ${g} has 1 always-on station (R2-SES-05 needs 2-4; check include_from_minutes)`);
   }
   for (const [wd, v] of Object.entries(t.week_layout)) if (t.status === 'built' && ['main', 'optional'].includes(v.kind) && v.day_type && !(v.day_type in t.day_types)) errors.push(`${t.id}: ${wd} -> ${v.day_type} not in day_types`);
 }

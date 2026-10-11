@@ -146,54 +146,40 @@ function plannedRir(effortKey, model) {
 }
 
 /**
- * v1.2 circuit stairway (D-19 revised): work seconds per stairway week.
- * v0.4 fix round 2 / F1 (E-153; RECHECK v0.4 05 minor 'work-time steps': the lambda-scaled early steps did not match the approved
- * 3 % / 5 % steps, and forcing week N onto the top made 47-min days in a 45-min session): with `maxStep` the seconds are the
- * approved planned steps applied to the start - 3 % a week to halfway, 5 % after (COACH-R3 R3-VOL-04) - and the start is the
- * configured `work_s_start`, lowered (in fine steps) only when the product would end above `work_s_max`; week N is the
- * highest week and ends at or under the top (05, 8 weeks: 35 36 37 38 40 42 44 46 s). Rounded to the fine step, every week
- * rises by at least one step, no step passes the planned-step maximum.
- * Without `maxStep` (legacy callers) the steps are scaled by one lambda (bisection) so week N lands on the top when the product
- * overshoots.
+ * Work seconds of the timed circuits, week by week (D-19, PRG-03).
+ * The approved planned steps applied to the configured start - 3 % a week to halfway, 5 % after (COACH-R3 R3-VOL-04; E-153, the
+ * coach's 05 review 'work-time steps') - rounded to the fine step, every week one fine step or more above the week before. The
+ * start is `work_s_start`, lowered (in fine steps) only when the last week would end above `work_s_max`; the last week is the
+ * highest and ends at or under the top (8 weeks: 35 36 37 38 40 42 44 46 s).
+ * v0.5 (CT-01): the seconds no longer depend on a session length or on a per-week step limit (both retired).
  * @param {number} N stairway length @param {Object<string,number>} steps standard steps by week ('2'..'N') @param {object} CS
- *        rules.supersets.bootcamp.stairway @param {number} [maxStep] rules.stairway.limits.planned_step_max
+ *        rules.supersets.bootcamp.stairway
  * @returns {number[]} work seconds for weeks 1..N
  */
-export function circuitWorkSeconds(N, steps, CS, maxStep) {
-  const fine = CS.work_s_fine_step || 1;
-  const grow = (s0, lam) => { const out = [s0]; for (let k = 2; k <= N; k++) out.push(out[k - 2] * (1 + lam * (steps[String(k)] || 0))); return out; };
-  if (typeof maxStep === 'number') {
-    const series = (s0) => {
-      const raw = grow(s0, 1);
-      const out = [];
-      for (let i = 0; i < N; i++) {
-        let v = Math.round(raw[i] / fine) * fine;
-        if (i > 0) {
-          v = Math.max(v, out[i - 1] + fine);
-          v = Math.min(v, Math.max(out[i - 1] + fine, Math.floor(out[i - 1] * (1 + maxStep) / fine + 1e-9) * fine));
-        }
-        out.push(v);
-      }
-      return out;
-    };
-    let s0 = CS.work_s_start;
-    let out = series(s0);
-    while (out[N - 1] > CS.work_s_max + 1e-9 && s0 - fine >= fine) { s0 -= fine; out = series(s0); }
+export function circuitWorkSeconds(N, steps, CS, X2 = null) {
+  // v0.5 fix round 2 (sample 05 major: 35, 36, 37, 38, 40, 42, 44, 46 s - 'no coach sets a timer to 37 s'; PRG-03 '30-50 s';
+  // OBSERVED FAT BURN ramp 3 x 30 s, 4 x 35 s, 4 x 40 s, 5 x 50 s; CX-02 a held week progresses by load): the work time moves in
+  // 5-s steps and holds between them, reaching the top in the last week (rules.supersets.bootcamp.x2.work_s_values)
+  if (X2 && Array.isArray(X2.work_s_values) && X2.work_s_values.length) {
+    const v = X2.work_s_values;
+    const out = [];
+    for (let w = 1; w <= N; w++) out.push(v[Math.min(v.length - 1, N <= 1 ? v.length - 1 : Math.floor(((w - 1) * v.length) / N))]);
+    if (N >= v.length) out[N - 1] = v[v.length - 1];
     return out;
   }
-  let lam = 1;
-  if (grow(CS.work_s_start, 1)[N - 1] > CS.work_s_max) {
-    let lo = 0, hi = 1;
-    for (let i = 0; i < 40; i++) { const mid = (lo + hi) / 2; if (grow(CS.work_s_start, mid)[N - 1] > CS.work_s_max) hi = mid; else lo = mid; }
-    lam = lo;
-  }
-  const raw = grow(CS.work_s_start, lam);
-  const out = [];
-  for (let i = 0; i < N; i++) {
-    let v = Math.min(CS.work_s_max, Math.round(raw[i] / fine) * fine);
-    if (i > 0 && v <= out[i - 1] && out[i - 1] < CS.work_s_max) v = out[i - 1] + fine;
-    out.push(Math.min(CS.work_s_max, v));
-  }
+  const fine = CS.work_s_fine_step || 1;
+  const series = (s0) => {
+    const out = [s0];
+    let raw = s0;
+    for (let k = 2; k <= N; k++) {
+      raw *= 1 + (steps[String(k)] || 0);
+      out.push(Math.max(Math.round(raw / fine) * fine, out[k - 2] + fine));
+    }
+    return out;
+  };
+  let s0 = CS.work_s_start;
+  let out = series(s0);
+  while (out[N - 1] > CS.work_s_max + 1e-9 && s0 - fine >= fine) { s0 -= fine; out = series(s0); }
   return out;
 }
 
@@ -205,14 +191,14 @@ function isCircuitPlan(derived, model) {
   return WEEKDAYS.some(d => { const e = dt.week_layout[d]; const x = e && e.day_type && dt.day_types[e.day_type]; return !!x && e.kind === 'main' && x.format === 'circuit'; });
 }
 
-function circuitRounds(minutes, model) {
+/**
+ * Rounds of a timed circuit (PRG-03 '3 to 5 rounds'): by the client's level - 3 / 4 / 5 (rules.supersets.bootcamp.stairway
+ * .rounds_by_level, PROPOSED). v0.5: never by session minutes (COACH-CT CT-01, R4-SES-01).
+ */
+function circuitRounds(level, model) {
   const S = model.rules.supersets.bootcamp.stairway;
-  const keys = Object.keys(S.rounds_max_by_minutes).map(Number).sort((a, b) => a - b);
-  let k = keys[0];
-  for (const x of keys) if (x <= minutes) k = x;
-  let rounds = S.rounds_max_by_minutes[String(k)];
-  if (minutes <= 45) rounds = Math.min(rounds, S.rounds_start); // D-19: 3 rounds at <= 45 min
-  return rounds;
+  const by = S.rounds_by_level || {};
+  return typeof by[level] === 'number' ? by[level] : S.rounds_start;
 }
 
 /**
@@ -221,7 +207,7 @@ function circuitRounds(minutes, model) {
  * @param {object} model
  * @returns {import('./util.mjs').Shape}
  */
-export function buildShape(derived, model) {
+export function buildShape(derived, model, opts = {}) {
   const R = model.rules, PT = R.plan_types;
   const L = derived.D3_client_level.level;
   const mode = derived.D5_plan_shape.mode;
@@ -234,7 +220,7 @@ export function buildShape(derived, model) {
   const AV = R.reps.athlete_vol_phases;
   const circuit = isCircuitPlan(derived, model);
   const CS = R.supersets.bootcamp.stairway;
-  const rounds = circuit ? circuitRounds(derived.session_minutes, model) : null;
+  const rounds = circuit ? circuitRounds(L, model) : null;
   const roundTo5 = (x) => CS.work_s_step * roundHalfUp(x / CS.work_s_step);
 
   const training_blocks = [], exercise_blocks = [], weeks = [];
@@ -348,8 +334,15 @@ export function buildShape(derived, model) {
             // more than the 7 % step (R2-PER-03, UNI-05)
             // (fix round 2 / F1, E-153: the approved steps from the configured start, ending at or under the top; the week carries
             // the stairway's first and last seconds so the 'work time grows' line shows the real range)
-            const cws = circuitWorkSeconds(stair_N, st.standard_steps, CS, R.stairway.limits.planned_step_max);
-            circ = { rounds, work_s: cws[w - 1], from_s: cws[0], to_s: cws[stair_N - 1] };
+            const BX2 = R.supersets.bootcamp.x2 || null;
+            const cws = circuitWorkSeconds(stair_N, st.standard_steps, CS, BX2);
+            // (fix round 2: rounds are the second lever - one more round in the last weeks, inside his 3-5; PRG-03)
+            const RL = BX2 && BX2.rounds_late;
+            // (opts.noLateRounds: generate builds the plan again without the extra round when it would take a muscle past the
+            // absolute weekly cap - a 5-day circuit week)
+            const late = RL && !opts.noLateRounds && stair_N >= 4 && w > stair_N - RL.last_weeks ? RL.add : 0;
+            const roundsW = Math.min(R.supersets.bootcamp.rounds[1], rounds + late);
+            circ = { rounds: roundsW, work_s: cws[w - 1], from_s: cws[0], to_s: cws[stair_N - 1] };
             if (w === 1) whys.push(why('why.circuit_stairway', 'D-19', { from: cws[0], to: cws[stair_N - 1] }));
           } else {
             const lv1 = st.display_level['1'], lvN = st.display_level[String(stair_N)];

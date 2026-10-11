@@ -1,6 +1,6 @@
 # The principles: how coach Lalo Vera programs, in his own terms
 
-This page lists the 30 core principles behind the Blaze Camp model. Each one gives the rule first, then the coach's own reasoning with a short quote and the answer id, then where the rule lives in the data (file and JSON key). It is the fastest way to learn what the model believes before you read the detailed guides. Nothing here is new: every principle comes from an answer the coach gave. Numbers the team proposed and he has not confirmed are marked **PROPOSED**.
+This page lists the 30 core principles behind the Blaze Camp model. Each one gives the rule first, then the coach's own reasoning with a short quote and the answer id, then where the rule lives in the data (file and JSON key). It is the fastest way to learn what the model believes before you read the detailed guides. Nothing here is new: every principle comes from an answer the coach gave. Numbers the team proposed and he has not confirmed are marked **PROPOSED**. The page was brought up to model v1.3 on 2026-10-11: principles 5, 7, 10, 25, 28 and 29 carry his newest answers (round 4 and the two clarifications of 2026-10-10).
 
 Related pages: [how he thinks](how-he-thinks.md) (the mental model behind these rules), [lineage](lineage.md) (where the ideas come from) and [what he rejected](what-he-rejected.md) (ideas that must not come back).
 
@@ -11,13 +11,15 @@ Related pages: [how he thinks](how-he-thinks.md) (the mental model behind these 
 | "Text in double quotes" | The coach's own words, copied from the answer files. " ... " marks words left out. |
 | `CAT-01`, `VOL-07`, `ORD-05` ... | A round-1 answer, in [coach_answers_full.md](../../coach_answers_full.md). |
 | `R2-...` | A round-2 answer, in [coach_answers_round2.md](../../coach_answers_round2.md). |
-| `R3-...` | A round-3 answer (the newest), in [coach_answers_round3.md](../../coach_answers_round3.md). |
+| `R3-...` | A round-3 answer, in [coach_answers_round3.md](../../coach_answers_round3.md). |
+| `R4-...` | A round-4 answer (the newest questionnaire round, 2026-10-11), in [coach_answers_round4.md](../../coach_answers_round4.md). |
+| `CT-01`, `CX-01..04` | Two clarifications he gave in conversation on 2026-10-10: on session time ([coach_answers_time_2026-10-10.md](../../coach_answers_time_2026-10-10.md)) and on progression and editing ([coach_answers_codex_2026-10-10.md](../../coach_answers_codex_2026-10-10.md)). |
 | `COACH-CHAT` | Something he said in conversation, recorded in [coach_chat_statements.md](../../coach_chat_statements.md) and [coach_answers.md](../../coach_answers.md). These are close paraphrases unless shown in quotes there. |
 | `OBSERVED` | Read from a cell in his own sheets (`dumps/`, `raw/`). Sheet labels are shown in 'single quotes' with his spelling. |
 | **PROPOSED** | A number or mechanism from the team that he has not confirmed. The repo also uses the label INFERRED for team readings; on this page both count as not confirmed. |
-| `file > key > key` | Where the rule lives. `generator_spec_v1.json` is the machine spec. `model/rules.json` is the compiled file the plan engine reads. It is generated, so its keys can move when the engine is rebuilt; the spec key is the stable reference. |
+| `file > key > key` | Where the rule lives. `generator_spec_v1.json` is the machine spec. `model/rules.json` is the compiled file the plan engine reads. It is generated from the sources. The rules of 2026-10-10 and round 4 are cited from it; their spec keys are in [coverage_matrix_round4.md](../../coverage_matrix_round4.md). |
 
-When two answers disagree, the newer round wins: round 3, then round 2, then round 1, then chat, then his sheets.
+When two answers disagree, the newer one wins: round 4 and CT-01, then CX-01..04, then round 3, round 2, round 1, then chat, then his sheets.
 
 ## The principles at a glance
 
@@ -27,12 +29,12 @@ When two answers disagree, the newer round wins: round 3, then round 2, then rou
 | 2 | Bigger muscles and smaller muscles are handled differently | CAT-02, R3-VOL-01, R3-SES-01 |
 | 3 | Athletic, resistance and core work are different families, counted in different units | VOL-10, R2-VOL-05, CAT-08 |
 | 4 | Different people need different things | COACH-CHAT, ATH-03, ATH-09 |
-| 5 | Count hard sets per muscle group per week, and nobody trains a group with fewer than 10 | UNI-01, VOL-01, R2-VOL-06, R3-VOL-01 |
+| 5 | Count hard sets per muscle group per week, and nobody trains a group with fewer than 10 (on 2 days a week: about 6 to 8) | UNI-01, VOL-01, R2-VOL-06, R3-VOL-01, R4-SES-03 |
 | 6 | The main mover gets a full set, the helpers get a quarter | VOL-09, R2-VOL-05, LIB-16 |
-| 7 | Every plan is a stairway | R2-PER-03, R2-PER-04, R3-VOL-04, UNI-05, VOL-05 |
+| 7 | Every plan is a stairway that reaches its final sets | R2-PER-03, R2-PER-04, R3-VOL-04, UNI-05, VOL-05, CX-01, R4-PRG-01..03 |
 | 8 | Start at a 2, end at an 11 | PER-01, R2-PER-05 |
 | 9 | Add sets to the things that matter most | VOL-07, R3-VOL-03, VOL-06 |
-| 10 | Never one exercise per muscle | VOL-07, R2-SES-05, R3-SES-01 |
+| 10 | His own templates are the skeleton of every day | R4-SES-05, VOL-07, R2-SES-05, R3-SES-01 |
 | 11 | Leave reps in the tank; never go to failure on heavy compound lifts | VOL-13, GEN-08, R2-VOL-02 |
 | 12 | Small muscles take more reps, big muscles take a mix, everyone works between 5 and 30 | COACH-CHAT, VOL-11, VOL-12 |
 | 13 | Don't "confuse" the muscle | COACH-CHAT, PER-02, PER-04, R2-LIB-01 |
@@ -50,8 +52,8 @@ When two answers disagree, the newer round wins: round 3, then round 2, then rou
 | 25 | Supersets are a tool to fatigue and to save time | ORD-05, R3-SES-02 |
 | 26 | A block is completed; rest goes between blocks | R2-VOL-07, R3-PER-01, PER-01 |
 | 27 | Test before and after a block, never during it and never from zero | PER-07, R2-PER-07 |
-| 28 | Answers in, the whole plan out; the plan is a template you adjust | R3-VOL-02, R3-VOL-04, R3-SES-02 |
-| 29 | Workouts only, and nothing is kept | R2-GEN-04, GEN-02, R3-GEN-01 |
+| 28 | Answers in, the whole plan out; the plan is a template you adjust, and your time is your own | R3-VOL-02, R3-VOL-04, R3-SES-02, CX-04, CT-01, R4-SES-01, R4-SES-04 |
+| 29 | Workouts only, nothing is kept, and the release comes first | R2-GEN-04, GEN-02, R3-GEN-01, R4-SCP-02 |
 | 30 | Everything is customizable, backed by sound science, and free for anyone | R2-VOL-06, GEN-08, PER-01, R3-GEN-01 |
 
 ---
@@ -123,22 +125,23 @@ When two answers disagree, the newer round wins: round 3, then round 2, then rou
 
 ### 5. Count hard sets per muscle group per week, and nobody trains a group with fewer than 10
 
-**Rule.** Volume is counted as hard sets per muscle group per week. A hard set is a working set taken close to its limit. Starting points are about 10 to 12 for a beginner, 15 to 20 for an intermediate and 20 or more for an advanced lifter. Every group the plan trains directly gets at least 10 sets a week in a training block. Shoulders count as one group for that floor.
+**Rule.** Volume is counted as hard sets per muscle group per week. A hard set is a working set taken close to its limit. Starting points are about 10 to 12 for a beginner, 15 to 20 for an intermediate and 20 or more for an advanced lifter. With 3 or more training days, every group the plan trains directly gets at least 10 sets a week in a training block. Shoulders count as one group for that floor. With 2 training days, every big muscle is still trained, at about 6 to 8 weekly sets, and the plan suggests a third day.
 
 | Parameter | Value | Source |
 |---|---|---|
 | Start, big muscles (beginner / intermediate / advanced) | 10 / 15 / 20 sets a week | VOL-01 (ranges 10-12 / 15-20 / 20+); the single numbers are the team's pick inside his ranges |
 | Start, shoulders, biceps, triceps | 10 / 12 / 15 sets a week | R2-VOL-04, R2-VOL-06, R3-VOL-01 |
-| Floor for a trained group | 10 sets a week | R2-VOL-06, R3-VOL-01 |
-| Ceiling in one 12-week plan | 14 / 22 / 25 sets a week | R2-VOL-06 |
+| Floor for a trained group, 3 or more training days | 10 sets a week | R2-VOL-06, R3-VOL-01 |
+| Every big muscle on 2 training days | about 6 to 8 sets a week; say so and suggest a third day | R4-SES-03 |
+| Top number (ceiling) in one 12-week plan | 14 / 22 / 25 sets a week, reached in the last week | R2-VOL-06, CX-01, R4-PRG-01 |
 | Calves | one exercise, 3 sets, every leg day | VOL-17, R3-SES-01 |
 
-**Why (his reasoning).** "I like that 15 to 20 sets of any muscle group per week would be a good foundation for maintenance to a little bit of growth, and then 20 to 25 sets maybe can be a good growth foundation." and "I think doing 40 sets of chest per week might be way too much, but I think 5 might be too little." (UNI-01). "I don't think anybody needs less than 10 sets a week per muscle" (R2-VOL-06). "8 sets a week is probably just barely maintenance. Essentially, the little muscles also grow the same idea." (R2-VOL-04). "If you put together all the sets of shoulders, it'll equate to more than 10 sets" (R3-VOL-01).
+**Why (his reasoning).** "I like that 15 to 20 sets of any muscle group per week would be a good foundation for maintenance to a little bit of growth, and then 20 to 25 sets maybe can be a good growth foundation." and "I think doing 40 sets of chest per week might be way too much, but I think 5 might be too little." (UNI-01). "I don't think anybody needs less than 10 sets a week per muscle" (R2-VOL-06). "8 sets a week is probably just barely maintenance. Essentially, the little muscles also grow the same idea." (R2-VOL-04). "If you put together all the sets of shoulders, it'll equate to more than 10 sets" (R3-VOL-01). On 2 days a week: "People can add or remove or adjust accordingly. That's fine. We can maybe give them a small recommendation, but it's only a recommendation." (R4-SES-03).
 
 **In the data.**
 - `generator_spec_v1.json > rule_tables > weekly_sets > muscles`, `generator_spec_v1.json > rule_tables > weekly_sets > floors` and `generator_spec_v1.json > rule_tables > weekly_sets > landmarks_coach`
 - `synthesis/12_volume_algorithm_v1.json > starting_table`
-- `model/rules.json > volume > start`, `model/rules.json > volume > cap` and `model/rules.json > volume > floor`
+- `model/rules.json > volume > start`, `model/rules.json > volume > cap` `model/rules.json > volume > floor` (`applies_from_days: 3`) and `model/rules.json > volume > two_day`
 
 **Not confirmed (PROPOSED).** Where the floor does not apply (maintenance phases, pre-season, in-season, a group cut back for pain). He answered only the rear-delt part of that question (R3-VOL-01), so the rest is the team's reading. Two more team readings sit in this table. The same ceilings (14 / 22 / 25) are used for small muscles because he said "the little muscles also grow the same idea" (R2-VOL-04). And calves reach 10 sets a week through a fourth set and an optional-day slot; he only gave the 3 sets per leg day.
 
@@ -158,26 +161,28 @@ When two answers disagree, the newer round wins: round 3, then round 2, then rou
 
 **Guide.** [Volume](../02-model/volume.md).
 
-### 7. Every plan is a stairway
+### 7. Every plan is a stairway that reaches its final sets
 
-**Rule.** Weekly sets go up in small steps, week after week. The steps are a little smaller in the first half of the plan and a little bigger after the halfway week. The hardest weeks come last. The step is a percentage of each muscle group's weekly sets. It does not depend on muscle size. No single step is ever above 7%, and a 10% weekly jump is too much.
+**Rule.** Weekly sets go up in steps, week after week. The steps are a little smaller in the first half of the plan and a little bigger after the halfway week. The hardest weeks come last. The step is a percentage of each muscle group's weekly sets. It does not depend on muscle size. Each trained group reaches its planned final sets, and the steps get bigger when that is what it takes. A week may keep the same sets while reps or load go up. Reps and load are written as a rule the person applies, not as a promised number.
 
 | Parameter | Value | Source |
 |---|---|---|
-| Step until the halfway week | about 3% a week | R3-VOL-04 (approved) |
-| Step after the halfway week | about 5% a week | R3-VOL-04 (approved) |
-| Largest step allowed | 7% | R2-VOL-01 (the limit is kept; the check-in rows of that table are retired, R3-VOL-02) |
-| Total weekly sets | rise by less than 10% a week | UNI-05 |
-| Where each group ends | at its ceiling, in the last week | R3-VOL-04 (approved); see the PROPOSED note below for groups the 3% and 5% steps cannot take that far |
+| Usual step until the halfway week | about 3% a week | R3-VOL-04 (approved) |
+| Usual step after the halfway week | about 5% a week | R3-VOL-04 (approved) |
+| Largest step allowed | no hard limit; a week that adds more than about 15% carries a note | CX-01, R4-PRG-02 (the 7% limit of R2-VOL-01 is retired) |
+| Same sets two weeks in a row | allowed while reps or load progress, also at the top number | CX-02, CX-03 |
+| Reps and load | a rule: "When you hit 12 on every set with 1-2 reps left in the tank, add weight next time and start again at 8." | R4-PRG-03 |
+| Where each group ends | at its planned final sets, in the last week when the math allows; one week early is fine; never earlier | R3-VOL-04, CX-01, R4-PRG-01 |
+| The next block | starts about 5% above where the last one started, never above the level's top | R4-PRG-04 |
 
-**Why (his reasoning).** "No, the 8-week plan should gradually go up like steps up a stairway. That's how every program should be." and "In the beginning, the first 2, 3, 4 weeks, the steps are a little bit smaller, but they're gradually going up. When they get to that halfway point and upwards, the steps get a little bit higher, but not too much." (R2-PER-03). On size of the step: "it can progress week by week by 10%. That's way too much. It's hard to sustain a program like that for an 8-week program." (UNI-05). On what sets the step: "It doesn't really go by muscle, so this is not a big muscle thing or small muscle thing. It's just more on what's going on with the person." (VOL-05). On who does the math: "The program will just have its natural algorithm recommendation of growth throughout it" (R3-VOL-04).
+**Why (his reasoning).** "No, the 8-week plan should gradually go up like steps up a stairway. That's how every program should be." and "In the beginning, the first 2, 3, 4 weeks, the steps are a little bit smaller, but they're gradually going up. When they get to that halfway point and upwards, the steps get a little bit higher, but not too much." (R2-PER-03). On the usual size of the step: "it can progress week by week by 10%. That's way too much. It's hard to sustain a program like that for an 8-week program." (UNI-05). On reaching the planned final sets when small steps are not enough: "no, go ahead and increase faster if thats the need, they could edit accordingly" (CX-01). On what sets the step: "It doesn't really go by muscle, so this is not a big muscle thing or small muscle thing. It's just more on what's going on with the person." (VOL-05). On who does the math: "The program will just have its natural algorithm recommendation of growth throughout it" (R3-VOL-04).
 
 **In the data.**
 - `generator_spec_v1.json > rule_tables > rate_engine > principle`, `generator_spec_v1.json > rule_tables > rate_engine > standard_steps` and `generator_spec_v1.json > rule_tables > rate_engine > limits`
 - `synthesis/12_volume_algorithm_v1.json > stairway`
-- `model/rules.json > stairway > standard_steps`; locked rule `LK08` in `model/rules.json > locked`
+- `model/rules.json > stairway > standard_steps`, `model/rules.json > stairway > progression`, `model/rules.json > cycles > next_block` and `model/rules.json > render > progression`. (The compiled list of locked rules still carries `LK08`, "total weekly sets rise by less than 10%". That is a leftover: CX-01 and R4-PRG-02 retired it as a limit.)
 
-**Not confirmed (PROPOSED).** The scaling factor that shrinks the steps so a group lands exactly on its ceiling, and the reading that the ceiling is a maximum when 3% and 5% steps cannot reach it. See `generator_spec_v1.json > rule_tables > rate_engine > ceiling_reach_v1_2`.
+**Not confirmed (PROPOSED).** The scaling formula that sizes the steps so a group lands on its final sets; never flagging one single added set as a big step; and at least one whole set more in the next block.
 
 **Guide.** [Stairway](../02-model/stairway.md).
 
@@ -210,15 +215,18 @@ When two answers disagree, the newer round wins: round 3, then round 2, then rou
 
 **Guide.** [Stairway](../02-model/stairway.md), [volume](../02-model/volume.md).
 
-### 10. Never one exercise per muscle
+### 10. His own templates are the skeleton of every day
 
-**Rule.** On any day a muscle group is trained, it gets 2 to 4 exercises, never 1. Split days usually have 3 to 4. Full-body days follow the same rule, so they can run longer. Calves are the exception: one exercise, 3 sets, every leg day.
+**Rule.** The tool does not invent day layouts. Every day is built on one of his own templates, slot for slot. His "full body" day is an A day or a B day of about 6 exercises, up to 8. Day A is pull plus knee dominant: row, squat, pulldown, lunge, biceps, leg extension. Day B is push plus hip dominant: press, hinge or hip thrust, vertical or incline press, single-leg hinge, triceps, leg curl. Push / pull / legs is his other main layout. On a split day a muscle group gets 2 to 4 exercises, never 1. Calves get one exercise, 3 sets, every leg day.
 
-**Why (his reasoning).** "Usually, I have about 3 to 4 exercises per muscle group per day." (VOL-07). The team proposed 1 to 2 exercises on full-body days. He said: "No, full-body days need to have the same 2-4 exercises per muscle that day, so it might be a little longer day. It could start really short, but because you're doing more volume throughout the week, there's never one exercise, so from 2 all the way to 4" (R2-SES-05). He approved counting his focus groups for this rule (R3-SES-01).
+**Why (his reasoning).** "Usually, I have about 3 to 4 exercises per muscle group per day." (VOL-07). In round 2 he said full-body days needed the same: "there's never one exercise, so from 2 all the way to 4" (R2-SES-05). That did not fit his own session size, so round 4 asked which rule wins on a full-body day. He answered with his template: "The template is usually 6 exercises for the full-body days because we do that A-day/B-day of upper/lower" and "We don't design full bodies only with push, pull, and legs. This is the model that I believe is the greatest one." (R4-SES-05). He approved counting his focus groups (R3-SES-01).
 
 **In the data.**
 - `generator_spec_v1.json > rule_tables > session_limits > exercises_per_muscle_on_its_day`
-- `model/rules.json > session > exercises_per_group`
+- `model/rules.json > session > exercises_per_group` (`full_body_day: [1, 4]`, `split_day: [2, 4]`), `model/rules.json > session > full_body_days`
+- `model/templates.json` (day types with `skeleton`: `gym_A`, `gym_B`, `gym_C`, `ppl_push`, `ppl_pull`, `ppl_legs`, `athletic_A` ...)
+
+**Not confirmed (PROPOSED).** Keeping "2 to 4, never 1" for split days after round 4 is the team's reading (INFERRED). The order inside each A / B pair follows his round-4 answer (upper lift first); his sheet lists the leg lift first.
 
 **Guide.** [Sessions](../02-model/sessions.md).
 
@@ -432,9 +440,9 @@ Each block starts 15 points more ballistic than it ends (R2-ATH-01).
 
 ### 25. Supersets are a tool to fatigue and to save time
 
-**Rule.** A superset is two exercises done back to back. It is used when time is short, when an advanced athlete needs more stimulus, when an off-season athlete is building aerobic capacity, or when a beginner does not get tired from one exercise. The plan recommends supersets so the workout is faster.
+**Rule.** A superset is two exercises done back to back. It is used when a person wants a faster session, when an advanced athlete needs more stimulus, when an off-season athlete is building aerobic capacity, or when a beginner does not get tired from one exercise. The plan recommends supersets; the person decides. No session length switches them on.
 
-**Why (his reasoning).** "The supersetting is more like a fatiguing principle." and "It's a tool to use to fatigue the heart more and compress the time." (ORD-05). When the chosen time is too short for the plan's minimums: "Recommend doing supersets so that it's a faster workout, but they should be able to get things done." (R3-SES-02).
+**Why (his reasoning).** "The supersetting is more like a fatiguing principle." and "It's a tool to use to fatigue the heart more and compress the time." (ORD-05). "Recommend doing supersets so that it's a faster workout, but they should be able to get things done." (R3-SES-02).
 
 **In the data.**
 - `generator_spec_v1.json > rule_tables > supersets_contrast_circuits > use_cases` and `generator_spec_v1.json > rule_tables > supersets_contrast_circuits > recommendations`
@@ -475,32 +483,33 @@ Each block starts 15 points more ballistic than it ends (R2-ATH-01).
 
 ## F. The product
 
-### 28. Answers in, the whole plan out; the plan is a template you adjust
+### 28. Answers in, the whole plan out; the plan is a template you adjust, and your time is your own
 
-**Rule.** A person enters a few basics and gets the whole plan at once, with every week visible ahead of time. There are no check-ins, no tracking and nothing to report back. The plan is a template. The person or their coach adjusts it: switch off a day's athletic or core block, add or remove exercises, use the suggested supersets. When the chosen time cannot hold the minimums, the plan says so up front.
+**Rule.** A person enters a few basics and gets the whole plan at once, with every week visible ahead of time. There are no check-ins, no tracking and nothing to report back. The plan is a complete template. The person or their coach adjusts all of it: change the sets of any day or week, switch off a day's athletic or core block, add or remove exercises, use the suggested supersets. The tool does not manage anyone's time. It does not ask for a session length, it sizes a session by its number of exercises, and it prints an average time on each day as information only. Nothing is cut or dropped automatically: the person picks what to take away.
 
-**Why (his reasoning).** "I want this to be very simple." and "I don't want people to be checking back on their phone in their program. I want them to be able to kick out a program, and that's it. That's the program." and "It's already a template, and you need to adjust it as you need to." (R3-VOL-04). "We're only doing outputs, and people can change accordingly." (R3-VOL-02). "an athlete or a coach should be able to modify accordingly." (R3-SES-02). On the interface: "The fewer clicks, the better." (R2-GEN-02).
+**Why (his reasoning).** "I want this to be very simple." and "I don't want people to be checking back on their phone in their program. I want them to be able to kick out a program, and that's it. That's the program." and "It's already a template, and you need to adjust it as you need to." (R3-VOL-04). "We're only doing outputs, and people can change accordingly." (R3-VOL-02). "an athlete or a coach should be able to modify accordingly." (R3-SES-02). "It should be all editable as they need to." (CX-04). On time: "You need to stop trying to be responsible for the people's time." and "I want you to not get complicated over the time." (CT-01). On what to leave out of a long day: "That's something for the athlete to adjust." (R4-SES-04). On the interface: "The fewer clicks, the better." (R2-GEN-02).
 
 **In the data.**
 - `generator_spec_v1.json > plan_editing > principle`
 - `generator_spec_v1.json > rule_tables > rate_engine > no_feedback` and `generator_spec_v1.json > adaptation > status` (retired)
-- `generator_spec_v1.json > rule_tables > session_limits > time_vs_minimums`
+- `model/rules.json > session > size`, `model/rules.json > session > easy_to_remove` (`automatic: false`), `model/rules.json > time_model` (`use: estimate_only`)
+- `engine/edit.mjs > applyPlanEdits` (sets, add, remove, block on or off)
 - `model/rules.json > stairway > planned_only`; locked rule `LK18` in `model/rules.json > locked`
 
-**Not confirmed (PROPOSED).** How editing works on screen (block ids, notes after an edit) and the wording of the printed guide on how to adjust the plan.
+**Not confirmed (PROPOSED).** How editing works on screen (block ids, notes after an edit), the wording of the printed guide on how to adjust the plan, the list of what is "easiest to remove", and the minutes behind the time estimate.
 
-**Guide.** [How a plan is made](../00-overview/how-a-plan-is-made.md), [stairway](../02-model/stairway.md).
+**Guide.** [How a plan is made](../00-overview/how-a-plan-is-made.md), [stairway](../02-model/stairway.md), [sessions](../02-model/sessions.md).
 
-### 29. Workouts only, and nothing is kept
+### 29. Workouts only, nothing is kept, and the release comes first
 
-**Rule.** The form asks only what the plan needs. It has no sex field and no questions about sleep, stress, work or life. The tool keeps no data. Everyone ticks a "use at your own risk" release each time a plan is built. People who want to track their training do it themselves.
+**Rule.** The form asks only what the plan needs. It has no sex field, no questions about sleep, stress, work or life, and no question about session length. The tool keeps no data. Everyone may use the plans, and everyone accepts the terms and the release of liability before a plan is generated: no acceptance, no plan. Every plan prints a short line that liability was released. People who want to track their training do it themselves.
 
-**Why (his reasoning).** "No, I don't want anything to do with anything else other than just workouts. I just need the workouts here. There's no need to talk about sleep or stress or anything else." (R2-GEN-04). "I need you to take away just sex." (GEN-02). "I don't know if we should be keeping any kind of data, but I don't want any data kept." (R3-GEN-01). "I don't think that they should be tracking it from us. They should be tracking it themselves, however they want to track it, notebook or whatever" (GEN-03).
+**Why (his reasoning).** "No, I don't want anything to do with anything else other than just workouts. I just need the workouts here. There's no need to talk about sleep or stress or anything else." (R2-GEN-04). "I need you to take away just sex." (GEN-02). "I don't know if we should be keeping any kind of data, but I don't want any data kept." (R3-GEN-01). "I don't think that they should be tracking it from us. They should be tracking it themselves, however they want to track it, notebook or whatever" (GEN-03). On the release: "they need to click it before the plan shows, as part of when they put in their data" (R4-SCP-02) and "Everyone should be able to use the plan on their own, but all the plans should release liability before and after it gets kicked out." (R4-SCP-01).
 
 **In the data.**
 - `generator_spec_v1.json > inputs_schema > removed_fields`
 - `generator_spec_v1.json > legal_and_privacy > no_data_kept` and `generator_spec_v1.json > legal_and_privacy > release_every_build`
-- `model/rules.json > legal > nothing_stored`; locked rules `LK10`, `LK16` and `LK17` in `model/rules.json > locked`
+- `model/rules.json > legal > nothing_stored`, `model/rules.json > legal > gate` and `model/rules.json > legal > release_line`; locked rules `LK10`, `LK16` and `LK17` in `model/rules.json > locked`
 
 **Guide.** [Safety and liability](../00-overview/safety-and-liability.md), [DISCLAIMER.md](../../DISCLAIMER.md).
 

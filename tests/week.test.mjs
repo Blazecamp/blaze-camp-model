@@ -4,6 +4,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { fixtureModel, stubDerived, stubShape, sampleContexts } from './helpers/stub-derived.mjs';
 import { buildWeekLayout, layoutForWeek, estimateMinutes, daySlots, programIdFor } from '../engine/week.mjs';
+import { sessionSize } from '../engine/intake.mjs';
 
 const model = fixtureModel();
 const R = model.rules;
@@ -31,12 +32,16 @@ const EXPECT = {
 // aerobic sessions of the first training block: {count, colours (placement order), separate days}
 const AEROBIC = {
   '01-swimming': { n: 0 },
-  '02-football': { n: 3, separate: { Wed: 'C', Sat: 'B' }, addons: ['A'] },
+  // (v0.5 fix round 2, converted - DECISIONS G: the session that follows lifting takes the easy colour, Orange, and the hard
+  // intervals go to a day of their own - sample 02 major 'max-effort intervals after the heaviest lower day';
+  // rules.conditioning.x2.addon_easy_colour)
+  '02-football': { n: 3, separate: { Wed: 'A', Sat: 'B' }, addons: ['C'] },
   '03-soccer': { n: 4, separate: { Sat: 'C', Tue: 'B', Thu: 'A' }, addons: ['C'] },
   // v1.2 (review 04 major 7): the Green session never lands on a main day already over its minutes - it goes to the WOD day
   '04-crossfit-style-bootcamp': { n: 2, separate: { Wed: 'C', Sat: 'B' }, addons: [] },
   '05-bootcamp': { n: 3, separate: { Tue: 'C', Thu: 'B', Sat: 'A' }, addons: [] },
-  '06-full-body-aesthetics': { n: 4, separate: { Wed: 'C', Sat: 'B' }, addons: ['A', 'C'] },
+  // (v0.5 fix round 2, converted: both sessions after lifting are Orange; the hard intervals have Wednesday to themselves)
+  '06-full-body-aesthetics': { n: 4, separate: { Wed: 'A', Sat: 'B' }, addons: ['C', 'C'] },
   '07-push-pull-legs': { n: 4, separate: {}, addons: ['A', 'B', 'C', 'C'] },
   '08-pickleball-genpop': { n: 1, separate: { Fri: 'C' }, addons: [] }
 };
@@ -171,7 +176,9 @@ test('H07 (stations): at most one counted squat and one counted hinge station a 
   }
 });
 
-test('H18: full-body main days give every trained muscle group 2-4 exercises, never 1 (calves / core exempt)', () => {
+// (converted in v0.5 from 'H18: ... 2-4 exercises, never 1': the coach's A / B template gives some groups one exercise a day,
+// R4-SES-05 - rules.session.exercises_per_group.full_body_day = [1, 4])
+test('H18 / R4-SES-05: full-body main days give a trained muscle group 1-4 exercises (calves / core exempt)', () => {
   const ex = R.session.exercises_per_group;
   for (const { c, L } of allLayouts()) for (const d of mainDays(L)) {
     if (ex.exempt_families.includes(L.family) || d.format === 'circuit') continue; // a timed circuit is not a full-body day (V23)
@@ -179,83 +186,68 @@ test('H18: full-body main days give every trained muscle group 2-4 exercises, ne
     for (const s of daySlots(d)) if (s.group && RES.includes(kindOf(s))) counts[s.group] = (counts[s.group] || 0) + 1;
     for (const [g, n] of Object.entries(counts)) {
       if (ex.exempt_groups.includes(g)) continue;
-      assert.ok(n >= 2, `${c.name} ${d.weekday} ${g}: ${n}`);
+      assert.ok(n >= ex.full_body_day[0], `${c.name} ${d.weekday} ${g}: ${n}`);
       if (d.full_body) assert.ok(n <= ex.full_body_day[1], `${c.name} ${d.weekday} ${g}: ${n}`);
     }
   }
 });
 
-test('H18 robustness: every built template x 30-90 min keeps groups at >= 2 on main days (cuts never go below 2)', () => {
+// (converted in v0.5 from 'H18 robustness: every built template x 30-90 min keeps groups at >= 2 ...', 'caps: athletic days <=
+// athlete_cap 12 ... split days <= cap by minutes' and 'long days are kept ...': no session length, no cuts - R4-SES-02 sizes a
+// session by its exercise count)
+test('R4-SES-02 robustness: every built template x variant holds a main day at or under its session count; no group above 4 on a full-body day', () => {
   const base = byName('06-full-body-aesthetics');
   for (const [fam, F] of Object.entries(model.templates.families)) for (const [days, t] of Object.entries(F.days)) {
     const variants = [null, ...Object.keys(t.variants)];
-    for (const variant of variants) for (const minutes of [30, 45, 60, 75, 90]) {
+    for (const variant of variants) {
       const sel = model.templateFor(fam, Number(days), variant);
       const wl = model.dayTypes(sel.template, sel.variant).week_layout;
       const planned = Object.keys(wl).filter((wd) => wl[wd].kind === 'main' || (wl[wd].kind === 'optional' && !wl[wd].optional));
       const d = stubDerived('06-full-body-aesthetics', model, {
-        D1_family: fam, session_minutes: minutes, weekdays: planned, days_per_week: planned.length, goal: fam === 'athletic' ? 'athletic' : base.derived.goal,
-        D6_week_layout: { template_id: `${fam}.${days}`, family: fam, days: Number(days), variant, pairing: F.pairing.startsWith('same') ? 'same_pattern' : 'cross_pattern', format: 'gym' }
+        D1_family: fam, weekdays: planned, days_per_week: planned.length, goal: fam === 'athletic' ? 'athletic' : base.derived.goal,
+        D6_week_layout: { template_id: `${fam}.${days}`, family: fam, days: Number(days), variant, pairing: F.pairing.startsWith('same') ? 'same_pattern' : 'cross_pattern', format: 'gym',
+          session_size: sessionSize({ age: base.derived.age }, fam, base.derived.D2_profile, { template: sel.template, variant: sel.variant }, model) }
       });
       const L = buildWeekLayout(d, base.shape, base.shape.training_blocks[0], model);
+      const size = d.D6_week_layout.session_size;
       for (const day of mainDays(L)) {
+        const tag = `${fam}.${days}${variant ? '.' + variant : ''} ${day.weekday}`;
+        assert.ok(!('minutes_limit' in day), `${tag}: no minute limit (CT-01)`);
+        const counted = daySlots(day).filter((s) => s.counts_in_cap && !s.test);
+        assert.ok(Number.isInteger(day.exercise_count) && day.exercise_count >= size.range[0] && day.exercise_count <= size.range[1], `${tag}: count ${day.exercise_count} in ${size.range}`);
+        // (the athletic tracks size their jump / throw / sprint stations against the day's count too, R3-ATH-01)
+        assert.ok(counted.length <= day.exercise_count, `${tag}: ${counted.length} exercises > ${day.exercise_count}`);
         if (R.session.exercises_per_group.exempt_families.includes(fam) || day.format === 'circuit') continue;
         const counts = {};
         for (const s of daySlots(day)) if (s.group && RES.includes(kindOf(s))) counts[s.group] = (counts[s.group] || 0) + 1;
         for (const [g, n] of Object.entries(counts)) {
           if (R.session.exercises_per_group.exempt_groups.includes(g)) continue;
-          assert.ok(n >= 2, `${fam}.${days}${variant ? '.' + variant : ''} @${minutes} ${day.weekday} ${g}=${n}`);
+          if (day.full_body) assert.ok(n <= R.session.exercises_per_group.full_body_day[1], `${tag} ${g}=${n}`);
         }
       }
     }
   }
 });
 
-test('caps: athletic days <= athlete_cap 12 (core, warm-up, prehab, conditioning outside; small-iso superset = 1); split days <= cap by minutes', () => {
+test('R4-SES-02: the 8 samples - a main day holds at most its session count of exercises (warm-up, core, joint care, skill, conditioning outside)', () => {
   for (const { c, L } of allLayouts()) for (const d of mainDays(L)) {
-    const counted = daySlots(d).filter((s) => s.counts_in_cap);
-    if (L.family === 'athletic') {
-      const seen = new Set();
-      let n = 0;
-      for (const s of counted) {
-        const mates = s.superset ? counted.filter((x) => x.superset === s.superset) : [];
-        const smallPair = mates.length >= 2 && mates.every((x) => ['ISO_SIDE_REAR_DELT', 'ISO_BICEP', 'ISO_TRICEP', 'ISO_CALF'].includes(x.bucket));
-        if (smallPair) { if (seen.has(s.superset)) continue; seen.add(s.superset); }
-        n++;
-      }
-      // D-34 (the contract V13 applies): a day the cut order cannot bring under the cap - v1.2 keeps a competitive athlete's
-      // sport-profile tracks (sprint / COD / throws / landing) - is kept and carries warning.long_day
-      const warned = L.warnings.some((w) => w.key === 'warning.long_day' && w.args && w.args.day === d.weekday);
-      assert.ok(n <= R.session.athlete_cap || warned, `${c.name} ${d.weekday}: ${n}`);
-    }
-    if (!d.full_body) assert.ok(counted.length <= R.session.exercise_cap_by_minutes[String(d.minutes_limit)], `${c.name} ${d.weekday}`);
+    const counted = daySlots(d).filter((s) => s.counts_in_cap && !s.test);
+    const size = c.derived.D6_week_layout.session_size;
+    assert.ok(d.exercise_count <= size.range[1], `${c.name} ${d.weekday}: count ${d.exercise_count}`);
+    assert.ok(counted.length <= size.range[1], `${c.name} ${d.weekday}: ${counted.length} exercises, range ${size.range}`);
   }
 });
 
-test('long days are kept, never below 2 per group (D-34); a cap that cannot be met is warned (warning.long_day)', () => {
-  // v1.2 (review 08 blocker 1): the stay-active cut chain and the core pair bring the 2 x 45 min days back near 45 min; a day
-  // still above the warn factor says why. v0.4 (R3-SES-02): the layout is the template at its structure sets with the v1.3
-  // rest-based minutes; the volume engine's time check then fits the plan's days (asserted on the generated plan in
-  // tests/review-r3.test.mjs), so the layout bound is the structure, not the minutes
-  const L = layoutOf(byName('08-pickleball-genpop'));
-  for (const d of mainDays(L)) assert.ok(d.est_minutes <= d.minutes_limit * 1.6, `${d.weekday} ${d.est_minutes}`);
-  const long = mainDays(L).filter((d) => d.est_minutes > d.minutes_limit * R.session.long_day.warn_above_factor);
-  for (const d of long) assert.ok(d.why.some((w) => ['why.group_two_to_four', 'why.cut_time'].includes(w.key)));
-  // a split day that trains 5 groups at 60 min cannot meet the 7-exercise cap without a group of 1 -> kept + warned
-  const c = byName('06-full-body-aesthetics');
-  const d = stubDerived('06-full-body-aesthetics', model, { session_minutes: 60, priority_muscles: [],
-    D6_week_layout: { ...c.derived.D6_week_layout, variant: 'upper_lower' } });
-  const UL = buildWeekLayout(d, c.shape, c.shape.training_blocks[0], model);
-  const over = mainDays(UL).filter((x) => !x.full_body && daySlots(x).filter((s) => s.counts_in_cap).length > R.session.exercise_cap_by_minutes['60']);
-  assert.ok(over.length >= 1);
-  for (const x of over) assert.ok(UL.warnings.some((w) => w.key === 'warning.long_day' && w.args.day === x.weekday), x.weekday);
-});
-
-test('swimmer (non-COD sport) loses the COD station first on a long day (cut_order.athletic), never a group below 2', () => {
-  const L = layoutOf(byName('01-swimming'));
-  const mon = L.days.find((d) => d.weekday === 'Mon');
-  assert.ok(!daySlots(mon).some((s) => s.bucket === 'AP_COD'));
-  assert.ok(mon.why.some((w) => w.key === 'why.cut_time'));
+test('CT-01 / R4-SES-04: no layout carries a minute limit, a time warning or a time cut; the estimate is a number', () => {
+  const retired = ['warning.long_day', 'warning.time_check', 'warning.supersets_needed', 'warning.test_day_long'];
+  for (const { c, L } of allLayouts()) {
+    assert.ok(!L.warnings.some((w) => retired.includes(w.key)), `${c.name}: ${L.warnings.map((w) => w.key).join(' ')}`);
+    for (const d of L.days) {
+      assert.ok(!('minutes_limit' in d), `${c.name} ${d.weekday}`);
+      assert.ok(!d.why.some((w) => ['why.cut_time', 'why.group_two_to_four', 'why.time_fit', 'why.room_cut'].includes(w.key)), `${c.name} ${d.weekday}: ${d.why.map((w) => w.key).join(' ')}`);
+      assert.ok(typeof d.est_minutes === 'number' && d.est_minutes >= 0);
+    }
+  }
 });
 
 test('prehab: swimmer SHOULDER_SWIMMER arm care every session (R3-ATH-01, B2); 52-year-old pickleball: PREHAB_LOWER each leg day + arm care', () => {
@@ -272,11 +264,16 @@ test('prehab: swimmer SHOULDER_SWIMMER arm care every session (R3-ATH-01, B2); 5
     if (SS.each_session) { assert.equal(s.default_sets, SS.each_session_sets); assert.ok(s.why.some((w) => w.key === 'why.shoulder_care_each_session')); }
   }
   const pb = layoutOf(byName('08-pickleball-genpop'));
+  // v0.5 fix round 1 (R4-SES-02 / VOL-17 / sample 08 majors: a calf raise as joint care next to a dropped calf slot, a home leg
+  // extension as knee care on the hip day): the care lives in the template's own lift where the day holds one - the slot carries
+  // `care_code` (rules.prehab.x1.in_template_slot) - and an extra joint-care station is placed only on a day without it
+  const lowerCare = (s) => s.bucket === 'PREHAB_LOWER' || (!!s.care_code && ['ISO_CALF', 'ISO_QUAD'].includes(s.bucket));
   for (const d of mainDays(pb)) {
-    assert.ok(daySlots(d).some((s) => s.bucket === 'PREHAB_LOWER'), `PREHAB_LOWER ${d.weekday}`);
+    assert.ok(daySlots(d).some(lowerCare), `lower joint care ${d.weekday}`);
     assert.ok(daySlots(d).some((s) => s.why.some((w) => w.key === 'why.age_50_racket' || w.key === 'why.prehab')));
+    assert.ok(!(daySlots(d).some((s) => s.bucket === 'PREHAB_LOWER') && daySlots(d).some((s) => s.care_code && s.bucket === 'ISO_CALF')), `${d.weekday}: a calf slot and a calf care station`);
   }
-  assert.ok(pb.days.some((d) => daySlots(d).some((s) => s.bucket === 'RECOVERY_ARM_CARE')));
+  assert.ok(pb.days.some((d) => daySlots(d).some((s) => s.bucket === 'RECOVERY_ARM_CARE' || (!!s.care_code && s.bucket === 'ISO_SIDE_REAR_DELT'))));
   // a prehab bucket whose records are all unapproved (PREHAB_NECK: proposed only) gets no slot
   const fb = layoutOf(byName('02-football'));
   assert.ok(!fb.days.some((d) => daySlots(d).some((s) => s.bucket === 'PREHAB_NECK')));
@@ -342,7 +339,14 @@ test('layoutForWeek: recovery -> no compound supersets / buy-outs, Orange only; 
   const Lr = layoutForWeek(base, rec, c.derived, model);
   const slots = Lr.days.flatMap(daySlots);
   const small = ['ISO_SIDE_REAR_DELT', 'ISO_BICEP', 'ISO_TRICEP', 'ISO_CALF'];
-  assert.ok(base.days.flatMap(daySlots).some((s) => s.superset && !small.includes(s.bucket)));
+  // v0.5 (CT-01; R3-SES-02 'I recommend'): supersets are a recommendation the person switches on - no session length turns them on
+  assert.ok(!base.days.flatMap(daySlots).some((s) => s.superset), 'a pair is a recommendation, not on by default');
+  assert.ok(base.days.flatMap(daySlots).some((s) => s.superset_eligible && !small.includes(s.bucket)), 'the template pairs stay as recommendations');
+  const cOn = stubDerived('02-football', model, { prefs: { ...c.derived.prefs, supersets_for_fatigue: true } });
+  const on = buildWeekLayout(cOn, c.shape, c.shape.training_blocks[0], model);
+  assert.ok(on.days.flatMap(daySlots).some((s) => s.superset && !small.includes(s.bucket)), 'the preference switches the pairs on (L3)');
+  const LrOn = layoutForWeek(on, rec, cOn, model);
+  assert.ok(LrOn.days.flatMap(daySlots).filter((s) => s.superset).every((s) => small.includes(s.bucket)), 'recovery week: only small-isolation pairs stay paired');
   assert.ok(slots.filter((s) => s.superset).every((s) => small.includes(s.bucket)), 'only small-isolation pairs stay paired');
   assert.ok(!slots.some((s) => s.bucket === 'COND_SPRINT_BUYOUT'));
   assert.ok(slots.filter((s) => s.aerobic).every((s) => s.aerobic.colour === 'C'));
@@ -366,7 +370,8 @@ test('bootcamp circuit days carry the week circuit dose; estimateMinutes grows w
   const w8 = layoutForWeek(base, c.shape.weeks[7], c.derived, model);
   const d1 = w1.days.find((d) => d.weekday === 'Mon');
   const d8 = w8.days.find((d) => d.weekday === 'Mon');
-  assert.deepEqual(d1.circuit_dose, { rounds: 3, work_s: 35, transition_s: 15, between_rounds_s: 90 });
+  // (v0.5, G-09: the rounds come from the level - 3 / 4 / 5, PRG-03 - not from the session minutes; the sample is L2)
+  assert.deepEqual(d1.circuit_dose, { rounds: R.supersets.bootcamp.stairway.rounds_by_level[c.derived.D3_client_level.level], work_s: 35, transition_s: 15, between_rounds_s: 90 });
   assert.equal(d8.circuit_dose.work_s, 46); // v1.2: 35 -> 46 s by the planned steps over 8 weeks (D-19 revised)
   assert.ok(estimateMinutes(d8, null, null, model) > estimateMinutes(d1, null, null, model));
   const fb = layoutOf(byName('02-football'));

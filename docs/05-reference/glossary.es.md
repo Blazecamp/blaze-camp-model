@@ -11,7 +11,8 @@ Esta página reúne todos los términos que usa el modelo de Blaze Camp, en orde
 | "Comillas dobles" con un id de respuesta | Sus propias palabras, en inglés, como las dijo. La traducción va entre paréntesis y es nuestra. Las comillas dobles sin id son solo un nombre, un título o la forma larga de una sigla. Lo que viene de una propuesta que el coach aprobó no se presenta como sus palabras. |
 | `código` | Un id tal como aparece en los archivos de datos. Los códigos se quedan en inglés. |
 | `CAT-01`, `VOL-09` | Una respuesta de la ronda 1 ([coach_answers_full.md](../../coach_answers_full.md)). |
-| `R2-…`, `R3-…` | Una respuesta de la ronda 2 o de la ronda 3 ([ronda 2](../../coach_answers_round2.md), [ronda 3](../../coach_answers_round3.md)). Gana la ronda más nueva. |
+| `R2-…`, `R3-…`, `R4-…` | Una respuesta de la ronda 2, de la ronda 3 o de la ronda 4 ([ronda 2](../../coach_answers_round2.md), [ronda 3](../../coach_answers_round3.md), [ronda 4](../../coach_answers_round4.md)). Gana la ronda más nueva. |
+| `CT-01`, `CX-01..04` | Dos aclaraciones que dio en conversación el 2026-10-10: sobre el tiempo de la sesión ([archivo](../../coach_answers_time_2026-10-10.md)) y sobre la progresión y la edición ([archivo](../../coach_answers_codex_2026-10-10.md)). En sus temas valen lo mismo que la ronda 4. |
 | "conversación" | Algo que dijo mientras se construía el modelo ([coach_chat_statements.md](../../coach_chat_statements.md), [coach_answers.md](../../coach_answers.md)). |
 | **OBSERVED** | Leído en sus hojas. |
 | **PROPOSED** | Diseñado por el equipo. El coach no lo ha confirmado. |
@@ -30,11 +31,13 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **'ABdution'**. Su etiqueta para la casilla de elevaciones laterales, bajo 'Shoulders/Traps'. Ortografía correcta: abduction (abducción). Ahí viven las elevaciones laterales, el remo al mentón, el trabajo de deltoides posterior y los face pulls con kettlebell, y todo cuenta para el único grupo de **hombros** (LIB-16, R2-LIB-04, R3-VOL-01).
 
+**Acarreo** (carry; y trabajo de trineo). Caminatas del granjero, acarreos tipo maleta, empujes y arrastres de trineo. Se dosifican por distancia o por tiempo, no por repeticiones: 2 a 4 tramos de 20 a 40 metros, o de 20 a 40 segundos. No suman series de músculo. Van con el core y el acondicionamiento (R4-LIB-02). Son extras opcionales (R4-LIB-01).
+
 **Acondicionamiento** (conditioning). Sesiones aeróbicas, remates finales, circuitos y WODs. Va al final de la sesión, salvo el bloque aeróbico con que abre un peleador o un atleta híbrido (ORD-09). Nunca cuenta como series de músculo.
 
 **Actividad** (activity). Una de las 26 opciones de "Mantenerse atlético y activo" (pickleball, HYROX, correr, ligas recreativas y más). Cada una apunta a un perfil. Se pueden elegir hasta dos (PROPOSED). Vea [stay athletic and active](../02-model/stay-athletic-and-active.md).
 
-**Acumulado** (bank, banking). La escalera crece en porcentajes pequeños, así que el aumento de una semana suele ser menos de una serie. La fracción se guarda y se agrega una serie entera cuando el acumulado llega a 1 (VOL-06). La herramienta hace la cuenta. La persona nunca ve un porcentaje.
+**Acumulado** (bank, banking). La escalera crece en porcentajes pequeños, así que el aumento de una semana suele ser menos de una serie. El coach aprobó guardar la fracción y agregar una serie entera cuando llega a 1 (VOL-06). La herramienta hace la cuenta en series enteras. La persona nunca ve un porcentaje.
 
 **Adaptación** (acclimation; `ACCLIMATION`). Etiqueta de las primeras semanas de un plan: las semanas para acostumbrarse a los movimientos (PER-01). Es solo una etiqueta. No limita el paso semanal (el antiguo tope de 3 % está RETIRED, R2-PER-03). Qué semanas llevan la etiqueta es PROPOSED.
 
@@ -48,7 +51,7 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Alternado** (alternating). Trabaja un lado y luego el otro, repetición por repetición (press alternado con mancuernas, zancadas alternadas). Cuenta como trabajo unilateral (UNI-07).
 
-**Alternativa** (swap). Cambiar el ejercicio de una casilla por otro de la misma categoría. Siempre está permitido (GEN-04).
+**Alternativa** (swap). Cambiar el ejercicio de una casilla por otro de la misma categoría. Siempre está permitido (GEN-04). Cada alternativa dice en una línea corta qué conserva y qué pierde, por ejemplo: "DB snatch instead of power clean: keeps the explosive hip drive, loses the barbell catch" (arrancada con mancuerna en lugar de cargada de potencia: conserva el impulso explosivo de cadera, pierde la recepción con barra; R4-LIB-04).
 
 **AMRAP**. Siglas en inglés de "tantas repeticiones (o rondas) como sea posible". No es una opción por defecto. Las series de 40 repeticiones y los AMRAP aparecen solo dentro de los circuitos de estaciones de HYROX o en un entrenamiento opcional estilo CrossFit (VOL-11, R3-ATH-03).
 
@@ -85,7 +88,7 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Bloque de core** (core block, core opener). 2 ejercicios de core × 2 series, sin llegar al fallo, justo después del calentamiento. El coach quiere empezar por el core porque sirve de buen calentamiento (ATH-11). La persona puede moverlo o desactivarlo. El generador nunca lo deja fuera. Se pueden agregar superseries de core en cualquier parte (R2-SES-03).
 
-**Bootcamp**. Circuitos por tiempo: 3 a 5 rondas de 30 a 50 segundos por estación, 5 a 7 estaciones, 35 a 45 minutos en total (PRG-03).
+**Bootcamp**. Circuitos por tiempo: 3 a 5 rondas de 30 a 50 segundos por estación, 5 a 7 estaciones (PRG-03, R4-SES-02). El coach describió una clase de 35 a 45 minutos en total; es una descripción, no un límite al que se ajuste el plan (CT-01).
 
 **Bucket** (categoría de una estación). Una categoría con nombre de la que una estación de la plantilla toma ejercicios, por ejemplo `RP_BKD` (dominante de rodilla bilateral) o `ISO_CALF`. Es la misma idea que su columna CATEGORY.
 
@@ -111,7 +114,7 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Check-in**. RETIRED. Un reporte semanal de esfuerzo y dolor que cambiaba la semana siguiente. El coach lo quitó: "We're not going to have check-ins, correct? I want to take away all check-in info. We're only doing outputs, and people can change accordingly" (no habrá check-ins; quiero quitar toda la información de check-ins; solo entregamos el plan y la gente lo cambia según lo necesite; R3-VOL-02). Vea [ADR-001](../04-decisions/adr-001-answers-in-plan-out-no-check-ins.md).
 
-**Chequeo de salud** (health check). Unas pocas preguntas antes de crear el plan. Cinco respuestas detienen el plan automático y remiten a la persona a un profesional: dolor de pecho o problemas del corazón; cirugía o fractura en los últimos 6 meses; embarazo o parto en los últimos 6 meses; una lesión en tratamiento; un médico dijo que no (R2-GEN-03). El texto final lo escribirá un abogado en inglés y en español, con un enlace al PAR-Q+ oficial (R3-GEN-01). Un coach puede saltarlo con una advertencia legal.
+**Chequeo de salud** (health check). Unas pocas preguntas antes de crear el plan. Cinco respuestas detienen el plan automático y remiten a la persona a un profesional: dolor de pecho o problemas del corazón; cirugía o fractura en los últimos 6 meses; embarazo o parto en los últimos 6 meses; una lesión en tratamiento; un médico dijo que no (R2-GEN-03). El texto final lo escribirá un abogado en inglés y en español, con un enlace al PAR-Q+ oficial (R3-GEN-01). Un coach puede saltarlo con una advertencia legal. Abierto para el coach después de la ronda 4: él dijo que "Everyone should be able to use the plan on their own" (todos deberían poder usar el plan por su cuenta), con la liberación (R4-SCP-01). Si estas respuestas deben seguir deteniendo un plan es una pregunta para él. Hoy lo detienen.
 
 **Circuito** (circuit). Varias estaciones hechas una tras otra por rondas, por tiempo.
 
@@ -153,11 +156,13 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Descarga** (deload). Vea **Semana suave**. Nunca hay una descarga dentro de un bloque (R2-VOL-07).
 
+**Día A / Día B**. Sus dos días de cuerpo completo. El **Día A** es jalón + dominante de rodilla: jalón horizontal, sentadilla, jalón vertical, desplante, bíceps, extensión de pierna. El **Día B** es empuje + dominante de cadera: empuje horizontal, bisagra o hip thrust, empuje vertical o press inclinado, bisagra a una pierna, tríceps, curl de pierna. Unos 6 ejercicios cada uno, hasta 8. La semana usual es A, B, descanso, A, B. "This is the model that I believe is the greatest one" (este es el modelo que creo que es el mejor; R4-SES-05). Vea [sessions](../02-model/sessions.md).
+
 **Día de columna** (spine day; los dos días de columna). Un día con un levantamiento pesado que cuenta como carga para la columna. Un día de sentadilla pesada y un día de peso muerto pesado por semana, nunca el mismo día (R2-SES-01). Cuentan: sentadilla trasera, frontal, Zercher, con barra sobre la cabeza y en Smith; pesos muertos y RDL con barra o con barra hexagonal; buenos días (good mornings). No cuentan: prensa de piernas, sentadilla con cinturón (belt squat), empuje de cadera (hip thrust), extensión de espalda, hiperextensión inversa (reverse hyper), trabajo a una pierna con mancuernas, levantamientos olímpicos, saltos con carga (R2-SES-02). Vea [ADR-030](../04-decisions/adr-030-axial-loading-once-per-pattern.md).
 
-**Día de cuerpo completo** (full-body day). Un día que entrena tren inferior y tren superior. Cada grupo entrenado ese día recibe de todos modos de 2 a 4 ejercicios, nunca 1, así que el día puede ser un poco más largo (R2-SES-05).
+**Día de cuerpo completo** (full-body day). En su modelo: un **Día A** o un **Día B**, cada uno con trabajo de tren superior y de tren inferior, unos 6 ejercicios, hasta 8 (R4-SES-05). Él también les dice "upper/lower". En un día de cuerpo completo cada grupo recibe lo que da la plantilla, de 1 a 4 ejercicios. La regla de la ronda 2 ("de 2 a 4 ejercicios por músculo, nunca 1" también en estos días, R2-SES-05) fue reemplazada por su plantilla; se conserva para los días divididos.
 
-**Día dividido** (split day). Un día que entrena una parte del cuerpo (empuje, jalón, piernas, tren superior, tren inferior). Lo contrario: día de cuerpo completo.
+**Día dividido** (split day). Un día que entrena una parte del cuerpo (empuje, jalón, piernas). Lo contrario: día de cuerpo completo. En un día dividido cada grupo recibe de 2 a 4 ejercicios, nunca 1 (VOL-07, R2-SES-05).
 
 **Día opcional** (optional day; 'OPT'). Un día extra para Pantorrillas, Cardio, Core, Focus 1 y Focus 2. Lo ideal es un día aparte, para que no estorbe (ORD-10).
 
@@ -173,19 +178,19 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 ## E
 
-**Edición del plan** (plan editing). Lo que una persona o su coach pueden cambiar en el plan terminado: desactivar el bloque atlético o el bloque de core de un día, agregar o quitar ejercicios o bloques, cambiar un ejercicio por otro de su categoría, usar las superseries sugeridas (R3-SES-02). La mecánica es PROPOSED.
+**Edición del plan** (plan editing). Lo que una persona o su coach pueden cambiar en el plan terminado: todo. Cambiar las series de cualquier ejercicio en cualquier día o semana, desactivar el bloque atlético o el bloque de core de un día, agregar o quitar ejercicios o bloques, cambiar un ejercicio por otro de su categoría, agregar un extra opcional, usar las superseries sugeridas (R3-SES-02, CX-02, CX-04). Después de una edición se recalculan los totales y el plan queda marcado como editado. La mecánica en pantalla es PROPOSED.
 
 **Ejercicio de aterrizaje** (landing drill; "stick the landing"). Saltar o bajar de un escalón y fijar el aterrizaje. Es la etapa de "recibir" del trabajo pliométrico. Activado por defecto desde los 60 años (R3-ATH-02).
 
-**Ejercicio extra** (bonus exercise). Un ejercicio corto adicional (2 series, PROPOSED) para un músculo pequeño que ya no tiene espacio en su día normal. Va en el día opcional, o en un día que ya entrena ese músculo. Nunca es el único ejercicio de ese músculo ese día (VOL-07, R3-VOL-03).
+**Ejercicio extra** (bonus exercise). Un ejercicio corto adicional (2 a 4 series, PROPOSED) para un músculo que ya no tiene espacio en su día normal. Va en el día opcional, o en un día que ya entrena ese músculo (VOL-07, R3-VOL-03). Cuando las casillas de una plantilla no alcanzan para las series planeadas de un grupo, el plan abre un ejercicio extra para ese grupo. Si no hay día opcional, el grupo se queda en lo que la plantilla alcanza y el plan lo dice (R4-SES-04).
 
-**Elección por defecto** (default pick). El ejercicio que el plan pone en una casilla antes de que la persona lo cambie. Solo los ejercicios de la biblioteca (y los que el coach aprobó) pueden ser la elección por defecto (CAT-07). La persona siempre puede cambiarlo dentro de la misma categoría (GEN-04).
+**Elección por defecto** (default pick). El ejercicio que el plan pone en una casilla antes de que la persona lo cambie. Solo los ejercicios de la biblioteca (y los que el coach aprobó) pueden ser la elección por defecto (CAT-07). Un **extra opcional** nunca es la elección por defecto, salvo los wall balls y los empujes de trineo en HYROX (R4-LIB-01). La persona siempre puede cambiarlo dentro de la misma categoría (GEN-04).
 
 **Emparejamiento** (pairing). Qué levantamiento de tren inferior va con cuál de tren superior en una sesión mixta: dominante de cadera con un empuje, dominante de rodilla con un jalón (UNI-11, ORD-06). La parte de atrás del tren inferior va con la parte de adelante del tren superior, para que el cansancio de un músculo no se pase al otro.
 
 **En temporada** (in-season). La parte de competencia del año de un atleta: unos 2 días de gimnasio por semana, poco volumen, con el trabajo bilateral al mínimo (PER-08, UNI-10). El modelo lo deja plano, sin escalera. Esa es la lectura del equipo (INFERRED) de "I just want them to maintain their strength" (solo quiero que mantengan su fuerza; UNI-10).
 
-**Escalera** (stairway). La forma que el coach le da a todo plan. "It should be like steps up a stairway" (debe ser como subir los escalones de una escalera; R2-PER-03): pasos pequeños en las primeras semanas, un poco más grandes después de la mitad, las semanas más duras al final. En números: cerca de 3 % más series por semana hasta la semana de la mitad y cerca de 5 % después (R3-VOL-04). Vea [stairway](../02-model/stairway.md).
+**Escalera** (stairway). La forma que el coach le da a todo plan. "It should be like steps up a stairway" (debe ser como subir los escalones de una escalera; R2-PER-03): pasos pequeños en las primeras semanas, un poco más grandes después de la mitad, las semanas más duras al final. En números: por lo general cerca de 3 % más series por semana hasta la semana de la mitad y cerca de 5 % después (R3-VOL-04). Cada grupo entrenado llega a sus series finales en la última semana, con pasos más grandes cuando hace falta (CX-01, R4-PRG-01). Una semana puede mantener sus series mientras suben las repeticiones o el peso (CX-02). Vea [stairway](../02-model/stairway.md).
 
 **Esfuerzo** (effort). Qué tan dura es una serie. El modelo lo escribe en repeticiones en reserva, con el número de RPE al lado. Vea **RIR**.
 
@@ -197,11 +202,15 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Etiqueta** (tag). Una marca corta en un registro del catálogo que una regla puede leer, por ejemplo `overhead_squat`, `kb_swing`, `split_grip`. La lista es cerrada y la pone el compilador.
 
+**Etiqueta de confianza** (confidence label). La etiqueta de cada perfil de deporte que dice qué tan firmes son sus números: `confirmed_by_coach` (confirmado por el coach), `similar_sport` (basado en un deporte parecido) o `proposed` (propuesto). Solo en los datos y en la documentación, nunca en un plan (R4-SCP-03). Vea [sports](../02-model/sports.md) §5.1.
+
 **Etiqueta de evidencia** (evidence label). La marca de cada regla que dice de dónde salió: el id de una respuesta del coach, OBSERVED, SCIENCE, INFERRED, PROPOSED, RETIRED, DORMANT. Vea [ADR-047](../04-decisions/adr-047-authority-order-and-evidence-labels.md).
 
 **Exposición** (exposure). Una vez en la semana en que se entrena un patrón o un levantamiento. La segunda exposición de una casilla en la semana usa un ejercicio distinto de la misma categoría (PER-04).
 
 **Extensión triple** (triple extension; 'TRIPPLE EXTENSION'). Extender tobillos, rodillas y caderas a la vez. Es el encabezado de su biblioteca para los levantamientos olímpicos y los saltos con carga. Código de patrón `TX`, bucket `AP_TRIPLE_EXT`.
+
+**Extra opcional** (optional add-on). Un ejercicio que la persona puede elegir y agregar, pero que una plantilla nunca elige. Los ejercicios que propuso el equipo pasaron a ser extras opcionales en la ronda 4: acarreos, trabajo de trineo, wall balls, desplantes con costal, burpees con salto largo, ejercicios de reacción con split step, trabajo de hombro para nadadores, elevaciones de tibial y de sóleo. "They can be optional, and they can be chosen and added, but not primary ones" (pueden ser opcionales, se pueden elegir y agregar, pero no como principales; R4-LIB-01). Excepciones: los wall balls y los empujes de trineo pueden ser principales en HYROX, tal vez en CrossFit. Estado en los datos: `optional_addon`.
 
 ## F
 
@@ -234,7 +243,7 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Fuera de temporada** (off-season). La parte del año de un atleta que queda lejos de la competencia: el mayor volumen, bloques en escalera.
 
-**Funcional** (functional; FN; 'FUNCTIONAL BIOMECHANICS SYSTEM'). Acarreos, arrastres y los sistemas de slings ('ANTERIOR OBLIQUE SYSTEM', 'POSTERIOR OBLIQUE SYSTEM', 'LATERAL SUBSYSTEM'). Las columnas de acarreos, arrastres, sistema oblicuo posterior y subsistema lateral están vacías en sus hojas y quedan por construir (LIB-19). La columna del sistema oblicuo anterior ya tiene cortes (chops) y trabajo antirrotación (OBSERVED). Los acarreos y los arrastres no suman series de músculo (INFERRED).
+**Funcional** (functional; FN; 'FUNCTIONAL BIOMECHANICS SYSTEM'). Acarreos, arrastres y los sistemas de slings ('ANTERIOR OBLIQUE SYSTEM', 'POSTERIOR OBLIQUE SYSTEM', 'LATERAL SUBSYSTEM'). Las columnas de acarreos, arrastres, sistema oblicuo posterior y subsistema lateral están vacías en sus hojas y quedan por construir (LIB-19). La columna del sistema oblicuo anterior ya tiene cortes (chops) y trabajo antirrotación (OBSERVED). Los acarreos y el trabajo de trineo son extras opcionales, se dosifican por distancia o por tiempo y no suman series de músculo (R4-LIB-01, R4-LIB-02).
 
 **Fundamental** (foundational). El nivel de ejercicio más fácil: la carga va al frente o abajo (sentadilla goblet). La gente necesita aprender a mantenerse más erguida (CAT-04). Un asiento, una máquina o una polea hacen más fácil un levantamiento (CAT-04, R2-LIB-02).
 
@@ -244,11 +253,11 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **GHD**. Banco de glúteos e isquiotibiales (glute-ham developer). No tiene nivel (LIB-08). Se usa si está disponible y si la persona se siente bien al hacerlo (EQ-11).
 
-**Grupo de enfoque** (focus group). La unidad sobre la que cuenta el modelo: cuádriceps; **cadera** (glúteos + isquiotibiales); espalda; pecho; **hombros** (deltoides anterior + lateral + posterior); bíceps; tríceps; pantorrillas; core. El mínimo de 10, la regla de 2 a 4 ejercicios y la verificación de tiempo cuentan grupos de enfoque (R3-SES-01). Clave: `generator_spec_v1.json > vocab > muscles > focus_groups`.
+**Grupo de enfoque** (focus group). La unidad sobre la que cuenta el modelo: cuádriceps; **cadera** (glúteos + isquiotibiales); espalda; pecho; **hombros** (deltoides anterior + lateral + posterior); bíceps; tríceps; pantorrillas; core. El mínimo de 10 y el conteo de ejercicios por grupo se leen sobre los grupos de enfoque (R3-SES-01). Clave: `generator_spec_v1.json > vocab > muscles > focus_groups`.
 
-**Grupo fijo** (pinned group). Un grupo que la verificación de tiempo nunca quita para cierta persona. Ejemplo: las pantorrillas de los jugadores de raqueta de 50 años o más, que reciben trabajo de pantorrilla y tendón de Aquiles cada día de piernas (R3-ATH-02). El mecanismo es PROPOSED.
+**Grupo fijo** (pinned group). RETIRED como mecanismo. Era un grupo que la verificación de tiempo nunca quitaba. Ya no hay verificación de tiempo (CT-01). Lo que protegía sigue como regla: trabajo de pantorrilla y tendón de Aquiles cada día de piernas para los jugadores de raqueta de 50 años o más (R3-ATH-02).
 
-**Guía de ajuste** (self-adjust guide; "How to adjust this plan"). Las líneas impresas que le dicen a la persona qué hacer cuando faltó una semana, una serie se sintió como un máximo real, todo se siente fácil o algo duele. Reemplaza al check-in. El programa le dice a la persona cómo ajustar (R3-VOL-04). La redacción es PROPOSED.
+**Guía de ajuste** (self-adjust guide; "How to adjust this plan"). Las líneas impresas que le dicen a la persona qué hacer cuando faltó una semana, una serie se sintió como un máximo real, todo se siente fácil o algo duele, y que puede cambiar series, ejercicios y bloques. Reemplaza al check-in. El programa le dice a la persona cómo ajustar (R3-VOL-04). La redacción es PROPOSED.
 
 ## H
 
@@ -268,13 +277,15 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Impulso de prioridad** (priority push). Una versión anterior y más grande del músculo de enfoque: +4 a +6 series en uno o dos músculos (VOL-02). Hoy es solo un ajuste opcional del coach, desactivado por defecto. En el formulario se usa Músculo de enfoque 1 y 2.
 
+**Inclinado primero** (incline first). Para fisicoculturistas y para la población general, la casilla de empuje vertical o de rango medio abre con un press inclinado. Los presses sobre la cabeza quedan como alternativas. "For bodybuilders, I would rather focus more on incline pressing than on overhead pressing" (para fisicoculturistas prefiero enfocarme más en el press inclinado que en el press sobre la cabeza; R4-LIB-03).
+
 **Indicación** (cue). Una instrucción corta de coaching para un ejercicio, en la voz del coach (GEN-07). Solo se usan sus propias palabras. Nunca se escribe una indicación en su nombre.
 
 **INFERRED**. El razonamiento del equipo a partir de sus hojas o de sus respuestas. Es un valor por defecto hasta que el coach lo confirme.
 
 **Inicio** (start; series de inicio). Las series semanales de un grupo en la semana 1: músculos grandes 10 / 15 / 20 según el nivel; hombros, bíceps y tríceps 10 / 12 / 15 (VOL-01, R2-VOL-04, R2-VOL-06). Dos notas. El coach aprobó 8 / 12 / 15 para los músculos pequeños, y el 8 sube a 10 por su mínimo. El inicio de 20 para el Nivel 3 es PROPOSED: el rango que aprobó dice 20 o más (VOL-01).
 
-**Intake** (formulario de entrada). Las respuestas que da la persona antes de crear el plan. Son pocas a propósito: "We're not going to need a lot of inputs for this" (no vamos a necesitar muchos datos de entrada; R3-VOL-04). Después de crear el plan no se pregunta nada.
+**Intake** (formulario de entrada). Las respuestas que da la persona antes de crear el plan. Son pocas a propósito: "We're not going to need a lot of inputs for this" (no vamos a necesitar muchos datos de entrada; R3-VOL-04). No pregunta cuánto dura la sesión (R4-SES-01). Sí exige aceptar los términos y la liberación de responsabilidad (R4-SCP-02). Después de crear el plan no se pregunta nada.
 
 **Intensificador** (intensifier). Una forma de hacer más dura una serie sin agregar otra: una serie MYO, una última serie al MAX, una superserie. Se permite en la última semana de una escalera (R3-VOL-04).
 
@@ -296,7 +307,7 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 ## L
 
-**Lambda** (λ). Un factor entre 0 y 1 que escala los pasos semanales de un grupo. Achica los pasos cuando los 3 % y 5 % normales pasarían el tope antes de tiempo, para que el grupo llegue a su tope en la última semana. La idea está aprobada (R3-VOL-04).
+**Lambda** (λ, el factor de escala). Un solo factor sobre todos los pasos semanales de un grupo, elegido para que el grupo llegue a sus series finales en la última semana. Por debajo de 1 achica los pasos normales de 3 % y 5 % (R3-VOL-04). Por encima de 1 los agranda, y el coach lo permitió: "go ahead and increase faster if thats the need" (adelante, suban más rápido si eso es lo que hace falta; CX-01). La fórmula es del equipo.
 
 **Lanzamiento** (throw). Un lanzamiento de balón medicinal. Se cuenta en lanzamientos, nunca en series de músculo. Los lanzamientos no tienen niveles: "just do them right" (solo hay que hacerlos bien; LIB-06).
 
@@ -306,9 +317,13 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Levantamientos olímpicos** (Olympic lifts). Cargadas (cleans), arranques (snatches), envión (jerk) y sus versiones con mancuernas, con kettlebells y desde colgado. En el entrenamiento atlético "everyone gets Olympic lifts" (todos hacen levantamientos olímpicos; ATH-10): los principiantes usan arranques con mancuerna o kettlebell, saltos con barra hexagonal y jalones desde colgado; los más avanzados, los levantamientos completos. Hasta 4 días por semana (R2-ATH-04). El modelo pone las cargadas en los días de rodilla (sentadilla) y los arranques en los días de cadera (bisagra). Esa es la lectura del equipo (INFERRED) de sus palabras: "I take snatches a little bit more hingy than squatty" (veo los arranques un poco más de bisagra que de sentadilla; R2-ATH-04). Se explican como producción de potencia, no por porcentajes (R2-GEN-06). Desactivados por defecto desde los 60 años (R2-ATH-08).
 
-**Liberación** (release; sello de liberación). La casilla de "uso bajo su propio riesgo", con los términos y la liberación de responsabilidad, que se acepta cada vez que se crea un plan (R3-GEN-01). El sello se imprime en el plan. No se guarda nada. Vea [DISCLAIMER.es.md](../../DISCLAIMER.es.md).
+**Liberación** (release; sello de liberación). La aceptación de los términos y de la liberación de responsabilidad. Es obligatoria antes de crear un plan, cada vez (R3-GEN-01, R4-SCP-02). El sello se imprime en el plan como la **línea de liberación**. No se guarda nada. Vea **Puerta de responsabilidad** y [DISCLAIMER.es.md](../../DISCLAIMER.es.md).
 
 **Línea** (line). Una fila de la tabla de volumen sobre la que corre la escalera: cuádriceps, isquiotibiales, glúteos, pecho, espalda, hombros, bíceps, tríceps, pantorrillas. Glúteos e isquiotibiales son dos líneas dentro del único grupo de cadera.
+
+**Línea de liberación** (release line). La línea corta que se imprime en cada plan y dice que se liberó la responsabilidad, arriba y abajo, en inglés y en español, con un enlace al aviso legal (R4-SCP-01, R4-SCP-02). La redacción es PROPOSED y espera a un abogado.
+
+**Lo más fácil de quitar** (easiest to remove). La lista corta que imprime cada día con lo que una persona podría sacar para un día más corto: cierres de acondicionamiento, estaciones extra de saltos o lanzamientos, accesorios de músculos pequeños, ejercicios extra. Es solo una sugerencia. Nada se quita de forma automática: "they get to pick what they want to keep or what they want to take away" (ellos eligen qué conservar y qué quitar; R4-SES-04). La lista y su orden son PROPOSED.
 
 ## M
 
@@ -326,7 +341,7 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Mínimo**. Vea **Mínimo de 10**.
 
-**Mínimo de 10** (floor, floor of 10). Todo grupo muscular que un bloque de entrenamiento entrena de forma directa recibe al menos 10 series por semana. "I don't think anybody needs less than 10 sets a week per muscle" (no creo que nadie necesite menos de 10 series por semana por músculo; R2-VOL-06). Se cuenta sobre los grupos de enfoque (R3-VOL-01). No se aplica a un grupo que la verificación de tiempo deja al crédito de los compuestos (R3-SES-02). El modelo también deja fuera el mantenimiento, la pretemporada, la temporada y un grupo reducido por dolor. Esas cuatro excepciones son INFERRED: estaban en la propuesta del equipo para R3-VOL-01, y la respuesta del coach solo habló del deltoides posterior. Vea [ADR-017](../04-decisions/adr-017-floor-of-10-on-focus-groups.md).
+**Mínimo de 10** (floor, floor of 10). Con 3 o más días de entrenamiento, todo grupo muscular que un bloque de entrenamiento entrena de forma directa recibe al menos 10 series por semana. "I don't think anybody needs less than 10 sets a week per muscle" (no creo que nadie necesite menos de 10 series por semana por músculo; R2-VOL-06). Se cuenta sobre los grupos de enfoque (R3-VOL-01). Con 2 días de entrenamiento se aplica la **regla de los 2 días** (R4-SES-03). El modelo también deja fuera el mantenimiento, la pretemporada, la temporada y un grupo reducido por dolor. Esas cuatro excepciones son INFERRED: estaban en la propuesta del equipo para R3-VOL-01, y la respuesta del coach solo habló del deltoides posterior. Vea [ADR-017](../04-decisions/adr-017-floor-of-10-on-focus-groups.md).
 
 **Mismo patrón** (same pattern). Un día que junta dos levantamientos del mismo patrón (sentadilla + zancada) para exigirle más a un músculo. Para estética, fuerza y atletas de alto nivel (UNI-06). Lo contrario: **patrón cruzado**.
 
@@ -334,7 +349,7 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Modelo** (model). Los datos y documentos que describen su sistema: categorías, catálogo, reglas, plantillas, perfiles. Es distinto del **motor**, que es código.
 
-**Modelo de tiempo** (time model). La estimación del equipo de cuántos minutos toma cada tipo de serie. La usa la verificación de tiempo. PROPOSED.
+**Modelo de tiempo** (time model). Vea **Tiempo estimado**. Los minutos por tipo de serie son del equipo (PROPOSED) y solo sirven para imprimir el tiempo promedio de cada día. Ya no limitan nada (CT-01).
 
 **Modificador** (modifier). Un factor que escala las series de inicio según el objetivo o la fase, por ejemplo 0.8 para acondicionamiento general. Casi todos los factores son PROPOSED.
 
@@ -342,7 +357,7 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Monster set**. Su palabra, dicha en conversación, para encadenar varios ejercicios seguidos, más que los dos de una superserie (R2-SES-03). No definió un número.
 
-**Motor** (engine). El código que convierte un formulario en un plan (`engine/`). Se está reconstruyendo. La autoridad es el modelo, no el motor. Vea [ADR-048](../04-decisions/adr-048-optimizer-rebuild-of-the-planner.md).
+**Motor** (engine). El código que convierte un formulario en un plan (`engine/`). La versión 0.5 parte de las plantillas del coach: arma cada día sobre ellas, define el tamaño de la sesión por número de ejercicios y no ajusta nada por tiempo. La autoridad es el modelo, no el motor. Vea [ADR-058](../04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md) y `samples/STATUS_v0.5.md`.
 
 **Motor principal** (main mover, prime mover). El músculo que hace la mayor parte del trabajo en un levantamiento. Recibe 1.0 serie (VOL-09).
 
@@ -370,6 +385,8 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Nodo** (node). Un lugar en el árbol de categorías, con un id estable como `RP.KD.BS` (resistencia, dominante de rodilla, bilateral). Son 91 nodos. Clave: `synthesis/01_taxonomy.json > nodes`.
 
+**Nota de aceleración** (acceleration note). La nota que lleva una semana cuando agrega más de un 15 % a las series de un grupo: "Esta semana sube más de lo habitual: ajusta si hace falta." No hay un límite fijo para el paso; la nota es la salvaguarda (R4-PRG-02). Una sola serie agregada nunca se marca (PROPOSED).
+
 **Notación de repeticiones** (reps notation). '10/10' = 10 repeticiones por lado = una serie (UNI-01). '12/10/8 -20' = series de 12, 10 y 8 con peso cada vez mayor, y luego una serie ligera de 20 (PRG-07). Las repeticiones se guardan como texto, nunca como números ni fechas.
 
 **Novato** (novice / newby; 'NOVICE', 'NEWBY'). Lo mismo: Nivel 1 del cliente (PRG-05).
@@ -390,7 +407,7 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **PAR-Q / PAR-Q+**. El cuestionario de aptitud para la actividad física (Physical Activity Readiness Questionnaire). El coach lo dijo como "park queue" (R2-GEN-03). El modelo enlaza al PAR-Q+ oficial y usa su propio chequeo de salud corto, escrito por un abogado en inglés y en español (R3-GEN-01). La razón que dio la propuesta que el coach aprobó: el PAR-Q+ oficial tiene derechos de autor, debe usarse sin cambios, y el equipo no encontró una versión en español en la lista oficial. Un abogado debe confirmarlo.
 
-**Paso** (step). El aumento semanal de las series de un grupo, en porcentaje. Nunca más de 7 % para un músculo (aprobado en R2-VOL-01). El modelo también mantiene el total semanal de la persona subiendo menos de 10 %, porque para el coach un salto semanal de 10 % es "way too much" (demasiado; UNI-05).
+**Paso** (step). El aumento semanal de las series de un grupo. Por lo general cerca de 3 % y luego 5 %. No hay un límite fijo: el paso es tan grande como haga falta para llegar a las series finales, y una semana que agrega más de un 15 % lleva una nota (CX-01, R4-PRG-02). Los límites anteriores (7 % para un músculo, menos de 10 % en total) son RETIRED. Su comentario de que un salto semanal de 10 % es "way too much" (demasiado; UNI-05) explica por qué los pasos normales son pequeños.
 
 **Patrón** (pattern). El movimiento al que pertenece un ejercicio: dominante de rodilla, dominante de cadera, empuje horizontal, jalón vertical, etc. Los músculos grandes, el trabajo atlético y el core se organizan por patrón.
 
@@ -408,7 +425,7 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Plano** (plane). La dirección del movimiento: `sagittal` (sagital, hacia adelante y atrás; escrito 'SAGITAL' en sus hojas), `frontal` (de lado a lado), `transverse` (transversal, rotación), `multi`. Los atletas de cancha y de combate reciben más trabajo a una pierna en los planos frontal y transversal (UNI-12). Los números de esa proporción son PROPOSED.
 
-**Plantilla** (template). El esqueleto de una semana y de sus días para una familia y un número de días. Son 30 plantillas: 6 familias × 2 a 6 días. Clave: `synthesis/05_templates.json > generator_split_templates`.
+**Plantilla** (template). El esqueleto de una semana y de sus días para una familia y un número de días. Son 30 plantillas: 6 familias × 2 a 6 días. Desde la ronda 4, las plantillas del propio coach son el esqueleto de cada día: la herramienta no inventa distribuciones (R4-SES-05). Vea **Día A / Día B**. Clave: `synthesis/05_templates.json > generator_split_templates`; compilado en `model/templates.json`.
 
 **Pliométrico** (plyometric; 'PLYOMETRIC PURPOSE - BE REACTIVE & BOUNCY'). Saltos con contactos cortos, elásticos y repetidos: saltos de tobillo y pogos, saltos de vallas (hurdle hops), saltos de profundidad (depth jumps), saltos alternos de zancada (bounds), saltos de ardilla (squirrel jumps), saltos repetidos (R2-ATH-02). El otro extremo: **balístico**.
 
@@ -430,11 +447,15 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Pretemporada** (pre-season). Un bloque de 4 a 6 semanas con cerca del 60 % de las series de fuera de temporada, con más velocidad y potencia, que termina con una puesta a punto de 1 a 2 semanas antes del primer partido (R2-PER-06).
 
+**Progresión, regla de** (progression rule). La línea bajo cada ejercicio que dice cómo progresar en repeticiones y peso: "Cuando llegues a 12 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8." La persona la aplica. El plan nunca promete un número para una semana (R4-PRG-03). En los datos se llama doble progresión (double progression). Vea [ADR-053](../04-decisions/adr-053-progression-written-as-a-rule.md).
+
 **PROPOSED**. Abreviatura de "PROPOSED - PENDING COACH APPROVAL". Lo diseñó el equipo y el coach no lo ha confirmado. Solo se publica después de su sí.
 
 **Protocolo de dolor** (pain protocol). Para un dolor declarado en el formulario: reducir ese músculo o patrón 30-50 %, pasarlo a máquinas o a agarres separados, y quizá quitar el ejercicio del todo si es demasiado (VOL-03). Un dolor severo detiene el plan automático (PROPOSED: una extensión que hizo el equipo de la regla del chequeo de salud).
 
 **Prueba** (test). Una medición al inicio y al final de un bloque, nunca en medio. Nunca desde cero: quien no ha terminado un bloque no prueba una repetición máxima ni una milla a tope. Usa un máximo de 5 o de 3 repeticiones, o esfuerzos de 80-90 % (R2-PER-07). Vea [testing](../02-model/testing.md).
+
+**Puerta de responsabilidad** (liability gate). La regla de que no se crea ningún plan hasta que la persona acepta los términos y la liberación de responsabilidad. "They need to click it before the plan shows, as part of when they put in their data" (tienen que hacer clic antes de que aparezca el plan, como parte de ingresar sus datos; R4-SCP-02). Todos pueden usar los planes, y todos pasan por la puerta (R4-SCP-01). Vea [ADR-056](../04-decisions/adr-056-liability-gate-before-every-plan.md).
 
 **Puesta a punto** (taper). Las últimas 1 o 2 semanas antes de un primer partido, una competencia o un evento, con menos volumen. Nadadores: una puesta a punto en seco de 2 semanas, alineada con la del entrenador de natación, antes de la competencia principal (R3-ATH-01).
 
@@ -442,9 +463,13 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 ## R
 
-**Referir** (refer). El resultado cuando una respuesta del chequeo de salud (R2-GEN-03) o un dolor severo (PROPOSED) detiene el plan automático. La persona se remite a un profesional.
+**Rango medio, empuje y jalón de** (mid-range push / mid-range pull). Levantamientos en un ángulo entre horizontal y vertical. Empuje de rango medio: press inclinado y press landmine ('MID RANGE PUSH' en su hoja, OBSERVED). Jalón de rango medio: remo alto, remo a 45 grados, el ángulo del face pull; una categoría pequeña propia entre el jalón horizontal y el vertical (redacción aprobada, R4-LIB-03).
+
+**Referir** (refer). El resultado cuando una respuesta del chequeo de salud (R2-GEN-03) o un dolor severo (PROPOSED) detiene el plan automático. La persona se remite a un profesional. Abierto para el coach después de R4-SCP-01: si una respuesta de salud debe seguir deteniendo un plan.
 
 **Regla bloqueada** (locked rule). Una regla que el generador nunca puede romper (nunca al fallo en compuestos pesados, nada de V-squat, nada de bandas, etc.). Ids `LK01`-`LK18` en `model/rules.json > locked`, verificadas como `H01`-`H22`.
+
+**Regla de los 2 días** (two-day rule). Con 2 días de entrenamiento a la semana, cada músculo grande se entrena de todos modos, con unas 6 a 8 series semanales en lugar de 10. El plan lo dice y sugiere un tercer día. No se quita ningún músculo completo ni se amontonan más ejercicios (R4-SES-03). Vea [ADR-052](../04-decisions/adr-052-two-day-rule.md).
 
 **Remate final** (buy-out; 'Buy out'). Un finalizador de acondicionamiento corto y duro al terminar la sesión, por ejemplo '2x 15 cal bike sprint' (OBSERVED en su programa de béisbol, Parte E). Nunca cuenta como series de músculo. Se quita en una semana suave (PER-05). Bucket `COND_SPRINT_BUYOUT`.
 
@@ -482,7 +507,7 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Semana suave** (easy week; semana de recuperación). Una semana después de un bloque terminado, con cerca de la mitad de las series de la semana más dura, los mismos ejercicios, 3 o más repeticiones en reserva y sin remates ni finalizadores (PER-05, R2-VOL-07). Es una recomendación, no una obligación: "maintenance weeks are a recommendation. They don't have to be mandatory" (las semanas de mantenimiento son una recomendación; no tienen que ser obligatorias; R3-PER-01). Nunca va dentro de un bloque.
 
-**Semanas A/B** (A/B weeks). Dos semanas alternas que cambian el levantamiento principal: una semana que abre con sentadilla y otra con bisagra, o una de press de banca y otra de press sobre la cabeza. Solo para quien quiere más variedad (PER-03). Interruptor del formulario: `prefs.variety_ab`.
+**Semanas A/B** (A/B weeks). Dos semanas alternas que cambian el levantamiento principal: una semana que abre con sentadilla y otra con bisagra, o una de press de banca y otra de press sobre la cabeza. Solo para quien quiere más variedad (PER-03). Interruptor del formulario: `prefs.variety_ab`. No es lo mismo que **Día A / Día B**.
 
 **Semanas más duras** (hardest; `HARDEST`). La etiqueta de las últimas semanas de una escalera. En un programa de 12 semanas, "the last 4 weeks are going to be brutal" (las últimas 4 semanas van a ser brutales; R2-PER-04).
 
@@ -498,15 +523,17 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Slot** (casilla). Una línea de la sesión: PURPOSE × CATEGORY. La categoría da la lista de ejercicios. El propósito dice qué músculo o cualidad recibe el crédito. La segunda vez que una casilla aparece en la semana recibe un ejercicio distinto (PER-04).
 
-**Subida mínima** (minimum climb). Lo menos que debe crecer un grupo entrenado a lo largo de un bloque: 2 series de la semana 1 a la última (pantorrillas 1). PROPOSED.
+**Subida mínima** (minimum climb). RETIRED. Una regla del equipo: un grupo entrenado debía crecer al menos 2 series a lo largo de un bloque. Ahora un grupo puede mantener sus series mientras suben las repeticiones o el peso (CX-02, CX-03).
 
 **Subiendo el ritmo** (drive; `DRIVE`). La etiqueta de las semanas del medio de una escalera: empujar fuerte, pero no hasta el tope (PER-01). Es solo una etiqueta.
 
-**Superserie** (superset). Dos ejercicios seguidos y luego el descanso. Sus hojas la marcan 'SUPERSET W/' seguido de una mano que apunta hacia abajo. Para el coach, "the supersetting is more like a fatiguing principle" (la superserie es más bien un principio de fatiga; ORD-05), y además ahorra tiempo. El plan recomienda superseries en los pares que lo permiten (R3-SES-02). La lista de pares es PROPOSED.
+**Superserie** (superset). Dos ejercicios seguidos y luego el descanso. Sus hojas la marcan 'SUPERSET W/' seguido de una mano que apunta hacia abajo. Para el coach, "the supersetting is more like a fatiguing principle" (la superserie es más bien un principio de fatiga; ORD-05), y además ahorra tiempo. El plan recomienda superseries en los pares que lo permiten y la persona las activa (R3-SES-02). Ninguna duración de sesión las activa. La lista de pares es PROPOSED.
 
 **Swing con kettlebell** (KB swing). Es trabajo balístico, no de músculo: "kettlebell swings are not glutes" (los swings con kettlebell no son glúteos; R2-VOL-05). Suma 0 series de músculo y nunca llena una casilla dominante de cadera.
 
 ## T
+
+**Tamaño de la sesión** (session size). Qué tan grande es una sesión, en número de ejercicios, sin contar el calentamiento ni los 2 ejercicios de core: acondicionamiento general y pérdida de grasa 5 a 7; estética 6 a 8; fuerza 5 a 6; bootcamp 5 a 7 estaciones; atletas de campo fuera de temporada hasta 12; adultos mayores 5 a 6 (R4-SES-02). Son recomendaciones: la gente agrega o quita. No se pregunta la duración de la sesión en minutos (R4-SES-01).
 
 **Técnica** (skill). Un bloque para la práctica de habilidades estilo CrossFit (dobles con cuerda, pies a la barra). INFERRED.
 
@@ -521,13 +548,15 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Tiempo de contacto con el piso** (ground-contact time). Cuánto tiempo queda el pie en el piso en las acciones clave de un deporte. Define el porcentaje pliométrico: contactos cortos, más pliométricos; contactos largos, más balísticos (ATH-01). El modelo ordena los deportes en clases de 1 (muy corto) a 5 (muy largo). El porcentaje de cada deporte está aprobado (R2-ATH-01, R3-ATH-04). Los nombres de las clases y los tiempos de contacto son INFERRED.
 
+**Tiempo estimado** (time estimate). El tiempo promedio que se imprime en cada día, como un rango y solo como información: "Tiempo promedio: aprox. 55-70 min (un estimado, solo como información)". Nada se recorta, se mueve ni se marca por ese número (CT-01, R4-SES-01). Los minutos por tipo de serie detrás del cálculo son del equipo y son PROPOSED.
+
 **Tier** (escalón de dosis). Dos usos. (1) Escalones de dosis T0-T5: cuánto trabajo atlético semanal recibe un perfil (escala INFERRED). (2) Escalones de acceso T0-T3 en un registro del catálogo: el equipo mínimo que necesita un ejercicio.
 
 **Tipo de temporada** (season type). La etiqueta del modelo para cómo corre el año de un deporte (A equipo con muchos partidos, B diamante, C competencia o campeonato, D combate con fecha, etc.). INFERRED.
 
 **Token de equipo** (kit token). Una pieza de equipo tal como la nombran los datos (`dumbbell`, `rack`, `cable`, `medball`). Los tokens de bandas están prohibidos.
 
-**Tope** (ceiling, cap). Lo máximo de series semanales que alcanza un grupo muscular en un plan: 14 / 22 / 25 para Nivel 1 / 2 / 3. El coach dijo que "this is all customizable" (todo esto se puede ajustar; R2-VOL-06). Un músculo de enfoque puede llegar a 18 / 26-28 / 30. Esos son los topes de músculo prioritario que el coach aprobó en R2-VOL-06. Usarlos para los músculos de enfoque es la lectura del equipo (INFERRED).
+**Tope** (ceiling, cap; series finales). Lo máximo de series semanales que alcanza un grupo muscular en un plan: 14 / 22 / 25 para Nivel 1 / 2 / 3. El coach dijo que "this is all customizable" (todo esto se puede ajustar; R2-VOL-06). También es la meta: cada grupo entrenado llega a su tope en la última semana, con pasos más grandes cuando hace falta (CX-01, R4-PRG-01). Un músculo de enfoque puede llegar a 18 / 26-28 / 30. Esos son los topes de músculo prioritario que el coach aprobó en R2-VOL-06. Usarlos para los músculos de enfoque es la lectura del equipo (INFERRED).
 
 ## U
 
@@ -547,7 +576,7 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Variante** (variant). Una versión con nombre de un perfil (un estilo de natación, un boxeador de peso pesado) o de una plantilla (`upper_lower`, `ppl_x2`, `in_season`).
 
-**Verificación de tiempo** (time check; tiempo contra mínimos). La revisión, antes de crear el plan, de si los días y minutos elegidos alcanzan para los mínimos. Si no alcanzan, en el orden que aprobó el coach: avisar de entrada y ofrecer otro día o sesiones más largas; si la persona mantiene su tiempo, entrenar menos grupos de forma directa (primero los grandes); recomendar superseries; mantener la escalera subiendo en lo que sí se entrena (R3-SES-02). Vea [ADR-032](../04-decisions/adr-032-time-vs-minimums-order.md).
+**Verificación de tiempo** (time check; tiempo contra mínimos). RETIRED desde el 2026-10-10. Era la revisión de la ronda 3 de si los días y minutos elegidos alcanzaban para los mínimos, con un orden de qué ceder (R3-SES-02). El coach la quitó: "You need to stop trying to be responsible for the people's time" (tienen que dejar de querer hacerse responsables del tiempo de la gente; CT-01). Vea **Tiempo estimado**, **Tamaño de la sesión**, **Regla de los 2 días** y [ADR-050](../04-decisions/adr-050-no-time-fitting-sessions-sized-by-exercise-count.md).
 
 **Volumen** (volume). La cantidad de trabajo. En el modelo: series duras semanales por grupo de enfoque. Vea [volume](../02-model/volume.md).
 
@@ -558,6 +587,10 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 **Why** (código de porqué). Una nota pequeña unida a cada decisión de un plan. Nombra la regla y el id de la respuesta que la respalda, por ejemplo `why.two_spine_days` con `R2-SES-01`.
 
 **WOD**. "Workout of the day" (entrenamiento del día): la parte de acondicionamiento de una clase estilo CrossFit.
+
+## Y
+
+**YouTube, enlace de búsqueda en** (YouTube search link). Lo que trae cada ejercicio en lugar de un video: un enlace que busca su nombre en YouTube, más el nombre exacto para copiar. "Click here to copy it and put into YouTube" (haz clic aquí para copiarlo y ponerlo en YouTube; R4-LIB-05). Los enlaces de video de terceros que había en sus hojas se quitaron de los datos públicos.
 
 ## Z
 
@@ -630,6 +663,7 @@ El modelo conserva sus etiquetas entre comillas, tal como él las escribió, y u
 | `MRPUSH` | empuje de rango medio | `COD` | cambio de dirección |
 | `VPUSH` | empuje vertical | `SPRINT` | sprint y técnica de carrera |
 | `HPULL` | jalón horizontal | `CARDIO` | sesión aeróbica |
+| `MRPULL` | jalón de rango medio (ronda 4) | | |
 | `VPULL` | jalón vertical | `CARRY`, `DRAG` | acarreos, arrastres |
 
 **Niveles**
@@ -662,6 +696,14 @@ El modelo conserva sus etiquetas entre comillas, tal como él las escribió, y u
 | Modo semana a semana | un plan continuo que dependía de check-ins | R3-VOL-02 |
 | Semana suave obligatoria | una semana de recuperación exigida después de un bloque | R3-PER-01 |
 | Aprender de los datos de los usuarios | tablas ajustadas con los registros de todos | R3-GEN-01 |
+| Verificación de tiempo, ofertas de tiempo, "no entrenado de forma directa (tiempo)", la regla del 110 % | ajustar un plan a la duración de sesión elegida | CT-01, R4-SES-01 |
+| Duración de la sesión (como campo del formulario), topes de ejercicios por minutos | definir el tamaño de una sesión por minutos | R4-SES-01, R4-SES-02 |
+| Grupo fijo, orden de conservación | qué grupos conservaba primero la verificación de tiempo | CT-01 |
+| Límite de paso de 7 %, subida total menor de 10 %, subida mínima | reglas fijas sobre qué tan rápido o qué tan parejo suben las series | CX-01, CX-02, R4-PRG-02 |
+| "El tope como máximo" | terminar por debajo de las series finales planeadas cuando los pasos pequeños no alcanzaban | CX-01 |
+| Registro propuesto como alternativa "hasta que él lo apruebe" | el estado de los ejercicios del equipo antes de la ronda 4 | R4-LIB-01 (ahora son extras opcionales; el trabajo de cuello sigue como propuesto) |
+| Enlace de video de terceros | los enlaces que había en sus hojas | R4-LIB-05 |
+| Planificador optimizador (`planner/1`) | un planificador grande de dos etapas que se diseñó y no se construyó | equipo, [ADR-058](../04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md) |
 
 La lista completa, con sus palabras, está en [what he rejected](../01-philosophy/what-he-rejected.md).
 

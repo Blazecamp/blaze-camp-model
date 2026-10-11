@@ -86,7 +86,9 @@ describe('v0.4 fix round 1 / F2: athletic work (coach-eye reviews of the 8 sampl
       byStage[x.w.plyo_stage].add(x.it.exercise_id);
       const e = exOf(model, x.it.exercise_id);
       const cue = x.it.notes.map(n => n.key);
-      if (x.w.plyo_stage === 'RC1') assert.ok(cue.includes(SC.RC1), `${x.w.n} ${e.id}`);
+      // (v0.5 fix round 2 (converted; DECISIONS G 'Tests converted in fix round 2'): a landing drill - the low drop that took the place of the
+      // swimmer's push-up box jump - carries the landing cue of its own)
+      if (x.w.plyo_stage === 'RC1') assert.ok(cue.includes(SC.RC1) || (e.athletic.quality === 'landing' && cue.includes(R.athletic.response_cues.landing)), `${x.w.n} ${e.id} ${cue}`);
       else if (isFloorJump(e)) assert.ok(cue.includes(SC[x.w.plyo_stage]), `${x.w.n} ${e.id} ${cue}`);
     }
     assert.ok([...byStage.RC2].some(id => !byStage.RC1.has(id)), 'a new drill in stage 2');
@@ -179,10 +181,18 @@ describe('v0.4 fix round 1 / F2: athletic work (coach-eye reviews of the 8 sampl
     }
     assert.ok(n > 0);
   });
-  test('R03-reactive-cod: a reactive COD profile (04 cod.reactive) holds a reactive drill every week (split-step reaction; E-104)', () => {
+  // engine 0.5.0 / V2 (converted; DECISIONS G): the library's only reaction drill (split-step reaction) is an optional add-on (COACH-R4
+  // R4-LIB-01 'not primary ones that the program is going to throw at you') - a reactive COD profile is offered it and every COD
+  // station lists it as a swap; it is never the pick
+  test('R03-reactive-cod: a reactive COD profile (04 cod.reactive) is offered the reaction drill - an add-on and a swap of every COD station, never the pick (split-step reaction; E-104, R4-LIB-01)', () => {
     const p = plan('03');
     assert.equal(model.sport('soccer').cod_reactive, true);
-    for (const w of p.weeks) assert.ok(items(w).some(x => R.athletic.f2.cod.reactive_drill_ids.includes(x.it.exercise_id)), `w${w.n}`);
+    const reactive = R.athletic.f2.cod.reactive_drill_ids;
+    for (const w of p.weeks) {
+      assert.ok(!items(w).some(x => reactive.includes(x.it.exercise_id)), `w${w.n}: a reaction add-on as the pick`);
+      for (const x of items(w).filter(y => y.it.bucket === 'AP_COD' && y.it.exercise_id)) assert.ok((x.it.swaps || []).some(id => reactive.includes(id)), `w${w.n} ${x.it.exercise_id}: no reaction swap`);
+    }
+    assert.ok(p.meta.addons.some(a => reactive.includes(a.exercise_id) && a.kind === 'sport'));
   });
   test('R03-preseason-repeat: after the single-block stairway (Land & Go) the pre-season reaches stage 3 "Repeat" (E-100)', () => {
     const p = plan('03');
@@ -236,7 +246,14 @@ describe('v0.4 fix round 1 / F2: athletic work (coach-eye reviews of the 8 sampl
       if (x.w.plyo_stage === 'RC1') assert.ok(x.it.notes.some(nt => nt.key === R.athletic.f2.ballistic_stage_cues.RC1 || nt.key === R.athletic.response_cues.landing), x.it.exercise_id);
       (st.get(x.w.plyo_stage) || st.set(x.w.plyo_stage, new Set()).get(x.w.plyo_stage)).add(x.it.exercise_id);
     }
-    assert.ok(st.get('RC2') && [...st.get('RC2')].some(id => !st.get('RC1').has(id)), 'a new drill in stage 2');
+    // (v0.5 fix round 1, R3-ATH-02 / EQ-16; sample 08 major 'the highest box in week 1 for a 52-year-old with knee pain, then
+    // backwards': a low-impact client keeps the low box in every stage - the live library holds one low box jump - so the stage
+    // shows in the cue (stick the landing in stage 1, a normal landing after) and in the ankle-hop drill, which changes by stage)
+    const cue = (stg) => new Set(allItems(p).filter(lowerJump).filter(x => x.w.plyo_stage === stg).flatMap(x => x.it.notes.map(nt => nt.key).filter(k => /ballistic|landing/.test(k))));
+    assert.ok(st.get('RC2') && [...cue('RC2')].some(k => !cue('RC1').has(k)), 'the cue moves with the stage');
+    for (const x of allItems(p).filter(lowerJump)) if (x.it.load && x.it.load.type === 'height') assert.equal(x.it.load.value, 'low', `w${x.w.n} ${x.it.exercise_id}`);
+    const hops = (stg) => new Set(allItems(p).filter(ankle).filter(x => x.w.plyo_stage === stg).map(x => x.it.exercise_id));
+    assert.ok([...hops('RC2')].some(id => !hops('RC1').has(id)), 'a new ankle-hop drill in stage 2');
     for (const x of allItems(p).filter(x => x.it.bucket === 'AP_PLYO' && x.it.exercise_id)) {
       const tags = exOf(model, x.it.exercise_id).tags;
       assert.ok(!['depth_jump', 'hurdle_hop', 'bound'].some(t => tags.includes(t)), x.it.exercise_id);

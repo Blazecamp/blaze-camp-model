@@ -1,7 +1,7 @@
 {
  "schema": "manifest/2",
  "model_version": "1.3.0",
- "spec_version": "1.2.0",
+ "spec_version": "1.3.0",
  "contracts_version": "1.1.0",
  "files": {
   "catalog": "catalog.json",
@@ -20,16 +20,16 @@
  ],
  "default_lang": "en",
  "counts": {
-  "exercises": 731,
+  "exercises": 733,
   "templates": 30,
   "profiles": 127,
   "sports_in_picker": 52,
   "activities": 26
  },
  "sources_sha256": {
-  "generator_spec_v1.json": "50e0862fcf06a5eefcde778f8d4295850c04550131737df0dde8d12b6b9a4721",
+  "generator_spec_v1.json": "9e8b6ea7d9275c1e023f2f37bf4020ca425f3027d16fc847db1b0bc936b83dc6",
   "coach_answers_round2.md": "dcd8a6c5bec9a6e2be424869708521116f7fe77680f799338b71ed3fe9c6b10d",
-  "synthesis/02_exercise_catalog.json": "8e96a2769c0d6f9a1abc5849ad84d09013fb99f09cb1960b57c5a969b3f4a912",
+  "synthesis/02_exercise_catalog.json": "d082d1319858d30fbc3ef5f63542249a76e2c635a94de6b9b6c508a515eb8398",
   "synthesis/03_volume_rules.json": "c4e34c7076a9665d0e2763b5840010dd73c57ad9aa37c71128bf16e7ecb86abb",
   "synthesis/04_profiles.json": "addcf6fe548b6838e454421fc7c8ea93e236d7557c1b07c803fd68ec9b10bad6",
   "synthesis/05_templates.json": "6a7c89714d16b1873a6edb5b137abc6cd56eed969e2e083e4aa1ff441f479356",

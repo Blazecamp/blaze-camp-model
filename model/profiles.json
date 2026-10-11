@@ -315,7 +315,9 @@
    "running_sport": false,
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
-   "sprint_focus": null
+   "sprint_focus": null,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "active_aging_60plus": {
    "id": "active_aging_60plus",
@@ -492,7 +494,9 @@
    "running_sport": false,
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
-   "sprint_focus": null
+   "sprint_focus": null,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the general_population profile"
   },
   "baseball_catcher": {
    "id": "baseball_catcher",
@@ -687,7 +691,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": "acceleration",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "a variant of a nearby profile, reused"
   },
   "baseball_infield": {
    "id": "baseball_infield",
@@ -883,7 +889,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the baseball_position profile"
   },
   "baseball_outfield": {
    "id": "baseball_outfield",
@@ -1079,7 +1087,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": "both",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the baseball_position profile"
   },
   "baseball_pitcher": {
    "id": "baseball_pitcher",
@@ -1274,7 +1284,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": "acceleration",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "a variant of a nearby profile, reused"
   },
   "baseball_position": {
    "id": "baseball_position",
@@ -1470,7 +1482,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": "acceleration",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "basketball": {
    "id": "basketball",
@@ -1664,7 +1678,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T4",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "basketball_big": {
    "id": "basketball_big",
@@ -1858,7 +1874,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T3",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "a variant of a nearby profile, reused"
   },
   "basketball_guard": {
    "id": "basketball_guard",
@@ -2052,7 +2070,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T4",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "a variant of a nearby profile, reused"
   },
   "bjj_grappling": {
    "id": "bjj_grappling",
@@ -2249,7 +2269,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "bodybuilding_aesthetics": {
    "id": "bodybuilding_aesthetics",
@@ -2484,7 +2506,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "boxing": {
    "id": "boxing",
@@ -2688,7 +2712,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0-T1",
    "sprint_focus": null,
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "cheer_base_spot": {
    "id": "cheer_base_spot",
@@ -2878,7 +2904,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "cheer_flyer_tumbler": {
    "id": "cheer_flyer_tumbler",
@@ -3072,7 +3100,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": "acceleration",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "climbing": {
    "id": "climbing",
@@ -3276,7 +3306,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "cross_country": {
    "id": "cross_country",
@@ -3461,7 +3493,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the distance_runner profile"
   },
   "crossfit_class": {
    "id": "crossfit_class",
@@ -3631,7 +3665,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "crossfit_competitor": {
    "id": "crossfit_competitor",
@@ -3793,7 +3829,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "cycling_endurance": {
    "id": "cycling_endurance",
@@ -3999,7 +4037,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "cycling_fitness": {
    "id": "cycling_fitness",
@@ -4190,7 +4230,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "cycling_sprint": {
    "id": "cycling_sprint",
@@ -4388,7 +4430,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "dance_fitness": {
    "id": "dance_fitness",
@@ -4574,7 +4618,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "distance_runner": {
    "id": "distance_runner",
@@ -4758,7 +4804,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "diving": {
    "id": "diving",
@@ -4959,7 +5007,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "fat_loss": {
    "id": "fat_loss",
@@ -5117,7 +5167,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "field_hockey_field": {
    "id": "field_hockey_field",
@@ -5335,7 +5387,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T3",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "field_hockey_gk": {
    "id": "field_hockey_gk",
@@ -5526,7 +5580,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "flag_football": {
    "id": "flag_football",
@@ -5732,7 +5788,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T4",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the football_skill profile"
   },
   "football_big_skill": {
    "id": "football_big_skill",
@@ -5923,7 +5981,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T3",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "football_dl": {
    "id": "football_dl",
@@ -6122,7 +6182,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the football_lineman profile"
   },
   "football_k_p": {
    "id": "football_k_p",
@@ -6312,7 +6374,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "acceleration",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "a variant of a nearby profile, reused"
   },
   "football_lineman": {
    "id": "football_lineman",
@@ -6500,7 +6564,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "football_ol": {
    "id": "football_ol",
@@ -6688,7 +6754,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the football_lineman profile"
   },
   "football_qb": {
    "id": "football_qb",
@@ -6882,7 +6950,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T3",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "a variant of a nearby profile, reused"
   },
   "football_rb": {
    "id": "football_rb",
@@ -7076,7 +7146,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T3",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the football_skill profile"
   },
   "football_skill": {
    "id": "football_skill",
@@ -7270,7 +7342,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T4",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "general_population": {
    "id": "general_population",
@@ -7439,7 +7513,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0-T1",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "golf": {
    "id": "golf",
@@ -7621,7 +7697,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "gymnastics_artistic": {
    "id": "gymnastics_artistic",
@@ -7823,7 +7901,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": "acceleration",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the youth_athlete profile"
   },
   "hike_ruck": {
    "id": "hike_ruck",
@@ -8007,7 +8087,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "hockey": {
    "id": "hockey",
@@ -8196,7 +8278,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "hockey_defense": {
    "id": "hockey_defense",
@@ -8385,7 +8469,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the hockey profile"
   },
   "hockey_goalie": {
    "id": "hockey_goalie",
@@ -8573,7 +8659,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "a variant of a nearby profile, reused"
   },
   "hybrid": {
    "id": "hybrid",
@@ -8722,7 +8810,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "hyrox_competitive": {
    "id": "hyrox_competitive",
@@ -8935,7 +9025,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "plan approved by name (R3-ATH-03)"
   },
   "hyrox_fitness": {
    "id": "hyrox_fitness",
@@ -9132,7 +9224,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "plan approved by name (R3-ATH-03)"
   },
   "judo": {
    "id": "judo",
@@ -9334,7 +9428,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": null,
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the wrestling profile"
   },
   "karate_taekwondo": {
    "id": "karate_taekwondo",
@@ -9539,7 +9635,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": null,
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "kickboxing_muay_thai": {
    "id": "kickboxing_muay_thai",
@@ -9742,7 +9840,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": null,
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "lacrosse_m_attack": {
    "id": "lacrosse_m_attack",
@@ -9936,7 +10036,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T4",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "lacrosse_m_defense": {
    "id": "lacrosse_m_defense",
@@ -10137,7 +10239,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T3",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "lacrosse_m_goalie": {
    "id": "lacrosse_m_goalie",
@@ -10327,7 +10431,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "lacrosse_m_midfield": {
    "id": "lacrosse_m_midfield",
@@ -10535,7 +10641,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T4",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "lacrosse_w_attack": {
    "id": "lacrosse_w_attack",
@@ -10728,7 +10836,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T4",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "lacrosse_w_defense": {
    "id": "lacrosse_w_defense",
@@ -10921,7 +11031,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T4",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "lacrosse_w_goalie": {
    "id": "lacrosse_w_goalie",
@@ -11111,7 +11223,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "lacrosse_w_midfield": {
    "id": "lacrosse_w_midfield",
@@ -11315,7 +11429,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T4",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "lap_swim": {
    "id": "lap_swim",
@@ -11523,7 +11639,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "mma": {
    "id": "mma",
@@ -11730,7 +11848,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": null,
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "ocr_spartan": {
    "id": "ocr_spartan",
@@ -11930,7 +12050,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": null,
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the hybrid profile"
   },
   "pickleball_competitive": {
    "id": "pickleball_competitive",
@@ -12145,7 +12267,9 @@
    "age_50_plus_plyo": "low-impact only: RC1 landings (stick the split step / lateral stick), low-amplitude split-step pogos and lateral line hops on a forgiving surface, bilateral before single-leg; no depth jumps, hurdle hops or bounds by default at 50-59; progress only when landings are quiet and pain-free (FALLS_COURT, ACL_LANDING_CUTTING stage-1 logic); at 60+ all of it except the landing drills is opt-in with the warning (COACH-R2 ATH-08)",
    "cod_tier": "T3",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the tennis profile"
   },
   "powerlifting_strength": {
    "id": "powerlifting_strength",
@@ -12315,7 +12439,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "rec_basketball": {
    "id": "rec_basketball",
@@ -12492,7 +12618,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "max_velocity",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "rec_climbing": {
    "id": "rec_climbing",
@@ -12679,7 +12807,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the rec_golf profile"
   },
   "rec_combat_fitness": {
    "id": "rec_combat_fitness",
@@ -12887,7 +13017,9 @@
    "running_sport": false,
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
-   "sprint_focus": null
+   "sprint_focus": null,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the rec_golf profile"
   },
   "rec_flag_football": {
    "id": "rec_flag_football",
@@ -13064,7 +13196,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "both",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "rec_golf": {
    "id": "rec_golf",
@@ -13248,7 +13382,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "rec_hockey": {
    "id": "rec_hockey",
@@ -13425,7 +13561,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": "max_velocity",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "rec_kickball": {
    "id": "rec_kickball",
@@ -13614,7 +13752,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": "acceleration",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "rec_league": {
    "id": "rec_league",
@@ -13799,7 +13939,9 @@
    "running_sport": false,
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
-   "sprint_focus": null
+   "sprint_focus": null,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "rec_ocr": {
    "id": "rec_ocr",
@@ -13987,7 +14129,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the hyrox_fitness profile"
   },
   "rec_padel": {
    "id": "rec_padel",
@@ -14181,7 +14325,9 @@
    "running_sport": false,
    "age_50_plus_plyo": "low-impact only: RC1 landings (stick the split step / lateral stick), low-amplitude split-step pogos and lateral line hops on a forgiving surface, bilateral before single-leg; no depth jumps, hurdle hops or bounds by default at 50-59; progress only when landings are quiet and pain-free (FALLS_COURT, ACL_LANDING_CUTTING stage-1 logic); at 60+ all of it except the landing drills is opt-in with the warning (COACH-R2 ATH-08)",
    "cod_tier": "T1",
-   "sprint_focus": "acceleration"
+   "sprint_focus": "acceleration",
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "rec_pickleball": {
    "id": "rec_pickleball",
@@ -14375,7 +14521,9 @@
    "running_sport": false,
    "age_50_plus_plyo": "low-impact only: RC1 landings (stick the split step / lateral stick), low-amplitude split-step pogos and lateral line hops on a forgiving surface, bilateral before single-leg; no depth jumps, hurdle hops or bounds by default at 50-59; progress only when landings are quiet and pain-free (FALLS_COURT, ACL_LANDING_CUTTING stage-1 logic); at 60+ all of it except the landing drills is opt-in with the warning (COACH-R2 ATH-08)",
    "cod_tier": "T1",
-   "sprint_focus": "acceleration"
+   "sprint_focus": "acceleration",
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "rec_rowing": {
    "id": "rec_rowing",
@@ -14552,7 +14700,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "rec_soccer": {
    "id": "rec_soccer",
@@ -14731,7 +14881,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "both",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "rec_softball": {
    "id": "rec_softball",
@@ -14909,7 +15061,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": "acceleration",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "rec_tennis": {
    "id": "rec_tennis",
@@ -15102,7 +15256,9 @@
    "running_sport": false,
    "age_50_plus_plyo": "low-impact only: RC1 landings (stick the split step / lateral stick), low-amplitude split-step pogos and lateral line hops on a forgiving surface, bilateral before single-leg; no depth jumps, hurdle hops or bounds by default at 50-59; progress only when landings are quiet and pain-free (FALLS_COURT, ACL_LANDING_CUTTING stage-1 logic); at 60+ all of it except the landing drills is opt-in with the warning (COACH-R2 ATH-08)",
    "cod_tier": "T1",
-   "sprint_focus": "acceleration"
+   "sprint_focus": "acceleration",
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "rec_triathlon": {
    "id": "rec_triathlon",
@@ -15282,7 +15438,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "rec_ultimate": {
    "id": "rec_ultimate",
@@ -15459,7 +15617,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "acceleration",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "rec_volleyball": {
    "id": "rec_volleyball",
@@ -15635,7 +15795,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "max_velocity",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "rowing": {
    "id": "rowing",
@@ -15841,7 +16003,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "rugby_backs": {
    "id": "rugby_backs",
@@ -16058,7 +16222,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T3",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the football_big_skill profile"
   },
   "rugby_forwards": {
    "id": "rugby_forwards",
@@ -16274,7 +16440,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the football_lineman profile"
   },
   "rugby_sevens": {
    "id": "rugby_sevens",
@@ -16465,7 +16633,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T3",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the football_big_skill profile"
   },
   "run_fitness": {
    "id": "run_fitness",
@@ -16648,7 +16818,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the distance_runner profile"
   },
   "ski_alpine": {
    "id": "ski_alpine",
@@ -16863,7 +17035,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "ski_freestyle": {
    "id": "ski_freestyle",
@@ -17058,7 +17232,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "ski_snow_prep": {
    "id": "ski_snow_prep",
@@ -17245,7 +17421,9 @@
    "running_sport": false,
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
-   "sprint_focus": null
+   "sprint_focus": null,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "soccer": {
    "id": "soccer",
@@ -17445,7 +17623,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T4",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "soccer_defender": {
    "id": "soccer_defender",
@@ -17646,7 +17826,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T3",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the soccer profile"
   },
   "soccer_forward": {
    "id": "soccer_forward",
@@ -17837,7 +18019,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T4",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the soccer profile"
   },
   "soccer_gk": {
    "id": "soccer_gk",
@@ -18028,7 +18212,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T3",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "a variant of a nearby profile, reused"
   },
   "softball": {
    "id": "softball",
@@ -18233,7 +18419,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": "acceleration",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "softball_pitcher": {
    "id": "softball_pitcher",
@@ -18428,7 +18616,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
    "sprint_focus": "acceleration",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "a variant of a nearby profile, reused"
   },
   "strongman": {
    "id": "strongman",
@@ -18612,7 +18802,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the powerlifting_strength profile"
   },
   "surf_paddle": {
    "id": "surf_paddle",
@@ -18797,7 +18989,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the weekend_warrior profile"
   },
   "swimming_distance": {
    "id": "swimming_distance",
@@ -19059,7 +19253,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "plan approved by name (R3-ATH-01)"
   },
   "swimming_middle": {
    "id": "swimming_middle",
@@ -19323,7 +19519,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "plan approved by name (R3-ATH-01)"
   },
   "swimming_sprint": {
    "id": "swimming_sprint",
@@ -19588,7 +19786,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "plan approved by name (R3-ATH-01)"
   },
   "taekwondo": {
    "id": "taekwondo",
@@ -19794,7 +19994,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": null,
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "tennis": {
    "id": "tennis",
@@ -19993,7 +20195,9 @@
    "age_50_plus_plyo": "50+: low-impact jumps only - landings, split-step pogos and low lateral line hops; depth jumps, hurdle hops and bounds stay off by default and can be switched on (COACH-R3 ATH-02)",
    "cod_tier": "T3",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "track_400": {
    "id": "track_400",
@@ -20183,7 +20387,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": "both",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the track_sprinter profile"
   },
   "track_high_jump": {
    "id": "track_high_jump",
@@ -20374,7 +20580,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": "acceleration",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "track_hurdles": {
    "id": "track_hurdles",
@@ -20573,7 +20781,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": "both",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the track_sprinter profile"
   },
   "track_javelin": {
    "id": "track_javelin",
@@ -20766,7 +20976,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": "acceleration",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "track_jumper": {
    "id": "track_jumper",
@@ -20966,7 +21178,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": "both",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "a variant of a nearby profile, reused"
   },
   "track_middle": {
    "id": "track_middle",
@@ -21161,7 +21375,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": "both",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "track_pole_vault": {
    "id": "track_pole_vault",
@@ -21352,7 +21568,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": "both",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "track_sprinter": {
    "id": "track_sprinter",
@@ -21542,7 +21760,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": "both",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "track_thrower": {
    "id": "track_thrower",
@@ -21738,7 +21958,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": "acceleration",
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "a variant of a nearby profile, reused"
   },
   "triathlon": {
    "id": "triathlon",
@@ -21924,7 +22146,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "ultimate_cutter": {
    "id": "ultimate_cutter",
@@ -22117,7 +22341,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T4",
    "sprint_focus": "both",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the soccer profile"
   },
   "ultimate_handler": {
    "id": "ultimate_handler",
@@ -22310,7 +22536,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T4",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the soccer profile"
   },
   "volleyball": {
    "id": "volleyball",
@@ -22504,7 +22732,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "volleyball_beach": {
    "id": "volleyball_beach",
@@ -22716,7 +22946,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T3",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "volleyball_libero": {
    "id": "volleyball_libero",
@@ -22910,7 +23142,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T3",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "a variant of a nearby profile, reused"
   },
   "volleyball_middle": {
    "id": "volleyball_middle",
@@ -23104,7 +23338,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the volleyball profile"
   },
   "volleyball_setter": {
    "id": "volleyball_setter",
@@ -23298,7 +23534,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": "acceleration",
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "similar_sport",
+   "confidence_basis": "a variant of a nearby profile, reused"
   },
   "water_polo_center": {
    "id": "water_polo_center",
@@ -23504,7 +23742,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the water_polo_field profile"
   },
   "water_polo_field": {
    "id": "water_polo_field",
@@ -23711,7 +23951,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "water_polo_goalkeeper": {
    "id": "water_polo_goalkeeper",
@@ -23917,7 +24159,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the water_polo_field profile"
   },
   "weekend_warrior": {
    "id": "weekend_warrior",
@@ -24116,7 +24360,9 @@
    "running_sport": true,
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
-   "sprint_focus": "max_velocity"
+   "sprint_focus": "max_velocity",
+   "confidence": "confirmed_by_coach",
+   "confidence_basis": "numbers observed in his own programs"
   },
   "weightlifting": {
    "id": "weightlifting",
@@ -24305,7 +24551,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T0",
    "sprint_focus": null,
-   "cod_reactive": false
+   "cod_reactive": false,
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the powerlifting_strength profile"
   },
   "wrestling": {
    "id": "wrestling",
@@ -24518,7 +24766,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": null,
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "youth_athlete": {
    "id": "youth_athlete",
@@ -24692,7 +24942,9 @@
    "age_50_plus_plyo": null,
    "cod_tier": "T2",
    "sprint_focus": null,
-   "cod_reactive": true
+   "cod_reactive": true,
+   "confidence": "proposed",
+   "confidence_basis": "inferred from a needs analysis; his general rules applied"
   },
   "youth_general_athletic": {
    "id": "youth_general_athletic",
@@ -24875,7 +25127,9 @@
    "running_sport": true,
    "age_50_plus_plyo": null,
    "cod_tier": "T1",
-   "sprint_focus": "both"
+   "sprint_focus": "both",
+   "confidence": "similar_sport",
+   "confidence_basis": "built on the youth_athlete profile"
   }
  },
  "picker": {

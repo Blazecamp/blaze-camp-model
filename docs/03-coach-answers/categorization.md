@@ -14,7 +14,7 @@ CONFIRMED means the coach said it or approved it. PROPOSED means the team design
 | 2 | His lenses: bigger muscles, smaller muscles, biomechanics; athletic patterns, resistance patterns, core. | conversation | CONFIRMED |
 | 3 | Bigger muscles: quads, glutes, hamstrings, lats and upper back, chest. Smaller muscles: biceps, triceps, side and rear delts, calves, forearms, abs. | [CAT-02](#cat-02) | CONFIRMED |
 | 4 | Rear delts are not an individual muscle. They are part of the shoulders group (front, side and rear delts). | [R3-VOL-01](volume.md#r3-vol-01) | CONFIRMED |
-| 5 | The 2-to-4-exercises rule is counted on his FOCUS groups: hips = glutes + hamstrings, shoulders = front + side + rear delts. The floor of 10 is counted on the shoulders group. | [R3-SES-01](sessions-and-order.md#r3-ses-01), [R3-VOL-01](volume.md#r3-vol-01) | CONFIRMED |
+| 5 | Exercises per group are counted on his FOCUS groups: hips = glutes + hamstrings, shoulders = front + side + rear delts. The floor of 10 is counted on the shoulders group. (Since round 4 a full-body day follows his A / B template, so a group has 1 to 4 exercises there; split days keep 2 to 4.) | [R3-SES-01](sessions-and-order.md#r3-ses-01), [R3-VOL-01](volume.md#r3-vol-01), [R4-SES-05](sessions-and-order.md#r4-ses-05) | CONFIRMED |
 | 6 | Biomechanics describes every exercise. It has no bucket of its own. | [CAT-03](#cat-03) | CONFIRMED |
 | 7 | Core is sorted by what moves: the trunk, the pelvis, or both at once, in any plane. | [CAT-08](#cat-08) | CONFIRMED |
 | 8 | Leg curls, nordics and slider curls are leg flexion, not hip dominant. | [CAT-09](#cat-09) | CONFIRMED |
@@ -191,6 +191,8 @@ Each entry gives the question, the final rule as it stands today, what we assume
 - **Where it lives:** `generator_spec_v1.json` → `rule_tables.taxonomy.source_of_truth`; `synthesis/02_exercise_catalog.json`
 - **Changed later:**
   - **REFINED by [R2-LIB-07](library-details.md#r2-lib-07) (round 2).** Before: The library as he had built it so far. Now: A named list of exercises is added (belt squat, seated machine shoulder press, hang clean and others). Exercises that only appear in his programs stay swap options until he adds them.
+  - **REFINED by [R4-LIB-01](library-details.md#r4-lib-01) (round 4).** Before: Anything not in his library was PROPOSED and could only be a swap. Now: The exercises the team proposed are live as optional add-ons: they can be chosen and added, never picked by a template (wall balls and sled pushes may be primary in HYROX, maybe CrossFit). His library is still the source of truth for every template pick.
+  - **REFINED by [R4-LIB-03](library-details.md#r4-lib-03) (round 4).** Before: Pull patterns were horizontal and vertical. Now: A small mid-range pull category sits between them.
 - **See also:** [R2-LIB-07](library-details.md#r2-lib-07), [R2-LIB-01](library-details.md#r2-lib-01)
 
 <details>

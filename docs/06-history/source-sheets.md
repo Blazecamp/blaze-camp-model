@@ -2,7 +2,7 @@
 
 The model started from two Google Sheets that coach Lalo Vera had built before this project: "BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL" (12 tabs) and "BLAZE CAMP MASTER MODEL" (22 tabs). The first holds his exercise library and the program templates that pick from it. The second holds worked programs and his "cheat sheet" tabs on squats, plyos, core, cardio and more. Both were exported once, as copies, and every tab was written out as text so it could be read cell by cell. This page lists every tab, says what is in it and how the model used it, and points to the files. The sheets are evidence of how he has written programs. They are not the final word: where a sheet and one of his answers disagree, the answer wins.
 
-> **How to read this page.** **OBSERVED** means read from a cell, a colour or a dropdown. **INFERRED** means the team reasoned it. Labels in 'single quotes' are his own, copied exactly, typos included. Ids such as `CAT-07` point to his answers: no prefix is round 1, `R2-` is round 2, `R3-` is round 3.
+> **How to read this page.** **OBSERVED** means read from a cell, a colour or a dropdown. **INFERRED** means the team reasoned it. Labels in 'single quotes' are his own, copied exactly, typos included. Ids such as `CAT-07` point to his answers: no prefix is round 1, `R2-` is round 2, `R3-` is round 3, `R4-` is round 4.
 
 ## The rule
 
@@ -76,6 +76,8 @@ It means: the cells D6 and D27 of this program tab offer the list in library col
 ## Workbook 1: "BUILD YOUR OWN PROGRAM - BLAZE CAMP MODEL" (BYOP)
 
 BYOP is his program builder. Nine tabs are program templates. Three are the library and two copies of it. In a template, each row is a **slot**: a purpose (the muscle), a category (the movement pattern) and a dropdown that points at one column of the library.
+
+In round 4 he made these templates the skeleton of every plan: "We have those two options: push, pull, legs, and the upper/lower days, Day A and Day B. You need to adjust your full-body days to that" (R4-SES-05). The plan engine no longer invents a day layout. It fills his slots, in his order. See [ADR-051](../04-decisions/adr-051-coach-templates-are-the-skeleton.md).
 
 | # | Tab (as exported) | In the Google Sheet | Cells | Dropdown rules | What it contains | How it was used |
 |---|---|---|---|---|---|---|
@@ -234,7 +236,7 @@ All his answers about the library and the program tabs are in [library-details.m
 
 | What | Where | Note |
 |---|---|---|
-| Exercise video links | Mostly in MM 'BASEBALL', '(NOT DONE) RESISTANCE PATTERNS ' and '(NOT DONE) 4 TRACKS PROGRAMMING' | The videos linked in his sheets are not his (conversation). [DISCLAIMER.md](../../DISCLAIMER.md) §8 says third-party links are for reference only. Videos are optional in the product: [ADR-008](../04-decisions/adr-008-videos-optional.md) |
+| Exercise video links | Mostly in MM 'BASEBALL', '(NOT DONE) RESISTANCE PATTERNS ' and '(NOT DONE) 4 TRACKS PROGRAMMING' | The videos linked in his sheets are not his (conversation). [DISCLAIMER.md](../../DISCLAIMER.md) §8 says third-party links are for reference only. Videos are optional in the product: [ADR-008](../04-decisions/adr-008-videos-optional.md). In round 4 he approved removing these links from the public data: each exercise now has a YouTube search link built from its name (R4-LIB-05) |
 | The half-marathon plan | MM 'Sheet24' | Credited in the tab to Chris Hinshaw |
 
 Whether the exports in `raw/` and `dumps/` stay in the public repository is his decision. He has said the repo may include copies of his original sheets "so people can download it and play with it." (conversation). The open checks are on [roadmap.md](roadmap.md).

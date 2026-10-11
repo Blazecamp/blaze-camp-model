@@ -4,9 +4,11 @@ The whole repository is released under the MIT license, in the name of Lalo Vera
 
 | | |
 |---|---|
-| **Status** | Accepted. Disclaimer wording: draft, LEGAL REVIEW pending. Public release: not yet. |
+| **Status** | Accepted. Disclaimer wording: draft, LEGAL REVIEW pending. Release of model v1.3 approved by the coach (R4-REL-01); the attorney review is still owed before the release is called final. |
 | **Decided by** | Coach: R3-GEN-01 (round 3, 2026-10-09); open-source idea from GEN-03 and R2-GEN-02 |
 | **Replaces** | Apache-2.0 for the code plus CC BY 4.0 for the model (team proposal he had marked RIGHT in R2-GEN-02) |
+
+> **Update, round 4 (R4-REL-01, R4-REL-03, 2026-10-11).** He approved releasing the model as v1.3, with the plan engine in the same repo. The repo should describe itself as "a complete coaching model from the experience of Coach Lalo, who is Gerardo Vera. Master NASM coach." and as his intellectual property: "This is me and my intellectual property of condensing and consolidating everything and the way I think of the workflows of putting together programming." (R4-REL-03). No "world's best" or injury-prevention claims (the proposal he marked PARTLY; his words added the credit). The MIT license and the disclaimers are unchanged. His certifications are not listed here: he has not supplied the list. Accepting the terms is now required before any plan ([ADR-056](adr-056-liability-gate-before-every-plan.md)).
 
 ## Decision (the rule)
 
@@ -38,7 +40,7 @@ He wants a free, fully explained model that anyone can use in their own app and 
 |---|---|---|
 | A. Apache-2.0 (code) + CC BY 4.0 (model) | Two licenses, credit required for the model | Retired (R3-GEN-01) |
 | B. MIT for everything | One simple license in his name and his company's | **Chosen** |
-| C. Keep it private | No public repo | The state today, until he approves the model |
+| C. Keep it private | No public repo | Not chosen. He approved releasing the model in round 4 (R4-REL-01) |
 
 ## Consequences
 

@@ -4,9 +4,11 @@ A plan does not need a video for every exercise. People can look an exercise up 
 
 | | |
 |---|---|
-| **Status** | Accepted. The link mechanics are PROPOSED. |
+| **Status** | Accepted, refined in round 4 (R4-LIB-05): no third-party video links in the public data; a YouTube search link and a name to copy. |
 | **Decided by** | Coach: R2-GEN-02 (round 2, 2026-10-08) |
 | **Replaces** | A video for every exercise as a launch requirement (GEN-06, round 1) |
+
+> **Update, round 4 (R4-LIB-05, 2026-10-11).** The video links in his sheets are not his, so they are removed from the public data. Each exercise carries a "search this exercise on YouTube" link built from its name. The plan also shows the exact exercise name so a person can copy it in one tap: "make sure that there is an easy way to copy the name of the workout that says, 'Click here to copy it and put into YouTube.'" (R4-LIB-05). His own videos can be added later. The two PROPOSED points under Consequences are now approved in this form. Data: `model/rules.json` → `render.video`; `model/catalog.json` → `exercises[].video` (always a search link, or his own video). The `video_urls` field in the source catalog is empty for new records ([adding exercises](../adding-exercises.md)).
 
 ## Decision (the rule)
 

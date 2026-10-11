@@ -1,8 +1,8 @@
 # Coach answers: Progression
 
-How a plan grows from week to week. Every plan is a stairway: the steps are small in the first half, a little bigger after the halfway week, and the hardest weeks come last. Weekly sets grow about 3 % a week until halfway and about 5 % after. A small increase that is less than one set is kept (banked) until it adds up to a whole set. The whole stairway is worked out once, when the plan is built. There are no check-ins and no tracking: the plan comes out whole, and people and coaches adjust it themselves. This page also keeps the full history of the check-in, which he first approved and then removed.
+How a plan grows from week to week. Every plan is a stairway: the steps are small in the first half, a little bigger after the halfway week, and the hardest weeks come last. Weekly sets usually grow about 3 % a week until halfway and about 5 % after. **Since 2026-10-10 the planned final sets are always reached**, with bigger steps when needed and a note on any week that adds more than about 15 % (CX-01, R4-PRG-02). A week may keep the same sets while reps or load progress (CX-02). Reps and load are written as a rule the person applies, never as a promised number (R4-PRG-03). The whole stairway is worked out once, when the plan is built. There are no check-ins and no tracking: the plan comes out whole, and people and coaches adjust it themselves, including the sets of any day or week. This page also keeps the full history of the check-in, which he first approved and then removed.
 
-This page is part of [the coach answers by topic](index.md). It holds 17 question ids. Every place where a later round changed an earlier answer is also listed in [changes across rounds](changes-across-rounds.md). Read next: [model guide: the stairway](../02-model/stairway.md).
+This page is part of [the coach answers by topic](index.md). It holds 24 ids: 17 from rounds 1 to 3, the dated clarifications CX-01 to CX-03, and 4 from round 4. Every place where a later answer changed an earlier one is also listed in [changes across rounds](changes-across-rounds.md). Read next: [model guide: the stairway](../02-model/stairway.md).
 
 ## The rules in short
 
@@ -12,17 +12,20 @@ CONFIRMED means the coach said it or approved it. PROPOSED means the team design
 |---|---|---|---|
 | 1 | Every plan goes up "like steps up a stairway": smaller steps in the first weeks, a bit higher after the halfway point, "but not too much". | [R2-PER-03](#r2-per-03) | CONFIRMED |
 | 2 | On a 12-week plan the last 4 weeks are the hardest. | [R2-PER-04](#r2-per-04) | CONFIRMED |
-| 3 | Weekly sets grow about 3 % a week until the halfway week and about 5 % after it. Each muscle reaches its ceiling in the last week. | [R3-VOL-04](#r3-vol-04) | CONFIRMED |
+| 3 | Weekly sets usually grow about 3 % a week until the halfway week and about 5 % after it. Each muscle reaches its planned final sets, in the last week when the math allows, one week early at most. Steps may be bigger than 3 % and 5 % when the target needs it. | [R3-VOL-04](#r3-vol-04), [CX-01](#cx-01), [R4-PRG-01](#r4-prg-01) | CONFIRMED |
 | 4 | The percentage is taken from weekly sets per muscle, not from load. | [VOL-04](#vol-04) | CONFIRMED |
 | 5 | The step never depends on muscle size. | [VOL-05](#vol-05) | CONFIRMED |
-| 6 | 10 % a week is "way too much". No weekly step above 7 % (he approved that limit inside the round-2 check-in table; the team kept it when the table was removed). | [UNI-05](bilateral-unilateral.md#uni-05), [R2-VOL-01](#r2-vol-01) | CONFIRMED |
+| 6 | There is no hard limit on a weekly step. A week that adds more than about 15 % carries a clear note. (Retired as limits: "no weekly step above 7 %" and "under 10 % in total". His remark that 10 % a week is "way too much" to sustain still describes the usual pattern.) | [R4-PRG-02](#r4-prg-02), [CX-01](#cx-01); retired: [R2-VOL-01](#r2-vol-01), [UNI-05](bilateral-unilateral.md#uni-05) | CONFIRMED |
 | 7 | Small increases are banked: when the fraction reaches a whole set, one set is added. | [VOL-06](#vol-06) | CONFIRMED |
 | 8 | An added set goes to the first exercise of the day, then the second, and so on (2/2/2, 3/2/2, 3/3/2, 3/3/3, 4/3/3). | [VOL-07](#vol-07) | CONFIRMED |
 | 9 | When the same day runs twice a week, added sets alternate between the two days. Extra small-muscle sets become a short bonus exercise. | [R3-VOL-03](#r3-vol-03) | CONFIRMED |
 | 10 | A block should feel like starting at a 2 and ending at an 11. Effort goes from 3 reps in the tank to 1, plus intensifiers in the last week. | [R2-PER-05](#r2-per-05), [R3-VOL-04](#r3-vol-04) | CONFIRMED |
-| 11 | No check-ins. No tracking. The plan is produced once and people change it themselves. | [R3-VOL-02](#r3-vol-02), [R3-VOL-04](#r3-vol-04) | CONFIRMED |
+| 11 | No check-ins. No tracking. The plan is produced once and people change it themselves, including the sets of any day or week. | [R3-VOL-02](#r3-vol-02), [R3-VOL-04](#r3-vol-04), [CX-02](#cx-02), [CX-04](product-and-generator.md#cx-04) | CONFIRMED |
 | 12 | One sound algorithm for rep, set and volume increases, for every athlete and level. | [PRG-06](#prg-06) | CONFIRMED |
-| 13 | The printed "How to adjust this plan" guide, the coach's hand-set step (0 to 7 %), and treating the ceiling as a maximum when small steps cannot reach it. | [R3-VOL-04](#r3-vol-04) | PROPOSED |
+| 13 | A week may keep the same sets while reps or load progress, also at the top number. | [CX-02](#cx-02), [CX-03](#cx-03) | CONFIRMED |
+| 14 | Reps and load are written as a rule the person applies ("when you hit 12 on every set with 1-2 reps left in the tank, add weight next time and start again at 8"), never as a promised number per week. | [R4-PRG-03](#r4-prg-03) | CONFIRMED |
+| 15 | The next block starts about 5 % above where the last one started, in whole sets, never above the level's top. At the top, sets stay. | [R4-PRG-04](#r4-prg-04) | CONFIRMED |
+| 16 | The printed "How to adjust this plan" guide; never flagging a single added set; at least one whole set more in the next block; the wording of the rule for fixed-rep and pyramid lifts. | [R3-VOL-04](#r3-vol-04), [R4-PRG-02](#r4-prg-02), [R4-PRG-03](#r4-prg-03), [R4-PRG-04](#r4-prg-04) | PROPOSED |
 
 ## Why, in his words
 
@@ -31,10 +34,12 @@ CONFIRMED means the coach said it or approved it. PROPOSED means the team design
 - "It doesn't really go by muscle, so this is not a big muscle thing or small muscle thing." ([VOL-05](#vol-05))
 - "I'm adding sets to the things that matter most." ([VOL-07](#vol-07))
 - "We're only doing outputs, and people can change accordingly." ([R3-VOL-02](#r3-vol-02))
+- "no, go ahead and increase faster if thats the need, they could edit accordingly" ([CX-01](#cx-01))
+- "Yeah, and it has to be logical." ([R4-PRG-04](#r4-prg-04))
 
 ## Where it lives in the data
 
-Keys are in [`generator_spec_v1.json`](../../generator_spec_v1.json), the machine-readable twin of the model, unless another file is named.
+Keys are in [`generator_spec_v1.json`](../../generator_spec_v1.json), the machine-readable twin of the model, unless another file is named. The newest rules (CX-01 to CX-03 and round 4) are cited from `model/rules.json`, the compiled rules the engine reads; the matching spec keys are in the [coverage matrix, round 4](../../coverage_matrix_round4.md).
 
 | What | File | JSON key |
 |---|---|---|
@@ -47,6 +52,11 @@ Keys are in [`generator_spec_v1.json`](../../generator_spec_v1.json), the machin
 | The printed self-adjust guide | `generator_spec_v1.json` | `rule_tables.rate_engine.self_adjust_guide` |
 | The retired check-in (kept as a note only) | `generator_spec_v1.json` | `adaptation.status` |
 | Strength template | `generator_spec_v1.json` | `rule_tables.strength_template` |
+| Target reached, arrival week, the 15 % note, flat weeks (CX-01, CX-02, R4-PRG-01, R4-PRG-02) | `model/rules.json` | `stairway.progression` |
+| The usual 3 % / 5 % pattern | `model/rules.json` | `stairway.standard_steps` |
+| The next block (R4-PRG-04, CX-03) | `model/rules.json` | `cycles.next_block` |
+| The written progression rule and the big-step mark (R4-PRG-03, R4-PRG-02) | `model/rules.json` | `render.progression`, `render.acceleration` |
+| The arithmetic | `engine/progression/stairway.mjs`, `engine/progression/prescription.mjs` | |
 
 ## Questions on this page
 
@@ -54,21 +64,28 @@ Keys are in [`generator_spec_v1.json`](../../generator_spec_v1.json), the machin
 |---|---|---|---|---|
 | [VOL-04](#vol-04) | 1 | RIGHT | The weekly percentage applies to weekly sets per muscle, not to load. | Stands, refined |
 | [VOL-05](#vol-05) | 1 | answered in words (no chip) | The weekly step never goes by muscle size. One planned stairway; people adjust by hand. | Partly superseded |
-| [VOL-06](#vol-06) | 1 | RIGHT | Bank the fraction; add a whole set when it reaches 1. The tool does the math. | Stands |
+| [VOL-06](#vol-06) | 1 | RIGHT | Bank the fraction; add a whole set when it reaches 1. The tool does the math. | Stands, refined |
 | [R2-PER-03](#r2-per-03) | 2 | NOT RIGHT | Every plan is a stairway: smaller steps first, a bit higher after halfway, never a hard start. | Stands, refined |
 | [R2-PER-04](#r2-per-04) | 2 | PARTLY | 12 weeks: a stairway whose last 4 weeks are the hardest. | Stands, refined |
 | [R2-PER-05](#r2-per-05) | 2 | RIGHT | "Start at a 2 and end at an 11" is the felt level of the block, not a count of sets. | Stands, refined |
-| [R3-VOL-04](#r3-vol-04) | 3 | RIGHT | Stairway numbers: about 3 % a week to halfway, about 5 % after; ceiling in the last week; the plan comes out whole and people adjust it. | Stands |
+| [R3-VOL-04](#r3-vol-04) | 3 | RIGHT | Stairway numbers: usually about 3 % a week to halfway, about 5 % after; the final sets are reached in the last week; the plan comes out whole and people adjust it. | Stands, refined |
 | [VOL-07](#vol-07) | 1 | answered in words (no chip) | Add the set to the first exercise of the day, then the second, and so on; small muscles get a bonus exercise. | Stands, refined |
 | [R2-VOL-08](#r2-vol-08) | 2 | answered in words (no chip) | Not understood in round 2; answered by R3-VOL-03. | Answered later |
 | [R3-VOL-03](#r3-vol-03) | 3 | RIGHT | Added sets alternate between the two days of the same type; small-muscle extras become a bonus exercise, never the only one that day. | Stands |
 | [GEN-05](#gen-05) | 1 | RIGHT | Superseded: the plan is not adjusted from logs. It comes out whole; people adjust it. | Superseded |
 | [R2-GEN-01](#r2-gen-01) | 2 | RIGHT | The plan works with no tracking (stands); the optional weekly check-in is removed. | Superseded |
-| [R2-VOL-01](#r2-vol-01) | 2 | RIGHT | Superseded: the check-in step table is gone. Only the limit (never above 7 % a week) remains. | Superseded |
+| [R2-VOL-01](#r2-vol-01) | 2 | RIGHT | Superseded: the check-in step table is gone, and its 7 % limit was retired by CX-01 and R4-PRG-02. | Superseded |
 | [R2-VOL-03](#r2-vol-03) | 2 | answered in words (no chip) | No check-in, no change: the plan follows its planned stairway. Now true for everyone. | Stands, refined |
 | [R3-VOL-02](#r3-vol-02) | 3 | RIGHT | No check-ins at all. Outputs only; people change the plan themselves. | Stands |
 | [PER-09](#per-09) | 1 | RIGHT | Strength template: main lifts 80/80/85/85/90/90 % at RPE 7 to 10; Olympic ramp 75 to 90 % (8s only for DB/KB and pulls). | Stands, refined |
-| [PRG-06](#prg-06) | 1 | PARTLY | One sound algorithm for rep, set and volume increases, for every athlete and level. | Stands |
+| [PRG-06](#prg-06) | 1 | PARTLY | One sound algorithm for rep, set and volume increases, for every athlete and level. | Stands, refined |
+| [CX-01](#cx-01) | 2026-10-10 | said in conversation | Reach the planned final sets; increase faster when needed. | Stands, refined |
+| [CX-02](#cx-02) | 2026-10-10 | said in conversation | A week may keep the same sets while reps or load progress; sets of any day or week are editable. | Stands |
+| [CX-03](#cx-03) | 2026-10-10 | said in conversation | At the top number, sets stay and reps or load progress. | Stands, refined |
+| [R4-PRG-01](#r4-prg-01) | 4 | RIGHT | Reach the top in the last week when the math allows; one week early is fine; never earlier. | Stands |
+| [R4-PRG-02](#r4-prg-02) | 4 | RIGHT | No hard limit on a weekly step; a clear note above about 15 %. | Stands |
+| [R4-PRG-03](#r4-prg-03) | 4 | RIGHT | Rep and load progress is a rule the person applies, not a promised number. | Stands |
+| [R4-PRG-04](#r4-prg-04) | 4 | RIGHT | Next block: about 5 % above the last block's start, whole sets, never above the level's top. | Stands |
 
 ## What he said in conversation
 
@@ -76,7 +93,7 @@ These are statements he made while the model was being built. They are closely p
 
 | Statement | Source | How the questionnaires treated it |
 |---|---|---|
-| Volume ramps week by week in small increments (he first said 3%, 5% or 7%). | `coach_chat_statements.md` | Now the stairway: about 3 % a week to the halfway week, about 5 % after, never above 7 % ([R2-PER-03](#r2-per-03), [R3-VOL-04](#r3-vol-04)). |
+| Volume ramps week by week in small increments (he first said 3%, 5% or 7%). | `coach_chat_statements.md` | Now the stairway: about 3 % a week to the halfway week, about 5 % after, with bigger steps allowed when the final sets need them ([R2-PER-03](#r2-per-03), [R3-VOL-04](#r3-vol-04), [CX-01](#cx-01)). |
 | "I usually go week to week: how many sets did you do this week? If you want to do more, do more sets the next week of the same thing." Example: 20 sets of chest this week; next week keep the load and do 22 sets with different exercises: more volume, more variety. | `coach_chat_statements.md` | [VOL-07](#vol-07) made it precise: the added set goes to the first exercise already on the list. Exercises stay the same inside a block ([PER-02](plans-and-calendar.md#per-02)). |
 | Week to week: count weekly sets per muscle; to progress, add sets of the same work next week, e.g. chest 20 sets -> 22 sets at the same load, using different exercises for more volume and variety. | `coach_answers.md` (earliest notes) | See [VOL-04](#vol-04) (the percentage is of weekly sets) and [VOL-07](#vol-07) (where the set goes). |
 | It must be very simple: put in the basics, get the whole program, see it ahead of time, adjust it yourself. No check-ins, no tracking, no data kept (confirmed in round 3). | `coach_chat_statements.md` | Confirmed by [R3-VOL-02](#r3-vol-02), [R3-VOL-04](#r3-vol-04) and [R3-GEN-01](legal-and-open-source.md#r3-gen-01). |
@@ -134,11 +151,13 @@ Each entry gives the question, the final rule as it stands today, what we assume
 
 **Final rule.** Small increases are rounded by banking: 5 % of 16 sets is 0.8 of a set, so the fraction is kept and a whole set is added when it reaches 1. Rounding up or down is fine. People should never have to work out the percentages: the tool does it.
 
-- **Status:** Stands as answered.
+- **Status:** Stands. Later answers added detail (see "Changed later").
 - **We assumed (round 1):** Bank the fraction and add a whole set once it reaches 1.
 - **His verdict (round 1):** RIGHT, with words
 - **In his words:** "I don't really need them to be figuring out the percentages. I need this tool that we're building eventually to figure out the percentages." (VOL-06)
 - **Where it lives:** `generator_spec_v1.json` → `rule_tables.banking`
+- **Changed later:**
+  - **REFINED by [CX-01](#cx-01) (2026-10-10).** Before: Fractions are banked until they make a whole set. Now: Still whole sets only; the schedule is fitted so the final number is reached.
 - **See also:** [VOL-04](#vol-04), [VOL-07](#vol-07)
 
 <details>
@@ -227,14 +246,21 @@ Each entry gives the question, the final rule as it stands today, what we assume
 
 **Question (round 3).** Your stairway in numbers: is this how the weekly steps should feel?
 
-**Final rule.** The stairway in numbers. Sets grow about 3 % a week until the halfway week and about 5 % after it. On 12 weeks, weeks 2 to 6 are small steps and weeks 7 to 12 are bigger. Each muscle's steps are sized so it reaches its ceiling in the last week. Example: an intermediate's big muscle goes from 15 to 22 sets, and the last four weeks are 19, 20, 21, 22. Effort goes from 3 reps in the tank early, to 2, to 1-2, to 1 plus intensifiers in the last week, always inside 1 to 3. His words added the main product rule: the program is kicked out already designed, with its own built-in growth, without anyone reporting how they feel. People see the whole plan ahead of time and adjust it themselves. "It's already a template, and you need to adjust it as you need to."
+**Final rule.** The stairway in numbers. Sets usually grow about 3 % a week until the halfway week and about 5 % after it. On 12 weeks, weeks 2 to 6 are small steps and weeks 7 to 12 are bigger. Each muscle's steps are sized so it reaches its ceiling in the last week. Example: an intermediate's big muscle goes from 15 to 22 sets, and the last four weeks are 19, 20, 21, 22. Effort goes from 3 reps in the tank early, to 2, to 1-2, to 1 plus intensifiers in the last week, always inside 1 to 3. His words added the main product rule: the program is kicked out already designed, with its own built-in growth, without anyone reporting how they feel. People see the whole plan ahead of time and adjust it themselves. "It's already a template, and you need to adjust it as you need to." Later answers kept all of this and settled four details: the final sets are reached even with bigger steps ([CX-01](#cx-01)), in the last week or one week early ([R4-PRG-01](#r4-prg-01)), with a note above about 15 % ([R4-PRG-02](#r4-prg-02)), and reps and load are written as a rule ([R4-PRG-03](#r4-prg-03)).
 
-- **Status:** Stands as answered.
+- **Status:** Stands. Later answers added detail (see "Changed later").
 - **We proposed (round 3):** Sets grow about 3 % a week until the halfway week and about 5 % after it (12 weeks: weeks 2-6 small steps, 7-12 bigger), and each muscle's steps are sized so it reaches its ceiling exactly in the last week. Example: intermediate big muscle 15 to 22 sets, the last four weeks 19, 20, 21, 22. To make week 1 feel like a 2 and the last week like an 11, effort goes from 3 reps in the tank early, to 2, to 1-2, to 1 + intensifiers in the last week, always inside your 1-3. With a check-in, 'perfect' = the planned step and 'too easy' = the planned step + 2 points (max 7 %): +3 / +5 % in the first half, your +5 / +7 % after it.
 - **His verdict (round 3):** RIGHT, with words
 - **In his words:** "I want them to be able to kick out a program, and that's it. That's the program." / "It's already a template, and you need to adjust it as you need to." / "It doesn't need to rely too much on inputs." (R3-VOL-04)
 - **Not confirmed by him:** The proposal's last sentence described a check-in ("perfect" = the planned step, "too easy" = the step + 2 points). His words remove it, so that sentence is void. Two team readings are open: when a muscle's ceiling is far above its start, small steps cannot reach it, so the ceiling is treated as a maximum (INFERRED). The wording of the printed "How to adjust this plan" guide is PROPOSED.
 - **Where it lives:** `generator_spec_v1.json` → `rule_tables.rate_engine.standard_steps`, `rule_tables.rate_engine.planned_targets_by_level`, `rule_tables.effort.planned_drift`, `rule_tables.rate_engine.self_adjust_guide`
+- **Changed later:**
+  - **REFINED by [CX-01](#cx-01) (2026-10-10).** Before: Steps of about 3 % and 5 %, sized so each muscle reaches its ceiling in the last week. Now: The final sets are reached even when that needs bigger steps than 3 % and 5 %. The percentages are the usual pattern, not a limit.
+  - **REFINED by [CX-02](#cx-02) and [CX-03](#cx-03) (2026-10-10).** Before: Sets grow every step of the stairway. Now: A week may keep the same sets while reps or load progress, also at the top number.
+  - **REFINED by [R4-PRG-01](#r4-prg-01) (round 4).** Before: Ceiling in the last week. Now: In the last week when the math allows; one week early is fine; never earlier.
+  - **REFINED by [R4-PRG-02](#r4-prg-02) (round 4).** Before: No rule for a very large step. Now: No hard limit; a clear note when a week adds more than about 15 %.
+  - **REFINED by [R4-PRG-03](#r4-prg-03) (round 4).** Before: Growth is "built in". Now: Sets are planned week by week; reps and load are written as a rule the person applies.
+  - **REFINED by [CX-04](product-and-generator.md#cx-04) (2026-10-10).** Before: "It's already a template, and you need to adjust it as you need to." Now: Confirmed and widened: "it should be all editable as they need to", including the sets of any day or week.
 - **This answer changed:** [UNI-05](bilateral-unilateral.md#uni-05) (refined), [VOL-04](#vol-04) (refined), [VOL-05](#vol-05) (refined), [VOL-13](volume.md#vol-13) (refined), [GEN-02](product-and-generator.md#gen-02) (refined), [GEN-05](#gen-05) (reversed), [R2-VOL-06](volume.md#r2-vol-06) (reversed), [R2-PER-03](#r2-per-03) (refined), [R2-PER-04](#r2-per-04) (refined), [R2-PER-05](#r2-per-05) (refined), [R2-GEN-01](#r2-gen-01) (reversed)
 - **See also:** [R2-PER-03](#r2-per-03), [R2-PER-04](#r2-per-04), [R2-PER-05](#r2-per-05), [R3-VOL-02](#r3-vol-02), [VOL-13](volume.md#vol-13), [R2-VOL-06](volume.md#r2-vol-06)
 
@@ -248,6 +274,121 @@ Each entry gives the question, the final rule as it stands today, what we assume
 > I guess that's probably the easiest, best way for people to get their program, whether it be coaches, athletes, or general population people. It doesn't matter. This needs to be very simple for them to see the whole thing ahead of time, ideally, and they can adjust ahead of time, ideally. It doesn't need to rely too much on inputs.
 
 </details>
+
+### Reaching the target, flat weeks and the written rule (2026-10-10 and round 4)
+
+These seven answers are the newest on this page. On their subjects they win over everything above: the final sets are reached, there is no hard limit on a weekly step, a week may hold its sets, and reps and load are written as a rule.
+
+#### CX-01
+
+**Question (conversation, 2026-10-10; a summary, not his words).** If reaching the final planned set target requires faster increases than the existing rate rules permit, should the plan finish with fewer sets instead?
+
+**Final rule.** No. Reach the planned final sets. Increase faster when that is what it takes. The person or coach can edit the result. He gave no new percentage and no new maximum.
+
+- **Status:** Stands. Round 4 added detail (see "Changed later").
+- **Authority:** A dated clarification (`COACH-CX CX-01`), given to the outside reviewer (Codex). It ranks above rounds 1 to 3 on this subject and below round 4.
+- **In his words:** "no, go ahead and increase faster if thats the need, they could edit accordingly" (CX-01)
+- **Not confirmed by him:** This answer does not waive effort, equipment, population or scope rules. The arithmetic of the faster schedule is the team's.
+- **Where it lives:** `model/rules.json` → `stairway.progression` (`target_reached: true`); `engine/progression/stairway.mjs`. Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md). Decision records: [ADR-049](../04-decisions/adr-049-endpoint-priority-and-editable-progression.md), [ADR-053](../04-decisions/adr-053-progression-written-as-a-rule.md).
+- **Changed later:**
+  - **REFINED by [R4-PRG-01](#r4-prg-01) (round 4).** Before: Reach the target. Now: In the last week when the math allows; one week early is fine; never earlier.
+  - **REFINED by [R4-PRG-02](#r4-prg-02) (round 4).** Before: Faster, with no number. Now: No hard limit, and a clear note on any week that adds more than about 15 %.
+- **This answer changed:** [UNI-05](bilateral-unilateral.md#uni-05) (refined), [VOL-06](#vol-06) (refined), [R3-VOL-04](#r3-vol-04) (refined), [R2-VOL-01](#r2-vol-01) (reversed), [R2-VOL-06](volume.md#r2-vol-06) (refined)
+- **See also:** [CX-02](#cx-02), [CX-03](#cx-03), [CX-04](product-and-generator.md#cx-04)
+
+#### CX-02
+
+**Question (conversation, 2026-10-10; a summary, not his words).** Can a week keep the same number of sets while progression comes from reps or load?
+
+**Final rule.** Yes. Two weeks in a row may have the same sets when reps or load progress. People may also change the sets of any single day or week. This is not permission to call an unchanged week "progress", and it adds no check-in.
+
+- **Status:** Stands as answered.
+- **In his words:** "yes but also should be editable if they want to adjust their sets on that week or that day doesnt matter" (CX-02)
+- **Where it lives:** `model/rules.json` → `stairway.progression.flat_weeks_ok` (true), `render.progression`; edits in `engine/edit.mjs`. Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md).
+- **This answer changed:** [R3-VOL-04](#r3-vol-04) (refined), [R3-SES-02](sessions-and-order.md#r3-ses-02) (refined)
+- **See also:** [R4-PRG-03](#r4-prg-03), [CX-04](product-and-generator.md#cx-04)
+
+#### CX-03
+
+**Question (conversation, 2026-10-10; a summary, not his words).** Once the maximum weekly sets are reached, can sets stay there while progress comes from reps or load?
+
+**Final rule.** Yes. At the top number, sets stay level and progress comes from reps or load. It stays editable. This answer sets no new top numbers.
+
+- **Status:** Stands. Round 4 added detail (see "Changed later").
+- **In his words:** "yes but they should be able to edit accordingly" (CX-03)
+- **Where it lives:** `model/rules.json` → `cycles.next_block.at_top` (`sets_stay_load_and_reps_progress`). Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md).
+- **Changed later:**
+  - **REFINED by [R4-PRG-04](#r4-prg-04) (round 4).** Before: At the top, hold sets. Now: Also true across blocks: a person already at the top keeps their sets in the next block and progresses by load and reps.
+- **This answer changed:** [R3-VOL-04](#r3-vol-04) (refined)
+- **See also:** [R2-VOL-06](volume.md#r2-vol-06), [R4-PRG-04](#r4-prg-04)
+
+<details>
+<summary>His three answers, 2026-10-10 (from <code>coach_answers_codex_2026-10-10.md</code>)</summary>
+
+> 1) no, go ahead and increase faster if thats the need, they could edit accordingly
+>
+> 2) yes but also should be editable if they want to adjust their sets on that week or that day doesnt matter
+>
+> 3) yes but they should be able to edit accordingly
+
+</details>
+
+#### R4-PRG-01
+
+**Question (round 4).** The top set number for a muscle: reach it exactly in the last week, or is arriving a week or two early and holding it there fine?
+
+**Final rule.** Reach it in the last week when the math allows. Arriving one week early and holding with more reps or load is fine. Never earlier than that.
+
+- **Status:** Stands as answered.
+- **We proposed (round 4):** Reach it in the last week when the math allows. Arriving one week early and holding with more reps or load is fine. Never earlier than that.
+- **His verdict (round 4):** RIGHT, no words (our proposal became his rule)
+- **Not confirmed by him:** PROPOSED: a block that ends with a strength-test week reaches the top in the week before the test and holds.
+- **Where it lives:** `model/rules.json` → `stairway.progression.arrival_weeks_early` (0), `arrival_weeks_early_max` (1). Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md).
+- **This answer changed:** [R3-VOL-04](#r3-vol-04) (refined), [CX-01](#cx-01) (refined)
+- **See also:** [R4-PRG-02](#r4-prg-02), [CX-03](#cx-03)
+
+#### R4-PRG-02
+
+**Question (round 4).** You said 'increase faster if that's the need'. In extreme cases (a 4-week block with a big target) that can mean +50% sets in one week. Limit or no limit?
+
+**Final rule.** No hard limit. The plan prints a clear note when any week adds more than about 15 %: this week jumps more than usual, adjust if needed.
+
+- **Status:** Stands as answered.
+- **We proposed (round 4):** No hard limit, but the plan prints a clear note when any week adds more than about 15% ('this week jumps more than usual: adjust if needed').
+- **His verdict (round 4):** RIGHT, no words (our proposal became his rule)
+- **Not confirmed by him:** PROPOSED: one single added set is never flagged, even when it is more than 15 % of a small number, because it is the smallest step a group can take. The mark printed next to a flagged week is PROPOSED.
+- **Where it lives:** `model/rules.json` → `stairway.progression.note_above` (0.15), `note_min_whole_sets` (2), `render.acceleration`. Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md).
+- **This answer changed:** [UNI-05](bilateral-unilateral.md#uni-05) (refined), [R3-VOL-04](#r3-vol-04) (refined), [CX-01](#cx-01) (refined), [R2-VOL-01](#r2-vol-01) (reversed)
+- **See also:** [R4-PRG-01](#r4-prg-01)
+
+#### R4-PRG-03
+
+**Question (round 4).** How should rep and load progress be written, since there are no check-ins?
+
+**Final rule.** As a rule the person applies themselves: "3 sets of 8-12. When you hit 12 on every set with 1-2 reps left in the tank, add weight next time and start again at 8." Not as a promise like "week 3: 12 reps".
+
+- **Status:** Stands as answered.
+- **We proposed (round 4):** As a rule the person applies themselves: '3 sets of 8-12. When you hit 12 on every set with 1-2 reps left in the tank, add weight next time and start again at 8.' Not as a promise like 'week 3: 12 reps'.
+- **His verdict (round 4):** RIGHT, no words (our proposal became his rule)
+- **Not confirmed by him:** PROPOSED: the wording for lifts with fixed reps and for pyramids, and the "per side" form for single-side lifts. Timed circuits progress by seconds and rounds ([PRG-03](sessions-and-order.md#prg-03)).
+- **Where it lives:** `model/rules.json` → `render.progression` (`promised_numbers: false`); words `ui.plan.progress.double`, `ui.plan.progress_rule` in `model/i18n/en.json` and `es.json`; `engine/progression/prescription.mjs`. Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md). Decision record: [ADR-053](../04-decisions/adr-053-progression-written-as-a-rule.md).
+- **This answer changed:** [R3-VOL-04](#r3-vol-04) (refined), [PRG-06](#prg-06) (refined)
+- **See also:** [CX-02](#cx-02), [R3-VOL-02](#r3-vol-02), [VOL-13](volume.md#vol-13)
+
+#### R4-PRG-04
+
+**Question (round 4).** When someone finishes a block and starts the next one, where do their sets start?
+
+**Final rule.** A little above where the last block started: about 5 % more, rounded to whole sets, never above the level's top number. If they are already at the top, sets stay and progress comes from load and reps. "It has to be logical."
+
+- **Status:** Stands as answered.
+- **We proposed (round 4):** A little above where the last block started (about 5% more, rounded to whole sets), never above the level's top number. If they're already at the top, sets stay and progress comes from load and reps.
+- **His verdict (round 4):** RIGHT, with words
+- **In his words:** "Yeah, and it has to be logical." (R4-PRG-04)
+- **Not confirmed by him:** PROPOSED: while a group is below its top, the next block starts at least one whole set higher (5 % of a small number rounds to nothing). Nothing is stored between blocks: the person says how many blocks they finished when they build the next plan.
+- **Where it lives:** `model/rules.json` → `cycles.next_block` (105 / 100, `never_above_top: true`). Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md).
+- **This answer changed:** [PER-01](plans-and-calendar.md#per-01) (refined), [CX-03](#cx-03) (refined), [R2-VOL-06](volume.md#r2-vol-06) (refined)
+- **See also:** [R3-PER-01](plans-and-calendar.md#r3-per-01), [R2-VOL-06](volume.md#r2-vol-06)
 
 ### Where added sets go
 
@@ -267,6 +408,7 @@ Each entry gives the question, the final rule as it stands today, what we assume
   - **REFINED by [R2-SES-05](sessions-and-order.md#r2-ses-05) (round 2).** Before: 3 to 4 exercises per muscle group per day. Now: Full-body days too: 2 to 4 exercises per muscle that day, never 1.
   - **REFINED by [R3-VOL-03](#r3-vol-03) (round 3).** Before: Add the set to the first exercise of day A. Now: When day A runs twice a week, alternate: Monday's first exercise, then Thursday's. The bonus exercise goes on the optional day, or on a day that already trains that muscle.
   - **REFINED by [R3-SES-01](sessions-and-order.md#r3-ses-01) (round 3).** Before: Exercises counted "per muscle group". Now: Counted on his FOCUS groups (hips = glutes + hamstrings; shoulders = all three delts).
+  - **REFINED by [R4-SES-05](sessions-and-order.md#r4-ses-05) (round 4).** Before: 3 to 4 exercises per muscle group per day. Now: On his A and B full-body days the template fixes the exercises (about 6 a day), so a group has 1 to 3 there. Where the added set goes is unchanged: the first exercise first.
 - **See also:** [R3-VOL-03](#r3-vol-03), [R2-SES-05](sessions-and-order.md#r2-ses-05), [VOL-06](#vol-06), [ORD-11](sessions-and-order.md#ord-11)
 
 <details>
@@ -357,7 +499,7 @@ Each entry gives the question, the final rule as it stands today, what we assume
 
 **Question (round 2).** Each week the plan grows by 3, 5 or 7 % depending on how the person's week went. Does this table match how you'd adjust a client?
 
-**Final rule.** Superseded. In round 2 he approved a table that grew the plan by 3, 5 or 7 % from how the week went: too easy = more, on target = the planned step, effort 9 = hold, any 10 = hold and one set less, under half the sessions = repeat the week. In the same round he rejected every lifestyle question, which emptied the table's "life was harder / better" cells. In round 3 he removed the check-in itself. The one part still in use is the limit: no weekly step above 7 %.
+**Final rule.** Superseded. In round 2 he approved a table that grew the plan by 3, 5 or 7 % from how the week went: too easy = more, on target = the planned step, effort 9 = hold, any 10 = hold and one set less, under half the sessions = repeat the week. In the same round he rejected every lifestyle question, which emptied the table's "life was harder / better" cells. In round 3 he removed the check-in itself. The team had kept one part, the limit of 7 % on a weekly step. That limit is retired too: the final sets are reached with bigger steps when needed ([CX-01](#cx-01)), and a week above about 15 % carries a note ([R4-PRG-02](#r4-prg-02)).
 
 - **Status:** SUPERSEDED. A later answer replaced this one (see "Changed later").
 - **We proposed (round 2):** Effort mostly 1-6 (too easy): +7 % (+5 % if life was harder). Effort 7-8 (tough / perfect): +5 % (+3 % if life was harder). Effort 9: hold (+3 % only if life was better than usual). Any '10 - I'm done': hold and remove 1 set from that day. Life 'much harder' (sick, travel, no sleep): hold. Never more than 7 % a week; repeat the week if they did under half the sessions.
@@ -367,6 +509,7 @@ Each entry gives the question, the final rule as it stands today, what we assume
 - **Changed later:**
   - **REVERSED by [R2-GEN-04](product-and-generator.md#r2-gen-04) (round 2).** Before (superseded): The table had cells for "life was harder" and "life was better". Now: Same round: "There's no need to talk about sleep or stress or anything else." The life cells were dropped.
   - **REVERSED by [R3-VOL-02](#r3-vol-02) (round 3).** Before (superseded): A check-in table decides next week's step (RIGHT). Now: No check-ins at all. "We're only doing outputs."
+  - **REVERSED by [CX-01](#cx-01) (2026-10-10) and [R4-PRG-02](#r4-prg-02) (round 4).** Before (superseded): The one part still in use was the limit: no weekly step above 7 %. Now: No hard limit. The final sets are reached, and a week that adds more than about 15 % carries a note.
 - **This answer changed:** [VOL-05](#vol-05) (refined)
 - **See also:** [R2-GEN-04](product-and-generator.md#r2-gen-04), [R3-VOL-02](#r3-vol-02), [R2-VOL-02](volume.md#r2-vol-02), [R2-VOL-03](#r2-vol-03)
 
@@ -445,11 +588,13 @@ Each entry gives the question, the final rule as it stands today, what we assume
 
 **Final rule.** In his Upper/Lower example the upper-day reps rose with level while the lower-day reps fell. That was probably a fill error, or a different program. The rule he wants: one mathematical algorithm for rep increases, set increases and volume changes that is equal and sound for every kind of athlete and every level.
 
-- **Status:** Stands as answered.
+- **Status:** Stands. Later answers added detail (see "Changed later").
 - **We assumed (round 1):** Fill error.
 - **His verdict (round 1):** PARTLY
 - **In his words:** "we should make sure our mathematical algorithm for rep rises, set rises, and volume adaptations is equal and sound for every different model of athlete, level, and everything" (PRG-06)
 - **Where it lives:** `generator_spec_v1.json` → `rule_tables.reps.one_algorithm`
+- **Changed later:**
+  - **REFINED by [R4-PRG-03](#r4-prg-03) (round 4).** Before: One algorithm for rep, set and volume increases. Now: Sets follow the planned stairway; rep and load increases are written as one rule the person applies.
 - **See also:** [VOL-06](#vol-06), [R2-PER-03](#r2-per-03)
 
 <details>

@@ -2,7 +2,7 @@
 
 This page describes the exercise library behind the model: where it comes from, what is in it, how many exercises each category holds, how levels and swaps work, how one exercise can be varied between blocks (the "variation grammar"), and what was renamed, removed and added, with the reason for each. The coach's own MASTER EXERCISE LIBRARY is the single source of truth. Every slot in a plan gets a default exercise plus a short list of swaps from the same category. The tool may change one detail of a library exercise between blocks, and it never invents an exercise. The catalog today holds 939 records, of which 732 are active exercises, drills, cardio items and tests.
 
-**How to read the tags.** `CAT-07`, `LIB-09` and similar = his round-1 answers (`coach_answers_full.md`). `R2-...` = round 2. `R3-...` = round 3, the newest; a later round wins. "chat" = things he said in conversation. **OBSERVED** = read from his sheets. **INFERRED** = our reading. **PROPOSED** = our design or addition, not confirmed by him. "Approved as proposed" = he marked our wording RIGHT without adding words.
+**How to read the tags.** `CAT-07`, `LIB-09` and similar = his round-1 answers (`coach_answers_full.md`). `R2-...` = round 2. `R3-...` = round 3. `R4-...` = round 4 (`coach_answers_round4.md`), the newest questionnaire round. `CT-01` and `CX-01..04` = two clarifications he gave on 2026-10-10 (session time; progression and editing). The newest answer wins on its subject. "chat" = things he said in conversation. **OBSERVED** = read from his sheets. **INFERRED** = our reading. **PROPOSED** = our design or addition, not confirmed by him. "Approved as proposed" = he marked our wording RIGHT without adding words.
 
 **Short forms.** DB = dumbbell. KB = kettlebell. RDL = Romanian deadlift. SL = single leg. GHD = glute-ham developer, a bench that holds the feet and hips. HYROX = a fitness race of 1 km runs, each followed by a workout station.
 
@@ -34,7 +34,7 @@ He also wants the library to be open: people must be able to add and create exer
 | MASTER MODEL workbook, reference tabs ('Sheet23', '(NOT DONE) RESISTANCE PATTERNS', 'ALL ABOUT SQUATS', '(NOT DONE) ALL ABOUT LUNGES', '(NOT DONE) ALL ABOUT BALLISTICS', '(NOT DONE) ALL ABOUT OLYMPIC LI', 'CONTROL PATTERNSCORE', 'AGILITYCOD PATTERNS') | older drafts and study tabs | swaps only; also used to read levels and the variation vocabulary |
 | MASTER MODEL workbook, program tabs (baseball, boxing, 4 tracks, upper / lower, push / pull / legs, CrossFit and others) | exercises he wrote into real programs but never added to the library | swaps only until he adds them to his library (R2-LIB-07, approved as proposed) |
 | His answers | exercises he approved or described in the questionnaires | added as library items |
-| The team | exercises the new sports need and the library lacks | PROPOSED, swaps only |
+| The team | exercises the new sports need and the library lacks | **optional add-ons** since round 4 (R4-LIB-01): a person can choose and add them; a template never picks them. Neck work stays PROPOSED. |
 
 The two workbooks are in `raw/` (Excel exports) and, tab by tab as text, in `dumps/`. Nothing in his Google Sheets was changed. All corrections live in the catalog.
 
@@ -70,13 +70,27 @@ How it was merged: 4,009 rows from the sheets were read, names were normalised, 
 | `reference_only` | 215 | only in a MASTER MODEL reference tab | swap only (a few were promoted by his answers) |
 | `program_only` | 121 | only named in his program tabs (SL RDL, JM press, seal rows ...) | swap only (a few were promoted by his answers) |
 | `added_v1`, `added_v1_1` | 6 | added by one of his answers | yes |
-| `proposed_v1`, `proposed_v1_1` | 31 | PROPOSED by the team (9 carries and drags, 22 sport additions) | **never**, until he approves |
+| `proposed_v1`, `proposed_v1_1` | 31 | proposed by the team (9 carries and drags, 22 sport additions). **Round 4 made 29 of them optional add-ons** (R4-LIB-01); the 2 neck records stay PROPOSED. The source file keeps these status words; the compiler writes the new status (next table). | **never** the template's pick |
 
 **368 records can be a default pick** (`generator.default_candidate`). The rest are swaps.
 
+**The compiled library** (`model/catalog.json`, what the engine reads) holds 733 records: 731 of these source records, plus the 2 mid-range pull rows of round 4. Their status after the compile:
+
+| Status in `model/catalog.json` | Count | Meaning | Can a template pick it? |
+|---|---|---|---|
+| `live_library_selectable` | 350 | his BYOP library | yes |
+| `live_library_not_selectable` | 9 | in his library, no dropdown reads it | no |
+| `reference_only` | 213 | reference tabs | no; a swap |
+| `program_only` | 117 | his program tabs | no; a swap |
+| `added_v1`, `added_v1_1` | 10 | added by one of his answers | yes |
+| `optional_addon` | 32 | the 29 team proposals he made optional (carries, sleds, wall balls, swimmer shoulder work, tibialis and soleus raises ...), the 2 mid-range pull rows (high row machine, 45-degree cable row), and his own single-side (suitcase) carry record, which R4-LIB-01 names beside the farmer carry | **never**. It is a swap and an offered add-on. Wall balls and sled pushes may be picked in HYROX and, as a PROPOSED reading of "maybe", in the CrossFit-style class workout (R4-LIB-01). |
+| `proposed_v1_1` | 2 | neck work, still PROPOSED | **never**, and not shown, until he decides (R4-LIB-01) |
+
+**Round 4 (R4-LIB-01 to 05), in short.** He made the proposed exercises live as optional: "they can be chosen and added, but not primary ones that the program is going to throw at you as part of the template." Carries and sled work are written by distance or time (2-4 trips of 20-40 m, or 20-40 s) and do not count as muscle sets. There is a small **mid-range pull** category between the horizontal and the vertical pull (high row, 45-degree row, the face-pull angle), and bodybuilding and general-population plans put an **incline press** before an overhead press in the vertical / mid-range push slot. A swap says in one line what it keeps and what it loses. The video links from his sheets are gone from the library: every exercise has a YouTube search link built from its name, and the plan shows that exact name to copy. Engine details: `engine/DECISIONS.md` G-25 to G-35.
+
 ### 3.3 Counts by family
 
-| Family | Active records | In his BYOP library | Reference only | Program only | Added by his answers | PROPOSED | Can be default |
+| Family | Active records | In his BYOP library | Reference only | Program only | Added by his answers | Proposed by the team (29 are optional add-ons since round 4) | Can be default |
 |---|---|---|---|---|---|---|---|
 | Athletic (AP) | 239 | 90 | 97 | 49 | 0 | 3 | 100 |
 | Resistance (RP) | 299 | 209 | 39 | 39 | 6 | 6 | 217 |
@@ -204,7 +218,9 @@ What "fits" means. Each consideration comes from one of his answers. He did not 
 | Level | a soft default; safety beats the level label | CAT-05, EQ-04 |
 | Staying the same | inside a block the exercise does not change | PER-02 |
 
-How the engine weighs these against each other (the order and the scoring weights) is PROPOSED, and the engine is being rebuilt.
+Two more selection rules came in round 4. For muscle, general-fitness, fat-loss and "stay active" goals, the vertical / mid-range push slot leads with an **incline press**; overhead presses stay in the swap list (R4-LIB-03). On his A / B and push / pull / legs days each slot keeps its kind: a two-leg slot holds a two-leg lift, a single-leg slot a single-leg lift, and the A day opens with a two-arm row (R4-SES-05).
+
+How the engine weighs these against each other (the order and the scoring weights) is PROPOSED.
 
 ### 5.2 The dropdown
 
@@ -214,8 +230,11 @@ How the engine weighs these against each other (the order and the scoring weight
 |---|---|---|
 | His BYOP library items, and items his answers added | yes | yes |
 | Reference-tab and program-only exercises | no | yes |
-| PROPOSED records | no | yes (swap only until he approves them) |
+| Optional add-ons (the exercises the team proposed, made optional in round 4; the 2 mid-range pull rows) | no. Exception: wall balls and sled pushes in HYROX, and in the CrossFit-style class as a PROPOSED reading of "maybe" | yes, and a plan lists the ones that fit under "Optional add-ons" (R4-LIB-01) |
+| Still-PROPOSED records (neck work) | no | no, not shown until he decides (R4-LIB-01) |
 | Out-of-scope (band, chain) and retired records | no | no |
+
+A swap prints one short line on what it keeps and what it loses (R4-LIB-04, approved as proposed): "DB snatch instead of power clean: keeps the explosive hip drive, loses the barbell catch." The phrase table is PROPOSED.
 
 The current engine lists 2 to 4 swaps per slot (`model/rules.json > selection.swaps`; an engine setting, PROPOSED).
 
@@ -369,7 +388,7 @@ The 36 + 11 records stay in the JSON with `record_type` `out_of_scope` or `retir
 | MACH drills, A-march, A-skip, A-run, acceleration starts | | the speed session; A-drills are warm-up and never count as volume | LIB-21, ORD-08 |
 | Squat holding an object between the knees, Cossack lateral lunge, split-stance contralateral single-arm KB swing | | frontal and transverse moves for court and combat athletes | LIB-20 |
 
-**PROPOSED by the team (swap only, never the default, until he approves).**
+**Proposed by the team, and made optional add-ons in round 4** (R4-LIB-01: "they can be chosen and added, but not primary ones that the program is going to throw at you as part of the template"). Wall balls and sled pushes may be primary in HYROX, maybe CrossFit. Neck work stays PROPOSED and is not shown.
 
 | Records | Why | Status |
 |---|---|---|
@@ -403,10 +422,10 @@ The dips and thruster splits are his answers for those two exercises. They are n
 | Program and day names | generic and understandable | FIX-03 |
 | Spanish | neutral Latin American Spanish, with the English gym word in brackets: 'Empuje de cadera (Hip Thrust)'. He or a coach he trusts approves every line. | R2-GEN-08 |
 | Cues | a short cue per exercise in his voice, plus his instruction block at the top (approved as proposed). The 70 records that have a cue today build it from one of his answers and carry that answer's id (one cue is marked INFERRED). No cue is invented for him. | GEN-07; "no invented cue" is a project rule, not a coach statement |
-| Videos | optional. "They can just look up the videos on their own on YouTube. No need to have the videos on there." | R2-GEN-02 |
+| Videos | optional, and no third-party links. Each exercise has a YouTube search link built from its English name, and the plan shows that exact name to copy: "Click here to copy it and put into YouTube." His own videos can be added later. | R2-GEN-02, R4-LIB-05 |
 
 Notes:
-- 136 active records carry a video link read from his sheets (`video_urls`). Those videos are not his (chat). His own video library is not built yet.
+- The video links read from his sheets were removed from the public data in round 4 (R4-LIB-05): they are not his (chat). `video_urls` is empty on every record. The compiled record carries `video: {kind: "search", url}`. His own video library is not built yet.
 - Spanish names are not stored in the source catalog. They are kept in `tools/compile/es/exercises.mjs` and compiled into `model/i18n/es.json`. They still need his line-by-line approval.
 
 ---
@@ -429,7 +448,7 @@ Notes:
 | His labels and our names side by side | `BLAZE_CAMP_BRAIN.md` | §4 (library), Appendix A |
 | Plan editing (add / remove) | `generator_spec_v1.json` | `plan_editing` |
 | His original library | `raw/BYOP.xlsx`; `dumps/BYOP/09_MASTER_EXERCISE_LIBRARY.txt` | tab 'MASTER EXERCISE LIBRARY' |
-| Compiled copy the engine reads | `model/catalog.json` | `exercises[]`; the live count is `model/manifest.json > counts.exercises` (generated, never edit by hand; the engine is being rebuilt) |
+| Compiled copy the engine reads | `model/catalog.json` | `exercises[]`; the live count is `model/manifest.json > counts.exercises` (generated, never edit by hand) |
 
 ---
 
@@ -437,7 +456,9 @@ Notes:
 
 | Item | Where it stands |
 |---|---|
-| The 31 PROPOSED records (9 carries and drags, 22 sport additions) | swaps only until he approves each one; their levels and doses are INFERRED |
+| The 31 records the team proposed (9 carries and drags, 22 sport additions) | 29 are optional add-ons since round 4 (R4-LIB-01); the 2 neck records stay PROPOSED and hidden. Their levels are INFERRED. Carries and sled work have his dose (R4-LIB-02). |
+| The 2 mid-range pull rows (high row machine, 45-degree cable row) | the category is his (R4-LIB-03); the two records are PROPOSED and optional add-ons |
+| Wall balls and sled pushes in the CrossFit-style class | "maybe"; on by default, one switch turns it off (PROPOSED reading of R4-LIB-01) |
 | About 120 program-only exercises | swaps only until he adds them to his library (R2-LIB-07) |
 | Posterior oblique system and lateral subsystem | empty headings in his sheet; nothing proposed yet |
 | Where kettlebell swings sit | the triple-extension / ballistic pool (INFERRED from R2-VOL-05) |

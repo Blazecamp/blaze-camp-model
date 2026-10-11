@@ -5,6 +5,7 @@ import { circuitWorkSeconds } from '../../engine/shape.mjs';
 // real modules. Mechanical parts (kit tokens, shares, stairway week fields) are computed from the model rules.
 import fs from 'node:fs';
 import { loadModel } from '../../engine/model.mjs';
+import { sessionSize } from '../../engine/intake.mjs';
 import { makeSeed, WEEKDAYS } from '../../engine/util.mjs';
 
 let _fixture = null;
@@ -210,21 +211,22 @@ export function stubDerived(name, model, patch = {}) {
       season_type: t.season.season_type, practice_days: sport.practice ? sport.practice.practice_days_per_week : null, game_days: (sport.practice && sport.practice.game_days) || [] }
       : { phase: null, weeks_to_season: null, season_date: null, competition_date: null, season_type: null, practice_days: null, game_days: [] },
     D5_plan_shape: { ...t.D5 },
-    D6_week_layout: { ...t.D6 },
+    // v0.5 (R4-SES-02): the session size by client type (the real intake.sessionSize)
+    D6_week_layout: { ...t.D6, session_size: sessionSize({ age }, t.D6.family, { competitive: comp }, { template: model.template(t.D6.family, t.D6.days), variant: t.D6.variant }, model) },
     D7_constraint_band: { client_family: t.client_family, ...pick(R.equipment.client_families[t.client_family], ['main', 'iso', 'machine_pen', 'skill_pen']) },
     D8_kit: kitOf(intake, R),
     D9_start_sets: { modifier_id: t.modifier, start, cap, fill, priority: t.priority || [], pain_muscles: t.pain_muscles || [], floored: [],
       credit_only: R.muscles.order.filter((m) => fill[m] === 'credit'), calves_per_leg_day: 3, core_block: { exercises: 2, sets: 2 }, why: {} },
     D10_bilateral_share: D10share,
     D11_athletic_budget: D11,
-    D12_planned_step: { early: 0.03, late: 0.05, caps: { nonpriority_while_priority: (t.priority || []).length ? 0.03 : null, older: age >= 60 ? 0.03 : null }, source: 'planned_stairway' },
+    D12_planned_step: { early: 0.03, late: 0.05, caps: { nonpriority_while_priority: null, older: null }, target_reached: true, note_above: 0.15, arrival_weeks_early_max: 1, source: 'planned_stairway' },
     D13_tests: { items: tests, baseline_week: tests.length ? 1 : null, end_weeks: tests.length ? t.tests.end_weeks : [], from_zero: true },
     D14_aerobic_sessions: { per_week: t.D14.per_week, base: t.D14.base, adjust: intake.prefs.cardio_adjust || 0, replaced_by_activity: t.D14.replaced_by_activity || 0,
       walks: !!t.D14.walks, colours: t.D14.colours.slice(), fighter_open: false, sport_is_aerobic: !!t.D14.sport_is_aerobic },
     goal: intake.goal, format: intake.format || 'gym', lang: intake.lang, units: intake.units,
     age, age_group: age < 18 ? 'youth' : age >= 60 ? 'older' : age >= 50 ? 'active_aging_50' : 'adult',
     body_weight_lb: intake.body_weight.unit === 'kg' ? Math.round(intake.body_weight.value * 2.20462 * 100) / 100 : intake.body_weight.value,
-    days_per_week: intake.schedule.days_per_week, weekdays: intake.schedule.weekdays.slice(), session_minutes: intake.schedule.session_minutes,
+    days_per_week: intake.schedule.days_per_week, weekdays: intake.schedule.weekdays.slice(),
     start_date: intake.schedule.start_date, play_days: (intake.activity && intake.activity.play_days) || [], event_date: (intake.activity && intake.activity.event_date) || null,
     priority_muscles: t.priority || [], pain: (intake.pain || []).map((p) => ({ ...p, worse_with: (p.worse_with || []).slice() })),
     exclusions: (intake.exclusions || []).slice(), lift_style: intake.lift_style, output_mode: intake.output_mode,
@@ -290,7 +292,7 @@ export function stubShape(name, model, derived) {
           stair_N: N, exercise_block_week: ebWeek };
         if (d.D6_week_layout.format === 'bootcamp') {
           const sb = R.supersets.bootcamp.stairway;
-          const rounds = Math.min(sb.rounds_max_by_minutes[String(d.session_minutes)] || sb.rounds_start, d.session_minutes <= 45 ? sb.rounds_start : 99);
+          const rounds = (sb.rounds_by_level && sb.rounds_by_level[d.D3_client_level.level]) || sb.rounds_start;
           if (sb.by_planned_steps) {
             // v1.2 (D-19 revised): the planned steps on the work seconds, lambda-scaled to the top, 1-s steps
             ws.circuit = { rounds, work_s: circuitWorkSeconds(N, st.standard_steps, sb)[w - 1] };

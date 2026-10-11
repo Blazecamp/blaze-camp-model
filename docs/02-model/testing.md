@@ -2,7 +2,7 @@
 
 Testing is optional in the Blaze Camp model. At the start of a block the athlete or the coach ticks what they want to test: strength, cardio, speed and agility, jumps or body weight. Tests happen before the block, or in its first week, and again in its last week. They never happen in between. Nobody tests a true maximum from zero: a person who has not finished a block of training tests a 5-rep or 3-rep max and runs at 80 to 90 % effort. The plan prints the test weeks and the reminders. It stores no results.
 
-> **How to read this page.** A rule with an answer id was decided by coach Lalo Vera. Ids with no prefix (`PER-07`) are round 1, `R2-` is round 2, `R3-` is round 3. The newest round wins. **PROPOSED** means the team designed it and he has not confirmed it. **OBSERVED** means it was read from his sheets. His full answers by topic: [../03-coach-answers/testing.md](../03-coach-answers/testing.md).
+> **How to read this page.** A rule with an answer id was decided by coach Lalo Vera. Ids with no prefix (`PER-07`) are round 1, `R2-` is round 2, `R3-` is round 3. The newest round wins. **PROPOSED** means the team designed it and he has not confirmed it. **OBSERVED** means it was read from his sheets. His full answers by topic: [../03-coach-answers/testing.md](../03-coach-answers/testing.md). **Since model v1.3** there are newer answers too: round 4 (`R4-`, `coach_answers_round4.md`) and two clarifications of 2026-10-10 (`CT-01` on session time, `CX-01..04` on progression and editing). They win on their subjects.
 
 ## The rule
 

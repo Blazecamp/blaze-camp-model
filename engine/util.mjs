@@ -29,7 +29,7 @@
  * @property {{per_week:number, base:number, adjust:number, replaced_by_activity:number, walks:boolean, colours:string[], fighter_open:boolean, sport_is_aerobic:boolean}} D14_aerobic_sessions
  * @property {string} goal  @property {string} format  @property {'en'|'es'} lang  @property {'lb'|'kg'} units
  * @property {number} age  @property {'youth'|'adult'|'active_aging_50'|'older'} age_group  @property {number} body_weight_lb
- * @property {number} days_per_week  @property {string[]} weekdays  @property {number} session_minutes  @property {string} start_date
+ * @property {number} days_per_week  @property {string[]} weekdays  @property {string} start_date   // (v0.5: no session minutes, R4-SES-01)
  * @property {string[]} play_days  @property {string|null} event_date
  * @property {string[]} priority_muscles     // canonical muscle ids (rules.volume.priority.intake_map), max 2 intake choices
  * @property {Array<{area:string, side:string, severity:string, worse_with:string[]}>} pain
@@ -97,7 +97,7 @@
  * @property {Why[]} why
  */
 /** @typedef {{weekday:string, day_type:string|null, kind:'main'|'optional'|'aerobic'|'play'|'sport', optional:boolean, label_key:string,
- *             lower_focus:'knee'|'hip'|null, full_body:boolean, format:'straight'|'circuit', minutes_limit:number, supersets_on:boolean,
+ *             lower_focus:'knee'|'hip'|null, full_body:boolean, format:'straight'|'circuit', exercise_count:number|null, supersets_on:boolean,
  *             est_minutes:number, groups:string[], blocks:Array<{kind:string, movable:boolean, circuit:number|null, slots:SlotDef[]}>, why:Why[]}} DayLayout */
 /** @typedef {{template_id:string, variant:string|null, family:string, pairing:string, program_id:string, training_block:number,
  *             days:DayLayout[], off_days:string[], play_days:string[], why:Why[]}} WeekLayout */

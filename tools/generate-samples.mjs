@@ -16,6 +16,8 @@ import { loadModel } from '../engine/model.mjs';
 import { generate, generateWith, realModulesStatus, ENGINE_VERSION } from '../engine/generate.mjs';
 import { renderPlan } from '../engine/render.mjs';
 
+/** English intakes whose plan is also written in Spanish (samples/plans/<name>.es.md) */
+const ALSO_ES = ['08-pickleball-genpop'];
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 function parseArgs(argv) {
@@ -88,6 +90,9 @@ async function main() {
     const lang = plan.lang || 'en';
     fs.writeFileSync(path.join(outDir, `${name}.${lang}.md`), renderPlan(plan, model, { lang }));
     if (lang !== 'en') fs.writeFileSync(path.join(outDir, `${name}.en.md`), renderPlan(plan, model, { lang: 'en' }));
+    // (fix round 1, GEN-01 / R2-GEN-08: the pickleball sample is printed in Spanish too, so the Spanish of joint care, play days
+    // and the 2-day rule gets a coach-eye pass)
+    if (lang === 'en' && ALSO_ES.includes(name)) fs.writeFileSync(path.join(outDir, `${name}.es.md`), renderPlan(plan, model, { lang: 'es' }));
     const checks = (plan.validation && plan.validation.checks) || [];
     const errors = checks.filter(c => !c.pass && c.severity === 'error');
     const warns = checks.filter(c => !c.pass && c.severity === 'warn');

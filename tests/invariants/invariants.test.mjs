@@ -73,8 +73,16 @@ const ex = (m, id) => (id && m.hasEx(id) ? m.ex(id) : null);
 const at = (r) => `w${r.w.n} ${r.d.weekday} ${r.it.slot_id}`;
 const isRes = (m, it) => { try { return !!it.exercise_id && (['resistance', 'isolation', 'focus'].includes(m.bucket(it.bucket).kind) || it.origin === 'bonus'); } catch { return false; } };
 const older = (p, m) => (p.meta.derived && p.meta.derived.age) >= m.rules.population.older.from_age;
-// v0.4 B4 (E-64): the class model's kept work lift (rules.session.time_fit.keep_work_lift) of a group listed 'class_lift'
-const classLift = (p, m, it) => { const K = m.rules.session.time_fit && m.rules.session.time_fit.keep_work_lift; return !!(K && K.families.includes(p.meta.family) && K.roles.includes(it.role) && !['bonus', 'focus_added'].includes(it.origin)); };
+// the class model's work lift (rules.session.class_lift; v0.5: was rules.session.time_fit.keep_work_lift)
+const classLift = (p, m, it) => { const K = m.rules.session.class_lift; return !!(K && K.families.includes(p.meta.family) && K.roles.includes(it.role) && !['bonus', 'focus_added'].includes(it.origin)); };
+// v0.5 helpers: group credit of an item (a set counts at most 1.0 to a group), the stairway record of a block
+const groupMap = (m) => { const o = {}; for (const [g, ms] of Object.entries(m.rules.muscles.groups.members)) if (g !== 'core') for (const mu of ms) o[mu] = g; return o; };
+const groupSetsOf = (p, m, w, mainOnly = false) => {
+  const G = groupMap(m), s = {};
+  for (const d of w.days) { if (mainOnly && d.kind !== 'main') continue; for (const r of dayRows(w, d)) { const gc = {}; for (const [mu, v] of Object.entries(r.it.credits)) { const g = G[mu]; if (g) gc[g] = (gc[g] || 0) + v; } for (const [g, v] of Object.entries(gc)) s[g] = (s[g] || 0) + (r.it.sets || 0) * Math.min(1, v); } }
+  return s;
+};
+const stairOfBlock = (p, n) => (p.meta.stairway || []).find(x => x.training_block === n) || null;
 
 // Independent property checks: each returns a list of violation strings for one plan.
 const P = {
@@ -107,7 +115,8 @@ const P = {
     for (const w of p.weeks) for (const d of w.days) {
       const rs = dayRows(w, d);
       for (const [h, v] of [['RP_HPULL', 'RP_VPULL'], ['RP_HPUSH', 'RP_VPUSH']]) {
-        const H = rs.find(r => r.it.bucket === h), Vv = rs.find(r => r.it.bucket === v);
+        // (a test week's top-set row of the work lift is the work lift, D-30)
+        const H = rs.find(r => r.it.bucket === h && r.it.role !== 'test'), Vv = rs.find(r => r.it.bucket === v && r.it.role !== 'test');
         if (H && Vv && Vv.i < H.i && Vv.it.role !== 'work') out.push(at(Vv) + ' ' + v + ' before ' + h);
       }
     }
@@ -156,7 +165,10 @@ const P = {
     for (const r of rows(p)) {
       const x = ex(m, r.it.exercise_id);
       for (const [mu, v] of Object.entries(r.it.credits)) {
-        const ok = v === 1 || v === m.rules.credit.helper || (x && x.credit_class === 'DIPS' && v === 0.5) || (x && x.credit_class === 'THRUSTER' && mu === 'front_delts' && v === 0.5);
+        // (v0.5 fix round 1, R4-LIB-03 / R4-SES-05: a high-incline press - credit class MRPUSH - counts 1 for the front delts and half
+        // a set for chest: a credit is right when it is its class's own number, rules.credit.classes)
+        const cls = (x && m.rules.credit.classes[x.credit_class]) || {};
+        const ok = v === 1 || v === m.rules.credit.helper || (x && x.credit_class === 'DIPS' && v === 0.5) || (x && x.credit_class === 'THRUSTER' && mu === 'front_delts' && v === 0.5) || (x && x.credit_class === 'MRPUSH' && cls[mu] === v);
         if (!ok) out.push(`${at(r)} ${mu} ${v}`);
       }
       if (x && x.tags.some(t => m.rules.credit.never_credit_tags.includes(t)) && Object.keys(r.it.credits).length) out.push(at(r) + ' KB swing / wall ball credited');
@@ -172,13 +184,30 @@ const P = {
   H09(p, m) {
     return rows(p).filter(r => m.rules.credit.athletic_slot_buckets.includes(r.it.bucket) && Object.keys(r.it.credits).length).map(at);
   },
+  // v0.5 (CX-01 / R4-PRG-01 / R4-PRG-02; was 'planned step <= 7 %, total < 10 %'): every trained group reaches its final sets in the
+  // block's last week and its planned schedule gets there at most one week early; a week that adds more than about 15 % is said
   H10(p, m) {
-    const out = [], L = m.rules.stairway.limits;
-    for (const w of p.weeks) for (const [mu, s] of Object.entries(w.step_by_muscle)) if (s > L.planned_step_max + 1e-9) out.push(`w${w.n} ${mu} step ${s}`);
-    // one whole set may always be added in a week (12 v1.2 §3.7.4: a 10-set week could otherwise never climb)
-    for (let i = 1; i < p.weeks.length; i++) {
-      const a = p.weeks[i - 1], b = p.weeks[i];
-      if (a.block_type === 'stairway' && b.block_type === 'stairway' && a.training_block === b.training_block && b.total_resistance_sets > a.total_resistance_sets + 1 + 1e-9 && !(b.total_resistance_sets < (1 + L.total_weekly_ceiling) * a.total_resistance_sets - 1e-9)) out.push(`w${b.n} total ${a.total_resistance_sets} -> ${b.total_resistance_sets}`);
+    const out = [], PG = m.rules.stairway.progression;
+    if (p.weeks.some(w => w.circuit)) return out;
+    for (const tb of p.shape.training_blocks.filter(x => x.type === 'stairway')) {
+      const st = stairOfBlock(p, tb.n), ws = p.weeks.filter(w => w.training_block === tb.n);
+      if (!st) { out.push(`block ${tb.n}: no stairway record`); continue; }
+      const N = ws.length, last = groupSetsOf(p, m, ws[N - 1]);
+      for (const g of st.groups) {
+        const top = st.group_top[g], sc = st.schedule[g];
+        if ((last[g] || 0) < top - 1e-6) out.push(`block ${tb.n}: ${g} ends at ${last[g] || 0}, final sets ${top}`);
+        if (top > st.group_start[g] && N >= 3) { const first = sc.findIndex(x => x >= top); if (first < N - 1 - PG.arrival_weeks_early_max) out.push(`block ${tb.n}: ${g} at its final sets in week ${first + 1} of ${N}`); }
+      }
+      for (let i = 1; i < N; i++) {
+        const a = ws[i - 1], b = ws[i];
+        const rise = a.total_resistance_sets > 0 ? (b.total_resistance_sets - a.total_resistance_sets) / a.total_resistance_sets : 0;
+        if (rise > PG.note_above + 1e-9 && !b.acceleration.some(x => x.total)) out.push(`w${b.n} total ${a.total_resistance_sets} -> ${b.total_resistance_sets} with no acceleration note`);
+        for (const g of st.groups) {
+          const from = a.weekly_sets_by_group[g] || 0, to = b.weekly_sets_by_group[g] || 0;
+          if (from > 0 && to - from >= PG.note_min_whole_sets - 1e-9 && (to - from) / from > PG.note_above + 1e-9 && !b.acceleration.some(x => x.group === g)) out.push(`w${b.n} ${g} ${from} -> ${to} with no acceleration note`);
+        }
+        for (const x of b.acceleration) if (!p.meta.warnings.some(wn => wn.code === 'acceleration' && wn.args.week === b.n)) out.push(`w${b.n} acceleration not in the plan's warnings ${JSON.stringify(x)}`);
+      }
     }
     return out;
   },
@@ -212,53 +241,42 @@ const P = {
     return out;
   },
   H16(p) { return [...forbiddenKeys(p), ...p.meta.input_audit.forbidden_found]; },
-  // v0.4 (R2-VOL-06 + R3-VOL-01 / R3-SES-01 / R3-SES-02): the floor is on the FOCUS groups (hips = glutes + hamstrings, shoulders =
-  // front + side + rear delts + traps), counted on main days with group credit (a set counts at most 1.0 to a group); a group the
-  // time check leaves to compound credit is listed in plan.time_check and has no direct exercise; no warning exempts a trained group
+  // v0.5 (R2-VOL-06, R3-SES-01, R4-SES-03, R4-SES-04): from 3 training days every trained group holds 10 weekly sets or more,
+  // counted on all days with group credit; on 2 training days every big group holds 6 or more; the only exemptions are a pain
+  // area, a group with no exercise of its own in the template (credit only) and a group the plan SAYS the template cannot hold
   H17(p, m) {
-    const out = [], R = m.rules, floor = R.volume.floor.value, t = p.meta.targets;
-    const members = R.muscles.groups.members, groupOfMuscle = {};
-    for (const [g, ms] of Object.entries(members)) if (g !== 'core') for (const mu of ms) groupOfMuscle[mu] = g;
-    const tc = p.time_check || {};
-    const blockTc = (n) => (tc.by_block || []).find(b => b.training_block === n) || tc;
+    const out = [], R = m.rules, V = R.volume, t = p.meta.targets;
+    const members = R.muscles.groups.members;
     const lineOf = {};
-    for (const [l, d] of Object.entries((R.muscles.lines && R.muscles.lines.defs) || {})) for (const mu of d.members) lineOf[mu] = l;
+    for (const [l, d] of Object.entries(R.muscles.lines.defs)) for (const mu of d.members) lineOf[mu] = l;
     const linesOfGroup = (g) => (t.lines || []).filter(l => members[g].some(mu => lineOf[mu] === l));
-    const maxIso = R.placement.max_sets_isolation, climbC = R.stairway.min_climb.calves, perLeg = R.volume.calves.per_leg_day.L1;
+    const big = (g) => linesOfGroup(g).some(l => V.two_day.big_classes.includes(R.muscles.lines.defs[l].class));
+    const twoDay = p.meta.days_per_week <= V.two_day.days_max;
+    if (twoDay !== !!p.meta.two_day) out.push(`2-day rule flag ${JSON.stringify(p.meta.two_day)} with ${p.meta.days_per_week} days`);
+    if (twoDay && !p.meta.warnings.some(w => w.key === 'warning.two_day_rule')) out.push('2 training days with no warning.two_day_rule');
+    if (!twoDay && p.meta.days_per_week >= V.floor.applies_from_days === false) out.push('floor rule: days');
     for (const w of p.weeks.filter(x => x.block_type === 'stairway')) {
-      const b = blockTc(w.training_block);
-      const listed = new Set((b.not_trained_directly || []).map(x => x.group));
-      const kept = new Set((b.not_trained_directly || []).filter(x => x.reason === 'class_lift').map(x => x.group));
-      const below = new Set((b.trained_below_floor || []).filter(x => x.reason === 'work_lift_time' || x.reason === 'circuit_time').map(x => x.group));
-      const sets = {}, direct = {};
-      let legDays = 0;
-      for (const d of w.days.filter(x => x.kind === 'main')) {
-        const rs = dayRows(w, d);
-        if (rs.some(r => isRes(m, r.it) && ex(m, r.it.exercise_id) && ex(m, r.it.exercise_id).credit_class === 'ISO_CALF')) legDays++;
-        for (const r of rs) {
-          const gc = {};
-          for (const [mu, v] of Object.entries(r.it.credits)) { const g = groupOfMuscle[mu]; if (g) gc[g] = (gc[g] || 0) + v; }
-          for (const [g, v] of Object.entries(gc)) sets[g] = (sets[g] || 0) + (r.it.sets || 0) * Math.min(1, v);
-          // trained directly: the group is the exercise's main mover (a full set of group credit)
-          // (fix round 2 / F1, E-145: a pattern station of a group not trained directly is not direct training)
-          if (isRes(m, r.it) && r.it.group && r.it.origin !== 'pattern_kept' && (gc[r.it.group] || 0) >= 1 - 1e-9 && !(kept.has(r.it.group) && classLift(p, m, r.it))) direct[r.it.group] = (direct[r.it.group] || 0) + 1;
-        }
-      }
-      for (const g of listed) if (direct[g]) out.push(`w${w.n} ${g} listed as not trained directly but has ${direct[g]} exercises`);
       if (w.circuit) continue;
-      // v0.4 fix round 2 / F1 (E-139, BRAIN V5b): below rules.volume.calves.optional_slot_below_leg_days main leg days the optional day's
-      // Calves slot counts toward the calves' floor
-      const OSB = R.volume.calves.optional_slot_below_leg_days;
-      if (typeof OSB === 'number' && legDays < OSB) for (const d of w.days.filter(x => x.kind !== 'main')) for (const r of dayRows(w, d)) {
-        const e = ex(m, r.it.exercise_id);
-        if (isRes(m, r.it) && e && e.credit_class === 'ISO_CALF' && r.it.origin !== 'pattern_kept') sets.calves = (sets.calves || 0) + (r.it.sets || 0) * Math.min(1, r.it.credits.calves || 0);
+      const st = stairOfBlock(p, w.training_block);
+      if (!st) continue;
+      const sets = groupSetsOf(p, m, w);
+      let legDays = 0, optCalf = 0;
+      for (const d of w.days) {
+        const calf = dayRows(w, d).some(r => isRes(m, r.it) && ex(m, r.it.exercise_id) && ex(m, r.it.exercise_id).credit_class === 'ISO_CALF' && (r.it.sets || 0) > 0);
+        if (calf && d.kind === 'main') legDays++; else if (calf) optCalf++;
       }
-      for (const g of t.floor_groups || []) {
+      const groups = twoDay ? Object.keys(members).filter(g => g !== 'core' && g !== 'calves' && big(g)) : (t.floor_groups || []);
+      for (const g of groups) {
         const ls = linesOfGroup(g);
-        if (!ls.length || listed.has(g) || below.has(g) || ls.some(l => t.pain_muscles.includes(l)) || ls.every(l => t.credit_only.includes(l))) continue;
-        const need = g === 'calves' ? Math.max(perLeg * legDays, Math.min(R.volume.calves.weekly_floor, maxIso * legDays - climbC)) : floor;
+        if (!ls.length || !st.groups.includes(g) || st.below_floor.includes(g) || ls.some(l => t.pain_muscles.includes(l)) || ls.every(l => t.credit_only.includes(l))) continue;
+        const need = g === 'calves' ? Math.min(V.calves.weekly_floor, V.calves.per_leg_day.L1 * legDays + V.calves.optional_slot_sets[0] * optCalf) : (twoDay ? V.two_day.weekly_sets[0] : V.floor.value);
         if ((sets[g] || 0) < need - 1e-6) out.push(`w${w.n} ${g} ${Math.round((sets[g] || 0) * 100) / 100} < ${need}`);
       }
+      // what the plan says it cannot hold is in the plan's warnings (R4-SES-04: said, never dropped)
+      for (const g of st.below_floor) if (!p.meta.warnings.some(wn => wn.key === 'warning.below_floor_template' && wn.args.group === g)) out.push(`block ${st.training_block}: ${g} below the floor and not said`);
+      // (v0.5 fix round 1, CX-04 / sample 06 minor: the up-front notice is for a Focus group, a group under its level's start and a
+      // big group under 80 % of its final sets - capped[].notice; every capped group keeps its 'x of y' in the week-by-week table)
+      for (const c of st.capped) if (c.notice !== false && !st.below_floor.includes(c.group) && !p.meta.warnings.some(wn => wn.key === 'warning.capped_by_template' && wn.args.group === c.group)) out.push(`block ${st.training_block}: ${c.group} capped and not said`);
     }
     return out;
   },
@@ -271,8 +289,9 @@ const P = {
       const circuitDay = d.format === 'circuit';
       const n = {}, lone = {};
       for (const r of dayRows(w, d)) if (isRes(m, r.it)) { const g = r.it.group; if (g) { n[g] = (n[g] || 0) + 1; lone[g] = r.it; } }
-      // v0.4 B4 (E-64): a class model's day work lift may stand alone for its group (the day's named class lift)
-      for (const [g, c] of Object.entries(n)) if (!G.exempt_groups.includes(g) && !(c === 1 && (classLift(p, m, lone[g]) || lone[g].origin === 'pattern_kept')) && (c < 2 || (!circuitDay && d.full_body && c > 4))) out.push(`w${w.n} ${d.weekday} ${g}: ${c}`);
+      // v0.5 (R4-SES-05): the coach's A / B template gives a group 1 to 4 exercises on a full-body day (was 2-4, never 1)
+      void lone; void classLift;
+      for (const [g, c] of Object.entries(n)) if (!G.exempt_groups.includes(g) && (c < G.full_body_day[0] || (!circuitDay && d.full_body && c > G.full_body_day[1]))) out.push(`w${w.n} ${d.weekday} ${g}: ${c}`);
     }
     return out;
   },
@@ -295,62 +314,75 @@ const P = {
   // v0.4 (R3-SES-02 'never flat', R3-VOL-04): every trained group climbs by the minimum climb over the block (group credit, all
   // days, recomputed from the items) and never drops a set week over week; each line's planned target never drops; the last
   // week is the hardest; stair level rises; planned RIR never rises
+  // v0.5 (CX-01 / CX-02): the stairway is whole sets per group - targets and credited sets never go down inside a block, the claimed
+  // weekly sets are the items' sets, the stair level rises, the planned RIR never rises, the block's last week is its hardest
   H21(p, m) {
-    const out = [], R = m.rules, t = p.meta.targets, MC = R.stairway.min_climb;
-    const members = R.muscles.groups.members, groupOfMuscle = {};
-    for (const [g, ms] of Object.entries(members)) if (g !== 'core') for (const mu of ms) groupOfMuscle[mu] = g;
-    const lineOf = {};
-    for (const [l, d] of Object.entries((R.muscles.lines && R.muscles.lines.defs) || {})) for (const mu of d.members) lineOf[mu] = l;
-    const tc = p.time_check || {};
+    const out = [], R = m.rules;
     const circuit = p.weeks.some(w => w.circuit);
     const fixed = R.session.exercises_per_group.exempt_families.includes(p.meta.family);
-    const groupSets = (w) => {
-      const s = {};
-      for (const r of rows(p).filter(x => x.w === w)) {
-        const gc = {};
-        for (const [mu, v] of Object.entries(r.it.credits)) { const g = groupOfMuscle[mu]; if (g) gc[g] = (gc[g] || 0) + v; }
-        for (const [g, v] of Object.entries(gc)) s[g] = (s[g] || 0) + (r.it.sets || 0) * Math.min(1, v);
-      }
-      return s;
-    };
     for (const tb of p.shape.training_blocks.filter(x => x.type === 'stairway')) {
       const ws = p.weeks.filter(w => w.training_block === tb.n);
       if (ws.length < 2) continue;
-      const b = (tc.by_block || []).find(x => x.training_block === tb.n) || tc;
-      const listed = new Set((b.not_trained_directly || []).map(x => x.group));
-      const target = (t.lines || []).filter(l => t.fill[l] === 'target');
+      const st = stairOfBlock(p, tb.n);
       for (let i = 1; i < ws.length; i++) {
-        for (const l of target) if ((ws[i].target_by_muscle[l] || 0) < (ws[i - 1].target_by_muscle[l] || 0) - 1e-9) out.push(`w${ws[i].n} ${l} target drops`);
+        for (const [g, v] of Object.entries(ws[i].target_by_group)) if (typeof v === 'number' && typeof ws[i - 1].target_by_group[g] === 'number' && v < ws[i - 1].target_by_group[g]) out.push(`w${ws[i].n} ${g} target drops`);
         if (!(ws[i].stair_level > ws[i - 1].stair_level)) out.push(`w${ws[i].n} stair level ${ws[i].stair_level}`);
         if (ws[i].planned_rir.min > ws[i - 1].planned_rir.min || ws[i].planned_rir.max > ws[i - 1].planned_rir.max) out.push(`w${ws[i].n} planned RIR rises`);
       }
       if (!circuit && !fixed) {
-        const gs = ws.map(groupSets);
+        const gs = ws.map(w => groupSetsOf(p, m, w));
         ws.forEach((w, i) => { for (const g of Object.keys(w.weekly_sets_by_group)) if (Math.abs((gs[i][g] || 0) - w.weekly_sets_by_group[g]) > 0.006) out.push(`w${w.n} ${g} items ${gs[i][g] || 0} vs claimed ${w.weekly_sets_by_group[g]}`); });
-        for (const g of t.floor_groups || []) {
-          const ls = target.filter(l => members[g].some(mu => lineOf[mu] === l));
-          if (!ls.length || listed.has(g) || ls.some(l => t.pain_muscles.includes(l))) continue;
-          // v0.4 fix round 1 (E-81): a big mover kept below its floor climbs at least one set
-          const belowG = new Set((b.trained_below_floor || []).map(x => x.group));
-          const v = gs.map(x => x[g] || 0), need = g === 'calves' || belowG.has(g) ? MC.calves : (MC.short_block && ws.length <= MC.short_block.max_N ? MC.short_block.group : MC.group);
-          // a year plan's flat-sets quarter holds its starts (COACH-R2 R2-PER-01 'sets stay at the starting level')
-          if (!(tb.factor && tb.factor.flat_sets) && v[v.length - 1] - v[0] < need - 0.5 - 1e-9) out.push(`block ${tb.n}: ${g} flat ${v[0]} -> ${v[v.length - 1]}`);
+        for (const g of (st ? st.groups : [])) {
+          const v = gs.map(x => x[g] || 0);
           for (let i = 1; i < v.length; i++) if (v[i] < v[i - 1] - 0.5 - 1e-9) out.push(`w${ws[i].n} ${g} drops ${v[i - 1]} -> ${v[i]}`);
         }
       }
       const tot = ws.map(w => w.total_resistance_sets);
       if (Math.max(...tot) > tot[tot.length - 1]) out.push(`block ${tb.n}: last week ${tot[tot.length - 1]} < max ${Math.max(...tot)}`);
-      if (ws.length === 12 && Math.min(...tot.slice(8)) < Math.max(...tot.slice(0, 8))) out.push(`block ${tb.n}: last 4 weeks are not the 4 hardest`);
+      // v0.5 fix round 2 (converted; DECISIONS G 'Tests converted in fix round 2'): the work time climbs in 5-s timer steps (PRG-03 '30-50 s';
+      // sample 05 major) - it never goes down, a number is held two weeks at most, and a week that holds the seconds never runs fewer rounds
+      if (circuit) for (let i = 1; i < ws.length; i++) if (ws[i].circuit && ws[i - 1].circuit) {
+        const a = ws[i - 1].circuit, z = ws[i].circuit;
+        if (z.work_s < a.work_s || z.rounds < a.rounds) out.push(`w${ws[i].n} circuit work time ${a.work_s} -> ${z.work_s}, rounds ${a.rounds} -> ${z.rounds}`);
+      }
+      if (circuit) {
+        // (the same bound the validator's H21 holds: a number is held no longer than the block's weeks spread over the timer steps)
+        const vals = (R.supersets.bootcamp.x2 && R.supersets.bootcamp.x2.work_s_values) || [];
+        const cap = vals.length ? Math.ceil(ws.length / vals.length) : 1;
+        let run = 1;
+        for (let i = 1; i < ws.length; i++) if (ws[i].circuit && ws[i - 1].circuit) {
+          run = ws[i].circuit.work_s === ws[i - 1].circuit.work_s && ws[i].circuit.rounds === ws[i - 1].circuit.rounds ? run + 1 : 1;
+          if (run > cap) out.push(`w${ws[i].n} circuit work time held ${run} weeks at ${ws[i].circuit.work_s} (at most ${cap})`);
+        }
+        const c0 = ws.find(w => w.circuit), cN = [...ws].reverse().find(w => w.circuit);
+        if (c0 && cN && ws.length >= vals.length && !(cN.circuit.work_s > c0.circuit.work_s || cN.circuit.rounds > c0.circuit.rounds)) out.push(`block ${tb.n}: the circuit ends where it starts (${c0.circuit.work_s} s)`);
+      }
     }
     return out;
   },
+  // v0.5 (R3-VOL-02 / R3-VOL-04, CX-01, CT-01): no check-ins, no offers of any kind (the time check and its offers are gone); every
+  // stairway week's group target IS the planned whole-set schedule, which starts at the group's start, ends at its final sets
+  // and never goes down
   H22(p) {
     const c = p.validation.checks.find(x => x.id === 'H22');
-    // v0.4 (R3-VOL-02 / R3-VOL-04): no check-ins, nothing adapts; the only offers are the time check's, made up front at build time
-    // (R3-SES-02: one more day / longer sessions / keep the time)
-    // (fix round 2 / F1, E-143: offer.block_on - a block the time check switched off can be switched back on)
-    const TIME = ['offer.more_days', 'offer.more_days_min', 'offer.longer_sessions', 'offer.keep_time', 'offer.keep_time_lower_peak', 'offer.block_on', 'offer.optional_day', 'offer.longer_sessions_some', 'offer.longer_sessions_peak', 'offer.block_off'];
-    return [...(c.pass ? [] : c.violations.map(v => JSON.stringify(v.args))), ...p.offers.filter(o => !TIME.includes(o.key)).map(o => 'offer ' + o.key)];
+    const out = [...(c.pass ? [] : c.violations.map(v => JSON.stringify(v.args)))];
+    if ('offers' in p) out.push('the plan carries offers');
+    if ('time_check' in p) out.push('the plan carries a time check');
+    for (const tb of p.shape.training_blocks.filter(x => x.type === 'stairway')) {
+      const st = stairOfBlock(p, tb.n), ws = p.weeks.filter(w => w.training_block === tb.n);
+      if (!st) { out.push(`block ${tb.n}: no stairway record`); continue; }
+      if (st.circuit) continue;
+      for (const g of st.groups) {
+        const sc = st.schedule[g];
+        if (!Array.isArray(sc) || sc.length !== ws.length) { out.push(`block ${tb.n}: ${g} schedule missing`); continue; }
+        if (sc[0] !== st.group_start[g] || sc[sc.length - 1] !== st.group_top[g]) out.push(`block ${tb.n}: ${g} schedule ${sc[0]}..${sc[sc.length - 1]} vs ${st.group_start[g]}..${st.group_top[g]}`);
+        sc.forEach((v, i) => {
+          if (!Number.isInteger(v) || (i && v < sc[i - 1])) out.push(`block ${tb.n}: ${g} schedule week ${i + 1} = ${v}`);
+          if (ws[i].target_by_group[g] !== v) out.push(`w${ws[i].n} ${g} target ${ws[i].target_by_group[g]} is not the planned ${v}`);
+        });
+      }
+    }
+    return out;
   }
 };
 const H_IDS = CHECK_IDS.filter(id => id.startsWith('H'));
@@ -440,7 +472,7 @@ test(`check-ins are retired: a check-in output mode plans the same weeks as plan
     const p = gen(intake, fixture);
     const q = gen({ ...structuredClone(intake), output_mode: 'checkin' }, fixture);
     assert.equal(JSON.stringify(q.weeks), JSON.stringify(p.weeks), name);
-    assert.ok(!q.offers.some(o => o.key === 'block.cannot_finish'), name);
+    assert.equal('offers' in q, false, name + ': no offers of any kind (CT-01)');
   }
 });
 
@@ -449,7 +481,8 @@ test('coverage of the random corpus (CONTRACTS §8 axes)', { skip: REAL ? false 
   const has = (f) => new Set(R.map(f).flat().filter(x => x !== null && x !== undefined));
   assert.deepEqual([...has(i => i.goal)].sort(), ['active', 'athletic', 'fat_loss', 'general', 'hybrid', 'muscle', 'strength']);
   assert.deepEqual([...has(i => i.schedule.days_per_week)].sort(), [2, 3, 4, 5, 6]);
-  for (const m of [30, 45, 60, 75, 90]) assert.ok(has(i => i.schedule.session_minutes).has(m), 'minutes ' + m);
+  // v0.5 (R4-SES-01): the intake has no session minutes
+  assert.equal(has(i => i.schedule.session_minutes).size, 0, 'no intake carries session minutes');
   assert.equal(has(i => i.equipment.profile).size, fixture.rules.equipment.intake_profiles.length);
   for (const a of [15, 16, 52, 61, 70]) assert.ok(has(i => i.age).has(a), 'age ' + a);
   assert.equal(has(i => i.pain.map(p => p.area)).size, 10);

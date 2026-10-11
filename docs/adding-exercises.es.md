@@ -32,7 +32,7 @@ Para coaches y desarrolladores. Esta guía explica cómo agregar un ejercicio nu
 |---|---|
 | **Nada de ligas o bandas elásticas, cadenas ni liberadores de peso (weight releasers)** en ningún lugar: ni en un montaje, id, nombre, indicación, alternativa ni nombre en español ("liga", "banda" y "cadena" también fallan la verificación; escriba "cadena posterior" de otra forma). | COACH-ANSWER EQ-01, EQ-07, EQ-08, EQ-12; regla dura H01 |
 | **Nunca la sentadilla en V (V-squat).** | COACH-ANSWER GEN-08 |
-| **El generador nunca inventa ejercicios.** Solo usa los registros del catálogo. Un registro que usted agrega es `PROPOSED`: puede aparecer en las listas de alternativas (swaps), nunca como elección principal, hasta que el coach lo apruebe. | COACH-ANSWER CAT-07; COACH-R2 R2-LIB-01, R2-LIB-07 |
+| **El generador nunca inventa ejercicios.** Solo usa los registros del catálogo. Un registro que usted agrega es `PROPOSED`. Desde la ronda 4 el compilador lo trata como un **extra opcional**: puede aparecer en las listas de alternativas (swaps) y en la lista de extras opcionales del plan, y ninguna plantilla lo elige, hasta que el coach lo apruebe. | COACH-ANSWER CAT-07; COACH-R2 R2-LIB-01, R2-LIB-07; COACH-R4 R4-LIB-01 |
 | **El trabajo atlético nunca cuenta como series de músculo** (saltos, lanzamientos, levantamientos olímpicos, sprints, cambios de dirección, swings con kettlebell, acondicionamiento). Se cuenta en contactos, lanzamientos, repeticiones, cortes o metros. | COACH-ANSWER VOL-10; COACH-R2 R2-VOL-05 |
 | **Un registro por ejercicio real.** Los casi duplicados se fusionan. Busque antes de agregar. | COACH-ANSWER LIB-17 |
 | **Nombre en inglés y en español** para cada ejercicio. El español es latinoamericano neutro con el término de gimnasio en inglés entre paréntesis. | COACH-ANSWER GEN-01; COACH-R2 R2-GEN-08 |
@@ -228,7 +228,7 @@ El coach pone la sentadilla pesada y el peso muerto pesado en **dos días distin
 ### 4.10 Dosis sugerida, video, uso por deporte
 
 - `typical_rep_range`: una sugerencia (`value` como "8-12 per side") y una unidad `dose_unit`: `reps`, `reps per side`, `contacts`, `throws`, `seconds`, `reps or seconds`, `time / distance / calories`. La dosis real sale de las reglas (meta, clase de repeticiones, semana de la escalera). `seconds` la convierte en un sostenido con tiempo.
-- `video_urls`: opcional (COACH-R2 R2-GEN-02). Déjelo vacío salvo que el coach dé su propio video; sin video, el plan ofrece un enlace de búsqueda en YouTube. Los videos de terceros no son de Blaze Camp.
+- `video_urls`: déjelo vacío (`[]`). La biblioteca no guarda enlaces de video de terceros (COACH-R4 R4-LIB-05): el compilador le da a cada ejercicio un enlace de búsqueda en YouTube armado con su nombre en inglés, y el plan muestra ese nombre exacto para copiarlo. Los videos propios del coach se pueden agregar después.
 - `sport_use_v1_1`: deportes o actividades que necesitan especialmente el ejercicio ("pickleball", "tennis", "swimming", "general population", "home" ...). Da un pequeño bono de selección; nunca filtra.
 - `implement_load` (solo balón medicinal): `typical_lb` como "8-10". **Nunca más de 20 lb** (EQ-06); nada de balón medicinal en el trabajo principal de un cliente de estética, solo en el calentamiento (ATH-05).
 
@@ -243,7 +243,7 @@ Izquierda: el campo que usted escribe en `synthesis/02_exercise_catalog.json`. C
 | `id` | `id`, `source_id`, `name_key` | Minúsculas separadas con guiones, hecho a partir del nombre en inglés, único, palabras simples de gimnasio. Las palabras importan (sección 6). |
 | `name` | nombre en inglés (`exercise.<id>.name`) | Inglés de gimnasio simple, genérico y entendible (FIX-03, FIX-04). Un detalle corto puede ir entre paréntesis: "Landmine Meadows Row (bent-over, one arm)". Los paréntesis que contienen "inferred", "not stated", "unconfirmed", "ambiguous", "unclear", "verify" o "listing" se quitan del nombre que se muestra. |
 | `record_type` | `kind` | `exercise` (casi siempre); `drill` (ejercicios de técnica), `test`, `conditioning_prescription` (una sesión de cardio, se vuelve `conditioning`). Otros tipos se descartan. |
-| `status` | `status` | Nuevo: **`proposed_v1_1`** (el estado propuesto que reconocen el compilador y el selector: solo alternativa). Después de la aprobación: `added_v1_1`. Valores existentes: `live_library_selectable` (su biblioteca BYOP, puede ser la elección principal), `reference_only` y `program_only` (alternativas), `live_library_not_selectable`, `retired` (se descarta). |
+| `status` | `status` | Nuevo: **`proposed_v1_1`** (el estado propuesto que reconoce el compilador). El compilador lo convierte en `optional_addon` en `model/catalog.json`: una alternativa y un extra opcional, nunca una elección de la plantilla (COACH-R4 R4-LIB-01). El trabajo de cuello es la excepción: sigue como propuesto y no se muestra. Después de la aprobación: `added_v1_1`. Valores existentes: `live_library_selectable` (su biblioteca BYOP, puede ser la elección principal), `reference_only` y `program_only` (alternativas), `live_library_not_selectable`, `retired` (se descarta). |
 | `generic` | ninguno | `false`. |
 | `aliases`, `placements` | ninguno | `[]`. Guardan celdas de las hojas, solo OBSERVED. |
 
@@ -850,7 +850,7 @@ git diff --stat engine/fixtures/
 
 Solo deben cambiar sus registros (y el manifiesto de la copia). Si cambia algo más, deténgase y avise a los mantenedores: la copia ya estaba desactualizada antes de su cambio.
 
-**8.10 Actualice los números fijados.** `tests/compile.test.mjs` fija el número de ejercicios conservados (731 en v1.2; en tres lugares de la prueba "counts") y de líneas en español traducidas automáticamente (861 en v1.2). Suba cada uno en el número que agregó. Actualice también los conteos de ejercicios que citan `README.md` y `engine/README.md` si cambiaron.
+**8.10 Actualice los números fijados.** `tests/compile.test.mjs` fija el número de ejercicios conservados (733 en el modelo 1.3.0; en tres lugares de la prueba "counts") y de líneas en español traducidas automáticamente (842 en el modelo 1.3.0). Suba cada uno en el número que agregó. Actualice también los conteos de ejercicios que citan `README.md` y `engine/README.md` si cambiaron.
 
 **8.11 Corra todas las pruebas:**
 
@@ -865,7 +865,7 @@ node tools/generate-samples.mjs   # cada muestra debe decir ok
 git diff --stat samples/plans/
 ```
 
-Un registro PROPOSED solo puede aparecer en listas de `swaps`. Si cambió una elección principal, algo está mal en el registro (casi siempre el estado).
+Un registro PROPOSED solo puede aparecer en listas de `swaps` y en los extras opcionales del plan (`meta.addons`). Si cambió una elección principal, algo está mal en el registro (casi siempre el estado).
 
 **8.13 Abra el pull request** con: qué agregó y por qué (el vacío que llena); la tabla de lentes de cada ejercicio (como en la sección 7); las etiquetas de evidencia; los comandos que corrió y sus resultados; los cambios en las listas de alternativas de las muestras. Mantenga el PR solo con datos: registro del catálogo, fila en español, `model/`, copia de referencia y muestras regenerados, números fijados. Los cambios al compilador o al motor van en otro PR.
 
@@ -902,7 +902,7 @@ Los mantenedores juntan las adiciones PROPOSED en la siguiente ronda de pregunta
 - [ ] Copia de referencia reconstruida; solo cambiaron mis registros.
 - [ ] Números fijados actualizados; conteos del README actualizados.
 - [ ] `node --test tests/`: 0 fallas.
-- [ ] Muestras regeneradas: todas ok; el registro aparece solo en listas de alternativas.
+- [ ] Muestras regeneradas: todas ok; el registro aparece solo en listas de alternativas o en los extras opcionales, nunca como elección.
 - [ ] Descripción del PR con la tabla de lentes, las etiquetas y los resultados.
 
 ## 11. Solución de problemas
@@ -911,12 +911,12 @@ Los mantenedores juntan las adiciones PROPOSED en la siguiente ronda de pregunta
 |---|---|---|
 | `Error: unmapped implement X in <id>` (el compilador se detiene) | Una palabra de implemento que el compilador no conoce. | Use una palabra de 4.6, o abra un issue para un tipo de equipo nuevo. |
 | `compile-model: N contract error(s); nothing written` | Falló una verificación de forma o de reglas (palabra de banda, id duplicado, valor inválido ...). | Lea las líneas `ERROR` y corrija el registro. |
-| La prueba "counts: 731 kept ..." falla con `734 !== 731` | El conteo fijado de ejercicios. | Paso 8.10. |
-| La prueba "i18n: every key used has EN and ES ..." falla con `864 !== 861` | El conteo fijado de traducciones automáticas. | Paso 8.10. |
+| La prueba "counts: 733 kept ..." falla con `736 !== 733` | El conteo fijado de ejercicios. | Paso 8.10. |
+| La prueba "i18n: every key used has EN and ES ..." falla con `845 !== 842` | El conteo fijado de traducciones automáticas. | Paso 8.10. |
 | `es_missing` mayor que 0, o falta una clave `exercise.<id>.name` | No hay fila en español, o su clave no coincide con el nombre en inglés compilado. | Copie el nombre en inglés de `model/i18n/en.json` como clave. |
 | Falla la prueba "Spanish exercise names ..." | Quedaron palabras en inglés fuera de los paréntesis, o el español es igual al inglés. | Reescriba el nombre en español. |
 | `model/ is stale: run node tools/compile-model.mjs` | `model/` no coincide con las fuentes. | Recompile y suba los archivos regenerados. |
-| Cambió una elección principal de un plan después de agregar un registro PROPOSED | El registro no es solo alternativa. | Revise `status: proposed_v1_1` y `default_candidate: false`. |
+| Cambió una elección principal de un plan después de agregar un registro PROPOSED | El registro no quedó como extra opcional. | Revise `status: proposed_v1_1` y `default_candidate: false`. |
 | Los créditos no son los que esperaba | Los decidió el patrón o una excepción. | Revise 4.2, las excepciones de `per_set` y las palabras del id (`face-pull`, `thruster`, `pullover`, `swing` ...). |
 | Falta una etiqueta o sobra una | Las etiquetas salen del id, el patrón, el equipo y las frases de población. | Sección 6; pida una regla del compilador si el id no puede llevar la palabra. |
 | `git diff` muestra todo el catálogo cambiado | El archivo se guardó con otro serializador. | Restáurelo y use el script del paso 8.4. |

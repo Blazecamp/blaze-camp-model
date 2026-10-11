@@ -1,5 +1,7 @@
 # Blaze Camp engine — BUILD PLAN (Phase 0, v1.1)
 
+> **Status (2026-10-11, engine 0.5.0).** History. This is the build plan of the first engine (four parallel builders, contracts/1.1, October 8-9). Engine 0.5.0 was built to `design/ENGINE_V05_PLAN.md` (template-first, no time-fitting). Lines below about session minutes, time fitting, check-ins or the 7 % / 10 % limits describe that first build and are retired (COACH-CT CT-01; COACH-CX CX-01..04; COACH-R3 R3-VOL-02; round 4). Current state: `engine/README.md` and `samples/STATUS_v0.5.md`.
+
 **Status (2026-10-09): integration step done** - contracts/1.1.1, `node --test tests/` 621 / 621 green, the 8 sample plans generate
 from `model/` with zero failing error checks. How to run everything and the module map: `engine/README.md`; the samples:
 `samples/SAMPLES.md`.

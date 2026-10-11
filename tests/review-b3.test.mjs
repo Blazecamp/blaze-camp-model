@@ -214,7 +214,11 @@ describe('stage B3: exercise selection, variation and rendering (RECHECK_v0.3 + 
   test('R03-rep-phase-season: the athlete rep phase follows the season phase - the late off-season starts at VOL2 (8-12 compounds), not 12-15 for six weeks', () => {
     const p = plan('03');
     const off = p.weeks.filter(w => w.block_type === 'stairway');
-    assert.ok(off.every(w => w.season_phase === 'OFF_LATE' && w.rep_phase === 'VOL2'), off.map(w => w.rep_phase).join(' '));
+    // (v0.5 fix round 1, PER-11 'heavier by block' / sample 03 major: a single-block late off-season steps VOL2 -> VOL3 after its
+    // halfway week - rules.reps.athlete_vol_phases.off_late_single_block_step, switched on - so the plan starts at VOL2 and never
+    // goes back)
+    const ph = off.map(w => w.rep_phase);
+    assert.ok(off.every(w => w.season_phase === 'OFF_LATE') && ph[0] === 'VOL2' && ph.every((x, i) => ['VOL2', 'VOL3'].includes(x) && (i === 0 || !(ph[i - 1] === 'VOL3' && x === 'VOL2'))), ph.join(' '));
     for (const w of off) for (const x of items(w)) if (x.it.role === 'secondary' && x.it.reps && x.it.reps.bracket) assert.notEqual(x.it.reps.bracket, 'b12_15', x.it.exercise_id);
   });
 
@@ -310,8 +314,12 @@ describe('stage B3: exercise selection, variation and rendering (RECHECK_v0.3 + 
 
   test('R02-day-title-from-picks: a day title names what the day holds (no "leg press / belt squat" on a single-leg day, no "knee" on a day without a knee lift)', () => {
     const s = md('02');
-    assert.ok(!s.includes('A2 - leg press / belt squat + pull'));
-    assert.ok(s.includes('A2 - single-leg squat + pull'));
+    // (v0.5 fix round 1, R4-SES-05 / PER-04 'one day of squatting and the other day of leg pressing': the second A day's slot 2 is a
+    // two-leg knee lift again - the title follows the pick either way)
+    const a2 = plan('02').weeks[0].days.find(x => x.day_type === 'A2');
+    const lift = a2.blocks.flatMap(b => b.items).find(it => ['RP_BKD', 'RP_UKD'].includes(it.bucket) && it.role === 'work');
+    if (lift.bucket === 'RP_BKD') { assert.ok(!s.includes('A2 - single-leg squat + pull')); assert.equal(ex(lift.exercise_id).laterality, 'bilateral'); }
+    else { assert.ok(!s.includes('A2 - leg press / belt squat + pull')); assert.ok(s.includes('A2 - single-leg squat + pull')); }
     const sw = md('01');
     for (const d of plan('01').weeks[0].days.filter(x => x.label_key === 'day.athletic.3.S1')) {
       const knee = d.blocks.flatMap(b => b.items).some(it => ['RP_BKD', 'RP_UKD'].includes(it.bucket));
@@ -332,14 +340,19 @@ describe('stage B3: exercise selection, variation and rendering (RECHECK_v0.3 + 
 
   test('R02-core-swaps-plane: a core swap stays in the plane of the pick (a Copenhagen plank never swaps to toes-to-bar); a core exercise appears once a week', () => {
     for (const n of Object.keys(NAMES)) for (const w of plan(n).weeks) {
-      const seen = new Set();
+      // v0.5 fix round 2 (converted; DECISIONS G 'Tests converted in fix round 2'): with the core slots on the live library (R4-LIB-01, sample 01
+      // major) a low-back client's anti-movement drill - a plank, a dead bug, a bird dog - may run a second time in the week, two
+      // or more days apart, before a crunch or a leg raise takes the slot (rules.selection.x2.core_primary.low_back_repeat_first)
+      const WD7 = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+      const seen = new Map();
       for (const x of items(w)) {
         if (x.b.kind !== 'core' || !x.it.exercise_id) continue;
         const e = ex(x.it.exercise_id);
         const same = x.it.swaps.filter(sid => ex(sid).plane === e.plane).length;
         if (same >= 2) assert.ok(x.it.swaps.slice(0, same).every(sid => ex(sid).plane === e.plane), `${n} ${e.id} swaps ${x.it.swaps.join(', ')}`);
-        assert.ok(!seen.has(e.id), `${n} w${w.n} ${e.id} twice`);
-        seen.add(e.id);
+        const before = seen.get(e.id);
+        assert.ok(before === undefined || (/plank|dead-bug|bird-dog/.test(e.id) && Math.abs(WD7.indexOf(x.d.weekday) - WD7.indexOf(before)) >= 2), `${n} w${w.n} ${e.id} twice`);
+        seen.set(e.id, x.d.weekday);
       }
     }
   });
@@ -363,7 +376,8 @@ describe('stage B3: exercise selection, variation and rendering (RECHECK_v0.3 + 
         if (['resistance', 'isolation'].includes(kindOf(x.it.bucket))) assert.ok(!e.tags.includes('barbell') || x.it.bucket === 'ISO_CALF' && x.it.detail, `w${w.n} barbell ${e.id}`);
         if (x.b.kind === 'core') {
           assert.ok(!/russian-twist|copenhagen-plank$/.test(e.id), `w${w.n} ${e.id}`);
-          assert.ok(!coreSeen.has(e.id), `w${w.n} ${e.id} twice`);
+          // (v0.5 fix round 2 (converted; DECISIONS G 'Tests converted in fix round 2'): the plank may run on a second, far day - see R02-core-swaps-plane)
+          assert.ok(!coreSeen.has(e.id) || (/plank|dead-bug|bird-dog/.test(e.id) && coreSeen.get(e.id) !== x.d.weekday), `w${w.n} ${e.id} twice`);
           coreSeen.set(e.id, x.d.weekday);
         }
         // v0.4 B4: the racket elbow's care is wrist work; the racket shoulder's care (COACH-R3 R3-ATH-02 'rotator-cuff work') shares
@@ -373,7 +387,10 @@ describe('stage B3: exercise selection, variation and rendering (RECHECK_v0.3 + 
         for (const s of x.it.swaps || []) if (['RP_UKD', 'RP_BKD'].includes(x.it.bucket)) assert.ok(!(ex(s).tags || []).includes('deep_knee_flexion'), `${e.id} swap ${s}`);
       }
     }
-    assert.ok(allItems(p).some(x => x.it.exercise_id === 'db-wrist-extension-slow-lowering'));
+    // engine 0.5.0 / V2 (converted; DECISIONS G): the racket elbow's wrist extension is an optional add-on (COACH-R4 R4-LIB-01) - offered
+    // on the plan, never a template pick
+    assert.ok(!allItems(p).some(x => x.it.exercise_id === 'db-wrist-extension-slow-lowering'));
+    assert.ok(p.meta.addons.some(a => a.exercise_id === 'db-wrist-extension-slow-lowering' && a.kind === 'joint_care' && a.code === 'ELBOW_LATERAL_RACKET'));
   });
 
   // ------------------------------------------------------------------------------------------------ Spanish (R2-GEN-08)
@@ -388,7 +405,10 @@ describe('stage B3: exercise selection, variation and rendering (RECHECK_v0.3 + 
     assert.ok(!/Jalón de (cargada|arranque)|Pájaros|salto \+ rodilla \+ jalón/.test(s));
     // a weekday inside a Spanish sentence is lower case; the capacity notice agrees in number ('del volumen semanal ... en contactos')
     // (fix round 2 / F3, R2-GEN-08; RECHECK v0.4 03 minor: a list of days inside a sentence takes its 'y')
-    assert.ok(/el lunes, miércoles y viernes/.test(s) && !/el Lunes/.test(s));
+    // (v0.5: the sentence that listed the days 'el lunes, miércoles y viernes' was a time-check notice, retired with CT-01; the
+    // intensifier line lists its days the same way)
+    // (v0.5 fix round 1: a day whose only candidate is a calf raise in a week that tests sprints or jumps takes no intensifier)
+    assert.ok(/\((lunes y miércoles|lunes, miércoles y (viernes|sábado))\)/.test(s) && !/el Lunes|\(Lunes/.test(s));
     assert.ok(!/del (contactos|lanzamientos|cambios|metros)/.test(s));
     const b = md('05', { lang: 'es' });
     assert.ok(b.includes('1 año de entrenamiento') && !b.includes('1 años'));
