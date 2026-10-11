@@ -10,6 +10,7 @@ import path from 'node:path';
 import { generate } from '../engine/generate.mjs';
 import { validatePlan } from '../engine/validate.mjs';
 import { planAthletic, olympicVariantByDay, perSetBounds } from '../engine/athletic.mjs';
+import { ballisticCircuitModel } from './helpers/v06.mjs';
 import { loadCompiledModel, loadFixtureModel, INTAKE_DIR } from './helpers/models.mjs';
 import { randomIntake } from './helpers/random-intake.mjs';
 
@@ -266,7 +267,8 @@ describe('v0.4 fix round 2 / F2: athletic work (coach-eye reviews of the v0.4 sa
 
   // ------------------------------------------------------------------------------------------------ 05 bootcamp
   test('R05-circuit-throws-by-the-round: the circuit\'s ball station is a few full-intent throws a round (6 -> 10 with the stairway, then rest until the bell), climbing into the last week; a weigh-in holds nothing (13 throws in 50 s; 39 = 39; E-174)', () => {
-    const p = plan('05');
+    // (engine 0.6 selection, converted - DECISIONS G-135: the bootcamp's cardio station is cardio now; the B2 ballistic station is read on the model with the cardio-first rule off)
+    const p = generate(intakeOf('05'), ballisticCircuitModel());
     const PR = R.athletic.circuit_ballistic.per_round;
     const per = p.weeks.map(w => items(w).filter(x => x.b.kind === 'circuit' && x.it.athletic && x.it.athletic.key === 'throws').map(x => x.it.athletic.per_set));
     // v0.5 (G-09: the rounds come from the level - 4 for this L2 client - not from the minutes): the ball station still shares the
@@ -290,7 +292,8 @@ describe('v0.4 fix round 2 / F2: athletic work (coach-eye reviews of the v0.4 sa
     passes(p, ['V27']);
   });
   test('R05-throw-plane-rotates: the circuit\'s ball station changes plane at the exercise-block start - a sagittal throw, then a rotational one (04 general population 50 / 50; every throw was sagittal; E-174)', () => {
-    const p = plan('05');
+    // (engine 0.6 selection, converted - DECISIONS G-135: the bootcamp's cardio station is cardio now; the B2 ballistic station is read on the model with the cardio-first rule off)
+    const p = generate(intakeOf('05'), ballisticCircuitModel());
     const pl = ebFirstWeeks(p).map(w => { const x = items(w).find(x => x.b.kind === 'circuit' && x.it.athletic && x.it.athletic.key === 'throws'); return ex(x.it.exercise_id).plane === 'transverse' ? 'transverse' : 'sagittal'; });
     assert.ok(pl.length >= 2 && new Set(pl).size === 2, pl.join(' -> '));
   });
@@ -371,7 +374,8 @@ describe('v0.4 fix round 2 / F2: athletic work (coach-eye reviews of the v0.4 sa
   });
   test('R2F2-sweep-random-677-circuit-hold: the week that holds for a physical end test throws what the week before threw at the circuit\'s ball station - the per-round climb stops with the hold (fixture; V27 hold_over)', () => {
     for (const n of [677, 817, 1167]) {
-      const p = generate(randomIntake(n, fixture), fixture);
+      // (engine 0.6 selection, converted - DECISIONS G-135: the bootcamp's cardio station is cardio now; the B2 ballistic station is read on the model with the cardio-first rule off)
+      const p = generate(randomIntake(n, fixture), ballisticCircuitModel('fixture'));
       assert.ok(check(p, 'V27').pass, `random-${n}: ${JSON.stringify(check(p, 'V27').violations.slice(0, 2))}`);
       const last = p.weeks[p.weeks.length - 1], prev = p.weeks[p.weeks.length - 2];
       assert.ok(last.athletic_budget.hold, `random-${n}: the last week holds`);

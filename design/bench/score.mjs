@@ -76,7 +76,17 @@
 //                         pattern with no one-arm lift in the client's KIT (2.2 counted the whole library). These three change no
 //                         plan: with them off, 4 of the 102 plans of this round score lower than under 2.2 (bench 16, 51, 63,
 //                         94; -0.19 ... -0.58) - samples/STATUS_v0.5.md, fix round 2, says so.
-export const SCORER_VERSION = '2.3.0';
+// Scorer 2.4 (engine 0.6 selection package, DECISIONS G-130 ...): one reading follows a model rule the package added on purpose:
+//   * olympic day pattern  the power slot of an 'olympic safe' client (declared pain, 3+ play days, the 50+ racket overlay;
+//                         rules.selection.s6.olympic_safe; EQ-03 / ATH-10) holds a KB swing or the DB / KB high pull where no clean,
+//                         loaded jump or jerk is safe for him; the item says so (flag `olympic_safe`) and the day pattern is not read
+//                         on it - the engine's own V19 reads it the same way. Without the rule the scorer reads as 2.3.
+//   * one-arm share       after the first exercise block of a training block, a station of the coach's gym, push / pull / legs or
+//                         class day keeps the laterality of its previous block (rules.selection.s6.block_change; R2-LIB-01 one
+//                         detail between blocks): it counts in the share and is no station the dial could still turn.
+//   * MYO set             never on an exercise whose main mover is a muscle the plan cut for pain (the engine's G-69 rule,
+//                         rules.effort.intensifiers.never_pain_muscle) - a gap of 2.3 that the athletic arm slot exposed.
+export const SCORER_VERSION = '2.4.0';
 export const SCORE_SCHEMA = 'bench-score/2';
 
 const EPS = 1e-9;
@@ -307,6 +317,8 @@ function resolveParams(R, overrides = {}) {
   rule('stage_qualities', 'athletic.stages.stage_qualities', {});
   rule('contacts_session_max', 'athletic.contacts_per_session_max', {});
   rule('olympic', 'olympic', { per_week_max: 4 });
+  rule('olympic_safe', 'selection.s6.olympic_safe', null);
+  rule('block_change_s6', 'selection.s6.block_change', null);
   rule('in_season_game_heavy', 'athletic.in_season_game_heavy', { sports: [] });
   rule('in_season_template', 'plan_types.season.in_season', { template: null, variant: null });
   rule('prehab', 'prehab', { per_day_max: 2 });
@@ -886,8 +898,12 @@ function checkSessionStructure(S, X, ctx) {
         const IN = P.intensifiers;
         const neverCC = IN.never_credit_classes || [], neverTags = IN.never_tags || [], neverId = IN.never_id_re ? new RegExp(IN.never_id_re) : null;
         const calvesHot = (IN.never_calves_hotspots || []).some(c => X.hotspots.includes(c));
+        const painMyo = new Set(X.targets.pain_muscles || []);
         const eligible = (U) => U.ex && (U.ex.exercise_class === 'isolation' || U.ex.constraint >= 4) && !neverCC.includes(U.ex.credit_class) && !(P.myo_not_in_superset && U.superset) &&
-          !neverTags.some(t => (U.ex.tags || []).includes(t)) && !(neverId && neverId.test(U.ex.id)) && !(calvesHot && U.ex.credit_class === 'ISO_CALF');
+          !neverTags.some(t => (U.ex.tags || []).includes(t)) && !(neverId && neverId.test(U.ex.id)) && !(calvesHot && U.ex.credit_class === 'ISO_CALF') &&
+          // (scorer 2.4: the engine's own G-69 rule - never on an exercise whose main mover is a muscle the plan cut for pain,
+          // rules.effort.intensifiers.never_pain_muscle; read now because the arm slot of G-130 gives such a day a second candidate)
+          !(IN.never_pain_muscle && painMyo.size && Object.entries(U.ex.credits || {}).some(([m, c]) => c >= 1 && painMyo.has((ctx.R.muscles.defs[m] && ctx.R.muscles.defs[m].line) || m)));
         // (scorer 2.2: a calf raise only when the day holds no other eligible exercise; a two-sided exercise before a one-side one)
         const IX = IN.x1 || null;
         let pool = units.filter(eligible);
@@ -1414,6 +1430,7 @@ function checkCounts(S, X, ctx) {
         if (work) for (const I of D.items) {
           const fam = I.ex && I.ex.athletic && I.ex.athletic.olympic_family;
           if (I.bk !== 'power' || !fam) continue;
+          if (P.olympic_safe && (I.raw.flags || []).includes('olympic_safe') && ['swing', 'snatch'].includes(fam)) continue; // (2.4: G-133)
           const dp = (P.olympic.day_pattern || {})[fam];
           if (!dp || dp === 'either') continue;
           S.n('olympic_day_pattern');
@@ -1704,7 +1721,7 @@ function checkBalance(S, X, ctx) {
       if (!B.stairway || B.format === 'circuit') continue;
       const ebList = [...B.ebs.keys()];
       for (const [k, eb] of ebList.entries()) {
-        let bi = 0, uni = 0, pinnedSets = 0; const movable = new Map();
+        let bi = 0, uni = 0, pinnedSets = 0, keptOne = 0; const movable = new Map();
         for (const W of B.ebs.get(eb)) for (const D of W.days) {
           // scorer 2.1 (R4-SES-05): a lower slot of a gym A / B / C or push / pull / legs day keeps the laterality the coach's template
           // names (skeleton_mismatch holds that), so it is no part of the share the laterality dial is judged on
@@ -1728,12 +1745,17 @@ function checkBalance(S, X, ctx) {
           const inclineHeld = (V) => region === 'upper' && inclineOn && V.bucket === IFh.bucket;
           const PLp = P.powerlifting_presses_rule;
           const plPress = (V) => region === 'upper' && !!PLp && X.meta.derived && X.meta.derived.lift_style === PLp.lift_style && (PLp.buckets || []).includes(V.bucket);
+          const BCk = P.block_change_s6;
+          const keepLatDay = region === 'upper' && !!BCk && !!D.raw.skeleton && (BCk.keep_upper_laterality_skeleton_prefixes || []).some(pf => String(D.raw.skeleton).startsWith(pf));
           for (const U of D.units) {
             if (!buckets.includes(U.bucket) || (U.ex && U.ex.exercise_class !== 'compound')) continue;
             if (pinnedDay && U.origin === 'template' && (SL.laterality_of_bucket || {})[U.bucket]) { pinnedSets += U.sets; continue; }
             const one = U.laterality === 'unilateral' || U.laterality === 'alternating';
             if (one) uni += U.sets; else bi += U.sets;
             if (region === 'upper') {
+              // scorer 2.4 (G-134, R2-LIB-01): after the first exercise block of a training block a station of the coach's gym / push /
+              // pull / legs / class day keeps the laterality of its previous block (rules.selection.s6.block_change) - it is held
+              if (k > 0 && keepLatDay && U.origin === 'template') { if (one) keptOne += U.sets; continue; }
               const held = !one && ((leadRow && U === leadRow) || (leadPress && U === leadPress) || plPress(U) || inclineHeld(U) || (csRe && U.bucket === CSx.bucket && U.ex && csRe.test(U.ex.id)));
               if (!held) { const m = movable.get(U.slot) || { sets: 0, bucket: U.bucket, one }; m.sets += U.sets; movable.set(U.slot, m); }
             }
@@ -1753,7 +1775,7 @@ function checkBalance(S, X, ctx) {
           // every station the dial may turn, two-arm or one-arm - a pattern never holds more one-arm stations in a week than the
           // library holds different one-arm lifts for it (ctx.oneArmCap; the engine's own bound, UNI-07)
           const mv = [...movable.values()];
-          const held = (bi + uni) - sum(mv.map(m => m.sets));          // sets of the stations held two-arm
+          const held = (bi + uni) - sum(mv.map(m => m.sets)) - keptOne; // sets of the stations held two-arm (2.4: one-arm stations kept from the block before are held one-arm)
           const nowOne = {}; for (const m of mv) if (m.one) nowOne[m.bucket] = (nowOne[m.bucket] || 0) + 1;
           let best = share;
           for (let mask = 0; mask < (1 << mv.length); mask++) {

@@ -253,6 +253,26 @@ export function buildWeekLayout(derived, shape, trainingBlock, model) {
     if (wd) occupied.set(wd, { entry: e, kind: 'optional', optional: true, moved: wd !== e.tplWd });
   }
 
+  // v0.6 (G-136, 03 M1; template week_layout note 'sport_or_off'; R3-ATH-05): a competitive athlete's team practices show on the
+  // template's 'sport or off' days (the nearest free weekday when the client trains there), as long as the week keeps its OFF days;
+  // no aerobic session is placed on a practice day
+  const practiceDays = [];
+  {
+    const PRw = R.conditioning.s6 && R.conditioning.s6.practice;
+    const nP = (derived.D14_aerobic_sessions && derived.D14_aerobic_sessions.practice_days) || 0;
+    if (PRw && nP > 0 && tb.type !== 'in_season') {
+      const want = entries.filter((e) => e.note === PRw.prefer_note).map((e) => e.tplWd);
+      for (const tplWd of [...want, ...WEEKDAYS.filter((w) => !want.includes(w) && w !== 'Sun')]) {
+        if (practiceDays.length >= nP) break;
+        const wd = !occupied.has(tplWd) && !blocked.has(tplWd) && canTakeFree() ? tplWd : null;
+        if (!wd) continue;
+        occupied.set(wd, { entry: null, kind: 'sport', optional: false, practice: true });
+        practiceDays.push(wd);
+      }
+      if (practiceDays.length) weekWhy.push(why('why.practice_counts', 'R3-ATH-05', { n: nP }));
+    }
+  }
+
   // --- days without aerobic sessions yet -------------------------------------------------------------------------
   const days = [];
   const mainOrder = [...occupied.keys()].sort((a, b) => WDI[a] - WDI[b]);
@@ -362,6 +382,11 @@ export function buildWeekLayout(derived, shape, trainingBlock, model) {
       why: aer.replaced ? [why('why.activity_counts', 'R3-ATH-05', { activity: (derived.D2_profile.activity_ids || [])[0] || derived.D2_profile.id, n: aer.replaced })] : [],
       circuit_dose: null, _slots: [], _aerobic_used: [], _aerobic_stations: [] });
   }
+  for (const wd of practiceDays) {
+    days.push({ weekday: wd, day_type: null, kind: 'sport', optional: false, label_key: 'ui.plan.sport_day', lower_focus: null, full_body: false,
+      format: 'straight', supersets_on: false, est_minutes: 0, groups: [], blocks: [], why: [why('why.practice_day', 'R3-ATH-05')],
+      circuit_dose: null, _slots: [], _aerobic_used: [], _aerobic_stations: [] });
+  }
   for (const wd of sortWd(gameDays(derived)).filter((d) => !occupied.has(d) && !playDays.includes(d))) {
     days.push({ weekday: wd, day_type: null, kind: 'sport', optional: false, label_key: 'ui.plan.sport_day', lower_focus: null, full_body: false,
       format: 'straight', supersets_on: false, est_minutes: 0, groups: [], blocks: [], why: [],
@@ -403,6 +428,29 @@ export function buildWeekLayout(derived, shape, trainingBlock, model) {
       }
       remaining--; k++;
       if (k > 20) break;
+    }
+  }
+  // v0.6 (G-136, 03 M1: Blue intervals on Thursday before Friday's top-speed sprints and heavy hex-bar deadlift): a hard aerobic colour
+  // never sits on the day before a sprint day or the week's heavy hinge - it trades colours with a session that is not, else it
+  // becomes the easy steady session (rules.conditioning.s6.hard_eve)
+  {
+    const HE = R.conditioning.s6 && R.conditioning.s6.hard_eve;
+    if (HE) {
+      const protectedDays = new Set(finals.filter((f) => f.kind === 'main' && daySlots(f).some((x) => (HE.sprint_kinds && x.bucket === 'AP_SPRINT') || (HE.heavy_hinge && x.bucket === 'RP_BHD' && x.axial_req === 'axial'))).map((f) => f.weekday));
+      const eve = (wd) => protectedDays.has(WEEKDAYS[(WDI[wd] + 1) % 7]);
+      const sessions = finals.flatMap((f) => daySlots(f).filter((x) => x.aerobic).map((x) => ({ f, x })));
+      for (const h of sessions) {
+        if (!(HE.colours || []).includes(h.x.aerobic.colour) || !eve(h.f.weekday)) continue;
+        // (a separate session first: the add-on after lifting stays the easy one, G-82)
+        const ok = (o) => o !== h && !(HE.colours || []).includes(o.x.aerobic.colour) && !eve(o.f.weekday);
+        const other = sessions.find((o) => ok(o) && o.x.aerobic.position !== 'addon_after') || sessions.find(ok);
+        if (other) {
+          const c0 = h.x.aerobic.colour, m0 = h.x.aerobic.minutes;
+          h.x.aerobic.colour = other.x.aerobic.colour; h.x.aerobic.minutes = other.x.aerobic.minutes;
+          other.x.aerobic.colour = c0; other.x.aerobic.minutes = m0;
+        } else { h.x.aerobic.colour = R.conditioning.extra_colour; h.x.aerobic.minutes = R.conditioning.minutes[R.conditioning.extra_colour].slice(); }
+        h.x.why.push(why('why.hard_eve', 'R2-SES-06'));
+      }
     }
   }
   // (fix round 2, sample 02 major: a training day that holds an aerobic add-on takes no sprint buy-out)
@@ -861,6 +909,9 @@ export function programIdFor(derived, model) {
   return null;
 }
 
+/** v0.6 (G-130): the arm slot of the athletic A / B days is in this model */
+function st6Arm(ctx) { return !!(ctx.R.selection.s6); }
+
 /** focus muscles for template FOCUS stations: priorities rotate over days; otherwise least-covered target muscles */
 function planFocus(occupied, dt, ctx) {
   const { derived, model } = ctx;
@@ -881,6 +932,15 @@ function planFocus(occupied, dt, ctx) {
   const FOCUS_SMALL = ['side_delts', 'rear_delts', 'biceps', 'triceps', 'glutes'];
   const ds = (ctx.profile && ctx.profile.direct_sets_wk) || {};
   const direct = { triceps: ds.ISO_TRICEP > 0, biceps: ds.ISO_BICEP > 0 }; // the sport profile's own direct arm sets (04 weekly_sets)
+  // v0.6 (G-130): an arm the main days already train in the template's slot 5 needs no optional-day Focus slot for the profile's direct
+  // sets (sample bench 27: three triceps Focus slots on top of the B days' triceps exercises took the group past its ceiling)
+  const armKept = new Set();
+  for (const [, p] of occupied) {
+    if (p.kind !== 'main') continue;
+    const def = dayTypeDef(p.entry, dt);
+    if (def) for (const st of def.stations) if ((st.bucket === 'ISO_BICEP' || st.bucket === 'ISO_TRICEP') && st.condition === 'if_athletic_arm_sets' && keepStation(st, ctx, ctx.countFor(def))) armKept.add(st.bucket === 'ISO_BICEP' ? 'biceps' : 'triceps');
+  }
+  if (!st6Arm(ctx)) armKept.clear();
   const fallback = model.muscleIds({ target: true })
     // v0.4 fix round 1 (RECHECK 02 minor: credit-only triceps took 6 direct sets on the optional days, labelled Focus): a muscle the
     // plan keeps to compound credit never fills a Focus slot
@@ -888,6 +948,8 @@ function planFocus(occupied, dt, ctx) {
     // and an arm muscle the sport profile writes 0 direct sets for (04 weekly_sets ISO_BICEP / ISO_TRICEP 0; RECHECK 08 major: the
     // racket player's only upper-body work was curls and kickbacks labelled Focus)
     .filter((m) => !((m === 'biceps' && ds.ISO_BICEP === 0) || (m === 'triceps' && ds.ISO_TRICEP === 0)))
+    // (v0.6, G-130: an arm the main days train in the template's slot 5 - the client's own Focus choice aside, `prio`)
+    .filter((m) => !armKept.has(m))
     .map((m, i) => ({ m, i, r: profPrio.includes(m) || ratioFirst.includes(m) ? (profPrio.indexOf(m) >= 0 ? profPrio.indexOf(m) : 0) : (direct[m] ? 50 : 99), c: coverage[model.groupOf(m)] || 0 }))
     .sort((a, b) => a.r - b.r || a.c - b.c || a.i - b.i)
     .map((x) => x.m);
@@ -939,6 +1001,16 @@ function keepStation(st, ctx, count = Infinity) {
       const want = m[1];
       const pri = derived.priority_muscles || [];
       if (!pri.includes(want)) return false;
+    }
+    // v0.6 (G-130, R4-SES-05 slot 5 on the athletic A / B days): a station for one client type's session only - the competitive
+    // athlete's arm slot is not in the stay-active adult's or the older adult's day (his athletic sheet holds no arm isolation)
+    const t = /^if_session_type:(.+)$/.exec(st.condition);
+    if (t && !(ctx.size && t[1].split('|').includes(ctx.size.type))) return false;
+    // (... and for a sport whose profile writes direct arm sets - 04 weekly_sets ISO_BICEP / ISO_TRICEP; most field sports leave the
+    // arms to the compound lifts, OBSERVED BYOP ATHLETIC, and the soccer reviewer asked to keep it so)
+    if (st.condition === 'if_athletic_arm_sets') {
+      const ds = (ctx.profile && ctx.profile.direct_sets_wk) || {};
+      if (!(ctx.size && ctx.size.type === 'athletic' && ((ds.ISO_BICEP || 0) > 0 || (ds.ISO_TRICEP || 0) > 0))) return false;
     }
   }
   return true;
@@ -1247,7 +1319,10 @@ function aerobicPlan(derived, tb, profile, model) {
     const key = tb.type === 'in_season' ? 'in' : 'pre';
     const fromProfile = profile && profile.aerobic && profile.aerobic[key] != null ? profile.aerobic[key] : null;
     base = D14.sport_is_aerobic ? 0 : (fromProfile != null ? fromProfile : R.conditioning.sessions[tb.type === 'in_season' ? 'athlete_in' : 'athlete_pre']);
-    n = Math.max(R.conditioning.cardio_adjust.floor_total, base + adjust);
+    // v0.6 (G-136): the team practices count in these blocks too (rules.conditioning.s6.practice, PROPOSED)
+    const PRc = R.conditioning.s6 && R.conditioning.s6.practice;
+    const rp = PRc && D14.practice_days > 0 && base >= 1 ? Math.max(0, Math.min(D14.practice_days, PRc.max_replaced, base - PRc.keep_gym_led_min)) : 0;
+    n = Math.max(R.conditioning.cardio_adjust.floor_total, base - rp + adjust);
     colours = [];
   } else if (tb.type === 'recovery') {
     colours = colours.map(() => 'C');

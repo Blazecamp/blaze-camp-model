@@ -34,6 +34,7 @@ import { amendExerciseV2, addedExercisesV2, attachVideoSearchV2, amendBucketsV2,
 import { amendRulesV4, amendTemplatesV4, amendExerciseV4 } from './fixture/v05-integrate.mjs';
 import { amendRulesX1, amendTemplatesX1, amendExerciseX1, amendSportX1 } from './fixture/v05-fix1.mjs';
 import { amendRulesX2, amendTemplatesX2, amendExerciseX2, amendSportX2 } from './fixture/v05-fix2.mjs';
+import { amendRulesS6, amendTemplatesS6, amendExerciseS6, amendSportS6 } from './fixture/v06-select.mjs';
 
 // 1.3.0: the v1.2 sources (round-3 docs) + the coach-eye review amendments (tools/fixture/review-v12.mjs) + the round-3 engine
 // amendments (tools/fixture/round3.mjs: lines / groups, time check, Focus muscles, check-ins retired) + the stage-B2 athletic
@@ -92,6 +93,7 @@ export function compileModel(S = loadSources()) {
   for (const e of patched.errors) errors.push(`coach patch: ${e}`);
   for (let i = 0; i < exercises.length; i++) exercises[i] = amendExerciseX2(amendExerciseX1(amendExerciseV4(amendExerciseV2(amendExerciseR2F3(amendExerciseR2F2(amendExerciseF3(amendExerciseB3(amendExerciseB2(amendExercise(exercises[i])))))))))); // (+ v0.5 fix round 2, v05-fix2.mjs) // (+ v0.5 fix round 1, v05-fix1.mjs) // (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ F3, fix-r1-f3.mjs) // v1.2 review amendments, stage B2 (athletic-b2.mjs), then stage B3 (render-b3.mjs)
 
+  for (let i = 0; i < exercises.length; i++) exercises[i] = amendExerciseS6(exercises[i]); // engine 0.6 / selection (v06-select.mjs)
   // engine 0.5.0 / V2: the two mid-range pull records (R4-LIB-03; optional add-ons, tools/fixture/v05-library.mjs)
   const addedV2 = addedExercisesV2(exercises);
   for (const e of addedV2) { exercises.push(e); enNames[e.name_key] = UI_V2[e.name_key][0]; }
@@ -110,6 +112,7 @@ export function compileModel(S = loadSources()) {
   { const v4 = amendTemplatesV4(families); for (const k of Object.keys(families)) families[k] = v4[k]; } // engine 0.5.0 / V4: push / pull / legs in the sheet's order, a warm-up on every main day (v05-integrate.mjs)
   { const x1 = amendTemplatesX1(families); for (const k of Object.keys(families)) families[k] = x1[k]; } // engine 0.5.0 / fix round 1 (v05-fix1.mjs)
   { const x2 = amendTemplatesX2(families); for (const k of Object.keys(families)) families[k] = x2[k]; } // engine 0.5.0 / fix round 2 (v05-fix2.mjs)
+  { const s6 = amendTemplatesS6(families); for (const k of Object.keys(families)) families[k] = s6[k]; } // engine 0.6 / selection: the athletic A / B arm slot (v06-select.mjs)
   const templates = {
     schema: 'templates/2',
     buckets: amendBucketsV2(BUCKETS), // V2: carries and sled work sit with conditioning (R4-LIB-02)
@@ -125,6 +128,7 @@ export function compileModel(S = loadSources()) {
   const classEnd = { 1: 0.75, 2: 0.6, 3: 0.5, 4: 0.4, 5: 0.25 };
   const sports = {};
   for (const p of S.prof.profiles.slice().sort((a, b) => (a.id < b.id ? -1 : 1))) sports[p.id] = amendSportX2(amendSportX1(amendSportV2(amendSportR2F2(amendSportF2(amendSportB2(amendSport(normSport(p, classEnd), p), p), p)), p), p), p); // (+ v0.5 fix round 2) // (+ v0.5 fix round 1) // (+ V2: the confidence label, R4-SCP-03) // (+ fix round 2 / F2) // (+ F2)
+  for (const k of Object.keys(sports)) sports[k] = amendSportS6(sports[k]); // engine 0.6 / selection (v06-select.mjs)
   const picker = normPicker(S.prof);
   const profiles = {
     schema: 'profiles/2',
@@ -139,6 +143,7 @@ export function compileModel(S = loadSources()) {
 
   // ---------------------------------------------------------------- rules + cross-checks against the sources
   const rules = amendRulesX2(amendRulesX1(amendRulesV4(amendRulesV3(amendRulesV2(amendRulesV05(amendRulesR2F3(amendRulesR2F2(amendRulesR2F1(amendRulesF3(amendRulesF2(amendRulesF1(amendRulesB4(amendRulesB3(amendRulesB2(amendRulesR3(amendRules(buildRules(S.eqm)))))))))))))))))); /* (+ v0.5 fix round 2, v05-fix2.mjs) (+ v0.5 fix round 1, v05-fix1.mjs) (+ V3, v05-words.mjs) */ // (+ V2, v05-library.mjs) (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ fix round 2 / F1, fix-r2-f1.mjs) // (+ fix round 1 / F1, F2, F3) v1.2 review amendments, the round-3 answers, stage B2 (athletic), stage B3 (selection / render), then stage B4 (integration)
+  { const s6 = amendRulesS6(rules); for (const k of Object.keys(rules)) delete rules[k]; Object.assign(rules, s6); } // engine 0.6 / selection (v06-select.mjs), after fix round 2
   // a mismatch is a warning, not an error: rules.json must deep-equal the fixture's normative rules (BUILD_PLAN B1.2);
   // a value we believe is wrong goes to engine/CONTRACT_REQUESTS.md for the integrator
   const crosschecks = crossCheckRules(rules, S);

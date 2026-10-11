@@ -10,6 +10,7 @@ import path from 'node:path';
 import { generate } from '../engine/generate.mjs';
 import { validatePlan } from '../engine/validate.mjs';
 import { isFloorJump, perSetBounds, planAthletic } from '../engine/athletic.mjs';
+import { ballisticCircuitModel } from './helpers/v06.mjs';
 import { loadCompiledModel, loadFixtureModel, INTAKE_DIR } from './helpers/models.mjs';
 import { randomIntake } from './helpers/random-intake.mjs';
 
@@ -218,7 +219,8 @@ describe('v0.4 fix round 1 / F2: athletic work (coach-eye reviews of the 8 sampl
 
   // ------------------------------------------------------------------------------------------------------ 05 bootcamp
   test('R05-power-first-in-circuit: a ballistic circuit station (KB swing, medball throw) opens its circuit with full intent - never after two hamstring stations or as the day\'s last station (ORD-03; E-106)', () => {
-    const p = plan('05');
+    // (engine 0.6 selection, converted - DECISIONS G-135: the bootcamp's cardio station is cardio now; the B2 ballistic station is read on the model with the cardio-first rule off)
+    const p = generate(intakeOf('05'), ballisticCircuitModel());
     let n = 0;
     for (const w of p.weeks) for (const d of w.days) for (const b of d.blocks.filter(b => b.kind === 'circuit')) {
       const i = b.items.findIndex(it => it.bucket === 'COND_CIRCUIT' && it.exercise_id && (exOf(model, it.exercise_id).medball || exOf(model, it.exercise_id).tags.includes('kb_swing')));

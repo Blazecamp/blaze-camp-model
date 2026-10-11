@@ -11,6 +11,7 @@ import { validatePlan } from '../engine/validate.mjs';
 import { passesHardFilters } from '../engine/select.mjs';
 import { stagesForStairway, splitContacts, responseOf, athleticKeyOf, perSetBounds } from '../engine/athletic.mjs';
 import { olympicSetsForIndex } from '../engine/budget.mjs';
+import { ballisticCircuitModel } from './helpers/v06.mjs';
 import { loadCompiledModel, INTAKE_DIR } from './helpers/models.mjs';
 
 const model = loadCompiledModel();
@@ -323,7 +324,8 @@ describe('stage B2: athletic work (RECHECK_v0.3 + R3-ATH-01 .. 05)', { skip: !mo
 
   // ------------------------------------------------------------------------------------------------ 05 bootcamp
   test('R05-bootcamp-ballistic: a general-population circuit keeps a medball throw and a KB swing station, never a muscle set, inside the throw budget', () => {
-    const p = plan('05');
+    // (engine 0.6 selection, converted - DECISIONS G-135: the bootcamp's cardio station is cardio now; the B2 ballistic station is read on the model with the cardio-first rule off)
+    const p = generate(intakeOf('05'), ballisticCircuitModel());
     for (const w of stairWeeks(p)) {
       const st = items(w).filter(x => x.it.bucket === 'COND_CIRCUIT' && ex(x.it.exercise_id) && (ex(x.it.exercise_id).medball || ex(x.it.exercise_id).tags.includes('kb_swing')));
       assert.ok(st.some(x => ex(x.it.exercise_id).medball), `w${w.n} no medball station`);

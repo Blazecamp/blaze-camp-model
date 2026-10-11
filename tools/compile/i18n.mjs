@@ -25,6 +25,7 @@ import { UI_V2, V2_FINAL, ES_PRIORITY_V2 } from '../fixture/v05-library.mjs';
 import { UI_V3, V3_FINAL, isRemovedV3, ES_REVIEW_V3, ES_PRIORITY_V3 } from '../fixture/v05-words.mjs';
 import { UI_X1 } from '../fixture/v05-fix1.mjs';
 import { UI_X2 } from '../fixture/v05-fix2.mjs';
+import { UI_S6 } from '../fixture/v06-select.mjs';
 import { PROGRAM_NAME_STRINGS } from './templates-profiles.mjs';
 import { ES_EXERCISE_NAMES } from './es/exercises.mjs';
 import { ES_CUES, ES_DAY_LABELS, ES_PROFILE_NAMES, ES_MISC } from './es/labels.mjs';
@@ -185,6 +186,11 @@ export function buildI18n({ spec, prof, families, exercises, enNames, enCues }) 
   // engine 0.5.0 / fix round 1 (tools/fixture/v05-fix1.mjs): the round's words are the newest and win over every earlier layer
   // (they are written last in both builds); a line the machine translation had filled is no longer a machine line
   for (const [k, [e, s]] of Object.entries({ ...UI_X1, ...UI_X2 })) { // (fix round 2, tools/fixture/v05-fix2.mjs: its words win over fix round 1)
+    en[k] = e;
+    if (s !== undefined && s !== null) { es[k] = s; prov[k] = ES_SOURCE.wordlist; const i = machine.indexOf(k); if (i >= 0) machine.splice(i, 1); }
+  }
+  // engine 0.6 / selection (tools/fixture/v06-select.mjs): its words win over fix round 2
+  for (const [k, [e, s]] of Object.entries(UI_S6)) {
     en[k] = e;
     if (s !== undefined && s !== null) { es[k] = s; prov[k] = ES_SOURCE.wordlist; const i = machine.indexOf(k); if (i >= 0) machine.splice(i, 1); }
   }

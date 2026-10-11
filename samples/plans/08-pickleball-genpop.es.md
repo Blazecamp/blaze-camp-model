@@ -158,7 +158,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Perro de caza (Bird Dog) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
 | Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) → Salto lateral desde subida al cajón (Lateral Step-Up Jump) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contactos → 2 contactos |
 | Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) → Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 por lado → 6 por lado |
-| Tirón de cargada desde colgado medio (Mid-Hang Clean Pull) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 reps |
+| Swing ruso con kettlebell (KB Swing) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 reps |
 | Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) | 3 3 4 4 · 4 4 4 4 · 4 4 4 4 | 10 a 12 reps → 8 a 12 reps |
 | Sentadilla hack en máquina (Hack Squat) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 a 15 reps → 8 a 12 reps |
 | Jalón al pecho a un brazo (Single-Arm Pulldown) → Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 12 a 15 por lado → 8 a 12 por lado |
@@ -174,7 +174,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Bicho muerto (Dead Bug) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
 | Saltos de tobillo en el lugar (Ankle Hops) → Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) → Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 contactos → 12 contactos → 15 contactos |
 | Pase de pecho con balón medicinal (Medball Chest Pass) → Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 reps → 5 por lado → 6 por lado |
-| Arranque con mancuerna a una mano (Single-Arm DB Snatch) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3/3 |
+| Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
 | Press de banca con mancuernas (DB Bench Press) → Press de banca con mancuernas (DB Bench Press) - pausa de 1 segundo abajo | 3 3 3 3 · 3 4 4 4 · 4 4 4 4 | 10 a 12 reps → 8 a 12 reps |
 | Hiperextensión a 45° (Back Extension) | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 12 a 15 reps → 10 a 12 reps |
 | Press inclinado con mancuernas (Incline DB Press) → Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo | 3 3 3 3 · 3 3 3 3 · 3 3 3 4 | 10 a 12 reps → 8 a 12 reps |
@@ -231,12 +231,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Potencia / levantamientos olímpicos**
-1. **Tirón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 3 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Swing ruso con kettlebell (KB Swing)** — 2 × 10 a 15 reps · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Tirón de cargada desde colgado alto (High-Hang Clean Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado alto (Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado medio, a la rodilla (Mid-Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Nombre para copiar en YouTube: `Mid-Hang Clean Pull`
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
+   - En lugar de Tirón de cargada desde colgado medio (Mid-Hang Clean Pull), para cuidar tu rodilla.
+   - Cambiar por: Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) (mantiene la extensión explosiva de cadera; pierde la carga más pesada a dos lados) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
 
 **Fuerza**
 1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
@@ -319,12 +319,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Chest%20Pass) · Nombre para copiar en YouTube: `Medball Chest Pass`
 
 **Potencia / levantamientos olímpicos**
-1. **Arranque con mancuerna a una mano (Single-Arm DB Snatch)** — 2 × 3/3 · muévela rápido: si la mancuerna se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
+1. **Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing)** — 2 × 10 a 15 por lado · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Trabajo de potencia: mueve la mancuerna rápido; termina la serie si se frena.
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
    - por lado = 1 serie
-   - Cambiar por: Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde la recepción)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Nombre para copiar en YouTube: `Single-Arm DB Snatch`
+   - Cambiar por: Swing ruso con kettlebell (KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
@@ -445,12 +445,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Potencia / levantamientos olímpicos**
-1. **Tirón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 3 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Swing ruso con kettlebell (KB Swing)** — 2 × 10 a 15 reps · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Tirón de cargada desde colgado alto (High-Hang Clean Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado alto (Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado medio, a la rodilla (Mid-Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Nombre para copiar en YouTube: `Mid-Hang Clean Pull`
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
+   - En lugar de Tirón de cargada desde colgado medio (Mid-Hang Clean Pull), para cuidar tu rodilla.
+   - Cambiar por: Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) (mantiene la extensión explosiva de cadera; pierde la carga más pesada a dos lados) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
 
 **Fuerza**
 1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
@@ -530,12 +530,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Chest%20Pass) · Nombre para copiar en YouTube: `Medball Chest Pass`
 
 **Potencia / levantamientos olímpicos**
-1. **Arranque con mancuerna a una mano (Single-Arm DB Snatch)** — 2 × 3/3 · muévela rápido: si la mancuerna se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
+1. **Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing)** — 2 × 10 a 15 por lado · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Trabajo de potencia: mueve la mancuerna rápido; termina la serie si se frena.
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
    - por lado = 1 serie
-   - Cambiar por: Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde la recepción)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Nombre para copiar en YouTube: `Single-Arm DB Snatch`
+   - Cambiar por: Swing ruso con kettlebell (KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
@@ -652,12 +652,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Potencia / levantamientos olímpicos**
-1. **Tirón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 3 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Swing ruso con kettlebell (KB Swing)** — 2 × 10 a 15 reps · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Tirón de cargada desde colgado alto (High-Hang Clean Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado alto (Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado medio, a la rodilla (Mid-Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Nombre para copiar en YouTube: `Mid-Hang Clean Pull`
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
+   - En lugar de Tirón de cargada desde colgado medio (Mid-Hang Clean Pull), para cuidar tu rodilla.
+   - Cambiar por: Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) (mantiene la extensión explosiva de cadera; pierde la carga más pesada a dos lados) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
 
 **Fuerza**
 1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
@@ -737,12 +737,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Chest%20Pass) · Nombre para copiar en YouTube: `Medball Chest Pass`
 
 **Potencia / levantamientos olímpicos**
-1. **Arranque con mancuerna a una mano (Single-Arm DB Snatch)** — 2 × 3/3 · muévela rápido: si la mancuerna se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
+1. **Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing)** — 2 × 10 a 15 por lado · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Trabajo de potencia: mueve la mancuerna rápido; termina la serie si se frena.
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
    - por lado = 1 serie
-   - Cambiar por: Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde la recepción)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Nombre para copiar en YouTube: `Single-Arm DB Snatch`
+   - Cambiar por: Swing ruso con kettlebell (KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
@@ -859,12 +859,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Potencia / levantamientos olímpicos**
-1. **Tirón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 3 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Swing ruso con kettlebell (KB Swing)** — 2 × 10 a 15 reps · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Tirón de cargada desde colgado alto (High-Hang Clean Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado alto (Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado medio, a la rodilla (Mid-Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Nombre para copiar en YouTube: `Mid-Hang Clean Pull`
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
+   - En lugar de Tirón de cargada desde colgado medio (Mid-Hang Clean Pull), para cuidar tu rodilla.
+   - Cambiar por: Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) (mantiene la extensión explosiva de cadera; pierde la carga más pesada a dos lados) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
 
 **Fuerza**
 1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
@@ -944,12 +944,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Chest%20Pass) · Nombre para copiar en YouTube: `Medball Chest Pass`
 
 **Potencia / levantamientos olímpicos**
-1. **Arranque con mancuerna a una mano (Single-Arm DB Snatch)** — 2 × 3/3 · muévela rápido: si la mancuerna se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
+1. **Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing)** — 2 × 10 a 15 por lado · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Trabajo de potencia: mueve la mancuerna rápido; termina la serie si se frena.
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
    - por lado = 1 serie
-   - Cambiar por: Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde la recepción)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Nombre para copiar en YouTube: `Single-Arm DB Snatch`
+   - Cambiar por: Swing ruso con kettlebell (KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
@@ -1069,12 +1069,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L)) · Nombre para copiar en YouTube: `Rotational Medball Chest Pass (R & L)`
 
 **Potencia / levantamientos olímpicos**
-1. **Tirón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 3 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Swing ruso con kettlebell (KB Swing)** — 2 × 10 a 15 reps · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Tirón de cargada desde colgado alto (High-Hang Clean Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado alto (Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado medio, a la rodilla (Mid-Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Nombre para copiar en YouTube: `Mid-Hang Clean Pull`
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
+   - En lugar de Tirón de cargada desde colgado medio (Mid-Hang Clean Pull), para cuidar tu rodilla.
+   - Cambiar por: Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) (mantiene la extensión explosiva de cadera; pierde la carga más pesada a dos lados) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
 
 **Fuerza**
 1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
@@ -1152,12 +1152,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Potencia / levantamientos olímpicos**
-1. **Arranque con mancuerna a una mano (Single-Arm DB Snatch)** — 2 × 3/3 · muévela rápido: si la mancuerna se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
+1. **Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing)** — 2 × 10 a 15 por lado · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Trabajo de potencia: mueve la mancuerna rápido; termina la serie si se frena.
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
    - por lado = 1 serie
-   - Cambiar por: Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde la recepción)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Nombre para copiar en YouTube: `Single-Arm DB Snatch`
+   - Cambiar por: Swing ruso con kettlebell (KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
@@ -1273,12 +1273,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L)) · Nombre para copiar en YouTube: `Rotational Medball Chest Pass (R & L)`
 
 **Potencia / levantamientos olímpicos**
-1. **Tirón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 3 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Swing ruso con kettlebell (KB Swing)** — 2 × 10 a 15 reps · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Tirón de cargada desde colgado alto (High-Hang Clean Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado alto (Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado medio, a la rodilla (Mid-Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Nombre para copiar en YouTube: `Mid-Hang Clean Pull`
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
+   - En lugar de Tirón de cargada desde colgado medio (Mid-Hang Clean Pull), para cuidar tu rodilla.
+   - Cambiar por: Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) (mantiene la extensión explosiva de cadera; pierde la carga más pesada a dos lados) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
 
 **Fuerza**
 1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
@@ -1356,12 +1356,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Potencia / levantamientos olímpicos**
-1. **Arranque con mancuerna a una mano (Single-Arm DB Snatch)** — 2 × 3/3 · muévela rápido: si la mancuerna se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
+1. **Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing)** — 2 × 10 a 15 por lado · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Trabajo de potencia: mueve la mancuerna rápido; termina la serie si se frena.
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
    - por lado = 1 serie
-   - Cambiar por: Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde la recepción)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Nombre para copiar en YouTube: `Single-Arm DB Snatch`
+   - Cambiar por: Swing ruso con kettlebell (KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 4 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
@@ -1477,12 +1477,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L)) · Nombre para copiar en YouTube: `Rotational Medball Chest Pass (R & L)`
 
 **Potencia / levantamientos olímpicos**
-1. **Tirón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 3 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Swing ruso con kettlebell (KB Swing)** — 2 × 10 a 15 reps · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Tirón de cargada desde colgado alto (High-Hang Clean Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado alto (Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado medio, a la rodilla (Mid-Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Nombre para copiar en YouTube: `Mid-Hang Clean Pull`
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
+   - En lugar de Tirón de cargada desde colgado medio (Mid-Hang Clean Pull), para cuidar tu rodilla.
+   - Cambiar por: Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) (mantiene la extensión explosiva de cadera; pierde la carga más pesada a dos lados) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
 
 **Fuerza**
 1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
@@ -1560,12 +1560,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Potencia / levantamientos olímpicos**
-1. **Arranque con mancuerna a una mano (Single-Arm DB Snatch)** — 2 × 3/3 · muévela rápido: si la mancuerna se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
+1. **Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing)** — 2 × 10 a 15 por lado · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Trabajo de potencia: mueve la mancuerna rápido; termina la serie si se frena.
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
    - por lado = 1 serie
-   - Cambiar por: Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde la recepción)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Nombre para copiar en YouTube: `Single-Arm DB Snatch`
+   - Cambiar por: Swing ruso con kettlebell (KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 4 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
@@ -1681,12 +1681,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L)) · Nombre para copiar en YouTube: `Rotational Medball Chest Pass (R & L)`
 
 **Potencia / levantamientos olímpicos**
-1. **Tirón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 3 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Swing ruso con kettlebell (KB Swing)** — 2 × 10 a 15 reps · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Tirón de cargada desde colgado alto (High-Hang Clean Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado alto (Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado medio, a la rodilla (Mid-Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Nombre para copiar en YouTube: `Mid-Hang Clean Pull`
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
+   - En lugar de Tirón de cargada desde colgado medio (Mid-Hang Clean Pull), para cuidar tu rodilla.
+   - Cambiar por: Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) (mantiene la extensión explosiva de cadera; pierde la carga más pesada a dos lados) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
 
 **Fuerza**
 1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
@@ -1764,12 +1764,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Potencia / levantamientos olímpicos**
-1. **Arranque con mancuerna a una mano (Single-Arm DB Snatch)** — 2 × 3/3 · muévela rápido: si la mancuerna se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
+1. **Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing)** — 2 × 10 a 15 por lado · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Trabajo de potencia: mueve la mancuerna rápido; termina la serie si se frena.
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
    - por lado = 1 serie
-   - Cambiar por: Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde la recepción)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Nombre para copiar en YouTube: `Single-Arm DB Snatch`
+   - Cambiar por: Swing ruso con kettlebell (KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 4 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
@@ -1887,12 +1887,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Scoop%20Toss%20(R%20%26%20L)) · Nombre para copiar en YouTube: `Rotational Medball Scoop Toss (R & L)`
 
 **Potencia / levantamientos olímpicos**
-1. **Tirón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 3 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Swing ruso con kettlebell (KB Swing)** — 2 × 10 a 15 reps · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Tirón de cargada desde colgado alto (High-Hang Clean Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado alto (Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado medio, a la rodilla (Mid-Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Nombre para copiar en YouTube: `Mid-Hang Clean Pull`
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
+   - En lugar de Tirón de cargada desde colgado medio (Mid-Hang Clean Pull), para cuidar tu rodilla.
+   - Cambiar por: Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) (mantiene la extensión explosiva de cadera; pierde la carga más pesada a dos lados) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
 
 **Fuerza**
 1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
@@ -1970,12 +1970,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Chest%20Pass%20(R%20%26%20L%20leg)) · Nombre para copiar en YouTube: `Step-Forward Medball Chest Pass (R & L leg)`
 
 **Potencia / levantamientos olímpicos**
-1. **Arranque con mancuerna a una mano (Single-Arm DB Snatch)** — 2 × 3/3 · muévela rápido: si la mancuerna se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
+1. **Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing)** — 2 × 10 a 15 por lado · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Trabajo de potencia: mueve la mancuerna rápido; termina la serie si se frena.
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
    - por lado = 1 serie
-   - Cambiar por: Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde la recepción)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Nombre para copiar en YouTube: `Single-Arm DB Snatch`
+   - Cambiar por: Swing ruso con kettlebell (KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press) - pausa de 1 segundo abajo** — 4 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
@@ -2091,12 +2091,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Scoop%20Toss%20(R%20%26%20L)) · Nombre para copiar en YouTube: `Rotational Medball Scoop Toss (R & L)`
 
 **Potencia / levantamientos olímpicos**
-1. **Tirón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 3 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Swing ruso con kettlebell (KB Swing)** — 2 × 10 a 15 reps · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Tirón de cargada desde colgado alto (High-Hang Clean Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado alto (Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado medio, a la rodilla (Mid-Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Nombre para copiar en YouTube: `Mid-Hang Clean Pull`
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
+   - En lugar de Tirón de cargada desde colgado medio (Mid-Hang Clean Pull), para cuidar tu rodilla.
+   - Cambiar por: Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) (mantiene la extensión explosiva de cadera; pierde la carga más pesada a dos lados) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
 
 **Fuerza**
 1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
@@ -2174,12 +2174,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Chest%20Pass%20(R%20%26%20L%20leg)) · Nombre para copiar en YouTube: `Step-Forward Medball Chest Pass (R & L leg)`
 
 **Potencia / levantamientos olímpicos**
-1. **Arranque con mancuerna a una mano (Single-Arm DB Snatch)** — 2 × 3/3 · muévela rápido: si la mancuerna se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
+1. **Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing)** — 2 × 10 a 15 por lado · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Trabajo de potencia: mueve la mancuerna rápido; termina la serie si se frena.
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
    - por lado = 1 serie
-   - Cambiar por: Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde la recepción)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Nombre para copiar en YouTube: `Single-Arm DB Snatch`
+   - Cambiar por: Swing ruso con kettlebell (KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press) - pausa de 1 segundo abajo** — 4 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
@@ -2296,12 +2296,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Scoop%20Toss%20(R%20%26%20L)) · Nombre para copiar en YouTube: `Rotational Medball Scoop Toss (R & L)`
 
 **Potencia / levantamientos olímpicos**
-1. **Tirón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 3 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Swing ruso con kettlebell (KB Swing)** — 2 × 10 a 15 reps · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Tirón de cargada desde colgado alto (High-Hang Clean Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado alto (Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado medio, a la rodilla (Mid-Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Nombre para copiar en YouTube: `Mid-Hang Clean Pull`
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
+   - En lugar de Tirón de cargada desde colgado medio (Mid-Hang Clean Pull), para cuidar tu rodilla.
+   - Cambiar por: Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) (mantiene la extensión explosiva de cadera; pierde la carga más pesada a dos lados) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
 
 **Fuerza**
 1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
@@ -2379,12 +2379,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Chest%20Pass%20(R%20%26%20L%20leg)) · Nombre para copiar en YouTube: `Step-Forward Medball Chest Pass (R & L leg)`
 
 **Potencia / levantamientos olímpicos**
-1. **Arranque con mancuerna a una mano (Single-Arm DB Snatch)** — 2 × 3/3 · muévela rápido: si la mancuerna se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
+1. **Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing)** — 2 × 10 a 15 por lado · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Trabajo de potencia: mueve la mancuerna rápido; termina la serie si se frena.
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
    - por lado = 1 serie
-   - Cambiar por: Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde la recepción)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Nombre para copiar en YouTube: `Single-Arm DB Snatch`
+   - Cambiar por: Swing ruso con kettlebell (KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press) - pausa de 1 segundo abajo** — 4 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
@@ -2503,12 +2503,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Scoop%20Toss%20(R%20%26%20L)) · Nombre para copiar en YouTube: `Rotational Medball Scoop Toss (R & L)`
 
 **Potencia / levantamientos olímpicos**
-1. **Tirón de cargada desde colgado medio (Mid-Hang Clean Pull)** — 2 × 3 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
+1. **Swing ruso con kettlebell (KB Swing)** — 2 × 10 a 15 reps · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Los olímpicos son para potencia: sin porcentajes salvo que tu entrenador los active
-   - No necesitas discos de goma: baja la barra con control
-   - Cambiar por: Tirón de cargada desde colgado alto (High-Hang Clean Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado alto (Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Cargada de potencia desde colgado medio, a la rodilla (Mid-Hang Power Clean) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Nombre para copiar en YouTube: `Mid-Hang Clean Pull`
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
+   - En lugar de Tirón de cargada desde colgado medio (Mid-Hang Clean Pull), para cuidar tu rodilla.
+   - Cambiar por: Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) (mantiene la extensión explosiva de cadera; pierde la carga más pesada a dos lados) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
 
 **Fuerza**
 1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
@@ -2586,12 +2586,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Chest%20Pass%20(R%20%26%20L%20leg)) · Nombre para copiar en YouTube: `Step-Forward Medball Chest Pass (R & L leg)`
 
 **Potencia / levantamientos olímpicos**
-1. **Arranque con mancuerna a una mano (Single-Arm DB Snatch)** — 2 × 3/3 · muévela rápido: si la mancuerna se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
+1. **Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing)** — 2 × 10 a 15 por lado · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
-   - Trabajo de potencia: mueve la mancuerna rápido; termina la serie si se frena.
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
    - por lado = 1 serie
-   - Cambiar por: Arranque desde colgado con mancuerna en postura escalonada (DB Hang Snatch) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde la recepción)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Nombre para copiar en YouTube: `Single-Arm DB Snatch`
+   - Cambiar por: Swing ruso con kettlebell (KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press) - pausa de 1 segundo abajo** — 4 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso

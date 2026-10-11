@@ -28,6 +28,7 @@ import { amendExerciseV2, addedExercisesV2, attachVideoSearchV2, amendBucketsV2,
 import { amendRulesV4, amendTemplatesV4, amendExerciseV4 } from './v05-integrate.mjs';
 import { amendRulesX1, amendTemplatesX1, amendExerciseX1, amendSportX1, UI_X1 } from './v05-fix1.mjs';
 import { amendRulesX2, amendTemplatesX2, amendExerciseX2, amendSportX2, UI_X2 } from './v05-fix2.mjs';
+import { amendRulesS6, amendTemplatesS6, amendExerciseS6, amendSportS6, UI_S6 } from './v06-select.mjs';
 
 const spec = readJSON(path.join(BASE, 'generator_spec_v1.json'));
 const cat = readJSON(path.join(SYN, '02_exercise_catalog.json'));
@@ -64,6 +65,7 @@ for (const r of cat) {
   if (ex.cue_key) enCues[ex.cue_key] = r.coach_cues[0].cue;
 }
 // engine 0.5.0 / V2: the two mid-range pull records (R4-LIB-03; optional add-ons, v05-library.mjs)
+for (let i = 0; i < exercises.length; i++) exercises[i] = amendExerciseS6(exercises[i]); // engine 0.6 / selection (v06-select.mjs)
 for (const e of addedExercisesV2(exercises)) { exercises.push(e); enNames[e.name_key] = UI_V2[e.name_key][0]; }
 exercises.sort((a, b) => (a.id < b.id ? -1 : 1));
 
@@ -80,6 +82,7 @@ for (const [fam, src] of Object.entries(tpl.generator_split_templates)) {
 { const v4 = amendTemplatesV4(families); for (const k of Object.keys(families)) families[k] = v4[k]; } // engine 0.5.0 / V4: push / pull / legs in the sheet's order, a warm-up on every main day (v05-integrate.mjs)
 { const x1 = amendTemplatesX1(families); for (const k of Object.keys(families)) families[k] = x1[k]; } // engine 0.5.0 / fix round 1 (v05-fix1.mjs)
 { const x2 = amendTemplatesX2(families); for (const k of Object.keys(families)) families[k] = x2[k]; } // engine 0.5.0 / fix round 2 (v05-fix2.mjs)
+{ const s6 = amendTemplatesS6(families); for (const k of Object.keys(families)) families[k] = s6[k]; } // engine 0.6 / selection: the athletic A / B arm slot (v06-select.mjs)
 const templates = {
   schema: 'templates/2',
   buckets: amendBucketsV2(BUCKETS), // V2: carries and sled work sit with conditioning (R4-LIB-02)
@@ -93,6 +96,7 @@ const templates = {
 const classEnd = { 1: 0.75, 2: 0.6, 3: 0.5, 4: 0.4, 5: 0.25 };
 const sports = {};
 for (const p of prof.profiles.slice().sort((a, b) => (a.id < b.id ? -1 : 1))) sports[p.id] = amendSportX2(amendSportX1(amendSportV2(amendSportR2F2(amendSportF2(amendSportB2(amendSport(normSport(p, classEnd), p), p), p)), p), p), p); // (+ v0.5 fix round 2) // (+ v0.5 fix round 1) // (+ V2: the confidence label, R4-SCP-03) // (+ fix round 2 / F2: pre-season speed and power) // (+ F2: Olympic ceiling, reactive COD)
+for (const k of Object.keys(sports)) sports[k] = amendSportS6(sports[k]); // engine 0.6 / selection (v06-select.mjs)
 const picker = normPicker(prof);
 const profiles = {
   schema: 'profiles/2',
@@ -178,11 +182,13 @@ for (const k of Object.keys(en)) if (isRemovedV3(k)) { delete en[k]; delete es[k
 for (const [k, s] of Object.entries(ES_REVIEW_V3)) if (k in en) es[k] = s; // the V3 Spanish review (R2-GEN-08; v05-words.mjs)
 for (const [k, [e, s]] of Object.entries(UI_X1)) { en[k] = e; if (s !== undefined && s !== null) es[k] = s; } // engine 0.5.0 / fix round 1 words win over every earlier layer (v05-fix1.mjs)
 for (const [k, [e, s]] of Object.entries(UI_X2)) { en[k] = e; if (s !== undefined && s !== null) es[k] = s; } // engine 0.5.0 / fix round 2 words win over fix round 1 (v05-fix2.mjs)
+for (const [k, [e, s]] of Object.entries(UI_S6)) { en[k] = e; if (s !== undefined && s !== null) es[k] = s; } // engine 0.6 / selection words (v06-select.mjs)
 attachVideoSearchV2(exercises, en); // R4-LIB-05: a YouTube search link built from the final English name (v05-library.mjs)
 const sortObj = (o) => Object.fromEntries(Object.entries(o).sort(([a], [b]) => (a === '_meta' ? -1 : b === '_meta' ? 1 : a < b ? -1 : a > b ? 1 : 0)));
 const esMissing = Object.keys(en).filter(k => k !== '_meta' && !(k in es)).sort();
 
 const rules = amendRulesX2(amendRulesX1(amendRulesV4(amendRulesV3(amendRulesV2(amendRulesV05(amendRulesR2F3(amendRulesR2F2(amendRulesR2F1(amendRulesF3(amendRulesF2(amendRulesF1(amendRulesB4(amendRulesB3(amendRulesB2(amendRulesR3(amendRules(buildRules(eqm)))))))))))))))))); /* (+ v0.5 fix round 2, v05-fix2.mjs) (+ v0.5 fix round 1, v05-fix1.mjs) (+ V3, v05-words.mjs) */ // (+ V2, v05-library.mjs) (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ fix round 2 / F1, fix-r2-f1.mjs) // (+ fix round 1 / F1, F2, F3) v1.2 review amendments, the round-3 answers, stage B2 (athletic), stage B3 (selection / render), then stage B4 (integration)
+{ const s6 = amendRulesS6(rules); for (const k of Object.keys(rules)) delete rules[k]; Object.assign(rules, s6); } // engine 0.6 / selection (v06-select.mjs), after fix round 2
 const templateCount = Object.values(families).reduce((n, f) => n + Object.keys(f.days).length, 0);
 const model = {
   _fixture: {

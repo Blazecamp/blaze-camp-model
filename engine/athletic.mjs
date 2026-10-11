@@ -257,6 +257,10 @@ export function throwSided(ex) {
 export function circuitBallistic(derived, model) {
   const CB = model.rules.athletic.circuit_ballistic;
   if (!CB || !CB.enabled || derived.goal === 'muscle') return false;
+  // v0.6 (G-135, OBSERVED BYOP 'BOOTCAMP - OPTION 2' Cardio station): the bootcamp's cardio station takes cardio picks first
+  // (rules.selection.s6.circuit_cardio_first) - the plan then holds no ballistic station and no throw budget
+  const CCF = model.rules.selection && model.rules.selection.s6 && model.rules.selection.s6.circuit_cardio_first;
+  if (CCF && (CCF.families || []).includes((derived.D6_week_layout || {}).family)) return false;
   const D6 = derived.D6_week_layout || {};
   if (!CB.families.includes(D6.family)) return false;
   let circuit = false;
@@ -1096,6 +1100,38 @@ export function planAthletic(model, derived, shape, budget, weeksItems) {
         for (const d of data) { const before = sumK(d, PLY); holdShare(d, { noUp: true, noBal: true }); if (Math.abs(sumK(d, PLY) - before) > EPS) moved = true; }
         if (!moved) break;
         backward();
+      }
+      // engine 0.6 selection (DECISIONS G-139): a week the backward pass left under its share band takes its ankle / reactive work
+      // back up inside the band, while each family stays at or under the next week's total (never a drop) - a later exercise block
+      // that holds more jumps (CAT-13's lateral stations) raises the early weeks' ballistic jumps without the ankle work following
+      const SU = R.athletic.s6 && R.athletic.s6.share_up_after_backward;
+      if (SH && SU) for (let i = 0; i < data.length; i++) {
+        const d = data[i], nx = data[i + 1] || null, s = shareTarget(d);
+        if (s === null || d.hold) continue;
+        const hi = shareTop(s), lo = s - SH.tolerance;
+        const fits = (it) => !nx || famKeys.every(keys => !keys.includes(it.key) || !famItems(nx, keys).length || tot(d, keys) + it.sets * it.b.step <= tot(nx, keys) + EPS);
+        for (let guard = 0; guard < 400; guard++) {
+          const sh = shareOf(d);
+          if (sh === null || sh >= lo - EPS) break;
+          const up = d.items.filter(it => PLY.includes(it.key) && !it.replaced && canUp(d, it) && fits(it)).sort((a, b) => (a.key === 'low_contacts' ? 0 : 1) - (b.key === 'low_contacts' ? 0 : 1) || a.per / a.b.hi - b.per / b.b.hi)[0];
+          if (up) {
+            up.per += up.b.step;
+            if (shareOf(d) > hi + EPS) { up.per -= up.b.step; break; }
+            mark(d, up.key);
+            continue;
+          }
+          // (no ankle room under the next week: the ballistic jumps the climb raised give a step back, still above the week before - R3-SES-02 'never flat')
+          const pv = data[i - 1] || null;
+          // (a baseline test week's jumps may be met, any other week's stay below: no new plateau)
+          const room0 = pv && pv.ws.test ? -EPS : EPS;
+          const keeps = (it) => !pv || famKeys.every(keys => !keys.includes(it.key) || !famItems(pv, keys).length || tot(d, keys) - it.sets * it.b.step > tot(pv, keys) + room0);
+          // (never the week before an end-test week, which holds this week's doses - sweep dance_team: V27 hold_over)
+          const dn = SU === 'ankle_then_jumps' && !(nx && nx.hold) ?d.items.filter(it => it.key === 'jump_contacts' && !it.replaced && canDown(it) && keeps(it)).sort((a, b) => b.per / b.b.hi - a.per / a.b.hi)[0] : null;
+          if (!dn) break;
+          dn.per -= dn.b.step;
+          if (shareOf(d) > hi + EPS) { dn.per += dn.b.step; break; }
+          mark(d, dn.key); d.lowered = d.lowered || new Set(); d.lowered.add(dn.key);
+        }
       }
     }
     // the peak week's planned totals (as the week is dosed, before the end-test week's own rule) for the next block's pre-season

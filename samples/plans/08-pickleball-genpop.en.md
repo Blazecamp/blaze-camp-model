@@ -158,7 +158,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Bird Dogs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Stick the Landing - Bilateral (jump/drop and freeze the landing) → Lateral Box Step-up Jump | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contacts → 2 contacts |
 | Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L) → Rotational Medball Scoop Toss (R & L) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 per side → 6 per side |
-| Mid-Hang Clean Pull | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 Reps |
+| Kettlebell Swing (Russian) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
 | Seal Row - DB (Supinated Grip) | 3 3 4 4 · 4 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
 | Hack Squat (machine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps → 8 to 12 Reps |
 | Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 12 to 15 per side → 8 to 12 per side |
@@ -174,7 +174,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Dead Bugs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Ankle Hops (bilateral, in place) → Bilateral Lateral Ankle Hops → Bilateral Zig-Zag Ankle Hops | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 contacts → 12 contacts → 15 contacts |
 | Medball Chest Pass → Medball Alternating Back-to-Wall Rotational Scoops → Step-Forward Medball Chest Pass (R & L leg) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 Reps → 5 per side → 6 per side |
-| Single-Arm DB Snatch | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3/3 |
+| Split-Stance Contralateral Single-Arm KB Swing | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Flat DB Bench Press → Flat DB Bench Press - 1-second pause at the bottom | 3 3 3 3 · 3 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
 | 45-Degree Hyperextension (back/hip extension) | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 12 to 15 Reps → 10 to 12 Reps |
 | Incline DB Bench Press → Incline DB Bench Press - 1-second pause at the bottom | 3 3 3 3 · 3 3 3 3 · 3 3 3 4 | 10 to 12 Reps → 8 to 12 Reps |
@@ -231,12 +231,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Power / Olympic lifts**
-1. **Mid-Hang Clean Pull** — 2 × 3 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Kettlebell Swing (Russian)** — 2 × 10 to 15 Reps · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Olympic lifts are for power: no percentages unless your coach switches them on
-   - No bumper plates needed: lower the bar under control
-   - Swap for: High-Hang Clean Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the High Hang (hip crease) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the Mid Hang (knee) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Name to copy into YouTube: `Mid-Hang Clean Pull`
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
+   - Instead of Mid-Hang Clean Pull, to protect your knee.
+   - Swap for: DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Split-Stance Contralateral Single-Arm KB Swing (keeps the explosive hip drive; loses the heavier two-sided load) / American KB Swing (overhead) (keeps the explosive hip drive; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
 
 **Strength**
 1. **Seal Row - DB (Supinated Grip)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -319,12 +319,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Chest%20Pass) · Name to copy into YouTube: `Medball Chest Pass`
 
 **Power / Olympic lifts**
-1. **Single-Arm DB Snatch** — 2 × 3/3 · move it fast: if the dumbbell slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Split-Stance Contralateral Single-Arm KB Swing** — 2 × 10 to 15 per side · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Power work: move the dumbbell fast; stop the set if it slows down.
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
    - per side = 1 set
-   - Swap for: Staggered-Stance DB Hang Snatch (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / DB/KB High Pull (keeps the explosive hip drive; loses the catch)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
+   - Swap for: Kettlebell Swing (Russian) (keeps the explosive hip drive; loses the one-side-at-a-time work) / DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / American KB Swing (overhead) (keeps the explosive hip drive; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
 1. **Flat DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -445,12 +445,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Power / Olympic lifts**
-1. **Mid-Hang Clean Pull** — 2 × 3 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Kettlebell Swing (Russian)** — 2 × 10 to 15 Reps · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Olympic lifts are for power: no percentages unless your coach switches them on
-   - No bumper plates needed: lower the bar under control
-   - Swap for: High-Hang Clean Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the High Hang (hip crease) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the Mid Hang (knee) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Name to copy into YouTube: `Mid-Hang Clean Pull`
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
+   - Instead of Mid-Hang Clean Pull, to protect your knee.
+   - Swap for: DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Split-Stance Contralateral Single-Arm KB Swing (keeps the explosive hip drive; loses the heavier two-sided load) / American KB Swing (overhead) (keeps the explosive hip drive; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
 
 **Strength**
 1. **Seal Row - DB (Supinated Grip)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -530,12 +530,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Chest%20Pass) · Name to copy into YouTube: `Medball Chest Pass`
 
 **Power / Olympic lifts**
-1. **Single-Arm DB Snatch** — 2 × 3/3 · move it fast: if the dumbbell slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Split-Stance Contralateral Single-Arm KB Swing** — 2 × 10 to 15 per side · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Power work: move the dumbbell fast; stop the set if it slows down.
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
    - per side = 1 set
-   - Swap for: Staggered-Stance DB Hang Snatch (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / DB/KB High Pull (keeps the explosive hip drive; loses the catch)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
+   - Swap for: Kettlebell Swing (Russian) (keeps the explosive hip drive; loses the one-side-at-a-time work) / DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / American KB Swing (overhead) (keeps the explosive hip drive; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
 1. **Flat DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -652,12 +652,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Power / Olympic lifts**
-1. **Mid-Hang Clean Pull** — 2 × 3 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Kettlebell Swing (Russian)** — 2 × 10 to 15 Reps · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Olympic lifts are for power: no percentages unless your coach switches them on
-   - No bumper plates needed: lower the bar under control
-   - Swap for: High-Hang Clean Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the High Hang (hip crease) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the Mid Hang (knee) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Name to copy into YouTube: `Mid-Hang Clean Pull`
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
+   - Instead of Mid-Hang Clean Pull, to protect your knee.
+   - Swap for: DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Split-Stance Contralateral Single-Arm KB Swing (keeps the explosive hip drive; loses the heavier two-sided load) / American KB Swing (overhead) (keeps the explosive hip drive; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
 
 **Strength**
 1. **Seal Row - DB (Supinated Grip)** — 4 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -737,12 +737,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Chest%20Pass) · Name to copy into YouTube: `Medball Chest Pass`
 
 **Power / Olympic lifts**
-1. **Single-Arm DB Snatch** — 2 × 3/3 · move it fast: if the dumbbell slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Split-Stance Contralateral Single-Arm KB Swing** — 2 × 10 to 15 per side · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Power work: move the dumbbell fast; stop the set if it slows down.
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
    - per side = 1 set
-   - Swap for: Staggered-Stance DB Hang Snatch (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / DB/KB High Pull (keeps the explosive hip drive; loses the catch)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
+   - Swap for: Kettlebell Swing (Russian) (keeps the explosive hip drive; loses the one-side-at-a-time work) / DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / American KB Swing (overhead) (keeps the explosive hip drive; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
 1. **Flat DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -859,12 +859,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Power / Olympic lifts**
-1. **Mid-Hang Clean Pull** — 2 × 3 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Kettlebell Swing (Russian)** — 2 × 10 to 15 Reps · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Olympic lifts are for power: no percentages unless your coach switches them on
-   - No bumper plates needed: lower the bar under control
-   - Swap for: High-Hang Clean Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the High Hang (hip crease) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the Mid Hang (knee) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Name to copy into YouTube: `Mid-Hang Clean Pull`
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
+   - Instead of Mid-Hang Clean Pull, to protect your knee.
+   - Swap for: DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Split-Stance Contralateral Single-Arm KB Swing (keeps the explosive hip drive; loses the heavier two-sided load) / American KB Swing (overhead) (keeps the explosive hip drive; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
 
 **Strength**
 1. **Seal Row - DB (Supinated Grip)** — 4 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -944,12 +944,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Chest%20Pass) · Name to copy into YouTube: `Medball Chest Pass`
 
 **Power / Olympic lifts**
-1. **Single-Arm DB Snatch** — 2 × 3/3 · move it fast: if the dumbbell slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Split-Stance Contralateral Single-Arm KB Swing** — 2 × 10 to 15 per side · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Power work: move the dumbbell fast; stop the set if it slows down.
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
    - per side = 1 set
-   - Swap for: Staggered-Stance DB Hang Snatch (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / DB/KB High Pull (keeps the explosive hip drive; loses the catch)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
+   - Swap for: Kettlebell Swing (Russian) (keeps the explosive hip drive; loses the one-side-at-a-time work) / DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / American KB Swing (overhead) (keeps the explosive hip drive; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
 1. **Flat DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -1069,12 +1069,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L)) · Name to copy into YouTube: `Rotational Medball Chest Pass (R & L)`
 
 **Power / Olympic lifts**
-1. **Mid-Hang Clean Pull** — 2 × 3 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Kettlebell Swing (Russian)** — 2 × 10 to 15 Reps · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Olympic lifts are for power: no percentages unless your coach switches them on
-   - No bumper plates needed: lower the bar under control
-   - Swap for: High-Hang Clean Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the High Hang (hip crease) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the Mid Hang (knee) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Name to copy into YouTube: `Mid-Hang Clean Pull`
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
+   - Instead of Mid-Hang Clean Pull, to protect your knee.
+   - Swap for: DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Split-Stance Contralateral Single-Arm KB Swing (keeps the explosive hip drive; loses the heavier two-sided load) / American KB Swing (overhead) (keeps the explosive hip drive; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
 
 **Strength**
 1. **Seal Row - DB (Supinated Grip)** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -1152,12 +1152,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Power / Olympic lifts**
-1. **Single-Arm DB Snatch** — 2 × 3/3 · move it fast: if the dumbbell slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Split-Stance Contralateral Single-Arm KB Swing** — 2 × 10 to 15 per side · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Power work: move the dumbbell fast; stop the set if it slows down.
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
    - per side = 1 set
-   - Swap for: Staggered-Stance DB Hang Snatch (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / DB/KB High Pull (keeps the explosive hip drive; loses the catch)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
+   - Swap for: Kettlebell Swing (Russian) (keeps the explosive hip drive; loses the one-side-at-a-time work) / DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / American KB Swing (overhead) (keeps the explosive hip drive; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
 1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -1273,12 +1273,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L)) · Name to copy into YouTube: `Rotational Medball Chest Pass (R & L)`
 
 **Power / Olympic lifts**
-1. **Mid-Hang Clean Pull** — 2 × 3 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Kettlebell Swing (Russian)** — 2 × 10 to 15 Reps · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Olympic lifts are for power: no percentages unless your coach switches them on
-   - No bumper plates needed: lower the bar under control
-   - Swap for: High-Hang Clean Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the High Hang (hip crease) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the Mid Hang (knee) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Name to copy into YouTube: `Mid-Hang Clean Pull`
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
+   - Instead of Mid-Hang Clean Pull, to protect your knee.
+   - Swap for: DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Split-Stance Contralateral Single-Arm KB Swing (keeps the explosive hip drive; loses the heavier two-sided load) / American KB Swing (overhead) (keeps the explosive hip drive; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
 
 **Strength**
 1. **Seal Row - DB (Supinated Grip)** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -1356,12 +1356,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Power / Olympic lifts**
-1. **Single-Arm DB Snatch** — 2 × 3/3 · move it fast: if the dumbbell slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Split-Stance Contralateral Single-Arm KB Swing** — 2 × 10 to 15 per side · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Power work: move the dumbbell fast; stop the set if it slows down.
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
    - per side = 1 set
-   - Swap for: Staggered-Stance DB Hang Snatch (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / DB/KB High Pull (keeps the explosive hip drive; loses the catch)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
+   - Swap for: Kettlebell Swing (Russian) (keeps the explosive hip drive; loses the one-side-at-a-time work) / DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / American KB Swing (overhead) (keeps the explosive hip drive; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
 1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -1477,12 +1477,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L)) · Name to copy into YouTube: `Rotational Medball Chest Pass (R & L)`
 
 **Power / Olympic lifts**
-1. **Mid-Hang Clean Pull** — 2 × 3 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Kettlebell Swing (Russian)** — 2 × 10 to 15 Reps · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Olympic lifts are for power: no percentages unless your coach switches them on
-   - No bumper plates needed: lower the bar under control
-   - Swap for: High-Hang Clean Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the High Hang (hip crease) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the Mid Hang (knee) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Name to copy into YouTube: `Mid-Hang Clean Pull`
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
+   - Instead of Mid-Hang Clean Pull, to protect your knee.
+   - Swap for: DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Split-Stance Contralateral Single-Arm KB Swing (keeps the explosive hip drive; loses the heavier two-sided load) / American KB Swing (overhead) (keeps the explosive hip drive; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
 
 **Strength**
 1. **Seal Row - DB (Supinated Grip)** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
@@ -1560,12 +1560,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Power / Olympic lifts**
-1. **Single-Arm DB Snatch** — 2 × 3/3 · move it fast: if the dumbbell slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Split-Stance Contralateral Single-Arm KB Swing** — 2 × 10 to 15 per side · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Power work: move the dumbbell fast; stop the set if it slows down.
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
    - per side = 1 set
-   - Swap for: Staggered-Stance DB Hang Snatch (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / DB/KB High Pull (keeps the explosive hip drive; loses the catch)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
+   - Swap for: Kettlebell Swing (Russian) (keeps the explosive hip drive; loses the one-side-at-a-time work) / DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / American KB Swing (overhead) (keeps the explosive hip drive; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
 1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
@@ -1681,12 +1681,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L)) · Name to copy into YouTube: `Rotational Medball Chest Pass (R & L)`
 
 **Power / Olympic lifts**
-1. **Mid-Hang Clean Pull** — 2 × 3 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Kettlebell Swing (Russian)** — 2 × 10 to 15 Reps · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Olympic lifts are for power: no percentages unless your coach switches them on
-   - No bumper plates needed: lower the bar under control
-   - Swap for: High-Hang Clean Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the High Hang (hip crease) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the Mid Hang (knee) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Name to copy into YouTube: `Mid-Hang Clean Pull`
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
+   - Instead of Mid-Hang Clean Pull, to protect your knee.
+   - Swap for: DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Split-Stance Contralateral Single-Arm KB Swing (keeps the explosive hip drive; loses the heavier two-sided load) / American KB Swing (overhead) (keeps the explosive hip drive; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
 
 **Strength**
 1. **Seal Row - DB (Supinated Grip)** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
@@ -1764,12 +1764,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
 
 **Power / Olympic lifts**
-1. **Single-Arm DB Snatch** — 2 × 3/3 · move it fast: if the dumbbell slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Split-Stance Contralateral Single-Arm KB Swing** — 2 × 10 to 15 per side · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Power work: move the dumbbell fast; stop the set if it slows down.
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
    - per side = 1 set
-   - Swap for: Staggered-Stance DB Hang Snatch (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / DB/KB High Pull (keeps the explosive hip drive; loses the catch)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
+   - Swap for: Kettlebell Swing (Russian) (keeps the explosive hip drive; loses the one-side-at-a-time work) / DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / American KB Swing (overhead) (keeps the explosive hip drive; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
 1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
@@ -1887,12 +1887,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Rotational%20Medball%20Scoop%20Toss%20(R%20%26%20L)) · Name to copy into YouTube: `Rotational Medball Scoop Toss (R & L)`
 
 **Power / Olympic lifts**
-1. **Mid-Hang Clean Pull** — 2 × 3 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Kettlebell Swing (Russian)** — 2 × 10 to 15 Reps · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Olympic lifts are for power: no percentages unless your coach switches them on
-   - No bumper plates needed: lower the bar under control
-   - Swap for: High-Hang Clean Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the High Hang (hip crease) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the Mid Hang (knee) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Name to copy into YouTube: `Mid-Hang Clean Pull`
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
+   - Instead of Mid-Hang Clean Pull, to protect your knee.
+   - Swap for: DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Split-Stance Contralateral Single-Arm KB Swing (keeps the explosive hip drive; loses the heavier two-sided load) / American KB Swing (overhead) (keeps the explosive hip drive; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
 
 **Strength**
 1. **Seal Row - DB (Supinated Grip)** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
@@ -1970,12 +1970,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Chest%20Pass%20(R%20%26%20L%20leg)) · Name to copy into YouTube: `Step-Forward Medball Chest Pass (R & L leg)`
 
 **Power / Olympic lifts**
-1. **Single-Arm DB Snatch** — 2 × 3/3 · move it fast: if the dumbbell slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Split-Stance Contralateral Single-Arm KB Swing** — 2 × 10 to 15 per side · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Power work: move the dumbbell fast; stop the set if it slows down.
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
    - per side = 1 set
-   - Swap for: Staggered-Stance DB Hang Snatch (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / DB/KB High Pull (keeps the explosive hip drive; loses the catch)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
+   - Swap for: Kettlebell Swing (Russian) (keeps the explosive hip drive; loses the one-side-at-a-time work) / DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / American KB Swing (overhead) (keeps the explosive hip drive; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
 1. **Flat DB Bench Press - 1-second pause at the bottom** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
@@ -2091,12 +2091,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Rotational%20Medball%20Scoop%20Toss%20(R%20%26%20L)) · Name to copy into YouTube: `Rotational Medball Scoop Toss (R & L)`
 
 **Power / Olympic lifts**
-1. **Mid-Hang Clean Pull** — 2 × 3 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Kettlebell Swing (Russian)** — 2 × 10 to 15 Reps · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Olympic lifts are for power: no percentages unless your coach switches them on
-   - No bumper plates needed: lower the bar under control
-   - Swap for: High-Hang Clean Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the High Hang (hip crease) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the Mid Hang (knee) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Name to copy into YouTube: `Mid-Hang Clean Pull`
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
+   - Instead of Mid-Hang Clean Pull, to protect your knee.
+   - Swap for: DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Split-Stance Contralateral Single-Arm KB Swing (keeps the explosive hip drive; loses the heavier two-sided load) / American KB Swing (overhead) (keeps the explosive hip drive; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
 
 **Strength**
 1. **Seal Row - DB (Supinated Grip)** — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
@@ -2174,12 +2174,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Chest%20Pass%20(R%20%26%20L%20leg)) · Name to copy into YouTube: `Step-Forward Medball Chest Pass (R & L leg)`
 
 **Power / Olympic lifts**
-1. **Single-Arm DB Snatch** — 2 × 3/3 · move it fast: if the dumbbell slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Split-Stance Contralateral Single-Arm KB Swing** — 2 × 10 to 15 per side · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Power work: move the dumbbell fast; stop the set if it slows down.
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
    - per side = 1 set
-   - Swap for: Staggered-Stance DB Hang Snatch (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / DB/KB High Pull (keeps the explosive hip drive; loses the catch)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
+   - Swap for: Kettlebell Swing (Russian) (keeps the explosive hip drive; loses the one-side-at-a-time work) / DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / American KB Swing (overhead) (keeps the explosive hip drive; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
 1. **Flat DB Bench Press - 1-second pause at the bottom** — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
@@ -2296,12 +2296,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Rotational%20Medball%20Scoop%20Toss%20(R%20%26%20L)) · Name to copy into YouTube: `Rotational Medball Scoop Toss (R & L)`
 
 **Power / Olympic lifts**
-1. **Mid-Hang Clean Pull** — 2 × 3 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Kettlebell Swing (Russian)** — 2 × 10 to 15 Reps · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Olympic lifts are for power: no percentages unless your coach switches them on
-   - No bumper plates needed: lower the bar under control
-   - Swap for: High-Hang Clean Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the High Hang (hip crease) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the Mid Hang (knee) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Name to copy into YouTube: `Mid-Hang Clean Pull`
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
+   - Instead of Mid-Hang Clean Pull, to protect your knee.
+   - Swap for: DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Split-Stance Contralateral Single-Arm KB Swing (keeps the explosive hip drive; loses the heavier two-sided load) / American KB Swing (overhead) (keeps the explosive hip drive; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
 
 **Strength**
 1. **Seal Row - DB (Supinated Grip)** — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
@@ -2379,12 +2379,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Chest%20Pass%20(R%20%26%20L%20leg)) · Name to copy into YouTube: `Step-Forward Medball Chest Pass (R & L leg)`
 
 **Power / Olympic lifts**
-1. **Single-Arm DB Snatch** — 2 × 3/3 · move it fast: if the dumbbell slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Split-Stance Contralateral Single-Arm KB Swing** — 2 × 10 to 15 per side · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Power work: move the dumbbell fast; stop the set if it slows down.
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
    - per side = 1 set
-   - Swap for: Staggered-Stance DB Hang Snatch (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / DB/KB High Pull (keeps the explosive hip drive; loses the catch)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
+   - Swap for: Kettlebell Swing (Russian) (keeps the explosive hip drive; loses the one-side-at-a-time work) / DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / American KB Swing (overhead) (keeps the explosive hip drive; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
 1. **Flat DB Bench Press - 1-second pause at the bottom** — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
@@ -2503,12 +2503,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Rotational%20Medball%20Scoop%20Toss%20(R%20%26%20L)) · Name to copy into YouTube: `Rotational Medball Scoop Toss (R & L)`
 
 **Power / Olympic lifts**
-1. **Mid-Hang Clean Pull** — 2 × 3 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Kettlebell Swing (Russian)** — 2 × 10 to 15 Reps · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Olympic lifts are for power: no percentages unless your coach switches them on
-   - No bumper plates needed: lower the bar under control
-   - Swap for: High-Hang Clean Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the High Hang (hip crease) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Hang Power Clean - from the Mid Hang (knee) (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Name to copy into YouTube: `Mid-Hang Clean Pull`
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
+   - Instead of Mid-Hang Clean Pull, to protect your knee.
+   - Swap for: DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Split-Stance Contralateral Single-Arm KB Swing (keeps the explosive hip drive; loses the heavier two-sided load) / American KB Swing (overhead) (keeps the explosive hip drive; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
 
 **Strength**
 1. **Seal Row - DB (Supinated Grip)** — 4 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
@@ -2586,12 +2586,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Chest%20Pass%20(R%20%26%20L%20leg)) · Name to copy into YouTube: `Step-Forward Medball Chest Pass (R & L leg)`
 
 **Power / Olympic lifts**
-1. **Single-Arm DB Snatch** — 2 × 3/3 · move it fast: if the dumbbell slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Split-Stance Contralateral Single-Arm KB Swing** — 2 × 10 to 15 per side · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
-   - Power work: move the dumbbell fast; stop the set if it slows down.
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
    - per side = 1 set
-   - Swap for: Staggered-Stance DB Hang Snatch (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / DB/KB High Pull (keeps the explosive hip drive; loses the catch)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
+   - Swap for: Kettlebell Swing (Russian) (keeps the explosive hip drive; loses the one-side-at-a-time work) / DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / American KB Swing (overhead) (keeps the explosive hip drive; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
 1. **Flat DB Bench Press - 1-second pause at the bottom** — 4 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest

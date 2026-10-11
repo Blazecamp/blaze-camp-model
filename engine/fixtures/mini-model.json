@@ -18,7 +18,7 @@
    "profiles": 127,
    "sports_in_picker": 52,
    "activities": 26,
-   "en_keys": 2694,
+   "en_keys": 2698,
    "es_missing": 805
   },
   "do_not_edit_by_hand": "edit tools/fixture/*.mjs and rebuild; update engine/CONTRACTS.md with any shape change"
@@ -62804,6 +62804,14 @@
      "R3-ATH-01"
     ],
     "status": "PROPOSED (fix round 2)"
+   },
+   "s6": {
+    "share_up_after_backward": "ankle_then_jumps",
+    "refs": [
+     "T3-ATH-02",
+     "R2-ATH-01"
+    ],
+    "status": "INFERRED (keeps the approved share band)"
    }
   },
   "olympic": {
@@ -63603,6 +63611,41 @@
      "ATH-06"
     ],
     "status": "PROPOSED (fix round 2): an aerobic session that rides on a training day is the easy steady one"
+   },
+   "s6": {
+    "practice": {
+     "counts_as_aerobic": true,
+     "competitive_only": true,
+     "max_replaced": 2,
+     "keep_gym_led_min": 1,
+     "prefer_note": "sport_or_off",
+     "refs": [
+      "R3-ATH-05",
+      "R2-ATH-06"
+     ],
+     "status": "PROPOSED for competitive athletes (R3-ATH-05 is approved for activities)"
+    },
+    "hard_eve": {
+     "colours": [
+      "A"
+     ],
+     "sprint_kinds": [
+      "max_velocity"
+     ],
+     "heavy_hinge": true,
+     "refs": [
+      "ORD-03",
+      "R2-SES-06",
+      "R2-ATH-07"
+     ],
+     "status": "PROPOSED: the hard interval colour is never the day before top-speed sprints or the week's heavy hinge"
+    },
+    "refs": [
+     "R3-ATH-05",
+     "R2-ATH-06",
+     "R2-SES-06"
+    ],
+    "status": "PROPOSED (engine 0.6 selection package)"
    }
   },
   "equipment": {
@@ -65574,6 +65617,11 @@
       "id": "bent_over_barbell_row",
       "re": "^bent-over-barbell-row",
       "week_max": 1
+     },
+     {
+      "id": "seal_row",
+      "re": "^seal-row",
+      "week_max": 1
      }
     ],
     "family_over_week": -7,
@@ -66353,6 +66401,104 @@
      ],
      "status": "PROPOSED pending the coach's answer (STATUS open question 8): reference-tab rows as picks only when the kit holds no library two-arm row"
     }
+   },
+   "s6": {
+    "core": {
+     "low_back_list_only_with_pain": true,
+     "hotspot_list_from_age": 50,
+     "hotspot_anti_bonus": 2,
+     "hotspot_flexion_re": "weighted|sit-up|crunch|v-up|leg-raise|toes-to-bar|knees-to-chest",
+     "hotspot_flexion": -2,
+     "transverse_min_pct": 20,
+     "transverse_bonus": 4,
+     "block_change_per_day": 1,
+     "refs": [
+      "R2-SES-03",
+      "PER-02",
+      "CAT-08",
+      "R4-SES-05"
+     ],
+     "status": "approved rules (R2-SES-03 light opener; PER-02 one change a block); PROPOSED: the weights and the one-core-change-a-day reading"
+    },
+    "jumps": {
+     "start_stages": [
+      "RC2",
+      "RC3"
+     ],
+     "depth_re": "depth",
+     "cutting": {
+      "families": [
+       "field_court"
+      ],
+      "cod_sport": true,
+      "bonus": 8
+     },
+     "refs": [
+      "R2-ATH-03",
+      "CAT-13",
+      "CAT-10",
+      "UNI-12"
+     ],
+     "status": "approved stages (R2-ATH-03); PROPOSED: the per-day single-leg / lateral station and its weight"
+    },
+    "olympic_safe": {
+     "when_pain": true,
+     "when_play_days_min": 3,
+     "when_racket50": true,
+     "drop_families": [
+      "snatch"
+     ],
+     "keep_id_re": "high-pull",
+     "snatch_station_adds": [
+      "swing"
+     ],
+     "barbell_exclude_levels_with_pain": [
+      "L1"
+     ],
+     "refs": [
+      "EQ-03",
+      "ATH-10",
+      "R3-ATH-02"
+     ],
+     "status": "approved rule (EQ-03, ATH-10); PROPOSED: the play-day threshold (3, the heavy play week of R3-ATH-05)"
+    },
+    "block_change": {
+     "keep_upper_laterality_skeleton_prefixes": [
+      "gym_",
+      "ppl_",
+      "class_"
+     ],
+     "max_distance_new_exercise": 1,
+     "same_support": true,
+     "supported_re": "(^|-)(seal|chest-supported|incline-bench|prone)(-|$)|machine|cable|lat-pulldown|pulldown",
+     "refs": [
+      "R2-LIB-01",
+      "PER-02",
+      "PER-04"
+     ],
+     "status": "approved rule (R2-LIB-01, PER-02); PROPOSED: the support classes read from the record ids"
+    },
+    "circuit_cardio_first": {
+     "families": [
+      "fat_loss_bootcamp"
+     ],
+     "bucket": "COND_CIRCUIT",
+     "ballistic_penalty": -14,
+     "refs": [
+      "PRG-03",
+      "OT06",
+      "R4-SES-05"
+     ],
+     "status": "OBSERVED station (his OPTION 2 Cardio slot); PROPOSED: the weight"
+    },
+    "refs": [
+     "R4-SES-05",
+     "R2-LIB-01",
+     "EQ-03",
+     "R2-ATH-03",
+     "R2-SES-03"
+    ],
+    "status": "PROPOSED (engine 0.6 selection package): readings of approved answers from the round-4 coach-eye reviews"
    }
   },
   "ordering": {
@@ -79930,6 +80076,38 @@
           "rank": 6
          },
          {
+          "id": "A.s15",
+          "bucket": "ISO_BICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "biceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": "resistance",
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 10
+         },
+         {
           "id": "A.s12",
           "bucket": "ISO_QUAD",
           "role": "iso",
@@ -80393,6 +80571,38 @@
           "rir": null,
           "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
           "rank": 6
+         },
+         {
+          "id": "B.s16",
+          "bucket": "ISO_TRICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "triceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": "resistance",
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 11
          },
          {
           "id": "B.s12",
@@ -82071,6 +82281,38 @@
           "rank": 6
          },
          {
+          "id": "S1.s15",
+          "bucket": "ISO_BICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "biceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": null,
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 11
+         },
+         {
           "id": "S1.s13",
           "bucket": "ISO_QUAD",
           "role": "iso",
@@ -82534,6 +82776,38 @@
           "rir": null,
           "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
           "rank": 6
+         },
+         {
+          "id": "S2.s16",
+          "bucket": "ISO_TRICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "triceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": null,
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 12
          },
          {
           "id": "S2.s13",
@@ -83647,6 +83921,38 @@
             "rank": 6
            },
            {
+            "id": "S1.s15",
+            "bucket": "ISO_BICEP",
+            "role": "iso",
+            "block": "accessories",
+            "group": "biceps",
+            "sets_hint": [
+             2,
+             2
+            ],
+            "sets_text": null,
+            "dose_text": null,
+            "pair": null,
+            "superset": null,
+            "circuit": null,
+            "axial": null,
+            "variant": null,
+            "variant_text": null,
+            "laterality_dial": false,
+            "loading": null,
+            "movable": false,
+            "counts_as_volume": true,
+            "condition": "if_athletic_arm_sets",
+            "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+            "older_default_excluded": false,
+            "older_default_text": null,
+            "group_label": null,
+            "pool_filter": null,
+            "rir": null,
+            "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+            "rank": 11
+           },
+           {
             "id": "S1.s13",
             "bucket": "ISO_QUAD",
             "role": "iso",
@@ -84110,6 +84416,38 @@
             "rir": null,
             "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
             "rank": 6
+           },
+           {
+            "id": "S2.s16",
+            "bucket": "ISO_TRICEP",
+            "role": "iso",
+            "block": "accessories",
+            "group": "triceps",
+            "sets_hint": [
+             2,
+             2
+            ],
+            "sets_text": null,
+            "dose_text": null,
+            "pair": null,
+            "superset": null,
+            "circuit": null,
+            "axial": null,
+            "variant": null,
+            "variant_text": null,
+            "laterality_dial": false,
+            "loading": null,
+            "movable": false,
+            "counts_as_volume": true,
+            "condition": "if_athletic_arm_sets",
+            "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+            "older_default_excluded": false,
+            "older_default_text": null,
+            "group_label": null,
+            "pool_filter": null,
+            "rir": null,
+            "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+            "rank": 12
            },
            {
             "id": "S2.s13",
@@ -84635,6 +84973,38 @@
           "rank": 6
          },
          {
+          "id": "A1.s15",
+          "bucket": "ISO_BICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "biceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": "resistance",
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 10
+         },
+         {
           "id": "A1.s12",
           "bucket": "ISO_QUAD",
           "role": "iso",
@@ -85098,6 +85468,38 @@
           "rir": null,
           "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
           "rank": 6
+         },
+         {
+          "id": "B1.s16",
+          "bucket": "ISO_TRICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "triceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": "resistance",
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 11
          },
          {
           "id": "B1.s12",
@@ -85596,6 +85998,38 @@
           "rank": 6
          },
          {
+          "id": "A2.s15",
+          "bucket": "ISO_BICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "biceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": "resistance",
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 10
+         },
+         {
           "id": "A2.s12",
           "bucket": "ISO_QUAD",
           "role": "iso",
@@ -86059,6 +86493,38 @@
           "rir": null,
           "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
           "rank": 6
+         },
+         {
+          "id": "B2.s16",
+          "bucket": "ISO_TRICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "triceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": "resistance",
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 11
          },
          {
           "id": "B2.s12",
@@ -86832,6 +87298,38 @@
             "rank": 6
            },
            {
+            "id": "A1.s17",
+            "bucket": "ISO_BICEP",
+            "role": "iso",
+            "block": "accessories",
+            "group": "biceps",
+            "sets_hint": [
+             2,
+             2
+            ],
+            "sets_text": null,
+            "dose_text": null,
+            "pair": null,
+            "superset": null,
+            "circuit": null,
+            "axial": null,
+            "variant": null,
+            "variant_text": null,
+            "laterality_dial": false,
+            "loading": null,
+            "movable": false,
+            "counts_as_volume": true,
+            "condition": "if_athletic_arm_sets",
+            "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+            "older_default_excluded": false,
+            "older_default_text": null,
+            "group_label": null,
+            "pool_filter": null,
+            "rir": null,
+            "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+            "rank": 12
+           },
+           {
             "id": "A1.s14",
             "bucket": "ISO_QUAD",
             "role": "iso",
@@ -87295,6 +87793,38 @@
             "rir": null,
             "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
             "rank": 6
+           },
+           {
+            "id": "B1.s16",
+            "bucket": "ISO_TRICEP",
+            "role": "iso",
+            "block": "accessories",
+            "group": "triceps",
+            "sets_hint": [
+             2,
+             2
+            ],
+            "sets_text": null,
+            "dose_text": null,
+            "pair": null,
+            "superset": null,
+            "circuit": null,
+            "axial": null,
+            "variant": null,
+            "variant_text": null,
+            "laterality_dial": false,
+            "loading": null,
+            "movable": false,
+            "counts_as_volume": true,
+            "condition": "if_athletic_arm_sets",
+            "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+            "older_default_excluded": false,
+            "older_default_text": null,
+            "group_label": null,
+            "pool_filter": null,
+            "rir": null,
+            "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+            "rank": 11
            },
            {
             "id": "B1.s12",
@@ -87857,6 +88387,38 @@
             "rank": 6
            },
            {
+            "id": "A2.s17",
+            "bucket": "ISO_BICEP",
+            "role": "iso",
+            "block": "accessories",
+            "group": "biceps",
+            "sets_hint": [
+             2,
+             2
+            ],
+            "sets_text": null,
+            "dose_text": null,
+            "pair": null,
+            "superset": null,
+            "circuit": null,
+            "axial": null,
+            "variant": null,
+            "variant_text": null,
+            "laterality_dial": false,
+            "loading": null,
+            "movable": false,
+            "counts_as_volume": true,
+            "condition": "if_athletic_arm_sets",
+            "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+            "older_default_excluded": false,
+            "older_default_text": null,
+            "group_label": null,
+            "pool_filter": null,
+            "rir": null,
+            "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+            "rank": 12
+           },
+           {
             "id": "A2.s14",
             "bucket": "ISO_QUAD",
             "role": "iso",
@@ -88320,6 +88882,38 @@
             "rir": null,
             "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
             "rank": 6
+           },
+           {
+            "id": "B2.s16",
+            "bucket": "ISO_TRICEP",
+            "role": "iso",
+            "block": "accessories",
+            "group": "triceps",
+            "sets_hint": [
+             2,
+             2
+            ],
+            "sets_text": null,
+            "dose_text": null,
+            "pair": null,
+            "superset": null,
+            "circuit": null,
+            "axial": null,
+            "variant": null,
+            "variant_text": null,
+            "laterality_dial": false,
+            "loading": null,
+            "movable": false,
+            "counts_as_volume": true,
+            "condition": "if_athletic_arm_sets",
+            "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+            "older_default_excluded": false,
+            "older_default_text": null,
+            "group_label": null,
+            "pool_filter": null,
+            "rir": null,
+            "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+            "rank": 11
            },
            {
             "id": "B2.s12",
@@ -92986,6 +93580,38 @@
           "rank": 6
          },
          {
+          "id": "A1.s15",
+          "bucket": "ISO_BICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "biceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": "resistance",
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 10
+         },
+         {
           "id": "A1.s12",
           "bucket": "ISO_QUAD",
           "role": "iso",
@@ -93449,6 +94075,38 @@
           "rir": null,
           "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
           "rank": 6
+         },
+         {
+          "id": "B1.s16",
+          "bucket": "ISO_TRICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "triceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": "resistance",
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 11
          },
          {
           "id": "B1.s12",
@@ -93947,6 +94605,38 @@
           "rank": 6
          },
          {
+          "id": "A2.s15",
+          "bucket": "ISO_BICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "biceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": "resistance",
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 10
+         },
+         {
           "id": "A2.s12",
           "bucket": "ISO_QUAD",
           "role": "iso",
@@ -94410,6 +95100,38 @@
           "rir": null,
           "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
           "rank": 6
+         },
+         {
+          "id": "B2.s16",
+          "bucket": "ISO_TRICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "triceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": "resistance",
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 11
          },
          {
           "id": "B2.s12",
@@ -95172,6 +95894,38 @@
           "rank": 6
          },
          {
+          "id": "A1.s15",
+          "bucket": "ISO_BICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "biceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": "resistance",
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 10
+         },
+         {
           "id": "A1.s12",
           "bucket": "ISO_QUAD",
           "role": "iso",
@@ -95635,6 +96389,38 @@
           "rir": null,
           "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
           "rank": 6
+         },
+         {
+          "id": "B1.s16",
+          "bucket": "ISO_TRICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "triceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": "resistance",
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 11
          },
          {
           "id": "B1.s12",
@@ -96133,6 +96919,38 @@
           "rank": 6
          },
          {
+          "id": "A2.s15",
+          "bucket": "ISO_BICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "biceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": "resistance",
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 10
+         },
+         {
           "id": "A2.s12",
           "bucket": "ISO_QUAD",
           "role": "iso",
@@ -96596,6 +97414,38 @@
           "rir": null,
           "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
           "rank": 6
+         },
+         {
+          "id": "B2.s16",
+          "bucket": "ISO_TRICEP",
+          "role": "iso",
+          "block": "accessories",
+          "group": "triceps",
+          "sets_hint": [
+           2,
+           2
+          ],
+          "sets_text": null,
+          "dose_text": null,
+          "pair": null,
+          "superset": null,
+          "circuit": null,
+          "axial": null,
+          "variant": null,
+          "variant_text": null,
+          "laterality_dial": false,
+          "loading": null,
+          "movable": false,
+          "counts_as_volume": true,
+          "condition": "if_athletic_arm_sets",
+          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "older_default_excluded": false,
+          "older_default_text": null,
+          "group_label": "resistance",
+          "pool_filter": null,
+          "rir": null,
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "rank": 11
          },
          {
           "id": "B2.s12",
@@ -156145,6 +156995,7 @@
    "why.glute_second_hip": "The hip day pairs a hinge with a glute-dominant lift (hips = glutes + hamstrings)",
    "why.group_one_target": "Counted as one {group} group: one weekly target for the whole group",
    "why.h_before_v": "Horizontal before vertical",
+   "why.hard_eve": "The hard intervals moved off the day before your top-speed sprints or heavy hinge",
    "why.heavy_play": "Lots of play this week: half the jumps, no extra agility",
    "why.hotspot": "Chosen around the sport's injury hot spot",
    "why.hyrox_station": "HYROX station circuit: race stations as a finisher, not muscle sets",
@@ -156179,6 +157030,7 @@
    "why.olympic_climb": "Olympic sets climb with the stairway (one more set at a time)",
    "why.olympic_level": "Olympic variant for your level",
    "why.olympic_ramp": "Coach's Olympic ramp",
+   "why.olympic_safe": "A KB swing or a high pull here: with your joints, play days or age the plan keeps the power work in a safe place",
    "why.olympic_stay_active": "One light power piece: 2 sets of 3-6 fast reps",
    "why.opposite_pattern": "Athletes pair the two-leg lift with the opposite single-leg pattern",
    "why.pain_cut": "{muscle} volume reduced for your {area}",
@@ -156191,6 +157043,8 @@
    "why.plyo_share": "Plyo vs ballistic mix for your sport ({pct}% plyo)",
    "why.plyo_stage": "Plyo stage {stage}",
    "why.power_before_strength": "Power before strength",
+   "why.practice_counts": "Your {n} team practices a week count as aerobic sessions",
+   "why.practice_day": "Team practice (or a day off)",
    "why.pre_season": "Pre-season: about 60% of off-season sets, more speed and power",
    "why.preference": "Matches your equipment preference",
    "why.prehab": "Joint care for your sport ({code})",
@@ -158041,6 +158895,7 @@
    "why.glute_second_hip": "El día de cadera combina una bisagra con un ejercicio dominante de glúteo (cadera = glúteos + isquiotibiales)",
    "why.group_one_target": "Contado como un solo grupo de {group}: una meta semanal para todo el grupo",
    "why.h_before_v": "Horizontal antes que vertical",
+   "why.hard_eve": "Los intervalos intensos se movieron fuera del día anterior a tus sprints a máxima velocidad o tu bisagra pesada",
    "why.heavy_play": "Mucho juego esta semana: la mitad de los saltos, sin agilidad extra",
    "why.hotspot": "Elegido por el punto de riesgo de lesión del deporte",
    "why.hyrox_station": "Circuito de estaciones HYROX: estaciones de carrera como cierre, no son series musculares",
@@ -158075,6 +158930,7 @@
    "why.olympic_climb": "Las series olímpicas suben con la escalera (una serie más a la vez)",
    "why.olympic_level": "Variante olímpica para tu nivel",
    "why.olympic_ramp": "Progresión olímpica del coach",
+   "why.olympic_safe": "Un swing con pesa rusa o un jalón alto aquí: por tus articulaciones, tus días de juego o tu edad, el plan mantiene el trabajo de potencia en un lugar seguro",
    "why.olympic_stay_active": "Una pieza ligera de potencia: 2 series de 3-6 repeticiones rápidas",
    "why.opposite_pattern": "Los atletas combinan el ejercicio a dos piernas con el patrón contrario a una pierna",
    "why.pain_cut": "Volumen de {muscle} reducido por tu {area}",
@@ -158087,6 +158943,8 @@
    "why.plyo_share": "Mezcla pliométrica / balística para tu deporte ({pct}% pliometría)",
    "why.plyo_stage": "Etapa pliométrica {stage}",
    "why.power_before_strength": "Potencia antes que fuerza",
+   "why.practice_counts": "Tus {n} prácticas de equipo por semana cuentan como sesiones aeróbicas",
+   "why.practice_day": "Práctica de equipo (o día libre)",
    "why.pre_season": "Pretemporada: aprox. 60% de las series fuera de temporada, más velocidad y potencia",
    "why.preference": "Coincide con tu preferencia de equipo",
    "why.prehab": "Cuidado articular para tu deporte ({code})",

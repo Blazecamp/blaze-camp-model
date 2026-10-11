@@ -162,8 +162,11 @@ for (const [mname, model] of MODELS) {
         assert.ok(ath.length >= 2, `athletic.${d} ${name}: an athletic block`);
         const first = dt.stations.findIndex(s => /^RP_|^ISO_/.test(s.bucket));
         assert.ok(dt.stations.slice(first).every(s => !/^AP_/.test(s.bucket)), 'power before strength: the athletic block comes first');
-        assert.deepEqual(inOrder(dt).slice(0, 5), dt.lower_focus === 'knee' ? ['RP_HPULL', 'RP_BKD', 'RP_VPULL', 'RP_UKD', 'ISO_QUAD'] : ['RP_HPUSH', 'RP_BHD', 'RP_VPUSH', 'RP_UHD', 'ISO_LEG_FLEXION']);
-        assert.ok(!inOrder(dt).some(b => ['ISO_BICEP', 'ISO_TRICEP'].includes(b)), 'no arm isolation in his athletic sheet');
+        assert.deepEqual(inOrder(dt).filter(b => !['ISO_BICEP', 'ISO_TRICEP'].includes(b)).slice(0, 5), dt.lower_focus === 'knee' ? ['RP_HPULL', 'RP_BKD', 'RP_VPULL', 'RP_UKD', 'ISO_QUAD'] : ['RP_HPUSH', 'RP_BHD', 'RP_VPUSH', 'RP_UHD', 'ISO_LEG_FLEXION']);
+        // (engine 0.6 selection, converted - DECISIONS G-130: R4-SES-05 slot 5 is in the athletic A / B days, for a sport whose
+        // profile writes direct arm sets; his athletic sheet has none, round 4 is newer)
+        const arm = dt.stations.filter(s => ['ISO_BICEP', 'ISO_TRICEP'].includes(s.bucket));
+        assert.ok(arm.every(s => s.condition === 'if_athletic_arm_sets'), 'the arm slot is the competitive athlete\'s, by profile');
       }
       assert.equal(lifts(dayTypes('athletic', 4).A1, 5).join(), 'RP_HPULL,RP_BKD,RP_VPULL,RP_UKD,ISO_QUAD');
     });

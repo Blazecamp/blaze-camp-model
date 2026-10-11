@@ -35,8 +35,11 @@ const AEROBIC = {
   // (v0.5 fix round 2, converted - DECISIONS G: the session that follows lifting takes the easy colour, Orange, and the hard
   // intervals go to a day of their own - sample 02 major 'max-effort intervals after the heaviest lower day';
   // rules.conditioning.x2.addon_easy_colour)
-  '02-football': { n: 3, separate: { Wed: 'A', Sat: 'B' }, addons: ['C'] },
-  '03-soccer': { n: 4, separate: { Sat: 'C', Tue: 'B', Thu: 'A' }, addons: ['C'] },
+  // (engine 0.6 selection, converted - DECISIONS G-136: the hard Blue intervals never sit on the day before a sprint day - Thursday's
+  // accelerations - so they trade with Saturday's Green; the soccer player's 2 team practices count as 2 of his 4 sessions and take
+  // the template's 'sport or off' days)
+  '02-football': { n: 3, separate: { Wed: 'B', Sat: 'A' }, addons: ['C'] },
+  '03-soccer': { n: 2, separate: { Sat: 'B' }, addons: ['C'] },
   // v1.2 (review 04 major 7): the Green session never lands on a main day already over its minutes - it goes to the WOD day
   '04-crossfit-style-bootcamp': { n: 2, separate: { Wed: 'C', Sat: 'B' }, addons: [] },
   '05-bootcamp': { n: 3, separate: { Tue: 'C', Thu: 'B', Sat: 'A' }, addons: [] },
@@ -96,12 +99,15 @@ test('swimmer: the pool is the aerobic work (no gym cardio, OPT-day aerobic stat
   assert.ok(L.why.some((w) => w.key === 'why.sport_is_aerobic'));
 });
 
-test('soccer pre-season block: same template, 2 aerobic sessions (athlete pre-season)', () => {
+// (engine 0.6 selection, converted - DECISIONS G-136: one of his 2 team practices counts as one of the pre-season's 2 sessions; the
+// gym keeps one of its own)
+test('soccer pre-season block: same template, 2 aerobic sessions (athlete pre-season), one of them his team practice', () => {
   const c = byName('03-soccer');
   const L = layoutOf(c, 1);
   assert.equal(L.training_block, 2);
   assert.equal(L.template_id, 'athletic.3');
-  assert.equal(L.days.flatMap(daySlots).filter((s) => s.aerobic).length, 2);
+  assert.equal(L.days.flatMap(daySlots).filter((s) => s.aerobic).length, 1);
+  assert.equal(L.days.filter((d) => d.kind === 'sport').length, 2);
 });
 
 // ---------------------------------------------------------------------------------------------------- hard rules (day level)

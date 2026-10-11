@@ -86,7 +86,11 @@ describe('v0.5 fix round 2 - sample 01 (swimming)', () => {
     const avoid = new RegExp(R.selection.f3.core_low_back.avoid_re);
     assert.equal(X2.core_primary.low_back_repeat_first, true);
     let repeats = 0;
-    for (const n of ['01', '02', '04', '08']) for (const w of planOf(n).weeks) {
+    // (engine 0.6 selection, converted - DECISIONS G-131: the low-back list is for a client who reports low-back pain, or a 50+ client
+    // with the hot spot; the swimmer and the linebacker are read with the pain entered, 04 and 08 as they are)
+    const lbPlan = (n) => { if (['01', '02'].includes(n)) { const i = loadSample(NAMES[n]); i.pain = [{ area: 'lower_back', side: 'both', severity: 'mild', worse_with: [] }]; return generate(i, model); } return planOf(n); };
+    const lbPlans = new Map(['01', '02', '04', '08'].map(n => [n, lbPlan(n)]));
+    for (const n of ['01', '02', '08']) for (const w of lbPlans.get(n).weeks) {
       const seen = new Map();
       for (const x of itemsOf(w)) {
         if (x.b.kind !== 'core' || !x.it.exercise_id || x.d.optional) continue;
@@ -97,8 +101,9 @@ describe('v0.5 fix round 2 - sample 01 (swimming)', () => {
       }
     }
     assert.ok(repeats > 0, 'a week with more core slots than anti-movement drills repeats one');
-    // a core pick stays through the block (PER-02)
-    for (const n of ['01', '04']) { const p = planOf(n); const by = new Map(); for (const x of allItems(p)) if (x.b.kind === 'core' && x.w.block_type === 'stairway') { const k = x.it.slot_id; if (!by.has(k)) by.set(k, new Set()); by.get(k).add(x.it.exercise_id); } for (const [k, s] of by) assert.equal(s.size, 1, `${n} ${k}: ${[...s].join(', ')}`); }
+    // a core pick stays through the exercise block (PER-02; engine 0.6, converted - G-131: one core exercise a main day may change at
+    // an exercise-block boundary)
+    for (const n of ['01', '04']) { const p = lbPlans.get(n); const by = new Map(); for (const x of allItems(p)) if (x.b.kind === 'core' && x.w.block_type === 'stairway') { const k = x.it.slot_id + '|' + x.w.exercise_block; if (!by.has(k)) by.set(k, new Set()); by.get(k).add(x.it.exercise_id); } for (const [k, s] of by) assert.equal(s.size, 1, `${n} ${k}: ${[...s].join(', ')}`); }
   });
   it('R2-SES-05 (all samples): a Copenhagen plank and toes-to-bar, a dead bug and a bird dog are different exercises; two hanging rotational raises are one', () => {
     assert.equal(isNearDuplicate(model, ex('copenhagen-plank'), ex('toes-to-bar-hanging')), false);
@@ -400,7 +405,7 @@ describe('v0.5 fix round 2 - samples 06 / 07 (physique)', () => {
     const ctx = makeContext({ rules: raw.rules, catalog: raw.catalog, templates: raw.templates, profiles: raw.profiles });
     const s = scorePlan(p, ctx, {});
     assert.equal((s.metrics.over_ceiling || { value: 0 }).value, 0);
-    assert.equal(SCORER_VERSION, '2.3.0');
+    assert.match(SCORER_VERSION, /^2\.[3-9]/); // (engine 0.6 selection, converted - DECISIONS G-138: scorer 2.4 keeps every 2.3 reading)
   });
 });
 

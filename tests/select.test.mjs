@@ -100,7 +100,10 @@ test('Olympic lifts by level and day pattern: L1 tier for L1 and L2 block 1; cle
       const v = olympicVariantByDay(st0.variant, wl ? wl.bucket : null, R);
       if (v === 'clean') assert.ok(f.flags.includes('clean_day') && !f.flags.includes('snatch_day'), `${f.slot_id} flags ${f.flags}`);
       if (v === 'snatch') assert.ok(f.flags.includes('snatch_day') && !f.flags.includes('clean_day'), `${f.slot_id} flags ${f.flags}`);
-      if (v === 'clean') assert.ok(['clean', 'loaded_jump'].includes(a.olympic_family), `${f.slot_id} ${f.exercise_id}`);
+      // (engine 0.6 selection, converted - DECISIONS G-133: an 'olympic safe' client's clean-day station holds a KB swing or the DB / KB
+      // high pull where no clean or loaded jump is safe for him - the item says so, flag olympic_safe; EQ-03 / ATH-10)
+      if (v === 'clean' && f.flags.includes('olympic_safe')) assert.ok(['swing', 'snatch'].includes(a.olympic_family) && (a.olympic_family !== 'snatch' || /high-pull/.test(f.exercise_id)), `${f.slot_id} ${f.exercise_id}`);
+      else if (v === 'clean') assert.ok(['clean', 'loaded_jump'].includes(a.olympic_family), `${f.slot_id} ${f.exercise_id}`);
       if (v === 'snatch') assert.ok(['snatch', 'swing'].includes(a.olympic_family), `${f.slot_id} ${f.exercise_id}`);
       if (v === 'swing') assert.equal(a.olympic_family, 'swing');
     }
@@ -295,7 +298,14 @@ test('exercise-block changes (PER-02, R2-LIB-01): work and core kept, <= 34 % of
           const kind = model.bucket(s.bucket).kind;
           if ((s.role === 'work' || kind === 'core') && f.bucket === p.bucket && !f.flags.includes('laterality_flip')) {
             const stillValid = candidates(s, { derived: b.c.derived, shape: b.c.shape, layout, exerciseBlock: ebCur.n, prev, model, seed: b.c.seed }).some((c) => c.exercise_id === p.exercise_id);
-            if (stillValid && kind === 'core') assert.equal(f.exercise_id, p.exercise_id, `${b.c.name} ${s.slot_id} core kept`);
+            // (engine 0.6 selection, converted - DECISIONS G-131: one core exercise of a main day changes at the block boundary, inside
+            // its plane and kind - PER-02; the others are kept)
+            if (stillValid && kind === 'core' && f.exercise_id !== p.exercise_id) {
+              const pl = (e) => (e.plane === 'frontal' ? 'frontal' : ['transverse', 'multi'].includes(e.plane) ? 'transverse' : 'sagittal');
+              assert.equal(pl(ex(f.exercise_id)), pl(ex(p.exercise_id)), `${b.c.name} ${s.slot_id} core changes inside its plane`);
+              const coreChanged = daySlots(d).filter((x) => model.bucket(x.bucket).kind === 'core' && cur.fills[x.slot_id] && prev.fills[x.slot_id] && cur.fills[x.slot_id].exercise_id !== prev.fills[x.slot_id].exercise_id).length;
+              assert.ok(coreChanged <= 2, `${b.c.name} ${d.weekday}: ${coreChanged} core changes`);
+            }
           }
           if (['resistance', 'isolation'].includes(kind) && s.role !== 'work' && s.block !== 'circuit') {
             others++;

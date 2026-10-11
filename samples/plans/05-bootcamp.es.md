@@ -144,12 +144,12 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Plancha en antebrazos (Plank) | 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s |
 | Plancha Copenhague (Copenhagen Plank) | 2 2 2 2 · 2 2 2 2 | 10-30 s |
-| Swing ruso con kettlebell (KB Swing) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 | Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) → Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 | Remo con pecho apoyado (Chest-Supported Row) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 | Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
+| Saltar la cuerda (Jump Rope) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 | Subida al cajón frontal y lateral (Step-Up) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
+| Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 | Curl martillo (Hammer Curl) → Curl Zottman: sube supino, baja prono (Zottman Curl) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
@@ -158,12 +158,12 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Giro ruso con peso (Weighted Russian Twist) | 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
 | Elevación de piernas acostado boca arriba (Lying Leg Raise) | 2 2 2 2 · 2 2 2 2 | 10 a 15 reps |
-| Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) → Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 | Peso muerto con una kettlebell (KB Deadlift) → Peso muerto con mancuernas (DB Deadlift) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 | Press en el piso con mancuernas (DB Floor Press) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 | Curl de bíceps con mancuernas (DB Curl) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 | Flexión de brazos asimétrica con una mano elevada (Offset Push-Up) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 | Press de hombro alterno con mancuernas (Alternating DB Overhead Press) → Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
+| Burpees | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 | Rompecráneos con mancuernas en el piso (Floor Skullcrusher) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
@@ -174,7 +174,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Abdominal inverso (Reverse Crunch) | 2 2 2 2 · 2 2 2 2 | 10 a 15 reps |
 | Remo con pecho apoyado (Chest-Supported Row) → Remo con pecho apoyado (Chest-Supported Row) - agarre supino (palmas hacia arriba) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 | Sentadilla dividida estática (Split Squat) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Saltar la cuerda (Jump Rope) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
+| Saltos de tijera (Jumping Jacks) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 | Flexión de brazos (Push-Up) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 | Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) → Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) - agarre supino (palmas hacia arriba) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
 | Extensión de tríceps sobre la cabeza (Overhead Extension) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
@@ -186,11 +186,9 @@ _Nivel de la semana: 2 de 11 (2 = el inicio, 11 = un poco más allá de tus lím
 
 **Prueba inicial esta semana (antes de cargar)** (Peso corporal / medidas)
 
-**Trabajo atlético esta semana:** 20 lanzamientos
-
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -210,37 +208,36 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 
 **Circuito 1**
 _4 rondas · 35 s de trabajo · 15 s para cambiar_
-1. **Swing ruso con kettlebell (KB Swing)** — 4 rondas x 35 s · máxima intención; detente cuando baje la calidad
-   - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
-   - Cambiar por: Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
-2. **Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+1. **Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Semana 1: empieza un poco más ligero de lo que crees
    - Cambiar por: Sentadilla al cajón con peso corporal (Box Squat) (mantiene la sentadilla a dos piernas; pierde la parte baja del recorrido) / Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat) (mantiene la sentadilla a dos piernas; pierde la versión más fácil: este es más difícil) / Sentadilla goblet con talones elevados (Heels-Elevated Goblet Squat) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla con dos mancuernas colgando a los lados (Low DB Squat) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Box%20Goblet%20Squat%20(touch-and-go)) · Nombre para copiar en YouTube: `Box Goblet Squat (touch-and-go)`
-3. **Remo con pecho apoyado (Chest-Supported Row)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+2. **Remo con pecho apoyado (Chest-Supported Row)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Semana 1: empieza un poco más ligero de lo que crees
    - Cambiar por: Remo bajo una mesa (Table Row) (mantiene el tirón horizontal; pierde la sensación del implemento original) / Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) (mantiene el tirón horizontal; pierde el apoyo del pecho) / Remo con dos kettlebells desde el piso (Kong Row) (mantiene el tirón horizontal; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Nombre para copiar en YouTube: `Chest-Supported Row`
-4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+3. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Semana 1: empieza un poco más ligero de lo que crees
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
-5. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+4. **Saltar la cuerda (Jump Rope)** — 4 rondas x 35 s · ritmo fuerte pero constante
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Semana 1: empieza un poco más ligero de lo que crees
-   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-6. **Subida al cajón frontal y lateral (Step-Up)** — 4 rondas x 35 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+   - Cambiar por: Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+5. **Subida al cajón frontal y lateral (Step-Up)** — 4 rondas x 35 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida estática (Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+6. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+   - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Semana 1: empieza un poco más ligero de lo que crees
+   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 7. **Curl martillo (Hammer Curl)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Semana 1: empieza un poco más ligero de lo que crees
@@ -255,7 +252,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -275,39 +272,36 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
 
 **Circuito 1**
 _4 rondas · 35 s de trabajo · 15 s para cambiar_
-1. **Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam)** — 4 rondas x 35 s · máxima intención; detente cuando baje la calidad
-   - balón de 10-14 lb
-   - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
-   - 5 lanzamientos por ronda con toda la intención y descansa hasta la señal: el balón no cuenta como serie muscular
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote rotacional con balón medicinal medio arrodillado (Rotational Medball Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Rotational%20Downward%20Slam) · Nombre para copiar en YouTube: `Medball Rotational Downward Slam`
-2. **Peso muerto con una kettlebell (KB Deadlift)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+1. **Peso muerto con una kettlebell (KB Deadlift)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Semana 1: empieza un poco más ligero de lo que crees
    - Cambiar por: Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift) · Nombre para copiar en YouTube: `Single-Kettlebell Deadlift`
-3. **Press en el piso con mancuernas (DB Floor Press)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+2. **Press en el piso con mancuernas (DB Floor Press)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Semana 1: empieza un poco más ligero de lo que crees
    - Cambiar por: Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la carga más pesada a dos lados)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Nombre para copiar en YouTube: `DB Floor Press`
-4. **Curl de bíceps con mancuernas (DB Curl)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+3. **Curl de bíceps con mancuernas (DB Curl)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Semana 1: empieza un poco más ligero de lo que crees
    - Cambiar por: Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl con kettlebell (KB Curl) (mantiene el trabajo de bíceps; pierde la sensación del implemento original) / Curl inverso con mancuernas, agarre prono (Reverse Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
-5. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 4 rondas x 35 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+4. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 4 rondas x 35 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos con rodillas apoyadas y una mano más alta (Offset Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Nombre para copiar en YouTube: `Offset Push-Up (one hand elevated)`
-6. **Press de hombro alterno con mancuernas (Alternating DB Overhead Press)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+5. **Press de hombro alterno con mancuernas (Alternating DB Overhead Press)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Semana 1: empieza un poco más ligero de lo que crees
    - Alterna los lados en cada repetición durante toda la estación
    - Cambiar por: Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro a un brazo con mancuerna (Single-Arm DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press a un brazo con mancuerna medio arrodillado (Half-Kneeling DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Alternating DB Overhead Press`
+6. **Burpees** — 4 rondas x 35 s · ritmo fuerte pero constante
+   - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Burpees) · Nombre para copiar en YouTube: `Burpees`
 7. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Semana 1: empieza un poco más ligero de lo que crees
@@ -322,7 +316,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltos de tijera (Jumping Jacks) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -353,10 +347,10 @@ _4 rondas · 35 s de trabajo · 15 s para cambiar_
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde el control del peso corporal) / Zancadas caminando (Walking Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada al frente (Forward Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Nombre para copiar en YouTube: `Stationary Lunge (Split Squat)`
-3. **Saltar la cuerda (Jump Rope)** — 4 rondas x 35 s · ritmo fuerte pero constante
+3. **Saltos de tijera (Jumping Jacks)** — 4 rondas x 35 s · ritmo fuerte pero constante
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Cambiar por: Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jumping%20Jacks) · Nombre para copiar en YouTube: `Jumping Jacks`
 4. **Flexión de brazos (Push-Up)** — 4 rondas x 35 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Flexión de brazos con cambio de manos (Hand-Switch Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido)
@@ -390,11 +384,9 @@ _Nivel de la semana: 2.9 de 11 (2 = el inicio, 11 = un poco más allá de tus l�
 **Qué cambia esta semana**
 - Mismo tiempo de trabajo esta semana: agrega un poco de peso donde termines una estación con más de 3 repeticiones en reserva
 
-**Trabajo atlético esta semana:** 20 lanzamientos
-
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -414,33 +406,32 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 
 **Circuito 1**
 _4 rondas · 35 s de trabajo · 15 s para cambiar_
-1. **Swing ruso con kettlebell (KB Swing)** — 4 rondas x 35 s · máxima intención; detente cuando baje la calidad
-   - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
-   - Cambiar por: Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
-2. **Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+1. **Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Sentadilla al cajón con peso corporal (Box Squat) (mantiene la sentadilla a dos piernas; pierde la parte baja del recorrido) / Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat) (mantiene la sentadilla a dos piernas; pierde la versión más fácil: este es más difícil) / Sentadilla goblet con talones elevados (Heels-Elevated Goblet Squat) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla con dos mancuernas colgando a los lados (Low DB Squat) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Box%20Goblet%20Squat%20(touch-and-go)) · Nombre para copiar en YouTube: `Box Goblet Squat (touch-and-go)`
-3. **Remo con pecho apoyado (Chest-Supported Row)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+2. **Remo con pecho apoyado (Chest-Supported Row)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Remo bajo una mesa (Table Row) (mantiene el tirón horizontal; pierde la sensación del implemento original) / Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) (mantiene el tirón horizontal; pierde el apoyo del pecho) / Remo con dos kettlebells desde el piso (Kong Row) (mantiene el tirón horizontal; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Nombre para copiar en YouTube: `Chest-Supported Row`
-4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+3. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
-5. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+4. **Saltar la cuerda (Jump Rope)** — 4 rondas x 35 s · ritmo fuerte pero constante
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-6. **Subida al cajón frontal y lateral (Step-Up)** — 4 rondas x 35 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+   - Cambiar por: Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+5. **Subida al cajón frontal y lateral (Step-Up)** — 4 rondas x 35 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida estática (Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+6. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+   - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 7. **Curl martillo (Hammer Curl)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Curl de bíceps con mancuernas (DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl con kettlebell (KB Curl) (mantiene el trabajo de bíceps; pierde la sensación del implemento original) / Curl 'no money' con mancuernas (No Money Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
@@ -454,7 +445,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -474,35 +465,32 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
 
 **Circuito 1**
 _4 rondas · 35 s de trabajo · 15 s para cambiar_
-1. **Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam)** — 4 rondas x 35 s · máxima intención; detente cuando baje la calidad
-   - balón de 10-14 lb
-   - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
-   - 5 lanzamientos por ronda con toda la intención y descansa hasta la señal: el balón no cuenta como serie muscular
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote rotacional con balón medicinal medio arrodillado (Rotational Medball Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Rotational%20Downward%20Slam) · Nombre para copiar en YouTube: `Medball Rotational Downward Slam`
-2. **Peso muerto con una kettlebell (KB Deadlift)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+1. **Peso muerto con una kettlebell (KB Deadlift)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift) · Nombre para copiar en YouTube: `Single-Kettlebell Deadlift`
-3. **Press en el piso con mancuernas (DB Floor Press)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+2. **Press en el piso con mancuernas (DB Floor Press)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la carga más pesada a dos lados)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Nombre para copiar en YouTube: `DB Floor Press`
-4. **Curl de bíceps con mancuernas (DB Curl)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+3. **Curl de bíceps con mancuernas (DB Curl)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl con kettlebell (KB Curl) (mantiene el trabajo de bíceps; pierde la sensación del implemento original) / Curl inverso con mancuernas, agarre prono (Reverse Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
-5. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 4 rondas x 35 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+4. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 4 rondas x 35 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos con rodillas apoyadas y una mano más alta (Offset Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Nombre para copiar en YouTube: `Offset Push-Up (one hand elevated)`
-6. **Press de hombro alterno con mancuernas (Alternating DB Overhead Press)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+5. **Press de hombro alterno con mancuernas (Alternating DB Overhead Press)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Alterna los lados en cada repetición durante toda la estación
    - Cambiar por: Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro a un brazo con mancuerna (Single-Arm DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press a un brazo con mancuerna medio arrodillado (Half-Kneeling DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Alternating DB Overhead Press`
+6. **Burpees** — 4 rondas x 35 s · ritmo fuerte pero constante
+   - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Burpees) · Nombre para copiar en YouTube: `Burpees`
 7. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 4 rondas x 35 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Fondos en banco (Bench Dip) (mantiene el trabajo de tríceps; pierde la carga extra)
@@ -516,7 +504,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltos de tijera (Jumping Jacks) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -546,10 +534,10 @@ _4 rondas · 35 s de trabajo · 15 s para cambiar_
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde el control del peso corporal) / Zancadas caminando (Walking Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada al frente (Forward Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Nombre para copiar en YouTube: `Stationary Lunge (Split Squat)`
-3. **Saltar la cuerda (Jump Rope)** — 4 rondas x 35 s · ritmo fuerte pero constante
+3. **Saltos de tijera (Jumping Jacks)** — 4 rondas x 35 s · ritmo fuerte pero constante
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Cambiar por: Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jumping%20Jacks) · Nombre para copiar en YouTube: `Jumping Jacks`
 4. **Flexión de brazos (Push-Up)** — 4 rondas x 35 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 35 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Flexión de brazos con cambio de manos (Hand-Switch Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido)
@@ -581,11 +569,9 @@ _Nivel de la semana: 3.9 de 11 (2 = el inicio, 11 = un poco más allá de tus l�
 - El trabajo del circuito sube a 40 s
 - Mantén tus pesos esta semana (las estaciones duran más); agrega peso solo donde termines una estación con más de 3 repeticiones en reserva
 
-**Trabajo atlético esta semana:** 24 lanzamientos
-
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -605,33 +591,32 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 
 **Circuito 1**
 _4 rondas · 40 s de trabajo · 15 s para cambiar_
-1. **Swing ruso con kettlebell (KB Swing)** — 4 rondas x 40 s · máxima intención; detente cuando baje la calidad
-   - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
-   - Cambiar por: Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
-2. **Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+1. **Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Sentadilla al cajón con peso corporal (Box Squat) (mantiene la sentadilla a dos piernas; pierde la parte baja del recorrido) / Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat) (mantiene la sentadilla a dos piernas; pierde la versión más fácil: este es más difícil) / Sentadilla goblet con talones elevados (Heels-Elevated Goblet Squat) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla con dos mancuernas colgando a los lados (Low DB Squat) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Box%20Goblet%20Squat%20(touch-and-go)) · Nombre para copiar en YouTube: `Box Goblet Squat (touch-and-go)`
-3. **Remo con pecho apoyado (Chest-Supported Row)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+2. **Remo con pecho apoyado (Chest-Supported Row)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Remo bajo una mesa (Table Row) (mantiene el tirón horizontal; pierde la sensación del implemento original) / Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) (mantiene el tirón horizontal; pierde el apoyo del pecho) / Remo con dos kettlebells desde el piso (Kong Row) (mantiene el tirón horizontal; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Nombre para copiar en YouTube: `Chest-Supported Row`
-4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+3. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
-5. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+4. **Saltar la cuerda (Jump Rope)** — 4 rondas x 40 s · ritmo fuerte pero constante
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-6. **Subida al cajón frontal y lateral (Step-Up)** — 4 rondas x 40 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+   - Cambiar por: Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+5. **Subida al cajón frontal y lateral (Step-Up)** — 4 rondas x 40 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida estática (Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+6. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+   - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 7. **Curl martillo (Hammer Curl)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Curl de bíceps con mancuernas (DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl con kettlebell (KB Curl) (mantiene el trabajo de bíceps; pierde la sensación del implemento original) / Curl 'no money' con mancuernas (No Money Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
@@ -645,7 +630,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -665,35 +650,32 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
 
 **Circuito 1**
 _4 rondas · 40 s de trabajo · 15 s para cambiar_
-1. **Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam)** — 4 rondas x 40 s · máxima intención; detente cuando baje la calidad
-   - balón de 10-14 lb
-   - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
-   - 6 lanzamientos por ronda con toda la intención y descansa hasta la señal: el balón no cuenta como serie muscular
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote rotacional con balón medicinal medio arrodillado (Rotational Medball Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Rotational%20Downward%20Slam) · Nombre para copiar en YouTube: `Medball Rotational Downward Slam`
-2. **Peso muerto con una kettlebell (KB Deadlift)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+1. **Peso muerto con una kettlebell (KB Deadlift)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift) · Nombre para copiar en YouTube: `Single-Kettlebell Deadlift`
-3. **Press en el piso con mancuernas (DB Floor Press)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+2. **Press en el piso con mancuernas (DB Floor Press)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la carga más pesada a dos lados)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Nombre para copiar en YouTube: `DB Floor Press`
-4. **Curl de bíceps con mancuernas (DB Curl)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+3. **Curl de bíceps con mancuernas (DB Curl)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl con kettlebell (KB Curl) (mantiene el trabajo de bíceps; pierde la sensación del implemento original) / Curl inverso con mancuernas, agarre prono (Reverse Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
-5. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 4 rondas x 40 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+4. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 4 rondas x 40 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos con rodillas apoyadas y una mano más alta (Offset Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Nombre para copiar en YouTube: `Offset Push-Up (one hand elevated)`
-6. **Press de hombro alterno con mancuernas (Alternating DB Overhead Press)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+5. **Press de hombro alterno con mancuernas (Alternating DB Overhead Press)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Alterna los lados en cada repetición durante toda la estación
    - Cambiar por: Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro a un brazo con mancuerna (Single-Arm DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press a un brazo con mancuerna medio arrodillado (Half-Kneeling DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Alternating DB Overhead Press`
+6. **Burpees** — 4 rondas x 40 s · ritmo fuerte pero constante
+   - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Burpees) · Nombre para copiar en YouTube: `Burpees`
 7. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Fondos en banco (Bench Dip) (mantiene el trabajo de tríceps; pierde la carga extra)
@@ -707,7 +689,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltos de tijera (Jumping Jacks) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -737,10 +719,10 @@ _4 rondas · 40 s de trabajo · 15 s para cambiar_
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde el control del peso corporal) / Zancadas caminando (Walking Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada al frente (Forward Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Nombre para copiar en YouTube: `Stationary Lunge (Split Squat)`
-3. **Saltar la cuerda (Jump Rope)** — 4 rondas x 40 s · ritmo fuerte pero constante
+3. **Saltos de tijera (Jumping Jacks)** — 4 rondas x 40 s · ritmo fuerte pero constante
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Cambiar por: Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jumping%20Jacks) · Nombre para copiar en YouTube: `Jumping Jacks`
 4. **Flexión de brazos (Push-Up)** — 4 rondas x 40 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Flexión de brazos con cambio de manos (Hand-Switch Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido)
@@ -771,11 +753,9 @@ _Nivel de la semana: 4.8 de 11 (2 = el inicio, 11 = un poco más allá de tus l�
 **Qué cambia esta semana**
 - Mismo tiempo de trabajo esta semana: agrega un poco de peso donde termines una estación con más de 3 repeticiones en reserva
 
-**Trabajo atlético esta semana:** 28 lanzamientos
-
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -795,33 +775,32 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 
 **Circuito 1**
 _4 rondas · 40 s de trabajo · 15 s para cambiar_
-1. **Swing ruso con kettlebell (KB Swing)** — 4 rondas x 40 s · máxima intención; detente cuando baje la calidad
-   - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
-   - Cambiar por: Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
-2. **Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+1. **Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Sentadilla al cajón con peso corporal (Box Squat) (mantiene la sentadilla a dos piernas; pierde la parte baja del recorrido) / Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat) (mantiene la sentadilla a dos piernas; pierde la versión más fácil: este es más difícil) / Sentadilla goblet con talones elevados (Heels-Elevated Goblet Squat) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla con dos mancuernas colgando a los lados (Low DB Squat) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Box%20Goblet%20Squat%20(touch-and-go)) · Nombre para copiar en YouTube: `Box Goblet Squat (touch-and-go)`
-3. **Remo con pecho apoyado (Chest-Supported Row)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+2. **Remo con pecho apoyado (Chest-Supported Row)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Remo bajo una mesa (Table Row) (mantiene el tirón horizontal; pierde la sensación del implemento original) / Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) (mantiene el tirón horizontal; pierde el apoyo del pecho) / Remo con dos kettlebells desde el piso (Kong Row) (mantiene el tirón horizontal; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Nombre para copiar en YouTube: `Chest-Supported Row`
-4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+3. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
-5. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+4. **Saltar la cuerda (Jump Rope)** — 4 rondas x 40 s · ritmo fuerte pero constante
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-6. **Subida al cajón frontal y lateral (Step-Up)** — 4 rondas x 40 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+   - Cambiar por: Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+5. **Subida al cajón frontal y lateral (Step-Up)** — 4 rondas x 40 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida estática (Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+6. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+   - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 7. **Curl martillo (Hammer Curl)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Curl de bíceps con mancuernas (DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl con kettlebell (KB Curl) (mantiene el trabajo de bíceps; pierde la sensación del implemento original) / Curl 'no money' con mancuernas (No Money Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
@@ -835,7 +814,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -855,35 +834,32 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
 
 **Circuito 1**
 _4 rondas · 40 s de trabajo · 15 s para cambiar_
-1. **Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam)** — 4 rondas x 40 s · máxima intención; detente cuando baje la calidad
-   - balón de 10-14 lb
-   - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
-   - 7 lanzamientos por ronda con toda la intención y descansa hasta la señal: el balón no cuenta como serie muscular
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote rotacional con balón medicinal medio arrodillado (Rotational Medball Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Rotational%20Downward%20Slam) · Nombre para copiar en YouTube: `Medball Rotational Downward Slam`
-2. **Peso muerto con una kettlebell (KB Deadlift)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+1. **Peso muerto con una kettlebell (KB Deadlift)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift) · Nombre para copiar en YouTube: `Single-Kettlebell Deadlift`
-3. **Press en el piso con mancuernas (DB Floor Press)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+2. **Press en el piso con mancuernas (DB Floor Press)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la carga más pesada a dos lados)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Nombre para copiar en YouTube: `DB Floor Press`
-4. **Curl de bíceps con mancuernas (DB Curl)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+3. **Curl de bíceps con mancuernas (DB Curl)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl con kettlebell (KB Curl) (mantiene el trabajo de bíceps; pierde la sensación del implemento original) / Curl inverso con mancuernas, agarre prono (Reverse Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
-5. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 4 rondas x 40 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+4. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 4 rondas x 40 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos con rodillas apoyadas y una mano más alta (Offset Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Nombre para copiar en YouTube: `Offset Push-Up (one hand elevated)`
-6. **Press de hombro alterno con mancuernas (Alternating DB Overhead Press)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
+5. **Press de hombro alterno con mancuernas (Alternating DB Overhead Press)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Alterna los lados en cada repetición durante toda la estación
    - Cambiar por: Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro a un brazo con mancuerna (Single-Arm DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press a un brazo con mancuerna medio arrodillado (Half-Kneeling DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Alternating DB Overhead Press`
+6. **Burpees** — 4 rondas x 40 s · ritmo fuerte pero constante
+   - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Burpees) · Nombre para copiar en YouTube: `Burpees`
 7. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 4 rondas x 40 s · elige un peso con el que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Fondos en banco (Bench Dip) (mantiene el trabajo de tríceps; pierde la carga extra)
@@ -897,7 +873,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltos de tijera (Jumping Jacks) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -927,10 +903,10 @@ _4 rondas · 40 s de trabajo · 15 s para cambiar_
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde el control del peso corporal) / Zancadas caminando (Walking Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada al frente (Forward Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Nombre para copiar en YouTube: `Stationary Lunge (Split Squat)`
-3. **Saltar la cuerda (Jump Rope)** — 4 rondas x 40 s · ritmo fuerte pero constante
+3. **Saltos de tijera (Jumping Jacks)** — 4 rondas x 40 s · ritmo fuerte pero constante
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Cambiar por: Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jumping%20Jacks) · Nombre para copiar en YouTube: `Jumping Jacks`
 4. **Flexión de brazos (Push-Up)** — 4 rondas x 40 s · elige una versión (o un ritmo) con la que podrías seguir con unas 3 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 40 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Flexión de brazos con cambio de manos (Hand-Switch Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido)
@@ -959,15 +935,13 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 _Nivel de la semana: 6.3 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
 
 **Qué cambia esta semana**
-- Nuevo bloque de ejercicios: 7 ejercicios cambian un poco (otra versión o un detalle nuevo); el resto se queda
+- Nuevo bloque de ejercicios: 6 ejercicios cambian un poco (otra versión o un detalle nuevo); el resto se queda
 - El trabajo del circuito sube a 45 s
 - Mantén tus pesos esta semana (las estaciones duran más); agrega peso solo donde termines una estación con más de 2 repeticiones en reserva
 
-**Trabajo atlético esta semana:** 28 lanzamientos
-
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -987,33 +961,32 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 
 **Circuito 1**
 _4 rondas · 45 s de trabajo · 15 s para cambiar_
-1. **Swing ruso con kettlebell (KB Swing)** — 4 rondas x 45 s · máxima intención; detente cuando baje la calidad
-   - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
-   - Cambiar por: Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
-2. **Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+1. **Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil) / Sentadilla al cajón con peso corporal (Box Squat) (mantiene la sentadilla a dos piernas; pierde la parte baja del recorrido) / Sentadilla goblet con talones elevados (Heels-Elevated Goblet Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil) / Sentadilla con dos mancuernas colgando a los lados (Low DB Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=High-Zercher%20DB%20Squat%20(DB%20hugged%20high%20at%20chest)) · Nombre para copiar en YouTube: `High-Zercher DB Squat (DB hugged high at chest)`
-3. **Remo con pecho apoyado (Chest-Supported Row)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+2. **Remo con pecho apoyado (Chest-Supported Row)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Remo bajo una mesa (Table Row) (mantiene el tirón horizontal; pierde la sensación del implemento original) / Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) (mantiene el tirón horizontal; pierde el apoyo del pecho) / Remo con dos kettlebells desde el piso (Kong Row) (mantiene el tirón horizontal; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Nombre para copiar en YouTube: `Chest-Supported Row`
-4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+3. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
-5. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+4. **Saltar la cuerda (Jump Rope)** — 4 rondas x 45 s · ritmo fuerte pero constante
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-6. **Subida al cajón frontal y lateral (Step-Up)** — 4 rondas x 45 s · elige una versión (o un ritmo) con la que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+   - Cambiar por: Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+5. **Subida al cajón frontal y lateral (Step-Up)** — 4 rondas x 45 s · elige una versión (o un ritmo) con la que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida estática (Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+6. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+   - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 7. **Curl Zottman: sube supino, baja prono (Zottman Curl)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl de bíceps con mancuernas (DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl con kettlebell (KB Curl) (mantiene el trabajo de bíceps; pierde la sensación del implemento original) / Curl 'no money' con mancuernas (No Money Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1027,7 +1000,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1047,35 +1020,32 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
 
 **Circuito 1**
 _4 rondas · 45 s de trabajo · 15 s para cambiar_
-1. **Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw)** — 4 rondas x 45 s · máxima intención; detente cuando baje la calidad
-   - balón de 6-10 lb
-   - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
-   - 7 lanzamientos por ronda con toda la intención y descansa hasta la señal: el balón no cuenta como serie muscular
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote con balón medicinal desde arriba de la cabeza (Medball Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Zancada atrás con azote al piso por dentro (Reverse Lunge Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Desplazamiento lateral con azote al piso, la altura importa (Shuffle Floor Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Overhead%20Throw%20(R%20%26%20L%20leg)) · Nombre para copiar en YouTube: `Step-Forward Medball Overhead Throw (R & L leg)`
-2. **Peso muerto con mancuernas (DB Deadlift)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+1. **Peso muerto con mancuernas (DB Deadlift)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Deadlift) · Nombre para copiar en YouTube: `Dumbbell Deadlift`
-3. **Press en el piso con mancuernas (DB Floor Press)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+2. **Press en el piso con mancuernas (DB Floor Press)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la carga más pesada a dos lados)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Nombre para copiar en YouTube: `DB Floor Press`
-4. **Curl de bíceps con mancuernas (DB Curl)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+3. **Curl de bíceps con mancuernas (DB Curl)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl con kettlebell (KB Curl) (mantiene el trabajo de bíceps; pierde la sensación del implemento original) / Curl inverso con mancuernas, agarre prono (Reverse Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
-5. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 4 rondas x 45 s · elige una versión (o un ritmo) con la que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+4. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 4 rondas x 45 s · elige una versión (o un ritmo) con la que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos con rodillas apoyadas y una mano más alta (Offset Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Nombre para copiar en YouTube: `Offset Push-Up (one hand elevated)`
-6. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+5. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Alterna los lados en cada repetición durante toda la estación
    - Cambiar por: Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro a un brazo con mancuerna (Single-Arm DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press a un brazo con mancuerna medio arrodillado (Half-Kneeling DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down)) · Nombre para copiar en YouTube: `Seesaw DB Press (alternating, one up / one down)`
+6. **Burpees** — 4 rondas x 45 s · ritmo fuerte pero constante
+   - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Burpees) · Nombre para copiar en YouTube: `Burpees`
 7. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Fondos en banco (Bench Dip) (mantiene el trabajo de tríceps; pierde la carga extra)
@@ -1089,7 +1059,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltos de tijera (Jumping Jacks) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1119,10 +1089,10 @@ _4 rondas · 45 s de trabajo · 15 s para cambiar_
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde el control del peso corporal) / Zancadas caminando (Walking Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada al frente (Forward Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Nombre para copiar en YouTube: `Stationary Lunge (Split Squat)`
-3. **Saltar la cuerda (Jump Rope)** — 4 rondas x 45 s · ritmo fuerte pero constante
+3. **Saltos de tijera (Jumping Jacks)** — 4 rondas x 45 s · ritmo fuerte pero constante
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Cambiar por: Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jumping%20Jacks) · Nombre para copiar en YouTube: `Jumping Jacks`
 4. **Flexión de brazos (Push-Up)** — 4 rondas x 45 s · elige una versión (o un ritmo) con la que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Flexión de brazos con cambio de manos (Hand-Switch Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido)
@@ -1153,11 +1123,9 @@ _Nivel de la semana: 7.9 de 11 (2 = el inicio, 11 = un poco más allá de tus l�
 **Qué cambia esta semana**
 - Mismo tiempo de trabajo esta semana: agrega un poco de peso donde termines una estación con más de 2 repeticiones en reserva
 
-**Trabajo atlético esta semana:** 32 lanzamientos
-
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1177,33 +1145,32 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 
 **Circuito 1**
 _4 rondas · 45 s de trabajo · 15 s para cambiar_
-1. **Swing ruso con kettlebell (KB Swing)** — 4 rondas x 45 s · máxima intención; detente cuando baje la calidad
-   - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
-   - Cambiar por: Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
-2. **Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+1. **Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil) / Sentadilla al cajón con peso corporal (Box Squat) (mantiene la sentadilla a dos piernas; pierde la parte baja del recorrido) / Sentadilla goblet con talones elevados (Heels-Elevated Goblet Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil) / Sentadilla con dos mancuernas colgando a los lados (Low DB Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=High-Zercher%20DB%20Squat%20(DB%20hugged%20high%20at%20chest)) · Nombre para copiar en YouTube: `High-Zercher DB Squat (DB hugged high at chest)`
-3. **Remo con pecho apoyado (Chest-Supported Row)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+2. **Remo con pecho apoyado (Chest-Supported Row)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Remo bajo una mesa (Table Row) (mantiene el tirón horizontal; pierde la sensación del implemento original) / Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) (mantiene el tirón horizontal; pierde el apoyo del pecho) / Remo con dos kettlebells desde el piso (Kong Row) (mantiene el tirón horizontal; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Nombre para copiar en YouTube: `Chest-Supported Row`
-4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+3. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
-5. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+4. **Saltar la cuerda (Jump Rope)** — 4 rondas x 45 s · ritmo fuerte pero constante
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-6. **Subida al cajón frontal y lateral (Step-Up)** — 4 rondas x 45 s · elige una versión (o un ritmo) con la que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+   - Cambiar por: Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+5. **Subida al cajón frontal y lateral (Step-Up)** — 4 rondas x 45 s · elige una versión (o un ritmo) con la que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida estática (Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+6. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+   - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 7. **Curl Zottman: sube supino, baja prono (Zottman Curl)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl de bíceps con mancuernas (DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl con kettlebell (KB Curl) (mantiene el trabajo de bíceps; pierde la sensación del implemento original) / Curl 'no money' con mancuernas (No Money Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1217,7 +1184,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1237,35 +1204,32 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
 
 **Circuito 1**
 _4 rondas · 45 s de trabajo · 15 s para cambiar_
-1. **Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw)** — 4 rondas x 45 s · máxima intención; detente cuando baje la calidad
-   - balón de 6-10 lb
-   - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
-   - 8 lanzamientos por ronda con toda la intención y descansa hasta la señal: el balón no cuenta como serie muscular
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote con balón medicinal desde arriba de la cabeza (Medball Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Zancada atrás con azote al piso por dentro (Reverse Lunge Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Desplazamiento lateral con azote al piso, la altura importa (Shuffle Floor Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Overhead%20Throw%20(R%20%26%20L%20leg)) · Nombre para copiar en YouTube: `Step-Forward Medball Overhead Throw (R & L leg)`
-2. **Peso muerto con mancuernas (DB Deadlift)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+1. **Peso muerto con mancuernas (DB Deadlift)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Deadlift) · Nombre para copiar en YouTube: `Dumbbell Deadlift`
-3. **Press en el piso con mancuernas (DB Floor Press)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+2. **Press en el piso con mancuernas (DB Floor Press)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la carga más pesada a dos lados)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Nombre para copiar en YouTube: `DB Floor Press`
-4. **Curl de bíceps con mancuernas (DB Curl)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+3. **Curl de bíceps con mancuernas (DB Curl)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl con kettlebell (KB Curl) (mantiene el trabajo de bíceps; pierde la sensación del implemento original) / Curl inverso con mancuernas, agarre prono (Reverse Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
-5. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 4 rondas x 45 s · elige una versión (o un ritmo) con la que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+4. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 4 rondas x 45 s · elige una versión (o un ritmo) con la que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos con rodillas apoyadas y una mano más alta (Offset Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Nombre para copiar en YouTube: `Offset Push-Up (one hand elevated)`
-6. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
+5. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Alterna los lados en cada repetición durante toda la estación
    - Cambiar por: Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro a un brazo con mancuerna (Single-Arm DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press a un brazo con mancuerna medio arrodillado (Half-Kneeling DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down)) · Nombre para copiar en YouTube: `Seesaw DB Press (alternating, one up / one down)`
+6. **Burpees** — 4 rondas x 45 s · ritmo fuerte pero constante
+   - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Burpees) · Nombre para copiar en YouTube: `Burpees`
 7. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 4 rondas x 45 s · elige un peso con el que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Fondos en banco (Bench Dip) (mantiene el trabajo de tríceps; pierde la carga extra)
@@ -1279,7 +1243,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltos de tijera (Jumping Jacks) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1309,10 +1273,10 @@ _4 rondas · 45 s de trabajo · 15 s para cambiar_
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde el control del peso corporal) / Zancadas caminando (Walking Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada al frente (Forward Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Nombre para copiar en YouTube: `Stationary Lunge (Split Squat)`
-3. **Saltar la cuerda (Jump Rope)** — 4 rondas x 45 s · ritmo fuerte pero constante
+3. **Saltos de tijera (Jumping Jacks)** — 4 rondas x 45 s · ritmo fuerte pero constante
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Cambiar por: Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jumping%20Jacks) · Nombre para copiar en YouTube: `Jumping Jacks`
 4. **Flexión de brazos (Push-Up)** — 4 rondas x 45 s · elige una versión (o un ritmo) con la que podrías seguir con unas 2 repeticiones en reserva al sonar la señal
    - Circuito: 4 rondas, 45 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Flexión de brazos con cambio de manos (Hand-Switch Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido)
@@ -1360,11 +1324,9 @@ _Esta semana sube más de lo habitual (25 % más series en total): ajusta si hac
 - El trabajo del circuito sube a 50 s
 - Mantén tus pesos esta semana (las estaciones duran más); agrega peso solo donde termines una estación con más de 1-2 repeticiones en reserva
 
-**Trabajo atlético esta semana:** 40 lanzamientos
-
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1384,33 +1346,32 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 
 **Circuito 1**
 _5 rondas · 50 s de trabajo · 15 s para cambiar_
-1. **Swing ruso con kettlebell (KB Swing)** — 5 rondas x 50 s · máxima intención; detente cuando baje la calidad
-   - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
-   - Cambiar por: Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
-2. **Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
+1. **Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil) / Sentadilla al cajón con peso corporal (Box Squat) (mantiene la sentadilla a dos piernas; pierde la parte baja del recorrido) / Sentadilla goblet con talones elevados (Heels-Elevated Goblet Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil) / Sentadilla con dos mancuernas colgando a los lados (Low DB Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=High-Zercher%20DB%20Squat%20(DB%20hugged%20high%20at%20chest)) · Nombre para copiar en YouTube: `High-Zercher DB Squat (DB hugged high at chest)`
-3. **Remo con pecho apoyado (Chest-Supported Row)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
+2. **Remo con pecho apoyado (Chest-Supported Row)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Remo bajo una mesa (Table Row) (mantiene el tirón horizontal; pierde la sensación del implemento original) / Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) (mantiene el tirón horizontal; pierde el apoyo del pecho) / Remo con dos kettlebells desde el piso (Kong Row) (mantiene el tirón horizontal; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Nombre para copiar en YouTube: `Chest-Supported Row`
-4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
+3. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
-5. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
+4. **Saltar la cuerda (Jump Rope)** — 5 rondas x 50 s · ritmo fuerte pero constante
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-6. **Subida al cajón frontal y lateral (Step-Up)** — 5 rondas x 50 s · elige una versión (o un ritmo) con la que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
+   - Cambiar por: Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+5. **Subida al cajón frontal y lateral (Step-Up)** — 5 rondas x 50 s · elige una versión (o un ritmo) con la que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida estática (Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+6. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
+   - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 7. **Curl Zottman: sube supino, baja prono (Zottman Curl)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl de bíceps con mancuernas (DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl con kettlebell (KB Curl) (mantiene el trabajo de bíceps; pierde la sensación del implemento original) / Curl 'no money' con mancuernas (No Money Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1424,7 +1385,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1444,35 +1405,32 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
 
 **Circuito 1**
 _5 rondas · 50 s de trabajo · 15 s para cambiar_
-1. **Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw)** — 5 rondas x 50 s · máxima intención; detente cuando baje la calidad
-   - balón de 6-10 lb
-   - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
-   - 8 lanzamientos por ronda con toda la intención y descansa hasta la señal: el balón no cuenta como serie muscular
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote con balón medicinal desde arriba de la cabeza (Medball Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Zancada atrás con azote al piso por dentro (Reverse Lunge Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Desplazamiento lateral con azote al piso, la altura importa (Shuffle Floor Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Overhead%20Throw%20(R%20%26%20L%20leg)) · Nombre para copiar en YouTube: `Step-Forward Medball Overhead Throw (R & L leg)`
-2. **Peso muerto con mancuernas (DB Deadlift)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
+1. **Peso muerto con mancuernas (DB Deadlift)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Deadlift) · Nombre para copiar en YouTube: `Dumbbell Deadlift`
-3. **Press en el piso con mancuernas (DB Floor Press)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
+2. **Press en el piso con mancuernas (DB Floor Press)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la carga más pesada a dos lados)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Nombre para copiar en YouTube: `DB Floor Press`
-4. **Curl de bíceps con mancuernas (DB Curl)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
+3. **Curl de bíceps con mancuernas (DB Curl)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl con kettlebell (KB Curl) (mantiene el trabajo de bíceps; pierde la sensación del implemento original) / Curl inverso con mancuernas, agarre prono (Reverse Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
-5. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 5 rondas x 50 s · elige una versión (o un ritmo) con la que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
+4. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 5 rondas x 50 s · elige una versión (o un ritmo) con la que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos con rodillas apoyadas y una mano más alta (Offset Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Nombre para copiar en YouTube: `Offset Push-Up (one hand elevated)`
-6. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
+5. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Alterna los lados en cada repetición durante toda la estación
    - Cambiar por: Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro a un brazo con mancuerna (Single-Arm DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press a un brazo con mancuerna medio arrodillado (Half-Kneeling DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down)) · Nombre para copiar en YouTube: `Seesaw DB Press (alternating, one up / one down)`
+6. **Burpees** — 5 rondas x 50 s · ritmo fuerte pero constante
+   - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Burpees) · Nombre para copiar en YouTube: `Burpees`
 7. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Fondos en banco (Bench Dip) (mantiene el trabajo de tríceps; pierde la carga extra)
@@ -1486,7 +1444,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltos de tijera (Jumping Jacks) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1516,10 +1474,10 @@ _5 rondas · 50 s de trabajo · 15 s para cambiar_
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde el control del peso corporal) / Zancadas caminando (Walking Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada al frente (Forward Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Nombre para copiar en YouTube: `Stationary Lunge (Split Squat)`
-3. **Saltar la cuerda (Jump Rope)** — 5 rondas x 50 s · ritmo fuerte pero constante
+3. **Saltos de tijera (Jumping Jacks)** — 5 rondas x 50 s · ritmo fuerte pero constante
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Cambiar por: Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jumping%20Jacks) · Nombre para copiar en YouTube: `Jumping Jacks`
 4. **Flexión de brazos (Push-Up)** — 5 rondas x 50 s · elige una versión (o un ritmo) con la que podrías seguir con unas 1-2 repeticiones en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Flexión de brazos con cambio de manos (Hand-Switch Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido)
@@ -1554,11 +1512,9 @@ _Última semana: un intensificador en cada uno de estos días (lunes, miércoles
 **Qué cambia esta semana**
 - Mismo tiempo de trabajo esta semana: agrega un poco de peso donde termines una estación con más de 1 repeticiones en reserva
 
-**Trabajo atlético esta semana:** 40 lanzamientos
-
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1578,33 +1534,32 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 
 **Circuito 1**
 _5 rondas · 50 s de trabajo · 15 s para cambiar_
-1. **Swing ruso con kettlebell (KB Swing)** — 5 rondas x 50 s · máxima intención; detente cuando baje la calidad
-   - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
-   - Cambiar por: Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene la misma función en la sesión; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
-2. **Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal
+1. **Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil) / Sentadilla al cajón con peso corporal (Box Squat) (mantiene la sentadilla a dos piernas; pierde la parte baja del recorrido) / Sentadilla goblet con talones elevados (Heels-Elevated Goblet Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil) / Sentadilla con dos mancuernas colgando a los lados (Low DB Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=High-Zercher%20DB%20Squat%20(DB%20hugged%20high%20at%20chest)) · Nombre para copiar en YouTube: `High-Zercher DB Squat (DB hugged high at chest)`
-3. **Remo con pecho apoyado (Chest-Supported Row)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal
+2. **Remo con pecho apoyado (Chest-Supported Row)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Remo bajo una mesa (Table Row) (mantiene el tirón horizontal; pierde la sensación del implemento original) / Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) (mantiene el tirón horizontal; pierde el apoyo del pecho) / Remo con dos kettlebells desde el piso (Kong Row) (mantiene el tirón horizontal; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Nombre para copiar en YouTube: `Chest-Supported Row`
-4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal
+3. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
-5. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal · última ronda: sostén el punto más difícil 10 s al final
+4. **Saltar la cuerda (Jump Rope)** — 5 rondas x 50 s · ritmo fuerte pero constante
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-6. **Subida al cajón frontal y lateral (Step-Up)** — 5 rondas x 50 s · elige una versión (o un ritmo) con la que podrías seguir con 1 repetición en reserva al sonar la señal
+   - Cambiar por: Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+5. **Subida al cajón frontal y lateral (Step-Up)** — 5 rondas x 50 s · elige una versión (o un ritmo) con la que podrías seguir con 1 repetición en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida estática (Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+6. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal · última ronda: sostén el punto más difícil 10 s al final
+   - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Cambiar por: Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevación en Y boca abajo en banco inclinado con mancuernas (Prone Y-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 7. **Curl Zottman: sube supino, baja prono (Zottman Curl)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl de bíceps con mancuernas (DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl con kettlebell (KB Curl) (mantiene el trabajo de bíceps; pierde la sensación del implemento original) / Curl 'no money' con mancuernas (No Money Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1618,7 +1573,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1638,35 +1593,32 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
 
 **Circuito 1**
 _5 rondas · 50 s de trabajo · 15 s para cambiar_
-1. **Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw)** — 5 rondas x 50 s · máxima intención; detente cuando baje la calidad
-   - balón de 6-10 lb
-   - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
-   - 8 lanzamientos por ronda con toda la intención y descansa hasta la señal: el balón no cuenta como serie muscular
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azote con balón medicinal desde arriba de la cabeza (Medball Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Zancada atrás con azote al piso por dentro (Reverse Lunge Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Desplazamiento lateral con azote al piso, la altura importa (Shuffle Floor Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Overhead%20Throw%20(R%20%26%20L%20leg)) · Nombre para copiar en YouTube: `Step-Forward Medball Overhead Throw (R & L leg)`
-2. **Peso muerto con mancuernas (DB Deadlift)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal
+1. **Peso muerto con mancuernas (DB Deadlift)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Deadlift) · Nombre para copiar en YouTube: `Dumbbell Deadlift`
-3. **Press en el piso con mancuernas (DB Floor Press)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal
+2. **Press en el piso con mancuernas (DB Floor Press)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la carga más pesada a dos lados)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Nombre para copiar en YouTube: `DB Floor Press`
-4. **Curl de bíceps con mancuernas (DB Curl)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal · última ronda: sostén el punto más difícil 10 s al final
+3. **Curl de bíceps con mancuernas (DB Curl)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal · última ronda: sostén el punto más difícil 10 s al final
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl con kettlebell (KB Curl) (mantiene el trabajo de bíceps; pierde la sensación del implemento original) / Curl inverso con mancuernas, agarre prono (Reverse Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
-5. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 5 rondas x 50 s · elige una versión (o un ritmo) con la que podrías seguir con 1 repetición en reserva al sonar la señal
+4. **Flexión de brazos asimétrica con una mano elevada (Offset Push-Up)** — 5 rondas x 50 s · elige una versión (o un ritmo) con la que podrías seguir con 1 repetición en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos (Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos inclinada con manos elevadas (Incline Push-Up) (mantiene el empuje horizontal; pierde la carga extra) / Flexión de brazos con rodillas apoyadas y una mano más alta (Offset Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Nombre para copiar en YouTube: `Offset Push-Up (one hand elevated)`
-6. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal
+5. **Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Alterna los lados en cada repetición durante toda la estación
    - Cambiar por: Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro a un brazo con mancuerna (Single-Arm DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press a un brazo con mancuerna medio arrodillado (Half-Kneeling DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down)) · Nombre para copiar en YouTube: `Seesaw DB Press (alternating, one up / one down)`
+6. **Burpees** — 5 rondas x 50 s · ritmo fuerte pero constante
+   - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tijera (Jumping Jacks) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Burpees) · Nombre para copiar en YouTube: `Burpees`
 7. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 5 rondas x 50 s · elige un peso con el que podrías seguir con 1 repetición en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Fondos en banco (Bench Dip) (mantiene el trabajo de tríceps; pierde la carga extra)
@@ -1680,7 +1632,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltos de tijera (Jumping Jacks) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1710,10 +1662,10 @@ _5 rondas · 50 s de trabajo · 15 s para cambiar_
    - Un lado a la vez: cambia de lado a la mitad del tiempo
    - Cambiar por: Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla dividida / zancada con pie delantero elevado (FFE Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde el control del peso corporal) / Zancadas caminando (Walking Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada al frente (Forward Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Nombre para copiar en YouTube: `Stationary Lunge (Split Squat)`
-3. **Saltar la cuerda (Jump Rope)** — 5 rondas x 50 s · ritmo fuerte pero constante
+3. **Saltos de tijera (Jumping Jacks)** — 5 rondas x 50 s · ritmo fuerte pero constante
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
-   - Cambiar por: Saltos de tijera (Jumping Jacks) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jump%20Rope) · Nombre para copiar en YouTube: `Jump Rope`
+   - Cambiar por: Saltar la cuerda (Jump Rope) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Burpees (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Intervalos 20 s rápido / 40 s lento (cualquier cardio) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera rápida / regreso caminando (no es un sprint) (mantiene el efecto de acondicionamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Jumping%20Jacks) · Nombre para copiar en YouTube: `Jumping Jacks`
 4. **Flexión de brazos (Push-Up)** — 5 rondas x 50 s · elige una versión (o un ritmo) con la que podrías seguir con 1 repetición en reserva al sonar la señal
    - Circuito: 5 rondas, 50 s por estación, 15 s para cambiar, 90 s entre rondas
    - Cambiar por: Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Flexión de brazos con cambio de manos (Hand-Switch Push-Up) (mantiene el empuje horizontal; pierde algo de dificultad: este es más fácil) / Press en el piso alterno con mancuernas (Alternating DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido)

@@ -1139,7 +1139,9 @@
           "C"
         ],
         "fighter_open": false,
-        "sport_is_aerobic": false
+        "sport_is_aerobic": false,
+        "practice_days": 0,
+        "replaced_by_practice": 0
       },
       "goal": "muscle",
       "format": "gym",
@@ -5213,20 +5215,15 @@
                   ],
                   "swaps": [
                     "high-row-machine",
-                    "seal-row-barbell-pronated-grip",
                     "machine-row-supinated-grip",
-                    "machine-row-pronated-grip"
+                    "machine-row-pronated-grip",
+                    "45-degree-cable-row"
                   ],
                   "swap_notes": [
                     {
                       "id": "high-row-machine",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.top_load"
-                    },
-                    {
-                      "id": "seal-row-barbell-pronated-grip",
-                      "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.machine_support"
                     },
                     {
                       "id": "machine-row-supinated-grip",
@@ -5237,6 +5234,11 @@
                       "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "45-degree-cable-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
                     }
                   ],
                   "instead_of": null,
@@ -6416,8 +6418,8 @@
                   ],
                   "swaps": [
                     "bent-over-barbell-row-supinated-yates-grip",
-                    "seal-row-barbell-supinated-grip",
-                    "seal-row-barbell-pronated-grip",
+                    "machine-row-pronated-grip",
+                    "machine-row-close-neutral-grip",
                     "45-degree-cable-row"
                   ],
                   "swap_notes": [
@@ -6427,14 +6429,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "seal-row-barbell-supinated-grip",
+                      "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.trunk_work"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "seal-row-barbell-pronated-grip",
+                      "id": "machine-row-close-neutral-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.trunk_work"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
                       "id": "45-degree-cable-row",
@@ -13811,20 +13813,15 @@
                   ],
                   "swaps": [
                     "high-row-machine",
-                    "seal-row-barbell-pronated-grip",
                     "machine-row-supinated-grip",
-                    "machine-row-pronated-grip"
+                    "machine-row-pronated-grip",
+                    "45-degree-cable-row"
                   ],
                   "swap_notes": [
                     {
                       "id": "high-row-machine",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.top_load"
-                    },
-                    {
-                      "id": "seal-row-barbell-pronated-grip",
-                      "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.machine_support"
                     },
                     {
                       "id": "machine-row-supinated-grip",
@@ -13835,6 +13832,11 @@
                       "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "45-degree-cable-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
                     }
                   ],
                   "instead_of": null,
@@ -15007,8 +15009,8 @@
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row-supinated-yates-grip",
-                    "seal-row-barbell-supinated-grip",
-                    "seal-row-barbell-pronated-grip",
+                    "machine-row-pronated-grip",
+                    "machine-row-close-neutral-grip",
                     "45-degree-cable-row"
                   ],
                   "swap_notes": [
@@ -15018,14 +15020,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "seal-row-barbell-supinated-grip",
+                      "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.trunk_work"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "seal-row-barbell-pronated-grip",
+                      "id": "machine-row-close-neutral-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.trunk_work"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
                       "id": "45-degree-cable-row",
@@ -22356,20 +22358,15 @@
                   ],
                   "swaps": [
                     "high-row-machine",
-                    "seal-row-barbell-pronated-grip",
                     "machine-row-supinated-grip",
-                    "machine-row-pronated-grip"
+                    "machine-row-pronated-grip",
+                    "45-degree-cable-row"
                   ],
                   "swap_notes": [
                     {
                       "id": "high-row-machine",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.top_load"
-                    },
-                    {
-                      "id": "seal-row-barbell-pronated-grip",
-                      "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.machine_support"
                     },
                     {
                       "id": "machine-row-supinated-grip",
@@ -22380,6 +22377,11 @@
                       "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "45-degree-cable-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
                     }
                   ],
                   "instead_of": null,
@@ -23556,8 +23558,8 @@
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row-supinated-yates-grip",
-                    "seal-row-barbell-supinated-grip",
-                    "seal-row-barbell-pronated-grip",
+                    "machine-row-pronated-grip",
+                    "machine-row-close-neutral-grip",
                     "45-degree-cable-row"
                   ],
                   "swap_notes": [
@@ -23567,14 +23569,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "seal-row-barbell-supinated-grip",
+                      "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.trunk_work"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "seal-row-barbell-pronated-grip",
+                      "id": "machine-row-close-neutral-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.trunk_work"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
                       "id": "45-degree-cable-row",
@@ -30905,20 +30907,15 @@
                   ],
                   "swaps": [
                     "high-row-machine",
-                    "seal-row-barbell-pronated-grip",
                     "machine-row-supinated-grip",
-                    "machine-row-pronated-grip"
+                    "machine-row-pronated-grip",
+                    "45-degree-cable-row"
                   ],
                   "swap_notes": [
                     {
                       "id": "high-row-machine",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.top_load"
-                    },
-                    {
-                      "id": "seal-row-barbell-pronated-grip",
-                      "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.machine_support"
                     },
                     {
                       "id": "machine-row-supinated-grip",
@@ -30929,6 +30926,11 @@
                       "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "45-degree-cable-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
                     }
                   ],
                   "instead_of": null,
@@ -32105,8 +32107,8 @@
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row-supinated-yates-grip",
-                    "seal-row-barbell-supinated-grip",
-                    "seal-row-barbell-pronated-grip",
+                    "machine-row-pronated-grip",
+                    "machine-row-close-neutral-grip",
                     "45-degree-cable-row"
                   ],
                   "swap_notes": [
@@ -32116,14 +32118,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "seal-row-barbell-supinated-grip",
+                      "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.trunk_work"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "seal-row-barbell-pronated-grip",
+                      "id": "machine-row-close-neutral-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.trunk_work"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
                       "id": "45-degree-cable-row",
@@ -36250,6 +36252,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -36968,15 +36974,19 @@
                   "role": "iso",
                   "origin": "template",
                   "group": "biceps",
-                  "exercise_id": "supine-lying-biceps-curl",
-                  "name_key": "exercise.supine-lying-biceps-curl.name",
-                  "detail": null,
+                  "exercise_id": "spider-curl-chest-on-incline-bench",
+                  "name_key": "exercise.spider-curl-chest-on-incline-bench.name",
+                  "detail": {
+                    "axis": "grip",
+                    "key": "detail.v.hammer_grip",
+                    "value": "hammer_grip"
+                  },
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
-                    "copy_name": "Supine (Lying) Biceps Curl"
+                    "url": "https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)",
+                    "copy_name": "Spider Curl (chest on incline bench)"
                   },
                   "sets": 3,
                   "reps": {
@@ -37027,14 +37037,14 @@
                   },
                   "notes": [],
                   "swaps": [
-                    "spider-curl-chest-on-incline-bench",
+                    "supine-lying-biceps-curl",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                     "seated-dumbbell-curl",
                     "cable-curl-zone-1-zone-2-zone-3-set-ups"
                   ],
                   "swap_notes": [
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "supine-lying-biceps-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
                       "loses": "swap.loses.little"
                     },
@@ -37056,13 +37066,9 @@
                   ],
                   "instead_of": null,
                   "flags": [
-                    "block_change"
+                    "detail_variation"
                   ],
                   "why": [
-                    {
-                      "key": "why.block_change",
-                      "ref": "PER-02"
-                    },
                     {
                       "key": "why.default_pick",
                       "ref": "CAT-07"
@@ -37072,8 +37078,19 @@
                       "ref": "EQ-13"
                     },
                     {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
+                    {
                       "key": "why.level_soft",
                       "ref": "CAT-05"
+                    },
+                    {
+                      "key": "why.detail_variation",
+                      "ref": "R2-LIB-01",
+                      "args": {
+                        "axis": "grip"
+                      }
                     },
                     {
                       "key": "why.reps_matrix",
@@ -37927,6 +37944,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -39557,20 +39578,15 @@
                   ],
                   "swaps": [
                     "high-row-machine",
-                    "seal-row-barbell-pronated-grip",
                     "machine-row-supinated-grip",
-                    "machine-row-pronated-grip"
+                    "machine-row-pronated-grip",
+                    "45-degree-cable-row"
                   ],
                   "swap_notes": [
                     {
                       "id": "high-row-machine",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.top_load"
-                    },
-                    {
-                      "id": "seal-row-barbell-pronated-grip",
-                      "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.machine_support"
                     },
                     {
                       "id": "machine-row-supinated-grip",
@@ -39581,6 +39597,11 @@
                       "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "45-degree-cable-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
                     }
                   ],
                   "instead_of": null,
@@ -40018,15 +40039,15 @@
                   "role": "focus",
                   "origin": "bonus",
                   "group": "biceps",
-                  "exercise_id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                  "name_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.name",
+                  "exercise_id": "supine-lying-biceps-curl",
+                  "name_key": "exercise.supine-lying-biceps-curl.name",
                   "detail": null,
                   "text_key": null,
-                  "cue_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.cue",
+                  "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)",
-                    "copy_name": "Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)"
+                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
+                    "copy_name": "Supine (Lying) Biceps Curl"
                   },
                   "sets": 4,
                   "reps": {
@@ -40081,31 +40102,31 @@
                     }
                   ],
                   "swaps": [
+                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
-                    "spider-curl-chest-on-incline-bench",
                     "seated-dumbbell-curl",
-                    "supine-lying-biceps-curl"
+                    "spider-curl-chest-on-incline-bench"
                   ],
                   "swap_notes": [
                     {
-                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
+                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "seated-dumbbell-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "supine-lying-biceps-curl",
+                      "id": "spider-curl-chest-on-incline-bench",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -40127,8 +40148,8 @@
                       "ref": "EQ-13"
                     },
                     {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
+                      "key": "why.continuity",
+                      "ref": "PER-02"
                     },
                     {
                       "key": "why.reps_matrix",
@@ -40670,6 +40691,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -40774,8 +40799,8 @@
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row-supinated-yates-grip",
-                    "seal-row-db-pronated-grip",
-                    "seal-row-db-supinated-grip",
+                    "machine-row-pronated-grip",
+                    "machine-row-close-neutral-grip",
                     "45-degree-cable-row"
                   ],
                   "swap_notes": [
@@ -40785,14 +40810,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "seal-row-db-pronated-grip",
+                      "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "seal-row-db-supinated-grip",
+                      "id": "machine-row-close-neutral-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
                       "id": "45-degree-cable-row",
@@ -42182,6 +42207,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -44996,6 +45025,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -45714,15 +45747,19 @@
                   "role": "iso",
                   "origin": "template",
                   "group": "biceps",
-                  "exercise_id": "supine-lying-biceps-curl",
-                  "name_key": "exercise.supine-lying-biceps-curl.name",
-                  "detail": null,
+                  "exercise_id": "spider-curl-chest-on-incline-bench",
+                  "name_key": "exercise.spider-curl-chest-on-incline-bench.name",
+                  "detail": {
+                    "axis": "grip",
+                    "key": "detail.v.hammer_grip",
+                    "value": "hammer_grip"
+                  },
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
-                    "copy_name": "Supine (Lying) Biceps Curl"
+                    "url": "https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)",
+                    "copy_name": "Spider Curl (chest on incline bench)"
                   },
                   "sets": 3,
                   "reps": {
@@ -45773,14 +45810,14 @@
                   },
                   "notes": [],
                   "swaps": [
-                    "spider-curl-chest-on-incline-bench",
+                    "supine-lying-biceps-curl",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                     "seated-dumbbell-curl",
                     "cable-curl-zone-1-zone-2-zone-3-set-ups"
                   ],
                   "swap_notes": [
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "supine-lying-biceps-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
                       "loses": "swap.loses.little"
                     },
@@ -45802,13 +45839,9 @@
                   ],
                   "instead_of": null,
                   "flags": [
-                    "block_change"
+                    "detail_variation"
                   ],
                   "why": [
-                    {
-                      "key": "why.block_change",
-                      "ref": "PER-02"
-                    },
                     {
                       "key": "why.default_pick",
                       "ref": "CAT-07"
@@ -45818,8 +45851,19 @@
                       "ref": "EQ-13"
                     },
                     {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
+                    {
                       "key": "why.level_soft",
                       "ref": "CAT-05"
+                    },
+                    {
+                      "key": "why.detail_variation",
+                      "ref": "R2-LIB-01",
+                      "args": {
+                        "axis": "grip"
+                      }
                     },
                     {
                       "key": "why.reps_matrix",
@@ -46673,6 +46717,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -48303,20 +48351,15 @@
                   ],
                   "swaps": [
                     "high-row-machine",
-                    "seal-row-barbell-pronated-grip",
                     "machine-row-supinated-grip",
-                    "machine-row-pronated-grip"
+                    "machine-row-pronated-grip",
+                    "45-degree-cable-row"
                   ],
                   "swap_notes": [
                     {
                       "id": "high-row-machine",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.top_load"
-                    },
-                    {
-                      "id": "seal-row-barbell-pronated-grip",
-                      "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.machine_support"
                     },
                     {
                       "id": "machine-row-supinated-grip",
@@ -48327,6 +48370,11 @@
                       "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "45-degree-cable-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
                     }
                   ],
                   "instead_of": null,
@@ -48764,15 +48812,15 @@
                   "role": "focus",
                   "origin": "bonus",
                   "group": "biceps",
-                  "exercise_id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                  "name_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.name",
+                  "exercise_id": "supine-lying-biceps-curl",
+                  "name_key": "exercise.supine-lying-biceps-curl.name",
                   "detail": null,
                   "text_key": null,
-                  "cue_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.cue",
+                  "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)",
-                    "copy_name": "Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)"
+                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
+                    "copy_name": "Supine (Lying) Biceps Curl"
                   },
                   "sets": 4,
                   "reps": {
@@ -48827,31 +48875,31 @@
                     }
                   ],
                   "swaps": [
+                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
-                    "spider-curl-chest-on-incline-bench",
                     "seated-dumbbell-curl",
-                    "supine-lying-biceps-curl"
+                    "spider-curl-chest-on-incline-bench"
                   ],
                   "swap_notes": [
                     {
-                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
+                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "seated-dumbbell-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "supine-lying-biceps-curl",
+                      "id": "spider-curl-chest-on-incline-bench",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -48873,8 +48921,8 @@
                       "ref": "EQ-13"
                     },
                     {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
+                      "key": "why.continuity",
+                      "ref": "PER-02"
                     },
                     {
                       "key": "why.reps_matrix",
@@ -49416,6 +49464,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -49520,8 +49572,8 @@
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row-supinated-yates-grip",
-                    "seal-row-db-pronated-grip",
-                    "seal-row-db-supinated-grip",
+                    "machine-row-pronated-grip",
+                    "machine-row-close-neutral-grip",
                     "45-degree-cable-row"
                   ],
                   "swap_notes": [
@@ -49531,14 +49583,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "seal-row-db-pronated-grip",
+                      "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "seal-row-db-supinated-grip",
+                      "id": "machine-row-close-neutral-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
                       "id": "45-degree-cable-row",
@@ -50928,6 +50980,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -53758,6 +53814,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -54476,15 +54536,19 @@
                   "role": "iso",
                   "origin": "template",
                   "group": "biceps",
-                  "exercise_id": "supine-lying-biceps-curl",
-                  "name_key": "exercise.supine-lying-biceps-curl.name",
-                  "detail": null,
+                  "exercise_id": "spider-curl-chest-on-incline-bench",
+                  "name_key": "exercise.spider-curl-chest-on-incline-bench.name",
+                  "detail": {
+                    "axis": "grip",
+                    "key": "detail.v.hammer_grip",
+                    "value": "hammer_grip"
+                  },
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
-                    "copy_name": "Supine (Lying) Biceps Curl"
+                    "url": "https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)",
+                    "copy_name": "Spider Curl (chest on incline bench)"
                   },
                   "sets": 3,
                   "reps": {
@@ -54535,14 +54599,14 @@
                   },
                   "notes": [],
                   "swaps": [
-                    "spider-curl-chest-on-incline-bench",
+                    "supine-lying-biceps-curl",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                     "seated-dumbbell-curl",
                     "cable-curl-zone-1-zone-2-zone-3-set-ups"
                   ],
                   "swap_notes": [
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "supine-lying-biceps-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
                       "loses": "swap.loses.little"
                     },
@@ -54564,13 +54628,9 @@
                   ],
                   "instead_of": null,
                   "flags": [
-                    "block_change"
+                    "detail_variation"
                   ],
                   "why": [
-                    {
-                      "key": "why.block_change",
-                      "ref": "PER-02"
-                    },
                     {
                       "key": "why.default_pick",
                       "ref": "CAT-07"
@@ -54580,8 +54640,19 @@
                       "ref": "EQ-13"
                     },
                     {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
+                    {
                       "key": "why.level_soft",
                       "ref": "CAT-05"
+                    },
+                    {
+                      "key": "why.detail_variation",
+                      "ref": "R2-LIB-01",
+                      "args": {
+                        "axis": "grip"
+                      }
                     },
                     {
                       "key": "why.reps_matrix",
@@ -55435,6 +55506,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -57065,20 +57140,15 @@
                   ],
                   "swaps": [
                     "high-row-machine",
-                    "seal-row-barbell-pronated-grip",
                     "machine-row-supinated-grip",
-                    "machine-row-pronated-grip"
+                    "machine-row-pronated-grip",
+                    "45-degree-cable-row"
                   ],
                   "swap_notes": [
                     {
                       "id": "high-row-machine",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.top_load"
-                    },
-                    {
-                      "id": "seal-row-barbell-pronated-grip",
-                      "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.machine_support"
                     },
                     {
                       "id": "machine-row-supinated-grip",
@@ -57089,6 +57159,11 @@
                       "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "45-degree-cable-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
                     }
                   ],
                   "instead_of": null,
@@ -57526,15 +57601,15 @@
                   "role": "focus",
                   "origin": "bonus",
                   "group": "biceps",
-                  "exercise_id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                  "name_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.name",
+                  "exercise_id": "supine-lying-biceps-curl",
+                  "name_key": "exercise.supine-lying-biceps-curl.name",
                   "detail": null,
                   "text_key": null,
-                  "cue_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.cue",
+                  "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)",
-                    "copy_name": "Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)"
+                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
+                    "copy_name": "Supine (Lying) Biceps Curl"
                   },
                   "sets": 4,
                   "reps": {
@@ -57589,31 +57664,31 @@
                     }
                   ],
                   "swaps": [
+                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
-                    "spider-curl-chest-on-incline-bench",
                     "seated-dumbbell-curl",
-                    "supine-lying-biceps-curl"
+                    "spider-curl-chest-on-incline-bench"
                   ],
                   "swap_notes": [
                     {
-                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
+                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "seated-dumbbell-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "supine-lying-biceps-curl",
+                      "id": "spider-curl-chest-on-incline-bench",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -57635,8 +57710,8 @@
                       "ref": "EQ-13"
                     },
                     {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
+                      "key": "why.continuity",
+                      "ref": "PER-02"
                     },
                     {
                       "key": "why.reps_matrix",
@@ -58178,6 +58253,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -58282,8 +58361,8 @@
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row-supinated-yates-grip",
-                    "seal-row-db-pronated-grip",
-                    "seal-row-db-supinated-grip",
+                    "machine-row-pronated-grip",
+                    "machine-row-close-neutral-grip",
                     "45-degree-cable-row"
                   ],
                   "swap_notes": [
@@ -58293,14 +58372,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "seal-row-db-pronated-grip",
+                      "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "seal-row-db-supinated-grip",
+                      "id": "machine-row-close-neutral-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
                       "id": "45-degree-cable-row",
@@ -59690,6 +59769,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -62512,6 +62595,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -63230,15 +63317,19 @@
                   "role": "iso",
                   "origin": "template",
                   "group": "biceps",
-                  "exercise_id": "supine-lying-biceps-curl",
-                  "name_key": "exercise.supine-lying-biceps-curl.name",
-                  "detail": null,
+                  "exercise_id": "spider-curl-chest-on-incline-bench",
+                  "name_key": "exercise.spider-curl-chest-on-incline-bench.name",
+                  "detail": {
+                    "axis": "grip",
+                    "key": "detail.v.hammer_grip",
+                    "value": "hammer_grip"
+                  },
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
-                    "copy_name": "Supine (Lying) Biceps Curl"
+                    "url": "https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)",
+                    "copy_name": "Spider Curl (chest on incline bench)"
                   },
                   "sets": 3,
                   "reps": {
@@ -63289,14 +63380,14 @@
                   },
                   "notes": [],
                   "swaps": [
-                    "spider-curl-chest-on-incline-bench",
+                    "supine-lying-biceps-curl",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                     "seated-dumbbell-curl",
                     "cable-curl-zone-1-zone-2-zone-3-set-ups"
                   ],
                   "swap_notes": [
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "supine-lying-biceps-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
                       "loses": "swap.loses.little"
                     },
@@ -63318,13 +63409,9 @@
                   ],
                   "instead_of": null,
                   "flags": [
-                    "block_change"
+                    "detail_variation"
                   ],
                   "why": [
-                    {
-                      "key": "why.block_change",
-                      "ref": "PER-02"
-                    },
                     {
                       "key": "why.default_pick",
                       "ref": "CAT-07"
@@ -63334,8 +63421,19 @@
                       "ref": "EQ-13"
                     },
                     {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
+                    {
                       "key": "why.level_soft",
                       "ref": "CAT-05"
+                    },
+                    {
+                      "key": "why.detail_variation",
+                      "ref": "R2-LIB-01",
+                      "args": {
+                        "axis": "grip"
+                      }
                     },
                     {
                       "key": "why.reps_matrix",
@@ -64189,6 +64287,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -65819,20 +65921,15 @@
                   ],
                   "swaps": [
                     "high-row-machine",
-                    "seal-row-barbell-pronated-grip",
                     "machine-row-supinated-grip",
-                    "machine-row-pronated-grip"
+                    "machine-row-pronated-grip",
+                    "45-degree-cable-row"
                   ],
                   "swap_notes": [
                     {
                       "id": "high-row-machine",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.top_load"
-                    },
-                    {
-                      "id": "seal-row-barbell-pronated-grip",
-                      "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.machine_support"
                     },
                     {
                       "id": "machine-row-supinated-grip",
@@ -65843,6 +65940,11 @@
                       "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "45-degree-cable-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
                     }
                   ],
                   "instead_of": null,
@@ -66280,15 +66382,15 @@
                   "role": "focus",
                   "origin": "bonus",
                   "group": "biceps",
-                  "exercise_id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                  "name_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.name",
+                  "exercise_id": "supine-lying-biceps-curl",
+                  "name_key": "exercise.supine-lying-biceps-curl.name",
                   "detail": null,
                   "text_key": null,
-                  "cue_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.cue",
+                  "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)",
-                    "copy_name": "Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)"
+                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
+                    "copy_name": "Supine (Lying) Biceps Curl"
                   },
                   "sets": 4,
                   "reps": {
@@ -66343,31 +66445,31 @@
                     }
                   ],
                   "swaps": [
+                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
-                    "spider-curl-chest-on-incline-bench",
                     "seated-dumbbell-curl",
-                    "supine-lying-biceps-curl"
+                    "spider-curl-chest-on-incline-bench"
                   ],
                   "swap_notes": [
                     {
-                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
+                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "seated-dumbbell-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "supine-lying-biceps-curl",
+                      "id": "spider-curl-chest-on-incline-bench",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -66389,8 +66491,8 @@
                       "ref": "EQ-13"
                     },
                     {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
+                      "key": "why.continuity",
+                      "ref": "PER-02"
                     },
                     {
                       "key": "why.reps_matrix",
@@ -66932,6 +67034,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -67036,8 +67142,8 @@
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row-supinated-yates-grip",
-                    "seal-row-db-pronated-grip",
-                    "seal-row-db-supinated-grip",
+                    "machine-row-pronated-grip",
+                    "machine-row-close-neutral-grip",
                     "45-degree-cable-row"
                   ],
                   "swap_notes": [
@@ -67047,14 +67153,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "seal-row-db-pronated-grip",
+                      "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "seal-row-db-supinated-grip",
+                      "id": "machine-row-close-neutral-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
                       "id": "45-degree-cable-row",
@@ -68444,6 +68550,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -70911,7 +71021,7 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "supine-lying-biceps-curl",
+            "exercise": "spider-curl-chest-on-incline-bench",
             "day": "Mon",
             "slot_id": "Mon.A1.s09"
           }
@@ -71368,6 +71478,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -71995,15 +72109,19 @@
                   "role": "iso",
                   "origin": "template",
                   "group": "biceps",
-                  "exercise_id": "supine-lying-biceps-curl",
-                  "name_key": "exercise.supine-lying-biceps-curl.name",
-                  "detail": null,
+                  "exercise_id": "spider-curl-chest-on-incline-bench",
+                  "name_key": "exercise.spider-curl-chest-on-incline-bench.name",
+                  "detail": {
+                    "axis": "grip",
+                    "key": "detail.v.hammer_grip",
+                    "value": "hammer_grip"
+                  },
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
-                    "copy_name": "Supine (Lying) Biceps Curl"
+                    "url": "https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)",
+                    "copy_name": "Spider Curl (chest on incline bench)"
                   },
                   "sets": 4,
                   "reps": {
@@ -72054,14 +72172,14 @@
                   },
                   "notes": [],
                   "swaps": [
-                    "spider-curl-chest-on-incline-bench",
+                    "supine-lying-biceps-curl",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                     "seated-dumbbell-curl",
                     "cable-curl-zone-1-zone-2-zone-3-set-ups"
                   ],
                   "swap_notes": [
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "supine-lying-biceps-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
                       "loses": "swap.loses.little"
                     },
@@ -72867,6 +72985,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -74606,20 +74728,15 @@
                   ],
                   "swaps": [
                     "high-row-machine",
-                    "seal-row-barbell-pronated-grip",
                     "machine-row-supinated-grip",
-                    "machine-row-pronated-grip"
+                    "machine-row-pronated-grip",
+                    "45-degree-cable-row"
                   ],
                   "swap_notes": [
                     {
                       "id": "high-row-machine",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.top_load"
-                    },
-                    {
-                      "id": "seal-row-barbell-pronated-grip",
-                      "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.machine_support"
                     },
                     {
                       "id": "machine-row-supinated-grip",
@@ -74630,6 +74747,11 @@
                       "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "45-degree-cable-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
                     }
                   ],
                   "instead_of": null,
@@ -75058,15 +75180,15 @@
                   "role": "focus",
                   "origin": "bonus",
                   "group": "biceps",
-                  "exercise_id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                  "name_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.name",
+                  "exercise_id": "supine-lying-biceps-curl",
+                  "name_key": "exercise.supine-lying-biceps-curl.name",
                   "detail": null,
                   "text_key": null,
-                  "cue_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.cue",
+                  "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)",
-                    "copy_name": "Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)"
+                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
+                    "copy_name": "Supine (Lying) Biceps Curl"
                   },
                   "sets": 4,
                   "reps": {
@@ -75121,31 +75243,31 @@
                     }
                   ],
                   "swaps": [
+                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
-                    "spider-curl-chest-on-incline-bench",
                     "seated-dumbbell-curl",
-                    "supine-lying-biceps-curl"
+                    "spider-curl-chest-on-incline-bench"
                   ],
                   "swap_notes": [
                     {
-                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
+                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "seated-dumbbell-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "supine-lying-biceps-curl",
+                      "id": "spider-curl-chest-on-incline-bench",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -75710,6 +75832,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -75814,8 +75940,8 @@
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row",
-                    "seal-row-db-pronated-grip",
-                    "seal-row-db-supinated-grip",
+                    "machine-row-pronated-grip",
+                    "machine-row-close-neutral-grip",
                     "45-degree-cable-row"
                   ],
                   "swap_notes": [
@@ -75825,14 +75951,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "seal-row-db-pronated-grip",
+                      "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "seal-row-db-supinated-grip",
+                      "id": "machine-row-close-neutral-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
                       "id": "45-degree-cable-row",
@@ -77216,6 +77342,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -80150,6 +80280,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -80777,15 +80911,19 @@
                   "role": "iso",
                   "origin": "template",
                   "group": "biceps",
-                  "exercise_id": "supine-lying-biceps-curl",
-                  "name_key": "exercise.supine-lying-biceps-curl.name",
-                  "detail": null,
+                  "exercise_id": "spider-curl-chest-on-incline-bench",
+                  "name_key": "exercise.spider-curl-chest-on-incline-bench.name",
+                  "detail": {
+                    "axis": "grip",
+                    "key": "detail.v.hammer_grip",
+                    "value": "hammer_grip"
+                  },
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
-                    "copy_name": "Supine (Lying) Biceps Curl"
+                    "url": "https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)",
+                    "copy_name": "Spider Curl (chest on incline bench)"
                   },
                   "sets": 4,
                   "reps": {
@@ -80836,14 +80974,14 @@
                   },
                   "notes": [],
                   "swaps": [
-                    "spider-curl-chest-on-incline-bench",
+                    "supine-lying-biceps-curl",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                     "seated-dumbbell-curl",
                     "cable-curl-zone-1-zone-2-zone-3-set-ups"
                   ],
                   "swap_notes": [
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "supine-lying-biceps-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
                       "loses": "swap.loses.little"
                     },
@@ -81649,6 +81787,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -83388,20 +83530,15 @@
                   ],
                   "swaps": [
                     "high-row-machine",
-                    "seal-row-barbell-pronated-grip",
                     "machine-row-supinated-grip",
-                    "machine-row-pronated-grip"
+                    "machine-row-pronated-grip",
+                    "45-degree-cable-row"
                   ],
                   "swap_notes": [
                     {
                       "id": "high-row-machine",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.top_load"
-                    },
-                    {
-                      "id": "seal-row-barbell-pronated-grip",
-                      "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.machine_support"
                     },
                     {
                       "id": "machine-row-supinated-grip",
@@ -83412,6 +83549,11 @@
                       "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "45-degree-cable-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
                     }
                   ],
                   "instead_of": null,
@@ -83840,15 +83982,15 @@
                   "role": "focus",
                   "origin": "bonus",
                   "group": "biceps",
-                  "exercise_id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                  "name_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.name",
+                  "exercise_id": "supine-lying-biceps-curl",
+                  "name_key": "exercise.supine-lying-biceps-curl.name",
                   "detail": null,
                   "text_key": null,
-                  "cue_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.cue",
+                  "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)",
-                    "copy_name": "Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)"
+                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
+                    "copy_name": "Supine (Lying) Biceps Curl"
                   },
                   "sets": 4,
                   "reps": {
@@ -83903,31 +84045,31 @@
                     }
                   ],
                   "swaps": [
+                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
-                    "spider-curl-chest-on-incline-bench",
                     "seated-dumbbell-curl",
-                    "supine-lying-biceps-curl"
+                    "spider-curl-chest-on-incline-bench"
                   ],
                   "swap_notes": [
                     {
-                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
+                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "seated-dumbbell-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "supine-lying-biceps-curl",
+                      "id": "spider-curl-chest-on-incline-bench",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -84492,6 +84634,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -84596,8 +84742,8 @@
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row",
-                    "seal-row-db-pronated-grip",
-                    "seal-row-db-supinated-grip",
+                    "machine-row-pronated-grip",
+                    "machine-row-close-neutral-grip",
                     "45-degree-cable-row"
                   ],
                   "swap_notes": [
@@ -84607,14 +84753,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "seal-row-db-pronated-grip",
+                      "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "seal-row-db-supinated-grip",
+                      "id": "machine-row-close-neutral-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
                       "id": "45-degree-cable-row",
@@ -85998,6 +86144,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -88940,6 +89090,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -89567,15 +89721,19 @@
                   "role": "iso",
                   "origin": "template",
                   "group": "biceps",
-                  "exercise_id": "supine-lying-biceps-curl",
-                  "name_key": "exercise.supine-lying-biceps-curl.name",
-                  "detail": null,
+                  "exercise_id": "spider-curl-chest-on-incline-bench",
+                  "name_key": "exercise.spider-curl-chest-on-incline-bench.name",
+                  "detail": {
+                    "axis": "grip",
+                    "key": "detail.v.hammer_grip",
+                    "value": "hammer_grip"
+                  },
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
-                    "copy_name": "Supine (Lying) Biceps Curl"
+                    "url": "https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)",
+                    "copy_name": "Spider Curl (chest on incline bench)"
                   },
                   "sets": 4,
                   "reps": {
@@ -89626,14 +89784,14 @@
                   },
                   "notes": [],
                   "swaps": [
-                    "spider-curl-chest-on-incline-bench",
+                    "supine-lying-biceps-curl",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                     "seated-dumbbell-curl",
                     "cable-curl-zone-1-zone-2-zone-3-set-ups"
                   ],
                   "swap_notes": [
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "supine-lying-biceps-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
                       "loses": "swap.loses.little"
                     },
@@ -90439,6 +90597,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -92178,20 +92340,15 @@
                   ],
                   "swaps": [
                     "high-row-machine",
-                    "seal-row-barbell-pronated-grip",
                     "machine-row-supinated-grip",
-                    "machine-row-pronated-grip"
+                    "machine-row-pronated-grip",
+                    "45-degree-cable-row"
                   ],
                   "swap_notes": [
                     {
                       "id": "high-row-machine",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.top_load"
-                    },
-                    {
-                      "id": "seal-row-barbell-pronated-grip",
-                      "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.machine_support"
                     },
                     {
                       "id": "machine-row-supinated-grip",
@@ -92202,6 +92359,11 @@
                       "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "45-degree-cable-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
                     }
                   ],
                   "instead_of": null,
@@ -92630,15 +92792,15 @@
                   "role": "focus",
                   "origin": "bonus",
                   "group": "biceps",
-                  "exercise_id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                  "name_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.name",
+                  "exercise_id": "supine-lying-biceps-curl",
+                  "name_key": "exercise.supine-lying-biceps-curl.name",
                   "detail": null,
                   "text_key": null,
-                  "cue_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.cue",
+                  "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)",
-                    "copy_name": "Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)"
+                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
+                    "copy_name": "Supine (Lying) Biceps Curl"
                   },
                   "sets": 4,
                   "reps": {
@@ -92693,31 +92855,31 @@
                     }
                   ],
                   "swaps": [
+                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
-                    "spider-curl-chest-on-incline-bench",
                     "seated-dumbbell-curl",
-                    "supine-lying-biceps-curl"
+                    "spider-curl-chest-on-incline-bench"
                   ],
                   "swap_notes": [
                     {
-                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
+                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "seated-dumbbell-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "supine-lying-biceps-curl",
+                      "id": "spider-curl-chest-on-incline-bench",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -93282,6 +93444,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -93386,8 +93552,8 @@
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row",
-                    "seal-row-db-pronated-grip",
-                    "seal-row-db-supinated-grip",
+                    "machine-row-pronated-grip",
+                    "machine-row-close-neutral-grip",
                     "45-degree-cable-row"
                   ],
                   "swap_notes": [
@@ -93397,14 +93563,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "seal-row-db-pronated-grip",
+                      "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "seal-row-db-supinated-grip",
+                      "id": "machine-row-close-neutral-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
                       "id": "45-degree-cable-row",
@@ -94788,6 +94954,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -97717,6 +97887,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -98344,15 +98518,19 @@
                   "role": "iso",
                   "origin": "template",
                   "group": "biceps",
-                  "exercise_id": "supine-lying-biceps-curl",
-                  "name_key": "exercise.supine-lying-biceps-curl.name",
-                  "detail": null,
+                  "exercise_id": "spider-curl-chest-on-incline-bench",
+                  "name_key": "exercise.spider-curl-chest-on-incline-bench.name",
+                  "detail": {
+                    "axis": "grip",
+                    "key": "detail.v.hammer_grip",
+                    "value": "hammer_grip"
+                  },
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
-                    "copy_name": "Supine (Lying) Biceps Curl"
+                    "url": "https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)",
+                    "copy_name": "Spider Curl (chest on incline bench)"
                   },
                   "sets": 4,
                   "reps": {
@@ -98403,14 +98581,14 @@
                   },
                   "notes": [],
                   "swaps": [
-                    "spider-curl-chest-on-incline-bench",
+                    "supine-lying-biceps-curl",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                     "seated-dumbbell-curl",
                     "cable-curl-zone-1-zone-2-zone-3-set-ups"
                   ],
                   "swap_notes": [
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "supine-lying-biceps-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
                       "loses": "swap.loses.little"
                     },
@@ -99224,6 +99402,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -100971,20 +101153,15 @@
                   ],
                   "swaps": [
                     "high-row-machine",
-                    "seal-row-barbell-pronated-grip",
                     "machine-row-supinated-grip",
-                    "machine-row-pronated-grip"
+                    "machine-row-pronated-grip",
+                    "45-degree-cable-row"
                   ],
                   "swap_notes": [
                     {
                       "id": "high-row-machine",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.top_load"
-                    },
-                    {
-                      "id": "seal-row-barbell-pronated-grip",
-                      "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.machine_support"
                     },
                     {
                       "id": "machine-row-supinated-grip",
@@ -100995,6 +101172,11 @@
                       "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
                       "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "45-degree-cable-row",
+                      "keeps": "swap.keeps.HPULL",
+                      "loses": "swap.loses.machine_support"
                     }
                   ],
                   "instead_of": null,
@@ -101423,15 +101605,15 @@
                   "role": "focus",
                   "origin": "bonus",
                   "group": "biceps",
-                  "exercise_id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                  "name_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.name",
+                  "exercise_id": "supine-lying-biceps-curl",
+                  "name_key": "exercise.supine-lying-biceps-curl.name",
                   "detail": null,
                   "text_key": null,
-                  "cue_key": "exercise.cable-curl-zone-1-zone-2-zone-3-set-ups.cue",
+                  "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)",
-                    "copy_name": "Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)"
+                    "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
+                    "copy_name": "Supine (Lying) Biceps Curl"
                   },
                   "sets": 4,
                   "reps": {
@@ -101486,31 +101668,31 @@
                     }
                   ],
                   "swaps": [
+                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
                     "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
-                    "spider-curl-chest-on-incline-bench",
                     "seated-dumbbell-curl",
-                    "supine-lying-biceps-curl"
+                    "spider-curl-chest-on-incline-bench"
                   ],
                   "swap_notes": [
                     {
-                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
+                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "spider-curl-chest-on-incline-bench",
+                      "id": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "seated-dumbbell-curl",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "supine-lying-biceps-curl",
+                      "id": "spider-curl-chest-on-incline-bench",
                       "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.cable_tension"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -102066,6 +102248,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -102170,8 +102356,8 @@
                   "notes": [],
                   "swaps": [
                     "bent-over-barbell-row",
-                    "seal-row-db-pronated-grip",
-                    "seal-row-db-supinated-grip",
+                    "machine-row-pronated-grip",
+                    "machine-row-close-neutral-grip",
                     "45-degree-cable-row"
                   ],
                   "swap_notes": [
@@ -102181,14 +102367,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "seal-row-db-pronated-grip",
+                      "id": "machine-row-pronated-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
-                      "id": "seal-row-db-supinated-grip",
+                      "id": "machine-row-close-neutral-grip",
                       "keeps": "swap.keeps.HPULL",
-                      "loses": "swap.loses.barbell_load"
+                      "loses": "swap.loses.free_weight_balance"
                     },
                     {
                       "id": "45-degree-cable-row",
@@ -103580,6 +103766,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
