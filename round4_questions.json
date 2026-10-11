@@ -31,8 +31,8 @@
       {
         "id": "R4-SES-05",
         "core": 0,
-        "q": "Full-body days need 2-4 exercises per muscle. With 5-6 exercises a day that can't happen for every muscle. OK to count by area instead?",
-        "a": "Yes: on full-body days each AREA trained that day (legs, push, pull) gets 2-4 exercises, not each single muscle. On split days (push/pull/legs, upper/lower) each muscle gets 2-4."
+        "q": "On a full-body day, how many exercises does each body part get? You gave us two rules that don't fit together there: (1) a normal session has about 5-6 exercises, and (2) every muscle gets 2-4 exercises a day, never just 1. Six muscles x 2 exercises would be 12 exercises. Which one wins?",
+        "a": "Count by AREA on full-body days: legs, push (chest, shoulders, triceps) and pull (back, biceps). Each area gets 2 exercises. Example day: squat + lunge, bench press + shoulder press, row + pulldown = 6 exercises. So chest alone may get 1 exercise that day, but 'push' gets 2. On split days (push day, pull day, leg day) every muscle still gets 2-4. The other option: full-body days are longer (10-12 exercises) so every single muscle gets 2."
       }
     ]
   },
