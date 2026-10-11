@@ -365,7 +365,9 @@ describe('v0.4 fix round 2 / F3: selection, dosing and the printed plan (coach-e
   });
   test('R04-class-copy: the class model prints the CrossFit sheet\'s own Basic Instruction, "1 Rep" (never "1 Reps"), no weight tip on an inverted row, "the class lift keeps its sets and gets heavier" for a group held below 10, and a Saturday titled with its cardio (04 minors; E-200)', () => {
     const s = md('04');
-    for (const k of R.render.instruction_keys_by_family.hybrid_crossfit) assert.ok(s.includes(model.t('en', k)), k);
+    // (v0.6 words, converted - DECISIONS G-170: a class member who does not compete reads the class-member WOD line)
+    const cmi = R.render.v6.class_member_instruction.replace;
+    for (const k of R.render.instruction_keys_by_family.hybrid_crossfit) assert.ok(s.includes(model.t('en', cmi[k] || k)), k);
     assert.ok(!s.includes(model.t('en', 'instruction.1')));
     assert.ok(!/\b1 Reps\b/.test(s) && /\b1 Rep\b/.test(s));
     for (const n of ALL) assert.ok(!/\b1 Reps\b/.test(md(n, 'en')), n);
@@ -473,7 +475,8 @@ describe('v0.4 fix round 2 / F3: selection, dosing and the printed plan (coach-e
     assert.ok(!/Focus muscles:\*\*.*Rear delts/.test(s));
     const p = plan('06'), st = stairWeeks(p);
     const g1 = st[0].weekly_sets_by_muscle.glutes, gN = st[st.length - 1].weekly_sets_by_muscle.glutes;
-    assert.ok(new RegExp(`\\| ↳ Glutes \\(Focus\\) \\| ${g1} \\|.*\\| ${gN} \\|`).test(s));
+    // (v0.6 words, converted - DECISIONS G-174: the table prints whole sets)
+    assert.ok(new RegExp(`\\| ↳ Glutes \\(Focus\\) \\| ${Math.round(g1)} \\|.*\\| ${Math.round(gN)} \\|`).test(s));
     assert.ok(/\| ↳ Side delts \(Focus\) \|/.test(s));
     const s7 = md('07');
     assert.ok(/\*\*Focus muscles:\*\* Chest, Back \(\+2/.test(s7) && /\| Chest \(Focus\) \|/.test(s7) && /\| Back \(Focus\) \|/.test(s7));

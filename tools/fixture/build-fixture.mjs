@@ -28,6 +28,7 @@ import { amendExerciseV2, addedExercisesV2, attachVideoSearchV2, amendBucketsV2,
 import { amendRulesV4, amendTemplatesV4, amendExerciseV4 } from './v05-integrate.mjs';
 import { amendRulesX1, amendTemplatesX1, amendExerciseX1, amendSportX1, UI_X1 } from './v05-fix1.mjs';
 import { amendRulesX2, amendTemplatesX2, amendExerciseX2, amendSportX2, UI_X2 } from './v05-fix2.mjs';
+import { amendRulesW6, UI_W6 } from './v06-words.mjs';
 
 const spec = readJSON(path.join(BASE, 'generator_spec_v1.json'));
 const cat = readJSON(path.join(SYN, '02_exercise_catalog.json'));
@@ -178,11 +179,12 @@ for (const k of Object.keys(en)) if (isRemovedV3(k)) { delete en[k]; delete es[k
 for (const [k, s] of Object.entries(ES_REVIEW_V3)) if (k in en) es[k] = s; // the V3 Spanish review (R2-GEN-08; v05-words.mjs)
 for (const [k, [e, s]] of Object.entries(UI_X1)) { en[k] = e; if (s !== undefined && s !== null) es[k] = s; } // engine 0.5.0 / fix round 1 words win over every earlier layer (v05-fix1.mjs)
 for (const [k, [e, s]] of Object.entries(UI_X2)) { en[k] = e; if (s !== undefined && s !== null) es[k] = s; } // engine 0.5.0 / fix round 2 words win over fix round 1 (v05-fix2.mjs)
+for (const [k, [e, s]] of Object.entries(UI_W6)) { en[k] = e; if (s !== undefined && s !== null) es[k] = s; } // engine 0.6 words win over fix round 2 (v06-words.mjs)
 attachVideoSearchV2(exercises, en); // R4-LIB-05: a YouTube search link built from the final English name (v05-library.mjs)
 const sortObj = (o) => Object.fromEntries(Object.entries(o).sort(([a], [b]) => (a === '_meta' ? -1 : b === '_meta' ? 1 : a < b ? -1 : a > b ? 1 : 0)));
 const esMissing = Object.keys(en).filter(k => k !== '_meta' && !(k in es)).sort();
 
-const rules = amendRulesX2(amendRulesX1(amendRulesV4(amendRulesV3(amendRulesV2(amendRulesV05(amendRulesR2F3(amendRulesR2F2(amendRulesR2F1(amendRulesF3(amendRulesF2(amendRulesF1(amendRulesB4(amendRulesB3(amendRulesB2(amendRulesR3(amendRules(buildRules(eqm)))))))))))))))))); /* (+ v0.5 fix round 2, v05-fix2.mjs) (+ v0.5 fix round 1, v05-fix1.mjs) (+ V3, v05-words.mjs) */ // (+ V2, v05-library.mjs) (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ fix round 2 / F1, fix-r2-f1.mjs) // (+ fix round 1 / F1, F2, F3) v1.2 review amendments, the round-3 answers, stage B2 (athletic), stage B3 (selection / render), then stage B4 (integration)
+const rules = amendRulesW6(amendRulesX2(amendRulesX1(amendRulesV4(amendRulesV3(amendRulesV2(amendRulesV05(amendRulesR2F3(amendRulesR2F2(amendRulesR2F1(amendRulesF3(amendRulesF2(amendRulesF1(amendRulesB4(amendRulesB3(amendRulesB2(amendRulesR3(amendRules(buildRules(eqm))))))))))))))))))); /* (+ v0.6 words, v06-words.mjs) (+ v0.5 fix round 2, v05-fix2.mjs) (+ v0.5 fix round 1, v05-fix1.mjs) (+ V3, v05-words.mjs) */ // (+ V2, v05-library.mjs) (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ fix round 2 / F1, fix-r2-f1.mjs) // (+ fix round 1 / F1, F2, F3) v1.2 review amendments, the round-3 answers, stage B2 (athletic), stage B3 (selection / render), then stage B4 (integration)
 const templateCount = Object.values(families).reduce((n, f) => n + Object.keys(f.days).length, 0);
 const model = {
   _fixture: {

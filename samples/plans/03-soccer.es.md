@@ -8,15 +8,15 @@ _Tu plan Blaze Camp_
 - **Nivel:** Intermedio (L2): 2 años de entrenamiento constante
 - **Tipo de plan:** 8 semanas · Semana 1-8
 - **Fecha de inicio:** 12 oct 2026
-- **Días de entrenamiento por semana:** 3 · lunes, miércoles, viernes · unos 12 ejercicios por sesión (más el calentamiento y los 2 ejercicios de core)
+- **Días de entrenamiento por semana:** 3 · lunes, miércoles, viernes · unos 9-11 ejercicios por sesión (más el calentamiento y los 2 ejercicios de core)
 - Términos y liberación de responsabilidad aceptados antes de crear este plan: cliente, en español
 - Revisión de salud: respondida; nada indicó consultar primero a un médico. [PAR-Q+ oficial (en inglés)](https://eparmedx.com/)
 
 ## Antes de empezar
 
 - Tu temporada está cerca: las últimas 2 semanas de este plan son de pretemporada (más velocidad y potencia, menos series).
-- La semana 6 sube más de lo habitual (16 % más series para Cadera (glúteos + isquiotibiales)): ajusta si hace falta.
-- Se entrenan con el trabajo de tu deporte y los ejercicios compuestos (sin series extra): Bíceps, Tríceps.
+- La semana 6 sube más de lo habitual (16 % más series para cadera (glúteos + isquiotibiales)): ajusta si hace falta.
+- Se entrenan con el trabajo de tu deporte y los ejercicios compuestos (sin series extra): bíceps y tríceps.
 - Los ejercicios a dos piernas son cerca del 45 % de tus series de tren inferior (la guía de tu deporte es cerca del 20 %): los días A y B del entrenador mantienen una sentadilla y una bisagra a dos piernas. Si quieres más trabajo a una pierna, usa el cambio a una pierna de uno de ellos.
 
 ## Instrucciones básicas
@@ -112,17 +112,17 @@ Días de prueba (anótalos en tu calendario; el plan no envía recordatorios): s
 
 ## Series semanales por grupo muscular
 
-_Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan. "-" = sin ejercicio propio en este plan (entre paréntesis: las series que igual recibe de los otros ejercicios)._
+_Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan. "-" = sin ejercicio propio en este plan (entre paréntesis: las series que igual recibe de los otros ejercicios). Los números están redondeados a series enteras._
 
 |  | Semana 1 | Semana 3 | Semana 6 |
 |---|---|---|---|
 | Cuádriceps | 11 | 13 | 16 |
-| Cadera (glúteos + isquiotibiales) | 11.25 | 13.75 | 16.25 |
+| Cadera (glúteos + isquiotibiales) | 11 | 14 | 16 |
 | Espalda | 10 | 11 | 14 |
 | Pecho | 10 | 11 | 14 |
-| Hombros | 10 | 10.25 | 12.5 |
-| Bíceps | - (2.5) | - (2.75) | - (3.5) |
-| Tríceps | - (2.5) | - (2.75) | - (3.5) |
+| Hombros | 10 | 10 | 13 |
+| Bíceps | - (3) | - (3) | - (4) |
+| Tríceps | - (3) | - (3) | - (4) |
 | Pantorrillas | 9 | 9 | 11 |
 | **Total** | **55** | **61** | **75** |
 
@@ -137,23 +137,23 @@ _Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera =
 | Viernes | S3 - olímpicos + fuerza | aprox. 90-110 min | Cuádriceps 2, Cadera (glúteos + isquiotibiales) 1, Espalda 2, Pecho 1, Pantorrillas 1 |
 | Sábado | Día opcional | aprox. 40-45 min | – |
 
-## Bloque · Bloque de entrenamiento · Semana 1-6
+## Bloque de entrenamiento, semana a semana · Semana 1-6
 
 **Nivel:** 2.0 · 3.3 · 4.6 · 6.7 · 8.9 · 11.0
 
 ### Series semanales por grupo muscular, semana a semana · Semana 1-6
 
-_Contado con los ejercicios de este plan, un número por semana (un punto separa los bloques de ejercicios). "Series finales" es donde está planeado que termine la escalera._
+_Contado con los ejercicios de este plan, un número por semana (un punto separa los bloques de ejercicios). "Series finales" es donde está planeado que termine la escalera. Los números están redondeados a series enteras._
 
 | Grupo muscular | Series por semana (semanas 1-6) | Series finales |
 |---|---|---|
 | Cuádriceps | 11 12 13 14 15 16 | 16 |
-| Cadera (glúteos + isquiotibiales) | 11.25 12.5 13.75 14 14 16.25 | 16 |
+| Cadera (glúteos + isquiotibiales) | 11 13 14 14 14 16 | 16 |
 | Espalda | 10 11 11 12 13 14 | 14 |
 | Pecho | 10 10 11 12 13 14 | 14 |
-| Hombros | 10 10 10.25 11.5 12 12.5 | 12 |
-| Bíceps | 2.5 2.75 2.75 3 3.25 3.5 | sin ejercicio propio |
-| Tríceps | 2.5 2.5 2.75 3 3.25 3.5 | sin ejercicio propio |
+| Hombros | 10 10 10 12 12 13 | 12 |
+| Bíceps | 3 3 3 3 3 4 | sin ejercicio propio |
+| Tríceps | 3 3 3 3 3 4 | sin ejercicio propio |
 | Pantorrillas | 9 9 9 10 10 11 | 11 |
 | **Total** | 55 58 61 66 69 75 | 75 |
 
@@ -182,7 +182,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Giro ruso con peso (Weighted Russian Twist) | 2 2 2 2 2 2 | 10 a 15 por lado |
 | Abdominal en V (V-Up) | 2 2 2 2 2 2 | 10 a 15 reps |
-| Salto largo a una pierna (Single-Leg Broad Jump) | – 3 3 3 3 – | 5 contactos |
+| Salto largo a una pierna (Single-Leg Broad Jump) | – 3 3 3 3 – | 5 contactos por pierna |
 | Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) | 2 2 2 2 2 2 | 9 contactos |
 | Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) | 2 2 2 2 2 2 | 5 por lado |
 | Desplazamientos laterales (Lateral Shuffles) | 3 3 3 3 3 3 | 8 cortes |
@@ -219,11 +219,11 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Abdominal completo (Sit-Up) | 2 2 2 2 2 2 | 10 a 15 reps |
 
-## Bloque · Bloque de pretemporada · Semana 7-8
+## Bloque de pretemporada, semana a semana · Semana 7-8
 
 ### Series semanales por grupo muscular, semana a semana · Semana 7-8
 
-_Contado con los ejercicios de este plan, un número por semana (un punto separa los bloques de ejercicios)._
+_Contado con los ejercicios de este plan, un número por semana (un punto separa los bloques de ejercicios). Los números están redondeados a series enteras._
 
 | Grupo muscular | Series por semana (semanas 7-8) |
 |---|---|
@@ -262,7 +262,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Giro ruso con peso (Weighted Russian Twist) | 2 2 | 10 a 15 por lado |
 | Abdominal en V (V-Up) | 2 2 | 10 a 15 reps |
-| Salto largo a una pierna (Single-Leg Broad Jump) | 3 3 | 5 contactos |
+| Salto largo a una pierna (Single-Leg Broad Jump) | 3 3 | 5 contactos por pierna |
 | Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) | 2 2 | 16 contactos |
 | Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) | 2 2 | 6 por lado |
 | Desplazamientos laterales (Lateral Shuffles) | 3 3 | 12 cortes |
@@ -300,7 +300,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 
 ## Semana 1 — Adaptación (pasos pequeños)
 
-_Nivel de la semana: 2 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 2 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Prueba inicial esta semana (antes de cargar)** (Velocidad / agilidad, Saltos)
 
@@ -497,7 +497,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Aeróbico**
 1. **Naranja (C): largo / suave · carrera** — 30 min · 11 min corriendo / 2 min caminando, repite
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Jueves · Día aeróbico
 _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
@@ -610,16 +609,15 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. **Naranja (C): largo / suave · carrera** — 30 min · 11 min corriendo / 2 min caminando, repite
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ## Semana 2 — Adaptación (pasos pequeños)
 
-_Nivel de la semana: 3.3 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 3.3 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Sentadilla búlgara (Bulgarian Split Squat) (viernes)
-- +1 serie en Peso muerto con barra hexagonal (Trap Bar Deadlift) (viernes)
-- +1 serie en Dominadas (Pull-Up) (lunes)
+- +1 serie en Sentadilla búlgara (Bulgarian Split Squat) (viernes): 2 → 3 series
+- +1 serie en Peso muerto con barra hexagonal (Trap Bar Deadlift) (viernes): 2 → 3 series
+- +1 serie en Dominadas (Pull-Up) (lunes): 2 → 3 series
 
 **Trabajo atlético esta semana:** 81 contactos de salto · 46 contactos de saltos de tobillo · 20 lanzamientos · 87 cambios de dirección · 330 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 50% · Recibir-Crear 2: Aterrizar y salir
 
@@ -742,7 +740,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up) · Nombre para copiar en YouTube: `V-Up`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 3 × 5 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
    - por lado = 1 serie
    - Cambiar por: Salto largo (Broad Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón medio, a la altura de la rodilla (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
@@ -805,7 +803,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Aeróbico**
 1. **Naranja (C): largo / suave · carrera** — 32 min · 11 min corriendo / 2 min caminando, repite
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Jueves · Día aeróbico
 _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
@@ -912,16 +909,15 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. **Naranja (C): largo / suave · carrera** — 32 min · 11 min corriendo / 2 min caminando, repite
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ## Semana 3 — Subiendo el ritmo
 
-_Nivel de la semana: 4.6 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 4.6 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Subida al cajón frontal y lateral (Step-Up) (lunes)
-- +1 serie en Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (miércoles)
-- +1 serie en Press de banca con mancuernas (DB Bench Press) (miércoles)
+- +1 serie en Subida al cajón frontal y lateral (Step-Up) (lunes): 2 → 3 series
+- +1 serie en Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (miércoles): 2 → 3 series
+- +1 serie en Press de banca con mancuernas (DB Bench Press) (miércoles): 3 → 4 series
 
 **Trabajo atlético esta semana:** 90 contactos de salto · 58 contactos de saltos de tobillo · 24 lanzamientos · 96 cambios de dirección · 390 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 55% · Recibir-Crear 2: Aterrizar y salir
 
@@ -1044,7 +1040,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up) · Nombre para copiar en YouTube: `V-Up`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 3 × 5 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
    - por lado = 1 serie
    - Cambiar por: Salto largo (Broad Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón medio, a la altura de la rodilla (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
@@ -1107,7 +1103,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Aeróbico**
 1. **Naranja (C): largo / suave · carrera** — 34 min · 11 min corriendo / 2 min caminando, repite
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Jueves · Día aeróbico
 _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
@@ -1214,18 +1209,17 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. **Naranja (C): largo / suave · carrera** — 34 min · 11 min corriendo / 2 min caminando, repite
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ## Semana 4 — Subiendo el ritmo
 
-_Nivel de la semana: 6.7 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 6.7 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Zancada lateral (Lateral Lunge) (viernes)
-- +1 serie en Jalón al pecho a un brazo (Single-Arm Pulldown) (viernes)
-- +1 serie en Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) (miércoles)
-- +1 serie en Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (miércoles)
-- +1 serie en Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (lunes)
+- +1 serie en Zancada lateral (Lateral Lunge) (viernes): 2 → 3 series
+- +1 serie en Jalón al pecho a un brazo (Single-Arm Pulldown) (viernes): 2 → 3 series
+- +1 serie en Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) (miércoles): 3 → 4 series
+- +1 serie en Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (miércoles): 3 → 4 series
+- +1 serie en Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (lunes): 3 → 4 series
 
 **Trabajo atlético esta semana:** 96 contactos de salto · 70 contactos de saltos de tobillo · 28 lanzamientos · 102 cambios de dirección · 400 m de sprints · 5 series de levantamiento olímpico · Proporción pliométrica 58% · Recibir-Crear 2: Aterrizar y salir
 
@@ -1348,7 +1342,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up) · Nombre para copiar en YouTube: `V-Up`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 3 × 5 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
    - por lado = 1 serie
    - Cambiar por: Salto largo (Broad Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón medio, a la altura de la rodilla (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
@@ -1413,7 +1407,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Aeróbico**
 1. **Naranja (C): largo / suave · carrera** — 36 min · ritmo constante: todavía puedes hablar
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Jueves · Día aeróbico
 _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
@@ -1521,16 +1514,15 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. **Naranja (C): largo / suave · carrera** — 36 min · ritmo constante: todavía puedes hablar
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ## Semana 5 — Semanas más duras
 
-_Nivel de la semana: 8.9 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 8.9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Extensión de piernas en máquina (Leg Extension) (lunes)
-- +1 serie en Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) (lunes)
-- +1 serie en Press de banca con barra (Bench Press) (viernes)
+- +1 serie en Extensión de piernas en máquina (Leg Extension) (lunes): 2 → 3 series
+- +1 serie en Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) (lunes): 3 → 4 series
+- +1 serie en Press de banca con barra (Bench Press) (viernes): 4 → 5 series
 
 **Trabajo atlético esta semana:** 102 contactos de salto · 80 contactos de saltos de tobillo · 32 lanzamientos · 108 cambios de dirección · 440 m de sprints · 6 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 2: Aterrizar y salir
 
@@ -1653,7 +1645,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up) · Nombre para copiar en YouTube: `V-Up`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 3 × 5 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
    - por lado = 1 serie
    - Cambiar por: Salto largo (Broad Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón medio, a la altura de la rodilla (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
@@ -1718,7 +1710,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Aeróbico**
 1. **Naranja (C): largo / suave · carrera** — 38 min · ritmo constante: todavía puedes hablar
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Jueves · Día aeróbico
 _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
@@ -1826,25 +1817,24 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. **Naranja (C): largo / suave · carrera** — 38 min · ritmo constante: todavía puedes hablar
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ## Semana 6 — Semanas más duras
 
-_Nivel de la semana: 11 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 11 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Prueba final esta semana: cada prueba toma el lugar de la estación de sprint, cambio de dirección o salto de ese día** (Velocidad / agilidad, Saltos)
 
-_Esta semana sube más de lo habitual (16 % más series para Cadera (glúteos + isquiotibiales)): ajusta si hace falta._
+_Esta semana sube más de lo habitual (16 % más series para cadera (glúteos + isquiotibiales)): ajusta si hace falta._
 
 _Última semana: un intensificador en cada uno de estos días (lunes y miércoles): una serie MYO en el último ejercicio de músculo pequeño o de máquina del día_
 
 **Qué cambia esta semana**
-- +1 serie en Sentadilla búlgara (Bulgarian Split Squat) (viernes)
-- +1 serie en Curl nórdico (Nordic Curl) (miércoles)
-- +1 serie en Peso muerto con barra hexagonal (Trap Bar Deadlift) (viernes)
-- +1 serie en Remo a un brazo con mancuerna (1-Arm DB Row) (viernes)
-- +1 serie en Press de banca con mancuernas (DB Bench Press) (miércoles)
-- +1 serie en Elevación de pantorrillas en máquina (Calf Raise) (miércoles)
+- +1 serie en Sentadilla búlgara (Bulgarian Split Squat) (viernes): 3 → 4 series
+- +1 serie en Curl nórdico (Nordic Curl) (miércoles): 2 → 3 series
+- +1 serie en Peso muerto con barra hexagonal (Trap Bar Deadlift) (viernes): 3 → 4 series
+- +1 serie en Remo a un brazo con mancuerna (1-Arm DB Row) (viernes): 3 → 4 series
+- +1 serie en Press de banca con mancuernas (DB Bench Press) (miércoles): 4 → 5 series
+- +1 serie en Elevación de pantorrillas en máquina (Calf Raise) (miércoles): 3 → 4 series
 
 **Trabajo atlético esta semana:** 48 contactos de salto · 38 contactos de saltos de tobillo · 20 lanzamientos · 60 cambios de dirección · 240 m de sprints · 5 series de levantamiento olímpico · Proporción pliométrica 58% · Recibir-Crear 2: Aterrizar y salir
 
@@ -2030,7 +2020,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Aeróbico**
 1. **Naranja (C): largo / suave · carrera** — 40 min · ritmo constante: todavía puedes hablar
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Jueves · Día aeróbico
 _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
@@ -2138,7 +2127,6 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. **Naranja (C): largo / suave · carrera** — 40 min · ritmo constante: todavía puedes hablar
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ## Semana 7 — Pretemporada: más velocidad y potencia
 
@@ -2261,7 +2249,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up) · Nombre para copiar en YouTube: `V-Up`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 3 × 5 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: haz la serie en tandas de 2-3 saltos grandes seguidos (para 7 saltos: 3 + 2 + 2), reiniciando los brazos entre tandas; esfuerzo total en cada salto
    - por lado = 1 serie
    - Cambiar por: Salto largo (Broad Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón medio, a la altura de la rodilla (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
@@ -2420,7 +2408,6 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. **Naranja (C): largo / suave · carrera** — 30-40 min · ritmo constante: todavía puedes hablar
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ## Semana 8 — Pretemporada: más velocidad y potencia
 
@@ -2543,7 +2530,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up) · Nombre para copiar en YouTube: `V-Up`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 3 × 5 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: haz la serie en tandas de 2-3 saltos grandes seguidos (para 7 saltos: 3 + 2 + 2), reiniciando los brazos entre tandas; esfuerzo total en cada salto
    - por lado = 1 serie
    - Cambiar por: Salto largo (Broad Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón medio, a la altura de la rodilla (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
@@ -2702,7 +2689,6 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. **Naranja (C): largo / suave · carrera** — 30-40 min · ritmo constante: todavía puedes hablar
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ---
 

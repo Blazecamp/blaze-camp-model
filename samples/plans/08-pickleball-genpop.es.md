@@ -8,16 +8,16 @@ _Tu plan Blaze Camp_
 - **Nivel:** Principiante (L1): 0.5 años de entrenamiento constante
 - **Tipo de plan:** 12 semanas (recomendado) · Semana 1-12
 - **Fecha de inicio:** 12 oct 2026
-- **Días de entrenamiento por semana:** 2 · lunes, jueves · unos 10 ejercicios por sesión (más el calentamiento y los 2 ejercicios de core)
+- **Días de entrenamiento por semana:** 2 · lunes, jueves · unos 9 ejercicios por sesión (más el calentamiento y los 2 ejercicios de core)
 - Términos y liberación de responsabilidad aceptados antes de crear este plan: cliente, en inglés
 - Revisión de salud: respondida; nada indicó consultar primero a un médico. [PAR-Q+ oficial (en inglés)](https://eparmedx.com/)
 
 ## Antes de empezar
 
 - Con 2 días de entrenamiento a la semana, cada grupo muscular grande se entrena con unas 6-8 series semanales en lugar de 10 o más. Un tercer día de entrenamiento permitiría que cada grupo llegue a 10.
-- Se entrenan con el trabajo de tu deporte y los ejercicios compuestos (sin series extra): Bíceps, Tríceps.
-- Nos dijiste que tienes dolor en rodilla (peor con flexiones profundas de rodilla). Lo que hace este plan: deja fuera los ejercicios que más cargan esa zona y lo dice en el ejercicio, mantiene Cuádriceps en las mismas series en lugar de sumar más (progresa con repeticiones y carga) y te dice dónde parar en los ejercicios que la doblan. Si el dolor aumenta, detente y consulta a un profesional.
-- Las semanas 11, 12 incluyen Navidad / Año Nuevo: mueve una sesión uno o dos días si lo necesitas; planifica las vacaciones largas entre bloques.
+- Se entrenan con tus ejercicios compuestos (sin series extra propias): bíceps y tríceps.
+- Nos dijiste que tienes dolor en la rodilla (peor con flexiones profundas de rodilla). Lo que hace este plan: deja fuera los ejercicios que más cargan esa zona, mantiene cuádriceps en las mismas series en lugar de sumar más (progresa con repeticiones y carga) y te dice dónde parar en los ejercicios que la doblan. Si el dolor aumenta, detente y consulta a un profesional.
+- Las semanas 11 y 12 incluyen Navidad / Año Nuevo: mueve una sesión uno o dos días si lo necesitas; planifica las vacaciones largas entre bloques.
 - Juegas 3 o más veces por semana: cada semana tiene la mitad de los saltos y ningún ejercicio extra de agilidad.
 
 ## Instrucciones básicas
@@ -33,9 +33,9 @@ _Tu plan Blaze Camp_
 
 _Este plan empieza con 3 en reserva y termina con 1 en la última semana: el "1 en reserva" del coach es donde terminas, así que sigue el número de cada semana._
 
-_En este plan tus sesiones de cardio caen en días de pesas: haz cada una como una sesión aparte ese día, o pásala a cualquier día libre._
+_En este plan tu cardio cae en tu día opcional (viernes): hazlo ahí o en cualquier otro día libre._
 
-Esfuerzo planeado en la escalera: semanas 1-6: deja 3 en reserva; semanas 7-9: deja 2 en reserva; semanas 10-11: deja 1-2 en reserva; semana 12: deja 1 en reserva. Semana 12: un intensificador en cada uno de estos días (jueves): una serie MYO en el último ejercicio de músculo pequeño o de máquina del día.
+Esfuerzo planeado en la escalera: semanas 1-6: deja 3 en reserva; semanas 7-9: deja 2 en reserva; semanas 10-11: deja 1-2 en reserva; semana 12: deja 1 en reserva. Semana 12: un intensificador el jueves: una serie MYO en el último ejercicio de músculo pequeño o de máquina del día.
 
 ¿Cuánto peso? Cada ejercicio te dice cuántas repeticiones dejar en reserva: "deja 2 en reserva" significa que podrías hacer 2 repeticiones más al final de la serie (aproximadamente RPE 8; 3 en reserva = RPE 7, 1 en reserva = RPE 9). Tu plan empieza con 3 en reserva, luego 2, luego 1-2, y en la última semana 1 con algunas series extra duras. Semana 1: empieza un poco más ligero, con un peso que podrías levantar unas 3 veces más.
 
@@ -45,7 +45,7 @@ Las superseries de core son opcionales en cualquier parte: puedes juntar un ejer
 
 ## Cómo progresas
 
-- Las repeticiones y el peso siguen una regla que aplicas tú, no un número que este plan prometa. Cada ejercicio trae un rango de repeticiones. Ejemplo de tu plan: Sentadilla hack en máquina (Hack Squat), 2 series de 12-15. Cuando llegues a 15 en todas las series, con las repeticiones en reserva planeadas y buena técnica, sube el peso la próxima vez y vuelve a empezar en 12. ¿Todavía no llegas? Mantén el peso y agrega una repetición donde puedas.
+- Las repeticiones y el peso siguen una regla que aplicas tú, no un número que este plan prometa. Cada ejercicio trae un rango de repeticiones. Ejemplo de tu plan: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row), 3 series de 10-12. Cuando llegues a 12 en todas las series, con las repeticiones en reserva planeadas y buena técnica, sube el peso la próxima vez y vuelve a empezar en 10. ¿Todavía no llegas? Mantén el peso y agrega una repetición donde puedas.
 - Las series siguen la escalera: el plan agrega series semana a semana hasta que cada grupo muscular llega a sus series finales en la última semana (mira la tabla semana a semana). En una semana con las mismas series que la anterior, progresas con repeticiones o peso.
 - Tu siguiente bloque empieza un poco por encima de donde empezó este (cerca de un 5 % más de series, en series enteras), nunca por encima del número máximo de tu nivel. En el máximo, las series se mantienen y progresas con peso y repeticiones.
 - Este plan es una plantilla que puedes editar: cambia las series de cualquier ejercicio en cualquier día o semana, agrega o quita ejercicios y desactiva bloques.
@@ -108,7 +108,7 @@ Después de este plan: tú eliges: siguiente bloque (se recomienda una semana su
 
 ## Series semanales por grupo muscular
 
-_Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan. "-" = sin ejercicio propio en este plan (entre paréntesis: las series que igual recibe de los otros ejercicios)._
+_Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan. "-" = sin ejercicio propio en este plan (entre paréntesis: las series que igual recibe de los otros ejercicios). Los números están redondeados a series enteras._
 
 |  | Semana 1 | Semana 6 | Semana 12 |
 |---|---|---|---|
@@ -116,9 +116,9 @@ _Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera =
 | Cadera (glúteos + isquiotibiales) | 7 | 7 | 8 |
 | Espalda | 6 | 7 | 8 |
 | Pecho | 6 | 7 | 8 |
-| Hombros | 6.25 | 6.75 | 8 |
-| Bíceps | - (1.5) | - (1.75) | - (2) |
-| Tríceps | - (1.5) | - (1.75) | - (2) |
+| Hombros | 6 | 7 | 8 |
+| Bíceps | - (2) | - (2) | - (2) |
+| Tríceps | - (2) | - (2) | - (2) |
 | Pantorrillas | 6 | 6 | 8 |
 | **Total** | **34** | **36** | **42** |
 
@@ -130,13 +130,13 @@ _Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera =
 | Jueves | B - peso muerto + empuje | aprox. 70-85 min | Cadera (glúteos + isquiotibiales) 3, Pecho 1, Hombros 2, Pantorrillas 1 |
 | Viernes | Día opcional | aprox. 40-50 min | Hombros 1 |
 
-## Bloque · Bloque de entrenamiento · Semana 1-12
+## Bloque de entrenamiento, semana a semana · Semana 1-12
 
 **Nivel:** 2.0 · 2.6 · 3.2 · 3.8 · 4.4 · 5.0 · 6.0 · 7.0 · 8.0 · 9.0 · 10.0 · 11.0
 
 ### Series semanales por grupo muscular, semana a semana · Semana 1-12
 
-_Contado con los ejercicios de este plan, un número por semana (un punto separa los bloques de ejercicios). "Series finales" es donde está planeado que termine la escalera._
+_Contado con los ejercicios de este plan, un número por semana (un punto separa los bloques de ejercicios). "Series finales" es donde está planeado que termine la escalera. Los números están redondeados a series enteras._
 
 | Grupo muscular | Series por semana (semanas 1-12) | Series finales |
 |---|---|---|
@@ -144,9 +144,9 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Cadera (glúteos + isquiotibiales) | 7 7 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
 | Espalda | 6 6 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
 | Pecho | 6 6 6 6 · 6 7 7 7 · 7 7 7 8 | 8 |
-| Hombros | 6.25 6.25 6.5 6.5 · 6.5 6.75 6.75 7.75 · 7.75 7.75 7.75 8 | 8 |
-| Bíceps | 1.5 1.5 1.75 1.75 · 1.75 1.75 1.75 1.75 · 1.75 1.75 2 2 | sin ejercicio propio |
-| Tríceps | 1.5 1.5 1.5 1.5 · 1.5 1.75 1.75 1.75 · 1.75 1.75 1.75 2 | sin ejercicio propio |
+| Hombros | 6 6 7 7 · 7 7 7 8 · 8 8 8 8 | 8 |
+| Bíceps | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | sin ejercicio propio |
+| Tríceps | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | sin ejercicio propio |
 | Pantorrillas | 6 6 6 6 · 6 6 6 6 · 6 7 7 8 | 8 |
 | **Total** | 34 34 35 35 · 35 36 36 37 · 37 38 40 42 | 42 |
 
@@ -156,7 +156,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Plancha en antebrazos (Plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
 | Perro de caza (Bird Dog) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
-| Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) → Salto lateral desde subida al cajón (Lateral Step-Up Jump) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contactos → 2 contactos |
+| Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) → Salto lateral desde subida al cajón (Lateral Step-Up Jump) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contactos → 2 contactos por pierna |
 | Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) → Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 por lado → 6 por lado |
 | Tirón de cargada desde colgado medio (Mid-Hang Clean Pull) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 reps |
 | Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) | 3 3 4 4 · 4 4 4 4 · 4 4 4 4 | 10 a 12 reps → 8 a 12 reps |
@@ -192,9 +192,9 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 
 ## Semana 1 — Adaptación (pasos pequeños)
 
-_Nivel de la semana: 2 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 2 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
-**Trabajo atlético esta semana:** 6 contactos de salto · 27 contactos de saltos de tobillo · 40 lanzamientos · 4 series de levantamiento olímpico · Proporción pliométrica 37% · Recibir-Crear 1: Aterrizar
+**Trabajo atlético esta semana:** 6 contactos de salto · 27 contactos de saltos de tobillo · 40 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · A - sentadilla + tirón
 _Tiempo promedio: aprox. 65-80 min (un estimado, solo como información)_
@@ -248,7 +248,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 2. **Sentadilla hack en máquina (Hack Squat)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Semana 1: elige un peso que podrías levantar unas 3 veces más
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
@@ -262,14 +262,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - por lado = 1 serie
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
    - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de piernas en máquina (Leg Extension)** — 2 × 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    - Cuidado articular de rodillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
@@ -391,11 +391,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
-1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · 5 min constante / 30 s suave, repite
+1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · ritmo constante: todavía puedes hablar
    - Sirve cualquier opción de cardio. Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
    - Tus sesiones de Pickleball cuentan como trabajo aeróbico esta semana
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Sábado · Día de juego (Pickleball)
 
@@ -403,12 +402,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 
 ## Semana 2 — Adaptación (pasos pequeños)
 
-_Nivel de la semana: 2.6 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 2.6 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - Mismas series: agrega un poco de peso o repeticiones esta semana
 
-**Trabajo atlético esta semana:** 6 contactos de salto · 30 contactos de saltos de tobillo · 40 lanzamientos · 4 series de levantamiento olímpico · Proporción pliométrica 39% · Recibir-Crear 1: Aterrizar
+**Trabajo atlético esta semana:** 6 contactos de salto · 30 contactos de saltos de tobillo · 40 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · A - sentadilla + tirón
 _Tiempo promedio: aprox. 65-80 min (un estimado, solo como información)_
@@ -460,7 +459,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Sentadilla hack en máquina (Hack Squat)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
@@ -473,14 +472,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - por lado = 1 serie
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
    - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de piernas en máquina (Leg Extension)** — 2 × 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    - Cuidado articular de rodillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
@@ -598,11 +597,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
-1. **Naranja (C): largo / suave · bicicleta (bike)** — 33 min · 5 min constante / 30 s suave, repite
+1. **Naranja (C): largo / suave · bicicleta (bike)** — 33 min · ritmo constante: todavía puedes hablar
    - Sirve cualquier opción de cardio. Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
    - Tus sesiones de Pickleball cuentan como trabajo aeróbico esta semana
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Sábado · Día de juego (Pickleball)
 
@@ -610,12 +608,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 
 ## Semana 3 — Adaptación (pasos pequeños)
 
-_Nivel de la semana: 3.2 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 3.2 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) (lunes)
+- +1 serie en Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) (lunes): 3 → 4 series
 
-**Trabajo atlético esta semana:** 6 contactos de salto · 33 contactos de saltos de tobillo · 40 lanzamientos · 4 series de levantamiento olímpico · Proporción pliométrica 42% · Recibir-Crear 1: Aterrizar
+**Trabajo atlético esta semana:** 6 contactos de salto · 33 contactos de saltos de tobillo · 40 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · A - sentadilla + tirón
 _Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
@@ -667,7 +665,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Sentadilla hack en máquina (Hack Squat)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
@@ -680,14 +678,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - por lado = 1 serie
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
    - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de piernas en máquina (Leg Extension)** — 2 × 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    - Cuidado articular de rodillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
@@ -805,11 +803,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
-1. **Naranja (C): largo / suave · bicicleta (bike)** — 37 min · 5 min constante / 30 s suave, repite
+1. **Naranja (C): largo / suave · bicicleta (bike)** — 37 min · ritmo constante: todavía puedes hablar
    - Sirve cualquier opción de cardio. Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
    - Tus sesiones de Pickleball cuentan como trabajo aeróbico esta semana
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Sábado · Día de juego (Pickleball)
 
@@ -817,12 +814,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 
 ## Semana 4 — Adaptación (pasos pequeños)
 
-_Nivel de la semana: 3.8 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 3.8 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - Mismas series: agrega un poco de peso o repeticiones esta semana
 
-**Trabajo atlético esta semana:** 6 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico · Proporción pliométrica 42% · Recibir-Crear 1: Aterrizar
+**Trabajo atlético esta semana:** 6 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · A - sentadilla + tirón
 _Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
@@ -874,7 +871,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Sentadilla hack en máquina (Hack Squat)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
@@ -887,14 +884,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - por lado = 1 serie
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
    - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de piernas en máquina (Leg Extension)** — 2 × 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    - Cuidado articular de rodillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
@@ -1012,11 +1009,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
-1. **Naranja (C): largo / suave · bicicleta (bike)** — 40 min · 5 min constante / 30 s suave, repite
+1. **Naranja (C): largo / suave · bicicleta (bike)** — 40 min · ritmo constante: todavía puedes hablar
    - Sirve cualquier opción de cardio. Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
    - Tus sesiones de Pickleball cuentan como trabajo aeróbico esta semana
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Sábado · Día de juego (Pickleball)
 
@@ -1024,14 +1020,16 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 
 ## Semana 5 — Subiendo el ritmo
 
-_Nivel de la semana: 4.4 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 4.4 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - Nuevo bloque de ejercicios: 7 ejercicios cambian un poco (otra versión o un detalle nuevo); el resto se queda
+- Lunes: Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) → Salto lateral desde subida al cajón (Lateral Step-Up Jump); Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass); Extensión de piernas en máquina (Leg Extension) → Extensión de piernas en máquina (Leg Extension) - una pierna a la vez
+- Jueves: Saltos de tobillo en el lugar (Ankle Hops) → Saltos de tobillo laterales con dos pies (Lateral Ankle Hops); Pase de pecho con balón medicinal (Medball Chest Pass) → Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops); Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) → Peso muerto escalonado con mancuernas (Kickstand DB Deadlift); Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) → Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba
 - Los saltos pasan a Recibir-Crear 2: Aterrizar y salir
 - Mismas series: agrega un poco de peso o repeticiones esta semana
 
-**Trabajo atlético esta semana:** 8 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico · Proporción pliométrica 41% · Recibir-Crear 2: Aterrizar y salir
+**Trabajo atlético esta semana:** 8 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · A - sentadilla + tirón
 _Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
@@ -1056,7 +1054,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
    - por lado = 1 serie
@@ -1083,7 +1081,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Sentadilla hack en máquina (Hack Squat)** — 2 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
@@ -1095,14 +1093,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
    - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    - Cuidado articular de rodillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
@@ -1218,11 +1216,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
-1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · 8 min constante / 1 min suave, repite
+1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · ritmo constante: todavía puedes hablar
    - Sirve cualquier opción de cardio. Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
    - Tus sesiones de Pickleball cuentan como trabajo aeróbico esta semana
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Sábado · Día de juego (Pickleball)
 
@@ -1230,12 +1227,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 
 ## Semana 6 — Subiendo el ritmo
 
-_Nivel de la semana: 5 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 5 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Press de banca con mancuernas (DB Bench Press) (jueves)
+- +1 serie en Press de banca con mancuernas (DB Bench Press) (jueves): 3 → 4 series
 
-**Trabajo atlético esta semana:** 8 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico · Proporción pliométrica 41% · Recibir-Crear 2: Aterrizar y salir
+**Trabajo atlético esta semana:** 8 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · A - sentadilla + tirón
 _Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
@@ -1260,7 +1257,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
    - por lado = 1 serie
@@ -1287,7 +1284,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Sentadilla hack en máquina (Hack Squat)** — 2 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
@@ -1299,14 +1296,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
    - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    - Cuidado articular de rodillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
@@ -1422,11 +1419,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
-1. **Naranja (C): largo / suave · bicicleta (bike)** — 33 min · 8 min constante / 1 min suave, repite
+1. **Naranja (C): largo / suave · bicicleta (bike)** — 33 min · ritmo constante: todavía puedes hablar
    - Sirve cualquier opción de cardio. Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
    - Tus sesiones de Pickleball cuentan como trabajo aeróbico esta semana
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Sábado · Día de juego (Pickleball)
 
@@ -1434,12 +1430,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 
 ## Semana 7 — Subiendo el ritmo
 
-_Nivel de la semana: 6 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 6 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - Mismas series: agrega un poco de peso o repeticiones esta semana
 
-**Trabajo atlético esta semana:** 8 contactos de salto · 39 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico · Proporción pliométrica 43% · Recibir-Crear 2: Aterrizar y salir
+**Trabajo atlético esta semana:** 8 contactos de salto · 39 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · A - sentadilla + tirón
 _Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
@@ -1464,7 +1460,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
    - por lado = 1 serie
@@ -1491,7 +1487,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Sentadilla hack en máquina (Hack Squat)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
@@ -1503,14 +1499,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
    - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    - Cuidado articular de rodillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
@@ -1626,11 +1622,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
-1. **Naranja (C): largo / suave · bicicleta (bike)** — 37 min · 8 min constante / 1 min suave, repite
+1. **Naranja (C): largo / suave · bicicleta (bike)** — 37 min · ritmo constante: todavía puedes hablar
    - Sirve cualquier opción de cardio. Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
    - Tus sesiones de Pickleball cuentan como trabajo aeróbico esta semana
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Sábado · Día de juego (Pickleball)
 
@@ -1638,12 +1633,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 
 ## Semana 8 — Subiendo el ritmo
 
-_Nivel de la semana: 7 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 7 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Face pull con kettlebell (KB Face Pull) (jueves)
+- +1 serie en Face pull con kettlebell (KB Face Pull) (jueves): 2 → 3 series
 
-**Trabajo atlético esta semana:** 8 contactos de salto · 42 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico · Proporción pliométrica 43% · Recibir-Crear 2: Aterrizar y salir
+**Trabajo atlético esta semana:** 8 contactos de salto · 42 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · A - sentadilla + tirón
 _Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
@@ -1668,7 +1663,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
    - por lado = 1 serie
@@ -1695,7 +1690,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Sentadilla hack en máquina (Hack Squat)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
@@ -1707,14 +1702,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
    - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    - Cuidado articular de rodillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
@@ -1830,11 +1825,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
-1. **Naranja (C): largo / suave · bicicleta (bike)** — 40 min · 8 min constante / 1 min suave, repite
+1. **Naranja (C): largo / suave · bicicleta (bike)** — 40 min · ritmo constante: todavía puedes hablar
    - Sirve cualquier opción de cardio. Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
    - Tus sesiones de Pickleball cuentan como trabajo aeróbico esta semana
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Sábado · Día de juego (Pickleball)
 
@@ -1842,14 +1836,16 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 
 ## Semana 9 — Semanas más duras
 
-_Nivel de la semana: 8 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 8 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - Nuevo bloque de ejercicios: 6 ejercicios cambian un poco (otra versión o un detalle nuevo); el resto se queda
+- Lunes: Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) → Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss); Jalón al pecho a un brazo (Single-Arm Pulldown) → Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba
+- Jueves: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) → Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops); Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass); Press de banca con mancuernas (DB Bench Press) → Press de banca con mancuernas (DB Bench Press) - pausa de 1 segundo abajo; Press inclinado con mancuernas (Incline DB Press) → Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo
 - Los saltos pasan a Recibir-Crear 3: Repetir
 - Mismas series: agrega un poco de peso o repeticiones esta semana
 
-**Trabajo atlético esta semana:** 8 contactos de salto · 45 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico · Proporción pliométrica 45% · Recibir-Crear 3: Repetir
+**Trabajo atlético esta semana:** 8 contactos de salto · 45 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · A - sentadilla + tirón
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
@@ -1874,7 +1870,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
    - por lado = 1 serie
@@ -1901,7 +1897,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Sentadilla hack en máquina (Hack Squat)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
@@ -1913,14 +1909,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
    - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    - Cuidado articular de rodillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
@@ -2036,11 +2032,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
-1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · 11 min constante / 2 min suave, repite
+1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · ritmo constante: todavía puedes hablar
    - Sirve cualquier opción de cardio. Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
    - Tus sesiones de Pickleball cuentan como trabajo aeróbico esta semana
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Sábado · Día de juego (Pickleball)
 
@@ -2048,12 +2043,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 
 ## Semana 10 — Semanas más duras
 
-_Nivel de la semana: 9 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Elevación de pantorrillas en máquina (Calf Raise) (lunes)
+- +1 serie en Elevación de pantorrillas en máquina (Calf Raise) (lunes): 3 → 4 series
 
-**Trabajo atlético esta semana:** 8 contactos de salto · 48 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico · Proporción pliométrica 46% · Recibir-Crear 3: Repetir
+**Trabajo atlético esta semana:** 8 contactos de salto · 48 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · A - sentadilla + tirón
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
@@ -2078,7 +2073,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
    - por lado = 1 serie
@@ -2105,7 +2100,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Sentadilla hack en máquina (Hack Squat)** — 2 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
@@ -2117,14 +2112,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
    - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 1-2 en reserva, sube el peso la próxima vez.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    - Cuidado articular de rodillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
@@ -2240,11 +2235,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
-1. **Naranja (C): largo / suave · bicicleta (bike)** — 33 min · 11 min constante / 2 min suave, repite
+1. **Naranja (C): largo / suave · bicicleta (bike)** — 33 min · ritmo constante: todavía puedes hablar
    - Sirve cualquier opción de cardio. Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
    - Tus sesiones de Pickleball cuentan como trabajo aeróbico esta semana
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Sábado · Día de juego (Pickleball)
 
@@ -2252,13 +2246,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 
 ## Semana 11 — Semanas más duras
 
-_Nivel de la semana: 10 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 10 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Hiperextensión a 45° (Back Extension) (jueves)
-- +1 serie en Jalón al pecho a un brazo (Single-Arm Pulldown) (lunes)
+- +1 serie en Hiperextensión a 45° (Back Extension) (jueves): 2 → 3 series
+- +1 serie en Jalón al pecho a un brazo (Single-Arm Pulldown) (lunes): 3 → 4 series
 
-**Trabajo atlético esta semana:** 8 contactos de salto · 54 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico · Proporción pliométrica 49% · Recibir-Crear 3: Repetir
+**Trabajo atlético esta semana:** 8 contactos de salto · 54 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · A - sentadilla + tirón
 _Tiempo promedio: aprox. 75-95 min (un estimado, solo como información)_
@@ -2283,7 +2277,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
    - por lado = 1 serie
@@ -2310,7 +2304,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Sentadilla hack en máquina (Hack Squat)** — 2 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
@@ -2322,14 +2316,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
    - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 1-2 en reserva, sube el peso la próxima vez.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    - Cuidado articular de rodillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
@@ -2445,11 +2439,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
-1. **Naranja (C): largo / suave · bicicleta (bike)** — 37 min · 11 min constante / 2 min suave, repite
+1. **Naranja (C): largo / suave · bicicleta (bike)** — 37 min · ritmo constante: todavía puedes hablar
    - Sirve cualquier opción de cardio. Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
    - Tus sesiones de Pickleball cuentan como trabajo aeróbico esta semana
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Sábado · Día de juego (Pickleball)
 
@@ -2457,15 +2450,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 
 ## Semana 12 — Semanas más duras
 
-_Nivel de la semana: 11 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 11 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
-_Última semana: un intensificador en cada uno de estos días (jueves): una serie MYO en el último ejercicio de músculo pequeño o de máquina del día_
+_Última semana: un intensificador el jueves: una serie MYO en el último ejercicio de músculo pequeño o de máquina del día_
 
 **Qué cambia esta semana**
-- +1 serie en Press inclinado con mancuernas (Incline DB Press) (jueves)
-- +1 serie en Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (jueves)
+- +1 serie en Press inclinado con mancuernas (Incline DB Press) (jueves): 3 → 4 series
+- +1 serie en Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (jueves): 3 → 4 series
 
-**Trabajo atlético esta semana:** 8 contactos de salto · 57 contactos de saltos de tobillo · 52 lanzamientos · 4 series de levantamiento olímpico · Proporción pliométrica 49% · Recibir-Crear 3: Repetir
+**Trabajo atlético esta semana:** 8 contactos de salto · 57 contactos de saltos de tobillo · 52 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · A - sentadilla + tirón
 _Tiempo promedio: aprox. 75-95 min (un estimado, solo como información)_
@@ -2490,7 +2483,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
    - por lado = 1 serie
@@ -2517,7 +2510,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Sentadilla hack en máquina (Hack Squat)** — 2 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
@@ -2529,14 +2522,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
    - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 15 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 1 en reserva, sube el peso la próxima vez.
-   - Baja solo hasta donde no duela: pon los topes o usa un cajón.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
    - Cuidado articular de rodillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
@@ -2652,11 +2645,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
-1. **Naranja (C): largo / suave · bicicleta (bike)** — 40 min · 11 min constante / 2 min suave, repite
+1. **Naranja (C): largo / suave · bicicleta (bike)** — 40 min · ritmo constante: todavía puedes hablar
    - Sirve cualquier opción de cardio. Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
    - Tus sesiones de Pickleball cuentan como trabajo aeróbico esta semana
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Sábado · Día de juego (Pickleball)
 

@@ -34,6 +34,7 @@ import { amendExerciseV2, addedExercisesV2, attachVideoSearchV2, amendBucketsV2,
 import { amendRulesV4, amendTemplatesV4, amendExerciseV4 } from './fixture/v05-integrate.mjs';
 import { amendRulesX1, amendTemplatesX1, amendExerciseX1, amendSportX1 } from './fixture/v05-fix1.mjs';
 import { amendRulesX2, amendTemplatesX2, amendExerciseX2, amendSportX2 } from './fixture/v05-fix2.mjs';
+import { amendRulesW6 } from './fixture/v06-words.mjs';
 
 // 1.3.0: the v1.2 sources (round-3 docs) + the coach-eye review amendments (tools/fixture/review-v12.mjs) + the round-3 engine
 // amendments (tools/fixture/round3.mjs: lines / groups, time check, Focus muscles, check-ins retired) + the stage-B2 athletic
@@ -138,7 +139,7 @@ export function compileModel(S = loadSources()) {
   };
 
   // ---------------------------------------------------------------- rules + cross-checks against the sources
-  const rules = amendRulesX2(amendRulesX1(amendRulesV4(amendRulesV3(amendRulesV2(amendRulesV05(amendRulesR2F3(amendRulesR2F2(amendRulesR2F1(amendRulesF3(amendRulesF2(amendRulesF1(amendRulesB4(amendRulesB3(amendRulesB2(amendRulesR3(amendRules(buildRules(S.eqm)))))))))))))))))); /* (+ v0.5 fix round 2, v05-fix2.mjs) (+ v0.5 fix round 1, v05-fix1.mjs) (+ V3, v05-words.mjs) */ // (+ V2, v05-library.mjs) (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ fix round 2 / F1, fix-r2-f1.mjs) // (+ fix round 1 / F1, F2, F3) v1.2 review amendments, the round-3 answers, stage B2 (athletic), stage B3 (selection / render), then stage B4 (integration)
+  const rules = amendRulesW6(amendRulesX2(amendRulesX1(amendRulesV4(amendRulesV3(amendRulesV2(amendRulesV05(amendRulesR2F3(amendRulesR2F2(amendRulesR2F1(amendRulesF3(amendRulesF2(amendRulesF1(amendRulesB4(amendRulesB3(amendRulesB2(amendRulesR3(amendRules(buildRules(S.eqm))))))))))))))))))); /* (+ v0.6 words, v06-words.mjs) (+ v0.5 fix round 2, v05-fix2.mjs) (+ v0.5 fix round 1, v05-fix1.mjs) (+ V3, v05-words.mjs) */ // (+ V2, v05-library.mjs) (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ fix round 2 / F1, fix-r2-f1.mjs) // (+ fix round 1 / F1, F2, F3) v1.2 review amendments, the round-3 answers, stage B2 (athletic), stage B3 (selection / render), then stage B4 (integration)
   // a mismatch is a warning, not an error: rules.json must deep-equal the fixture's normative rules (BUILD_PLAN B1.2);
   // a value we believe is wrong goes to engine/CONTRACT_REQUESTS.md for the integrator
   const crosschecks = crossCheckRules(rules, S);
@@ -276,6 +277,8 @@ function renderChangelog(raw, report, changes) {
   L.push('- rules: `placement.optional_focus.close_when_over_top` (an optional-day Focus slot closes when the group\'s exercises at their fewest sets already hold more than its planned final sets)');
   L.push('- rules: `validation.v05.skeleton` gains the laterality table (V30 holds it; V28 reads the share on the stations the dial may move)');
   L.push('- templates: push / pull / legs prints in the sheet\'s order (flies before dips; leg extension and leg curl before the single-leg hinge); every main day type opens with the general warm-up (ORD-08)', '');
+  L.push('### v0.6 layer, "words" (tools/fixture/v06-words.mjs)', '');
+  L.push('Applied after the v0.5 fix-round-2 layer by both builds (engine/DECISIONS.md G-160 ...): `render.v6` (circuit progression from the real weeks, the written-out pyramid, "What changes" by exercise and real set difference, the printed-copy minors of the round-4 coach-eye reviews) and `volume.pain.x6` (the pain-free depth cue by exercise type); new EN / ES lines listed in `i18n/es_review.json > priority_review`.', '');
   L.push('### Sources (sha256)', '');
   for (const [f, h] of Object.entries(raw.manifest.sources_sha256)) L.push(`- \`${f}\` ${h}`);
   L.push('', '### Coach corrections applied in the compile', '');

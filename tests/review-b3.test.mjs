@@ -532,8 +532,9 @@ describe('stage B3: exercise selection, variation and rendering (RECHECK_v0.3 + 
 
   test('R01-holiday-notice: weeks that hold Christmas / New Year are named before week 1 (R2-PER-02, R3-PER-01)', () => {
     const s = unesc(md('07'));
-    assert.ok(s.includes(model.t('en', 'ui.plan.holiday_weeks', { weeks: '11, 12' })));
+    // (v0.6 words, converted - DECISIONS G-177: 'weeks 11 and 12')
+    assert.ok(s.includes(model.t('en', 'ui.plan.holiday_weeks', { weeks: '11 and 12' })));
     const moved = planWith('07', i => { i.schedule.start_date = '2027-03-01'; });
-    assert.ok(!unesc(renderPlan(moved, model, { lang: 'en' })).includes(model.t('en', 'ui.plan.holiday_weeks', { weeks: '11, 12' }).slice(0, 20)));
+    assert.ok(!unesc(renderPlan(moved, model, { lang: 'en' })).includes(model.t('en', 'ui.plan.holiday_weeks', { weeks: '11 and 12' }).slice(0, 20)));
   });
 });

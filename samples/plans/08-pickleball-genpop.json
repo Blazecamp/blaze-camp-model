@@ -2777,7 +2777,7 @@
                       "key": "load.week1_tip"
                     },
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     }
                   ],
                   "swaps": [
@@ -3053,7 +3053,7 @@
                       "key": "note.per_side"
                     },
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_step"
                     }
                   ],
                   "swaps": [
@@ -3194,7 +3194,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     },
                     {
                       "key": "prehab.label.KNEE_DEGENERATIVE_COURT",
@@ -6948,7 +6948,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     }
                   ],
                   "swaps": [
@@ -7218,7 +7218,7 @@
                       "key": "note.per_side"
                     },
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_step"
                     }
                   ],
                   "swaps": [
@@ -7359,7 +7359,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     },
                     {
                       "key": "prehab.label.KNEE_DEGENERATIVE_COURT",
@@ -11092,7 +11092,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     }
                   ],
                   "swaps": [
@@ -11362,7 +11362,7 @@
                       "key": "note.per_side"
                     },
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_step"
                     }
                   ],
                   "swaps": [
@@ -11503,7 +11503,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     },
                     {
                       "key": "prehab.label.KNEE_DEGENERATIVE_COURT",
@@ -15232,7 +15232,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     }
                   ],
                   "swaps": [
@@ -15502,7 +15502,7 @@
                       "key": "note.per_side"
                     },
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_step"
                     }
                   ],
                   "swaps": [
@@ -15643,7 +15643,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     },
                     {
                       "key": "prehab.label.KNEE_DEGENERATIVE_COURT",
@@ -19393,7 +19393,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     }
                   ],
                   "swaps": [
@@ -19664,7 +19664,7 @@
                       "key": "note.per_side"
                     },
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_step"
                     }
                   ],
                   "swaps": [
@@ -19809,7 +19809,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     },
                     {
                       "key": "prehab.label.KNEE_DEGENERATIVE_COURT",
@@ -23598,7 +23598,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     }
                   ],
                   "swaps": [
@@ -23869,7 +23869,7 @@
                       "key": "note.per_side"
                     },
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_step"
                     }
                   ],
                   "swaps": [
@@ -24014,7 +24014,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     },
                     {
                       "key": "prehab.label.KNEE_DEGENERATIVE_COURT",
@@ -27799,7 +27799,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     }
                   ],
                   "swaps": [
@@ -28070,7 +28070,7 @@
                       "key": "note.per_side"
                     },
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_step"
                     }
                   ],
                   "swaps": [
@@ -28215,7 +28215,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     },
                     {
                       "key": "prehab.label.KNEE_DEGENERATIVE_COURT",
@@ -32004,7 +32004,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     }
                   ],
                   "swaps": [
@@ -32275,7 +32275,7 @@
                       "key": "note.per_side"
                     },
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_step"
                     }
                   ],
                   "swaps": [
@@ -32420,7 +32420,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     },
                     {
                       "key": "prehab.label.KNEE_DEGENERATIVE_COURT",
@@ -36226,7 +36226,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     }
                   ],
                   "swaps": [
@@ -36510,7 +36510,7 @@
                       "key": "note.per_side"
                     },
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_step"
                     }
                   ],
                   "swaps": [
@@ -36655,7 +36655,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     },
                     {
                       "key": "prehab.label.KNEE_DEGENERATIVE_COURT",
@@ -40446,7 +40446,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     }
                   ],
                   "swaps": [
@@ -40730,7 +40730,7 @@
                       "key": "note.per_side"
                     },
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_step"
                     }
                   ],
                   "swaps": [
@@ -40875,7 +40875,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     },
                     {
                       "key": "prehab.label.KNEE_DEGENERATIVE_COURT",
@@ -44674,7 +44674,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     }
                   ],
                   "swaps": [
@@ -44958,7 +44958,7 @@
                       "key": "note.per_side"
                     },
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_step"
                     }
                   ],
                   "swaps": [
@@ -45103,7 +45103,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     },
                     {
                       "key": "prehab.label.KNEE_DEGENERATIVE_COURT",
@@ -48906,7 +48906,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     }
                   ],
                   "swaps": [
@@ -49190,7 +49190,7 @@
                       "key": "note.per_side"
                     },
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_step"
                     }
                   ],
                   "swaps": [
@@ -49335,7 +49335,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.pain_free_depth"
+                      "key": "note.pain_free_depth_machine"
                     },
                     {
                       "key": "prehab.label.KNEE_DEGENERATIVE_COURT",

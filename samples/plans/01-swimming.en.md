@@ -8,14 +8,14 @@ _Your Blaze Camp plan_
 - **Level:** Intermediate (L2): 2 years of consistent training
 - **Plan type:** 12 weeks (recommended) · Week 1-12
 - **Start date:** 12 Oct 2026
-- **Training days per week:** 3 · Monday, Wednesday, Friday · about 12 exercises a session (plus the warm-up and the 2 core exercises)
+- **Training days per week:** 3 · Monday, Wednesday, Friday · about 8-11 exercises a session (plus the warm-up and the 2 core exercises)
 - Terms and release of liability accepted before this plan was built: a guardian for a minor, English
 - Health check: answered; nothing in it asked for a doctor first. [Official PAR-Q+ (in English)](https://eparmedx.com/)
 
 ## Before you start
 
 - Trained through your sport work and compound lifts (no extra sets): Biceps, Triceps.
-- Weeks 11, 12 include Christmas / New Year: move a session (or a test day) by a day or two if you need to; plan longer holidays between blocks.
+- Weeks 11 and 12 include Christmas / New Year: move a session (or a test day) by a day or two if you need to; plan longer holidays between blocks.
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.
@@ -40,7 +40,7 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 
 ## How you progress
 
-- Reps and weight follow a rule you apply yourself, not a number this plan promises. Every lift shows a rep range. Example from your plan: Front Squat (barbell), 1 sets of 8-10. When you hit 10 on every set with the planned reps left in the tank and good form, add weight next time and start again at 8. Not there yet? Keep the weight and add a rep where you can.
+- Reps and weight follow a rule you apply yourself, not a number this plan promises. Every lift shows a rep range. Example from your plan: 45-Degree Hyperextension (back/hip extension), 3 sets of 12-15. When you hit 15 on every set with the planned reps left in the tank and good form, add weight next time and start again at 12. Not there yet? Keep the weight and add a rep where you can.
 - Sets follow the stairway: the plan adds sets week by week until each muscle group reaches its final sets in the last week (see the week-by-week table). In a week with the same sets as the week before, you progress with reps or weight.
 - Your next block starts a little above where this one started (about 5 % more sets, in whole sets), never above the top number for your level. At the top, the sets stay and you progress with weight and reps.
 - This plan is a template you can edit: change the sets of any exercise on any day or week, add or remove exercises, and switch blocks off.
@@ -107,17 +107,17 @@ Test days (mark your calendar; the plan sends no reminders): week 1: Monday 12 O
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts)._
+_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts). Numbers are rounded to whole sets._
 
 |  | Week 1 | Week 6 | Week 12 |
 |---|---|---|---|
 | Quads | 12 | 13 | 16 |
-| Hips (glutes + hamstrings) | 11.5 | 13.75 | 16.5 |
+| Hips (glutes + hamstrings) | 12 | 14 | 17 |
 | Back | 15 | 17 | 21 |
 | Chest | 10 | 11 | 14 |
-| Shoulders | 10.75 | 11.25 | 13.5 |
-| Biceps | - (3.75) | - (4.25) | - (5.25) |
-| Triceps | - (2.5) | - (2.75) | - (3.5) |
+| Shoulders | 11 | 11 | 14 |
+| Biceps | - (4) | - (4) | - (5) |
+| Triceps | - (3) | - (3) | - (4) |
 | Calves | 9 | 9 | 11 |
 | **Total** | **61** | **67** | **82** |
 
@@ -130,23 +130,23 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Friday | S3 - Olympic + strength | about 90-110 min | Quads 2, Hips (glutes + hamstrings) 1, Back 2, Chest 1, Calves 1 |
 | Saturday | Optional day | about 20-25 min | Quads 1, Back 1 |
 
-## Block · Training block · Week 1-12
+## Training block, week by week · Week 1-12
 
 **Level:** 2.0 · 2.6 · 3.2 · 3.8 · 4.4 · 5.0 · 6.0 · 7.0 · 8.0 · 9.0 · 10.0 · 11.0
 
 ### Weekly sets per muscle group, week by week · Week 1-12
 
-_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). "Final sets" is where the stairway is planned to end._
+_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). "Final sets" is where the stairway is planned to end. Numbers are rounded to whole sets._
 
 | Muscle group | Sets each week (weeks 1-12) | Final sets |
 |---|---|---|
 | Quads | 12 12 13 13 · 13 13 14 14 · 15 15 16 16 | 16 |
-| Hips (glutes + hamstrings) | 11.5 11.5 12.75 12.75 · 12.75 13.75 14 14 · 14.25 15.25 16.5 16.5 | 16 |
+| Hips (glutes + hamstrings) | 12 12 13 13 · 13 14 14 14 · 14 15 17 17 | 16 |
 | Back | 15 16 16 16 · 17 17 18 19 · 19 20 21 21 | 21 |
 | Chest | 10 10 10 11 · 11 11 12 12 · 12 13 14 14 | 14 |
-| Shoulders | 10.75 11 11 11.25 · 11.25 11.25 11.5 11.75 · 12.75 13.25 13.5 13.5 | 13 |
-| Biceps | 3.75 4 4 4 · 4.25 4.25 4.5 4.75 · 4.75 5 5.25 5.25 | no exercise of its own |
-| Triceps | 2.5 2.5 2.5 2.75 · 2.75 2.75 3 3 · 3 3.25 3.5 3.5 | no exercise of its own |
+| Shoulders | 11 11 11 11 · 11 11 12 12 · 13 13 14 14 | 13 |
+| Biceps | 4 4 4 4 · 4 4 5 5 · 5 5 5 5 | no exercise of its own |
+| Triceps | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | no exercise of its own |
 | Calves | 9 9 9 9 · 9 9 9 9 · 10 10 11 11 | 11 |
 | **Total** | 61 62 64 65 · 66 67 70 71 · 74 77 82 82 | 82 |
 
@@ -156,9 +156,9 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-40 s → 25-45 s → 30-50 s |
 | Bird Dogs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
-| Low Box Jump (Half-Shin Height) → Single-Leg Broad Jump | – 2 2 2 · 2 2 2 2 · 2 2 2 – | 5 contacts → 3 contacts |
+| Low Box Jump (Half-Shin Height) → Single-Leg Broad Jump | – 2 2 2 · 2 2 2 2 · 2 2 2 – | 5 contacts → 3 contacts per leg |
 | Mid Box Jump (Knee Height) → Squat Jump (high, bodyweight or lightly loaded) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 contacts → 6 contacts |
-| Ankle Hops (bilateral, in place) → Bilateral Backward Ankle Hops → Single-Leg Right-Angle Ankle Hops | 2 2 2 2 · 1 2 2 2 · 1 1 1 1 | 6 contacts → 5 contacts |
+| Ankle Hops (bilateral, in place) → Bilateral Backward Ankle Hops → Single-Leg Right-Angle Ankle Hops | 2 2 2 2 · 1 2 2 2 · 1 1 1 1 | 6 contacts → 5 contacts per leg |
 | Hang Power Clean - from the High Hang (hip crease) | 2 2 2 2 · 2 2 2 3 · 3 3 3 2 | 3 to 5 Reps |
 | Front Squat (barbell) | 1 2 3 3 · 3 3 3 3 · 3 3 3 2 | 8-10 Reps → 6 to 8 Reps |
 | Seal Row - DB (Supinated Grip) | 4 4 4 4 · 4 4 4 5 · 5 5 5 5 | 10 to 12 Reps → 8 to 12 Reps → 8-10 Reps |
@@ -194,7 +194,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Dead Bugs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Bird Dogs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Medium Depth Drop → Mid Box Jump (Knee Height) → Low Box Jump (Half-Shin Height) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 contacts → 6 contacts |
-| Bilateral Lateral Ankle Hops → Single-Leg Ankle Hops | – – – – · 2 2 2 2 · 2 2 2 1 | 6 contacts → 4 contacts |
+| Bilateral Lateral Ankle Hops → Single-Leg Ankle Hops | – – – – · 2 2 2 2 · 2 2 2 1 | 6 contacts → 4 contacts per leg |
 | Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L) → Medball Rotational Side-to-Side Floor Slams | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 per side |
 | High-Hang Snatch Pull → Low-Hang Snatch Pull | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 8 Reps → 6 Reps |
 | Hex (Trap) Bar Deadlift | 1 2 3 3 · 3 3 3 3 · 3 3 4 3 | 8-10 Reps → 6 to 8 Reps |
@@ -216,7 +216,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 ## Week 1 — Getting used to it (small steps)
 
-_Week level: 2 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 
 **Baseline test this week (before you load up)** (Strength, Jumps)
 
@@ -553,10 +553,10 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 2 — Getting used to it (small steps)
 
-_Week level: 2.6 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 2.6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Single-Arm DB/KB Row (Friday)
+- +1 set on Single-Arm DB/KB Row (Friday): 3 → 4 sets
 
 **Athletic work this week:** 38 jump contacts · 12 ankle-hop contacts · 36 throws · 6 Olympic-lift sets · Plyo share 14% · Receive-Create 1: Land
 
@@ -862,11 +862,11 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 3 — Getting used to it (small steps)
 
-_Week level: 3.2 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 3.2 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Front Squat (barbell) (Monday)
-- +1 set on Hex (Trap) Bar Deadlift (Friday)
+- +1 set on Front Squat (barbell) (Monday): 2 → 3 sets
+- +1 set on Hex (Trap) Bar Deadlift (Friday): 2 → 3 sets
 
 **Athletic work this week:** 40 jump contacts · 12 ankle-hop contacts · 36 throws · 6 Olympic-lift sets · Plyo share 14% · Receive-Create 1: Land
 
@@ -1172,10 +1172,10 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 4 — Driving it
 
-_Week level: 3.8 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 3.8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Flat DB Bench Press (Wednesday)
+- +1 set on Flat DB Bench Press (Wednesday): 3 → 4 sets
 
 **Athletic work this week:** 42 jump contacts · 12 ankle-hop contacts · 38 throws · 6 Olympic-lift sets · Plyo share 13% · Receive-Create 1: Land
 
@@ -1481,12 +1481,15 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 5 — Driving it
 
-_Week level: 4.4 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 4.4 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - New exercise block: 12 exercises change a little (another version or one new detail); the rest stay
+- Monday: Low Box Jump (Half-Shin Height) → Single-Leg Broad Jump; Mid Box Jump (Knee Height) → Squat Jump (high, bodyweight or lightly loaded); Ankle Hops (bilateral, in place) → Bilateral Backward Ankle Hops; Deficit Reverse Lunge (standing on plate/step) → Rear-Foot-Against-Wall Split Squat
+- Wednesday: Low Depth Drop → Broad Jump; Medball Overhead Throw → Step-Forward Medball Overhead Throw (R & L leg); Seated Leg Curl (machine) → Lying Leg Curl (machine)
+- Friday: Medium Depth Drop → Mid Box Jump (Knee Height); Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L); High-Hang Snatch Pull → Low-Hang Snatch Pull; Single-Arm DB/KB Row → Single-Arm Cable Row; Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top
 - Jumps move to Receive-Create 2: Land & Go
-- +1 set on Pull-up (Monday)
+- +1 set on Pull-up (Monday): 3 → 4 sets
 
 **Athletic work this week:** 42 jump contacts · 18 ankle-hop contacts · 38 throws · 6 Olympic-lift sets · Plyo share 18% · Receive-Create 2: Land & Go
 
@@ -1513,7 +1516,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Broad Jump** — 2 × 3 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
    - per side = 1 set
    - Swap for: Streamline Squat Jump (arms locked overhead) (keeps the jump; loses the one-side-at-a-time work) / Broad Jump (keeps the jump; loses the one-side-at-a-time work) / Mid Box Jump (Knee Height) (keeps the jump; loses the one-side-at-a-time work)
@@ -1785,10 +1788,10 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 6 — Driving it
 
-_Week level: 5 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 5 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Wednesday)
+- +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Wednesday): 2 → 3 sets
 
 **Athletic work this week:** 44 jump contacts · 24 ankle-hop contacts · 40 throws · 6 Olympic-lift sets · Plyo share 22% · Receive-Create 2: Land & Go
 
@@ -1815,7 +1818,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Broad Jump** — 2 × 3 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
    - per side = 1 set
    - Swap for: Streamline Squat Jump (arms locked overhead) (keeps the jump; loses the one-side-at-a-time work) / Broad Jump (keeps the jump; loses the one-side-at-a-time work) / Mid Box Jump (Knee Height) (keeps the jump; loses the one-side-at-a-time work)
@@ -2087,12 +2090,12 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 7 — Driving it
 
-_Week level: 6 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Double-KB Front-Rack Squat (Friday)
-- +1 set on Single-Arm Lat Pulldown (Friday)
-- +1 set on Incline DB Bench Press (Wednesday)
+- +1 set on Double-KB Front-Rack Squat (Friday): 2 → 3 sets
+- +1 set on Single-Arm Lat Pulldown (Friday): 3 → 4 sets
+- +1 set on Incline DB Bench Press (Wednesday): 3 → 4 sets
 
 **Athletic work this week:** 44 jump contacts · 24 ankle-hop contacts · 40 throws · 6 Olympic-lift sets · Plyo share 22% · Receive-Create 2: Land & Go
 
@@ -2119,7 +2122,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Broad Jump** — 2 × 3 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
    - per side = 1 set
    - Swap for: Streamline Squat Jump (arms locked overhead) (keeps the jump; loses the one-side-at-a-time work) / Broad Jump (keeps the jump; loses the one-side-at-a-time work) / Mid Box Jump (Knee Height) (keeps the jump; loses the one-side-at-a-time work)
@@ -2391,10 +2394,10 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 8 — Driving it
 
-_Week level: 7 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 7 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Seal Row - DB (Supinated Grip) (Monday)
+- +1 set on Seal Row - DB (Supinated Grip) (Monday): 4 → 5 sets
 
 **Athletic work this week:** 46 jump contacts · 24 ankle-hop contacts · 40 throws · 7 Olympic-lift sets · Plyo share 22% · Receive-Create 2: Land & Go
 
@@ -2421,7 +2424,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Broad Jump** — 2 × 3 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
    - per side = 1 set
    - Swap for: Streamline Squat Jump (arms locked overhead) (keeps the jump; loses the one-side-at-a-time work) / Broad Jump (keeps the jump; loses the one-side-at-a-time work) / Mid Box Jump (Knee Height) (keeps the jump; loses the one-side-at-a-time work)
@@ -2693,14 +2696,17 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 9 — Hardest weeks
 
-_Week level: 8 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - New exercise block: 9 exercises change a little (another version or one new detail); the rest stay
+- Monday: Bilateral Backward Ankle Hops → Single-Leg Right-Angle Ankle Hops; Standing DB Calf Raise (deficit optional) → Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top
+- Wednesday: Step-Forward Medball Overhead Throw (R & L leg) → Step-Forward Medball Chest Pass (R & L leg); Alternating Staggered-Stance Single-Leg Deadlift (DB) → Staggered-Stance (Kickstand) DB Deadlift
+- Friday: Mid Box Jump (Knee Height) → Low Box Jump (Half-Shin Height); Bilateral Lateral Ankle Hops → Single-Leg Ankle Hops; Rotational Medball Chest Pass (R & L) → Medball Rotational Side-to-Side Floor Slams; Single-Arm Cable Row → Single-Arm Cable Row - 1-second squeeze at the top; Double-KB Front-Rack Squat → Double-KB Front-Rack Squat - 1-second pause at the bottom
 - Jumps move to Receive-Create 3: Repeat
-- +1 set on Rear-Foot-Against-Wall Split Squat (Monday)
-- +1 set on Bent-Over DB Reverse Fly (Wednesday)
-- +1 set on Standing DB Calf Raise (deficit optional) (Monday)
+- +1 set on Rear-Foot-Against-Wall Split Squat (Monday): 2 → 3 sets
+- +1 set on Bent-Over DB Reverse Fly (Wednesday): 3 → 4 sets
+- +1 set on Standing DB Calf Raise (deficit optional) (Monday): 3 → 4 sets
 
 **Athletic work this week:** 48 jump contacts · 26 ankle-hop contacts · 44 throws · 7 Olympic-lift sets · Plyo share 22% · Receive-Create 3: Repeat
 
@@ -2727,7 +2733,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Broad Jump** — 2 × 3 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: do the set in runs of 2-3 big jumps in a row (for 7 jumps: 3 + 2 + 2), resetting your arms between runs; full effort on every jump
    - per side = 1 set
    - Swap for: Streamline Squat Jump (arms locked overhead) (keeps the jump; loses the one-side-at-a-time work) / Broad Jump (keeps the jump; loses the one-side-at-a-time work) / Mid Box Jump (Knee Height) (keeps the jump; loses the one-side-at-a-time work)
@@ -2736,7 +2742,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Repeat: do the set in runs of 2-3 big jumps in a row (for 7 jumps: 3 + 2 + 2), resetting your arms between runs; full effort on every jump
    - Swap for: Streamline Squat Jump (arms locked overhead) (keeps the jump; loses the easier set-up - this one is harder) / Broad Jump (keeps the jump; loses the easier set-up - this one is harder) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / DB Staggered-Stance Switch Jump (keeps the jump; loses the heavier two-sided load)
    - [Watch how](https://www.youtube.com/results?search_query=Squat%20Jump%20(high%2C%20bodyweight%20or%20lightly%20loaded)) · Name to copy into YouTube: `Squat Jump (high, bodyweight or lightly loaded)`
-3. **Single-Leg Right-Angle Ankle Hops** — 1 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Single-Leg Right-Angle Ankle Hops** — 1 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - per side = 1 set
    - Swap for: Single-Leg Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the one-side-at-a-time work)
@@ -2910,7 +2916,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - One big effort each rep: land soft, reset, go again
    - Swap for: Streamline Squat Jump (arms locked overhead) (keeps the jump; loses the easier set-up - this one is harder) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Broad Jump (keeps the jump; loses the heavier two-sided load) / Broad Jump (keeps the jump; loses the easier set-up - this one is harder)
    - [Watch how](https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)) · Name to copy into YouTube: `Low Box Jump (Half-Shin Height)`
-2. **Single-Leg Ankle Hops** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Single-Leg Ankle Hops** — 2 × 4 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - per side = 1 set
    - Swap for: Single-Leg Right-Angle Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the one-side-at-a-time work)
@@ -3006,12 +3012,12 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 10 — Hardest weeks
 
-_Week level: 9 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Lying Leg Curl (machine) (Wednesday)
-- +1 set on Single-Arm Cable Row (Friday)
-- +1 set on Machine Bench Press (Friday)
+- +1 set on Lying Leg Curl (machine) (Wednesday): 2 → 3 sets
+- +1 set on Single-Arm Cable Row (Friday): 4 → 5 sets
+- +1 set on Machine Bench Press (Friday): 4 → 5 sets
 
 **Athletic work this week:** 48 jump contacts · 26 ankle-hop contacts · 44 throws · 7 Olympic-lift sets · Plyo share 22% · Receive-Create 3: Repeat
 
@@ -3038,7 +3044,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Broad Jump** — 2 × 3 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: do the set in runs of 2-3 big jumps in a row (for 7 jumps: 3 + 2 + 2), resetting your arms between runs; full effort on every jump
    - per side = 1 set
    - Swap for: Streamline Squat Jump (arms locked overhead) (keeps the jump; loses the one-side-at-a-time work) / Broad Jump (keeps the jump; loses the one-side-at-a-time work) / Mid Box Jump (Knee Height) (keeps the jump; loses the one-side-at-a-time work)
@@ -3047,7 +3053,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Repeat: do the set in runs of 2-3 big jumps in a row (for 7 jumps: 3 + 2 + 2), resetting your arms between runs; full effort on every jump
    - Swap for: Streamline Squat Jump (arms locked overhead) (keeps the jump; loses the easier set-up - this one is harder) / Broad Jump (keeps the jump; loses the easier set-up - this one is harder) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / DB Staggered-Stance Switch Jump (keeps the jump; loses the heavier two-sided load)
    - [Watch how](https://www.youtube.com/results?search_query=Squat%20Jump%20(high%2C%20bodyweight%20or%20lightly%20loaded)) · Name to copy into YouTube: `Squat Jump (high, bodyweight or lightly loaded)`
-3. **Single-Leg Right-Angle Ankle Hops** — 1 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Single-Leg Right-Angle Ankle Hops** — 1 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - per side = 1 set
    - Swap for: Single-Leg Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the one-side-at-a-time work)
@@ -3221,7 +3227,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - One big effort each rep: land soft, reset, go again
    - Swap for: Streamline Squat Jump (arms locked overhead) (keeps the jump; loses the easier set-up - this one is harder) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Broad Jump (keeps the jump; loses the heavier two-sided load) / Broad Jump (keeps the jump; loses the easier set-up - this one is harder)
    - [Watch how](https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)) · Name to copy into YouTube: `Low Box Jump (Half-Shin Height)`
-2. **Single-Leg Ankle Hops** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Single-Leg Ankle Hops** — 2 × 4 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - per side = 1 set
    - Swap for: Single-Leg Right-Angle Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the one-side-at-a-time work)
@@ -3317,14 +3323,14 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 11 — Hardest weeks
 
-_Week level: 10 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 10 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (Friday)
-- +1 set on Hex (Trap) Bar Deadlift (Friday)
-- +1 set on Pull-up (Monday)
-- +1 set on Flat DB Bench Press (Wednesday)
-- +1 set on Machine Calf Raise (Wednesday)
+- +1 set on Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (Friday): 2 → 3 sets
+- +1 set on Hex (Trap) Bar Deadlift (Friday): 3 → 4 sets
+- +1 set on Pull-up (Monday): 4 → 5 sets
+- +1 set on Flat DB Bench Press (Wednesday): 4 → 5 sets
+- +1 set on Machine Calf Raise (Wednesday): 3 → 4 sets
 
 **Athletic work this week:** 50 jump contacts · 26 ankle-hop contacts · 44 throws · 8 Olympic-lift sets · Plyo share 22% · Receive-Create 3: Repeat
 
@@ -3351,7 +3357,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Broad Jump** — 2 × 3 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: do the set in runs of 2-3 big jumps in a row (for 7 jumps: 3 + 2 + 2), resetting your arms between runs; full effort on every jump
    - per side = 1 set
    - Swap for: Streamline Squat Jump (arms locked overhead) (keeps the jump; loses the one-side-at-a-time work) / Broad Jump (keeps the jump; loses the one-side-at-a-time work) / Mid Box Jump (Knee Height) (keeps the jump; loses the one-side-at-a-time work)
@@ -3360,7 +3366,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Repeat: do the set in runs of 2-3 big jumps in a row (for 7 jumps: 3 + 2 + 2), resetting your arms between runs; full effort on every jump
    - Swap for: Streamline Squat Jump (arms locked overhead) (keeps the jump; loses the easier set-up - this one is harder) / Broad Jump (keeps the jump; loses the easier set-up - this one is harder) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / DB Staggered-Stance Switch Jump (keeps the jump; loses the heavier two-sided load)
    - [Watch how](https://www.youtube.com/results?search_query=Squat%20Jump%20(high%2C%20bodyweight%20or%20lightly%20loaded)) · Name to copy into YouTube: `Squat Jump (high, bodyweight or lightly loaded)`
-3. **Single-Leg Right-Angle Ankle Hops** — 1 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Single-Leg Right-Angle Ankle Hops** — 1 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - per side = 1 set
    - Swap for: Single-Leg Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the one-side-at-a-time work)
@@ -3534,7 +3540,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - One big effort each rep: land soft, reset, go again
    - Swap for: Streamline Squat Jump (arms locked overhead) (keeps the jump; loses the easier set-up - this one is harder) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Broad Jump (keeps the jump; loses the heavier two-sided load) / Broad Jump (keeps the jump; loses the easier set-up - this one is harder)
    - [Watch how](https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)) · Name to copy into YouTube: `Low Box Jump (Half-Shin Height)`
-2. **Single-Leg Ankle Hops** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Single-Leg Ankle Hops** — 2 × 4 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - per side = 1 set
    - Swap for: Single-Leg Right-Angle Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the one-side-at-a-time work)
@@ -3630,14 +3636,14 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 12 — Hardest weeks
 
-_Week level: 11 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 11 of 11 (2 = the start, 11 = your hardest week)_
 
 **End test this week: on the tested lifts, work up to one top set - it replaces that lift's top set - then do its back-off sets** (Strength, Jumps)
 
 _Last week: one intensifier on each of these days (Monday and Wednesday): a MYO set on the day's last small-muscle or machine exercise_
 
 **What changes this week**
-- Same sets: add a little load or reps this week
+- Same sets: on a tested lift the test takes the place of the top set; on the other lifts add a little load or reps
 
 **Athletic work this week:** 30 jump contacts · 16 ankle-hop contacts · 30 throws · 6 Olympic-lift sets · Plyo share 21% · Receive-Create 3: Repeat
 
@@ -3671,7 +3677,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Repeat: do the set in runs of 2-3 big jumps in a row (for 7 jumps: 3 + 2 + 2), resetting your arms between runs; full effort on every jump
    - Swap for: Streamline Squat Jump (arms locked overhead) (keeps the jump; loses the easier set-up - this one is harder) / Broad Jump (keeps the jump; loses the easier set-up - this one is harder) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / DB Staggered-Stance Switch Jump (keeps the jump; loses the heavier two-sided load)
    - [Watch how](https://www.youtube.com/results?search_query=Squat%20Jump%20(high%2C%20bodyweight%20or%20lightly%20loaded)) · Name to copy into YouTube: `Squat Jump (high, bodyweight or lightly loaded)`
-2. **Single-Leg Right-Angle Ankle Hops** — 1 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Single-Leg Right-Angle Ankle Hops** — 1 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - per side = 1 set
    - Swap for: Single-Leg Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the one-side-at-a-time work)
@@ -3853,7 +3859,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - One big effort each rep: land soft, reset, go again
    - Swap for: Streamline Squat Jump (arms locked overhead) (keeps the jump; loses the easier set-up - this one is harder) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Broad Jump (keeps the jump; loses the heavier two-sided load) / Broad Jump (keeps the jump; loses the easier set-up - this one is harder)
    - [Watch how](https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)) · Name to copy into YouTube: `Low Box Jump (Half-Shin Height)`
-2. **Single-Leg Ankle Hops** — 1 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Single-Leg Ankle Hops** — 1 × 3 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - per side = 1 set
    - Swap for: Single-Leg Right-Angle Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the one-side-at-a-time work)

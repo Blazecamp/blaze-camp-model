@@ -246,3 +246,8 @@ Format, one entry per ask:
 - why: `note.prehab {code}` / `why.prehab {code}` carry injury codes (`SHOULDER_SWIMMER`, `AGE_50_RACKET`) that render verbatim.
 - fallback implemented meanwhile: codes passed as args. Ask: `prehab.code.<CODE>` keys (EN + ES) for render to resolve.
 - status: accepted -> `prehab.code.<CODE>` keys (EN + ES) and explain.resolveArgs maps `{code}`; the i18n test now fails on any raw code.
+
+## Engine 0.6 words · §3.3 · `rules.render.v6`, `rules.volume.pain.x6`
+- why: the round-4 coach-eye reviews asked for printed words built from the plan's own data (circuit rounds and time, real set changes, the exercise count, the pain cue by exercise type) and for a few wording switches by client type.
+- implemented: `tools/fixture/v06-words.mjs` adds `rules.render.v6` (flags and keys read by `render.mjs` / `explain.mjs` / `dose.mjs`) and `rules.volume.pain.x6.depth_by_pattern` (read by `dose.mjs`). Additive keys only; no plan/2 field changes (the pyramid item carries `note.pyramid_backoff` and no longer `note.rep_cap`).
+- status: accepted -> DECISIONS G-160 ... G-179.

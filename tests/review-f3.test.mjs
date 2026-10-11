@@ -305,7 +305,8 @@ describe('v0.4 fix round 1 / F3: selection, dosing and the printed plan (coach-e
     // 'template caps chest' answer, R3-VOL-03 - so it has an intensifier day too)
     const myoDays = last.days.filter(d => d.blocks.some(b => b.items.some(it => it.effort && it.effort.last_set === 'myo'))).map(d => t('en', 'weekday.' + d.weekday));
     const listed = myoDays.length > 1 ? myoDays.slice(0, -1).join(', ') + ' and ' + myoDays[myoDays.length - 1] : myoDays[0];
-    assert.ok(unesc(md('08', 'en')).includes(t('en', 'effort.intensifier_days', { days: listed })), listed);
+    // (v0.6 words, converted - DECISIONS G-176: one day reads in the singular)
+    assert.ok(unesc(md('08', 'en')).includes(t('en', myoDays.length === 1 ? 'effort.intensifier_days_one' : 'effort.intensifier_days', { days: listed })), listed);
   });
   test('R05-circuit-intensifier: the bootcamp\'s last week carries its promised intensifier - a 10-s hold on one isolation station a day, never a compound; a plan with none never promises "a few extra-hard sets" (R3-VOL-04; E-119)', () => {
     const p = plan('05');

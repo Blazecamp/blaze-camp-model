@@ -431,7 +431,7 @@ export function doseItem(input) {
   {
     const PD = R.volume.pain.x2 && R.volume.pain.x2.depth_note;
     if (PD && exercise && !slot.test && (derived.pain || []).some((p) => p.area === PD.area && (p.worse_with || []).includes(PD.worse_with)) &&
-        (PD.classes || []).includes(exercise.credit_class) && model.has('en', PD.note)) d.notes.push({ key: PD.note });
+        (PD.classes || []).includes(exercise.credit_class) && model.has('en', PD.note)) d.notes.push({ key: depthNoteKey(exercise, PD.note, R, model) });
   }
   if (fill && fill.flags && fill.flags.includes('older_opt_in')) d.notes.push({ key: 'note.older_opt_in' });
   // COACH-R3 R3-ATH-02 (approved, stage B2): from 60, fast machine work - move the weight up fast, lower it with control
@@ -595,6 +595,12 @@ function resistanceDose(input, rc, eb) {
     for (let i = 0; i < sets - 1; i++) setReps.push({ type: 'fixed', value: heavy[Math.min(i, heavy.length - 1)].reps });
     setReps.push({ type: 'fixed', value: light.reps });
     whys.push(why('why.pyramid', 'PRG-07'));
+    // v0.6 words (sample 06 major: '5 x 12/10/8/8/20' under 'Keep this lift at 8-10 reps'; COACH-ANSWER PRG-07 '12 is mid-weight ... the 8
+    // is the heaviest ... You drop back to the 20 for a light-weight, high-rep set'): per-set reps carry no single-range rep note, and
+    // carry the coach's own pyramid note (rules.render.v6.pyramid)
+    const PY6 = R.render && R.render.v6 && R.render.v6.pyramid;
+    if (PY6 && PY6.drop_rep_cap) for (let i = notes.length - 1; i >= 0; i--) if (notes[i].key === 'note.rep_cap') notes.splice(i, 1);
+    if (PY6 && PY6.note_key && model.has('en', PY6.note_key)) notes.push({ key: PY6.note_key });
   }
   // effort (H02, R2-PER-05)
   let effort;
@@ -684,6 +690,23 @@ function resistanceDose(input, rc, eb) {
   if (slot.bucket === 'ISO_CALF' && slot.calf_index === 1) notes.push({ key: 'note.second_calf_sets', args: { n: sets, total: (position.calf_sets_today || sets) } });
   notes.push(...blockNotes(week, slot));
   return mk({ reps, set_reps: setReps, effort, rest, load, notes, why: whys });
+}
+
+/**
+ * v0.6 words (sample 08 major: 'set the stops or use a box' under a step-up and a leg extension; VOL-03, R3-ATH-02): the pain-free
+ * depth cue by exercise type - a machine sets its range, a squat sits to a box, a lunge shortens its range, a step-up uses a low step
+ * (rules.volume.pain.x6.depth_by_pattern, first match wins); the plain cue when nothing matches
+ * @param {object} ex @param {string} fallback @returns {string}
+ */
+function depthNoteKey(ex, fallback, R, model) {
+  const X6 = R.volume.pain.x6;
+  for (const r of (X6 && X6.depth_by_pattern) || []) {
+    const hit = (r.id_re && new RegExp(r.id_re).test(ex.id)) ||
+      (r.machine && !!(ex.equipment.machine || (ex.tags || []).includes('machine'))) ||
+      (r.classes && r.classes.includes(ex.credit_class));
+    if (hit && model.has('en', r.key)) return r.key;
+  }
+  return fallback;
 }
 
 /** can this item carry the last week's intensifier (a MYO set): an isolation / machine exercise, not a free-weight compound, not a

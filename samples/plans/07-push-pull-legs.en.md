@@ -9,13 +9,13 @@ _Your Blaze Camp plan_
 - **Level:** Advanced (L3): 4 years of consistent training, training 6 days a week now
 - **Plan type:** 12 weeks (recommended) · Week 1-12
 - **Start date:** 12 Oct 2026
-- **Training days per week:** 6 · Monday, Tuesday, Wednesday, Thursday, Friday, Saturday · about 7 exercises a session (plus the warm-up and the 2 core exercises)
+- **Training days per week:** 6 · Monday, Tuesday, Wednesday, Thursday, Friday, Saturday · about 7-8 exercises a session (plus the warm-up and the 2 core exercises)
 - Terms and release of liability accepted before this plan was built: client, English
 - Health check: answered; nothing in it asked for a doctor first. [Official PAR-Q+ (in English)](https://eparmedx.com/)
 
 ## Before you start
 
-- Weeks 11, 12 include Christmas / New Year: move a session (or a test day) by a day or two if you need to; plan longer holidays between blocks.
+- Weeks 11 and 12 include Christmas / New Year: move a session (or a test day) by a day or two if you need to; plan longer holidays between blocks.
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.
@@ -40,7 +40,7 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 
 ## How you progress
 
-- Reps and weight follow a rule you apply yourself, not a number this plan promises. Every lift shows a rep range. Example from your plan: Barbell Bench Press, 2 sets of 4-6. When you hit 6 on every set with the planned reps left in the tank and good form, add weight next time and start again at 4. Not there yet? Keep the weight and add a rep where you can.
+- Reps and weight follow a rule you apply yourself, not a number this plan promises. Every lift shows a rep range. Example from your plan: Barbell Bench Press, 3 sets of 4-6. When you hit 6 on every set with the planned reps left in the tank and good form, add weight next time and start again at 4. Not there yet? Keep the weight and add a rep where you can.
 - Sets follow the stairway: the plan adds sets week by week until each muscle group reaches its final sets in the last week (see the week-by-week table). In a week with the same sets as the week before, you progress with reps or weight.
 - Your next block starts a little above where this one started (about 5 % more sets, in whole sets), never above the top number for your level. At the top, the sets stay and you progress with weight and reps.
 - This plan is a template you can edit: change the sets of any exercise on any day or week, add or remove exercises, and switch blocks off.
@@ -89,17 +89,17 @@ Test days (mark your calendar; the plan sends no reminders): week 1: Monday 12 O
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts)._
+_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts). Numbers are rounded to whole sets._
 
 |  | Week 1 | Week 6 | Week 12 |
 |---|---|---|---|
 | Quads | 20 | 22 | 25 |
-| Hips (glutes + hamstrings) | 20.5 | 22 | 25.25 |
+| Hips (glutes + hamstrings) | 21 | 22 | 25 |
 | Back (Focus) | 22 | 24 | 27 |
-| Chest (Focus) | 22 | 24 | 27.5 |
-| Shoulders | 23 | 23.25 | 25.5 |
-| Biceps | 15.5 | 17 | 22.75 |
-| Triceps | 15 | 19.25 | 25 |
+| Chest (Focus) | 22 | 24 | 28 |
+| Shoulders | 23 | 23 | 26 |
+| Biceps | 16 | 17 | 23 |
+| Triceps | 15 | 19 | 25 |
 | Calves | 6 | 7 | 10 |
 | **Total** | **122** | **135** | **161** |
 
@@ -114,23 +114,23 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Friday | Pull | about 95-115 min | Back 3, Shoulders 2, Biceps 2 |
 | Saturday | Legs 2 - hinge-led (leg press) | about 80-100 min | Quads 3, Hips (glutes + hamstrings) 3, Calves 1 |
 
-## Block · Training block · Week 1-12
+## Training block, week by week · Week 1-12
 
 **Level:** 2.0 · 2.6 · 3.2 · 3.8 · 4.4 · 5.0 · 6.0 · 7.0 · 8.0 · 9.0 · 10.0 · 11.0
 
 ### Weekly sets per muscle group, week by week · Week 1-12
 
-_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). "Final sets" is where the stairway is planned to end; "22 of 25" means this template's exercises hold 22 of the 25 planned sets._
+_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). "Final sets" is where the stairway is planned to end; "22 of 25" means this template's exercises hold 22 of the 25 planned sets. Numbers are rounded to whole sets._
 
 | Muscle group | Sets each week (weeks 1-12) | Final sets |
 |---|---|---|
 | Quads | 20 20 21 21 · 21 22 22 23 · 24 24 25 25 | 25 |
-| Hips (glutes + hamstrings) | 20.5 20.5 20.75 21.75 · 21.75 22 22 23 · 23 24 25.25 25.25 | 25 |
+| Hips (glutes + hamstrings) | 21 21 21 22 · 22 22 22 23 · 23 24 25 25 | 25 |
 | Back | 22 23 23 23 · 24 24 24 25 · 25 26 27 27 | 27 |
-| Chest | 22 22 23 23 · 23 24 24.5 25.5 · 26 26.5 27.5 27.5 | 27 |
-| Shoulders | 23 23 23 23 · 23 23.25 23.25 23.75 · 24.75 25 25.5 25.5 | 25 |
-| Biceps | 15.5 16.75 16.75 16.75 · 17 17 18 19.25 · 20.25 21.5 22.75 22.75 | 22 of 25 |
-| Triceps | 15 16 16 17 · 18 19.25 20.75 21 · 22.25 23.75 25 25 | 25 |
+| Chest | 22 22 23 23 · 23 24 25 26 · 26 27 28 28 | 27 |
+| Shoulders | 23 23 23 23 · 23 23 23 24 · 25 25 26 26 | 25 |
+| Biceps | 16 17 17 17 · 17 17 18 19 · 20 22 23 23 | 22 of 25 |
+| Triceps | 15 16 16 17 · 18 19 21 21 · 22 24 25 25 | 25 |
 | Calves | 6 6 6 7 · 7 7 8 8 · 9 9 10 10 | 10 |
 | **Total** | 122 125 127 130 · 132 135 139 144 · 149 154 161 161 | 161 |
 
@@ -221,7 +221,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 ## Week 1 — Getting used to it (small steps)
 
-_Week level: 2 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 
 **Baseline test this week (before you load up)** (Strength)
 
@@ -300,7 +300,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Blue (A): short / high intensity · treadmill** — 15 min · 20 s run / 40 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -364,9 +363,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 30 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -499,9 +497,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 30 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -570,7 +567,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -648,12 +644,12 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 2 — Getting used to it (small steps)
 
-_Week level: 2.6 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 2.6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Lat Pulldown (Supinated / Underhand Grip) (Tuesday)
-- +1 set on Dumbbell Concentration Curl (Tuesday)
-- +1 set on Cable Triceps Pushdown - straight bar, supinated (reverse) grip (Monday)
+- +1 set on Lat Pulldown (Supinated / Underhand Grip) (Tuesday): 3 → 4 sets
+- +1 set on Dumbbell Concentration Curl (Tuesday): 2 → 3 sets
+- +1 set on Cable Triceps Pushdown - straight bar, supinated (reverse) grip (Monday): 2 → 3 sets
 
 ### Monday · Push
 _Average time: about 85-100 min (an estimate, for information only)_
@@ -720,7 +716,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Blue (A): short / high intensity · treadmill** — 17 min · 20 s run / 40 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -781,9 +776,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 33 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -903,9 +897,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 33 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -971,7 +964,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -1040,11 +1032,11 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 3 — Driving it
 
-_Week level: 3.2 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 3.2 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Forward Lunge (Wednesday)
-- +1 set on Machine Fly (Pec Deck) (Thursday)
+- +1 set on Forward Lunge (Wednesday): 3 → 4 sets
+- +1 set on Machine Fly (Pec Deck) (Thursday): 2 → 3 sets
 
 ### Monday · Push
 _Average time: about 85-100 min (an estimate, for information only)_
@@ -1111,7 +1103,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Blue (A): short / high intensity · treadmill** — 18 min · 20 s run / 40 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -1172,9 +1163,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 37 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -1294,9 +1284,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 37 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -1362,7 +1351,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -1431,12 +1419,12 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 4 — Driving it
 
-_Week level: 3.8 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 3.8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Seated Leg Curl (machine) (Saturday)
-- +1 set on Cable Triceps Push-down (Thursday)
-- +1 set on Machine Calf Raise (Wednesday)
+- +1 set on Seated Leg Curl (machine) (Saturday): 2 → 3 sets
+- +1 set on Cable Triceps Push-down (Thursday): 2 → 3 sets
+- +1 set on Machine Calf Raise (Wednesday): 3 → 4 sets
 
 ### Monday · Push
 _Average time: about 85-100 min (an estimate, for information only)_
@@ -1503,7 +1491,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Blue (A): short / high intensity · treadmill** — 20 min · 20 s run / 40 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -1564,9 +1551,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 40 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -1686,9 +1672,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Cable%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Cable Triceps Extension`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 40 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -1754,7 +1739,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -1823,12 +1807,18 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 5 — Driving it
 
-_Week level: 4.4 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 4.4 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - New exercise block: 11 exercises change a little (another version or one new detail); the rest stay
-- +1 set on Lat Pulldown (Rope Attachment) (Friday)
-- +1 set on Overhead Dumbbell Triceps Extension (Monday)
+- Monday: Incline DB Bench Press → Incline DB Bench Press - palms facing each other (neutral grip); Weighted Dip → Weighted Dip - dumbbell held between the feet
+- Tuesday: Lat Pulldown (Supinated / Underhand Grip) → Lat Pulldown (Pronated / Overhand Grip); Seated (Chest-to-Thighs) DB Reverse Fly → Seated (Chest-to-Thighs) DB Reverse Fly - 1-second squeeze at the top
+- Wednesday: Leg Extension (machine) → Leg Extension (machine) - one leg at a time; Lying Leg Curl (machine) → Lying Leg Curl (machine) - one leg at a time
+- Thursday: Machine Fly (Pec Deck) → Machine Fly (Pec Deck) - 1-second squeeze at the top; Overhead Cable Triceps Extension → Overhead Cable Triceps Extension - 1-second squeeze at the top
+- Friday: Single-Arm Lat Pulldown → Lat Pulldown (Rope Attachment)
+- Saturday: Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) → Deficit Reverse Lunge (standing on plate/step); Leg Extension (machine) - one leg at a time → Leg Extension (machine) - 1-second squeeze at the top
+- +1 set on Lat Pulldown (Rope Attachment) (Friday): 3 → 4 sets
+- +1 set on Overhead Dumbbell Triceps Extension (Monday): 2 → 3 sets
 
 ### Monday · Push
 _Average time: about 85-105 min (an estimate, for information only)_
@@ -1895,7 +1885,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Blue (A): short / high intensity · treadmill** — 15 min · 30 s run / 30 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -1958,7 +1947,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2080,7 +2068,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2145,7 +2132,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2213,12 +2199,12 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 6 — Driving it
 
-_Week level: 5 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 5 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Deficit Reverse Lunge (standing on plate/step) (Saturday)
-- +1 set on Barbell Bench Press (Monday)
-- +1 set on Overhead Cable Triceps Extension (Thursday)
+- +1 set on Deficit Reverse Lunge (standing on plate/step) (Saturday): 3 → 4 sets
+- +1 set on Barbell Bench Press (Monday): 3 → 4 sets
+- +1 set on Overhead Cable Triceps Extension (Thursday): 2 → 3 sets
 
 ### Monday · Push
 _Average time: about 90-110 min (an estimate, for information only)_
@@ -2285,7 +2271,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Blue (A): short / high intensity · treadmill** — 17 min · 30 s run / 30 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2348,7 +2333,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2470,7 +2454,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2535,7 +2518,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2603,13 +2585,13 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 7 — Driving it
 
-_Week level: 6 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (Friday)
-- +1 set on Weighted Dip (Monday)
-- +1 set on Cable Triceps Pushdown - straight bar, supinated (reverse) grip (Monday)
-- +1 set on Standing DB Calf Raise (deficit optional) (Saturday)
+- +1 set on Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (Friday): 2 → 3 sets
+- +1 set on Weighted Dip (Monday): 3 → 4 sets
+- +1 set on Cable Triceps Pushdown - straight bar, supinated (reverse) grip (Monday): 3 → 4 sets
+- +1 set on Standing DB Calf Raise (deficit optional) (Saturday): 3 → 4 sets
 
 ### Monday · Push
 _Average time: about 95-115 min (an estimate, for information only)_
@@ -2676,7 +2658,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Blue (A): short / high intensity · treadmill** — 18 min · 30 s run / 30 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2739,7 +2720,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2861,7 +2841,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2926,7 +2905,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2994,14 +2972,14 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 8 — Driving it
 
-_Week level: 7 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 7 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Leg Extension (machine) (Wednesday)
-- +1 set on Barbell Hip Thrust (Wednesday)
-- +1 set on Bent-Over Barbell Row (Tuesday)
-- +1 set on Flat DB Bench Press (Thursday)
-- +1 set on Incline Dumbbell Curl ('pinky facing up' supinated variation) (Tuesday)
+- +1 set on Leg Extension (machine) (Wednesday): 3 → 4 sets
+- +1 set on Barbell Hip Thrust (Wednesday): 3 → 4 sets
+- +1 set on Bent-Over Barbell Row (Tuesday): 4 → 5 sets
+- +1 set on Flat DB Bench Press (Thursday): 3 → 4 sets
+- +1 set on Incline Dumbbell Curl ('pinky facing up' supinated variation) (Tuesday): 3 → 4 sets
 
 ### Monday · Push
 _Average time: about 95-115 min (an estimate, for information only)_
@@ -3068,7 +3046,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Blue (A): short / high intensity · treadmill** — 20 min · 30 s run / 30 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -3131,7 +3108,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -3253,7 +3229,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -3318,7 +3293,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -3386,15 +3360,21 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 9 — Hardest weeks
 
-_Week level: 8 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - New exercise block: 12 exercises change a little (another version or one new detail); the rest stay
-- +1 set on Leg Extension (machine) (Saturday)
-- +1 set on High-Incline Seated Barbell Press (Monday)
-- +1 set on Seated Dumbbell Curl (Friday)
-- +1 set on Overhead Dumbbell Triceps Extension (Monday)
-- +1 set on Machine Calf Raise (Wednesday)
+- Monday: Flat DB Fly → Cable Fly; Weighted Dip - dumbbell held between the feet → Weighted Dip - 1-second pause at the bottom; Cable Side Raise (leaning) → Incline / Side-Lying Cable Lateral Raise
+- Tuesday: Single-Arm DB/KB Row → Seal Row - DB (Pronated Grip)
+- Wednesday: Barbell Hip Thrust → Barbell Hip Thrust - 1-second squeeze at the top; Staggered-Stance (Kickstand) DB Deadlift → Rear-Foot-on-Wall DB Deadlift (RDL)
+- Thursday: Incline Barbell Bench Press → Incline Barbell Bench Press - 1-second pause at the bottom; Parallel-Bar Dip → Parallel-Bar Dip - 1-second pause at the bottom
+- Friday: Incline / Side-Lying Cable Lateral Raise → Cable Side Raise (leaning); Supine (Lying) Biceps Curl → Seated Dumbbell Curl
+- Saturday: Seated Leg Curl (machine) → Seated Leg Curl (machine) - 1-second squeeze at the top; Standing DB Calf Raise (deficit optional) → Barbell Calf Raise
+- +1 set on Leg Extension (machine) (Saturday): 3 → 4 sets
+- +1 set on High-Incline Seated Barbell Press (Monday): 2 → 3 sets
+- +1 set on Seated Dumbbell Curl (Friday): 3 → 4 sets
+- +1 set on Overhead Dumbbell Triceps Extension (Monday): 3 → 4 sets
+- +1 set on Machine Calf Raise (Wednesday): 4 → 5 sets
 
 ### Monday · Push
 _Average time: about 95-120 min (an estimate, for information only)_
@@ -3461,7 +3441,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Blue (A): short / high intensity · treadmill** — 15 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -3524,7 +3503,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -3646,7 +3624,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -3711,7 +3688,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -3779,14 +3755,14 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 10 — Hardest weeks
 
-_Week level: 9 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Barbell Deadlift (conventional) (Saturday)
-- +1 set on Seal Row - Barbell (Pronated Grip) (Friday)
-- +1 set on Dumbbell Concentration Curl (Tuesday)
-- +1 set on Parallel-Bar Dip (Thursday)
-- +1 set on Cable Triceps Push-down (Thursday)
+- +1 set on Barbell Deadlift (conventional) (Saturday): 3 → 4 sets
+- +1 set on Seal Row - Barbell (Pronated Grip) (Friday): 4 → 5 sets
+- +1 set on Dumbbell Concentration Curl (Tuesday): 3 → 4 sets
+- +1 set on Parallel-Bar Dip (Thursday): 3 → 4 sets
+- +1 set on Cable Triceps Push-down (Thursday): 3 → 4 sets
 
 ### Monday · Push
 _Average time: about 95-120 min (an estimate, for information only)_
@@ -3853,7 +3829,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Blue (A): short / high intensity · treadmill** — 17 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -3916,7 +3891,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -4038,7 +4012,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -4103,7 +4076,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -4171,16 +4143,16 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 11 — Hardest weeks
 
-_Week level: 10 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 10 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on High-Bar Back Squat (Wednesday)
-- +1 set on Lying Leg Curl (machine) (Wednesday)
-- +1 set on Seal Row - DB (Pronated Grip) (Tuesday)
-- +1 set on Incline DB Bench Press (Monday)
-- +1 set on Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (Friday)
-- +1 set on Overhead Cable Triceps Extension (Thursday)
-- +1 set on Barbell Calf Raise (Saturday)
+- +1 set on High-Bar Back Squat (Wednesday): 4 → 5 sets
+- +1 set on Lying Leg Curl (machine) (Wednesday): 3 → 4 sets
+- +1 set on Seal Row - DB (Pronated Grip) (Tuesday): 4 → 5 sets
+- +1 set on Incline DB Bench Press (Monday): 3 → 4 sets
+- +1 set on Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (Friday): 3 → 4 sets
+- +1 set on Overhead Cable Triceps Extension (Thursday): 3 → 4 sets
+- +1 set on Barbell Calf Raise (Saturday): 4 → 5 sets
 
 ### Monday · Push
 _Average time: about 100-120 min (an estimate, for information only)_
@@ -4247,7 +4219,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Blue (A): short / high intensity · treadmill** — 18 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -4310,7 +4281,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -4432,7 +4402,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -4497,7 +4466,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -4565,14 +4533,14 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ## Week 12 — Hardest weeks
 
-_Week level: 11 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 11 of 11 (2 = the start, 11 = your hardest week)_
 
 **End test this week: on the tested lifts, work up to one top set - it replaces that lift's top set - then do its back-off sets** (Strength)
 
 _Last week: one intensifier on each of these days (Monday, Tuesday, Wednesday, Thursday, Friday and Saturday): a MYO set on the day's last small-muscle or machine exercise_
 
 **What changes this week**
-- Same sets: add a little load or reps this week
+- Same sets: on a tested lift the test takes the place of the top set; on the other lifts add a little load or reps
 
 ### Monday · Push
 _Average time: about 110-130 min (an estimate, for information only)_
@@ -4643,7 +4611,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Blue (A): short / high intensity · treadmill** — 20 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -4706,7 +4673,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -4833,7 +4799,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -4898,7 +4863,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy

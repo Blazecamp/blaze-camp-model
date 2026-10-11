@@ -8,16 +8,16 @@ _Your Blaze Camp plan_
 - **Level:** Beginner (L1): 0.5 years of consistent training
 - **Plan type:** 12 weeks (recommended) · Week 1-12
 - **Start date:** 12 Oct 2026
-- **Training days per week:** 2 · Monday, Thursday · about 10 exercises a session (plus the warm-up and the 2 core exercises)
+- **Training days per week:** 2 · Monday, Thursday · about 9 exercises a session (plus the warm-up and the 2 core exercises)
 - Terms and release of liability accepted before this plan was built: client, English
 - Health check: answered; nothing in it asked for a doctor first. [Official PAR-Q+ (in English)](https://eparmedx.com/)
 
 ## Before you start
 
 - With 2 training days a week every big muscle group is trained with about 6-8 weekly sets instead of 10 or more. A third training day would let every group reach 10.
-- Trained through your sport work and compound lifts (no extra sets): Biceps, Triceps.
-- You told us about pain in your knee (worse with deep knee bends). What this plan does about it: it leaves out the lifts that load it hardest and says so on the lift, it holds Quads at the same sets instead of adding more (progress with reps and load), and it tells you where to stop on the lifts that bend it. If the pain grows, stop and see a professional.
-- Weeks 11, 12 include Christmas / New Year: move a session by a day or two if you need to; plan longer holidays between blocks.
+- Trained through your compound lifts (no extra sets of their own): Biceps, Triceps.
+- You told us about pain in your knee (worse with deep knee bends). What this plan does about it: it leaves out the lifts that load it hardest, it holds Quads at the same sets instead of adding more (progress with reps and load), and it tells you where to stop on the lifts that bend it. If the pain grows, stop and see a professional.
+- Weeks 11 and 12 include Christmas / New Year: move a session by a day or two if you need to; plan longer holidays between blocks.
 - You play 3 or more times a week: every week has half the jumps and no extra agility drills.
 
 ## Basic Instruction
@@ -33,9 +33,9 @@ _Your Blaze Camp plan_
 
 _This plan starts at 3 in the tank and ends at 1 in the last week: the coach's "1 in the tank" is where you finish, so follow each week's number._
 
-_In this plan your cardio sessions sit on lifting days: do each one as its own session that day, or move it to any free day._
+_In this plan your cardio sits on your optional day (Friday): do it there, or on any other free day._
 
-Planned effort across the stairway: weeks 1-6: leave 3 in the tank; weeks 7-9: leave 2 in the tank; weeks 10-11: leave 1-2 in the tank; week 12: leave 1 in the tank. Week 12: one intensifier on each of these days (Thursday): a MYO set on the day's last small-muscle or machine exercise.
+Planned effort across the stairway: weeks 1-6: leave 3 in the tank; weeks 7-9: leave 2 in the tank; weeks 10-11: leave 1-2 in the tank; week 12: leave 1 in the tank. Week 12: one intensifier on Thursday: a MYO set on the day's last small-muscle or machine exercise.
 
 How heavy? Each exercise tells you how many reps to leave in the tank: "leave 2 in the tank" means you could do 2 more reps at the end of the set (about RPE 8; 3 left = RPE 7, 1 left = RPE 9). Your plan starts with 3 in the tank, then 2, then 1-2, and in the last week 1 with a few extra-hard sets. Week 1: start a little lighter, with a weight you could lift about 3 more times.
 
@@ -45,7 +45,7 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 
 ## How you progress
 
-- Reps and weight follow a rule you apply yourself, not a number this plan promises. Every lift shows a rep range. Example from your plan: Hack Squat (machine), 2 sets of 12-15. When you hit 15 on every set with the planned reps left in the tank and good form, add weight next time and start again at 12. Not there yet? Keep the weight and add a rep where you can.
+- Reps and weight follow a rule you apply yourself, not a number this plan promises. Every lift shows a rep range. Example from your plan: Seal Row - DB (Supinated Grip), 3 sets of 10-12. When you hit 12 on every set with the planned reps left in the tank and good form, add weight next time and start again at 10. Not there yet? Keep the weight and add a rep where you can.
 - Sets follow the stairway: the plan adds sets week by week until each muscle group reaches its final sets in the last week (see the week-by-week table). In a week with the same sets as the week before, you progress with reps or weight.
 - Your next block starts a little above where this one started (about 5 % more sets, in whole sets), never above the top number for your level. At the top, the sets stay and you progress with weight and reps.
 - This plan is a template you can edit: change the sets of any exercise on any day or week, add or remove exercises, and switch blocks off.
@@ -108,7 +108,7 @@ After this plan: you choose: next block (an easy week first is recommended, not 
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts)._
+_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts). Numbers are rounded to whole sets._
 
 |  | Week 1 | Week 6 | Week 12 |
 |---|---|---|---|
@@ -116,9 +116,9 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Hips (glutes + hamstrings) | 7 | 7 | 8 |
 | Back | 6 | 7 | 8 |
 | Chest | 6 | 7 | 8 |
-| Shoulders | 6.25 | 6.75 | 8 |
-| Biceps | - (1.5) | - (1.75) | - (2) |
-| Triceps | - (1.5) | - (1.75) | - (2) |
+| Shoulders | 6 | 7 | 8 |
+| Biceps | - (2) | - (2) | - (2) |
+| Triceps | - (2) | - (2) | - (2) |
 | Calves | 6 | 6 | 8 |
 | **Total** | **34** | **36** | **42** |
 
@@ -130,13 +130,13 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Thursday | B - deadlift + push | about 70-85 min | Hips (glutes + hamstrings) 3, Chest 1, Shoulders 2, Calves 1 |
 | Friday | Optional day | about 40-50 min | Shoulders 1 |
 
-## Block · Training block · Week 1-12
+## Training block, week by week · Week 1-12
 
 **Level:** 2.0 · 2.6 · 3.2 · 3.8 · 4.4 · 5.0 · 6.0 · 7.0 · 8.0 · 9.0 · 10.0 · 11.0
 
 ### Weekly sets per muscle group, week by week · Week 1-12
 
-_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). "Final sets" is where the stairway is planned to end._
+_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). "Final sets" is where the stairway is planned to end. Numbers are rounded to whole sets._
 
 | Muscle group | Sets each week (weeks 1-12) | Final sets |
 |---|---|---|
@@ -144,9 +144,9 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Hips (glutes + hamstrings) | 7 7 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
 | Back | 6 6 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
 | Chest | 6 6 6 6 · 6 7 7 7 · 7 7 7 8 | 8 |
-| Shoulders | 6.25 6.25 6.5 6.5 · 6.5 6.75 6.75 7.75 · 7.75 7.75 7.75 8 | 8 |
-| Biceps | 1.5 1.5 1.75 1.75 · 1.75 1.75 1.75 1.75 · 1.75 1.75 2 2 | no exercise of its own |
-| Triceps | 1.5 1.5 1.5 1.5 · 1.5 1.75 1.75 1.75 · 1.75 1.75 1.75 2 | no exercise of its own |
+| Shoulders | 6 6 7 7 · 7 7 7 8 · 8 8 8 8 | 8 |
+| Biceps | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | no exercise of its own |
+| Triceps | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | no exercise of its own |
 | Calves | 6 6 6 6 · 6 6 6 6 · 6 7 7 8 | 8 |
 | **Total** | 34 34 35 35 · 35 36 36 37 · 37 38 40 42 | 42 |
 
@@ -156,7 +156,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
 | Bird Dogs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
-| Stick the Landing - Bilateral (jump/drop and freeze the landing) → Lateral Box Step-up Jump | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contacts → 2 contacts |
+| Stick the Landing - Bilateral (jump/drop and freeze the landing) → Lateral Box Step-up Jump | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contacts → 2 contacts per leg |
 | Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L) → Rotational Medball Scoop Toss (R & L) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 per side → 6 per side |
 | Mid-Hang Clean Pull | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 Reps |
 | Seal Row - DB (Supinated Grip) | 3 3 4 4 · 4 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
@@ -192,9 +192,9 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 ## Week 1 — Getting used to it (small steps)
 
-_Week level: 2 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 
-**Athletic work this week:** 6 jump contacts · 27 ankle-hop contacts · 40 throws · 4 Olympic-lift sets · Plyo share 37% · Receive-Create 1: Land
+**Athletic work this week:** 6 jump contacts · 27 ankle-hop contacts · 40 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
 _Average time: about 65-80 min (an estimate, for information only)_
@@ -248,7 +248,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. **Hack Squat (machine)** — 2 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
@@ -262,14 +262,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
    - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Leg Extension (machine)** — 2 × 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    - Joint care for the knees
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
@@ -391,11 +391,10 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
-1. **Orange (C): long / easy · bike** — 30 min · 5 min steady / 30 s easy, repeat
+1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
    - Any cardio tool works. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
    - Your Pickleball sessions count as aerobic work this week
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Saturday · Play day (Pickleball)
 
@@ -403,12 +402,12 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 
 ## Week 2 — Getting used to it (small steps)
 
-_Week level: 2.6 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 2.6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - Same sets: add a little load or reps this week
 
-**Athletic work this week:** 6 jump contacts · 30 ankle-hop contacts · 40 throws · 4 Olympic-lift sets · Plyo share 39% · Receive-Create 1: Land
+**Athletic work this week:** 6 jump contacts · 30 ankle-hop contacts · 40 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
 _Average time: about 65-80 min (an estimate, for information only)_
@@ -460,7 +459,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Hack Squat (machine)** — 2 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
@@ -473,14 +472,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
    - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Leg Extension (machine)** — 2 × 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    - Joint care for the knees
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
@@ -598,11 +597,10 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
-1. **Orange (C): long / easy · bike** — 33 min · 5 min steady / 30 s easy, repeat
+1. **Orange (C): long / easy · bike** — 33 min · steady pace: you can still talk
    - Any cardio tool works. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
    - Your Pickleball sessions count as aerobic work this week
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Saturday · Play day (Pickleball)
 
@@ -610,12 +608,12 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 
 ## Week 3 — Getting used to it (small steps)
 
-_Week level: 3.2 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 3.2 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Seal Row - DB (Supinated Grip) (Monday)
+- +1 set on Seal Row - DB (Supinated Grip) (Monday): 3 → 4 sets
 
-**Athletic work this week:** 6 jump contacts · 33 ankle-hop contacts · 40 throws · 4 Olympic-lift sets · Plyo share 42% · Receive-Create 1: Land
+**Athletic work this week:** 6 jump contacts · 33 ankle-hop contacts · 40 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
 _Average time: about 70-85 min (an estimate, for information only)_
@@ -667,7 +665,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Hack Squat (machine)** — 2 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
@@ -680,14 +678,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
    - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Leg Extension (machine)** — 2 × 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    - Joint care for the knees
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
@@ -805,11 +803,10 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
-1. **Orange (C): long / easy · bike** — 37 min · 5 min steady / 30 s easy, repeat
+1. **Orange (C): long / easy · bike** — 37 min · steady pace: you can still talk
    - Any cardio tool works. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
    - Your Pickleball sessions count as aerobic work this week
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Saturday · Play day (Pickleball)
 
@@ -817,12 +814,12 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 
 ## Week 4 — Getting used to it (small steps)
 
-_Week level: 3.8 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 3.8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - Same sets: add a little load or reps this week
 
-**Athletic work this week:** 6 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets · Plyo share 42% · Receive-Create 1: Land
+**Athletic work this week:** 6 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
 _Average time: about 70-85 min (an estimate, for information only)_
@@ -874,7 +871,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Hack Squat (machine)** — 2 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
@@ -887,14 +884,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
    - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Leg Extension (machine)** — 2 × 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    - Joint care for the knees
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
@@ -1012,11 +1009,10 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
-1. **Orange (C): long / easy · bike** — 40 min · 5 min steady / 30 s easy, repeat
+1. **Orange (C): long / easy · bike** — 40 min · steady pace: you can still talk
    - Any cardio tool works. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
    - Your Pickleball sessions count as aerobic work this week
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Saturday · Play day (Pickleball)
 
@@ -1024,14 +1020,16 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 
 ## Week 5 — Driving it
 
-_Week level: 4.4 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 4.4 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - New exercise block: 7 exercises change a little (another version or one new detail); the rest stay
+- Monday: Stick the Landing - Bilateral (jump/drop and freeze the landing) → Lateral Box Step-up Jump; Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L); Leg Extension (machine) → Leg Extension (machine) - one leg at a time
+- Thursday: Ankle Hops (bilateral, in place) → Bilateral Lateral Ankle Hops; Medball Chest Pass → Medball Alternating Back-to-Wall Rotational Scoops; Rear-Foot-on-Wall DB Deadlift (RDL) → Staggered-Stance (Kickstand) DB Deadlift; Standing DB Calf Raise (deficit optional) → Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top
 - Jumps move to Receive-Create 2: Land & Go
 - Same sets: add a little load or reps this week
 
-**Athletic work this week:** 8 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets · Plyo share 41% · Receive-Create 2: Land & Go
+**Athletic work this week:** 8 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
 _Average time: about 70-85 min (an estimate, for information only)_
@@ -1056,7 +1054,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
    - per side = 1 set
@@ -1083,7 +1081,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Hack Squat (machine)** — 2 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
@@ -1095,14 +1093,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
    - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Leg Extension (machine) - one leg at a time** — 2 × 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    - Joint care for the knees
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
@@ -1218,11 +1216,10 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
-1. **Orange (C): long / easy · bike** — 30 min · 8 min steady / 1 min easy, repeat
+1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
    - Any cardio tool works. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
    - Your Pickleball sessions count as aerobic work this week
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Saturday · Play day (Pickleball)
 
@@ -1230,12 +1227,12 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 
 ## Week 6 — Driving it
 
-_Week level: 5 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 5 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Flat DB Bench Press (Thursday)
+- +1 set on Flat DB Bench Press (Thursday): 3 → 4 sets
 
-**Athletic work this week:** 8 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets · Plyo share 41% · Receive-Create 2: Land & Go
+**Athletic work this week:** 8 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
 _Average time: about 70-85 min (an estimate, for information only)_
@@ -1260,7 +1257,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
    - per side = 1 set
@@ -1287,7 +1284,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Hack Squat (machine)** — 2 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
@@ -1299,14 +1296,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
    - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Leg Extension (machine) - one leg at a time** — 2 × 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    - Joint care for the knees
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
@@ -1422,11 +1419,10 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
-1. **Orange (C): long / easy · bike** — 33 min · 8 min steady / 1 min easy, repeat
+1. **Orange (C): long / easy · bike** — 33 min · steady pace: you can still talk
    - Any cardio tool works. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
    - Your Pickleball sessions count as aerobic work this week
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Saturday · Play day (Pickleball)
 
@@ -1434,12 +1430,12 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 
 ## Week 7 — Driving it
 
-_Week level: 6 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - Same sets: add a little load or reps this week
 
-**Athletic work this week:** 8 jump contacts · 39 ankle-hop contacts · 44 throws · 4 Olympic-lift sets · Plyo share 43% · Receive-Create 2: Land & Go
+**Athletic work this week:** 8 jump contacts · 39 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
 _Average time: about 70-85 min (an estimate, for information only)_
@@ -1464,7 +1460,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
    - per side = 1 set
@@ -1491,7 +1487,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Hack Squat (machine)** — 2 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
@@ -1503,14 +1499,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
    - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Leg Extension (machine) - one leg at a time** — 2 × 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    - Joint care for the knees
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
@@ -1626,11 +1622,10 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
-1. **Orange (C): long / easy · bike** — 37 min · 8 min steady / 1 min easy, repeat
+1. **Orange (C): long / easy · bike** — 37 min · steady pace: you can still talk
    - Any cardio tool works. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
    - Your Pickleball sessions count as aerobic work this week
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Saturday · Play day (Pickleball)
 
@@ -1638,12 +1633,12 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 
 ## Week 8 — Driving it
 
-_Week level: 7 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 7 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on KB Face Pull (Thursday)
+- +1 set on KB Face Pull (Thursday): 2 → 3 sets
 
-**Athletic work this week:** 8 jump contacts · 42 ankle-hop contacts · 48 throws · 4 Olympic-lift sets · Plyo share 43% · Receive-Create 2: Land & Go
+**Athletic work this week:** 8 jump contacts · 42 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
 _Average time: about 70-85 min (an estimate, for information only)_
@@ -1668,7 +1663,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
    - per side = 1 set
@@ -1695,7 +1690,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Hack Squat (machine)** — 2 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
@@ -1707,14 +1702,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
    - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Leg Extension (machine) - one leg at a time** — 2 × 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    - Joint care for the knees
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
@@ -1830,11 +1825,10 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
-1. **Orange (C): long / easy · bike** — 40 min · 8 min steady / 1 min easy, repeat
+1. **Orange (C): long / easy · bike** — 40 min · steady pace: you can still talk
    - Any cardio tool works. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
    - Your Pickleball sessions count as aerobic work this week
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Saturday · Play day (Pickleball)
 
@@ -1842,14 +1836,16 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 
 ## Week 9 — Hardest weeks
 
-_Week level: 8 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - New exercise block: 6 exercises change a little (another version or one new detail); the rest stay
+- Monday: Rotational Medball Chest Pass (R & L) → Rotational Medball Scoop Toss (R & L); Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top
+- Thursday: Bilateral Lateral Ankle Hops → Bilateral Zig-Zag Ankle Hops; Medball Alternating Back-to-Wall Rotational Scoops → Step-Forward Medball Chest Pass (R & L leg); Flat DB Bench Press → Flat DB Bench Press - 1-second pause at the bottom; Incline DB Bench Press → Incline DB Bench Press - 1-second pause at the bottom
 - Jumps move to Receive-Create 3: Repeat
 - Same sets: add a little load or reps this week
 
-**Athletic work this week:** 8 jump contacts · 45 ankle-hop contacts · 48 throws · 4 Olympic-lift sets · Plyo share 45% · Receive-Create 3: Repeat
+**Athletic work this week:** 8 jump contacts · 45 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
 _Average time: about 75-90 min (an estimate, for information only)_
@@ -1874,7 +1870,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
    - per side = 1 set
@@ -1901,7 +1897,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Hack Squat (machine)** — 2 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
@@ -1913,14 +1909,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
    - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Leg Extension (machine) - one leg at a time** — 2 × 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    - Joint care for the knees
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
@@ -2036,11 +2032,10 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
-1. **Orange (C): long / easy · bike** — 30 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
    - Any cardio tool works. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
    - Your Pickleball sessions count as aerobic work this week
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Saturday · Play day (Pickleball)
 
@@ -2048,12 +2043,12 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 
 ## Week 10 — Hardest weeks
 
-_Week level: 9 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Machine Calf Raise (Monday)
+- +1 set on Machine Calf Raise (Monday): 3 → 4 sets
 
-**Athletic work this week:** 8 jump contacts · 48 ankle-hop contacts · 48 throws · 4 Olympic-lift sets · Plyo share 46% · Receive-Create 3: Repeat
+**Athletic work this week:** 8 jump contacts · 48 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
 _Average time: about 75-90 min (an estimate, for information only)_
@@ -2078,7 +2073,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
    - per side = 1 set
@@ -2105,7 +2100,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Hack Squat (machine)** — 2 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
@@ -2117,14 +2112,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
    - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Leg Extension (machine) - one leg at a time** — 2 × 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    - Joint care for the knees
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
@@ -2240,11 +2235,10 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
-1. **Orange (C): long / easy · bike** — 33 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · bike** — 33 min · steady pace: you can still talk
    - Any cardio tool works. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
    - Your Pickleball sessions count as aerobic work this week
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Saturday · Play day (Pickleball)
 
@@ -2252,13 +2246,13 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 
 ## Week 11 — Hardest weeks
 
-_Week level: 10 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 10 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on 45-Degree Hyperextension (back/hip extension) (Thursday)
-- +1 set on Single-Arm Lat Pulldown (Monday)
+- +1 set on 45-Degree Hyperextension (back/hip extension) (Thursday): 2 → 3 sets
+- +1 set on Single-Arm Lat Pulldown (Monday): 3 → 4 sets
 
-**Athletic work this week:** 8 jump contacts · 54 ankle-hop contacts · 48 throws · 4 Olympic-lift sets · Plyo share 49% · Receive-Create 3: Repeat
+**Athletic work this week:** 8 jump contacts · 54 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
 _Average time: about 75-95 min (an estimate, for information only)_
@@ -2283,7 +2277,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
    - per side = 1 set
@@ -2310,7 +2304,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Hack Squat (machine)** — 2 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
@@ -2322,14 +2316,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
    - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Leg Extension (machine) - one leg at a time** — 2 × 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    - Joint care for the knees
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
@@ -2445,11 +2439,10 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
-1. **Orange (C): long / easy · bike** — 37 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · bike** — 37 min · steady pace: you can still talk
    - Any cardio tool works. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
    - Your Pickleball sessions count as aerobic work this week
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Saturday · Play day (Pickleball)
 
@@ -2457,15 +2450,15 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 
 ## Week 12 — Hardest weeks
 
-_Week level: 11 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 11 of 11 (2 = the start, 11 = your hardest week)_
 
-_Last week: one intensifier on each of these days (Thursday): a MYO set on the day's last small-muscle or machine exercise_
+_Last week: one intensifier on Thursday: a MYO set on the day's last small-muscle or machine exercise_
 
 **What changes this week**
-- +1 set on Incline DB Bench Press (Thursday)
-- +1 set on Standing DB Calf Raise (deficit optional) (Thursday)
+- +1 set on Incline DB Bench Press (Thursday): 3 → 4 sets
+- +1 set on Standing DB Calf Raise (deficit optional) (Thursday): 3 → 4 sets
 
-**Athletic work this week:** 8 jump contacts · 57 ankle-hop contacts · 52 throws · 4 Olympic-lift sets · Plyo share 49% · Receive-Create 3: Repeat
+**Athletic work this week:** 8 jump contacts · 57 ankle-hop contacts · 52 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
 _Average time: about 75-95 min (an estimate, for information only)_
@@ -2490,7 +2483,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
    - per side = 1 set
@@ -2517,7 +2510,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
 2. **Hack Squat (machine)** — 2 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 8.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
@@ -2529,14 +2522,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 1 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
    - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Leg Extension (machine) - one leg at a time** — 2 × 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time.
-   - Stop at the depth that stays pain-free: set the stops or use a box.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
    - Joint care for the knees
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
@@ -2652,11 +2645,10 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
-1. **Orange (C): long / easy · bike** — 40 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · bike** — 40 min · steady pace: you can still talk
    - Any cardio tool works. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
    - Your Pickleball sessions count as aerobic work this week
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20bike)
 
 ### Saturday · Play day (Pickleball)
 

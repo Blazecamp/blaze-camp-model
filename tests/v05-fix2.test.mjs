@@ -413,7 +413,9 @@ describe('v0.5 fix round 2 - sample 08 (pickleball, knee pain)', () => {
     for (const x of allItems(p)) {
       const keys = (x.it.notes || []).map(nt => nt.key);
       if (keys.includes('note.pain_swap') || keys.includes('note.pain_instead_of')) assert.ok((x.it.flags || []).includes('pain_swap'), `w${x.w.n} ${x.it.slot_id}: a pain line under a lift that was the pick anyway`);
-      if (keys.includes(PD.note)) { depth++; assert.ok(PD.classes.includes(ex(x.it.exercise_id).credit_class), x.it.exercise_id); }
+      // (v0.6 words, converted - DECISIONS G-163: the depth cue follows the exercise type - any key of the pain-free-depth family)
+      const dk = keys.find(k => k === PD.note || (R.volume.pain.x6.depth_by_pattern || []).some(r => r.key === k));
+      if (dk) { depth++; assert.ok(PD.classes.includes(ex(x.it.exercise_id).credit_class), x.it.exercise_id); }
     }
     assert.ok(depth > 0);
   });

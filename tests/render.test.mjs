@@ -135,7 +135,8 @@ describe('full view (markdown)', () => {
 describe('views and formats', () => {
   test('block view: one 3-column table per day with sets per week and reps first -> last', () => {
     const b = renderBlockView(plan, 1, model, { lang: 'en' });
-    assert.ok(b.startsWith('## ' + model.t('en', 'ui.plan.view.block')));
+    // (v0.6 words, converted - DECISIONS G-171: 'Block · Training block' printed the word twice; the view word goes when the label holds it)
+    assert.ok(b.startsWith('## ') && !b.split('\n')[0].toLowerCase().includes(model.t('en', 'ui.plan.view.block').toLowerCase() + ' · ' + model.t('en', 'ui.plan.view.block').toLowerCase()));
     assert.ok(b.includes('### Monday · '));
     assert.ok(b.includes('| Exercise | Sets | Reps |'));
     assert.ok(b.includes('| 3 3 4 |'), 'the work lift gains a set in week 3');
@@ -182,7 +183,7 @@ describe('formatters', () => {
     assert.equal(R({ type: 'range', min: 10, max: 15 }), '10 to 15 Reps');
     assert.equal(R({ type: 'per_side', min: 10, max: 10 }), '10/10');
     assert.equal(R({ type: 'per_side', min: 6, max: 8 }), '6 to 8 per side');
-    assert.equal(R([{ type: 'fixed', value: 12 }, { type: 'fixed', value: 10 }, { type: 'fixed', value: 8 }, { type: 'fixed', value: 20 }]), '12/10/8 -20');
+    assert.equal(R([{ type: 'fixed', value: 12 }, { type: 'fixed', value: 10 }, { type: 'fixed', value: 8 }, { type: 'fixed', value: 20 }]), '12, 10, 8, then 20 light'); // (v0.6 words, converted - DECISIONS G-162: the pyramid written out, PRG-07)
     assert.equal(R({ type: 'max' }), 'MAX');
     assert.equal(R({ type: 'rounds_work', rounds: 3, work_s: 40 }), '3 rounds x 40 s');
     assert.equal(R({ type: 'contacts', value: 6 }), '6 contacts');

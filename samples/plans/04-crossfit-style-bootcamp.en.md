@@ -8,7 +8,7 @@ _Your Blaze Camp plan_
 - **Level:** Intermediate (L2): 2 years of consistent training
 - **Plan type:** 8 weeks · Week 1-8
 - **Start date:** 12 Oct 2026
-- **Training days per week:** 4 · Monday, Tuesday, Thursday, Friday · about 7 exercises a session (plus the warm-up and the 2 core exercises)
+- **Training days per week:** 4 · Monday, Tuesday, Thursday, Friday · about 6-7 exercises a session (plus the warm-up and the 2 core exercises)
 - Terms and release of liability accepted before this plan was built: client, English
 - Health check: answered; nothing in it asked for a doctor first. [Official PAR-Q+ (in English)](https://eparmedx.com/)
 
@@ -17,7 +17,7 @@ _Your Blaze Camp plan_
 >
 > \*\*CrossFit has its hybrid style of performance, so to be competitive, you MUST be able to be as good as possible in EACH modality. Train accordingly.
 >
-> \*\*\*WODs will be prescribed by your box or program; yes, they might interfere with recovery / performance, but that's part of CrossFit.
+> \*\*\*The WODs in this plan are your conditioning on these days: do them in place of your box's WOD, not on top of it.
 >
 > \*\*\*\*\*If you have any questions just ask me - IG @BLAZECAMP or TWITTER @BLAZECAMP\_
 
@@ -88,17 +88,17 @@ Test days (mark your calendar; the plan sends no reminders): week 1: Monday 12 O
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts)._
+_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts). Numbers are rounded to whole sets._
 
 |  | Week 1 | Week 4 | Week 8 |
 |---|---|---|---|
 | Quads | 12 | 12 | 15 |
-| Hips (glutes + hamstrings) | 12 | 14 | 17.75 |
+| Hips (glutes + hamstrings) | 12 | 14 | 18 |
 | Back | 12 | 14 | 18 |
 | Chest | 12 | 14 | 18 |
-| Shoulders | 12.75 | 14.75 | 18 |
-| Biceps | 10 | 12.5 | 15.5 |
-| Triceps | 13 | 15.5 | 18.25 |
+| Shoulders | 13 | 15 | 18 |
+| Biceps | 10 | 13 | 16 |
+| Triceps | 13 | 16 | 18 |
 | Calves | 6 | 6 | 8 |
 | **Total** | **77** | **88** | **110** |
 
@@ -113,23 +113,23 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Friday | Clean + pull day | about 80-95 min | Quads 1, Back 2, Shoulders 2, Biceps 1 |
 | Saturday | WOD class + cardio (optional) | about 60-70 min | Chest 1, Triceps 1 |
 
-## Block · Training block · Week 1-8
+## Training block, week by week · Week 1-8
 
 **Level:** 2.0 · 2.9 · 3.9 · 4.8 · 6.3 · 7.9 · 9.4 · 11.0
 
 ### Weekly sets per muscle group, week by week · Week 1-8
 
-_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). "Final sets" is where the stairway is planned to end; "15 of 18" means this template's exercises hold 15 of the 18 planned sets._
+_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). "Final sets" is where the stairway is planned to end; "15 of 18" means this template's exercises hold 15 of the 18 planned sets. Numbers are rounded to whole sets._
 
 | Muscle group | Sets each week (weeks 1-8) | Final sets |
 |---|---|---|
 | Quads | 12 12 12 12 · 13 14 15 15 | 15 of 18 |
-| Hips (glutes + hamstrings) | 12 12 13 14 · 15.25 16.5 17.75 17.75 | 17 of 18 |
+| Hips (glutes + hamstrings) | 12 12 13 14 · 15 17 18 18 | 17 of 18 |
 | Back | 12 13 14 14 · 15 17 18 18 | 18 |
 | Chest | 12 13 14 14 · 15 16 18 18 | 18 |
-| Shoulders | 12.75 13.25 13.75 14.75 · 15.75 16.25 18 18 | 18 |
-| Biceps | 10 10.25 11.5 12.5 · 13.75 14.25 15.5 15.5 | 15 of 18 |
-| Triceps | 13 14.25 14.5 15.5 · 16.5 17.75 18.25 18.25 | 18 |
+| Shoulders | 13 13 14 15 · 16 16 18 18 | 18 |
+| Biceps | 10 10 12 13 · 14 14 16 16 | 15 of 18 |
+| Triceps | 13 14 15 16 · 17 18 18 18 | 18 |
 | Calves | 6 6 6 6 · 7 7 8 8 | 8 |
 | **Total** | 77 80 84 88 · 96 102 110 110 | 110 |
 
@@ -206,7 +206,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 ## Week 1 — Getting used to it (small steps)
 
-_Week level: 2 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 
 **Baseline test this week (before you load up)** (Strength, Cardio)
 
@@ -366,7 +366,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 
 ### Wednesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
-- **Orange (C): long / easy · rower** · 30-40 min · 8 min steady / 1 min easy, repeat
+- **Orange (C): long / easy · rower** · 30-40 min · steady pace: you can still talk
   - **Test this session instead: 1-mile run. Write down your time.**
   - Or use another of your cardio tools: run, bike, SkiErg. Go by time, not distance.
   - Test day: do the test instead of this session
@@ -557,16 +557,15 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 1. **Green (B): moderate · bike** — 20 min · 2 min hard / 4 min easy, repeat
    - Or use another of your cardio tools: run, rower, SkiErg. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 2 — Getting used to it (small steps)
 
-_Week level: 2.9 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 2.9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Inverted Row (Friday)
-- +1 set on Flat DB Bench Press (Tuesday)
-- +1 set on Floor Dumbbell Skullcrusher (Tuesday)
+- +1 set on Inverted Row (Friday): 3 → 4 sets
+- +1 set on Flat DB Bench Press (Tuesday): 3 → 4 sets
+- +1 set on Floor Dumbbell Skullcrusher (Tuesday): 2 → 3 sets
 
 **Athletic work this week:** 6 Olympic-lift sets
 
@@ -709,7 +708,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 
 ### Wednesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
-- **Orange (C): long / easy · rower** · 33 min · 8 min steady / 1 min easy, repeat
+- **Orange (C): long / easy · rower** · 33 min · steady pace: you can still talk
   - Or use another of your cardio tools: run, bike, SkiErg. Go by time, not distance.
 
 ### Thursday · Deadlift + push day
@@ -889,17 +888,16 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 1. **Green (B): moderate · bike** — 23 min · 2 min hard / 4 min easy, repeat
    - Or use another of your cardio tools: run, rower, SkiErg. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 3 — Driving it
 
-_Week level: 3.9 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 3.9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Barbell Deadlift (conventional) (Thursday)
-- +1 set on Inverted Row (Monday)
-- +1 set on Incline Barbell Bench Press (Thursday)
-- +1 set on Seated Dumbbell Curl (Friday)
+- +1 set on Barbell Deadlift (conventional) (Thursday): 3 → 4 sets
+- +1 set on Inverted Row (Monday): 3 → 4 sets
+- +1 set on Incline Barbell Bench Press (Thursday): 4 → 5 sets
+- +1 set on Seated Dumbbell Curl (Friday): 2 → 3 sets
 
 **Athletic work this week:** 6 Olympic-lift sets
 
@@ -1042,7 +1040,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 
 ### Wednesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
-- **Orange (C): long / easy · rower** · 37 min · 8 min steady / 1 min easy, repeat
+- **Orange (C): long / easy · rower** · 37 min · steady pace: you can still talk
   - Or use another of your cardio tools: run, bike, SkiErg. Go by time, not distance.
 
 ### Thursday · Deadlift + push day
@@ -1222,17 +1220,16 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 1. **Green (B): moderate · bike** — 27 min · 2 min hard / 4 min easy, repeat
    - Or use another of your cardio tools: run, rower, SkiErg. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 4 — Driving it
 
-_Week level: 4.8 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 4.8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Thursday)
-- +1 set on DB Lateral (Side) Raise (Tuesday)
-- +1 set on Dumbbell Curl (Monday)
-- +1 set on Tate Press (Saturday)
+- +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Thursday): 3 → 4 sets
+- +1 set on DB Lateral (Side) Raise (Tuesday): 2 → 3 sets
+- +1 set on Dumbbell Curl (Monday): 2 → 3 sets
+- +1 set on Tate Press (Saturday): 2 → 3 sets
 
 **Athletic work this week:** 6 Olympic-lift sets
 
@@ -1375,7 +1372,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 
 ### Wednesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
-- **Orange (C): long / easy · rower** · 40 min · 8 min steady / 1 min easy, repeat
+- **Orange (C): long / easy · rower** · 40 min · steady pace: you can still talk
   - Or use another of your cardio tools: run, bike, SkiErg. Go by time, not distance.
 
 ### Thursday · Deadlift + push day
@@ -1555,22 +1552,26 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 1. **Green (B): moderate · bike** — 30 min · 2 min hard / 4 min easy, repeat
    - Or use another of your cardio tools: run, rower, SkiErg. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 5 — Driving it
 
-_Week level: 6.3 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 6.3 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - New exercise block: 10 exercises change a little (another version or one new detail); the rest stay
-- +1 set on Stationary Lunge (Split Squat) (Friday)
-- +1 set on Ball Hamstring Curl (medball or stability ball) (Thursday)
-- +1 set on Chin-Up (supinated) (Friday)
-- +1 set on Flat DB Fly (Tuesday)
-- +1 set on Seated (Chest-to-Thighs) DB Reverse Fly (Friday)
-- +1 set on Spider Curl (chest on incline bench) (Friday)
-- +1 set on Dumbbell Triceps Kickback (one or both arms) (Tuesday)
-- +1 set on Standing DB Calf Raise (deficit optional) (Monday)
+- Monday: Cross-Body Dumbbell Hammer Curl → Dumbbell Concentration Curl
+- Tuesday: Hang Power Snatch - from the High Hang → Power Snatch; Dumbbell Triceps Kickback (one or both arms) → Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top; Calorie Effort: 15 cal (bike / rower / ski) → Low Box Jump (Half-Shin Height)
+- Thursday: Supine Slider Hamstring Curl → Ball Hamstring Curl (medball or stability ball); Calorie Effort: 35 cal (bike / rower / ski) → Burpees
+- Friday: Hang Power Clean - from the High Hang (hip crease) → Power Clean; Seated Dumbbell Curl → Spider Curl (chest on incline bench); Medball Rotational Side-to-Side Floor Slams → Knees to Chest (hanging)
+- Saturday: Calorie Effort: 10 cal (bike / rower / ski) → Double-Unders (jump rope)
+- +1 set on Stationary Lunge (Split Squat) (Friday): 4 → 5 sets
+- +1 set on Ball Hamstring Curl (medball or stability ball) (Thursday): 3 → 4 sets
+- +1 set on Chin-Up (supinated) (Friday): 3 → 4 sets
+- +1 set on Flat DB Fly (Tuesday): 3 → 4 sets
+- +1 set on Seated (Chest-to-Thighs) DB Reverse Fly (Friday): 2 → 3 sets
+- +1 set on Spider Curl (chest on incline bench) (Friday): 3 → 4 sets
+- +1 set on Dumbbell Triceps Kickback (one or both arms) (Tuesday): 3 → 4 sets
+- +1 set on Standing DB Calf Raise (deficit optional) (Monday): 3 → 4 sets
 
 **Athletic work this week:** 6 Olympic-lift sets
 
@@ -1714,7 +1715,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 
 ### Wednesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
-- **Orange (C): long / easy · rower** · 30 min · 11 min steady / 2 min easy, repeat
+- **Orange (C): long / easy · rower** · 30 min · steady pace: you can still talk
   - Or use another of your cardio tools: run, bike, SkiErg. Go by time, not distance.
 
 ### Thursday · Deadlift + push day
@@ -1893,19 +1894,18 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run, rower, SkiErg. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 6 — Hardest weeks
 
-_Week level: 7.9 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 7.9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Front Squat (barbell) (Monday)
-- +1 set on Barbell Deadlift (conventional) (Thursday)
-- +1 set on Pull-up (Monday)
-- +1 set on Inverted Row (Friday)
-- +1 set on Flat DB Bench Press (Tuesday)
-- +1 set on Overhead Dumbbell Triceps Extension (Thursday)
+- +1 set on Front Squat (barbell) (Monday): 4 → 5 sets
+- +1 set on Barbell Deadlift (conventional) (Thursday): 4 → 5 sets
+- +1 set on Pull-up (Monday): 3 → 4 sets
+- +1 set on Inverted Row (Friday): 4 → 5 sets
+- +1 set on Flat DB Bench Press (Tuesday): 4 → 5 sets
+- +1 set on Overhead Dumbbell Triceps Extension (Thursday): 3 → 4 sets
 
 **Athletic work this week:** 6 Olympic-lift sets
 
@@ -2049,7 +2049,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 
 ### Wednesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
-- **Orange (C): long / easy · rower** · 33 min · 11 min steady / 2 min easy, repeat
+- **Orange (C): long / easy · rower** · 33 min · steady pace: you can still talk
   - Or use another of your cardio tools: run, bike, SkiErg. Go by time, not distance.
 
 ### Thursday · Deadlift + push day
@@ -2228,20 +2228,19 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run, rower, SkiErg. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 7 — Hardest weeks
 
-_Week level: 9.4 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 9.4 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Step-Up (forward and lateral) (Monday)
-- +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Thursday)
-- +1 set on Inverted Row (Monday)
-- +1 set on DB Floor Press (Saturday)
-- +1 set on DB Lateral Raise (Supinated / palms-up grip) (Friday)
-- +1 set on Dumbbell Concentration Curl (Monday)
-- +1 set on Barbell Calf Raise (Thursday)
+- +1 set on Step-Up (forward and lateral) (Monday): 4 → 5 sets
+- +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Thursday): 4 → 5 sets
+- +1 set on Inverted Row (Monday): 4 → 5 sets
+- +2 sets on DB Floor Press (Saturday): 2 → 4 sets
+- +1 set on DB Lateral Raise (Supinated / palms-up grip) (Friday): 2 → 3 sets
+- +1 set on Dumbbell Concentration Curl (Monday): 3 → 4 sets
+- +1 set on Barbell Calf Raise (Thursday): 3 → 4 sets
 
 **Athletic work this week:** 6 Olympic-lift sets
 
@@ -2385,7 +2384,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 
 ### Wednesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
-- **Orange (C): long / easy · rower** · 37 min · 11 min steady / 2 min easy, repeat
+- **Orange (C): long / easy · rower** · 37 min · steady pace: you can still talk
   - Or use another of your cardio tools: run, bike, SkiErg. Go by time, not distance.
 
 ### Thursday · Deadlift + push day
@@ -2564,18 +2563,17 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run, rower, SkiErg. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 8 — Hardest weeks
 
-_Week level: 11 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 11 of 11 (2 = the start, 11 = your hardest week)_
 
 **End test this week: on the tested lifts, work up to one top set - it replaces that lift's top set - then do its back-off sets** (Strength, Cardio)
 
 _Last week: one intensifier on each of these days (Monday, Tuesday, Thursday and Friday): a MYO set on the day's last small-muscle or machine exercise_
 
 **What changes this week**
-- Same sets: add a little load or reps this week
+- Same sets: on a tested lift the test takes the place of the top set; on the other lifts add a little load or reps
 
 ### Monday · Squat day
 _Average time: about 125-155 min (an estimate, for information only)_
@@ -2718,7 +2716,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 
 ### Wednesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
-- **Orange (C): long / easy · rower** · 30-40 min · 11 min steady / 2 min easy, repeat
+- **Orange (C): long / easy · rower** · 30-40 min · steady pace: you can still talk
   - **Test this session instead: 1-mile run. Write down your time.**
   - Or use another of your cardio tools: run, bike, SkiErg. Go by time, not distance.
   - Test day: do the test instead of this session
@@ -2896,7 +2894,6 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run, rower, SkiErg. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ---
 
