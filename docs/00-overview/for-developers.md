@@ -1,16 +1,16 @@
 # For developers: where the data is and how to use it in an app
 
-This page tells a developer where the model lives as data, which files are stable and which are still moving, and how to build on it. The coach's rules exist in three forms: his own answers, a plain-language master document, and machine-readable files. The two files to open first are [AGENTS.md](../../AGENTS.md), the working guide for developers and AI agents, and [generator_spec_v1.json](../../generator_spec_v1.json), the model as a machine spec. There is also a JavaScript plan engine. The part of it that decides the sets is being rebuilt, so build on the data and the documented rules, and treat the engine's code and output as a draft.
+This page tells a developer where the model lives as data, which files are stable and which are still moving, and how to build on it. The coach's rules exist in three forms: his own answers, a plain-language master document, and machine-readable files. The two files to open first are [AGENTS.md](../../AGENTS.md), the working guide for developers and AI agents, and [generator_spec_v1.json](../../generator_spec_v1.json), the model as a machine spec. There is also a JavaScript plan engine, version 0.5. It builds complete plans from the coach's own day templates and passes its tests. The coach has not graded its sample plans, so treat its output as a draft and read its status document before you depend on it.
 
 > **Use at your own risk.** This is general fitness information, not medical advice. If you ship an app built on it, the health screening, liability release, insurance and privacy terms are yours. Read [safety-and-liability.md](safety-and-liability.md) and [DISCLAIMER.md](../../DISCLAIMER.md) §5 and §7.
 
 ## The rule
 
-1. **The coach's answers are the authority.** Data and code follow them. The newest round wins.
+1. **The coach's answers are the authority.** Data and code follow them. The newest answer wins: round 4 and CT-01 first, then CX-01..04, then round 3, 2 and 1.
 2. **The spec and the `synthesis/*.json` files are the model as data.** They are twins of the human documents.
 3. **The engine reads only the compiled model in `model/`.** That folder is generated, never edited by hand.
-4. **The product is simple by decision.** Few inputs, the whole plan once, no check-ins, no data kept.
-5. **The engine is being rebuilt.** Its interface and output can change.
+4. **The product is simple by decision.** Few inputs, the whole plan once, no check-ins, no data kept, no session length, no time-fitting.
+5. **The engine is young.** Version 0.5 is template-first. Its plan format is written down in `engine/CONTRACTS.md` and can still change.
 
 ## Why
 
@@ -28,8 +28,8 @@ He also asked that people can add exercises, with the repository explaining how,
 
 | File | What it gives you |
 |---|---|
-| [AGENTS.md](../../AGENTS.md) | The authority order, a map of the repository, a table of where each kind of rule lives (file and JSON key), how to generate a plan from the command line and from JavaScript, the 22 hard rules, how to change a rule or an exercise safely, the tests, and what never to edit. |
-| [generator_spec_v1.json](../../generator_spec_v1.json) | The model as one JSON file, version 1.2.0: the intake form, the values worked out from it, every rule table, the plan types, the tests, plan editing, legal and privacy rules, and the checks a plan must pass. |
+| [AGENTS.md](../../AGENTS.md) | The authority order, a map of the repository, a table of where each kind of rule lives (file and JSON key), how to generate a plan from the command line and from JavaScript, the hard rules, how to change a rule or an exercise safely, the tests, and what never to edit. |
+| [generator_spec_v1.json](../../generator_spec_v1.json) | The model as one JSON file, version 1.3.0: the intake form, the values worked out from it, every rule table, the plan types, the tests, plan editing, legal and privacy rules, and the checks a plan must pass. |
 
 For an AI agent, [CONTEXT_FOR_AI.md](../CONTEXT_FOR_AI.md) is a single briefing of the whole model, and [llms.txt](../../llms.txt) is a link index.
 
@@ -37,14 +37,14 @@ For an AI agent, [CONTEXT_FOR_AI.md](../CONTEXT_FOR_AI.md) is a single briefing 
 
 | Layer | Files | State | Build on it? |
 |---|---|---|---|
-| The coach's words | `coach_answers_round3.md`, `coach_answers_round2.md`, `coach_answers_full.md`, `coach_answers.md`, `coach_chat_statements.md`, `answers_raw*/` | Final. Never edited. | Yes. This is the source. |
+| The coach's words | `coach_answers_round4.md`, `coach_answers_time_2026-10-10.md`, `coach_answers_codex_2026-10-10.md`, `coach_answers_round3.md`, `coach_answers_round2.md`, `coach_answers_full.md`, `coach_answers.md`, `coach_chat_statements.md`, `answers_raw*/` | Final. Never edited. | Yes. This is the source. |
 | His sheets | `raw/*.xlsx`, `dumps/` | Fixed copies | Yes, as evidence |
-| Master document | [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) v1.2 | Stable. Changes only when he answers something new. | Yes |
-| Machine spec | `generator_spec_v1.json` 1.2.0 | Stable, same rule | Yes |
+| Master document | [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) v1.3 | Stable. Changes only when he answers something new. | Yes |
+| Machine spec | `generator_spec_v1.json` 1.3.0 | Stable, same rule | Yes |
 | Topic data | `synthesis/*.json` | Stable, same rule | Yes |
-| Compiled model | `model/` | Generated. Changing while the engine is rebuilt. | With care. Read the version from `model/MODEL_VERSION`. |
-| Plan engine | `engine/` | The dosing part is being rebuilt | Not yet for production |
-| Tests, samples, tools, design notes | `tests/`, `samples/`, `tools/`, `design/` | Changing | Read, do not depend on |
+| Compiled model | `model/` | Generated by `tools/compile-model.mjs`. Never edited by hand. It holds the rules engine 0.5 runs on, including every round-4 rule. | Yes, read-only. Read the version from `model/MODEL_VERSION`. |
+| Plan engine | `engine/` | Version 0.5: template-first, no time-fitting. All tests pass. Not graded by the coach. | With care. Read `samples/STATUS_v0.5.md` first. |
+| Tests, samples, tools, design notes | `tests/`, `samples/`, `tools/`, `design/` | Tests and samples follow the engine. `design/PLANNER_SPEC.md` and `design/IMPLEMENTATION_PLAN.md` describe a large planner that was **not built**; they are research. | Read, do not depend on |
 
 Version numbers printed in other documents can be out of date. Read the live values from `model/MODEL_VERSION`, `engine/version.mjs` and `generator_spec_v1.json > _meta.version`.
 
@@ -82,22 +82,24 @@ A longer version, with the compiler's details, is in [AGENTS.md](../../AGENTS.md
 | Weekly sets: starts, ceilings, floor | `generator_spec_v1.json` | `rule_tables.weekly_sets`, `.priority`, `.pain`, `.goal_phase_modifiers` | |
 | How sets are counted | `generator_spec_v1.json` | `rule_tables.counting.credit_map`, `vocab.muscles.focus_groups` | |
 | The stairway | `generator_spec_v1.json` | `rule_tables.rate_engine`, `.banking`, `.set_placement` | |
-| The volume method in full, with worked examples | `synthesis/12_volume_algorithm_v1.json` | `starting_table`, `stairway`, `time_model`, `examples` | |
-| Session rules | `generator_spec_v1.json` | `rule_tables.session_limits`, `.time_model`, `.ordering`, `.pairing`, `.axial_loading`, `.core_block`, `.supersets_contrast_circuits` | |
+| The volume method in full, with worked examples | `synthesis/12_volume_algorithm_v1.json` | `starting_table`, `stairway`, `examples` | |
+| Session rules | `generator_spec_v1.json` | `rule_tables.session_limits`, `.ordering`, `.pairing`, `.axial_loading`, `.core_block`, `.supersets_contrast_circuits` | |
+| Session size by client type, the 2-day rule, final sets reached, next block, optional add-ons, carries, incline first, the liability gate, the time estimate (round 4, CT-01, CX) | `model/rules.json` | `session.size`, `volume.two_day`, `stairway.progression`, `cycles.next_block`, `selection.addons`, `conditioning.carry`, `selection.incline_first`, `legal.gate`, `legal.release_line`, `time_model`, `render.*` | spec keys for each answer: `coverage_matrix_round4.md` |
+| The compiled day templates with his A / B / C skeletons | `model/templates.json` | `families.<family>.days.<n>.day_types.<day>` (`skeleton`, `stations[].rank`) | 30 templates |
 | Two legs or one | `generator_spec_v1.json` | `rule_tables.bilateral_unilateral`, `.contra_ipsi` | |
 | Reps, effort, rest | `generator_spec_v1.json`; `synthesis/11_training_variables.json` | `rule_tables.reps`, `.effort`, `.rest` | |
 | Equipment | `generator_spec_v1.json`; `synthesis/10_equipment_model.json` | `rule_tables.equipment`; `constraint_scale`, `kit_tokens`, `access_profiles`, `substitution_by_category` | 10 equipment profiles |
 | Jumps, throws, Olympic lifts, cardio | `generator_spec_v1.json` | `rule_tables.athletic`, `.conditioning` | |
 | Plan types | `generator_spec_v1.json`; `synthesis/06_periodization.json` | `plan_types`; `plan_length_model` | |
 | Tests | `generator_spec_v1.json` | `tests` | |
-| The intake form | `generator_spec_v1.json` | `inputs_schema.fields`, `.start_flow`, `.removed_fields` | 39 fields, F00 to F46 |
+| The intake form | `generator_spec_v1.json` | `inputs_schema.fields`, `.start_flow`, `.removed_fields` | 39 keys, F00 to F46. F24 (session length) is retired and kept as history, so 38 are in use |
 | Values worked out from the answers | `generator_spec_v1.json` | `derived_values` | D1 to D15 |
 | The build steps in words | `generator_spec_v1.json` | `pipeline` | 9 steps |
-| Checks before a plan is shown | `generator_spec_v1.json` | `validation_checks` | V1 to V31 |
-| What a person can edit | `generator_spec_v1.json` | `plan_editing` | |
+| Checks before a plan is shown | `generator_spec_v1.json`; `model/rules.json` | `validation_checks`; `validation.checks` (the engine's list, explained in `engine/CONTRACTS.md` §6) | 59 engine checks: V1 to V37, H01 to H22 |
+| What a person can edit | `generator_spec_v1.json`; `engine/edit.mjs` | `plan_editing`; `applyPlanEdits` (set sets, add exercise, remove exercise, switch a block) | |
 | Privacy, health check, release, license | `generator_spec_v1.json` | `legal_and_privacy` | |
 | Words in English and Spanish | `model/i18n/en.json`, `model/i18n/es.json` | flat key to text | Spanish lines not yet approved are listed in `model/i18n/es_review.json` |
-| Which answer backs which rule | `coverage_matrix.md`, `coverage_matrix_round2.md`, `coverage_matrix_round3.md` | | |
+| Which answer backs which rule | `coverage_matrix.md`, `coverage_matrix_round2.md`, `coverage_matrix_round3.md`, `coverage_matrix_round4.md` (round 4, CT-01, CX-01..04) | | |
 
 The same table by topic, with the engine module that reads each key, is in [AGENTS.md](../../AGENTS.md) §6. Every tunable number in one place: [parameters](../05-reference/parameters.md).
 
@@ -107,7 +109,7 @@ Do not treat every number in the data as the coach's.
 
 | In the data | Meaning |
 |---|---|
-| A `tag` with `COACH-ANSWER <id>`, `COACH-R2 <id>` or `COACH-R3 <id>` | He decided it. The id points to his answer. |
+| A `tag` with `COACH-ANSWER <id>`, `COACH-R2 <id>`, `COACH-R3 <id>`, `COACH-R4 <id>`, `COACH-CX <id>` or `COACH-CT CT-01` | He decided it. The id points to his answer. In `model/rules.json` the ids sit in each rule's `refs`, and `status` says what is approved and what is PROPOSED. |
 | `APPROVED (COACH-R2 ...)` or `APPROVED (COACH-R3 ...)` | The team proposed it and he marked it RIGHT |
 | `OBSERVED` | Read from his sheets |
 | `INFERRED`, `SCIENCE` | The team's reasoning, or published research |
@@ -115,7 +117,7 @@ Do not treat every number in the data as the coach's.
 | `LEGAL REVIEW` | Placeholder wording that a lawyer must write |
 | `RETIRED (...)` | Removed by a later answer. Kept so nobody rebuilds it. |
 
-Retired things you will still find in the files: `adaptation` and `rule_tables.learning` in the spec (check-ins and learning from user data), the `week_by_week` plan mode, and rear delts and side delts as lines of their own. Do not build on them. The full list is in [AGENTS.md](../../AGENTS.md) §13 and [what he rejected](../01-philosophy/what-he-rejected.md).
+Retired things you may still find in the files as notes: `adaptation` and `rule_tables.learning` in the spec (check-ins and learning from user data), the `week_by_week` plan mode, rear delts and side delts as lines of their own, and the round-3 time check (`D15_time_fit`, `time_vs_minimums`, a session-length field). Do not build on them. The full list is in [AGENTS.md](../../AGENTS.md) and [what he rejected](../01-philosophy/what-he-rejected.md).
 
 ## Two ways to use it in an app
 
@@ -123,15 +125,16 @@ Retired things you will still find in the files: `adaptation` and `rule_tables.l
 
 This works in any language and does not depend on the engine.
 
-1. Build the intake from `inputs_schema.fields`. Keep it short. Never add a sex field or lifestyle questions.
-2. Work out the derived values (`derived_values`): family, profile, level, plan shape, week layout.
-3. Pick the week template for the family and the number of days (`synthesis/05_templates.json`).
-4. Run the time check before anything else is dosed (`derived_values.D15_time_fit`).
-5. Set weekly sets per group from `rule_tables.weekly_sets`, with the floor, Focus muscles and pain.
-6. Fill each slot from the exercise catalog, filtered by equipment, level, age rules and pain. Offer swaps from the same category.
-7. Compute the whole stairway at build time (`rule_tables.rate_engine`). Add whole sets in the order of `rule_tables.set_placement`.
-8. Check the result against `validation_checks` and the hard rules in [AGENTS.md](../../AGENTS.md) §10.
-9. Show the whole plan. Let people edit it (`plan_editing`). Store nothing.
+1. Build the intake from `inputs_schema.fields`. Keep it short. Never add a sex field, lifestyle questions or a session-length question.
+2. Require the accepted terms and release before you generate anything (R4-SCP-02).
+3. Work out the derived values (`derived_values`): family, profile, level, plan shape, week layout.
+4. Pick the coach's week template for the family and the number of days (`synthesis/05_templates.json`). Do not invent layouts. Size each day by exercise count for the kind of client (R4-SES-02).
+5. Set weekly sets per group from `rule_tables.weekly_sets`, with the floor (from 3 training days), the 2-day rule, Focus muscles and pain.
+6. Fill each template slot from the exercise catalog, filtered by equipment, level, age rules and pain. Offer swaps from the same category, each with what it keeps and loses. Never pick an optional add-on for a slot.
+7. Compute the whole stairway at build time, in whole sets, so every group reaches its final sets in the last week. Note any week that adds more than about 15 %. Place sets first exercise first.
+8. Print reps and load as a rule the person applies. Print an average time per day as information. Do not cut anything for time.
+9. Check the result against the hard rules in [AGENTS.md](../../AGENTS.md).
+10. Show the whole plan with the release line. Let people edit all of it (`plan_editing`). Store nothing.
 
 One worked case with every number is in [how-a-plan-is-made.md](how-a-plan-is-made.md). The steps as pseudo-code are in [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) §13.3.
 
@@ -143,17 +146,36 @@ One worked case with every number is in [how-a-plan-is-made.md](how-a-plan-is-ma
 | Behaviour | Deterministic: the same answers and model give the same plan. No file or network access inside `engine/`. |
 | Entry points | `loadModel(raw)` in `engine/model.mjs`, `generate(intake, model)` in `engine/generate.mjs`, `renderPlan(plan, model, options)` in `engine/render.mjs`, `validatePlan` in `engine/validate.mjs` |
 | Shapes | The intake and plan schemas are defined in `engine/CONTRACTS.md` |
-| How to run it | Commands and a complete JavaScript example are in [AGENTS.md](../../AGENTS.md) §2 and §8 |
+| How to run it | Commands are in [engine/README.md](../../engine/README.md) §1 and in [AGENTS.md](../../AGENTS.md). A short example follows this table. |
 | Sample people | `samples/intakes/*.json` (8 intakes) |
 
-On 2026-10-09 the JavaScript example in AGENTS.md §8.2 ran on engine 0.4.0 with model 1.3.0 and returned a 12-week plan that passed its own checks. That says the code runs. It does not say the dosing is right.
+```js
+import fs from 'node:fs';
+import { loadModel } from './engine/model.mjs';
+import { generate } from './engine/generate.mjs';
+import { renderPlan } from './engine/render.mjs';
 
-**Why the engine is being rebuilt.** The first engine decided the sets in separate steps. Reviewers who read the sample plans the way the coach would found the structure right and the dosing wrong: groups left under the floor of 10, stairways that stayed flat, and days longer than the time chosen. The team is rebuilding the planner so that it decides the whole plan together and checks exactly whether the coach's rules fit the time. The coach's rules do not change. This is a team decision, and the design is not final. See [ADR-048](../04-decisions/adr-048-optimizer-rebuild-of-the-planner.md), `design/diagnosis.md` and the [roadmap](../06-history/roadmap.md).
+const read = (f) => JSON.parse(fs.readFileSync(`model/${f}`, 'utf8'));
+const model = loadModel({ manifest: read('manifest.json'), catalog: read('catalog.json'), rules: read('rules.json'),
+  templates: read('templates.json'), profiles: read('profiles.json'),
+  i18n: { en: read('i18n/en.json'), es: read('i18n/es.json'), es_review: read('i18n/es_review.json') } });
+const intake = JSON.parse(fs.readFileSync('samples/intakes/06-full-body-aesthetics.json', 'utf8'));
+const plan = generate(intake, model);            // status 'invalid' and no weeks unless intake.release.accepted === true
+console.log(plan.status, plan.validation.ok);
+console.log(renderPlan(plan, model, { lang: 'en', view: 'full' }));   // views: full, overview, block, week, day
+```
 
-Until that is done:
+Run it from the repository root with Node 22. On 2026-10-11 this ran on engine 0.5.0 with model 1.3.0 and returned a 12-week plan that passed its own checks. The worked example in [how-a-plan-is-made.md](how-a-plan-is-made.md) was made the same way.
 
-- Treat `samples/plans/` as drafts. The coach has not graded them.
-- Expect the plan JSON to gain and lose keys. Read `engine/CONTRACTS.md` before you depend on one.
+**What engine 0.5 is.** The first engine fitted every plan into a chosen session length. Reviewers who read its sample plans the way the coach would found groups left under the floor of 10, flat stairways and days that did not look like his sheets. A large optimizer was designed to fix that ([ADR-048](../04-decisions/adr-048-optimizer-rebuild-of-the-planner.md)). Then the coach removed time-fitting (CT-01) and described his own day templates (R4-SES-05). The engine was rebuilt around those: template-first, sized by exercise count, with whole-set arithmetic that reaches each group's final sets. The optimizer was not built. See [ADR-058](../04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md) and `design/ENGINE_V05_PLAN.md`.
+
+What to know before you depend on it:
+
+- Treat `samples/plans/` as drafts. The coach has not graded them. Reviewers reading them as he would gave grades between B- and B+.
+- Read [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md) for test counts, benchmark numbers and known gaps. The athletic layer (jumps, throws, sprints, Olympic sets) is the part most often short of a sport's targets.
+- The plan JSON can still gain and lose keys. Read `engine/CONTRACTS.md` before you depend on one.
+- An intake that still sends `schedule.session_minutes` is accepted and the value is ignored, with a notice.
+- An edited plan (`applyPlanEdits`) is marked `edited: true`. The checks that judge the generated layout do not vouch for it.
 - Where the engine and a coach answer disagree, the coach answer is right and the code is out of date.
 
 ## Rules your app must keep to be the coach's model
@@ -163,15 +185,20 @@ The MIT license lets you build anything. These are the rules that make a tool hi
 | Rule | Source | In the data |
 |---|---|---|
 | Few inputs. The whole plan comes out once, with every week visible. | R3-VOL-04 | `plan_types`, `rule_tables.rate_engine.no_feedback` |
+| No session-length input and no time-fitting. Size sessions by exercise count. Time is an estimate, printed as information. | CT-01, R4-SES-01, R4-SES-02 | `model/rules.json > session.size`, `time_model.use` |
+| The coach's day templates are the skeleton. Nothing is dropped automatically. | R4-SES-05, R4-SES-04 | `model/templates.json`, `model/rules.json > session.easy_to_remove` |
+| Every trained group reaches its final sets; reps and load are a rule the person applies | CX-01, R4-PRG-01, R4-PRG-03 | `model/rules.json > stairway.progression`, `render.progression` |
 | No check-ins, no tracking, no input after the build | R3-VOL-02, R3-VOL-04 | `adaptation.status`, `validation_checks.V26_inputs` |
 | No user data kept: no accounts, no stored answers, no analytics with personal fields | R3-GEN-01 | `legal_and_privacy.no_data_kept`, `validation_checks.V27_no_data_kept` |
 | No sex or gender field | GEN-02, ATH-09 | `inputs_schema.removed_fields` |
 | No sleep, stress, job or life questions | R2-GEN-04 | `inputs_schema.removed_fields` |
-| A health check, and a "use at your own risk" box at every build | R2-GEN-03, R3-GEN-01 | `legal_and_privacy.health_check`, `.release_every_build` |
-| People can edit the plan: switch off blocks, add or remove exercises, take the suggested supersets | R3-SES-02 | `plan_editing` (mechanism PROPOSED) |
+| The terms and release accepted before any plan is generated; a release line on every plan; a health check | R4-SCP-01, R4-SCP-02, R2-GEN-03, R3-GEN-01 | `model/rules.json > legal.gate`, `legal.release_line`; `legal_and_privacy.health_check` |
+| People can edit all of the plan: sets by day or week, switch off blocks, add or remove exercises, take the suggested supersets | R3-SES-02, CX-02, CX-04 | `plan_editing`; `engine/edit.mjs` (screen mechanics PROPOSED) |
+| No third-party video links. A YouTube search link and the exercise name to copy. | R4-LIB-05 | `model/rules.json > render.video` |
+| Exercises the team proposed are optional add-ons, never a template's pick | R4-LIB-01 | `model/rules.json > selection.addons` |
 | No bands, chains or weight releasers | EQ-01, EQ-12 | `rule_tables.equipment.no_variable_resistance` |
 | English first, with a full Spanish switch | GEN-01, R2-GEN-08 | `model/i18n/` |
-| The 22 hard rules | see [AGENTS.md](../../AGENTS.md) §10 | `model/rules.json > locked`, `validation` |
+| The hard rules | see [AGENTS.md](../../AGENTS.md) | `model/rules.json > locked`, `validation` |
 
 If your product breaks one of these on purpose, say that it is your own version and not his model.
 
@@ -199,7 +226,8 @@ Three things to remember:
 | Liability | You release Blaze Camp when you use this. Your users are your responsibility. See [DISCLAIMER.md](../../DISCLAIMER.md) §4 and §5. |
 | Privacy | The Blaze Camp tool keeps nothing. If your app keeps data, the privacy terms and the handling are yours. See DISCLAIMER.md §7. |
 | Legal text | The disclaimer, the health check and the release are drafts waiting for a Florida attorney. Do not ship them as final. |
-| Videos | The video links in his sheets belong to other people. See DISCLAIMER.md §8. |
+| Videos | The video links in his sheets belong to other people. They were removed from the compiled model and the library source (R4-LIB-05). The sheet exports (`raw/`, `dumps/`), the first-pass files in `analysis/`, `synthesis/02_exercise_catalog_crosswalk.json` and the old model snapshots under `design/scratch/snap*/` still hold them; whether those files stay public is an open release item. See DISCLAIMER.md §8. |
+| Credit | The model is the coaching experience and intellectual property of Coach Lalo (Gerardo Vera), Master NASM coach (R4-REL-03). The MIT license still applies as written. |
 
 ## Related pages
 

@@ -45,7 +45,7 @@ His sheets already have optional-day slots called 'Focus 1' and 'Focus 2'. In ro
 - The Focus exercise goes first in its session. Small muscles go first only when they are a priority (ORD-04).
 - The optional-day Focus slots can both hit the same muscle, 2 to 3 sets each (ORD-11).
 - Shoulders are one choice ([ADR-018](adr-018-rear-delts-part-of-shoulders.md)).
-- Open for the coach: Focus muscles for competitive field athletes (N-PROD-25), and what happens to a Focus muscle that is arms or calves when time is short (N-PROD-27).
+- Open for the coach: Focus muscles for competitive field athletes (N-PROD-25), and what happens to a Focus muscle when its template has too few slots for its sets. The second question used to be about short time (N-PROD-27); time is no longer a limit ([ADR-050](adr-050-no-time-fitting-sessions-sized-by-exercise-count.md)). Today the plan adds a bonus exercise on the optional day, or caps the group and says so.
 
 ## Where it lives in the data
 

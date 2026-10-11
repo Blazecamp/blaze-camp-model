@@ -1,4 +1,4 @@
-# Blaze Camp plan generator — engine CONTRACTS (Phase 0, binding) — v1.1
+# Blaze Camp plan generator — engine CONTRACTS (Phase 0, binding) — v1.1 (engine 0.5.0 amendments on top: V1, V2, V3, V4)
 
 Status: **binding for Phase 0** ("freeze the model"). Version `contracts/1.1.1`, 2026-10-09 (integration step; 1.1.0 by the
 architect, 2026-10-08). The 1.1.1 amendments resolve `engine/CONTRACT_REQUESTS.md`; each is marked **[1.1.1]** below and listed in §11.
@@ -7,6 +7,277 @@ Supersedes `contracts/1.0.0` (written before round 2 was answered). Every builde
 exactly the shapes, names and signatures below. If something here is wrong or missing, **do not silently diverge**: implement
 the closest compliant thing, write the issue to `engine/CONTRACT_REQUESTS.md` and in your final report under `problems`.
 
+> **Engine 0.5.0 amendments (fix round 2; 2026-10-11) - binding, on top of the fix-round-1, V4, V3, V2 and V1 boxes below.**
+> Authority: the coach answers named per item (`engine/DECISIONS.md` G-76 ... G-96), read against the second coach-eye review of the
+> 8 samples. Model layer: `tools/fixture/v05-fix2.mjs` (after `v05-fix1.mjs`, in both builds): `amendExerciseX2`, `amendRulesX2`,
+> `amendTemplatesX2`, `amendSportX2`, `UI_X2`, `CLASS_SKELETONS`. Engine and contract version stay 0.5.0.
+> * **New rule sections** (all optional for older models - the engine reads each with a guard): `rules.selection.x2`
+>   (`core_primary`, `incline_first_hotspot_codes`, `shoulder_press`, `chest_shoulders_single_b`, `chest_shoulders_all_b`,
+>   `youth_level_exempt_re`, `circuit` with `stand_in`, `small_kit_rows`, `swap_notes`, `pain_swap`, `swaps`, `chest_slot_uni`,
+>   `weighted_pull`), `rules.placement.x2` (`honest_schedule`, `order`, `iso_fourth_from_share`, `extra_for_start`,
+>   `extra_ceiling_margin`, `end_test_week_hold`, `floor_first`, `template_extra`, `bonus_order`, `pull_profile_muscle`,
+>   `pre_season_optional_min_sets`), `rules.athletic.x2` (`loaded_jump`, `upper_plyo_not_for_codes`), `rules.conditioning.x2`,
+>   `rules.conditioning.buyout_pool.x2`, `rules.session.x2.circuit_kit_aware`, `rules.supersets.bootcamp.x2` (`order`,
+>   `work_s_values`, `rounds_late`), `rules.olympic.x2.l2_block1`, `rules.core_block.x2`, `rules.volume.pain.x2`. Changed in place:
+>   `rules.volume.push_pull` (`back_cap: 'planned'`, `capped_slack`, pull classes `ISO_REAR`, `FACEPULL`),
+>   `rules.selection.skeleton_laterality` (prefix `class_`, lead-row skeletons `class_squat` / `class_pull`, `x2_free`),
+>   `rules.validation.v05.skeleton` (prefix `class_`, `partner`), `rules.selection.generic_id_patterns` (the plain pull-up is no
+>   placeholder), `rules.volume.calves.optional_slot_below_leg_days`.
+> * **Functions.** `buildShape(derived, model, opts?)` - `opts.noLateRounds` builds a circuit plan without the extra round of the
+>   last weeks; `generate` asks for it when that round would fail V13's absolute cap. `circuitWorkSeconds(N, steps, CS, X2?)` - with
+>   the fourth argument the seconds are the timer steps of `X2.work_s_values`. `engine/library.mjs` exports `coreFunction(ex)`.
+>   `planWeeklySets` plans a block up to `honest_schedule.passes` times; its result shape is unchanged.
+> * **Plan fields.** No new required field. A day of the class week carries `skeleton` (`class_squat`, `class_press`,
+>   `class_deadlift`, `class_pull`); a week's `circuit.rounds` may differ between weeks of a block and `circuit.work_s` may be held
+>   for a week. A buy-out item's `reps` is `{ type: 'calories', n }`, its `effort.key` is `effort.buyout_sprint` and its `rest` is
+>   `null` for a single bout. A core-block item that opens a day has `effort.type: 'intent'` in every week. An item flag
+>   `no_vertical_pull` marks a vertical-pull station the kit could not set up; a fill may carry `pain_instead_of` (the lift the
+>   pain changed) - the flag `pain_swap` is set only then. New notes: `note.pain_instead_of`, `note.pain_free_depth`,
+>   `note.buyout`; new why keys: `why.circuit_stand_in`, `why.circuit_hand_over`, `why.template_extra_station`.
+> * **Warnings** (`plan.meta.warnings[].code`): `no_vertical_pull`, `pain_plan`, `laterality_capped` (args `share`, `target`).
+> * **Checks.** V30 also holds the class skeletons, the partner rule (`partner_missing`: a knee-dominant lift needs the pull its
+>   template names, a hip-dominant lift the push) and exempts the free knee slot of a change-of-direction sport; V4 exempts the ids
+>   of `youth_level_exempt_re`; V19 accepts the ids of `olympic.x2.l2_block1` in an L2 lifter's first block; H21 for circuits: the
+>   work seconds and rounds never go down, a pair is held no longer than `ceil(weeks / work_s_values.length)` weeks, and the block
+>   ends higher than it starts.
+> * **Scorer** `design/bench/score.mjs` is 2.3.0 (`ctx.oneArmCapIn`, `ctx.sportOf`; parameters `selection_x2`, `placement_x2`,
+>   `bootcamp_x2`, `powerlifting_presses_rule`); the context takes the sport profiles as its optional fourth model part.
+
+> **Engine 0.5.0 amendments (fix round 1; 2026-10-11) - binding, on top of the V4, V3, V2 and V1 boxes below.**
+> Authority: the coach answers named per item (`engine/DECISIONS.md` G-58 ... G-75), read against the coach-eye reviews of the 8
+> samples. Model layer: `tools/fixture/v05-fix1.mjs` (after `v05-integrate.mjs`, in both builds): `amendExerciseX1`, `amendRulesX1`,
+> `amendTemplatesX1`, `amendSportX1`, `UI_X1`, `PINNED_SKELETON_PREFIXES_X1`. Where this box and an older box disagree, this box wins.
+> * **Skeleton laterality** (R4-SES-05): `rules.selection.skeleton_laterality.skeleton_prefixes = ['gym_','ppl_','athletic_']`,
+>   `lead_row.skeletons = ['gym_A','athletic_A']`; `rules.validation.v05.skeleton.laterality_skeleton_prefixes` the same. The athletic
+>   A / B / C days no longer use the lower dial (this replaces "days with an `athletic_*` skeleton keep both dials" below).
+> * **Credit**: `rules.credit.classes.MRPUSH {front_delts:1, chest:0.5, triceps:0.25}` (the three high-incline presses; PROPOSED).
+>   H08 accepts a credit that is its class's own number. `check-model` accepts a class with no 1.0 credit on the primary muscle.
+>   The three flies have `exercise_class: 'isolation'`.
+> * **Selection** `rules.selection.x1 {work_prefer, second_day_prefer, pain_work, below_ladder, lead_press, chest_shoulders,
+>   iso_machine_first, core_families, core_family_over_week, cross_bucket_repeat, care_slot_prefer, low_impact_heights,
+>   olympic_split_grip, class_press_both_passes, keep_class_at_block_change, dial_reads_plan_sets, second_pass_top_tolerance}`;
+>   `rules.selection.slot_variants.ISO_TRICEP.overhead {id_re:'overhead', strict:true}` (a `strict` variant restricts the pick while a
+>   candidate matches); `rules.selection.r2.families` gains `bent_over_barbell_row {week_max:1}`. `selectBlock` / `fillSlot` take
+>   optional `live_sets {slot_id: sets across the exercise block}` and `live_weeks` in the second pass (the dials' weights).
+>   A resistance item's `swaps` are never empty while the slot's bucket holds another lift of its category.
+> * **Volume** `rules.volume.floor.counted_on = 'main_days'`; `rules.volume.push_pull {applies_from, min, max, hard, push_classes,
+>   pull_classes, pull_group, exempt_focus_lines}`; `rules.volume.calves.climb_without_optional`; `rules.volume.x1 {shoulders_athlete,
+>   direct_min}`; `rules.placement.bonus.sets = [2,4]`; `rules.placement.x1 {iso_main_day_max{default,hardest,phase},
+>   work_min_from_hint_families, step_first, test_week_no_step_on_tested, eve_of_game{lighter_by,keep_sets}, keep_climb_when_capped,
+>   bonus_from_block_start, main_day_extra{groups,sets,per_day}, capped_notice{focus,below_start,big_below_share}}`;
+>   `rules.stairway.progression.stagger {enabled, weeks_early}`.
+> * **Kernel** `engine/progression/stairway.mjs` exports `stairwayProgress({start, peak, rates, numerics}) -> {status, progress|null,
+>   lambda, curveAccelerated}` and `staggerStairways({groups:[{id,start,peak,progress,cap?}], weeks, weeksEarly}) -> {sets:{id:
+>   number[]}, total:number[]}` (pure; `weeksEarly` is 0 or 1).
+> * **Plan `plan/2`**: `meta.stairway[]` gains, after `circuit`: `floor_counted_on: 'main_days'|'all_days'`, `floor_on_optional:
+>   string[]` (groups that hold the floor only with the optional day), `lowered_start: [{group, start, planned_start}]`, `balanced:
+>   {group, start?, top?, ratio}|null`, `push_pull: {pull_per_push, hard}|null`; `meta.stairway[].capped[]` gains `notice: boolean`
+>   (false: the week-by-week table names the group, no up-front line). An item may carry the flag `joint_care` (a template lift
+>   that is also the day's joint care; its notes hold `prehab.label.<code>` and `note.joint_care_slot`) and `back_off` items follow a
+>   test item of the same slot that opens the strength block. A main-day item with `origin: 'bonus'` is the day's extra small
+>   exercise (`why.extra_small_exercise`). `D11_athletic_budget.day_scale` (1, or the day scale of a profile the coach has not
+>   confirmed). New warning `floor_needs_optional_day {group, held, floor}`; new why key `why.eve_of_game`.
+> * **Athletic / tests / prehab / words**: `rules.athletic.x1 {scale_by_days{reference_days,floor,confidences,keys,step},
+>   pre_season_keep_sets, cod_sport_jump_every_day, heavy_play{one_jump_station_a_day, throw_replaces_cuts}, low_impact_low_box}`;
+>   `rules.athletic.r2.pre_season_hold.keys` gains the jump keys; `rules.tests.x1 {tested_lift_first, lower_test_needs}`;
+>   `rules.prehab.x1 {in_template_slot, never_status}` (a slot serving a code carries `care_code`); `rules.warmup.x1`;
+>   `rules.effort.intensifiers.never_pain_muscle` and `.x1 {no_calves_with_tests, calves_last_resort, two_sided_first,
+>   main_days_only}`; `rules.reps.rep_hint.x1.menu`; `rules.conditioning.wod.x1` and `.for_time_progress`;
+>   `rules.session.size.by_type.stay_active.range = [5,10]`. Templates: 1,679 -> 1,682 stations.
+> * **Validation**: no new check id (59). V12 `work_first` and V30 `slot_order` allow the tested lift first; V12 / V17 read the MYO
+>   rule with the pain and calf exclusions; V27 lets a pre-season week hold the off-season block's athletic work.
+> * **Benchmark** scorer 2.2.0 (`design/bench/score.mjs` header lists every reading); results `design/bench/results_v05.json`,
+>   `design/bench/V05.md`; the run before this round is kept as `results_v05_pre_fix1.json` / `V05_PRE_FIX1.md`.
+>
+> **Engine 0.5.0 amendments (work package V4 "integrate"; 2026-10-11) - binding, on top of the V3, V2 and V1 boxes below.**
+> Authority: COACH-R4 R4-SES-05, R4-PRG-04, COACH-ANSWER ORD-08, ORD-11, UNI-02 / UNI-03, EQ-03, R2-ATH-08; OBSERVED `dumps/BYOP`
+> (`design/ENGINE_V05_PLAN.md` "V4 integrate"). Decisions: `engine/DECISIONS.md` G-51 ... G-57. Model layer:
+> `tools/fixture/v05-integrate.mjs` (after `v05-words.mjs`, in both builds): `amendExerciseV4`, `amendRulesV4`, `amendTemplatesV4`.
+> * **The skeleton keeps its laterality** (R4-SES-05). `rules.selection.skeleton_laterality {skeleton_prefixes:['gym_','ppl_'],
+>   lower_fixed:true, laterality_of_bucket{RP_BKD|RP_BHD:'bilateral', RP_UKD|RP_UHD:'unilateral'}, unilateral_lateralities, lead_row
+>   {skeletons:['gym_A'], bucket:'RP_HPULL', penalty}}`. On a day whose `skeleton` starts with `gym_` or `ppl_`, `select.
+>   decideLaterality` never flips a lower slot and the home second squat stays two-legged; the `gym_A` day's first `RP_HPULL` slot is a
+>   two-arm row (the upper dial treats it as fixed, like the lead press). Days with an `athletic_*` skeleton keep both dials.
+>   `rules.validation.v05.skeleton` gains `laterality_of_bucket`, `laterality_skeleton_prefixes`, `unilateral_lateralities`,
+>   `laterality_exempt_flags`. **V30** adds the violation `rule: 'slot_laterality'`; **V28** reads the share only on the stations the
+>   dial may move and is skipped for a plan whose lower compound stations are all pinned.
+> * **Slot kinds** (OBSERVED BYOP PUSHPULLLEGS): `rules.selection.slot_variants {ISO_TRICEP{push{id_re, weight}, overhead{id_re,
+>   weight}}}` - a preference weight in `select.scoreOf` for a slot whose `variant` names a kind; the two triceps stations of the
+>   `ppl_push` day carry `variant: 'push' | 'overhead'`.
+> * **Templates**: on `ppl_push` the `ISO_CHEST` station and on `ppl_legs` the `ISO_QUAD` and `ISO_LEG_FLEXION` stations have `block:
+>   'strength'` (the day prints slot for slot in the order of his sheet; a day prints block by block). Every main day type holds a
+>   `WARMUP_GENERAL` station (ORD-08): `hybrid_crossfit.5` FRI gains `FRI.w01`. Stations 1,678 -> 1,679.
+> * **Volume**: `rules.placement.optional_focus.close_when_over_top: true`. In `volume.planStairs`, where a trained group's exercises at
+>   their fewest sets hold more than its planned final sets, the optional day's template Focus slots of that group are closed (0 sets
+>   for the whole training block, last slot first) while the group still starts at or above its level's start; the person's own Focus
+>   muscle keeps the slots that fit. **Plan `plan/2`**: `meta.stairway[]` gains `focus_closed: [{group, slot_id}]` (after `bonus`).
+> * **Catalog**: `handstand-skill-work-h-s` is `level: 'advanced', skill: 'high', older_ok: false, older_opt_in_ok: false`;
+>   `handstand-push-up-wall-supported` is `older_ok: false, older_opt_in_ok: false`. `rules.selection.floor_work {not_floor_id_re,
+>   floor_lift_id_re}`: the intake exclusion `floor_work` covers the floor core records, every push-up except the hands-elevated one,
+>   and the lifts done lying, sitting or kneeling on the floor.
+> * **Athletic block order**: `athletic.pairAthleticBlock` marks the jump + throw pair only between neighbours and never reorders the
+>   block (`rules.ordering.hard` SPEED_SESSION_ORDER).
+> * **render**: the block view lists a day's rows in session order (a station that first appears in a later week is inserted after
+>   the station that precedes it that week).
+> * **Benchmark** (`design/bench`, scorer 2.1.0): `makeContext({rules, catalog, templates, profiles?})`; `skeleton_mismatch` adds
+>   kind `slot_laterality`; `laterality_error` is read on the stations the dial may move; the MYO-last check uses the engine's
+>   exclusions (`rules.effort.intensifiers.never_tags / never_id_re / never_calves_hotspots`); a low-amplitude hop is allowed in
+>   every Receive-Create stage; the end-test week's baseline athletic dose is reported, not counted as a drop (parameter
+>   `athletic_end_test_week_dose_ok`, default true). Results: `design/bench/results_v05.json`, `design/bench/V05.md`.
+>
+> **Engine 0.5.0 amendments (work package V3 "words and checks"; 2026-10-11) - binding, on top of the V2 and V1 boxes below.**
+> Authority: COACH-R4 R4-SCP-01 / R4-SCP-02, R4-PRG-02 / R4-PRG-03, R4-SES-04, COACH-CT CT-01, R4-SES-01, R2-GEN-02, R2-GEN-08
+> (`design/ENGINE_V05_PLAN.md`). Decisions: `engine/DECISIONS.md` G-37 ... G-50. Model layer: `tools/fixture/v05-words.mjs` (after
+> `v05-library.mjs`, in both builds).
+> * **The liability gate** (R4-SCP-02): `generate` returns `status: 'invalid'` (no weeks, error `release_missing`) unless
+>   `intake.release.accepted === true`; the check runs before the health screen. **Plan `plan/2`**: `release_stamp = {version, lang,
+>   role, guardian, accepted}` (`accepted: true` on every ok plan); day adds `skeleton` after `exercise_count` (`gym_A | gym_B | gym_C |
+>   athletic_A | athletic_B | athletic_C | ppl_push | ppl_pull | ppl_legs | null`: the template day type's own; null on a day type
+>   with no skeleton and on play / sport / cardio days).
+> * **Rules** (new): `legal.gate {required:true, field, before, applies_to, without_it, stamp}`, `legal.release_line {label_key,
+>   link_key, by_version{release.client|coach|minor}, short_key, footer_key, no_plan_key, positions:['top','bottom'], views, langs,
+>   files}`; `render.progression {section, per_item, promised_numbers:false, keys{double_progression, load_when_all_sets_done,
+>   written_reps}, per_side_suffix, rir_default}`, `render.acceleration {mark, above}`, `render.estimate {information_only:true,
+>   range_factor:[0.9,1.1], round_to_min:5}`, `render.easy_to_remove {max_listed, kind_keys}`, `render.views {list, macro,
+>   weekly_sets_by_week}`; `validation.checks` + V30 ... V37 (V32 warn, the rest error) and `validation.v05 {by_rule, skeleton
+>   {pattern_of_bucket, lift_blocks, ordered_bucket_prefix, complete_in_block_types, not_required_buckets, absent_ok_whys}, incline
+>   {majority, not_roles, not_block_kinds, not_flags}, video {forbidden_re}}`.
+> * **render** (§4.11): `renderPlan(plan, model, {lang, format, view, weeks, macro, show_why, show_swaps, units})`; `macro: true` with
+>   `view: 'week' | 'day'` (and on `renderWeek` / `renderDay`) gives the compact tables instead of the cards. Every view and fragment
+>   prints the release line of the plan's stamp with the link to the full text (top and bottom on `full` and `overview`). New
+>   sections of the full plan, in order after the instructions: "How you progress", "How to adjust this plan", "Optional add-ons";
+>   the block view opens with the weekly sets per group, week by week. A day card prints, after its title: the average time as a
+>   range (information only), the blocks that can be switched off, the superset suggestions, what is easiest to remove; a lift with
+>   `item.progression` prints its rule line after its load line.
+> * **Words** (new keys): `ui.plan.release_line(_coach|_minor|_short)`, `ui.plan.release_footer`, `ui.plan.progress_title / _rule /
+>   _rule_plain / _sets / _sets_flat / _circuit / _accel(_one) / _next / _edit`, `ui.plan.progress.double(_side) / fixed(_side) /
+>   written`, `ui.plan.accel_week(_total) / accel_legend`, `ui.plan.est_range / est_line(_one)`, `guide.adjust.time(_no_list) /
+>   sets`, `ui.plan.easy_to_remove_line / easy_kind.* / easy_more`, `ui.plan.sets_by_week_title / _note(_plain)`,
+>   `ui.plan.col.group / sets_by_week / final_sets`, `ui.plan.final_capped / final_credit_only`, `ui.plan.sets_this_week`,
+>   `ui.plan.week_macro`, `check.v30_template_skeleton ... check.v37_carry_dose`, `check.failed.V32`. Reworded: `warning.
+>   release_missing`, `ui.plan.release_stamp_flat`, `ui.plan.weekly_sets_groups_note`, `check.v13_caps`, `check.v21_release`,
+>   `check.h20_release`. Deleted (17 dead keys, `REMOVED_V3`): the schedule-section lines, `time.kept`, `ui.plan.est_minutes_cardio`,
+>   `ui.plan.estimate_minutes`, `ui.plan.easy_to_remove`, the retired rate-cap reasons. Spanish: 41 reviewed lines (`ES_REVIEW_V3`).
+> * **Checks** (§6; 59 ids: V1 ... V37, H01 ... H22). V21 / H20 = the liability gate (stamp accepted, version by role and age, the
+>   release line's words and link in EN and ES; a non-plan result holds no weeks). V30 = a day that names a skeleton follows its
+>   template (the template's skeleton; each lift from a template station and inside its slot's pattern; compounds in the coach's
+>   order; in a stairway week every counted lift present unless the day says why, the group is credit only or the kit holds no
+>   exercise for the slot). V31 = no optional add-on or proposed record as a pick or WOD station outside
+>   `selection.addons.primary_exceptions`; no still-proposed record among swaps or offered add-ons. V32 (warn) = incline or
+>   mid-range presses are at least half of the vertical / mid-range push picks of a training block for the incline-first clients
+>   whose kit holds an incline press (the class work press, circuit stations and pain swaps are not read). V33 = a video is null, the coach's own, or a search link on `render.video.search_url`; no
+>   third-party video link anywhere in the plan. V34 = every set-and-rep lift carries the rule of its own rep range; nothing
+>   promises a number for a week. V35 = a stairway group-week above `stairway.progression.note_above` (by `note_min_whole_sets` or
+>   more) carries its acceleration entry and the plan its notice. V36 = the easy-to-remove list names items of the day, of a kind
+>   the rule orders, never a core exercise, a main lift or the first athletic station. V37 = a carry or sled item is never counted
+>   in reps or credited; on its own it runs 2-4 trips at the rule's metres / seconds. An edited plan is not judged by V30, V32 and
+>   V35 (CX-04), and the exercises a person added by an edit are outside V31, V34 and V37's dose rules. No check reads minutes.
+> * **assertModel** (new): `legal.gate.required` is true; the release line has English and Spanish words for every version and a
+>   link per language; the progression rule is worded for every kind (and per side) and promises no numbers; the estimate is
+>   information only; `session.easy_to_remove.automatic` is false; every check has English and Spanish words; `time_model.use` is
+>   `estimate_only`.
+> * **Benchmark** (`design/bench/`, not part of the engine): scorer 2.0 (`bench-score/2`, acceptance rows A1-A14, no
+>   minutes-based metric), `run.mjs` (`bench-results/2`), `selftest.mjs`.
+
+> **Engine 0.5.0 amendments (work package V2 "library and selection"; 2026-10-11) - binding, on top of the V1 box below.** Authority:
+> COACH-R4 R4-LIB-01 ... 05, R4-SCP-03 (`design/ENGINE_V05_PLAN.md`). Decisions: `engine/DECISIONS.md` G-25 ... G-36. Model layer:
+> `tools/fixture/v05-library.mjs` (after `v05-structure.mjs`, in both builds).
+> * **Catalog `catalog/2`** (keys unchanged, 733 records): `status` adds `optional_addon` (R4-LIB-01: never a default, never a
+>   template pick; `proposed_v1` / `proposed_v1_1` remain only on neck work and are never shown); `video` is ALWAYS
+>   `{url, kind}` with `kind: 'search'` and `url = rules.render.video.search_url + encodeURIComponent(<English name>)` (R4-LIB-05;
+>   `kind: 'coach'` is reserved for the coach's own videos; `'observed'` is gone); `rep_hint.unit` adds `distance_or_time` and
+>   `counting` adds `distance_or_time` (carries and sled work, R4-LIB-02: `credit_class: 'NONE'`, `credits: {}`,
+>   `primary_muscle: null`, no `FOCUS` slot); `pattern` adds `MRPULL` (R4-LIB-03); closed tag list adds `carry_sled`,
+>   `mid_range_push`, `mid_range_pull`; `older_ok` is true for the landing drills round 3 switched on (R3-ATH-02).
+> * **Templates**: bucket `FUNCTIONAL.block = 'conditioning'` (R4-LIB-02).
+> * **Profiles `profiles/2`**: every `sports[id]` adds `confidence` (`confirmed_by_coach | similar_sport | proposed`) and
+>   `confidence_basis` (string) as its last two keys (R4-SCP-03; never printed on a plan).
+> * **Rules** (new): `selection.addons {addon_status, never_pick_statuses, not_shown_statuses, primary_exceptions[{ids, bucket,
+>   variants?, families?, enabled?}], offer{max, order, carry_goals, carry_ids, sets, skip_units}}`; `conditioning.carry {patterns,
+>   tag, trips:[2,4], metres:[20,40], seconds:[20,40], per_side_when_one_sided, counts_as_muscle_sets:false, credit_class:'NONE',
+>   sits_with, effort_key}`; `selection.mid_range {push{tag, pattern, fills}, pull{tag, pattern, node, between, fills, credit_class,
+>   template_pick:false, examples}}`; `selection.incline_first {bucket, tag, incline_re, weight, weight_other, goals,
+>   not_competitive, overhead_stays}`; `selection.swap_notes {enabled, equipment_substitute_flags, instead_of_note}`;
+>   `selection.v2 {lead_press{body_weight_two_arm_first}, second_hinge{family, alt_credit_class, trained_levels,
+>   trained_prefer_re, trained_prefer}}`; `render.video {kind, search_url, third_party_links:false, copy_name,
+>   name_lang}`; `render.profile_confidence {labels, shown_on_plan:false}`. Changed: `selection.lead_press.floor_penalty -8`, `selection.r2.family_over_week -7`,
+>   `selection.r2.families` + `high_incline_db_press`, `prehab.preferred_by_code.ACHILLES_CALF` (+ three live calf raises),
+>   `population.older.quick_stepping_no_hop` (no split-step), `athletic.f2.pick_ok_ids` (no add-on). Deleted:
+>   `prehab.preferred_status_ok`, `volume.older.step_cap`, `population.older.step_cap`, `volume.priority.nonpriority_step_cap`.
+> * **Modules**: `engine/library.mjs` - `NEVER_PICK_STATUS, NOT_SHOWN_STATUS, ADDON_STATUS, neverPick(ex), notShown(ex), isAddon(ex),
+>   addonPrimaryOk(ex, slot, eb, family, rules), isCarry(ex, rules), carryReps(ex, rules) -> RepSpec,
+>   implementOf(ex), swapNote(model, from, to) -> {id, keeps, loses}, swapNotes(model, pickId, swapIds), videoOf(model, ex) ->
+>   {kind, url, copy_name}`. `select.offeredAddons(ctx) -> [{exercise_id, kind:'joint_care'|'sport'|'carry', code, bucket}]`
+>   (`ctx.exclude_ids`); a SlotFill may carry `instead_of {exercise_id, keeps, loses}` and the flags `second_hinge`,
+>   `prehab_addon_only`. `generateWith` calls `deps.offeredAddons` when the selection module exports it (the stubs do not).
+> * **RepSpec** adds `{type:'distance_or_time', metres:[lo,hi], seconds:[lo,hi], per_side:boolean}` (`sets` = trips).
+> * **Plan `plan/2`**: `meta.addons[]` after `meta.tests` = `{exercise_id, name_key, kind, code, bucket, block, sets:[min,max], reps,
+>   counts_as_muscle_sets, video, why}`; item `video = {kind, url, copy_name} | null`; item adds `swap_notes[{id, keeps, loses}]`
+>   and `instead_of {exercise_id, keeps, loses} | null` after `swaps`; a stand-in adds the note `note.instead_of` (`args: {pick,
+>   instead, keeps, loses}`, all i18n keys). Items added by an edit carry the same keys.
+> * **Words** (new keys): `reps.distance_or_time(_per_side)`, `effort.carry`, `note.carry_dose`, `note.instead_of`,
+>   `ui.plan.swap_note(_keeps)`, `swap.keeps.*`, `swap.loses.*`, `ui.plan.copy_name`, `ui.plan.addons_title / addons_intro`,
+>   `addon.purpose.sport / carry`, `why.incline_first / addon_offered / second_hinge / carry_dose`; `video.note` is reworded
+>   (search links).
+> * **assertModel** (new): no default pick on an add-on; only neck work may be `proposed`; a carry / sled record credits nothing and
+>   is dosed by distance or time; every exercise's `video` is a search link built from its English name (or kind `coach`); every
+>   sport profile's `confidence` is one of the three labels.
+
+> **Engine 0.5.0 amendments (work package V1 "structure and volume"; 2026-10-11) - binding, they supersede everything below where
+> it conflicts (including the 0.4.0 blocks).** Authority now starts with COACH-R4 and COACH-CT CT-01, then CX-01 ... CX-04
+> (`design/ENGINE_V05_PLAN.md`). Decisions: `engine/DECISIONS.md` section G.
+> * **No time fitting** (CT-01, R4-SES-01). Removed from every contract below: `schedule.session_minutes` (intake; a sent value is
+>   ignored with `warning.session_minutes_retired`), `derived.session_minutes`, `plan.time_check`, `plan.offers`, `meta.session_minutes`,
+>   `day.minutes_limit`, `day.supersets_needed`, station `include_from_minutes` / `superset_below_minutes`, the modules' time-fit
+>   functions (`engine/timefit.mjs` is deleted) and the rules `session.exercise_cap_by_minutes / minutes_default / minutes_allowed /
+>   long_day / time_fit`, `cut_order`, `stairway.lambda / capacity / track / release / hold_rules / min_climb / limits.*` (except
+>   `limits.pain_after_freeze`). `rules.time_model` stays as an ESTIMATE (`use: 'estimate_only'`); `day.est_minutes` is information.
+> * **Intake `intake/2`**: `schedule = {days_per_week, weekdays, start_date}`.
+> * **Derived**: `D6_week_layout.session_size = {type, range:[lo,hi], default, refs}` (`intake.sessionSize(i, family, profile,
+>   templateSel, model)`); `D12_planned_step = {early, late, caps:{nonpriority_while_priority:null, older:null}, target_reached:true,
+>   note_above, arrival_weeks_early_max, source}`; `D9_start_sets.two_day` (boolean), `.carriers` (group -> carrier line).
+> * **Templates**: every station carries `rank` (last key; number for a counted station - 1 = first to stay -, `99` for a template
+>   extra outside the default session, `null` for an uncounted station that is always in); every day type carries `count`
+>   (exercise count of the day, `null` = the client type's default) and `skeleton` (`gym_A | gym_B | gym_C | athletic_A | athletic_B |
+>   athletic_C | ppl_push | ppl_pull | ppl_legs | null`).
+> * **Rules** (new): `session.size {by_type, by_family, circuit_type, finisher_types, stay_active_type, older_type}`,
+>   `session.easy_to_remove {order, always_keep, automatic:false}`, `session.class_lift`, `session.exercises_per_group.full_body_day =
+>   [1, 4]`, `volume.floor.applies_from_days = 3` (`counted_on: 'all_days'`), `volume.two_day {days_max, weekly_sets:[6,8],
+>   big_classes, suggest_days}`, `volume.calves.optional_slot_sets [2,3]`, `stairway.progression {target_reached, rounding:'arrival',
+>   arrival_weeks_early, arrival_weeks_early_max, note_above, note_min_whole_sets, flat_weeks_ok, numerics}`, `cycles.next_block
+>   {multiplier, min_whole_sets, never_above_top}`, `placement {on:'groups', min_sets, max_sets_per_exercise, bonus{sets, where,
+>   max_added_per_optional_day, order}, optional_focus{slots, sets}}`, `supersets.bootcamp.stairway.rounds_by_level`.
+> * **Modules**: `engine/lines.mjs` (`linesOf, lineCredits, groupCredits, primeLines`), `engine/estimate.mjs` (`timeClassOf,
+>   restClassOf, setCost, supersetMinutes, testMinutes`), `engine/progression/stairway.mjs` (`solveEndpointCurve, arrivalSchedule,
+>   accelerationReport, planStairway({start, peak, rates, weeksEarly, noteAbove, minWholeSets, numerics}) -> {status, sets, lambda,
+>   curveAccelerated, report}`), `engine/progression/prescription.mjs` (`nextBlockStart, planProgression, progressionRule,
+>   evaluatePrescription, applySetEdits`), `engine/edit.mjs` (`applyPlanEdits(plan, edits, model) -> {plan, edited:true, applied,
+>   conflicts, priorValidationDiscarded:true}`; edits `{op:'set_sets', weekday, slot_id, sets, weeks?}`, `{op:'remove_exercise',
+>   weekday, slot_id, weeks?}`, `{op:'add_exercise', weekday, block, exercise_id, sets, weeks?}`, `{op:'set_block', weekday, block,
+>   on, weeks?}`; conflict codes `sets_above_max, sets_below_min, session_size_above_range, group_below_target, group_below_floor,
+>   group_sets_decreased` with class `bound | plan_shape | info`).
+>   `volume.planWeeklySets(ctx) -> {weeks, athletic, warnings, block_targets}`; `block_targets[] = {training_block, N, start, cap,
+>   groups, credit_only_groups, carrier, group_start, group_top, planned_start, planned_top, schedule, lambda, arrival_week,
+>   realized_arrival_week, realized_top, capped:[{group, planned, held}], below_floor, bonus:[{group, slot_id}], lowered:[],
+>   dropped_groups:[], circuit?}`. `week.keepStation(st, ctx, count)`; `week` days carry `exercise_count` (the count the day was built
+>   to). `athletic.planAthletic(model, derived, shape, budget, weeksItems)` (no `opts.rooms`). `shape.circuitWorkSeconds(N, steps, CS)`.
+> * **Plan `plan/2`** key order: top `schema, status, model_version, engine_version, contracts_version, seed, intake_hash, lang, units,
+>   release_stamp, refer, errors, edited, meta, shape, weeks, summary, validation` (an edited plan adds `edits`); `meta` adds
+>   `session_size {type, range, default}`, `two_day {weekly_sets, suggest_days} | null`, `time: 'estimate_only'` after `play_days`;
+>   `meta.stairway[]` = the block record above (plus `acceleration`); week adds `target_by_group, acceleration, credit_only_groups`
+>   after `main_sets_by_group`; day = `weekday, day_type, kind, optional, label_key, full_body, format, est_minutes, aerobic_minutes,
+>   exercise_count, easy_to_remove, supersets_on, superset_recommendations, toggle_blocks, toggle_items, groups, why, blocks`; item adds
+>   `progression` (after `test`) = `{kind:'double_progression', rep_range, when, then, else, promised_numbers:false} | null`; an item of
+>   the quick ankle prep block carries the flag `ankle_block`; `summary` adds `target_by_group_by_week, acceleration`.
+> * **Warnings** (codes): `session_minutes_retired, two_day_rule, acceleration, capped_by_template, below_floor_template,
+>   credit_only_groups, plan_edited`.
+> * **Checks** (ids unchanged): V3 = no time fitting in the plan (error); V13 = session size + absolute set cap; V15 / H10 = final
+>   sets reached in the last week, at most one week early, never under the schedule; V18 = calf exercise 3 sets on its leg day, core
+>   2, rear delts with the rows; V22 / H17 = floor 10 from 3 days (all days), 6 for big groups on 2 days, exempt only when said
+>   (`meta.stairway[].below_floor`) or credit only; V23 / H18 = 1-4 exercises a group on a full-body day; H21 = targets and sets never
+>   down, last week hardest; H22 = every week's group target is the planned whole-set schedule. A plan with `edited: true` is not
+>   judged by the generated-plan size / schedule rules.
+>
 > **Engine 0.4.0 amendments (stage B1, round 3; model 1.3.0; 2026-10-09) - binding, they supersede the text below where it
 > conflicts.** Authority now starts with `coach_answers_round3.md` (COACH-R3). Decisions: `engine/DECISIONS.md` section E.
 > * **Lines and groups** (R3-VOL-01, R3-SES-01): `rules.muscles.lines` (quads, hamstrings, glutes, chest, lats_upper_back,
@@ -604,6 +875,8 @@ Every non-trivial decision carries one or more **why** objects (exactly these ke
 
 ### 1.7 The coach's hard rules (locked layer; each is a test and a validation check)
 
+> **[0.5.0] Read with the engine 0.5.0 boxes at the top of this file (V1 "Checks").** The table below is the contracts/1.1 text. Four rows changed: **H10** is now "every trained group reaches its final sets in the last week, at most one week early, never under its schedule" - the 7 % step limit and the "strictly less than 10 %" weekly limit are retired (CX-01, R4-PRG-01, R4-PRG-02). **H17** is the floor of 10 from 3 training days, and 6 for big groups on 2 days (R4-SES-03); the exemption "a group the time check lists as not trained directly" is gone with the time check (CT-01). **H18** is 2-4 exercises a group on a split day and 1-4 on a full-body day (R4-SES-05); no day drops a group (R4-SES-04). **H21** is "targets and sets never go down, the last week is the hardest"; the minimum climb is retired (CX-02, CX-03). Every other row stands.
+
 | Id | Rule (never breaks) | Source | Check |
 |---|---|---|---|
 | H01 | No bands, chains or weight releasers anywhere (exercise, swap, kit token, name, id) | EQ-01, EQ-07, EQ-08, EQ-12 | V9 |
@@ -640,6 +913,8 @@ Engine code applying such a value has the line comment `// R3-pending: R3-…`. 
 ## 2. Intake contract (`intake/2`) and check-in contract (`checkin/2`)
 
 ### 2.1 Intake
+
+> **[0.5.0] `schedule.session_minutes` is removed** (CT-01, R4-SES-01): `schedule = {days_per_week, weekdays, start_date}`. A sent value is ignored with `warning.session_minutes_retired`. The example and the field list below are the contracts/1.1 text; every line about session minutes, `minutes_default`, `minutes_allowed` or supersets switched on by a short session is history. The release must be accepted before any plan is generated (R4-SCP-02).
 
 Input to `generate()`. Mirrors `generator_spec_v1.json > inputs_schema` (intake/2). Unknown keys are rejected except keys
 starting with `_` (comments) and `id`. **Any key named (case-insensitive, any depth) `sex`, `gender`, `sleep`, `stress`,
@@ -1034,6 +1309,8 @@ machine-translated line in `es_review.machine_translated`. The fixture leaves 86
 ## 4. Engine modules
 
 ### 4.0 Shared typedefs (JSDoc names used in every signature)
+
+> **[0.5.0]** In the typedefs below, `session_minutes`, `time_check`, `offers`, `minutes_limit` and `supersets_needed` are removed (V1 box at the top of this file). The current typedefs are in `engine/util.mjs`.
 
 Put these `@typedef` blocks in `engine/util.mjs` (B4) and reference them as `import('./util.mjs').Derived` etc.
 
@@ -1758,6 +2035,8 @@ invariant.
 
 ## 5. Plan output schema (`plan/2`)
 
+> **[0.5.0]** The example below is the contracts/1.1 plan. A 0.5.0 plan carries no `time_check`, no `offers`, no `meta.session_minutes`, no `day.minutes_limit` and no `day.supersets_needed`; it adds `meta.session_size`, `meta.two_day`, `meta.time: 'estimate_only'`, `edited`, per-item `progression` and `video {kind: 'search', url, copy_name}`. The key order of a 0.5.0 plan is in the V1 box at the top of this file. `day.est_minutes` is an estimate, printed as information only.
+
 Spec `output.plan_schema`: "codes only; words resolved through EN/ES word lists; every plan stamped with model_version,
 engine_version and release_stamp; shape carries the stairway labels and level_by_week 2 → 11; items carry effort {rir, rpe},
 load_hint and video {kind}". Completed here and named `plan/2` (D-36). Key order in output = the order below. (Task-brief names:
@@ -1893,6 +2172,8 @@ Rules for the plan object:
 ---
 
 ## 6. Validation checks
+
+> **[0.5.0]** Check ids are unchanged; several readings changed (V1 and V3 boxes at the top of this file). **V3** = no time fitting anywhere in the plan (it replaces the "athlete with 30 minutes" warning). **V13** = session size by exercise count and the absolute set cap; no minutes are read and no `warning.long_day` exists. **V15 / H10** = final sets reached in the last week, at most one week early (the 7 % and 10 % limits are retired). **V22 / H17** = floor of 10 from 3 training days, 6 for big groups on 2 days. **V23 / H18** = 1-4 exercises a group on a full-body day. **H21** = targets and sets never go down; no minimum climb. **V30-V37** are the engine 0.5.0 checks (template skeleton, add-ons, incline first, video search links, the progression rule, the acceleration note, the easy-to-remove list, carries by distance or time). Where a row below speaks of `session_minutes`, the time check, an over-time day or a session length, it is the contracts/1.1 text.
 
 `validatePlan(plan, model)` runs every id of `CHECK_IDS` in order. Each check: `{id, key, severity, pass, violations[]}`; a
 violation: `{where: {week, weekday, slot_id}, key, args}`. **Stairway weeks** = `block_type == 'stairway'`. "Resistance item" =

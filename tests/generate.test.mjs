@@ -10,21 +10,28 @@ import { loadFixtureModel, allSamples, loadSample } from './helpers/models.mjs';
 const model = loadFixtureModel();
 const REAL = realModulesStatus().ready;
 
+// v0.5 (CT-01): no `offers`, no `time_check`, no session minutes; `edited` says whether the person changed the plan (CX-04);
+// meta: session_size / two_day / time; week: target_by_group / acceleration / credit_only_groups; day: exercise_count /
+// easy_to_remove (no minutes_limit / supersets_needed); item: progression
+// engine 0.5.0 / V2 (converted; DECISIONS G): meta.addons (the optional add-ons a plan offers, COACH-R4 R4-LIB-01); item.swap_notes and
+// item.instead_of (what a swap keeps and loses, R4-LIB-04); item.video = {kind, url, copy_name} (R4-LIB-05)
 const KEYS = {
-  top: ['schema', 'status', 'model_version', 'engine_version', 'contracts_version', 'seed', 'intake_hash', 'lang', 'units', 'release_stamp', 'refer', 'errors', 'offers', 'time_check', 'meta', 'shape', 'weeks', 'summary', 'validation'],
-  meta: ['program_id', 'program_name_key', 'goal', 'family', 'format', 'profile', 'level', 'season', 'plan_mode', 'skeleton', 'weeks', 'start_date', 'days_per_week', 'session_minutes', 'weekdays', 'play_days', 'template', 'kit', 'constraint_band', 'targets', 'stairway', 'share_targets', 'athletic', 'aerobic', 'tests', 'health', 'older_opt_in', 'after_plan', 'instruction_keys', 'locked_rule_keys', 'input_audit', 'warnings', 'r3_pending', 'derived', 'why'],
+  top: ['schema', 'status', 'model_version', 'engine_version', 'contracts_version', 'seed', 'intake_hash', 'lang', 'units', 'release_stamp', 'refer', 'errors', 'edited', 'meta', 'shape', 'weeks', 'summary', 'validation'],
+  meta: ['program_id', 'program_name_key', 'goal', 'family', 'format', 'profile', 'level', 'season', 'plan_mode', 'skeleton', 'weeks', 'start_date', 'days_per_week', 'weekdays', 'play_days', 'session_size', 'two_day', 'time', 'template', 'kit', 'constraint_band', 'targets', 'stairway', 'share_targets', 'athletic', 'aerobic', 'tests', 'addons', 'health', 'older_opt_in', 'after_plan', 'instruction_keys', 'locked_rule_keys', 'input_audit', 'warnings', 'r3_pending', 'derived', 'why'],
   shape: ['mode', 'skeleton', 'weeks_total', 'open_ended', 'training_blocks', 'exercise_blocks', 'level_by_week'],
-  week: ['n', 'training_block', 'block_type', 'exercise_block', 'stair_week', 'stair_level', 'phase', 'phase_key', 'planned_rir', 'season_phase', 'rep_phase', 'plyo_stage', 'test', 'circuit', 'step_by_muscle', 'target_by_muscle', 'weekly_sets_by_muscle', 'direct_sets_by_muscle', 'main_sets_by_muscle', 'weekly_sets_by_line', 'weekly_sets_by_group', 'main_sets_by_group', 'not_trained_directly', 'total_main_sets', 'group_counts_by_day', 'total_resistance_sets', 'rise_vs_prev', 'athletic_budget', 'aerobic_sessions', 'changes', 'why', 'days'],
-  day: ['weekday', 'day_type', 'kind', 'optional', 'label_key', 'full_body', 'format', 'est_minutes', 'aerobic_minutes', 'minutes_limit', 'supersets_on', 'supersets_needed', 'superset_recommendations', 'toggle_blocks', 'toggle_items', 'groups', 'why', 'blocks'],
+  week: ['n', 'training_block', 'block_type', 'exercise_block', 'stair_week', 'stair_level', 'phase', 'phase_key', 'planned_rir', 'season_phase', 'rep_phase', 'plyo_stage', 'test', 'circuit', 'step_by_muscle', 'target_by_muscle', 'weekly_sets_by_muscle', 'direct_sets_by_muscle', 'main_sets_by_muscle', 'weekly_sets_by_line', 'weekly_sets_by_group', 'main_sets_by_group', 'target_by_group', 'acceleration', 'credit_only_groups', 'total_main_sets', 'group_counts_by_day', 'total_resistance_sets', 'rise_vs_prev', 'athletic_budget', 'aerobic_sessions', 'changes', 'why', 'days'],
+  day: ['weekday', 'day_type', 'kind', 'optional', 'label_key', 'full_body', 'format', 'est_minutes', 'aerobic_minutes', 'exercise_count', 'skeleton', 'easy_to_remove', 'supersets_on', 'superset_recommendations', 'toggle_blocks', 'toggle_items', 'groups', 'why', 'blocks'],
   block: ['kind', 'position', 'movable', 'circuit', 'items', 'id', 'toggle', 'removable'],
-  item: ['slot_id', 'station_id', 'bucket', 'role', 'origin', 'group', 'exercise_id', 'name_key', 'detail', 'text_key', 'cue_key', 'video', 'sets', 'reps', 'set_reps', 'effort', 'rest', 'load', 'tempo_key', 'superset', 'laterality', 'loading', 'credits', 'athletic', 'aerobic', 'circuit', 'wod', 'test', 'notes', 'swaps', 'flags', 'why', 'superset_suggested'],
-  summary: ['total_resistance_sets_by_week', 'max_weekly_rise', 'planned_steps_max', 'stair_levels', 'sets_by_muscle_by_week', 'sets_by_line_by_week', 'sets_by_group_by_week', 'target_by_muscle_by_week', 'myo_equivalent_sets_by_week', 'shortfalls']
+  item: ['slot_id', 'station_id', 'bucket', 'role', 'origin', 'group', 'exercise_id', 'name_key', 'detail', 'text_key', 'cue_key', 'video', 'sets', 'reps', 'set_reps', 'effort', 'rest', 'load', 'tempo_key', 'superset', 'laterality', 'loading', 'credits', 'athletic', 'aerobic', 'circuit', 'wod', 'test', 'progression', 'notes', 'swaps', 'swap_notes', 'instead_of', 'flags', 'why', 'superset_suggested'],
+  summary: ['total_resistance_sets_by_week', 'max_weekly_rise', 'planned_steps_max', 'stair_levels', 'sets_by_muscle_by_week', 'sets_by_line_by_week', 'sets_by_group_by_week', 'target_by_muscle_by_week', 'target_by_group_by_week', 'acceleration', 'myo_equivalent_sets_by_week', 'shortfalls']
 };
 
 function assertPlanShape(p) {
   assert.deepEqual(Object.keys(p), KEYS.top);
   assert.equal(p.schema, 'plan/2');
   assert.equal(p.engine_version, ENGINE_VERSION);
+  assert.equal(p.edited, false, 'a generated plan is not an edited plan (CX-04)');
+  assert.equal(p.meta.time, 'estimate_only');
   assert.equal(p.model_version, model.version);
   assert.match(p.seed, /^c53:[0-9a-f]{14}$/);
   assert.match(p.intake_hash, /^c53:[0-9a-f]{14}$/);
@@ -50,7 +57,7 @@ function assertPlanShape(p) {
   assert.deepEqual(p.summary.total_resistance_sets_by_week, p.weeks.map(w => w.total_resistance_sets));
   assert.deepEqual(JSON.parse(JSON.stringify(p)), p, 'no undefined anywhere');
   assert.ok(!/NaN|Infinity/.test(JSON.stringify(p)));
-  assert.equal(p.validation.checks.length, 51); // v1.2: V27-V29
+  assert.equal(p.validation.checks.length, 59); // v1.2: V27-V29; engine 0.5.0 / V3 (converted, DECISIONS G): V30-V37, the v0.5 check list
 }
 
 function deepFind(o, pred, path = '') {
@@ -65,22 +72,18 @@ describe('generateWith (stub modules)', () => {
       const p = generateWith(STUB_DEPS, intake, model);
       assert.equal(p.status, 'ok');
       assertPlanShape(p);
-      // the stub volume planner places flat template sets (no stairway) and the stub dose never reconciles the athletic budget,
-      // so v1.2's H21 'stairway_flat' / 'total_flat' rules and V27 fire on it by design; every other error check must pass
-      // (the real modules are held to H21 and V27 below)
+      // the stub dose never reconciles the athletic budget, so V27 fires on it by design; every other error check must pass
+      // (v0.5: the stub volume planner places the template's sets and the real stairway schedule; the real modules are held to
+      // every check below)
       const failing = p.validation.checks.filter(c => !c.pass && c.severity === 'error');
-      // v0.4: the stub places every template station with no time fit, athlete cap or circuit rebalance (engine/volume.mjs,
-      // week.mjs), so V13 'athlete_cap' and V18 'rear_delt_weekly' may fire on it too; the real modules are held to all of them
-      assert.deepEqual(failing.filter(c => !['H21', 'V27', 'V13', 'V18'].includes(c.id)).map(c => c.id), []);
-      for (const c of failing.filter(c => c.id === 'V13')) assert.ok(c.violations.every(v => v.args && v.args.rule === 'athlete_cap'), JSON.stringify(c.violations[0]));
-      for (const c of failing.filter(c => c.id === 'V18')) assert.ok(c.violations.every(v => v.args && v.args.rule === 'rear_delt_weekly'), JSON.stringify(c.violations[0]));
-      // (fix round 2 / F1, E-136: the flat stub also trips the main-day readings of H21)
-      for (const c of failing.filter(c => c.id === 'H21')) assert.ok(c.violations.every(v => ['stairway_flat', 'total_flat', 'circuit_flat', 'main_days_flat', 'total_hold', 'flat_second_half_main_days', 'group_hold_main_days'].includes(v.args && v.args.rule)), JSON.stringify(c.violations[0]));
+      assert.deepEqual(failing.filter(c => !['V27'].includes(c.id)).map(c => c.id), []);
       assert.equal(deepFind(p, v => v === undefined), null);
       assert.deepEqual(p.meta.instruction_keys, ['instruction.title', 'instruction.1', 'instruction.2', 'instruction.3', 'instruction.4', 'instruction.5']);
       assert.equal(p.meta.locked_rule_keys.length, model.rules.locked.length);
       assert.deepEqual(p.meta.input_audit.forbidden_found, []);
-      assert.ok(p.meta.input_audit.keys.includes('schedule.session_minutes'));
+      // v0.5 (R4-SES-01): the intake no longer has session minutes
+      assert.ok(!p.meta.input_audit.keys.includes('schedule.session_minutes'));
+      assert.ok(p.meta.input_audit.keys.includes('schedule.days_per_week'));
     });
   }
 
@@ -208,19 +211,29 @@ describe('generate (real B2 / B3 modules)', { skip: REAL ? false : 'B2 / B3 modu
     assert.equal(b.validation.checks.find(c => c.id === 'H22').pass, true);
   });
 
-  // v0.4 (R3-SES-02): the time check replaces D-67's lowered starts - when 6 x 75 min cannot hold the full stairway the client is
-  // warned up front, offered more time, and the kept-time plan still trains every group and climbs (never a flat stairway)
-  test('07 PPL: the time check warns up front, keeps the 75 min with a lower peak, every group trained and climbing (R3-SES-02)', () => {
+  // (converted in v0.5 from '07 PPL: the time check warns up front, keeps the 75 min with a lower peak, every group trained and
+  // climbing (R3-SES-02)': there is no time check - the template comes out complete and the plan says what it cannot hold)
+  test('07 PPL (CT-01 / R4-SES-04): no time check and no offers; every trained group reaches its final sets or the plan says the template caps it', () => {
     const p = generate(loadSample('07'), model);
-    assert.ok(p.meta.warnings.some(w => w.key === 'warning.time_check'), JSON.stringify(p.meta.warnings));
-    assert.ok(p.offers.some(o => o.key.startsWith('offer.keep_time') && o.chosen));
-    assert.equal(p.time_check.fits, false);
-    assert.equal(p.time_check.kept_time, true);
-    assert.deepEqual(p.time_check.not_trained_directly, []);
-    assert.ok(p.time_check.lowered_peak.includes('chest'));
+    assert.equal('time_check' in p, false);
+    assert.equal('offers' in p, false);
+    assert.ok(!p.meta.warnings.some(w => /^warning\.(time_|long_day|supersets_needed)/.test(w.key)), JSON.stringify(p.meta.warnings.map(w => w.key)));
+    const st = p.meta.stairway[0];
+    const N = st.N;
+    for (const g of st.groups) {
+      const real = p.summary.sets_by_group_by_week[g];
+      assert.ok(real[N - 1] >= st.group_top[g], `${g}: ${real[N - 1]} of ${st.group_top[g]}`);
+      const cap = st.capped.find(c => c.group === g);
+      if (st.group_top[g] < st.planned_top[g]) {
+        assert.ok(cap && cap.held === st.group_top[g] && cap.planned === st.planned_top[g], g + ': a lower top is said (capped)');
+        // (v0.5 fix round 1, CX-04: the up-front notice is for a Focus group, a group under its level's start and a big group under
+        // 80 % - capped[].notice; the week-by-week table names every capped group)
+        assert.ok(cap.notice === false || p.meta.warnings.some(w => w.key === 'warning.capped_by_template' && w.args.group === g), g);
+      } else assert.equal(cap, undefined, g);
+    }
     for (const l of ['chest', 'lats_upper_back']) {
-      const s = p.summary.sets_by_line_by_week[l];
-      assert.ok(s[s.length - 1] > s[0], l + ' (Focus) climbs');
+      const s2 = p.summary.sets_by_line_by_week[l];
+      assert.ok(s2[s2.length - 1] > s2[0], l + ' (Focus) climbs');
     }
   });
 

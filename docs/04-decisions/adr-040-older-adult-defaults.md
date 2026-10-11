@@ -51,9 +51,10 @@ In round 2 the team proposed: older rules from 60, never depth jumps, landing dr
 
 - Older clients do more of their work on constrained equipment ([ADR-035](adr-035-machines-not-ranked.md)).
 - They climb the same stairway as everyone. An earlier team proposal to cap their steps at 3 % is retired (R3-VOL-04).
-- For racket players over 50, calves are never dropped when time is short ([ADR-032](adr-032-time-vs-minimums-order.md); PROPOSED mechanism).
+- For racket players over 50, calf and Achilles work stays on every leg day (R3-ATH-02). Nothing is dropped for time any more ([ADR-050](adr-050-no-time-fitting-sessions-sized-by-exercise-count.md)).
+- Older adults get 5 to 6 exercises a session, not counting the warm-up and the 2 core exercises (R4-SES-02).
 - INFERRED: snatch variations stay out for over-60s even with the switch. EQ-03 lists the snatch among lifts older clients never get, and R3-ATH-02 did not name it. This is a round-4 question.
-- The current engine is stricter than the rule: it keeps depth jumps locked for over-60s even when switched on. Stricter is the safe side until the rebuild.
+- The engine is stricter than the rule: it keeps depth jumps locked for over-60s even when switched on, and it never picks handstand work for them. Stricter is the safe side.
 - PROPOSED: tests for over-60s are submaximal only.
 
 ## Where it lives in the data

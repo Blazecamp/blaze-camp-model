@@ -4,9 +4,11 @@ Volume is counted as hard sets per week for each focus group. Every group the pl
 
 | | |
 |---|---|
-| **Status** | Accepted. "Group credit" and the calf top-up are PROPOSED. The exemptions he did not speak to are INFERRED. |
+| **Status** | Accepted, refined in round 4: the floor applies when there are 3 or more training days; 2 days follow [ADR-052](adr-052-two-day-rule.md). "Group credit" and the calf top-up are PROPOSED. The exemptions he did not speak to are INFERRED. |
 | **Decided by** | Coach: R2-VOL-06 (round 2); R3-SES-01 and R3-VOL-01 (round 3, 2026-10-09) |
 | **Replaces** | Lower starts for small muscles (8 sets) and floors of 2 to 4 sets (team, earlier versions) |
+
+> **Update, round 4 (R4-SES-03, CT-01).** The floor of 10 holds when a person trains 3 or more days a week. On 2 days every big group is trained with about 6 to 8 weekly sets, the plan says so and suggests a third day ([ADR-052](adr-052-two-day-rule.md)). No group is left out "because time is short" any more: there is no time check ([ADR-050](adr-050-no-time-fitting-sessions-sized-by-exercise-count.md)). A group can still sit under 10 when its template has too few slots and no optional day; the plan then says so in words.
 
 ## Decision (the rule)
 
@@ -30,7 +32,8 @@ A **hard set** is a working set done 1 to 3 reps short of failure. A **focus gro
 | Maintenance phases, pre-season and in-season (lower maintenance volume) | Team proposal in R3-VOL-01; his answer did not change it (INFERRED) |
 | A group cut back for pain | VOL-03 |
 | Helper-only lines of field athletes, such as arms (their trained chest and back still go up to 10) | Team proposal in R3-VOL-01; his answer did not change it (INFERRED) |
-| Groups the plan does not train directly because time is short | R3-SES-02, see [ADR-032](adr-032-time-vs-minimums-order.md) |
+| Plans with 2 training days (about 6 to 8 sets instead) | R4-SES-03, see [ADR-052](adr-052-two-day-rule.md) |
+| ~~Groups the plan does not train directly because time is short~~ | Retired with the time check (CT-01); it was R3-SES-02, [ADR-032](adr-032-time-vs-minimums-order.md) |
 
 ## Why
 

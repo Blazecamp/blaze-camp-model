@@ -6,6 +6,7 @@ import assert from 'node:assert/strict';
 import { fixtureModel, stubDerived, sampleContexts, buildSelections } from './helpers/stub-derived.mjs';
 import { layoutForWeek, daySlots, baseSets } from '../engine/week.mjs';
 import { doseItem, doseAerobic, doseConditioning, repClassFor, positionFor } from '../engine/dose.mjs';
+import { perSetBounds } from '../engine/athletic.mjs';
 
 const model = fixtureModel();
 const R = model.rules;
@@ -91,7 +92,7 @@ test('planned RIR follows the stairway week (R2-PER-05, R3-VOL-04): 3 RIR early,
     // v1.2 (review 06 / 07): intensifiers never land on a never-to-failure compound (H02); B3: the flag sits only on the item that
     // carries the intensifier (one a day, RECHECK 01 'week 12 flags 10 items as intensifiers instead of one')
     assert.equal(e.intensifier, !!e.last_set);
-    if (e.intensifier) assert.ok(it.ws.is_last_stair_week && p.intensifiers && (!NEVER.includes(it.rc) || it.rc === 'machine_stable_compound'));
+    if (e.intensifier) assert.ok(it.ws.is_last_stair_week && p.intensifiers && (!NEVER.includes(it.rc) || it.rc === 'machine_stable_compound'), `${it.b.c.name} w${it.ws.n} ${it.slot.slot_id} ${it.rc} ${e.last_set}`);
   }
   // core opener stays light (2 x 2 short of failure, R2-SES-03)
   for (const it of everything) if (it.rc === 'core' && it.dose.effort && it.dose.effort.type === 'rir') assert.ok(it.dose.effort.min >= 2);
@@ -137,7 +138,9 @@ test('athlete VOL phases (PER-11): compounds 12-15 -> 8-12 -> 6-8 by exercise bl
 
 test('pyramid 12/10/8 then a light 20 (PRG-07): L2+, hypertrophy, the first main bilateral compound of the day, sets >= 4', () => {
   const b = stub('06-full-body-aesthetics');
-  const items = allItems(b, { sets: (s) => (s.role === 'work' ? 4 : 3) });
+  // (v0.5, R4-SES-05: the day opens with the upper lift of the coach's A / B template - the first lift is no longer always the
+  // role 'work' station, so every lift gets 4 sets here and the rule picks the day's first main bilateral compound)
+  const items = allItems(b, { sets: () => 4 });
   const pyr = items.filter((it) => it.dose.set_reps);
   assert.ok(pyr.length > 0);
   for (const it of pyr) {
@@ -164,9 +167,17 @@ test('lifting style (VOL-12): heavy_powerlifting moves the first lift of each da
   }
   const d = stubDerived('06-full-body-aesthetics', model, { lift_style: 'volume_lighter' });
   const s6 = stub('06-full-body-aesthetics');
-  const it = everything.find((x) => x.b === s6 && x.ws.n === 2 && x.rc === 'main_bilateral_compound');
-  const lighter = doseItem({ ...it, exercise: it.ex, week: it.ws, derived: d, athletic: null, at_cap: false, model });
-  assert.ok(lighter.reps.min > it.dose.reps.min || lighter.reps.max > it.dose.reps.max);
+  // (v0.5 fix round 1: a lift never leaves its own rep range - rules.reps.rep_hint.x1.menu; sample 01 / 02 minors: a squat at 12-15 -
+  // so the lighter style moves every lift's reps up or leaves them, and moves at least one of the week's first lifts up)
+  const its = everything.filter((x) => x.b === s6 && x.ws.n === 2 && x.rc === 'main_bilateral_compound');
+  assert.ok(its.length >= 2);
+  let higher = 0;
+  for (const it of its) {
+    const lighter = doseItem({ ...it, exercise: it.ex, week: it.ws, derived: d, athletic: null, at_cap: false, model });
+    assert.ok(lighter.reps.min >= it.dose.reps.min && lighter.reps.max >= it.dose.reps.max, `${it.slot.slot_id} ${JSON.stringify(lighter.reps)} ${JSON.stringify(it.dose.reps)}`);
+    if (lighter.reps.min > it.dose.reps.min || lighter.reps.max > it.dose.reps.max) higher++;
+  }
+  assert.ok(higher >= 1, 'no lift moved up');
 });
 
 test('unilateral work is written per side (10/10 = 1 set, UNI-01); heavy single-leg toggle uses 4-6 (UNI-04)', () => {
@@ -246,7 +257,10 @@ test('plyo contacts: stage range rising through the stage, x 0.5 in a heavy play
     assert.equal(a.total, it.sets * a.per_set);
     const cap = it.b.c.derived.D11_athletic_budget.contacts_session_max;
     const n = daySlots(it.day).filter((s) => ['AP_PLYO', 'AP_JUMP_LIMITED_KNEE'].includes(s.bucket)).length;
-    assert.ok(a.total <= Math.floor(cap / n) || a.per_set === 1, `${it.b.c.name} ${it.slot.slot_id} ${a.total} > ${cap}/${n}`);
+    // (a drill dosed in whole patterns keeps one pattern a set when its share of the cap is smaller - perSetBounds().step; v0.5: an
+    // athletic day holds up to 12 exercises, so a day can carry a third contact station and the share gets that small)
+    const step = perSetBounds(model, a.key, it.ex, 1).step || 1;
+    assert.ok(a.total <= Math.floor(cap / n) || a.per_set <= step, `${it.b.c.name} ${it.slot.slot_id} ${a.total} > ${cap}/${n} (per set ${a.per_set}, step ${step})`);
     // v0.4 stage B2: the cue follows how the drill is done (rules.athletic.response_cues: stick / ballistic reset / land & go /
     // quick continuous ankle contacts / stage-3 repeat)
     const cues = R.athletic.response_cues ? Object.values(R.athletic.response_cues).filter((v) => typeof v === 'string' && v.startsWith('note.')) : ['note.rc1', 'note.rc2', 'note.rc3'];
@@ -318,7 +332,9 @@ test('bootcamp circuits: a round = 1 set, work seconds climb 35 s by the planned
   assert.ok(byWeek[byWeek.length - 1].ws.circuit.work_s <= R.supersets.bootcamp.stairway.work_s_max);
 });
 
-test('WOD (class model, D-20): 10 -> 20 min by stair level (10 -> 15 on an over-time day, v1.2), format rotates, 3-4 stations, ball <= 20 lb; WOD-only day 20-30 min', () => {
+// (converted in v0.5 from '... 10 -> 20 min by stair level (10 -> 15 on an over-time day, v1.2) ...': no day is over a time, so
+// the short WOD of the time fitting is gone - CT-01)
+test('WOD (class model, D-20): 10 -> 20 min by stair level, format rotates, 3-4 stations, ball <= 20 lb; WOD-only day 20-30 min', () => {
   const b = stub('04-crossfit-style-bootcamp');
   const wods = everything.filter((it) => it.b === b && it.slot.bucket === 'COND_WOD');
   assert.ok(wods.length);
@@ -326,7 +342,8 @@ test('WOD (class model, D-20): 10 -> 20 min by stair level (10 -> 15 on an over-
   for (const it of wods) {
     const d = doseConditioning(it.slot, it.fill, it.ws, b.c.derived, model);
     const only = /^WOD\./.test(it.slot.station_id);
-    const range = only ? R.conditioning.wod.wod_only_day_minutes : (it.slot.wod_short ? R.conditioning.wod.short_minutes : R.conditioning.wod.minutes);
+    const range = only ? R.conditioning.wod.wod_only_day_minutes : R.conditioning.wod.minutes;
+    assert.ok(!('wod_short' in it.slot) || !it.slot.wod_short, 'no short WOD (CT-01)');
     assert.ok(d.wod.minutes[0] >= range[0] && d.wod.minutes[1] <= range[1]);
     assert.ok(d.wod.stations.length >= 3 && d.wod.stations.length <= 4);
     assert.ok(R.conditioning.wod.formats.includes(d.wod.format));
@@ -337,10 +354,9 @@ test('WOD (class model, D-20): 10 -> 20 min by stair level (10 -> 15 on an over-
   const w1 = wods.find((it) => it.ws.n === 1 && !/^WOD\./.test(it.slot.station_id));
   const w8 = wods.find((it) => it.ws.n === 8 && !/^WOD\./.test(it.slot.station_id));
   assert.equal(doseConditioning(w1.slot, w1.fill, w1.ws, b.c.derived, model).wod.minutes[0], 10);
-  // v1.2 (review 04 blocker 1): on an over-time day the WOD climbs 10 -> 15 min instead (cut step 'wod_short')
-  assert.equal(doseConditioning(w8.slot, w8.fill, w8.ws, b.c.derived, model).wod.minutes[0], w8.slot.wod_short ? R.conditioning.wod.short_minutes[1] : 20);
-  const short = doseConditioning({ ...w8.slot, wod_short: true }, w8.fill, w8.ws, b.c.derived, model);
-  assert.equal(short.wod.minutes[0], R.conditioning.wod.short_minutes[1]);
+  assert.equal(doseConditioning(w8.slot, w8.fill, w8.ws, b.c.derived, model).wod.minutes[0], 20);
+  // a slot that still says wod_short (an old layout) is dosed like any other: the flag has no meaning in v0.5
+  assert.equal(doseConditioning({ ...w8.slot, wod_short: true }, w8.fill, w8.ws, b.c.derived, model).wod.minutes[0], 20);
 });
 
 test('aerobic: minutes by colour (C steady <= 40), recovery weeks Orange, the client\'s own cardio tools (B3: EQ-14 any erg)', () => {

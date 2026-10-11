@@ -79,17 +79,15 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
     assert.equal(setsOf(sat(p.weeks[11]), tpl), setsOf(sat(p.weeks[0]), tpl), 'the optional day\'s template slots stay flat');
     for (const w of p.weeks) for (const it of sat(w).blocks.flatMap(b => b.items).filter(x => !tpl(x) && x.exercise_id)) assert.ok(it.sets >= 2, `${it.slot_id} opens at 2+ sets`);
   });
-  test('R01-2 swimming: placed weekly rises capped at max(1 set, 7 %) per muscle and 7 % in total (R2-VOL-01, UNI-05)', () => placedRiseCapped(plan('01').p));
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R01-2 swimming: placed weekly rises capped at max(1 set, 7 %) per muscle and 7 % in total (R2-VOL-01, UNI-05)'
+  //   the per-week rise caps (max(1 set, 7 %) per muscle, 7 % in total) are deleted: the stairway reaches its final sets (CX-01) and a fast week is a note (R4-PRG-02)
   test('R01-3 swimming: no depth jumps / bounds / hurdle hops; plyo contacts near the 6-8 budget (04 swimming plyo rules, V27)', () => {
     const { p } = plan('01');
     for (const x of items(p, x => x.ex && ['AP_PLYO', 'AP_JUMP_LIMITED_KNEE'].includes(x.it.bucket))) assert.ok(!x.ex.tags.some(t => ['depth_jump', 'bound', 'hurdle_hop'].includes(t)), x.it.exercise_id);
     assert.ok(p.validation.checks.find(c => c.id === 'V27').pass);
   });
-  test('R01-4 swimming: Olympic sets inside the weekly budget; days within 60 x 1.10 min or warned (R2-ATH-04, UNI-09)', () => {
-    const { p } = plan('01');
-    for (const w of stairWeeks(p)) assert.ok(w.athletic_budget.planned.olympic_sets <= Math.max(1.5 * w.athletic_budget.targets.olympic_sets, 2 * p.meta.athletic.olympic_exposures_wk) + EPS, `w${w.n}`);
-    daysFitOrWarned(p);
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R01-4 swimming: Olympic sets inside the weekly budget; days within 60 x 1.10 min or warned (R2-ATH-04, UNI-09)'
+  //   asserted days within 60 x 1.10 minutes (CT-01); the Olympic budget is V27 on the whole corpus
   test('R01-6 swimming: a barbell / trap-bar hinge counts as a spine day (R2-SES-02): never two counted hinges a week', () => {
     const { p } = plan('01');
     for (const id of ['alternating-barbell-deadlift-alternate-lead-leg-meaning-inferred', 'staggered-stance-kickstand-barbell-deadlift']) assert.equal(model.ex(id).spine_class, 'counted', id);
@@ -181,8 +179,8 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
     for (const n of Object.keys(NAMES)) for (const x of items(plan(n).p, x => x.it.reps && x.it.reps.type === 'range')) assert.ok(x.it.reps.min < x.it.reps.max || x.it.reps.bracket === 'b15' || x.it.reps.bracket === 'b20', `${n} ${x.it.exercise_id} ${x.it.reps.min}-${x.it.reps.max}`);
   });
 
-  // ------------------------------------------------------------------------------------------------------ 02 football
-  test('R02-1 football: the stairway climbs from week 1 on the main days (R2-PER-03)', () => { climbsOnMainDays(plan('02').p); placedRiseCapped(plan('02').p); });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R02-1 football: the stairway climbs from week 1 on the main days (R2-PER-03)'
+  //   read the deleted placed-rise limits; the climb is asserted by review-f1 R02-week-2-steps (v0.5 form)
   test('R02-2 football: a loaded horizontal press (barbell / DB bench) and a press test, never a dip test (D-07 constraint band)', () => {
     const { p } = plan('02');
     const press = items(p, x => x.it.bucket === 'RP_HPUSH' && x.ex && x.ex.credit_class === 'HPUSH' && x.ex.load_ceiling === 'high');
@@ -229,7 +227,8 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
       const its = d.blocks.flatMap(b => b.items);
       const work = its.find(it => it.role === 'work');
       if (!work || work.test || (work.flags || []).includes('back_off')) continue; // a tested lift's back-off sets (E-91)
-      assert.ok(work.sets >= 3, `${d.weekday} w${w.n} work ${work.sets}`);
+      // (v0.5: an exercise holds 2-5 sets and the group stairway sizes them - no '3 sets at 90 min'; the work lift still leads its group)
+      assert.ok(work.sets >= 2, `${d.weekday} w${w.n} work ${work.sets}`);
       for (const it of its.filter(x => x.group === work.group && x !== work && x.sets)) assert.ok(work.sets >= it.sets, `${d.weekday} w${w.n} ${it.exercise_id}`);
     }
   });
@@ -287,7 +286,12 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
     const sw = stairWeeks(p).filter(w => !w.athletic_budget.hold);
     const cod = (w) => w.athletic_budget.planned.cod_cuts + ((w.athletic_budget.test_replaced || {}).cod_cuts || 0);
     for (let k = 1; k < sw.length; k++) assert.ok(cod(sw[k]) >= cod(sw[k - 1]), `COD climbs w${sw[k].n}`);
-    assert.ok(p.meta.warnings.some(x => x.key === 'warning.athletic_capacity' && x.args.key === 'athletic.key.cod_cuts'));
+    // (v0.5 fix round 1: a 3-day week asks for three quarters of the sport's 4-day athletic dose - rules.athletic.x1.scale_by_days,
+    // PROPOSED - so the cuts now reach 90 % of the week's target; the notice is owed only under the told share, rules.athletic.f2)
+    const peakW = sw[sw.length - 1], tgt = peakW.athletic_budget.targets.cod_cuts;
+    const share = (model.rules.athletic.reconcile || {}).warn_below_share ?? 0.6;
+    if (cod(peakW) < share * tgt) assert.ok(p.meta.warnings.some(x => x.key === 'warning.athletic_capacity' && x.args.key === 'athletic.key.cod_cuts'));
+    else assert.ok(cod(peakW) >= 0.75 * tgt, `cuts ${cod(peakW)} of ${tgt}`);
   });
   test('R03-2 soccer: jump work progresses from landings (RC1) to repeated / reactive contacts; no repeat cue on a box drop', () => {
     const { p } = plan('03');
@@ -300,31 +304,22 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
     assert.ok(ex.size <= p.meta.athletic.olympic_exposures_wk, [...ex].join());
     assert.ok(p.validation.checks.find(c => c.id === 'V27').pass);
   });
-  test('R03-6 soccer: aerobic add-ons count as session time; a full main day takes them as a separate session (UNI-09)', () => {
-    const { p } = plan('03');
-    // v0.4: week 1 is a test week; a day its work-ups make longer says so (warning.test_day_long, R2-PER-07)
-    const testLong = (d) => p.meta.warnings.some(x => x.key === 'warning.test_day_long' && x.args.day === d.weekday && x.args.week === 1);
-    for (const d of mains(p.weeks[0])) assert.ok(d.est_minutes + (d.aerobic_minutes || 0) <= p.meta.session_minutes * 1.25 + EPS || d.blocks.some(b => b.items.some(it => it.aerobic && it.aerobic.position === 'separate_session')) || hasWarning(p, 'warning.long_day') || testLong(d), d.weekday);
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R03-6 soccer: aerobic add-ons count as session time; a full main day takes them as a separate session (UNI-09)'
+  //   aerobic add-ons no longer 'count as session time' and a 'full' main day does not exist (CT-01); placement is asserted by tests/week aerobic sessions
   test('R03-10 soccer: pre-season keeps 2 sets on the work and paired lifts and drops Focus (R2-PER-06, D-37)', () => {
     const { p } = plan('03');
     const pre = p.weeks.find(w => w.block_type === 'pre_season');
     for (const d of mains(pre)) for (const it of d.blocks.flatMap(b => b.items).filter(it => ['work', 'paired_upper'].includes(it.role) && !it.test)) assert.ok(it.sets >= 2, `${d.weekday} ${it.exercise_id}`);
   });
 
-  // ------------------------------------------------------------------------------------------------------ 04 crossfit
-  test('R04-1 crossfit: skill folds into the warm-up and the WOD holds its shorter range before a group leaves a day (cut order)', () => {
-    const { p } = plan('04');
-    const whys = p.weeks[0].days.flatMap(d => d.why.map(w => w.key));
-    assert.ok(whys.includes('why.skill_in_warmup') || whys.includes('why.wod_short'));
-    climbsOnMainDays(p);
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R04-1 crossfit: skill folds into the warm-up and the WOD holds its shorter range before a group leaves a day (…'
+  //   the skill no longer folds into the warm-up and the WOD has no short range - both were time cuts (CT-01)
   test('R04-3 crossfit: the week pulls at least 0.8 x what it pushes and the deadlift day has its push partner (ORD-06, V29)', () => {
     const { p } = plan('04');
     assert.ok(p.validation.checks.find(c => c.id === 'V29').pass);
     // (v0.4 fix round 1, E-81: the deadlift day keeps its push partner while chest is trained directly)
     const thu = p.weeks[0].days.find(d => d.weekday === 'Thu');
-    if (p.time_check.trained_groups.includes('chest')) assert.ok(thu.blocks.flatMap(b => b.items).some(it => it.bucket === 'RP_HPUSH'));
+    assert.ok(thu.blocks.flatMap(b => b.items).some(it => it.bucket === 'RP_HPUSH'), 'the push partner (never cut for time, CT-01)');
     assert.ok(thu.blocks.flatMap(b => b.items).some(it => it.bucket === 'RP_BHD' && it.role === 'work'));
   });
   test('R04-4 crossfit: the class model\'s work lifts follow the HALF TIME levels with strength rest (OT18, VOL-14)', () => {
@@ -370,16 +365,12 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
   test('R05-1 bootcamp: the circuit climbs every week by the planned steps, never more than 7 % (D-19 revised)', () => {
     const { p } = plan('05');
     const ws = stairWeeks(p);
-    for (let i = 1; i < ws.length; i++) { const a = ws[i - 1].circuit.work_s, b = ws[i].circuit.work_s; assert.ok(b > a && (b - a) / a <= 0.07 + EPS, `w${ws[i].n} ${a} -> ${b}`); }
+    // v0.5 fix round 2 (converted; DECISIONS G 'Tests converted in fix round 2'): 5-s timer steps (PRG-03 '30-50 s', sample 05 major) - a step
+    // every second week, never down; a 5-s step is his own timer step, not a 7 % load step
+    for (let i = 1; i < ws.length; i++) { const a = ws[i - 1].circuit.work_s, b = ws[i].circuit.work_s; assert.ok(b >= a && b - a <= 5, `w${ws[i].n} ${a} -> ${b}`); if (i > 1) assert.ok(b > ws[i - 2].circuit.work_s, `w${ws[i].n} held three weeks`); }
   });
-  test('R05-2 bootcamp: circuits are not floor exempt - what 3 x 45 min cannot hold is named up front (R2-VOL-06, R3-SES-02)', () => {
-    const { p } = plan('05');
-    assert.ok(p.meta.targets.floored.length > 0);
-    assert.ok(hasWarning(p, 'warning.time_check'));
-    const ntd = p.time_check.not_trained_directly.filter(x => x.reason === 'time').map(x => x.group);
-    assert.ok(ntd.length > 0 && hasWarning(p, 'warning.not_trained_directly'));
-    assert.ok(p.offers.some(o => ['offer.longer_sessions', 'offer.more_days', 'offer.more_days_min'].includes(o.key)));
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R05-2 bootcamp: circuits are not floor exempt - what 3 x 45 min cannot hold is named up front (R2-VOL-06, R3-S…'
+  //   'what 3 x 45 min cannot hold is named up front' was the time check; circuits below the floor are said by warning.below_floor_template
   test('R05-3 bootcamp: circuit time counts each week\'s work seconds and the rest between circuits (UNI-09)', () => {
     const { p } = plan('05');
     const mon1 = p.weeks[0].days.find(d => d.weekday === 'Mon'), mon8 = p.weeks[7].days.find(d => d.weekday === 'Mon');
@@ -411,15 +402,8 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
     for (const x of items(plan('05').p, x => x.b.kind === 'circuit')) assert.ok(!/nordic/.test(x.it.exercise_id || ''), x.it.exercise_id);
   });
 
-  // ------------------------------------------------------------------------------------------------------ 06 aesthetics
-  test('R06-1 aesthetics: the stairway is sized to the minutes and climbs; the client\'s priorities climb (D-67)', () => {
-    const { p } = plan('06');
-    climbsOnMainDays(p); placedRiseCapped(p);
-    // v0.4: side delts are the shoulders line's Focus muscle (R3-VOL-01); the time check replaces D-67's lowered start
-    const sd = stairWeeks(p).map(w => w.main_sets_by_muscle.shoulders);
-    assert.ok(sd[sd.length - 1] > sd[0], 'shoulders (Focus) climb');
-    assert.ok(hasWarning(p, 'warning.time_check') && p.offers.some(o => o.key.startsWith('offer.keep_time') && o.chosen));
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R06-1 aesthetics: the stairway is sized to the minutes and climbs; the client's priorities climb (D-67)'
+  //   'the stairway is sized to the minutes' (D-67) is retired with the time check; the Focus groups' climb is asserted by review-r2f1 R07-focus-back-climbs
   test('R06-3 aesthetics: optional days hold their template Focus slots only (ORD-10)', () => {
     const { p } = plan('06');
     // (v0.4 fix round 1, E-86: added exercises of a big line's climb may join at 2+ sets; the template Focus slots stay 2)
@@ -492,21 +476,11 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
     }
   });
 
-  // ------------------------------------------------------------------------------------------------------ 08 pickleball
-  test('R08-1 pickleball: 2 x 45 min days stay near 45 (cut chain, core pair, prehab / groups to the optional day); never over 1.25 x', () => {
-    const { p } = plan('08');
-    for (const w of p.weeks) for (const d of mains(w)) assert.ok(d.est_minutes <= 45 * 1.25 + EPS, `${d.weekday} w${w.n} ${d.est_minutes}`);
-    assert.ok(p.offers.some(o => ['offer.more_days', 'offer.more_days_min'].includes(o.key)));
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R08-1 pickleball: 2 x 45 min days stay near 45 (cut chain, core pair, prehab / groups to the optional day); ne…'
+  //   the 2 x 45 minute days and their cut chain no longer exist (R4-SES-01); a 2-day plan follows R4-SES-03
   test('R08-2 pickleball: main-day sets climb (isolations enter at 1 set when the minutes are short, VOL-07)', () => climbsOnMainDays(plan('08').p));
-  test('R08-3 pickleball: a stay-active client\'s glutes / side delts / arms are targets with the floor of 10 named when the schedule cannot hold it', () => {
-    const { p } = plan('08');
-    // (v0.4 fix round 1, E-84: glutes follow the hips group's hamstrings line as credit)
-    assert.equal(p.meta.targets.fill.glutes, 'credit');
-    for (const m of ['hamstrings', 'shoulders', 'side_delts', 'biceps', 'triceps']) assert.equal(p.meta.targets.fill[m], 'target', m);
-    // v0.4 (R3-SES-02): the groups the schedule cannot hold at 10 are named up front as not trained directly, with the offers
-    assert.ok(hasWarning(p, 'warning.time_check') && p.time_check.not_trained_directly.length > 0);
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R08-3 pickleball: a stay-active client's glutes / side delts / arms are targets with the floor of 10 named wh…'
+  //   'the floor of 10 named when the schedule cannot hold it' was the time check's notice; a 2-day plan says the 2-day rule (warning.two_day_rule)
   test('R08-4 pickleball: knee pain - no deep knee flexion, no Zercher / deep squat; the knee days use step-ups / machines', () => {
     const { p } = plan('08');
     for (const x of items(p, x => x.ex && ['RP_BKD', 'RP_UKD', 'ISO_QUAD'].includes(x.it.bucket))) assert.ok(!x.ex.tags.includes('deep_knee_flexion'), x.it.exercise_id);
@@ -528,8 +502,11 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
   });
   test('R08-9 pickleball: joint care by injury code - knee / Achilles care each leg day, arm care weekly (D-32)', () => {
     const { p } = plan('08');
-    for (const d of mains(p.weeks[0])) assert.ok(d.blocks.flatMap(b => b.items).some(it => it.bucket === 'PREHAB_LOWER'), d.weekday);
-    assert.ok(p.weeks[0].days.some(d => d.blocks.some(b => b.items.some(it => it.bucket === 'RECOVERY_ARM_CARE'))));
+    // (v0.5 fix round 1, R4-SES-02 'joint care outside the count' / sample 08 major: the care lives in the template's own lift where
+    // the day holds one - the calf raise, the leg extension, the rear-delt slot carry the flag 'joint_care' - rules.prehab.x1)
+    const care = (it) => it.bucket === 'PREHAB_LOWER' || ((it.flags || []).includes('joint_care') && ['ISO_CALF', 'ISO_QUAD'].includes(it.bucket));
+    for (const d of mains(p.weeks[0])) assert.ok(d.blocks.flatMap(b => b.items).some(care), d.weekday);
+    assert.ok(p.weeks[0].days.some(d => d.blocks.some(b => b.items.some(it => it.bucket === 'RECOVERY_ARM_CARE' || ((it.flags || []).includes('joint_care') && it.bucket === 'ISO_SIDE_REAR_DELT')))));
   });
   test('R08-10 pickleball: knee pain shifts the share toward single-leg work (UNI-02, coach\'s joint-pain note)', () => {
     const { p } = plan('08');
@@ -552,7 +529,8 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
     const { p } = plan('08');
     for (const d of mains(p.weeks[0])) {
       const prep = d.blocks.flatMap(b => b.items).find(it => it.bucket === 'WARMUP_PREP');
-      assert.ok(prep && /balance/.test(prep.text_key || prep.exercise_id || ''), d.weekday);
+      // (v0.5 fix round 1, sample 08 minor: the balance warm-up is the 60+ fall-prevention default - a 52-year-old gets the mobility prep)
+      assert.ok(prep && /balance|mobility/.test(prep.text_key || prep.exercise_id || '') && !/run/.test(prep.text_key || prep.exercise_id || ''), d.weekday);
     }
   });
   test('R08-16 pickleball: the effort level prints "2" / "8" - never "a 8.0" or "a 11.0"', () => {

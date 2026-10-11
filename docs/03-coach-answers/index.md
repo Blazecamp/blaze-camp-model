@@ -1,15 +1,17 @@
 # Coach answers by topic: index
 
-Everything coach Lalo Vera answered about his training model, sorted by topic instead of by questionnaire round. There are 198 question ids: 140 from round 1, 45 from round 2 and 13 from round 3. Each id sits on one topic page with the question, his final answer as it stands today, a short quote, what the team added without his confirmation, where the rule lives in the data, and a note when a later round changed it. This index maps every id to its page and gives the final rule in one line. The things he said in conversation are filed under the same topics.
+> **Model v1.3 (2026-10-11).** This index now covers every answer: rounds 1 to 3 (198 ids), the two dated clarifications of 2026-10-10 (`CX-01..04` on progression and editing, `CT-01` on session time) and round 4 (20 ids). The newest answers win on their subjects: no time-fitting, sessions sized by exercise count, his A / B and push / pull / legs templates, the 2-day rule, final sets always reached, progression written as a rule, optional add-ons, incline before overhead, the liability gate, profile labels and the release. Older entries that these answers changed carry a "Changed later" note and a new status. Decision records: [ADR-049](../04-decisions/adr-049-endpoint-priority-and-editable-progression.md) to [ADR-058](../04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md).
+
+Everything coach Lalo Vera answered about his training model, sorted by topic instead of by questionnaire round. There are 223 ids: 140 from round 1, 45 from round 2, 13 from round 3, 20 from round 4, and 5 from two dated clarifications he gave in conversation on 2026-10-10 (CX-01 to CX-04, CT-01). Each id sits on one topic page with the question, his final answer as it stands today, a short quote, what the team added without his confirmation, where the rule lives in the data, and a note when a later answer changed it. This index maps every id to its page and gives the final rule in one line. The things he said in conversation are filed under the same topics.
 
 ## How to read this folder
 
-1. **The latest answer wins.** Round 3 beats round 2. Round 2 beats round 1. Any questionnaire answer beats a statement made in conversation. Anything he said beats what was read from his sheets.
+1. **The latest relevant answer wins.** Round 4 and CT-01 are the newest and rank first. The CX clarification comes next, on its own subjects. Then round 3 beats round 2, round 2 beats round 1, and questionnaire answers beat the earlier conversation notes. Anything he said beats what was read from his sheets.
 2. **"Final rule" is the rule today.** When a later round changed an answer, the entry shows both: the earlier text is marked *superseded* and the entry names the answer that replaced it.
 3. **PROPOSED means not confirmed by him.** It is the team's design where he asked for a proposal or left a gap. INFERRED means the team's reading of his words. Neither is the coach speaking.
 4. **RIGHT with no words** means our assumption or proposal became his rule as written, so each entry prints that text.
 5. **Quotes are his words**, copied from the answer files. His answers were dictated, so some words are speech-to-text slips ("park queue" = PAR-Q, "high rows" = HYROX, "plies" = plyos). They are left as they are inside quotes.
-6. **"Where it lives"** points to a key in [`generator_spec_v1.json`](../../generator_spec_v1.json), the machine-readable twin of the model (version 1.2.0), unless another file is named. The compiled files in `model/` are built from it and are being rebuilt, so they are not cited here.
+6. **"Where it lives"** points to a key in [`generator_spec_v1.json`](../../generator_spec_v1.json), the machine-readable twin of the model (version 1.3.0), unless another file is named. Entries for the 2026-10-10 clarifications and round 4 cite `model/rules.json` and the other compiled files in `model/`, because engine 0.5 was built and tested on those keys. The master-document section and the spec key for each of those answers are in [`coverage_matrix_round4.md`](../../coverage_matrix_round4.md).
 
 | Status word | Meaning |
 |---|---|
@@ -26,17 +28,17 @@ Everything coach Lalo Vera answered about his training model, sorted by topic in
 | [Categorization](categorization.md) | How every exercise is tagged; bigger and smaller muscles; core; leg flexion. | 6 | 5 |
 | [Levels and zones](levels-and-zones.md) | Foundational / intermediate / advanced; client levels; what "zone" means. | 9 | 1 |
 | [Volume](volume.md) | Weekly sets, the floor and ceilings, how a set is counted, reps, effort, rest, pain. | 18 | 4 |
-| [Progression](progression.md) | The stairway, the weekly step, where added sets go, and the removed check-in. | 17 | 5 |
+| [Progression](progression.md) | The stairway, the weekly step, reaching the final sets, the written progression rule, where added sets go, and the removed check-in. | 24 | 5 |
 | [Bilateral and unilateral](bilateral-unilateral.md) | The 90/10 to 10/90 share; contralateral and ipsilateral loading. | 10 | 2 |
-| [Sessions and order](sessions-and-order.md) | Order, pairing, spine loading, session size, supersets, short time, editing, cardio. | 30 | 3 |
+| [Sessions and order](sessions-and-order.md) | Order, pairing, spine loading, session size by exercise count, his A / B template, 2-day weeks, supersets, editing, cardio. | 36 | 3 |
 | [Equipment](equipment.md) | No bands, machines and constraint, substitutions, medballs, cardio tools. | 16 | 7 |
-| [Athletes and sports](athletes-and-sports.md) | Plyometric vs ballistic, Olympic lifts, seasons, older adults, swimming, HYROX, staying active. | 26 | 5 |
+| [Athletes and sports](athletes-and-sports.md) | Plyometric vs ballistic, Olympic lifts, seasons, older adults, swimming, HYROX, staying active, profile confidence labels. | 27 | 5 |
 | [Plans and calendar](plans-and-calendar.md) | Plan lengths, blocks, easy weeks and maintenance, the year, seasons. | 14 | 3 |
 | [Testing](testing.md) | When and what to test; test names. | 5 | 0 |
-| [Library details](library-details.md) | Setups, names, levels, additions and removals of specific exercises; sheet fixes. | 32 | 2 |
-| [Product and generator](product-and-generator.md) | Who it is for, language, the intake form, the output, hard rules, sample plans. | 13 | 7 |
-| [Legal and open source](legal-and-open-source.md) | Health check, release of liability, no data kept, MIT licence, open source. | 2 | 8 |
-| [Changes across rounds](changes-across-rounds.md) | Every place where round 2 or round 3 reversed or refined an earlier answer. | - | - |
+| [Library details](library-details.md) | Setups, names, levels, additions and removals of specific exercises; optional add-ons, carries, mid-range pull, swaps, video links; sheet fixes. | 37 | 2 |
+| [Product and generator](product-and-generator.md) | Who it is for, language, the intake form, the output as an editable template, hard rules, sample plans, the release. | 16 | 7 |
+| [Legal and open source](legal-and-open-source.md) | Health check, the liability gate and release line, no data kept, MIT licence, credit, open source. | 5 | 8 |
+| [Changes across rounds](changes-across-rounds.md) | Every place where a later answer (round 2, round 3, the 2026-10-10 clarifications, round 4) reversed or refined an earlier one. | - | - |
 
 ## The answers in numbers
 
@@ -45,18 +47,21 @@ Everything coach Lalo Vera answered about his training model, sorted by topic in
 | 1 | [`coach_answers_full.md`](../../coach_answers_full.md) | 2026-10-08 | 140 | 84 | 18 | 4 | 30 | 2 | 2 |
 | 2 | [`coach_answers_round2.md`](../../coach_answers_round2.md) | 2026-10-08 | 47 | 38 | 3 | 2 | 4 | 0 | 0 |
 | 3 | [`coach_answers_round3.md`](../../coach_answers_round3.md) | 2026-10-09 | 13 | 12 | 1 | 0 | 0 | 0 | 0 |
+| CX | [`coach_answers_codex_2026-10-10.md`](../../coach_answers_codex_2026-10-10.md) | 2026-10-10 | 3 answers + 1 explanation (CX-01..04) | - | - | - | 4 | 0 | 0 |
+| CT | [`coach_answers_time_2026-10-10.md`](../../coach_answers_time_2026-10-10.md) | 2026-10-10 | 1 statement (CT-01) | - | - | - | 1 | 0 | 0 |
+| 4 | [`coach_answers_round4.md`](../../coach_answers_round4.md) | 2026-10-11 | 20 | 15 | 4 | 1 | 0 | 0 | 0 |
 
-Round 2 re-asked the two round-1 questions that had no answer (LIB-10, LIB-12), so the three files hold 200 answer blocks for 198 ids. His conversation statements are in [`coach_chat_statements.md`](../../coach_chat_statements.md) and, for the earliest ones, [`coach_answers.md`](../../coach_answers.md). That second file also holds a first cleaned copy of his answers to CAT-01 to CAT-09; the full text is in `coach_answers_full.md`.
+Round 2 re-asked the two round-1 questions that had no answer (LIB-10, LIB-12), so the first three files hold 200 answer blocks for 198 ids. CX-04 is his explanation that came with the three CX answers, not a fourth answer. Round 4 has 20 questions and 20 answers. His conversation statements are in [`coach_chat_statements.md`](../../coach_chat_statements.md) and, for the earliest ones, [`coach_answers.md`](../../coach_answers.md). That second file also holds a first cleaned copy of his answers to CAT-01 to CAT-09; the full text is in `coach_answers_full.md`.
 
-| Where the 198 answers stand today | Count |
-|---|---|
-| Stands | 102 |
-| Stands, refined | 73 |
-| Partly superseded | 11 |
-| Superseded | 6 |
-| Answered later | 6 |
+| Where the 223 answers stand today | Rounds 1 to 3 (198) | 2026-10-10 and round 4 (25) | All |
+|---|---|---|---|
+| Stands | 90 | 22 | 112 |
+| Stands, refined | 80 | 3 | 83 |
+| Partly superseded | 16 | 0 | 16 |
+| Superseded | 6 | 0 | 6 |
+| Answered later | 6 | 0 | 6 |
 
-## All 198 question ids
+## All 223 ids
 
 In the order he was asked. Follow an id to its entry.
 
@@ -85,7 +90,7 @@ In the order he was asked. Follow an id to its entry.
 | [UNI-06](sessions-and-order.md#uni-06) | [sessions-and-order](sessions-and-order.md) | Same-pattern or opposite-pattern pairing depends on the goal; cross pattern is the default for most athletes. | Stands, refined |
 | [UNI-07](bilateral-unilateral.md#uni-07) | [bilateral-unilateral](bilateral-unilateral.md) | Alternating exercises count like unilateral ones. | Stands |
 | [UNI-08](bilateral-unilateral.md#uni-08) | [bilateral-unilateral](bilateral-unilateral.md) | Pain swap bilateral to unilateral: keep the sets ideally, adjust as needed. | Stands, refined |
-| [UNI-09](sessions-and-order.md#uni-09) | [sessions-and-order](sessions-and-order.md) | Sessions: athletes about 1.5 h (max 2 h); everyday people 45-60 min. Unilateral time must be accounted for. | Stands, refined |
+| [UNI-09](sessions-and-order.md#uni-09) | [sessions-and-order](sessions-and-order.md) | Typical lengths (athletes about 1.5 h, everyday people 45-60 min) are background for the printed estimate. Session length is not asked and limits nothing (CT-01, R4-SES-01). | Partly superseded |
 | [UNI-10](bilateral-unilateral.md#uni-10) | [bilateral-unilateral](bilateral-unilateral.md) | In season: bilateral minimal, unilateral keeps range and health. | Stands |
 | [UNI-11](sessions-and-order.md#uni-11) | [sessions-and-order](sessions-and-order.md) | Pair hip dominant with push, knee dominant with pull, to avoid bleed-over. | Stands |
 | [UNI-12](bilateral-unilateral.md#uni-12) | [bilateral-unilateral](bilateral-unilateral.md) | More frontal and transverse unilateral work for court and combat athletes; little for aesthetics. | Stands |
@@ -94,9 +99,9 @@ In the order he was asked. Follow an id to its entry.
 | [VOL-03](volume.md#vol-03) | [volume](volume.md) | Pain: cut 30-50 %, machines or split grips, or drop the exercise. The person applies it; nothing is logged. | Stands, refined |
 | [VOL-04](progression.md#vol-04) | [progression](progression.md) | The weekly percentage applies to weekly sets per muscle, not to load. | Stands, refined |
 | [VOL-05](progression.md#vol-05) | [progression](progression.md) | The weekly step never goes by muscle size. One planned stairway; people adjust by hand. | Partly superseded |
-| [VOL-06](progression.md#vol-06) | [progression](progression.md) | Bank the fraction; add a whole set when it reaches 1. The tool does the math. | Stands |
+| [VOL-06](progression.md#vol-06) | [progression](progression.md) | Bank the fraction; add a whole set when it reaches 1. The tool does the math. | Stands, refined |
 | [VOL-07](progression.md#vol-07) | [progression](progression.md) | Add the set to the first exercise of the day, then the second, and so on; small muscles get a bonus exercise. | Stands, refined |
-| [VOL-08](sessions-and-order.md#vol-08) | [sessions-and-order](sessions-and-order.md) | About 7 exercises per resistance session (45 min ~5, 60 min 6-7, 75-90 min 8-9); field athletes up to 12. | Stands, refined |
+| [VOL-08](sessions-and-order.md#vol-08) | [sessions-and-order](sessions-and-order.md) | About 7 exercises per resistance session; field athletes up to 12. The by-minutes mapping is retired; counts by client type are in R4-SES-02. | Partly superseded |
 | [VOL-09](volume.md#vol-09) | [volume](volume.md) | Main mover 1.0, helpers 0.25 (not 0.5). | Stands, refined |
 | [VOL-10](volume.md#vol-10) | [volume](volume.md) | Athletic work never counts toward muscle sets; it is tracked separately. | Stands, refined |
 | [VOL-11](volume.md#vol-11) | [volume](volume.md) | Small muscles 12-30 reps, big muscles 5-15 mixed; 40-rep sets only in AMRAP-style or HYROX circuits. | Stands, refined |
@@ -104,7 +109,7 @@ In the order he was asked. Follow an id to its entry.
 | [VOL-13](volume.md#vol-13) | [volume](volume.md) | Effort is RIR, 1-3 on every working set; MAX = technical failure on small or bodyweight work; planned drift 3 to 1 inside that band. | Stands, refined |
 | [VOL-14](volume.md#vol-14) | [volume](volume.md) | Rest: hypertrophy 1-2 min (up to 3), strength 3-6 min, athletic as prescribed. | Stands |
 | [VOL-15](volume.md#vol-15) | [volume](volume.md) | Myo sets: last exercise only, machine or isolation only. | Stands |
-| [VOL-16](volume.md#vol-16) | [volume](volume.md) | Default 3 sets on compounds, 2 on isolation; athletic templates 2; about 5-7 exercises. | Stands |
+| [VOL-16](volume.md#vol-16) | [volume](volume.md) | Default 3 sets on compounds, 2 on isolation; athletic templates 2; about 5-7 exercises. | Stands, refined |
 | [VOL-17](volume.md#vol-17) | [volume](volume.md) | Calves: 3 sets every leg day. Core: about 2 exercises. Rear delts: inside the shoulders group (no own line). | Partly superseded |
 | [VOL-18](volume.md#vol-18) | [volume](volume.md) | Balance the plan; a V-taper bias only when the person wants it. | Stands, refined |
 | [PER-01](plans-and-calendar.md#per-01) | [plans-and-calendar](plans-and-calendar.md) | Plans: 12 weeks preferred; 8 weeks OK; 4-6 weeks = maintenance at 50-70 %; more than 12 = another 12 one step up; a yearly option. | Partly superseded |
@@ -159,11 +164,11 @@ In the order he was asked. Follow an id to its entry.
 | [EQ-15](equipment.md#eq-15) | [equipment](equipment.md) | Loaded jumps: 10-20 % of bodyweight; too heavy when height or speed drops. | Stands |
 | [EQ-16](equipment.md#eq-16) | [equipment](equipment.md) | Depth drops low 6-12 in, medium 12-18 in, high above hip; hurdles 6 in moderate, 12+ in advanced. | Stands |
 | [GEN-01](product-and-generator.md#gen-01) | [product-and-generator](product-and-generator.md) | For clients, coaches, trainers, S&C coaches, anyone; English first with a full Spanish toggle. | Stands, refined |
-| [GEN-02](product-and-generator.md#gen-02) | [product-and-generator](product-and-generator.md) | Intake: no sex; training experience in years; body weight; sport, position and season only for competitive athletes. | Stands, refined |
+| [GEN-02](product-and-generator.md#gen-02) | [product-and-generator](product-and-generator.md) | Intake: no sex; training experience in years; body weight; sport, position and season only for competitive athletes. Session length left the form in round 4. | Partly superseded |
 | [GEN-03](product-and-generator.md#gen-03) | [product-and-generator](product-and-generator.md) | Output: a simple, phone-friendly website (not an app); no tracking by the tool; the repo given away as open source. | Stands, refined |
 | [GEN-04](product-and-generator.md#gen-04) | [product-and-generator](product-and-generator.md) | A default exercise in every slot plus same-category dropdown swaps. | Stands, refined |
 | [GEN-05](progression.md#gen-05) | [progression](progression.md) | Superseded: the plan is not adjusted from logs. It comes out whole; people adjust it. | Superseded |
-| [GEN-06](product-and-generator.md#gen-06) | [product-and-generator](product-and-generator.md) | Superseded: videos are optional; people can look exercises up on YouTube. | Superseded |
+| [GEN-06](product-and-generator.md#gen-06) | [product-and-generator](product-and-generator.md) | Superseded: videos are optional; each exercise has a YouTube search link and a name to copy. | Superseded |
 | [GEN-07](product-and-generator.md#gen-07) | [product-and-generator](product-and-generator.md) | A short cue per exercise in his voice + his instruction block at the top. | Stands |
 | [GEN-08](product-and-generator.md#gen-08) | [product-and-generator](product-and-generator.md) | Hard rules: no failure on heavy compounds, no V-squat, power before strength, horizontal before vertical, core never skipped. Coaches can add rules. | Stands, refined |
 | [LIB-01](testing.md#lib-01) | [testing](testing.md) | 'LEFT TEST' = L-test; '5/10/05' = 5-10-5 pro agility drill. | Stands |
@@ -184,16 +189,16 @@ In the order he was asked. Follow an id to its entry.
 | [LIB-16](library-details.md#lib-16) | [library-details](library-details.md) | Upright rows = side delts. Dips = 0.5 triceps + 0.5 chest, on push days. | Stands |
 | [LIB-17](library-details.md#lib-17) | [library-details](library-details.md) | Merge near-duplicates. | Stands |
 | [LIB-18](testing.md#lib-18) | [testing](testing.md) | Superseded: the '21.6 mile run' (his "marathon") was removed by R2-LIB-06. | Superseded |
-| [LIB-19](library-details.md#lib-19) | [library-details](library-details.md) | Build out carries, drags and sling systems. | Stands |
+| [LIB-19](library-details.md#lib-19) | [library-details](library-details.md) | Build out carries, drags and sling systems. Since round 4 they are optional add-ons, dosed by distance or time. | Stands, refined |
 | [LIB-20](library-details.md#lib-20) | [library-details](library-details.md) | Add frontal / transverse lower-body moves to the library for court and combat athletes. | Stands |
 | [LIB-21](sessions-and-order.md#lib-21) | [sessions-and-order](sessions-and-order.md) | Speed session order is fixed: squirrel jumps, MACH drills / acceleration starts, max velocity. | Stands |
 | [LIB-22](library-details.md#lib-22) | [library-details](library-details.md) | Medball ALL LIST = 1 x 10 of each throw (about 200 throws). | Stands |
 | [PRG-01](library-details.md#prg-01) | [library-details](library-details.md) | Skipped in round 1; answered by R2-LIB-08 (NO ACCESS = self-serve, no coach access). | Answered later |
 | [PRG-02](sessions-and-order.md#prg-02) | [sessions-and-order](sessions-and-order.md) | PPL weekdays are flexible: set by the athlete. | Stands |
-| [PRG-03](sessions-and-order.md#prg-03) | [sessions-and-order](sessions-and-order.md) | Bootcamp: timed circuits, 3-5 rounds x 30-50 s, 5-7 stations, 35-45 min; 4, 5 or 6 sessions a week. | Stands |
+| [PRG-03](sessions-and-order.md#prg-03) | [sessions-and-order](sessions-and-order.md) | Bootcamp: timed circuits, 3-5 rounds x 30-50 s, 5-7 stations, 35-45 min; 4, 5 or 6 sessions a week. | Stands, refined |
 | [PRG-04](plans-and-calendar.md#prg-04) | [plans-and-calendar](plans-and-calendar.md) | STARTING / MID / ADVANCED OFF SEASON: blocks or levels, whatever is needed. | Stands |
 | [PRG-05](levels-and-zones.md#prg-05) | [levels-and-zones](levels-and-zones.md) | Novice = newby = Level 1 (under ~1 year, or back after 6-12 months off); Level 2 = over a year consistent; ex-pros only briefly at Level 1. | Stands, refined |
-| [PRG-06](progression.md#prg-06) | [progression](progression.md) | One sound algorithm for rep, set and volume increases, for every athlete and level. | Stands |
+| [PRG-06](progression.md#prg-06) | [progression](progression.md) | One sound algorithm for rep, set and volume increases, for every athlete and level. | Stands, refined |
 | [PRG-07](library-details.md#prg-07) | [library-details](library-details.md) | '12/10/8 -20' = 12, 10, 8 getting heavier, then a light 20. '10/10' = 10 per side. | Stands |
 | [PRG-08](library-details.md#prg-08) | [library-details](library-details.md) | SCORE = times, rounds or distances for conditioning. | Stands |
 | [PRG-09](athletes-and-sports.md#prg-09) | [athletes-and-sports](athletes-and-sports.md) | Baseball: high school = college = pro in structure; loads and speeds differ; Thursday = strength. | Stands |
@@ -209,19 +214,19 @@ In the order he was asked. Follow an id to its entry.
 
 | ID | Topic page | Final rule in one line | Status |
 |---|---|---|---|
-| [R2-VOL-01](progression.md#r2-vol-01) | [progression](progression.md) | Superseded: the check-in step table is gone. Only the limit (never above 7 % a week) remains. | Superseded |
+| [R2-VOL-01](progression.md#r2-vol-01) | [progression](progression.md) | Superseded: the check-in step table is gone, and its 7 % limit was retired by CX-01 and R4-PRG-02. | Superseded |
 | [R2-VOL-02](volume.md#r2-vol-02) | [volume](volume.md) | Effort 10 = the most I could do, successful, not a fail. The tool no longer reads effort ratings. | Partly superseded |
 | [R2-VOL-03](progression.md#r2-vol-03) | [progression](progression.md) | No check-in, no change: the plan follows its planned stairway. Now true for everyone. | Stands, refined |
 | [R2-VOL-04](volume.md#r2-vol-04) | [volume](volume.md) | Small muscles start 10 / 12 / 15 by level. Rear delts' own 4/6/8 sets are retired. | Partly superseded |
 | [R2-VOL-05](volume.md#r2-vol-05) | [volume](volume.md) | Glutes 0.25 on squats, lunges, deadlifts, RDLs; 1.0 on hip thrusts and bridges; KB swings count nothing; thruster 1 / 0.5 / 0.25. | Stands |
-| [R2-VOL-06](volume.md#r2-vol-06) | [volume](volume.md) | Ceilings 14 / 22 / 25 (priority muscle 18 / 26-28 / 30, now the bound for a Focus muscle); floor 10 sets per muscle per week; next block starts 5 % higher; all customizable. | Partly superseded |
+| [R2-VOL-06](volume.md#r2-vol-06) | [volume](volume.md) | Ceilings 14 / 22 / 25 (priority muscle 18 / 26-28 / 30, now the bound for a Focus muscle); floor 10 sets per muscle per week (from 3 training days); next block starts about 5 % above the last block's start; all customizable. | Partly superseded |
 | [R2-VOL-07](plans-and-calendar.md#r2-vol-07) | [plans-and-calendar](plans-and-calendar.md) | No deload or maintenance inside a block. Cannot finish it: stop, maintenance, then a whole new block. | Partly superseded |
 | [R2-VOL-08](progression.md#r2-vol-08) | [progression](progression.md) | Not understood in round 2; answered by R3-VOL-03. | Answered later |
 | [R2-SES-01](sessions-and-order.md#r2-ses-01) | [sessions-and-order](sessions-and-order.md) | Heavy squat and heavy deadlift on two different days; non-spinal lifts on the other lower days. | Stands |
 | [R2-SES-02](sessions-and-order.md#r2-ses-02) | [sessions-and-order](sessions-and-order.md) | Approved list of what counts as loading the spine and what does not. | Stands |
 | [R2-SES-03](sessions-and-order.md#r2-ses-03) | [sessions-and-order](sessions-and-order.md) | Core opener: 2 exercises x 2 sets, short of failure. Core supersets optional anywhere. | Stands, refined |
 | [R2-SES-04](sessions-and-order.md#r2-ses-04) | [sessions-and-order](sessions-and-order.md) | Field athletes: 12 exercises + the 2-exercise core block. | Stands, refined |
-| [R2-SES-05](sessions-and-order.md#r2-ses-05) | [sessions-and-order](sessions-and-order.md) | Full-body days too: 2 to 4 exercises per muscle that day, never 1. | Stands, refined |
+| [R2-SES-05](sessions-and-order.md#r2-ses-05) | [sessions-and-order](sessions-and-order.md) | 2 to 4 exercises per muscle on its day. For full-body days R4-SES-05 replaced this with his A / B template (about 6 exercises). | Partly superseded |
 | [R2-SES-06](sessions-and-order.md#r2-ses-06) | [sessions-and-order](sessions-and-order.md) | Aesthetics: 4 sessions (the 4th a second easy Orange) + walks. Every cardio count is adjustable up or down. | Stands |
 | [R2-ATH-01](athletes-and-sports.md#r2-ath-01) | [athletes-and-sports](athletes-and-sports.md) | Plyometric share at block end: 75 / 60 / 50 / 40 / 25 % by sport; each block starts 15 points more ballistic. | Stands, refined |
 | [R2-ATH-02](athletes-and-sports.md#r2-ath-02) | [athletes-and-sports](athletes-and-sports.md) | Approved lists: which jumps are ballistic and which are plyometric. | Stands |
@@ -231,13 +236,13 @@ In the order he was asked. Follow an id to its entry.
 | [R2-ATH-06](athletes-and-sports.md#r2-ath-06) | [athletes-and-sports](athletes-and-sports.md) | Athletes off-season 2-4 aerobic sessions by sport; pre-season 2; powerlifters 2 easy. | Stands, refined |
 | [R2-ATH-07](athletes-and-sports.md#r2-ath-07) | [athletes-and-sports](athletes-and-sports.md) | In season, game-heavy sports: gym plyos ~half, no extra COD, sprints only for speed athletes, hard day 48 h before a game. | Stands, refined |
 | [R2-ATH-08](athletes-and-sports.md#r2-ath-08) | [athletes-and-sports](athletes-and-sports.md) | From 60: no Olympic lifts, plyos or depth jumps by default; optional with his warning. Youth from the floor from ~14 after a hang block. | Partly superseded |
-| [R2-LIB-01](library-details.md#r2-lib-01) | [library-details](library-details.md) | Library exercises first; one detail may change between blocks; never an invented exercise. | Stands |
+| [R2-LIB-01](library-details.md#r2-lib-01) | [library-details](library-details.md) | Library exercises first; one detail may change between blocks; never an invented exercise. | Stands, refined |
 | [R2-LIB-02](levels-and-zones.md#r2-lib-02) | [levels-and-zones](levels-and-zones.md) | Zones 1 and 3 vertical (external rotation), zone 2 horizontal (internal rotation); the zone is a tag, the level comes from load position. | Stands |
 | [R2-LIB-03](levels-and-zones.md#r2-lib-03) | [levels-and-zones](levels-and-zones.md) | Keep both rotation biases every week; use the bias to pick pain swaps; not by sport for now. | Stands, refined |
 | [R2-LIB-04](library-details.md#r2-lib-04) | [library-details](library-details.md) | KB face pulls: a rear-delt (shoulder) option and a swap, never the main vertical pull. | Stands, refined |
 | [R2-LIB-05](library-details.md#r2-lib-05) | [library-details](library-details.md) | Bench push-ups: hands on bench foundational, feet on bench advanced. | Stands |
 | [R2-LIB-06](testing.md#r2-lib-06) | [testing](testing.md) | The '21.6 mile run' is removed; the half-marathon plan stays the longest run. | Stands |
-| [R2-LIB-07](library-details.md#r2-lib-07) | [library-details](library-details.md) | Approved additions: belt squat, seated machine shoulder press, hang clean, single-arm DB snatch, KB squat clean, hex-bar jump; KB curl, table row, floor Y/T raises. | Stands |
+| [R2-LIB-07](library-details.md#r2-lib-07) | [library-details](library-details.md) | Approved additions: belt squat, seated machine shoulder press, hang clean, single-arm DB snatch, KB squat clean, hex-bar jump; KB curl, table row, floor Y/T raises. | Stands, refined |
 | [R2-LIB-08](library-details.md#r2-lib-08) | [library-details](library-details.md) | 'NO ACCESS' = a self-serve version without coach access (full gym library). | Stands |
 | [R2-PER-01](plans-and-calendar.md#r2-per-01) | [plans-and-calendar](plans-and-calendar.md) | Yearly plan for the general population: Q1 cut with more cardio, Q2 summer shape, Q3 maintain ~70 %, Q4 build; December holidays in maintenance. | Stands, refined |
 | [R2-PER-02](plans-and-calendar.md#r2-per-02) | [plans-and-calendar](plans-and-calendar.md) | The year follows the user's calendar and is fully tunable (re-order blocks, more or less cardio). | Stands, refined |
@@ -252,7 +257,7 @@ In the order he was asked. Follow an id to its entry.
 | [R2-GEN-04](product-and-generator.md#r2-gen-04) | [product-and-generator](product-and-generator.md) | No sleep, stress or lifestyle questions: workouts only. | Stands |
 | [R2-GEN-05](product-and-generator.md#r2-gen-05) | [product-and-generator](product-and-generator.md) | Ask the season start date and practice / game days; the tool works out the phase. | Stands |
 | [R2-GEN-06](product-and-generator.md#r2-gen-06) | [product-and-generator](product-and-generator.md) | Weight in reps-in-reserve words; percentages only with a recent tested best; Olympic lifts explained as power output. | Stands |
-| [R2-GEN-07](product-and-generator.md#r2-gen-07) | [product-and-generator](product-and-generator.md) | He grades seven sample plans: swimming, football, soccer, CrossFit-style bootcamp, bootcamp, full-body aesthetics, push/pull/legs. | Stands |
+| [R2-GEN-07](product-and-generator.md#r2-gen-07) | [product-and-generator](product-and-generator.md) | He grades seven sample plans: swimming, football, soccer, CrossFit-style bootcamp, bootcamp, full-body aesthetics, push/pull/legs. | Stands, refined |
 | [R2-GEN-08](product-and-generator.md#r2-gen-08) | [product-and-generator](product-and-generator.md) | Neutral Latin American Spanish with the English gym word in brackets; he approves the lines; lb / kg switchable. | Stands, refined |
 
 ### Round 3 (13 ids)
@@ -262,16 +267,53 @@ In the order he was asked. Follow an id to its entry.
 | [R3-VOL-01](volume.md#r3-vol-01) | [volume](volume.md) | Rear delts are part of the shoulders group; the floor of 10 is counted on the group; people can always add more rear delts. | Stands |
 | [R3-VOL-02](progression.md#r3-vol-02) | [progression](progression.md) | No check-ins at all. Outputs only; people change the plan themselves. | Stands |
 | [R3-VOL-03](progression.md#r3-vol-03) | [progression](progression.md) | Added sets alternate between the two days of the same type; small-muscle extras become a bonus exercise, never the only one that day. | Stands |
-| [R3-VOL-04](progression.md#r3-vol-04) | [progression](progression.md) | Stairway numbers: about 3 % a week to halfway, about 5 % after; ceiling in the last week; the plan comes out whole and people adjust it. | Stands |
-| [R3-SES-02](sessions-and-order.md#r3-ses-02) | [sessions-and-order](sessions-and-order.md) | Time vs minimums: tell them, offer more time; else fewer muscles directly; supersets; stairway keeps climbing. People can switch off athletic or core blocks and add or remove exercises. | Stands |
-| [R3-SES-01](sessions-and-order.md#r3-ses-01) | [sessions-and-order](sessions-and-order.md) | Count FOCUS groups (hips, shoulders); calves 1 exercise x 3 sets per leg day; field-athlete layout; Focus muscle 1 and 2 get 1-3 extra sets. | Stands |
+| [R3-VOL-04](progression.md#r3-vol-04) | [progression](progression.md) | Stairway numbers: usually about 3 % a week to halfway, about 5 % after; the final sets are reached in the last week; the plan comes out whole and people adjust it. | Stands, refined |
+| [R3-SES-02](sessions-and-order.md#r3-ses-02) | [sessions-and-order](sessions-and-order.md) | Still his: recommend supersets; people can switch off athletic or core blocks and add or remove exercises. Retired: the time-versus-minimums order (CT-01, R4-SES-03). | Partly superseded |
+| [R3-SES-01](sessions-and-order.md#r3-ses-01) | [sessions-and-order](sessions-and-order.md) | Count FOCUS groups (hips, shoulders); calves 1 exercise x 3 sets per leg day; field-athlete layout; Focus muscle 1 and 2 get 1-3 extra sets. | Stands, refined |
 | [R3-PER-01](plans-and-calendar.md#r3-per-01) | [plans-and-calendar](plans-and-calendar.md) | The easy week after a block is an extra week and only a recommendation; holidays sit between blocks; when a block ends, it ends. | Stands |
 | [R3-ATH-01](athletes-and-sports.md#r3-ath-01) | [athletes-and-sports](athletes-and-sports.md) | Swimming dryland: 3 + 1 days, 0 extra cardio, 25 % plyo, Olympic lifts 2-3 days, shoulder care every session, 2-week taper with the swim taper. | Stands |
 | [R3-ATH-02](athletes-and-sports.md#r3-ath-02) | [athletes-and-sports](athletes-and-sports.md) | 60+: on/off defaults with a switch and warning. Racket players 50+: knee-friendly strength, calf/Achilles every leg day, rotator cuff, low-impact jumps. | Stands |
 | [R3-ATH-03](athletes-and-sports.md#r3-ath-03) | [athletes-and-sports](athletes-and-sports.md) | "High rows" = HYROX. Plan: 2 strength + 2 hybrid days, 4 cardio, 2 station circuits as finishers, wall ball max 20 lb, 50 % plyo. | Stands |
 | [R3-ATH-04](athletes-and-sports.md#r3-ath-04) | [athletes-and-sports](athletes-and-sports.md) | Plyo shares, cardio and in-season rule for every remaining sport; recreational players use their activity's share. | Stands |
 | [R3-ATH-05](athletes-and-sports.md#r3-ath-05) | [athletes-and-sports](athletes-and-sports.md) | Stay active: play days (hard gym day 48 h before), activity counts as cardio (up to 2), optional event date. | Stands |
-| [R3-GEN-01](legal-and-open-source.md#r3-gen-01) | [legal-and-open-source](legal-and-open-source.md) | Lawyer-written health check EN/ES + PAR-Q+ link; own-risk checkbox every build; no data kept; MIT to Lalo Vera, Blaze Camp, BFit Studios Corp.; legal text in EN and ES. | Stands |
+| [R3-GEN-01](legal-and-open-source.md#r3-gen-01) | [legal-and-open-source](legal-and-open-source.md) | Lawyer-written health check EN/ES + PAR-Q+ link; own-risk checkbox every build; no data kept; MIT to Lalo Vera, Blaze Camp, BFit Studios Corp.; legal text in EN and ES. | Stands, refined |
+
+### The 2026-10-10 clarifications (5 ids)
+
+Said in conversation, between rounds 3 and 4. They rank above rounds 1 to 3 on their own subjects. CT-01 ranks with round 4.
+
+| ID | Topic page | Final rule in one line | Status |
+|---|---|---|---|
+| [CX-01](progression.md#cx-01) | [progression](progression.md) | Reach the planned final sets; increase faster when that is what it takes. | Stands, refined |
+| [CX-02](progression.md#cx-02) | [progression](progression.md) | A week may keep the same sets while reps or load progress; the sets of any day or week are editable. | Stands |
+| [CX-03](progression.md#cx-03) | [progression](progression.md) | At the top number, sets stay and reps or load progress. | Stands, refined |
+| [CX-04](product-and-generator.md#cx-04) | [product-and-generator](product-and-generator.md) | The output is an editable template: all of it, including the sets of any day or week. | Stands |
+| [CT-01](sessions-and-order.md#ct-01) | [sessions-and-order](sessions-and-order.md) | Do not fit plans to time. Size sessions by exercise count; an average time is information only. | Stands |
+
+### Round 4 (20 ids)
+
+| ID | Topic page | Final rule in one line | Status |
+|---|---|---|---|
+| [R4-SES-01](sessions-and-order.md#r4-ses-01) | [sessions-and-order](sessions-and-order.md) | The form does not ask for a session length. Each day shows an estimate only; nothing is cut for time. | Stands |
+| [R4-SES-02](sessions-and-order.md#r4-ses-02) | [sessions-and-order](sessions-and-order.md) | Exercises per session: general 5-7, aesthetics 6-8, strength 5-6, bootcamp 5-7 stations, field athletes up to 12, older adults 5-6. Recommendations. | Stands |
+| [R4-SES-03](sessions-and-order.md#r4-ses-03) | [sessions-and-order](sessions-and-order.md) | 2 days a week: every big muscle at about 6-8 weekly sets; the plan says so and suggests a third day. | Stands |
+| [R4-SES-04](sessions-and-order.md#r4-ses-04) | [sessions-and-order](sessions-and-order.md) | Nothing is left out automatically. The person picks what to keep or take away. | Stands |
+| [R4-SES-05](sessions-and-order.md#r4-ses-05) | [sessions-and-order](sessions-and-order.md) | Full-body days are his A day (pull + knee dominant) and B day (push + hip dominant): about 6 exercises, up to 8. | Stands |
+| [R4-PRG-01](progression.md#r4-prg-01) | [progression](progression.md) | Reach the top set number in the last week when the math allows; one week early is fine; never earlier. | Stands |
+| [R4-PRG-02](progression.md#r4-prg-02) | [progression](progression.md) | No hard limit on a weekly step; a clear note when a week adds more than about 15 %. | Stands |
+| [R4-PRG-03](progression.md#r4-prg-03) | [progression](progression.md) | Rep and load progress is written as a rule the person applies, never a promised number. | Stands |
+| [R4-PRG-04](progression.md#r4-prg-04) | [progression](progression.md) | The next block starts about 5 % above the last block's start, in whole sets, never above the level's top. | Stands |
+| [R4-LIB-01](library-details.md#r4-lib-01) | [library-details](library-details.md) | Proposed exercises are optional add-ons, never a template's pick; wall balls and sled pushes may be primary in HYROX, maybe CrossFit; neck work stays proposed. | Stands |
+| [R4-LIB-02](library-details.md#r4-lib-02) | [library-details](library-details.md) | Carries and sled work: 2-4 trips of 20-40 m or 20-40 s; no muscle sets; with core / conditioning. | Stands |
+| [R4-LIB-03](library-details.md#r4-lib-03) | [library-details](library-details.md) | A mid-range pull category; incline pressing before overhead pressing for bodybuilders and the general population. | Stands |
+| [R4-LIB-04](library-details.md#r4-lib-04) | [library-details](library-details.md) | A swap says in one short line what it keeps and what it loses. | Stands |
+| [R4-LIB-05](library-details.md#r4-lib-05) | [library-details](library-details.md) | No third-party video links in the public data; a YouTube search link and an easy way to copy the exercise name. | Stands |
+| [R4-SCP-01](legal-and-open-source.md#r4-scp-01) | [legal-and-open-source](legal-and-open-source.md) | Everyone may use the plans on their own; every plan releases liability before and after it comes out. | Stands |
+| [R4-SCP-02](legal-and-open-source.md#r4-scp-02) | [legal-and-open-source](legal-and-open-source.md) | The terms and release must be accepted before the plan shows; a minimal release line is printed on the plan. | Stands |
+| [R4-SCP-03](athletes-and-sports.md#r4-scp-03) | [athletes-and-sports](athletes-and-sports.md) | Every sport profile carries a label: confirmed by coach, based on a similar sport, or proposed. Not shown on the plan. | Stands |
+| [R4-REL-01](product-and-generator.md#r4-rel-01) | [product-and-generator](product-and-generator.md) | Release model v1.3 as the finished model; finish it all, then consolidate. | Stands, refined |
+| [R4-REL-02](product-and-generator.md#r4-rel-02) | [product-and-generator](product-and-generator.md) | Build the engine now. | Stands |
+| [R4-REL-03](legal-and-open-source.md#r4-rel-03) | [legal-and-open-source](legal-and-open-source.md) | The repo credits the model to Coach Lalo (Gerardo Vera), Master NASM coach, as his experience and intellectual property; no "world's best" claims. | Stands |
 
 ## Related documents
 
@@ -286,7 +328,8 @@ In the order he was asked. Follow an id to its entry.
 | [`docs/05-reference/parameters.md`](../05-reference/parameters.md) | Every number in the model and where it lives |
 | [`docs/06-history/method.md`](../06-history/method.md) | How the answers were collected and checked |
 | [`docs/adding-exercises.md`](../adding-exercises.md) | How to add an exercise |
-| [`BLAZE_CAMP_BRAIN.md`](../../BLAZE_CAMP_BRAIN.md) | The master document of the model (v1.2) |
+| [`BLAZE_CAMP_BRAIN.md`](../../BLAZE_CAMP_BRAIN.md) | The master document of the model (v1.3) |
+| [`coverage_matrix_round4.md`](../../coverage_matrix_round4.md) | Coverage check: each round-4, CT-01 and CX answer traced into the master, the spec and the compiled rules |
 | [`coverage_matrix_round3.md`](../../coverage_matrix_round3.md) | Coverage check: each round-3 answer traced into the model |
 | [`coverage_matrix_round2.md`](../../coverage_matrix_round2.md) | Coverage check for round 2 |
 | [`coverage_matrix.md`](../../coverage_matrix.md) | Coverage check for round 1 |

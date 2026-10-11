@@ -18,16 +18,16 @@ export const BAND_RE = /\b(band|bands|banded|chain|chains|weight[- _]?releasers?
 const EX_KEYS = ['id', 'source_id', 'name_key', 'cue_key', 'kind', 'family', 'pattern', 'node', 'slots', 'default_in_slots', 'laterality', 'plane', 'level', 'zone', 'rotation_bias', 'size_class', 'exercise_class', 'counting', 'credit_class', 'credits', 'primary_muscle', 'equipment', 'constraint', 'axial_class', 'axial', 'spine_class', 'axial_pattern', 'skill', 'impact', 'load_ceiling', 'is_athletic', 'athletic', 'conditioning', 'medball', 'older_ok', 'older_opt_in_ok', 'youth_ok', 'tags', 'variation_axes', 'rep_hint', 'video', 'status', 'sport_use', 'rule_refs'];
 const ATH_KEYS = ['quality', 'contact_class', 'olympic_family', 'day_pattern', 'olympic_tier', 'full_catch', 'from_floor', 'plyo_method_default', 'rc_stage_default', 'unilateral_harder', 'loaded_jump', 'count_unit',
   'response', 'upper', 'low_amplitude', 'sport_only', 'no_cuts', 'sprint_kind']; // + the six stage-B2 fields (tools/fixture/athletic-b2.mjs)
-const STATION_KEYS = ['id', 'bucket', 'role', 'block', 'group', 'sets_hint', 'sets_text', 'dose_text', 'pair', 'superset', 'superset_below_minutes', 'circuit', 'include_from_minutes', 'axial', 'variant', 'variant_text', 'laterality_dial', 'loading', 'movable', 'counts_as_volume', 'condition', 'condition_text', 'older_default_excluded', 'older_default_text', 'group_label', 'pool_filter', 'rir', 'note'];
+const STATION_KEYS = ['id', 'bucket', 'role', 'block', 'group', 'sets_hint', 'sets_text', 'dose_text', 'pair', 'superset', 'circuit', 'axial', 'variant', 'variant_text', 'laterality_dial', 'loading', 'movable', 'counts_as_volume', 'condition', 'condition_text', 'older_default_excluded', 'older_default_text', 'group_label', 'pool_filter', 'rir', 'note', 'rank'];
 const TEMPLATE_KEYS = ['id', 'family', 'days', 'status', 'format_note', 'week_layout', 'day_types', 'variants', 'aerobic', 'evidence'];
-const DAYTYPE_KEYS = ['label', 'label_key', 'kind', 'format', 'dose_text', 'lower_focus', 'full_body', 'groups', 'axial', 'stations'];
-const TAGS = new Set(['overhead_squat', 'snatch', 'low_bar', 'depth_jump', 'high_depth_drop', 'hurdle_hop', 'bound', 'ankle_hop', 'landing', 'overhead', 'overhead_barbell', 'dips', 'upright_row', 'skullcrusher', 'good_morning', 'bent_over', 'chest_supported', 'sumo', 'cossack', 'deep_knee_flexion', 'front_rack', 'push_up_floor', 'belt_squat', 'kong_row', 'push_press', 'push_jerk', 'thruster', 'pullover', 'face_pull', 'kb_swing', 'wall_ball', 'glute_iso', 'spine_counted', 'fixed_grip', 'split_grip', 'machine', 'cable', 'barbell', 'medball', 'olympic', 'loaded_jump', 'olympic_from_floor', 'plyo_repeated', 'high_impact', 'axial_high', 'older_preferred', 'aesthetics_warmup_only', 'pitcher_reduce', 'striker_reduce', 'beginner_olympic', 'youth_floor_ok', 'axial_unload', 'pain_friendly', 'assisted', 'home_substitute']);
+const DAYTYPE_KEYS = ['label', 'label_key', 'kind', 'format', 'dose_text', 'lower_focus', 'full_body', 'groups', 'axial', 'stations', 'count', 'skeleton'];
+const TAGS = new Set(['overhead_squat', 'snatch', 'low_bar', 'depth_jump', 'high_depth_drop', 'hurdle_hop', 'bound', 'ankle_hop', 'landing', 'overhead', 'overhead_barbell', 'dips', 'upright_row', 'skullcrusher', 'good_morning', 'bent_over', 'chest_supported', 'sumo', 'cossack', 'deep_knee_flexion', 'front_rack', 'push_up_floor', 'belt_squat', 'kong_row', 'push_press', 'push_jerk', 'thruster', 'pullover', 'face_pull', 'kb_swing', 'wall_ball', 'glute_iso', 'spine_counted', 'fixed_grip', 'split_grip', 'machine', 'cable', 'barbell', 'medball', 'olympic', 'loaded_jump', 'olympic_from_floor', 'plyo_repeated', 'high_impact', 'axial_high', 'older_preferred', 'aesthetics_warmup_only', 'pitcher_reduce', 'striker_reduce', 'beginner_olympic', 'youth_floor_ok', 'axial_unload', 'pain_friendly', 'assisted', 'home_substitute', 'carry_sled', 'mid_range_push', 'mid_range_pull']);
 const ENUM = {
   kind: ['exercise', 'drill', 'test', 'conditioning'], laterality: ['bilateral', 'unilateral', 'alternating', 'n/a'], plane: ['sagittal', 'frontal', 'transverse', 'multi', 'n/a'],
   level: ['foundational', 'intermediate', 'advanced'], rotation_bias: ['external', 'internal', null], axial_class: ['high', 'moderate', 'low', 'none'], spine_class: ['counted', 'second_day', 'not_counted'],
   axial_pattern: ['squat', 'hinge', null], quality: ['plyometric', 'ballistic', 'landing', 'throw', 'olympic', 'sprint', 'cod'], contact_class: ['plyometric', 'ballistic', 'landing', null],
   olympic_family: ['clean', 'snatch', 'jerk', 'loaded_jump', 'swing', null], day_pattern: ['knee', 'hip', 'either', null], olympic_tier: ['L1', 'L2_plus', null], rc_stage_default: ['RC1', 'RC2', 'RC3', null],
-  count_unit: ['contacts', 'throws', 'cuts', 'metres', 'reps'], colour: ['A', 'B', 'C', 'LC'], medball_kind: ['pass_rotation', 'overhead', 'situp', 'slam', 'warmup', 'wall_ball'], video_kind: ['coach', 'observed'],
+  count_unit: ['contacts', 'throws', 'cuts', 'metres', 'reps'], colour: ['A', 'B', 'C', 'LC'], medball_kind: ['pass_rotation', 'overhead', 'situp', 'slam', 'warmup', 'wall_ball'], video_kind: ['search', 'coach'], // v0.5 / V2 (R4-LIB-05): no third-party ('observed') links
   layout_kind: ['main', 'optional', 'aerobic', 'off'], daytype_kind: ['main', 'optional', 'aerobic'], format: ['straight', 'circuit'], template_status: ['built', 'unbuilt'],
   station_axial: ['axial', 'non_axial', 'light_or_non_axial', null]
 };
@@ -82,13 +82,12 @@ export function fixtureChecks(m) {
     const allDayTypes = [['main', t.day_types], ...Object.entries(t.variants).map(([n, v]) => [n, v.day_types])];
     for (const [vname, dts] of allDayTypes) for (const [k, dt] of Object.entries(dts)) {
       if (!(dt.label_key in en)) errors.push(`missing day label ${dt.label_key}`);
-      const groupCount = {};
+      // (v0.5, COACH-R4 R4-SES-05: a day holds the exercises the coach's template gives each group - the round-2 'never 1 station of
+      // a group' warning is retired)
       for (const st of dt.stations) {
         stCount++; usedBuckets.add(st.bucket);
         if (!m.templates.buckets[st.bucket]) errors.push(`unknown bucket ${st.bucket} in ${t.id}/${vname}/${k}`);
-        if (st.group && ['resistance', 'isolation'].includes(m.templates.buckets[st.bucket].kind) && !st.include_from_minutes) groupCount[st.group] = (groupCount[st.group] || 0) + 1;
       }
-      for (const [g, n] of Object.entries(groupCount)) if (n === 1 && !['calves', 'core'].includes(g) && !m.rules.session.exercises_per_group.exempt_families.includes(fam)) warns.push(`${t.id}/${vname}/${k}: group ${g} has 1 always-on station (R2-SES-05 needs 2-4; check include_from_minutes)`);
     }
     for (const [wd, v] of Object.entries(t.week_layout)) if (t.status === 'built' && ['main', 'optional'].includes(v.kind) && v.day_type && !(v.day_type in t.day_types)) errors.push(`${t.id}: ${wd} -> ${v.day_type} not in day_types`);
   }
@@ -220,11 +219,14 @@ export function checkModel(raw, opts = {}) {
     }
     if (e.conditioning && (!keysEq(e.conditioning, ['colour']) || !ENUM.colour.includes(e.conditioning.colour))) err(`${where}: conditioning`);
     if (e.medball && (!keysEq(e.medball, ['min_lb', 'max_lb', 'kind']) || !ENUM.medball_kind.includes(e.medball.kind) || e.medball.max_lb > m.rules.medball.max_lb || e.medball.min_lb > e.medball.max_lb)) err(`${where}: medball ${JSON.stringify(e.medball)}`);
-    if (e.video && (!keysEq(e.video, ['url', 'kind']) || !ENUM.video_kind.includes(e.video.kind))) err(`${where}: video`);
+    if (!e.video || !keysEq(e.video, ['url', 'kind']) || !ENUM.video_kind.includes(e.video.kind)) err(`${where}: video (R4-LIB-05: a search link built from the name, or the coach's own video)`);
+    else if (e.video.kind === 'search' && !/^https:\/\/www\.youtube\.com\/results\?search_query=/.test(e.video.url)) err(`${where}: video search url`);
     if (!keysEq(e.rep_hint, ['text', 'unit'])) err(`${where}: rep_hint`);
-    if (e.credit_class !== 'DIPS' && Object.keys(e.credits).length && !(e.primary_muscle && e.credits[e.primary_muscle] === 1)) err(`${where}: primary_muscle ${e.primary_muscle} not the 1.0 credit`);
+    // (a class that splits its set between two muscles has no 1.0 credit: dips 0.5 / 0.5)
+    const splitClass = !Object.values(m.rules.credit.classes[e.credit_class] || {}).some(v => v === 1);
+    if (!splitClass && Object.keys(e.credits).length && !(e.primary_muscle && e.credits[e.primary_muscle] === 1)) err(`${where}: primary_muscle ${e.primary_muscle} not the 1.0 credit`);
     if (e.credit_class === 'DIPS' && e.primary_muscle !== null) err(`${where}: DIPS primary_muscle must be null`);
-    if (['proposed_v1', 'proposed_v1_1'].includes(e.status) && e.default_in_slots.length) err(`${where}: PROPOSED record is a default pick`);
+    if (['proposed_v1', 'proposed_v1_1', 'optional_addon'].includes(e.status) && e.default_in_slots.length) err(`${where}: PROPOSED / optional add-on record is a default pick`);
     if (e.tags.includes('v_squat')) err(`${where}: v_squat tag`);
   }
   // band regex: ids, aliases, names, cues, swaps / substitutes in rules, kit tokens

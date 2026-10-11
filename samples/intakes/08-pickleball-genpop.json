@@ -1,6 +1,6 @@
 {
   "schema": "intake/2",
-  "_comment": "Bonus sample (coach request 2026-10-08): 52-year-old recreational pickleball player who wants to stay athletic and active; plays 3x/week (Wed, Sat, Sun); 0.5 year lifting; 2 gym days x 45 min (Mon, Thu: each at least 48 h before the next play day); basic commercial gym; mild knee history (entered as mild knee pain, worse with deep knee bends); 12 weeks; 180 lb. 50-59 racket-player rules apply (R3-ATH-02 PROPOSED).",
+  "_comment": "Bonus sample (coach request 2026-10-08): 52-year-old recreational pickleball player who wants to stay athletic and active; plays 3x/week (Wed, Sat, Sun); 0.5 year lifting; 2 gym days (Mon, Thu: each at least 48 h before the next play day); basic commercial gym; mild knee history (entered as mild knee pain, worse with deep knee bends); 12 weeks; 180 lb. 50-59 racket-player rules apply (R3-ATH-02 PROPOSED).",
   "id": "sample-08-pickleball-genpop",
   "lang": "en",
   "units": "lb",
@@ -51,7 +51,6 @@
       "Mon",
       "Thu"
     ],
-    "session_minutes": 45,
     "start_date": "2026-10-12"
   },
   "plan": {

@@ -2,7 +2,7 @@
 
 A Blaze Camp plan is a *block*: a run of weeks that climbs like a stairway and is meant to be finished. The coach's preferred block is 12 weeks. An 8-week block is the shorter option. Plans of 4 to 6 weeks are for maintenance and transitions, at 50 to 70 % of the volume. The general population can also get a whole year, with one theme per quarter. Athletes follow their season instead. There is never an easy week in the middle of a block. After a block an easy week is recommended, not required. When a block ends, it ends, and the person builds whatever comes next.
 
-> **How to read this page.** A rule with an answer id was decided by coach Lalo Vera. Ids with no prefix (`PER-01`) are round 1, `R2-` is round 2, `R3-` is round 3. The newest round wins. **PROPOSED** means the team designed it and he has not confirmed it. **OBSERVED** means it was read from his sheets. His full answers by topic: [../03-coach-answers/plans-and-calendar.md](../03-coach-answers/plans-and-calendar.md).
+> **How to read this page.** A rule with an answer id was decided by coach Lalo Vera. Ids with no prefix (`PER-01`) are round 1, `R2-` is round 2, `R3-` is round 3. The newest round wins. **PROPOSED** means the team designed it and he has not confirmed it. **OBSERVED** means it was read from his sheets. His full answers by topic: [../03-coach-answers/plans-and-calendar.md](../03-coach-answers/plans-and-calendar.md). **Since model v1.3** there are newer answers too: round 4 (`R4-`, `coach_answers_round4.md`) and two clarifications of 2026-10-10 (`CT-01` on session time, `CX-01..04` on progression and editing). They win on their subjects.
 
 ## The rule
 
@@ -178,7 +178,7 @@ A *buy-out* is his name for a short conditioning finisher at the end of a sessio
 
 The last page of every plan says what comes next (the wording is **PROPOSED**):
 
-1. Recommended: one easy week, then build the next block. After a finished block the next one starts 5 % higher with the ceiling one set higher (R2-VOL-06; see [stairway.md](stairway.md#8-after-the-block-the-next-stairway)).
+1. Recommended: one easy week, then build the next block. After a finished block the next one starts about 5 % above where the last block started, in whole sets, never above the level's top number (R4-PRG-04; see [stairway.md](stairway.md#8-after-the-block-the-next-stairway)).
 2. Or build a maintenance plan and choose its weeks.
 3. Or build something new.
 

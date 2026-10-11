@@ -89,20 +89,23 @@ These are the defaults a coach asks about first. "His" means he gave the number 
 |---|---|---|
 | Weekly sets, big muscles | Start at 10, 15 or 20 for beginner, intermediate, advanced | His (VOL-01). The advanced start of 20 is the low end of his "20+" (PROPOSED). |
 | Weekly sets, shoulders, biceps, triceps | Start at 10, 12 or 15 | His (R2-VOL-04, R2-VOL-06) |
-| Floor | 10 sets a week for every group trained directly, in a training block | His (R2-VOL-06), counted on groups (R3-SES-01, R3-VOL-01). Keeping the floor to training blocks, and not maintenance, pre-season or in-season, is the team's reading (INFERRED). |
-| Ceilings in one 12-week plan | 14, 22 or 25 by level. A Focus muscle's ceiling rises by its extra sets and never passes his priority caps of 18, 26–28 and 30. | His (R2-VOL-06). Two parts are the team's reading (INFERRED): the same ceilings for shoulders, biceps and triceps, and adding the Focus extra to the ceiling as well as to the start. |
+| Floor | 10 sets a week for every group trained directly, in a training block, when there are 3 or more training days. On 2 days every big muscle is still trained, at about 6 to 8 weekly sets, and the plan suggests a third day. | His (R2-VOL-06, R4-SES-03), counted on groups (R3-SES-01, R3-VOL-01). Keeping the floor to training blocks, and not maintenance, pre-season or in-season, is the team's reading (INFERRED). |
+| Top numbers (ceilings) in one 12-week plan | 14, 22 or 25 by level. Each trained group reaches its top number in the last week. A Focus muscle's top rises by its extra sets and never passes his priority caps of 18, 26–28 and 30. | His (R2-VOL-06, CX-01, R4-PRG-01). Two parts are the team's reading (INFERRED): the same top numbers for shoulders, biceps and triceps, and adding the Focus extra to the top as well as to the start. |
 | Focus muscles | Up to 2, each +1 to +3 sets a week | His (R3-SES-01). The default of +2 is PROPOSED. |
 | Counting | Main mover 1 set, helpers 0.25. Jumps, throws, Olympic lifts, sprints and kettlebell swings count for no muscle. | His (VOL-09, VOL-10, R2-VOL-05) |
 | Calves and core | Calves: one exercise × 3 sets every leg day. Core: 2 exercises × 2 sets first. | His (VOL-17, R3-SES-01, R2-SES-03) |
-| Weekly growth | About 3 % a week to the halfway week, about 5 % after. The planned step is never more than 7 % for a group. Total sets rise by less than 10 %. | His (R3-VOL-04, R2-VOL-01, UNI-05) |
+| Weekly growth | Usually about 3 % a week to the halfway week, about 5 % after. The final sets are always reached, with bigger steps when needed. No hard limit; a week that adds more than about 15 % carries a note. A week may keep the same sets while reps or load go up. | His (R3-VOL-04, CX-01, CX-02, R4-PRG-01, R4-PRG-02) |
+| Reps and load | Written as a rule the client applies: "When you hit 12 on every set with 1-2 reps left in the tank, add weight next time and start again at 8." Never a promised number. | His (R4-PRG-03) |
 | Effort | 1 to 3 reps in reserve. Never to failure on heavy compounds. | His (VOL-13, GEN-08) |
 | Reps | 5 to 30. Smaller muscles take more reps. | His (conversation) |
 | Order in a session | Warm-up, core, jumps and throws, Olympic lifts, strength, isolation, conditioning. Power before strength. Horizontal before vertical. | His (ATH-11, ORD-01, ORD-03, ORD-08) |
 | Pairing | Hip-dominant lower with a push. Knee-dominant lower with a pull. | His (UNI-11, ORD-06) |
 | Spine | One heavy squat day and one heavy deadlift day a week, on different days | His (PER-04, R2-SES-01) |
-| Exercises per group | 2 to 4 on each day the group is trained, never 1 | His (R2-SES-05) |
-| Session size | About 5 to 7 resistance exercises. Field athletes up to 12 plus the 2 core exercises. | His (VOL-16, VOL-08, R2-SES-04) |
-| Session length | 45 to 60 minutes for general and weight-loss clients. About 90 minutes for athletes, bodybuilders and powerlifters, 2 hours at most. | His (UNI-09) |
+| Day layouts | His own templates. A full-body day is Day A (pull + knee dominant: row, squat, pulldown, lunge, biceps, leg extension) or Day B (push + hip dominant: press, hinge or hip thrust, vertical or incline press, single-leg hinge, triceps, leg curl), about 6 exercises, up to 8. Push / pull / legs is the other main layout. | His (R4-SES-05) |
+| Exercises per group | What the template gives on a full-body day (1 to 4). On a split day 2 to 4, never 1. | His (R4-SES-05, R2-SES-05); keeping 2 to 4 for split days is INFERRED |
+| Session size | By number of exercises, not counting the warm-up or the 2 core exercises: general fitness and fat loss 5 to 7; aesthetics 6 to 8; strength 5 to 6; bootcamp 5 to 7 stations; field athletes off-season up to 12; older adults 5 to 6. Recommendations: add or remove. | His (R4-SES-02) |
+| Session length | Not asked, and it limits nothing. Each day prints an average time as information. Nothing is cut for time. | His (CT-01, R4-SES-01). His typical lengths (45 to 60 minutes for everyday people, about 90 for athletes) are background only (UNI-09). |
+| Pressing | For bodybuilders and the general population, incline pressing before overhead pressing. Overhead stays as a variation. | His (R4-LIB-03) |
 | Two legs or one | A scale from 90/10 to 10/90. Bodybuilders and powerlifters move toward two-leg work. Field athletes keep 80 to 90 % one-leg work. | His (UNI-02). Most in-between numbers are PROPOSED. |
 | Jumps by sport | The share of bouncy (plyometric) work follows the sport's ground contact: 75 % for sprinters down to 25 % for boxing, wrestling, golf and swimming | His (ATH-01, R2-ATH-01, R3-ATH-04) |
 | Olympic lifts | Everyone in athletic training gets a version that fits their level | His (ATH-10, R2-ATH-04) |
@@ -123,7 +126,7 @@ The model sorts its rules into four layers. He asked for coaches to be able to a
 | Layer | Who owns it | Can you change it? | Examples |
 |---|---|---|---|
 | 1. Locked | The coach | No. A copy that breaks these is not his model. | See the list below |
-| 2. Blaze Camp defaults | The coach | Yes, for your own gym | Starting sets, floor, ceilings, Focus add, stairway steps, session lengths, one-leg share, jump share, cardio counts, every PROPOSED number |
+| 2. Blaze Camp defaults | The coach | Yes, for your own gym | Starting sets, floor, ceilings, Focus add, stairway steps, session size, one-leg share, jump share, cardio counts, every PROPOSED number |
 | 3. Your rules | You | Yes | The spec's own examples (written by the team, not by him): youth under 15 get no Olympic lifts from the floor; tennis lower body is 85 % one-leg; pickleball players get the athletic block switched off the day after they play. |
 | 4. Client choices | The client | Yes, inside the layers above | Swaps, core position, more or less cardio, Focus muscles, switching blocks off |
 
@@ -132,18 +135,20 @@ The model sorts its rules into four layers. He asked for coaches to be able to a
 - Never to failure on heavy compounds. No V-squat. Power before strength. Horizontal before vertical. Core is never skipped by the tool. (GEN-08)
 - No bands and no variable resistance. (EQ-01, EQ-12)
 - Jumps, throws, Olympic lifts and sprints never count as muscle sets. (VOL-10)
-- A group's planned weekly step is 7 % at most, and total weekly sets rise by less than 10 %. (R2-VOL-01, UNI-05)
+- No fitting of plans to a session length, and nothing dropped automatically. (CT-01, R4-SES-01, R4-SES-04)
+- His day templates are the skeleton. The tool does not invent layouts. (R4-SES-05)
+- Every trained group reaches its planned final sets, or the plan says why not. (CX-01, R4-SES-04)
 - No easy week or maintenance week inside a block. (R2-VOL-07)
 - Never a 1-rep max or all-out test from zero. (R2-PER-07)
 - The never-list. Older, injured and high-volume clients never get an overhead squat or a low-bar squat. Injured and high-volume clients also never snatch or depth jump. For 60+, jumps, Olympic lifts and depth jumps only when switched on with the warning. (EQ-03, R2-ATH-08, R3-ATH-02)
 - No rules based on sex. "I don't go by sex on these things, but mainly by age, foundation, goal, and injuries." (ATH-09)
 - No sleep, stress or lifestyle questions. (R2-GEN-04)
 - No check-ins and no data kept. (R3-VOL-02, R3-GEN-01)
-- The "use at your own risk" box before every build. (R2-GEN-03, R3-GEN-01)
+- The terms and the release accepted before any plan is built, and a release line on every plan. (R4-SCP-01, R4-SCP-02)
 
-He approved the first line as hard rules the tool must never break (GEN-08). Each of the other lines is also his decision, with its answer id. Placing them in the locked layer is the team's choice (PROPOSED).
+He approved the first line as hard rules the tool must never break (GEN-08). Each of the other lines is also his decision, with its answer id. Placing them in the locked layer is the team's choice (PROPOSED). The earlier locked line "a weekly step of 7 % at most, under 10 % in total" is retired (CX-01, R4-PRG-02).
 
-The locked rules bind what the tool builds. They do not stop a person from editing their own plan. A client may switch off a day's core block or remove an exercise (R3-SES-02).
+The locked rules bind what the tool builds. They do not stop a person from editing their own plan. A client may switch off a day's core block, remove an exercise or change the sets of any day or week (R3-SES-02, CX-04).
 
 The MIT license lets you copy and change everything in your own copy, including these. If you change a locked rule, say that your version is no longer his model. The license does not give you the Blaze Camp name (the team's reading of the license; a lawyer confirms it, see [ADR-009](../04-decisions/adr-009-mit-license-and-disclaimers.md)).
 
@@ -155,7 +160,7 @@ The MIT license lets you copy and change everything in your own copy, including 
 | 2. Your machines | Use the machines that feel right in your gym. Do not rank them. | "if the hack squat that you have in your gym works and you feel it is good, then that's great" (EQ-11) |
 | 3. Your exercises | For each slot, keep his default or swap it for one you have from the same category. If an exercise is missing, add it with [adding-exercises.md](../adding-exercises.md). A new exercise is PROPOSED until he approves it, so in this repository it can be a swap but not a first pick. | "pick the default and be able to do the drop-downs" (GEN-04) |
 | 4. Your people | Place each person by training experience, not by how strong they look. Under about a year, or back after a long break: beginner. Over a year of steady training: intermediate. | PRG-05. The advanced level is PROPOSED. |
-| 5. Your time | Check your class or session length against the minimums. If it is short, the model says so and offers another day or longer sessions. If you keep the time, it trains fewer groups directly and recommends supersets. | R3-SES-02 |
+| 5. Your sessions | The plan is not fitted to your class or session length. Check the average time printed on each day against the time you have. If a day is long, use the recommended supersets or remove what the day lists as easiest to remove. With only 2 days a week, every big muscle is trained at about 6 to 8 weekly sets. | CT-01, R4-SES-01, R4-SES-03, R4-SES-04 |
 | 6. Your sports | Find the sport and position in [sports](../02-model/sports.md). Check which numbers he confirmed and which are PROPOSED before you rely on them. | "Different athletes need different things." (conversation) |
 | 7. Your numbers | Change a default when you have a reason: more sets for a muscle someone wants to grow, fewer with pain, more machines for older clients. Write down what you changed. | "this is all customizable" (R2-VOL-06) |
 | 8. Your language | English and Spanish are both there. The Spanish lines wait for his approval. | GEN-01, R2-GEN-08 |
@@ -168,10 +173,12 @@ The tool does not follow up. You do. Nothing here is logged by the tool.
 | What you see | What to do | Source |
 |---|---|---|
 | A hard day or a sore client | Switch off that day's jumps and throws, or the core block. Lighter loads inside the reps-in-reserve cue are the team's advice (PROPOSED). | R3-SES-02 |
-| The session runs long | Use the recommended supersets | R3-SES-02, ORD-05 |
+| The session runs long | Use the recommended supersets, or remove what the day lists as easiest to remove. Nothing is removed for you. | R3-SES-02, ORD-05, R4-SES-04 |
+| The sets are too many or too few for this client | Change the sets of any exercise, for one day or for chosen weeks | CX-02, CX-04 |
+| A week is marked "jumps more than usual" | Keep it, or lower those sets | R4-PRG-02 |
 | The wrong muscle is working | Swap the exercise inside its category | GEN-04, EQ-10 |
 | Pain | Swap first. Then cut the sets 30 to 50 %. Then drop the exercise. The swap to machines, the cut and the drop are his. The three-step order is PROPOSED. | VOL-03 |
-| The client wants more of one muscle | Add an exercise, or set it as a Focus muscle in the next plan. Rear delts can always be added. | R3-SES-01, R3-VOL-01 |
+| The client wants more of one muscle | Add an exercise or an optional add-on (a carry, sled work, extra joint care), or set it as a Focus muscle in the next plan. Rear delts can always be added. | R3-SES-01, R3-VOL-01 |
 | More or less cardio | Add or take away sessions | R2-SES-06 |
 | The client wants core at the end | Move the core block. Core supersets can go anywhere. | ATH-11, R2-SES-03 |
 | A 60+ client wants jumps or Olympic lifts | Switch them on, with his warning: "Make sure that you have a fitness professional to help you understand what this means." | R2-ATH-08, R3-ATH-02 |
@@ -186,8 +193,9 @@ How these edits will look on screen is PROPOSED ([ADR-005](../04-decisions/adr-0
 - It will not track your clients or remember them. Nothing is kept (R3-GEN-01).
 - It will not adjust a plan from feedback. There are no check-ins (R3-VOL-02).
 - It will not screen your clients for you, and its release does not cover them ([DISCLAIMER.md](../../DISCLAIMER.md) §5).
-- It will not teach technique. Videos are optional, and the cues are his words only where he wrote them (GEN-07, R2-GEN-02).
-- It is not finished. He has not graded the sample plans yet, and the plan engine is being rebuilt ([roadmap](../06-history/roadmap.md)).
+- It will not teach technique. Each exercise has a YouTube search link and its name to copy; those videos are not his. The cues are his words only where he wrote them (GEN-07, R4-LIB-05).
+- It will not manage your clock. Session time is yours and your client's (CT-01).
+- It is not graded yet. He has not graded the sample plans. The plan engine (version 0.5) is young: read [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md) for its known gaps.
 
 ## If you disagree with a rule
 
@@ -203,8 +211,10 @@ You do not need these files to coach from the model. They are here so you can po
 | The floor of 10 | `rule_tables.weekly_sets.floors` | His; some of its exceptions INFERRED or PROPOSED |
 | Focus muscles | `rule_tables.priority.v1_2_focus_muscles` | His; default +2 PROPOSED |
 | How sets are counted | `rule_tables.counting.credit_map` | His; counting a set once per group PROPOSED |
-| Stairway steps and limits | `rule_tables.rate_engine.standard_steps`, `.limits` | His; exceptions to the 10 % limit PROPOSED |
-| Session size and the time check | `rule_tables.session_limits`, `rule_tables.time_model` | Order his; minutes PROPOSED |
+| Stairway steps, arrival and the big-step note | `rule_tables.rate_engine.standard_steps`; compiled: `model/rules.json > stairway.progression` | His (R3-VOL-04, CX-01, R4-PRG-01, R4-PRG-02); never flagging a single added set is PROPOSED |
+| Session size by client type | compiled: `model/rules.json > session.size.by_type` | His (R4-SES-02); the default inside each range PROPOSED |
+| The time estimate (information only) | compiled: `model/rules.json > time_model`, `render.estimate` | Rule his (CT-01); minutes PROPOSED |
+| Day templates | `synthesis/05_templates.json`; compiled: `model/templates.json` | His (R4-SES-05, his sheets) |
 | Order and pairing | `rule_tables.ordering`, `rule_tables.pairing`, `rule_tables.axial_loading` | His |
 | Two legs or one | `rule_tables.bilateral_unilateral` | Range his; most numbers PROPOSED |
 | Reps, effort, rest | `rule_tables.reps`, `rule_tables.effort`, `rule_tables.rest` | His; some copy PROPOSED |
@@ -213,9 +223,9 @@ You do not need these files to coach from the model. They are here so you can po
 | Cardio counts | `rule_tables.conditioning` | His |
 | Plan lengths | `plan_types` | His; layouts PROPOSED |
 | Tests | `tests` | His menu; doses PROPOSED |
-| Exercises | `synthesis/02_exercise_catalog.json` | His library; 31 records PROPOSED |
+| Exercises | `synthesis/02_exercise_catalog.json` | His library; 29 team proposals are optional add-ons (R4-LIB-01), 2 neck records still PROPOSED |
 | Coach rules and layers | `coach_rule_hooks` | Idea his (GEN-08); mechanism PROPOSED |
-| What a client can edit | `plan_editing` | Options his (R3-SES-02); mechanism PROPOSED |
+| What a client can edit | `plan_editing`; `engine/edit.mjs` | Options his (R3-SES-02, CX-02, CX-04); screen mechanics PROPOSED |
 
 ## Related pages
 

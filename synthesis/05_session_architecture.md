@@ -1,18 +1,20 @@
-# 05 - Session and week architecture (Blaze Camp) - v1.2
+# 05 - Session and week architecture (Blaze Camp) - v1.3
 
 **What this is.** How the coach builds a training *session* (which slots, in what order, paired how) and a training *week* (which day types, on which weekdays, with which optional, conditioning and OFF days). It does three things:
 
 1. It catalogues every template he has built, from both workbooks, as slot sequences in one bucket vocabulary (section 2, unchanged OBSERVED evidence).
 2. It states the rules that govern sessions and weeks. In v1.2 these rules come first from **the coach's round-3 answers** (`coach_answers_round3.md`, 2026-10-09), then from his **round-2 answers** (`coach_answers_round2.md`, 2026-10-08), then from his **round-1 answers** (138 of 140 questions), and only then from what the sheets show.
-3. It turns those rules into generator-ready week splits for 2, 3, 4, 5 and 6 days per week, for six goal families, with variants, scaled from 45 to 90 minutes (120 for competitive athletes). v1.1 rebuilt every one of them under the round-2 rule that **each muscle a day trains gets 2-4 exercises** (COACH-R2 R2-SES-05); v1.2 rebuilt them again with **one calf exercise x 3 sets per leg day**, block ids with on/off toggles and superset recommendations, and checks every template against the **time-vs-minimums** policy (COACH-R3 SES-01, SES-02).
+3. It turns those rules into generator-ready week splits for 2, 3, 4, 5 and 6 days per week, for six goal families, with variants, scaled from 45 to 90 minutes (120 for competitive athletes). v1.1 rebuilt every one of them under the round-2 rule that **each muscle a day trains gets 2-4 exercises** (COACH-R2 R2-SES-05); v1.2 rebuilt them again with **one calf exercise x 3 sets per leg day**, block ids with on/off toggles and superset recommendations, and checks every template against the **time-vs-minimums** policy (COACH-R3 SES-01, SES-02). **v1.3** rebuilt the gym and athletic days on his own A / B / C skeletons and push / pull / legs, sizes every session by exercise count instead of minutes, and retires the time-vs-minimums check (COACH-R4 R4-SES-02, R4-SES-05; COACH-CT CT-01); see the v1.3 section below.
 
-The machine-readable companion is `05_templates.json` in this folder (v1.2). It holds the bucket vocabulary, the observed templates, the v1.2 rules, the time model, the 30 regenerated split templates with their variants, block ids and superset recommendations, the recomputed checks for every template, the time-vs-minimums check and the open questions.
+The machine-readable companion is `05_templates.json` in this folder (v1.2). It holds the bucket vocabulary, the observed templates, the v1.2 rules, the time model, the 30 regenerated split templates with their variants, block ids and superset recommendations, the recomputed checks for every template, the time-vs-minimums check and the open questions. **v1.3:** the JSON was not re-issued; `tools/fixture/v05-structure.mjs` rebuilds the days on his skeletons at compile time, and the compiled `model/templates.json` carries them (a rank for every counted exercise, an exercise count and a skeleton per day type).
 
 **Audience.** Two readers:
 - the coach, who should be able to say "yes, that is how I do it" or "no, change this";
 - the engineer who will encode the generator.
 
 **Evidence tags (on every claim).**
+- **COACH-R4 <ID>** = the coach's round-4 answer in `coach_answers_round4.md` (R4-* IDs). It overrides everything below, together with **COACH-CT CT-01** (session time is the user's responsibility; `coach_answers_time_2026-10-10.md`).
+- **COACH-CX CX-01..04** = his clarifications on progression and editable templates (`coach_answers_codex_2026-10-10.md`). Above round 3, below round 4 and CT-01.
 - **COACH-R3 <ID>** = the coach's round-3 answer in `coach_answers_round3.md` (R3-* IDs, e.g. COACH-R3 SES-02 = R3-SES-02). It overrides rounds 1 and 2 and everything else.
 - **COACH-R2 <ID>** = the coach's round-2 answer in `coach_answers_round2.md` (R2-* IDs, plus the round-1 leftovers LIB-10 and LIB-12). It overrides round 1 and everything else.
 - **COACH-ANSWER <ID>** = the coach's round-1 answer in `coach_answers_full.md` (question ID cited). It overrides every sheet inference and every earlier team decision.
@@ -25,11 +27,133 @@ The machine-readable companion is `05_templates.json` in this folder (v1.2). It 
 
 **Labels.** Coach labels are quoted verbatim with their typos ('Tripple Extension', 'ABdution', 'DOMNANT', 'Sagital', 'RECCOMENDED', 'ACCESORY'). My own names are spelled correctly. Generator-facing program and day names are generic and plain (COACH-ANSWER FIX-03), for example 'JUSTICE LEAGUE' becomes 'Athletic Performance - Non-Competitive' (COACH-ANSWER ATH-13). Tab names stay verbatim where they are cited as evidence.
 
-**One important absence (OBSERVED).** No tab in either workbook states how long a session lasts. Session lengths come from the coach's answers (UNI-09, PRG-03, VOL-08; R2-SES-05 'it might be a little longer day'). Minute estimates per template come from the time model in section 7 and are INFERRED.
+**One important absence (OBSERVED).** No tab in either workbook states how long a session lasts. Session lengths come from the coach's answers (UNI-09, PRG-03, VOL-08; R2-SES-05 'it might be a little longer day'). Minute estimates per template come from the time model in section 7 and are INFERRED. **v1.3:** session length is no longer an input or a limit (COACH-CT CT-01; COACH-R4 R4-SES-01); the minute estimates only feed the average time printed on each day.
 
 ---
 
+## v1.3 - round 4, CT-01 and CX-01..04 applied (2026-10-11)
+
+The coach's newest answers outrank everything below: round 4 (`coach_answers_round4.md`, 20 answers, 2026-10-11), his clarification on session time (`coach_answers_time_2026-10-10.md`, **CT-01**) and his clarifications on progression and editing (`coach_answers_codex_2026-10-10.md`, **CX-01..04**). **Authority order: round 4 and CT-01 > CX-01..04 > round 3 > round 2 > round 1 > chat statements > sheets.** **Where this section and a later section of this file disagree, this section wins.** Later sections that v1.3 supersedes carry a "RETIRED in v1.3" or "Changed in v1.3" note under their heading; the text under such a note is history. The master record is `BLAZE_CAMP_BRAIN.md` v1.3 (what changed: §0d). 
+
+### V1. What v1.3 changes in this file
+
+| # | Change | Sections below it replaces | Source |
+|---|---|---|---|
+| 1 | **His own templates are the skeleton.** A day = pull + knee dominant; B day = push + hip dominant; about 6 exercises, up to 8; 4 days = A, B, rest, A, B; push / pull / legs is the other option. The gym and athletic days are rebuilt on these skeletons. Day layouts are never invented | §0; §4.4; §4.6; §4.7; §8 (8.1, 8.2, 8.4, 8.6); §9 | COACH-R4 R4-SES-05 (NOT RIGHT + his template) |
+| 2 | **Session size by exercise count**, by client type (general 5-7, aesthetics 6-8, strength 5-6, bootcamp 5-7 stations, field athletes up to 12, older adults 5-6), not counting the warm-up or the 2 core exercises | §0; §7.2; §7.5; §8 "scaled from 45 to 90 minutes" | COACH-R4 R4-SES-02 |
+| 3 | **No time-fitting.** Session length is not an input and not a limit; a day prints an average time estimate. The time-vs-minimums check and its per-template table are retired; `include_from_minutes` and `superset_below_minutes` are gone from the compiled templates | §0; §7.1; §7.4-§7.6; §8.7.1; §9 steps 3-4 | COACH-CT CT-01; COACH-R4 R4-SES-01 |
+| 4 | **Two days = one A day and one B day**; every big group at about 6-8 weekly sets; a third day suggested | §8 (2-day templates); §8.7.1 | COACH-R4 R4-SES-03 |
+| 5 | **Nothing is dropped automatically.** The cut order is retired; each day names the easiest things to remove and the person decides | §7.6 | COACH-R4 R4-SES-04 |
+| 6 | **Each slot keeps the laterality his template names** (two-leg squat or hinge in slot 2, single-leg in slot 4, a two-arm row first on the A day); the laterality dial moves only the slots the template leaves open | §4.5 | COACH-R4 R4-SES-05; athletic-day reading INFERRED |
+| 7 | **Incline before overhead** in the vertical / mid-range push slot for bodybuilders and the general population; a **mid-range pull** category between the horizontal and the vertical pull | §1 (buckets); §8 | COACH-R4 R4-LIB-03 |
+| 8 | **Supersets are a recommendation only**: the person switches a pair on; no session length does; pairs are suggested between neighbouring exercises | §5.1; §9 step 4 | COACH-R3 SES-02; COACH-CT CT-01 |
+| 9 | **Everything is editable**, the sets of any day or week included; after an edit the totals are recomputed and the plan is marked edited | §9 step 11 | COACH-CX CX-02, CX-04 |
+| 10 | **Set addition** follows the endpoint stairway: every trained group reaches its planned final sets; the sets are split over the template's slots; what the slots cannot hold goes to the bonus exercise or is capped and said | §6.13 | COACH-CX CX-01; COACH-R4 R4-PRG-01, R4-SES-04 |
+
+### V2. The templates (replaces the layouts of §8.1, §8.2, §8.4 and §8.6)
+
+**The A / B days (COACH-R4 R4-SES-05; slots 7-8 OBSERVED in his BYOP sheets, their order PROPOSED):**
+
+| Slot | A day = pull + knee dominant | B day = push + hip dominant |
+|---|---|---|
+| 1 | horizontal pull, two-arm (a row) | horizontal push (bench press or machine chest press) |
+| 2 | two-leg knee-dominant (a squat) | two-leg hip-dominant (a deadlift, a hip extension or a hip thrust) |
+| 3 | vertical pull (a lat pulldown) | vertical push or an incline press ("more vertical than horizontal"); incline first for bodybuilders and the general population (R4-LIB-03) |
+| 4 | single-leg knee-dominant (a lunge) | single-leg hip-dominant (staggered-stance DB deadlift, single-leg hip extension, glute bridge) |
+| 5 | biceps curl | triceps extension |
+| 6 | leg extension | leg curl |
+| 7 | calves (3 sets) | side or rear delt |
+| 8 | rear delt | calves (3 sets) |
+
+| Family (exercises a session) | 2 days | 3 days | 4 days | 5-6 days |
+|---|---|---|---|---|
+| Muscle & Physique (6-8) | A, B | his 3-day builder: A, B, C (C = row, squat, press, hinge, lunge + chest, triceps, biceps) | **A1 squat\*, B1 hip thrust~, rest or optional, A2 leg press~, B2 deadlift\*, optional, OFF** (the full-body aesthetics sample plan) | + optional days (Focus 1, Focus 2, calves, cardio); alternative **push / pull / legs × 2** (the PPL sample plan) |
+| General fitness / fat loss (5-7) | A, B | Bootcamp 1-2-3 circuits | A, B, aerobic, A, B (gym), or bootcamp circuits (the bootcamp sample plan); FAT BURN finishers | 5 rolling A / B circuits; 6 = Bootcamp 1-2-3 × 2 |
+| Athletic Performance (up to 12; non-competitive 5-10) | athletic A, athletic B: the athletic block (a jump station and an Olympic lift first; a throw on A, agility on B), then the A / B lifts without arm isolation; in-season 2-day variant | S1 athletic A (heavy squat), S2 athletic B (non-axial hinge), S3 athletic C (heavy deadlift, push and pull) | A1 / B1 / optional / A2 / B2 / optional / OFF; BASEBALL Parts and HYROX variants as written; swimming dryland 3-4 days | + optional days |
+| Strength (5-6) | FB_ME / FB_DE | squat / press / deadlift | ME lower Mon, ME upper Wed, DE lower Thu, DE upper Sat + A / B lead-lift weeks | + optional days |
+| Hybrid / CrossFit (class: 5-7 around the skill and the WOD) | HY_1 / HY_2 | class squat / press / deadlift | CrossFit competitor days; **'crossfit_style_bootcamp'** alternative (the CrossFit-style bootcamp sample plan) | HYBRID 5 days; class 6 |
+| No equipment | the goal's skeleton filtered by kit; 'NO ACCESS' is not this (R2-LIB-08) | | | |
+
+**Built on his skeletons in v1.3:** the gym days of the physique, fat-loss and no-equipment families, push / pull / legs × 2, and the athletic days with their variants. **Left as written, only ranked:** strength (the work / the accessory / the nuance / the survival), the hybrid and class days, bootcamp circuits, BASEBALL Parts and HYROX. **Laterality:** each slot keeps the laterality his template names (master §5.5). **Push / pull / legs** prints in the order of his sheet (flies before dips; leg extension and leg curl before the single-leg hinge). Checks that hold this: the template skeleton and "nothing dropped" (engine check V30), the session size (V13). The v1.2 statement "all 30 templates regenerated with 2-4 exercises per group" is superseded by this table.
+
+**v1.3: the template's slots keep their laterality (COACH-R4 R4-SES-05).** His template names the laterality of its slots: slot 2 is a two-leg squat or hinge ("bilateral, symmetrical"), slot 4 a single-leg lift, and the A day opens with a two-arm row. On gym A / B / C days, athletic days and push / pull / legs those slots keep it in every exercise block. The slider of §6.2 acts on the slots the template leaves open (the vertical pull, isolation details, jump stations) and through the exercise picked inside a slot; the share is read on those open slots. For field and court athletes, whose targets ask for 80-90 % single-leg work (UNI-02, UNI-03), this is an open question for the coach (master §0d.3 #3).
+
+### V3. Session sizes (replaces §7.1, §7.2 and §7.5)
+
+| Session type | Exercises (not counting the warm-up or the 2 core exercises) | Default sets | ID |
+|---|---|---|---|
+| General fitness / fat loss, gym days | **5-7** (his A / B day; 7 by default) | 3 compound / 2 isolation / 3 calves | **R4-SES-02**; VOL-16 |
+| Aesthetics / bodybuilding | **6-8** (his A / B days; push / pull / legs as his sheet) | 3 compound / 2 isolation / 3 calves | **R4-SES-02, R4-SES-05** |
+| Strength | **5-6**: the four roles + survival isolations | his template | **R4-SES-02**; ORD-07 |
+| Bootcamp | **5-7 stations**; 3 / 4 / 5 rounds by level (PROPOSED) × 35-50 s | time-based | **R4-SES-02**; PRG-03 |
+| Field athlete off-season | **up to 12** (jumps / throws + Olympic + lifts) + the 2-exercise core block | **2 per slot** | **R4-SES-02**; VOL-08, VOL-17, VOL-16; R2-SES-04 |
+| Non-competitive athletic / stay athletic | 5-10 (his sheet has 10 slots; range PROPOSED) | 2 per slot | ATH-13 |
+| Older adults 60+ | **5-6** | as the goal | **R4-SES-02** |
+| CrossFit-style class | warm-up → light core → skill → strength / power → WOD; 5-7 lifts around the skill and the WOD (PROPOSED) | his class tables | OBSERVED; R2-GEN-07 |
+| In-season athlete | 2 days a week (the 2-day athletic template, in-season variant) | 1-2 | PER-08 |
+| Optional day | Focus 1, Focus 2, calves, core, aerobic; bonus exercises land here | Focus 2-3 sets each | ORD-10, ORD-11 |
+
+**Lengths are estimates, never limits** (CT-01, R4-SES-01). Each day prints "Average time: about 60-75 min (an estimate, for information only)"; the arithmetic is in §5.6. "Sometimes it might be 45 minutes. Sometimes they can take off exercises and make it faster. Sometimes they can add exercises and make it longer. We don't need to be counting their time."
+
+**Counting convention** (APPROVED R2-SES-04; R4-SES-02): warm-up drills never count; the 2 core exercises sit outside the count; a superset of two small isolations counts as one station.
+
+**Time vs minimums: RETIRED** (CT-01; master §5.6.1). **Time-overflow rule: RETIRED** (round 3). Nothing is cut or reshaped for time, and nothing is dropped automatically (R4-SES-04).
+
+### V4. Two training days, and what a template cannot hold (replaces §7.6 and §8.7.1)
+
+"Every big muscle still gets trained, with fewer weekly sets (about 6-8 instead of 10), and the plan says so and suggests a 3rd day. We do NOT drop whole muscles, and we do NOT pile on more exercises" - "That sounds right ... People can add or remove or adjust accordingly. That's fine. We can maybe give them a small recommendation, but it's only a recommendation."
+
+| Item | Rule | Tag |
+|---|---|---|
+| Days | one A day and one B day: together they train every big group | R4-SES-03; R4-SES-05 |
+| Weekly sets | every big group starts at 6 and tops at 8 (+ the Focus add); small groups take the same numbers at most; a 2-day maintenance plan holds no line above 8 | "about 6-8" R4-SES-03; exact numbers PROPOSED |
+| The floor of 10 | applies from 3 training days | R4-SES-03; R2-VOL-06 |
+| What the plan says | a plain note up front: with 2 days each big muscle gets about 6-8 sets a week; a third day would bring it to 10 or more | R4-SES-03 |
+| Never | drop whole muscle groups; pile on more exercises | R4-SES-03 |
+
+This replaces v1.2's reading of R3-SES-02 step 2 ("train fewer muscles directly") and closes round-4 candidate 2 (very short weeks).
+
+Six to eight exercises a day at 2-5 sets each do not always hold every group at its planned final sets. The plan never drops anything to solve that, and it never hides it:
+
+| Case | What the plan does |
+|---|---|
+| The slots cannot hold the group's planned sets, and there is an optional day | his bonus exercise on the optional day (2-4 sets), opened at the exercise-block start that first needs it |
+| No optional day | the group is capped at what its slots hold; the plan says "Chest: 13 of 25 planned sets - your template holds 13; add a day or an exercise to reach more" |
+| The slots hold fewer than the floor (10, or 6 on 2 days) | the plan says the group is under its floor, and by how much |
+| The group has no exercise of its own (a field athlete's arms; a line a client type leaves to the compound lifts) | listed as "trained through the compound lifts" |
+| The person wants a shorter day | each day lists the easiest things to remove, in this order: the conditioning finisher, extra jump / throw stations, small-muscle accessories, bonus exercises. Always kept by the generator: the 2 core exercises, the main lifts and, for athletes, the first athletic station. The person decides (R4-SES-04: "they get to pick what they want to keep or what they want to take away") |
+
+### V5. Editing the plan
+
+"They should be able to turn off that day's athletic training or that day's core training and just focus on resistance. Maybe a pickleball player that played a lot of pickleball has a lot of soreness in their calves, or their connective tissues just don't feel like doing any plies and things like that. Then it could be turned off, or they can delete certain exercises, because an athlete or a coach should be able to modify accordingly. The options should be: Recommend supersets; Adding or removing exercises or blocks within the training session." (R3-SES-02) "It's already a template, and you need to adjust it as you need to." (R3-VOL-04)
+
+"This is essentially a tool that's going to allow people to set up their templates a lot better, and it should be all editable as they need to. Ideally, the tool is just so great and smart that edits are probably not going to be needed ... it will be editable, but they might not need to most of the time." (CX-04) "should be editable if they want to adjust their sets on that week or that day doesnt matter" (CX-02)
+
+| Control | What it does | Tag |
+|---|---|---|
+| **Blocks with stable ids** | every block of every day carries an id that does not change between the weeks of an exercise block, e.g. `blk.A.core.1`, `blk.A.athletic.1`, `blk.A.olympic.1`, `blk.A.strength.2`, `blk.B.calves.1`, `blk.A.finisher.1`; items keep their slot ids, added items get `edit.<n>` | R3-SES-02; format PROPOSED (spec `plan_editing.block_ids`) |
+| **Block switch (on / off)** | `core`, `skill`, `athletic` (jumps, throws, agility, sprints), `olympic`, `accessory`, `calves`, `focus` (optional-day Focus slots), `finisher` (conditioning finishers and HYROX station circuits) and `cardio` carry `optional: true, toggle: true` (the union of the 05 / 12 and 13 / spec lists, master §0.3); the `warmup` cannot be switched off; the `strength` block (05 / 12 `resistance`) is edited exercise by exercise (or removed as a block); default scope "this day every week of the exercise block", or "this day only"; switched-off blocks stay visible, greyed, and print as "(switched off)" | **R3-SES-02**; per-kind flags PROPOSED |
+| What a switch changes | athletic, Olympic, core and conditioning work never count as muscle sets (VOL-10), so switching them off changes no stairway and no weekly set number (the opener's abs credit drops for that day); the day's time estimate drops by that block's minutes | VOL-10; R3-SES-02 |
+| **Remove an exercise / a block** | removes it (this day or every week of the block); the remaining exercises keep their planned sets and keep climbing; **the sets of a removed exercise are not moved elsewhere automatically** (13 / spec; 12 v1.2 §3.10.2 would move them to the group's other exercises that day - cross-file decision §0.3); when a removal leaves a group with 1 exercise that day, the editor says so; the person's choice wins | R3-SES-02; R2-SES-05; mechanism PROPOSED |
+| **Change the sets** (v1.3) | the sets of any exercise, on one day or in one week or for the rest of the block; the weekly sets per group are recomputed from what is now written | **CX-02, CX-04** |
+| **Easiest to remove** (v1.3) | each day prints "Easiest to remove if you want a shorter day (your choice)": the conditioning finisher, then extra jump / throw stations, then small-muscle accessories, then bonus exercises; at most 6 names; nothing is removed by the tool | **R4-SES-04** |
+| **Optional add-ons** (v1.3) | the plan lists up to 6 optional add-ons that fit the person (joint care for their pain areas, the add-ons marked for their sport, a farmer carry for general and athletic goals); the person adds one with an edit; carries land in the conditioning block and count no muscle sets | **R4-LIB-01, R4-LIB-02**; list size and order PROPOSED |
+| **+ Add an exercise / a block** | the list offers only what the generator could have picked for this person (equipment, level, age and pain rules, exclusions; never V-squat, bands or 60+ power work without the switch and its warning); **rear-delt work is always offered on upper days** ("People and coaches should always be able to add more rear delts"); default sets compound 3, isolation 2, calves 3; an added exercise climbs with its group's stairway from the week it is added; blocks: a core superset or monster set anywhere (R2-SES-03), an accessory block, a cardio session | **R3-SES-02, R3-VOL-01**; R2-SES-03 |
+| **Swap** | the same-category dropdown (GEN-04); one-detail variations only (R2-LIB-01) | GEN-04 |
+| **Superset suggested** | every eligible pair (knee lift + pull, hip lift + push, biceps + rear delts, triceps + side delts, calves + delts, core supersets) carries `{pair_id, items, minutes_saved, on}`; shown by default ("Recommend doing supersets so that it's a faster workout"); the person switches a pair on - no session length does (CT-01); suggested only between neighbouring exercises, so nothing is reordered; never two lower compounds, never a heavy lift with a fatiguing lift for the same muscle (contrast excepted) | **R3-SES-02**; ORD-05 |
+| **Reset** | "Reset to the generated plan" undoes every edit | PROPOSED |
+| After an edit | the weekly sets per group are **recomputed**; the plan is **marked edited** (`plan.edited = true`, with the list of edits); the checks run again and their result is stamped "edited" - **no old "validated" stamp stays on a changed plan**; where the edit leaves the template's rules (a trained group under its floor, a day without its core block, a day above its exercise count) the tool lists it as a note - **notes, never refusals, and nothing is repaired behind the person's back**: the locked rules bind what the generator builds and what the "add" list offers, not what people take out of their own plan | **CX-04**; R3-VOL-04, R3-SES-02; mechanism PROPOSED |
+| Where edits live | inside the plan (`plan.edits[]` on top of the generated plan); they travel with the plan link and the plan file and are printed in every image, PDF and sheet; Blaze Camp keeps nothing | **R3-GEN-01** |
+| What every export says | "You can switch off today's jump / throw block or core block, remove or add exercises or blocks, and do the suggested supersets to save time" (copy C17, `edit.hint`), with the optional blocks and suggested supersets marked, so a coach's screenshot tells the client what they can change | **R3-SES-02** |
+
+The generator still builds every plan by the rules first: the core opener every session, the athletic budget, his template complete, calves on leg days, the floor on every trained group from 3 training days, a stairway that reaches its planned final sets. It does not shorten or trim a plan for anyone. The person does that, with the hints above (R4-SES-04). An editable template is not a guarantee that every possible edit follows the rules (CX-04's record). The engine's edit function is `applyPlanEdits(plan, edits, model)` in `engine/edit.mjs` (`set_sets`, `remove_exercise`, `add_exercise`, `set_block`); the generated plan is never changed in place.
+
+---
+
+
 ## v1.2 - round-3 answers applied (2026-10-09)
+
+> **Changed again in v1.3.** This list is the v1.2 change record, kept as written. Its rows about the time check and time vs minimums (R3-SES-02: offers, "fewer groups trained directly", "never flat"), about the 7 % and 10 % limits, and about the next block's "cap + 1" were changed again by COACH-CT CT-01, COACH-CX CX-01..04 and round 4. The v1.3 section above wins.
 
 **Authority order:** round-3 answers > round-2 answers > round-1 answers > everything else. `coach_answers_round3.md` was read in full first. Every split template was rebuilt by the v1.2 build script (one calf exercise per leg day, block ids and toggles, superset recommendations) and re-checked (8.7); the time-vs-minimums check (8.7.1) replaces v1.1's floor-of-10 table. The observed evidence in section 2 is unchanged. The v1.1 and v1 change logs below are kept as history; the v1.1 rows that round 3 changed are marked ‡.
 
@@ -169,25 +293,25 @@ The machine-readable companion is `05_templates.json` in this folder (v1.2). It 
 
 ---
 
-## 0. The short answers (v1.2)
+## 0. The short answers (v1.3)
 
 | Question | Answer |
 |---|---|
 | How is a session ordered? | **WARM-UP -> CORE BLOCK (light) -> [SKILL] -> PLYO / BALLISTIC / SPRINT -> THROWS -> COD -> OLYMPIC / POWER -> THE WORK + its paired upper lift -> secondary pairs -> each group's second exercise -> ISOLATION -> CONDITIONING / WOD.** Warm-up always (COACH-ANSWER ORD-08). Core first for everyone, movable, 2 x 2 short of failure (ATH-11; COACH-R2 R2-SES-03). Power before strength (ORD-03). The work first, even when vertical (ORD-02). Row before pulldown, horizontal before vertical (ORD-01). A small muscle goes first only when it is one of the client's Focus muscles (ORD-04; COACH-R3 SES-01). Core supersets or monster sets may be added anywhere (R2-SES-03); the user may switch a day's core or athletic block off (COACH-R3 SES-02). |
-| How many exercises per muscle? | **2-4 for every muscle group the day trains, never 1** - on full-body days too (COACH-R2 R2-SES-05). Groups: quads, hips (glutes + hamstrings), chest, back, shoulders (front, side, rear delts + traps), biceps, triceps (grouping approved, COACH-R3 SES-01). **Calves: one exercise x 3 sets on every leg day** (COACH-R3 SES-01). |
-| How are slots paired? | **Hip-dominant with a push, knee-dominant with a pull**, at slot level (UNI-11, ORD-06); the second exercise of a group follows the same surface rule (leg extension with a pull, leg curl with a push). Same pattern (squat + lunge) for growth goals, cross pattern (squat + single-leg hinge) for bootcamp, fat loss, general fitness and athletes (UNI-06). |
-| Exercises per session? | Full-body days **8-12** (7-12 counted) - longer than VOL-08's 5-7 because of R2-SES-05; split days 8-11. Field athletes **up to 12 + the 2-exercise core block**, 2-4 exercises per group trained that day - with the cross pattern that leaves 2 jump / throw stations + 1 Olympic lift (COACH-R3 SES-01); warm-up drills never count; two small isolations in a superset count as one (R2-SES-04). Bootcamp: **two circuits of 4-6 stations** (PRG-03 + R2-SES-05). |
-| How long is a session? | Athletes, bodybuilders, powerlifters, pros **about 90 min, max 2 h**; general / weight loss **45-60 min** (UNI-09); bootcamp **35-45 min** (PRG-03). Full-body days start at about their length with 2 sets per exercise and grow through the block ("a little longer day", R2-SES-05) - e.g. a 60-min aesthetics day ~62 min at the start, ~90 late in the block (upper estimate). **When the chosen time cannot hold the minimums** (10 sets per trained group, 2-4 exercises per group, calves 3 per leg day, a climbing stairway), the plan says so up front and offers another day or a longer session; if the user keeps the time, fewer groups are trained directly, supersets are recommended and the stairway climbs on the trained groups (COACH-R3 SES-02; every template checked in 8.7.1). |
-| How do sets grow? | A planned **stairway** (smaller steps first, bigger after halfway, hardest weeks last - R2-PER-03/04; engine in 06 / 12). Each new set goes to the **first exercise of the day for that muscle, then the next** (2/2/2 -> 3/2/2 -> 3/3/2 -> 3/3/3 -> 4/3/3, VOL-07), alternating between the two weekly exposures of a day type (approved, COACH-R3 VOL-03). Floor 10 sets a week per trained group (R2-VOL-04/06; COACH-R3 VOL-01). The plan is computed once - no check-in, nothing stored (COACH-R3 VOL-02, VOL-04, GEN-01). |
+| How many exercises per muscle? | **On his A / B days the template gives each group its exercises**: back 2 (row, pulldown), quads 3 (squat, lunge, leg extension), hips 3 (hinge, single-leg hinge, leg curl), chest and shoulders 1-2, biceps or triceps 1 (COACH-R4 R4-SES-05). **On split days (push, pull, legs): 2-4 for every muscle group the day trains, never 1** (COACH-R2 R2-SES-05). Groups: quads, hips (glutes + hamstrings), chest, back, shoulders (front, side, rear delts + traps), biceps, triceps (grouping approved, COACH-R3 SES-01). **Calves: one exercise x 3 sets on every leg day** (COACH-R3 SES-01). |
+| How are slots paired? | **Hip-dominant with a push, knee-dominant with a pull**, at slot level (UNI-11, ORD-06); the second exercise of a group follows the same surface rule (leg extension with a pull, leg curl with a push). Same pattern (squat + lunge) for growth goals, cross pattern (squat + single-leg hinge) for bootcamp, fat loss, general fitness and athletes (UNI-06). **v1.3:** gym and athletic days are his A / B days - squat + lunge with the pulls, hinge + single-leg hinge with the pushes (COACH-R4 R4-SES-05); the cross pattern stays in his bootcamp circuits as written. |
+| Exercises per session? | **By client type (v1.3, COACH-R4 R4-SES-02)**, not counting the warm-up or the 2 core exercises: general fitness / fat loss **5-7**, aesthetics / bodybuilding **6-8**, strength **5-6**, bootcamp **5-7 stations**, field athletes off-season **up to 12** + the 2-exercise core block (jumps / throws + Olympic + lifts), older adults 60+ **5-6**. A full-body day is his A or B day: about 6, up to 8 (R4-SES-05). Warm-up drills never count; two small isolations in a superset count as one (R2-SES-04). A recommendation: the person adds or removes. *(Retired: full-body days of 8-12 exercises.)* |
+| How long is a session? | **Not an input and not a limit (v1.3, COACH-CT CT-01; COACH-R4 R4-SES-01).** Each day prints an average time estimate as information. His typical lengths - athletes, bodybuilders, powerlifters, pros about 90 min; general / weight loss 45-60 min (UNI-09); bootcamp 35-45 min (PRG-03) - describe what sessions usually take. Nothing is cut, reshaped or flagged because of time. With 2 training days every big group is trained at about 6-8 weekly sets and the plan suggests a third day (R4-SES-03). *(Retired: "when the chosen time cannot hold the minimums" and its offers.)* |
+| How do sets grow? | A planned **stairway** (smaller steps first, bigger after halfway, hardest weeks last - R2-PER-03/04; engine in 06 / 12); **v1.3: every trained group reaches its planned final sets, with faster steps when needed and a note above about 15 %** (COACH-CX CX-01; COACH-R4 R4-PRG-01, R4-PRG-02). Each new set goes to the **first exercise of the day for that muscle, then the next** (2/2/2 -> 3/2/2 -> 3/3/2 -> 3/3/3 -> 4/3/3, VOL-07), alternating between the two weekly exposures of a day type (approved, COACH-R3 VOL-03). Floor 10 sets a week per trained group from 3 training days (R2-VOL-04/06; COACH-R3 VOL-01; COACH-R4 R4-SES-03). The plan is computed once - no check-in, nothing stored (COACH-R3 VOL-02, VOL-04, GEN-01). |
 | Week shape? | **A1, B1, OPT, A2, B2, OPT, OFF** (OBSERVED shape). Heavy squat Monday, non-spinal hinge Tuesday, leg press / belt squat Thursday, heavy deadlift Friday (**approved**, R2-SES-01). PPL weekdays flexible (PRG-02). Bootcamp 4, 5 or 6 sessions (PRG-03). In season: 2 days, the harder one at least 48 h before a game (PER-08, R2-ATH-07). |
 | Optional days? | The 5-slot block (OBSERVED) - core, Focus 1, Focus 2 (the client's Focus muscles, COACH-R3 SES-01), the Calves slot (when calves are a Focus muscle or the leg days cannot reach 10), one aerobic session. Separate days preferred, add-ons allowed (ORD-10). Default home of a small-muscle bonus exercise (approved, COACH-R3 VOL-03). |
 | Aerobic sessions? | Defaults, **adjustable up or down by the user** (R2-SES-06): **3** general / fat loss; **4** aesthetics / physique (Blue, Green, Orange + a second easy Orange) + optional walks; athletes **2-4 off-season by sport, 2 pre-season, 2 in season**; powerlifters **2 easy Orange** (ATH-07, R2-ATH-06); **HYROX 4**; **0 extra for swimmers, runners, rowers and endurance cyclists**; a stay-active user's 45-60+ min activity session counts as one (up to 2) (COACH-R3 ATH-01, ATH-03, ATH-04, ATH-05). |
 | Olympic lifts? | Up to **4 a week** - clean days = squat days, snatch days = hinge days (R2-ATH-04); every athletic main day carries one (the BASEBALL Parts Tue/Fri snatch from 75 min, as OBSERVED). Weight by RPE / RIR and bar speed; a % only with a tested recent best (R2-GEN-06). **Older adults (60+): off by default** with low ankle hops, other jumps, depth jumps and max sprints; landing drills, balance, quick stepping, light medball throws and fast machine work stay on; the rest optional with a warning (R2-ATH-08; COACH-R3 ATH-02). |
-| Supersets? | A fatigue and time tool (ORD-05). Small-isolation pairs (arm + shoulder isolations) are always supersets; athletic off-season pairs are supersets (VO2max case). Contrast complexes for L2+ athletes off-season (ATH-12). **Every main day lists its eligible pairs as recommended supersets, "needed" when the day fits only with them** (COACH-R3 SES-02). |
+| Supersets? | A fatigue and time tool (ORD-05). Small-isolation pairs (arm + shoulder isolations) are always supersets; athletic off-season pairs are supersets (VO2max case). Contrast complexes for L2+ athletes off-season (ATH-12). **Every main day lists its eligible neighbouring pairs as recommended supersets; the person switches them on, and no session length does** (COACH-R3 SES-02; COACH-CT CT-01). |
 | Core? | First in every session: 2 exercises x 2 sets, short of failure (ATH-11, VOL-17, **approved** R2-SES-03); the user may switch it off for a day (COACH-R3 SES-02). |
-| Calves, rear delts? | Calves **one exercise x 3 sets every leg day** (4 at 90 min; never a second calf exercise on a leg day, COACH-R3 SES-01). Rear delts are part of the **shoulders group** (COACH-R3 VOL-01): shoulders get 2 exercises on their days - on pull days a rear delt + the **KB face pull** (R2-LIB-04, VOL-17); "add rear delts" is a plan-editing option. |
+| Calves, rear delts? | Calves **one exercise x 3 sets every leg day** (never a second calf exercise on a leg day, COACH-R3 SES-01). Rear delts are part of the **shoulders group** (COACH-R3 VOL-01): shoulders get 2 exercises on their days - on pull days a rear delt + the **KB face pull** (R2-LIB-04, VOL-17); "add rear delts" is a plan-editing option. |
 | Deloads and tests? | **No deload inside a block** (R2-VOL-07); the easy week after a block is a **recommendation**, not mandatory - the block ends and the user builds the next (COACH-R3 PER-01). Tests before the block (or week 1) and at the end, never mid-block, printed in the plan (R2-PER-07). |
-| Can the user change the plan? | Yes (COACH-R3 SES-02): switch a day's core, skill, athletic, Olympic, focus or conditioning block off, add or remove exercises or whole blocks, "add rear delts". Toggles change no muscle-set number; nothing is stored - the plan is rebuilt (9 step 11). |
+| Can the user change the plan? | Yes, everything (COACH-R3 SES-02; COACH-CX CX-02, CX-04): switch a day's core, skill, athletic, Olympic, focus or conditioning block off, add or remove exercises or whole blocks, "add rear delts", and change the sets of any day or week. Nothing is dropped automatically: each day names the easiest things to remove and the person decides (COACH-R4 R4-SES-04). After an edit the weekly totals are recomputed and the plan is marked edited; nothing is stored. |
 
 ---
 
@@ -575,6 +699,8 @@ Upper vector with the lower pattern, day level (OBSERVED, v0 count): knee + hori
 
 ### 4.4 Day grammars (v1.1)
 
+> **Changed in v1.3** (COACH-R4 R4-SES-05). Gym and athletic days use his A / B (and C) days; the cross-pattern grammar stays for his bootcamp circuits as written (section V2). Where the text below differs, the v1.3 section at the top of this file wins.
+
 | ID | Grammar | Observed in | v1 status |
 |---|---|---|---|
 | G1 SAME_PATTERN | A = [BKD \| HPULL] + [UKD \| VPULL] (+ quad, biceps, rear delt, calves); B = [BHD \| HPUSH] + [UHD \| VPUSH] (+ leg curl, triceps, side delt, calves). **v1.1:** A + quad iso + <rear delt + biceps> + <KB face pull + biceps 2> + calf (3 sets); B + [leg curl \| chest iso] + <side raise + triceps> + triceps 2 + calf (3 sets) | OT01, OT02 D1-D2, OT04, OT07 | OBSERVED; consistent with UNI-11; v1.1 R2-SES-05 |
@@ -587,6 +713,8 @@ Upper vector with the lower pattern, day level (OBSERVED, v0 count): knee + hori
 | G8 ATHLETIC_THEMED | jump day = hip + pushes; medball day = knee + pulls | OT12 M1/M3/M4, OT13 A2 | **re-wired**: the observed days put the vertical pull on the jump/hip day and the vertical press on the medball/knee day; the generator swaps them (UNI-11) |
 
 ### 4.5 Laterality dial (COACH-ANSWER UNI-02, UNI-03, UNI-08, UNI-10, CAT-13)
+
+> **Changed in v1.3** (COACH-R4 R4-SES-05). Each slot of his template keeps its laterality; the dial moves only the slots the template leaves open. For field and court athletes this is an open question for the coach. Where the text below differs, the v1.3 section at the top of this file wins.
 
 Each lower (and upper) compound slot names a dominance. Its laterality - bilateral or unilateral - is set so that the week's bilateral:unilateral share of sets matches the client's dial. The dial runs from 90/10 to 10/90 (UNI-02). The coach's logic: unilateral work is the health and rotational foundation; bilateral work is the driving force for size and strength.
 
@@ -604,6 +732,8 @@ Each lower (and upper) compound slot names a dominance. Its laterality - bilater
 
 ### 4.6 Generator pairing rule (v1.1)
 
+> **Changed in v1.3** (COACH-R4 R4-SES-05). Hip + push and knee + pull stand. On gym and athletic days the pairs are those of his A / B days. Where the text below differs, the v1.3 section at the top of this file wins.
+
 | Situation | Grammar |
 |---|---|
 | Physique / bodybuilding, 3-6 days | G1 same pattern |
@@ -619,6 +749,8 @@ Each lower (and upper) compound slot names a dominance. Its laterality - bilater
 
 
 ### 4.7 Exercises per muscle (COACH-R2 R2-SES-05; groups approved, COACH-R3 SES-01)
+
+> **Changed in v1.3** (COACH-R4 R4-SES-05). On his A / B days the template gives each group its exercises (1-4); "2-4 per group, never 1" holds on split days. Where the text below differs, the v1.3 section at the top of this file wins.
 
 **Rule.** On every lifting day, each muscle group the day trains directly gets **2-4 exercises, never 1**. In the coach's words: "full-body days need to have the same 2-4 exercises per muscle that day, so it might be a little longer day. It could start really short, but because you're doing more volume throughout the week, there's never one exercise, so from 2 all the way to 4." This replaces our v1 proposal of 1-2 per muscle on full-body days.
 
@@ -638,6 +770,8 @@ Each lower (and upper) compound slot names a dominance. Its laterality - bilater
 ## 5. Supersets, contrast, complexes and circuits
 
 ### 5.1 The coach's rule (COACH-ANSWER ORD-05)
+
+> **Changed in v1.3** (COACH-CT CT-01). Supersets are a recommendation the person switches on. "The session is short" is no longer a trigger, and no pair is ever "needed". Where the text below differs, the v1.3 section at the top of this file wins.
 
 "The supersetting is more like a fatiguing principle... It's a tool to use to fatigue the heart more and compress the time." Four use cases:
 
@@ -663,6 +797,8 @@ INFERRED from the four cases: an intermediate (L2) with enough time trains strai
 Contrast / French contrast is for L2+ athletes, off-season only, with the heavy lift at about 78-85% and no rest inside the complex. This closes v0 question 23: the coach's 'directly into' / 'immediately into' format stays as written. SCIENCE: the post-activation literature favours several minutes of rest before the explosive set (Seitz & Haff 2016); immediate-transition French contrast is an established coaching method, so this is a known method and not an error.
 
 ### 5.3 Bootcamp circuits (COACH-ANSWER PRG-03; v1.1 COACH-R2 R2-SES-05)
+
+> **Changed in v1.3** (COACH-R4 R4-SES-02). 5-7 stations a session; rounds 3 / 4 / 5 by level (PROPOSED; was by minutes). Where the text below differs, the v1.3 section at the top of this file wins.
 
 "We just have to make sure we keep those time circuits: 3 to 5 rounds, 30 to 50 seconds in each station... probably around 5 to 7 stations... anywhere from a 35-minute to a 45-minute workout total." (PRG-03)
 
@@ -829,6 +965,8 @@ Placement: separate days first, then add-ons after lifting (ORD-10). Each JSON t
 
 ### 6.9 'Buy out' finishers (OBSERVED in BASEBALL)
 
+> **Changed in v1.3** (COACH-CT CT-01). No session length decides anything: the buy-out belongs to competitive athletes' and class sessions (PROPOSED). Where the text below differs, the v1.3 section at the top of this file wins.
+
 - **What it is:** Part E (FFF2CC), 1-3 short maximal bouts ('2x 15 cal bike sprint', '3x 10 cal row sprint or ski', '1x 30 Sec Fast Run', '1 X 12 Cal' bike/SkiErg/row).
 - **Weekly dose:** 0-5 bouts a week, block means 3.3 / 3.3 / 3.8 over loaded weeks, filled on 2-4 of the 4 days (recounted in v0).
 - **Not a buy-out:** 'Fast run/ walk back or 3 min walk/rest - This is NOT a sprint' is a Part A sprint.
@@ -861,6 +999,8 @@ Always written: 5 min any cardio + pattern prep. Pattern prep = 'A March' / 'A S
 - **Retired:** the v1.1 check-in hooks (the step table, effort 10 = hold and -1 set, the block-at-risk prompt, the week-by-week mode, test reminders; COACH-R3 VOL-02, GEN-01); the v1 "deload when check-ins say so" and every OBSERVED tab ending ('DELOAD WEEK', 'MID DELOAD', 'TEST' / 'DELOAD') as a rule - they stay as evidence only (AESTHETICS-8, STRENGTH-8, STRENGTH-12, BASEBALL Block 2; HYBRID and Block 3 have none).
 
 ### 6.13 Set addition (COACH-ANSWER VOL-07, VOL-05, VOL-06; COACH-R2 R2-SES-05, R2-VOL-04, R2-VOL-06; COACH-R3 VOL-01, VOL-03, VOL-04, SES-01)
+
+> **Changed in v1.3** (COACH-CX CX-01; COACH-R4 R4-PRG-01, R4-SES-04). The VOL-07 order and the day alternation stand. Every trained group reaches its planned final sets; the sets are split over the template's slots (2-5 an exercise); what the slots cannot hold goes to the bonus exercise on the optional day, or the group is capped and the plan says so (section V4). Where the text below differs, the v1.3 section at the top of this file wins.
 
 - **Exercises per muscle:** 2-4 per muscle group on every day it is trained, never 1 (R2-SES-05; VOL-07 "about 3 to 4 exercises per muscle group per day" on split days). The v0 cap "at most 2 exercises per muscle per session" stays retired.
 - **Order:** when a muscle needs one more set, it goes to the first exercise for that muscle in session order; the next added set goes to the second, then the third, then back to the first: **2/2/2 -> 3/2/2 -> 3/3/2 -> 3/3/3 -> 4/3/3**. Equivalent rule: the exercise with the fewest sets, earliest first. "I'm adding sets to the things that matter most... usually in the beginning... because I put all my energy into it."
@@ -911,7 +1051,11 @@ def add_set(week, muscle):
 
 ## 7. Session budget and session length
 
+> **Changed in v1.3** (COACH-CT CT-01; COACH-R4 R4-SES-01, R4-SES-02, R4-SES-04). Sessions are sized by exercise count by client type. Session length is not an input and not a limit; the time model only feeds a printed estimate; nothing is cut for time (sections V3 and V4). Where the text below differs, the v1.3 section at the top of this file wins.
+
 ### 7.1 Session length by population (COACH-ANSWER UNI-09, PRG-03)
+
+> **Changed in v1.3** (COACH-CT CT-01). These are his descriptions of what sessions usually take, not limits and not inputs. Where the text below differs, the v1.3 section at the top of this file wins.
 
 | Population | Length | Evidence |
 |---|---|---|
@@ -925,6 +1069,8 @@ def add_set(week, muscle):
 The intake (09, F24) offers 30/45/60/75/90 min. Adding 105 and 120 min for competitive athletes is PROPOSED (UNI-09 allows up to 2 h). v1.1: a full-body day starts at about the chosen length and grows through the block (R2-SES-05: "it might be a little longer day"); 7.5 gives the numbers. v1.2: whether a chosen length can hold the minimums is decided by the time-vs-minimums policy (COACH-R3 SES-02, 5.1, 8.7.1).
 
 ### 7.2 Exercise caps (COACH-ANSWER VOL-08, VOL-16, VOL-17, PRG-03; COACH-R2 R2-SES-04, R2-SES-05)
+
+> **Changed in v1.3** (COACH-R4 R4-SES-02). By client type: general fitness / fat loss 5-7, aesthetics 6-8, strength 5-6, bootcamp 5-7 stations, field athletes up to 12 + the 2-exercise core block, older adults 5-6. Where the text below differs, the v1.3 section at the top of this file wins.
 
 | Session type | Cap | Evidence |
 |---|---|---|
@@ -957,6 +1103,8 @@ Exercise counts are OBSERVED slot counts. Set counts are OBSERVED only where the
 
 ### 7.4 Time-cost model (INFERRED; rests COACH-ANSWER VOL-14; set durations SCIENCE)
 
+> **Changed in v1.3** (COACH-CT CT-01; COACH-R4 R4-SES-01). The model only produces the average time printed on each day ("about 60-75 min, an estimate, for information only"). Where the text below differs, the v1.3 section at the top of this file wins.
+
 | Item | Minutes |
 |---|---|
 | Warm-up | 5 general + 2-3 pattern prep (ORD-08) |
@@ -980,7 +1128,9 @@ Calibration on the coach's own sessions (v0 model output, unchanged): AESTHETICS
 
 **Headroom.** Full-body days start at about their length and lengthen through the block (R2-SES-05: "a little longer day"). v1.2: what a chosen length can hold is the time-vs-minimums check (COACH-R3 SES-02, 8.7.1): tell up front and offer more time; if the time is kept, fewer groups trained directly; supersets recommended; never a group cut to one exercise.
 
-### 7.5 Content and time by session length (v1.1; minutes from the time model, INFERRED)
+### 7.5 Content and time by session length (v1.1; minutes from the time model, INFERRED) - RETIRED in v1.3
+
+> **RETIRED in v1.3** (COACH-CT CT-01; COACH-R4 R4-SES-02). Content comes from the client type and his template, not from a session length. The text below is kept as history only.
 
 | Minutes | Aesthetics | Athletic | Strength | Fat loss / bootcamp | Hybrid / CrossFit |
 |---|---|---|---|---|---|
@@ -989,7 +1139,9 @@ Calibration on the coach's own sessions (v0 model output, unchanged): AESTHETICS
 | 75 | + Focus room, sets 3 | + medball throw on knee days, buy-out | - | - | - |
 | 90 | + lat pull-over and Focus, 3 sets on compounds: ~84-89 / ~113-120 | 3 sets, supersetted pairs (off-season): ~84-85 / ~111; BASEBALL Parts with Part F ~86-96 | conjugate ~58-66; 2-day compression ~87-94; 3-day trio ~70-75 | - | ~80-94 |
 
-### 7.6 What to cut first, what to add first (v1.1)
+### 7.6 What to cut first, what to add first (v1.1) - RETIRED in v1.3
+
+> **RETIRED in v1.3** (COACH-R4 R4-SES-04; COACH-CT CT-01). Nothing is cut automatically. Each day names the easiest things to remove (the conditioning finisher, extra jump / throw stations, small-muscle accessories, bonus exercises) and the person decides; the generator always keeps the 2 core exercises, the main lifts and the first athletic station. The text below is kept as history only.
 
 **When time is short (v1.2, COACH-R3 SES-02):** the plan first tells the user and offers another day or a longer session (8.7.1); with the time kept, supersets are recommended (ORD-05) and whole groups - never the second exercise of a group - leave the day (arms, calves and shoulder isolation first, from compound credit); a group the day trains keeps 2 exercises (COACH-R2 R2-SES-05). The cut orders below apply inside that policy.
 
@@ -1017,6 +1169,8 @@ v1.2: `12_volume_algorithm_v1` (v1.2) estimates full-body days at 7-10 resistanc
 ---
 
 ## 8. Generator-ready split templates (2-6 days x 6 goal families) - regenerated in v1.1 and v1.2
+
+> **Changed in v1.3** (COACH-R4 R4-SES-02, R4-SES-05; COACH-CT CT-01). The gym days of the physique, fat-loss and no-equipment families, push / pull / legs and the athletic days are rebuilt on his skeletons (section V2), with a rank per exercise and a count per client type instead of a scale from 45 to 90 minutes. Strength, hybrid / class, bootcamp circuits, BASEBALL Parts and HYROX stay as written. The tables of 8.1, 8.2, 8.4 and 8.6 below are the v1.2 layouts ("2-4 exercises per group"). Where the text below differs, the v1.3 section at the top of this file wins.
 
 **How to read this section.**
 - Every day opens with the warm-up (not shown) and the light core block (`core x2` = 2 exercises x 2 sets, short of failure; movable; core supersets / monster sets optional - ATH-11, R2-SES-03).
@@ -1150,6 +1304,8 @@ Substitution ladder. The library items are OBSERVED (cells cited); the mapping i
 
 ### 8.7 Recomputed checks (v1.2, from `05_templates.json`)
 
+> **Changed in v1.3** (COACH-R4 R4-SES-05). These are the stored checks of the v1.2 templates. The v1.3 days are checked by the engine: the template skeleton and "nothing dropped", the session size, pairing, order and the spine days (`model/rules.json > validation`). Where the text below differs, the v1.3 section at the top of this file wins.
+
 Checked by the v1.2 build script for every template and variant at the family's default lengths: weekly exposures of the 8 primary patterns; heavy axial exposures (squat / hinge); **exercises per muscle group on every day (R2-SES-05: 2-4; groups approved, COACH-R3 SES-01)**; **exactly one calf exercise on every leg day (COACH-R3 SES-01)**; at least one rear-delt / face-pull station a week (VOL-17); exercises and counted exercises per day (R2-SES-04 convention; cap 12); slot-level pairing (UNI-11, incl. the isolation pairs); core block first; horizontal before vertical unless the vertical lift is the work; Olympic before the work; Olympic work in every athletic week; no two lower compounds back to back in a mixed session; time at the block start and late in the block; and, new in v1.2, the **superset recommendation** for every main day (COACH-R3 SES-02: "recommended" when the day also fits in straight sets, "needed" when it fits only with them). **No template has a pairing, order, axial, per-muscle, calf, rear-delt, cap or Olympic failure.** The only hard flags are the documented exemptions (conjugate four-role days, the CrossFit class model, in-season minimal bilateral, the strength 3-day H/V press rotation). "(longer day)" marks a start estimate more than 10% over the chosen length even with pairs supersetted. One calf exercise instead of v1.1's calf pair takes about 1-4 min off a leg day (e.g. the 4-day aesthetics day at 60 min: ~63 -> ~62 min at the start, ~94 -> ~90 late; at 90 min ~118-125 -> ~113-120 late). Every station also carries its block id (`block_R3SES02`) and every day type its block list with the on/off defaults (`blocks_R3SES02`, 9 step 11). Whether the chosen length can hold the minimums is checked in 8.7.1.
 
 | Family | Days | Min | BKD BHD UKD UHD HPUSH VPUSH HPULL VPULL | Axial sq/hinge | Exercises per trained group, calves aside (min-max) | Calf exercises per leg day | Exercises / counted (R2-SES-04) per main day | Est. min at block start | Est. min late block (upper) | Supersets (R3-SES-02) | Result |
@@ -1231,7 +1387,9 @@ Checked by the v1.2 build script for every template and variant at the family's 
 | no equipment | 6 | 45 | 2 2 2 2 2 2 4 4 | 0/0 | 2-2 | 1 | 8-10 st. | 41.3-42.8 (3 x 40 s / 3 x 50 s) | - | - | ok |
 | no equipment | 6 | 60 | 2 2 2 2 2 2 4 4 | 0/0 | 2-2 | 1 | 8-10 st. | 41.3-42.8 (3 x 40 s / 3 x 50 s) | - | - | ok |
 
-### 8.7.1 Time vs minimums (COACH-R3 SES-02; replaces v1.1's floor-of-10 table)
+### 8.7.1 Time vs minimums (COACH-R3 SES-02; replaces v1.1's floor-of-10 table) - RETIRED in v1.3
+
+> **RETIRED in v1.3** (COACH-CT CT-01; COACH-R4 R4-SES-01, R4-SES-03, R4-SES-04). No template is checked against minutes. The 2-day rule and "what a template cannot hold" replace it (section V4). The text below is kept as history only.
 
 **The coach's rule (approved):** "(1) tell them up front and offer a 3rd day or longer sessions; (2) if they keep their time, train fewer muscles directly (big movers first; arms, calves and rear delts only from compound credit) instead of dropping below the floor on everything; (3) use supersets to save time; (4) the stairway climbs on the muscles that are trained, never flat. Never squeeze 2-4 exercises per muscle into a day that can't hold them" - "Yeah, this is fine. Recommend doing supersets so that it's a faster workout, but they should be able to get things done." (COACH-R3 SES-02, RIGHT). The exact algorithm lives in the volume engine (`12_volume_algorithm_v1.md` §3.10.1); this table checks every template against it.
 
@@ -1306,6 +1464,8 @@ The coach will grade these sample plans. Each one starts from this template (map
 
 ### 8.9 Stay athletic and active (gen pop) - coach request 2026-10-08
 
+> **Changed in v1.3** (COACH-R4 R4-SES-02, R4-SES-03). Non-competitive athletic days hold 5-10 exercises (his sheet has 10 slots; range PROPOSED); on 2 days the 2-day rule applies instead of the time check. Where the text below differs, the v1.3 section at the top of this file wins.
+
 "Gen Pop and general fitness people are wanting to do things like high rows [HYROX] and pickleball, meaning they want to stay athletic and active, so we need to understand that that's an option for them." This is a **recreational path**: the user picks an activity - no position and no season dates - and, since v1.2, **the days they play and an optional event date** (COACH-R3 ATH-05, RIGHT): the hardest gym day sits at least 48 h before the biggest play day; weeks with 3+ play sessions drop the extra agility drills and do half the jumps; a 45-60+ min session of the activity counts as one of the 3 cardio sessions (up to 2); with an event (first HYROX race, pickleball tournament, 10K) the hardest weeks end 1 week before it, then 1 easy week. The session mapping is PROPOSED; the activity profiles are in `04_profiles.json`.
 
 | Activity | Template | Session levers |
@@ -1323,6 +1483,8 @@ The day itself: warm-up -> light core -> 2 plyo/ballistic stations (low amplitud
 
 ## 9. Generator algorithm (v1.2)
 
+> **Changed in v1.3** (COACH-CT CT-01; COACH-CX CX-01..04; round 4). The v1.3 pipeline is `BLAZE_CAMP_BRAIN.md` §13.3. In the steps below: step 1 no longer takes a session length, and the release must be accepted or no plan is generated (R4-SCP-02); step 3 keeps the exercises up to the client type's count, not `include_from_minutes`; step 4 never switches supersets on because a session is short; step 6 validates the template skeleton and the session size, with 1-4 exercises per group on A / B days; step 9 reaches the planned final sets; step 11 also edits sets and marks the plan edited. Where the text below differs, the v1.3 section at the top of this file wins.
+
 1. **Inputs** (after the health screen and release - v1.2, COACH-R3 GEN-01: a short Blaze Camp health check in English and Spanish, written by a lawyer, with a link to the official PAR-Q+; a coach may run it with the client or skip it after the Blaze Camp legal warning; everyone, client or coach, ticks the "use at your own risk" box and accepts the terms and conditions and liability release every time a plan is built; nothing is stored; drafts for attorney review in `DISCLAIMER.md` / `DISCLAIMER.es.md`; the flow belongs to the generator spec / 13; v1.1's "PAR-Q for clients" wording, R2-GEN-03, is superseded)**:** goal family; days per week (2-6); session minutes (45/60/75/90; PROPOSED 105/120 for competitive athletes, UNI-09); level L1/L2/L3 (PRG-05); equipment; competitive athletes: sport + position + the next season start date (or "in season until") + practice and game days (GEN-02, COACH-R2 R2-GEN-05); recreational stay-active users: the activity only (8.9); age (60+ defaults, R2-ATH-08); plan type (block length, maintenance, year - PER-01, R2-PER-01/02; week-by-week retired, COACH-R3 VOL-02); Focus muscle 1 and Focus muscle 2 (COACH-R3 SES-01); stay-active play days and an optional event date (COACH-R3 ATH-05); blocks completed in a row when rebuilding (PROPOSED; nothing is stored, COACH-R3 GEN-01); pain areas; rep-style preference; more / less cardio (R2-SES-06); coach-added rules (GEN-08). **No sleep, stress, life or physical-job fields** (COACH-R2 R2-GEN-04). No sex field (GEN-02, ATH-09).
 2. **Week:** take `generator_split_templates[family][days].week_layout`, or the variant the sport, phase or preference selects (same-pattern athletic, BASEBALL Parts, in-season keyed to the game days, upper/lower, PPL x2, bootcamp circuit, CrossFit-style bootcamp). Heavy squat Monday, non-spinal hinge Tuesday, leg press / belt squat Thursday, heavy deadlift Friday (R2-SES-01). Optional days are separate by default (ORD-10). Place the aerobic sessions by population and apply the user's more / less request (ATH-07, R2-ATH-06, R2-SES-06).
 3. **Sessions:** keep stations with `include_from_minutes` <= minutes; drop stations whose `condition` is false (Focus calves, the powerlifter technique lift); drop the blocks the user switched off for that day (`block_R3SES02`, COACH-R3 SES-02); for clients over 60 drop stations marked `older_default` unless switched on, then show W_OLDER_POWER (R2-ATH-08); write the warm-up (ORD-08); put the light core block first unless moved (ATH-11, R2-SES-03); add core supersets or a monster set only where the coach or user asks (R2-SES-03).
@@ -1338,6 +1500,8 @@ The day itself: warm-up -> light core -> 2 plyo/ballistic stations (low amplitud
 ---
 
 ## 10. What this says about how the coach thinks
+
+> **Changed in v1.3** (COACH-CT CT-01; COACH-R4 R4-SES-01 to R4-SES-05). Items 6 and 9 below are the v1.2 reading. In v1.3: session size is a number of exercises by client type (general 5-7, aesthetics 6-8, strength 5-6, bootcamp 5-7 stations, field athletes up to 12, older adults 5-6), and the minutes named in item 6 are typical lengths, not inputs and not limits. A full-body day is his A or B day of about 6 exercises (up to 8), where a group such as biceps or triceps has one exercise; "2-4 exercises, never one" holds on split days. With 2 training days every big group is still trained, at about 6-8 weekly sets, and a third day is suggested; "train fewer muscles when the time is too short" is retired with time-fitting. Where the text below differs, the v1.3 section at the top of this file wins.
 
 1. **The slot skeleton is the program; the exercise is a choice inside it** (OBSERVED, confirmed by GEN-04: "pick the default and be able to do the drop-downs").
 2. **An athlete program is a muscle program with an athletic prefix** (OBSERVED: OT04 is OT01 with Plyo / Throwing / COD / 'Tripple Extension' added). In v1 the prefix sits after the core block, and every athlete gets Olympic work (ATH-10).
@@ -1425,6 +1589,10 @@ The day itself: warm-up -> light core -> 2 plyo/ballistic stations (low amplitud
 4. **Which blocks can be switched off (R3-SES-02).** We let the user switch off core, skill, athletic, Olympic, focus and conditioning blocks; the warm-up and the resistance block stay on (resistance is edited exercise by exercise). Right?
 
 ---
+
+### 11.5 After round 4 (v1.3)
+
+Settled or retired: very short weeks (the 2-day rule, R4-SES-03); the time-vs-minimums estimates and the 10 % fit tolerance, the "recommended / needed" superset wording and the 105 / 120-minute options (retired with time-fitting, CT-01); the cross-pattern lighter second exercise on gym days (his A / B template replaces it, R4-SES-05); what gets left out (the person picks, R4-SES-04). Still PROPOSED: the 7th and 8th exercise of the A / B days and the session-size defaults; whether the athletic days keep each slot's laterality; the incline press in the "Chest / Shoulders" slot and its credit; bootcamp rounds by level; which blocks may be switched off and their ids; the optional-day Calves slot with fewer than 4 leg days. The questions for the coach are in `BLAZE_CAMP_BRAIN.md` §0d.3.
 
 ## 12. Sources and science references
 
@@ -1923,3 +2091,12 @@ A second adversarial fact-check ran on 2026-10-08, after the pass above. Every O
 5. 03 JSON `v1_changes[39].where` ("tensions[24]", 0-based would be [23]) is v1 history and left as written.
 
 **Not re-run.** Apart from the clamp experiment (a copy of `tvm.py` with a CLAMP switch in `r3_adv/proto/`; the published numbers stay the unclamped run), no worked example or table was recomputed; no fix changes a published number.
+
+
+## v1.3 update: round 4, CT-01 and CX-01..04 applied (2026-10-11)
+
+- Read first, in full: `design/ENGINE_V05_PLAN.md`, `coach_answers_round4.md`, `coach_answers_time_2026-10-10.md`, `coach_answers_codex_2026-10-10.md`.
+- Added the v1.3 section (his templates, session sizes, the 2-day rule, what a template cannot hold, editing); rewrote the affected rows of §0; marked §4.4-§4.7, §5.1, §5.3, §6.9, §6.13, §7, §8, §8.7, §8.9 and §9 as changed and §7.5, §7.6 and §8.7.1 as retired.
+- The skeleton table was checked against the compiled `model/templates.json` (gym A: row, squat, pulldown, lunge, biceps, leg extension, calves, rear delt; gym B: press, hinge, vertical press, single-leg hinge, triceps, leg curl, side / rear delt, calves; gym C; athletic A / B / C).
+- The blocks of sections V2 to V5 are the same text as `BLAZE_CAMP_BRAIN.md` v1.3 (§5.6, §10.5, §10.8, §10.10); "master §" in them points to that file.
+- Not changed: the observed templates of section 2 and the ordering and pairing evidence of sections 3-6 (they are what his skeletons were read from), the v1 / v1.1 / v1.2 logs (history), and `05_templates.json` (v1.2; not re-issued).

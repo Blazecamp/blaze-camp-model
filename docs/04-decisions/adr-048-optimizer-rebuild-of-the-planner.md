@@ -4,9 +4,11 @@ The part of the engine that decides how many sets go where is being rebuilt. The
 
 | | |
 |---|---|
-| **Status** | In progress (team). The direction is accepted. The design is not final, and nothing here has been put to the coach as a question. |
+| **Status** | **Superseded** (2026-10-11) by [ADR-058](adr-058-engine-v05-template-first-not-the-large-planner.md). The optimizer was designed and not built. |
 | **Decided by** | Team, following the coach's request for the best possible algorithms (conversation; VOL-06) |
 | **Replaces** | The first engine's step-by-step dosing |
+
+> **Superseded. The optimizer is not being built.** Most of its difficulty came from fitting plans into session minutes, and the coach removed that requirement (CT-01, [ADR-050](adr-050-no-time-fitting-sessions-sized-by-exercise-count.md)). The engine was rebuilt as version 0.5 around his own templates instead ([ADR-058](adr-058-engine-v05-template-first-not-the-large-planner.md)). The design documents named below stay in `design/` as research. The measurements in "Context" are still the reason the first engine was replaced. The text below is kept as history.
 
 ## Decision (the rule)
 

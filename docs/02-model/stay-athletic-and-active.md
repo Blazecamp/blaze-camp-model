@@ -2,7 +2,7 @@
 
 This page covers people who do not compete but want to stay athletic: pickleball and padel players, HYROX first-timers, rec-league players, runners, hikers and people who want "a bit of everything". They pick an **activity**, not a sport with a position and a season. The plan is the coach's own non-competitive athletic program, tuned by the activity: light core first, a short block of jumps, throws, agility and an Olympic lift, then full-body resistance work, plus three cardio sessions. The person can tell the tool which days they play and whether they have an event. Play days move the hard gym day. A long session of the activity counts as cardio. An event date sets when the hardest weeks end.
 
-> **How to read this page.** Ids with no prefix (`ATH-13`, `GEN-02`) are the coach's round-1 answers (`coach_answers_full.md`). `R2-` is round 2 (`coach_answers_round2.md`). `R3-` is round 3 (`coach_answers_round3.md`), the newest. A later round wins. "chat" means something he said in conversation (`coach_chat_statements.md`). "Approved" means he marked our proposal RIGHT. **PROPOSED** means the team designed it and he has not confirmed it. His answers: [../03-coach-answers/athletes-and-sports.md](../03-coach-answers/athletes-and-sports.md).
+> **How to read this page.** Ids with no prefix (`ATH-13`, `GEN-02`) are the coach's round-1 answers (`coach_answers_full.md`). `R2-` is round 2 (`coach_answers_round2.md`). `R3-` is round 3 (`coach_answers_round3.md`). A later round wins. "chat" means something he said in conversation (`coach_chat_statements.md`). "Approved" means he marked our proposal RIGHT. **PROPOSED** means the team designed it and he has not confirmed it. His answers: [../03-coach-answers/athletes-and-sports.md](../03-coach-answers/athletes-and-sports.md). **Since model v1.3** there are newer answers too: round 4 (`R4-`, `coach_answers_round4.md`) and two clarifications of 2026-10-10 (`CT-01` on session time, `CX-01..04` on progression and editing). They win on their subjects.
 
 Related pages: [athletes.md](athletes.md) (the rules for jumps, Olympic lifts and medballs), [sports.md](sports.md) (competitive sports), [special-populations.md](special-populations.md) (age 60 and over, racket players from 50, youth, pain), [sessions.md](sessions.md), [volume.md](volume.md), [plans-and-calendar.md](plans-and-calendar.md). Terms: [../05-reference/glossary.md](../05-reference/glossary.md).
 
@@ -86,7 +86,7 @@ The jump, throw, agility and Olympic work follows the rules on [athletes.md](ath
 | 4 | His own template for "a bit of everything": 2 jumps, 1 throw, 1 change-of-direction drill and 1 Olympic lift a day, plus 2 optional days. |
 | 4 for HYROX | 2 strength days and 2 hybrid days (approved, see section 8). |
 
-When the chosen days and minutes cannot hold all of this, the plan says so up front and trains fewer groups directly. See [sessions.md](sessions.md) (R3-SES-02).
+Session length is not asked and nothing is cut for time (CT-01, R4-SES-01). A day is sized by its exercise count; for a non-competitive "stay athletic" adult the data uses 5 to 10 exercises, read from his 'JUSTICE LEAGUE' tab (**PROPOSED**; he gave counts for other client types in R4-SES-02). With 2 training days every big muscle is trained at about 6 to 8 weekly sets and the plan suggests a third day (R4-SES-03). See [sessions.md](sessions.md).
 
 ---
 

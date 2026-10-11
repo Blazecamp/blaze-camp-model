@@ -548,7 +548,12 @@
     "abs_obliques": 1
    },
    "ATHLETIC": {},
-   "NONE": {}
+   "NONE": {},
+   "MRPUSH": {
+    "front_delts": 1,
+    "chest": 0.5,
+    "triceps": 0.25
+   }
   },
   "never_credit_tags": [
    "kb_swing",
@@ -557,7 +562,8 @@
   "exceptions": {
    "DIPS": "R2-VOL-05 / LIB-16: 0.5 triceps + 0.5 chest",
    "THRUSTER": "R2-VOL-05: 1.0 quads + 0.5 shoulders + 0.25 glutes",
-   "FACEPULL": "R2-LIB-04, LIB-10 (split PROPOSED)"
+   "FACEPULL": "R2-LIB-04, LIB-10 (split PROPOSED)",
+   "MRPUSH": "fix round 1: a high-incline (mid-range) press 1.0 front delts + 0.5 chest - a shoulder press that also trains the upper chest, like the thruster's 1.0 + 0.5 (PROPOSED; OBSERVED BYOP slot label 'Chest/Shoulders'; open question for the coach)"
   },
   "refs": [
    "VOL-09",
@@ -566,7 +572,9 @@
    "LIB-14",
    "LIB-16",
    "R2-VOL-05",
-   "R2-LIB-04"
+   "R2-LIB-04",
+   "R4-SES-05",
+   "R4-LIB-03"
   ]
  },
  "levels": {
@@ -730,13 +738,11 @@
    },
    "per_leg_day_max_L3": 4,
    "weekly_floor": 10,
-   "second_station_sets": 1,
    "refs": [
     "VOL-17",
     "R2-VOL-06"
    ],
    "status": "weekly floor PROPOSED",
-   "second_station": "cut_first",
    "athlete_cap_modifiers": [
     "field_off",
     "strength_athlete_off",
@@ -744,13 +750,22 @@
     "athlete_in"
    ],
    "athlete_climb": 2,
-   "optional_slot_below_leg_days": 4,
+   "optional_slot_below_leg_days": 3,
    "f1_refs": [
     "R3-SES-01",
     "BRAIN V13",
     "OBSERVED BYOP ATHLETIC"
    ],
-   "f1_status": "PROPOSED (F1, E-88): athletes climb their calves 2 sets over 3 a leg day; the optional-day Calves slot only below 4 main leg days"
+   "f1_status": "PROPOSED (F1, E-88): athletes climb their calves 2 sets over 3 a leg day; the optional-day Calves slot only below 4 main leg days",
+   "optional_slot_sets": [
+    2,
+    3
+   ],
+   "per_leg_day_fixed": true,
+   "v05_status": "V1: one calf exercise x 3 sets on a leg day with a calves slot (VOL-17, R3-SES-01); the optional-day Calves slots (OBSERVED BYOP optional days) carry the rest; no 4th set is squeezed into a leg day",
+   "climb_without_optional": true,
+   "x1_status": "fix round 1 (sample 07 major): with no optional-day Calves slot the leg days' calf exercise climbs 3 -> 4 -> 5 to the weekly floor (VOL-17 'treated like any other muscle')",
+   "x2_status": "fix round 2 (sample 03 minor): the optional-day Calves slot only below 3 main leg days (it was 4)"
   },
   "core_block": {
    "exercises": 2,
@@ -767,8 +782,7 @@
    "exempt": [
     "block_types:pre_season,in_season,maintenance,taper,recovery",
     "pain_reduced",
-    "credit_only",
-    "not_trained_directly_time"
+    "credit_only"
    ],
    "schedule_shortfall": "warn",
    "refs": [
@@ -807,7 +821,16 @@
     ]
    },
    "calves_rule": "per_leg_day",
-   "r3_status": "R3-VOL-01 / R3-SES-01 applied: floor on groups"
+   "r3_status": "R3-VOL-01 / R3-SES-01 applied: floor on groups",
+   "applies_from_days": 3,
+   "r4_status": "floor of 10 weekly sets per trained group when there are 3 or more training days (ENGINE_V05_PLAN; R4-SES-03 for 2 days)",
+   "counted_on_refs": [
+    "R2-VOL-06",
+    "ORD-10",
+    "R4-SES-05",
+    "R4-SES-04"
+   ],
+   "x1_status": "fix round 1 (sample 01 major): the floor of 10 is held by the training days' own exercises; the optional day adds on top (ORD-10 / R4-SES-05 'optional days are bonuses'); a group that reaches it only with the optional day is said up front (warning.floor_needs_optional_day)"
   },
   "priority": {
    "max_muscles": 2,
@@ -829,7 +852,6 @@
     }
    },
    "absolute_cap": 30,
-   "nonpriority_step_cap": 0.03,
    "per_session_cap": 14,
    "first_in_session": true,
    "intake_map": {
@@ -881,10 +903,6 @@
    ],
    "status": "v1.3: Focus muscle 1 / 2 (R3-SES-01) +2 sets on start and ceiling; the v1 +4 / +4 / +6 and the 3 % cap on the others retire",
    "v_taper_hold_retired": "R3-SES-01 / R3-SES-02: the other lines stay balanced and climb"
-  },
-  "per_session": {
-   "soft": 11,
-   "priority": 14
   },
   "rounding": "half_up",
   "order_of_operations": [
@@ -1151,7 +1169,6 @@
    ]
   },
   "older": {
-   "step_cap": 0.03,
    "maintenance_floor": 0.7,
    "constraint_band": [
     4,
@@ -1161,7 +1178,7 @@
     "EQ-03",
     "R2-ATH-08"
    ],
-   "status": "step cap PROPOSED"
+   "status": "the 3 % step cap is retired (R3-VOL-04, CX-01): older adults climb the same stairway"
   },
   "pain": {
    "start_factor": 0.6,
@@ -1363,7 +1380,26 @@
     "R2-LIB-03"
    ],
    "status": "area map, factor 0.6, freeze handling PROPOSED",
-   "constraint_bump": 1
+   "constraint_bump": 1,
+   "x2": {
+    "depth_note": {
+     "area": "knee",
+     "worse_with": "deep_knee_bend",
+     "classes": [
+      "BKD",
+      "UKD",
+      "LEG_EXTENSION"
+     ],
+     "note": "note.pain_free_depth"
+    },
+    "said_up_front": true,
+    "refs": [
+     "R3-ATH-02",
+     "VOL-03",
+     "R2-GEN-08"
+    ],
+    "status": "approved rules (VOL-03 pain: cut, do not push it); the words are PROPOSED"
+   }
   },
   "refs": [
    "VOL-01",
@@ -1450,60 +1486,113 @@
     "hips"
    ],
    "modifiers": [
-    "field_off",
-    "strength_athlete_off",
-    "stay_active",
-    "general",
+    "aesthetics",
+    "athlete_in",
     "fat_loss",
-    "athlete_in"
+    "field_off",
+    "general",
+    "stay_active",
+    "strength",
+    "strength_athlete_off"
    ],
    "unless_focus": true,
    "refs": [
     "R3-SES-01",
     "R2-VOL-06"
    ],
-   "status": "PROPOSED (F1, E-84): one target per FOCUS group outside physique / strength plans; glutes follow the hamstrings line as credit unless picked as a Focus muscle"
+   "status": "PROPOSED (F1, E-84): one target per FOCUS group outside physique / strength plans; glutes follow the hamstrings line as credit unless picked as a Focus muscle",
+   "v05": "every modifier (V1): the stairway runs on groups"
   },
   "rear_from_rows_min": 1.5,
-  "pattern_keep": {
-   "buckets": {
-    "back": "RP_HPULL",
-    "chest": "RP_HPUSH",
-    "quads": "RP_UKD",
-    "hips": "RP_UHD"
-   },
-   "order": [
-    "back",
-    "chest",
-    "quads",
-    "hips"
+  "two_day": {
+   "days_max": 2,
+   "weekly_sets": [
+    6,
+    8
    ],
-   "sets": 2,
-   "max_per_week": 3,
+   "big_classes": [
+    "big"
+   ],
+   "suggest_days": 3,
+   "never": [
+    "drop_whole_muscle_groups",
+    "pile_on_more_exercises"
+   ],
    "refs": [
-    "R3-SES-02",
-    "BRAIN 10.7"
+    "R4-SES-03"
    ],
-   "status": "PROPOSED (F1, E-94): pattern stations on the optional day for the big movers the minutes leave untrained directly",
-   "main_day_pairs": true,
-   "main_day_status": "PROPOSED (fix round 2 / F1, E-145)"
+   "status": "approved (R4-SES-03): every big muscle group is trained at about 6-8 weekly sets, the plan says so and suggests a third day"
+  },
+  "push_pull": {
+   "applies_from": 1,
+   "min": 1,
+   "max": 1.25,
+   "hard": 1,
+   "push_classes": [
+    "HPUSH",
+    "VPUSH",
+    "MRPUSH",
+    "DIPS"
+   ],
+   "pull_classes": [
+    "HPULL",
+    "VPULL",
+    "ISO_REAR",
+    "FACEPULL"
+   ],
+   "pull_group": "back",
+   "exempt_focus_lines": [
+    "chest",
+    "shoulders",
+    "triceps"
+   ],
+   "refs": [
+    "VOL-18",
+    "R3-VOL-01",
+    "OBSERVED BYOP ATHLETIC (4 pull slots : 4 push slots)"
+   ],
+   "status": "fix round 1 (samples 02 / 03 major): VOL-18 'we need to balance this out'; the profile ratios are 04 values (many proposed), so the allocation holds them inside 1 ... 1.25 (PROPOSED bound); the back may pass its sport-scaled final sets for the balance, never the level's own top number (R4-PRG-04)",
+   "back_cap": "planned",
+   "capped_slack": 1,
+   "x2_status": "fix round 2 (sample 03 major): VOL-18 only says 'balance this out' - the balance is met by holding the presses, the back is never raised above its sport-scaled final sets unless it is a Focus muscle; reverse flies and face pulls count as pulling"
+  },
+  "x1": {
+   "shoulders_athlete": {
+    "modifiers": [
+     "field_off",
+     "strength_athlete_off"
+    ],
+    "factor": "upper",
+    "cap_line": "lats_upper_back"
+   },
+   "direct_min": {
+    "side_delts": {
+     "group": "shoulders",
+     "families": [
+      "aesthetics"
+     ],
+     "by_level": {
+      "L1": 4,
+      "L2": 6,
+      "L3": 8
+     }
+    }
+   },
+   "refs": [
+    "R3-VOL-01",
+    "UNI-02",
+    "VOL-17"
+   ],
+   "status": "fix round 1 (samples 01 / 03): for a competitive athlete the shoulders line takes the upper-body factor (it was classed small and kept more growth room than chest or back) and its final sets never pass the back's (PROPOSED reading of R3-VOL-01 'field athletes: side delts and arms stay helper work')"
   }
  },
  "stairway": {
-  "principle": "every training block climbs like a stairway: small steps to the halfway week, slightly bigger after it, the hardest weeks last; one rule for every person",
+  "principle": "every training block climbs like a stairway: small steps to the halfway week, slightly bigger after it, the hardest weeks last; the planned final sets are reached in the last week",
   "standard_steps": {
    "early": 0.03,
    "late": 0.05
   },
   "halfway": "ceil(N/2)",
-  "lambda": {
-   "solve": "bisection",
-   "lo": 0,
-   "hi": 1,
-   "iterations": 60,
-   "display_round_to": 4,
-   "last_week_equals_cap_when_lambda_below_1": true
-  },
   "by_N": {
    "2": {
     "halfway": 1,
@@ -2847,45 +2936,8 @@
    ]
   },
   "limits": {
-   "planned_step_max": 0.07,
-   "nonpriority_while_priority": 0.03,
-   "older_60plus": 0.03,
    "pain_after_freeze": 0.03,
-   "total_weekly_ceiling": 0.1,
-   "total_ceiling_strict": true,
-   "hand_set_max": 0.07,
-   "exempt_from_total_ceiling": [
-    "first_week_after_recovery_or_maintenance",
-    "block_boundary_swap_no_added_sets"
-   ],
-   "placed": {
-    "per_muscle_whole_sets": 1,
-    "per_muscle_pct": 0.07,
-    "ceiling_pct": 0.1,
-    "helper_slack": 0.5,
-    "total_pct": 0.07,
-    "refs": [
-     "R2-VOL-01",
-     "UNI-05",
-     "VOL-04"
-    ],
-    "note": "a muscle rises at most max(1 set, 7 %) a week (whole sets, helpers may add 0.5); the week total at most 7 %; 10 % is never reached"
-   },
-   "nonpriority_scope_v1_3": "retired: Focus muscles do not slow the other groups (R3-SES-01)",
-   "older_cap_retired": true
-  },
-  "release": {
-   "threshold": 1,
-   "epsilon": 1e-9,
-   "bank_max_blocked": 1.99,
-   "staggering": "smallest_bank_waits",
-   "order": [
-    "priority",
-    "big",
-    "small",
-    "muscles.order"
-   ],
-   "at_cap": "hold"
+   "note": "v0.5: no rate limit (CX-01, R4-PRG-02); a pain area keeps its slow steps (VOL-03)"
   },
   "continues_across_exercise_blocks": true,
   "no_checkin": "planned_only",
@@ -2897,51 +2949,14 @@
    "R2-VOL-03",
    "UNI-05",
    "VOL-05",
-   "VOL-06"
+   "VOL-06",
+   "CX-01",
+   "CX-02",
+   "CX-03",
+   "R4-PRG-01",
+   "R4-PRG-02"
   ],
   "status": "3 % / 5 %, lambda, display, RIR drift approved (R3-VOL-04)",
-  "track": {
-   "week1_above_target_max": 1,
-   "behind_target_max": 1,
-   "flat_total_steps_max": 1,
-   "last4_growth_share_min": 0.5,
-   "refs": [
-    "R2-PER-03",
-    "R2-PER-04",
-    "R2-VOL-03"
-   ],
-   "note": "placed sets follow the planned T(w): never more than 1 set above in week 1, never 1 or more behind (unless a schedule warning names the muscle); the week total never stays flat two weeks in a row; no \"hold\" without a check-in"
-  },
-  "capacity": {
-   "probe": "peak_week_first",
-   "iterations": 3,
-   "priority_first": true,
-   "min_growth_share": 0.1,
-   "room_cut_order": [
-    "second_calf",
-    "buyout",
-    "prehab_extra",
-    "second_plyo",
-    "ankle_block_extra",
-    "second_throw",
-    "olympic_extra_stay_active",
-    "second_iso_nonpriority",
-    "third_of_group",
-    "group_frequency"
-   ],
-   "short_start_iso_sets": 1,
-   "priority_room_cuts": [
-    "second_calf",
-    "second_iso_nonpriority"
-   ],
-   "priority_min_share": 0.6,
-   "refs": [
-    "R2-PER-03",
-    "R2-SES-05",
-    "UNI-09"
-   ],
-   "note": "the whole stairway must fit the chosen minutes: the peak week is placed first; muscles whose peak does not fit start lower (never below the floor) so every week can still climb (D-67)"
-  },
   "planned_only": {
    "refs": [
     "R3-VOL-02",
@@ -2949,168 +2964,271 @@
    ],
    "note": "the generator outputs the whole plan once; people and coaches adjust it themselves; nothing is kept"
   },
-  "min_climb": {
-   "group": 2,
-   "calves": 1,
-   "line": 1,
-   "short_block": {
-    "max_N": 7,
-    "group": 1
+  "progression": {
+   "kernel": "engine/progression/stairway.mjs",
+   "target_reached": true,
+   "rounding": "arrival",
+   "arrival_weeks_early": 0,
+   "arrival_weeks_early_max": 1,
+   "note_above": 0.15,
+   "note_min_whole_sets": 2,
+   "flat_weeks_ok": true,
+   "numerics": {
+    "logTolerance": 1e-12,
+    "maxIterations": 200,
+    "maxBracketDoublings": 80
    },
    "refs": [
-    "R3-SES-02",
-    "R2-PER-03",
-    "R2-PER-04"
-   ],
-   "status": "PROPOSED (2-set climb; 1 set in blocks of 7 weeks or less)"
-  },
-  "release_rounding": {
-   "mode": "scheduled",
-   "refs": [
-    "VOL-06",
+    "CX-01",
+    "CX-02",
+    "CX-03",
+    "R4-PRG-01",
+    "R4-PRG-02",
     "R3-VOL-04"
    ],
-   "status": "PROPOSED (F1, E-85): whole sets follow round-half-up of the planned T(w) (the coach: \"you round up, you round down\")",
-   "r2_status": "PROPOSED (fix round 2 / F1, E-146): a whole-set schedule per block - each set in the week its planned T(w) passes the half set, the last in the last week, the 7 % weekly limit, no week without a step where a neighbour holds two (was half_up, E-85)"
-  },
-  "hold_rules": {
-   "min_N": 8,
-   "min_climb": 3,
-   "hold_extra_weeks": 1,
-   "refs": [
+   "status": "approved: the final target is reached, faster steps allowed (CX-01); reached in the last week, one week early at most (R4-PRG-01); a note when a week adds more than about 15 % (R4-PRG-02); the same sets may hold while reps or load progress (CX-02 / CX-03). PROPOSED detail: a single whole set is never noted (note_min_whole_sets 2) - it is the smallest step a group can take",
+   "stagger": {
+    "enabled": true,
+    "weeks_early": 1
+   },
+   "stagger_refs": [
     "R3-VOL-04",
-    "R3-SES-02"
+    "R2-PER-03",
+    "R2-PER-04",
+    "R4-PRG-01"
    ],
-   "status": "PROPOSED (F1, E-92)",
-   "main_days": true,
-   "total_hold_max_frac": 0.5,
-   "r2_status": "PROPOSED (fix round 2 / F1, E-136): H21 reads the main days too; the main-day total holds for at most half the block"
+   "stagger_status": "fix round 1 (samples 01 / 02 / 03 / 06 / 08): the week's total follows the sum of the groups' curves and the groups take turns (largest remainder), so the plan climbs a set or two most weeks; the last steps are shared between the last two weeks (R4-PRG-01: one week early is fine)"
   }
  },
  "placement": {
-  "day_rotation": "alternate_same_day_type",
-  "laterality_tolerance": 0.03,
+  "on": "groups",
   "order_rule": "first_below_first",
+  "day_rotation": "alternate_same_day_type",
+  "min_sets": 2,
   "max_sets_per_exercise": {
    "L1": 4,
    "L2": 5,
    "L3": 5
   },
-  "max_sets_isolation": 4,
-  "min_sets": 2,
+  "laterality_tolerance": 0.03,
   "bonus": {
-   "sets": 2,
-   "for": "small",
-   "prefer": [
-    "optional_day",
-    "day_training_group_fewest_exercises"
+   "sets": [
+    2,
+    4
    ],
-   "never_only_exercise_of_group": true,
-   "optional_day_for_small_lines": true,
+   "where": "optional_day",
+   "max_added_per_optional_day": 2,
+   "order": [
+    "hips",
+    "quads",
+    "back",
+    "chest",
+    "shoulders",
+    "triceps",
+    "biceps"
+   ],
+   "no_optional_day": "cap_and_say_so",
    "refs": [
-    "R3-VOL-03"
-   ]
+    "R3-VOL-03",
+    "ORD-10",
+    "ORD-11"
+   ],
+   "status": "allocation step 3 (ENGINE_V05_PLAN); the 2 added exercises a day and the order are PROPOSED",
+   "x1_status": "fix round 1 (samples 04 / 06): the bonus exercise may run 2 -> 4 sets (VOL-07 'more of a muscle comes as a bonus exercise'); 4 is PROPOSED"
   },
-  "focus": {
-   "sets": 2,
-   "for": "big",
-   "prefer": [
-    "optional_day",
-    "day_training_region"
-   ]
-  },
-  "week1_fit": {
-   "trim_above": 1,
-   "add_below": 1,
-   "trim_order": "latest_isolation_first"
-  },
-  "refs": [
-   "VOL-07",
-   "VOL-16",
-   "ORD-10",
-   "ORD-11",
-   "R2-SES-05"
-  ],
-  "main_days_first": true,
-  "optional_days": {
-   "stairway_sets": false,
-   "focus_slots_max": 2,
-   "focus_sets": [
+  "optional_focus": {
+   "slots": 2,
+   "sets": [
     2,
     3
    ],
-   "focus_only_for": [
-    "priority",
-    "floor_lifted_small"
-   ],
    "refs": [
     "ORD-10",
+    "ORD-11"
+   ],
+   "close_when_over_top": true,
+   "close_refs": [
+    "R4-PRG-04",
     "ORD-11",
-    "R3-VOL-03"
+    "R4-SES-04"
    ],
-   "small_line_bonus": true
+   "close_status": "PROPOSED (V4, G-52): an optional-day Focus slot closes when the group's exercises at their fewest sets already hold more than its planned final sets; the main days' template lifts never close"
   },
-  "added_slot_entry_sets": 1,
-  "group_day_reduction": {
-   "enabled": true,
-   "keep_roles": [
-    "work",
-    "core_block",
-    "survival"
-   ],
-   "keep_pair_of_work": true,
-   "refs": [
-    "R2-SES-05",
-    "VOL-07",
-    "R2-PER-03"
-   ],
-   "note": "a group whose 2 x 2 minimum on every day is above its week-1 target is trained on fewer days, each with 2 exercises"
-  },
-  "work_min_sets_from_minutes": 60,
-  "work_min_sets": 3,
-  "day_rotation_refs": [
+  "refs": [
+   "VOL-07",
    "R3-VOL-03",
-   "VOL-07"
+   "VOL-16",
+   "ORD-10",
+   "ORD-11"
   ],
-  "added_slots": {
-   "entry_sets": 2,
-   "only_at_exercise_block_start": true,
-   "big_lines_on_optional_day": "focus_only",
+  "status": "ENGINE_V05_PLAN \"How volume is allocated\": 1 weekly sets per group from the stairway; 2 split over the template slots that train the group, first exercise first, the exposures of a day type alternating; 3 2-5 sets an exercise (2-4 for L1), then the bonus exercise on the optional day, else capped and said; 4 credits recomputed from the actual exercises",
+  "x1": {
+   "iso_main_day_max": {
+    "default": 3,
+    "hardest": 4,
+    "phase": "HARDEST"
+   },
+   "work_min_from_hint_families": [
+    "hybrid_crossfit"
+   ],
+   "step_first": {
+    "focus": true,
+    "group_muscle": {
+     "shoulders": {
+      "families": [
+       "aesthetics"
+      ],
+      "muscle": "side_delts"
+     }
+    }
+   },
+   "test_week_no_step_on_tested": true,
+   "eve_of_game": {
+    "lighter_by": 1,
+    "keep_sets": 2,
+    "refs": [
+     "R2-ATH-07"
+    ],
+    "status": "PROPOSED (fix round 1)"
+   },
+   "keep_climb_when_capped": true,
+   "bonus_from_block_start": true,
+   "main_day_extra": {
+    "groups": [
+     "biceps",
+     "triceps",
+     "shoulders",
+     "chest"
+    ],
+    "sets": [
+     2,
+     3
+    ],
+    "per_day": 1
+   },
+   "capped_notice": {
+    "focus": true,
+    "below_start": true,
+    "big_below_share": 0.8
+   },
+   "refs": [
+    "VOL-16",
+    "VOL-07",
+    "R3-SES-01",
+    "R2-VOL-04",
+    "R2-PER-07",
+    "R2-PER-03",
+    "CX-04",
+    "OT17",
+    "OT18"
+   ],
+   "status": "fix round 1 (the coach-eye reviews of samples 01 / 04 / 06 / 07): VOL-16 '3 sets on compounds, 2 on isolation' and VOL-07 read as an isolation ceiling of 3 (4 in the hardest weeks) - the numbers are PROPOSED; R3-SES-01 'bias more toward glutes ... an extra set or two or three'; R2-PER-07 the test replaces the top set; a capped group still climbs (R2-PER-03) - PROPOSED; the up-front notice only for a Focus group, a group under its level's start or a big group under 80 % of its final sets (CX-04) - PROPOSED"
+  },
+  "x2": {
+   "honest_schedule": {
+    "enabled": true,
+    "passes": 3,
+    "refs": [
+     "R4-PRG-01",
+     "R2-PER-03",
+     "CX-01"
+    ]
+   },
+   "order": {
+    "template_first": true,
+    "compound_min": {
+     "sets": 3,
+     "levels": [
+      "L2",
+      "L3"
+     ],
+     "not_families": [
+      "athletic"
+     ]
+    },
+    "lead_first": true,
+    "iso_after_compound": true,
+    "no_spill": true,
+    "refs": [
+     "VOL-07",
+     "VOL-16",
+     "R4-SES-05"
+    ],
+    "status": "approved rules (VOL-07, VOL-16) read as an order; the athletic templates keep 2 sets a slot (VOL-16)"
+   },
+   "iso_fourth_from_share": 0.5,
+   "extra_for_start": true,
+   "extra_ceiling_margin": 1,
+   "end_test_week_hold": true,
+   "floor_first": true,
+   "template_extra": {
+    "families": [
+     "aesthetics"
+    ],
+    "group": "shoulders",
+    "muscle": "rear_delts",
+    "bucket": "ISO_SIDE_REAR_DELT",
+    "variant": "rear",
+    "direct_by_level": {
+     "L1": 0,
+     "L2": 2,
+     "L3": 4
+    },
+    "refs": [
+     "R4-SES-05",
+     "VOL-17",
+     "R2-VOL-04",
+     "R3-VOL-01"
+    ],
+    "status": "PROPOSED numbers: R2-VOL-04 approved 4 / 6 / 8 own rear-delt sets and R3-VOL-01 then said rear delts are part of the shoulders and also work with the back - half of it is held as direct sets"
+   },
+   "bonus_order": {
+    "by": "missing_share",
+    "skip_focus_owner": 2,
+    "not_for": {
+     "modifiers": [
+      "field_off",
+      "strength_athlete_off",
+      "athlete_in"
+     ],
+     "groups": [
+      "shoulders"
+     ]
+    },
+    "refs": [
+     "R3-VOL-03",
+     "ORD-11",
+     "R3-SES-01",
+     "R3-VOL-01"
+    ]
+   },
+   "pull_profile_muscle": {
+    "min_pull_per_push": 1.5,
+    "by_group": {
+     "shoulders": "rear_delts"
+    },
+    "refs": [
+     "R3-ATH-01",
+     "D-09"
+    ]
+   },
    "refs": [
     "VOL-07",
     "VOL-16",
-    "PER-02",
+    "R4-SES-05",
+    "R4-PRG-01",
     "R3-VOL-03"
    ],
-   "status": "PROPOSED (F1, E-86): a bonus / Focus exercise opens at 2 sets in the first week of an exercise block; a big line's climb may open a 2-set Focus exercise on the optional day when the main days are full (R3-VOL-03 / D-33 spirit)",
-   "optional_focus": {
-    "slots": 2,
-    "sets_max": 3,
-    "refs": [
-     "ORD-10",
-     "ORD-11",
-     "R3-VOL-03"
-    ]
-   },
-   "r2_status": "PROPOSED (fix round 2 / F1, E-135): a big line climbs on the main days; only a Focus line may climb on the optional day, inside its two Focus slots x 2-3 sets"
+   "status": "PROPOSED (fix round 2): readings of approved answers; the numbers are the engine's",
+   "pre_season_optional_min_sets": 2
   }
  },
  "session": {
-  "exercise_cap_by_minutes": {
-   "30": 4,
-   "45": 5,
-   "60": 7,
-   "75": 9,
-   "90": 9,
-   "105": 9,
-   "120": 9
-  },
-  "exercise_cap_applies_to": "split_days_only",
   "full_body_days": {
-   "rule": "every muscle group trained that day gets 2-4 exercises, never 1",
-   "cap": null,
+   "rule": "a full-body day is the coach's A day (pull + knee dominant) or B day (push + hip dominant): about 6 exercises, up to 8 (R4-SES-05)",
    "refs": [
-    "R2-SES-05"
+    "R4-SES-05",
+    "R4-SES-02"
    ]
   },
   "athlete_cap": 12,
@@ -3132,7 +3250,7 @@
   ],
   "exercises_per_group": {
    "full_body_day": [
-    2,
+    1,
     4
    ],
    "split_day": [
@@ -3155,7 +3273,11 @@
     1,
     1
    ],
-   "r3_status": "approved (R3-SES-01)"
+   "r3_status": "approved (R3-SES-01)",
+   "full_body_refs": [
+    "R4-SES-05"
+   ],
+   "r4_status": "R4-SES-05: full-body days follow the A / B template (about 6 exercises); split days keep 2-4 per group"
   },
   "default_sets": {
    "compound": 3,
@@ -3164,7 +3286,6 @@
    "calves_second": 1,
    "core": 2,
    "athletic": 2,
-   "athletic_at_90": 3,
    "focus": 2,
    "min": 2,
    "refs": [
@@ -3173,34 +3294,6 @@
    ],
    "calves_first_when_alone": 3
   },
-  "minutes_default": {
-   "athletes_bodybuilders_powerlifters": 90,
-   "general_fat_loss": 60,
-   "bootcamp": 45,
-   "non_competitive_athletic": 60,
-   "older_injured": 60
-  },
-  "minutes_allowed": [
-   30,
-   45,
-   60,
-   75,
-   90,
-   105,
-   120
-  ],
-  "minutes_over_90_competitive_only": true,
-  "long_day": {
-   "warn_above_factor": 1.1,
-   "refs": [
-    "R2-SES-05"
-   ],
-   "note": "full-body days may run a little longer (warning, not an error)",
-   "split_day_factor": 1,
-   "error_above_factor": 1.25,
-   "error_when_cuttable": true,
-   "count_aerobic_addon": true
-  },
   "off_days_min": 1,
   "refs": [
    "VOL-08",
@@ -3208,101 +3301,212 @@
    "VOL-17",
    "UNI-09",
    "R2-SES-04",
-   "R2-SES-05"
+   "R2-SES-05",
+   "CT-01",
+   "R4-SES-01",
+   "R4-SES-02",
+   "R4-SES-04",
+   "R4-SES-05"
   ],
-  "athlete_cap_hard": true,
-  "time_fit": {
-   "fit_factor": 1.1,
-   "keep_order": [
-    "hips",
-    "quads",
-    "back",
-    "chest",
-    "shoulders",
-    "calves",
-    "triceps",
-    "biceps"
-   ],
-   "keep_first": [
-    "focus",
-    "profile_priority"
-   ],
-   "offers": [
-    "offer.more_days",
-    "offer.longer_sessions",
-    "offer.keep_time"
-   ],
-   "round_minutes_to": 5,
-   "supersets": "recommended",
-   "refs": [
-    "R3-SES-02",
-    "R3-SES-01",
-    "R2-SES-05",
-    "UNI-09"
-   ],
-   "status": "order approved (R3-SES-02); keep order with Focus and sport-pinned groups first PROPOSED (13 N-PROD-27)",
-   "keep_work_lift": {
-    "families": [
-     "hybrid_crossfit"
-    ],
-    "roles": [
-     "work"
-    ],
-    "sets": 3,
-    "reason": "class_lift",
-    "refs": [
-     "OT18",
-     "ORD-07",
-     "R3-SES-02"
-    ],
-    "status": "PROPOSED (B4, E-64): the coach approved fewer groups trained directly (R3-SES-02, his CrossFit-class example); keeping the class lift of a group not trained directly is PROPOSED"
-   },
-   "keep_order_r2": {
-    "pin_first_50_racket": {
-     "groups": [
-      "calves"
+  "size": {
+   "by_type": {
+    "general": {
+     "range": [
+      5,
+      7
      ],
-     "age_gte": 50,
+     "default": 7,
      "refs": [
-      "R3-ATH-02"
+      "R4-SES-02",
+      "VOL-08"
      ]
     },
-    "athletic": [
-     "hips",
-     "quads",
-     "back",
-     "chest",
-     "calves",
-     "shoulders",
-     "triceps",
-     "biceps"
-    ],
-    "refs": [
-     "R3-SES-02",
-     "R3-SES-01",
-     "R3-ATH-02"
-    ],
-    "status": "PROPOSED (fix round 2 / F1, E-140)"
+    "aesthetics": {
+     "range": [
+      6,
+      8
+     ],
+     "default": 7,
+     "refs": [
+      "R4-SES-02",
+      "R4-SES-05"
+     ]
+    },
+    "strength": {
+     "range": [
+      5,
+      6
+     ],
+     "default": 6,
+     "refs": [
+      "R4-SES-02"
+     ]
+    },
+    "bootcamp": {
+     "range": [
+      5,
+      7
+     ],
+     "default": 7,
+     "refs": [
+      "R4-SES-02",
+      "PRG-03"
+     ]
+    },
+    "athletic": {
+     "range": [
+      6,
+      12
+     ],
+     "default": 12,
+     "refs": [
+      "R4-SES-02",
+      "VOL-08",
+      "R2-SES-04"
+     ]
+    },
+    "stay_active": {
+     "range": [
+      5,
+      10
+     ],
+     "default": 10,
+     "refs": [
+      "R4-SES-02",
+      "R2-ATH-04"
+     ],
+     "status": "fix round 1 (sample 08 major): OBSERVED BYOP JUSTICE LEAGUE - 10 slots a day; the count now holds every exercise outside the warm-up and the 2 core exercises (R4-SES-02)"
+    },
+    "class": {
+     "range": [
+      5,
+      7
+     ],
+     "default": 7,
+     "refs": [
+      "R4-SES-02",
+      "OT18"
+     ],
+     "status": "PROPOSED (V1, G-07): the CrossFit-style class takes the general-population count; the WOD and the skill are outside the count"
+    },
+    "older": {
+     "range": [
+      5,
+      6
+     ],
+     "default": 6,
+     "refs": [
+      "R4-SES-02"
+     ]
+    }
    },
-   "stay_active_room_cuts": [
-    "stay_active_second_athletic",
-    "stay_active_power"
+   "by_family": {
+    "aesthetics": "aesthetics",
+    "strength": "strength",
+    "athletic": "athletic",
+    "fat_loss_bootcamp": "general",
+    "hybrid_crossfit": "class",
+    "no_equipment": "general"
+   },
+   "circuit_type": "bootcamp",
+   "finisher_types": [
+    "athletic",
+    "class"
    ],
-   "keep_day_patterns": true,
-   "offer_lengths": [
-    60,
-    75,
-    90,
-    105,
-    120
+   "stay_active_type": "stay_active",
+   "older_type": "older",
+   "counts": "exercises of a session, not counting the warm-up, the 2 core exercises, joint care, skill practice, conditioning, cardio, the cool-down or tests (rules.session.outside_cap_blocks)",
+   "recommendation_only": true,
+   "refs": [
+    "R4-SES-02",
+    "CT-01",
+    "R4-SES-01"
    ],
-   "offer_block_off_min": 3,
-   "circuit_credit_donors": [
-    "shoulders",
-    "biceps",
-    "triceps"
+   "status": "approved (R4-SES-02): recommendations in a template; the user adds or removes"
+  },
+  "easy_to_remove": {
+   "order": [
+    "conditioning_finisher",
+    "extra_athletic_station",
+    "small_muscle_accessory",
+    "bonus_exercise"
    ],
-   "stay_active_room_cuts_status": "PROPOSED (fix round 2 / F1, E-143)"
+   "always_keep": [
+    "core_block",
+    "work",
+    "paired_upper",
+    "first_athletic_station"
+   ],
+   "automatic": false,
+   "refs": [
+    "R4-SES-04"
+   ],
+   "status": "approved (R4-SES-04): the person picks what to keep or take away; the plan only names the easiest"
+  },
+  "class_lift": {
+   "families": [
+    "hybrid_crossfit"
+   ],
+   "roles": [
+    "work"
+   ],
+   "refs": [
+    "OT18",
+    "ORD-07"
+   ]
+  },
+  "x2": {
+   "circuit_kit_aware": {
+    "enabled": true,
+    "stand_in_buckets": [
+     "ISO_QUAD",
+     "ISO_LEG_FLEXION"
+    ],
+    "stand_in_buckets_not_home": [
+     "ISO_CHEST"
+    ],
+    "hand_over_buckets": [
+     "RP_VPULL"
+    ],
+    "not_home_profiles": [
+     "FIELD_TRACK_KIT",
+     "FULL_GYM",
+     "FULL_FACILITY",
+     "BASIC_GYM",
+     "HOTEL_GYM"
+    ],
+    "own_slots": {
+     "day_re": "^BC([123])(_BW)?$",
+     "by_session": {
+      "1": [
+       "RP_BKD",
+       "RP_HPULL",
+       "RP_UHD",
+       "COND_CIRCUIT"
+      ],
+      "2": [
+       "RP_BHD",
+       "RP_HPUSH",
+       "ISO_BICEP",
+       "RP_VPUSH",
+       "COND_CIRCUIT"
+      ],
+      "3": [
+       "RP_VPULL",
+       "RP_UKD",
+       "COND_CIRCUIT",
+       "ISO_TRICEP",
+       "ISO_SIDE_REAR_DELT"
+      ]
+     }
+    }
+   },
+   "refs": [
+    "R4-LIB-01",
+    "R4-SES-04",
+    "OT06"
+   ],
+   "status": "PROPOSED (fix round 2)"
   }
  },
  "time_model": {
@@ -3352,7 +3556,7 @@
    "R2-SES-05",
    "R3-SES-02"
   ],
-  "status": "PROPOSED (v1.3: work + dosed rest)",
+  "status": "information only (COACH-CT CT-01, R4-SES-01): an average estimate per day; nothing is ever cut, reshaped or flagged because of it; numbers PROPOSED",
   "between_circuits_s": 60,
   "wod_minutes_from_dose": true,
   "skill_extra_min": 3,
@@ -3415,405 +3619,7 @@
   },
   "superset_rule": "pair_shares_rest",
   "skill_in_warmup_min": 6,
-  "skill_in_warmup_short": {
-   "at_or_below_minutes": 45,
-   "min": 3
-  }
- },
- "cut_order": {
-  "aesthetics": [
-   {
-    "id": "focus",
-    "match": {
-     "role": [
-      "focus"
-     ]
-    }
-   },
-   {
-    "id": "second_calf",
-    "match": {
-     "second_calf": true
-    }
-   },
-   {
-    "id": "second_isolation_same_muscle",
-    "match": {
-     "duplicate_isolation": true
-    }
-   },
-   {
-    "id": "aquatic_chest_fly",
-    "match": {
-     "bucket": [
-      "ISO_CHEST"
-     ],
-     "profile_pull_ratio_gte": 1.5
-    }
-   },
-   {
-    "id": "third_of_group",
-    "match": {
-     "third_of_group": true
-    }
-   },
-   {
-    "id": "second_non_axial_bilateral",
-    "match": {
-     "role": [
-      "secondary"
-     ],
-     "axial": [
-      "non_axial"
-     ]
-    }
-   }
-  ],
-  "athletic": [
-   {
-    "id": "olympic_over_budget",
-    "match": {
-     "olympic_over_budget": true
-    }
-   },
-   {
-    "id": "second_plyo_or_sprint",
-    "match": {
-     "bucket": [
-      "AP_JUMP_LIMITED_KNEE",
-      "AP_SPRINT"
-     ],
-     "keep_profile_tracks": true
-    }
-   },
-   {
-    "id": "second_jump_low_contact_sport",
-    "match": {
-     "bucket": [
-      "AP_PLYO"
-     ],
-     "keep_one_per_day": true,
-     "profile_ground_class_gte": 4
-    }
-   },
-   {
-    "id": "cod_non_cod_sport",
-    "match": {
-     "bucket": [
-      "AP_COD"
-     ],
-     "unless_profile_cod": true
-    }
-   },
-   {
-    "id": "buyout",
-    "match": {
-     "bucket": [
-      "COND_SPRINT_BUYOUT"
-     ]
-    }
-   },
-   {
-    "id": "second_throw",
-    "match": {
-     "bucket": [
-      "AP_THROW"
-     ],
-     "keep_one": true
-    }
-   },
-   {
-    "id": "second_calf",
-    "match": {
-     "second_calf": true
-    }
-   },
-   {
-    "id": "second_isolation_same_muscle",
-    "match": {
-     "duplicate_isolation": true
-    }
-   },
-   {
-    "id": "aquatic_chest_fly",
-    "match": {
-     "bucket": [
-      "ISO_CHEST"
-     ],
-     "profile_pull_ratio_gte": 1.5
-    }
-   },
-   {
-    "id": "third_of_group",
-    "match": {
-     "third_of_group": true
-    }
-   }
-  ],
-  "strength": [
-   {
-    "id": "nuance",
-    "match": {
-     "role": [
-      "nuance"
-     ]
-    }
-   },
-   {
-    "id": "accessory",
-    "match": {
-     "role": [
-      "accessory"
-     ]
-    }
-   },
-   {
-    "id": "second_calf",
-    "match": {
-     "second_calf": true
-    }
-   }
-  ],
-  "fat_loss_bootcamp": [
-   {
-    "id": "focus",
-    "match": {
-     "role": [
-      "focus"
-     ]
-    }
-   },
-   {
-    "id": "second_calf",
-    "match": {
-     "second_calf": true
-    }
-   },
-   {
-    "id": "second_isolation_same_muscle",
-    "match": {
-     "duplicate_isolation": true
-    }
-   },
-   {
-    "id": "rounds",
-    "match": {
-     "circuit_rounds_down": true
-    }
-   },
-   {
-    "id": "sixth_station",
-    "match": {
-     "circuit_station_index_gte": 6,
-     "except_bucket": [
-      "COND_CIRCUIT"
-     ]
-    }
-   }
-  ],
-  "hybrid_crossfit": [
-   {
-    "id": "aerobic_addon",
-    "match": {
-     "bucket": [
-      "COND_AEROBIC"
-     ]
-    }
-   },
-   {
-    "id": "focus",
-    "match": {
-     "role": [
-      "focus"
-     ]
-    }
-   },
-   {
-    "id": "second_calf",
-    "match": {
-     "second_calf": true
-    }
-   },
-   {
-    "id": "second_isolation_same_muscle",
-    "match": {
-     "duplicate_isolation": true
-    }
-   },
-   {
-    "id": "aquatic_chest_fly",
-    "match": {
-     "bucket": [
-      "ISO_CHEST"
-     ],
-     "profile_pull_ratio_gte": 1.5
-    }
-   },
-   {
-    "id": "third_of_group",
-    "match": {
-     "third_of_group": true
-    }
-   },
-   {
-    "id": "skill_to_warmup",
-    "match": {
-     "skill_to_warmup": true
-    }
-   },
-   {
-    "id": "wod_short",
-    "match": {
-     "wod_short": true
-    }
-   }
-  ],
-  "no_equipment": [
-   {
-    "id": "second_calf",
-    "match": {
-     "second_calf": true
-    }
-   },
-   {
-    "id": "second_isolation_same_muscle",
-    "match": {
-     "duplicate_isolation": true
-    }
-   },
-   {
-    "id": "aquatic_chest_fly",
-    "match": {
-     "bucket": [
-      "ISO_CHEST"
-     ],
-     "profile_pull_ratio_gte": 1.5
-    }
-   },
-   {
-    "id": "third_of_group",
-    "match": {
-     "third_of_group": true
-    }
-   }
-  ],
-  "never_cut": {
-   "roles": [
-    "core_block",
-    "work",
-    "paired_upper",
-    "survival"
-   ],
-   "buckets": [
-    "ISO_CALF"
-   ],
-   "group_min_exercises": 2,
-   "rear_delt_station_per_week_min": 1,
-   "athletic_min_plyo_or_ballistic": 1,
-   "first_calf_station": true
-  },
-  "superset_first": true,
-  "when_nothing_left": "warn_long_day",
-  "refs": [
-   "ORD-05",
-   "VOL-17",
-   "ORD-07",
-   "R2-SES-05"
-  ],
-  "status": "PROPOSED (v1.2 review: Olympic sets above the budget, 1-set fillers and duplicate isolations go before any target muscle)",
-  "athletic_stay_active": [
-   {
-    "id": "olympic_over_budget",
-    "match": {
-     "olympic_over_budget": true
-    }
-   },
-   {
-    "id": "prehab_to_optional",
-    "match": {
-     "prehab_to_optional": true
-    }
-   },
-   {
-    "id": "ankle_block",
-    "match": {
-     "bucket": [
-      "AP_JUMP_LIMITED_KNEE"
-     ]
-    }
-   },
-   {
-    "id": "one_athletic_per_day",
-    "match": {
-     "athletic_per_day_gt": 1
-    }
-   },
-   {
-    "id": "second_jump",
-    "match": {
-     "bucket": [
-      "AP_PLYO"
-     ],
-     "keep_one_per_day": true
-    }
-   },
-   {
-    "id": "second_throw",
-    "match": {
-     "bucket": [
-      "AP_THROW"
-     ],
-     "keep_one": true
-    }
-   },
-   {
-    "id": "cod",
-    "match": {
-     "bucket": [
-      "AP_COD",
-      "AP_SPRINT"
-     ]
-    }
-   },
-   {
-    "id": "buyout",
-    "match": {
-     "bucket": [
-      "COND_SPRINT_BUYOUT"
-     ]
-    }
-   },
-   {
-    "id": "second_calf",
-    "match": {
-     "second_calf": true
-    }
-   },
-   {
-    "id": "second_isolation_same_muscle",
-    "match": {
-     "duplicate_isolation": true
-    }
-   },
-   {
-    "id": "aquatic_chest_fly",
-    "match": {
-     "bucket": [
-      "ISO_CHEST"
-     ],
-     "profile_pull_ratio_gte": 1.5
-    }
-   },
-   {
-    "id": "third_of_group",
-    "match": {
-     "third_of_group": true
-    }
-   }
-  ],
-  "track_protection": "competitive_only",
-  "keep_work_pair": true,
-  "group_moves": "retired (v1.3): the time check (R3-SES-02) decides which groups are trained directly"
+  "use": "estimate_only"
  },
  "bilateral_share": {
   "regions": {
@@ -4452,7 +4258,7 @@
      "bracket": "b10_15"
     },
     "athletic": {
-     "bracket": "b8_12",
+     "bracket": "b12_15",
      "per_side": true
     },
     "fat_loss": {
@@ -4625,14 +4431,14 @@
     ]
    },
    "off_late_single_block_step": {
-    "enabled": false,
+    "enabled": true,
     "from": "VOL2",
     "to": "VOL3",
     "at": "after_halfway",
     "refs": [
      "PER-11"
     ],
-    "status": "PROPOSED (F3, E-125): built, switched off - open question for the coach (minutes vs groups)"
+    "status": "approved rule (PER-11); switched on in v0.5 fix round 1: a single-block late off-season stairway steps to the 6-8 phase after its halfway week (the open question was about minutes - CT-01 removed it)"
    }
   },
   "preference": {
@@ -4743,7 +4549,41 @@
     "step": 1,
     "floor_min": 6
    },
-   "monotone_status": "PROPOSED (fix round 2 / F3): capped lifts 8-10 -> 7-9 -> 6-8"
+   "monotone_status": "PROPOSED (fix round 2 / F3): capped lifts 8-10 -> 7-9 -> 6-8",
+   "x1": {
+    "menu": [
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      8
+     ],
+     [
+      8,
+      10
+     ],
+     [
+      10,
+      12
+     ],
+     [
+      12,
+      15
+     ],
+     [
+      15,
+      20
+     ]
+    ],
+    "refs": [
+     "PER-11",
+     "VOL-11",
+     "OBSERVED BYOP REPS menu"
+    ],
+    "status": "PROPOSED (fix round 1): 8-10 and 10-12 as the capped steps between his 6-8, 8-12 and 12-15"
+   }
   },
   "core_hold_seconds": {
    "default": [
@@ -5017,7 +4857,24 @@
     "axial_high"
    ],
    "never_id_re": "nordic|sissy|copenhagen",
-   "r2_status": "PROPOSED (fix round 2 / F3)"
+   "r2_status": "PROPOSED (fix round 2 / F3)",
+   "never_pain_muscle": true,
+   "x1": {
+    "no_calves_with_tests": [
+     "speed_agility",
+     "jumps"
+    ],
+    "calves_last_resort": true,
+    "two_sided_first": true,
+    "main_days_only": true,
+    "refs": [
+     "VOL-15",
+     "VOL-03",
+     "R2-PER-07",
+     "OBSERVED BYOP ATHLETIC G12"
+    ],
+    "status": "PROPOSED (fix round 1): the order of the items that may carry it"
+   }
   },
   "circuit_rir": {
    "key": "effort.circuit_rir",
@@ -5825,9 +5682,11 @@
     ]
    },
    "refs": [
-    "R3-ATH-03"
+    "R3-ATH-03",
+    "R4-LIB-01"
    ],
-   "status": "approved (R3-ATH-03); station list order and finisher dose PROPOSED"
+   "status": "approved (R3-ATH-03); station list order and finisher dose PROPOSED",
+   "v2_status": "V2 (R4-LIB-01): a station circuit picks wall balls, sled pushes and the coach's own SkiErg / row / burpee stations; the other race stations (sled pull and drag, burpee broad jumps, farmer carry, sandbag lunges) are swaps and offered add-ons"
   },
   "cod": {
    "sport_only_field": "athletic.sport_only",
@@ -5984,8 +5843,6 @@
    "pick_ok_ids": [
     "broad-jump",
     "squat-jump-high-bodyweight-or-lightly-loaded",
-    "streamline-squat-jump-arms-overhead",
-    "split-step-reaction-drill",
     "stick-the-landing-bilateral-jump-drop-and-freeze-the-landing",
     "bilateral-jump-on-to-box-jump-land-softly-on-top",
     "single-leg-broad-jump",
@@ -6074,12 +5931,15 @@
    "pre_season_hold": {
     "keys": [
      "sprint_m",
-     "cod_cuts"
+     "cod_cuts",
+     "plyo_contacts",
+     "jump_contacts"
     ],
     "refs": [
      "R2-PER-06"
     ],
-    "status": "PROPOSED (fix round 2 / F2)"
+    "status": "PROPOSED (fix round 2 / F2)",
+    "x1_status": "fix round 1 (sample 03 major): the jumps hold too - a pre-season block plans at least the last off-season week's jump contacts where its stations hold them"
    },
    "tests": {
     "replace_station": {
@@ -6202,6 +6062,76 @@
     "R3-SES-02"
    ],
    "status": "PROPOSED (fix round 2 / F2, engine/DECISIONS.md E-160 ...)"
+  },
+  "x1": {
+   "scale_by_days": {
+    "reference_days": 4,
+    "floor": 0.75,
+    "confidences": [
+     "proposed",
+     "similar_sport"
+    ],
+    "keys": [
+     "plyo_contacts",
+     "jump_contacts",
+     "low_contacts",
+     "throws",
+     "cod_cuts",
+     "sprint_m"
+    ],
+    "step": {
+     "sprint_m": 50
+    }
+   },
+   "pre_season_keep_sets": true,
+   "cod_sport_jump_every_day": true,
+   "heavy_play": {
+    "one_jump_station_a_day": true,
+    "throw_replaces_cuts": true
+   },
+   "low_impact_low_box": true,
+   "refs": [
+    "R2-PER-06",
+    "R3-ATH-02",
+    "R3-ATH-05",
+    "ATH-05",
+    "EQ-16",
+    "R4-SCP-03",
+    "OBSERVED BYOP ATHLETIC - FULL BODY - 4 DAYS"
+   ],
+   "status": "PROPOSED (fix round 1): the 4-day reference and the 0.5 floor of the day scale; the rest are readings of approved answers"
+  },
+  "x2": {
+   "loaded_jump": {
+    "implement_min_lb": {
+     "hex-bar-jump-squat": 45
+    },
+    "max_bw_share": 0.2,
+    "never_stages": [
+     "RC1"
+    ],
+    "never_first_block": true,
+    "stage_exempt_tags": [
+     "medball"
+    ],
+    "round_lb": 5,
+    "refs": [
+     "EQ-15",
+     "CAT-10",
+     "R2-ATH-03",
+     "EQ-06"
+    ],
+    "status": "approved rule (EQ-15); the 45 lb empty hex bar is OBSERVED equipment, the stage rule a PROPOSED reading of CAT-10"
+   },
+   "upper_plyo_not_for_codes": [
+    "SHOULDER_SWIMMER"
+   ],
+   "refs": [
+    "EQ-15",
+    "CAT-10",
+    "R3-ATH-01"
+   ],
+   "status": "PROPOSED (fix round 2)"
   }
  },
  "olympic": {
@@ -6378,7 +6308,26 @@
    ]
   },
   "ramp_carries_across_blocks": true,
-  "max_exposures_from_profile": true
+  "max_exposures_from_profile": true,
+  "x2": {
+   "l2_block1": {
+    "levels": [
+     "L2"
+    ],
+    "ids": [
+     "hang-power-clean-from-the-high-hang-hip-crease",
+     "hang-power-snatch-from-the-high-hang"
+    ],
+    "weight": 6,
+    "pull": -3
+   },
+   "refs": [
+    "ATH-10",
+    "R2-LIB-07",
+    "PER-02"
+   ],
+   "status": "approved ladder (ATH-10); the two hang power records are his reference-tab lifts, made selectable for this step (PROPOSED)"
+  }
  },
  "medball": {
   "max_lb": 20,
@@ -6556,10 +6505,6 @@
     "PRG-10"
    ],
    "status": "PROPOSED",
-   "short_minutes": [
-    10,
-    15
-   ],
    "reps_by_group": {
     "erg": {
      "emom": 10,
@@ -6667,6 +6612,23 @@
       70
      ],
      "unit": "dumbbells"
+    },
+    "barbell": {
+     "thruster": {
+      "L1": [
+       35,
+       45
+      ],
+      "L2": [
+       45,
+       65
+      ],
+      "L3": [
+       65,
+       95
+      ],
+      "unit": "barbell"
+     }
     }
    },
    "calorie_station_generic": true,
@@ -6689,6 +6651,25 @@
      "E-39"
     ],
     "status": "PROPOSED (fix round 2 / F2)"
+   },
+   "for_time_progress": {
+    "rounds_add": 2,
+    "refs": [
+     "R2-PER-03",
+     "PRG-10"
+    ],
+    "status": "PROPOSED (fix round 1): a for-time WOD adds up to 2 rounds over the stairway and its cap follows the work; the bar loads are PROPOSED (the class scales them)"
+   },
+   "x1": {
+    "not_above_l1_re": "jumping-jack",
+    "weekly_must_have_pull": true,
+    "pull_re": "^(pull-up|chin-up-supinated|inverted-row|toes-to-bar-hanging|knees-to-chest-hanging|ring-row)",
+    "group_week_max": 2,
+    "refs": [
+     "PRG-10",
+     "OBSERVED CrossFit sheet (T2B, gymnastics)"
+    ],
+    "status": "PROPOSED (fix round 1)"
    }
   },
   "circuit_finisher": {
@@ -6732,7 +6713,30 @@
     "ORD-03",
     "LIB-21",
     "OBSERVED BASEBALL Part E"
-   ]
+   ],
+   "x2": {
+    "enforce_calories": true,
+    "bouts_by_block": [
+     1,
+     2,
+     3
+    ],
+    "calories_by_bouts": {
+     "1": 20,
+     "2": 15,
+     "3": 10
+    },
+    "max_total_cal": 30,
+    "match_weight": 6,
+    "effort_key": "effort.buyout_sprint",
+    "not_with_aerobic_addon": true,
+    "refs": [
+     "OBSERVED BASEBALL Part E",
+     "R2-PER-03",
+     "ORD-03"
+    ],
+    "status": "OBSERVED sheet doses (1 x 20 cal, 2 x 15 cal, 3 x 10 cal); PROPOSED: one more bout with each exercise block"
+   }
   },
   "circuit_pool_extra": [
    "kettlebell-swing-russian",
@@ -6887,6 +6891,46 @@
     ],
     "status": "PROPOSED (fix round 2 / F3): bump, mid-block rung, minutes climb"
    }
+  },
+  "carry": {
+   "patterns": [
+    "CARRY",
+    "DRAG"
+   ],
+   "tag": "carry_sled",
+   "trips": [
+    2,
+    4
+   ],
+   "metres": [
+    20,
+    40
+   ],
+   "seconds": [
+    20,
+    40
+   ],
+   "per_side_when_one_sided": true,
+   "counts_as_muscle_sets": false,
+   "credit_class": "NONE",
+   "sits_with": [
+    "core",
+    "conditioning"
+   ],
+   "effort_key": "effort.carry",
+   "refs": [
+    "R4-LIB-02",
+    "LIB-19"
+   ],
+   "status": "approved (R4-LIB-02): by distance or time, not reps - 2-4 trips of 20-40 m (or 20-40 s); no muscle sets; with core / conditioning"
+  },
+  "x2": {
+   "addon_easy_colour": "C",
+   "refs": [
+    "ORD-10",
+    "ATH-06"
+   ],
+   "status": "PROPOSED (fix round 2): an aerobic session that rides on a training day is the easy steady one"
   }
  },
  "equipment": {
@@ -7471,7 +7515,6 @@
     4,
     5
    ],
-   "step_cap": 0.03,
    "maintenance_floor": 0.7,
    "tests": "submax_only",
    "refs": [
@@ -7496,8 +7539,7 @@
     "hops-in-place-foot-speed-reactive-hops"
    ],
    "quick_stepping_no_hop": [
-    "lateral-shuffles",
-    "split-step-reaction-drill"
+    "lateral-shuffles"
    ],
    "fast_intent_note": "note.fast_machine_intent"
   },
@@ -7596,13 +7638,17 @@
   "refs": [
    "EQ-01",
    "R2-LIB-04",
-   "R2-LIB-07"
+   "R2-LIB-07",
+   "R4-LIB-01"
   ],
   "status": "mapping INFERRED from 04 injury_prehab",
   "preferred_by_code": {
    "ACHILLES_CALF": [
     "seated-bent-knee-calf-raise-soleus",
-    "tibialis-raise-back-against-a-wall"
+    "tibialis-raise-back-against-a-wall",
+    "standing-db-calf-raise-deficit-optional",
+    "machine-calf-raise",
+    "standing-calf-raise-bodyweight-from-a-deficit-step"
    ],
    "KNEE_DEGENERATIVE_COURT": [
     "leg-extension-machine",
@@ -7630,10 +7676,6 @@
    ],
    "NECK": []
   },
-  "preferred_status_ok": [
-   "proposed_v1_1",
-   "proposed_v1"
-  ],
   "skip_if_week_has_same": true,
   "per_day_max": 2,
   "unit_from_rep_hint": true,
@@ -7644,7 +7686,50 @@
     "re": "tibialis",
     "key": "prehab.label_ex.shins_ankles"
    }
-  ]
+  ],
+  "v2_status": "V2 (R4-LIB-01): a joint-care station is placed only when its code has a live exercise; a code whose exercises are all optional add-ons (Achilles / calf, balance) is offered as an add-on instead",
+  "x1": {
+   "in_template_slot": {
+    "ACHILLES_CALF": [
+     {
+      "bucket": "ISO_CALF"
+     }
+    ],
+    "KNEE_DEGENERATIVE_COURT": [
+     {
+      "bucket": "ISO_QUAD"
+     }
+    ],
+    "AGE_50_RACKET:PREHAB_LOWER": [
+     {
+      "bucket": "ISO_CALF"
+     }
+    ],
+    "AGE_50_RACKET:RECOVERY_ARM_CARE": [
+     {
+      "bucket": "ISO_SIDE_REAR_DELT",
+      "variant": "rear"
+     }
+    ],
+    "SHOULDER_THROWER": [
+     {
+      "bucket": "ISO_SIDE_REAR_DELT",
+      "variant": "rear"
+     }
+    ]
+   },
+   "never_status": [
+    "reference_only",
+    "program_only"
+   ],
+   "refs": [
+    "R4-SES-02",
+    "R3-ATH-02",
+    "VOL-17",
+    "R4-LIB-01"
+   ],
+   "status": "PROPOSED (fix round 1): which template slot serves which joint-care code"
+  }
  },
  "selection": {
   "weights": {
@@ -7761,7 +7846,7 @@
    ]
   },
   "generic_id_patterns": [
-   "-not-stated",
+   "(?<!^pull-up-grip)-not-stated",
    "-any-kind",
    "^calf-raise-any$",
    "^row-any",
@@ -8500,12 +8585,13 @@
    "avoid_re": "alternating|seesaw|single-arm|one-arm|offset|staggered",
    "floor_re": "floor-press|push-up",
    "penalty": -6,
-   "floor_penalty": -4,
+   "floor_penalty": -8,
    "refs": [
     "ORD-07",
     "CAT-13"
    ],
-   "status": "INFERRED (B3)"
+   "status": "INFERRED (B3)",
+   "v2_status": "V2 (G-35): floor_penalty -4 -> -8 (PROPOSED weight)"
   },
   "powerlifting_presses": {
    "lift_style": "heavy_powerlifting",
@@ -8649,7 +8735,7 @@
     "lift_style": "heavy_powerlifting",
     "prefer": {
      "RP_BKD": "back-squat",
-     "RP_BHD": "conventional|sumo-deadlift",
+     "RP_BHD": "^barbell-deadlift-conventional$",
      "RP_HPUSH": "^barbell-bench-press$"
     },
     "weight": 4,
@@ -8806,9 +8892,19 @@
      "id": "leg_curl_machine",
      "re": "(seated|lying)-leg-curl-machine|machine-leg-curl",
      "day_max": 1
+    },
+    {
+     "id": "high_incline_db_press",
+     "re": "^high-incline-(seated-)?db-press$",
+     "week_max": 1
+    },
+    {
+     "id": "bent_over_barbell_row",
+     "re": "^bent-over-barbell-row",
+     "week_max": 1
     }
    ],
-   "family_over_week": -4,
+   "family_over_week": -7,
    "family_over_day": -8,
    "family_day_gap": -4,
    "family_day_counts_pending_one_arm": true,
@@ -8955,6 +9051,636 @@
     "R3-SES-01"
    ],
    "status": "PROPOSED (fix round 2 / F3): selection weights of fix round 2"
+  },
+  "addons": {
+   "addon_status": "optional_addon",
+   "never_pick_statuses": [
+    "optional_addon",
+    "proposed_v1",
+    "proposed_v1_1",
+    "live_library_not_selectable"
+   ],
+   "not_shown_statuses": [
+    "proposed_v1",
+    "proposed_v1_1"
+   ],
+   "not_shown_note": "neck work stays proposed until the coach decides (R4-LIB-01): never a pick, a swap or an offered add-on",
+   "primary_exceptions": [
+    {
+     "ids": [
+      "sled-push",
+      "wall-ball-medball-squat-to-target"
+     ],
+     "bucket": "COND_CIRCUIT",
+     "variants": [
+      "hyrox_station",
+      "hyrox_run_station"
+     ],
+     "refs": [
+      "R4-LIB-01",
+      "R3-ATH-03"
+     ],
+     "status": "approved (R4-LIB-01): wall balls and sled pushes may be primary in the HYROX program"
+    },
+    {
+     "ids": [
+      "sled-push",
+      "wall-ball-medball-squat-to-target"
+     ],
+     "bucket": "COND_WOD",
+     "families": [
+      "hybrid_crossfit"
+     ],
+     "enabled": true,
+     "refs": [
+      "R4-LIB-01"
+     ],
+     "status": "PROPOSED reading of \"maybe in the CrossFit program\" (R4-LIB-01): on for the class WOD; set enabled false to keep them out"
+    }
+   ],
+   "offer": {
+    "max": 6,
+    "order": [
+     "joint_care",
+     "sport",
+     "carry"
+    ],
+    "carry_goals": [
+     "general",
+     "fat_loss",
+     "active",
+     "athletic",
+     "hybrid"
+    ],
+    "carry_ids": [
+     "farmer-carry"
+    ],
+    "sets": [
+     2,
+     3
+    ],
+    "skip_units": [
+     "distance",
+     "time"
+    ],
+    "status": "PROPOSED (V2, G-28): which add-ons a plan lists and how many; the person adds any library exercise with an edit"
+   },
+   "refs": [
+    "R4-LIB-01",
+    "CAT-07"
+   ],
+   "status": "approved (R4-LIB-01): the 31 proposed exercises are optional - \"they can be chosen and added, but not primary ones that the program is going to throw at you as part of the template\""
+  },
+  "mid_range": {
+   "push": {
+    "tag": "mid_range_push",
+    "pattern": "MRPUSH",
+    "fills": [
+     "RP_HPUSH",
+     "RP_VPUSH"
+    ],
+    "refs": [
+     "R4-LIB-03",
+     "OBSERVED MM RESISTANCE PATTERNS G6"
+    ]
+   },
+   "pull": {
+    "tag": "mid_range_pull",
+    "pattern": "MRPULL",
+    "node": "RP.PL.M",
+    "between": [
+     "HPULL",
+     "VPULL"
+    ],
+    "fills": [
+     "RP_HPULL",
+     "RP_VPULL"
+    ],
+    "credit_class": "HPULL",
+    "template_pick": false,
+    "examples": [
+     "high-row-machine",
+     "45-degree-cable-row",
+     "face-pull"
+    ],
+    "refs": [
+     "R4-LIB-03"
+    ],
+    "status": "approved category (R4-LIB-03); its two row records are PROPOSED optional add-ons (swaps for the row and the pulldown)"
+   }
+  },
+  "incline_first": {
+   "bucket": "RP_VPUSH",
+   "tag": "mid_range_push",
+   "incline_re": "(^|-)incline(-|$)",
+   "weight": 4,
+   "weight_other": 2,
+   "goals": [
+    "muscle",
+    "general",
+    "fat_loss",
+    "active"
+   ],
+   "not_competitive": true,
+   "overhead_stays": true,
+   "refs": [
+    "R4-LIB-03",
+    "R4-SES-05"
+   ],
+   "status": "approved (R4-LIB-03): bodybuilders and the general population bias incline pressing over overhead pressing in the vertical / mid-range push slot; overhead stays available. PROPOSED: the weight; the non-competitive \"stay athletic\" adult counts as general population"
+  },
+  "swap_notes": {
+   "enabled": true,
+   "equipment_substitute_flags": [
+    "pattern_gap",
+    "machine_iso_swap",
+    "no_medball_sub"
+   ],
+   "instead_of_note": "note.instead_of",
+   "refs": [
+    "R4-LIB-04"
+   ],
+   "status": "approved (R4-LIB-04): one short line - what the swap keeps and what it loses; the wording table (swap.keeps.* / swap.loses.*) is PROPOSED"
+  },
+  "v2": {
+   "lead_press": {
+    "body_weight_two_arm_first": true,
+    "refs": [
+     "ORD-07",
+     "CAT-13"
+    ]
+   },
+   "second_hinge": {
+    "family": "db_staggered_hinge",
+    "alt_credit_class": "GLUTE_ISO",
+    "trained_levels": [
+     "L2",
+     "L3"
+    ],
+    "trained_prefer_re": "single-leg-hip-thrust",
+    "trained_prefer": 3,
+    "refs": [
+     "R3-SES-01",
+     "R4-SES-05"
+    ]
+   },
+   "refs": [
+    "R2-SES-05",
+    "PER-04",
+    "ORD-07",
+    "R4-SES-05"
+   ],
+   "status": "PROPOSED (V2, G-35): selection rules for the A / B skeleton; each fixes a coach-eye review finding"
+  },
+  "skeleton_laterality": {
+   "skeleton_prefixes": [
+    "gym_",
+    "ppl_",
+    "athletic_",
+    "class_"
+   ],
+   "lower_fixed": true,
+   "laterality_of_bucket": {
+    "RP_BKD": "bilateral",
+    "RP_BHD": "bilateral",
+    "RP_UKD": "unilateral",
+    "RP_UHD": "unilateral"
+   },
+   "unilateral_lateralities": [
+    "unilateral",
+    "alternating"
+   ],
+   "lead_row": {
+    "skeletons": [
+     "gym_A",
+     "athletic_A",
+     "class_squat",
+     "class_pull"
+    ],
+    "bucket": "RP_HPULL",
+    "penalty": -6
+   },
+   "refs": [
+    "R4-SES-05",
+    "UNI-02",
+    "UNI-03",
+    "UNI-07",
+    "R2-SES-01",
+    "PER-04",
+    "UNI-10"
+   ],
+   "status": "approved rule (R4-SES-05: his template names each slot's laterality; OBSERVED BYOP categories and JUSTICE LEAGUE 'Bilateral KD' / 'Unilateral KD'); fix round 1: the athletic A / B / C days keep it too - his newest answer wins over the dial (UNI-02 / UNI-03), which now acts on the slots the skeleton leaves open (the vertical pull, S3's row, the isolation details, the jump stations); the penalty weight is PROPOSED",
+   "x2_free": {
+    "skeletons": [
+     "athletic_C"
+    ],
+    "buckets": [
+     "RP_BKD"
+    ],
+    "when": "cod_sport",
+    "refs": [
+     "UNI-02",
+     "UNI-03",
+     "UNI-12",
+     "R4-SES-05"
+    ]
+   },
+   "x2_status": "fix round 2 (sample 04 majors): the class days keep each slot's laterality too - the lunge and the single-leg hinge stay single-leg in every exercise block - and their first row is a two-arm row"
+  },
+  "slot_variants": {
+   "ISO_TRICEP": {
+    "push": {
+     "id_re": "push-?down|kickback",
+     "weight": 4
+    },
+    "overhead": {
+     "id_re": "overhead",
+     "weight": 4,
+     "strict": true
+    }
+   },
+   "refs": [
+    "R4-SES-05"
+   ],
+   "status": "OBSERVED slots (BYOP PUSHPULLLEGS); PROPOSED reading: push = push-downs and kickbacks, overhead = overhead extensions and skullcrushers; the weight is PROPOSED",
+   "RP_HPUSH": {
+    "incline": {
+     "id_re": "^(incline-db-bench-press|incline-barbell-bench-press|alternating-incline-db-bench-press)",
+     "weight": 8
+    }
+   }
+  },
+  "floor_work": {
+   "not_floor_id_re": "^incline-push-up-hands-elevated$",
+   "floor_lift_id_re": "floor-press|seated-on-floor|glute-bridge|floor-dumbbell-skullcrusher|floor-prone|kneeling|nordic|ball-hamstring-curl|slider-hamstring|supine-slider|prone-dumbbell-hamstring|supine-lay-down|side-lying-db|floor-catch-and-release",
+   "refs": [
+    "F38",
+    "EQ-03"
+   ],
+   "status": "INFERRED (V4, G-55): the intake exclusion \"floor work\" read as any exercise that needs getting down on the floor; the id lists are PROPOSED until the catalog carries a position field"
+  },
+  "x1": {
+   "work_prefer": {
+    "families": [
+     "athletic"
+    ],
+    "levels": [
+     "L2",
+     "L3"
+    ],
+    "weight": 4,
+    "step": 0.5,
+    "patterns": {
+     "RP_BKD": [
+      "^front-squat-barbell$",
+      "^low-bar-back-squat$",
+      "^high-bar-back-squat$"
+     ],
+     "RP_BHD": [
+      "^hex-trap-bar-deadlift$",
+      "^barbell-deadlift-conventional$",
+      "^stiff-leg-deadlift-rdl$"
+     ]
+    }
+   },
+   "pain_only": {
+    "re": "^kong-row",
+    "areas": [
+     "shoulder",
+     "lower_back",
+     "upper_back",
+     "neck"
+    ],
+    "penalty": -12,
+    "refs": [
+     "LIB-09",
+     "R4-LIB-01"
+    ]
+   },
+   "stand_in_library_first": true,
+   "keep_class_at_block_change": true,
+   "dial_reads_plan_sets": true,
+   "second_pass_top_tolerance": 1,
+   "class_press_both_passes": true,
+   "second_day_prefer": {
+    "skeleton_prefixes": [
+     "athletic_"
+    ],
+    "weight": 7,
+    "patterns": {
+     "RP_BKD": [
+      "^leg-press-machine$",
+      "^hack-squat-machine$",
+      "^belt-squat-machine$",
+      "^pendulum-squat-machine$"
+     ],
+     "RP_BHD": [
+      "^barbell-hip-thrust$",
+      "^hip-thrust-machine$",
+      "^45-degree-hyperextension-back-hip-extension$",
+      "^reverse-hyperextension$"
+     ]
+    }
+   },
+   "pain_work": {
+    "weight": 6
+   },
+   "below_ladder": {
+    "work_levels": [
+     "L2",
+     "L3"
+    ],
+    "work_per_step": -1.5,
+    "core_levels": [
+     "L3"
+    ],
+    "core_per_step": -1.5
+   },
+   "lead_press": {
+    "staples_re": "^(flat-db-bench-press|barbell-bench-press|machine-bench-press)$",
+    "staple_weight": 2,
+    "staples_no_above_level": true,
+    "unstable_re": "^(standing-cable-chest-press|alternating-standing-cable-press-one-forward-one-back)$",
+    "unstable_penalty": -4,
+    "incline_re": "incline",
+    "incline_penalty": -6
+   },
+   "chest_shoulders": {
+    "bucket": "RP_VPUSH",
+    "lead_bucket": "RP_HPUSH",
+    "skeleton_re": "^(gym|athletic)_B$",
+    "per_week": 1,
+    "min_b_days": 2,
+    "two_day_plan": true,
+    "incline_re": "^(incline-db-bench-press|incline-barbell-bench-press)$",
+    "weight": 10,
+    "not_families": [],
+    "not_lift_styles": []
+   },
+   "iso_machine_first": {
+    "not_families": [
+     "athletic"
+    ],
+    "penalty": -8,
+    "buckets": {
+     "ISO_QUAD": {
+      "machine_ids": [
+       "leg-extension-machine"
+      ],
+      "avoid_re": "^(sissy-squat|db-leg-extension-seated-on-box)$"
+     },
+     "ISO_LEG_FLEXION": {
+      "machine_ids": [
+       "seated-leg-curl-machine",
+       "lying-leg-curl-machine"
+      ],
+      "avoid_re": "nordic|slider|ball-hamstring|prone-dumbbell"
+     }
+    }
+   },
+   "core_families": [
+    {
+     "id": "front_plank",
+     "re": "^(plank-forearm|high-plank|plank-with|plank-shoulder|plank-db|plank$)",
+     "week_max": 1
+    },
+    {
+     "id": "side_plank",
+     "re": "side-plank|star-side",
+     "week_max": 1
+    },
+    {
+     "id": "twist",
+     "re": "russian-twist",
+     "week_max": 1
+    },
+    {
+     "id": "leg_raise",
+     "re": "leg-raise|reverse-crunch|v-up|knees-to-chest",
+     "week_max": 1
+    }
+   ],
+   "core_family_over_week": -5,
+   "cross_bucket_repeat": -6,
+   "refs": [
+    "R4-SES-05",
+    "R2-SES-01",
+    "PER-04",
+    "VOL-03",
+    "EQ-03",
+    "EQ-08",
+    "CAT-04",
+    "R4-LIB-03"
+   ],
+   "status": "PROPOSED (fix round 1): selection weights from the coach-eye reviews of the 8 samples; the lists are INFERRED from the catalog ids and his sheets",
+   "care_slot_prefer": 4,
+   "olympic_split_grip": {
+    "from_age": 50,
+    "barbell": -3,
+    "split": 2
+   },
+   "low_impact_heights": {
+    "prefer_re": "low-box|stick-the-landing|hop-on",
+    "avoid_re": "mid-box|high-box|knee-height|depth-jump",
+    "prefer": 3,
+    "avoid": -6
+   }
+  },
+  "x2": {
+   "core_primary": {
+    "live_only": true,
+    "low_back_allow_ids": [
+     "dead-bugs",
+     "bird-dogs"
+    ],
+    "low_back_repeat_first": true,
+    "never_tags": [
+     "carry_sled"
+    ],
+    "in_level_first": true,
+    "in_level_exempt_ids": [
+     "side-plank-elbow"
+    ],
+    "min_level_ids": {
+     "toes-to-bar-hanging": "L3"
+    },
+    "weighted_re": "weighted|decline-sit-up",
+    "weighted_on_axial_day": -6,
+    "skill_day_flexion": -4,
+    "skill_day_anti": 2,
+    "genpop_families": [
+     "fat_loss_bootcamp",
+     "no_equipment"
+    ],
+    "genpop_goals": [
+     "general",
+     "fat_loss",
+     "active"
+    ],
+    "genpop_copenhagen": -3,
+    "hanging_re": "hanging|toes-to-bar",
+    "hanging_week_max": 1,
+    "hanging_over_week": -5,
+    "refs": [
+     "R4-LIB-01",
+     "R4-LIB-02",
+     "R2-SES-03",
+     "CAT-05"
+    ],
+    "status": "approved rule (R4-LIB-01: his live exercises are the template picks); PROPOSED: the two reference drills kept for the low-back opener, the exempt side plank, the weights"
+   },
+   "incline_first_hotspot_codes": [
+    "SHOULDER_SWIMMER"
+   ],
+   "shoulder_press": {
+    "codes": [
+     "SHOULDER_SWIMMER"
+    ],
+    "buckets": [
+     "RP_HPUSH",
+     "RP_VPUSH"
+    ],
+    "fixed_grip": -6,
+    "refs": [
+     "R3-ATH-01",
+     "R4-LIB-03"
+    ],
+    "status": "PROPOSED weight"
+   },
+   "chest_shoulders_single_b": {
+    "max_press_days": 2,
+    "refs": [
+     "R4-SES-05",
+     "VOL-16",
+     "R2-SES-05"
+    ],
+    "status": "PROPOSED reading (fix round 2): G-59 extended to the one B day of a 3-day athletic week"
+   },
+   "chest_shoulders_all_b": {
+    "families": [
+     "aesthetics"
+    ],
+    "when": "chest_capacity_under_start",
+    "refs": [
+     "R4-LIB-03",
+     "R4-SES-05",
+     "VOL-01"
+    ],
+    "status": "PROPOSED (fix round 2)"
+   },
+   "youth_level_exempt_re": "^(flat-db-bench-press|incline-db-bench-press|barbell-bench-press|machine-bench-press)$",
+   "refs": [
+    "R4-LIB-01",
+    "R4-SES-05",
+    "R4-LIB-03",
+    "CAT-05"
+   ],
+   "status": "PROPOSED (fix round 2): selection rules from the second coach-eye reviews of the 8 samples",
+   "circuit": {
+    "stand_in": {
+     "ISO_QUAD": {
+      "bucket": "RP_UKD",
+      "id_re": "^(front-foot-elevated-split-squat-lunge-ffe|stationary-lunge-split-squat|step-up-forward-and-lateral|reverse-lunge)$",
+      "why": "why.circuit_stand_in"
+     },
+     "ISO_LEG_FLEXION": {
+      "bucket": "RP_BHD",
+      "classes": [
+       "GLUTE_ISO"
+      ],
+      "also_buckets": [
+       "RP_UHD"
+      ],
+      "why": "why.circuit_stand_in"
+     },
+     "ISO_CHEST": {
+      "bucket": "RP_HPUSH",
+      "id_re": "(^|-)push-up",
+      "why": "why.circuit_stand_in",
+      "when": "no_candidate",
+      "not_home": true
+     },
+     "RP_VPULL": {
+      "bucket": "ISO_SIDE_REAR_DELT",
+      "classes": [
+       "ISO_REAR"
+      ],
+      "why": "why.circuit_hand_over",
+      "when": "no_vertical_pull",
+      "not_own": true
+     }
+    },
+    "lead_row_two_arm": -6,
+    "vpull_stand_in_loses": "swap.loses.vertical_pull",
+    "refs": [
+     "R4-SES-05",
+     "R4-LIB-01",
+     "R4-LIB-04",
+     "OT06"
+    ],
+    "status": "PROPOSED (fix round 2)"
+   },
+   "swap_notes": {
+    "enabled": true,
+    "core_same_function": true,
+    "refs": [
+     "R4-LIB-04"
+    ],
+    "status": "approved rule (R4-LIB-04); the wording table is PROPOSED"
+   },
+   "chest_slot_uni": {
+    "max_upper_target": 0.3,
+    "id_re": "^alternating-incline-db-bench-press",
+    "refs": [
+     "UNI-02",
+     "UNI-03"
+    ],
+    "status": "PROPOSED (fix round 2)"
+   },
+   "weighted_pull": {
+    "re": "^weighted-pull-up$",
+    "from_levels": [
+     "L3"
+    ],
+    "not_heavy": true,
+    "penalty": -8,
+    "refs": [
+     "CAT-05",
+     "R4-PRG-03",
+     "OBSERVED JUSTICE LEAGUE (strict pull-ups)"
+    ],
+    "status": "PROPOSED weight"
+   },
+   "pain_swap": {
+    "only_when_changed": true,
+    "refs": [
+     "R2-LIB-03",
+     "VOL-03"
+    ]
+   },
+   "swaps": {
+    "no_generic": true,
+    "pain_no_axial_high_levels": [
+     "L1"
+    ],
+    "pain_prefer_first": true,
+    "refs": [
+     "R4-LIB-04",
+     "R3-ATH-02",
+     "EQ-09"
+    ]
+   },
+   "small_kit_rows": {
+    "ids": [
+     "bent-over-db-or-kb-row-two-arm",
+     "chest-supported-row"
+    ],
+    "refs": [
+     "R4-LIB-01",
+     "PER-04"
+    ],
+    "status": "PROPOSED pending the coach's answer (STATUS open question 8): reference-tab rows as picks only when the kit holds no library two-arm row"
+   }
   }
  },
  "ordering": {
@@ -9068,7 +9794,6 @@
  },
  "supersets": {
   "triggers": {
-   "short_session": true,
    "l3_preference": true,
    "athlete_off_season": true,
    "l1_preference": true
@@ -9108,13 +9833,12 @@
    ],
    "refs": [
     "R2-SES-03"
-   ],
-   "when_over_time": true
+   ]
   },
   "bootcamp": {
    "circuits": 2,
    "stations": [
-    4,
+    3,
     6
    ],
    "rounds": [
@@ -9127,32 +9851,57 @@
    ],
    "transition_s": 15,
    "between_rounds_s": 90,
-   "session_min": [
-    35,
-    45
-   ],
    "round_counts_as_set": true,
    "stairway": {
     "work_s_start": 35,
     "work_s_max": 50,
     "work_s_step": 5,
     "rounds_start": 3,
-    "rounds_max_by_minutes": {
-     "30": 3,
-     "45": 3,
-     "60": 4,
-     "75": 5,
-     "90": 5
-    },
     "by_planned_steps": true,
-    "work_s_fine_step": 1
+    "work_s_fine_step": 1,
+    "rounds_by_level": {
+     "L1": 3,
+     "L2": 4,
+     "L3": 5
+    },
+    "rounds_status": "PROPOSED (V1, G-09): 3 / 4 / 5 rounds by level (PRG-03 \"3 to 5 rounds\"); was by session minutes"
    },
    "refs": [
     "PRG-03",
     "R2-SES-05",
     "R2-PER-03"
    ],
-   "status": "stairway in rounds and seconds PROPOSED"
+   "status": "stairway in rounds and seconds PROPOSED",
+   "x2": {
+    "order": {
+     "spine": true,
+     "same_group": 3,
+     "shared_helper": 1.5,
+     "iso_before_its_compound": 4,
+     "added_before_own_same_group": 5,
+     "compound_after_iso": 0.5,
+     "h_before_v": 10
+    },
+    "work_s_values": [
+     35,
+     40,
+     45,
+     50
+    ],
+    "rounds_late": {
+     "add": 1,
+     "last_weeks": 2
+    },
+    "refs": [
+     "PRG-03",
+     "OT06",
+     "ORD-04",
+     "UNI-11",
+     "CX-02",
+     "R4-PRG-01"
+    ],
+    "status": "PROPOSED (fix round 2): the order weights and the two-week round step"
+   }
   },
   "refs": [
    "ORD-05",
@@ -9189,11 +9938,12 @@
     "two_lower_compounds",
     "heavy_and_fatiguing_same_muscle"
    ],
-   "on_when": "needed_for_time",
+   "on_when": "person_choice",
    "pref_key": "superset_recommendations",
    "refs": [
     "R3-SES-02",
-    "ORD-05"
+    "ORD-05",
+    "CT-01"
    ],
    "status": "recommendation approved (R3-SES-02); pair list PROPOSED"
   }
@@ -9524,13 +10274,25 @@
  "cycles": {
   "start_multiplier": 1.05,
   "rounding": "half_up",
-  "cap_add": 1,
-  "cap_max_nonpriority": 25,
-  "cap_max_priority": 30,
+  "next_block": {
+   "multiplier": {
+    "numerator": 105,
+    "denominator": 100
+   },
+   "min_whole_sets": 1,
+   "never_above_top": true,
+   "at_top": "sets_stay_load_and_reps_progress",
+   "refs": [
+    "R4-PRG-04",
+    "CX-03"
+   ],
+   "status": "approved (R4-PRG-04): about 5 % above the last block's start, whole sets, never above the level's top; PROPOSED detail: at least one whole set while below the top"
+  },
   "same_start_if": [
    "last_block_not_finished"
   ],
   "refs": [
+   "R4-PRG-04",
    "R2-VOL-06"
   ]
  },
@@ -9634,6 +10396,24 @@
     "R2-PER-07"
    ],
    "status": "PROPOSED (F1, E-91): the back-off dose (planned RIR + 1, at least 2)"
+  },
+  "x1": {
+   "tested_lift_first": true,
+   "lower_test_needs": {
+    "buckets": [
+     "RP_BKD",
+     "RP_BHD"
+    ],
+    "load_ceilings": [
+     "high"
+    ]
+   },
+   "refs": [
+    "R2-PER-07",
+    "ORD-02",
+    "R2-SES-01"
+   ],
+   "status": "fix round 1 (samples 01 / 02): R2-PER-07 the test replaces the top set and is done fresh (tested lift first in the strength block, PROPOSED order); a rep max is taken on the week's counted spine lift or a lift with a high load ceiling, never on a back extension (PROPOSED)"
   }
  },
  "warmup": {
@@ -9693,6 +10473,15 @@
     "ORD-08"
    ],
    "status": "PROPOSED (fix round 2 / F3)"
+  },
+  "x1": {
+   "balance_from_older_only": true,
+   "refs": [
+    "R3-ATH-02",
+    "ORD-08",
+    "R4-LIB-01"
+   ],
+   "status": "fix round 1 (sample 08 minor): the balance and reactive-stepping warm-up is the 60+ default; a 50-59 court player keeps the mobility / drills prep"
   }
  },
  "core_block": {
@@ -9725,7 +10514,15 @@
    "CAT-08",
    "GEN-08",
    "R2-SES-03"
-  ]
+  ],
+  "x2": {
+   "opener_effort_key": "effort.core_opener",
+   "refs": [
+    "R2-SES-03",
+    "ATH-11"
+   ],
+   "status": "approved rule (R2-SES-03: 2 exercises x 2 sets, short of failure, as a warm-up)"
+  }
  },
  "template_select": {
   "variant_order": [
@@ -9765,7 +10562,8 @@
    {
     "id": "V3",
     "key": "check.v3_short_athletes",
-    "severity": "warn"
+    "severity": "error",
+    "v05": "no time fitting in the plan: no session length, no minute limit, no time check, no time offers (CT-01, R4-SES-01)"
    },
    {
     "id": "V4",
@@ -9815,7 +10613,8 @@
    {
     "id": "V13",
     "key": "check.v13_caps",
-    "severity": "error"
+    "severity": "error",
+    "v05": "session size by exercise count: a generated day holds at most the range maximum (R4-SES-02); no minutes are read anywhere"
    },
    {
     "id": "V14",
@@ -9825,7 +10624,8 @@
    {
     "id": "V15",
     "key": "check.v15_step",
-    "severity": "error"
+    "severity": "error",
+    "v05": "every trained group reaches its final sets in the last week, at most one week early, and never sits under its weekly schedule (CX-01, R4-PRG-01)"
    },
    {
     "id": "V16",
@@ -9855,17 +10655,20 @@
    {
     "id": "V21",
     "key": "check.v21_release",
-    "severity": "error"
+    "severity": "error",
+    "v05": "the liability gate: an ok plan carries a release stamp that says the terms and the release were accepted, of the version its role and age ask for, and the release line can be printed in English and Spanish with its link (R4-SCP-01, R4-SCP-02)"
    },
    {
     "id": "V22",
     "key": "check.v22_floor",
-    "severity": "error"
+    "severity": "error",
+    "v05": "floor of 10 from 3 training days, counted on all days; on 2 days every big group at 6 or more (R4-SES-03); a group the template cannot hold is said"
    },
    {
     "id": "V23",
     "key": "check.v23_exercises_per_group",
-    "severity": "error"
+    "severity": "error",
+    "v05": "1-4 exercises per muscle group on a full-body day (R4-SES-05: the template gives each group its exercises)"
    },
    {
     "id": "V24",
@@ -9891,12 +10694,61 @@
    {
     "id": "V28",
     "key": "check.v28_laterality_share",
-    "severity": "warn"
+    "severity": "warn",
+    "v05": "the bilateral share is read on the stations the laterality dial may move: the slots of a gym A / B / C or push / pull / legs day keep the laterality the coach's template names (R4-SES-05)"
    },
    {
     "id": "V29",
     "key": "check.v29_push_pull",
     "severity": "warn"
+   },
+   {
+    "id": "V30",
+    "key": "check.v30_template_skeleton",
+    "severity": "error",
+    "v05": "a day built to one of the coach's skeletons holds his slots in his order; on a gym A / B / C or push / pull / legs day a two-leg slot holds a two-leg lift and a single-leg slot a single-leg lift (R4-SES-05)"
+   },
+   {
+    "id": "V31",
+    "key": "check.v31_addons_optional",
+    "severity": "error",
+    "v05": "an optional add-on (or a proposed record) is never a template pick; wall balls and sled pushes only in HYROX station circuits and the CrossFit-style class WOD (R4-LIB-01)"
+   },
+   {
+    "id": "V32",
+    "key": "check.v32_incline_first",
+    "severity": "warn",
+    "v05": "bodybuilding and general-population plans bias incline pressing in the vertical / mid-range push slot when the kit holds an incline press (R4-LIB-03)"
+   },
+   {
+    "id": "V33",
+    "key": "check.v33_video_search",
+    "severity": "error",
+    "v05": "no third-party video link anywhere in the plan: a YouTube search built from the exercise name, or the coach's own video (R4-LIB-05)"
+   },
+   {
+    "id": "V34",
+    "key": "check.v34_progression_rule",
+    "severity": "error",
+    "v05": "reps and load progress as a rule the person applies: every set-and-rep lift carries its rule and no item promises a number per week (R4-PRG-03)"
+   },
+   {
+    "id": "V35",
+    "key": "check.v35_acceleration_note",
+    "severity": "error",
+    "v05": "a week that adds more than about 15 % for a muscle group carries the acceleration note (R4-PRG-02)"
+   },
+   {
+    "id": "V36",
+    "key": "check.v36_easy_to_remove",
+    "severity": "error",
+    "v05": "nothing is removed automatically: the day only names what is easiest to remove, never the core block, a main lift or the first athletic station (R4-SES-04)"
+   },
+   {
+    "id": "V37",
+    "key": "check.v37_carry_dose",
+    "severity": "error",
+    "v05": "carries and sled work: 2-4 trips of 20-40 m or 20-40 s, no muscle-set credit (R4-LIB-02)"
    }
   ],
   "hard": [
@@ -9988,7 +10840,192 @@
     "id": "H22",
     "key": "check.h22_no_checkin_no_change"
    }
-  ]
+  ],
+  "v05": {
+   "by_rule": {
+    "no_time_fitting": [
+     "V3"
+    ],
+    "template_skeleton": [
+     "V30"
+    ],
+    "exercise_count": [
+     "V13"
+    ],
+    "final_target_reached": [
+     "V15",
+     "H10"
+    ],
+    "arrival_one_week_early_at_most": [
+     "V15",
+     "H10"
+    ],
+    "floor_from_3_days": [
+     "V22",
+     "H17"
+    ],
+    "two_day_rule": [
+     "V22",
+     "H17"
+    ],
+    "addons_optional_only": [
+     "V31"
+    ],
+    "incline_first": [
+     "V32"
+    ],
+    "liability_gate": [
+     "V21",
+     "H20"
+    ],
+    "no_video_urls": [
+     "V33"
+    ],
+    "progression_rule": [
+     "V34"
+    ],
+    "acceleration_note": [
+     "V35"
+    ],
+    "nothing_removed_automatically": [
+     "V30",
+     "V36"
+    ],
+    "carry_dose": [
+     "V37"
+    ]
+   },
+   "skeleton": {
+    "pattern_of_bucket": {
+     "RP_BKD": "knee",
+     "RP_UKD": "knee",
+     "ISO_QUAD": "knee",
+     "RP_BHD": "hip",
+     "RP_UHD": "hip",
+     "ISO_LEG_FLEXION": "hip",
+     "RP_HPULL": "pull",
+     "RP_VPULL": "pull",
+     "RP_HPUSH": "push",
+     "RP_VPUSH": "push",
+     "ISO_CHEST": "push"
+    },
+    "lift_blocks": [
+     "strength",
+     "accessories"
+    ],
+    "ordered_bucket_prefix": "RP_",
+    "complete_in_block_types": [
+     "stairway"
+    ],
+    "not_required_buckets": [
+     "FOCUS"
+    ],
+    "absent_ok_whys": [
+     "why.left_out_exclusion",
+     "why.pain_cut",
+     "why.play_spacing",
+     "why.older_default"
+    ],
+    "refs": [
+     "R4-SES-05",
+     "R4-SES-04"
+    ],
+    "status": "approved rule (R4-SES-05, R4-SES-04); INFERRED: the reasons a station may be absent are the ones the plan already says on the day",
+    "laterality_of_bucket": {
+     "RP_BKD": "bilateral",
+     "RP_BHD": "bilateral",
+     "RP_UKD": "unilateral",
+     "RP_UHD": "unilateral"
+    },
+    "laterality_skeleton_prefixes": [
+     "gym_",
+     "ppl_",
+     "athletic_",
+     "class_"
+    ],
+    "unilateral_lateralities": [
+     "unilateral",
+     "alternating"
+    ],
+    "laterality_exempt_flags": [
+     "pain_swap",
+     "pattern_gap",
+     "no_candidate"
+    ],
+    "partner": {
+     "skeleton_prefixes": [
+      "class_",
+      "gym_A",
+      "gym_B",
+      "athletic_A",
+      "athletic_B"
+     ],
+     "knee": [
+      "RP_BKD",
+      "RP_UKD"
+     ],
+     "hip": [
+      "RP_BHD",
+      "RP_UHD"
+     ],
+     "pull": [
+      "RP_HPULL",
+      "RP_VPULL"
+     ],
+     "push": [
+      "RP_HPUSH",
+      "RP_VPUSH"
+     ],
+     "refs": [
+      "UNI-11",
+      "ORD-06",
+      "R4-SES-05"
+     ],
+     "status": "approved rule (R4-SES-05), checked on the days that name a skeleton (fix round 2)"
+    }
+   },
+   "incline": {
+    "majority": 0.5,
+    "not_roles": [
+     "work"
+    ],
+    "not_block_kinds": [
+     "circuit"
+    ],
+    "not_flags": [
+     "pain_swap"
+    ],
+    "refs": [
+     "R4-LIB-03",
+     "VOL-03"
+    ],
+    "status": "approved rule (R4-LIB-03 \"bias incline pressing ... overhead stays, we should have that variability\"); PROPOSED: read as at least half of the slot's picks over a training block"
+   },
+   "video": {
+    "forbidden_re": "youtu\\.be/|youtube\\.com/(watch|shorts|embed)|vimeo\\.com|instagram\\.com|tiktok\\.com|facebook\\.com",
+    "refs": [
+     "R4-LIB-05"
+    ]
+   },
+   "refs": [
+    "CT-01",
+    "R4-SES-01",
+    "R4-SES-02",
+    "R4-SES-03",
+    "R4-SES-04",
+    "R4-SES-05",
+    "R4-PRG-01",
+    "R4-PRG-02",
+    "R4-PRG-03",
+    "R4-LIB-01",
+    "R4-LIB-02",
+    "R4-LIB-03",
+    "R4-LIB-05",
+    "R4-SCP-01",
+    "R4-SCP-02",
+    "CX-01"
+   ]
+  }
  },
  "legal": {
   "disclaimer_url": {
@@ -9998,11 +11035,71 @@
   "owner": "Lalo Vera / Blaze Camp / BFit Studios Corp.",
   "nothing_stored": true,
   "refs": [
-   "R3-GEN-01"
+   "R3-GEN-01",
+   "R4-SCP-01",
+   "R4-SCP-02"
   ],
-  "status": "COACH-R3 R3-GEN-01 approved; release text DRAFT for attorney review",
+  "status": "COACH-R3 R3-GEN-01 and COACH-R4 R4-SCP-01 / R4-SCP-02 approved; release text DRAFT for attorney review",
   "parq_url": "https://eparmedx.com/",
-  "parq_status": "COACH-R3 R3-GEN-01 (approved: a link to the official PAR-Q+; spec health.parq_link, RESEARCH eparmedx.com 2026-10-08)"
+  "parq_status": "COACH-R3 R3-GEN-01 (approved: a link to the official PAR-Q+; spec health.parq_link, RESEARCH eparmedx.com 2026-10-08)",
+  "gate": {
+   "required": true,
+   "field": "release.accepted",
+   "before": "plan_generated",
+   "applies_to": "everyone",
+   "without_it": {
+    "status": "invalid",
+    "error": "release_missing",
+    "weeks": 0
+   },
+   "stamp": {
+    "field": "release_stamp",
+    "accepted": true
+   },
+   "refs": [
+    "R4-SCP-01",
+    "R4-SCP-02",
+    "R3-GEN-01",
+    "R2-GEN-03"
+   ],
+   "status": "approved (R4-SCP-02 \"they need to click it before the plan shows\"; R4-SCP-01 \"all the plans should release liability before and after it gets kicked out\")"
+  },
+  "release_line": {
+   "label_key": "ui.plan.own_risk_label",
+   "link_key": "ui.plan.own_risk_link",
+   "by_version": {
+    "release.client": "ui.plan.release_line",
+    "release.coach": "ui.plan.release_line_coach",
+    "release.minor": "ui.plan.release_line_minor"
+   },
+   "short_key": "ui.plan.release_line_short",
+   "footer_key": "ui.plan.release_footer",
+   "no_plan_key": "ui.plan.own_risk",
+   "positions": [
+    "top",
+    "bottom"
+   ],
+   "views": [
+    "full",
+    "overview",
+    "block",
+    "week",
+    "day"
+   ],
+   "langs": [
+    "en",
+    "es"
+   ],
+   "files": {
+    "en": "DISCLAIMER.md",
+    "es": "DISCLAIMER.es.md"
+   },
+   "refs": [
+    "R4-SCP-01",
+    "R4-SCP-02"
+   ],
+   "status": "approved rule (R4-SCP-02 \"outputted in their program somewhere at the bottom or at the top: you've released liability\"); PROPOSED wording, a draft for attorney review like DISCLAIMER.md"
+  }
  },
  "r3_approved": [
   "R3-VOL-01",
@@ -10031,10 +11128,116 @@
   "day_title_from_lead_lift": true,
   "video_search_english": true,
   "refs": [
+   "CT-01",
+   "OBSERVED MASTER_MODEL EXAMPLE CROSSFIT SPLIT A4:A7",
+   "R2-GEN-02",
    "R2-GEN-08",
    "R3-SES-02",
-   "OBSERVED MASTER_MODEL EXAMPLE CROSSFIT SPLIT A4:A7"
+   "R4-LIB-04",
+   "R4-LIB-05",
+   "R4-PRG-02",
+   "R4-PRG-03",
+   "R4-SCP-01",
+   "R4-SCP-02",
+   "R4-SCP-03",
+   "R4-SES-01",
+   "R4-SES-04"
   ],
-  "status": "PROPOSED (fix round 2 / F3): wording of the new lines"
+  "status": "PROPOSED (fix round 2 / F3): wording of the new lines",
+  "video": {
+   "kind": "search",
+   "search_url": "https://www.youtube.com/results?search_query=",
+   "third_party_links": false,
+   "copy_name": true,
+   "name_lang": "en",
+   "refs": [
+    "R4-LIB-05"
+   ],
+   "status": "approved (R4-LIB-05): no third-party video links; a YouTube search built from the exercise name, and the exact name shown for copying"
+  },
+  "profile_confidence": {
+   "labels": [
+    "confirmed_by_coach",
+    "similar_sport",
+    "proposed"
+   ],
+   "shown_on_plan": false,
+   "refs": [
+    "R4-SCP-03"
+   ]
+  },
+  "progression": {
+   "section": true,
+   "per_item": true,
+   "promised_numbers": false,
+   "keys": {
+    "double_progression": "ui.plan.progress.double",
+    "load_when_all_sets_done": "ui.plan.progress.fixed",
+    "written_reps": "ui.plan.progress.written"
+   },
+   "per_side_suffix": "_side",
+   "rir_default": "1-2",
+   "refs": [
+    "R4-PRG-03",
+    "CX-02",
+    "CX-03",
+    "R4-PRG-04"
+   ],
+   "status": "approved (R4-PRG-03): \"3 sets of 8-12. When you hit 12 on every set with 1-2 reps left in the tank, add weight next time and start again at 8.\" Never a promised number per week. PROPOSED: the wording of the fixed-rep and written-rep (pyramid) lines"
+  },
+  "acceleration": {
+   "mark": "↑",
+   "above": 0.15,
+   "refs": [
+    "R4-PRG-02"
+   ],
+   "status": "approved (R4-PRG-02): no hard limit, a clear note; PROPOSED: the mark"
+  },
+  "estimate": {
+   "information_only": true,
+   "range_factor": [
+    0.9,
+    1.1
+   ],
+   "round_to_min": 5,
+   "refs": [
+    "CT-01",
+    "R4-SES-01"
+   ],
+   "status": "approved (R4-SES-01 \"an estimate like about 60-75 minutes on each day, as information only\"); PROPOSED: the width of the range (10 % each way, rounded to 5 min)"
+  },
+  "easy_to_remove": {
+   "max_listed": 6,
+   "kind_keys": {
+    "conditioning_finisher": "ui.plan.easy_kind.conditioning_finisher",
+    "extra_athletic_station": "ui.plan.easy_kind.extra_athletic_station",
+    "small_muscle_accessory": "ui.plan.easy_kind.small_muscle_accessory",
+    "bonus_exercise": "ui.plan.easy_kind.bonus_exercise"
+   },
+   "refs": [
+    "R4-SES-04"
+   ],
+   "status": "approved (R4-SES-04): the person picks; the plan only names the easiest"
+  },
+  "views": {
+   "list": [
+    "full",
+    "overview",
+    "block",
+    "week",
+    "day"
+   ],
+   "macro": [
+    "block",
+    "week",
+    "day"
+   ],
+   "weekly_sets_by_week": true,
+   "refs": [
+    "R2-GEN-02",
+    "CX-04"
+   ],
+   "status": "approved direction (R2-GEN-02); PROPOSED: the layout of each table"
+  }
  }
 }

@@ -1,8 +1,8 @@
 # Method: how the model was built and checked
 
-The model belongs to coach Lalo Vera. The method exists to keep it his. Four things do that work. Every rule carries an **evidence label** that says where it came from. Sources are ranked in a fixed **authority order**, with his newest answer on top. Every document was checked by a second reader whose only job was to find errors. And every one of his answers was traced to the exact place it is applied, in a **coverage matrix**. The writing, checking and tracing were done by AI agents run from the scripts in `workflows/`. He decided the rules, through three rounds of questions. This page explains each part, so you can judge how far to trust any statement in the repo and so you can follow the same method when you change something.
+The model belongs to Coach Lalo (Gerardo Vera). It is his coaching experience and his intellectual property (R4-REL-03). The method exists to keep it his. Four things do that work. Every rule carries an **evidence label** that says where it came from. Sources are ranked in a fixed **authority order**, with his newest answer on top. Every document was checked by a second reader whose only job was to find errors. And every one of his answers was traced to the exact place it is applied, in a **coverage matrix**. The writing, checking and tracing were done by AI agents run from the scripts in `workflows/`. He decided the rules, through three rounds of questions. This page explains each part, so you can judge how far to trust any statement in the repo and so you can follow the same method when you change something.
 
-> **How to read this page.** Ids such as `VOL-17` point to his answers: no prefix is round 1, `R2-` is round 2, `R3-` is round 3. **The team** means the people working with the coach plus the AI agents they ran. An **agent** is one AI worker with one task. The **master document** is [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md), the one file that explains the whole model. The **spec** is [generator_spec_v1.json](../../generator_spec_v1.json), the same model as data for a program to read. Other terms are in the [glossary](../05-reference/glossary.md).
+> **How to read this page.** Ids such as `VOL-17` point to his answers: no prefix is round 1, `R2-` is round 2, `R3-` is round 3, `R4-` is round 4, `CT-01` is his clarification on session time and `CX-01` to `CX-04` are his clarifications on progression and editing. **The team** means the people working with the coach plus the AI agents they ran. An **agent** is one AI worker with one task. The **master document** is [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md), the one file that explains the whole model. The **spec** is [generator_spec_v1.json](../../generator_spec_v1.json), the same model as data for a program to read. Other terms are in the [glossary](../05-reference/glossary.md).
 
 ## The rule
 
@@ -34,8 +34,11 @@ An **evidence label** is a short tag on a rule that says where the rule came fro
 
 | Label | Meaning | Weight |
 |---|---|---|
-| `COACH-R3 <id>` | His round-3 answer, for example `COACH-R3 R3-VOL-04` | Highest |
-| `COACH-R2 <id>` | His round-2 answer | His rule, unless round 3 changed it |
+| `COACH-R4 <id>` | His round-4 answer, for example `COACH-R4 R4-SES-05` | Highest |
+| `COACH-CT CT-01` | His clarification on session time (2026-10-10) | Highest, on that subject only |
+| `COACH-CX <id>` | His clarifications on progression and editing, `CX-01` to `CX-04` (2026-10-10) | His rule on those subjects, unless round 4 refined it |
+| `COACH-R3 <id>` | His round-3 answer, for example `COACH-R3 R3-VOL-04` | His rule, unless CX, CT-01 or round 4 changed it |
+| `COACH-R2 <id>` | His round-2 answer | His rule, unless a later answer changed it |
 | `COACH-ANSWER <id>` | His round-1 answer, for example `COACH-ANSWER VOL-07` | His rule, unless a later round changed it |
 | `COACH-CHAT` | Something he said in conversation | His meaning. A questionnaire answer wins where they differ |
 | `APPROVED` | A proposal he marked RIGHT. Always shown with its id | His rule |
@@ -56,12 +59,14 @@ The pages in this `docs/` folder use a lighter form: the answer id in brackets, 
 
 | Rank | Source | File | Cited as |
 |---|---|---|---|
-| 1 (newest) | Round-3 answers, 13 | [coach_answers_round3.md](../../coach_answers_round3.md) | `R3-…` |
-| 2 | Round-2 answers, 45 plus 2 left over from round 1 | [coach_answers_round2.md](../../coach_answers_round2.md) | `R2-…`, `LIB-10`, `LIB-12` |
-| 3 | Round-1 answers, 140 questions | [coach_answers_full.md](../../coach_answers_full.md) | `CAT`, `UNI`, `VOL`, `PER`, `ATH`, `ORD`, `EQ`, `GEN`, `LIB`, `PRG`, `FIX` + number |
-| 4 | What he said in conversation | [coach_chat_statements.md](../../coach_chat_statements.md), [coach_answers.md](../../coach_answers.md) | conversation |
-| 5 | Facts read from his sheets | [raw/](../../raw/), [dumps/](../../dumps/) | `OBSERVED`, with tab and cell |
-| 6 | Team work | [synthesis/](../../synthesis/), the master, the spec | `INFERRED`, `SCIENCE`, `PROPOSED` |
+| 1 (newest) | Round-4 answers, 20, and his clarification on session time | [coach_answers_round4.md](../../coach_answers_round4.md), [coach_answers_time_2026-10-10.md](../../coach_answers_time_2026-10-10.md) | `R4-…`, `CT-01` |
+| 2 | His clarifications on progression and editing. They win only on those subjects | [coach_answers_codex_2026-10-10.md](../../coach_answers_codex_2026-10-10.md) | `CX-01` to `CX-04` |
+| 3 | Round-3 answers, 13 | [coach_answers_round3.md](../../coach_answers_round3.md) | `R3-…` |
+| 4 | Round-2 answers, 45 plus 2 left over from round 1 | [coach_answers_round2.md](../../coach_answers_round2.md) | `R2-…`, `LIB-10`, `LIB-12` |
+| 5 | Round-1 answers, 140 questions | [coach_answers_full.md](../../coach_answers_full.md) | `CAT`, `UNI`, `VOL`, `PER`, `ATH`, `ORD`, `EQ`, `GEN`, `LIB`, `PRG`, `FIX` + number |
+| 6 | What he said in conversation | [coach_chat_statements.md](../../coach_chat_statements.md), [coach_answers.md](../../coach_answers.md) | conversation |
+| 7 | Facts read from his sheets | [raw/](../../raw/), [dumps/](../../dumps/) | `OBSERVED`, with tab and cell |
+| 8 | Team work | [synthesis/](../../synthesis/), the master, the spec | `INFERRED`, `SCIENCE`, `PROPOSED` |
 
 **How a verdict is read.**
 
@@ -127,7 +132,7 @@ Most model files in [synthesis/](../../synthesis/) end with one or more verifica
 
 **Cross-file decisions.** Where two model documents disagreed, the master picked one and recorded both sides. The spec holds 38 such rows under `_meta.integration_decisions`. The master shows them in [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) §0.3.
 
-**Retired ideas.** Each round ended with a search for ideas he had rejected: the weekly percentage by muscle size, the 0.5 helper credit, bands and chains, a sex field, lifestyle questions, deloads inside a block, and, after round 3, check-ins, rear delts with sets and a floor of their own, and a mandatory easy week. A hit outside a "retired" note is a bug. The list is in [AGENTS.md](../../AGENTS.md) and on [what-he-rejected.md](../01-philosophy/what-he-rejected.md).
+**Retired ideas.** Each round ended with a search for ideas he had rejected: the weekly percentage by muscle size, the 0.5 helper credit, bands and chains, a sex field, lifestyle questions, deloads inside a block, and, after round 3, check-ins, rear delts with sets and a floor of their own, and a mandatory easy week. After CT-01, CX and round 4 the list grew again: fitting a plan to session minutes, a hard cap on the weekly step, "sets must rise every week", dropping groups automatically, a proposed exercise as a template pick, and third-party video links. A hit outside a "retired" note is a bug. The list is in [AGENTS.md](../../AGENTS.md) and on [what-he-rejected.md](../01-philosophy/what-he-rejected.md).
 
 ## Coverage matrices
 
@@ -151,7 +156,7 @@ The three wrong items found in round 1 show what the audit is for:
 
 ## The workflow scripts
 
-A **workflow** is a script that runs many agents in a fixed order. The eight scripts that built this repo are kept in [workflows/](../../workflows/) as a record of what each agent was told. They are plain JavaScript that calls a few helpers from the runner: `agent` starts one agent with a written task, `parallel` runs several at once, `pipeline` sends each piece of work through a writer and then a checker, and `phase` names the stage.
+A **workflow** is a script that runs many agents in a fixed order. The ten scripts in [workflows/](../../workflows/) are kept as a record of what each agent was told. Nine of them ran. One, the planner build, was written and never run on the engine. They are plain JavaScript that calls a few helpers from the runner: `agent` starts one agent with a written task, `parallel` runs several at once, `pipeline` sends each piece of work through a writer and then a checker, and `phase` names the stage.
 
 | Script | When | Phases | What it produced |
 |---|---|---|---|
@@ -161,8 +166,10 @@ A **workflow** is a script that runs many agents in a fixed order. The eight scr
 | `v1_1_round2_sports.js` | 2026-10-08 | Round 2, Sports, Merge, Verify, Master, Phase 0 | Documents at v1.1; [synthesis/sports/](../../synthesis/sports/); 127 profiles; master v1.1; `coverage_matrix_round2.md`; the round-3 questions |
 | `phase0_engine.js` | 2026-10-08 to 10-09 | Contracts, Build, Integrate, Coach review, Fix | [engine/](../../engine/), [model/](../../model/), [tests/](../../tests/), [tools/](../../tools/), the 8 sample intakes and plans |
 | `v1_2_engine_v0_4.js` | 2026-10-09 | Model v1.2, Open-source docs, Engine fixes, Coach review, Fix loop | Documents at v1.2; master v1.2; `coverage_matrix_round3.md`; `AGENTS.md`, `llms.txt`, `CONTRIBUTING.md`, the adding-exercises guide; engine 0.4 |
-| `planner_design.js` | 2026-10-09 | Diagnose, Design panel, Judge, Spec, Benchmark | [design/](../../design/): the diagnosis, the algorithm research, the rules written as constraints, the judges' files. Not finished on 2026-10-09: see [roadmap.md](roadmap.md) |
+| `planner_design.js` | 2026-10-09 to 10-10 | Diagnose, Design panel, Judge, Spec, Benchmark | [design/](../../design/): the diagnosis, the algorithm research, the rules written as constraints, three designs, the judges' files, the planner specification, the benchmark and the engine 0.4 baseline. The planner itself was parked on 2026-10-11: see [timeline.md](timeline.md) section 23 |
+| `planner_build.js` | 2026-10-10 | (not run) | The build workflow for the large planner. Parked with it. Do not run it |
 | `docs_guidance.js` | 2026-10-09 | Write, Check, Map | The guidance folders in `docs/` |
+| `engine_v05.js` | 2026-10-11 | Engine v0.5, Coach review, Model v1.3 | Engine 0.5 in four packages; three coach-eye reviews of the 8 samples with two fix rounds; the master at v1.3, the round-4 decision records and the release documents |
 
 **Rules the scripts gave every agent.**
 
@@ -187,9 +194,10 @@ The engine followed the same idea with code tools.
 | Validators | Checks the engine runs on its own plan: his hard rules and the model's limits | [engine/validate.mjs](../../engine/validate.mjs) |
 | Tests | One test for each hard rule and for each review issue that was fixed | [tests/](../../tests/) |
 | Sweep | The engine run on 1,500 random intakes plus every sport and every activity | [tools/sweep.mjs](../../tools/sweep.mjs) |
-| Coach-eye review | One AI reviewer per sample plan, reading it the way the coach would and grading it | [samples/REVIEW_LOG.md](../../samples/REVIEW_LOG.md) |
+| Benchmark | 94 test intakes plus the 8 samples, scored by a checker written separately from the engine | [design/bench/](../../design/bench/) |
+| Coach-eye review | One AI reviewer per sample plan, reading it the way the coach would and grading it | [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md) (engine 0.5), [samples/REVIEW_LOG.md](../../samples/REVIEW_LOG.md) (engine 0.3 and 0.4) |
 
-**What this taught.** On 2026-10-09 no error-level check failed on any swept intake, and the reviewers still graded the plans C- to D (D to B- after the first round of fixes). The validators had been changed together with the engine, so they agreed with it. The lesson for the rebuild: the checker must be written separately from the planner, straight from his rules. See [ADR-048](../04-decisions/adr-048-optimizer-rebuild-of-the-planner.md).
+**What this taught.** On 2026-10-09 no error-level check failed on any swept intake, and the reviewers still graded the plans C- to D (D to B- after the first round of fixes). The validators had been changed together with the engine, so they agreed with it. The lesson: the checker must be written separately from the engine, straight from his rules. See [ADR-048](../04-decisions/adr-048-optimizer-rebuild-of-the-planner.md). Engine 0.5 kept that lesson. Its benchmark scorer lives apart from the engine in `design/bench/`, and the sample plans are still read against his real programs after every change. Even so, where the scorer and the engine disagreed during v0.5, the scorer was sometimes the one corrected, and each such change is listed in `samples/STATUS_v0.5.md` so a reader can discount it.
 
 ## What the method does not guarantee
 

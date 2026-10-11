@@ -2,7 +2,7 @@
 
 This page explains how the Blaze Camp model trains athletes. The sport's **ground-contact time** decides how much of the jump and throw work is plyometric (short, bouncy contacts) and how much is ballistic (one big push). Jumps are taught in three **Receive-Create stages**: land, land and go, repeat. Everyone in athletic training gets **Olympic lifts**, at their own level. Medballs stay light and fast. Change-of-direction drills are for every athlete. The **season** decides the volume: most in the off-season, about 60 % in the pre-season, about two short lifting days in season. The page gives each rule, the coach's reason in his own words, and the file and JSON key where it lives.
 
-> **How to read this page.** A rule with an answer id was decided by coach Lalo Vera. Ids with no prefix (`ATH-01`, `CAT-10`) are round 1 (`coach_answers_full.md`). `R2-` is round 2 (`coach_answers_round2.md`). `R3-` is round 3 (`coach_answers_round3.md`), the newest. A later round wins. "chat" means something he said in conversation (`coach_chat_statements.md`, `coach_answers.md`). "Approved" means he marked our proposal RIGHT, so the wording is ours and the decision is his. **PROPOSED** means the team designed it and he has not confirmed it. His full answers on this topic: [../03-coach-answers/athletes-and-sports.md](../03-coach-answers/athletes-and-sports.md).
+> **How to read this page.** A rule with an answer id was decided by coach Lalo Vera. Ids with no prefix (`ATH-01`, `CAT-10`) are round 1 (`coach_answers_full.md`). `R2-` is round 2 (`coach_answers_round2.md`). `R3-` is round 3 (`coach_answers_round3.md`). A later round wins. "chat" means something he said in conversation (`coach_chat_statements.md`, `coach_answers.md`). "Approved" means he marked our proposal RIGHT, so the wording is ours and the decision is his. **PROPOSED** means the team designed it and he has not confirmed it. His full answers on this topic: [../03-coach-answers/athletes-and-sports.md](../03-coach-answers/athletes-and-sports.md). **Since model v1.3** there are newer answers too: round 4 (`R4-`, `coach_answers_round4.md`) and two clarifications of 2026-10-10 (`CT-01` on session time, `CX-01..04` on progression and editing). They win on their subjects.
 
 Related pages: [sports.md](sports.md) (every sport and its numbers), [stay-athletic-and-active.md](stay-athletic-and-active.md) (people who play for fun), [special-populations.md](special-populations.md) (older adults, youth, pain), [swimming.md](swimming.md) (a full worked example), [sessions.md](sessions.md), [bilateral-unilateral.md](bilateral-unilateral.md), [plans-and-calendar.md](plans-and-calendar.md), [testing.md](testing.md), [categories.md](categories.md). Terms: [../05-reference/glossary.md](../05-reference/glossary.md).
 
@@ -312,7 +312,7 @@ Other rules: any machine works (run, bike, rower, ski erg), tracked by time, dis
 
 ## 9. What an athlete's session looks like
 
-**Rule.** Power comes before strength, and core comes first of all. A field athlete far from competition can have up to 12 exercises plus 2 core exercises.
+**Rule.** Power comes before strength, and core comes first of all. A field athlete far from competition can have up to 12 exercises, not counting the warm-up and the 2 core exercises (R4-SES-02). The lifts after the athletic block follow his A / B template (R4-SES-05).
 
 | Order | Block | What is in it | Decided by |
 |---|---|---|---|
@@ -321,10 +321,10 @@ Other rules: any machine works (run, bike, rower, ski erg), tracked by time, dis
 | 2 | Jumps and throws | Plyometric or ballistic by the sport's share, at the stage of the week. | sections 2 and 3 |
 | 3 | Change of direction, sprints | By turn angle; the speed order of section 7. | ATH-06, LIB-21 |
 | 4 | Olympic lift | Before any strength work. | ORD-03, ATH-10 |
-| 5 | Main strength lift and its partner | A knee-dominant lift (squat and lunge family) with a pull. A hip-dominant lift (hinge family: deadlifts, hip thrusts) with a push. | ORD-02, ORD-06, UNI-11 |
-| 6 | Accessories | 2-4 exercises for each muscle group trained that day. Calves: one exercise x 3 sets on every leg day. | R2-SES-05, R3-SES-01 |
+| 5 | Main strength lift and its partner | A knee-dominant lift (squat and lunge family) with a pull. A hip-dominant lift (hinge family: deadlifts, hip thrusts) with a push. On an athletic A day: row, squat, pulldown, lunge. On an athletic B day: press, hinge, vertical or incline press, single-leg hinge. | ORD-02, ORD-06, UNI-11, R4-SES-05 |
+| 6 | Accessories | The rest of the template: a leg extension or leg curl, a shoulder exercise. Athletic days carry no arm isolation (OBSERVED in his athletic tab). Calves: one exercise x 3 sets on every leg day. | R4-SES-05, R3-SES-01 |
 
-Session size, in his words, for an off-season field athlete: about 3 jump or ballistic exercises, 2 or 3 Olympic or power lifts, and about 4 resistance exercises, so "max maybe 12 different exercises" (VOL-08). Round 2 settled it as 12 exercises plus the 2-exercise core block (R2-SES-04). Round 3 settled the layout (R3-SES-01): most athletes use the **cross pattern** (a knee-dominant lift with a single-leg hip lift on the same day), which leaves room for 2 jump or throw stations and 1 Olympic lift. Size-focused and high-level athletes use his **same-pattern** athletic template, with 3-4 jump stations. He gave the order core, then jumps, then Olympic lifts, then resistance work (VOL-17). Where throws and change-of-direction drills sit between the jumps and the Olympic lift is the model's order: PROPOSED. A good session for an athlete lasts about an hour and a half, two hours at most (UNI-09).
+Session size, in his words, for an off-season field athlete: about 3 jump or ballistic exercises, 2 or 3 Olympic or power lifts, and about 4 resistance exercises, so "max maybe 12 different exercises" (VOL-08). Round 2 settled it as 12 exercises plus the 2-exercise core block (R2-SES-04). Round 3 settled the layout (R3-SES-01): most athletes use the **cross pattern** (a knee-dominant lift with a single-leg hip lift on the same day), which leaves room for 2 jump or throw stations and 1 Olympic lift. Size-focused and high-level athletes use his **same-pattern** athletic template, with 3-4 jump stations. He gave the order core, then jumps, then Olympic lifts, then resistance work (VOL-17). Where throws and change-of-direction drills sit between the jumps and the Olympic lift is the model's order: PROPOSED. Round 4 confirmed "up to 12" for field athletes in the off-season (R4-SES-02). He said a good session for an athlete lasts about an hour and a half, two hours at most (UNI-09); since 2026-10-10 that is background for the printed time estimate only. Session length is not asked and nothing is cut for time (CT-01, R4-SES-01).
 
 **Why.** On core:
 
@@ -443,6 +443,9 @@ The size of the cut for strikers (to about half to two thirds) and what "more ca
 | Switch off a day's core block | R3-SES-02 |
 | Remove or add exercises or whole blocks | R3-SES-02 |
 | Use the supersets the plan recommends to save time | R3-SES-02 |
+| Change the sets of any exercise, for a day or for chosen weeks | CX-02, CX-04 |
+| Add an optional add-on (a carry, sled work, extra joint care) | R4-LIB-01 |
+| Pick what to take away when a day is long; the plan lists what is easiest to remove | R4-SES-04 |
 | Ask for more or less cardio | R2-SES-06 |
 | Move the core block to another place in the session | ATH-11 |
 
@@ -496,4 +499,4 @@ These parts are the team's design. He has not confirmed them.
 | The master document | `BLAZE_CAMP_BRAIN.md` | §9 |
 | His answers | `coach_answers_round3.md`, `coach_answers_round2.md`, `coach_answers_full.md` | ids `R3-ATH-01..05`, `R2-ATH-01..08`, `ATH-01..13` |
 
-The engine in `engine/` and the compiled files in `model/` are being rebuilt. When they disagree with a coach answer, the coach answer wins.
+The engine in `engine/` (version 0.5) reads the compiled files in `model/`. The athletic layer is the part of the engine still most often short of a sport's weekly targets for jumps, throws, sprints and Olympic sets; the plan says so when it happens (`samples/STATUS_v0.5.md`). When the engine or the compiled files disagree with a coach answer, the coach answer wins.

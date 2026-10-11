@@ -4,9 +4,11 @@ A generated plan is a template. The person or their coach can switch off a day's
 
 | | |
 |---|---|
-| **Status** | Accepted (the options). Mechanism PROPOSED. |
+| **Status** | Accepted, widened on 2026-10-10 and in round 4: sets for any day or week can be edited too (CX-02, CX-04), and the person decides what to remove (R4-SES-04). Screen mechanics PROPOSED. |
 | **Decided by** | Coach: R3-SES-02 (round 3, 2026-10-09); swaps from GEN-04 (round 1); "add more rear delts" from R3-VOL-01 |
 | **Replaces** | A plan that changed only through the check-in |
+
+> **Update, 2026-10-11.** "It should be all editable as they need to." (CX-04). Editing is not limited to swaps and block switches: a person can change the sets of any day or week (CX-02), add or remove an exercise, and switch a block on or off. After an edit the weekly totals are recounted, the plan is marked as edited, and the checks that judged the generated layout no longer vouch for it. Nothing is stored and nothing adapts. When a session is long, the plan does not remove anything by itself: it names what is easiest to remove and the person picks (R4-SES-04). Session minutes are no longer shown as a limit after an edit: time is an estimate only ([ADR-050](adr-050-no-time-fitting-sessions-sized-by-exercise-count.md)). In the engine: `engine/edit.mjs` → `applyPlanEdits` (set sets, remove exercise, add exercise, set block).
 
 ## Decision (the rule)
 
@@ -54,7 +56,7 @@ PROPOSED mechanism (not confirmed by the coach):
 | Block ids | Every block has a stable id so a switch can apply to "this day" or "this day every week" |
 | What can be switched off | Core, skill, athletic, Olympic, accessory, calves, focus, finisher, cardio. Not the warm-up. |
 | Removed exercise | Its sets are not moved elsewhere automatically |
-| After an edit | The tool shows minutes and weekly sets per group, and a note if a group drops below 10. Notes, never refusals. |
+| After an edit | The tool shows weekly sets per group, and a note if a group drops below its floor. Notes, never refusals. The time shown is an estimate only. |
 | Where edits live | Inside the plan the person keeps. Nothing is stored ([ADR-002](adr-002-no-data-kept.md)). |
 
 ## Where it lives in the data
@@ -71,4 +73,4 @@ Master text: [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) §10.10.
 
 ## Related
 
-[ADR-032](adr-032-time-vs-minimums-order.md) time vs minimums · [ADR-015](adr-015-library-source-of-truth-one-detail-variations.md) swaps and variations · [Sessions](../02-model/sessions.md)
+[ADR-050](adr-050-no-time-fitting-sessions-sized-by-exercise-count.md) no time-fitting · [ADR-049](adr-049-endpoint-priority-and-editable-progression.md) editable sets · [ADR-032](adr-032-time-vs-minimums-order.md) time vs minimums (retired) · [ADR-015](adr-015-library-source-of-truth-one-detail-variations.md) swaps and variations · [Sessions](../02-model/sessions.md)

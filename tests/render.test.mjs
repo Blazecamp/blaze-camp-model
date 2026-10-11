@@ -69,21 +69,29 @@ describe('full view (markdown)', () => {
   test('weekly sets per muscle group table (first / middle / last stairway week) with the coach counting note (B3: FOCUS groups, R3-SES-01)', () => {
     assert.ok(en.includes('## ' + model.t('en', 'ui.plan.weekly_sets_groups')));
     assert.ok(unesc(en).includes(model.t('en', 'ui.plan.weekly_sets_groups_note')));
-    // v0.4 fixture: every trained group climbs (quads 10 -> 12, back 10 -> 12; R3-SES-02)
-    assert.match(en, /\| Quads \| 10 \| 10 \| 12 \|/);
-    assert.match(en, /\| \*\*Total\*\* \| \*\*46\*\* \| \*\*47\*\* \| \*\*51\*\* \|/);
+    // v0.5 fixture (2 training days, R4-SES-03): the big groups sit at 6-8 weekly sets; chest climbs 6 -> 8 to its final sets (CX-01)
+    assert.match(en, /\| Quads \| 8 \| 8 \| 8 \|/);
+    assert.match(en, /\| Chest \| 6 \| 7 \| 8 \|/);
+    assert.match(en, /\| \*\*Total\*\* \| \*\*42\*\* \| \*\*44\*\* \| \*\*46\*\* \|/);
   });
 
   test('phone-friendly day cards: sets x reps, "leave N in the tank (N RIR)", rest, cue, swaps, video link', () => {
     assert.ok(en.includes('### Monday · ' + model.t('en', 'day.athletic.2.A')));
-    assert.ok(en.includes('_' + model.t('en', 'ui.plan.est_minutes', { min: 62 }) + '_'));
+    // engine 0.5.0 / V3 (converted; DECISIONS G): the day's time is an average range, information only (COACH-CT CT-01, COACH-R4
+    // R4-SES-01 'an estimate like about 60-75 minutes'): 58 min -> 'about 50-65 min', never the bare number as if it were a limit
+    assert.ok(en.includes('_' + model.t('en', 'ui.plan.est_line', { low: 50, high: 65 }) + '_'));
+    assert.ok(!en.includes('_' + model.t('en', 'ui.plan.est_minutes', { min: 58 }) + '_'));
     const squat = en.split('\n').find(l => l.includes('**' + model.t('en', model.ex('front-squat-barbell').name_key) + '**'));
     assert.ok(squat, 'front squat line');
-    assert.match(squat, /— 3 × 12 to 15 Reps · leave 3 in the tank \(3 RIR, RPE 7\) · rest after the pair · SUPERSET W\//);
+    assert.match(squat, /— 2 × 12 to 15 Reps · leave 3 in the tank \(3 RIR, RPE 7\) · rest after the pair · SUPERSET W\//);
     assert.ok(en.includes('leave 1 in the tank (1 RIR, RPE 9)'), 'last week drifts to 1 RIR');
     assert.ok(en.includes('- ' + model.t('en', 'ui.plan.swaps') + ': '));
-    assert.ok(en.includes('[Video](https://youtu.be/'), 'coach video when the catalog has one');
-    assert.ok(en.includes('[Watch how](https://www.youtube.com/results?search_query='), 'YouTube search link otherwise');
+    // engine 0.5.0 / V2 (converted; DECISIONS G): no third-party video link (COACH-R4 R4-LIB-05) - every exercise prints the YouTube
+    // search built from its name and the exact name to copy; the swaps say what they keep and lose (R4-LIB-04)
+    assert.ok(!/youtu\.be\/|youtube\.com\/watch/.test(en), 'no third-party video link');
+    assert.ok(en.includes('[Watch how](https://www.youtube.com/results?search_query='), 'YouTube search link');
+    assert.ok(en.includes('Name to copy into YouTube: `' + model.t('en', model.ex('front-squat-barbell').name_key) + '`'), 'the exact name to copy');
+    assert.match(en, /Swap for: [^\n]*\(keeps [^;()]+; loses [^()]+\)/);
     assert.ok(en.includes('**Test week:** 3 or 5 rep max'));
     assert.ok(en.includes('**' + model.t('en', 'block.core') + '**'));
   });
@@ -162,7 +170,8 @@ describe('views and formats', () => {
     assert.ok(refer.startsWith('# ' + model.t('es', 'ui.plan.refer_title')));
     assert.ok(refer.includes(model.t('es', 'refer.reason.heart')));
     const invalid = renderPlan({ status: 'invalid', errors: [{ code: 'release_missing', key: 'warning.release_missing' }], meta: {} }, model, { lang: 'en' });
-    assert.ok(invalid.includes('Please read and accept the release to build your plan'));
+    // engine 0.5.0 / V3 (converted; DECISIONS G): the gate's own words (COACH-R4 R4-SCP-02 'they need to click it before the plan shows')
+    assert.ok(invalid.includes(model.t('en', 'warning.release_missing')) && /No plan is built without it/.test(invalid));
   });
 });
 

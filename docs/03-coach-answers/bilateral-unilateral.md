@@ -82,12 +82,14 @@ Each entry gives the question, the final rule as it stands today, what we assume
 
 **Final rule.** The share of bilateral and unilateral lower-body work is a range from 90/10 to 10/90. It depends on the athlete and is adjustable. A powerlifter or bodybuilder needs to get bigger and stronger, so unilateral work is a small foundation at the start ("maybe 50") and the plan then moves to 80/20 or 90/10 bilateral; for them unilateral work is mainly for health. A field athlete who does not need to get bigger (his example: a tennis player) is the reverse: bilateral work is the health and strength foundation for connective tissue and joints, and unilateral work can be 80 or 90 % of gym work so they keep their rotational forces and skills. Pain or injury shifts the share.
 
-- **Status:** Stands as answered.
+- **Status:** Stands as answered. One open reading was added after round 4 (see "Changed later").
 - **We assumed (round 1):** Observed: aesthetics days run 1 bilateral + 1 unilateral lower lift (about 50/50); baseball runs bilateral 4 sets + unilateral 4 sets. Please give rough % for aesthetics, athletes off-season, athletes in-season, older/injured, beginners and strength/powerlifting.
 - **His verdict (round 1):** answered in words, no chip
 - **In his words:** "the unilateral work is more for health and keeping rotational foundations, and the bilateral is more for driving and creating forces" / "It should be a range anywhere from one side, like 90/10, to the other side, 10/90." (UNI-02)
 - **Not confirmed by him:** He gave the two ends and said "We got to figure that out and put that algorithm together." The exact share for each sport, position and phase is PROPOSED.
 - **Where it lives:** `generator_spec_v1.json` → `rule_tables.bilateral_unilateral.slider`, `rule_tables.bilateral_unilateral.profiles`
+- **Changed later:**
+  - **OPEN after [R4-SES-05](sessions-and-order.md#r4-ses-05) (round 4).** His A / B template names a two-leg lift in slot 2 and a single-leg lift in slot 4, and the athletic days use the same lifts after the athletic block. So a field or court athlete now gets more two-leg lower-body work than the 80 to 90 % single-leg share of this answer. In the soccer sample plan the template holds about 45 % two-leg work against a target of 20 % (`samples/STATUS_v0.5.md`). Which wins on athletic days is a question for him.
 - **See also:** [UNI-03](#uni-03), [UNI-10](#uni-10), [CAT-13](#cat-13)
 
 <details>
@@ -219,6 +221,7 @@ Each entry gives the question, the final rule as it stands today, what we assume
 - **Changed later:**
   - **REFINED by [R2-PER-03](progression.md#r2-per-03) (round 2).** Before: Progressions of 3 % or 5 %. Now: Every plan is a stairway: smaller steps first, slightly bigger after halfway.
   - **REFINED by [R3-VOL-04](progression.md#r3-vol-04) (round 3).** Before: Progressions of 3 % or 5 %. Now: About 3 % a week to the halfway week, about 5 % after.
+  - **REFINED by [CX-01](progression.md#cx-01) (2026-10-10) and [R4-PRG-02](progression.md#r4-prg-02) (round 4).** Before: 10 % a week is way too much; the team used "under 10 %" as a hard limit on the weekly total. Now: No hard limit. The final sets are reached, and a week that adds more than about 15 % carries a note. His remark still describes the usual pattern of about 3 % and 5 %.
 - **See also:** [VOL-04](progression.md#vol-04), [VOL-05](progression.md#vol-05), [R3-VOL-04](progression.md#r3-vol-04)
 
 <details>

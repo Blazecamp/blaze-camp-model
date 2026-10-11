@@ -1,81 +1,9 @@
-// engine/timefit.mjs - lines and groups (COACH-R3 R3-VOL-01, R3-SES-01) and the v0.4 time model (R3-SES-02). Owner: stage B1
-// (engine 0.4.0). Shared by volume.mjs (placement, the time check), week.mjs (estimateMinutes, cuts) and validate.mjs.
-// Pure: no I/O, no clock, no randomness. Every number comes from model.rules.
-//
-// Lines: the stairway runs on lines (quads, hamstrings, glutes, chest, back, shoulders, biceps, triceps, calves). Side, rear and
-// front delts are one shoulders line (R3-VOL-01 "I wouldn't categorize the rear delt as an individual muscle").
-// Groups: the floor of 10, the 2-4-exercises rule and the time check read the coach's FOCUS groups (hips = glutes + hamstrings,
-// shoulders = front + side + rear delts; R3-SES-01). A set counts at most 1.0 to a line or a group (group credit, 12 v1.2 §3.3,
-// PROPOSED): credit = min(1, sum of the member muscles' credits).
+// engine/estimate.mjs - the average time estimate of a session (engine 0.5.0). INFORMATION ONLY.
+// COACH-CT CT-01: 'We can give an average recommendation of what it should take, but we will never know what it's going to take.'
+// COACH-R4 R4-SES-01: the plan shows an estimate on each day; nothing is ever cut or changed because of time. No function here is
+// a limit, a check or a fit: they only cost a set (its work plus the rest it is dosed with), a superset and a test for the printed
+// estimate. Numbers: rules.time_model (PROPOSED). Pure: no I/O, no clock, no randomness.
 import { EPS } from './util.mjs';
-
-const CACHE = new WeakMap();
-
-/**
- * Lines and groups of a model (cached per model object).
- * @param {object} model
- * @returns {{order:string[], defs:Object<string,object>, lineOf:Object<string,string>, groupOfLine:Object<string,string>,
- *            groups:string[], groupMembers:Object<string,string[]>, groupOfMuscle:Object<string,string>, linesOfGroup:Object<string,string[]>}}
- */
-export function linesOf(model) {
-  if (CACHE.has(model)) return CACHE.get(model);
-  const R = model.rules;
-  const LX = R.muscles.lines;
-  let order, defs;
-  if (LX && Array.isArray(LX.order)) { order = LX.order.slice(); defs = LX.defs; }
-  else { // pre-v1.3 models: every target muscle is its own line
-    order = R.muscles.order.filter(m => R.muscles.defs[m].target);
-    defs = Object.fromEntries(order.map(m => [m, { members: [m], class: R.muscles.defs[m].class, region: R.muscles.defs[m].region, group: R.muscles.defs[m].group, per_leg_day: !!R.muscles.defs[m].per_leg_day }]));
-  }
-  const lineOf = {};
-  for (const l of order) for (const m of defs[l].members) lineOf[m] = l;
-  const groupOfLine = Object.fromEntries(order.map(l => [l, defs[l].group]));
-  const groups = R.muscles.groups.order.filter(g => g !== 'core');
-  const groupMembers = R.muscles.groups.members;
-  const groupOfMuscle = {};
-  for (const g of R.muscles.groups.order) for (const m of groupMembers[g] || []) groupOfMuscle[m] = g;
-  const linesOfGroup = {};
-  for (const l of order) (linesOfGroup[groupOfLine[l]] = linesOfGroup[groupOfLine[l]] || []).push(l);
-  const out = Object.freeze({ order, defs, lineOf, groupOfLine, groups, groupMembers, groupOfMuscle, linesOfGroup });
-  CACHE.set(model, out);
-  return out;
-}
-
-/** per-set line credits of a muscle-credit map: min(1, sum of member credits) @returns {Object<string,number>} */
-export function lineCredits(model, cr) {
-  const X = linesOf(model);
-  const out = {};
-  if (!cr) return out;
-  for (const [m, v] of Object.entries(cr)) { const l = X.lineOf[m]; if (l) out[l] = (out[l] || 0) + v; }
-  for (const l of Object.keys(out)) out[l] = Math.min(1, out[l]);
-  return out;
-}
-
-/** per-set group credits of a muscle-credit map: min(1, sum of member credits) (core excluded) @returns {Object<string,number>} */
-export function groupCredits(model, cr) {
-  const X = linesOf(model);
-  const out = {};
-  if (!cr) return out;
-  for (const [m, v] of Object.entries(cr)) { const g = X.groupOfMuscle[m]; if (g && g !== 'core') out[g] = (out[g] || 0) + v; }
-  for (const g of Object.keys(out)) out[g] = Math.min(1, out[g]);
-  return out;
-}
-
-/**
- * Lines an exercise drives as a main mover (a member credit of 1.0; dips drive triceps, LIB-16).
- * @param {object} model @param {object|null} ex catalog record @param {Object<string,number>|null} cr its credits in the slot
- * @returns {string[]}
- */
-export function primeLines(model, ex, cr) {
-  if (!cr) return [];
-  const X = linesOf(model);
-  const out = [];
-  for (const [m, v] of Object.entries(cr)) { const l = X.lineOf[m]; if (l && v >= 1 - EPS && !out.includes(l)) out.push(l); }
-  if (ex && ex.credit_class === 'DIPS' && cr.triceps && !out.includes('triceps')) out.push('triceps');
-  return X.order.filter(l => out.includes(l));
-}
-
-// ------------------------------------------------------------------------------------------------------------- time model
 
 const MAIN_COMPOUND_BUCKETS = ['RP_BKD', 'RP_BHD', 'RP_HPUSH', 'RP_VPUSH', 'RP_HPULL', 'RP_VPULL'];
 
@@ -144,8 +72,7 @@ export function supersetMinutes(members, model) {
   const T = model.rules.time_model;
   if (members.length < 2) return members.length ? members[0].sets * members[0].cost.minutes + T.changeover_min_per_exercise : 0;
   if (T.superset_rule !== 'pair_shares_rest') return members.reduce((a, x) => a + x.sets * x.cost.minutes, 0) * T.superset_factor + T.changeover_in_superset_pair * members.length;
-  // v0.4 fix round 2 / F1 (E-142; RECHECK v0.4 04 blocker: a 4th row set in the squat's superset was costed with the squat's 4.5-min
-  // strength rest): round k holds the partners that still have a k-th set - their work, then the longest rest among them; a partner's
+  // (E-142: a 4th row set in the squat's superset is not costed with the squat's 4.5-min strength rest) round k holds the partners that still have a k-th set - their work, then the longest rest among them; a partner's
   // extra sets rest like a straight set of that exercise (equal sets: the v1.3 formula, sets x (sum of work + the longest rest))
   const rounds = Math.ceil(Math.max(...members.map(x => x.sets)) - EPS);
   let t = 0;

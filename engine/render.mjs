@@ -3,9 +3,14 @@
 // words, only punctuation and layout. Phone-friendly: day cards are numbered lists, tables have at most 4 columns
 // (the block view has 3). Template notes / dose_text / condition_text are internal hints and are never rendered.
 // v0.4 stage B3 (coach_answers_round3.md): every plan opens with the use-at-your-own-risk line linking the release (R3-GEN-01);
-// the time check is shown up front - what is trained directly, what is not (time), the offers (R3-SES-02); each day says which
-// blocks can be switched off and which supersets save time (R3-SES-02); macro tables (block / week / day) for screenshots
-// (R2-GEN-02); nothing about check-ins (R3-VOL-02).
+// each day says which blocks can be switched off and which supersets save time (R3-SES-02); macro tables (block / week / day)
+// for screenshots (R2-GEN-02); nothing about check-ins (R3-VOL-02).
+// v0.5 (COACH-CT CT-01, COACH-R4 R4-SES-01): no time check, no schedule offers, no 'over your minutes' lines - a day shows its
+// exercise count's result and an estimated time as information only.
+// v0.5 / V3 (design/ENGINE_V05_PLAN.md "V3 words and checks"): the release line on every plan and view (COACH-R4 R4-SCP-01 /
+// R4-SCP-02); reps and load as a rule the person applies, on every lift and in 'How you progress' (R4-PRG-03); the note on a week
+// that adds more than about 15 % (R4-PRG-02); the average time as a range, information only (CT-01, R4-SES-01); what is easiest to
+// remove on each day (R4-SES-04); the weekly sets per group week by week; block / week / day macro views (R2-GEN-02).
 import { WEEKDAYS, addDays } from './util.mjs';
 import { tr, levelText, changesText, stairText, whyText, listAnd } from './explain.mjs';
 
@@ -13,8 +18,6 @@ const YT = 'https://www.youtube.com/results?search_query=';
 const INSTRUCTION_KEYS = ['instruction.1', 'instruction.2', 'instruction.3', 'instruction.4', 'instruction.5'];
 const DASH = ' — ';
 const DOT = ' · ';
-// warnings the schedule section already says in full (R3-SES-02 time check)
-const SCHEDULE_WARNINGS = ['warning.time_check', 'warning.not_trained_directly', 'warning.credit_only_groups', 'warning.time_lower_peak', 'warning.below_floor_work_lift'];
 // blocks the day card offers to switch off (they add no stairway sets; COACH-R3 R3-SES-02 'turn off that day's athletic training or
 // that day's core training'); v0.4 fix round 1 / F3 (RECHECK 01 / 02 / 03 / 04 / 06 / 07 minors: the JSON let the person switch off
 // the accessories and the cool-down, the card never said so): every switchable kind the day's toggle_blocks names
@@ -28,7 +31,7 @@ const ONCE_LINE = { 'note.heavy_play_week': 'ui.plan.heavy_play_plan', 'note.cor
 /**
  * @param {import('./util.mjs').Plan} plan @param {import('./util.mjs').Model} model
  * @param {{lang?:'en'|'es', format?:'markdown'|'text', view?:'full'|'overview'|'block'|'week'|'day', weeks?:'all'|number[],
- *           show_why?:boolean, show_swaps?:boolean, units?:'lb'|'kg'}} [opts]
+ *           macro?:boolean, show_why?:boolean, show_swaps?:boolean, units?:'lb'|'kg'}} [opts]
  * @returns {string}
  */
 export function renderPlan(plan, model, opts = {}) {
@@ -36,9 +39,10 @@ export function renderPlan(plan, model, opts = {}) {
   let md;
   if (plan.status === 'refer') md = renderRefer(plan, model, o);
   else if (plan.status === 'invalid') md = renderInvalid(plan, model, o);
-  else if (o.view === 'block') md = [ownRiskShort(model, o), ...(plan.shape.training_blocks || []).map(tb => blockView(plan, tb.n, model, o))].join('\n\n');
-  else if (o.view === 'week') md = [ownRiskShort(model, o), ...weekNumbers(plan, o).map(n => weekSection(plan, n, model, o))].join('\n\n');
-  else if (o.view === 'day') md = [ownRiskShort(model, o), ...weekNumbers(plan, o).flatMap(n => dayList(plan, n).map(d => dayCard(plan, n, d.weekday, model, o)))].join('\n\n');
+  else if (o.view === 'block') md = [ownRiskShort(plan, model, o), ...(plan.shape.training_blocks || []).map(tb => blockView(plan, tb.n, model, o))].join('\n\n');
+  // (v0.5 / V3: `macro: true` gives the compact week / day - tables for a screenshot - instead of the full cards, R2-GEN-02)
+  else if (o.view === 'week') md = [ownRiskShort(plan, model, o), ...weekNumbers(plan, o).map(n => (o.macro ? weekMacro(plan, n, model, o) : weekSection(plan, n, model, o)))].join('\n\n');
+  else if (o.view === 'day') md = [ownRiskShort(plan, model, o), ...weekNumbers(plan, o).flatMap(n => dayList(plan, n).map(d => (o.macro ? dayMacro(plan, n, d, model, o) : dayCard(plan, n, d.weekday, model, o))))].join('\n\n');
   else if (o.view === 'overview') md = overviewView(plan, model, o);
   else md = fullView(plan, model, o);
   return finish(md, o);
@@ -48,20 +52,21 @@ export function renderPlan(plan, model, opts = {}) {
  * @param {import('./util.mjs').Plan} plan @param {number} trainingBlock @returns {string} */
 export function renderBlockView(plan, trainingBlock, model, opts = {}) {
   const o = norm(plan, opts);
-  return finish(blockView(plan, trainingBlock, model, o) + '\n\n' + ownRiskShort(model, o), o);
+  return finish(blockView(plan, trainingBlock, model, o) + '\n\n' + ownRiskShort(plan, model, o), o);
 }
 
 /** @param {import('./util.mjs').Plan} plan @param {number} weekN @returns {string} */
 export function renderWeek(plan, weekN, model, opts = {}) {
   const o = norm(plan, opts);
-  return finish(weekSection(plan, weekN, model, o) + '\n\n' + ownRiskShort(model, o), o);
+  return finish((o.macro ? weekMacro(plan, weekN, model, o) : weekSection(plan, weekN, model, o)) + '\n\n' + ownRiskShort(plan, model, o), o);
 }
 
 /** @param {import('./util.mjs').Plan} plan @param {number} weekN @param {string} weekday @returns {string} */
 export function renderDay(plan, weekN, weekday, model, opts = {}) {
   const o = norm(plan, opts);
-  const card = dayCard(plan, weekN, weekday, model, o);
-  return finish(card ? card + '\n\n' + ownRiskShort(model, o) : '', o);
+  const d = o.macro ? dayList(plan, weekN).find(x => x.weekday === weekday) : null;
+  const card = o.macro ? (d ? dayMacro(plan, weekN, d, model, o) : '') : dayCard(plan, weekN, weekday, model, o);
+  return finish(card ? card + '\n\n' + ownRiskShort(plan, model, o) : '', o);
 }
 
 /** '8 to 12 Reps', '10/10', '12/10/8 -20', 'MAX', '3 rounds x 40 s' @param {import('./util.mjs').RepSpec|import('./util.mjs').RepSpec[]|null} rep @returns {string} */
@@ -84,6 +89,8 @@ export function formatReps(rep, model, lang) {
     case 'contacts': return t('reps.contacts', { n: rep.value });
     case 'throws_per_side': return t('reps.throws_per_side', { n: rep.value });
     case 'metres': return t('reps.metres', { n: rep.value });
+    // v0.5 / V2 (COACH-R4 R4-LIB-02): carries and sled work - by distance or time, never reps
+    case 'distance_or_time': return t(rep.per_side ? 'reps.distance_or_time_per_side' : 'reps.distance_or_time', { m_min: rep.metres[0], m_max: rep.metres[1], s_min: rep.seconds[0], s_max: rep.seconds[1] });
     case 'minutes': return rep.min === rep.max ? t('reps.minutes_fixed', { n: rep.min }) : t('reps.minutes', { min: rep.min, max: rep.max });
     case 'rounds_work': return t('reps.rounds_work', { rounds: rep.rounds, work_s: rep.work_s });
     case 'cuts': return t('reps.cuts', { n: rep.value });
@@ -178,7 +185,7 @@ export function formatLoad(load, model, lang, units) {
     case 'medball_lb': return load.min === load.max && !load.wall_ball ? t('load.medball_one', { n: load.min }) : t(load.wall_ball ? 'load.wall_ball' : 'load.medball', { min: load.min, max: load.max });
     case 'height': return t(load.value === 'medium' ? 'load.height_medium' : 'load.height_low');
     case 'pct_hint': return t('load.pct_hint', { pct: load.pct });
-    case 'lb_range': return t(load.unit === 'kettlebell' ? 'wod.load.kettlebell' : 'wod.load.dumbbells', { min: load.min, max: load.max });
+    case 'lb_range': return t(load.unit === 'kettlebell' ? 'wod.load.kettlebell' : load.unit === 'barbell' && model.has('en', 'wod.load.barbell') ? 'wod.load.barbell' : 'wod.load.dumbbells', { min: load.min, max: load.max });
     default: return '';
   }
 }
@@ -188,7 +195,7 @@ export function formatLoad(load, model, lang, units) {
 function norm(plan, opts) {
   return {
     lang: opts.lang || plan.lang || 'en', format: opts.format || 'markdown', view: opts.view || 'full', weeks: opts.weeks || 'all',
-    show_why: !!opts.show_why, show_swaps: opts.show_swaps !== false, units: opts.units || plan.units || 'lb',
+    macro: !!opts.macro, show_why: !!opts.show_why, show_swaps: opts.show_swaps !== false, units: opts.units || plan.units || 'lb',
     show_supersets: !(plan.meta && plan.meta.derived && plan.meta.derived.prefs && plan.meta.derived.prefs.superset_recommendations === 'hide')
   };
 }
@@ -257,17 +264,41 @@ const aerobicOf = (it) => !!(it.aerobic || (it.effort && it.effort.type === 'aer
 
 // ------------------------------------------------------------------------------------------------------------- legal line
 
-/** COACH-R3 R3-GEN-01: 'use at your own risk', the release, the link to DISCLAIMER.md / DISCLAIMER.es.md (drafts for attorney review) */
-function ownRisk(model, o) {
-  const t = T(model, o);
-  if (!has(model, 'ui.plan.own_risk')) return '';
-  const url = disclaimerUrl(model, o);
-  return '> **' + t('ui.plan.own_risk_label') + '** ' + t('ui.plan.own_risk') + (url ? ' [' + t('ui.plan.own_risk_link') + '](' + url + ')' : '');
+/**
+ * The release line (COACH-R3 R3-GEN-01 'use at your own risk'; COACH-R4 R4-SCP-01 'all the plans should release liability before
+ * and after it gets kicked out'; R4-SCP-02 'outputted in their program somewhere at the bottom or at the top: you've released
+ * liability'): every plan and every view says the terms and the release were accepted before the plan was built, with the link to
+ * DISCLAIMER.md / DISCLAIMER.es.md (drafts for attorney review). A refer or invalid result - no plan was built - carries the plain
+ * use-at-your-own-risk line. rules.legal.release_line names the keys.
+ */
+function releaseKeys(plan, model) {
+  const RL = (model.rules.legal && model.rules.legal.release_line) || null;
+  const st = plan && plan.release_stamp;
+  if (!RL || !st || plan.status !== 'ok' || st.accepted !== true) return null;
+  const line = (RL.by_version || {})[st.version] || (RL.by_version || {})['release.client'];
+  return line && has(model, line) ? { line, short: RL.short_key, footer: RL.footer_key } : null;
 }
-function ownRiskShort(model, o) {
-  if (!has(model, 'ui.plan.own_risk_short')) return '';
+function legalLink(model, o) {
   const url = disclaimerUrl(model, o);
-  return '_' + T(model, o)('ui.plan.own_risk_short') + '_' + (url ? ' [' + T(model, o)('ui.plan.own_risk_link') + '](' + url + ')' : '');
+  return url ? ' [' + T(model, o)('ui.plan.own_risk_link') + '](' + url + ')' : '';
+}
+function ownRisk(plan, model, o) {
+  const t = T(model, o);
+  const k = releaseKeys(plan, model);
+  if (!k && !has(model, 'ui.plan.own_risk')) return '';
+  return '> **' + t('ui.plan.own_risk_label') + '** ' + t(k ? k.line : 'ui.plan.own_risk') + legalLink(model, o);
+}
+function ownRiskShort(plan, model, o) {
+  const k = releaseKeys(plan, model);
+  const key = k && has(model, k.short) ? k.short : 'ui.plan.own_risk_short';
+  if (!has(model, key)) return '';
+  return '_' + T(model, o)(key) + '_' + legalLink(model, o);
+}
+/** the footer of a full plan: 'Liability released ...' + the standing disclaimer + the link to the full text */
+function releaseFooter(plan, model, o) {
+  const t = T(model, o);
+  const k = releaseKeys(plan, model);
+  return (k && has(model, k.footer) ? t(k.footer) + ' ' : '') + t('ui.disclaimer') + legalLink(model, o);
 }
 function disclaimerUrl(model, o) {
   const L = model.rules.legal;
@@ -280,13 +311,15 @@ function fullView(plan, model, o) {
   const t = T(model, o), m = plan.meta || {};
   const L = [];
   L.push('# ' + t(m.program_name_key || 'ui.plan.title'));
-  L.push('_' + t('ui.plan.title') + '_', '');
-  const risk = ownRisk(model, o);
+  L.push('_' + t('ui.plan.title') + editedTag(plan, model, o) + '_', '');
+  const risk = ownRisk(plan, model, o);
   if (risk) L.push(risk, '');
   L.push(...headerLines(plan, model, o), '');
   L.push(...noticesSection(plan, model, o));
   L.push(...instructionBlock(plan, model, o), '');
+  L.push(...progressSection(plan, model, o));
   L.push(...adjustGuide(plan, model, o));
+  L.push(...addonsSection(plan, model, o));
   L.push(...stairwaySection(plan, model, o), '');
   L.push(...weeklySetsSection(plan, model, o), '');
   const first = weekNumbers(plan, o)[0];
@@ -303,20 +336,28 @@ function fullView(plan, model, o) {
  */
 function overviewView(plan, model, o) {
   const t = T(model, o), m = plan.meta || {};
-  const L = ['# ' + t(m.program_name_key || 'ui.plan.title'), '_' + t('ui.plan.at_a_glance') + '_', ''];
-  const risk = ownRisk(model, o);
+  const L = ['# ' + t(m.program_name_key || 'ui.plan.title'), '_' + t('ui.plan.at_a_glance') + editedTag(plan, model, o) + '_', ''];
+  const risk = ownRisk(plan, model, o);
   if (risk) L.push(risk, '');
   L.push(...headerLines(plan, model, o), '');
   L.push(...noticesSection(plan, model, o));
+  L.push(...progressSection(plan, model, o));
   L.push(...adjustGuide(plan, model, o));
   L.push(...stairwaySection(plan, model, o), '');
   L.push(...weeklySetsSection(plan, model, o), '');
+  // v0.5 / V3: the weekly sets per group, week by week, for every training block (the block macro view)
+  for (const tb of plan.shape.training_blocks || []) { const tbl = setsByWeekTable(plan, tb, model, o); if (tbl.length) L.push(...tbl, ''); }
   for (const n of weekNumbers(plan, o).slice(0, 1)) {
     L.push(...weekGlance(plan, n, model, o), '');
     for (const d of dayList(plan, n)) { const tbl = dayTable(plan, n, d, model, o); if (tbl.length) L.push(...tbl, ''); }
   }
-  L.push('---', '', '_' + t('ui.plan.model_version', { model: plan.model_version, engine: plan.engine_version }) + '_');
+  L.push('---', '', '_' + t('ui.plan.model_version', { model: plan.model_version, engine: plan.engine_version }) + '_', '', releaseFooter(plan, model, o));
   return L.join('\n');
+}
+
+/** ' · Edited plan' next to the title of a plan the person edited (CX-04; engine/edit.mjs) */
+function editedTag(plan, model, o) {
+  return plan.edited && has(model, 'ui.plan.edited') ? DOT + T(model, o)('ui.plan.edited') : '';
 }
 
 function headerLines(plan, model, o) {
@@ -342,7 +383,8 @@ function headerLines(plan, model, o) {
   b(t('ui.plan.level'), esc(levelText(plan, model, o.lang)));
   if (m.plan_mode) b(t('intake.plan_mode.label'), t('intake.plan_mode.opt.' + m.plan_mode) + DOT + t('ui.plan.week', { n: '1-' + (plan.shape.weeks_total || m.weeks) }));
   if (m.start_date) b(t('intake.start.label'), esc(fmtDate(model, o.lang, m.start_date)));
-  if (m.weekdays) b(t('intake.days.label'), m.days_per_week + DOT + m.weekdays.map(d => esc(weekdayIn(model, o.lang, d))).join(', ') + DOT + t('intake.minutes.label') + ': ' + m.session_minutes);
+  if (m.weekdays) b(t('intake.days.label'), m.days_per_week + DOT + m.weekdays.map(d => esc(weekdayIn(model, o.lang, d))).join(', ') +
+    (m.session_size && has(model, 'ui.plan.session_size') ? DOT + t('ui.plan.session_size', { n: m.session_size.default, low: m.session_size.range[0], high: m.session_size.range[1] }) : ''));
   if (plan.release_stamp) {
     // the version id (release.client | coach | minor) is itself the key of the full legal text: show its short label
     const rl = plan.release_stamp.lang, langKey = 'intake.lang.opt.' + rl;
@@ -395,80 +437,40 @@ function focusMusclesLine(plan, model, o) {
 }
 
 /**
- * v1.2 (review 07 major 3 / 04 / 08): what the client must know before week 1 - the plan's warnings and the schedule offers -
- * comes right after the header, not after week 12. B3: the time check is its own 'Your schedule' section (trained directly / not
- * trained directly because of time / through compound lifts, then the offers in numbers; COACH-R3 R3-SES-02).
+ * v1.2 (review 07 major 3 / 04 / 08): what the client must know before week 1 - the plan's warnings - comes right after the
+ * header, not after week 12. v0.5: the time check, its 'Your schedule' section and the schedule offers are gone (CT-01).
  */
 function noticesSection(plan, model, o) {
   const t = T(model, o);
-  const warnings = (plan.meta && plan.meta.warnings) || [];
-  const offers = plan.offers || [];
-  const tc = plan.time_check || null;
-  const sched = tc && has(model, 'ui.plan.schedule') ? scheduleLines(plan, tc, model, o) : [];
-  const shown = warnings.filter(w => !(sched.length && SCHEDULE_WARNINGS.includes(w.key)));
+  const shown = (plan.meta && plan.meta.warnings) || [];
   const hol = holidayWeeks(plan);
   // F3 (RECHECK 08 minor: 'Lots of play this week' printed on every jump of every week): said once, up front
   const heavyPlay = has(model, 'ui.plan.heavy_play_plan') && planHasNote(plan, 'note.heavy_play_week');
-  if (!shown.length && !offers.length && !sched.length && !hol.length && !heavyPlay && !daysOverLine(plan, model, o)) return [];
+  if (!shown.length && !hol.length && !heavyPlay) return [];
   const L = [];
-  if (shown.length || hol.length || heavyPlay || daysOverLine(plan, model, o)) {
-    L.push('## ' + t('ui.plan.before_you_start'), '');
-    // fix round 2 / F3 (COACH-R3 R3-SES-02 step 1 'tell the user up front'; RECHECK v0.4 02 / 05 / 08 minors: 'some weeks still run a few
-    // minutes over' for a Monday that runs over in all 12 weeks; four over-time days never named): every day over the limit, by weekday
-    const overLine = daysOverLine(plan, model, o);
-    for (const w of shown) {
-      L.push('- ' + t(warningKey(plan, w, model, !!overLine), warningArgs(w, model, o)));
-      if (w.key === 'warning.supersets_needed' && overLine) L.push('- ' + overLine);
+  L.push('## ' + t('ui.plan.before_you_start'), '');
+  // v0.5 fix round 1 (sample 03 major: the same sentence three times - jumps, ankle hops, cuts): the athletic shortfalls are one line
+  const isCap = (w) => /^warning\.athletic_capacity(_block)?$/.test(w.key);
+  const caps = shown.filter(isCap);
+  const merge = caps.length > 1 && has(model, 'warning.athletic_capacity_list');
+  let capDone = false;
+  for (const w of shown) {
+    if (merge && isCap(w)) {
+      if (capDone) continue;
+      capDone = true;
+      const list = caps.map(c => t((c.args && c.args.key) || 'athletic.key.contacts') + ' ' + (c.args && c.args.pct) + '%').join(', ');
+      const act = plan.meta && plan.meta.profile && plan.meta.profile.competitive !== 'competitive' && has(model, 'warning.athletic_capacity_list_activity');
+      L.push('- ' + t(act ? 'warning.athletic_capacity_list_activity' : 'warning.athletic_capacity_list', { list }));
+      continue;
     }
-    if (overLine && !shown.some(w => w.key === 'warning.supersets_needed')) L.push('- ' + overLine);
-    // (RECHECK v0.4 06 / 08 minors: '(or a test day)' in a plan with no tests)
-    const testInHol = ((plan.meta && plan.meta.tests && plan.meta.tests.test_days) || []).some(x => hol.includes(x.week)) || (plan.weeks || []).some(w => hol.includes(w.n) && w.test);
-    if (hol.length && has(model, 'ui.plan.holiday_weeks')) L.push('- ' + t(!testInHol && has(model, 'ui.plan.holiday_weeks_no_test') ? 'ui.plan.holiday_weeks_no_test' : 'ui.plan.holiday_weeks', { weeks: hol.join(', ') }));
-    if (heavyPlay) L.push('- ' + t('ui.plan.heavy_play_plan'));
-    L.push('');
+    L.push('- ' + t(warningKey(plan, w, model), warningArgs(w, model, o)));
   }
-  if (sched.length || offers.length) {
-    L.push('## ' + t(sched.length ? 'ui.plan.schedule' : 'ui.plan.before_you_start'), '');
-    L.push(...sched);
-    if (offers.length) {
-      L.push('', '**' + t('ui.plan.offers') + '**');
-      for (const of of offers) L.push('- ' + t(of.key, of.args || {}) + (of.chosen ? ' ' + t('ui.plan.offer_chosen') : ''));
-    }
-    L.push('');
-  }
+  // (RECHECK v0.4 06 / 08 minors: '(or a test day)' in a plan with no tests)
+  const testInHol = ((plan.meta && plan.meta.tests && plan.meta.tests.test_days) || []).some(x => hol.includes(x.week)) || (plan.weeks || []).some(w => hol.includes(w.n) && w.test);
+  if (hol.length && has(model, 'ui.plan.holiday_weeks')) L.push('- ' + t(!testInHol && has(model, 'ui.plan.holiday_weeks_no_test') ? 'ui.plan.holiday_weeks_no_test' : 'ui.plan.holiday_weeks', { weeks: hol.join(', ') }));
+  if (heavyPlay) L.push('- ' + t('ui.plan.heavy_play_plan'));
+  L.push('');
   return L;
-}
-
-/**
- * 'Days over your 60 min even with the marked supersets: Monday in weeks 9-12 (62-66 min); Friday in every week (63-71 min)' - every
- * main / optional day whose minutes pass its limit, test days with their own warning line left out (fix round 2 / F3)
- */
-function daysOverLine(plan, model, o) {
-  if (!has(model, 'ui.plan.days_over') || plan.status !== 'ok') return '';
-  const t = T(model, o);
-  const tested = new Set(((plan.meta && plan.meta.warnings) || []).filter(w => w.key === 'warning.test_day_long' && w.args).map(w => w.args.week + ':' + w.args.day));
-  const by = new Map();
-  let limit = null, total = 0;
-  for (const w of plan.weeks || []) for (const d of w.days || []) {
-    if (!['main', 'optional'].includes(d.kind) || typeof d.est_minutes !== 'number' || typeof d.minutes_limit !== 'number') continue;
-    if (d.kind === 'main') total++;
-    if (d.est_minutes <= d.minutes_limit || tested.has(w.n + ':' + d.weekday)) continue;
-    if (!by.has(d.weekday)) by.set(d.weekday, { weeks: [], lo: d.est_minutes, hi: d.est_minutes, limit: d.minutes_limit });
-    const r = by.get(d.weekday);
-    r.weeks.push(w.n); r.lo = Math.min(r.lo, d.est_minutes); r.hi = Math.max(r.hi, d.est_minutes);
-    limit = limit === null ? d.minutes_limit : limit;
-  }
-  if (!by.size) return '';
-  const nWeeks = (plan.weeks || []).length;
-  const parts = WEEKDAYS.filter(wd => by.has(wd)).map(wd => {
-    const r = by.get(wd);
-    const mins = r.lo === r.hi ? String(r.lo) : r.lo + '-' + r.hi;
-    const all = r.weeks.length === (plan.weeks || []).filter(w => (w.days || []).some(d => d.weekday === wd && ['main', 'optional'].includes(d.kind))).length && nWeeks > 1;
-    const key = all && has(model, 'ui.plan.days_over_item_all') ? 'ui.plan.days_over_item_all' : r.weeks.length === 1 && has(model, 'ui.plan.days_over_item_one') ? 'ui.plan.days_over_item_one' : 'ui.plan.days_over_item';
-    return model.t(o.lang, key, { day: weekdayIn(model, o.lang, wd), weeks: weekRuns(r.weeks), min: mins });
-  });
-  const sameLimit = [...by.values()].every(r => r.limit === limit);
-  return esc(model.t(o.lang, sameLimit ? 'ui.plan.days_over' : 'ui.plan.days_over_mixed', { min: limit, list: parts.join('; ') }));
 }
 
 /** the plan weeks that hold Christmas (Dec 24-26) or New Year (Dec 31 - Jan 1), from the start date (R2-PER-02, R3-PER-01; RECHECK
@@ -487,146 +489,9 @@ function holidayWeeks(plan) {
   return out;
 }
 
-/** the time check in the client's words: per training block when blocks differ (R3-SES-02) */
-function scheduleLines(plan, tc, model, o) {
-  const t = T(model, o), m = plan.meta || {};
-  const L = [];
-  const blocks = Array.isArray(tc.by_block) && tc.by_block.length ? tc.by_block : [tc];
-  const sameAll = blocks.every(b => JSON.stringify([b.trained_groups, b.not_trained_directly, b.trained_below_floor]) === JSON.stringify([blocks[0].trained_groups, blocks[0].not_trained_directly, blocks[0].trained_below_floor]));
-  const list = sameAll ? [blocks[0]] : blocks;
-  const grp = (gs) => gs.map(g => 'group.' + g);
-  for (const b of list) {
-    const tb = (plan.shape.training_blocks || []).find(x => x.n === b.training_block);
-    if (!sameAll && tb) L.push('**' + t('ui.plan.schedule_block', { block: tb.label_key, from: tb.weeks[0], to: tb.weeks[1] }) + '**');
-    const nt = b.not_trained_directly || [];
-    const bw = (plan.weeks || []).filter(w => w.training_block === b.training_block);
-    // F3 (COACH-R3 R3-SES-01 'calves one exercise x 3 sets per leg day'; RECHECK 05 / 07 / 08 minors: 'Calves' in the '10+ sets a
-    // week, climbing' list at 7-9 flat sets): a trained group under the floor of 10 in some stairway week (calves) gets its own line;
-    // 'climbing every week' only when every listed group gains sets every week (COACH-R3 R3-VOL-04; RECHECK 01 / 04 / 07 / 08)
-    const F0 = model.rules.volume.floor;
-    const floorN = typeof F0 === 'number' ? F0 : (F0 && typeof F0.value === 'number' ? F0.value : 10);
-    const stairW = bw.filter(w => w.block_type === 'stairway');
-    const underFloor = (g) => stairW.some(w => ((w.weekly_sets_by_group || {})[g] || 0) < floorN - 1e-9);
-    // (a group held below the floor has its own line: never in the '10+ sets' list too - RECHECK 05 minor)
-    const below = new Set((b.trained_below_floor || []).map(x => x.group || x));
-    const trained = (b.trained_groups || []).filter(g => !below.has(g) && !(g === 'calves' && has(model, 'ui.plan.calves_line') && underFloor(g)));
-    const calvesOwn = (b.trained_groups || []).includes('calves') && !trained.includes('calves');
-    if (b.fits && !nt.length && !calvesOwn) { L.push('- ' + t(climbsEveryWeek(stairW, b.trained_groups || []) || !has(model, 'ui.plan.schedule_fits_block') ? 'ui.plan.schedule_fits' : 'ui.plan.schedule_fits_block', { days: m.days_per_week, minutes: m.session_minutes })); continue; }
-    // (a timed circuit climbs in work seconds, not sets: RECHECK 05 minor)
-    const circuitPlan = stairW.some(w => w.circuit && typeof w.circuit.work_s === 'number') && has(model, 'ui.plan.trained_directly_circuit');
-    if (trained.length) L.push('- ' + t(circuitPlan ? 'ui.plan.trained_directly_circuit' : climbsEveryWeek(stairW, trained) || !has(model, 'ui.plan.trained_directly_block') ? 'ui.plan.trained_directly' : 'ui.plan.trained_directly_block', { groups: grp(trained) }));
-    if (calvesOwn) {
-      const cs = stairW.map(w => (w.weekly_sets_by_group || {}).calves || 0);
-      const c0 = cs.length ? cs[0] : 0, c1 = cs.length ? cs[cs.length - 1] : 0;
-      L.push('- ' + (Math.abs(c1 - c0) < 1e-9 && has(model, 'ui.plan.calves_line_flat') ? t('ui.plan.calves_line_flat', { n: fmtNum(c0) }) : t('ui.plan.calves_line', { from: fmtNum(c0), to: fmtNum(c1) })));
-    }
-    const by = (r) => nt.filter(x => x.reason === r).map(x => x.group);
-    // fix round 2 / F3 (COACH-R3 R3-SES-02 'tell the user up front'; RECHECK v0.4 01 major / 04 / 08 minors: 'they still get work from your
-    // compound lifts' for a chest whose only work is one kept press; five 'not trained' categories; 'no exercise for them' next to a
-    // credited row): three lines - a group that keeps one exercise is named with it and its day; the groups that work only inside other
-    // lifts share one line; a group with no work at all is 'not trained in this plan'
-    if (has(model, 'ui.plan.kept_exercise') && has(model, 'ui.plan.not_trained_credit_all')) {
-      const first = stairW[0] || bw[0] || null;
-      const keptOf = (g) => {
-        const out = [];
-        for (const d of (first ? first.days || [] : []).slice().sort((a, b2) => WEEKDAYS.indexOf(a.weekday) - WEEKDAYS.indexOf(b2.weekday))) for (const blk of d.blocks || []) for (const it of blk.items || []) {
-          if (it.group === g && it.exercise_id && it.role !== 'test' && typeof it.sets === 'number' && it.sets > 0 && !['warmup', 'cooldown', 'prehab', 'core', 'aerobic'].includes(blk.kind) && !aerobicOf(it)) out.push({ it, d });
-        }
-        return out;
-      };
-      const someWork0 = (g) => !bw.length || bw.some(w => ((w.weekly_sets_by_group || {})[g] || 0) > 0);
-      const kept = [], credit = [], none = [];
-      for (const x of nt) {
-        if (x.reason === 'class_lift') continue;
-        const k = keptOf(x.group);
-        if (k.length) kept.push({ g: x.group, k });
-        else if (someWork0(x.group)) credit.push(x.group);
-        else none.push(x.group);
-      }
-      for (const x of kept) {
-        const names = x.k.map(y => model.t(o.lang, 'ui.plan.kept_exercise_item', { exercise: exName(model, o, y.it), day: weekdayIn(model, o.lang, y.d.weekday), n: y.it.sets }));
-        L.push('- ' + esc(model.t(o.lang, 'ui.plan.kept_exercise', { group: model.t(o.lang, 'group.' + x.g), list: names.join('; ') })));
-      }
-      if (credit.length) L.push('- ' + t('ui.plan.not_trained_credit_all', { groups: grp(credit) }));
-      if (none.length) L.push('- ' + t('ui.plan.not_trained_time_none', { groups: grp(none) }));
-      if (by('class_lift').length) L.push('- ' + t(has(model, 'ui.plan.not_trained_class_lift') ? 'ui.plan.not_trained_class_lift' : 'ui.plan.not_trained_time', { groups: grp(by('class_lift')) }));
-      if ((b.trained_below_floor || []).length) {
-        // (RECHECK v0.4 04 / 05 minors: '(the main lift stays and climbs)' for a class lift held at 3 sets and for a circuit station)
-        const bg = b.trained_below_floor.map(x => x.group);
-        const rises = (g) => { const v = stairW.map(w => (w.weekly_sets_by_group || {})[g] || 0); return v.length > 1 && v[v.length - 1] > v[0] + 1e-9; };
-        const KWL0 = model.rules.session.time_fit && model.rules.session.time_fit.keep_work_lift;
-        const classPlan = !!(KWL0 && (KWL0.families || []).includes(m.family));
-        const key = circuitPlan && has(model, 'ui.plan.below_floor_circuit') ? 'ui.plan.below_floor_circuit' : classPlan && has(model, 'ui.plan.below_floor_class') ? 'ui.plan.below_floor_class'
-          : !bg.every(rises) && has(model, 'ui.plan.below_floor_hold') ? 'ui.plan.below_floor_hold' : 'ui.plan.below_floor';
-        L.push('- ' + t(key, { groups: grp(bg) }));
-      }
-      continue;
-    }
-    // v0.4 B4 (sample 08: 'they still get work from your compound lifts' for back, chest and shoulders with no row or press left in
-    // the plan): a group the block gives no credited set at all is named as not trained in this plan
-    const someWork = (g) => !bw.length || bw.some(w => ((w.weekly_sets_by_group || {})[g] || 0) > 0);
-    const timeAll = by('time'), timeNone = has(model, 'ui.plan.not_trained_time_none') ? timeAll.filter(g => !someWork(g)) : [];
-    const timeSome = timeAll.filter(g => !timeNone.includes(g));
-    if (timeSome.length) L.push('- ' + t('ui.plan.not_trained_time', { groups: grp(timeSome) }));
-    if (timeNone.length) L.push('- ' + t('ui.plan.not_trained_time_none', { groups: grp(timeNone) }));
-    // v0.4 B4 (E-64): class-model groups not trained directly that keep the day's class lift
-    if (by('class_lift').length) L.push('- ' + t(has(model, 'ui.plan.not_trained_class_lift') ? 'ui.plan.not_trained_class_lift' : 'ui.plan.not_trained_time', { groups: grp(by('class_lift')) }));
-    if ((b.trained_below_floor || []).length) L.push('- ' + t('ui.plan.below_floor', { groups: grp(b.trained_below_floor.map(x => x.group)) }));
-    if (by('credit_only').length) L.push('- ' + t('ui.plan.not_trained_credit', { groups: grp(by('credit_only')) }));
-    if (by('no_station').length) L.push('- ' + t('ui.plan.not_trained_station', { groups: grp(by('no_station')) }));
-  }
-  const tw = ((plan.meta && plan.meta.warnings) || []).find(w => w.key === 'warning.time_check');
-  if (tw) L.unshift('- ' + t(tw.key, warningArgs(tw, model, o)));
-  const lp = ((plan.meta && plan.meta.warnings) || []).find(w => w.key === 'warning.time_lower_peak');
-  if (lp) L.push('- ' + t(warningKey(plan, lp, model), warningArgs(lp, model, o)));
-  return L;
-}
-
-/** every group gains sets in every week of the stairway (after week 1), ignoring the end-test week (F3: 'climbs every week' only
- *  when it is true; COACH-R3 R3-VOL-04 / R3-SES-02 step 4; RECHECK 01 / 04 / 07 / 08) */
-function climbsEveryWeek(stairWeeks, groups) {
-  if (!stairWeeks.length || !groups.length) return false;
-  for (const g of groups) {
-    for (let i = 1; i < stairWeeks.length; i++) {
-      const a = (stairWeeks[i - 1].weekly_sets_by_group || {})[g] || 0, b = (stairWeeks[i].weekly_sets_by_group || {})[g] || 0;
-      if (b <= a + 1e-9) return false;
-    }
-  }
-  return true;
-}
-
-/** the groups a warning names (args.group / groups: 'group.x' keys, ids or a comma list) */
-function warnGroups(w) {
-  const a = (w && w.args) || {};
-  const raw = a.group != null ? a.group : a.groups;
-  const list = Array.isArray(raw) ? raw : typeof raw === 'string' ? raw.split(',') : [];
-  return list.map(x => String(x).trim().replace(/^group\./, '')).filter(Boolean);
-}
-
-/** a warning's key as printed: 'they still climb every week' becomes 'through the block' unless every named group climbs every week;
- *  'the marked supersets ... to finish on time' only when the days fit with them; a test day that holds only speed / jump tests says
- *  'the tests', not 'work-up to your top sets' (F3; RECHECK 01 / 02 / 03 / 06 minors) */
-function warningKey(plan, w, model, overListed = false) {
-  // fix round 2 / F3 (RECHECK v0.4 08 minor: 'your sport's weekly medball throws' for a recreational player): a non-competitive profile
-  // reads 'this plan's weekly ...'
+/** a warning's key as printed: a non-competitive profile reads 'this plan's weekly ...' (RECHECK v0.4 08 minor) */
+function warningKey(plan, w, model) {
   if (/^warning\.athletic_capacity(_block)?$/.test(w.key) && plan.meta && plan.meta.profile && plan.meta.profile.competitive !== 'competitive' && has(model, w.key + '_activity')) return w.key + '_activity';
-  if (w.key === 'warning.supersets_needed' && overListed && has(model, 'warning.supersets_needed_save')) return 'warning.supersets_needed_save';
-  if (w.key === 'warning.time_lower_peak' && has(model, 'warning.time_lower_peak_block')) {
-    const st = (plan.weeks || []).filter(x => x.block_type === 'stairway');
-    const gs = warnGroups(w);
-    if (!gs.length || !climbsEveryWeek(st, gs)) return 'warning.time_lower_peak_block';
-  }
-  if (w.key === 'warning.supersets_needed' && has(model, 'warning.supersets_needed_over')) {
-    const days = [].concat((w.args && w.args.day) || []);
-    const over = (plan.weeks || []).some(wk => !wk.test && (wk.days || []).some(d => days.includes(d.weekday) && typeof d.est_minutes === 'number' && typeof d.minutes_limit === 'number' && d.est_minutes > d.minutes_limit));
-    if (over) return 'warning.supersets_needed_over';
-  }
-  if (w.key === 'warning.test_day_long' && has(model, 'warning.test_day_long_tests') && w.args) {
-    const wk = (plan.weeks || []).find(x => x.n === w.args.week);
-    const d = wk && (wk.days || []).find(x => x.weekday === w.args.day);
-    const strengthTest = !!d && (d.blocks || []).some(b => (b.items || []).some(it => it.role === 'test' && it.bucket !== 'TEST'));
-    if (d && !strengthTest) return 'warning.test_day_long_tests';
-  }
   return w.key;
 }
 
@@ -743,7 +608,7 @@ function adjustGuide(plan, model, o) {
   const kinds = planToggleKinds(plan);
   if (has(model, 'guide.adjust.edit_blocks')) {
     const names = kinds.map(k => (has(model, 'block.short.' + k) ? model.t(o.lang, 'block.short.' + k) : model.t(o.lang, 'block.' + k)));
-    const sup = o.show_supersets && (plan.weeks || []).some(w => (w.days || []).some(d => (d.superset_recommendations || []).length || d.supersets_needed || d.supersets_on));
+    const sup = o.show_supersets && (plan.weeks || []).some(w => (w.days || []).some(d => (d.superset_recommendations || []).length || d.supersets_on));
     const tail = has(model, 'guide.adjust.edit_supersets') && sup ? ' ' + t('guide.adjust.edit_supersets') : '';
     // (a block name with a comma inside - 'jumps, throws and speed' - keeps the list readable with semicolons)
     const blocks = names.some(x => x.includes(',')) ? names.join('; ') : andList(model, o.lang, names);
@@ -752,6 +617,12 @@ function adjustGuide(plan, model, o) {
     if (acc.length && has(model, 'guide.adjust.accessories')) L.push('- ' + esc(model.t(o.lang, 'guide.adjust.accessories', { groups: andList(model, o.lang, acc.map(g => model.t(o.lang, 'group.' + g))) })));
     if ((plan.weeks || []).some(w => (w.days || []).some(d => (d.toggle_items || []).length)) && has(model, 'guide.adjust.edit_stations')) L.push('- ' + t('guide.adjust.edit_stations'));
   } else if (has(model, 'guide.adjust.edit')) L.push('- ' + t('guide.adjust.edit'));
+  // v0.5 / V3 (COACH-CX CX-02 / CX-04 'they should be able to edit ... on that week or that day'): the sets are editable too; and
+  // the time on each day is an average estimate, information only (COACH-CT CT-01, COACH-R4 R4-SES-01)
+  if (has(model, 'guide.adjust.sets')) L.push('- ' + t('guide.adjust.sets'));
+  const anyEst = (plan.weeks || []).some(w => (w.days || []).some(d => typeof d.est_minutes === 'number' && ['main', 'optional'].includes(d.kind)));
+  const anyEasy = (plan.weeks || []).some(w => (w.days || []).some(d => (d.easy_to_remove || []).length));
+  if (anyEst && has(model, 'guide.adjust.time')) L.push('- ' + t(anyEasy || !has(model, 'guide.adjust.time_no_list') ? 'guide.adjust.time' : 'guide.adjust.time_no_list'));
   // (COACH-R3 R3-ATH-01 'a 2-week dryland taper lined up with the swim coach's taper'; BRAIN 9.11; RECHECK v0.4 01 minor)
   const prof = plan.meta && plan.meta.profile;
   let aquatic = false;
@@ -808,13 +679,15 @@ function stairwaySection(plan, model, o) {
     const iw = new Set(intensifierWeeks(plan));
     for (const w of ws) {
       const lvl = typeof w.stair_level === 'number' ? w.stair_level.toFixed(1) + ' ' + '▮'.repeat(Math.max(1, Math.round(w.stair_level))) : '–';
-      const wk = String(w.n) + (w.test ? DOT + t('ui.plan.test_mark') : '');
+      // v0.5 / V3 (COACH-R4 R4-PRG-02): a week that adds more than about 15 % is marked
+      const wk = String(w.n) + (accelOf(w).length && accelMark(model) ? ' ' + accelMark(model) : '') + (w.test ? DOT + t('ui.plan.test_mark') : '');
       const rir = w.planned_rir ? (w.planned_rir.min === w.planned_rir.max ? String(w.planned_rir.min) : w.planned_rir.min + '-' + w.planned_rir.max) : null;
       const eff = rir ? t('ui.plan.rir_short', { rir }) + (iw.has(w.n) ? ' ' + t('ui.plan.plus_intensifier') : '') : '–';
       // the week's sets as the weekly sets table counts them (main and optional days)
       const sets = circuit && w.circuit ? t('ui.plan.seconds', { n: w.circuit.work_s }) : fmtNum(w.total_resistance_sets);
       L.push('| ' + [wk, lvl, eff, sets].join(' | ') + ' |');
     }
+    if (ws.some(w => accelOf(w).length) && accelMark(model) && has(model, 'ui.plan.accel_legend')) L.push('', '_' + t('ui.plan.accel_legend', { mark: accelMark(model) }) + '_');
     // phases as week spans (the label of each run of weeks)
     const spans = [];
     for (const w of ws) { const last = spans[spans.length - 1]; if (last && last.key === w.phase_key && last.to === w.n - 1) last.to = w.n; else spans.push({ key: w.phase_key, from: w.n, to: w.n }); }
@@ -876,14 +749,8 @@ function weeklySetsSection(plan, model, o) {
     const allRows = has(model, 'ui.plan.sets_not_direct');
     for (const g of model.rules.muscles.groups.order.filter(x => x !== 'core')) {
       const vals = picks.map(w => (w.weekly_sets_by_group || {})[g]);
-      const ntOf = (w) => {
-        const tc = plan.time_check || {};
-        const blk = (Array.isArray(tc.by_block) ? tc.by_block.find(b => b.training_block === w.training_block) : null) || tc;
-        const hit = (blk.not_trained_directly || []).find(x => (x.group || x) === g);
-        if (hit) return typeof hit === 'string' ? { group: hit, reason: 'time' } : hit;
-        const wk = (w.not_trained_directly || []).find(x => (x.group || x) === g);
-        return wk ? (typeof wk === 'string' ? { group: wk, reason: 'time' } : wk) : null;
-      };
+      // v0.5: a group with no exercise of its own in the template gets its work from the other lifts (credit only)
+      const ntOf = (w) => ((w.credit_only_groups || []).includes(g) ? { group: g, reason: 'credit_only' } : null);
       if (!vals.some(v => typeof v === 'number' && v > 0) && !(allRows && picks.some(w => ntOf(w)))) continue;
       const cell = (w, v) => {
         const nt = ntOf(w);
@@ -930,9 +797,9 @@ function summarySection(plan, model, o) {
     for (const c of failed) L.push('- ⚠ ' + checkLine(c, model, o));
     L.push('');
   }
-  // F3 (RECHECK 08 minor: 'Full terms: Disclaimer and Release of Liability.' with no link): the footer links the full text
-  const url = disclaimerUrl(model, o);
-  L.push('---', '', '_' + t('ui.plan.model_version', { model: plan.model_version, engine: plan.engine_version }) + '_', '', t('ui.disclaimer') + (url ? ' [' + t('ui.plan.own_risk_link') + '](' + url + ')' : ''), '', t('video.note'));
+  // F3 (RECHECK 08 minor: 'Full terms: Disclaimer and Release of Liability.' with no link): the footer links the full text;
+  // v0.5 / V3 (R4-SCP-02): and says the liability was released before the plan was built
+  L.push('---', '', '_' + t('ui.plan.model_version', { model: plan.model_version, engine: plan.engine_version }) + '_', '', releaseFooter(plan, model, o), '', t('video.note'));
   return L;
 }
 
@@ -954,6 +821,203 @@ function checkLine(c, model, o) {
   return has(model, 'ui.plan.check_failed') ? t('ui.plan.check_failed', { check: c.key }) : t(c.key);
 }
 
+// ------------------------------------------------------------------------------------------------------------- v0.5 / V3 lines
+
+/** the mark of a week that adds more than about 15 % (rules.render.acceleration.mark), or '' */
+function accelMark(model) {
+  const A = model.rules.render && model.rules.render.acceleration;
+  return A && typeof A.mark === 'string' ? A.mark : '';
+}
+/** the acceleration entries of a week (COACH-R4 R4-PRG-02; volume engine: {group, from, to, pct} or {total: true, pct}) */
+function accelOf(w) { return Array.isArray(w && w.acceleration) ? w.acceleration.filter(Boolean) : []; }
+/** 'This week jumps more than usual (17 % more sets for Shoulders): adjust if needed.' - one line per entry */
+function accelLines(w, model, o) {
+  const t = T(model, o), out = [];
+  for (const a of accelOf(w)) {
+    if (a.total && has(model, 'ui.plan.accel_week_total')) out.push(t('ui.plan.accel_week_total', { pct: a.pct }));
+    else if (a.group && has(model, 'ui.plan.accel_week')) out.push(t('ui.plan.accel_week', { pct: a.pct, group: 'group.' + a.group }));
+  }
+  return out;
+}
+
+/**
+ * The average time of a day as words (COACH-CT CT-01 'we can give an average recommendation of what it should take, but we will
+ * never know'; COACH-R4 R4-SES-01 'an estimate like about 60-75 minutes ... as information only'): a range around the estimate
+ * (rules.render.estimate: 10 % each way, rounded to 5 min). `line` = the day card's sentence, else the table cell.
+ */
+function estRange(model, min) {
+  const E = model.rules.render && model.rules.render.estimate;
+  if (!E || !Array.isArray(E.range_factor) || !(E.round_to_min > 0)) return null;
+  const r = E.round_to_min;
+  const low = Math.max(r, Math.round(min * E.range_factor[0] / r) * r), high = Math.round(min * E.range_factor[1] / r) * r;
+  return high > low ? { low, high } : null;
+}
+function estText(model, o, min, line) {
+  const t = T(model, o), r = estRange(model, min);
+  if (r && has(model, line ? 'ui.plan.est_line' : 'ui.plan.est_range')) return t(line ? 'ui.plan.est_line' : 'ui.plan.est_range', r);
+  return line && has(model, 'ui.plan.est_line_one') ? t('ui.plan.est_line_one', { min }) : t('ui.plan.est_minutes', { min });
+}
+
+/**
+ * 'Easiest to remove if you want a shorter day (your choice): finisher: X · small-muscle accessories: A, B' (COACH-R4 R4-SES-04).
+ * The day's own list (day.easy_to_remove, in the order of rules.session.easy_to_remove), by kind; nothing is removed for the person.
+ */
+function easyToRemoveLine(d, model, o) {
+  const E = model.rules.render && model.rules.render.easy_to_remove;
+  const list = (d.easy_to_remove || []).filter(x => x && x.slot_id);
+  if (!E || !list.length || !has(model, 'ui.plan.easy_to_remove_line')) return '';
+  const all = (d.blocks || []).flatMap(b => (b.on === false ? [] : (b.items || [])));
+  const shown = [];
+  for (const x of list) { const it = all.find(i => i.slot_id === x.slot_id); if (it) shown.push({ kind: x.kind, name: exName(model, o, it) }); }
+  if (!shown.length) return '';
+  const max = typeof E.max_listed === 'number' ? E.max_listed : shown.length;
+  const kinds = [];
+  for (const x of shown.slice(0, max)) { let k = kinds.find(y => y.kind === x.kind); if (!k) { k = { kind: x.kind, names: [] }; kinds.push(k); } if (!k.names.includes(x.name)) k.names.push(x.name); }
+  const parts = kinds.map(k => { const key = (E.kind_keys || {})[k.kind]; return (key && has(model, key) ? model.t(o.lang, key) + ': ' : '') + k.names.join(', '); });
+  if (shown.length > max && has(model, 'ui.plan.easy_more')) parts.push(model.t(o.lang, 'ui.plan.easy_more', { n: shown.length - max }));
+  return esc(model.t(o.lang, 'ui.plan.easy_to_remove_line', { list: parts.join(DOT) }));
+}
+
+/** the planned reps in the tank of an item as words ('3', '1-2'): its own effort, else the week's planned effort, else the rule's default */
+function rirWords(it, w, model) {
+  const e = it.effort;
+  if (e && e.type === 'rir' && typeof e.min === 'number') return e.min === e.max ? String(e.min) : e.min + '-' + e.max;
+  const p = w && w.planned_rir;
+  if (p && typeof p.min === 'number') return p.min === p.max ? String(p.min) : p.min + '-' + p.max;
+  const P = model.rules.render && model.rules.render.progression;
+  return (P && P.rir_default) || '1-2';
+}
+
+/**
+ * How a lift progresses, as the rule the person applies (COACH-R4 R4-PRG-03: '3 sets of 8-12. When you hit 12 on every set with
+ * 1-2 reps left in the tank, add weight next time and start again at 8.' - never a promise like 'week 3: 12 reps'). Written from
+ * item.progression (engine/progression/prescription.mjs progressionRule); a lift with its reps written per set (the pyramid) reads
+ * 'the written reps'.
+ */
+function progressionLine(it, w, model, o) {
+  const P = model.rules.render && model.rules.render.progression;
+  const pr = it.progression;
+  if (!P || !P.per_item || !pr || pr.promised_numbers !== false || !Array.isArray(pr.rep_range)) return '';
+  const base = it.set_reps ? P.keys.written_reps : P.keys[pr.kind];
+  if (!base) return '';
+  const side = !it.set_reps && it.reps && it.reps.type === 'per_side' && has(model, base + (P.per_side_suffix || '_side'));
+  const key = side ? base + (P.per_side_suffix || '_side') : base;
+  if (!has(model, key)) return '';
+  return T(model, o)(key, { low: pr.rep_range[0], high: pr.rep_range[1], rir: rirWords(it, w, model) });
+}
+
+/**
+ * 'How you progress' (COACH-R4 R4-PRG-03 / R4-PRG-02 / R4-PRG-04, COACH-CX CX-02 .. CX-04): the rule for reps and weight with an
+ * example from the plan, what the sets do, the weeks that add more than usual, where the next block starts, and that the plan is
+ * an editable template.
+ */
+function progressSection(plan, model, o) {
+  const t = T(model, o);
+  const P = model.rules.render && model.rules.render.progression;
+  if (!P || !P.section || plan.status !== 'ok' || !has(model, 'ui.plan.progress_title')) return [];
+  const weeks = plan.weeks || [];
+  const stair = weeks.filter(w => w.block_type === 'stairway');
+  const L = ['## ' + t('ui.plan.progress_title'), ''];
+  // the example: the first lift of the plan with a rep range (a main lift first)
+  let ex = null;
+  for (const w of (stair.length ? stair : weeks)) {
+    const its = dayListOf(w).flatMap(d => (d.blocks || []).flatMap(b => (b.on === false ? [] : (b.items || []))));
+    const ok = (it) => it.progression && it.progression.kind === 'double_progression' && !it.set_reps && it.name_key && typeof it.sets === 'number' && it.sets > 0;
+    ex = its.find(it => ok(it) && it.role === 'work') || its.find(ok) || null;
+    if (ex) break;
+  }
+  const anyRule = weeks.some(w => (w.days || []).some(d => (d.blocks || []).some(b => (b.items || []).some(it => it.progression))));
+  if (ex && has(model, 'ui.plan.progress_rule')) L.push('- ' + esc(model.t(o.lang, 'ui.plan.progress_rule', { exercise: exName(model, o, ex), sets: ex.sets, low: ex.progression.rep_range[0], high: ex.progression.rep_range[1] })));
+  else if (anyRule && has(model, 'ui.plan.progress_rule_plain')) L.push('- ' + t('ui.plan.progress_rule_plain'));
+  const circuit = weeks.some(w => w.circuit && typeof w.circuit.work_s === 'number');
+  if (circuit && has(model, 'ui.plan.progress_circuit')) L.push('- ' + t('ui.plan.progress_circuit'));
+  const climbs = stair.length > 1 && stair.some(w => typeof w.total_resistance_sets === 'number' && w.total_resistance_sets !== stair[0].total_resistance_sets);
+  if (!circuit) L.push('- ' + t(climbs || !has(model, 'ui.plan.progress_sets_flat') ? 'ui.plan.progress_sets' : 'ui.plan.progress_sets_flat'));
+  const fast = weeks.filter(w => accelOf(w).length).map(w => w.n);
+  const A = model.rules.render.acceleration;
+  if (fast.length && A && has(model, 'ui.plan.progress_accel')) L.push('- ' + t(fast.length === 1 && has(model, 'ui.plan.progress_accel_one') ? 'ui.plan.progress_accel_one' : 'ui.plan.progress_accel', { mark: A.mark, pct: Math.round(100 * A.above), weeks: weekRuns(fast) }));
+  const NB = model.rules.cycles && model.rules.cycles.next_block;
+  if (stair.length && !circuit && NB && NB.multiplier && has(model, 'ui.plan.progress_next')) L.push('- ' + t('ui.plan.progress_next', { pct: Math.round(100 * (NB.multiplier.numerator / NB.multiplier.denominator - 1)) }));
+  if (has(model, 'ui.plan.progress_edit')) L.push('- ' + t('ui.plan.progress_edit'));
+  L.push('');
+  return L.length > 3 ? L : [];
+}
+function dayListOf(w) { return (w.days || []).slice().sort((a, b) => WEEKDAYS.indexOf(a.weekday) - WEEKDAYS.indexOf(b.weekday)); }
+
+/**
+ * The weekly sets per muscle group of one training block, week by week (design/ENGINE_V05_PLAN.md 'How volume is allocated' step 4:
+ * 'the plan prints weekly sets per group'): group | the sets of each week, counted from the plan's own exercises (a dot between
+ * exercise blocks) | the final sets the stairway is planned to reach. A group the template cannot take to the planned number reads
+ * '23 of 25' (R4-SES-04: said, never hidden); a group with no exercise of its own says so. Three columns: phone-friendly.
+ */
+function setsByWeekTable(plan, tb, model, o) {
+  const t = T(model, o);
+  if (!has(model, 'ui.plan.sets_by_week_title')) return [];
+  const weeks = (plan.weeks || []).filter(w => w.training_block === tb.n);
+  if (weeks.length < 2 || !weeks.some(w => w.weekly_sets_by_group && Object.keys(w.weekly_sets_by_group).length)) return [];
+  const rec = (Array.isArray(plan.meta && plan.meta.stairway) ? plan.meta.stairway.find(x => x && x.training_block === tb.n) : null) || null;
+  const ebs = (plan.shape.exercise_blocks || []).filter(e => e.training_block === tb.n);
+  const chunks = ebs.length ? ebs.map(e => weeks.filter(w => w.n >= e.weeks[0] && w.n <= e.weeks[1])).filter(c => c.length) : [weeks];
+  const row = (get) => chunks.map(c => c.map(w => fmtNum(get(w))).join(' ')).join(DOT);
+  const rows = [];
+  let example = null;
+  for (const g of model.rules.muscles.groups.order.filter(x => x !== 'core')) {
+    const vals = weeks.map(w => (w.weekly_sets_by_group || {})[g]);
+    if (!vals.some(v => typeof v === 'number' && v > 0)) continue;
+    let fin = '–';
+    if (rec) {
+      const cap = (rec.capped || []).find(x => x && x.group === g);
+      if ((rec.credit_only_groups || []).includes(g)) fin = has(model, 'ui.plan.final_credit_only') ? t('ui.plan.final_credit_only') : '–';
+      else if (cap && has(model, 'ui.plan.final_capped')) { fin = t('ui.plan.final_capped', { held: fmtNum(cap.held), planned: fmtNum(cap.planned) }); if (!example) example = cap; }
+      else if (typeof (rec.group_top || {})[g] === 'number') fin = fmtNum(rec.group_top[g]);
+    }
+    rows.push([t('group.' + g), row(w => (w.weekly_sets_by_group || {})[g]), fin]);
+  }
+  if (!rows.length) return [];
+  // a block with no stairway of sets (a timed circuit, a maintenance or pre-season block) has no final sets to show: two columns
+  const finals = rows.some(r => r[2] !== '–') || !has(model, 'ui.plan.sets_by_week_note_flat');
+  const L = ['### ' + t('ui.plan.sets_by_week_title') + DOT + t('ui.plan.week', { n: tb.weeks[0] + '-' + tb.weeks[1] }), ''];
+  L.push('_' + (!finals ? t('ui.plan.sets_by_week_note_flat') : example ? t('ui.plan.sets_by_week_note', { held: fmtNum(example.held), planned: fmtNum(example.planned) }) : t('ui.plan.sets_by_week_note_plain')) + '_', '');
+  const head = [t('ui.plan.col.group'), t('ui.plan.col.sets_by_week', { from: tb.weeks[0], to: tb.weeks[1] }), ...(finals ? [t('ui.plan.col.final_sets')] : [])];
+  L.push('| ' + head.join(' | ') + ' |', '|' + head.map(() => '---').join('|') + '|');
+  for (const r of rows) L.push('| ' + (finals ? r : r.slice(0, 2)).join(' | ') + ' |');
+  L.push('| **' + t('ui.plan.total') + '** | ' + row(w => w.total_resistance_sets) + (finals ? ' | ' + fmtNum(weeks[weeks.length - 1].total_resistance_sets) : '') + ' |');
+  return L;
+}
+
+/**
+ * The week macro view (COACH-R2 R2-GEN-02 'the macro view of the week ... they can screenshot 1 week and send it over'): the week's
+ * level and notes, its sets per muscle group in one line, the days at a glance and one compact table per training day.
+ */
+function weekMacro(plan, n, model, o) {
+  const t = T(model, o), w = weekOf(plan, n);
+  if (!w) return '';
+  const L = ['## ' + t(has(model, 'ui.plan.week_macro') ? 'ui.plan.week_macro' : 'ui.plan.week', { n }) + DASH + t(w.phase_key), ''];
+  const st = stairText(plan, n, model, o.lang);
+  if (st) L.push('_' + esc(st) + '_', '');
+  if (w.test) L.push('**' + t(testHeaderKey(w, model)) + '** (' + (w.test.items || []).map(i => t('tests.' + i)).join(', ') + ')', '');
+  for (const a of accelLines(w, model, o)) L.push('_' + a + '_', '');
+  const sets = model.rules.muscles.groups.order.filter(g => g !== 'core' && typeof (w.weekly_sets_by_group || {})[g] === 'number' && w.weekly_sets_by_group[g] > 0)
+    .map(g => t('group.' + g) + ' ' + fmtNum(w.weekly_sets_by_group[g]));
+  if (sets.length && has(model, 'ui.plan.sets_this_week')) L.push('**' + t('ui.plan.sets_this_week') + ':** ' + [...sets, t('ui.plan.total') + ' ' + fmtNum(w.total_resistance_sets)].join(DOT), '');
+  const ab = athleticLine(plan, w, model, o);
+  if (ab) L.push(ab, '');
+  const glance = weekGlance(plan, n, model, o);
+  if (glance.length) L.push(...glance, '');
+  for (const d of dayList(plan, n)) { const tbl = dayTable(plan, n, d, model, o); if (tbl.length) L.push(...tbl, ''); }
+  return L.join('\n');
+}
+
+/** the day macro view: the day's compact table (exercise | sets x reps | effort) with its average time */
+function dayMacro(plan, n, d, model, o) {
+  const tbl = dayTable(plan, n, d, model, o);
+  if (!tbl.length) return '';
+  const L = [tbl[0]];
+  if (typeof d.est_minutes === 'number') L.push('_' + T(model, o)('ui.plan.week', { n }) + DOT + estText(model, o, d.est_minutes, true) + '_');
+  L.push(...tbl.slice(1));
+  return L.join('\n');
+}
+
 // ------------------------------------------------------------------------------------------------------------- macro tables
 
 /** the week at a glance: day | session | time | muscle groups (exercises) (R2-GEN-02 macro view; screenshots) */
@@ -967,7 +1031,7 @@ function weekGlance(plan, n, model, o) {
   for (const d of days) {
     const g = Object.entries(d.groups || {}).map(([k, v]) => t('group.' + k) + ' ' + v).join(', ');
     const label = d.kind === 'aerobic' ? t('ui.plan.aerobic_day') : esc(dayTitle(plan, d, model, o)) + optionalTag(plan, d, model, o);
-    const mins = typeof d.est_minutes === 'number' ? t('ui.plan.est_minutes', { min: d.est_minutes }) : '–';
+    const mins = typeof d.est_minutes === 'number' ? estText(model, o, d.est_minutes, false) : '–';
     L.push('| ' + [t('weekday.' + d.weekday), label, mins, g || '–'].join(' | ') + ' |');
   }
   return L;
@@ -1001,6 +1065,9 @@ function blockView(plan, trainingBlock, model, o) {
   const L = ['## ' + t('ui.plan.view.block') + DOT + t(tb.label_key) + DOT + t('ui.plan.week', { n: tb.weeks[0] + '-' + tb.weeks[1] }), ''];
   const levels = weeks.filter(w => typeof w.stair_level === 'number');
   if (levels.length) L.push('**' + t('ui.plan.level') + ':** ' + levels.map(w => w.stair_level.toFixed(1)).join(DOT), '');
+  // v0.5 / V3: the block's weekly sets per muscle group, week by week (design/ENGINE_V05_PLAN.md 'the plan prints weekly sets per group')
+  const byWeek = setsByWeekTable(plan, tb, model, o);
+  if (byWeek.length) L.push(...byWeek, '');
   const days = new Map();
   for (const w of weeks) for (const d of w.days || []) {
     if (!['main', 'optional'].includes(d.kind)) continue;
@@ -1009,13 +1076,22 @@ function blockView(plan, trainingBlock, model, o) {
   for (const wd of WEEKDAYS.filter(x => days.has(x))) {
     const d0 = days.get(wd);
     const rows = new Map();
+    // v0.5 / V4: the rows stand in session order. A station that first appears in a later week (a jump station a baseline test
+    // replaced in week 1, an ankle day that opens with its exercise block) is listed where it sits in the session - after the
+    // station that precedes it that week - never at the bottom of the table, where it read as work done after the lifts
+    const order = [];
     for (const w of weeks) {
       const d = (w.days || []).find(x => x.weekday === wd);
       if (!d) continue;
+      let prev = null;
       for (const b of d.blocks || []) for (const it of b.items || []) {
         // B3 (RECHECK 03 major: a test-only row with dashes): tests are not stairway sets, they are written in their weeks
         if (['warmup', 'cooldown', 'aerobic'].includes(b.kind) || !(it.name_key || it.wod) || it.role === 'test' || it.bucket === 'TEST') continue;
-        if (!rows.has(it.slot_id)) rows.set(it.slot_id, { names: [], sets: new Map(), reps: [], byEb: new Map() });
+        if (!rows.has(it.slot_id)) {
+          rows.set(it.slot_id, { names: [], sets: new Map(), reps: [], byEb: new Map() });
+          order.splice(prev === null ? 0 : order.indexOf(prev) + 1, 0, it.slot_id);
+        }
+        prev = it.slot_id;
         const r = rows.get(it.slot_id);
         const nm = esc(exName(model, o, it));
         if (!r.names.includes(nm)) r.names.push(nm);
@@ -1030,7 +1106,7 @@ function blockView(plan, trainingBlock, model, o) {
     if (!rows.size) continue;
     L.push('### ' + t('weekday.' + wd) + DOT + esc(dayTitle(plan, d0, model, o)), '');
     L.push('| ' + t('ui.plan.exercise') + ' | ' + t('ui.plan.sets') + ' | ' + t('ui.plan.reps') + ' |', '|---|---|---|');
-    for (const r of rows.values()) {
+    for (const r of order.map(id => rows.get(id))) {
       const byEb = [];
       for (const eb of (plan.shape.exercise_blocks || []).filter(e => e.training_block === tb.n)) {
         const part = weeks.filter(w => w.n >= eb.weeks[0] && w.n <= eb.weeks[1]).map(w => (r.sets.has(w.n) && r.sets.get(w.n) !== null ? String(r.sets.get(w.n)) : '–'));
@@ -1056,6 +1132,7 @@ function weekSection(plan, n, model, o) {
   const st = stairText(plan, n, model, o.lang);
   if (st) L.push('_' + esc(st) + '_', '');
   if (w.test) L.push('**' + t(testHeaderKey(w, model)) + '** (' + (w.test.items || []).map(i => t('tests.' + i)).join(', ') + ')', '');
+  for (const a of accelLines(w, model, o)) L.push('_' + a + '_', '');
   // B3: the intensifier line only in a week whose items carry one (RECHECK 05 minor: announced, but no item had it)
   if (w.planned_rir && w.planned_rir.intensifiers && intensifierWeeks(plan).includes(n)) {
     // F3: the days that carry one (RECHECK 04 / 06 / 08 minors: 'one intensifier per training day' with days that had none)
@@ -1152,13 +1229,14 @@ function dayTitle0(plan, d, model, o) {
   const swapped = (lead ? [lead] : items).some(it => LOWER4.includes(it.bucket) && ((it.flags || []).some(f => ['laterality_flip', 'pattern_gap'].includes(f)) || (it.why || []).some(w => w.key === 'why.laterality_share')));
   const enLabel = String(model.t('en', d.label_key));
   const m = /^([A-Z][0-9A-Za-z]{0,3}) - /.exec(enLabel);
-  // the template names a pattern the day no longer holds (the time check left a group out: 'A - squat + pull' with a hinge only)
+  // the template names a pattern the day does not hold (a kit gap, pain or an exclusion left a slot empty: 'A - squat + pull' with
+  // no squat)
   const holds = (bs) => items.some(it => bs.includes(it.bucket));
   const missing = (/squat|knee|leg press|lunge/i.test(enLabel) && !holds(['RP_BKD', 'RP_UKD'])) || (/hinge|deadlift|\bhip\b/i.test(enLabel) && !holds(['RP_BHD', 'RP_UHD'])) ||
     (/pull/i.test(enLabel) && !holds(['RP_HPULL', 'RP_VPULL'])) || (/push|(?<!leg )press/i.test(enLabel) && !holds(['RP_HPUSH', 'RP_VPUSH']));
   // v0.4 B4 (sample 04: 'Pull + push press day' after the Olympic budget trimmed the push press): a title with no day code (the
   // class model's own lift names) is rebuilt as '<lifts> day' when it names a lift or Olympic piece the day no longer holds
-  const KWL = model.rules.session.time_fit && model.rules.session.time_fit.keep_work_lift;
+  const KWL = model.rules.session.class_lift;
   const classModel = !!(KWL && (KWL.families || []).includes(plan.meta && plan.meta.family));
   const missingOly = /clean|snatch|push press|jerk/i.test(enLabel) && !holds(['AP_TRIPLE_EXT']);
   if (!m && classModel && (missing || missingOly) && has(model, 'ui.plan.day_title_plain')) {
@@ -1209,33 +1287,28 @@ function dayCard(plan, n, weekday, model, o) {
     return L.join('\n');
   }
   const L = [head + esc(dayTitle(plan, d, model, o)) + optionalTag(plan, d, model, o)];
-  if (typeof d.est_minutes === 'number') L.push('_' + t('ui.plan.est_minutes', { min: d.est_minutes }) + '_');
+  // v0.5 / V3 (COACH-CT CT-01, COACH-R4 R4-SES-01): the average time, as a range - information only, never a limit
+  if (typeof d.est_minutes === 'number') L.push('_' + estText(model, o, d.est_minutes, true) + '_');
   // B3 (COACH-R3 R3-SES-02): what can be switched off today, and the supersets that save time
   const sw = switchLine(d, model, o);
   if (sw) L.push('_' + sw + '_');
-  // F3 (COACH-R3 R3-SES-02 'tell them up front'; RECHECK 01 / 02 / 03 / 04 / 06 / 08: 'Supersets marked today keep you inside 60 min'
-  // above a 66-minute day): the promise only when the day's minutes hold it; otherwise the real minutes and what saves more time
-  const over = typeof d.est_minutes === 'number' && typeof d.minutes_limit === 'number' && d.est_minutes > d.minutes_limit;
-  if (d.supersets_needed && has(model, 'ui.plan.supersets_today') && typeof d.minutes_limit === 'number' && !over) L.push('_' + t('ui.plan.supersets_today', { min: d.minutes_limit }) + '_');
+  // v0.5 (CT-01): no 'over your minutes' lines - the estimate above is information; the supersets below are suggestions
   const sugg = supersetSuggestions(d, model, o);
-  // (fix round 2 / F3; RECHECK v0.4 05 minor: a circuit day told to use supersets it does not have)
-  const circuitDay = (d.blocks || []).some(b => b.kind === 'circuit' && (b.items || []).length);
-  if (over && circuitDay && !sugg.length && has(model, 'ui.plan.day_over_circuit')) L.push('_' + t('ui.plan.day_over_circuit', { est: d.est_minutes, min: d.minutes_limit }) + '_');
-  else if (over && has(model, 'ui.plan.supersets_today_over')) {
-    const k = (d.supersets_needed || d.supersets_on ? 'ui.plan.supersets_today_over' : 'ui.plan.day_over') + (sugg.length ? '' : '_none');
-    L.push('_' + t(has(model, k) ? k : 'ui.plan.supersets_today_over', { est: d.est_minutes, min: d.minutes_limit }) + '_');
-  }
   for (const s of sugg) L.push('_' + s + '_');
+  // v0.5 / V3 (COACH-R4 R4-SES-04 'they get to pick what they want to keep or what they want to take away'): what is easiest to
+  // remove today - named, never removed for the person
+  const easy = easyToRemoveLine(d, model, o);
+  if (easy) L.push('_' + easy + '_');
   const shown = displayBlocks(d);
   for (const b of d.blocks || []) {
     const list = shown.get(b) || [];
     if (!list.length) continue;
-    L.push('', '**' + (b.kind === 'circuit' ? t('block.circuit', { n: b.circuit || 1 }) : t('block.' + b.kind)) + '**');
+    L.push('', '**' + (b.kind === 'circuit' ? t('block.circuit', { n: b.circuit || 1 }) : t('block.' + b.kind)) + (b.on === false && has(model, 'edit.block_off') ? ' ' + t('edit.block_off') : '') + '**');
     const circ = (b.items || []).find(it => it.circuit);
     if (circ) L.push('_' + t('ui.plan.circuit_dose', { rounds: circ.circuit.rounds, work_s: circ.circuit.work_s, transition_s: circ.circuit.transition_s }) + '_');
     list.forEach((it, i) => {
       L.push((i + 1) + '. ' + itemLine(plan, d, it, model, o));
-      for (const s of itemDetails(plan, d, it, model, o)) L.push('   ' + s);
+      for (const s of itemDetails(plan, d, it, model, o, w)) L.push('   ' + s);
     });
   }
   return L.join('\n');
@@ -1416,11 +1489,14 @@ function supersetPartners(d, it) {
   return all.filter(x => x !== it && x.superset === it.superset && x.slot_id !== it.slot_id);
 }
 
-function itemDetails(plan, d, it, model, o) {
+function itemDetails(plan, d, it, model, o, w) {
   const t = T(model, o), L = [];
   if (it.test && it.test.test && it.bucket !== 'TEST') L.push('- **' + t('ui.plan.test_week') + ':** ' + esc(testName(model, o.lang, it.test.test)));
   const load = formatLoad(it.load && it.load.type === 'medball_lb' ? { ...it.load, wall_ball: isWallBall(model, it) } : it.load, model, o.lang, o.units);
   if (load) L.push('- ' + esc(load));
+  // v0.5 / V3 (COACH-R4 R4-PRG-03): how this lift progresses - a rule the person applies, never a promised number
+  const prog = progressionLine(it, w, model, o);
+  if (prog) L.push('- ' + prog);
   // F3: one instruction per test (RECHECK 01 / 04 / 07 majors: 'it replaces this lift's top set' next to 'Test day: replaces this week's
   // top sets'); the once-a-plan notes are said up front (ONCE_NOTES)
   const replaces = (it.notes || []).some(n => n && n.key === 'note.test_top_set_replaces');
@@ -1443,14 +1519,60 @@ function itemDetails(plan, d, it, model, o) {
     L.push('- ' + it.wod.stations.map((s, i) => wodStation(model, o, it.wod, s, i)).join(DOT));
   }
   if (it.cue_key && !it.wod) L.push('> ' + t(it.cue_key));
-  if (o.show_swaps && (it.swaps || []).length) L.push('- ' + t('ui.plan.swaps') + ': ' + it.swaps.filter(s => model.hasEx(s)).map(s => esc(model.t(o.lang, model.ex(s).name_key))).join(' / '));
+  if (o.show_swaps && (it.swaps || []).length) L.push('- ' + t('ui.plan.swaps') + ': ' + it.swaps.filter(s => model.hasEx(s)).map(s => swapText(model, o, it, s)).join(' / '));
   if (it.name_key && !it.wod) {
     const v = it.video;
-    if (v && v.url && v.kind !== 'search') L.push('- [' + t('ui.plan.video') + '](' + v.url + ')');
-    // (fix round 2 / F3; R2-GEN-08; RECHECK v0.4 03 minor: the long Spanish names find few videos) the search uses the English gym name
-    else L.push('- [' + t('ui.plan.video_search') + '](' + YT + encodeURIComponent(o.lang !== 'en' && model.rules.render && model.rules.render.video_search_english ? model.t('en', it.name_key) : (it.bucket === 'TEST' ? model.t(o.lang, it.name_key) : exName(model, o, it))) + ')');
+    // v0.5 / V2 (COACH-R4 R4-LIB-05): a YouTube search built from the exercise's English name - no third-party video link - and
+    // that exact name to copy and paste (the coach's own videos, kind 'coach', can be added later)
+    if (v && v.url && v.kind === 'coach') L.push('- [' + t('ui.plan.video') + '](' + v.url + ')');
+    // (a cardio session is named by its colour and the client's own cardio tool, not by the library's run-walk record: its search
+    // uses that session name and there is no record name to copy)
+    else if (v && v.url && !aerobicOf(it)) L.push('- [' + t('ui.plan.video_search') + '](' + v.url + ')' + (v.copy_name && has(model, 'ui.plan.copy_name') ? DOT + copyNameText(model, o, v.copy_name) : ''));
+    // (a test row, a cardio session, or a plan written before the catalog carried its links: the search is built from the name here)
+    else L.push('- [' + t('ui.plan.video_search') + '](' + YT + encodeURIComponent(aerobicOf(it) ? exName(model, { ...o, lang: 'en' }, it) : (o.lang !== 'en' && model.rules.render && model.rules.render.video_search_english ? model.t('en', it.name_key) : model.t(o.lang, it.name_key))) + ')');
   }
   if (o.show_why && (it.why || []).length) L.push('- _' + t('ui.plan.why') + ':_ ' + it.why.map(x => esc(whyText(x, model, o.lang))).join(DOT));
+  return L;
+}
+
+/** v0.5 / V2 (COACH-R4 R4-LIB-04): a swap with its one line - what it keeps and what it loses (item.swap_notes) */
+function swapText(model, o, it, id) {
+  const name = esc(model.t(o.lang, model.ex(id).name_key));
+  const n = (it.swap_notes || []).find(x => x && x.id === id);
+  if (!n || !has(model, 'ui.plan.swap_note') || !has(model, n.keeps)) return name;
+  const keeps = esc(model.t(o.lang, n.keeps));
+  if (!n.loses || !has(model, n.loses)) return esc(model.t(o.lang, 'ui.plan.swap_note_keeps', { name: '\u0001', keeps: '\u0002' })).replace('\u0001', name).replace('\u0002', keeps);
+  return esc(model.t(o.lang, 'ui.plan.swap_note', { name: '\u0001', keeps: '\u0002', loses: '\u0003' })).replace('\u0001', name).replace('\u0002', keeps).replace('\u0003', esc(model.t(o.lang, n.loses)));
+}
+
+/** v0.5 / V2 (R4-LIB-05): 'Name to copy into YouTube: `Farmer Carry (bilateral)`' - the exact name in a code span, easy to select */
+function copyNameText(model, o, name) {
+  return esc(model.t(o.lang, 'ui.plan.copy_name', { name: '\u0001' })).replace('\u0001', '`' + String(name).replace(/`/g, "'") + '`');
+}
+
+/**
+ * v0.5 / V2 (COACH-R4 R4-LIB-01): the optional add-ons the plan offers - never part of the template ('they can be chosen and added,
+ * but not primary ones'); each with its dose, what it is for and its search link.
+ */
+function addonsSection(plan, model, o) {
+  const t = T(model, o);
+  const list = (plan.meta && plan.meta.addons) || [];
+  if (!list.length || !has(model, 'ui.plan.addons_title') || plan.status !== 'ok') return [];
+  const L = ['## ' + t('ui.plan.addons_title'), '', '_' + t('ui.plan.addons_intro') + '_', ''];
+  for (const a of list) {
+    if (!a || !model.hasEx(a.exercise_id)) continue;
+    const sets = Array.isArray(a.sets) ? (a.sets[0] === a.sets[1] ? String(a.sets[0]) : a.sets[0] + '-' + a.sets[1]) : String(a.sets || '');
+    const dose = sets + ' × ' + esc(formatReps(a.reps, model, o.lang));
+    let purpose = '';
+    if (a.kind === 'joint_care') {
+      // the label follows the exercise when the rules name one for it (a tibialis raise is care for the shins and ankles), else the code
+      const LBE = ((model.rules.prehab && model.rules.prehab.label_by_exercise) || []).find(x => new RegExp(x.re).test(a.exercise_id) && has(model, x.key));
+      purpose = LBE ? t(LBE.key) : has(model, 'prehab.label.' + a.code) ? t('prehab.label.' + a.code) : (has(model, 'addon.purpose.sport') ? t('addon.purpose.sport') : '');
+    } else if (has(model, 'addon.purpose.' + a.kind)) purpose = t('addon.purpose.' + a.kind);
+    L.push('- **' + esc(model.t(o.lang, a.name_key)) + '** ' + DASH.trim() + ' ' + dose + (purpose ? DOT + purpose : ''));
+    if (a.video && a.video.url) L.push('   - [' + t('ui.plan.video_search') + '](' + a.video.url + ')' + (a.video.copy_name && has(model, 'ui.plan.copy_name') ? DOT + copyNameText(model, o, a.video.copy_name) : ''));
+  }
+  L.push('');
   return L;
 }
 
@@ -1473,18 +1595,18 @@ function isWallBall(model, it) {
 function renderRefer(plan, model, o) {
   const t = T(model, o);
   const L = ['# ' + t('ui.plan.refer_title'), ''];
-  const risk = ownRisk(model, o);
+  const risk = ownRisk(plan, model, o);
   if (risk) L.push(risk, '');
   L.push(t('ui.plan.refer_body'), '');
   for (const r of (plan.refer && plan.refer.reasons) || []) L.push('- ' + t(r));
-  L.push('', t('health.refer'), '', '---', '', t('ui.disclaimer'));
+  L.push('', t('health.refer'), '', '---', '', t('ui.disclaimer') + legalLink(model, o));
   return L.join('\n');
 }
 
 function renderInvalid(plan, model, o) {
   const t = T(model, o);
   const L = ['# ' + t('ui.plan.title'), ''];
-  const risk = ownRisk(model, o);
+  const risk = ownRisk(plan, model, o);
   if (risk) L.push(risk, '');
   for (const e of plan.errors || []) {
     // field errors: '{field}: what is wrong' (intake.error.<code>); other issues (release missing, banned inputs) as written
@@ -1492,6 +1614,6 @@ function renderInvalid(plan, model, o) {
     if (e.code && model.has('en', ek) && e.key && e.key.startsWith('intake.')) L.push('- ' + t(ek, { ...(e.args || {}), field: model.t(o.lang, e.key) }));
     else L.push('- ' + t(e.key, e.args));
   }
-  L.push('', '---', '', t('ui.disclaimer'));
+  L.push('', '---', '', t('ui.disclaimer') + legalLink(model, o));
   return L.join('\n');
 }

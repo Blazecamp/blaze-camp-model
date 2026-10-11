@@ -97,10 +97,15 @@ describe('v0.4 fix round 1 / F3: selection, dosing and the printed plan (coach-e
     for (const n of ALL) if (!lowerHeld(plan(n))) assert.ok(check(plan(n), 'V28').pass, `${n}: ${JSON.stringify(check(plan(n), 'V28').violations)}`);
     // the tested lifts and the counted squat / hinge stay two-legged (one bilateral exposure per pattern)
     for (const n of ['02', '03']) for (const x of allItems(plan(n)).filter(x => (x.it.flags || []).includes('axial_counted'))) assert.equal(exOf(x.it.exercise_id).laterality, 'bilateral', `${n} ${x.it.exercise_id}`);
-    // 06 / 07 (80 -> 90 %): the later blocks hold more two-legged lower work than the first
-    for (const n of ['06', '07']) {
-      const share = (eb) => { let bi = 0, uni = 0; for (const x of allItems(plan(n)).filter(x => x.w.exercise_block === eb && x.it.sets)) { const e = exOf(x.it.exercise_id); if (!e) continue; if (['BKD', 'BHD'].includes(e.credit_class)) bi += x.it.sets; else if (['UKD', 'UHD'].includes(e.credit_class)) uni += x.it.sets; } return bi / (bi + uni); };
-      assert.ok(share(3) > share(1), `${n}: ${share(1)} -> ${share(3)}`);
+    // engine 0.5.0 / V4 (converted; DECISIONS G-56; COACH-R4 R4-SES-05 'knee-dominant movement, bilateral ... knee-dominant movement,
+    // unilateral'; OBSERVED BYOP 'Bilateral KD' / 'Unilateral KD' / 'Bilateral HD' / 'Unilateral HD'): 06 / 07 are built on the coach's
+    // A / B and push / pull / legs days, whose slots name their laterality - the dial no longer swaps a single-leg slot to a two-legged
+    // lift in the later blocks (was: 'the later blocks hold more two-legged lower work than the first'); every lower slot keeps the
+    // laterality its slot names in every week
+    const WANT = { RP_BKD: ['bilateral'], RP_BHD: ['bilateral'], RP_UKD: ['unilateral', 'alternating'], RP_UHD: ['unilateral', 'alternating'] };
+    for (const n of ['06', '07']) for (const x of allItems(plan(n))) {
+      if (x.d.kind !== 'main' || x.it.origin !== 'template' || !WANT[x.it.bucket] || !x.it.exercise_id) continue;
+      assert.ok(WANT[x.it.bucket].includes(exOf(x.it.exercise_id).laterality), `${n} w${x.w.n} ${x.it.slot_id}: ${x.it.exercise_id} in a ${x.it.bucket} slot`);
     }
   });
 
@@ -124,16 +129,8 @@ describe('v0.4 fix round 1 / F3: selection, dosing and the printed plan (coach-e
     assert.ok(!/\*\*Focus muscles/.test(unesc(md('01', 'en'))));
     assert.ok(unesc(md('06', 'en')).includes('**' + t('en', 'ui.plan.profile_label') + ':** '));
   });
-  test('R01-pattern-kept-note: a kept movement-pattern station says it is 2 sets that do not count toward the weekly sets, never "Extra exercise to reach your weekly sets" (E-114)', () => {
-    for (const n of ['01', '08']) {
-      const kept = allItems(plan(n)).filter(x => x.it.origin === 'pattern_kept');
-      assert.ok(kept.length, n);
-      for (const x of kept) {
-        assert.ok(x.it.notes.some(nt => nt.key === 'note.pattern_kept'), `${n} ${x.it.slot_id}`);
-        assert.ok(!x.it.notes.some(nt => nt.key === 'note.focus_added'), `${n} ${x.it.slot_id}`);
-      }
-    }
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R01-pattern-kept-note: a kept movement-pattern station says it is 2 sets that do not count toward the weekly s…'
+  //   a 'pattern kept' station was what the time check left of a dropped group; nothing is dropped any more (R4-SES-04), so no item has that origin
   test('R01-optional-tag-once: an optional day\'s title never reads "Optional day (optional)" (E-114)', () => {
     for (const n of ALL) for (const lang of ['en', 'es']) assert.ok(!/Optional day \(optional\)|Día opcional \(opcional\)/i.test(md(n, lang)), `${n} ${lang}`);
   });
@@ -178,21 +175,8 @@ describe('v0.4 fix round 1 / F3: selection, dosing and the printed plan (coach-e
     assert.ok(!s.includes('- ' + t('en', 'note.core_supersets_optional')));
   });
 
-  // ------------------------------------------------------------------------------------------------ the schedule tells the truth
-  test('R05-schedule-lists: a group held below the floor is never in the "10+ sets" list, calves under 10 have their own line, a circuit plan says its work climbs per station (E-116)', () => {
-    const s5 = unesc(md('05', 'en'));
-    const line = s5.split('\n').find(l => l.startsWith('- ' + t('en', 'ui.plan.trained_directly_circuit', { groups: '' }).split(':')[0]));
-    // (fix round 2 / F1, E-149 / E-150: 05's chest reaches its floor now - it is listed; a group below the floor never is)
-    const p5 = plan('05');
-    const below = (p5.time_check.trained_below_floor || []).map(x => x.group);
-    assert.ok(line && !/Calves/.test(line) && /Chest/.test(line), line);
-    for (const g of below) assert.ok(!line.includes(t('en', 'group.' + g)), `${g}: ${line}`);
-    assert.ok(s5.includes(t('en', 'ui.plan.calves_line_flat', { n: 9 })));
-    const s7 = unesc(md('07', 'en'));
-    const l7 = s7.split('\n').find(l => /^- Trained directly/.test(l));
-    // (fix round 2 / F3; RECHECK v0.4 07 minor: the calves line says it is below 10 and why)
-    assert.ok(l7 && !/Calves/.test(l7) && /Calves: below 10 sets - the rule is one exercise each leg day/.test(s7), l7);
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R05-schedule-lists: a group held below the floor is never in the "10+ sets" list, calves under 10 have their o…'
+  //   the schedule section ('10+ sets' lists, 'below the floor' lines) is retired with the time check (CT-01)
   test('R08-climbing-truthful: "climb every week" is printed only when every named group gains sets every week; otherwise "through the block" (R3-VOL-04; E-116)', () => {
     for (const n of ALL) {
       const p = plan(n), s = unesc(md(n, 'en'));
@@ -229,8 +213,9 @@ describe('v0.4 fix round 1 / F3: selection, dosing and the printed plan (coach-e
     const s8 = unesc(md('08', 'en'));
     const table = s8.slice(s8.indexOf('## ' + t('en', 'ui.plan.weekly_sets_groups')));
     for (const g of ['quads', 'hips', 'back', 'chest', 'shoulders', 'calves']) assert.ok(table.includes('| ' + t('en', 'group.' + g) + ' |'), g);
-    // (fix round 2 / F1, E-145: back keeps a pattern station - "-" with its sets in brackets)
-    assert.ok(/\| Back \| - \(\d/.test(table));
+    // (v0.5, R4-SES-03: on 2 training days back is trained - 6-8 weekly sets - not left to a kept pattern station)
+    assert.ok(/\| Back \| \d/.test(table));
+    assert.ok(/\| Biceps \| - \(\d/.test(table), 'a credit-only group shows "-" with its helper sets');
     const s1 = unesc(md('01', 'en'));
     assert.ok(/\| Biceps \| - \(\d/.test(s1), 'a credit-only group shows "-" with its helper sets');
   });
@@ -247,7 +232,14 @@ describe('v0.4 fix round 1 / F3: selection, dosing and the printed plan (coach-e
       assert.ok(!/unas 1 repeticiones|Recordatorios:/.test(es), n);
     }
     const s5 = unesc(md('05', 'en'));
-    assert.ok(!/single-leg squat \+ pulls \+ arms/.test(s5) && /Bootcamp 3 - single-leg squat \+ pulls/.test(s5));
+    // (v0.5, R4-SES-02: the 7-station Friday keeps its triceps station, so its title says '+ arms' - and only a day with an arm
+    // exercise says so)
+    assert.ok(/Bootcamp 3 - single-leg squat \+ pulls/.test(s5));
+    for (const d of plan('05').weeks[0].days.filter(x => x.kind === 'main')) {
+      const arms = d.blocks.flatMap(b => b.items).some(it => ['ISO_BICEP', 'ISO_TRICEP'].includes(it.bucket));
+      const title = s5.split('\n').find(l => l.startsWith('### ' + t('en', 'weekday.' + d.weekday)));
+      if (/\+ arms/.test(title)) assert.ok(arms, title);
+    }
     assert.ok(/Bootcamp 2 - bisagra \+ empujes \(press\)/.test(unesc(md('05', 'es'))));
     const snatch = allItems(plan('01')).find(x => x.it.exercise_id === 'single-arm-db-snatch');
     assert.ok(snatch && snatch.it.reps.type === 'per_side');
@@ -270,10 +262,15 @@ describe('v0.4 fix round 1 / F3: selection, dosing and the printed plan (coach-e
 
   // ------------------------------------------------------------------------------------------------ superset rest and reading order
   test('R06-pair-rest-numbers: every superset partner rests in numbers ("rest 60-90 s after the pair"), the longer partner\'s extra sets are done on their own, and partners print next to each other (VOL-14, ORD-05; E-118)', () => {
-    for (const n of ['06', '07', '02']) for (const x of allItems(plan(n)).filter(x => x.it.rest && x.it.rest.type === 'after_pair')) {
-      assert.ok(typeof x.it.rest.min === 'number' && typeof x.it.rest.max === 'number', `${n} ${x.it.slot_id}`);
+    // v0.5 (CT-01; R3-SES-02 'I recommend'): a pair is a recommendation the person switches on - here with the superset preference
+    const on = (n) => { const i = intakeOf(n); i.prefs.supersets_for_fatigue = true; return generate(i, model); };
+    const p6on = on('06');
+    for (const p of [p6on, on('07'), on('02')]) for (const x of allItems(p).filter(x => x.it.rest && x.it.rest.type === 'after_pair')) {
+      assert.ok(typeof x.it.rest.min === 'number' && typeof x.it.rest.max === 'number', `${x.it.slot_id}`);
     }
-    const s = unesc(md('06', 'en'));
+    assert.ok(allItems(p6on).some(x => x.it.superset && x.it.rest && x.it.rest.type === 'after_pair' && x.it.bucket.startsWith('RP_')), 'the preference switches the lift pairs on');
+    assert.ok(!allItems(plan('06')).some(x => x.it.superset && x.it.bucket.startsWith('RP_')), 'a lift pair is off by default');
+    const s = unesc(renderPlan(p6on, model, { lang: 'en' }));
     assert.ok(!/rest after the pair(?! )/.test(s.replace(/rest \d+-\d+ (s|min) after the pair/g, '')));
     assert.ok(s.includes(t('en', 'ui.plan.superset_leftover_one')) || s.includes('Then do its last'));
     // reading order: [X1] is followed by [X2]
@@ -290,12 +287,25 @@ describe('v0.4 fix round 1 / F3: selection, dosing and the printed plan (coach-e
   test('R08-intensifier-fallback: a main day whose last item cannot take the MYO (an Achilles-protected calf raise, a glute bridge) gives it to its last eligible machine / isolation item; the header names the days (E-119)', () => {
     const p = plan('08');
     const last = stairWeeks(p).slice(-1)[0];
-    for (const d of last.days.filter(x => x.kind === 'main')) assert.ok(d.blocks.some(b => b.items.some(it => it.effort && it.effort.last_set === 'myo')), d.weekday);
+    // (v0.5 fix round 1, VOL-03 'pain: cut, keep it moving, do not push it' / sample 08 major: the MYO set never lands on a muscle
+    // the plan cut for pain, and a calf raise carries it only when the day holds nothing else and the week tests no sprint or jump -
+    // rules.effort.intensifiers; so a training day may hold none)
+    const pain = new Set(p.meta.targets.pain_muscles || []);
+    const myoOf = (d) => d.blocks.flatMap(b => b.items).filter(it => it.effort && it.effort.last_set === 'myo');
+    assert.ok(last.days.filter(x => x.kind === 'main').some(d => myoOf(d).length === 1), 'no training day carries the intensifier');
+    for (const d of last.days) for (const it of myoOf(d)) {
+      const e = model.ex(it.exercise_id);
+      assert.ok(!Object.entries(e.credits).some(([m, c]) => c >= 1 && pain.has((R.muscles.defs[m] || {}).line || m)), `${d.weekday} ${it.exercise_id}: a MYO set on a pain muscle`);
+    }
     assert.ok(check(p, 'V12').pass && check(p, 'V17').pass);
     const p6 = plan('06');
     const l6 = stairWeeks(p6).slice(-1)[0];
     for (const d of l6.days.filter(x => x.kind === 'main')) assert.equal(d.blocks.flatMap(b => b.items).filter(it => it.effort && it.effort.last_set).length, 1, d.weekday);
-    assert.ok(unesc(md('08', 'en')).includes(t('en', 'effort.intensifier_days', { days: 'Monday and Thursday' })));   // (fix round 2 / F3: 'and' in a list of days)
+    // (fix round 2 / F3: 'and' in a list of days; v0.5: the optional Friday holds the chest bonus exercise - the plan's own
+    // 'template caps chest' answer, R3-VOL-03 - so it has an intensifier day too)
+    const myoDays = last.days.filter(d => d.blocks.some(b => b.items.some(it => it.effort && it.effort.last_set === 'myo'))).map(d => t('en', 'weekday.' + d.weekday));
+    const listed = myoDays.length > 1 ? myoDays.slice(0, -1).join(', ') + ' and ' + myoDays[myoDays.length - 1] : myoDays[0];
+    assert.ok(unesc(md('08', 'en')).includes(t('en', 'effort.intensifier_days', { days: listed })), listed);
   });
   test('R05-circuit-intensifier: the bootcamp\'s last week carries its promised intensifier - a 10-s hold on one isolation station a day, never a compound; a plan with none never promises "a few extra-hard sets" (R3-VOL-04; E-119)', () => {
     const p = plan('05');
@@ -357,10 +367,12 @@ describe('v0.4 fix round 1 / F3: selection, dosing and the printed plan (coach-e
         if (first && first.bucket === 'ISO_SIDE_REAR_DELT') assert.equal(exOf(first.exercise_id).credit_class, 'ISO_SIDE', `w${w.n} ${d.weekday}`);
       }
     }
-    // no Focus: a week with two rear stations and no side station holds one of each (02)
+    // v0.5 (R4-SES-05): the B day's delt slot is the side raise of the coach's template; the rear delts are worked with the rows
+    // (R3-VOL-01) - so the football week holds side raises and no forced rear-delt station (was: 'one of each')
     const w2 = plan('02').weeks[0];
     const cls = items(w2).filter(x => x.it.bucket === 'ISO_SIDE_REAR_DELT' && x.it.sets).map(x => exOf(x.it.exercise_id).credit_class);
-    assert.ok(cls.includes('ISO_SIDE') && cls.some(c => ['ISO_REAR', 'FACEPULL'].includes(c)), cls.join(' '));
+    assert.ok(cls.length >= 1 && cls.includes('ISO_SIDE'), cls.join(' '));
+    assert.ok(check(plan('02'), 'V18').pass);
   });
   test('R05-level-hard: an above-ladder high-skill pick (sissy squat), or any above-ladder pick in a timed circuit (renegade row), is a fallback only - an in-level version that passes the kit wins (CAT-05; E-130)', () => {
     const p = plan('05');
@@ -389,7 +401,9 @@ describe('v0.4 fix round 1 / F3: selection, dosing and the printed plan (coach-e
     assert.ok(tested.includes('barbell-bench-press'), tested.join(' '));
     assert.ok(tested.some(id => /back-squat/.test(id)) && tested.some(id => /conventional|sumo-deadlift/.test(id)), tested.join(' '));
     const w2 = p.weeks[1];
-    for (const d of w2.days) { const it = d.blocks.flatMap(b => b.items).find(i => /^RP_/.test(i.bucket)); if (it && it.reps && it.reps.max) assert.ok(it.reps.max <= 6, `${d.weekday} ${it.exercise_id}`); }
+    // (v0.5 fix round 1, PER-04 / sample 07 minor: the week's second pull day leads with another row than the bent-over barbell row -
+    // a chest-supported row; the heavy shift is for a day's first free-weight two-arm compound, VOL-12, so a supported row keeps its range)
+    for (const d of w2.days) { const it = d.blocks.flatMap(b => b.items).find(i => /^RP_/.test(i.bucket)); if (it && it.reps && it.reps.max && !/seal-row|chest-supported|machine/.test(it.exercise_id)) assert.ok(it.reps.max <= 6, `${d.weekday} ${it.exercise_id}`); }
   });
   test('R06-week-families: versions of one movement count as one in the week - at most 2 lying triceps extensions, no two side planks on one day, swaps never repeat an exercise of the day (PER-04; E-131)', () => {
     for (const n of ['06', '07']) for (const w of stairWeeks(plan(n))) {
@@ -423,14 +437,16 @@ describe('v0.4 fix round 1 / F3: selection, dosing and the printed plan (coach-e
     for (const x of allItems(p).filter(x => x.it.exercise_id === 'front-squat-barbell' && x.it.reps && typeof x.it.reps.max === 'number')) assert.ok(x.it.reps.max <= 10, `w${x.w.n} ${JSON.stringify(x.it.reps)}`);
   });
   test('R03-off-late-step-switch: the late off-season VOL2 -> VOL3 step after the halfway week of a single-block stairway is built and switched off (it costs the soccer sample chest and calves at 3 x 75; open for the coach); switched on it moves weeks 4-6 to 6-8 reps (PER-11; E-125)', () => {
-    assert.equal(R.reps.athlete_vol_phases.off_late_single_block_step.enabled, false);
+    // (v0.5 fix round 1, PER-11 'heavier by block' / sample 03 major: the step is switched ON - with the session sized by exercise
+    // count, CT-01, it no longer costs the soccer sample its chest and calves; switched off the block holds VOL2)
+    assert.equal(R.reps.athlete_vol_phases.off_late_single_block_step.enabled, true);
+    const st = plan('03').weeks.filter(w => w.block_type === 'stairway');
+    assert.deepEqual(st.map(w => w.rep_phase), ['VOL2', 'VOL2', 'VOL2', 'VOL3', 'VOL3', 'VOL3']);
     const raw = readModelDir();
     raw.rules = JSON.parse(JSON.stringify(raw.rules));
-    raw.rules.reps.athlete_vol_phases.off_late_single_block_step.enabled = true;
-    const m2 = loadModel(raw);
-    const p = generate(intakeOf('03'), m2);
-    const st = p.weeks.filter(w => w.block_type === 'stairway');
-    assert.deepEqual(st.map(w => w.rep_phase), ['VOL2', 'VOL2', 'VOL2', 'VOL3', 'VOL3', 'VOL3']);
+    raw.rules.reps.athlete_vol_phases.off_late_single_block_step.enabled = false;
+    const p0 = generate(intakeOf('03'), loadModel(raw));
+    assert.ok(p0.weeks.filter(w => w.block_type === 'stairway').every(w => w.rep_phase === 'VOL2'));
   });
 
   // ------------------------------------------------------------------------------------------------ sweep intakes the round's own changes broke

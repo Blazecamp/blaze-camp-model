@@ -1,5 +1,7 @@
 # 02 - No-equipment and home subset of the catalog (v1.1, no bands)
 
+> **Status (2026-10-11, model v1.3).** This file was last issued at v1.1 (round 2) and was not re-issued for round 3, round 4, CT-01 or CX-01..04. The current rules are in `BLAZE_CAMP_BRAIN.md` v1.3 (what changed: §0c for round 3, §0d for round 4, CT-01 and CX-01..04) and in `generator_spec_v1.json` 1.3.0. Where this file differs from them, they win. The no-bands rule and the kit lists stand. Read with these later answers: session minutes are not an input and never size or cut a plan (COACH-CT CT-01; COACH-R4 R4-SES-01); on full-body days his A / B template decides how many exercises a group gets (COACH-R4 R4-SES-05); proposed exercises are optional add-ons, never a template pick (R4-LIB-01); no third-party video links in the model data (R4-LIB-05).
+
 **Source:** `synthesis/02_exercise_catalog.json` v1.1 (equipment set-ups, generator pools and eligibility per record). Read-only - no Google Sheet was modified. Evidence labels: OBSERVED / COACH-ANSWER <ID> (round 1) / COACH-R2 <ID> (round 2, `coach_answers_round2.md`) / INFERRED / SCIENCE / PROPOSED / PROPOSED-ADDITION (v1.1 sport items, pending approval).
 
 ## v1.1 - round-2 answers applied

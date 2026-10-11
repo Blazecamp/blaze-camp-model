@@ -1,5 +1,7 @@
 # 09 · Generator intake form (landing page inputs)
 
+> **Status (2026-10-11, model v1.3).** This file is the v0 proposal of the intake form and is kept as history. The current intake is `BLAZE_CAMP_BRAIN.md` §13.2 and `generator_spec_v1.json > inputs_schema` (`intake/3`). Retired since this file was written: **F24 session length** and everything that sized or cut a plan by minutes (COACH-CT CT-01; COACH-R4 R4-SES-01: "Drop it. We don't need it"); the sex field (GEN-02); sleep, stress and job questions (R2-GEN-04); the email and output-mode fields and every check-in (R3-VOL-02, R3-GEN-01); 6-week loading plans (PER-01). Added since: Focus muscle 1 / 2 (R3-SES-01), play days and event date (R3-ATH-05), the required terms-and-release tick before a plan is generated (R4-SCP-02). Sessions are sized by exercise count by client type (R4-SES-02).
+
 **What this is.** The proposed intake form for the Blaze Camp program generator. A client fills it in on the landing page, and the generator returns a 6-, 8- or 12-week plan in the coach's style. For every field it gives the type, the options, when it is shown, the default, why the generator needs it, and which rule in the synthesis files consumes it. It also lists the values the generator works out by itself, the checks that stop a bad plan, and one shared vocabulary for goals, sports, season phases, equipment and levels. Today those differ from file to file (`08_open_questions_for_coach.md` C-20 to C-23).
 
 **Design rules for the form (INFERRED, product choices).**

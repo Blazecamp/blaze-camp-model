@@ -17,4 +17,27 @@
 //   (the upper laterality dial, movement families, the second hip as a leg curl, core planes, no step down, swaps by category),
 //   unilateral rep floor, heavy-compound rest, the aerobic ladder, kept exercises / over-time days / test days told in words, the
 //   client's Focus picks, class instructions, neutral Spanish (DECISIONS E-178 ... E-205).
-export const ENGINE_VERSION = '0.4.0';
+// 0.5.0 (work package V1, design/ENGINE_V05_PLAN.md; COACH-CT CT-01, COACH-R4, COACH-CX): template-first, no time-fitting. Session
+//   minutes are neither an input nor a constraint (the time check, the cutters, the offers and timefit.mjs are deleted; estimate.mjs
+//   keeps the printed estimate); days are the coach's templates sized by exercise count; weekly sets per GROUP follow the stairway
+//   to the planned final sets through engine/progression (the audited kernel); the 2-day rule; the bonus exercise on the optional
+//   day; plan edits (engine/edit.mjs) (DECISIONS section G).
+// 0.5.0 (work package V3 "words and checks"): the liability gate and the release line on every plan (COACH-R4 R4-SCP-01 / R4-SCP-02),
+//   reps and load as a rule the person applies (R4-PRG-03), the acceleration note (R4-PRG-02), the time estimate as information
+//   (CT-01), easy-to-remove hints (R4-SES-04), the weekly sets per group week by week and the macro views; the v0.5 check list
+//   V30 ... V37 (DECISIONS G-37 ... G-50).
+// 0.5.0 (work package V4 "integrate"): the coach's gym A / B / C and push / pull / legs days keep each slot's laterality and print slot
+//   for slot (COACH-R4 R4-SES-05), a Focus slot never pushes a group over its final sets (R4-PRG-04), the athletic block keeps the
+//   speed-session order, every main day opens with a warm-up (ORD-08), handstand work and "no floor work" for older adults, the block
+//   view in session order (DECISIONS G-51 ... G-57; samples/STATUS_v0.5.md).
+// 0.5.0 (fix round 1, the coach-eye reviews of the 8 samples): the athletic A / B / C days keep each slot's laterality, the
+//   'Chest / Shoulders' slot and the high-incline credit, the tested lift first, the floor on the training days, pull against push,
+//   isolation at 3 sets with the bonus and the extra small exercise, the steps shared between the weeks (stairwayProgress /
+//   staggerStairways), the class and bootcamp sessions, the scaled athletic week, joint care in the template's lift, the MYO rule
+//   (DECISIONS G-58 ... G-75; samples/STATUS_v0.5.md).
+// 0.5.0 (fix round 2, the second coach-eye review of the 8 samples): core slots on the live library and the low-back repeat, the
+//   swimmer's presses, the third chest lift, loaded jumps, the sprint buy-out, the back at its sport-scaled final sets, the cutting
+//   sport's single-leg and one-arm work, class skeletons, hang power lifts, bootcamp stations by the kit in his order with 5-s
+//   timer steps, the set order (first exercise first), the schedule the plan really runs, the pain words
+//   (tools/fixture/v05-fix2.mjs; DECISIONS G-76 ... G-96; samples/STATUS_v0.5.md).
+export const ENGINE_VERSION = '0.5.0';

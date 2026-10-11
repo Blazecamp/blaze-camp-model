@@ -1,0 +1,157 @@
+[
+  {
+    "id": "R4-SES",
+    "title": "Session size (no more time-fitting)",
+    "blurb": "You said: stop worrying about how long a session takes. We size by number of exercises and print a time estimate only. These settle how.",
+    "qs": [
+      {
+        "id": "R4-SES-01",
+        "core": 1,
+        "q": "Should the form still ask 'how long do you want to train'?",
+        "a": "No. Drop it. The plan shows an estimate like 'about 60-75 minutes' on each day, as information only. Nothing is ever cut or changed because of time."
+      },
+      {
+        "id": "R4-SES-02",
+        "core": 1,
+        "q": "How many exercises per session, by type of client? (Not counting warm-up or the 2 core exercises.)",
+        "a": "General fitness / fat loss: 5-6. Aesthetics / bodybuilding: 6-8. Strength: 5-6. Bootcamp: 5-7 stations. Field athletes off-season: up to 12 (jumps/throws + Olympic + lifts). Older adults 60+: 5-6. Everyone can add or remove exercises."
+      },
+      {
+        "id": "R4-SES-03",
+        "core": 1,
+        "q": "Someone trains only 2 days a week. With your exercise counts, not every muscle can get 10+ sets a week. What gives?",
+        "a": "Every big muscle still gets trained, with fewer weekly sets (about 6-8 instead of 10), and the plan says so and suggests a 3rd day. We do NOT drop whole muscles, and we do NOT pile on more exercises. (Your earlier answer was 'train fewer muscles directly'. Tell us which you want.)"
+      },
+      {
+        "id": "R4-SES-04",
+        "core": 1,
+        "q": "When a session hits its exercise count, what gets left out first?",
+        "a": "Always keep: the 2 core exercises, the main lifts, and the athletic block for athletes. Leave out first: extra accessories for small muscles, then extra jump/throw stations, then conditioning finishers (moved to the optional day)."
+      },
+      {
+        "id": "R4-SES-05",
+        "core": 0,
+        "q": "On a full-body day, how many exercises does each body part get? You gave us two rules that don't fit together there: (1) a normal session has about 5-6 exercises, and (2) every muscle gets 2-4 exercises a day, never just 1. Six muscles x 2 exercises would be 12 exercises. Which one wins?",
+        "a": "Count by AREA on full-body days: legs, push (chest, shoulders, triceps) and pull (back, biceps). Each area gets 2 exercises. Example day: squat + lunge, bench press + shoulder press, row + pulldown = 6 exercises. So chest alone may get 1 exercise that day, but 'push' gets 2. On split days (push day, pull day, leg day) every muscle still gets 2-4. The other option: full-body days are longer (10-12 exercises) so every single muscle gets 2."
+      }
+    ]
+  },
+  {
+    "id": "R4-PRG",
+    "title": "Progression",
+    "blurb": "Following up on what you told Codex: reach the target, same sets is fine if reps or load go up, everything is editable.",
+    "qs": [
+      {
+        "id": "R4-PRG-01",
+        "core": 1,
+        "q": "The top set number for a muscle: reach it exactly in the last week, or is arriving a week or two early and holding it there fine?",
+        "a": "Reach it in the last week when the math allows. Arriving one week early and holding with more reps or load is fine. Never earlier than that."
+      },
+      {
+        "id": "R4-PRG-02",
+        "core": 1,
+        "q": "You said 'increase faster if that's the need'. In extreme cases (a 4-week block with a big target) that can mean +50% sets in one week. Limit or no limit?",
+        "a": "No hard limit, but the plan prints a clear note when any week adds more than about 15% ('this week jumps more than usual: adjust if needed')."
+      },
+      {
+        "id": "R4-PRG-03",
+        "core": 1,
+        "q": "How should rep and load progress be written, since there are no check-ins?",
+        "a": "As a rule the person applies themselves: '3 sets of 8-12. When you hit 12 on every set with 1-2 reps left in the tank, add weight next time and start again at 8.' Not as a promise like 'week 3: 12 reps'."
+      },
+      {
+        "id": "R4-PRG-04",
+        "core": 0,
+        "q": "When someone finishes a block and starts the next one, where do their sets start?",
+        "a": "A little above where the last block started (about 5% more, rounded to whole sets), never above the level's top number. If they're already at the top, sets stay and progress comes from load and reps."
+      }
+    ]
+  },
+  {
+    "id": "R4-LIB",
+    "title": "Library",
+    "blurb": "Finishing touches Codex and the reviewers found in the exercise library.",
+    "qs": [
+      {
+        "id": "R4-LIB-01",
+        "core": 1,
+        "q": "31 exercises are marked 'proposed' (not yet yours): farmer and suitcase carries, sled push/pull, wall balls, sandbag lunges, burpee broad jumps, split-step reaction drills, swimmer shoulder work (prone Y/T, external rotation), tibialis and soleus raises. Make them live?",
+        "a": "Yes, make them all live, except neck work, which stays proposed until you decide."
+      },
+      {
+        "id": "R4-LIB-02",
+        "core": 0,
+        "q": "How do we write carries and sled work?",
+        "a": "By distance or time, not reps: 2-4 trips of 20-40 meters (or 20-40 seconds). They don't count as muscle sets. They sit with core / conditioning."
+      },
+      {
+        "id": "R4-LIB-03",
+        "core": 0,
+        "q": "You have a 'mid-range push' (incline, landmine). Do you also want a 'mid-range pull' (high row, 45-degree row, face-pull angle)?",
+        "a": "Yes, add 'mid-range pull' as its own small category between horizontal and vertical pull."
+      },
+      {
+        "id": "R4-LIB-04",
+        "core": 0,
+        "q": "When the plan swaps an exercise because of equipment, should it say what the swap loses?",
+        "a": "Yes, one short line. Example: 'DB snatch instead of power clean: keeps the explosive hip drive, loses the barbell catch.'"
+      },
+      {
+        "id": "R4-LIB-05",
+        "core": 1,
+        "q": "The video links in your sheets aren't yours. What do we do with them in the public version?",
+        "a": "Remove them from the public data. Each exercise gets a 'search this exercise on YouTube' link instead. Your own videos can be added later."
+      }
+    ]
+  },
+  {
+    "id": "R4-SCP",
+    "title": "Who it's for, and safety",
+    "blurb": "So the public version is honest about its limits.",
+    "qs": [
+      {
+        "id": "R4-SCP-01",
+        "core": 1,
+        "q": "Who can use the plans on their own, and who should work with a professional?",
+        "a": "On their own: healthy adults. Teens: with a coach or parent. Work with a professional first (the plan is still available to their coach): pregnancy or recent birth, serious medical conditions, coming back from an injury or surgery, frail older adults."
+      },
+      {
+        "id": "R4-SCP-02",
+        "core": 1,
+        "q": "Must the 'use at your own risk' box be ticked before a plan shows? (You said 'it doesn't matter if they click it; it comes out'.)",
+        "a": "Not required. The risk notice is printed at the top of every plan no matter what. The box is just an acknowledgment."
+      },
+      {
+        "id": "R4-SCP-03",
+        "core": 0,
+        "q": "Many sport numbers were confirmed by you, others we inferred from similar sports. Should each sport profile carry a label?",
+        "a": "Yes, in the data and docs: 'Confirmed by coach', 'Based on a similar sport', or 'Proposed'. Not shown on the plan itself."
+      }
+    ]
+  },
+  {
+    "id": "R4-REL",
+    "title": "Release",
+    "blurb": "How we bring it home.",
+    "qs": [
+      {
+        "id": "R4-REL-01",
+        "core": 1,
+        "q": "Release the model now as the finished product, and label the plan-writing engine 'experimental'?",
+        "a": "Yes. Model v1.3 = library + categories + rules + sports + your answers + docs, all merged into one clean main branch. The engine stays in the repo marked experimental until it's rebuilt (simpler now that time-fitting is gone)."
+      },
+      {
+        "id": "R4-REL-02",
+        "core": 0,
+        "q": "Who rebuilds the engine after the release?",
+        "a": "Claude builds it when your weekly usage resets, using the planner design already in the repo (minus all the time-fitting), and your Codex reviews it."
+      },
+      {
+        "id": "R4-REL-03",
+        "core": 0,
+        "q": "How should the repo describe itself publicly?",
+        "a": "'An open, complete coaching model: exercise library, programming rules and sport profiles from coach Lalo Vera, free for anyone to build on.' No 'world's best' or injury-prevention claims."
+      }
+    ]
+  }
+]

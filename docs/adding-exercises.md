@@ -30,7 +30,7 @@ For coaches and developers. This guide shows how to add a new exercise to the li
 |---|---|
 | **No bands, chains or weight releasers**, anywhere: not in a set-up, id, name, cue, swap or Spanish name ("liga", "banda", "cadena" fail the check too, so write "cadena posterior" another way). | COACH-ANSWER EQ-01, EQ-07, EQ-08, EQ-12; hard rule H01 |
 | **No V-squat**, ever. | COACH-ANSWER GEN-08 |
-| **The generator never invents exercises.** It only uses records in the catalog. A record you add is `PROPOSED`: it can appear in the swap lists, never as the main pick, until the coach approves it. | COACH-ANSWER CAT-07; COACH-R2 R2-LIB-01, R2-LIB-07 |
+| **The generator never invents exercises.** It only uses records in the catalog. A record you add is `PROPOSED`. Since round 4 the compiler treats it as an **optional add-on**: it can appear in the swap lists and in a plan's list of optional add-ons, and no template picks it, until the coach approves it. | COACH-ANSWER CAT-07; COACH-R2 R2-LIB-01, R2-LIB-07; COACH-R4 R4-LIB-01 |
 | **Athletic work never counts as muscle sets** (jumps, throws, Olympic lifts, sprints, change of direction, KB swings, conditioning). It is counted in contacts, throws, reps, cuts or metres. | COACH-ANSWER VOL-10; COACH-R2 R2-VOL-05 |
 | **One record per real exercise.** Near-duplicates are merged. Search before you add. | COACH-ANSWER LIB-17 |
 | **English and Spanish names** for every exercise. Spanish is neutral Latin American Spanish with the English gym term in brackets. | COACH-ANSWER GEN-01; COACH-R2 R2-GEN-08 |
@@ -226,7 +226,7 @@ The coach puts the heavy squat and the heavy deadlift on **two different days** 
 ### 4.10 Dose hint, video, sport use
 
 - `typical_rep_range`: a hint (`value` like "8-12 per side") and a `dose_unit`: `reps`, `reps per side`, `contacts`, `throws`, `seconds`, `reps or seconds`, `time / distance / calories`. The real dose comes from the rules (goal, rep class, stairway week). `seconds` makes it a timed hold.
-- `video_urls`: optional (COACH-R2 R2-GEN-02). Leave it empty unless the coach supplies his own video; without one the plan offers a YouTube search link. Third-party videos are not owned by Blaze Camp.
+- `video_urls`: leave it empty (`[]`). The library holds no third-party video link (COACH-R4 R4-LIB-05): the compiler gives every exercise a YouTube search link built from its English name, and the plan shows that exact name to copy. The coach's own videos can be added later.
 - `sport_use_v1_1`: sports or activities that especially need the exercise ("pickleball", "tennis", "swimming", "general population", "home" ...). It gives a small selection bonus; it never filters.
 - `implement_load` (medball items only): `typical_lb` like "8-10". **Never above 20 lb** (EQ-06); no medball in an aesthetics client's main work, warm-up only (ATH-05).
 
@@ -241,7 +241,7 @@ Left: the field you write in `synthesis/02_exercise_catalog.json`. Middle: what 
 | `id` | `id`, `source_id`, `name_key` | Lowercase kebab-case made from the name, unique, plain gym words. The words matter (section 6). |
 | `name` | English name (`exercise.<id>.name`) | Plain gym English, generic and understandable (FIX-03, FIX-04). One short detail may go in brackets: "Landmine Meadows Row (bent-over, one arm)". Brackets that contain "inferred", "not stated", "unconfirmed", "ambiguous", "unclear", "verify" or "listing" are removed from the shown name. |
 | `record_type` | `kind` | `exercise` (almost always); `drill` (technique drills), `test`, `conditioning_prescription` (a cardio session, becomes `conditioning`). Other types are dropped. |
-| `status` | `status` | New: **`proposed_v1_1`** (the proposed status the compiler and the selector recognise: swaps only). After approval: `added_v1_1`. Existing values: `live_library_selectable` (his BYOP library, can be the main pick), `reference_only` and `program_only` (swaps), `live_library_not_selectable`, `retired` (dropped). |
+| `status` | `status` | New: **`proposed_v1_1`** (the proposed status the compiler recognises). The compiler turns it into `optional_addon` in `model/catalog.json`: a swap and an optional add-on, never a template pick (COACH-R4 R4-LIB-01). Neck work is the exception: it stays proposed and is not shown at all. After approval: `added_v1_1`. Existing values: `live_library_selectable` (his BYOP library, can be the main pick), `reference_only` and `program_only` (swaps), `live_library_not_selectable`, `retired` (dropped). |
 | `generic` | none | `false`. |
 | `aliases`, `placements` | none | `[]`. They hold sheet cells, OBSERVED only. |
 
@@ -848,7 +848,7 @@ git diff --stat engine/fixtures/
 
 Only your records (plus the fixture's manifest) should change. If anything else changes, stop and tell the maintainers: the fixture was out of date before your change.
 
-**8.10 Update the pinned numbers.** `tests/compile.test.mjs` pins the number of kept exercises (731 in v1.2; three places in the "counts" test) and of machine-translated Spanish lines (861 in v1.2). Raise each by the number you added. Also update the exercise counts quoted in `README.md` and `engine/README.md` if they changed.
+**8.10 Update the pinned numbers.** `tests/compile.test.mjs` pins the number of kept exercises (733 in model 1.3.0; three places in the "counts" test) and of machine-translated Spanish lines (842 in model 1.3.0). Raise each by the number you added. Also update the exercise counts quoted in `README.md` and `engine/README.md` if they changed.
 
 **8.11 Run the whole suite:**
 
@@ -863,7 +863,7 @@ node tools/generate-samples.mjs   # every sample must say ok
 git diff --stat samples/plans/
 ```
 
-A PROPOSED record can only appear in `swaps` lists. If a main pick changed, something in the record is wrong (most often the status).
+A PROPOSED record can only appear in `swaps` lists and in the plan's optional add-ons (`meta.addons`). If a main pick changed, something in the record is wrong (most often the status).
 
 **8.13 Open the pull request** with: what you added and why (the gap it fills); the lens table for each exercise (like section 7); the evidence labels; the commands you ran and their results; the swap-list changes in the samples. Keep the PR data-only: catalog record, Spanish row, regenerated `model/`, fixture and samples, pinned numbers. Compiler or engine changes go in a separate PR.
 
@@ -900,7 +900,7 @@ The maintainers collect PROPOSED additions into the next round of questions for 
 - [ ] Fixture rebuilt; only your records changed.
 - [ ] Pinned numbers raised; README counts updated.
 - [ ] `node --test tests/`: 0 failures.
-- [ ] Samples regenerated: all ok; the record appears only in swap lists.
+- [ ] Samples regenerated: all ok; the record appears only in swap lists or in the optional add-ons, never as a pick.
 - [ ] PR description with the lens table, labels and results.
 
 ## 11. Troubleshooting
@@ -909,12 +909,12 @@ The maintainers collect PROPOSED additions into the next round of questions for 
 |---|---|---|
 | `Error: unmapped implement X in <id>` (the compiler stops) | An implement word the compiler does not know. | Use a word from section 4.6, or open an issue for a new kind of equipment. |
 | `compile-model: N contract error(s); nothing written` | A shape or rule check failed (band word, duplicate id, bad value ...). | Read the `ERROR` lines; fix the record. |
-| Test "counts: 731 kept ..." fails with `734 !== 731` | The pinned exercise count. | Step 8.10. |
-| Test "i18n: every key used has EN and ES ..." fails with `864 !== 861` | The pinned machine-translated count. | Step 8.10. |
+| Test "counts: 733 kept ..." fails with `736 !== 733` | The pinned exercise count. | Step 8.10. |
+| Test "i18n: every key used has EN and ES ..." fails with `845 !== 842` | The pinned machine-translated count. | Step 8.10. |
 | `es_missing` above 0, or a missing `exercise.<id>.name` key | No Spanish row, or its key differs from the compiled English name. | Copy the English name from `model/i18n/en.json` as the key. |
 | Test "Spanish exercise names ..." fails | English words left outside the brackets, or the Spanish equals the English. | Rewrite the Spanish name. |
 | `model/ is stale: run node tools/compile-model.mjs` | `model/` does not match the sources. | Recompile and commit the regenerated files. |
-| A plan's main pick changed after adding a PROPOSED record | The record is not swap-only. | Check `status: proposed_v1_1` and `default_candidate: false`. |
+| A plan's main pick changed after adding a PROPOSED record | The record is not held back as an optional add-on. | Check `status: proposed_v1_1` and `default_candidate: false`. |
 | Credits are not what you expected | The pattern or an exception decided it. | Check section 4.2, the `per_set` exceptions and the id words (`face-pull`, `thruster`, `pullover`, `swing` ...). |
 | A tag is missing or unwanted | Tags come from the id, the pattern, the equipment and the population phrases. | Section 6; ask for a compiler rule if the id cannot carry the word. |
 | `git diff` shows the whole catalog changed | The file was re-saved with another serializer. | Restore it and use the script in step 8.4. |

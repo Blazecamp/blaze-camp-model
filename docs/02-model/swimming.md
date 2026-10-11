@@ -2,7 +2,7 @@
 
 Swimming is the model's worked example for a sport. **Dryland** is the gym training a swimmer does out of the water. The coach asked for swimming by name, it is the first of the seven sample plans he will grade, and he approved its defaults in round 3: three dryland gym days plus one optional day, no extra cardio in the gym, jump work that is mostly ballistic, Olympic lifts on two or three days, shoulder care in every session with no bands, and a two-week dryland taper before the main championship meet. This page walks through one swimmer from the first question to a finished week. At each step it shows which rule decides, why, and where the data lives. It also shows what is his decision and what is still PROPOSED.
 
-> **How to read this page.** Ids with no prefix (`ATH-01`, `EQ-01`) are the coach's round-1 answers (`coach_answers_full.md`). `R2-` is round 2 (`coach_answers_round2.md`). `R3-` is round 3 (`coach_answers_round3.md`), the newest. A later round wins. "chat" means something he said in conversation. "Approved" means he marked our proposal RIGHT with no extra words, so the wording is ours and the decision is his. **PROPOSED** means the team designed it and he has not confirmed it. His answers: [../03-coach-answers/athletes-and-sports.md](../03-coach-answers/athletes-and-sports.md).
+> **How to read this page.** Ids with no prefix (`ATH-01`, `EQ-01`) are the coach's round-1 answers (`coach_answers_full.md`). `R2-` is round 2 (`coach_answers_round2.md`). `R3-` is round 3 (`coach_answers_round3.md`). A later round wins. "chat" means something he said in conversation. "Approved" means he marked our proposal RIGHT with no extra words, so the wording is ours and the decision is his. **PROPOSED** means the team designed it and he has not confirmed it. His answers: [../03-coach-answers/athletes-and-sports.md](../03-coach-answers/athletes-and-sports.md). **Since model v1.3** there are newer answers too: round 4 (`R4-`, `coach_answers_round4.md`) and two clarifications of 2026-10-10 (`CT-01` on session time, `CX-01..04` on progression and editing). They win on their subjects.
 
 Related pages: [athletes.md](athletes.md) (the rules used here), [sports.md](sports.md) (swimming next to the other 51 sports), [special-populations.md](special-populations.md) (young swimmers, masters swimmers, pain), [sessions.md](sessions.md), [volume.md](volume.md), [stairway.md](stairway.md), [plans-and-calendar.md](plans-and-calendar.md), [testing.md](testing.md), [equipment.md](equipment.md). Terms: [../05-reference/glossary.md](../05-reference/glossary.md).
 
@@ -49,7 +49,7 @@ On bands, his rule covers every plan in the model:
 
 ## 2. The swimmer in this example
 
-A 16-year-old high-school swimmer. Main events: 200 freestyle and 100 butterfly. Two years of training. Off-season. Three gym days of 60 minutes, with an optional Saturday. A full gym. The season starts in about four months.
+A 16-year-old high-school swimmer. Main events: 200 freestyle and 100 butterfly. Two years of training. Off-season. Three gym days, with an optional Saturday. A full gym. The season starts in about four months. (Session length is not part of the answers any more: R4-SES-01.)
 
 This is the same swimmer as sample plan 01 in the repo (`samples/intakes/01-swimming.json`).
 
@@ -71,7 +71,7 @@ This is the same swimmer as sample plan 01 in the repo (`samples/intakes/01-swim
 | Practice and meet days | Pool practices per week, meet days | `F15` | R2-GEN-05 |
 | Age, body weight | 16, 145 lb | `F02`, `F05` | GEN-02 |
 | Training experience | 2 years | `F17` | GEN-02, PRG-05 |
-| Days and minutes | 3 x 60, optional Saturday | days and session length | GEN-02 |
+| Days | 3, optional Saturday | days per week | GEN-02 (session length is no longer asked: R4-SES-01) |
 | Equipment | Full gym | equipment | EQ-01 |
 | Anything hurting? | Nothing | `F35` | VOL-03 |
 | Focus muscles (optional) | None | `F09` | R3-SES-01 |
@@ -101,7 +101,7 @@ The three profiles, their differences and their stroke variants are PROPOSED. He
 | Two-leg : one-leg lifting (start → end of block; in season) | 50/50 → 60/40; 50/50 | 50/50 → 55/45; 45/55 | 40/60 → 40/60; 30/70 |
 | Pull sets for each push set | about 2.2 | about 2.3 | about 2.75 |
 | Budget, sets a week | 97 (23 athletic) | 94 (21 athletic) | 73 (13 athletic) |
-| Estimated minutes per main day | about 68 | about 67 | about 54 |
+| Estimated minutes per main day (information only: CT-01) | about 68 | about 67 | about 54 |
 
 The budget row is the profile's description of an off-season week in the middle of a block. It is a guide for the generator, not a promise. The real weekly sets come from the volume rules (section 9).
 
@@ -257,17 +257,19 @@ What the swimming profiles add on top (PROPOSED):
 | Avoid | Sessions that leave the swimmer sore for the next pool set |
 | Share of work | Middle distance: strength about 45 %, power 30 %, strength-endurance 15 %, muscle size 10 % |
 
-**When 3 x 60 minutes cannot hold all of it.** The model has an approved order (R3-SES-02): tell the swimmer up front and offer another day or longer sessions; if they keep their time, train fewer groups directly, big movers first; recommend supersets; and keep the stairway climbing on the groups that are trained. Which groups a swimmer keeps when time is short is PROPOSED: the back, the hips, the shoulders and the quads come before the chest and the arms.
+**Nothing is cut for time.** The round-3 order for short sessions is retired (CT-01). The swimmer's plan comes out complete on his athletic A / B / C days, with an average time printed on each day as information. If a group's planned sets do not fit the template's slots, the plan adds a bonus exercise on the optional Saturday or says in words that the template holds fewer sets (R4-SES-04). The swimmer or the coach decides what to remove; the plan lists what is easiest to take away.
 
 **Why.** On the floor:
 
 > "I don't think anybody needs less than 10 sets a week per muscle" (R2-VOL-06)
 
-On short sessions:
+On time:
 
-> "Recommend doing supersets so that it's a faster workout, but they should be able to get things done." (R3-SES-02)
+> "You need to stop trying to be responsible for the people's time." (CT-01)
 
-**Where it lives.** Volume rules: `generator_spec_v1.json > rule_tables.weekly_sets`, `rule_tables.counting`, `rule_tables.rate_engine`, `rule_tables.time_model`; see [volume.md](volume.md) and [stairway.md](stairway.md). Swimmer priorities: `synthesis/04_profiles.json > profiles[].resistance` (`priorities`, `push_pull`, `avoid`, `emphasis_pct`). The group count of the budget: `profiles[].derived.v1_2_group_audit`.
+Supersets are still recommended as a way to make a session faster (R3-SES-02).
+
+**Where it lives.** Volume rules: `generator_spec_v1.json > rule_tables.weekly_sets`, `rule_tables.counting`, `rule_tables.rate_engine`; the time estimate (information only) in `model/rules.json > time_model`; see [volume.md](volume.md) and [stairway.md](stairway.md). Swimmer priorities: `synthesis/04_profiles.json > profiles[].resistance` (`priorities`, `push_pull`, `avoid`, `emphasis_pct`). The group count of the budget: `profiles[].derived.v1_2_group_audit`.
 
 ---
 
@@ -350,6 +352,7 @@ The swim coach tapers the pool. The tool only tapers dryland.
 | Switch off that day's core block | R3-SES-02 |
 | Remove a set or an exercise, or add one | R3-SES-02 |
 | Use the recommended supersets to save time | R3-SES-02 |
+| Change the sets of any exercise, for a day or for chosen weeks | CX-02, CX-04 |
 | Add a cardio session | R2-SES-06 |
 | Swap an exercise for another from the same category | GEN-04 |
 
@@ -414,7 +417,7 @@ If something hurts, the swimmer or coach applies his pain rule on the printed pl
 | Shoulder care every session, no bands (R3-ATH-01) | The pull-to-push ratio; the exact care exercises per day |
 | 2-week dryland taper with the swim taper; 1 week or none before smaller meets (R3-ATH-01) | How much the taper cuts; the last heavy lift 7-10 days out |
 | Pre-season about 60 %; in season about 2 lifts (R2-PER-06, PER-08) | The set multipliers per category; the 48-hour rule applied to meets |
-| All general rules: core first, power before strength, pairing, the spine rule, the floor of 10, the stairway, editing | The weekly set budget of each profile; which groups come first when time is short |
+| All general rules: core first, power before strength, pairing, the spine rule, the floor of 10, the stairway, editing | The weekly set budget of each profile; the bonus exercise when a template cannot hold a group's sets |
 | | The two-leg : one-leg numbers; the hotspot rules; the sample weeks on this page |
 
 ---
@@ -430,4 +433,4 @@ The repo holds one generated plan for the swimmer of this page:
 | `samples/plans/01-swimming.json` | The same plan as data, with a reason attached to every decision |
 | `samples/SAMPLES.md` | Notes on what the engine decided |
 
-That plan is the output of the first engine. Its structure follows the rules on this page. Its dosing is still being rebuilt, and the coach has not graded it yet. When the sample and this page disagree, read the coach's answers.
+That plan is the output of engine 0.5 (template-first, no time-fitting). The sample weeks printed on this page are illustrations written before that engine and can differ from the sample plan in exercise picks. The coach has not graded the plan yet. When the sample and this page disagree, read the coach's answers.

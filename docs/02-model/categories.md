@@ -2,7 +2,7 @@
 
 This page explains the coach's categorization, which he called "the hardest thing to understand" (chat). Every exercise carries all of its labels at once: a **family** (what quality it trains), a **pattern** (the movement), a **laterality** (two sides together or one side at a time), a **plane** (the direction of the movement), a **muscle size class** (big or small), the muscles it counts for, its equipment and its level. Two late decisions sit on top of that: muscles are counted in **focus groups** (hips = glutes + hamstrings, shoulders = front + side + rear delts), and a person can choose a **Focus muscle 1** and a **Focus muscle 2**. The page gives each rule, the coach's reason in his own words, and the file and JSON key where it lives.
 
-**How to read the tags.** `CAT-01`, `VOL-10` and similar = his round-1 answers (`coach_answers_full.md`). `R2-...` = round 2 (`coach_answers_round2.md`). `R3-...` = round 3 (`coach_answers_round3.md`), the newest; a later round wins. "chat" = things he said in conversation (`coach_chat_statements.md`, `coach_answers.md`). Those files paraphrase him closely, so only the words they put in quotation marks are quoted here. **OBSERVED** = read from his sheets. **INFERRED** = our reading. **PROPOSED** = our design, not confirmed by him.
+**How to read the tags.** `CAT-01`, `VOL-10` and similar = his round-1 answers (`coach_answers_full.md`). `R2-...` = round 2 (`coach_answers_round2.md`). `R3-...` = round 3 (`coach_answers_round3.md`). `R4-...` = round 4 (`coach_answers_round4.md`), the newest questionnaire round. `CT-01` and `CX-01..04` = two clarifications he gave on 2026-10-10 (session time; progression and editing). The newest answer wins on its subject. "chat" = things he said in conversation (`coach_chat_statements.md`, `coach_answers.md`). Those files paraphrase him closely, so only the words they put in quotation marks are quoted here. **OBSERVED** = read from his sheets. **INFERRED** = our reading. **PROPOSED** = our design, not confirmed by him.
 
 **Short forms.** DB = dumbbell. KB = kettlebell. RDL = Romanian deadlift. COD = change of direction. BYOP = his "BUILD YOUR OWN PROGRAM" workbook, which holds the MASTER EXERCISE LIBRARY.
 
@@ -106,9 +106,10 @@ Session order is explained in [sessions.md](sessions.md). The athletic doses are
 | 'UNILATERAL HIP DOMINANT' | `UHD` | `RP.HD.UL` | single-leg hinges and single-leg bridges | 12 |
 | 'LEG CURLS', now **LEG FLEXION** | `KFLEX` | `RP.LF` | leg curls, Nordics, slider and ball curls | 9 |
 | 'HORIZONTAL PULL' | `HPULL` | `RP.PL.H` | rows | 31 |
+| mid-range pull (added in round 4; not a header in his sheets) | `MRPULL` | `RP.PL.M` | high row, 45-degree row, the face-pull angle. Two row records, both optional add-ons (**PROPOSED** records). | 2 in the compiled library |
 | 'VERTICAL PULL' | `VPULL` | `RP.PL.V` | pulldowns, pull-ups, lat pull-over | 25 |
 | 'HORIZONTAL PUSH' | `HPUSH` | `RP.PU.H` | bench press, push-ups, flies, dips | 30 |
-| 'MID RANGE PUSH' (reference tab only) | `MRPUSH` | `RP.PU.M` (PROPOSED node) | incline press, landmine press, viking press | 5 |
+| 'MID RANGE PUSH' (reference tab only) | `MRPUSH` | `RP.PU.M` (PROPOSED node) | incline press, landmine press, viking press. Preferred over overhead pressing for bodybuilders and the general population (R4-LIB-03). | 5 |
 | 'VERTICAL PUSH' | `VPUSH` | `RP.PU.V` | overhead presses, push press | 27 |
 
 **Terms.**
@@ -116,6 +117,7 @@ Session order is explained in [sessions.md](sessions.md). The athletic doses are
 - **Hip dominant (HD):** the hip does most of the bending: hinges, thrusts, bridges. Counts for hamstrings, or for glutes on thrusts and bridges.
 - **Leg flexion:** bending the knee against load: leg curls. It has its own segment.
 - **Horizontal / vertical:** the direction of an upper-body push or pull. A row is a horizontal pull. A pulldown is a vertical pull.
+- **Mid-range:** an angle between horizontal and vertical. An incline press is a mid-range push. A high row is a mid-range pull. He approved the mid-range pull as "its own small category between horizontal and vertical pull" (R4-LIB-03).
 
 **Three decisions worth knowing.**
 
@@ -293,8 +295,8 @@ This choice is also one of the "one-detail" changes the plan may make between bl
 | Use | Rule | Source | Explained in |
 |---|---|---|---|
 | The floor | in a training block, never under 10 sets a week on a group the plan trains | R2-VOL-06, R3-VOL-01 | [volume.md](volume.md) |
-| Exercises per day | 2 to 4 exercises for each group trained that day, never 1 | R2-SES-05, R3-SES-01 | [sessions.md](sessions.md) |
-| The time check | when the time someone has cannot hold the minimums, fewer groups are trained directly | R3-SES-02 | [sessions.md](sessions.md) |
+| Exercises per day | a full-body day follows his A / B template (a group has 1 to 4 exercises); a split day gives each group 2 to 4 | R4-SES-05, R2-SES-05, R3-SES-01 | [sessions.md](sessions.md) |
+| 2 training days | every big group is still trained, at about 6 to 8 weekly sets (the time check of round 3 is retired: CT-01) | R4-SES-03 | [volume.md](volume.md) |
 | Focus muscle 1 and 2 | the person may pick up to two groups for extra sets | R3-SES-01 | [volume.md](volume.md) |
 
 **Why hips and shoulders are groups.** We proposed counting his FOCUS groups, "with glutes + hamstrings as one 'hips' group ... and front / side / rear delts as 'shoulders'". He marked it RIGHT (R3-SES-01).
@@ -341,7 +343,7 @@ One rule follows from his answers: **credit follows the exercise picked, not the
 | "Biomechanics" as a third bucket of exercises | a description on every exercise | CAT-03 |
 | Rear delts as their own muscle with their own floor and sets | part of the shoulders group | R3-VOL-01 |
 | Side delts and rear delts as separate Focus choices | one shoulders focus | R3-VOL-01 |
-| Weekly increase set by muscle size (3 / 5 / 7 %) | the stairway: one rule for every muscle (about 3 % a week until the halfway week, about 5 % after it), sized so each trained group reaches its ceiling in the last week | VOL-05, R2-PER-03, R3-VOL-04 |
+| Weekly increase set by muscle size (3 / 5 / 7 %) | the stairway: one rule for every muscle (about 3 % a week until the halfway week, about 5 % after it), with bigger steps when needed so each trained group reaches its final sets in the last week | VOL-05, R2-PER-03, R3-VOL-04, CX-01 |
 | "Plyo zones" | Receive-Create stages (a way to do a jump, not a zone) | CAT-11, R2-ATH-03 |
 | KB swings as glute sets | ballistic power reps, no muscle credit | R2-VOL-05 |
 | KB face pulls as a vertical pull | shoulder work, a swap only | LIB-10, R2-LIB-04 |
@@ -382,7 +384,7 @@ The old ids still resolve as aliases: `synthesis/01_taxonomy.json > _meta.retire
 | His sheet label for every id | `synthesis/01_taxonomy.json` | `crosswalk` (641 rows), `library_column_map` |
 | The long explanation | `synthesis/01_taxonomy.md` | §0-§4 |
 | Each exercise | `synthesis/02_exercise_catalog.json` | `taxonomy`, `laterality`, `plane`, `muscle_size_class`, `volume_credit` |
-| Compiled copy the engine reads | `model/catalog.json`, `model/rules.json` | `exercises[]`, `muscles` (generated; the engine is being rebuilt) |
+| Compiled copy the engine reads | `model/catalog.json`, `model/rules.json` | `exercises[]`, `muscles` (generated by the compiler; never edited by hand) |
 | His original sheets | `raw/BYOP.xlsx`, `dumps/BYOP/09_MASTER_EXERCISE_LIBRARY.txt` | rows 1-6 hold his category labels |
 
 Field-by-field meanings are in [../05-reference/data-dictionary.md](../05-reference/data-dictionary.md). To add an exercise and classify it, follow [../adding-exercises.md](../adding-exercises.md).

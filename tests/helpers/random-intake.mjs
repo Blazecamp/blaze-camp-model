@@ -1,6 +1,6 @@
 // tests/helpers/random-intake.mjs - deterministic generator of valid intake/2 objects (engine/CONTRACTS.md §2.1, §8). Owner: B4.
 // randomIntake(i, model) is a pure function of (i, model): the same index always gives the same intake. The main axes are
-// cycled (not drawn) so that any 300 consecutive indexes cover every goal (incl. `active`) x days 2-6 x minutes 30-90 x
+// cycled (not drawn) so that any 300 consecutive indexes cover every goal (incl. `active`) x days 2-6 x
 // all 8 equipment profiles x the listed ages x pain areas x every picker sport (incl. swimming) x every activity (incl.
 // pickleball and HYROX) x plan modes fixed_12 / fixed_8 / maintenance / week_by_week / year (non-competitive) x older opt-in
 // on / off. v0.4: check-ins are retired (R3-VOL-02); old intakes still carry output_mode 'checkin' / 'logbook', so the corpus
@@ -9,7 +9,6 @@
 import { hash53, addDays, WEEKDAYS } from '../../engine/util.mjs';
 
 const GOALS = ['muscle', 'strength', 'athletic', 'active', 'fat_loss', 'general', 'hybrid'];
-const MINUTES = [30, 45, 60, 75, 90];
 const AGES = [15, 16, 22, 29, 35, 44, 52, 57, 61, 66, 70];
 const PAIN_AREAS = ['neck', 'shoulder', 'elbow', 'wrist_hand', 'upper_back', 'lower_back', 'hip_groin', 'knee', 'ankle_foot', 'other'];
 const WORSE_WITH = { shoulder: ['overhead'], knee: ['deep_knee_bend'], lower_back: ['bending_forward'], ankle_foot: ['impact'], wrist_hand: ['gripping'], hip_groin: ['twisting'] };
@@ -65,8 +64,7 @@ export function randomIntake(i, model, opts = {}) {
   let mode = MODES[Math.floor(i / 7) % MODES.length];
   if (mode === 'year' && competitive === 'competitive') mode = 'fixed_12';
   const output_mode = mode === 'week_by_week' ? (i % 2 ? 'checkin' : 'logbook') : pick(['plan_only', 'plan_only', 'checkin']);
-  let minutes = MINUTES[(i + Math.floor(i / 5)) % MINUTES.length];
-  if (competitive === 'competitive' && i % 13 === 0) minutes = 105;
+  // (v0.5: session minutes are no longer an input, R4-SES-01)
 
   const weekdays = DAY_PATTERNS[days][Math.floor(r() * DAY_PATTERNS[days].length)];
   const start_date = addDays('2026-10-12', 7 * (i % 9));
@@ -144,7 +142,7 @@ export function randomIntake(i, model, opts = {}) {
     sport, activity,
     priority_muscles: priority,
     lift_style: pick(['volume_lighter', 'balanced', 'balanced', 'heavy_powerlifting']),
-    schedule: { days_per_week: days, weekdays: weekdays.slice(), session_minutes: minutes, start_date },
+    schedule: { days_per_week: days, weekdays: weekdays.slice(), start_date },
     plan: {
       mode, maint_reason: mode === 'maintenance_4_6' ? pick(MAINT_REASONS) : null, maint_weeks: mode === 'maintenance_4_6' ? 1 + Math.floor(r() * 8) : null,
       previous_cycles: { count: r() < 0.25 ? 1 + Math.floor(r() * 2) : 0, last_had_holds_or_pain: r() < 0.1 },

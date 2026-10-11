@@ -2,7 +2,7 @@
 
 How many sets each muscle gets in a week, how a set is counted, and how hard and how long each set is (reps, effort, rest). The coach counts hard sets per muscle per week. A hard set is a working set done with 1 to 3 reps left in the tank; warm-up sets never count. Beginners start around 10 to 12, intermediates 15 to 20, advanced lifters 20 or more. He does not think anybody needs fewer than 10 sets a week per muscle, so every group that a training block trains directly gets at least 10. Helper muscles get a quarter of a set. Athletic work (jumps, throws, Olympic lifts, sprints) never counts toward a muscle. How the sets grow from week to week is on the [progression](progression.md) page.
 
-This page is part of [the coach answers by topic](index.md). It holds 18 question ids. Every place where a later round changed an earlier answer is also listed in [changes across rounds](changes-across-rounds.md). Read next: [model guide: volume](../02-model/volume.md).
+This page is part of [the coach answers by topic](index.md). It holds 18 question ids. Round 4 added no id to this page, but three round-4 answers changed rules here: the floor of 10 applies from 3 training days ([R4-SES-03](sessions-and-order.md#r4-ses-03)), the next block starts about 5 % above the last block's start ([R4-PRG-04](progression.md#r4-prg-04)), and session size is a count by client type ([R4-SES-02](sessions-and-order.md#r4-ses-02)). Every place where a later answer changed an earlier one is also listed in [changes across rounds](changes-across-rounds.md). Read next: [model guide: volume](../02-model/volume.md).
 
 ## The rules in short
 
@@ -12,7 +12,7 @@ CONFIRMED means the coach said it or approved it. PROPOSED means the team design
 |---|---|---|---|
 | 1 | Starting weekly hard sets per muscle: beginner about 10 to 12, intermediate 15 to 20, advanced 20 or more for priority muscles. | [VOL-01](#vol-01) | CONFIRMED |
 | 2 | Small muscles start a bit lower: 12 for an intermediate, 15 for an advanced lifter. 8 is "barely maintenance", so beginners start at 10. | [R2-VOL-04](#r2-vol-04), [R2-VOL-06](#r2-vol-06) | CONFIRMED |
-| 3 | Floor: nobody needs less than 10 sets a week per muscle. For shoulders the 10 is counted on the whole group (front, side and rear delts together). | [R2-VOL-06](#r2-vol-06), [R3-VOL-01](#r3-vol-01) | CONFIRMED |
+| 3 | Floor: nobody needs less than 10 sets a week per muscle. For shoulders the 10 is counted on the whole group (front, side and rear delts together). The floor holds when there are 3 or more training days; on 2 days every big muscle runs about 6 to 8 weekly sets and the plan suggests a third day. | [R2-VOL-06](#r2-vol-06), [R3-VOL-01](#r3-vol-01), [R4-SES-03](sessions-and-order.md#r4-ses-03) | CONFIRMED |
 | 4 | Most sets a muscle reaches in a 12-week plan: 14 (beginner), 22 (intermediate), 25 (advanced). "This is all customizable." | [R2-VOL-06](#r2-vol-06) | CONFIRMED |
 | 5 | His landmarks: 15 to 20 sets = maintenance to a little growth; 20 to 25 = growth; 5 is too little; 40 is too much. | [UNI-01](bilateral-unilateral.md#uni-01) | CONFIRMED |
 | 6 | Focus muscle 1 and Focus muscle 2: each gets "an extra set or two or three" over the balanced plan. | [R3-SES-01](sessions-and-order.md#r3-ses-01) | CONFIRMED |
@@ -63,7 +63,7 @@ Keys are in [`generator_spec_v1.json`](../../generator_spec_v1.json), the machin
 |---|---|---|---|---|
 | [VOL-01](#vol-01) | 1 | RIGHT | Start: beginner 10-12, intermediate 15-20, advanced 20+ sets per muscle per week. No learning from user data. | Partly superseded |
 | [R2-VOL-04](#r2-vol-04) | 2 | RIGHT | Small muscles start 10 / 12 / 15 by level. Rear delts' own 4/6/8 sets are retired. | Partly superseded |
-| [R2-VOL-06](#r2-vol-06) | 2 | RIGHT | Ceilings 14 / 22 / 25 (priority muscle 18 / 26-28 / 30, now the bound for a Focus muscle); floor 10 sets per muscle per week; next block starts 5 % higher; all customizable. | Partly superseded |
+| [R2-VOL-06](#r2-vol-06) | 2 | RIGHT | Ceilings 14 / 22 / 25 (priority muscle 18 / 26-28 / 30, now the bound for a Focus muscle); floor 10 sets per muscle per week (from 3 training days; 2 days run about 6-8); next block starts about 5 % above the last block's start; all customizable. | Partly superseded |
 | [VOL-02](#vol-02) | 1 | PARTLY | Superseded: priority muscles (+4-6 sets) became Focus muscle 1 and 2 (+1 to 3 sets each). | Superseded |
 | [R3-VOL-01](#r3-vol-01) | 3 | PARTLY | Rear delts are part of the shoulders group; the floor of 10 is counted on the group; people can always add more rear delts. | Stands |
 | [VOL-09](#vol-09) | 1 | RIGHT | Main mover 1.0, helpers 0.25 (not 0.5). | Stands, refined |
@@ -78,7 +78,7 @@ Keys are in [`generator_spec_v1.json`](../../generator_spec_v1.json), the machin
 | [R2-VOL-02](#r2-vol-02) | 2 | PARTLY | Effort 10 = the most I could do, successful, not a fail. The tool no longer reads effort ratings. | Partly superseded |
 | [VOL-14](#vol-14) | 1 | RIGHT | Rest: hypertrophy 1-2 min (up to 3), strength 3-6 min, athletic as prescribed. | Stands |
 | [VOL-15](#vol-15) | 1 | RIGHT | Myo sets: last exercise only, machine or isolation only. | Stands |
-| [VOL-16](#vol-16) | 1 | RIGHT | Default 3 sets on compounds, 2 on isolation; athletic templates 2; about 5-7 exercises. | Stands |
+| [VOL-16](#vol-16) | 1 | RIGHT | Default 3 sets on compounds, 2 on isolation; athletic templates 2; about 5-7 exercises. | Stands, refined |
 
 ## What he said in conversation
 
@@ -151,7 +151,7 @@ Each entry gives the question, the final rule as it stands today, what we assume
 
 **Question (round 2).** What's the most weekly sets a muscle should reach in one 12-week plan?
 
-**Final rule.** The most weekly sets a muscle reaches in one 12-week plan: 14 for a beginner, 22 for an intermediate, 25 for an advanced lifter. A priority muscle can go to 18, 26 to 28, and 30; the model uses these as the upper bound for a Focus muscle. "This is all customizable." He added a floor: "I don't think anybody needs less than 10 sets a week per muscle." More than 30 sets is for a very advanced person; a pro level could allow it. He thinks most people train around 20 to 30 sets per muscle per week and asked the team to research it. After a completed block, the next one starts 5 % higher with the ceiling 1 set higher (never above 25, or 30 for a Focus muscle).
+**Final rule.** The most weekly sets a muscle reaches in one 12-week plan: 14 for a beginner, 22 for an intermediate, 25 for an advanced lifter. A priority muscle can go to 18, 26 to 28, and 30; the model uses these as the upper bound for a Focus muscle. "This is all customizable." He added a floor: "I don't think anybody needs less than 10 sets a week per muscle." More than 30 sets is for a very advanced person; a pro level could allow it. He thinks most people train around 20 to 30 sets per muscle per week and asked the team to research it. After a completed block, the next one starts 5 % higher with the ceiling 1 set higher (never above 25, or 30 for a Focus muscle). **Round 4:** the floor of 10 holds from 3 training days, and 2-day weeks run about 6 to 8 sets for every big muscle ([R4-SES-03](sessions-and-order.md#r4-ses-03)); the next block starts about 5 % above where the last block started, in whole sets, never above the level's top ([R4-PRG-04](progression.md#r4-prg-04)); and the top number is a target that is reached, not only a limit ([CX-01](progression.md#cx-01)).
 
 - **Status:** PARTLY SUPERSEDED. Part of this answer was reversed later (see "Changed later").
 - **We proposed (round 2):** Non-priority: beginner 14, intermediate 22, advanced 25. Priority muscle: beginner 18, intermediate 26-28, advanced 30. While 1-2 priorities are pushed, the other muscles grow at most 3 % a week. The next 12-week cycle starts 5 % higher with the ceiling 1 set higher (never above 25, or 30 for a priority).
@@ -164,6 +164,9 @@ Each entry gives the question, the final rule as it stands today, what we assume
   - **REFINED by [R3-SES-01](sessions-and-order.md#r3-ses-01) (round 3).** Before: Priority muscles; floor per muscle. Now: He approved FOCUS groups (hips, shoulders) for counting exercises per muscle; the model reads the floor of 10 on the same groups (INFERRED for every group but shoulders). Priority muscles became Focus muscle 1 and Focus muscle 2.
   - **REVERSED by [R3-VOL-04](progression.md#r3-vol-04) (round 3).** Before (superseded): Approved proposal: while 1 or 2 priorities are pushed, the other muscles grow at most 3 % a week. Now: Approved proposal: each muscle's steps are sized so it reaches its ceiling in the last week. The other groups are no longer slowed (the team's reading of the two approvals, INFERRED).
   - **REFINED by [R3-GEN-01](legal-and-open-source.md#r3-gen-01) (round 3).** Before: The next cycle starts 5 % higher than the last one. Now: No data is kept, so the tool cannot remember the last block. When someone builds the next block it asks how many blocks they completed in a row (PROPOSED).
+  - **REFINED by [R4-SES-03](sessions-and-order.md#r4-ses-03) (round 4).** Before: Nobody needs less than 10 sets a week per muscle. Now: The floor of 10 holds when there are 3 or more training days. On 2 days every big muscle is trained with about 6 to 8 weekly sets, and the plan says so and suggests a third day.
+  - **REFINED by [R4-PRG-04](progression.md#r4-prg-04) (round 4).** Before: The next block starts 5 % higher with the ceiling 1 set higher. Now: The next block starts about 5 % above where the last block started, in whole sets, never above the level's top number; at the top, sets stay and load and reps progress.
+  - **REFINED by [CX-01](progression.md#cx-01) (2026-10-10).** Before: Ceilings are the most a muscle reaches in a block. Now: Also the target: the planned final sets are reached, with bigger steps when needed.
 - **This answer changed:** [UNI-01](bilateral-unilateral.md#uni-01) (refined), [VOL-01](#vol-01) (refined), [VOL-02](#vol-02) (refined), [PER-01](plans-and-calendar.md#per-01) (refined), [PRG-05](levels-and-zones.md#prg-05) (refined), [R2-VOL-04](#r2-vol-04) (refined)
 - **See also:** [VOL-01](#vol-01), [VOL-02](#vol-02), [R3-VOL-01](#r3-vol-01), [R3-SES-01](sessions-and-order.md#r3-ses-01), [R3-VOL-04](progression.md#r3-vol-04), [PRG-05](levels-and-zones.md#prg-05)
 
@@ -501,11 +504,13 @@ Each entry gives the question, the final rule as it stands today, what we assume
 
 **Final rule.** When a slot has no sets written, the default is 3 sets on compounds and 2 on isolation. Athletic templates use 2 everywhere. He added that 5 to 7 exercises is a great amount for aesthetics "if you do really hard work".
 
-- **Status:** Stands as answered.
+- **Status:** Stands. Later answers added detail (see "Changed later").
 - **We assumed (round 1):** 3 on compounds, 2 on isolation (from the filled Aesthetics days). Athletic templates use 2 everywhere.
 - **His verdict (round 1):** RIGHT, with words
 - **In his words:** "That should be about 5 to 7 exercises on average if you do really hard work." (VOL-16)
 - **Where it lives:** `generator_spec_v1.json` → `rule_tables.session_limits.default_sets`
+- **Changed later:**
+  - **REFINED by [R4-SES-02](sessions-and-order.md#r4-ses-02) (round 4).** Before: 5 to 7 exercises is a great amount for aesthetics. Now: Aesthetics and bodybuilding 6 to 8; general fitness and fat loss 5 to 7; the other client types have their own counts.
 - **See also:** [VOL-08](sessions-and-order.md#vol-08)
 
 <details>
@@ -526,7 +531,10 @@ Each entry gives the question, the final rule as it stands today, what we assume
 | [LIB-16](library-details.md#lib-16) | [library-details](library-details.md) | Dips: 0.5 triceps and 0.5 chest. Upright rows are side-delt work. |
 | [VOL-07](progression.md#vol-07) | [progression](progression.md) | Where an added set goes. |
 | [R3-VOL-04](progression.md#r3-vol-04) | [progression](progression.md) | The stairway: how weekly sets climb. |
-| [R3-SES-02](sessions-and-order.md#r3-ses-02) | [sessions-and-order](sessions-and-order.md) | What gives when the chosen time cannot fit the minimums. |
+| [R4-SES-03](sessions-and-order.md#r4-ses-03) | [sessions-and-order](sessions-and-order.md) | 2 training days: every big muscle at about 6 to 8 weekly sets. |
+| [R4-SES-02](sessions-and-order.md#r4-ses-02) | [sessions-and-order](sessions-and-order.md) | Exercises per session by client type. |
+| [R4-PRG-04](progression.md#r4-prg-04) | [progression](progression.md) | Where the next block starts. |
+| [CT-01](sessions-and-order.md#ct-01) | [sessions-and-order](sessions-and-order.md) | No time-fitting. (The round-3 order for short time, [R3-SES-02](sessions-and-order.md#r3-ses-02), is retired.) |
 | [ORD-11](sessions-and-order.md#ord-11) | [sessions-and-order](sessions-and-order.md) | Focus slots on optional days. |
 | [UNI-04](bilateral-unilateral.md#uni-04) | [bilateral-unilateral](bilateral-unilateral.md) | Reps on unilateral lifts. |
 | [PRG-07](library-details.md#prg-07) | [library-details](library-details.md) | What 12/10/8 -20 and 10/10 mean. |

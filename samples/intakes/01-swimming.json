@@ -1,6 +1,6 @@
 {
   "schema": "intake/2",
-  "_comment": "Coach sample 1 (R2-GEN-07): competitive high-school swimmer, 200 free / 100 fly (event group middle distance; main stroke free - fly is the second event, see engine/DECISIONS.md D-21). Off-season dryland strength, pool practice 6x/week, season starts in 16 weeks (2027-02-01), 12-week plan, 3 gym days x 60 min, full gym, 2 years lifting, 145 lb. A parent / guardian accepts the release (under 18, R2-GEN-03).",
+  "_comment": "Coach sample 1 (R2-GEN-07): competitive high-school swimmer, 200 free / 100 fly (event group middle distance; main stroke free - fly is the second event, see engine/DECISIONS.md D-21). Off-season dryland strength, pool practice 6x/week, season starts in 16 weeks (2027-02-01), 12-week plan, 3 gym days, full gym, 2 years lifting, 145 lb. A parent / guardian accepts the release (under 18, R2-GEN-03).",
   "id": "sample-01-swimming",
   "lang": "en",
   "units": "lb",
@@ -56,7 +56,6 @@
       "Wed",
       "Fri"
     ],
-    "session_minutes": 60,
     "start_date": "2026-10-12"
   },
   "plan": {

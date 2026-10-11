@@ -10,7 +10,8 @@ import { generate } from '../engine/generate.mjs';
 import * as GEN from '../engine/generate.mjs';
 import { validatePlan } from '../engine/validate.mjs';
 import { validateIntake, deriveValues } from '../engine/intake.mjs';
-import { setCost, testMinutes, groupCredits } from '../engine/timefit.mjs';
+import { setCost, testMinutes } from '../engine/estimate.mjs';
+import { groupCredits } from '../engine/lines.mjs';
 import { calvesFloor } from '../engine/volume.mjs';
 import { ENGINE_VERSION } from '../engine/version.mjs';
 import { loadCompiledModel, INTAKE_DIR } from './helpers/models.mjs';
@@ -92,8 +93,10 @@ function testsAreTopSets(p) {
       assert.ok(lift && lift.slot_id + '.test' === it.slot_id && lift.exercise_id === it.exercise_id && lift.sets >= 1, `${it.slot_id}: the planned sets follow`);
       if ((lift.flags || []).includes('back_off')) {
         assert.deepEqual(it.credits, lift.credits, it.slot_id);
-        assert.ok(it.notes.some(n => n.key === 'note.test_top_set_replaces'), it.slot_id);
-        assert.ok(lift.notes.some(n => n.key === 'note.test_back_off'), lift.slot_id);
+        // (v0.5 fix round 1, R2-PER-07 / samples 01 / 07 minors: the tested lift opens the day's lifts - 'Test first: ...'; a second
+        // tested lift of the day says 'Warm up and work up ...'; one back-off set reads 'This set is ...')
+        assert.ok(it.notes.some(n => ['note.test_top_set_replaces', 'note.test_top_set_replaces_later'].includes(n.key)), it.slot_id);
+        assert.ok(lift.notes.some(n => ['note.test_back_off', 'note.test_back_off_one'].includes(n.key)), lift.slot_id);
         if (lift.effort && lift.effort.type === 'rir') assert.ok(lift.effort.min >= 2, `${lift.slot_id} back-off RIR ${lift.effort.min}`);
       } else {
         assert.deepEqual(it.credits, {}, it.slot_id);
@@ -105,30 +108,15 @@ function testsAreTopSets(p) {
 
 describe('engine 0.4.0 RECHECK regressions (compiled model)', { skip: !model && 'model/ not compiled' }, () => {
   test('R3-engine-version: engine 0.4.0, model 1.3.0, no check-in API (R3-VOL-02 / R3-VOL-04)', () => {
-    assert.equal(ENGINE_VERSION, '0.4.0');
+    assert.equal(ENGINE_VERSION, '0.5.0');   // (v0.5 V1: structure and volume)
     assert.match(model.version, /^1\.3\.0/);
     for (const k of ['adapt', 'adaptWith', 'checkinRow']) assert.equal(GEN[k], undefined);
-    for (const n of Object.keys(NAMES)) { assert.equal(plan(n).engine_version, '0.4.0'); assert.ok(plan(n).time_check); }
+    // (v0.5, CT-01: no time check in the plan)
+    for (const n of Object.keys(NAMES)) { assert.equal(plan(n).engine_version, '0.5.0'); assert.equal('time_check' in plan(n), false); assert.equal('offers' in plan(n), false); }
   });
 
-  // ------------------------------------------------------------------------------------------------------ 01 swimming
-  test('R01-stairway-flat: every group the swimmer trains climbs (lats / hamstrings / calves never flat for 12 weeks)', () => everyTrainedGroupClimbs(plan('01')));
-  test('R01-validators-exempt: no warning exempts a trained group - each holds its floor, the rest are listed as not trained directly', () => {
-    const p = plan('01');
-    floorsOrListed(p);
-    assert.ok(!p.meta.warnings.some(w => ['warning.floor_schedule', 'warning.start_lowered', 'warning.stairway_time'].includes(w.key)));
-    assert.ok(p.time_check.not_trained_directly.length > 0 && p.meta.warnings.some(w => w.key === 'warning.not_trained_directly'));
-  });
-  test('R01-time-check-up-front: 3 x 60 min cannot hold the full plan - told up front with one more day / longer sessions in numbers', () => {
-    const p = plan('01');
-    assert.equal(p.time_check.fits, false);
-    assert.ok(p.meta.warnings.some(w => w.key === 'warning.time_check'));
-    assert.ok(p.time_check.needed_minutes > 60);
-    const more = p.offers.find(o => o.key === 'offer.more_days' || o.key === 'offer.more_days_min');
-    assert.ok(more && more.args.days === 4);
-    assert.equal(p.offers.filter(o => o.chosen).length, 1);
-  });
-  test('R01-days-over-60: no non-test main day runs past 60 x 1.10 min (rest-based minutes, R3-SES-02)', () => daysWithinMinutes(plan('01')));
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R01-days-over-60: no non-test main day runs past 60 x 1.10 min (rest-based minutes, R3-SES-02)'
+  //   no day is judged against 60 x 1.10 minutes (CT-01); the minutes are an estimate
   test('R01-test-in-strength-block: a strength test is one top set before the planned sets, never counted as stairway sets', () => testsAreTopSets(plan('01')));
 
   // ------------------------------------------------------------------------------------------------------ 02 football
@@ -151,113 +139,44 @@ describe('engine 0.4.0 RECHECK regressions (compiled model)', { skip: !model && 
     const fromItems = items(w12).reduce((a, r) => a + (r.it.credits.quads || 0) * (r.it.sets || 0), 0);
     assert.equal(Math.round(fromItems * 100) / 100, w12.weekly_sets_by_muscle.quads);
   });
-  test('R02-days-over-90: non-test days stay within 90 x 1.10 min; test days that run longer say so', () => daysWithinMinutes(plan('02')));
-  test('R02-floor-and-climb: every trained group holds 10 sets and climbs; arms stay helper work (R3-VOL-01)', () => {
-    const p = plan('02');
-    floorsOrListed(p); everyTrainedGroupClimbs(p);
-    assert.deepEqual(p.time_check.not_trained_directly.map(x => x.reason), ['credit_only', 'credit_only']);
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R02-floor-and-climb: every trained group holds 10 sets and climbs; arms stay helper work (R3-VOL-01)'
+  //   read plan.time_check.by_block; the rule that survives (every trained group reaches its final sets, never down, the floor held or said) is asserted on 386 plans by tests/invariants H10 / H17 / H21 / H22 and by tests/v05-structure
 
   // ------------------------------------------------------------------------------------------------------ 03 soccer
   test('R03-athlete-cap: Monday holds at most 12 exercises plus core (was 14 with 6 athletic stations)', () => {
     const p = plan('03');
     for (const w of p.weeks) for (const d of mains(w)) assert.ok(d.blocks.filter(b => !R.session.outside_cap_blocks.includes(b.kind)).flatMap(b => b.items).filter(it => it.role !== 'test' && it.bucket !== 'TEST' && !ankleOut(it)).length <= R.session.athlete_cap, `w${w.n} ${d.weekday}`);
   });
-  test('R03-stairway-flat: the off-season stairway climbs on every trained group; untrained groups are named', () => {
-    const p = plan('03');
-    everyTrainedGroupClimbs(p); floorsOrListed(p);
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R03-stairway-flat: the off-season stairway climbs on every trained group; untrained groups are named'
+  //   read plan.time_check.by_block; the rule that survives (every trained group reaches its final sets, never down, the floor held or said) is asserted on 386 plans by tests/invariants H10 / H17 / H21 / H22 and by tests/v05-structure
 
-  // ------------------------------------------------------------------------------------------------------ 04 crossfit
-  test('R04-floor-flat: the class keeps fewer groups at 10+ sets and climbing instead of 9 muscles below the floor (R3-SES-02)', () => {
-    const p = plan('04');
-    floorsOrListed(p); everyTrainedGroupClimbs(p);
-    assert.ok(p.time_check.not_trained_directly.some(x => x.reason === 'time'));
-    const tot = p.summary.total_resistance_sets_by_week;
-    assert.ok(tot[tot.length - 1] > tot[0], tot.join(' '));
-  });
-  test('R04-wod-room: the WOD holds its short range before a group leaves (room cuts wod_short / wod_hold, OT18)', () => {
-    const p = plan('04');
-    assert.ok(p.weeks[0].why.concat(p.meta.why).some(w => w.key === 'why.wod_short') || p.time_check.fits);
-    daysWithinMinutes(p);
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R04-wod-room: the WOD holds its short range before a group leaves (room cuts wod_short / wod_hold, OT18)'
+  //   the room cuts wod_short / wod_hold are deleted with the time check (CT-01)
 
-  // ------------------------------------------------------------------------------------------------------ 05 bootcamp
-  test('R05-v22-circuits: circuits are held to the floor - calves 3 sets a leg day, every kept group at 10+ or listed (no circuit exemption)', () => {
-    const p = plan('05');
-    assert.ok(check(p, 'V22').pass && check(p, 'V18').pass);
-    for (const w of stairWeeks(p)) {
-      const blk = p.time_check;
-      // (v0.4 fix round 1, E-93: a big group with no donor station keeps its circuit stations below the floor, listed up front)
-      const below = (blk.trained_below_floor || []).map(x => x.group);
-      for (const g of blk.trained_groups.filter(x => x !== 'calves' && !below.includes(x) && p.meta.targets.floor_groups.includes(x))) assert.ok(w.main_sets_by_group[g] >= 10 - EPS, `w${w.n} ${g} ${w.main_sets_by_group[g]}`);
-    }
-  });
-  test('R05-circuit-minutes: a 30-minute bootcamp keeps the groups its circuits can hold at the peak week and names the rest', () => {
-    const p = planWith('05', i => { i.schedule.session_minutes = 30; });
-    assert.equal(p.status, 'ok');
-    assert.equal(p.time_check.fits, false);
-    assert.ok(p.meta.warnings.some(w => w.key === 'warning.time_check'));
-    assert.ok(p.time_check.not_trained_directly.some(x => x.reason === 'time'));
-    assert.ok(p.offers.some(o => o.key === 'offer.longer_sessions' || o.key.startsWith('offer.more_days')));
-    for (const w of p.weeks) for (const d of mains(w)) assert.ok(d.est_minutes <= 30 * R.session.long_day.warn_above_factor + 1 + EPS, `w${w.n} ${d.weekday} ${d.est_minutes}`);
-    assert.ok(p.validation.ok, JSON.stringify(p.validation.checks.filter(c => !c.pass && c.severity === 'error').map(c => c.id)));
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R05-circuit-minutes: a 30-minute bootcamp keeps the groups its circuits can hold at the peak week and names th…'
+  //   a 30-minute bootcamp no longer exists (R4-SES-01)
 
-  // ------------------------------------------------------------------------------------------------------ 06 aesthetics
-  test('R06-flat-priorities: every group climbs; the Focus lines (glutes, shoulders) start and end 2 sets higher (R3-SES-01)', () => {
-    const p = plan('06');
-    everyTrainedGroupClimbs(p); floorsOrListed(p);
-    const t = p.meta.targets;
-    assert.deepEqual(t.priority, ['glutes', 'shoulders']);
-    assert.equal(t.focus_add, R.volume.focus.add_default);
-    const s = p.summary.sets_by_line_by_week;
-    for (const l of ['glutes', 'shoulders', 'chest', 'lats_upper_back', 'biceps', 'triceps']) assert.ok(s[l][s[l].length - 1] > s[l][0], `${l} ${s[l].join(' ')}`);
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R06-flat-priorities: every group climbs; the Focus lines (glutes, shoulders) start and end 2 sets higher (R3-S…'
+  //   read plan.time_check.by_block; the Focus + 2 sets is asserted by R3-focus-slots and tests/volume
   test('R06-back-below-floor: back, chest, biceps and triceps hold 10 sets a week on the main days (were 6-9 for 12 weeks)', () => {
     const p = plan('06');
     for (const w of stairWeeks(p)) for (const g of ['back', 'chest', 'biceps', 'triceps']) assert.ok(w.main_sets_by_group[g] >= 10 - EPS, `w${w.n} ${g} ${w.main_sets_by_group[g]}`);
   });
 
-  // ------------------------------------------------------------------------------------------------------ 07 PPL
-  test('R07-time-model: a heavy work lift costs strength rest (3-6 min), a rep-max test costs its work-up (R3-SES-02, VOL-14)', () => {
-    const d = deriveValues(intakeOf('07'), model);
-    const slot = { bucket: 'RP_HPUSH', role: 'work', time_class: 'compound_bilateral' };
-    const work = setCost(slot, { laterality: 'bilateral', bucket: 'RP_HPUSH' }, model, d, { rep_phase: 'VOL2' });
-    assert.equal(work.rest_class, 'strength');
-    assert.ok(work.rest >= 3 && work.rest <= 6, `rest ${work.rest}`);
-    const iso = setCost({ bucket: 'ISO_CHEST', role: 'iso', time_class: 'isolation' }, null, model, d, null);
-    assert.ok(iso.minutes < work.minutes);
-    assert.equal(testMinutes({ bucket: 'RP_HPUSH', test: 'rm_3_or_work_up_to_1' }, model), R.time_model.test_workup_minutes);
-    daysWithinMinutes(plan('07'));
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R07-time-model: a heavy work lift costs strength rest (3-6 min), a rep-max test costs its work-up (R3-SES-02, …'
+  //   asserted days against the minute limit (rules.session.long_day); the estimate's own numbers are asserted by tests/week and tests/progression
   test('R07-tests-5x3rm: the week-12 test is one top set + the planned sets, not "5 x 3 rep max"', () => testsAreTopSets(plan('07')));
-  test('R07-calves-side-delts-flat: calves and shoulders climb (were flat 6 / 5 -> 6), every PPL group holds its floor', () => {
-    const p = plan('07');
-    everyTrainedGroupClimbs(p); floorsOrListed(p);
-    assert.equal(p.time_check.not_trained_directly.length, 0);
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R07-calves-side-delts-flat: calves and shoulders climb (were flat 6 / 5 -> 6), every PPL group holds its floor'
+  //   read plan.time_check.by_block; the rule that survives (every trained group reaches its final sets, never down, the floor held or said) is asserted on 386 plans by tests/invariants H10 / H17 / H21 / H22 and by tests/v05-structure
 
-  // ------------------------------------------------------------------------------------------------------ 08 pickleball
-  test('R08-stairway-flat: the main days are not the same in weeks 1-12 (25 sets flat in weeks 8-12 before); the trained groups climb', () => {
-    const p = plan('08');
-    everyTrainedGroupClimbs(p);
-    const sets = (w) => mains(w).flatMap(d => d.blocks.flatMap(b => b.items)).reduce((a, it) => a + (typeof it.sets === 'number' ? it.sets : 0), 0);
-    assert.ok(sets(p.weeks[11]) > sets(p.weeks[0]));
-    const t = p.summary.total_resistance_sets_by_week;
-    assert.ok(t[11] > t[7], 'weeks 8-12 climb');
-  });
-  test('R08-side-delts-zero: a floored group is either trained at 10+ or listed as not trained directly - never a 0 / 0 target', () => {
-    const p = plan('08');
-    floorsOrListed(p);
-    const listed = p.time_check.not_trained_directly.map(x => x.group);
-    for (const g of p.meta.targets.floor_groups) assert.ok(p.time_check.trained_groups.includes(g) || listed.includes(g), g);
-    for (const l of p.meta.targets.lines) assert.ok(p.meta.targets.cap[l] > 0, l);
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R08-side-delts-zero: a floored group is either trained at 10+ or listed as not trained directly - never a 0 / …'
+  //   read the time check's lists; a 2-day plan follows R4-SES-03 and credit-only groups are named (warning.credit_only_groups)
   test('R08-calves-per-leg-day: one calf exercise x 3 sets per leg day; the weekly calves floor follows the leg days', () => {
     const p = plan('08');
     assert.ok(check(p, 'V18').pass);
-    assert.deepEqual([2, 3, 4].map(n => calvesFloor(model, n)), [7, 10, 12]);
+    // (v0.5: 3 sets on each leg day that holds a calf exercise, the optional days' Calves slots carry 2-3 more, the weekly floor is 10)
+    assert.deepEqual([2, 3, 4].map(n => calvesFloor(model, n)), [6, 9, 10]);
+    assert.equal(calvesFloor(model, 2, 2), 10);
   });
 
   // ------------------------------------------------------------------------------------------------------ round 3 features
@@ -268,7 +187,9 @@ describe('engine 0.4.0 RECHECK regressions (compiled model)', { skip: !model && 
     const v = validateIntake({ ...base, priority_muscles: undefined, focus_muscles: ['glutes', 'back', 'chest'] }, model);
     assert.ok(v.ok && v.warnings.some(w => w.key === 'warning.v8_priorities'));
     const none = deriveValues({ ...base, priority_muscles: [] }, model).D9_start_sets;
-    assert.equal(a.D9_start_sets.start.glutes - none.start.glutes, R.volume.focus.add_default);
+    // (v0.5: glutes + hamstrings carry ONE hips target for every client type; a glutes Focus makes glutes the carrier, + 2 sets)
+    assert.equal(none.start.glutes, null); assert.equal(a.D9_start_sets.start.hamstrings, null);
+    assert.equal(a.D9_start_sets.start.glutes - none.start.hamstrings, R.volume.focus.add_default);
     assert.equal(a.D9_start_sets.cap.lats_upper_back - none.cap.lats_upper_back, R.volume.focus.add_default);
     const vt = deriveValues({ ...base, priority_muscles: ['v_taper', 'glutes'] }, model);
     assert.deepEqual(vt.priority_choices, ['v_taper'], 'v_taper uses both Focus slots');
@@ -301,28 +222,8 @@ describe('engine 0.4.0 RECHECK regressions (compiled model)', { skip: !model && 
       if (['athletic', 'core'].includes(b.kind)) assert.ok(b.toggle && d.toggle_blocks.includes(b.kind));
     }
   });
-  test('R3-year-q1-time-check: the year plan\'s flat Q1 block gets the time check too (flat sets, never over the minutes unwarned)', () => {
-    const p = planWith('06', i => { i.goal = 'general'; i.priority_muscles = []; i.plan.mode = 'year'; i.schedule.days_per_week = 2; i.schedule.weekdays = ['Mon', 'Thu']; i.schedule.session_minutes = 45; });
-    assert.equal(p.status, 'ok');
-    const q1 = p.shape.training_blocks[0];
-    assert.ok(q1.factor && q1.factor.flat_sets);
-    assert.ok(p.time_check.by_block.some(b => b.training_block === q1.n), 'Q1 has its own time check');
-    for (const w of p.weeks.filter(x => x.training_block === q1.n)) for (const d of mains(w)) assert.ok(w.test || d.est_minutes <= 45 * 1.10 + EPS, `w${w.n} ${d.weekday} ${d.est_minutes}`);
-    assert.ok(p.validation.ok, JSON.stringify(p.validation.checks.filter(c => !c.pass && c.severity === 'error').map(c => c.id + JSON.stringify(c.violations[0]))));
-  });
-  test('R3-maintenance-time: a maintenance block that cannot hold its structure in the minutes drops groups, warns and offers', () => {
-    const p = planWith('06', i => { i.priority_muscles = []; i.plan.mode = 'maintenance_4_6'; i.plan.maint_reason = 'vacation_limited_kit'; i.schedule.days_per_week = 2; i.schedule.weekdays = ['Mon', 'Thu']; i.schedule.session_minutes = 30; });
-    assert.equal(p.status, 'ok');
-    for (const w of p.weeks) for (const d of mains(w)) assert.ok(d.est_minutes <= 30 * 1.10 + EPS || p.meta.warnings.some(x => x.key === 'warning.time_check'), `${d.weekday} ${d.est_minutes}`);
-    if (p.weeks[0].not_trained_directly.length) assert.ok(p.meta.warnings.some(x => x.key === 'warning.not_trained_directly') && p.offers.some(o => o.chosen));
-  });
-  test('R3-full-day-no-lift: a day whose fixed work fills the minutes holds no lift; its groups train on other days or are named', () => {
-    const p = planWith('02', i => { i.schedule.session_minutes = 45; });
-    assert.equal(p.status, 'ok');
-    assert.equal(p.time_check.fits, false);
-    for (const w of p.weeks.filter(x => !x.test && x.block_type === 'stairway')) for (const d of mains(w)) assert.ok(d.est_minutes <= 45 * 1.10 + EPS || p.meta.warnings.some(x => x.key === 'warning.long_day' && x.args.day === d.weekday), `w${w.n} ${d.weekday} ${d.est_minutes}`);
-    assert.ok(p.validation.ok, JSON.stringify(p.validation.checks.filter(c => !c.pass && c.severity === 'error').map(c => c.id + JSON.stringify(c.violations[0]))));
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R3-full-day-no-lift: a day whose fixed work fills the minutes holds no lift; its groups train on other days or…'
+  //   no day is 'filled by the minutes' (CT-01): every day keeps its lifts
   test('R3-validators-no-warning-exemption: a plan that misses a floor fails V22 even with the old floor warnings in it', () => {
     const p = structuredClone(plan('06'));
     for (const d of mains(p.weeks[1])) for (const b of d.blocks) for (const x of b.items) if (x.group === 'back') x.sets = 1;
@@ -331,11 +232,6 @@ describe('engine 0.4.0 RECHECK regressions (compiled model)', { skip: !model && 
     const res = validatePlan({ ...p, validation: null }, model);
     assert.equal(res.checks.find(c => c.id === 'V22').pass, false);
   });
-  test('R3-time-check-in-contract: plan.time_check is in the plan (spec D15_time_fit) with offers in numbers', () => {
-    for (const n of Object.keys(NAMES)) {
-      const tc = plan(n).time_check;
-      for (const k of ['training_block', 'fits', 'kept_time', 'needed_minutes', 'offered', 'trained_groups', 'not_trained_directly', 'lowered_peak', 'trained_below_floor', 'supersets_recommended', 'supersets_needed', 'by_block']) assert.ok(k in tc, `${n} ${k}`);
-      if (!tc.fits) assert.ok(tc.offered && ('extra_day' in tc.offered) && ('session_minutes' in tc.offered), n);
-    }
-  });
+  // RETIRED in engine 0.5.0 (DECISIONS G): 'R3-time-check-in-contract: plan.time_check is in the plan (spec D15_time_fit) with offers in numbers'
+  //   plan.time_check and plan.offers are removed from plan/2 (CT-01; engine/CONTRACTS.md v0.5)
 });

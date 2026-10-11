@@ -1,32 +1,22 @@
 # Bootcamp - 3-Session Rotation
 _Your Blaze Camp plan_
 
-> **Use at your own risk.** This plan is general fitness information, not medical advice. You follow it entirely at your own expense and risk, and you release Lalo Vera, Blaze Camp and BFit Studios Corp. from all liability. Stop and see a professional if something hurts. [Read the full disclaimer and release](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md)
+> **Use at your own risk.** You accepted the terms and released Lalo Vera, Blaze Camp and BFit Studios Corp. from all liability before this plan was built. You follow it entirely at your own risk. It is general fitness information, not medical advice: stop and see a professional if something hurts. [Read the full disclaimer and release](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md)
 
 - **Main goal:** General fitness and health
 - **Profile:** General population / longevity
 - **Level:** Intermediate (L2): 1 year of consistent training
 - **Plan type:** 8 weeks · Week 1-8
 - **Start date:** 12 Oct 2026
-- **Training days per week:** 3 · Monday, Wednesday, Friday · Session length (minutes): 45
-- Use at your own risk, terms and release accepted: client, Spanish
+- **Training days per week:** 3 · Monday, Wednesday, Friday · about 7 exercises a session (plus the warm-up and the 2 core exercises)
+- Terms and release of liability accepted before this plan was built: client, Spanish
 - Health check: answered; nothing in it asked for a doctor first. [Official PAR-Q+ (in English)](https://eparmedx.com/)
 
 ## Before you start
 
+- Week 7 jumps more than usual (25 % more sets in total): adjust if needed.
 - Optional upgrade: pull-up bar, suspension trainer (TRX) would add more exercise options; the plan already uses what you have.
-
-## Your schedule
-
-- Your 3 x 45-minute schedule cannot hold the full plan (10+ weekly sets for every muscle group, 2-4 exercises per group, a climbing stairway). See your schedule options below.
-- Trained directly (10+ sets a week; the work per station climbs through the block): Quads, Hips (glutes + hamstrings), Back, Chest, Shoulders
-- Calves: below 10 sets - the rule is one exercise each leg day (9 sets a week). Add a calf raise on another day if you want more.
-- No direct exercise in this plan - they work inside your other lifts: Biceps, Triceps
-
-**Your schedule options**
-- One more training day (4 days)
-- Longer sessions: about 50 min trains every group fully
-- Keep 3 x 45 min: fewer muscle groups trained directly, every trained group still climbs (this plan)
+- With this equipment the plan has no vertical pull (pull-up or pulldown): its place is taken by a row or a rear-delt fly. A pull-up bar, a cable or a TRX would add it.
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.
@@ -47,6 +37,12 @@ How heavy? Each exercise tells you how many reps to leave in the tank: "leave 2 
 
 Core supersets are optional anywhere: you can pair a core exercise with any exercise to save time.
 
+## How you progress
+
+- Circuits: the rounds stay and the work time per station climbs week by week. Add a little weight only when you finish a station with more reps left in the tank than planned.
+- Week 7 adds more than usual (over about 15 % more sets for a muscle group, or in total). It is marked ↑: adjust if needed.
+- This plan is a template you can edit: change the sets of any exercise on any day or week, add or remove exercises, and switch blocks off.
+
 ## How to adjust this plan
 
 - Missed most of a week? Repeat that week before you move on. Missed one session? Do it on the next free day or let it go: never squeeze two sessions into one.
@@ -56,6 +52,17 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 - Life got in the way for several weeks (sick, travel, busy)? Stop the block, take the recommended easy week if you want, then build a new block.
 - You (or your coach) can switch off these blocks on any day: core and cardio. You can also add or remove exercises (more rear-delt work, for example). Use the suggested supersets to save time.
 - In a circuit you can skip the jump, throw or cardio station, or remove a small-muscle station: the rounds stay the same.
+- You (or your coach) can also change the sets of any exercise on any day or week: the plan is a template.
+- The time shown on each day is an average estimate, for information only: nothing in this plan is cut or changed because of time.
+
+## Optional add-ons
+
+_Not part of your template. Add any of these if you want; the plan is complete without them._
+
+- **Wall Sit (isometric squat hold)** — 2-3 × 30-60 s · Extra work that fits your sport or activity.
+   - [Watch how](https://www.youtube.com/results?search_query=Wall%20Sit%20(isometric%20squat%20hold)) · Name to copy into YouTube: `Wall Sit (isometric squat hold)`
+- **Farmer Carry (bilateral)** — 2-4 × 20-40 m (or 20-40 s) · Do it with your core or conditioning work; it does not count as muscle sets.
+   - [Watch how](https://www.youtube.com/results?search_query=Farmer%20Carry%20(bilateral)) · Name to copy into YouTube: `Farmer Carry (bilateral)`
 
 Your plan climbs like a stairway: small steps up to week 4, a bit bigger from week 5, the hardest weeks at the end.
 
@@ -64,13 +71,15 @@ Your plan climbs like a stairway: small steps up to week 4, a bit bigger from we
 | Week | Level | Effort | Work |
 |---|---|---|---|
 | 1 · test | 2.0 ▮▮ | 3 in the tank | 35 s |
-| 2 | 2.9 ▮▮▮ | 3 in the tank | 36 s |
-| 3 | 3.9 ▮▮▮▮ | 3 in the tank | 37 s |
-| 4 | 4.8 ▮▮▮▮▮ | 3 in the tank | 38 s |
-| 5 | 6.3 ▮▮▮▮▮▮ | 2 in the tank | 40 s |
-| 6 | 7.9 ▮▮▮▮▮▮▮▮ | 2 in the tank | 42 s |
-| 7 | 9.4 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 44 s |
-| 8 · test | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 46 s |
+| 2 | 2.9 ▮▮▮ | 3 in the tank | 35 s |
+| 3 | 3.9 ▮▮▮▮ | 3 in the tank | 40 s |
+| 4 | 4.8 ▮▮▮▮▮ | 3 in the tank | 40 s |
+| 5 | 6.3 ▮▮▮▮▮▮ | 2 in the tank | 45 s |
+| 6 | 7.9 ▮▮▮▮▮▮▮▮ | 2 in the tank | 45 s |
+| 7 ↑ | 9.4 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 50 s |
+| 8 · test | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 50 s |
+
+_↑ = a week that adds more than usual: adjust if needed._
 
 weeks 1-2: Getting used to it (small steps) · weeks 3-5: Driving it · weeks 6-8: Hardest weeks
 
@@ -83,20 +92,19 @@ After this plan: you choose: next block (an easy week first is recommended, not 
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings and Olympic lifts never count. "-" = not trained directly (in brackets: the sets it still gets from other lifts or a kept movement, with no climb)._
+_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts)._
 
 |  | Week 1 | Week 4 | Week 8 |
 |---|---|---|---|
-| Quads | 12 | 12 | 12 |
-| Hips (glutes + hamstrings) | 13.5 | 13.5 | 13.5 |
-| Back | 12 | 12 | 12 |
-| Chest | 12 | 12 | 12 |
-| Shoulders | 12 | 12 | 12 |
-| Biceps | - (3) | - (3) | - (3) |
-| Triceps | - (3.75) | - (3.75) | - (3.75) |
-| Calves | 9 | 9 | 9 |
-| **Total** | **63** | **63** | **63** |
-| Work per station | 35 s | 38 s | 46 s |
+| Quads | 12 | 12 | 15 |
+| Hips (glutes + hamstrings) | 11 | 11 | 13.75 |
+| Back | 12 | 12 | 15 |
+| Chest | 12 | 12 | 15 |
+| Shoulders | 18 | 18 | 22.5 |
+| Biceps | 11 | 11 | 13.75 |
+| Triceps | 12 | 12 | 15 |
+| **Total** | **72** | **72** | **90** |
+| Work per station | 35 s | 40 s | 50 s |
 
 _Your circuit sets stay the same; the work time per station climbs every week._
 
@@ -104,31 +112,45 @@ _Your circuit sets stay the same; the work time per station climbs every week._
 
 | Day | Session | Time | Muscle groups (exercises) |
 |---|---|---|---|
-| Monday | Bootcamp 1 - squat + row + single-leg hinge | about 41 min | Quads 2, Hips (glutes + hamstrings) 2, Back 2, Calves 1 |
-| Tuesday | Aerobic day | about 38 min | – |
-| Wednesday | Bootcamp 2 - hinge + presses | about 41 min | Hips (glutes + hamstrings) 2, Chest 2, Shoulders 2, Calves 1 |
-| Thursday | Aerobic day | about 28 min | – |
-| Friday | Bootcamp 3 - single-leg squat + pulls | about 41 min | Quads 2, Back 2, Chest 2, Calves 1 |
-| Saturday | Aerobic day | about 23 min | – |
+| Monday | Bootcamp 1 - squat + row + single-leg hinge | about 40-50 min | Quads 2, Hips (glutes + hamstrings) 1, Back 2, Biceps 1 |
+| Tuesday | Aerobic day | about 35-40 min | – |
+| Wednesday | Bootcamp 2 - hinge + presses | about 40-50 min | Hips (glutes + hamstrings) 1, Chest 2, Shoulders 1, Biceps 1, Triceps 1 |
+| Thursday | Aerobic day | about 25-30 min | – |
+| Friday | Bootcamp 3 - single-leg squat + pulls + arms | about 40-50 min | Quads 1, Back 2, Chest 1, Shoulders 1, Triceps 1 |
+| Saturday | Aerobic day | about 20-25 min | – |
 
 ## Block · Training block · Week 1-8
 
 **Level:** 2.0 · 2.9 · 3.9 · 4.8 · 6.3 · 7.9 · 9.4 · 11.0
 
+### Weekly sets per muscle group, week by week · Week 1-8
+
+_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks)._
+
+| Muscle group | Sets each week (weeks 1-8) |
+|---|---|
+| Quads | 12 12 12 12 · 12 12 15 15 |
+| Hips (glutes + hamstrings) | 11 11 11 11 · 11 11 13.75 13.75 |
+| Back | 12 12 12 12 · 12 12 15 15 |
+| Chest | 12 12 12 12 · 12 12 15 15 |
+| Shoulders | 18 18 18 18 · 18 18 22.5 22.5 |
+| Biceps | 11 11 11 11 · 11 11 13.75 13.75 |
+| Triceps | 12 12 12 12 · 12 12 15 15 |
+| **Total** | 72 72 72 72 · 72 72 90 90 |
+
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Weighted Sit-Up | 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
+| Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s |
 | Copenhagen Plank | 2 2 2 2 · 2 2 2 2 | 10-30 s |
-| Kettlebell Swing (Russian) | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Sumo Squat (DB or KB) | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Table Row (inverted row under a sturdy table) → Table Row (inverted row under a sturdy table) - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| DB Leg Extension (seated on box) | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Rear-Foot-on-Wall DB Deadlift (RDL) → Alternating Staggered-Stance Single-Leg Deadlift (DB) | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Single-Arm DB/KB Row | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Supine Slider Hamstring Curl | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Standing DB Calf Raise (deficit optional) | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
+| Kettlebell Swing (Russian) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Box Goblet Squat (touch-and-go) → High-Zercher DB Squat (DB hugged high at chest) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Chest-Supported Row | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Rear-Foot-on-Wall DB Deadlift (RDL) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Bent-Over DB Reverse Fly | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Step-Up (forward and lateral) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Dumbbell Hammer Curl → Zottman Curl (supinated up, pronated down) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
 
 ### Wednesday · Bootcamp 2 - hinge + presses
 
@@ -136,29 +158,27 @@ _Your circuit sets stay the same; the work time per station climbs every week._
 |---|---|---|
 | Weighted Russian Twist | 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Leg Raise (lying / supine) | 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
-| Medball Overhead Throw → Medball Rotational Downward Slam | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Single-Kettlebell Deadlift | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Offset Push-Up (one hand elevated) | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Ball Hamstring Curl (medball or stability ball) → Ball Hamstring Curl (medball or stability ball) - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| DB Lateral (Side) Raise | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| DB Floor Press | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Alternating DB Overhead Press → Alternating DB Overhead Press - 1-second pause at the bottom | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
+| Medball Rotational Downward Slam → Step-Forward Medball Overhead Throw (R & L leg) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Single-Kettlebell Deadlift → Dumbbell Deadlift | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| DB Floor Press | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Dumbbell Curl | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Offset Push-Up (one hand elevated) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Alternating DB Overhead Press → Seesaw DB Press (alternating, one up / one down) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Floor Dumbbell Skullcrusher | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
 
-### Friday · Bootcamp 3 - single-leg squat + pulls
+### Friday · Bootcamp 3 - single-leg squat + pulls + arms
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Russian Twist | 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
+| Side Plank (elbow) | 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s |
 | Reverse Crunch | 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
-| Step-Up (forward and lateral) | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Chest-Supported Row | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| DB Leg Extension (seated on box) - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Bird Dog Row (DB) → Bird Dog Row (DB) - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Push-Up | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Jump Rope | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Alternating DB Floor Press | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
-| Standing Calf Raise (bodyweight, from a deficit/step) → Standing Calf Raise (bodyweight, from a deficit/step) - one leg at a time | 3 3 3 3 · 3 3 3 3 | 3 rounds x 35 s → 3 rounds x 40 s |
+| Chest-Supported Row → Chest-Supported Row - underhand grip (palms up) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Stationary Lunge (Split Squat) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Jump Rope | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Push-Up | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Bent-Over DB or KB Row (two-arm) → Bent-Over DB or KB Row (two-arm) - underhand grip (palms up) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Overhead Dumbbell Triceps Extension | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| DB Lateral Raise (Supinated / palms-up grip) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
 
 ## Week 1 — Getting used to it (small steps)
 
@@ -166,71 +186,66 @@ _Week level: 2 of 11 (2 = the start, 11 = a little past your limits)_
 
 **Baseline test this week (before you load up)** (Body weight / measurements)
 
-**Athletic work this week:** 18 throws
+**Athletic work this week:** 20 throws
 
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
-_about 41 min_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-March (running drill)**
-   - Swap for: A-Skip (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+   - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Weighted Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Sit-Up / Crunch / V-Up / Butterfly Sit-up
-   - [Video](https://www.youtube.com/watch?v=4YOoMXPnOu4)
-2. **Copenhagen Plank** [A2] — 2 × 10-30 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Weighted Sit-Up
+1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Star Side Plank / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
-_3 rounds · 35 s work · 15 s to change_
-1. **Kettlebell Swing (Russian)** — 3 rounds x 35 s · max intent; stop when quality drops
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
+_4 rounds · 35 s work · 15 s to change_
+1. **Kettlebell Swing (Russian)** — 4 rounds x 35 s · max intent; stop when quality drops
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
-   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) / Medball Overhead Throw / Medball Rotational Downward Slam / Medball Rotational Side-to-Side Floor Slams
-   - [Video](https://youtu.be/KkYOW3jDhoM)
-2. **Sumo Squat (DB or KB)** — 3 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Downward Slam (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
+2. **Box Goblet Squat (touch-and-go)** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - Week 1: start a little lighter than you think
-   - Swap for: High-Zercher DB Squat (DB hugged high at chest) / Goblet Squat (Heels Elevated) / Box Squat (bodyweight) / Low DB Squat (two DBs hanging at the sides)
-   - [Watch how](https://www.youtube.com/results?search_query=Sumo%20Squat%20(DB%20or%20KB))
-3. **Table Row (inverted row under a sturdy table)** — 3 rounds x 35 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Chest-Supported Row / Bent-Over DB or KB Row (two-arm) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Table%20Row%20(inverted%20row%20under%20a%20sturdy%20table))
-4. **DB Leg Extension (seated on box)** — 3 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Box Squat (bodyweight) (keeps the two-leg squat; loses the bottom of the range) / High-Zercher DB Squat (DB hugged high at chest) (keeps the two-leg squat; loses the easier set-up - this one is harder) / Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses little - same movement, another grip or position) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Box%20Goblet%20Squat%20(touch-and-go)) · Name to copy into YouTube: `Box Goblet Squat (touch-and-go)`
+3. **Chest-Supported Row** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - Week 1: start a little lighter than you think
-   - [Video](https://youtu.be/HpCE66lfEuk)
-
-**Circuit 2**
-_3 rounds · 35 s work · 15 s to change_
-1. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 3 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the chest support) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - Week 1: start a little lighter than you think
    - One side at a time: switch sides at half time
-   - Swap for: Alternating Staggered-Stance Single-Leg Deadlift (DB) / Staggered-Stance (Kickstand) DB Deadlift / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL))
-2. **Single-Arm DB/KB Row** — 3 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+5. **Bent-Over DB Reverse Fly** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - Week 1: start a little lighter than you think
+   - Swap for: Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
+6. **Step-Up (forward and lateral)** — 4 rounds x 35 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Bird Dog Row (DB) / Bent-Over Seesaw DB Row (alternating) / Renegade Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Supine Slider Hamstring Curl** — 3 rounds x 35 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Ball Hamstring Curl (medball or stability ball)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20Slider%20Hamstring%20Curl)
-4. **Standing DB Calf Raise (deficit optional)** — 3 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+7. **Dumbbell Hammer Curl** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - Week 1: start a little lighter than you think
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
+   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB 'No Money' Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
 
 ### Tuesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -239,71 +254,65 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Any cardio tool works. Go by time, not distance.
 
 ### Wednesday · Bootcamp 2 - hinge + presses
-_about 41 min_
-_You can switch off these blocks today: core, Medball Overhead Throw (jumps, throws and speed). You can also add or remove exercises._
+_Average time: about 40-50 min (an estimate, for information only)_
+_You can switch off these blocks today: core, Medball Rotational Downward Slam (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-March (running drill)**
-   - Swap for: A-Skip (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+   - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Weighted Russian Twist** [A1] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Leg Raise (lying / supine)
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: KB Book Opener / Bicycle Crunch / Star Supine Cross Connect / Star Toe Touches
-   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Leg Raise (lying / supine)** [A2] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Weighted Russian Twist
-   - Swap for: Reverse Crunch / V-Up / Hip Raises ('hips raises') / Mountain Climber
-   - [Video](https://youtu.be/VpEcj96HO4k)
+   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Circuit 1**
-_3 rounds · 35 s work · 15 s to change_
-1. **Medball Overhead Throw** — 3 rounds x 35 s · max intent; stop when quality drops
-   - 6-10 lb ball
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
-   - 6 throws each round with full intent, then rest until the bell: the ball does not count as a muscle set
+_4 rounds · 35 s work · 15 s to change_
+1. **Medball Rotational Downward Slam** — 4 rounds x 35 s · max intent; stop when quality drops
+   - 10-14 lb ball
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - 5 throws each round with full intent, then rest until the bell: the ball does not count as a muscle set
    > No levels: just do them right (quality and intent over load).
-   - Swap for: Medball Rotational Downward Slam / Step-Forward Medball Overhead Throw (R & L leg) / Medball Rotational Side-to-Side Floor Slams / Overhead Medball Slam
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Overhead%20Throw)
-2. **Single-Kettlebell Deadlift** — 3 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the throw; loses the exact drill - the same quality, trained another way) / Half-Kneeling Rotational Medball Slam (keeps the throw; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Rotational%20Downward%20Slam) · Name to copy into YouTube: `Medball Rotational Downward Slam`
+2. **Single-Kettlebell Deadlift** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - Week 1: start a little lighter than you think
-   - Swap for: Double-Kettlebell Deadlift / Dumbbell Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift)
-3. **Offset Push-Up (one hand elevated)** — 3 rounds x 35 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift) · Name to copy into YouTube: `Single-Kettlebell Deadlift`
+3. **DB Floor Press** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Week 1: start a little lighter than you think
+   - Swap for: Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Alternating DB Floor Press (keeps the horizontal press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Name to copy into YouTube: `DB Floor Press`
+4. **Dumbbell Curl** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Week 1: start a little lighter than you think
+   - Swap for: Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB Pronated (Reverse) Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+5. **Offset Push-Up (one hand elevated)** — 4 rounds x 35 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Alternating DB Floor Press / Kneeling Push-Up - One Hand Higher (offset) / Kneeling Push-Up
-   - [Video](https://www.youtube.com/watch?v=nxPEqBn6tFc)
-4. **Ball Hamstring Curl (medball or stability ball)** — 3 rounds x 35 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Ball%20Hamstring%20Curl%20(medball%20or%20stability%20ball))
-
-**Circuit 2**
-_3 rounds · 35 s work · 15 s to change_
-1. **DB Lateral (Side) Raise** — 3 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
-   - Week 1: start a little lighter than you think
-   - Swap for: DB Lateral Raise (Supinated / palms-up grip) / DB Upright Row / KB Upright Row / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
-   - Week 1: start a little lighter than you think
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)%20-%201-second%20squeeze%20at%20the%20top)
-3. **DB Floor Press** — 3 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
-   - Week 1: start a little lighter than you think
-   - Swap for: Kneeling Push-Up / Push-Up / Alternating DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press)
-4. **Alternating DB Overhead Press** — 3 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Kneeling Push-Up (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Kneeling Push-Up - One Hand Higher (offset) (keeps the horizontal press; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Name to copy into YouTube: `Offset Push-Up (one hand elevated)`
+6. **Alternating DB Overhead Press** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - Week 1: start a little lighter than you think
    - Alternate sides every rep for the whole station
-   - Swap for: Seesaw DB Press (alternating, one up / one down) / Half-Kneeling Single-Arm DB Press / Single-Arm DB Overhead Press / DB Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press)
+   - Swap for: Seesaw DB Press (alternating, one up / one down) (keeps the vertical press; loses little - same movement, another grip or position) / Single-Arm DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm DB Press (keeps the vertical press; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press) · Name to copy into YouTube: `Alternating DB Overhead Press`
+7. **Floor Dumbbell Skullcrusher** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Week 1: start a little lighter than you think
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
 
 ### Thursday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -311,69 +320,62 @@ _Optional: you can switch off this cardio session, or move it to another day._
 - **Green (B): moderate · run** · 20 min · 2 min run / 4 min walk, repeat
   - Any cardio tool works. Go by time, not distance.
 
-### Friday · Bootcamp 3 - single-leg squat + pulls
-_about 41 min_
+### Friday · Bootcamp 3 - single-leg squat + pulls + arms
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-March (running drill)**
-   - Swap for: A-Skip (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+   - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Russian Twist** [A1] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
+1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Weighted Russian Twist / Cross-Body Mountain Climber / KB Book Opener / Star Toe Touches
-   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Russian Twist
-   - Swap for: Leg Raise (lying / supine) / V-Up / Hip Raises ('hips raises') / Slider Runners (mountain-climber style)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+   - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Circuit 1**
-_3 rounds · 35 s work · 15 s to change_
-1. **Step-Up (forward and lateral)** — 3 rounds x 35 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
+_4 rounds · 35 s work · 15 s to change_
+1. **Chest-Supported Row** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Week 1: start a little lighter than you think
+   - Chest-Supported Row instead of Single-Arm Lat Pulldown (your equipment): keeps the same main muscle, loses the vertical pull (a pull-up bar, a cable or a TRX would bring it back).
+   - Swap for: Single-Arm DB/KB Row (keeps the horizontal pull; loses the heavier two-sided load) / Bird Dog Row (DB) (keeps the horizontal pull; loses the heavier two-sided load) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses the heavier two-sided load) / Renegade Row (keeps the horizontal pull; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+2. **Stationary Lunge (Split Squat)** — 4 rounds x 35 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Curtsy Lunge / Side (Lateral) Lunge / Reverse Lunge / Stationary Lunge (Split Squat)
-   - [Video](https://youtu.be/9ZknEYboBOQ)
-2. **Chest-Supported Row** — 3 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Forward Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
+3. **Jump Rope** — 4 rounds x 35 s · hard but steady pace
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Jumping Jacks (keeps the jump; loses the exact drill - the same quality, trained another way) / Burpees (keeps the jump; loses the exact drill - the same quality, trained another way) / 20 s Fast / 40 s Slow Intervals (any cardio) (keeps the jump; loses the exact drill - the same quality, trained another way) / Fast Run / Walk Back ('NOT a sprint') (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope) · Name to copy into YouTube: `Jump Rope`
+4. **Push-Up** — 4 rounds x 35 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses some difficulty - this one is easier) / Hand-Switch Push-up (keeps the horizontal press; loses some difficulty - this one is easier) / Alternating DB Floor Press (keeps the horizontal press; loses the bottom of the range)
+   - [Watch how](https://www.youtube.com/results?search_query=Push-Up) · Name to copy into YouTube: `Push-Up`
+5. **Bent-Over DB or KB Row (two-arm)** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - Week 1: start a little lighter than you think
-   - Swap for: Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over DB or KB Row (two-arm) / Bent-Over Row
-   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row)
-3. **DB Leg Extension (seated on box) - 1-second squeeze at the top** — 3 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20or%20KB%20Row%20(two-arm)) · Name to copy into YouTube: `Bent-Over DB or KB Row (two-arm)`
+6. **Overhead Dumbbell Triceps Extension** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - Week 1: start a little lighter than you think
-   - [Video](https://youtu.be/HpCE66lfEuk)
-4. **Bird Dog Row (DB)** — 3 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
+7. **DB Lateral Raise (Supinated / palms-up grip)** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - Week 1: start a little lighter than you think
-   - One side at a time: switch sides at half time
-   - Swap for: Single-Arm DB/KB Row / Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dog%20Row%20(DB))
-
-**Circuit 2**
-_3 rounds · 35 s work · 15 s to change_
-1. **Push-Up** — 3 rounds x 35 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Kneeling Push-Up / DB Floor Press / Hand-Switch Push-up
-   - [Watch how](https://www.youtube.com/results?search_query=Push-Up)
-2. **Jump Rope** — 3 rounds x 35 s · hard but steady pace
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Burpees / 20 s Fast / 40 s Slow Intervals (any cardio) / Jumping Jacks / Fast Run / Walk Back ('NOT a sprint')
-   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope)
-3. **Alternating DB Floor Press** — 3 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
-   - Week 1: start a little lighter than you think
-   - Alternate sides every rep for the whole station
-   - Swap for: Offset Push-Up (one hand elevated) / Kneeling Push-Up - One Hand Higher (offset) / DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Floor%20Press)
-4. **Standing Calf Raise (bodyweight, from a deficit/step)** — 3 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 35 s per station, 15 s to change, 90 s between rounds
-   - Week 1: start a little lighter than you think
-   - Swap for: Standing DB Calf Raise (deficit optional) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Calf%20Raise%20(bodyweight%2C%20from%20a%20deficit%2Fstep))
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / KB Upright Row (keeps the side-delt work; loses the feel of the original implement) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) (keeps the side-delt work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)) · Name to copy into YouTube: `DB Lateral Raise (Supinated / palms-up grip)`
 
 ### Saturday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -386,69 +388,63 @@ _Optional: you can switch off this cardio session, or move it to another day._
 _Week level: 2.9 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- Circuit work goes up to 36 s
-- Keep your weights this week (the stations got longer); add load only where you finish a station with more than 3 reps left
+- Same work time this week: add a little load where you finish a station with more than 3 reps left
 
-**Athletic work this week:** 18 throws
+**Athletic work this week:** 20 throws
 
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
-_about 41 min_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-March (running drill)**
-   - Swap for: A-Skip (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+   - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Weighted Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Sit-Up / Crunch / V-Up / Butterfly Sit-up
-   - [Video](https://www.youtube.com/watch?v=4YOoMXPnOu4)
-2. **Copenhagen Plank** [A2] — 2 × 10-30 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Weighted Sit-Up
+1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Star Side Plank / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
-_3 rounds · 36 s work · 15 s to change_
-1. **Kettlebell Swing (Russian)** — 3 rounds x 36 s · max intent; stop when quality drops
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
+_4 rounds · 35 s work · 15 s to change_
+1. **Kettlebell Swing (Russian)** — 4 rounds x 35 s · max intent; stop when quality drops
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
-   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) / Medball Overhead Throw / Medball Rotational Downward Slam / Medball Rotational Side-to-Side Floor Slams
-   - [Video](https://youtu.be/KkYOW3jDhoM)
-2. **Sumo Squat (DB or KB)** — 3 rounds x 36 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - Swap for: High-Zercher DB Squat (DB hugged high at chest) / Goblet Squat (Heels Elevated) / Box Squat (bodyweight) / Low DB Squat (two DBs hanging at the sides)
-   - [Watch how](https://www.youtube.com/results?search_query=Sumo%20Squat%20(DB%20or%20KB))
-3. **Table Row (inverted row under a sturdy table)** — 3 rounds x 36 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Chest-Supported Row / Bent-Over DB or KB Row (two-arm) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Table%20Row%20(inverted%20row%20under%20a%20sturdy%20table))
-4. **DB Leg Extension (seated on box)** — 3 rounds x 36 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - [Video](https://youtu.be/HpCE66lfEuk)
-
-**Circuit 2**
-_3 rounds · 36 s work · 15 s to change_
-1. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 3 rounds x 36 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Downward Slam (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
+2. **Box Goblet Squat (touch-and-go)** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Box Squat (bodyweight) (keeps the two-leg squat; loses the bottom of the range) / High-Zercher DB Squat (DB hugged high at chest) (keeps the two-leg squat; loses the easier set-up - this one is harder) / Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses little - same movement, another grip or position) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Box%20Goblet%20Squat%20(touch-and-go)) · Name to copy into YouTube: `Box Goblet Squat (touch-and-go)`
+3. **Chest-Supported Row** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the chest support) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Alternating Staggered-Stance Single-Leg Deadlift (DB) / Staggered-Stance (Kickstand) DB Deadlift / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL))
-2. **Single-Arm DB/KB Row** — 3 rounds x 36 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+5. **Bent-Over DB Reverse Fly** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
+6. **Step-Up (forward and lateral)** — 4 rounds x 35 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Bird Dog Row (DB) / Bent-Over Seesaw DB Row (alternating) / Renegade Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Supine Slider Hamstring Curl** — 3 rounds x 36 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Ball Hamstring Curl (medball or stability ball)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20Slider%20Hamstring%20Curl)
-4. **Standing DB Calf Raise (deficit optional)** — 3 rounds x 36 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
+   - Swap for: Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+7. **Dumbbell Hammer Curl** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB 'No Money' Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
 
 ### Tuesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -457,66 +453,60 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Any cardio tool works. Go by time, not distance.
 
 ### Wednesday · Bootcamp 2 - hinge + presses
-_about 41 min_
-_You can switch off these blocks today: core, Medball Overhead Throw (jumps, throws and speed). You can also add or remove exercises._
+_Average time: about 40-50 min (an estimate, for information only)_
+_You can switch off these blocks today: core, Medball Rotational Downward Slam (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-March (running drill)**
-   - Swap for: A-Skip (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+   - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Weighted Russian Twist** [A1] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Leg Raise (lying / supine)
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: KB Book Opener / Bicycle Crunch / Star Supine Cross Connect / Star Toe Touches
-   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Leg Raise (lying / supine)** [A2] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Weighted Russian Twist
-   - Swap for: Reverse Crunch / V-Up / Hip Raises ('hips raises') / Mountain Climber
-   - [Video](https://youtu.be/VpEcj96HO4k)
+   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Circuit 1**
-_3 rounds · 36 s work · 15 s to change_
-1. **Medball Overhead Throw** — 3 rounds x 36 s · max intent; stop when quality drops
-   - 6-10 lb ball
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - 6 throws each round with full intent, then rest until the bell: the ball does not count as a muscle set
+_4 rounds · 35 s work · 15 s to change_
+1. **Medball Rotational Downward Slam** — 4 rounds x 35 s · max intent; stop when quality drops
+   - 10-14 lb ball
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - 5 throws each round with full intent, then rest until the bell: the ball does not count as a muscle set
    > No levels: just do them right (quality and intent over load).
-   - Swap for: Medball Rotational Downward Slam / Step-Forward Medball Overhead Throw (R & L leg) / Medball Rotational Side-to-Side Floor Slams / Overhead Medball Slam
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Overhead%20Throw)
-2. **Single-Kettlebell Deadlift** — 3 rounds x 36 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Double-Kettlebell Deadlift / Dumbbell Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift)
-3. **Offset Push-Up (one hand elevated)** — 3 rounds x 36 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the throw; loses the exact drill - the same quality, trained another way) / Half-Kneeling Rotational Medball Slam (keeps the throw; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Rotational%20Downward%20Slam) · Name to copy into YouTube: `Medball Rotational Downward Slam`
+2. **Single-Kettlebell Deadlift** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift) · Name to copy into YouTube: `Single-Kettlebell Deadlift`
+3. **DB Floor Press** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Alternating DB Floor Press (keeps the horizontal press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Name to copy into YouTube: `DB Floor Press`
+4. **Dumbbell Curl** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB Pronated (Reverse) Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+5. **Offset Push-Up (one hand elevated)** — 4 rounds x 35 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Alternating DB Floor Press / Kneeling Push-Up - One Hand Higher (offset) / Kneeling Push-Up
-   - [Video](https://www.youtube.com/watch?v=nxPEqBn6tFc)
-4. **Ball Hamstring Curl (medball or stability ball)** — 3 rounds x 36 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Ball%20Hamstring%20Curl%20(medball%20or%20stability%20ball))
-
-**Circuit 2**
-_3 rounds · 36 s work · 15 s to change_
-1. **DB Lateral (Side) Raise** — 3 rounds x 36 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - Swap for: DB Lateral Raise (Supinated / palms-up grip) / DB Upright Row / KB Upright Row / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 rounds x 36 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)%20-%201-second%20squeeze%20at%20the%20top)
-3. **DB Floor Press** — 3 rounds x 36 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Kneeling Push-Up / Push-Up / Alternating DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press)
-4. **Alternating DB Overhead Press** — 3 rounds x 36 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Kneeling Push-Up (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Kneeling Push-Up - One Hand Higher (offset) (keeps the horizontal press; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Name to copy into YouTube: `Offset Push-Up (one hand elevated)`
+6. **Alternating DB Overhead Press** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - Alternate sides every rep for the whole station
-   - Swap for: Seesaw DB Press (alternating, one up / one down) / Half-Kneeling Single-Arm DB Press / Single-Arm DB Overhead Press / DB Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press)
+   - Swap for: Seesaw DB Press (alternating, one up / one down) (keeps the vertical press; loses little - same movement, another grip or position) / Single-Arm DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm DB Press (keeps the vertical press; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press) · Name to copy into YouTube: `Alternating DB Overhead Press`
+7. **Floor Dumbbell Skullcrusher** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
 
 ### Thursday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -524,64 +514,58 @@ _Optional: you can switch off this cardio session, or move it to another day._
 - **Green (B): moderate · run** · 23 min · 2 min run / 4 min walk, repeat
   - Any cardio tool works. Go by time, not distance.
 
-### Friday · Bootcamp 3 - single-leg squat + pulls
-_about 41 min_
+### Friday · Bootcamp 3 - single-leg squat + pulls + arms
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-March (running drill)**
-   - Swap for: A-Skip (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+   - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Russian Twist** [A1] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
+1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Weighted Russian Twist / Cross-Body Mountain Climber / KB Book Opener / Star Toe Touches
-   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Russian Twist
-   - Swap for: Leg Raise (lying / supine) / V-Up / Hip Raises ('hips raises') / Slider Runners (mountain-climber style)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+   - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Circuit 1**
-_3 rounds · 36 s work · 15 s to change_
-1. **Step-Up (forward and lateral)** — 3 rounds x 36 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
+_4 rounds · 35 s work · 15 s to change_
+1. **Chest-Supported Row** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Chest-Supported Row instead of Single-Arm Lat Pulldown (your equipment): keeps the same main muscle, loses the vertical pull (a pull-up bar, a cable or a TRX would bring it back).
+   - Swap for: Single-Arm DB/KB Row (keeps the horizontal pull; loses the heavier two-sided load) / Bird Dog Row (DB) (keeps the horizontal pull; loses the heavier two-sided load) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses the heavier two-sided load) / Renegade Row (keeps the horizontal pull; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+2. **Stationary Lunge (Split Squat)** — 4 rounds x 35 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Curtsy Lunge / Side (Lateral) Lunge / Reverse Lunge / Stationary Lunge (Split Squat)
-   - [Video](https://youtu.be/9ZknEYboBOQ)
-2. **Chest-Supported Row** — 3 rounds x 36 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over DB or KB Row (two-arm) / Bent-Over Row
-   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row)
-3. **DB Leg Extension (seated on box) - 1-second squeeze at the top** — 3 rounds x 36 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - [Video](https://youtu.be/HpCE66lfEuk)
-4. **Bird Dog Row (DB)** — 3 rounds x 36 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - One side at a time: switch sides at half time
-   - Swap for: Single-Arm DB/KB Row / Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dog%20Row%20(DB))
-
-**Circuit 2**
-_3 rounds · 36 s work · 15 s to change_
-1. **Push-Up** — 3 rounds x 36 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Kneeling Push-Up / DB Floor Press / Hand-Switch Push-up
-   - [Watch how](https://www.youtube.com/results?search_query=Push-Up)
-2. **Jump Rope** — 3 rounds x 36 s · hard but steady pace
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Burpees / 20 s Fast / 40 s Slow Intervals (any cardio) / Jumping Jacks / Fast Run / Walk Back ('NOT a sprint')
-   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope)
-3. **Alternating DB Floor Press** — 3 rounds x 36 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - Alternate sides every rep for the whole station
-   - Swap for: Offset Push-Up (one hand elevated) / Kneeling Push-Up - One Hand Higher (offset) / DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Floor%20Press)
-4. **Standing Calf Raise (bodyweight, from a deficit/step)** — 3 rounds x 36 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 36 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing DB Calf Raise (deficit optional) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Calf%20Raise%20(bodyweight%2C%20from%20a%20deficit%2Fstep))
+   - Swap for: Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Forward Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
+3. **Jump Rope** — 4 rounds x 35 s · hard but steady pace
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Jumping Jacks (keeps the jump; loses the exact drill - the same quality, trained another way) / Burpees (keeps the jump; loses the exact drill - the same quality, trained another way) / 20 s Fast / 40 s Slow Intervals (any cardio) (keeps the jump; loses the exact drill - the same quality, trained another way) / Fast Run / Walk Back ('NOT a sprint') (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope) · Name to copy into YouTube: `Jump Rope`
+4. **Push-Up** — 4 rounds x 35 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses some difficulty - this one is easier) / Hand-Switch Push-up (keeps the horizontal press; loses some difficulty - this one is easier) / Alternating DB Floor Press (keeps the horizontal press; loses the bottom of the range)
+   - [Watch how](https://www.youtube.com/results?search_query=Push-Up) · Name to copy into YouTube: `Push-Up`
+5. **Bent-Over DB or KB Row (two-arm)** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20or%20KB%20Row%20(two-arm)) · Name to copy into YouTube: `Bent-Over DB or KB Row (two-arm)`
+6. **Overhead Dumbbell Triceps Extension** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
+7. **DB Lateral Raise (Supinated / palms-up grip)** — 4 rounds x 35 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 35 s per station, 15 s to change, 90 s between rounds
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / KB Upright Row (keeps the side-delt work; loses the feel of the original implement) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) (keeps the side-delt work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)) · Name to copy into YouTube: `DB Lateral Raise (Supinated / palms-up grip)`
 
 ### Saturday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -594,69 +578,64 @@ _Optional: you can switch off this cardio session, or move it to another day._
 _Week level: 3.9 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- Circuit work goes up to 37 s
+- Circuit work goes up to 40 s
 - Keep your weights this week (the stations got longer); add load only where you finish a station with more than 3 reps left
 
-**Athletic work this week:** 21 throws
+**Athletic work this week:** 24 throws
 
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
-_about 41 min_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-March (running drill)**
-   - Swap for: A-Skip (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+   - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Weighted Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Sit-Up / Crunch / V-Up / Butterfly Sit-up
-   - [Video](https://www.youtube.com/watch?v=4YOoMXPnOu4)
-2. **Copenhagen Plank** [A2] — 2 × 10-30 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Weighted Sit-Up
+1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Star Side Plank / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
-_3 rounds · 37 s work · 15 s to change_
-1. **Kettlebell Swing (Russian)** — 3 rounds x 37 s · max intent; stop when quality drops
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
+_4 rounds · 40 s work · 15 s to change_
+1. **Kettlebell Swing (Russian)** — 4 rounds x 40 s · max intent; stop when quality drops
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
    - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
-   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) / Medball Overhead Throw / Medball Rotational Downward Slam / Medball Rotational Side-to-Side Floor Slams
-   - [Video](https://youtu.be/KkYOW3jDhoM)
-2. **Sumo Squat (DB or KB)** — 3 rounds x 37 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - Swap for: High-Zercher DB Squat (DB hugged high at chest) / Goblet Squat (Heels Elevated) / Box Squat (bodyweight) / Low DB Squat (two DBs hanging at the sides)
-   - [Watch how](https://www.youtube.com/results?search_query=Sumo%20Squat%20(DB%20or%20KB))
-3. **Table Row (inverted row under a sturdy table)** — 3 rounds x 37 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Chest-Supported Row / Bent-Over DB or KB Row (two-arm) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Table%20Row%20(inverted%20row%20under%20a%20sturdy%20table))
-4. **DB Leg Extension (seated on box)** — 3 rounds x 37 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - [Video](https://youtu.be/HpCE66lfEuk)
-
-**Circuit 2**
-_3 rounds · 37 s work · 15 s to change_
-1. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 3 rounds x 37 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Downward Slam (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
+2. **Box Goblet Squat (touch-and-go)** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Box Squat (bodyweight) (keeps the two-leg squat; loses the bottom of the range) / High-Zercher DB Squat (DB hugged high at chest) (keeps the two-leg squat; loses the easier set-up - this one is harder) / Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses little - same movement, another grip or position) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Box%20Goblet%20Squat%20(touch-and-go)) · Name to copy into YouTube: `Box Goblet Squat (touch-and-go)`
+3. **Chest-Supported Row** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the chest support) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Alternating Staggered-Stance Single-Leg Deadlift (DB) / Staggered-Stance (Kickstand) DB Deadlift / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL))
-2. **Single-Arm DB/KB Row** — 3 rounds x 37 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+5. **Bent-Over DB Reverse Fly** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
+6. **Step-Up (forward and lateral)** — 4 rounds x 40 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Bird Dog Row (DB) / Bent-Over Seesaw DB Row (alternating) / Renegade Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Supine Slider Hamstring Curl** — 3 rounds x 37 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Ball Hamstring Curl (medball or stability ball)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20Slider%20Hamstring%20Curl)
-4. **Standing DB Calf Raise (deficit optional)** — 3 rounds x 37 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
+   - Swap for: Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+7. **Dumbbell Hammer Curl** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB 'No Money' Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
 
 ### Tuesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -665,66 +644,60 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Any cardio tool works. Go by time, not distance.
 
 ### Wednesday · Bootcamp 2 - hinge + presses
-_about 41 min_
-_You can switch off these blocks today: core, Medball Overhead Throw (jumps, throws and speed). You can also add or remove exercises._
+_Average time: about 40-50 min (an estimate, for information only)_
+_You can switch off these blocks today: core, Medball Rotational Downward Slam (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-March (running drill)**
-   - Swap for: A-Skip (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+   - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Weighted Russian Twist** [A1] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Leg Raise (lying / supine)
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: KB Book Opener / Bicycle Crunch / Star Supine Cross Connect / Star Toe Touches
-   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Leg Raise (lying / supine)** [A2] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Weighted Russian Twist
-   - Swap for: Reverse Crunch / V-Up / Hip Raises ('hips raises') / Mountain Climber
-   - [Video](https://youtu.be/VpEcj96HO4k)
+   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Circuit 1**
-_3 rounds · 37 s work · 15 s to change_
-1. **Medball Overhead Throw** — 3 rounds x 37 s · max intent; stop when quality drops
-   - 6-10 lb ball
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - 7 throws each round with full intent, then rest until the bell: the ball does not count as a muscle set
+_4 rounds · 40 s work · 15 s to change_
+1. **Medball Rotational Downward Slam** — 4 rounds x 40 s · max intent; stop when quality drops
+   - 10-14 lb ball
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - 6 throws each round with full intent, then rest until the bell: the ball does not count as a muscle set
    > No levels: just do them right (quality and intent over load).
-   - Swap for: Medball Rotational Downward Slam / Step-Forward Medball Overhead Throw (R & L leg) / Medball Rotational Side-to-Side Floor Slams / Overhead Medball Slam
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Overhead%20Throw)
-2. **Single-Kettlebell Deadlift** — 3 rounds x 37 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Double-Kettlebell Deadlift / Dumbbell Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift)
-3. **Offset Push-Up (one hand elevated)** — 3 rounds x 37 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the throw; loses the exact drill - the same quality, trained another way) / Half-Kneeling Rotational Medball Slam (keeps the throw; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Rotational%20Downward%20Slam) · Name to copy into YouTube: `Medball Rotational Downward Slam`
+2. **Single-Kettlebell Deadlift** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift) · Name to copy into YouTube: `Single-Kettlebell Deadlift`
+3. **DB Floor Press** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Alternating DB Floor Press (keeps the horizontal press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Name to copy into YouTube: `DB Floor Press`
+4. **Dumbbell Curl** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB Pronated (Reverse) Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+5. **Offset Push-Up (one hand elevated)** — 4 rounds x 40 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Alternating DB Floor Press / Kneeling Push-Up - One Hand Higher (offset) / Kneeling Push-Up
-   - [Video](https://www.youtube.com/watch?v=nxPEqBn6tFc)
-4. **Ball Hamstring Curl (medball or stability ball)** — 3 rounds x 37 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Ball%20Hamstring%20Curl%20(medball%20or%20stability%20ball))
-
-**Circuit 2**
-_3 rounds · 37 s work · 15 s to change_
-1. **DB Lateral (Side) Raise** — 3 rounds x 37 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - Swap for: DB Lateral Raise (Supinated / palms-up grip) / DB Upright Row / KB Upright Row / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 rounds x 37 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)%20-%201-second%20squeeze%20at%20the%20top)
-3. **DB Floor Press** — 3 rounds x 37 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Kneeling Push-Up / Push-Up / Alternating DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press)
-4. **Alternating DB Overhead Press** — 3 rounds x 37 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Kneeling Push-Up (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Kneeling Push-Up - One Hand Higher (offset) (keeps the horizontal press; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Name to copy into YouTube: `Offset Push-Up (one hand elevated)`
+6. **Alternating DB Overhead Press** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
    - Alternate sides every rep for the whole station
-   - Swap for: Seesaw DB Press (alternating, one up / one down) / Half-Kneeling Single-Arm DB Press / Single-Arm DB Overhead Press / DB Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press)
+   - Swap for: Seesaw DB Press (alternating, one up / one down) (keeps the vertical press; loses little - same movement, another grip or position) / Single-Arm DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm DB Press (keeps the vertical press; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press) · Name to copy into YouTube: `Alternating DB Overhead Press`
+7. **Floor Dumbbell Skullcrusher** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
 
 ### Thursday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -732,64 +705,58 @@ _Optional: you can switch off this cardio session, or move it to another day._
 - **Green (B): moderate · run** · 27 min · 2 min run / 4 min walk, repeat
   - Any cardio tool works. Go by time, not distance.
 
-### Friday · Bootcamp 3 - single-leg squat + pulls
-_about 41 min_
+### Friday · Bootcamp 3 - single-leg squat + pulls + arms
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-March (running drill)**
-   - Swap for: A-Skip (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+   - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Russian Twist** [A1] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
+1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Weighted Russian Twist / Cross-Body Mountain Climber / KB Book Opener / Star Toe Touches
-   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Russian Twist
-   - Swap for: Leg Raise (lying / supine) / V-Up / Hip Raises ('hips raises') / Slider Runners (mountain-climber style)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+   - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Circuit 1**
-_3 rounds · 37 s work · 15 s to change_
-1. **Step-Up (forward and lateral)** — 3 rounds x 37 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
+_4 rounds · 40 s work · 15 s to change_
+1. **Chest-Supported Row** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Chest-Supported Row instead of Single-Arm Lat Pulldown (your equipment): keeps the same main muscle, loses the vertical pull (a pull-up bar, a cable or a TRX would bring it back).
+   - Swap for: Single-Arm DB/KB Row (keeps the horizontal pull; loses the heavier two-sided load) / Bird Dog Row (DB) (keeps the horizontal pull; loses the heavier two-sided load) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses the heavier two-sided load) / Renegade Row (keeps the horizontal pull; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+2. **Stationary Lunge (Split Squat)** — 4 rounds x 40 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Curtsy Lunge / Side (Lateral) Lunge / Reverse Lunge / Stationary Lunge (Split Squat)
-   - [Video](https://youtu.be/9ZknEYboBOQ)
-2. **Chest-Supported Row** — 3 rounds x 37 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over DB or KB Row (two-arm) / Bent-Over Row
-   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row)
-3. **DB Leg Extension (seated on box) - 1-second squeeze at the top** — 3 rounds x 37 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - [Video](https://youtu.be/HpCE66lfEuk)
-4. **Bird Dog Row (DB)** — 3 rounds x 37 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - One side at a time: switch sides at half time
-   - Swap for: Single-Arm DB/KB Row / Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dog%20Row%20(DB))
-
-**Circuit 2**
-_3 rounds · 37 s work · 15 s to change_
-1. **Push-Up** — 3 rounds x 37 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Kneeling Push-Up / DB Floor Press / Hand-Switch Push-up
-   - [Watch how](https://www.youtube.com/results?search_query=Push-Up)
-2. **Jump Rope** — 3 rounds x 37 s · hard but steady pace
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Burpees / 20 s Fast / 40 s Slow Intervals (any cardio) / Jumping Jacks / Fast Run / Walk Back ('NOT a sprint')
-   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope)
-3. **Alternating DB Floor Press** — 3 rounds x 37 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - Alternate sides every rep for the whole station
-   - Swap for: Offset Push-Up (one hand elevated) / Kneeling Push-Up - One Hand Higher (offset) / DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Floor%20Press)
-4. **Standing Calf Raise (bodyweight, from a deficit/step)** — 3 rounds x 37 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 37 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing DB Calf Raise (deficit optional) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Calf%20Raise%20(bodyweight%2C%20from%20a%20deficit%2Fstep))
+   - Swap for: Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Forward Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
+3. **Jump Rope** — 4 rounds x 40 s · hard but steady pace
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Jumping Jacks (keeps the jump; loses the exact drill - the same quality, trained another way) / Burpees (keeps the jump; loses the exact drill - the same quality, trained another way) / 20 s Fast / 40 s Slow Intervals (any cardio) (keeps the jump; loses the exact drill - the same quality, trained another way) / Fast Run / Walk Back ('NOT a sprint') (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope) · Name to copy into YouTube: `Jump Rope`
+4. **Push-Up** — 4 rounds x 40 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses some difficulty - this one is easier) / Hand-Switch Push-up (keeps the horizontal press; loses some difficulty - this one is easier) / Alternating DB Floor Press (keeps the horizontal press; loses the bottom of the range)
+   - [Watch how](https://www.youtube.com/results?search_query=Push-Up) · Name to copy into YouTube: `Push-Up`
+5. **Bent-Over DB or KB Row (two-arm)** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20or%20KB%20Row%20(two-arm)) · Name to copy into YouTube: `Bent-Over DB or KB Row (two-arm)`
+6. **Overhead Dumbbell Triceps Extension** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
+7. **DB Lateral Raise (Supinated / palms-up grip)** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / KB Upright Row (keeps the side-delt work; loses the feel of the original implement) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) (keeps the side-delt work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)) · Name to copy into YouTube: `DB Lateral Raise (Supinated / palms-up grip)`
 
 ### Saturday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -802,69 +769,63 @@ _Optional: you can switch off this cardio session, or move it to another day._
 _Week level: 4.8 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- Circuit work goes up to 38 s
-- Keep your weights this week (the stations got longer); add load only where you finish a station with more than 3 reps left
+- Same work time this week: add a little load where you finish a station with more than 3 reps left
 
-**Athletic work this week:** 21 throws
+**Athletic work this week:** 28 throws
 
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
-_about 42 min_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-March (running drill)**
-   - Swap for: A-Skip (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+   - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Weighted Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Sit-Up / Crunch / V-Up / Butterfly Sit-up
-   - [Video](https://www.youtube.com/watch?v=4YOoMXPnOu4)
-2. **Copenhagen Plank** [A2] — 2 × 10-30 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Weighted Sit-Up
+1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Star Side Plank / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
-_3 rounds · 38 s work · 15 s to change_
-1. **Kettlebell Swing (Russian)** — 3 rounds x 38 s · max intent; stop when quality drops
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
+_4 rounds · 40 s work · 15 s to change_
+1. **Kettlebell Swing (Russian)** — 4 rounds x 40 s · max intent; stop when quality drops
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
    - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
-   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) / Medball Overhead Throw / Medball Rotational Downward Slam / Medball Rotational Side-to-Side Floor Slams
-   - [Video](https://youtu.be/KkYOW3jDhoM)
-2. **Sumo Squat (DB or KB)** — 3 rounds x 38 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - Swap for: High-Zercher DB Squat (DB hugged high at chest) / Goblet Squat (Heels Elevated) / Box Squat (bodyweight) / Low DB Squat (two DBs hanging at the sides)
-   - [Watch how](https://www.youtube.com/results?search_query=Sumo%20Squat%20(DB%20or%20KB))
-3. **Table Row (inverted row under a sturdy table)** — 3 rounds x 38 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Chest-Supported Row / Bent-Over DB or KB Row (two-arm) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Table%20Row%20(inverted%20row%20under%20a%20sturdy%20table))
-4. **DB Leg Extension (seated on box)** — 3 rounds x 38 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - [Video](https://youtu.be/HpCE66lfEuk)
-
-**Circuit 2**
-_3 rounds · 38 s work · 15 s to change_
-1. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 3 rounds x 38 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Downward Slam (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
+2. **Box Goblet Squat (touch-and-go)** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Box Squat (bodyweight) (keeps the two-leg squat; loses the bottom of the range) / High-Zercher DB Squat (DB hugged high at chest) (keeps the two-leg squat; loses the easier set-up - this one is harder) / Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses little - same movement, another grip or position) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Box%20Goblet%20Squat%20(touch-and-go)) · Name to copy into YouTube: `Box Goblet Squat (touch-and-go)`
+3. **Chest-Supported Row** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the chest support) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Alternating Staggered-Stance Single-Leg Deadlift (DB) / Staggered-Stance (Kickstand) DB Deadlift / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL))
-2. **Single-Arm DB/KB Row** — 3 rounds x 38 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+5. **Bent-Over DB Reverse Fly** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
+6. **Step-Up (forward and lateral)** — 4 rounds x 40 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Bird Dog Row (DB) / Bent-Over Seesaw DB Row (alternating) / Renegade Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Supine Slider Hamstring Curl** — 3 rounds x 38 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Ball Hamstring Curl (medball or stability ball)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20Slider%20Hamstring%20Curl)
-4. **Standing DB Calf Raise (deficit optional)** — 3 rounds x 38 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
+   - Swap for: Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+7. **Dumbbell Hammer Curl** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB 'No Money' Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
 
 ### Tuesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -873,66 +834,60 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Any cardio tool works. Go by time, not distance.
 
 ### Wednesday · Bootcamp 2 - hinge + presses
-_about 42 min_
-_You can switch off these blocks today: core, Medball Overhead Throw (jumps, throws and speed). You can also add or remove exercises._
+_Average time: about 40-50 min (an estimate, for information only)_
+_You can switch off these blocks today: core, Medball Rotational Downward Slam (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-March (running drill)**
-   - Swap for: A-Skip (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+   - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Weighted Russian Twist** [A1] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Leg Raise (lying / supine)
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: KB Book Opener / Bicycle Crunch / Star Supine Cross Connect / Star Toe Touches
-   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Leg Raise (lying / supine)** [A2] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Weighted Russian Twist
-   - Swap for: Reverse Crunch / V-Up / Hip Raises ('hips raises') / Mountain Climber
-   - [Video](https://youtu.be/VpEcj96HO4k)
+   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Circuit 1**
-_3 rounds · 38 s work · 15 s to change_
-1. **Medball Overhead Throw** — 3 rounds x 38 s · max intent; stop when quality drops
-   - 6-10 lb ball
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
+_4 rounds · 40 s work · 15 s to change_
+1. **Medball Rotational Downward Slam** — 4 rounds x 40 s · max intent; stop when quality drops
+   - 10-14 lb ball
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
    - 7 throws each round with full intent, then rest until the bell: the ball does not count as a muscle set
    > No levels: just do them right (quality and intent over load).
-   - Swap for: Medball Rotational Downward Slam / Step-Forward Medball Overhead Throw (R & L leg) / Medball Rotational Side-to-Side Floor Slams / Overhead Medball Slam
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Overhead%20Throw)
-2. **Single-Kettlebell Deadlift** — 3 rounds x 38 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Double-Kettlebell Deadlift / Dumbbell Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift)
-3. **Offset Push-Up (one hand elevated)** — 3 rounds x 38 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the throw; loses the exact drill - the same quality, trained another way) / Half-Kneeling Rotational Medball Slam (keeps the throw; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Rotational%20Downward%20Slam) · Name to copy into YouTube: `Medball Rotational Downward Slam`
+2. **Single-Kettlebell Deadlift** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift) · Name to copy into YouTube: `Single-Kettlebell Deadlift`
+3. **DB Floor Press** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Alternating DB Floor Press (keeps the horizontal press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Name to copy into YouTube: `DB Floor Press`
+4. **Dumbbell Curl** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB Pronated (Reverse) Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+5. **Offset Push-Up (one hand elevated)** — 4 rounds x 40 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Alternating DB Floor Press / Kneeling Push-Up - One Hand Higher (offset) / Kneeling Push-Up
-   - [Video](https://www.youtube.com/watch?v=nxPEqBn6tFc)
-4. **Ball Hamstring Curl (medball or stability ball)** — 3 rounds x 38 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Ball%20Hamstring%20Curl%20(medball%20or%20stability%20ball))
-
-**Circuit 2**
-_3 rounds · 38 s work · 15 s to change_
-1. **DB Lateral (Side) Raise** — 3 rounds x 38 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - Swap for: DB Lateral Raise (Supinated / palms-up grip) / DB Upright Row / KB Upright Row / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 rounds x 38 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)%20-%201-second%20squeeze%20at%20the%20top)
-3. **DB Floor Press** — 3 rounds x 38 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Kneeling Push-Up / Push-Up / Alternating DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press)
-4. **Alternating DB Overhead Press** — 3 rounds x 38 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Kneeling Push-Up (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Kneeling Push-Up - One Hand Higher (offset) (keeps the horizontal press; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Name to copy into YouTube: `Offset Push-Up (one hand elevated)`
+6. **Alternating DB Overhead Press** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
    - Alternate sides every rep for the whole station
-   - Swap for: Seesaw DB Press (alternating, one up / one down) / Half-Kneeling Single-Arm DB Press / Single-Arm DB Overhead Press / DB Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press)
+   - Swap for: Seesaw DB Press (alternating, one up / one down) (keeps the vertical press; loses little - same movement, another grip or position) / Single-Arm DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm DB Press (keeps the vertical press; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press) · Name to copy into YouTube: `Alternating DB Overhead Press`
+7. **Floor Dumbbell Skullcrusher** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
 
 ### Thursday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -940,64 +895,58 @@ _Optional: you can switch off this cardio session, or move it to another day._
 - **Green (B): moderate · run** · 30 min · 2 min run / 4 min walk, repeat
   - Any cardio tool works. Go by time, not distance.
 
-### Friday · Bootcamp 3 - single-leg squat + pulls
-_about 42 min_
+### Friday · Bootcamp 3 - single-leg squat + pulls + arms
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-March (running drill)**
-   - Swap for: A-Skip (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill))
+   - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Russian Twist** [A1] — 2 × 10 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
+1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Weighted Russian Twist / Cross-Body Mountain Climber / KB Book Opener / Star Toe Touches
-   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · rest 30-60 s after the pair · SUPERSET W/ Russian Twist
-   - Swap for: Leg Raise (lying / supine) / V-Up / Hip Raises ('hips raises') / Slider Runners (mountain-climber style)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+   - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Circuit 1**
-_3 rounds · 38 s work · 15 s to change_
-1. **Step-Up (forward and lateral)** — 3 rounds x 38 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
+_4 rounds · 40 s work · 15 s to change_
+1. **Chest-Supported Row** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Chest-Supported Row instead of Single-Arm Lat Pulldown (your equipment): keeps the same main muscle, loses the vertical pull (a pull-up bar, a cable or a TRX would bring it back).
+   - Swap for: Single-Arm DB/KB Row (keeps the horizontal pull; loses the heavier two-sided load) / Bird Dog Row (DB) (keeps the horizontal pull; loses the heavier two-sided load) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses the heavier two-sided load) / Renegade Row (keeps the horizontal pull; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+2. **Stationary Lunge (Split Squat)** — 4 rounds x 40 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Curtsy Lunge / Side (Lateral) Lunge / Reverse Lunge / Stationary Lunge (Split Squat)
-   - [Video](https://youtu.be/9ZknEYboBOQ)
-2. **Chest-Supported Row** — 3 rounds x 38 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over DB or KB Row (two-arm) / Bent-Over Row
-   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row)
-3. **DB Leg Extension (seated on box) - 1-second squeeze at the top** — 3 rounds x 38 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - [Video](https://youtu.be/HpCE66lfEuk)
-4. **Bird Dog Row (DB)** — 3 rounds x 38 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - One side at a time: switch sides at half time
-   - Swap for: Single-Arm DB/KB Row / Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dog%20Row%20(DB))
-
-**Circuit 2**
-_3 rounds · 38 s work · 15 s to change_
-1. **Push-Up** — 3 rounds x 38 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Kneeling Push-Up / DB Floor Press / Hand-Switch Push-up
-   - [Watch how](https://www.youtube.com/results?search_query=Push-Up)
-2. **Jump Rope** — 3 rounds x 38 s · hard but steady pace
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Burpees / 20 s Fast / 40 s Slow Intervals (any cardio) / Jumping Jacks / Fast Run / Walk Back ('NOT a sprint')
-   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope)
-3. **Alternating DB Floor Press** — 3 rounds x 38 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - Alternate sides every rep for the whole station
-   - Swap for: Offset Push-Up (one hand elevated) / Kneeling Push-Up - One Hand Higher (offset) / DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Floor%20Press)
-4. **Standing Calf Raise (bodyweight, from a deficit/step)** — 3 rounds x 38 s · pick a weight you could keep moving with about 3 reps left at the bell
-   - Circuit: 3 rounds, 38 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing DB Calf Raise (deficit optional) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Calf%20Raise%20(bodyweight%2C%20from%20a%20deficit%2Fstep))
+   - Swap for: Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Forward Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
+3. **Jump Rope** — 4 rounds x 40 s · hard but steady pace
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Jumping Jacks (keeps the jump; loses the exact drill - the same quality, trained another way) / Burpees (keeps the jump; loses the exact drill - the same quality, trained another way) / 20 s Fast / 40 s Slow Intervals (any cardio) (keeps the jump; loses the exact drill - the same quality, trained another way) / Fast Run / Walk Back ('NOT a sprint') (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope) · Name to copy into YouTube: `Jump Rope`
+4. **Push-Up** — 4 rounds x 40 s · pick a version (or a tempo) you could keep going with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses some difficulty - this one is easier) / Hand-Switch Push-up (keeps the horizontal press; loses some difficulty - this one is easier) / Alternating DB Floor Press (keeps the horizontal press; loses the bottom of the range)
+   - [Watch how](https://www.youtube.com/results?search_query=Push-Up) · Name to copy into YouTube: `Push-Up`
+5. **Bent-Over DB or KB Row (two-arm)** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20or%20KB%20Row%20(two-arm)) · Name to copy into YouTube: `Bent-Over DB or KB Row (two-arm)`
+6. **Overhead Dumbbell Triceps Extension** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
+7. **DB Lateral Raise (Supinated / palms-up grip)** — 4 rounds x 40 s · pick a weight you could keep moving with about 3 reps left at the bell
+   - Circuit: 4 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / KB Upright Row (keeps the side-delt work; loses the feel of the original implement) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) (keeps the side-delt work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)) · Name to copy into YouTube: `DB Lateral Raise (Supinated / palms-up grip)`
 
 ### Saturday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -1011,70 +960,64 @@ _Week level: 6.3 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
 - New exercise block: 7 exercises change a little (another version or one new detail); the rest stay
-- Circuit work goes up to 40 s
+- Circuit work goes up to 45 s
 - Keep your weights this week (the stations got longer); add load only where you finish a station with more than 2 reps left
 
-**Athletic work this week:** 24 throws
+**Athletic work this week:** 28 throws
 
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
-_about 43 min_
+_Average time: about 45-55 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-Skip (running drill)**
-   - Swap for: A-March (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+   - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Weighted Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Sit-Up / Crunch / V-Up / Butterfly Sit-up
-   - [Video](https://www.youtube.com/watch?v=4YOoMXPnOu4)
-2. **Copenhagen Plank** [A2] — 2 × 10-30 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Weighted Sit-Up
+1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Star Side Plank / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
-_3 rounds · 40 s work · 15 s to change_
-1. **Kettlebell Swing (Russian)** — 3 rounds x 40 s · max intent; stop when quality drops
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
+_4 rounds · 45 s work · 15 s to change_
+1. **Kettlebell Swing (Russian)** — 4 rounds x 45 s · max intent; stop when quality drops
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
    - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
-   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) / Medball Overhead Throw / Medball Rotational Downward Slam / Medball Rotational Side-to-Side Floor Slams
-   - [Video](https://youtu.be/KkYOW3jDhoM)
-2. **Sumo Squat (DB or KB)** — 3 rounds x 40 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - Swap for: High-Zercher DB Squat (DB hugged high at chest) / Goblet Squat (Heels Elevated) / Box Squat (bodyweight) / Low DB Squat (two DBs hanging at the sides)
-   - [Watch how](https://www.youtube.com/results?search_query=Sumo%20Squat%20(DB%20or%20KB))
-3. **Table Row (inverted row under a sturdy table) - 1-second squeeze at the top** — 3 rounds x 40 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Chest-Supported Row / Bent-Over DB or KB Row (two-arm) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Table%20Row%20(inverted%20row%20under%20a%20sturdy%20table)%20-%201-second%20squeeze%20at%20the%20top)
-4. **DB Leg Extension (seated on box)** — 3 rounds x 40 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - [Video](https://youtu.be/HpCE66lfEuk)
-
-**Circuit 2**
-_3 rounds · 40 s work · 15 s to change_
-1. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 3 rounds x 40 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - Alternate sides every rep for the whole station
-   > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) / Staggered-Stance (Kickstand) DB Deadlift / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB))
-2. **Single-Arm DB/KB Row** — 3 rounds x 40 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Downward Slam (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
+2. **High-Zercher DB Squat (DB hugged high at chest)** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses some difficulty - this one is easier) / Box Squat (bodyweight) (keeps the two-leg squat; loses the bottom of the range) / Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses some difficulty - this one is easier) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=High-Zercher%20DB%20Squat%20(DB%20hugged%20high%20at%20chest)) · Name to copy into YouTube: `High-Zercher DB Squat (DB hugged high at chest)`
+3. **Chest-Supported Row** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the chest support) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Bird Dog Row (DB) / Bent-Over Seesaw DB Row (alternating) / Renegade Row / Chest-Supported Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Supine Slider Hamstring Curl** — 3 rounds x 40 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Ball Hamstring Curl (medball or stability ball)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20Slider%20Hamstring%20Curl)
-4. **Standing DB Calf Raise (deficit optional)** — 3 rounds x 40 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+5. **Bent-Over DB Reverse Fly** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
+6. **Step-Up (forward and lateral)** — 4 rounds x 45 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - One side at a time: switch sides at half time
+   - Swap for: Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+7. **Zottman Curl (supinated up, pronated down)** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB 'No Money' Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Zottman%20Curl%20(supinated%20up%2C%20pronated%20down)) · Name to copy into YouTube: `Zottman Curl (supinated up, pronated down)`
 
 ### Tuesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -1083,66 +1026,60 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Any cardio tool works. Go by time, not distance.
 
 ### Wednesday · Bootcamp 2 - hinge + presses
-_about 43 min_
-_You can switch off these blocks today: core, Medball Rotational Downward Slam (jumps, throws and speed). You can also add or remove exercises._
+_Average time: about 45-55 min (an estimate, for information only)_
+_You can switch off these blocks today: core, Step-Forward Medball Overhead Throw (R & L leg) (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-Skip (running drill)**
-   - Swap for: A-March (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+   - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Weighted Russian Twist** [A1] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Leg Raise (lying / supine)
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: KB Book Opener / Bicycle Crunch / Star Supine Cross Connect / Star Toe Touches
-   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Leg Raise (lying / supine)** [A2] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Weighted Russian Twist
-   - Swap for: Reverse Crunch / V-Up / Hip Raises ('hips raises') / Mountain Climber
-   - [Video](https://youtu.be/VpEcj96HO4k)
+   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Circuit 1**
-_3 rounds · 40 s work · 15 s to change_
-1. **Medball Rotational Downward Slam** — 3 rounds x 40 s · max intent; stop when quality drops
-   - 10-14 lb ball
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - 8 throws each round with full intent, then rest until the bell: the ball does not count as a muscle set
+_4 rounds · 45 s work · 15 s to change_
+1. **Step-Forward Medball Overhead Throw (R & L leg)** — 4 rounds x 45 s · max intent; stop when quality drops
+   - 6-10 lb ball
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - 7 throws each round with full intent, then rest until the bell: the ball does not count as a muscle set
    > No levels: just do them right (quality and intent over load).
-   - Swap for: Medball Rotational Side-to-Side Floor Slams / Half-Kneeling Rotational Overhead Medball Side Slam / Half-Kneeling Rotational Medball Slam / Medball Overhead Toss to Rotational Scoop
-   - [Video](https://youtu.be/hVX13jShJXE)
-2. **Single-Kettlebell Deadlift** — 3 rounds x 40 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Double-Kettlebell Deadlift / Dumbbell Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift)
-3. **Offset Push-Up (one hand elevated)** — 3 rounds x 40 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Medball Overhead Throw (keeps the throw; loses the exact drill - the same quality, trained another way) / Overhead Medball Slam (keeps the throw; loses the exact drill - the same quality, trained another way) / Reverse Lunge with Inside Floor Slam (keeps the throw; loses the exact drill - the same quality, trained another way) / Side-to-Side Shuffle Floor Slam (height matters) (keeps the throw; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Overhead%20Throw%20(R%20%26%20L%20leg)) · Name to copy into YouTube: `Step-Forward Medball Overhead Throw (R & L leg)`
+2. **Dumbbell Deadlift** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Deadlift) · Name to copy into YouTube: `Dumbbell Deadlift`
+3. **DB Floor Press** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Alternating DB Floor Press (keeps the horizontal press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Name to copy into YouTube: `DB Floor Press`
+4. **Dumbbell Curl** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB Pronated (Reverse) Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+5. **Offset Push-Up (one hand elevated)** — 4 rounds x 45 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Alternating DB Floor Press / Kneeling Push-Up - One Hand Higher (offset) / Kneeling Push-Up
-   - [Video](https://www.youtube.com/watch?v=nxPEqBn6tFc)
-4. **Ball Hamstring Curl (medball or stability ball) - 1-second squeeze at the top** — 3 rounds x 40 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Ball%20Hamstring%20Curl%20(medball%20or%20stability%20ball)%20-%201-second%20squeeze%20at%20the%20top)
-
-**Circuit 2**
-_3 rounds · 40 s work · 15 s to change_
-1. **DB Lateral (Side) Raise** — 3 rounds x 40 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - Swap for: DB Lateral Raise (Supinated / palms-up grip) / DB Upright Row / KB Upright Row / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 rounds x 40 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)%20-%201-second%20squeeze%20at%20the%20top)
-3. **DB Floor Press** — 3 rounds x 40 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Kneeling Push-Up / Push-Up / Alternating DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press)
-4. **Alternating DB Overhead Press - 1-second pause at the bottom** — 3 rounds x 40 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Kneeling Push-Up (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Kneeling Push-Up - One Hand Higher (offset) (keeps the horizontal press; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Name to copy into YouTube: `Offset Push-Up (one hand elevated)`
+6. **Seesaw DB Press (alternating, one up / one down)** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
    - Alternate sides every rep for the whole station
-   - Swap for: Seesaw DB Press (alternating, one up / one down) / Half-Kneeling Single-Arm DB Press / Single-Arm DB Overhead Press / DB Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press%20-%201-second%20pause%20at%20the%20bottom)
+   - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Single-Arm DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm DB Press (keeps the vertical press; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down)) · Name to copy into YouTube: `Seesaw DB Press (alternating, one up / one down)`
+7. **Floor Dumbbell Skullcrusher** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
 
 ### Thursday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -1150,64 +1087,58 @@ _Optional: you can switch off this cardio session, or move it to another day._
 - **Green (B): moderate · run** · 20 min · 3 min run / 3 min walk, repeat
   - Any cardio tool works. Go by time, not distance.
 
-### Friday · Bootcamp 3 - single-leg squat + pulls
-_about 43 min_
+### Friday · Bootcamp 3 - single-leg squat + pulls + arms
+_Average time: about 45-55 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-Skip (running drill)**
-   - Swap for: A-March (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+   - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Russian Twist** [A1] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
+1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Weighted Russian Twist / Cross-Body Mountain Climber / KB Book Opener / Star Toe Touches
-   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Russian Twist
-   - Swap for: Leg Raise (lying / supine) / V-Up / Hip Raises ('hips raises') / Slider Runners (mountain-climber style)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+   - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Circuit 1**
-_3 rounds · 40 s work · 15 s to change_
-1. **Step-Up (forward and lateral)** — 3 rounds x 40 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
+_4 rounds · 45 s work · 15 s to change_
+1. **Chest-Supported Row - underhand grip (palms up)** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Chest-Supported Row instead of Single-Arm Lat Pulldown (your equipment): keeps the same main muscle, loses the vertical pull (a pull-up bar, a cable or a TRX would bring it back).
+   - Swap for: Single-Arm DB/KB Row (keeps the horizontal pull; loses the heavier two-sided load) / Bird Dog Row (DB) (keeps the horizontal pull; loses the heavier two-sided load) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses the heavier two-sided load) / Renegade Row (keeps the horizontal pull; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+2. **Stationary Lunge (Split Squat)** — 4 rounds x 45 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Curtsy Lunge / Side (Lateral) Lunge / Reverse Lunge / Stationary Lunge (Split Squat)
-   - [Video](https://youtu.be/9ZknEYboBOQ)
-2. **Chest-Supported Row** — 3 rounds x 40 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over DB or KB Row (two-arm) / Bent-Over Row
-   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row)
-3. **DB Leg Extension (seated on box) - 1-second squeeze at the top** — 3 rounds x 40 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - [Video](https://youtu.be/HpCE66lfEuk)
-4. **Bird Dog Row (DB) - 1-second squeeze at the top** — 3 rounds x 40 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - One side at a time: switch sides at half time
-   - Swap for: Single-Arm DB/KB Row / Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dog%20Row%20(DB)%20-%201-second%20squeeze%20at%20the%20top)
-
-**Circuit 2**
-_3 rounds · 40 s work · 15 s to change_
-1. **Push-Up** — 3 rounds x 40 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Kneeling Push-Up / DB Floor Press / Hand-Switch Push-up
-   - [Watch how](https://www.youtube.com/results?search_query=Push-Up)
-2. **Jump Rope** — 3 rounds x 40 s · hard but steady pace
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Burpees / 20 s Fast / 40 s Slow Intervals (any cardio) / Jumping Jacks / Fast Run / Walk Back ('NOT a sprint')
-   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope)
-3. **Alternating DB Floor Press** — 3 rounds x 40 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - Alternate sides every rep for the whole station
-   - Swap for: Offset Push-Up (one hand elevated) / Kneeling Push-Up - One Hand Higher (offset) / DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Floor%20Press)
-4. **Standing Calf Raise (bodyweight, from a deficit/step) - one leg at a time** — 3 rounds x 40 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 40 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing DB Calf Raise (deficit optional) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Calf%20Raise%20(bodyweight%2C%20from%20a%20deficit%2Fstep)%20-%20one%20leg%20at%20a%20time)
+   - Swap for: Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Forward Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
+3. **Jump Rope** — 4 rounds x 45 s · hard but steady pace
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Jumping Jacks (keeps the jump; loses the exact drill - the same quality, trained another way) / Burpees (keeps the jump; loses the exact drill - the same quality, trained another way) / 20 s Fast / 40 s Slow Intervals (any cardio) (keeps the jump; loses the exact drill - the same quality, trained another way) / Fast Run / Walk Back ('NOT a sprint') (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope) · Name to copy into YouTube: `Jump Rope`
+4. **Push-Up** — 4 rounds x 45 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses some difficulty - this one is easier) / Hand-Switch Push-up (keeps the horizontal press; loses some difficulty - this one is easier) / Alternating DB Floor Press (keeps the horizontal press; loses the bottom of the range)
+   - [Watch how](https://www.youtube.com/results?search_query=Push-Up) · Name to copy into YouTube: `Push-Up`
+5. **Bent-Over DB or KB Row (two-arm) - underhand grip (palms up)** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20or%20KB%20Row%20(two-arm)) · Name to copy into YouTube: `Bent-Over DB or KB Row (two-arm)`
+6. **Overhead Dumbbell Triceps Extension** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
+7. **DB Lateral Raise (Supinated / palms-up grip)** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / KB Upright Row (keeps the side-delt work; loses the feel of the original implement) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) (keeps the side-delt work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)) · Name to copy into YouTube: `DB Lateral Raise (Supinated / palms-up grip)`
 
 ### Saturday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -1220,70 +1151,63 @@ _Optional: you can switch off this cardio session, or move it to another day._
 _Week level: 7.9 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- Circuit work goes up to 42 s
-- Keep your weights this week (the stations got longer); add load only where you finish a station with more than 2 reps left
+- Same work time this week: add a little load where you finish a station with more than 2 reps left
 
-**Athletic work this week:** 27 throws
+**Athletic work this week:** 32 throws
 
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
-_about 43 min_
+_Average time: about 45-55 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-Skip (running drill)**
-   - Swap for: A-March (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+   - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Weighted Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Sit-Up / Crunch / V-Up / Butterfly Sit-up
-   - [Video](https://www.youtube.com/watch?v=4YOoMXPnOu4)
-2. **Copenhagen Plank** [A2] — 2 × 10-30 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Weighted Sit-Up
+1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Star Side Plank / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
-_3 rounds · 42 s work · 15 s to change_
-1. **Kettlebell Swing (Russian)** — 3 rounds x 42 s · max intent; stop when quality drops
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
+_4 rounds · 45 s work · 15 s to change_
+1. **Kettlebell Swing (Russian)** — 4 rounds x 45 s · max intent; stop when quality drops
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
    - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
-   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) / Medball Overhead Throw / Medball Rotational Downward Slam / Medball Rotational Side-to-Side Floor Slams
-   - [Video](https://youtu.be/KkYOW3jDhoM)
-2. **Sumo Squat (DB or KB)** — 3 rounds x 42 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - Swap for: High-Zercher DB Squat (DB hugged high at chest) / Goblet Squat (Heels Elevated) / Box Squat (bodyweight) / Low DB Squat (two DBs hanging at the sides)
-   - [Watch how](https://www.youtube.com/results?search_query=Sumo%20Squat%20(DB%20or%20KB))
-3. **Table Row (inverted row under a sturdy table) - 1-second squeeze at the top** — 3 rounds x 42 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Chest-Supported Row / Bent-Over DB or KB Row (two-arm) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Table%20Row%20(inverted%20row%20under%20a%20sturdy%20table)%20-%201-second%20squeeze%20at%20the%20top)
-4. **DB Leg Extension (seated on box)** — 3 rounds x 42 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - [Video](https://youtu.be/HpCE66lfEuk)
-
-**Circuit 2**
-_3 rounds · 42 s work · 15 s to change_
-1. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 3 rounds x 42 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - Alternate sides every rep for the whole station
-   > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) / Staggered-Stance (Kickstand) DB Deadlift / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB))
-2. **Single-Arm DB/KB Row** — 3 rounds x 42 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Downward Slam (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
+2. **High-Zercher DB Squat (DB hugged high at chest)** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses some difficulty - this one is easier) / Box Squat (bodyweight) (keeps the two-leg squat; loses the bottom of the range) / Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses some difficulty - this one is easier) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=High-Zercher%20DB%20Squat%20(DB%20hugged%20high%20at%20chest)) · Name to copy into YouTube: `High-Zercher DB Squat (DB hugged high at chest)`
+3. **Chest-Supported Row** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the chest support) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Bird Dog Row (DB) / Bent-Over Seesaw DB Row (alternating) / Renegade Row / Chest-Supported Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Supine Slider Hamstring Curl** — 3 rounds x 42 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Ball Hamstring Curl (medball or stability ball)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20Slider%20Hamstring%20Curl)
-4. **Standing DB Calf Raise (deficit optional)** — 3 rounds x 42 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+5. **Bent-Over DB Reverse Fly** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
+6. **Step-Up (forward and lateral)** — 4 rounds x 45 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - One side at a time: switch sides at half time
+   - Swap for: Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+7. **Zottman Curl (supinated up, pronated down)** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB 'No Money' Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Zottman%20Curl%20(supinated%20up%2C%20pronated%20down)) · Name to copy into YouTube: `Zottman Curl (supinated up, pronated down)`
 
 ### Tuesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -1292,66 +1216,60 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Any cardio tool works. Go by time, not distance.
 
 ### Wednesday · Bootcamp 2 - hinge + presses
-_about 43 min_
-_You can switch off these blocks today: core, Medball Rotational Downward Slam (jumps, throws and speed). You can also add or remove exercises._
+_Average time: about 45-55 min (an estimate, for information only)_
+_You can switch off these blocks today: core, Step-Forward Medball Overhead Throw (R & L leg) (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-Skip (running drill)**
-   - Swap for: A-March (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+   - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Weighted Russian Twist** [A1] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Leg Raise (lying / supine)
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: KB Book Opener / Bicycle Crunch / Star Supine Cross Connect / Star Toe Touches
-   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Leg Raise (lying / supine)** [A2] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Weighted Russian Twist
-   - Swap for: Reverse Crunch / V-Up / Hip Raises ('hips raises') / Mountain Climber
-   - [Video](https://youtu.be/VpEcj96HO4k)
+   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Circuit 1**
-_3 rounds · 42 s work · 15 s to change_
-1. **Medball Rotational Downward Slam** — 3 rounds x 42 s · max intent; stop when quality drops
-   - 10-14 lb ball
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - 9 throws each round with full intent, then rest until the bell: the ball does not count as a muscle set
+_4 rounds · 45 s work · 15 s to change_
+1. **Step-Forward Medball Overhead Throw (R & L leg)** — 4 rounds x 45 s · max intent; stop when quality drops
+   - 6-10 lb ball
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - 8 throws each round with full intent, then rest until the bell: the ball does not count as a muscle set
    > No levels: just do them right (quality and intent over load).
-   - Swap for: Medball Rotational Side-to-Side Floor Slams / Half-Kneeling Rotational Overhead Medball Side Slam / Half-Kneeling Rotational Medball Slam / Medball Overhead Toss to Rotational Scoop
-   - [Video](https://youtu.be/hVX13jShJXE)
-2. **Single-Kettlebell Deadlift** — 3 rounds x 42 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Double-Kettlebell Deadlift / Dumbbell Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift)
-3. **Offset Push-Up (one hand elevated)** — 3 rounds x 42 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Medball Overhead Throw (keeps the throw; loses the exact drill - the same quality, trained another way) / Overhead Medball Slam (keeps the throw; loses the exact drill - the same quality, trained another way) / Reverse Lunge with Inside Floor Slam (keeps the throw; loses the exact drill - the same quality, trained another way) / Side-to-Side Shuffle Floor Slam (height matters) (keeps the throw; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Overhead%20Throw%20(R%20%26%20L%20leg)) · Name to copy into YouTube: `Step-Forward Medball Overhead Throw (R & L leg)`
+2. **Dumbbell Deadlift** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Deadlift) · Name to copy into YouTube: `Dumbbell Deadlift`
+3. **DB Floor Press** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Alternating DB Floor Press (keeps the horizontal press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Name to copy into YouTube: `DB Floor Press`
+4. **Dumbbell Curl** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB Pronated (Reverse) Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+5. **Offset Push-Up (one hand elevated)** — 4 rounds x 45 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Alternating DB Floor Press / Kneeling Push-Up - One Hand Higher (offset) / Kneeling Push-Up
-   - [Video](https://www.youtube.com/watch?v=nxPEqBn6tFc)
-4. **Ball Hamstring Curl (medball or stability ball) - 1-second squeeze at the top** — 3 rounds x 42 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Ball%20Hamstring%20Curl%20(medball%20or%20stability%20ball)%20-%201-second%20squeeze%20at%20the%20top)
-
-**Circuit 2**
-_3 rounds · 42 s work · 15 s to change_
-1. **DB Lateral (Side) Raise** — 3 rounds x 42 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - Swap for: DB Lateral Raise (Supinated / palms-up grip) / DB Upright Row / KB Upright Row / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 rounds x 42 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)%20-%201-second%20squeeze%20at%20the%20top)
-3. **DB Floor Press** — 3 rounds x 42 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Kneeling Push-Up / Push-Up / Alternating DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press)
-4. **Alternating DB Overhead Press - 1-second pause at the bottom** — 3 rounds x 42 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Kneeling Push-Up (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Kneeling Push-Up - One Hand Higher (offset) (keeps the horizontal press; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Name to copy into YouTube: `Offset Push-Up (one hand elevated)`
+6. **Seesaw DB Press (alternating, one up / one down)** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
    - Alternate sides every rep for the whole station
-   - Swap for: Seesaw DB Press (alternating, one up / one down) / Half-Kneeling Single-Arm DB Press / Single-Arm DB Overhead Press / DB Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press%20-%201-second%20pause%20at%20the%20bottom)
+   - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Single-Arm DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm DB Press (keeps the vertical press; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down)) · Name to copy into YouTube: `Seesaw DB Press (alternating, one up / one down)`
+7. **Floor Dumbbell Skullcrusher** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
 
 ### Thursday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -1359,64 +1277,58 @@ _Optional: you can switch off this cardio session, or move it to another day._
 - **Green (B): moderate · run** · 23 min · 3 min run / 3 min walk, repeat
   - Any cardio tool works. Go by time, not distance.
 
-### Friday · Bootcamp 3 - single-leg squat + pulls
-_about 43 min_
+### Friday · Bootcamp 3 - single-leg squat + pulls + arms
+_Average time: about 45-55 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-Skip (running drill)**
-   - Swap for: A-March (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+   - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Russian Twist** [A1] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
+1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Weighted Russian Twist / Cross-Body Mountain Climber / KB Book Opener / Star Toe Touches
-   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Russian Twist
-   - Swap for: Leg Raise (lying / supine) / V-Up / Hip Raises ('hips raises') / Slider Runners (mountain-climber style)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+   - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Circuit 1**
-_3 rounds · 42 s work · 15 s to change_
-1. **Step-Up (forward and lateral)** — 3 rounds x 42 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
+_4 rounds · 45 s work · 15 s to change_
+1. **Chest-Supported Row - underhand grip (palms up)** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Chest-Supported Row instead of Single-Arm Lat Pulldown (your equipment): keeps the same main muscle, loses the vertical pull (a pull-up bar, a cable or a TRX would bring it back).
+   - Swap for: Single-Arm DB/KB Row (keeps the horizontal pull; loses the heavier two-sided load) / Bird Dog Row (DB) (keeps the horizontal pull; loses the heavier two-sided load) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses the heavier two-sided load) / Renegade Row (keeps the horizontal pull; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+2. **Stationary Lunge (Split Squat)** — 4 rounds x 45 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Curtsy Lunge / Side (Lateral) Lunge / Reverse Lunge / Stationary Lunge (Split Squat)
-   - [Video](https://youtu.be/9ZknEYboBOQ)
-2. **Chest-Supported Row** — 3 rounds x 42 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over DB or KB Row (two-arm) / Bent-Over Row
-   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row)
-3. **DB Leg Extension (seated on box) - 1-second squeeze at the top** — 3 rounds x 42 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - [Video](https://youtu.be/HpCE66lfEuk)
-4. **Bird Dog Row (DB) - 1-second squeeze at the top** — 3 rounds x 42 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - One side at a time: switch sides at half time
-   - Swap for: Single-Arm DB/KB Row / Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dog%20Row%20(DB)%20-%201-second%20squeeze%20at%20the%20top)
-
-**Circuit 2**
-_3 rounds · 42 s work · 15 s to change_
-1. **Push-Up** — 3 rounds x 42 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Kneeling Push-Up / DB Floor Press / Hand-Switch Push-up
-   - [Watch how](https://www.youtube.com/results?search_query=Push-Up)
-2. **Jump Rope** — 3 rounds x 42 s · hard but steady pace
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Burpees / 20 s Fast / 40 s Slow Intervals (any cardio) / Jumping Jacks / Fast Run / Walk Back ('NOT a sprint')
-   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope)
-3. **Alternating DB Floor Press** — 3 rounds x 42 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - Alternate sides every rep for the whole station
-   - Swap for: Offset Push-Up (one hand elevated) / Kneeling Push-Up - One Hand Higher (offset) / DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Floor%20Press)
-4. **Standing Calf Raise (bodyweight, from a deficit/step) - one leg at a time** — 3 rounds x 42 s · pick a weight you could keep moving with about 2 reps left at the bell
-   - Circuit: 3 rounds, 42 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing DB Calf Raise (deficit optional) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Calf%20Raise%20(bodyweight%2C%20from%20a%20deficit%2Fstep)%20-%20one%20leg%20at%20a%20time)
+   - Swap for: Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Forward Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
+3. **Jump Rope** — 4 rounds x 45 s · hard but steady pace
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Jumping Jacks (keeps the jump; loses the exact drill - the same quality, trained another way) / Burpees (keeps the jump; loses the exact drill - the same quality, trained another way) / 20 s Fast / 40 s Slow Intervals (any cardio) (keeps the jump; loses the exact drill - the same quality, trained another way) / Fast Run / Walk Back ('NOT a sprint') (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope) · Name to copy into YouTube: `Jump Rope`
+4. **Push-Up** — 4 rounds x 45 s · pick a version (or a tempo) you could keep going with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses some difficulty - this one is easier) / Hand-Switch Push-up (keeps the horizontal press; loses some difficulty - this one is easier) / Alternating DB Floor Press (keeps the horizontal press; loses the bottom of the range)
+   - [Watch how](https://www.youtube.com/results?search_query=Push-Up) · Name to copy into YouTube: `Push-Up`
+5. **Bent-Over DB or KB Row (two-arm) - underhand grip (palms up)** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20or%20KB%20Row%20(two-arm)) · Name to copy into YouTube: `Bent-Over DB or KB Row (two-arm)`
+6. **Overhead Dumbbell Triceps Extension** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
+7. **DB Lateral Raise (Supinated / palms-up grip)** — 4 rounds x 45 s · pick a weight you could keep moving with about 2 reps left at the bell
+   - Circuit: 4 rounds, 45 s per station, 15 s to change, 90 s between rounds
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / KB Upright Row (keeps the side-delt work; loses the feel of the original implement) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) (keeps the side-delt work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)) · Name to copy into YouTube: `DB Lateral Raise (Supinated / palms-up grip)`
 
 ### Saturday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -1428,71 +1340,81 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 _Week level: 9.4 of 11 (2 = the start, 11 = a little past your limits)_
 
+_This week jumps more than usual (25 % more sets for Quads): adjust if needed._
+
+_This week jumps more than usual (25 % more sets for Hips (glutes + hamstrings)): adjust if needed._
+
+_This week jumps more than usual (25 % more sets for Back): adjust if needed._
+
+_This week jumps more than usual (25 % more sets for Chest): adjust if needed._
+
+_This week jumps more than usual (25 % more sets for Shoulders): adjust if needed._
+
+_This week jumps more than usual (25 % more sets for Biceps): adjust if needed._
+
+_This week jumps more than usual (25 % more sets for Triceps): adjust if needed._
+
+_This week jumps more than usual (25 % more sets in total): adjust if needed._
+
 **What changes this week**
-- Circuit work goes up to 44 s
+- Circuit work goes up to 50 s
 - Keep your weights this week (the stations got longer); add load only where you finish a station with more than 1-2 reps left
 
-**Athletic work this week:** 27 throws
+**Athletic work this week:** 40 throws
 
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
-_about 44 min_
+_Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-Skip (running drill)**
-   - Swap for: A-March (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+   - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Weighted Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Sit-Up / Crunch / V-Up / Butterfly Sit-up
-   - [Video](https://www.youtube.com/watch?v=4YOoMXPnOu4)
-2. **Copenhagen Plank** [A2] — 2 × 10-30 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Weighted Sit-Up
+1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Star Side Plank / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
-_3 rounds · 44 s work · 15 s to change_
-1. **Kettlebell Swing (Russian)** — 3 rounds x 44 s · max intent; stop when quality drops
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
+_5 rounds · 50 s work · 15 s to change_
+1. **Kettlebell Swing (Russian)** — 5 rounds x 50 s · max intent; stop when quality drops
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
    - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
-   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) / Medball Overhead Throw / Medball Rotational Downward Slam / Medball Rotational Side-to-Side Floor Slams
-   - [Video](https://youtu.be/KkYOW3jDhoM)
-2. **Sumo Squat (DB or KB)** — 3 rounds x 44 s · pick a weight you could keep moving with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - Swap for: High-Zercher DB Squat (DB hugged high at chest) / Goblet Squat (Heels Elevated) / Box Squat (bodyweight) / Low DB Squat (two DBs hanging at the sides)
-   - [Watch how](https://www.youtube.com/results?search_query=Sumo%20Squat%20(DB%20or%20KB))
-3. **Table Row (inverted row under a sturdy table) - 1-second squeeze at the top** — 3 rounds x 44 s · pick a version (or a tempo) you could keep going with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Chest-Supported Row / Bent-Over DB or KB Row (two-arm) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Table%20Row%20(inverted%20row%20under%20a%20sturdy%20table)%20-%201-second%20squeeze%20at%20the%20top)
-4. **DB Leg Extension (seated on box)** — 3 rounds x 44 s · pick a weight you could keep moving with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - [Video](https://youtu.be/HpCE66lfEuk)
-
-**Circuit 2**
-_3 rounds · 44 s work · 15 s to change_
-1. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 3 rounds x 44 s · pick a weight you could keep moving with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - Alternate sides every rep for the whole station
-   > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) / Staggered-Stance (Kickstand) DB Deadlift / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB))
-2. **Single-Arm DB/KB Row** — 3 rounds x 44 s · pick a weight you could keep moving with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Downward Slam (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
+2. **High-Zercher DB Squat (DB hugged high at chest)** — 5 rounds x 50 s · pick a weight you could keep moving with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses some difficulty - this one is easier) / Box Squat (bodyweight) (keeps the two-leg squat; loses the bottom of the range) / Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses some difficulty - this one is easier) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=High-Zercher%20DB%20Squat%20(DB%20hugged%20high%20at%20chest)) · Name to copy into YouTube: `High-Zercher DB Squat (DB hugged high at chest)`
+3. **Chest-Supported Row** — 5 rounds x 50 s · pick a weight you could keep moving with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the chest support) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 5 rounds x 50 s · pick a weight you could keep moving with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Bird Dog Row (DB) / Bent-Over Seesaw DB Row (alternating) / Renegade Row / Chest-Supported Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Supine Slider Hamstring Curl** — 3 rounds x 44 s · pick a version (or a tempo) you could keep going with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Ball Hamstring Curl (medball or stability ball)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20Slider%20Hamstring%20Curl)
-4. **Standing DB Calf Raise (deficit optional)** — 3 rounds x 44 s · pick a weight you could keep moving with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+5. **Bent-Over DB Reverse Fly** — 5 rounds x 50 s · pick a weight you could keep moving with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
+6. **Step-Up (forward and lateral)** — 5 rounds x 50 s · pick a version (or a tempo) you could keep going with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - One side at a time: switch sides at half time
+   - Swap for: Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+7. **Zottman Curl (supinated up, pronated down)** — 5 rounds x 50 s · pick a weight you could keep moving with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB 'No Money' Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Zottman%20Curl%20(supinated%20up%2C%20pronated%20down)) · Name to copy into YouTube: `Zottman Curl (supinated up, pronated down)`
 
 ### Tuesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -1501,66 +1423,60 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Any cardio tool works. Go by time, not distance.
 
 ### Wednesday · Bootcamp 2 - hinge + presses
-_about 44 min_
-_You can switch off these blocks today: core, Medball Rotational Downward Slam (jumps, throws and speed). You can also add or remove exercises._
+_Average time: about 55-65 min (an estimate, for information only)_
+_You can switch off these blocks today: core, Step-Forward Medball Overhead Throw (R & L leg) (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-Skip (running drill)**
-   - Swap for: A-March (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+   - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Weighted Russian Twist** [A1] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Leg Raise (lying / supine)
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: KB Book Opener / Bicycle Crunch / Star Supine Cross Connect / Star Toe Touches
-   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Leg Raise (lying / supine)** [A2] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Weighted Russian Twist
-   - Swap for: Reverse Crunch / V-Up / Hip Raises ('hips raises') / Mountain Climber
-   - [Video](https://youtu.be/VpEcj96HO4k)
+   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Circuit 1**
-_3 rounds · 44 s work · 15 s to change_
-1. **Medball Rotational Downward Slam** — 3 rounds x 44 s · max intent; stop when quality drops
-   - 10-14 lb ball
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - 9 throws each round with full intent, then rest until the bell: the ball does not count as a muscle set
+_5 rounds · 50 s work · 15 s to change_
+1. **Step-Forward Medball Overhead Throw (R & L leg)** — 5 rounds x 50 s · max intent; stop when quality drops
+   - 6-10 lb ball
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - 8 throws each round with full intent, then rest until the bell: the ball does not count as a muscle set
    > No levels: just do them right (quality and intent over load).
-   - Swap for: Medball Rotational Side-to-Side Floor Slams / Half-Kneeling Rotational Overhead Medball Side Slam / Half-Kneeling Rotational Medball Slam / Medball Overhead Toss to Rotational Scoop
-   - [Video](https://youtu.be/hVX13jShJXE)
-2. **Single-Kettlebell Deadlift** — 3 rounds x 44 s · pick a weight you could keep moving with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Double-Kettlebell Deadlift / Dumbbell Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift)
-3. **Offset Push-Up (one hand elevated)** — 3 rounds x 44 s · pick a version (or a tempo) you could keep going with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Medball Overhead Throw (keeps the throw; loses the exact drill - the same quality, trained another way) / Overhead Medball Slam (keeps the throw; loses the exact drill - the same quality, trained another way) / Reverse Lunge with Inside Floor Slam (keeps the throw; loses the exact drill - the same quality, trained another way) / Side-to-Side Shuffle Floor Slam (height matters) (keeps the throw; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Overhead%20Throw%20(R%20%26%20L%20leg)) · Name to copy into YouTube: `Step-Forward Medball Overhead Throw (R & L leg)`
+2. **Dumbbell Deadlift** — 5 rounds x 50 s · pick a weight you could keep moving with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Deadlift) · Name to copy into YouTube: `Dumbbell Deadlift`
+3. **DB Floor Press** — 5 rounds x 50 s · pick a weight you could keep moving with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Alternating DB Floor Press (keeps the horizontal press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Name to copy into YouTube: `DB Floor Press`
+4. **Dumbbell Curl** — 5 rounds x 50 s · pick a weight you could keep moving with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB Pronated (Reverse) Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+5. **Offset Push-Up (one hand elevated)** — 5 rounds x 50 s · pick a version (or a tempo) you could keep going with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Alternating DB Floor Press / Kneeling Push-Up - One Hand Higher (offset) / Kneeling Push-Up
-   - [Video](https://www.youtube.com/watch?v=nxPEqBn6tFc)
-4. **Ball Hamstring Curl (medball or stability ball) - 1-second squeeze at the top** — 3 rounds x 44 s · pick a version (or a tempo) you could keep going with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Ball%20Hamstring%20Curl%20(medball%20or%20stability%20ball)%20-%201-second%20squeeze%20at%20the%20top)
-
-**Circuit 2**
-_3 rounds · 44 s work · 15 s to change_
-1. **DB Lateral (Side) Raise** — 3 rounds x 44 s · pick a weight you could keep moving with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - Swap for: DB Lateral Raise (Supinated / palms-up grip) / DB Upright Row / KB Upright Row / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 rounds x 44 s · pick a weight you could keep moving with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)%20-%201-second%20squeeze%20at%20the%20top)
-3. **DB Floor Press** — 3 rounds x 44 s · pick a weight you could keep moving with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Kneeling Push-Up / Push-Up / Alternating DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press)
-4. **Alternating DB Overhead Press - 1-second pause at the bottom** — 3 rounds x 44 s · pick a weight you could keep moving with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Kneeling Push-Up (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Kneeling Push-Up - One Hand Higher (offset) (keeps the horizontal press; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Name to copy into YouTube: `Offset Push-Up (one hand elevated)`
+6. **Seesaw DB Press (alternating, one up / one down)** — 5 rounds x 50 s · pick a weight you could keep moving with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
    - Alternate sides every rep for the whole station
-   - Swap for: Seesaw DB Press (alternating, one up / one down) / Half-Kneeling Single-Arm DB Press / Single-Arm DB Overhead Press / DB Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press%20-%201-second%20pause%20at%20the%20bottom)
+   - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Single-Arm DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm DB Press (keeps the vertical press; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down)) · Name to copy into YouTube: `Seesaw DB Press (alternating, one up / one down)`
+7. **Floor Dumbbell Skullcrusher** — 5 rounds x 50 s · pick a weight you could keep moving with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
 
 ### Thursday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -1568,64 +1484,58 @@ _Optional: you can switch off this cardio session, or move it to another day._
 - **Green (B): moderate · run** · 27 min · 3 min run / 3 min walk, repeat
   - Any cardio tool works. Go by time, not distance.
 
-### Friday · Bootcamp 3 - single-leg squat + pulls
-_about 44 min_
+### Friday · Bootcamp 3 - single-leg squat + pulls + arms
+_Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-Skip (running drill)**
-   - Swap for: A-March (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+   - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Russian Twist** [A1] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
+1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Weighted Russian Twist / Cross-Body Mountain Climber / KB Book Opener / Star Toe Touches
-   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Russian Twist
-   - Swap for: Leg Raise (lying / supine) / V-Up / Hip Raises ('hips raises') / Slider Runners (mountain-climber style)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+   - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Circuit 1**
-_3 rounds · 44 s work · 15 s to change_
-1. **Step-Up (forward and lateral)** — 3 rounds x 44 s · pick a version (or a tempo) you could keep going with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
+_5 rounds · 50 s work · 15 s to change_
+1. **Chest-Supported Row - underhand grip (palms up)** — 5 rounds x 50 s · pick a weight you could keep moving with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Chest-Supported Row instead of Single-Arm Lat Pulldown (your equipment): keeps the same main muscle, loses the vertical pull (a pull-up bar, a cable or a TRX would bring it back).
+   - Swap for: Single-Arm DB/KB Row (keeps the horizontal pull; loses the heavier two-sided load) / Bird Dog Row (DB) (keeps the horizontal pull; loses the heavier two-sided load) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses the heavier two-sided load) / Renegade Row (keeps the horizontal pull; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+2. **Stationary Lunge (Split Squat)** — 5 rounds x 50 s · pick a version (or a tempo) you could keep going with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Curtsy Lunge / Side (Lateral) Lunge / Reverse Lunge / Stationary Lunge (Split Squat)
-   - [Video](https://youtu.be/9ZknEYboBOQ)
-2. **Chest-Supported Row** — 3 rounds x 44 s · pick a weight you could keep moving with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over DB or KB Row (two-arm) / Bent-Over Row
-   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row)
-3. **DB Leg Extension (seated on box) - 1-second squeeze at the top** — 3 rounds x 44 s · pick a weight you could keep moving with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - [Video](https://youtu.be/HpCE66lfEuk)
-4. **Bird Dog Row (DB) - 1-second squeeze at the top** — 3 rounds x 44 s · pick a weight you could keep moving with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - One side at a time: switch sides at half time
-   - Swap for: Single-Arm DB/KB Row / Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dog%20Row%20(DB)%20-%201-second%20squeeze%20at%20the%20top)
-
-**Circuit 2**
-_3 rounds · 44 s work · 15 s to change_
-1. **Push-Up** — 3 rounds x 44 s · pick a version (or a tempo) you could keep going with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Kneeling Push-Up / DB Floor Press / Hand-Switch Push-up
-   - [Watch how](https://www.youtube.com/results?search_query=Push-Up)
-2. **Jump Rope** — 3 rounds x 44 s · hard but steady pace
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Burpees / 20 s Fast / 40 s Slow Intervals (any cardio) / Jumping Jacks / Fast Run / Walk Back ('NOT a sprint')
-   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope)
-3. **Alternating DB Floor Press** — 3 rounds x 44 s · pick a weight you could keep moving with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - Alternate sides every rep for the whole station
-   - Swap for: Offset Push-Up (one hand elevated) / Kneeling Push-Up - One Hand Higher (offset) / DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Floor%20Press)
-4. **Standing Calf Raise (bodyweight, from a deficit/step) - one leg at a time** — 3 rounds x 44 s · pick a weight you could keep moving with about 1-2 reps left at the bell
-   - Circuit: 3 rounds, 44 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing DB Calf Raise (deficit optional) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Calf%20Raise%20(bodyweight%2C%20from%20a%20deficit%2Fstep)%20-%20one%20leg%20at%20a%20time)
+   - Swap for: Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Forward Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
+3. **Jump Rope** — 5 rounds x 50 s · hard but steady pace
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Jumping Jacks (keeps the jump; loses the exact drill - the same quality, trained another way) / Burpees (keeps the jump; loses the exact drill - the same quality, trained another way) / 20 s Fast / 40 s Slow Intervals (any cardio) (keeps the jump; loses the exact drill - the same quality, trained another way) / Fast Run / Walk Back ('NOT a sprint') (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope) · Name to copy into YouTube: `Jump Rope`
+4. **Push-Up** — 5 rounds x 50 s · pick a version (or a tempo) you could keep going with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses some difficulty - this one is easier) / Hand-Switch Push-up (keeps the horizontal press; loses some difficulty - this one is easier) / Alternating DB Floor Press (keeps the horizontal press; loses the bottom of the range)
+   - [Watch how](https://www.youtube.com/results?search_query=Push-Up) · Name to copy into YouTube: `Push-Up`
+5. **Bent-Over DB or KB Row (two-arm) - underhand grip (palms up)** — 5 rounds x 50 s · pick a weight you could keep moving with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20or%20KB%20Row%20(two-arm)) · Name to copy into YouTube: `Bent-Over DB or KB Row (two-arm)`
+6. **Overhead Dumbbell Triceps Extension** — 5 rounds x 50 s · pick a weight you could keep moving with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
+7. **DB Lateral Raise (Supinated / palms-up grip)** — 5 rounds x 50 s · pick a weight you could keep moving with about 1-2 reps left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / KB Upright Row (keeps the side-delt work; loses the feel of the original implement) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) (keeps the side-delt work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)) · Name to copy into YouTube: `DB Lateral Raise (Supinated / palms-up grip)`
 
 ### Saturday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -1642,70 +1552,63 @@ _Week level: 11 of 11 (2 = the start, 11 = a little past your limits)_
 _Last week: one intensifier on each of these days (Monday, Wednesday and Friday): hold the hardest point for 10 s at the end of the last round on the marked stations_
 
 **What changes this week**
-- Circuit work goes up to 46 s
-- Keep your weights this week (the stations got longer); add load only where you finish a station with more than 1 reps left
+- Same work time this week: add a little load where you finish a station with more than 1 reps left
 
-**Athletic work this week:** 30 throws
+**Athletic work this week:** 40 throws
 
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
-_about 45 min_
+_Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-Skip (running drill)**
-   - Swap for: A-March (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+   - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Weighted Sit-Up** [A1] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Copenhagen Plank
-   - Swap for: Sit-Up / Crunch / V-Up / Butterfly Sit-up
-   - [Video](https://www.youtube.com/watch?v=4YOoMXPnOu4)
-2. **Copenhagen Plank** [A2] — 2 × 10-30 s · hold with good form, stop before it breaks · rest 30-60 s after the pair · SUPERSET W/ Weighted Sit-Up
+1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Copenhagen Raise (dynamic) / Elbow Oblique Sit (side-lying oblique hold on the elbow) / Star Side Plank / High (Straight-Arm) Side Plank
-   - [Video](https://www.youtube.com/watch?v=aDsaGBnvDQo)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
-_3 rounds · 46 s work · 15 s to change_
-1. **Kettlebell Swing (Russian)** — 3 rounds x 46 s · max intent; stop when quality drops
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
+_5 rounds · 50 s work · 15 s to change_
+1. **Kettlebell Swing (Russian)** — 5 rounds x 50 s · max intent; stop when quality drops
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
    - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
-   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) / Medball Overhead Throw / Medball Rotational Downward Slam / Medball Rotational Side-to-Side Floor Slams
-   - [Video](https://youtu.be/KkYOW3jDhoM)
-2. **Sumo Squat (DB or KB)** — 3 rounds x 46 s · pick a weight you could keep moving with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - Swap for: High-Zercher DB Squat (DB hugged high at chest) / Goblet Squat (Heels Elevated) / Box Squat (bodyweight) / Low DB Squat (two DBs hanging at the sides)
-   - [Watch how](https://www.youtube.com/results?search_query=Sumo%20Squat%20(DB%20or%20KB))
-3. **Table Row (inverted row under a sturdy table) - 1-second squeeze at the top** — 3 rounds x 46 s · pick a version (or a tempo) you could keep going with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Chest-Supported Row / Bent-Over DB or KB Row (two-arm) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Table%20Row%20(inverted%20row%20under%20a%20sturdy%20table)%20-%201-second%20squeeze%20at%20the%20top)
-4. **DB Leg Extension (seated on box)** — 3 rounds x 46 s · pick a weight you could keep moving with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - [Video](https://youtu.be/HpCE66lfEuk)
-
-**Circuit 2**
-_3 rounds · 46 s work · 15 s to change_
-1. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 3 rounds x 46 s · pick a weight you could keep moving with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - Alternate sides every rep for the whole station
-   > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) / Staggered-Stance (Kickstand) DB Deadlift / Staggered-Stance Deadlift / Single-Leg RDL / Single-Leg Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB))
-2. **Single-Arm DB/KB Row** — 3 rounds x 46 s · pick a weight you could keep moving with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Step-Forward Medball Overhead Throw (R & L leg) (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Downward Slam (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
+2. **High-Zercher DB Squat (DB hugged high at chest)** — 5 rounds x 50 s · pick a weight you could keep moving with about 1 rep left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses some difficulty - this one is easier) / Box Squat (bodyweight) (keeps the two-leg squat; loses the bottom of the range) / Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses some difficulty - this one is easier) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=High-Zercher%20DB%20Squat%20(DB%20hugged%20high%20at%20chest)) · Name to copy into YouTube: `High-Zercher DB Squat (DB hugged high at chest)`
+3. **Chest-Supported Row** — 5 rounds x 50 s · pick a weight you could keep moving with about 1 rep left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the chest support) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 5 rounds x 50 s · pick a weight you could keep moving with about 1 rep left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Bird Dog Row (DB) / Bent-Over Seesaw DB Row (alternating) / Renegade Row / Chest-Supported Row
-   - [Video](https://www.youtube.com/watch?v=xl1YiqQY2vA)
-3. **Supine Slider Hamstring Curl** — 3 rounds x 46 s · pick a version (or a tempo) you could keep going with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Ball Hamstring Curl (medball or stability ball)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20Slider%20Hamstring%20Curl)
-4. **Standing DB Calf Raise (deficit optional)** — 3 rounds x 46 s · pick a weight you could keep moving with about 1 rep left at the bell · last round: hold the hardest point for 10 s at the end
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional))
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+5. **Bent-Over DB Reverse Fly** — 5 rounds x 50 s · pick a weight you could keep moving with about 1 rep left at the bell · last round: hold the hardest point for 10 s at the end
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
+6. **Step-Up (forward and lateral)** — 5 rounds x 50 s · pick a version (or a tempo) you could keep going with about 1 rep left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - One side at a time: switch sides at half time
+   - Swap for: Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+7. **Zottman Curl (supinated up, pronated down)** — 5 rounds x 50 s · pick a weight you could keep moving with about 1 rep left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB 'No Money' Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Zottman%20Curl%20(supinated%20up%2C%20pronated%20down)) · Name to copy into YouTube: `Zottman Curl (supinated up, pronated down)`
 
 ### Tuesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -1714,66 +1617,60 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Any cardio tool works. Go by time, not distance.
 
 ### Wednesday · Bootcamp 2 - hinge + presses
-_about 45 min_
-_You can switch off these blocks today: core, Medball Rotational Downward Slam (jumps, throws and speed). You can also add or remove exercises._
+_Average time: about 55-65 min (an estimate, for information only)_
+_You can switch off these blocks today: core, Step-Forward Medball Overhead Throw (R & L leg) (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-Skip (running drill)**
-   - Swap for: A-March (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+   - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Weighted Russian Twist** [A1] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Leg Raise (lying / supine)
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: KB Book Opener / Bicycle Crunch / Star Supine Cross Connect / Star Toe Touches
-   - [Video](https://www.youtube.com/watch?v=4p5jWyz-YRQ)
-2. **Leg Raise (lying / supine)** [A2] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Weighted Russian Twist
-   - Swap for: Reverse Crunch / V-Up / Hip Raises ('hips raises') / Mountain Climber
-   - [Video](https://youtu.be/VpEcj96HO4k)
+   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Circuit 1**
-_3 rounds · 46 s work · 15 s to change_
-1. **Medball Rotational Downward Slam** — 3 rounds x 46 s · max intent; stop when quality drops
-   - 10-14 lb ball
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - 10 throws each round with full intent, then rest until the bell: the ball does not count as a muscle set
+_5 rounds · 50 s work · 15 s to change_
+1. **Step-Forward Medball Overhead Throw (R & L leg)** — 5 rounds x 50 s · max intent; stop when quality drops
+   - 6-10 lb ball
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - 8 throws each round with full intent, then rest until the bell: the ball does not count as a muscle set
    > No levels: just do them right (quality and intent over load).
-   - Swap for: Medball Rotational Side-to-Side Floor Slams / Half-Kneeling Rotational Overhead Medball Side Slam / Half-Kneeling Rotational Medball Slam / Medball Overhead Toss to Rotational Scoop
-   - [Video](https://youtu.be/hVX13jShJXE)
-2. **Single-Kettlebell Deadlift** — 3 rounds x 46 s · pick a weight you could keep moving with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Double-Kettlebell Deadlift / Dumbbell Deadlift
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift)
-3. **Offset Push-Up (one hand elevated)** — 3 rounds x 46 s · pick a version (or a tempo) you could keep going with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Medball Overhead Throw (keeps the throw; loses the exact drill - the same quality, trained another way) / Overhead Medball Slam (keeps the throw; loses the exact drill - the same quality, trained another way) / Reverse Lunge with Inside Floor Slam (keeps the throw; loses the exact drill - the same quality, trained another way) / Side-to-Side Shuffle Floor Slam (height matters) (keeps the throw; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Forward%20Medball%20Overhead%20Throw%20(R%20%26%20L%20leg)) · Name to copy into YouTube: `Step-Forward Medball Overhead Throw (R & L leg)`
+2. **Dumbbell Deadlift** — 5 rounds x 50 s · pick a weight you could keep moving with about 1 rep left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Deadlift) · Name to copy into YouTube: `Dumbbell Deadlift`
+3. **DB Floor Press** — 5 rounds x 50 s · pick a weight you could keep moving with about 1 rep left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Alternating DB Floor Press (keeps the horizontal press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press) · Name to copy into YouTube: `DB Floor Press`
+4. **Dumbbell Curl** — 5 rounds x 50 s · pick a weight you could keep moving with about 1 rep left at the bell · last round: hold the hardest point for 10 s at the end
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Kettlebell Curl (one or two KBs) (keeps the biceps work; loses the feel of the original implement) / DB Pronated (Reverse) Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+5. **Offset Push-Up (one hand elevated)** — 5 rounds x 50 s · pick a version (or a tempo) you could keep going with about 1 rep left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Alternating DB Floor Press / Kneeling Push-Up - One Hand Higher (offset) / Kneeling Push-Up
-   - [Video](https://www.youtube.com/watch?v=nxPEqBn6tFc)
-4. **Ball Hamstring Curl (medball or stability ball) - 1-second squeeze at the top** — 3 rounds x 46 s · pick a version (or a tempo) you could keep going with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Supine Slider Hamstring Curl
-   - [Watch how](https://www.youtube.com/results?search_query=Ball%20Hamstring%20Curl%20(medball%20or%20stability%20ball)%20-%201-second%20squeeze%20at%20the%20top)
-
-**Circuit 2**
-_3 rounds · 46 s work · 15 s to change_
-1. **DB Lateral (Side) Raise** — 3 rounds x 46 s · pick a weight you could keep moving with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - Swap for: DB Lateral Raise (Supinated / palms-up grip) / DB Upright Row / KB Upright Row / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated)
-   - [Video](https://www.youtube.com/watch?v=OuG1smZTsQQ)
-2. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 rounds x 46 s · pick a weight you could keep moving with about 1 rep left at the bell · last round: hold the hardest point for 10 s at the end
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing Calf Raise (bodyweight, from a deficit/step) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)%20-%201-second%20squeeze%20at%20the%20top)
-3. **DB Floor Press** — 3 rounds x 46 s · pick a weight you could keep moving with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Kneeling Push-Up / Push-Up / Alternating DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=DB%20Floor%20Press)
-4. **Alternating DB Overhead Press - 1-second pause at the bottom** — 3 rounds x 46 s · pick a weight you could keep moving with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Kneeling Push-Up (keeps the horizontal press; loses the added load) / Push-Up (keeps the horizontal press; loses the added load) / Incline Push-Up (hands elevated) (keeps the horizontal press; loses the added load) / Kneeling Push-Up - One Hand Higher (offset) (keeps the horizontal press; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)) · Name to copy into YouTube: `Offset Push-Up (one hand elevated)`
+6. **Seesaw DB Press (alternating, one up / one down)** — 5 rounds x 50 s · pick a weight you could keep moving with about 1 rep left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
    - Alternate sides every rep for the whole station
-   - Swap for: Seesaw DB Press (alternating, one up / one down) / Half-Kneeling Single-Arm DB Press / Single-Arm DB Overhead Press / DB Overhead Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press%20-%201-second%20pause%20at%20the%20bottom)
+   - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Single-Arm DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm DB Press (keeps the vertical press; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down)) · Name to copy into YouTube: `Seesaw DB Press (alternating, one up / one down)`
+7. **Floor Dumbbell Skullcrusher** — 5 rounds x 50 s · pick a weight you could keep moving with about 1 rep left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
 
 ### Thursday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -1781,64 +1678,58 @@ _Optional: you can switch off this cardio session, or move it to another day._
 - **Green (B): moderate · run** · 30 min · 3 min run / 3 min walk, repeat
   - Any cardio tool works. Go by time, not distance.
 
-### Friday · Bootcamp 3 - single-leg squat + pulls
-_about 45 min_
+### Friday · Bootcamp 3 - single-leg squat + pulls + arms
+_Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
 2. **A-Skip (running drill)**
-   - Swap for: A-March (running drill) / A-Runs (high-knee running drill)
-   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill))
+   - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Russian Twist** [A1] — 2 × 10 to 15 per side · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Reverse Crunch
+1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Weighted Russian Twist / Cross-Body Mountain Climber / KB Book Opener / Star Toe Touches
-   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist)
-2. **Reverse Crunch** [A2] — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · rest 30-60 s after the pair · SUPERSET W/ Russian Twist
-   - Swap for: Leg Raise (lying / supine) / V-Up / Hip Raises ('hips raises') / Slider Runners (mountain-climber style)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch)
+   - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Circuit 1**
-_3 rounds · 46 s work · 15 s to change_
-1. **Step-Up (forward and lateral)** — 3 rounds x 46 s · pick a version (or a tempo) you could keep going with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
+_5 rounds · 50 s work · 15 s to change_
+1. **Chest-Supported Row - underhand grip (palms up)** — 5 rounds x 50 s · pick a weight you could keep moving with about 1 rep left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Chest-Supported Row instead of Single-Arm Lat Pulldown (your equipment): keeps the same main muscle, loses the vertical pull (a pull-up bar, a cable or a TRX would bring it back).
+   - Swap for: Single-Arm DB/KB Row (keeps the horizontal pull; loses the heavier two-sided load) / Bird Dog Row (DB) (keeps the horizontal pull; loses the heavier two-sided load) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses the heavier two-sided load) / Renegade Row (keeps the horizontal pull; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row) · Name to copy into YouTube: `Chest-Supported Row`
+2. **Stationary Lunge (Split Squat)** — 5 rounds x 50 s · pick a version (or a tempo) you could keep going with about 1 rep left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
    - One side at a time: switch sides at half time
-   - Swap for: Curtsy Lunge / Side (Lateral) Lunge / Reverse Lunge / Stationary Lunge (Split Squat)
-   - [Video](https://youtu.be/9ZknEYboBOQ)
-2. **Chest-Supported Row** — 3 rounds x 46 s · pick a weight you could keep moving with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over DB or KB Row (two-arm) / Bent-Over Row
-   - [Watch how](https://www.youtube.com/results?search_query=Chest-Supported%20Row)
-3. **DB Leg Extension (seated on box) - 1-second squeeze at the top** — 3 rounds x 46 s · pick a weight you could keep moving with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - [Video](https://youtu.be/HpCE66lfEuk)
-4. **Bird Dog Row (DB) - 1-second squeeze at the top** — 3 rounds x 46 s · pick a weight you could keep moving with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - One side at a time: switch sides at half time
-   - Swap for: Single-Arm DB/KB Row / Table Row (inverted row under a sturdy table) / Kong Row (double-KB row from the floor) / Bent-Over Seesaw DB Row (alternating)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dog%20Row%20(DB)%20-%201-second%20squeeze%20at%20the%20top)
-
-**Circuit 2**
-_3 rounds · 46 s work · 15 s to change_
-1. **Push-Up** — 3 rounds x 46 s · pick a version (or a tempo) you could keep going with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Kneeling Push-Up / DB Floor Press / Hand-Switch Push-up
-   - [Watch how](https://www.youtube.com/results?search_query=Push-Up)
-2. **Jump Rope** — 3 rounds x 46 s · hard but steady pace
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Burpees / 20 s Fast / 40 s Slow Intervals (any cardio) / Jumping Jacks / Fast Run / Walk Back ('NOT a sprint')
-   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope)
-3. **Alternating DB Floor Press** — 3 rounds x 46 s · pick a weight you could keep moving with about 1 rep left at the bell
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - Alternate sides every rep for the whole station
-   - Swap for: Offset Push-Up (one hand elevated) / Kneeling Push-Up - One Hand Higher (offset) / DB Floor Press
-   - [Watch how](https://www.youtube.com/results?search_query=Alternating%20DB%20Floor%20Press)
-4. **Standing Calf Raise (bodyweight, from a deficit/step) - one leg at a time** — 3 rounds x 46 s · pick a weight you could keep moving with about 1 rep left at the bell · last round: hold the hardest point for 10 s at the end
-   - Circuit: 3 rounds, 46 s per station, 15 s to change, 90 s between rounds
-   - Swap for: Standing DB Calf Raise (deficit optional) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20Calf%20Raise%20(bodyweight%2C%20from%20a%20deficit%2Fstep)%20-%20one%20leg%20at%20a%20time)
+   - Swap for: Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses the body-weight control) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Forward Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)) · Name to copy into YouTube: `Stationary Lunge (Split Squat)`
+3. **Jump Rope** — 5 rounds x 50 s · hard but steady pace
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Jumping Jacks (keeps the jump; loses the exact drill - the same quality, trained another way) / Burpees (keeps the jump; loses the exact drill - the same quality, trained another way) / 20 s Fast / 40 s Slow Intervals (any cardio) (keeps the jump; loses the exact drill - the same quality, trained another way) / Fast Run / Walk Back ('NOT a sprint') (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Jump%20Rope) · Name to copy into YouTube: `Jump Rope`
+4. **Push-Up** — 5 rounds x 50 s · pick a version (or a tempo) you could keep going with about 1 rep left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses some difficulty - this one is easier) / Hand-Switch Push-up (keeps the horizontal press; loses some difficulty - this one is easier) / Alternating DB Floor Press (keeps the horizontal press; loses the bottom of the range)
+   - [Watch how](https://www.youtube.com/results?search_query=Push-Up) · Name to copy into YouTube: `Push-Up`
+5. **Bent-Over DB or KB Row (two-arm) - underhand grip (palms up)** — 5 rounds x 50 s · pick a weight you could keep moving with about 1 rep left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses the feel of the original implement) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20or%20KB%20Row%20(two-arm)) · Name to copy into YouTube: `Bent-Over DB or KB Row (two-arm)`
+6. **Overhead Dumbbell Triceps Extension** — 5 rounds x 50 s · pick a weight you could keep moving with about 1 rep left at the bell · last round: hold the hardest point for 10 s at the end
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
+7. **DB Lateral Raise (Supinated / palms-up grip)** — 5 rounds x 50 s · pick a weight you could keep moving with about 1 rep left at the bell
+   - Circuit: 5 rounds, 50 s per station, 15 s to change, 90 s between rounds
+   - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / KB Upright Row (keeps the side-delt work; loses the feel of the original implement) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) (keeps the side-delt work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)) · Name to copy into YouTube: `DB Lateral Raise (Supinated / palms-up grip)`
 
 ### Saturday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -1848,8 +1739,8 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ---
 
-_Model 1.3.0 · Engine 0.4.0_
+_Model 1.3.0 · Engine 0.5.0_
 
-Not medical advice. Use at your own risk. Train within your limits. Full terms: Disclaimer and Release of Liability. [Read the full disclaimer and release](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md)
+Liability released: the terms and the release were accepted before this plan was built. Not medical advice. Use at your own risk. Train within your limits. Full terms: Disclaimer and Release of Liability. [Read the full disclaimer and release](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md)
 
-Videos open on YouTube and are not made by Blaze Camp. We're building our own library. Have a great video of this exercise? Send it to @BLAZECAMP on Instagram.
+"Watch how" opens a YouTube search for the exercise name. The videos you find are not made or checked by Blaze Camp. You can also copy the name shown under each exercise and paste it into YouTube.

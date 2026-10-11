@@ -2,7 +2,7 @@
 
 This page is the lookup table for competitive athletes. The sport picker has **52 sports**. Each sport, and often each position, points to a **profile**: a record that sets the dials of the plan. The main dials are the plyometric share of jump work, the share of two-leg vs one-leg lifting, the number of aerobic sessions, the number of Olympic-lift days, whether the in-season "game-heavy" rule applies, and the injury hotspots to protect. The table below lists all of them in one place and says, number by number, what the coach confirmed and what is still PROPOSED.
 
-> **How to read this page.** Ids with no prefix (`ATH-01`, `UNI-02`) are the coach's round-1 answers (`coach_answers_full.md`). `R2-` is round 2 (`coach_answers_round2.md`). `R3-` is round 3 (`coach_answers_round3.md`), the newest. A later round wins. **PROPOSED** means the team placed it and he has not confirmed it. The rules behind the dials are explained on [athletes.md](athletes.md). His answers: [../03-coach-answers/athletes-and-sports.md](../03-coach-answers/athletes-and-sports.md).
+> **How to read this page.** Ids with no prefix (`ATH-01`, `UNI-02`) are the coach's round-1 answers (`coach_answers_full.md`). `R2-` is round 2 (`coach_answers_round2.md`). `R3-` is round 3 (`coach_answers_round3.md`). A later round wins. **PROPOSED** means the team placed it and he has not confirmed it. The rules behind the dials are explained on [athletes.md](athletes.md). His answers: [../03-coach-answers/athletes-and-sports.md](../03-coach-answers/athletes-and-sports.md). **Since model v1.3** there are newer answers too: round 4 (`R4-`, `coach_answers_round4.md`) and two clarifications of 2026-10-10 (`CT-01` on session time, `CX-01..04` on progression and editing). They win on their subjects.
 
 Related pages: [athletes.md](athletes.md), [stay-athletic-and-active.md](stay-athletic-and-active.md) (the 26 activities for people who play for fun), [special-populations.md](special-populations.md), [swimming.md](swimming.md), [bilateral-unilateral.md](bilateral-unilateral.md). Terms: [../05-reference/glossary.md](../05-reference/glossary.md). Field by field: [../05-reference/data-dictionary.md](../05-reference/data-dictionary.md).
 
@@ -174,6 +174,26 @@ This is the quick view of the first dial. Sports in **bold** were named by him.
 | Game-heavy rule | Basketball, volleyball, soccer, football, hockey (R2-ATH-07). Lacrosse, field hockey, rugby, ultimate, flag football, beach volleyball (R3-ATH-04). | Cheer, gymnastics, competitive pickleball, tennis, padel, wrestling and the routed sports. |
 | Hotspots | The general pain rule (VOL-03) and his rules for pitchers (ATH-08) and strikers (ATH-04). | The hotspot list for each sport. |
 | Positions | That competitive athletes pick a sport and a position (GEN-02). | The position lists, the default profile for each sport, and the Spanish names (he approves those line by line, R2-GEN-08). |
+
+### 5.1 The confidence label on every profile (R4-SCP-03)
+
+**Rule.** Every sport profile carries one of three labels, in the data (`model/profiles.json > sports[id].confidence`, with a one-line `confidence_basis`) and on this page. The label is **not** printed on a plan.
+
+> "Many sport numbers were confirmed by you, others we inferred from similar sports. Should each sport profile carry a label?" - "Yes, in the data and docs: 'Confirmed by coach', 'Based on a similar sport', or 'Proposed'. Not shown on the plan itself." (R4-SCP-03, approved)
+
+How the label is read from the profile's own provenance (`synthesis/04_profiles.json`; the rule is in `tools/fixture/v05-library.mjs > profileConfidence`):
+
+| Label | Meaning | Profiles |
+|---|---|---|
+| `confirmed_by_coach` | The numbers come from his own programs (the profile's evidence says OBSERVED), or he approved this sport's plan by name (swimming, R3-ATH-01; HYROX, R3-ATH-03). | 23 |
+| `similar_sport` | Built on another profile: a base profile, a position delta, or a variant reused unchanged. | 67 |
+| `proposed` | Inferred from a needs analysis with his general rules applied. There is no program of this sport in his sheets. | 37 |
+
+A label describes the whole profile. Single dials inside a `proposed` or `similar_sport` profile can still be his (the plyo share of soccer and volleyball is R2-ATH-01, for example): the table in section 5 says which.
+
+- **confirmed_by_coach:** `baseball_position`, `basketball`, `bodybuilding_aesthetics`, `boxing`, `crossfit_class`, `crossfit_competitor`, `distance_runner`, `fat_loss`, `football_skill`, `general_population`, `hybrid`, `hyrox_competitive`, `hyrox_fitness`, `karate_taekwondo`, `kickboxing_muay_thai`, `mma`, `powerlifting_strength`, `softball`, `swimming_distance`, `swimming_middle`, `swimming_sprint`, `taekwondo`, `weekend_warrior`
+- **similar_sport:** `active_aging_50plus`, `active_aging_60plus`, `baseball_catcher`, `baseball_infield`, `baseball_outfield`, `baseball_pitcher`, `basketball_big`, `basketball_guard`, `cross_country`, `cycling_fitness`, `dance_fitness`, `flag_football`, `football_dl`, `football_k_p`, `football_ol`, `football_qb`, `football_rb`, `gymnastics_artistic`, `hike_ruck`, `hockey_defense`, `hockey_goalie`, `judo`, `lap_swim`, `ocr_spartan`, `pickleball_competitive`, `rec_basketball`, `rec_climbing`, `rec_combat_fitness`, `rec_flag_football`, `rec_golf`, `rec_hockey`, `rec_kickball`, `rec_league`, `rec_ocr`, `rec_padel`, `rec_pickleball`, `rec_rowing`, `rec_soccer`, `rec_softball`, `rec_tennis`, `rec_triathlon`, `rec_ultimate`, `rec_volleyball`, `rugby_backs`, `rugby_forwards`, `rugby_sevens`, `run_fitness`, `ski_snow_prep`, `soccer_defender`, `soccer_forward`, `soccer_gk`, `softball_pitcher`, `strongman`, `surf_paddle`, `track_400`, `track_hurdles`, `track_jumper`, `track_thrower`, `ultimate_cutter`, `ultimate_handler`, `volleyball_libero`, `volleyball_middle`, `volleyball_setter`, `water_polo_center`, `water_polo_goalkeeper`, `weightlifting`, `youth_general_athletic`
+- **proposed:** `bjj_grappling`, `cheer_base_spot`, `cheer_flyer_tumbler`, `climbing`, `cycling_endurance`, `cycling_sprint`, `diving`, `field_hockey_field`, `field_hockey_gk`, `football_big_skill`, `football_lineman`, `golf`, `hockey`, `lacrosse_m_attack`, `lacrosse_m_defense`, `lacrosse_m_goalie`, `lacrosse_m_midfield`, `lacrosse_w_attack`, `lacrosse_w_defense`, `lacrosse_w_goalie`, `lacrosse_w_midfield`, `rowing`, `ski_alpine`, `ski_freestyle`, `soccer`, `tennis`, `track_high_jump`, `track_javelin`, `track_middle`, `track_pole_vault`, `track_sprinter`, `triathlon`, `volleyball`, `volleyball_beach`, `water_polo_field`, `wrestling`, `youth_athlete`
 
 ---
 

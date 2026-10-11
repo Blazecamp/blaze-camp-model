@@ -41,7 +41,8 @@ His sheets also hold older drafts of the library. He confirmed those are older, 
 
 ## Consequences
 
-- A new exercise proposed by a contributor is a swap only, never a default, until the coach approves it.
+- A new exercise proposed by a contributor starts as PROPOSED: never a default, until the coach approves it. In round 4 he made the team's own proposed exercises live as **optional add-ons**: they can be chosen and added, but a template never picks them (R4-LIB-01, [ADR-054](adr-054-proposed-exercises-are-optional-add-ons.md)).
+- A swap prints one short line on what it keeps and what it loses, for example "DB snatch instead of power clean: keeps the explosive hip drive, loses the barbell catch" (R4-LIB-04, the proposal he marked RIGHT).
 - People must be able to add exercises, and the repo explains how (his request in conversation). See [Adding exercises](../adding-exercises.md).
 - Spelling is corrected in the tool only. His sheets stay as they are (FIX-04).
 - Program names must be general and understandable. "Justice League" was a marketing name (ATH-13, FIX-03).

@@ -2,7 +2,7 @@
 
 This page answers the questions people ask most about the Blaze Camp model: what the tool does, how it counts and grows volume, how a session is built, how it treats athletes and older people, and how to use the data in your own work. Every answer is taken from the model and from coach Lalo Vera's own answers. Each one leads with the short answer, then gives his reason with the answer id, then says where the rule lives in the data. Anything he has not confirmed is marked PROPOSED.
 
-**How to read the ids.** `VOL-09` is a round-1 answer ([coach_answers_full.md](../../coach_answers_full.md)). `R2-…` is round 2 ([coach_answers_round2.md](../../coach_answers_round2.md)). `R3-…` is round 3 ([coach_answers_round3.md](../../coach_answers_round3.md)). The newest round wins. "Conversation" means [coach_chat_statements.md](../../coach_chat_statements.md). Terms are defined in the [glossary](glossary.md). Numbers and their data keys are in [parameters.md](parameters.md).
+**How to read the ids.** `VOL-09` is a round-1 answer ([coach_answers_full.md](../../coach_answers_full.md)). `R2-…` is round 2 ([coach_answers_round2.md](../../coach_answers_round2.md)). `R3-…` is round 3 ([coach_answers_round3.md](../../coach_answers_round3.md)). `R4-…` is round 4 ([coach_answers_round4.md](../../coach_answers_round4.md)). `CT-01` and `CX-01..04` are two clarifications he gave on 2026-10-10 ([session time](../../coach_answers_time_2026-10-10.md), [progression and editing](../../coach_answers_codex_2026-10-10.md)). The newest answer wins: round 4 and CT-01 first. "Conversation" means [coach_chat_statements.md](../../coach_chat_statements.md). Terms are defined in the [glossary](glossary.md). Numbers and their data keys are in [parameters.md](parameters.md).
 
 ## Contents
 
@@ -26,7 +26,7 @@ This page answers the questions people ask most about the Blaze Camp model: what
 **Sessions and exercises**
 14. [In what order does a session run?](#14-in-what-order-does-a-session-run)
 15. [Why hip with push, knee with pull, and only one heavy squat day?](#15-why-hip-with-push-knee-with-pull-and-only-one-heavy-squat-day)
-16. [My sessions are short. What gives?](#16-my-sessions-are-short-what-gives)
+16. [My sessions are short, or I only have 2 days. What gives?](#16-my-sessions-are-short-or-i-only-have-2-days-what-gives)
 17. [Why no bands? Which machine is best?](#17-why-no-bands-which-machine-is-best)
 18. [How are exercises picked? Can the tool invent new ones?](#18-how-are-exercises-picked-can-the-tool-invent-new-ones)
 19. [What plan lengths are there?](#19-what-plan-lengths-are-there)
@@ -52,11 +52,11 @@ This page answers the questions people ask most about the Blaze Camp model: what
 
 ### 1. What does the tool do?
 
-**Short answer.** You give a few answers (goal, sport or activity, experience, days, minutes, equipment, pain). It gives you the whole plan at once: 12 weeks, 8 weeks, a maintenance phase, a season or a year. You see every week ahead of time.
+**Short answer.** You give a few answers (goal, sport or activity, experience, days, equipment, pain) and accept the terms and the release. It gives you the whole plan at once: 12 weeks, 8 weeks, a maintenance phase, a season or a year. You see every week ahead of time. Each day is built on one of his own templates and sized by its number of exercises. It does not ask how long you want to train: each day shows an average time as information only.
 
-**Why.** "I want them to be able to kick out a program, and that's it. That's the program ... It's already a template, and you need to adjust it as you need to" (R3-VOL-04).
+**Why.** "I want them to be able to kick out a program, and that's it. That's the program ... It's already a template, and you need to adjust it as you need to" (R3-VOL-04). On time: "You need to stop trying to be responsible for the people's time" (CT-01).
 
-**Where it lives.** The inputs: `generator_spec_v1.json > inputs_schema`. The steps from inputs to plan: `generator_spec_v1.json > pipeline`. Decision record: [ADR-001](../04-decisions/adr-001-answers-in-plan-out-no-check-ins.md).
+**Where it lives.** The inputs: `generator_spec_v1.json > inputs_schema`. The steps from inputs to plan: `generator_spec_v1.json > pipeline`. Session size: `model/rules.json > session > size`. Decision records: [ADR-001](../04-decisions/adr-001-answers-in-plan-out-no-check-ins.md), [ADR-050](../04-decisions/adr-050-no-time-fitting-sessions-sized-by-exercise-count.md), [ADR-051](../04-decisions/adr-051-coach-templates-are-the-skeleton.md).
 
 ### 2. Why are there no check-ins and no tracking?
 
@@ -76,24 +76,24 @@ This page answers the questions people ask most about the Blaze Camp model: what
 
 ### 4. Does it keep my data? What are the health check and the release?
 
-**Short answer.** It keeps nothing. Before a plan is built there are two steps.
+**Short answer.** It keeps nothing. Everyone may use the plans on their own. Before a plan is built there are two steps, and the release comes first.
 
 | Step | What it is | Source |
 |---|---|---|
-| Health check | A short set of questions. Five answers stop the automatic plan and send you to a professional: chest pain or heart issues; surgery or a fracture in the last 6 months; pregnant or gave birth in the last 6 months; an injury under treatment; a doctor said no. A coach may skip it for a client, with a legal warning. | R2-GEN-03, R3-GEN-01 |
-| Release | One "use at your own risk" tick, with the terms and the liability release, every time a plan is built or rebuilt. | R3-GEN-01 |
+| Release (the liability gate) | You accept the terms and the release of liability every time a plan is built or rebuilt. It is required: without it no plan is generated. The plan then prints a short line, top and bottom, in English and Spanish, saying liability was released. | R3-GEN-01, R4-SCP-01, R4-SCP-02 |
+| Health check | A short set of questions. Five answers stop the automatic plan today and send you to a professional: chest pain or heart issues; surgery or a fracture in the last 6 months; pregnant or gave birth in the last 6 months; an injury under treatment; a doctor said no. A coach may skip it for a client, with a legal warning. Open for the coach: whether these should still stop a plan, now that he said everyone should be able to use it (R4-SCP-01). | R2-GEN-03, R3-GEN-01 |
 
-**Why.** "I don't want any data kept. It doesn't matter if they click it; it comes out. If they click it, they understand it" (R3-GEN-01).
+**Why.** "I don't want any data kept" (R3-GEN-01). In round 3 he also said "It doesn't matter if they click it; it comes out." Round 4 settled it the other way: "they need to click it before the plan shows, as part of when they put in their data, so that they understand the terms and conditions" (R4-SCP-02). And: "Everyone should be able to use the plan on their own, but all the plans should release liability before and after it gets kicked out" (R4-SCP-01).
 
-**Where it lives.** `generator_spec_v1.json > legal_and_privacy`. The full texts are [DISCLAIMER.md](../../DISCLAIMER.md) and [DISCLAIMER.es.md](../../DISCLAIMER.es.md). Both are drafts until a Florida attorney reviews them. The final health-check wording will be written by a lawyer, with a link to the official PAR-Q+.
+**Where it lives.** `generator_spec_v1.json > legal_and_privacy`; `model/rules.json > legal > gate` and `> legal > release_line`. Decision record: [ADR-056](../04-decisions/adr-056-liability-gate-before-every-plan.md). The full texts are [DISCLAIMER.md](../../DISCLAIMER.md) and [DISCLAIMER.es.md](../../DISCLAIMER.es.md). Both are drafts until a Florida attorney reviews them. The final health-check wording will be written by a lawyer, with a link to the official PAR-Q+.
 
 ### 5. Can I change the plan after it is built?
 
-**Short answer.** Yes. The plan is a template. You or your coach can switch off a day's athletic block or core block, remove or add exercises or whole blocks, swap an exercise for another in the same category, and use the suggested supersets.
+**Short answer.** Yes, all of it. The plan is a template. You or your coach can change the sets of any exercise on any day or week, switch off a day's athletic block or core block, remove or add exercises or whole blocks, add an optional add-on, swap an exercise for another in the same category, and use the suggested supersets. If a day is too long, you pick what to take away; the plan lists what is easiest to remove and removes nothing by itself. After an edit the weekly totals are recounted and the plan is marked as edited.
 
-**Why.** "They should be able to turn off that day's athletic training or that day's core training and just focus on resistance. Maybe a pickleball player that played a lot of pickleball has a lot of soreness in their calves ... because an athlete or a coach should be able to modify accordingly" (R3-SES-02).
+**Why.** "They should be able to turn off that day's athletic training or that day's core training and just focus on resistance. Maybe a pickleball player that played a lot of pickleball has a lot of soreness in their calves ... because an athlete or a coach should be able to modify accordingly" (R3-SES-02). "It should be all editable as they need to" (CX-04). On what to remove: "That's something for the athlete to adjust" (R4-SES-04).
 
-**Where it lives.** `generator_spec_v1.json > plan_editing`. The options are his. The mechanics (block ids, what the tool shows after an edit, the Reset button) are PROPOSED. Decision record: [ADR-005](../04-decisions/adr-005-editable-plan-switches-and-supersets.md).
+**Where it lives.** `generator_spec_v1.json > plan_editing`; `engine/edit.mjs > applyPlanEdits`. The options are his. The mechanics (block ids, what the tool shows after an edit, the Reset button) are PROPOSED. Decision record: [ADR-005](../04-decisions/adr-005-editable-plan-switches-and-supersets.md).
 
 ---
 
@@ -101,19 +101,19 @@ This page answers the questions people ask most about the Blaze Camp model: what
 
 ### 6. How many sets per muscle per week?
 
-**Short answer.** It depends on your level. In a training block, no group that is trained directly starts below 10.
+**Short answer.** It depends on your level. In a training block with 3 or more training days, no group that is trained directly starts below 10. With 2 training days, every big muscle is still trained, at about 6 to 8 weekly sets, and the plan suggests a third day (R4-SES-03). Each group climbs to its top number and reaches it in the last week.
 
 | | Level 1 | Level 2 | Level 3 |
 |---|---|---|---|
 | Start, big muscles | 10 | 15 | 20 |
 | Start, shoulders, biceps, triceps | 10 | 12 | 15 |
-| Ceiling | 14 | 22 | 25 |
+| Top number (ceiling), reached in the last week | 14 | 22 | 25 |
 
 Calves get one exercise × 3 sets on every leg day. Core gets 2 exercises × 2 sets at the start of every session.
 
 **Why.** "I like that 15 to 20 sets of any muscle group per week would be a good foundation for maintenance to a little bit of growth, and then 20 to 25 sets maybe can be a good growth foundation" (UNI-01). "I don't think anybody needs less than 10 sets a week per muscle" (R2-VOL-06). He also said: "this is all customizable".
 
-**Where it lives.** `generator_spec_v1.json > rule_tables > weekly_sets`. The Level 3 start of 20 is PROPOSED: the range he approved says "20+", and the model uses its low end. Read more: [volume](../02-model/volume.md).
+**Where it lives.** `generator_spec_v1.json > rule_tables > weekly_sets`; the 2-day rule in `model/rules.json > volume > two_day`. The Level 3 start of 20 is PROPOSED: the range he approved says "20+", and the model uses its low end. Read more: [volume](../02-model/volume.md).
 
 ### 7. How are sets counted?
 
@@ -125,7 +125,7 @@ Calves get one exercise × 3 sets on every leg day. Core gets 2 exercises × 2 s
 
 ### 8. Why don't jumps, Olympic lifts or kettlebell swings count as muscle sets?
 
-**Short answer.** They train a quality (speed, power, reactivity), not a muscle. They have their own units: contacts, throws, reps, cuts, metres. Kettlebell swings are in the same group, and so are HYROX station circuits.
+**Short answer.** They train a quality (speed, power, reactivity), not a muscle. They have their own units: contacts, throws, reps, cuts, metres. Kettlebell swings are in the same group, and so are HYROX station circuits. Carries and sled work are counted by distance or time (2 to 4 trips of 20 to 40 metres, or 20 to 40 seconds) and give no muscle sets either (R4-LIB-02).
 
 **Why.** "I don't believe that Olympic lifts, sprints, throws, and plyos are going to count towards specific muscles because there are so many things happening at so many different levels" (VOL-10). "Kettlebell swings are not glutes. They are hip-dominant, but at the speed they are swinging like that, it doesn't really become a resistance movement-building muscle work" (R2-VOL-05).
 
@@ -133,13 +133,13 @@ Calves get one exercise × 3 sets on every leg day. Core gets 2 exercises × 2 s
 
 ### 9. What is the stairway?
 
-**Short answer.** It is how every plan grows. Weekly sets rise by about 3 % a week until the halfway week and about 5 % after it. The hardest weeks come last. The tool turns the percentages into whole sets and adds them one at a time. No muscle rises more than 7 % in a week, and your total rises less than 10 %.
+**Short answer.** It is how every plan grows. Weekly sets usually rise by about 3 % a week until the halfway week and about 5 % after it. The hardest weeks come last. The tool works in whole sets. Each trained muscle group reaches its planned final sets in the last week (one week early is fine). When small steps cannot get there, the steps are bigger: there is no hard limit, and a week that adds more than about 15 % carries a note so you can lower it. A week may keep the same sets while your reps or load go up. Reps and load are written as a rule you apply: "When you hit 12 on every set with 1-2 reps left in the tank, add weight next time and start again at 8."
 
-**Why.** "It should be like steps up a stairway. In the beginning, the first 2, 3, 4 weeks, the steps are a little bit smaller, but they're gradually going up. When they get to that halfway point and upwards, the steps get a little bit higher, but not too much ... and that goes for every plan" (R2-PER-03). He approved the numbers in R3-VOL-04.
+**Why.** "It should be like steps up a stairway. In the beginning, the first 2, 3, 4 weeks, the steps are a little bit smaller, but they're gradually going up. When they get to that halfway point and upwards, the steps get a little bit higher, but not too much ... and that goes for every plan" (R2-PER-03). He approved the numbers in R3-VOL-04. On reaching the final sets: "go ahead and increase faster if thats the need, they could edit accordingly" (CX-01). Round 4 approved the arrival week, the note and the written rule (R4-PRG-01, R4-PRG-02, R4-PRG-03).
 
-**Where it lives.** `generator_spec_v1.json > rule_tables > rate_engine`; `synthesis/12_volume_algorithm_v1.json > stairway`. Read more: [stairway](../02-model/stairway.md).
+**Where it lives.** `generator_spec_v1.json > rule_tables > rate_engine`; `synthesis/12_volume_algorithm_v1.json > stairway`. Also `model/rules.json > stairway > progression` and `> render > progression`. Read more: [stairway](../02-model/stairway.md). Decision record: [ADR-053](../04-decisions/adr-053-progression-written-as-a-rule.md).
 
-**One open point.** With steps of 3 % and 5 %, a group that starts far below its ceiling does not reach it in 12 weeks. Today the model keeps the steps and treats the ceiling as a maximum. This reading is INFERRED and is a question for him.
+**No longer open.** With steps of 3 % and 5 %, a group that starts far below its top number would not reach it in 12 weeks. That used to be an open point. He settled it: the final sets win, and the steps get bigger (CX-01). The earlier limits (no more than 7 % for a muscle, under 10 % in total) are retired.
 
 ### 10. Why is there no deload week in the middle of a plan?
 
@@ -187,8 +187,8 @@ Calves get one exercise × 3 sets on every leg day. Core gets 2 exercises × 2 s
 | 2 | Core | 2 exercises × 2 sets, light; first by default, movable | ATH-11, R2-SES-03 |
 | 3 | Jumps, throws, speed, change of direction | athletes and athletic plans | VOL-08, VOL-17 |
 | 4 | Olympic lifts | power before strength | ORD-03 |
-| 5 | The main lift with its paired upper lift | "the work" first | ORD-02, UNI-11 |
-| 6 | Second pair, then isolation | row before pulldown; horizontal push before vertical push | ORD-01, GEN-08, conversation |
+| 5 | The lifts of the day's template, in slot order. Day A: row, squat, pulldown, lunge. Day B: press, hinge or hip thrust, vertical or incline press, single-leg hinge. | his template; "the work" first; row before pulldown; horizontal push before vertical push | R4-SES-05, ORD-01, ORD-02, UNI-11 |
+| 6 | Isolation | biceps and leg extension on Day A; triceps and leg curl on Day B; then calves or a shoulder exercise | R4-SES-05, VOL-17 |
 | 7 | Conditioning | last, except a fighter's opening aerobic block | OBSERVED (his sheets end with the buy-out); ORD-09 for the exception |
 
 **Why.** On core: "we need all the core work to be done first. Ideally, start with the core work that'll give you a good warm-up" (ATH-11). On order in general, from conversation: power first, then power-strength, then strength, then resistance patterns.
@@ -203,20 +203,18 @@ Calves get one exercise × 3 sets on every leg day. Core gets 2 exercises × 2 s
 
 **Where it lives.** `generator_spec_v1.json > rule_tables > pairing` and `> axial_loading`. Decision records: [ADR-029](../04-decisions/adr-029-pairing-hip-push-knee-pull.md), [ADR-030](../04-decisions/adr-030-axial-loading-once-per-pattern.md).
 
-### 16. My sessions are short. What gives?
+### 16. My sessions are short, or I only have 2 days. What gives?
 
-**Short answer.** The plan follows his order.
+**Short answer.** Nothing is cut for time. The tool does not ask how long you want to train, and it never fits a plan to minutes.
 
-1. It tells you up front and offers another day or longer sessions.
-2. If you keep your time, it trains fewer groups directly, big movers first. The smaller groups (in the wording he approved: arms, calves and rear delts) then get their work only from the compound lifts.
-3. It recommends supersets.
-4. The stairway still climbs on the groups it trains.
+- **Session length.** The plan comes out complete, sized by its number of exercises (5 to 7 for general fitness, 6 to 8 for aesthetics, and so on). Each day shows an average time as information. If a day is too long for you, use the recommended supersets or remove something. Each day lists what is easiest to remove. You pick.
+- **Only 2 days a week.** Every big muscle is still trained, with about 6 to 8 weekly sets instead of 10. The plan says so and suggests a third day. It does not drop whole muscles and does not pile on more exercises.
 
-It never squeezes 2 to 4 exercises per group into a day that cannot hold them.
+The round-3 order for short time (tell you, offer more time, train fewer groups directly, superset, keep climbing) is retired.
 
-**Why.** "Yeah, this is fine. Recommend doing supersets so that it's a faster workout, but they should be able to get things done" (R3-SES-02).
+**Why.** "You need to stop trying to be responsible for the people's time ... We can give an average recommendation of what it should take, but we will never know what it's going to take" (CT-01). "Drop it. We don't need it" (R4-SES-01). On 2 days: "People can add or remove or adjust accordingly" (R4-SES-03). Supersets are still his recommendation: "Recommend doing supersets so that it's a faster workout" (R3-SES-02).
 
-**Where it lives.** `generator_spec_v1.json > rule_tables > session_limits > time_vs_minimums` and `> derived_values > D15_time_fit`. The order is his. The minutes-per-set estimates behind the check are PROPOSED. Decision record: [ADR-032](../04-decisions/adr-032-time-vs-minimums-order.md).
+**Where it lives.** `model/rules.json > session > size`, `> volume > two_day`, `> session > easy_to_remove`, `> time_model` (`use: estimate_only`). The minutes behind the estimate are PROPOSED. Decision records: [ADR-050](../04-decisions/adr-050-no-time-fitting-sessions-sized-by-exercise-count.md), [ADR-052](../04-decisions/adr-052-two-day-rule.md); the retired one is [ADR-032](../04-decisions/adr-032-time-vs-minimums-order.md).
 
 ### 17. Why no bands? Which machine is best?
 
@@ -228,7 +226,7 @@ It never squeezes 2 to 4 exercises per group into a day that cannot hold them.
 
 ### 18. How are exercises picked? Can the tool invent new ones?
 
-**Short answer.** Every slot gets a default exercise from his library, and you can swap it for another from the same category. Exercises stay the same for an exercise block of 4 to 6 weeks. At the next block the tool may change one small detail (which hand holds the weight, grip, stance, implement, range). It never invents an exercise.
+**Short answer.** Every slot of his day template gets a default exercise from his library, and you can swap it for another from the same category. A swap says in one line what it keeps and what it loses. Exercises stay the same for an exercise block of 4 to 6 weeks. At the next block the tool may change one small detail (which hand holds the weight, grip, stance, implement, range). It never invents an exercise. Exercises the team proposed (carries, sled work, wall balls and others) are optional add-ons: you can add them, but a template never picks them, except wall balls and sled pushes in HYROX (R4-LIB-01). For muscle and general-fitness plans the "vertical push or incline" slot leads with an incline press (R4-LIB-03). Each exercise has a YouTube search link and its name to copy; there are no third-party video links (R4-LIB-05).
 
 **Why.** "Yeah, pick the default and be able to do the drop-downs. That's going to be important" (GEN-04). From conversation: "Don't try to 'confuse' the muscle." The one-detail rule was approved in R2-LIB-01. His library is "the single source of truth as far as I was able to take it so far" (CAT-07).
 
@@ -279,6 +277,7 @@ It never squeezes 2 to 4 exercises per group into a day that cannot hold them.
 
 | Group | Default | Source |
 |---|---|---|
+| From 60: session size | 5 to 6 exercises, not counting the warm-up and the 2 core exercises | R4-SES-02 |
 | From 60: on | landing drills, balance, quick stepping without a hop, light medball throws, fast machine work; more machines | R3-ATH-02, EQ-03 |
 | From 60: off, can be switched on with a warning | ankle hops, other jumps, Olympic lifts, depth jumps | R2-ATH-08, R3-ATH-02 |
 | From 60: stay out | overhead squats, low-bar squats | EQ-03, R3-ATH-02 |
@@ -315,12 +314,14 @@ It never squeezes 2 to 4 exercises per group into a day that cannot hold them.
 
 | Rank | Source |
 |---|---|
-| 1 | `coach_answers_round3.md` |
-| 2 | `coach_answers_round2.md` |
-| 3 | `coach_answers_full.md` |
-| 4 | `coach_chat_statements.md`, `coach_answers.md` (things he said in conversation) |
-| 5 | OBSERVED facts from his sheets (`raw/`, `dumps/`) |
-| 6 | The team's work: INFERRED, SCIENCE, PROPOSED |
+| 1 | `coach_answers_round4.md` and `coach_answers_time_2026-10-10.md` (CT-01) |
+| 2 | `coach_answers_codex_2026-10-10.md` (CX-01..04), on the subjects it answers |
+| 3 | `coach_answers_round3.md` |
+| 4 | `coach_answers_round2.md` |
+| 5 | `coach_answers_full.md` |
+| 6 | `coach_chat_statements.md`, `coach_answers.md` (things he said in conversation) |
+| 7 | OBSERVED facts from his sheets (`raw/`, `dumps/`) |
+| 8 | The team's work: INFERRED, SCIENCE, PROPOSED |
 
 **Why.** The model exists to capture how he programs. Text that contradicts one of his answers is a bug. An answer you think is scientifically weak is not a bug: write it up "for discussion" and leave the rule alone.
 
@@ -339,7 +340,7 @@ It never squeezes 2 to 4 exercises per group into a day that cannot hold them.
 | PROPOSED | the team's design, waiting for his yes | as a default; say so, and expect it to change |
 | RETIRED | removed by one of his answers | no |
 
-Many numbers are PROPOSED. Examples: Level 3's definition, the +2 default for a Focus muscle, most goal factors, the time model, most per-sport weekly amounts. [parameters.md](parameters.md) gives the status of every number.
+Many numbers are PROPOSED. Examples: Level 3's definition, the +2 default for a Focus muscle, most goal factors, the minutes behind the time estimate, most per-sport weekly amounts. Each sport profile also carries a label: `confirmed_by_coach`, `similar_sport` or `proposed` (R4-SCP-03). [parameters.md](parameters.md) gives the status of every number.
 
 **Why.** He asked for research and proposals where he had no number: "You should probably go and find some charts out there that can show those averages and also match them with what my experience is" (VOL-01).
 
@@ -357,24 +358,24 @@ Many numbers are PROPOSED. Examples: Level 3's definition, the +2 default for a 
 | `coach_answers*.md`, `coach_chat_statements.md`, `answers_raw*/` | His words | never |
 | `raw/`, `dumps/` | His two workbooks and their text exports | never |
 | `model/` | The compiled copy the engine reads | never by hand; it is generated |
-| `engine/`, `tools/`, `tests/` | The plan engine and its tools | yes, but it is being rebuilt |
+| `engine/`, `tools/`, `tests/` | The plan engine (version 0.5) and its tools | yes, with tests |
 | `LICENSE`, `DISCLAIMER*.md` | Legal files | only through the owner |
 
 **Where it lives.** [AGENTS.md](../../AGENTS.md) §5 (repository map) and §13 (what not to change). Field by field: [data-dictionary.md](data-dictionary.md).
 
 ### 28. Can I generate a plan today? How good is the engine?
 
-**Short answer.** You can generate a plan. The engine is plain JavaScript with no dependencies. It gives the same plan for the same answers and it explains each decision with a `why`. But treat its output as a draft. Team reviewers (not the coach) read the eight sample plans the way a coach would. They graded every plan D in the first round and between D and B- in the latest round. The usual finding: the structure follows the rules and the dosing is not yet right. The part that decides how many sets go where is being rebuilt. The coach has not graded the sample plans yet. He said he will (R2-GEN-07).
+**Short answer.** You can generate a plan. The engine is plain JavaScript with no dependencies. It gives the same plan for the same answers and it explains each decision with a `why`. Version 0.5 builds plans from the coach's own day templates, with no time-fitting. Its tests pass, and a sweep of 1,578 generated plans has no failing error check. Treat its output as a draft all the same. Team reviewers (not the coach) read the eight sample plans the way a coach would and graded them between B- and B+; the first engine had scored D to B-. The part still weakest is the athletic layer: jumps, throws, sprints and Olympic sets are often under a sport's weekly target. The coach has not graded the sample plans yet. He said he will (R2-GEN-07).
 
 **Why this matters.** To learn his rules, read the model documents, not the engine code.
 
-**Where it lives.** How to run it: [AGENTS.md](../../AGENTS.md) §8 and `engine/README.md`. The rebuild: [ADR-048](../04-decisions/adr-048-optimizer-rebuild-of-the-planner.md). The review findings: `samples/REVIEW_LOG.md`.
+**Where it lives.** How to run it: `engine/README.md` §1, [for developers](../00-overview/for-developers.md) and [AGENTS.md](../../AGENTS.md). Status, numbers and known gaps: `samples/STATUS_v0.5.md`. Why it is built this way: [ADR-058](../04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md). The large optimizer of [ADR-048](../04-decisions/adr-048-optimizer-rebuild-of-the-planner.md) was not built.
 
 ### 29. How do I add an exercise or change a number?
 
 **Short answer.**
 
-- **An exercise.** Add a record to `synthesis/02_exercise_catalog.json`, tagged on every lens, with its Spanish name. A new exercise starts as PROPOSED: it can appear as a swap, never as the default pick, until he approves it. Never add a band exercise. Follow [adding-exercises.md](../adding-exercises.md).
+- **An exercise.** Add a record to `synthesis/02_exercise_catalog.json`, tagged on every lens, with its Spanish name. A new exercise starts as PROPOSED: it is never the default pick until he approves it. Never add a band exercise. Leave `video_urls` empty: the tool builds a YouTube search link from the name (R4-LIB-05). Follow [adding-exercises.md](../adding-exercises.md).
 - **A number.** Find it in [parameters.md](parameters.md). Change it in `generator_spec_v1.json` (and in `synthesis/12_volume_algorithm_v1.json` when it is a volume number), keep its evidence tag, and recompile. Never edit `model/` by hand.
 - **A rule he decided.** Do not change it. Write up your case "for discussion with the coach".
 
@@ -387,8 +388,9 @@ Many numbers are PROPOSED. Examples: Level 3's definition, the +2 default for a 
 **Short answer.** Yes. The repository is under the MIT license, so you may use, change and ship it, as long as you keep the copyright and license notice. Three things to know:
 
 - **You carry your own risk and your own duties.** If you build programs for other people, you need your own health screening, liability release and insurance. If your app stores personal data, the privacy duties are yours.
-- **The name and the videos are not part of it.** The exercise videos linked in his sheets are not his (conversation). The MIT license gives no trademark right to the Blaze Camp name. That second point is the team's reading (INFERRED), and a lawyer will confirm it. In his words: "The Blaze Camp name is the culture" (conversation).
+- **The name and the videos are not part of it.** The exercise videos linked in his sheets are not his (conversation), and they were removed from the model data: the compiled model and the exercise library (R4-LIB-05). The exports of his original sheets in `raw/`, `dumps/` and `analysis/` still show them. The MIT license gives no trademark right to the Blaze Camp name. That second point is the team's reading (INFERRED), and a lawyer will confirm it. In his words: "The Blaze Camp name is the culture" (conversation).
 - **Spanish.** Everything a person reads exists in English and Spanish. The Spanish is neutral Latin American Spanish with the English gym word in brackets, for example "Empuje de cadera (Hip Thrust)". Lines he has not approved yet are listed in `model/i18n/es_review.json`.
+- **Credit.** The model is the coaching experience and intellectual property of Coach Lalo (Gerardo Vera), Master NASM coach (R4-REL-03). Do not describe it as "the world's best" or as injury prevention.
 
 **Why.** "There should be the MIT of Lalo Vera (which is me), Blaze Camp (which is the doing-business-as), and BFit Studios Corp (which is the corporation) ... if you are going to use this for other clients, for other people, you should have your own liability release" (R3-GEN-01). On language: "It should start in English and toggle to Spanish if needed, the whole thing" (GEN-01).
 

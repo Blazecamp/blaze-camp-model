@@ -7,6 +7,7 @@
 import { EngineError, why, tieBreak, EPS, WEEKDAYS } from './util.mjs';
 import { daySlots, baseSets } from './week.mjs';
 import { responseOf, isUnilateral, circuitBallistic, athleticBudget, isFloorJump, olympicAboveCeiling, olympicVariantByDay } from './athletic.mjs';
+import { NEVER_PICK_STATUS, notShown, addonPrimaryOk, implementOf, swapNote, coreFunction } from './library.mjs';
 
 // Structural ids (§1.4 vocabulary).
 const LOWER_RP = ['RP_BKD', 'RP_UKD', 'RP_BHD', 'RP_UHD'];
@@ -15,7 +16,8 @@ const PLYO_BUCKETS = ['AP_PLYO', 'AP_JUMP_LIMITED_KNEE'];
 const CONTACT_BUCKETS = ['AP_PLYO', 'AP_JUMP_LIMITED_KNEE', 'AP_THROW'];
 const MACHINE_ISO = ['ISO_QUAD', 'ISO_LEG_FLEXION'];
 const SQUAT_MACHINES = ['leg_press', 'hack_squat', 'pendulum', 'belt_squat'];
-const SWAP_ONLY_STATUS = ['proposed_v1', 'proposed_v1_1', 'live_library_not_selectable']; // never the pick (CAT-07, selection.proposed_records_swap_only)
+// never the template's pick (CAT-07; v0.5 / V2, COACH-R4 R4-LIB-01: the optional add-ons too - rules.selection.addons.never_pick_statuses)
+const SWAP_ONLY_STATUS = NEVER_PICK_STATUS;
 const RC_RANK = { RC1: 1, RC2: 2, RC3: 3 };
 const ROUTE_SPORT_OK = (E) => ((E.R.athletic.cod && E.R.athletic.cod.route_sports) || []).includes(E.sportId);
 const AXIAL_RANK = { none: 0, low: 1, moderate: 2, high: 3 };
@@ -39,11 +41,11 @@ const NEAREST = { RP_VPULL: 'RP_HPULL', RP_HPULL: 'RP_VPULL', RP_VPUSH: 'RP_HPUS
 // the movement noun, matched in order (first hit wins); the matched text is removed before the position / grip tokens are read
 const NOUNS = [
   ['pullup', /(pull-up|chin-up)/], ['pulldown', /pulldown/], ['face_pull', /face-pull/], ['reverse_fly', /reverse-fly|rear-delt-pec-deck/],
-  ['pullover', /pull-?over/], ['row', /row/], ['triceps_ext', /skullcrusher|tate-press|triceps-extension/], ['pushdown', /push-?down/],
+  ['pullover', /pull-?over/], ['mid_row', /high-row|45-degree-cable-row/], ['row', /row/], ['triceps_ext', /skullcrusher|tate-press|triceps-extension/], ['pushdown', /push-?down/],
   ['kickback', /kickback/], ['leg_curl', /leg-curl|hamstring-curl|nordic/], ['curl', /curl/], ['fly', /fly|pec-deck|crossover/],
   ['lateral_raise', /lateral|side-raise|upright-row/], ['front_raise', /front-raise/], ['calf_raise', /calf-raise/], ['yt_raise', /y-t|y-raise|t-raise/],
   ['push_up', /push-up|pushup/], ['dip', /dip/], ['press', /press/], ['split_squat', /split-squat|lunge|step-up|sit-to-stand/],
-  ['squat', /squat/], ['deadlift', /deadlift|rdl|good-morning/], ['hip_thrust', /hip-thrust|glute-bridge|bridge|pull-through/],
+  ['sissy_squat', /sissy-squat/], ['squat', /squat/], ['deadlift', /deadlift|rdl|good-morning/], ['hip_thrust', /hip-thrust|glute-bridge|bridge|pull-through/],
   ['leg_ext', /leg-extension/], ['hyper', /hyperextension|reverse-hyper|back-extension|glute-ham/], ['shrug', /shrug/], ['carry', /carry/]
 ];
 const POSITION_TOKENS = ['bent-knee', 'seated', 'standing', 'bent-over', 'chest-to-thighs', 'alternating', 'single-arm', 'one-arm', 'single-leg', 'kneeling',
@@ -58,10 +60,19 @@ const GRIP_RE = GRIP_TOKENS.map((t) => [t, tokenRe(t)]);
 const ANATOMY = new Map();
 
 /** {noun, impl, lat, pos:string[], grip:string[]} of a record (cached by id) */
+// v0.5 fix round 2: the core movements (the noun table above names none, so every pair of core records of one pattern read as 'two
+// versions of the same exercise' - a Copenhagen plank and toes-to-bar, a dead bug and a bird dog). A core record outside this
+// table is its own movement (pattern + first word of its id).
+const CORE_NOUNS = [
+  ['hang_rotational', /hanging-rotational/], ['hang', /hanging|toes-to-bar/], ['side_plank', /side-plank|oblique-hold|oblique-sit/], ['copenhagen', /copenhagen/],
+  ['plank', /plank/], ['dead_bug', /dead-bug/], ['bird_dog', /bird-dog/], ['hollow', /hollow/], ['sit_up', /sit-up/], ['crunch', /crunch/], ['v_up', /v-up/],
+  ['leg_raise', /leg-raise|flutter/], ['twist', /twist/], ['chop', /chop|rotation/], ['pallof', /pallof/], ['climber', /climber|runners/]
+];
 function anatomy(ex) {
   if (ANATOMY.has(ex.id)) return ANATOMY.get(ex.id);
   const hit = NOUNS.find(([, re]) => re.test(ex.id));
-  const noun = (ex.credit_class || '') + ':' + (hit ? hit[0] : ex.pattern || 'x');
+  const coreHit = !hit && ex.credit_class === 'CORE' ? CORE_NOUNS.find(([, re]) => re.test(ex.id)) : null;
+  const noun = (ex.credit_class || '') + ':' + (hit ? hit[0] : coreHit ? coreHit[0] : ex.credit_class === 'CORE' ? (ex.pattern || 'x') + ':' + ex.id.split('-')[0] : ex.pattern || 'x');
   const rest = hit ? ex.id.replace(hit[1], '-') : ex.id;
   const pos = POS_RE.filter(([, re]) => re.test(rest)).map(([t]) => t).filter((t, i, a) => !(t === 'incline' && a.includes('high-incline')) && !(t === 'kneeling' && (a.includes('half-kneeling') || a.includes('tall-kneeling'))));
   const grip = GRIP_RE.filter(([, re]) => re.test(rest)).map(([t]) => t);
@@ -225,13 +236,12 @@ function prep(ctx) {
     }
     reactiveWant = Math.round((n * ratio) + EPS);
   }
-  return {
+  const E0 = {
     priority: (derived.priority_muscles || []).slice(),
     ...ctx, R, model, derived, age, older, optIn, youth, lvl, ladder, ladderOrder, kitObj, kit, sport, profileId, tb, eb, ebIdx,
     exerciseBlock, firstWeek, lowerTarget, upperTarget, plyoTarget, racket50, highVolume, clientFamily, sportWords, pain, fill,
     band: derived.D7_constraint_band || { main: [1, 5], iso: [1, 5], machine_pen: 0, skill_pen: 0 },
     goal: derived.goal, family: derived.D1_family || (layout && layout.family),
-    minutes: derived.session_minutes || 60,
     preferIds: new Set((sport && sport.olympic && sport.olympic.prefer_ids) || []),
     seed: ctx.seed || 'c53:none',
     hot, genericRe, plyoRules, injuries,
@@ -275,8 +285,55 @@ function prep(ctx) {
     // falls back to it when the changed picks would cost the plan a group the first pass trained (the time check is a knife edge on
     // very short schedules)
     frozen: !!ctx.frozen,
-    families2: (ctx.live instanceof Set || Array.isArray(ctx.live)) ? ((R.selection.r2 && R.selection.r2.families) || []).map((f) => ({ ...f, rx: new RegExp(f.re) })) : []
+    // v0.5 fix round 1 (rules.selection.x1.dial_reads_plan_sets; sample 04: the lower share landed 15 points under its target
+    // because the dial counted every station at its template minimum while the plan gave the single-leg stations 4-5 sets): in the
+    // second pass the laterality dials weigh every station by the sets the first pass gave it across the exercise block
+    liveSets: (R.selection.x1 && R.selection.x1.dial_reads_plan_sets && ctx.live_sets && typeof ctx.live_sets === 'object') ? ctx.live_sets : null,
+    liveWeeks: typeof ctx.live_weeks === 'number' && ctx.live_weeks > 0 ? ctx.live_weeks : 1,
+    families2: (ctx.live instanceof Set || Array.isArray(ctx.live)) ? ((R.selection.r2 && R.selection.r2.families) || []).map((f) => ({ ...f, rx: new RegExp(f.re) })) : [],
+    // v0.5 fix round 1 (rules.selection.x1): does the kit hold the machine of the leg-extension / leg-curl slot?
+    isoMachine: (() => {
+      const IM = R.selection.x1 && R.selection.x1.iso_machine_first;
+      const out = {};
+      if (IM) for (const [b, def] of Object.entries(IM.buckets || {})) out[b] = (def.machine_ids || []).some((id) => model.hasEx(id) && model.kitAvailable(model.ex(id), kitObj));
+      return out;
+    })()
   };
+  // v0.5 fix round 1: does the kit hold a bench or machine chest press (the lead press's staples)?
+  { const LPx = R.selection.x1 && R.selection.x1.lead_press; const rx = LPx ? new RegExp(LPx.staples_re) : null;
+    E0.pressStaple = !!rx && model.bySlot('RP_HPUSH').some((e) => rx.test(e.id) && model.kitAvailable(e, kitObj)); }
+  // v0.5 fix round 2: does the kit hold no library two-arm row at the client's level? (then the reference-tab dumbbell rows may be picked)
+  { const so = R.selection.swap_only_statuses || [];
+    E0.smallKitRows = !model.bySlot('RP_HPULL').some((e) => e.laterality === 'bilateral' && !SWAP_ONLY_STATUS.includes(e.status) && !so.includes(e.status) && !(e.tags || []).includes('home_substitute') &&
+      !genericRe.some((re) => re.test(e.id)) && ladderOrder.indexOf(e.level) <= ladderOrder.indexOf(ladder) && model.kitAvailable(e, kitObj)); }
+  // (fix round 2: a kit with no vertical pull at all, and one that holds fewer than two different rows - a circuit's second back
+  // station becomes a rear-delt fly in the first case unless the second holds too; rules.selection.x2.circuit.stand_in.RP_VPULL)
+  { const so = R.selection.swap_only_statuses || [];
+    const SKx = R.selection.x2 && R.selection.x2.small_kit_rows;
+    const KAx = R.session && R.session.x2 && R.session.x2.circuit_kit_aware;
+    const homeKit = !KAx || !(KAx.not_home_profiles || []).includes((derived.D8_kit || {}).profile);
+    const okRec = (e, extra = []) => !SWAP_ONLY_STATUS.includes(e.status) && (!so.includes(e.status) || extra.includes(e.id)) && (homeKit || !(e.tags || []).includes('home_substitute')) &&
+      !genericRe.some((re) => re.test(e.id)) && ladderOrder.indexOf(e.level) <= ladderOrder.indexOf(ladder) && model.kitAvailable(e, kitObj);
+    E0.noVpull = !model.bySlot('RP_VPULL').some((e) => okRec(e));
+    E0.smallKitRows1 = model.bySlot('RP_HPULL').filter((e) => okRec(e, (SKx && SKx.ids) || [])).length < 2;
+    E0.kitHolds = (bucket) => model.bySlot(bucket).some((e) => okRec(e));
+    E0.homeKit = homeKit; }
+  // v0.5 fix round 1: the week's 'Chest / Shoulders' slot that takes an incline press, and the days whose slot 3 is an incline
+  E0.chestShoulders = chestShouldersSlots(layout, E0);
+  E0.inclineDays = inclineVpushDays(layout, E0);
+  // (a small kit - dumbbells and a bench - holds one flat bench press: its second pressing day leads with the incline press rather
+  // than a floor press, ORD-07; the 'first press stays a flat one' lean is for kits that hold a flat press for every pressing day)
+  {
+    const LP = R.selection.lead_press, LPx = R.selection.x1 && R.selection.x1.lead_press;
+    if (LP && LPx && layout) {
+      const avoid = new RegExp(LP.avoid_re), floor = new RegExp(LP.floor_re), inc = new RegExp(LPx.incline_re);
+      const flat = model.bySlot('RP_HPUSH').filter((e) => e.laterality === 'bilateral' && !SWAP_ONLY_STATUS.includes(e.status) && !(R.selection.swap_only_statuses || []).includes(e.status) &&
+        e.load_ceiling !== 'low' && !avoid.test(e.id) && !floor.test(e.id) && !inc.test(e.id) && !(e.tags || []).includes('mid_range_push') && model.kitAvailable(e, kitObj));
+      const pressDays = layout.days.filter((d) => d.kind === 'main' && daySlots(d).some((x) => LP.buckets.includes(x.bucket))).length;
+      if (flat.length < pressDays) E0.inclineDays = new Set();
+    }
+  }
+  return E0;
 }
 
 /** generate runs its second selection pass only on a selection module that knows it (the test stubs do not) */
@@ -298,6 +355,19 @@ function familyOf(ex, E) {
   return f ? f.id : null;
 }
 
+/** v0.5 / V2 (COACH-R4 R4-LIB-03): is this client one whose vertical / mid-range push slot leads with incline pressing? (bodybuilding
+ *  and the general population, rules.selection.incline_first; a competitive athlete keeps overhead and incline pressing level) */
+function inclineFirstOn(E) {
+  const IF = E.R.selection.incline_first;
+  if (!IF) return false;
+  // v0.5 fix round 2 (sample 01 major; 04 swimming_middle 'avoid high-volume overhead pressing'): the swimmer's shoulder hot spot
+  // takes the incline / mid-range press too (rules.selection.x2.incline_first_hotspot_codes - the one profile whose 04 row says so;
+  // a thrower keeps his one-arm overhead press, the coach has not reviewed that plan)
+  const X2 = E.R.selection.x2;
+  if (X2 && (X2.incline_first_hotspot_codes || []).some((c) => E.injuries.has(c))) return true;
+  return (IF.goals || []).includes(E.goal) && !(IF.not_competitive && E.competitive);
+}
+
 /** anti-movement / hold core record (plank, dead bug, Pallof, hollow / streamline hold, side plank, carries; not the Copenhagen plank -
  *  an adductor exercise with a long lever) */
 function antiCore(ex) { return !/copenhagen/.test(ex.id) && (ANTI_CORE_RE.test(ex.id) || /hold|plank|carry/.test(ex.id)); }
@@ -308,7 +378,9 @@ function leadPressAlternatives(model, kitObj) {
   if (!LP) return { twoArm: false, bench: false };
   const avoid = new RegExp(LP.avoid_re), floor = new RegExp(LP.floor_re);
   const ok = model.bySlot('RP_HPUSH').filter((e) => !SWAP_ONLY_STATUS.includes(e.status) && e.laterality === 'bilateral' && model.kitAvailable(e, kitObj) && e.load_ceiling !== 'low');
-  return { twoArm: ok.some((e) => !avoid.test(e.id)), bench: ok.some((e) => !avoid.test(e.id) && !floor.test(e.id)) };
+  // (v0.5 / V2, rules.selection.v2.lead_press: with no loaded press in the kit the lead is still a two-arm push-up, not an offset one)
+  const anyTwo = model.bySlot('RP_HPUSH').some((e) => !SWAP_ONLY_STATUS.includes(e.status) && e.laterality === 'bilateral' && model.kitAvailable(e, kitObj) && !avoid.test(e.id));
+  return { twoArm: ok.some((e) => !avoid.test(e.id)), bench: ok.some((e) => !avoid.test(e.id) && !floor.test(e.id)), twoArmAny: anyTwo };
 }
 
 // ------------------------------------------------------------------------------------------------------------------
@@ -369,12 +441,26 @@ function variantPool(slot, eb, E, relax) {
     pool = pool.filter((e) => e.primary_muscle === m || (e.credit_class === 'DIPS' && m === 'triceps'));
   }
   if (eb === 'COND_AEROBIC' && slot.aerobic) pool = pool.filter((e) => e.conditioning && e.conditioning.colour === slot.aerobic.colour);
+  // v0.5 fix round 1: the 'Chest / Shoulders' slot of the week's first B day may hold a 30-45 degree incline press (R4-SES-05)
+  if (E.chestShoulders && E.chestShoulders.has(slot.slot_id) && E.R.selection.x1 && E.R.selection.x1.chest_shoulders) {
+    const CS = E.R.selection.x1.chest_shoulders;
+    if (eb === CS.bucket) {
+      const CSUv = E.R.selection.x2 && E.R.selection.x2.chest_slot_uni;
+      const rx = new RegExp(CS.incline_re), rxu = CSUv ? new RegExp(CSUv.id_re) : null;
+      const extra = model.bySlot(CS.lead_bucket).filter((e) => (rx.test(e.id) || (rxu && rxu.test(e.id))) && !pool.includes(e));
+      pool = [...pool, ...extra];
+    }
+  }
   // B2 (RECHECK 04 major 'every WOD is erg + thruster + swing'): a WOD may hold a ballistic jump (box / squat jump) and a medball
   // slam or wall ball, so the week's WODs can rotate their movements (rules.conditioning.wod.weekly_must_have: jump, ball or KB)
   if (eb === 'COND_WOD' && E.R.conditioning.wod && E.R.conditioning.wod.rotate_stations_week) {
     const jumps = model.bySlot('AP_PLYO').filter((e) => e.athletic && e.athletic.quality === 'ballistic' && responseOf(e) === 'single' && !e.athletic.upper && e.laterality === 'bilateral' && !e.tags.includes('loaded_jump'));
     const balls = model.bySlot('AP_THROW').filter((e) => e.medball && ['slam', 'wall_ball'].includes(e.medball.kind));
     pool = [...pool, ...jumps.filter((e) => !pool.includes(e)), ...balls.filter((e) => !pool.includes(e))];
+    // v0.5 fix round 1 (sample 04 minor: no WOD held a pulling or gymnastics station although the rig is in the kit; his CrossFit
+    // sheet: T2B, gymnastics): the week's WODs may hold a pull-up, an inverted row or toes-to-bar
+    const WX = E.R.conditioning.wod.x1;
+    if (WX && WX.weekly_must_have_pull) { const rx = new RegExp(WX.pull_re); pool = [...pool, ...model.exercises().filter((e) => rx.test(e.id) && !pool.includes(e))]; }
   }
   // COACH-R3 R3-ATH-03 (approved, B2): a HYROX station circuit draws the race stations (sled push / pull, burpee broad jumps,
   // wall balls, farmers carry, sandbag lunges, SkiErg / row) that the kit holds
@@ -396,6 +482,12 @@ function variantPool(slot, eb, E, relax) {
     const inc = new RegExp(BP.include_ids_re || 'calorie|buy-out|fast-run'), exc = new RegExp(BP.exclude_ids_re || 'max-velocity|acceleration|falling-start|a-march|a-skip|a-runs|mach-sprint|high-knee');
     const extra = model.bySlot('COND_CIRCUIT').filter((e) => inc.test(e.id));
     pool = [...pool, ...extra.filter((e) => !pool.includes(e))].filter((e) => inc.test(e.id) && !exc.test(e.id));
+    // v0.5 fix round 2 (sample 02 major: 'Calorie Effort: 40 cal' and '45 cal' as buy-outs; OBSERVED BASEBALL Part E: 10-20 cal
+    // sprints, 1-3 bouts): the calories of a buy-out record stay inside rules.conditioning.buyout_pool.calories
+    if (BP.x2 && BP.x2.enforce_calories && Array.isArray(BP.calories)) {
+      const calOf = (e) => { const m = /calorie-effort-(\d+)-cal/.exec(e.id); return m ? Number(m[1]) : null; };
+      pool = pool.filter((e) => { const c = calOf(e); return c === null || (c >= BP.calories[0] && c <= BP.calories[1]); });
+    }
   }
   return pool;
 }
@@ -412,6 +504,8 @@ function hardFilter(ex, slot, eb, E, spine) {
   if (!model.kitAvailable(ex, E.kitObj)) return { ok: false, step: 'kit' };
   if (tags.includes('olympic_from_floor') && !E.kitObj.tokens.has('barbell_bumpers_platform')) return { ok: false, step: 'kit' };
   // 3. never: v-squat, band words (H01), KB swings / wall balls never in a resistance slot (D-12)
+  // v0.5 / V2 (COACH-R4 R4-LIB-01): a record that is still proposed (neck work) is never shown - not a pick, not a swap
+  if (notShown(ex)) return { ok: false, step: 'never' };
   if (R.equipment.never_exercise_tags.some((t) => tags.includes(t)) || /\bv[- ]?squat\b/i.test(ex.id)) return { ok: false, step: 'never' };
   if (/\b(band|bands|banded|chain|chains|weight[- _]?releasers?)\b/i.test(ex.id)) return { ok: false, step: 'never' };
   if (['resistance', 'isolation', 'focus'].includes(bk) && R.credit.never_credit_tags.some((t) => tags.includes(t))) return { ok: false, step: 'never' };
@@ -423,7 +517,8 @@ function hardFilter(ex, slot, eb, E, spine) {
     if (O.never_tags_phase0_even_with_opt_in.some((t) => tags.includes(t))) return { ok: false, step: 'older' }; // D-05
     if (!E.optIn) {
       if (PLYO_BUCKETS.includes(eb)) { // C-11: landing drills only by default (low impact)
-        if (!(ex.athletic && ex.athletic.quality === 'landing' && ex.older_opt_in_ok && !tags.includes('high_impact'))) return { ok: false, step: 'older' };
+        // (v0.5 / V2: the catalog's own 60+ flag now carries the landing drills round 3 switched on - R3-ATH-02; HANDOFF clean-up)
+        if (!(ex.athletic && ex.athletic.quality === 'landing' && ex.older_ok)) return { ok: false, step: 'older' };
       } else if (!ex.older_ok) return { ok: false, step: 'older' };
     } else if (!ex.older_opt_in_ok) return { ok: false, step: 'older' };
   }
@@ -433,7 +528,8 @@ function hardFilter(ex, slot, eb, E, spine) {
   // R3-ATH-02 (approved): from 60 the default COD work is quick stepping without a hop (B2)
   if (E.older && !E.optIn && eb === 'AP_COD' && Array.isArray(O.quick_stepping_no_hop) && !O.quick_stepping_no_hop.includes(ex.id)) return { ok: false, step: 'older' };
   if (E.youth) {
-    if (E.ladderOrder.indexOf(ex.level) > E.ladderOrder.indexOf(R.levels.youth_max_ladder)) return { ok: false, step: 'youth' };
+    const YX = R.selection.x2 && R.selection.x2.youth_level_exempt_re;
+    if (E.ladderOrder.indexOf(ex.level) > E.ladderOrder.indexOf(R.levels.youth_max_ladder) && !(YX && new RegExp(YX).test(ex.id))) return { ok: false, step: 'youth' };
     if (tags.includes('olympic_from_floor') && !(E.age >= R.olympic.youth_floor_min_age && tags.includes('youth_floor_ok') &&
       (E.derived.previous_cycles && E.derived.previous_cycles.count >= 1))) return { ok: false, step: 'youth' }; // D-41
   }
@@ -443,7 +539,21 @@ function hardFilter(ex, slot, eb, E, spine) {
   // 'power' keeps the catch above a full squat, 'pull' keeps the barbell work to pulls - unless the coach switches the full lifts on
   if (eb === 'AP_TRIPLE_EXT' && olympicAboveCeiling(ex, E.sport, R, E.derived)) return { ok: false, step: 'profile' };
   if (eb === 'AP_TRIPLE_EXT' && ex.athletic && ex.athletic.olympic_tier === 'L2_plus') {
-    if (E.lvl === 'L1' || (E.lvl === 'L2' && E.exerciseBlock === 1)) return { ok: false, step: 'level' };
+    // (fix round 2, rules.olympic.x2.l2_block1: an L2 lifter's first exercise block takes the hang power lifts - ATH-10 'power and
+    // hang variants with the barbell' - so the hang power snatch passes there)
+    const LB = R.olympic.x2 && R.olympic.x2.l2_block1;
+    const hangOk = !!LB && (LB.levels || []).includes(E.lvl) && E.exerciseBlock === 1 && (LB.ids || []).includes(ex.id);
+    if (E.lvl === 'L1' || (E.lvl === 'L2' && E.exerciseBlock === 1 && !hangOk)) return { ok: false, step: 'level' };
+  }
+  // v0.5 fix round 2 (samples 01 / 02; EQ-15 'loaded jumps 10-20 % of body weight', CAT-10 / R2-ATH-03 receive first, simple first):
+  // a jump loaded by an implement heavier than the top of that range for this client is no pick (an empty hex bar is about 45 lb:
+  // over 30 % of a 145-lb swimmer); a loaded jump never opens the plan (the Land stage, the first exercise block)
+  const LJ = R.athletic.x2 && R.athletic.x2.loaded_jump;
+  if (LJ && (PLYO_BUCKETS.includes(eb) || eb === 'AP_TRIPLE_EXT') && (tags.includes('loaded_jump') || (ex.athletic && ex.athletic.loaded_jump))) {
+    const minLb = (LJ.implement_min_lb || {})[ex.id];
+    const bw = E.derived.body_weight_lb;
+    if (typeof minLb === 'number' && typeof bw === 'number' && bw > 0 && minLb > LJ.max_bw_share * bw + EPS) return { ok: false, step: 'loaded_jump' };
+    if (PLYO_BUCKETS.includes(eb) && !(LJ.stage_exempt_tags || []).some((t) => tags.includes(t)) && ((LJ.never_stages || []).includes(E.stage) || (LJ.never_first_block && E.firstStageBlock))) return { ok: false, step: 'stage' };
   }
   // 4b. sport profile plyo rules (review 01 major 3: no depth jumps / bounds / hurdle hops for a class-5 swimmer; 08 blocker)
   if (PLYO_BUCKETS.includes(eb) && E.plyoRules && (E.plyoRules.exclude_tags || []).some((t) => tags.includes(t))) return { ok: false, step: 'profile' };
@@ -501,7 +611,14 @@ function hardFilter(ex, slot, eb, E, spine) {
     if (x === 'barbell' && tags.includes('barbell')) return { ok: false, step: 'exclusion' };
     if (x === 'lunges' && ex.pattern === 'UKD' && /lunge/.test(ex.id)) return { ok: false, step: 'exclusion' };
     if (x === 'overhead_pressing' && tags.includes('overhead')) return { ok: false, step: 'exclusion' };
-    if (x === 'floor_work' && ((bk === 'core' && FLOOR_CORE_RE.test(ex.id)) || tags.includes('push_up_floor'))) return { ok: false, step: 'exclusion' };
+    // v0.5 / V4 (rules.selection.floor_work; the benchmark's 74-year-old with body weight only: glute bridges, slider curls and no
+    // push at all): "no floor work" covers every lift done lying, sitting or kneeling on the floor, and it does not cover a push-up
+    // with the hands on a bench or a table - nobody gets down on the floor for that one
+    if (x === 'floor_work') {
+      const FW = R.selection.floor_work || {};
+      const notFloor = !!FW.not_floor_id_re && new RegExp(FW.not_floor_id_re).test(ex.id);
+      if (!notFloor && ((bk === 'core' && FLOOR_CORE_RE.test(ex.id)) || tags.includes('push_up_floor') || (!!FW.floor_lift_id_re && new RegExp(FW.floor_lift_id_re).test(ex.id)))) return { ok: false, step: 'exclusion' };
+    }
     if (x === 'machines' && (tags.includes('machine') || ex.equipment.machine)) return { ok: false, step: 'exclusion' };
     if (x === 'running' && ex.athletic && ['sprint', 'cod'].includes(ex.athletic.quality)) return { ok: false, step: 'exclusion' };
     if (x === 'jumping' && ex.athletic && ['plyometric', 'ballistic', 'landing'].includes(ex.athletic.quality) && ex.athletic.count_unit === 'contacts') return { ok: false, step: 'exclusion' };
@@ -529,22 +646,16 @@ function hardFilter(ex, slot, eb, E, spine) {
 // ------------------------------------------------------------------------------------------------------------------
 
 function isDefaultPick(ex, eb, E) {
-  return E.model.isDefaultIn(ex, eb) || (eb === 'AP_TRIPLE_EXT' && E.preferIds.has(ex.id));
+  if (E.model.isDefaultIn(ex, eb) || (eb === 'AP_TRIPLE_EXT' && E.preferIds.has(ex.id))) return true;
+  // (fix round 2, rules.olympic.x2.l2_block1: the hang power lifts are the L2 lifter's first-block default)
+  const LB = E.R.olympic.x2 && E.R.olympic.x2.l2_block1;
+  if (eb === 'AP_TRIPLE_EXT' && !!LB && (LB.levels || []).includes(E.lvl) && E.exerciseBlock === 1 && !E.older && !E.youth && (LB.ids || []).includes(ex.id)) return true;
+  // (fix round 2, rules.selection.x2.small_kit_rows: in a kit with no library two-arm row the reference-tab dumbbell rows are picks)
+  const SK = E.R.selection.x2 && E.R.selection.x2.small_kit_rows;
+  return eb === 'RP_HPULL' && !!SK && !!E.smallKitRows && (SK.ids || []).includes(ex.id);
 }
 
-// implement class of an exercise (implement ladder by level, second-of-group variety, squat vs hinge implement)
-function implementOf(ex) {
-  const setups = ex.equipment.any_of;
-  const all = (t) => setups.length && setups.every((su) => su.includes(t));
-  if (ex.equipment.machine || ex.tags.includes('machine')) return 'machine';
-  if (all('hex_bar')) return 'hex_bar';
-  if (all('barbell') || all('ez_bar')) return 'barbell';
-  if (ex.tags.includes('cable') || all('cable')) return 'cable';
-  if (setups.some((su) => su.includes('dumbbell'))) return 'dumbbell';
-  if (setups.some((su) => su.includes('kettlebell'))) return 'kettlebell';
-  if (!setups.length || setups.some((su) => !su.length)) return 'bodyweight';
-  return 'other';
-}
+// (implementOf - the implement class of an exercise - lives in engine/library.mjs since v0.5 / V2: the swap notes read it too)
 
 // a record no set-up of which holds a load (body-weight bridges, push-ups, table rows): fix round 2 / F3
 const LOAD_TOKENS_SEL = ['barbell', 'dumbbell', 'kettlebell', 'cable', 'machine_selectorized', 'machine_plate_loaded', 'machine_specialty', 'hex_bar', 'ez_bar', 'medball', 'weight_plate', 'sandbag', 'landmine', 'smith', 'slam_ball', 'sled', 'reverse_hyper', 'hyper_bench', 'ghd', 'belt_squat', 'dip_belt'];
@@ -612,9 +723,35 @@ function scoreOf(ex, slot, eb, E, st, day) {
       // (fix round 2 / F3, E-179: a station the upper-body dial marks one-arm takes its one-arm / alternating press - never a floor press
       // while a bench press passes the kit)
       const dialUni = !!(E.upperWant && E.upperWant.get(slot.slot_id) === 'uni');
-      if (!dialUni && E.pressAlt.twoArm && (new RegExp(LP.avoid_re).test(ex.id) || ex.laterality !== 'bilateral')) { s += LP.penalty; reasons.push(why('why.lead_press', 'ORD-07')); }
-      else if (E.pressAlt.bench && new RegExp(LP.floor_re).test(ex.id)) s += LP.floor_penalty;
+      // v0.5 / V2 (coach-eye reviews 03 / 04 / 05 / 06: an alternating floor press, a floor press or an offset push-up as the lead chest
+      // lift): the one-arm / alternating penalty also holds in a body-weight kit that has a two-arm push-up, and a floor press or
+      // push-up pays its own penalty on top while a bench or machine press passes the kit (rules.selection.v2.lead_press)
+      const LP2 = (R.selection.v2 && R.selection.v2.lead_press) || null;
+      const twoArmKit = E.pressAlt.twoArm || (!!LP2 && LP2.body_weight_two_arm_first && E.pressAlt.twoArmAny);
+      const oneArm = !dialUni && twoArmKit && (new RegExp(LP.avoid_re).test(ex.id) || ex.laterality !== 'bilateral');
+      if (oneArm) { s += LP.penalty; reasons.push(why('why.lead_press', 'ORD-07')); }
+      if (E.pressAlt.bench && new RegExp(LP.floor_re).test(ex.id) && (!oneArm || !!LP2)) s += LP.floor_penalty;
     }
+  }
+  // v0.5 / V4 (OBSERVED BYOP PUSHPULLLEGS 'Tricep - Push', 'Tricep - Overhead'): a slot that names a kind of exercise prefers it
+  const SV = R.selection.slot_variants && R.selection.slot_variants[eb] && slot.variant ? R.selection.slot_variants[eb][slot.variant] : null;
+  if (SV && SV.id_re && new RegExp(SV.id_re).test(ex.id)) s += SV.weight;
+  // v0.5 / V4 (COACH-R4 R4-SES-05 A day slot 1 'horizontal pull, bilateral, symmetrical'; OBSERVED BYOP 'Bent Over Barbell Rows'): the
+  // A day's first row is a two-arm row; one-arm rows stay in the swaps and in the day's other pull slot
+  const LR = R.selection.skeleton_laterality && R.selection.skeleton_laterality.lead_row;
+  if (LR && eb === LR.bucket && day && (LR.skeletons || []).includes(day.skeleton) && bk === 'resistance') {
+    const firstRow = daySlots(day).find((x) => x.bucket === LR.bucket);
+    if (firstRow && firstRow.slot_id === slot.slot_id && ex.laterality !== 'bilateral') s += LR.penalty;
+  }
+  // v0.5 / V2 (COACH-R4 R4-LIB-03 'for bodybuilders ... and for the general population I would rather focus more on incline pressing
+  // and bias incline pressing instead of overhead pressing'; R4-SES-05 B day slot 3 'vertical push ... or an incline press'): in the
+  // vertical / mid-range push slot an incline (mid-range) press comes first; overhead pressing stays in the pool and the swaps
+  const IF = R.selection.incline_first;
+  const inclineSlot = !!IF && eb === IF.bucket && bk === 'resistance' && inclineFirstOn(E);
+  if (inclineSlot && tags.includes(IF.tag)) {
+    // (an incline press takes the full weight; the other mid-range presses - landmine, viking - half of it)
+    s += new RegExp(IF.incline_re || 'incline').test(ex.id) ? IF.weight : (typeof IF.weight_other === 'number' ? IF.weight_other : IF.weight / 2);
+    reasons.push(why('why.incline_first', 'R4-LIB-03'));
   }
   const PP = R.selection.powerlifting_presses;
   if (PP && E.derived.lift_style === PP.lift_style && PP.buckets.includes(eb) && bk === 'resistance' && (new RegExp(PP.avoid_re).test(ex.id) || ex.laterality !== 'bilateral')) s += PP.penalty;
@@ -706,7 +843,8 @@ function scoreOf(ex, slot, eb, E, st, day) {
     if (isBil === (upWant === 'bil')) { s += UD.weight; if (!isBil) reasons.push(why('why.laterality_share_upper', 'UNI-02', { pct: Math.round((E.upperTarget || 0) * 100) })); }
     else s -= UD.weight;
     if (upWant === 'uni' && E.pressAlt.bench && LP && new RegExp(LP.floor_re).test(ex.id) && typeof UD.floor_press_when_bench === 'number') s += UD.floor_press_when_bench;
-  } else if (UPPER_RP.includes(eb) && E.upperTarget != null) {
+  } else if (UPPER_RP.includes(eb) && E.upperTarget != null && !inclineSlot) {
+    // (v0.5 / V2: the incline-first slot stays out of the running two-arm share - its incline presses are two-arm)
     const cur = st.upper.tot ? st.upper.bil / st.upper.tot : 0;
     const wantBil = cur < E.upperTarget;
     const isBil = ex.laterality === 'bilateral';
@@ -732,7 +870,7 @@ function scoreOf(ex, slot, eb, E, st, day) {
       const roleW = R.athletic.f2 && R.athletic.f2.share ? 10 : 2;
       if ((q === 'plyometric') === wantPlyo) { s += roleW; reasons.push(why('why.plyo_share', 'R2-ATH-01', { pct: Math.round((E.plyoTarget || 0) * 100) })); }
     } else if (E.plyoTarget != null && eb !== 'AP_THROW' && !(st.plyo.b2 && (eb === 'AP_JUMP_LIMITED_KNEE' || slot.variant === 'upper'))) {
-      const sets = baseSets(slot, E.minutes);
+      const sets = baseSets(slot);
       const target = E.plyoTarget * st.plyo.week_total;
       const wantPlyo = st.plyo.plyo + sets <= target + sets / 2 + EPS;
       if ((q === 'plyometric') === wantPlyo) { s += 2; reasons.push(why('why.plyo_share', 'R2-ATH-01', { pct: Math.round(E.plyoTarget * 100) })); }
@@ -943,6 +1081,12 @@ function scoreOf(ex, slot, eb, E, st, day) {
     if (l2plusAllowed && ex.athletic.olympic_tier === 'L2_plus') { s += 3; reasons.push(why('why.olympic_level', 'ATH-10')); }
     if (l2plusAllowed && /pull/.test(ex.id) && !E.preferIds.has(ex.id)) s -= 3;
     if (st.olyUsed.has(ex.id)) s -= 2; // vary the Olympic lift across the week
+    // (fix round 2, sample 04 major: an L2 lifter's first block is the hang power snatch / clean, the pulls are its swaps)
+    const LB1 = R.olympic.x2 && R.olympic.x2.l2_block1;
+    if (LB1 && (LB1.levels || []).includes(E.lvl) && E.exerciseBlock === 1 && !E.older && !E.youth) {
+      if ((LB1.ids || []).includes(ex.id)) { s += LB1.weight; reasons.push(why('why.olympic_level', 'ATH-10')); }
+      else if (/pull/.test(ex.id) && !E.preferIds.has(ex.id)) s += LB1.pull;
+    }
   }
   // a station serving another group than its bucket's (e.g. the PPL push day's triceps press) prefers lifts that credit
   // that group at >= 0.5 (dips, close-grip work) - INFERRED weight
@@ -990,7 +1134,242 @@ function scoreOf(ex, slot, eb, E, st, day) {
   }
   if (E.F3) s += f3Score(ex, slot, eb, E, st, day, bk, wd, reasons);
   if (E.S2) s += r2Score(ex, slot, eb, E, st, day, bk, wd, reasons);
+  if (R.selection.x1) s += x1Score(ex, slot, eb, E, st, day, bk, wd, over);
+  if (R.selection.x2) s += x2Score(ex, slot, eb, E, st, day, bk, wd, reasons);
   return { score: Math.round(s * 1000) / 1000, reasons };
+}
+
+/** the credit class a pick is compared by in the second pass: a high-incline press (MRPUSH, v0.5 fix round 1) is still the
+ *  vertical / mid-range push slot's press, so it may give way to an overhead press and back */
+const profileClass = (cc) => (cc === 'MRPUSH' ? 'VPUSH' : cc);
+
+/** is this slot the day's first chest press (the lead press)? */
+function isLeadPress(slot, day, E) {
+  const LP = E.R.selection.lead_press;
+  if (!LP || !day || !LP.buckets.includes(slot.bucket)) return false;
+  const first = daySlots(day).find((x) => LP.buckets.includes(x.bucket) && E.model.bucket(x.bucket).kind === 'resistance');
+  return !!first && first.slot_id === slot.slot_id;
+}
+
+/**
+ * v0.5 fix round 1 (rules.selection.x1.chest_shoulders; OBSERVED BYOP label 'Chest/Shoulders' on the B day's slot 3; COACH-R4
+ * R4-SES-05 'vertical push, like shoulder press or an incline press'; the coach-eye reviews of samples 01 / 02 / 06 / 08: chest was
+ * carried by one press a B day): the week's first B day takes a 30-45 degree incline press in that slot - a chest press - and the
+ * other B day keeps the high-incline or overhead press. Returns the slot ids of the week that take the incline press.
+ */
+function chestShouldersSlots(layout, E) {
+  const out = new Set();
+  const CS = E.R.selection.x1 && E.R.selection.x1.chest_shoulders;
+  if (!CS || !layout) return out;
+  if ((CS.not_families || []).includes(E.family) || (CS.not_lift_styles || []).includes(E.derived.lift_style)) return out;
+  const cands = [];
+  for (const d of layout.days) {
+    if (d.kind !== 'main' || !d.skeleton || !new RegExp(CS.skeleton_re).test(String(d.skeleton))) continue;
+    const slots = daySlots(d);
+    const v = slots.find((x) => x.bucket === CS.bucket && isLive(x, E));
+    if (!v || !slots.some((x) => x.bucket === CS.lead_bucket && x.slot_id !== v.slot_id)) continue;
+    cands.push(v.slot_id);
+  }
+  // with one B day in the week the slot stays the shoulders' press - the week's other press day carries the chest - except on a
+  // 2-day plan, where the B day is the only pressing day (R4-SES-03: every big group, fewer sets)
+  const twoDay = !!(E.derived.D9_start_sets && E.derived.D9_start_sets.two_day);
+  // v0.5 fix round 2 (samples 01 / 03 major: a 3-day athletic week pressed on two days and held the chest floor on two lifts at 5
+  // sets each): a week with one B day and at most `max_press_days` pressing days takes the incline press there too
+  const SB = E.R.selection.x2 && E.R.selection.x2.chest_shoulders_single_b;
+  const pressDays = layout.days.filter((d) => d.kind === 'main' && daySlots(d).some((x) => x.bucket === CS.lead_bucket && isLive(x, E))).length;
+  const singleB = !!SB && cands.length === 1 && pressDays <= SB.max_press_days;
+  if (cands.length < (CS.min_b_days || 2) && !(twoDay && CS.two_day_plan) && !singleB) return out;
+  // (a small kit - dumbbells and a bench: the incline press is the second B day's own lead press there; the slot takes it only while
+  // every B day still has another two-arm bench or machine press to lead with, so no day falls to a floor press - ORD-07, bench 09)
+  const LP = E.R.selection.lead_press;
+  if (LP) {
+    const avoid = new RegExp(LP.avoid_re), floor = new RegExp(LP.floor_re), inc = new RegExp(CS.incline_re);
+    const leads = E.model.bySlot(CS.lead_bucket).filter((e) => e.laterality === 'bilateral' && !SWAP_ONLY_STATUS.includes(e.status) && !(E.R.selection.swap_only_statuses || []).includes(e.status) &&
+      e.load_ceiling !== 'low' && !avoid.test(e.id) && !floor.test(e.id) && !inc.test(e.id) && E.model.kitAvailable(e, E.kitObj));
+    // (fix round 2: with a single B day the week's other pressing day needs a lead press of its own - a dumbbell-and-bench kit
+    // keeps its incline press for that day instead of leading it with a floor press, bench 69)
+    if (leads.length < (singleB && cands.length < (CS.min_b_days || 2) ? pressDays : cands.length)) return out;
+  }
+  // v0.5 fix round 2 (sample 06 major): a physique plan whose chest exercises at their most sets cannot hold the level's start
+  // takes the incline press on every B day (rules.selection.x2.chest_shoulders_all_b)
+  let perWeek = CS.per_week || 1;
+  const AB = E.R.selection.x2 && E.R.selection.x2.chest_shoulders_all_b;
+  const D9 = E.derived.D9_start_sets;
+  if (AB && (AB.families || []).includes(E.family) && D9 && D9.start && typeof D9.start.chest === 'number') {
+    const P = E.R.placement;
+    const maxEx = P.max_sets_per_exercise[E.lvl] || 5;
+    const mains = layout.days.filter((d) => d.kind === 'main');
+    const nPress = mains.reduce((a, d) => a + daySlots(d).filter((x) => x.bucket === CS.lead_bucket && isLive(x, E)).length, 0);
+    const nIso = mains.reduce((a, d) => a + daySlots(d).filter((x) => x.bucket === 'ISO_CHEST' && isLive(x, E)).length, 0);
+    const isoMax = (P.x1 && P.x1.iso_main_day_max && P.x1.iso_main_day_max.default) || maxEx;
+    const bonus = layout.days.some((d) => d.kind === 'optional') && P.bonus ? P.bonus.sets[1] : 0;
+    if (maxEx * (nPress + perWeek) + isoMax * nIso + bonus < D9.start.chest) perWeek = cands.length;
+  }
+  for (const id of cands.slice(0, perWeek)) out.add(id);
+  return out;
+}
+
+/** the days whose vertical / mid-range push slot holds an incline press (so their first press stays a flat one) */
+function inclineVpushDays(layout, E) {
+  const out = new Set();
+  if (!layout) return out;
+  const IF = E.R.selection.incline_first;
+  for (const d of layout.days) {
+    if (d.kind !== 'main') continue;
+    for (const x of daySlots(d)) {
+      if (E.chestShoulders && E.chestShoulders.has(x.slot_id)) out.add(d.weekday);
+      else if (IF && x.bucket === IF.bucket && inclineFirstOn(E) && isLive(x, E)) out.add(d.weekday);
+    }
+  }
+  return out;
+}
+
+/**
+ * v0.5 fix round 1 selection weights (rules.selection.x1; every weight PROPOSED, engine/DECISIONS.md G-58 ...; each rule is a finding
+ * of a coach-eye review of the regenerated samples):
+ *  - the athlete's heavy squat and hinge are his sheet's lifts (OBSERVED BYOP JUSTICE LEAGUE 'Front Squats', 'Low Bar Back Squat';
+ *    sample 02 major: a Zercher squat as the tested squat of an advanced linebacker);
+ *  - the second squat / hinge day of an athletic week is a leg press, hack or belt squat / a hip thrust, back extension or reverse
+ *    hyper (R2-SES-01, PER-04 'one day of squatting and the other day of leg pressing'; sample 02 major);
+ *  - a painful area takes the supported lift on the day's work slot (VOL-03, EQ-03; sample 08 major);
+ *  - the heavy lift of the day is not a step under the client's level (CAT-04; sample 02);
+ *  - the lead chest press is a bench or machine press, never a balance-limited one, and a flat press on a day whose slot 3 is an
+ *    incline (R4-SES-05 'bench press or machine chest press'; samples 01 / 03 / 04 / 08);
+ *  - the leg-extension and leg-curl slots keep the machine the gym has (EQ-08; samples 06 / 07 major);
+ *  - a core family once a week (PER-04; samples 02 / 03 / 05).
+ */
+function x1Score(ex, slot, eb, E, st, day, bk, wd, over) {
+  const X = E.R.selection.x1, model = E.model, R = E.R, w = R.selection.weights;
+  const tags = ex.tags || [];
+  const re = (p) => new RegExp(p);
+  let s = 0;
+  const lowerRP = LOWER_RP.includes(eb);
+  const region = slotRegion(slot, eb, model);
+  const painHere = E.pain.filter((p) => touches(p.area, region));
+  const aboveLevel = (typeof w.above_level === 'number' ? w.above_level : w.over_ladder_step);
+  // 0. the class's press is the standing strict press in the first pass too (rules.selection.r2.class_press acted in the second pass
+  // only: the first pass picked a high-incline press, whose half set of chest credit the second pass then lost - the plan fell back
+  // to the first pass's picks and dropped every laterality flip, sample 04)
+  const CP1 = X.class_press_both_passes && !E.S2 && R.selection.r2 ? R.selection.r2.class_press : null;
+  if (CP1 && (CP1.families || []).includes(E.family) && eb === CP1.bucket && slot.role === 'work' && ex.id === CP1.id) { s += CP1.weight; if (over > 0) s -= aboveLevel * over; }
+  // (a lift the coach keeps for people with pain - the Kong row, LIB-09 'for people that have some type of shoulder pain or back pain
+  // ... I wouldn't really give a lot of importance to it' - is no pick for a client without that pain; sample 05 major)
+  const PO = X.pain_only;
+  if (PO && re(PO.re).test(ex.id) && !E.pain.some((p) => (PO.areas || []).includes(p.area))) s += PO.penalty;
+  // 1. the athlete's heavy squat and hinge
+  const WP = X.work_prefer;
+  if (WP && lowerRP && bk === 'resistance' && slot.role === 'work' && slot.axial_req === 'axial' && WP.families.includes(E.family) && WP.levels.includes(E.lvl) && !painHere.length && !E.older) {
+    const i = (WP.patterns[eb] || []).findIndex((p) => re(p).test(ex.id));
+    if (i >= 0) s += WP.weight - (WP.step || 0) * i;
+  }
+  // 2. the second squat / hinge day of a skeleton week
+  const SD = X.second_day_prefer;
+  if (SD && lowerRP && bk === 'resistance' && slot.role === 'work' && slot.axial_req && slot.axial_req !== 'axial' && day && day.skeleton &&
+      SD.skeleton_prefixes.some((p) => String(day.skeleton).startsWith(p)) && (SD.patterns[eb] || []).some((p) => re(p).test(ex.id))) s += SD.weight;
+  // 3. pain: the supported lift on the day's work slot
+  const PW = X.pain_work;
+  if (PW && lowerRP && bk === 'resistance' && slot.role === 'work' && painHere.length) {
+    for (const p of painHere) { const a = R.volume.pain.areas[p.area]; if (a && (a.prefer_tags || []).some((t) => tags.includes(t))) { s += PW.weight; break; } }
+  }
+  // 4. a step under the client's level: the heavy lift of the day; a trained lifter's core
+  const BL = X.below_ladder;
+  if (BL) {
+    const under = E.ladderOrder.indexOf(E.ladder) - E.ladderOrder.indexOf(ex.level);
+    // (the lifts of his own sheets are never 'under the level': a front squat or a deadlift is the work at every level)
+    const sheetLift = !!WP && (WP.patterns[eb] || []).some((p) => re(p).test(ex.id));
+    if (under > 0 && !sheetLift && lowerRP && bk === 'resistance' && slot.role === 'work' && slot.axial_req === 'axial' && !painHere.length && !E.older && (BL.work_levels || []).includes(E.lvl)) s += BL.work_per_step * under;
+    if (under > 0 && bk === 'core' && (BL.core_levels || []).includes(E.lvl) && !E.pain.length && !E.older) s += BL.core_per_step * under;
+  }
+  // 5. the lead chest press
+  const LPx = X.lead_press;
+  if (LPx && bk === 'resistance' && isLeadPress(slot, day, E)) {
+    if (re(LPx.staples_re).test(ex.id)) { s += LPx.staple_weight; if (LPx.staples_no_above_level && over > 0) s -= aboveLevel * over; }
+    if (E.pressStaple && re(LPx.unstable_re).test(ex.id)) s += LPx.unstable_penalty;
+    if (E.inclineDays && E.inclineDays.has(wd) && (re(LPx.incline_re).test(ex.id) || tags.includes('mid_range_push'))) s += LPx.incline_penalty;
+  }
+  // 6. the 'Chest / Shoulders' slot of the week's first B day: a 30-45 degree incline press
+  const CS = X.chest_shoulders;
+  if (CS && E.chestShoulders && E.chestShoulders.has(slot.slot_id)) {
+    if (re(CS.incline_re).test(ex.id)) { s += CS.weight; if (over > 0) s -= aboveLevel * over; }
+  }
+  // (a press the week already holds in its other press slot is not the lead press of another day, PER-04)
+  if (typeof X.cross_bucket_repeat === 'number' && bk === 'resistance' && st.usedWeek.has(ex.id) && !((st.usedByBucket.get(eb) || new Set()).has(ex.id))) s += X.cross_bucket_repeat;
+  // 7. the gym's leg-extension / leg-curl machine keeps its slot
+  const IM = X.iso_machine_first;
+  if (IM && IM.buckets[eb] && E.isoMachine && E.isoMachine[eb] && !(IM.not_families || []).includes(E.family) && re(IM.buckets[eb].avoid_re).test(ex.id)) s += IM.penalty;
+  // (a template lift that is also the day's joint care takes the care's own exercise where it fits the slot: the face pull in the
+  // rear-delt slot, R3-ATH-02 / R4-SES-02)
+  if (slot.care_code && typeof X.care_slot_prefer === 'number' && ((R.prehab.preferred_by_code || {})[slot.care_code] || []).includes(ex.id)) s += X.care_slot_prefer;
+  // (a 50+ court player, a painful knee or ankle: the low box and the stick-the-landing drills, never the knee-height box - R3-ATH-02,
+  // EQ-16)
+  const LIH = X.low_impact_heights;
+  if (LIH && E.lowImpact && PLYO_BUCKETS.includes(eb) && ex.athletic && !ex.athletic.upper) {
+    if (re(LIH.prefer_re).test(ex.id)) s += LIH.prefer;
+    if (re(LIH.avoid_re).test(ex.id)) s += LIH.avoid;
+  }
+  // (a beginner with a painful joint, or anyone from 50: the dumbbell and kettlebell pulls before the barbell ones - ATH-10
+  // 'beginners: DB / KB snatches, hex-bar jumps, hang pulls', his note on joint pain 'split grips')
+  const OLx = X.olympic_split_grip;
+  if (OLx && eb === 'AP_TRIPLE_EXT' && E.lvl === 'L1' && (E.pain.length || (E.age || 0) >= OLx.from_age)) s += tags.includes('barbell') ? OLx.barbell : OLx.split;
+  // 8. a core family once a week
+  if (bk === 'core' && Array.isArray(X.core_families)) {
+    for (const f of X.core_families) {
+      if (!re(f.re).test(ex.id)) continue;
+      let week = 0;
+      for (const [, picks] of st.dayPicks) for (const x of picks) if (x.ex && x.kind === 'core' && x.ex.id !== ex.id && re(f.re).test(x.ex.id)) week++;
+      if (week >= (f.week_max || 1)) s += X.core_family_over_week;
+    }
+  }
+  return s;
+}
+
+/**
+ * v0.5 fix round 2 selection weights (rules.selection.x2; every weight PROPOSED, engine/DECISIONS.md G-76 ...; each rule is a finding
+ * of the second coach-eye reviews of the regenerated samples).
+ */
+function x2Score(ex, slot, eb, E, st, day, bk, wd, reasons) {
+  const X = E.R.selection.x2, model = E.model;
+  const tags = ex.tags || [];
+  const re = (p) => new RegExp(p);
+  let s = 0;
+  // 1. the core opener (R2-SES-03 'light, as a warm-up'; samples 04 major, 05 / 07 minor)
+  const CP = X.core_primary;
+  if (CP && bk === 'core') {
+    const ds = day ? daySlots(day) : [];
+    if (typeof CP.weighted_on_axial_day === 'number' && re(CP.weighted_re).test(ex.id) && ds.some((x) => x.axial_req === 'axial' && isLive(x, E))) s += CP.weighted_on_axial_day;
+    if (ds.some((x) => x.bucket === 'SKILL')) {
+      if (CORE_FLEXION_RE.test(ex.id) || re(CP.hanging_re).test(ex.id)) s += CP.skill_day_flexion;
+      else if (antiCore(ex)) s += CP.skill_day_anti;
+    }
+    if (typeof CP.genpop_copenhagen === 'number' && /copenhagen/.test(ex.id) && ((CP.genpop_families || []).includes(E.family) || ((CP.genpop_goals || []).includes(E.goal) && !E.competitive))) s += CP.genpop_copenhagen;
+    if (typeof CP.hanging_week_max === 'number' && re(CP.hanging_re).test(ex.id)) {
+      let n = 0;
+      for (const [, picks] of st.dayPicks) for (const x of picks) if (x.ex && x.kind === 'core' && x.ex.id !== ex.id && re(CP.hanging_re).test(x.ex.id)) n++;
+      if (n >= CP.hanging_week_max) s += CP.hanging_over_week;
+    }
+  }
+  // 2. a hot shoulder presses with split grips or a machine (sample 01 major)
+  const SP = X.shoulder_press;
+  if (SP && bk === 'resistance' && SP.buckets.includes(eb) && (SP.codes || []).some((c) => E.injuries.has(c)) && tags.includes('fixed_grip') && implementOf(ex) === 'barbell') s += SP.fixed_grip;
+  // (samples 02 / 03 / 04 minors: a weighted pull-up as the default vertical pull of a 2-year lifter and of a 230-lb athlete - the
+  // body-weight pull-up or a pulldown first; 'add weight when you hit the top of the range' is the progression rule, R4-PRG-03)
+  const WPU = X.weighted_pull;
+  if (WPU && bk === 'resistance' && re(WPU.re).test(ex.id) && (!(WPU.from_levels || []).includes(E.lvl) || (E.heavy && WPU.not_heavy))) s += WPU.penalty;
+  // (a circuit session's first row is a two-arm row: R4-SES-05 Day A slot 1; sample 05 major)
+  const CC = X.circuit;
+  if (CC && typeof CC.lead_row_two_arm === 'number' && eb === 'RP_HPULL' && day && (slot.block === 'circuit' || slot.circuit) && ex.laterality !== 'bilateral') {
+    const firstRow = daySlots(day).find((x) => x.bucket === 'RP_HPULL' && isLive(x, E));
+    if (firstRow && firstRow.slot_id === slot.slot_id) s += CC.lead_row_two_arm;
+  }
+  // 3. the buy-out's calories follow its bouts (OBSERVED BASEBALL Part E '1 x 20 cal, 2 x 15 cal, 3 x 10 cal'; sample 02 major)
+  const BX = E.R.conditioning.buyout_pool && E.R.conditioning.buyout_pool.x2;
+  if (BX && eb === 'COND_SPRINT_BUYOUT') {
+    const m = /calorie-effort-(\d+)-cal/.exec(ex.id);
+    const bouts = BX.bouts_by_block[Math.min(E.ebIdx || 0, BX.bouts_by_block.length - 1)];
+    if (m && Number(m[1]) === BX.calories_by_bouts[String(bouts)]) s += BX.match_weight;
+  }
+  void model; void wd; void reasons;
+  return s;
 }
 
 /** circular distance in days between two weekdays (Sunday and Monday are neighbours) */
@@ -1213,7 +1592,7 @@ function newState(layout, E) {
   if (layout) for (const d of layout.days) for (const s of daySlots(d)) {
     if (!CONTACT_BUCKETS.includes(s.bucket)) continue;
     if (shareB2 && s.bucket === 'AP_PLYO' && s.variant === 'upper') continue;
-    const n = baseSets(s, E.minutes);
+    const n = baseSets(s);
     weekTotal += n;
     if (shareB2 && s.bucket === 'AP_JUMP_LIMITED_KNEE') ankle += n;
   }
@@ -1263,7 +1642,7 @@ function record(st, slot, fill, ex, E, shadow = false) {
   if (shadow) return;
   if (!st.usedByBucket.has(b)) st.usedByBucket.set(b, new Set());
   st.usedByBucket.get(b).add(ex.id);
-  const sets = baseSets(slot, E.minutes);
+  const sets = baseSets(slot);
   if (ex.athletic && CONTACT_BUCKETS.includes(b) && ex.athletic.quality === 'plyometric' && !(st.plyo.b2 && (b === 'AP_JUMP_LIMITED_KNEE' || ex.athletic.upper))) st.plyo.plyo += sets;
   if (UPPER_RP.includes(b)) { st.upper.tot += sets; if (ex.laterality === 'bilateral') st.upper.bil += sets; }
   if (LOWER_RP.includes(b) && ex.credit_class !== 'GLUTE_ISO') { st.lower.tot += sets; if (ex.laterality === 'bilateral') st.lower.bil += sets; }
@@ -1306,10 +1685,54 @@ function lexLess(a, b) {
   return false;
 }
 
+/**
+ * v0.5 / V4 (COACH-R4 R4-SES-05 'horizontal pull, bilateral, symmetrical ... knee-dominant movement, bilateral ... knee-dominant
+ * movement, unilateral'; OBSERVED BYOP 'Bilateral KD' / 'Unilateral KD' / 'Bilateral HD' / 'Unilateral HD'): is this day built to a
+ * skeleton whose slots name their laterality (gym A / B / C, push / pull / legs)? The laterality dial leaves its lower slots alone.
+ */
+function skeletonPinned(day, R) {
+  const SL = R.selection.skeleton_laterality;
+  return !!(SL && SL.lower_fixed && day && day.skeleton && (SL.skeleton_prefixes || []).some((p) => String(day.skeleton).startsWith(p)));
+}
+/** the lower-body slots of the pinned skeleton days (slot ids) */
+function pinnedLowerSlots(layout, E) {
+  const out = new Set();
+  const SL = E.R.selection.skeleton_laterality;
+  if (!layout || !SL) return out;
+  // v0.5 fix round 2 (sample 03 major; UNI-02 / UNI-03 'change-of-direction sports: 80-90 % unilateral work', UNI-12; R4-SES-05 pins
+  // only the A day's row and squat and the B day's hinge): for a change-of-direction sport the third day's second knee lift - the
+  // non-axial two-leg slot the engine took from his 3-day builder - is left to the dial (rules.selection.skeleton_laterality.x2_free)
+  const FR = SL.x2_free || null;
+  const free = (d, s) => !!FR && !!E.sport && !!E.sport.cod_sport && (FR.skeletons || []).includes(d.skeleton) && (FR.buckets || []).includes(s.bucket) && s.role !== 'work' && s.axial_req !== 'axial';
+  for (const d of layout.days) if (skeletonPinned(d, E.R)) for (const s of daySlots(d)) if (SL.laterality_of_bucket && SL.laterality_of_bucket[s.bucket] && !free(d, s)) out.add(s.slot_id);
+  return out;
+}
+/** the A day's slot 1 - 'horizontal pull, bilateral, symmetrical' - of each day that follows that skeleton (slot ids) */
+function leadRowSlots(layout, E) {
+  const out = new Set();
+  const LR = E.R.selection.skeleton_laterality && E.R.selection.skeleton_laterality.lead_row;
+  if (!layout || !LR) return out;
+  for (const d of layout.days) {
+    if (!d.skeleton || !(LR.skeletons || []).includes(d.skeleton)) continue;
+    const first = daySlots(d).find((x) => x.bucket === LR.bucket);
+    if (first) out.add(first.slot_id);
+  }
+  return out;
+}
+
+/** the weight of a station in a laterality dial: the sets the first pass gave it across the exercise block (second pass), else its
+ *  template minimum over the same weeks */
+function dialSets(s, E) {
+  if (!E.liveSets) return baseSets(s);
+  const v = E.liveSets[s.slot_id];
+  return typeof v === 'number' && v > 0 ? v : baseSets(s) * E.liveWeeks;
+}
+
 function decideLaterality(layout, E, locked = new Set()) {
   const { R } = E;
   const out = new Map();
   if (!layout) return out;
+  const pinned = pinnedLowerSlots(layout, E);
   const sib = R.bilateral_share.siblings;
   const lowerSlots = [];
   // (fix round 2 / F3, E-178: the share is read on the stations the plan keeps - a station the time check dropped takes no part)
@@ -1317,7 +1740,9 @@ function decideLaterality(layout, E, locked = new Set()) {
   const machinesOk = SQUAT_MACHINES.some((m) => (E.kitObj.machines || []).includes(m));
   const hasCounted = lowerSlots.some((s) => s.axial_req === 'axial' && s.bucket === 'RP_BKD');
   for (const s of lowerSlots) {
-    if (!s.laterality_dial && s.bucket === 'RP_BKD' && hasCounted && !machinesOk && R.axial.home_second_squat === 'unilateral' &&
+    // (v0.5 / V4: on a gym A / B / C or push / pull / legs day the second squat stays a two-leg squat - a goblet squat is 'fine on
+    // the second day', COACH-R2 R2-SES-02 - because the slot is the coach's 'knee-dominant, bilateral' slot, R4-SES-05)
+    if (!s.laterality_dial && !pinned.has(s.slot_id) && s.bucket === 'RP_BKD' && hasCounted && !machinesOk && R.axial.home_second_squat === 'unilateral' &&
         (s.axial_req === 'non_axial' || s.axial_req === 'light_or_non_axial') && s.role !== 'work') out.set(s.slot_id, sib.RP_BKD);
   }
   if (E.lowerTarget == null) return out;
@@ -1330,8 +1755,9 @@ function decideLaterality(layout, E, locked = new Set()) {
   // (R2-SES-01 / R2-SES-02); athletes convert two-legged stations to single-leg ones of the same dominance (the non-axial day
   // first), physique / strength clients swap single-leg stations to two-legged, non-axial ones as the blocks move to 80 / 90 %
   const D3 = E.F3 && E.F3.dial;
-  const dialable = (s) => s.laterality_dial || (!!D3 && D3.all_lower && s.block !== 'circuit' && !s.circuit && !(D3.keep_axial && s.axial_req === 'axial') &&
-    !(Array.isArray(D3.skip_roles) && D3.skip_roles.includes(s.role)));
+  // (v0.5 / V4: a lower slot of a gym A / B / C or push / pull / legs day keeps the laterality the coach's template names)
+  const dialable = (s) => !pinned.has(s.slot_id) && (s.laterality_dial || (!!D3 && D3.all_lower && s.block !== 'circuit' && !s.circuit && !(D3.keep_axial && s.axial_req === 'axial') &&
+    !(Array.isArray(D3.skip_roles) && D3.skip_roles.includes(s.role))));
   // (F3: a station the template does not mark for the dial only moves toward the plan's end share - two-legged -> single-leg for
   // athletes, single-leg -> two-legged for physique / strength clients - so a station never flips one way and back between exercise
   // blocks, which would move its credits between lines at a block boundary)
@@ -1339,10 +1765,10 @@ function decideLaterality(layout, E, locked = new Set()) {
   const endArr = D10 && D10.lower && Array.isArray(D10.lower.by_exercise_block) ? D10.lower.by_exercise_block : [];
   const endT = endArr.length ? endArr[endArr.length - 1] : E.lowerTarget;
   let t0b = 0, t0n = 0;
-  for (const s of lowerSlots) { const n0 = baseSets(s, E.minutes); t0n += n0; if (isBil(s.bucket)) t0b += n0; }
+  for (const s of lowerSlots) { const n0 = dialSets(s, E); t0n += n0; if (isBil(s.bucket)) t0b += n0; }
   const towardBil = typeof endT === 'number' && t0n > 0 ? endT >= t0b / t0n : null;
   for (const s of lowerSlots) {
-    const n = baseSets(s, E.minutes);
+    const n = dialSets(s, E);
     const way = s.laterality_dial || towardBil === null || (towardBil ? !isBil(s.bucket) : isBil(s.bucket));
     if (dialable(s) && way && !locked.has(s.slot_id) && !(out.has(s.slot_id) && !s.laterality_dial)) { dial.push({ s, n }); continue; }
     const b = out.get(s.slot_id) || s.bucket;
@@ -1428,7 +1854,19 @@ function decideUpperLaterality(layout, E, locked = new Set(), baseFills = null) 
   if (UD.keep_lead_press !== false && R.selection.lead_press) {
     for (const d of layout.days) { const lp = stations.find((x) => x.bucket === 'RP_HPUSH' && daySlots(d).includes(x)); if (lp) leadPress.add(lp.slot_id); }
   }
-  const fixed = (s) => locked.has(s.slot_id) || leadPress.has(s.slot_id) || !!(PP && E.derived.lift_style === PP.lift_style && PP.buckets.includes(s.bucket)) ||
+  // (v0.5 / V2, R4-LIB-03: the incline press of a bodybuilder's or a general-population client's vertical / mid-range push slot is a
+  // two-arm press - the library's incline presses of that slot are - so the dial turns the rows and pulldowns instead)
+  const IFd = R.selection.incline_first;
+  const inclineSlot = (s) => !!IFd && s.bucket === IFd.bucket && inclineFirstOn(E);
+  // (v0.5 / V4, R4-SES-05: the A day's first row is a two-arm row - the dial turns the vertical pull instead)
+  const leadRow = leadRowSlots(layout, E);
+  // (v0.5 fix round 1: the 'Chest / Shoulders' slot that takes the week's incline press is a two-arm press too)
+  // (fix round 2, sample 03 major 'one press as single-arm or alternating DB': for a profile whose two-arm target is low the week's
+  // incline press of the 'Chest / Shoulders' slot may be the alternating one - rules.selection.x2.chest_slot_uni)
+  const CSU = R.selection.x2 && R.selection.x2.chest_slot_uni;
+  const chestUniOk = !!CSU && E.upperTarget != null && E.upperTarget <= CSU.max_upper_target + EPS;
+  const chestSlot = (s) => !chestUniOk && !!(E.chestShoulders && E.chestShoulders.has(s.slot_id));
+  const fixed = (s) => locked.has(s.slot_id) || leadPress.has(s.slot_id) || leadRow.has(s.slot_id) || inclineSlot(s) || chestSlot(s) || !!(PP && E.derived.lift_style === PP.lift_style && PP.buckets.includes(s.bucket)) ||
     !!(s.role === 'work' && WB && (WB.families.includes(E.family) || WB.goals.includes(E.goal)));
   // how many different one-arm / alternating lifts each bucket holds for this client (one per movement family)
   const cap = {};
@@ -1450,9 +1888,9 @@ function decideUpperLaterality(layout, E, locked = new Set(), baseFills = null) 
   for (const s of stations) { seenB[s.bucket] = seenB[s.bucket] || 0; nth.set(s.slot_id, seenB[s.bucket]++); }
   const bp = UD.bucket_priority || UPPER_RP;
   // 'stays two-arm longest' order: the week's first exposure of each pattern, then by pattern, then by week order
-  const order = stations.map((s, i) => ({ s, i, n: baseSets(s, E.minutes) || 1 }))
+  const order = stations.map((s, i) => ({ s, i, n: dialSets(s, E) || 1 }))
     .sort((a, b) => (nth.get(a.s.slot_id) - nth.get(b.s.slot_id)) || (bp.indexOf(a.s.bucket) - bp.indexOf(b.s.bucket)) || (a.i - b.i));
-  const state = new Map(order.map((o) => [o.s.slot_id, curBil(o.s) ? 'bil' : 'uni']));
+  const state = new Map(order.map((o) => [o.s.slot_id, curBil(o.s) || ((leadRow.has(o.s.slot_id) || chestSlot(o.s)) && !locked.has(o.s.slot_id)) ? 'bil' : 'uni']));
   const tot = order.reduce((a, o) => a + o.n, 0);
   let bil = order.filter((o) => state.get(o.s.slot_id) === 'bil').reduce((a, o) => a + o.n, 0);
   const T = E.upperTarget;
@@ -1525,6 +1963,50 @@ function wodGroup(ex) {
   return ex.credit_class + ':' + ex.pattern;
 }
 
+// v0.5 / V2 (COACH-R4 R4-LIB-04): a kit that holds every piece of equipment the library names - to ask what a slot would hold
+// if equipment were no limit (what an equipment stand-in replaces)
+const FULL_KITS = new WeakMap();
+function fullKit(model) {
+  if (!FULL_KITS.has(model)) {
+    const tokens = new Set(['barbell_bumpers_platform']);
+    for (const e of model.exercises()) for (const su of e.equipment.any_of) for (const t of su) tokens.add(t);
+    FULL_KITS.set(model, { tokens, machines: Object.keys(model.rules.equipment.machines || {}) });
+  }
+  return FULL_KITS.get(model);
+}
+
+/**
+ * v0.5 / V2 (R4-LIB-04 'DB snatch instead of power clean: keeps the explosive hip drive, loses the barbell catch'): the exercise this
+ * slot would hold with every piece of equipment - the same filters and scores, the kit aside - or null.
+ */
+function intendedWithFullKit(slot, eb, E, st, day, spine) {
+  const Ef = { ...E, kitObj: fullKit(E.model), kitTok: fullKit(E.model).tokens, hasBall: true, kit: { ...E.kit, medball_max_lb: null }, pressAlt: { twoArm: true, bench: true } };
+  const swapOnly = E.R.selection.swap_only_statuses || [];
+  const cands = variantPool(slot, eb, Ef, false)
+    .filter((ex) => !SWAP_ONLY_STATUS.includes(ex.status) && !swapOnly.includes(ex.status) && !ex.tags.includes('home_substitute') && !E.genericRe.some((re) => re.test(ex.id)) && hardFilter(ex, slot, eb, Ef, spine).ok)
+    .map((ex) => ({ ex, ...scoreOf(ex, slot, eb, Ef, st, day) }));
+  const ranked = rank(cands, slot, Ef);
+  const defs = ranked.filter((c) => isDefaultPick(c.ex, eb, Ef));
+  const top = defs[0] || ranked[0] || null;
+  return top ? top.ex : null;
+}
+
+/**
+ * v0.5 fix round 2 (sample 08 major: 'Swapped to protect your Knee' on lifts where nothing was swapped): the exercise this slot
+ * would hold if the client had entered no pain - the same filters and scores, the pain aside - or null.
+ */
+function intendedWithoutPain(slot, eb, E, st, day, spine) {
+  const En = { ...E, pain: [], painAreas: [], lowImpact: E.racket50 || (E.older && !E.optIn) };
+  const swapOnly = E.R.selection.swap_only_statuses || [];
+  const cands = variantPool(slot, eb, En, false)
+    .filter((ex) => !SWAP_ONLY_STATUS.includes(ex.status) && !swapOnly.includes(ex.status) && !ex.tags.includes('home_substitute') && !E.genericRe.some((re) => re.test(ex.id)) && hardFilter(ex, slot, eb, En, spine).ok)
+    .map((ex) => ({ ex, ...scoreOf(ex, slot, eb, En, st, day) }));
+  const ranked = rank(cands, slot, En);
+  const defs = ranked.filter((c) => isDefaultPick(c.ex, eb, En));
+  const top = defs[0] || ranked[0] || null;
+  return top ? top.ex : null;
+}
+
 /** pick + swaps for one slot. opts: {relaxSecond, state, day, keepPrev, forceChange, prevId} */
 function pickFor(slot, day, E, st, eb, opts = {}) {
   const { model, R } = E;
@@ -1538,10 +2020,15 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
   const fill = emptyFill(slot, eb);
   // joint care: the injury code's own pick first (rules.prehab.preferred_by_code; review 08 major 5)
   if (slot.prehab_code && R.prehab.preferred_by_code && (R.prehab.preferred_by_code[slot.prehab_code] || []).length) {
-    const okStatus = (e) => !SWAP_ONLY_STATUS.includes(e.status) || (R.prehab.preferred_status_ok || []).includes(e.status);
+    // v0.5 / V2 (COACH-R4 R4-LIB-01): the code's own LIVE exercise is the pick; its optional add-ons (external rotation, soleus and
+    // tibialis raises, wrist extension, wall sit) are swaps - "they can be chosen and added, but not primary ones"
     const usedW = st.usedWeek;
-    const pre = R.prehab.preferred_by_code[slot.prehab_code].filter((id) => model.hasEx(id)).map((id) => model.ex(id))
-      .filter((e) => okStatus(e) && hardFilter(e, slot, eb, E, { used: st.spine, weekday: wdOf(slot) }).ok && !(st.usedByDay.get(wdOf(slot)) || new Set()).has(e.id));
+    const preAll = R.prehab.preferred_by_code[slot.prehab_code].filter((id) => model.hasEx(id)).map((id) => model.ex(id))
+      .filter((e) => hardFilter(e, slot, eb, E, { used: st.spine, weekday: wdOf(slot) }).ok && !(st.usedByDay.get(wdOf(slot)) || new Set()).has(e.id));
+    // (v0.5 fix round 1, sample 08 major: a 'DB leg extension seated on a box' - a reference-only home substitute - as joint care in a
+    // gym with the machine: joint care is a live library exercise, rules.prehab.x1.never_status)
+    const neverSt = (R.prehab.x1 && R.prehab.x1.never_status) || [];
+    const pre = preAll.filter((e) => !SWAP_ONLY_STATUS.includes(e.status) && !neverSt.includes(e.status));
     let fresh = pre.filter((e) => !(R.prehab.skip_if_week_has_same && usedW.has(e.id)));
     // B2 (R3-ATH-01 every-session shoulder care): a day that already holds two rear-delt exercises takes the care that is not a
     // rear-delt exercise (external rotation) - never a third rear-delt item on a day
@@ -1550,11 +2037,15 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
     const ex0 = fresh[0] || pre[0];
     if (ex0) {
       fill.exercise_id = ex0.id; fill.laterality = ex0.laterality === 'n/a' ? null : ex0.laterality;
-      fill.swaps = pre.filter((e) => e !== ex0).slice(0, R.selection.swaps.max).map((e) => e.id);
+      fill.swaps = preAll.filter((e) => e !== ex0).slice(0, R.selection.swaps.max).map((e) => e.id);
       fill.why.push(why('why.prehab', 'D-23', { code: slot.prehab_code }));
       fill.flags.push('prehab_preferred');
       return fill;
     }
+    // (V2: a code whose exercises are all add-ons, or pass nothing for this client, gets no stand-in from another code's list -
+    // an adductor plank is not Achilles care; the station is left out and the add-ons are offered, plan.meta.addons)
+    fill.flags.push('no_candidate', 'prehab_addon_only');
+    return fill;
   }
   const wd = weekdayOfSlot(slot);
   const spine = { used: st.spine, weekday: wd };
@@ -1582,7 +2073,46 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
       }
     }
   }
+  // v0.5 fix round 2 (sample 05 majors; R4-LIB-01 his live exercises are the picks, OT06 drops the leg extension with no machine): in a
+  // timed circuit the quad station and the second hips station of a kit with no machine take a library lift for the same muscle -
+  // a single-leg knee lift, a glute bridge or hip thrust - never a reference-only home substitute
+  const CSI = R.selection.x2 && R.selection.x2.circuit && R.selection.x2.circuit.stand_in;
+  const csiOn = (def) => (def.when === 'no_vertical_pull' ? !!E.noVpull && !(def.not_own && slot.own) && !E.smallKitRows1
+    : def.when === 'no_candidate' ? typeof E.kitHolds === 'function' && !(def.not_home && E.homeKit) && !E.kitHolds(eb)
+      : !!E.isoMachine && E.isoMachine[eb] === false);
+  if (CSI && CSI[eb] && !opts.standIn && (slot.block === 'circuit' || slot.circuit) && csiOn(CSI[eb])) {
+    const def = CSI[eb];
+    // (a stand-in that would only repeat an exercise the session already holds - a body-weight kit with one push-up at the
+    // client's level - leaves the station out instead: the plan says the kit has nothing for it)
+    const heldToday = new Set((st.dayPicks.get(weekdayOfSlot(slot)) || []).map((x) => x.ex && x.ex.id).filter(Boolean));
+    for (const b2 of [def.bucket, ...(def.also_buckets || [])]) {
+      const f2 = pickFor(slot, day, E, st, b2, { ...opts, like: null, standIn: def, noConvert: true });
+      if (def.when && f2.exercise_id && heldToday.has(f2.exercise_id)) {
+        const none = emptyFill(slot, eb);
+        none.flags.push('no_candidate');
+        none.buy = (R.equipment.buy_list[eb] || []).slice();
+        none.why.push(why('why.kit', 'EQ-09'));
+        return none;
+      }
+      if (f2.exercise_id) {
+        // (the station that lost its vertical pull says so and keeps its buy list - a pull-up bar or a TRX brings the pattern back)
+        if (def.when === 'no_vertical_pull') { for (const fl of ['pattern_gap', 'no_vertical_pull']) if (!f2.flags.includes(fl)) f2.flags.push(fl); f2.buy = (R.equipment.buy_list[eb] || []).slice(); }
+        else if (!f2.flags.includes('machine_iso_swap')) f2.flags.push('machine_iso_swap');
+        f2.why.push(why(def.why, 'EQ-08'));
+        return f2;
+      }
+    }
+  }
   const bk = bucketKind(model, eb);
+  // v0.5 / V2 (COACH-R4 R4-SES-05 B day slot 4 'a stagger-stance deadlift with dumbbells, a single-leg hip extension, or a glute bridge';
+  // RECHECK v0.4 03 major: a kickstand DB deadlift next to an alternating staggered DB deadlift): on a hip day whose other hinge is
+  // already a staggered-stance one, this station may leave its first pick's credit class for the single-leg hip extension - the same
+  // hips group (glutes + hamstrings, R3-SES-01), so the group's weekly sets hold (rules.selection.v2.second_hinge)
+  const SH = E.S2 && !E.frozen && R.selection.v2 ? R.selection.v2.second_hinge : null;
+  const shFam = SH ? E.families2.find((f) => f.id === SH.family) || null : null;
+  const dayHasStaggered = !!shFam && (st.dayPicks.get(wd) || []).some((x) => x.ex && !x.ex.is_athletic && shFam.rx.test(x.ex.id));
+  const secondHingeAlt = (ex) => dayHasStaggered && ['RP_UHD', 'RP_BHD'].includes(eb) && slot.role !== 'work' && slot.axial_req !== 'axial' && !!opts.like &&
+    ['UHD', 'BHD'].includes(opts.like.cc) && ex.credit_class === 'GLUTE_ISO' && (opts.like.bil === null || (ex.laterality === 'bilateral') === opts.like.bil);
   const run = (relax) => {
     const pool = variantPool(slot, eb, E, relax.variant);
     const all = [];
@@ -1590,14 +2120,19 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
     for (const ex of pool) {
       const hf = hardFilter(ex, slot, eb, E, spine);
       if (!hf.ok) { removedBy[hf.step] = removedBy[hf.step] || hf.area || true; continue; }
+      if (opts.standIn && !((!opts.standIn.id_re || new RegExp(opts.standIn.id_re).test(ex.id)) && (!opts.standIn.classes || opts.standIn.classes.includes(ex.credit_class)))) continue;
       // (fix round 2 / F3, E-178: in the second pass a kept station stays inside its first pick's time and credit profile - the same
       // laterality class and credit class - so the sets the time check proved still hold)
-      if (opts.like && !ex.is_athletic && ((opts.like.bil !== null && (ex.laterality === 'bilateral') !== opts.like.bil) || ex.credit_class !== opts.like.cc)) continue;
-      const { score, reasons } = scoreOf(ex, slot, eb, E, st, day);
+      if (opts.like && !ex.is_athletic && ((opts.like.bil !== null && (ex.laterality === 'bilateral') !== opts.like.bil) || profileClass(ex.credit_class) !== profileClass(opts.like.cc)) && !secondHingeAlt(ex)) continue;
+      const { score: score0, reasons } = scoreOf(ex, slot, eb, E, st, day);
+      // (V2: a trained client's single-leg hip extension is the hip thrust with the shoulders on a bench before the floor bridge)
+      const score = score0 + (SH && secondHingeAlt(ex) && SH.trained_prefer_re && (SH.trained_levels || []).includes(E.lvl) && new RegExp(SH.trained_prefer_re).test(ex.id) ? (SH.trained_prefer || 0) : 0);
       all.push({ ex, score, reasons });
     }
     const ranked = rank(all, slot, E);
-    const used = st.usedByBucket.get(eb) || new Set();
+    // (fix round 2: every buy-out of the week follows the same ladder - 1 x 20 cal, 2 x 15 cal, 3 x 10 cal - so the same record may repeat)
+    const buyoutLadder = eb === 'COND_SPRINT_BUYOUT' && !!(R.conditioning.buyout_pool && R.conditioning.buyout_pool.x2);
+    const used = buyoutLadder ? new Set() : (st.usedByBucket.get(eb) || new Set());
     const usedDay = st.usedByDay.get(wd) || new Set();
     const reserved = opts.reserved || new Set(); // previous-block picks other slots of this bucket keep (continuity)
     // PER-04 v1.2: an isolation / Focus pick never repeats an exercise the week already holds (review 02 / 06 / 07 minors);
@@ -1609,7 +2144,10 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
     // DB floor press + alternating DB floor press); a relaxed pass (nothing else left) may
     // (second pass, a home-substitute stand-in picked again: the day's other first-pass picks count too - RECHECK v0.4 05 minor)
     const dayEx = (st.dayPicks.get(wd) || []).map((x) => x.ex).concat((opts.dayBaseIds || []).filter((id) => model.hasEx(id)).map((id) => model.ex(id))).filter((x) => x && !x.is_athletic);
-    const dup = (c) => !c.ex.is_athletic && ['resistance', 'isolation', 'focus', 'core'].includes(bk) && dayEx.some((x) => x.id !== c.ex.id && nearDuplicate(x, c.ex, R));
+    // (v0.5 fix round 1: the incline press of the 'Chest / Shoulders' slot is not 'a second version' of the day's bench press - a
+    // bench press and an incline press are the coach's own B day, R4-SES-05)
+    const chestSlot = !!(E.chestShoulders && E.chestShoulders.has(slot.slot_id));
+    const dup = (c) => !chestSlot && !c.ex.is_athletic && ['resistance', 'isolation', 'focus', 'core'].includes(bk) && dayEx.some((x) => x.id !== c.ex.id && nearDuplicate(x, c.ex, R));
     const fresh = relax.second ? ranked.filter((c) => !usedDay.has(c.ex.id))
       : ranked.filter((c) => !used.has(c.ex.id) && !usedDay.has(c.ex.id) && !reserved.has(c.ex.id) && !usedW.has(c.ex.id) && !dup(c));
     return { ranked, fresh, removedBy, secondApplied: fresh.length < ranked.length };
@@ -1619,7 +2157,10 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
   const rankHyrox = (cands) => {
     const ids = R.athletic.hyrox.station_ids;
     const usedH = st.hyroxUsed || new Map();
-    return cands.filter((c) => ids.includes(c.ex.id)).sort((a, b) => (usedH.get(a.ex.id) || 0) - (usedH.get(b.ex.id) || 0) || ids.indexOf(a.ex.id) - ids.indexOf(b.ex.id));
+    // v0.5 / V2 (COACH-R4 R4-LIB-01): of the race stations only wall balls and sled pushes are picked (with the coach's own SkiErg /
+    // row / burpee stations); sled pulls and drags, burpee broad jumps, farmer carries and sandbag lunges are swaps and add-ons
+    return cands.filter((c) => ids.includes(c.ex.id) && (!SWAP_ONLY_STATUS.includes(c.ex.status) || addonPrimaryOk(c.ex, slot, eb, E.family, R)))
+      .sort((a, b) => (usedH.get(a.ex.id) || 0) - (usedH.get(b.ex.id) || 0) || ids.indexOf(a.ex.id) - ids.indexOf(b.ex.id));
   };
   // F2 (BRAIN §9.11 swimming: box / squat / broad / streamline squat jumps; R3-ATH-02 split-step reaction): the athletic records the
   // coach names for a station may be the pick although the library lists them as reference / proposed
@@ -1629,7 +2170,18 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
   // reference anti-movement records (dead bug, Pallof hold, suitcase carry) when the live library runs out of them
   const CLB = E.F3 && E.F3.core_low_back;
   const lowBackCore = !!CLB && bk === 'core' && (!(day && day.optional) || !!E.S2) && ((CLB.hotspots || []).some((h) => E.injuries.has(h)) || E.painAreas.includes('lower_back'));
-  const pickOk = (c) => (/^AP_/.test(eb) && pickOkIds.has(c.ex.id)) || (lowBackCore && antiCore(c.ex) && !SWAP_ONLY_STATUS.includes(c.ex.status));
+  // v0.5 fix round 2 (sample 01 major; COACH-R4 R4-LIB-01 / R4-LIB-02): a core slot takes a live-library exercise; the low-back opener
+  // keeps the two basic floor drills of his reference tab (rules.selection.x2.core_primary.low_back_allow_ids) and a carry is
+  // never the template's pick
+  const CPX = (R.selection.x2 && R.selection.x2.core_primary) || null;
+  const lowBackOk = (c) => (CPX && CPX.live_only ? (CPX.low_back_allow_ids || []).includes(c.ex.id) : antiCore(c.ex) && !SWAP_ONLY_STATUS.includes(c.ex.status));
+  const LBp = R.olympic.x2 && R.olympic.x2.l2_block1;
+  const hangPick = (c) => eb === 'AP_TRIPLE_EXT' && !!LBp && (LBp.levels || []).includes(E.lvl) && E.exerciseBlock === 1 && !E.older && !E.youth && (LBp.ids || []).includes(c.ex.id);
+  // (fix round 2, rules.selection.x2.small_kit_rows - STATUS open question 8: the reference-tab two-arm dumbbell rows are picks
+  // only in a kit that holds no library two-arm row)
+  const SKR = R.selection.x2 && R.selection.x2.small_kit_rows;
+  const smallKitRow = (c) => !!SKR && !!E.smallKitRows && (SKR.ids || []).includes(c.ex.id);
+  const pickOk = (c) => (/^AP_/.test(eb) && pickOkIds.has(c.ex.id)) || (lowBackCore && lowBackOk(c)) || hangPick(c) || (eb === 'RP_HPULL' && smallKitRow(c));
   // F3 (CAT-05; RECHECK 05 major): an above-ladder pick that is high-skill (or any above-ladder pick in a timed circuit) is a fallback only
   const LH = E.F3 && E.F3.level_hard;
   const levelHardOn = !!LH && ['resistance', 'isolation', 'focus'].includes(bk);
@@ -1637,7 +2189,21 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
   const levelHard = (c) => levelHardOn && li(c.ex.level) > li(E.ladder) && !(slot.note_tokens || []).some((t) => c.ex.id.includes(t)) &&
     ((LH.circuit_any_above && (slot.block === 'circuit' || !!slot.circuit)) || ((LH.skills || []).includes(c.ex.skill) && li(E.ladder) <= li(LH.max_ladder)));
   const pickable = (cands, opt2 = {}) => {
-    const allowed0 = cands.filter((c) => !SWAP_ONLY_STATUS.includes(c.ex.status) || pickOk(c));
+    // (v0.5 / V2, R4-LIB-01: an optional add-on is never the pick - wall balls and sled pushes in their approved programs excepted)
+    let allowed0 = cands.filter((c) => !SWAP_ONLY_STATUS.includes(c.ex.status) || addonPrimaryOk(c.ex, slot, eb, E.family, R));
+    // (fix round 2, sample 05 major 'a household exercise in a field / bootcamp kit': a home substitute - the table row - is no
+    // circuit station's pick outside a home kit while the kit holds anything else for it)
+    if (!E.homeKit && (slot.block === 'circuit' || !!slot.circuit)) { const noHome = allowed0.filter((c) => !c.ex.tags.includes('home_substitute')); if (noHome.length) allowed0 = noHome; }
+    // (fix round 2: in a core slot a carry, an above-level record or one under its own minimum level is a fallback only)
+    if (CPX && bk === 'core') {
+      const lvN = { L1: 1, L2: 2, L3: 3 };
+      const weakCore = (c) => (CPX.never_tags || []).some((t) => c.ex.tags.includes(t)) ||
+        (CPX.in_level_first && E.ladderOrder.indexOf(c.ex.level) > E.ladderOrder.indexOf(E.ladder) && !(CPX.in_level_exempt_ids || []).includes(c.ex.id)) ||
+        (!!(CPX.min_level_ids || {})[c.ex.id] && (lvN[E.lvl] || 1) < (lvN[CPX.min_level_ids[c.ex.id]] || 1));
+      const strong = allowed0.filter((c) => !weakCore(c) && (!swapOnly.includes(c.ex.status) || pickOk(c)));
+      if (strong.length) allowed0 = strong;
+      else { const noCarry = allowed0.filter((c) => !(CPX.never_tags || []).some((t) => c.ex.tags.includes(t))); if (noCarry.length) allowed0 = noCarry; }
+    }
     // R2-LIB-01 / R2-LIB-07 (v1.2): a library record is the pick whenever one passes; program-only / reference-only are swaps
     // (cardio options excepted); records named 'any' / 'implement not stated' only when nothing else is left (FIX-03)
     const lib = allowed0.filter((c) => !swapOnly.includes(c.ex.status) || pickOk(c) || (eb === 'AP_TRIPLE_EXT' && E.preferIds.has(c.ex.id)) ||
@@ -1669,8 +2235,42 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
         }
       }
     }
+    // (v0.5 fix round 1, the 1,500-intake sweep: a chest-press slot turned into assisted dips at a block change and took a set of
+    // helper credit from the shoulders, H21. A template lift keeps its credit class into the next exercise block while a lift of
+    // that class passes the filters - PER-02 'change one or two details', never what the lift counts for)
+    {
+      const KC = R.selection.x1 && R.selection.x1.keep_class_at_block_change;
+      const prevF0 = KC && E.prev && E.prev.fills ? E.prev.fills[slot.slot_id] : null;
+      if (prevF0 && prevF0.exercise_id && prevF0.bucket === eb && model.hasEx(prevF0.exercise_id) && resKindOf(bk) && slot.origin !== 'bonus') {
+        const pc = profileClass(model.ex(prevF0.exercise_id).credit_class);
+        const same = allowed.filter((c) => profileClass(c.ex.credit_class) === pc);
+        if (same.length) allowed = same;
+      }
+    }
+    // (a slot that names its kind takes that kind while one passes the filters, in every exercise block: 'Tricep - Overhead' an
+    // overhead extension on both push days, BYOP PUSHPULLLEGS / sample 07 minor - rules.selection.slot_variants[bucket][variant].strict)
+    {
+      const SVp = R.selection.slot_variants && R.selection.slot_variants[eb] && slot.variant ? R.selection.slot_variants[eb][slot.variant] : null;
+      if (SVp && SVp.strict) { const rxv = new RegExp(SVp.id_re); const own = allowed.filter((c) => rxv.test(c.ex.id)); if (own.length) allowed = own; }
+    }
     if (opt2.all) return allowed;   // B3 block changes: every library alternative, not only the slot's defaults
     if (lowBackCore) return allowed; // (F3: the slot's default core list holds the twists and leg raises the low back avoids)
+    // v0.5 fix round 1: the 'Chest / Shoulders' slot of the week's first B day takes its incline press while one passes
+    if (E.chestShoulders && E.chestShoulders.has(slot.slot_id) && R.selection.x1 && R.selection.x1.chest_shoulders) {
+      const CSUp = R.selection.x2 && R.selection.x2.chest_slot_uni;
+      const wantUni = !!CSUp && !!E.upperWant && E.upperWant.get(slot.slot_id) === 'uni';
+      const rxc = new RegExp(wantUni ? CSUp.id_re : R.selection.x1.chest_shoulders.incline_re);
+      const inc = allowed.filter((c) => rxc.test(c.ex.id));
+      if (inc.length) return inc;
+      if (wantUni) { const inc2 = allowed.filter((c) => new RegExp(R.selection.x1.chest_shoulders.incline_re).test(c.ex.id)); if (inc2.length) return inc2; }
+    }
+    // (a template lift that is also the day's joint care takes the care's own exercise while one passes the filters: the face pull
+    // or the Y-T raise in the rear-delt slot of a racket player's shoulder care, R3-ATH-02 / R4-SES-02)
+    if (slot.care_code && R.selection.x1 && typeof R.selection.x1.care_slot_prefer === 'number') {
+      const pref = (R.prehab.preferred_by_code || {})[slot.care_code] || [];
+      const own = allowed.filter((c) => pref.includes(c.ex.id));
+      if (own.length) return own;
+    }
     const defs = allowed.filter((c) => isDefaultPick(c.ex, eb, E));
     // (F2: from stage 2 a jump station follows its stage - the slot's default drills are the Receive-stage box jumps)
     const stageFree = !!(R.athletic.f2 && R.athletic.f2.stage_drill_change && R.athletic.f2.stage_drill_change.enabled) && PLYO_BUCKETS.includes(eb) && !!E.stage && E.stage !== 'RC1';
@@ -1685,6 +2285,25 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
   // (fix round 2 / F3, E-181; RECHECK v0.4 06 minor 'the Monday and Wednesday curls just swap places at the block change'): a new
   // engine-added exercise is not one the previous exercise block's week just let go, while the pool holds another
   if (opts.avoidIds && opts.avoidIds.size) { const p2 = picks.filter((c) => !opts.avoidIds.has(c.ex.id)); if (p2.length) picks = p2; }
+  // v0.5 fix round 2 (04 LOW_BACK_* 'core first as anti-extension / anti-rotation'; RECHECK 01 minor; samples 01 / 02 / 08): with the
+  // core slots on the live library (R4-LIB-01) a low-back client's week holds fewer anti-movement drills than core slots - a plank
+  // or a side plank runs on a second day (never the day's own, the far day first) before a crunch, a leg raise or a hanging raise
+  // takes the slot (rules.selection.x2.core_primary.low_back_repeat_first)
+  // (a core slot keeps its exercise through the block, PER-02: the rule decides the first exercise block's pick only)
+  if (lowBackCore && CPX && CPX.low_back_repeat_first && !(opts.keepPrev && opts.prevId) && picks.length && new RegExp(CLB.avoid_re).test(picks[0].ex.id)) {
+    const avoidRx = new RegExp(CLB.avoid_re);
+    const rr = run({ variant: false, second: true });
+    const dayEx2 = (st.dayPicks.get(wd) || []).map((x) => x.ex).filter((x) => x && !x.is_athletic);
+    // (the Copenhagen plank is a hold too - the low-back bonus leaves it out for its adductor load, as a second-day repeat it is fine)
+    const pp = pickable(rr.fresh).filter((c) => !avoidRx.test(c.ex.id) && (antiCore(c.ex) || /copenhagen-plank/.test(c.ex.id)) && !SWAP_ONLY_STATUS.includes(c.ex.status) && !dayEx2.some((x) => x.id === c.ex.id || nearDuplicate(x, c.ex, R)));
+    if (pp.length) {
+      const WD7 = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+      const here = WD7.indexOf(wd);
+      const gap = (c) => { let g = 9; for (const [d2, list] of st.dayPicks) if (d2 !== wd && list.some((x) => x.ex && x.ex.id === c.ex.id)) g = Math.min(g, Math.abs(WD7.indexOf(d2) - here)); return g; };
+      const order = new Map(pp.map((c, i) => [c.ex.id, i]));
+      res = rr; picks = pp.slice().sort((a, b) => gap(b) - gap(a) || order.get(a.ex.id) - order.get(b.ex.id));
+    }
+  }
   let relaxNote = null;
   // a named library exercise used again this week beats a placeholder record ('Calf Raise - any'; review 01 / 04 / 05 minors)
   const onlyGeneric = (ps) => ps.length > 0 && ps.every((c) => E.genericRe.some((re) => re.test(c.ex.id)));
@@ -1694,6 +2313,16 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
     if (pp.length && !onlyGeneric(pp)) { res = rr; picks = pp; }
   }
   let repeatDetail = false;   // B3: a second weekly exposure of the same exercise names one concrete detail (PER-04, R2-LIB-01)
+  // v0.5 fix round 1 (R4-LIB-01 'only his live library as primary picks'; sample 05 major): a library lift used again this week -
+  // with a named detail - beats a reference-only or program-only record
+  if (R.selection.x1 && R.selection.x1.stand_in_library_first && resKindOf(bk)) {
+    const SOs = R.selection.swap_only_statuses || [];
+    if (picks.length > 0 && picks.every((c) => SOs.includes(c.ex.status))) {
+      const rr = run({ variant: false, second: true });
+      const pp = pickable(rr.fresh).filter((c) => !SOs.includes(c.ex.status));
+      if (pp.length) { res = rr; picks = pp; repeatDetail = true; }
+    }
+  }
   if (!picks.length) { // substitution order: coach alternates (repeat allowed), same pattern other implement / variant
     const r2 = run({ variant: false, second: true });
     if (pickable(r2.fresh).length) { res = r2; picks = pickable(r2.fresh); repeatDetail = true; }
@@ -1723,7 +2352,11 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
   const NSDw = E.S2 && E.S2.no_step_down;
   const focusWeak = (c) => !!NSDw && bk === 'focus' && (NSDw.levels || []).includes(E.lvl) && !E.older && !!slot.focus_muscle && model.muscle(slot.focus_muscle).class === 'big' &&
     (noLoad(c.ex) || (!!NSDw.odd_implement_re && new RegExp(NSDw.odd_implement_re).test(c.ex.id) && ['FULL_GYM', 'FULL_FACILITY'].includes(E.kit.profile)));
-  const weak0 = (c) => (R.selection.home_substitute_only_when_needed && resKindB3 && c.ex.tags.includes('home_substitute') && !realAllHard) ||
+  // (v0.5 fix round 1, EQ-08: a sissy squat or a Nordic curl in the leg-extension / leg-curl slot of a gym that has the machine is
+  // weak too - the machine comes back with one detail, one leg at a time or a pause)
+  const IMw = R.selection.x1 && R.selection.x1.iso_machine_first;
+  const machineWeak = (c) => !!IMw && !!IMw.buckets[eb] && !!E.isoMachine && !!E.isoMachine[eb] && !(IMw.not_families || []).includes(E.family) && new RegExp(IMw.buckets[eb].avoid_re).test(c.ex.id);
+  const weak0 = (c) => machineWeak(c) || (R.selection.home_substitute_only_when_needed && resKindB3 && c.ex.tags.includes('home_substitute') && !realAllHard) ||
     (leadSlot && !dialUniLead && E.pressAlt.twoArm && (new RegExp(LPx.avoid_re).test(c.ex.id) || c.ex.laterality !== 'bilateral')) || hotAvoid(c) || levelHard(c) || axialOff(c);
   const weak = (c) => weak0(c) || focusWeak(c);
   const prevKept = !!(opts.keepPrev && opts.prevId && res.fresh.some((c) => c.ex.id === opts.prevId));
@@ -1749,6 +2382,12 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
       const rr = run({ variant: false, second: true });
       const c = rr.fresh.find((x) => x.ex.id === opts.prevId);
       if (c) { chosen = c; res = rr; repeatDetail = true; }
+    }
+    // (fix round 2: a low-back client's repeated plank - rules.selection.x2.core_primary.low_back_repeat_first - stays through the block)
+    if (!chosen && lowBackCore && CPX && CPX.low_back_repeat_first) {
+      const rr = run({ variant: false, second: true });
+      const c = rr.fresh.find((x) => x.ex.id === opts.prevId);
+      if (c) { chosen = c; res = rr; }
     }
   }
   if (opts.forceChange && opts.prevId) {
@@ -1848,14 +2487,32 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
         .filter((ex2) => hardFilter(ex2, slot, eb2, E, spine).ok && !SWAP_ONLY_STATUS.includes(ex2.status))
         .map((ex2) => ({ ex: ex2, ...scoreOf(ex2, slot, eb2, E, st, day) })), slot, E).map((c) => ({ ...c, eb: eb2 }));
     }
+    // (v0.5 fix round 1, LIB-09 / R4-LIB-01; sample 05 major: a lift he keeps for people with shoulder or back pain - the Kong row -
+    // is no stand-in for a client without that pain while another one is left)
+    {
+      const PO = R.selection.x1 && R.selection.x1.pain_only;
+      if (PO) { const rxp = new RegExp(PO.re); const keep = altAll.filter((c) => !(rxp.test(c.ex.id) && !E.pain.some((p) => (PO.areas || []).includes(p.area))) && !used2.has(c.ex.id)); if (keep.length) altAll = altAll.filter((c) => !rxp.test(c.ex.id) || E.pain.some((p) => (PO.areas || []).includes(p.area))); }
+    }
+    // (fix round 2, sample 05 major 'a household exercise in a field / bootcamp kit'; R2-LIB-08 never infer equipment: a home
+    // substitute - the table row - is no stand-in outside a home kit while another one is left)
+    if (!E.homeKit) { const noHome = altAll.filter((c) => !c.ex.tags.includes('home_substitute') && !used2.has(c.ex.id)); if (noHome.length) altAll = altAll.filter((c) => !c.ex.tags.includes('home_substitute')); }
     const eb2 = altAll.length ? altAll[0].eb : null;
-    const alt = altAll.filter((c) => !used2.has(c.ex.id));
+    const altFull = altAll.filter((c) => !used2.has(c.ex.id));
+    let alt = altFull;
+    // (R4-LIB-01 'only his live library as primary picks'; sample 05 major: a library lift used again in the week - with a named
+    // detail - is the stand-in before a reference-only or program-only record; those stay in its swap list)
+    if (R.selection.x1 && R.selection.x1.stand_in_library_first) {
+      const so = R.selection.swap_only_statuses || [];
+      const libAlt = alt.filter((c) => (!so.includes(c.ex.status) || smallKitRow(c)) && !levelHard(c));
+      if (libAlt.length) alt = libAlt;
+    }
     // F3 (PER-04; RECHECK 05 minor: the same row on both bootcamp days for 8 weeks): a nearest-pattern stand-in the week does not hold yet first
     let altW = E.F3 ? alt.filter((c) => !st.usedWeek.has(c.ex.id) && !levelHard(c)) : [];
+    if (R.selection.x1 && R.selection.x1.stand_in_library_first && E.F3 && !altW.length && alt.length) altW = alt.filter((c) => !levelHard(c));
     // (fix round 2 / F3, RECHECK v0.4 05 minor 'the table row is a home substitute in a field kit'; R2-LIB-07): the stand-in stays inside
     // the first pass's profile and is a loaded lift before a home substitute
     if (E.S2 && altW.length) {
-      const inLike = opts.like ? altW.filter((c) => (opts.like.bil === null || (c.ex.laterality === 'bilateral') === opts.like.bil) && c.ex.credit_class === opts.like.cc) : altW;
+      const inLike = opts.like ? altW.filter((c) => (opts.like.bil === null || (c.ex.laterality === 'bilateral') === opts.like.bil) && profileClass(c.ex.credit_class) === profileClass(opts.like.cc)) : altW;
       const pool2 = inLike.length ? inLike : altW;
       // (an in-level lift first - also where the station's own word would let an advanced version through -, a loaded lift before a
       // home substitute, and not the exercise another station of the week had in the first pass)
@@ -1868,12 +2525,17 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
       altW = own.length ? own : pool4;
     }
     if (alt.length) {
-      chosen = altW.length ? altW[0] : alt[0];
+      // v0.5 (B3 near-duplicates, RECHECK 01 / 03): the stand-in is not a second version of an exercise the day already holds
+      // while another stand-in is left (a circuit day can now carry two stations of one pattern - 5-7 stations, R4-SES-02)
+      const dayHeld = (st.dayPicks.get(wd) || []).map((x) => x.ex).filter((x) => x && !x.is_athletic);
+      const notDup = (c) => !dayHeld.some((x) => x.id !== c.ex.id && nearDuplicate(x, c.ex, R));
+      const altWn = altW.filter(notDup), altN = alt.filter(notDup);
+      chosen = altWn.length ? altWn[0] : altW.length && !altN.length ? altW[0] : altN.length ? altN[0] : (altW.length ? altW[0] : alt[0]);
       fill.bucket = eb2;
       fill.flags.push('pattern_gap');
       fill.buy = (R.equipment.buy_list[eb] || []).slice();
       fill.why.push(why('why.kit', 'EQ-09'));
-      res = { ranked: alt, fresh: alt, removedBy: res.removedBy, secondApplied: false };
+      res = { ranked: altFull, fresh: altFull, removedBy: res.removedBy, secondApplied: false };
     }
   }
   if (!chosen) {
@@ -1917,10 +2579,26 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
     if (v) { fill.detail = { axis: v.axis, key: v.key, value: v.value }; fill.flags.push('detail_variation'); fill.why.push(why('why.detail_variation', 'R2-LIB-01', { axis: v.axis })); }
   }
   fill.laterality = ex.laterality === 'n/a' ? null : ex.laterality;
+  // (v0.5 / V2: the hip day's second hinge left its first pick's credit class for a single-leg hip extension - selectBlock keeps it)
+  if (opts.like && profileClass(ex.credit_class) !== profileClass(opts.like.cc) && secondHingeAlt(ex)) { fill.flags.push('second_hinge'); fill.why.push(why('why.second_hinge', 'R4-SES-05')); }
   for (const r of chosen.reasons) if (!fill.why.some((w) => w.key === r.key)) fill.why.push(r);
   if (relaxNote) fill.flags.push(relaxNote);
   if (res.secondApplied && !opts.keepPrev) fill.why.push(why('why.second_exposure', 'PER-04'));
-  if (res.removedBy.pain) { fill.flags.push('pain_swap'); fill.why.push(why('why.pain_swap', 'R2-LIB-03', { area: typeof res.removedBy.pain === 'string' ? res.removedBy.pain : 'other' })); }
+  if (res.removedBy.pain) {
+    const area = typeof res.removedBy.pain === 'string' ? res.removedBy.pain : 'other';
+    // v0.5 fix round 2 (sample 08 major): the flag and its note only when the lift this slot would hold without the pain is
+    // another one that the pain filter took out; the plan then names it ('Instead of X, to protect your knee')
+    const PSX = R.selection.x2 && R.selection.x2.pain_swap;
+    if (PSX && PSX.only_when_changed) {
+      let want = null;
+      try { want = intendedWithoutPain(slot, eb, E, st, day, spine); } catch { want = null; }
+      if (want && want.id !== ex.id && !hardFilter(want, slot, eb, E, spine).ok) {
+        fill.flags.push('pain_swap');
+        fill.why.push(why('why.pain_swap', 'R2-LIB-03', { area }));
+        fill.pain_instead_of = { exercise_id: want.id, area };
+      }
+    } else { fill.flags.push('pain_swap'); fill.why.push(why('why.pain_swap', 'R2-LIB-03', { area })); }
+  }
   if (res.removedBy.age_50) { fill.flags.push('age_50_racket'); fill.why.push(why('why.age_50_racket', 'R3-ATH-02')); }
   if (E.older && ex.is_athletic) {
     if (E.optIn) { fill.flags.push('older_opt_in'); fill.why.push(why('why.older_opt_in', 'R2-ATH-08')); }
@@ -1951,6 +2629,21 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
     if (fill.loading === 'contralateral') fill.why.push(why('why.contralateral', 'CAT-13'));
     if (fill.loading === 'ipsilateral') fill.why.push(why('why.ipsilateral', 'CAT-13'));
   }
+  // v0.5 / V2 (COACH-R4 R4-LIB-04): when the pick stands in for an exercise the kit does not hold, the fill names that exercise and
+  // says in one line what the stand-in keeps and what it loses
+  const SN = R.selection.swap_notes;
+  if (SN && SN.enabled && !opts.noInstead) {
+    const standIn = (SN.equipment_substitute_flags || []).some((f) => fill.flags.includes(f)) || (ex.tags.includes('home_substitute') && !!res.removedBy.kit);
+    if (standIn) {
+      const want = intendedWithFullKit(slot, eb, E, st, day, spine);
+      if (want && want.id !== ex.id && !model.kitAvailable(want, E.kitObj)) {
+        const n = swapNote(model, want, ex);
+        fill.instead_of = { exercise_id: want.id, keeps: n.keeps, loses: n.loses };
+        // (fix round 2: a vertical-pull slot filled by a row says that the plan has no vertical pull with this kit)
+        if (want.credit_class === 'VPULL' && ex.credit_class === 'HPULL' && !fill.flags.includes('no_vertical_pull')) fill.flags.push('no_vertical_pull');
+      }
+    }
+  }
   // swaps: 2-4 from the same filtered pool, never the pick (H01 / H12 hold: same filters)
   const sw = R.selection.swaps;
   if (eb === 'COND_WOD') {
@@ -1960,34 +2653,56 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
     // pattern stays out of its WOD (no thruster on the squat day, no swing on the deadlift day), and the week holds a jump and a
     // ball or KB station
     const W = R.conditioning.wod;
-    let order = res.ranked.filter((c) => !SWAP_ONLY_STATUS.includes(c.ex.status));
+    // (fix round 1: a pull-up, an inverted row and toes-to-bar are one movement group of the WOD - 'pull / gymnastics')
+    const pullRx0 = W.x1 && W.x1.weekly_must_have_pull ? new RegExp(W.x1.pull_re) : null;
+    const wg = (e0) => (pullRx0 && pullRx0.test(e0.id) ? 'pull' : wodGroup(e0));
+    let order = res.ranked.filter((c) => !SWAP_ONLY_STATUS.includes(c.ex.status) || addonPrimaryOk(c.ex, slot, eb, E.family, R));
     if (W.rotate_stations_week || W.exclude_day_pattern || W.weekly_must_have) {
       const used = st.wodGroups || new Map();
       const lf = day && day.lower_focus;
-      const bad = (g) => W.exclude_day_pattern && ((lf === 'knee' && g === 'thruster') || (lf === 'hip' && g === 'swing'));
+      // (v0.5 / V2: a wall ball is a squat-to-target - on the squat day it stays out of the WOD like the thruster)
+      const bad = (g, ex2) => W.exclude_day_pattern && ((lf === 'knee' && (g === 'thruster' || (!!ex2 && ex2.tags.includes('wall_ball')))) || (lf === 'hip' && g === 'swing'));
       const must = (g) => (W.weekly_must_have || []).some((m) => (m === 'jump' && g === 'jump') || (m === 'ball_or_kb' && (g === 'ball' || g === 'swing')));
       const mustNeeded = (g) => must(g) && !(W.weekly_must_have || []).some((m) => [...used.keys()].some((u) => (m === 'jump' && u === 'jump' && g === 'jump') || (m === 'ball_or_kb' && (u === 'ball' || u === 'swing') && (g === 'ball' || g === 'swing'))));
       // the same WOD slot of the previous exercise block rotates too (PER-02: something changes at a block boundary)
       const prevF = E.prev && E.prev.fills && E.prev.fills[slot.slot_id];
-      const prevGroups = new Set(((prevF && prevF.stations) || []).filter((id) => model.hasEx(id)).map((id) => wodGroup(model.ex(id))));
+      const prevGroups = new Set(((prevF && prevF.stations) || []).filter((id) => model.hasEx(id)).map((id) => wg(model.ex(id))));
       // v0.4 fix round 2 / F2 (E-173; RECHECK v0.4 04 major: two WODs kept the same three stations for 8 weeks; thrusters and the same
       // slam three times a week): the same WOD of the previous exercise block gives its movement groups up more firmly, and a station
       // the week's WODs already hold waits for another of its group (rules.conditioning.wod.rotate_r2)
       const RR = W.rotate_r2 || null;
       const usedEx = st.wodEx || new Map();
-      const adj = (c) => c.score - (W.rotate_stations_week ? 6 * (used.get(wodGroup(c.ex)) || 0) : 0) + (mustNeeded(wodGroup(c.ex)) ? 4 : 0) - (prevGroups.has(wodGroup(c.ex)) ? (RR ? RR.previous_block_group : 2) : 0)
-        - (RR ? RR.same_exercise_week * (usedEx.get(c.ex.id) || 0) : 0);
-      order = order.filter((c) => !bad(wodGroup(c.ex))).map((c) => ({ ...c, adj: adj(c) }))
+      // v0.5 fix round 1 (rules.conditioning.wod.x1): the week's WODs hold one pulling / gymnastics station, a movement group is in
+      // two WODs a week at most while another passes, and jumping jacks are no station for a trained class member
+      const WX = W.x1 || null;
+      const pullRx = WX && WX.weekly_must_have_pull ? new RegExp(WX.pull_re) : null;
+      const isPullSt = (c) => !!pullRx && pullRx.test(c.ex.id);
+      const pullNeeded = (c) => isPullSt(c) && !st.wodPull;
+      const adj = (c) => c.score - (W.rotate_stations_week ? 6 * (used.get(wg(c.ex)) || 0) : 0) + (mustNeeded(wg(c.ex)) ? 4 : 0) - (prevGroups.has(wg(c.ex)) ? (RR ? RR.previous_block_group : 2) : 0)
+        - (RR ? RR.same_exercise_week * (usedEx.get(c.ex.id) || 0) : 0) + (pullNeeded(c) ? 8 : 0);
+      order = order.filter((c) => !bad(wg(c.ex), c.ex));
+      if (WX) {
+        // (a station is never a second version of an exercise the day already holds - toes-to-bar in the WOD of a day whose core
+        // block holds a hanging leg raise; R2-SES-05)
+        const todayIds = st.usedByDay.get(weekdayOfSlot(slot)) || new Set();
+        const notDup = order.filter((c) => ![...todayIds].some((id) => id !== c.ex.id && model.hasEx(id) && nearDuplicate(c.ex, model.ex(id), R)));
+        if (new Set(notDup.map((c) => wg(c.ex))).size >= W.stations[1]) order = notDup;
+        const lvlOk = order.filter((c) => !(WX.not_above_l1_re && E.lvl !== 'L1' && new RegExp(WX.not_above_l1_re).test(c.ex.id)));
+        if (lvlOk.length) order = lvlOk;
+        const fresh = order.filter((c) => !(typeof WX.group_week_max === 'number' && (used.get(wg(c.ex)) || 0) >= WX.group_week_max));
+        if (new Set(fresh.map((c) => wg(c.ex))).size >= W.stations[1]) order = fresh;
+      }
+      order = order.map((c) => ({ ...c, adj: adj(c) }))
         .sort((a, b) => b.adj - a.adj || a.tb - b.tb || (a.ex.id < b.ex.id ? -1 : a.ex.id > b.ex.id ? 1 : 0));
     }
     const stations = [];
     const groups = new Set();
     for (const c of order) {
       if (stations.length >= W.stations[1]) break;
-      if (groups.has(wodGroup(c.ex))) continue;
-      stations.push(c.ex); groups.add(wodGroup(c.ex));
+      if (groups.has(wg(c.ex))) continue;
+      stations.push(c.ex); groups.add(wg(c.ex));
     }
-    if (!stations.length) { stations.push(ex); groups.add(wodGroup(ex)); }
+    if (!stations.length) { stations.push(ex); groups.add(wg(ex)); }
     // (fix round 2 / F2, E-173: a WOD that would repeat the previous exercise block's stations gives its last station to the best
     // station of a movement group it does not hold - PER-02 'something changes at a block boundary')
     {
@@ -1997,16 +2712,17 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
       const nRun = Math.min(W.stations[0], stations.length);
       const prevIds = new Set(((prevF2 && prevF2.stations) || []).slice(0, W.stations[0]));
       if (RR2 && prevIds.size && nRun > 1 && stations.slice(0, nRun).every((e2) => prevIds.has(e2.id))) {
-        const alt = order.find((c) => !prevIds.has(c.ex.id) && !stations.includes(c.ex) && !groups.has(wodGroup(c.ex))) || order.find((c) => !prevIds.has(c.ex.id) && !stations.includes(c.ex));
-        if (alt) { const out = stations[nRun - 1]; groups.delete(wodGroup(out)); stations[nRun - 1] = alt.ex; groups.add(wodGroup(alt.ex)); }
+        const alt = order.find((c) => !prevIds.has(c.ex.id) && !stations.includes(c.ex) && !groups.has(wg(c.ex))) || order.find((c) => !prevIds.has(c.ex.id) && !stations.includes(c.ex));
+        if (alt) { const out = stations[nRun - 1]; groups.delete(wg(out)); stations[nRun - 1] = alt.ex; groups.add(wg(alt.ex)); }
       }
     }
     if (stations[0] !== ex) { fill.exercise_id = stations[0].id; fill.laterality = stations[0].laterality === 'n/a' ? null : stations[0].laterality; }
     st.wodGroups = st.wodGroups || new Map();
     // the stations past the short WOD's count (W.stations[0]) only run in the longer WODs of the block: half weight
-    stations.forEach((e, i) => { const g = wodGroup(e); st.wodGroups.set(g, (st.wodGroups.get(g) || 0) + (i < W.stations[0] ? 1 : 0.5)); });
+    stations.forEach((e, i) => { const g = wg(e); st.wodGroups.set(g, (st.wodGroups.get(g) || 0) + (i < W.stations[0] ? 1 : 0.5)); });
     st.wodEx = st.wodEx || new Map();
     for (const e of stations) st.wodEx.set(e.id, (st.wodEx.get(e.id) || 0) + 1);
+    { const WX2 = W.x1; if (WX2 && WX2.weekly_must_have_pull && stations.slice(0, W.stations[0]).some((e) => new RegExp(WX2.pull_re).test(e.id))) st.wodPull = true; }
     fill.stations = stations.map((e) => e.id);
   } else {
     let others = res.ranked.filter((c) => c.ex.id !== ex.id);
@@ -2025,6 +2741,16 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
         const sameCat = others.filter((c) => antiCore(c.ex) === cat);
         others = [...sameCat, ...others.filter((c) => antiCore(c.ex) !== cat)];
       }
+      // (fix round 2, R4-LIB-04: a core swap keeps the pick's trunk action - a sit-up is never swapped for a superman - and is
+      // never a carry)
+      const SNx = R.selection.x2 && R.selection.x2.swap_notes;
+      if (SNx && SNx.core_same_function) {
+        const fn = coreFunction(ex);
+        const noCarry = others.filter((c) => !c.ex.tags.includes('carry_sled'));
+        const sameFn = noCarry.filter((c) => coreFunction(c.ex) === fn);
+        const cross = (c) => (fn === 'flexion' && coreFunction(c.ex) === 'extension') || (fn === 'extension' && coreFunction(c.ex) === 'flexion');
+        others = [...sameFn, ...noCarry.filter((c) => coreFunction(c.ex) !== fn && !cross(c))];
+      }
     }
     // F3 (RECHECK 07 minor: 'Weighted Dip -> Incline Barbell Bench', the day's own work lift, in the swap list): a swap is never an
     // exercise the day already holds
@@ -2037,6 +2763,64 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
     const SW = E.S2 && E.S2.swaps;
     if (SW) others = swapsR2(others, ex, eb, bk, E, SW);
     fill.swaps = others.slice(0, sw.max).map((c) => c.ex.id);
+    // v0.5 fix round 1: a lift's swap list is never left short by the second pass's own filters (GEN-04 'default pick plus a dropdown
+    // in every slot'; sample 08 minor: the one-arm pulldown printed no swap). The slot's other library lifts of the same category
+    // fill it - the two-arm version of a one-arm pick; for the incline press of the week's 'Chest / Shoulders' slot the slot's own
+    // presses, a high-incline and an overhead press (R4-LIB-03 'overhead pressing stays in the swaps').
+    {
+      const CSw = R.selection.x1 && R.selection.x1.chest_shoulders;
+      const CSUw = R.selection.x2 && R.selection.x2.chest_slot_uni;
+      const uniChest = !!CSw && !!CSUw && !!E.chestShoulders && E.chestShoulders.has(slot.slot_id) && new RegExp(CSUw.id_re).test(ex.id);
+      const chestPick = !!CSw && (uniChest || (eb === CSw.bucket && new RegExp(CSw.incline_re).test(ex.id)));
+      const short = resKindOf(bk) && !ex.is_athletic && fill.swaps.length < Math.min(sw.min, sw.max);
+      if ((chestPick && fill.swaps.length < sw.max) || short) {
+        const today = st.usedByDay.get(wd) || new Set();
+        const li = (lv) => E.ladderOrder.indexOf(lv);
+        const wantCls = chestPick ? 'VPUSH' : profileClass(ex.credit_class);
+        // (fix round 2: the alternating incline press of a cutting-sport athlete's 'Chest / Shoulders' slot printed no swap - the
+        // two-arm incline presses are its first swaps, GEN-04)
+        const rxInc = chestPick ? new RegExp(CSw.incline_re) : null;
+        const poolX = chestPick && CSw.lead_bucket ? [...model.bySlot(eb), ...model.bySlot(CSw.lead_bucket).filter((e) => rxInc.test(e.id) && !model.bySlot(eb).includes(e))] : model.bySlot(eb);
+        let extra = poolX.filter((e) => e.id !== ex.id && !fill.swaps.includes(e.id) && !today.has(e.id) && (profileClass(e.credit_class) === wantCls || (chestPick && rxInc.test(e.id))) && (!chestPick || e.laterality === 'bilateral') &&
+          !SWAP_ONLY_STATUS.includes(e.status) && !(R.selection.swap_only_statuses || []).includes(e.status) && li(e.level) <= li(E.ladder) && !E.genericRe.some((re) => re.test(e.id)) &&
+          !/push-press|jerk|thruster/.test(e.id) && hardFilter(e, slot, eb, E, { used: { squat: null, hinge: null }, weekday: wd }).ok);
+        if (E.S2 && E.S2.swaps) extra = swapsR2(extra.map((e) => ({ ex: e })), ex, eb, bk, E, { ...E.S2.swaps, same_category: false }).map((c) => c.ex);
+        // (the same movement first - a lat pulldown for a one-arm lat pulldown - then the slot's default lifts)
+        const noun = anatomy(ex).noun;
+        extra.sort((a, b) => (anatomy(b).noun === noun ? 1 : 0) - (anatomy(a).noun === noun ? 1 : 0) || (isDefaultPick(b, eb, E) ? 1 : 0) - (isDefaultPick(a, eb, E) ? 1 : 0) || (a.id < b.id ? -1 : 1));
+        // (the chest slot: one high-incline press and one overhead press first, while the list has room)
+        const hi = chestPick ? extra.find((e) => e.tags.includes('mid_range_push')) : null, oh = chestPick ? extra.find((e) => e.tags.includes('overhead') && !e.tags.includes('mid_range_push')) : null;
+        const top = chestPick ? sw.max : Math.min(sw.min, sw.max);
+        const inc1 = chestPick && !fill.swaps.length ? extra.find((e) => rxInc.test(e.id)) : null;
+        for (const e of [inc1, hi, oh, ...extra]) if (e && fill.swaps.length < top && !fill.swaps.includes(e.id)) fill.swaps.push(e.id);
+      }
+    }
+    // v0.5 fix round 2 (sample 08 major: 'Lunge' - the placeholder record - and two bar-on-the-back squats offered as swaps of a
+    // beginner's knee-protected squat): a swap is never a placeholder record; on a slot a pain area touches, a beginner's swaps
+    // never load the spine heavily and the hot spot's own preferred lifts come first
+    {
+      const SWX = R.selection.x2 && R.selection.x2.swaps;
+      if (SWX && fill.swaps.length) {
+        const exOf = (id) => model.ex(id);
+        let list = fill.swaps.filter((id) => !E.genericRe.some((re) => re.test(id)));
+        const regionX = slotRegion(slot, eb, model);
+        const painHere = E.pain.some((p) => touches(p.area, regionX));
+        if (painHere) {
+          if ((SWX.pain_no_axial_high_levels || []).includes(E.lvl)) { const soft = list.filter((id) => exOf(id).axial_class !== 'high'); if (soft.length) list = soft; }
+          const pref = (id) => (E.hot && (E.hot.prefer_re.some((re) => re.test(id)) || [...E.hot.prefer_tags].some((t) => exOf(id).tags.includes(t))) ? 0 : 1);
+          list = list.map((id, i) => ({ id, i })).sort((a, b) => pref(a.id) - pref(b.id) || a.i - b.i).map((x) => x.id);
+        }
+        fill.swaps = list;
+      }
+    }
+    // v0.5 / V2 (COACH-R4 R4-LIB-03 'mid-range pull ... between horizontal and vertical pull'): the category has no slot of its own in the
+    // coach's templates, so a row or a pulldown lists one mid-range pull among its swaps (the last place) when the kit holds one
+    const MP = R.selection.mid_range && R.selection.mid_range.pull;
+    if (MP && MP.fills.includes(eb) && bk === 'resistance' && !ex.tags.includes(MP.tag) && fill.swaps.length && !fill.swaps.some((id) => model.ex(id).tags.includes(MP.tag))) {
+      const today = st.usedByDay.get(wd) || new Set();
+      const mid = res.ranked.find((c) => c.ex.pattern === MP.pattern && c.ex.tags.includes(MP.tag) && c.ex.id !== ex.id && !today.has(c.ex.id));
+      if (mid) fill.swaps = [...fill.swaps.slice(0, Math.max(0, sw.max - 1)), mid.ex.id];
+    }
   }
   return fill;
 }
@@ -2052,8 +2836,15 @@ function swapsR2(others, ex, eb, bk, E, SW) {
   let list = others;
   if (SW.same_category && resKindOf(bk) && !ex.is_athletic) {
     const bil = ex.laterality === 'bilateral';
-    const cls = list.filter((c) => c.ex.credit_class === ex.credit_class);
-    list = [...cls.filter((c) => (c.ex.laterality === 'bilateral') === bil), ...cls.filter((c) => (c.ex.laterality === 'bilateral') !== bil)];
+    // (v0.5 fix round 1: a high-incline press - class MRPUSH - and an overhead press are one swap category, the slot's 'vertical push
+    // ... or an incline press', R4-SES-05 / R4-LIB-03 'overhead pressing stays in the swaps'; the incline bench of the week's
+    // 'Chest / Shoulders' slot swaps to the other incline presses first, then to the slot's own presses)
+    const CSs = R.selection.x1 && R.selection.x1.chest_shoulders;
+    const chestPick = !!CSs && eb === CSs.bucket && new RegExp(CSs.incline_re).test(ex.id);
+    const cls = chestPick
+      ? [...list.filter((c) => new RegExp(CSs.incline_re).test(c.ex.id)), ...list.filter((c) => !new RegExp(CSs.incline_re).test(c.ex.id) && profileClass(c.ex.credit_class) === 'VPUSH')]
+      : list.filter((c) => profileClass(c.ex.credit_class) === profileClass(ex.credit_class));
+    list = chestPick ? cls : [...cls.filter((c) => (c.ex.laterality === 'bilateral') === bil), ...cls.filter((c) => (c.ex.laterality === 'bilateral') !== bil)];
   }
   if (SW.client_filter) {
     const PA = R.selection.pain_avoid_id_patterns || {};
@@ -2303,9 +3094,9 @@ export function selectBlock(ctx) {
         if (homeGap && fill.exercise_id && fill.exercise_id !== bf.exercise_id && dayBaseIds.some((id) => model.hasEx(id) && nearDuplicate(model.ex(id), model.ex(fill.exercise_id), R))) fill = copyFill(bf);
       }
       // (second pass: a pick that left the first pick's profile - a fallback found nothing inside it - gives way to the first pick)
-      if (like && bx && !(fill.flags || []).includes('second_hip_knee_flexion')) {
+      if (like && bx && !(fill.flags || []).includes('second_hip_knee_flexion') && !(fill.flags || []).includes('second_hinge')) {
         const fx = fill.exercise_id && model.hasEx(fill.exercise_id) ? model.ex(fill.exercise_id) : null;
-        const off = !fx || (like.bil !== null && (fx.laterality === 'bilateral') !== like.bil) || fx.credit_class !== like.cc;
+        const off = !fx || (like.bil !== null && (fx.laterality === 'bilateral') !== like.bil) || profileClass(fx.credit_class) !== profileClass(like.cc);
         if (off && (!usedToday.has(bx.id) || homeGap)) fill = copyFill(bf);
       }
       if (slotX !== slot && fill.exercise_id) fill.why.push(why('why.delt_variant', 'R3-VOL-01'));
@@ -2367,9 +3158,46 @@ export function selectBlock(ctx) {
       const first = lifts.filter((sl) => sl.role === 'work'), chg = lifts.filter((sl) => sl.role !== 'work' && change.has(sl.slot_id));
       seq = [...first, ...chg, ...lifts.filter((sl) => !first.includes(sl) && !chg.includes(sl)), ...ds.filter(coreKind)];
     }
+    // v0.5: the class's skill practice is the day's named piece (the template's own word: DUBS, GYMNASTICS); it is picked before
+    // the day's core block - as when it sat in the warm-up - so the core never takes the skill's own exercise and the session
+    // never holds two versions of it (B3 near-duplicates)
+    const sk = seq.filter((sl) => sl.bucket === 'SKILL');
+    if (sk.length) {
+      const rest = seq.filter((sl) => sl.bucket !== 'SKILL');
+      const at = rest.findIndex(coreKind);
+      seq = at < 0 ? [...sk, ...rest] : [...rest.slice(0, at), ...sk, ...rest.slice(at)];
+    }
     for (const slot of seq) doSlot(day, slot, false);
   }
   if (E.live) for (const day of layout.days) for (const slot of daySlots(day)) if (needsFill(slot, model) && !isLive(slot, E)) doSlot(day, slot, true);
+
+  // v0.5 (B3 near-duplicates; a circuit day can now carry two stations of one pattern, R4-SES-02): when the passes leave a
+  // nearest-pattern stand-in that is a second version of another exercise of its day, the stand-in takes its first listed
+  // alternative that is not (the day's other picks are final here, whatever pass made them)
+  if (R.selection.near_duplicate) for (const day of layout.days) {
+    const live = daySlots(day).filter((sl) => isLive(sl, E) && fills[sl.slot_id] && fills[sl.slot_id].exercise_id && model.hasEx(fills[sl.slot_id].exercise_id));
+    for (const sl of live) {
+      const f = fills[sl.slot_id];
+      if (!(f.flags || []).includes('pattern_gap') || !['resistance', 'isolation', 'focus'].includes(model.bucket(sl.bucket).kind)) continue;
+      const others = live.filter((x) => x !== sl).map((x) => model.ex(fills[x.slot_id].exercise_id)).filter((x) => !x.is_athletic);
+      const clash = (e) => others.some((x) => x.id === e.id || nearDuplicate(x, e, R));
+      if (!clash(model.ex(f.exercise_id))) continue;
+      // (v0.5 fix round 1, R4-LIB-01 / LIB-09; sample 05 major: the Kong row - a reference-only record he keeps for people with
+      // shoulder or back pain - was the first back station of a healthy client's week. Of the alternatives, a library record goes
+      // before a reference-only or program-only one, and a pain-only lift is the last choice for a client without that pain)
+      const alts = (f.swaps || []).filter((id) => model.hasEx(id) && !clash(model.ex(id)) && !SWAP_ONLY_STATUS.includes(model.ex(id).status));
+      const PO = R.selection.x1 && R.selection.x1.pain_only;
+      const painOnly = (id) => !!PO && new RegExp(PO.re).test(id) && !E.pain.some((p) => (PO.areas || []).includes(p.area));
+      const swapOnlyS = R.selection.swap_only_statuses || [];
+      const pool = alts.filter((id) => !painOnly(id)).length ? alts.filter((id) => !painOnly(id)) : alts;
+      const altId = PO ? (pool.find((id) => !swapOnlyS.includes(model.ex(id).status)) || pool[0]) : alts[0];
+      if (!altId) continue;
+      const was = f.exercise_id, e2 = model.ex(altId);
+      f.swaps = [was, ...f.swaps.filter((id) => id !== altId)].slice(0, R.selection.swaps.max);
+      f.exercise_id = altId; f.detail = null; f.laterality = e2.laterality; f.loading = null;
+      f.flags = (f.flags || []).filter((x) => x !== 'detail_variation');
+    }
+  }
 
   // F3 (RECHECK 07 minor: the day's own work lift offered as a swap): once the day is picked, a swap list never names another exercise
   // the same day holds (picks made after the slot included)
@@ -2503,6 +3331,57 @@ export function fillSlot(slot, ctx) {
   if (fill.buy) delete fill.buy;
   fill.flags = [...new Set(fill.flags)].sort();
   return fill;
+}
+
+/**
+ * v0.5 / V2 (COACH-R4 R4-LIB-01 'they can be optional, and they can be chosen and added, but not primary ones that the program is
+ * going to throw at you as part of the template'): the optional add-ons a plan OFFERS this client. Never part of the template;
+ * the person adds one with a plan edit (engine/edit.mjs add_exercise). In order (rules.selection.addons.offer.order): the joint
+ * care of the profile's own injury codes, the add-ons the library marks for the client's sport or activity, then a carry for
+ * general-fitness and athletic goals (LIB-19). Each passes the client's kit, age, pain and exclusion filters.
+ * @param {object} ctx {derived, model, shape?, layout?}
+ * @returns {Array<{exercise_id:string, kind:'joint_care'|'sport'|'carry', code:string|null, bucket:string}>}
+ */
+export function offeredAddons(ctx) {
+  const E = prep(ctx);
+  const { R, model } = E;
+  const A = R.selection.addons;
+  if (!A || !A.offer) return [];
+  const O = A.offer;
+  const out = [];
+  const seen = new Set();
+  const bucketOf = (ex) => ex.slots.find((b) => b !== 'FOCUS') || ex.slots[0] || null;
+  const ok = (ex) => {
+    if (!ex || ex.status !== A.addon_status || seen.has(ex.id)) return false;
+    const b = bucketOf(ex);
+    if (!b || (O.skip_units || []).includes(ex.rep_hint && ex.rep_hint.unit)) return false;
+    const slot = { slot_id: 'Mon.addon.a01', station_id: null, bucket: b, role: 'addon', block: model.bucket(b).block, variant: null, axial_req: null, circuit: null, focus_muscle: ex.primary_muscle || null };
+    return hardFilter(ex, slot, b, E, null).ok;
+  };
+  const push = (ex, kind, code) => { seen.add(ex.id); out.push({ exercise_id: ex.id, kind, code: code || null, bucket: bucketOf(ex) }); };
+  // (an add-on the plan already holds - a HYROX race station - is not offered again: ctx.exclude_ids)
+  for (const id of ctx.exclude_ids || []) seen.add(id);
+  const injuries = [...new Set((E.sport && E.sport.injuries) || [])];
+  const vName = E.derived.D2_profile && E.derived.D2_profile.variant;
+  if (E.sport && vName && E.sport.variants && E.sport.variants[vName]) for (const c of E.sport.variants[vName].injuries_add || []) if (!injuries.includes(c)) injuries.push(c);
+  const sportMatch = (ex) => (ex.sport_use || []).some((u) => E.sportWords.has(String(u).toLowerCase().replace(/_/g, ' ')));
+  for (const kind of O.order || []) {
+    if (kind === 'joint_care') {
+      for (const code of injuries.slice().sort()) for (const id of (R.prehab.preferred_by_code || {})[code] || []) {
+        const ex = model.hasEx(id) ? model.ex(id) : null;
+        if (ok(ex)) push(ex, 'joint_care', code);
+      }
+    } else if (kind === 'sport') {
+      // a reactive change-of-direction profile is offered its reaction drill (04 cod.reactive; the drill is an add-on, R4-LIB-01)
+      const RD = R.athletic.f2 && R.athletic.f2.cod && R.athletic.f2.cod.reactive_drill_ids;
+      if (E.sport && E.sport.cod_reactive) for (const id of RD || []) { const ex = model.hasEx(id) ? model.ex(id) : null; if (ok(ex)) push(ex, 'sport', null); }
+      // the client's sport first names the add-on (catalog sport_use); joint-care records without a code of this profile wait
+      for (const ex of model.exercises()) if (ex.status === A.addon_status && sportMatch(ex) && ok(ex)) push(ex, 'sport', null);
+    } else if (kind === 'carry') {
+      if ((O.carry_goals || []).includes(E.goal)) for (const id of O.carry_ids || []) { const ex = model.hasEx(id) ? model.ex(id) : null; if (ok(ex)) push(ex, 'carry', null); }
+    }
+  }
+  return out.slice(0, typeof O.max === 'number' ? O.max : out.length);
 }
 
 /**

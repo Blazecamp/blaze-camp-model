@@ -1,6 +1,6 @@
 # ADR-047: The coach's newest answer wins, and every rule carries a label
 
-When two sources disagree, the coach's most recent answer wins. His answers outrank what his sheets show, and both outrank anything the team reasoned or proposed. Every rule in the repo carries a label that says where it came from. This is a team decision about method. It follows from how the model was built: three rounds of questions to the coach, each one changing some earlier answers.
+When two sources disagree, the coach's most recent answer wins. His answers outrank what his sheets show, and both outrank anything the team reasoned or proposed. Every rule in the repo carries a label that says where it came from. This is a team decision about method. It follows from how the model was built: four rounds of questions to the coach and two dated clarifications, each one changing some earlier answers.
 
 | | |
 |---|---|
@@ -14,16 +14,20 @@ Highest authority first:
 
 | Rank | Source | Label |
 |---|---|---|
-| 1 | Round-3 answers ([coach_answers_round3.md](../../coach_answers_round3.md)) | `COACH-R3 <id>` |
-| 2 | Round-2 answers ([coach_answers_round2.md](../../coach_answers_round2.md)) | `COACH-R2 <id>` |
-| 3 | Round-1 answers ([coach_answers_full.md](../../coach_answers_full.md)) | `COACH-ANSWER <id>` |
-| 4 | Things he said in conversation ([coach_chat_statements.md](../../coach_chat_statements.md), [coach_answers.md](../../coach_answers.md)) | `COACH-CHAT` |
-| 5 | Facts read from his sheets (`raw/`, `dumps/`) | `OBSERVED` |
-| 6 | Team work | `INFERRED`, `SCIENCE`, `PROPOSED` |
+| 1 | Round-4 answers ([coach_answers_round4.md](../../coach_answers_round4.md), 2026-10-11) and the time clarification ([coach_answers_time_2026-10-10.md](../../coach_answers_time_2026-10-10.md)) | `COACH-R4 R4-<id>`, `COACH-CT CT-01` |
+| 2 | The progression clarification ([coach_answers_codex_2026-10-10.md](../../coach_answers_codex_2026-10-10.md)), only the subjects answered there | `COACH-CX CX-01..04` |
+| 3 | Round-3 answers ([coach_answers_round3.md](../../coach_answers_round3.md)) | `COACH-R3 <id>` |
+| 4 | Round-2 answers ([coach_answers_round2.md](../../coach_answers_round2.md)) | `COACH-R2 <id>` |
+| 5 | Round-1 answers ([coach_answers_full.md](../../coach_answers_full.md)) | `COACH-ANSWER <id>` |
+| 6 | Earlier conversation ([coach_chat_statements.md](../../coach_chat_statements.md), [coach_answers.md](../../coach_answers.md)) | `COACH-CHAT` |
+| 7 | Facts read from his sheets (`raw/`, `dumps/`) | `OBSERVED` |
+| 8 | Team work | `INFERRED`, `SCIENCE`, `PROPOSED` |
 
 - An answer marked RIGHT with no words makes the team's proposal his rule.
 - **PROPOSED** means "waiting for the coach's approval". It is not his rule yet.
 - His words and his sheets are never edited.
+- A new dated answer record can supersede an older questionnaire answer on the subject explicitly answered. Keep the original transcript intact and separate implementation proposals from the coach's words. See [ADR-049](adr-049-endpoint-priority-and-editable-progression.md) for the first such record (CX-01..04) and [ADR-050](adr-050-no-time-fitting-sessions-sized-by-exercise-count.md) for the second (CT-01).
+- Round 4 and CT-01 are the newest. CT-01 supersedes earlier answers only on fitting plans to a session length. Round 4 supersedes earlier answers on the subjects of its 20 questions. Everything else he said still stands.
 
 ## Why
 
@@ -33,7 +37,7 @@ His answers also changed as the questions got sharper. A check-in approved in ro
 
 ## Context
 
-The model started from two Google Sheets, decoded tab by tab. The team then asked 140 questions in round 1, 45 in round 2 (plus two left over from round 1), and 13 in round 3. Each question showed what the team assumed or proposed, and he answered RIGHT, PARTLY or NOT RIGHT, often with his own words.
+The model started from two Google Sheets, decoded tab by tab. The team then asked 140 questions in round 1, 45 in round 2 (plus two left over from round 1), 13 in round 3 and 20 in round 4. Between rounds 3 and 4 he gave two dated clarifications in conversation: on progression (CX-01..04) and on session time (CT-01). Each question showed what the team assumed or proposed, and he answered RIGHT, PARTLY or NOT RIGHT, often with his own words.
 
 ## Options considered
 

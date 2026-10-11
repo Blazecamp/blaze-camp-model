@@ -8,6 +8,7 @@ import { why, EPS, clamp, roundHalfUp } from './util.mjs';
 import { daySlots } from './week.mjs';
 import { blockProgress, stayActiveOlympic } from './budget.mjs';
 import { athleticKeyOf, perSetBounds, cueKeyFor, responseOf, sprintMetres, rampProgress, throwSided } from './athletic.mjs';
+import { isCarry, carryReps } from './library.mjs';
 
 const COMPOUND_RC = ['main_bilateral_compound', 'machine_stable_compound', 'unilateral_compound'];
 const ISOLATION_RC = ['big_muscle_isolation', 'small_muscle_isolation', 'rear_delts', 'calves'];
@@ -176,6 +177,14 @@ export function repHintRange(ex) {
 function capToHint(range, ex, R, opts = {}) {
   const H = R.reps.rep_hint;
   if (!H || !H.honour || !range || range.min == null) return null;
+  // v0.5 fix round 1 (rules.reps.rep_hint.x1; samples 02 / 03 / 06: a Zercher squat at 12-15 against its own 6-12, a standing cable
+  // press at 6-8 against its 10-15, '7-9' and '5-8' - ranges that are not on his REPS menu): a compound lift whose bracket runs
+  // past its own range - above or below - takes the nearest range of his menu inside it, and every capped range is one of his
+  const HX = H.x1 || null;
+  if (HX) {
+    const r1 = capToHintMenu(range, ex, R, opts, HX);
+    if (r1 !== undefined) return r1;
+  }
   let hint = (H.ids_low_cap && H.ids_low_cap[ex.id]) || null;
   const bwPull = ex.credit_class === 'VPULL' && /pull-up|chin-up/.test(ex.id) && !/assisted|lat-pulldown|band/.test(ex.id);
   if (!hint && /weighted/.test(ex.id) && ['VPULL', 'DIPS', 'HPUSH'].includes(ex.credit_class)) hint = H.weighted;
@@ -207,6 +216,43 @@ function capToHint(range, ex, R, opts = {}) {
     else { lo = top; hi = hint[1]; }
   }
   return { min: lo, max: hi, capped: true };
+}
+
+/**
+ * v0.5 fix round 1: the rep range of a lift whose bracket does not sit inside the exercise's own range, taken from the coach's REPS
+ * menu (OBSERVED BYOP REPS menu 4-6, 6-8, 8-12, 10-15; PER-11 12-15 / 8-12 / 6-8). Returns undefined when the rule does not speak
+ * (capToHint's older rules decide), null for 'no change', else {min, max, capped}.
+ */
+function capToHintMenu(range, ex, R, opts, HX) {
+  const H = R.reps.rep_hint;
+  let h = (H.ids_low_cap && H.ids_low_cap[ex.id]) || null;
+  const bwPull = ex.credit_class === 'VPULL' && /pull-up|chin-up/.test(ex.id) && !/assisted|lat-pulldown|band/.test(ex.id);
+  if (!h && /weighted/.test(ex.id) && ['VPULL', 'DIPS', 'HPUSH'].includes(ex.credit_class)) h = H.weighted;
+  if (!h && (bwPull || /l-sit/.test(ex.id))) h = H.bodyweight_vertical_pull;
+  const named = !!h;
+  if (!h) h = repHintRange(ex);
+  if (!h) return undefined;
+  if (range.min >= h[0] && range.max <= h[1]) return null;
+  const above = range.max > h[1], below = range.min < h[0];
+  // (the client's own heavy choice - the 'heavy single-leg' switch, UNI-04, or the heavy lifting style, VOL-12 - is never lifted
+  // back to the lift's usual range)
+  if (below && !above && opts.no_raise) return undefined;
+  // an isolation lift keeps the older rule (only a hint clearly under the bracket caps it): his small-muscle ranges run 12-30
+  if (!named && !opts.compound_any && !(h[1] < range.min)) return undefined;
+  // (a hint that only tops out a few reps under a wide bracket and still holds its low end leaves the bracket: 8-12 on a 6-12 lift)
+  const menu = (HX.menu || []).filter(([a, b]) => a >= h[0] && b <= h[1]).sort((x, y) => y[1] - x[1] || y[0] - x[0]);
+  if (!menu.length) return undefined;
+  let pick;
+  if (above) {
+    // the top range of the lift's own menu; one step down in the second phase while that stays at or above the floor (PER-11:
+    // heavier by block), so the low end never rises from one exercise block to the next
+    const MC = H.monotone_cap || null;
+    pick = menu[0];
+    if (opts.phase_index >= 1 && menu[1] && (!MC || menu[1][0] >= (MC.floor_min || 0))) pick = menu[1];
+  } else if (below) {
+    pick = menu[menu.length - 1];
+  } else return null;
+  return { min: pick[0], max: pick[1], capped: true };
 }
 
 /** WOD movement group of a station (reps table key) */
@@ -360,10 +406,32 @@ export function doseItem(input) {
   else if (rc === 'prehab') d = prehabDose(input);
   else if (rc === 'core') d = coreDose(input);
   else d = resistanceDose(input, rc, eb);
+  // v0.5 / V2 (COACH-R4 R4-LIB-02): a carry or a sled exercise is written by distance or time - 2-4 trips of 20-40 m (or 20-40 s) -
+  // never by reps, whatever slot holds it (a suitcase carry in the core block, a carry a person added)
+  if (isCarry(exercise, R) && !slot.test) {
+    d.reps = carryReps(exercise, R);
+    d.set_reps = null;
+    d.effort = { type: 'intent', key: R.conditioning.carry.effort_key };
+    d.load = null;
+    d.notes = (d.notes || []).filter((n) => n && n.key !== 'note.per_side' && n.key !== 'load.week1_tip');
+    if (model.has('en', 'note.carry_dose')) d.notes.push({ key: 'note.carry_dose' });
+    d.why = [...(d.why || []), why('why.carry_dose', 'R4-LIB-02')];
+  }
   if (slot.test) applyTest(d, input, rc);
   if (fill && fill.flags && fill.flags.includes('pain_swap')) {
     const w = (fill.why || []).find((x) => x.key === 'why.pain_swap');
-    d.notes.push({ key: 'note.pain_swap', args: { area: (w && w.args && w.args.area) || 'other' } });
+    const area = (w && w.args && w.args.area) || 'other';
+    // (fix round 2, sample 08 major: the note names the lift it replaced - 'Instead of X, to protect your knee')
+    const pio = fill.pain_instead_of && model.hasEx(fill.pain_instead_of.exercise_id) && model.has('en', 'note.pain_instead_of') ? fill.pain_instead_of : null;
+    const areaKey = model.has('en', 'pain.area.' + area) ? 'pain.area.' + area : area;
+    d.notes.push(pio ? { key: 'note.pain_instead_of', args: { instead: model.ex(pio.exercise_id).name_key, area: areaKey } } : { key: 'note.pain_swap', args: { area: areaKey } });
+  }
+  // (fix round 2, sample 08 major: 'the one lift where depth matters has no depth cue') a knee-dominant lift of a client whose knee
+  // hurts more with deep knee bends says where to stop
+  {
+    const PD = R.volume.pain.x2 && R.volume.pain.x2.depth_note;
+    if (PD && exercise && !slot.test && (derived.pain || []).some((p) => p.area === PD.area && (p.worse_with || []).includes(PD.worse_with)) &&
+        (PD.classes || []).includes(exercise.credit_class) && model.has('en', PD.note)) d.notes.push({ key: PD.note });
   }
   if (fill && fill.flags && fill.flags.includes('older_opt_in')) d.notes.push({ key: 'note.older_opt_in' });
   // COACH-R3 R3-ATH-02 (approved, stage B2): from 60, fast machine work - move the weight up fast, lower it with control
@@ -450,9 +518,11 @@ function resistanceDose(input, rc, eb) {
   }
   if (!bracket) bracket = 'b8_12';
   const perSide = isUni(ex);
+  let heavyChoice = false;   // the client's own 'heavy single-leg' switch or heavy lifting style moved this lift's reps down
   // heavy single-leg toggle (UNI-04)
   if (rc === 'unilateral_compound' && derived.prefs && derived.prefs.heavy_unilateral && position.is_first_unilateral_lower && cell.heavy_toggle) {
     bracket = cell.heavy_toggle;
+    heavyChoice = true;
     whys.push(why('why.unilateral_reps', 'UNI-04'));
   }
   // lifting style (VOL-12): reps move, weekly sets never change; v1.2: the heavy shift is for the day's first bilateral
@@ -480,7 +550,8 @@ function resistanceDose(input, rc, eb) {
   if (repsForCap && repsForCap.min != null) {
     // (F3: the athletes' VOL phases move the bracket block by block, so their heavy compounds keep the hint's top in every block)
     const phaseIdx = vp && week.rep_phase ? ['VOL1', 'VOL2', 'VOL3'].indexOf(week.rep_phase) : -1;
-    const cap = capToHint(repsForCap, ex, R, { compound: !!vp && rc === 'main_bilateral_compound' && ex.laterality === 'bilateral' && ex.exercise_class === 'compound', phase_index: phaseIdx });
+    const cap = capToHint(repsForCap, ex, R, { compound: !!vp && rc === 'main_bilateral_compound' && ex.laterality === 'bilateral' && ex.exercise_class === 'compound', phase_index: phaseIdx,
+      compound_any: COMPOUND_RC.includes(rc) && fixedReps === null, no_raise: heavyChoice || shifted || (perSide && !!(derived.prefs && derived.prefs.heavy_unilateral)) });
     if (cap) {
       reps = perSide ? { type: 'per_side', min: cap.min, max: cap.max } : { type: 'range', min: cap.min, max: cap.max };
       notes.push({ key: 'note.rep_cap', args: { min: cap.min, max: cap.max } });
@@ -630,7 +701,11 @@ function intensifierEligibleRc(rc, ex, cell, derived, model) {
   // axial-high lift, a Nordic curl or a sissy squat (rules.effort.intensifiers.never_tags / never_id_re; validate reads the same lists)
   const tagNo = (IN.never_tags || []).some((t) => (ex.tags || []).includes(t));
   const idNo = !!IN.never_id_re && new RegExp(IN.never_id_re).test(ex.id);
-  return (ISOLATION_RC.includes(rc) || ex.constraint >= 4) && (!never || machineOk) && !(IN.never_credit_classes || []).includes(ex.credit_class) && !calvesHot && !tagNo && !idNo;
+  // v0.5 fix round 1 (VOL-03 'pain: cut, keep it moving, do not push it'; sample 08 major: the last week's MYO set landed on the leg
+  // extension of a client with knee pain): never on an exercise whose main mover is a muscle the plan cut for pain
+  const painLines = new Set((derived.D9_start_sets && derived.D9_start_sets.pain_muscles) || []);
+  const painNo = !!IN.never_pain_muscle && painLines.size > 0 && Object.entries(ex.credits || {}).some(([m, c]) => c >= 1 && painLines.has((model.rules.muscles.defs[m] && model.rules.muscles.defs[m].line) || m));
+  return (ISOLATION_RC.includes(rc) || ex.constraint >= 4) && (!never || machineOk) && !(IN.never_credit_classes || []).includes(ex.credit_class) && !calvesHot && !tagNo && !idNo && !painNo;
 }
 
 /**
@@ -818,7 +893,11 @@ function plyoDose(input, eb) {
   else {
     const h = boxHeightOf(ex);
     // EQ-16 (a 'high' record is never prescribed above medium here); the first reactive block drops from a low box (B2)
-    if (h) load = { type: 'height', value: first && ex.tags.includes('depth_jump') ? 'low' : (h === 'high' ? 'medium' : h) };
+    // v0.5 fix round 1 (R3-ATH-02 '50+ racket players: only low-impact jumps'; sample 08: a 12-18 in box in week 1 for a 52-year-old
+    // with knee pain): a 50+ court player, an older adult or a painful knee / ankle jumps from and onto the low box in every stage
+    const A50 = R.population.active_aging_50;
+    const lowOnly = !!(R.athletic.x1 && R.athletic.x1.low_impact_low_box) && ((A50 && (derived.age || 0) >= A50.from_age) || (derived.pain || []).some((p) => ['knee', 'ankle_foot'].includes(p.area)));
+    if (h) load = { type: 'height', value: (first && ex.tags.includes('depth_jump')) || lowOnly ? 'low' : (h === 'high' ? 'medium' : h) };
   }
   const rest = ex.tags.includes('depth_jump') ? { type: 'seconds', min: R.rest.depth_jump_s[0], max: R.rest.depth_jump_s[1] }
     : { type: 'work_rest', min: R.rest.plyo_work_rest[0], max: R.rest.plyo_work_rest[1] };
@@ -955,7 +1034,13 @@ function coreDose(input) {
   } else if (cell.bracket) reps = bracketSpec(R, cell.bracket, isUni(ex));
   else reps = bracketSpec(R, 'b10_15', isUni(ex));
   let effort;
+  // v0.5 fix round 2 (sample 04 major, 02 minor; R2-SES-03 'core first stays light, 2 exercises x 2 sets, short of failure, as a
+  // warm-up'): the opener's effort is the same light cue in every week - never the week's reps in the tank, which got harder as
+  // the plan did (rules.core_block.x2.opener_effort_key); a core block moved to the end keeps the planned effort
+  const openerKey = R.core_block.x2 && R.core_block.x2.opener_effort_key;
+  const opener = !derived.prefs || !derived.prefs.core_position || derived.prefs.core_position === 'start';
   if (iso && R.effort.hold_key) effort = { type: 'intent', key: R.effort.hold_key };
+  else if (openerKey && opener && slot.block !== 'circuit' && model.has('en', openerKey)) effort = { type: 'intent', key: openerKey };
   else {
     effort = rirEffort(week, 'core', R);
     // light opener when the core block is first: short of failure (R2-SES-03, ATH-11)
@@ -1142,9 +1227,8 @@ export function doseConditioning(slot, fill, weekShape, derived, model, input) {
   if (slot.bucket === 'COND_WOD') {
     const W = R.conditioning.wod;
     const wodOnly = /^WOD\./.test(slot.station_id || ''); // the WOD-only class day (OT18)
-    // v0.4 (stage B1, R3-SES-02 time check): a WOD held at its short end when the class day needs the minutes for its lifts
-    const range0 = wodOnly ? W.wod_only_day_minutes : (slot.wod_short && W.short_minutes ? W.short_minutes : W.minutes);
-    const range = slot.wod_hold ? [range0[0], range0[0]] : range0;
+    // v0.5 (CT-01): the WOD keeps its own range - it is never shortened or held for the session's time
+    const range = wodOnly ? W.wod_only_day_minutes : W.minutes;
     let m = roundHalfUp(range[0] + (range[1] - range[0]) * p);
     const format = W.formats[(slot.day_index || 0) % W.formats.length];
     const all = ((fill && fill.stations) || [fill && fill.exercise_id]).filter(Boolean);
@@ -1168,8 +1252,9 @@ export function doseConditioning(slot, fill, weekShape, derived, model, input) {
         if (mm >= range[0] - EPS && mm <= range[1] + EPS) m = mm;
       }
       density = m > 0 ? Math.max(1, want / m) : 1;
-      if (slot.wod_hold || range[1] - range[0] < EPS) density = Math.max(density, 1 + (DN.hold_total || 0) * p);
+      if (range[1] - range[0] < EPS) density = Math.max(density, 1 + (DN.hold_total || 0) * p);
       if (format === 'amrap') density = 1; // (an AMRAP round keeps its reps: its density is the rounds done in the time, told by the note)
+      if (format === 'for_time' && W.for_time_progress) density = 1; // (fix round 1: a for-time WOD climbs by its rounds, below)
     }
     const notes = [{ key: 'note.wod' }];
     let load = null;
@@ -1187,15 +1272,29 @@ export function doseConditioning(slot, fill, weekShape, derived, model, input) {
       const v = Math.max(3, roundHalfUp((row[format] || row.amrap || 10) * scaleL * density));
       return g === 'erg' ? { type: 'calories', n: v } : g === 'carry' ? { type: 'metres', value: v } : { type: 'fixed', value: v };
     });
-    if (DN && DN.enabled && week.block_type === 'stairway' && format === 'amrap' && (slot.wod_hold || range[1] - range[0] < EPS) && model.has('en', 'note.wod_amrap_density')) notes.push({ key: 'note.wod_amrap_density' });
-    const rounds = format === 'for_time' && W.for_time_rounds ? W.for_time_rounds[lvl === 'L1' ? 0 : 1] : null;
+    if (DN && DN.enabled && week.block_type === 'stairway' && format === 'amrap' && (range[1] - range[0] < EPS) && model.has('en', 'note.wod_amrap_density')) notes.push({ key: 'note.wod_amrap_density' });
+    let rounds = format === 'for_time' && W.for_time_rounds ? W.for_time_rounds[lvl === 'L1' ? 0 : 1] : null;
+    // v0.5 fix round 1 (sample 04 major: the 'for time' workout kept 4 rounds of the same reps while only its time cap grew - a cap
+    // that grows makes it easier; R2-PER-03 'the plan climbs'): a for-time WOD climbs by its work - one more round as the stairway
+    // climbs - and its cap is derived from the work (the minutes a round took at the start), inside the WOD's own range
+    const FT = W.for_time_progress || null;
+    if (FT && format === 'for_time' && rounds !== null && week.block_type === 'stairway') {
+      const base = rounds;
+      rounds = base + Math.min(FT.rounds_add || 0, Math.floor((FT.rounds_add || 0) * p + 0.5 + EPS));
+      m = Math.min(range[1], Math.max(range[0], roundHalfUp(range[0] * rounds / base)));
+      if (model.has('en', 'note.wod_for_time_work')) notes.push({ key: 'note.wod_for_time_work' });
+    }
     // B3 (RECHECK 04 major: 'no station has a load', 'EMOMs never say how to rotate'): a load per loaded station by level
     // (dumbbells per hand, the kettlebell) and the format's rotation words
     const SL = W.station_loads_lb || null;
+    // (fix round 1, sample 04 major: 'Barbell Thruster (25-35 lb dumbbells)' - the load is the load of the station's own
+    // implement: a barbell station takes the bar's row, rules.conditioning.wod.station_loads_lb.barbell)
     const station_loads = SL ? stations.map((id) => {
       const e = model.hasEx(id) ? model.ex(id) : null;
-      const row = e ? SL[wodGroupOf(e)] : null;
-      return row && row[lvl] ? { type: 'lb_range', unit: row.unit, min: row[lvl][0], max: row[lvl][1] } : null;
+      const g = e ? wodGroupOf(e) : null;
+      const bar = !!e && e.tags.includes('barbell') && SL.barbell && SL.barbell[g];
+      const row = e ? (bar ? SL.barbell[g] : SL[g]) : null;
+      return row && row[lvl] && !(e.tags.includes('barbell') && !bar) ? { type: 'lb_range', unit: row.unit, min: row[lvl][0], max: row[lvl][1] } : null;
     }) : null;
     if (model.has('en', 'wod.rotation.' + format)) notes.push({ key: 'wod.rotation.' + format });
     return mk({ reps: { type: 'minutes', min: m, max: m }, effort: { type: 'intent', key: 'effort.wod' }, load,
@@ -1234,7 +1333,8 @@ export function doseConditioning(slot, fill, weekShape, derived, model, input) {
       const lastWeek = week.block_type === 'stairway' && !!(week.planned_rir && week.planned_rir.intensifiers);
       const pos = input && input.position;
       const mark = pos && typeof pos.is_last_intensifier === 'boolean' ? pos.is_last_intensifier : !!(input && input.day && circuitIntensifierSlot(input.day, model) === slot.slot_id);
-      if (CI && CI.enabled && lastWeek && mark) {
+      // (fix round 2: never on a compound lift standing in on an isolation station - the step-up of a kit with no leg extension)
+      if (CI && CI.enabled && lastWeek && mark && ex.exercise_class === 'isolation') {
         effort.last_set = CI.kind || 'hold'; effort.intensifier = true;
       }
     }
@@ -1258,7 +1358,18 @@ export function doseConditioning(slot, fill, weekShape, derived, model, input) {
       const aw = week.athletic_week || null;
       const wkT = aw && aw.targets && typeof aw.targets.throws === 'number' && aw.targets.throws > 0 ? aw.targets.throws : (Array.isArray(wk) && wk[1] > 0 ? wk[1] : null);
       const ballSets = aw && aw.circuit_ball_sets > 0 ? aw.circuit_ball_sets : rounds;
-      const cap = wkT !== null ? Math.max(1, Math.floor(wkT / Math.max(1, ballSets) + EPS)) : Infinity;
+      let cap = wkT !== null ? Math.max(1, Math.floor(wkT / Math.max(1, ballSets) + EPS)) : Infinity;
+      // (fix round 2: a week that runs one more round - rules.supersets.bootcamp.x2.rounds_late - never throws fewer balls than the
+      // same week would at the block's own rounds: the throws a round are rounded up for it)
+      {
+        const lvlC = (derived.D3_client_level && derived.D3_client_level.level) || 'L1';
+        const baseR = (bc.stairway.rounds_by_level || {})[lvlC];
+        if (wkT !== null && typeof baseR === 'number' && rounds > baseR && bc.x2 && bc.x2.rounds_late) {
+          const baseSets = Math.max(1, ballSets * baseR / rounds);
+          const baseTotal = Math.max(1, Math.floor(wkT / baseSets + EPS)) * baseSets;
+          if (cap * ballSets < baseTotal - EPS) cap = Math.ceil(baseTotal / ballSets - EPS);
+        }
+      }
       let per = Math.max(1, Math.min(cap, Math.floor(circ.work_s / (CB.throw_seconds || 3) + EPS)));
       // v0.4 fix round 2 / F2 (E-174; COACH-ANSWER ORD-03 / LIB-06 'no levels, just do them right'; RECHECK v0.4 05 major: 13 'max-intent'
       // overhead throws in a 50-s station is conditioning, not power): the ball station is dosed in throws a round - a few full-intent
@@ -1309,8 +1420,13 @@ export function doseConditioning(slot, fill, weekShape, derived, model, input) {
     const BP = R.conditioning.buyout_pool || {};
     const cal = ex && /calorie|cal-/.test(ex.id);
     const sec = BP.seconds || [15, 30];
-    const reps = cal ? { type: 'bout' } : { type: 'seconds', min: sec[0], max: sec[1] };
-    return mk({ reps, effort: { type: 'intent', key: 'effort.circuit_metabolic' }, rest: { type: 'as_prescribed' }, notes: [{ key: 'note.buyout' }], why: [why('why.buyout', 'OBSERVED BASEBALL Part E')] });
+    // v0.5 fix round 2 (sample 02 major: '1 x 1 all-out bout ... hard but steady pace ... full recovery between sets' on one bout):
+    // the dose is his own notation - bouts x calories -, the effort an all-out sprint, a rest only between bouts
+    const BX = BP.x2 || null;
+    const mcal = ex ? /calorie-effort-(\d+)-cal/.exec(ex.id) : null;
+    const bouts = (input && typeof input.sets === 'number' && input.sets > 0) ? input.sets : 1;
+    const reps = cal ? (BX && mcal ? { type: 'calories', n: Number(mcal[1]) } : { type: 'bout' }) : { type: 'seconds', min: sec[0], max: sec[1] };
+    return mk({ reps, effort: { type: 'intent', key: BX ? BX.effort_key : 'effort.circuit_metabolic' }, rest: BX && bouts <= 1 ? null : { type: 'as_prescribed' }, notes: [{ key: 'note.buyout' }], why: [why('why.buyout', 'OBSERVED BASEBALL Part E')] });
   }
   if (input && input.week) return doseItem({ ...input, slot: { ...slot, block: slot.block === 'circuit' ? 'strength' : slot.block } });
   return mk({});

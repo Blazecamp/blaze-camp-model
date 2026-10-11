@@ -20,6 +20,11 @@ import { UI_F3, F3_FINAL, TEXT_F3, ES_PRIORITY_F3 } from '../fixture/fix-r1-f3.m
 import { UI_R2F1, R2F1_FINAL } from '../fixture/fix-r2-f1.mjs';
 import { UI_R2F2, R2F2_FINAL } from '../fixture/fix-r2-f2.mjs';
 import { UI_R2F3, R2F3_FINAL, TEXT_R2F3, ES_PRIORITY_R2F3 } from '../fixture/fix-r2-f3.mjs';
+import { UI_V05, V05_FINAL, isRemovedV05 } from '../fixture/v05-structure.mjs';
+import { UI_V2, V2_FINAL, ES_PRIORITY_V2 } from '../fixture/v05-library.mjs';
+import { UI_V3, V3_FINAL, isRemovedV3, ES_REVIEW_V3, ES_PRIORITY_V3 } from '../fixture/v05-words.mjs';
+import { UI_X1 } from '../fixture/v05-fix1.mjs';
+import { UI_X2 } from '../fixture/v05-fix2.mjs';
 import { PROGRAM_NAME_STRINGS } from './templates-profiles.mjs';
 import { ES_EXERCISE_NAMES } from './es/exercises.mjs';
 import { ES_CUES, ES_DAY_LABELS, ES_PROFILE_NAMES, ES_MISC } from './es/labels.mjs';
@@ -44,7 +49,7 @@ const ES_EXERCISES_V11 = {
 };
 
 /** ES provenance labels (COMPILE_REPORT.i18n.es_sources) */
-export const ES_SOURCE = { spec: 'spec', profiles04: 'profiles_04', wordlist: 'architect_wordlist', b1: 'b1_machine_translation' };
+export const ES_SOURCE = { spec: 'spec', profiles04: 'profiles_04', wordlist: 'architect_wordlist', b1: 'b1_machine_translation', review: 'v3_spanish_review' };
 
 // FIX-03 / FIX-04 ("program and day names generic and understandable; spelling corrected in the generator only, his sheets
 // untouched"): decoder notes that leaked into user-facing EN text (day labels, cues, profile names) are removed here; the
@@ -95,6 +100,9 @@ export function buildI18n({ spec, prof, families, exercises, enNames, enCues }) 
   for (const [k, [e, s]] of Object.entries(UI_R2F1)) put(k, e, s, ES_SOURCE.wordlist); // fix round 2 / F1 words (tools/fixture/fix-r2-f1.mjs)
   for (const [k, [e, s]] of Object.entries(UI_R2F2)) put(k, e, s, ES_SOURCE.wordlist); // fix round 2 / F2 words (tools/fixture/fix-r2-f2.mjs)
   for (const [k, [e, s]] of Object.entries(UI_R2F3)) put(k, e, s, ES_SOURCE.wordlist); // fix round 2 / F3 words (tools/fixture/fix-r2-f3.mjs)
+  for (const [k, [e, s]] of Object.entries(UI_V05)) put(k, e, s, ES_SOURCE.wordlist); // engine 0.5.0 / V1 words (tools/fixture/v05-structure.mjs)
+  for (const [k, [e, s]] of Object.entries(UI_V2)) put(k, e, s, ES_SOURCE.wordlist); // engine 0.5.0 / V2 words (tools/fixture/v05-library.mjs)
+  for (const [k, [e, s]] of Object.entries(UI_V3)) put(k, e, s, ES_SOURCE.wordlist); // engine 0.5.0 / V3 words (tools/fixture/v05-words.mjs)
   for (const k of REMOVED_KEYS) { if (!(k in UI_V11)) { delete en[k]; delete es[k]; delete prov[k]; } }
   for (const [b, [e, s]] of Object.entries({ ...SLOT_NAMES, ...SLOT_NAMES_V11 })) put(`slot.${b}`, e, s, ES_SOURCE.wordlist);
   for (const [id, [e, s]] of Object.entries(PROGRAM_NAME_STRINGS)) put(`program.${id}.name`, e, s, ES_SOURCE.wordlist);
@@ -122,6 +130,9 @@ export function buildI18n({ spec, prof, families, exercises, enNames, enCues }) 
   for (const k of R2F1_FINAL) put(k, UI_R2F1[k][0], UI_R2F1[k][1], ES_SOURCE.wordlist); // fix round 2 / F1 strings win too
   for (const k of R2F2_FINAL) put(k, UI_R2F2[k][0], UI_R2F2[k][1], ES_SOURCE.wordlist); // fix round 2 / F2 strings win too
   for (const k of R2F3_FINAL) put(k, UI_R2F3[k][0], UI_R2F3[k][1], ES_SOURCE.wordlist); // fix round 2 / F3 strings win too
+  for (const k of V05_FINAL) put(k, UI_V05[k][0], UI_V05[k][1], ES_SOURCE.wordlist); // engine 0.5.0 / V1 strings win too
+  for (const k of V2_FINAL) put(k, UI_V2[k][0], UI_V2[k][1], ES_SOURCE.wordlist); // engine 0.5.0 / V2 strings win too
+  for (const k of V3_FINAL) put(k, UI_V3[k][0], UI_V3[k][1], ES_SOURCE.wordlist); // engine 0.5.0 / V3 strings win too
   for (const k of REMOVED_B3) { delete en[k]; delete es[k]; delete prov[k]; } // check-in words retired (R3-VOL-02)
   for (const [q, k] of Object.entries(spec.adaptation.checkin_schema.i18n_keys)) put(k, spec.adaptation.checkin_schema.labels[q].en, spec.adaptation.checkin_schema.labels[q].es, ES_SOURCE.spec);
   // profiles, sports, positions, activities (EN + ES from 04 v1.1)
@@ -162,6 +173,21 @@ export function buildI18n({ spec, prof, families, exercises, enNames, enCues }) 
   for (const [k, [e, s]] of Object.entries(TEXT_F3)) if (k in en) { if (e) en[k] = e; if (s) { es[k] = s; prov[k] = ES_SOURCE.wordlist; } }
   // fix round 2 / F3 names / cues (fix-r2-f3.mjs): coach-only notes out of the client text, neutral Spanish (R2-GEN-08)
   for (const [k, [e, s]] of Object.entries(TEXT_R2F3)) if (k in en) { if (e) en[k] = e; if (s) { es[k] = s; prov[k] = ES_SOURCE.wordlist; } }
+  for (const k of Object.keys(en)) if (isRemovedV05(k)) { delete en[k]; delete es[k]; delete prov[k]; } // time-fitting words retired (CT-01, R4-SES-01; v05-structure.mjs)
+  for (const k of Object.keys(en)) if (isRemovedV3(k)) { delete en[k]; delete es[k]; delete prov[k]; } // dead time-fitting and rate-cap words (v05-words.mjs)
+  // the V3 Spanish review (R2-GEN-08; v05-words.mjs): a reviewed line replaces the earlier one, whatever its source was
+  const reviewed = [];
+  for (const [k, s] of Object.entries(ES_REVIEW_V3)) if (k in en) {
+    const pe = placeholders(en[k]).join(','), ps = placeholders(s).join(',');
+    if (pe !== ps) { problems.push(`ES review placeholders differ for ${k}: en {${pe}} es {${ps}}`); continue; }
+    es[k] = s; prov[k] = ES_SOURCE.review; reviewed.push(k);
+  }
+  // engine 0.5.0 / fix round 1 (tools/fixture/v05-fix1.mjs): the round's words are the newest and win over every earlier layer
+  // (they are written last in both builds); a line the machine translation had filled is no longer a machine line
+  for (const [k, [e, s]] of Object.entries({ ...UI_X1, ...UI_X2 })) { // (fix round 2, tools/fixture/v05-fix2.mjs: its words win over fix round 1)
+    en[k] = e;
+    if (s !== undefined && s !== null) { es[k] = s; prov[k] = ES_SOURCE.wordlist; const i = machine.indexOf(k); if (i >= 0) machine.splice(i, 1); }
+  }
   const missing = Object.keys(en).filter(k => k !== '_meta' && !(k in es)).sort();
   // stale table rows (translations whose EN text no longer exists) - reported so the tables stay tidy
   const enValues = new Set(Object.values(en).filter(v => typeof v === 'string'));
@@ -179,7 +205,7 @@ export function buildI18n({ spec, prof, families, exercises, enNames, enCues }) 
     en: sortKeys(en),
     es: sortKeys(es),
     // F3: the ES lines the coach should review first (RECHECK 03 / 05 minors; additive field, CONTRACTS §3.6)
-    es_review: { missing_keys: missing, machine_translated: machine.sort(), priority_review: [...new Set([...ES_PRIORITY_F3, ...ES_PRIORITY_R2F3])].filter(k => k in es).sort() },
+    es_review: { missing_keys: missing, machine_translated: machine.filter(k => k in en && !reviewed.includes(k)).sort(), priority_review: [...new Set([...ES_PRIORITY_F3, ...ES_PRIORITY_R2F3, ...ES_PRIORITY_V2, ...ES_PRIORITY_V3])].filter(k => k in es).sort() },
     provenance: prov,
     cleaned_en: cleaned.sort((a, b) => (a.key < b.key ? -1 : 1)),
     stats: { en_keys: Object.keys(en).length - 1, es_keys: Object.keys(es).length - 1, es_missing: missing.length, es_machine_translated: machine.length, es_by_source: sortKeys(bySource), machine_translated_by_namespace: sortKeys(byNamespace), unused_translation_rows: unused },

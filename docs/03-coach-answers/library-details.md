@@ -1,8 +1,8 @@
 # Coach answers: Library details
 
-Item-by-item decisions about the exercise library and the labels in his sheets: how specific exercises are set up, what they are called, which level they sit at, what was removed, merged or added, and what the odd notations mean. The library exercise is always the main pick. Between blocks the tool may change one detail of it, but it never invents an exercise. Spelling is corrected in the generator; his sheets stay as they are.
+Item-by-item decisions about the exercise library and the labels in his sheets: how specific exercises are set up, what they are called, which level they sit at, what was removed, merged or added, and what the odd notations mean. The library exercise is always the main pick. Between blocks the tool may change one detail of it, but it never invents an exercise. Spelling is corrected in the generator; his sheets stay as they are. **Round 4 added five rules:** the exercises the team proposed are optional add-ons, never a template's pick; carries and sled work are written by distance or time; there is a mid-range pull category, and incline pressing comes before overhead pressing for bodybuilders and the general population; a swap says what it keeps and loses; and the public data holds no third-party video link, only a YouTube search link and a name to copy.
 
-This page is part of [the coach answers by topic](index.md). It holds 32 question ids. Every place where a later round changed an earlier answer is also listed in [changes across rounds](changes-across-rounds.md). Read next: [model guide: the exercise library](../02-model/exercise-library.md), [how to add an exercise](../adding-exercises.md).
+This page is part of [the coach answers by topic](index.md). It holds 37 question ids: 32 from rounds 1 to 3 and 5 from round 4. Every place where a later round changed an earlier answer is also listed in [changes across rounds](changes-across-rounds.md). Read next: [model guide: the exercise library](../02-model/exercise-library.md), [how to add an exercise](../adding-exercises.md).
 
 ## The rules in short
 
@@ -24,7 +24,13 @@ CONFIRMED means the coach said it or approved it. PROPOSED means the team design
 | 12 | Carries, drags and sling systems are to be built out. Frontal and transverse lower-body moves are added. | [LIB-19](#lib-19), [LIB-20](#lib-20) | CONFIRMED |
 | 13 | 'NO ACCESS' means a self-serve version without coach access, with the full gym library. | [R2-LIB-08](#r2-lib-08) | CONFIRMED |
 | 14 | '12/10/8 -20' is a pyramid then a light set of 20. '10/10' is 10 per side. SCORE is times, rounds or distances. | [PRG-07](#prg-07), [PRG-08](#prg-08) | CONFIRMED |
-| 15 | The starter exercises written for carries, drags and slings, and the exercises added for single sports. | [LIB-19](#lib-19) | PROPOSED |
+| 15 | The exercises the team proposed (carries, sled work, wall balls, sandbag lunges, burpee broad jumps, split-step drills, swimmer shoulder work, tibialis and soleus raises) are **optional add-ons**: they can be chosen and added, never picked by a template. Wall balls and sled pushes may be primary in HYROX, maybe in CrossFit. Neck work stays proposed. | [R4-LIB-01](#r4-lib-01) | CONFIRMED |
+| 16 | Carries and sled work: 2 to 4 trips of 20 to 40 metres, or 20 to 40 seconds. No muscle sets. With core and conditioning. | [R4-LIB-02](#r4-lib-02) | CONFIRMED |
+| 17 | A mid-range pull category (high row, 45-degree row, the face-pull angle) sits between horizontal and vertical pull. | [R4-LIB-03](#r4-lib-03) | CONFIRMED |
+| 18 | Incline pressing is preferred over overhead pressing for bodybuilders and the general population. Overhead stays for variety. | [R4-LIB-03](#r4-lib-03) | CONFIRMED |
+| 19 | A swap prints one short line: what it keeps and what it loses. | [R4-LIB-04](#r4-lib-04) | CONFIRMED |
+| 20 | No third-party video links in the public data. A YouTube search link for each exercise, and an easy way to copy its name. | [R4-LIB-05](#r4-lib-05) | CONFIRMED |
+| 21 | Reading "maybe CrossFit" as on; which add-ons a plan lists; the two new mid-range row records; how strongly selection leans to incline; the keeps / loses phrases. | [R4-LIB-01](#r4-lib-01), [R4-LIB-03](#r4-lib-03), [R4-LIB-04](#r4-lib-04) | PROPOSED |
 
 ## Why, in his words
 
@@ -32,10 +38,12 @@ CONFIRMED means the coach said it or approved it. PROPOSED means the team design
 - "No levels in throws, just do them right" ([LIB-06](#lib-06))
 - "i would categorize this as a shoulder work but shoulder work is complicated" ([LIB-10](#lib-10))
 - "I can save a lot of time by doing alternating dumbbell or barbell single-leg or unilateral deadlifts." ([LIB-09](#lib-09))
+- "they can be optional, and they can be chosen and added, but not primary ones that the program is going to throw at you as part of the template" ([R4-LIB-01](#r4-lib-01))
+- "For bodybuilders, I would rather focus more on incline pressing than on overhead pressing." ([R4-LIB-03](#r4-lib-03))
 
 ## Where it lives in the data
 
-Keys are in [`generator_spec_v1.json`](../../generator_spec_v1.json), the machine-readable twin of the model, unless another file is named.
+Keys are in [`generator_spec_v1.json`](../../generator_spec_v1.json), the machine-readable twin of the model, unless another file is named. The round-4 rules are cited from the compiled `model/` files the engine reads; the matching spec keys are in the [coverage matrix, round 4](../../coverage_matrix_round4.md).
 
 | What | File | JSON key |
 |---|---|---|
@@ -49,13 +57,18 @@ Keys are in [`generator_spec_v1.json`](../../generator_spec_v1.json), the machin
 | Notation | `generator_spec_v1.json` | `rule_tables.library_decisions.notation` |
 | What is to be built out | `generator_spec_v1.json` | `rule_tables.library_decisions.build_out` |
 | The catalog: one record per exercise | `synthesis/02_exercise_catalog.json` | (whole file) |
+| Optional add-ons and the two exceptions (R4-LIB-01) | `model/rules.json`; `model/catalog.json` | `selection.addons`; `exercises[].status` |
+| Carries and sled work (R4-LIB-02) | `model/rules.json` | `conditioning.carry` |
+| Mid-range push and pull; incline first (R4-LIB-03) | `model/rules.json` | `selection.mid_range`, `selection.incline_first` |
+| What a swap keeps and loses (R4-LIB-04) | `model/rules.json` | `selection.swap_notes` |
+| Video search link and the name to copy (R4-LIB-05) | `model/rules.json`; `model/catalog.json` | `render.video`; `exercises[].video` |
 
 ## Questions on this page
 
 | ID | Round | His verdict | Final rule in one line | Status |
 |---|---|---|---|---|
 | [CAT-12](#cat-12) | 1 | answered in words (no chip) | Not understood in round 1; answered by R2-LIB-01. | Answered later |
-| [R2-LIB-01](#r2-lib-01) | 2 | RIGHT | Library exercises first; one detail may change between blocks; never an invented exercise. | Stands |
+| [R2-LIB-01](#r2-lib-01) | 2 | RIGHT | Library exercises first; one detail may change between blocks; never an invented exercise. | Stands, refined |
 | [LIB-02](#lib-02) | 1 | PARTLY | Push up Stick the Landing: hands start on the box, land on the floor. | Stands |
 | [LIB-03](#lib-03) | 1 | RIGHT | The second 'Low Depth Drop' = the single-leg or weighted variant. | Stands |
 | [LIB-04](#lib-04) | 1 | RIGHT | Advanced hurdle hops = taller hurdles and continuous quick contacts. | Stands |
@@ -79,13 +92,18 @@ Keys are in [`generator_spec_v1.json`](../../generator_spec_v1.json), the machin
 | [R2-LIB-04](#r2-lib-04) | 2 | RIGHT | KB face pulls: a rear-delt (shoulder) option and a swap, never the main vertical pull. | Stands, refined |
 | [LIB-22](#lib-22) | 1 | RIGHT | Medball ALL LIST = 1 x 10 of each throw (about 200 throws). | Stands |
 | [LIB-17](#lib-17) | 1 | RIGHT | Merge near-duplicates. | Stands |
-| [LIB-19](#lib-19) | 1 | RIGHT | Build out carries, drags and sling systems. | Stands |
+| [LIB-19](#lib-19) | 1 | RIGHT | Build out carries, drags and sling systems. Since round 4 they are optional add-ons, dosed by distance or time. | Stands, refined |
 | [LIB-20](#lib-20) | 1 | RIGHT | Add frontal / transverse lower-body moves to the library for court and combat athletes. | Stands |
-| [R2-LIB-07](#r2-lib-07) | 2 | RIGHT | Approved additions: belt squat, seated machine shoulder press, hang clean, single-arm DB snatch, KB squat clean, hex-bar jump; KB curl, table row, floor Y/T raises. | Stands |
+| [R2-LIB-07](#r2-lib-07) | 2 | RIGHT | Approved additions: belt squat, seated machine shoulder press, hang clean, single-arm DB snatch, KB squat clean, hex-bar jump; KB curl, table row, floor Y/T raises. | Stands, refined |
 | [PRG-01](#prg-01) | 1 | SKIPPED | Skipped in round 1; answered by R2-LIB-08 (NO ACCESS = self-serve, no coach access). | Answered later |
 | [FIX-01](#fix-01) | 1 | SKIPPED | Skipped in round 1; answered by R2-LIB-08 (point Unilateral HD to the single-leg hinge list). | Answered later |
 | [R2-LIB-08](#r2-lib-08) | 2 | RIGHT | 'NO ACCESS' = a self-serve version without coach access (full gym library). | Stands |
 | [FIX-02](#fix-02) | 1 | RIGHT | Extend the cardio menus with distance (200-1000 m) and calories; keep them logical. | Stands |
+| [R4-LIB-01](#r4-lib-01) | 4 | RIGHT | Proposed exercises are optional add-ons, never a template's pick; wall balls and sled pushes may be primary in HYROX, maybe CrossFit; neck work stays proposed. | Stands |
+| [R4-LIB-02](#r4-lib-02) | 4 | RIGHT | Carries and sled work: 2-4 trips of 20-40 m or 20-40 s; no muscle sets; with core / conditioning. | Stands |
+| [R4-LIB-03](#r4-lib-03) | 4 | RIGHT | A mid-range pull category; incline pressing before overhead pressing for bodybuilders and the general population. | Stands |
+| [R4-LIB-04](#r4-lib-04) | 4 | RIGHT | A swap says in one short line what it keeps and what it loses. | Stands |
+| [R4-LIB-05](#r4-lib-05) | 4 | RIGHT | No third-party video links; a YouTube search link and an easy way to copy the exercise name. | Stands |
 
 ## What he said in conversation
 
@@ -131,10 +149,13 @@ Each entry gives the question, the final rule as it stands today, what we assume
 
 **Final rule.** His library exercises are always the main pick. Between blocks the tool may change one detail of a library exercise: which hand holds the weight, the grip, the stance, the implement or the range. It shows the change in plain words, for example "Reverse lunge - dumbbell in opposite hand". It never invents a new exercise.
 
-- **Status:** Stands as answered.
+- **Status:** Stands. Later answers added detail (see "Changed later").
 - **We proposed (round 2):** Your library exercises are always the main pick. Between blocks the tool may change one detail (which hand holds the weight, grip, stance, implement, range) and show it as 'Reverse lunge - dumbbell in opposite hand'. It never invents a new exercise.
 - **His verdict (round 2):** RIGHT, no words (our proposal became his rule)
 - **Where it lives:** `generator_spec_v1.json` → `rule_tables.library_decisions.variations`, `rule_tables.set_placement.block_rule`
+- **Changed later:**
+  - **REFINED by [R4-LIB-01](#r4-lib-01) (round 4).** Before: Library exercises are always the main pick. Now: Still true. The exercises the team proposed can be chosen and added as options; wall balls and sled pushes may be primary in HYROX, maybe in CrossFit.
+  - **REFINED by [R4-LIB-04](#r4-lib-04) (round 4).** Before: A swap is offered without comment. Now: A swap prints one line on what it keeps and loses.
 - **This answer changed:** [CAT-12](#cat-12) (answered), [CAT-13](bilateral-unilateral.md#cat-13) (refined), [PER-02](plans-and-calendar.md#per-02) (refined)
 - **See also:** [CAT-12](#cat-12), [PER-02](plans-and-calendar.md#per-02), [CAT-13](bilateral-unilateral.md#cat-13)
 
@@ -516,6 +537,7 @@ Each entry gives the question, the final rule as it stands today, what we assume
 - **Where it lives:** `generator_spec_v1.json` → `rule_tables.counting.credit_map.FACEPULL`
 - **Changed later:**
   - **REFINED by [R3-VOL-01](volume.md#r3-vol-01) (round 3).** Before: A rear-delt option. Now: Rear delts are part of the shoulders group; the face pull is shoulder work.
+  - **REFINED by [R4-LIB-03](#r4-lib-03) (round 4).** Before: Face pulls are shoulder work, never the main vertical pull. Now: Unchanged for counting. "The face-pull angle" also names the direction of the new mid-range pull category.
 - **This answer changed:** [LIB-10](#lib-10) (answered)
 - **See also:** [LIB-10](#lib-10), [R3-VOL-01](volume.md#r3-vol-01)
 
@@ -551,11 +573,14 @@ Each entry gives the question, the final rule as it stands today, what we assume
 
 **Final rule.** The CARRY, DRAGS and functional sling-system columns were empty. Build them out. Carries and drags are for athletes and general fitness. Sling systems are for advanced athletes and rehab. Implements: farmer handles, trap bar, kettlebells, sandbag, sled.
 
-- **Status:** Stands as answered.
+- **Status:** Stands. Later answers added detail (see "Changed later").
 - **We assumed (round 1):** Carries and drags for athletes and general fitness; sling systems for advanced athletes and rehab. Implements: farmer handles, trap bar, KB, sandbag, sled.
 - **His verdict (round 1):** RIGHT, no words (our proposal became his rule)
 - **Not confirmed by him:** He approved the direction. The starter exercises the team wrote for these columns are PROPOSED.
 - **Where it lives:** `generator_spec_v1.json` → `rule_tables.library_decisions.build_out`
+- **Changed later:**
+  - **REFINED by [R4-LIB-01](#r4-lib-01) (round 4).** Before: Build carries and drags out; the starter exercises were PROPOSED and could only be swaps. Now: They are live as optional add-ons. A person can choose and add them. A template never picks them, except sled pushes in HYROX (maybe CrossFit).
+  - **REFINED by [R4-LIB-02](#r4-lib-02) (round 4).** Before: No dose rule. Now: 2 to 4 trips of 20 to 40 metres, or 20 to 40 seconds. No muscle sets. With core and conditioning.
 - **See also:** [CAT-03](categorization.md#cat-03), [R3-ATH-03](athletes-and-sports.md#r3-ath-03)
 
 #### LIB-20
@@ -577,12 +602,113 @@ Each entry gives the question, the final rule as it stands today, what we assume
 
 **Final rule.** Added to the master library. Foundational: belt squat (knee dominant), seated machine shoulder press (vertical push), hang clean, single-arm DB snatch, KB squat clean and hex-bar jump (triple extension). For home clients: a KB curl, a table row and floor Y/T raises. The roughly 120 exercises that live only in his programs (SL RDL, JM press, seal rows ...) stay dropdown swaps until he adds them.
 
-- **Status:** Stands as answered.
+- **Status:** Stands. Later answers added detail (see "Changed later").
 - **We proposed (round 2):** Belt squat (foundational, knee dominant); seated machine shoulder press (foundational, vertical push); hang clean, single-arm DB snatch, KB squat clean and hex-bar jump (foundational, triple extension); for home clients a KB curl, a table row and floor Y/T raises. The ~120 exercises that live only in your programs (SL RDL, JM press, seal rows...) stay dropdown swaps until you add them.
 - **His verdict (round 2):** RIGHT, no words (our proposal became his rule)
 - **Where it lives:** `generator_spec_v1.json` → `rule_tables.library_decisions.additions_approved`, `rule_tables.library_decisions.program_only_exercises`
+- **Changed later:**
+  - **REFINED by [R4-LIB-01](#r4-lib-01) (round 4).** Before: Only the listed additions were approved; the team's other proposed exercises stayed PROPOSED. Now: Those proposed exercises are live as optional add-ons (never a template's pick), except neck work.
 - **This answer changed:** [CAT-07](categorization.md#cat-07) (refined), [ATH-10](athletes-and-sports.md#ath-10) (refined), [EQ-02](equipment.md#eq-02) (refined), [EQ-05](equipment.md#eq-05) (refined), [EQ-11](equipment.md#eq-11) (refined)
 - **See also:** [CAT-07](categorization.md#cat-07), [EQ-05](equipment.md#eq-05), [EQ-11](equipment.md#eq-11), [ATH-10](athletes-and-sports.md#ath-10), [EQ-02](equipment.md#eq-02)
+
+### Round 4: optional add-ons, carries, mid-range pull, swaps and videos
+
+These five answers are the newest on this page.
+
+#### R4-LIB-01
+
+**Question (round 4).** 31 exercises are marked 'proposed' (not yet yours): farmer and suitcase carries, sled push/pull, wall balls, sandbag lunges, burpee broad jumps, split-step reaction drills, swimmer shoulder work (prone Y/T, external rotation), tibialis and soleus raises. Make them live?
+
+**Final rule.** Those exercises are allowed, as options only. They can be chosen and added. They are never primary: a program does not put them in its template. The only ones that might be primary are wall balls and sled pushes, because they are part of HYROX programming. They can be in the HYROX program, "maybe in the CrossFit program, but that's it". Neck work stays proposed until he decides.
+
+- **Status:** Stands as answered.
+- **We proposed (round 4):** Yes, make them all live, except neck work, which stays proposed until you decide.
+- **His verdict (round 4):** RIGHT, with words. His words narrowed "live" to "optional".
+- **In his words:** "I don't want to make them primary exercises." / "they can be optional, and they can be chosen and added, but not primary ones that the program is going to throw at you as part of the template" / "The only ones that I see that might be primary are wall balls and sled pushes because that's part of High Rocks programming." (R4-LIB-01)
+- **Not confirmed by him:** PROPOSED: "maybe in the CrossFit program" is read as on for the CrossFit-style class workout, with one switch to turn it off. PROPOSED: a plan lists up to 6 fitting add-ons (joint care first, then sport, then a carry). His own single-side (suitcase) carry record is treated the same way as the farmer carry, because this answer names them together.
+- **Note:** "High Rocks" is how his dictation wrote HYROX ([R3-ATH-03](athletes-and-sports.md#r3-ath-03)).
+- **Where it lives:** `model/catalog.json` → `exercises[].status` (`optional_addon`: 32 records; `proposed_v1_1`: the 2 neck records); `model/rules.json` → `selection.addons`. Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md). Decision record: [ADR-054](../04-decisions/adr-054-proposed-exercises-are-optional-add-ons.md).
+- **This answer changed:** [CAT-07](categorization.md#cat-07) (refined), [R2-LIB-01](#r2-lib-01) (refined), [LIB-19](#lib-19) (refined), [R2-LIB-07](#r2-lib-07) (refined), [GEN-04](product-and-generator.md#gen-04) (refined)
+- **See also:** [R4-LIB-02](#r4-lib-02), [R3-ATH-03](athletes-and-sports.md#r3-ath-03), [GEN-04](product-and-generator.md#gen-04)
+
+<details>
+<summary>His full answer, round 4 (from <code>coach_answers_round4.md</code>)</summary>
+
+> Yeah, those exercises can be allowed. It's just that I don't want to make them primary exercises. None of these look like primary exercises for the program, so they can be optional, and they can be chosen and added, but not primary ones that the program is going to throw at you as part of the template. The only ones that I see that might be primary are wall balls and sled pushes because that's part of High Rocks programming. In the High Rocks program, that can be there, but not in any other program if not needed. Maybe in the CrossFit program, but that's it.
+
+</details>
+
+#### R4-LIB-02
+
+**Question (round 4).** How do we write carries and sled work?
+
+**Final rule.** By distance or time, not reps: 2 to 4 trips of 20 to 40 metres, or 20 to 40 seconds. They do not count as muscle sets. They sit with core and conditioning.
+
+- **Status:** Stands as answered.
+- **We proposed (round 4):** By distance or time, not reps: 2-4 trips of 20-40 meters (or 20-40 seconds). They don't count as muscle sets. They sit with core / conditioning.
+- **His verdict (round 4):** RIGHT, no words (our proposal became his rule)
+- **Not confirmed by him:** PROPOSED: a one-sided carry is written per side.
+- **Where it lives:** `model/rules.json` → `conditioning.carry`. Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md).
+- **This answer changed:** [LIB-19](#lib-19) (refined)
+- **See also:** [VOL-10](volume.md#vol-10), [R4-LIB-01](#r4-lib-01)
+
+#### R4-LIB-03
+
+**Question (round 4).** You have a 'mid-range push' (incline, landmine). Do you also want a 'mid-range pull' (high row, 45-degree row, face-pull angle)?
+
+**Final rule.** Yes: "mid-range pull" is its own small category between horizontal and vertical pull. His words added a pressing preference. Prioritize incline pressing over overhead pressing. Overhead presses stay in the program for variety. For bodybuilders, focus more on incline pressing than on overhead pressing. For the general population, bias incline pressing over overhead pressing.
+
+- **Status:** Stands as answered.
+- **We proposed (round 4):** Yes, add 'mid-range pull' as its own small category between horizontal and vertical pull.
+- **His verdict (round 4):** RIGHT, with words
+- **In his words:** "ideally we want to prioritize incline for the pushing instead of overhead pressing, but they're part of the program, and we should have that variability" / "For bodybuilders, I would rather focus more on incline pressing than on overhead pressing." (R4-LIB-03)
+- **Not confirmed by him:** PROPOSED: the two new row records (high row machine, 45-degree cable row), which are optional add-ons and swaps, not template picks. PROPOSED: a mid-range pull counts as a horizontal pull for credit; face pulls stay shoulder work ([R2-LIB-04](#r2-lib-04)). PROPOSED: how strongly selection leans to incline, and that the non-competitive "stay athletic" adult counts as general population. He named bodybuilders and the general population; athletes and strength clients are unchanged. PROPOSED: a high-incline press counts 1 set for front delts and half a set for chest.
+- **Where it lives:** `model/rules.json` → `selection.mid_range`, `selection.incline_first`; `model/catalog.json` → `pattern: MRPULL`, tags `mid_range_push`, `mid_range_pull`. Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md). Decision record: [ADR-055](../04-decisions/adr-055-incline-preference-and-mid-range-pull.md).
+- **This answer changed:** [CAT-07](categorization.md#cat-07) (refined), [R2-LIB-04](#r2-lib-04) (refined)
+- **See also:** [R4-SES-05](sessions-and-order.md#r4-ses-05), [ORD-01](sessions-and-order.md#ord-01), [ORD-02](sessions-and-order.md#ord-02), [EQ-05](equipment.md#eq-05)
+
+<details>
+<summary>His full answer, round 4 (from <code>coach_answers_round4.md</code>)</summary>
+
+> That's correct, and ideally we want to prioritize incline for the pushing instead of overhead pressing, but they're part of the program, and we should have that variability. For bodybuilders, I would rather focus more on incline pressing than on overhead pressing. For the general population, I would rather focus more on incline pressing and bias incline pressing instead of overhead pressing.
+
+</details>
+
+#### R4-LIB-04
+
+**Question (round 4).** When the plan swaps an exercise because of equipment, should it say what the swap loses?
+
+**Final rule.** Yes, one short line. Example: "DB snatch instead of power clean: keeps the explosive hip drive, loses the barbell catch."
+
+- **Status:** Stands as answered.
+- **We proposed (round 4):** Yes, one short line. Example: 'DB snatch instead of power clean: keeps the explosive hip drive, loses the barbell catch.'
+- **His verdict (round 4):** RIGHT, no words (our proposal became his rule)
+- **Not confirmed by him:** PROPOSED: the table of "keeps" and "loses" phrases, in English and Spanish. The line is also printed for the swaps listed under each lift.
+- **Where it lives:** `model/rules.json` → `selection.swap_notes`; words `swap.keeps.*`, `swap.loses.*`, `note.instead_of` in `model/i18n/`. Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md).
+- **This answer changed:** [R2-LIB-01](#r2-lib-01) (refined), [GEN-04](product-and-generator.md#gen-04) (refined)
+- **See also:** [GEN-04](product-and-generator.md#gen-04), [EQ-07](equipment.md#eq-07), [EQ-08](equipment.md#eq-08), [ATH-10](athletes-and-sports.md#ath-10)
+
+#### R4-LIB-05
+
+**Question (round 4).** The video links in your sheets aren't yours. What do we do with them in the public version?
+
+**Final rule.** Remove them from the public data. Each exercise gets a "search this exercise on YouTube" link instead. There must also be an easy way to copy the exercise name: "Click here to copy it and put into YouTube." His own videos can be added later.
+
+- **Status:** Stands as answered.
+- **We proposed (round 4):** Remove them from the public data. Each exercise gets a 'search this exercise on YouTube' link instead. Your own videos can be added later.
+- **His verdict (round 4):** RIGHT, with words
+- **In his words:** "make sure that there is an easy way to copy the name of the workout that says, 'Click here to copy it and put into YouTube.'" / "Something that can be very simple for people to just copy the name and then go into YouTube, paste the name, and it'll be done." (R4-LIB-05)
+- **Not confirmed by him:** PROPOSED: the search link and the name to copy use the English exercise name, also in a Spanish plan, because that is the name that finds videos. The one-tap copy button belongs to the website, which is not built; the plan text prints "Name to copy into YouTube: ...".
+- **Where it lives:** `model/rules.json` → `render.video`; `model/catalog.json` → `exercises[].video` (`kind: search`). Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md). Decision record: [ADR-008](../04-decisions/adr-008-videos-optional.md).
+- **This answer changed:** [R3-GEN-01](legal-and-open-source.md#r3-gen-01) (refined), [R2-GEN-02](product-and-generator.md#r2-gen-02) (refined), [GEN-06](product-and-generator.md#gen-06) (refined)
+- **See also:** [GEN-06](product-and-generator.md#gen-06), [R2-GEN-02](product-and-generator.md#r2-gen-02)
+
+<details>
+<summary>His full answer, round 4 (from <code>coach_answers_round4.md</code>)</summary>
+
+> Yes, and make sure that there is an easy way to copy the name of the workout that says, "Click here to copy it and put into YouTube." Something that can be very simple for people to just copy the name and then go into YouTube, paste the name, and it'll be done. It'll pop up. That's pretty good.
+
+</details>
 
 ### Sheet fixes and the NO ACCESS tabs
 
@@ -660,5 +786,7 @@ Each entry gives the question, the final rule as it stands today, what we assume
 | [PRG-10](athletes-and-sports.md#prg-10) | [athletes-and-sports](athletes-and-sports.md) | CrossFit FULL TIME / HALF TIME. |
 | [GEN-04](product-and-generator.md#gen-04) | [product-and-generator](product-and-generator.md) | A default exercise in every slot, with same-category swaps. |
 | [GEN-06](product-and-generator.md#gen-06) | [product-and-generator](product-and-generator.md) | Videos. |
+| [R4-SES-05](sessions-and-order.md#r4-ses-05) | [sessions-and-order](sessions-and-order.md) | Day B slot 3: a vertical push "or an incline press". |
+| [CX-04](product-and-generator.md#cx-04) | [product-and-generator](product-and-generator.md) | The output is an editable template. |
 | [R2-VOL-05](volume.md#r2-vol-05) | [volume](volume.md) | Kettlebell swings are ballistic work, not glute work. |
 | [CAT-09](categorization.md#cat-09) | [categorization](categorization.md) | Leg curls and nordics are leg flexion. |

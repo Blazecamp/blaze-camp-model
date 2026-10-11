@@ -11,7 +11,7 @@ Related pages: [principles](principles.md), [how he thinks](how-he-thinks.md), [
 | "Text in double quotes" | The coach's own words, copied from the answer files. " ... " marks words left out. |
 | 'Text in single quotes' | A label copied from his sheets, with his spelling (OBSERVED). |
 | `COACH-CHAT` | Said in conversation: [coach_chat_statements.md](../../coach_chat_statements.md), [coach_answers.md](../../coach_answers.md). Close paraphrases unless shown in quotes there. |
-| `CAT-04`, `VOL-13`, `R2-...`, `R3-...` | His questionnaire answers: [round 1](../../coach_answers_full.md), [round 2](../../coach_answers_round2.md), [round 3](../../coach_answers_round3.md). |
+| `CAT-04`, `VOL-13`, `R2-...`, `R3-...`, `R4-...` | His questionnaire answers: [round 1](../../coach_answers_full.md), [round 2](../../coach_answers_round2.md), [round 3](../../coach_answers_round3.md), [round 4](../../coach_answers_round4.md). `CT-01` and `CX-01..04` are two clarifications of 2026-10-10 ([session time](../../coach_answers_time_2026-10-10.md), [progression and editing](../../coach_answers_codex_2026-10-10.md)). The newest answer wins. |
 | **TEAM MAP** | The team's analysis in [synthesis/07_science_lineage.md](../../synthesis/07_science_lineage.md). He has not reviewed it line by line. Treat it as **PROPOSED**. |
 | **SCIENCE** | Published research the team checked his numbers against. It fills gaps. It never overrules one of his answers. |
 
@@ -136,7 +136,7 @@ He asked the team to do the research rather than take his numbers on trust:
 | A floor of 10 for every trained group | supported for growth blocks; maintenance needs far less | matches for training blocks, which is why maintenance is exempt (**PROPOSED** reading) |
 | "most people train around that: 20 to 30 sets per muscle per week" (R2-VOL-06) | fits what trained people work up to when indirect work is counted; high as a description of most gym-goers | partly supported; no number in the model changed |
 | "5 might be too little", "40 ... way too much" (UNI-01) | 5 is near the minimum useful dose; 40 gives little extra | matches |
-| 10% a week is too much | no direct trial; small steps are favoured | supported indirectly |
+| 10% a week is too much to sustain (his usual pattern; since CX-01 a faster step is allowed when the final sets need it) | no direct trial; small steps are favoured | supported indirectly |
 | A deload at about half the sets | in the middle of what coaches and studies report | matches |
 | Maintenance at 50 to 70% of the volume (PER-01) | well above the smallest dose studies found enough to hold muscle and strength; older adults need more of it | matches; the team keeps older adults at 70% (**PROPOSED**) |
 | Test a 5-rep or 3-rep max, not a 1-rep max, from zero | a 5-rep max predicts the 1-rep max well | matches |
@@ -197,7 +197,8 @@ The ideas below have no outside source in this form. Where he confirmed the idea
 | Pair hip dominant with a push and knee dominant with a pull | UNI-11, ORD-06 ("That's the model that I'm using for full bodies and for boot camps.") |
 | The stairway with the hardest weeks last, and "start at a 2 and end at an 11" | PER-01 (his words), R2-PER-03, R2-PER-04, R2-PER-05, R3-VOL-04 |
 | New sets go to the first exercise of the day | VOL-07 |
-| Never one exercise per muscle | R2-SES-05 |
+| The A / B days: pull + knee dominant, push + hip dominant, about 6 exercises each ("This is the model that I believe is the greatest one.") | R4-SES-05 |
+| Never one exercise per muscle on a split day | VOL-07, R2-SES-05 |
 | A block is completed; when it ends, it ends | R2-VOL-07, R3-PER-01 |
 | One heavy squat day and one heavy deadlift day | PER-04, R2-SES-01 |
 | Plyometric versus ballistic by the sport's time on the ground | ATH-01, R2-ATH-01 |
@@ -210,7 +211,9 @@ The ideas below have no outside source in this form. Where he confirmed the idea
 | Aerobic work in three colours, one of each per week | ATH-07, EQ-14 |
 | Change of direction graded by how sharp the turn is | ATH-06 |
 | Answers in, the whole plan out, with no feedback loop | R3-VOL-02, R3-VOL-04 |
-| When time is short: tell the person, offer more time, train fewer groups, use supersets, keep climbing | R3-SES-02 |
+| The person owns their time: size a session by exercise count, print an average time, cut nothing for minutes ("You need to stop trying to be responsible for the people's time.") | CT-01, R4-SES-01, R4-SES-02 |
+| Reach the planned final sets, and write reps and load as a rule the person applies | CX-01, R4-PRG-03 |
+| Incline pressing before overhead pressing for bodybuilders and the general population | R4-LIB-03 |
 
 His sheets hold more of his own ideas that he has not been asked about yet, such as the three lunge rules ('Stance loads the FRONT TO BACK', 'Load position loads UP/DOWN & SIDE2SIDE', 'Movement orientations/guidance loads AROUND', OBSERVED). The full list of 17 is in [synthesis/07_science_lineage.md](../../synthesis/07_science_lineage.md), section 14.
 

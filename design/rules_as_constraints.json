@@ -2,6 +2,51 @@
  "schema": "blaze-camp/rules-as-constraints/1",
  "title": "Blaze Camp coach rules as a formal constraint model (dosing, ordering, selection, time)",
  "generated": "2026-10-09",
+ "policy_amendment": {
+  "date": "2026-10-10",
+  "source": "coach_answers_codex_2026-10-10.md",
+  "implementation_ready": false,
+  "reconciliation_status": "progression_reference_verified_integration_pending",
+  "precedence": "CX-01..04 control within their stated scope. Remaining tables, numeric params, metrics and counts retain the generated historical snapshot; do not consume an affected legacy constraint as active without reconciling this amendment.",
+  "status": "coach policy approved; isolated progression reference implemented and independently tested; full planner integration not ready; default runtime unchanged",
+  "progression_reference": {
+   "status": "verified_isolated_contract",
+   "proofs": "design/PROGRESSION_MATH.md",
+   "verification": "design/PROGRESSION_VERIFICATION.md",
+   "modules": ["design/progression/stairway.mjs", "design/progression/prescription.mjs"],
+   "tests": ["tests/progression/stairway.test.mjs", "tests/progression/prescription.test.mjs"],
+   "verified_scope": ["accelerated endpoint root within explicit numerical tolerance", "nested integer and group-day prefix schedules", "shared endpoint epochs", "iterative bounded block rounding", "explicit conditional reps/load progression", "all-week arithmetic and set-edit rechecks"],
+   "not_certified": ["actual-credit endpoint selection or global peak optimality", "full instance and covering-envelope construction", "exercise-level integration and plan/2 contract", "exercise or population suitability", "physiological safety or individual results", "full planner build or production promotion"]
+  },
+  "resolutions": [
+   {
+    "id": "CX-01",
+    "policy": "Accelerate when needed to reach the intended endpoint instead of finishing below it solely because of the former weekly rate limit; lambda may exceed 1. No new numerical maximum rate or validated safe rate is approved. Keep applicable set ceilings, time, equipment, execution quality and clinical scope; PROPOSED targets remain PROPOSED.",
+    "affects": ["DEF-10", "T0-STW-02", "T0-STW-03", "T3-STW-05", "T3-STW-06", "SF-2", "C-01", "C-09", "P-09", "P-12", "LK08", "O-01", "O-09"],
+    "pending": "Reference root bracketing, precision and accelerated integer schedules are implemented and tested; caller-supplied numerical controls remain implementation choices, not training policy. Integrate R-LAMBDA, R-TOP, R-REACH, R-STEP.G and R-STEP.T with actual-credit endpoints and certified instances. A failed restricted search is not proof of general infeasibility."
+   },
+   {
+    "id": "CX-02",
+    "policy": "Occasional same-set weeks may progress reps/load; nonsaturated accumulation progresses overall. A rising display level alone is insufficient.",
+    "affects": ["T3-STW-02", "T3-STW-03", "T3-STW-09", "P-10", "P-11"],
+    "pending": "Conditional reps/load progression is implemented in the reference contract. Integrate rep/rest envelopes and output wording; exact climb amounts, hold/flat metrics and scheduler tier order remain proposed and must not prohibit approved plateaus."
+   },
+   {
+    "id": "CX-03",
+    "policy": "At the applicable set ceiling hold sets and progress load/reps. At S=C, no positive minimum set climb and no division by C-S apply.",
+    "affects": ["DER-09", "T3-STW-02", "P-10", "P-28"],
+    "pending": "Exact iterative rational rounding and bounded saturation are implemented and tested in the reference contract; integrate DER-09 and reject imported S>C without silently raising the ceiling. Parameters remain caller-supplied; tests do not approve new training defaults."
+   },
+   {
+    "id": "CX-04",
+    "policy": "People/coaches may edit sets in any week/day. Preserve explicit overrides and re-tally dose, time and rule compliance; a prior certificate does not automatically survive the edit. Disclose conflicts without falsely certifying them. No check-ins, tracking or stored personal data are introduced.",
+    "affects": ["T1-POL-14"],
+    "pending": "Normalized set edits preserve overrides, discard old validation and rerun the declared arithmetic subset. Integrate the final plan/2 edit schema, complete model checks and output reporting. Editability and mathematical consistency do not predict individual outcomes."
+   }
+  ],
+  "implementation_gate": "The isolated reference and replacement proof scopes are documented in PROGRESSION_MATH.md. Before enabling the amended planner, verify actual-credit endpoint selection, covering-envelope construction, zero-headroom objective integration, exercise-level placement, final plan/edit contracts and canonical rule migration; rerun independent-reference, whole-planner and benchmark gates. Reference tests do not certify the full planner or authorize promotion.",
+  "required_boundary_cases": ["6 weeks, 3 to 4", "12 weeks, 12 to 22", "endpoint requiring more than one added set per group in a week", "S=C", "imported S>C", "iterative rounding through saturation", "set edit exceeding time or ceiling", "continuous endpoint without feasible integer allocation"]
+ },
  "repo_state": {
   "model_version": "1.3.0",
   "rules_version": "1.3.0",
@@ -10,6 +55,7 @@
   "note": "engine/, model/ and samples/ were being edited by another workflow (fix round 2 / F1, E-135 ... E-146; the 8 sample plans were regenerated 2026-10-10 00:57 UTC) while this was written; parameter values are read from model/rules.json at generation time, sample evidence is dated where quoted."
  },
  "authority_order": [
+  "coach_answers_codex_2026-10-10.md (CX-01..04, within their stated scope)",
   "coach_answers_round3.md (COACH-R3, ids R3-*)",
   "coach_answers_round2.md (COACH-R2, ids R2-*; LIB-10 / LIB-12 round-1 leftovers answered there)",
   "coach_answers_full.md (round 1, ids CAT-, UNI-, VOL-, PER-, ATH-, ORD-, EQ-, GEN-, LIB-, PRG-, FIX-)",
@@ -860,8 +906,9 @@
    "kind": "definition",
    "status": "approved+proposed-numbers",
    "title": "The planned stairway T_l(w)",
-   "plain": "About 3 % a week to the halfway week, about 5 % after it, every step of a line scaled by one λ so the line lands on its ceiling in the last week.",
-   "formal": "h = ⌈N/2⌉; s_w = 0.03 (2 ≤ w ≤ h), 0.05 (h < w ≤ N); G(N) = Π_{w=2..N}(1 + s_w).\nS_l = max(start_l, V_{l,1}); C̃_l = realized ceiling (T5).\nλ_l = 1 if S_l·G(N) ≤ C̃_l, else the unique λ ∈ (0,1) with S_l·Π_{w=2..N}(1 + λ s_w) = C̃_l (bisection, 60 iterations).\nT_l(1) = S_l;  T_l(w) = T_l(w−1)·(1 + λ_l s_w).",
+    "plain": "CX-01/03: standard 3%/5% weights are a reference shape; accelerate to the intended endpoint when needed, without raising the applicable set ceiling. Root finding and integer allocation remain proposed procedures; the historical parameter snapshot below is not an active bound on lambda.",
+    "formal": "For S_l>0 and N>=2: h=ceil(N/2); s_w=0.03 (2<=w<=h), 0.05 (h<w<=N). S_l is the actual credited start; choose a jointly feasible endpoint P_l with S_l<=P_l<=the applicable ceiling. If P_l=S_l, lambda_l=0. Otherwise solve S_l*product(1+lambda_l*s_w)=P_l with lambda_l>=0, including lambda_l>1 when needed. T_l(1)=S_l; T_l(w)=T_l(w-1)*(1+lambda_l*s_w). Continuous reachability is not proof of discrete/time feasibility; numerical procedure and tolerances require verification.",
+    "policy_sources": ["CX-01", "CX-03"],
    "params": [
     {
      "name": "early / late step",
@@ -1536,8 +1583,9 @@
    "kind": "definition",
    "status": "approved+proposed-numbers",
    "title": "Next block after completed blocks",
-   "plain": "Start x 1.05 and ceiling + 1 per completed block in a row (never above 25, Focus 30); an unfinished block repeats the same start. Nothing is stored, so the person enters the count.",
-   "formal": "S_l ← round_half_up(S_l·1.05^k);  C_l ← min(C_l + k, 25 | 30),  k = blocks completed in a row.",
+    "plain": "CX-03 holds the applicable set ceiling and continues load/rep progression there. Canonical synthesis section 4 rounds after every completed block, not once after exponentiation. The bounded recurrence is PROPOSED exact implementation; repeat-start and completed-block-count input retain their existing proposed status. Nothing is stored.",
+    "formal": "PROPOSED, repeated once per completed block: C_next=min(C_l+1,applicable_cap_l); S_next=min(C_next,round_half_up(1.05*S_l)); (S_l,C_l)=(S_next,C_next). At S_l=C_l: set climb=0 and load/rep progression; never divide by C_l-S_l. Resolve imported S_l>C_l before planning without silently raising the ceiling.",
+    "policy_sources": ["CX-03", "synthesis/12_volume_algorithm_v1.md section 4"],
    "params": [
     {
      "name": "cycles",
@@ -11759,10 +11807,10 @@
     "T3-STW-05/06 (about 3 % / 5 %, λ ≤ 1)",
     "R3-VOL-04 \"reaches its ceiling exactly in the last week\""
    ],
-   "detail": "With λ ≤ 1 a 12-week L2 small line runs 12 → 18 (ceiling 22), L3 15 → 23 (25); every 8-week line peaks below the 12-week ceilings.",
-   "options": "λ_max = 1 (ceiling is a maximum; today) | λ_max up to 1.4 (late steps up to the 7 % limit, 12 → 22)",
-   "current": "λ_max = 1",
-   "decision": "coach (12 §7 item 16)"
+    "detail": "Standard rates can finish below the intended endpoint. CX-01 resolves the policy conflict; discrete/time feasibility still must hold.",
+    "options": "Historical alternatives were lambda<=1 or lambda<=1.4; neither is a newly approved maximum.",
+    "current": "CX-01: accelerate when needed, including lambda>1, without raising the applicable set ceiling or overriding other feasibility constraints.",
+    "decision": "policy resolved by coach_answers_codex_2026-10-10.md CX-01; numerical scheduler and proofs pending"
   },
   {
    "id": "C-02",
@@ -11857,9 +11905,9 @@
     "R3-SES-02 step 4 never flat"
    ],
    "detail": "One set on a 9-set total is 11 %: one whole set may always be added (PROPOSED).",
-   "options": "-",
-   "current": "one-set exception",
-   "decision": "coach (12 §7 item 8)"
+    "options": "The historical one-set exception is not the only permitted acceleration after CX-01.",
+    "current": "CX-01/02: accelerate when needed for the endpoint; occasional same-set weeks may progress reps/load. No new numerical maximum is approved.",
+    "decision": "policy resolved by coach_answers_codex_2026-10-10.md CX-01/02; integer scheduling and rate reporting pending"
   },
   {
    "id": "C-10",
@@ -14522,8 +14570,8 @@
  "open_items": [
   {
    "id": "O-01",
-   "what": "λ above 1 so small lines reach their ceiling (C-01)",
-   "ref": "12 §7 item 16"
+    "what": "Policy resolved by CX-01; implement and verify endpoint-prioritized acceleration, including lambda>1 (C-01)",
+    "ref": "coach_answers_codex_2026-10-10.md CX-01; PLANNER_SPEC current amendment"
   },
   {
    "id": "O-02",
@@ -14562,8 +14610,8 @@
   },
   {
    "id": "O-09",
-   "what": "The one-set allowance under the 10 % weekly ceiling (C-09)",
-   "ref": "12 §7 item 8"
+    "what": "Reconcile discrete scheduling and rate reporting under CX-01/02; do not retain the old weekly bound as an endpoint veto (C-09)",
+    "ref": "coach_answers_codex_2026-10-10.md CX-01/02"
   },
   {
    "id": "O-10",

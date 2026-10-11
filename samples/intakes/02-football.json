@@ -1,6 +1,6 @@
 {
   "schema": "intake/2",
-  "_comment": "Coach sample 2 (R2-GEN-07): college linebacker (LB -> football_big_skill), off-season after the bowl season, next season starts 2027-08-28 (32 weeks away), 12-week plan, 4 days x 90 min, full gym + field kit (hurdles, turf / running space; college weight room has platforms and bumpers), 3 years lifting (L3 by the PROPOSED 3+ years and 4+ days rule), 230 lb.",
+  "_comment": "Coach sample 2 (R2-GEN-07): college linebacker (LB -> football_big_skill), off-season after the bowl season, next season starts 2027-08-28 (32 weeks away), 12-week plan, 4 days, full gym + field kit (hurdles, turf / running space; college weight room has platforms and bumpers), 3 years lifting (L3 by the PROPOSED 3+ years and 4+ days rule), 230 lb.",
   "id": "sample-02-football",
   "lang": "en",
   "units": "lb",
@@ -57,7 +57,6 @@
       "Thu",
       "Fri"
     ],
-    "session_minutes": 90,
     "start_date": "2027-01-11"
   },
   "plan": {

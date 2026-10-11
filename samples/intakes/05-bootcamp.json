@@ -1,6 +1,6 @@
 {
   "schema": "intake/2",
-  "_comment": "Coach sample 5 (R2-GEN-07): 42-year-old general population, 1 year training, bootcamp circuits (goal general + format bootcamp -> fat_loss_bootcamp.3 'Bootcamp 1-2-3', two circuits a day), 3 days x 45 min, 8 weeks, 160 lb, Spanish output. Bootcamp kit = FIELD_TRACK_KIT (boxes, medballs, cones, mats) + dumbbells + kettlebells; no barbell, no bands.",
+  "_comment": "Coach sample 5 (R2-GEN-07): 42-year-old general population, 1 year training, bootcamp circuits (goal general + format bootcamp -> fat_loss_bootcamp.3 'Bootcamp 1-2-3', two circuits a day), 3 days, 8 weeks, 160 lb, Spanish output. Bootcamp kit = FIELD_TRACK_KIT (boxes, medballs, cones, mats) + dumbbells + kettlebells; no barbell, no bands.",
   "id": "sample-05-bootcamp",
   "lang": "es",
   "units": "lb",
@@ -42,7 +42,6 @@
       "Wed",
       "Fri"
     ],
-    "session_minutes": 45,
     "start_date": "2026-10-12"
   },
   "plan": {

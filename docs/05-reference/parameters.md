@@ -1,6 +1,6 @@
 # Parameters: every tunable number in the model
 
-This page lists every number the Blaze Camp model uses to build a plan: how sets are counted, where a person starts, how fast a plan climbs, how long a session may be, how athletes are dosed and how the year is laid out. Each row gives the value, its unit, the file and JSON key where it lives, the source, and whether coach Lalo Vera confirmed it or the team proposed it. Use it to look up a number, to see who decided it, or to find the one place to change it. The coach said of the volume numbers: "this is all customizable" (R2-VOL-06). So every number here is a default that a coach may tune, except the hard rules, which never bend.
+This page lists every number the Blaze Camp model uses to build a plan: how sets are counted, where a person starts, how a plan climbs to its final sets, how big a session is, how athletes are dosed and how the year is laid out. Each row gives the value, its unit, the file and JSON key where it lives, the source, and whether coach Lalo Vera confirmed it or the team proposed it. Use it to look up a number, to see who decided it, or to find the one place to change it. The coach said of the volume numbers: "this is all customizable" (R2-VOL-06). So every number here is a default that a coach may tune, except the hard rules. This page is at model v1.3: it includes round 4 and the two clarifications of 2026-10-10. Session minutes are no longer a parameter of the plan: they are an estimate, printed as information (section 10).
 
 ## How to read the tables
 
@@ -24,9 +24,9 @@ A row can be split: "Confirmed range; PROPOSED value" means he gave a range and 
 | **V** | [`synthesis/12_volume_algorithm_v1.json`](../../synthesis/12_volume_algorithm_v1.json) | The volume algorithm (counting, starts, stairway, time). Kept in step with S. |
 | **P** | [`synthesis/04_profiles.json`](../../synthesis/04_profiles.json) | One record per sport, position, activity and goal. |
 | **T** | [`synthesis/05_templates.json`](../../synthesis/05_templates.json) | Week and day templates. |
-| **R** | `model/rules.json` | The compiled copy the engine reads. It is generated. Never edit it by hand. The engine is being rebuilt, so R can lag behind S or hold extra engine-only numbers. When S and R differ, S and the coach answers win. |
+| **R** | `model/rules.json` | The compiled rules the engine (version 0.5) reads. It is generated. Never edit it by hand. The numbers of round 4, CT-01 and CX-01..04 are cited from R on this page, because engine 0.5 was built and tested on those keys; [coverage_matrix_round4.md](../../coverage_matrix_round4.md) gives the matching S key for each answer. When R and a coach answer differ, the coach answer wins. |
 
-**Answer ids.** `VOL-09` is round 1, `R2-…` round 2, `R3-…` round 3. The newest round wins. "conversation" means [coach_chat_statements.md](../../coach_chat_statements.md).
+**Answer ids.** `VOL-09` is round 1, `R2-…` round 2, `R3-…` round 3, `R4-…` round 4. `CT-01` and `CX-01..04` are two clarifications he gave on 2026-10-10. The newest answer wins: round 4 and CT-01 first, then CX. "conversation" means [coach_chat_statements.md](../../coach_chat_statements.md).
 
 Terms are defined in the [glossary](glossary.md).
 
@@ -82,7 +82,7 @@ Terms are defined in the [glossary](glossary.md).
 
 ## 3. Weekly sets: starts, ceilings, floor
 
-**Rule.** Every trained group starts at a number set by level, never below 10, and climbs to a ceiling set by level.
+**Rule.** Every trained group starts at a number set by level and climbs to a top number (ceiling) set by level, which it reaches in the last week. With 3 or more training days no trained group is below 10. With 2 training days every big muscle runs about 6 to 8 weekly sets.
 
 **Why.** "I like that 15 to 20 sets of any muscle group per week would be a good foundation for maintenance to a little bit of growth, and then 20 to 25 sets maybe can be a good growth foundation" (UNI-01). "I don't think anybody needs less than 10 sets a week per muscle" (R2-VOL-06).
 
@@ -95,8 +95,11 @@ Terms are defined in the [glossary](glossary.md).
 
 | Parameter | Value | Unit | Where it lives | Source | Status |
 |---|---|---|---|---|---|
-| Floor for every trained focus group | 10 | sets / week | S `rule_tables > weekly_sets > floors > value`; V `starting_table > floors`; R `volume > floor > value` | R2-VOL-06; counted on groups R3-VOL-01, R3-SES-01 | Confirmed |
-| Floor does not apply to | maintenance; pre-season; in-season; a group cut for pain; a group the time check leaves to compound credit; credit-only groups of field athletes | | S `… > floors > exempt` | R3-VOL-01 proposal (his answer spoke only about rear delts), VOL-03, R3-SES-02 | INFERRED for the phases and for pain; Confirmed for time |
+| Floor for every trained focus group, 3 or more training days | 10 | sets / week | S `rule_tables > weekly_sets > floors > value`; V `starting_table > floors`; R `volume > floor > value`, `volume > floor > applies_from_days` (3) | R2-VOL-06; counted on groups R3-VOL-01, R3-SES-01; "from 3 days" follows R4-SES-03 | Confirmed |
+| Every big muscle on 2 training days | about 6 to 8 (start 6, top 8) | sets / week | R `volume > two_day > weekly_sets` | R4-SES-03 | Confirmed range; 6 as the start and 8 as the top is the team's reading |
+| Small groups on 2 training days | at most the same 6 to 8 | sets / week | R `volume > two_day` | team | PROPOSED |
+| On 2 days the plan suggests | a third training day | days | R `volume > two_day > suggest_days` (3) | R4-SES-03 | Confirmed (a recommendation only) |
+| Floor does not apply to | maintenance; pre-season; in-season; a group cut for pain; plans with 2 training days; credit-only groups of field athletes; a group its template cannot hold at 10 (the plan says so) | | S `… > floors > exempt`; R `volume > floor > exempt` | R3-VOL-01 proposal (his answer spoke only about rear delts), VOL-03, R4-SES-03, R4-SES-04 | INFERRED for the phases and for pain; Confirmed for 2 days. The round-3 exemption "a group the time check leaves to compound credit" is retired (CT-01). |
 | Calves | 1 exercise × 3 | sets per leg day | S `… > muscles > calves > start`; R `volume > calves > per_leg_day` | VOL-17, R3-SES-01 | Confirmed |
 | Calves, weekly top-up to | 10 | sets / week | S `… > floors > calves`; R `volume > calves > weekly_floor` | team | PROPOSED |
 | Core opener | 2 exercises × 2 | sets per session | S `rule_tables > core_block > dose`; R `volume > core_block` | VOL-17, R2-SES-03 | Confirmed |
@@ -105,7 +108,7 @@ Terms are defined in the [glossary](glossary.md).
 | His landmarks: growth | 20 to 25 | sets / week | same | UNI-01 | Confirmed |
 | His landmarks: too little / too much | 5 / 40 | sets / week | same | UNI-01 | Confirmed |
 | What most people do | 20 to 30 | sets / week | S `… > landmarks_coach > most_people_20_30` | R2-VOL-06 ("you can do some research") | Confirmed as his view; checked against research, no number changed |
-| Sets for one group in one session, soft limit | 11 | sets | S `rule_tables > session_limits > per_muscle_per_session`; R `volume > per_session` | research | SCIENCE / PROPOSED |
+| Sets for one group in one session, soft limit | 11 | sets | S `rule_tables > session_limits > per_muscle_per_session` | research | SCIENCE / PROPOSED. The compiled rules of engine 0.5 no longer carry it (R `volume > per_session` is deleted): a group's sets are bounded by its template slots, at 2 to 5 sets an exercise. |
 | Same, for a Focus muscle | 14 | sets | same | team | PROPOSED |
 
 ## 4. Focus muscles, the priority push and the Pro setting
@@ -123,7 +126,7 @@ Terms are defined in the [glossary](glossary.md).
 | Ceiling of a Focus muscle | 18 / 26 (chest 26-28) / 30 | sets / week by level | `… > cap_bound`; R `volume > priority > cap` | R2-VOL-06 (priority caps) | Confirmed as priority-muscle ceilings; used for Focus muscles INFERRED |
 | Focus exercise position | first in its session | | `… > order_in_session` | ORD-04 | Confirmed |
 | Priority push (optional coach setting, off by default) | +4 / +4 / +6 | sets / week by level | S `rule_tables > priority > start_add`; V `priority > start_add` | VOL-02 (verdict: partly; the team proposed +4 to 6 and he answered "That's the idea") | Confirmed range; split by level PROPOSED |
-| While a priority push runs, other muscles grow at most | 3 | % / week | S `rule_tables > priority > nonpriority_rate_cap` | R2-VOL-06 | Confirmed |
+| ~~While a priority push runs, other muscles grow at most 3 % a week~~ | retired | | S `rule_tables > priority > nonpriority_rate_cap` (deleted from R) | R2-VOL-06; retired by R3-VOL-04 and CX-01: every trained group reaches its final sets | Retired |
 | Pro setting: who | Level 3 only, one muscle | | S `vocab > levels > Pro`; R `levels > pro_setting` | R2-VOL-06 ("maybe we can add a pro level") | Confirmed idea; rules PROPOSED |
 | Pro setting: ceiling | 35 | sets / week | same | team | PROPOSED |
 
@@ -171,37 +174,48 @@ Bootcamp is dosed by time, not by these factors (see section 15).
 
 ## 7. The stairway
 
-**Rule.** Every plan climbs. Small steps to the halfway week, slightly bigger after it, the hardest weeks last. Nothing changes the steps after the plan is built.
+**Rule.** Every plan climbs. Small steps to the halfway week, slightly bigger after it, the hardest weeks last. Each trained group reaches its planned final sets, with bigger steps when needed. A week may keep the same sets while reps or load progress. Nothing changes the plan after it is built, except the person's own edits.
 
 **Why.** "It should be like steps up a stairway. In the beginning, the first 2, 3, 4 weeks, the steps are a little bit smaller, but they're gradually going up. When they get to that halfway point and upwards, the steps get a little bit higher, but not too much ... and that goes for every plan" (R2-PER-03). On the numbers he approved: "The program will just have its natural algorithm recommendation of growth throughout it" (R3-VOL-04).
 
-### 7.1 Steps and limits
+### 7.1 Steps, arrival and the big-step note
 
 | Parameter | Value | Unit | Where it lives | Source | Status |
 |---|---|---|---|---|---|
-| Step, week 2 to the halfway week | about 3 | % of the group's weekly sets | S `rule_tables > rate_engine > standard_steps > early_weeks_2_to_halfway`; V `stairway > math > standard_step`; R `stairway > standard_steps > early` | R3-VOL-04 | Confirmed |
-| Step, after the halfway week | about 5 | % | `… > late_after_halfway`; R `stairway > standard_steps > late` | R3-VOL-04 | Confirmed |
+| Usual step, week 2 to the halfway week | about 3 | % of the group's weekly sets | S `rule_tables > rate_engine > standard_steps > early_weeks_2_to_halfway`; V `stairway > math > standard_step`; R `stairway > standard_steps > early` | R3-VOL-04 | Confirmed |
+| Usual step, after the halfway week | about 5 | % | `… > late_after_halfway`; R `stairway > standard_steps > late` | R3-VOL-04 | Confirmed |
 | Halfway week | N ÷ 2, rounded up | week | S `rule_tables > rate_engine > math > halfway_week`; R `stairway > halfway` | R3-VOL-04 (approved wording: "until the halfway week"); rounding team | Confirmed idea; rounding PROPOSED |
-| Step for any one muscle, most | 7 | % / week | S `rule_tables > rate_engine > limits > planned_step_max`; R `stairway > limits > planned_step_max` | R2-VOL-01 (approved wording: never more than 7 % a week) | Confirmed |
-| Rise of the person's total weekly sets | less than 10 | % / week | S `rule_tables > rate_engine > hard_ceiling > value`; R `stairway > limits > total_weekly_ceiling` | UNI-05 (a 10 % weekly jump is "way too much") | Confirmed that 10 % is too much; applying it to the weekly total INFERRED |
-| Exceptions to the 10 % rule | first week after an easy week or maintenance; swaps that add no sets | | S `… > limits > exempt_from_10pct` | team | PROPOSED |
-| One whole set may always be added in a week | 1 | set | S `… > limits > one_set_allowance` | team | PROPOSED |
-| Step a coach may set by hand before the build | 0 to 7 | % | S `… > limits > hand_set_step` | VOL-05 (coach adjusts), R2-VOL-01 | Confirmed limit; mechanism PROPOSED |
+| Each group reaches its planned final sets | yes, always | | R `stairway > progression > target_reached` (true) | CX-01 | Confirmed |
+| When the usual steps fall short | every step of the group is scaled up by one factor | factor above 1 | R `stairway > progression`; `engine/progression/stairway.mjs` | CX-01; the formula is the team's | Confirmed choice; formula team math |
+| When the usual steps would overshoot | every step is scaled down by one factor | factor below 1 | same | R3-VOL-04 | Confirmed |
+| Week the final number arrives | the last week | week | R `stairway > progression > arrival_weeks_early` (0) | R4-PRG-01 | Confirmed |
+| Earliest it may arrive | one week early | weeks | R `stairway > progression > arrival_weeks_early_max` (1) | R4-PRG-01 | Confirmed |
+| Hard limit on a weekly step | none | | R `stairway > limits` (only a painful area keeps a slow step) | CX-01, R4-PRG-02 | Confirmed |
+| A week carries a note when it adds more than | about 15 | % | R `stairway > progression > note_above` (0.15); `render > acceleration > above` | R4-PRG-02 | Confirmed |
+| A single added set is flagged | never; the note needs 2 or more whole sets | sets | R `stairway > progression > note_min_whole_sets` (2) | team | PROPOSED |
+| Same sets in consecutive weeks | allowed, while reps or load progress | | R `stairway > progression > flat_weeks_ok` (true) | CX-02, CX-03 | Confirmed |
 | Step depends on | the person and the plan, never on muscle size | | S `rule_tables > rate_engine > principle` | VOL-05 | Confirmed |
-| Each group reaches its ceiling in | the last week | | S `rule_tables > rate_engine > math > lambda` | R3-VOL-04 | Confirmed |
-| λ (scale on the steps) | 0 to 1 | factor | S `… > math > lambda`; R `stairway > lambda` | team math for R3-VOL-04 | Confirmed idea; "never above 1" INFERRED (see the open question below) |
+| Sets are written as | whole sets | sets | S `rule_tables > banking`; R `stairway > progression > rounding` (`arrival`) | VOL-06 | Confirmed; the rounding method is the team's |
+| The groups of a plan add their sets | in turns, so the week's total climbs a set or two most weeks | | R `stairway > progression > stagger` | team | PROPOSED |
 | Start of a line | the larger of the table start (+ Focus) and its week-1 sets | sets / week | S `… > math > start` | team | PROPOSED |
-| Ceiling when the days cannot hold the planned peak | what the days hold | sets / week | S `… > math > time_limited_ceiling` | R3-SES-02 step 4 | PROPOSED |
-| A banked fraction becomes a set at | 1.0 | set | S `rule_tables > banking > release_threshold`; R `stairway > release > threshold` | VOL-06 | Confirmed |
-| When several groups would add a set in the same week and the total would hit 10 % | the smallest banks wait a week | | S `rule_tables > rate_engine > release_staggering` | team | PROPOSED |
-| Least climb of a trained group over a block | 2 (calves 1) | sets | S `rule_tables > session_limits > time_vs_minimums > minimums_of_a_trained_group > climb`; R `stairway > min_climb` | team | PROPOSED |
+| A painful area | slow steps | 3 % | R `stairway > limits > pain_after_freeze` | VOL-03; number team | PROPOSED |
 | Does the stairway restart at an exercise-block change? | no | | S `rule_tables > set_placement > block_rule` | team reading of R2-PER-04, R2-VOL-07 | INFERRED |
+| What can keep a group below its planned final sets | only its template: too few slots and no optional day. The plan says so. | | R `placement > bonus > no_optional_day` (`cap_and_say_so`) | R4-SES-04; mechanism team | Confirmed idea; mechanism PROPOSED |
 
-**Open question.** The proposal he approved in R3-VOL-04 has two parts: steps of about 3 % and 5 %, and each muscle "reaches its ceiling exactly in the last week" (the team's wording). They cannot both hold for every line. With the standard steps a Level 2 small muscle goes 12 → 18 in 12 weeks, not 12 → 22. The model keeps the steps and treats the ceiling as a maximum (INFERRED). The alternative is larger late steps, up to the 7 % limit. Key: S `rule_tables > rate_engine > ceiling_reach_v1_2`.
+**Retired in v1.3** (see section 22): the 7 % limit on one group's step, the under-10 % limit on the weekly total and its exceptions, the "one whole set may always be added" allowance, the coach-set step of 0 to 7 %, the rule that the scale factor never goes above 1, the "ceiling the time holds", and the least climb of 2 sets. The old open question (steps of 3 % and 5 % against "reaches its ceiling in the last week") is answered: the final sets win (CX-01).
+
+**How reps and load progress** (R4-PRG-03):
+
+| Parameter | Value | Where it lives | Source | Status |
+|---|---|---|---|---|
+| How rep and load progress is written | a rule the person applies: "When you hit 12 on every set with 1-2 reps left in the tank, add weight next time and start again at 8." | R `render > progression`; words `ui.plan.progress.double`, `ui.plan.progress_rule` | R4-PRG-03 | Confirmed |
+| Promised reps or load for a given week | never | R `render > progression > promised_numbers` (false) | R4-PRG-03 | Confirmed |
+| Reps in reserve named in the rule | the week's planned effort; "1-2" when none is planned | R `render > progression > rir_default` | R4-PRG-03; default team | Confirmed idea; default PROPOSED |
+| Wording for fixed-rep lifts, pyramids and single-side lifts | matching rules | R `render > progression > keys` | team | PROPOSED |
 
 ### 7.2 By plan length
 
-Where it lives: S `rule_tables > rate_engine > steps_by_plan_length`; V `stairway > steps_by_plan_length`; R `stairway > by_N`. Growth is what the standard steps multiply to. The stair level is the "2 to 11" shown to the person.
+Where it lives: S `rule_tables > rate_engine > steps_by_plan_length`; V `stairway > steps_by_plan_length`; R `stairway > by_N`. Growth is what the usual steps multiply to. The stair level is the "2 to 11" shown to the person. The set rows below were recomputed on 2026-10-11 with the engine's arithmetic (`engine/progression/stairway.mjs`) for one group on its own; in a real plan the groups take turns, so a week can differ by one set.
 
 | Weeks (N) | Halfway week | 3 % steps in weeks | 5 % steps in weeks | Growth if never scaled | Status |
 |---|---|---|---|---|---|
@@ -216,21 +230,22 @@ Where it lives: S `rule_tables > rate_engine > steps_by_plan_length`; V `stairwa
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Stair level | 2 | 2.6 | 3.2 | 3.8 | 4.4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | "start at a 2 and end at an 11" confirmed (PER-01, R2-PER-05, R3-VOL-04); formula PROPOSED |
 | Planned reps in reserve | 3 | 3 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 1-2 | 1-2 | 1 + intensifiers | Drift confirmed (R3-VOL-04); week mapping PROPOSED |
-| L1 big muscle (λ 0.76) | 10 | 10 | 10 | 10 | 10 | 11 | 11 | 12 | 12 | 12 | 13 | 14 | Computed |
-| L2 big muscle (λ 0.87) | 15 | 15 | 15 | 16 | 16 | 17 | 17 | 18 | 19 | 20 | 21 | 22 | Computed; matches the approved example, last four weeks 19, 20, 21, 22 (R3-VOL-04) |
-| L3 big muscle (λ 0.50) | 20 | 20 | 20 | 20 | 21 | 21 | 22 | 22 | 23 | 23 | 24 | 25 | Computed |
-| L2 shoulders or arms (λ 1) | 12 | 12 | 12 | 13 | 13 | 13 | 14 | 15 | 16 | 16 | 17 | 18 | Computed; peaks below the ceiling of 22 |
-| L2 Focus muscle +2 (λ 0.78) | 17 | 17 | 17 | 18 | 18 | 19 | 19 | 20 | 21 | 22 | 23 | 24 | Computed with the PROPOSED +2 |
+| L1 big muscle, 10 → 14 (scale 0.76) | 10 | 10 | 10 | 11 | 11 | 11 | 12 | 12 | 13 | 13 | 13 | 14 | Computed |
+| L2 big muscle, 15 → 22 (scale 0.87) | 15 | 15 | 16 | 16 | 17 | 17 | 18 | 19 | 19 | 20 | 21 | 22 | Computed; matches the approved example, last four weeks 19, 20, 21, 22 (R3-VOL-04) |
+| L3 big muscle, 20 → 25 (scale 0.50) | 20 | 20 | 21 | 21 | 21 | 22 | 22 | 23 | 23 | 24 | 24 | 25 | Computed |
+| L2 shoulders or arms, 12 → 22 (scale 1.39: steps above the usual) | 12 | 12 | 13 | 14 | 14 | 15 | 16 | 17 | 18 | 19 | 21 | 22 | Computed; reaches the top of 22 (CX-01). No week needs the big-step note. |
+| L2 Focus muscle +2, 17 → 24 (scale 0.78) | 17 | 17 | 18 | 18 | 19 | 19 | 20 | 21 | 21 | 22 | 23 | 24 | Computed with the PROPOSED +2 |
+| A big muscle on 2 training days, 6 → 8 | 6 | 6 | 6 | 6 | 6 | 7 | 7 | 7 | 7 | 7 | 7 | 8 | Computed (R4-SES-03) |
 
 | Week of an 8-week plan | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 |---|---|---|---|---|---|---|---|---|
 | Stair level | 2 | 2.9 | 3.9 | 4.8 | 6.3 | 7.9 | 9.4 | 11 |
 | Planned reps in reserve | 3 | 3 | 3 | 3 | 2 | 2 | 1-2 | 1 + intensifiers |
-| L1 big muscle | 10 | 10 | 10 | 10 | 11 | 12 | 12 | 13 |
-| L2 big muscle | 15 | 15 | 15 | 16 | 17 | 18 | 18 | 19 |
-| L3 big muscle (λ 0.78) | 20 | 20 | 20 | 21 | 22 | 23 | 24 | 25 |
+| L1 big muscle, 10 → 14 (scale 1.19) | 10 | 10 | 11 | 11 | 12 | 12 | 13 | 14 |
+| L2 big muscle, 15 → 22 (scale 1.36) | 15 | 16 | 16 | 17 | 18 | 19 | 21 | 22 |
+| L3 big muscle, 20 → 25 (scale 0.78) | 20 | 20 | 21 | 21 | 22 | 23 | 24 | 25 |
 
-All curves: S `rule_tables > rate_engine > planned_targets_by_level` (16 rows) and S `plan_types > fixed_12`, `fixed_8 > reference_curve_big_muscle`.
+An 8-week block reaches the same final sets as a 12-week block, with bigger steps (CX-01). The spec's own curve tables are in S `rule_tables > rate_engine > planned_targets_by_level` and S `plan_types > fixed_12`, `fixed_8 > reference_curve_big_muscle`.
 
 | Parameter | Value | Where it lives | Source | Status |
 |---|---|---|---|---|
@@ -243,12 +258,14 @@ All curves: S `rule_tables > rate_engine > planned_targets_by_level` (16 rows) a
 
 | Parameter | Value | Unit | Where it lives | Source | Status |
 |---|---|---|---|---|---|
-| Start of the next block after a completed block | × 1.05 | factor | S `plan_types > cycles > rule`; V `cycles`; R `cycles > start_multiplier` | R2-VOL-06 | Confirmed |
-| Ceiling of the next block | + 1 | set | same; R `cycles > cap_add` | R2-VOL-06 | Confirmed |
-| Ceiling never above | 25 (30 for a Focus or priority muscle) | sets / week | R `cycles > cap_max_nonpriority, cap_max_priority` | R2-VOL-06 | Confirmed |
-| After a stopped block | the same start | | S `plan_types > cycles > after_cancelled_block` | team | PROPOSED |
+| Start of the next block after a completed block | about 5 % above where the last block started (× 105 / 100), in whole sets | factor | S `plan_types > cycles > rule`; V `cycles`; R `cycles > next_block > multiplier`, `cycles > start_multiplier` | R4-PRG-04, R2-VOL-06 | Confirmed |
+| Never above | the level's top number | sets / week | R `cycles > next_block > never_above_top` (true) | R4-PRG-04 | Confirmed |
+| Already at the top | sets stay; load and reps progress | | R `cycles > next_block > at_top` | R4-PRG-04, CX-03 | Confirmed |
+| Least step between blocks while below the top | 1 whole set | sets | R `cycles > next_block > min_whole_sets` | team | PROPOSED (5 % of a small number rounds to nothing) |
+| The level's top from block to block | fixed (14 / 22 / 25) | sets / week | R `volume > cap` | team reading of "never above the level's top number" (R4-PRG-04). Round 2 had also approved a ceiling one set higher per finished block, never above 25, or 30 for a Focus muscle (R2-VOL-06). | INFERRED |
+| After a stopped block | the same start | | S `plan_types > cycles > after_cancelled_block`; R `cycles > same_start_if` | team | PROPOSED |
 | How the tool knows | the person says how many blocks they completed in a row | blocks | S `inputs_schema > fields > F25c` | R3-GEN-01 (nothing is stored); the input is the team's | PROPOSED |
-| Example, L2 big muscle over four blocks | 15→22, 16→23, 17→24, 18→25 | sets / week | S `plan_types > cycles > example_L2_big` | computed | Computed |
+| Example, L2 big muscle over three blocks | 15→22, 16→22, 17→22 | sets / week | computed with R `cycles > next_block` | computed | Computed |
 
 ## 8. Where a new set goes
 
@@ -265,46 +282,59 @@ All curves: S `rule_tables > rate_engine > planned_targets_by_level` (16 rows) a
 | Default sets, calves | 3 | sets | same | VOL-17 | Confirmed |
 | Default sets, athletic template slot | 2 | sets | same | VOL-16 | Confirmed |
 | Fewest sets on an exercise | 2 | sets | same (`min`) | team | PROPOSED |
-| Most sets on one exercise | 4 (L1), 5 (L2-L3); isolation 4 | sets | S `… > steps[3]`; R `placement > max_sets_per_exercise` | team | PROPOSED |
-| Bonus exercise for a small muscle | 2 | sets | S `… > steps[5]`; R `placement > bonus > sets` | VOL-07, R3-VOL-03 | Confirmed placement; 2 sets PROPOSED |
+| Most sets on one exercise | 4 (L1), 5 (L2-L3) | sets | S `… > steps[3]`; R `placement > max_sets_per_exercise` | team | PROPOSED |
+| Isolation exercises on a training day | 3 sets, 4 in the hardest weeks; the rest goes to the bonus exercise | sets | R `placement > x1 > iso_main_day_max` | team | PROPOSED |
+| Bonus exercise for a group its day cannot hold | 2 to 4, on the optional day; at most 2 added exercises a day | sets | S `… > steps[5]`; R `placement > bonus` | VOL-07, R3-VOL-03 | Confirmed placement; the numbers PROPOSED |
+| No optional day for the bonus exercise | the group is capped at what the slots hold, and the plan says so | | R `placement > bonus > no_optional_day` | R4-SES-04 | Confirmed idea; mechanism PROPOSED |
 | Focus 1 / Focus 2 slot | 2 to 3 | sets each | S `rule_tables > priority > delivery` | ORD-11 | Confirmed |
 | Bilateral or unilateral exercise first, when the share is off by more than | 3 | points | S `… > steps[1]`; R `placement > laterality_tolerance` | team | PROPOSED |
 
-## 9. Session size and length
+## 9. Session size
 
-**Rule.** A session holds 5 to 7 resistance exercises. Each group trained that day gets 2 to 4 exercises, never 1. Field athletes may reach 12 exercises plus the 2 core exercises.
+**Rule.** A session is sized by its number of exercises, not by minutes. The count leaves out the warm-up and the 2 core exercises. Every day is built on one of his own templates. The counts are recommendations: people add or remove.
 
-**Why.** "... full-body days need to have the same 2-4 exercises per muscle that day, so it might be a little longer day ... there's never one exercise" (R2-SES-05). "... a great workout by an athlete that has time should be a max of 2 hours. Usually, about 1.5 hours ... People that have different goals, like just weight loss and everyday people, can be 45 minutes to 1 hour" (UNI-09).
+**Why.** "You can probably go from 5 to 7. They can add 1 if they want to. This is just our recommendation. These are templates that we're giving them for them to add or take away" (R4-SES-02). "The template is usually 6 exercises for the full-body days because we do that A-day/B-day of upper/lower" (R4-SES-05). "We just worry about the amount of exercises within the session" (CT-01).
 
 | Parameter | Value | Unit | Where it lives | Source | Status |
 |---|---|---|---|---|---|
-| Resistance exercises at 45 / 60 / 75-90 min | 5 / 6-7 / 8-9 | exercises | S `rule_tables > session_limits > resistance_exercises`; R `session > exercise_cap_by_minutes` | VOL-08 | Confirmed |
-| Usual number for hard aesthetics work | 5 to 7 | exercises | same | VOL-16 | Confirmed |
-| Exercises per group on a day it is trained | 2 to 4 (split days usually 3-4) | exercises | S `… > exercises_per_muscle_on_its_day`; R `session > exercises_per_group` | VOL-07, R2-SES-05, R3-SES-01 | Confirmed |
+| General fitness, fat loss | 5 to 7 (default 7) | exercises | R `session > size > by_type > general` | R4-SES-02 | Confirmed range; default PROPOSED |
+| Aesthetics, bodybuilding | 6 to 8 (default 7) | exercises | R `… > by_type > aesthetics` | R4-SES-02, VOL-16 | Confirmed range; default PROPOSED |
+| Strength | 5 to 6 (default 6) | exercises | R `… > by_type > strength` | R4-SES-02 | Confirmed range; default PROPOSED |
+| Bootcamp | 5 to 7 (default 7) | stations | R `… > by_type > bootcamp` | R4-SES-02, PRG-03 | Confirmed range; default PROPOSED |
+| Field athletes, off-season | up to 12 (default 12) | exercises | R `… > by_type > athletic` | R4-SES-02, VOL-08, R2-SES-04 | Confirmed |
+| Older adults, 60 and over | 5 to 6 (default 6) | exercises | R `… > by_type > older` | R4-SES-02 | Confirmed range; default PROPOSED |
+| CrossFit-style class | 5 to 7; the workout and the skill piece are outside the count | exercises | R `… > by_type > class` | team | PROPOSED |
+| Non-competitive "stay athletic" adult | 5 to 10 | exercises | R `… > by_type > stay_active` | OBSERVED in his 'JUSTICE LEAGUE' tab (10 slots a day) | PROPOSED |
+| Not counted | the warm-up; the 2 core exercises; a superset of two small isolations counts as one | | R `session > size > counts`, `session > outside_cap_blocks` | R4-SES-02, R2-SES-04 | Confirmed |
+| Also not counted | joint care, skill practice, conditioning, cardio, the cool-down, tests | | R `session > outside_cap_blocks` | team | PROPOSED |
+| A full-body day | his A day or B day: about 6 exercises, up to 8 | exercises | R `session > full_body_days`; `model/templates.json` (`skeleton: gym_A`, `gym_B`) | R4-SES-05 | Confirmed |
+| Exercises per group on a full-body day | what the template gives: 1 to 4 | exercises | R `session > exercises_per_group > full_body_day` | R4-SES-05 | Confirmed |
+| Exercises per group on a split day | 2 to 4 (usually 3-4), never 1 | exercises | S `… > exercises_per_muscle_on_its_day`; R `session > exercises_per_group > split_day` | VOL-07, R2-SES-05, R3-SES-01 | Confirmed in rounds 1 to 3; keeping it for split days after round 4 is INFERRED |
 | Calves per leg day | 1 | exercise | same | R3-SES-01 | Confirmed |
-| Field athlete, off-season, most | 12 + 2 core | exercises | S `… > field_athlete_off_season`; R `session > athlete_cap` | VOL-08, R2-SES-04 | Confirmed |
-| Cross-pattern day inside that limit | 2 jump or throw stations + 1 Olympic lift | stations | same | R3-SES-01 | Confirmed |
+| Cross-pattern athletic day inside the 12 | 2 jump or throw stations + 1 Olympic lift | stations | S `… > field_athlete_off_season` | R3-SES-01 | Confirmed |
 | Same-pattern athletic day | 3-4 jump stations + 1 Olympic lift | stations | same | R3-SES-01 | Confirmed for 3-4 jump stations; the Olympic lift on that day INFERRED |
-| Not counted in the limit | warm-up drills; the core block; a superset of two small isolations counts as one | | S `… > outside_cap` | R2-SES-04 | Confirmed |
-| Session length: athletes, bodybuilders, powerlifters | about 90 (most 120) | minutes | S `… > session_minutes`; R `session > minutes_default` | UNI-09 | Confirmed |
-| Session length: general and weight loss | 45 to 60 | minutes | same | UNI-09 | Confirmed |
-| Session length: bootcamp | 35 to 45 | minutes | same | PRG-03 | Confirmed |
-| Session lengths offered | 30, 45, 60, 75, 90 (+ 105, 120 for competitive athletes) | minutes | S `inputs_schema > fields > F24 > options` | UNI-09 | 30-90 from his ranges; 105 / 120 option PROPOSED |
+| What is removed automatically when a session is full | nothing | | R `session > easy_to_remove > automatic` (false) | R4-SES-04 | Confirmed |
+| What the plan names as easiest to remove, in order | conditioning finisher; extra athletic station; small-muscle accessory; bonus exercise (at most 6 listed) | | R `session > easy_to_remove > order`, `render > easy_to_remove` | R4-SES-04 (the person picks); the list is the team's | PROPOSED |
+| Never named as removable | the core block, the main lift, its paired upper lift, the first athletic station | | R `session > easy_to_remove > always_keep` | team | PROPOSED |
+| Session length asked in the intake | no | | R: the intake's `schedule` holds `days_per_week`, `weekdays`, `start_date` only (`engine/CONTRACTS.md`) | CT-01, R4-SES-01 | Confirmed |
+| His typical session lengths | everyday people 45 to 60; athletes, bodybuilders, powerlifters about 90, most 120; bootcamp 35 to 45 | minutes | S `… > session_minutes` | UNI-09, PRG-03 | Confirmed as his words. Background for the printed estimate only. They limit nothing (CT-01). |
 | Training days offered | 2 to 6 (default 4) | days / week | S `inputs_schema > fields > F22` | team | PROPOSED |
 | Full days off, at least | 1 | day / week | R `session > off_days_min` | OBSERVED week shape | OBSERVED |
 | Core block | first, after the warm-up; movable | | S `rule_tables > core_block`; R `core_block` | ATH-11 | Confirmed |
 | Warm-up | 5 min of any cardio + A-drills or mobility | minutes | S `rule_tables > warmup` | ORD-08 | Confirmed |
 
-## 10. The time model
+## 10. The time estimate (information only)
 
-**Rule.** The tool estimates how long each day takes, so it can check the plan against the minutes the person chose.
+**Rule.** The tool estimates how long each day takes and prints it as a range, marked as an estimate. Nothing is cut, moved, reshaped or flagged because of it (CT-01, R4-SES-01).
 
-**Why.** Unilateral work and rest take time: "it has to be accounted for" (UNI-09). He gave session lengths and rest ranges. He did not give minutes per set. Every number below is the team's estimate.
+**Why.** "We can give an average recommendation of what it should take, but we will never know what it's going to take" (CT-01). He gave session lengths and rest ranges. He did not give minutes per set. Every number below is the team's estimate.
 
-Where it lives: S `rule_tables > time_model`; V `time_model`; R `time_model`.
+Where it lives: R `time_model` (`use: estimate_only`), R `render > estimate`; S `rule_tables > time_model`; V `time_model`.
 
 | Parameter | Value | Unit | Source | Status |
 |---|---|---|---|---|
+| What the estimate may change in a plan | nothing | | CT-01 | Confirmed |
+| How it is printed | a range 10 % each way around the estimate, rounded to 5 minutes: "Average time: about 55-70 min (an estimate, for information only)" | minutes | R4-SES-01 (an estimate like "about 60-75 minutes"); width team | Confirmed idea; width PROPOSED |
 | Warm-up, per session | 8 | minutes | ORD-08 | PROPOSED |
 | Core set | 1.5 | minutes per set, rest included | team | PROPOSED |
 | Compound, bilateral | 2.5 | minutes per set | VOL-14 rests | PROPOSED |
@@ -317,28 +347,24 @@ Where it lives: S `rule_tables > time_model`; V `time_model`; R `time_model`.
 | Unilateral time cost | × 1.5 | factor | UNI-09 (his verdict: partly) | PROPOSED |
 | Changeover between exercises | 1.0 (0.5 inside a superset pair) | minutes | team | PROPOSED |
 | A superset pair takes | × 0.65 of doing both apart | factor | ORD-05 | PROPOSED |
-| A day "fits" when it runs at most | 10 % over the chosen length | % | R2-SES-05 ("a little longer day") | PROPOSED |
-| What fits with a core opener: 45 / 60 / 75 / 90 min | 5 exercises, 11 sets / 7, 17 / 8, 23 / 9-10, 29 | | team | PROPOSED |
 | Check against his sheet | his BYOP day 1 (7 exercises, 19 sets) comes out at about 59 min | minutes | OBSERVED | Check only |
 
-The compiled `model/rules.json` holds a newer split of this model into work minutes and rest minutes. It is engine work in progress and also PROPOSED.
+The compiled `model/rules.json > time_model` also holds a split of these numbers into work minutes and rest minutes by kind of set. All of it is PROPOSED and used only for the printed estimate.
 
-## 11. The time check (time vs minimums)
+## 11. Nothing is cut for time (the time check is retired)
 
-**Rule.** When the chosen days and minutes cannot hold the minimums, the plan follows his order: (1) say so up front and offer another day or longer sessions; (2) if the person keeps their time, train fewer groups directly, big movers first; (3) recommend supersets; (4) keep the stairway climbing on what is trained. It never squeezes 2 to 4 exercises per group into a day that cannot hold them.
-
-**Why.** "Recommend doing supersets so that it's a faster workout, but they should be able to get things done" (R3-SES-02).
+**Rule.** There is no time check. The round-3 order for a chosen time that could not hold the minimums (say so and offer more time; train fewer groups directly; recommend supersets; keep climbing) was retired on 2026-10-10 (CT-01). What replaced it:
 
 | Parameter | Value | Where it lives | Source | Status |
 |---|---|---|---|---|
-| The order of the four steps | as above | S `rule_tables > session_limits > time_vs_minimums > coach_order`; V `session_limits > time_vs_minimums_R3SES02` | R3-SES-02 | Confirmed |
-| Minimums of a trained group | 10 sets in week 1; 2-4 exercises on its days (calves 1); a climb of at least 2 sets (calves 1) | `… > minimums_of_a_trained_group` | R2-VOL-06, R2-SES-05, VOL-17; climb size team | Confirmed, except the climb size PROPOSED |
-| Which groups are kept first | pinned and Focus groups, then hips, quads, back, chest, shoulders, calves, triceps, biceps | `… > keep_order`; R `session > time_fit > keep_order` | R3-SES-02 (approved wording: big movers first) | Big movers first confirmed; the exact order, and keeping Focus and pinned groups first, PROPOSED |
-| Groups not trained directly | keep their compound credit and are listed in the plan | S `derived_values > D15_time_fit > output` | R3-SES-02 | Confirmed idea; field names PROPOSED |
-| "Longer sessions" offer | the minutes the peak week needs, rounded up to the next 5 | `… > algorithm` | team | PROPOSED |
-| Supersets when time is short | switched on and counted in the estimate | S `plan_editing > superset_recommendations` | R3-SES-02 | Confirmed idea; mechanism PROPOSED |
-| Worked example: Level 1 aesthetics, 4 × 60 min | offer 85 min; keeping the time trains hips, quads, back, chest, shoulders, biceps directly | `… > examples` | computed | Computed on PROPOSED numbers |
-| Worked example: pickleball, 2 × 45 min | offer 105 min; keeping the time trains calves and hips directly | `… > examples` | computed | Computed on PROPOSED numbers |
+| Fitting a plan to minutes | never | R `time_model > use` (`estimate_only`); check V3 fails a plan that carries a session length, a minute limit, a time check or a time offer | CT-01, R4-SES-01 | Confirmed |
+| 2 training days a week | every big muscle at about 6 to 8 weekly sets; the plan says so and suggests a third day | R `volume > two_day` | R4-SES-03 | Confirmed |
+| Whole muscle groups dropped, or extra exercises piled on, to cope with few days | never | R `volume > two_day > never` | R4-SES-03 | Confirmed |
+| What is left out of a full session | the person picks; nothing is automatic | R `session > easy_to_remove` | R4-SES-04 | Confirmed |
+| Supersets | recommended; the person switches each one on; no session length switches them on | S `plan_editing > superset_recommendations`; R `supersets` | R3-SES-02, ORD-05, CT-01 | Confirmed |
+| An old intake that still sends a session length | accepted; the value is ignored, with a notice | `engine/intake.mjs` (`warning.session_minutes_retired`) | team | PROPOSED |
+
+Retired keys of the round-3 design: S `rule_tables > session_limits > time_vs_minimums`, S `derived_values > D15_time_fit`, S `inputs_schema > fields > F24` (session length), the 110 % fit rule, the keep order of groups, and the two worked examples (4 × 60 minutes; 2 × 45 minutes). Their state in spec 1.3.0 is listed in [coverage_matrix_round4.md](../../coverage_matrix_round4.md).
 
 ## 12. Bilateral : unilateral share
 
@@ -534,7 +560,7 @@ Where it lives: S `rule_tables > conditioning > sessions_per_week` and S `rule_t
 | Bootcamp circuit: rounds | 3 to 5 | rounds | S `rule_tables > supersets_contrast_circuits > bootcamp_circuits > his_rule`; R `supersets > bootcamp` | PRG-03 | Confirmed |
 | Bootcamp circuit: work per station | 30 to 50 | seconds | same | PRG-03 | Confirmed |
 | Bootcamp circuit: stations | 5 to 7 | stations | same | PRG-03 | Confirmed |
-| Bootcamp session | 35 to 45 | minutes | same | PRG-03 | Confirmed |
+| Bootcamp session | 35 to 45 | minutes | same | PRG-03 | Confirmed as his description of a class. Not a limit the plan is fitted to (CT-01). |
 | Bootcamp sessions per week | 4, 5 or 6 | sessions | same | PRG-03 | Confirmed |
 | Bootcamp as built by the model | two circuits a day of 4-6 stations, 3 rounds × 35-50 s | | same (`v1_1`) | R2-SES-05 applied by the team | INFERRED |
 
@@ -554,6 +580,16 @@ Where it lives: S `rule_tables > conditioning > sessions_per_week` and S `rule_t
 | Equipment choices in the intake | 8 | profiles | S `vocab > equipment_profiles`; R `equipment > profiles` | EQ-01 | Confirmed (2 more are derived by the tool) |
 | Ideal home kit | adjustable dumbbells, bench, pull-up bar, 8-10 lb medball | | S `rule_tables > equipment > ideal_home_kit` | EQ-02 | Confirmed ("ideal", not required) |
 | No implement in the name | bodyweight → dumbbell → barbell as the level rises | | S `rule_tables > equipment > default_implement` | EQ-09 | Confirmed |
+| Carries and sled work: dose | 2 to 4 trips of 20 to 40 metres, or 20 to 40 seconds | trips, m, s | R `conditioning > carry` | R4-LIB-02 | Confirmed |
+| Carries and sled work: muscle sets | 0; they sit with core and conditioning | sets | R `conditioning > carry > counts_as_muscle_sets` (false) | R4-LIB-02 | Confirmed |
+| Team-proposed exercises (optional add-ons) a template may pick | 0. Exceptions: wall balls and sled pushes in HYROX | records | R `selection > addons` | R4-LIB-01 | Confirmed |
+| Wall balls and sled pushes in the CrossFit-style class workout | on, with a switch | | R `selection > addons > primary_exceptions[1] > enabled` | R4-LIB-01 ("maybe") | PROPOSED |
+| Optional add-ons listed on a plan | up to 6 (joint care, then sport, then a carry), 2 to 3 sets each | add-ons | R `selection > addons > offer` | team | PROPOSED |
+| Neck work | not picked, not offered, not shown | | R `selection > addons > not_shown_statuses` | R4-LIB-01 | Confirmed |
+| Vertical / mid-range push slot for muscle, general, fat-loss and "stay active" goals | an incline press leads; overhead presses stay as swaps | | R `selection > incline_first` | R4-LIB-03 | Confirmed preference; the selection weight (4) and the goal list PROPOSED |
+| Mid-range pull | its own category between horizontal and vertical pull; counts as a horizontal pull for credit | | R `selection > mid_range > pull` | R4-LIB-03; credit team | Confirmed category; credit and the 2 row records PROPOSED |
+| A swap prints | one line: what it keeps, what it loses | | R `selection > swap_notes` | R4-LIB-04 | Confirmed; phrases PROPOSED |
+| Video | a YouTube search link built from the English exercise name, plus the name to copy; third-party links: none | | R `render > video` | R4-LIB-05 | Confirmed |
 
 ## 18. Age rules
 
@@ -634,7 +670,7 @@ Where it lives: S `rule_tables > conditioning > sessions_per_week` and S `rule_t
 
 ## 21. Product limits
 
-**Rule.** Few inputs. One build. Nothing kept.
+**Rule.** Few inputs. The release first. One build. Nothing kept. Everything editable.
 
 **Why.** "I want this to be very simple. This works. We're not going to need a lot of inputs for this" (R3-VOL-04). "I don't want any data kept" (R3-GEN-01).
 
@@ -642,12 +678,17 @@ Where it lives: S `rule_tables > conditioning > sessions_per_week` and S `rule_t
 |---|---|---|---|---|
 | Inputs after the plan is built | 0 | S `rule_tables > rate_engine > no_feedback` | R3-VOL-02, R3-VOL-04 | Confirmed |
 | User data stored | none | S `legal_and_privacy > no_data_kept` | R3-GEN-01 | Confirmed |
-| Release tick | every build or rebuild | S `legal_and_privacy > release_every_build` | R2-GEN-03, R3-GEN-01 | Confirmed |
-| Health-check items that stop the automatic plan | 5 | S `legal_and_privacy > health_check > route` | R2-GEN-03 | Confirmed; final wording by a lawyer |
+| Terms and release accepted | required before a plan is generated, at every build or rebuild. No acceptance: no plan (status invalid, no weeks). | S `legal_and_privacy > release_every_build`; R `legal > gate` | R2-GEN-03, R3-GEN-01, R4-SCP-01, R4-SCP-02 | Confirmed |
+| Release line printed on the plan | top and bottom of a full plan and of the overview; a short line on block, week and day views; English and Spanish; 3 wordings (self, coach, guardian) | R `legal > release_line` | R4-SCP-01, R4-SCP-02 | Rule confirmed; wording PROPOSED, LEGAL REVIEW |
+| Who may use the plans on their own | everyone | R `legal > gate > applies_to` | R4-SCP-01 | Confirmed |
+| Session length asked | no | (no field) | R4-SES-01 | Confirmed |
+| What a person may edit | everything: sets by day or week, add or remove an exercise, a block on or off, swaps | S `plan_editing`; `engine/edit.mjs` | R3-SES-02, CX-02, CX-04 | Confirmed; screen mechanics PROPOSED |
+| Sport profile confidence labels | 3: `confirmed_by_coach` (23 profiles), `similar_sport` (67), `proposed` (37); never shown on a plan | R `render > profile_confidence`; `model/profiles.json > sports[id].confidence` | R4-SCP-03 | Confirmed; the sorting INFERRED |
+| Health-check items that stop the automatic plan | 5 | S `legal_and_privacy > health_check > route` | R2-GEN-03 | Confirmed in round 2; final wording by a lawyer. Open after R4-SCP-01 ("everyone should be able to use the plan"): whether they should still stop a plan. Today they do. |
 | Languages | English first, full Spanish | S `output > language` | GEN-01, R2-GEN-08 | Confirmed |
 | Units | pounds in the US, kilograms elsewhere, switchable | S `inputs_schema > fields > F06` | R2-GEN-08 | Confirmed |
 | Activities a person may pick | up to 2 | S `inputs_schema > fields > F11r > type` | team | PROPOSED |
-| Sample plans he will grade | 7 | S `output > sample_plans_for_grading` | R2-GEN-07 | Confirmed |
+| Sample plans he will grade | 7 (the repo holds 8: his 7 plus a pickleball sample) | S `output > sample_plans_for_grading` | R2-GEN-07 | Confirmed |
 
 ## 22. Retired numbers (do not reuse)
 
@@ -664,7 +705,17 @@ Where it lives: S `rule_tables > conditioning > sessions_per_week` and S `rule_t
 | 8-week plan: start × 1.10, 4 + 4 weeks, first 4 weeks ≤ 5 % | "start hard" | R2-PER-03 |
 | 12-week plan: weeks 1-3 ≤ 3 %; week-7 deload; week 1 of the next cycle as a deload | old 12-week shape | PER-01, R2-PER-03, R2-PER-04, R2-VOL-07, R3-PER-01 |
 | Plyo share floor of 20 % | a floor under the starting share | R2-ATH-01 |
-| Unilateral slot = 1.5 slots, used to cut exercises | time rule as an exercise cap | UNI-09 (partly); replaced by the time model |
+| Unilateral slot = 1.5 slots, used to cut exercises | time rule as an exercise cap | UNI-09 (partly); then CT-01: time is an estimate only |
+| Step for one group at most 7 % a week; coach-set step 0 to 7 % | a hard limit on the weekly step | CX-01, R4-PRG-02 |
+| Total weekly sets rise by less than 10 %; its exceptions; the one-set allowance | a hard limit on the weekly total | CX-01, R4-PRG-02 |
+| Scale factor on the steps never above 1; "the ceiling is a maximum" when 3 % and 5 % steps cannot reach it | ending below the planned final sets | CX-01 |
+| Least climb of 2 sets (calves 1) for a trained group | a rule that sets must rise | CX-02, CX-03 |
+| Exercises by minutes: 5 at 45, 6-7 at 60, 8-9 at 75-90 | session size from session length | R4-SES-01, R4-SES-02 |
+| Session lengths offered: 30, 45, 60, 75, 90, 105, 120 minutes | an intake question | R4-SES-01 |
+| A day "fits" at up to 110 % of the chosen length; "longer sessions" offers; the keep order of groups | the time check | CT-01 |
+| Full-body day of 7 to 10 resistance exercises with 2 to 4 per group | a layout built from the 2-to-4 rule | R4-SES-05 |
+| Next-block ceiling + 1 set per finished block (never above 25, or 30) | a rising ceiling | not carried into R4-PRG-04's "never above the level's top number" (INFERRED reading; it was R2-VOL-06) |
+| 136 third-party video links in the catalog | links that are not his | R4-LIB-05 |
 | Maintenance fixed at 4-6 weeks | fixed length | R2-PER-06 |
 | Bands about 50 %, chains about 70 % | variable-resistance loads | EQ-12 |
 

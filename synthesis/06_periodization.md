@@ -1,4 +1,4 @@
-# 06 · Periodization & progression model (Blaze Camp) · v1.2
+# 06 · Periodization & progression model (Blaze Camp) · v1.3
 
 **What this is.** This is the model of *how the coach moves a program through time*: which plan lengths exist, how the weeks inside a plan are shaped, which levers he pulls week to week, where deloads, tests and maintenance blocks go, and how athletes move through a season and a year. It is written for two readers:
 * **the coach**, to check that it really is how he thinks (every claim is tagged and cited);
@@ -6,7 +6,7 @@
 
 The machine-readable twin is `06_periodization.json` (same content, plus the stairway grids and expanded skeleton weeks as data; the v1.2 change log is under `v1_2` and every replaced v1.1 object under `retired_v1_1`).
 
-**Version.** v1.2, 2026-10-09. This version applies the coach's **round-3 answers** (`coach_answers_round3.md`, read in full) on top of v1.1. **Authority order: round-3 answers > round-2 answers (`coach_answers_round2.md`) > round-1 answers (`coach_answers_full.md`, `coach_answers.md`) > OBSERVED sheet facts > INFERRED / SCIENCE / PROPOSED.** The big changes: the plan is output once with its built-in stairway (now approved) and there are no check-ins, no tracking and no stored data - people and coaches adjust the plan themselves (R3-VOL-02, R3-VOL-04, R3-GEN-01, R3-SES-02); the easy week after a block is a recommendation, and when a block ends it ends and the user builds the next one (R3-PER-01); holidays are planned between blocks; and the athlete periodization proposals are approved (swimming taper, gen-pop play days and event dates, HYROX, the remaining sports' shares and game-heavy list, older and racket defaults: R3-ATH-01..05). The v1.2 changelog is the next section; the body of the file (tables, examples, pseudo-code, JSON) has been updated in place.
+**Version.** v1.3, 2026-10-11: the coach's round-4 answers (`coach_answers_round4.md`), CT-01 (`coach_answers_time_2026-10-10.md`) and CX-01..04 (`coach_answers_codex_2026-10-10.md`) applied; the v1.3 section below wins over every later section. **Authority order (v1.3): round 4 and CT-01 > CX-01..04 > round 3 > round 2 > round 1 > OBSERVED > INFERRED / SCIENCE / PROPOSED.** The JSON twin is still v1.2 (not re-issued). *Before that:* v1.2, 2026-10-09. This version applies the coach's **round-3 answers** (`coach_answers_round3.md`, read in full) on top of v1.1. **Authority order: round-3 answers > round-2 answers (`coach_answers_round2.md`) > round-1 answers (`coach_answers_full.md`, `coach_answers.md`) > OBSERVED sheet facts > INFERRED / SCIENCE / PROPOSED.** The big changes: the plan is output once with its built-in stairway (now approved) and there are no check-ins, no tracking and no stored data - people and coaches adjust the plan themselves (R3-VOL-02, R3-VOL-04, R3-GEN-01, R3-SES-02); the easy week after a block is a recommendation, and when a block ends it ends and the user builds the next one (R3-PER-01); holidays are planned between blocks; and the athlete periodization proposals are approved (swimming taper, gen-pop play days and event dates, HYROX, the remaining sports' shares and game-heavy list, older and racket defaults: R3-ATH-01..05). The v1.2 changelog is the next section; the body of the file (tables, examples, pseudo-code, JSON) has been updated in place.
 
 *History (v1.1):* v1.1, 2026-10-08. This version applies the coach's **round-2 answers** (`coach_answers_round2.md`) on top of v1. **Authority order: round-2 answers > round-1 answers (`coach_answers_full.md`) > everything else** (sheets, team decisions, research). It also answers his request of the same day to cover every popular US sport, swimming included, and to give the general population an athletic option (pickleball, HYROX). The big changes: every plan is a **stairway** (small steps first, a little bigger after halfway, hardest weeks last); **no deload or maintenance week inside a block** (cancel -> maintenance -> new block); maintenance of a chosen, extendable length; the gen-pop year approved and tunable; tests before and after only, submaximal from zero; and the approved athlete numbers (Receive-Create stages, Olympic frequency, in-season reductions, plyo shares, aerobic counts). The v1.1 changelog is the next section; the body of the file (tables, examples, JSON) has been updated in place.
 
@@ -17,6 +17,8 @@ The machine-readable twin is `06_periodization.json` (same content, plus the sta
 * **OBSERVED-ADAPTED**: an observed shape that has been re-parameterised, for example for a different level base or compressed into fewer weeks.
 * **COACH-ANSWER <ID>**: the coach's own answer to question <ID> in `coach_answers_full.md`. A RIGHT verdict with no text makes our stated assumption his rule.
 * **COACH-R2 <ID>**: his round-2 answer (`coach_answers_round2.md`, IDs R2-VOL / R2-SES / R2-ATH / R2-LIB / R2-PER / R2-GEN, plus the leftovers LIB-10 and LIB-12). Round 2 outranks round 1. A RIGHT with no text makes our round-2 proposal his rule.
+* **COACH-R4 <ID>**: his round-4 answer (`coach_answers_round4.md`, IDs R4-SES / R4-PRG / R4-LIB / R4-SCP / R4-REL). Round 4 outranks everything below, together with **COACH-CT CT-01** (session time is the user's responsibility; `coach_answers_time_2026-10-10.md`).
+* **COACH-CX CX-01..04**: his clarifications on progression and editable templates (`coach_answers_codex_2026-10-10.md`). Above round 3, below round 4 and CT-01.
 * **COACH-R3 <ID>**: his round-3 answer (`coach_answers_round3.md`, IDs R3-VOL / R3-SES / R3-PER / R3-ATH / R3-GEN). Round 3 outranks round 2. A RIGHT with no text makes our round-3 proposal his rule.
 * **COACH-R2 REQ**: his chat request of 2026-10-08, quoted in section 8.2.6 ('all of the different popular sports in the United States ... Include swimming as well'; gen pop wanting 'high rows [HYROX] and pickleball ... to stay athletic and active').
 * **INFERRED**: analyst reasoning from observed data. The coach should confirm it.
@@ -35,7 +37,104 @@ The machine-readable twin is `06_periodization.json` (same content, plus the sta
 
 ---
 
+## v1.3 - round 4, CT-01 and CX-01..04 applied (2026-10-11)
+
+The coach's newest answers outrank everything below: round 4 (`coach_answers_round4.md`, 20 answers, 2026-10-11), his clarification on session time (`coach_answers_time_2026-10-10.md`, **CT-01**) and his clarifications on progression and editing (`coach_answers_codex_2026-10-10.md`, **CX-01..04**). **Authority order: round 4 and CT-01 > CX-01..04 > round 3 > round 2 > round 1 > chat statements > sheets.** **Where this section and a later section of this file disagree, this section wins.** Later sections that v1.3 supersedes carry a "RETIRED in v1.3" or "Changed in v1.3" note under their heading; the text under such a note is history. The master record is `BLAZE_CAMP_BRAIN.md` v1.3 (what changed: §0d). 
+
+### V1. What v1.3 changes in this file
+
+| # | Change | Sections below it replaces | Source |
+|---|---|---|---|
+| 1 | **The planned final sets are reached.** The 3 % / 5 % pattern stays the shape of every block; each trained group's steps are scaled so it reaches its final sets, with faster steps when that is what it takes (λ may pass 1) | §1.1 rules 3 and 5; §4.2; §7.0.1 ("Planned steps", λ < 1 only); §7.1, §7.2 grids; §14.5 question 6 | COACH-CX CX-01; COACH-R4 R4-PRG-01 |
+| 2 | **Arrival**: the top number in the last week when the math allows; one week early and holding it with more reps or load is fine; never earlier | §7.0.1 | COACH-R4 R4-PRG-01 |
+| 3 | **No hard limit; a note above about 15 %.** The 7 % step limit, the "total below 10 % a week" ceiling and release staggering are retired | §7.0.1 ("Total ceiling"; "nothing above 7 % is ever planned") | COACH-CX CX-01; COACH-R4 R4-PRG-02 |
+| 4 | **A week may keep the same sets** when reps or load progress; at the top, sets stay. The year's Q1 cut (sets at the starting level) no longer needs a special reading | §7.0.1 ("Every week climbs" stays: one dial moves); §7.6; §14.5 question 5 | COACH-CX CX-02, CX-03 |
+| 5 | **Reps and load progress by a rule the person applies**, never a promised number per week | §5 (adds to it) | COACH-R4 R4-PRG-03 |
+| 6 | **Next block**: every group starts about 5 % above the last block's start, in whole sets, never above the level's top; "cap + 1" is retired | §1.1 rule 10; §7.0.2; §7.4; §7.6 (Q2); §14.5 question 2 | COACH-R4 R4-PRG-04 |
+| 7 | **No time-fitting**: session length is not an input; nothing in a plan's shape depends on minutes | §13 (pseudo-code inputs) | COACH-CT CT-01; COACH-R4 R4-SES-01 |
+| 8 | **Two training days**: every big group at about 6-8 weekly sets (start 6, top 8), a third day suggested; the floor of 10 applies from 3 training days | §1.1 rule 6; §4.2 | COACH-R4 R4-SES-03 |
+| 9 | **Everything is editable**, the sets of any day or week included; nothing is dropped automatically | §1.1 rule 2 (adds to it) | COACH-CX CX-02, CX-04; COACH-R4 R4-SES-04 |
+| 10 | **Full-body days are his A / B days** (about 6 exercises); "2-4 exercises per group" stays on split days | §1.1 rule 6 | COACH-R4 R4-SES-05 |
+
+### V2. The stairway in v1.3 (replaces the λ rule and the grids of §7.0.1, §7.1 and §7.2 where they differ)
+
+**(a) The planned stairway (the math; pattern APPROVED R3-VOL-04; endpoint COACH-CX CX-01, COACH-R4 R4-PRG-01; kernel `engine/progression/stairway.mjs`)**
+
+```
+halfway week          h = ceil(N / 2)                                   (N = weeks in the training block)
+default pattern       s_w = 3 %  if 2 <= w <= h      ("a little bit smaller")
+                      s_w = 5 %  if h <  w <= N      ("a little bit higher, but not too much")
+start                 S = the group's start for the level (+ Focus F); on a 2-day plan 6 for a big group        (master §5.3, master §5.6.2)
+planned final sets    P = the group's top for the level (+ Focus F), whole sets; on a 2-day plan 8             (R4-SES-03)
+scale factor          lambda solves  S x product over w = 2..N of (1 + lambda x s_w) = P
+                      lambda < 1: smaller steps than the pattern (the range is narrow or the plan is long)
+                      lambda > 1: FASTER steps than the pattern - allowed, with no cap on lambda                (CX-01)
+curve                 T(1) = S;  T(w) = T(w-1) x (1 + lambda x s_w);  T(N) = P
+whole sets            round T(w) half up, but hold the count at least one set under P until the arrival week;
+                      the arrival week is the last week (one week early at most); never fewer sets than the week before   (R4-PRG-01)
+note                  a week that adds more than about 15 % carries a note; one whole set alone is never noted  (R4-PRG-02; detail PROPOSED)
+the template          a week's number is also capped at what the group's slots hold that week (2-5 sets an exercise, 2-4 at L1);
+                      what the slots cannot hold goes to the bonus exercise, or the group is capped and the plan says so   (master §5.5, master §5.6.3)
+flat blocks           P = S (the year's cut quarter, a maintenance plan, a group already at its top):
+                      the sets stay and reps and load carry the progress                                         (CX-02, CX-03)
+```
+
+**Retired from this block in v1.3:** `P = min(C, S x G(N))` with λ never above 1; "planned step ≤ 7 %; total weekly resistance sets strictly below +10 %"; "other lines ≤ 3 % while a priority push runs"; the "time / exercise limits" clause with its minimum climb.
+
+**Planned weekly sets (whole sets; one group on its own, computed with the engine kernel for this file; Focus lines carry the default +2):**
+
+| Plan | Group (start → planned final sets) | λ | Weeks 1 → N | Biggest week | Noted weeks |
+|---|---|---|---|---|---|
+| 12 wk | L1 big / shoulders / arms 10 → 14 | 0.76 | 10 · 10 · 10 · 11 · 11 · 11 · 12 · 12 · 13 · 13 · 13 · 14 | +1 set | none |
+| 12 wk | L2 big 15 → 22 | 0.87 | 15 · 15 · 16 · 16 · 17 · 17 · 18 · 19 · 19 · 20 · 21 · 22 | +1 set | none |
+| 12 wk | L3 big 20 → 25 | 0.50 | 20 · 20 · 21 · 21 · 21 · 22 · 22 · 23 · 23 · 24 · 24 · 25 | +1 set | none |
+| 12 wk | L2 shoulders / arms 12 → 22 | 1.39 | 12 · 12 · 13 · 14 · 14 · 15 · 16 · 17 · 18 · 19 · 21 · 22 | +2 sets (10.5 %) | none |
+| 12 wk | L3 shoulders / arms 15 → 25 | 1.16 | 15 · 16 · 16 · 17 · 17 · 18 · 19 · 20 · 21 · 22 · 24 · 25 | +2 sets (9.1 %) | none |
+| 12 wk | L1 Focus muscle (+2) 12 → 16 | 0.65 | 12 · 12 · 12 · 13 · 13 · 13 · 14 · 14 · 15 · 15 · 15 · 16 | +1 set | none |
+| 12 wk | L2 Focus muscle (+2) 17 → 24 | 0.78 | 17 · 17 · 18 · 18 · 19 · 19 · 20 · 21 · 21 · 22 · 23 · 24 | +1 set | none |
+| 12 wk | L3 Focus muscle (+2) 22 → 27 | 0.46 | 22 · 22 · 23 · 23 · 23 · 24 · 24 · 25 · 25 · 26 · 26 · 27 | +1 set | none |
+| 12 wk | 2-day plan, big group 6 → 8 | 0.65 | 6 · 6 · 6 · 6 · 6 · 7 · 7 · 7 · 7 · 7 · 7 · 8 | +1 set | none |
+| 8 wk | L1 big / shoulders / arms 10 → 14 | 1.19 | 10 · 10 · 11 · 11 · 12 · 12 · 13 · 14 | +1 set | none |
+| 8 wk | L2 big 15 → 22 | 1.36 | 15 · 16 · 16 · 17 · 18 · 19 · 21 · 22 | +2 sets (10.5 %) | none |
+| 8 wk | L3 big 20 → 25 | 0.78 | 20 · 20 · 21 · 21 · 22 · 23 · 24 · 25 | +1 set | none |
+| 8 wk | L2 shoulders / arms 12 → 22 | 2.19 | 12 · 13 · 14 · 15 · 16 · 18 · 20 · 22 | +2 sets (12.5 %) | none |
+| 8 wk | L3 shoulders / arms 15 → 25 | 1.83 | 15 · 16 · 17 · 18 · 19 · 21 · 23 · 25 | +2 sets (10.5 %) | none |
+| 8 wk | L1 Focus muscle (+2) 12 → 16 | 1.01 | 12 · 12 · 13 · 13 · 14 · 14 · 15 · 16 | +1 set | none |
+| 8 wk | L2 Focus muscle (+2) 17 → 24 | 1.22 | 17 · 18 · 18 · 19 · 20 · 21 · 23 · 24 | +2 sets (9.5 %) | none |
+| 8 wk | L3 Focus muscle (+2) 22 → 27 | 0.72 | 22 · 22 · 23 · 23 · 24 · 25 · 26 · 27 | +1 set | none |
+| 6 wk | L2 big 15 → 22 | 1.90 | 15 · 16 · 17 · 18 · 20 · 22 | +2 sets (11.1 %) | none |
+| 6 wk | L2 shoulders / arms 12 → 22 | 3.08 | 12 · 13 · 14 · 17 · 19 · 22 | +3 sets (21.4 %) | weeks 4 and 6 |
+| 4 wk | L2 big 15 → 22 | 3.15 | 15 · 16 · 19 · 22 | +3 sets (18.8 %) | weeks 3 and 4 |
+| 4 wk | L2 shoulders / arms 12 → 22 | 5.19 | 12 · 14 · 17 · 22 | +5 sets (29.4 %) | weeks 2, 3 and 4 |
+
+A 12-week L2 big group goes 15 → 22 with its last four weeks at 19, 20, 21, 22: **his approved example** (R3-VOL-04) still holds. **What changed against v1.2:** the 12-week L2 / L3 shoulders and arms now reach 22 and 25 (v1.2 stopped at 18 and 23), and every 8-week group reaches the same final sets as on 12 weeks, with faster steps. An 8-week plan still starts at the normal start (no "start hard"). **Short blocks with a big target** are where the note shows: a 4-week L2 block adds 3 to 5 sets in one week, and the plan prints "this week jumps more than usual: adjust if needed" on those weeks (R4-PRG-02). **In a plan** the groups take turns, so the week's total climbs a set or two most weeks and the last steps are shared between the last two weeks (PROPOSED staggering; R4-PRG-01 allows one week early). A week's number is also what the template's slots can hold (master §5.6.3). **L1 note:** on 12 weeks an L1 group adds its first set in week 4, so the first weeks progress through reps, load and RIR, which is allowed (CX-02).
+
+**(d) No rate limit; a note instead (v1.3).** There is no maximum step and no maximum weekly rise (COACH-CX CX-01; COACH-R4 R4-PRG-02: "No hard limit, but the plan prints a clear note when any week adds more than about 15 %"). The note reads "This week jumps more than usual (17 % more sets for Shoulders): adjust if needed", is printed on that week and in "How you progress", and the week is marked in the stairway table. PROPOSED details: a group is noted when it adds 2 or more whole sets and more than 15 %; the week's total is noted above 15 %; one whole set alone is never noted. A coach may still set a slower pattern by hand at build time. A pain area keeps slow steps (about 3 %; VOL-03). **Retired in v1.3:** planned step ≤ 7 % (R2-VOL-01); total weekly resistance sets strictly below +10 % (UNI-05) with its one-set allowance and exemptions; "10 % is never offered as a step"; release staggering to stay under 10 %. **Retired in v1.2:** the 60+ ≤ 3 % cap (older adults are protected through exercise choice, R3-ATH-02, and constrained machines, EQ-03).
+
+**What stays from §7.0.1:** the shape and its quotes; the halves (3 % in weeks 2 to the halfway week, 5 % after); the phases (ACCLIMATION, DRIVE, HARDEST) and their weeks; the stair level display 2 → 11; the effort drift; the exercise blocks; "every week at least one dial moves up" (a week that keeps its sets moves load, reps or the RIR target).
+
+### V3. Reps and load
+
+**Reps and load: the rule the person applies (v1.3; COACH-R4 R4-PRG-03; COACH-CX CX-02, CX-03).** There are no check-ins, so rep and load progress is written as a rule and never as a promised number for a week: "3 sets of 8-12. When you hit 12 on every set with 1-2 reps left in the tank, add weight next time and start again at 8." Every lift prints its own line ("Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8"); the reps in the tank are that week's planned effort. A fixed-rep lift reads "when every set is done with N left in the tank, add weight next time"; a lift with its reps written per set (12 / 10 / 8) says "the written reps" (these two wordings PROPOSED). A week that keeps its sets progresses through this rule. That is planned progress; an unchanged prescription is never labelled progress (CX-02).
+
+### V4. Repeated blocks and the next block (replaces §7.4)
+
+| Level (top) | Block 1 | Block 2 | Block 3 | Block 4 |
+|---|---|---|---|---|
+| L1 (14) | 10 → 14 (λ 0.76) | 11 → 14 (λ 0.54) | 12 → 14 (λ 0.35) | 13 → 14 (λ 0.17) |
+| L2 (22) | 15 → 22 (λ 0.87) | 16 → 22 (λ 0.72) | 17 → 22 (λ 0.58) | 18 → 22 (λ 0.45) |
+| L3 (25) | 20 → 25 (λ 0.50) | 21 → 25 (λ 0.39) | 22 → 25 (λ 0.29) | 23 → 25 (λ 0.19) |
+
+Each completed block raises the start by about 5 % (one whole set at these numbers; at least one set while below the top, PROPOSED) and **the top does not move**: "never above the level's top number" (R4-PRG-04). So the steps get smaller as the start nears the top, and a group that starts at its top (L1 after four blocks: 14 → 14) keeps its sets while load and reps carry the progress (CX-03). For advanced lifters "one level higher" comes from heavier loads, intensifiers (MYO, supersets), a Focus muscle or a coach priority push up to 30 (APPROVED, R2-PER-05; R3-SES-01), or moving up a level; the optional Pro setting goes above 30 (R2-VOL-06, PROPOSED numbers). Nothing is stored, so the rebuild asks how many blocks were completed in a row (PROPOSED). After a **stopped** block the start repeats (PROPOSED). *(Retired: v1.2's "cap + 1" per block, which ran L1 to 13 → 17 and L2 to 18 → 25 by block 4.)*
+
+In the yearly plan (§7.6) the Q2 block starts about 5 % above the Q1 start with the same top; the Q1 cut keeps its sets at the starting level, which CX-02 now simply allows.
+
+---
+
+
 ## v1.2 - round 3 applied
+
+> **Changed again in v1.3.** This list is the v1.2 change record, kept as written. Its rows about the time check and time vs minimums (R3-SES-02: offers, "fewer groups trained directly", "never flat"), about the 7 % and 10 % limits, and about the next block's "cap + 1" were changed again by COACH-CT CT-01, COACH-CX CX-01..04 and round 4. The v1.3 section above wins.
 
 Every change below comes from the coach's round-3 answers (`coach_answers_round3.md`, read in full). 'Where' points to the section that now carries the rule. His words that set the direction: 'We're only doing outputs, and people can change accordingly' (R3-VOL-02); 'I want them to be able to kick out a program, and that's it. That's the program' (R3-VOL-04); 'maintenance weeks are a recommendation. They don't have to be mandatory ... when the block ends, it just ends, and then you have to go back into the app and build whatever you want next' (R3-PER-01); 'I don't want any data kept' (R3-GEN-01).
 
@@ -297,22 +396,22 @@ The retired v0 objects are kept in `06_periodization.json > retired_v0` for trac
 
 ---
 
-## 1. The coach's progression brain on one page (v1.2)
+## 1. The coach's progression brain on one page (v1.3)
 
 ### 1.1 His rules (coach answers, round 3 first)
 
 These are the rules the generator follows (v1.2). Each carries the question ID it comes from; details are in sections 4-11. The v1.1 list is kept in `retired_v1_1.headline_rules_v1_1`.
 
 1. Plan modes chosen at intake: 12-week block (his preferred), 8-week block, maintenance phase (length chosen) and the yearly gen-pop plan; prep (event / fight / meet date) and season (competitive athlete) are overlays. No 6-week loading plan. The week-by-week mode is retired with the check-ins. (COACH-ANSWER PER-01; COACH-R2 R2-PER-01, R2-PER-06; COACH-R3 R3-VOL-02, R3-VOL-04)
-2. The generator outputs the whole plan once, with its built-in stairway: no check-ins, no tracking, no adaptive inputs and nothing stored; the person or coach sees every week ahead and adjusts the plan themselves (switch off a day's athletic or core block, add or remove exercises or blocks; supersets recommended). (COACH-R3 R3-VOL-02, R3-VOL-04, R3-GEN-01, R3-SES-02)
-3. Every training block is a stairway: gradual weekly steps, smaller in the first weeks, a little bigger after the halfway point 'but not too much', hardest weeks last; 12-week: the last 4 weeks (9-12) are 'brutal'; every plan length. (COACH-R2 R2-PER-03, R2-PER-04; approved COACH-R3 R3-VOL-04)
+2. The generator outputs the whole plan once, with its built-in stairway: no check-ins, no tracking, no adaptive inputs and nothing stored; the person or coach sees every week ahead and adjusts the plan themselves (switch off a day's athletic or core block, add or remove exercises or blocks; supersets recommended). (COACH-R3 R3-VOL-02, R3-VOL-04, R3-GEN-01, R3-SES-02) **v1.3:** everything is editable, the sets of any day or week included; nothing is dropped automatically; session length is not an input (COACH-CX CX-02, CX-04; COACH-R4 R4-SES-04; COACH-CT CT-01).
+3. Every training block is a stairway: gradual weekly steps, smaller in the first weeks, a little bigger after the halfway point 'but not too much', hardest weeks last; 12-week: the last 4 weeks (9-12) are 'brutal'; every plan length. (COACH-R2 R2-PER-03, R2-PER-04; approved COACH-R3 R3-VOL-04) **v1.3:** every trained group reaches its planned final sets, in the last week or one week early at most; a week may keep the same sets while reps or load progress (COACH-CX CX-01, CX-02; COACH-R4 R4-PRG-01).
 4. 'Start at a 2, end at an 11' is how hard the week feels (overall volume and loading), not a set count; every week at least one dial climbs: a set, load or reps, or the RIR target. (COACH-R2 R2-PER-05; dial rule PROPOSED)
-5. Planned steps (approved): about 3 % a week to the halfway week, about 5 % after; when a group's cap would come early, all its steps shrink by one factor λ so each trained group reaches its ceiling in the last week; older adults (60+) run the same steps (the v1.1 PROPOSED <= 3 % cap is retired, as in 12_volume_algorithm v1.2 §3.4: it would keep them from reaching the ceiling in the last week; they are protected by the R3-ATH-02 defaults and constrained machines, EQ-03); never above 7 %; the person's total weekly sets rise < 10 %. Phases: 12-week ACCLIMATION 1-3 (L1 1-4, L3 1-2) -> DRIVE to week 8 -> HARDEST 9-12; 8-week ACCLIMATION 1-2 (L1 1-3, L3 1) -> DRIVE to week 5 -> HARDEST 6-8. (COACH-R3 R3-VOL-04; COACH-R2 R2-PER-03, R2-PER-04; COACH-ANSWER PER-01, UNI-05)
-6. Counting on focus groups: hips = glutes + hamstrings (e.g. RDL + hip thrust + leg curl = 3 hip exercises), shoulders = front + side + rear delts (rear delts are not a muscle with its own floor; users and coaches can add more rear-delt work); 2-4 exercises per group trained that day; calves one exercise x 3 sets per leg day; Focus muscle 1 / 2 (optional, max 2) get +1 to +3 weekly sets each inside the stairway (COACH-R3 R3-SES-01, R3-VOL-01); time vs minimums: when the chosen days and minutes cannot hold the minimums, the plan (1) says so up front and offers another day or longer sessions, (2) if the time stays, trains fewer groups directly (big movers first; arms, calves and shoulder isolation from compound credit) instead of every group under the floor, (3) recommends supersets, and (4) keeps the stairway climbing on the groups it trains - never flat (COACH-R3 R3-SES-02; algorithm in 12_volume_algorithm / 05 v1.2).
+5. Planned steps (approved): about 3 % a week to the halfway week, about 5 % after; when a group's cap would come early, all its steps shrink by one factor λ so each trained group reaches its ceiling in the last week; older adults (60+) run the same steps (the v1.1 PROPOSED <= 3 % cap is retired, as in 12_volume_algorithm v1.2 §3.4: it would keep them from reaching the ceiling in the last week; they are protected by the R3-ATH-02 defaults and constrained machines, EQ-03); never above 7 %; the person's total weekly sets rise < 10 %. Phases: 12-week ACCLIMATION 1-3 (L1 1-4, L3 1-2) -> DRIVE to week 8 -> HARDEST 9-12; 8-week ACCLIMATION 1-2 (L1 1-3, L3 1) -> DRIVE to week 5 -> HARDEST 6-8. (COACH-R3 R3-VOL-04; COACH-R2 R2-PER-03, R2-PER-04; COACH-ANSWER PER-01, UNI-05) **v1.3:** λ also grows above 1 when the pattern alone would stop short of the final sets (faster steps are allowed, COACH-CX CX-01); there is no hard limit, and a week that adds more than about 15 % carries a note (COACH-R4 R4-PRG-02).
+6. Counting on focus groups: hips = glutes + hamstrings (e.g. RDL + hip thrust + leg curl = 3 hip exercises), shoulders = front + side + rear delts (rear delts are not a muscle with its own floor; users and coaches can add more rear-delt work); 2-4 exercises per group trained that day; calves one exercise x 3 sets per leg day; Focus muscle 1 / 2 (optional, max 2) get +1 to +3 weekly sets each inside the stairway (COACH-R3 R3-SES-01, R3-VOL-01); time vs minimums: when the chosen days and minutes cannot hold the minimums, the plan (1) says so up front and offers another day or longer sessions, (2) if the time stays, trains fewer groups directly (big movers first; arms, calves and shoulder isolation from compound credit) instead of every group under the floor, (3) recommends supersets, and (4) keeps the stairway climbing on the groups it trains - never flat (COACH-R3 R3-SES-02; algorithm in 12_volume_algorithm / 05 v1.2). **v1.3:** on full-body days his A / B template gives each group its exercises, and "2-4 per group" holds on split days (COACH-R4 R4-SES-05); the floor of 10 applies from 3 training days, and with 2 days every big group is trained at about 6-8 weekly sets (R4-SES-03).
 7. No deload or maintenance week inside a block: blocks are completed. A person or coach who cannot complete a block stops it -> maintenance phase -> a whole new block from week 1; a holiday marked after the start also ends the block unless the mark is removed. (COACH-R2 R2-VOL-07; COACH-R3 R3-PER-01)
 8. After a completed block the block just ends; an easy week at about half the sets of the hardest week (same exercises, 3+ RIR) is RECOMMENDED, not mandatory, as an extra week (12 + 1 = 13); the user goes back into the app and builds what comes next. (COACH-R2 R2-VOL-07; COACH-R3 R3-PER-01; COACH-ANSWER PER-05)
 9. Maintenance phase: length chosen (default 4 weeks); 50-70 % of the last block's final 4 weeks (not floored), RIR 2-3, no intensifiers; when it ends the plan ends and the user builds the next plan (keep maintaining, change the plan or start a block). (COACH-ANSWER PER-01; COACH-R2 R2-PER-06; COACH-R3 R3-PER-01; factor split PROPOSED)
-10. Next block after a completed one: start x1.05, cap +1 set (max 25, priority 30), customizable; advanced lifters at the ceiling climb by load, intensifiers and a rotating priority muscle; after a stopped block the same start. Nothing is stored, so the intake asks 'Did you just finish a block?' and how many in a row (0 by default; 12_volume_algorithm v1.2 §3.12): x1.05 and cap +1 per completed block (PROPOSED). (COACH-R2 R2-VOL-06, R2-PER-05; COACH-R3 R3-GEN-01)
+10. Next block after a completed one: start x1.05, cap +1 set (max 25, priority 30), customizable; advanced lifters at the ceiling climb by load, intensifiers and a rotating priority muscle; after a stopped block the same start. Nothing is stored, so the intake asks 'Did you just finish a block?' and how many in a row (0 by default; 12_volume_algorithm v1.2 §3.12): x1.05 and cap +1 per completed block (PROPOSED). (COACH-R2 R2-VOL-06, R2-PER-05; COACH-R3 R3-GEN-01) **v1.3 (COACH-R4 R4-PRG-04): the next block starts about 5 % above the last block's start, in whole sets, never above the level's top; at the top the sets stay and load and reps progress. "Cap +1" is retired.**
 11. Exercises stay fixed inside 4-6-week exercise blocks; between them 1-2 one-detail variations of library exercises, never invented ones; A/B lead-lift weeks only for variety seekers; heavy squat and heavy deadlift on two different days. (COACH-ANSWER PER-02, PER-03; COACH-R2 R2-LIB-01, R2-SES-01, R2-SES-02)
 12. Tests: before the block (or in week 1) and in the last week, never during the block; anyone without a completed block tests submaximally (5RM / 3RM, 80-90 % efforts), never a 1RM or a max-effort mile from zero; the test days and 'get ready' lines are printed in the plan (nothing stored). (COACH-R2 R2-PER-07; COACH-R3 R3-GEN-01)
 13. Yearly plan (gen-pop 'stay in shape'): Q1 hard work + more cardio, start cutting, sets at the starting level; Q2 summer shape; Q3 maintain at ~70 %; Q4 build muscle, less cardio; last 2 weeks of December holiday maintenance, printed by default and, like every maintenance week, a recommendation the user can switch off (R3-PER-01); user's hemisphere; holiday weeks planned between blocks; the easy weeks after the Q1 and Q2 blocks are recommendations; fully tunable. Athletes follow their season. (COACH-R2 R2-PER-01, R2-PER-02; COACH-R3 R3-PER-01)
@@ -322,6 +421,8 @@ These are the rules the generator follows (v1.2). Each carries the question ID i
 17. Effort stays inside 1-3 RIR (approved drift): 3 RIR early (the '2'), 2 RIR after halfway, 1-2 RIR in the last weeks and 1 RIR plus intensifiers (MYO, supersets; MAX only on small-muscle or bodyweight work) in the final week (the '11'); never to failure on heavy compounds. (COACH-ANSWER VOL-13, GEN-08; COACH-R2 R2-PER-05; COACH-R3 R3-VOL-04)
 18. Swimming (season type C): 3 dryland days + 1 optional (2 for younger or lower-level swimmers), 0 extra gym cardio, jumps mostly ballistic (25 % plyometric), Olympic lifts 2-3 days, shoulder care every session without bands; swimmers: a 2-week dryland taper lined up with the swim coach's taper before the main championship meet; 1 week or none before smaller meets. (COACH-R3 R3-ATH-01)
 19. Stay athletic and active (gen pop): the weekend-warrior athletic overlay inside the gen-pop stairway or year; play days (approved, COACH-R3 R3-ATH-05): the user can enter the days they play; the hardest gym day stays at least 48 h before the biggest play day; weeks with 3+ play sessions drop the extra agility drills and half the jumps; a 45-60+ minute session of the activity counts as one of the 3 cardio sessions, up to 2 (COACH-R3 R3-ATH-05); optional event date for gen pop (a first HYROX race, a pickleball tournament, a 10K): the hardest weeks end 1 week before, then 1 easy week at about half the sets (intensity kept); no date -> the normal stairway or year; after the event the plan ends and the user builds the next (R3-PER-01); HYROX (approved, COACH-R3 R3-ATH-03): 2 strength days (squat + pull, deadlift + push) + 2 hybrid days (run intervals, or 1 km run + 1 station repeated); 4 cardio sessions (Blue, Green, Orange + a second Orange) because running is about half the race; 2 short station circuits a week (sled push / pull, burpee broad jumps, wall balls, farmers carry, sandbag lunges, SkiErg / row) as finishers that never count as muscle sets; wall balls with the race ball (never over 20 lb); 40-rep / AMRAP sets only inside these circuits; jumps 50 % plyometric; pickleball, padel and tennis players 50+: knee-friendly strength, calf and Achilles work every leg day, rotator-cuff work, only low-impact jumps (no depth jumps, hurdle hops or bounds) unless switched on (COACH-R3 R3-ATH-02). (COACH-R3 R3-ATH-02, R3-ATH-03, R3-ATH-05; COACH-ANSWER ATH-13)
+20. **v1.3 - reps and load are a rule the person applies**, never a promised number per week: "3 sets of 8-12. When you hit 12 on every set with 1-2 reps left in the tank, add weight next time and start again at 8." (COACH-R4 R4-PRG-03)
+21. **v1.3 - no time-fitting**: session length is not an input and nothing in a plan's shape depends on minutes; plans are sized by exercise count on his templates. (COACH-CT CT-01; COACH-R4 R4-SES-01, R4-SES-02, R4-SES-05)
 
 ### 1.2 What his sheets show (OBSERVED; the v0 rules, kept as evidence)
 
@@ -574,6 +675,8 @@ These are the "within a category" ladders the generator moves along over a plan.
 
 ### 3.1 Lever catalog (what he changes, how much, and when)
 
+> **Changed in v1.3** (COACH-CT CT-01; COACH-R4 R4-SES-01 to R4-SES-05; COACH-CX CX-01, CX-02). The rows below are the v1.2 record. Where a row speaks of session minutes, of a plan that "offers more time" or "trains fewer groups directly" when time is short, of "2-4 exercises per muscle, never 1" on full-body days, or of a 7 % or 10 % limit, read the v1.3 section at the top of this file instead: session length is not an input and not a limit, sessions are sized by exercise count, a full-body day is his A or B day of about 6 exercises, nothing is dropped automatically, and the planned final sets are reached with no hard limit on a step.
+
 Columns 3-8 are the observed record (v0). The last column is the v1 rule the generator follows, with the question IDs; a **v1.1** sentence at its end gives the round-2 change.
 
 | Lever | Name | Coach vocabulary (verbatim) | What changes | Observed step / cadence | When he pulls it (observed) | Limits / rule (observed) | Status | v1 rule (coach answers) |
@@ -632,6 +735,8 @@ Legend: **P** = primary; **S** = secondary; **H** = held/frozen; **D** = cut in 
 ---
 
 ## 4. Volume progression v1.2 (replaces the v0 'Volume Governor')
+
+> **Changed in v1.3** (COACH-CX CX-01, CX-02; COACH-R4 R4-PRG-01, R4-PRG-02). The stairway pattern stands; the planned final sets are reached; no 7 % or 10 % limit; a note above about 15 % (section V2). Where the text below differs, the v1.3 section at the top of this file wins.
 
 The weekly-set engine itself is specified in `12_volume_algorithm` (v1.2 owns the set math: counting on groups, starts, caps, banking, placement, the time-vs-minimums policy, examples; the v1.1 check-in steps are retired). This section states the parts that shape a plan over time (the stairway) and records what was retired. **If 12 v1.2 publishes stairway step sizes other than the ones below, its numbers win and the grids here are recomputed.** (v1.2 check: the steps are the same; 12 v1.2 retired the PROPOSED 60+ <= 3 % cap, so it is retired here too.)
 
@@ -893,6 +998,8 @@ The v0 placements (deload in week 8 of 8, week 7 of 12, week 6 of 6) were retire
 
 ### 7.0.1 The stairway (every training block; approved in round 3)
 
+> **Changed in v1.3** (COACH-CX CX-01; COACH-R4 R4-PRG-01, R4-PRG-02). In the table below: "Planned steps" - λ may also be above 1, so the final sets are always reached; "Total ceiling" - retired (no limit; a note above about 15 %); "Bank rule" - whole sets are the curve rounded half up and held one set under the final sets until the last week. "Nothing above 7 % is ever planned" is retired. Where the text below differs, the v1.3 section at the top of this file wins.
+
 > R2-PER-03: 'the 8-week plan should gradually go up like steps up a stairway. That's how every program should be.' ... 'In the beginning, the first 2, 3, 4 weeks, the steps are a little bit smaller, but they're gradually going up. When they get to that halfway point and upwards, the steps get a little bit higher, but not too much.' ... 'that goes for every plan.'
 > R2-PER-04: 'on a 12-week program, the last 4 weeks are going to be brutal. Again, like a stairway: steps up, steps up, and week by week, it just gets gradually worse. I mean worse, meaning better, more volume.'
 > R2-PER-05: 'The last week might feel like an 11, like you're doing more than what you usually do.' ... 'I'm just talking about how it feels and what level you're starting at.'
@@ -905,7 +1012,7 @@ The v0 placements (deload in week 8 of 8, week 7 of 12, week 6 of 6) were retire
 | Phases | 12-week: ACCLIMATION L1 1-4 / L2 1-3 / L3 1-2 -> DRIVE to week 8 -> HARDEST 9-12 (every level). 8-week: ACCLIMATION L1 1-3 / L2 1-2 / L3 1 -> DRIVE to week 5 -> HARDEST 6-8. Other lengths: ACCLIMATION = the first ~quarter (at least week 1), HARDEST = the last third (rounded up), DRIVE in between (e.g. 11-week year block: ACCLIMATION 1-3, DRIVE 4-7, HARDEST 8-11) | COACH-R2 R2-PER-04 ('the last 4 weeks'); COACH-ANSWER PER-01 (2-4 acclimation weeks); 8-week weeks PROPOSED |
 | Every week climbs | every week at least one dial moves up: a set is released, or the main lifts go heavier at the same RIR (or +1-2 reps), or the RIR target steps down per the phase table; the last week is the block's highest volume and load (PROPOSED, from R2-PER-04/05) | COACH-R2 R2-PER-04, R2-PER-05; PROPOSED |
 | With a check-in | RETIRED in v1.2: there are no check-ins (R3-VOL-02, R3-VOL-04); the plan prints the planned step of every week. The v1.1 notch table is kept in `retired_v1_1.stairway_checkin_rule`. | COACH-R3 R3-VOL-02, R3-VOL-04 |
-| Total ceiling | the person's total weekly sets rise by less than 10 % a week; when several muscles would release a set in the same week, the smallest banks wait one week (release staggering, PROPOSED; COACH-ANSWER UNI-05) | COACH-ANSWER UNI-05 |
+| ~~Total ceiling~~ **RETIRED in v1.3** (COACH-CX CX-01; COACH-R4 R4-PRG-02: no hard limit, a note above about 15 %) | v1.2: the person's total weekly sets rise by less than 10 % a week; when several muscles would release a set in the same week, the smallest banks wait one week (release staggering, PROPOSED; COACH-ANSWER UNI-05) | COACH-ANSWER UNI-05 |
 | Bank rule | the bank is the planned target minus the current sets (T - current; the same as banking step x current sets each week); place one whole set each time it reaches 1 (12_volume_algorithm v1.2 §3.8): usually one set a week, two only when a λ-anchored final week needs it (e.g. the 11-week year Q4 block, week 50: 22 -> 24; release staggering spreads such jumps across muscles); at the cap the bank is cleared and the week climbs by load, reps, RIR or intensifiers (COACH-ANSWER VOL-06, VOL-07, VOL-15) | COACH-ANSWER VOL-06, VOL-07, VOL-15 |
 | Stair level (display) | display only: level(w) = 2 + 9 x A(w) / A(N), where A adds 1 for each first-half step and 5/3 for each second-half step (the same weights as the steps); 12 weeks: 2, 2.6, 3.2, 3.8, 4.4, 5, 6, 7, 8, 9, 10, 11; 8 weeks: 2, 2.9, 3.9, 4.8, 6.3, 7.9, 9.4, 11 (PROPOSED; the same display as 12_volume_algorithm v1.2 §3.7.2) | COACH-R2 R2-PER-05; PROPOSED |
 | Exercise blocks | 12-week 1-4 / 5-8 / 9-12; 8-week 1-4 / 5-8; exercises fixed inside each; 1-2 one-detail changes at the boundary (PER-02, R2-LIB-01) | COACH-ANSWER PER-02; COACH-R2 R2-LIB-01 |
@@ -914,6 +1021,8 @@ The v0 placements (deload in week 8 of 8, week 7 of 12, week 6 of 6) were retire
 **Why these step sizes (approved in R3-VOL-04; shared with 12_volume_algorithm v1.2).** 3 % is the 'getting used to it' cap of v1 (R2-PER-04 proposal), so the first half stays gentle; 5 % after halfway is his round-2 'perfect week' step (R2-VOL-01); nothing above 7 % is ever planned. Without λ an L3 lifter (20 -> 25) would reach the ceiling around week 8 and spend the brutal weeks flat; λ shrinks every step of a muscle by the same factor so the peak lands on the cap in the final week (L3: 1.5 % / 2.5 %, about RP's 'a few sets per block' for advanced lifters). Fat-loss blocks use the same stairway on their x0.8 start; in the year's Q1 cut the sets stay at the starting level (approved, R2-PER-01).
 
 ### 7.0.2 Blocks, stopping, maintenance and what comes next (COACH-R2 R2-VOL-07, R2-PER-06; COACH-R3 R3-PER-01)
+
+> **Changed in v1.3** (COACH-R4 R4-PRG-04). The next block starts about 5 % above the last block's start, never above the level's top (section V4). Where the text below differs, the v1.3 section at the top of this file wins.
 
 ```
 TRAINING BLOCK (a stairway: week 1 feels like a '2' ... last week feels like an '11'), printed whole before it starts
@@ -943,6 +1052,8 @@ TRAINING BLOCK (a stairway: week 1 feels like a '2' ... last week feels like an 
 
 ### 7.1 12-week block (preferred)
 
+> **Changed in v1.3** (COACH-R4 R4-PRG-01). The phases, the effort row and the events stand. The set rows below are the v1.2 computation (banked rounding); the v1.3 rows are L1 10 · 10 · 10 · 11 · 11 · 11 · 12 · 12 · 13 · 13 · 13 · 14, L2 15 · 15 · 16 · 16 · 17 · 17 · 18 · 19 · 19 · 20 · 21 · 22, L3 20 · 20 · 21 · 21 · 21 · 22 · 22 · 23 · 23 · 24 · 24 · 25 (the last four L2 weeks are still 19, 20, 21, 22). Where the text below differs, the v1.3 section at the top of this file wins.
+
 The plan prints exactly this stairway (approved, R3-VOL-04; no check-ins, R3-VOL-02). Ref sets = one big muscle (one focus group, R3-SES-01); the index in brackets = week 1 = 100.
 
 | Wk | Stair | L1 phase | L1 step (λ 0.76) | L1 sets (idx) | L2 phase | L2 step (λ 0.87) | L2 sets (idx) | L3 phase | L3 step (λ 0.5) | L3 sets (idx) | Planned RIR | RC stage (athletes) | Exercise block / events |
@@ -965,6 +1076,8 @@ The plan prints exactly this stairway (approved, R3-VOL-04; no check-ins, R3-VOL
 **Reading.** L1 and L2 climb 40 % and 47 % and L3 25 %, and λ lands every level's peak on its cap in week 12, so the biggest weeks are the last 4 ('brutal') weeks. In the first half the sets barely move (L1 adds its first set in week 6): the stair climbs there through load and RIR (stair 2 -> 5). These are exactly the curves of 12_volume_algorithm v1.2 §3.7.1 (unchanged from v1.1). Total-rise check (5 big + 5 small muscles, small muscles from 10 / 12 / 15): L2 at most +7.4 % and L3 +5.3 % in any week; every L1 muscle starts at 10 and releases together, so the L1 total would hit +10.0 % in week 6: the release staggering (PROPOSED) keeps it strictly below 10 % (computed).
 
 ### 7.2 8-week block
+
+> **Changed in v1.3** (COACH-CX CX-01; COACH-R4 R4-PRG-01). In v1.3 every 8-week group reaches the same final sets as on 12 weeks, with faster steps: L1 10 · 10 · 11 · 11 · 12 · 12 · 13 · 14 (λ 1.19), L2 15 · 16 · 16 · 17 · 18 · 19 · 21 · 22 (λ 1.36), L3 20 · 20 · 21 · 21 · 22 · 23 · 24 · 25 (λ 0.78). The v1.2 rows below stop at 13 and 19 for L1 and L2. Where the text below differs, the v1.3 section at the top of this file wins.
 
 The same stairway, from the level start (the v1 x1.10 'start hard' and the 4 + 4 split are retired: R2-PER-03 NOT RIGHT).
 
@@ -1004,6 +1117,8 @@ The same stairway, from the level start (the v1 x1.10 'start hard' and the 4 + 4
 
 ### 7.4 Repeated blocks ('start at a 2 and end at an 11')
 
+> **Changed in v1.3** (COACH-R4 R4-PRG-04). The start rises about 5 % per completed block and the top does not move: L1 10 → 14, 11 → 14, 12 → 14, 13 → 14; L2 15 → 22, 16 → 22, 17 → 22, 18 → 22; L3 as below (section V4). The "cap +1" columns of the table below are retired. Where the text below differs, the v1.3 section at the top of this file wins.
+
 > Round 1: 'For your next 12-week program ... you might want to start at a 2 and end at an 11, meaning your volume slowly creates more' (PER-01). Round 2: 'When I say started at 2 and ended at 11, I mean the amount of volume that they're putting themselves at as far as level, not the amount of sets.' ... 'By the time you're done with your block, ideally, you've pushed yourself a little bit past your limits' (R2-PER-05).
 
 So the 2 -> 11 lives inside every block (the stair, 7.0.1 and 5.2). Between blocks the next one starts one step up: start x1.05 and cap +1 set (never above 25; priority 30), all customizable (approved, COACH-R2 R2-VOL-06). After a stopped block the start repeats (R2-VOL-07). **v1.2:** nothing is stored (R3-GEN-01), so the intake asks 'Did you just finish a block?' and how many in a row (0 by default; 12_volume_algorithm v1.2 §3.12), one step up per completed block (PROPOSED).
@@ -1026,6 +1141,8 @@ So the 2 -> 11 lives inside every block (the stair, 7.0.1 and 5.2). Between bloc
 * The v1.1 rule is kept in `retired_v1_1.week_by_week_v1_1`.
 
 ### 7.6 Yearly gen-pop plan ('stay in shape', approved and tunable)
+
+> **Changed in v1.3** (COACH-R4 R4-PRG-04; COACH-CX CX-02). The Q2 block starts about 5 % above the Q1 start with the same top (not "cap +1"); the Q1 cut keeping its sets flat is allowed by CX-02. Where the text below differs, the v1.3 section at the top of this file wins.
 
 > 'This is correct, but this is for the general population that wants to just stay in shape and wants to have some type of planning for how the year works' (R2-PER-01). 'They can just switch it around if they don't like the blocks the way they're set up, or if they want to add something, change something, or change the variety (more cardio, less cardio).' ... 'just ramp it up to powerlifting style' (R2-PER-02).
 
@@ -1096,6 +1213,8 @@ What the research says about each piece of his plan-length model (studies in sec
 
 ### 8.0 How to read
 
+> **Changed in v1.3** (COACH-CT CT-01; COACH-R4 R4-SES-01 to R4-SES-05). In this section and in the overlays of 8.1, the minutes ("45-60 min sessions", "55-80 min") are typical lengths, not inputs and not limits. "When the chosen days and minutes cannot hold the minimums ..." (the round-3 time-vs-minimums order, with its offers, "fewer groups trained directly" and "never flat") is retired: the plan is sized by exercise count, comes out complete and the person edits it. "Full-body days 2-4 exercises per muscle, never 1" now holds on split days only; a full-body day is his A or B day of about 6 exercises. Supersets stay a recommendation the person switches on; no session length switches them on. Where the text below differs, the v1.3 section at the top of this file wins.
+
 A v1.2 plan = **a stairway grid** (section 7: week -> phase, planned step, stair level, RIR, exercise block, RC stage, events; the v1.1 check-in maximum is retired) **× a family overlay** (below: phase -> reps, effort, load, methods, variation, conditioning and athletic content) **× the volume engine** (12_volume_algorithm v1.2: weekly sets per focus group). The JSON expands every family × mode into week rows (`skeletons`). The v0 skeletons are retired (8.4); the v1 skeletons are in `retired_v1.skeletons_v1`; the programs he actually wrote stay as reference tables (8.3).
 
 **Weeks in the overlay tables** are the default (L2) 12-week split: acclimation 1-3, drive 4-8, hardest 9-12 (the last 4 weeks at every level, R2-PER-04). L1 and returning clients run acclimation 1-4 and drive 5-8; L3 runs acclimation 1-2 and drive 3-8 (acclimation split PROPOSED). The JSON rows carry the per-level phase in `phase_by_level`. The strength main-lift table (5.4) keeps its own week numbers at every level (PROPOSED).
@@ -1152,7 +1271,7 @@ Rules shared by every family (COACH-ANSWER unless marked): core opens the sessio
 | ACCLIMATION | 1-3; stair 2-3.2 | RESISTANCE L1-L2 + STRENGTH L1 (FULL TIME: add sets; HALF TIME: 3 sets, reps down) | 10 / 7 | push limits, no failure | - | WODs L1-L2 | - | aerobic C (Orange) 2/week | OBSERVED CF A19:U25; COACH-ANSWER PRG-10 |
 | DRIVE | 4-8; stair 3.8-7 | STRENGTH L2-L3 -> POWER L2-L3 | 6-5 / 3 | - | heavier | WODs L2-L3; AMRAP and 40-rep sets live here (option) | cleans on knee-dominant days, snatches on hip-dominant days (R2-ATH-04) | aerobic C + B -> C + B + A | OBSERVED CF macro; COACH-ANSWER VOL-11; COACH-R2 R2-ATH-04 |
 | HARDEST | 9-12; stair 8-11 | POWER L4 + WODs L3-L4 | 3 | - | heaviest | - | - | LACTATE CLERANCE | OBSERVED CF macro; COACH-R2 R2-PER-04 |
-| 8-WEEK HYBRID | 1-8; stair 2-11 | weekly sets follow the 8-week stairway (3 % weeks 2-4, 5 % weeks 5-8); the sheet's 2 -> 3 -> 4 set steps (+50 %, +33 %) are not copied (over his 10 % ceiling, UNI-05) | content from observed HYBRID-8: 3-week rep waves 6 -> 8 -> 10 | 'heavy' Olympic, by RPE and speed | - | jumps Tue/Fri; sprint density 10-15 x 15 s -> 10 x 30 s | session order core first -> Olympic/power -> strength -> unilateral/accessory (ATH-11, ORD-03); cleans Monday, snatches Thursday | Fri easy cardio 15-40 min | OBSERVED 4T rows 70-101 (content); COACH-ANSWER UNI-05, ORD-03, ATH-11; COACH-R2 R2-PER-03, R2-ATH-04 |
+| 8-WEEK HYBRID | 1-8; stair 2-11 | weekly sets follow the 8-week stairway (3 % weeks 2-4, 5 % weeks 5-8); the sheet's 2 -> 3 -> 4 set steps (+50 %, +33 %) are not copied (far above his usual pattern; 10 % a week is "way too much" as a habit, UNI-05; v1.3: not a hard limit, CX-01) | content from observed HYBRID-8: 3-week rep waves 6 -> 8 -> 10 | 'heavy' Olympic, by RPE and speed | - | jumps Tue/Fri; sprint density 10-15 x 15 s -> 10 x 30 s | session order core first -> Olympic/power -> strength -> unilateral/accessory (ATH-11, ORD-03); cleans Monday, snatches Thursday | Fri easy cardio 15-40 min | OBSERVED 4T rows 70-101 (content); COACH-ANSWER UNI-05, ORD-03, ATH-11; COACH-R2 R2-PER-03, R2-ATH-04 |
 
 8-week versions use the same rows on the 8-week stairway: ACCLIMATION weeks 1-2 (L1 1-3, L3 1), DRIVE to week 5, HARDEST weeks 6-8 with the hardest-row intensifiers; exercise blocks 1-4 / 5-8. Maintenance phases take the acclimation row's reps at RIR 2-3 with no intensifiers and no stairway (PROPOSED).
 
@@ -1575,6 +1694,8 @@ The v1 skeletons (C12/C8 rows with the v1 phase split, x1.10 8-week start and in
 
 ### 8.5 Volume index by week: v1.1 stairways and the observed programs side by side
 
+> **Changed in v1.3** (COACH-CX CX-01). The stairway columns are v1.1 / v1.2 numbers; in v1.3 the 8-week blocks and the wide-range lines climb to their final sets (section V2). Where the text below differs, the v1.3 section at the top of this file wins.
+
 | Key | Kind | Weeks | W1 | W2 | W3 | W4 | W5 | W6 | W7 | W8 | W9 | W10 | W11 | W12 | Deload / test |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | V1_1_C12_L1 | v1.1 12-week stairway | 12 | 100 | 100 | 100 | 100 | 100 | 110 | 110 | 120 | 120 | 120 | 130 | 140 | none inside; recommended easy week after; tests wk 1 and 12 if ticked |
@@ -1790,6 +1911,8 @@ Rows SCI_BLOCK to SCI_CONJ are from v0 (two fact-check passes); rows SCI_LP_DUP_
 
 ## 13. End-to-end generator logic (pseudo-code, v1.2)
 
+> **Changed in v1.3** (COACH-CT CT-01; COACH-CX CX-01..04; round 4). The v1.3 pipeline is `BLAZE_CAMP_BRAIN.md` §13.3. In the pseudo-code below: no session length is read; λ is free, so every group reaches its final sets; the 7 % / 10 % checks are gone; the next block uses R4-PRG-04; the release must be accepted before a plan is generated (R4-SCP-02). Where the text below differs, the v1.3 section at the top of this file wins.
+
 ```
 generate_plan(intake):                                   # v1.2 (round-3 answers applied): output only - no check-ins, nothing stored
   level  = level_from_experience(years, months_off, ex_pro)   # L1/L2/L3 (PRG-05)
@@ -1924,6 +2047,19 @@ Plain questions with our proposal; each comes from two round-3 answers that pull
 *Questions 5 and 6 were added by the v1.2 adversarial check.*
 
 ---
+
+### 14.6 What round 4, CT-01 and CX answered (v1.3)
+
+| 14.5 question | Status in v1.3 |
+|---|---|
+| 1 week-by-week | not asked; the alias stays PROPOSED |
+| 2 the rebuild question | **partly**: the rule is R4-PRG-04 (about 5 % above the last start, never above the top); asking "how many blocks in a row" is still PROPOSED |
+| 3 switched-off easy week | not asked; default kept |
+| 4 athlete season print | not asked; default kept |
+| 5 the Q1 cut | **settled**: a block may keep its sets while reps, load, cardio and effort progress (CX-02) |
+| 6 ceiling vs step size | **answered**: the final sets are reached, with faster steps when needed (CX-01; R4-PRG-01, R4-PRG-02) |
+
+New open questions are in `BLAZE_CAMP_BRAIN.md` §0d.3.
 
 ### Appendix · JSON field guide (`06_periodization.json`)
 
@@ -2244,3 +2380,12 @@ Second, independent check of the v1.1 round-2 update. `coach_answers_round2.md` 
 **Flags for the coach (added to 14.5).** (5) The year's Q1 cut keeps flat sets (R2-PER-01) while R3-SES-02 / R3-VOL-04 say the stairway always climbs on trained groups: kept, with the Q1 climb through cardio, density, load and RIR. (6) Lines the approved steps cannot carry to their ceiling (8-week L1 / L2; 12-week L2 / L3 shoulders and arms): the ceiling stays a maximum.
 
 **For the integrator (other files, not edited here).** `tools/fixture/rules.mjs` still carries the retired 60+ step cap (`older.step_cap 0.03`, `limits.older_60plus 0.03`, the older-adults block; cross-check X05 already reports it) and the retired end-of-maintenance prompt (`tools/compile/rules.mjs` maintenance `end_prompt`); `tools/compile/rules.mjs` still gives rear delts their own targets (`rear_delts` L(4, 6, 8), caps L(8, 12, 16), priority cap L(12, 16, 20), `own_sets: true`) against R3-VOL-01; the next-block input should be 'blocks completed in a row' (12 v1.2 §3.12; X11); the release / health-check tick on every build belongs in the intake (13_product_options, generator_spec).
+
+
+## v1.3 verification log (2026-10-11)
+
+- Read first, in full: `design/ENGINE_V05_PLAN.md`, `coach_answers_round4.md`, `coach_answers_time_2026-10-10.md`, `coach_answers_codex_2026-10-10.md`.
+- The stairway rows of section V2 and of the notes under §7.1 and §7.2 were computed with `engine/progression/stairway.mjs` (`planStairway`); the repeated-block rows of section V4 with `engine/progression/prescription.mjs` (`nextBlockStart`). Check: 12-week L2 = 15 → 22 with the last four weeks 19, 20, 21, 22 (his approved example).
+- Marked as changed: §4, §7.0.1, §7.0.2, §7.1, §7.2, §7.4, §7.6, §8.5, §13; retired the "Total ceiling" row; extended §1.1 rules 2, 3, 5, 6 and 10 and added rules 20 and 21; added §14.6.
+- The blocks of sections V2 to V4 are the same text as `BLAZE_CAMP_BRAIN.md` v1.3 (§5.4, §7.4, §11.4); "master §" in them points to that file.
+- Not changed: the observed evidence (sections 2, 8.3), the levers, effort, deload, test and season rules, the science section, the v1 / v1.1 / v1.2 logs, and `06_periodization.json` (v1.2; not re-issued).

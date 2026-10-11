@@ -1,5 +1,7 @@
 # CONTRACT_REQUESTS (append-only during the build; the integrator resolves)
 
+> **Status (2026-10-11, engine 0.5.0).** History. These requests were raised and resolved during the first build (contracts/1.1.1, 2026-10-09). Entries about session minutes, time fitting or check-ins are retired with those features (COACH-CT CT-01; COACH-R3 R3-VOL-02; round 4). The binding text is `engine/CONTRACTS.md` with its engine 0.5.0 boxes.
+
 Resolved in the integration step (contracts/1.1.1, 2026-10-09): every entry below carries its status. Accepted changes are in
 CONTRACTS.md (marked [1.1.1]) and DECISIONS.md (D-46 ... D-66).
 

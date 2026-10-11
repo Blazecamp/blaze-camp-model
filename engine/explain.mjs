@@ -117,7 +117,7 @@ export function changesText(plan, weekN, model, lang) {
   // v0.4 fix round 1 / F3 (COACH-R3 R3-SES-01 counts FOCUS groups; RECHECK 01 / 02 / 04 / 07 / 08 minors: '+1 set on Lying Leg Curl'
   // next to 'Hamstrings stays at these sets', 'Glutes stays', a plan cap called a 'ceiling'): a 'stays at these sets' line is said per
   // FOCUS group, never for a group that gains a set the same week, and a reached target is 'this plan's set target'
-  const grouped = model.has('en', 'changes.held_group') && model.has('en', 'changes.at_target_group');
+  const grouped = model.has('en', 'changes.at_target_group');
   const gained = grouped ? groupsGaining(plan, w, model) : new Set();
   const heldSeen = new Set();
   for (const ch of w.changes || []) {
@@ -139,12 +139,12 @@ export function changesText(plan, weekN, model, lang) {
       args.s = w.circuit.work_s;
       args.rir = w.planned_rir ? (w.planned_rir.min === w.planned_rir.max ? String(w.planned_rir.min) : w.planned_rir.min + '-' + w.planned_rir.max) : '';
     }
-    if (grouped && (key === 'changes.at_time_cap' || key === 'changes.at_cap') && typeof args.muscle === 'string') {
+    if (grouped && key === 'changes.at_cap' && typeof args.muscle === 'string') {
       const g = groupOfLine(model, args.muscle);
       if (g) {
         if (gained.has(g) || heldSeen.has(g)) continue;
         heldSeen.add(g);
-        key = key === 'changes.at_time_cap' ? 'changes.held_group' : 'changes.at_target_group';
+        key = 'changes.at_target_group';
         for (const k of Object.keys(args)) delete args[k];
         args.group = 'group.' + g;
       }

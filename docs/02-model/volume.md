@@ -1,8 +1,8 @@
 # Volume: weekly sets per muscle group
 
-The Blaze Camp model doses resistance training in **weekly hard sets per muscle group**. Every group a plan trains directly gets at least 10 sets a week in a training block. Where a person starts and how high they can go depends on their level. On each exercise the main mover counts one full set and each helper muscle counts a quarter of a set, with a few named exceptions. Jumps, throws, Olympic lifts, sprints and kettlebell swings never count as muscle sets. A person can pick up to two Focus muscles, and each one gets one to three extra sets a week. This page gives the rules, the coach's reasons and where every number lives in the data.
+The Blaze Camp model doses resistance training in **weekly hard sets per muscle group**. With 3 or more training days, every group a plan trains directly gets at least 10 sets a week in a training block. With 2 training days every big muscle is still trained, at about 6 to 8 weekly sets, and the plan suggests a third day. Where a person starts and how high they go depends on their level, and each group reaches its planned final sets by the end of the block. On each exercise the main mover counts one full set and each helper muscle counts a quarter of a set, with a few named exceptions. Jumps, throws, Olympic lifts, sprints, kettlebell swings, carries and sled work never count as muscle sets. A person can pick up to two Focus muscles, and each one gets one to three extra sets a week. This page gives the rules, the coach's reasons and where every number lives in the data.
 
-> **How to read this page.** A rule with an answer id was decided by coach Lalo Vera. Ids with no prefix (`VOL-09`) are round 1, `R2-` is round 2, `R3-` is round 3. The newest round wins. **PROPOSED** means the team designed it and he has not confirmed it. **OBSERVED** means it was read from his sheets. His full answers by topic: [../03-coach-answers/volume.md](../03-coach-answers/volume.md).
+> **How to read this page.** A rule with an answer id was decided by coach Lalo Vera. Ids with no prefix (`VOL-09`) are round 1, `R2-` is round 2, `R3-` is round 3, `R4-` is round 4. `CT-01` and `CX-01..04` are two clarifications he gave on 2026-10-10. The newest answer wins. **PROPOSED** means the team designed it and he has not confirmed it. **OBSERVED** means it was read from his sheets. His full answers by topic: [../03-coach-answers/volume.md](../03-coach-answers/volume.md).
 
 ## The rule
 
@@ -12,11 +12,12 @@ The Blaze Camp model doses resistance training in **weekly hard sets per muscle 
 | 2 | **The main mover gets 1.0 set. Each helper muscle gets 0.25.** | VOL-09 |
 | 3 | Exceptions: **dips** 0.5 triceps + 0.5 chest. **Thruster** 1.0 quads + 0.5 shoulders + 0.25 glutes. **Hip thrusts and bridges** 1.0 glutes. Squats, lunges, deadlifts and RDLs (Romanian deadlifts) give glutes 0.25. Leg extensions and leg curls count in full. | LIB-16, R2-VOL-05, VOL-09 |
 | 4 | A single-leg or single-arm set written **10/10 is one set**, not two. | UNI-01, UNI-07 |
-| 5 | **Athletic work never counts** as muscle sets. Kettlebell swings do not count. HYROX station circuits do not count (HYROX is a fitness race of runs and workout stations). Warm-ups do not count. | VOL-10, R2-VOL-05, R3-ATH-03, ORD-08 |
+| 5 | **Athletic work never counts** as muscle sets. Kettlebell swings do not count. HYROX station circuits do not count (HYROX is a fitness race of runs and workout stations). Carries and sled work do not count. Warm-ups do not count. | VOL-10, R2-VOL-05, R3-ATH-03, R4-LIB-02, ORD-08 |
 | 6 | Count on the coach's **FOCUS groups**. Hips = glutes + hamstrings. Shoulders = front + side + rear delts. Rear delts are not a muscle of their own. | R3-SES-01, R3-VOL-01 |
-| 7 | **Floor: 10 sets a week** for every group a training block trains directly. A training block is a plan that climbs week by week, as opposed to a maintenance phase. | R2-VOL-06, R3-VOL-01 |
+| 7 | **Floor: 10 sets a week** for every group a training block trains directly, when there are 3 or more training days. A training block is a plan that climbs week by week, as opposed to a maintenance phase. | R2-VOL-06, R3-VOL-01 |
+| 7b | **2 training days a week:** every big muscle is still trained, at about 6 to 8 weekly sets instead of 10. The plan says so and suggests a third day. No whole muscle is dropped and no extra exercises are piled on. | R4-SES-03 |
 | 8 | **Starts by level:** big muscles 10 / 15 / 20. Shoulders, biceps and triceps 10 / 12 / 15. | VOL-01, R2-VOL-04, R2-VOL-06 |
-| 9 | **Ceilings by level:** 14 / 22 / 25 sets a week. All customizable. | R2-VOL-06 |
+| 9 | **Top numbers (ceilings) by level:** 14 / 22 / 25 sets a week. Each trained group reaches its top number in the last week of the block. All customizable. | R2-VOL-06, CX-01, R4-PRG-01 |
 | 10 | **Calves:** one exercise × 3 sets on every leg day. **Core:** 2 exercises × 2 sets at the start of every session. | VOL-17, R3-SES-01, R2-SES-03 |
 | 11 | **Focus muscle 1 and Focus muscle 2** (optional): each gets 1 to 3 extra weekly sets on top of a balanced plan. | R3-SES-01 |
 | 12 | **Pain:** cut that muscle or pattern 30 to 50 %, move it to machines or split grips, or drop the exercise. | VOL-03 |
@@ -74,13 +75,15 @@ The readable source is [`generator_spec_v1.json`](../../generator_spec_v1.json).
 | Big and small muscles, FOCUS groups | `generator_spec_v1.json` | `vocab.muscles.big`, `vocab.muscles.small`, `vocab.muscles.focus_groups` |
 | Group credit (PROPOSED) | `synthesis/12_volume_algorithm_v1.json` | `counting.group_credit` |
 | Starts and ceilings by level | `generator_spec_v1.json` | `rule_tables.weekly_sets.muscles.<line>.start` and `rule_tables.weekly_sets.muscles.<line>.cap` (`<line>` is `quads`, `chest`, `shoulders` ...) |
-| The floor of 10 and what is exempt | `generator_spec_v1.json` | `rule_tables.weekly_sets.floors` |
+| The floor of 10 and what is exempt | `generator_spec_v1.json`; `model/rules.json` | `rule_tables.weekly_sets.floors`; `volume.floor` (`applies_from_days: 3`) |
+| The 2-day rule (R4-SES-03) | `model/rules.json` | `volume.two_day` (`weekly_sets: [6, 8]`, `suggest_days: 3`) |
+| Carries and sled work: no muscle sets (R4-LIB-02) | `model/rules.json` | `conditioning.carry` (`counts_as_muscle_sets: false`) |
 | His landmarks (15-20, 20-25, 5, 40) | `generator_spec_v1.json` | `rule_tables.weekly_sets.landmarks_coach` |
 | Focus muscles | `generator_spec_v1.json` | `rule_tables.priority.v1_2_focus_muscles`; intake field `inputs_schema.fields.F09` |
 | Goal and phase factors | `generator_spec_v1.json` | `rule_tables.goal_phase_modifiers` |
 | Pain rules | `generator_spec_v1.json` | `rule_tables.pain` |
 | His numbers next to the research | `synthesis/12_volume_algorithm_v1.json` | `research_vs_coach`, `research_20_30_sets`, `science` |
-| Compiled copy | `model/rules.json` | `credit`, `muscles.groups`, `volume.start`, `volume.cap`, `volume.floor`, `volume.focus` |
+| Compiled copy | `model/rules.json` | `credit`, `muscles.groups`, `volume.start`, `volume.cap`, `volume.floor`, `volume.two_day`, `volume.focus` |
 
 Every tunable number is also listed in [../05-reference/parameters.md](../05-reference/parameters.md).
 
@@ -151,6 +154,7 @@ Adductors also get 0.25 from squats and lunges, and forearms 0.25 from curls. Bo
 | Jumps, both plyometric (short, bouncy ground contacts) and ballistic (one big effort); medball throws; Olympic lifts; sprints; change of direction | No | contacts, throws, reps, metres | VOL-10 |
 | Kettlebell swings | No. They are ballistic, never glute volume. | reps in the power block | R2-VOL-05 |
 | HYROX station circuits | No. They are finishers. | time, distance, reps or calories (units **PROPOSED**) | R3-ATH-03 |
+| Carries and sled work (farmer carry, sled push) | No. They sit with core and conditioning. | 2 to 4 trips of 20 to 40 metres, or 20 to 40 seconds | R4-LIB-02 |
 | Warm-up and A-drills | No | not counted | ORD-08 |
 | Push press and push jerk | Only when they fill the vertical-push slot. In the power block they are power reps. | | VOL-10, LIB-13; the slot rule is **PROPOSED** |
 
@@ -162,7 +166,7 @@ Athletic work has its own budget. See [athletes.md](athletes.md).
 
 ### 4. The groups
 
-**Rule.** The floor, the rule of 2 to 4 exercises per group and the time check all count the coach's FOCUS groups. These are the muscle headers of his own program sheets ('QUADS', 'HAMSTRINGS', 'GLUTES', 'CHEST', 'BACK', 'SHOULDERS/TRAPS', 'BICEP', 'TRICEP', 'CALVES', 'CORE'; OBSERVED), with two groupings he approved in round 3.
+**Rule.** The floor and the count of exercises per group both read the coach's FOCUS groups. These are the muscle headers of his own program sheets ('QUADS', 'HAMSTRINGS', 'GLUTES', 'CHEST', 'BACK', 'SHOULDERS/TRAPS', 'BICEP', 'TRICEP', 'CALVES', 'CORE'; OBSERVED), with two groupings he approved in round 3.
 
 | Group | Muscles inside it | Size class | Note |
 |---|---|---|---|
@@ -222,7 +226,7 @@ His own landmarks, for reference (UNI-01):
 
 ### 6. The floor of 10
 
-**Rule.** In a training block, every group the plan trains directly holds 10 or more sets a week. The groups are quads, hips, chest, back, shoulders, biceps, triceps and calves.
+**Rule.** In a training block with 3 or more training days, every group the plan trains directly holds 10 or more sets a week. The groups are quads, hips, chest, back, shoulders, biceps, triceps and calves.
 
 **Why.** "I don't think anybody needs less than 10 sets a week per muscle" (R2-VOL-06). For shoulders the 10 is counted on the whole group (R3-VOL-01).
 
@@ -233,8 +237,27 @@ His own landmarks, for reference (UNI-01):
 | Maintenance phases | maintenance is 50-70 % of the volume by his own definition (PER-01) | **PROPOSED** reading. It was in the proposal he answered PARTLY in R3-VOL-01, and his words changed only the rear-delt part. |
 | Athlete pre-season and in-season | they run at maintenance volume (R2-PER-06, PER-08) | **PROPOSED** reading, same source |
 | A muscle cut back for pain | the pain cut wins (VOL-03) | **PROPOSED** reading, same source |
-| A group left to compound credit (the quarter sets it earns as a helper on compound lifts) because time is short | his approved order when time cannot hold the minimums (R3-SES-02). See [sessions.md](sessions.md). | Coach: R3-SES-02 |
+| A plan with 2 training days a week | every big muscle runs about 6 to 8 weekly sets instead (section 6a) | Coach: R4-SES-03 |
+| A group its template cannot hold at 10 | rare; the plan adds a bonus exercise on the optional day, or says in words that the template holds fewer sets. Nothing is shrunk elsewhere to make room. | R4-SES-04; mechanics **PROPOSED** |
 | Arms and glutes of field athletes, which get helper credit only | "field athletes don't need to get bigger and stronger that much" (UNI-02) | **PROPOSED** |
+
+**Retired exemption.** Until 2026-10-10 a group could be left to helper credit "because time is short" (R3-SES-02). There is no time check any more (CT-01), so no group is left out for minutes.
+
+### 6a. Two training days a week
+
+**Rule.** With his exercise counts, two sessions cannot give every muscle 10 or more sets. So on 2 days every big muscle is still trained, with about 6 to 8 weekly sets. The plan says so and suggests a third day. It never drops whole muscles and never piles on more exercises (R4-SES-03, the proposal he marked RIGHT).
+
+> "People can add or remove or adjust accordingly. That's fine. We can maybe give them a small recommendation, but it's only a recommendation." (R4-SES-03)
+
+| Detail | Value | Status |
+|---|---|---|
+| Weekly sets for a big group on 2 days | starts at 6, ends at 8 (plus any Focus add) | Coach: R4-SES-03 gave "about 6-8". Using 6 as the start and 8 as the top is the team's reading. |
+| Small groups on 2 days | at most the same 6 to 8 | **PROPOSED**: he spoke of big muscles |
+| The week | one A day and one B day cover every big group ([sessions.md](sessions.md) §6) | R4-SES-05 |
+| The printed line | "With 2 training days a week every big muscle group is trained with about 6-8 weekly sets instead of 10 or more. A third training day would let every group reach 10." | wording **PROPOSED** |
+| His earlier answer | "train fewer muscles directly" (R3-SES-02) | replaced by R4-SES-03 |
+
+He left room for "something better" if "the science backs it up". Any research note on 2-day volume is SCIENCE and goes to him "for discussion".
 
 **Calves.** His minimum is 3 sets on every leg day. With fewer than four leg days that is under 10 a week. Reaching 10 through a fourth set or the optional-day 'Calves' slot is **PROPOSED**. A second calf exercise on a leg day is never added (R3-SES-01).
 
@@ -282,7 +305,7 @@ Almost every factor below is **PROPOSED**. What he decided is in the last column
 |---|---|---|---|---|
 | Aesthetics / bodybuilding | × 1.0 | × 1.0 | × 1.0 | the starting ranges (VOL-01) |
 | Strength / powerlifting | × 1.0 | × 1.0 | × 0.75, then the floor | preference moves reps on the big lifts, not weekly sets (VOL-12) |
-| General fitness, non-competitive athletic, "stay athletic and active" | × 0.8 | × 0.8 | × 0.8, then the floor | sessions of 45 minutes to 1 hour (UNI-09) |
+| General fitness, non-competitive athletic, "stay athletic and active" | × 0.8 | × 0.8 | × 0.8, then the floor | a lighter plan for everyday people (the factor is **PROPOSED**; his "45 minutes to 1 hour" in UNI-09 is background only) |
 | Fat loss | × 0.8 | × 0.8 | × 0.8, then the floor | 3 aerobic sessions, adjustable (ATH-07, R2-SES-06) |
 | Field or court athlete, off-season | × 0.7 | × 0.5, then the floor on chest and back | arms and glutes from helper credit only | field athletes need less size work (UNI-02) |
 | Strength-type athlete, off-season (linemen, wrestlers, rugby, throwers, heavyweight fighters) | × 0.9 | × 0.8 | × 0.6, then the floor | these athletes need more resistance training (ATH-03) |
@@ -359,7 +382,8 @@ Waiting for his yes or no:
 - Focus default of +2, applied to start and ceiling, with the other muscles not slowed.
 - The list of Focus choices, and the priority ceilings (18 / 26-28 / 30) used as the Focus limit.
 - A fourth calf set per leg day at L3.
-- Whether a Focus muscle stays directly trained when time is short.
+- Small muscle groups on 2 training days; 6 as the 2-day start and 8 as the 2-day top.
+- What a Focus muscle gets when its template has too few slots (today: a bonus exercise on the optional day, or a cap the plan states).
 - The floor of 10 for field athletes' chest, back and shoulders.
 - Small muscles on the same ceilings as big ones.
 - Calves reaching 10 a week with fewer than four leg days.
@@ -371,9 +395,9 @@ Waiting for his yes or no:
 ## Related pages
 
 - [stairway.md](stairway.md): how the weekly sets climb.
-- [sessions.md](sessions.md): how sets are spread over exercises and days, and what gives when time is short.
+- [sessions.md](sessions.md): his templates, session size by exercise count, and how sets are spread over exercises and days.
 - [bilateral-unilateral.md](bilateral-unilateral.md): how sets split between two-leg and one-leg work.
 - [plans-and-calendar.md](plans-and-calendar.md): plan lengths, maintenance and the year.
 - [categories.md](categories.md): families, patterns, big and small muscles.
 - [../05-reference/glossary.md](../05-reference/glossary.md): every term.
-- Decision records: [floor of 10 on focus groups](../04-decisions/adr-017-floor-of-10-on-focus-groups.md), [rear delts are part of shoulders](../04-decisions/adr-018-rear-delts-part-of-shoulders.md), [helper credit 0.25](../04-decisions/adr-019-helper-credit-0-25.md), [athletic work never counts as muscle sets](../04-decisions/adr-020-athletic-work-never-counts-as-muscle-sets.md), [starting sets and ceilings by level](../04-decisions/adr-021-starting-sets-and-ceilings-by-level.md), [Focus muscle 1 and 2](../04-decisions/adr-024-focus-muscle-1-and-2.md), [no sex field](../04-decisions/adr-004-no-sex-field.md). All records: [../04-decisions/index.md](../04-decisions/index.md).
+- Decision records: [floor of 10 on focus groups](../04-decisions/adr-017-floor-of-10-on-focus-groups.md), [the 2-day rule](../04-decisions/adr-052-two-day-rule.md), [rear delts are part of shoulders](../04-decisions/adr-018-rear-delts-part-of-shoulders.md), [helper credit 0.25](../04-decisions/adr-019-helper-credit-0-25.md), [athletic work never counts as muscle sets](../04-decisions/adr-020-athletic-work-never-counts-as-muscle-sets.md), [starting sets and ceilings by level](../04-decisions/adr-021-starting-sets-and-ceilings-by-level.md), [Focus muscle 1 and 2](../04-decisions/adr-024-focus-muscle-1-and-2.md), [no sex field](../04-decisions/adr-004-no-sex-field.md). All records: [../04-decisions/index.md](../04-decisions/index.md).

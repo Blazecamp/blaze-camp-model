@@ -4,9 +4,11 @@ Sometimes the days and minutes a person picks cannot hold the coach's minimums. 
 
 | | |
 |---|---|
-| **Status** | Accepted (the order). The exact keep order, the time numbers and the printed list are PROPOSED. |
+| **Status** | **Retired** (2026-10-10). Replaced by [ADR-050](adr-050-no-time-fitting-sessions-sized-by-exercise-count.md) and [ADR-052](adr-052-two-day-rule.md). It was Accepted from round 3 until then. |
 | **Decided by** | Coach: R3-SES-02, RIGHT with words (round 3, 2026-10-09) |
 | **Replaces** | The earlier time-overflow rule: superset, then cut sets in a fixed order when a day ran past its length |
+
+> **Retired. Do not build this.** On 2026-10-10 the coach removed time-fitting: "You need to stop trying to be responsible for the people's time." (CT-01). Round 4 confirmed it: the form no longer asks for a session length (R4-SES-01), sessions are sized by exercise count (R4-SES-02), nothing is dropped automatically (R4-SES-04), and a 2-day week trains every big muscle with about 6 to 8 sets instead of training fewer muscles (R4-SES-03). **What still stands from R3-SES-02:** supersets are recommended, blocks can be switched off, and exercises can be added or removed ([ADR-005](adr-005-editable-plan-switches-and-supersets.md)). The text below is kept as history, so nobody rebuilds the time check. The data keys it lists are retired too.
 
 ## Decision (the rule)
 

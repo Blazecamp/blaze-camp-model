@@ -11,13 +11,14 @@ Related pages: [principles](principles.md), [how he thinks](how-he-thinks.md), [
 | "Text in double quotes" | The coach's own words, copied from the answer files. " ... " marks words left out. |
 | 'Text in single quotes' | A label copied from his sheets, with his spelling (OBSERVED). |
 | `CAT-..`, `VOL-..`, `EQ-..`, `GEN-..` and so on | Round-1 answers: [coach_answers_full.md](../../coach_answers_full.md) |
-| `R2-..`, `R3-..` | Round-2 and round-3 answers: [coach_answers_round2.md](../../coach_answers_round2.md), [coach_answers_round3.md](../../coach_answers_round3.md). The newest round wins. |
+| `R2-..`, `R3-..`, `R4-..` | Round-2, round-3 and round-4 answers: [coach_answers_round2.md](../../coach_answers_round2.md), [coach_answers_round3.md](../../coach_answers_round3.md), [coach_answers_round4.md](../../coach_answers_round4.md). The newest round wins. |
+| `CT-01`, `CX-01..04` | Two clarifications he gave in conversation on 2026-10-10: on session time ([coach_answers_time_2026-10-10.md](../../coach_answers_time_2026-10-10.md)) and on progression and editing ([coach_answers_codex_2026-10-10.md](../../coach_answers_codex_2026-10-10.md)). They rank with round 4 on their subjects. |
 | `COACH-CHAT` | Said in conversation: [coach_chat_statements.md](../../coach_chat_statements.md), [coach_answers.md](../../coach_answers.md) |
 | NOT RIGHT, PARTLY, RIGHT | The verdict he ticked on the team's proposal in the questionnaire. |
 | **TEAM** | A team proposal or a team reading. He did not state it. Treat it as **PROPOSED**. |
-| `H01` ... `H22` | Hard rules the plan engine checks: `model/rules.json > validation > hard`. Listed in [AGENTS.md](../../AGENTS.md), section 10. |
+| `H01` ... `H22`, `V1` ... `V37` | Rules and checks the plan engine runs on every plan: `model/rules.json > validation`. The hard rules are listed in [AGENTS.md](../../AGENTS.md). |
 | `LK01` ... `LK18` | Locked rules: `model/rules.json > locked`. |
-| `file > key` | Where it lives. `model/rules.json` is generated and may change when the engine is rebuilt; `generator_spec_v1.json` is the stable reference. |
+| `file > key` | Where it lives. `model/rules.json` is the compiled file the engine reads; `generator_spec_v1.json` is the readable spec. For the answers of 2026-10-10 and round 4, [coverage_matrix_round4.md](../../coverage_matrix_round4.md) gives both. |
 
 ## The rule
 
@@ -34,14 +35,14 @@ Related pages: [principles](principles.md), [how he thinks](how-he-thinks.md), [
 | 5 | Bands | No bands anywhere | EQ-01, EQ-02, EQ-07, EQ-08 | `H01`, `LK06` |
 | 6 | Chains, weight releasers and other variable resistance | Parked "for now" | EQ-12 | `H01`, `LK06` |
 | 7 | Weekly increase chosen by muscle size | One stairway for every person | VOL-05, R2-PER-03 | `H21` |
-| 8 | Jumps of 10% a week | Steps of about 3% then 5%, never above 7% | UNI-05, R3-VOL-04 | `H10`, `LK08` |
+| 8 | Jumps of 10% a week as the normal pattern | Usual steps of about 3% then 5%. Bigger steps only when the final sets need them, with a note above about 15%. (The hard limits of 7% and 10% are retired too: see 2.2.) | UNI-05, R3-VOL-04, CX-01, R4-PRG-02 | `H10`, `V35` |
 | 9 | A deload or maintenance week inside a block | Rest goes between blocks, as a recommendation | R2-VOL-07, R3-PER-01 | `H15`, `LK13` |
 | 10 | "Start hard" 8-week plans; fixed shapes with a deload week | Every plan is a stairway | PER-01, R2-PER-03 | `H21` |
 | 11 | Half a set for helper muscles | A quarter set | VOL-09 | `H08` |
 | 12 | Kettlebell swings as glute work | Swings are ballistic and count for no muscle | R2-VOL-05 | `H09`, `LK07` |
-| 13 | Fewer than 10 weekly sets for a trained muscle group | A floor of 10 | R2-VOL-04, R2-VOL-06 | `H17` |
+| 13 | Fewer than 10 weekly sets for a trained muscle group when there are 3 or more training days | A floor of 10. On 2 days: every big muscle at about 6 to 8, never whole muscles dropped. | R2-VOL-04, R2-VOL-06, R4-SES-03 | `H17`, `V22` |
 | 14 | Rear delts as their own muscle | Part of the shoulders group | R3-VOL-01 | `H17` |
-| 15 | One exercise per muscle on full-body days | 2 to 4, never 1 | R2-SES-05 | `H18` |
+| 15 | Full-body days invented by the tool (by area, or 10 to 12 exercises long) | His A / B template, about 6 exercises. On split days 2 to 4 exercises per group, never 1. | R4-SES-05, R2-SES-05 | `H18`, `V30` |
 | 16 | Core after the power block | Core first | ATH-11 | `H05`, `LK05` |
 | 17 | Loading the spine heavy twice a week in the same pattern | One heavy squat day, one heavy deadlift day | PER-04, R2-SES-01 | `H07`, `LK11` |
 | 18 | Ranking machines; hack squat last | Machines are not ranked | EQ-11 | spec `machines_not_ranked` |
@@ -51,6 +52,13 @@ Related pages: [principles](principles.md), [how he thinks](how-he-thinks.md), [
 | 22 | Biomechanics as a bucket; leg curls as hip dominant; plyo "zones" | See Part 3 | CAT-03, CAT-09, CAT-11 | catalog |
 | 23 | Packaged programs: 5/3/1, Texas Method, Prilepin's chart, conjugate | His own model on first principles | COACH-CHAT, PER-01 | [lineage](lineage.md) |
 | 24 | A full app; videos required; the name "Justice League" | A simple website; videos optional; plain names | GEN-03, R2-GEN-02, FIX-03 | spec `output` |
+| 25 | Fitting plans to a session length: a time check, time offers, cutting or dropping work for minutes | No time-fitting. Sessions sized by exercise count. Time printed as information. | CT-01, R4-SES-01, R4-SES-02 | `V3`, `V13` |
+| 26 | Asking how long a session should be | Not asked | R4-SES-01 | `V3` |
+| 27 | The tool deciding what to leave out of a long session | The person picks. The plan only names what is easiest to remove. | R4-SES-04 | `V30`, `V36` |
+| 28 | Ending below the planned final sets to keep steps small; a promised number of reps or load per week | Final sets reached; reps and load as a rule the person applies | CX-01, R4-PRG-01, R4-PRG-03 | `V15`, `H10`, `V34` |
+| 29 | Proposed exercises as a template's pick; carries counted in reps or as muscle sets | Optional add-ons only; carries by distance or time | R4-LIB-01, R4-LIB-02 | `V31`, `V37` |
+| 30 | Third-party video links in the public data | A YouTube search link and the exercise name to copy | R4-LIB-05 | `V33` |
+| 31 | An optional own-risk tick | Required acceptance before any plan; a release line on every plan | R4-SCP-01, R4-SCP-02 | `V21`, `H20` |
 
 ---
 
@@ -128,13 +136,29 @@ Related pages: [principles](principles.md), [how he thinks](how-he-thinks.md), [
 |---|---|---|---|
 | Building a full app first | "I was going to create a whole app, but that kind of fell through, so I don't want to create a whole app. Maybe just a website they can just go into, and then that'll make it real easy." | A phone-friendly website, then the open repository | GEN-03 |
 | A video for every exercise before launch | "They can just look up the videos on their own on YouTube. No need to have the videos on there." | Videos are optional; his own are added as they exist | R2-GEN-02 |
+| Keeping the third-party video links from his sheets in the public data | approved as proposed (RIGHT): remove them. His words added: "make sure that there is an easy way to copy the name of the workout" | A YouTube search link for each exercise and its name to copy | R4-LIB-05 |
+| Making the own-risk tick optional | PARTLY. "they need to click it before the plan shows, as part of when they put in their data" | No plan without the acceptance; a release line on the plan | R4-SCP-02 |
+| Limiting who may use the plans on their own | "Everyone should be able to use the plan on their own, but all the plans should release liability before and after it gets kicked out." | Everyone, with the release. Whether a flagged health answer still stops a plan is open for him. | R4-SCP-01 |
+| Describing the repo with "world's best" or injury-prevention claims | approved as proposed: none. His words added the credit: "a complete coaching model from the experience of Coach Lalo, who is Gerardo Vera. Master NASM coach." | A plain description with his credit | R4-REL-03 |
 | Making people work out the percentages | "I don't really need them to be figuring out the percentages. I need this tool that we're building eventually to figure out the percentages." | The tool does the math and shows whole sets | VOL-06 |
 | A health check a coach cannot skip | "I want to be able to bypass it if I'm a coach and I just want to get it done." | Coaches may skip it with a legal warning; everyone accepts the release each time | R2-GEN-03 |
 | Program names only he understands | "we need the names to be general and understandable because no one's going to know what Justice League means." | Plain names for every program | FIX-03 |
 | Sending a pro athlete back to the lowest level | "I don't want to make an ex-pro athlete go back to Level 1 for no reason." | Level 1 only briefly after a long break, explained in plain words | PRG-05 |
 | Separate licences for code and model (Apache-2.0 and CC BY) | "it should be MIT to me so that the repo has that license to me." | One MIT license for the whole repository | R3-GEN-01 |
 
-**In the data.** `generator_spec_v1.json > output > videos`, `generator_spec_v1.json > vocab > program_names`, `generator_spec_v1.json > legal_and_privacy > licence`, `generator_spec_v1.json > legal_and_privacy > health_check`.
+**In the data.** `generator_spec_v1.json > output > videos`, `generator_spec_v1.json > vocab > program_names`, `generator_spec_v1.json > legal_and_privacy > licence`, `generator_spec_v1.json > legal_and_privacy > health_check`; `model/rules.json > render > video`, `model/rules.json > legal > gate`.
+
+### 1.6 Managing people's time
+
+**The rule now.** The plan is never fitted to a session length. The form does not ask for one. A session is sized by its number of exercises, using his counts for each kind of client. Each day prints an average time as information only. Nothing is cut, moved, reshaped or flagged because of time, and nothing is dropped automatically.
+
+**The idea that was rejected.** Fitting every plan into the minutes a person picks: a time check before the build, offers of "another day or longer sessions", training fewer muscles directly when time is short, exercise caps by minutes, and cutting sets when a day ran long. He had approved an order for this in round 3 (R3-SES-02). On 2026-10-10 he removed the whole idea.
+
+**His words.** "You need to stop trying to be responsible for the people's time. We just need to be able to give them that responsibility and not worry about how long the session is going to be." and "I want you to not get complicated over the time." (CT-01). "Drop it. We don't need it." (R4-SES-01). On what to leave out of a full session: "That's something for the athlete to adjust." (R4-SES-04).
+
+**What stays from R3-SES-02.** Supersets are still recommended. People can still switch off a day's athletic or core block and add or remove exercises.
+
+**In the data.** `model/rules.json > session > size`; `model/rules.json > time_model > use` (`estimate_only`); `model/rules.json > session > easy_to_remove > automatic` (false); check `V3` fails any plan that carries a session length, a minute limit, a time check or a time offer. Decision record: [ADR-050](../04-decisions/adr-050-no-time-fitting-sessions-sized-by-exercise-count.md).
 
 ---
 
@@ -150,15 +174,15 @@ Related pages: [principles](principles.md), [how he thinks](how-he-thinks.md), [
 
 **In the data.** `generator_spec_v1.json > rule_tables > rate_engine > principle` (the rule text says the step is never chosen by muscle size); `H21`.
 
-### 2.2 Big weekly jumps
+### 2.2 Big weekly jumps as the normal pattern, and hard limits on the step
 
-**The rule now.** Steps of about 3% before the halfway week and about 5% after it. No step above 7%. Total weekly sets rise by less than 10%.
+**The rule now.** The usual steps are about 3% before the halfway week and about 5% after it. Each trained group reaches its planned final sets. When the usual steps cannot get there, the steps are bigger. There is no hard limit. A week that adds more than about 15% carries a clear note, and the person can lower it.
 
-**The idea that was rejected.** Progressing by 10% a week. He raised this limit himself when asked how unilateral work progresses.
+**The ideas that were rejected.** Two, in opposite directions. First, progressing by 10% a week as a habit: he raised this himself when asked how unilateral work progresses. Second, the team's hard limits (no step above 7%, total rise under 10%) when they would make a plan finish below its planned final sets.
 
-**His words.** "it can progress week by week by 10%. That's way too much. It's hard to sustain a program like that for an 8-week program." (UNI-05)
+**His words.** "it can progress week by week by 10%. That's way too much. It's hard to sustain a program like that for an 8-week program." (UNI-05). On finishing lower to keep the steps small: "no, go ahead and increase faster if thats the need, they could edit accordingly" (CX-01). Round 4 approved "no hard limit" with a note above about 15% (R4-PRG-02).
 
-**In the data.** `generator_spec_v1.json > rule_tables > rate_engine > limits`; `generator_spec_v1.json > validation_checks > V15_step`; `H10`; `LK08`.
+**In the data.** `model/rules.json > stairway > standard_steps` (0.03, 0.05), `model/rules.json > stairway > progression` (`target_reached`, `note_above: 0.15`); checks `V15`, `H10` (final sets reached) and `V35` (the note). The compiled list of locked rules still carries `LK08`, "total weekly sets rise by less than 10%": a leftover, retired by CX-01 and R4-PRG-02.
 
 ### 2.3 A deload or maintenance week inside a block
 
@@ -202,23 +226,25 @@ Related pages: [principles](principles.md), [how he thinks](how-he-thinks.md), [
 
 ### 2.6 Fewer than 10 sets, and rear delts as their own muscle
 
-**The rule now.** Every muscle group trained directly gets at least 10 sets a week in a training block. Rear delts are counted inside the shoulders group.
+**The rule now.** With 3 or more training days, every muscle group trained directly gets at least 10 sets a week in a training block. With 2 training days, every big muscle is still trained, at about 6 to 8 weekly sets, and the plan says so and suggests a third day (R4-SES-03). Rear delts are counted inside the shoulders group.
 
-**The ideas that were rejected.** Starting small muscles at 8 sets a week for beginners. Giving rear delts their own 4, 6 or 8 weekly sets.
+**The ideas that were rejected.** Starting small muscles at 8 sets a week for beginners. Giving rear delts their own 4, 6 or 8 weekly sets. On 2 days a week: dropping whole muscles, or piling on more exercises to force 10 sets.
 
 **His words.** "8 sets a week is probably just barely maintenance." (R2-VOL-04). "I don't think anybody needs less than 10 sets a week per muscle" (R2-VOL-06). "I wouldn't categorize the rear delt as an individual muscle, so it should always be adaptable. People and coaches should always be able to add more rear delts, I guess, if they wanted, but that's the way I look at it." (R3-VOL-01)
 
 **In the data.** `generator_spec_v1.json > rule_tables > weekly_sets > floors`; `generator_spec_v1.json > rule_tables > weekly_sets > retired_v1_2`; `generator_spec_v1.json > validation_checks > V22_floor`; `H17`.
 
-### 2.7 One exercise per muscle
+### 2.7 Day layouts that are not his
 
-**The rule now.** 2 to 4 exercises for each muscle group on every day it is trained.
+**The rule now.** Every day is built on one of his own templates. His full-body day is an A day (pull + knee dominant) or a B day (push + hip dominant) of about 6 exercises, up to 8. On a split day such as push / pull / legs, each muscle group gets 2 to 4 exercises, never 1.
 
-**The ideas that were rejected.** At most 2 exercises per muscle per session. On full-body days, 1 to 2 exercises per muscle.
+**The ideas that were rejected.** At most 2 exercises per muscle per session (round 1). On full-body days, 1 to 2 exercises per muscle (round 2). Then, in round 4, both of the team's ways to square "5 to 7 exercises" with "2 to 4 per muscle" on a full-body day: counting by area (legs, push, pull), and making full-body days 10 to 12 exercises long.
 
-**His words.** "Usually, I have about 3 to 4 exercises per muscle group per day." (VOL-07). PARTLY: "No, full-body days need to have the same 2-4 exercises per muscle that day, so it might be a little longer day. It could start really short, but because you're doing more volume throughout the week, there's never one exercise, so from 2 all the way to 4" (R2-SES-05)
+**His words.** "Usually, I have about 3 to 4 exercises per muscle group per day." (VOL-07). "there's never one exercise, so from 2 all the way to 4" (R2-SES-05). Round 4, NOT RIGHT: "The template is usually 6 exercises for the full-body days because we do that A-day/B-day of upper/lower" and "We don't design full bodies only with push, pull, and legs. This is the model that I believe is the greatest one." (R4-SES-05)
 
-**In the data.** `generator_spec_v1.json > rule_tables > session_limits > exercises_per_muscle_on_its_day`; `generator_spec_v1.json > validation_checks > V23_exercises_per_group`; `H18`.
+**Note.** On an A or B day a group can have one exercise (biceps on A, triceps on B). That comes from his own template. "Never one" is kept for split days; that reading is the team's (INFERRED).
+
+**In the data.** `model/templates.json` (day types `gym_A`, `gym_B`, `ppl_push` ...); `model/rules.json > session > exercises_per_group` (`full_body_day: [1, 4]`, `split_day: [2, 4]`); checks `V23`, `H18`, `V30`. Decision record: [ADR-051](../04-decisions/adr-051-coach-templates-are-the-skeleton.md).
 
 ### 2.8 Smaller volume ideas he turned down
 
@@ -259,8 +285,9 @@ Related pages: [principles](principles.md), [how he thinks](how-he-thinks.md), [
 | Squatting heavy twice a week | "I don't want to always load the lower back and the spine twice per week." | One heavy squat day; the second lower day uses a leg press or belt squat | PER-04 | `H07`, `LK11` |
 | A hinge paired with a pull (as in one of his own bootcamp tabs) | "Yeah, that was not intentional. You should read hinge and then push: hip-dominant with pushing and knee-dominant with pulling." | Hip dominant with a push, knee dominant with a pull | ORD-06 | `H06` |
 | Pulldown before row (as in some of his older tabs) | approved as proposed (RIGHT, no words of his own): row before pulldown, always | Horizontal before vertical | ORD-01 | `H04`, `LK04` |
-| Supersets only when time is short | PARTLY. "The supersetting is more like a fatiguing principle." | Also for advanced athletes, off-season conditioning and beginners who do not tire | ORD-05 | `generator_spec_v1.json > rule_tables > supersets_contrast_circuits > use_cases` |
-| Squeezing every muscle into a session that is too short | approved as proposed (RIGHT): never squeeze 2 to 4 exercises per muscle into a day that cannot hold them. His own words: "they should be able to get things done." | Say so up front, offer more time, train fewer groups directly, recommend supersets | R3-SES-02 | `generator_spec_v1.json > rule_tables > session_limits > time_vs_minimums` |
+| Supersets only when time is short | PARTLY. "The supersetting is more like a fatiguing principle." | A recommendation the person takes or leaves, also for advanced athletes, off-season conditioning and beginners who do not tire. No session length switches them on. | ORD-05, CT-01 | `generator_spec_v1.json > rule_tables > supersets_contrast_circuits > use_cases` |
+| Fitting a session to a number of minutes | "You need to stop trying to be responsible for the people's time." | See 1.6. The round-3 order for short sessions (say so, offer more time, train fewer groups directly, superset) is retired. | CT-01, R4-SES-01 (it was R3-SES-02) | `V3` |
+| Overhead pressing as the default vertical push for bodybuilders and the general population | "For bodybuilders, I would rather focus more on incline pressing than on overhead pressing." | Incline first in that slot; overhead stays as a variation | R4-LIB-03 | `V32` (a warning) |
 
 **In the data.** `generator_spec_v1.json > rule_tables > core_block`, `generator_spec_v1.json > rule_tables > axial_loading`, `generator_spec_v1.json > rule_tables > pairing > bootcamp_1_tue_fri`, `generator_spec_v1.json > rule_tables > ordering > hard`.
 
@@ -367,6 +394,12 @@ He refined several of his own answers as the model took shape. The newest answer
 | Older adults and jumps | Never depth jumps or snatches: RIGHT (EQ-03). Low ankle hops still fine: RIGHT (R2-ATH-08 proposal). | Off by default, "an additional option if they want to do it according to the coach" (R2-ATH-08); ankle hops also off by default (R3-ATH-02) |
 | The licence | Apache for the code and CC BY for the model: RIGHT (R2-GEN-02) | "it should be MIT to me" (R3-GEN-01) |
 | Week-by-week plans | "Just keep me in line, kind of thing, and then it does it by itself." (PER-01) | No check-ins (R3-VOL-02). The team retired week-by-week as a separate mode, because it ran on check-ins (**TEAM** reading; he has not confirmed it). |
+| What gives when time is short | An order he approved: tell them, offer more time, train fewer muscles directly, superset, keep climbing (R3-SES-02) | "You need to stop trying to be responsible for the people's time." (CT-01). On 2 days, every big muscle at about 6 to 8 sets (R4-SES-03). |
+| Full-body days | "there's never one exercise, so from 2 all the way to 4" on full-body days too (R2-SES-05) | His A / B template, "usually 6 exercises" (R4-SES-05) |
+| The size of a weekly step | A limit of 7% inside the round-2 check-in table: RIGHT (R2-VOL-01) | "go ahead and increase faster if thats the need" (CX-01); no hard limit, a note above about 15% (R4-PRG-02) |
+| Session length | Sessions of 45 to 60 minutes, or about 1.5 hours, that "has to be accounted for" (UNI-09) | "We don't need to be counting their time. We can talk about averages, but no need for it." (R4-SES-01) |
+| The own-risk tick | Read by the team as "it doesn't matter if they click it; it comes out" | "they need to click it before the plan shows" (R4-SCP-02) |
+| Who rebuilds the engine, and when | The team proposed to build it later | "I think you can try to build it now." (R4-REL-02) |
 
 More detail on every change between rounds: [changes across rounds](../03-coach-answers/changes-across-rounds.md).
 
@@ -387,7 +420,13 @@ These were designed by the team. He never discussed most of them by name, though
 | A step capped at 3% for people over 60 | every trained group should reach its ceiling in the last week; older adults are protected by exercise choice instead | R3-VOL-04, R3-ATH-02 |
 | Priority muscles at +4 to +6 sets with every other muscle slowed down, as the way a person asks for more of one muscle | He had accepted these numbers earlier (VOL-02 PARTLY, R2-VOL-06 RIGHT). Round 3 replaced the intake path with Focus muscle 1 and 2 at one to three extra sets, others not slowed. The +4 to +6 push is not deleted: it stays in the spec as an optional coach setting, off by default (**TEAM** handling). | R3-SES-01 |
 | A second calf exercise on leg days | calves are one exercise, 3 sets, per leg day | R3-SES-01 |
-| Cutting exercises in a fixed order when a day runs long | replaced by his order: tell, offer, train fewer groups, supersets, keep climbing | R3-SES-02 |
+| Cutting exercises in a fixed order when a day runs long | first replaced by his round-3 order, then removed with all time-fitting | R3-SES-02, CT-01 |
+| The time check: comparing a plan with the chosen minutes, offers of "another day or longer sessions", lists of groups "not trained directly (time)", the 110 % fit rule | he removed time-fitting | CT-01, R4-SES-01 |
+| The minutes-per-set model as a constraint | kept only to print an average time | CT-01 |
+| A fixed order for what the tool leaves out of a full session (accessories, then extra stations, then finishers) | "That's something for the athlete to adjust." The plan only names what is easiest to remove. | R4-SES-04 |
+| Counting a full-body day by area, or making it 10 to 12 exercises long | NOT RIGHT: his A / B template | R4-SES-05 |
+| A coach-set weekly step capped at 7 %; ending below the ceiling when 3 % and 5 % steps cannot reach it | the final sets are reached | CX-01 |
+| The large two-stage optimizer planner | most of its difficulty was the time fit; engine 0.5 is template-first | CT-01; team decision, [ADR-058](../04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md) |
 | Contralateral loading as the default for everyone | he explained when each side is used; there is no global default | CAT-13 |
 | Four client levels, with a level 4 for competitors | three levels by training experience; competition changes the profile, not the level | PRG-05, PRG-09 |
 | Reading his sport ranking (ATH-02) as total jumps per sport | the ranking is read as fast, bouncy contacts, and the plyometric share is set by time on the ground; the weekly contact numbers inside each sport profile are still team numbers (**PROPOSED**) | ATH-01, R2-ATH-01 |
@@ -405,10 +444,12 @@ He left the door open on these. Some are not in the model at all. Some are in it
 | Variable resistance (chains, weight releasers) | "We will work with that later on." | Not in the model. Bands stay a firm no (5.1). | EQ-12 |
 | A pro setting above 30 weekly sets for one muscle | "Maybe we can add a pro level where some muscles can grow out of that if the person is really adamant about growing that muscle" | Sketched in the spec as a coach opt-in; its numbers are **PROPOSED**. | R2-VOL-06 |
 | Programming for competitive Olympic weightlifters | "now the program needs to change to Olympic weightlifting programming, which is completely different but kind of the same on here" | Not in the model. Olympic lifts are a tool for power here. | R2-GEN-06 |
-| His own exercise video library | "We haven't built our video library." | Not built. Videos are optional. | R2-GEN-02 |
+| His own exercise video library | "We haven't built our video library." | Not built. Until it exists each exercise has a YouTube search link and its name to copy (R4-LIB-05). | R2-GEN-02, R4-LIB-05 |
 | Heavy, low-rep single-leg work | "it can be something that we can add if the athlete feels like they need that." | Single-leg lifts stay at 8 to 12 reps per side by default. A heavy option is sketched in the spec (**PROPOSED**). | UNI-04 |
 | A/B weeks for people who want variety | "sometimes athletes and people want more variety, and that'll give them more variety." | In the model as an option for people who ask for variety. Off otherwise. | PER-03 |
-| Carries, drags and sling systems | approved to build out (RIGHT, no words of his own) | His library columns for them are empty. The starter lists in the model are the team's (**PROPOSED**). | LIB-19 |
+| Carries, drags and sling systems | approved to build out (RIGHT, no words of his own); then: "they can be optional, and they can be chosen and added, but not primary ones" | Carries and sled work are optional add-ons, dosed by distance or time. A template never picks them, except sled pushes in HYROX (maybe CrossFit). Sling systems are still empty. | LIB-19, R4-LIB-01, R4-LIB-02 |
+| Neck work | stays proposed "until you decide" (the proposal he marked RIGHT) | In the data, never picked and never shown | R4-LIB-01 |
+| Wall balls and sled pushes in the CrossFit program | "Maybe in the CrossFit program, but that's it." | On for the CrossFit-style class workout, with one switch to turn it off (**PROPOSED** reading) | R4-LIB-01 |
 | Coaches adding their own rules | "and options for a coach to add their own rules if they want" | Asked for by him. The format of a coach rule file is the team's (**PROPOSED**). | GEN-08 |
 
 **In the data.** `generator_spec_v1.json > rule_tables > weekly_sets > landmarks_coach > pro_setting`, `generator_spec_v1.json > rule_tables > reps > unilateral`, `generator_spec_v1.json > rule_tables > set_placement > block_rule` (A/B weeks), `generator_spec_v1.json > rule_tables > library_decisions > build_out`, `generator_spec_v1.json > coach_rule_hooks`.
@@ -425,27 +466,36 @@ He left the door open on these. Some are not in the model at all. Some are in it
 | Hip dominant with a push, knee dominant with a pull | `H06` | | `generator_spec_v1.json > validation_checks > V11_pairing` |
 | One heavy squat day and one heavy deadlift day | `H07` | `LK11` | `generator_spec_v1.json > validation_checks > V10_spine` |
 | Helpers a quarter set; athletic work counts for no muscle | `H08`, `H09` | `LK07` | `generator_spec_v1.json > validation_checks > V14_counting` |
-| Step never above 7%; total rise below 10% | `H10` | `LK08` | `generator_spec_v1.json > validation_checks > V15_step` |
+| Final sets reached in the last week, one week early at most; a note on a week above about 15% (the 7% and 10% limits are retired) | `H10` | (`LK08` is a leftover) | `model/rules.json > validation > checks`: `V15`, `V35` |
 | Medball limits | `H11` | `LK12` | `generator_spec_v1.json > validation_checks > V16_aesthetics` |
 | Older-adult defaults | `H12` | `LK09`, `LK15` | `generator_spec_v1.json > validation_checks > V5_older` |
 | No sex or gender field | `H13` | `LK10` | `generator_spec_v1.json > inputs_schema > removed_fields` |
 | No deload or maintenance week inside a block | `H15` | `LK13` | `generator_spec_v1.json > validation_checks > V24_block_structure` |
 | No sleep, stress, job or life input | `H16` | `LK16` | `generator_spec_v1.json > validation_checks > V26_inputs` |
-| Floor of 10 sets per trained group | `H17` | | `generator_spec_v1.json > validation_checks > V22_floor` |
-| 2 to 4 exercises per group, never 1 | `H18` | | `generator_spec_v1.json > validation_checks > V23_exercises_per_group` |
+| Floor of 10 sets per trained group from 3 training days; 6 for big groups on 2 days | `H17` | | `model/rules.json > validation > checks`: `V22` |
+| His template's slots on a full-body day (1 to 4 per group); 2 to 4 per group on a split day | `H18` | | `model/rules.json > validation > checks`: `V23`, `V30` |
 | Tests only at the start and end; never a true max from zero | `H19` | `LK14` | `generator_spec_v1.json > validation_checks > V25_tests` |
-| The stairway always climbs | `H21` | | `generator_spec_v1.json > validation_checks > V29_stairway_climbs` |
+| Sets never go down inside a block; the last week is the hardest (a week may hold its sets) | `H21` | | `model/rules.json > validation > checks` |
 | Built once; no input changes the plan afterwards | `H22` | `LK18` | `generator_spec_v1.json > rule_tables > rate_engine > no_feedback` |
 | No data kept | | | `generator_spec_v1.json > validation_checks > V27_no_data_kept` |
 | No V-squat | | `LK02` | `generator_spec_v1.json > validation_checks > V20_vsquat` |
+| No time fitting anywhere in a plan | | | `model/rules.json > validation > checks`: `V3` |
+| The release accepted before any plan; the release line printed | `H20` | `LK17` | `V21`; `model/rules.json > legal > gate` |
+| No optional add-on as a template pick; carries by distance or time | | | `V31`, `V37` |
+| No third-party video link | | | `V33` |
+| A progression rule on every lift, no promised numbers | | | `V34` |
 
-The plan engine is being rebuilt, so the hard-rule and locked-rule ids may be renumbered. The coach's answers do not change with the code. The same list of retired ideas is kept for reviewers in [REVIEW_GUIDE.md](../../REVIEW_GUIDE.md) and for agents in [AGENTS.md](../../AGENTS.md), section 13.
+These ids are the ones engine 0.5 uses (`engine/CONTRACTS.md` §6). The spec keys in the right-hand column are from the round-3 spec; for the checks added in engine 0.5 the table names the engine check. The coach's answers do not change with the code. The same list of retired ideas is kept for reviewers in [REVIEW_GUIDE.md](../../REVIEW_GUIDE.md) and for agents in [AGENTS.md](../../AGENTS.md).
 
 ## If you are about to add something
 
 | You want to add | Check first |
 |---|---|
-| A new question on the form | Is there a coach answer behind it? If it is about sleep, stress, work, life or sex, the answer is no (Part 1). |
+| A new question on the form | Is there a coach answer behind it? If it is about sleep, stress, work, life, sex or session length, the answer is no (Part 1). |
+| Anything that cuts, moves or drops work because of time | No (1.6). Print an average time and let the person decide. |
+| A day layout that is not one of his templates | No (2.7). |
+| A limit that makes a plan finish below its planned final sets | No (2.2). |
+| A team-proposed exercise as a default pick | No. Optional add-on only (Part 10). |
 | Any kind of feedback, log or score that changes the plan | No (1.1). People adjust the plan themselves. |
 | Storage, accounts, analytics | No (1.2). |
 | A band exercise or a band substitute | No (5.1). |

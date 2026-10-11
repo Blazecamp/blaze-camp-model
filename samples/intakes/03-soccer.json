@@ -1,6 +1,6 @@
 {
   "schema": "intake/2",
-  "_comment": "Coach sample 3 (R2-GEN-07): semi-pro midfielder (level of play 'amateur' - the picker has no semi-pro option), season starts in 10 weeks (2026-12-21), 8-week plan, 3 days x 75 min, full gym + field kit, 2 years lifting, 165 lb, Spanish output. With 10 weeks to the season the plan is a 6-week off-season stairway + the first 2 weeks of a 4-week pre-season (D-10).",
+  "_comment": "Coach sample 3 (R2-GEN-07): semi-pro midfielder (level of play 'amateur' - the picker has no semi-pro option), season starts in 10 weeks (2026-12-21), 8-week plan, 3 days, full gym + field kit, 2 years lifting, 165 lb, Spanish output. With 10 weeks to the season the plan is a 6-week off-season stairway + the first 2 weeks of a 4-week pre-season (D-10).",
   "id": "sample-03-soccer",
   "lang": "es",
   "units": "lb",
@@ -56,7 +56,6 @@
       "Wed",
       "Fri"
     ],
-    "session_minutes": 75,
     "start_date": "2026-10-12"
   },
   "plan": {
