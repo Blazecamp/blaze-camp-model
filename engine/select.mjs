@@ -236,6 +236,19 @@ function prep(ctx) {
     }
     reactiveWant = Math.round((n * ratio) + EPS);
   }
+  // v0.6 (G-132, 03 M3; R2-ATH-03 'an intermediate athlete may start at stage 2'): a training block whose jump work starts at stage 2
+  // or 3 (no Land block before it) may take single-leg and lateral jumps from its first exercise block; the two-foot rule of the first
+  // reactive block (E-32) stays for depth jumps and drops (rules.selection.s6.jumps)
+  // v0.6 (G-133, 08 M1; EQ-03, ATH-10): the power slot of a client with declared pain, 3+ play days a week or the 50+ racket overlay
+  // takes no snatch-family lift (the DB / KB high pull stays) and a snatch-day station may take a KB swing (rules.selection.s6.olympic_safe)
+  const S6O = R.selection.s6 && R.selection.s6.olympic_safe;
+  const olySafe = !!S6O && ((S6O.when_pain && pain.length > 0) || (typeof S6O.when_play_days_min === 'number' && (derived.play_days || []).length >= S6O.when_play_days_min) || (S6O.when_racket50 && racket50));
+  const S6J = R.selection.s6 && R.selection.s6.jumps;
+  // (the plan's jump work starts there: no exercise block before this one - in any training block - is a Land block)
+  const planEbsBefore = shape ? (shape.exercise_blocks || []).filter((e) => e.n < exerciseBlock) : [];
+  const jumpStart2 = !!S6J && (S6J.start_stages || []).includes(stageNow) && !planEbsBefore.some((e) => ebStage(e) === 'RC1');
+  const S6Jc = S6J && S6J.cutting;
+  const cuttingDaily = !!S6Jc && !!sport && (S6Jc.families || []).includes(sport.family) && (!S6Jc.cod_sport || !!sport.cod_sport);
   const E0 = {
     priority: (derived.priority_muscles || []).slice(),
     ...ctx, R, model, derived, age, older, optIn, youth, lvl, ladder, ladderOrder, kitObj, kit, sport, profileId, tb, eb, ebIdx,
@@ -247,6 +260,8 @@ function prep(ctx) {
     hot, genericRe, plyoRules, injuries,
     stage: stageNow,
     FR, firstReactive, firstStageBlock: ebIdx === 0, priorRc2, heavyOrL1, reactiveWant, stageMoved,
+    olySafe, olySafeRule: S6O || null,
+    jumpStart2, cuttingDaily, depthRe: S6J ? new RegExp(S6J.depth_re || 'depth') : /depth/,
     // v0.4 fix round 2 / F2 (rules.athletic.r2.selection, E-167 ...): the athletic picks by sport, stage and client
     R2S: (R.athletic.r2 && R.athletic.r2.selection) || null,
     heavy: !!FR && (derived.body_weight_lb || 0) >= (FR.heavy_bw_lb || Infinity),
@@ -368,6 +383,19 @@ function inclineFirstOn(E) {
   return (IF.goals || []).includes(E.goal) && !(IF.not_competitive && E.competitive);
 }
 
+/** v0.6 (G-131): does the low-back core rule hold for this client? Declared low-back pain always; a sport profile's low-back hot spot
+ *  only while rules.selection.s6.core.low_back_list_only_with_pain is off (the v0.5 reading) */
+function lowBackClient(E) {
+  const CLB = E.F3 && E.F3.core_low_back;
+  if (!CLB) return false;
+  if (E.painAreas.includes('lower_back')) return true;
+  const S6C = E.R.selection.s6 && E.R.selection.s6.core;
+  const hot = (CLB.hotspots || []).some((h) => E.injuries.has(h));
+  // (a client from the 50+ overlay with a low-back hot spot keeps the list - the 08 review of v0.4 asked for it; PROPOSED, open)
+  if (S6C && S6C.low_back_list_only_with_pain) return hot && typeof S6C.hotspot_list_from_age === 'number' && (E.age || 0) >= S6C.hotspot_list_from_age;
+  return hot;
+}
+
 /** anti-movement / hold core record (plank, dead bug, Pallof, hollow / streamline hold, side plank, carries; not the Copenhagen plank -
  *  an adductor exercise with a long lever) */
 function antiCore(ex) { return !/copenhagen/.test(ex.id) && (ANTI_CORE_RE.test(ex.id) || /hold|plank|carry/.test(ex.id)); }
@@ -425,8 +453,11 @@ function variantPool(slot, eb, E, relax) {
     const fam = (e) => e.athletic && e.athletic.olympic_family;
     // V19: clean station -> clean / loaded jump; snatch station -> snatch / swing; a jerk-family lift fits any station
     // (relaxed step only, when the kit / pain / level leaves nothing of the day's own family)
-    if (v === 'clean') pool = pool.filter((e) => (relax ? ['clean', 'loaded_jump', 'jerk'] : ['clean', 'loaded_jump']).includes(fam(e)));
-    else if (v === 'snatch') pool = pool.filter((e) => (relax ? ['snatch', 'swing', 'jerk'] : ['snatch']).includes(fam(e)));
+    // (v0.6, G-133: a snatch-day station of an 'olympic safe' client takes a KB swing or the DB / KB high pull)
+    const safeAdd = E.olySafe && E.olySafeRule ? (E.olySafeRule.snatch_station_adds || []) : [];
+    // (... and its clean-day station, when no clean or loaded jump passes, a KB swing or the high pull before an overhead jerk)
+    if (v === 'clean') pool = pool.filter((e) => (relax ? (safeAdd.length ? ['clean', 'loaded_jump', ...safeAdd, 'snatch'] : ['clean', 'loaded_jump', 'jerk']) : ['clean', 'loaded_jump']).includes(fam(e)));
+    else if (v === 'snatch') pool = pool.filter((e) => (relax ? ['snatch', 'swing', 'jerk'] : ['snatch', ...safeAdd]).includes(fam(e)));
     else if (v === 'swing') pool = pool.filter((e) => fam(e) === 'swing');
     else if (v === 'jerk') pool = pool.filter((e) => !!fam(e));
     else pool = pool.filter((e) => !!fam(e));
@@ -538,6 +569,15 @@ function hardFilter(ex, slot, eb, E, spine) {
   // pulls'): the sport's Olympic ceiling (04 triple_ext.ceiling, named on the L2+ barbell lifts; L1 keeps its own DB / KB list) -
   // 'power' keeps the catch above a full squat, 'pull' keeps the barbell work to pulls - unless the coach switches the full lifts on
   if (eb === 'AP_TRIPLE_EXT' && olympicAboveCeiling(ex, E.sport, R, E.derived)) return { ok: false, step: 'profile' };
+  // v0.6 (G-133, 08 M1; EQ-03 'collect that volume in a safe place with more constraints'; ATH-10 beginners DB / KB, hex-bar jumps): no
+  // snatch-family lift for an 'olympic safe' client (pain, 3+ play days, the 50+ racket overlay) - the DB / KB high pull stays -, and no
+  // barbell power lift for a beginner with pain
+  if (eb === 'AP_TRIPLE_EXT' && E.olySafe && E.olySafeRule) {
+    const OS = E.olySafeRule;
+    const famX = ex.athletic && ex.athletic.olympic_family;
+    if ((OS.drop_families || []).includes(famX) && !(OS.keep_id_re && new RegExp(OS.keep_id_re).test(ex.id))) return { ok: false, step: 'olympic_safe' };
+  }
+  if (eb === 'AP_TRIPLE_EXT' && E.olySafeRule && E.pain.length && (E.olySafeRule.barbell_exclude_levels_with_pain || []).includes(E.lvl) && (tags.includes('barbell') || implementOf(ex) === 'barbell')) return { ok: false, step: 'olympic_safe' };
   if (eb === 'AP_TRIPLE_EXT' && ex.athletic && ex.athletic.olympic_tier === 'L2_plus') {
     // (fix round 2, rules.olympic.x2.l2_block1: an L2 lifter's first exercise block takes the hang power lifts - ATH-10 'power and
     // hang variants with the barbell' - so the hang power snatch passes there)
@@ -577,8 +617,10 @@ function hardFilter(ex, slot, eb, E, spine) {
   if (PLYO_BUCKETS.includes(eb) && R.athletic.rc3_plyometric_response && E.stage === 'RC1' && ex.athletic && ex.athletic.quality === 'plyometric' && !ex.athletic.upper && !ex.athletic.low_amplitude) return { ok: false, step: 'stage' };
   // first reactive block: bilateral and unloaded reactive jumps only; single-leg reactive work after one bilateral stage-2 block
   if (PLYO_BUCKETS.includes(eb) && E.FR && ex.athletic && ex.athletic.quality === 'plyometric' && responseOf(ex) === 'single' && !ex.athletic.upper) {
-    if (E.firstReactive && (isUnilateral(ex) || tags.includes('split_grip') || ex.equipment.any_of.every((su) => su.includes('dumbbell')))) return { ok: false, step: 'first_reactive' };
-    if (E.FR.single_leg_reactive_after_bilateral_block && isUnilateral(ex) && !E.priorRc2) return { ok: false, step: 'first_reactive' };
+    // (v0.6, G-132: a plan that starts at stage 2 keeps the two-foot rule for depth jumps and drops only)
+    const s6Free = E.jumpStart2 && isUnilateral(ex) && !E.depthRe.test(ex.id);
+    if (E.firstReactive && ((isUnilateral(ex) && !s6Free) || tags.includes('split_grip') || ex.equipment.any_of.every((su) => su.includes('dumbbell')))) return { ok: false, step: 'first_reactive' };
+    if (E.FR.single_leg_reactive_after_bilateral_block && isUnilateral(ex) && !E.priorRc2 && !s6Free) return { ok: false, step: 'first_reactive' };
   }
   // COD drills of one sport (American-football routes; RECHECK 03 major) and drills with no cut never fill a COD station
   if (eb === 'AP_COD' && ex.athletic && (ex.athletic.no_cuts || (Array.isArray(ex.athletic.sport_only) && !ex.athletic.sport_only.includes(E.sportId)))) return { ok: false, step: 'sport' };
@@ -667,6 +709,8 @@ function directionOf(ex) {
   if (/broad|forward|bound|hurdle|zig|backward/.test(ex.id)) return 'horizontal';
   return 'vertical';
 }
+// v0.6 (G-132): a lateral jump by its id words - 'bilateral' is not a direction (directionOf reads it as lateral)
+const LATERAL_JUMP_RE = /(^|-)(lateral|side|skater|cossack|zig-zag)(-|$)/;
 const ANTI_CORE_RE = /(plank|pallof|dead-bug|bird-dog|hollow|suitcase|offset|anti)/;
 const stage0 = (E) => E.stage || 'RC1';
 
@@ -921,13 +965,14 @@ function scoreOf(ex, slot, eb, E, st, day) {
         const dir = directionOf(ex), want = (PRr.direction_pct[dir] || 0) / 100;
         if (want > 0 && (nj ? (dj[dir] || 0) / nj : 0) < want - EPS) s += 2 * want;
       }
-      if (eb === 'AP_PLYO' && typeof PRr.unilateral_pct === 'number' && !E.firstStageBlock && !(E.firstReactive && q === 'plyometric')) {
+      const s6Uni = E.jumpStart2 && !E.depthRe.test(ex.id);
+      if (eb === 'AP_PLYO' && typeof PRr.unilateral_pct === 'number' && (!E.firstStageBlock || s6Uni) && !(E.firstReactive && q === 'plyometric' && !s6Uni)) {
         const ju = st.jumpUni || { n: 0, u: 0 };
         const under = (ju.n ? ju.u / ju.n : 0) < PRr.unilateral_pct / 100 - EPS;
         if (under && isUnilateral(ex)) s += 1.5;
       }
       // E-32 (the first reactive block lands on two feet): a single-leg repeat drill waits too, not only a single-leg depth jump
-      if (E.FR && E.firstReactive && q === 'plyometric' && isUnilateral(ex)) s -= 6;
+      if (E.FR && E.firstReactive && q === 'plyometric' && isUnilateral(ex) && !s6Uni) s -= 6;
       if (eb === 'AP_JUMP_LIMITED_KNEE' && F2S.ankle_first_block_in_place) {
         // in place on two feet first, then a direction on two feet (the sport's directions: lateral for a racket player), one leg
         // from the third block (CAT-10 'bilateral before unilateral')
@@ -946,7 +991,13 @@ function scoreOf(ex, slot, eb, E, st, day) {
     if (stage === 'RC3' && eb === 'AP_PLYO' && !R.athletic.rc3_plyometric_response) s += tags.includes('plyo_repeated') ? 2 : -2;
     // B2: the first exercise block of a training block lands on two feet (CAT-10; RECHECK 01 minor 'single-leg / weighted depth
     // drop in week 1 for a swimmer'); a week holds at most E.depthCap depth-jump stations (heavier athletes / beginners 1)
-    if (E.FR && E.FR.first_block_bilateral_landing && E.firstStageBlock && eb !== 'AP_THROW' && (ex.laterality !== 'bilateral' || tags.includes('split_grip'))) s -= 3;
+    if (E.FR && E.FR.first_block_bilateral_landing && E.firstStageBlock && eb !== 'AP_THROW' && (ex.laterality !== 'bilateral' || tags.includes('split_grip')) && !(E.jumpStart2 && !E.depthRe.test(ex.id) && !tags.includes('split_grip'))) s -= 3;
+    // v0.6 (G-132, CAT-13 'COD athletes get in and out of the hip'; 03 M3): a cutting field / court sport holds at least one single-leg or
+    // lateral jump station on every training day
+    // (the Land stage lands on two feet first, CAT-10: there the station is a two-foot lateral one; single-leg from Land & Go on)
+    const rc1 = !E.stage || E.stage === 'RC1';
+    if (E.cuttingDaily && eb === 'AP_PLYO' && slot.variant !== 'upper' && !ex.athletic.upper && ((isUnilateral(ex) && !rc1) || (LATERAL_JUMP_RE.test(ex.id) && !(rc1 && isUnilateral(ex)))) &&
+        !(st.dayJumpUL && st.dayJumpUL.has(weekdayOfSlot(slot)))) s += (R.selection.s6.jumps.cutting.bonus || 0);
     if (E.FR && tags.includes('depth_jump') && (st.depthUsed || 0) >= E.depthCap) s -= 8;
     // the sport's jump directions (04 direction_pct; review 01 / 08: no lateral plate hops for a 5 % lateral swimmer)
     const dp = E.plyoRules && E.plyoRules.direction_pct;
@@ -1047,7 +1098,11 @@ function scoreOf(ex, slot, eb, E, st, day) {
       // at most one medball station and one KB swing a week (the weekly throw budget is 20-40 for a general client)
       const kind = tags.includes('kb_swing') ? 'swing' : 'ball';
       const usedKind = (st.circBallKinds || new Set()).has(kind);
-      s += n < E.R.athletic.circuit_ballistic.per_week && !usedKind ? 6 : -8;
+      // v0.6 (G-135, 05 M1; OBSERVED BYOP 'BOOTCAMP - OPTION 2' Cardio station): the bootcamp's cardio station takes a cardio pick
+      // first - a KB swing or a medball throw only when the kit holds no cardio exercise for it (rules.selection.s6.circuit_cardio_first)
+      const CCF = E.R.selection.s6 && E.R.selection.s6.circuit_cardio_first;
+      if (CCF && (CCF.families || []).includes(E.family) && !(E.R.athletic.hyrox && (E.R.athletic.hyrox.station_variants || []).includes(slot.variant))) s += CCF.ballistic_penalty;
+      else s += n < E.R.athletic.circuit_ballistic.per_week && !usedKind ? 6 : -8;
       // v0.4 fix round 2 / F2 (E-174; 04 general_population throw_plane_pct 50 / 50; RECHECK v0.4 05 minor: every throw sagittal for 8
       // weeks): the circuit's ball station changes plane at the exercise-block start when the profile throws in both planes
       const CPR = E.R2S && E.R2S.circuit_throw_plane_rotate;
@@ -1533,9 +1588,18 @@ function f3Score(ex, slot, eb, E, st, day, bk, wd, reasons) {
   if (D3 && typeof D3.flipped_bilateral_counted === 'number' && slot.bucket !== eb && (eb === 'RP_BKD' || eb === 'RP_BHD')) s += ['BKD', 'BHD'].includes(ex.credit_class) ? D3.flipped_bilateral_counted : -D3.flipped_bilateral_counted;
   if (bk === 'core' && (!(day && day.optional) || !!E.S2)) {
     const CO = F3.core_low_back;
-    if (CO && ((CO.hotspots || []).some((h) => E.injuries.has(h)) || E.painAreas.includes('lower_back'))) {
+    // v0.6 (G-131, 02 M3: a healthy linebacker got rehab-only core for 12 weeks because his sport's injury list names the low back):
+    // the low-back core rule is for a client who reports low-back pain; a profile hot spot alone keeps a small lean toward the
+    // anti-movement drills (rules.selection.s6.core)
+    const S6C = R.selection.s6 && R.selection.s6.core;
+    const lbHot = !!CO && (CO.hotspots || []).some((h) => E.injuries.has(h));
+    if (CO && lowBackClient(E)) {
       if (antiCore(ex)) { s += CO.anti_bonus; reasons.push(why('why.core_low_back', 'R2-SES-03')); }
       if (new RegExp(CO.avoid_re).test(ex.id)) s += CO.avoid;
+    } else if (lbHot && S6C) {
+      // (the hot spot keeps a lean, not a list: holds a little up, loaded / long-lever trunk flexion a little down; rotation stays in)
+      if (antiCore(ex)) s += S6C.hotspot_anti_bonus || 0;
+      if (S6C.hotspot_flexion_re && new RegExp(S6C.hotspot_flexion_re).test(ex.id)) s += S6C.hotspot_flexion || 0;
     }
     const HC = F3.hanging_core;
     if (HC && day && new RegExp(HC.re).test(ex.id)) {
@@ -1663,6 +1727,7 @@ function record(st, slot, fill, ex, E, shadow = false) {
   if (b === 'AP_PLYO' && slot.variant !== 'upper' && ex.athletic && !ex.athletic.upper) {
     st.jumpDirs = st.jumpDirs || {}; const dr = directionOf(ex); st.jumpDirs[dr] = (st.jumpDirs[dr] || 0) + 1;
     st.jumpUni = st.jumpUni || { n: 0, u: 0 }; st.jumpUni.n++; if (isUnilateral(ex)) st.jumpUni.u++;
+    if (isUnilateral(ex) || LATERAL_JUMP_RE.test(ex.id)) { st.dayJumpUL = st.dayJumpUL || new Set(); st.dayJumpUL.add(wd); }
   }
   if (kind === 'core') { st.corePlanes[ex.plane] = (st.corePlanes[ex.plane] || 0) + 1; if (/(sit-up|crunch|v-up|leg-raise|knees-to|toes-to)/.test(ex.id)) st.coreFlex.set(wd, (st.coreFlex.get(wd) || 0) + 1); }
   if (kind === 'core' && st.mainDays && st.mainDays.has(wd)) { const pl = corePlaneOf(ex); st.coreMainPlanes[pl] = (st.coreMainPlanes[pl] || 0) + 1; }
@@ -1867,7 +1932,15 @@ function decideUpperLaterality(layout, E, locked = new Set(), baseFills = null) 
   const CSU = R.selection.x2 && R.selection.x2.chest_slot_uni;
   const chestUniOk = !!CSU && E.upperTarget != null && E.upperTarget <= CSU.max_upper_target + EPS;
   const chestSlot = (s) => !chestUniOk && !!(E.chestShoulders && E.chestShoulders.has(s.slot_id));
-  const fixed = (s) => locked.has(s.slot_id) || leadPress.has(s.slot_id) || leadRow.has(s.slot_id) || inclineSlot(s) || chestSlot(s) || !!(PP && E.derived.lift_style === PP.lift_style && PP.buckets.includes(s.bucket)) ||
+  // v0.6 (G-134, 07 M2; R2-LIB-01 one detail between blocks): on the coach's gym and push / pull / legs days a station keeps the
+  // laterality its previous exercise block had - the dial never turns a one-arm row into a two-arm seal row at a block boundary
+  const BC6u = R.selection.s6 && R.selection.s6.block_change;
+  const keepLat = new Map();
+  if (BC6u && E.prev && E.prev.fills) for (const d of layout.days) {
+    if (!d.skeleton || !(BC6u.keep_upper_laterality_skeleton_prefixes || []).some((p) => String(d.skeleton).startsWith(p))) continue;
+    for (const s of daySlots(d)) { const pf = E.prev.fills[s.slot_id]; if (pf && pf.exercise_id && model.hasEx(pf.exercise_id) && pf.bucket === s.bucket) keepLat.set(s.slot_id, model.ex(pf.exercise_id).laterality === 'bilateral' ? 'bil' : 'uni'); }
+  }
+  const fixed = (s) => keepLat.has(s.slot_id) || locked.has(s.slot_id) || leadPress.has(s.slot_id) || leadRow.has(s.slot_id) || inclineSlot(s) || chestSlot(s) || !!(PP && E.derived.lift_style === PP.lift_style && PP.buckets.includes(s.bucket)) ||
     !!(s.role === 'work' && WB && (WB.families.includes(E.family) || WB.goals.includes(E.goal)));
   // how many different one-arm / alternating lifts each bucket holds for this client (one per movement family)
   const cap = {};
@@ -1891,7 +1964,7 @@ function decideUpperLaterality(layout, E, locked = new Set(), baseFills = null) 
   // 'stays two-arm longest' order: the week's first exposure of each pattern, then by pattern, then by week order
   const order = stations.map((s, i) => ({ s, i, n: dialSets(s, E) || 1 }))
     .sort((a, b) => (nth.get(a.s.slot_id) - nth.get(b.s.slot_id)) || (bp.indexOf(a.s.bucket) - bp.indexOf(b.s.bucket)) || (a.i - b.i));
-  const state = new Map(order.map((o) => [o.s.slot_id, curBil(o.s) || ((leadRow.has(o.s.slot_id) || chestSlot(o.s)) && !locked.has(o.s.slot_id)) ? 'bil' : 'uni']));
+  const state = new Map(order.map((o) => [o.s.slot_id, keepLat.has(o.s.slot_id) ? keepLat.get(o.s.slot_id) : curBil(o.s) || ((leadRow.has(o.s.slot_id) || chestSlot(o.s)) && !locked.has(o.s.slot_id)) ? 'bil' : 'uni']));
   const tot = order.reduce((a, o) => a + o.n, 0);
   let bil = order.filter((o) => state.get(o.s.slot_id) === 'bil').reduce((a, o) => a + o.n, 0);
   const T = E.upperTarget;
@@ -1906,7 +1979,7 @@ function decideUpperLaterality(layout, E, locked = new Set(), baseFills = null) 
   } else if (bil / tot < T - EPS) {
     // too one-armed: the first exposures turn two-arm first
     for (const o of order) {
-      if (state.get(o.s.slot_id) !== 'uni') continue;
+      if (state.get(o.s.slot_id) !== 'uni' || keepLat.has(o.s.slot_id)) continue;
       if (!(Math.abs((bil + o.n) / tot - T) < Math.abs(bil / tot - T) - EPS)) break;
       state.set(o.s.slot_id, 'bil'); bil += o.n;
     }
@@ -2170,7 +2243,7 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
   // twists, leg raises and V-ups opened the swimmer's days): a low-back hot-spot client's main-day core may take the coach's program /
   // reference anti-movement records (dead bug, Pallof hold, suitcase carry) when the live library runs out of them
   const CLB = E.F3 && E.F3.core_low_back;
-  const lowBackCore = !!CLB && bk === 'core' && (!(day && day.optional) || !!E.S2) && ((CLB.hotspots || []).some((h) => E.injuries.has(h)) || E.painAreas.includes('lower_back'));
+  const lowBackCore = !!CLB && bk === 'core' && (!(day && day.optional) || !!E.S2) && lowBackClient(E);
   // v0.5 fix round 2 (sample 01 major; COACH-R4 R4-LIB-01 / R4-LIB-02): a core slot takes a live-library exercise; the low-back opener
   // keeps the two basic floor drills of his reference tab (rules.selection.x2.core_primary.low_back_allow_ids) and a carry is
   // never the template's pick
@@ -2182,7 +2255,9 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
   // only in a kit that holds no library two-arm row)
   const SKR = R.selection.x2 && R.selection.x2.small_kit_rows;
   const smallKitRow = (c) => !!SKR && !!E.smallKitRows && (SKR.ids || []).includes(c.ex.id);
-  const pickOk = (c) => (/^AP_/.test(eb) && pickOkIds.has(c.ex.id)) || (lowBackCore && lowBackOk(c)) || hangPick(c) || (eb === 'RP_HPULL' && smallKitRow(c));
+  // (v0.6, G-131: a low-back hot spot without pain may still take the two reference floor drills of the low-back opener)
+  const lbHotCore = !lowBackCore && !!CLB && bk === 'core' && !!(R.selection.s6 && R.selection.s6.core) && (CLB.hotspots || []).some((h) => E.injuries.has(h));
+  const pickOk = (c) => (/^AP_/.test(eb) && pickOkIds.has(c.ex.id)) || ((lowBackCore || lbHotCore) && lowBackOk(c)) || hangPick(c) || (eb === 'RP_HPULL' && smallKitRow(c));
   // F3 (CAT-05; RECHECK 05 major): an above-ladder pick that is high-skill (or any above-ladder pick in a timed circuit) is a fallback only
   const LH = E.F3 && E.F3.level_hard;
   const levelHardOn = !!LH && ['resistance', 'isolation', 'focus'].includes(bk);
@@ -2203,6 +2278,10 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
         (!!(CPX.min_level_ids || {})[c.ex.id] && (lvN[E.lvl] || 1) < (lvN[CPX.min_level_ids[c.ex.id]] || 1));
       const strong = allowed0.filter((c) => !weakCore(c) && (!swapOnly.includes(c.ex.status) || pickOk(c)));
       if (strong.length) allowed0 = strong;
+      // (v0.6, G-131: with the low-back list off for a healthy heavy athlete, his hanging and long-lever holds stay a fallback -
+      // rules.selection.r2.core.heavy_avoid_re, 02 minor of v0.4)
+      const C2h = R.selection.r2 && R.selection.r2.core;
+      if (E.heavy && C2h && C2h.heavy_avoid_re && R.selection.s6) { const rxh = new RegExp(C2h.heavy_avoid_re); const nh = allowed0.filter((c) => !rxh.test(c.ex.id)); if (nh.length) allowed0 = nh; }
       else { const noCarry = allowed0.filter((c) => !(CPX.never_tags || []).some((t) => c.ex.tags.includes(t))); if (noCarry.length) allowed0 = noCarry; }
     }
     // R2-LIB-01 / R2-LIB-07 (v1.2): a library record is the pick whenever one passes; program-only / reference-only are swaps
@@ -2255,7 +2334,7 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
       if (SVp && SVp.strict) { const rxv = new RegExp(SVp.id_re); const own = allowed.filter((c) => rxv.test(c.ex.id)); if (own.length) allowed = own; }
     }
     if (opt2.all) return allowed;   // B3 block changes: every library alternative, not only the slot's defaults
-    if (lowBackCore) return allowed; // (F3: the slot's default core list holds the twists and leg raises the low back avoids)
+    if (lowBackCore || lbHotCore) return allowed; // (F3: the slot's default core list holds the twists and leg raises the low back avoids; v0.6: the hot spot's lean too)
     // v0.5 fix round 1: the 'Chest / Shoulders' slot of the week's first B day takes its incline press while one passes
     if (E.chestShoulders && E.chestShoulders.has(slot.slot_id) && R.selection.x1 && R.selection.x1.chest_shoulders) {
       const CSUp = R.selection.x2 && R.selection.x2.chest_slot_uni;
@@ -2442,7 +2521,15 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
       // never a change to a home substitute from the real thing (R2-LIB-07; RECHECK 02 / 06 minors: DB leg extension on a box,
       // body-weight calf raise at a block change in a full gym)
       const homeDown = (c) => R.selection.home_substitute_only_when_needed && c.ex.tags.includes('home_substitute') && !prevEx.tags.includes('home_substitute');
-      let cands = pool.filter((c) => same(c) && dist(c) > 0 && dist(c) <= (BC.max_distance || 2) && !homeDown(c));
+      // v0.6 (G-134, 07 M2; R2-LIB-01 / PER-02 'change one detail'): a new exercise keeps the old one's support (free-standing, chest-
+      // supported, machine) and differs in one detail - a static split squat and a stepping lunge are two movements; with no such
+      // exercise the same lift stays and changes one concrete detail (rules.selection.s6.block_change)
+      const BC6 = R.selection.s6 && R.selection.s6.block_change;
+      const supportOf = (e) => (BC6 && BC6.supported_re && new RegExp(BC6.supported_re).test(e.id) ? 'supported' : (e.equipment && e.equipment.machine) || (e.tags || []).includes('machine') ? 'machine' : 'free');
+      const stepOf = (e) => (/split-squat/.test(e.id) && !/lunge/.test(e.id) ? 'static' : /lunge/.test(e.id) ? 'stepping' : null);
+      const dist6 = (c) => dist(c) + (BC6 && stepOf(c.ex) && stepOf(prevEx) && stepOf(c.ex) !== stepOf(prevEx) ? 1 : 0);
+      const maxD = BC6 && typeof BC6.max_distance_new_exercise === 'number' ? BC6.max_distance_new_exercise : (BC.max_distance || 2);
+      let cands = pool.filter((c) => same(c) && dist(c) > 0 && dist6(c) <= maxD && !homeDown(c) && !(BC6 && BC6.same_support && supportOf(c.ex) !== supportOf(prevEx)));
       if (BC.week_unique) cands = cands.filter((c) => !weekIds.has(c.ex.id) && !dayEx.some((x) => !x.is_athletic && nearDuplicate(x, c.ex, R)));
       // never an earlier block's pick of this slot (no A-B-A), never another day's pick of the previous block (exercises do not
       // just swap days, RECHECK 03 minor)
@@ -2621,6 +2708,8 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
     if (slot.variant === 'clean') { fill.flags.push('clean_day'); fill.why.push(why('why.clean_day', 'R2-ATH-04')); }
     if (slot.variant === 'snatch') { fill.flags.push('snatch_day'); fill.why.push(why('why.snatch_day', 'R2-ATH-04')); }
     if (ex.tags.includes('kb_swing')) { fill.flags.push('kb_swing_power'); fill.why.push(why('why.kb_swing_power', 'R2-VOL-05')); }
+    // (v0.6, G-133: the 'olympic safe' client's power lift - EQ-03 / ATH-10 - says so; the day pattern is not read on a relaxed pick)
+    if (E.olySafe && (ex.athletic && ['swing', 'snatch'].includes(ex.athletic.olympic_family)) && slot.variant === 'clean') { fill.flags.push('olympic_safe'); fill.why.push(why('why.olympic_safe', 'EQ-03')); }
     const ceilF = E.sport && E.sport.olympic && E.sport.olympic.ceiling;
     if (ceilF && R.athletic.f2 && R.athletic.f2.olympic_ceiling && R.athletic.f2.olympic_ceiling.enabled) fill.why.push(why('why.olympic_ceiling', 'ATH-10', { ceiling: 'olympic.ceiling.' + ceilF }));
   }
@@ -2852,7 +2941,7 @@ function swapsR2(others, ex, eb, bk, E, SW) {
     const BB = R.selection.barbell_l1_50_pain;
     const CLB = E.F3 && E.F3.core_low_back;
     const C2 = E.S2.core;
-    const lowBack = !!CLB && ((CLB.hotspots || []).some((h) => E.injuries.has(h)) || E.painAreas.includes('lower_back'));
+    const lowBack = !!CLB && lowBackClient(E);
     const li = (lv) => E.ladderOrder.indexOf(lv);
     list = list.filter((c) => {
       const e = c.ex, tags = e.tags || [];
@@ -2986,6 +3075,16 @@ export function selectBlock(ctx) {
         backups.set(day.weekday, order.slice(k).map((s) => s.slot_id));
       } else if (n > 0) for (const s of order.slice(0, n)) change.add(s.slot_id);
       else if (bc.allow_detail_variation) { if (fullKit && bc.full_kit_real_alternative) change.add(order[0].slot_id); else detailOnly.add(order[0].slot_id); }
+    }
+    // v0.6 (G-131, 02 M3 'nothing changes between blocks; only the hold times move'; PER-02 one or two small changes a block): one core
+    // exercise of every main day changes at the block boundary, inside its plane and kind (a hold for a hold) - the pick stays when the
+    // library holds no such exercise the week does not use (rules.selection.s6.core.block_change_per_day)
+    const S6Cb = R.selection.s6 && R.selection.s6.core;
+    if (S6Cb && S6Cb.block_change_per_day > 0) for (const day of layout.days) {
+      if (day.kind !== 'main') continue;
+      const cs = daySlots(day).filter((s) => model.bucket(s.bucket).kind === 'core' && isLive(s, E) && prev.fills[s.slot_id] && prev.fills[s.slot_id].exercise_id);
+      const ord = cs.slice().sort((a, b) => tieBreak(E.seed, 'core_change', E.exerciseBlock, a.slot_id) - tieBreak(E.seed, 'core_change', E.exerciseBlock, b.slot_id) || (a.slot_id < b.slot_id ? -1 : 1));
+      for (const s of ord.slice(0, S6Cb.block_change_per_day)) change.add(s.slot_id);
     }
   }
   // v0.4 fix round 1 / F3 (COACH-R3 R3-VOL-01 'rear delts are not an individual muscle ... people and coaches can add more'; R3-SES-01

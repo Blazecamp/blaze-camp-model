@@ -76,7 +76,9 @@ test('counts: 733 kept (731 source + 2 mid-range pull records) / 208 dropped, 30
   // legs and athletic skeletons (COACH-R4 R4-SES-05) - fewer stations than the v0.4 time-tiered days (1,798 -> 1,678)
   // engine 0.5.0 / V4 (converted; DECISIONS G-56, tools/fixture/v05-integrate.mjs): + 1, the general warm-up of the 5-day hybrid
   // week's Friday, the one main day type that was written without one (COACH-ANSWER ORD-08 'always')
-  assert.equal(c.templates_total, 30); assert.equal(c.stations, 1682);
+  // engine 0.6 selection (converted; DECISIONS G-130, tools/fixture/v06-select.mjs): + 22, the arm station (slot 5) of every athletic
+  // A / B day type outside the in-season variant (COACH-R4 R4-SES-05)
+  assert.equal(c.templates_total, 30); assert.equal(c.stations, 1704);
   assert.equal(c.profiles, 127); assert.equal(c.sports_in_picker, 52); assert.equal(c.activities, 26);
   assert.deepEqual(raw.manifest.counts, { exercises: 733, templates: 30, profiles: 127, sports_in_picker: 52, activities: 26 });
   for (const d of first.report.dropped) assert.ok(d.reason && d.rule, `drop ${d.source_id} has a reason and a rule`);

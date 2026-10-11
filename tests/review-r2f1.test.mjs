@@ -12,6 +12,7 @@ import { renderPlan } from '../engine/render.mjs';
 import { validatePlan } from '../engine/validate.mjs';
 import { supersetMinutes } from '../engine/estimate.mjs';
 import { linesOf } from '../engine/lines.mjs';
+import { ballisticCircuitModel } from './helpers/v06.mjs';
 import { loadCompiledModel, loadFixtureModel, INTAKE_DIR } from './helpers/models.mjs';
 import { randomIntake, sportIntake } from './helpers/random-intake.mjs';
 
@@ -200,7 +201,8 @@ describe('v0.4 fix round 2 / F1: time, volume and structure (coach-eye reviews o
     passes(p, ['V12']);
   });
   test('R05-switchable-stations: the swing, the throws and the cardio station of a circuit are switchable by name (day.toggle_items), and the day says so (E-152)', () => {
-    const p = plan('05');
+    // (engine 0.6 selection, converted - DECISIONS G-135: the bootcamp's cardio station is cardio now; the B2 ballistic station is read on the model with the cardio-first rule off)
+    const BM = ballisticCircuitModel(), p = generate(intakeOf('05'), BM);
     for (const d of p.weeks[0].days.filter(x => x.blocks.some(b => b.kind === 'circuit'))) {
       const its = d.blocks.flatMap(b => b.items);
       const cond = its.filter(it => it.bucket === 'COND_CIRCUIT');

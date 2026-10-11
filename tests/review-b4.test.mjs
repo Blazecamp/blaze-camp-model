@@ -12,6 +12,7 @@ import { generate } from '../engine/generate.mjs';
 import { renderPlan } from '../engine/render.mjs';
 import { olympicSetsForIndex } from '../engine/budget.mjs';
 import { groupCredits } from '../engine/lines.mjs';
+import { ballisticCircuitModel } from './helpers/v06.mjs';
 import { loadCompiledModel, loadFixtureModel, INTAKE_DIR } from './helpers/models.mjs';
 import { randomIntake } from './helpers/random-intake.mjs';
 
@@ -66,7 +67,8 @@ describe('stage B4: integration (whole-pipeline sweep + the 8 sample plans read 
 
   // ------------------------------------------------------------------------------------------------------ 05 bootcamp
   test('R05-circuit-throws-week-target: the ball station shares the week\'s throw target (ramping 20 -> 40), never more than the target, and climbs', () => {
-    const p = plan('05');
+    // (engine 0.6 selection, converted - DECISIONS G-135: the bootcamp's cardio station is cardio now; the B2 ballistic station is read on the model with the cardio-first rule off)
+    const p = generate(intakeOf('05'), ballisticCircuitModel());
     let prev = 0;
     for (const w of stairWeeks(p)) {
       const ab = w.athletic_budget;

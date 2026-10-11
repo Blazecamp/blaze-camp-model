@@ -66,7 +66,9 @@ describe('v0.4 fix round 2 / F3: selection, dosing and the printed plan (coach-e
     const p = plan('01');
     const core = items(p.weeks[0]).filter(x => x.d.kind === 'main' && kindOf(x.it.bucket) === 'core');
     const planes = core.map(x => model.ex(x.it.exercise_id)).map(e => (e.tags || []).find(t => /^plane_/.test(t)) || e.plane || '');
-    const transverse = core.filter(x => /pallof|anti-rotation|pull-through|rotation|chop|bird-dog|march|suitcase|shoulder-tap|renegade/.test(x.it.exercise_id)).length;
+    // (engine 0.6 selection, converted - DECISIONS G-131: with the low-back list for low-back pain only, the swimmer's anti-rotation
+    // picks include the dead bug, filed transverse in the catalog)
+    const transverse = core.filter(x => /pallof|anti-rotation|pull-through|rotation|chop|bird-dog|march|suitcase|shoulder-tap|renegade|dead-bug/.test(x.it.exercise_id)).length;
     assert.ok(transverse >= 2, `${core.map(x => x.it.exercise_id).join(', ')} | ${planes.join(',')}`);
     const holds = ebFirstWeeks(p).map(w => items(w).filter(x => kindOf(x.it.bucket) === 'core' && x.it.reps && x.it.reps.type === 'seconds' && !/copenhagen/.test(x.it.exercise_id)).map(x => x.it.reps.min));
     assert.ok(holds.length === 3 && holds.every(h => h.length > 0));
@@ -300,7 +302,10 @@ describe('v0.4 fix round 2 / F3: selection, dosing and the printed plan (coach-e
     assert.ok(hips[0] >= 10 && hips[hips.length - 1] > hips[0], hips.join(' '));
   });
   test('R03-aerobic-ladder: a competitive athlete\'s cardio starts one rung above the entry session, climbs one rung at the halfway week of a six-week block, does not start over in the pre-season block, and its minutes climb inside the exercise block (03 major, 04 minor; ATH-07; E-194)', () => {
-    const p = plan('03');
+    // (engine 0.6 selection, converted - DECISIONS G-136: the sample's 2 team practices now count as 2 of his aerobic sessions, so his
+    // week holds no Blue session; the ladder is read on the same player with no practice entered)
+    const i03 = intakeOf('03'); i03.sport.practice.practice_days_per_week = 0;
+    const p = generate(i03, model);
     const A = R.conditioning.aerobic_b3.ladder.A;
     const blue = (w) => items(w).find(x => x.it.effort && x.it.effort.type === 'aerobic' && x.it.effort.colour === 'A');
     const rungOf = (x) => A.indexOf(x.it.effort.rung || x.it.exercise_id);
@@ -525,7 +530,9 @@ describe('v0.4 fix round 2 / F3: selection, dosing and the printed plan (coach-e
     assert.ok(adj(s8) && /joint care/.test(adj(s8)) === has8 && /jumps, throws and speed/.test(adj(s8)), adj(s8));
     assert.ok(/Switching off the accessories block takes away every direct set for .*Biceps/.test(s7), 'the accessories note');
     assert.ok(s7.includes(model.t('en', 'instruction.2_bridge')), 'the cardio bridge line');
-    assert.ok(!md('03', 'en').includes(model.t('en', 'instruction.2_bridge')));
+    // (engine 0.6 selection, converted - DECISIONS G-136: the soccer player's practices took his aerobic days, so his sessions do sit
+    // on training days now; the bootcamp client keeps aerobic days of her own)
+    assert.ok(!md('05', 'en').includes(model.t('en', 'instruction.2_bridge')));
     // (v0.5: the 'Calves: below 10 sets ...' line was part of the retired schedule section, CT-01)
   });
 

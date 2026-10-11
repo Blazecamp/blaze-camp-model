@@ -6399,6 +6399,14 @@
     "R3-ATH-01"
    ],
    "status": "PROPOSED (fix round 2)"
+  },
+  "s6": {
+   "share_up_after_backward": "ankle_then_jumps",
+   "refs": [
+    "T3-ATH-02",
+    "R2-ATH-01"
+   ],
+   "status": "INFERRED (keeps the approved share band)"
   }
  },
  "olympic": {
@@ -7198,6 +7206,41 @@
     "ATH-06"
    ],
    "status": "PROPOSED (fix round 2): an aerobic session that rides on a training day is the easy steady one"
+  },
+  "s6": {
+   "practice": {
+    "counts_as_aerobic": true,
+    "competitive_only": true,
+    "max_replaced": 2,
+    "keep_gym_led_min": 1,
+    "prefer_note": "sport_or_off",
+    "refs": [
+     "R3-ATH-05",
+     "R2-ATH-06"
+    ],
+    "status": "PROPOSED for competitive athletes (R3-ATH-05 is approved for activities)"
+   },
+   "hard_eve": {
+    "colours": [
+     "A"
+    ],
+    "sprint_kinds": [
+     "max_velocity"
+    ],
+    "heavy_hinge": true,
+    "refs": [
+     "ORD-03",
+     "R2-SES-06",
+     "R2-ATH-07"
+    ],
+    "status": "PROPOSED: the hard interval colour is never the day before top-speed sprints or the week's heavy hinge"
+   },
+   "refs": [
+    "R3-ATH-05",
+    "R2-ATH-06",
+    "R2-SES-06"
+   ],
+   "status": "PROPOSED (engine 0.6 selection package)"
   }
  },
  "equipment": {
@@ -9169,6 +9212,11 @@
      "id": "bent_over_barbell_row",
      "re": "^bent-over-barbell-row",
      "week_max": 1
+    },
+    {
+     "id": "seal_row",
+     "re": "^seal-row",
+     "week_max": 1
     }
    ],
    "family_over_week": -7,
@@ -9948,6 +9996,104 @@
     ],
     "status": "PROPOSED pending the coach's answer (STATUS open question 8): reference-tab rows as picks only when the kit holds no library two-arm row"
    }
+  },
+  "s6": {
+   "core": {
+    "low_back_list_only_with_pain": true,
+    "hotspot_list_from_age": 50,
+    "hotspot_anti_bonus": 2,
+    "hotspot_flexion_re": "weighted|sit-up|crunch|v-up|leg-raise|toes-to-bar|knees-to-chest",
+    "hotspot_flexion": -2,
+    "transverse_min_pct": 20,
+    "transverse_bonus": 4,
+    "block_change_per_day": 1,
+    "refs": [
+     "R2-SES-03",
+     "PER-02",
+     "CAT-08",
+     "R4-SES-05"
+    ],
+    "status": "approved rules (R2-SES-03 light opener; PER-02 one change a block); PROPOSED: the weights and the one-core-change-a-day reading"
+   },
+   "jumps": {
+    "start_stages": [
+     "RC2",
+     "RC3"
+    ],
+    "depth_re": "depth",
+    "cutting": {
+     "families": [
+      "field_court"
+     ],
+     "cod_sport": true,
+     "bonus": 8
+    },
+    "refs": [
+     "R2-ATH-03",
+     "CAT-13",
+     "CAT-10",
+     "UNI-12"
+    ],
+    "status": "approved stages (R2-ATH-03); PROPOSED: the per-day single-leg / lateral station and its weight"
+   },
+   "olympic_safe": {
+    "when_pain": true,
+    "when_play_days_min": 3,
+    "when_racket50": true,
+    "drop_families": [
+     "snatch"
+    ],
+    "keep_id_re": "high-pull",
+    "snatch_station_adds": [
+     "swing"
+    ],
+    "barbell_exclude_levels_with_pain": [
+     "L1"
+    ],
+    "refs": [
+     "EQ-03",
+     "ATH-10",
+     "R3-ATH-02"
+    ],
+    "status": "approved rule (EQ-03, ATH-10); PROPOSED: the play-day threshold (3, the heavy play week of R3-ATH-05)"
+   },
+   "block_change": {
+    "keep_upper_laterality_skeleton_prefixes": [
+     "gym_",
+     "ppl_",
+     "class_"
+    ],
+    "max_distance_new_exercise": 1,
+    "same_support": true,
+    "supported_re": "(^|-)(seal|chest-supported|incline-bench|prone)(-|$)|machine|cable|lat-pulldown|pulldown",
+    "refs": [
+     "R2-LIB-01",
+     "PER-02",
+     "PER-04"
+    ],
+    "status": "approved rule (R2-LIB-01, PER-02); PROPOSED: the support classes read from the record ids"
+   },
+   "circuit_cardio_first": {
+    "families": [
+     "fat_loss_bootcamp"
+    ],
+    "bucket": "COND_CIRCUIT",
+    "ballistic_penalty": -14,
+    "refs": [
+     "PRG-03",
+     "OT06",
+     "R4-SES-05"
+    ],
+    "status": "OBSERVED station (his OPTION 2 Cardio slot); PROPOSED: the weight"
+   },
+   "refs": [
+    "R4-SES-05",
+    "R2-LIB-01",
+    "EQ-03",
+    "R2-ATH-03",
+    "R2-SES-03"
+   ],
+   "status": "PROPOSED (engine 0.6 selection package): readings of approved answers from the round-4 coach-eye reviews"
   }
  },
  "ordering": {

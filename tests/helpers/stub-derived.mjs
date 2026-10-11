@@ -73,7 +73,8 @@ const T = {
     client_family: 'athlete', modifier: 'field_off', fill: athleteFill,
     start: { quads: 11, hamstrings: 11, chest: 10, lats_upper_back: 10, rear_delts: 6, calves: 10 },
     cap: { quads: 16, hamstrings: 16, chest: 14, lats_upper_back: 14, rear_delts: 12, calves: 22 },
-    D14: { per_week: 4, base: 4, colours: ['C', 'B', 'A', 'C'] }, tests: { end_weeks: [6] },
+    // (engine 0.6 selection, converted - DECISIONS G-136: his 2 team practices count as 2 of his 4 aerobic sessions)
+    D14: { per_week: 2, base: 4, colours: ['C', 'B'], practice_days: 2, replaced_by_practice: 2 }, tests: { end_weeks: [6] },
     blocks: [{ type: 'stairway', weeks: [1, 6] }, { type: 'pre_season', weeks: [7, 8] }]
   },
   '04-crossfit-style-bootcamp': {
@@ -222,7 +223,8 @@ export function stubDerived(name, model, patch = {}) {
     D12_planned_step: { early: 0.03, late: 0.05, caps: { nonpriority_while_priority: null, older: null }, target_reached: true, note_above: 0.15, arrival_weeks_early_max: 1, source: 'planned_stairway' },
     D13_tests: { items: tests, baseline_week: tests.length ? 1 : null, end_weeks: tests.length ? t.tests.end_weeks : [], from_zero: true },
     D14_aerobic_sessions: { per_week: t.D14.per_week, base: t.D14.base, adjust: intake.prefs.cardio_adjust || 0, replaced_by_activity: t.D14.replaced_by_activity || 0,
-      walks: !!t.D14.walks, colours: t.D14.colours.slice(), fighter_open: false, sport_is_aerobic: !!t.D14.sport_is_aerobic },
+      walks: !!t.D14.walks, colours: t.D14.colours.slice(), fighter_open: false, sport_is_aerobic: !!t.D14.sport_is_aerobic,
+      practice_days: t.D14.practice_days || 0, replaced_by_practice: t.D14.replaced_by_practice || 0 },
     goal: intake.goal, format: intake.format || 'gym', lang: intake.lang, units: intake.units,
     age, age_group: age < 18 ? 'youth' : age >= 60 ? 'older' : age >= 50 ? 'active_aging_50' : 'adult',
     body_weight_lb: intake.body_weight.unit === 'kg' ? Math.round(intake.body_weight.value * 2.20462 * 100) / 100 : intake.body_weight.value,

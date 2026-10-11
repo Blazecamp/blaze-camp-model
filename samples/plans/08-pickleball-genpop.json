@@ -1249,7 +1249,9 @@
           "C"
         ],
         "fighter_open": false,
-        "sport_is_aerobic": false
+        "sport_is_aerobic": false,
+        "practice_days": 0,
+        "replaced_by_practice": 0
       },
       "goal": "active",
       "format": "gym",
@@ -2445,25 +2447,27 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-hang-clean-pull",
-                  "name_key": "exercise.mid-hang-clean-pull.name",
+                  "exercise_id": "kettlebell-swing-russian",
+                  "name_key": "exercise.kettlebell-swing-russian.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull",
-                    "copy_name": "Mid-Hang Clean Pull"
+                    "url": "https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)",
+                    "copy_name": "Kettlebell Swing (Russian)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "fixed",
-                    "value": 3
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -2480,10 +2484,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -2492,37 +2496,45 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power"
+                      "key": "note.kb_swing_power"
                     },
                     {
-                      "key": "note.olympic_no_bumpers"
+                      "key": "note.pain_instead_of",
+                      "args": {
+                        "instead": "exercise.mid-hang-clean-pull.name",
+                        "area": "pain.area.knee"
+                      }
                     }
                   ],
                   "swaps": [
-                    "high-hang-clean-pull",
-                    "hang-power-clean-from-the-high-hang-hip-crease",
-                    "hang-power-clean-from-the-mid-hang-knee"
+                    "db-kb-high-pull",
+                    "split-stance-contralateral-single-arm-kb-swing",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-hang-clean-pull",
+                      "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "hang-power-clean-from-the-high-hang-hip-crease",
+                      "id": "split-stance-contralateral-single-arm-kb-swing",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "hang-power-clean-from-the-mid-hang-knee",
+                      "id": "american-kb-swing-overhead",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
-                    "clean_day"
+                    "clean_day",
+                    "kb_swing_power",
+                    "olympic_safe",
+                    "pain_swap",
+                    "pattern_gap"
                   ],
                   "why": [
                     {
@@ -2530,16 +2542,27 @@
                       "ref": "CAT-07"
                     },
                     {
-                      "key": "why.station_note",
-                      "ref": "OBSERVED"
+                      "key": "why.hotspot",
+                      "ref": "D-23"
+                    },
+                    {
+                      "key": "why.pain_swap",
+                      "ref": "R2-LIB-03",
+                      "args": {
+                        "area": "knee"
+                      }
                     },
                     {
                       "key": "why.clean_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
+                    },
+                    {
+                      "key": "why.olympic_safe",
+                      "ref": "EQ-03"
                     },
                     {
                       "key": "why.olympic_level",
@@ -4128,26 +4151,26 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-arm-db-snatch",
-                  "name_key": "exercise.single-arm-db-snatch.name",
+                  "exercise_id": "split-stance-contralateral-single-arm-kb-swing",
+                  "name_key": "exercise.split-stance-contralateral-single-arm-kb-swing.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch",
-                    "copy_name": "Single-Arm DB Snatch"
+                    "url": "https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing",
+                    "copy_name": "Split-Stance Contralateral Single-Arm KB Swing"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "per_side",
-                    "min": 3,
-                    "max": 3
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power_db"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -4164,10 +4187,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -4176,30 +4199,38 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power_db"
+                      "key": "note.kb_swing_power"
                     },
                     {
                       "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "staggered-stance-db-hang-snatch",
-                    "db-kb-high-pull"
+                    "kettlebell-swing-russian",
+                    "db-kb-high-pull",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "staggered-stance-db-hang-snatch",
+                      "id": "kettlebell-swing-russian",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.catch"
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "american-kb-swing-overhead",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.one_side_work"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
+                    "kb_swing_power",
+                    "level_shift",
                     "snatch_day"
                   ],
                   "why": [
@@ -4212,12 +4243,16 @@
                       "ref": "D-23"
                     },
                     {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    },
+                    {
                       "key": "why.snatch_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
                     },
                     {
                       "key": "why.olympic_level",
@@ -6628,25 +6663,27 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-hang-clean-pull",
-                  "name_key": "exercise.mid-hang-clean-pull.name",
+                  "exercise_id": "kettlebell-swing-russian",
+                  "name_key": "exercise.kettlebell-swing-russian.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull",
-                    "copy_name": "Mid-Hang Clean Pull"
+                    "url": "https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)",
+                    "copy_name": "Kettlebell Swing (Russian)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "fixed",
-                    "value": 3
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -6663,10 +6700,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -6675,37 +6712,45 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power"
+                      "key": "note.kb_swing_power"
                     },
                     {
-                      "key": "note.olympic_no_bumpers"
+                      "key": "note.pain_instead_of",
+                      "args": {
+                        "instead": "exercise.mid-hang-clean-pull.name",
+                        "area": "pain.area.knee"
+                      }
                     }
                   ],
                   "swaps": [
-                    "high-hang-clean-pull",
-                    "hang-power-clean-from-the-high-hang-hip-crease",
-                    "hang-power-clean-from-the-mid-hang-knee"
+                    "db-kb-high-pull",
+                    "split-stance-contralateral-single-arm-kb-swing",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-hang-clean-pull",
+                      "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "hang-power-clean-from-the-high-hang-hip-crease",
+                      "id": "split-stance-contralateral-single-arm-kb-swing",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "hang-power-clean-from-the-mid-hang-knee",
+                      "id": "american-kb-swing-overhead",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
-                    "clean_day"
+                    "clean_day",
+                    "kb_swing_power",
+                    "olympic_safe",
+                    "pain_swap",
+                    "pattern_gap"
                   ],
                   "why": [
                     {
@@ -6713,16 +6758,27 @@
                       "ref": "CAT-07"
                     },
                     {
-                      "key": "why.station_note",
-                      "ref": "OBSERVED"
+                      "key": "why.hotspot",
+                      "ref": "D-23"
+                    },
+                    {
+                      "key": "why.pain_swap",
+                      "ref": "R2-LIB-03",
+                      "args": {
+                        "area": "knee"
+                      }
                     },
                     {
                       "key": "why.clean_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
+                    },
+                    {
+                      "key": "why.olympic_safe",
+                      "ref": "EQ-03"
                     },
                     {
                       "key": "why.olympic_level",
@@ -8293,26 +8349,26 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-arm-db-snatch",
-                  "name_key": "exercise.single-arm-db-snatch.name",
+                  "exercise_id": "split-stance-contralateral-single-arm-kb-swing",
+                  "name_key": "exercise.split-stance-contralateral-single-arm-kb-swing.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch",
-                    "copy_name": "Single-Arm DB Snatch"
+                    "url": "https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing",
+                    "copy_name": "Split-Stance Contralateral Single-Arm KB Swing"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "per_side",
-                    "min": 3,
-                    "max": 3
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power_db"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -8329,10 +8385,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -8341,30 +8397,38 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power_db"
+                      "key": "note.kb_swing_power"
                     },
                     {
                       "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "staggered-stance-db-hang-snatch",
-                    "db-kb-high-pull"
+                    "kettlebell-swing-russian",
+                    "db-kb-high-pull",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "staggered-stance-db-hang-snatch",
+                      "id": "kettlebell-swing-russian",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.catch"
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "american-kb-swing-overhead",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.one_side_work"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
+                    "kb_swing_power",
+                    "level_shift",
                     "snatch_day"
                   ],
                   "why": [
@@ -8377,12 +8441,16 @@
                       "ref": "D-23"
                     },
                     {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    },
+                    {
                       "key": "why.snatch_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
                     },
                     {
                       "key": "why.olympic_level",
@@ -10768,25 +10836,27 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-hang-clean-pull",
-                  "name_key": "exercise.mid-hang-clean-pull.name",
+                  "exercise_id": "kettlebell-swing-russian",
+                  "name_key": "exercise.kettlebell-swing-russian.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull",
-                    "copy_name": "Mid-Hang Clean Pull"
+                    "url": "https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)",
+                    "copy_name": "Kettlebell Swing (Russian)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "fixed",
-                    "value": 3
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -10803,10 +10873,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -10815,37 +10885,45 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power"
+                      "key": "note.kb_swing_power"
                     },
                     {
-                      "key": "note.olympic_no_bumpers"
+                      "key": "note.pain_instead_of",
+                      "args": {
+                        "instead": "exercise.mid-hang-clean-pull.name",
+                        "area": "pain.area.knee"
+                      }
                     }
                   ],
                   "swaps": [
-                    "high-hang-clean-pull",
-                    "hang-power-clean-from-the-high-hang-hip-crease",
-                    "hang-power-clean-from-the-mid-hang-knee"
+                    "db-kb-high-pull",
+                    "split-stance-contralateral-single-arm-kb-swing",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-hang-clean-pull",
+                      "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "hang-power-clean-from-the-high-hang-hip-crease",
+                      "id": "split-stance-contralateral-single-arm-kb-swing",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "hang-power-clean-from-the-mid-hang-knee",
+                      "id": "american-kb-swing-overhead",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
-                    "clean_day"
+                    "clean_day",
+                    "kb_swing_power",
+                    "olympic_safe",
+                    "pain_swap",
+                    "pattern_gap"
                   ],
                   "why": [
                     {
@@ -10853,16 +10931,27 @@
                       "ref": "CAT-07"
                     },
                     {
-                      "key": "why.station_note",
-                      "ref": "OBSERVED"
+                      "key": "why.hotspot",
+                      "ref": "D-23"
+                    },
+                    {
+                      "key": "why.pain_swap",
+                      "ref": "R2-LIB-03",
+                      "args": {
+                        "area": "knee"
+                      }
                     },
                     {
                       "key": "why.clean_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
+                    },
+                    {
+                      "key": "why.olympic_safe",
+                      "ref": "EQ-03"
                     },
                     {
                       "key": "why.olympic_level",
@@ -12433,26 +12522,26 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-arm-db-snatch",
-                  "name_key": "exercise.single-arm-db-snatch.name",
+                  "exercise_id": "split-stance-contralateral-single-arm-kb-swing",
+                  "name_key": "exercise.split-stance-contralateral-single-arm-kb-swing.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch",
-                    "copy_name": "Single-Arm DB Snatch"
+                    "url": "https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing",
+                    "copy_name": "Split-Stance Contralateral Single-Arm KB Swing"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "per_side",
-                    "min": 3,
-                    "max": 3
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power_db"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -12469,10 +12558,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -12481,30 +12570,38 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power_db"
+                      "key": "note.kb_swing_power"
                     },
                     {
                       "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "staggered-stance-db-hang-snatch",
-                    "db-kb-high-pull"
+                    "kettlebell-swing-russian",
+                    "db-kb-high-pull",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "staggered-stance-db-hang-snatch",
+                      "id": "kettlebell-swing-russian",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.catch"
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "american-kb-swing-overhead",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.one_side_work"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
+                    "kb_swing_power",
+                    "level_shift",
                     "snatch_day"
                   ],
                   "why": [
@@ -12517,12 +12614,16 @@
                       "ref": "D-23"
                     },
                     {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    },
+                    {
                       "key": "why.snatch_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
                     },
                     {
                       "key": "why.olympic_level",
@@ -14912,25 +15013,27 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-hang-clean-pull",
-                  "name_key": "exercise.mid-hang-clean-pull.name",
+                  "exercise_id": "kettlebell-swing-russian",
+                  "name_key": "exercise.kettlebell-swing-russian.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull",
-                    "copy_name": "Mid-Hang Clean Pull"
+                    "url": "https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)",
+                    "copy_name": "Kettlebell Swing (Russian)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "fixed",
-                    "value": 3
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -14947,10 +15050,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -14959,37 +15062,45 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power"
+                      "key": "note.kb_swing_power"
                     },
                     {
-                      "key": "note.olympic_no_bumpers"
+                      "key": "note.pain_instead_of",
+                      "args": {
+                        "instead": "exercise.mid-hang-clean-pull.name",
+                        "area": "pain.area.knee"
+                      }
                     }
                   ],
                   "swaps": [
-                    "high-hang-clean-pull",
-                    "hang-power-clean-from-the-high-hang-hip-crease",
-                    "hang-power-clean-from-the-mid-hang-knee"
+                    "db-kb-high-pull",
+                    "split-stance-contralateral-single-arm-kb-swing",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-hang-clean-pull",
+                      "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "hang-power-clean-from-the-high-hang-hip-crease",
+                      "id": "split-stance-contralateral-single-arm-kb-swing",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "hang-power-clean-from-the-mid-hang-knee",
+                      "id": "american-kb-swing-overhead",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
-                    "clean_day"
+                    "clean_day",
+                    "kb_swing_power",
+                    "olympic_safe",
+                    "pain_swap",
+                    "pattern_gap"
                   ],
                   "why": [
                     {
@@ -14997,16 +15108,27 @@
                       "ref": "CAT-07"
                     },
                     {
-                      "key": "why.station_note",
-                      "ref": "OBSERVED"
+                      "key": "why.hotspot",
+                      "ref": "D-23"
+                    },
+                    {
+                      "key": "why.pain_swap",
+                      "ref": "R2-LIB-03",
+                      "args": {
+                        "area": "knee"
+                      }
                     },
                     {
                       "key": "why.clean_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
+                    },
+                    {
+                      "key": "why.olympic_safe",
+                      "ref": "EQ-03"
                     },
                     {
                       "key": "why.olympic_level",
@@ -16577,26 +16699,26 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-arm-db-snatch",
-                  "name_key": "exercise.single-arm-db-snatch.name",
+                  "exercise_id": "split-stance-contralateral-single-arm-kb-swing",
+                  "name_key": "exercise.split-stance-contralateral-single-arm-kb-swing.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch",
-                    "copy_name": "Single-Arm DB Snatch"
+                    "url": "https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing",
+                    "copy_name": "Split-Stance Contralateral Single-Arm KB Swing"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "per_side",
-                    "min": 3,
-                    "max": 3
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power_db"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -16613,10 +16735,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -16625,30 +16747,38 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power_db"
+                      "key": "note.kb_swing_power"
                     },
                     {
                       "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "staggered-stance-db-hang-snatch",
-                    "db-kb-high-pull"
+                    "kettlebell-swing-russian",
+                    "db-kb-high-pull",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "staggered-stance-db-hang-snatch",
+                      "id": "kettlebell-swing-russian",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.catch"
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "american-kb-swing-overhead",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.one_side_work"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
+                    "kb_swing_power",
+                    "level_shift",
                     "snatch_day"
                   ],
                   "why": [
@@ -16661,12 +16791,16 @@
                       "ref": "D-23"
                     },
                     {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    },
+                    {
                       "key": "why.snatch_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
                     },
                     {
                       "key": "why.olympic_level",
@@ -18706,6 +18840,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -19076,25 +19214,27 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-hang-clean-pull",
-                  "name_key": "exercise.mid-hang-clean-pull.name",
+                  "exercise_id": "kettlebell-swing-russian",
+                  "name_key": "exercise.kettlebell-swing-russian.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull",
-                    "copy_name": "Mid-Hang Clean Pull"
+                    "url": "https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)",
+                    "copy_name": "Kettlebell Swing (Russian)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "fixed",
-                    "value": 3
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -19111,10 +19251,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -19123,37 +19263,45 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power"
+                      "key": "note.kb_swing_power"
                     },
                     {
-                      "key": "note.olympic_no_bumpers"
+                      "key": "note.pain_instead_of",
+                      "args": {
+                        "instead": "exercise.mid-hang-clean-pull.name",
+                        "area": "pain.area.knee"
+                      }
                     }
                   ],
                   "swaps": [
-                    "high-hang-clean-pull",
-                    "hang-power-clean-from-the-high-hang-hip-crease",
-                    "hang-power-clean-from-the-mid-hang-knee"
+                    "db-kb-high-pull",
+                    "split-stance-contralateral-single-arm-kb-swing",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-hang-clean-pull",
+                      "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "hang-power-clean-from-the-high-hang-hip-crease",
+                      "id": "split-stance-contralateral-single-arm-kb-swing",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "hang-power-clean-from-the-mid-hang-knee",
+                      "id": "american-kb-swing-overhead",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
-                    "clean_day"
+                    "clean_day",
+                    "kb_swing_power",
+                    "olympic_safe",
+                    "pain_swap",
+                    "pattern_gap"
                   ],
                   "why": [
                     {
@@ -19161,20 +19309,31 @@
                       "ref": "CAT-07"
                     },
                     {
+                      "key": "why.hotspot",
+                      "ref": "D-23"
+                    },
+                    {
                       "key": "why.continuity",
                       "ref": "PER-02"
                     },
                     {
-                      "key": "why.station_note",
-                      "ref": "OBSERVED"
+                      "key": "why.pain_swap",
+                      "ref": "R2-LIB-03",
+                      "args": {
+                        "area": "knee"
+                      }
                     },
                     {
                       "key": "why.clean_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
+                    },
+                    {
+                      "key": "why.olympic_safe",
+                      "ref": "EQ-03"
                     },
                     {
                       "key": "why.olympic_level",
@@ -20500,6 +20659,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -20763,26 +20926,26 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-arm-db-snatch",
-                  "name_key": "exercise.single-arm-db-snatch.name",
+                  "exercise_id": "split-stance-contralateral-single-arm-kb-swing",
+                  "name_key": "exercise.split-stance-contralateral-single-arm-kb-swing.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch",
-                    "copy_name": "Single-Arm DB Snatch"
+                    "url": "https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing",
+                    "copy_name": "Split-Stance Contralateral Single-Arm KB Swing"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "per_side",
-                    "min": 3,
-                    "max": 3
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power_db"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -20799,10 +20962,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -20811,30 +20974,38 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power_db"
+                      "key": "note.kb_swing_power"
                     },
                     {
                       "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "staggered-stance-db-hang-snatch",
-                    "db-kb-high-pull"
+                    "kettlebell-swing-russian",
+                    "db-kb-high-pull",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "staggered-stance-db-hang-snatch",
+                      "id": "kettlebell-swing-russian",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.catch"
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "american-kb-swing-overhead",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.one_side_work"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
+                    "kb_swing_power",
+                    "level_shift",
                     "snatch_day"
                   ],
                   "why": [
@@ -20851,12 +21022,16 @@
                       "ref": "PER-02"
                     },
                     {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    },
+                    {
                       "key": "why.snatch_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
                     },
                     {
                       "key": "why.olympic_level",
@@ -22907,6 +23082,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -23277,25 +23456,27 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-hang-clean-pull",
-                  "name_key": "exercise.mid-hang-clean-pull.name",
+                  "exercise_id": "kettlebell-swing-russian",
+                  "name_key": "exercise.kettlebell-swing-russian.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull",
-                    "copy_name": "Mid-Hang Clean Pull"
+                    "url": "https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)",
+                    "copy_name": "Kettlebell Swing (Russian)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "fixed",
-                    "value": 3
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -23312,10 +23493,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -23324,37 +23505,45 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power"
+                      "key": "note.kb_swing_power"
                     },
                     {
-                      "key": "note.olympic_no_bumpers"
+                      "key": "note.pain_instead_of",
+                      "args": {
+                        "instead": "exercise.mid-hang-clean-pull.name",
+                        "area": "pain.area.knee"
+                      }
                     }
                   ],
                   "swaps": [
-                    "high-hang-clean-pull",
-                    "hang-power-clean-from-the-high-hang-hip-crease",
-                    "hang-power-clean-from-the-mid-hang-knee"
+                    "db-kb-high-pull",
+                    "split-stance-contralateral-single-arm-kb-swing",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-hang-clean-pull",
+                      "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "hang-power-clean-from-the-high-hang-hip-crease",
+                      "id": "split-stance-contralateral-single-arm-kb-swing",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "hang-power-clean-from-the-mid-hang-knee",
+                      "id": "american-kb-swing-overhead",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
-                    "clean_day"
+                    "clean_day",
+                    "kb_swing_power",
+                    "olympic_safe",
+                    "pain_swap",
+                    "pattern_gap"
                   ],
                   "why": [
                     {
@@ -23362,20 +23551,31 @@
                       "ref": "CAT-07"
                     },
                     {
+                      "key": "why.hotspot",
+                      "ref": "D-23"
+                    },
+                    {
                       "key": "why.continuity",
                       "ref": "PER-02"
                     },
                     {
-                      "key": "why.station_note",
-                      "ref": "OBSERVED"
+                      "key": "why.pain_swap",
+                      "ref": "R2-LIB-03",
+                      "args": {
+                        "area": "knee"
+                      }
                     },
                     {
                       "key": "why.clean_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
+                    },
+                    {
+                      "key": "why.olympic_safe",
+                      "ref": "EQ-03"
                     },
                     {
                       "key": "why.olympic_level",
@@ -24701,6 +24901,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -24964,26 +25168,26 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-arm-db-snatch",
-                  "name_key": "exercise.single-arm-db-snatch.name",
+                  "exercise_id": "split-stance-contralateral-single-arm-kb-swing",
+                  "name_key": "exercise.split-stance-contralateral-single-arm-kb-swing.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch",
-                    "copy_name": "Single-Arm DB Snatch"
+                    "url": "https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing",
+                    "copy_name": "Split-Stance Contralateral Single-Arm KB Swing"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "per_side",
-                    "min": 3,
-                    "max": 3
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power_db"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -25000,10 +25204,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -25012,30 +25216,38 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power_db"
+                      "key": "note.kb_swing_power"
                     },
                     {
                       "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "staggered-stance-db-hang-snatch",
-                    "db-kb-high-pull"
+                    "kettlebell-swing-russian",
+                    "db-kb-high-pull",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "staggered-stance-db-hang-snatch",
+                      "id": "kettlebell-swing-russian",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.catch"
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "american-kb-swing-overhead",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.one_side_work"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
+                    "kb_swing_power",
+                    "level_shift",
                     "snatch_day"
                   ],
                   "why": [
@@ -25052,12 +25264,16 @@
                       "ref": "PER-02"
                     },
                     {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    },
+                    {
                       "key": "why.snatch_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
                     },
                     {
                       "key": "why.olympic_level",
@@ -27112,6 +27328,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -27482,25 +27702,27 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-hang-clean-pull",
-                  "name_key": "exercise.mid-hang-clean-pull.name",
+                  "exercise_id": "kettlebell-swing-russian",
+                  "name_key": "exercise.kettlebell-swing-russian.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull",
-                    "copy_name": "Mid-Hang Clean Pull"
+                    "url": "https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)",
+                    "copy_name": "Kettlebell Swing (Russian)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "fixed",
-                    "value": 3
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -27517,10 +27739,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -27529,37 +27751,45 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power"
+                      "key": "note.kb_swing_power"
                     },
                     {
-                      "key": "note.olympic_no_bumpers"
+                      "key": "note.pain_instead_of",
+                      "args": {
+                        "instead": "exercise.mid-hang-clean-pull.name",
+                        "area": "pain.area.knee"
+                      }
                     }
                   ],
                   "swaps": [
-                    "high-hang-clean-pull",
-                    "hang-power-clean-from-the-high-hang-hip-crease",
-                    "hang-power-clean-from-the-mid-hang-knee"
+                    "db-kb-high-pull",
+                    "split-stance-contralateral-single-arm-kb-swing",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-hang-clean-pull",
+                      "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "hang-power-clean-from-the-high-hang-hip-crease",
+                      "id": "split-stance-contralateral-single-arm-kb-swing",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "hang-power-clean-from-the-mid-hang-knee",
+                      "id": "american-kb-swing-overhead",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
-                    "clean_day"
+                    "clean_day",
+                    "kb_swing_power",
+                    "olympic_safe",
+                    "pain_swap",
+                    "pattern_gap"
                   ],
                   "why": [
                     {
@@ -27567,20 +27797,31 @@
                       "ref": "CAT-07"
                     },
                     {
+                      "key": "why.hotspot",
+                      "ref": "D-23"
+                    },
+                    {
                       "key": "why.continuity",
                       "ref": "PER-02"
                     },
                     {
-                      "key": "why.station_note",
-                      "ref": "OBSERVED"
+                      "key": "why.pain_swap",
+                      "ref": "R2-LIB-03",
+                      "args": {
+                        "area": "knee"
+                      }
                     },
                     {
                       "key": "why.clean_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
+                    },
+                    {
+                      "key": "why.olympic_safe",
+                      "ref": "EQ-03"
                     },
                     {
                       "key": "why.olympic_level",
@@ -28906,6 +29147,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -29169,26 +29414,26 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-arm-db-snatch",
-                  "name_key": "exercise.single-arm-db-snatch.name",
+                  "exercise_id": "split-stance-contralateral-single-arm-kb-swing",
+                  "name_key": "exercise.split-stance-contralateral-single-arm-kb-swing.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch",
-                    "copy_name": "Single-Arm DB Snatch"
+                    "url": "https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing",
+                    "copy_name": "Split-Stance Contralateral Single-Arm KB Swing"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "per_side",
-                    "min": 3,
-                    "max": 3
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power_db"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -29205,10 +29450,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -29217,30 +29462,38 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power_db"
+                      "key": "note.kb_swing_power"
                     },
                     {
                       "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "staggered-stance-db-hang-snatch",
-                    "db-kb-high-pull"
+                    "kettlebell-swing-russian",
+                    "db-kb-high-pull",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "staggered-stance-db-hang-snatch",
+                      "id": "kettlebell-swing-russian",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.catch"
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "american-kb-swing-overhead",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.one_side_work"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
+                    "kb_swing_power",
+                    "level_shift",
                     "snatch_day"
                   ],
                   "why": [
@@ -29257,12 +29510,16 @@
                       "ref": "PER-02"
                     },
                     {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    },
+                    {
                       "key": "why.snatch_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
                     },
                     {
                       "key": "why.olympic_level",
@@ -31313,6 +31570,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -31683,25 +31944,27 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-hang-clean-pull",
-                  "name_key": "exercise.mid-hang-clean-pull.name",
+                  "exercise_id": "kettlebell-swing-russian",
+                  "name_key": "exercise.kettlebell-swing-russian.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull",
-                    "copy_name": "Mid-Hang Clean Pull"
+                    "url": "https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)",
+                    "copy_name": "Kettlebell Swing (Russian)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "fixed",
-                    "value": 3
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -31718,10 +31981,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -31730,37 +31993,45 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power"
+                      "key": "note.kb_swing_power"
                     },
                     {
-                      "key": "note.olympic_no_bumpers"
+                      "key": "note.pain_instead_of",
+                      "args": {
+                        "instead": "exercise.mid-hang-clean-pull.name",
+                        "area": "pain.area.knee"
+                      }
                     }
                   ],
                   "swaps": [
-                    "high-hang-clean-pull",
-                    "hang-power-clean-from-the-high-hang-hip-crease",
-                    "hang-power-clean-from-the-mid-hang-knee"
+                    "db-kb-high-pull",
+                    "split-stance-contralateral-single-arm-kb-swing",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-hang-clean-pull",
+                      "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "hang-power-clean-from-the-high-hang-hip-crease",
+                      "id": "split-stance-contralateral-single-arm-kb-swing",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "hang-power-clean-from-the-mid-hang-knee",
+                      "id": "american-kb-swing-overhead",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
-                    "clean_day"
+                    "clean_day",
+                    "kb_swing_power",
+                    "olympic_safe",
+                    "pain_swap",
+                    "pattern_gap"
                   ],
                   "why": [
                     {
@@ -31768,20 +32039,31 @@
                       "ref": "CAT-07"
                     },
                     {
+                      "key": "why.hotspot",
+                      "ref": "D-23"
+                    },
+                    {
                       "key": "why.continuity",
                       "ref": "PER-02"
                     },
                     {
-                      "key": "why.station_note",
-                      "ref": "OBSERVED"
+                      "key": "why.pain_swap",
+                      "ref": "R2-LIB-03",
+                      "args": {
+                        "area": "knee"
+                      }
                     },
                     {
                       "key": "why.clean_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
+                    },
+                    {
+                      "key": "why.olympic_safe",
+                      "ref": "EQ-03"
                     },
                     {
                       "key": "why.olympic_level",
@@ -33107,6 +33389,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -33370,26 +33656,26 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-arm-db-snatch",
-                  "name_key": "exercise.single-arm-db-snatch.name",
+                  "exercise_id": "split-stance-contralateral-single-arm-kb-swing",
+                  "name_key": "exercise.split-stance-contralateral-single-arm-kb-swing.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch",
-                    "copy_name": "Single-Arm DB Snatch"
+                    "url": "https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing",
+                    "copy_name": "Split-Stance Contralateral Single-Arm KB Swing"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "per_side",
-                    "min": 3,
-                    "max": 3
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power_db"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -33406,10 +33692,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -33418,30 +33704,38 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power_db"
+                      "key": "note.kb_swing_power"
                     },
                     {
                       "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "staggered-stance-db-hang-snatch",
-                    "db-kb-high-pull"
+                    "kettlebell-swing-russian",
+                    "db-kb-high-pull",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "staggered-stance-db-hang-snatch",
+                      "id": "kettlebell-swing-russian",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.catch"
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "american-kb-swing-overhead",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.one_side_work"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
+                    "kb_swing_power",
+                    "level_shift",
                     "snatch_day"
                   ],
                   "why": [
@@ -33458,12 +33752,16 @@
                       "ref": "PER-02"
                     },
                     {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    },
+                    {
                       "key": "why.snatch_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
                     },
                     {
                       "key": "why.olympic_level",
@@ -35535,6 +35833,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -35909,25 +36211,27 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-hang-clean-pull",
-                  "name_key": "exercise.mid-hang-clean-pull.name",
+                  "exercise_id": "kettlebell-swing-russian",
+                  "name_key": "exercise.kettlebell-swing-russian.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull",
-                    "copy_name": "Mid-Hang Clean Pull"
+                    "url": "https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)",
+                    "copy_name": "Kettlebell Swing (Russian)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "fixed",
-                    "value": 3
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -35944,10 +36248,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -35956,37 +36260,45 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power"
+                      "key": "note.kb_swing_power"
                     },
                     {
-                      "key": "note.olympic_no_bumpers"
+                      "key": "note.pain_instead_of",
+                      "args": {
+                        "instead": "exercise.mid-hang-clean-pull.name",
+                        "area": "pain.area.knee"
+                      }
                     }
                   ],
                   "swaps": [
-                    "high-hang-clean-pull",
-                    "hang-power-clean-from-the-high-hang-hip-crease",
-                    "hang-power-clean-from-the-mid-hang-knee"
+                    "db-kb-high-pull",
+                    "split-stance-contralateral-single-arm-kb-swing",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-hang-clean-pull",
+                      "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "hang-power-clean-from-the-high-hang-hip-crease",
+                      "id": "split-stance-contralateral-single-arm-kb-swing",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "hang-power-clean-from-the-mid-hang-knee",
+                      "id": "american-kb-swing-overhead",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
-                    "clean_day"
+                    "clean_day",
+                    "kb_swing_power",
+                    "olympic_safe",
+                    "pain_swap",
+                    "pattern_gap"
                   ],
                   "why": [
                     {
@@ -35994,20 +36306,31 @@
                       "ref": "CAT-07"
                     },
                     {
+                      "key": "why.hotspot",
+                      "ref": "D-23"
+                    },
+                    {
                       "key": "why.continuity",
                       "ref": "PER-02"
                     },
                     {
-                      "key": "why.station_note",
-                      "ref": "OBSERVED"
+                      "key": "why.pain_swap",
+                      "ref": "R2-LIB-03",
+                      "args": {
+                        "area": "knee"
+                      }
                     },
                     {
                       "key": "why.clean_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
+                    },
+                    {
+                      "key": "why.olympic_safe",
+                      "ref": "EQ-03"
                     },
                     {
                       "key": "why.olympic_level",
@@ -37338,6 +37661,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -37597,26 +37924,26 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-arm-db-snatch",
-                  "name_key": "exercise.single-arm-db-snatch.name",
+                  "exercise_id": "split-stance-contralateral-single-arm-kb-swing",
+                  "name_key": "exercise.split-stance-contralateral-single-arm-kb-swing.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch",
-                    "copy_name": "Single-Arm DB Snatch"
+                    "url": "https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing",
+                    "copy_name": "Split-Stance Contralateral Single-Arm KB Swing"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "per_side",
-                    "min": 3,
-                    "max": 3
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power_db"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -37633,10 +37960,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -37645,30 +37972,38 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power_db"
+                      "key": "note.kb_swing_power"
                     },
                     {
                       "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "staggered-stance-db-hang-snatch",
-                    "db-kb-high-pull"
+                    "kettlebell-swing-russian",
+                    "db-kb-high-pull",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "staggered-stance-db-hang-snatch",
+                      "id": "kettlebell-swing-russian",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.catch"
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "american-kb-swing-overhead",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.one_side_work"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
+                    "kb_swing_power",
+                    "level_shift",
                     "snatch_day"
                   ],
                   "why": [
@@ -37685,12 +38020,16 @@
                       "ref": "PER-02"
                     },
                     {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    },
+                    {
                       "key": "why.snatch_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
                     },
                     {
                       "key": "why.olympic_level",
@@ -39751,6 +40090,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -40125,25 +40468,27 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-hang-clean-pull",
-                  "name_key": "exercise.mid-hang-clean-pull.name",
+                  "exercise_id": "kettlebell-swing-russian",
+                  "name_key": "exercise.kettlebell-swing-russian.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull",
-                    "copy_name": "Mid-Hang Clean Pull"
+                    "url": "https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)",
+                    "copy_name": "Kettlebell Swing (Russian)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "fixed",
-                    "value": 3
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -40160,10 +40505,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -40172,37 +40517,45 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power"
+                      "key": "note.kb_swing_power"
                     },
                     {
-                      "key": "note.olympic_no_bumpers"
+                      "key": "note.pain_instead_of",
+                      "args": {
+                        "instead": "exercise.mid-hang-clean-pull.name",
+                        "area": "pain.area.knee"
+                      }
                     }
                   ],
                   "swaps": [
-                    "high-hang-clean-pull",
-                    "hang-power-clean-from-the-high-hang-hip-crease",
-                    "hang-power-clean-from-the-mid-hang-knee"
+                    "db-kb-high-pull",
+                    "split-stance-contralateral-single-arm-kb-swing",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-hang-clean-pull",
+                      "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "hang-power-clean-from-the-high-hang-hip-crease",
+                      "id": "split-stance-contralateral-single-arm-kb-swing",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "hang-power-clean-from-the-mid-hang-knee",
+                      "id": "american-kb-swing-overhead",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
-                    "clean_day"
+                    "clean_day",
+                    "kb_swing_power",
+                    "olympic_safe",
+                    "pain_swap",
+                    "pattern_gap"
                   ],
                   "why": [
                     {
@@ -40210,20 +40563,31 @@
                       "ref": "CAT-07"
                     },
                     {
+                      "key": "why.hotspot",
+                      "ref": "D-23"
+                    },
+                    {
                       "key": "why.continuity",
                       "ref": "PER-02"
                     },
                     {
-                      "key": "why.station_note",
-                      "ref": "OBSERVED"
+                      "key": "why.pain_swap",
+                      "ref": "R2-LIB-03",
+                      "args": {
+                        "area": "knee"
+                      }
                     },
                     {
                       "key": "why.clean_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
+                    },
+                    {
+                      "key": "why.olympic_safe",
+                      "ref": "EQ-03"
                     },
                     {
                       "key": "why.olympic_level",
@@ -41554,6 +41918,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -41813,26 +42181,26 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-arm-db-snatch",
-                  "name_key": "exercise.single-arm-db-snatch.name",
+                  "exercise_id": "split-stance-contralateral-single-arm-kb-swing",
+                  "name_key": "exercise.split-stance-contralateral-single-arm-kb-swing.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch",
-                    "copy_name": "Single-Arm DB Snatch"
+                    "url": "https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing",
+                    "copy_name": "Split-Stance Contralateral Single-Arm KB Swing"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "per_side",
-                    "min": 3,
-                    "max": 3
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power_db"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -41849,10 +42217,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -41861,30 +42229,38 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power_db"
+                      "key": "note.kb_swing_power"
                     },
                     {
                       "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "staggered-stance-db-hang-snatch",
-                    "db-kb-high-pull"
+                    "kettlebell-swing-russian",
+                    "db-kb-high-pull",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "staggered-stance-db-hang-snatch",
+                      "id": "kettlebell-swing-russian",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.catch"
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "american-kb-swing-overhead",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.one_side_work"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
+                    "kb_swing_power",
+                    "level_shift",
                     "snatch_day"
                   ],
                   "why": [
@@ -41901,12 +42277,16 @@
                       "ref": "PER-02"
                     },
                     {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    },
+                    {
                       "key": "why.snatch_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
                     },
                     {
                       "key": "why.olympic_level",
@@ -43979,6 +44359,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -44353,25 +44737,27 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-hang-clean-pull",
-                  "name_key": "exercise.mid-hang-clean-pull.name",
+                  "exercise_id": "kettlebell-swing-russian",
+                  "name_key": "exercise.kettlebell-swing-russian.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull",
-                    "copy_name": "Mid-Hang Clean Pull"
+                    "url": "https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)",
+                    "copy_name": "Kettlebell Swing (Russian)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "fixed",
-                    "value": 3
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -44388,10 +44774,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -44400,37 +44786,45 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power"
+                      "key": "note.kb_swing_power"
                     },
                     {
-                      "key": "note.olympic_no_bumpers"
+                      "key": "note.pain_instead_of",
+                      "args": {
+                        "instead": "exercise.mid-hang-clean-pull.name",
+                        "area": "pain.area.knee"
+                      }
                     }
                   ],
                   "swaps": [
-                    "high-hang-clean-pull",
-                    "hang-power-clean-from-the-high-hang-hip-crease",
-                    "hang-power-clean-from-the-mid-hang-knee"
+                    "db-kb-high-pull",
+                    "split-stance-contralateral-single-arm-kb-swing",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-hang-clean-pull",
+                      "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "hang-power-clean-from-the-high-hang-hip-crease",
+                      "id": "split-stance-contralateral-single-arm-kb-swing",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "hang-power-clean-from-the-mid-hang-knee",
+                      "id": "american-kb-swing-overhead",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
-                    "clean_day"
+                    "clean_day",
+                    "kb_swing_power",
+                    "olympic_safe",
+                    "pain_swap",
+                    "pattern_gap"
                   ],
                   "why": [
                     {
@@ -44438,20 +44832,31 @@
                       "ref": "CAT-07"
                     },
                     {
+                      "key": "why.hotspot",
+                      "ref": "D-23"
+                    },
+                    {
                       "key": "why.continuity",
                       "ref": "PER-02"
                     },
                     {
-                      "key": "why.station_note",
-                      "ref": "OBSERVED"
+                      "key": "why.pain_swap",
+                      "ref": "R2-LIB-03",
+                      "args": {
+                        "area": "knee"
+                      }
                     },
                     {
                       "key": "why.clean_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
+                    },
+                    {
+                      "key": "why.olympic_safe",
+                      "ref": "EQ-03"
                     },
                     {
                       "key": "why.olympic_level",
@@ -45782,6 +46187,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -46041,26 +46450,26 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-arm-db-snatch",
-                  "name_key": "exercise.single-arm-db-snatch.name",
+                  "exercise_id": "split-stance-contralateral-single-arm-kb-swing",
+                  "name_key": "exercise.split-stance-contralateral-single-arm-kb-swing.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch",
-                    "copy_name": "Single-Arm DB Snatch"
+                    "url": "https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing",
+                    "copy_name": "Split-Stance Contralateral Single-Arm KB Swing"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "per_side",
-                    "min": 3,
-                    "max": 3
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power_db"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -46077,10 +46486,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -46089,30 +46498,38 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power_db"
+                      "key": "note.kb_swing_power"
                     },
                     {
                       "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "staggered-stance-db-hang-snatch",
-                    "db-kb-high-pull"
+                    "kettlebell-swing-russian",
+                    "db-kb-high-pull",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "staggered-stance-db-hang-snatch",
+                      "id": "kettlebell-swing-russian",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.catch"
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "american-kb-swing-overhead",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.one_side_work"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
+                    "kb_swing_power",
+                    "level_shift",
                     "snatch_day"
                   ],
                   "why": [
@@ -46129,12 +46546,16 @@
                       "ref": "PER-02"
                     },
                     {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    },
+                    {
                       "key": "why.snatch_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
                     },
                     {
                       "key": "why.olympic_level",
@@ -48211,6 +48632,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -48585,25 +49010,27 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-hang-clean-pull",
-                  "name_key": "exercise.mid-hang-clean-pull.name",
+                  "exercise_id": "kettlebell-swing-russian",
+                  "name_key": "exercise.kettlebell-swing-russian.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull",
-                    "copy_name": "Mid-Hang Clean Pull"
+                    "url": "https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)",
+                    "copy_name": "Kettlebell Swing (Russian)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "fixed",
-                    "value": 3
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -48620,10 +49047,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -48632,37 +49059,45 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power"
+                      "key": "note.kb_swing_power"
                     },
                     {
-                      "key": "note.olympic_no_bumpers"
+                      "key": "note.pain_instead_of",
+                      "args": {
+                        "instead": "exercise.mid-hang-clean-pull.name",
+                        "area": "pain.area.knee"
+                      }
                     }
                   ],
                   "swaps": [
-                    "high-hang-clean-pull",
-                    "hang-power-clean-from-the-high-hang-hip-crease",
-                    "hang-power-clean-from-the-mid-hang-knee"
+                    "db-kb-high-pull",
+                    "split-stance-contralateral-single-arm-kb-swing",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-hang-clean-pull",
+                      "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "hang-power-clean-from-the-high-hang-hip-crease",
+                      "id": "split-stance-contralateral-single-arm-kb-swing",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "hang-power-clean-from-the-mid-hang-knee",
+                      "id": "american-kb-swing-overhead",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
-                    "clean_day"
+                    "clean_day",
+                    "kb_swing_power",
+                    "olympic_safe",
+                    "pain_swap",
+                    "pattern_gap"
                   ],
                   "why": [
                     {
@@ -48670,20 +49105,31 @@
                       "ref": "CAT-07"
                     },
                     {
+                      "key": "why.hotspot",
+                      "ref": "D-23"
+                    },
+                    {
                       "key": "why.continuity",
                       "ref": "PER-02"
                     },
                     {
-                      "key": "why.station_note",
-                      "ref": "OBSERVED"
+                      "key": "why.pain_swap",
+                      "ref": "R2-LIB-03",
+                      "args": {
+                        "area": "knee"
+                      }
                     },
                     {
                       "key": "why.clean_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
+                    },
+                    {
+                      "key": "why.olympic_safe",
+                      "ref": "EQ-03"
                     },
                     {
                       "key": "why.olympic_level",
@@ -50014,6 +50460,10 @@
                     {
                       "key": "why.core_low_back",
                       "ref": "R2-SES-03"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -50273,26 +50723,26 @@
                   "role": "power",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-arm-db-snatch",
-                  "name_key": "exercise.single-arm-db-snatch.name",
+                  "exercise_id": "split-stance-contralateral-single-arm-kb-swing",
+                  "name_key": "exercise.split-stance-contralateral-single-arm-kb-swing.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch",
-                    "copy_name": "Single-Arm DB Snatch"
+                    "url": "https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing",
+                    "copy_name": "Split-Stance Contralateral Single-Arm KB Swing"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "per_side",
-                    "min": 3,
-                    "max": 3
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "power",
-                    "key": "effort.olympic_power_db"
+                    "key": "effort.olympic_power_kb"
                   },
                   "rest": {
                     "type": "seconds",
@@ -50309,10 +50759,10 @@
                   "credits": {},
                   "athletic": {
                     "unit": "reps",
-                    "per_set": 3,
-                    "total": 6,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
-                    "quality": "olympic"
+                    "quality": "ballistic"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -50321,30 +50771,38 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.olympic_power_db"
+                      "key": "note.kb_swing_power"
                     },
                     {
                       "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "staggered-stance-db-hang-snatch",
-                    "db-kb-high-pull"
+                    "kettlebell-swing-russian",
+                    "db-kb-high-pull",
+                    "american-kb-swing-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "staggered-stance-db-hang-snatch",
+                      "id": "kettlebell-swing-russian",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-kb-high-pull",
                       "keeps": "swap.keeps.hip_drive",
-                      "loses": "swap.loses.catch"
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "american-kb-swing-overhead",
+                      "keeps": "swap.keeps.hip_drive",
+                      "loses": "swap.loses.one_side_work"
                     }
                   ],
                   "instead_of": null,
                   "flags": [
+                    "kb_swing_power",
+                    "level_shift",
                     "snatch_day"
                   ],
                   "why": [
@@ -50361,12 +50819,16 @@
                       "ref": "PER-02"
                     },
                     {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    },
+                    {
                       "key": "why.snatch_day",
                       "ref": "R2-ATH-04"
                     },
                     {
-                      "key": "why.olympic_stay_active",
-                      "ref": "R2-ATH-04"
+                      "key": "why.kb_swing_power",
+                      "ref": "R2-VOL-05"
                     },
                     {
                       "key": "why.olympic_level",

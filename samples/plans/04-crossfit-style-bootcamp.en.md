@@ -146,14 +146,14 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Pull-up | 3 3 3 3 · 3 3 3 3 | 10 Reps |
 | Front-Foot-Elevated Split Squat / Lunge (FFE) → Goblet Squat (Heels Elevated) | 3 3 3 3 · 3 3 3 3 | 10/10 → 10 Reps |
 | Standing DB Calf Raise (deficit optional) | 3 3 3 3 · 4 4 4 4 | 15 to 20 Reps |
-| Cross-Body Dumbbell Hammer Curl → Dumbbell Concentration Curl | 4 4 4 4 · 4 4 4 4 | 15 to 20 per side |
+| Cross-Body Dumbbell Hammer Curl → Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top | 4 4 4 4 · 4 4 4 4 | 15 to 20 per side |
 | WOD (workout of the day) | – – – – · – – – – | AMRAP (as many rounds as possible): 10 min → AMRAP (as many rounds as possible): 15 min |
 
 ### Tuesday · Press + snatch day
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Side Plank (elbow) | 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s |
+| Weighted Sit-Up → Weighted Decline Sit-Up | 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
 | Bird Dogs | 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Hang Power Snatch - from the High Hang → Power Snatch | 3 3 3 3 · 3 3 3 – | 4 Reps → 2 Reps |
 | Standing Barbell Overhead Press (strict) | 2 3 3 3 · 3 3 3 2 | 7 Reps → 5 Reps |
@@ -167,8 +167,8 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Dead Bugs | 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
-| Copenhagen Plank | 2 2 2 2 · 2 2 2 2 | 10-30 s |
+| Side Plank (elbow) | 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s |
+| Leg Raise (lying / supine) | 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
 | Toes to Bar (hanging) | – – – – · – – – – | 6-10 min of quality practice |
 | Barbell Deadlift (conventional) | 2 4 4 4 · 4 4 5 4 | 7 Reps → 5 Reps |
 | Incline Barbell Bench Press | 4 4 4 5 · 5 5 5 5 | 10 Reps |
@@ -182,13 +182,13 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s |
-| Bird Dogs | 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
+| Sit-Up | 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
+| Dead Bugs | 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Hang Power Clean - from the High Hang (hip crease) → Power Clean | 3 3 3 3 · 3 3 3 – | 4 Reps → 2 Reps |
 | Inverted Row - 1-second squeeze at the top | 3 3 3 4 · 4 4 5 5 | 10 Reps |
 | Stationary Lunge (Split Squat) | 3 3 3 3 · 3 4 5 5 | 10/10 |
 | Chin-Up (supinated) | 3 3 3 3 · 4 4 4 4 | 10 Reps |
-| Seated Dumbbell Curl → Spider Curl (chest on incline bench) | 3 3 3 3 · 3 3 4 4 | 15 to 20 Reps |
+| Seated Dumbbell Curl → Dumbbell Curl | 3 3 3 3 · 3 3 4 4 | 15 to 20 Reps |
 | Seated (Chest-to-Thighs) DB Reverse Fly | 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
 | DB Lateral Raise (Supinated / palms-up grip) | 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
 | WOD (workout of the day) | – – – – · – – – – | AMRAP (as many rounds as possible): 10 min → AMRAP (as many rounds as possible): 15 min |
@@ -197,8 +197,8 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Side Plank (elbow) | 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s |
-| Dead Bugs | 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
+| Crunch | 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
+| Hanging Rotational Knee/Leg Raise | 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | WOD (workout of the day) | – – – – · – – – – | EMOM (every minute on the minute): 20 min → EMOM (every minute on the minute): 24 min |
 
 ## Week 1 — Getting used to it (small steps)
@@ -292,7 +292,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Tuesday · Press + snatch day
 _Average time: about 85-105 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Weighted Sit-Up + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Flat DB Fly + Dumbbell Triceps Kickback (one or both arms) (about 5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral (Side) Raise, Dumbbell Triceps Kickback (one or both arms), Flat DB Fly_
 
@@ -302,10 +302,9 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+1. **Weighted Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Sit-Up) · Name to copy into YouTube: `Weighted Sit-Up`
 2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
@@ -366,7 +365,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Thursday · Deadlift + push day
 _Average time: about 85-105 min (an estimate, for information only)_
 _You can switch off these blocks today: core, skill, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Alternating Staggered-Stance Single-Leg Deadlift (DB) + Overhead Dumbbell Triceps Extension (about 4.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Barbell Calf Raise, Supine Slider Hamstring Curl, Overhead Dumbbell Triceps Extension_
 
@@ -377,14 +376,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Up-Down Planks (forearm <-> hand plank) (keeps the core work; loses the moving reps) / Offset Planks (asymmetric support or load) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Skill**
 1. **Toes to Bar (hanging)** — 6-10 min of quality practice
@@ -441,7 +439,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Friday · Clean + pull day
 _Average time: about 75-95 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Sit-Up + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Seated Dumbbell Curl + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral Raise (Supinated / palms-up grip), Seated (Chest-to-Thighs) DB Reverse Fly, Seated Dumbbell Curl_
 
@@ -451,13 +449,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Power / Olympic lifts**
 1. **Hang Power Clean - from the High Hang (hip crease)** — 3 × 4 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
@@ -508,7 +506,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Saturday · WOD class + cardio (optional)
 _Average time: about 50-60 min (an estimate, for information only)_
 _You can switch off these blocks today: core, conditioning, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Crunch + Hanging Rotational Knee/Leg Raise (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day)_
 
 **Warm-up**
@@ -517,14 +515,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knee/Leg Raise** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise) · Name to copy into YouTube: `Hanging Rotational Knee/Leg Raise`
 
 **Conditioning**
 1. **WOD (workout of the day)** — EMOM (every minute on the minute): 20 min · hard but sustainable; keep the movement clean
@@ -624,7 +621,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Tuesday · Press + snatch day
 _Average time: about 75-95 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Weighted Sit-Up + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Flat DB Fly + Dumbbell Triceps Kickback (one or both arms) (about 5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral (Side) Raise, Dumbbell Triceps Kickback (one or both arms), Flat DB Fly_
 
@@ -634,10 +631,9 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+1. **Weighted Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Sit-Up) · Name to copy into YouTube: `Weighted Sit-Up`
 2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
@@ -688,7 +684,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Thursday · Deadlift + push day
 _Average time: about 85-105 min (an estimate, for information only)_
 _You can switch off these blocks today: core, skill, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Deadlift (conventional) + Incline Barbell Bench Press (about 7 min saved)_
 _Superset to save time: Alternating Staggered-Stance Single-Leg Deadlift (DB) + Overhead Dumbbell Triceps Extension (about 4.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Barbell Calf Raise, Supine Slider Hamstring Curl, Overhead Dumbbell Triceps Extension_
@@ -700,14 +696,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Up-Down Planks (forearm <-> hand plank) (keeps the core work; loses the moving reps) / Offset Planks (asymmetric support or load) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Skill**
 1. **Toes to Bar (hanging)** — 6-10 min of quality practice
@@ -755,7 +750,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Friday · Clean + pull day
 _Average time: about 80-95 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Sit-Up + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Seated Dumbbell Curl + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral Raise (Supinated / palms-up grip), Seated (Chest-to-Thighs) DB Reverse Fly, Seated Dumbbell Curl_
 
@@ -765,13 +760,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Power / Olympic lifts**
 1. **Hang Power Clean - from the High Hang (hip crease)** — 3 × 4 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
@@ -821,7 +816,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Saturday · WOD class + cardio (optional)
 _Average time: about 50-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, conditioning, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Crunch + Hanging Rotational Knee/Leg Raise (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day)_
 
 **Warm-up**
@@ -830,14 +825,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knee/Leg Raise** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise) · Name to copy into YouTube: `Hanging Rotational Knee/Leg Raise`
 
 **Conditioning**
 1. **WOD (workout of the day)** — EMOM (every minute on the minute): 20 min · hard but sustainable; keep the movement clean
@@ -937,7 +931,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Tuesday · Press + snatch day
 _Average time: about 80-95 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Weighted Sit-Up + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Flat DB Fly + Dumbbell Triceps Kickback (one or both arms) (about 5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral (Side) Raise, Dumbbell Triceps Kickback (one or both arms), Flat DB Fly_
 
@@ -947,10 +941,9 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+1. **Weighted Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Sit-Up) · Name to copy into YouTube: `Weighted Sit-Up`
 2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
@@ -1001,7 +994,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Thursday · Deadlift + push day
 _Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, skill, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Deadlift (conventional) + Incline Barbell Bench Press (about 7 min saved)_
 _Superset to save time: Alternating Staggered-Stance Single-Leg Deadlift (DB) + Overhead Dumbbell Triceps Extension (about 6 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Barbell Calf Raise, Supine Slider Hamstring Curl, Overhead Dumbbell Triceps Extension_
@@ -1013,14 +1006,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Up-Down Planks (forearm <-> hand plank) (keeps the core work; loses the moving reps) / Offset Planks (asymmetric support or load) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Skill**
 1. **Toes to Bar (hanging)** — 6-10 min of quality practice
@@ -1068,7 +1060,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Friday · Clean + pull day
 _Average time: about 80-95 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Sit-Up + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Seated Dumbbell Curl + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral Raise (Supinated / palms-up grip), Seated (Chest-to-Thighs) DB Reverse Fly, Seated Dumbbell Curl_
 
@@ -1078,13 +1070,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Power / Olympic lifts**
 1. **Hang Power Clean - from the High Hang (hip crease)** — 3 × 3 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
@@ -1134,7 +1126,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Saturday · WOD class + cardio (optional)
 _Average time: about 50-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, conditioning, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Crunch + Hanging Rotational Knee/Leg Raise (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day)_
 
 **Warm-up**
@@ -1143,14 +1135,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knee/Leg Raise** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise) · Name to copy into YouTube: `Hanging Rotational Knee/Leg Raise`
 
 **Conditioning**
 1. **WOD (workout of the day)** — EMOM (every minute on the minute): 20 min · hard but sustainable; keep the movement clean
@@ -1250,7 +1241,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Tuesday · Press + snatch day
 _Average time: about 80-95 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Weighted Sit-Up + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Flat DB Fly + Dumbbell Triceps Kickback (one or both arms) (about 5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral (Side) Raise, Dumbbell Triceps Kickback (one or both arms), Flat DB Fly_
 
@@ -1260,10 +1251,9 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+1. **Weighted Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Sit-Up) · Name to copy into YouTube: `Weighted Sit-Up`
 2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
@@ -1314,7 +1304,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Thursday · Deadlift + push day
 _Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, skill, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Deadlift (conventional) + Incline Barbell Bench Press (about 7 min saved)_
 _Superset to save time: Alternating Staggered-Stance Single-Leg Deadlift (DB) + Overhead Dumbbell Triceps Extension (about 6 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Barbell Calf Raise, Supine Slider Hamstring Curl, Overhead Dumbbell Triceps Extension_
@@ -1326,14 +1316,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Up-Down Planks (forearm <-> hand plank) (keeps the core work; loses the moving reps) / Offset Planks (asymmetric support or load) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Skill**
 1. **Toes to Bar (hanging)** — 6-10 min of quality practice
@@ -1381,7 +1370,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Friday · Clean + pull day
 _Average time: about 85-105 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Sit-Up + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Seated Dumbbell Curl + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral Raise (Supinated / palms-up grip), Seated (Chest-to-Thighs) DB Reverse Fly, Seated Dumbbell Curl_
 
@@ -1391,13 +1380,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Power / Olympic lifts**
 1. **Hang Power Clean - from the High Hang (hip crease)** — 3 × 3 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
@@ -1447,7 +1436,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Saturday · WOD class + cardio (optional)
 _Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, conditioning, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Crunch + Hanging Rotational Knee/Leg Raise (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day)_
 
 **Warm-up**
@@ -1456,14 +1445,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knee/Leg Raise** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise) · Name to copy into YouTube: `Hanging Rotational Knee/Leg Raise`
 
 **Conditioning**
 1. **WOD (workout of the day)** — EMOM (every minute on the minute): 20 min · hard but sustainable; keep the movement clean
@@ -1482,11 +1470,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 _Week level: 6.3 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- New exercise block: 11 exercises change a little (another version or one new detail); the rest stay
-- Monday: Front-Foot-Elevated Split Squat / Lunge (FFE) → Goblet Squat (Heels Elevated); Cross-Body Dumbbell Hammer Curl → Dumbbell Concentration Curl
-- Tuesday: Hang Power Snatch - from the High Hang → Power Snatch; Dumbbell Triceps Kickback (one or both arms) → Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top; Calorie Effort: 15 cal (bike / rower / ski) → Low Box Jump (Half-Shin Height)
+- New exercise block: 12 exercises change a little (another version or one new detail); the rest stay
+- Monday: Front-Foot-Elevated Split Squat / Lunge (FFE) → Goblet Squat (Heels Elevated); Cross-Body Dumbbell Hammer Curl → Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top
+- Tuesday: Weighted Sit-Up → Weighted Decline Sit-Up; Hang Power Snatch - from the High Hang → Power Snatch; Dumbbell Triceps Kickback (one or both arms) → Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top; Calorie Effort: 15 cal (bike / rower / ski) → Low Box Jump (Half-Shin Height)
 - Thursday: Supine Slider Hamstring Curl → Ball Hamstring Curl (medball or stability ball); Calorie Effort: 35 cal (bike / rower / ski) → Burpees
-- Friday: Hang Power Clean - from the High Hang (hip crease) → Power Clean; Seated Dumbbell Curl → Spider Curl (chest on incline bench); Medball Rotational Side-to-Side Floor Slams → Knees to Chest (hanging)
+- Friday: Hang Power Clean - from the High Hang (hip crease) → Power Clean; Seated Dumbbell Curl → Dumbbell Curl; Medball Rotational Side-to-Side Floor Slams → Knees to Chest (hanging)
 - Saturday: Calorie Effort: 10 cal (bike / rower / ski) → Double-Unders (jump rope)
 - +1 set on Front Squat (barbell) (Monday): 4 → 5 sets
 - +1 set on Ball Hamstring Curl (medball or stability ball) (Thursday): 3 → 4 sets
@@ -1501,8 +1489,8 @@ _You can switch off these blocks today: core, skill, accessories, conditioning. 
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Front Squat (barbell) + Inverted Row (about 5.5 min saved)_
 _Superset to save time: Step-Up (forward and lateral) + Pull-up (about 5.5 min saved)_
-_Superset to save time: Standing DB Calf Raise (deficit optional) + Dumbbell Concentration Curl (about 6 min saved)_
-_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Dumbbell Concentration Curl, Standing DB Calf Raise (deficit optional) · bonus exercises: Goblet Squat (Heels Elevated)_
+_Superset to save time: Standing DB Calf Raise (deficit optional) + Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top (about 6 min saved)_
+_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top, Standing DB Calf Raise (deficit optional) · bonus exercises: Goblet Squat (Heels Elevated)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1555,11 +1543,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
-3. **Dumbbell Concentration Curl** — 4 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top** — 4 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
-   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+   - Swap for: Dumbbell Concentration Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cross-Body%20Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Cross-Body Dumbbell Hammer Curl`
 
 **Conditioning**
 1. **WOD (workout of the day)** — AMRAP (as many rounds as possible): 15 min · hard but sustainable; keep the movement clean
@@ -1570,7 +1558,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Tuesday · Press + snatch day
 _Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Weighted Decline Sit-Up + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Flat DB Fly + Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top (about 5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral (Side) Raise, Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top, Flat DB Fly_
 
@@ -1580,10 +1568,9 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
@@ -1635,7 +1622,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Thursday · Deadlift + push day
 _Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, skill, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Deadlift (conventional) + Incline Barbell Bench Press (about 7 min saved)_
 _Superset to save time: Alternating Staggered-Stance Single-Leg Deadlift (DB) + Overhead Dumbbell Triceps Extension (about 6 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Barbell Calf Raise, Ball Hamstring Curl (medball or stability ball), Overhead Dumbbell Triceps Extension_
@@ -1647,14 +1634,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Up-Down Planks (forearm <-> hand plank) (keeps the core work; loses the moving reps) / Offset Planks (asymmetric support or load) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Skill**
 1. **Toes to Bar (hanging)** — 6-10 min of quality practice
@@ -1703,9 +1689,9 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Friday · Clean + pull day
 _Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Spider Curl (chest on incline bench) + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral Raise (Supinated / palms-up grip), Seated (Chest-to-Thighs) DB Reverse Fly, Spider Curl (chest on incline bench)_
+_Superset to save time: Sit-Up + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Dumbbell Curl + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral Raise (Supinated / palms-up grip), Seated (Chest-to-Thighs) DB Reverse Fly, Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1713,13 +1699,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Power / Olympic lifts**
 1. **Power Clean** — 3 × 2 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
@@ -1746,10 +1732,10 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Chin-Up%20(supinated)) · Name to copy into YouTube: `Chin-Up (supinated)`
 
 **Accessories**
-1. **Spider Curl (chest on incline bench)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Dumbbell Curl** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
-   - Swap for: Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)) · Name to copy into YouTube: `Spider Curl (chest on incline bench)`
+   - Swap for: Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
 2. **Seated (Chest-to-Thighs) DB Reverse Fly** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
@@ -1768,7 +1754,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Saturday · WOD class + cardio (optional)
 _Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, conditioning, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Crunch + Hanging Rotational Knee/Leg Raise (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day)_
 
 **Warm-up**
@@ -1777,14 +1763,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knee/Leg Raise** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise) · Name to copy into YouTube: `Hanging Rotational Knee/Leg Raise`
 
 **Conditioning**
 1. **WOD (workout of the day)** — EMOM (every minute on the minute): 24 min · hard but sustainable; keep the movement clean
@@ -1814,8 +1799,8 @@ _You can switch off these blocks today: core, skill, accessories, conditioning. 
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Front Squat (barbell) + Inverted Row (about 5.5 min saved)_
 _Superset to save time: Step-Up (forward and lateral) + Pull-up (about 5.5 min saved)_
-_Superset to save time: Standing DB Calf Raise (deficit optional) + Dumbbell Concentration Curl (about 6 min saved)_
-_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Dumbbell Concentration Curl, Standing DB Calf Raise (deficit optional) · bonus exercises: Goblet Squat (Heels Elevated)_
+_Superset to save time: Standing DB Calf Raise (deficit optional) + Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top (about 6 min saved)_
+_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top, Standing DB Calf Raise (deficit optional) · bonus exercises: Goblet Squat (Heels Elevated)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1868,11 +1853,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
-3. **Dumbbell Concentration Curl** — 4 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top** — 4 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
-   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+   - Swap for: Dumbbell Concentration Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cross-Body%20Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Cross-Body Dumbbell Hammer Curl`
 
 **Conditioning**
 1. **WOD (workout of the day)** — AMRAP (as many rounds as possible): 17 min · hard but sustainable; keep the movement clean
@@ -1883,7 +1868,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Tuesday · Press + snatch day
 _Average time: about 85-105 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Weighted Decline Sit-Up + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Flat DB Fly + Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top (about 6 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral (Side) Raise, Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top, Flat DB Fly_
 
@@ -1893,10 +1878,9 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
@@ -1948,7 +1932,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Thursday · Deadlift + push day
 _Average time: about 95-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, skill, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Deadlift (conventional) + Incline Barbell Bench Press (about 7 min saved)_
 _Superset to save time: Alternating Staggered-Stance Single-Leg Deadlift (DB) + Overhead Dumbbell Triceps Extension (about 6 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Barbell Calf Raise, Ball Hamstring Curl (medball or stability ball), Overhead Dumbbell Triceps Extension_
@@ -1960,14 +1944,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Up-Down Planks (forearm <-> hand plank) (keeps the core work; loses the moving reps) / Offset Planks (asymmetric support or load) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Skill**
 1. **Toes to Bar (hanging)** — 6-10 min of quality practice
@@ -2016,9 +1999,9 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Friday · Clean + pull day
 _Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Spider Curl (chest on incline bench) + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral Raise (Supinated / palms-up grip), Seated (Chest-to-Thighs) DB Reverse Fly, Spider Curl (chest on incline bench)_
+_Superset to save time: Sit-Up + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Dumbbell Curl + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral Raise (Supinated / palms-up grip), Seated (Chest-to-Thighs) DB Reverse Fly, Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2026,13 +2009,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Power / Olympic lifts**
 1. **Power Clean** — 3 × 2 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
@@ -2059,10 +2042,10 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Chin-Up%20(supinated)) · Name to copy into YouTube: `Chin-Up (supinated)`
 
 **Accessories**
-1. **Spider Curl (chest on incline bench)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Dumbbell Curl** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
-   - Swap for: Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)) · Name to copy into YouTube: `Spider Curl (chest on incline bench)`
+   - Swap for: Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
 2. **Seated (Chest-to-Thighs) DB Reverse Fly** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
@@ -2081,7 +2064,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Saturday · WOD class + cardio (optional)
 _Average time: about 55-70 min (an estimate, for information only)_
 _You can switch off these blocks today: core, conditioning, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Crunch + Hanging Rotational Knee/Leg Raise (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day)_
 
 **Warm-up**
@@ -2090,14 +2073,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knee/Leg Raise** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise) · Name to copy into YouTube: `Hanging Rotational Knee/Leg Raise`
 
 **Conditioning**
 1. **WOD (workout of the day)** — EMOM (every minute on the minute): 24 min · hard but sustainable; keep the movement clean
@@ -2120,7 +2102,7 @@ _Week level: 9.4 of 11 (2 = the start, 11 = your hardest week)_
 - +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Thursday): 4 → 5 sets
 - +1 set on Inverted Row (Friday): 4 → 5 sets
 - +1 set on Flat DB Bench Press (Tuesday): 4 → 5 sets
-- +1 set on Spider Curl (chest on incline bench) (Friday): 3 → 4 sets
+- +1 set on Dumbbell Curl (Friday): 3 → 4 sets
 - +1 set on Barbell Calf Raise (Thursday): 3 → 4 sets
 
 **Athletic work this week:** 6 Olympic-lift sets
@@ -2131,8 +2113,8 @@ _You can switch off these blocks today: core, skill, accessories, conditioning. 
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Front Squat (barbell) + Inverted Row (about 5.5 min saved)_
 _Superset to save time: Step-Up (forward and lateral) + Pull-up (about 5.5 min saved)_
-_Superset to save time: Standing DB Calf Raise (deficit optional) + Dumbbell Concentration Curl (about 6 min saved)_
-_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Dumbbell Concentration Curl, Standing DB Calf Raise (deficit optional) · bonus exercises: Goblet Squat (Heels Elevated)_
+_Superset to save time: Standing DB Calf Raise (deficit optional) + Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top (about 6 min saved)_
+_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top, Standing DB Calf Raise (deficit optional) · bonus exercises: Goblet Squat (Heels Elevated)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2185,11 +2167,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
-3. **Dumbbell Concentration Curl** — 4 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+3. **Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top** — 4 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
-   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+   - Swap for: Dumbbell Concentration Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cross-Body%20Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Cross-Body Dumbbell Hammer Curl`
 
 **Conditioning**
 1. **WOD (workout of the day)** — AMRAP (as many rounds as possible): 18 min · hard but sustainable; keep the movement clean
@@ -2200,7 +2182,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Tuesday · Press + snatch day
 _Average time: about 85-105 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Weighted Decline Sit-Up + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Flat DB Fly + Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top (about 6 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral (Side) Raise, Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top, Flat DB Fly_
 
@@ -2210,10 +2192,9 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
@@ -2265,7 +2246,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Thursday · Deadlift + push day
 _Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, skill, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Deadlift (conventional) + Incline Barbell Bench Press (about 8.5 min saved)_
 _Superset to save time: Alternating Staggered-Stance Single-Leg Deadlift (DB) + Overhead Dumbbell Triceps Extension (about 6 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Barbell Calf Raise, Ball Hamstring Curl (medball or stability ball), Overhead Dumbbell Triceps Extension_
@@ -2277,14 +2258,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Up-Down Planks (forearm <-> hand plank) (keeps the core work; loses the moving reps) / Offset Planks (asymmetric support or load) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Skill**
 1. **Toes to Bar (hanging)** — 6-10 min of quality practice
@@ -2333,9 +2313,9 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Friday · Clean + pull day
 _Average time: about 105-125 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Spider Curl (chest on incline bench) + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral Raise (Supinated / palms-up grip), Seated (Chest-to-Thighs) DB Reverse Fly, Spider Curl (chest on incline bench)_
+_Superset to save time: Sit-Up + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Dumbbell Curl + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral Raise (Supinated / palms-up grip), Seated (Chest-to-Thighs) DB Reverse Fly, Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2343,13 +2323,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Power / Olympic lifts**
 1. **Power Clean** — 3 × 1 Rep · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
@@ -2376,10 +2356,10 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Chin-Up%20(supinated)) · Name to copy into YouTube: `Chin-Up (supinated)`
 
 **Accessories**
-1. **Spider Curl (chest on incline bench)** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Dumbbell Curl** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
-   - Swap for: Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)) · Name to copy into YouTube: `Spider Curl (chest on incline bench)`
+   - Swap for: Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
 2. **Seated (Chest-to-Thighs) DB Reverse Fly** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Swap for: Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
@@ -2398,7 +2378,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Saturday · WOD class + cardio (optional)
 _Average time: about 60-70 min (an estimate, for information only)_
 _You can switch off these blocks today: core, conditioning, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Crunch + Hanging Rotational Knee/Leg Raise (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day)_
 
 **Warm-up**
@@ -2407,14 +2387,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knee/Leg Raise** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise) · Name to copy into YouTube: `Hanging Rotational Knee/Leg Raise`
 
 **Conditioning**
 1. **WOD (workout of the day)** — EMOM (every minute on the minute): 28 min · hard but sustainable; keep the movement clean
@@ -2443,8 +2422,8 @@ _Average time: about 120-145 min (an estimate, for information only)_
 _You can switch off these blocks today: core, skill, accessories, conditioning. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Step-Up (forward and lateral) + Pull-up (about 5.5 min saved)_
-_Superset to save time: Standing DB Calf Raise (deficit optional) + Dumbbell Concentration Curl (about 6 min saved)_
-_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Dumbbell Concentration Curl, Standing DB Calf Raise (deficit optional) · bonus exercises: Goblet Squat (Heels Elevated)_
+_Superset to save time: Standing DB Calf Raise (deficit optional) + Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top (about 6 min saved)_
+_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top, Standing DB Calf Raise (deficit optional) · bonus exercises: Goblet Squat (Heels Elevated)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2502,11 +2481,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
-3. **Dumbbell Concentration Curl** — 4 × 15 to 20 per side · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+3. **Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top** — 4 × 15 to 20 per side · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 1 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
-   - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
+   - Swap for: Dumbbell Concentration Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cross-Body%20Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Cross-Body Dumbbell Hammer Curl`
 
 **Conditioning**
 1. **WOD (workout of the day)** — AMRAP (as many rounds as possible): 20 min · hard but sustainable; keep the movement clean
@@ -2517,7 +2496,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Tuesday · Push day
 _Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Weighted Decline Sit-Up + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Flat DB Fly + Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top (about 6 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral (Side) Raise, Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top, Flat DB Fly_
 
@@ -2527,10 +2506,9 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
@@ -2582,7 +2560,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Thursday · Deadlift + push day
 _Average time: about 115-145 min (an estimate, for information only)_
 _You can switch off these blocks today: core, skill, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Alternating Staggered-Stance Single-Leg Deadlift (DB) + Overhead Dumbbell Triceps Extension (about 6 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Barbell Calf Raise, Ball Hamstring Curl (medball or stability ball), Overhead Dumbbell Triceps Extension_
 
@@ -2593,14 +2571,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Up-Down Planks (forearm <-> hand plank) (keeps the core work; loses the moving reps) / Offset Planks (asymmetric support or load) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
 **Skill**
 1. **Toes to Bar (hanging)** — 6-10 min of quality practice
@@ -2654,9 +2631,9 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Friday · Single-leg squat + pull day
 _Average time: about 95-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Spider Curl (chest on incline bench) + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral Raise (Supinated / palms-up grip), Seated (Chest-to-Thighs) DB Reverse Fly, Spider Curl (chest on incline bench)_
+_Superset to save time: Sit-Up + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Dumbbell Curl + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: DB Lateral Raise (Supinated / palms-up grip), Seated (Chest-to-Thighs) DB Reverse Fly, Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2664,13 +2641,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Strength**
 1. **Inverted Row - 1-second squeeze at the top** — 5 × 10 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
@@ -2690,10 +2667,10 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Chin-Up%20(supinated)) · Name to copy into YouTube: `Chin-Up (supinated)`
 
 **Accessories**
-1. **Spider Curl (chest on incline bench)** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+1. **Dumbbell Curl** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
-   - Swap for: Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)) · Name to copy into YouTube: `Spider Curl (chest on incline bench)`
+   - Swap for: Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
 2. **Seated (Chest-to-Thighs) DB Reverse Fly** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Swap for: Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
@@ -2712,7 +2689,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 ### Saturday · WOD class + cardio (optional)
 _Average time: about 60-75 min (an estimate, for information only)_
 _You can switch off these blocks today: core, conditioning, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Crunch + Hanging Rotational Knee/Leg Raise (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day)_
 
 **Warm-up**
@@ -2721,14 +2698,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Book%20Opener) · Name to copy into YouTube: `KB Book Opener`
 
 **Core**
-1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
+2. **Hanging Rotational Knee/Leg Raise** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Star Side Plank (keeps the core work; loses some difficulty - this one is easier)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise) · Name to copy into YouTube: `Hanging Rotational Knee/Leg Raise`
 
 **Conditioning**
 1. **WOD (workout of the day)** — EMOM (every minute on the minute): 28 min · hard but sustainable; keep the movement clean

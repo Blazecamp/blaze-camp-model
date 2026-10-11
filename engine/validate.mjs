@@ -735,6 +735,11 @@ function v19Olympic(c) {
   const ath = c.meta.athletic || {};
   // (a day whose lift asks for a family no record can fill for this client keeps the other family - select's relaxed step)
   const possibleFor = (r, v) => pool.some(e => possible(e, v, r.w));
+  // v0.6 (G-133): the client the selection keeps away from the snatch family and from barbell power lifts (rules.selection.s6.olympic_safe)
+  const S6O = c.R.selection && c.R.selection.s6 && c.R.selection.s6.olympic_safe;
+  const A50 = c.R.population.active_aging_50;
+  const racket50 = !!A50 && c.age !== null && c.age >= A50.from_age && c.age <= A50.to_age && (A50.racket_profiles || []).includes(c.meta.profile && c.meta.profile.id);
+  const olySafe = !!S6O && ((S6O.when_pain && (c.derived.pain || []).length > 0) || (typeof S6O.when_play_days_min === 'number' && (c.meta.play_days || c.derived.play_days || []).length >= S6O.when_play_days_min) || (S6O.when_racket50 && racket50));
   for (const w of c.weeks) {
     const rows = c.rows.filter(r => r.w === w && r.it.bucket === 'AP_TRIPLE_EXT' && r.ex);
     const heavyGameWeek = w.block_type === 'in_season' && ath.game_heavy && ath.heavy_play_week;
@@ -763,6 +768,9 @@ function v19Olympic(c) {
       const byDay = !!(c.R.athletic.r2 && c.R.athletic.r2.selection && c.R.athletic.r2.selection.olympic_by_day_lift) && ['clean', 'snatch'].includes(variant0);
       const variant = byDay && said ? said : variant0;
       const fam = r.ex.athletic && r.ex.athletic.olympic_family;
+      // v0.6 (G-133, EQ-03 / ATH-10): an 'olympic safe' client's clean-day station may hold the KB swing or the DB / KB high pull the
+      // selection relaxes to (no clean, loaded jump or jerk is safe for him) - the day pattern is not read on it
+      if (olySafe && (r.it.flags || []).includes('olympic_safe') && ['swing', 'snatch'].includes(fam)) continue;
       if (variant && fam && variant !== 'jerk') {
         const pv = O.day_pattern[variant], pf = O.day_pattern[fam];
         if (pv && pf && pf !== 'either' && pf !== pv) out.push(viol(where(r), k, { rule: 'day_pattern', station: variant, family: fam }));

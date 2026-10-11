@@ -354,7 +354,10 @@ describe('v0.4 fix round 1 / F3: selection, dosing and the printed plan (coach-e
   });
   test('R01-low-back-core: a low-back hot-spot athlete\'s main-day core is anti-extension / anti-rotation (planks, Pallof / suitcase holds, dead bugs) - loaded twists, leg raises, V-ups and sit-ups stay off the main days (R2-SES-03; E-129)', () => {
     const avoid = new RegExp(R.selection.f3.core_low_back.avoid_re);
-    for (const x of allItems(plan('01')).filter(x => x.b.kind === 'core' && x.d.kind === 'main')) assert.ok(!avoid.test(x.it.exercise_id), `w${x.w.n} ${x.d.weekday} ${x.it.exercise_id}`);
+    // (engine 0.6 selection, converted - DECISIONS G-131: the low-back list is for a client who reports low-back pain - the swimmer's
+    // profile hot spot alone is a lean, 02 M3 of round 4; the rule is asserted on the swimmer with the pain entered)
+    const i01 = intakeOf('01'); i01.pain = [{ area: 'lower_back', side: 'both', severity: 'mild', worse_with: [] }];
+    for (const x of allItems(generate(i01, model)).filter(x => x.b.kind === 'core' && x.d.kind === 'main')) assert.ok(!avoid.test(x.it.exercise_id), `w${x.w.n} ${x.d.weekday} ${x.it.exercise_id}`);
   });
   test('R06-side-delt-focus: with a side-delt / shoulders Focus the week keeps one rear-delt station and fills the others with side raises; the Focus-first spot holds a side raise (R3-VOL-01, R3-SES-01; E-133)', () => {
     const p = plan('06');

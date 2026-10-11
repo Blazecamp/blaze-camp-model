@@ -1084,8 +1084,17 @@ function aerobicOf(i, D1, D2, D3, sp, prefs, play_days, model, whys, r3) {
     replaced = Math.max(0, Math.min(play_days.length, ACA.max_replaced, base - ACA.keep_gym_led_min));
     if (replaced) { whys.push(why('why.activity_counts', 'R3-ATH-05', { activity: D2.activity_ids[0] || D2.id, n: replaced })); r3.push(ACA.r3); }
   }
+  // v0.6 (G-136, 03 M1; R3-ATH-05 'a 45-60+ min session of the activity counts as one of the cardio sessions (up to 2)', PROPOSED for a
+  // competitive athlete's team practices): practices count as aerobic sessions the same way, the gym keeping at least one of its own
+  const practiceN = practiceCount(i, model);
+  let replaced_by_practice = 0;
+  const PRc = C.s6 && C.s6.practice;
+  if (practiceN > 0 && base >= 1) {
+    replaced_by_practice = Math.max(0, Math.min(practiceN, PRc.max_replaced - replaced, base - replaced - PRc.keep_gym_led_min));
+    if (replaced_by_practice) whys.push(why('why.practice_counts', 'R3-ATH-05', { n: practiceN }));
+  }
   const adjust = prefs.cardio_adjust;
-  const per_week = Math.max(C.cardio_adjust.floor_total, base - replaced + adjust);
+  const per_week = Math.max(C.cardio_adjust.floor_total, base - replaced - replaced_by_practice + adjust);
   const unlock = C.unlock && C.unlock[D1] ? C.unlock[D1][D3.level] : null;
   const order = unlock ? C.fill_order.filter(c => unlock.includes(c)) : C.fill_order.slice();
   const colours = [];
@@ -1097,6 +1106,15 @@ function aerobicOf(i, D1, D2, D3, sp, prefs, play_days, model, whys, r3) {
   if (adjust) whys.push(why('why.cardio_adjust', 'R2-SES-06', { delta: adjust }));
   if (walks) whys.push(why('why.walks', 'ATH-07'));
   if (fighter_open) whys.push(why('why.aerobic_fighter_open', 'ORD-09'));
-  return { per_week, base, adjust, replaced_by_activity: replaced, walks, colours, fighter_open, sport_is_aerobic };
+  return { per_week, base, adjust, replaced_by_activity: replaced, walks, colours, fighter_open, sport_is_aerobic, ...(PRc ? { practice_days: practiceN, replaced_by_practice } : {}) };
+}
+
+/** v0.6 (G-136): the team practices a week that count for a competitive athlete (rules.conditioning.s6.practice); 0 when the rule is off */
+export function practiceCount(i, model) {
+  const PR = model.rules.conditioning.s6 && model.rules.conditioning.s6.practice;
+  if (!PR || !PR.counts_as_aerobic || !i.sport || !i.sport.practice) return 0;
+  if (PR.competitive_only && i.sport.competitive !== 'competitive') return 0;
+  const n = i.sport.practice.practice_days_per_week;
+  return typeof n === 'number' && n > 0 ? n : 0;
 }
 
