@@ -9,13 +9,13 @@ _Your Blaze Camp plan_
 - **Level:** Advanced (L3): 3 years of consistent training, training 4 days a week now
 - **Plan type:** 12 weeks (recommended) · Week 1-12
 - **Start date:** 12 Oct 2026
-- **Training days per week:** 4 · Monday, Tuesday, Thursday, Friday · about 7 exercises a session (plus the warm-up and the 2 core exercises)
+- **Training days per week:** 4 · Monday, Tuesday, Thursday, Friday · about 7-8 exercises a session (plus the warm-up and the 2 core exercises)
 - Terms and release of liability accepted before this plan was built: client, English
 - Health check: answered; nothing in it asked for a doctor first. [Official PAR-Q+ (in English)](https://eparmedx.com/)
 
 ## Before you start
 
-- Weeks 11, 12 include Christmas / New Year: move a session by a day or two if you need to; plan longer holidays between blocks.
+- Weeks 11 and 12 include Christmas / New Year: move a session by a day or two if you need to; plan longer holidays between blocks.
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.
@@ -86,19 +86,19 @@ After this plan: you choose: next block (an easy week first is recommended, not 
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts)._
+_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts). Numbers are rounded to whole sets._
 
 |  | Week 1 | Week 6 | Week 12 |
 |---|---|---|---|
 | Quads | 20 | 22 | 25 |
-| Hips (glutes + hamstrings) | 22.5 | 25 | 27.25 |
-| ↳ Glutes (Focus) | 12.5 | 14.25 | 15.5 |
+| Hips (glutes + hamstrings) | 23 | 25 | 27 |
+| ↳ Glutes (Focus) | 13 | 14 | 16 |
 | Back | 19 | 21 | 24 |
 | Chest | 19 | 20 | 24 |
-| Shoulders | 20 | 22.5 | 27.5 |
+| Shoulders | 20 | 23 | 28 |
 | ↳ Side delts (Focus) | 8 | 10 | 13 |
-| Biceps | 14.75 | 15.25 | 18 |
-| Triceps | 15.25 | 16.5 | 20 |
+| Biceps | 15 | 15 | 18 |
+| Triceps | 15 | 17 | 20 |
 | Calves | 10 | 10 | 12 |
 | **Total** | **121** | **131** | **154** |
 
@@ -113,23 +113,23 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Friday | B2 - deadlift + push | about 90-110 min | Hips (glutes + hamstrings) 3, Chest 1, Shoulders 2, Triceps 1 |
 | Saturday | Optional day | about 50-65 min | Chest 1, Shoulders 2, Triceps 1, Calves 1 |
 
-## Block · Training block · Week 1-12
+## Training block, week by week · Week 1-12
 
 **Level:** 2.0 · 2.6 · 3.2 · 3.8 · 4.4 · 5.0 · 6.0 · 7.0 · 8.0 · 9.0 · 10.0 · 11.0
 
 ### Weekly sets per muscle group, week by week · Week 1-12
 
-_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). "Final sets" is where the stairway is planned to end; "24 of 25" means this template's exercises hold 24 of the 25 planned sets._
+_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). "Final sets" is where the stairway is planned to end; "24 of 25" means this template's exercises hold 24 of the 25 planned sets. Numbers are rounded to whole sets._
 
 | Muscle group | Sets each week (weeks 1-12) | Final sets |
 |---|---|---|
 | Quads | 20 20 21 21 · 21 22 22 23 · 23 24 25 25 | 25 |
-| Hips (glutes + hamstrings) | 22.5 23.5 23.75 23.75 · 24.75 25 25 25 · 25 26 27.25 27.25 | 27 |
+| Hips (glutes + hamstrings) | 23 24 24 24 · 25 25 25 25 · 25 26 27 27 | 27 |
 | Back | 19 19 20 20 · 20 21 21 22 · 22 23 23 24 | 24 of 25 |
 | Chest | 19 19 19 20 · 20 20 21 22 · 22 23 23 24 | 24 of 25 |
-| Shoulders | 20 21 21.25 21.5 · 22.5 22.5 23.75 24 · 25 25.25 26.25 27.5 | 27 |
-| Biceps | 14.75 14.75 15 15 · 15 15.25 16.25 16.5 · 17.5 17.75 17.75 18 | 18 of 25 |
-| Triceps | 15.25 15.25 15.25 16.5 · 16.5 16.5 17.75 18 · 18 18 19 20 | 20 of 25 |
+| Shoulders | 20 21 21 22 · 23 23 24 24 · 25 25 26 28 | 27 |
+| Biceps | 15 15 15 15 · 15 15 16 17 · 18 18 18 18 | 18 of 25 |
+| Triceps | 15 15 15 17 · 17 17 18 18 · 18 18 19 20 | 20 of 25 |
 | Calves | 10 10 10 10 · 10 10 10 10 · 11 11 12 12 | 12 |
 | **Total** | 121 123 125 127 · 129 131 135 138 · 141 145 150 154 | 154 |
 
@@ -155,7 +155,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Crunch | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
 | Hanging Rotational Knees-to-Chest (hanging oblique knee raise) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Seated DB Lateral Raise | 2 3 3 3 · 3 3 3 3 · 3 3 4 4 | 15 to 20 Reps |
-| Barbell Bench Press | 5 5 5 5 · 5 5 5 5 · 5 5 5 5 | 12/10/8/8/20 |
+| Barbell Bench Press | 5 5 5 5 · 5 5 5 5 · 5 5 5 5 | 12, 10, 8, 8, then 20 light |
 | Barbell Hip Thrust | 3 3 3 3 · 4 4 4 4 · 4 5 5 5 | 8 to 12 Reps |
 | Incline Barbell Bench Press → Incline Barbell Bench Press - close grip (hands shoulder-width) → Incline Barbell Bench Press - 1-second pause at the bottom | 4 4 4 4 · 4 4 5 5 · 5 5 5 5 | 8-10 Reps |
 | Staggered-Stance (Kickstand) DB Deadlift → Rear-Foot-on-Wall DB Deadlift (RDL) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 8 to 12 per side |
@@ -180,7 +180,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Sit-Up | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
 | Reverse Crunch | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
-| Bent-Over Barbell Row → Bent-Over Barbell Row (Supinated / Yates grip) | 4 4 5 5 · 5 5 5 5 · 5 5 5 5 | 12/10/8 -20 → 12/10/8/8/20 |
+| Bent-Over Barbell Row → Bent-Over Barbell Row (Supinated / Yates grip) | 4 4 5 5 · 5 5 5 5 · 5 5 5 5 | 12, 10, 8, then 20 light → 12, 10, 8, 8, then 20 light |
 | Leg Press (machine) | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 10 to 15 Reps |
 | Lat Pulldown (Rope Attachment) → Lat Pulldown (Rope Attachment) - 1-second squeeze at the top | 4 4 4 4 · 4 4 4 5 · 5 5 5 5 | 10 to 15 Reps |
 | Stationary Lunge (Split Squat) | 3 3 3 3 · 3 4 4 4 · 4 4 4 4 | 8 to 12 per side |
@@ -196,7 +196,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Side Plank (elbow) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
 | Leg Raise (lying / supine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
 | Cable Side Raise (leaning) | 2 2 2 2 · 3 3 3 3 · 4 4 4 4 | 15 to 20 per side |
-| Flat DB Bench Press → Flat DB Bench Press - 1-second pause at the bottom | 4 4 4 5 · 5 5 5 5 · 5 5 5 5 | 12/10/8 -20 → 12/10/8/8/20 |
+| Flat DB Bench Press → Flat DB Bench Press - 1-second pause at the bottom | 4 4 4 5 · 5 5 5 5 · 5 5 5 5 | 12, 10, 8, then 20 light → 12, 10, 8, 8, then 20 light |
 | Hex (Trap) Bar Deadlift | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 8-10 Reps |
 | Incline DB Bench Press | 4 4 4 4 · 4 4 4 5 · 5 5 5 5 | 8 to 12 Reps |
 | Alternating Staggered-Stance Single-Leg Deadlift (DB) → Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee | 2 3 3 3 · 3 3 3 3 · 3 3 3 3 | 8 to 12 per side |
@@ -216,7 +216,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 ## Week 1 — Getting used to it (small steps)
 
-_Week level: 2 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 
 ### Monday · A1 - squat + pull
 _Average time: about 80-95 min (an estimate, for information only)_
@@ -321,10 +321,10 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
-2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Barbell Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
-   - Keep this lift at 8-10 reps.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
 3. **Barbell Hip Thrust** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -362,9 +362,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 30 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -415,7 +414,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Blue (A): short / high intensity · treadmill** — 15 min · 20 s run / 40 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
 _Average time: about 75-90 min (an estimate, for information only)_
@@ -442,9 +440,10 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **Bent-Over Barbell Row** — 4 × 12/10/8 -20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Bent-Over Barbell Row** — 4 sets: 12, 10, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - Barbell (Supinated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
 2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -519,9 +518,10 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
-2. **Flat DB Bench Press** — 4 × 12/10/8 -20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Flat DB Bench Press** — 4 sets: 12, 10, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -554,9 +554,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 30 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -607,15 +606,14 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 2 — Getting used to it (small steps)
 
-_Week level: 2.6 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 2.6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Friday)
-- +1 set on Seated DB Lateral Raise (Tuesday)
+- +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Friday): 2 → 3 sets
+- +1 set on Seated DB Lateral Raise (Tuesday): 2 → 3 sets
 
 ### Monday · A1 - squat + pull
 _Average time: about 80-95 min (an estimate, for information only)_
@@ -716,9 +714,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
-2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Barbell Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
-   - Keep this lift at 8-10 reps.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
 3. **Barbell Hip Thrust** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -753,9 +751,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 33 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -806,7 +803,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Blue (A): short / high intensity · treadmill** — 17 min · 20 s run / 40 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
 _Average time: about 75-90 min (an estimate, for information only)_
@@ -833,8 +829,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **Bent-Over Barbell Row** — 4 × 12/10/8 -20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Bent-Over Barbell Row** — 4 sets: 12, 10, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - Barbell (Supinated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
 2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -906,8 +903,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
-2. **Flat DB Bench Press** — 4 × 12/10/8 -20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Flat DB Bench Press** — 4 sets: 12, 10, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -937,9 +935,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 33 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -990,15 +987,14 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 3 — Driving it
 
-_Week level: 3.2 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 3.2 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (Monday)
-- +1 set on Bent-Over Barbell Row (Thursday)
+- +1 set on Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (Monday): 3 → 4 sets
+- +1 set on Bent-Over Barbell Row (Thursday): 4 → 5 sets
 
 ### Monday · A1 - squat + pull
 _Average time: about 80-100 min (an estimate, for information only)_
@@ -1099,9 +1095,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
-2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Barbell Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
-   - Keep this lift at 8-10 reps.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
 3. **Barbell Hip Thrust** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -1136,9 +1132,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 37 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -1189,7 +1184,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Blue (A): short / high intensity · treadmill** — 18 min · 20 s run / 40 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
 _Average time: about 75-90 min (an estimate, for information only)_
@@ -1216,8 +1210,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **Bent-Over Barbell Row** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Bent-Over Barbell Row** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - Barbell (Supinated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
 2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -1289,8 +1284,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
-2. **Flat DB Bench Press** — 4 × 12/10/8 -20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Flat DB Bench Press** — 4 sets: 12, 10, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -1320,9 +1316,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 37 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -1373,15 +1368,14 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 4 — Driving it
 
-_Week level: 3.8 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 3.8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Flat DB Bench Press (Friday)
-- +1 set on Overhead Cable Triceps Extension (Saturday)
+- +1 set on Flat DB Bench Press (Friday): 4 → 5 sets
+- +1 set on Overhead Cable Triceps Extension (Saturday): 2 → 3 sets
 
 ### Monday · A1 - squat + pull
 _Average time: about 80-100 min (an estimate, for information only)_
@@ -1482,9 +1476,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
-2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Barbell Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
-   - Keep this lift at 8-10 reps.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
 3. **Barbell Hip Thrust** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -1519,9 +1513,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20supinated%20(reverse)%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, supinated (reverse) grip`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 40 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -1572,7 +1565,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Blue (A): short / high intensity · treadmill** — 20 min · 20 s run / 40 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
 _Average time: about 75-90 min (an estimate, for information only)_
@@ -1599,8 +1591,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **Bent-Over Barbell Row** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Bent-Over Barbell Row** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - Barbell (Supinated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses the trunk work of holding the position) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
 2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -1672,8 +1665,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
-2. **Flat DB Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Flat DB Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -1703,9 +1697,8 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
 
 **Aerobic**
-1. **Orange (C): long / easy · rower** — 40 min · 11 min steady / 2 min easy, repeat
+1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -1756,16 +1749,21 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 5 — Driving it
 
-_Week level: 4.4 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 4.4 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - New exercise block: 11 exercises change a little (another version or one new detail); the rest stay
-- +1 set on Barbell Hip Thrust (Tuesday)
-- +1 set on Cable Side Raise (leaning) (Friday)
+- Monday: Seal Row - DB (Supinated Grip) → Seal Row - Barbell (Supinated Grip); Spider Curl (chest on incline bench) → Supine (Lying) Biceps Curl
+- Tuesday: Incline Barbell Bench Press → Incline Barbell Bench Press - close grip (hands shoulder-width); Staggered-Stance (Kickstand) DB Deadlift → Rear-Foot-on-Wall DB Deadlift (RDL)
+- Wednesday: Standing DB Calf Raise (deficit optional) → Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top; Supine (Lying) Biceps Curl → Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)
+- Thursday: Lat Pulldown (Rope Attachment) → Lat Pulldown (Rope Attachment) - 1-second squeeze at the top; Leg Extension (machine) - one leg at a time → Leg Extension (machine) - 1-second squeeze at the top
+- Friday: Cable Triceps Push-down → Cable Triceps Pushdown - straight bar, pronated grip; Lying Leg Curl (machine) → Lying Leg Curl (machine) - one leg at a time
+- Saturday: Machine Calf Raise - from a step (full stretch at the bottom) → Machine Calf Raise - 1-second squeeze at the top
+- +1 set on Barbell Hip Thrust (Tuesday): 3 → 4 sets
+- +1 set on Cable Side Raise (leaning) (Friday): 2 → 3 sets
 
 ### Monday · A1 - squat + pull
 _Average time: about 80-100 min (an estimate, for information only)_
@@ -1866,9 +1864,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
-2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Barbell Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
-   - Keep this lift at 8-10 reps.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
 3. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -1905,7 +1903,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -1957,7 +1954,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Blue (A): short / high intensity · treadmill** — 15 min · 30 s run / 30 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
 _Average time: about 75-90 min (an estimate, for information only)_
@@ -1984,8 +1980,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **Bent-Over Barbell Row** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Bent-Over Barbell Row** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
 2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -2057,8 +2054,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
-2. **Flat DB Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Flat DB Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -2090,7 +2088,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2141,15 +2138,14 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 6 — Driving it
 
-_Week level: 5 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 5 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Stationary Lunge (Split Squat) (Thursday)
-- +1 set on Single-Arm Lat Pulldown (Monday)
+- +1 set on Stationary Lunge (Split Squat) (Thursday): 3 → 4 sets
+- +1 set on Single-Arm Lat Pulldown (Monday): 4 → 5 sets
 
 ### Monday · A1 - squat + pull
 _Average time: about 85-100 min (an estimate, for information only)_
@@ -2250,9 +2246,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
-2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Barbell Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
-   - Keep this lift at 8-10 reps.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
 3. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -2289,7 +2285,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2341,7 +2336,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Blue (A): short / high intensity · treadmill** — 17 min · 30 s run / 30 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
 _Average time: about 80-95 min (an estimate, for information only)_
@@ -2368,8 +2362,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **Bent-Over Barbell Row** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Bent-Over Barbell Row** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
 2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -2441,8 +2436,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
-2. **Flat DB Bench Press** — 5 × 12/10/8/8/20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Flat DB Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 3 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -2474,7 +2470,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2525,17 +2520,16 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 7 — Driving it
 
-_Week level: 6 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Incline Barbell Bench Press (Tuesday)
-- +1 set on Machine Reverse Fly (rear-delt pec deck) (Thursday)
-- +1 set on Dumbbell Concentration Curl (Thursday)
-- +1 set on EZ-Bar Skullcrusher (Tuesday)
+- +1 set on Incline Barbell Bench Press (Tuesday): 4 → 5 sets
+- +1 set on Machine Reverse Fly (rear-delt pec deck) (Thursday): 2 → 3 sets
+- +1 set on Dumbbell Concentration Curl (Thursday): 3 → 4 sets
+- +1 set on EZ-Bar Skullcrusher (Tuesday): 3 → 4 sets
 
 ### Monday · A1 - squat + pull
 _Average time: about 85-100 min (an estimate, for information only)_
@@ -2636,9 +2630,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
-2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+2. **Barbell Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
-   - Keep this lift at 8-10 reps.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
 3. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
@@ -2675,7 +2669,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2727,7 +2720,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Blue (A): short / high intensity · treadmill** — 18 min · 30 s run / 30 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
 _Average time: about 85-100 min (an estimate, for information only)_
@@ -2754,8 +2746,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **Bent-Over Barbell Row** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+1. **Bent-Over Barbell Row** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
 2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
@@ -2827,8 +2820,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
-2. **Flat DB Bench Press** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+2. **Flat DB Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
@@ -2860,7 +2854,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -2911,16 +2904,15 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 8 — Driving it
 
-_Week level: 7 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 7 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Leg Extension (machine) (Monday)
-- +1 set on Lat Pulldown (Rope Attachment) (Thursday)
-- +1 set on Incline DB Bench Press (Friday)
+- +1 set on Leg Extension (machine) (Monday): 3 → 4 sets
+- +1 set on Lat Pulldown (Rope Attachment) (Thursday): 4 → 5 sets
+- +1 set on Incline DB Bench Press (Friday): 4 → 5 sets
 
 ### Monday · A1 - squat + pull
 _Average time: about 85-105 min (an estimate, for information only)_
@@ -3021,9 +3013,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
-2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+2. **Barbell Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
-   - Keep this lift at 8-10 reps.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
 3. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
@@ -3060,7 +3052,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -3112,7 +3103,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Blue (A): short / high intensity · treadmill** — 20 min · 30 s run / 30 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
 _Average time: about 85-105 min (an estimate, for information only)_
@@ -3139,8 +3129,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **Bent-Over Barbell Row** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+1. **Bent-Over Barbell Row** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Bent-Over Barbell Row (Supinated / Yates grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row) · Name to copy into YouTube: `Bent-Over Barbell Row`
 2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
@@ -3212,8 +3203,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
-2. **Flat DB Bench Press** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+2. **Flat DB Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
@@ -3245,7 +3237,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -3296,17 +3287,20 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 9 — Hardest weeks
 
-_Week level: 8 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - New exercise block: 8 exercises change a little (another version or one new detail); the rest stay
-- +1 set on Cable Side Raise (leaning) (Friday)
-- +1 set on Supine (Lying) Biceps Curl (Monday)
-- +1 set on Standing DB Calf Raise (deficit optional) (Wednesday)
+- Monday: Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top; Machine Calf Raise → Machine Calf Raise - 1-second squeeze at the top
+- Tuesday: Incline Barbell Bench Press - close grip (hands shoulder-width) → Incline Barbell Bench Press - 1-second pause at the bottom; EZ-Bar Skullcrusher → EZ-Bar Skullcrusher - 1-second squeeze at the top
+- Thursday: Bent-Over Barbell Row → Bent-Over Barbell Row (Supinated / Yates grip); Machine Calf Raise - one leg at a time → Machine Calf Raise - from a step (full stretch at the bottom)
+- Friday: Flat DB Bench Press → Flat DB Bench Press - 1-second pause at the bottom; Alternating Staggered-Stance Single-Leg Deadlift (DB) → Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee
+- +1 set on Cable Side Raise (leaning) (Friday): 3 → 4 sets
+- +1 set on Supine (Lying) Biceps Curl (Monday): 3 → 4 sets
+- +1 set on Standing DB Calf Raise (deficit optional) (Wednesday): 2 → 3 sets
 
 ### Monday · A1 - squat + pull
 _Average time: about 85-105 min (an estimate, for information only)_
@@ -3407,9 +3401,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
-2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+2. **Barbell Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
-   - Keep this lift at 8-10 reps.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
 3. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
@@ -3446,7 +3440,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -3498,7 +3491,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Blue (A): short / high intensity · treadmill** — 15 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
 _Average time: about 85-105 min (an estimate, for information only)_
@@ -3525,8 +3517,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **Bent-Over Barbell Row (Supinated / Yates grip)** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+1. **Bent-Over Barbell Row (Supinated / Yates grip)** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Bent-Over Barbell Row (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row%20(Supinated%20%2F%20Yates%20grip)) · Name to copy into YouTube: `Bent-Over Barbell Row (Supinated / Yates grip)`
 2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
@@ -3598,8 +3591,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
-2. **Flat DB Bench Press - 1-second pause at the bottom** — 5 × 12/10/8/8/20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+2. **Flat DB Bench Press - 1-second pause at the bottom** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 2 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
@@ -3631,7 +3625,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -3682,17 +3675,16 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 10 — Hardest weeks
 
-_Week level: 9 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Leg Extension (machine) (Thursday)
-- +1 set on Barbell Hip Thrust (Tuesday)
-- +1 set on Machine Row (Close / Neutral Grip) (Wednesday)
-- +1 set on Machine Fly (Pec Deck) (Saturday)
+- +1 set on Leg Extension (machine) (Thursday): 3 → 4 sets
+- +1 set on Barbell Hip Thrust (Tuesday): 4 → 5 sets
+- +1 set on Machine Row (Close / Neutral Grip) (Wednesday): 2 → 3 sets
+- +1 set on Machine Fly (Pec Deck) (Saturday): 2 → 3 sets
 
 ### Monday · A1 - squat + pull
 _Average time: about 85-105 min (an estimate, for information only)_
@@ -3793,9 +3785,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
-2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+2. **Barbell Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 1-2 left in the tank, add weight next time.
-   - Keep this lift at 8-10 reps.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
 3. **Barbell Hip Thrust** — 5 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
@@ -3832,7 +3824,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -3884,7 +3875,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Blue (A): short / high intensity · treadmill** — 17 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
 _Average time: about 85-105 min (an estimate, for information only)_
@@ -3911,8 +3901,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **Bent-Over Barbell Row (Supinated / Yates grip)** — 5 × 12/10/8/8/20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+1. **Bent-Over Barbell Row (Supinated / Yates grip)** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 1-2 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Bent-Over Barbell Row (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row%20(Supinated%20%2F%20Yates%20grip)) · Name to copy into YouTube: `Bent-Over Barbell Row (Supinated / Yates grip)`
 2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
@@ -3984,8 +3975,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
-2. **Flat DB Bench Press - 1-second pause at the bottom** — 5 × 12/10/8/8/20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+2. **Flat DB Bench Press - 1-second pause at the bottom** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 1-2 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
@@ -4017,7 +4009,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -4068,18 +4059,17 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 11 — Hardest weeks
 
-_Week level: 10 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 10 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Front Squat (barbell) (Monday)
-- +1 set on Lying Leg Curl (machine) (Friday)
-- +1 set on Seated DB Lateral Raise (Tuesday)
-- +1 set on Cable Triceps Pushdown - straight bar, pronated grip (Friday)
-- +1 set on Machine Calf Raise (Saturday)
+- +1 set on Front Squat (barbell) (Monday): 4 → 5 sets
+- +1 set on Lying Leg Curl (machine) (Friday): 2 → 3 sets
+- +1 set on Seated DB Lateral Raise (Tuesday): 3 → 4 sets
+- +1 set on Cable Triceps Pushdown - straight bar, pronated grip (Friday): 3 → 4 sets
+- +1 set on Machine Calf Raise (Saturday): 2 → 3 sets
 
 ### Monday · A1 - squat + pull
 _Average time: about 90-110 min (an estimate, for information only)_
@@ -4180,9 +4170,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
-2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+2. **Barbell Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 1-2 left in the tank, add weight next time.
-   - Keep this lift at 8-10 reps.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
 3. **Barbell Hip Thrust** — 5 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
@@ -4219,7 +4209,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -4271,7 +4260,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Blue (A): short / high intensity · treadmill** — 18 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
 _Average time: about 85-105 min (an estimate, for information only)_
@@ -4298,8 +4286,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **Bent-Over Barbell Row (Supinated / Yates grip)** — 5 × 12/10/8/8/20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+1. **Bent-Over Barbell Row (Supinated / Yates grip)** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 1-2 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Bent-Over Barbell Row (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row%20(Supinated%20%2F%20Yates%20grip)) · Name to copy into YouTube: `Bent-Over Barbell Row (Supinated / Yates grip)`
 2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
@@ -4371,8 +4360,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
-2. **Flat DB Bench Press - 1-second pause at the bottom** — 5 × 12/10/8/8/20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+2. **Flat DB Bench Press - 1-second pause at the bottom** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 1-2 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
@@ -4404,7 +4394,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -4455,19 +4444,18 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 12 — Hardest weeks
 
-_Week level: 11 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 11 of 11 (2 = the start, 11 = your hardest week)_
 
 _Last week: one intensifier on each of these days (Monday, Tuesday, Thursday and Friday): a MYO set on the day's last small-muscle or machine exercise_
 
 **What changes this week**
-- +1 set on Machine Row (Close / Neutral Grip) (Wednesday)
-- +1 set on Machine Fly (Pec Deck) (Saturday)
-- +1 set on Incline / Side-Lying Cable Lateral Raise (Saturday)
-- +1 set on Overhead Cable Triceps Extension (Saturday)
+- +1 set on Machine Row (Close / Neutral Grip) (Wednesday): 3 → 4 sets
+- +1 set on Machine Fly (Pec Deck) (Saturday): 3 → 4 sets
+- +1 set on Incline / Side-Lying Cable Lateral Raise (Saturday): 2 → 3 sets
+- +1 set on Overhead Cable Triceps Extension (Saturday): 3 → 4 sets
 
 ### Monday · A1 - squat + pull
 _Average time: about 90-110 min (an estimate, for information only)_
@@ -4567,9 +4555,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
-2. **Barbell Bench Press** — 5 × 12/10/8/8/20 · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+2. **Barbell Bench Press** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 1 left in the tank, add weight next time.
-   - Keep this lift at 8-10 reps.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
 3. **Barbell Hip Thrust** — 5 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
@@ -4606,7 +4594,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -4658,7 +4645,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Blue (A): short / high intensity · treadmill** — 20 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20treadmill)
 
 ### Thursday · A2 - leg press + pull
 _Average time: about 85-105 min (an estimate, for information only)_
@@ -4684,8 +4670,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Strength**
-1. **Bent-Over Barbell Row (Supinated / Yates grip)** — 5 × 12/10/8/8/20 · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+1. **Bent-Over Barbell Row (Supinated / Yates grip)** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 1 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Bent-Over Barbell Row (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20Barbell%20Row%20(Supinated%20%2F%20Yates%20grip)) · Name to copy into YouTube: `Bent-Over Barbell Row (Supinated / Yates grip)`
 2. **Leg Press (machine)** — 4 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
@@ -4757,8 +4744,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Incline / Side-Lying Cable Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses the constant cable tension)
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Side%20Raise%20(leaning)) · Name to copy into YouTube: `Cable Side Raise (leaning)`
-2. **Flat DB Bench Press - 1-second pause at the bottom** — 5 × 12/10/8/8/20 · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+2. **Flat DB Bench Press - 1-second pause at the bottom** — 5 sets: 12, 10, 8, 8, then a light back-off set of 20 · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit the written reps on every set with 1 left in the tank, add weight next time.
+   - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
@@ -4790,7 +4778,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: treadmill, bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20rower)
 
 **Cool-down**
 1. Long walk after your workout: 20-30 min easy
@@ -4841,7 +4828,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: treadmill, rower. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ---
 

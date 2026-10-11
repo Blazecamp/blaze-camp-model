@@ -38,7 +38,8 @@ test('levelText: "Intermediate (L2): 2 years of consistent training" (PRG-05)', 
 test('changesText: words, never percentages (VOL-06)', () => {
   const en = changesText(plan, 3, model, 'en');
   // (v0.5 fixture: the last week adds the sets that take the shoulders and the chest to their final sets, CX-01)
-  assert.deepEqual(en, ['+1 set on ' + model.t('en', model.ex('bent-over-db-reverse-fly').name_key) + ' (Monday)',
+  // (v0.6 words, converted - DECISIONS G-164: a set line says the sets before and after)
+  assert.deepEqual(en.map(s => s.replace(/: \d+ → \d+ sets$/, '')), ['+1 set on ' + model.t('en', model.ex('bent-over-db-reverse-fly').name_key) + ' (Monday)',
     '+1 set on ' + model.t('en', model.ex('cable-fly').name_key) + ' (Thursday)']);
   const withPct = structuredClone(plan);
   withPct.weeks[2].changes.push({ key: 'why.stairway_step', args: { pct: 5, part: 'late' } });
@@ -48,7 +49,7 @@ test('changesText: words, never percentages (VOL-06)', () => {
 });
 
 test('stairText: the week as a stairway level, whole numbers without a decimal (v1.2, review 08 minor 16: never "a 8.0"; B3 RECHECK 02 minor: "Week level", never "Effort level" next to an RIR)', () => {
-  assert.equal(stairText(plan, 1, model, 'en'), 'Week level: 2 of 11 (2 = the start, 11 = a little past your limits)');
+  assert.equal(stairText(plan, 1, model, 'en'), 'Week level: 2 of 11 (2 = the start, 11 = your hardest week)'); // (v0.6 words, converted - DECISIONS G-166: no 'past your limits' next to 'never to failure')
   assert.match(stairText(plan, 2, model, 'en'), /5\.4/);
   assert.match(stairText(plan, 3, model, 'es'), /: 11 de 11 \(/);
   assert.ok(!/ a (8|11)/.test(stairText(plan, 3, model, 'en')));

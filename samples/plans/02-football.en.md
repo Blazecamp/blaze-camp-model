@@ -8,13 +8,13 @@ _Your Blaze Camp plan_
 - **Level:** Advanced (L3): 3 years of consistent training, training 4 days a week now
 - **Plan type:** 12 weeks (recommended) · Week 1-12
 - **Start date:** 11 Jan 2027
-- **Training days per week:** 4 · Monday, Tuesday, Thursday, Friday · about 12 exercises a session (plus the warm-up and the 2 core exercises)
+- **Training days per week:** 4 · Monday, Tuesday, Thursday, Friday · about 8-11 exercises a session (plus the warm-up and the 2 core exercises)
 - Terms and release of liability accepted before this plan was built: client, English
 - Health check: answered; nothing in it asked for a doctor first. [Official PAR-Q+ (in English)](https://eparmedx.com/)
 
 ## Before you start
 
-- Trained through your sport work and compound lifts (no extra sets): Biceps, Triceps.
+- Trained through your compound lifts (no extra sets of their own): Biceps, Triceps.
 - Two-leg lifts are about 53 % of your lower-body lifting sets (your sport's guide is about 30 %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.
 
 ## Basic Instruction
@@ -42,7 +42,7 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 
 ## How you progress
 
-- Reps and weight follow a rule you apply yourself, not a number this plan promises. Every lift shows a rep range. Example from your plan: Front Squat (barbell), 2 sets of 8-10. When you hit 10 on every set with the planned reps left in the tank and good form, add weight next time and start again at 8. Not there yet? Keep the weight and add a rep where you can.
+- Reps and weight follow a rule you apply yourself, not a number this plan promises. Every lift shows a rep range. Example from your plan: Front Squat (barbell), 3 sets of 8-10. When you hit 10 on every set with the planned reps left in the tank and good form, add weight next time and start again at 8. Not there yet? Keep the weight and add a rep where you can.
 - Sets follow the stairway: the plan adds sets week by week until each muscle group reaches its final sets in the last week (see the week-by-week table). In a week with the same sets as the week before, you progress with reps or weight.
 - Your next block starts a little above where this one started (about 5 % more sets, in whole sets), never above the top number for your level. At the top, the sets stay and you progress with weight and reps.
 - This plan is a template you can edit: change the sets of any exercise on any day or week, add or remove exercises, and switch blocks off.
@@ -100,17 +100,17 @@ Test days (mark your calendar; the plan sends no reminders): week 1: Monday 11 J
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts)._
+_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts). Numbers are rounded to whole sets._
 
 |  | Week 1 | Week 6 | Week 12 |
 |---|---|---|---|
 | Quads | 14 | 15 | 18 |
-| Hips (glutes + hamstrings) | 14.5 | 15.75 | 18 |
+| Hips (glutes + hamstrings) | 15 | 16 | 18 |
 | Back | 10 | 11 | 13 |
 | Chest | 10 | 11 | 13 |
-| Shoulders | 10 | 11.25 | 13 |
-| Biceps | - (2.5) | - (2.75) | - (3.25) |
-| Triceps | - (3) | - (3.25) | - (4) |
+| Shoulders | 10 | 11 | 13 |
+| Biceps | - (3) | - (3) | - (3) |
+| Triceps | - (3) | - (3) | - (4) |
 | Calves | 12 | 12 | 12 |
 | **Total** | **64** | **69** | **79** |
 
@@ -125,23 +125,23 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Friday | B2 - deadlift + push | about 90-110 min | Hips (glutes + hamstrings) 3, Chest 1, Shoulders 2, Calves 1 |
 | Saturday | Optional day | about 30-35 min | – |
 
-## Block · Training block · Week 1-12
+## Training block, week by week · Week 1-12
 
 **Level:** 2.0 · 2.6 · 3.2 · 3.8 · 4.4 · 5.0 · 6.0 · 7.0 · 8.0 · 9.0 · 10.0 · 11.0
 
 ### Weekly sets per muscle group, week by week · Week 1-12
 
-_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). "Final sets" is where the stairway is planned to end._
+_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). "Final sets" is where the stairway is planned to end. Numbers are rounded to whole sets._
 
 | Muscle group | Sets each week (weeks 1-12) | Final sets |
 |---|---|---|
 | Quads | 14 15 15 15 · 15 15 16 16 · 16 17 18 18 | 18 |
-| Hips (glutes + hamstrings) | 14.5 14.75 15.75 15.75 · 15.75 15.75 16 16 · 16 17 18 18 | 18 |
+| Hips (glutes + hamstrings) | 15 15 16 16 · 16 16 16 16 · 16 17 18 18 | 18 |
 | Back | 10 10 10 11 · 11 11 11 12 · 12 12 13 13 | 13 |
 | Chest | 10 10 10 10 · 11 11 11 11 · 12 12 13 13 | 13 |
-| Shoulders | 10 10 10 10 · 10.25 11.25 11.25 11.25 · 12.5 12.5 13 13 | 13 |
-| Biceps | 2.5 2.5 2.5 2.75 · 2.75 2.75 2.75 3 · 3 3 3.25 3.25 | no exercise of its own |
-| Triceps | 3 3 3 3 · 3.25 3.25 3.25 3.25 · 3.75 3.75 4 4 | no exercise of its own |
+| Shoulders | 10 10 10 10 · 10 11 11 11 · 13 13 13 13 | 13 |
+| Biceps | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | no exercise of its own |
+| Triceps | 3 3 3 3 · 3 3 3 3 · 4 4 4 4 | no exercise of its own |
 | Calves | 12 12 12 12 · 12 12 12 12 · 12 12 12 12 | 12 |
 | **Total** | 64 65 66 67 · 68 69 70 71 · 73 75 79 79 | 79 |
 
@@ -152,7 +152,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-40 s → 25-45 s → 30-50 s |
 | Bird Dogs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Acceleration Starts | 3 3 3 3 · 3 3 3 3 · 3 3 3 2 | 5 x 10 m → 4 x 15 m → 3 x 20 m |
-| Low Box Jump (Half-Shin Height) → Depth Jump → Single-Leg Forward Hurdle Hops | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 7 contacts → 6 contacts → 5 contacts |
+| Low Box Jump (Half-Shin Height) → Depth Jump → Single-Leg Forward Hurdle Hops | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 7 contacts → 6 contacts → 5 contacts per leg |
 | Medball Chest Pass → Medball Sit-Up to Chest Pass → Step-Forward Medball Chest Pass (R & L leg) | 3 3 3 3 · 3 3 3 3 · 3 3 3 2 | 9 Reps → 9 per side |
 | Lateral Shuffles → Dig / Out Route → Comeback / Curl Route | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 cuts → 10 cuts |
 | Power Clean & Jerk | 2 2 3 3 · 3 3 3 3 · 3 3 3 2 | 3 to 5 Reps |
@@ -170,7 +170,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Side Plank (elbow) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-40 s → 25-45 s → 30-50 s |
 | Dead Bugs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
-| Mid Box Jump (Knee Height) → Hurdle Hops (tall hurdles, continuous quick-contact reps) → Single-Leg Plate Hops | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 7 contacts → 9 contacts → 5 contacts |
+| Mid Box Jump (Knee Height) → Hurdle Hops (tall hurdles, continuous quick-contact reps) → Single-Leg Plate Hops | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 7 contacts → 9 contacts → 5 contacts per leg |
 | Ankle Hops (bilateral, in place) → Bilateral Backward Ankle Hops → Bilateral Lateral Ankle Hops | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 16 contacts → 20 contacts |
 | Flat Route → Post / Corner Route → 5-10-5 Pro-Agility Shuttle | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 cuts → 10 cuts → 5 Reps |
 | Power Snatch | 2 2 2 2 · 3 3 3 3 · 3 3 3 2 | 3 to 5 Reps |
@@ -195,7 +195,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-40 s → 25-45 s → 30-50 s |
 | Copenhagen Plank | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-40 s → 25-45 s → 30-50 s |
 | Falling-Start Accelerations | – 3 3 3 · 3 3 3 3 · 3 3 3 – | 5 x 10 m → 4 x 15 m → 3 x 20 m |
-| Medium Depth Drop → Single-Leg Broad Jump → DB Repeated Squat Jumps | – 3 3 3 · 3 3 3 3 · 3 3 3 – | 7 contacts → 5 contacts → 8 contacts |
+| Medium Depth Drop → Single-Leg Broad Jump → DB Repeated Squat Jumps | – 3 3 3 · 3 3 3 3 · 3 3 3 – | 7 contacts → 5 contacts per leg → 8 contacts |
 | Rotational Medball Chest Pass (R & L) → Medball Rotational Downward Slam → Medball Rotational Side-to-Side Floor Slams | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 6 per side → 9 per side → 8 per side |
 | Power Clean | 2 2 2 2 · 2 2 2 3 · 3 3 3 2 | 3 to 5 Reps |
 | Seal Row - DB (Pronated Grip) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 10 to 12 Reps → 8 to 12 Reps → 8-10 Reps |
@@ -212,7 +212,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Bird Dogs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Dead Bugs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
-| Low Depth Drop → Squat Jump (high, bodyweight or lightly loaded) → Single-Leg Broad Jump | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 7 contacts → 8 contacts → 5 contacts |
+| Low Depth Drop → Squat Jump (high, bodyweight or lightly loaded) → Single-Leg Broad Jump | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 7 contacts → 8 contacts → 5 contacts per leg |
 | Bilateral Forward/Backward Ankle Hops → Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) → Bilateral Zig-Zag Ankle Hops | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 contacts → 19 contacts |
 | Slant Route → L-Test / L-Drill (3-Cone) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 cuts → 3 Reps → 4 Reps |
 | Low-Hang Snatch Pull | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 8 Reps → 6 Reps |
@@ -233,7 +233,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 ## Week 1 — Getting used to it (small steps)
 
-_Week level: 2 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 
 **Baseline test this week (before you load up)** (Strength, Speed / agility, Jumps)
 
@@ -433,7 +433,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Aerobic**
 1. **Orange (C): long / easy · run** — 30 min · steady pace: you can still talk
    - Or use another of your cardio tools: bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Wednesday · Optional day
 _Average time: about 25-30 min (an estimate, for information only)_
@@ -452,7 +451,6 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Blue (A): short / high intensity · run** — 15 min · 30 s run / 30 s walk, repeat
    - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20run)
 
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 90-110 min (an estimate, for information only)_
@@ -660,14 +658,13 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 2 — Getting used to it (small steps)
 
-_Week level: 2.6 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 2.6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Side (Lateral) Lunge (Monday)
+- +1 set on Side (Lateral) Lunge (Monday): 2 → 3 sets
 
 **Athletic work this week:** 84 jump contacts · 68 ankle-hop contacts · 63 throws · 81 direction changes · 300 m of sprints · 8 Olympic-lift sets · Plyo share 32% · Receive-Create 1: Land
 
@@ -848,7 +845,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Aerobic**
 1. **Orange (C): long / easy · run** — 33 min · steady pace: you can still talk
    - Or use another of your cardio tools: bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Wednesday · Optional day
 _Average time: about 25-30 min (an estimate, for information only)_
@@ -867,7 +863,6 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Blue (A): short / high intensity · run** — 17 min · 30 s run / 30 s walk, repeat
    - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20run)
 
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 85-105 min (an estimate, for information only)_
@@ -1065,14 +1060,13 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 3 — Driving it
 
-_Week level: 3.2 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 3.2 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on 45-Degree Hyperextension (back/hip extension) (Tuesday)
+- +1 set on 45-Degree Hyperextension (back/hip extension) (Tuesday): 2 → 3 sets
 
 **Athletic work this week:** 90 jump contacts · 70 ankle-hop contacts · 69 throws · 84 direction changes · 300 m of sprints · 9 Olympic-lift sets · Plyo share 31% · Receive-Create 1: Land
 
@@ -1253,7 +1247,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Aerobic**
 1. **Orange (C): long / easy · run** — 37 min · steady pace: you can still talk
    - Or use another of your cardio tools: bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Wednesday · Optional day
 _Average time: about 25-30 min (an estimate, for information only)_
@@ -1272,7 +1265,6 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Blue (A): short / high intensity · run** — 18 min · 30 s run / 30 s walk, repeat
    - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20run)
 
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 85-105 min (an estimate, for information only)_
@@ -1470,14 +1462,13 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 4 — Driving it
 
-_Week level: 3.8 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 3.8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Chin-Up (supinated) (Monday)
+- +1 set on Chin-Up (supinated) (Monday): 2 → 3 sets
 
 **Athletic work this week:** 93 jump contacts · 70 ankle-hop contacts · 75 throws · 87 direction changes · 315 m of sprints · 9 Olympic-lift sets · Plyo share 29% · Receive-Create 1: Land
 
@@ -1658,7 +1649,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Aerobic**
 1. **Orange (C): long / easy · run** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Wednesday · Optional day
 _Average time: about 25-30 min (an estimate, for information only)_
@@ -1677,7 +1667,6 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Blue (A): short / high intensity · run** — 20 min · 30 s run / 30 s walk, repeat
    - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20run)
 
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 85-105 min (an estimate, for information only)_
@@ -1875,16 +1864,19 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 5 — Driving it
 
-_Week level: 4.4 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 4.4 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - New exercise block: 19 exercises change a little (another version or one new detail); the rest stay
+- Monday: Low Box Jump (Half-Shin Height) → Depth Jump; Medball Chest Pass → Medball Sit-Up to Chest Pass; Lateral Shuffles → Dig / Out Route; Chin-Up (supinated) → Strict Pull-Up (Knees to Chest / tuck); Calorie Effort: 20 cal (bike / rower / ski) → Calorie Effort: 15 cal (bike / rower / ski)
+- Tuesday: Mid Box Jump (Knee Height) → Hurdle Hops (tall hurdles, continuous quick-contact reps); Ankle Hops (bilateral, in place) → Bilateral Backward Ankle Hops; Flat Route → Post / Corner Route; DB Lateral (Side) Raise → Seated DB Lateral Raise
+- Thursday: Medium Depth Drop → Single-Leg Broad Jump; Rotational Medball Chest Pass (R & L) → Medball Rotational Downward Slam; Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top; Calorie Effort: 20 cal (bike / rower / ski) → Calorie Effort: 15 cal (bike / rower / ski)
+- Friday: Low Depth Drop → Squat Jump (high, bodyweight or lightly loaded); Bilateral Forward/Backward Ankle Hops → Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward); Slant Route → L-Test / L-Drill (3-Cone); Alternating Staggered-Stance Single-Leg Deadlift (DB) → Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee; Bent-Over DB Reverse Fly → Seated (Chest-to-Thighs) DB Reverse Fly; Calorie Effort: 20 cal (bike / rower / ski) → Calorie Effort: 15 cal (bike / rower / ski)
 - Jumps move to Receive-Create 2: Land & Go
-- +1 set on Barbell Bench Press (Tuesday)
+- +1 set on Barbell Bench Press (Tuesday): 3 → 4 sets
 
 **Athletic work this week:** 99 jump contacts · 70 ankle-hop contacts · 81 throws · 87 direction changes · 360 m of sprints · 10 Olympic-lift sets · Plyo share 46% · Receive-Create 2: Land & Go
 
@@ -2063,7 +2055,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Aerobic**
 1. **Orange (C): long / easy · run** — 30 min · steady pace: you can still talk
    - Or use another of your cardio tools: bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Wednesday · Optional day
 _Average time: about 25-30 min (an estimate, for information only)_
@@ -2082,7 +2073,6 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Blue (A): short / high intensity · run** — 15 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20run)
 
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 90-110 min (an estimate, for information only)_
@@ -2112,7 +2102,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 1. **Falling-Start Accelerations** — 3 × 4 x 15 m · max intent; stop when quality drops · full recovery between sets
    - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Max-Velocity Sprint (Top Speed) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
-2. **Single-Leg Broad Jump** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Single-Leg Broad Jump** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
    - per side = 1 set
    - Swap for: Broad Jump (keeps the jump; loses the one-side-at-a-time work) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work) / Hex-Bar Jump Squat (keeps the jump; loses the one-side-at-a-time work) / Mid Box Jump (Knee Height) (keeps the jump; loses the one-side-at-a-time work)
@@ -2274,14 +2264,13 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 6 — Driving it
 
-_Week level: 5 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 5 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Seated DB Lateral Raise (Tuesday)
+- +1 set on Seated DB Lateral Raise (Tuesday): 2 → 3 sets
 
 **Athletic work this week:** 102 jump contacts · 72 ankle-hop contacts · 87 throws · 90 direction changes · 360 m of sprints · 10 Olympic-lift sets · Plyo share 46% · Receive-Create 2: Land & Go
 
@@ -2460,7 +2449,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Aerobic**
 1. **Orange (C): long / easy · run** — 33 min · steady pace: you can still talk
    - Or use another of your cardio tools: bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Wednesday · Optional day
 _Average time: about 25-30 min (an estimate, for information only)_
@@ -2479,7 +2467,6 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Blue (A): short / high intensity · run** — 17 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20run)
 
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 90-110 min (an estimate, for information only)_
@@ -2509,7 +2496,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 1. **Falling-Start Accelerations** — 3 × 4 x 15 m · max intent; stop when quality drops · full recovery between sets
    - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Max-Velocity Sprint (Top Speed) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
-2. **Single-Leg Broad Jump** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Single-Leg Broad Jump** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
    - per side = 1 set
    - Swap for: Broad Jump (keeps the jump; loses the one-side-at-a-time work) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work) / Hex-Bar Jump Squat (keeps the jump; loses the one-side-at-a-time work) / Mid Box Jump (Knee Height) (keeps the jump; loses the one-side-at-a-time work)
@@ -2671,14 +2658,13 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 7 — Driving it
 
-_Week level: 6 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (Thursday)
+- +1 set on Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (Thursday): 2 → 3 sets
 
 **Athletic work this week:** 102 jump contacts · 76 ankle-hop contacts · 90 throws · 90 direction changes · 360 m of sprints · 10 Olympic-lift sets · Plyo share 46% · Receive-Create 2: Land & Go
 
@@ -2857,7 +2843,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Aerobic**
 1. **Orange (C): long / easy · run** — 37 min · steady pace: you can still talk
    - Or use another of your cardio tools: bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Wednesday · Optional day
 _Average time: about 25-30 min (an estimate, for information only)_
@@ -2876,7 +2861,6 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Blue (A): short / high intensity · run** — 18 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20run)
 
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 95-115 min (an estimate, for information only)_
@@ -2906,7 +2890,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 1. **Falling-Start Accelerations** — 3 × 4 x 15 m · max intent; stop when quality drops · full recovery between sets
    - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Max-Velocity Sprint (Top Speed) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
-2. **Single-Leg Broad Jump** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Single-Leg Broad Jump** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
    - per side = 1 set
    - Swap for: Broad Jump (keeps the jump; loses the one-side-at-a-time work) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work) / Hex-Bar Jump Squat (keeps the jump; loses the one-side-at-a-time work) / Mid Box Jump (Knee Height) (keeps the jump; loses the one-side-at-a-time work)
@@ -3068,14 +3052,13 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 8 — Driving it
 
-_Week level: 7 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 7 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Single-Arm Lat Pulldown (Thursday)
+- +1 set on Single-Arm Lat Pulldown (Thursday): 2 → 3 sets
 
 **Athletic work this week:** 102 jump contacts · 76 ankle-hop contacts · 90 throws · 93 direction changes · 360 m of sprints · 11 Olympic-lift sets · Plyo share 46% · Receive-Create 2: Land & Go
 
@@ -3254,7 +3237,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Aerobic**
 1. **Orange (C): long / easy · run** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Wednesday · Optional day
 _Average time: about 25-30 min (an estimate, for information only)_
@@ -3273,7 +3255,6 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Blue (A): short / high intensity · run** — 20 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20run)
 
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 100-120 min (an estimate, for information only)_
@@ -3303,7 +3284,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 1. **Falling-Start Accelerations** — 3 × 4 x 15 m · max intent; stop when quality drops · full recovery between sets
    - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Max-Velocity Sprint (Top Speed) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
-2. **Single-Leg Broad Jump** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Single-Leg Broad Jump** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
    - per side = 1 set
    - Swap for: Broad Jump (keeps the jump; loses the one-side-at-a-time work) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work) / Hex-Bar Jump Squat (keeps the jump; loses the one-side-at-a-time work) / Mid Box Jump (Knee Height) (keeps the jump; loses the one-side-at-a-time work)
@@ -3465,17 +3446,20 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 9 — Hardest weeks
 
-_Week level: 8 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - New exercise block: 18 exercises change a little (another version or one new detail); the rest stay
+- Monday: Depth Jump → Single-Leg Forward Hurdle Hops; Medball Sit-Up to Chest Pass → Step-Forward Medball Chest Pass (R & L leg); Dig / Out Route → Comeback / Curl Route; Strict Pull-Up (Knees to Chest / tuck) → Wide-Grip Pull-Up; Calorie Effort: 15 cal (bike / rower / ski) → Calorie Effort: 10 cal (bike / rower / ski)
+- Tuesday: Hurdle Hops (tall hurdles, continuous quick-contact reps) → Single-Leg Plate Hops; Bilateral Backward Ankle Hops → Bilateral Lateral Ankle Hops; Post / Corner Route → 5-10-5 Pro-Agility Shuttle; Machine Calf Raise → Machine Calf Raise - from a step (full stretch at the bottom)
+- Thursday: Single-Leg Broad Jump → DB Repeated Squat Jumps; Medball Rotational Downward Slam → Medball Rotational Side-to-Side Floor Slams; Leg Extension (machine) - one leg at a time → Leg Extension (machine) - 1-second squeeze at the top; Calorie Effort: 15 cal (bike / rower / ski) → Calorie Effort: 10 cal (bike / rower / ski)
+- Friday: Squat Jump (high, bodyweight or lightly loaded) → Single-Leg Broad Jump; Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) → Bilateral Zig-Zag Ankle Hops; Alternating DB Overhead Press → Seesaw DB Press (alternating, one up / one down); Lying Leg Curl (machine) → Seated Leg Curl (machine); Calorie Effort: 15 cal (bike / rower / ski) → Calorie Effort: 10 cal (bike / rower / ski)
 - Jumps move to Receive-Create 3: Repeat
-- +1 set on Alternating Incline DB Bench Press (one up / one down) (Tuesday)
-- +1 set on Seesaw DB Press (alternating, one up / one down) (Friday)
+- +1 set on Alternating Incline DB Bench Press (one up / one down) (Tuesday): 3 → 4 sets
+- +1 set on Seesaw DB Press (alternating, one up / one down) (Friday): 2 → 3 sets
 
 **Athletic work this week:** 114 jump contacts · 78 ankle-hop contacts · 102 throws · 96 direction changes · 360 m of sprints · 11 Olympic-lift sets · Plyo share 47% · Receive-Create 3: Repeat
 
@@ -3507,7 +3491,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 1. **Acceleration Starts** — 3 × 3 x 20 m · max intent; stop when quality drops · full recovery between sets
    - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Max-Velocity Sprint (Top Speed) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Acceleration%20Starts) · Name to copy into YouTube: `Acceleration Starts`
-2. **Single-Leg Forward Hurdle Hops** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Single-Leg Forward Hurdle Hops** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
    - per side = 1 set
    - Swap for: Bulgarian (Rear-Foot-Elevated) Split Jumps (keeps the jump; loses the easier set-up - this one is harder) / Single-Leg Squirrel Jumps (keeps the jump; loses the easier set-up - this one is harder) / Bounding (keeps the jump; loses the easier set-up - this one is harder) / Single-Leg Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
@@ -3593,7 +3577,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
-1. **Single-Leg Plate Hops** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Plate Hops** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
    - per side = 1 set
    - Swap for: Tuck Jumps (keeps the jump; loses the one-side-at-a-time work) / Squirrel Jumps (keeps the jump; loses the one-side-at-a-time work) / Bulgarian (Rear-Foot-Elevated) Split Jumps (keeps the jump; loses the easier set-up - this one is harder) / Single-Leg Squirrel Jumps (keeps the jump; loses the easier set-up - this one is harder)
@@ -3655,7 +3639,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Aerobic**
 1. **Orange (C): long / easy · run** — 30 min · steady pace: you can still talk
    - Or use another of your cardio tools: bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Wednesday · Optional day
 _Average time: about 25-30 min (an estimate, for information only)_
@@ -3674,7 +3657,6 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Blue (A): short / high intensity · run** — 15 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20run)
 
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 110-135 min (an estimate, for information only)_
@@ -3789,7 +3771,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Broad Jump** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: do the set in runs of 2-3 big jumps in a row (for 7 jumps: 3 + 2 + 2), resetting your arms between runs; full effort on every jump
    - per side = 1 set
    - Swap for: Broad Jump (keeps the jump; loses the one-side-at-a-time work) / DB Repeated Squat Jumps (keeps the jump; loses the one-side-at-a-time work) / Hex-Bar Jump Squat (keeps the jump; loses the one-side-at-a-time work) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
@@ -3870,15 +3852,14 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 10 — Hardest weeks
 
-_Week level: 9 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Leg Extension (machine) (Monday)
-- +1 set on Stiff-Leg Deadlift / RDL (Friday)
+- +1 set on Leg Extension (machine) (Monday): 2 → 3 sets
+- +1 set on Stiff-Leg Deadlift / RDL (Friday): 2 → 3 sets
 
 **Athletic work this week:** 120 jump contacts · 84 ankle-hop contacts · 108 throws · 99 direction changes · 420 m of sprints · 12 Olympic-lift sets · Plyo share 48% · Receive-Create 3: Repeat
 
@@ -3910,7 +3891,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 1. **Acceleration Starts** — 3 × 4 x 20 m · max intent; stop when quality drops · full recovery between sets
    - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Max-Velocity Sprint (Top Speed) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Acceleration%20Starts) · Name to copy into YouTube: `Acceleration Starts`
-2. **Single-Leg Forward Hurdle Hops** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Single-Leg Forward Hurdle Hops** — 3 × 6 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
    - per side = 1 set
    - Swap for: Bulgarian (Rear-Foot-Elevated) Split Jumps (keeps the jump; loses the easier set-up - this one is harder) / Single-Leg Squirrel Jumps (keeps the jump; loses the easier set-up - this one is harder) / Bounding (keeps the jump; loses the easier set-up - this one is harder) / Single-Leg Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
@@ -3996,7 +3977,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
-1. **Single-Leg Plate Hops** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Plate Hops** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
    - per side = 1 set
    - Swap for: Tuck Jumps (keeps the jump; loses the one-side-at-a-time work) / Squirrel Jumps (keeps the jump; loses the one-side-at-a-time work) / Bulgarian (Rear-Foot-Elevated) Split Jumps (keeps the jump; loses the easier set-up - this one is harder) / Single-Leg Squirrel Jumps (keeps the jump; loses the easier set-up - this one is harder)
@@ -4058,7 +4039,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Aerobic**
 1. **Orange (C): long / easy · run** — 33 min · steady pace: you can still talk
    - Or use another of your cardio tools: bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Wednesday · Optional day
 _Average time: about 25-30 min (an estimate, for information only)_
@@ -4077,7 +4057,6 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Blue (A): short / high intensity · run** — 17 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20run)
 
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 110-135 min (an estimate, for information only)_
@@ -4192,7 +4171,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Broad Jump** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: do the set in runs of 2-3 big jumps in a row (for 7 jumps: 3 + 2 + 2), resetting your arms between runs; full effort on every jump
    - per side = 1 set
    - Swap for: Broad Jump (keeps the jump; loses the one-side-at-a-time work) / DB Repeated Squat Jumps (keeps the jump; loses the one-side-at-a-time work) / Hex-Bar Jump Squat (keeps the jump; loses the one-side-at-a-time work) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
@@ -4273,17 +4252,16 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 11 — Hardest weeks
 
-_Week level: 10 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 10 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Leg Extension (machine) (Thursday)
-- +1 set on Staggered-Stance (Kickstand) DB Deadlift (Tuesday)
-- +1 set on Seal Row - Barbell (Supinated Grip) (Monday)
-- +1 set on Flat DB Bench Press (Friday)
+- +1 set on Leg Extension (machine) (Thursday): 2 → 3 sets
+- +1 set on Staggered-Stance (Kickstand) DB Deadlift (Tuesday): 2 → 3 sets
+- +1 set on Seal Row - Barbell (Supinated Grip) (Monday): 3 → 4 sets
+- +1 set on Flat DB Bench Press (Friday): 4 → 5 sets
 
 **Athletic work this week:** 126 jump contacts · 90 ankle-hop contacts · 108 throws · 99 direction changes · 420 m of sprints · 12 Olympic-lift sets · Plyo share 50% · Receive-Create 3: Repeat
 
@@ -4315,7 +4293,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 1. **Acceleration Starts** — 3 × 4 x 20 m · max intent; stop when quality drops · full recovery between sets
    - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Max-Velocity Sprint (Top Speed) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Acceleration%20Starts) · Name to copy into YouTube: `Acceleration Starts`
-2. **Single-Leg Forward Hurdle Hops** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Single-Leg Forward Hurdle Hops** — 3 × 6 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
    - per side = 1 set
    - Swap for: Bulgarian (Rear-Foot-Elevated) Split Jumps (keeps the jump; loses the easier set-up - this one is harder) / Single-Leg Squirrel Jumps (keeps the jump; loses the easier set-up - this one is harder) / Bounding (keeps the jump; loses the easier set-up - this one is harder) / Single-Leg Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
@@ -4401,7 +4379,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
-1. **Single-Leg Plate Hops** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Plate Hops** — 3 × 6 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
    - per side = 1 set
    - Swap for: Tuck Jumps (keeps the jump; loses the one-side-at-a-time work) / Squirrel Jumps (keeps the jump; loses the one-side-at-a-time work) / Bulgarian (Rear-Foot-Elevated) Split Jumps (keeps the jump; loses the easier set-up - this one is harder) / Single-Leg Squirrel Jumps (keeps the jump; loses the easier set-up - this one is harder)
@@ -4463,7 +4441,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Aerobic**
 1. **Orange (C): long / easy · run** — 37 min · steady pace: you can still talk
    - Or use another of your cardio tools: bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Wednesday · Optional day
 _Average time: about 25-30 min (an estimate, for information only)_
@@ -4482,7 +4459,6 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Blue (A): short / high intensity · run** — 18 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20run)
 
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 115-140 min (an estimate, for information only)_
@@ -4597,7 +4573,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Broad Jump** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: do the set in runs of 2-3 big jumps in a row (for 7 jumps: 3 + 2 + 2), resetting your arms between runs; full effort on every jump
    - per side = 1 set
    - Swap for: Broad Jump (keeps the jump; loses the one-side-at-a-time work) / DB Repeated Squat Jumps (keeps the jump; loses the one-side-at-a-time work) / Hex-Bar Jump Squat (keeps the jump; loses the one-side-at-a-time work) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
@@ -4678,18 +4654,17 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ## Week 12 — Hardest weeks
 
-_Week level: 11 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 11 of 11 (2 = the start, 11 = your hardest week)_
 
 **End test this week: on the tested lifts, work up to one top set - it replaces that lift's top set - then do its back-off sets** (Strength, Speed / agility, Jumps)
 
 _Last week: one intensifier on each of these days (Monday, Tuesday, Thursday and Friday): a MYO set on the day's last small-muscle or machine exercise_
 
 **What changes this week**
-- Same sets: add a little load or reps this week
+- Same sets: on a tested lift the test takes the place of the top set; on the other lifts add a little load or reps
 
 **Athletic work this week:** 66 jump contacts · 78 ankle-hop contacts · 56 throws · 78 direction changes · 120 m of sprints · 9 Olympic-lift sets · Plyo share 57% · Receive-Create 3: Repeat
 
@@ -4720,7 +4695,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 1. **Acceleration Starts** — 2 × 3 x 20 m · max intent; stop when quality drops · full recovery between sets
    - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Max-Velocity Sprint (Top Speed) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Acceleration%20Starts) · Name to copy into YouTube: `Acceleration Starts`
-2. **Single-Leg Forward Hurdle Hops** — 3 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Single-Leg Forward Hurdle Hops** — 3 × 3 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
    - per side = 1 set
    - Swap for: Bulgarian (Rear-Foot-Elevated) Split Jumps (keeps the jump; loses the easier set-up - this one is harder) / Single-Leg Squirrel Jumps (keeps the jump; loses the easier set-up - this one is harder) / Bounding (keeps the jump; loses the easier set-up - this one is harder) / Single-Leg Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
@@ -4810,7 +4785,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
-1. **Single-Leg Plate Hops** — 3 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Plate Hops** — 3 × 3 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
    - per side = 1 set
    - Swap for: Tuck Jumps (keeps the jump; loses the one-side-at-a-time work) / Squirrel Jumps (keeps the jump; loses the one-side-at-a-time work) / Bulgarian (Rear-Foot-Elevated) Split Jumps (keeps the jump; loses the easier set-up - this one is harder) / Single-Leg Squirrel Jumps (keeps the jump; loses the easier set-up - this one is harder)
@@ -4877,7 +4852,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Aerobic**
 1. **Orange (C): long / easy · run** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: bike. Go by time, not distance.
-   - [Watch how](https://www.youtube.com/results?search_query=Orange%20(C)%3A%20long%20%2F%20easy%20%C2%B7%20run)
 
 ### Wednesday · Optional day
 _Average time: about 25-30 min (an estimate, for information only)_
@@ -4896,7 +4870,6 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Blue (A): short / high intensity · run** — 20 min · 40 s run / 20 s walk, repeat
    - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Blue%20(A)%3A%20short%20%2F%20high%20intensity%20%C2%B7%20run)
 
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 110-135 min (an estimate, for information only)_
@@ -5011,7 +4984,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Broad Jump** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: do the set in runs of 2-3 big jumps in a row (for 7 jumps: 3 + 2 + 2), resetting your arms between runs; full effort on every jump
    - per side = 1 set
    - Swap for: Broad Jump (keeps the jump; loses the one-side-at-a-time work) / DB Repeated Squat Jumps (keeps the jump; loses the one-side-at-a-time work) / Hex-Bar Jump Squat (keeps the jump; loses the one-side-at-a-time work) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
@@ -5092,7 +5065,6 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
    - Or use another of your cardio tools: run. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
-   - [Watch how](https://www.youtube.com/results?search_query=Green%20(B)%3A%20moderate%20%C2%B7%20bike)
 
 ---
 

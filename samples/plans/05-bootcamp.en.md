@@ -15,7 +15,7 @@ _Your Blaze Camp plan_
 ## Before you start
 
 - Week 7 jumps more than usual (25 % more sets in total): adjust if needed.
-- Optional upgrade: pull-up bar, suspension trainer (TRX) would add more exercise options; the plan already uses what you have.
+- Optional upgrade: pull-up bar or suspension trainer (TRX) would add more exercise options; the plan already uses what you have.
 - With this equipment the plan has no vertical pull (pull-up or pulldown): its place is taken by a row or a rear-delt fly. A pull-up bar, a cable or a TRX would add it.
 
 ## Basic Instruction
@@ -39,7 +39,7 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 
 ## How you progress
 
-- Circuits: the rounds stay and the work time per station climbs week by week. Add a little weight only when you finish a station with more reps left in the tank than planned.
+- Circuits: 4 rounds, then 5 from week 7; the work time per station goes from 35 s to 50 s, a step every 2 weeks. Add a little weight only when you finish a station with more reps left in the tank than planned.
 - Week 7 adds more than usual (over about 15 % more sets for a muscle group, or in total). It is marked ↑: adjust if needed.
 - This plan is a template you can edit: change the sets of any exercise on any day or week, add or remove exercises, and switch blocks off.
 
@@ -92,21 +92,21 @@ After this plan: you choose: next block (an easy week first is recommended, not 
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts)._
+_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts). Numbers are rounded to whole sets._
 
 |  | Week 1 | Week 4 | Week 8 |
 |---|---|---|---|
 | Quads | 12 | 12 | 15 |
-| Hips (glutes + hamstrings) | 11 | 11 | 13.75 |
+| Hips (glutes + hamstrings) | 11 | 11 | 14 |
 | Back | 12 | 12 | 15 |
 | Chest | 12 | 12 | 15 |
-| Shoulders | 18 | 18 | 22.5 |
-| Biceps | 11 | 11 | 13.75 |
+| Shoulders | 18 | 18 | 23 |
+| Biceps | 11 | 11 | 14 |
 | Triceps | 12 | 12 | 15 |
 | **Total** | **72** | **72** | **90** |
 | Work per station | 35 s | 40 s | 50 s |
 
-_Your circuit sets stay the same; the work time per station climbs every week._
+_Circuit sets = rounds x stations: 4 rounds, then 5 from week 7. The work time per station climbs a step every 2 weeks._
 
 ### Week 1 at a glance
 
@@ -119,22 +119,22 @@ _Your circuit sets stay the same; the work time per station climbs every week._
 | Friday | Bootcamp 3 - single-leg squat + pulls + arms | about 40-50 min | Quads 1, Back 2, Chest 1, Shoulders 1, Triceps 1 |
 | Saturday | Aerobic day | about 20-25 min | – |
 
-## Block · Training block · Week 1-8
+## Training block, week by week · Week 1-8
 
 **Level:** 2.0 · 2.9 · 3.9 · 4.8 · 6.3 · 7.9 · 9.4 · 11.0
 
 ### Weekly sets per muscle group, week by week · Week 1-8
 
-_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks)._
+_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). Numbers are rounded to whole sets._
 
 | Muscle group | Sets each week (weeks 1-8) |
 |---|---|
 | Quads | 12 12 12 12 · 12 12 15 15 |
-| Hips (glutes + hamstrings) | 11 11 11 11 · 11 11 13.75 13.75 |
+| Hips (glutes + hamstrings) | 11 11 11 11 · 11 11 14 14 |
 | Back | 12 12 12 12 · 12 12 15 15 |
 | Chest | 12 12 12 12 · 12 12 15 15 |
-| Shoulders | 18 18 18 18 · 18 18 22.5 22.5 |
-| Biceps | 11 11 11 11 · 11 11 13.75 13.75 |
+| Shoulders | 18 18 18 18 · 18 18 23 23 |
+| Biceps | 11 11 11 11 · 11 11 14 14 |
 | Triceps | 12 12 12 12 · 12 12 15 15 |
 | **Total** | 72 72 72 72 · 72 72 90 90 |
 
@@ -144,13 +144,13 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s |
 | Copenhagen Plank | 2 2 2 2 · 2 2 2 2 | 10-30 s |
-| Kettlebell Swing (Russian) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Box Goblet Squat (touch-and-go) → High-Zercher DB Squat (DB hugged high at chest) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Chest-Supported Row | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Rear-Foot-on-Wall DB Deadlift (RDL) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Bent-Over DB Reverse Fly | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Step-Up (forward and lateral) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Dumbbell Hammer Curl → Zottman Curl (supinated up, pronated down) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Kettlebell Swing (Russian) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Box Goblet Squat (touch-and-go) → High-Zercher DB Squat (DB hugged high at chest) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Chest-Supported Row | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Rear-Foot-on-Wall DB Deadlift (RDL) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Bent-Over DB Reverse Fly | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Step-Up (forward and lateral) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Dumbbell Hammer Curl → Zottman Curl (supinated up, pronated down) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
 
 ### Wednesday · Bootcamp 2 - hinge + presses
 
@@ -158,13 +158,13 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Weighted Russian Twist | 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Leg Raise (lying / supine) | 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
-| Medball Rotational Downward Slam → Step-Forward Medball Overhead Throw (R & L leg) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Single-Kettlebell Deadlift → Dumbbell Deadlift | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| DB Floor Press | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Dumbbell Curl | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Offset Push-Up (one hand elevated) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Alternating DB Overhead Press → Seesaw DB Press (alternating, one up / one down) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Floor Dumbbell Skullcrusher | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Medball Rotational Downward Slam → Step-Forward Medball Overhead Throw (R & L leg) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Single-Kettlebell Deadlift → Dumbbell Deadlift | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| DB Floor Press | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Dumbbell Curl | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Offset Push-Up (one hand elevated) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Alternating DB Overhead Press → Seesaw DB Press (alternating, one up / one down) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Floor Dumbbell Skullcrusher | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
 
 ### Friday · Bootcamp 3 - single-leg squat + pulls + arms
 
@@ -172,25 +172,23 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Side Plank (elbow) | 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s |
 | Reverse Crunch | 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
-| Chest-Supported Row → Chest-Supported Row - underhand grip (palms up) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Stationary Lunge (Split Squat) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Jump Rope | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Push-Up | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Bent-Over DB or KB Row (two-arm) → Bent-Over DB or KB Row (two-arm) - underhand grip (palms up) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| Overhead Dumbbell Triceps Extension | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
-| DB Lateral Raise (Supinated / palms-up grip) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 4 rounds x 45 s |
+| Chest-Supported Row → Chest-Supported Row - underhand grip (palms up) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Stationary Lunge (Split Squat) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Jump Rope | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Push-Up | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Bent-Over DB or KB Row (two-arm) → Bent-Over DB or KB Row (two-arm) - underhand grip (palms up) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| Overhead Dumbbell Triceps Extension | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
+| DB Lateral Raise (Supinated / palms-up grip) | 4 4 4 4 · 4 4 5 5 | 4 rounds x 35 s → 5 rounds x 50 s |
 
 ## Week 1 — Getting used to it (small steps)
 
-_Week level: 2 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 
 **Baseline test this week (before you load up)** (Body weight / measurements)
 
-**Athletic work this week:** 20 throws
-
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Kettlebell Swing (Russian) (conditioning station). You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
@@ -255,7 +253,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Medball Rotational Downward Slam (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Medball Rotational Downward Slam (conditioning station). You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
@@ -322,7 +320,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Friday · Bootcamp 3 - single-leg squat + pulls + arms
 _Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**
@@ -385,16 +383,14 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ## Week 2 — Getting used to it (small steps)
 
-_Week level: 2.9 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 2.9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - Same work time this week: add a little load where you finish a station with more than 3 reps left
 
-**Athletic work this week:** 20 throws
-
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Kettlebell Swing (Russian) (conditioning station). You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
@@ -454,7 +450,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Medball Rotational Downward Slam (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Medball Rotational Downward Slam (conditioning station). You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
@@ -516,7 +512,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Friday · Bootcamp 3 - single-leg squat + pulls + arms
 _Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**
@@ -575,17 +571,15 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ## Week 3 — Driving it
 
-_Week level: 3.9 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 3.9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - Circuit work goes up to 40 s
 - Keep your weights this week (the stations got longer); add load only where you finish a station with more than 3 reps left
 
-**Athletic work this week:** 24 throws
-
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Kettlebell Swing (Russian) (conditioning station). You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
@@ -645,7 +639,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Medball Rotational Downward Slam (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Medball Rotational Downward Slam (conditioning station). You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
@@ -707,7 +701,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Friday · Bootcamp 3 - single-leg squat + pulls + arms
 _Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**
@@ -766,16 +760,14 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ## Week 4 — Driving it
 
-_Week level: 4.8 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 4.8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - Same work time this week: add a little load where you finish a station with more than 3 reps left
 
-**Athletic work this week:** 28 throws
-
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Kettlebell Swing (Russian) (conditioning station). You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
@@ -835,7 +827,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Medball Rotational Downward Slam (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Medball Rotational Downward Slam (conditioning station). You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
@@ -897,7 +889,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Friday · Bootcamp 3 - single-leg squat + pulls + arms
 _Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**
@@ -956,18 +948,19 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ## Week 5 — Driving it
 
-_Week level: 6.3 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 6.3 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - New exercise block: 7 exercises change a little (another version or one new detail); the rest stay
+- Monday: Box Goblet Squat (touch-and-go) → High-Zercher DB Squat (DB hugged high at chest); Dumbbell Hammer Curl → Zottman Curl (supinated up, pronated down)
+- Wednesday: Medball Rotational Downward Slam → Step-Forward Medball Overhead Throw (R & L leg); Single-Kettlebell Deadlift → Dumbbell Deadlift; Alternating DB Overhead Press → Seesaw DB Press (alternating, one up / one down)
+- Friday: Chest-Supported Row → Chest-Supported Row - underhand grip (palms up); Bent-Over DB or KB Row (two-arm) → Bent-Over DB or KB Row (two-arm) - underhand grip (palms up)
 - Circuit work goes up to 45 s
 - Keep your weights this week (the stations got longer); add load only where you finish a station with more than 2 reps left
 
-**Athletic work this week:** 28 throws
-
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 45-55 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Kettlebell Swing (Russian) (conditioning station). You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
@@ -1027,7 +1020,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 45-55 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Step-Forward Medball Overhead Throw (R & L leg) (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Step-Forward Medball Overhead Throw (R & L leg) (conditioning station). You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
@@ -1089,7 +1082,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Friday · Bootcamp 3 - single-leg squat + pulls + arms
 _Average time: about 45-55 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**
@@ -1148,16 +1141,14 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ## Week 6 — Hardest weeks
 
-_Week level: 7.9 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 7.9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - Same work time this week: add a little load where you finish a station with more than 2 reps left
 
-**Athletic work this week:** 32 throws
-
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 45-55 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Kettlebell Swing (Russian) (conditioning station). You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
@@ -1217,7 +1208,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 45-55 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Step-Forward Medball Overhead Throw (R & L leg) (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Step-Forward Medball Overhead Throw (R & L leg) (conditioning station). You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
@@ -1279,7 +1270,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Friday · Bootcamp 3 - single-leg squat + pulls + arms
 _Average time: about 45-55 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**
@@ -1338,33 +1329,18 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ## Week 7 — Hardest weeks
 
-_Week level: 9.4 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 9.4 of 11 (2 = the start, 11 = your hardest week)_
 
-_This week jumps more than usual (25 % more sets for Quads): adjust if needed._
-
-_This week jumps more than usual (25 % more sets for Hips (glutes + hamstrings)): adjust if needed._
-
-_This week jumps more than usual (25 % more sets for Back): adjust if needed._
-
-_This week jumps more than usual (25 % more sets for Chest): adjust if needed._
-
-_This week jumps more than usual (25 % more sets for Shoulders): adjust if needed._
-
-_This week jumps more than usual (25 % more sets for Biceps): adjust if needed._
-
-_This week jumps more than usual (25 % more sets for Triceps): adjust if needed._
-
-_This week jumps more than usual (25 % more sets in total): adjust if needed._
+_This week jumps more than usual (25 % more sets for every muscle group: one more circuit round): adjust if needed._
 
 **What changes this week**
 - Circuit work goes up to 50 s
+- One more round: 5 rounds a station (was 4)
 - Keep your weights this week (the stations got longer); add load only where you finish a station with more than 1-2 reps left
-
-**Athletic work this week:** 40 throws
 
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 55-65 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Kettlebell Swing (Russian) (conditioning station). You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
@@ -1424,7 +1400,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 55-65 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Step-Forward Medball Overhead Throw (R & L leg) (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Step-Forward Medball Overhead Throw (R & L leg) (conditioning station). You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
@@ -1486,7 +1462,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Friday · Bootcamp 3 - single-leg squat + pulls + arms
 _Average time: about 55-65 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**
@@ -1545,20 +1521,18 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ## Week 8 — Hardest weeks
 
-_Week level: 11 of 11 (2 = the start, 11 = a little past your limits)_
+_Week level: 11 of 11 (2 = the start, 11 = your hardest week)_
 
 **End test this week: weigh in and measure on the first morning, before training** (Body weight / measurements)
 
 _Last week: one intensifier on each of these days (Monday, Wednesday and Friday): hold the hardest point for 10 s at the end of the last round on the marked stations_
 
 **What changes this week**
-- Same work time this week: add a little load where you finish a station with more than 1 reps left
-
-**Athletic work this week:** 40 throws
+- Same work time this week: add a little load where you finish a station with more than 1 rep left
 
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 55-65 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Kettlebell Swing (Russian) (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Kettlebell Swing (Russian) (conditioning station). You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
@@ -1618,7 +1592,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 55-65 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Step-Forward Medball Overhead Throw (R & L leg) (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Step-Forward Medball Overhead Throw (R & L leg) (conditioning station). You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
@@ -1680,7 +1654,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ### Friday · Bootcamp 3 - single-leg squat + pulls + arms
 _Average time: about 55-65 min (an estimate, for information only)_
-_You can switch off these blocks today: core, Jump Rope (jumps, throws and speed). You can also add or remove exercises._
+_You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 
 **Warm-up**

@@ -206,7 +206,8 @@ describe('v0.4 fix round 2 / F1: time, volume and structure (coach-eye reviews o
       const cond = its.filter(it => it.bucket === 'COND_CIRCUIT');
       for (const it of cond) assert.ok((d.toggle_items || []).some(x => x.slot_id === it.slot_id && x.toggle && x.removable), `${d.weekday} ${it.slot_id}`);
     }
-    assert.ok(md('05').includes('Kettlebell Swing (Russian) (jumps, throws and speed)'));
+    // (v0.6 words, converted - DECISIONS G-175: a general-population bootcamp calls it a conditioning station)
+    assert.ok(md('05').includes('Kettlebell Swing (Russian) (conditioning station)'));
   });
 
   // ------------------------------------------------------------------------------------------------ the last week's MYO set

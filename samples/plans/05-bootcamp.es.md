@@ -15,7 +15,7 @@ _Tu plan Blaze Camp_
 ## Antes de empezar
 
 - La semana 7 sube más de lo habitual (25 % más series en total): ajusta si hace falta.
-- Mejora opcional: barra de dominadas (pull-up bar), entrenador de suspensión (TRX) agregaría más opciones de ejercicios; el plan ya usa lo que tienes.
+- Mejora opcional: barra de dominadas (pull-up bar) o entrenador de suspensión (TRX) agregaría más opciones de ejercicios; el plan ya usa lo que tienes.
 - Con este equipo el plan no tiene jalón vertical (dominada o jalón en polea): un remo o una apertura posterior ocupa su lugar. Una barra de dominadas, una polea o un TRX lo agregarían.
 
 ## Instrucciones básicas
@@ -39,7 +39,7 @@ Las superseries de core son opcionales en cualquier parte: puedes juntar un ejer
 
 ## Cómo progresas
 
-- Circuitos: las rondas se mantienen y el tiempo de trabajo por estación sube semana a semana. Agrega un poco de peso solo cuando termines una estación con más repeticiones en reserva de las planeadas.
+- Circuitos: 4 rondas, luego 5 desde la semana 7; el tiempo de trabajo por estación va de 35 s a 50 s, un paso cada 2 semanas. Agrega un poco de peso solo cuando termines una estación con más repeticiones en reserva de las planeadas.
 - La semana 7 sube más de lo habitual (más de un 15 % de series para un grupo muscular, o en total). Está marcada con ↑: ajusta si hace falta.
 - Este plan es una plantilla que puedes editar: cambia las series de cualquier ejercicio en cualquier día o semana, agrega o quita ejercicios y desactiva bloques.
 
@@ -92,21 +92,21 @@ Después de este plan: tú eliges: siguiente bloque (se recomienda una semana su
 
 ## Series semanales por grupo muscular
 
-_Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan. "-" = sin ejercicio propio en este plan (entre paréntesis: las series que igual recibe de los otros ejercicios)._
+_Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan. "-" = sin ejercicio propio en este plan (entre paréntesis: las series que igual recibe de los otros ejercicios). Los números están redondeados a series enteras._
 
 |  | Semana 1 | Semana 4 | Semana 8 |
 |---|---|---|---|
 | Cuádriceps | 12 | 12 | 15 |
-| Cadera (glúteos + isquiotibiales) | 11 | 11 | 13.75 |
+| Cadera (glúteos + isquiotibiales) | 11 | 11 | 14 |
 | Espalda | 12 | 12 | 15 |
 | Pecho | 12 | 12 | 15 |
-| Hombros | 18 | 18 | 22.5 |
-| Bíceps | 11 | 11 | 13.75 |
+| Hombros | 18 | 18 | 23 |
+| Bíceps | 11 | 11 | 14 |
 | Tríceps | 12 | 12 | 15 |
 | **Total** | **72** | **72** | **90** |
 | Trabajo por estación | 35 s | 40 s | 50 s |
 
-_Tus series del circuito se mantienen; el tiempo de trabajo por estación sube cada semana._
+_Series del circuito = rondas x estaciones: 4 rondas, luego 5 desde la semana 7. El tiempo de trabajo por estación sube un paso cada 2 semanas._
 
 ### Semana 1 de un vistazo
 
@@ -119,22 +119,22 @@ _Tus series del circuito se mantienen; el tiempo de trabajo por estación sube c
 | Viernes | Bootcamp 3 - sentadilla a una pierna + remos + brazos | aprox. 40-50 min | Cuádriceps 1, Espalda 2, Pecho 1, Hombros 1, Tríceps 1 |
 | Sábado | Día aeróbico | aprox. 20-25 min | – |
 
-## Bloque · Bloque de entrenamiento · Semana 1-8
+## Bloque de entrenamiento, semana a semana · Semana 1-8
 
 **Nivel:** 2.0 · 2.9 · 3.9 · 4.8 · 6.3 · 7.9 · 9.4 · 11.0
 
 ### Series semanales por grupo muscular, semana a semana · Semana 1-8
 
-_Contado con los ejercicios de este plan, un número por semana (un punto separa los bloques de ejercicios)._
+_Contado con los ejercicios de este plan, un número por semana (un punto separa los bloques de ejercicios). Los números están redondeados a series enteras._
 
 | Grupo muscular | Series por semana (semanas 1-8) |
 |---|---|
 | Cuádriceps | 12 12 12 12 · 12 12 15 15 |
-| Cadera (glúteos + isquiotibiales) | 11 11 11 11 · 11 11 13.75 13.75 |
+| Cadera (glúteos + isquiotibiales) | 11 11 11 11 · 11 11 14 14 |
 | Espalda | 12 12 12 12 · 12 12 15 15 |
 | Pecho | 12 12 12 12 · 12 12 15 15 |
-| Hombros | 18 18 18 18 · 18 18 22.5 22.5 |
-| Bíceps | 11 11 11 11 · 11 11 13.75 13.75 |
+| Hombros | 18 18 18 18 · 18 18 23 23 |
+| Bíceps | 11 11 11 11 · 11 11 14 14 |
 | Tríceps | 12 12 12 12 · 12 12 15 15 |
 | **Total** | 72 72 72 72 · 72 72 90 90 |
 
@@ -144,13 +144,13 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Plancha en antebrazos (Plank) | 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s |
 | Plancha Copenhague (Copenhagen Plank) | 2 2 2 2 · 2 2 2 2 | 10-30 s |
-| Swing ruso con kettlebell (KB Swing) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) → Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Remo con pecho apoyado (Chest-Supported Row) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Subida al cajón frontal y lateral (Step-Up) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Curl martillo (Hammer Curl) → Curl Zottman: sube supino, baja prono (Zottman Curl) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
+| Swing ruso con kettlebell (KB Swing) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) → Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Remo con pecho apoyado (Chest-Supported Row) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Subida al cajón frontal y lateral (Step-Up) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Curl martillo (Hammer Curl) → Curl Zottman: sube supino, baja prono (Zottman Curl) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 
@@ -158,13 +158,13 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Giro ruso con peso (Weighted Russian Twist) | 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
 | Elevación de piernas acostado boca arriba (Lying Leg Raise) | 2 2 2 2 · 2 2 2 2 | 10 a 15 reps |
-| Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) → Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Peso muerto con una kettlebell (KB Deadlift) → Peso muerto con mancuernas (DB Deadlift) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Press en el piso con mancuernas (DB Floor Press) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Curl de bíceps con mancuernas (DB Curl) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Flexión de brazos asimétrica con una mano elevada (Offset Push-Up) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Press de hombro alterno con mancuernas (Alternating DB Overhead Press) → Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Rompecráneos con mancuernas en el piso (Floor Skullcrusher) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
+| Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) → Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Peso muerto con una kettlebell (KB Deadlift) → Peso muerto con mancuernas (DB Deadlift) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Press en el piso con mancuernas (DB Floor Press) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Curl de bíceps con mancuernas (DB Curl) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Flexión de brazos asimétrica con una mano elevada (Offset Push-Up) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Press de hombro alterno con mancuernas (Alternating DB Overhead Press) → Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Rompecráneos con mancuernas en el piso (Floor Skullcrusher) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 
@@ -172,25 +172,23 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Plancha lateral (Side Plank) | 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s |
 | Abdominal inverso (Reverse Crunch) | 2 2 2 2 · 2 2 2 2 | 10 a 15 reps |
-| Remo con pecho apoyado (Chest-Supported Row) → Remo con pecho apoyado (Chest-Supported Row) - agarre supino (palmas hacia arriba) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Sentadilla dividida estática (Split Squat) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Saltar la cuerda (Jump Rope) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Flexión de brazos (Push-Up) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) → Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) - agarre supino (palmas hacia arriba) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Extensión de tríceps sobre la cabeza (Overhead Extension) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
-| Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 4 rondas x 45 s |
+| Remo con pecho apoyado (Chest-Supported Row) → Remo con pecho apoyado (Chest-Supported Row) - agarre supino (palmas hacia arriba) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Sentadilla dividida estática (Split Squat) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Saltar la cuerda (Jump Rope) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Flexión de brazos (Push-Up) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) → Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) - agarre supino (palmas hacia arriba) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Extensión de tríceps sobre la cabeza (Overhead Extension) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
+| Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) | 4 4 4 4 · 4 4 5 5 | 4 rondas x 35 s → 5 rondas x 50 s |
 
 ## Semana 1 — Adaptación (pasos pequeños)
 
-_Nivel de la semana: 2 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 2 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Prueba inicial esta semana (antes de cargar)** (Peso corporal / medidas)
 
-**Trabajo atlético esta semana:** 20 lanzamientos
-
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -255,7 +253,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -322,7 +320,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -385,16 +383,14 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ## Semana 2 — Adaptación (pasos pequeños)
 
-_Nivel de la semana: 2.9 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 2.9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - Mismo tiempo de trabajo esta semana: agrega un poco de peso donde termines una estación con más de 3 repeticiones en reserva
 
-**Trabajo atlético esta semana:** 20 lanzamientos
-
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -454,7 +450,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -516,7 +512,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -575,17 +571,15 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ## Semana 3 — Subiendo el ritmo
 
-_Nivel de la semana: 3.9 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 3.9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - El trabajo del circuito sube a 40 s
 - Mantén tus pesos esta semana (las estaciones duran más); agrega peso solo donde termines una estación con más de 3 repeticiones en reserva
 
-**Trabajo atlético esta semana:** 24 lanzamientos
-
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -645,7 +639,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -707,7 +701,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -766,16 +760,14 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ## Semana 4 — Subiendo el ritmo
 
-_Nivel de la semana: 4.8 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 4.8 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - Mismo tiempo de trabajo esta semana: agrega un poco de peso donde termines una estación con más de 3 repeticiones en reserva
 
-**Trabajo atlético esta semana:** 28 lanzamientos
-
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -835,7 +827,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -897,7 +889,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -956,18 +948,19 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ## Semana 5 — Subiendo el ritmo
 
-_Nivel de la semana: 6.3 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 6.3 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - Nuevo bloque de ejercicios: 7 ejercicios cambian un poco (otra versión o un detalle nuevo); el resto se queda
+- Lunes: Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) → Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat); Curl martillo (Hammer Curl) → Curl Zottman: sube supino, baja prono (Zottman Curl)
+- Miércoles: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) → Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw); Peso muerto con una kettlebell (KB Deadlift) → Peso muerto con mancuernas (DB Deadlift); Press de hombro alterno con mancuernas (Alternating DB Overhead Press) → Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)
+- Viernes: Remo con pecho apoyado (Chest-Supported Row) → Remo con pecho apoyado (Chest-Supported Row) - agarre supino (palmas hacia arriba); Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) → Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) - agarre supino (palmas hacia arriba)
 - El trabajo del circuito sube a 45 s
 - Mantén tus pesos esta semana (las estaciones duran más); agrega peso solo donde termines una estación con más de 2 repeticiones en reserva
 
-**Trabajo atlético esta semana:** 28 lanzamientos
-
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1027,7 +1020,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1089,7 +1082,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1148,16 +1141,14 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ## Semana 6 — Semanas más duras
 
-_Nivel de la semana: 7.9 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 7.9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - Mismo tiempo de trabajo esta semana: agrega un poco de peso donde termines una estación con más de 2 repeticiones en reserva
 
-**Trabajo atlético esta semana:** 32 lanzamientos
-
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1217,7 +1208,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1279,7 +1270,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1338,33 +1329,18 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ## Semana 7 — Semanas más duras
 
-_Nivel de la semana: 9.4 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 9.4 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
-_Esta semana sube más de lo habitual (25 % más series para Cuádriceps): ajusta si hace falta._
-
-_Esta semana sube más de lo habitual (25 % más series para Cadera (glúteos + isquiotibiales)): ajusta si hace falta._
-
-_Esta semana sube más de lo habitual (25 % más series para Espalda): ajusta si hace falta._
-
-_Esta semana sube más de lo habitual (25 % más series para Pecho): ajusta si hace falta._
-
-_Esta semana sube más de lo habitual (25 % más series para Hombros): ajusta si hace falta._
-
-_Esta semana sube más de lo habitual (25 % más series para Bíceps): ajusta si hace falta._
-
-_Esta semana sube más de lo habitual (25 % más series para Tríceps): ajusta si hace falta._
-
-_Esta semana sube más de lo habitual (25 % más series en total): ajusta si hace falta._
+_Esta semana sube más de lo habitual (25 % más series para todos los grupos musculares: una ronda más de circuito): ajusta si hace falta._
 
 **Qué cambia esta semana**
 - El trabajo del circuito sube a 50 s
+- Una ronda más: 5 rondas por estación (antes 4)
 - Mantén tus pesos esta semana (las estaciones duran más); agrega peso solo donde termines una estación con más de 1-2 repeticiones en reserva
-
-**Trabajo atlético esta semana:** 40 lanzamientos
 
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1424,7 +1400,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1486,7 +1462,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1545,20 +1521,18 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ## Semana 8 — Semanas más duras
 
-_Nivel de la semana: 11 de 11 (2 = el inicio, 11 = un poco más allá de tus límites)_
+_Nivel de la semana: 11 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Prueba final esta semana: pésate y mídete la primera mañana, antes de entrenar** (Peso corporal / medidas)
 
 _Última semana: un intensificador en cada uno de estos días (lunes, miércoles y viernes): sostén el punto más difícil 10 s al final de la última ronda en las estaciones marcadas_
 
 **Qué cambia esta semana**
-- Mismo tiempo de trabajo esta semana: agrega un poco de peso donde termines una estación con más de 1 repeticiones en reserva
-
-**Trabajo atlético esta semana:** 40 lanzamientos
+- Mismo tiempo de trabajo esta semana: agrega un poco de peso donde termines una estación con más de 1 repetición en reserva
 
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Swing ruso con kettlebell (KB Swing) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1618,7 +1592,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
@@ -1680,7 +1654,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ### Viernes · Bootcamp 3 - sentadilla a una pierna + remos + brazos
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (saltos, lanzamientos y velocidad). También puedes agregar o quitar ejercicios._
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 
 **Calentamiento**

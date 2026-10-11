@@ -12,7 +12,7 @@
 // that adds more than about 15 % (R4-PRG-02); the average time as a range, information only (CT-01, R4-SES-01); what is easiest to
 // remove on each day (R4-SES-04); the weekly sets per group week by week; block / week / day macro views (R2-GEN-02).
 import { WEEKDAYS, addDays } from './util.mjs';
-import { tr, levelText, changesText, stairText, whyText, listAnd } from './explain.mjs';
+import { tr, levelText, changesText, stairText, whyText, listAnd, listOr, circuitStory } from './explain.mjs';
 
 const YT = 'https://www.youtube.com/results?search_query=';
 const INSTRUCTION_KEYS = ['instruction.1', 'instruction.2', 'instruction.3', 'instruction.4', 'instruction.5'];
@@ -111,8 +111,23 @@ function testName(model, lang, id) {
   return model.t(lang, 'tests.' + id);
 }
 
-function formatSetReps(list, model, lang) {
+/** per-set reps that end in the pyramid's light set (rules.reps.pyramid, PRG-07) and the v0.6 words that write it out */
+function isPyramid(list, model) {
   const P = model.rules.reps.pyramid;
+  const light = P && P.sets && P.sets.length ? P.sets[P.sets.length - 1].reps : null;
+  return !!(V6(model).pyramid && Array.isArray(list) && list.length >= 2 && list.every(r => r && r.type === 'fixed') && list[list.length - 1].value === light &&
+    model.has('en', 'reps.pyramid_sets') && model.has('en', 'reps.pyramid_short'));
+}
+
+function formatSetReps(list, model, lang, sets) {
+  const P = model.rules.reps.pyramid;
+  // v0.6 words (sample 06 major: '5 x 12/10/8/8/20', '4 x 12/10/8 -20' printed raw; COACH-ANSWER PRG-07 '12, 10, 8, and then 20 ... You
+  // drop back to the 20 for a light-weight, high-rep set'): the pyramid written out - '12, 10, 8, then a light back-off set of 20'
+  if (isPyramid(list, model)) {
+    const light = list[list.length - 1].value;
+    const head = list.slice(0, -1).map(r => r.value).join(', ');
+    return typeof sets === 'number' ? model.t(lang, 'reps.pyramid_sets', { sets, list: head, last: light }) : model.t(lang, 'reps.pyramid_short', { list: head, last: light });
+  }
   if (list.length === P.sets.length && list.every((r, i) => r && r.type === 'fixed' && r.value === P.sets[i].reps)) return P.notation;
   if (list.every(r => r && r.type === 'fixed')) return list.map(r => r.value).join('/');
   return list.map(r => formatReps(r, model, lang)).join(' / ');
@@ -212,6 +227,14 @@ function dayList(plan, n) {
   return w ? (w.days || []).slice().sort((a, b) => WEEKDAYS.indexOf(a.weekday) - WEEKDAYS.indexOf(b.weekday)) : [];
 }
 function fmtNum(x) { return typeof x === 'number' ? String(Math.round(x * 100) / 100) : '–'; }
+/** v0.6 words (sample 05 minor: '13.75 / 22.5 sets'): weekly set numbers print as whole sets when rules.render.v6.sets_display says so;
+ *  the plan JSON keeps the exact quarter credits */
+function fmtSets(model, x) {
+  if (typeof x !== 'number') return '–';
+  return V6(model).sets_display === 'whole' ? String(Math.round(x)) : fmtNum(x);
+}
+/** the v0.6 words rules (rules.render.v6), or {} */
+function V6(model) { return (model.rules.render && model.rules.render.v6) || {}; }
 /** '12 Oct 2026' / '12 oct 2026' from an ISO date (fix round 2 / F3; R2-GEN-08; RECHECK v0.4 05 minor: machine dates in client copy) */
 function fmtDate(model, lang, iso) {
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(iso || ''));
@@ -384,7 +407,7 @@ function headerLines(plan, model, o) {
   if (m.plan_mode) b(t('intake.plan_mode.label'), t('intake.plan_mode.opt.' + m.plan_mode) + DOT + t('ui.plan.week', { n: '1-' + (plan.shape.weeks_total || m.weeks) }));
   if (m.start_date) b(t('intake.start.label'), esc(fmtDate(model, o.lang, m.start_date)));
   if (m.weekdays) b(t('intake.days.label'), m.days_per_week + DOT + m.weekdays.map(d => esc(weekdayIn(model, o.lang, d))).join(', ') +
-    (m.session_size && has(model, 'ui.plan.session_size') ? DOT + t('ui.plan.session_size', { n: m.session_size.default, low: m.session_size.range[0], high: m.session_size.range[1] }) : ''));
+    (m.session_size && has(model, 'ui.plan.session_size') ? DOT + sessionSizeText(plan, model, o) : ''));
   if (plan.release_stamp) {
     // the version id (release.client | coach | minor) is itself the key of the full legal text: show its short label
     const rl = plan.release_stamp.lang, langKey = 'intake.lang.opt.' + rl;
@@ -408,6 +431,22 @@ function headerLines(plan, model, o) {
     L.push('- ' + t('ui.plan.health_check_ok') + (pq && has(model, 'ui.plan.parq_link') ? ' [' + t('ui.plan.parq_link') + '](' + pq + ')' : ''));
   }
   return L;
+}
+
+/**
+ * 'about 7 exercises a session' (R4-SES-02). v0.6 words (samples 02 / 03 / 06 minors: 'about 12' over days of 10-11, 'about 7' over days
+ * of 8): the real range of the main days' exercise counts (day.exercise_count, every week), else the size the plan was built to
+ */
+function sessionSizeText(plan, model, o) {
+  const t = T(model, o), m = plan.meta || {};
+  const counts = [];
+  if (V6(model).session_size_from_days) for (const w of plan.weeks || []) for (const d of w.days || []) if (d.kind === 'main' && typeof d.exercise_count === 'number' && d.exercise_count > 0) counts.push(d.exercise_count);
+  if (counts.length) {
+    const low = Math.min(...counts), high = Math.max(...counts);
+    if (low === high || !has(model, 'ui.plan.session_size_range')) return t('ui.plan.session_size', { n: low === high ? low : Math.round((low + high) / 2) });
+    return t('ui.plan.session_size_range', { low, high });
+  }
+  return t('ui.plan.session_size', { n: m.session_size.default, low: m.session_size.range[0], high: m.session_size.range[1] });
 }
 
 /** the client's own Focus picks (meta.derived.priority_choices, at most 2), else the plan's priority list */
@@ -463,11 +502,13 @@ function noticesSection(plan, model, o) {
       L.push('- ' + t(act ? 'warning.athletic_capacity_list_activity' : 'warning.athletic_capacity_list', { list }));
       continue;
     }
-    L.push('- ' + t(warningKey(plan, w, model), warningArgs(w, model, o)));
+    const wk = warningKey(plan, w, model);
+    L.push('- ' + t(wk, warningArgs(w, model, o, wk)));
   }
   // (RECHECK v0.4 06 / 08 minors: '(or a test day)' in a plan with no tests)
   const testInHol = ((plan.meta && plan.meta.tests && plan.meta.tests.test_days) || []).some(x => hol.includes(x.week)) || (plan.weeks || []).some(w => hol.includes(w.n) && w.test);
-  if (hol.length && has(model, 'ui.plan.holiday_weeks')) L.push('- ' + t(!testInHol && has(model, 'ui.plan.holiday_weeks_no_test') ? 'ui.plan.holiday_weeks_no_test' : 'ui.plan.holiday_weeks', { weeks: hol.join(', ') }));
+  // (v0.6 words, sample 08 minor: 'Las semanas 11, 12 incluyen' - 'weeks 11 and 12' / 'semanas 11 y 12')
+  if (hol.length && has(model, 'ui.plan.holiday_weeks')) L.push('- ' + t(!testInHol && has(model, 'ui.plan.holiday_weeks_no_test') ? 'ui.plan.holiday_weeks_no_test' : 'ui.plan.holiday_weeks', { weeks: andList(model, o.lang, hol.map(String)) }));
   if (heavyPlay) L.push('- ' + t('ui.plan.heavy_play_plan'));
   L.push('');
   return L;
@@ -492,6 +533,17 @@ function holidayWeeks(plan) {
 /** a warning's key as printed: a non-competitive profile reads 'this plan's weekly ...' (RECHECK v0.4 08 minor) */
 function warningKey(plan, w, model) {
   if (/^warning\.athletic_capacity(_block)?$/.test(w.key) && plan.meta && plan.meta.profile && plan.meta.profile.competitive !== 'competitive' && has(model, w.key + '_activity')) return w.key + '_activity';
+  const X = V6(model);
+  // v0.6 words (samples 02 / 08 minors: 'trained through your sport work' for an athlete with 0 practice days, and for a pickleball player's
+  // biceps): the sport is named only when the client has sport practice days; else the compound lifts
+  if (w.key === 'warning.credit_only_groups' && X.credit_only_lifts_key && has(model, X.credit_only_lifts_key)) {
+    const m = plan.meta || {};
+    const practice = m.season && typeof m.season.practice_days === 'number' ? m.season.practice_days : 0;
+    if (!(m.profile && m.profile.competitive === 'competitive' && practice > 0)) return X.credit_only_lifts_key;
+  }
+  // v0.6 words (sample 08 minor: the pain line promised a note 'on the lift' that no lift carried): the promise only when a lift says so
+  if (/^warning\.pain_plan(_plain)?$/.test(w.key) && X.pain_line_no_lift_suffix && has(model, w.key + X.pain_line_no_lift_suffix) &&
+      !(X.pain_lift_notes || []).some(k => planHasNote(plan, k))) return w.key + X.pain_line_no_lift_suffix;
   return w.key;
 }
 
@@ -501,9 +553,23 @@ function planHasNote(plan, key) {
 }
 
 /** warning args shown to people: equipment tokens by their names (review 05 minor 18) */
-function warningArgs(w, model, o) {
+function warningArgs(w, model, o, key) {
   const a = { ...(w.args || {}) };
-  if (typeof a.items === 'string') a.items = a.items.split(',').map(x => x.trim()).filter(Boolean).map(tok => (model.has('en', 'equipment.token.' + tok) ? model.t(o.lang, 'equipment.token.' + tok) : tok)).join(', ');
+  // (v0.6 words, sample 05 minor: 'pull-up bar, suspension trainer (TRX) would add' / 'agregaría': the options are joined with 'or')
+  if (typeof a.items === 'string') a.items = listOr(model, o.lang, a.items.split(',').map(x => x.trim()).filter(Boolean).map(tok => (model.has('en', 'equipment.token.' + tok) ? model.t(o.lang, 'equipment.token.' + tok) : tok)));
+  // (v0.6 words, sample 08 minor, R2-GEN-08: 'dolor en rodilla', 'mantiene Cuádriceps' - Spanish takes the area with its article and the
+  // muscle groups in lower case inside a sentence)
+  if (o.lang === 'es') {
+    if (typeof a.area === 'string') { const k = a.area.replace(/^pain\.area\./, 'pain.area_def.'); if (k !== a.area && has(model, k)) a.area = k; }
+    for (const name of ['group', 'groups']) {
+      if (a[name] === undefined || a[name] === null) continue;
+      const ids = (Array.isArray(a[name]) ? a[name] : [a[name]]).map(x => String(x).replace(/^group\./, ''));
+      if (!ids.every(g => has(model, 'group.' + g))) continue;
+      const lead = key && String(model.t(o.lang, key)).startsWith('{' + name + '}');
+      const words = ids.map((g, i) => { const s0 = model.t(o.lang, 'group.' + g); return lead && i === 0 ? s0 : s0.charAt(0).toLowerCase() + s0.slice(1); });
+      a[name] = andList(model, o.lang, words);
+    }
+  }
   return a;
 }
 
@@ -530,7 +596,8 @@ function effortDriftLine(plan, model, o) {
   // F3 (RECHECK 04 / 05 / 06 / 08 minors: 'one intensifier per training day' while some days had none): the line names the days that
   // carry one, and says what it is (a MYO set; a held last rep in a circuit)
   const days = intensifierDays(plan, iw[iw.length - 1]);
-  if (iw.length && days.length && has(model, 'effort.drift_intensifier_days')) s += ' ' + t(days.circuit ? 'effort.drift_intensifier_days_circuit' : 'effort.drift_intensifier_days', { week: iw.join(', '), days: days.slice() });
+  const one = days.length === 1 && !days.circuit && has(model, 'effort.drift_intensifier_days_one');
+  if (iw.length && days.length && has(model, 'effort.drift_intensifier_days')) s += ' ' + t(one ? 'effort.drift_intensifier_days_one' : days.circuit ? 'effort.drift_intensifier_days_circuit' : 'effort.drift_intensifier_days', { week: iw.join(', '), days: days.slice() });
   else if (iw.length && has(model, 'effort.drift_intensifier')) s += ' ' + t('effort.drift_intensifier', { week: iw.join(', ') });
   return s;
 }
@@ -565,6 +632,10 @@ function instructionBlock(plan, model, o) {
   const IKF = model.rules.render && model.rules.render.instruction_keys_by_family;
   const famKeys = IKF && Array.isArray(IKF[m.family]) && IKF[m.family].every(k => has(model, k)) ? IKF[m.family] : null;
   if (famKeys) keys = [keys[0], ...famKeys];
+  // v0.6 words (sample 04 minor: 'WODs will be prescribed by your box' - his competitor copy - printed for a class member whose plan writes its
+  // own WODs): a client who does not compete reads the class-member line (rules.render.v6.class_member_instruction; PROPOSED wording)
+  const CMI = V6(model).class_member_instruction;
+  if (famKeys && CMI && CMI.family === m.family && !(CMI.unless_competitive && m.profile && m.profile.competitive === 'competitive')) keys = keys.map(k => (CMI.replace[k] && has(model, CMI.replace[k]) ? CMI.replace[k] : k));
   // B3 (RECHECK 01 minor: 'I recommend doing it on your aerobic days' with no aerobic session in the plan): the sport is the cardio
   const aerobicItems = (plan.weeks || []).some(w => (w.aerobic_sessions || 0) > 0);
   if (!aerobicItems && has(model, 'instruction.2_sport_cardio')) keys = keys.map(k => (k === 'instruction.2' ? 'instruction.2_sport_cardio' : k));
@@ -577,7 +648,12 @@ function instructionBlock(plan, model, o) {
   if (!famKeys && ends && ends.start !== ends.end && has(model, 'instruction.1_bridge')) L.push('', '_' + t('instruction.1_bridge', ends) + '_');
   // (RECHECK v0.4 07 minor: 'do it on your aerobic days' in a 6-day week whose cardio sessions all sit on lifting days)
   const aerobicOnly = (plan.weeks || []).some(w => (w.days || []).some(d => d.kind === 'aerobic'));
-  if (!famKeys && aerobicItems && !aerobicOnly && has(model, 'instruction.2_bridge')) L.push('', '_' + t('instruction.2_bridge') + '_');
+  // (v0.6 words, sample 08 minor: 'your cardio sessions sit on lifting days' when the only cardio sits on the optional day)
+  const cardioDays = (kind) => [...new Set((plan.weeks || []).flatMap(w => (w.days || []).filter(d => d.kind === kind && (d.blocks || []).some(b => b.kind === 'aerobic' && (b.items || []).length)).map(d => d.weekday)))];
+  const onMain = cardioDays('main'), onOptional = cardioDays('optional');
+  if (!famKeys && aerobicItems && !aerobicOnly && !onMain.length && onOptional.length && has(model, 'instruction.2_bridge_optional')) {
+    L.push('', '_' + esc(tr(model, o.lang, 'instruction.2_bridge_optional', { days: WEEKDAYS.filter(x => onOptional.includes(x)) })) + '_');
+  } else if (!famKeys && aerobicItems && !aerobicOnly && has(model, 'instruction.2_bridge')) L.push('', '_' + t('instruction.2_bridge') + '_');
   const drift = effortDriftLine(plan, model, o);
   if (drift) L.push('', drift);
   // F3 (RECHECK 04 / 05 minors: 'in the last week 1 with a few extra-hard sets' in a plan whose last week carries none)
@@ -684,7 +760,7 @@ function stairwaySection(plan, model, o) {
       const rir = w.planned_rir ? (w.planned_rir.min === w.planned_rir.max ? String(w.planned_rir.min) : w.planned_rir.min + '-' + w.planned_rir.max) : null;
       const eff = rir ? t('ui.plan.rir_short', { rir }) + (iw.has(w.n) ? ' ' + t('ui.plan.plus_intensifier') : '') : '–';
       // the week's sets as the weekly sets table counts them (main and optional days)
-      const sets = circuit && w.circuit ? t('ui.plan.seconds', { n: w.circuit.work_s }) : fmtNum(w.total_resistance_sets);
+      const sets = circuit && w.circuit ? t('ui.plan.seconds', { n: w.circuit.work_s }) : fmtSets(model, w.total_resistance_sets);
       L.push('| ' + [wk, lvl, eff, sets].join(' | ') + ' |');
     }
     if (ws.some(w => accelOf(w).length) && accelMark(model) && has(model, 'ui.plan.accel_legend')) L.push('', '_' + t('ui.plan.accel_legend', { mark: accelMark(model) }) + '_');
@@ -740,7 +816,7 @@ function weeklySetsSection(plan, model, o) {
   if (!pool.length) return L;
   const picks = [...new Set([pool[0], pool[Math.floor((pool.length - 1) / 2)], pool[pool.length - 1]])];
   const byGroup = pool.some(w => w.weekly_sets_by_group && Object.keys(w.weekly_sets_by_group).length) && has(model, 'ui.plan.weekly_sets_groups');
-  L.push('## ' + t(byGroup ? 'ui.plan.weekly_sets_groups' : 'ui.plan.weekly_sets'), '', '_' + t(byGroup ? 'ui.plan.weekly_sets_groups_note' : 'ui.plan.weekly_sets_note') + '_', '');
+  L.push('## ' + t(byGroup ? 'ui.plan.weekly_sets_groups' : 'ui.plan.weekly_sets'), '', '_' + t(byGroup ? 'ui.plan.weekly_sets_groups_note' : 'ui.plan.weekly_sets_note') + roundedNote(model, o, picks) + '_', '');
   L.push('| ' + ['', ...picks.map(w => t('ui.plan.week', { n: w.n }))].join(' | ') + ' |', '|' + '---|'.repeat(picks.length + 1));
   if (byGroup) {
     // F3 (RECHECK 01 / 04 / 08 minors: the legend promised '-' rows the table never printed; a credit-only group showed sets next to
@@ -754,10 +830,10 @@ function weeklySetsSection(plan, model, o) {
       if (!vals.some(v => typeof v === 'number' && v > 0) && !(allRows && picks.some(w => ntOf(w)))) continue;
       const cell = (w, v) => {
         const nt = ntOf(w);
-        if (!nt) return fmtNum(v);
+        if (!nt) return fmtSets(model, v);
         if (!allRows) return '-';
         if (!(typeof v === 'number' && v > 0)) return '-';
-        return nt.reason === 'class_lift' && has(model, 'ui.plan.sets_class_lift') ? t('ui.plan.sets_class_lift', { n: fmtNum(v) }) : t('ui.plan.sets_not_direct', { n: fmtNum(v) });
+        return nt.reason === 'class_lift' && has(model, 'ui.plan.sets_class_lift') ? t('ui.plan.sets_class_lift', { n: fmtSets(model, v) }) : t('ui.plan.sets_not_direct', { n: fmtSets(model, v) });
       };
       // fix round 2 / F3 (COACH-R3 R3-SES-01 Focus muscle 1 / 2; RECHECK v0.4 06 major: no row showed a Focus muscle's own sets): a Focus
       // pick that is the whole group is tagged on its row; a pick inside a group (glutes in hips, side delts in shoulders) has its own
@@ -768,22 +844,32 @@ function weeklySetsSection(plan, model, o) {
       if (has(model, 'ui.plan.focus_row')) for (const c of fc) {
         if (c === g || groupOfSafe(model, c) !== g || (model.rules.muscles.groups.members[g] || []).length === 1 || !model.has('en', 'muscle.' + c)) continue;
         const mv = picks.map(w => (w.weekly_sets_by_muscle || {})[c]);
-        if (mv.some(v => typeof v === 'number')) L.push('| ' + [t('ui.plan.focus_row', { muscle: 'muscle.' + c }), ...mv.map(fmtNum)].join(' | ') + ' |');
+        if (mv.some(v => typeof v === 'number')) L.push('| ' + [t('ui.plan.focus_row', { muscle: 'muscle.' + c }), ...mv.map(v => fmtSets(model, v))].join(' | ') + ' |');
       }
     }
   } else {
     for (const mu of model.rules.muscles.order) {
       const vals = picks.map(w => (w.weekly_sets_by_muscle || {})[mu]);
       if (!vals.some(v => typeof v === 'number' && v > 0)) continue;
-      L.push('| ' + [t('muscle.' + mu), ...vals.map(fmtNum)].join(' | ') + ' |');
+      L.push('| ' + [t('muscle.' + mu), ...vals.map(v => fmtSets(model, v))].join(' | ') + ' |');
     }
   }
-  L.push('| **' + t('ui.plan.total') + '** | ' + picks.map(w => '**' + fmtNum(w.total_resistance_sets) + '**').join(' | ') + ' |');
+  L.push('| **' + t('ui.plan.total') + '** | ' + picks.map(w => '**' + fmtSets(model, w.total_resistance_sets) + '**').join(' | ') + ' |');
   if (picks.some(w => w.circuit && typeof w.circuit.work_s === 'number') && has(model, 'ui.plan.work_seconds_row')) {
     L.push('| ' + [t('ui.plan.work_seconds_row'), ...picks.map(w => (w.circuit ? t('ui.plan.seconds', { n: w.circuit.work_s }) : '–'))].join(' | ') + ' |');
-    L.push('', '_' + t('ui.plan.circuit_climb_note') + '_');
+    const cs = V6(model).circuit_from_weeks ? circuitStory(plan, model, o.lang) : null;
+    if (cs && has(model, 'ui.plan.circuit_climb_note_v6')) L.push('', '_' + esc(cs.flat ? model.t(o.lang, 'ui.plan.circuit_climb_note_v6_flat', { rounds: cs.rounds, s: cs.from }) : model.t(o.lang, 'ui.plan.circuit_climb_note_v6', { rounds: cs.rounds, when: cs.when })) + '_');
+    else L.push('', '_' + t('ui.plan.circuit_climb_note') + '_');
   }
   return L;
+}
+
+/** ' Numbers are rounded to whole sets.' when the table prints whole sets and a week holds a quarter or half set (v0.6 words) */
+function roundedNote(model, o, weeks) {
+  if (V6(model).sets_display !== 'whole' || !has(model, 'ui.plan.sets_rounded')) return '';
+  const frac = (x) => typeof x === 'number' && Math.abs(x - Math.round(x)) > 1e-9;
+  const any = (weeks || []).some(w => frac(w.total_resistance_sets) || Object.values(w.weekly_sets_by_group || {}).some(frac) || Object.values(w.weekly_sets_by_muscle || {}).some(frac));
+  return any ? ' ' + T(model, o)('ui.plan.sets_rounded') : '';
 }
 
 function groupOfSafe(model, mu) { try { return model.groupOf(mu); } catch { return null; } }
@@ -831,8 +917,29 @@ function accelMark(model) {
 /** the acceleration entries of a week (COACH-R4 R4-PRG-02; volume engine: {group, from, to, pct} or {total: true, pct}) */
 function accelOf(w) { return Array.isArray(w && w.acceleration) ? w.acceleration.filter(Boolean) : []; }
 /** 'This week jumps more than usual (17 % more sets for Shoulders): adjust if needed.' - one line per entry */
-function accelLines(w, model, o) {
+function accelLines(w, model, o, plan) {
   const t = T(model, o), out = [];
+  // v0.6 words (sample 05 minor: eight near-identical 'This week jumps more than usual' lines in one week; R4-PRG-02 'a clear note'): one
+  // line per week and step size, the groups listed; a circuit week that added a round says so
+  if (V6(model).accel_one_line && has(model, 'ui.plan.accel_week_groups')) {
+    const groups = accelOf(w).filter(a => a.group);
+    const totals = accelOf(w).filter(a => a.total);
+    if (groups.length) {
+      const byPct = new Map();
+      for (const a of groups) { if (!byPct.has(a.pct)) byPct.set(a.pct, []); byPct.get(a.pct).push(a.group); }
+      const pw = plan ? weekOf(plan, w.n - 1) : null;
+      const roundUp = !!(w.circuit && pw && pw.circuit && typeof w.circuit.rounds === 'number' && w.circuit.rounds > pw.circuit.rounds);
+      const trained = Object.entries(w.weekly_sets_by_group || {}).filter(([g, v]) => g !== 'core' && typeof v === 'number' && v > 0).map(([g]) => g);
+      for (const [pct, gs] of byPct) {
+        if (byPct.size === 1 && roundUp && trained.every(g => gs.includes(g)) && has(model, 'ui.plan.accel_week_all_round')) { out.push(t('ui.plan.accel_week_all_round', { pct })); continue; }
+        const names = gs.map(g => { const s0 = model.t(o.lang, 'group.' + g); return o.lang === 'es' ? s0.charAt(0).toLowerCase() + s0.slice(1) : s0; });
+        out.push(esc(model.t(o.lang, 'ui.plan.accel_week_groups', { pct, groups: andList(model, o.lang, names) })));
+      }
+      return out;
+    }
+    for (const a of totals) if (has(model, 'ui.plan.accel_week_total')) out.push(t('ui.plan.accel_week_total', { pct: a.pct }));
+    return out;
+  }
   for (const a of accelOf(w)) {
     if (a.total && has(model, 'ui.plan.accel_week_total')) out.push(t('ui.plan.accel_week_total', { pct: a.pct }));
     else if (a.group && has(model, 'ui.plan.accel_week')) out.push(t('ui.plan.accel_week', { pct: a.pct, group: 'group.' + a.group }));
@@ -920,17 +1027,29 @@ function progressSection(plan, model, o) {
   const L = ['## ' + t('ui.plan.progress_title'), ''];
   // the example: the first lift of the plan with a rep range (a main lift first)
   let ex = null;
-  for (const w of (stair.length ? stair : weeks)) {
-    const its = dayListOf(w).flatMap(d => (d.blocks || []).flatMap(b => (b.on === false ? [] : (b.items || []))));
-    const ok = (it) => it.progression && it.progression.kind === 'double_progression' && !it.set_reps && it.name_key && typeof it.sets === 'number' && it.sets > 0;
-    ex = its.find(it => ok(it) && it.role === 'work') || its.find(ok) || null;
-    if (ex) break;
-  }
+  // (v0.6 words, sample 01 minor: 'Front Squat (barbell), 1 sets of 8-10' - a test week's back-off set): the example comes from a week with no
+  // test and has 2 or more sets; the old pick is the fallback
+  const pick = (ws, minSets) => {
+    for (const w of ws) {
+      if (minSets > 1 && w.test) continue;
+      const its = dayListOf(w).flatMap(d => (d.blocks || []).flatMap(b => (b.on === false ? [] : (b.items || []))));
+      const ok = (it) => it.progression && it.progression.kind === 'double_progression' && !it.set_reps && it.name_key && typeof it.sets === 'number' && it.sets >= minSets && !(minSets > 1 && it.test);
+      const found = its.find(it => ok(it) && it.role === 'work') || its.find(ok) || null;
+      if (found) return found;
+    }
+    return null;
+  };
+  const pool = stair.length ? stair : weeks;
+  ex = pick(pool, 3) || pick(pool, 2) || pick(pool, 1);
   const anyRule = weeks.some(w => (w.days || []).some(d => (d.blocks || []).some(b => (b.items || []).some(it => it.progression))));
   if (ex && has(model, 'ui.plan.progress_rule')) L.push('- ' + esc(model.t(o.lang, 'ui.plan.progress_rule', { exercise: exName(model, o, ex), sets: ex.sets, low: ex.progression.rep_range[0], high: ex.progression.rep_range[1] })));
   else if (anyRule && has(model, 'ui.plan.progress_rule_plain')) L.push('- ' + t('ui.plan.progress_rule_plain'));
   const circuit = weeks.some(w => w.circuit && typeof w.circuit.work_s === 'number');
-  if (circuit && has(model, 'ui.plan.progress_circuit')) L.push('- ' + t('ui.plan.progress_circuit'));
+  // v0.6 words (sample 05 major: 'the rounds stay and the work time climbs week by week' over a plan that adds a round in week 7 and steps
+  // the time every second week): the line is built from the weeks' own rounds and work seconds (explain.circuitStory)
+  const cs = circuit && V6(model).circuit_from_weeks ? circuitStory(plan, model, o.lang) : null;
+  if (cs && has(model, 'ui.plan.progress_circuit_v6')) L.push('- ' + esc(cs.flat ? model.t(o.lang, 'ui.plan.progress_circuit_v6_flat', { rounds: cs.rounds, s: cs.from }) : model.t(o.lang, 'ui.plan.progress_circuit_v6', { rounds: cs.rounds, from: cs.from, to: cs.to, when: cs.when })));
+  else if (circuit && has(model, 'ui.plan.progress_circuit')) L.push('- ' + t('ui.plan.progress_circuit'));
   const climbs = stair.length > 1 && stair.some(w => typeof w.total_resistance_sets === 'number' && w.total_resistance_sets !== stair[0].total_resistance_sets);
   if (!circuit) L.push('- ' + t(climbs || !has(model, 'ui.plan.progress_sets_flat') ? 'ui.plan.progress_sets' : 'ui.plan.progress_sets_flat'));
   const fast = weeks.filter(w => accelOf(w).length).map(w => w.n);
@@ -958,7 +1077,7 @@ function setsByWeekTable(plan, tb, model, o) {
   const rec = (Array.isArray(plan.meta && plan.meta.stairway) ? plan.meta.stairway.find(x => x && x.training_block === tb.n) : null) || null;
   const ebs = (plan.shape.exercise_blocks || []).filter(e => e.training_block === tb.n);
   const chunks = ebs.length ? ebs.map(e => weeks.filter(w => w.n >= e.weeks[0] && w.n <= e.weeks[1])).filter(c => c.length) : [weeks];
-  const row = (get) => chunks.map(c => c.map(w => fmtNum(get(w))).join(' ')).join(DOT);
+  const row = (get) => chunks.map(c => c.map(w => fmtSets(model, get(w))).join(' ')).join(DOT);
   const rows = [];
   let example = null;
   for (const g of model.rules.muscles.groups.order.filter(x => x !== 'core')) {
@@ -968,8 +1087,8 @@ function setsByWeekTable(plan, tb, model, o) {
     if (rec) {
       const cap = (rec.capped || []).find(x => x && x.group === g);
       if ((rec.credit_only_groups || []).includes(g)) fin = has(model, 'ui.plan.final_credit_only') ? t('ui.plan.final_credit_only') : '–';
-      else if (cap && has(model, 'ui.plan.final_capped')) { fin = t('ui.plan.final_capped', { held: fmtNum(cap.held), planned: fmtNum(cap.planned) }); if (!example) example = cap; }
-      else if (typeof (rec.group_top || {})[g] === 'number') fin = fmtNum(rec.group_top[g]);
+      else if (cap && has(model, 'ui.plan.final_capped')) { fin = t('ui.plan.final_capped', { held: fmtSets(model, cap.held), planned: fmtSets(model, cap.planned) }); if (!example) example = cap; }
+      else if (typeof (rec.group_top || {})[g] === 'number') fin = fmtSets(model, rec.group_top[g]);
     }
     rows.push([t('group.' + g), row(w => (w.weekly_sets_by_group || {})[g]), fin]);
   }
@@ -977,11 +1096,11 @@ function setsByWeekTable(plan, tb, model, o) {
   // a block with no stairway of sets (a timed circuit, a maintenance or pre-season block) has no final sets to show: two columns
   const finals = rows.some(r => r[2] !== '–') || !has(model, 'ui.plan.sets_by_week_note_flat');
   const L = ['### ' + t('ui.plan.sets_by_week_title') + DOT + t('ui.plan.week', { n: tb.weeks[0] + '-' + tb.weeks[1] }), ''];
-  L.push('_' + (!finals ? t('ui.plan.sets_by_week_note_flat') : example ? t('ui.plan.sets_by_week_note', { held: fmtNum(example.held), planned: fmtNum(example.planned) }) : t('ui.plan.sets_by_week_note_plain')) + '_', '');
+  L.push('_' + (!finals ? t('ui.plan.sets_by_week_note_flat') : example ? t('ui.plan.sets_by_week_note', { held: fmtSets(model, example.held), planned: fmtSets(model, example.planned) }) : t('ui.plan.sets_by_week_note_plain')) + roundedNote(model, o, weeks) + '_', '');
   const head = [t('ui.plan.col.group'), t('ui.plan.col.sets_by_week', { from: tb.weeks[0], to: tb.weeks[1] }), ...(finals ? [t('ui.plan.col.final_sets')] : [])];
   L.push('| ' + head.join(' | ') + ' |', '|' + head.map(() => '---').join('|') + '|');
   for (const r of rows) L.push('| ' + (finals ? r : r.slice(0, 2)).join(' | ') + ' |');
-  L.push('| **' + t('ui.plan.total') + '** | ' + row(w => w.total_resistance_sets) + (finals ? ' | ' + fmtNum(weeks[weeks.length - 1].total_resistance_sets) : '') + ' |');
+  L.push('| **' + t('ui.plan.total') + '** | ' + row(w => w.total_resistance_sets) + (finals ? ' | ' + fmtSets(model, weeks[weeks.length - 1].total_resistance_sets) : '') + ' |');
   return L;
 }
 
@@ -996,10 +1115,10 @@ function weekMacro(plan, n, model, o) {
   const st = stairText(plan, n, model, o.lang);
   if (st) L.push('_' + esc(st) + '_', '');
   if (w.test) L.push('**' + t(testHeaderKey(w, model)) + '** (' + (w.test.items || []).map(i => t('tests.' + i)).join(', ') + ')', '');
-  for (const a of accelLines(w, model, o)) L.push('_' + a + '_', '');
+  for (const a of accelLines(w, model, o, plan)) L.push('_' + a + '_', '');
   const sets = model.rules.muscles.groups.order.filter(g => g !== 'core' && typeof (w.weekly_sets_by_group || {})[g] === 'number' && w.weekly_sets_by_group[g] > 0)
-    .map(g => t('group.' + g) + ' ' + fmtNum(w.weekly_sets_by_group[g]));
-  if (sets.length && has(model, 'ui.plan.sets_this_week')) L.push('**' + t('ui.plan.sets_this_week') + ':** ' + [...sets, t('ui.plan.total') + ' ' + fmtNum(w.total_resistance_sets)].join(DOT), '');
+    .map(g => t('group.' + g) + ' ' + fmtSets(model, w.weekly_sets_by_group[g]));
+  if (sets.length && has(model, 'ui.plan.sets_this_week')) L.push('**' + t('ui.plan.sets_this_week') + ':** ' + [...sets, t('ui.plan.total') + ' ' + fmtSets(model, w.total_resistance_sets)].join(DOT), '');
   const ab = athleticLine(plan, w, model, o);
   if (ab) L.push(ab, '');
   const glance = weekGlance(plan, n, model, o);
@@ -1062,7 +1181,11 @@ function blockView(plan, trainingBlock, model, o) {
   const tb = (plan.shape.training_blocks || []).find(x => x.n === trainingBlock);
   if (!tb) return '';
   const weeks = (plan.weeks || []).filter(w => w.training_block === tb.n);
-  const L = ['## ' + t('ui.plan.view.block') + DOT + t(tb.label_key) + DOT + t('ui.plan.week', { n: tb.weeks[0] + '-' + tb.weeks[1] }), ''];
+  // (v0.6 words, sample 03 minor: 'Block · Training block' - the label already says it is a block)
+  const viewWord = t('ui.plan.view.block'), label = t(tb.label_key);
+  const wks = t('ui.plan.week', { n: tb.weeks[0] + '-' + tb.weeks[1] });
+  const dup = label.toLowerCase().includes(viewWord.toLowerCase());
+  const L = ['## ' + (dup && has(model, 'ui.plan.block_view_title') ? model.t(o.lang, 'ui.plan.block_view_title', { label, weeks: wks }) : (dup ? '' : viewWord + DOT) + label + DOT + wks), ''];
   const levels = weeks.filter(w => typeof w.stair_level === 'number');
   if (levels.length) L.push('**' + t('ui.plan.level') + ':** ' + levels.map(w => w.stair_level.toFixed(1)).join(DOT), '');
   // v0.5 / V3: the block's weekly sets per muscle group, week by week (design/ENGINE_V05_PLAN.md 'the plan prints weekly sets per group')
@@ -1088,7 +1211,7 @@ function blockView(plan, trainingBlock, model, o) {
         // B3 (RECHECK 03 major: a test-only row with dashes): tests are not stairway sets, they are written in their weeks
         if (['warmup', 'cooldown', 'aerobic'].includes(b.kind) || !(it.name_key || it.wod) || it.role === 'test' || it.bucket === 'TEST') continue;
         if (!rows.has(it.slot_id)) {
-          rows.set(it.slot_id, { names: [], sets: new Map(), reps: [], byEb: new Map() });
+          rows.set(it.slot_id, { names: [], sets: new Map(), reps: [], byEb: new Map(), circuit: [] });
           order.splice(prev === null ? 0 : order.indexOf(prev) + 1, 0, it.slot_id);
         }
         prev = it.slot_id;
@@ -1101,6 +1224,9 @@ function blockView(plan, trainingBlock, model, o) {
         // (fix round 2 / F3; RECHECK v0.4 06 / 07 minors: 'A -> B' hid a slot that went A, B, A or A, A-detail, A): the name and the reps
         // of each exercise block, in order
         if (!r.byEb.has(w.exercise_block)) r.byEb.set(w.exercise_block, { name: nm, reps: rp });
+        // (v0.6 words, sample 05 major: '4 rounds x 35 s -> 4 rounds x 45 s' over a block that ends at 5 rounds x 50 s): a circuit station's
+        // dose reads from its first week to its last
+        if (it.circuit && V6(model).circuit_from_weeks) r.circuit.push(esc(formatReps({ type: 'rounds_work', rounds: it.circuit.rounds, work_s: it.circuit.work_s }, model, o.lang)));
       }
     }
     if (!rows.size) continue;
@@ -1115,7 +1241,7 @@ function blockView(plan, trainingBlock, model, o) {
       const seq = (list) => list.filter((x, i) => x && (i === 0 || x !== list[i - 1]));
       const ebSeq = [...r.byEb.keys()].sort((a, b) => a - b).map(k => r.byEb.get(k));
       const names = ebSeq.length ? seq(ebSeq.map(x => x.name)) : r.names;
-      const reps = ebSeq.length ? seq(ebSeq.map(x => x.reps)) : (r.reps.length > 2 ? [r.reps[0], r.reps[r.reps.length - 1]] : r.reps);
+      const reps = r.circuit.length ? seq([r.circuit[0], r.circuit[r.circuit.length - 1]]) : ebSeq.length ? seq(ebSeq.map(x => x.reps)) : (r.reps.length > 2 ? [r.reps[0], r.reps[r.reps.length - 1]] : r.reps);
       L.push('| ' + names.join(' → ') + ' | ' + byEb.join(DOT) + ' | ' + reps.join(' → ') + ' |');
     }
     L.push('');
@@ -1132,12 +1258,14 @@ function weekSection(plan, n, model, o) {
   const st = stairText(plan, n, model, o.lang);
   if (st) L.push('_' + esc(st) + '_', '');
   if (w.test) L.push('**' + t(testHeaderKey(w, model)) + '** (' + (w.test.items || []).map(i => t('tests.' + i)).join(', ') + ')', '');
-  for (const a of accelLines(w, model, o)) L.push('_' + a + '_', '');
+  for (const a of accelLines(w, model, o, plan)) L.push('_' + a + '_', '');
   // B3: the intensifier line only in a week whose items carry one (RECHECK 05 minor: announced, but no item had it)
   if (w.planned_rir && w.planned_rir.intensifiers && intensifierWeeks(plan).includes(n)) {
     // F3: the days that carry one (RECHECK 04 / 06 / 08 minors: 'one intensifier per training day' with days that had none)
     const days = intensifierDays(plan, n);
-    if (days.length && has(model, 'effort.intensifier_days')) L.push('_' + t(days.circuit ? 'effort.intensifier_days_circuit' : 'effort.intensifier_days', { days: days.slice() }) + '_', '');
+    // (v0.6 words, sample 08 minor: 'one intensifier on each of these days (Thursday)' for a single day)
+    const one = days.length === 1 && !days.circuit && has(model, 'effort.intensifier_days_one');
+    if (days.length && has(model, 'effort.intensifier_days')) L.push('_' + t(one ? 'effort.intensifier_days_one' : days.circuit ? 'effort.intensifier_days_circuit' : 'effort.intensifier_days', { days: days.slice() }) + '_', '');
     else L.push('_' + t('effort.intensifier') + '_', '');
   }
   const ch = changesText(plan, n, model, o.lang);
@@ -1163,6 +1291,13 @@ function testHeaderKey(w, model) {
 function athleticLine(plan, w, model, o) {
   const t = T(model, o), a = w.athletic_budget;
   if (!a || !a.planned) return '';
+  // v0.6 words (samples 05 / 08 minors: 'Athletic work this week: 20 throws' in a general-population bootcamp; 'Plyo share 37 % · Receive-Create
+  // 1: Land' for a 52-year-old recreational player): no athlete line for the families the rules name, no share or stage for a client who
+  // does not compete
+  const AL = V6(model).athletic_line || null;
+  const m = plan.meta || {};
+  if (AL && (AL.hide_families || []).includes(m.family)) return '';
+  const athleteWords = !(AL && AL.hide_share_stage_unless) || (m.profile && m.profile.competitive === AL.hide_share_stage_unless);
   const p = a.planned, parts = [];
   // fix round 2 / F3 (RECHECK v0.4 03 minor: '48 jump contacts' with the ankle hops inside next to 'about 20 % of your weekly jump
   // contacts'): jumps and ankle hops are two numbers, like the capacity lines
@@ -1180,8 +1315,8 @@ function athleticLine(plan, w, model, o) {
   // v0.4 stage B2 (minimal): the plan's own planned share - reactive jumps + ankle work over all jump and throw work (R2-ATH-01 /
   // R2-ATH-02: pogo and ankle hops are plyometric); older plans without it keep the v1.2 reading
   const share = typeof a.planned_share === 'number' ? a.planned_share : (work > 0 ? (p.plyo_contacts || 0) / work : null);
-  if (work > 0 && typeof a.plyo_share === 'number' && share !== null) parts.push(t('ui.plan.plyo_share', { pct: Math.round(100 * share) }));
-  if (a.stage) parts.push(t('plyo.stage.' + a.stage));
+  if (athleteWords && work > 0 && typeof a.plyo_share === 'number' && share !== null) parts.push(t('ui.plan.plyo_share', { pct: Math.round(100 * share) }));
+  if (athleteWords && a.stage) parts.push(t('plyo.stage.' + a.stage));
   return parts.length ? '**' + t('ui.plan.athletic_budget') + ':** ' + parts.join(DOT) : '';
 }
 
@@ -1290,7 +1425,7 @@ function dayCard(plan, n, weekday, model, o) {
   // v0.5 / V3 (COACH-CT CT-01, COACH-R4 R4-SES-01): the average time, as a range - information only, never a limit
   if (typeof d.est_minutes === 'number') L.push('_' + estText(model, o, d.est_minutes, true) + '_');
   // B3 (COACH-R3 R3-SES-02): what can be switched off today, and the supersets that save time
-  const sw = switchLine(d, model, o);
+  const sw = switchLine(d, model, o, plan);
   if (sw) L.push('_' + sw + '_');
   // v0.5 (CT-01): no 'over your minutes' lines - the estimate above is information; the supersets below are suggestions
   const sugg = supersetSuggestions(d, model, o);
@@ -1345,13 +1480,16 @@ function pairOrder(items) {
 }
 
 /** 'You can switch off these blocks today: core, jumps, throws and speed. You can also add or remove exercises.' */
-function switchLine(d, model, o) {
+function switchLine(d, model, o, plan) {
   if (!has(model, 'ui.plan.edit_day')) return '';
   const kinds = (d.toggle_blocks || (d.blocks || []).filter(b => b.toggle).map(b => b.kind)).filter((k, i, a) => SWITCH_KINDS.includes(k) && a.indexOf(k) === i && (d.blocks || []).some(b => b.kind === k && (b.items || []).length));
   // (fix round 2 / F1 minimal seam, E-152: a circuit's switchable athletic / cardio station, by name)
   const all = (d.blocks || []).flatMap(b => b.items || []);
+  // (v0.6 words, sample 05 minor: a jump rope listed as '(jumps, throws and speed)' in a general-population bootcamp)
+  const CSL = V6(model).circuit_station_label;
+  const stLabel = CSL && (CSL.families || []).includes(plan && plan.meta && plan.meta.family) && has(model, CSL.key) ? CSL.key : 'block.short.athletic';
   const stations = (d.toggle_items || []).filter(x => x.toggle).map(x => all.find(it => it.slot_id === x.slot_id)).filter(Boolean)
-    .map(it => exName(model, o, it) + ' (' + model.t(o.lang, 'block.short.athletic') + ')');
+    .map(it => exName(model, o, it) + ' (' + model.t(o.lang, stLabel) + ')');
   if (!kinds.length && !stations.length) return '';
   return T(model, o)('ui.plan.edit_day', { blocks: [...kinds.map(k => (has(model, 'block.short.' + k) ? model.t(o.lang, 'block.short.' + k) : model.t(o.lang, 'block.' + k))), ...stations].join(', ') });
 }
@@ -1380,7 +1518,11 @@ function itemDose(model, o, it, opt = {}) {
   if (it.bucket === 'SKILL' && it.reps && it.reps.type === 'minutes') return t('ui.plan.skill_dose', { min: it.reps.min, max: it.reps.max });
   // B3 (RECHECK 01 / 02 / 03 minors: 'countermovement jump — countermovement jump'): a test item's name is its test; no dose repeat
   if (it.bucket === 'TEST') return '';
-  const reps = it.set_reps ? formatSetReps(it.set_reps, model, o.lang) : formatReps(it.reps, model, o.lang);
+  // (v0.6 words: the written-out pyramid carries its own set count - '5 sets: 12, 10, 8, 8, then a light back-off set of 20')
+  if (it.set_reps && isPyramid(it.set_reps, model)) return formatSetReps(it.set_reps, model, o.lang, opt.short ? undefined : it.sets);
+  // (v0.6 words, sample 03 minor: 'single-leg broad jump 3 x 5 contacts' with no 'per leg')
+  const perLeg = it.reps && it.reps.type === 'contacts' && it.laterality === 'unilateral' && V6(model).contacts_per_leg_key && has(model, V6(model).contacts_per_leg_key);
+  const reps = it.set_reps ? formatSetReps(it.set_reps, model, o.lang) : perLeg ? t(V6(model).contacts_per_leg_key, { n: it.reps.value }) : formatReps(it.reps, model, o.lang);
   if (opt.short) return reps;
   if (typeof it.sets === 'number' && it.sets > 0 && reps) return it.sets + ' × ' + reps;
   if (typeof it.sets === 'number' && it.sets > 0) return String(it.sets) + ' × ';
@@ -1406,6 +1548,9 @@ function aerobicPattern(it, model, o) {
   const run = ['run', 'treadmill'].includes(e.modality);
   if (p.kind === 'steady') return t('aerobic.pattern.steady');
   if (p.kind === 'sprints') return run ? t('aerobic.pattern.sprints_run', { n: p.n, m: p.m }) : t('aerobic.pattern.sprints_machine', { n: p.n, s: p.s });
+  // v0.6 words (sample 06 minor: 'Orange (C): long / easy · rower - 30 min · 11 min steady / 2 min easy, repeat'): a long / easy colour on a
+  // machine is steady work; the run / walk split of his sheet is for running
+  if (p.kind === 'intervals' && !run && (V6(model).aerobic_steady_off_feet || []).includes(e.colour)) return t('aerobic.pattern.steady');
   if (p.kind === 'intervals') {
     const byColour = 'aerobic.pattern.intervals_' + e.colour;
     return t(run ? 'aerobic.pattern.run_walk' : (has(model, byColour) ? byColour : 'aerobic.pattern.intervals'), { work: time(p.work_s), easy: time(p.easy_s) });
@@ -1504,6 +1649,8 @@ function itemDetails(plan, d, it, model, o, w) {
     if (!n || !n.key || (n.key === 'load.week1_tip' && it.load && it.load.type === 'week1_tip')) continue;
     if (ONCE_NOTES.includes(n.key) && has(model, ONCE_LINE[n.key])) continue;
     if (replaces && n.key === 'note.test_day') continue;
+    // (v0.6 words, sample 06 major: 'Keep this lift at 8-10 reps' under per-set reps of 12 and 20)
+    if (n.key === 'note.rep_cap' && it.set_reps && V6(model).pyramid && V6(model).pyramid.drop_rep_cap) continue;
     L.push('- ' + t(n.key, n.args));
   }
   // F3 (ORD-05; RECHECK 06 minor: partners with unequal sets and no word on the leftover sets): the extra sets of the longer
@@ -1520,7 +1667,10 @@ function itemDetails(plan, d, it, model, o, w) {
   }
   if (it.cue_key && !it.wod) L.push('> ' + t(it.cue_key));
   if (o.show_swaps && (it.swaps || []).length) L.push('- ' + t('ui.plan.swaps') + ': ' + it.swaps.filter(s => model.hasEx(s)).map(s => swapText(model, o, it, s)).join(' / '));
-  if (it.name_key && !it.wod) {
+  // v0.6 words (samples 03 / 07 minors; R4-LIB-05): no 'Watch how' search on an aerobic colour session - a search for 'Blue (A): short /
+  // high intensity' finds nothing useful, and the session is written out on the card
+  const noAerobicVideo = aerobicOf(it) && V6(model).aerobic_video === 'none';
+  if (it.name_key && !it.wod && !noAerobicVideo) {
     const v = it.video;
     // v0.5 / V2 (COACH-R4 R4-LIB-05): a YouTube search built from the exercise's English name - no third-party video link - and
     // that exact name to copy and paste (the coach's own videos, kind 'coach', can be added later)

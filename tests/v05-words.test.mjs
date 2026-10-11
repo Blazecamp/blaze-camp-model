@@ -194,7 +194,8 @@ for (const [mname, model] of MODELS) {
       // CX-02: a week with the same sets progresses with reps or load; R4-PRG-04: where the next block starts
       assert.ok(unesc(mdOf('06')).includes(t('en', 'ui.plan.progress_sets')) && unesc(mdOf('06')).includes(t('en', 'ui.plan.progress_next', { pct: 5 })));
       // a timed circuit climbs by work time, and says so
-      assert.ok(unesc(mdOf('05', 'es')).includes(t('es', 'ui.plan.progress_circuit')));
+      // (v0.6 words, converted - DECISIONS G-160: the circuit line is built from the weeks' own rounds and work time)
+      assert.ok(unesc(mdOf('05', 'es')).includes(t('es', 'ui.plan.progress_circuit_v6').split('{')[0]));
     });
 
     it('R4-PRG-03: a lift with its reps written per set (the 12/10/8 pyramid) reads "the written reps"; V34 holds the rule on every plan', () => {
@@ -227,10 +228,14 @@ for (const [mname, model] of MODELS) {
           assert.ok(out.includes(legend), `${n} ${lang}: the legend`);
           for (const w of fast) {
             assert.match(out, new RegExp('\\| ' + w.n + ' ' + R.render.acceleration.mark + '( · [^|]+)? \\|'), `${n} ${lang}: week ${w.n} marked`);
+            // (v0.6 words, converted - DECISIONS G-172: one line per week and step size, the groups listed; a circuit week that added a
+            // round says 'every muscle group: one more circuit round')
+            const wk = unesc(renderWeek(p, w.n, model, { lang })).toLowerCase(), mac = unesc(renderWeek(p, w.n, model, { lang, macro: true })).toLowerCase();
+            const allRound = t(lang, 'ui.plan.accel_week_all_round', { pct: 0 }).split('(')[0].toLowerCase();
             for (const a of w.acceleration) {
-              const line = a.total ? t(lang, 'ui.plan.accel_week_total', { pct: a.pct }) : t(lang, 'ui.plan.accel_week', { pct: a.pct, group: t(lang, 'group.' + a.group) });
-              assert.ok(unesc(renderWeek(p, w.n, model, { lang })).includes('_' + line + '_'), `${n} ${lang} week ${w.n}: ${line}`);
-              assert.ok(unesc(renderWeek(p, w.n, model, { lang, macro: true })).includes(line), 'the macro week says it too');
+              if (a.total && w.acceleration.some(x => x.group)) continue;
+              const line = (a.total ? t(lang, 'ui.plan.accel_week_total', { pct: a.pct }) : t(lang, 'group.' + a.group)).toLowerCase();
+              for (const out2 of [wk, mac]) assert.ok(out2.includes(line) || (out2.includes(allRound) && out2.includes(a.pct + ' %')), `${n} ${lang} week ${w.n}: ${line}`);
             }
           }
           assert.ok(/adjust if needed|ajusta si hace falta/.test(out));
@@ -347,13 +352,13 @@ for (const [mname, model] of MODELS) {
           assert.ok(row, `${n}: the ${g} row`);
           const cells = row.split('|').map(x => x.trim());
           // the recount from the items, week by week (a set counts at most 1.0 to a group)
-          const want = p.weeks.map(w => { let v = 0; for (const d of w.days) for (const it of itemsOf(d)) v += (typeof it.sets === 'number' ? it.sets : 0) * (groupCredits(model, it.credits || {})[g] || 0); return String(Math.round(v * 100) / 100); });
+          const want = p.weeks.map(w => { let v = 0; for (const d of w.days) for (const it of itemsOf(d)) v += (typeof it.sets === 'number' ? it.sets : 0) * (groupCredits(model, it.credits || {})[g] || 0); return String(Math.round(v)); }); // (v0.6 words, converted - DECISIONS G-174: the table prints whole sets)
           assert.deepEqual(cells[2].split(/ · | /).filter(Boolean), want, `${n} ${g}`);
           const cap = (st.capped || []).find(x => x.group === g);
-          assert.equal(cells[3], cap ? t('en', 'ui.plan.final_capped', { held: cap.held, planned: cap.planned }) : String(st.group_top[g]), `${n} ${g}: final sets`);
+          assert.equal(cells[3], cap ? t('en', 'ui.plan.final_capped', { held: cap.held, planned: cap.planned }) : String(Math.round(st.group_top[g])), `${n} ${g}: final sets`);
         }
         for (const g of (st.credit_only_groups || []).filter(x => p.weeks.some(w => (w.weekly_sets_by_group || {})[x] > 0))) { const row = out.split('\n').find(l => l.startsWith('| ' + t('en', 'group.' + g) + ' | ') && l.includes(t('en', 'ui.plan.final_credit_only'))); assert.ok(row, `${n}: ${g} has no exercise of its own`); }
-        assert.ok(out.split('\n').some(l => l.startsWith('| **' + t('en', 'ui.plan.total') + '** | ' + p.weeks.slice(0, 2).map(w => w.total_resistance_sets).join(' '))));
+        assert.ok(out.split('\n').some(l => l.startsWith('| **' + t('en', 'ui.plan.total') + '** | ' + p.weeks.slice(0, 2).map(w => Math.round(w.total_resistance_sets)).join(' '))));
       }
       // sample 06: chest is capped by the template and the table says '13 of 25'
       // (v0.5 fix round 1: the incline press of the 'Chest / Shoulders' slot and the half set of a high-incline press now count for

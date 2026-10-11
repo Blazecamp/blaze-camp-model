@@ -1391,6 +1391,44 @@
      "R2-GEN-08"
     ],
     "status": "approved rules (VOL-03 pain: cut, do not push it); the words are PROPOSED"
+   },
+   "x6": {
+    "depth_by_pattern": [
+     {
+      "id_re": "step-?up",
+      "key": "note.pain_free_depth_step"
+     },
+     {
+      "machine": true,
+      "key": "note.pain_free_depth_machine"
+     },
+     {
+      "classes": [
+       "BKD"
+      ],
+      "key": "note.pain_free_depth_squat"
+     },
+     {
+      "classes": [
+       "UKD"
+      ],
+      "key": "note.pain_free_depth_lunge"
+     }
+    ],
+    "step_height_in": [
+     6,
+     12
+    ],
+    "step_height_cm": [
+     15,
+     30
+    ],
+    "refs": [
+     "VOL-03",
+     "R3-ATH-02",
+     "R2-GEN-08"
+    ],
+    "status": "approved rule (VOL-03: pain - cut, do not push it); PROPOSED: the words and the 6-12 in step"
    }
   },
   "refs": [
@@ -11119,7 +11157,9 @@
   "video_search_english": true,
   "refs": [
    "CT-01",
+   "GEN-08",
    "OBSERVED MASTER_MODEL EXAMPLE CROSSFIT SPLIT A4:A7",
+   "PRG-07",
    "R2-GEN-02",
    "R2-GEN-08",
    "R3-SES-02",
@@ -11228,6 +11268,66 @@
     "CX-04"
    ],
    "status": "approved direction (R2-GEN-02); PROPOSED: the layout of each table"
+  },
+  "v6": {
+   "circuit_from_weeks": true,
+   "pyramid": {
+    "note_key": "note.pyramid_backoff",
+    "drop_rep_cap": true,
+    "refs": [
+     "PRG-07",
+     "R4-PRG-03"
+    ]
+   },
+   "changes_from_sets": true,
+   "block_changes_by_day": true,
+   "credit_only_lifts_key": "warning.credit_only_groups_lifts",
+   "session_size_from_days": true,
+   "pain_line_no_lift_suffix": "_no_lift",
+   "pain_lift_notes": [
+    "note.pain_swap",
+    "note.pain_instead_of"
+   ],
+   "class_member_instruction": {
+    "family": "hybrid_crossfit",
+    "unless_competitive": true,
+    "replace": {
+     "instruction.cf.3": "instruction.cf.3_class"
+    }
+   },
+   "aerobic_video": "none",
+   "aerobic_steady_off_feet": [
+    "C"
+   ],
+   "accel_one_line": true,
+   "sets_display": "whole",
+   "athletic_line": {
+    "hide_families": [
+     "fat_loss_bootcamp"
+    ],
+    "hide_share_stage_unless": "competitive"
+   },
+   "circuit_station_label": {
+    "families": [
+     "fat_loss_bootcamp"
+    ],
+    "key": "block.short.circuit_station"
+   },
+   "contacts_per_leg_key": "reps.contacts_per_leg",
+   "refs": [
+    "R4-PRG-02",
+    "R4-PRG-03",
+    "R4-SES-02",
+    "R4-LIB-05",
+    "CX-02",
+    "CX-04",
+    "PRG-07",
+    "VOL-03",
+    "GEN-01",
+    "GEN-08",
+    "R2-GEN-08"
+   ],
+   "status": "approved rules (the coach ids above); PROPOSED: the wording of every new line (machine-written Spanish listed in es_review.priority_review)"
   }
  }
 }
