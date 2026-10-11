@@ -174,7 +174,6 @@ export const UI = {
   'locked.core_never_skipped': ['Core is never skipped', 'El core nunca se salta'],
   'locked.no_variable_resistance': ['No bands, chains or weight releasers', 'Sin ligas, cadenas ni liberadores de peso'],
   'locked.athletic_never_counts': ['Jumps, throws, sprints and Olympic lifts never count as muscle sets', 'Saltos, lanzamientos, sprints y olímpicos nunca cuentan como series musculares'],
-  'locked.weekly_rise_below_10pct': ['Total weekly sets rise by less than 10%', 'Las series semanales totales suben menos de 10%'],
   'locked.older_injured_never_list': ['Older, injured or high-volume clients: no overhead squat, snatch, low-bar squat or depth jumps', 'Adultos mayores, lesionados o de alto volumen: sin sentadilla overhead, arranque, sentadilla barra baja ni saltos de profundidad'],
   'locked.no_sex_rules': ['No rules by sex', 'Sin reglas por sexo'],
   'locked.axial_once_per_pattern': ['Spine loaded once a week per pattern (one squat day, one deadlift day)', 'Columna cargada una vez por semana por patrón (un día de sentadilla, uno de peso muerto)'],

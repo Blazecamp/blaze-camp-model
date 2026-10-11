@@ -54,7 +54,7 @@ export function amendRulesR2F2(rules) {
       enabled: true, max_extra_per_station: 1,
       sets_max: { jump_contacts: 4, plyo_contacts: 4, low_contacts: 3, throws: 4, cod_cuts: 4, sprint_m: 3 },
       room_factor: 1,
-      refs: ['R3-VOL-04', 'R3-SES-02', 'VOL-07'], status: 'PROPOSED (fix round 2 / F2): one extra set, the set caps, only inside the day\'s minutes'
+      refs: ['R3-VOL-04', 'R3-SES-02', 'VOL-07'], status: 'PROPOSED (fix round 2 / F2): one extra set and the set caps'
     },
     // E-162 (RECHECK v0.4 01 major: the bone-loading ankle block ran once a week for 12 weeks): the second ankle day opens with the
     // exercise block whose first week's ankle target holds a minimum set on each day (never mid-block, PER-02)

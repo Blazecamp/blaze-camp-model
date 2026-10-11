@@ -95,7 +95,6 @@ export const UI_V11 = {
   'note.wod': ['WOD: jumps, throws, swings and wall balls here never count as muscle sets', 'WOD: los saltos, lanzamientos, swings y wall balls aquí nunca cuentan como series musculares'],
   'note.circuit': ['Circuit: {rounds} rounds, {work_s} s per station, {transition_s} s to change, {between_s} s between rounds', 'Circuito: {rounds} rondas, {work_s} s por estación, {transition_s} s para cambiar, {between_s} s entre rondas'],
   'note.prehab': ['Joint care for {code}', 'Cuidado articular para {code}'],
-  'note.long_day': ['This full-body day runs a little longer: every muscle group gets at least 2 exercises', 'Este día de cuerpo completo dura un poco más: cada grupo muscular recibe al menos 2 ejercicios'],
   'note.core_supersets_optional': ['Optional: add a core superset to any exercise', 'Opcional: agrega una superserie de core a cualquier ejercicio'],
   // ---- one-detail variations between exercise blocks (R2-LIB-01): rendered '<name> - <detail>'
   'detail.hand': ['weight in the opposite hand', 'peso en la mano contraria'],

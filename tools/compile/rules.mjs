@@ -63,7 +63,6 @@ export function buildRules(equipmentModel) {
       { id: 'LK05', key: 'locked.core_never_skipped', refs: ['GEN-08', 'ATH-11'] },
       { id: 'LK06', key: 'locked.no_variable_resistance', refs: ['EQ-01', 'EQ-12'] },
       { id: 'LK07', key: 'locked.athletic_never_counts', refs: ['VOL-10', 'R2-VOL-05'] },
-      { id: 'LK08', key: 'locked.weekly_rise_below_10pct', refs: ['UNI-05', 'R2-VOL-01'] },
       { id: 'LK09', key: 'locked.older_injured_never_list', refs: ['EQ-03', 'R2-ATH-08'] },
       { id: 'LK10', key: 'locked.no_sex_rules', refs: ['ATH-09', 'GEN-02'] },
       { id: 'LK11', key: 'locked.two_spine_days', refs: ['PER-04', 'EQ-11', 'R2-SES-01', 'R2-SES-02'] },

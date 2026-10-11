@@ -58,14 +58,6 @@
    ]
   },
   {
-   "id": "LK08",
-   "key": "locked.weekly_rise_below_10pct",
-   "refs": [
-    "UNI-05",
-    "R2-VOL-01"
-   ]
-  },
-  {
    "id": "LK09",
    "key": "locked.older_injured_never_list",
    "refs": [
@@ -5723,7 +5715,6 @@
      "BONE_LOADING_NON_IMPACT"
     ],
     "keep_for_ankle_track": true,
-    "keep_from_minutes": 45,
     "refs": [
      "R2-ATH-02",
      "R3-SES-01",
@@ -5749,7 +5740,6 @@
      "sprint_m": 2
     },
     "sprint_second_station": true,
-    "add_from_minutes": 60,
     "refs": [
      "R2-ATH-01",
      "R3-ATH-01",
@@ -5889,7 +5879,7 @@
      "R3-SES-02",
      "VOL-07"
     ],
-    "status": "PROPOSED (fix round 2 / F2): one extra set, the set caps, only inside the day's minutes"
+    "status": "PROPOSED (fix round 2 / F2): one extra set and the set caps"
    },
    "ankle_second_day": {
     "opens_when_target_holds_min": true,

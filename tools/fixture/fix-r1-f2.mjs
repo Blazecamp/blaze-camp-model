@@ -36,7 +36,7 @@ export function amendRulesF2(rules) {
     // jumps switches it off too (R3-SES-02); a sport with a bone-loading need (BONE_LOADING_NON_IMPACT) spreads it over
     // `bone_loading_days` days
     ankle_block: { outside_day_split: true, outside_athlete_cap: true, time_class: 'ankle', bone_loading_days: 2, bone_loading_min_peak: 40, bone_loading_codes: ['BONE_LOADING_NON_IMPACT'],
-      keep_for_ankle_track: true, keep_from_minutes: 45, refs: ['R2-ATH-02', 'R3-SES-01', 'R3-ATH-01', 'R3-ATH-02', 'SCIENCE AQ8'], status: 'PROPOSED (F2)' },
+      keep_for_ankle_track: true, refs: ['R2-ATH-02', 'R3-SES-01', 'R3-ATH-01', 'R3-ATH-02', 'SCIENCE AQ8'], status: 'PROPOSED (F2)' },
     // the athletic tracks get the stations their week needs, read from the plan's own weekly targets (the share split, the season
     // factors) at the training block's peak: a station holds about `per_station` of a key at its usual 2 sets; at most `max_stations`
     // a week; jump / throw stations go to the main day with the fewest jump / throw stations (a day with none first: RECHECK 01
@@ -46,7 +46,6 @@ export function amendRulesF2(rules) {
       per_station: { jumps: 16, throws: 20, low_contacts: 40, cod_cuts: 24 },
       max_stations: { jumps: 3, throws: 2, low_contacts: 2, cod_cuts: 3, sprint_m: 2 },
       sprint_second_station: true,
-      add_from_minutes: 60,
       refs: ['R2-ATH-01', 'R3-ATH-01', 'R3-SES-01', 'D-63', 'D-73'],
       status: 'PROPOSED (F2): station sizes and caps'
     },

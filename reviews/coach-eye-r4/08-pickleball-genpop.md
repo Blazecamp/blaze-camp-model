@@ -1,0 +1,73 @@
+# Coach-eye review, round 4: 08 Pickleball, gen-pop, 52, knee pain
+
+**Grade: B** (a few fixes before Lalo hands it to a client)
+
+Reviewed: `samples/plans/08-pickleball-genpop.en.md`, `.es.md`, `.json`, intake `samples/intakes/08-pickleball-genpop.json` (52 years old, 0.5 years of lifting (L1), 2 gym days Mon/Thu, pickleball Wed/Sat/Sun, basic gym, mild right-knee pain worse with deep knee bends, 18 in box).
+Authority used: round 4 > CT-01 > CX > round 3 > round 2 > full answers. I did not judge session length or minutes (CT-01). I raise open questions from `samples/STATUS_v0.5.md` only as minors.
+
+**In short.** The skeleton is his. The A day runs pull + knee-dominant lifts and the B day runs push + hip-dominant lifts, in his slot order. Core comes first, power before strength, horizontal before vertical. Cross-pattern supersets are suggested. Incline replaces overhead pressing. Calves are trained on every leg day. Jumps are low-impact, and the jumps are halved because he plays 3 times a week. The plan states the 2-day rule and suggests a third day. Progression is written as a rule the person applies, and the release appears at the top and the bottom. The Spanish is good.
+
+Three things stop it from being a B+:
+- The Olympic slot does not fit a 52-year-old beginner with knee pain.
+- Shoulders reach their 6-8 sets only through a bonus exercise on the optional day.
+- The only single-leg knee lift gets a generic, partly nonsensical pain cue and no step height, for a knee that hurts on deep bends.
+
+---
+
+## Problems by severity
+
+### Blockers
+
+None.
+
+### Major
+
+| # | Where | Problem | Rule | Engine fix hint |
+|---|---|---|---|---|
+| M1 | Thursday, every week: **Single-Arm DB Snatch**. Monday, every week: **Mid-Hang Clean Pull** (barbell) | The client is 52, at L1 (half a year of lifting), has declared knee pain and plays 3 times a week. The profile's own note says "older / injured / high-volume clients: no snatch variants (EQ-03)". A one-arm overhead catch is also a poor default for a racket shoulder that hits 3 times a week. On Monday the barbell clean pull wins even though the engine's own rule (`x.olympic_split_grip`: L1 with pain, or from age 50, should get DB/KB before barbell) points the other way. Lalo would give this client a KB swing, a DB/KB high pull, a hex-bar jump or a KB squat clean, with split grips. | EQ-03 ("old, injured or a lot of high volume: collect that volume in a safe place with more constraints"); ATH-10 L1 list; `profiles.json` rec_pickleball `triple_ext.level_note`; his joint-pain note (split grips) | `engine/select.mjs`, triple-extension pool: when `pain.length > 0`, or `play_days >= 3`, or the 50+ racket overlay is on, filter out the `snatch` family (the snatch-day station relaxes to `swing` / high pull, as the `relax` branch at line ~429 already allows). In `model/rules.json > x.olympic_split_grip`, make the barbell weight a hard exclusion for L1 + pain (or raise it well above the +3 low-box bonus) so a DB/KB clean variant or a hex-bar jump wins on the clean day. Add a test named after EQ-03. |
+| M2 | Every week, shoulders group. Friday (optional day): **Bent-Over DB Reverse Fly (bonus)** | On the two training days the shoulders hold about 4.25-5.75 credited sets (KB face pull 2, rising to 3, plus helper credit). The printed 6.25 → 8 is reached only through the optional-day bonus fly. The "Before you start" line still says every big group gets 6-8 sets on 2 days, and nothing tells the client that skipping Friday leaves the shoulders (the posterior cuff and rear-delt work a racket player needs most) under the band. | R4-SES-03 (2 days: every big group about 6-8, the plan says so); R3-ATH-02 (rotator-cuff work for 50+ racket players); fix round 1's rule that a group needing the optional day must be named at the top | `engine/volume.mjs`: `floorMain` returns `null` when `D9.two_day` is set, so the 6-8 band is never held on the training days. For two-day plans, hold `meta.two_day.weekly_sets[0]` on the main days (counted_on main_days) before the bonus slot opens. Examples: KB face pull at 3 sets from week 1, or a rear-delt fly as an extra small exercise at the end of Monday (pull day). If the template truly cannot hold it, print the "needs the optional day" line from fix round 1 in "Before you start". |
+| M3 | Monday, every week: **Step-Up (forward and lateral)**. Also the Leg Extension cue | The knee-pain client's only single-leg knee lift has no step height. The intake box is 18 in, which is a deep knee bend for this person. The printed cue "Stop at the depth that stays pain-free: set the stops or use a box" does not fit a step-up (there are no stops, and the box is the exercise) or a leg extension (there is no box). Meanwhile the jump next to it correctly says "low box (6-12 in)". Lalo would write: low step, 6-12 in, go higher only if it stays pain-free, and control the way down. | R3-ATH-02 (knee-friendly strength for racket players 50+); VOL-03 / BRAIN §5.7 (painful positions out); KNEE_DEGENERATIVE_COURT hot spot (pain-free depth, slow eccentrics) | Split `note.pain_free_depth` in `model/i18n/*.json` and the catalog notes by pattern: `note.pain_free_depth.machine` ("set the machine's range stops"), `.squat` ("squat to a box at the pain-free depth"), `.step` ("use a low step, 6-12 in / 15-30 cm; go higher only if pain-free; lower slowly"). In `engine/select.mjs` / `dose.mjs`, pick the key by the exercise's pattern tag, and for step-ups with a knee pain flag cap the height at the `low_impact_heights` range, whatever `equipment.detail.box_height_in` says. EN and ES twins. |
+
+### Minor
+
+| # | Where | Problem | Rule | Engine fix hint |
+|---|---|---|---|---|
+| m1 | Quads, weeks 1-12 (6 6 6 ... 6) | The plan's engine target is the pain rule's reduced start with a +1 climb (`targets.start.quads` 4, `planned_top` 5). The plan delivers 6 flat for 12 weeks, so the quads are neither reduced nor climbing. Holding flat is defensible under CX-02 (reps and load progress), but the plan and the pain rule disagree and nothing explains why. | VOL-03; BRAIN §5.7 (start at 50-70 %, ceiling = start + 1); CX-02 | `engine/progression/stairway.mjs`: when a pain group's template slots exceed its pain target, say so ("held at what the template's 3 knee lifts hold"). Otherwise let the gentle +1 land late (for example the leg extension 2 → 3 in the last block). |
+| m2 | "Before you start", pain line | The line promises "leaves out the lifts that load it hardest and says so on the lift". No lift carries that note (no "chosen to protect your knee" anywhere). | Honest output (fix round 2: the note prints only under a lift the pain changed) | `engine/render.mjs`: build the pain summary from the notes actually printed. Drop the "says so on the lift" clause when none was printed. |
+| m3 | Monday, weeks 5-12: **Hack Squat** 12-15 → 8-12 reps | Heavier, lower-rep loading moves onto the deep-knee-bend lift of the painful knee in block 2. | VOL-03 / EQ-03 (pain: safer loading) | `engine/dose.mjs`: keep a pain-flagged pattern in its higher rep zone (10-15 or 12-15) across blocks. |
+| m4 | Both days, slot 5 (biceps on A, triceps on B) | His R4-SES-05 day has an arm slot. His athletic sheet (which this plan follows) leaves it out, so this is acceptable. But the line "Trained through your sport work and compound lifts" is wrong: pickleball does not train biceps or triceps. | R4-SES-05; stay_athletic_standard | i18n key for credit-only groups: say "through your rows, pulldowns and presses" and offer a curl / triceps extension in the optional add-ons. |
+| m5 | Stairway, weeks 1-12 | 5 of the 8 added sets land in weeks 10-12 (38 → 40 → 42). Calves sit flat for 9 weeks and hips for 10. The printed sentence says "small steps up to week 6, a bit bigger from week 7". The final sets are reached, and with 2 days and +1-set steps that is acceptable, but the steps are bunched. | R3-VOL-04; R4-PRG-01 | `stairway.mjs`: spread a group's whole-set steps across the block (calves 6 → 7 around week 6, → 8 in week 11). Generate the stairway sentence from the real schedule. |
+| m6 | Thursday, block 1 → 2: **Rear-Foot-on-Wall DB RDL → Staggered-Stance (Kickstand) DB Deadlift** | The block change goes from a harder single-leg hinge to an easier, more supported one. A block change should hold level or step up, for example kickstand → rear-foot-on-wall → single-leg RDL. | R2-LIB-01 (one-detail change between blocks); PER-02 | `engine/select.mjs` block rotation: order the single-leg hinge variants by their stability ladder and never rotate down a rung without a pain reason. |
+| m7 | Monday, blocks 2-3: **Lateral Box Step-up Jump** 2 × 2 contacts | The week header says "Receive-Create 3: Repeat" in block 3, but the drill is the same single-contact step-up jump, at only 4 contacts a session. | R2-ATH-03 (stages Land → Land & Go → Repeat) | `engine/athletic.mjs`: in stage 3, pick a low, lateral repeat drill (lateral line hops, skater hops at low amplitude), or print the stage the drill really is. |
+| m8 | Instruction bridge under "Basic Instruction" | "In this plan your cardio sessions sit on lifting days." Its only cardio, the Orange bike, sits on the Friday optional day. | Accurate copy | `engine/render.mjs` (`instruction.2_bridge` condition): treat an optional day as a free day, not a lifting day, or name the day the cardio falls on. |
+| m9 | Overview, week headers, week 12 | Jargon and an odd tone for a gen-pop 52-year-old: the "Level 2.0 ... 11.0" bar column, "11 = a little past your limits" (against his "never to failure"), "Plyo share 37% · Receive-Create 1: Land", and "one intensifier on each of these days (Thursday)" for a single day. | Coach voice; H02 | `render.mjs` / i18n: hide the plyo share and Receive-Create label for recreational profiles, reword the level scale ("11 = your hardest week"), and make the intensifier line singular for one day. |
+| m10 | Header: "about 10 exercises a session" (Mon 9, Thu 10) | This is above the gen-pop range of 5-7. Known open question #6 (non-competitive adult sized 5-10); listed only for the record. | R4-SES-02; STATUS open Q6 | None until the coach answers. |
+| m11 | Weekly back vs chest (6-8 each) | Pulling is about equal to pressing, while the racket profile asks for more pulling (about 1 : 1.3-1.5). Open questions #5 and #14. | Profile `push_pull`; STATUS open Q5 / Q14 | None until the coach answers. |
+| m12 | Thursday swaps for **45-Degree Hyperextension** | Swap reasons read "loses the feel of the original implement" (a back extension has no implement). No bridge or hip-thrust option is offered. The step-up has only one swap, so no lateral lunge or split-squat-to-box option. | R4-LIB-04 (one honest line on what the swap loses) | Catalog swap-reason table: a back extension → hinge swap should read "loses the supported hip extension". Add a glute bridge and a lateral lunge as listed swaps where the pain filter allows. |
+| m13 | Monday: **Step-Up (forward and lateral)** | One item names two directions with no split ("1 set forward, 1 set lateral per side"?). | Clarity | Catalog: split it into two variants and alternate them by block, or add a dose note. |
+| m14 | Spanish (`.es.md`) | Small slips: "dolor en rodilla" should be "dolor en la rodilla". Group names are capitalized mid-sentence ("mantiene Cuádriceps", "series directas de Pantorrillas"). "Las semanas 11, 12 incluyen" should be "Las semanas 11 y 12 incluyen". The release line on a Spanish plan reads "cliente, en inglés". The bracketed term "(Back Extension)" differs from the copy name "45-Degree Hyperextension". Otherwise it is neutral Latin American Spanish with gym terms in brackets, as asked. | R2-GEN-08 / H14 | `model/i18n/es.json`: add articles in the pain template, lowercase group names when interpolated mid-sentence, a list joiner "11 y 12", and bracket terms that match the English copy name. |
+
+**Count: 0 blockers, 3 major, 14 minor.**
+
+---
+
+## What Lalo would like (praise)
+
+- **His template, slot for slot.** The A day is a two-arm row (seal row), then a two-leg knee lift (hack squat), a vertical pull (single-arm pulldown), a single-leg knee lift (step-up), and leg extensions. The B day is a horizontal press (flat DB bench), then a two-leg hip lift (45° back extension), the incline press in the vertical-push slot, a single-leg hinge, and leg curls. The suggested supersets follow his pairs: row + squat, pulldown + step-up, press + hinge.
+- **Incline before overhead** for general population (R4-LIB-03). There is no overhead pressing at all, which suits a racket shoulder.
+- **Order is right everywhere:** core opener (planks, bird dogs, dead bugs, a low-back-friendly choice), then jumps, then throws, then the Olympic slot, then strength, then accessories (H03, H04, H05).
+- **R3-ATH-02 / R3-ATH-05 are honoured:**
+  - Calves get 3 sets on both leg days.
+  - The face pull doubles as cuff care.
+  - Jumps are low-box, stick-the-landing and ankle hops, with no depth jumps, hurdle hops or bounds.
+  - The jumps are halved and there are no extra agility drills because he plays 3 times a week.
+  - The hardest gym day is 48 h before each play day.
+  - Play counts as 2 of the 3 cardio sessions, and the one Orange session runs 30 → 40 min, inside his "max 40 min of steady".
+- **Rotational throws both sides** (scoops, rotational chest pass, scoop toss, step-forward pass) with an 8 lb ball. That fits pickleball and stays under 20 lb.
+- **The 2-day rule is stated** at the top with the third-day suggestion (R4-SES-03).
+- **Progression is a rule, not a promise:** "When you hit 15 on every set ... add weight next time and start again at 12" (R4-PRG-03). Same-set weeks say "add load or reps" (CX-02). The next-block rule (+5 %, R4-PRG-04) and "everything is editable" (CX-04) are printed.
+- **Block changes are mostly real one-detail variations:** a pause at the bottom on the presses, a 1-second squeeze on the pulldown and calf raise, one leg at a time on the leg extension, and ankle hops moving from in-place to lateral to zig-zag.
+- **Every group reaches its planned final sets** in the last week, with no week jumping above about 15 %.
+- **Liability:** the release is printed at the top and the bottom in both languages, and acceptance was recorded before the build (R4-SCP-01/02). The YouTube search link and copy-name sit on every lift (R4-LIB-05).
+- **Optional add-ons fit the person:** soleus raises, tibialis raises, wrist extension for the paddle elbow, single-leg balance reach, wall sit and side-lying external rotation. They stay add-ons, never template picks (R4-LIB-01).
+- The holiday note for weeks 11-12 and the "How to adjust this plan" guide read like a coach talking.

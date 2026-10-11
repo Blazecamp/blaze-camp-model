@@ -18,7 +18,7 @@
    "profiles": 127,
    "sports_in_picker": 52,
    "activities": 26,
-   "en_keys": 2697,
+   "en_keys": 2694,
    "es_missing": 805
   },
   "do_not_edit_by_hand": "edit tools/fixture/*.mjs and rebuild; update engine/CONTRACTS.md with any shape change"
@@ -56740,14 +56740,6 @@
     ]
    },
    {
-    "id": "LK08",
-    "key": "locked.weekly_rise_below_10pct",
-    "refs": [
-     "UNI-05",
-     "R2-VOL-01"
-    ]
-   },
-   {
     "id": "LK09",
     "key": "locked.older_injured_never_list",
     "refs": [
@@ -62405,7 +62397,6 @@
       "BONE_LOADING_NON_IMPACT"
      ],
      "keep_for_ankle_track": true,
-     "keep_from_minutes": 45,
      "refs": [
       "R2-ATH-02",
       "R3-SES-01",
@@ -62431,7 +62422,6 @@
       "sprint_m": 2
      },
      "sprint_second_station": true,
-     "add_from_minutes": 60,
      "refs": [
       "R2-ATH-01",
       "R3-ATH-01",
@@ -62571,7 +62561,7 @@
       "R3-SES-02",
       "VOL-07"
      ],
-     "status": "PROPOSED (fix round 2 / F2): one extra set, the set caps, only inside the day's minutes"
+     "status": "PROPOSED (fix round 2 / F2): one extra set and the set caps"
     },
     "ankle_second_day": {
      "opens_when_target_holds_min": true,
@@ -126258,8 +126248,6 @@
     "olympic": false,
     "pairing": "same_pattern",
     "rep_column": "hypertrophy",
-    "default_minutes": 60,
-    "default_minutes_L3": 90,
     "refs": [
      "VOL-01",
      "ATH-05",
@@ -126279,7 +126267,6 @@
     "olympic": false,
     "pairing": "same_pattern",
     "rep_column": "strength",
-    "default_minutes": 90,
     "refs": [
      "VOL-12",
      "ORD-07",
@@ -126298,8 +126285,6 @@
     "olympic": true,
     "pairing": "cross_pattern",
     "rep_column": "athletic",
-    "default_minutes": 90,
-    "default_minutes_noncompetitive": 60,
     "refs": [
      "ATH-10",
      "ATH-13",
@@ -126318,7 +126303,6 @@
     "olympic": true,
     "pairing": "cross_pattern",
     "rep_column": "general",
-    "default_minutes": 60,
     "refs": [
      "ATH-13",
      "COACH-CHAT 2026-10-08"
@@ -126335,7 +126319,6 @@
     "olympic": false,
     "pairing": "cross_pattern",
     "rep_column": "fat_loss",
-    "default_minutes": 60,
     "refs": [
      "ATH-07",
      "PRG-03",
@@ -126353,7 +126336,6 @@
     "olympic": false,
     "pairing": "cross_pattern",
     "rep_column": "general",
-    "default_minutes": 60,
     "refs": [
      "ATH-07",
      "UNI-06",
@@ -126371,7 +126353,6 @@
     "olympic": true,
     "pairing": "cross_pattern",
     "rep_column": "general",
-    "default_minutes": 60,
     "refs": [
      "PRG-10",
      "ORD-03"
@@ -155085,7 +155066,6 @@
    "locked.power_before_strength": "Power before strength",
    "locked.release_every_build": "The release is accepted before every plan build",
    "locked.two_spine_days": "Heavy squat and heavy deadlift on two different days, once a week each",
-   "locked.weekly_rise_below_10pct": "Total weekly sets rise by less than 10%",
    "muscle.abs_obliques": "Abs / obliques",
    "muscle.adductors": "Adductors",
    "muscle.biceps": "Biceps",
@@ -155142,7 +155122,6 @@
    "note.joint_care_slot": "This lift is also your joint care: lower slowly and stay in a pain-free range.",
    "note.kb_swing_ballistic": "Swings are power work: they do not count as glute sets",
    "note.kb_swing_power": "Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.",
-   "note.long_day": "This full-body day runs a little longer: every muscle group gets at least 2 exercises",
    "note.older_opt_in": "You chose to include power work. Make sure you have a fitness professional to help you understand what this means.",
    "note.olympic_full_catch": "Full squat catch: 3-5 reps per set, every rep fast",
    "note.olympic_no_bumpers": "No bumper plates needed: lower the bar under control",
@@ -156144,7 +156123,6 @@
    "why.circuit_hand_over": "Your kit holds no vertical pull: this station is a rear-delt fly instead of one more row",
    "why.circuit_stairway": "Circuit stairway: work time grows {from} -> {to} s",
    "why.circuit_stand_in": "No machine for this station in your kit: a library lift for the same muscle takes its place",
-   "why.circuit_station_swap": "A circuit station now trains {group} so it holds its 10 weekly sets in your minutes",
    "why.class_level": "Class strength / power table (HALF TIME): the level climbs week by week",
    "why.clean_day": "Clean family on the squat day",
    "why.constraint_band": "More constrained option for safer volume",
@@ -157036,7 +157014,6 @@
    "locked.power_before_strength": "Potencia antes que fuerza",
    "locked.release_every_build": "La liberación de responsabilidad se acepta antes de crear cada plan",
    "locked.two_spine_days": "Sentadilla pesada y peso muerto pesado en dos días distintos, una vez por semana cada uno",
-   "locked.weekly_rise_below_10pct": "Las series semanales totales suben menos de 10%",
    "muscle.abs_obliques": "Abdomen / oblicuos",
    "muscle.adductors": "Aductores",
    "muscle.biceps": "Bíceps",
@@ -157093,7 +157070,6 @@
    "note.joint_care_slot": "Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.",
    "note.kb_swing_ballistic": "Los swings son trabajo de potencia: no cuentan como series de glúteo",
    "note.kb_swing_power": "Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.",
-   "note.long_day": "Este día de cuerpo completo dura un poco más: cada grupo muscular recibe al menos 2 ejercicios",
    "note.older_opt_in": "Elegiste incluir trabajo de potencia. Asegúrate de tener un profesional del fitness que te ayude a entender lo que esto significa.",
    "note.olympic_full_catch": "Recepción completa en sentadilla: 3-5 reps por serie, cada rep rápida",
    "note.olympic_no_bumpers": "No necesitas discos de goma: baja la barra con control",
@@ -158043,7 +158019,6 @@
    "why.circuit_hand_over": "Tu equipo no tiene tirón vertical: esta estación es una apertura posterior en lugar de un remo más",
    "why.circuit_stairway": "Escalera del circuito: el tiempo de trabajo sube {from} -> {to} s",
    "why.circuit_stand_in": "Sin máquina para esta estación en tu equipo: un ejercicio de la biblioteca para el mismo músculo toma su lugar",
-   "why.circuit_station_swap": "Una estación del circuito ahora entrena {group} para que tenga sus 10 series semanales en tus minutos",
    "why.class_level": "Tabla de fuerza / potencia de la clase (HALF TIME): el nivel sube semana a semana",
    "why.clean_day": "Familia de cargadas en el día de sentadilla",
    "why.constraint_band": "Opción más guiada para un volumen más seguro",

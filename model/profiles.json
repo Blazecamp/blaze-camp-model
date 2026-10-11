@@ -12,8 +12,6 @@
    "olympic": false,
    "pairing": "same_pattern",
    "rep_column": "hypertrophy",
-   "default_minutes": 60,
-   "default_minutes_L3": 90,
    "refs": [
     "VOL-01",
     "ATH-05",
@@ -33,7 +31,6 @@
    "olympic": false,
    "pairing": "same_pattern",
    "rep_column": "strength",
-   "default_minutes": 90,
    "refs": [
     "VOL-12",
     "ORD-07",
@@ -52,8 +49,6 @@
    "olympic": true,
    "pairing": "cross_pattern",
    "rep_column": "athletic",
-   "default_minutes": 90,
-   "default_minutes_noncompetitive": 60,
    "refs": [
     "ATH-10",
     "ATH-13",
@@ -72,7 +67,6 @@
    "olympic": true,
    "pairing": "cross_pattern",
    "rep_column": "general",
-   "default_minutes": 60,
    "refs": [
     "ATH-13",
     "COACH-CHAT 2026-10-08"
@@ -89,7 +83,6 @@
    "olympic": false,
    "pairing": "cross_pattern",
    "rep_column": "fat_loss",
-   "default_minutes": 60,
    "refs": [
     "ATH-07",
     "PRG-03",
@@ -107,7 +100,6 @@
    "olympic": false,
    "pairing": "cross_pattern",
    "rep_column": "general",
-   "default_minutes": 60,
    "refs": [
     "ATH-07",
     "UNI-06",
@@ -125,7 +117,6 @@
    "olympic": true,
    "pairing": "cross_pattern",
    "rep_column": "general",
-   "default_minutes": 60,
    "refs": [
     "PRG-10",
     "ORD-03"
