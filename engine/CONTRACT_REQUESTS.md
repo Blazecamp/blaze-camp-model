@@ -251,3 +251,7 @@ Format, one entry per ask:
 - why: the round-4 coach-eye reviews asked for printed words built from the plan's own data (circuit rounds and time, real set changes, the exercise count, the pain cue by exercise type) and for a few wording switches by client type.
 - implemented: `tools/fixture/v06-words.mjs` adds `rules.render.v6` (flags and keys read by `render.mjs` / `explain.mjs` / `dose.mjs`) and `rules.volume.pain.x6.depth_by_pattern` (read by `dose.mjs`). Additive keys only; no plan/2 field changes (the pyramid item carries `note.pyramid_backoff` and no longer `note.rep_cap`).
 - status: accepted -> DECISIONS G-160 ... G-179.
+## v0.6 volume package · §3.3 / §5 · new rule sections, a profile flag and two plan fields
+- why: the round-4 coach-eye reviews (reviews/coach-eye-r4/01-08, the volume majors): main lift first (VOL-07), the optional day's bonus for small groups only (R3-VOL-03), every capped group said (CX-04), the profile tops (UNI-02, R4-SES-02), a circuit above its top said (CX-03).
+- implemented: `rules.placement.x3`, `rules.volume.x3` (tools/fixture/v06-volume.mjs, both builds); `profiles.sports[].upper_maintenance`; `meta.stairway[].over_top`; capped groups in `summary.shortfalls`; `changes.sets_added_n`; warning `circuit_over_top`. Every new key is read with a guard, so an older model behaves as before.
+- status: implemented in the engine 0.6 volume package -> DECISIONS G-100 ... G-116; the CONTRACTS box at the top lists the shapes. The engine version bump is left to the lead (three packages merge into 0.6).

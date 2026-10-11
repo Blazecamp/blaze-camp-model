@@ -365,7 +365,10 @@ describe('v0.5 fix round 2 - samples 06 / 07 (physique)', () => {
       for (const x of itemsOf(w1)) {
         if (!x.it.exercise_id || x.d.optional || !['strength', 'accessories'].includes(x.b.kind) || x.it.origin === 'bonus') continue;
         const e = ex(x.it.exercise_id);
-        if (e.exercise_class === 'isolation' && e.credit_class !== 'ISO_CALF') assert.ok(x.it.sets <= 3, `${n} w1 ${x.d.weekday}: ${e.id} at ${x.it.sets} sets`);
+        // (engine 0.6, converted - DECISIONS G-113: the class member's arms end at floor + 2 with no second curl or extension - review 04
+        // M1 'no bonus isolation' - so the floor of 10 on the training days takes the arm exercise's 4th set from week 1, R2-VOL-06)
+        const classArm = n === '04' && ['ISO_BICEPS', 'ISO_TRICEPS'].includes(e.credit_class);
+        if (e.exercise_class === 'isolation' && e.credit_class !== 'ISO_CALF') assert.ok(x.it.sets <= (classArm ? 4 : 3), `${n} w1 ${x.d.weekday}: ${e.id} at ${x.it.sets} sets`);
       }
     }
     for (const n of ['06', '07']) for (const w of stair(planOf(n))) for (const d of w.days.filter(x => x.kind === 'main')) {
@@ -400,7 +403,8 @@ describe('v0.5 fix round 2 - samples 06 / 07 (physique)', () => {
     const ctx = makeContext({ rules: raw.rules, catalog: raw.catalog, templates: raw.templates, profiles: raw.profiles });
     const s = scorePlan(p, ctx, {});
     assert.equal((s.metrics.over_ceiling || { value: 0 }).value, 0);
-    assert.equal(SCORER_VERSION, '2.3.0');
+    // (engine 0.6, converted - DECISIONS G-118: scorer 2.4 reads rules.placement.x3.athlete_press_max)
+    assert.equal(SCORER_VERSION, '2.4.0');
   });
 });
 

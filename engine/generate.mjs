@@ -817,6 +817,18 @@ function finishWeek(C, n, col) {
     const ownIds = new Set((day.blocks || []).flatMap(b2 => b2.slots || []).filter(sl => sl.own).map(sl => sl.slot_id));
     sequenceCircuits(blocks, model, ownIds);
     pairLeftovers(blocks, model, supersetsOn);
+    // v0.6 (G-117; PER-04, E-131 'a swap never repeats an exercise of the day'): the volume engine's added exercise is placed after
+    // the template's swap lists were made - a swap that names an exercise the day already holds leaves the list (and its note)
+    {
+      const dayIds = new Set(blocks.flatMap(b => b.items.map(it => it.exercise_id)).filter(Boolean));
+      for (const b of blocks) for (const it of b.items) {
+        if (!(it.swaps || []).length) continue;
+        const keep = (id) => id === it.exercise_id || !dayIds.has(id);
+        if (it.swaps.every(keep)) continue;
+        it.swaps = it.swaps.filter(keep);
+        it.swap_notes = (it.swap_notes || []).filter(n => !n || keep(n.id));
+      }
+    }
     distinctDetails(blocks, model, derived);
     // stable block ids and on / off switches (R3-SES-02 'turn off that day's athletic training or that day's core training';
     // spec plan_editing.block_ids: blk.<day_type>.<kind>.<n>, the same id every week of the block)
@@ -1308,6 +1320,8 @@ function buildMeta(C, v, weeks = []) {
       realized_arrival_week: b ? orderedMap(b.realized_arrival_week || {}, groupOrder, x => x) : {}, realized_top: b ? orderedMap(b.realized_top || {}, groupOrder, x => x) : {},
       capped: b ? (b.capped || []).map(c => ({ ...c })) : [], below_floor: b ? (b.below_floor || []).slice() : [],
       bonus: b ? (b.bonus || []).map(x => ({ ...x })) : [], focus_closed: b ? (b.focus_closed || []).map(x => ({ ...x })) : [], acceleration: acc, circuit: !!(b && b.circuit),
+      // v0.6 G-110: a timed circuit's groups that the uniform rounds take above their top number (said up front)
+      over_top: b ? (b.over_top || []).map(x => ({ ...x })) : [],
       // v0.5 fix round 1: where the floor is read (the training days), the groups that hold it only with the optional day, the groups
       // that start under their level's start so they still climb, and the pull : push balance the block keeps (null: none)
       floor_counted_on: b ? (b.floor_counted_on || 'all_days') : 'all_days', floor_on_optional: b ? (b.floor_on_optional || []).slice() : [],

@@ -235,9 +235,11 @@ for (const [mname, model] of MODELS) {
       // rules.volume.x1.shoulders_athlete, PROPOSED)
       assert.deepEqual(pair(D9('01')), { quads: [11, 16], hamstrings: [11, 16], chest: [10, 14], lats_upper_back: [15, 21], shoulders: [10, 14], calves: [9, 11] });
       assert.deepEqual(pair(D9('02')), { quads: [14, 18], hamstrings: [14, 18], chest: [10, 13], lats_upper_back: [10, 13], shoulders: [10, 13], calves: [12, 14] });
-      assert.deepEqual(pair(D9('04')), { quads: [12, 18], hamstrings: [12, 18], chest: [12, 18], lats_upper_back: [12, 18], shoulders: [10, 18], biceps: [10, 18], triceps: [10, 18], calves: [6, 8] });
+      // (engine 0.6, converted - DECISIONS G-113: the class member's arms and shoulders end at floor + 2, chest and back at 15)
+      assert.deepEqual(pair(D9('04')), { quads: [12, 18], hamstrings: [12, 18], chest: [12, 15], lats_upper_back: [12, 15], shoulders: [10, 12], biceps: [10, 12], triceps: [10, 12], calves: [6, 8] });
       // Focus glutes + shoulders (R3-SES-01): + 2 on the start and on the ceiling; hips is ONE group - its target is the glutes line here
-      assert.deepEqual(pair(D9('06')), { quads: [20, 25], glutes: [22, 27], chest: [20, 25], lats_upper_back: [20, 25], shoulders: [17, 27], biceps: [15, 25], triceps: [15, 25], calves: [6, 25] });
+      // (engine 0.6, converted - DECISIONS G-111: the non-Focus big groups of an advanced 4-day A / B physique week start at 16)
+      assert.deepEqual(pair(D9('06')), { quads: [16, 25], glutes: [22, 27], chest: [16, 25], lats_upper_back: [16, 25], shoulders: [17, 27], biceps: [15, 25], triceps: [15, 25], calves: [6, 25] });
       assert.deepEqual(pair(D9('07')), { quads: [20, 25], hamstrings: [20, 25], chest: [22, 27], lats_upper_back: [22, 27], shoulders: [15, 25], biceps: [15, 25], triceps: [15, 25], calves: [6, 25] });
       for (const n of SAMPLES) {
         const t = D9(n);
@@ -272,10 +274,11 @@ for (const [mname, model] of MODELS) {
     it('R4-PRG-04: the next block starts about 5 % above the last start in whole sets, never above the level\'s top; an unfinished block repeats its start', () => {
       const base = D9('06', i => { i.priority_muscles = []; });
       const next = (count, extra) => D9('06', i => { i.priority_muscles = []; i.plan.previous_cycles = { count, last_block_finished: true, ...(extra || {}) }; });
-      assert.equal(base.start.quads, 20); assert.equal(base.cap.quads, 25);
-      assert.equal(next(1).start.quads, 21);                  // 20 x 1.05 = 21
-      assert.equal(next(2).start.quads, 22);                  // 21 x 1.05 = 22.05 -> 22
-      assert.equal(next(3).start.quads, 23);                  // 22 x 1.05 = 23.1 -> 23
+      // (engine 0.6, converted - DECISIONS G-111: an advanced physique client's non-Focus big groups on a 4-day A / B week start at 16)
+      assert.equal(base.start.quads, 16); assert.equal(base.cap.quads, 25);
+      assert.equal(next(1).start.quads, 17);                  // 16 x 1.05 = 16.8 -> 17
+      assert.equal(next(2).start.quads, 18);                  // 17 x 1.05 = 17.85 -> 18
+      assert.equal(next(3).start.quads, 19);                  // 18 x 1.05 = 18.9 -> 19
       assert.equal(next(1).start.biceps, 16);                 // 15 x 1.05 = 15.75 -> 16
       for (const k of [1, 2, 3]) {
         const t = next(k);
@@ -283,11 +286,11 @@ for (const [mname, model] of MODELS) {
       }
       // (at the top the sets stay, CX-03: tests/progression/prescription.test.mjs 'R4-PRG-04'; the intake counts up to 3 finished blocks)
       assert.ok((next(1).why.quads || []).some(w => w.key === 'why.next_block_start' && w.ref === 'R4-PRG-04'));
-      assert.equal(next(2, { last_block_finished: false }).start.quads, 20, 'same start when the last block was not finished (R3-PER-02)');
+      assert.equal(next(2, { last_block_finished: false }).start.quads, 16, 'same start when the last block was not finished (R3-PER-02)');
       // a year plan's later stairway blocks follow the same rule
       const d = deriveValues(sample('06', i => { i.priority_muscles = []; }), model);
       const up = stairwayPlan(d.D9_start_sets, { n: 2, type: 'stairway', stair_N: 12, factor: { cycle_step: 1 } }, d, model);
-      assert.equal(up.T.quads[0], 21); assert.equal(up.T.quads[11], 25);
+      assert.equal(up.T.quads[0], 17); assert.equal(up.T.quads[11], 25);
     });
 
     it('VOL-17: calves - one exercise x 3 sets on a leg day; the optional-day Calves slots carry the rest (no 4th set is squeezed in)', () => {

@@ -15,6 +15,7 @@ _Tu plan Blaze Camp_
 ## Antes de empezar
 
 - La semana 7 sube más de lo habitual (25 % más series en total): ajusta si hace falta.
+- Hombros: todas las estaciones hacen las mismas rondas, así que este grupo llega a 22.5 series por semana, por encima de su tope habitual de 18. Si quieres quedarte en el tope, salta una estación de Hombros en la ronda extra.
 - Mejora opcional: barra de dominadas (pull-up bar) o entrenador de suspensión (TRX) agregaría más opciones de ejercicios; el plan ya usa lo que tienes.
 - Con este equipo el plan no tiene jalón vertical (dominada o jalón en polea): un remo o una apertura posterior ocupa su lugar. Una barra de dominadas, una polea o un TRX lo agregarían.
 

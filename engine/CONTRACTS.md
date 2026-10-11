@@ -7,6 +7,29 @@ Supersedes `contracts/1.0.0` (written before round 2 was answered). Every builde
 exactly the shapes, names and signatures below. If something here is wrong or missing, **do not silently diverge**: implement
 the closest compliant thing, write the issue to `engine/CONTRACT_REQUESTS.md` and in your final report under `problems`.
 
+> **Engine 0.6 volume package (volume targets and set placement; 2026-10-11) - binding, on top of the fix-round-2 box below.**
+> Authority: the coach answers named per item (`engine/DECISIONS.md` G-100 ... G-116), read against the round-4 coach-eye reviews
+> (`reviews/coach-eye-r4/`). Model layer: `tools/fixture/v06-volume.mjs` (after `v05-fix2.mjs`, in both builds): `amendRulesV06`,
+> `amendSportV06`, `UI_V06`. The engine version is not bumped by this package (the lead bumps it once the parallel packages merge).
+> * **New rule sections** (optional for older models - the engine reads each with a guard): `rules.placement.x3` (`lead_first`
+>   {enabled, max_ahead}, `athlete_press_max` {families, credit_classes, not_tags, max, min_group_exercises}, `bonus_small_only`,
+>   `big_optional_focus_close` {enabled, always}, `bonus_no_repeat_previous_day` {compound_patterns}, `bonus_main_day_fallback`
+>   {groups, family_groups}, `two_day_main_floor`, `capped_notice_all`, `capped_shortfalls`, `work_over_paired` {families,
+>   modifiers}, `press_hold` {min_pull_per_push}, `start_max_sets` {families, compound, isolation, focus_exempt},
+>   `one_step_per_exercise`, `pre_season_main_min`, `circuit_over_top` {enabled, margin}) and `rules.volume.x3` (`nonfocus_start`
+>   {modifiers, levels, line_classes, max_days, start}, `upper_maintenance` {modifiers, lines, over_floor}, `class_tops`
+>   {families, competitive, lines}).
+> * **Profiles.** A sport profile may carry `upper_maintenance: true` (its source `resistance.avoid` names upper-body hypertrophy
+>   beyond maintenance or need).
+> * **Plan fields.** `meta.stairway[].over_top` (`[{group, top, held}]`, a timed circuit's groups above their top; `[]` otherwise).
+>   `summary.shortfalls` now lists every capped group of a block (`{code: 'capped_by_template', key, args {group, held, planned},
+>   week}`, the block's last week). A week's change list may hold `changes.sets_added_n` (args `exercise`, `day`, `slot_id`, `n`).
+>   `computeTargets` returns `x3_lowered` (the lines a profile rule lowered); a block's `cap` for such a line is at least its
+>   credited sets less one. `meta.stairway[].capped[].notice` is `true` for every capped group.
+> * **Warnings** (`plan.meta.warnings[].code`): `circuit_over_top` (args `group`, `held`, `top`). New why key: `why.bonus_main_day`.
+> * **Scorer** `design/bench/score.mjs` is 2.4.0 (parameter `placement_x3`: an athlete's flat press sits at its top at
+>   `athlete_press_max.max` sets in the staircase and exposure readings).
+
 > **Engine 0.5.0 amendments (fix round 2; 2026-10-11) - binding, on top of the fix-round-1, V4, V3, V2 and V1 boxes below.**
 > Authority: the coach answers named per item (`engine/DECISIONS.md` G-76 ... G-96), read against the second coach-eye review of the
 > 8 samples. Model layer: `tools/fixture/v05-fix2.mjs` (after `v05-fix1.mjs`, in both builds): `amendExerciseX2`, `amendRulesX2`,

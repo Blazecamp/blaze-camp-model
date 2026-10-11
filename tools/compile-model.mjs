@@ -34,6 +34,7 @@ import { amendExerciseV2, addedExercisesV2, attachVideoSearchV2, amendBucketsV2,
 import { amendRulesV4, amendTemplatesV4, amendExerciseV4 } from './fixture/v05-integrate.mjs';
 import { amendRulesX1, amendTemplatesX1, amendExerciseX1, amendSportX1 } from './fixture/v05-fix1.mjs';
 import { amendRulesX2, amendTemplatesX2, amendExerciseX2, amendSportX2 } from './fixture/v05-fix2.mjs';
+import { amendRulesV06, amendSportV06 } from './fixture/v06-volume.mjs';
 import { amendRulesW6 } from './fixture/v06-words.mjs';
 
 // 1.3.0: the v1.2 sources (round-3 docs) + the coach-eye review amendments (tools/fixture/review-v12.mjs) + the round-3 engine
@@ -125,7 +126,7 @@ export function compileModel(S = loadSources()) {
   // ---------------------------------------------------------------- profiles (all 127 + picker + activities)
   const classEnd = { 1: 0.75, 2: 0.6, 3: 0.5, 4: 0.4, 5: 0.25 };
   const sports = {};
-  for (const p of S.prof.profiles.slice().sort((a, b) => (a.id < b.id ? -1 : 1))) sports[p.id] = amendSportX2(amendSportX1(amendSportV2(amendSportR2F2(amendSportF2(amendSportB2(amendSport(normSport(p, classEnd), p), p), p)), p), p), p); // (+ v0.5 fix round 2) // (+ v0.5 fix round 1) // (+ V2: the confidence label, R4-SCP-03) // (+ fix round 2 / F2) // (+ F2)
+  for (const p of S.prof.profiles.slice().sort((a, b) => (a.id < b.id ? -1 : 1))) sports[p.id] = amendSportV06(amendSportX2(amendSportX1(amendSportV2(amendSportR2F2(amendSportF2(amendSportB2(amendSport(normSport(p, classEnd), p), p), p)), p), p), p), p); // (+ v0.6 volume, v06-volume.mjs) // (+ v0.5 fix round 2) // (+ v0.5 fix round 1) // (+ V2: the confidence label, R4-SCP-03) // (+ fix round 2 / F2) // (+ F2)
   const picker = normPicker(S.prof);
   const profiles = {
     schema: 'profiles/2',
@@ -139,7 +140,7 @@ export function compileModel(S = loadSources()) {
   };
 
   // ---------------------------------------------------------------- rules + cross-checks against the sources
-  const rules = amendRulesW6(amendRulesX2(amendRulesX1(amendRulesV4(amendRulesV3(amendRulesV2(amendRulesV05(amendRulesR2F3(amendRulesR2F2(amendRulesR2F1(amendRulesF3(amendRulesF2(amendRulesF1(amendRulesB4(amendRulesB3(amendRulesB2(amendRulesR3(amendRules(buildRules(S.eqm))))))))))))))))))); /* (+ v0.6 words, v06-words.mjs) (+ v0.5 fix round 2, v05-fix2.mjs) (+ v0.5 fix round 1, v05-fix1.mjs) (+ V3, v05-words.mjs) */ // (+ V2, v05-library.mjs) (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ fix round 2 / F1, fix-r2-f1.mjs) // (+ fix round 1 / F1, F2, F3) v1.2 review amendments, the round-3 answers, stage B2 (athletic), stage B3 (selection / render), then stage B4 (integration)
+  const rules = amendRulesW6(amendRulesV06(amendRulesX2(amendRulesX1(amendRulesV4(amendRulesV3(amendRulesV2(amendRulesV05(amendRulesR2F3(amendRulesR2F2(amendRulesR2F1(amendRulesF3(amendRulesF2(amendRulesF1(amendRulesB4(amendRulesB3(amendRulesB2(amendRulesR3(amendRules(buildRules(S.eqm)))))))))))))))))))); /* (+ v0.6 words, v06-words.mjs) (+ v0.6 volume, v06-volume.mjs) (+ v0.5 fix round 2, v05-fix2.mjs) (+ v0.5 fix round 1, v05-fix1.mjs) (+ V3, v05-words.mjs) */ // (+ V2, v05-library.mjs) (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ fix round 2 / F1, fix-r2-f1.mjs) // (+ fix round 1 / F1, F2, F3) v1.2 review amendments, the round-3 answers, stage B2 (athletic), stage B3 (selection / render), then stage B4 (integration)
   // a mismatch is a warning, not an error: rules.json must deep-equal the fixture's normative rules (BUILD_PLAN B1.2);
   // a value we believe is wrong goes to engine/CONTRACT_REQUESTS.md for the integrator
   const crosschecks = crossCheckRules(rules, S);
@@ -277,6 +278,12 @@ function renderChangelog(raw, report, changes) {
   L.push('- rules: `placement.optional_focus.close_when_over_top` (an optional-day Focus slot closes when the group\'s exercises at their fewest sets already hold more than its planned final sets)');
   L.push('- rules: `validation.v05.skeleton` gains the laterality table (V30 holds it; V28 reads the share on the stations the dial may move)');
   L.push('- templates: push / pull / legs prints in the sheet\'s order (flies before dips; leg extension and leg curl before the single-leg hinge); every main day type opens with the general warm-up (ORD-08)', '');
+  L.push('### v0.6 layer, volume targets and set placement (tools/fixture/v06-volume.mjs)', '');
+  L.push('Applied after the v0.5 fix-round-2 layer by both builds (engine/DECISIONS.md G-100 ...):', '');
+  L.push('- rules: `placement.x3` (main lift first, VOL-07; an athlete\'s flat press at most 4 sets; the optional day\'s bonus exercise for small groups only and never a pattern the day before trained, R3-VOL-03; the training-day bonus when no optional day can take it; the 2-day band held on the training days, R4-SES-03; every capped group said, CX-04; the physique first-week ceiling, VOL-01; one step an exercise a week; the presses held for the pulls, VOL-18; a circuit above its top said, CX-03)');
+  L.push('- rules: `volume.x3` (an advanced 4-day physique client\'s non-Focus big groups start at 16, VOL-01; an upper body at maintenance for the profiles that say so, UNI-02; the class member\'s tops, R4-SES-02)');
+  L.push('- profiles: `upper_maintenance` on the sport profiles whose resistance notes keep the upper body at maintenance');
+  L.push('- words: `changes.sets_added_n`, `why.bonus_main_day`, `warning.circuit_over_top` (EN and ES)', '');
   L.push('### v0.6 layer, "words" (tools/fixture/v06-words.mjs)', '');
   L.push('Applied after the v0.5 fix-round-2 layer by both builds (engine/DECISIONS.md G-160 ...): `render.v6` (circuit progression from the real weeks, the written-out pyramid, "What changes" by exercise and real set difference, the printed-copy minors of the round-4 coach-eye reviews) and `volume.pain.x6` (the pain-free depth cue by exercise type); new EN / ES lines listed in `i18n/es_review.json > priority_review`.', '');
   L.push('### Sources (sha256)', '');

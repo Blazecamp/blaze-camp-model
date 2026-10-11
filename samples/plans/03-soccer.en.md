@@ -15,9 +15,8 @@ _Your Blaze Camp plan_
 ## Before you start
 
 - Your season is close: the last 2 weeks of this plan are pre-season (more speed and power, fewer sets).
-- Week 6 jumps more than usual (16 % more sets for Hips (glutes + hamstrings)): adjust if needed.
 - Trained through your sport work and compound lifts (no extra sets): Biceps, Triceps.
-- Two-leg lifts are about 45 % of your lower-body lifting sets (your sport's guide is about 20 %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.
+- Two-leg lifts are about 50 % of your lower-body lifting sets (your sport's guide is about 20 %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.
@@ -44,7 +43,6 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 
 - Reps and weight follow a rule you apply yourself, not a number this plan promises. Every lift shows a rep range. Example from your plan: Front Squat (barbell), 3 sets of 6-8. When you hit 8 on every set with the planned reps left in the tank and good form, add weight next time and start again at 6. Not there yet? Keep the weight and add a rep where you can.
 - Sets follow the stairway: the plan adds sets week by week until each muscle group reaches its final sets in the last week (see the week-by-week table). In a week with the same sets as the week before, you progress with reps or weight.
-- Week 6 adds more than usual (over about 15 % more sets for a muscle group, or in total). It is marked ↑: adjust if needed.
 - Your next block starts a little above where this one started (about 5 % more sets, in whole sets), never above the top number for your level. At the top, the sets stay and you progress with weight and reps.
 - This plan is a template you can edit: change the sets of any exercise on any day or week, add or remove exercises, and switch blocks off.
 
@@ -82,13 +80,11 @@ Your plan climbs like a stairway: small steps up to week 3, a bit bigger from we
 | Week | Level | Effort | Sets |
 |---|---|---|---|
 | 1 · test | 2.0 ▮▮ | 3 in the tank | 55 |
-| 2 | 3.3 ▮▮▮ | 3 in the tank | 58 |
-| 3 | 4.6 ▮▮▮▮▮ | 3 in the tank | 61 |
-| 4 | 6.7 ▮▮▮▮▮▮▮ | 2 in the tank | 66 |
-| 5 | 8.9 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 69 |
-| 6 ↑ · test | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 75 |
-
-_↑ = a week that adds more than usual: adjust if needed._
+| 2 | 3.3 ▮▮▮ | 3 in the tank | 57 |
+| 3 | 4.6 ▮▮▮▮▮ | 3 in the tank | 59 |
+| 4 | 6.7 ▮▮▮▮▮▮▮ | 2 in the tank | 63 |
+| 5 | 8.9 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 67 |
+| 6 · test | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 72 |
 
 weeks 1-2: Getting used to it (small steps) · weeks 3-4: Driving it · weeks 5-6: Hardest weeks
 
@@ -98,8 +94,8 @@ weeks 1-2: Getting used to it (small steps) · weeks 3-4: Driving it · weeks 5-
 
 | Week | Level | Effort | Sets |
 |---|---|---|---|
-| 7 | – | 2 in the tank | 42 |
-| 8 | – | 2 in the tank | 42 |
+| 7 | – | 2 in the tank | 40 |
+| 8 | – | 2 in the tank | 40 |
 
 weeks 7-8: Pre-season: more speed and power
 
@@ -117,14 +113,14 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 |  | Week 1 | Week 3 | Week 6 |
 |---|---|---|---|
 | Quads | 11 | 13 | 16 |
-| Hips (glutes + hamstrings) | 11 | 14 | 16 |
+| Hips (glutes + hamstrings) | 11 | 13 | 16 |
 | Back | 10 | 11 | 14 |
-| Chest | 10 | 11 | 14 |
-| Shoulders | 10 | 10 | 13 |
+| Chest | 10 | 10 | 11 |
+| Shoulders | 10 | 10 | 12 |
 | Biceps | - (3) | - (3) | - (4) |
-| Triceps | - (3) | - (3) | - (4) |
+| Triceps | - (3) | - (3) | - (3) |
 | Calves | 9 | 9 | 11 |
-| **Total** | **55** | **61** | **75** |
+| **Total** | **55** | **59** | **72** |
 
 ### Week 1 at a glance
 
@@ -148,14 +144,14 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Muscle group | Sets each week (weeks 1-6) | Final sets |
 |---|---|---|
 | Quads | 11 12 13 14 15 16 | 16 |
-| Hips (glutes + hamstrings) | 11 13 14 14 14 16 | 16 |
-| Back | 10 11 11 12 13 14 | 14 |
-| Chest | 10 10 11 12 13 14 | 14 |
-| Shoulders | 10 10 10 12 12 13 | 12 |
+| Hips (glutes + hamstrings) | 11 13 13 14 14 16 | 16 |
+| Back | 10 10 11 12 13 14 | 14 |
+| Chest | 10 10 10 10 11 11 | 11 |
+| Shoulders | 10 10 10 10 12 12 | 11 |
 | Biceps | 3 3 3 3 3 4 | no exercise of its own |
-| Triceps | 3 3 3 3 3 4 | no exercise of its own |
+| Triceps | 3 3 3 3 3 3 | no exercise of its own |
 | Calves | 9 9 9 10 10 11 | 11 |
-| **Total** | 55 58 61 66 69 75 | 75 |
+| **Total** | 55 57 59 63 67 72 | 72 |
 
 ### Monday · S1 - jump + knee + pull
 
@@ -170,10 +166,10 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | L-Test / L-Drill (3-Cone) | – 3 3 3 3 – | 3 Reps |
 | Hang Power Clean - from the High Hang (hip crease) | 2 2 2 3 3 2 | 3 to 5 Reps |
 | Seal Row - DB (Supinated Grip) | 3 3 3 3 4 4 | 8 to 12 Reps |
-| Front Squat (barbell) | 3 3 3 3 3 3 | 6 to 8 Reps |
-| Pull-up | 2 3 3 3 3 3 | 6 to 8 Reps |
-| Step-Up (forward and lateral) | 2 2 3 3 3 3 | 8 to 12 per side |
-| Leg Extension (machine) | 2 2 2 2 3 3 | 10 to 12 Reps |
+| Front Squat (barbell) | 3 3 3 4 4 4 | 6 to 8 Reps |
+| Pull-up | 2 2 3 3 3 3 | 6 to 8 Reps |
+| Step-Up (forward and lateral) | 2 3 3 3 4 4 | 8 to 12 per side |
+| Leg Extension (machine) | 2 2 3 3 3 4 | 10 to 12 Reps |
 | Standing DB Calf Raise (deficit optional) | 3 3 3 4 4 4 | 12 to 15 Reps |
 
 ### Wednesday · S2 - medball + hip + push
@@ -186,12 +182,12 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Bilateral Forward/Backward Ankle Hops | 2 2 2 2 2 2 | 9 contacts |
 | Medball Alternating Back-to-Wall Rotational Scoops | 2 2 2 2 2 2 | 5 per side |
 | Lateral Shuffles | 3 3 3 3 3 3 | 8 cuts |
-| Flat DB Bench Press | 3 3 4 4 4 5 | 8 to 12 Reps |
+| Flat DB Bench Press | 3 3 3 3 4 4 | 8 to 12 Reps |
 | 45-Degree Hyperextension (back/hip extension) | 3 3 3 3 3 3 | 10 to 12 Reps |
-| Alternating Incline DB Bench Press (one up / one down) | 3 3 3 4 4 4 | 8 to 12 per side |
-| Alternating Staggered-Stance Single-Leg Deadlift (DB) | 2 2 3 3 3 3 | 8 to 12 per side |
+| Alternating Incline DB Bench Press (one up / one down) | 3 3 3 3 3 3 | 8 to 12 per side |
+| Alternating Staggered-Stance Single-Leg Deadlift (DB) | 2 2 2 3 3 3 | 8 to 12 per side |
 | Nordic Hamstring Curl | 2 2 2 2 2 3 | 6 to 8 Reps |
-| Bent-Over DB Reverse Fly | 3 3 3 4 4 4 | 15 to 20 Reps |
+| Bent-Over DB Reverse Fly | 3 3 3 3 4 4 | 15 to 20 Reps |
 | Machine Calf Raise | 3 3 3 3 3 4 | 12 to 15 Reps |
 | Seated DB Lateral Raise | 3 3 3 3 3 3 | 10 to 12 Reps |
 
@@ -205,11 +201,11 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Broad Jump | 3 3 3 3 3 3 | 8 contacts |
 | 5-10-5 Pro-Agility Shuttle | 3 3 3 3 3 3 | 5 Reps |
 | Single-Arm DB Snatch | 2 2 2 2 3 3 | 8/8 |
-| Barbell Bench Press | 4 4 4 4 5 5 | 6 to 8 Reps |
+| Barbell Bench Press | 4 4 4 4 4 4 | 6 to 8 Reps |
 | Hex (Trap) Bar Deadlift | 2 3 3 3 3 4 | 6 to 8 Reps |
 | Single-Arm DB/KB Row | 3 3 3 3 3 4 | 8 to 12 per side |
-| Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) | 2 3 3 3 3 4 | 8 to 12 per side |
-| Side (Lateral) Lunge | 2 2 2 3 3 3 | 8 to 12 per side |
+| Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) | 2 2 2 2 2 2 | 8 to 12 per side |
+| Side (Lateral) Lunge | 2 2 2 2 2 2 | 8 to 12 per side |
 | Single-Arm Lat Pulldown | 2 2 2 3 3 3 | 8 to 12 per side |
 | Barbell Calf Raise | 3 3 3 3 3 3 | 12 to 15 Reps |
 
@@ -230,12 +226,12 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Quads | 10 10 |
 | Hips (glutes + hamstrings) | 10 10 |
 | Back | 8 8 |
-| Chest | 8 8 |
+| Chest | 6 6 |
 | Shoulders | 5 5 |
 | Biceps | 2 2 |
 | Triceps | 2 2 |
 | Calves | 6 6 |
-| **Total** | 42 42 |
+| **Total** | 40 40 |
 
 ### Monday · S1 - jump + knee + pull
 
@@ -266,7 +262,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Bilateral Backward Ankle Hops | 2 2 | 16 contacts |
 | Medball Rotational Downward Slam | 2 2 | 6 per side |
 | Lateral Shuffles | 3 3 | 12 cuts |
-| Flat DB Bench Press - palms facing each other (neutral grip) | 3 3 | 6 to 8 Reps |
+| Flat DB Bench Press - palms facing each other (neutral grip) | 2 2 | 6 to 8 Reps |
 | 45-Degree Hyperextension (back/hip extension) | 2 2 | 10 to 12 Reps |
 | Alternating Incline DB Bench Press (one up / one down) | 2 2 | 8 to 10 per side |
 | Staggered-Stance (Kickstand) DB Deadlift | 2 2 | 8 to 10 per side |
@@ -284,7 +280,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Squat Jump (high, bodyweight or lightly loaded) | 3 3 | 8 contacts |
 | 5-10-5 Pro-Agility Shuttle | 3 3 | 6 Reps |
 | Single-Arm DB Snatch | 3 3 | 4/4 |
-| Barbell Bench Press | 3 3 | 6 to 8 Reps |
+| Barbell Bench Press | 2 2 | 6 to 8 Reps |
 | Hex (Trap) Bar Deadlift | 2 2 | 6 to 8 Reps |
 | Single-Arm Cable Row | 2 2 | 8 to 10 per side |
 | Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) | 2 2 | 8 to 10 per side |
@@ -615,9 +611,8 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 3.3 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (Friday): 2 → 3 sets
+- +1 set on Step-Up (forward and lateral) (Monday): 2 → 3 sets
 - +1 set on Hex (Trap) Bar Deadlift (Friday): 2 → 3 sets
-- +1 set on Pull-up (Monday): 2 → 3 sets
 
 **Athletic work this week:** 81 jump contacts · 46 ankle-hop contacts · 20 throws · 87 direction changes · 330 m of sprints · 4 Olympic-lift sets · Plyo share 50% · Receive-Create 2: Land & Go
 
@@ -685,13 +680,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 6-8 reps.
    - Swap for: High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement) / Flipped Hex Bar Squat (low handles, longer range) (keeps the two-leg squat; loses the feel of the original implement) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
-3. **Pull-up** — 3 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Pull-up** — 2 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 8 on every set with 3 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Lat Pulldown (Wide Grip) (keeps the vertical pull; loses the feel of the original implement) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement) / Seated Ring/TRX Pull-Up (feet-supported) (keeps the vertical pull; loses little - same movement, another grip or position) / Close-Grip Pull-up (keeps the vertical pull; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
-4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Step-Up (forward and lateral)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -814,7 +809,7 @@ _Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
-_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 5.5 min saved)_
+_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Broad Jump · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
@@ -869,7 +864,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -915,14 +910,13 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 4.6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Step-Up (forward and lateral) (Monday): 2 → 3 sets
-- +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Wednesday): 2 → 3 sets
-- +1 set on Flat DB Bench Press (Wednesday): 3 → 4 sets
+- +1 set on Leg Extension (machine) (Monday): 2 → 3 sets
+- +1 set on Pull-up (Monday): 2 → 3 sets
 
 **Athletic work this week:** 90 jump contacts · 58 ankle-hop contacts · 24 throws · 96 direction changes · 390 m of sprints · 4 Olympic-lift sets · Plyo share 55% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 90-110 min (an estimate, for information only)_
+_Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
@@ -999,7 +993,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Leg Extension (machine)** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Leg Extension (machine)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
@@ -1014,12 +1008,12 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
-_Average time: about 115-140 min (an estimate, for information only)_
+_Average time: about 110-135 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
-_Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
+_Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 4 min saved)_
 _Superset to save time: Nordic Hamstring Curl + Bent-Over DB Reverse Fly (about 3.5 min saved)_
 _Superset to save time: Machine Calf Raise + Seated DB Lateral Raise (about 5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Lateral Shuffles, Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 1 more_
@@ -1059,7 +1053,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
 
 **Strength**
-1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / DB Floor Press (keeps the horizontal press; loses the bottom of the range)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
@@ -1073,7 +1067,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same job in the session; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same job in the session; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Name to copy into YouTube: `Alternating Incline DB Bench Press (one up / one down)`
-4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    > Hold the dumbbells, take a half step back into a staggered stance and deadlift on the front leg; switch legs and keep alternating every rep. Saves time compared with finishing one side first.
@@ -1114,7 +1108,7 @@ _Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
-_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 5.5 min saved)_
+_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Broad Jump · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
@@ -1169,7 +1163,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -1215,16 +1209,15 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 6.7 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Side (Lateral) Lunge (Friday): 2 → 3 sets
+- +1 set on Front Squat (barbell) (Monday): 3 → 4 sets
+- +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Wednesday): 2 → 3 sets
 - +1 set on Single-Arm Lat Pulldown (Friday): 2 → 3 sets
-- +1 set on Alternating Incline DB Bench Press (one up / one down) (Wednesday): 3 → 4 sets
-- +1 set on Bent-Over DB Reverse Fly (Wednesday): 3 → 4 sets
 - +1 set on Standing DB Calf Raise (deficit optional) (Monday): 3 → 4 sets
 
 **Athletic work this week:** 96 jump contacts · 70 ankle-hop contacts · 28 throws · 102 direction changes · 400 m of sprints · 5 Olympic-lift sets · Plyo share 58% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 105-125 min (an estimate, for information only)_
+_Average time: about 110-135 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
@@ -1283,7 +1276,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 8-10 reps.
    - Swap for: Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses each hand moving on its own) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
-2. **Front Squat (barbell)** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
+2. **Front Squat (barbell)** — 4 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Swap for: High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement) / Flipped Hex Bar Squat (low handles, longer range) (keeps the two-leg squat; loses the feel of the original implement) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
@@ -1301,7 +1294,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Leg Extension (machine)** — 2 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Leg Extension (machine)** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
@@ -1316,7 +1309,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
-_Average time: about 130-155 min (an estimate, for information only)_
+_Average time: about 120-150 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
@@ -1361,7 +1354,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
 
 **Strength**
-1. **Flat DB Bench Press** — 4 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
+1. **Flat DB Bench Press** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / DB Floor Press (keeps the horizontal press; loses the bottom of the range)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
@@ -1370,7 +1363,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 10-12 reps.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / GHD - Glute-Ham Developer (hip extension / glute-ham raise) (keeps the two-leg hinge; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Alternating Incline DB Bench Press (one up / one down)** — 4 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+3. **Alternating Incline DB Bench Press (one up / one down)** — 3 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -1390,7 +1383,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 6-8 reps.
    - Swap for: Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses some difficulty - this one is easier) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses some difficulty - this one is easier) / Seated Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement) / Lying Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Name to copy into YouTube: `Nordic Hamstring Curl`
-2. **Bent-Over DB Reverse Fly** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+2. **Bent-Over DB Reverse Fly** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
@@ -1414,11 +1407,11 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 105-125 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
-_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 5.5 min saved)_
+_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Broad Jump · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
@@ -1472,13 +1465,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 3 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 2 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
    - Swap for: Forward Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)) · Name to copy into YouTube: `Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)`
-5. **Side (Lateral) Lunge** — 3 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+5. **Side (Lateral) Lunge** — 2 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -1520,17 +1513,18 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 8.9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Leg Extension (machine) (Monday): 2 → 3 sets
+- +1 set on Step-Up (forward and lateral) (Monday): 3 → 4 sets
 - +1 set on Seal Row - DB (Supinated Grip) (Monday): 3 → 4 sets
-- +1 set on Barbell Bench Press (Friday): 4 → 5 sets
+- +1 set on Flat DB Bench Press (Wednesday): 3 → 4 sets
+- +1 set on Bent-Over DB Reverse Fly (Wednesday): 3 → 4 sets
 
 **Athletic work this week:** 102 jump contacts · 80 ankle-hop contacts · 32 throws · 108 direction changes · 440 m of sprints · 6 Olympic-lift sets · Plyo share 60% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 105-130 min (an estimate, for information only)_
+_Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
-_Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
+_Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 5.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Depth Jump, Bilateral Lateral Hurdle Hops · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine)_
 
@@ -1586,7 +1580,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 8-10 reps.
    - Swap for: Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses each hand moving on its own) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
-2. **Front Squat (barbell)** — 3 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 3-6 min rest
+2. **Front Squat (barbell)** — 4 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 3-6 min rest
    - Progress: when you hit 8 on every set with 1-2 left in the tank, add weight next time and start again at 6.
    - Swap for: High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement) / Flipped Hex Bar Squat (low handles, longer range) (keeps the two-leg squat; loses the feel of the original implement) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
@@ -1595,7 +1589,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Lat Pulldown (Wide Grip) (keeps the vertical pull; loses the feel of the original implement) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement) / Seated Ring/TRX Pull-Up (feet-supported) (keeps the vertical pull; loses little - same movement, another grip or position) / Close-Grip Pull-up (keeps the vertical pull; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
-4. **Step-Up (forward and lateral)** — 3 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+4. **Step-Up (forward and lateral)** — 4 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -1619,7 +1613,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
-_Average time: about 130-155 min (an estimate, for information only)_
+_Average time: about 125-155 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
@@ -1673,7 +1667,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 10-12 reps.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / GHD - Glute-Ham Developer (hip extension / glute-ham raise) (keeps the two-leg hinge; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Alternating Incline DB Bench Press (one up / one down)** — 4 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+3. **Alternating Incline DB Bench Press (one up / one down)** — 3 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -1717,11 +1711,11 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 115-140 min (an estimate, for information only)_
+_Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
-_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 5.5 min saved)_
+_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Broad Jump · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
@@ -1761,7 +1755,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
 
 **Strength**
-1. **Barbell Bench Press** — 5 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 2-3 min rest
+1. **Barbell Bench Press** — 4 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 2-3 min rest
    - Progress: when you hit 8 on every set with 1-2 left in the tank, add weight next time and start again at 6.
    - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press - Feet on Wall (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
@@ -1775,13 +1769,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 3 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 2 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
    - Swap for: Forward Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)) · Name to copy into YouTube: `Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)`
-5. **Side (Lateral) Lunge** — 3 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+5. **Side (Lateral) Lunge** — 2 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -1824,25 +1818,22 @@ _Week level: 11 of 11 (2 = the start, 11 = your hardest week)_
 
 **End test this week: each test takes the place of that day's sprint, change-of-direction or jump station** (Speed / agility, Jumps)
 
-_This week jumps more than usual (16 % more sets for Hips (glutes + hamstrings)): adjust if needed._
-
 _Last week: one intensifier on each of these days (Monday and Wednesday): a MYO set on the day's last small-muscle or machine exercise_
 
 **What changes this week**
-- +1 set on Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (Friday): 3 → 4 sets
+- +1 set on Leg Extension (machine) (Monday): 3 → 4 sets
 - +1 set on Nordic Hamstring Curl (Wednesday): 2 → 3 sets
 - +1 set on Hex (Trap) Bar Deadlift (Friday): 3 → 4 sets
 - +1 set on Single-Arm DB/KB Row (Friday): 3 → 4 sets
-- +1 set on Flat DB Bench Press (Wednesday): 4 → 5 sets
 - +1 set on Machine Calf Raise (Wednesday): 3 → 4 sets
 
 **Athletic work this week:** 48 jump contacts · 38 ankle-hop contacts · 20 throws · 60 direction changes · 240 m of sprints · 5 Olympic-lift sets · Plyo share 58% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 100-125 min (an estimate, for information only)_
+_Average time: about 110-135 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
-_Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
+_Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 5.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Ankle Hops (bilateral, in place), Depth Jump · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine)_
 
@@ -1898,7 +1889,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 8-10 reps.
    - Swap for: Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses each hand moving on its own) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
-2. **Front Squat (barbell)** — 3 × 6 to 8 Reps · leave 1 in the tank (1 RIR, RPE 9) · 3-6 min rest
+2. **Front Squat (barbell)** — 4 × 6 to 8 Reps · leave 1 in the tank (1 RIR, RPE 9) · 3-6 min rest
    - Progress: when you hit 8 on every set with 1 left in the tank, add weight next time and start again at 6.
    - Swap for: High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement) / Flipped Hex Bar Squat (low handles, longer range) (keeps the two-leg squat; loses the feel of the original implement) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
@@ -1907,7 +1898,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Lat Pulldown (Wide Grip) (keeps the vertical pull; loses the feel of the original implement) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement) / Seated Ring/TRX Pull-Up (feet-supported) (keeps the vertical pull; loses little - same movement, another grip or position) / Close-Grip Pull-up (keeps the vertical pull; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
-4. **Step-Up (forward and lateral)** — 3 × 8 to 10 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+4. **Step-Up (forward and lateral)** — 4 × 8 to 10 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -1916,7 +1907,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Leg Extension (machine)** — 3 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+1. **Leg Extension (machine)** — 4 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
    - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
@@ -1931,7 +1922,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
-_Average time: about 135-165 min (an estimate, for information only)_
+_Average time: about 130-160 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
@@ -1974,7 +1965,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
 
 **Strength**
-1. **Flat DB Bench Press** — 5 × 6 to 8 Reps · leave 1 in the tank (1 RIR, RPE 9) · 2-3 min rest
+1. **Flat DB Bench Press** — 4 × 6 to 8 Reps · leave 1 in the tank (1 RIR, RPE 9) · 2-3 min rest
    - Progress: when you hit 8 on every set with 1 left in the tank, add weight next time and start again at 6.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / DB Floor Press (keeps the horizontal press; loses the bottom of the range)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
@@ -1983,7 +1974,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 10-12 reps.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / GHD - Glute-Ham Developer (hip extension / glute-ham raise) (keeps the two-leg hinge; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Alternating Incline DB Bench Press (one up / one down)** — 4 × 8 to 10 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+3. **Alternating Incline DB Bench Press (one up / one down)** — 3 × 8 to 10 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -2027,11 +2018,11 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 125-150 min (an estimate, for information only)_
+_Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
-_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 7 min saved)_
+_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Broad Jump · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
@@ -2071,7 +2062,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
 
 **Strength**
-1. **Barbell Bench Press** — 5 × 6 to 8 Reps · leave 1 in the tank (1 RIR, RPE 9) · 2-3 min rest
+1. **Barbell Bench Press** — 4 × 6 to 8 Reps · leave 1 in the tank (1 RIR, RPE 9) · 2-3 min rest
    - Progress: when you hit 8 on every set with 1 left in the tank, add weight next time and start again at 6.
    - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press - Feet on Wall (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
@@ -2085,13 +2076,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 4 × 8 to 10 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 2 × 8 to 10 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
    - Swap for: Forward Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)) · Name to copy into YouTube: `Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)`
-5. **Side (Lateral) Lunge** — 3 × 8 to 10 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+5. **Side (Lateral) Lunge** — 2 × 8 to 10 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -2224,7 +2215,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
-_Average time: about 75-95 min (an estimate, for information only)_
+_Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Backward Ankle Hops + Medball Rotational Downward Slam (about 3 min saved)_
@@ -2268,7 +2259,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
 
 **Strength**
-1. **Flat DB Bench Press - palms facing each other (neutral grip)** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
+1. **Flat DB Bench Press - palms facing each other (neutral grip)** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / DB Floor Press (keeps the horizontal press; loses the bottom of the range)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
@@ -2351,7 +2342,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
 
 **Strength**
-1. **Barbell Bench Press** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
+1. **Barbell Bench Press** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press - Feet on Wall (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
@@ -2505,7 +2496,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
-_Average time: about 75-95 min (an estimate, for information only)_
+_Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Backward Ankle Hops + Medball Rotational Downward Slam (about 3 min saved)_
@@ -2549,7 +2540,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
 
 **Strength**
-1. **Flat DB Bench Press - palms facing each other (neutral grip)** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
+1. **Flat DB Bench Press - palms facing each other (neutral grip)** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / DB Floor Press (keeps the horizontal press; loses the bottom of the range)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
@@ -2632,7 +2623,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
 
 **Strength**
-1. **Barbell Bench Press** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
+1. **Barbell Bench Press** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press - Feet on Wall (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`

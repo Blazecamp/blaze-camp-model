@@ -474,6 +474,7 @@
         "focus_closed": [],
         "acceleration": [],
         "circuit": false,
+        "over_top": [],
         "floor_counted_on": "main_days",
         "floor_on_optional": [],
         "lowered_start": [],
@@ -1061,6 +1062,7 @@
           "triceps",
           "glutes"
         ],
+        "x3_lowered": [],
         "calves_per_leg_day": 3,
         "calves_floor": 10,
         "leg_days": 4,
@@ -88217,9 +88219,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "flat-db-bench-press",
-            "day": "Fri",
-            "slot_id": "Fri.B2.s08"
+            "exercise": "alternating-incline-db-bench-press-one-up-one-down",
+            "day": "Tue",
+            "slot_id": "Tue.B1.s10"
           }
         }
       ],
@@ -90205,7 +90207,7 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 141,
+          "est_minutes": 144,
           "aerobic_minutes": 30,
           "exercise_count": 10,
           "skeleton": "athletic_B",
@@ -91419,7 +91421,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)",
                     "copy_name": "Alternating Incline DB Bench Press (one up / one down)"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -94414,7 +94416,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 120,
+          "est_minutes": 117,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_B",
@@ -95354,7 +95356,7 @@
                     "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press",
                     "copy_name": "Flat DB Bench Press"
                   },
-                  "sets": 5,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -99100,7 +99102,7 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 148,
+          "est_minutes": 151,
           "aerobic_minutes": 30,
           "exercise_count": 10,
           "skeleton": "athletic_B",
@@ -100435,7 +100437,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)",
                     "copy_name": "Alternating Incline DB Bench Press (one up / one down)"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -103380,7 +103382,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 130,
+          "est_minutes": 127,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_B",
@@ -104320,7 +104322,7 @@
                     "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press",
                     "copy_name": "Flat DB Bench Press"
                   },
-                  "sets": 5,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,

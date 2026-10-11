@@ -1202,7 +1202,8 @@ function chestShouldersSlots(layout, E) {
     const nPress = mains.reduce((a, d) => a + daySlots(d).filter((x) => x.bucket === CS.lead_bucket && isLive(x, E)).length, 0);
     const nIso = mains.reduce((a, d) => a + daySlots(d).filter((x) => x.bucket === 'ISO_CHEST' && isLive(x, E)).length, 0);
     const isoMax = (P.x1 && P.x1.iso_main_day_max && P.x1.iso_main_day_max.default) || maxEx;
-    const bonus = layout.days.some((d) => d.kind === 'optional') && P.bonus ? P.bonus.sets[1] : 0;
+    // (v0.6 G-102: the optional day's bonus exercise is for small groups only - the chest never counts on it)
+    const bonus = layout.days.some((d) => d.kind === 'optional') && P.bonus && !(P.x3 && P.x3.bonus_small_only) ? P.bonus.sets[1] : 0;
     if (maxEx * (nPress + perWeek) + isoMax * nIso + bonus < D9.start.chest) perWeek = cands.length;
   }
   for (const id of cands.slice(0, perWeek)) out.add(id);
