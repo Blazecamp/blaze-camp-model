@@ -227,7 +227,15 @@ console.log('scorer self-test (plans generated in memory from design/bench/intak
   // capped[].notice; every other capped group is named by the week-by-week table)
   const hit = findPlan((plan) => { const c = (stair(plan).capped || []).find(x => x.notice !== false && (plan.meta.warnings || []).some(w => w.code === 'capped_by_template' && w.args && w.args.group === x.group)); return c ? { g: c.group } : null; });
   {
-    const quiet = findPlan((plan) => { const c = (stair(plan).capped || []).find(x => x.notice === false); return c ? { g: c.group } : null; });
+    let quiet = findPlan((plan) => { const c = (stair(plan).capped || []).find(x => x.notice === false); return c ? { g: c.group } : null; });
+    // (scorer 2.4: engine 0.6 names every capped group up front - rules.placement.x3.capped_notice_all, G-107 - so a plan whose table
+    // alone names a capped group is made from one that also says it: notice false, its up-front line removed)
+    if (!quiet && hit) {
+      const p = clone(hit.plan);
+      for (const c of p.meta.stairway[0].capped) if (c.group === hit.at.g) c.notice = false;
+      p.meta.warnings = p.meta.warnings.filter(w => !(w.code === 'capped_by_template' && w.args && w.args.group === hit.at.g));
+      quiet = { ...hit, plan: p, base: scorePlan(p, ctx, {}) };
+    }
     if (!quiet) none('CX-04 capped group named by the table only');
     else {
       check('CX-04: ' + quiet.file + ', a capped group the table names (notice: false) is not an unsaid cap', !has(quiet.base, 'unsaid_cap', v => v.group === quiet.at.g));
@@ -250,7 +258,24 @@ console.log('scorer self-test (plans generated in memory from design/bench/intak
 
 // ---- R4-PRG-02: the acceleration note; R4-PRG-03: the progression rule
 {
-  const hit = findPlan((plan) => { const w = plan.weeks.find(x => (x.acceleration || []).some(a => a.group)); return w ? { week: w.n, g: w.acceleration.find(a => a.group).group } : null; });
+  let hit = findPlan((plan) => { const w = plan.weeks.find(x => (x.acceleration || []).some(a => a.group)); return w ? { week: w.n, g: w.acceleration.find(a => a.group).group } : null; });
+  // (scorer 2.4: engine 0.6 takes one step an exercise a week - rules.placement.x3.one_step_per_exercise, G-109 - and no corpus plan
+  // may jump by 15 % any more; the jump is then made by hand on a plan's last week, its note and up-front line added: the base reads
+  // no unnoted jump, the same plan without the note does)
+  if (!hit) {
+    const src = findPlan((plan) => (plan.weeks.length >= 4 && plan.weeks.every(w => w.block_type === 'stairway') ? { ok: true } : null));
+    if (src) {
+      const p = clone(src.plan), N = p.weeks.length, w = p.weeks[N - 1];
+      const it = itemsOf(w.days.find(d => d.kind === 'main')).find(x => x.group && x.role !== 'test' && typeof x.sets === 'number' && x.sets >= 2 && Object.values(x.credits || {}).some(c => c >= 1));
+      if (it) {
+        const from = p.weeks[N - 2].weekly_sets_by_group[it.group] || 10;
+        it.sets += Math.max(2, Math.ceil(from * 0.25));
+        w.acceleration = [...(w.acceleration || []), { group: it.group, from, to: from + it.sets, pct: 25 }];
+        p.meta.warnings = [...p.meta.warnings, { code: 'acceleration', key: 'warning.acceleration', args: { week: w.n, pct: 25, group: it.group } }];
+        hit = { file: src.file + ' (a hand-made jump)', plan: p, base: scorePlan(p, ctx, {}), at: { week: w.n, g: it.group } };
+      }
+    }
+  }
   if (!hit) none('R4-PRG-02 acceleration_unnoted');
   else {
     const p = clone(hit.plan);

@@ -17625,7 +17625,8 @@
    "sprint_focus": "both",
    "cod_reactive": true,
    "confidence": "proposed",
-   "confidence_basis": "inferred from a needs analysis; his general rules applied"
+   "confidence_basis": "inferred from a needs analysis; his general rules applied",
+   "upper_maintenance": true
   },
   "soccer_defender": {
    "id": "soccer_defender",
@@ -17828,7 +17829,8 @@
    "sprint_focus": "both",
    "cod_reactive": true,
    "confidence": "similar_sport",
-   "confidence_basis": "built on the soccer profile"
+   "confidence_basis": "built on the soccer profile",
+   "upper_maintenance": true
   },
   "soccer_forward": {
    "id": "soccer_forward",
@@ -18021,7 +18023,8 @@
    "sprint_focus": "both",
    "cod_reactive": true,
    "confidence": "similar_sport",
-   "confidence_basis": "built on the soccer profile"
+   "confidence_basis": "built on the soccer profile",
+   "upper_maintenance": true
   },
   "soccer_gk": {
    "id": "soccer_gk",
@@ -18214,7 +18217,8 @@
    "sprint_focus": "acceleration",
    "cod_reactive": true,
    "confidence": "similar_sport",
-   "confidence_basis": "a variant of a nearby profile, reused"
+   "confidence_basis": "a variant of a nearby profile, reused",
+   "upper_maintenance": true
   },
   "softball": {
    "id": "softball",
@@ -20389,7 +20393,8 @@
    "sprint_focus": "both",
    "cod_reactive": false,
    "confidence": "similar_sport",
-   "confidence_basis": "built on the track_sprinter profile"
+   "confidence_basis": "built on the track_sprinter profile",
+   "upper_maintenance": true
   },
   "track_high_jump": {
    "id": "track_high_jump",
@@ -20783,7 +20788,8 @@
    "sprint_focus": "both",
    "cod_reactive": false,
    "confidence": "similar_sport",
-   "confidence_basis": "built on the track_sprinter profile"
+   "confidence_basis": "built on the track_sprinter profile",
+   "upper_maintenance": true
   },
   "track_javelin": {
    "id": "track_javelin",
@@ -21762,7 +21768,8 @@
    "sprint_focus": "both",
    "cod_reactive": false,
    "confidence": "proposed",
-   "confidence_basis": "inferred from a needs analysis; his general rules applied"
+   "confidence_basis": "inferred from a needs analysis; his general rules applied",
+   "upper_maintenance": true
   },
   "track_thrower": {
    "id": "track_thrower",
@@ -22343,7 +22350,8 @@
    "sprint_focus": "both",
    "cod_reactive": true,
    "confidence": "similar_sport",
-   "confidence_basis": "built on the soccer profile"
+   "confidence_basis": "built on the soccer profile",
+   "upper_maintenance": true
   },
   "ultimate_handler": {
    "id": "ultimate_handler",

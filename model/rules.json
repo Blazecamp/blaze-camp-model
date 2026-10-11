@@ -1584,6 +1584,82 @@
     "VOL-17"
    ],
    "status": "fix round 1 (samples 01 / 03): for a competitive athlete the shoulders line takes the upper-body factor (it was classed small and kept more growth room than chest or back) and its final sets never pass the back's (PROPOSED reading of R3-VOL-01 'field athletes: side delts and arms stay helper work')"
+  },
+  "x3": {
+   "nonfocus_start": {
+    "modifiers": [
+     "aesthetics"
+    ],
+    "levels": [
+     "L3"
+    ],
+    "line_classes": [
+     "big"
+    ],
+    "max_days": 4,
+    "start": 16,
+    "refs": [
+     "VOL-01",
+     "R3-SES-01",
+     "OBSERVED MASTER_MODEL 4 TRACKS AESTHETICS R31"
+    ],
+    "status": "PROPOSED number (16)"
+   },
+   "upper_maintenance": {
+    "modifiers": [
+     "field_off",
+     "strength_athlete_off"
+    ],
+    "lines": [
+     "chest",
+     "shoulders"
+    ],
+    "over_floor": 1,
+    "refs": [
+     "UNI-02",
+     "R2-VOL-06",
+     "R3-VOL-01"
+    ],
+    "status": "PROPOSED (review 03 M2 hint: chest and shoulders about 10-11)"
+   },
+   "class_tops": {
+    "families": [
+     "hybrid_crossfit"
+    ],
+    "competitive": [
+     "recreational",
+     "none"
+    ],
+    "lines": {
+     "shoulders": {
+      "over_floor": 2
+     },
+     "biceps": {
+      "over_floor": 2
+     },
+     "triceps": {
+      "over_floor": 2
+     },
+     "chest": {
+      "value": 15
+     },
+     "lats_upper_back": {
+      "value": 15
+     }
+    },
+    "refs": [
+     "R4-SES-02",
+     "R2-VOL-06",
+     "OBSERVED prog_mm_crossfit_tracks"
+    ],
+    "status": "PROPOSED numbers (review 04 M1 hint: arms and shoulders about 12, chest and back 14-16)"
+   },
+   "refs": [
+    "VOL-01",
+    "UNI-02",
+    "R4-SES-02"
+   ],
+   "status": "engine 0.6 volume package; PROPOSED numbers"
   }
  },
  "stairway": {
@@ -3221,6 +3297,169 @@
    ],
    "status": "PROPOSED (fix round 2): readings of approved answers; the numbers are the engine's",
    "pre_season_optional_min_sets": 2
+  },
+  "x3": {
+   "lead_first": {
+    "enabled": true,
+    "max_ahead": 2,
+    "refs": [
+     "VOL-07",
+     "R3-VOL-03",
+     "R4-SES-05"
+    ],
+    "status": "approved rule (VOL-07) read across the days of the week; max_ahead PROPOSED"
+   },
+   "athlete_press_max": {
+    "families": [
+     "athletic"
+    ],
+    "credit_classes": [
+     "HPUSH"
+    ],
+    "not_tags": [
+     "mid_range_push"
+    ],
+    "max": 4,
+    "min_group_exercises": 3,
+    "refs": [
+     "VOL-07",
+     "UNI-02",
+     "R4-SES-05"
+    ],
+    "status": "PROPOSED number (4 sets); review 03 M2 hint"
+   },
+   "bonus_small_only": {
+    "line_classes": [
+     "small"
+    ],
+    "refs": [
+     "R3-VOL-03",
+     "ORD-10",
+     "R4-PRG-01"
+    ],
+    "status": "approved rule (R3-VOL-03)"
+   },
+   "big_optional_focus_close": {
+    "enabled": true,
+    "always": true,
+    "refs": [
+     "R3-VOL-03",
+     "ORD-10",
+     "ORD-11",
+     "R4-SES-04"
+    ],
+    "status": "PROPOSED reading (the main days hold the plan; the optional day stays a bonus)"
+   },
+   "bonus_no_repeat_previous_day": {
+    "enabled": true,
+    "compound_patterns": [
+     "BKD",
+     "BHD",
+     "UKD",
+     "UHD",
+     "HPULL",
+     "MRPULL",
+     "VPULL",
+     "HPUSH",
+     "MRPUSH",
+     "VPUSH"
+    ],
+    "refs": [
+     "R3-VOL-03",
+     "PER-04"
+    ],
+    "status": "PROPOSED (review 01 M2)"
+   },
+   "bonus_main_day_fallback": {
+    "groups": [
+     "biceps",
+     "triceps",
+     "shoulders"
+    ],
+    "family_groups": {
+     "hybrid_crossfit": [
+      "quads"
+     ]
+    },
+    "refs": [
+     "R3-VOL-03",
+     "R4-SES-05",
+     "R4-SES-02",
+     "CX-01"
+    ],
+    "status": "approved rule (R3-VOL-03); the class family's second knee lift is PROPOSED (review 04 M1 hint)"
+   },
+   "two_day_main_floor": {
+    "enabled": true,
+    "refs": [
+     "R4-SES-03",
+     "ORD-10"
+    ],
+    "status": "approved rule (R4-SES-03) read on the training days"
+   },
+   "capped_notice_all": true,
+   "capped_shortfalls": true,
+   "work_over_paired": {
+    "families": [
+     "athletic"
+    ],
+    "modifiers": [
+     "field_off",
+     "strength_athlete_off"
+    ],
+    "refs": [
+     "R4-SES-05",
+     "VOL-07",
+     "UNI-02"
+    ],
+    "status": "PROPOSED (reviews 02 / 03 M2 hints)"
+   },
+   "press_hold": {
+    "min_pull_per_push": 0.8,
+    "refs": [
+     "VOL-18",
+     "R3-VOL-03"
+    ],
+    "status": "PROPOSED number (0.8)"
+   },
+   "start_max_sets": {
+    "families": [
+     "aesthetics"
+    ],
+    "compound": 4,
+    "isolation": 3,
+    "focus_exempt": true,
+    "refs": [
+     "VOL-01",
+     "VOL-07",
+     "VOL-16",
+     "OBSERVED MASTER_MODEL 4 TRACKS AESTHETICS R31"
+    ],
+    "status": "PROPOSED numbers (review 06 M1 hint)"
+   },
+   "one_step_per_exercise": true,
+   "pre_season_main_min": true,
+   "circuit_over_top": {
+    "enabled": true,
+    "margin": 0,
+    "refs": [
+     "CX-03",
+     "R4-PRG-04",
+     "R4-SES-04"
+    ],
+    "status": "approved rule; the circuit keeps one round count for every station (OBSERVED BYOP BOOTCAMP)"
+   },
+   "refs": [
+    "VOL-07",
+    "R3-VOL-03",
+    "R4-SES-03",
+    "R4-SES-05",
+    "CX-01",
+    "CX-03",
+    "CX-04",
+    "VOL-01"
+   ],
+   "status": "engine 0.6 volume package (round-4 coach-eye reviews); readings of approved answers, the numbers PROPOSED"
   }
  },
  "session": {

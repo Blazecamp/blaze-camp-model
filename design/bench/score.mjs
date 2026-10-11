@@ -76,7 +76,11 @@
 //                         pattern with no one-arm lift in the client's KIT (2.2 counted the whole library). These three change no
 //                         plan: with them off, 4 of the 102 plans of this round score lower than under 2.2 (bench 16, 51, 63,
 //                         94; -0.19 ... -0.58) - samples/STATUS_v0.5.md, fix round 2, says so.
-export const SCORER_VERSION = '2.3.0';
+// Scorer 2.4 (engine 0.6 volume package, DECISIONS G-100 ...): one reading follows a model rule the package added on purpose:
+//   * press top           a flat press of a competitive athlete's template holds at most rules.placement.x3.athlete_press_max.max
+//                         sets (G-101; reviews 02 / 03 M2): in the staircase and the two-exposures reading that press sits at its
+//                         top at that number, as an isolation exercise sits at 3 (scorer 2.2)
+export const SCORER_VERSION = '2.4.0';
 export const SCORE_SCHEMA = 'bench-score/2';
 
 const EPS = 1e-9;
@@ -343,6 +347,7 @@ function resolveParams(R, overrides = {}) {
   rule('selection_x1', 'selection.x1', {});
   rule('selection_x2', 'selection.x2', {});
   rule('placement_x2', 'placement.x2', {});
+  rule('placement_x3', 'placement.x3', {}); // scorer 2.4 (engine 0.6 volume package)
   rule('bootcamp_x2', 'supersets.bootcamp.x2', null);
   rule('lead_press_rule', 'selection.lead_press', null);
   rule('upper_dial_rule', 'selection.r2.upper_dial', null);
@@ -760,11 +765,16 @@ const ownAtFewest = (W, g, X, ctx) => {
 };
 /** scorer 2.2: the most sets the engine's placement rules give one exercise (rules.placement: 5, 4 for L1; an isolation exercise of
  *  a training day 3; the day's extra small exercise 2-3) */
-const unitTop = (U, D, X, P) => {
+const unitTop = (U, D, X, P, W = null) => {
   const top = P.placement_max_sets[X.level] || 5;
   const PXs = P.placement_x1 || {};
   if (PXs.main_day_extra && U.origin === 'bonus' && D.main) return Math.min(top, PXs.main_day_extra.sets[1]);
   if (PXs.iso_main_day_max && D.main && U.ex && U.ex.exercise_class === 'isolation' && U.origin !== 'bonus') return Math.min(top, PXs.iso_main_day_max.default);
+  // (scorer 2.4, rules.placement.x3.athlete_press_max - G-101: an athlete's flat press holds at most 4 sets)
+  const AP = (P.placement_x3 || {}).athlete_press_max;
+  // (while the group keeps rules.placement.x3.athlete_press_max.min_group_exercises exercises of its own in the week)
+  const many = !W || !AP || !(AP.min_group_exercises > 0) || W.days.reduce((a, Dw) => a + Dw.units.filter(V => V.prime[0] === U.prime[0] && V.sets > 0).length, 0) >= AP.min_group_exercises;
+  if (AP && many && (AP.families || []).includes(X.family) && U.ex && (AP.credit_classes || []).includes(U.ex.credit_class) && !(U.ex.tags || []).some(t => (AP.not_tags || []).includes(t))) return Math.min(top, AP.max);
   return top;
 };
 /** scorer 2.2: a press takes no set in a week whose pressing sets would pass its pulling sets (rules.volume.push_pull, VOL-18; the
@@ -1433,7 +1443,7 @@ function checkCounts(S, X, ctx) {
           // step, not a hole in the staircase - and the day's extra small exercise 2-3; a later exercise may pass an earlier one
           // that sits at its own top)
           const held = pressHeld(W, B, P);
-          const capOf = (U) => (held && isPressUnit(U, P) ? U.sets : unitTop(U, D, X, P));
+          const capOf = (U) => (held && isPressUnit(U, P) ? U.sets : unitTop(U, D, X, P, W));
           const CMo = P.placement_x2 && P.placement_x2.order && P.placement_x2.order.compound_min;
           const cmpMin = CMo && (CMo.levels || []).includes(X.level) && !(CMo.not_families || []).includes(X.family) ? CMo.sets : 0;
           for (let i = 1; i < us.length; i++) {
@@ -1522,7 +1532,7 @@ function checkPlacementPairs(S, X, ctx) {
           // exposure 'first' only when it also holds more sets than the first - a step that evens the two days is no miss)
           const lag = dA < dB ? da : db;
           const heldW = pressHeld(W, B, ctx.P);
-          const roomOn = (wd) => { const Dx = W.days.find(d => d.weekday === wd); return !!Dx && Dx.units.some(U => U.prime.includes(g) && !(heldW && isPressUnit(U, ctx.P)) && U.sets < unitTop(U, Dx, X, ctx.P)); };
+          const roomOn = (wd) => { const Dx = W.days.find(d => d.weekday === wd); return !!Dx && Dx.units.some(U => U.prime.includes(g) && !(heldW && isPressUnit(U, ctx.P)) && U.sets < unitTop(U, Dx, X, ctx.P, W)); };
           const dev = (roomOn(lag) ? Math.max(0, Math.abs(dA - dB) - 1) : 0) + (dB > dA && own(W, db) > own(W, da) && roomOn(da) ? 1 : 0);
           for (let k = 0; k < dev; k++) S.hit('exposure_imbalance', { week: W.n, group: g }, g + ': +' + dA + ' on ' + da + ', +' + dB + ' on ' + db);
         }

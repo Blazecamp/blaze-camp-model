@@ -332,6 +332,13 @@
           }
         ],
         "circuit": true,
+        "over_top": [
+          {
+            "group": "shoulders",
+            "top": 18,
+            "held": 22.5
+          }
+        ],
         "floor_counted_on": "all_days",
         "floor_on_optional": [],
         "lowered_start": [],
@@ -586,6 +593,15 @@
         }
       },
       {
+        "code": "circuit_over_top",
+        "key": "warning.circuit_over_top",
+        "args": {
+          "group": "shoulders",
+          "held": 22.5,
+          "top": 18
+        }
+      },
+      {
         "code": "V7",
         "key": "warning.v7_no_equipment",
         "args": {
@@ -790,6 +806,7 @@
         "credit_only": [
           "glutes"
         ],
+        "x3_lowered": [],
         "calves_per_leg_day": 3,
         "calves_floor": 0,
         "leg_days": 0,

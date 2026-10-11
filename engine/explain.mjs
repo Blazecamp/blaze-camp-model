@@ -186,7 +186,7 @@ function groupsGaining(plan, w, model) {
   const out = new Set();
   const items = (w.days || []).flatMap(d => (d.blocks || []).flatMap(b => b.items || []));
   for (const ch of w.changes || []) {
-    if (!ch || !['changes.set_added', 'changes.bonus_added'].includes(ch.key) || !ch.args) continue;
+    if (!ch || !['changes.set_added', 'changes.sets_added_n', 'changes.bonus_added'].includes(ch.key) || !ch.args) continue;
     const it = items.find(x => x.slot_id === ch.args.slot_id) || null;
     let g = it && it.group ? it.group : null;
     const exId = (it && it.exercise_id) || ch.args.exercise;

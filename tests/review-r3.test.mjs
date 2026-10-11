@@ -189,7 +189,10 @@ describe('engine 0.4.0 RECHECK regressions (compiled model)', { skip: !model && 
     const none = deriveValues({ ...base, priority_muscles: [] }, model).D9_start_sets;
     // (v0.5: glutes + hamstrings carry ONE hips target for every client type; a glutes Focus makes glutes the carrier, + 2 sets)
     assert.equal(none.start.glutes, null); assert.equal(a.D9_start_sets.start.hamstrings, null);
-    assert.equal(a.D9_start_sets.start.glutes - none.start.hamstrings, R.volume.focus.add_default);
+    // (engine 0.6, converted - DECISIONS G-111: the non-Focus big groups of an advanced 4-day physique week start at 16, so the Focus
+    // add is read against the level's own start, VOL-01 '20+ for priority muscles')
+    assert.equal(none.start.hamstrings, R.volume.x3.nonfocus_start.start);
+    assert.equal(a.D9_start_sets.start.glutes - R.volume.start.glutes[a.D3_client_level.level], R.volume.focus.add_default);
     assert.equal(a.D9_start_sets.cap.lats_upper_back - none.cap.lats_upper_back, R.volume.focus.add_default);
     const vt = deriveValues({ ...base, priority_muscles: ['v_taper', 'glutes'] }, model);
     assert.deepEqual(vt.priority_choices, ['v_taper'], 'v_taper uses both Focus slots');

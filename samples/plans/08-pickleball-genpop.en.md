@@ -85,18 +85,18 @@ Your plan climbs like a stairway: small steps up to week 6, a bit bigger from we
 
 | Week | Level | Effort | Sets |
 |---|---|---|---|
-| 1 | 2.0 ▮▮ | 3 in the tank | 34 |
-| 2 | 2.6 ▮▮▮ | 3 in the tank | 34 |
-| 3 | 3.2 ▮▮▮ | 3 in the tank | 35 |
-| 4 | 3.8 ▮▮▮▮ | 3 in the tank | 35 |
-| 5 | 4.4 ▮▮▮▮ | 3 in the tank | 35 |
-| 6 | 5.0 ▮▮▮▮▮ | 3 in the tank | 36 |
-| 7 | 6.0 ▮▮▮▮▮▮ | 2 in the tank | 36 |
-| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 in the tank | 37 |
-| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 37 |
-| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 38 |
-| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 40 |
-| 12 | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 42 |
+| 1 | 2.0 ▮▮ | 3 in the tank | 36 |
+| 2 | 2.6 ▮▮▮ | 3 in the tank | 36 |
+| 3 | 3.2 ▮▮▮ | 3 in the tank | 36 |
+| 4 | 3.8 ▮▮▮▮ | 3 in the tank | 37 |
+| 5 | 4.4 ▮▮▮▮ | 3 in the tank | 37 |
+| 6 | 5.0 ▮▮▮▮▮ | 3 in the tank | 37 |
+| 7 | 6.0 ▮▮▮▮▮▮ | 2 in the tank | 38 |
+| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 in the tank | 38 |
+| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 39 |
+| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 39 |
+| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 41 |
+| 12 | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 43 |
 
 weeks 1-4: Getting used to it (small steps) · weeks 5-8: Driving it · weeks 9-12: Hardest weeks
 
@@ -115,12 +115,12 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Quads | 6 | 6 | 6 |
 | Hips (glutes + hamstrings) | 7 | 7 | 8 |
 | Back | 6 | 7 | 8 |
-| Chest | 6 | 7 | 8 |
-| Shoulders | 6.25 | 6.75 | 8 |
+| Chest | 6 | 6 | 8 |
+| Shoulders | 8.25 | 8.5 | 9 |
 | Biceps | - (1.5) | - (1.75) | - (2) |
-| Triceps | - (1.5) | - (1.75) | - (2) |
+| Triceps | - (1.5) | - (1.5) | - (2) |
 | Calves | 6 | 6 | 8 |
-| **Total** | **34** | **36** | **42** |
+| **Total** | **36** | **37** | **43** |
 
 ### Week 1 at a glance
 
@@ -142,13 +142,13 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Quads | 6 6 6 6 · 6 6 6 6 · 6 6 6 6 | 6 |
 | Hips (glutes + hamstrings) | 7 7 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
-| Back | 6 6 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
-| Chest | 6 6 6 6 · 6 7 7 7 · 7 7 7 8 | 8 |
-| Shoulders | 6.25 6.25 6.5 6.5 · 6.5 6.75 6.75 7.75 · 7.75 7.75 7.75 8 | 8 |
-| Biceps | 1.5 1.5 1.75 1.75 · 1.75 1.75 1.75 1.75 · 1.75 1.75 2 2 | no exercise of its own |
-| Triceps | 1.5 1.5 1.5 1.5 · 1.5 1.75 1.75 1.75 · 1.75 1.75 1.75 2 | no exercise of its own |
-| Calves | 6 6 6 6 · 6 6 6 6 · 6 7 7 8 | 8 |
-| **Total** | 34 34 35 35 · 35 36 36 37 · 37 38 40 42 | 42 |
+| Back | 6 6 6 7 · 7 7 7 7 · 7 7 8 8 | 8 |
+| Chest | 6 6 6 6 · 6 6 7 7 · 7 7 7 8 | 8 |
+| Shoulders | 8.25 8.25 8.25 8.5 · 8.5 8.5 8.75 8.75 · 8.75 8.75 8.75 9 | 8 |
+| Biceps | 1.5 1.5 1.5 1.75 · 1.75 1.75 1.75 1.75 · 1.75 1.75 2 2 | no exercise of its own |
+| Triceps | 1.5 1.5 1.5 1.5 · 1.5 1.5 1.75 1.75 · 1.75 1.75 1.75 2 | no exercise of its own |
+| Calves | 6 6 6 6 · 6 6 6 6 · 7 7 7 8 | 8 |
+| **Total** | 36 36 36 37 · 37 37 38 38 · 39 39 41 43 | 43 |
 
 ### Monday · A - squat + pull
 
@@ -159,12 +159,12 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Stick the Landing - Bilateral (jump/drop and freeze the landing) → Lateral Box Step-up Jump | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contacts → 2 contacts |
 | Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L) → Rotational Medball Scoop Toss (R & L) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 per side → 6 per side |
 | Mid-Hang Clean Pull | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 Reps |
-| Seal Row - DB (Supinated Grip) | 3 3 4 4 · 4 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
+| Seal Row - DB (Supinated Grip) | 3 3 3 4 · 4 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
 | Hack Squat (machine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps → 8 to 12 Reps |
 | Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 12 to 15 per side → 8 to 12 per side |
 | Step-Up (forward and lateral) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 12 per side → 8 to 12 per side |
 | Leg Extension (machine) → Leg Extension (machine) - one leg at a time | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 Reps |
-| Machine Calf Raise | 3 3 3 3 · 3 3 3 3 · 3 4 4 4 | 15 to 20 Reps |
+| Machine Calf Raise | 3 3 3 3 · 3 3 3 3 · 4 4 4 4 | 15 to 20 Reps |
 
 ### Thursday · B - deadlift + push
 
@@ -175,12 +175,12 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Ankle Hops (bilateral, in place) → Bilateral Lateral Ankle Hops → Bilateral Zig-Zag Ankle Hops | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 contacts → 12 contacts → 15 contacts |
 | Medball Chest Pass → Medball Alternating Back-to-Wall Rotational Scoops → Step-Forward Medball Chest Pass (R & L leg) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 Reps → 5 per side → 6 per side |
 | Single-Arm DB Snatch | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3/3 |
-| Flat DB Bench Press → Flat DB Bench Press - 1-second pause at the bottom | 3 3 3 3 · 3 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
+| Flat DB Bench Press → Flat DB Bench Press - 1-second pause at the bottom | 3 3 3 3 · 3 3 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
 | 45-Degree Hyperextension (back/hip extension) | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 12 to 15 Reps → 10 to 12 Reps |
 | Incline DB Bench Press → Incline DB Bench Press - 1-second pause at the bottom | 3 3 3 3 · 3 3 3 3 · 3 3 3 4 | 10 to 12 Reps → 8 to 12 Reps |
 | Rear-Foot-on-Wall DB Deadlift (RDL) → Staggered-Stance (Kickstand) DB Deadlift | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 12 per side → 8 to 12 per side |
 | Seated Leg Curl (machine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 Reps |
-| KB Face Pull | 2 2 2 2 · 2 2 2 3 · 3 3 3 3 | 15 to 20 Reps |
+| KB Face Pull | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
 | Standing DB Calf Raise (deficit optional) → Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 3 3 4 | 15 to 20 Reps |
 
 ### Friday · Optional day
@@ -357,7 +357,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-2. **KB Face Pull** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+2. **KB Face Pull** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -564,7 +564,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-2. **KB Face Pull** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+2. **KB Face Pull** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -613,12 +613,12 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 _Week level: 3.2 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- +1 set on Seal Row - DB (Supinated Grip) (Monday)
+- Same sets: add a little load or reps this week
 
 **Athletic work this week:** 6 jump contacts · 33 ankle-hop contacts · 40 throws · 4 Olympic-lift sets · Plyo share 42% · Receive-Create 1: Land
 
 ### Monday · A - squat + pull
-_Average time: about 70-85 min (an estimate, for information only)_
+_Average time: about 65-80 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Stick the Landing - Bilateral (jump/drop and freeze the landing) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
@@ -660,7 +660,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Mid-Hang%20Clean%20Pull) · Name to copy into YouTube: `Mid-Hang Clean Pull`
 
 **Strength**
-1. **Seal Row - DB (Supinated Grip)** — 4 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Seal Row - DB (Supinated Grip)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses the free-weight balance work) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
@@ -771,7 +771,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-2. **KB Face Pull** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+2. **KB Face Pull** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -820,7 +820,7 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 _Week level: 3.8 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- Same sets: add a little load or reps this week
+- +1 set on Seal Row - DB (Supinated Grip) (Monday)
 
 **Athletic work this week:** 6 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets · Plyo share 42% · Receive-Create 1: Land
 
@@ -978,7 +978,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-2. **KB Face Pull** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+2. **KB Face Pull** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -1184,7 +1184,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-2. **KB Face Pull** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+2. **KB Face Pull** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -1233,7 +1233,7 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 _Week level: 5 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- +1 set on Flat DB Bench Press (Thursday)
+- Same sets: add a little load or reps this week
 
 **Athletic work this week:** 8 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets · Plyo share 41% · Receive-Create 2: Land & Go
 
@@ -1364,7 +1364,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch) · Name to copy into YouTube: `Single-Arm DB Snatch`
 
 **Strength**
-1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
@@ -1388,7 +1388,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-2. **KB Face Pull** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+2. **KB Face Pull** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -1437,7 +1437,7 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 _Week level: 6 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- Same sets: add a little load or reps this week
+- +1 set on Flat DB Bench Press (Thursday)
 
 **Athletic work this week:** 8 jump contacts · 39 ankle-hop contacts · 44 throws · 4 Olympic-lift sets · Plyo share 43% · Receive-Create 2: Land & Go
 
@@ -1525,7 +1525,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 70-85 min (an estimate, for information only)_
+_Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
@@ -1592,7 +1592,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-2. **KB Face Pull** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+2. **KB Face Pull** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -1641,7 +1641,7 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 _Week level: 7 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- +1 set on KB Face Pull (Thursday)
+- Same sets: add a little load or reps this week
 
 **Athletic work this week:** 8 jump contacts · 42 ankle-hop contacts · 48 throws · 4 Olympic-lift sets · Plyo share 43% · Receive-Create 2: Land & Go
 
@@ -1729,7 +1729,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 70-85 min (an estimate, for information only)_
+_Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
@@ -1796,7 +1796,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-2. **KB Face Pull** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+2. **KB Face Pull** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -1847,7 +1847,7 @@ _Week level: 8 of 11 (2 = the start, 11 = a little past your limits)_
 **What changes this week**
 - New exercise block: 6 exercises change a little (another version or one new detail); the rest stay
 - Jumps move to Receive-Create 3: Repeat
-- Same sets: add a little load or reps this week
+- +1 set on Machine Calf Raise (Monday)
 
 **Athletic work this week:** 8 jump contacts · 45 ankle-hop contacts · 48 throws · 4 Olympic-lift sets · Plyo share 45% · Receive-Create 3: Repeat
 
@@ -1925,7 +1925,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-2. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+2. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -1935,7 +1935,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 75-95 min (an estimate, for information only)_
+_Average time: about 80-95 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
@@ -2002,7 +2002,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-2. **KB Face Pull** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+2. **KB Face Pull** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -2051,7 +2051,7 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 _Week level: 9 of 11 (2 = the start, 11 = a little past your limits)_
 
 **What changes this week**
-- +1 set on Machine Calf Raise (Monday)
+- Same sets: add a little load or reps this week
 
 **Athletic work this week:** 8 jump contacts · 48 ankle-hop contacts · 48 throws · 4 Olympic-lift sets · Plyo share 46% · Receive-Create 3: Repeat
 
@@ -2139,7 +2139,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 75-95 min (an estimate, for information only)_
+_Average time: about 80-95 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
@@ -2206,7 +2206,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-2. **KB Face Pull** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+2. **KB Face Pull** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -2344,7 +2344,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 80-100 min (an estimate, for information only)_
+_Average time: about 85-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
@@ -2411,7 +2411,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-2. **KB Face Pull** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+2. **KB Face Pull** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -2618,7 +2618,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-2. **KB Face Pull** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+2. **KB Face Pull** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.

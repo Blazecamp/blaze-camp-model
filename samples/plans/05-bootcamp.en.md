@@ -15,6 +15,7 @@ _Your Blaze Camp plan_
 ## Before you start
 
 - Week 7 jumps more than usual (25 % more sets in total): adjust if needed.
+- Shoulders: every station runs the same rounds, so this group reaches 22.5 weekly sets, above its usual top of 18. If you want to stay at the top, skip one Shoulders station in the extra round.
 - Optional upgrade: pull-up bar, suspension trainer (TRX) would add more exercise options; the plan already uses what you have.
 - With this equipment the plan has no vertical pull (pull-up or pulldown): its place is taken by a row or a rear-delt fly. A pull-up bar, a cable or a TRX would add it.
 

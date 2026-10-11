@@ -2,6 +2,7 @@
 // v0.4 (R3-VOL-02 / R3-VOL-04): check-ins and adapt() are retired - the plan is the planned stairway only. Runs against the contract-shaped stubs always and against the real B2 / B3 modules when they exist. Owner: B4.
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
 import * as GEN from '../engine/generate.mjs';
 import { generateWith, generate, realModulesStatus, REQUIRED_DEPS, ENGINE_VERSION } from '../engine/generate.mjs';
 import { STUB_DEPS } from './helpers/stub-modules.mjs';
@@ -243,7 +244,9 @@ describe('generate (real B2 / B3 modules)', { skip: REAL ? false : 'B2 / B3 modu
   });
 
   test('Focus slots: "for your priority muscle" only for a priority; other Focus slots say why they exist', () => {
-    const swim = generate(loadSample('01'), model);   // no priorities: every Focus slot is engine-placed volume
+    // (engine 0.6, converted - DECISIONS G-103: the swimmer's optional-day Focus slots trained big groups and close now; a strength
+    // client with no Focus pick and an optional arms day keeps engine-placed Focus slots - bench intake 18)
+    const swim = generate(JSON.parse(fs.readFileSync(new URL('../design/bench/intakes/18-strength-l3-5x75.json', import.meta.url), 'utf8')), model);   // no priorities: every Focus slot is engine-placed volume
     const notes = swim.weeks.flatMap(w => w.days.flatMap(d => d.blocks.flatMap(b => b.items.filter(it => it.bucket === 'FOCUS').flatMap(it => it.notes.map(n => n.key)))));
     assert.ok(notes.length && !notes.includes('note.focus') && notes.includes('note.focus_added'));
     const aes = generate(loadSample('06'), model);    // Focus glutes + side delts (shoulders line, R3-VOL-01; side delts steer the pick)
