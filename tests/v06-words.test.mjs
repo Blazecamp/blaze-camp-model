@@ -120,10 +120,18 @@ describe('08 M3 (VOL-03, R3-ATH-02): the pain-free depth cue by exercise type', 
 
 describe('"What changes" names the exercises and the real set differences (04 M2, 07 m8; R4-PRG-03)', () => {
   it('R4-PRG-03 rev04-M2: a slot that gains 2 sets in a week says +2 with from -> to (DB floor press 2 -> 4), and every set line matches the real sets', () => {
-    const p = planOf('04');
-    const all = [];
-    for (const w of p.weeks) for (const l of changesText(p, w.n, model, 'en')) all.push(l);
-    assert.ok(all.some(l => /^\+2 sets on DB Floor Press \(Saturday\): 2 → 4 sets$/.test(l)), all.join('\n'));
+    // (converted, G-192: sample 04's Saturday floor press is gone - a big group takes no optional-day bonus, G-102 - and an exercise
+    // takes one step a week, G-109; the 2-set line is read on a copy of the plan whose slot gains 2 sets in a working week)
+    const p = clone(planOf('04'));
+    const w = p.weeks.find(x => !x.test && !p.weeks.find(y => y.n === x.n - 1 && y.test) && x.n > 1 && (x.changes || []).some(c => c.key === 'changes.set_added'));
+    const c = w.changes.find(x => x.key === 'changes.set_added');
+    const it = w.days.flatMap(d => d.blocks.flatMap(b => b.items)).find(x => x.slot_id === c.args.slot_id && x.role !== 'test');
+    const before = p.weeks.find(y => y.n === w.n - 1).days.flatMap(d => d.blocks.flatMap(b => b.items)).find(x => x.slot_id === c.args.slot_id && x.role !== 'test').sets;
+    it.sets = before + 2;
+    const all = changesText(p, w.n, model, 'en');
+    const name = t('en', model.ex(it.exercise_id).name_key);
+    assert.ok(all.includes(`+2 sets on ${name} (${t('en', 'weekday.' + c.args.day)}): ${before} → ${before + 2} sets`), all.join('\n'));
+    assert.ok(!planOf('04').weeks.some(x => x.days.some(d => d.weekday === 'Sat' && d.blocks.some(b => b.items.some(i => i.origin === 'bonus' && i.group === 'chest' && i.sets)))));
     for (const n of SAMPLES) {
       const q = planOf(n);
       for (const w of q.weeks) {
@@ -133,7 +141,7 @@ describe('"What changes" names the exercises and the real set differences (04 M2
           if (m) assert.equal(Number(m[3]) - Number(m[2]), Number(m[1]), `${n} w${w.n}: ${l}`);
         }
         // no slot is reported twice in one week
-        const slots = (w.changes || []).filter(c => c.key === 'changes.set_added').map(c => c.args.slot_id);
+        const slots = (w.changes || []).filter(c => ['changes.set_added', 'changes.sets_added_n'].includes(c.key)).map(c => c.args.slot_id);
         const lines = changesText(q, w.n, model, 'en').filter(l => /^\+\d+ sets? on /.test(l));
         assert.ok(lines.length <= new Set(slots).size, `${n} w${w.n}`);
         void pw;
@@ -147,7 +155,9 @@ describe('"What changes" names the exercises and the real set differences (04 M2
       const days = lines.filter(l => /^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday): .+ → .+/.test(l));
       assert.ok(days.length >= 2, `week ${n}: ${lines.join(' | ')}`);
     }
-    assert.ok(changesText(p, 9, model, 'en').some(l => l.startsWith('Tuesday: ') && l.includes('Seal Row')));
+    // (converted, G-193: a block change keeps the one-arm row's laterality and support, G-134, so week 9's Tuesday no longer turns a
+    // row into a seal row; the Tuesday line names its own changes)
+    assert.ok(changesText(p, 9, model, 'en').some(l => l.startsWith('Tuesday: ') && l.includes(' → ')));
     assert.ok(changesText(p, 9, model, 'es').some(l => l.startsWith('Martes: ')));
   });
 });
@@ -168,7 +178,11 @@ describe('printed-copy minors of the round-4 reviews', () => {
   });
   it('rev02-m14 / rev08-m4: "trained through your sport work" only with sport practice days; otherwise "your compound lifts"', () => {
     assert.ok(mdOf('02').includes(head('warning.credit_only_groups_lifts')) && !mdOf('02').includes(head('warning.credit_only_groups')), '02: 0 practice days');
-    assert.ok(mdOf('08').includes(head('warning.credit_only_groups_lifts')), '08: a recreational player');
+    // (converted, COACH-CH5 CH5-02 / G-198: the recreational player's A / B days now train the arms in slot 5, so 08 has no credit-only
+    // group left; the wording is read on a copy of 08 whose arms are credit-only again)
+    { const q = clone(planOf('08')); q.meta.warnings.push({ code: 'credit_only_groups', key: 'warning.credit_only_groups', args: { group: ['biceps'] } });
+      const out = unesc(renderPlan(q, model, { lang: 'en' }));
+      assert.ok(out.includes(head('warning.credit_only_groups_lifts')), '08: a recreational player'); }
     assert.ok(mdOf('01').includes(head('warning.credit_only_groups')), '01: 6 pool days a week');
   });
   it('R4-SES-02 rev02-m8 rev03-m12 rev06-m10: the header prints the real exercise count of the training days', () => {
@@ -178,16 +192,20 @@ describe('printed-copy minors of the round-4 reviews', () => {
       const want = lo === hi ? t('en', 'ui.plan.session_size', { n: lo }) : t('en', 'ui.plan.session_size_range', { low: lo, high: hi });
       assert.ok(mdOf(n).includes(want), `${n}: ${want}`);
     }
-    assert.ok(mdOf('06').includes('about 7-8 exercises a session'));
+    // (converted, COACH-CH5 CH5-03 / G-199: sample 06's Friday takes the chest's bonus fly, so every training day holds 8)
+    assert.ok(mdOf('06').includes('about 8 exercises a session'));
   });
   it('VOL-03 rev08-m2: the pain line promises a note "on the lift" only when a lift carries one', () => {
+    // (converted, G-194: sample 08's power slot now takes a KB swing "instead of Mid-Hang Clean Pull, to protect your knee" - the safe
+    // power slot, G-133 - so its plan carries a lift note and says so; the line without it is read on a copy with the notes removed)
     const p = planOf('08');
-    assert.ok(!allItems(p).some(x => (x.it.notes || []).some(n => ['note.pain_swap', 'note.pain_instead_of'].includes(n.key))));
-    assert.ok(mdOf('08').includes(head('warning.pain_plan_no_lift')) && !mdOf('08').includes('says so on the lift'));
+    const PN = ['note.pain_swap', 'note.pain_instead_of'];
+    assert.ok(allItems(p).some(x => (x.it.notes || []).some(n => PN.includes(n.key))));
+    assert.ok(mdOf('08').includes('Instead of Mid-Hang Clean Pull, to protect your knee.') && mdOf('08').includes('says so on the lift'));
     const q = clone(p);
-    const x = allItems(q).find(y => y.it.exercise_id && y.b.kind !== 'warmup');
-    x.it.notes.push({ key: 'note.pain_swap', args: { area: 'pain.area.knee' } });
-    assert.ok(unesc(renderPlan(q, model, { lang: 'en' })).includes('says so on the lift'));
+    for (const x of allItems(q)) x.it.notes = (x.it.notes || []).filter(n => !PN.includes(n.key));
+    const mq = unesc(renderPlan(q, model, { lang: 'en' }));
+    assert.ok(mq.includes(head('warning.pain_plan_no_lift')) && !mq.includes('says so on the lift'));
   });
   it('CX-04 rev04-m11: a class member reads that the plan\'s WODs replace the box WOD; a competitor keeps his line', () => {
     assert.ok(mdOf('04').includes(t('en', 'instruction.cf.3_class').replace(/\*/g, '')) || mdOf('04').includes(t('en', 'instruction.cf.3_class')));
@@ -211,8 +229,13 @@ describe('printed-copy minors of the round-4 reviews', () => {
       assert.equal(hits.length, 1, `${lang}: ${hits.join(' | ')}`);
       assert.ok(hits[0].includes(head('ui.plan.accel_week_all_round', lang).split('(')[0].trim()));
     }
-    const w6 = unesc(renderWeek(planOf('03'), 6, model, { lang: 'es' }));
-    assert.ok(w6.includes('cadera (glúteos + isquiotibiales)'), 'Spanish group names in lower case mid-sentence');
+    // (converted, G-195: sample 03 no longer jumps in week 6 - one step an exercise a week, G-109 - so the Spanish group names and the
+    // one line for groups with different steps are read on a copy of week 6 that carries two fast groups)
+    const q = clone(planOf('03'));
+    q.weeks.find(w => w.n === 6).acceleration = [{ group: 'quads', from: 10, to: 12, pct: 20 }, { group: 'hips', from: 10, to: 12.5, pct: 25 }];
+    const w6 = unesc(renderWeek(q, 6, model, { lang: 'es' })).split('\n').filter(l => l.includes(t('es', 'ui.plan.accel_week_groups').split('(')[0].trim()));
+    assert.equal(w6.length, 1, w6.join(' | '));
+    assert.ok(w6[0].includes('20-25 %') && w6[0].includes('cadera (glúteos + isquiotibiales)'), 'Spanish group names in lower case mid-sentence: ' + w6[0]);
   });
   it('rev05-m12 (STATUS v0.5 printed copy): the weekly tables print whole sets; the plan JSON keeps the quarter credits', () => {
     const p = planOf('05');
@@ -242,7 +265,13 @@ describe('printed-copy minors of the round-4 reviews', () => {
   });
   it('rev08-m9: one intensifier day reads in the singular; rev08-m8: the cardio bridge names the optional day it sits on', () => {
     const out = mdOf('08');
-    assert.ok(out.includes(t('en', 'effort.intensifier_days_one', { days: 'Thursday' })) && !out.includes('each of these days (Thursday)'));
+    // (converted, COACH-CH5 CH5-02 / G-198: Monday's arm exercise now carries the last week's MYO set too, so 08 names two days; the
+    // singular is read on a copy whose Monday carries none)
+    assert.ok(out.includes('each of these days (Monday and Thursday)'));
+    { const q = clone(planOf('08')); const last = q.weeks[q.weeks.length - 1];
+      for (const d of last.days.filter(x => x.weekday === 'Mon')) for (const b of d.blocks) for (const it of b.items) if (it.effort && it.effort.last_set) delete it.effort.last_set;
+      const o1 = unesc(renderPlan(q, model, { lang: 'en' }));
+      assert.ok(o1.includes(t('en', 'effort.intensifier_days_one', { days: 'Thursday' })) && !o1.includes('each of these days (Thursday)')); }
     assert.ok(out.includes(t('en', 'instruction.2_bridge_optional', { days: 'Friday' })) && !out.includes(t('en', 'instruction.2_bridge')));
   });
   it('rev03-m12: a one-leg jump says "per leg"; the block heading does not say "Block" twice', () => {

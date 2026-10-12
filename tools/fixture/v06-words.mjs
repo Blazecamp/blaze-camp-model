@@ -68,9 +68,12 @@ export function amendRulesW6(rules) {
     // drops the plyometric share and the Receive-Create stage
     athletic_line: { hide_families: ['fat_loss_bootcamp'], hide_share_stage_unless: 'competitive' },
     circuit_station_label: { families: ['fat_loss_bootcamp'], key: 'block.short.circuit_station' },
+    // COACH-CH5 CH5-01 ('team practice doesnt matter, just have the athlete take into account and they handle that'): a competitive
+    // athlete with team practice days reads one line, up front, to take them into account and adjust the load himself
+    team_practice_line: { key: 'ui.plan.team_practice', refs: ['CH5-01'] },
     // 03 m12: a one-leg jump says 'per leg'
     contacts_per_leg_key: 'reps.contacts_per_leg',
-    refs: ['R4-PRG-02', 'R4-PRG-03', 'R4-SES-02', 'R4-LIB-05', 'CX-02', 'CX-04', 'PRG-07', 'VOL-03', 'GEN-01', 'GEN-08', 'R2-GEN-08'],
+    refs: ['R4-PRG-02', 'R4-PRG-03', 'R4-SES-02', 'R4-LIB-05', 'CX-02', 'CX-04', 'CH5-01', 'PRG-07', 'VOL-03', 'GEN-01', 'GEN-08', 'R2-GEN-08'],
     status: 'approved rules (the coach ids above); PROPOSED: the wording of every new line (machine-written Spanish listed in es_review.priority_review)'
   };
   R.render.refs = uniqSorted([...(R.render.refs || []), 'PRG-07', 'GEN-08']);
@@ -142,6 +145,9 @@ export const UI_W6 = {
   'block.short.circuit_station': ['conditioning station', 'estación de acondicionamiento'],
   'reps.contacts_per_leg': ['{n} contacts per leg', '{n} contactos por pierna'],
   'list.or': ['or', 'o'],
+  // COACH-CH5 CH5-01: team practices are the athlete's own to account for (PROPOSED wording)
+  'ui.plan.team_practice': ['This plan does not count your {n} team practices a week: take them into account and adjust the load yourself (lighter on a hard practice day, a little more in a light week).', 'Este plan no cuenta tus {n} prácticas de equipo por semana: tómalas en cuenta y ajusta tú la carga (más ligero en un día de práctica dura, un poco más en una semana ligera).'],
+  'ui.plan.team_practice_one': ['This plan does not count your weekly team practice: take it into account and adjust the load yourself (lighter on a hard practice day, a little more in a light week).', 'Este plan no cuenta tu práctica de equipo semanal: tómala en cuenta y ajusta tú la carga (más ligero en un día de práctica dura, un poco más en una semana ligera).'],
   'effort.intensifier_days_one': ['Last week: one intensifier on {days}: a MYO set on the day\'s last small-muscle or machine exercise', 'Última semana: un intensificador el {days}: una serie MYO en el último ejercicio de músculo pequeño o de máquina del día'],
   'effort.drift_intensifier_days_one': ['Week {week}: one intensifier on {days}: a MYO set on the day\'s last small-muscle or machine exercise.', 'Semana {week}: un intensificador el {days}: una serie MYO en el último ejercicio de músculo pequeño o de máquina del día.'],
   'instruction.2_bridge_optional': ['In this plan your cardio sits on your optional day ({days}): do it there, or on any other free day.', 'En este plan tu cardio cae en tu día opcional ({days}): hazlo ahí o en cualquier otro día libre.']

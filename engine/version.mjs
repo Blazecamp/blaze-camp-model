@@ -40,4 +40,11 @@
 //   sport's single-leg and one-arm work, class skeletons, hang power lifts, bootcamp stations by the kit in his order with 5-s
 //   timer steps, the set order (first exercise first), the schedule the plan really runs, the pain words
 //   (tools/fixture/v05-fix2.mjs; DECISIONS G-76 ... G-96; samples/STATUS_v0.5.md).
-export const ENGINE_VERSION = '0.5.0';
+// 0.6.0 (the round-4 coach-eye reviews of the 8 samples, three packages merged): volume targets and set placement - the main lift
+//   first, the optional day's bonus for small groups, every capped group said, the physique start, one step an exercise a week, a
+//   circuit above its top said (tools/fixture/v06-volume.mjs; DECISIONS G-100 ... G-119); selection - the athletic arm slot,
+//   low-back core only with low-back pain, stage-2 jumps, the safe power slot, one-detail block changes, the bootcamp's cardio
+//   station, team practices (tools/fixture/v06-select.mjs; G-130 ... G-139); words - circuit progression from the weeks, the
+//   pyramid written out, "What changes" by exercise with its sets before and after, one acceleration line a week, the printed-copy
+//   minors (tools/fixture/v06-words.mjs; G-160 ... G-179); the integration of the three (G-190 ... G-199).
+export const ENGINE_VERSION = '0.6.0';

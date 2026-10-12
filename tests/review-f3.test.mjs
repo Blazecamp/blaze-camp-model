@@ -215,7 +215,10 @@ describe('v0.4 fix round 1 / F3: selection, dosing and the printed plan (coach-e
     for (const g of ['quads', 'hips', 'back', 'chest', 'shoulders', 'calves']) assert.ok(table.includes('| ' + t('en', 'group.' + g) + ' |'), g);
     // (v0.5, R4-SES-03: on 2 training days back is trained - 6-8 weekly sets - not left to a kept pattern station)
     assert.ok(/\| Back \| \d/.test(table));
-    assert.ok(/\| Biceps \| - \(\d/.test(table), 'a credit-only group shows "-" with its helper sets');
+    // (engine 0.6.0, converted - COACH-CH5 CH5-02 / DECISIONS G-198: 08's arms are trained in slot 5 now; the credit-only row is read on
+    // the football plan, whose arms stay credit-only in the stairway)
+    const s2 = unesc(md('02', 'en'));
+    assert.ok(/\| Biceps \| - \(\d/.test(s2.slice(s2.indexOf('## ' + t('en', 'ui.plan.weekly_sets_groups')))), 'a credit-only group shows "-" with its helper sets');
     const s1 = unesc(md('01', 'en'));
     assert.ok(/\| Biceps \| - \(\d/.test(s1), 'a credit-only group shows "-" with its helper sets');
   });

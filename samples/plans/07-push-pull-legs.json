@@ -2,7 +2,7 @@
   "schema": "plan/2",
   "status": "ok",
   "model_version": "1.3.0",
-  "engine_version": "0.5.0",
+  "engine_version": "0.6.0",
   "contracts_version": "1.1.0",
   "seed": "c53:1e4717eb1f263b",
   "intake_hash": "c53:1978ce16cd8924",

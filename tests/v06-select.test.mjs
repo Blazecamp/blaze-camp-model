@@ -1,9 +1,9 @@
 // Blaze Camp engine 0.6 - selection, templates and week layout (the round-4 coach-eye reviews, reviews/coach-eye-r4/): one test per
 // rule the package added, named with the coach answer it reads. Every plan here is generated in the test - no stored plan is read.
 //   layer   tools/fixture/v06-select.mjs is pure and idempotent, and each new rule section names its coach answers
-//   01 / 02 R4-SES-05 the arm slot of the athletic A / B days (G-130)
+//   01 / 02 R4-SES-05 the arm slot of the athletic A / B days (G-130); CH5-02 on every athletic A / B day (G-198)
 //   02      R2-SES-03 / PER-02 the core of a healthy athlete with a low-back hot spot (G-131)
-//   03      R2-ATH-03 / CAT-13 single-leg and lateral jumps from the first block (G-132); R3-ATH-05 practices and the hard eve (G-136)
+//   03      R2-ATH-03 / CAT-13 single-leg and lateral jumps from the first block (G-132); the hard eve (G-136); CH5-01 practices not counted, one line (G-197)
 //   05      OT06 / PRG-03 the bootcamp's cardio station (G-135)
 //   07      R2-LIB-01 / PER-02 / PER-04 one-detail block changes, one seal row a week (G-134)
 //   02      T3-ATH-02 the plyo share after the never-a-drop pass (G-139)
@@ -13,6 +13,7 @@ import assert from 'node:assert/strict';
 import { loadFixtureModel, loadCompiledModel, loadSample, readModelDir, readFixtureRaw } from './helpers/models.mjs';
 import { generate } from '../engine/generate.mjs';
 import { loadModel } from '../engine/model.mjs';
+import { renderPlan } from '../engine/render.mjs';
 import { amendRulesS6, amendTemplatesS6, amendExerciseS6, UI_S6, ARM_SLOT } from '../tools/fixture/v06-select.mjs';
 import { makeContext, scorePlan, SCORER_VERSION } from '../design/bench/score.mjs';
 
@@ -53,25 +54,31 @@ describe('v0.6 selection - the amendment layer', () => {
 });
 
 describe('v0.6 selection - R4-SES-05 slot 5 on the athletic A / B days (01 M1, 02 M1)', () => {
-  it('R4-SES-05: every athletic A / B day type (not the in-season variant) holds an arm station of the competitive athlete\'s session, ranked last, printed before the leg extension / leg curl', () => {
+  // (converted, COACH-CH5 CH5-02 'all should have it and be adjustable always' - DECISIONS G-198: the in-season variant takes the slot
+  // too; it stays the day's last rank and the engine keeps it on a full day in place of the last isolation accessory)
+  it('CH5-02: every athletic A / B day type, the in-season variant too, holds slot 5 (biceps A, triceps B), ranked last and printed before the leg extension / leg curl', () => {
+    assert.equal(S6.arm_slot.every_athletic_day, true);
+    assert.ok(S6.arm_slot.refs.includes('CH5-02'));
     const fam = model.templates.families.athletic;
-    let n = 0;
+    let n = 0, inSeason = 0;
     for (const t of Object.values(fam.days)) {
-      const lists = [t.day_types, ...Object.entries(t.variants || {}).filter(([vn]) => vn !== 'in_season').map(([, v]) => v.day_types)];
-      for (const dts of lists) for (const def of Object.values(dts || {})) {
+      const lists = [['base', t.day_types], ...Object.entries(t.variants || {}).map(([vn, v]) => [vn, v.day_types])];
+      for (const [vn, dts] of lists) for (const def of Object.values(dts || {})) {
         const b = ARM_SLOT[def.skeleton];
         if (!b) continue;
         const st = def.stations.find(s => s.bucket === b);
-        assert.ok(st, `${def.skeleton}: no ${b}`); n++;
+        assert.ok(st, `${vn} ${def.skeleton}: no ${b}`); n++; if (vn === 'in_season') inSeason++;
         assert.equal(st.condition, 'if_athletic_arm_sets');
         const counted = def.stations.filter(s => typeof s.rank === 'number' && s.rank < 99).map(s => s.rank);
         assert.equal(st.rank, Math.max(...counted), 'the arm slot is the first thing to remove (R4-SES-04)');
         const iso = def.stations.findIndex(s => s.bucket === (b === 'ISO_BICEP' ? 'ISO_QUAD' : 'ISO_LEG_FLEXION'));
         if (iso >= 0) assert.ok(def.stations.indexOf(st) < iso, 'slot 5 prints before slot 6');
       }
-      for (const def of Object.values((t.variants && t.variants.in_season && t.variants.in_season.day_types) || {})) assert.ok(!def.stations.some(s => s.condition === 'if_athletic_arm_sets'), 'in season stays as written');
     }
-    assert.ok(n >= 8);
+    assert.ok(n >= 10 && inSeason >= 2, `${n} day types, ${inSeason} in season`);
+    // a full day keeps the slot in place of its last isolation accessory, and says so (a stated reason for V30 and the scorer)
+    assert.equal(S6.arm_slot.full_day, 'replace_last_accessory');
+    assert.ok(R.validation.v05.skeleton.absent_ok_whys.includes('why.arm_slot'));
   });
   it('R4-SES-05 (01, 02): the swimmer\'s and the linebacker\'s A days hold a biceps exercise and their B days a triceps exercise in every week, inside the field-athlete count of 12', () => {
     for (const k of ['01', '02']) {
@@ -85,15 +92,32 @@ describe('v0.6 selection - R4-SES-05 slot 5 on the athletic A / B days (01 M1, 0
       }
     }
   });
-  it('R4-SES-05 / OBSERVED BYOP ATHLETIC (03 m14): a field sport whose profile writes no direct arm sets - soccer - keeps his athletic sheet, no arm isolation', () => {
-    const p = planOf('03');
-    const ds = model.sport('soccer').direct_sets_wk;
-    assert.ok(!(ds.ISO_BICEP > 0) && !(ds.ISO_TRICEP > 0));
-    for (const x of allItems(p)) if (x.d.kind === 'main') assert.ok(!['ISO_BICEP', 'ISO_TRICEP'].includes(x.it.bucket), `w${x.w.n} ${x.d.weekday}: ${x.it.bucket}`);
+  // (converted, COACH-CH5 CH5-02 - DECISIONS G-198: the soccer midfielder and the stay-active adult were kept on his athletic sheet with no
+  // arm isolation; every athletic A / B day now holds slot 5)
+  it('CH5-02 (03, 08): every A / B training day of the soccer midfielder and of the stay-active adult holds slot 5 in every week, inside the day\'s exercise count', () => {
+    for (const k of ['03', '08']) {
+      const p = planOf(k);
+      assert.equal(p.status, 'ok'); assert.equal(p.validation.ok, true, k);
+      for (const w of p.weeks) for (const d of w.days) {
+        if (d.kind !== 'main' || !ARM_SLOT[d.skeleton]) continue;
+        const items = d.blocks.flatMap(b => b.items);
+        assert.ok(items.some(it => it.bucket === ARM_SLOT[d.skeleton] && it.exercise_id && it.sets >= 2), `${k} w${w.n} ${d.weekday} ${d.skeleton}: no ${ARM_SLOT[d.skeleton]}`);
+        assert.ok(d.exercise_count <= p.meta.session_size.range[1], `${k} w${w.n} ${d.weekday}: count ${d.exercise_count}`);
+      }
+    }
   });
-  it('R4-SES-05 / R4-SES-02 (08): the stay-active adult keeps his athletic sheet - no arm isolation on his A / B days', () => {
-    const p = planOf('08');
-    for (const x of allItems(p)) if (x.d.kind === 'main') assert.ok(!['ISO_BICEP', 'ISO_TRICEP'].includes(x.it.bucket), `w${x.w.n} ${x.d.weekday}: ${x.it.bucket}`);
+  it('CH5-02 (in season): an in-season athlete\'s A / B days hold slot 5 too', () => {
+    const i = loadSample(NAMES['02']);
+    i.sport.season = { type: 'in_season_until', date: '2027-01-15' };
+    const p = generate(i, model);
+    assert.equal(p.status, 'ok');
+    let n = 0;
+    for (const w of p.weeks) for (const d of w.days) {
+      if (d.kind !== 'main' || !ARM_SLOT[d.skeleton]) continue;
+      n++;
+      assert.ok(d.blocks.flatMap(b => b.items).some(it => it.bucket === ARM_SLOT[d.skeleton] && it.exercise_id), `w${w.n} ${d.weekday} ${d.day_type}`);
+    }
+    assert.ok(n > 0, 'the in-season plan has A / B days');
   });
 });
 
@@ -261,22 +285,25 @@ describe('v0.6 selection - OT06 / PRG-03 the bootcamp cardio station (05 M1)', (
 });
 
 describe('v0.6 selection - R3-ATH-05 team practices and the hard eve (03 M1)', () => {
-  it('R3-ATH-05 (03, PROPOSED for competitive athletes): the 2 team practices show on the template\'s "sport or off" days, count as aerobic sessions, and no aerobic session sits on a practice day', () => {
+  // (converted, COACH-CH5 CH5-01 'team practice doesnt matter, just have the athlete take into account and they handle that' -
+  // DECISIONS G-197: the G-136 reading - practices shown as days and counted as aerobic sessions - is retired)
+  it('CH5-01 (03): team practices are not built into the week and do not count as aerobic sessions; the template\'s aerobic sessions stay; one line (EN + ES) tells the athlete to account for them', () => {
+    assert.equal(R.conditioning.s6.practice.counts_as_aerobic, false);
+    assert.ok(R.conditioning.s6.practice.refs.includes('CH5-01'));
     const p = planOf('03');
-    const D14 = p.meta.derived ? p.meta.derived.D14_aerobic_sessions : null;
-    if (D14) { assert.equal(D14.practice_days, 2); assert.equal(D14.replaced_by_practice, 2); }
-    for (const w of p.weeks) {
-      const sport = w.days.filter(d => d.kind === 'sport');
-      assert.deepEqual(sport.map(d => d.weekday), ['Tue', 'Thu'], `w${w.n}`);
-      for (const d of sport) { assert.equal(d.label_key, 'ui.plan.sport_day'); assert.ok(!d.blocks.some(b => b.items.length), `w${w.n} ${d.weekday}: a practice day holds work`); }
-      assert.ok(!w.days.some(d => d.kind === 'aerobic' && ['Tue', 'Thu'].includes(d.weekday)), `w${w.n}`);
-    }
-    // an athlete with no practice keeps the template's aerobic days
+    assert.equal(p.meta.season.practice_days, 2);
+    for (const w of p.weeks) assert.ok(!w.days.some(d => d.kind === 'sport'), `w${w.n}: a practice day was built into the week`);
+    // the same athlete with no practice: the same aerobic sessions (practices replace none)
     const i = loadSample(NAMES['03']); i.sport.practice.practice_days_per_week = 0;
     const p0 = generate(i, model);
-    assert.ok(!p0.weeks.some(w => w.days.some(d => d.kind === 'sport')));
-    const nA = (pl) => itemsOf(pl.weeks[0]).filter(x => x.it.aerobic).length;
-    assert.ok(nA(p0) > nA(p), `practices count: ${nA(p0)} sessions without them, ${nA(p)} with`);
+    const nA = (pl) => pl.weeks.map(w => itemsOf(w).filter(x => x.it.aerobic).length).join(' ');
+    assert.equal(nA(p), nA(p0));
+    // the line, EN and ES, only for an athlete with practice days
+    const md = (pl, lang) => renderPlan(pl, model, { lang }).replace(/\\([\\*_`])/g, '$1');
+    assert.ok(md(p, 'en').includes(model.t('en', 'ui.plan.team_practice', { n: 2 })));
+    assert.ok(md(p, 'es').includes(model.t('es', 'ui.plan.team_practice', { n: 2 })));
+    assert.ok(!md(p0, 'en').includes(model.t('en', 'ui.plan.team_practice').split('{')[0]));
+    assert.ok(!md(planOf('06'), 'en').includes(model.t('en', 'ui.plan.team_practice').split('{')[0]), 'no line for a client who does not compete');
   });
   it('ORD-03 / R2-SES-06 (all samples, and the soccer player with no practice): a hard aerobic colour never sits on the day before a sprint day or the week\'s heavy hinge', () => {
     const HE = R.conditioning.s6.hard_eve;
@@ -295,7 +322,7 @@ describe('v0.6 selection - R3-ATH-05 team practices and the hard eve (03 M1)', (
 
 describe('v0.6 selection - the benchmark scorer reads the package\'s rules (scorer 2.4, G-138)', () => {
   it('EQ-03 / G-133: the 52-year-old\'s KB swing on his knee day is not counted as a day-pattern miss; R2-LIB-01 / G-134: the push / pull / legs plan\'s kept laterality is not a dial error', () => {
-    assert.equal(SCORER_VERSION, '2.4.0');
+    assert.equal(SCORER_VERSION, '2.4.1'); // (engine 0.6.0 integration: 2.4.1 reads the model's stated-reason list, G-198)
     const ctx = makeContext({ rules: raw.rules, catalog: raw.catalog, templates: raw.templates, profiles: raw.profiles });
     const s08 = scorePlan(planOf('08'), ctx);
     assert.equal((s08.metrics.olympic_day_pattern || {}).value || 0, 0, JSON.stringify(s08.metrics.olympic_day_pattern));

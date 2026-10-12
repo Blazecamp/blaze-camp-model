@@ -627,6 +627,10 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   //  - G-108: in the first week of a physique block a compound lift holds at most 4 sets and an isolation exercise 3, so the first
   //    lift has a step left (VOL-01, VOL-07; OBSERVED 4 TRACKS AESTHETICS 3 -> 4 -> 5 sets; review 06 M1); a Focus group keeps its numbers
   const PX3 = P.x3 || {};
+  // COACH-CH5 CH5-03 ('they should reach more if needed, no cap until 35'): a big group the training days cannot take to its planned
+  // final sets may take a bonus exercise (the optional day; a training day when there is none); the absolute weekly ceiling
+  const BIGNEED = !!(PX3.bonus_small_only && PX3.bonus_small_only.big_when_needed);
+  const GMAX = V.x3 && V.x3.group_max && isNum(V.x3.group_max.sets) ? V.x3.group_max.sets : null;
   const focusGroup = (g) => !!g && (X.linesOfGroup[g] || []).some(l => prio.includes(l));
   const bigGroup = (g) => !!g && (X.linesOfGroup[g] || []).some(l => ((X.defs[l] || {}).class) === 'big');
   const wpOn = () => { const W = PX3.work_over_paired; return !!W && (W.families || []).includes(layout.family) && (!W.modifiers || W.modifiers.includes(D9.modifier_id)); };
@@ -889,7 +893,9 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     inOrder(cands);
     const c = cands[0];
     sets[c.s.slot_id] += 1;
-    lastDay[g] = c.di;
+    // (COACH-CH5 CH5-03: a big group's bonus exercise is not one of the day type's two exposures - a step on it leaves the A / B rotation
+    // of the template lifts where it was, R3-VOL-03)
+    if (!(BIGNEED && c.s.origin === 'bonus' && bigGroup(g))) lastDay[g] = c.di;
     return c;
   };
   // the floor of 10 is held on the TRAINING days (R2-VOL-06; ORD-10 / R4-SES-05 'optional days are bonuses'; sample 01 major: a
@@ -1082,9 +1088,13 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   // ---- the bonus exercise on the optional day (allocation step 3)
   const bonusOpen = new Map(); // group -> slot
   const addedOn = (di) => days[di].added.filter(s => s.origin === 'bonus').length;
-  const openBonus = (g, n, log, probe = false) => {
-    if (bonusOpen.has(g) || typeof fillSlot !== 'function' || g === 'calves') return null;
-    const cands = optDi.filter(di => addedOn(di) < (BN.max_added_per_optional_day || 2) && daySlotsOf(di).some(s => ['core', ...RESISTANCE_KINDS].includes(kindOf(s))))
+  // (COACH-CH5 CH5-03: a group may take a second bonus exercise - key 'group#2' - when one cannot take it to its planned final sets)
+  const openBonus = (g, n, log, probe = false, key = g, wide = false) => {
+    if (bonusOpen.has(key) || typeof fillSlot !== 'function' || g === 'calves') return null;
+    // (CH5-03: a second bonus exercise may use one more place on an optional day - rules.placement.x3.reach_planned.optional_day_max)
+    const dayMax = (wide || key !== g) && PX3.reach_planned && isNum(PX3.reach_planned.optional_day_max) ? PX3.reach_planned.optional_day_max : (BN.max_added_per_optional_day || 2);
+    const cands = optDi.filter(di => addedOn(di) < dayMax && daySlotsOf(di).some(s => ['core', ...RESISTANCE_KINDS].includes(kindOf(s))))
+      .filter(di => key === g || !days[di].added.some(s => s.origin === 'bonus' && s.group === g))
       .sort((a, b) => addedOn(a) - addedOn(b) || a - b);
     const lines = (X.linesOfGroup[g] || []);
     const line = lines.find(l => prio.includes(l)) || lines.find(l => isNum(D9.start[l])) || lines[0];
@@ -1110,7 +1120,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       d.added.push(slot); added.push(slot);
       owner[slot.slot_id] = g;
       sets[slot.slot_id] = BN.sets[0];
-      bonusOpen.set(g, slot);
+      bonusOpen.set(key, slot);
       if (log) log.push({ key: 'changes.bonus_added', args: { exercise: f.exercise_id, day: d.weekday, slot_id: slot.slot_id } });
       return slot;
     }
@@ -1124,7 +1134,18 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   // is under the top of the session size
   const EXS = PX.main_day_extra || null;
   const sizeMax = derived.D6_week_layout && derived.D6_week_layout.session_size && Array.isArray(derived.D6_week_layout.session_size.range) ? derived.D6_week_layout.session_size.range[1] : Infinity;
-  const countedOn = (di) => daySlotsOf(di).filter(s => s.counts_in_cap !== false && hasPick(s) && sets[s.slot_id] !== 0 && !isCircuitSlot(s)).length;
+  const countedOn0 = (di) => daySlotsOf(di).filter(s => s.counts_in_cap !== false && hasPick(s) && sets[s.slot_id] !== 0 && !isCircuitSlot(s)).length;
+  // (engine 0.6.0 integration, with COACH-CH5 CH5-02's arm slot on the athletic days: an athletic or power slot of the day with no pick
+  // in this exercise block that a later exercise block fills keeps its place - an extra exercise placed now never runs the day over
+  // its session size when it comes back, R4-SES-02 / V13)
+  const pendingAthletic = (di) => {
+    if (!PX3.reach_planned) return 0;
+    // (a slot of the day with no pick in this exercise block that another exercise block's selection fills - a power slot the
+    // stage fills later)
+    const later = (sl) => (selections || []).some(se => se && se.fills && se.fills[sl.slot_id] && se.fills[sl.slot_id].exercise_id);
+    return daySlotsOf(di).filter(sl => !hasPick(sl) && sl.counts_in_cap !== false && ['athletic', 'power'].includes(sl.block) && later(sl)).length;
+  };
+  const countedOn = (di) => countedOn0(di) + (isMainDi(di) ? pendingAthletic(di) : 0);
   const extraOpen = new Map(); // group -> slot
   // (fix round 2, sample 01: two reverse flies on one day) a line of several muscles takes, as its second exercise of the day, a
   // muscle the day does not already train directly - a side raise next to the day's reverse fly
@@ -1228,6 +1249,8 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       carrier[g] = c;
       start[g] = bt0.start[c];
       planned[g] = Math.max(bt0.start[c], plannedTop(c, bt0, N, model));
+      // COACH-CH5 CH5-03 ('no cap until 35'): no group is planned above the absolute weekly ceiling (rules.volume.x3.group_max)
+      if (GMAX !== null && planned[g] > GMAX) { planned[g] = GMAX; start[g] = Math.min(start[g], GMAX); }
       rates[g] = ratesOf(c, bt0, N, model);
     }
     const trained = GROUPS.filter(g => isNum(start[g]) && slotsOfGroup(g).length > 0);
@@ -1397,7 +1420,13 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       if ((reach[g] || 0) >= planned[g] - EPS) continue;
       if (noBonusFor(g)) continue;
       // v0.6 G-102 (R3-VOL-03 'extra SMALL-muscle sets'): a big group never takes the optional day's bonus exercise
-      const smallOnly = !!PX3.bonus_small_only && bigGroup(g);
+      const smallOnly = !!PX3.bonus_small_only && bigGroup(g) && !BIGNEED;
+      // (a big group takes a training day's bonus exercise only for a whole set or more it cannot reach - a quarter-set helper shortfall
+      // is the template's own climb; CH5-03)
+      // (and only in the families rules.placement.x3.bonus_small_only.big_main_day_families names - the physique plans of CH5-03's
+      // question; a field athlete's and a class member's big groups keep G-105 / G-113, UNI-02)
+      const BMF = PX3.bonus_small_only && PX3.bonus_small_only.big_main_day_families;
+      const bigExtra = BIGNEED && bigGroup(g) && (!BMF || BMF.includes(layout.family)) && (planned[g] - (reach[g] || 0)) >= 1 - EPS ? [g] : [];
       // v0.6 G-106 (R4-SES-03; review 08 M2 'put the face pull / rear-delt work on the main days'): on 2 training days a small group's
       // bonus exercise goes to a training day that already works the group (its lifts credit it), inside the session size, before
       // the optional day
@@ -1411,12 +1440,37 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         // v0.6 G-105 (R3-VOL-03 'with no optional day, on a day that already trains biceps'; review 07 M1): no optional day can take
         // it - the bonus exercise goes at the end of the training day that trains the group with the fewest exercises (inside the
         // session size); the class family's squat day takes a second knee lift (review 04 M1)
-        if (FB && !flatSets && ((FB.groups || []).includes(g) || famGroups.includes(g)) && openExtra(g, ws0.n, null, null, 'why.bonus_main_day', famGroups)) { mainBonus.push(extraOpen.get(g)); reach = reachable(want); }
+        if (FB && !flatSets && ((FB.groups || []).includes(g) || famGroups.includes(g) || bigExtra.length) && openExtra(g, ws0.n, null, null, 'why.bonus_main_day', [...famGroups, ...bigExtra])) { mainBonus.push(extraOpen.get(g)); reach = reachable(want); }
         continue;
       }
       scratchBonus.push([g, slot]);
       bonusFor.push(g);
       reach = reachable(want);
+      // (COACH-CH5 CH5-03, the big groups first: a big group one bonus exercise cannot take to its planned final sets takes its next
+      // one before the small groups take the optional day's places)
+      if (BIGNEED && bigGroup(g) && PX3.reach_planned) for (let k = 2; k <= (PX3.reach_planned.max_bonus_per_group || 1) && (reach[g] || 0) < planned[g] - EPS; k++) {
+        const key = g + '#' + k;
+        const sl = openBonus(g, ws0.n, null, true, key, true);
+        if (!sl) break;
+        scratchBonus.push([key, sl]); bonusFor.push(key); reach = reachable(want);
+      }
+    }
+    // COACH-CH5 CH5-03 ('they should reach more if needed, no cap until 35'): a group one bonus exercise cannot take to its planned
+    // final sets takes another one (another optional-day place; never a pattern the day before trained, G-104), up to
+    // rules.placement.x3.reach_planned.max_bonus_per_group exercises
+    const RP = PX3.reach_planned || null;
+    if (RP && !flatSets) for (let k = 2; k <= (RP.max_bonus_per_group || 1); k++) {
+      for (const g of bonusOrder(reach, planned, trained)) {
+        if ((reach[g] || 0) >= planned[g] - EPS || noBonusFor(g) || g === 'calves') continue;
+        // (a group with no bonus exercise yet takes its first one here, on the optional day's wider place count)
+        const key = bonusFor.includes(g) || extraOpen.has(g) ? g + '#' + k : g;
+        if (bonusFor.includes(key) || bonusOpen.has(key)) continue;
+        const slot = openBonus(g, ws0.n, null, true, key, true);
+        if (!slot) continue;
+        scratchBonus.push([key, slot]);
+        bonusFor.push(key);
+        reach = reachable(want);
+      }
     }
     // v0.6 G-115 (VOL-18 'we need to balance this out'; G-102 left the back without the optional day's bonus row): where the training
     // days cannot take the back to its final sets and no profile ratio holds the balance already, the presses take no set that
@@ -1525,10 +1579,22 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       days[di].added = days[di].added.filter(s => s !== slot);
       added.splice(added.indexOf(slot), 1);
       delete sets[slot.slot_id]; delete fills[slot.slot_id]; delete owner[slot.slot_id];
-      bonusOpen.delete(g);
+      bonusOpen.delete(g);   // (the key: the group, or 'group#2' for a second bonus exercise)
     }
     restore(sn0);
     for (const sl of mainBonus) if (sl && !isNum(sets[sl.slot_id])) sets[sl.slot_id] = EXS.sets[0];
+    // (engine 0.6.0 integration: a group the template caps - with COACH-CH5 CH5-02 the arms of every athletic day are trained groups -
+    // arrives at what its slots hold in the last week, one week early at most, like every group (R4-PRG-01): a step the stagger gave
+    // it earlier waits; its helper credit may still run ahead of the schedule, never under it)
+    if (PX3.reach_planned && !flatSets) {
+      const earlyMax = isNum(PG.arrival_weeks_early_max) ? PG.arrival_weeks_early_max : 1;
+      for (const g of trained) {
+        const sc = sched[g];
+        if (!Array.isArray(sc) || !(top[g] < planned[g]) || !(top[g] > S0[g]) || sc.length < 3) continue;
+        const last = sc.length - 1 - earlyMax;
+        for (let i = 0; i < last; i++) if (sc[i] >= top[g]) sc[i] = Math.max(S0[g], top[g] - 1, i ? sc[i - 1] : S0[g]) >= top[g] ? sc[i] : Math.max(S0[g], top[g] - 1, i ? sc[i - 1] : S0[g]);
+      }
+    }
     schedule = sched;
     schedule0 = Object.fromEntries(Object.entries(sched).map(([g, a]) => [g, a.slice()]));
     // calves follow their own rule - 3 sets on every leg day that holds a calf exercise, 2-3 on an optional day (VOL-17) - not the
@@ -1692,10 +1758,16 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         // the main-day lifts start lower and the group climbs a set at a time (rules.placement.x1.bonus_from_block_start)
         const endIdx = PX.bonus_from_block_start ? N - 1 : Math.min(N - 1, idx + (lastN - ws.n));
         const endT = {}; for (const g of blockInfo.trained) endT[g] = schedule[g][endIdx];
-        for (const g of blockInfo.bonus_for) {
-          if (bonusOpen.has(g)) continue;
-          const reach = reachable(endT);
-          if ((reach[g] || 0) < endT[g] - EPS) openBonus(g, ws.n, ws.is_training_block_start ? null : placed);
+        // (COACH-CH5 CH5-03: a group's second or third bonus exercise opens with the exercise block whose own last week needs it - not
+        // from the block's first week - so the first weeks keep their sets on the training days' lifts)
+        const endIdxLate = Math.min(N - 1, idx + (lastN - ws.n));
+        const endTL = {}; for (const g of blockInfo.trained) endTL[g] = schedule[g][endIdxLate];
+        for (const key of blockInfo.bonus_for) {
+          if (bonusOpen.has(key)) continue;
+          const g = key.split('#')[0];
+          const tgt = key.includes('#') ? endTL : endT;
+          const reach = reachable(tgt);
+          if ((reach[g] || 0) < tgt[g] - EPS) openBonus(g, ws.n, ws.is_training_block_start ? null : placed, false, key, !!PX3.reach_planned);
         }
       }
       // (the steps of this week: a Focus muscle's exercises first, never on a lift this week tests)
@@ -1705,6 +1777,16 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       testedSlots =stepWeek && ws.test ? new Set(strengthTestSlots(layout, ws, derived, model, fills)) : new Set();
       prevWeekSets = stepWeek ? { ...sets } : null;
       allocate(targets, ws.is_training_block_start ? null : placed);
+      // (engine 0.6.0 integration: a group whose helper credit fell at an exercise-block change - a bonus press that became a fly for
+      // COACH-CH5 CH5-03's chest - takes a whole set of its own so its weekly sets never drop, H21; inside its planned final sets)
+      if (PX3.reach_planned && !ws.is_training_block_start && ws.is_exercise_block_start) {
+        const heldPrev = weeksOut.length ? weeksOut[weeksOut.length - 1].weekly_sets_by_group : null;
+        if (heldPrev) for (const g of blockInfo.trained) {
+          if (!isNum(heldPrev[g]) || credited(g) >= heldPrev[g] - EPS || credited(g) + 1 > Math.max(blockInfo.top[g], heldPrev[g]) + 1 + EPS) continue;
+          const c = addSet(g);
+          if (c) placed.push({ key: 'changes.set_added', args: { exercise: fills[c.s.slot_id].exercise_id, day: days[c.di].weekday, slot_id: c.s.slot_id } });
+        }
+      }
       stepWeek = null; testedSlots = new Set();
       // v0.6 G-109 (review 04 M2: 'a fly went 2 -> 4 and the plan printed +1'): one change line per exercise, with the real difference
       if (prevWeekSets && PX3.one_step_per_exercise) {
@@ -1715,7 +1797,8 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
           const id = c.args.slot_id, from = prevWeekSets[id], to = sets[id];
           const n = isNum(from) && isNum(to) ? to - from : 1;
           if (n <= 0) continue;
-          const e = n > 1 ? { key: 'changes.sets_added_n', args: { ...c.args, n } } : c;
+          // (engine 0.6 integration, G-190: the planned sets before and after ride along, so the line's {from} / {to} are always filled)
+          const e = n > 1 ? { key: 'changes.sets_added_n', args: { ...c.args, n, from, to } } : c;
           at.set(id, e); merged.push(e);
         }
         placed.splice(0, placed.length, ...merged);
@@ -1937,7 +2020,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       lambda: Object.fromEntries(blockInfo.trained.map(g => [g, round4(blockInfo.lambda[g])])),
       arrival_week: arrival, realized_arrival_week: realized_arrival, realized_top, capped: blockInfo.capped.map(c => ({ ...c })), below_floor: below,
       floor_counted_on: floorMain ? 'main_days' : 'all_days', floor_on_optional: floorOnOptional.slice(),
-      bonus: [...bonusOpen.entries()].map(([g, s]) => ({ group: g, slot_id: s.slot_id })),
+      bonus: [...bonusOpen.entries()].map(([k, s]) => ({ group: k.split('#')[0], slot_id: s.slot_id })),
       focus_closed: (blockInfo.focus_closed || []).map(c => ({ ...c })),
       lowered_start: (blockInfo.lowered_start || []).map(c => ({ ...c })), balanced: blockInfo.balanced ? { ...blockInfo.balanced } : null,
       push_pull: ppRatio ? { pull_per_push: ppRatio.want, hard: ppRatio.hard } : null,

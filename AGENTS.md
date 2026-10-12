@@ -49,7 +49,7 @@ These rewrite tracked files, so run them only when your change should update tho
 node tools/fixture/build-fixture.mjs && node tools/fixture/check-fixture.mjs   # engine/fixtures/mini-model.json (reference compile)
 node tools/compile-model.mjs                                                  # model/*.json (exits 1 and writes nothing on a contract error)
 node tools/generate-samples.mjs                                               # samples/plans/* (exits 1 if any plan fails an error check)
-node design/bench/run.mjs                                                     # design/bench/results_v05.json and V05.md (use --label <name> for a side run)
+node design/bench/run.mjs                                                     # design/bench/results_v06.json and V06.md (use --label <name> for a side run; results_v05.json is the 0.5.0 history)
 ```
 
 ---
@@ -377,7 +377,7 @@ Known leftover: `rules.json > locked` still lists LK08 ("total weekly sets rise 
 1. **Find the authority.** Look up the coach answer that owns the behaviour (§3). If there is none, the change is `INFERRED` or `PROPOSED`: write it down in `engine/DECISIONS.md` (engine) or the doc's open questions, and don't present it as his rule.
 2. **Change the human doc** (`BLAZE_CAMP_BRAIN.md` and the matching `synthesis/*.md` or `docs/` page) with its evidence label, then the **machine source** (spec key or `synthesis/*.json`) so the two stay twins.
 3. **Change what the engine reads** (§11.2 for rules, §11.3 for exercises). Never edit `model/`, `engine/fixtures/mini-model.json` or `samples/plans/` by hand; regenerate them.
-4. **Rebuild and check:** `node tools/fixture/build-fixture.mjs && node tools/fixture/check-fixture.mjs`, `node tools/compile-model.mjs`, `node tools/check-model.mjs`, `node --test tests/`, `node tools/generate-samples.mjs`. All must pass with 0 failures. For a change that can move plans, also run `node tools/sweep.mjs 1500 --render` and `node design/bench/run.mjs --label <name> --compare design/bench/results_v05.json` (no plan's score may drop).
+4. **Rebuild and check:** `node tools/fixture/build-fixture.mjs && node tools/fixture/check-fixture.mjs`, `node tools/compile-model.mjs`, `node tools/check-model.mjs`, `node --test tests/`, `node tools/generate-samples.mjs`. All must pass with 0 failures. For a change that can move plans, also run `node tools/sweep.mjs 1500 --render` and `node design/bench/run.mjs --label <name> --compare design/bench/results_v06.json` (no plan's score may drop).
 5. **Add a test** that fails without your change, named after the coach answer id it reads (as in `tests/v05-*.test.mjs`) or the review issue id (as in `tests/review-v12.test.mjs`). Log engine decisions in `engine/DECISIONS.md` (section G for v0.5) and what changed for the samples in `samples/STATUS_v0.5.md`.
 6. **Never fix a plan by hand.** A problem in a sample plan is fixed in the engine or its data, with a test.
 

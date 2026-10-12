@@ -3422,7 +3422,17 @@ export function fillSlot(slot, ctx) {
       for (const id of st.usedWeek) avoidIds.delete(id);
       for (const id of E.weekUsed) avoidIds.delete(id);
     }
-    fill = pickFor(slot, day, E, st, slot.bucket, { like, avoidIds });
+    // (engine 0.6.0 integration, with COACH-CH5 CH5-03's bonus exercises for big groups: a bonus exercise that cannot keep its exercise
+    // into the next exercise block keeps its credit class and laterality - a floor press stays a press, not a fly - so the helper credit
+    // it gave another group does not fall at the block change, H21)
+    const pax = !like && prevAdded && slot.origin === 'bonus' && E.R && E.R.placement && E.R.placement.x3 && E.R.placement.x3.reach_planned ? model.ex(prevAdded) : null;
+    const likePrev = pax && !pax.is_athletic ? { bil: pax.laterality === 'bilateral', cc: pax.credit_class } : null;
+    if (likePrev) {
+      const f2 = pickFor(slot, day, E, st, slot.bucket, { like: likePrev, avoidIds });
+      const fx = f2 && f2.exercise_id && model.hasEx(f2.exercise_id) ? model.ex(f2.exercise_id) : null;
+      if (fx && fx.credit_class === likePrev.cc && (fx.laterality === 'bilateral') === likePrev.bil) fill = f2;
+    }
+    if (!fill) fill = pickFor(slot, day, E, st, slot.bucket, { like, avoidIds });
     if (like && !inProfile(fill)) {
       const today = st.usedByDay.get(weekdayOfSlot(slot)) || new Set();
       if (!today.has(ba.exercise_id)) fill = { ...ba, detail: ba.detail ? { ...ba.detail } : null, swaps: (ba.swaps || []).slice(), why: (ba.why || []).slice(), flags: (ba.flags || []).slice() };

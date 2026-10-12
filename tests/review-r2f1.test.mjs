@@ -209,7 +209,10 @@ describe('v0.4 fix round 2 / F1: time, volume and structure (coach-eye reviews o
       for (const it of cond) assert.ok((d.toggle_items || []).some(x => x.slot_id === it.slot_id && x.toggle && x.removable), `${d.weekday} ${it.slot_id}`);
     }
     // (v0.6 words, converted - DECISIONS G-175: a general-population bootcamp calls it a conditioning station)
-    assert.ok(md('05').includes('Kettlebell Swing (Russian) (conditioning station)'));
+    // (engine 0.6 integration, converted - DECISIONS G-196: the station is a cardio pick on the live model, G-135, so the label is read
+    // on the cardio station - 'Jump Rope (conditioning station)')
+    assert.ok(md('05').includes('Jump Rope (conditioning station)'));
+    assert.ok(!md('05').includes('(jumps, throws and speed)'));
   });
 
   // ------------------------------------------------------------------------------------------------ the last week's MYO set

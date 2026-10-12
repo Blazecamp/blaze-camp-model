@@ -18,7 +18,7 @@
    "profiles": 127,
    "sports_in_picker": 52,
    "activities": 26,
-   "en_keys": 2751,
+   "en_keys": 2755,
    "es_missing": 805
   },
   "do_not_edit_by_hand": "edit tools/fixture/*.mjs and rebuild; update engine/CONTRACTS.md with any shape change"
@@ -58366,12 +58366,20 @@
      ],
      "status": "PROPOSED numbers (review 04 M1 hint: arms and shoulders about 12, chest and back 14-16)"
     },
+    "group_max": {
+     "sets": 35,
+     "refs": [
+      "CH5-03"
+     ],
+     "status": "approved (COACH-CH5 CH5-03)"
+    },
     "refs": [
      "VOL-01",
      "UNI-02",
-     "R4-SES-02"
+     "R4-SES-02",
+     "CH5-03"
     ],
-    "status": "engine 0.6 volume package; PROPOSED numbers"
+    "status": "engine 0.6 volume package; PROPOSED numbers; group_max approved (CH5-03)"
    }
   },
   "stairway": {
@@ -60044,12 +60052,18 @@
      "line_classes": [
       "small"
      ],
+     "big_when_needed": true,
+     "big_main_day_families": [
+      "aesthetics",
+      "athletic"
+     ],
      "refs": [
+      "CH5-03",
       "R3-VOL-03",
       "ORD-10",
       "R4-PRG-01"
      ],
-     "status": "approved rule (R3-VOL-03)"
+     "status": "approved rule (R3-VOL-03); big groups when needed (COACH-CH5 CH5-03)"
     },
     "big_optional_focus_close": {
      "enabled": true,
@@ -60100,6 +60114,14 @@
       "CX-01"
      ],
      "status": "approved rule (R3-VOL-03); the class family's second knee lift is PROPOSED (review 04 M1 hint)"
+    },
+    "reach_planned": {
+     "max_bonus_per_group": 3,
+     "refs": [
+      "CH5-03",
+      "R3-VOL-03"
+     ],
+     "status": "approved (COACH-CH5 CH5-03); up to 3 bonus exercises a group PROPOSED (an optional day keeps its 2 places, placement.bonus)"
     },
     "two_day_main_floor": {
      "enabled": true,
@@ -63891,16 +63913,17 @@
    },
    "s6": {
     "practice": {
-     "counts_as_aerobic": true,
+     "counts_as_aerobic": false,
      "competitive_only": true,
      "max_replaced": 2,
      "keep_gym_led_min": 1,
      "prefer_note": "sport_or_off",
      "refs": [
+      "CH5-01",
       "R3-ATH-05",
       "R2-ATH-06"
      ],
-     "status": "PROPOSED for competitive athletes (R3-ATH-05 is approved for activities)"
+     "status": "approved (COACH-CH5 CH5-01): practices are the athlete's own to account for; not counted, not placed"
     },
     "hard_eve": {
      "colours": [
@@ -66768,14 +66791,26 @@
      ],
      "status": "OBSERVED station (his OPTION 2 Cardio slot); PROPOSED: the weight"
     },
+    "arm_slot": {
+     "every_athletic_day": true,
+     "full_day": "replace_last_accessory",
+     "refs": [
+      "CH5-02",
+      "R4-SES-05",
+      "R4-SES-04",
+      "CX-04"
+     ],
+     "status": "approved (COACH-CH5 CH5-02); the accessory it replaces on a full day PROPOSED"
+    },
     "refs": [
      "R4-SES-05",
      "R2-LIB-01",
      "EQ-03",
      "R2-ATH-03",
-     "R2-SES-03"
+     "R2-SES-03",
+     "CH5-02"
     ],
-    "status": "PROPOSED (engine 0.6 selection package): readings of approved answers from the round-4 coach-eye reviews"
+    "status": "PROPOSED (engine 0.6 selection package): readings of approved answers from the round-4 coach-eye reviews; arm_slot approved (CH5-02)"
    }
   },
   "ordering": {
@@ -68019,7 +68054,8 @@
       "why.left_out_exclusion",
       "why.pain_cut",
       "why.play_spacing",
-      "why.older_default"
+      "why.older_default",
+      "why.arm_slot"
      ],
      "refs": [
       "R4-SES-05",
@@ -68380,6 +68416,12 @@
      ],
      "key": "block.short.circuit_station"
     },
+    "team_practice_line": {
+     "key": "ui.plan.team_practice",
+     "refs": [
+      "CH5-01"
+     ]
+    },
     "contacts_per_leg_key": "reps.contacts_per_leg",
     "refs": [
      "R4-PRG-02",
@@ -68388,6 +68430,7 @@
      "R4-LIB-05",
      "CX-02",
      "CX-04",
+     "CH5-01",
      "PRG-07",
      "VOL-03",
      "GEN-01",
@@ -80437,13 +80480,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": "resistance",
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 10
          },
          {
@@ -80934,13 +80977,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": "resistance",
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 11
          },
          {
@@ -81662,6 +81705,38 @@
             "rank": 6
            },
            {
+            "id": "IS_A.s13",
+            "bucket": "ISO_BICEP",
+            "role": "iso",
+            "block": "accessories",
+            "group": "biceps",
+            "sets_hint": [
+             2,
+             2
+            ],
+            "sets_text": null,
+            "dose_text": null,
+            "pair": null,
+            "superset": null,
+            "circuit": null,
+            "axial": null,
+            "variant": null,
+            "variant_text": null,
+            "laterality_dial": false,
+            "loading": null,
+            "movable": false,
+            "counts_as_volume": true,
+            "condition": "if_athletic_arm_sets",
+            "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
+            "older_default_excluded": false,
+            "older_default_text": null,
+            "group_label": null,
+            "pool_filter": null,
+            "rir": null,
+            "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
+            "rank": 9
+           },
+           {
             "id": "IS_A.s11",
             "bucket": "ISO_QUAD",
             "role": "iso",
@@ -82061,6 +82136,38 @@
             "rir": null,
             "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
             "rank": 6
+           },
+           {
+            "id": "IS_B.s14",
+            "bucket": "ISO_TRICEP",
+            "role": "iso",
+            "block": "accessories",
+            "group": "triceps",
+            "sets_hint": [
+             2,
+             2
+            ],
+            "sets_text": null,
+            "dose_text": null,
+            "pair": null,
+            "superset": null,
+            "circuit": null,
+            "axial": null,
+            "variant": null,
+            "variant_text": null,
+            "laterality_dial": false,
+            "loading": null,
+            "movable": false,
+            "counts_as_volume": true,
+            "condition": "if_athletic_arm_sets",
+            "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
+            "older_default_excluded": false,
+            "older_default_text": null,
+            "group_label": null,
+            "pool_filter": null,
+            "rir": null,
+            "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
+            "rank": 10
            },
            {
             "id": "IS_B.s11",
@@ -82642,13 +82749,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": null,
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 11
          },
          {
@@ -83139,13 +83246,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": null,
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 12
          },
          {
@@ -84282,13 +84389,13 @@
             "movable": false,
             "counts_as_volume": true,
             "condition": "if_athletic_arm_sets",
-            "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+            "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
             "older_default_excluded": false,
             "older_default_text": null,
             "group_label": null,
             "pool_filter": null,
             "rir": null,
-            "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+            "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
             "rank": 11
            },
            {
@@ -84779,13 +84886,13 @@
             "movable": false,
             "counts_as_volume": true,
             "condition": "if_athletic_arm_sets",
-            "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+            "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
             "older_default_excluded": false,
             "older_default_text": null,
             "group_label": null,
             "pool_filter": null,
             "rir": null,
-            "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+            "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
             "rank": 12
            },
            {
@@ -85334,13 +85441,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": "resistance",
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 10
          },
          {
@@ -85831,13 +85938,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": "resistance",
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 11
          },
          {
@@ -86359,13 +86466,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": "resistance",
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 10
          },
          {
@@ -86856,13 +86963,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": "resistance",
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 11
          },
          {
@@ -87659,13 +87766,13 @@
             "movable": false,
             "counts_as_volume": true,
             "condition": "if_athletic_arm_sets",
-            "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+            "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
             "older_default_excluded": false,
             "older_default_text": null,
             "group_label": null,
             "pool_filter": null,
             "rir": null,
-            "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+            "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
             "rank": 12
            },
            {
@@ -88156,13 +88263,13 @@
             "movable": false,
             "counts_as_volume": true,
             "condition": "if_athletic_arm_sets",
-            "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+            "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
             "older_default_excluded": false,
             "older_default_text": null,
             "group_label": null,
             "pool_filter": null,
             "rir": null,
-            "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+            "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
             "rank": 11
            },
            {
@@ -88748,13 +88855,13 @@
             "movable": false,
             "counts_as_volume": true,
             "condition": "if_athletic_arm_sets",
-            "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+            "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
             "older_default_excluded": false,
             "older_default_text": null,
             "group_label": null,
             "pool_filter": null,
             "rir": null,
-            "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+            "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
             "rank": 12
            },
            {
@@ -89245,13 +89352,13 @@
             "movable": false,
             "counts_as_volume": true,
             "condition": "if_athletic_arm_sets",
-            "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+            "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
             "older_default_excluded": false,
             "older_default_text": null,
             "group_label": null,
             "pool_filter": null,
             "rir": null,
-            "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+            "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
             "rank": 11
            },
            {
@@ -93941,13 +94048,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": "resistance",
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 10
          },
          {
@@ -94438,13 +94545,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": "resistance",
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 11
          },
          {
@@ -94966,13 +95073,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": "resistance",
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 10
          },
          {
@@ -95463,13 +95570,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": "resistance",
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 11
          },
          {
@@ -96255,13 +96362,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": "resistance",
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 10
          },
          {
@@ -96752,13 +96859,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": "resistance",
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 11
          },
          {
@@ -97280,13 +97387,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": "resistance",
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: biceps curl (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 10
          },
          {
@@ -97777,13 +97884,13 @@
           "movable": false,
           "counts_as_volume": true,
           "condition": "if_athletic_arm_sets",
-          "condition_text": "competitive athlete's session, sport profile with direct arm sets (G-130)",
+          "condition_text": "every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)",
           "older_default_excluded": false,
           "older_default_text": null,
           "group_label": "resistance",
           "pool_filter": null,
           "rir": null,
-          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)",
+          "note": "slot 5: triceps extension (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)",
           "rank": 11
          },
          {
@@ -154864,6 +154971,7 @@
    "changes.set_added": "+1 set on {exercise} ({day})",
    "changes.set_added_ft": "+1 set on {exercise} ({day}): {from} → {to} sets",
    "changes.sets_added_n": "+{n} sets on {exercise} ({day}): {from} → {to} sets",
+   "changes.sets_added_n_plain": "+{n} sets on {exercise} ({day})",
    "changes.sets_hold": "Same sets as last week: add reps or load when every set reaches the top of its range",
    "changes.stage_up": "Jumps move to {stage}",
    "check.failed.V28": "Your two-leg / single-leg mix is {share}% two-leg, against about {target}% for your goal: swap a single-leg exercise for a two-leg one if you want to match it.",
@@ -157246,6 +157354,8 @@
    "ui.plan.swap_note": "{name} (keeps {keeps}; loses {loses})",
    "ui.plan.swap_note_keeps": "{name} (keeps {keeps})",
    "ui.plan.swaps": "Swap for",
+   "ui.plan.team_practice": "This plan does not count your {n} team practices a week: take them into account and adjust the load yourself (lighter on a hard practice day, a little more in a light week).",
+   "ui.plan.team_practice_one": "This plan does not count your weekly team practice: take it into account and adjust the load yourself (lighter on a hard practice day, a little more in a light week).",
    "ui.plan.test_baseline": "Baseline test this week (before you load up)",
    "ui.plan.test_days": "Test days (mark your calendar; the plan sends no reminders): {list}",
    "ui.plan.test_days_week": "week {n}: {days}",
@@ -157355,6 +157465,7 @@
    "why.aerobic_low_impact": "Low-impact cardio first because of your pain",
    "why.aerobic_rung": "From the halfway week of a long exercise block the session moves one step up its ladder",
    "why.age_50_racket": "50+ racket player: knee-friendly strength, calf and Achilles work, low-impact jumps only",
+   "why.arm_slot": "Slot 5 of the athletic day: a biceps (A day) or triceps (B day) exercise in place of the day's last accessory - the first one you may remove or swap back",
    "why.at_cap": "{muscle} at its ceiling",
    "why.athletic_capacity": "Your stations hold {pct}% of the sport's weekly {key}; it still climbs every week",
    "why.athletic_climb": "Athletic work climbs with the stairway",
@@ -157622,6 +157733,7 @@
    "changes.set_added": "+1 serie en {exercise} ({day})",
    "changes.set_added_ft": "+1 serie en {exercise} ({day}): {from} → {to} series",
    "changes.sets_added_n": "+{n} series en {exercise} ({day}): {from} → {to} series",
+   "changes.sets_added_n_plain": "+{n} series en {exercise} ({day})",
    "changes.sets_hold": "Mismas series que la semana pasada: agrega repeticiones o carga cuando todas las series lleguen al tope de su rango",
    "changes.stage_up": "Los saltos pasan a {stage}",
    "check.failed.V28": "Tu mezcla de ejercicios a dos piernas / una pierna es {share}% a dos piernas, frente a cerca de {target}% para tu objetivo: cambia un ejercicio a una pierna por uno a dos piernas si quieres igualarlo.",
@@ -159199,6 +159311,8 @@
    "ui.plan.swap_note": "{name} (mantiene {keeps}; pierde {loses})",
    "ui.plan.swap_note_keeps": "{name} (mantiene {keeps})",
    "ui.plan.swaps": "Cambiar por",
+   "ui.plan.team_practice": "Este plan no cuenta tus {n} prácticas de equipo por semana: tómalas en cuenta y ajusta tú la carga (más ligero en un día de práctica dura, un poco más en una semana ligera).",
+   "ui.plan.team_practice_one": "Este plan no cuenta tu práctica de equipo semanal: tómala en cuenta y ajusta tú la carga (más ligero en un día de práctica dura, un poco más en una semana ligera).",
    "ui.plan.test_baseline": "Prueba inicial esta semana (antes de cargar)",
    "ui.plan.test_days": "Días de prueba (anótalos en tu calendario; el plan no envía recordatorios): {list}",
    "ui.plan.test_days_week": "semana {n}: {days}",
@@ -159308,6 +159422,7 @@
    "why.aerobic_low_impact": "Primero cardio de bajo impacto por tu dolor",
    "why.aerobic_rung": "Desde la semana media de un bloque de ejercicios largo la sesión sube un paso en su escalera",
    "why.age_50_racket": "Jugador de raqueta 50+: fuerza amigable con la rodilla, trabajo de pantorrilla y Aquiles, solo saltos de bajo impacto",
+   "why.arm_slot": "Espacio 5 del día atlético: un ejercicio de bíceps (día A) o de tríceps (día B) en lugar del último accesorio del día; es el primero que puedes quitar o cambiar de vuelta",
    "why.at_cap": "{muscle} en su tope",
    "why.athletic_capacity": "Tus estaciones permiten el {pct}% del {key} semanal del deporte; igual sube cada semana",
    "why.athletic_climb": "El trabajo atlético sube con la escalera",

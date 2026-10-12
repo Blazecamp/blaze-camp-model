@@ -1,4 +1,4 @@
-# Blaze Camp plan generator — engine CONTRACTS (Phase 0, binding) — v1.1 (engine 0.5.0 amendments on top: V1, V2, V3, V4)
+# Blaze Camp plan generator — engine CONTRACTS (Phase 0, binding) — v1.1 (engine 0.5.0 amendments on top: V1, V2, V3, V4; engine 0.6.0 box on top of them)
 
 Status: **binding for Phase 0** ("freeze the model"). Version `contracts/1.1.1`, 2026-10-09 (integration step; 1.1.0 by the
 architect, 2026-10-08). The 1.1.1 amendments resolve `engine/CONTRACT_REQUESTS.md`; each is marked **[1.1.1]** below and listed in §11.
@@ -7,10 +7,26 @@ Supersedes `contracts/1.0.0` (written before round 2 was answered). Every builde
 exactly the shapes, names and signatures below. If something here is wrong or missing, **do not silently diverge**: implement
 the closest compliant thing, write the issue to `engine/CONTRACT_REQUESTS.md` and in your final report under `problems`.
 
+> **Engine 0.6.0 (2026-10-11) - binding, on top of every box below.** `ENGINE_VERSION` is `0.6.0`: the volume package (box below;
+> `tools/fixture/v06-volume.mjs`, DECISIONS G-100 ... G-119), the selection package (`tools/fixture/v06-select.mjs`:
+> `rules.selection.s6`, `rules.conditioning.s6`, `rules.athletic.s6`, the athletic A / B arm station; G-130 ... G-139) and the words
+> package (`tools/fixture/v06-words.mjs`: `rules.render.v6`, `rules.volume.pain.x6`; G-160 ... G-179), applied in this order after
+> `v05-fix2.mjs` in both builds (word tables `UI_V06`, `UI_S6`, `UI_W6`; a later table wins). Integration (G-190 ... G-199):
+> `changes.sets_added_n` carries `from` and `to` (the planned sets before and after) besides `exercise`, `day`, `slot_id`, `n`;
+> "What changes" prints one line per exercise with its printed sets before and after (`changes.set_added_ft`,
+> `changes.sets_added_n`), the plain line (`changes.set_added`, `changes.sets_added_n_plain`) next to a test week; one
+> acceleration line per week names every fast group (a step range when the groups' steps differ). The coach's chat answers
+> CH5-01 .. 03 (`coach_answers_chat_2026-10-11.md`, G-197 ... G-199) add, all optional with a guard:
+> `rules.conditioning.s6.practice.counts_as_aerobic` (false: practices are not placed or counted) and `rules.render.v6.team_practice_line`;
+> `rules.selection.s6.arm_slot` {every_athletic_day, full_day} with the day why `why.arm_slot` (in
+> `rules.validation.v05.skeleton.absent_ok_whys`); `rules.placement.x3.bonus_small_only` {big_when_needed, big_main_day_families},
+> `rules.placement.x3.reach_planned` {max_bonus_per_group}, `rules.volume.x3.group_max` {sets: 35}. Scorer 2.4.1. Contract and plan
+> schema versions are unchanged.
+
 > **Engine 0.6 volume package (volume targets and set placement; 2026-10-11) - binding, on top of the fix-round-2 box below.**
 > Authority: the coach answers named per item (`engine/DECISIONS.md` G-100 ... G-116), read against the round-4 coach-eye reviews
 > (`reviews/coach-eye-r4/`). Model layer: `tools/fixture/v06-volume.mjs` (after `v05-fix2.mjs`, in both builds): `amendRulesV06`,
-> `amendSportV06`, `UI_V06`. The engine version is not bumped by this package (the lead bumps it once the parallel packages merge).
+> `amendSportV06`, `UI_V06`. The engine version is not bumped by this package (the lead bumped it to 0.6.0 once the parallel packages merged).
 > * **New rule sections** (optional for older models - the engine reads each with a guard): `rules.placement.x3` (`lead_first`
 >   {enabled, max_ahead}, `athlete_press_max` {families, credit_classes, not_tags, max, min_group_exercises}, `bonus_small_only`,
 >   `big_optional_focus_close` {enabled, always}, `bonus_no_repeat_previous_day` {compound_patterns}, `bonus_main_day_fallback`
@@ -23,7 +39,7 @@ the closest compliant thing, write the issue to `engine/CONTRACT_REQUESTS.md` an
 >   beyond maintenance or need).
 > * **Plan fields.** `meta.stairway[].over_top` (`[{group, top, held}]`, a timed circuit's groups above their top; `[]` otherwise).
 >   `summary.shortfalls` now lists every capped group of a block (`{code: 'capped_by_template', key, args {group, held, planned},
->   week}`, the block's last week). A week's change list may hold `changes.sets_added_n` (args `exercise`, `day`, `slot_id`, `n`).
+>   week}`, the block's last week). A week's change list may hold `changes.sets_added_n` (args `exercise`, `day`, `slot_id`, `n`; `from`, `to` since 0.6.0).
 >   `computeTargets` returns `x3_lowered` (the lines a profile rule lowered); a block's `cap` for such a line is at least its
 >   credited sets less one. `meta.stairway[].capped[].notice` is `true` for every capped group.
 > * **Warnings** (`plan.meta.warnings[].code`): `circuit_over_top` (args `group`, `held`, `top`). New why key: `why.bonus_main_day`.

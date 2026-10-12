@@ -1684,12 +1684,20 @@
     ],
     "status": "PROPOSED numbers (review 04 M1 hint: arms and shoulders about 12, chest and back 14-16)"
    },
+   "group_max": {
+    "sets": 35,
+    "refs": [
+     "CH5-03"
+    ],
+    "status": "approved (COACH-CH5 CH5-03)"
+   },
    "refs": [
     "VOL-01",
     "UNI-02",
-    "R4-SES-02"
+    "R4-SES-02",
+    "CH5-03"
    ],
-   "status": "engine 0.6 volume package; PROPOSED numbers"
+   "status": "engine 0.6 volume package; PROPOSED numbers; group_max approved (CH5-03)"
   }
  },
  "stairway": {
@@ -3362,12 +3370,18 @@
     "line_classes": [
      "small"
     ],
+    "big_when_needed": true,
+    "big_main_day_families": [
+     "aesthetics",
+     "athletic"
+    ],
     "refs": [
+     "CH5-03",
      "R3-VOL-03",
      "ORD-10",
      "R4-PRG-01"
     ],
-    "status": "approved rule (R3-VOL-03)"
+    "status": "approved rule (R3-VOL-03); big groups when needed (COACH-CH5 CH5-03)"
    },
    "big_optional_focus_close": {
     "enabled": true,
@@ -3418,6 +3432,14 @@
      "CX-01"
     ],
     "status": "approved rule (R3-VOL-03); the class family's second knee lift is PROPOSED (review 04 M1 hint)"
+   },
+   "reach_planned": {
+    "max_bonus_per_group": 3,
+    "refs": [
+     "CH5-03",
+     "R3-VOL-03"
+    ],
+    "status": "approved (COACH-CH5 CH5-03); up to 3 bonus exercises a group PROPOSED (an optional day keeps its 2 places, placement.bonus)"
    },
    "two_day_main_floor": {
     "enabled": true,
@@ -7209,16 +7231,17 @@
   },
   "s6": {
    "practice": {
-    "counts_as_aerobic": true,
+    "counts_as_aerobic": false,
     "competitive_only": true,
     "max_replaced": 2,
     "keep_gym_led_min": 1,
     "prefer_note": "sport_or_off",
     "refs": [
+     "CH5-01",
      "R3-ATH-05",
      "R2-ATH-06"
     ],
-    "status": "PROPOSED for competitive athletes (R3-ATH-05 is approved for activities)"
+    "status": "approved (COACH-CH5 CH5-01): practices are the athlete's own to account for; not counted, not placed"
    },
    "hard_eve": {
     "colours": [
@@ -10086,14 +10109,26 @@
     ],
     "status": "OBSERVED station (his OPTION 2 Cardio slot); PROPOSED: the weight"
    },
+   "arm_slot": {
+    "every_athletic_day": true,
+    "full_day": "replace_last_accessory",
+    "refs": [
+     "CH5-02",
+     "R4-SES-05",
+     "R4-SES-04",
+     "CX-04"
+    ],
+    "status": "approved (COACH-CH5 CH5-02); the accessory it replaces on a full day PROPOSED"
+   },
    "refs": [
     "R4-SES-05",
     "R2-LIB-01",
     "EQ-03",
     "R2-ATH-03",
-    "R2-SES-03"
+    "R2-SES-03",
+    "CH5-02"
    ],
-   "status": "PROPOSED (engine 0.6 selection package): readings of approved answers from the round-4 coach-eye reviews"
+   "status": "PROPOSED (engine 0.6 selection package): readings of approved answers from the round-4 coach-eye reviews; arm_slot approved (CH5-02)"
   }
  },
  "ordering": {
@@ -11337,7 +11372,8 @@
      "why.left_out_exclusion",
      "why.pain_cut",
      "why.play_spacing",
-     "why.older_default"
+     "why.older_default",
+     "why.arm_slot"
     ],
     "refs": [
      "R4-SES-05",
@@ -11698,6 +11734,12 @@
     ],
     "key": "block.short.circuit_station"
    },
+   "team_practice_line": {
+    "key": "ui.plan.team_practice",
+    "refs": [
+     "CH5-01"
+    ]
+   },
    "contacts_per_leg_key": "reps.contacts_per_leg",
    "refs": [
     "R4-PRG-02",
@@ -11706,6 +11748,7 @@
     "R4-LIB-05",
     "CX-02",
     "CX-04",
+    "CH5-01",
     "PRG-07",
     "VOL-03",
     "GEN-01",

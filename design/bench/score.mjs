@@ -90,7 +90,7 @@
 //                         detail between blocks): it counts in the share and is no station the dial could still turn.
 //   * MYO set             never on an exercise whose main mover is a muscle the plan cut for pain (the engine's G-69 rule,
 //                         rules.effort.intensifiers.never_pain_muscle) - a gap of 2.3 that the athletic arm slot exposed.
-export const SCORER_VERSION = '2.4.0';
+export const SCORER_VERSION = '2.4.1';
 export const SCORE_SCHEMA = 'bench-score/2';
 
 const EPS = 1e-9;
@@ -367,7 +367,9 @@ function resolveParams(R, overrides = {}) {
   rule('floor_counted_on', 'volume.floor.counted_on', 'all_days');
   rule('push_pull_rule', 'volume.push_pull', null);
   put('athletic_end_test_week_dose_ok', true, 'engine E-165 / E-172 (R2-PER-07): on the tested days of a block\'s end-test week the athletic and Olympic work runs the baseline week\'s dose, so the fall from the week before is the rule, not a drop; false = count it');
-  put('absent_ok_whys', ['why.left_out_exclusion', 'why.pain_cut', 'why.play_spacing', 'why.older_default'], 'scorer: the reasons a day states for a station it leaves out (R4-SES-04 "said")');
+  // (scorer 2.4.1, engine 0.6.0 integration, COACH-CH5 CH5-02 / DECISIONS G-198: the reasons are the model's own list, so the arm
+  // slot's place on a full athletic day - 'why.arm_slot' - is a stated reason, as V30 reads it)
+  rule('absent_ok_whys', 'validation.v05.skeleton.absent_ok_whys', ['why.left_out_exclusion', 'why.pain_cut', 'why.play_spacing', 'why.older_default']);
   rule('addons', 'selection.addons', { addon_status: 'optional_addon', never_pick_statuses: ['optional_addon', 'proposed_v1', 'proposed_v1_1'], not_shown_statuses: ['proposed_v1', 'proposed_v1_1'], primary_exceptions: [] });
   rule('incline_first', 'selection.incline_first', null);
   put('incline_majority', 0.5, 'COACH-R4 R4-LIB-03 ("bias incline pressing"), read as at least half of the slot\'s picks in a training block');
@@ -1539,7 +1541,9 @@ function checkPlacementPairs(S, X, ctx) {
       for (const g of B.trained) {
         // (scorer 2.2: a group that steps on its Focus muscle's own exercises first does not alternate its two exposures)
         if (stepsFirst(g, X, ctx)) continue;
-        const own = (W, wd) => { const D = W.days.find(d => d.weekday === wd); return D ? sum(D.units.filter(U => U.prime.includes(g)).map(U => U.sets)) : 0; };
+        // (scorer 2.4.1, COACH-CH5 CH5-03 / DECISIONS G-199: the exposures are the day type's own lifts - a bonus exercise the engine adds
+        // on one training day for a group the template cannot take to its final sets is not part of the A / B pairing)
+        const own = (W, wd) => { const D = W.days.find(d => d.weekday === wd); return D ? sum(D.units.filter(U => U.prime.includes(g) && U.origin !== 'bonus').map(U => U.sets)) : 0; };
         const a0 = own(w1, da), b0 = own(w1, db);
         if (!a0 && !b0) continue;
         for (const W of B.weeks.slice(1)) {

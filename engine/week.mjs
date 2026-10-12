@@ -938,7 +938,7 @@ function planFocus(occupied, dt, ctx) {
   for (const [, p] of occupied) {
     if (p.kind !== 'main') continue;
     const def = dayTypeDef(p.entry, dt);
-    if (def) for (const st of def.stations) if ((st.bucket === 'ISO_BICEP' || st.bucket === 'ISO_TRICEP') && st.condition === 'if_athletic_arm_sets' && keepStation(st, ctx, ctx.countFor(def))) armKept.add(st.bucket === 'ISO_BICEP' ? 'biceps' : 'triceps');
+    if (def) for (const st of def.stations) if ((st.bucket === 'ISO_BICEP' || st.bucket === 'ISO_TRICEP') && st.condition === 'if_athletic_arm_sets' && keepStation(st, ctx, ctx.R.selection.s6 && ctx.R.selection.s6.arm_slot && ctx.R.selection.s6.arm_slot.every_athletic_day ? Infinity : ctx.countFor(def))) armKept.add(st.bucket === 'ISO_BICEP' ? 'biceps' : 'triceps');
   }
   if (!st6Arm(ctx)) armKept.clear();
   const fallback = model.muscleIds({ target: true })
@@ -1008,7 +1008,9 @@ function keepStation(st, ctx, count = Infinity) {
     if (t && !(ctx.size && t[1].split('|').includes(ctx.size.type))) return false;
     // (... and for a sport whose profile writes direct arm sets - 04 weekly_sets ISO_BICEP / ISO_TRICEP; most field sports leave the
     // arms to the compound lifts, OBSERVED BYOP ATHLETIC, and the soccer reviewer asked to keep it so)
-    if (st.condition === 'if_athletic_arm_sets') {
+    // (COACH-CH5 CH5-02 'all should have it and be adjustable always': with rules.selection.s6.arm_slot.every_athletic_day the slot is
+    // on every athletic A / B day, whatever the sport, season or client type)
+    if (st.condition === 'if_athletic_arm_sets' && !(ctx.R.selection.s6 && ctx.R.selection.s6.arm_slot && ctx.R.selection.s6.arm_slot.every_athletic_day)) {
       const ds = (ctx.profile && ctx.profile.direct_sets_wk) || {};
       if (!(ctx.size && ctx.size.type === 'athletic' && ((ds.ISO_BICEP || 0) > 0 || (ds.ISO_TRICEP || 0) > 0))) return false;
     }
@@ -1174,6 +1176,30 @@ function buildDay(wd, placement, def, ctx, focusPlan, dayIndex) {
     }
     if (st.bucket === 'COND_AEROBIC') { aerobicStations.push(st); continue; }
     kept.push({ st, olderLanding });
+  }
+  // COACH-CH5 CH5-02 ('all should have it and be adjustable always'): the athletic A / B day's slot 5 (biceps on A, triceps on B) is the
+  // day's last rank (the first thing the person may remove, R4-SES-04) but is never left out by the day's exercise count: with room
+  // it takes its place; on a full day it takes the place of the day's last-ranked isolation accessory (never an athletic, power, core
+  // or main lift) and the day says so (why.arm_slot, a stated reason, rules.validation.v05.skeleton.absent_ok_whys)
+  const AS6 = R.selection.s6 && R.selection.s6.arm_slot;
+  if (AS6 && AS6.every_athletic_day && Number.isFinite(count)) {
+    const arm = def.stations.find((x) => x.condition === 'if_athletic_arm_sets');
+    if (arm && !kept.some((k) => k.st === arm) && keepStation(arm, ctx, Infinity) && !ctx.dropped.has(arm.bucket)) {
+      // (a station the week drops for its own reason - heavy play's cuts - keeps its place: another station takes it, a throw; and an
+      // athletic station the day left out may still come back with the athletic budget - engine/athletic.mjs - so its place is kept too)
+      const held = def.stations.filter((x) => typeof x.rank === 'number' && x.rank < EXTRA_RANK && !kept.some((k) => k.st === x) && ((x.rank <= count && ctx.dropped.has(x.bucket)) || ['athletic', 'power'].includes(x.block))).length;
+      const counted = kept.filter((k) => typeof k.st.rank === 'number' && k.st.rank < EXTRA_RANK).length + held;
+      let ok = counted < count;
+      if (!ok && AS6.full_day === 'replace_last_accessory') {
+        const victim = kept.filter((k) => k.st.block === 'accessories' && k.st.role === 'iso' && typeof k.st.rank === 'number' && k.st.rank < EXTRA_RANK && !['ISO_BICEP', 'ISO_TRICEP'].includes(k.st.bucket)).sort((x, y) => y.st.rank - x.st.rank)[0];
+        if (victim) { kept.splice(kept.indexOf(victim), 1); ok = true; dayWhy.push(why('why.arm_slot', 'CH5-02')); }
+      }
+      if (ok) {
+        const order = def.stations.indexOf(arm);
+        const at = kept.findIndex((k) => def.stations.indexOf(k.st) > order);
+        kept.splice(at < 0 ? kept.length : at, 0, { st: arm, olderLanding: false });
+      }
+    }
   }
   const slots = [];
   let calfIndex = 0;

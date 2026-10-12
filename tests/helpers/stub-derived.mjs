@@ -73,8 +73,9 @@ const T = {
     client_family: 'athlete', modifier: 'field_off', fill: athleteFill,
     start: { quads: 11, hamstrings: 11, chest: 10, lats_upper_back: 10, rear_delts: 6, calves: 10 },
     cap: { quads: 16, hamstrings: 16, chest: 14, lats_upper_back: 14, rear_delts: 12, calves: 22 },
-    // (engine 0.6 selection, converted - DECISIONS G-136: his 2 team practices count as 2 of his 4 aerobic sessions)
-    D14: { per_week: 2, base: 4, colours: ['C', 'B'], practice_days: 2, replaced_by_practice: 2 }, tests: { end_weeks: [6] },
+    // (engine 0.6.0, converted - COACH-CH5 CH5-01 / DECISIONS G-197: team practices are not counted as aerobic sessions; the G-136
+    // reading is retired, so the stub carries the real derive again: 4 sessions, no practice replaced)
+    D14: { per_week: 4, base: 4, colours: ['C', 'B', 'A', 'C'], practice_days: 0, replaced_by_practice: 0 }, tests: { end_weeks: [6] },
     blocks: [{ type: 'stairway', weeks: [1, 6] }, { type: 'pre_season', weeks: [7, 8] }]
   },
   '04-crossfit-style-bootcamp': {

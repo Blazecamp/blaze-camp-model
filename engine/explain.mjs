@@ -165,22 +165,32 @@ export function changesText(plan, weekN, model, lang) {
   // exercise, from the real sets of the week before to this week's
   const X = V6(model);
   const pw = (plan.weeks || []).find(x => x.n === weekN - 1) || null;
-  const slotSets = (wk, id) => { if (!wk) return null; for (const d of wk.days || []) for (const b of d.blocks || []) for (const it of b.items || []) if (it.slot_id === id) return it; return null; };
+  const slotSets = (wk, id) => { if (!wk) return null; for (const d of wk.days || []) for (const b of d.blocks || []) for (const it of b.items || []) if (it.slot_id === id && it.role !== 'test') return it; return null; };
   const slotDone = new Set();
   let blockLines = [];
+  // engine 0.6 integration (G-190): the volume package records one change per exercise with its planned step ('changes.set_added', or
+  // 'changes.sets_added_n' with n, G-109); the words package prints that step with the sets the week before and this week (G-164).
+  // Both keys are read here. The printed 'from -> to' is the item's real sets; next to a test week, where the test takes the place of
+  // the tested lift's top set and the printed sets differ from the planned step, the plain line with the planned step is kept.
+  const testNext = !!(w.test || (pw && pw.test));
   for (const ch of w.changes || []) {
     if (!ch || !ch.key) continue;
     const args = { ...(ch.args || {}) };
     for (const k of Object.keys(args)) if (/pct|percent|rate/i.test(k)) delete args[k];
     let key = ch.key;
-    if (X.changes_from_sets && ['changes.set_added', 'changes.bonus_added'].includes(key) && args.slot_id) {
+    if (X.changes_from_sets && ['changes.set_added', 'changes.sets_added_n', 'changes.bonus_added'].includes(key) && args.slot_id) {
       if (slotDone.has(args.slot_id)) continue;
       slotDone.add(args.slot_id);
       const now = slotSets(w, args.slot_id), before = slotSets(pw, args.slot_id);
       const a = now && typeof now.sets === 'number' ? now.sets : null;
       const b = before && typeof before.sets === 'number' ? before.sets : 0;
-      if (key === 'changes.set_added' && a !== null && a - b >= 1 && b > 0 && !(now && now.test) && !(before && before.test) && model.has('en', 'changes.sets_added_n')) {
-        key = a - b === 1 && model.has('en', 'changes.set_added_ft') ? 'changes.set_added_ft' : 'changes.sets_added_n'; args.n = a - b; args.from = b; args.to = a;
+      const planned = key === 'changes.sets_added_n' && typeof args.n === 'number' ? args.n : 1;
+      if (key !== 'changes.bonus_added') {
+        if (a !== null && b > 0 && a - b >= 1 && (!testNext || a - b === planned) && model.has('en', 'changes.sets_added_n')) {
+          key = a - b === 1 && model.has('en', 'changes.set_added_ft') ? 'changes.set_added_ft' : 'changes.sets_added_n'; args.n = a - b; args.from = b; args.to = a;
+        } else if (planned > 1 && model.has('en', 'changes.sets_added_n_plain')) {
+          key = 'changes.sets_added_n_plain'; args.n = planned;
+        } else key = planned > 1 ? key : 'changes.set_added';
       }
     }
     // (the circuit wording in the singular: 'more than 1 rep left', sample 05 minor)

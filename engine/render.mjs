@@ -485,7 +485,12 @@ function noticesSection(plan, model, o) {
   const hol = holidayWeeks(plan);
   // F3 (RECHECK 08 minor: 'Lots of play this week' printed on every jump of every week): said once, up front
   const heavyPlay = has(model, 'ui.plan.heavy_play_plan') && planHasNote(plan, 'note.heavy_play_week');
-  if (!shown.length && !hol.length && !heavyPlay) return [];
+  // engine 0.6 (COACH-CH5 CH5-01 'team practice doesnt matter, just have the athlete take into account and they handle that'): the plan
+  // does not build team practices into the week; a competitive athlete with practice days reads one line to account for them
+  const TP = V6(model).team_practice_line;
+  const m0 = plan.meta || {};
+  const teamPractice = !!(TP && has(model, TP.key) && m0.profile && m0.profile.competitive === 'competitive' && m0.season && typeof m0.season.practice_days === 'number' && m0.season.practice_days > 0);
+  if (!shown.length && !hol.length && !heavyPlay && !teamPractice) return [];
   const L = [];
   L.push('## ' + t('ui.plan.before_you_start'), '');
   // v0.5 fix round 1 (sample 03 major: the same sentence three times - jumps, ankle hops, cuts): the athletic shortfalls are one line
@@ -510,6 +515,7 @@ function noticesSection(plan, model, o) {
   // (v0.6 words, sample 08 minor: 'Las semanas 11, 12 incluyen' - 'weeks 11 and 12' / 'semanas 11 y 12')
   if (hol.length && has(model, 'ui.plan.holiday_weeks')) L.push('- ' + t(!testInHol && has(model, 'ui.plan.holiday_weeks_no_test') ? 'ui.plan.holiday_weeks_no_test' : 'ui.plan.holiday_weeks', { weeks: andList(model, o.lang, hol.map(String)) }));
   if (heavyPlay) L.push('- ' + t('ui.plan.heavy_play_plan'));
+  if (teamPractice) L.push('- ' + t(m0.season.practice_days === 1 && has(model, TP.key + '_one') ? TP.key + '_one' : TP.key, { n: m0.season.practice_days }));
   L.push('');
   return L;
 }
@@ -925,16 +931,18 @@ function accelLines(w, model, o, plan) {
     const groups = accelOf(w).filter(a => a.group);
     const totals = accelOf(w).filter(a => a.total);
     if (groups.length) {
-      const byPct = new Map();
-      for (const a of groups) { if (!byPct.has(a.pct)) byPct.set(a.pct, []); byPct.get(a.pct).push(a.group); }
+      // engine 0.6 integration (G-191): one line for the whole week, whatever the step of each group; groups with different steps
+      // print the range ('17-25 % more sets for Quads, Back and Shoulders')
+      const gs = [...new Set(groups.map(a => a.group))];
+      const pcts = groups.map(a => a.pct).filter(x => typeof x === 'number');
+      const lo = Math.min(...pcts), hi = Math.max(...pcts);
+      const pct = !pcts.length ? '' : lo === hi ? lo : lo + '-' + hi;
       const pw = plan ? weekOf(plan, w.n - 1) : null;
       const roundUp = !!(w.circuit && pw && pw.circuit && typeof w.circuit.rounds === 'number' && w.circuit.rounds > pw.circuit.rounds);
       const trained = Object.entries(w.weekly_sets_by_group || {}).filter(([g, v]) => g !== 'core' && typeof v === 'number' && v > 0).map(([g]) => g);
-      for (const [pct, gs] of byPct) {
-        if (byPct.size === 1 && roundUp && trained.every(g => gs.includes(g)) && has(model, 'ui.plan.accel_week_all_round')) { out.push(t('ui.plan.accel_week_all_round', { pct })); continue; }
-        const names = gs.map(g => { const s0 = model.t(o.lang, 'group.' + g); return o.lang === 'es' ? s0.charAt(0).toLowerCase() + s0.slice(1) : s0; });
-        out.push(esc(model.t(o.lang, 'ui.plan.accel_week_groups', { pct, groups: andList(model, o.lang, names) })));
-      }
+      if (lo === hi && roundUp && trained.every(g => gs.includes(g)) && has(model, 'ui.plan.accel_week_all_round')) { out.push(t('ui.plan.accel_week_all_round', { pct })); return out; }
+      const names = gs.map(g => { const s0 = model.t(o.lang, 'group.' + g); return o.lang === 'es' ? s0.charAt(0).toLowerCase() + s0.slice(1) : s0; });
+      out.push(esc(model.t(o.lang, 'ui.plan.accel_week_groups', { pct, groups: andList(model, o.lang, names) })));
       return out;
     }
     for (const a of totals) if (has(model, 'ui.plan.accel_week_total')) out.push(t('ui.plan.accel_week_total', { pct: a.pct }));

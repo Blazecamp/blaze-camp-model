@@ -540,8 +540,8 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 _Week level: 2.9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +2 sets on Front Squat (barbell) (Monday): 2 → 4 sets
-- +2 sets on Barbell Deadlift (conventional) (Thursday): 2 → 4 sets
+- +1 set on Front Squat (barbell) (Monday)
+- +1 set on Barbell Deadlift (conventional) (Thursday)
 
 **Athletic work this week:** 6 Olympic-lift sets
 
@@ -2719,7 +2719,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 
 ---
 
-_Model 1.3.0 · Engine 0.5.0_
+_Model 1.3.0 · Engine 0.6.0_
 
 Liability released: the terms and the release were accepted before this plan was built. Not medical advice. Use at your own risk. Train within your limits. Full terms: Disclaimer and Release of Liability. [Read the full disclaimer and release](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md)
 

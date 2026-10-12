@@ -13,12 +13,20 @@ the start and the end, and every word in English or Spanish.
   round-2 id, rule or decision id behind it.
 
 Binding documents: `engine/CONTRACTS.md` (shapes, names, signatures; contracts/1.1.1 + the engine 0.4.0 amendment boxes of stages
-B1 … B4 + the engine 0.5.0 boxes V1 … V4 and fix rounds 1 and 2, which win over everything under them), `engine/DECISIONS.md` (every gap or
-conflict decided once: C-01 … C-19, D-01 … D-81, round 3 E-01 … E-205, engine 0.5.0 G-01 … G-96), `engine/BUILD_PLAN.md`
+B1 … B4 + the engine 0.5.0 boxes V1 … V4 and fix rounds 1 and 2 + the engine 0.6.0 boxes, which win over everything under them), `engine/DECISIONS.md` (every gap or
+conflict decided once: C-01 … C-19, D-01 … D-81, round 3 E-01 … E-205, engine 0.5.0 G-01 … G-96, engine 0.6.0 G-100 … G-199), `engine/BUILD_PLAN.md`
 (who built what, engine 0.2 to 0.4: history). Authority for coaching rules: `coach_answers_round4.md` and
 `coach_answers_time_2026-10-10.md` (CT-01) > `coach_answers_codex_2026-10-10.md` (CX-01..04) > `coach_answers_round3.md` >
 `coach_answers_round2.md` > `coach_answers_full.md` > `coach_chat_statements.md` / `coach_answers.md` > OBSERVED sheet facts >
 `generator_spec_v1.json` / `synthesis/` (INFERRED / SCIENCE / PROPOSED).
+
+**Engine 0.6.0 (2026-10-11; DECISIONS G-100 ... G-199, the CONTRACTS 0.6.0 box).** The round-4 coach-eye reviews of the 8 samples,
+in three packages applied in this order after the v0.5 fix-round-2 layer: volume targets and set placement (`tools/fixture/v06-volume.mjs`:
+the main lift first, the optional day's bonus for small groups only, every capped group said, the physique start, one step an exercise a
+week, a circuit above its top said), selection (`tools/fixture/v06-select.mjs`: the athletic arm slot, low-back core only with low-back
+pain, stage-2 jumps, the safe power slot, one-detail block changes, the bootcamp's cardio station, team practices) and words
+(`tools/fixture/v06-words.mjs`: circuit progression from the weeks, the pyramid written out, "What changes" by exercise with its sets
+before and after, one acceleration line a week, the printed-copy minors). Benchmark reference: `design/bench/results_v06.json` + `V06.md`.
 
 **Engine 0.5.0, work package V1 "structure and volume" (2026-10-11; DECISIONS section G, the CONTRACTS 0.5.0 amendment box).**
 * **No time fitting** (CT-01, R4-SES-01): there is no session length, no time check, nothing is cut, moved or offered because of minutes.
@@ -157,7 +165,7 @@ node --test tests/                      # the whole suite (also: `node --test`) 
 node tools/generate-samples.mjs         # the 8 sample plans -> samples/plans/<name>.json + <name>.<lang>.md (+ .en.md for ES)
 node tools/sweep.mjs 1500 --render      # 1,500 random + 52 sports + 26 activities on the fixture and model/ (about 4 min)
 node design/bench/selftest.mjs          # does the benchmark scorer see what it claims to see? (51 checks)
-node design/bench/run.mjs               # the 94 benchmark intakes + the 8 samples -> design/bench/results_v05.json + V05.md
+node design/bench/run.mjs               # the 94 benchmark intakes + the 8 samples -> design/bench/results_v06.json + V06.md (0.6.0; results_v05.json + V05.md: 0.5.0 history)
 ```
 
 From clean (what stage B4 ran): `node tools/fixture/build-fixture.mjs && node tools/fixture/check-fixture.mjs && node tools/compile-model.mjs
@@ -219,7 +227,7 @@ tests/          node:test suites; helpers/ (models, random intakes, stubs); inva
 samples/        intakes/ (the coach's 7 sample clients + the pickleball bonus), plans/ (generated), SAMPLES.md (what the engine decided),
                 STATUS_v0.5.md (engine 0.5.0: what changed, test counts, benchmark numbers, known gaps),
                 REVIEW_LOG.md (every review issue and its fix, per stage), RECHECK_v0.3.md (the coach-eye re-check of the v0.3 plans)
-design/bench/   the 94 benchmark intakes, the scorer (score.mjs, 2.3), the runner (run.mjs), selftest.mjs; results_v05.json + V05.md
+design/bench/   the 94 benchmark intakes, the scorer (score.mjs, 2.3), the runner (run.mjs), selftest.mjs; results_v06.json + V06.md (engine 0.6.0, the reference); results_v05.json + V05.md (engine 0.5.0, history)
                 (engine 0.5.0), results_baseline.json + BASELINE.md (engine 0.4, scorer 1.0: history only)
 synthesis/ analysis/ dumps/ raw/ answers_raw*/   read-only sources
 ```
@@ -249,7 +257,7 @@ synthesis/ analysis/ dumps/ raw/ answers_raw*/   read-only sources
 | `explain.mjs` | `whyText`, `explainItem`, `levelText`, `changesText`, `stairText`, `resolveArgs` | human explanations from the why-codes; resolves id arguments (exercise, weekday, muscle, joint-care code …) to words (v0.4 B3: lower-case weekdays inside Spanish sentences, singular reasons) Fix round 2 / F3: `listAnd` ('a, b and c' / 'a, b y c'), the block-change line counts what changes, a circuit week's own load line. |
 | `render.mjs` | `renderPlan`, `renderBlockView`, `renderWeek`, `renderDay`, `format*` | markdown or text, EN or ES, phone-friendly; only `model.t` words (no hard-coded text). v0.4 stage B3: the use-at-your-own-risk line with the release link on top of every plan and view (R3-GEN-01), ~~'Your schedule' (the time check and the offers)~~ (retired in 0.5.0), per day the blocks that can be switched off and the supersets that save time (R3-SES-02), macro tables for screenshots (`view: 'overview'`), tests, notes and day titles in the client's words. Fix round 1 / F3: only what is true (the minutes, climbing, Focus, intensifier days, change lines per group), every switchable block, the flat release stamp + health-check / PAR-Q+ line, 'How to adjust this plan', the effort bridge, the weekly sets table with every group, superset partners side by side (E-111 ... E-123) Fix round 2 / F3 (E-196 ... E-203): a kept exercise named with its day, ~~every day over its minutes listed up front~~ (retired in 0.5.0), test days and dates in words, the client's own Focus picks and their table rows, the adjust line from the plan's real switches, class instructions (`rules.render`), swim lines, the block table by exercise block, day titles by the lead lift, the English gym name in a translated plan's video search. **v0.5:** the release line on top and at the bottom of every plan and view (R4-SCP-02), an average time per day as information only, the progression rule on every lift (R4-PRG-03), the acceleration note, what is easiest to remove on each day (R4-SES-04), the YouTube search link and the name to copy (R4-LIB-05), swap notes (R4-LIB-04). |
 | `generate.mjs` | `generate`, `generateWith`, `realModulesStatus`, `REQUIRED_DEPS` | the orchestrator (pipeline below); `generateWith(deps, …)` runs it on injected modules (tests use stubs). v0.4: `adapt` / check-ins retired (R3-VOL-02 / R3-VOL-04) Fix round 2 / F3 (E-178): after the first volume pass the selections are made again on the live stations and the volume engine runs again (frozen when a trained group would be lost or the finished plan fails an error check). |
-| `version.mjs` | `ENGINE_VERSION` | `0.5.0` (v0.5 package V1: structure and volume; before: `0.4.0` (round 3, stage B1: time, volume and structure; stage B2: athletic work; stage B3: selection, variation and rendering; stage B4: integration) Fix round 2: F1 (time, volume, structure), F2 (athletic work), F3 (selection, dosing, the printed plan). |
+| `version.mjs` | `ENGINE_VERSION` | `0.6.0` (the round-4 coach-eye reviews: the volume, selection and words packages merged, DECISIONS G-100 ... G-199); before: `0.5.0` (v0.5 package V1: structure and volume; before: `0.4.0` (round 3, stage B1: time, volume and structure; stage B2: athletic work; stage B3: selection, variation and rendering; stage B4: integration) Fix round 2: F1 (time, volume, structure), F2 (athletic work), F3 (selection, dosing, the printed plan). |
 
 Pipeline (`generate.mjs`, CONTRACTS §4.12):
 

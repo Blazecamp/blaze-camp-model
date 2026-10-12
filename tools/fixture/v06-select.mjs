@@ -81,8 +81,14 @@ export function amendRulesS6(rules) {
       refs: ['PRG-03', 'OT06', 'R4-SES-05'],
       status: 'OBSERVED station (his OPTION 2 Cardio slot); PROPOSED: the weight'
     },
-    refs: ['R4-SES-05', 'R2-LIB-01', 'EQ-03', 'R2-ATH-03', 'R2-SES-03'],
-    status: 'PROPOSED (engine 0.6 selection package): readings of approved answers from the round-4 coach-eye reviews'
+    // COACH-CH5 CH5-02 (2026-10-11, 'all should have it and be adjustable always'): every athletic A / B day holds slot 5 (biceps on
+    // the A day, triceps on the B day) - every sport, every season (the in-season variant too) and the stay-active plans; the G-130
+    // limit to sports whose profile writes direct arm sets is retired. The person may edit or remove it like any exercise (CX-04).
+    // (on a day at the top of its exercise count the slot takes the place of the day's last-ranked isolation accessory - never an
+    // athletic, power, core or main lift - and the day says so: why.arm_slot, a stated reason for V30)
+    arm_slot: { every_athletic_day: true, full_day: 'replace_last_accessory', refs: ['CH5-02', 'R4-SES-05', 'R4-SES-04', 'CX-04'], status: 'approved (COACH-CH5 CH5-02); the accessory it replaces on a full day PROPOSED' },
+    refs: ['R4-SES-05', 'R2-LIB-01', 'EQ-03', 'R2-ATH-03', 'R2-SES-03', 'CH5-02'],
+    status: 'PROPOSED (engine 0.6 selection package): readings of approved answers from the round-4 coach-eye reviews; arm_slot approved (CH5-02)'
   };
   // G-134 (07 M2: two seal rows in one week, DB on Tuesday and barbell on Friday): the seal rows are one movement family, once a week
   // (E-182 rules.selection.r2.families)
@@ -94,13 +100,22 @@ export function amendRulesS6(rules) {
   // competitive athletes), the template's 'sport or off' days show as team practice (or off), and a hard aerobic colour never sits on
   // the day before a top-speed sprint or a heavy hinge
   R.conditioning.s6 = {
-    practice: { counts_as_aerobic: true, competitive_only: true, max_replaced: 2, keep_gym_led_min: 1, prefer_note: 'sport_or_off',
-      refs: ['R3-ATH-05', 'R2-ATH-06'], status: 'PROPOSED for competitive athletes (R3-ATH-05 is approved for activities)' },
+    // COACH-CH5 CH5-01 (2026-10-11, 'team practice doesnt matter, just have the athlete take into account and they handle that'):
+    // team practices are NOT built into the week and do NOT count as aerobic sessions - the template's aerobic sessions stay; the plan
+    // prints one line telling the athlete to account for them (rules.render.v6.team_practice_line). The G-136 reading is retired
+    // (counts_as_aerobic false: engine/intake.mjs practiceCount gives 0, so no practice day is placed and no session is replaced).
+    practice: { counts_as_aerobic: false, competitive_only: true, max_replaced: 2, keep_gym_led_min: 1, prefer_note: 'sport_or_off',
+      refs: ['CH5-01', 'R3-ATH-05', 'R2-ATH-06'], status: 'approved (COACH-CH5 CH5-01): practices are the athlete\'s own to account for; not counted, not placed' },
     hard_eve: { colours: ['A'], sprint_kinds: ['max_velocity'], heavy_hinge: true, refs: ['ORD-03', 'R2-SES-06', 'R2-ATH-07'],
       status: 'PROPOSED: the hard interval colour is never the day before top-speed sprints or the week\'s heavy hinge' },
     refs: ['R3-ATH-05', 'R2-ATH-06', 'R2-SES-06'],
     status: 'PROPOSED (engine 0.6 selection package)'
   };
+  // CH5-02: the arm slot's place on a full day is a stated reason for the template lift it replaces (V30 / H18 'nothing dropped' -
+  // the day says what took its place)
+  if (R.validation && R.validation.v05 && R.validation.v05.skeleton && Array.isArray(R.validation.v05.skeleton.absent_ok_whys) && !R.validation.v05.skeleton.absent_ok_whys.includes('why.arm_slot')) {
+    R.validation.v05.skeleton.absent_ok_whys = [...R.validation.v05.skeleton.absent_ok_whys, 'why.arm_slot'];
+  }
   // G-139 (T3-ATH-02 / R2-ATH-01 the weekly plyo share; CAT-13 side effect): a stairway week the backward never-a-drop pass leaves
   // under its share band takes its ankle / reactive work back up, inside the band and under the next week's family total; with no
   // ankle room left, the ballistic jumps the climb raised give a step back (never below the week before)
@@ -115,11 +130,11 @@ export const ARM_SLOT = { athletic_A: 'ISO_BICEP', athletic_B: 'ISO_TRICEP' };
 /**
  * v0.6 selection template amendments (after amendTemplatesX2).
  * G-130 (01 M1, 02 M1; COACH-R4 R4-SES-05 'athletic days: the athletic block, then the same A / B lifts' - slot 5 biceps on the A day,
- * triceps on the B day): the athletic A / B day types take the arm slot. It is the day's last counted rank (a small-muscle accessory,
- * the first thing the person may remove, R4-SES-04) and prints in slot 5's place, before the leg extension / leg curl. It is for the
- * competitive athlete whose sport profile writes direct arm sets (04 weekly_sets ISO_BICEP / ISO_TRICEP > 0: the swimmer, the
- * linebacker; condition `if_athletic_arm_sets`): the other field sports and the stay-active adult keep his athletic sheet (no arm
- * isolation - OBSERVED BYOP ATHLETIC; the soccer reviewer asked to keep it so), and the in-season variant stays as written.
+ * triceps on the B day): the athletic A / B day types take the arm slot. It is the day's last rank (the first thing the person may remove,
+ * R4-SES-04); COACH-CH5 CH5-02 keeps it on every A / B day (engine/week.mjs buildDay) and prints in slot 5's place, before the leg extension / leg curl.
+ * COACH-CH5 CH5-02 ('all should have it and be adjustable always') retired the G-130 limit to sports whose profile writes direct arm
+ * sets and the in-season exception: every athletic A / B day type, every variant, every client type (rules.selection.s6.arm_slot;
+ * the station keeps its condition id `if_athletic_arm_sets`, which the engine reads as 'always' under that rule).
  * @param {object} families @returns {object}
  */
 export function amendTemplatesS6(families) {
@@ -128,7 +143,8 @@ export function amendTemplatesS6(families) {
   if (!fam) return F;
   for (const [, t] of Object.entries(fam.days || {})) {
     const lists = [Object.entries(t.day_types || {})];
-    for (const [vn, v] of Object.entries(t.variants || {})) if (vn !== 'in_season' && v && v.day_types) lists.push(Object.entries(v.day_types));
+    // (COACH-CH5 CH5-02: every season - the in-season variant takes the slot too)
+    for (const [, v] of Object.entries(t.variants || {})) if (v && v.day_types) lists.push(Object.entries(v.day_types));
     for (const list of lists) for (const [name, def] of list) {
       const bucket = ARM_SLOT[def.skeleton];
       if (!bucket || def.stations.some((s) => s.bucket === bucket)) continue;
@@ -138,11 +154,13 @@ export function amendTemplatesS6(families) {
       if (!proto) continue;
       const n = Math.max(...def.stations.map((x) => Number((/\.s(\d+)$/.exec(x.id) || [0, 0])[1]))) + 1;
       const counted = def.stations.filter((s) => typeof s.rank === 'number' && s.rank < 99).map((s) => s.rank);
+      // (the day's last rank; COACH-CH5 CH5-02 keeps it on a full day in place of the day's last-ranked isolation accessory - week.buildDay)
+      const armRank = (counted.length ? Math.max(...counted) : 0) + 1;
       const st = { ...clone(proto), id: `${name}.s${String(n).padStart(2, '0')}`, bucket, role: 'iso', block: 'accessories', group: bucket === 'ISO_BICEP' ? 'biceps' : 'triceps',
         sets_hint: [2, 2], pair: null, superset: null, circuit: null, axial: null, variant: null, variant_text: null, laterality_dial: false, loading: null,
-        condition: 'if_athletic_arm_sets', condition_text: 'competitive athlete\'s session, sport profile with direct arm sets (G-130)', care_code: undefined, pool_filter: null,
-        note: `slot 5: ${bucket === 'ISO_BICEP' ? 'biceps curl' : 'triceps extension'} (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; v0.6, G-130)`,
-        rank: (counted.length ? Math.max(...counted) : 0) + 1 };
+        condition: 'if_athletic_arm_sets', condition_text: 'every athletic A / B day (COACH-CH5 CH5-02; the G-130 sport limit retired, rules.selection.s6.arm_slot)', care_code: undefined, pool_filter: null,
+        note: `slot 5: ${bucket === 'ISO_BICEP' ? 'biceps curl' : 'triceps extension'} (R4-SES-05 'athletic days: the athletic block, then the same A / B lifts'; COACH-CH5 CH5-02 'all should have it'; v0.6, G-130)`,
+        rank: armRank };
       delete st.care_code;
       const at = iso ? def.stations.indexOf(iso) : def.stations.indexOf(lastRP) + 1;
       def.stations.splice(at, 0, st);
@@ -164,5 +182,6 @@ export const UI_S6 = {
   'why.practice_counts': ['Your {n} team practices a week count as aerobic sessions', 'Tus {n} prácticas de equipo por semana cuentan como sesiones aeróbicas'],
   'why.practice_day': ['Team practice (or a day off)', 'Práctica de equipo (o día libre)'],
   'why.olympic_safe': ['A KB swing or a high pull here: with your joints, play days or age the plan keeps the power work in a safe place', 'Un swing con pesa rusa o un jalón alto aquí: por tus articulaciones, tus días de juego o tu edad, el plan mantiene el trabajo de potencia en un lugar seguro'],
+  'why.arm_slot': ['Slot 5 of the athletic day: a biceps (A day) or triceps (B day) exercise in place of the day\'s last accessory - the first one you may remove or swap back', 'Espacio 5 del día atlético: un ejercicio de bíceps (día A) o de tríceps (día B) en lugar del último accesorio del día; es el primero que puedes quitar o cambiar de vuelta'],
   'why.hard_eve': ['The hard intervals moved off the day before your top-speed sprints or heavy hinge', 'Los intervalos intensos se movieron fuera del día anterior a tus sprints a máxima velocidad o tu bisagra pesada']
 };

@@ -55,7 +55,8 @@ for (const [mname, model] of MODELS) {
   };
 
   describe(`v0.5 no time-fitting (${mname})`, () => {
-    it('engine version is 0.5.0', () => { assert.equal(ENGINE_VERSION, '0.5.0'); for (const n of ['06']) assert.equal(planOf(n).engine_version, '0.5.0'); });
+    // (engine 0.6.0: the version bump of the merged volume, selection and words packages)
+    it('engine version is 0.6.0', () => { assert.equal(ENGINE_VERSION, '0.6.0'); for (const n of ['06']) assert.equal(planOf(n).engine_version, '0.6.0'); });
 
     it('CT-01 / R4-SES-01: no rule, intake field, plan field or engine file sizes a plan by minutes', () => {
       // rules: every time-fitting table is gone; the time model is an estimate
@@ -505,7 +506,8 @@ for (const [mname, model] of MODELS) {
       const vp = planWeeklySets({ derived: { ...d0, D9_start_sets: D9 }, shape: sh, layouts, selections: sel, model, fillSlot: (s) => simpleFill(s, model) });
       const b = vp.block_targets[0];
       const cap = b.capped.find(c => c.group === 'quads');
-      assert.ok(cap && cap.planned === 60 && cap.held < 60);
+      // (engine 0.6.0, converted - COACH-CH5 CH5-03 'no cap until 35' / DECISIONS G-199: a group is never planned above 35 weekly sets)
+      assert.ok(cap && cap.planned === model.rules.volume.x3.group_max.sets && cap.held < cap.planned, JSON.stringify(cap));
       assert.equal(b.group_top.quads, cap.held);
       assert.ok(vp.warnings.some(w => w.key === 'warning.capped_by_template' && w.args.group === 'quads'));
       assert.ok(vp.weeks[11].weekly_sets_by_group.quads >= cap.held - EPS);

@@ -256,9 +256,16 @@ describe('v0.4 fix round 1 / F1: time, volume and structure (coach-eye reviews o
   });
   test('R08-no-arm-focus: the optional day holds no Focus curl / kickback for arms that are credit-only or have no direct sets in the plan (\'Extra exercise to reach your weekly sets\' with no target to reach; E-96)', () => {
     const p = plan('08');
+    // (engine 0.6.0, converted - COACH-CH5 CH5-02 / DECISIONS G-198: the recreational player's A / B days now train the arms in slot 5, so
+    // the arms have direct sets and a planned top; an optional-day arm exercise is then only the bonus exercise of a group its training
+    // days cannot take to that top - never a Focus slot with no target)
+    const st = p.meta.stairway[0];
     for (const x of allItems(p)) {
       if (x.d.kind !== 'optional' || !x.it.exercise_id) continue;
-      assert.ok(!['ISO_BICEP', 'ISO_TRICEP'].includes(x.it.bucket) && !['biceps', 'triceps'].includes(x.it.group), `w${x.w.n} ${x.it.slot_id} ${x.it.exercise_id}`);
+      const arm = ['ISO_BICEP', 'ISO_TRICEP'].includes(x.it.bucket) || ['biceps', 'triceps'].includes(x.it.group);
+      if (!arm) continue;
+      assert.ok(x.it.origin === 'bonus' && typeof st.planned_top[x.it.group] === 'number', `w${x.w.n} ${x.it.slot_id} ${x.it.exercise_id}`);
+      assert.ok(x.w.days.some(d => d.kind === 'main' && d.blocks.some(b => b.items.some(it => it.group === x.it.group && it.origin === 'template'))), `w${x.w.n}: ${x.it.group} trained on a training day`);
     }
   });
   test('R08-r3-pending: every round-3 answer is approved - no plan lists one as pending (rules.r3_approved)', () => {

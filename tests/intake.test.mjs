@@ -277,7 +277,7 @@ for (const [mname, model] of MODELS) {
       assert.equal(deriveValues(sample('07', i => { i.experience.years_consistent = 0.5; }), model).D13_tests.from_zero, true, '< 1 year consistent = from zero');
       const aer = (n) => [D[n].D14_aerobic_sessions.per_week, D[n].D14_aerobic_sessions.colours.join('')];
       assert.deepEqual(aer('01'), [0, '']); assert.equal(D['01'].D14_aerobic_sessions.sport_is_aerobic, true);
-      assert.deepEqual(aer('02'), [3, 'CBA']); assert.deepEqual(aer('03'), [2, 'CB']); assert.equal(D['03'].D14_aerobic_sessions.replaced_by_practice, 2, 'engine 0.6 (converted, G-136): his 2 team practices count as 2 of his 4 sessions'); assert.deepEqual(aer('04'), [2, 'CB']);
+      assert.deepEqual(aer('02'), [3, 'CBA']); assert.deepEqual(aer('03'), [4, 'CBAC']); assert.equal(D['03'].D14_aerobic_sessions.replaced_by_practice, 0, 'engine 0.6.0 (converted, COACH-CH5 CH5-01 / G-197: team practices are not counted as aerobic sessions; G-136 retired)'); assert.deepEqual(aer('04'), [2, 'CB']);
       assert.deepEqual(aer('05'), [3, 'CBA']); assert.deepEqual(aer('06'), [4, 'CBAC']); assert.equal(D['06'].D14_aerobic_sessions.walks, true);
       const p = D['08'].D14_aerobic_sessions;
       assert.deepEqual([p.base, p.replaced_by_activity, p.per_week, p.colours.join('')], [3, 2, 1, 'C'], 'two pickleball sessions replace two aerobic sessions');

@@ -4,7 +4,7 @@
 // Generates a plan IN MEMORY for every intake of the corpora through engine/generate.mjs, scores it with design/bench/score.mjs
 // (scorer 2.x: no metric reads minutes) and writes two files, both inside design/bench/ (nothing else is written anywhere; the
 // engine, the model and the samples are only read):
-//     results_<label>.json   every plan's score sheet, the corpus roll-up, the run's identity     (default label: v05)
+//     results_<label>.json   every plan's score sheet, the corpus roll-up, the run's identity     (default label: v06)
 //     <LABEL>.md             the summary table
 //
 // Corpora:  C2 = design/bench/intakes/*.json (94 intakes)   C1 = samples/intakes/*.json (the 8 samples).
@@ -18,7 +18,9 @@
 //
 // Usage:
 //   node design/bench/run.mjs                         C1 + C2, fresh-process determinism
-//   node design/bench/run.mjs --label v05b --compare design/bench/results_v05.json
+//   node design/bench/run.mjs --label v06b --compare design/bench/results_v06.json
+// (engine 0.6.0: the default label is v06, so a plain run writes results_v06.json + V06.md, the current reference; results_v05.json
+// + V05.md are the engine 0.5.0 run, kept unchanged as history.)
 //   node design/bench/run.mjs --filter 62             only the intakes whose file name contains "62" (writes results_partial.json)
 //   node design/bench/run.mjs --no-fresh --no-samples the quick run
 //   node design/bench/run.mjs --check-intakes         validate the bench intakes against the live validateIntake, write nothing
@@ -41,7 +43,7 @@ const flag = (name) => argv.includes('--' + name);
 const opt = (name, def = null) => { const i = argv.indexOf('--' + name); return i >= 0 && i + 1 < argv.length ? argv[i + 1] : def; };
 const ARGS = {
   filter: opt('filter'),
-  label: opt('label') || (opt('filter') ? 'partial' : 'v05'),
+  label: opt('label') || (opt('filter') ? 'partial' : 'v06'),
   fresh: !flag('no-fresh'), samples: !flag('no-samples'),
   compare: opt('compare'), keep: Number(opt('violations', '8')),
   checkIntakes: flag('check-intakes'), plan: opt('plan'), hashWorker: flag('hash-worker'), quiet: flag('quiet')

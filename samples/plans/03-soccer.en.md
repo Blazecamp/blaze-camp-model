@@ -8,7 +8,7 @@ _Your Blaze Camp plan_
 - **Level:** Intermediate (L2): 2 years of consistent training
 - **Plan type:** 8 weeks · Week 1-8
 - **Start date:** 12 Oct 2026
-- **Training days per week:** 3 · Monday, Wednesday, Friday · about 9-11 exercises a session (plus the warm-up and the 2 core exercises)
+- **Training days per week:** 3 · Monday, Wednesday, Friday · about 10-12 exercises a session (plus the warm-up and the 2 core exercises)
 - Terms and release of liability accepted before this plan was built: client, Spanish
 - Health check: answered; nothing in it asked for a doctor first. [Official PAR-Q+ (in English)](https://eparmedx.com/)
 
@@ -17,6 +17,7 @@ _Your Blaze Camp plan_
 - Your season is close: the last 2 weeks of this plan are pre-season (more speed and power, fewer sets).
 - Trained through your sport work and compound lifts (no extra sets): Biceps, Triceps.
 - Two-leg lifts are about 50 % of your lower-body lifting sets (your sport's guide is about 20 %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.
+- This plan does not count your 2 team practices a week: take them into account and adjust the load yourself (lighter on a hard practice day, a little more in a light week).
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.
@@ -30,8 +31,6 @@ _Your Blaze Camp plan_
 > \*\*\*\*\*If you have any questions just ask me - IG @BLAZECAMP or TWITTER @BLAZECAMP\_
 
 _This plan starts at 3 in the tank and ends at 1 in the last week: the coach's "1 in the tank" is where you finish, so follow each week's number._
-
-_In this plan your cardio sessions sit on lifting days: do each one as its own session that day, or move it to any free day._
 
 Planned effort across the stairway: weeks 1-3: leave 3 in the tank; week 4: leave 2 in the tank; week 5: leave 1-2 in the tank; week 6: leave 1 in the tank. Week 6: one intensifier on each of these days (Monday and Wednesday): a MYO set on the day's last small-muscle or machine exercise.
 
@@ -56,7 +55,7 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 - Something hurts? First use a listed swap, then cut that exercise's sets by a third to a half, then drop it for the rest of the block. See a professional if it keeps hurting.
 - Life got in the way for several weeks (sick, travel, busy)? Stop the block, take the recommended easy week if you want, then build a new block.
 - You (or your coach) can switch off these blocks on any day: jumps, throws and speed; power / Olympic lifts; core; cardio; accessories. You can also add or remove exercises (more rear-delt work, for example). Use the suggested supersets to save time.
-- Switching off the accessories block takes away every direct set for Calves.
+- Switching off the accessories block takes away every direct set for Biceps, Triceps and Calves.
 - You (or your coach) can also change the sets of any exercise on any day or week: the plan is a template.
 - The time shown on each day is an average estimate, for information only: nothing in this plan is cut or changed because of time. Want a shorter day? Use the suggested supersets, or remove what the day lists as easiest to remove.
 
@@ -81,12 +80,12 @@ Your plan climbs like a stairway: small steps up to week 3, a bit bigger from we
 
 | Week | Level | Effort | Sets |
 |---|---|---|---|
-| 1 · test | 2.0 ▮▮ | 3 in the tank | 55 |
-| 2 | 3.3 ▮▮▮ | 3 in the tank | 57 |
-| 3 | 4.6 ▮▮▮▮▮ | 3 in the tank | 59 |
-| 4 | 6.7 ▮▮▮▮▮▮▮ | 2 in the tank | 63 |
-| 5 | 8.9 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 67 |
-| 6 · test | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 72 |
+| 1 · test | 2.0 ▮▮ | 3 in the tank | 59 |
+| 2 | 3.3 ▮▮▮ | 3 in the tank | 61 |
+| 3 | 4.6 ▮▮▮▮▮ | 3 in the tank | 63 |
+| 4 | 6.7 ▮▮▮▮▮▮▮ | 2 in the tank | 67 |
+| 5 | 8.9 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 71 |
+| 6 · test | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 76 |
 
 weeks 1-2: Getting used to it (small steps) · weeks 3-4: Driving it · weeks 5-6: Hardest weeks
 
@@ -96,8 +95,8 @@ weeks 1-2: Getting used to it (small steps) · weeks 3-4: Driving it · weeks 5-
 
 | Week | Level | Effort | Sets |
 |---|---|---|---|
-| 7 | – | 2 in the tank | 40 |
-| 8 | – | 2 in the tank | 40 |
+| 7 | – | 2 in the tank | 44 |
+| 8 | – | 2 in the tank | 44 |
 
 weeks 7-8: Pre-season: more speed and power
 
@@ -106,7 +105,7 @@ weeks 7-8: Pre-season: more speed and power
 After this plan: 2 more pre-season weeks (with the taper) before your season starts on 21 Dec 2026
 
 **Tests:** Speed / agility, Jumps
-Test days (mark your calendar; the plan sends no reminders): week 1: Monday 12 Oct 2026, Wednesday 14 Oct 2026; week 6: Monday 16 Nov 2026, Wednesday 18 Nov 2026
+Test days (mark your calendar; the plan sends no reminders): week 1: Monday 12 Oct 2026, Wednesday 14 Oct 2026, Friday 16 Oct 2026; week 6: Monday 16 Nov 2026, Wednesday 18 Nov 2026, Friday 20 Nov 2026
 
 ## Weekly sets per muscle group
 
@@ -119,19 +118,21 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Back | 10 | 11 | 14 |
 | Chest | 10 | 10 | 11 |
 | Shoulders | 10 | 10 | 12 |
-| Biceps | - (3) | - (3) | - (4) |
-| Triceps | - (3) | - (3) | - (3) |
+| Biceps | - (5) | - (5) | - (6) |
+| Triceps | - (5) | - (5) | - (5) |
 | Calves | 9 | 9 | 11 |
-| **Total** | **55** | **59** | **72** |
+| **Total** | **59** | **63** | **76** |
 
 ### Week 1 at a glance
 
 | Day | Session | Time | Muscle groups (exercises) |
 |---|---|---|---|
-| Monday | S1 - jump + knee + pull | about 85-100 min | Quads 3, Back 2, Calves 1 |
-| Wednesday | S2 - medball + hip + push | about 115-140 min | Hips (glutes + hamstrings) 3, Chest 1, Shoulders 3, Calves 1 |
-| Friday | S3 - Olympic + strength | about 90-110 min | Quads 2, Hips (glutes + hamstrings) 1, Back 2, Chest 1, Calves 1 |
-| Saturday | Optional day | about 30-35 min | – |
+| Monday | S1 - jump + knee + pull | about 80-100 min | Quads 3, Back 2, Biceps 1, Calves 1 |
+| Tuesday | Aerobic day | about 20 min | – |
+| Wednesday | S2 - medball + hip + push | about 115-140 min | Hips (glutes + hamstrings) 3, Chest 1, Shoulders 3, Triceps 1, Calves 1 |
+| Thursday | Aerobic day | about 25-35 min | – |
+| Friday | S3 - Olympic + strength | about 100-120 min | Quads 2, Hips (glutes + hamstrings) 1, Back 2, Chest 1, Calves 1 |
+| Saturday | Optional day | about 25-30 min | – |
 
 ## Training block, week by week · Week 1-6
 
@@ -148,10 +149,10 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Back | 10 10 11 12 13 14 | 14 |
 | Chest | 10 10 10 10 11 11 | 11 |
 | Shoulders | 10 10 10 10 12 12 | 11 |
-| Biceps | 3 3 3 3 3 4 | no exercise of its own |
-| Triceps | 3 3 3 3 3 3 | no exercise of its own |
+| Biceps | 5 5 5 5 5 6 | no exercise of its own |
+| Triceps | 5 5 5 5 5 5 | no exercise of its own |
 | Calves | 9 9 9 10 10 11 | 11 |
-| **Total** | 55 57 59 63 67 72 | 72 |
+| **Total** | 59 61 63 67 71 76 | 76 |
 
 ### Monday · S1 - jump + knee + pull
 
@@ -159,7 +160,6 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Plank (forearm / low plank) | 2 2 2 2 2 2 | 20-40 s |
 | Copenhagen Plank | 2 2 2 2 2 2 | 10-30 s |
-| Falling-Start Accelerations | – 2 2 2 2 – | 4 x 15 m |
 | Single-Leg Forward Hurdle Hops | 3 3 3 3 3 3 | 3 contacts per leg |
 | Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) | 3 3 3 3 3 3 | 5 contacts |
 | Ankle Hops (bilateral, in place) | 2 2 2 2 2 2 | 10 contacts |
@@ -169,6 +169,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Front Squat (barbell) | 3 3 3 4 4 4 | 6 to 8 Reps |
 | Pull-up | 2 2 3 3 3 3 | 6 to 8 Reps |
 | Step-Up (forward and lateral) | 2 3 3 3 4 4 | 8 to 12 per side |
+| Dumbbell Curl | 2 2 2 2 2 2 | 10 to 12 Reps |
 | Leg Extension (machine) | 2 2 3 3 3 4 | 10 to 12 Reps |
 | Standing DB Calf Raise (deficit optional) | 3 3 3 4 4 4 | 12 to 15 Reps |
 
@@ -178,14 +179,15 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Weighted Russian Twist | 2 2 2 2 2 2 | 10 to 15 per side |
 | V-Up | 2 2 2 2 2 2 | 10 to 15 Reps |
-| Single-Leg Broad Jump | – 2 2 2 2 – | 5 contacts per leg |
+| Falling-Start Accelerations | – 2 2 2 2 – | 4 x 15 m |
+| Single-Leg Broad Jump | 2 2 2 2 2 2 | 5 contacts per leg |
 | Bilateral Forward/Backward Ankle Hops | 2 2 2 2 2 2 | 9 contacts |
 | Medball Alternating Back-to-Wall Rotational Scoops | 2 2 2 2 2 2 | 5 per side |
-| Lateral Shuffles | 3 3 3 3 3 3 | 8 cuts |
 | Flat DB Bench Press | 3 3 3 3 4 4 | 8 to 12 Reps |
 | 45-Degree Hyperextension (back/hip extension) | 3 3 3 3 3 3 | 10 to 12 Reps |
 | Alternating Incline DB Bench Press (one up / one down) | 3 3 3 3 3 3 | 8 to 12 per side |
 | Alternating Staggered-Stance Single-Leg Deadlift (DB) | 2 2 2 3 3 3 | 8 to 12 per side |
+| Tate Press | 2 2 2 2 2 2 | 10 to 12 Reps |
 | Nordic Hamstring Curl | 2 2 2 2 2 3 | 6 to 8 Reps |
 | Bent-Over DB Reverse Fly | 3 3 3 3 4 4 | 15 to 20 Reps |
 | Machine Calf Raise | 3 3 3 3 3 4 | 12 to 15 Reps |
@@ -197,10 +199,11 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Side Plank (elbow) | 2 2 2 2 2 2 | 20-40 s |
 | Leg Raise (lying / supine) | 2 2 2 2 2 2 | 10 to 15 Reps |
-| Max-Velocity Sprint (Top Speed) | 2 2 2 2 2 2 | 3 x 30 m |
-| Lateral Box Step-up Jump | 3 3 3 3 3 3 | 6 contacts per leg |
+| Max-Velocity Sprint (Top Speed) | 2 2 2 2 2 1 | 3 x 30 m |
+| Lateral Box Step-up Jump | – 3 3 3 3 – | 6 contacts per leg |
+| Lateral Shuffles | 3 3 3 3 3 3 | 8 cuts |
 | 5-10-5 Pro-Agility Shuttle | 3 3 3 3 3 3 | 5 Reps |
-| Single-Arm DB Snatch | 2 2 2 2 3 3 | 8/8 |
+| Single-Arm DB Snatch | 2 2 2 2 3 2 | 8/8 |
 | Barbell Bench Press | 4 4 4 4 4 4 | 6 to 8 Reps |
 | Hex (Trap) Bar Deadlift | 2 3 3 3 3 4 | 6 to 8 Reps |
 | Single-Arm DB/KB Row | 3 3 3 3 3 4 | 8 to 12 per side |
@@ -228,10 +231,10 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Back | 8 8 |
 | Chest | 6 6 |
 | Shoulders | 5 5 |
-| Biceps | 2 2 |
-| Triceps | 2 2 |
+| Biceps | 4 4 |
+| Triceps | 4 4 |
 | Calves | 6 6 |
-| **Total** | 40 40 |
+| **Total** | 44 44 |
 
 ### Monday · S1 - jump + knee + pull
 
@@ -239,7 +242,6 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Plank (forearm / low plank) | 2 2 | 20-40 s |
 | Copenhagen Plank | 2 2 | 10-30 s |
-| Falling-Start Accelerations | 2 2 | 5 x 20 m |
 | Single-Leg Lateral Hurdle Hops | 3 3 | 5 contacts per leg |
 | Single-Leg Forward Hurdle Hops | 3 3 | 4 contacts per leg |
 | Ankle Hops (bilateral, in place) | 2 2 | 16 contacts |
@@ -249,8 +251,9 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Front Squat (barbell) | 2 2 | 6 to 8 Reps |
 | Pull-up | 2 2 | 6 to 8 Reps |
 | Step-Up (forward and lateral) | 2 2 | 8 to 10 per side |
+| Dumbbell Curl | 2 2 | 10 to 15 Reps |
 | Leg Extension (machine) - one leg at a time | 2 2 | 8 to 12 Reps |
-| Standing DB Calf Raise (deficit optional) | 2 2 | 12 to 15 Reps |
+| Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top | 2 2 | 12 to 15 Reps |
 
 ### Wednesday · S2 - medball + hip + push
 
@@ -258,14 +261,15 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Weighted Russian Twist | 2 2 | 10 to 15 per side |
 | Knees to Chest (hanging) | 2 2 | 10 to 15 Reps |
+| Falling-Start Accelerations | 2 2 | 5 x 20 m |
 | Single-Leg Broad Jump | 2 2 | 5 contacts per leg |
 | Bilateral Backward Ankle Hops | 2 2 | 16 contacts |
 | Medball Rotational Downward Slam | 2 2 | 6 per side |
-| Lateral Shuffles | 3 3 | 12 cuts |
 | Flat DB Bench Press - palms facing each other (neutral grip) | 2 2 | 6 to 8 Reps |
 | 45-Degree Hyperextension (back/hip extension) | 2 2 | 10 to 12 Reps |
 | Alternating Incline DB Bench Press (one up / one down) | 2 2 | 8 to 10 per side |
 | Staggered-Stance (Kickstand) DB Deadlift | 2 2 | 8 to 10 per side |
+| Tate Press | 2 2 | 10 to 15 Reps |
 | Nordic Hamstring Curl | 2 2 | 6 to 8 Reps |
 | Bent-Over DB Reverse Fly | 2 2 | 15 to 20 Reps |
 | Machine Calf Raise | 2 2 | 12 to 15 Reps |
@@ -278,6 +282,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Reverse Crunch | 2 2 | 10 to 15 Reps |
 | Max-Velocity Sprint (Top Speed) | 2 2 | 3 x 40 m |
 | Lateral Box Step-up Jump | 3 3 | 6 contacts per leg |
+| Lateral Shuffles | 3 3 | 12 cuts |
 | 5-10-5 Pro-Agility Shuttle | 3 3 | 6 Reps |
 | Single-Arm DB Snatch | 3 3 | 4/4 |
 | Barbell Bench Press | 2 2 | 6 to 8 Reps |
@@ -300,15 +305,16 @@ _Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 
 **Baseline test this week (before you load up)** (Speed / agility, Jumps)
 
-**Athletic work this week:** 69 jump contacts · 38 ankle-hop contacts · 20 throws · 54 direction changes · 180 m of sprints · 4 Olympic-lift sets · Plyo share 56% · Receive-Create 2: Land & Go
+**Athletic work this week:** 53 jump contacts · 38 ankle-hop contacts · 20 throws · 54 direction changes · 180 m of sprints · 4 Olympic-lift sets · Plyo share 64% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 85-100 min (an estimate, for information only)_
+_Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Ankle Hops (bilateral, in place), Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine)_
+_Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Ankle Hops (bilateral, in place), Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -326,10 +332,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Test**
-1. **Test: 10-30 m sprint** — max intent; stop when quality drops · full recovery between sets
-   - Test: 2-3 timed runs with full rest, record the best.
-   - Baseline test this week: it sets your starting numbers.
-2. **Test: 5-10-5 Pro-Agility Shuttle** — max intent; stop when quality drops · full recovery between sets
+1. **Test: 5-10-5 Pro-Agility Shuttle** — max intent; stop when quality drops · full recovery between sets
    - Test: 2-3 timed runs with full rest, record the best.
    - Baseline test this week: it sets your starting numbers.
    - [Watch how](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle)
@@ -346,7 +349,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Name to copy into YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
 3. **Ankle Hops (bilateral, in place)** — 2 × 10 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
 
 **Power / Olympic lifts**
@@ -384,16 +387,23 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Leg Extension (machine)** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Dumbbell Curl** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+2. **Leg Extension (machine)** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-2. **Standing DB Calf Raise (deficit optional)** — 3 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **Standing DB Calf Raise (deficit optional)** — 3 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Tuesday · Practice / sport
+### Tuesday · Aerobic day
+_Optional: you can switch off this cardio session, or move it to another day._
+- **Green (B): moderate · bike** · 20 min · 3 min hard / 3 min easy, repeat
+  - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
 _Average time: about 115-140 min (an estimate, for information only)_
@@ -402,9 +412,9 @@ _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 4 min saved)_
-_Superset to save time: Nordic Hamstring Curl + Bent-Over DB Reverse Fly (about 3.5 min saved)_
-_Superset to save time: Machine Calf Raise + Seated DB Lateral Raise (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Lateral Shuffles, Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · bonus exercises: Seated DB Lateral Raise_
+_Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
+_Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl, Tate Press · 1 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -422,23 +432,25 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Test**
-1. **Test: countermovement jump** — max intent; stop when quality drops · full recovery between sets
-   - Test: 3 attempts, record the best.
+1. **Test: 10-30 m sprint** — max intent; stop when quality drops · full recovery between sets
+   - Test: 2-3 timed runs with full rest, record the best.
    - Baseline test this week: it sets your starting numbers.
 
 **Jumps, throws and speed**
-1. **Bilateral Forward/Backward Ankle Hops** — 2 × 9 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Broad Jump** — 2 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - Land and go: stick the landing, then jump again right away; reset between reps
+   - per side = 1 set
+   - Swap for: Single-Leg Box Jump (keeps the jump; loses the easier set-up - this one is harder) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the easier set-up - this one is harder) / Lateral Box Step-up Jump (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Name to copy into YouTube: `Single-Leg Broad Jump`
+2. **Bilateral Forward/Backward Ankle Hops** — 2 × 9 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Forward/Backward Ankle Hops`
-2. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
+3. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
    > No levels: just do them right (quality and intent over load).
    - Swap for: Medball Rotational Downward Slam (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Chest Pass (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Scoop Toss (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
-3. **Lateral Shuffles** — 3 × 8 cuts · max intent; stop when quality drops · full recovery between sets
-   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Munoz Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Krumrie Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
 
 **Strength**
 1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -467,20 +479,24 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Nordic Hamstring Curl** — 2 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Tate Press** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press) · Name to copy into YouTube: `Tate Press`
+2. **Nordic Hamstring Curl** — 2 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 8 on every set with 3 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Swap for: Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses some difficulty - this one is easier) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses some difficulty - this one is easier) / Seated Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement) / Lying Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Name to copy into YouTube: `Nordic Hamstring Curl`
-2. **Bent-Over DB Reverse Fly** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **Bent-Over DB Reverse Fly** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
-3. **Machine Calf Raise** — 3 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+4. **Machine Calf Raise** — 3 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Swap for: Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load)
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
-4. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+5. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Bonus exercise to reach your weekly sets
    - Swap for: DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position)
@@ -490,15 +506,18 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. **Orange (C): long / easy · run** — 30 min · 11 min run / 2 min walk, repeat
    - Or use another of your cardio tools: bike. Go by time, not distance.
 
-### Thursday · Practice / sport
+### Thursday · Aerobic day
+_Optional: you can switch off this cardio session, or move it to another day._
+- **Orange (C): long / easy · run** · 30 min · 11 min run / 2 min walk, repeat
+  - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 90-110 min (an estimate, for information only)_
+_Average time: about 100-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 4 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -515,19 +534,21 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
+**Test**
+1. **Test: countermovement jump** — max intent; stop when quality drops · full recovery between sets
+   - Test: 3 attempts, record the best.
+   - Baseline test this week: it sets your starting numbers.
+
 **Jumps, throws and speed**
 1. **Max-Velocity Sprint (Top Speed)** — 2 × 3 x 30 m · max intent; stop when quality drops · full recovery between sets
-   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Name to copy into YouTube: `Max-Velocity Sprint (Top Speed)`
-2. **Lateral Box Step-up Jump** — 3 × 6 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
-   - low box (6-12 in)
-   - One big effort each rep: land soft, reset, go again
-   - per side = 1 set
-   - Swap for: Single-Leg Broad Jump (keeps the jump; loses the same direction of movement) / Single-Leg Box Jump (keeps the jump; loses the same direction of movement) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
+2. **Lateral Shuffles** — 3 × 8 cuts · max intent; stop when quality drops · full recovery between sets
+   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Four-Square Formation (4-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
 3. **5-10-5 Pro-Agility Shuttle** — 3 × 5 Reps · max intent; stop when quality drops · full recovery between sets
    - 2 cuts a rep
-   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Name to copy into YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Power / Olympic lifts**
@@ -585,7 +606,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise) · Name to copy into YouTube: `Barbell Calf Raise`
 
 ### Saturday · Optional day
-_Average time: about 30-35 min (an estimate, for information only)_
+_Average time: about 25-30 min (an estimate, for information only)_
 _You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
@@ -597,8 +618,8 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
 
 **Aerobic**
-1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
-   - Or use another of your cardio tools: run. Go by time, not distance.
+1. **Blue (A): short / high intensity · run** — 15 min · 20 s run / 40 s walk, repeat
+   - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
 
 ## Week 2 — Getting used to it (small steps)
@@ -612,12 +633,13 @@ _Week level: 3.3 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 95 jump contacts · 46 ankle-hop contacts · 20 throws · 87 direction changes · 330 m of sprints · 4 Olympic-lift sets · Plyo share 53% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 90-110 min (an estimate, for information only)_
+_Average time: about 85-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral), Single-Leg Forward Hurdle Hops · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine)_
+_Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -635,23 +657,20 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
-1. **Falling-Start Accelerations** — 2 × 4 x 15 m · max intent; stop when quality drops · full recovery between sets
-   - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
-2. **Single-Leg Forward Hurdle Hops** — 3 × 3 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Forward Hurdle Hops** — 3 × 3 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - per side = 1 set
    - Swap for: Single-Leg Lateral Hurdle Hops (keeps the jump; loses the same direction of movement) / Single-Leg Forward Zig-Zag Jumps (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Plate Hops - Inner/Outer Leg (keeps the jump; loses the same direction of movement) / Single-Leg Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Name to copy into YouTube: `Single-Leg Forward Hurdle Hops`
-3. **Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)** — 3 × 7 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)** — 3 × 7 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Hurdle Hops (keeps the jump; loses the heavier two-sided load) / Bilateral Forward Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Name to copy into YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
-4. **Ankle Hops (bilateral, in place)** — 2 × 12 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Ankle Hops (bilateral, in place)** — 2 × 12 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
-5. **L-Test / L-Drill (3-Cone)** — 3 × 3 Reps · max intent; stop when quality drops · full recovery between sets
+4. **L-Test / L-Drill (3-Cone)** — 3 × 3 Reps · max intent; stop when quality drops · full recovery between sets
    - 3 cuts a rep
    - Swap for: Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone)) · Name to copy into YouTube: `L-Test / L-Drill (3-Cone)`
@@ -688,27 +707,34 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Leg Extension (machine)** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Dumbbell Curl** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+2. **Leg Extension (machine)** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-2. **Standing DB Calf Raise (deficit optional)** — 3 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **Standing DB Calf Raise (deficit optional)** — 3 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Tuesday · Practice / sport
+### Tuesday · Aerobic day
+_Optional: you can switch off this cardio session, or move it to another day._
+- **Green (B): moderate · bike** · 22 min · 3 min hard / 3 min easy, repeat
+  - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 4 min saved)_
-_Superset to save time: Nordic Hamstring Curl + Bent-Over DB Reverse Fly (about 3.5 min saved)_
-_Superset to save time: Machine Calf Raise + Seated DB Lateral Raise (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Lateral Shuffles, Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 1 more_
+_Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
+_Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops, Single-Leg Broad Jump · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 2 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -726,23 +752,23 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 2 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Falling-Start Accelerations** — 2 × 4 x 15 m · max intent; stop when quality drops · full recovery between sets
+   - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
+2. **Single-Leg Broad Jump** — 2 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
    - per side = 1 set
    - Swap for: Single-Leg Box Jump (keeps the jump; loses the easier set-up - this one is harder) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the easier set-up - this one is harder) / Lateral Box Step-up Jump (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Name to copy into YouTube: `Single-Leg Broad Jump`
-2. **Bilateral Forward/Backward Ankle Hops** — 2 × 11 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Bilateral Forward/Backward Ankle Hops** — 2 × 11 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Forward/Backward Ankle Hops`
-3. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
+4. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
    > No levels: just do them right (quality and intent over load).
    - Swap for: Medball Rotational Downward Slam (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Chest Pass (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Scoop Toss (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
-4. **Lateral Shuffles** — 3 × 10 cuts · max intent; stop when quality drops · full recovery between sets
-   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Munoz Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Krumrie Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
 
 **Strength**
 1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -767,20 +793,24 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Nordic Hamstring Curl** — 2 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Tate Press** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press) · Name to copy into YouTube: `Tate Press`
+2. **Nordic Hamstring Curl** — 2 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 8 on every set with 3 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Swap for: Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses some difficulty - this one is easier) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses some difficulty - this one is easier) / Seated Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement) / Lying Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Name to copy into YouTube: `Nordic Hamstring Curl`
-2. **Bent-Over DB Reverse Fly** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **Bent-Over DB Reverse Fly** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
-3. **Machine Calf Raise** — 3 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+4. **Machine Calf Raise** — 3 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Swap for: Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load)
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
-4. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+5. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Bonus exercise to reach your weekly sets
    - Swap for: DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position)
@@ -790,15 +820,18 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. **Orange (C): long / easy · run** — 32 min · 11 min run / 2 min walk, repeat
    - Or use another of your cardio tools: bike. Go by time, not distance.
 
-### Thursday · Practice / sport
+### Thursday · Aerobic day
+_Optional: you can switch off this cardio session, or move it to another day._
+- **Orange (C): long / easy · run** · 32 min · 11 min run / 2 min walk, repeat
+  - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 95-115 min (an estimate, for information only)_
+_Average time: about 100-125 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -817,7 +850,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 **Jumps, throws and speed**
 1. **Max-Velocity Sprint (Top Speed)** — 2 × 3 x 35 m · max intent; stop when quality drops · full recovery between sets
-   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Name to copy into YouTube: `Max-Velocity Sprint (Top Speed)`
 2. **Lateral Box Step-up Jump** — 3 × 6 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
@@ -825,9 +858,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Leg Broad Jump (keeps the jump; loses the same direction of movement) / Single-Leg Box Jump (keeps the jump; loses the same direction of movement) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
-3. **5-10-5 Pro-Agility Shuttle** — 3 × 5 Reps · max intent; stop when quality drops · full recovery between sets
+3. **Lateral Shuffles** — 3 × 10 cuts · max intent; stop when quality drops · full recovery between sets
+   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Four-Square Formation (4-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
+4. **5-10-5 Pro-Agility Shuttle** — 3 × 5 Reps · max intent; stop when quality drops · full recovery between sets
    - 2 cuts a rep
-   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Name to copy into YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Power / Olympic lifts**
@@ -879,7 +915,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise) · Name to copy into YouTube: `Barbell Calf Raise`
 
 ### Saturday · Optional day
-_Average time: about 30-35 min (an estimate, for information only)_
+_Average time: about 25-30 min (an estimate, for information only)_
 _You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
@@ -891,8 +927,8 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
 
 **Aerobic**
-1. **Green (B): moderate · bike** — 22 min · 3 min hard / 3 min easy, repeat
-   - Or use another of your cardio tools: run. Go by time, not distance.
+1. **Blue (A): short / high intensity · run** — 16 min · 20 s run / 40 s walk, repeat
+   - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
 
 ## Week 3 — Driving it
@@ -906,12 +942,13 @@ _Week level: 4.6 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 104 jump contacts · 58 ankle-hop contacts · 24 throws · 96 direction changes · 390 m of sprints · 4 Olympic-lift sets · Plyo share 57% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 95-115 min (an estimate, for information only)_
+_Average time: about 85-105 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 5.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral), Single-Leg Forward Hurdle Hops · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine)_
+_Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -929,23 +966,20 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
-1. **Falling-Start Accelerations** — 2 × 6 x 15 m · max intent; stop when quality drops · full recovery between sets
-   - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
-2. **Single-Leg Forward Hurdle Hops** — 3 × 4 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Forward Hurdle Hops** — 3 × 4 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - per side = 1 set
    - Swap for: Single-Leg Lateral Hurdle Hops (keeps the jump; loses the same direction of movement) / Single-Leg Forward Zig-Zag Jumps (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Plate Hops - Inner/Outer Leg (keeps the jump; loses the same direction of movement) / Single-Leg Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Name to copy into YouTube: `Single-Leg Forward Hurdle Hops`
-3. **Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Hurdle Hops (keeps the jump; loses the heavier two-sided load) / Bilateral Forward Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Name to copy into YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
-4. **Ankle Hops (bilateral, in place)** — 2 × 15 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Ankle Hops (bilateral, in place)** — 2 × 15 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
-5. **L-Test / L-Drill (3-Cone)** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
+4. **L-Test / L-Drill (3-Cone)** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
    - 3 cuts a rep
    - Swap for: Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone)) · Name to copy into YouTube: `L-Test / L-Drill (3-Cone)`
@@ -982,27 +1016,34 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Leg Extension (machine)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Dumbbell Curl** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+2. **Leg Extension (machine)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-2. **Standing DB Calf Raise (deficit optional)** — 3 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **Standing DB Calf Raise (deficit optional)** — 3 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Tuesday · Practice / sport
+### Tuesday · Aerobic day
+_Optional: you can switch off this cardio session, or move it to another day._
+- **Green (B): moderate · bike** · 24 min · 3 min hard / 3 min easy, repeat
+  - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 4 min saved)_
-_Superset to save time: Nordic Hamstring Curl + Bent-Over DB Reverse Fly (about 3.5 min saved)_
-_Superset to save time: Machine Calf Raise + Seated DB Lateral Raise (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Lateral Shuffles, Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 1 more_
+_Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
+_Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops, Single-Leg Broad Jump · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 2 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1020,23 +1061,23 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 2 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Falling-Start Accelerations** — 2 × 6 x 15 m · max intent; stop when quality drops · full recovery between sets
+   - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
+2. **Single-Leg Broad Jump** — 2 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
    - per side = 1 set
    - Swap for: Single-Leg Box Jump (keeps the jump; loses the easier set-up - this one is harder) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the easier set-up - this one is harder) / Lateral Box Step-up Jump (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Name to copy into YouTube: `Single-Leg Broad Jump`
-2. **Bilateral Forward/Backward Ankle Hops** — 2 × 14 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Bilateral Forward/Backward Ankle Hops** — 2 × 14 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Forward/Backward Ankle Hops`
-3. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
+4. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
    > No levels: just do them right (quality and intent over load).
    - Swap for: Medball Rotational Downward Slam (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Chest Pass (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Scoop Toss (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
-4. **Lateral Shuffles** — 3 × 10 cuts · max intent; stop when quality drops · full recovery between sets
-   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Munoz Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Krumrie Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
 
 **Strength**
 1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
@@ -1061,20 +1102,24 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Nordic Hamstring Curl** — 2 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Tate Press** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press) · Name to copy into YouTube: `Tate Press`
+2. **Nordic Hamstring Curl** — 2 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 8 on every set with 3 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Swap for: Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses some difficulty - this one is easier) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses some difficulty - this one is easier) / Seated Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement) / Lying Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Name to copy into YouTube: `Nordic Hamstring Curl`
-2. **Bent-Over DB Reverse Fly** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **Bent-Over DB Reverse Fly** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
-3. **Machine Calf Raise** — 3 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+4. **Machine Calf Raise** — 3 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Swap for: Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load)
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
-4. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+5. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Bonus exercise to reach your weekly sets
    - Swap for: DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position)
@@ -1084,15 +1129,18 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. **Orange (C): long / easy · run** — 34 min · 11 min run / 2 min walk, repeat
    - Or use another of your cardio tools: bike. Go by time, not distance.
 
-### Thursday · Practice / sport
+### Thursday · Aerobic day
+_Optional: you can switch off this cardio session, or move it to another day._
+- **Orange (C): long / easy · run** · 34 min · 11 min run / 2 min walk, repeat
+  - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 95-115 min (an estimate, for information only)_
+_Average time: about 100-125 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1111,7 +1159,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 **Jumps, throws and speed**
 1. **Max-Velocity Sprint (Top Speed)** — 2 × 3 x 35 m · max intent; stop when quality drops · full recovery between sets
-   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Name to copy into YouTube: `Max-Velocity Sprint (Top Speed)`
 2. **Lateral Box Step-up Jump** — 3 × 6 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
@@ -1119,9 +1167,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Leg Broad Jump (keeps the jump; loses the same direction of movement) / Single-Leg Box Jump (keeps the jump; loses the same direction of movement) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
-3. **5-10-5 Pro-Agility Shuttle** — 3 × 5 Reps · max intent; stop when quality drops · full recovery between sets
+3. **Lateral Shuffles** — 3 × 10 cuts · max intent; stop when quality drops · full recovery between sets
+   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Four-Square Formation (4-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
+4. **5-10-5 Pro-Agility Shuttle** — 3 × 5 Reps · max intent; stop when quality drops · full recovery between sets
    - 2 cuts a rep
-   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Name to copy into YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Power / Olympic lifts**
@@ -1173,7 +1224,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise) · Name to copy into YouTube: `Barbell Calf Raise`
 
 ### Saturday · Optional day
-_Average time: about 30-35 min (an estimate, for information only)_
+_Average time: about 25-30 min (an estimate, for information only)_
 _You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
@@ -1185,8 +1236,8 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
 
 **Aerobic**
-1. **Green (B): moderate · bike** — 24 min · 3 min hard / 3 min easy, repeat
-   - Or use another of your cardio tools: run. Go by time, not distance.
+1. **Blue (A): short / high intensity · run** — 17 min · 20 s run / 40 s walk, repeat
+   - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
 
 ## Week 4 — Driving it
@@ -1202,12 +1253,13 @@ _Week level: 6.7 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 110 jump contacts · 70 ankle-hop contacts · 28 throws · 102 direction changes · 400 m of sprints · 5 Olympic-lift sets · Plyo share 60% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 5.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral), Single-Leg Forward Hurdle Hops · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine)_
+_Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1225,23 +1277,20 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
-1. **Falling-Start Accelerations** — 2 × 4 x 20 m · max intent; stop when quality drops · full recovery between sets
-   - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
-2. **Single-Leg Forward Hurdle Hops** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Forward Hurdle Hops** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - per side = 1 set
    - Swap for: Single-Leg Lateral Hurdle Hops (keeps the jump; loses the same direction of movement) / Single-Leg Forward Zig-Zag Jumps (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Plate Hops - Inner/Outer Leg (keeps the jump; loses the same direction of movement) / Single-Leg Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Name to copy into YouTube: `Single-Leg Forward Hurdle Hops`
-3. **Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Hurdle Hops (keeps the jump; loses the heavier two-sided load) / Bilateral Forward Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Name to copy into YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
-4. **Ankle Hops (bilateral, in place)** — 2 × 18 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Ankle Hops (bilateral, in place)** — 2 × 18 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
-5. **L-Test / L-Drill (3-Cone)** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
+4. **L-Test / L-Drill (3-Cone)** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
    - 3 cuts a rep
    - Swap for: Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone)) · Name to copy into YouTube: `L-Test / L-Drill (3-Cone)`
@@ -1278,27 +1327,34 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Leg Extension (machine)** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Dumbbell Curl** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+2. **Leg Extension (machine)** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-2. **Standing DB Calf Raise (deficit optional)** — 4 × 12 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Standing DB Calf Raise (deficit optional)** — 4 × 12 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 12.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Tuesday · Practice / sport
+### Tuesday · Aerobic day
+_Optional: you can switch off this cardio session, or move it to another day._
+- **Green (B): moderate · bike** · 26 min · 3 min hard / 3 min easy, repeat
+  - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
-_Average time: about 120-150 min (an estimate, for information only)_
+_Average time: about 125-155 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
-_Superset to save time: Nordic Hamstring Curl + Bent-Over DB Reverse Fly (about 3.5 min saved)_
-_Superset to save time: Machine Calf Raise + Seated DB Lateral Raise (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Lateral Shuffles, Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 1 more_
+_Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
+_Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops, Single-Leg Broad Jump · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 2 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1316,23 +1372,23 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 2 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Falling-Start Accelerations** — 2 × 4 x 20 m · max intent; stop when quality drops · full recovery between sets
+   - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
+2. **Single-Leg Broad Jump** — 2 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
    - per side = 1 set
    - Swap for: Single-Leg Box Jump (keeps the jump; loses the easier set-up - this one is harder) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the easier set-up - this one is harder) / Lateral Box Step-up Jump (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Name to copy into YouTube: `Single-Leg Broad Jump`
-2. **Bilateral Forward/Backward Ankle Hops** — 2 × 17 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Bilateral Forward/Backward Ankle Hops** — 2 × 17 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Forward/Backward Ankle Hops`
-3. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 7 per side · max intent; stop when quality drops · 45-90 s rest
+4. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 7 per side · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
    > No levels: just do them right (quality and intent over load).
    - Swap for: Medball Rotational Downward Slam (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Chest Pass (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Scoop Toss (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
-4. **Lateral Shuffles** — 3 × 10 cuts · max intent; stop when quality drops · full recovery between sets
-   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Munoz Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Krumrie Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
 
 **Strength**
 1. **Flat DB Bench Press** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
@@ -1359,20 +1415,24 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Nordic Hamstring Curl** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Tate Press** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press) · Name to copy into YouTube: `Tate Press`
+2. **Nordic Hamstring Curl** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Swap for: Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses some difficulty - this one is easier) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses some difficulty - this one is easier) / Seated Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement) / Lying Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Name to copy into YouTube: `Nordic Hamstring Curl`
-2. **Bent-Over DB Reverse Fly** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Bent-Over DB Reverse Fly** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
-3. **Machine Calf Raise** — 3 × 12 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+4. **Machine Calf Raise** — 3 × 12 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 12.
    - Swap for: Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load)
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
-4. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+5. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
    - Bonus exercise to reach your weekly sets
    - Swap for: DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position)
@@ -1382,15 +1442,18 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. **Orange (C): long / easy · run** — 36 min · steady pace: you can still talk
    - Or use another of your cardio tools: bike. Go by time, not distance.
 
-### Thursday · Practice / sport
+### Thursday · Aerobic day
+_Optional: you can switch off this cardio session, or move it to another day._
+- **Orange (C): long / easy · run** · 36 min · steady pace: you can still talk
+  - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 105-125 min (an estimate, for information only)_
+_Average time: about 110-135 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1409,7 +1472,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 **Jumps, throws and speed**
 1. **Max-Velocity Sprint (Top Speed)** — 2 × 3 x 40 m · max intent; stop when quality drops · full recovery between sets
-   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Name to copy into YouTube: `Max-Velocity Sprint (Top Speed)`
 2. **Lateral Box Step-up Jump** — 3 × 6 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
@@ -1417,9 +1480,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Leg Broad Jump (keeps the jump; loses the same direction of movement) / Single-Leg Box Jump (keeps the jump; loses the same direction of movement) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
-3. **5-10-5 Pro-Agility Shuttle** — 3 × 6 Reps · max intent; stop when quality drops · full recovery between sets
+3. **Lateral Shuffles** — 3 × 10 cuts · max intent; stop when quality drops · full recovery between sets
+   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Four-Square Formation (4-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
+4. **5-10-5 Pro-Agility Shuttle** — 3 × 6 Reps · max intent; stop when quality drops · full recovery between sets
    - 2 cuts a rep
-   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Name to copy into YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Power / Olympic lifts**
@@ -1472,7 +1538,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise) · Name to copy into YouTube: `Barbell Calf Raise`
 
 ### Saturday · Optional day
-_Average time: about 30-35 min (an estimate, for information only)_
+_Average time: about 25-30 min (an estimate, for information only)_
 _You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
@@ -1484,8 +1550,8 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
 
 **Aerobic**
-1. **Green (B): moderate · bike** — 26 min · 3 min hard / 3 min easy, repeat
-   - Or use another of your cardio tools: run. Go by time, not distance.
+1. **Blue (A): short / high intensity · run** — 18 min · 30 s run / 30 s walk, repeat
+   - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
 
 ## Week 5 — Hardest weeks
@@ -1501,12 +1567,13 @@ _Week level: 8.9 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 110 jump contacts · 78 ankle-hop contacts · 32 throws · 108 direction changes · 440 m of sprints · 6 Olympic-lift sets · Plyo share 60% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 115-140 min (an estimate, for information only)_
+_Average time: about 110-135 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 5.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral), Single-Leg Forward Hurdle Hops · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine)_
+_Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1524,23 +1591,20 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
-1. **Falling-Start Accelerations** — 2 × 5 x 20 m · max intent; stop when quality drops · full recovery between sets
-   - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
-2. **Single-Leg Forward Hurdle Hops** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Forward Hurdle Hops** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - per side = 1 set
    - Swap for: Single-Leg Lateral Hurdle Hops (keeps the jump; loses the same direction of movement) / Single-Leg Forward Zig-Zag Jumps (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Plate Hops - Inner/Outer Leg (keeps the jump; loses the same direction of movement) / Single-Leg Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Name to copy into YouTube: `Single-Leg Forward Hurdle Hops`
-3. **Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Hurdle Hops (keeps the jump; loses the heavier two-sided load) / Bilateral Forward Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Name to copy into YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
-4. **Ankle Hops (bilateral, in place)** — 2 × 18 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Ankle Hops (bilateral, in place)** — 2 × 18 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
-5. **L-Test / L-Drill (3-Cone)** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
+4. **L-Test / L-Drill (3-Cone)** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
    - 3 cuts a rep
    - Swap for: Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone)) · Name to copy into YouTube: `L-Test / L-Drill (3-Cone)`
@@ -1577,27 +1641,34 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Leg Extension (machine)** — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Dumbbell Curl** — 2 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 10.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+2. **Leg Extension (machine)** — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-2. **Standing DB Calf Raise (deficit optional)** — 4 × 12 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+3. **Standing DB Calf Raise (deficit optional)** — 4 × 12 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 12.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Tuesday · Practice / sport
+### Tuesday · Aerobic day
+_Optional: you can switch off this cardio session, or move it to another day._
+- **Green (B): moderate · bike** · 28 min · 3 min hard / 3 min easy, repeat
+  - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
-_Average time: about 125-155 min (an estimate, for information only)_
+_Average time: about 130-160 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
-_Superset to save time: Nordic Hamstring Curl + Bent-Over DB Reverse Fly (about 3.5 min saved)_
-_Superset to save time: Machine Calf Raise + Seated DB Lateral Raise (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Lateral Shuffles, Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 1 more_
+_Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
+_Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops, Single-Leg Broad Jump · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 2 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1615,23 +1686,23 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 2 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Falling-Start Accelerations** — 2 × 5 x 20 m · max intent; stop when quality drops · full recovery between sets
+   - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
+2. **Single-Leg Broad Jump** — 2 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
    - per side = 1 set
    - Swap for: Single-Leg Box Jump (keeps the jump; loses the easier set-up - this one is harder) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the easier set-up - this one is harder) / Lateral Box Step-up Jump (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Name to copy into YouTube: `Single-Leg Broad Jump`
-2. **Bilateral Forward/Backward Ankle Hops** — 2 × 21 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Bilateral Forward/Backward Ankle Hops** — 2 × 21 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Forward/Backward Ankle Hops`
-3. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 8 per side · max intent; stop when quality drops · 45-90 s rest
+4. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 8 per side · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
    > No levels: just do them right (quality and intent over load).
    - Swap for: Medball Rotational Downward Slam (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Chest Pass (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Scoop Toss (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
-4. **Lateral Shuffles** — 3 × 12 cuts · max intent; stop when quality drops · full recovery between sets
-   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Munoz Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Krumrie Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
 
 **Strength**
 1. **Flat DB Bench Press** — 4 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 2-3 min rest
@@ -1658,20 +1729,24 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Nordic Hamstring Curl** — 2 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Tate Press** — 2 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 10.
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press) · Name to copy into YouTube: `Tate Press`
+2. **Nordic Hamstring Curl** — 2 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 8 on every set with 1-2 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Swap for: Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses some difficulty - this one is easier) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses some difficulty - this one is easier) / Seated Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement) / Lying Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Name to copy into YouTube: `Nordic Hamstring Curl`
-2. **Bent-Over DB Reverse Fly** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+3. **Bent-Over DB Reverse Fly** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
-3. **Machine Calf Raise** — 3 × 12 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+4. **Machine Calf Raise** — 3 × 12 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 12.
    - Swap for: Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load)
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
-4. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+5. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 10.
    - Bonus exercise to reach your weekly sets
    - Swap for: DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position)
@@ -1681,15 +1756,18 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. **Orange (C): long / easy · run** — 38 min · steady pace: you can still talk
    - Or use another of your cardio tools: bike. Go by time, not distance.
 
-### Thursday · Practice / sport
+### Thursday · Aerobic day
+_Optional: you can switch off this cardio session, or move it to another day._
+- **Orange (C): long / easy · run** · 38 min · steady pace: you can still talk
+  - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 105-130 min (an estimate, for information only)_
+_Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1708,7 +1786,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 **Jumps, throws and speed**
 1. **Max-Velocity Sprint (Top Speed)** — 2 × 3 x 40 m · max intent; stop when quality drops · full recovery between sets
-   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Name to copy into YouTube: `Max-Velocity Sprint (Top Speed)`
 2. **Lateral Box Step-up Jump** — 3 × 6 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
@@ -1716,9 +1794,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Leg Broad Jump (keeps the jump; loses the same direction of movement) / Single-Leg Box Jump (keeps the jump; loses the same direction of movement) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
-3. **5-10-5 Pro-Agility Shuttle** — 3 × 6 Reps · max intent; stop when quality drops · full recovery between sets
+3. **Lateral Shuffles** — 3 × 12 cuts · max intent; stop when quality drops · full recovery between sets
+   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Four-Square Formation (4-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
+4. **5-10-5 Pro-Agility Shuttle** — 3 × 6 Reps · max intent; stop when quality drops · full recovery between sets
    - 2 cuts a rep
-   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Name to copy into YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Power / Olympic lifts**
@@ -1771,7 +1852,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise) · Name to copy into YouTube: `Barbell Calf Raise`
 
 ### Saturday · Optional day
-_Average time: about 30-35 min (an estimate, for information only)_
+_Average time: about 25-30 min (an estimate, for information only)_
 _You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
@@ -1783,8 +1864,8 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
 
 **Aerobic**
-1. **Green (B): moderate · bike** — 28 min · 3 min hard / 3 min easy, repeat
-   - Or use another of your cardio tools: run. Go by time, not distance.
+1. **Blue (A): short / high intensity · run** — 19 min · 30 s run / 30 s walk, repeat
+   - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
 
 ## Week 6 — Hardest weeks
@@ -1802,15 +1883,16 @@ _Last week: one intensifier on each of these days (Monday and Wednesday): a MYO 
 - +1 set on Single-Arm DB/KB Row (Friday): 3 → 4 sets
 - +1 set on Machine Calf Raise (Wednesday): 3 → 4 sets
 
-**Athletic work this week:** 69 jump contacts · 38 ankle-hop contacts · 20 throws · 60 direction changes · 240 m of sprints · 5 Olympic-lift sets · Plyo share 56% · Receive-Create 2: Land & Go
+**Athletic work this week:** 53 jump contacts · 38 ankle-hop contacts · 20 throws · 51 direction changes · 120 m of sprints · 4 Olympic-lift sets · Plyo share 64% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 110-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 5.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Ankle Hops (bilateral, in place), Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine)_
+_Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Ankle Hops (bilateral, in place), Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1828,9 +1910,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Test**
-1. **Test: 10-30 m sprint** — max intent; stop when quality drops · full recovery between sets
-   - Test: 2-3 timed runs with full rest, record the best.
-2. **Test: 5-10-5 Pro-Agility Shuttle** — max intent; stop when quality drops · full recovery between sets
+1. **Test: 5-10-5 Pro-Agility Shuttle** — max intent; stop when quality drops · full recovery between sets
    - Test: 2-3 timed runs with full rest, record the best.
    - [Watch how](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle)
 
@@ -1846,7 +1926,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Name to copy into YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
 3. **Ankle Hops (bilateral, in place)** — 2 × 10 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
 
 **Power / Olympic lifts**
@@ -1881,16 +1961,23 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Leg Extension (machine)** — 4 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+1. **Dumbbell Curl** — 2 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 10.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+2. **Leg Extension (machine)** — 4 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
    - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-2. **Standing DB Calf Raise (deficit optional)** — 4 × 12 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+3. **Standing DB Calf Raise (deficit optional)** — 4 × 12 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 12.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Tuesday · Practice / sport
+### Tuesday · Aerobic day
+_Optional: you can switch off this cardio session, or move it to another day._
+- **Green (B): moderate · bike** · 30 min · 3 min hard / 3 min easy, repeat
+  - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
 _Average time: about 130-160 min (an estimate, for information only)_
@@ -1899,8 +1986,9 @@ _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
-_Superset to save time: Nordic Hamstring Curl + Bent-Over DB Reverse Fly (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Lateral Shuffles, Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · bonus exercises: Seated DB Lateral Raise_
+_Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
+_Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 6 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl, Tate Press · 1 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1918,22 +2006,24 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Test**
-1. **Test: countermovement jump** — max intent; stop when quality drops · full recovery between sets
-   - Test: 3 attempts, record the best.
+1. **Test: 10-30 m sprint** — max intent; stop when quality drops · full recovery between sets
+   - Test: 2-3 timed runs with full rest, record the best.
 
 **Jumps, throws and speed**
-1. **Bilateral Forward/Backward Ankle Hops** — 2 × 9 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Broad Jump** — 2 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - Land and go: stick the landing, then jump again right away; reset between reps
+   - per side = 1 set
+   - Swap for: Single-Leg Box Jump (keeps the jump; loses the easier set-up - this one is harder) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the easier set-up - this one is harder) / Lateral Box Step-up Jump (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Name to copy into YouTube: `Single-Leg Broad Jump`
+2. **Bilateral Forward/Backward Ankle Hops** — 2 × 9 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Forward/Backward Ankle Hops`
-2. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
+3. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
    > No levels: just do them right (quality and intent over load).
    - Swap for: Medball Rotational Downward Slam (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Rotational Side-to-Side Floor Slams (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Chest Pass (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Scoop Toss (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
-3. **Lateral Shuffles** — 3 × 8 cuts · max intent; stop when quality drops · full recovery between sets
-   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Munoz Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Krumrie Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
 
 **Strength**
 1. **Flat DB Bench Press** — 4 × 6 to 8 Reps · leave 1 in the tank (1 RIR, RPE 9) · 2-3 min rest
@@ -1960,20 +2050,24 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Name to copy into YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accessories**
-1. **Nordic Hamstring Curl** — 3 × 6 to 8 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+1. **Tate Press** — 2 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 10.
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press) · Name to copy into YouTube: `Tate Press`
+2. **Nordic Hamstring Curl** — 3 × 6 to 8 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 8 on every set with 1 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Swap for: Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses some difficulty - this one is easier) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses some difficulty - this one is easier) / Seated Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement) / Lying Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Name to copy into YouTube: `Nordic Hamstring Curl`
-2. **Bent-Over DB Reverse Fly** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+3. **Bent-Over DB Reverse Fly** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
-3. **Machine Calf Raise** — 4 × 12 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+4. **Machine Calf Raise** — 4 × 12 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 12.
    - Swap for: Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load)
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
-4. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+5. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 10.
    - Bonus exercise to reach your weekly sets
    - Swap for: DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position)
@@ -1983,7 +2077,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. **Orange (C): long / easy · run** — 40 min · steady pace: you can still talk
    - Or use another of your cardio tools: bike. Go by time, not distance.
 
-### Thursday · Practice / sport
+### Thursday · Aerobic day
+_Optional: you can switch off this cardio session, or move it to another day._
+- **Orange (C): long / easy · run** · 40 min · steady pace: you can still talk
+  - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
 _Average time: about 115-140 min (an estimate, for information only)_
@@ -1991,7 +2088,7 @@ _You can switch off these blocks today: core, jumps, throws and speed, power / O
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2008,23 +2105,24 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
 
+**Test**
+1. **Test: countermovement jump** — max intent; stop when quality drops · full recovery between sets
+   - Test: 3 attempts, record the best.
+
 **Jumps, throws and speed**
-1. **Max-Velocity Sprint (Top Speed)** — 2 × 3 x 40 m · max intent; stop when quality drops · full recovery between sets
-   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+1. **Max-Velocity Sprint (Top Speed)** — 1 × 3 x 40 m · max intent; stop when quality drops · full recovery between sets
+   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Name to copy into YouTube: `Max-Velocity Sprint (Top Speed)`
-2. **Lateral Box Step-up Jump** — 3 × 6 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
-   - low box (6-12 in)
-   - One big effort each rep: land soft, reset, go again
-   - per side = 1 set
-   - Swap for: Single-Leg Broad Jump (keeps the jump; loses the same direction of movement) / Single-Leg Box Jump (keeps the jump; loses the same direction of movement) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
-3. **5-10-5 Pro-Agility Shuttle** — 3 × 6 Reps · max intent; stop when quality drops · full recovery between sets
+2. **Lateral Shuffles** — 3 × 9 cuts · max intent; stop when quality drops · full recovery between sets
+   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Four-Square Formation (4-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
+3. **5-10-5 Pro-Agility Shuttle** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
    - 2 cuts a rep
-   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Name to copy into YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Power / Olympic lifts**
-1. **Single-Arm DB Snatch** — 3 × 4/4 · move it fast: if the dumbbell slows down or your technique breaks, it is too heavy · 2-3 min rest
+1. **Single-Arm DB Snatch** — 2 × 4/4 · move it fast: if the dumbbell slows down or your technique breaks, it is too heavy · 2-3 min rest
    - weight by speed: fast and powerful
    - Power work: move the dumbbell fast; stop the set if it slows down.
    - per side = 1 set
@@ -2073,7 +2171,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise) · Name to copy into YouTube: `Barbell Calf Raise`
 
 ### Saturday · Optional day
-_Average time: about 30-35 min (an estimate, for information only)_
+_Average time: about 25-30 min (an estimate, for information only)_
 _You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
@@ -2085,8 +2183,8 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
 
 **Aerobic**
-1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
-   - Or use another of your cardio tools: run. Go by time, not distance.
+1. **Blue (A): short / high intensity · run** — 20 min · 30 s run / 30 s walk, repeat
+   - Or use another of your cardio tools: bike. Go by time, not distance.
    - This cardio session is part of the plan even if you skip the optional lifting.
 
 ## Week 7 — Pre-season: more speed and power
@@ -2094,12 +2192,13 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Athletic work this week:** 110 jump contacts · 64 ankle-hop contacts · 24 throws · 108 direction changes · 440 m of sprints · 6 Olympic-lift sets · Plyo share 60% · Receive-Create 3: Repeat
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 90-110 min (an estimate, for information only)_
+_Average time: about 85-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 4 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Single-Leg Forward Hurdle Hops, Single-Leg Lateral Hurdle Hops · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine) - one leg at a time_
+_Superset to save time: Dumbbell Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Single-Leg Forward Hurdle Hops · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Leg Extension (machine) - one leg at a time, Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2117,24 +2216,21 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
-1. **Falling-Start Accelerations** — 2 × 5 x 20 m · max intent; stop when quality drops · full recovery between sets
-   - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
-2. **Single-Leg Lateral Hurdle Hops** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Lateral Hurdle Hops** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
    - per side = 1 set
    - Swap for: Single-Leg Forward Zig-Zag Jumps (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Plate Hops - Inner/Outer Leg (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Plate Hops (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Lateral%20Hurdle%20Hops) · Name to copy into YouTube: `Single-Leg Lateral Hurdle Hops`
-3. **Single-Leg Forward Hurdle Hops** — 3 × 4 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Single-Leg Forward Hurdle Hops** — 3 × 4 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
    - per side = 1 set
    - Swap for: Single-Leg Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Hurdle Hops (keeps the jump; loses the one-side-at-a-time work) / Bilateral Forward Hurdle Hops (keeps the jump; loses the one-side-at-a-time work) / Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) (keeps the jump; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Name to copy into YouTube: `Single-Leg Forward Hurdle Hops`
-4. **Ankle Hops (bilateral, in place)** — 2 × 16 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Ankle Hops (bilateral, in place)** — 2 × 16 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
-5. **L-Test / L-Drill (3-Cone)** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
+4. **L-Test / L-Drill (3-Cone)** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
    - 3 cuts a rep
    - Swap for: Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone)) · Name to copy into YouTube: `L-Test / L-Drill (3-Cone)`
@@ -2172,26 +2268,34 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Leg Extension (machine) - one leg at a time** — 2 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Dumbbell Curl** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+2. **Leg Extension (machine) - one leg at a time** — 2 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-2. **Standing DB Calf Raise (deficit optional)** — 2 × 12 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 2 × 12 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 12.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Tuesday · Practice / sport
+### Tuesday · Aerobic day
+_Optional: you can switch off this cardio session, or move it to another day._
+- **Green (B): moderate · bike** · 20-30 min · 3 min hard / 3 min easy, repeat
+  - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
-_Average time: about 75-90 min (an estimate, for information only)_
+_Average time: about 80-95 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + Knees to Chest (hanging) (about 2.5 min saved)_
 _Superset to save time: Bilateral Backward Ankle Hops + Medball Rotational Downward Slam (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press - palms facing each other (neutral grip) + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
-_Superset to save time: Nordic Hamstring Curl + Bent-Over DB Reverse Fly (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Lateral Shuffles, Medball Rotational Downward Slam, Bilateral Backward Ankle Hops · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl_
+_Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
+_Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Rotational Downward Slam, Bilateral Backward Ankle Hops, Single-Leg Broad Jump · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 1 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2209,23 +2313,23 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Knees%20to%20Chest%20(hanging)) · Name to copy into YouTube: `Knees to Chest (hanging)`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 2 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Falling-Start Accelerations** — 2 × 5 x 20 m · max intent; stop when quality drops · full recovery between sets
+   - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
+2. **Single-Leg Broad Jump** — 2 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: do the set in runs of 2-3 big jumps in a row (for 7 jumps: 3 + 2 + 2), resetting your arms between runs; full effort on every jump
    - per side = 1 set
    - Swap for: Single-Leg Box Jump (keeps the jump; loses the easier set-up - this one is harder) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the easier set-up - this one is harder) / Lateral Box Step-up Jump (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Name to copy into YouTube: `Single-Leg Broad Jump`
-2. **Bilateral Backward Ankle Hops** — 2 × 16 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Bilateral Backward Ankle Hops** — 2 × 16 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Backward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Backward Ankle Hops`
-3. **Medball Rotational Downward Slam** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
+4. **Medball Rotational Downward Slam** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 10 lb ball
    > No levels: just do them right (quality and intent over load).
    - Swap for: Medball Rotational Side-to-Side Floor Slams (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Chest Pass (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Scoop Toss (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Squat to Chest Pass (keeps the throw; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Rotational%20Downward%20Slam) · Name to copy into YouTube: `Medball Rotational Downward Slam`
-4. **Lateral Shuffles** — 3 × 12 cuts · max intent; stop when quality drops · full recovery between sets
-   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Munoz Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Krumrie Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
 
 **Strength**
 1. **Flat DB Bench Press - palms facing each other (neutral grip)** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
@@ -2252,29 +2356,31 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accessories**
-1. **Nordic Hamstring Curl** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Tate Press** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press) · Name to copy into YouTube: `Tate Press`
+2. **Nordic Hamstring Curl** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Swap for: Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses some difficulty - this one is easier) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses some difficulty - this one is easier) / Seated Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement) / Lying Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Name to copy into YouTube: `Nordic Hamstring Curl`
-2. **Bent-Over DB Reverse Fly** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Bent-Over DB Reverse Fly** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
-3. **Machine Calf Raise** — 2 × 12 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+4. **Machine Calf Raise** — 2 × 12 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 12.
    - Swap for: Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load)
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
 
-### Thursday · Practice / sport
-
 ### Friday · S3 - Olympic + strength
-_Average time: about 90-110 min (an estimate, for information only)_
+_Average time: about 100-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 4 min saved)_
 _Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2293,7 +2399,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 **Jumps, throws and speed**
 1. **Max-Velocity Sprint (Top Speed)** — 2 × 3 x 40 m · max intent; stop when quality drops · full recovery between sets
-   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Name to copy into YouTube: `Max-Velocity Sprint (Top Speed)`
 2. **Lateral Box Step-up Jump** — 3 × 6 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
@@ -2301,9 +2407,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Leg Broad Jump (keeps the jump; loses the same direction of movement) / Single-Leg Box Jump (keeps the jump; loses the same direction of movement) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
-3. **5-10-5 Pro-Agility Shuttle** — 3 × 6 Reps · max intent; stop when quality drops · full recovery between sets
+3. **Lateral Shuffles** — 3 × 12 cuts · max intent; stop when quality drops · full recovery between sets
+   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Four-Square Formation (4-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
+4. **5-10-5 Pro-Agility Shuttle** — 3 × 6 Reps · max intent; stop when quality drops · full recovery between sets
    - 2 cuts a rep
-   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Name to copy into YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Power / Olympic lifts**
@@ -2378,12 +2487,13 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Athletic work this week:** 110 jump contacts · 64 ankle-hop contacts · 24 throws · 108 direction changes · 440 m of sprints · 6 Olympic-lift sets · Plyo share 60% · Receive-Create 3: Repeat
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 90-110 min (an estimate, for information only)_
+_Average time: about 85-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 4 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Single-Leg Forward Hurdle Hops, Single-Leg Lateral Hurdle Hops · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine) - one leg at a time_
+_Superset to save time: Dumbbell Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Single-Leg Forward Hurdle Hops · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Leg Extension (machine) - one leg at a time, Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2401,24 +2511,21 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
-1. **Falling-Start Accelerations** — 2 × 5 x 20 m · max intent; stop when quality drops · full recovery between sets
-   - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
-2. **Single-Leg Lateral Hurdle Hops** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Single-Leg Lateral Hurdle Hops** — 3 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
    - per side = 1 set
    - Swap for: Single-Leg Forward Zig-Zag Jumps (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Plate Hops - Inner/Outer Leg (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Plate Hops (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Lateral%20Hurdle%20Hops) · Name to copy into YouTube: `Single-Leg Lateral Hurdle Hops`
-3. **Single-Leg Forward Hurdle Hops** — 3 × 4 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Single-Leg Forward Hurdle Hops** — 3 × 4 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
    - per side = 1 set
    - Swap for: Single-Leg Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Hurdle Hops (keeps the jump; loses the one-side-at-a-time work) / Bilateral Forward Hurdle Hops (keeps the jump; loses the one-side-at-a-time work) / Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) (keeps the jump; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Name to copy into YouTube: `Single-Leg Forward Hurdle Hops`
-4. **Ankle Hops (bilateral, in place)** — 2 × 16 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Ankle Hops (bilateral, in place)** — 2 × 16 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
-5. **L-Test / L-Drill (3-Cone)** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
+4. **L-Test / L-Drill (3-Cone)** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
    - 3 cuts a rep
    - Swap for: Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone)) · Name to copy into YouTube: `L-Test / L-Drill (3-Cone)`
@@ -2456,26 +2563,34 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Leg Extension (machine) - one leg at a time** — 2 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Dumbbell Curl** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
+2. **Leg Extension (machine) - one leg at a time** — 2 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-2. **Standing DB Calf Raise (deficit optional)** — 2 × 12 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 2 × 12 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 12.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Tuesday · Practice / sport
+### Tuesday · Aerobic day
+_Optional: you can switch off this cardio session, or move it to another day._
+- **Green (B): moderate · bike** · 20-30 min · 3 min hard / 3 min easy, repeat
+  - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
-_Average time: about 75-90 min (an estimate, for information only)_
+_Average time: about 80-95 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + Knees to Chest (hanging) (about 2.5 min saved)_
 _Superset to save time: Bilateral Backward Ankle Hops + Medball Rotational Downward Slam (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press - palms facing each other (neutral grip) + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
-_Superset to save time: Nordic Hamstring Curl + Bent-Over DB Reverse Fly (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Lateral Shuffles, Medball Rotational Downward Slam, Bilateral Backward Ankle Hops · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl_
+_Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
+_Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Rotational Downward Slam, Bilateral Backward Ankle Hops, Single-Leg Broad Jump · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 1 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2493,23 +2608,23 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Knees%20to%20Chest%20(hanging)) · Name to copy into YouTube: `Knees to Chest (hanging)`
 
 **Jumps, throws and speed**
-1. **Single-Leg Broad Jump** — 2 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Falling-Start Accelerations** — 2 × 5 x 20 m · max intent; stop when quality drops · full recovery between sets
+   - Swap for: Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
+2. **Single-Leg Broad Jump** — 2 × 5 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: do the set in runs of 2-3 big jumps in a row (for 7 jumps: 3 + 2 + 2), resetting your arms between runs; full effort on every jump
    - per side = 1 set
    - Swap for: Single-Leg Box Jump (keeps the jump; loses the easier set-up - this one is harder) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the easier set-up - this one is harder) / Lateral Box Step-up Jump (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Name to copy into YouTube: `Single-Leg Broad Jump`
-2. **Bilateral Backward Ankle Hops** — 2 × 16 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Bilateral Backward Ankle Hops** — 2 × 16 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
    - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Backward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Backward Ankle Hops`
-3. **Medball Rotational Downward Slam** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
+4. **Medball Rotational Downward Slam** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 10 lb ball
    > No levels: just do them right (quality and intent over load).
    - Swap for: Medball Rotational Side-to-Side Floor Slams (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Chest Pass (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Scoop Toss (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Squat to Chest Pass (keeps the throw; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Rotational%20Downward%20Slam) · Name to copy into YouTube: `Medball Rotational Downward Slam`
-4. **Lateral Shuffles** — 3 × 12 cuts · max intent; stop when quality drops · full recovery between sets
-   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Munoz Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Krumrie Formation (agility drill pattern) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
 
 **Strength**
 1. **Flat DB Bench Press - palms facing each other (neutral grip)** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
@@ -2536,29 +2651,31 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accessories**
-1. **Nordic Hamstring Curl** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Tate Press** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
+   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Tate%20Press) · Name to copy into YouTube: `Tate Press`
+2. **Nordic Hamstring Curl** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Swap for: Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses some difficulty - this one is easier) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses some difficulty - this one is easier) / Seated Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement) / Lying Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Name to copy into YouTube: `Nordic Hamstring Curl`
-2. **Bent-Over DB Reverse Fly** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Bent-Over DB Reverse Fly** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement) / Incline-Bench Prone DB T-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
-3. **Machine Calf Raise** — 2 × 12 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+4. **Machine Calf Raise** — 2 × 12 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 12.
    - Swap for: Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load)
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
 
-### Thursday · Practice / sport
-
 ### Friday · S3 - Olympic + strength
-_Average time: about 90-110 min (an estimate, for information only)_
+_Average time: about 100-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 4 min saved)_
 _Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2577,7 +2694,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 **Jumps, throws and speed**
 1. **Max-Velocity Sprint (Top Speed)** — 2 × 3 x 40 m · max intent; stop when quality drops · full recovery between sets
-   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
+   - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Name to copy into YouTube: `Max-Velocity Sprint (Top Speed)`
 2. **Lateral Box Step-up Jump** — 3 × 6 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
@@ -2585,9 +2702,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Leg Broad Jump (keeps the jump; loses the same direction of movement) / Single-Leg Box Jump (keeps the jump; loses the same direction of movement) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
-3. **5-10-5 Pro-Agility Shuttle** — 3 × 6 Reps · max intent; stop when quality drops · full recovery between sets
+3. **Lateral Shuffles** — 3 × 12 cuts · max intent; stop when quality drops · full recovery between sets
+   - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Four-Square Formation (4-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
+4. **5-10-5 Pro-Agility Shuttle** — 3 × 6 Reps · max intent; stop when quality drops · full recovery between sets
    - 2 cuts a rep
-   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
+   - Swap for: Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Name to copy into YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Power / Olympic lifts**
@@ -2659,7 +2779,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 
 ---
 
-_Model 1.3.0 · Engine 0.5.0_
+_Model 1.3.0 · Engine 0.6.0_
 
 Liability released: the terms and the release were accepted before this plan was built. Not medical advice. Use at your own risk. Train within your limits. Full terms: Disclaimer and Release of Liability. [Read the full disclaimer and release](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md)
 

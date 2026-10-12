@@ -8,7 +8,7 @@ _Tu plan Blaze Camp_
 - **Nivel:** Intermedio (L2): 2 años de entrenamiento constante
 - **Tipo de plan:** 8 semanas · Semana 1-8
 - **Fecha de inicio:** 12 oct 2026
-- **Días de entrenamiento por semana:** 3 · lunes, miércoles, viernes · unos 9-11 ejercicios por sesión (más el calentamiento y los 2 ejercicios de core)
+- **Días de entrenamiento por semana:** 3 · lunes, miércoles, viernes · unos 10-12 ejercicios por sesión (más el calentamiento y los 2 ejercicios de core)
 - Términos y liberación de responsabilidad aceptados antes de crear este plan: cliente, en español
 - Revisión de salud: respondida; nada indicó consultar primero a un médico. [PAR-Q+ oficial (en inglés)](https://eparmedx.com/)
 
@@ -17,6 +17,7 @@ _Tu plan Blaze Camp_
 - Tu temporada está cerca: las últimas 2 semanas de este plan son de pretemporada (más velocidad y potencia, menos series).
 - Se entrenan con el trabajo de tu deporte y los ejercicios compuestos (sin series extra): bíceps y tríceps.
 - Los ejercicios a dos piernas son cerca del 50 % de tus series de tren inferior (la guía de tu deporte es cerca del 20 %): los días A y B del entrenador mantienen una sentadilla y una bisagra a dos piernas. Si quieres más trabajo a una pierna, usa el cambio a una pierna de uno de ellos.
+- Este plan no cuenta tus 2 prácticas de equipo por semana: tómalas en cuenta y ajusta tú la carga (más ligero en un día de práctica dura, un poco más en una semana ligera).
 
 ## Instrucciones básicas
 > \*Siempre deja 1 repetición en reserva: nunca llegues al fallo, pero acércate lo más que puedas.
@@ -30,8 +31,6 @@ _Tu plan Blaze Camp_
 > \*\*\*\*\*Si tienes alguna pregunta, solo pregúntame - IG @BLAZECAMP o TWITTER @BLAZECAMP\_
 
 _Este plan empieza con 3 en reserva y termina con 1 en la última semana: el "1 en reserva" del coach es donde terminas, así que sigue el número de cada semana._
-
-_En este plan tus sesiones de cardio caen en días de pesas: haz cada una como una sesión aparte ese día, o pásala a cualquier día libre._
 
 Esfuerzo planeado en la escalera: semanas 1-3: deja 3 en reserva; semana 4: deja 2 en reserva; semana 5: deja 1-2 en reserva; semana 6: deja 1 en reserva. Semana 6: un intensificador en cada uno de estos días (lunes y miércoles): una serie MYO en el último ejercicio de músculo pequeño o de máquina del día.
 
@@ -56,7 +55,7 @@ Las superseries de core son opcionales en cualquier parte: puedes juntar un ejer
 - ¿Algo te duele? Primero usa uno de los cambios de la lista, luego quita entre un tercio y la mitad de las series de ese ejercicio y, si sigue, quítalo por el resto del bloque. Consulta a un profesional si el dolor sigue.
 - ¿La vida se interpuso por varias semanas (enfermedad, viajes, trabajo)? Detén el bloque, toma la semana suave recomendada si quieres y luego crea un bloque nuevo.
 - Tú (o tu entrenador) puedes desactivar estos bloques cualquier día: saltos, lanzamientos y velocidad; potencia / olímpicos; core (abdomen); cardio; accesorios. También puedes agregar o quitar ejercicios (por ejemplo, más trabajo de deltoides posterior). Usa las superseries sugeridas para ahorrar tiempo.
-- Desactivar el bloque de accesorios quita todas las series directas de Pantorrillas.
+- Desactivar el bloque de accesorios quita todas las series directas de Bíceps, Tríceps y Pantorrillas.
 - Tú (o tu entrenador) también puedes cambiar las series de cualquier ejercicio en cualquier día o semana: el plan es una plantilla.
 - El tiempo que aparece en cada día es un estimado promedio, solo como información: nada de este plan se recorta ni se cambia por tiempo. ¿Quieres un día más corto? Usa las superseries sugeridas o quita lo que el día marca como más fácil de quitar.
 
@@ -81,12 +80,12 @@ Tu plan sube como una escalera: pasos pequeños hasta la semana 3, un poco más 
 
 | Semana | Nivel | Esfuerzo | Series |
 |---|---|---|---|
-| 1 · prueba | 2.0 ▮▮ | 3 en reserva | 55 |
-| 2 | 3.3 ▮▮▮ | 3 en reserva | 57 |
-| 3 | 4.6 ▮▮▮▮▮ | 3 en reserva | 59 |
-| 4 | 6.7 ▮▮▮▮▮▮▮ | 2 en reserva | 63 |
-| 5 | 8.9 ▮▮▮▮▮▮▮▮▮ | 1-2 en reserva | 67 |
-| 6 · prueba | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 en reserva + intensificador | 72 |
+| 1 · prueba | 2.0 ▮▮ | 3 en reserva | 59 |
+| 2 | 3.3 ▮▮▮ | 3 en reserva | 61 |
+| 3 | 4.6 ▮▮▮▮▮ | 3 en reserva | 63 |
+| 4 | 6.7 ▮▮▮▮▮▮▮ | 2 en reserva | 67 |
+| 5 | 8.9 ▮▮▮▮▮▮▮▮▮ | 1-2 en reserva | 71 |
+| 6 · prueba | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 en reserva + intensificador | 76 |
 
 semanas 1-2: Adaptación (pasos pequeños) · semanas 3-4: Subiendo el ritmo · semanas 5-6: Semanas más duras
 
@@ -96,8 +95,8 @@ semanas 1-2: Adaptación (pasos pequeños) · semanas 3-4: Subiendo el ritmo · 
 
 | Semana | Nivel | Esfuerzo | Series |
 |---|---|---|---|
-| 7 | – | 2 en reserva | 40 |
-| 8 | – | 2 en reserva | 40 |
+| 7 | – | 2 en reserva | 44 |
+| 8 | – | 2 en reserva | 44 |
 
 semanas 7-8: Pretemporada: más velocidad y potencia
 
@@ -106,7 +105,7 @@ semanas 7-8: Pretemporada: más velocidad y potencia
 Después de este plan: 2 semanas más de pretemporada (con la puesta a punto) antes de que empiece tu temporada el 21 dic 2026
 
 **Pruebas:** Velocidad / agilidad, Saltos
-Días de prueba (anótalos en tu calendario; el plan no envía recordatorios): semana 1: lunes 12 oct 2026, miércoles 14 oct 2026; semana 6: lunes 16 nov 2026, miércoles 18 nov 2026
+Días de prueba (anótalos en tu calendario; el plan no envía recordatorios): semana 1: lunes 12 oct 2026, miércoles 14 oct 2026, viernes 16 oct 2026; semana 6: lunes 16 nov 2026, miércoles 18 nov 2026, viernes 20 nov 2026
 
 ## Series semanales por grupo muscular
 
@@ -119,19 +118,21 @@ _Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera =
 | Espalda | 10 | 11 | 14 |
 | Pecho | 10 | 10 | 11 |
 | Hombros | 10 | 10 | 12 |
-| Bíceps | - (3) | - (3) | - (4) |
-| Tríceps | - (3) | - (3) | - (3) |
+| Bíceps | - (5) | - (5) | - (6) |
+| Tríceps | - (5) | - (5) | - (5) |
 | Pantorrillas | 9 | 9 | 11 |
-| **Total** | **55** | **59** | **72** |
+| **Total** | **59** | **63** | **76** |
 
 ### Semana 1 de un vistazo
 
 | Día | Sesión | Tiempo | Grupos musculares (ejercicios) |
 |---|---|---|---|
-| Lunes | S1 - salto + rodilla + tirón | aprox. 85-100 min | Cuádriceps 3, Espalda 2, Pantorrillas 1 |
-| Miércoles | S2 - balón medicinal + cadera + empuje | aprox. 115-140 min | Cadera (glúteos + isquiotibiales) 3, Pecho 1, Hombros 3, Pantorrillas 1 |
-| Viernes | S3 - olímpicos + fuerza | aprox. 90-110 min | Cuádriceps 2, Cadera (glúteos + isquiotibiales) 1, Espalda 2, Pecho 1, Pantorrillas 1 |
-| Sábado | Día opcional | aprox. 30-35 min | – |
+| Lunes | S1 - salto + rodilla + tirón | aprox. 80-100 min | Cuádriceps 3, Espalda 2, Bíceps 1, Pantorrillas 1 |
+| Martes | Día aeróbico | aprox. 20 min | – |
+| Miércoles | S2 - balón medicinal + cadera + empuje | aprox. 115-140 min | Cadera (glúteos + isquiotibiales) 3, Pecho 1, Hombros 3, Tríceps 1, Pantorrillas 1 |
+| Jueves | Día aeróbico | aprox. 25-35 min | – |
+| Viernes | S3 - olímpicos + fuerza | aprox. 100-120 min | Cuádriceps 2, Cadera (glúteos + isquiotibiales) 1, Espalda 2, Pecho 1, Pantorrillas 1 |
+| Sábado | Día opcional | aprox. 25-30 min | – |
 
 ## Bloque de entrenamiento, semana a semana · Semana 1-6
 
@@ -148,10 +149,10 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Espalda | 10 10 11 12 13 14 | 14 |
 | Pecho | 10 10 10 10 11 11 | 11 |
 | Hombros | 10 10 10 10 12 12 | 11 |
-| Bíceps | 3 3 3 3 3 4 | sin ejercicio propio |
-| Tríceps | 3 3 3 3 3 3 | sin ejercicio propio |
+| Bíceps | 5 5 5 5 5 6 | sin ejercicio propio |
+| Tríceps | 5 5 5 5 5 5 | sin ejercicio propio |
 | Pantorrillas | 9 9 9 10 10 11 | 11 |
-| **Total** | 55 57 59 63 67 72 | 72 |
+| **Total** | 59 61 63 67 71 76 | 76 |
 
 ### Lunes · S1 - salto + rodilla + tirón
 
@@ -159,7 +160,6 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Plancha en antebrazos (Plank) | 2 2 2 2 2 2 | 20-40 s |
 | Plancha Copenhague (Copenhagen Plank) | 2 2 2 2 2 2 | 10-30 s |
-| Aceleraciones con salida en caída (Falling Starts) | – 2 2 2 2 – | 4 x 15 m |
 | Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) | 3 3 3 3 3 3 | 3 contactos por pierna |
 | Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) | 3 3 3 3 3 3 | 5 contactos |
 | Saltos de tobillo en el lugar (Ankle Hops) | 2 2 2 2 2 2 | 10 contactos |
@@ -169,6 +169,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Sentadilla frontal con barra (Front Squat) | 3 3 3 4 4 4 | 6 a 8 reps |
 | Dominadas (Pull-Up) | 2 2 3 3 3 3 | 6 a 8 reps |
 | Subida al cajón frontal y lateral (Step-Up) | 2 3 3 3 4 4 | 8 a 12 por lado |
+| Curl de bíceps con mancuernas (DB Curl) | 2 2 2 2 2 2 | 10 a 12 reps |
 | Extensión de piernas en máquina (Leg Extension) | 2 2 3 3 3 4 | 10 a 12 reps |
 | Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) | 3 3 3 4 4 4 | 12 a 15 reps |
 
@@ -178,14 +179,15 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Giro ruso con peso (Weighted Russian Twist) | 2 2 2 2 2 2 | 10 a 15 por lado |
 | Abdominal en V (V-Up) | 2 2 2 2 2 2 | 10 a 15 reps |
-| Salto largo a una pierna (Single-Leg Broad Jump) | – 2 2 2 2 – | 5 contactos por pierna |
+| Aceleraciones con salida en caída (Falling Starts) | – 2 2 2 2 – | 4 x 15 m |
+| Salto largo a una pierna (Single-Leg Broad Jump) | 2 2 2 2 2 2 | 5 contactos por pierna |
 | Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) | 2 2 2 2 2 2 | 9 contactos |
 | Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) | 2 2 2 2 2 2 | 5 por lado |
-| Desplazamientos laterales (Lateral Shuffles) | 3 3 3 3 3 3 | 8 cortes |
 | Press de banca con mancuernas (DB Bench Press) | 3 3 3 3 4 4 | 8 a 12 reps |
 | Hiperextensión a 45° (Back Extension) | 3 3 3 3 3 3 | 10 a 12 reps |
 | Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) | 3 3 3 3 3 3 | 8 a 12 por lado |
 | Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) | 2 2 2 3 3 3 | 8 a 12 por lado |
+| Press Tate (Tate Press) | 2 2 2 2 2 2 | 10 a 12 reps |
 | Curl nórdico (Nordic Curl) | 2 2 2 2 2 3 | 6 a 8 reps |
 | Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) | 3 3 3 3 4 4 | 15 a 20 reps |
 | Elevación de pantorrillas en máquina (Calf Raise) | 3 3 3 3 3 4 | 12 a 15 reps |
@@ -197,10 +199,11 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Plancha lateral (Side Plank) | 2 2 2 2 2 2 | 20-40 s |
 | Elevación de piernas acostado boca arriba (Lying Leg Raise) | 2 2 2 2 2 2 | 10 a 15 reps |
-| Sprint a velocidad máxima (Max-Velocity Sprint) | 2 2 2 2 2 2 | 3 x 30 m |
-| Salto lateral desde subida al cajón (Lateral Step-Up Jump) | 3 3 3 3 3 3 | 6 contactos por pierna |
+| Sprint a velocidad máxima (Max-Velocity Sprint) | 2 2 2 2 2 1 | 3 x 30 m |
+| Salto lateral desde subida al cajón (Lateral Step-Up Jump) | – 3 3 3 3 – | 6 contactos por pierna |
+| Desplazamientos laterales (Lateral Shuffles) | 3 3 3 3 3 3 | 8 cortes |
 | Agilidad 5-10-5 (Pro Agility) | 3 3 3 3 3 3 | 5 reps |
-| Arranque con mancuerna a una mano (Single-Arm DB Snatch) | 2 2 2 2 3 3 | 8/8 |
+| Arranque con mancuerna a una mano (Single-Arm DB Snatch) | 2 2 2 2 3 2 | 8/8 |
 | Press de banca con barra (Bench Press) | 4 4 4 4 4 4 | 6 a 8 reps |
 | Peso muerto con barra hexagonal (Trap Bar Deadlift) | 2 3 3 3 3 4 | 6 a 8 reps |
 | Remo a un brazo con mancuerna (1-Arm DB Row) | 3 3 3 3 3 4 | 8 a 12 por lado |
@@ -228,10 +231,10 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Espalda | 8 8 |
 | Pecho | 6 6 |
 | Hombros | 5 5 |
-| Bíceps | 2 2 |
-| Tríceps | 2 2 |
+| Bíceps | 4 4 |
+| Tríceps | 4 4 |
 | Pantorrillas | 6 6 |
-| **Total** | 40 40 |
+| **Total** | 44 44 |
 
 ### Lunes · S1 - salto + rodilla + tirón
 
@@ -239,7 +242,6 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Plancha en antebrazos (Plank) | 2 2 | 20-40 s |
 | Plancha Copenhague (Copenhagen Plank) | 2 2 | 10-30 s |
-| Aceleraciones con salida en caída (Falling Starts) | 2 2 | 5 x 20 m |
 | Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) | 3 3 | 5 contactos por pierna |
 | Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) | 3 3 | 4 contactos por pierna |
 | Saltos de tobillo en el lugar (Ankle Hops) | 2 2 | 16 contactos |
@@ -249,8 +251,9 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Sentadilla frontal con barra (Front Squat) | 2 2 | 6 a 8 reps |
 | Dominadas (Pull-Up) | 2 2 | 6 a 8 reps |
 | Subida al cajón frontal y lateral (Step-Up) | 2 2 | 8 a 10 por lado |
+| Curl de bíceps con mancuernas (DB Curl) | 2 2 | 10 a 15 reps |
 | Extensión de piernas en máquina (Leg Extension) - una pierna a la vez | 2 2 | 8 a 12 reps |
-| Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) | 2 2 | 12 a 15 reps |
+| Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba | 2 2 | 12 a 15 reps |
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
 
@@ -258,14 +261,15 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Giro ruso con peso (Weighted Russian Twist) | 2 2 | 10 a 15 por lado |
 | Rodillas al pecho colgado (Hanging Knees to Chest) | 2 2 | 10 a 15 reps |
+| Aceleraciones con salida en caída (Falling Starts) | 2 2 | 5 x 20 m |
 | Salto largo a una pierna (Single-Leg Broad Jump) | 2 2 | 5 contactos por pierna |
 | Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) | 2 2 | 16 contactos |
 | Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) | 2 2 | 6 por lado |
-| Desplazamientos laterales (Lateral Shuffles) | 3 3 | 12 cortes |
 | Press de banca con mancuernas (DB Bench Press) - palmas enfrentadas (agarre neutro) | 2 2 | 6 a 8 reps |
 | Hiperextensión a 45° (Back Extension) | 2 2 | 10 a 12 reps |
 | Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) | 2 2 | 8 a 10 por lado |
 | Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) | 2 2 | 8 a 10 por lado |
+| Press Tate (Tate Press) | 2 2 | 10 a 15 reps |
 | Curl nórdico (Nordic Curl) | 2 2 | 6 a 8 reps |
 | Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) | 2 2 | 15 a 20 reps |
 | Elevación de pantorrillas en máquina (Calf Raise) | 2 2 | 12 a 15 reps |
@@ -278,6 +282,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Abdominal inverso (Reverse Crunch) | 2 2 | 10 a 15 reps |
 | Sprint a velocidad máxima (Max-Velocity Sprint) | 2 2 | 3 x 40 m |
 | Salto lateral desde subida al cajón (Lateral Step-Up Jump) | 3 3 | 6 contactos por pierna |
+| Desplazamientos laterales (Lateral Shuffles) | 3 3 | 12 cortes |
 | Agilidad 5-10-5 (Pro Agility) | 3 3 | 6 reps |
 | Arranque con mancuerna a una mano (Single-Arm DB Snatch) | 3 3 | 4/4 |
 | Press de banca con barra (Bench Press) | 2 2 | 6 a 8 reps |
@@ -300,15 +305,16 @@ _Nivel de la semana: 2 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Prueba inicial esta semana (antes de cargar)** (Velocidad / agilidad, Saltos)
 
-**Trabajo atlético esta semana:** 69 contactos de salto · 38 contactos de saltos de tobillo · 20 lanzamientos · 54 cambios de dirección · 180 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 56% · Recibir-Crear 2: Aterrizar y salir
+**Trabajo atlético esta semana:** 53 contactos de salto · 38 contactos de saltos de tobillo · 20 lanzamientos · 54 cambios de dirección · 180 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 64% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
-_Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension)_
+_Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -326,10 +332,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Prueba**
-1. **Prueba: sprint de 10-30 m** — máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Prueba: 2-3 carreras cronometradas con descanso completo, anota la mejor.
-   - Prueba inicial esta semana: marca tus números de partida.
-2. **Prueba: Agilidad 5-10-5 (Pro Agility)** — máxima intención; detente cuando baje la calidad · recuperación completa entre series
+1. **Prueba: Agilidad 5-10-5 (Pro Agility)** — máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Prueba: 2-3 carreras cronometradas con descanso completo, anota la mejor.
    - Prueba inicial esta semana: marca tus números de partida.
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle)
@@ -346,7 +349,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Nombre para copiar en YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
 3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 10 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
 
 **Potencia / levantamientos olímpicos**
@@ -384,16 +387,23 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
-1. **Extensión de piernas en máquina (Leg Extension)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+1. **Curl de bíceps con mancuernas (DB Curl)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Curl araña con el pecho en banco inclinado (Spider Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl inclinado con mancuernas, meñique arriba (Incline DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
+2. **Extensión de piernas en máquina (Leg Extension)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
-2. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) (mantiene el trabajo de pantorrillas; pierde el movimiento libre de cada mano) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Martes · Práctica / deporte
+### Martes · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 20 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
 _Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
@@ -402,9 +412,9 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + A
 _Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Curl nórdico (Nordic Curl) + Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (ahorras unos 3.5 min)_
-_Superserie para ahorrar tiempo: Elevación de pantorrillas en máquina (Calf Raise) + Elevación lateral sentado con mancuernas (Seated Lateral Raise) (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Desplazamientos laterales (Lateral Shuffles), Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · ejercicios extra: Elevación lateral sentado con mancuernas (Seated Lateral Raise)_
+_Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
+_Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl), Press Tate (Tate Press) · 1 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -422,23 +432,25 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up) · Nombre para copiar en YouTube: `V-Up`
 
 **Prueba**
-1. **Prueba: salto con contramovimiento** — máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Prueba: 3 intentos, anota el mejor.
+1. **Prueba: sprint de 10-30 m** — máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Prueba: 2-3 carreras cronometradas con descanso completo, anota la mejor.
    - Prueba inicial esta semana: marca tus números de partida.
 
 **Saltos, lanzamientos y velocidad**
-1. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 9 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
+   - por lado = 1 serie
+   - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
+2. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 9 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Forward/Backward Ankle Hops`
-2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+3. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8-10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
    - Cambiar por: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
-3. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 8 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Muñoz, patrón de agilidad (Munoz Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Krumrie, patrón de agilidad (Krumrie Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
@@ -467,20 +479,24 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Nombre para copiar en YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 2 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+1. **Press Tate (Tate Press)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps sobre la cabeza en polea (Overhead Cable Extension) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea con barra recta, agarre supino (Reverse-Grip Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tate%20Press) · Nombre para copiar en YouTube: `Tate Press`
+2. **Curl nórdico (Nordic Curl)** — 2 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 8 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral sentado (Seated Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original) / Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Nombre para copiar en YouTube: `Nordic Hamstring Curl`
-2. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 3 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+3. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 3 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-3. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+4. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (mantiene el trabajo de pantorrillas; pierde la versión más fácil: este es más difícil) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde la carga máxima)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
-4. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+5. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Ejercicio extra para completar tus series semanales
    - Cambiar por: Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con mancuernas (DB Upright Row) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con barra (Upright Row) (mantiene el trabajo de deltoides lateral; pierde el movimiento libre de cada mano) / Elevaciones laterales con mancuernas (Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición)
@@ -490,15 +506,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Naranja (C): largo / suave · carrera** — 30 min · 11 min corriendo / 2 min caminando, repite
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
-### Jueves · Práctica / deporte
+### Jueves · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Naranja (C): largo / suave · carrera** · 30 min · 11 min corriendo / 2 min caminando, repite
+  - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 90-110 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 100-120 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -515,19 +534,21 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal inverso (Reverse Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado (Hanging Knees to Chest) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Nombre para copiar en YouTube: `Leg Raise (lying / supine)`
 
+**Prueba**
+1. **Prueba: salto con contramovimiento** — máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Prueba: 3 intentos, anota el mejor.
+   - Prueba inicial esta semana: marca tus números de partida.
+
 **Saltos, lanzamientos y velocidad**
 1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 3 x 30 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Nombre para copiar en YouTube: `Max-Velocity Sprint (Top Speed)`
-2. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 3 × 6 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - cajón bajo (15-30 cm)
-   - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - por lado = 1 serie
-   - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
+2. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 8 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación de cuatro cuadros (4-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
 3. **Agilidad 5-10-5 (Pro Agility)** — 3 × 5 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 2 cambios de dirección por repetición
-   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Nombre para copiar en YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Potencia / levantamientos olímpicos**
@@ -585,7 +606,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise) · Nombre para copiar en YouTube: `Barbell Calf Raise`
 
 ### Sábado · Día opcional
-_Tiempo promedio: aprox. 30-35 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 25-30 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
@@ -597,8 +618,8 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
 
 **Aeróbico**
-1. **Verde (B): moderado · bicicleta (bike)** — 20 min · 3 min fuerte / 3 min suave, repite
-   - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
+1. **Azul (A): corto / alta intensidad · carrera** — 15 min · 20 s corriendo / 40 s caminando, repite
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
 
 ## Semana 2 — Adaptación (pasos pequeños)
@@ -612,12 +633,13 @@ _Nivel de la semana: 3.3 de 11 (2 = el inicio, 11 = tu semana más dura)_
 **Trabajo atlético esta semana:** 95 contactos de salto · 46 contactos de saltos de tobillo · 20 lanzamientos · 87 cambios de dirección · 330 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 53% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
-_Tiempo promedio: aprox. 90-110 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops), Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension)_
+_Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -635,23 +657,20 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
-1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 4 x 15 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
-2. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 3 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 3 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - por lado = 1 serie
    - Cambiar por: Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Forward Hurdle Hops`
-3. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 7 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 7 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Nombre para copiar en YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
-4. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 12 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 12 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
-5. **Prueba L de tres conos (L-Drill)** — 3 × 3 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+4. **Prueba L de tres conos (L-Drill)** — 3 × 3 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 3 cambios de dirección por repetición
    - Cambiar por: Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone)) · Nombre para copiar en YouTube: `L-Test / L-Drill (3-Cone)`
@@ -688,27 +707,34 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
-1. **Extensión de piernas en máquina (Leg Extension)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+1. **Curl de bíceps con mancuernas (DB Curl)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Curl araña con el pecho en banco inclinado (Spider Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl inclinado con mancuernas, meñique arriba (Incline DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
+2. **Extensión de piernas en máquina (Leg Extension)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
-2. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) (mantiene el trabajo de pantorrillas; pierde el movimiento libre de cada mano) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Martes · Práctica / deporte
+### Martes · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 22 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
-_Tiempo promedio: aprox. 110-135 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Curl nórdico (Nordic Curl) + Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (ahorras unos 3.5 min)_
-_Superserie para ahorrar tiempo: Elevación de pantorrillas en máquina (Calf Raise) + Elevación lateral sentado con mancuernas (Seated Lateral Raise) (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Desplazamientos laterales (Lateral Shuffles), Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 1 más_
+_Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
+_Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 2 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -726,23 +752,23 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up) · Nombre para copiar en YouTube: `V-Up`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 4 x 15 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
+2. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
    - por lado = 1 serie
    - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
-2. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 11 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+3. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 11 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Forward/Backward Ankle Hops`
-3. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+4. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8-10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
    - Cambiar por: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
-4. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 10 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Muñoz, patrón de agilidad (Munoz Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Krumrie, patrón de agilidad (Krumrie Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
@@ -767,20 +793,24 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Nombre para copiar en YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 2 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+1. **Press Tate (Tate Press)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps sobre la cabeza en polea (Overhead Cable Extension) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea con barra recta, agarre supino (Reverse-Grip Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tate%20Press) · Nombre para copiar en YouTube: `Tate Press`
+2. **Curl nórdico (Nordic Curl)** — 2 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 8 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral sentado (Seated Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original) / Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Nombre para copiar en YouTube: `Nordic Hamstring Curl`
-2. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 3 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+3. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 3 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-3. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+4. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (mantiene el trabajo de pantorrillas; pierde la versión más fácil: este es más difícil) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde la carga máxima)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
-4. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+5. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Ejercicio extra para completar tus series semanales
    - Cambiar por: Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con mancuernas (DB Upright Row) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con barra (Upright Row) (mantiene el trabajo de deltoides lateral; pierde el movimiento libre de cada mano) / Elevaciones laterales con mancuernas (Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición)
@@ -790,15 +820,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Naranja (C): largo / suave · carrera** — 32 min · 11 min corriendo / 2 min caminando, repite
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
-### Jueves · Práctica / deporte
+### Jueves · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Naranja (C): largo / suave · carrera** · 32 min · 11 min corriendo / 2 min caminando, repite
+  - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 95-115 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 100-125 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -817,7 +850,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 **Saltos, lanzamientos y velocidad**
 1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 3 x 35 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Nombre para copiar en YouTube: `Max-Velocity Sprint (Top Speed)`
 2. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 3 × 6 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
@@ -825,9 +858,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - por lado = 1 serie
    - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
-3. **Agilidad 5-10-5 (Pro Agility)** — 3 × 5 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+3. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 10 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación de cuatro cuadros (4-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
+4. **Agilidad 5-10-5 (Pro Agility)** — 3 × 5 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 2 cambios de dirección por repetición
-   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Nombre para copiar en YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Potencia / levantamientos olímpicos**
@@ -879,7 +915,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise) · Nombre para copiar en YouTube: `Barbell Calf Raise`
 
 ### Sábado · Día opcional
-_Tiempo promedio: aprox. 30-35 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 25-30 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
@@ -891,8 +927,8 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
 
 **Aeróbico**
-1. **Verde (B): moderado · bicicleta (bike)** — 22 min · 3 min fuerte / 3 min suave, repite
-   - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
+1. **Azul (A): corto / alta intensidad · carrera** — 16 min · 20 s corriendo / 40 s caminando, repite
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
 
 ## Semana 3 — Subiendo el ritmo
@@ -906,12 +942,13 @@ _Nivel de la semana: 4.6 de 11 (2 = el inicio, 11 = tu semana más dura)_
 **Trabajo atlético esta semana:** 104 contactos de salto · 58 contactos de saltos de tobillo · 24 lanzamientos · 96 cambios de dirección · 390 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 57% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
-_Tiempo promedio: aprox. 95-115 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 85-105 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 5.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops), Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension)_
+_Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -929,23 +966,20 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
-1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 6 x 15 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
-2. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 4 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 4 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - por lado = 1 serie
    - Cambiar por: Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Forward Hurdle Hops`
-3. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Nombre para copiar en YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
-4. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 15 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 15 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
-5. **Prueba L de tres conos (L-Drill)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+4. **Prueba L de tres conos (L-Drill)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 3 cambios de dirección por repetición
    - Cambiar por: Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone)) · Nombre para copiar en YouTube: `L-Test / L-Drill (3-Cone)`
@@ -982,27 +1016,34 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
-1. **Extensión de piernas en máquina (Leg Extension)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+1. **Curl de bíceps con mancuernas (DB Curl)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Curl araña con el pecho en banco inclinado (Spider Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl inclinado con mancuernas, meñique arriba (Incline DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
+2. **Extensión de piernas en máquina (Leg Extension)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
-2. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) (mantiene el trabajo de pantorrillas; pierde el movimiento libre de cada mano) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Martes · Práctica / deporte
+### Martes · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 24 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
-_Tiempo promedio: aprox. 110-135 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Curl nórdico (Nordic Curl) + Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (ahorras unos 3.5 min)_
-_Superserie para ahorrar tiempo: Elevación de pantorrillas en máquina (Calf Raise) + Elevación lateral sentado con mancuernas (Seated Lateral Raise) (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Desplazamientos laterales (Lateral Shuffles), Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 1 más_
+_Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
+_Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 2 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1020,23 +1061,23 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up) · Nombre para copiar en YouTube: `V-Up`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 6 x 15 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
+2. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
    - por lado = 1 serie
    - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
-2. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 14 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+3. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 14 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Forward/Backward Ankle Hops`
-3. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+4. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8-10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
    - Cambiar por: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
-4. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 10 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Muñoz, patrón de agilidad (Munoz Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Krumrie, patrón de agilidad (Krumrie Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
@@ -1061,20 +1102,24 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Nombre para copiar en YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 2 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+1. **Press Tate (Tate Press)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps sobre la cabeza en polea (Overhead Cable Extension) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea con barra recta, agarre supino (Reverse-Grip Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tate%20Press) · Nombre para copiar en YouTube: `Tate Press`
+2. **Curl nórdico (Nordic Curl)** — 2 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 8 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral sentado (Seated Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original) / Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Nombre para copiar en YouTube: `Nordic Hamstring Curl`
-2. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 3 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+3. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 3 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-3. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+4. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (mantiene el trabajo de pantorrillas; pierde la versión más fácil: este es más difícil) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde la carga máxima)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
-4. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+5. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Ejercicio extra para completar tus series semanales
    - Cambiar por: Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con mancuernas (DB Upright Row) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con barra (Upright Row) (mantiene el trabajo de deltoides lateral; pierde el movimiento libre de cada mano) / Elevaciones laterales con mancuernas (Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1084,15 +1129,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Naranja (C): largo / suave · carrera** — 34 min · 11 min corriendo / 2 min caminando, repite
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
-### Jueves · Práctica / deporte
+### Jueves · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Naranja (C): largo / suave · carrera** · 34 min · 11 min corriendo / 2 min caminando, repite
+  - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 95-115 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 100-125 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1111,7 +1159,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 **Saltos, lanzamientos y velocidad**
 1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 3 x 35 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Nombre para copiar en YouTube: `Max-Velocity Sprint (Top Speed)`
 2. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 3 × 6 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
@@ -1119,9 +1167,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - por lado = 1 serie
    - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
-3. **Agilidad 5-10-5 (Pro Agility)** — 3 × 5 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+3. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 10 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación de cuatro cuadros (4-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
+4. **Agilidad 5-10-5 (Pro Agility)** — 3 × 5 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 2 cambios de dirección por repetición
-   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Nombre para copiar en YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Potencia / levantamientos olímpicos**
@@ -1173,7 +1224,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise) · Nombre para copiar en YouTube: `Barbell Calf Raise`
 
 ### Sábado · Día opcional
-_Tiempo promedio: aprox. 30-35 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 25-30 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
@@ -1185,8 +1236,8 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
 
 **Aeróbico**
-1. **Verde (B): moderado · bicicleta (bike)** — 24 min · 3 min fuerte / 3 min suave, repite
-   - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
+1. **Azul (A): corto / alta intensidad · carrera** — 17 min · 20 s corriendo / 40 s caminando, repite
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
 
 ## Semana 4 — Subiendo el ritmo
@@ -1202,12 +1253,13 @@ _Nivel de la semana: 6.7 de 11 (2 = el inicio, 11 = tu semana más dura)_
 **Trabajo atlético esta semana:** 110 contactos de salto · 70 contactos de saltos de tobillo · 28 lanzamientos · 102 cambios de dirección · 400 m de sprints · 5 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
-_Tiempo promedio: aprox. 110-135 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 105-130 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 5.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops), Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension)_
+_Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1225,23 +1277,20 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
-1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 4 x 20 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
-2. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - por lado = 1 serie
    - Cambiar por: Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Forward Hurdle Hops`
-3. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Nombre para copiar en YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
-4. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 18 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 18 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
-5. **Prueba L de tres conos (L-Drill)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+4. **Prueba L de tres conos (L-Drill)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 3 cambios de dirección por repetición
    - Cambiar por: Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone)) · Nombre para copiar en YouTube: `L-Test / L-Drill (3-Cone)`
@@ -1278,27 +1327,34 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
-1. **Extensión de piernas en máquina (Leg Extension)** — 3 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+1. **Curl de bíceps con mancuernas (DB Curl)** — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Curl araña con el pecho en banco inclinado (Spider Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl inclinado con mancuernas, meñique arriba (Incline DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
+2. **Extensión de piernas en máquina (Leg Extension)** — 3 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
-2. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 4 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 4 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) (mantiene el trabajo de pantorrillas; pierde el movimiento libre de cada mano) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Martes · Práctica / deporte
+### Martes · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 26 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
-_Tiempo promedio: aprox. 120-150 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 125-155 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 5.5 min)_
-_Superserie para ahorrar tiempo: Curl nórdico (Nordic Curl) + Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (ahorras unos 3.5 min)_
-_Superserie para ahorrar tiempo: Elevación de pantorrillas en máquina (Calf Raise) + Elevación lateral sentado con mancuernas (Seated Lateral Raise) (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Desplazamientos laterales (Lateral Shuffles), Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 1 más_
+_Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
+_Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 2 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1316,23 +1372,23 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up) · Nombre para copiar en YouTube: `V-Up`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 4 x 20 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
+2. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
    - por lado = 1 serie
    - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
-2. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 17 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+3. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 17 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Forward/Backward Ankle Hops`
-3. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 7 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+4. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 7 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8-10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
    - Cambiar por: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
-4. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 10 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Muñoz, patrón de agilidad (Munoz Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Krumrie, patrón de agilidad (Krumrie Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 2-3 min de descanso
@@ -1359,20 +1415,24 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Nombre para copiar en YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+1. **Press Tate (Tate Press)** — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps sobre la cabeza en polea (Overhead Cable Extension) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea con barra recta, agarre supino (Reverse-Grip Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tate%20Press) · Nombre para copiar en YouTube: `Tate Press`
+2. **Curl nórdico (Nordic Curl)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 8 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral sentado (Seated Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original) / Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Nombre para copiar en YouTube: `Nordic Hamstring Curl`
-2. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 3 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+3. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 3 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-3. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+4. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (mantiene el trabajo de pantorrillas; pierde la versión más fácil: este es más difícil) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde la carga máxima)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
-4. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+5. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Ejercicio extra para completar tus series semanales
    - Cambiar por: Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con mancuernas (DB Upright Row) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con barra (Upright Row) (mantiene el trabajo de deltoides lateral; pierde el movimiento libre de cada mano) / Elevaciones laterales con mancuernas (Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1382,15 +1442,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Naranja (C): largo / suave · carrera** — 36 min · ritmo constante: todavía puedes hablar
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
-### Jueves · Práctica / deporte
+### Jueves · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Naranja (C): largo / suave · carrera** · 36 min · ritmo constante: todavía puedes hablar
+  - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 105-125 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 110-135 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1409,7 +1472,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 **Saltos, lanzamientos y velocidad**
 1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 3 x 40 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Nombre para copiar en YouTube: `Max-Velocity Sprint (Top Speed)`
 2. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 3 × 6 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
@@ -1417,9 +1480,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - por lado = 1 serie
    - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
-3. **Agilidad 5-10-5 (Pro Agility)** — 3 × 6 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+3. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 10 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación de cuatro cuadros (4-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
+4. **Agilidad 5-10-5 (Pro Agility)** — 3 × 6 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 2 cambios de dirección por repetición
-   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Nombre para copiar en YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Potencia / levantamientos olímpicos**
@@ -1472,7 +1538,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise) · Nombre para copiar en YouTube: `Barbell Calf Raise`
 
 ### Sábado · Día opcional
-_Tiempo promedio: aprox. 30-35 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 25-30 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
@@ -1484,8 +1550,8 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
 
 **Aeróbico**
-1. **Verde (B): moderado · bicicleta (bike)** — 26 min · 3 min fuerte / 3 min suave, repite
-   - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
+1. **Azul (A): corto / alta intensidad · carrera** — 18 min · 30 s corriendo / 30 s caminando, repite
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
 
 ## Semana 5 — Semanas más duras
@@ -1501,12 +1567,13 @@ _Nivel de la semana: 8.9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 **Trabajo atlético esta semana:** 110 contactos de salto · 78 contactos de saltos de tobillo · 32 lanzamientos · 108 cambios de dirección · 440 m de sprints · 6 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
-_Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 110-135 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 7 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 5.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops), Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension)_
+_Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1524,23 +1591,20 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
-1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 5 x 20 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
-2. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - por lado = 1 serie
    - Cambiar por: Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Forward Hurdle Hops`
-3. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Nombre para copiar en YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
-4. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 18 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 18 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
-5. **Prueba L de tres conos (L-Drill)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+4. **Prueba L de tres conos (L-Drill)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 3 cambios de dirección por repetición
    - Cambiar por: Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone)) · Nombre para copiar en YouTube: `L-Test / L-Drill (3-Cone)`
@@ -1577,27 +1641,34 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
-1. **Extensión de piernas en máquina (Leg Extension)** — 3 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+1. **Curl de bíceps con mancuernas (DB Curl)** — 2 × 10 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+   - Progresión: cuando llegues a 15 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Curl araña con el pecho en banco inclinado (Spider Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl inclinado con mancuernas, meñique arriba (Incline DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
+2. **Extensión de piernas en máquina (Leg Extension)** — 3 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
-2. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 4 × 12 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 4 × 12 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) (mantiene el trabajo de pantorrillas; pierde el movimiento libre de cada mano) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Martes · Práctica / deporte
+### Martes · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 28 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
-_Tiempo promedio: aprox. 125-155 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 130-160 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 5.5 min)_
-_Superserie para ahorrar tiempo: Curl nórdico (Nordic Curl) + Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (ahorras unos 3.5 min)_
-_Superserie para ahorrar tiempo: Elevación de pantorrillas en máquina (Calf Raise) + Elevación lateral sentado con mancuernas (Seated Lateral Raise) (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Desplazamientos laterales (Lateral Shuffles), Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 1 más_
+_Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
+_Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 2 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1615,23 +1686,23 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up) · Nombre para copiar en YouTube: `V-Up`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 5 x 20 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
+2. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
    - por lado = 1 serie
    - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
-2. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 21 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+3. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 21 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Forward/Backward Ankle Hops`
-3. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 8 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+4. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 8 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8-10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
    - Cambiar por: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
-4. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 12 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Muñoz, patrón de agilidad (Munoz Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Krumrie, patrón de agilidad (Krumrie Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 4 × 6 a 8 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 2-3 min de descanso
@@ -1658,20 +1729,24 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Nombre para copiar en YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 2 × 6 a 8 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+1. **Press Tate (Tate Press)** — 2 × 10 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+   - Progresión: cuando llegues a 15 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps sobre la cabeza en polea (Overhead Cable Extension) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea con barra recta, agarre supino (Reverse-Grip Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tate%20Press) · Nombre para copiar en YouTube: `Tate Press`
+2. **Curl nórdico (Nordic Curl)** — 2 × 6 a 8 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 8 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral sentado (Seated Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original) / Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Nombre para copiar en YouTube: `Nordic Hamstring Curl`
-2. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+3. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-3. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 12 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+4. **Elevación de pantorrillas en máquina (Calf Raise)** — 3 × 12 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (mantiene el trabajo de pantorrillas; pierde la versión más fácil: este es más difícil) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde la carga máxima)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
-4. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+5. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Ejercicio extra para completar tus series semanales
    - Cambiar por: Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con mancuernas (DB Upright Row) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con barra (Upright Row) (mantiene el trabajo de deltoides lateral; pierde el movimiento libre de cada mano) / Elevaciones laterales con mancuernas (Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1681,15 +1756,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Naranja (C): largo / suave · carrera** — 38 min · ritmo constante: todavía puedes hablar
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
-### Jueves · Práctica / deporte
+### Jueves · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Naranja (C): largo / suave · carrera** · 38 min · ritmo constante: todavía puedes hablar
+  - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 105-130 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1708,7 +1786,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 **Saltos, lanzamientos y velocidad**
 1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 3 x 40 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Nombre para copiar en YouTube: `Max-Velocity Sprint (Top Speed)`
 2. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 3 × 6 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
@@ -1716,9 +1794,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - por lado = 1 serie
    - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
-3. **Agilidad 5-10-5 (Pro Agility)** — 3 × 6 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+3. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 12 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación de cuatro cuadros (4-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
+4. **Agilidad 5-10-5 (Pro Agility)** — 3 × 6 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 2 cambios de dirección por repetición
-   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Nombre para copiar en YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Potencia / levantamientos olímpicos**
@@ -1771,7 +1852,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise) · Nombre para copiar en YouTube: `Barbell Calf Raise`
 
 ### Sábado · Día opcional
-_Tiempo promedio: aprox. 30-35 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 25-30 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
@@ -1783,8 +1864,8 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
 
 **Aeróbico**
-1. **Verde (B): moderado · bicicleta (bike)** — 28 min · 3 min fuerte / 3 min suave, repite
-   - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
+1. **Azul (A): corto / alta intensidad · carrera** — 19 min · 30 s corriendo / 30 s caminando, repite
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
 
 ## Semana 6 — Semanas más duras
@@ -1802,15 +1883,16 @@ _Última semana: un intensificador en cada uno de estos días (lunes y miércole
 - +1 serie en Remo a un brazo con mancuerna (1-Arm DB Row) (viernes): 3 → 4 series
 - +1 serie en Elevación de pantorrillas en máquina (Calf Raise) (miércoles): 3 → 4 series
 
-**Trabajo atlético esta semana:** 69 contactos de salto · 38 contactos de saltos de tobillo · 20 lanzamientos · 60 cambios de dirección · 240 m de sprints · 5 series de levantamiento olímpico · Proporción pliométrica 56% · Recibir-Crear 2: Aterrizar y salir
+**Trabajo atlético esta semana:** 53 contactos de salto · 38 contactos de saltos de tobillo · 20 lanzamientos · 51 cambios de dirección · 120 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 64% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
-_Tiempo promedio: aprox. 110-135 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 110-130 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 7 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 5.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension)_
+_Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1828,9 +1910,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Prueba**
-1. **Prueba: sprint de 10-30 m** — máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Prueba: 2-3 carreras cronometradas con descanso completo, anota la mejor.
-2. **Prueba: Agilidad 5-10-5 (Pro Agility)** — máxima intención; detente cuando baje la calidad · recuperación completa entre series
+1. **Prueba: Agilidad 5-10-5 (Pro Agility)** — máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Prueba: 2-3 carreras cronometradas con descanso completo, anota la mejor.
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle)
 
@@ -1846,7 +1926,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Nombre para copiar en YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
 3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 10 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
 
 **Potencia / levantamientos olímpicos**
@@ -1881,16 +1961,23 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
-1. **Extensión de piernas en máquina (Leg Extension)** — 4 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · Serie MYO en la última serie: unas 15 repeticiones, luego 5 miniseries de 5 repeticiones con una pausa corta (unas 5 respiraciones) entre ellas, mismo peso · 60-90 s de descanso
+1. **Curl de bíceps con mancuernas (DB Curl)** — 2 × 10 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
+   - Progresión: cuando llegues a 15 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Curl araña con el pecho en banco inclinado (Spider Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl inclinado con mancuernas, meñique arriba (Incline DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
+2. **Extensión de piernas en máquina (Leg Extension)** — 4 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · Serie MYO en la última serie: unas 15 repeticiones, luego 5 miniseries de 5 repeticiones con una pausa corta (unas 5 respiraciones) entre ellas, mismo peso · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
-2. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 4 × 12 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
+3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 4 × 12 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) (mantiene el trabajo de pantorrillas; pierde el movimiento libre de cada mano) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Martes · Práctica / deporte
+### Martes · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 30 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
 _Tiempo promedio: aprox. 130-160 min (un estimado, solo como información)_
@@ -1899,8 +1986,9 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + A
 _Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 5.5 min)_
-_Superserie para ahorrar tiempo: Curl nórdico (Nordic Curl) + Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Desplazamientos laterales (Lateral Shuffles), Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · ejercicios extra: Elevación lateral sentado con mancuernas (Seated Lateral Raise)_
+_Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
+_Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 6 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl), Press Tate (Tate Press) · 1 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1918,22 +2006,24 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=V-Up) · Nombre para copiar en YouTube: `V-Up`
 
 **Prueba**
-1. **Prueba: salto con contramovimiento** — máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Prueba: 3 intentos, anota el mejor.
+1. **Prueba: sprint de 10-30 m** — máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Prueba: 2-3 carreras cronometradas con descanso completo, anota la mejor.
 
 **Saltos, lanzamientos y velocidad**
-1. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 9 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
+   - por lado = 1 serie
+   - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
+2. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 9 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Forward/Backward Ankle Hops`
-2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+3. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8-10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
    - Cambiar por: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
-3. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 8 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Muñoz, patrón de agilidad (Munoz Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Krumrie, patrón de agilidad (Krumrie Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 4 × 6 a 8 reps · deja 1 en reserva (1 RIR, RPE 9) · 2-3 min de descanso
@@ -1960,20 +2050,24 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)) · Nombre para copiar en YouTube: `Alternating Staggered-Stance Single-Leg Deadlift (DB)`
 
 **Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 3 × 6 a 8 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
+1. **Press Tate (Tate Press)** — 2 × 10 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
+   - Progresión: cuando llegues a 15 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps sobre la cabeza en polea (Overhead Cable Extension) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea con barra recta, agarre supino (Reverse-Grip Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tate%20Press) · Nombre para copiar en YouTube: `Tate Press`
+2. **Curl nórdico (Nordic Curl)** — 3 × 6 a 8 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
    - Progresión: cuando llegues a 8 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral sentado (Seated Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original) / Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Nombre para copiar en YouTube: `Nordic Hamstring Curl`
-2. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
+3. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 4 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-3. **Elevación de pantorrillas en máquina (Calf Raise)** — 4 × 12 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
+4. **Elevación de pantorrillas en máquina (Calf Raise)** — 4 × 12 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (mantiene el trabajo de pantorrillas; pierde la versión más fácil: este es más difícil) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde la carga máxima)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
-4. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · Serie MYO en la última serie: unas 15 repeticiones, luego 5 miniseries de 5 repeticiones con una pausa corta (unas 5 respiraciones) entre ellas, mismo peso · 60-90 s de descanso
+5. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · Serie MYO en la última serie: unas 15 repeticiones, luego 5 miniseries de 5 repeticiones con una pausa corta (unas 5 respiraciones) entre ellas, mismo peso · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Ejercicio extra para completar tus series semanales
    - Cambiar por: Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con mancuernas (DB Upright Row) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con barra (Upright Row) (mantiene el trabajo de deltoides lateral; pierde el movimiento libre de cada mano) / Elevaciones laterales con mancuernas (Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1983,7 +2077,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Naranja (C): largo / suave · carrera** — 40 min · ritmo constante: todavía puedes hablar
    - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
-### Jueves · Práctica / deporte
+### Jueves · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Naranja (C): largo / suave · carrera** · 40 min · ritmo constante: todavía puedes hablar
+  - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
 _Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
@@ -1991,7 +2088,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzami
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 7 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2008,23 +2105,24 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal inverso (Reverse Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado (Hanging Knees to Chest) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Nombre para copiar en YouTube: `Leg Raise (lying / supine)`
 
+**Prueba**
+1. **Prueba: salto con contramovimiento** — máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Prueba: 3 intentos, anota el mejor.
+
 **Saltos, lanzamientos y velocidad**
-1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 3 x 40 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 1 × 3 x 40 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Nombre para copiar en YouTube: `Max-Velocity Sprint (Top Speed)`
-2. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 3 × 6 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - cajón bajo (15-30 cm)
-   - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - por lado = 1 serie
-   - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
-3. **Agilidad 5-10-5 (Pro Agility)** — 3 × 6 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+2. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 9 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación de cuatro cuadros (4-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
+3. **Agilidad 5-10-5 (Pro Agility)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 2 cambios de dirección por repetición
-   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Nombre para copiar en YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Potencia / levantamientos olímpicos**
-1. **Arranque con mancuerna a una mano (Single-Arm DB Snatch)** — 3 × 4/4 · muévela rápido: si la mancuerna se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
+1. **Arranque con mancuerna a una mano (Single-Arm DB Snatch)** — 2 × 4/4 · muévela rápido: si la mancuerna se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
    - peso según la velocidad: rápido y potente
    - Trabajo de potencia: mueve la mancuerna rápido; termina la serie si se frena.
    - por lado = 1 serie
@@ -2073,7 +2171,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise) · Nombre para copiar en YouTube: `Barbell Calf Raise`
 
 ### Sábado · Día opcional
-_Tiempo promedio: aprox. 30-35 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 25-30 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
@@ -2085,8 +2183,8 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
 
 **Aeróbico**
-1. **Verde (B): moderado · bicicleta (bike)** — 30 min · 3 min fuerte / 3 min suave, repite
-   - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
+1. **Azul (A): corto / alta intensidad · carrera** — 20 min · 30 s corriendo / 30 s caminando, repite
+   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
    - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
 
 ## Semana 7 — Pretemporada: más velocidad y potencia
@@ -2094,12 +2192,13 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Trabajo atlético esta semana:** 110 contactos de salto · 64 contactos de saltos de tobillo · 24 lanzamientos · 108 cambios de dirección · 440 m de sprints · 6 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 3: Repetir
 
 ### Lunes · S1 - salto + rodilla + tirón
-_Tiempo promedio: aprox. 90-110 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops), Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez_
+_Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba, Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2117,24 +2216,21 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
-1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 5 x 20 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
-2. **Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: contactos rápidos y continuos
    - por lado = 1 serie
    - Cambiar por: Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde la misma dirección de movimiento)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Lateral%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Lateral Hurdle Hops`
-3. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 4 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 4 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: contactos rápidos y continuos
    - por lado = 1 serie
    - Cambiar por: Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el trabajo de un lado a la vez) / Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el trabajo de un lado a la vez) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el trabajo de un lado a la vez)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Forward Hurdle Hops`
-4. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
-5. **Prueba L de tres conos (L-Drill)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+4. **Prueba L de tres conos (L-Drill)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 3 cambios de dirección por repetición
    - Cambiar por: Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone)) · Nombre para copiar en YouTube: `L-Test / L-Drill (3-Cone)`
@@ -2172,26 +2268,34 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
-1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+1. **Curl de bíceps con mancuernas (DB Curl)** — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Curl araña con el pecho en banco inclinado (Spider Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl inclinado con mancuernas, meñique arriba (Incline DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
+2. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
-2. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 2 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 2 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) (mantiene el trabajo de pantorrillas; pierde el movimiento libre de cada mano) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Martes · Práctica / deporte
+### Martes · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 20-30 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
-_Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 80-95 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Rodillas al pecho colgado (Hanging Knees to Chest) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) + Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) - palmas enfrentadas (agarre neutro) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Curl nórdico (Nordic Curl) + Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Desplazamientos laterales (Lateral Shuffles), Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam), Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl)_
+_Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
+_Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 3.5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam), Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 1 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2209,23 +2313,23 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Knees%20to%20Chest%20(hanging)) · Nombre para copiar en YouTube: `Knees to Chest (hanging)`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 5 x 20 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
+2. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: haz la serie en tandas de 2-3 saltos grandes seguidos (para 7 saltos: 3 + 2 + 2), reiniciando los brazos entre tandas; esfuerzo total en cada salto
    - por lado = 1 serie
    - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
-2. **Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)** — 2 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+3. **Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)** — 2 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Backward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Backward Ankle Hops`
-3. **Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+4. **Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
    - Cambiar por: Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Rotational%20Downward%20Slam) · Nombre para copiar en YouTube: `Medball Rotational Downward Slam`
-4. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 12 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Muñoz, patrón de agilidad (Munoz Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Krumrie, patrón de agilidad (Krumrie Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press) - palmas enfrentadas (agarre neutro)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 2-3 min de descanso
@@ -2252,29 +2356,31 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Nombre para copiar en YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+1. **Press Tate (Tate Press)** — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps sobre la cabeza en polea (Overhead Cable Extension) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea con barra recta, agarre supino (Reverse-Grip Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tate%20Press) · Nombre para copiar en YouTube: `Tate Press`
+2. **Curl nórdico (Nordic Curl)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 8 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral sentado (Seated Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original) / Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Nombre para copiar en YouTube: `Nordic Hamstring Curl`
-2. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+3. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-3. **Elevación de pantorrillas en máquina (Calf Raise)** — 2 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+4. **Elevación de pantorrillas en máquina (Calf Raise)** — 2 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (mantiene el trabajo de pantorrillas; pierde la versión más fácil: este es más difícil) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde la carga máxima)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
 
-### Jueves · Práctica / deporte
-
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 90-110 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 100-120 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) - aprieta 1 segundo arriba + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2293,7 +2399,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 **Saltos, lanzamientos y velocidad**
 1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 3 x 40 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Nombre para copiar en YouTube: `Max-Velocity Sprint (Top Speed)`
 2. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 3 × 6 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
@@ -2301,9 +2407,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - por lado = 1 serie
    - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
-3. **Agilidad 5-10-5 (Pro Agility)** — 3 × 6 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+3. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 12 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación de cuatro cuadros (4-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
+4. **Agilidad 5-10-5 (Pro Agility)** — 3 × 6 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 2 cambios de dirección por repetición
-   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Nombre para copiar en YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Potencia / levantamientos olímpicos**
@@ -2378,12 +2487,13 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Trabajo atlético esta semana:** 110 contactos de salto · 64 contactos de saltos de tobillo · 24 lanzamientos · 108 cambios de dirección · 440 m de sprints · 6 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 3: Repetir
 
 ### Lunes · S1 - salto + rodilla + tirón
-_Tiempo promedio: aprox. 90-110 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops), Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez_
+_Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba, Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2401,24 +2511,21 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
-1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 5 x 20 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
-2. **Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: contactos rápidos y continuos
    - por lado = 1 serie
    - Cambiar por: Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde la misma dirección de movimiento)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Lateral%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Lateral Hurdle Hops`
-3. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 4 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 4 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: contactos rápidos y continuos
    - por lado = 1 serie
    - Cambiar por: Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el trabajo de un lado a la vez) / Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el trabajo de un lado a la vez) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el trabajo de un lado a la vez)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Forward Hurdle Hops`
-4. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
-5. **Prueba L de tres conos (L-Drill)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+4. **Prueba L de tres conos (L-Drill)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 3 cambios de dirección por repetición
    - Cambiar por: Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=L-Test%20%2F%20L-Drill%20(3-Cone)) · Nombre para copiar en YouTube: `L-Test / L-Drill (3-Cone)`
@@ -2456,26 +2563,34 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
-1. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+1. **Curl de bíceps con mancuernas (DB Curl)** — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Curl araña con el pecho en banco inclinado (Spider Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl inclinado con mancuernas, meñique arriba (Incline DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
+2. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
-2. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 2 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+3. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 2 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas con barra (Barbell Calf Raise) (mantiene el trabajo de pantorrillas; pierde el movimiento libre de cada mano) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
-### Martes · Práctica / deporte
+### Martes · Día aeróbico
+_Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
+- **Verde (B): moderado · bicicleta (bike)** · 20-30 min · 3 min fuerte / 3 min suave, repite
+  - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
-_Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 80-95 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Rodillas al pecho colgado (Hanging Knees to Chest) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) + Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) - palmas enfrentadas (agarre neutro) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Curl nórdico (Nordic Curl) + Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Desplazamientos laterales (Lateral Shuffles), Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam), Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl)_
+_Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
+_Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 3.5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam), Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 1 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2493,23 +2608,23 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Knees%20to%20Chest%20(hanging)) · Nombre para copiar en YouTube: `Knees to Chest (hanging)`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 5 x 20 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
+2. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: haz la serie en tandas de 2-3 saltos grandes seguidos (para 7 saltos: 3 + 2 + 2), reiniciando los brazos entre tandas; esfuerzo total en cada salto
    - por lado = 1 serie
    - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
-2. **Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)** — 2 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+3. **Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)** — 2 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Backward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Backward Ankle Hops`
-3. **Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+4. **Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
    - Cambiar por: Azotes rotacionales al piso de lado a lado con balón medicinal (Side-to-Side Slams) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Rotational%20Downward%20Slam) · Nombre para copiar en YouTube: `Medball Rotational Downward Slam`
-4. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 12 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Muñoz, patrón de agilidad (Munoz Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación Krumrie, patrón de agilidad (Krumrie Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
 
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press) - palmas enfrentadas (agarre neutro)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 2-3 min de descanso
@@ -2536,29 +2651,31 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Nombre para copiar en YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accesorios**
-1. **Curl nórdico (Nordic Curl)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+1. **Press Tate (Tate Press)** — 2 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+   - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps sobre la cabeza en polea (Overhead Cable Extension) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea con barra recta, agarre supino (Reverse-Grip Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tate%20Press) · Nombre para copiar en YouTube: `Tate Press`
+2. **Curl nórdico (Nordic Curl)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 8 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde algo de dificultad: este es más fácil) / Curl femoral sentado (Seated Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original) / Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Nombre para copiar en YouTube: `Nordic Hamstring Curl`
-2. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+3. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento) / Elevación en T boca abajo en banco inclinado con mancuernas (Prone T-Raise) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-3. **Elevación de pantorrillas en máquina (Calf Raise)** — 2 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+4. **Elevación de pantorrillas en máquina (Calf Raise)** — 2 × 12 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (mantiene el trabajo de pantorrillas; pierde la versión más fácil: este es más difícil) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde la carga máxima)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
 
-### Jueves · Práctica / deporte
-
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 90-110 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 100-120 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) - aprieta 1 segundo arriba + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2577,7 +2694,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 **Saltos, lanzamientos y velocidad**
 1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 3 x 40 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
-   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Nombre para copiar en YouTube: `Max-Velocity Sprint (Top Speed)`
 2. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 3 × 6 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
@@ -2585,9 +2702,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - por lado = 1 serie
    - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
-3. **Agilidad 5-10-5 (Pro Agility)** — 3 × 6 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+3. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 12 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
+   - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación de cuatro cuadros (4-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
+4. **Agilidad 5-10-5 (Pro Agility)** — 3 × 6 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 2 cambios de dirección por repetición
-   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle) · Nombre para copiar en YouTube: `5-10-5 Pro-Agility Shuttle`
 
 **Potencia / levantamientos olímpicos**
@@ -2659,7 +2779,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 
 ---
 
-_Modelo 1.3.0 · Motor 0.5.0_
+_Modelo 1.3.0 · Motor 0.6.0_
 
 Responsabilidad liberada: los términos y la liberación de responsabilidad se aceptaron antes de crear este plan. No es consejo médico. Úsalo bajo tu propio riesgo. Entrena dentro de tus límites. Términos completos: Aviso legal y liberación de responsabilidad. [Lee el aviso legal y la liberación de responsabilidad completos](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.es.md)
 

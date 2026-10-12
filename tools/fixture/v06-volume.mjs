@@ -30,7 +30,12 @@ export function amendRulesV06(rules) {
     // G-102 (R3-VOL-03 'extra SMALL-muscle sets become a short bonus exercise on the optional day'; ORD-10 'optional days are
     // bonuses'; reviews 04 / 06 / 01 M2): a big group (quads, hips, back, chest) never takes the optional day's bonus exercise. Its
     // final sets are held on the training days, else it is capped and the plan says so.
-    bonus_small_only: { line_classes: ['small'], refs: ['R3-VOL-03', 'ORD-10', 'R4-PRG-01'], status: 'approved rule (R3-VOL-03)' },
+    // COACH-CH5 CH5-03 (2026-10-11, 'they should reach more if needed, no cap until 35'): a big group that the training days cannot
+    // take to its planned final sets MAY take a bonus exercise (on the optional day, or on a training day when there is none); the
+    // bonus still never repeats a pattern the day before trained (G-104). big_when_needed retires the small-groups-only limit for them;
+    // the training-day place (no optional day can take it) is read for the physique and athletic families (big_main_day_families,
+    // PROPOSED: the class member keeps his tops, G-113, where a third hinge on the deadlift day broke the coach's staircase)
+    bonus_small_only: { line_classes: ['small'], big_when_needed: true, big_main_day_families: ['aesthetics', 'athletic'], refs: ['CH5-03', 'R3-VOL-03', 'ORD-10', 'R4-PRG-01'], status: 'approved rule (R3-VOL-03); big groups when needed (COACH-CH5 CH5-03)' },
     // G-103 (same answers; review 01 M2: a sport-priority split squat and seated row on the swimmer's optional day): an optional-day
     // Focus slot of a big group that is not the person's own Focus closes when the training days alone hold the group's final sets
     big_optional_focus_close: { enabled: true, always: true, refs: ['R3-VOL-03', 'ORD-10', 'ORD-11', 'R4-SES-04'], status: 'PROPOSED reading (the main days hold the plan; the optional day stays a bonus)' },
@@ -44,6 +49,9 @@ export function amendRulesV06(rules) {
     // a small group's bonus exercise goes to the training day that trains the group with the fewest exercises, inside the session size
     bonus_main_day_fallback: { groups: ['biceps', 'triceps', 'shoulders'], family_groups: { hybrid_crossfit: ['quads'] },
       refs: ['R3-VOL-03', 'R4-SES-05', 'R4-SES-02', 'CX-01'], status: 'approved rule (R3-VOL-03); the class family\'s second knee lift is PROPOSED (review 04 M1 hint)' },
+    // COACH-CH5 CH5-03 ('they should reach more if needed, no cap until 35'): a group one bonus exercise cannot take to its planned
+    // final sets takes another one on another optional-day place (never a pattern the day before trained, G-104)
+    reach_planned: { max_bonus_per_group: 3, refs: ['CH5-03', 'R3-VOL-03'], status: 'approved (COACH-CH5 CH5-03); up to 3 bonus exercises a group PROPOSED (an optional day keeps its 2 places, placement.bonus)' },
     // G-106 (R4-SES-03 'every big muscle group ... about 6-8'; review 08 M2: the shoulders reached 6-8 only with the optional day's
     // fly): on a 2-day plan the training days hold the low end of the 2-day band for every trained group before the optional day
     two_day_main_floor: { enabled: true, refs: ['R4-SES-03', 'ORD-10'], status: 'approved rule (R4-SES-03) read on the training days' },
@@ -96,8 +104,10 @@ export function amendRulesV06(rules) {
     // 'none'); a competitive CrossFit athlete keeps the level's numbers
     class_tops: { families: ['hybrid_crossfit'], competitive: ['recreational', 'none'], lines: { shoulders: { over_floor: 2 }, biceps: { over_floor: 2 }, triceps: { over_floor: 2 }, chest: { value: 15 }, lats_upper_back: { value: 15 } },
       refs: ['R4-SES-02', 'R2-VOL-06', 'OBSERVED prog_mm_crossfit_tracks'], status: 'PROPOSED numbers (review 04 M1 hint: arms and shoulders about 12, chest and back 14-16)' },
-    refs: ['VOL-01', 'UNI-02', 'R4-SES-02'],
-    status: 'engine 0.6 volume package; PROPOSED numbers'
+    // COACH-CH5 CH5-03 ('no cap until 35'): the absolute weekly ceiling of any group
+    group_max: { sets: 35, refs: ['CH5-03'], status: 'approved (COACH-CH5 CH5-03)' },
+    refs: ['VOL-01', 'UNI-02', 'R4-SES-02', 'CH5-03'],
+    status: 'engine 0.6 volume package; PROPOSED numbers; group_max approved (CH5-03)'
   };
   return R;
 }
@@ -115,7 +125,10 @@ export function amendSportV06(sport, src) {
 
 /** v0.6 volume words: key -> [EN, ES]. Every key wins over the earlier layers. Spanish PROPOSED (R2-GEN-08). */
 export const UI_V06 = {
-  'changes.sets_added_n': ['+{n} sets on {exercise} ({day})', '+{n} series en {exercise} ({day})'],
+  // (engine 0.6 integration, G-190: the line names the sets before and after, as the words package prints it, G-164; the plain line
+  // without them is kept for a week next to a test week, where the test takes the place of the tested lift's top set)
+  'changes.sets_added_n': ['+{n} sets on {exercise} ({day}): {from} → {to} sets', '+{n} series en {exercise} ({day}): {from} → {to} series'],
+  'changes.sets_added_n_plain': ['+{n} sets on {exercise} ({day})', '+{n} series en {exercise} ({day})'],
   'why.bonus_main_day': ['Extra {group} sets: a short bonus exercise at the end of a training day that already trains it (no optional day can take it)', 'Series extra de {group}: un ejercicio extra corto al final de un día de entrenamiento que ya lo trabaja (ningún día opcional puede llevarlo)'],
   'warning.circuit_over_top': ['{group}: every station runs the same rounds, so this group reaches {held} weekly sets, above its usual top of {top}. If you want to stay at the top, skip one {group} station in the extra round.', '{group}: todas las estaciones hacen las mismas rondas, así que este grupo llega a {held} series por semana, por encima de su tope habitual de {top}. Si quieres quedarte en el tope, salta una estación de {group} en la ronda extra.']
 };

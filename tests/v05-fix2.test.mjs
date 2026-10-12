@@ -373,7 +373,11 @@ describe('v0.5 fix round 2 - samples 06 / 07 (physique)', () => {
         // (engine 0.6, converted - DECISIONS G-113: the class member's arms end at floor + 2 with no second curl or extension - review 04
         // M1 'no bonus isolation' - so the floor of 10 on the training days takes the arm exercise's 4th set from week 1, R2-VOL-06)
         const classArm = n === '04' && ['ISO_BICEPS', 'ISO_TRICEPS'].includes(e.credit_class);
-        if (e.exercise_class === 'isolation' && e.credit_class !== 'ISO_CALF') assert.ok(x.it.sets <= (classArm ? 4 : 3), `${n} w1 ${x.d.weekday}: ${e.id} at ${x.it.sets} sets`);
+        // (engine 0.6.0 integration, converted - DECISIONS G-199 / COACH-CH5 CH5-03: the physique plan's back takes a bonus row on the
+        // optional day, so its rows give the biceps less helper credit on the training days and the floor of 10 there takes the first
+        // curl's 4th set in week 1, the same floor reading)
+        const floorArm = n === '06' && e.credit_class === 'ISO_BICEPS' && (w1.main_sets_by_group.biceps || 0) <= R.volume.floor.value + 1;
+        if (e.exercise_class === 'isolation' && e.credit_class !== 'ISO_CALF') assert.ok(x.it.sets <= (classArm || floorArm ? 4 : 3), `${n} w1 ${x.d.weekday}: ${e.id} at ${x.it.sets} sets`);
       }
     }
     for (const n of ['06', '07']) for (const w of stair(planOf(n))) for (const d of w.days.filter(x => x.kind === 'main')) {

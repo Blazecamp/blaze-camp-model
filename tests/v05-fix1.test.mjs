@@ -252,7 +252,10 @@ describe('v0.5 fix round 1 / the 8 samples and the benchmark plans (compiled mod
       const grown = t[N - 1] - t[0];
       assert.ok(steps.every(s => s >= 0), `${n}: ${t.join(' ')}`);
       assert.ok(steps[N - 2] <= Math.max(3, Math.ceil(grown / 3)), `${n}: the last week adds ${steps[N - 2]} of ${grown} (${t.join(' ')})`);
-      let run = 0; for (const s of steps) { run = s === 0 ? run + 1 : 0; assert.ok(run < 3, `${n}: ${t.join(' ')}`); }
+      // (engine 0.6.0, converted - COACH-CH5 CH5-02 / DECISIONS G-198: the 2-day stay-active plan's A / B days now hold the arm slot, so
+      // its arms start inside the 6-8 band and the week grows by 7 sets over 11 steps; a 4-week hold is read there, H21 'a week may hold
+      // the same sets while reps or load progress')
+      let run = 0; for (const s of steps) { run = s === 0 ? run + 1 : 0; assert.ok(run < (n === '08' ? 4 : 3), `${n}: ${t.join(' ')}`); }
     }
   });
 
@@ -383,10 +386,14 @@ describe('v0.5 fix round 1 / the 8 samples and the benchmark plans (compiled mod
     assert.equal(R.volume.calves.climb_without_optional, true);
     const c7 = stair(planOf('07')).map(w => w.weekly_sets_by_group.calves);
     assert.ok(c7[0] >= 6 && c7[c7.length - 1] >= 10, c7.join(' '));
+    // (engine 0.6.0, converted - COACH-CH5 CH5-02 / DECISIONS G-198: on the B day, full at the stay-active top of 10, slot 5's triceps
+    // exercise takes the place of the day's last-ranked accessory - the calf raise - and the day says so; the A day keeps its calf raise)
     for (const w of planOf('08').weeks) for (const d of w.days.filter(x => x.kind === 'main')) {
       const calf = itemsOf(d).find(it => it.bucket === 'ISO_CALF');
+      if (!calf && (d.why || []).some(y => y.key === 'why.arm_slot')) { assert.ok(itemsOf(d).some(it => it.bucket === 'ISO_TRICEP'), `w${w.n} ${d.weekday}`); continue; }
       assert.ok(calf && calf.sets >= 3 && calf.credits.calves === 1, `w${w.n} ${d.weekday}: ${calf && calf.sets}`);
     }
+    assert.ok(planOf('08').weeks.every(w => w.days.some(d => d.kind === 'main' && itemsOf(d).some(it => it.bucket === 'ISO_CALF'))), 'a calf exercise every week');
   });
 
   // ------------------------------------------------------------------------------------------------ R2-VOL-04
