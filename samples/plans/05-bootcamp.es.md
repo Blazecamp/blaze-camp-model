@@ -93,7 +93,7 @@ Después de este plan: tú eliges: siguiente bloque (se recomienda una semana su
 
 ## Series semanales por grupo muscular
 
-_Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan. "-" = sin ejercicio propio en este plan (entre paréntesis: las series que igual recibe de los otros ejercicios). Los números están redondeados a series enteras._
+_Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan. Los números están redondeados a series enteras._
 
 |  | Semana 1 | Semana 4 | Semana 8 |
 |---|---|---|---|
@@ -113,7 +113,7 @@ _Series del circuito = rondas x estaciones: 4 rondas, luego 5 desde la semana 7.
 
 | Día | Sesión | Tiempo | Grupos musculares (ejercicios) |
 |---|---|---|---|
-| Lunes | Bootcamp 1 - sentadilla + remo + bisagra a una pierna | aprox. 40-50 min | Cuádriceps 2, Cadera (glúteos + isquiotibiales) 1, Espalda 2, Bíceps 1 |
+| Lunes | Bootcamp 1 - sentadilla + remo + bisagra a una pierna | aprox. 40-50 min | Cuádriceps 2, Cadera (glúteos + isquiotibiales) 1, Espalda 1, Hombros 1, Bíceps 1 |
 | Martes | Día aeróbico | aprox. 35-40 min | – |
 | Miércoles | Bootcamp 2 - bisagra + empujes (press) | aprox. 40-50 min | Cadera (glúteos + isquiotibiales) 1, Pecho 2, Hombros 1, Bíceps 1, Tríceps 1 |
 | Jueves | Día aeróbico | aprox. 25-30 min | – |

@@ -25,8 +25,11 @@ export function amendRulesV06(rules) {
     // G-101 (reviews 02 / 03 M2: a flat dumbbell bench at 4-5 sets while the athlete's main leg lift held 2-3): a flat press of an
     // athlete's template holds at most 4 sets; the chest group is held at what that gives and the plan says so
     // (while the group keeps at least 3 exercises of its own in the week to carry its sets - a pitcher's one chest press is not held)
-    athlete_press_max: { families: ['athletic'], credit_classes: ['HPUSH'], not_tags: ['mid_range_push'], max: 4, min_group_exercises: 3,
-      refs: ['VOL-07', 'UNI-02', 'R4-SES-05'], status: 'PROPOSED number (4 sets); review 03 M2 hint' },
+    // G-209 (VOL-07 '4, 3, 3'; placement.order_rule first_below_first; review r6 02 M1: the incline DB press, exempt by its
+    // mid_range_push tag, took 5 sets over the day's bench at 4): later_capped - a later lift of the group on a day whose first lift is
+    // held at max is held there too; the group's last sets go to a bonus exercise (CH5-03) or it is capped and said (G-107)
+    athlete_press_max: { families: ['athletic'], credit_classes: ['HPUSH'], not_tags: ['mid_range_push'], max: 4, min_group_exercises: 3, later_capped: true,
+      refs: ['VOL-07', 'UNI-02', 'R4-SES-05', 'CH5-03'], status: 'PROPOSED number (4 sets); review 03 M2 hint; later_capped reads VOL-07 (review r6 02 M1)' },
     // G-102 (R3-VOL-03 'extra SMALL-muscle sets become a short bonus exercise on the optional day'; ORD-10 'optional days are
     // bonuses'; reviews 04 / 06 / 01 M2): a big group (quads, hips, back, chest) never takes the optional day's bonus exercise. Its
     // final sets are held on the training days, else it is capped and the plan says so.
@@ -35,7 +38,9 @@ export function amendRulesV06(rules) {
     // bonus still never repeats a pattern the day before trained (G-104). big_when_needed retires the small-groups-only limit for them;
     // the training-day place (no optional day can take it) is read for the physique and athletic families (big_main_day_families,
     // PROPOSED: the class member keeps his tops, G-113, where a third hinge on the deadlift day broke the coach's staircase)
-    bonus_small_only: { line_classes: ['small'], big_when_needed: true, big_main_day_families: ['aesthetics', 'athletic'], refs: ['CH5-03', 'R3-VOL-03', 'ORD-10', 'R4-PRG-01'], status: 'approved rule (R3-VOL-03); big groups when needed (COACH-CH5 CH5-03)' },
+    // (G-209, review r6 02 M1: main_day_template_first - such a training-day bonus takes a set only when the group's template lifts
+    // can take no more; VOL-07 'add it to the first exercise on the list')
+    bonus_small_only: { line_classes: ['small'], big_when_needed: true, big_main_day_families: ['aesthetics', 'athletic'], main_day_template_first: true, refs: ['CH5-03', 'R3-VOL-03', 'ORD-10', 'R4-PRG-01'], status: 'approved rule (R3-VOL-03); big groups when needed (COACH-CH5 CH5-03)' },
     // G-103 (same answers; review 01 M2: a sport-priority split squat and seated row on the swimmer's optional day): an optional-day
     // Focus slot of a big group that is not the person's own Focus closes when the training days alone hold the group's final sets
     big_optional_focus_close: { enabled: true, always: true, refs: ['R3-VOL-03', 'ORD-10', 'ORD-11', 'R4-SES-04'], status: 'PROPOSED reading (the main days hold the plan; the optional day stays a bonus)' },
@@ -54,7 +59,11 @@ export function amendRulesV06(rules) {
     reach_planned: { max_bonus_per_group: 3, refs: ['CH5-03', 'R3-VOL-03'], status: 'approved (COACH-CH5 CH5-03); up to 3 bonus exercises a group PROPOSED (an optional day keeps its 2 places, placement.bonus)' },
     // G-106 (R4-SES-03 'every big muscle group ... about 6-8'; review 08 M2: the shoulders reached 6-8 only with the optional day's
     // fly): on a 2-day plan the training days hold the low end of the 2-day band for every trained group before the optional day
-    two_day_main_floor: { enabled: true, refs: ['R4-SES-03', 'ORD-10'], status: 'approved rule (R4-SES-03) read on the training days' },
+    // G-207 (R4-SES-03 / H17 'every big muscle group ... about 6-8' with the shoulders counted as a group with a floor, R3-VOL-01;
+    // CH5-03; review r6 08 M1: G-200 read the band on the big line classes only, so the shoulders held 4.25-6 on the training days and
+    // reached the band only with the optional day's fly, unsaid): the training days also hold the band's low end for the groups named
+    // here; the optional day's bonus stays extra. The arms (slot 5, two_day_arm_slot) and the calves stay outside.
+    two_day_main_floor: { enabled: true, also_groups: ['shoulders'], refs: ['R4-SES-03', 'ORD-10', 'R3-VOL-01', 'CH5-03'], status: 'approved rule (R4-SES-03) read on the training days; the shoulders with it (H17: shoulders counted as a group)' },
     // G-107 (CX-04; H10 / H17 'a group the template cannot take that far is held at what the slots hold, and the plan says so';
     // review 07 M1): every capped group carries the notice and a summary shortfall
     capped_notice_all: true,
@@ -101,6 +110,10 @@ export function amendRulesV06(rules) {
     refs: ['VOL-07', 'R3-VOL-03', 'R4-SES-03', 'R4-SES-05', 'CX-01', 'CX-03', 'CX-04', 'VOL-01'],
     status: 'engine 0.6 volume package (round-4 coach-eye reviews); readings of approved answers, the numbers PROPOSED'
   };
+
+  // G-214 (R2-PER-07 'the test replaces that week's top set' - the test is the day's focus; R3-VOL-04; reviews r6 02 m18 and r5 01 m8:
+  // every week-12 test day also carried a MYO set): a training day that holds a test carries no intensifier
+  if (R.effort && R.effort.intensifiers) R.effort.intensifiers = { ...R.effort.intensifiers, no_test_day: true, no_test_day_refs: ['R2-PER-07', 'R3-VOL-04'] };
 
   // ---- weekly targets (engine/volume.mjs targetsFor)
   R.volume.x3 = {

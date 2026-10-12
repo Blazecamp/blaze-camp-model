@@ -104104,6 +104104,15 @@
               ],
               "minutes_saved": 2.5,
               "on": false
+            },
+            {
+              "pair_id": "X1",
+              "items": [
+                "Mon.Push.s11",
+                "Mon.Push.x01"
+              ],
+              "minutes_saved": 3.5,
+              "on": false
             }
           ],
           "toggle_blocks": [
@@ -105451,8 +105460,8 @@
                     "max": 1,
                     "rpe_min": 9,
                     "rpe_max": 9,
-                    "last_set": "myo",
-                    "intensifier": true
+                    "last_set": null,
+                    "intensifier": false
                   },
                   "rest": {
                     "type": "seconds",
@@ -105532,14 +105541,6 @@
                       "ref": "VOL-11"
                     },
                     {
-                      "key": "why.myo_last",
-                      "ref": "VOL-15"
-                    },
-                    {
-                      "key": "why.intensifier_last_week",
-                      "ref": "R3-VOL-04"
-                    },
-                    {
                       "key": "why.planned_rir",
                       "ref": "R2-PER-05",
                       "args": {
@@ -105551,7 +105552,7 @@
                       "ref": "VOL-14"
                     }
                   ],
-                  "superset_suggested": null
+                  "superset_suggested": "X1"
                 },
                 {
                   "slot_id": "Mon.Push.x01",
@@ -105681,7 +105682,7 @@
                       "ref": "VOL-14"
                     }
                   ],
-                  "superset_suggested": null
+                  "superset_suggested": "X1"
                 }
               ],
               "id": "blk.mon-push.accessories.1",
@@ -108635,8 +108636,8 @@
                     "max": 1,
                     "rpe_min": 9,
                     "rpe_max": 9,
-                    "last_set": "myo",
-                    "intensifier": true
+                    "last_set": null,
+                    "intensifier": false
                   },
                   "rest": {
                     "type": "seconds",
@@ -108716,14 +108717,6 @@
                     {
                       "key": "why.reps_matrix",
                       "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.myo_last",
-                      "ref": "VOL-15"
-                    },
-                    {
-                      "key": "why.intensifier_last_week",
-                      "ref": "R3-VOL-04"
                     },
                     {
                       "key": "why.planned_rir",
@@ -113218,8 +113211,8 @@
                     "max": 1,
                     "rpe_min": 9,
                     "rpe_max": 9,
-                    "last_set": "myo",
-                    "intensifier": true
+                    "last_set": null,
+                    "intensifier": false
                   },
                   "rest": {
                     "type": "seconds",
@@ -113312,14 +113305,6 @@
                     {
                       "key": "why.reps_matrix",
                       "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.myo_last",
-                      "ref": "VOL-15"
-                    },
-                    {
-                      "key": "why.intensifier_last_week",
-                      "ref": "R3-VOL-04"
                     },
                     {
                       "key": "why.planned_rir",
@@ -114415,7 +114400,7 @@
       0,
       0,
       0,
-      6
+      3
     ],
     "shortfalls": []
   },

@@ -352,7 +352,7 @@ for (const [mname, model] of MODELS) {
           assert.ok(row, `${n}: the ${g} row`);
           const cells = row.split('|').map(x => x.trim());
           // the recount from the items, week by week (a set counts at most 1.0 to a group)
-          const want = p.weeks.map(w => { let v = 0; for (const d of w.days) for (const it of itemsOf(d)) v += (typeof it.sets === 'number' ? it.sets : 0) * (groupCredits(model, it.credits || {})[g] || 0); const fin = (st.capped || []).find(x => x.group === g) ? st.capped.find(x => x.group === g).held : Math.max(st.group_top[g], Math.floor((st.realized_top || {})[g] + 1e-9 || 0)); return String(v > fin && v - fin < 1 - 1e-9 && Math.round(v) > fin ? fin : Math.round(v)); }); // (v0.6 words, converted - DECISIONS G-174: the table prints whole sets; G-203: never above the final sets)
+          const want = p.weeks.map(w => { let v = 0; for (const d of w.days) for (const it of itemsOf(d)) v += (typeof it.sets === 'number' ? it.sets : 0) * (groupCredits(model, it.credits || {})[g] || 0); const fin = (st.capped || []).find(x => x.group === g) ? st.capped.find(x => x.group === g).held : Math.max(st.group_top[g], Math.floor((st.realized_top || {})[g] + 1e-9 || 0)); return String(v > fin && v - fin < 1 - 1e-9 && Math.round(v) > fin ? fin : v < fin - 1e-9 && Math.round(v) >= fin ? fin - 1 : Math.round(v)); }); // (v0.6 words, converted - DECISIONS G-174: the table prints whole sets; G-203: never above the final sets; G-212: never the final sets before they are reached)
           assert.deepEqual(cells[2].split(/ · | /).filter(Boolean), want, `${n} ${g}`);
           const cap = (st.capped || []).find(x => x.group === g);
           assert.equal(cells[3], cap ? t('en', 'ui.plan.final_capped', { held: cap.held, planned: cap.planned }) : String(Math.max(st.group_top[g], Math.floor(((st.realized_top || {})[g] || 0) + 1e-9))), `${n} ${g}: final sets`); // (G-203: a whole set of helper credit above a lowered top prints what the plan reaches)
@@ -534,7 +534,9 @@ for (const [mname, model] of MODELS) {
   describe(`v0.5 / V3 Spanish (${mname})`, () => {
     it('R2-GEN-08: every V3 line has its Spanish twin with the same placeholders; the reviewed lines are in the model; gym terms keep their English word in brackets', () => {
       const ph = (s) => [...new Set([...String(s).matchAll(/\{([a-z_]+)\}/g)].map(m => m[1]))].sort().join(',');
+      // (G-211: the counting note's '-' sentence became its own legend line, printed only with a '-' cell - read in UI_W6)
       for (const [k, [en, es]] of Object.entries(UI_V3)) {
+        if (k === 'ui.plan.weekly_sets_groups_note') { assert.ok(en.startsWith(model.i18n.en[k]) && model.i18n.en['ui.plan.sets_legend_dash'] && en.endsWith(model.i18n.en['ui.plan.sets_legend_dash'])); continue; }
         assert.equal(model.i18n.en[k], en, k); assert.equal(model.i18n.es[k], ES_REVIEW_V3[k] || es, k + ' (es)');
         assert.equal(ph(model.i18n.es[k]), ph(en), 'placeholders of ' + k);
         assert.ok(!/\b(vosotros|vuestr[oa]s?|coged|haced|ordenador|vale)\b/i.test(model.i18n.es[k]), k + ': not neutral Latin American');

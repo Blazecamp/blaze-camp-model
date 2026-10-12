@@ -238,6 +238,9 @@ function fmtSets(model, x) {
 function fmtGroupSets(plan, model, w, g, x) {
   if (typeof x !== 'number' || !V6(model).sets_display_cap_final || V6(model).sets_display !== 'whole') return fmtSets(model, x);
   const fin = groupFinalOf(plan, w && w.training_block, g);
+  // (v0.6 G-212, review r6 02 m16: a week still under its final sets never prints them - 12.5 of a final 13 prints 12, so the group
+  // does not seem to arrive weeks before it does)
+  if (V6(model).sets_display_before_final && typeof fin === 'number' && x < fin - 1e-9 && Math.round(x) >= fin) return String(fin - 1);
   return typeof fin === 'number' && x > fin && x - fin < 1 - 1e-9 && Math.round(x) > fin ? String(fin) : fmtSets(model, x);
 }
 /** the final sets a block prints for a group (what the template holds when it is capped), or null */
@@ -567,7 +570,9 @@ function optionalBonusLines(plan, model, o) {
     const last = ws[ws.length - 1];
     if (!last) continue;
     for (const g of [...new Set((rec.bonus || []).map(b => b.group))]) {
-      if (!big(g) || typeof (rec.group_top || {})[g] !== 'number') continue;
+      // (G-208, review r6 08 M1: with rules.render.v6.optional_bonus_line.all_groups every group whose final sets hold an optional day's
+      // bonus exercise says so - the shoulders of a 2-day plan too - not only the big groups)
+      if (!(OB.all_groups || big(g)) || typeof (rec.group_top || {})[g] !== 'number') continue;
       const its = [];
       for (const d of last.days || []) {
         if (d.kind !== 'optional') continue;
@@ -578,7 +583,9 @@ function optionalBonusLines(plan, model, o) {
       const top = rec.group_top[g];
       const exercises = its.map(x => model.t(o.lang, x.it.name_key || ('exercise.' + x.it.exercise_id + '.name')) + ', ' + weekdayIn(model, o.lang, x.d.weekday)).join('; ');
       const name = model.t(o.lang, 'group.' + g);
-      out.push(esc(model.t(o.lang, OB.key, { group: name, group_lc: name.charAt(0).toLowerCase() + name.slice(1), n: fmtSets(model, n), top: fmtSets(model, top), exercises, main: fmtSets(model, Math.max(0, Math.min(top, (last.weekly_sets_by_group || {})[g] || top) - n)) })));
+      // (G-208: every bonus exercise of the group on one optional day - 'skip that day')
+      const oneDay = new Set(its.map(x => x.d.weekday)).size === 1 && has(model, 'ui.plan.optional_bonus_one_day');
+      out.push(esc(model.t(o.lang, oneDay ? 'ui.plan.optional_bonus_one_day' : OB.key, { group: name, group_lc: name.charAt(0).toLowerCase() + name.slice(1), n: fmtSets(model, n), top: fmtSets(model, top), exercises, main: fmtSets(model, Math.max(0, Math.min(top, (last.weekly_sets_by_group || {})[g] || top) - n)) })));
     }
   }
   return out;
@@ -889,6 +896,10 @@ function weeklySetsSection(plan, model, o) {
   const picks = [...new Set([pool[0], pool[Math.floor((pool.length - 1) / 2)], pool[pool.length - 1]])];
   const byGroup = pool.some(w => w.weekly_sets_by_group && Object.keys(w.weekly_sets_by_group).length) && has(model, 'ui.plan.weekly_sets_groups');
   L.push('## ' + t(byGroup ? 'ui.plan.weekly_sets_groups' : 'ui.plan.weekly_sets'), '', '_' + t(byGroup ? 'ui.plan.weekly_sets_groups_note' : 'ui.plan.weekly_sets_note') + roundedNote(model, o, picks) + '_', '');
+  // v0.6 G-211 (review r6 02 m15): the legend of a '-' cell and of a '(n direct)' cell, added to the note only when the table prints one
+  const noteAt = L.length - 2;
+  const SL = byGroup ? V6(model).sets_legend : null;
+  let dashUsed = false, directUsed = false;
   L.push('| ' + ['', ...picks.map(w => t('ui.plan.week', { n: w.n }))].join(' | ') + ' |', '|' + '---|'.repeat(picks.length + 1));
   if (byGroup) {
     // F3 (RECHECK 01 / 04 / 08 minors: the legend promised '-' rows the table never printed; a credit-only group showed sets next to
@@ -906,8 +917,13 @@ function weeklySetsSection(plan, model, o) {
       if (!vals.some(v => typeof v === 'number' && v > 0) && !(allRows && picks.some(w => ntOf(w)))) continue;
       const cell = (w, v) => {
         const nt = ntOf(w);
-        if (!nt && held(w) && has(model, HG.cell_key)) return t(HG.cell_key, { n: fmtSets(model, v), direct: fmtSets(model, directOfGroup(model, w, g)) });
+        if (!nt && held(w) && has(model, HG.cell_key)) {
+          const a = { n: fmtGroupSets(plan, model, w, g, v), direct: fmtSets(model, directOfGroup(model, w, g)) };
+          if (!directUsed) directUsed = { ...a, cell: t(HG.cell_key, a) };
+          return a.cell || t(HG.cell_key, a);
+        }
         if (!nt) return fmtGroupSets(plan, model, w, g, v);
+        dashUsed = true;
         if (!allRows) return '-';
         if (!(typeof v === 'number' && v > 0)) return '-';
         return nt.reason === 'class_lift' && has(model, 'ui.plan.sets_class_lift') ? t('ui.plan.sets_class_lift', { n: fmtSets(model, v) }) : t('ui.plan.sets_not_direct', { n: fmtSets(model, v) });
@@ -930,6 +946,10 @@ function weeklySetsSection(plan, model, o) {
       if (!vals.some(v => typeof v === 'number' && v > 0)) continue;
       L.push('| ' + [t('muscle.' + mu), ...vals.map(v => fmtSets(model, v))].join(' | ') + ' |');
     }
+  }
+  if (SL) {
+    const add = [dashUsed && has(model, SL.dash_key) ? t(SL.dash_key) : null, directUsed && has(model, SL.direct_key) ? t(SL.direct_key, directUsed) : null].filter(Boolean);
+    if (add.length) L[noteAt] = L[noteAt].replace(/_$/, ' ' + add.join(' ') + '_');
   }
   L.push('| **' + t('ui.plan.total') + '** | ' + picks.map(w => '**' + fmtSets(model, w.total_resistance_sets) + '**').join(' | ') + ' |');
   if (picks.some(w => w.circuit && typeof w.circuit.work_s === 'number') && has(model, 'ui.plan.work_seconds_row')) {

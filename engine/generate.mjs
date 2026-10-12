@@ -741,6 +741,10 @@ function finishWeek(C, n, col) {
       const notCalf = circ.filter(x => x.ex.credit_class !== 'ISO_CALF');
       lastInt = notCalf[0] || circ[0] || null;
     }
+    // v0.6 G-214 (R2-PER-07 the test is the session's focus; R3-VOL-04; reviews r6 02 m18, r5 01 m8: the front squat / bench 3RM days
+    // and the sprint / jump test day also carried the week's MYO set): a day that holds a test carries no intensifier
+    // (rules.effort.intensifiers.no_test_day)
+    if (lastInt !== undefined && R.effort.intensifiers && R.effort.intensifiers.no_test_day && cands.some(x => x.slot.test || x.slot.bucket === 'TEST')) lastInt = null;
     // pass 2: doses + items
     const blocks = [];
     const testWhy = why('why.test_top_set', 'R2-PER-07');
@@ -1137,6 +1141,18 @@ function creditsFor(model, ex, bucket) {
 }
 
 function itemGroup(model, x) {
+  // v0.6 G-213 (H08 counting; review r6 02 m17: Tuesday read 'Chest 1, Shoulders 2' while the bench and the incline press are both
+  // chest by the plan's own credits): with rules.render.v6.glance_by_credits the group is the one the exercise trains as a prime mover
+  // (credit 1), the template's group first when it is one of them - as the volume engine counts it
+  const RV = model.rules.render && model.rules.render.v6;
+  if (RV && RV.glance_by_credits && x.ex && x.ex.credits) {
+    const full = [];
+    for (const [m, c] of Object.entries(x.ex.credits)) if (c >= 1 - 1e-9) { let g = null; try { g = model.groupOf(m); } catch { g = null; } if (g && !full.includes(g)) full.push(g); }
+    if (x.slot.group && full.includes(x.slot.group)) return x.slot.group;
+    const ord = model.rules.muscles.groups.order;
+    full.sort((a, b) => ord.indexOf(a) - ord.indexOf(b));
+    if (full.length) return full[0];
+  }
   if (x.slot.group) return x.slot.group;
   if (x.slot.focus_muscle) return model.groupOf(x.slot.focus_muscle);
   return x.ex && x.ex.primary_muscle ? model.groupOf(x.ex.primary_muscle) : null;

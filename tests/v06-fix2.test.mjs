@@ -73,8 +73,10 @@ describe('R4-SES-03 (G-200): 2 days - the band is for the big groups, the arms s
       for (const w of p.weeks) assert.ok(w.weekly_sets_by_group[g] < st.group_top[g] + 1 - EPS, g + ' week ' + w.n);
       assert.ok(st.group_top[g] <= R.volume.two_day.weekly_sets[0], g + ' final ' + st.group_top[g] + ' under the big groups\' band');
     }
-    assert.equal(st.group_top.shoulders, 8);
-    assert.ok(p.weeks[p.weeks.length - 1].weekly_sets_by_group.shoulders >= 8 - EPS);
+    // (G-207, converted: the training days hold the shoulders at the band and the optional-day fly is extra - final 9, 7 of them on
+    // Monday + Thursday)
+    assert.equal(st.group_top.shoulders, 9);
+    assert.ok(p.weeks[p.weeks.length - 1].weekly_sets_by_group.shoulders >= 9 - EPS);
     assert.ok(!(st.capped || []).some(c => c.group === 'shoulders'), 'shoulders no longer capped');
     assert.ok((st.bonus || []).some(b => b.group === 'shoulders'), 'the optional day\'s place goes to the shoulders');
     assert.ok(!(st.bonus || []).some(b => ['biceps', 'triceps'].includes(b.group)));
@@ -121,8 +123,9 @@ describe('CH5-03 (G-204): a big group\'s optional-day sets are said up front', (
     const es = mdOf('06', 'es').split('\n').find(l => l.includes('días opcionales') && l.startsWith('- ' + t('es', 'group.back')));
     assert.ok(es, 'ES line');
   });
-  it('a plan whose big groups need no optional day prints no such line (02, 08)', () => {
-    for (const n of ['02', '08']) assert.ok(!mdOf(n).includes('final sets sit on your optional days'), n);
+  it('a plan whose big groups need no optional day prints no such line for them (02, 08)', () => {
+    // (G-208, converted: every group with optional-day sets is now said - 08's shoulders - so the line is read on the big groups)
+    for (const n of ['02', '08']) for (const g of ['quads', 'hips', 'back', 'chest']) assert.ok(!mdOf(n).split('\n').some(l => l.startsWith('- ' + t('en', 'group.' + g) + ':') && /final sets sit on your optional day/.test(l)), n + ' ' + g);
   });
 });
 

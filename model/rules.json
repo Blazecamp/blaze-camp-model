@@ -3359,12 +3359,14 @@
     ],
     "max": 4,
     "min_group_exercises": 3,
+    "later_capped": true,
     "refs": [
      "VOL-07",
      "UNI-02",
-     "R4-SES-05"
+     "R4-SES-05",
+     "CH5-03"
     ],
-    "status": "PROPOSED number (4 sets); review 03 M2 hint"
+    "status": "PROPOSED number (4 sets); review 03 M2 hint; later_capped reads VOL-07 (review r6 02 M1)"
    },
    "bonus_small_only": {
     "line_classes": [
@@ -3375,6 +3377,7 @@
      "aesthetics",
      "athletic"
     ],
+    "main_day_template_first": true,
     "refs": [
      "CH5-03",
      "R3-VOL-03",
@@ -3443,11 +3446,16 @@
    },
    "two_day_main_floor": {
     "enabled": true,
+    "also_groups": [
+     "shoulders"
+    ],
     "refs": [
      "R4-SES-03",
-     "ORD-10"
+     "ORD-10",
+     "R3-VOL-01",
+     "CH5-03"
     ],
-    "status": "approved rule (R4-SES-03) read on the training days"
+    "status": "approved rule (R4-SES-03) read on the training days; the shoulders with it (H17: shoulders counted as a group)"
    },
    "capped_notice_all": true,
    "capped_shortfalls": true,
@@ -5193,7 +5201,12 @@
      "OBSERVED BYOP ATHLETIC G12"
     ],
     "status": "PROPOSED (fix round 1): the order of the items that may carry it"
-   }
+   },
+   "no_test_day": true,
+   "no_test_day_refs": [
+    "R2-PER-07",
+    "R3-VOL-04"
+   ]
   },
   "circuit_rir": {
    "key": "effort.circuit_rir",
@@ -11779,12 +11792,25 @@
     ]
    },
    "sets_display_cap_final": true,
+   "sets_display_before_final": true,
+   "glance_by_credits": true,
+   "sets_legend": {
+    "dash_key": "ui.plan.sets_legend_dash",
+    "direct_key": "ui.plan.sets_legend_direct",
+    "refs": [
+     "R4-LIB-04",
+     "CH5-02"
+    ]
+   },
    "optional_bonus_line": {
     "key": "ui.plan.optional_bonus_big",
+    "all_groups": true,
     "refs": [
      "CH5-03",
      "R3-VOL-03",
-     "CX-04"
+     "CX-04",
+     "R4-SES-03",
+     "H17"
     ]
    },
    "refs": [

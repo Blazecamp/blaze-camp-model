@@ -81,9 +81,19 @@ export function amendRulesW6(rules) {
     // whose helper credit takes it less than one set above the group's final sets prints as the final sets (the JSON keeps the exact
     // quarter credits)
     sets_display_cap_final: true,
+    // G-212 (R4-PRG-01 'arriving one week early and holding is fine'; review r6 02 m16: shoulders 12.5 printed 13 from week 9 against an
+    // arrival in week 11): a weekly number still under the group's final sets never prints as the final sets
+    sets_display_before_final: true,
+    // G-213 (H08; review r6 02 m17: 'Chest 1, Shoulders 2' on a day whose bench and incline press are both chest by the plan's own
+    // credits): the week-at-a-glance group of an exercise is the group it trains as a prime mover (credit 1)
+    glance_by_credits: true,
+    // G-211 (review r6 02 m15): the weekly table's legend lines are printed only for the kinds of cell the table holds
+    sets_legend: { dash_key: 'ui.plan.sets_legend_dash', direct_key: 'ui.plan.sets_legend_direct', refs: ['R4-LIB-04', 'CH5-02'] },
     // G-204 (COACH-CH5 CH5-03 'they should reach more if needed'; H10 'said plainly'; review r5 06 m1: 5 of the back's 25 sets sit on
     // the optional days and the plan never says so): one line up front per big group whose final sets need an optional day's bonus
-    optional_bonus_line: { key: 'ui.plan.optional_bonus_big', refs: ['CH5-03', 'R3-VOL-03', 'CX-04'] },
+    // G-208 (review r6 08 M1; H17 'a group the template cannot take to the floor is named in the plan, never hidden'): every group whose
+    // final sets hold an optional day's bonus exercise, not only the big groups
+    optional_bonus_line: { key: 'ui.plan.optional_bonus_big', all_groups: true, refs: ['CH5-03', 'R3-VOL-03', 'CX-04', 'R4-SES-03', 'H17'] },
     refs: ['R4-PRG-02', 'R4-PRG-03', 'R4-SES-02', 'R4-LIB-05', 'CX-02', 'CX-04', 'CH5-01', 'PRG-07', 'VOL-03', 'GEN-01', 'GEN-08', 'R2-GEN-08'],
     status: 'approved rules (the coach ids above); PROPOSED: the wording of every new line (machine-written Spanish listed in es_review.priority_review)'
   };
@@ -167,6 +177,13 @@ export const UI_W6 = {
   'ui.plan.final_held': ['held: {direct} direct sets a week', 'fijas: {direct} series directas por semana'],
   // G-204 (CH5-03): a big group whose final sets need the optional day's bonus exercises (PROPOSED wording)
   'ui.plan.optional_bonus_big': ['{group}: {n} of its {top} final sets sit on your optional days ({exercises}). Skip those days and {group_lc} ends at about {main}.', '{group}: {n} de sus {top} series finales están en tus días opcionales ({exercises}). Si te saltas esos días, {group_lc} termina en unas {main}.'],
+  // G-211 (review r6 02 m15: the legend explained '-' rows no table printed and read the brackets of '7 (4 direct)' the opposite way):
+  // the counting note no longer carries the '-' sentence; each legend line is added only when its kind of cell is printed
+  'ui.plan.weekly_sets_groups_note': ['Counted the coach\'s way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count.', 'Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan.'],
+  'ui.plan.sets_legend_dash': ['"-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts).', '"-" = sin ejercicio propio en este plan (entre paréntesis: las series que igual recibe de los otros ejercicios).'],
+  'ui.plan.sets_legend_direct': ['"{cell}" = {n} sets counted for the group, {direct} of them from its own exercise (the rest are helper sets from the other lifts).', '"{cell}" = {n} series contadas para el grupo, {direct} de ellas de su propio ejercicio (el resto son series de apoyo de los otros ejercicios).'],
+  // G-208 (review r6 08 M1 'Skip that day and shoulders end at about 6'): one optional day
+  'ui.plan.optional_bonus_one_day': ['{group}: {n} of its {top} final sets sit on your optional day ({exercises}). Skip that day and {group_lc} ends at about {main}.', '{group}: {n} de sus {top} series finales están en tu día opcional ({exercises}). Si te saltas ese día, {group_lc} termina en unas {main}.'],
   'instruction.2_bridge_optional': ['In this plan your cardio sits on your optional day ({days}): do it there, or on any other free day.', 'En este plan tu cardio cae en tu día opcional ({days}): hazlo ahí o en cualquier otro día libre.']
 };
 

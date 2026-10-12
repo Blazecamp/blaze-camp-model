@@ -1549,8 +1549,8 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 2,
+          "chest": 2,
+          "shoulders": 1,
           "triceps": 2
         },
         "Wed": {
@@ -1568,8 +1568,8 @@
         },
         "Fri": {
           "hips": 3,
-          "chest": 2,
-          "shoulders": 2,
+          "chest": 3,
+          "shoulders": 1,
           "triceps": 1
         },
         "Sat": {
@@ -3293,8 +3293,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 2,
+            "chest": 2,
+            "shoulders": 1,
             "triceps": 2
           },
           "why": [
@@ -4077,7 +4077,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-barbell-bench-press",
                   "name_key": "exercise.incline-barbell-bench-press.name",
                   "detail": null,
@@ -7573,8 +7573,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 2,
-            "shoulders": 2,
+            "chest": 3,
+            "shoulders": 1,
             "triceps": 1
           },
           "why": [
@@ -8351,7 +8351,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -10156,8 +10156,8 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 2,
+          "chest": 2,
+          "shoulders": 1,
           "triceps": 2
         },
         "Wed": {
@@ -10175,8 +10175,8 @@
         },
         "Fri": {
           "hips": 3,
-          "chest": 2,
-          "shoulders": 2,
+          "chest": 3,
+          "shoulders": 1,
           "triceps": 1
         },
         "Sat": {
@@ -11890,8 +11890,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 2,
+            "chest": 2,
+            "shoulders": 1,
             "triceps": 2
           },
           "why": [
@@ -12661,7 +12661,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-barbell-bench-press",
                   "name_key": "exercise.incline-barbell-bench-press.name",
                   "detail": null,
@@ -16119,8 +16119,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 2,
-            "shoulders": 2,
+            "chest": 3,
+            "shoulders": 1,
             "triceps": 1
           },
           "why": [
@@ -16884,7 +16884,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -18676,8 +18676,8 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 2,
+          "chest": 2,
+          "shoulders": 1,
           "triceps": 2
         },
         "Wed": {
@@ -18695,8 +18695,8 @@
         },
         "Fri": {
           "hips": 3,
-          "chest": 2,
-          "shoulders": 2,
+          "chest": 3,
+          "shoulders": 1,
           "triceps": 1
         },
         "Sat": {
@@ -20410,8 +20410,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 2,
+            "chest": 2,
+            "shoulders": 1,
             "triceps": 2
           },
           "why": [
@@ -21181,7 +21181,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-barbell-bench-press",
                   "name_key": "exercise.incline-barbell-bench-press.name",
                   "detail": null,
@@ -24639,8 +24639,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 2,
-            "shoulders": 2,
+            "chest": 3,
+            "shoulders": 1,
             "triceps": 1
           },
           "why": [
@@ -25404,7 +25404,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -27196,8 +27196,8 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 2,
+          "chest": 2,
+          "shoulders": 1,
           "triceps": 2
         },
         "Wed": {
@@ -27215,8 +27215,8 @@
         },
         "Fri": {
           "hips": 3,
-          "chest": 2,
-          "shoulders": 2,
+          "chest": 3,
+          "shoulders": 1,
           "triceps": 1
         },
         "Sat": {
@@ -28922,8 +28922,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 2,
+            "chest": 2,
+            "shoulders": 1,
             "triceps": 2
           },
           "why": [
@@ -29693,7 +29693,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-barbell-bench-press",
                   "name_key": "exercise.incline-barbell-bench-press.name",
                   "detail": null,
@@ -33151,8 +33151,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 2,
-            "shoulders": 2,
+            "chest": 3,
+            "shoulders": 1,
             "triceps": 1
           },
           "why": [
@@ -33916,7 +33916,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -35708,8 +35708,8 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 2,
+          "chest": 2,
+          "shoulders": 1,
           "triceps": 2
         },
         "Wed": {
@@ -35727,8 +35727,8 @@
         },
         "Fri": {
           "hips": 3,
-          "chest": 2,
-          "shoulders": 2,
+          "chest": 3,
+          "shoulders": 1,
           "triceps": 1
         },
         "Sat": {
@@ -37505,8 +37505,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 2,
+            "chest": 2,
+            "shoulders": 1,
             "triceps": 2
           },
           "why": [
@@ -38298,7 +38298,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-barbell-bench-press",
                   "name_key": "exercise.incline-barbell-bench-press.name",
                   "detail": {
@@ -41850,8 +41850,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 2,
-            "shoulders": 2,
+            "chest": 3,
+            "shoulders": 1,
             "triceps": 1
           },
           "why": [
@@ -42652,7 +42652,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -44477,8 +44477,8 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 2,
+          "chest": 2,
+          "shoulders": 1,
           "triceps": 2
         },
         "Wed": {
@@ -44496,8 +44496,8 @@
         },
         "Fri": {
           "hips": 3,
-          "chest": 2,
-          "shoulders": 2,
+          "chest": 3,
+          "shoulders": 1,
           "triceps": 1
         },
         "Sat": {
@@ -46270,8 +46270,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 2,
+            "chest": 2,
+            "shoulders": 1,
             "triceps": 2
           },
           "why": [
@@ -47063,7 +47063,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-barbell-bench-press",
                   "name_key": "exercise.incline-barbell-bench-press.name",
                   "detail": {
@@ -50615,8 +50615,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 2,
-            "shoulders": 2,
+            "chest": 3,
+            "shoulders": 1,
             "triceps": 1
           },
           "why": [
@@ -51417,7 +51417,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -53242,8 +53242,8 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 2,
+          "chest": 2,
+          "shoulders": 1,
           "triceps": 2
         },
         "Wed": {
@@ -53261,8 +53261,8 @@
         },
         "Fri": {
           "hips": 3,
-          "chest": 2,
-          "shoulders": 2,
+          "chest": 3,
+          "shoulders": 1,
           "triceps": 1
         },
         "Sat": {
@@ -55035,8 +55035,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 2,
+            "chest": 2,
+            "shoulders": 1,
             "triceps": 2
           },
           "why": [
@@ -55828,7 +55828,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-barbell-bench-press",
                   "name_key": "exercise.incline-barbell-bench-press.name",
                   "detail": {
@@ -59384,8 +59384,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 2,
-            "shoulders": 2,
+            "chest": 3,
+            "shoulders": 1,
             "triceps": 1
           },
           "why": [
@@ -60186,7 +60186,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -62011,8 +62011,8 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 2,
+          "chest": 2,
+          "shoulders": 1,
           "triceps": 2
         },
         "Wed": {
@@ -62030,8 +62030,8 @@
         },
         "Fri": {
           "hips": 3,
-          "chest": 2,
-          "shoulders": 2,
+          "chest": 3,
+          "shoulders": 1,
           "triceps": 1
         },
         "Sat": {
@@ -63812,8 +63812,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 2,
+            "chest": 2,
+            "shoulders": 1,
             "triceps": 2
           },
           "why": [
@@ -64609,7 +64609,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-barbell-bench-press",
                   "name_key": "exercise.incline-barbell-bench-press.name",
                   "detail": {
@@ -68165,8 +68165,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 2,
-            "shoulders": 2,
+            "chest": 3,
+            "shoulders": 1,
             "triceps": 1
           },
           "why": [
@@ -68967,7 +68967,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -70792,8 +70792,8 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 2,
+          "chest": 2,
+          "shoulders": 1,
           "triceps": 2
         },
         "Wed": {
@@ -70811,8 +70811,8 @@
         },
         "Fri": {
           "hips": 3,
-          "chest": 2,
-          "shoulders": 2,
+          "chest": 3,
+          "shoulders": 1,
           "triceps": 1
         },
         "Sat": {
@@ -72617,8 +72617,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 2,
+            "chest": 2,
+            "shoulders": 1,
             "triceps": 2
           },
           "why": [
@@ -73414,7 +73414,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-barbell-bench-press",
                   "name_key": "exercise.incline-barbell-bench-press.name",
                   "detail": {
@@ -76966,8 +76966,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 2,
-            "shoulders": 2,
+            "chest": 3,
+            "shoulders": 1,
             "triceps": 1
           },
           "why": [
@@ -77789,7 +77789,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -79751,8 +79751,8 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 2,
+          "chest": 2,
+          "shoulders": 1,
           "triceps": 2
         },
         "Wed": {
@@ -79770,8 +79770,8 @@
         },
         "Fri": {
           "hips": 3,
-          "chest": 2,
-          "shoulders": 2,
+          "chest": 3,
+          "shoulders": 1,
           "triceps": 1
         },
         "Sat": {
@@ -81572,8 +81572,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 2,
+            "chest": 2,
+            "shoulders": 1,
             "triceps": 2
           },
           "why": [
@@ -82369,7 +82369,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-barbell-bench-press",
                   "name_key": "exercise.incline-barbell-bench-press.name",
                   "detail": {
@@ -85921,8 +85921,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 2,
-            "shoulders": 2,
+            "chest": 3,
+            "shoulders": 1,
             "triceps": 1
           },
           "why": [
@@ -86744,7 +86744,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -88706,8 +88706,8 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 2,
+          "chest": 2,
+          "shoulders": 1,
           "triceps": 2
         },
         "Wed": {
@@ -88725,8 +88725,8 @@
         },
         "Fri": {
           "hips": 3,
-          "chest": 2,
-          "shoulders": 2,
+          "chest": 3,
+          "shoulders": 1,
           "triceps": 1
         },
         "Sat": {
@@ -90543,8 +90543,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 2,
+            "chest": 2,
+            "shoulders": 1,
             "triceps": 2
           },
           "why": [
@@ -91340,7 +91340,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-barbell-bench-press",
                   "name_key": "exercise.incline-barbell-bench-press.name",
                   "detail": {
@@ -94892,8 +94892,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 2,
-            "shoulders": 2,
+            "chest": 3,
+            "shoulders": 1,
             "triceps": 1
           },
           "why": [
@@ -95715,7 +95715,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -97677,8 +97677,8 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 2,
+          "chest": 2,
+          "shoulders": 1,
           "triceps": 2
         },
         "Wed": {
@@ -97696,8 +97696,8 @@
         },
         "Fri": {
           "hips": 3,
-          "chest": 2,
-          "shoulders": 2,
+          "chest": 3,
+          "shoulders": 1,
           "triceps": 1
         },
         "Sat": {
@@ -99485,8 +99485,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 2,
+            "chest": 2,
+            "shoulders": 1,
             "triceps": 2
           },
           "why": [
@@ -100282,7 +100282,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-barbell-bench-press",
                   "name_key": "exercise.incline-barbell-bench-press.name",
                   "detail": {
@@ -103841,8 +103841,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 2,
-            "shoulders": 2,
+            "chest": 3,
+            "shoulders": 1,
             "triceps": 1
           },
           "why": [
@@ -104664,7 +104664,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,

@@ -18,6 +18,7 @@ _Tu plan Blaze Camp_
 - Nos dijiste que tienes dolor en la rodilla (peor con flexiones profundas de rodilla). Lo que hace este plan: deja fuera los ejercicios que más cargan esa zona y lo dice en el ejercicio, mantiene cuádriceps en las mismas series en lugar de sumar más (progresa con repeticiones y carga) y te dice dónde parar en los ejercicios que la doblan. Si el dolor aumenta, detente y consulta a un profesional.
 - Las semanas 11 y 12 incluyen Navidad / Año Nuevo: mueve una sesión uno o dos días si lo necesitas; planifica las vacaciones largas entre bloques.
 - Juegas 3 o más veces por semana: cada semana tiene la mitad de los saltos y ningún ejercicio extra de agilidad.
+- Hombros: 2 de sus 9 series finales están en tu día opcional (Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), viernes). Si te saltas ese día, hombros termina en unas 7.
 
 ## Instrucciones básicas
 > \*Siempre deja 1 repetición en reserva: nunca llegues al fallo, pero acércate lo más que puedas.
@@ -57,7 +58,7 @@ Las superseries de core son opcionales en cualquier parte: puedes juntar un ejer
 - ¿Algo te duele? Primero usa uno de los cambios de la lista, luego quita entre un tercio y la mitad de las series de ese ejercicio y, si sigue, quítalo por el resto del bloque. Consulta a un profesional si el dolor sigue.
 - ¿La vida se interpuso por varias semanas (enfermedad, viajes, trabajo)? Detén el bloque, toma la semana suave recomendada si quieres y luego crea un bloque nuevo.
 - Tú (o tu entrenador) puedes desactivar estos bloques cualquier día: saltos, lanzamientos y velocidad; potencia / olímpicos; core (abdomen); cardio; cuidado articular; accesorios. También puedes agregar o quitar ejercicios (por ejemplo, más trabajo de deltoides posterior). Usa las superseries sugeridas para ahorrar tiempo.
-- Desactivar el bloque de accesorios quita todas las series directas de bíceps, tríceps y pantorrillas.
+- Desactivar el bloque de accesorios quita todas las series directas de hombros, bíceps, tríceps y pantorrillas.
 - Tú (o tu entrenador) también puedes cambiar las series de cualquier ejercicio en cualquier día o semana: el plan es una plantilla.
 - El tiempo que aparece en cada día es un estimado promedio, solo como información: nada de este plan se recorta ni se cambia por tiempo. ¿Quieres un día más corto? Usa las superseries sugeridas o quita lo que el día marca como más fácil de quitar.
 
@@ -84,18 +85,18 @@ Tu plan sube como una escalera: pasos pequeños hasta la semana 6, un poco más 
 
 | Semana | Nivel | Esfuerzo | Series |
 |---|---|---|---|
-| 1 | 2.0 ▮▮ | 3 en reserva | 36 |
-| 2 | 2.6 ▮▮▮ | 3 en reserva | 36 |
-| 3 | 3.2 ▮▮▮ | 3 en reserva | 37 |
-| 4 | 3.8 ▮▮▮▮ | 3 en reserva | 37 |
-| 5 | 4.4 ▮▮▮▮ | 3 en reserva | 38 |
-| 6 | 5.0 ▮▮▮▮▮ | 3 en reserva | 38 |
-| 7 | 6.0 ▮▮▮▮▮▮ | 2 en reserva | 39 |
-| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 en reserva | 39 |
-| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 en reserva | 40 |
-| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 en reserva | 41 |
-| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 en reserva | 44 |
-| 12 | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 en reserva + intensificador | 44 |
+| 1 | 2.0 ▮▮ | 3 en reserva | 38 |
+| 2 | 2.6 ▮▮▮ | 3 en reserva | 38 |
+| 3 | 3.2 ▮▮▮ | 3 en reserva | 39 |
+| 4 | 3.8 ▮▮▮▮ | 3 en reserva | 39 |
+| 5 | 4.4 ▮▮▮▮ | 3 en reserva | 39 |
+| 6 | 5.0 ▮▮▮▮▮ | 3 en reserva | 40 |
+| 7 | 6.0 ▮▮▮▮▮▮ | 2 en reserva | 40 |
+| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 en reserva | 41 |
+| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 en reserva | 41 |
+| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 en reserva | 42 |
+| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 en reserva | 45 |
+| 12 | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 en reserva + intensificador | 45 |
 
 semanas 1-4: Adaptación (pasos pequeños) · semanas 5-8: Subiendo el ritmo · semanas 9-12: Semanas más duras
 
@@ -107,7 +108,7 @@ Después de este plan: tú eliges: siguiente bloque (se recomienda una semana su
 
 ## Series semanales por grupo muscular
 
-_Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan. "-" = sin ejercicio propio en este plan (entre paréntesis: las series que igual recibe de los otros ejercicios). Los números están redondeados a series enteras._
+_Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan. Los números están redondeados a series enteras._
 
 |  | Semana 1 | Semana 6 | Semana 12 |
 |---|---|---|---|
@@ -115,18 +116,18 @@ _Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera =
 | Cadera (glúteos + isquiotibiales) | 7 | 7 | 8 |
 | Espalda | 6 | 7 | 8 |
 | Pecho | 6 | 7 | 8 |
-| Hombros | 6 | 7 | 8 |
+| Hombros | 8 | 8 | 9 |
 | Bíceps | 4 | 4 | 5 |
 | Tríceps | 4 | 4 | 5 |
 | Pantorrillas | 4 | 4 | 4 |
-| **Total** | **36** | **38** | **44** |
+| **Total** | **38** | **40** | **45** |
 
 ### Semana 1 de un vistazo
 
 | Día | Sesión | Tiempo | Grupos musculares (ejercicios) |
 |---|---|---|---|
 | Lunes | A - sentadilla + tirón | aprox. 70-90 min | Cuádriceps 3, Espalda 2, Bíceps 1, Pantorrillas 1 |
-| Jueves | B - peso muerto + empuje | aprox. 70-85 min | Cadera (glúteos + isquiotibiales) 3, Pecho 1, Hombros 2, Tríceps 1 |
+| Jueves | B - peso muerto + empuje | aprox. 75-90 min | Cadera (glúteos + isquiotibiales) 3, Pecho 2, Hombros 1, Tríceps 1 |
 | Viernes | Día opcional | aprox. 40-50 min | Hombros 1 |
 
 ## Bloque de entrenamiento, semana a semana · Semana 1-12
@@ -142,12 +143,12 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Cuádriceps | 6 6 6 6 · 6 6 6 6 · 6 6 6 6 | 6 |
 | Cadera (glúteos + isquiotibiales) | 7 7 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
 | Espalda | 6 6 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
-| Pecho | 6 6 6 6 · 7 7 7 7 · 7 7 8 8 | 8 |
-| Hombros | 6 6 7 7 · 7 7 8 8 · 8 8 8 8 | 8 |
-| Bíceps | 4 4 4 4 · 4 4 4 4 · 5 5 5 5 | 5 |
-| Tríceps | 4 4 4 4 · 4 4 4 4 · 4 5 5 5 | 5 |
+| Pecho | 6 6 6 6 · 6 7 7 7 · 7 7 8 8 | 8 |
+| Hombros | 8 8 8 8 · 8 8 8 8 · 8 8 9 9 | 9 |
+| Bíceps | 4 4 4 4 · 4 4 4 4 · 4 4 5 5 | 5 |
+| Tríceps | 4 4 4 4 · 4 4 4 4 · 4 4 5 5 | 5 |
 | Pantorrillas | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 4 |
-| **Total** | 36 36 37 37 · 38 38 39 39 · 40 41 44 44 | 44 |
+| **Total** | 38 38 39 39 · 39 40 40 41 · 41 42 45 45 | 45 |
 
 ### Lunes · A - sentadilla + tirón
 
@@ -162,7 +163,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Sentadilla hack en máquina (Hack Squat) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 a 15 reps → 8 a 12 reps |
 | Jalón al pecho a un brazo (Single-Arm Pulldown) → Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 12 a 15 por lado → 8 a 12 por lado |
 | Subida al cajón frontal y lateral (Step-Up) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 12 por lado → 8 a 12 por lado |
-| Curl martillo (Hammer Curl) | 2 2 2 2 · 2 2 2 2 · 3 3 3 3 | 15 a 20 reps |
+| Curl martillo (Hammer Curl) | 2 2 2 2 · 2 2 2 3 · 3 3 3 3 | 15 a 20 reps |
 | Extensión de piernas en máquina (Leg Extension) → Extensión de piernas en máquina (Leg Extension) - una pierna a la vez | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 reps |
 | Elevación de pantorrillas en máquina (Calf Raise) → Elevación de pantorrillas en máquina (Calf Raise) - desde un escalón (estiramiento completo abajo) | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 a 20 reps |
 
@@ -175,13 +176,13 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Saltos de tobillo en el lugar (Ankle Hops) → Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) → Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 contactos → 12 contactos → 15 contactos |
 | Pase de pecho con balón medicinal (Medball Chest Pass) → Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 reps → 5 por lado → 6 por lado |
 | Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
-| Press de banca con mancuernas (DB Bench Press) | 3 3 3 3 · 4 4 4 4 · 4 4 4 4 | 10 a 12 reps → 8 a 12 reps |
+| Press de banca con mancuernas (DB Bench Press) | 3 3 3 3 · 3 4 4 4 · 4 4 4 4 | 10 a 12 reps → 8 a 12 reps |
 | Hiperextensión a 45° (Back Extension) | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 12 a 15 reps → 10 a 12 reps |
 | Press inclinado con mancuernas (Incline DB Press) → Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 10 a 12 reps → 8 a 12 reps |
 | Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) → Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 12 por lado → 8 a 12 por lado |
 | Extensión de tríceps sobre la cabeza (Overhead Extension) → Rompecráneos con mancuernas en el piso (Floor Skullcrusher) | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 15 a 20 reps |
 | Curl femoral sentado (Seated Leg Curl) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 reps |
-| Face pull con kettlebell (KB Face Pull) → Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba | 2 2 2 2 · 2 2 3 3 · 3 3 3 3 | 15 a 20 reps |
+| Face pull con kettlebell (KB Face Pull) → Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 a 20 reps |
 | Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 a 15 reps |
 
 ### Viernes · Día opcional
@@ -290,7 +291,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · B - peso muerto + empuje
-_Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo en el lugar (Ankle Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
@@ -368,7 +369,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez.
    - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Nombre para copiar en YouTube: `Seated Leg Curl (machine)`
-3. **Face pull con kettlebell (KB Face Pull)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+3. **Face pull con kettlebell (KB Face Pull)** — 4 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular de hombros por encima de la cabeza / raqueta
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
@@ -510,7 +511,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · B - peso muerto + empuje
-_Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo en el lugar (Ankle Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
@@ -584,7 +585,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez.
    - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Nombre para copiar en YouTube: `Seated Leg Curl (machine)`
-3. **Face pull con kettlebell (KB Face Pull)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+3. **Face pull con kettlebell (KB Face Pull)** — 4 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular de hombros por encima de la cabeza / raqueta
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
@@ -726,7 +727,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · B - peso muerto + empuje
-_Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo en el lugar (Ankle Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
@@ -800,7 +801,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez.
    - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Nombre para copiar en YouTube: `Seated Leg Curl (machine)`
-3. **Face pull con kettlebell (KB Face Pull)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+3. **Face pull con kettlebell (KB Face Pull)** — 4 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular de hombros por encima de la cabeza / raqueta
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
@@ -942,7 +943,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · B - peso muerto + empuje
-_Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo en el lugar (Ankle Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
@@ -1016,7 +1017,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez.
    - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Nombre para copiar en YouTube: `Seated Leg Curl (machine)`
-3. **Face pull con kettlebell (KB Face Pull)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+3. **Face pull con kettlebell (KB Face Pull)** — 4 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular de hombros por encima de la cabeza / raqueta
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
@@ -1068,219 +1069,6 @@ _Nivel de la semana: 4.4 de 11 (2 = el inicio, 11 = tu semana más dura)_
 - Lunes: Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) → Salto lateral desde subida al cajón (Lateral Step-Up Jump); Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass); Jalón al pecho a un brazo (Single-Arm Pulldown) → Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba; Extensión de piernas en máquina (Leg Extension) → Extensión de piernas en máquina (Leg Extension) - una pierna a la vez
 - Jueves: Saltos de tobillo en el lugar (Ankle Hops) → Saltos de tobillo laterales con dos pies (Lateral Ankle Hops); Pase de pecho con balón medicinal (Medball Chest Pass) → Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops); Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) → Peso muerto escalonado con mancuernas (Kickstand DB Deadlift); Face pull con kettlebell (KB Face Pull) → Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba
 - Los saltos pasan a Recibir-Crear 2: Aterrizar y salir
-- +1 serie en Press de banca con mancuernas (DB Bench Press) (jueves): 3 → 4 series
-
-**Trabajo atlético esta semana:** 8 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
-
-### Lunes · A - sentadilla + tirón
-_Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral desde subida al cajón (Lateral Step-Up Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
-_Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl martillo (Hammer Curl)_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
-
-**Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
-
-**Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - cajón bajo (15-30 cm)
-   - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - por lado = 1 serie
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón en postura escalonada (Staggered-Stance Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
-2. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
-   - balón de 8 lb
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L)) · Nombre para copiar en YouTube: `Rotational Medball Chest Pass (R & L)`
-
-**Potencia / levantamientos olímpicos**
-1. **Swing ruso con kettlebell (KB Swing)** — 2 × 10 a 15 reps · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
-   - peso según la velocidad: rápido y potente
-   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
-   - En lugar de Tirón de cargada desde colgado medio (Mid-Hang Clean Pull), para cuidar tu rodilla.
-   - Cambiar por: Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) (mantiene la extensión explosiva de cadera; pierde la carga más pesada a dos lados) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde la versión más fácil: este es más difícil)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
-
-**Fuerza**
-1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo en máquina, agarre supino (Machine Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre) / Remo en máquina, agarre prono (Machine Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre) / Remo en polea a 45 grados (45-Degree Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
-2. **Sentadilla hack en máquina (Hack Squat)** — 2 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
-   > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
-   - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
-3. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - por lado = 1 serie
-   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - por lado = 1 serie
-   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
-   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
-
-**Accesorios**
-1. **Curl martillo (Hammer Curl)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Cambiar por: Curl araña con el pecho en banco inclinado (Spider Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl de bíceps con mancuernas (DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl sentado con mancuernas (Seated DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl inclinado con mancuernas, meñique arriba (Incline DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Nombre para copiar en YouTube: `Dumbbell Hammer Curl`
-2. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez.
-   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
-   - Cuidado articular de rodillas
-   - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
-   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
-3. **Elevación de pantorrillas en máquina (Calf Raise)** — 4 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Cuidado articular del tendón de Aquiles y pantorrillas
-   - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
-   - Cambiar por: Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde la carga máxima) / Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (mantiene el trabajo de pantorrillas; pierde la versión más fácil: este es más difícil)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
-
-### Miércoles · Día de juego (Pickleball)
-
-### Jueves · B - peso muerto + empuje
-_Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
-_Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
-_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 2.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba, Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
-
-**Core / abdomen**
-1. **Plancha lateral (Side Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
-2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
-
-**Saltos, lanzamientos y velocidad**
-1. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 3 × 12 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Lateral Ankle Hops`
-2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
-   - balón de 8 lb
-   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
-   - Cambiar por: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
-
-**Potencia / levantamientos olímpicos**
-1. **Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing)** — 2 × 10 a 15 por lado · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
-   - peso según la velocidad: rápido y potente
-   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
-   - por lado = 1 serie
-   - Cambiar por: Swing ruso con kettlebell (KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
-
-**Fuerza**
-1. **Press de banca con mancuernas (DB Bench Press)** — 4 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
-2. **Hiperextensión a 45° (Back Extension)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
-   - Mantén este ejercicio en 10-12 repeticiones.
-   - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Nombre para copiar en YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Press inclinado con mancuernas (Incline DB Press)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
-4. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Nombre para copiar en YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
-
-**Accesorios**
-1. **Extensión de tríceps sobre la cabeza (Overhead Extension)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Cambiar por: Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Press Tate (Tate Press) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps en polea con barra recta, agarre prono (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Nombre para copiar en YouTube: `Overhead Dumbbell Triceps Extension`
-2. **Curl femoral sentado (Seated Leg Curl)** — 2 × 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez.
-   - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Nombre para copiar en YouTube: `Seated Leg Curl (machine)`
-3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Cuidado articular de hombros por encima de la cabeza / raqueta
-   - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
-   - Cambiar por: Face pull en polea (Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Nombre para copiar en YouTube: `KB Face Pull`
-
-**Cuidado articular**
-1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 2 × 12 a 15 reps · suave y controlado · 30-60 s de descanso
-   - Cuidado articular del tendón de Aquiles y pantorrillas
-   - Cambiar por: Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de tibial contra la pared (Tibialis Raise) (mantiene la misma función en la sesión; pierde la sensación del implemento original) / Elevación de pantorrillas en máquina (Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
-
-### Viernes · Día opcional
-_Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
-_Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicios extra: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)_
-
-**Calentamiento**
-1. 5 min de cualquier cardio
-
-**Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-
-**Accesorios**
-1. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (extra)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Ejercicio extra para completar tus series semanales
-   - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Aperturas posteriores en máquina (Reverse Pec Deck) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
-
-**Aeróbico**
-1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · ritmo constante: todavía puedes hablar
-   - Sirve cualquier opción de cardio. Guíate por el tiempo, no por la distancia.
-   - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
-   - Tus sesiones de Pickleball cuentan como trabajo aeróbico esta semana
-
-### Sábado · Día de juego (Pickleball)
-
-### Domingo · Día de juego (Pickleball)
-
-## Semana 6 — Subiendo el ritmo
-
-_Nivel de la semana: 5 de 11 (2 = el inicio, 11 = tu semana más dura)_
-
-**Qué cambia esta semana**
 - Mismas series: agrega un poco de peso o repeticiones esta semana
 
 **Trabajo atlético esta semana:** 8 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
@@ -1374,7 +1162,220 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · B - peso muerto + empuje
-_Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
+_Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
+_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 2.5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba, Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
+
+**Calentamiento**
+1. 5 min de cualquier cardio
+2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
+
+**Core / abdomen**
+1. **Plancha lateral (Side Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
+2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
+
+**Saltos, lanzamientos y velocidad**
+1. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 3 × 12 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Lateral Ankle Hops`
+2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+   - balón de 8 lb
+   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
+   - Cambiar por: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Nombre para copiar en YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
+
+**Potencia / levantamientos olímpicos**
+1. **Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing)** — 2 × 10 a 15 por lado · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
+   - peso según la velocidad: rápido y potente
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
+   - por lado = 1 serie
+   - Cambiar por: Swing ruso con kettlebell (KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez) / Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
+
+**Fuerza**
+1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
+2. **Hiperextensión a 45° (Back Extension)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Mantén este ejercicio en 10-12 repeticiones.
+   - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Nombre para copiar en YouTube: `45-Degree Hyperextension (back/hip extension)`
+3. **Press inclinado con mancuernas (Incline DB Press)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
+4. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - por lado = 1 serie
+   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Nombre para copiar en YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+
+**Accesorios**
+1. **Extensión de tríceps sobre la cabeza (Overhead Extension)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
+   - Cambiar por: Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Press Tate (Tate Press) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps en polea con barra recta, agarre prono (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Nombre para copiar en YouTube: `Overhead Dumbbell Triceps Extension`
+2. **Curl femoral sentado (Seated Leg Curl)** — 2 × 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez.
+   - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Nombre para copiar en YouTube: `Seated Leg Curl (machine)`
+3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 4 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
+   - Cuidado articular de hombros por encima de la cabeza / raqueta
+   - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
+   - Cambiar por: Face pull en polea (Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Nombre para copiar en YouTube: `KB Face Pull`
+
+**Cuidado articular**
+1. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 2 × 12 a 15 reps · suave y controlado · 30-60 s de descanso
+   - Cuidado articular del tendón de Aquiles y pantorrillas
+   - Cambiar por: Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de tibial contra la pared (Tibialis Raise) (mantiene la misma función en la sesión; pierde la sensación del implemento original) / Elevación de pantorrillas en máquina (Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de pantorrillas de pie con peso corporal desde un escalón (Standing Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
+
+### Viernes · Día opcional
+_Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
+_Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicios extra: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)_
+
+**Calentamiento**
+1. 5 min de cualquier cardio
+
+**Core / abdomen**
+1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+
+**Accesorios**
+1. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (extra)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
+   - Ejercicio extra para completar tus series semanales
+   - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Aperturas posteriores en máquina (Reverse Pec Deck) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
+
+**Aeróbico**
+1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · ritmo constante: todavía puedes hablar
+   - Sirve cualquier opción de cardio. Guíate por el tiempo, no por la distancia.
+   - Esta sesión de cardio es parte del plan aunque te saltes las pesas opcionales.
+   - Tus sesiones de Pickleball cuentan como trabajo aeróbico esta semana
+
+### Sábado · Día de juego (Pickleball)
+
+### Domingo · Día de juego (Pickleball)
+
+## Semana 6 — Subiendo el ritmo
+
+_Nivel de la semana: 5 de 11 (2 = el inicio, 11 = tu semana más dura)_
+
+**Qué cambia esta semana**
+- +1 serie en Press de banca con mancuernas (DB Bench Press) (jueves): 3 → 4 series
+
+**Trabajo atlético esta semana:** 8 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
+
+### Lunes · A - sentadilla + tirón
+_Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Salto lateral desde subida al cajón (Lateral Step-Up Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl martillo (Hammer Curl)_
+
+**Calentamiento**
+1. 5 min de cualquier cardio
+2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
+
+**Core / abdomen**
+1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
+
+**Saltos, lanzamientos y velocidad**
+1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - cajón bajo (15-30 cm)
+   - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
+   - por lado = 1 serie
+   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón en postura escalonada (Staggered-Stance Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
+2. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+   - balón de 8 lb
+   > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
+   - Cambiar por: Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L)) · Nombre para copiar en YouTube: `Rotational Medball Chest Pass (R & L)`
+
+**Potencia / levantamientos olímpicos**
+1. **Swing ruso con kettlebell (KB Swing)** — 2 × 10 a 15 reps · muévela rápido: si la kettlebell se frena o la técnica se rompe, es demasiado peso · 2-3 min de descanso
+   - peso según la velocidad: rápido y potente
+   - Potencia balística: extiende la cadera con fuerza y deja flotar la kettlebell. No cuenta como series de glúteo.
+   - En lugar de Tirón de cargada desde colgado medio (Mid-Hang Clean Pull), para cuidar tu rodilla.
+   - Cambiar por: Tirón alto con mancuerna o kettlebell (High Pull) (mantiene la extensión explosiva de cadera; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) (mantiene la extensión explosiva de cadera; pierde la carga más pesada a dos lados) / Swing americano con kettlebell, hasta arriba de la cabeza (American KB Swing) (mantiene la extensión explosiva de cadera; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Nombre para copiar en YouTube: `Kettlebell Swing (Russian)`
+
+**Fuerza**
+1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - Cambiar por: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo en máquina, agarre supino (Machine Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre) / Remo en máquina, agarre prono (Machine Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre) / Remo en polea a 45 grados (45-Degree Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
+2. **Sentadilla hack en máquina (Hack Squat)** — 2 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
+   > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
+   - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
+3. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - por lado = 1 serie
+   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
+4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - por lado = 1 serie
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
+   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+
+**Accesorios**
+1. **Curl martillo (Hammer Curl)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
+   - Cambiar por: Curl araña con el pecho en banco inclinado (Spider Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl de bíceps con mancuernas (DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl sentado con mancuernas (Seated DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl inclinado con mancuernas, meñique arriba (Incline DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Nombre para copiar en YouTube: `Dumbbell Hammer Curl`
+2. **Extensión de piernas en máquina (Leg Extension) - una pierna a la vez** — 2 × 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez.
+   - Solo en el rango sin dolor: ajusta la máquina (asiento, rodillo o topes) para que la rodilla se doble solo hasta donde no duela.
+   - Cuidado articular de rodillas
+   - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
+   - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
+3. **Elevación de pantorrillas en máquina (Calf Raise)** — 4 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
+   - Cuidado articular del tendón de Aquiles y pantorrillas
+   - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
+   - Cambiar por: Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde la carga máxima) / Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (mantiene el trabajo de pantorrillas; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
+
+### Miércoles · Día de juego (Pickleball)
+
+### Jueves · B - peso muerto + empuje
+_Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
@@ -1446,7 +1447,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez.
    - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Nombre para copiar en YouTube: `Seated Leg Curl (machine)`
-3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 4 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular de hombros por encima de la cabeza / raqueta
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
@@ -1494,7 +1495,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 _Nivel de la semana: 6 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Face pull con kettlebell (KB Face Pull) (jueves): 2 → 3 series
+- Mismas series: agrega un poco de peso o repeticiones esta semana
 
 **Trabajo atlético esta semana:** 8 contactos de salto · 39 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
 
@@ -1659,7 +1660,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez.
    - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Nombre para copiar en YouTube: `Seated Leg Curl (machine)`
-3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 3 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 4 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular de hombros por encima de la cabeza / raqueta
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
@@ -1707,7 +1708,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 _Nivel de la semana: 7 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- Mismas series: agrega un poco de peso o repeticiones esta semana
+- +1 serie en Curl martillo (Hammer Curl) (lunes): 2 → 3 series
 
 **Trabajo atlético esta semana:** 8 contactos de salto · 42 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico
 
@@ -1779,7 +1780,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
-1. **Curl martillo (Hammer Curl)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+1. **Curl martillo (Hammer Curl)** — 3 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cambiar por: Curl araña con el pecho en banco inclinado (Spider Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl de bíceps con mancuernas (DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl sentado con mancuernas (Seated DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl inclinado con mancuernas, meñique arriba (Incline DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Nombre para copiar en YouTube: `Dumbbell Hammer Curl`
@@ -1872,7 +1873,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez.
    - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Nombre para copiar en YouTube: `Seated Leg Curl (machine)`
-3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 3 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 4 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular de hombros por encima de la cabeza / raqueta
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
@@ -1924,7 +1925,7 @@ _Nivel de la semana: 8 de 11 (2 = el inicio, 11 = tu semana más dura)_
 - Lunes: Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) → Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss); Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) → Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row); Elevación de pantorrillas en máquina (Calf Raise) → Elevación de pantorrillas en máquina (Calf Raise) - desde un escalón (estiramiento completo abajo)
 - Jueves: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) → Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops); Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass); Press inclinado con mancuernas (Incline DB Press) → Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo; Extensión de tríceps sobre la cabeza (Overhead Extension) → Rompecráneos con mancuernas en el piso (Floor Skullcrusher)
 - Los saltos pasan a Recibir-Crear 3: Repetir
-- +1 serie en Curl martillo (Hammer Curl) (lunes): 2 → 3 series
+- Mismas series: agrega un poco de peso o repeticiones esta semana
 
 **Trabajo atlético esta semana:** 8 contactos de salto · 45 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico
 
@@ -2017,7 +2018,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · B - peso muerto + empuje
-_Tiempo promedio: aprox. 80-95 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) + Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (ahorras unos 3 min)_
@@ -2089,7 +2090,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez.
    - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Nombre para copiar en YouTube: `Seated Leg Curl (machine)`
-3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 3 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 4 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular de hombros por encima de la cabeza / raqueta
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
@@ -2302,7 +2303,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 15 en todas las series con 1-2 en reserva, sube el peso la próxima vez.
    - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Nombre para copiar en YouTube: `Seated Leg Curl (machine)`
-3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 3 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 4 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular de hombros por encima de la cabeza / raqueta
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
@@ -2445,7 +2446,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · B - peso muerto + empuje
-_Tiempo promedio: aprox. 85-105 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 90-110 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) + Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (ahorras unos 3 min)_
@@ -2517,7 +2518,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 15 en todas las series con 1-2 en reserva, sube el peso la próxima vez.
    - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Nombre para copiar en YouTube: `Seated Leg Curl (machine)`
-3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 3 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 4 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular de hombros por encima de la cabeza / raqueta
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
@@ -2660,7 +2661,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · B - peso muerto + empuje
-_Tiempo promedio: aprox. 85-105 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 90-110 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) + Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (ahorras unos 3 min)_
@@ -2732,7 +2733,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 15 en todas las series con 1 en reserva, sube el peso la próxima vez.
    - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Nombre para copiar en YouTube: `Seated Leg Curl (machine)`
-3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 3 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · Serie MYO en la última serie: unas 15 repeticiones, luego 5 miniseries de 5 repeticiones con una pausa corta (unas 5 respiraciones) entre ellas, mismo peso · 60-90 s de descanso
+3. **Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba** — 4 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · Serie MYO en la última serie: unas 15 repeticiones, luego 5 miniseries de 5 repeticiones con una pausa corta (unas 5 respiraciones) entre ellas, mismo peso · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular de hombros por encima de la cabeza / raqueta
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.

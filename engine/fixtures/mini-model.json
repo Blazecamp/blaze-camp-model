@@ -18,7 +18,7 @@
    "profiles": 127,
    "sports_in_picker": 52,
    "activities": 26,
-   "en_keys": 2759,
+   "en_keys": 2762,
    "es_missing": 805
   },
   "do_not_edit_by_hand": "edit tools/fixture/*.mjs and rebuild; update engine/CONTRACTS.md with any shape change"
@@ -60041,12 +60041,14 @@
      ],
      "max": 4,
      "min_group_exercises": 3,
+     "later_capped": true,
      "refs": [
       "VOL-07",
       "UNI-02",
-      "R4-SES-05"
+      "R4-SES-05",
+      "CH5-03"
      ],
-     "status": "PROPOSED number (4 sets); review 03 M2 hint"
+     "status": "PROPOSED number (4 sets); review 03 M2 hint; later_capped reads VOL-07 (review r6 02 M1)"
     },
     "bonus_small_only": {
      "line_classes": [
@@ -60057,6 +60059,7 @@
       "aesthetics",
       "athletic"
      ],
+     "main_day_template_first": true,
      "refs": [
       "CH5-03",
       "R3-VOL-03",
@@ -60125,11 +60128,16 @@
     },
     "two_day_main_floor": {
      "enabled": true,
+     "also_groups": [
+      "shoulders"
+     ],
      "refs": [
       "R4-SES-03",
-      "ORD-10"
+      "ORD-10",
+      "R3-VOL-01",
+      "CH5-03"
      ],
-     "status": "approved rule (R4-SES-03) read on the training days"
+     "status": "approved rule (R4-SES-03) read on the training days; the shoulders with it (H17: shoulders counted as a group)"
     },
     "capped_notice_all": true,
     "capped_shortfalls": true,
@@ -61875,7 +61883,12 @@
       "OBSERVED BYOP ATHLETIC G12"
      ],
      "status": "PROPOSED (fix round 1): the order of the items that may carry it"
-    }
+    },
+    "no_test_day": true,
+    "no_test_day_refs": [
+     "R2-PER-07",
+     "R3-VOL-04"
+    ]
    },
    "circuit_rir": {
     "key": "effort.circuit_rir",
@@ -68461,12 +68474,25 @@
      ]
     },
     "sets_display_cap_final": true,
+    "sets_display_before_final": true,
+    "glance_by_credits": true,
+    "sets_legend": {
+     "dash_key": "ui.plan.sets_legend_dash",
+     "direct_key": "ui.plan.sets_legend_direct",
+     "refs": [
+      "R4-LIB-04",
+      "CH5-02"
+     ]
+    },
     "optional_bonus_line": {
      "key": "ui.plan.optional_bonus_big",
+     "all_groups": true,
      "refs": [
       "CH5-03",
       "R3-VOL-03",
-      "CX-04"
+      "CX-04",
+      "R4-SES-03",
+      "H17"
      ]
     },
     "refs": [
@@ -157331,6 +157357,7 @@
    "ui.plan.off_day": "Off",
    "ui.plan.olympic_sets": "{n} Olympic-lift sets",
    "ui.plan.optional_bonus_big": "{group}: {n} of its {top} final sets sit on your optional days ({exercises}). Skip those days and {group_lc} ends at about {main}.",
+   "ui.plan.optional_bonus_one_day": "{group}: {n} of its {top} final sets sit on your optional day ({exercises}). Skip that day and {group_lc} ends at about {main}.",
    "ui.plan.optional_cardio_counts": "optional lifting; the cardio counts",
    "ui.plan.optional_day": "Optional day",
    "ui.plan.optional_short": "optional",
@@ -157388,6 +157415,8 @@
    "ui.plan.sets_by_week_note_plain": "Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). \"Final sets\" is where the stairway is planned to end.",
    "ui.plan.sets_by_week_title": "Weekly sets per muscle group, week by week",
    "ui.plan.sets_class_lift": "{n} (class lift)",
+   "ui.plan.sets_legend_dash": "\"-\" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts).",
+   "ui.plan.sets_legend_direct": "\"{cell}\" = {n} sets counted for the group, {direct} of them from its own exercise (the rest are helper sets from the other lifts).",
    "ui.plan.sets_not_direct": "- ({n})",
    "ui.plan.sets_rounded": "Numbers are rounded to whole sets.",
    "ui.plan.sets_this_week": "Sets this week",
@@ -157433,7 +157462,7 @@
    "ui.plan.week_macro": "Week {n} overview",
    "ui.plan.weekly_sets": "Weekly sets per muscle",
    "ui.plan.weekly_sets_groups": "Weekly sets per muscle group",
-   "ui.plan.weekly_sets_groups_note": "Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. \"-\" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts).",
+   "ui.plan.weekly_sets_groups_note": "Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count.",
    "ui.plan.weekly_sets_note": "Counted the coach's way: main muscle 1 set, helpers 1/4 set; jumps, throws, sprints, swings and Olympic lifts never count",
    "ui.plan.why": "Why",
    "ui.plan.wod_dose": "{format}: {min}-{max} min",
@@ -159292,6 +159321,7 @@
    "ui.plan.off_day": "Descanso",
    "ui.plan.olympic_sets": "{n} series de levantamiento olímpico",
    "ui.plan.optional_bonus_big": "{group}: {n} de sus {top} series finales están en tus días opcionales ({exercises}). Si te saltas esos días, {group_lc} termina en unas {main}.",
+   "ui.plan.optional_bonus_one_day": "{group}: {n} de sus {top} series finales están en tu día opcional ({exercises}). Si te saltas ese día, {group_lc} termina en unas {main}.",
    "ui.plan.optional_cardio_counts": "pesas opcionales; el cardio cuenta",
    "ui.plan.optional_day": "Día opcional",
    "ui.plan.optional_short": "opcional",
@@ -159349,6 +159379,8 @@
    "ui.plan.sets_by_week_note_plain": "Contado con los ejercicios de este plan, un número por semana (un punto separa los bloques de ejercicios). \"Series finales\" es donde está planeado que termine la escalera.",
    "ui.plan.sets_by_week_title": "Series semanales por grupo muscular, semana a semana",
    "ui.plan.sets_class_lift": "{n} (levantamiento de la clase)",
+   "ui.plan.sets_legend_dash": "\"-\" = sin ejercicio propio en este plan (entre paréntesis: las series que igual recibe de los otros ejercicios).",
+   "ui.plan.sets_legend_direct": "\"{cell}\" = {n} series contadas para el grupo, {direct} de ellas de su propio ejercicio (el resto son series de apoyo de los otros ejercicios).",
    "ui.plan.sets_not_direct": "- ({n})",
    "ui.plan.sets_rounded": "Los números están redondeados a series enteras.",
    "ui.plan.sets_this_week": "Series de esta semana",
@@ -159394,7 +159426,7 @@
    "ui.plan.week_macro": "Resumen de la semana {n}",
    "ui.plan.weekly_sets": "Series semanales por músculo",
    "ui.plan.weekly_sets_groups": "Series semanales por grupo muscular",
-   "ui.plan.weekly_sets_groups_note": "Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan. \"-\" = sin ejercicio propio en este plan (entre paréntesis: las series que igual recibe de los otros ejercicios).",
+   "ui.plan.weekly_sets_groups_note": "Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan.",
    "ui.plan.weekly_sets_note": "Contado a la manera del coach: músculo principal 1 serie, ayudantes 1/4 de serie; saltos, lanzamientos, sprints, swings y olímpicos nunca cuentan",
    "ui.plan.why": "Por qué",
    "ui.plan.wod_dose": "{format}: {min}-{max} min",

@@ -49829,8 +49829,8 @@
                     "max": 1,
                     "rpe_min": 9,
                     "rpe_max": 9,
-                    "last_set": "myo",
-                    "intensifier": true
+                    "last_set": null,
+                    "intensifier": false
                   },
                   "rest": {
                     "type": "seconds",
@@ -49918,14 +49918,6 @@
                     {
                       "key": "why.unilateral_reps",
                       "ref": "UNI-01"
-                    },
-                    {
-                      "key": "why.myo_last",
-                      "ref": "VOL-15"
-                    },
-                    {
-                      "key": "why.intensifier_last_week",
-                      "ref": "R3-VOL-04"
                     },
                     {
                       "key": "why.planned_rir",
@@ -51124,8 +51116,8 @@
                     "max": 1,
                     "rpe_min": 9,
                     "rpe_max": 9,
-                    "last_set": "myo",
-                    "intensifier": true
+                    "last_set": null,
+                    "intensifier": false
                   },
                   "rest": {
                     "type": "seconds",
@@ -51207,14 +51199,6 @@
                     {
                       "key": "why.reps_matrix",
                       "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.myo_last",
-                      "ref": "VOL-15"
-                    },
-                    {
-                      "key": "why.intensifier_last_week",
-                      "ref": "R3-VOL-04"
                     },
                     {
                       "key": "why.planned_rir",
@@ -52740,8 +52724,8 @@
                     "max": 1,
                     "rpe_min": 9,
                     "rpe_max": 9,
-                    "last_set": "myo",
-                    "intensifier": true
+                    "last_set": null,
+                    "intensifier": false
                   },
                   "rest": {
                     "type": "seconds",
@@ -52813,14 +52797,6 @@
                     {
                       "key": "why.reps_matrix",
                       "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.myo_last",
-                      "ref": "VOL-15"
-                    },
-                    {
-                      "key": "why.intensifier_last_week",
-                      "ref": "R3-VOL-04"
                     },
                     {
                       "key": "why.planned_rir",
@@ -55547,7 +55523,7 @@
       0,
       0,
       0,
-      4
+      1
     ],
     "shortfalls": []
   },

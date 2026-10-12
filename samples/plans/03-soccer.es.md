@@ -32,9 +32,9 @@ _Tu plan Blaze Camp_
 
 _Este plan empieza con 3 en reserva y termina con 1 en la última semana: el "1 en reserva" del coach es donde terminas, así que sigue el número de cada semana._
 
-Esfuerzo planeado en la escalera: semanas 1-3: deja 3 en reserva; semana 4: deja 2 en reserva; semana 5: deja 1-2 en reserva; semana 6: deja 1 en reserva. Semana 6: un intensificador en cada uno de estos días (lunes y miércoles): una serie MYO en el último ejercicio de músculo pequeño o de máquina del día.
+Esfuerzo planeado en la escalera: semanas 1-3: deja 3 en reserva; semana 4: deja 2 en reserva; semana 5: deja 1-2 en reserva; semana 6: deja 1 en reserva.
 
-¿Cuánto peso? Cada ejercicio te dice cuántas repeticiones dejar en reserva: "deja 2 en reserva" significa que podrías hacer 2 repeticiones más al final de la serie (aproximadamente RPE 8; 3 en reserva = RPE 7, 1 en reserva = RPE 9). Tu plan empieza con 3 en reserva, luego 2, luego 1-2, y en la última semana 1 con algunas series extra duras. Semana 1: empieza un poco más ligero, con un peso que podrías levantar unas 3 veces más.
+¿Cuánto peso? Cada ejercicio te dice cuántas repeticiones dejar en reserva: "deja 2 en reserva" significa que podrías hacer 2 repeticiones más al final de la serie (aproximadamente RPE 8; 3 en reserva = RPE 7, 1 en reserva = RPE 9). Tu plan empieza con 3 en reserva, luego 2, luego 1-2, y termina con 1 en la última semana. Semana 1: empieza un poco más ligero, con un peso que podrías levantar unas 3 veces más.
 
 Los levantamientos olímpicos son para la potencia. Las cargadas (cleans), las arrancadas (snatches) y sus versiones con mancuernas y kettlebells entrenan potencia: mueve el peso lo más rápido que puedas con buena técnica. Elige un peso que puedas mover de forma explosiva en cada repetición; si se frena o se rompe la técnica, es demasiado pesado. No necesitas porcentajes para estos levantamientos, a menos que compitas en halterofilia (Olympic weightlifting).
 
@@ -55,7 +55,7 @@ Las superseries de core son opcionales en cualquier parte: puedes juntar un ejer
 - ¿Algo te duele? Primero usa uno de los cambios de la lista, luego quita entre un tercio y la mitad de las series de ese ejercicio y, si sigue, quítalo por el resto del bloque. Consulta a un profesional si el dolor sigue.
 - ¿La vida se interpuso por varias semanas (enfermedad, viajes, trabajo)? Detén el bloque, toma la semana suave recomendada si quieres y luego crea un bloque nuevo.
 - Tú (o tu entrenador) puedes desactivar estos bloques cualquier día: saltos, lanzamientos y velocidad; potencia / olímpicos; core (abdomen); cardio; accesorios. También puedes agregar o quitar ejercicios (por ejemplo, más trabajo de deltoides posterior). Usa las superseries sugeridas para ahorrar tiempo.
-- Desactivar el bloque de accesorios quita todas las series directas de bíceps, tríceps y pantorrillas.
+- Desactivar el bloque de accesorios quita todas las series directas de hombros, bíceps, tríceps y pantorrillas.
 - Tú (o tu entrenador) también puedes cambiar las series de cualquier ejercicio en cualquier día o semana: el plan es una plantilla.
 - El tiempo que aparece en cada día es un estimado promedio, solo como información: nada de este plan se recorta ni se cambia por tiempo. ¿Quieres un día más corto? Usa las superseries sugeridas o quita lo que el día marca como más fácil de quitar.
 
@@ -85,7 +85,7 @@ Tu plan sube como una escalera: pasos pequeños hasta la semana 3, un poco más 
 | 3 | 4.6 ▮▮▮▮▮ | 3 en reserva | 63 |
 | 4 | 6.7 ▮▮▮▮▮▮▮ | 2 en reserva | 67 |
 | 5 | 8.9 ▮▮▮▮▮▮▮▮▮ | 1-2 en reserva | 71 |
-| 6 · prueba | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 en reserva + intensificador | 76 |
+| 6 · prueba | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 en reserva | 76 |
 
 semanas 1-2: Adaptación (pasos pequeños) · semanas 3-4: Subiendo el ritmo · semanas 5-6: Semanas más duras
 
@@ -109,7 +109,7 @@ Días de prueba (anótalos en tu calendario; el plan no envía recordatorios): s
 
 ## Series semanales por grupo muscular
 
-_Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan. "-" = sin ejercicio propio en este plan (entre paréntesis: las series que igual recibe de los otros ejercicios). Los números están redondeados a series enteras._
+_Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan. Los números están redondeados a series enteras. "5 (2 directas)" = 5 series contadas para el grupo, 2 de ellas de su propio ejercicio (el resto son series de apoyo de los otros ejercicios)._
 
 |  | Semana 1 | Semana 3 | Semana 6 |
 |---|---|---|---|
@@ -129,7 +129,7 @@ _Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera =
 |---|---|---|---|
 | Lunes | S1 - salto + rodilla + tirón | aprox. 80-100 min | Cuádriceps 3, Espalda 2, Bíceps 1, Pantorrillas 1 |
 | Martes | Día aeróbico | aprox. 20 min | – |
-| Miércoles | S2 - balón medicinal + cadera + empuje | aprox. 115-140 min | Cadera (glúteos + isquiotibiales) 3, Pecho 1, Hombros 3, Tríceps 1, Pantorrillas 1 |
+| Miércoles | S2 - balón medicinal + cadera + empuje | aprox. 115-140 min | Cadera (glúteos + isquiotibiales) 3, Pecho 2, Hombros 2, Tríceps 1, Pantorrillas 1 |
 | Jueves | Día aeróbico | aprox. 25-35 min | – |
 | Viernes | S3 - olímpicos + fuerza | aprox. 100-120 min | Cuádriceps 2, Cadera (glúteos + isquiotibiales) 1, Espalda 2, Pecho 1, Pantorrillas 1 |
 | Sábado | Día opcional | aprox. 25-30 min | – |
@@ -1874,8 +1874,6 @@ _Nivel de la semana: 11 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Prueba final esta semana: cada prueba toma el lugar de la estación de sprint, cambio de dirección o salto de ese día** (Velocidad / agilidad, Saltos)
 
-_Última semana: un intensificador en cada uno de estos días (lunes y miércoles): una serie MYO en el último ejercicio de músculo pequeño o de máquina del día_
-
 **Qué cambia esta semana**
 - +1 serie en Extensión de piernas en máquina (Leg Extension) (lunes): 3 → 4 series
 - +1 serie en Curl nórdico (Nordic Curl) (miércoles): 2 → 3 series
@@ -1965,7 +1963,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 15 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Cambiar por: Curl araña con el pecho en banco inclinado (Spider Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl inclinado con mancuernas, meñique arriba (Incline DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
-2. **Extensión de piernas en máquina (Leg Extension)** — 4 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · Serie MYO en la última serie: unas 15 repeticiones, luego 5 miniseries de 5 repeticiones con una pausa corta (unas 5 respiraciones) entre ellas, mismo peso · 60-90 s de descanso
+2. **Extensión de piernas en máquina (Leg Extension)** — 4 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
@@ -2067,7 +2065,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 15 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (mantiene el trabajo de pantorrillas; pierde la versión más fácil: este es más difícil) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde la carga máxima)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
-5. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · Serie MYO en la última serie: unas 15 repeticiones, luego 5 miniseries de 5 repeticiones con una pausa corta (unas 5 respiraciones) entre ellas, mismo peso · 60-90 s de descanso
+5. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Ejercicio extra para completar tus series semanales
    - Cambiar por: Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con mancuernas (DB Upright Row) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con barra (Upright Row) (mantiene el trabajo de deltoides lateral; pierde el movimiento libre de cada mano) / Elevaciones laterales con mancuernas (Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición)

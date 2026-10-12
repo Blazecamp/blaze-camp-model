@@ -21,7 +21,7 @@ _Your Blaze Camp plan_
 >
 > \*\*\*\*\*If you have any questions just ask me - IG @BLAZECAMP or TWITTER @BLAZECAMP\_
 
-Planned effort across the stairway: weeks 1-4: leave 3 in the tank; weeks 5-6: leave 2 in the tank; week 7: leave 1-2 in the tank; week 8: leave 1 in the tank. Week 8: one intensifier on each of these days (Monday, Tuesday, Thursday and Friday): a MYO set on the day's last small-muscle or machine exercise.
+Planned effort across the stairway: weeks 1-4: leave 3 in the tank; weeks 5-6: leave 2 in the tank; week 7: leave 1-2 in the tank; week 8: leave 1 in the tank. Week 8: one intensifier on Friday: a MYO set on the day's last small-muscle or machine exercise.
 
 How heavy? Each exercise tells you how many reps to leave in the tank: "leave 2 in the tank" means you could do 2 more reps at the end of the set (about RPE 8; 3 left = RPE 7, 1 left = RPE 9). Your plan starts with 3 in the tank, then 2, then 1-2, and in the last week 1 with a few extra-hard sets. Week 1: start a little lighter, with a weight you could lift about 3 more times.
 
@@ -88,7 +88,7 @@ Test days (mark your calendar; the plan sends no reminders): week 1: Monday 12 O
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts). Numbers are rounded to whole sets._
+_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. Numbers are rounded to whole sets._
 
 |  | Week 1 | Week 4 | Week 8 |
 |---|---|---|---|
@@ -96,9 +96,9 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Hips (glutes + hamstrings) | 12 | 15 | 18 |
 | Back | 12 | 13 | 15 |
 | Chest | 11 | 12 | 14 |
-| Shoulders | 13 | 13 | 13 |
+| Shoulders | 12 | 13 | 13 |
 | Biceps | 10 | 10 | 11 |
-| Triceps | 11 | 11 | 11 |
+| Triceps | 10 | 11 | 11 |
 | Calves | 6 | 6 | 8 |
 | **Total** | **74** | **80** | **94** |
 
@@ -127,9 +127,9 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Hips (glutes + hamstrings) | 12 13 15 15 · 16 16 18 18 | 18 |
 | Back | 12 12 12 13 · 14 14 15 15 | 15 |
 | Chest | 11 11 11 12 · 12 13 14 14 | 14 |
-| Shoulders | 13 13 13 13 · 13 13 13 13 | 13 |
-| Biceps | 10 10 10 10 · 11 11 11 11 | 11 |
-| Triceps | 11 11 11 11 · 11 11 11 11 | 11 |
+| Shoulders | 12 12 12 13 · 13 13 13 13 | 13 |
+| Biceps | 10 10 10 10 · 10 10 11 11 | 11 |
+| Triceps | 10 10 10 11 · 11 11 11 11 | 11 |
 | Calves | 6 6 6 6 · 7 7 8 8 | 8 |
 | **Total** | 74 76 78 80 · 84 87 94 94 | 94 |
 
@@ -2412,7 +2412,7 @@ _Week level: 11 of 11 (2 = the start, 11 = your hardest week)_
 
 **End test this week: on the tested lifts, work up to one top set - it replaces that lift's top set - then do its back-off sets** (Strength, Cardio)
 
-_Last week: one intensifier on each of these days (Monday, Tuesday, Thursday and Friday): a MYO set on the day's last small-muscle or machine exercise_
+_Last week: one intensifier on Friday: a MYO set on the day's last small-muscle or machine exercise_
 
 **What changes this week**
 - Same sets: on a tested lift the test takes the place of the top set; on the other lifts add a little load or reps
@@ -2481,7 +2481,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
-3. **Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top** — 4 × 15 to 20 per side · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+3. **Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top** — 4 × 15 to 20 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 1 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
    - Swap for: Dumbbell Concentration Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
@@ -2538,7 +2538,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - per side = 1 set
    - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses the one-side-at-a-time work) / Overhead Dumbbell Triceps Extension (keeps the triceps work; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Triceps%20Kickback%20(one%20or%20both%20arms)) · Name to copy into YouTube: `Dumbbell Triceps Kickback (one or both arms)`
-3. **DB Lateral (Side) Raise** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+3. **DB Lateral (Side) Raise** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Swap for: DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Seated DB Lateral Raise (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20(Side)%20Raise) · Name to copy into YouTube: `DB Lateral (Side) Raise`
@@ -2610,7 +2610,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load) / JM Press (keeps the triceps work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
-2. **Ball Hamstring Curl (medball or stability ball)** — 4 × 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+2. **Ball Hamstring Curl (medball or stability ball)** — 4 × 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time.
    - Swap for: Supine Slider Hamstring Curl (keeps the hamstring curl; loses little - same movement, another grip or position) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Ball%20Hamstring%20Curl%20(medball%20or%20stability%20ball)) · Name to copy into YouTube: `Ball Hamstring Curl (medball or stability ball)`

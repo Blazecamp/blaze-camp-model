@@ -19,6 +19,8 @@ _Your Blaze Camp plan_
 - Biceps: this template holds 18 weekly sets, below the planned 25. Add an exercise if you want more.
 - Triceps: this template holds 20 weekly sets, below the planned 25. Add an exercise if you want more.
 - Weeks 11 and 12 include Christmas / New Year: move a session by a day or two if you need to; plan longer holidays between blocks.
+- Biceps: 4 of its 18 final sets sit on your optional day (Supine (Lying) Biceps Curl, Wednesday). Skip that day and biceps ends at about 14.
+- Triceps: 4 of its 20 final sets sit on your optional day (Overhead Cable Triceps Extension, Saturday). Skip that day and triceps ends at about 16.
 - Back: 5 of its 25 final sets sit on your optional days (Machine Row (Close / Neutral Grip), Wednesday; Lat Pulldown (Close Grip), Saturday). Skip those days and back ends at about 20.
 
 ## Basic Instruction
@@ -90,7 +92,7 @@ After this plan: you choose: next block (an easy week first is recommended, not 
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts). Numbers are rounded to whole sets._
+_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. Numbers are rounded to whole sets._
 
 |  | Week 1 | Week 6 | Week 12 |
 |---|---|---|---|
@@ -111,10 +113,10 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Day | Session | Time | Muscle groups (exercises) |
 |---|---|---|---|
 | Monday | A1 - squat + pull | about 70-90 min | Quads 3, Back 2, Shoulders 1, Biceps 1, Calves 1 |
-| Tuesday | B1 - hip thrust + push | about 95-115 min | Hips (glutes + hamstrings) 3, Chest 1, Shoulders 2, Triceps 2 |
+| Tuesday | B1 - hip thrust + push | about 95-115 min | Hips (glutes + hamstrings) 3, Chest 2, Shoulders 1, Triceps 2 |
 | Wednesday | Optional day | about 45-55 min | Hips (glutes + hamstrings) 2, Back 1, Biceps 1, Calves 1 |
 | Thursday | A2 - leg press + pull | about 70-85 min | Quads 3, Back 2, Shoulders 1, Biceps 1, Calves 1 |
-| Friday | B2 - deadlift + push | about 90-110 min | Hips (glutes + hamstrings) 3, Chest 2, Shoulders 2, Triceps 1 |
+| Friday | B2 - deadlift + push | about 90-110 min | Hips (glutes + hamstrings) 3, Chest 3, Shoulders 1, Triceps 1 |
 | Saturday | Optional day | about 50-60 min | Shoulders 2, Triceps 1, Calves 1 |
 
 ## Training block, week by week · Week 1-12
@@ -131,9 +133,9 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Hips (glutes + hamstrings) | 22 22 23 23 · 23 24 25 25 · 25 26 27 27 | 27 |
 | Back | 16 17 17 18 · 18 19 20 21 · 23 23 24 25 | 25 |
 | Chest | 16 16 17 17 · 18 18 19 20 · 21 21 22 23 | 23 of 25 |
-| Shoulders | 19 20 20 20 · 21 22 22 23 · 25 26 27 27 | 27 |
-| Biceps | 14 14 14 15 · 16 16 16 16 · 17 18 18 18 | 18 of 25 |
-| Triceps | 15 15 17 17 · 17 17 17 17 · 19 19 20 20 | 20 of 25 |
+| Shoulders | 19 20 20 20 · 21 22 22 23 · 25 26 26 27 | 27 |
+| Biceps | 14 14 14 15 · 16 16 16 16 · 17 17 18 18 | 18 of 25 |
+| Triceps | 15 15 17 17 · 17 17 17 17 · 19 19 19 20 | 20 of 25 |
 | Calves | 10 10 10 10 · 10 10 10 10 · 10 11 12 12 | 12 |
 | **Total** | 112 115 118 120 · 123 126 129 133 · 139 144 151 154 | 154 |
 

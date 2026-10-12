@@ -1757,8 +1757,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -4202,8 +4202,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -5358,7 +5358,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -8975,8 +8975,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -11305,8 +11305,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -12312,7 +12312,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -15738,8 +15738,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -18076,8 +18076,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -19083,7 +19083,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -22509,8 +22509,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -24839,8 +24839,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -25846,7 +25846,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -29272,8 +29272,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -31655,8 +31655,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -32675,7 +32675,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -36255,8 +36255,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -38618,8 +38618,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -39638,7 +39638,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -43218,8 +43218,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -45598,8 +45598,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -46618,7 +46618,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -50198,8 +50198,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -52578,8 +52578,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -53598,7 +53598,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -57178,8 +57178,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -59612,8 +59612,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -60637,7 +60637,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -64276,8 +64276,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -66685,8 +66685,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -67710,7 +67710,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -71349,8 +71349,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -73782,8 +73782,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -74807,7 +74807,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -78453,8 +78453,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -80507,8 +80507,8 @@
                     "max": 1,
                     "rpe_min": 9,
                     "rpe_max": 9,
-                    "last_set": "myo",
-                    "intensifier": true
+                    "last_set": null,
+                    "intensifier": false
                   },
                   "rest": {
                     "type": "seconds",
@@ -80579,14 +80579,6 @@
                       "args": {
                         "phase": "VOL3"
                       }
-                    },
-                    {
-                      "key": "why.myo_last",
-                      "ref": "VOL-15"
-                    },
-                    {
-                      "key": "why.intensifier_last_week",
-                      "ref": "R3-VOL-04"
                     },
                     {
                       "key": "why.planned_rir",
@@ -80936,6 +80928,15 @@
               ],
               "minutes_saved": 6,
               "on": false
+            },
+            {
+              "pair_id": "X3",
+              "items": [
+                "Wed.S2.x01",
+                "Wed.S2.p01"
+              ],
+              "minutes_saved": 2.5,
+              "on": false
             }
           ],
           "toggle_blocks": [
@@ -80947,8 +80948,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -82103,7 +82104,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "incline-db-bench-press",
                   "name_key": "exercise.incline-db-bench-press.name",
                   "detail": null,
@@ -82949,8 +82950,8 @@
                     "max": 1,
                     "rpe_min": 9,
                     "rpe_max": 9,
-                    "last_set": "myo",
-                    "intensifier": true
+                    "last_set": null,
+                    "intensifier": false
                   },
                   "rest": {
                     "type": "seconds",
@@ -83042,14 +83043,6 @@
                       }
                     },
                     {
-                      "key": "why.myo_last",
-                      "ref": "VOL-15"
-                    },
-                    {
-                      "key": "why.intensifier_last_week",
-                      "ref": "R3-VOL-04"
-                    },
-                    {
                       "key": "why.planned_rir",
                       "ref": "R2-PER-05",
                       "args": {
@@ -83061,7 +83054,7 @@
                       "ref": "VOL-14"
                     }
                   ],
-                  "superset_suggested": null
+                  "superset_suggested": "X3"
                 }
               ],
               "id": "blk.wed-s2.accessories.1",
@@ -83166,7 +83159,7 @@
                       "ref": "PER-02"
                     }
                   ],
-                  "superset_suggested": null
+                  "superset_suggested": "X3"
                 }
               ],
               "id": "blk.wed-s2.prehab.1",
@@ -85342,8 +85335,8 @@
                     "max": 1,
                     "rpe_min": 9,
                     "rpe_max": 9,
-                    "last_set": "myo",
-                    "intensifier": true
+                    "last_set": null,
+                    "intensifier": false
                   },
                   "rest": {
                     "type": "seconds",
@@ -85427,14 +85420,6 @@
                       "args": {
                         "phase": "VOL3"
                       }
-                    },
-                    {
-                      "key": "why.myo_last",
-                      "ref": "VOL-15"
-                    },
-                    {
-                      "key": "why.intensifier_last_week",
-                      "ref": "R3-VOL-04"
                     },
                     {
                       "key": "why.planned_rir",
@@ -86441,7 +86426,7 @@
       0,
       0,
       0,
-      3
+      0
     ],
     "shortfalls": []
   },

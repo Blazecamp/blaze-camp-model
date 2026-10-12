@@ -390,3 +390,26 @@ words only.
 - **Not fixed: 02 M1, the DB bench ahead of Friday's RDL** (G-205). The RDL holds 2 sets for weeks 1-9 and 3 from week 10; no later hip
   lift of its day passes it. Making the RDL lead its press broke the staircase or the B1-first alternation on 11-17 other athletic
   benchmark plans; it is a coach question (G-205).
+
+# Engine 0.6.0, fix round on the round-6 reviews (2026-10-12)
+
+Decisions G-207 ... G-216 (`engine/DECISIONS.md`); tests `tests/v06-fix3.test.mjs`. 02 and 08 change their sets; every sample changes
+some words (the table legend, the glance counts, the test-day intensifier).
+
+- **08 (R4-SES-03, CH5-03; r6 M1).** The shoulders hold the 2-day band on Monday + Thursday: KB face pull 4 sets from week 1, shoulders
+  6.25 -> 7 on the training days. The Friday reverse fly (2 sets) is extra: shoulders 8 -> 9 of a final 9, said up front: "Shoulders: 2 of
+  its 9 final sets sit on your optional day (...). Skip that day and shoulders ends at about 7." (EN + ES). Arms unchanged at 2-3 sets.
+- **02 (VOL-07, CH5-03; r6 M1).** Tuesday's incline DB press never holds more sets than the bench press (capped at the athlete's press
+  cap with it). The chest still reaches 13 of 13 with a flat DB fly at the end of Tuesday (2 sets, 3 from week 9). Checked on all 8
+  samples: no later lift of a group out-sets the day's first lift of that group, in any week.
+- **All samples (r6 02 m15-m18, r5 01 m8).** The weekly table's legend explains '-' only when a '-' row is printed, and explains
+  '7 (4 direct)' from the table's own cell when one is printed. A number still under the final sets never prints as the final sets
+  (02 shoulders print 12 until week 11). The week at a glance counts groups by the plan's credits (02 Tuesday: Chest 3, Shoulders 1).
+  A day that holds a test carries no MYO set (02 week 12: Friday only; 01 and 03: none in their test weeks; 04: Friday only).
+
+| Check | After this round |
+|---|---|
+| Benchmark (102 plans) against `results_v06.json` and `results_v05.json` | mean 98.01, lowest 89.35, hard violations 2 in 1 plan; 0 plans lower |
+| Tests (`node --test tests/`) | 1,510: 1,504 pass, 0 fail, 4 to-do, 2 skipped (20 new in `tests/v06-fix3.test.mjs`; 7 converted, each with a line in DECISIONS) |
+| Sweep, 1,578 plans on each model | 0 failing error checks, 0 render problems, 0 throws |
+| Scorer self-test | 51 pass |

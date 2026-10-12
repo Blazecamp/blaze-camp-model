@@ -180,9 +180,13 @@ describe('stage B3: exercise selection, variation and rendering (RECHECK_v0.3 + 
     }
     for (const x of allItems(plan('08'))) if (x.it.bucket === 'ISO_CALF') assert.ok(!(x.it.effort && x.it.effort.last_set), 'calves MYO for an Achilles hot spot');
     // the copy says what the plan does: the drift line names the intensifier week, the header only in a week that carries one
-    const s = unesc(md('01'));
+    // (G-214, R2-PER-07: a test day carries no intensifier - every week-12 day of 01 tests, so the drift line is read on 06, whose last
+    // week holds no test)
+    const s = unesc(md('06'));
     // F3 (E-119): the drift line names the days that carry the intensifier ('Week 12: one intensifier on each of these days (...)')
     assert.ok(s.includes(model.t('en', 'effort.drift_intensifier', { week: 12 })) || s.includes(model.t('en', 'effort.drift_intensifier_days', { week: 12, days: '' }).split('(')[0]));
+    const s01 = unesc(md('01'));
+    assert.ok(!s01.includes(model.t('en', 'effort.drift_intensifier_days', { week: 12, days: '' }).split('(')[0]), '01: no intensifier promised on its test days');
     assert.ok(!/The last week may add one intensifier/.test(s));
   });
 
@@ -408,7 +412,9 @@ describe('stage B3: exercise selection, variation and rendering (RECHECK_v0.3 + 
     // (v0.5: the sentence that listed the days 'el lunes, miércoles y viernes' was a time-check notice, retired with CT-01; the
     // intensifier line lists its days the same way)
     // (v0.5 fix round 1: a day whose only candidate is a calf raise in a week that tests sprints or jumps takes no intensifier)
-    assert.ok(/\((lunes y miércoles|lunes, miércoles y (viernes|sábado))\)/.test(s) && !/el Lunes|\(Lunes/.test(s));
+    // (G-214: 03's last week tests on all three days, so it carries no intensifier; the day list is read on 07's Spanish plan)
+    assert.ok(!/el Lunes|\(Lunes/.test(s));
+    assert.ok(/\((martes, jueves y viernes)\)/.test(md('07', { lang: 'es' })));
     assert.ok(!/del (contactos|lanzamientos|cambios|metros)/.test(s));
     const b = md('05', { lang: 'es' });
     assert.ok(b.includes('1 año de entrenamiento') && !b.includes('1 años'));

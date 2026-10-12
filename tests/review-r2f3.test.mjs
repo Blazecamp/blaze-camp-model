@@ -341,8 +341,10 @@ describe('v0.4 fix round 2 / F3: selection, dosing and the printed plan (coach-e
       assert.ok(/\*\*Fecha de inicio:\*\* 12 oct 2026/.test(s) && !/Fecha de inicio:\*\* 2026-/.test(s), n);
       assert.ok(/· lunes, miércoles, viernes ·/.test(s), n);
       // (v0.5: the sentence 'el lunes, miércoles y viernes' was a time-check notice; the intensifier line joins its days the same way)
-      assert.ok(/\((lunes y miércoles|lunes, miércoles y (viernes|sábado))\)/.test(s) || n === '05', n);
+      // (G-214: 03's last week tests on every day, so it lists no intensifier days; the 'y' join is read on 07 below)
+      assert.ok(!/\(Lunes/.test(s), n);
     }
+    assert.ok(/\((martes, jueves y viernes)\)/.test(md('07', 'es')));
     const s3 = md('03', 'es');
     assert.ok(s3.startsWith('# Plan atlético de fuera de temporada'));
     // (v0.5: the three strength tests sit on the three days of the A / B / C template, so Friday is a test day too)

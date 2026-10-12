@@ -31,9 +31,9 @@ _Your Blaze Camp plan_
 
 _This plan starts at 3 in the tank and ends at 1 in the last week: the coach's "1 in the tank" is where you finish, so follow each week's number._
 
-Planned effort across the stairway: weeks 1-6: leave 3 in the tank; weeks 7-9: leave 2 in the tank; weeks 10-11: leave 1-2 in the tank; week 12: leave 1 in the tank. Week 12: one intensifier on each of these days (Monday, Wednesday and Friday): a MYO set on the day's last small-muscle or machine exercise.
+Planned effort across the stairway: weeks 1-6: leave 3 in the tank; weeks 7-9: leave 2 in the tank; weeks 10-11: leave 1-2 in the tank; week 12: leave 1 in the tank.
 
-How heavy? Each exercise tells you how many reps to leave in the tank: "leave 2 in the tank" means you could do 2 more reps at the end of the set (about RPE 8; 3 left = RPE 7, 1 left = RPE 9). Your plan starts with 3 in the tank, then 2, then 1-2, and in the last week 1 with a few extra-hard sets. Week 1: start a little lighter, with a weight you could lift about 3 more times.
+How heavy? Each exercise tells you how many reps to leave in the tank: "leave 2 in the tank" means you could do 2 more reps at the end of the set (about RPE 8; 3 left = RPE 7, 1 left = RPE 9). Your plan starts with 3 in the tank, then 2, then 1-2, and ends at 1 in the last week. Week 1: start a little lighter, with a weight you could lift about 3 more times.
 
 Olympic lifts are for power. Cleans, snatches and their dumbbell and kettlebell versions train power: move the weight as fast as you can with clean technique. Pick a weight you can move explosively on every rep; if it slows down or your technique breaks, it's too heavy. You don't need percentages for these unless you compete in Olympic weightlifting.
 
@@ -54,7 +54,7 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 - Something hurts? First use a listed swap, then cut that exercise's sets by a third to a half, then drop it for the rest of the block. See a professional if it keeps hurting.
 - Life got in the way for several weeks (sick, travel, busy)? Stop the block, take the recommended easy week if you want, then build a new block.
 - You (or your coach) can switch off these blocks on any day: jumps, throws and speed; power / Olympic lifts; core; accessories. You can also add or remove exercises (more rear-delt work, for example). Use the suggested supersets to save time.
-- Switching off the accessories block takes away every direct set for Biceps, Triceps and Calves.
+- Switching off the accessories block takes away every direct set for Shoulders, Biceps, Triceps and Calves.
 - You (or your coach) can also change the sets of any exercise on any day or week: the plan is a template.
 - The time shown on each day is an average estimate, for information only: nothing in this plan is cut or changed because of time. Want a shorter day? Use the suggested supersets, or remove what the day lists as easiest to remove.
 - Swimmers: keep the gym at least 4 hours away from a hard pool session when you can. After a hard pool week, switch off that day's jumps, remove an exercise or repeat the week. Before your main meet, taper the gym for 2 weeks in line with your swim coach's taper (1 week or none before smaller meets).
@@ -93,7 +93,7 @@ Your plan climbs like a stairway: small steps up to week 6, a bit bigger from we
 | 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 79 |
 | 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 81 |
 | 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 86 |
-| 12 · test | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 86 |
+| 12 · test | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank | 86 |
 
 weeks 1-3: Getting used to it (small steps) · weeks 4-8: Driving it · weeks 9-12: Hardest weeks
 
@@ -108,7 +108,7 @@ Test days (mark your calendar; the plan sends no reminders): week 1: Monday 12 O
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts). Numbers are rounded to whole sets._
+_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. Numbers are rounded to whole sets. "6 (2 direct)" = 6 sets counted for the group, 2 of them from its own exercise (the rest are helper sets from the other lifts)._
 
 |  | Week 1 | Week 6 | Week 12 |
 |---|---|---|---|
@@ -127,7 +127,7 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Day | Session | Time | Muscle groups (exercises) |
 |---|---|---|---|
 | Monday | S1 - jump + knee + pull | about 100-120 min | Quads 3, Back 3, Biceps 1, Calves 1 |
-| Wednesday | S2 - medball + hip + push | about 90-110 min | Hips (glutes + hamstrings) 3, Chest 1, Shoulders 3, Triceps 1, Calves 1 |
+| Wednesday | S2 - medball + hip + push | about 90-110 min | Hips (glutes + hamstrings) 3, Chest 2, Shoulders 2, Triceps 1, Calves 1 |
 | Friday | S3 - Olympic + strength | about 90-110 min | Quads 2, Hips (glutes + hamstrings) 1, Back 2, Chest 2, Calves 1 |
 | Saturday | Optional day | about 10-15 min | – |
 
@@ -145,7 +145,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Hips (glutes + hamstrings) | 11 11 13 13 · 13 13 14 15 · 15 15 16 16 | 16 |
 | Back | 15 16 16 16 · 17 17 18 19 · 19 20 21 21 | 21 |
 | Chest | 10 10 10 11 · 11 11 12 12 · 13 13 14 14 | 14 |
-| Shoulders | 10 11 11 11 · 11 11 11 11 · 12 13 13 13 | 13 |
+| Shoulders | 10 11 11 11 · 11 11 11 11 · 12 12 13 13 | 13 |
 | Biceps | 6 6 6 6 · 6 6 7 7 · 7 7 7 7 | held: 2 direct sets a week |
 | Triceps | 4 4 4 4 · 4 4 4 4 · 5 5 5 5 | held: 2 direct sets a week |
 | Calves | 9 9 9 9 · 9 9 9 9 · 10 10 11 11 | 11 |
@@ -3689,8 +3689,6 @@ _Week level: 11 of 11 (2 = the start, 11 = your hardest week)_
 
 **End test this week: on the tested lifts, work up to one top set - it replaces that lift's top set - then do its back-off sets** (Strength, Jumps)
 
-_Last week: one intensifier on each of these days (Monday, Wednesday and Friday): a MYO set on the day's last small-muscle or machine exercise_
-
 **What changes this week**
 - Same sets: on a tested lift the test takes the place of the top set; on the other lifts add a little load or reps
 
@@ -3780,7 +3778,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 10.
    - Swap for: Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)) · Name to copy into YouTube: `Spider Curl (chest on incline bench)`
-3. **Leg Extension (machine)** — 4 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+3. **Leg Extension (machine)** — 4 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
@@ -3804,6 +3802,7 @@ _Superset to save time: Broad Jump + Step-Forward Medball Chest Pass (R & L leg)
 _Superset to save time: Incline DB Bench Press + Staggered-Stance (Kickstand) DB Deadlift (about 5.5 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Lying Leg Curl (machine) (about 3.5 min saved)_
 _Superset to save time: Seated (Chest-to-Thighs) DB Reverse Fly + Machine Calf Raise (about 6 min saved)_
+_Superset to save time: Seated DB Lateral Raise + Floor Prone Y / T Raises (bodyweight or light DBs) (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: Machine Calf Raise, Seated (Chest-to-Thighs) DB Reverse Fly, Lying Leg Curl (machine), Overhead Dumbbell Triceps Extension · bonus exercises: Seated DB Lateral Raise_
 
 **Warm-up**
@@ -3882,7 +3881,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 12.
    - Swap for: Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the easier set-up - this one is harder)
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
-5. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+5. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 10.
    - Bonus exercise to reach your weekly sets
    - Swap for: DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Lateral Raise - 'Spill the Can' (thumbs down, internally rotated) (keeps the side-delt work; loses the easier set-up - this one is harder)
@@ -3984,7 +3983,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 12.
    - Swap for: Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise) · Name to copy into YouTube: `Barbell Calf Raise`
-2. **Flat DB Fly (bonus)** — 3 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+2. **Flat DB Fly (bonus)** — 3 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 8.
    - Bonus exercise to reach your weekly sets
    - Swap for: Cable Fly (keeps the chest isolation; loses the free-weight balance work) / Machine Fly (Pec Deck) (keeps the chest isolation; loses the free-weight balance work)

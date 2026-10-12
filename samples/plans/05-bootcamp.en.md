@@ -93,7 +93,7 @@ After this plan: you choose: next block (an easy week first is recommended, not 
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. "-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts). Numbers are rounded to whole sets._
+_Counted the coach's way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count. Numbers are rounded to whole sets._
 
 |  | Week 1 | Week 4 | Week 8 |
 |---|---|---|---|
@@ -113,7 +113,7 @@ _Circuit sets = rounds x stations: 4 rounds, then 5 from week 7. The work time p
 
 | Day | Session | Time | Muscle groups (exercises) |
 |---|---|---|---|
-| Monday | Bootcamp 1 - squat + row + single-leg hinge | about 40-50 min | Quads 2, Hips (glutes + hamstrings) 1, Back 2, Biceps 1 |
+| Monday | Bootcamp 1 - squat + row + single-leg hinge | about 40-50 min | Quads 2, Hips (glutes + hamstrings) 1, Back 1, Shoulders 1, Biceps 1 |
 | Tuesday | Aerobic day | about 35-40 min | – |
 | Wednesday | Bootcamp 2 - hinge + presses | about 40-50 min | Hips (glutes + hamstrings) 1, Chest 2, Shoulders 1, Biceps 1, Triceps 1 |
 | Thursday | Aerobic day | about 25-30 min | – |

@@ -1696,8 +1696,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -3970,8 +3970,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -5038,7 +5038,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "alternating-incline-db-bench-press-one-up-one-down",
                   "name_key": "exercise.alternating-incline-db-bench-press-one-up-one-down.name",
                   "detail": null,
@@ -8623,8 +8623,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -10919,8 +10919,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -12007,7 +12007,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "alternating-incline-db-bench-press-one-up-one-down",
                   "name_key": "exercise.alternating-incline-db-bench-press-one-up-one-down.name",
                   "detail": null,
@@ -15595,8 +15595,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -17891,8 +17891,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -18979,7 +18979,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "alternating-incline-db-bench-press-one-up-one-down",
                   "name_key": "exercise.alternating-incline-db-bench-press-one-up-one-down.name",
                   "detail": null,
@@ -22567,8 +22567,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -24884,8 +24884,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -25973,7 +25973,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "alternating-incline-db-bench-press-one-up-one-down",
                   "name_key": "exercise.alternating-incline-db-bench-press-one-up-one-down.name",
                   "detail": null,
@@ -29613,8 +29613,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -31930,8 +31930,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -33019,7 +33019,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "alternating-incline-db-bench-press-one-up-one-down",
                   "name_key": "exercise.alternating-incline-db-bench-press-one-up-one-down.name",
                   "detail": null,
@@ -36666,8 +36666,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 3,
+          "chest": 2,
+          "shoulders": 2,
           "triceps": 1,
           "calves": 1
         },
@@ -38532,8 +38532,8 @@
                     "max": 1,
                     "rpe_min": 9,
                     "rpe_max": 9,
-                    "last_set": "myo",
-                    "intensifier": true
+                    "last_set": null,
+                    "intensifier": false
                   },
                   "rest": {
                     "type": "seconds",
@@ -38596,14 +38596,6 @@
                       "args": {
                         "phase": "VOL3"
                       }
-                    },
-                    {
-                      "key": "why.myo_last",
-                      "ref": "VOL-15"
-                    },
-                    {
-                      "key": "why.intensifier_last_week",
-                      "ref": "R3-VOL-04"
                     },
                     {
                       "key": "why.planned_rir",
@@ -38970,8 +38962,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 3,
+            "chest": 2,
+            "shoulders": 2,
             "triceps": 1,
             "calves": 1
           },
@@ -40023,7 +40015,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "alternating-incline-db-bench-press-one-up-one-down",
                   "name_key": "exercise.alternating-incline-db-bench-press-one-up-one-down.name",
                   "detail": null,
@@ -40862,8 +40854,8 @@
                     "max": 1,
                     "rpe_min": 9,
                     "rpe_max": 9,
-                    "last_set": "myo",
-                    "intensifier": true
+                    "last_set": null,
+                    "intensifier": false
                   },
                   "rest": {
                     "type": "seconds",
@@ -40951,14 +40943,6 @@
                       "args": {
                         "phase": "VOL3"
                       }
-                    },
-                    {
-                      "key": "why.myo_last",
-                      "ref": "VOL-15"
-                    },
-                    {
-                      "key": "why.intensifier_last_week",
-                      "ref": "R3-VOL-04"
                     },
                     {
                       "key": "why.planned_rir",
@@ -43614,8 +43598,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 2,
+          "chest": 2,
+          "shoulders": 1,
           "triceps": 1,
           "calves": 1
         },
@@ -45969,8 +45953,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 2,
+            "chest": 2,
+            "shoulders": 1,
             "triceps": 1,
             "calves": 1
           },
@@ -47099,7 +47083,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "alternating-incline-db-bench-press-one-up-one-down",
                   "name_key": "exercise.alternating-incline-db-bench-press-one-up-one-down.name",
                   "detail": null,
@@ -50468,8 +50452,8 @@
         },
         "Wed": {
           "hips": 3,
-          "chest": 1,
-          "shoulders": 2,
+          "chest": 2,
+          "shoulders": 1,
           "triceps": 1,
           "calves": 1
         },
@@ -52811,8 +52795,8 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 1,
-            "shoulders": 2,
+            "chest": 2,
+            "shoulders": 1,
             "triceps": 1,
             "calves": 1
           },
@@ -53941,7 +53925,7 @@
                   "bucket": "RP_VPUSH",
                   "role": "paired_upper",
                   "origin": "template",
-                  "group": "shoulders",
+                  "group": "chest",
                   "exercise_id": "alternating-incline-db-bench-press-one-up-one-down",
                   "name_key": "exercise.alternating-incline-db-bench-press-one-up-one-down.name",
                   "detail": null,
@@ -57663,7 +57647,7 @@
       0,
       0,
       0,
-      2,
+      0,
       0,
       0
     ],
