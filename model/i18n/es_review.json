@@ -845,6 +845,7 @@
   "profile.wrestling_heavyweight.name"
  ],
  "priority_review": [
+  "block.optional_suffix",
   "block.short.circuit_station",
   "changes.block_swaps_day",
   "changes.circuit_rounds_up",
@@ -897,6 +898,7 @@
   "exercise.stick-the-landing-bilateral-jump-drop-and-freeze-the-landing.name",
   "exercise.stick-the-landing-unilateral-single-leg-landing-freeze.name",
   "guide.adjust.accessories",
+  "guide.adjust.core_optional",
   "guide.adjust.easy",
   "guide.adjust.edit",
   "guide.adjust.edit_blocks",
@@ -956,6 +958,10 @@
   "ui.plan.edit_day",
   "ui.plan.est_line",
   "ui.plan.final_held",
+  "ui.plan.health_warning",
+  "ui.plan.health_warning_label",
+  "ui.plan.health_warning_reasons",
+  "ui.plan.health_warning_short",
   "ui.plan.optional_bonus_big",
   "ui.plan.optional_bonus_one_day",
   "ui.plan.progress.double",
@@ -982,9 +988,11 @@
   "ui.plan.weekly_sets_groups_note",
   "video.note",
   "warning.credit_only_groups_lifts",
+  "warning.health_flag",
   "warning.pain_plan_no_lift",
   "warning.pain_plan_plain_no_lift",
   "warning.release_missing",
-  "warning.slot_held_groups"
+  "warning.slot_held_groups",
+  "why.health_flag"
  ]
 }

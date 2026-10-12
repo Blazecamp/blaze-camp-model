@@ -412,7 +412,7 @@ The pattern (INFERRED): **athletic programs have almost no machines and add med 
 - **`Leg Extension Machine`** appears at all 3 AI levels (AI20, AI55, AI101) and in both views, besides its own column AM (`Leg Extensions`). NO ACCESS ATHLETIC (E12, E39) and BOOTCAMP OPTION 1 (E30) prefill `'Leg extensions'` (L4 slot-wiring notes). Every 4-day template also has a dedicated `Leg Extensions` slot, so the coach programs knee-extension isolation in almost every week.
 - **The `LEG CURLS` header AR5 says `UNILATERAL`**, but both items are machine curls that are normally bilateral.
 - **The library does not record the load for 34% of entries**, for example `Box Squats`, `Glute Bridges`, every lunge and `Stiff Leg Deadlift`. The generator has to pick the load implement from the client's equipment and level. That fits the coach's "exercise = base + variables" grammar (RESISTANCE PATTERNS §5).
-- **`Camporini Deadlifts` (AQ16)** is undefined. Programs link a demo video (`https://www.youtube.com/watch?v=cRU0RQ1KTfg`) and write `'HEAVY: Camporini DL'`.
+- **`Camporini Deadlifts` (AQ16)** is undefined. Programs link a demo video (`[video link removed]`) and write `'HEAVY: Camporini DL'`.
 
 ---
 

@@ -544,18 +544,30 @@ export function validateIntake(intake, model) {
 // ---------------------------------------------------------------------------------------------------------------
 
 /**
- * F01 health screen with the coach bypass (V1; R2-GEN-03). Severe pain always refers.
+ * F01 health screen with the coach bypass (V1; R2-GEN-03). Severe pain is always read, even with the coach bypass.
+ * engine 0.7 (COACH-R5 R5-GEN-02 'It doesn't stop because we're not taking on any liability, but it should warn them'; DECISIONS
+ * G-270 ... G-273): with a model whose rules.legal.health_flag.on_flag is 'warn', a flag no longer refers - the plan is built and
+ * carries the health warning (`warn: true`, the reasons kept for the printed line). Without a model (or with on_flag 'refer') the
+ * retired stop of engine 0.6 is returned: `refer: true` on any reason.
  * @param {object} intake (normalized or raw intake/2)
- * @returns {{refer:boolean, reasons:string[], bypass:boolean}}
+ * @param {object} [model] the loaded model (reads rules.legal.health_flag)
+ * @returns {{refer:boolean, warn:boolean, reasons:string[], bypass:boolean}}
  */
-export function safetyScreen(intake) {
+export function safetyScreen(intake, model) {
   const reasons = [];
   const bypass = !!intake && intake.role === 'client' && intake.health_route === 'coach_own_sop';
   if (intake && !bypass && isObj(intake.safety)) {
     for (const k of SAFETY_KEYS) if (intake.safety[k] === true) reasons.push(`refer.reason.${k}`);
   }
   if (intake && Array.isArray(intake.pain) && intake.pain.some(p => p && p.severity === 'severe')) reasons.push('refer.reason.severe_pain');
-  return { refer: reasons.length > 0, reasons, bypass };
+  const warnMode = healthFlagMode(model) === 'warn';
+  return { refer: !warnMode && reasons.length > 0, warn: warnMode && reasons.length > 0, reasons, bypass };
+}
+
+/** 'warn' (R5-GEN-02: build the plan with the warning) or 'refer' (the retired stop) - rules.legal.health_flag.on_flag */
+export function healthFlagMode(model) {
+  const HF = model && model.rules && model.rules.legal && model.rules.legal.health_flag;
+  return HF && HF.on_flag === 'warn' ? 'warn' : 'refer';
 }
 
 /**
@@ -836,7 +848,12 @@ export function deriveValues(intake, model) {
   if (D6.variant) whys.push(why('why.template_variant', tsel.reason === 'split_style' ? 'D-15' : 'R2-GEN-07', { variant: D6.variant }));
 
   // D7 constraint band
-  const pain = i.pain.map(p => ({ area: p.area, side: p.side, severity: p.severity, worse_with: p.worse_with.slice() }));
+  // engine 0.7 (G-271, PROPOSED; R5-GEN-02): with the health warning on, severe pain no longer stops the plan - it is built with the
+  // pain rules of rules.legal.health_flag.severe_pain.build_as (moderate) and the warning; the reported severity is kept
+  const HFs = healthFlagMode(model) === 'warn' ? (R.legal.health_flag.severe_pain || null) : null;
+  const pain = i.pain.map(p => (p.severity === 'severe' && HFs && HFs.build_as
+    ? { area: p.area, side: p.side, severity: HFs.build_as, worse_with: p.worse_with.slice(), reported_severity: 'severe' }
+    : { area: p.area, side: p.side, severity: p.severity, worse_with: p.worse_with.slice() }));
   const fctx = { older, pain_moderate: pain.some(p => p.severity === 'moderate'), family: D1, competitive: D2.competitive, goal: i.goal, level: D3.level };
   const famRule = R.equipment.family_select.find(r => matchWhen(r.when, fctx));
   const cf = R.equipment.client_families[famRule.use];
@@ -887,8 +904,14 @@ export function deriveValues(intake, model) {
     health: null, release: { accepted: i.release.accepted, version: i.release.version, lang: i.release.lang, guardian: i.release.guardian },
     equipment_preference: i.equipment.preference, modifier_id: null, r3_pending: [], warnings: [], why: []
   };
-  const scr = safetyScreen(i);
-  derived.health = { role: i.role, health_route: i.health_route, refer: scr.refer, reasons: scr.reasons, bypass: scr.bypass };
+  const scr = safetyScreen(i, model);
+  derived.health = { role: i.role, health_route: i.health_route, refer: scr.refer, warn: scr.warn, reasons: scr.reasons, bypass: scr.bypass };
+  // engine 0.7 (R5-GEN-02, G-270): the plan is built and says so up front (the line itself is printed by render.mjs)
+  if (scr.warn) {
+    const HF = R.legal.health_flag;
+    warnings.push(issue(HF.warning_code, null, HF.warning_key));
+    whys.push(why('why.health_flag', 'R5-GEN-02'));
+  }
 
   // D13 tests + training-block layout (shared with shape.mjs)
   const blocks = planTrainingBlocks({ ...derived, D13_tests: { items: [], baseline_week: null, end_weeks: [], from_zero: false } }, model);

@@ -4,15 +4,15 @@ NON-EMPTY CELLS: 361
 MERGED (5): A43:B43, A41:B41, A42:B42, A45:B45, A44:B44
 DATA VALIDATIONS (dropdown sources):
 HYPERLINKS:
-  K12 -> https://youtu.be/uoDrpDu4HVY
-  K13 -> https://youtu.be/648HpqRr4D8
-  K14 -> https://youtu.be/O8jpEmEQbm0
+  K12 -> [video link removed]
+  K13 -> [video link removed]
+  K14 -> [video link removed]
   J20 -> '(NOT DONE) ALL ABOUT BALLISTICS'!A1
   C24 -> '(NOT DONE) ALL ABOUT BALLISTICS'!A1
   J38 -> '(NOT DONE) ALL ABOUT BALLISTICS'!A1
-  G41 -> https://youtu.be/uoDrpDu4HVY
-  G42 -> https://youtu.be/648HpqRr4D8
-  G43 -> https://youtu.be/O8jpEmEQbm0
+  G41 -> [video link removed]
+  G42 -> [video link removed]
+  G43 -> [video link removed]
 
 CELLS (row-major; coord | value | formatting):
 A1 | 'ATHLETIC FULL BODY SPLIT' | bg=00FFFF bold fg=theme1
@@ -48,7 +48,7 @@ F12 | 'weighted Depth Drops - Drop & Stick - Hold for 3 seconds on each one' | b
 H12 | 1.0 | fg=theme1
 I12 | 8.0 | fg=theme1
 J12 | 'Weighted Depth Drops - Drop & Stick - Hold for 3 seconds on each one' | fg=theme1
-K12 | 'https://youtu.be/uoDrpDu4HVY' | fg=1155CC
+K12 | '[video link removed]' | fg=1155CC
 A13 | 2.0 | fg=theme1
 B13 | 8.0 | fg=theme1
 C13 | 'Depth jump with weight into high box jump' | fg=theme1
@@ -58,7 +58,7 @@ F13 | 'High Jumps' | bg=theme0 fg=theme1
 H13 | 1.0 | fg=theme1
 I13 | 12.0 | fg=theme1
 J13 | 'Med Ball Rockers' | fg=theme1
-K13 | 'this but hugging a light medball: https://youtu.be/648HpqRr4D8' | fg=0000FF
+K13 | 'this but hugging a light medball: [video link removed]' | fg=0000FF
 A14 | 2.0 | fg=theme1
 B14 | 8.0 | fg=theme1
 C14 | 'Really high jump squats LOAD & jump hard' | fg=theme1
@@ -68,7 +68,7 @@ F14 | 'Bilateral Symetrical Squirrel Jumps' | bg=theme0 fg=theme1
 H14 | 1.0 | fg=theme1
 I14 | '12 & 12' | fg=theme1
 J14 | 'Single Leg to march jumps' | fg=theme1
-K14 | 'https://youtu.be/O8jpEmEQbm0' | fg=1155CC
+K14 | '[video link removed]' | fg=1155CC
 A15 | 2.0 | fg=theme1
 B15 | ':30 sec.' | fg=theme1
 C15 | 'High Knee Runs FAST' | fg=theme1
@@ -287,7 +287,7 @@ A41 | 'First 8 weeks (8wk1) adaptation focus:' | bg=CCCCCC fg=theme1
 D41 | 1.0 | bg=theme0 fg=theme1
 E41 | 8.0 | bg=theme0 fg=theme1
 F41 | 'Weighted Depth Drops - Drop & Stick - Hold for 3 seconds on each one' | bg=theme0 fg=theme1
-G41 | 'https://youtu.be/uoDrpDu4HVY' | bg=theme0 fg=1155CC
+G41 | '[video link removed]' | bg=theme0 fg=1155CC
 H41 | 1.0 | fg=theme1
 I41 | '6 & 6' | fg=theme1
 J41 | 'Lateral Step ups IPSILATERAL loading' | fg=theme1
@@ -295,7 +295,7 @@ A42 | 'Bring athletes back to feeling/moving great' | bg=CCCCCC fg=theme1
 D42 | 2.0 | bg=theme0 fg=theme1
 E42 | 12.0 | bg=theme0 fg=theme1
 F42 | 'Med Ball Rockers' | bg=theme0 fg=theme1
-G42 | 'this but hugging a light medball: https://youtu.be/648HpqRr4D8' | bg=theme0 fg=0000FF
+G42 | 'this but hugging a light medball: [video link removed]' | bg=theme0 fg=0000FF
 H42 | 1.0 | fg=theme1
 I42 | '6 & 6' | fg=theme1
 J42 | 'Db Staggered Hang Snatch ' | fg=theme1
@@ -303,7 +303,7 @@ A43 | 'Start ramping up volume of work at highest biomechanical demand' | bg=CCC
 D43 | 2.0 | bg=theme0 fg=theme1
 E43 | '8 & 8' | bg=theme0 fg=theme1
 F43 | 'Single Leg to march jumps' | bg=theme0 fg=theme1
-G43 | 'https://youtu.be/O8jpEmEQbm0' | bg=theme0 fg=1155CC
+G43 | '[video link removed]' | bg=theme0 fg=1155CC
 H43 | 3.0 | fg=theme1
 I43 | '1 minute' | fg=theme1
 J43 | 'Feet againts the wall weighted low plank ' | fg=theme1

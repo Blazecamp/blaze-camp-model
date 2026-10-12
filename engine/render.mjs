@@ -267,6 +267,7 @@ function directOfGroup(model, w, g) {
 }
 /** the v0.6 words rules (rules.render.v6), or {} */
 function V6(model) { return (model.rules.render && model.rules.render.v6) || {}; }
+function V7(model) { return (model.rules.render && model.rules.render.v7) || {}; }
 /** '12 Oct 2026' / '12 oct 2026' from an ISO date (fix round 2 / F3; R2-GEN-08; RECHECK v0.4 05 minor: machine dates in client copy) */
 function fmtDate(model, lang, iso) {
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(iso || ''));
@@ -341,13 +342,34 @@ function ownRisk(plan, model, o) {
   const t = T(model, o);
   const k = releaseKeys(plan, model);
   if (!k && !has(model, 'ui.plan.own_risk')) return '';
-  return '> **' + t('ui.plan.own_risk_label') + '** ' + t(k ? k.line : 'ui.plan.own_risk') + legalLink(model, o);
+  const hw = healthWarning(plan, model, o, false);
+  return '> **' + t('ui.plan.own_risk_label') + '** ' + t(k ? k.line : 'ui.plan.own_risk') + legalLink(model, o) + (hw ? '\n\n' + hw : '');
 }
 function ownRiskShort(plan, model, o) {
   const k = releaseKeys(plan, model);
   const key = k && has(model, k.short) ? k.short : 'ui.plan.own_risk_short';
   if (!has(model, key)) return '';
-  return '_' + T(model, o)(key) + '_' + legalLink(model, o);
+  const hw = healthWarning(plan, model, o, true);
+  return '_' + T(model, o)(key) + '_' + legalLink(model, o) + (hw ? '\n\n' + hw : '');
+}
+/**
+ * engine 0.7 (COACH-R5 R5-GEN-02 'it should warn them: this is not a plan from a doctor that can be tailored to you by a medical
+ * professional. You need to seek a medical professional to make sure that this is okay for you'; DECISIONS G-270, G-274): a plan
+ * built with a health-check flag (or severe pain) prints the warning right under the release line - the full line with the answers
+ * that raised it in the full and overview views, the short line in the block / week / day views. Wording [LEGAL REVIEW].
+ */
+function healthWarning(plan, model, o, short) {
+  const HF = (model.rules.legal && model.rules.legal.health_flag) || null;
+  const h = plan && plan.meta && plan.meta.health;
+  if (!HF || HF.on_flag !== 'warn' || !h || !h.warn || plan.status !== 'ok') return '';
+  const t = T(model, o);
+  if (short) return has(model, HF.short_key) ? '_' + t(HF.short_key) + '_' : '';
+  if (!has(model, HF.line_key)) return '';
+  const reasons = (h.reasons || []).filter(r => has(model, r)).map(r => model.t(o.lang, r));
+  // (each reason holds its own commas and 'or': the list is joined with semicolons, in lower case inside the sentence)
+  const lower = (s) => s.charAt(0).toLowerCase() + s.slice(1);
+  const why = reasons.length && has(model, HF.reasons_key) ? esc(model.t(o.lang, HF.reasons_key, { reasons: reasons.map(lower).join('; ') })) + ' ' : '';
+  return '> **' + t(HF.label_key) + '** ' + why + t(HF.line_key);
 }
 /** the footer of a full plan: 'Liability released ...' + the standing disclaimer + the link to the full text */
 function releaseFooter(plan, model, o) {
@@ -513,7 +535,9 @@ function focusMusclesLine(plan, model, o) {
  */
 function noticesSection(plan, model, o) {
   const t = T(model, o);
-  const shown = (plan.meta && plan.meta.warnings) || [];
+  // (engine 0.7, G-274: the health warning is printed up front under the release line, not a second time here)
+  const HFk = V7(model).health_warning_up_front && model.rules.legal && model.rules.legal.health_flag ? model.rules.legal.health_flag.warning_key : null;
+  const shown = ((plan.meta && plan.meta.warnings) || []).filter(w => !(HFk && w && w.key === HFk));
   const hol = holidayWeeks(plan);
   // F3 (RECHECK 08 minor: 'Lots of play this week' printed on every jump of every week): said once, up front
   const heavyPlay = has(model, 'ui.plan.heavy_play_plan') && planHasNote(plan, 'note.heavy_play_week');
@@ -787,6 +811,9 @@ function adjustGuide(plan, model, o) {
   // v0.5 / V3 (COACH-CX CX-02 / CX-04 'they should be able to edit ... on that week or that day'): the sets are editable too; and
   // the time on each day is an average estimate, information only (COACH-CT CT-01, COACH-R4 R4-SES-01)
   if (has(model, 'guide.adjust.sets')) L.push('- ' + t('guide.adjust.sets'));
+  // engine 0.7 (COACH-R5 R5-GRD-06; G-275): the core block is optional and everything is adjustable - said once, when the plan has one
+  const CO = V7(model).core_optional;
+  if (CO && has(model, CO.guide_key) && (plan.weeks || []).some(w => (w.days || []).some(d => (d.blocks || []).some(b => (CO.kinds || []).includes(b.kind) && (b.items || []).length)))) L.push('- ' + t(CO.guide_key));
   const anyEst = (plan.weeks || []).some(w => (w.days || []).some(d => typeof d.est_minutes === 'number' && ['main', 'optional'].includes(d.kind)));
   const anyEasy = (plan.weeks || []).some(w => (w.days || []).some(d => (d.easy_to_remove || []).length));
   if (anyEst && has(model, 'guide.adjust.time')) L.push('- ' + t(anyEasy || !has(model, 'guide.adjust.time_no_list') ? 'guide.adjust.time' : 'guide.adjust.time_no_list'));
@@ -1553,7 +1580,11 @@ function dayCard(plan, n, weekday, model, o) {
   for (const b of d.blocks || []) {
     const list = shown.get(b) || [];
     if (!list.length) continue;
-    L.push('', '**' + (b.kind === 'circuit' ? t('block.circuit', { n: b.circuit || 1 }) : t('block.' + b.kind)) + (b.on === false && has(model, 'edit.block_off') ? ' ' + t('edit.block_off') : '') + '**');
+    // engine 0.7 (COACH-R5 R5-GRD-06 'Make sure you make the core work optional, everything should be adjustable/adaptable'; G-275): the
+    // core block says it is optional; the engine still builds it (H05)
+    const CO = V7(model).core_optional;
+    const optional = CO && (CO.kinds || []).includes(b.kind) && b.on !== false && has(model, CO.heading_suffix_key) ? ' ' + t(CO.heading_suffix_key) : '';
+    L.push('', '**' + (b.kind === 'circuit' ? t('block.circuit', { n: b.circuit || 1 }) : t('block.' + b.kind)) + optional + (b.on === false && has(model, 'edit.block_off') ? ' ' + t('edit.block_off') : '') + '**');
     const circ = (b.items || []).find(it => it.circuit);
     if (circ) L.push('_' + t('ui.plan.circuit_dose', { rounds: circ.circuit.rounds, work_s: circ.circuit.work_s, transition_s: circ.circuit.transition_s }) + '_');
     list.forEach((it, i) => {

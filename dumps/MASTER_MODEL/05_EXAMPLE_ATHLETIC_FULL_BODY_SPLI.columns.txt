@@ -273,9 +273,9 @@ SHEET: 'EXAMPLE ATHLETIC FULL BODY SPLI' - COLUMN-MAJOR VIEW (each column top to
 
 === COLUMN G (4 cells) ===
   r11: 'VIDEO EXAMPLE'  [bg=9FC5E8 fg=theme1]
-  r41: 'https://youtu.be/uoDrpDu4HVY'  [bg=theme0 fg=1155CC]
-  r42: 'this but hugging a light medball: https://youtu.be/648HpqRr4D8'  [bg=theme0 fg=0000FF]
-  r43: 'https://youtu.be/O8jpEmEQbm0'  [bg=theme0 fg=1155CC]
+  r41: '[video link removed]'  [bg=theme0 fg=1155CC]
+  r42: 'this but hugging a light medball: [video link removed]'  [bg=theme0 fg=0000FF]
+  r43: '[video link removed]'  [bg=theme0 fg=1155CC]
 
 === COLUMN H (35 cells) ===
   r9: ' ADVANCED OFF SEASON WORKOUTS'  [bg=E06666 bold fg=theme1]
@@ -379,6 +379,6 @@ SHEET: 'EXAMPLE ATHLETIC FULL BODY SPLI' - COLUMN-MAJOR VIEW (each column top to
 
 === COLUMN K (4 cells) ===
   r11: 'VIDEO EXAMPLE'  [bg=9FC5E8 fg=theme1]
-  r12: 'https://youtu.be/uoDrpDu4HVY'  [fg=1155CC]
-  r13: 'this but hugging a light medball: https://youtu.be/648HpqRr4D8'  [fg=0000FF]
-  r14: 'https://youtu.be/O8jpEmEQbm0'  [fg=1155CC]
+  r12: '[video link removed]'  [fg=1155CC]
+  r13: 'this but hugging a light medball: [video link removed]'  [fg=0000FF]
+  r14: '[video link removed]'  [fg=1155CC]

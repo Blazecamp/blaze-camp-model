@@ -33188,7 +33188,7 @@
    "caveat": "counts every cell whose whole text equals this name (case/space-insensitive), including slot labels and reference tabs; not a count of client picks"
   },
   "typo_note": null,
-  "notes": "Exercise definition unclear; programs link a demo (MASTER_MODEL BASEBALL 'camporini deadlift - https://www.youtube.com/watch?v=cRU0RQ1KTfg') and write 'HEAVY: Camporini DL'.",
+  "notes": "Exercise definition unclear; programs link a demo (MASTER_MODEL BASEBALL 'camporini deadlift - [video link removed]') and write 'HEAVY: Camporini DL'.",
   "inferred_fields": [
    "implements (unless the implement word is in the name)",
    "constraint_level",

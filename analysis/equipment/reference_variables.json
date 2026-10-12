@@ -1202,14 +1202,14 @@
      "value": "Floor",
      "cell": "RP A83",
      "colour_level": "yellow/INTERMEDIATE",
-     "video": "https://youtu.be/rctF-33G7nw (RP B83)",
+     "video": "[video link removed] (RP B83)",
      "mechanical_effect": "INFERRED: standard ROM from the floor."
     },
     {
      "value": "Deficit",
      "cell": "RP A84",
      "colour_level": "red/ADVANCED",
-     "video": "https://youtu.be/CpWsUsqBtN8 (RP B84)",
+     "video": "[video link removed] (RP B84)",
      "mechanical_effect": "INFERRED: standing on a platform -> longer ROM, deeper start, more hip/knee flexion under load."
     },
     {
@@ -1301,7 +1301,7 @@
      "value": "Touch & go",
      "cell": "RP A88",
      "colour_level": "yellow/INTERMEDIATE",
-     "video": "https://youtu.be/rSh6zBVNYRU (RP B88)",
+     "video": "[video link removed] (RP B88)",
      "mechanical_effect": "INFERRED: brief contact then rebound; uses elastic return; continuous tension."
     },
     {
@@ -5352,7 +5352,7 @@
    "bg": "FFE599",
    "group_header_cell": "A81",
    "colour_level": "yellow/INTERMEDIATE",
-   "video": "https://youtu.be/rctF-33G7nw"
+   "video": "[video link removed]"
   },
   {
    "tab": "(NOT DONE) RESISTANCE PATTERNS ",
@@ -5362,7 +5362,7 @@
    "bg": "E06666",
    "group_header_cell": "A81",
    "colour_level": "red/ADVANCED",
-   "video": "https://youtu.be/CpWsUsqBtN8"
+   "video": "[video link removed]"
   },
   {
    "tab": "(NOT DONE) RESISTANCE PATTERNS ",
@@ -5392,7 +5392,7 @@
    "bg": "FFE599",
    "group_header_cell": "A86",
    "colour_level": "yellow/INTERMEDIATE",
-   "video": "https://youtu.be/rSh6zBVNYRU"
+   "video": "[video link removed]"
   },
   {
    "tab": "(NOT DONE) RESISTANCE PATTERNS ",
@@ -8206,7 +8206,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "green/FOUNDATIONAL",
-   "video": "https://youtu.be/rMvwVtlqjTE",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8244,7 +8244,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "green/FOUNDATIONAL",
-   "video": "https://youtu.be/VyarbKwmOeE",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8288,7 +8288,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "green/FOUNDATIONAL",
-   "video": "https://youtube.com/shorts/Xb8IH4RpW_s?feature=share",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8328,7 +8328,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "green/FOUNDATIONAL",
-   "video": "https://youtu.be/MeIiIdhvXT4",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8370,7 +8370,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "green/FOUNDATIONAL",
-   "video": "https://youtu.be/NcOoCrI-Vro",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8423,7 +8423,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "green/FOUNDATIONAL",
-   "video": "https://youtu.be/M-3wmzwsUxc",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8463,7 +8463,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "green/FOUNDATIONAL",
-   "video": "https://youtube.com/shorts/0BwOWfg_-Og?feature=share",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8503,7 +8503,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "green/FOUNDATIONAL",
-   "video": "https://youtu.be/v_c67Omje48",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8543,7 +8543,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "green/FOUNDATIONAL",
-   "video": "https://youtu.be/_mfORB47xMs",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8583,7 +8583,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "green/FOUNDATIONAL",
-   "video": "https://youtu.be/f-Vf2yRRqOg",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8625,7 +8625,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "yellow/INTERMEDIATE",
-   "video": "https://youtu.be/6XghYOzny8U",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8667,7 +8667,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "yellow/INTERMEDIATE",
-   "video": "https://youtube.com/shorts/7nFjBP4K0t4?feature=share",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8707,7 +8707,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "yellow/INTERMEDIATE",
-   "video": "https://youtu.be/4yxT7QPowa0",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8747,7 +8747,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "yellow/INTERMEDIATE",
-   "video": "https://youtube.com/shorts/0aTzcRGDCQE?feature=share",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8787,7 +8787,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "yellow/INTERMEDIATE",
-   "video": "https://youtu.be/uYumuL_G_V0",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8827,7 +8827,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "yellow/INTERMEDIATE",
-   "video": "https://youtu.be/i7J5h7BJ07g",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8867,7 +8867,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "yellow/INTERMEDIATE",
-   "video": "https://youtu.be/Uy8lViLbwGQ",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -8908,7 +8908,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "red/ADVANCED",
-   "video": "https://youtu.be/EqpRWfab9eo",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -9104,7 +9104,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": null,
    "colour_level": "red/ADVANCED",
-   "video": "https://youtu.be/zwa-VtaB4S0",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -9206,7 +9206,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": "SPECIALTY VARIATIONS",
    "colour_level": "red/ADVANCED",
-   "video": "https://youtu.be/CqN02EAAtc8",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -9246,7 +9246,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": "SPECIALTY VARIATIONS",
    "colour_level": null,
-   "video": "https://youtu.be/HW5yUsjKru4",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -9284,7 +9284,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": "SPECIALTY VARIATIONS",
    "colour_level": "red/ADVANCED",
-   "video": "https://youtube.com/shorts/NB_DvZx-2vk?feature=share",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -9328,7 +9328,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": "SPECIALTY VARIATIONS",
    "colour_level": "red/ADVANCED",
-   "video": "https://youtu.be/pn8mqlG0nkE",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -9368,7 +9368,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": "Leg Extensiona",
    "colour_level": null,
-   "video": "https://youtu.be/m0FOpMEgero",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [],
@@ -9408,7 +9408,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": "Leg Extensiona",
    "colour_level": null,
-   "video": "https://youtu.be/MM_WD0gZres",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -9451,7 +9451,7 @@
    "laterality_plane": "BILATERAL SAGITAL -SEE CHEAT SHEET  *ALL ABOUT SQUATS",
    "sub_block": "Leg Extensiona",
    "colour_level": null,
-   "video": "https://youtu.be/HpCE66lfEuk",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -9708,7 +9708,7 @@
    "laterality_plane": "BILATERAL SAGITAL",
    "sub_block": null,
    "colour_level": "green/FOUNDATIONAL",
-   "video": "https://youtu.be/wMEoGwkk650",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -9798,7 +9798,7 @@
    "laterality_plane": "BILATERAL SAGITAL",
    "sub_block": null,
    "colour_level": "green/FOUNDATIONAL",
-   "video": "https://youtu.be/3vmbvoT2m-U",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [],
@@ -9838,7 +9838,7 @@
    "laterality_plane": "BILATERAL SAGITAL",
    "sub_block": null,
    "colour_level": "green/FOUNDATIONAL",
-   "video": "https://youtu.be/pv8e6OSyETE",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -9918,7 +9918,7 @@
    "laterality_plane": "BILATERAL SAGITAL",
    "sub_block": null,
    "colour_level": "green/FOUNDATIONAL",
-   "video": "https://youtu.be/aXwilZfmDyo",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -9958,7 +9958,7 @@
    "laterality_plane": "BILATERAL SAGITAL",
    "sub_block": null,
    "colour_level": "yellow/INTERMEDIATE",
-   "video": "https://youtu.be/z15C9UZUbss",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [],
@@ -9998,7 +9998,7 @@
    "laterality_plane": "BILATERAL SAGITAL",
    "sub_block": null,
    "colour_level": "yellow/INTERMEDIATE",
-   "video": "https://youtu.be/tsP0eYPsoiE",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [],
@@ -10038,7 +10038,7 @@
    "laterality_plane": "BILATERAL SAGITAL",
    "sub_block": null,
    "colour_level": "yellow/INTERMEDIATE",
-   "video": "https://youtu.be/1jC_nqcSCp8",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -10078,7 +10078,7 @@
    "laterality_plane": "BILATERAL SAGITAL",
    "sub_block": null,
    "colour_level": "yellow/INTERMEDIATE",
-   "video": "https://youtu.be/ev5Bx5a_mss",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -10116,7 +10116,7 @@
    "laterality_plane": "BILATERAL SAGITAL",
    "sub_block": null,
    "colour_level": "yellow/INTERMEDIATE",
-   "video": "https://youtu.be/op9kVnSso6Q",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -10156,7 +10156,7 @@
    "laterality_plane": "BILATERAL SAGITAL",
    "sub_block": null,
    "colour_level": "red/ADVANCED",
-   "video": "https://youtu.be/SZEcHFpc6Gw",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -10196,7 +10196,7 @@
    "laterality_plane": "BILATERAL SAGITAL",
    "sub_block": null,
    "colour_level": "red/ADVANCED",
-   "video": "https://youtu.be/ekNKtG0ZFTU",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -10236,7 +10236,7 @@
    "laterality_plane": "BILATERAL SAGITAL",
    "sub_block": null,
    "colour_level": "red/ADVANCED",
-   "video": "https://youtu.be/YA-h3n9L4YU",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -10274,7 +10274,7 @@
    "laterality_plane": "BILATERAL SAGITAL",
    "sub_block": "POWERLIFTING Speacialty LIFT ",
    "colour_level": "red/ADVANCED",
-   "video": "https://youtu.be/wQHSYDSgDn8",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -10314,7 +10314,7 @@
    "laterality_plane": "BILATERAL SAGITAL",
    "sub_block": "SPEED SPECIALS",
    "colour_level": null,
-   "video": "https://youtu.be/KkYOW3jDhoM",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -10354,7 +10354,7 @@
    "laterality_plane": "BILATERAL SAGITAL",
    "sub_block": "SPEED SPECIALS",
    "colour_level": null,
-   "video": "https://youtu.be/rGQA9QXTdbU",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -10394,7 +10394,7 @@
    "laterality_plane": "UNILATERAL SAGITAL",
    "sub_block": "FEET POSITIONING VARIATIONS",
    "colour_level": null,
-   "video": "https://youtu.be/WxakFlx9zLk",
+   "video": "[video link removed]",
    "also_variable_value": "FEET POSITIONING VARIATIONS (stance)",
    "parse": {
     "implements": [
@@ -10437,7 +10437,7 @@
    "laterality_plane": "UNILATERAL SAGITAL",
    "sub_block": "FEET POSITIONING VARIATIONS",
    "colour_level": null,
-   "video": "https://youtu.be/cnwphCgR60A",
+   "video": "[video link removed]",
    "also_variable_value": "FEET POSITIONING VARIATIONS (stance)",
    "parse": {
     "implements": [
@@ -10477,7 +10477,7 @@
    "laterality_plane": "UNILATERAL SAGITAL",
    "sub_block": "FEET POSITIONING VARIATIONS",
    "colour_level": null,
-   "video": "https://youtu.be/7pwO2gemRyg",
+   "video": "[video link removed]",
    "also_variable_value": "FEET POSITIONING VARIATIONS (stance)",
    "parse": {
     "implements": [
@@ -10517,7 +10517,7 @@
    "laterality_plane": "UNILATERAL SAGITAL",
    "sub_block": "FEET POSITIONING VARIATIONS",
    "colour_level": null,
-   "video": "https://youtu.be/1ozWQ-B9zu4",
+   "video": "[video link removed]",
    "also_variable_value": "FEET POSITIONING VARIATIONS (stance)",
    "parse": {
     "implements": [
@@ -10562,7 +10562,7 @@
    "laterality_plane": "UNILATERAL SAGITAL",
    "sub_block": "FEET POSITIONING VARIATIONS",
    "colour_level": null,
-   "video": "https://youtu.be/LFI6UUQgyMY",
+   "video": "[video link removed]",
    "also_variable_value": "FEET POSITIONING VARIATIONS (stance)",
    "parse": {
     "implements": [
@@ -10605,7 +10605,7 @@
    "laterality_plane": "UNILATERAL SAGITAL",
    "sub_block": "FEET POSITIONING VARIATIONS",
    "colour_level": null,
-   "video": "https://youtu.be/n4PKawSrLt0",
+   "video": "[video link removed]",
    "also_variable_value": "FEET POSITIONING VARIATIONS (stance)",
    "parse": {
     "implements": [
@@ -10650,7 +10650,7 @@
    "laterality_plane": "UNILATERAL SAGITAL",
    "sub_block": "FEET POSITIONING VARIATIONS",
    "colour_level": null,
-   "video": "https://youtu.be/VG52O1zzDks",
+   "video": "[video link removed]",
    "also_variable_value": "FEET POSITIONING VARIATIONS (stance)",
    "parse": {
     "implements": [
@@ -10690,7 +10690,7 @@
    "laterality_plane": "UNILATERAL SAGITAL",
    "sub_block": "FEET POSITIONING VARIATIONS",
    "colour_level": null,
-   "video": "https://youtu.be/9ZknEYboBOQ",
+   "video": "[video link removed]",
    "also_variable_value": "FEET POSITIONING VARIATIONS (stance)",
    "parse": {
     "implements": [
@@ -10728,7 +10728,7 @@
    "laterality_plane": "UNILATERAL SAGITAL",
    "sub_block": "FEET POSITIONING VARIATIONS",
    "colour_level": null,
-   "video": "https://youtu.be/Ha__mTXHk3c",
+   "video": "[video link removed]",
    "also_variable_value": "FEET POSITIONING VARIATIONS (stance)",
    "parse": {
     "implements": [
@@ -10768,7 +10768,7 @@
    "laterality_plane": "UNILATERAL SAGITAL",
    "sub_block": "SINGLE LEG",
    "colour_level": null,
-   "video": "https://youtu.be/ay02gvlU_Js",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -10808,7 +10808,7 @@
    "laterality_plane": "UNILATERAL SAGITAL",
    "sub_block": "SINGLE LEG",
    "colour_level": null,
-   "video": "https://youtu.be/qDcniqddTeE",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [
@@ -10848,7 +10848,7 @@
    "laterality_plane": "UNILATERAL FRONTAL",
    "sub_block": null,
    "colour_level": null,
-   "video": "https://youtu.be/zKWe7UAWbIo",
+   "video": "[video link removed]",
    "also_variable_value": null,
    "parse": {
     "implements": [

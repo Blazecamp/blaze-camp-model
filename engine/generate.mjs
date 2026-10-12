@@ -76,7 +76,9 @@ function lateRoundsOverCap(plan, shape) {
 function run(deps, intake, model, ropts = {}) {
   const v = deps.validateIntake(intake, model);
   if (!v || !v.ok) return invalidPlan(intake, v, model);
-  const s = deps.safetyScreen(v.intake);
+  // engine 0.7 (COACH-R5 R5-GEN-02, G-270): with rules.legal.health_flag.on_flag 'warn' a health flag builds the plan with the warning
+  // (deriveValues carries it); the retired 'refer' stop stays only for a model without that rule. The release gate ran first.
+  const s = deps.safetyScreen(v.intake, model);
   if (s && s.refer) return referPlan(v.intake, s, model);
   const seed = makeSeed(intakeForHash(v.intake), model.version);
   const derived = deps.deriveValues(v.intake, model);
@@ -1391,7 +1393,7 @@ function buildMeta(C, v, weeks = []) {
     tests,
     // v0.5 / V2 (COACH-R4 R4-LIB-01): the optional add-ons this plan offers - the person chooses; never part of the template
     addons: buildAddons(C, weeks),
-    health: { ...(d.health || { role: v.intake.role || 'self', health_route: v.intake.health_route ?? null, refer: false, reasons: [], bypass: false }) },
+    health: { ...(d.health || { role: v.intake.role || 'self', health_route: v.intake.health_route ?? null, refer: false, warn: false, reasons: [], bypass: false }) },
     older_opt_in: d.age >= model.rules.population.older.from_age && !!(d.prefs && d.prefs.older_athletic_opt_in),
     after_plan: shape.after_plan ?? null,
     instruction_keys: INSTRUCTION_KEYS.slice(),

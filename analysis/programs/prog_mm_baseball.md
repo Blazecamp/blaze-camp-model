@@ -1796,38 +1796,38 @@ Weekly optional Olympic sets = 16 (4 sessions x 4 sets), and reps per session fa
 **A.1 The 32 hyperlink objects** (these are what the brief counted as '32 data validations'):
 | Cell | Target | Cell text (trimmed) |
 |---|---|---|
-| BG28 | https://youtu.be/L_2tMNItxmA | DB snap downs [video] |
-| BU28 | https://youtu.be/Wiai414wTrA | back against wall med ball rotational toss [video] |
-| BY28 | https://youtu.be/dmx8roGpwDI | Single leg march jumps [video] |
-| AK29 | https://youtu.be/af3Qy82vjRg | side lying db drop & catch - like this but with a DB that drops and you catch it to bring it up [video] |
-| DW29 | https://youtu.be/Z6tT500Jw7s | Kettlebell arm bars [video] |
-| EA29 | https://youtu.be/Z6tT500Jw7s | Kettlebell arm bars [video] |
-| EE29 | https://youtu.be/Z6tT500Jw7s | Kettlebell arm bars [video] |
-| EI29 | https://youtu.be/Z6tT500Jw7s | Kettlebell arm bars [video] |
-| BC30 | https://youtu.be/bC1zR8DVVAc | Oblique sit plank [video] |
-| BG30 | https://youtu.be/L1rt7qr5LCk | Hanging lateral knees to chest [video] |
-| BK30 | https://youtu.be/VpEcj96HO4k | Weighted leg raises medball [video] |
-| CU31 | https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share | med ball rockers [video] |
-| DI31 | https://youtu.be/rbemelnkHag | DEad bugs [video] |
-| DW31 | https://youtu.be/B4kRyoWzi7A | Half kneeling shoulder roll [video] |
-| EE31 | https://youtu.be/B4kRyoWzi7A | Half kneeling shoulder roll [video] |
-| BO34 | https://youtu.be/p7njQa7-WLI | medball press [video] |
-| BO38 | https://youtu.be/hOlO2wO-6dk | rear delt db row [video] |
-| AA46 | https://youtu.be/L_2tMNItxmA | DB snap downs [video] |
-| AS46 | https://youtu.be/dmx8roGpwDI | Single leg march jumps [video] |
-| W48 | https://youtu.be/bC1zR8DVVAc | Oblique sit plank [video] |
-| AA48 | https://youtu.be/L1rt7qr5LCk | Hanging lateral knees to chest [video] |
-| AE48 | https://youtu.be/VpEcj96HO4k | Weighted leg raises medball [video] |
-| BO49 | https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share | med ball rockers [video] |
-| CC49 | https://youtu.be/rbemelnkHag | DEad bugs [video] |
-| AI52 | https://youtu.be/p7njQa7-WLI | medball press [video] |
-| DZ52 | https://www.youtube.com/watch?v=cRU0RQ1KTfg | camporini deadlift [video] |
-| CQ55 | https://www.youtube.com/watch?v=cRU0RQ1KTfg | camporini deadlift [video] |
-| AI56 | https://youtu.be/hOlO2wO-6dk | rear delt db row [video] |
-| DY65 | https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share | med ball rockers [video] |
-| CO66 | https://youtube.com/shorts/mW-Vu6KHqZ8?feature=share | med ball rockers [video] |
-| BB67 | https://www.youtube.com/watch?v=Zko5x2SoQmo | PLANK DB PULL THROUGH [video] |
-| BB72 | https://www.youtube.com/watch?v=pjIq2m9XsVE | db lateral lunge [video] |
+| BG28 | [video link removed] | DB snap downs [video] |
+| BU28 | [video link removed] | back against wall med ball rotational toss [video] |
+| BY28 | [video link removed] | Single leg march jumps [video] |
+| AK29 | [video link removed] | side lying db drop & catch - like this but with a DB that drops and you catch it to bring it up [video] |
+| DW29 | [video link removed] | Kettlebell arm bars [video] |
+| EA29 | [video link removed] | Kettlebell arm bars [video] |
+| EE29 | [video link removed] | Kettlebell arm bars [video] |
+| EI29 | [video link removed] | Kettlebell arm bars [video] |
+| BC30 | [video link removed] | Oblique sit plank [video] |
+| BG30 | [video link removed] | Hanging lateral knees to chest [video] |
+| BK30 | [video link removed] | Weighted leg raises medball [video] |
+| CU31 | [video link removed] | med ball rockers [video] |
+| DI31 | [video link removed] | DEad bugs [video] |
+| DW31 | [video link removed] | Half kneeling shoulder roll [video] |
+| EE31 | [video link removed] | Half kneeling shoulder roll [video] |
+| BO34 | [video link removed] | medball press [video] |
+| BO38 | [video link removed] | rear delt db row [video] |
+| AA46 | [video link removed] | DB snap downs [video] |
+| AS46 | [video link removed] | Single leg march jumps [video] |
+| W48 | [video link removed] | Oblique sit plank [video] |
+| AA48 | [video link removed] | Hanging lateral knees to chest [video] |
+| AE48 | [video link removed] | Weighted leg raises medball [video] |
+| BO49 | [video link removed] | med ball rockers [video] |
+| CC49 | [video link removed] | DEad bugs [video] |
+| AI52 | [video link removed] | medball press [video] |
+| DZ52 | [video link removed] | camporini deadlift [video] |
+| CQ55 | [video link removed] | camporini deadlift [video] |
+| AI56 | [video link removed] | rear delt db row [video] |
+| DY65 | [video link removed] | med ball rockers [video] |
+| CO66 | [video link removed] | med ball rockers [video] |
+| BB67 | [video link removed] | PLANK DB PULL THROUGH [video] |
+| BB72 | [video link removed] | db lateral lunge [video] |
 
 **A.2 Inline URLs typed into cell text:** 169 exercise rows (109 unique URLs). Share of exercise rows with any video (hyperlink or inline URL) per week:
 | Week | B1W1 | B1W2 | B1W3 | B1W4 | B1W5 | B1W6 | B1W7 | B1W8 | B2W1 | B2W2 | B2W3 | B2W4 | B2W5 | B2W6 | B2W7 | B2W8 | B3W1 | B3W2 | B3W3 | B3W4 | B3W5 | B3W6 | B3W7 | B3W8 |

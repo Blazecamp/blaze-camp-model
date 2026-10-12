@@ -245,20 +245,41 @@ function stairwayWeeks(c, tb) { return c.weeks.filter(w => w.training_block === 
 
 // ---------------------------------------------------------------------------------------------------------------- V-checks
 
+/**
+ * V1 - the health check (R2-GEN-03, R3-GEN-01). engine 0.7 (COACH-R5 R5-GEN-02 'It doesn't stop ... but it should warn them'; DECISIONS
+ * G-270 ... G-273): with rules.legal.health_flag.on_flag 'warn' a flag (or severe pain) never stops the plan - an ok plan that has
+ * reasons carries `meta.health.warn` and `warning.health_flag`, severe pain is built with the moderate pain rules (G-271), and a
+ * 'refer' result is a violation. With on_flag 'refer' (a model without the rule) the retired stop is checked as before.
+ */
 function v1Safety(c) {
   const out = [], h = c.meta.health || {}, k = 'check.v1_safety';
+  const HF = c.R.legal && c.R.legal.health_flag;
+  const warnMode = !!HF && HF.on_flag === 'warn';
   if (c.plan.status === 'refer') {
+    if (warnMode) out.push(viol({}, k, { rule: 'refer_retired_health_flag_warns' }));
     if (!h.refer) out.push(viol({}, k, { rule: 'refer_status_without_health_refer' }));
     if (!c.plan.refer || !Array.isArray(c.plan.refer.reasons) || !c.plan.refer.reasons.length) out.push(viol({}, k, { rule: 'refer_without_reasons' }));
     if (c.weeks.length) out.push(viol({}, k, { rule: 'refer_plan_has_weeks' }));
   } else if (c.plan.status === 'ok') {
     if (h.refer) out.push(viol({}, k, { rule: 'health_refer_but_plan_ok' }));
-    if ((h.reasons || []).length) out.push(viol({}, k, { rule: 'ok_plan_with_refer_reasons' }));
     if (h.health_route === 'coach_own_sop') {
       if (!h.bypass) out.push(viol({}, k, { rule: 'coach_own_sop_without_bypass' }));
       if (!c.hasWarning('warning.coach_bypass')) out.push(viol({}, k, { rule: 'coach_bypass_warning_missing' }));
     }
-    if ((c.derived.pain || []).some(p => p && p.severity === 'severe')) out.push(viol({}, k, { rule: 'severe_pain_must_refer' }));
+    const pain = c.derived.pain || [];
+    if (warnMode) {
+      const severe = pain.some(p => p && (p.severity === 'severe' || p.reported_severity === 'severe'));
+      const flagged = (h.reasons || []).length > 0 || severe;
+      if (flagged && !h.warn) out.push(viol({}, k, { rule: 'health_flag_without_warn' }));
+      if (flagged && !c.hasWarning(HF.warning_key)) out.push(viol({}, k, { rule: 'health_warning_missing' }));
+      if (h.warn && !(h.reasons || []).length) out.push(viol({}, k, { rule: 'health_warn_without_reasons' }));
+      if (severe && !(h.reasons || []).includes(HF.reason_prefix + 'severe_pain')) out.push(viol({}, k, { rule: 'severe_pain_reason_missing' }));
+      // G-271: severe pain is planned with the moderate pain rules, never with no pain rule at all
+      if (HF.severe_pain && HF.severe_pain.build_as && pain.some(p => p && p.severity === 'severe')) out.push(viol({}, k, { rule: 'severe_pain_not_built_as', as: HF.severe_pain.build_as }));
+    } else {
+      if ((h.reasons || []).length) out.push(viol({}, k, { rule: 'ok_plan_with_refer_reasons' }));
+      if (pain.some(p => p && p.severity === 'severe')) out.push(viol({}, k, { rule: 'severe_pain_must_refer' }));
+    }
   }
   return out;
 }
@@ -876,6 +897,14 @@ function v21Release(c) {
     for (const lang of RL.langs || ['en', 'es']) {
       for (const key of keys) if (!c.model.has(lang, key)) out.push(viol({}, k, { rule: 'release_line_words', lang, key }));
       if (!(L.disclaimer_url && typeof L.disclaimer_url[lang] === 'string' && /^https?:\/\//.test(L.disclaimer_url[lang]))) out.push(viol({}, k, { rule: 'release_link', lang }));
+    }
+  }
+  // engine 0.7 (COACH-R5 R5-GEN-02, G-273): a plan built with a health flag prints the health warning, in English and Spanish
+  const HF = L.health_flag || null;
+  if (HF && HF.on_flag === 'warn' && c.meta.health && c.meta.health.warn) {
+    for (const lang of (RL && RL.langs) || ['en', 'es']) {
+      for (const key of [HF.label_key, HF.line_key, HF.short_key, HF.reasons_key, HF.warning_key]) if (typeof key !== 'string' || !c.model.has(lang, key)) out.push(viol({}, k, { rule: 'health_warning_words', lang, key: String(key) }));
+      for (const r of c.meta.health.reasons || []) if (!c.model.has(lang, r)) out.push(viol({}, k, { rule: 'health_reason_words', lang, key: r }));
     }
   }
   return out;

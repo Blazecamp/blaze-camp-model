@@ -129,9 +129,9 @@ Neither tab has PURPOSE or CATEGORY columns (unlike the BYOP templates), so the 
 | M2 | 13 | D36:F36 | 'WORKOUT' #2 (D22) | Heavy | AP_TRIPLE_EXT | Heavy Power Cleans | 2 | 8 | 'HEAVY' (in cell) | - |
 | M2 | 14 | D37:F37 | 'WORKOUT' #2 (D22) | - | RP_UKD | Lateral Step ups IPSILATERAL loading | 4 | '10 & 10' | sheet rule A5: 1-3 RIR / RPE 7+ (resistance) | - |
 | M2 | 15 | D38:F38 | 'WORKOUT' #2 (D22) | - | AP_TRIPLE_EXT | Db Staggered Hang Snatch  | 2 | '6 & 6' | not written (athletic: max intent / quality) | - |
-| M3 | 1 | D41:G41 | 'WORKOUT' #3 (D39) | - | AP_PLYO | Weighted Depth Drops - Drop & Stick - Hold for 3 seconds on each one | 1 | 8 | 3 s stick/hold | video: https://youtu.be/uoDrpDu4HVY |
-| M3 | 2 | D42:G42 | 'WORKOUT' #3 (D39) | - | CORE_OTHER | Med Ball Rockers | 2 | 12 | not written (core: reps/time) | video: this but hugging a light medball: https://youtu.be/648HpqRr4D8; Med Ball Rockers: BASEBALL tab labels 'med ball rockers' as 'Transverse core' (accumulate 4 min); video note 'this but hugging a light medball' |
-| M3 | 3 | D43:G43 | 'WORKOUT' #3 (D39) | - | AP_PLYO | Single Leg to march jumps | 2 | '8 & 8' | not written (athletic: max intent / quality) | video: https://youtu.be/O8jpEmEQbm0 |
+| M3 | 1 | D41:G41 | 'WORKOUT' #3 (D39) | - | AP_PLYO | Weighted Depth Drops - Drop & Stick - Hold for 3 seconds on each one | 1 | 8 | 3 s stick/hold | video: [video link removed] |
+| M3 | 2 | D42:G42 | 'WORKOUT' #3 (D39) | - | CORE_OTHER | Med Ball Rockers | 2 | 12 | not written (core: reps/time) | video: this but hugging a light medball: [video link removed] Med Ball Rockers: BASEBALL tab labels 'med ball rockers' as 'Transverse core' (accumulate 4 min); video note 'this but hugging a light medball' |
+| M3 | 3 | D43:G43 | 'WORKOUT' #3 (D39) | - | AP_PLYO | Single Leg to march jumps | 2 | '8 & 8' | not written (athletic: max intent / quality) | video: [video link removed] |
 | M3 | 4 | D44:F44 | 'WORKOUT' #3 (D39) | - | AP_PLYO | HEX bar loaded Jumps | 3 | '4-6' [cell stored as date 2021-04-06, fmt m-d] | not written (athletic: max intent / quality) | HEX bar loaded Jumps: loaded ballistic jump; alt AP_TRIPLE_EXT |
 | M3 | 5 | D45:F45 | 'WORKOUT' #3 (D39) | pair: HIP-DOMINANT + HORIZONTAL PUSH | RP_BHD + RP_HPUSH | Bench glute Bridge & fast alternating DB sesaw floor press | 2 | '6 & 6' | 'FAST'/fast intent; sheet rule A5: 1-3 RIR / RPE 7+ (resistance) | Bench glute Bridge: library AN10 'Elevated Feet on Bench Glute Bridges' = BHD |
 | M3 | 6 | D46:F46 | 'WORKOUT' #3 (D39) | - | RP_UHD | Unilateral Deadlift DB loaded | 2 | '6 & 6' | sheet rule A5: 1-3 RIR / RPE 7+ (resistance) | - |
@@ -159,9 +159,9 @@ Neither tab has PURPOSE or CATEGORY columns (unlike the BYOP templates), so the 
 
 | day | order | cells | section / part label (verbatim) | in-cell tag (no PURPOSE/CATEGORY column exists) | canonical bucket(s) | exercise (verbatim) | sets | reps (verbatim) | intensity / effort | notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| A1 | 1 | H12:K12 | 'WORKOUT' #1 (H10) | - | AP_PLYO | Weighted Depth Drops - Drop & Stick - Hold for 3 seconds on each one | 1 | 8 | 3 s stick/hold | video: https://youtu.be/uoDrpDu4HVY |
-| A1 | 2 | H13:K13 | 'WORKOUT' #1 (H10) | - | CORE_OTHER | Med Ball Rockers | 1 | 12 | not written (core: reps/time) | video: this but hugging a light medball: https://youtu.be/648HpqRr4D8; Med Ball Rockers: 'Transverse core' per BASEBALL tab |
-| A1 | 3 | H14:K14 | 'WORKOUT' #1 (H10) | - | AP_PLYO | Single Leg to march jumps | 1 | '12 & 12' | not written (athletic: max intent / quality) | video: https://youtu.be/O8jpEmEQbm0 |
+| A1 | 1 | H12:K12 | 'WORKOUT' #1 (H10) | - | AP_PLYO | Weighted Depth Drops - Drop & Stick - Hold for 3 seconds on each one | 1 | 8 | 3 s stick/hold | video: [video link removed] |
+| A1 | 2 | H13:K13 | 'WORKOUT' #1 (H10) | - | CORE_OTHER | Med Ball Rockers | 1 | 12 | not written (core: reps/time) | video: this but hugging a light medball: [video link removed] Med Ball Rockers: 'Transverse core' per BASEBALL tab |
+| A1 | 3 | H14:K14 | 'WORKOUT' #1 (H10) | - | AP_PLYO | Single Leg to march jumps | 1 | '12 & 12' | not written (athletic: max intent / quality) | video: [video link removed] |
 | A1 | 4 | H15:J15 | 'WORKOUT' #1 (H10) | (1RIR) singles | RP_BHD | DEADLIFTS (1RIR) | 3 | 1 | 1 RIR (in cell); sheet rule A5: 1-3 RIR / RPE 7+ (resistance) | - |
 | A1 | 5 | H16:J16 | 'WORKOUT' #1 (H10) | - | RP_UHD | Unilateral Deadlift DB loaded | 2 | '6 & 6' | sheet rule A5: 1-3 RIR / RPE 7+ (resistance) | - |
 | A1 | 6 | H17:J17 | 'WORKOUT' #1 (H10) | SUPERSET (core) | CORE_OTHER | SUPERSET: Star v-ups + side plank knee to elbow  | 3 | '20 + 20 ' | not written (core: reps/time) | Star v-ups: CONTROL PATTERNS 'Star V-Ups' = BOTH; side plank knee to elbow: frontal |

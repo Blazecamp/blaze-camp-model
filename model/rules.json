@@ -11551,7 +11551,8 @@
   "refs": [
    "R3-GEN-01",
    "R4-SCP-01",
-   "R4-SCP-02"
+   "R4-SCP-02",
+   "R5-GEN-02"
   ],
   "status": "COACH-R3 R3-GEN-01 and COACH-R4 R4-SCP-01 / R4-SCP-02 approved; release text DRAFT for attorney review",
   "parq_url": "https://eparmedx.com/",
@@ -11613,6 +11614,35 @@
     "R4-SCP-02"
    ],
    "status": "approved rule (R4-SCP-02 \"outputted in their program somewhere at the bottom or at the top: you've released liability\"); PROPOSED wording, a draft for attorney review like DISCLAIMER.md"
+  },
+  "health_flag": {
+   "on_flag": "warn",
+   "warning_code": "health_flag",
+   "warning_key": "warning.health_flag",
+   "label_key": "ui.plan.health_warning_label",
+   "line_key": "ui.plan.health_warning",
+   "reasons_key": "ui.plan.health_warning_reasons",
+   "short_key": "ui.plan.health_warning_short",
+   "reason_prefix": "refer.reason.",
+   "severe_pain": {
+    "build_as": "moderate",
+    "warn": true,
+    "status": "PROPOSED (G-271: read from R5-GEN-02; the coach has not ruled on severe pain itself)"
+   },
+   "coach_routes": {
+    "coach_screen": "the client answers the health check; a yes builds the plan with the warning",
+    "coach_own_sop": "the health check is not read; warning.coach_bypass prints; severe pain still gives the warning"
+   },
+   "gate_unchanged": true,
+   "legal_review": true,
+   "refs": [
+    "R5-GEN-02",
+    "R4-SCP-01",
+    "R4-SCP-02",
+    "R3-GEN-01",
+    "R2-GEN-03"
+   ],
+   "status": "approved rule (COACH-R5 R5-GEN-02); the warning wording is a draft for attorney review [LEGAL REVIEW]; severe pain PROPOSED"
   }
  },
  "r3_approved": [
@@ -11657,7 +11687,9 @@
    "R4-SCP-02",
    "R4-SCP-03",
    "R4-SES-01",
-   "R4-SES-04"
+   "R4-SES-04",
+   "R5-GEN-02",
+   "R5-GRD-06"
   ],
   "status": "PROPOSED (fix round 2 / F3): wording of the new lines",
   "video": {
@@ -11852,6 +11884,28 @@
     "R2-GEN-08"
    ],
    "status": "approved rules (the coach ids above); PROPOSED: the wording of every new line (machine-written Spanish listed in es_review.priority_review)"
+  },
+  "v7": {
+   "core_optional": {
+    "kinds": [
+     "core"
+    ],
+    "heading_suffix_key": "block.optional_suffix",
+    "guide_key": "guide.adjust.core_optional",
+    "refs": [
+     "R5-GRD-06",
+     "R3-SES-02",
+     "CX-04"
+    ]
+   },
+   "health_warning_up_front": true,
+   "refs": [
+    "R5-GRD-06",
+    "R5-GEN-02",
+    "R3-SES-02",
+    "CX-04"
+   ],
+   "status": "approved rules (the coach ids above); PROPOSED: the wording of the core line; [LEGAL REVIEW]: the health warning"
   }
  }
 }

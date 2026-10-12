@@ -47,4 +47,7 @@
 //   station, team practices (tools/fixture/v06-select.mjs; G-130 ... G-139); words - circuit progression from the weeks, the
 //   pyramid written out, "What changes" by exercise with its sets before and after, one acceleration line a week, the printed-copy
 //   minors (tools/fixture/v06-words.mjs; G-160 ... G-179); the integration of the three (G-190 ... G-199).
-export const ENGINE_VERSION = '0.6.0';
+// 0.7.0 (work package "safety gate, printed words, public files", coach_answers_round5.md): a health-check flag no longer stops the plan
+//   - the plan is built and prints a health warning in English and Spanish (R5-GEN-02; severe pain built with the moderate pain rules,
+//   PROPOSED); the core block printed as optional and adjustable (R5-GRD-06) (tools/fixture/v07-words.mjs; DECISIONS G-270 ... G-289).
+export const ENGINE_VERSION = '0.7.0';

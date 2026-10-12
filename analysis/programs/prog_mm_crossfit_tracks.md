@@ -408,7 +408,7 @@ Rules visible:
   * STRENGTH right block: WK6 column T8:T24 is filled FFF2CC (light yellow), the last week of wave 1. T18 'LOW BAR' is bright green 00FF00.
   * AESTHETICS: Wednesday/Saturday rows are lavender D9D2E9 (the cardio days of the left block). That fill spills into the right block rows 46/62.
   * AESTHETICS: Z31/Z32 (WK12 sets 5 / reps '15/15/12/12/12') are FCE5CD, highlighting the peak week. X51 'Arnold press' is F4CCCC.
-  * Hyperlinks (blue font): P39/R39/T39/P55/R55/T55/V55 -> https://youtu.be/hp7ktB-sjoo ('cable tricep extension'); V39:Z39, W55:Z55 -> https://youtu.be/kqidUIf1eJE ('overhead cable rope tricep ext'). Exercise demo videos.
+  * Hyperlinks (blue font): P39/R39/T39/P55/R55/T55/V55 -> [video link removed] ('cable tricep extension'); V39:Z39, W55:Z55 -> [video link removed] ('overhead cable rope tricep ext'). Exercise demo videos.
 
 ### 2.1 STRENGTH track, 8-week conjugate (left block B3:L24)
 **Identity**:

@@ -4,22 +4,22 @@ NON-EMPTY CELLS: 1351
 MERGED (0): 
 DATA VALIDATIONS (dropdown sources):
 HYPERLINKS:
-  P39 -> https://youtu.be/hp7ktB-sjoo
-  R39 -> https://youtu.be/hp7ktB-sjoo
-  T39 -> https://youtu.be/hp7ktB-sjoo
-  V39 -> https://youtu.be/kqidUIf1eJE
-  W39 -> https://youtu.be/kqidUIf1eJE
-  X39 -> https://youtu.be/kqidUIf1eJE
-  Y39 -> https://youtu.be/kqidUIf1eJE
-  Z39 -> https://youtu.be/kqidUIf1eJE
-  P55 -> https://youtu.be/hp7ktB-sjoo
-  R55 -> https://youtu.be/hp7ktB-sjoo
-  T55 -> https://youtu.be/hp7ktB-sjoo
-  V55 -> https://youtu.be/hp7ktB-sjoo
-  W55 -> https://youtu.be/kqidUIf1eJE
-  X55 -> https://youtu.be/kqidUIf1eJE
-  Y55 -> https://youtu.be/kqidUIf1eJE
-  Z55 -> https://youtu.be/kqidUIf1eJE
+  P39 -> [video link removed]
+  R39 -> [video link removed]
+  T39 -> [video link removed]
+  V39 -> [video link removed]
+  W39 -> [video link removed]
+  X39 -> [video link removed]
+  Y39 -> [video link removed]
+  Z39 -> [video link removed]
+  P55 -> [video link removed]
+  R55 -> [video link removed]
+  T55 -> [video link removed]
+  V55 -> [video link removed]
+  W55 -> [video link removed]
+  X55 -> [video link removed]
+  Y55 -> [video link removed]
+  Z55 -> [video link removed]
 
 CELLS (row-major; coord | value | formatting):
 A1 | '8 WEEKS OF 3 TRACKS PROGRAMMING EXAMPLE - ONGOING TRAINING' | bg=00FFFF bold fg=theme1
@@ -658,17 +658,17 @@ I39 | 'SL RDL' | fg=theme1
 J39 | 'SL RDL' | fg=theme1
 K39 | 'SL RDL' | fg=theme1
 O39 | 'TATE PRESS' | bg=theme0 fg=theme1
-P39 | 'cable tricep extension https://youtu.be/hp7ktB-sjoo' | fg=0000FF
+P39 | 'cable tricep extension [video link removed]' | fg=0000FF
 Q39 | 'TATE PRESS' | bg=theme0 fg=theme1
-R39 | 'cable tricep extension https://youtu.be/hp7ktB-sjoo' | fg=0000FF
+R39 | 'cable tricep extension [video link removed]' | fg=0000FF
 S39 | 'TATE PRESS' | bg=theme0 fg=theme1
-T39 | 'cable tricep extension https://youtu.be/hp7ktB-sjoo' | fg=0000FF
+T39 | 'cable tricep extension [video link removed]' | fg=0000FF
 U39 | 'TATE PRESS' | bg=theme0 fg=theme1
-V39 | 'overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE' | fg=0000FF
-W39 | 'overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE' | fg=0000FF
-X39 | 'overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE' | fg=0000FF
-Y39 | 'overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE' | fg=0000FF
-Z39 | 'overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE' | fg=0000FF
+V39 | 'overhead cable rope tricep ext - [video link removed]' | fg=0000FF
+W39 | 'overhead cable rope tricep ext - [video link removed]' | fg=0000FF
+X39 | 'overhead cable rope tricep ext - [video link removed]' | fg=0000FF
+Y39 | 'overhead cable rope tricep ext - [video link removed]' | fg=0000FF
+Z39 | 'overhead cable rope tricep ext - [video link removed]' | fg=0000FF
 D40 | '1-2 RIR' | fg=theme1
 E40 | 'ACCESSORIES' | fg=theme1
 F40 | 'ACCESSORIES' | fg=theme1
@@ -960,17 +960,17 @@ J55 | 'LAT PULL DOWN/PULL UP' | fg=theme1
 K55 | 'BARBELL BENCH PRESS' | fg=theme1
 L55 | 'DELOAD WEEK' | fg=theme1
 O55 | 'TATE PRESS' | bg=theme0 fg=theme1
-P55 | 'cable tricep extension https://youtu.be/hp7ktB-sjoo' | fg=0000FF
+P55 | 'cable tricep extension [video link removed]' | fg=0000FF
 Q55 | 'TATE PRESS' | bg=theme0 fg=theme1
-R55 | 'cable tricep extension https://youtu.be/hp7ktB-sjoo' | fg=0000FF
+R55 | 'cable tricep extension [video link removed]' | fg=0000FF
 S55 | 'TATE PRESS' | bg=theme0 fg=theme1
-T55 | 'cable tricep extension https://youtu.be/hp7ktB-sjoo' | fg=0000FF
+T55 | 'cable tricep extension [video link removed]' | fg=0000FF
 U55 | 'TATE PRESS' | bg=theme0 fg=theme1
-V55 | 'cable tricep extension https://youtu.be/hp7ktB-sjoo' | fg=0000FF
-W55 | 'overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE' | fg=0000FF
-X55 | 'overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE' | fg=0000FF
-Y55 | 'overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE' | fg=0000FF
-Z55 | 'overhead cable rope tricep ext - https://youtu.be/kqidUIf1eJE' | fg=0000FF
+V55 | 'cable tricep extension [video link removed]' | fg=0000FF
+W55 | 'overhead cable rope tricep ext - [video link removed]' | fg=0000FF
+X55 | 'overhead cable rope tricep ext - [video link removed]' | fg=0000FF
+Y55 | 'overhead cable rope tricep ext - [video link removed]' | fg=0000FF
+Z55 | 'overhead cable rope tricep ext - [video link removed]' | fg=0000FF
 D56 | '1-2 RIR' | fg=theme1
 E56 | 'UNILATERAL LAT PULL DOWN' | fg=theme1
 F56 | 'DB BENCH PRESS' | fg=theme1

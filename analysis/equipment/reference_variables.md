@@ -382,8 +382,8 @@ SCIENCE:
 | Value | Cell | Colour | Video | Mechanics (INFERRED) |
 |---|---|---|---|---|
 | `Elevated` | A82 | green | none | Higher start, shorter ROM. Ambiguous; see open questions. |
-| `Floor` | A83 | yellow | B83 `https://youtu.be/rctF-33G7nw` | Standard ROM |
-| `Deficit` | A84 | red | B84 `https://youtu.be/CpWsUsqBtN8` | Longer ROM, deeper start |
+| `Floor` | A83 | yellow | B83 `[video link removed]` | Standard ROM |
+| `Deficit` | A84 | red | B84 `[video link removed]` | Longer ROM, deeper start |
 | `*RDL` | A85 | red | none | Range set by hip/hamstring end range, not by the floor |
 
 ROM tools that appear inside names:
@@ -408,7 +408,7 @@ SCIENCE: long-muscle-length training (deficits, deep ranges) produces equal or m
 | Value | Cell | Colour | Mechanics |
 |---|---|---|---|
 | `Dead stop` | RP A87 | green | Rest at the bottom; concentric starts with no elastic help (INFERRED) |
-| `Touch & go` | RP A88 (video B88 `https://youtu.be/rSh6zBVNYRU`) | yellow | Brief contact, then rebound; stretch-shortening cycle (INFERRED) |
+| `Touch & go` | RP A88 (video B88 `[video link removed]`) | yellow | Brief contact, then rebound; stretch-shortening cycle (INFERRED) |
 | `*RDL` | RP A89 | red | Never touches; eccentric first (INFERRED) |
 | box `touch & go` vs `Deload` | RP A25:A30, S23 AE2:AE7 | red | Deload = sit and release on the box (INFERRED) |
 | `Pinned` | RP A35 | red | Dead stop on pins |
