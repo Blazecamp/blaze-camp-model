@@ -6,7 +6,7 @@ import fs from 'node:fs';
 import * as GEN from '../engine/generate.mjs';
 import { generateWith, generate, realModulesStatus, REQUIRED_DEPS, ENGINE_VERSION } from '../engine/generate.mjs';
 import { STUB_DEPS } from './helpers/stub-modules.mjs';
-import { loadFixtureModel, allSamples, loadSample } from './helpers/models.mjs';
+import { loadFixtureModel, allSamples, loadSample, loadModelWithoutHealthFlag } from './helpers/models.mjs';
 
 const model = loadFixtureModel();
 const REAL = realModulesStatus().ready;
@@ -141,10 +141,13 @@ describe('generateWith (stub modules)', () => {
     assert.ok(p.errors.some(e => e.key === 'warning.release_missing'));
   });
 
-  test('a safety answer refers the person (V1): no weeks, reasons kept, V1 passes', () => {
+  // engine 0.7 (COACH-R5 R5-GEN-02; DECISIONS G-270, converted): the stop is retired - a model with rules.legal.health_flag builds the
+  // plan with a warning (tests/v07-words.test.mjs). The stop itself is still checked on a model without that rule (the stub screen).
+  test('the retired stop, on a model without rules.legal.health_flag: a safety answer refers the person (V1): no weeks, reasons kept, V1 passes', () => {
     const intake = loadSample('06');
     intake.safety.heart = true;
-    const p = generateWith(STUB_DEPS, intake, model);
+    const old = loadModelWithoutHealthFlag();
+    const p = generateWith(STUB_DEPS, intake, old);
     assert.equal(p.status, 'refer');
     assert.deepEqual(p.refer.reasons, ['refer.reason.heart']);
     assert.deepEqual(p.weeks, []);

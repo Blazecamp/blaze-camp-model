@@ -446,7 +446,7 @@ export function assertModel(raw) {
     const HF = LG.health_flag;
     if (!['warn', 'refer'].includes(HF.on_flag)) err('rules.legal.health_flag.on_flag must be warn or refer');
     if (HF.on_flag === 'warn') {
-      for (const k of [HF.warning_key, HF.label_key, HF.line_key, HF.reasons_key, HF.short_key]) both(k, 'health warning');
+      for (const k of [HF.warning_key, HF.label_key, HF.line_key, HF.reasons_key, HF.short_key, HF.stamp_key].filter(Boolean)) both(k, 'health warning');
       if (HF.gate_unchanged !== true || !(LG.gate && LG.gate.required === true)) err('rules.legal.health_flag: the release gate must stay required and first (R4-SCP-02, H20)');
     }
   }

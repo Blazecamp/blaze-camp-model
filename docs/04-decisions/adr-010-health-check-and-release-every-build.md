@@ -1,5 +1,7 @@
 # ADR-010: A short health check, and a "use at your own risk" tick at every build
 
+> **Update, round 5 (R5-GEN-02, 2026-10-12).** A health-check flag no longer stops the plan. "It doesn't stop because we're not taking on any liability, but it should warn them": the plan is built and prints a clear warning in English and Spanish (general fitness information, not a plan from a doctor; see a medical professional to make sure it is safe for you). The release is still accepted first. Severe pain is planned with the moderate pain rules and the same warning (PROPOSED). The plan never names which health question was a yes. Engine: `engine/DECISIONS.md` G-270 ... G-274. The text below is the round-2 / round-3 decision as it was.
+
 Before a plan is built, a client answers a short health check. Some answers send the person to a professional and no plan is built. A coach can skip the check with a legal warning. Everyone, client or coach, ticks a "use at your own risk" box every time a plan is built. Nothing is stored. The coach set this in round 2 and approved the details in round 3. All wording is a placeholder until a lawyer writes it.
 
 | | |

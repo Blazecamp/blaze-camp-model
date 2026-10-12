@@ -204,7 +204,7 @@ The engine followed the same idea with code tools.
 | Limit | What it means for you |
 |---|---|
 | The documents were written by AI agents | A second agent checked each one, but only he can confirm a rule. Trust an answer id more than any sentence around it |
-| A coach-eye review is not the coach | He has not graded a sample plan yet (R2-GEN-07 says he will) |
+| A coach-eye review is not the coach | He graded the 8 sample plans in round 5 (A for 3, B+ for 5; R5-GRD-01 ... 08). Between his rounds, only AI reviewers grade |
 | Research citations were checked for obvious errors only | A full check of the science is the job given to the outside reviewer in [CODEX_BRIEF.md](../../CODEX_BRIEF.md) |
 | Many numbers are PROPOSED | They are defaults. Each is marked where it appears |
 | Spanish is partly machine-translated | Those lines are marked for review. He or a coach he trusts approves every line (R2-GEN-08) |

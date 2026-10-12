@@ -273,6 +273,8 @@ function v1Safety(c) {
       if (flagged && !h.warn) out.push(viol({}, k, { rule: 'health_flag_without_warn' }));
       if (flagged && !c.hasWarning(HF.warning_key)) out.push(viol({}, k, { rule: 'health_warning_missing' }));
       if (h.warn && !(h.reasons || []).length) out.push(viol({}, k, { rule: 'health_warn_without_reasons' }));
+      // G-274: the plan never names which health question was a yes (spec legal_and_privacy.no_data_kept.health_answers, R3-GEN-01)
+      if (HF.answer_reason_key) for (const r of h.reasons || []) if (![HF.answer_reason_key, HF.reason_prefix + 'severe_pain'].includes(r)) out.push(viol({}, k, { rule: 'health_answer_in_plan', reason: r }));
       if (severe && !(h.reasons || []).includes(HF.reason_prefix + 'severe_pain')) out.push(viol({}, k, { rule: 'severe_pain_reason_missing' }));
       // G-271: severe pain is planned with the moderate pain rules, never with no pain rule at all
       if (HF.severe_pain && HF.severe_pain.build_as && pain.some(p => p && p.severity === 'severe')) out.push(viol({}, k, { rule: 'severe_pain_not_built_as', as: HF.severe_pain.build_as }));
@@ -903,7 +905,7 @@ function v21Release(c) {
   const HF = L.health_flag || null;
   if (HF && HF.on_flag === 'warn' && c.meta.health && c.meta.health.warn) {
     for (const lang of (RL && RL.langs) || ['en', 'es']) {
-      for (const key of [HF.label_key, HF.line_key, HF.short_key, HF.reasons_key, HF.warning_key]) if (typeof key !== 'string' || !c.model.has(lang, key)) out.push(viol({}, k, { rule: 'health_warning_words', lang, key: String(key) }));
+      for (const key of [HF.label_key, HF.line_key, HF.short_key, HF.reasons_key, HF.warning_key, ...(HF.stamp_key ? [HF.stamp_key] : [])]) if (typeof key !== 'string' || !c.model.has(lang, key)) out.push(viol({}, k, { rule: 'health_warning_words', lang, key: String(key) }));
       for (const r of c.meta.health.reasons || []) if (!c.model.has(lang, r)) out.push(viol({}, k, { rule: 'health_reason_words', lang, key: r }));
     }
   }

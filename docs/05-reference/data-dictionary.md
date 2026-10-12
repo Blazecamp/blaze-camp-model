@@ -488,7 +488,7 @@ The intake is the only input. Nothing is asked after the plan is built (R3-VOL-0
 | `units` | F06 | Units | `lb`, `kg` | R2-GEN-08 |
 | `role` | F39 | Who the plan is for | `self`, `client` (a coach building for a client) | R2-GEN-03 |
 | `health_route` | F45 | For a coach: run the health check or skip it | `coach_screen`, `coach_own_sop` | R2-GEN-03, R3-GEN-01 |
-| `safety` | F01 | The five health-check answers | booleans: `heart`, `surgery_6mo`, `pregnant_postpartum_6mo`, `injury_in_treatment`, `doctor_said_no`. Today any true answer stops the automatic plan (status `refer`). Open for the coach after R4-SCP-01 ("everyone should be able to use the plan"). | R2-GEN-03, R4-SCP-01 |
+| `safety` | F01 | The five health-check answers | booleans: `heart`, `surgery_6mo`, `pregnant_postpartum_6mo`, `injury_in_treatment`, `doctor_said_no`. Since engine 0.7 (R5-GEN-02) a true answer no longer stops the plan: it is built with a health warning, and the plan never says which answer was true. (Before: any true answer stopped the automatic plan.) | R2-GEN-03, R4-SCP-01 |
 | `release` | F46 | The acceptance of the terms and the release of liability for this build. **Required**: without `accepted: true` the engine returns `status: invalid`, no weeks and the error `release_missing`. It is checked first, before the health screen. | `accepted: true`; `version`: `release.client`, `release.coach`, `release.minor` (with `guardian: true` under 18) | R3-GEN-01, R4-SCP-01, R4-SCP-02 |
 | `age` | F02 | Age | 10 to 90 (range PROPOSED) | ATH-09 |
 | `body_weight` | F05 | Body weight | `{value, unit}` | GEN-02 |

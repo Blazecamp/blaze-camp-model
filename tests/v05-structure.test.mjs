@@ -56,7 +56,7 @@ for (const [mname, model] of MODELS) {
 
   describe(`v0.5 no time-fitting (${mname})`, () => {
     // (engine 0.6.0: the version bump of the merged volume, selection and words packages)
-    it('engine version is 0.6.0', () => { assert.equal(ENGINE_VERSION, '0.6.0'); for (const n of ['06']) assert.equal(planOf(n).engine_version, '0.6.0'); });
+    it('engine version is 0.7.0', () => { assert.equal(ENGINE_VERSION, '0.7.0'); for (const n of ['06']) assert.equal(planOf(n).engine_version, '0.7.0'); });
 
     it('CT-01 / R4-SES-01: no rule, intake field, plan field or engine file sizes a plan by minutes', () => {
       // rules: every time-fitting table is gone; the time model is an estimate

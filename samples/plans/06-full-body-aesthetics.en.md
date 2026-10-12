@@ -62,6 +62,7 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 - You (or your coach) can switch off these blocks on any day: core, cardio, accessories and walk after the workout. You can also add or remove exercises (more rear-delt work, for example). Use the suggested supersets to save time.
 - Switching off the accessories block takes away every direct set for Biceps, Triceps and Calves.
 - You (or your coach) can also change the sets of any exercise on any day or week: the plan is a template.
+- The core block is optional: you may switch it off or change its exercises on any day. Everything in this plan is adjustable.
 - The time shown on each day is an average estimate, for information only: nothing in this plan is cut or changed because of time. Want a shorter day? Use the suggested supersets, or remove what the day lists as easiest to remove.
 
 Your plan climbs like a stairway: small steps up to week 6, a bit bigger from week 7, the hardest weeks at the end.
@@ -242,7 +243,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -315,7 +316,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -385,7 +386,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
@@ -434,7 +435,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -506,7 +507,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -572,7 +573,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
@@ -631,7 +632,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -700,7 +701,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -766,7 +767,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
@@ -815,7 +816,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -883,7 +884,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -945,7 +946,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
@@ -1003,7 +1004,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -1072,7 +1073,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -1138,7 +1139,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
@@ -1187,7 +1188,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -1255,7 +1256,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -1317,7 +1318,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
@@ -1374,7 +1375,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -1443,7 +1444,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -1509,7 +1510,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
@@ -1558,7 +1559,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -1626,7 +1627,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -1688,7 +1689,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
@@ -1752,7 +1753,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -1821,7 +1822,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -1887,7 +1888,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
@@ -1941,7 +1942,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -2009,7 +2010,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -2071,7 +2072,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
@@ -2128,7 +2129,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -2197,7 +2198,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -2263,7 +2264,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
@@ -2317,7 +2318,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -2385,7 +2386,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -2447,7 +2448,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
@@ -2506,7 +2507,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -2575,7 +2576,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -2641,7 +2642,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
@@ -2695,7 +2696,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -2763,7 +2764,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -2825,7 +2826,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
@@ -2886,7 +2887,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -2955,7 +2956,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -3021,7 +3022,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
@@ -3075,7 +3076,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -3143,7 +3144,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -3205,7 +3206,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
@@ -3269,7 +3270,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -3338,7 +3339,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -3404,7 +3405,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
@@ -3458,7 +3459,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -3526,7 +3527,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -3593,7 +3594,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
@@ -3657,7 +3658,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -3726,7 +3727,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -3792,7 +3793,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
@@ -3846,7 +3847,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -3914,7 +3915,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -3981,7 +3982,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
@@ -4047,7 +4048,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -4116,7 +4117,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -4182,7 +4183,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
@@ -4236,7 +4237,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -4304,7 +4305,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -4371,7 +4372,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
@@ -4439,7 +4440,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Lateral Cossack Lunge with Overhead Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Stationary%20Lunge%20(Split%20Squat)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball Stationary Lunge (Split Squat) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -4508,7 +4509,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball RFE Split Squat (Bulgarian) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Stationary Lunge (Split Squat) with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Overhead%20Reach) · Name to copy into YouTube: `Medball Forward Lunge with Overhead Reach`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -4574,7 +4575,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier)
@@ -4627,7 +4628,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Medball Hug (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Reverse Lunge with Cross-Body Turn (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Medball Held Forward (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20RFE%20Split%20Squat%20(Bulgarian)%20with%20Medball%20Held%20Forward) · Name to copy into YouTube: `Medball RFE Split Squat (Bulgarian) with Medball Held Forward`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -4695,7 +4696,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Swap for: Medball Reverse Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Forward Lunge with Down-and-Back Cross-Body Reach (keeps the same job in the session; loses the exact drill - the same quality, trained another way) / Medball Toe Touches (keeps the same job in the session; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Medball%20Forward%20Lunge%20with%20Medball%20Up) · Name to copy into YouTube: `Medball Forward Lunge with Medball Up`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -4762,7 +4763,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Windshield Wipers (keeps the core work; loses some difficulty - this one is easier) / Break Dancers (bear/crab-position thread-through rotations) (keeps the core work; loses some difficulty - this one is easier) / Swiss Ball Plate Torso Rotations (keeps the core work; loses some difficulty - this one is easier)
@@ -4803,7 +4804,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 
 ---
 
-_Model 1.3.0 · Engine 0.6.0_
+_Model 1.3.0 · Engine 0.7.0_
 
 Liability released: the terms and the release were accepted before this plan was built. Not medical advice. Use at your own risk. Train within your limits. Full terms: Disclaimer and Release of Liability. [Read the full disclaimer and release](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md)
 

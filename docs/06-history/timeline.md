@@ -5,7 +5,7 @@ The Blaze Camp model was built in five days, from 2026-10-07 to 2026-10-11. It i
 > **How to read this page.**
 > - Dates come from three places: the "Collected" line at the top of each answer file, the git log, and file dates. Times of day are approximate.
 > - **The team** means the people working with the coach plus the AI agents they ran. An **agent** is one AI worker with one task. A **workflow** is a script that runs many agents in a fixed order. The scripts are in [workflows/](../../workflows/) and are explained in [method.md](method.md).
-> - A **coach-eye reviewer** is an AI agent that reads a sample plan the way the coach would. It is not the coach. **The coach has not graded any sample plan yet.** That was still true on 2026-10-11.
+> - A **coach-eye reviewer** is an AI agent that reads a sample plan the way the coach would. It is not the coach. **The coach had not graded any sample plan yet on 2026-10-11.** He graded all 8 in round 5 (2026-10-12): the coach's grades (round 5) are A for 01 swimming, 02 football and 07 push / pull / legs, and B+ for 03 soccer, 04 CrossFit-style class, 05 bootcamp, 06 full-body aesthetics and 08 pickleball (R5-GRD-01 ... 08).
 > - The **master document** is [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md), the one file that explains the whole model. The **spec** is [generator_spec_v1.json](../../generator_spec_v1.json), the same model as data for a program to read.
 > - A **block** usually means one training plan of a fixed length, such as 12 weeks. Inside a session, a block is one part of the day, such as the athletic block or the core block. The **stairway** is his rule that weekly sets climb through a plan, from a starting number to a planned final number. Since CX-02 a week may hold its sets while reps or load progress. Other terms are in the [glossary](../05-reference/glossary.md).
 > - Ids with no prefix (`VOL-07`) are round 1, `R2-` is round 2, `R3-` is round 3, `R4-` is round 4. `CT-01` is his clarification on session time and `CX-01` to `CX-04` are his clarifications on progression and editing. **PROPOSED** means the team designed it and he has not confirmed it.
@@ -587,7 +587,7 @@ Part of the rise in score comes from corrections to the scorer, which are listed
 
 **Why.** He approved releasing the model as the finished product with the engine labelled experimental: "go ahead and finish it all, and then after you're done, consolidate everything." (R4-REL-01). And he set how the repo describes itself: "a complete coaching model from the experience of Coach Lalo, who is Gerardo Vera. Master NASM coach." (R4-REL-03)
 
-**What was left open on purpose.** His list of certifications. He said he has many and that they could be looked up. The team did not look them up or invent any. The README and the model card carry a marked placeholder for him to fill.
+**What was left open on purpose.** His list of certifications. He said he has many and that they could be looked up. The team did not look them up or invent any. The README and the model card carried a marked placeholder for him to fill. Round 5 closed it: "Master NASM coach" only, the placeholder removed and nothing added (R5-PUB-02).
 
 ## Versions
 

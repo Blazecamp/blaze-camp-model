@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { validatePlan, CHECK_IDS } from '../engine/validate.mjs';
 import { planStairway } from '../engine/progression/stairway.mjs';
-import { loadFixtureModel } from './helpers/models.mjs';
+import { loadFixtureModel, loadModelWithoutHealthFlag } from './helpers/models.mjs';
 
 const model = loadFixtureModel();
 const BASE = JSON.parse(fs.readFileSync(new URL('./fixtures/plan-min.json', import.meta.url), 'utf8'));
@@ -295,16 +295,25 @@ describe('exemptions written into the contract', () => {
 });
 
 describe('refer and invalid plans', () => {
-  test('a refer plan with reasons and no weeks passes V1', () => {
-    const p = { schema: 'plan/2', status: 'refer', refer: { reasons: ['refer.reason.heart'] }, errors: [], offers: [], meta: { health: { role: 'self', health_route: null, refer: true, reasons: ['refer.reason.heart'], bypass: false }, instruction_keys: ['instruction.title'] }, weeks: [] };
-    const res = validatePlan(p, model);
+  // engine 0.7 (COACH-R5 R5-GEN-02; DECISIONS G-270 / G-273, converted): a refer plan is the retired stop - it passes V1 only on a model
+  // without rules.legal.health_flag (engine 0.6 shape); on this model a refer plan fails V1 (tests/v07-words.test.mjs)
+  const old = loadModelWithoutHealthFlag();
+  const referPlan = () => ({ schema: 'plan/2', status: 'refer', refer: { reasons: ['refer.reason.heart'] }, errors: [], offers: [], meta: { health: { role: 'self', health_route: null, refer: true, reasons: ['refer.reason.heart'], bypass: false }, instruction_keys: ['instruction.title'] }, weeks: [] });
+  test('the retired stop: a refer plan with reasons and no weeks passes V1 on a model without the health warning rule', () => {
+    const res = validatePlan(referPlan(), old);
     assert.equal(check(res, 'V1').pass, true);
     assert.equal(res.ok, true);
   });
 
+  test('R5-GEN-02: a refer plan fails V1 on a model whose health flag warns', () => {
+    const res = validatePlan(referPlan(), model);
+    assert.equal(check(res, 'V1').pass, false);
+    assert.ok(check(res, 'V1').violations.some(v => v.args && v.args.rule === 'refer_retired_health_flag_warns'), JSON.stringify(check(res, 'V1').violations));
+  });
+
   test('a refer plan that still has weeks fails V1', () => {
     const p = { schema: 'plan/2', status: 'refer', refer: { reasons: ['refer.reason.heart'] }, errors: [], offers: [], meta: { health: { refer: true } }, weeks: [{ n: 1, days: [] }] };
-    assert.equal(check(validatePlan(p, model), 'V1').pass, false);
+    assert.equal(check(validatePlan(p, old), 'V1').pass, false);
   });
 
   test('an invalid plan only runs the input checks', () => {

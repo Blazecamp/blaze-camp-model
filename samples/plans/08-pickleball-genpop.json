@@ -2,7 +2,7 @@
   "schema": "plan/2",
   "status": "ok",
   "model_version": "1.3.0",
-  "engine_version": "0.6.0",
+  "engine_version": "0.7.0",
   "contracts_version": "1.1.0",
   "seed": "c53:0ea68ae9b0da33",
   "intake_hash": "c53:0f9ed9f6fd8d0d",
@@ -737,6 +737,7 @@
       "role": "self",
       "health_route": null,
       "refer": false,
+      "warn": false,
       "reasons": [],
       "bypass": false
     },
@@ -1340,6 +1341,7 @@
         "role": "self",
         "health_route": null,
         "refer": false,
+        "warn": false,
         "reasons": [],
         "bypass": false
       },

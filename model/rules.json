@@ -11065,7 +11065,8 @@
    {
     "id": "V1",
     "key": "check.v1_safety",
-    "severity": "error"
+    "severity": "error",
+    "v07": "the health check warns, it does not stop (R5-GEN-02): a flag (or severe pain) builds an ok plan that carries meta.health.warn and warning.health_flag; severe pain is built with the moderate pain rules (PROPOSED, G-271); status refer is a violation while rules.legal.health_flag.on_flag is warn"
    },
    {
     "id": "V2",
@@ -11169,7 +11170,8 @@
     "id": "V21",
     "key": "check.v21_release",
     "severity": "error",
-    "v05": "the liability gate: an ok plan carries a release stamp that says the terms and the release were accepted, of the version its role and age ask for, and the release line can be printed in English and Spanish with its link (R4-SCP-01, R4-SCP-02)"
+    "v05": "the liability gate: an ok plan carries a release stamp that says the terms and the release were accepted, of the version its role and age ask for, and the release line can be printed in English and Spanish with its link (R4-SCP-01, R4-SCP-02)",
+    "v07": "a plan built with a health flag can print the health warning in English and Spanish, with what raised it, never naming a health answer (R5-GEN-02, G-274)"
    },
    {
     "id": "V22",
@@ -11623,7 +11625,9 @@
    "line_key": "ui.plan.health_warning",
    "reasons_key": "ui.plan.health_warning_reasons",
    "short_key": "ui.plan.health_warning_short",
+   "stamp_key": "ui.plan.health_check_flagged",
    "reason_prefix": "refer.reason.",
+   "answer_reason_key": "refer.reason.health_check",
    "severe_pain": {
     "build_as": "moderate",
     "warn": true,

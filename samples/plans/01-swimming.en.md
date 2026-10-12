@@ -61,6 +61,7 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 - You (or your coach) can switch off these blocks on any day: jumps, throws and speed; power / Olympic lifts; core; accessories. You can also add or remove exercises (more rear-delt work, for example). Use the suggested supersets to save time.
 - Switching off the accessories block takes away every direct set for Shoulders, Biceps, Triceps and Calves.
 - You (or your coach) can also change the sets of any exercise on any day or week: the plan is a template.
+- The core block is optional: you may switch it off or change its exercises on any day. Everything in this plan is adjustable.
 - The time shown on each day is an average estimate, for information only: nothing in this plan is cut or changed because of time. Want a shorter day? Use the suggested supersets, or remove what the day lists as easiest to remove.
 - Swimmers: keep the gym at least 4 hours away from a hard pool session when you can. After a hard pool week, switch off that day's jumps, remove an exercise or repeat the week. Before your main meet, taper the gym for 2 weeks in line with your swim coach's taper (1 week or none before smaller meets).
 
@@ -244,7 +245,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -346,7 +347,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -453,7 +454,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
@@ -548,7 +549,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
@@ -576,7 +577,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -670,7 +671,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -767,7 +768,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
@@ -850,7 +851,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
@@ -879,7 +880,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -973,7 +974,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -1070,7 +1071,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
@@ -1153,7 +1154,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
@@ -1181,7 +1182,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -1275,7 +1276,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -1372,7 +1373,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
@@ -1455,7 +1456,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
@@ -1488,7 +1489,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -1579,7 +1580,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -1672,7 +1673,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
@@ -1755,7 +1756,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
@@ -1784,7 +1785,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -1875,7 +1876,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -1968,7 +1969,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
@@ -2051,7 +2052,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
@@ -2079,7 +2080,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -2170,7 +2171,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -2263,7 +2264,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
@@ -2346,7 +2347,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
@@ -2375,7 +2376,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -2466,7 +2467,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -2559,7 +2560,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
@@ -2642,7 +2643,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
@@ -2679,7 +2680,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -2771,7 +2772,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -2864,7 +2865,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
@@ -2956,7 +2957,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
@@ -2984,7 +2985,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -3076,7 +3077,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -3169,7 +3170,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
@@ -3261,7 +3262,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
@@ -3294,7 +3295,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -3386,7 +3387,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -3479,7 +3480,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
@@ -3571,7 +3572,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
@@ -3600,7 +3601,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -3695,7 +3696,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -3792,7 +3793,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. 5 min any cardio
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
@@ -3889,14 +3890,14 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 
 ---
 
-_Model 1.3.0 · Engine 0.6.0_
+_Model 1.3.0 · Engine 0.7.0_
 
 Liability released: the terms and the release were accepted before this plan was built. Not medical advice. Use at your own risk. Train within your limits. Full terms: Disclaimer and Release of Liability. [Read the full disclaimer and release](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md)
 

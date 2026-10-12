@@ -158,16 +158,21 @@ for (const [mname, model] of MODELS) {
   });
 
   describe(`intake.safetyScreen / checkRelease (${mname})`, () => {
-    it('refers on any safety item for self and coach_screen; never reads it with coach_own_sop; severe pain always refers', () => {
+    // engine 0.7 (COACH-R5 R5-GEN-02; DECISIONS G-270 / G-272, converted): without a model the retired stop of engine 0.6 is kept
+    // (refer); with this model (rules.legal.health_flag.on_flag 'warn') the same reasons give a warning and the plan is built
+    it('reads any safety item for self and coach_screen; never reads it with coach_own_sop; severe pain is always read', () => {
       const self = sample('06', i => { i.safety.heart = true; });
-      assert.deepEqual(safetyScreen(self), { refer: true, reasons: ['refer.reason.heart'], bypass: false });
+      assert.deepEqual(safetyScreen(self), { refer: true, warn: false, reasons: ['refer.reason.heart'], bypass: false });
+      assert.deepEqual(safetyScreen(self, model), { refer: false, warn: true, reasons: ['refer.reason.health_check'], bypass: false }, 'R5-GEN-02: it warns, it does not stop; G-274: the answer itself is not named');
       const screen = sample('06', i => { i.role = 'client'; i.health_route = 'coach_screen'; i.safety.doctor_said_no = true; });
       assert.deepEqual(safetyScreen(screen).reasons, ['refer.reason.doctor_said_no']);
+      assert.deepEqual(safetyScreen(screen, model).reasons, ['refer.reason.health_check']);
       const bypass = sample('06', i => { i.role = 'client'; i.health_route = 'coach_own_sop'; i.safety.heart = true; });
-      assert.deepEqual(safetyScreen(bypass), { refer: false, reasons: [], bypass: true });
+      assert.deepEqual(safetyScreen(bypass, model), { refer: false, warn: false, reasons: [], bypass: true });
       const severe = sample('06', i => { i.role = 'client'; i.health_route = 'coach_own_sop'; i.pain = [{ area: 'knee', side: 'left', severity: 'severe', worse_with: [] }]; });
-      assert.deepEqual(safetyScreen(severe), { refer: true, reasons: ['refer.reason.severe_pain'], bypass: true });
-      assert.deepEqual(safetyScreen(sample('06')), { refer: false, reasons: [], bypass: false });
+      assert.deepEqual(safetyScreen(severe), { refer: true, warn: false, reasons: ['refer.reason.severe_pain'], bypass: true });
+      assert.deepEqual(safetyScreen(severe, model), { refer: false, warn: true, reasons: ['refer.reason.severe_pain'], bypass: true });
+      assert.deepEqual(safetyScreen(sample('06'), model), { refer: false, warn: false, reasons: [], bypass: false });
     });
 
     it('checkRelease: minor / coach / client versions', () => {

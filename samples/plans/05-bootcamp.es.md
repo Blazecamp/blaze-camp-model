@@ -54,6 +54,7 @@ Las superseries de core son opcionales en cualquier parte: puedes juntar un ejer
 - Tú (o tu entrenador) puedes desactivar estos bloques cualquier día: core (abdomen) y cardio. También puedes agregar o quitar ejercicios (por ejemplo, más trabajo de deltoides posterior). Usa las superseries sugeridas para ahorrar tiempo.
 - En un circuito puedes saltarte la estación de salto, lanzamiento o cardio, o quitar una estación de músculo pequeño: las rondas siguen igual.
 - Tú (o tu entrenador) también puedes cambiar las series de cualquier ejercicio en cualquier día o semana: el plan es una plantilla.
+- El bloque de core es opcional: puedes desactivarlo o cambiar sus ejercicios cualquier día. Todo en este plan se puede ajustar.
 - El tiempo que aparece en cada día es un estimado promedio, solo como información: nada de este plan se recorta ni se cambia por tiempo.
 
 ## Extras opcionales
@@ -198,7 +199,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -262,7 +263,7 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
@@ -326,7 +327,7 @@ _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal invers
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -396,7 +397,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -455,7 +456,7 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
@@ -514,7 +515,7 @@ _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal invers
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -581,7 +582,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -640,7 +641,7 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
@@ -699,7 +700,7 @@ _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal invers
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -765,7 +766,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -824,7 +825,7 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
@@ -883,7 +884,7 @@ _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal invers
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -954,7 +955,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1013,7 +1014,7 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
@@ -1072,7 +1073,7 @@ _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal invers
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -1138,7 +1139,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1197,7 +1198,7 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
@@ -1256,7 +1257,7 @@ _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal invers
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -1326,7 +1327,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1385,7 +1386,7 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
@@ -1444,7 +1445,7 @@ _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal invers
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -1514,7 +1515,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1573,7 +1574,7 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
@@ -1632,7 +1633,7 @@ _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal invers
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -1682,7 +1683,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 
 ---
 
-_Modelo 1.3.0 · Motor 0.6.0_
+_Modelo 1.3.0 · Motor 0.7.0_
 
 Responsabilidad liberada: los términos y la liberación de responsabilidad se aceptaron antes de crear este plan. No es consejo médico. Úsalo bajo tu propio riesgo. Entrena dentro de tus límites. Términos completos: Aviso legal y liberación de responsabilidad. [Lee el aviso legal y la liberación de responsabilidad completos](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.es.md)
 

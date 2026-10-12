@@ -7,8 +7,8 @@
 // What this layer changes in the model (rules: rules.legal.health_flag, rules.render.v7; words: UI_W7):
 //   * R5-GEN-02 A HEALTH-CHECK FLAG NO LONGER STOPS THE PLAN ("It doesn't stop because we're not taking on any liability, but it
 //     should warn them"). A true health answer (heart, recent surgery, pregnancy, an injury in treatment, a doctor's no) builds the
-//     plan; the plan carries `warning.health_flag` and prints the warning up front in every view, in English and Spanish, with the
-//     answers that raised it. The liability gate is unchanged and still checked first (R4-SCP-02, H20): no release, no plan.
+//     plan; the plan carries `warning.health_flag` and prints the warning up front in every view, in English and Spanish, with what
+//     raised it ('a yes on the health check' - never which question, G-274 - and / or 'severe pain'). The liability gate is unchanged and still checked first (R4-SCP-02, H20): no release, no plan.
 //   * SEVERE PAIN (PROPOSED, G-271): read the same way as the coach's answer - the plan is built, with the pain rules of the
 //     strictest non-severe level (moderate: the painful lifts left out, the area's groups held, the pain-free depth cues) and the
 //     same health warning, with 'Severe pain' named among its reasons.
@@ -41,8 +41,13 @@ export function amendRulesW7(rules) {
     line_key: 'ui.plan.health_warning',
     reasons_key: 'ui.plan.health_warning_reasons',
     short_key: 'ui.plan.health_warning_short',
-    // the answers that raised it are named with the existing reason words
+    // the 'Before you start' stamp of a flagged plan (replaces 'nothing in it asked for a doctor first', which would be untrue)
+    stamp_key: 'ui.plan.health_check_flagged',
+    // what raised it is named with the reason words; the health answers themselves are never named (G-274: the plan never says
+    // which health question was a yes - spec legal_and_privacy.no_data_kept.health_answers 'never in the plan, links, exports',
+    // R3-GEN-01): every yes on the health check is the one reason 'a yes on the health check'; severe pain (a plan input) is named
     reason_prefix: 'refer.reason.',
+    answer_reason_key: 'refer.reason.health_check',
     // G-271 (PROPOSED): severe pain builds the plan with the moderate pain rules and the same warning
     severe_pain: { build_as: 'moderate', warn: true, status: 'PROPOSED (G-271: read from R5-GEN-02; the coach has not ruled on severe pain itself)' },
     // G-272: how the coach's health_route options work now
@@ -57,6 +62,13 @@ export function amendRulesW7(rules) {
     status: 'approved rule (COACH-R5 R5-GEN-02); the warning wording is a draft for attorney review [LEGAL REVIEW]; severe pain PROPOSED'
   };
   R.legal.refs = uniqSorted([...(R.legal.refs || []), 'R5-GEN-02']);
+  // the registry says what V1 / V21 hold now (G-273); H20 (the liability gate) is unchanged and still runs before the health screen
+  R.validation = R.validation || {};
+  R.validation.checks = (R.validation.checks || []).map(c => (c.id === 'V1'
+    ? { ...c, v07: 'the health check warns, it does not stop (R5-GEN-02): a flag (or severe pain) builds an ok plan that carries meta.health.warn and warning.health_flag; severe pain is built with the moderate pain rules (PROPOSED, G-271); status refer is a violation while rules.legal.health_flag.on_flag is warn' }
+    : c.id === 'V21'
+      ? { ...c, v07: 'a plan built with a health flag can print the health warning in English and Spanish, with what raised it, never naming a health answer (R5-GEN-02, G-274)' }
+      : c));
 
   R.render = R.render || {};
   R.render.v7 = {
@@ -77,8 +89,10 @@ export const UI_W7 = {
   'warning.health_flag': ['Health check: you answered yes to at least one question. This plan was built anyway; read the warning at the top of the plan. [LEGAL REVIEW]', 'Revisión de salud: respondiste que sí a al menos una pregunta. Este plan se creó de todos modos; lee la advertencia al inicio del plan. [REVISIÓN LEGAL]'],
   'ui.plan.health_warning_label': ['Health warning.', 'Advertencia de salud.'],
   'ui.plan.health_warning': ['This plan is general fitness information, built from general good training practice. It is not a plan from a doctor, and no medical professional has tailored it to you. See a medical professional to make sure it is safe and healthy for you before you start. [LEGAL REVIEW]', 'Este plan es información general de acondicionamiento físico, basada en buenas prácticas generales de entrenamiento. No es un plan de un médico y ningún profesional de la salud lo adaptó a ti. Consulta a un profesional de la salud para asegurarte de que es seguro y saludable para ti antes de empezar. [REVISIÓN LEGAL]'],
-  'ui.plan.health_warning_reasons': ['You told us: {reasons}.', 'Nos dijiste: {reasons}.'],
+  'ui.plan.health_warning_reasons': ['Why you see this: {reasons}.', 'Por qué ves esto: {reasons}.'],
+  'refer.reason.health_check': ['A yes on the health check', 'Un sí en la revisión de salud'],
   'ui.plan.health_warning_short': ['Health warning: not a plan from a doctor. See a medical professional to make sure it is safe for you. [LEGAL REVIEW]', 'Advertencia de salud: no es un plan de un médico. Consulta a un profesional de la salud para asegurarte de que es seguro para ti. [REVISIÓN LEGAL]'],
+  'ui.plan.health_check_flagged': ['Health check: answered; you said yes to at least one question. Read the health warning at the top of this plan.', 'Revisión de salud: respondida; respondiste que sí a al menos una pregunta. Lee la advertencia de salud al inicio de este plan.'],
   'why.health_flag': ['Built with a health warning: a health-check answer no longer stops the plan', 'Creado con una advertencia de salud: una respuesta de la revisión de salud ya no detiene el plan'],
   // ---- R5-GRD-06: the core block is optional and adjustable
   'block.optional_suffix': ['(optional: you may switch it off or change it)', '(opcional: puedes desactivarlo o cambiarlo)'],

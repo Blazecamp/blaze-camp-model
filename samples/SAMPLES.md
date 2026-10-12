@@ -25,6 +25,21 @@ Weekly sets are counted the coach's way, on all days, for the first and the last
 | 07 Push / pull / legs | `aesthetics.6/ppl_x2`, L3, 6-8 exercises | 122 -> 161 (weeks 1-12). | quads 20 -> 25; hips 20.5 -> 25.25; back 22 -> 27; chest 22 -> 27.5; shoulders 23 -> 25.5; biceps 15.5 -> 22.75; triceps 15 -> 25; calves 6 -> 10 | none | none |
 | 08 Pickleball, 52, knee pain | `athletic.2`, L1, 5-10 exercises | 34 -> 42 (weeks 1-12). | quads 6; hips 7 -> 8; back 6 -> 8; chest 6 -> 8; shoulders 6.25 -> 8; biceps 1.5 -> 2; triceps 1.5 -> 2; calves 6 -> 8 | two_day_rule, credit_only_groups, pain_plan | none |
 
+## Grades
+
+The coach's grades (round 5) sit beside the AI coach-eye grades. He graded the plans of engine 0.6 (the branch the questionnaire linked); his notes on the B+ plans are rules for engine 0.7 (COACH-R5 R5-GRD-03, 04, 05, 06, 08 in `coach_answers_round5.md`).
+
+| Sample | AI coach-eye, third review (engine 0.5) | The coach's grades (round 5) | His note |
+|---|---|---|---|
+| 01 Swimming | B | **A** | - |
+| 02 Football | B | **A** | - |
+| 03 Soccer | B | **B+** | jumps progress from two-leg and low to single-leg hurdle hops, never single-leg hurdle hops first (R5-GRD-03) |
+| 04 CrossFit-style class | B- | **B+** | the workouts popular in the CrossFit community: Girls, Heroes, benchmarks (R5-GRD-04) |
+| 05 Bootcamp | B- | **B+** | vary the format: station by station and rounds (circuits) (R5-GRD-05) |
+| 06 Full-body aesthetics (A/B) | B | **B+** | the core work is optional; everything adjustable (R5-GRD-06) |
+| 07 Push / pull / legs | B+ | **A** | - |
+| 08 Pickleball, 52, knee pain | B+ | **B+** | with knee pain, assisted jumps first; skip jumps above 6 of 10 pain (R5-GRD-08) |
+
 ## What every plan is in v0.5
 
 - **Built from the coach's templates and sized by exercise count** (R4-SES-02, R4-SES-05). The count leaves out the warm-up, the 2 core exercises, joint care, skill practice, conditioning and cardio.

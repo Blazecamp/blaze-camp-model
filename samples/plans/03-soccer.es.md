@@ -58,6 +58,7 @@ Las superseries de core son opcionales en cualquier parte: puedes juntar un ejer
 - Tú (o tu entrenador) puedes desactivar estos bloques cualquier día: saltos, lanzamientos y velocidad; potencia / olímpicos; core (abdomen); cardio; accesorios. También puedes agregar o quitar ejercicios (por ejemplo, más trabajo de deltoides posterior). Usa las superseries sugeridas para ahorrar tiempo.
 - Desactivar el bloque de accesorios quita todas las series directas de hombros, bíceps, tríceps y pantorrillas.
 - Tú (o tu entrenador) también puedes cambiar las series de cualquier ejercicio en cualquier día o semana: el plan es una plantilla.
+- El bloque de core es opcional: puedes desactivarlo o cambiar sus ejercicios cualquier día. Todo en este plan se puede ajustar.
 - El tiempo que aparece en cada día es un estimado promedio, solo como información: nada de este plan se recorta ni se cambia por tiempo. ¿Quieres un día más corto? Usa las superseries sugeridas o quita lo que el día marca como más fácil de quitar.
 
 ## Extras opcionales
@@ -323,7 +324,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -423,7 +424,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Rotaciones con landmine, de pie o arrodillado (Landmine Rotations) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rotaciones desde posición de oso / cangrejo pasando la pierna (Break Dancers) (mantiene el trabajo de core; pierde la carga extra) / Swings rotacionales con kettlebell, impulsados por el tronco (Rotational KB Swings) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
@@ -526,7 +527,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -613,7 +614,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
@@ -648,7 +649,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -743,7 +744,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Rotaciones con landmine, de pie o arrodillado (Landmine Rotations) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rotaciones desde posición de oso / cangrejo pasando la pierna (Break Dancers) (mantiene el trabajo de core; pierde la carga extra) / Swings rotacionales con kettlebell, impulsados por el tronco (Rotational KB Swings) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
@@ -840,7 +841,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -922,7 +923,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
@@ -957,7 +958,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1052,7 +1053,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Rotaciones con landmine, de pie o arrodillado (Landmine Rotations) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rotaciones desde posición de oso / cangrejo pasando la pierna (Break Dancers) (mantiene el trabajo de core; pierde la carga extra) / Swings rotacionales con kettlebell, impulsados por el tronco (Rotational KB Swings) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
@@ -1149,7 +1150,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -1231,7 +1232,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
@@ -1268,7 +1269,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1363,7 +1364,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Rotaciones con landmine, de pie o arrodillado (Landmine Rotations) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rotaciones desde posición de oso / cangrejo pasando la pierna (Break Dancers) (mantiene el trabajo de core; pierde la carga extra) / Swings rotacionales con kettlebell, impulsados por el tronco (Rotational KB Swings) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
@@ -1462,7 +1463,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -1545,7 +1546,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
@@ -1582,7 +1583,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1677,7 +1678,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Rotaciones con landmine, de pie o arrodillado (Landmine Rotations) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rotaciones desde posición de oso / cangrejo pasando la pierna (Break Dancers) (mantiene el trabajo de core; pierde la carga extra) / Swings rotacionales con kettlebell, impulsados por el tronco (Rotational KB Swings) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
@@ -1776,7 +1777,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -1859,7 +1860,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
@@ -1899,7 +1900,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1995,7 +1996,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Rotaciones con landmine, de pie o arrodillado (Landmine Rotations) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rotaciones desde posición de oso / cangrejo pasando la pierna (Break Dancers) (mantiene el trabajo de core; pierde la carga extra) / Swings rotacionales con kettlebell, impulsados por el tronco (Rotational KB Swings) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
@@ -2095,7 +2096,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -2176,7 +2177,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
@@ -2205,7 +2206,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -2302,7 +2303,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Rotaciones con landmine, de pie o arrodillado (Landmine Rotations) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rotaciones desde posición de oso / cangrejo pasando la pierna (Break Dancers) (mantiene el trabajo de core; pierde la carga extra) / Swings rotacionales con kettlebell, impulsados por el tronco (Rotational KB Swings) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
@@ -2387,7 +2388,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -2471,7 +2472,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
@@ -2500,7 +2501,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -2597,7 +2598,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Rotaciones con landmine, de pie o arrodillado (Landmine Rotations) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rotaciones desde posición de oso / cangrejo pasando la pierna (Break Dancers) (mantiene el trabajo de core; pierde la carga extra) / Swings rotacionales con kettlebell, impulsados por el tronco (Rotational KB Swings) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
@@ -2682,7 +2683,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral en estrella (Star Side Plank) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -2766,7 +2767,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
@@ -2778,7 +2779,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 
 ---
 
-_Modelo 1.3.0 · Motor 0.6.0_
+_Modelo 1.3.0 · Motor 0.7.0_
 
 Responsabilidad liberada: los términos y la liberación de responsabilidad se aceptaron antes de crear este plan. No es consejo médico. Úsalo bajo tu propio riesgo. Entrena dentro de tus límites. Términos completos: Aviso legal y liberación de responsabilidad. [Lee el aviso legal y la liberación de responsabilidad completos](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.es.md)
 

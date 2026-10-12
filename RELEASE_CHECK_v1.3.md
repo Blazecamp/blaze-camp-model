@@ -11,7 +11,7 @@ This is the last search for retired ideas that are still written as if they were
 - **Tests: 1,407 tests, 1,401 pass, 0 fail,** 4 to-do, 2 skipped. Before this check one test failed, because the spec had been edited after the last compile. The model was recompiled; only the spec's version and hash changed.
 - **Benchmark: 102 plans, mean 97.67, lowest 89.35,** 3 hard-rule violations in 2 plans. A fresh run on the final files gives the stored result plan for plan.
 - **Sample plans: 8 of 8 build with no failing check.** AI reviewers grade them B- to B+. **2 of 8 reach the goal of B+.** The coach has not graded them.
-- **Not final yet:** the attorney's review of the legal text, the coach's grades, his certifications, his approval of the Spanish, and a decision on the old sheet exports that still hold other people's video links.
+- **Not final yet:** the attorney's review of the legal text (now including the new health warning, R5-GEN-02) and his approval of the Spanish. **Settled in round 5 (2026-10-12):** his grades of the 8 samples (A for 01, 02, 07; B+ for 03, 04, 05, 06, 08), his credentials ("Master NASM coach" only, R5-PUB-02), and the old sheet exports (kept public, link-stripped, checked for client names: none found, R5-PUB-01).
 
 ## 1. What was checked
 
@@ -184,7 +184,7 @@ A score is the scorer's number, not a coach grade. The scorer was corrected thre
 
 ## 6. Final grade of each sample plan
 
-The grades are from AI "coach-eye" reviewers who read each plan against the coach's sheets and answers. They are not the coach's grades. There were three reviews, with an engine fix round after the first and after the second. No engine change followed the third review, and the plans in `samples/plans/` are the ones it read, so the third review is the final grade. The grades are recorded in `README.md`, `HANDOFF.md`, `docs/06-history/roadmap.md` and `docs/06-history/timeline.md`, and those four agree. The review texts themselves are not in the repository, so this check could confirm the record but not re-read the reviews.
+The grades are from AI "coach-eye" reviewers who read each plan against the coach's sheets and answers. They are not the coach's grades. **Update 2026-10-12, the coach's grades (round 5):** 01 Swimming A, 02 Football A, 03 Soccer B+, 04 CrossFit-style class B+, 05 Bootcamp B+, 06 Full-body aesthetics B+, 07 Push / pull / legs A, 08 Pickleball B+ (R5-GRD-01 ... 08; he read the engine 0.6 plans). There were three reviews, with an engine fix round after the first and after the second. No engine change followed the third review, and the plans in `samples/plans/` are the ones it read, so the third review is the final grade. The grades are recorded in `README.md`, `HANDOFF.md`, `docs/06-history/roadmap.md` and `docs/06-history/timeline.md`, and those four agree. The review texts themselves are not in the repository, so this check could confirm the record but not re-read the reviews.
 
 | Sample | Review 1 | Review 2 | **Final (review 3)** | Benchmark score | Benchmark rows that fail | Failing engine checks |
 |---|---|---|---|---|---|---|
@@ -208,19 +208,19 @@ Current weekly sets of each sample, computed from the plan files, are in `sample
 1. **`DISCLAIMER.md` and `DISCLAIMER.es.md`.** Both are drafts and say so at the top.
 2. **The release wording printed on every plan** and the wording of the terms a person accepts before a plan is built, in English and Spanish, including the version for a parent or guardian of a minor (R4-SCP-01, R4-SCP-02).
 3. **One box or separate ticks** for own risk, terms and release.
-4. **The health check wording** and the coach's skip warning (placeholders marked LEGAL REVIEW in the data).
+4. **The health check wording** and the coach's skip warning (placeholders marked LEGAL REVIEW in the data). **Added in round 5:** the health warning a flagged plan now prints instead of stopping (R5-GEN-02: `ui.plan.health_warning`, `_short`, `warning.health_flag`, EN and ES, marked `[LEGAL REVIEW]` in the text; `engine/DECISIONS.md` G-270 ... G-274). The attorney review is deferred; it does not block the engine work.
 5. **The Blaze Camp name.** The team's reading is that the MIT license covers copyright and not the name.
-6. **Third-party video links still in the public repository** (not in the model): `raw/`, `dumps/`, `analysis/`, `synthesis/02_exercise_catalog_crosswalk.json` (185) and `design/scratch/snap*/` (4 files, 136 each). Keep those files public, strip the links, or leave the files out of the public release.
-7. **Client names.** A check of the sheet exports in `raw/` and `dumps/` for names of real clients has not been done.
+6. **Third-party video links in the public repository: done (R5-PUB-01, 2026-10-12).** The coach chose to keep the files public and strip the links. Every third-party video link in `raw/MASTER_MODEL.xlsx` (cell text and hyperlink targets; `raw/BYOP.xlsx` had none), `dumps/`, `analysis/`, `synthesis/02_exercise_catalog_crosswalk.json` and `design/scratch/snap*/` is replaced with `[video link removed]`. `model/` did not change. `tests/v07-words.test.mjs` checks it.
+7. **Client names: checked (R5-PUB-01).** No client name, roster, e-mail address or phone number was found in the workbooks, their dumps or `analysis/` (the names present are the coach's, public figures used as program or drill names, and cited authors). Nothing needed removing.
 
 ### The coach
 
-1. **His certifications.** `README.md` and `MODEL_CARD.md` carry a marked placeholder. Nothing was looked up or invented (R4-REL-03).
-2. **His grades for the 8 sample plans** (R2-GEN-07). Only AI reviewers have graded them.
-3. **The decision in item 6 above** is his as well as the attorney's (R4-LIB-05).
+1. **His credentials: done (R5-PUB-02).** "Master NASM coach" only; the placeholder is removed from `README.md` and `MODEL_CARD.md`, nothing added.
+2. **His grades for the 8 sample plans: done (round 5).** The coach's grades (round 5): A for 01, 02, 07; B+ for 03, 04, 05, 06, 08 (R5-GRD-01 ... 08).
+3. **The decision in item 6 above: done** (R5-PUB-01: keep public, strip the links).
 4. **The 14 open questions** at the end of `samples/STATUS_v0.5.md` (for example: the chest credit of a high-incline press; single-leg work on athletic A / B days; the scale for 2- and 3-day athletic weeks; pulling against pressing).
 5. **One new question from this check.** Must jumps, throws, cuts and sprint metres climb every week, or may they hold for some weeks the way sets may (CX-02)? The engine makes them climb, on a round-3 answer that was partly retired (section 4, row 9).
-6. **The readings marked "yes" in `BLAZE_CAMP_BRAIN.md` §0d.3**, where two of his answers pull against each other. The main ones: on his A / B days biceps and triceps have one exercise each (R4-SES-05 against his earlier "never one exercise"); which exercises are the 7th and 8th of an A / B day; whether a health-check flag should still stop a plan now that "everyone" may use the plans (R4-SCP-01).
+6. **The readings marked "yes" in `BLAZE_CAMP_BRAIN.md` §0d.3**, where two of his answers pull against each other. The main ones: on his A / B days biceps and triceps have one exercise each (R4-SES-05 against his earlier "never one exercise"); which exercises are the 7th and 8th of an A / B day; whether a health-check flag should still stop a plan now that "everyone" may use the plans (R4-SCP-01) - **answered in round 5: it does not stop, it warns (R5-GEN-02); engine 0.7 builds the plan with a health warning. Open for him: severe pain is planned with the moderate pain rules and the same warning (PROPOSED, G-271).**
 7. **The Spanish.** He has approved none of it yet. 842 machine-translated lines, mostly exercise names and cues, are listed in `model/i18n/es_review.json`.
 
 ### The lead, before the commit

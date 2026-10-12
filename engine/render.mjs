@@ -355,8 +355,8 @@ function ownRiskShort(plan, model, o) {
 /**
  * engine 0.7 (COACH-R5 R5-GEN-02 'it should warn them: this is not a plan from a doctor that can be tailored to you by a medical
  * professional. You need to seek a medical professional to make sure that this is okay for you'; DECISIONS G-270, G-274): a plan
- * built with a health-check flag (or severe pain) prints the warning right under the release line - the full line with the answers
- * that raised it in the full and overview views, the short line in the block / week / day views. Wording [LEGAL REVIEW].
+ * built with a health-check flag (or severe pain) prints the warning right under the release line - the full line with what raised it
+ * ('a yes on the health check' and / or 'severe pain'; never which question, G-274) in the full and overview views, the short line in the block / week / day views. Wording [LEGAL REVIEW].
  */
 function healthWarning(plan, model, o, short) {
   const HF = (model.rules.legal && model.rules.legal.health_flag) || null;
@@ -477,8 +477,13 @@ function headerLines(plan, model, o) {
       L.push('- ' + esc(model.t(o.lang, 'ui.plan.release_stamp', { version, lang: langName })));
     }
   }
+  const HFst = model.rules.legal && model.rules.legal.health_flag;
   if (m.health && m.health.bypass) L.push('- ' + t('ui.plan.coach_bypass_stamp'));
-  else if (m.health && has(model, 'ui.plan.health_check_ok')) {
+  else if (m.health && m.health.warn && HFst && HFst.stamp_key && has(model, HFst.stamp_key)) {
+    // engine 0.7 (COACH-R5 R5-GEN-02; G-274): a flagged plan never says 'nothing in it asked for a doctor first'
+    const pq = model.rules.legal.parq_url;
+    L.push('- ' + t(HFst.stamp_key) + (pq && has(model, 'ui.plan.parq_link') ? ' [' + t('ui.plan.parq_link') + '](' + pq + ')' : ''));
+  } else if (m.health && has(model, 'ui.plan.health_check_ok')) {
     // F3 (COACH-R3 R3-GEN-01: our short health check with a link to the official PAR-Q+; RECHECK 08 minor: nothing said the health
     // check was answered): the health check line with the PAR-Q+ link
     const pq = model.rules.legal && model.rules.legal.parq_url;

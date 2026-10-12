@@ -3,8 +3,6 @@
 A complete coaching model from the experience of **Coach Lalo (Gerardo Vera), Master NASM coach**. It holds his exercise library, his categories, his programming rules, his sport profiles and his own answers to 218 questions, written so that people and AI agents can read it, check it and build on it. It also holds an experimental engine that turns a short intake (goal, sport, experience, training days, equipment) into a complete, editable training template in English or Spanish.
 
 > **Author and owner.** This model is the work and the intellectual property of Coach Lalo (Gerardo Vera). It is his coaching experience, condensed and consolidated, and the way he thinks through putting a program together (COACH-R4 R4-REL-03). "Blaze Camp" is the name and the culture behind it. He shares it under the MIT license so that anyone can use it in their own training or their own app.
->
-> **Certifications:** `[PLACEHOLDER: Coach Lalo's list of certifications goes here. He supplies it. Nothing has been looked up or invented.]`
 
 One page that sums up what this is, who it is for and where its limits are: [MODEL_CARD.md](MODEL_CARD.md).
 
@@ -13,7 +11,7 @@ One page that sums up what this is, who it is for and where its limits are: [MOD
 | Part | Status | What that means |
 |---|---|---|
 | **Model v1.3** | **Complete** | Every answer the coach has given is applied and can be traced to its source: four questionnaire rounds (140 + 45 + 13 + 20 questions) and two later clarifications (CT-01 and CX-01..04). "Complete" does not mean every number is his. What he confirmed and what is still proposed is listed in [MODEL_CARD.md](MODEL_CARD.md). |
-| **Engine v0.5** | **Experimental** | It builds a complete plan for any valid intake from the coach's own day templates, sized by exercise count, with no time-fitting. Its measured results are below. AI reviewers grade the 8 sample plans B- to B+. **The coach has not graded them yet.** |
+| **Engine v0.5** | **Experimental** | It builds a complete plan for any valid intake from the coach's own day templates, sized by exercise count, with no time-fitting. Its measured results are below. AI reviewers grade the 8 sample plans B- to B+. **The coach's grades (round 5): A for 3 samples, B+ for 5** (table below). |
 | Disclaimers and release text | Drafts | They need review by a licensed Florida attorney before the release is called final. |
 | Spanish | Not yet approved by the coach | The team reviewed the plan-facing lines for neutral Latin American wording. 842 machine-translated lines (mostly exercise names and cues) are marked for the coach's review. |
 | Website or form | Not built, by decision | The model and the logic come first. |
@@ -40,18 +38,18 @@ How to read these numbers:
 - Rules that hold in every benchmark plan they apply to: the floor of 10 sets and the 2-day rule, the coach's templates slot for slot, session size, final sets reached (or the plan says how far the template holds the group), no week with fewer sets than the week before, no time fields, progression written as a rule, the library rules, the liability gate, and the same plan every time for the same intake.
 - What still fails somewhere: the 3 hard-rule violations (one CrossFit plan with more jumps than its target in two weeks, and one MYO set that the scorer and the engine place on different exercises), athletic work under the sport's weekly target in 45 of the 63 athletic plans, and 35 shortfalls in 30 plans that the plan does not yet say in words.
 
-**Sample plan grades.** AI "coach-eye" reviewers read each sample plan the way the coach would and graded it up to three times, with an engine fix round after the first and the second review. They are not the coach. A sample that already met the goal was not read again, and its grade is carried over.
+**Sample plan grades.** AI "coach-eye" reviewers read each sample plan the way the coach would and graded it up to three times, with an engine fix round after the first and the second review. They are not the coach. A sample that already met the goal was not read again, and its grade is carried over. The last column is **the coach's grades (round 5)**: Coach Lalo graded the 8 sample plans himself (COACH-R5 R5-GRD-01 ... 08, [coach_answers_round5.md](coach_answers_round5.md)); his notes on the B+ plans became rules.
 
-| Sample | Review 1 | Review 2 | Review 3 (latest) |
-|---|---|---|---|
-| 01 Swimming | B- | B- | B |
-| 02 Football | C+ | B | B |
-| 03 Soccer | C+ | B- | B |
-| 04 CrossFit-style class | C+ | B- | B- |
-| 05 Bootcamp | B- | B- | B- |
-| 06 Full-body aesthetics (A/B days) | C+ | B | B |
-| 07 Push / pull / legs | B | B+ | B+ |
-| 08 Pickleball, 52, knee pain | C | B | B+ |
+| Sample | Review 1 | Review 2 | Review 3 (AI, latest) | The coach's grades (round 5) |
+|---|---|---|---|---|
+| 01 Swimming | B- | B- | B | **A** |
+| 02 Football | C+ | B | B | **A** |
+| 03 Soccer | C+ | B- | B | **B+** |
+| 04 CrossFit-style class | C+ | B- | B- | **B+** |
+| 05 Bootcamp | B- | B- | B- | **B+** |
+| 06 Full-body aesthetics (A/B days) | C+ | B | B | **B+** |
+| 07 Push / pull / legs | B | B+ | B+ | **A** |
+| 08 Pickleball, 52, knee pain | C | B | B+ | **B+** |
 
 The goal in [design/ENGINE_V05_PLAN.md](design/ENGINE_V05_PLAN.md) is B+ or better on every sample. Two of eight are there. The known gaps and the open questions for the coach are at the end of `samples/STATUS_v0.5.md`.
 

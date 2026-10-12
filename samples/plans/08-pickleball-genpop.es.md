@@ -59,6 +59,7 @@ Las superseries de core son opcionales en cualquier parte: puedes juntar un ejer
 - Tú (o tu entrenador) puedes desactivar estos bloques cualquier día: saltos, lanzamientos y velocidad; potencia / olímpicos; core (abdomen); cardio; cuidado articular; accesorios. También puedes agregar o quitar ejercicios (por ejemplo, más trabajo de deltoides posterior). Usa las superseries sugeridas para ahorrar tiempo.
 - Desactivar el bloque de accesorios quita todas las series directas de hombros, bíceps, tríceps y pantorrillas.
 - Tú (o tu entrenador) también puedes cambiar las series de cualquier ejercicio en cualquier día o semana: el plan es una plantilla.
+- El bloque de core es opcional: puedes desactivarlo o cambiar sus ejercicios cualquier día. Todo en este plan se puede ajustar.
 - El tiempo que aparece en cada día es un estimado promedio, solo como información: nada de este plan se recorta ni se cambia por tiempo. ¿Quieres un día más corto? Usa las superseries sugeridas o quita lo que el día marca como más fácil de quitar.
 
 ## Extras opcionales
@@ -210,7 +211,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -303,7 +304,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
@@ -387,7 +388,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -425,7 +426,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -515,7 +516,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
@@ -595,7 +596,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -633,7 +634,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -723,7 +724,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
@@ -803,7 +804,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -841,7 +842,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -931,7 +932,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1011,7 +1012,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1053,7 +1054,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1142,7 +1143,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1220,7 +1221,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1258,7 +1259,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1347,7 +1348,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1425,7 +1426,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1463,7 +1464,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1552,7 +1553,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1630,7 +1631,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1668,7 +1669,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1757,7 +1758,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1835,7 +1836,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1877,7 +1878,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -1966,7 +1967,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
@@ -2044,7 +2045,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -2082,7 +2083,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -2171,7 +2172,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
@@ -2249,7 +2250,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -2289,7 +2290,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -2378,7 +2379,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
@@ -2456,7 +2457,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -2496,7 +2497,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -2585,7 +2586,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. 5 min de cualquier cardio
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha lateral (Side Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
@@ -2663,7 +2664,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 **Calentamiento**
 1. 5 min de cualquier cardio
 
-**Core / abdomen**
+**Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
 1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
@@ -2680,7 +2681,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 
 ---
 
-_Modelo 1.3.0 · Motor 0.6.0_
+_Modelo 1.3.0 · Motor 0.7.0_
 
 Responsabilidad liberada: los términos y la liberación de responsabilidad se aceptaron antes de crear este plan. No es consejo médico. Úsalo bajo tu propio riesgo. Entrena dentro de tus límites. Términos completos: Aviso legal y liberación de responsabilidad. [Lee el aviso legal y la liberación de responsabilidad completos](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.es.md)
 

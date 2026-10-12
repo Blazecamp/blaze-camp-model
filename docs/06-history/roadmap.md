@@ -1,6 +1,6 @@
 # Roadmap: what is done, what is open, what comes next
 
-On 2026-10-11 the model is complete at version 1.3: four rounds of the coach's answers and his two later clarifications are applied and traced, and 52 sports and 26 activities are covered. The plan engine is at version 0.5 and is labelled experimental. It builds complete plans from his own templates with no time-fitting, passes its tests and checks, and its 8 sample plans get B- to B+ from AI reviewers. The coach has not graded them. The large optimizer planner that this page used to list as the next step is parked. Next come the coach's own review of the sample plans, his answers to 14 open questions, more engine work on athletic doses, the review of the Spanish and of the legal texts, and only then the tool that people will see. Nothing in this roadmap changes a coaching rule. Plans and estimates here are the team's, and they are marked PROPOSED or INFERRED where he has not confirmed them.
+On 2026-10-11 the model is complete at version 1.3: four rounds of the coach's answers and his two later clarifications are applied and traced, and 52 sports and 26 activities are covered. The plan engine is at version 0.5 and is labelled experimental. It builds complete plans from his own templates with no time-fitting, passes its tests and checks, and its 8 sample plans get B- to B+ from AI reviewers. Update 2026-10-12: the coach graded them in round 5 (A for 3, B+ for 5; table below). The large optimizer planner that this page used to list as the next step is parked. Next come the coach's own review of the sample plans, his answers to 14 open questions, more engine work on athletic doses, the review of the Spanish and of the legal texts, and only then the tool that people will see. Nothing in this roadmap changes a coaching rule. Plans and estimates here are the team's, and they are marked PROPOSED or INFERRED where he has not confirmed them.
 
 > **How to read this page.** The status is a snapshot of 2026-10-11. The steps that led here are on [timeline.md](timeline.md). For anything that moves, read the live file named in the row. **The team** means the people working with the coach plus the AI agents they ran. A **coach-eye reviewer** is an AI agent that reads a plan the way the coach would. It is not the coach. Ids such as `R2-GEN-07` point to his answers: no prefix is round 1, `R2-` is round 2, `R3-` is round 3, `R4-` is round 4, `CT-01` is his clarification on session time and `CX-01` to `CX-04` are his clarifications on progression and editing.
 
@@ -47,7 +47,7 @@ On 2026-10-11 the model is complete at version 1.3: four rounds of the coach's a
 | Decision records | [docs/04-decisions/](../04-decisions/index.md) | ADR-001 to ADR-058 |
 | Engine 0.5: template-first, no time-fitting, the same plan every time, English or Spanish | [engine/](../../engine/), [model/](../../model/), [tests/](../../tests/) | Experimental. Results below |
 | A benchmark with a scorer written separately from the engine | [design/bench/](../../design/bench/) | 94 intakes plus the 8 samples |
-| Eight sample clients and their plans | [samples/intakes/](../../samples/intakes/), [samples/plans/](../../samples/plans/) | His seven plus a pickleball player. Not graded by him |
+| Eight sample clients and their plans | [samples/intakes/](../../samples/intakes/), [samples/plans/](../../samples/plans/) | His seven plus a pickleball player. Graded by him in round 5: A for 3, B+ for 5 |
 | An outside review of the model's evidence, and an independent audit of the progression arithmetic | [reviews/](../../reviews/) | Findings against his answers are "for discussion" |
 | The research for a larger optimizer planner | [design/](../../design/) | Parked. Kept as research |
 
@@ -69,26 +69,26 @@ All numbers are from [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md) and 
 
 The targets are the team's, from [design/ENGINE_V05_PLAN.md](../../design/ENGINE_V05_PLAN.md) ("Done means"). They are not his numbers. Two targets of the earlier roadmap are retired: "no flat week on a trained group" (a week may hold the same sets while reps or load progress, CX-02) and "every day inside the chosen minutes" (CT-01).
 
-| Sample | Who | AI grade, third review |
-|---|---|---|
-| Swimming | A 16-year-old high-school swimmer, 3 gym days | B |
-| Football | A 20-year-old college linebacker, 4 days | B |
-| Soccer | A 22-year-old midfielder 10 weeks before the season, 3 days. Spanish output | B |
-| CrossFit-style class | A 35-year-old class member, 4 days | B- |
-| Bootcamp | A 42-year-old general-population client, 3 circuit days, dumbbells and kettlebells. Spanish output | B- |
-| Full-body aesthetics | A 29-year-old, 4 days, his A/B days | B |
-| Push / pull / legs | A 24-year-old, 6 days | B+ |
-| Pickleball (bonus) | A 52-year-old who plays 3 times a week, 2 gym days, knee pain. Also in Spanish | B+ |
+| Sample | Who | AI grade, third review | The coach's grades (round 5) |
+|---|---|---|---|
+| Swimming | A 16-year-old high-school swimmer, 3 gym days | B | **A** |
+| Football | A 20-year-old college linebacker, 4 days | B | **A** |
+| Soccer | A 22-year-old midfielder 10 weeks before the season, 3 days. Spanish output | B | **B+** |
+| CrossFit-style class | A 35-year-old class member, 4 days | B- | **B+** |
+| Bootcamp | A 42-year-old general-population client, 3 circuit days, dumbbells and kettlebells. Spanish output | B- | **B+** |
+| Full-body aesthetics | A 29-year-old, 4 days, his A/B days | B | **B+** |
+| Push / pull / legs | A 24-year-old, 6 days | B+ | **A** |
+| Pickleball (bonus) | A 52-year-old who plays 3 times a week, 2 gym days, knee pain. Also in Spanish | B+ | **B+** |
 
-The first seven are the ones he named (R2-GEN-07). The pickleball player is the team's addition. **The plans in [samples/plans/](../../samples/plans/) are not approved by him. Do not treat them as examples of his programming.**
+The first seven are the ones he named (R2-GEN-07). The pickleball player is the team's addition. **The coach's grades (round 5)** are in the last column (COACH-R5 R5-GRD-01 ... 08); his notes on the B+ plans are rules for engine 0.7. The plans in [samples/plans/](../../samples/plans/) are not yet approved by him as examples of his programming: treat them as graded drafts.
 
 ## Next, in order
 
 | # | Step | Who | Done when |
 |---|---|---|---|
 | 1 | Consolidate: commit engine 0.5 and model v1.3, and merge into `main` | Lead | `main` holds the release (R4-REL-01) |
-| 2 | Supply his list of certifications | Coach | The marked placeholder in the README and the model card is filled |
-| 3 | Grade the sample plans | Coach | He signs off, or his corrections become new rules and tests |
+| 2 | His credentials | Coach | **Done (R5-PUB-02):** "Master NASM coach" only; the placeholder is removed, nothing added |
+| 3 | Grade the sample plans | Coach | **Done (round 5):** A for 01, 02, 07; B+ for 03, 04, 05, 06, 08. His B+ notes become rules and tests (engine 0.7) |
 | 4 | Answer the open questions below | Coach | Each one is his rule, or stays PROPOSED |
 | 5 | Engine: athletic doses, saying every shortfall, the last hard-rule violations, the class and bootcamp samples | Team | Every sample grades B+ or better and the benchmark has no hard-rule violation |
 | 6 | Review the Spanish | Coach or a coach he trusts | Every line approved (R2-GEN-08) |
@@ -100,7 +100,7 @@ Step 5 and the estimates below are the team's plan (PROPOSED). Steps 2, 3, 4, 6,
 
 ### Decisions only he can make
 
-**His certifications.** He said he has many and that they could be looked up (R4-REL-03). The team did not look them up and did not invent any. He supplies the list.
+**His credentials.** Decided in round 5: "Master NASM coach" only, as written (R5-PUB-02). The placeholder for a longer list is removed; the team adds nothing.
 
 **Fourteen questions from the engine work.** They are written out in [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md). Until he answers, the engine's choice is PROPOSED.
 
@@ -197,17 +197,17 @@ He approved releasing the model as the finished product with the engine labelled
 | 1 | MIT license in the repo, in his name, Blaze Camp and BFit Studios Corp. | Done | R3-GEN-01 |
 | 2 | README says: at your own expense and risk; if you use it for other people, have your own liability release | Done, in English and Spanish | R3-GEN-01 |
 | 3 | The README credits him as author and owner, with no "best" claim and no injury-prevention claim | Done | R4-REL-03 |
-| 4 | His list of certifications | **Open.** A marked placeholder waits for him | R4-REL-03 |
+| 4 | His credentials | **Done.** "Master NASM coach" only, as he wrote it; the placeholder is removed and nothing was added | R4-REL-03, R5-PUB-02 |
 | 5 | Disclaimers in English and Spanish | Drafts | R3-GEN-01 |
 | 6 | **A licensed Florida attorney reviews both disclaimers** and the release wording, and confirms the Spanish is legally equivalent | **Open** | The files themselves; R3-GEN-01 |
 | 7 | The terms and release are accepted before any plan is built, and every plan prints the release line | Done in the engine | R4-SCP-01, R4-SCP-02 |
 | 8 | The model is complete and consolidated on `main` | Model v1.3 complete. The merge is the lead's step | R4-REL-01 |
 | 9 | The engine is clearly labelled experimental | Done in the README, the model card and the handoff | R4-REL-01 |
-| 10 | He grades the sample plans | Open | R2-GEN-07 |
-| 11 | The sample plans in the repo are ones he approved | Open. They carry AI grades only | Team (PROPOSED) |
+| 10 | He grades the sample plans | **Done** (round 5: A for 01, 02, 07; B+ for 03, 04, 05, 06, 08) | R2-GEN-07, R5-GRD-01 ... 08 |
+| 11 | The sample plans in the repo are ones he approved | Open. He graded them (round 5); his B+ notes are being applied | Team (PROPOSED) |
 | 12 | The Spanish is approved line by line | Open (842 lines) | R2-GEN-08 |
-| 13 | No third-party video links in the public data | Done for the compiled model and the library source. **Open** for the sheet exports (`raw/`, `dumps/`), the first-pass files in `analysis/`, `synthesis/02_exercise_catalog_crosswalk.json` and the old model snapshots in `design/scratch/snap*/`, which still hold them | R4-LIB-05 |
-| 14 | He decides whether the sheet exports in `raw/` and `dumps/` stay in the public repo | Open. He has said the repo may include copies of his sheets "so people can download it and play with it." | Conversation |
+| 13 | No third-party video links in the public data | **Done.** The compiled model and the library source never held them; the sheet exports (`raw/`, `dumps/`), the first-pass files in `analysis/`, `synthesis/02_exercise_catalog_crosswalk.json` and the old model snapshots in `design/scratch/snap*/` are link-stripped (each link replaced with `[video link removed]`, 2026-10-12) | R4-LIB-05, R5-PUB-01 |
+| 14 | He decides whether the sheet exports in `raw/` and `dumps/` stay in the public repo | **Done.** They stay public, link-stripped and checked for client names (none found) | R5-PUB-01 |
 | 15 | The sheet exports are checked for client names and for content that is not his (the half-marathon plan credited to someone else) | Open | Team (PROPOSED). See [source-sheets.md](source-sheets.md) |
 | 16 | The lawyer advises on the Blaze Camp name. The MIT license covers copyright. It does not grant rights in the name | Open | Team (INFERRED, 13 §8) |
 | 17 | README and AGENTS show the current versions and no retired feature | Done on 2026-10-11 | Team |

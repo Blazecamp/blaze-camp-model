@@ -195,7 +195,7 @@ How these edits will look on screen is PROPOSED ([ADR-005](../04-decisions/adr-0
 - It will not screen your clients for you, and its release does not cover them ([DISCLAIMER.md](../../DISCLAIMER.md) §5).
 - It will not teach technique. Each exercise has a YouTube search link and its name to copy; those videos are not his. The cues are his words only where he wrote them (GEN-07, R4-LIB-05).
 - It will not manage your clock. Session time is yours and your client's (CT-01).
-- It is not graded yet. He has not graded the sample plans. The plan engine (version 0.5) is young: read [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md) for its known gaps.
+- He graded the sample plans once (round 5: A for 3, B+ for 5); his notes on the B+ plans are being applied. The plan engine (version 0.5) is young: read [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md) for its known gaps.
 
 ## If you disagree with a rule
 

@@ -263,7 +263,7 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Hardest** (`HARDEST`). The label for the last weeks of a stairway. "On a 12-week program, the last 4 weeks are going to be brutal" (R2-PER-04).
 
-**Health check**. A short set of questions before a plan is built. Five answers stop the automatic plan and refer the person to a professional: chest pain or heart issues; surgery or a fracture in the last 6 months; pregnant or gave birth in the last 6 months; an injury under treatment; a doctor said no (R2-GEN-03). The final text will be written by a lawyer in English and Spanish, with a link to the official PAR-Q+ (R3-GEN-01). A coach may skip it with a legal warning. Open for the coach after round 4: he said "Everyone should be able to use the plan on their own" with the release (R4-SCP-01), so whether these answers should still stop a plan is a question for him. Today they do.
+**Health check**. A short set of questions before a plan is built. Since round 5 (R5-GEN-02) a yes no longer stops the plan: the plan is built with a health warning to see a medical professional first. The five questions: chest pain or heart issues; surgery or a fracture in the last 6 months; pregnant or gave birth in the last 6 months; an injury under treatment; a doctor said no (R2-GEN-03). The final text will be written by a lawyer in English and Spanish, with a link to the official PAR-Q+ (R3-GEN-01). A coach may skip it with a legal warning. Open for the coach after round 4: he said "Everyone should be able to use the plan on their own" with the release (R4-SCP-01), so whether these answers should still stop a plan is a question for him. Today they do.
 
 **Helper**. A muscle that assists the main mover. It gets 0.25 of a set (VOL-09).
 

@@ -302,7 +302,7 @@ One short record per decision: the rule, who decided it, what else was considere
 | `engine/` | The plan engine in plain JavaScript, version 0.5: template-first, no time-fitting. | Yes, per [AGENTS.md](../AGENTS.md) |
 | `tools/` | Command-line tools: compile the model, check it, generate the samples | Yes |
 | `tests/` | The test suites. Run with `node --test tests/`. | Yes |
-| `samples/` | 8 sample clients (`intakes/`) and the plans generated for them (`plans/`), with `STATUS_v0.5.md` (what the engine does, test counts, known gaps). Drafts. He has not graded them. | Intakes yes; plans are generated |
+| `samples/` | 8 sample clients (`intakes/`) and the plans generated for them (`plans/`), with `STATUS_v0.5.md` (what the engine does, test counts, known gaps). Drafts. The coach's grades (round 5): A for 01, 02, 07; B+ for 03, 04, 05, 06, 08. | Intakes yes; plans are generated |
 | `design/` | Team notes: `ENGINE_V05_PLAN.md` (the plan engine 0.5 was built from), the benchmark in `design/bench/`, and research for a large optimizer planner that was **not built** (`PLANNER_SPEC.md`, `IMPLEMENTATION_PLAN.md`, diagnosis, the rules written as constraints) | Team |
 | `workflows/` | The multi-agent scripts used to build and check the model | Rarely |
 
@@ -456,7 +456,7 @@ His sheets keep his own spelling inside quotes ('SAGITAL', 'TRIPPLE EXTENSION').
 |---|---|
 | The numbers and mechanics marked PROPOSED or INFERRED | [parameters](05-reference/parameters.md); [decision records](04-decisions/index.md), last table |
 | What engine 0.5 still does not do, and the open readings of round 4 | [samples/STATUS_v0.5.md](../samples/STATUS_v0.5.md); [ADR-058](04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md); [changes across rounds](03-coach-answers/changes-across-rounds.md), open readings; [roadmap](06-history/roadmap.md) |
-| His grades of the sample plans | [roadmap](06-history/roadmap.md). He has not graded them yet. |
+| His grades of the sample plans | [roadmap](06-history/roadmap.md). Round 5: A for 01, 02, 07; B+ for 03, 04, 05, 06, 08 ([coach_answers_round5.md](../coach_answers_round5.md)). |
 | His approval of the Spanish lines | [ADR-007](04-decisions/adr-007-bilingual-english-first-full-spanish.md) |
 | Attorney review of the disclaimer, health check and release | [ADR-009](04-decisions/adr-009-mit-license-and-disclaimers.md), [ADR-010](04-decisions/adr-010-health-check-and-release-every-build.md), [ADR-056](04-decisions/adr-056-liability-gate-before-every-plan.md) |
 

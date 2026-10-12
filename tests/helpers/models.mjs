@@ -33,6 +33,20 @@ export function loadFixtureModel() {
   return fixtureModel;
 }
 
+let noFlagModel = null;
+/**
+ * engine 0.7 (COACH-R5 R5-GEN-02; DECISIONS G-270): the fixture without rules.legal.health_flag - the model shape of engine 0.6, on
+ * which a health-check flag still stops the plan (status refer). Kept to test that retired path. (cached) @returns {object}
+ */
+export function loadModelWithoutHealthFlag() {
+  if (!noFlagModel) {
+    const raw = cloneFixtureRaw();
+    delete raw.rules.legal.health_flag;
+    noFlagModel = loadModel(raw);
+  }
+  return noFlagModel;
+}
+
 /** read a compiled model directory (model/manifest.json + the files it lists) @param {string} [dir] @returns {object|null} raw */
 export function readModelDir(dir = MODEL_DIR) {
   const mf = path.join(dir, 'manifest.json');

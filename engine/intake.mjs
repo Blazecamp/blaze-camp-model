@@ -547,7 +547,8 @@ export function validateIntake(intake, model) {
  * F01 health screen with the coach bypass (V1; R2-GEN-03). Severe pain is always read, even with the coach bypass.
  * engine 0.7 (COACH-R5 R5-GEN-02 'It doesn't stop because we're not taking on any liability, but it should warn them'; DECISIONS
  * G-270 ... G-273): with a model whose rules.legal.health_flag.on_flag is 'warn', a flag no longer refers - the plan is built and
- * carries the health warning (`warn: true`, the reasons kept for the printed line). Without a model (or with on_flag 'refer') the
+ * carries the health warning (`warn: true`; the reasons say 'a yes on the health check' and / or 'severe pain', never which health
+ * question was a yes, G-274). Without a model (or with on_flag 'refer') the
  * retired stop of engine 0.6 is returned: `refer: true` on any reason.
  * @param {object} intake (normalized or raw intake/2)
  * @param {object} [model] the loaded model (reads rules.legal.health_flag)
@@ -561,7 +562,16 @@ export function safetyScreen(intake, model) {
   }
   if (intake && Array.isArray(intake.pain) && intake.pain.some(p => p && p.severity === 'severe')) reasons.push('refer.reason.severe_pain');
   const warnMode = healthFlagMode(model) === 'warn';
-  return { refer: !warnMode && reasons.length > 0, warn: warnMode && reasons.length > 0, reasons, bypass };
+  if (warnMode) {
+    // G-274 (spec legal_and_privacy.no_data_kept.health_answers 'never in the plan', R3-GEN-01): the plan that is built never says
+    // which health question was a yes - every yes is the one reason rules.legal.health_flag.answer_reason_key; severe pain is named
+    const HF = model.rules.legal.health_flag;
+    const named = reasons.filter(r => !SAFETY_KEYS.some(k => r === `refer.reason.${k}`));
+    const anyYes = named.length < reasons.length;
+    const out = [...(anyYes && HF.answer_reason_key ? [HF.answer_reason_key] : anyYes ? reasons.filter(r => !named.includes(r)) : []), ...named];
+    return { refer: false, warn: out.length > 0, reasons: out, bypass };
+  }
+  return { refer: reasons.length > 0, warn: false, reasons, bypass };
 }
 
 /** 'warn' (R5-GEN-02: build the plan with the warning) or 'refer' (the retired stop) - rules.legal.health_flag.on_flag */

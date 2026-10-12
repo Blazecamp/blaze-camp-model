@@ -58,6 +58,7 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 - You (or your coach) can switch off these blocks on any day: jumps, throws and speed; power / Olympic lifts; core; conditioning; cardio; accessories. You can also add or remove exercises (more rear-delt work, for example). Use the suggested supersets to save time.
 - Switching off the accessories block takes away every direct set for Biceps, Triceps and Calves.
 - You (or your coach) can also change the sets of any exercise on any day or week: the plan is a template.
+- The core block is optional: you may switch it off or change its exercises on any day. Everything in this plan is adjustable.
 - The time shown on each day is an average estimate, for information only: nothing in this plan is cut or changed because of time. Want a shorter day? Use the suggested supersets, or remove what the day lists as easiest to remove.
 
 ## Optional add-ons
@@ -259,7 +260,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -363,7 +364,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -457,7 +458,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
@@ -483,7 +484,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
@@ -581,7 +582,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -671,7 +672,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
@@ -707,7 +708,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -803,7 +804,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -887,7 +888,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
@@ -914,7 +915,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
@@ -1005,7 +1006,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -1091,7 +1092,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
@@ -1127,7 +1128,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -1223,7 +1224,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -1307,7 +1308,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
@@ -1334,7 +1335,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
@@ -1425,7 +1426,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -1511,7 +1512,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
@@ -1547,7 +1548,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -1643,7 +1644,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -1727,7 +1728,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
@@ -1754,7 +1755,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
@@ -1845,7 +1846,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -1931,7 +1932,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
@@ -1973,7 +1974,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -2066,7 +2067,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -2148,7 +2149,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
@@ -2175,7 +2176,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
@@ -2264,7 +2265,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -2348,7 +2349,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
@@ -2384,7 +2385,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -2477,7 +2478,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -2559,7 +2560,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
@@ -2586,7 +2587,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
@@ -2675,7 +2676,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -2759,7 +2760,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
@@ -2795,7 +2796,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -2888,7 +2889,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -2970,7 +2971,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
@@ -2997,7 +2998,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
@@ -3086,7 +3087,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -3170,7 +3171,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
@@ -3206,7 +3207,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -3299,7 +3300,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -3381,7 +3382,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
@@ -3408,7 +3409,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
@@ -3497,7 +3498,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Runs (high-knee running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
@@ -3581,7 +3582,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
@@ -3623,7 +3624,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -3717,7 +3718,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -3802,7 +3803,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
@@ -3829,7 +3830,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: V-Up (keeps the core work; loses the added load) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Sit-Up) · Name to copy into YouTube: `Weighted Sit-Up`
@@ -3921,7 +3922,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -4005,7 +4006,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
@@ -4042,7 +4043,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -4136,7 +4137,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -4221,7 +4222,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
@@ -4248,7 +4249,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: V-Up (keeps the core work; loses the added load) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Sit-Up) · Name to copy into YouTube: `Weighted Sit-Up`
@@ -4340,7 +4341,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -4424,7 +4425,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
@@ -4464,7 +4465,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -4558,7 +4559,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -4643,7 +4644,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
@@ -4670,7 +4671,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: V-Up (keeps the core work; loses the added load) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Sit-Up) · Name to copy into YouTube: `Weighted Sit-Up`
@@ -4762,7 +4763,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -4846,7 +4847,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
@@ -4885,7 +4886,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
@@ -4983,7 +4984,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Side Plank (elbow)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
@@ -5073,7 +5074,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
@@ -5099,7 +5100,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Weighted Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: V-Up (keeps the core work; loses the added load) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Sit-Up) · Name to copy into YouTube: `Weighted Sit-Up`
@@ -5192,7 +5193,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Swap for: A-March (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
@@ -5276,7 +5277,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 **Warm-up**
 1. 5 min any cardio
 
-**Core**
+**Core (optional: you may switch it off or change it)**
 1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
    - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
@@ -5289,7 +5290,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 
 ---
 
-_Model 1.3.0 · Engine 0.6.0_
+_Model 1.3.0 · Engine 0.7.0_
 
 Liability released: the terms and the release were accepted before this plan was built. Not medical advice. Use at your own risk. Train within your limits. Full terms: Disclaimer and Release of Liability. [Read the full disclaimer and release](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md)
 

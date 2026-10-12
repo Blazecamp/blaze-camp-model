@@ -1,4 +1,4 @@
-# Blaze Camp plan generator — engine CONTRACTS (Phase 0, binding) — v1.1 (engine 0.5.0 amendments on top: V1, V2, V3, V4; engine 0.6.0 box on top of them)
+# Blaze Camp plan generator — engine CONTRACTS (Phase 0, binding) — v1.1 (engine 0.5.0 amendments on top: V1, V2, V3, V4; engine 0.6.0 box on top of them; engine 0.7.0 box on top of all)
 
 Status: **binding for Phase 0** ("freeze the model"). Version `contracts/1.1.1`, 2026-10-09 (integration step; 1.1.0 by the
 architect, 2026-10-08). The 1.1.1 amendments resolve `engine/CONTRACT_REQUESTS.md`; each is marked **[1.1.1]** below and listed in §11.
@@ -6,6 +6,34 @@ The plan schema name stays `plan/2` and `manifest.contracts_version` stays `1.1.
 Supersedes `contracts/1.0.0` (written before round 2 was answered). Every builder (B1-B4, `engine/BUILD_PLAN.md`) implements
 exactly the shapes, names and signatures below. If something here is wrong or missing, **do not silently diverge**: implement
 the closest compliant thing, write the issue to `engine/CONTRACT_REQUESTS.md` and in your final report under `problems`.
+
+> **Engine 0.7.0, work package "safety gate, printed words, public files" (coach_answers_round5.md; 2026-10-12) - binding, on top
+> of every box below.** Layer `tools/fixture/v07-words.mjs` (both builds, after the v0.6 layers); DECISIONS G-270 ... G-279; tests
+> `tests/v07-words.test.mjs`. No intake field changes (`intake/2`); the plan schema stays `plan/2`.
+> * **A health-check flag no longer stops the plan (COACH-R5 R5-GEN-02).** New rules key `rules.legal.health_flag {on_flag: 'warn' |
+>   'refer', warning_code, warning_key, label_key, line_key, reasons_key, short_key, stamp_key, reason_prefix, answer_reason_key, severe_pain {build_as,
+>   warn, status}, coach_routes {coach_screen, coach_own_sop}, gate_unchanged, legal_review, refs, status}`. With `on_flag: 'warn'`
+>   `generate` returns **status `ok`** with weeks for an intake whose health answers or pain would have referred in engine 0.6;
+>   `plan.refer` is `null`; `meta.health` adds **`warn: boolean`** (`{role, health_route, refer: false, warn, reasons, bypass}`;
+>   `reasons` hold `refer.reason.health_check` for any yes on the health check - never which question, G-274 - and / or
+>   `refer.reason.severe_pain`); `meta.warnings` adds `{code: 'health_flag', key:
+>   'warning.health_flag'}`; the why is `why.health_flag` (ref `R5-GEN-02`). **Status `refer` is retired** for this model: it is
+>   returned only by a model without `rules.legal.health_flag` (or with `on_flag: 'refer'`), and on this model V1 fails a refer plan.
+> * **Severe pain (PROPOSED, G-271):** `severity: 'severe'` is still accepted by `intake/2`; it is planned with the pain rules of
+>   `health_flag.severe_pain.build_as` (`moderate`), the derived pain item keeps `reported_severity: 'severe'`, and the plan carries the
+>   same health warning with `refer.reason.severe_pain` (also with `coach_own_sop`, where the health answers are not read).
+> * **Order unchanged (H20, R4-SCP-02):** the release is validated first - no accepted release, status `invalid`, no weeks, whatever
+>   the health answers. Then the health screen, then the plan.
+> * **Function:** `safetyScreen(intake, model?) -> {refer, warn, reasons, bypass}` (the model argument selects the mode; without it,
+>   the engine 0.6 stop). New export `healthFlagMode(model) -> 'warn' | 'refer'`.
+> * **Render:** the full and overview views print `> **Health warning.** Why you see this: ... <warning>` under the release line; block /
+>   week / day views print the short line under the short release line; the 'Before you start' stamp uses `stamp_key`; the notices
+>   list does not repeat it (`rules.render.v7.health_warning_up_front`). The four lines are legal copy marked `[LEGAL REVIEW]`.
+> * **Core block printed as optional (COACH-R5 R5-GRD-06, G-275):** `rules.render.v7 {core_optional {kinds, heading_suffix_key,
+>   guide_key, refs}, health_warning_up_front, refs, status}`; words only, the core block is still built by default (H05).
+> * **Checks:** V1 reads `health_flag` (rules `refer_retired_health_flag_warns`, `health_flag_without_warn`, `health_warning_missing`,
+>   `health_warn_without_reasons`, `health_answer_in_plan`, `severe_pain_reason_missing`, `severe_pain_not_built_as`); V21 adds `health_warning_words` /
+>   `health_reason_words` (EN + ES); H20 unchanged. `validation.checks[V1|V21].v07` describe them. `ENGINE_VERSION` is `0.7.0`.
 
 > **Engine 0.6.0 (2026-10-11) - binding, on top of every box below.** `ENGINE_VERSION` is `0.6.0`: the volume package (box below;
 > `tools/fixture/v06-volume.mjs`, DECISIONS G-100 ... G-119), the selection package (`tools/fixture/v06-select.mjs`:
@@ -1033,7 +1061,9 @@ form; when the engine is called directly it keeps the first 2 and warns V8);
 **Warnings**: 105/120 min for a non-competitive client (clamped to 90, `warning.minutes_competitive_only`), split style
 not available for the days (`warning.split_style_unavailable`).
 **Refer** (plan `status: 'refer'`, no weeks): any `safety.*` true when `role == self` or `health_route == coach_screen`; any pain
-`severity == "severe"` (always, also with the coach bypass) (V1).
+`severity == "severe"` (always, also with the coach bypass) (V1). **[0.7.0] Retired by COACH-R5 R5-GEN-02:** with
+`rules.legal.health_flag.on_flag: 'warn'` the same answers build the plan (status `ok`) with the health warning, and severe pain is
+planned with the moderate pain rules (PROPOSED); see the engine 0.7.0 box at the top of this file.
 
 ### 2.2 Check-in (`checkin/2`) - RETIRED in engine 0.4.0 (R3-VOL-02 'we're only doing outputs'); kept for reference only
 

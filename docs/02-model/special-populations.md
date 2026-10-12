@@ -203,7 +203,7 @@ There are no check-ins and no pain log (R3-VOL-02, R3-GEN-01). So pain is handle
 
 ### 5.3 The health check comes first
 
-**Rule.** Before any plan, a short health check sends some people to a professional instead of giving them a plan (approved, R2-GEN-03).
+**Rule.** Before any plan, a short health check (approved, R2-GEN-03). Since round 5 a yes no longer stops the plan: the plan is built with a clear warning to see a medical professional first (R5-GEN-02).
 
 | No automatic plan if the person has |
 |---|

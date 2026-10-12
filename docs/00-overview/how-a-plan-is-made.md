@@ -278,7 +278,7 @@ After an edit the weekly totals are recounted and the plan is marked as edited. 
 | At least 2 sets on every exercise, which puts some groups above 10 in week 1 | PROPOSED |
 | Counting a set at most once for a group such as hips or shoulders | PROPOSED |
 | The "feels like" number for each week | The 2 and the 11 are his (R2-PER-05). The numbers in between are the team's display. |
-| The exact exercise in each slot | The engine's picks on 2026-10-11. They can change. He has not graded them. |
+| The exact exercise in each slot | The engine's picks. They can change. He graded the 8 sample plans in round 5 (A for 3, B+ for 5). |
 
 ## Where it lives in the data
 

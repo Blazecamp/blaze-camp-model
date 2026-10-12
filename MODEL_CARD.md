@@ -8,8 +8,6 @@ A complete coaching model from the experience of **Coach Lalo (Gerardo Vera), Ma
 
 **Author and owner.** The model is Coach Lalo's intellectual property: his experience, condensed and consolidated, and his way of thinking through a program (COACH-R4 R4-REL-03). The team's job was to capture it faithfully, not to design it.
 
-**Certifications:** `[PLACEHOLDER: Coach Lalo's list of certifications goes here. He supplies it. Nothing has been looked up or invented.]`
-
 ## Who it is for
 
 | Reader | Use |
@@ -35,7 +33,7 @@ A complete coaching model from the experience of **Coach Lalo (Gerardo Vera), Ma
 - **A plan is a template, built once.** There are no check-ins, no tracking and no stored data, so nothing adapts to how the person responds. The person or their coach adjusts it. Session time is theirs too: the plan is sized by exercise count and prints an average time as information only (COACH-CT CT-01).
 - **Few inputs, on purpose.** No sex field, no sleep, stress or lifestyle questions. No bands or variable resistance.
 - **A template holds only so many sets.** When a day layout cannot take a muscle group to its planned final number, the group is held at what the exercises can hold, and the plan says so. Nothing is added or dropped to force the number.
-- **The engine is experimental.** It passes its own tests and checks, but the coach has not graded its plans. AI reviewers grade the 8 sample plans B- to B+. Athletic work (jumps, throws, sprints, Olympic sets) is often under the sport's weekly target. Details: [samples/STATUS_v0.5.md](samples/STATUS_v0.5.md).
+- **The engine is experimental.** It passes its own tests and checks. AI reviewers grade the 8 sample plans B- to B+; the coach's grades (round 5) are A for 01 swimming, 02 football and 07 push / pull / legs, and B+ for 03 soccer, 04 CrossFit-style class, 05 bootcamp, 06 full-body aesthetics and 08 pickleball (COACH-R5 R5-GRD-01 ... 08). A health-check answer of yes no longer stops a plan: the plan is built with a health warning (R5-GEN-02). Athletic work (jumps, throws, sprints, Olympic sets) is often under the sport's weekly target. Details: [samples/STATUS_v0.5.md](samples/STATUS_v0.5.md).
 - **An edited plan loses the generated plan's guarantees.** Edits recompute the totals and mark the plan as edited. They are not re-checked against every rule.
 - **Spanish is partly machine-translated** (842 lines are marked for the coach's review, and he has not approved any Spanish yet). **The legal texts are drafts** for a Florida attorney.
 

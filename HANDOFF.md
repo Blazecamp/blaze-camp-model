@@ -46,7 +46,7 @@ The decision records for these are ADR-050 to ADR-058 in [docs/04-decisions/](do
 | Model v1.3 (`BLAZE_CAMP_BRAIN.md`, `generator_spec_v1.json`, `synthesis/`, `docs/`, compiled `model/` 1.3.0) | **Complete.** Rounds 1 to 4, CT-01 and CX-01..04 are applied. `coverage_matrix*.md` trace each answer. Complete does not mean every number is his: see "Confirmed and proposed" in `MODEL_CARD.md`. |
 | Exercise library | 733 runtime exercises compiled from 939 source records (`synthesis/02_exercise_catalog.json`). 32 are optional add-ons. 2 neck records stay proposed and are never shown. |
 | Sports and activities | 127 profiles, 52 sports, 26 "stay athletic and active" activities. Confidence labels: 23 confirmed by the coach, 67 based on a similar sport, 37 proposed. |
-| Engine 0.5.0 (`engine/`, `tests/`, `samples/`, `tools/`) | **Experimental.** Template-first, no time-fitting. All tests pass. The coach has not graded its plans. Results below. |
+| Engine 0.5.0 (`engine/`, `tests/`, `samples/`, `tools/`) | **Experimental.** Template-first, no time-fitting. All tests pass. The coach graded the 8 sample plans in round 5 (A for 3, B+ for 5). Results below. |
 | Docs | Front door: `README.md`, `MODEL_CARD.md`, this file, `AGENTS.md`, `REVIEW_GUIDE.md`, `CODEX_BRIEF.md`. Guides in `docs/`. |
 | License and disclaimers | MIT in `LICENSE`. `DISCLAIMER.md` and `DISCLAIMER.es.md` are drafts and **need a Florida attorney's review**. |
 | Spanish | The team reviewed the plan-facing lines for neutral Latin American wording. The coach has not approved any Spanish yet. 842 machine-translated lines (mostly exercise names and cues) are marked for his review (`model/i18n/es_review.json`). |
@@ -66,6 +66,7 @@ From [samples/STATUS_v0.5.md](samples/STATUS_v0.5.md) and [design/bench/V05.md](
 | Benchmark, 102 plans, scorer 2.3 | Mean 97.67, lowest 89.35. 3 hard-rule violations in 2 plans. 53 plans pass every row |
 | Benchmark, engine 0.4 baseline (older scorer) | Mean 64.4, lowest 27.6. 2,228 hard-rule violations. 1 plan passed every row |
 | AI coach-eye grades, third review | 01 Swimming B, 02 Football B, 03 Soccer B, 04 CrossFit-style class B-, 05 Bootcamp B-, 06 Full-body aesthetics B, 07 Push / pull / legs B+, 08 Pickleball B+ |
+| The coach's grades (round 5) | 01 Swimming **A**, 02 Football **A**, 03 Soccer **B+**, 04 CrossFit-style class **B+**, 05 Bootcamp **B+**, 06 Full-body aesthetics **B+**, 07 Push / pull / legs **A**, 08 Pickleball **B+** (COACH-R5 R5-GRD-01 ... 08, `coach_answers_round5.md`; his notes on the B+ plans are rules for engine 0.7) |
 
 Read the numbers with care:
 
@@ -84,8 +85,8 @@ Read the numbers with care:
 ## Next steps, in order
 
 1. **Lead: consolidate.** Review the working tree, run the pipeline from clean (`node tools/fixture/build-fixture.mjs`, `node tools/compile-model.mjs`, `node tools/check-model.mjs`, `node --test tests/`, `node tools/generate-samples.mjs`), commit, and merge into `main` when satisfied. The coach approved this in R4-REL-01: "go ahead and finish it all, and then after you're done, consolidate everything."
-2. **Coach: his certifications.** `README.md` and `MODEL_CARD.md` carry a marked placeholder. Nothing was looked up or invented.
-3. **Coach: grade the 8 sample plans** (R2-GEN-07). His corrections become rules and tests.
+2. **Done (round 5): his credentials.** "Master NASM coach" only, as he wrote it (R5-PUB-02). The placeholder is removed from `README.md` and `MODEL_CARD.md`; nothing was added.
+3. **Done (round 5): he graded the 8 sample plans** (R5-GRD-01 ... 08: A for 01, 02, 07; B+ for 03, 04, 05, 06, 08). His notes on the B+ plans become rules and tests (engine 0.7 work packages).
 4. **Coach: the 14 open questions** at the end of `samples/STATUS_v0.5.md`. Examples: the chest credit of a high-incline press, single-leg work on athletic A/B days, the scale for 2- and 3-day athletic weeks, whether every plan holds pulling at or above pressing.
 5. **Engine, toward B+ on every sample:**
    - The athletic layer: jumps, throws, cuts, sprint metres and Olympic sets are under the sport's weekly target in 45 of the 63 athletic benchmark plans. 4 to-do tests are open there.
@@ -99,8 +100,8 @@ Read the numbers with care:
 6. **Before the public release is called final:**
    - attorney review of both disclaimers and of the release wording
    - the coach's review of the Spanish
-   - third-party video links: they are gone from `model/` and the library source, but remain in the sheet exports (`raw/`, `dumps/`), in `analysis/`, in `synthesis/02_exercise_catalog_crosswalk.json` (185 links) and in the old model snapshots under `design/scratch/snap/` and `design/scratch/snap_instr/` (136 links in each of 4 files). Decide whether those files stay public as they are (R4-LIB-05)
-   - a check of the sheet exports for client names
+   - **done (R5-PUB-01, 2026-10-12):** third-party video links are stripped from the sheet exports (`raw/MASTER_MODEL.xlsx`, `dumps/`), `analysis/`, `synthesis/02_exercise_catalog_crosswalk.json` and the old model snapshots under `design/scratch/snap*/`, each replaced with `[video link removed]`; the files stay public as the link-stripped exports. They were checked for client names and contact details: none found (`engine/DECISIONS.md` G-276; checked by `tests/v07-words.test.mjs`)
+   - the wording of the new health warning (R5-GEN-02: a health-check flag builds the plan with a warning instead of stopping it) joins the attorney's list
    - advice on the Blaze Camp name (the team's reading is that the MIT license covers copyright and not the name)
    - optional: map exercise ids to open databases (free-exercise-db, wger) for images and instructions
 7. **Then, and only then, the tool people will see** (the website or form). It is not started. Proposal: `synthesis/13_product_options.md`.
@@ -127,7 +128,7 @@ If the coach later wants plans fitted to something the templates cannot express,
 
 ## Validation limits
 
-- The sample grades are from AI reviewers, not from the coach.
+- The coach graded the 8 sample plans once (round 5). The fix rounds after that are graded by AI reviewers until he grades again.
 - The benchmark scorer is a team tool. A score is not a coach grade.
 - Edited plans: `engine/edit.mjs` recomputes totals, marks the plan `edited` and discards the old validation. It does not promise that an arbitrary edit still follows every rule.
 - No website, account system, personal-data storage or adaptive tracking exists. Accounts, stored personal data and adaptive tracking must never be added. The website comes last (next steps, item 7).

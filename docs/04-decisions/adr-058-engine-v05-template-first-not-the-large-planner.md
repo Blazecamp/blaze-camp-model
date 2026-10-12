@@ -4,7 +4,7 @@ The plan engine was rebuilt as version 0.5 around the coach's own templates. It 
 
 | | |
 |---|---|
-| **Status** | Accepted (team). Engine 0.5.0 is built and tested. The coach has not graded its sample plans. |
+| **Status** | Accepted (team). Engine 0.5.0 is built and tested. The coach graded its sample plans in round 5 (A for 3, B+ for 5). |
 | **Decided by** | Team, 2026-10-11, in [design/ENGINE_V05_PLAN.md](../../design/ENGINE_V05_PLAN.md). Follows the coach: CT-01, R4-SES-01 to R4-SES-05, R4-REL-01, R4-REL-02 |
 | **Replaces** | [ADR-048](adr-048-optimizer-rebuild-of-the-planner.md): rebuild the planner as an optimizer |
 
